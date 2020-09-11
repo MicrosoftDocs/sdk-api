@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 82a1a390-50b1-4699-9baa-60cea322ce7c
 ms.date: 12/05/2018
 ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], ITocEntry interface [Media Foundation],described, codecapi.itocentry, mf.itocentry, wmcodecdsp/ITocEntry
-f1_keywords:
-- wmcodecdsp/ITocEntry
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocEntry
+ - wmcodecdsp/ITocEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocEntry
 ---
 
 # ITocEntry interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITocEntry</b> interface represents an individual entry in a table of contents. It provides methods for setting and retrieving descriptive information for the entry.
-
 
 ## -inheritance
 
@@ -141,20 +140,13 @@ Sets the title of the entry.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
- 
-
- 
 

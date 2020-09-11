@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: e458c430-855c-419b-aa50-144d2b422e78
 ms.date: 12/05/2018
 ms.keywords: All DDBLT_ALPHA flag values, All DDBLT_ZBUFFER flag values, Blt, Blt method [DirectDraw], Blt method [DirectDraw],IDirectDrawSurface7 interface, DDBLT_ASYNC, DDBLT_COLORFILL, DDBLT_DDFX, DDBLT_DDROPS, DDBLT_DEPTHFILL, DDBLT_DONOTWAIT, DDBLT_KEYDEST, DDBLT_KEYDESTOVERRIDE, DDBLT_KEYSRC, DDBLT_KEYSRCOVERRIDE, DDBLT_ROP, DDBLT_ROTATIONANGLE, DDBLT_WAIT, IDirectDrawSurface7 interface [DirectDraw],Blt method, IDirectDrawSurface7.Blt, IDirectDrawSurface7::Blt, ddraw/IDirectDrawSurface7::Blt, directdraw.idirectdrawsurface7_blt
-f1_keywords:
-- ddraw/IDirectDrawSurface7.Blt
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.Blt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::Blt
+ - ddraw/IDirectDrawSurface7::Blt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.Blt
 ---
 
 # IDirectDrawSurface7::Blt
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a bit block transfer (bitblt). This method does not support z-buffering or alpha blending during bitblt operations.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt to on the destination surface. If this parameter is NULL, the entire destination surface is used.
 
-
 ### -param arg2 [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
 
-
 ### -param arg3 [in]
 
 A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface. If this parameter is NULL, the entire source surface is used.
-
 
 ### -param arg4 [in]
 
@@ -175,15 +168,11 @@ Not currently implemented.
 
 This method does not currently support z-aware bitblt operations. None of the flags beginning with "DDBLT_ZBUFFER" are supported.
 
-
 ### -param arg5 [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure for the bitblt.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -212,11 +201,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_WASSTILLDRAWING</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 <b>Blt</b> can perform synchronous or asynchronous bitblts (the latter is the default behavior). These bitblts can occur from display memory to display memory, from display memory to system memory, from system memory to display memory, or from system memory to system memory. The bitblts can be performed by using source color keys and destination color keys. Arbitrary stretching or shrinking is performed if the source and destination rectangles are not the same size.
 
@@ -228,16 +213,7 @@ RECT structures are defined so that the right and bottom members are exclusive�
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Blt</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

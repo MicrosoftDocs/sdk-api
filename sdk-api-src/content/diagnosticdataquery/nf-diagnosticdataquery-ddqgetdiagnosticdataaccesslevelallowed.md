@@ -4,7 +4,7 @@ title: DdqGetDiagnosticDataAccessLevelAllowed
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticDataAccessLevelAllowed
 ms.topic: language-reference
-description: Returns the highest available data access level for the API caller. This can be NoData, CurrentUserData or AllUserData. 
+description: Returns the highest available data access level for the API caller. This can be NoData, CurrentUserData or AllUserData.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
@@ -36,18 +36,24 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticDataAccessLevelAllowed
+f1_keywords:
+ - DdqGetDiagnosticDataAccessLevelAllowed
+ - diagnosticdataquery/DdqGetDiagnosticDataAccessLevelAllowed
 ---
 
 ## -description
-Returns the highest available data access level for the API caller. This can be NoData, CurrentUserData or AllUserData. 
+
+Returns the highest available data access level for the API caller. This can be NoData, CurrentUserData or AllUserData.
 
 ## -parameters
 
 ### -param accessLevel
+
 Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquery/ne-diagnosticdataquerytypes-ddqaccesslevel)**
-This output parameter is a pointer to the highest access level available for the API caller. 
+This output parameter is a pointer to the highest access level available for the API caller.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 

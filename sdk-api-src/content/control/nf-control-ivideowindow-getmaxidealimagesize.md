@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ee9f6803-c8b8-48e0-9be0-3d61a453014e
 ms.date: 12/05/2018
 ms.keywords: GetMaxIdealImageSize, GetMaxIdealImageSize method [DirectShow], GetMaxIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMaxIdealImageSize method, IVideoWindow.GetMaxIdealImageSize, IVideoWindow::GetMaxIdealImageSize, IVideoWindowGetMaxIdealImageSize, control/IVideoWindow::GetMaxIdealImageSize, dshow.ivideowindow_getmaxidealimagesize
-f1_keywords:
-- control/IVideoWindow.GetMaxIdealImageSize
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.GetMaxIdealImageSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::GetMaxIdealImageSize
+ - control/IVideoWindow::GetMaxIdealImageSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.GetMaxIdealImageSize
 ---
 
 # IVideoWindow::GetMaxIdealImageSize
@@ -50,33 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetMaxIdealImageSize</code> method retrieves the maximum ideal image size for the video image.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pWidth [out]
 
 Receives the maximum ideal width, in pixels.
-          
-
 
 ### -param pHeight [out]
 
 Receives the maximum ideal height, in pixels.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -130,14 +117,8 @@ Filter is stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The maximum ideal size may differ from the native video size, because the video hardware might have specific stretching requirements.
 
@@ -151,9 +132,6 @@ This method returns S_FALSE under various circumstances:
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
@@ -163,7 +141,4 @@ This method returns S_FALSE under various circumstances:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-getminidealimagesize">IVideoWindow::GetMinIdealImageSize</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 8de3e4e3-f3bc-4a98-8a11-cc5b4db9027f
 ms.date: 12/05/2018
 ms.keywords: RtmLockRoute, RtmLockRoute function [RAS], _rtmv2ref_rtmlockroute, rras.rtmlockroute, rtmv2/RtmLockRoute
-f1_keywords:
-- rtmv2/RtmLockRoute
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmLockRoute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmLockRoute
+ - rtmv2/RtmLockRoute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmLockRoute
 ---
 
 # RtmLockRoute function
@@ -49,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmLockRoute</b> function locks or unlocks a route in the routing table. This protects the route while a client makes the necessary changes to the opaque route pointers owned by the client.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param RouteHandle [in]
 
 Handle to the route to lock.
-
 
 ### -param Exclusive [in]
 
 Specifies whether to lock or unlock the route in an exclusive (<b>TRUE</b>) or shared (<b>FALSE</b>) mode.
 
-
 ### -param LockRoute [in]
 
 Specifies whether to lock or unlock the route. Specify <b>TRUE</b> to lock the route; specify <b>FALSE</b> to unlock it.
-
 
 ### -param RoutePointer [out]
 
@@ -89,10 +81,7 @@ If a pointer must be returned: On input, <i>RoutePointer</i> is a pointer to <b>
 
 If a handle does not need to be returned: On input, <i>RoutePointer</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -131,13 +120,7 @@ The handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 Do not call any other RTMv2 functions until the route is unlocked by a call to 
 <b>RtmLockRoute</b> and the <i>LockRoute</i> parameter is set to <b>FALSE</b>, or a call to 
@@ -151,13 +134,7 @@ Clients can only change the <b>Neighbour</b>, <b>PrefInfo</b>, <b>BelongsToViews
 If any of these values are changed, the client must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmupdateandunlockroute">RtmUpdateAndUnlockRoute</a> to notify the routing table manager of the changes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>
 
@@ -180,7 +157,4 @@ If any of these values are changed, the client must call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmupdateandunlockroute">RtmUpdateAndUnlockRoute</a>
- 
-
- 
 

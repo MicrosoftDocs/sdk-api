@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2E23A137-0C5B-4ce9-8100-758C7E17753B
 ms.date: 12/05/2018
 ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], IDataObjectAsyncCapability interface [Windows Shell],described, shell.IDataObjectAsyncCapability, shldisp/IDataObjectAsyncCapability
-f1_keywords:
-- shldisp/IDataObjectAsyncCapability
-dev_langs:
-- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDataObjectAsyncCapability
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataObjectAsyncCapability
+ - shldisp/IDataObjectAsyncCapability
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDataObjectAsyncCapability
 ---
 
 # IDataObjectAsyncCapability interface
 
 
 ## -description
-
 
 Enables interfaces that are usually synchronous to function asynchronously.
         
@@ -115,18 +115,13 @@ Called by a drop target to indicate that asynchronous data extraction is startin
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IDataObjectAsyncCapability</b> is an optional interface that is implemented by a data object. It allows the drop target to negotiate with the drop source to extract data from the data object asynchronously.
 
 This interface is primarily exported by the data objects used with drag-and-drop and Clipboard operations. Typically, such operations are synchronous. However, if data rendering will be time-consuming, <b>IDataObjectAsyncCapability</b> can be used to allow data extraction to take place on a background thread. See the <i>Dragging and Dropping Shell Objects Asynchronously</i> section of <a href="https://docs.microsoft.com/windows/desktop/shell/datascenarios">Handling Shell Data Transfer Scenarios</a> for a detailed discussion of how to use this interface.
 
 Drop sources and targets use this interface when they wish to have a lengthy data extraction process handled by a background thread.
-
-
 

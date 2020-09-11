@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 06dca62d-282b-4bdd-bc8d-4d2e6eb226b5
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSmimeCapabilities, IX509ExtensionSmimeCapabilities interface [Security], IX509ExtensionSmimeCapabilities interface [Security],described, certenroll/IX509ExtensionSmimeCapabilities, security.ix509extensionsmimecapabilities
-f1_keywords:
-- certenroll/IX509ExtensionSmimeCapabilities
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionSmimeCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionSmimeCapabilities
+ - certenroll/IX509ExtensionSmimeCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionSmimeCapabilities
 ---
 
 # IX509ExtensionSmimeCapabilities interface
 
 
 ## -description
-
 
 The <b>IX509ExtensionSmimeCapabilities</b> interface can be used to report the decryption capabilities of an email recipient to an email sender so that  the sender can choose the most secure algorithm supported by both parties. The following syntax shows the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the certificate request.
 <pre class="syntax" xml:space="preserve"><code>
@@ -148,7 +148,6 @@ SMIMECapability ::= SEQUENCE
 
 To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
 
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionSmimeCapabilities</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionSmimeCapabilities</b> also has these types of members:
@@ -202,16 +201,9 @@ Retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/ap
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
- 
-
- 
 

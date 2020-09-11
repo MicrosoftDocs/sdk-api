@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6d7b50e3-60cf-4eaf-9d22-fbb20c7e0bba
 ms.date: 12/05/2018
 ms.keywords: '*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V1, MFT_ENUM_DATA, MFT_ENUM_DATA_V1, MFT_ENUM_DATA_V1 structure [Files], PMFT_ENUM_DATA_V1, PMFT_ENUM_DATA_V1 structure pointer [Files], fs.mft_enum_data_v1, winioctl/MFT_ENUM_DATA_V1, winioctl/PMFT_ENUM_DATA_V1'
-f1_keywords:
-- winioctl/MFT_ENUM_DATA_V1
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- MFT_ENUM_DATA_V1
 targetos: Windows
 req.typenames: MFT_ENUM_DATA_V1, *PMFT_ENUM_DATA_V1
 req.redist: 
+f1_keywords:
+ - PMFT_ENUM_DATA_V1
+ - winioctl/PMFT_ENUM_DATA_V1
+ - MFT_ENUM_DATA_V1
+ - winioctl/MFT_ENUM_DATA_V1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - MFT_ENUM_DATA_V1
 ---
 
 # MFT_ENUM_DATA_V1 structure
@@ -48,16 +51,11 @@ req.redist:
 
 ## -description
 
-
 Contains information defining the boundaries for and starting place of an enumeration of update 
     sequence number (USN) change journal records for ReFS volumes. It is used as the input buffer for the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a> control code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StartFileReferenceNumber
 
@@ -71,23 +69,19 @@ The first call to <a href="https://docs.microsoft.com/windows/desktop/api/winioc
        <b>StartFileReferenceNumber</b> set to this value. For more information, see 
        <b>FSCTL_ENUM_USN_DATA</b>.
 
-
 ### -field LowUsn
 
 The lower boundary of the range of USN values used to filter which records are returned. Only records whose 
       last change journal USN is between or equal to the <b>LowUsn</b> and 
       <b>HighUsn</b> member values are returned.
 
-
 ### -field HighUsn
 
 The upper boundary of the range of USN values used to filter which files are returned.
 
-
 ### -field MinMajorVersion
 
 Indicates the minimum supported major version for the USN change journal.
-
 
 ### -field MaxMajorVersion
 
@@ -124,20 +118,12 @@ The data returned from the <a href="https://docs.microsoft.com/windows/desktop/a
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_enum_usn_data">FSCTL_ENUM_USN_DATA</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
- 
-
- 
 

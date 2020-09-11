@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: a4420b1e-e2e5-460c-948c-3c5f97d7a0e7
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleImplementation, IFsrmPipelineModuleImplementation interface [File Server Resource Manager], IFsrmPipelineModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleimplementation, fsrm.ifsrmpipelinemoduleimplementation, fsrm/IFsrmPipelineModuleImplementation
-f1_keywords:
-- fsrmpipeline/IFsrmPipelineModuleImplementation
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPipelineModuleImplementation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPipelineModuleImplementation
+ - fsrmpipeline/IFsrmPipelineModuleImplementation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPipelineModuleImplementation
 ---
 
 # IFsrmPipelineModuleImplementation interface
 
 
 ## -description
-
 
 Abstract interface for 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a> and 
@@ -57,7 +57,6 @@ Abstract interface for
 Classifiers and storage modules should not implement this interface. For more information, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a> or 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>.
-
 
 ## -inheritance
 
@@ -92,20 +91,13 @@ Notifies the module to perform any cleanup tasks.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>
- 
-
- 
 

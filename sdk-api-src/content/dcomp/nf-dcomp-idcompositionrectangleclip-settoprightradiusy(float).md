@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: CB0C1B66-F1AB-4440-8898-77107C1A2C42
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip.SetTopRightRadiusY, IDCompositionRectangleClip::SetTopRightRadiusY, SetTopRightRadiusY, SetTopRightRadiusY methods [DirectComposition], dcomp/SetTopRightRadiusY, directcomp.idcompositionrectangleclip_settoprightradiusy
-f1_keywords:
-- dcomp/IDCompositionRectangleClip::SetTopRightRadiusY
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionRectangleClip::SetTopRightRadiusY
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionRectangleClip::SetTopRightRadiusY
+ - dcomp/IDCompositionRectangleClip::SetTopRightRadiusY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionRectangleClip::SetTopRightRadiusY
 ---
 
 # IDCompositionRectangleClip::SetTopRightRadiusY
 
 
 ## -description
-
 
 <span>Changes or animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property  specifies the y radius of the ellipse that rounds the top-right corner of the clip.
 </span><h3>Overload list</h3><table>
@@ -78,14 +78,7 @@ Animates the value of the TopRightRadiusY property of this clip.
 
 ## -parameters
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
- 
-
- 
 

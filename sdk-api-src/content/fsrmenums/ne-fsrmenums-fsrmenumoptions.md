@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 9c613d0c-c49a-4010-b66f-a63c57d693f7
 ms.date: 12/05/2018
 ms.keywords: FsrmEnumOptions, FsrmEnumOptions enumeration [File Server Resource Manager], FsrmEnumOptions_Asynchronous, FsrmEnumOptions_CheckRecycleBin, FsrmEnumOptions_IncludeClusterNodes, FsrmEnumOptions_IncludeDeprecatedObjects, FsrmEnumOptions_None, fs.fsrmenumoptions, fsrm.fsrmenumoptions, fsrmenums/FsrmEnumOptions, fsrmenums/FsrmEnumOptions_Asynchronous, fsrmenums/FsrmEnumOptions_CheckRecycleBin, fsrmenums/FsrmEnumOptions_IncludeClusterNodes, fsrmenums/FsrmEnumOptions_IncludeDeprecatedObjects, fsrmenums/FsrmEnumOptions_None
-f1_keywords:
-- fsrmenums/FsrmEnumOptions
-dev_langs:
-- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- FsrmEnums.h
-api_name:
-- FsrmEnumOptions
 targetos: Windows
 req.typenames: FsrmEnumOptions
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FsrmEnumOptions
+ - fsrmenums/_FsrmEnumOptions
+ - FsrmEnumOptions
+ - fsrmenums/FsrmEnumOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - FsrmEnums.h
+api_name:
+ - FsrmEnumOptions
 ---
 
 # FsrmEnumOptions enumeration
@@ -49,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the options for enumerating collections of objects.
 
-
 ## -enum-fields
-
-
-
 
 ### -field FsrmEnumOptions_None
 
 Use no options and enumerate objects synchronously.
 
-
 ### -field FsrmEnumOptions_Asynchronous
 
 Reserved. Do not use.
 
-
 ### -field FsrmEnumOptions_CheckRecycleBin
 
 Include items and paths that are in the system recycle bin when enumerating.
-
 
 ### -field FsrmEnumOptions_IncludeClusterNodes
 
@@ -79,27 +74,17 @@ Include objects on all nodes in a <a href="https://docs.microsoft.com/previous-v
       when enumerating report jobs 
       (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-enumreportjobs">IFsrmReportManager::EnumReportJobs</a>).
 
-
 ### -field FsrmEnumOptions_IncludeDeprecatedObjects
 
 Include deprecated objects when enumerating.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported before Windows Server 2012.
 
-
 ## -remarks
-
-
 
 The <b>FsrmEnumOptions_Asynchronous</b> option is not supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enummoduledefinitions">IFsrmClassificationManager::EnumModuleDefinitions</a>
 
@@ -154,7 +139,4 @@ The <b>FsrmEnumOptions_Asynchronous</b> option is not supported.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-enumreportjobs">IFsrmReportManager::EnumReportJobs</a>
- 
-
- 
 

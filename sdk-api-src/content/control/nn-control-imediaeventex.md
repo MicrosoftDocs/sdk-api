@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9d367b0a-c7ec-49d4-a41e-045ac81d2c51
 ms.date: 12/05/2018
 ms.keywords: IMediaEventEx, IMediaEventEx interface [DirectShow], IMediaEventEx interface [DirectShow],described, IMediaEventExInterface, control/IMediaEventEx, dshow.imediaeventex
-f1_keywords:
-- control/IMediaEventEx
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaEventEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaEventEx
+ - control/IMediaEventEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaEventEx
 ---
 
 # IMediaEventEx interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMediaEventEx</b> interface inherits the <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent</a> interface, which contains methods for retrieving event notifications and for overriding the filter graph's default handling of events. <b>IMediaEventEx</b> adds methods that enable an application window to receive messages when events occur. 
 
 The Filter Graph Manager implements this interface.
 
 For more information about event notification, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-in-directshow">Event Notification in DirectShow</a>. For a list of system-defined event notifications, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-codes">Event Notification Codes</a>.
-
-
-
 
 ## -inheritance
 
@@ -103,16 +99,9 @@ Registers a window to process event notifications.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent</a>
- 
-
- 
 

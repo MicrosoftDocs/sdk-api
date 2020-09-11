@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 0228ed1a-3a8f-486a-9dd8-806ca35c649e
 ms.date: 12/05/2018
 ms.keywords: GPMResult, IGPMResult, IGPMResult interface [GPMC], IGPMResult interface [GPMC],described, _win32_igpmresult, gpmc.igpmresult, gpmgmt/IGPMResult
-f1_keywords:
-- gpmgmt/IGPMResult
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMResult
-- GPMResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMResult
+ - gpmgmt/IGPMResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMResult
+ - GPMResult
 ---
 
 # IGPMResult interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMResult</b> interface contains methods to retrieve status message information while performing various types of GPO processing operations such as restore, import, copy and backup.
-
 
 ## -inheritance
 
@@ -129,20 +128,13 @@ Pointer to an
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 3996c02c-562c-4697-a091-e241ad54b239
 ms.date: 12/05/2018
 ms.keywords: GetQueuedCompletionStatusEx, GetQueuedCompletionStatusEx function [Files], fs.getqueuedcompletionstatusex_func, ioapiset/GetQueuedCompletionStatusEx, winbase/GetQueuedCompletionStatusEx
-f1_keywords:
-- ioapiset/GetQueuedCompletionStatusEx
-dev_langs:
-- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-io-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-io-l1-1-1.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-api_name:
-- GetQueuedCompletionStatusEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetQueuedCompletionStatusEx
+ - ioapiset/GetQueuedCompletionStatusEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+api_name:
+ - GetQueuedCompletionStatusEx
 ---
 
 # GetQueuedCompletionStatusEx function
@@ -54,24 +55,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves  multiple completion port entries simultaneously. It waits for pending I/O 
     operations that are associated with the specified completion port to complete.
 
 To dequeue I/O completion packets one at a time, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param CompletionPort [in]
 
 A handle to the completion port. To create a completion port, use the 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.
-
 
 ### -param lpCompletionPortEntries [out]
 
@@ -86,16 +81,13 @@ The number of bytes transferred during each I/O, the completion key that indicat
        occurred, and the overlapped structure address used in each original I/O are all returned in the 
        <i>lpCompletionPortEntries</i> array.
 
-
 ### -param ulCount [in]
 
 The maximum number of entries to remove.
 
-
 ### -param ulNumEntriesRemoved [out]
 
 A pointer to a variable that receives the number of entries actually removed.
-
 
 ### -param dwMilliseconds [in]
 
@@ -106,7 +98,6 @@ The number of milliseconds that the caller is willing to wait for a completion p
 If <i>dwMilliseconds</i> is <b>INFINITE</b> (0xFFFFFFFF), the function 
        will never time out. If <i>dwMilliseconds</i> is zero and there is no I/O operation to 
        dequeue, the function will time out immediately.
-
 
 ### -param fAlertable [in]
 
@@ -122,22 +113,14 @@ A completion routine is queued when the <a href="https://docs.microsoft.com/wind
        completed, and the calling thread is the thread that initiated the operation. An APC is queued when you call 
        <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>.
 
-
 ## -returns
-
-
 
 Returns nonzero (<b>TRUE</b>) if successful or zero (<b>FALSE</b>) otherwise.
 
 To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function associates a thread with the specified completion port. A thread can be associated with at most 
      one completion port.
@@ -227,15 +210,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
@@ -294,7 +270,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

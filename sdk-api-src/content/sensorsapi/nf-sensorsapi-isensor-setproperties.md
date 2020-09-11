@@ -8,10 +8,6 @@ tech.root: winsensors
 ms.assetid: f2bed074-fcee-4dbb-a4c1-d5922d65d3b9
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetProperties method, ISensor.SetProperties, ISensor::SetProperties, SetProperties, SetProperties method, SetProperties method,ISensor interface, sensorsapi/ISensor::SetProperties, winsensors_com_ref.isensor_setproperties
-f1_keywords:
-- sensorsapi/ISensor.SetProperties
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.SetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::SetProperties
+ - sensorsapi/ISensor::SetProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.SetProperties
 ---
 
 # ISensor::SetProperties
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies sensor properties.
 
-
 ## -parameters
-
-
-
 
 ### -param pProperties [in]
 
  Pointer to an <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface containing the list of properties and values to set.
 
-
 ### -param ppResults [out]
 
 Address of an <b>IPortableDeviceValues</b> interface that receives the list of properties that were successfully set. Each property has an associated <b>HRESULT</b> value, which indicates whether setting the property succeeded.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,14 +105,8 @@ NULL was passed in for ppResults.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method enables you to specify the values of one or more  properties, such as the sensor make, model, and serial number, by making a single call. 
 
@@ -135,19 +121,11 @@ For an example of how to set properties, see <a href="https://docs.microsoft.com
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">GetProperties</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
- 
-
- 
 

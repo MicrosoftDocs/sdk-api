@@ -28,6 +28,7 @@ api_location:
 api_name:
  - ID3D12VideoMotionEstimator
 f1_keywords:
+ - ID3D12VideoMotionEstimator
  - d3d12video/ID3D12VideoMotionEstimator
 dev_langs:
  - c++

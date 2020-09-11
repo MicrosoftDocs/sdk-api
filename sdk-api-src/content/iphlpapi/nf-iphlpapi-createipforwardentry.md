@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 72243390-c3b8-41c3-8771-a5fb1d6383ae
 ms.date: 12/05/2018
 ms.keywords: CreateIpForwardEntry, CreateIpForwardEntry function [IP Helper], _iphlp_createipforwardentry, iphlp.createipforwardentry, iphlpapi/CreateIpForwardEntry
-f1_keywords:
-- iphlpapi/CreateIpForwardEntry
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- CreateIpForwardEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateIpForwardEntry
+ - iphlpapi/CreateIpForwardEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - CreateIpForwardEntry
 ---
 
 # CreateIpForwardEntry function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreateIpForwardEntry</b> function creates a route in the local computer's IPv4 routing table.
 
-
 ## -parameters
-
-
-
 
 ### -param pRoute [in]
 
@@ -65,10 +61,7 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure that specifies the information for the new route. The caller must specify values for all members of this structure. The caller must specify <b>MIB_IPPROTO_NETMGMT</b> for the <b>dwForwardProto</b> member of 
 <b>MIB_IPFORWARDROW</b>.
 
-
 ## -returns
-
-
 
 The function returns <b>NO_ERROR</b> (zero) if the function is successful. 
 
@@ -127,14 +120,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>dwForwardProto</b> member of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure pointed to by the <i>route</i> parameter must be set to <b>MIB_IPPROTO_NETMGMT</b> otherwise <b>CreateIpForwardEntry</b> will fail. Routing protocol identifiers are used to identify route information for the specified routing protocol. For example, <b>MIB_IPPROTO_NETMGMT</b> is used to identify route information for IP  routing set through network management such as the Dynamic Host Configuration Protocol (DHCP), the Simple Network Management Protocol (SNMP), or by calls to the <b>CreateIpForwardEntry</b>,  <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a> functions.
@@ -267,14 +254,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a>
 
@@ -303,7 +283,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a>
- 
-
- 
 

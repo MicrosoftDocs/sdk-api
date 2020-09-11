@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0
 ms.date: 12/05/2018
 ms.keywords: IFsiItem, IFsiItem interface [IMAPI], IFsiItem interface [IMAPI],described, imapi.ifsiitem, imapi2fs/IFsiItem
-f1_keywords:
-- imapi2fs/IFsiItem
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiItem
+ - imapi2fs/IFsiItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiItem
 ---
 
 # IFsiItem interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Base interface containing properties common to both file and directory items. 
 
 To access the properties of this interface, use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a> interface.
-
 
 ## -inheritance
 
@@ -178,20 +177,13 @@ Sets the date and time that the item was last modified in the file system image.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>
- 
-
- 
 

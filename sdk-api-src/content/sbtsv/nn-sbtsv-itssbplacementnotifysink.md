@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 7abc5454-141a-47bc-b9cd-341b41a093d2
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remote Desktop Services], ITsSbPlacementNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPlacementNotifySink, termserv.itssbplacementnotifysink
-f1_keywords:
-- sbtsv/ITsSbPlacementNotifySink
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbPlacementNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbPlacementNotifySink
+ - sbtsv/ITsSbPlacementNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbPlacementNotifySink
 ---
 
 # ITsSbPlacementNotifySink interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that return information about environments to 
    Remote Desktop Connection Broker (RD Connection Broker).
-
 
 ## -inheritance
 
@@ -80,13 +79,9 @@ Notifies RD Connection Broker that the environment specified by the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
 
@@ -97,7 +92,4 @@ Notifies RD Connection Broker that the environment specified by the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

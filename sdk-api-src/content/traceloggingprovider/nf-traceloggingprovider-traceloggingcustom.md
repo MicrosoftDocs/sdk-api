@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
-f1_keywords:
-- traceloggingprovider/TraceLoggingCustom
-dev_langs:
-- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- traceloggingprovider.h
-api_name:
-- TraceLoggingCustom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingCustom
+ - traceloggingprovider/TraceLoggingCustom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - traceloggingprovider.h
+api_name:
+ - TraceLoggingCustom
 ---
 
 # TraceLoggingCustom macro
@@ -49,43 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Wrapper macro for an event field packed using a custom serializer.
 
 Provides the possibility to write a custom serializer and deserializer for data and have TraceLogging handle packing and unpacking metadata for the field.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbValue [in]
 
 The field payload serialized at runtime
 by a serializer from the specified protocol family.
 
-
-
 ### -param cbValue [in]
 
 The size in bytes of the  field payload serialized at runtime
 by a serializer from the specified protocol family.
 
-
-
 ### -param protocol [in]
 
-A protocol family, which may be specified Microsoft-defined value from 0-4 or a user-defined value from 5-31. (The Microsoft-defined values are defined by macros starting with TRACELOGGING_PROTOCOL_.) 
-
+A protocol family, which may be specified Microsoft-defined value from 0-4 or a user-defined value from 5-31. (The Microsoft-defined values are defined by macros starting with TRACELOGGING_PROTOCOL_.)
 
 ### -param bSchema [in]
 
 A comma-separated list of byte values that contain the information needed to decode the payload (i.e. the schema), in a protocol-defined format. The values in this list must be compile-time constant. Example: (0x12, 0x23, 0x34)
-
-
 
 ### -param cbSchema [in]
 
@@ -104,12 +91,9 @@ The name of the event field. If provided, the name parameter must be a string li
 
 #### - tags [in, optional]
 
-An integer value. The low 28 bits of the value will be included in the field's metadata. The semantics of the tags  are defined by the event consumer. During event processing, this tag can be retrieved from the EVENT_PROPERTY_INFO Tags field. 
-
+An integer value. The low 28 bits of the value will be included in the field's metadata. The semantics of the tags  are defined by the event consumer. During event processing, this tag can be retrieved from the EVENT_PROPERTY_INFO Tags field.
 
 ## -remarks
-
-
 
 Decoders should access TraceLoggingCustom serialized fields using the TDH APIs. The TRACE_EVENT_INFO structure returned by TdhGetEventInformation will contain two EVENT_PROPERTY_INFO structures related to a logged TraceLoggingCustom field. These correlate in the typical fashion with the data found in the EVENT_RECORD’s UserData blob.
 
@@ -152,7 +136,4 @@ TraceLoggingWrite(
       "MyCustomField"
    ));
 ```
-
-
-
 

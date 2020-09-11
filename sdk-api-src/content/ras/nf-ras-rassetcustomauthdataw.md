@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: a3369537-1b46-4d7b-8ee1-f6965a3f296d
 ms.date: 12/05/2018
 ms.keywords: RasSetCustomAuthData, RasSetCustomAuthData function [RAS], RasSetCustomAuthDataA, RasSetCustomAuthDataW, _ras_rassetcustomauthdata, ras/RasSetCustomAuthData, ras/RasSetCustomAuthDataA, ras/RasSetCustomAuthDataW, rras.rassetcustomauthdata
-f1_keywords:
-- ras/RasSetCustomAuthData
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasSetCustomAuthData
-- RasSetCustomAuthDataA
-- RasSetCustomAuthDataW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSetCustomAuthDataW
+ - ras/RasSetCustomAuthDataW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasSetCustomAuthData
+ - RasSetCustomAuthDataA
+ - RasSetCustomAuthDataW
 ---
 
 # RasSetCustomAuthDataW function
@@ -51,39 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>RasSetCustomAuthData</b> function to set connection-specific authentication information. This information should not be specific to a particular user.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPhonebook [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path of the phone-book (PBK) file. If this parameter is <b>NULL</b>, the function  uses the system phone book.
 
-
 ### -param pszEntry [in]
 
 Pointer to a <b>null</b>-terminated string that specifies an existing entry name.
-
 
 ### -param pbCustomAuthData [in]
 
 Pointer to a buffer that specifies the new authentication data.
 
-
 ### -param dwSizeofCustomAuthData [in]
 
 Specifies the size of the data pointed to by the <i>pbCustomAuthData</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -142,24 +132,14 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetcustomauthdataa">RasGetCustomAuthData</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasseteapuserdataa">RasSetEapUserData</a>
- 
-
- 
 
 ## -remarks
 

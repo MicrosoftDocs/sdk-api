@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 89a22163-a678-4c72-932a-ae4d17922e0b
 ms.date: 12/05/2018
 ms.keywords: DdGetDriverInfo, DdGetDriverInfo callback function [Display Devices], PDD_GETDRIVERINFO, PDD_GETDRIVERINFO callback, ddfncs_0b5e1f3a-ee8b-4e55-bdd9-d872f568f95d.xml, ddrawint/DdGetDriverInfo, display.ddgetdriverinfo
-f1_keywords:
-- ddrawint/DdGetDriverInfo
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdGetDriverInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_GETDRIVERINFO
+ - ddrawint/PDD_GETDRIVERINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdGetDriverInfo
 ---
 
 # PDD_GETDRIVERINFO callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>DdGetDriverInfo</i> function queries the driver for additional DirectDraw and Direct3D functionality that the driver supports.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpGetDriverInfo
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure that contains the information required to perform the query.
 
-
 ## -returns
-
-
 
 <i>DdGetDriverInfo</i> must return DDHAL_DRIVER_HANDLED.
 
-
-
-
 ## -remarks
-
-
 
 Drivers must implement <i>DdGetDriverInfo</i> to expose driver-supported DirectDraw functionality that is not returnable through <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>.
 
@@ -130,12 +111,7 @@ Do not assume anything about the number of times DirectDraw will call the driver
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
 
@@ -146,7 +122,4 @@ Do not assume anything about the number of times DirectDraw will call the driver
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
- 
-
- 
 

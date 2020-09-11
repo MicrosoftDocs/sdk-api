@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a2e3da49-19b8-44f6-af7c-ec5c13411f3f
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Security], GetFriendlyName method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetFriendlyName method, IX509EnrollmentPolicyServer.GetFriendlyName, IX509EnrollmentPolicyServer::GetFriendlyName, certenroll/IX509EnrollmentPolicyServer::GetFriendlyName, security.ix509enrollmentpolicyserver_getfriendlyname
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.GetFriendlyName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.GetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::GetFriendlyName
+ - certenroll/IX509EnrollmentPolicyServer::GetFriendlyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.GetFriendlyName
 ---
 
 # IX509EnrollmentPolicyServer::GetFriendlyName
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetFriendlyName</b> method retrieves a display name for the certificate enrollment policy (CEP) server.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
 Pointer to a <b>BSTR</b> variable that contains the display name.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -110,18 +103,8 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

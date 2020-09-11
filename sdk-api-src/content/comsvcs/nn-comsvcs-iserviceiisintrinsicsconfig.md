@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: fc4524b0-ef00-429d-ad27-cb81f8a5269f
 ms.date: 12/05/2018
 ms.keywords: IServiceIISIntrinsicsConfig, IServiceIISIntrinsicsConfig interface [COM+], IServiceIISIntrinsicsConfig interface [COM+],described, _cos_IServiceIISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig
-f1_keywords:
-- comsvcs/IServiceIISIntrinsicsConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServiceIISIntrinsicsConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceIISIntrinsicsConfig
+ - comsvcs/IServiceIISIntrinsicsConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServiceIISIntrinsicsConfig
 ---
 
 # IServiceIISIntrinsicsConfig interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the IIS intrinsics for the work that is done when calling the  <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> function.
-
-
 
 ## -inheritance
 
@@ -79,16 +77,9 @@ Configures the IIS intrinsics for the enclosed work.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
- 
-
- 
 

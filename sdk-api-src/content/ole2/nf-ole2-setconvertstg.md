@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 98c8fd20-6384-4656-941c-1f24d9a4d4a9
 ms.date: 12/05/2018
 ms.keywords: SetConvertStg, SetConvertStg function [Structured Storage], _stg_setconvertstg, ole2/SetConvertStg, stg.setconvertstg
-f1_keywords:
-- ole2/SetConvertStg
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- SetConvertStg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetConvertStg
+ - ole2/SetConvertStg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - SetConvertStg
 ---
 
 # SetConvertStg function
@@ -49,31 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetConvertStg</b> function sets the convert bit in a storage object to indicate that the object is to be converted to a new class when it is opened. The setting can be retrieved with a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-getconvertstg">GetConvertStg</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param pStg
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the storage object in which to set the conversion bit.
-
 
 ### -param fConvert
 
 If <b>TRUE</b>, sets the conversion bit for the object to indicate the object is to be converted when opened. If <b>FALSE</b>, clears the conversion bit.
 
-
 ## -returns
-
-
 
 See the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstream">IStorage::CreateStream</a>, 
@@ -81,12 +72,7 @@ See the
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> methods for possible storage and stream access errors.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SetConvertStg</b> function determines the status of the convert bit in a contained object. It is called by both the container application and the server in the process of converting an object from one class to another. When a user specifies through a <b>Convert To</b> dialog (which the container produces with a call to the 
@@ -116,15 +102,7 @@ When an object is initialized from a storage object and the server is the destin
 <b>SetConvertStg</b> with the <i>fConvert</i> parameter set to <b>FALSE</b> to reset the object's conversion bit.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-getconvertstg">GetConvertStg</a>
- 
-
- 
 

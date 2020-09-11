@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 6a5e3c3b-7c2b-4de3-89e4-ef330b894320
 ms.date: 12/05/2018
 ms.keywords: NdfCreateSharingIncident, NdfCreateSharingIncident function [NDF], ndf.ndfcreatesharingincident, ndfapi/NdfCreateSharingIncident
-f1_keywords:
-- ndfapi/NdfCreateSharingIncident
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfCreateSharingIncident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfCreateSharingIncident
+ - ndfapi/NdfCreateSharingIncident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfCreateSharingIncident
 ---
 
 # NdfCreateSharingIncident function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdfCreateSharingIncident</b> function diagnoses network problems in accessing a specific network share.
 
-
 ## -parameters
-
-
-
 
 ### -param UNCPath [in]
 
 Type: <b>LPCWSTR</b>
 
-The full UNC string (for example, "\\server\folder\file.ext") for the shared asset with which there is a connectivity issue. 
-
+The full UNC string (for example, "\\server\folder\file.ext") for the shared asset with which there is a connectivity issue.
 
 ### -param handle [out]
 
@@ -71,10 +66,7 @@ Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -130,7 +122,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

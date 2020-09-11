@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: cc14be9d-d750-40db-a95f-309b392cefe8
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapScaler, IWICBitmapScaler interface [Windows Imaging Component], IWICBitmapScaler interface [Windows Imaging Component],described, _wic_codec_iwicbitmapscaler, wic._wic_codec_iwicbitmapscaler, wincodec/IWICBitmapScaler
-f1_keywords:
-- wincodec/IWICBitmapScaler
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapScaler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapScaler
+ - wincodec/IWICBitmapScaler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapScaler
 ---
 
 # IWICBitmapScaler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a resized version of the input bitmap using a resampling or filtering algorithm.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Initializes the bitmap scaler with the provided parameters.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Images can be scaled to larger sizes; however, even with sophisticated scaling algorithms, there is only so much information in the image and artifacts tend to worsen the more you scale up.
 
@@ -99,7 +95,4 @@ The scaler is optimized to use the minimum amount of memory required to scale th
             In this case the accumulator from the previous vertically adjacent rectangle is re-used to avoid duplicate scanline requests from the source. 
             This implies that banded output from the scaler may have better performance if the bands are requested sequentially. 
             Of course if the scaler is simply used to produce a single rectangle output, this concern is eliminated because the scaler will internally request scanlines in the correct order.
-         
-
-
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 97f5dfdc-5941-4b58-a618-1c7e9f6665e1
 ms.date: 12/05/2018
 ms.keywords: IMediaStream, IMediaStream interface [DirectShow], IMediaStream interface [DirectShow],described, IMediaStreamInterface, dshow.imediastream, mmstream/IMediaStream
-f1_keywords:
-- mmstream/IMediaStream
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaStream
+ - mmstream/IMediaStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IMediaStream
 ---
 
 # IMediaStream interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
@@ -60,9 +59,6 @@ For sample code that implements the multimedia streaming interfaces, see <a href
 Implement this interface when you want to add media type-specific functionality to your media stream. This interface is implemented on multimedia stream objects. <b>IMediaStream</b> provides generic sample-creation methods, but you usually want to write a more powerful version of these methods that will take advantage of your media type's specific characteristics.
 
 Use this interface when your application needs to access a stream's media type information and create data samples.
-
-
-
 
 ## -inheritance
 
@@ -133,5 +129,5 @@ Sets the media stream to the same format as a previous stream.
 
 </td>
 </tr>
-</table> 
+</table>
 

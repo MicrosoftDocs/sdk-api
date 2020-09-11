@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1689dedb-c168-4a05-b598-517c87d9afbd
 ms.date: 12/05/2018
 ms.keywords: IID_ITfCleanupContextDurationSink, IID_ITfCleanupContextSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],UnadviseSingleSink method, ITfSourceSingle.UnadviseSingleSink, ITfSourceSingle::UnadviseSingleSink, UnadviseSingleSink, UnadviseSingleSink method [Text Services Framework], UnadviseSingleSink method [Text Services Framework],ITfSourceSingle interface, _tsf_itfsourcesingle_unadvisesinglesink_ref, msctf/ITfSourceSingle::UnadviseSingleSink, tsf.itfsourcesingle_unadvisesinglesink
-f1_keywords:
-- msctf/ITfSourceSingle.UnadviseSingleSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfSourceSingle.UnadviseSingleSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSourceSingle::UnadviseSingleSink
+ - msctf/ITfSourceSingle::UnadviseSingleSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfSourceSingle.UnadviseSingleSink
 ---
 
 # ITfSourceSingle::UnadviseSingleSink
@@ -53,13 +54,9 @@ Uninstalls an advise sink.
 
 ## -parameters
 
-
-
-
 ### -param tid [in]
 
 Contains a <b>TfClientId</b> value that identifies the client.
-
 
 ### -param riid [in]
 
@@ -101,12 +98,8 @@ Unregisters the client as a function provider. Applies to: Text Service and Appl
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -149,7 +142,4 @@ The advise sink is not installed.
 </td>
 </tr>
 </table>
- 
-
-
 

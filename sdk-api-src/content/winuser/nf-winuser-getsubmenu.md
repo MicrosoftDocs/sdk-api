@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getsubmenu.htm
 ms.date: 12/05/2018
 ms.keywords: GetSubMenu, GetSubMenu function [Menus and Other Resources], _win32_GetSubMenu, _win32_getsubmenu_cpp, menurc.getsubmenu, winui._win32_getsubmenu, winuser/GetSubMenu
-f1_keywords:
-- winuser/GetSubMenu
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- GetSubMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSubMenu
+ - winuser/GetSubMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - GetSubMenu
 ---
 
 # GetSubMenu function
@@ -53,44 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a handle to the drop-down menu or submenu activated by the specified menu item. 
-
+Retrieves a handle to the drop-down menu or submenu activated by the specified menu item.
 
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu. 
-
+A handle to the menu.
 
 ### -param nPos [in]
 
 Type: <b>int</b>
 
-The zero-based relative position in the specified menu of an item that activates a drop-down menu or submenu. 
-
+The zero-based relative position in the specified menu of an item that activates a drop-down menu or submenu.
 
 ## -returns
 
-
-
 Type: <b>HMENU</b>
 
-If the function succeeds, the return value is a handle to the drop-down menu or submenu activated by the menu item. If the menu item does not activate a drop-down menu or submenu, the return value is <b>NULL</b>. 
-
-
-
+If the function succeeds, the return value is a handle to the drop-down menu or submenu activated by the menu item. If the menu item does not activate a drop-down menu or submenu, the return value is <b>NULL</b>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -109,7 +95,4 @@ If the function succeeds, the return value is a handle to the drop-down menu or 
 
 
 <b>Reference</b>
- 
-
- 
 

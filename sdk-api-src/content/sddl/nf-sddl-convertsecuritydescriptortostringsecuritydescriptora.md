@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 36140833-8e30-4c32-a88a-c10751b6c223
 ms.date: 12/05/2018
 ms.keywords: ConvertSecurityDescriptorToStringSecurityDescriptor, ConvertSecurityDescriptorToStringSecurityDescriptor function [Security], ConvertSecurityDescriptorToStringSecurityDescriptorA, ConvertSecurityDescriptorToStringSecurityDescriptorW, _win32_convertsecuritydescriptortostringsecuritydescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW, security.convertsecuritydescriptortostringsecuritydescriptor
-f1_keywords:
-- sddl/ConvertSecurityDescriptorToStringSecurityDescriptor
-dev_langs:
-- c++
 req.header: sddl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Security-sddl-l1-1-0.dll
-api_name:
-- ConvertSecurityDescriptorToStringSecurityDescriptor
-- ConvertSecurityDescriptorToStringSecurityDescriptorA
-- ConvertSecurityDescriptorToStringSecurityDescriptorW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ConvertSecurityDescriptorToStringSecurityDescriptorA
+ - sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Security-sddl-l1-1-0.dll
+api_name:
+ - ConvertSecurityDescriptorToStringSecurityDescriptor
+ - ConvertSecurityDescriptorToStringSecurityDescriptorA
+ - ConvertSecurityDescriptorToStringSecurityDescriptorW
 ---
 
 # ConvertSecurityDescriptorToStringSecurityDescriptorA function
@@ -54,28 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ConvertSecurityDescriptorToStringSecurityDescriptor</b> function converts a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> to a string format. You can use the string format to store or transmit the security descriptor.
 
 To convert the string-format security descriptor back to a valid, functional security descriptor, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param SecurityDescriptor [in]
 
 A pointer to the security descriptor to convert. The security descriptor can be in 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">absolute or self-relative format</a>.
 
-
 ### -param RequestedStringSDRevision [in]
 
 Specifies the revision level of the output <i>StringSecurityDescriptor</i> string. Currently this value must be SDDL_REVISION_1.
-
 
 ### -param SecurityInformation [in]
 
@@ -84,22 +78,17 @@ Specifies a combination of the
 
 The BACKUP_SECURITY_INFORMATION flag is not applicable to this function. If the BACKUP_SECURITY_INFORMATION flag is passed in, the <i>SecurityInformation</i> parameter returns TRUE with <b>null</b> string output.
 
-
 ### -param StringSecurityDescriptor [out]
 
 A pointer to a variable that receives a pointer to a <b>null</b>-terminated security descriptor string. For a description of the string format, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>. To free the returned buffer, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-
 ### -param StringSecurityDescriptorLen [out]
 
 A pointer to a variable that receives the size, in <b>TCHAR</b>s, of the security descriptor string returned in the <i>StringSecurityDescriptor</i> buffer. This parameter can be <b>NULL</b> if you do not need to retrieve the size. The size represents the size of the buffer in <b>WCHAR</b>s, not the number of <b>WCHAR</b>s in the string.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -156,14 +145,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is set in the input security descriptor, the function fails.
 
@@ -178,9 +161,6 @@ If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is not set in th
 > The sddl.h header defines ConvertSecurityDescriptorToStringSecurityDescriptor as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
@@ -207,7 +187,4 @@ If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is not set in th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
- 
-
- 
 

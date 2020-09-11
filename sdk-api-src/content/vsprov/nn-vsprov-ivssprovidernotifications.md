@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 09324f54-8902-43d1-a4f9-967adccbf8be
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
-f1_keywords:
-- vsprov/IVssProviderNotifications
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderNotifications
+ - vsprov/IVssProviderNotifications
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderNotifications
 ---
 
 # IVssProviderNotifications interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssProviderNotifications</b> interface 
    manages providers registered with VSS.
-
 
 ## -inheritance
 
@@ -87,16 +86,9 @@ Notifies the provider that it was just unloaded.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
- 
-
- 
 

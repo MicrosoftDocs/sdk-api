@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: c4238fbe-762a-492f-9eb5-d927e64436e1
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], IEnumProgressItems interface [IMAPI],described, imapi.ienumprogressitems, imapi2fs/IEnumProgressItems
-f1_keywords:
-- imapi2fs/IEnumProgressItems
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IEnumProgressItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumProgressItems
+ - imapi2fs/IEnumProgressItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IEnumProgressItems
 ---
 
 # IEnumProgressItems interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to enumerate a collection of progress items.
 
 To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_enumprogressitems">IProgressItems::get_EnumProgressItems</a> method.
-
 
 ## -inheritance
 
@@ -115,29 +114,17 @@ Skips a specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This is a <b>EnumProgressItems</b> object in script.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
- 
-
- 
 

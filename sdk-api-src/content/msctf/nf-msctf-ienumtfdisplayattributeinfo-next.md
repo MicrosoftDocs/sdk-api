@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: db374ba3-8a65-4933-85cb-320c294d6041
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Next method, IEnumTfDisplayAttributeInfo.Next, IEnumTfDisplayAttributeInfo::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, _tsf_ienumtfdisplayattributeinfo_next_ref, msctf/IEnumTfDisplayAttributeInfo::Next, tsf.ienumtfdisplayattributeinfo_next
-f1_keywords:
-- msctf/IEnumTfDisplayAttributeInfo.Next
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfDisplayAttributeInfo.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfDisplayAttributeInfo::Next
+ - msctf/IEnumTfDisplayAttributeInfo::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfDisplayAttributeInfo.Next
 ---
 
 # IEnumTfDisplayAttributeInfo::Next
+
 
 ## -description
 
@@ -65,7 +67,6 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/m
 Pointer to a ULONG value that receives the number of elements actually obtained. The number of elements can be less than the number of items requested. This parameter can be <b>NULL</b>.
 
 ## -returns
-
 
 This method can return one of these values.
 
@@ -101,3 +102,4 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md), [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md)
+

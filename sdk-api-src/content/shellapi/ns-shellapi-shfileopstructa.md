@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 590d87c2-0c75-44b9-a9b5-f7c37728512b
 ms.date: 12/05/2018
 ms.keywords: '*LPSHFILEOPSTRUCTA, FOF_ALLOWUNDO, FOF_CONFIRMMOUSE, FOF_FILESONLY, FOF_MULTIDESTFILES, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSEREPARSE, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_NO_UI, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_SIMPLEPROGRESS, FOF_WANTMAPPINGHANDLE, FOF_WANTNUKEWARNING, FO_COPY, FO_DELETE, FO_MOVE, FO_RENAME, LPSHFILEOPSTRUCT, LPSHFILEOPSTRUCT structure pointer [Windows Shell], SHFILEOPSTRUCT, SHFILEOPSTRUCT structure [Windows Shell], SHFILEOPSTRUCTA, _win32_SHFILEOPSTRUCT, shell.SHFILEOPSTRUCT, shellapi/LPSHFILEOPSTRUCT, shellapi/SHFILEOPSTRUCT'
-f1_keywords:
-- shellapi/SHFILEOPSTRUCT
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shellapi.h
-api_name:
-- SHFILEOPSTRUCT - SHFILEOPSTRUCTA
 targetos: Windows
 req.typenames: SHFILEOPSTRUCTA, *LPSHFILEOPSTRUCTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHFILEOPSTRUCTA
+ - shellapi/_SHFILEOPSTRUCTA
+ - LPSHFILEOPSTRUCTA
+ - shellapi/LPSHFILEOPSTRUCTA
+ - SHFILEOPSTRUCTA
+ - shellapi/SHFILEOPSTRUCTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shellapi.h
+api_name:
+ - SHFILEOPSTRUCT - SHFILEOPSTRUCTA
 ---
 
 # SHFILEOPSTRUCTA structure
 
 
 ## -description
-
 
 Contains information that the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function uses to perform file operations.
 
@@ -57,15 +61,11 @@ Contains information that the <a href="https://docs.microsoft.com/windows/deskto
 
 ## -struct-fields
 
-
-
-
 ### -field hwnd
 
 Type: <b>HWND</b>
 
 A window handle to the dialog box to display information about the status of the file operation.
-
 
 ### -field wFunc
 
@@ -97,7 +97,6 @@ Move the files specified in <b>pFrom</b> to the location specified in <b>pTo</b>
 
 Rename the file specified in <b>pFrom</b>. You cannot use this flag to rename multiple files with a single function call. Use <b>FO_MOVE</b> instead.
 
-
 ### -field pFrom
 
 Type: <b>PCZZTSTR</b>
@@ -109,7 +108,6 @@ A pointer to one or more source file names. These names should be fully qualifie
 Standard MS-DOS wildcard characters, such as "*", are permitted <i>only</i> in the file-name position. Using a wildcard character elsewhere in the string will lead to unpredictable results.
 
 Although this member is declared as a single null-terminated string, it is actually a buffer that can hold multiple null-delimited file names. Each file name is terminated by a single <b>NULL</b> character. The last file name is terminated with a double <b>NULL</b> character ("\0\0") to indicate the end of the buffer.
-
 
 ### -field pTo
 
@@ -249,13 +247,11 @@ If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
 
-
 ### -field fAnyOperationsAborted
 
 Type: <b>BOOL</b>
 
 When the function returns, this member contains <b>TRUE</b> if any file operations were aborted before they were completed; otherwise, <b>FALSE</b>. An operation can be manually aborted by the user through UI or it can be silently aborted by the system if the FOF_NOERRORUI or FOF_NOCONFIRMATION flags were set.
-
 
 ### -field hNameMappings
 
@@ -263,17 +259,13 @@ Type: <b>LPVOID</b>
 
 When the function returns, this member contains a handle to a name mapping object that contains the old and new names of the renamed files. This member is used only if the <b>fFlags</b> member includes the <b>FOF_WANTMAPPINGHANDLE</b> flag. See Remarks for more details.
 
-
 ### -field lpszProgressTitle
 
 Type: <b>PCTSTR</b>
 
 A pointer to the title of a progress dialog box. This is a null-terminated string. This member is used only if <b>fFlags</b> includes the <b>FOF_SIMPLEPROGRESS</b> flag.
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Important</b>  You must ensure that the source and destination paths are double-null terminated. A normal string ends in just a single null character. If you pass that value in either the source or destination members, the function will not realize when it has reached the end of the string and will continue to read on in memory until it comes to a random double null value. This can at least lead to a buffer overrun, and possibly the unintended deletion of unrelated data.
 

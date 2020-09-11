@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 916b00bd-2711-4ebd-a36d-d75b3a59a528
 ms.date: 12/05/2018
 ms.keywords: 8c057b75-49d4-723a-fe77-d236c5e87682, D3D11_MAP, D3D11_MAP enumeration [Direct3D 11], D3D11_MAP_READ, D3D11_MAP_READ_WRITE, D3D11_MAP_WRITE, D3D11_MAP_WRITE_DISCARD, D3D11_MAP_WRITE_NO_OVERWRITE, d3d11/D3D11_MAP, d3d11/D3D11_MAP_READ, d3d11/D3D11_MAP_READ_WRITE, d3d11/D3D11_MAP_WRITE, d3d11/D3D11_MAP_WRITE_DISCARD, d3d11/D3D11_MAP_WRITE_NO_OVERWRITE, direct3d11.d3d11_map
-f1_keywords:
-- d3d11/D3D11_MAP
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_MAP
 targetos: Windows
 req.typenames: D3D11_MAP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_MAP
+ - d3d11/D3D11_MAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_MAP
 ---
 
 # D3D11_MAP enumeration
@@ -49,38 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_MAP_READ
 
 Resource is mapped for reading. The resource must have been created with read access 
       (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_READ</a>).
 
-
 ### -field D3D11_MAP_WRITE
 
 Resource is mapped for writing. The resource must have been created with write 
       access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_WRITE</a>).
-
 
 ### -field D3D11_MAP_READ_WRITE
 
 Resource is mapped for reading and writing. The resource must have been created with read and write 
       access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_READ and D3D11_CPU_ACCESS_WRITE</a>).
 
-
 ### -field D3D11_MAP_WRITE_DISCARD
 
 Resource is mapped for writing; the previous contents of the resource will be undefined. The resource must have been created with write access 
       and dynamic usage (See <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_WRITE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DYNAMIC</a>).
-
 
 ### -field D3D11_MAP_WRITE_NO_OVERWRITE
 
@@ -92,8 +84,6 @@ Resource is mapped for writing; the existing contents of the resource cannot be 
 <div> </div>
 
 ## -remarks
-
-
 
 This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">ID3D11DeviceContext::Map</a>.
 
@@ -121,16 +111,7 @@ A common use of these two flags involves filling dynamic index/vertex buffers wi
 
 Subsequent writes to the buffer within the same frame should use <b>D3D11_MAP_WRITE_NO_OVERWRITE</b>. This will enable the CPU to access a resource that is potentially being used by the GPU as long as the restrictions described previously are respected.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
- 
-
- 
 

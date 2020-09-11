@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS"
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_DRVINSTALL_PARAMS"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -29,6 +27,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - _SP_DRVINSTALL_PARAMS
+ - setupapi/_SP_DRVINSTALL_PARAMS
+ - PSP_DRVINSTALL_PARAMS
+ - setupapi/PSP_DRVINSTALL_PARAMS
+ - SP_DRVINSTALL_PARAMS
+ - setupapi/SP_DRVINSTALL_PARAMS
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,11 +48,6 @@ api_location:
  - setupapi.h
 api_name:
  - SP_DRVINSTALL_PARAMS
-product: Windows
-targetos: Windows
-req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
-req.redist: 
-ms.custom: 19H1
 ---
 
 # SP_DRVINSTALL_PARAMS structure
@@ -50,24 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 An SP_DRVINSTALL_PARAMS structure contains driver installation parameters associated with a particular driver information element.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of the SP_DRVINSTALL_PARAMS structure.
 
-
 ### -field Rank
 
 The rank match of this driver. Ranges from 0 to <i>n</i>, where 0 is the most compatible.
-
 
 ### -field Flags
 
@@ -218,20 +216,15 @@ Set this flag if the <a href="https://docs.microsoft.com/previous-versions/windo
 
 For more information, see the following Remarks section.
 
-
 ### -field PrivateData
 
 A field a class installer can use to store private data. Co-installers should not use this field.
-
 
 ### -field Reserved
 
 Reserved. For internal use only.
 
-
 ## -remarks
-
-
 
 Starting with Windows 7, an installer or co-installer can set the DNF_REQUESTADDITIONALSOFTWARE flag to indicate that the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> requires additional software that may or not be installed in the computer.
 
@@ -256,19 +249,11 @@ If the device-specific software is not installed on the computer, the PnP manage
 <div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinstallparamsa">SetupDiGetDriverInstallParams</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdriverinstallparamsa">SetupDiSetDriverInstallParams</a>
- 
-
- 
 

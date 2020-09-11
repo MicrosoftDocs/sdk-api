@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: f850531b-eee0-4943-8c41-050ec78eab63
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA, DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA, mf.dxvahd_stream_state_destination_rect_data
-f1_keywords:
-- dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
+ - dxvahd/_DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
+ - DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
+ - dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
 ---
 
 # DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the destination rectangle for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Enable
 
@@ -88,8 +86,6 @@ Use the entire output surface as the destination rectangle.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DestinationRect
 
@@ -97,11 +93,7 @@ The <i>destination rectangle</i>, which defines the portion of the output surfac
 
 If the <b>Enable</b> member is <b>FALSE</b>, the <b>DestinationRect</b> member is ignored.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -120,7 +112,4 @@ If the <b>Enable</b> member is <b>FALSE</b>, the <b>DestinationRect</b> member i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: EAP
 ms.assetid: f96ffa3f-cd3c-4979-87b3-1a2afb7a3621
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig interface [EAP],Uninitialize method, IEAPProviderConfig.Uninitialize, IEAPProviderConfig::Uninitialize, Uninitialize, Uninitialize method [EAP], Uninitialize method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_uninitialize, eap.ieapproviderconfig_uninitialize, rrascfg/IEAPProviderConfig::Uninitialize
-f1_keywords:
-- rrascfg/IEAPProviderConfig.Uninitialize
-dev_langs:
-- c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rrascfg.h
-api_name:
-- IEAPProviderConfig.Uninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEAPProviderConfig::Uninitialize
+ - rrascfg/IEAPProviderConfig::Uninitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rrascfg.h
+api_name:
+ - IEAPProviderConfig.Uninitialize
 ---
 
 # IEAPProviderConfig::Uninitialize
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The system calls the <b>Uninitialize</b> method to shut down the specified EAP configuration session.
 
-
 ## -parameters
-
-
-
 
 ### -param dwEapTypeId
 
 Specifies the EAP for which to shut down the configuration session.
 
-
 ### -param uConnectionParam
 
 Specifies the configuration session to shut down.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value should be <b>S_OK</b>.
 
@@ -126,27 +118,15 @@ An unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The configuration UI should allow the user to configure the EAP provider on a remote computer. Delete the connection to the remote computer during the call to <b>Uninitialize</b>.
 
 The DLL that implements 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">IEAPProviderConfig</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies the authentication protocol to shut down the configuration session for.
 
-
-
-
 ## -see-also
-
-
-
 
 [EAP Interfaces](/windows/win32/eap/eap-interfaces)
 
@@ -173,7 +153,4 @@ The DLL that implements
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-serverinvokeconfigui">IEAPProviderConfig::ServerInvokeConfigUI</a>
- 
-
- 
 

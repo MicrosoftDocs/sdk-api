@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFRelativePanelWatcher::GetReport
 f1_keywords:
+ - IMFRelativePanelWatcher::GetReport
  - mfidl/IMFRelativePanelWatcher::GetReport
 dev_langs:
  - c++

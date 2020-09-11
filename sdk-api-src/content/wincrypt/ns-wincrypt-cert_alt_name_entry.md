@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1353ef56-cae7-43f2-a31f-2bb3b502450e
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY structure [Security], PCERT_ALT_NAME_ENTRY, PCERT_ALT_NAME_ENTRY structure pointer [Security], _crypto2_cert_alt_name_entry, security.cert_alt_name_entry, wincrypt/CERT_ALT_NAME_ENTRY, wincrypt/PCERT_ALT_NAME_ENTRY'
-f1_keywords:
-- wincrypt/CERT_ALT_NAME_ENTRY
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_ALT_NAME_ENTRY
 targetos: Windows
 req.typenames: CERT_ALT_NAME_ENTRY, *PCERT_ALT_NAME_ENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_ALT_NAME_ENTRY
+ - wincrypt/_CERT_ALT_NAME_ENTRY
+ - PCERT_ALT_NAME_ENTRY
+ - wincrypt/PCERT_ALT_NAME_ENTRY
+ - CERT_ALT_NAME_ENTRY
+ - wincrypt/CERT_ALT_NAME_ENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_ALT_NAME_ENTRY
 ---
 
 # CERT_ALT_NAME_ENTRY structure
@@ -49,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_ALT_NAME_ENTRY</b> structure contains an alternative name in one of a variety of name forms. These names are bound by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to a certificate's public key.
 
 A  structure can be <b>CERT_ALT_NAME_ENTRY</b> member of a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwAltNameChoice
 
@@ -79,48 +79,35 @@ This can be one of the following values:
 
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.pOtherName
 
 A pointer to a <b>CERT_OTHER_NAME</b> structure, which includes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> containing the name.
-
 
 ### -field DUMMYUNIONNAME.pwszRfc822Name
 
 Email address as a Unicode string.
 
-
 ### -field DUMMYUNIONNAME.pwszDNSName
 
 DNS name as an IA5 string.
-
 
 ### -field DUMMYUNIONNAME.DirectoryName
 
 A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> structure that contains a directory name.
 
-
 ### -field DUMMYUNIONNAME.pwszURL
 
 URL as a IA5 string.
-
 
 ### -field DUMMYUNIONNAME.IPAddress
 
 Octet string that is an Internet Protocol address defined in accordance with Internet <a href="https://www.ietf.org/rfc/rfc791.txt">RFC 791</a>.
 
-
 ### -field DUMMYUNIONNAME.pszRegisteredID
 
 Object identifier (OID) of any registered object.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a>
 
@@ -131,7 +118,4 @@ Object identifier (OID) of any registered object.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
- 
-
- 
 

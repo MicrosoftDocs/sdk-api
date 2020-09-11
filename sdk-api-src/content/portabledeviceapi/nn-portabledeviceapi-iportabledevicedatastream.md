@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: d7bd955a-886f-4081-bfc3-cd2d7e2cfb24
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceDataStream, IPortableDeviceDataStream interface [Windows Portable Devices SDK], IPortableDeviceDataStream interface [Windows Portable Devices SDK],described, IPortableDeviceDataStreamInterface, portabledeviceapi/IPortableDeviceDataStream, wpdsdk.iportabledevicedatastream
-f1_keywords:
-- portabledeviceapi/IPortableDeviceDataStream
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceDataStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceDataStream
+ - portabledeviceapi/IPortableDeviceDataStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceDataStream
 ---
 
 # IPortableDeviceDataStream interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IPortableDeviceDataStream</b> interface exposes additional methods on an <b>IStream</b> that is used for data transfers. It is obtained by calling <b>QueryInterface</b> on the <b>IStream</b> that is retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getstream">IPortableDeviceResources::GetStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">IPortableDeviceContent::CreateObjectWithPropertiesAndData</a>.
-
-
-
 
 ## -inheritance
 
@@ -90,5 +86,5 @@ Retrieves the object ID of the resource that was written to the device.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1a3b1192-f1e9-4f04-b543-d38692502b8e
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],ProcessOutput method, IMediaObject.ProcessOutput, IMediaObject::ProcessOutput, IMediaObjectProcessOutput, ProcessOutput, ProcessOutput method [DirectShow], ProcessOutput method [DirectShow],IMediaObject interface, dshow.imediaobject_processoutput, mediaobj/IMediaObject::ProcessOutput
-f1_keywords:
-- mediaobj/IMediaObject.ProcessOutput
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaObject.ProcessOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaObject::ProcessOutput
+ - mediaobj/IMediaObject::ProcessOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaObject.ProcessOutput
 ---
 
 # IMediaObject::ProcessOutput
@@ -50,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ProcessOutput</code> method generates output from the current input data.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags
 
 Bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_process_output_flags">DMO_PROCESS_OUTPUT_FLAGS</a> enumeration.
 
-
 ### -param cOutputBufferCount
 
 Number of output buffers.
-
 
 ### -param pOutputBuffers [in, out]
 
 Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_output_data_buffer">DMO_OUTPUT_DATA_BUFFER</a> structures containing the output buffers. Specify the size of the array in the <i>cOutputBufferCount</i> parameter.
 
-
 ### -param pdwStatus [out]
 
 Pointer to a variable that receives a reserved value (zero). The application should ignore this value.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -149,14 +136,8 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pOutputBuffers</i> parameter points to an array of <b>DMO_OUTPUT_DATA_BUFFER</b> structures. The application must allocate one structure for each output stream. To determine the number of output streams, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getstreamcount">IMediaObject::GetStreamCount</a> method. Set the <i>cOutputBufferCount</i> parameter to this number.
 
@@ -181,16 +162,7 @@ For each stream in which <b>pBuffer</b> is <b>NULL</b>:
 </ul>
 To check whether a stream is discardable or optional, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputstreaminfo">IMediaObject::GetOutputStreamInfo</a> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
- 
-
- 
 

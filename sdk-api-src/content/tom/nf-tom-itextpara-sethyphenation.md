@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethyphenation.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetHyphenation method, ITextPara.SetHyphenation, ITextPara::SetHyphenation, SetHyphenation, SetHyphenation method [Windows Controls], SetHyphenation method [Windows Controls],ITextPara interface, _win32_ITextPara_SetHyphenation, _win32_ITextPara_SetHyphenation_cpp, controls.ITextPara_SetHyphenation, controls._win32_ITextPara_SetHyphenation, tom/ITextPara::SetHyphenation
-f1_keywords:
-- tom/ITextPara.SetHyphenation
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetHyphenation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetHyphenation
+ - tom/ITextPara::SetHyphenation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetHyphenation
 ---
 
 # ITextPara::SetHyphenation
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls hyphenation for the paragraphs in the range.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -103,12 +99,8 @@ The hyphenation property is undefined.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -175,15 +167,8 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -202,7 +187,4 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

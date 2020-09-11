@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.#ctor
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE constructor [DirectX Math Support APIs], XMFLOAT3SE constructor [DirectX Math Support APIs],XMFLOAT3SE structure, XMFLOAT3SE structure [DirectX Math Support APIs],XMFLOAT3SE constructor, XMFLOAT3SE.XMFLOAT3SE, XMFLOAT3SE.XMFLOAT3SE(), XMFLOAT3SE::XMFLOAT3SE, dxmath.xmfloat3se_ctor_1
-f1_keywords:
-- directxpackedvector/XMFLOAT3SE.XMFLOAT3SE
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMFLOAT3SE.XMFLOAT3SE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3SE::XMFLOAT3SE
+ - directxpackedvector/XMFLOAT3SE::XMFLOAT3SE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMFLOAT3SE.XMFLOAT3SE
 ---
 
 # XMFLOAT3SE::XMFLOAT3SE
 
 
 ## -description
-
 
 Default constructor for <code>XMFLOAT3SE</code>.
 
@@ -57,26 +57,12 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 <code>XMFLOAT3SE()</code> constructs a new instance of the <code>XMFLOAT3SE</code> structure without
     defining the value of any of its members.
-   
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -87,7 +73,4 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>
- 
-
- 
 

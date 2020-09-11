@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12Device4 interface","CreateReservedResource1 method"
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateReservedResource1 method, ID3D12Device4.CreateReservedResource1, ID3D12Device4::CreateReservedResource1, CreateReservedResource1, CreateReservedResource1 method, CreateReservedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createreservedresource1, d3d12/ID3D12Device4::CreateReservedResource1
-f1_keywords:
-- d3d12/ID3D12Device4.CreateReservedResource1
-dev_langs:
-- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.lib
-- d3d12.dll
-api_name:
-- ID3D12Device4::CreateReservedResource1
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device4::CreateReservedResource1
+ - d3d12/ID3D12Device4::CreateReservedResource1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.lib
+ - d3d12.dll
+api_name:
+ - ID3D12Device4::CreateReservedResource1
 ---
 
 ## -description
@@ -123,3 +124,4 @@ These resource types can only be created when the adapter supports tiled resourc
 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device4">ID3D12Device4</a>
+

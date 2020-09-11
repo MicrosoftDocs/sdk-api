@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 4ed7c47b-d40b-4016-8550-0af17ee9e86d
 ms.date: 12/05/2018
 ms.keywords: ReadFileScatter, ReadFileScatter function [Files], _win32_readfilescatter, base.readfilescatter, fileapi/ReadFileScatter, fs.readfilescatter, winbase/ReadFileScatter
-f1_keywords:
-- fileapi/ReadFileScatter
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- ReadFileScatter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadFileScatter
+ - fileapi/ReadFileScatter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - ReadFileScatter
 ---
 
 # ReadFileScatter function
@@ -56,18 +57,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads data from a file and stores it in an array of buffers.
 
 The function starts reading data from the file at a position that is specified by an 
     <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. The 
     <b>ReadFileScatter</b> function operates asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -77,7 +73,6 @@ The file handle must be created with the <b>GENERIC_READ</b> right, and the
        <b>FILE_FLAG_OVERLAPPED</b> and <b>FILE_FLAG_NO_BUFFERING</b> flags. For 
        more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
-
 
 ### -param aSegmentArray [in]
 
@@ -101,7 +96,6 @@ The function stores the data in the buffers in sequential order. For example, it
        buffer, then into the second buffer, and so on until each buffer is filled and all the data is stored, or there 
        are no more buffers.
 
-
 ### -param nNumberOfBytesToRead [in]
 
 The total number of bytes to be read from the file. Each element of <i>aSegmentArray</i> 
@@ -109,11 +103,9 @@ The total number of bytes to be read from the file. Each element of <i>aSegmentA
       <b>FILE_FLAG_NO_BUFFERING</b>, the number of bytes must be a multiple of the sector size of 
       the file system where the file is located.
 
-
 ### -param lpReserved
 
 This parameter is reserved for future use and must be <b>NULL</b>.
-
 
 ### -param lpOverlapped [in, out]
 
@@ -143,10 +135,7 @@ The <b>ReadFileScatter</b> function may return before the
        obtain information about the completion of the read operation. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -163,12 +152,7 @@ If the function returns before the read operation is complete, the function retu
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_IO_PENDING</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function is not supported for 32-bit applications by WOW64 on Itanium-based systems.
 
@@ -254,13 +238,7 @@ If there is a transaction bound to the file handle, then the function returns da
       the file. A transacted read handle is guaranteed to show the same view of a file for the duration of the 
       handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -299,7 +277,4 @@ If there is a transaction bound to the file handle, then the function returns da
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefilegather">WriteFileGather</a>
- 
-
- 
 

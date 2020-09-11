@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: b91c9490-1995-48cb-a313-ef83f00b9c50
 ms.date: 12/05/2018
 ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush method [XPS Documents and Packaging], CreateRadialGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRadialGradientBrush method, IXpsOMObjectFactory.CreateRadialGradientBrush, IXpsOMObjectFactory::CreateRadialGradientBrush, xps.ixpsomobjectfactory_createradialgradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateRadialGradientBrush
-f1_keywords:
-- xpsobjectmodel/IXpsOMObjectFactory.CreateRadialGradientBrush
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMObjectFactory.CreateRadialGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMObjectFactory::CreateRadialGradientBrush
+ - xpsobjectmodel/IXpsOMObjectFactory::CreateRadialGradientBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMObjectFactory.CreateRadialGradientBrush
 ---
 
 # IXpsOMObjectFactory::CreateRadialGradientBrush
@@ -49,36 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param gradStop1 [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface that specifies the  properties of the gradient  at gradient origin. This parameter must not be <b>NULL</b>.
 
-
 ### -param gradStop2 [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface that specifies the  properties of the gradient  at the end of  the gradient's vector, which is the ellipse that encloses the gradient region. This parameter must not be <b>NULL</b>.
-
 
 ### -param centerPoint [in]
 
 The coordinates of the center point of the radial gradient ellipse.
 
-
 ### -param gradientOrigin [in]
 
 The coordinates of the origin  of the radial gradient.
-
-
-
 
 ### -param radiiSizes [in]
 
@@ -113,17 +103,12 @@ Length of the radius  along the y-axis.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param radialGradientBrush [out, retval]
 
 A pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -177,14 +162,8 @@ The point that is described by <i>centerPoint</i>, <i>radiiSizes</i>, or <i>grad
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
   As shown in the following illustration, the gradient region of a radial gradient is the area enclosed by the ellipse that is described by the center point and the x and y radii that extend from the center point. The spread area is the area outside of that ellipse. The gradient path (not shown) is a radial line that is drawn between the gradient origin and the ellipse that bounds the gradient region.
 
@@ -239,14 +218,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a>
 
@@ -273,7 +245,4 @@ else
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 325dd9a4-80ca-43e3-9ff8-473df1b833e9
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], IMediaPosition interface [DirectShow],described, IMediaPositionInterface, control/IMediaPosition, dshow.imediaposition
-f1_keywords:
-- control/IMediaPosition
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPosition
+ - control/IMediaPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPosition
 ---
 
 # IMediaPosition interface
 
 
 ## -description
-
-
 
 The <b>IMediaPosition</b> interface contains methods for seeking to a position within a stream. 
 
@@ -62,11 +61,6 @@ The <b>IMediaPosition</b> interface contains methods for seeking to a position w
 This interface is exposed by the Filter Graph Manager as well as by individual filters. Applications should obtain an <b>IMediaPosition</b> interface pointer from the Filter Graph Manager, not from a filter. The Filter Graph Manager distributes method calls to all of the renderer filters. The renderer filters propagate the calls upstream to the source filters. This sequence of events ensures that all streams remain synchronized.
 
 If one of the distributed calls returns an error, the Filter Graph Manager returns the first error value it received. Some of the distributed calls may have succeeded in this case. However, the filter graph does not return <b>E_NOTIMPL</b> unless all the distributed calls return <b>E_NOTIMPL</b>. If at least one filter in the graph implements the method, the Filter Graph Manager does not return <b>E_NOTIMPL</b>.
-
-
-
-
-
 
 ## -inheritance
 
@@ -182,16 +176,9 @@ Sets the time at which the playback will stop, relative to the duration of the s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

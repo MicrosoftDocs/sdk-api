@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 657a7394-4481-4e0c-912d-40a9348caf16
 ms.date: 12/05/2018
 ms.keywords: EnumFormatEtc, EnumFormatEtc method [COM], EnumFormatEtc method [COM],IDataObject interface, IDataObject interface [COM],EnumFormatEtc method, IDataObject.EnumFormatEtc, IDataObject::EnumFormatEtc, _ole_idataobject_enumformatetc, com.idataobject_enumformatetc, objidl/IDataObject::EnumFormatEtc
-f1_keywords:
-- objidl/IDataObject.EnumFormatEtc
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IDataObject.EnumFormatEtc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataObject::EnumFormatEtc
+ - objidl/IDataObject::EnumFormatEtc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IDataObject.EnumFormatEtc
 ---
 
 # IDataObject::EnumFormatEtc
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an object to enumerate the formats supported by a data object.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDirection [in]
 
@@ -64,15 +60,11 @@ The direction of the data.  Possible values come from the <a href="https://docs.
 
 The value DATADIR_GET enumerates the formats that can be passed in to a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>. The value DATADIR_SET enumerates those formats that can be passed in to a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>.
 
-
 ### -param ppenumFormatEtc [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> pointer variable that receives the interface pointer to the new enumerator object.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible values include the following.
 
@@ -126,14 +118,8 @@ Requests that OLE enumerate the formats from the registry.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>EnumFormatEtc</b> creates an enumerator object that can be used to determine all of the ways the data object can describe data in a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure, and provides a pointer to its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> interface. This is one of the standard enumerator interfaces.
 
@@ -161,13 +147,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-for
 
 The <b>tymed</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> often indicates that more than one kind of storage medium is acceptable. You should always mask and test for this by using a Boolean OR operator.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
 
@@ -186,7 +166,4 @@ The <b>tymed</b> member of <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleregenumformatetc">OleRegEnumFormatEtc</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\redeyecorrectionparams.htm
 ms.date: 12/05/2018
 ms.keywords: RedEyeCorrectionParams, RedEyeCorrectionParams structure [GDI+], _gdiplus_STRUC_RedEyeCorrectionParams, gdiplus._gdiplus_STRUC_RedEyeCorrectionParams, gdipluseffects/RedEyeCorrectionParams
-f1_keywords:
-- gdipluseffects/RedEyeCorrectionParams
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdipluseffects.h
-api_name:
-- RedEyeCorrectionParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - RedEyeCorrectionParams
+ - gdipluseffects/RedEyeCorrectionParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdipluseffects.h
+api_name:
+ - RedEyeCorrectionParams
 ---
 
 # RedEyeCorrectionParams structure
 
 
 ## -description
-
 
 A <b>RedEyeCorrectionParams</b> structure contains members that specify the areas of a bitmap to which a red-eye correction is applied.
 
@@ -62,15 +62,11 @@ You can can correct red eyes in a bitmap by following these steps.
 
 ## -struct-fields
 
-
-
-
 ### -field numberOfAreas
 
 Type: <b>UINT</b>
 
 Integer that specifies the number of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures in the <b>areas</b> array.
-
 
 ### -field areas
 

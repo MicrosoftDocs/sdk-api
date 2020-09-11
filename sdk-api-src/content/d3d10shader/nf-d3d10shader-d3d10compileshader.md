@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10compileshader.htm
 ms.date: 12/05/2018
 ms.keywords: 8461622f-7f35-e519-3be6-83d985b2cece, D3D10CompileShader, D3D10CompileShader function [Direct3D 10], d3d10shader/D3D10CompileShader, direct3d10.d3d10compileshader
-f1_keywords:
-- d3d10shader/D3D10CompileShader
-dev_langs:
-- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3D10.dll
-api_name:
-- D3D10CompileShader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D10CompileShader
+ - d3d10shader/D3D10CompileShader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3D10.dll
+api_name:
+ - D3D10CompileShader
 ---
 
 # D3D10CompileShader function
 
 
 ## -description
-
 
 Compile an <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-reference">HLSL</a> shader.
 
@@ -57,15 +57,11 @@ Compile an <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-g
 
 ## -parameters
 
-
-
-
 ### -param pSrcData [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 Pointer to a string containing the shader source code.
-
 
 ### -param SrcDataSize [in]
 
@@ -73,13 +69,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Size of pSrcData, in bytes.
 
-
 ### -param pFileName [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The name of the file that contains the shader code.
-
 
 ### -param pDefines [in]
 
@@ -89,13 +83,11 @@ Optional. Pointer to an array of macro definitions (see <a href="https://docs.mi
           The last structure in the array serves as a terminator and must have all members set to 0.  
           If not used, set <i>pDefines</i> to <b>NULL</b>.
 
-
 ### -param pInclude [in]
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85)">LPD3D10INCLUDE</a>*</b>
 
 Optional. Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85)">ID3D10Include Interface</a> interface for handling include files. Setting this to <b>NULL</b> will cause a compile error if a shader contains a #include.
-
 
 ### -param pFunctionName [in]
 
@@ -103,13 +95,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Name of the shader-entry point function where shader execution begins.
 
-
 ### -param pProfile [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A string that specifies the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-models">shader profile</a> or shader model.
-
 
 ### -param Flags [in]
 
@@ -117,13 +107,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Shader <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-shader">compile options</a>.
 
-
 ### -param ppShader [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>**</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob Interface</a> that contains the compiled shader, as well as any embedded debug and symbol-table information.
-
 
 ### -param ppErrorMsgs [out]
 
@@ -131,21 +119,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob Interface</a> that contains a listing of errors and warnings that occurred during compilation. These errors and warnings are identical to the debug output from a debugger.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function uses the version of the HLSL compiler released in the November 2006 DirectX SDK.
 
@@ -155,16 +135,7 @@ To setup a programmable-pipeline stage, compile a shader and then bind the shade
 
 This function, D3D10CompileShader, calls the version of the shader compiler that is shipped each time the operating system releases. A more up-to-date version of the shader compiler ships when the DirectX SDK ships, which can be accessed from D3DX by calling a version of the shader compiler entry-point function such as <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10compilefromfile">D3DX10CompileFromFile</a>.  It is preferable to use the D3DX entry-point functions to ensure the latest version of the shader compiler will be used if you will be redistributing the DirectX redistributable libraries.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-functions">Shader Functions</a>
- 
-
- 
 

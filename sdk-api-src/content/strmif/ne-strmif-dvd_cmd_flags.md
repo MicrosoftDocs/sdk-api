@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 05eb5ab8-a1b3-4876-bac3-29510af8cdbd
 ms.date: 12/05/2018
 ms.keywords: DVD_CMD_FLAGS, DVD_CMD_FLAGS , DVD_CMD_FLAGS enumeration [DirectShow], DVD_CMD_FLAGSEnumeration, DVD_CMD_FLAG_Block, DVD_CMD_FLAG_EndAfterRendered, DVD_CMD_FLAG_Flush, DVD_CMD_FLAG_None, DVD_CMD_FLAG_SendEvents, DVD_CMD_FLAG_StartWhenRendered, dshow.dvd_cmd_flags, strmif/DVD_CMD_FLAGS, strmif/DVD_CMD_FLAG_Block, strmif/DVD_CMD_FLAG_EndAfterRendered, strmif/DVD_CMD_FLAG_Flush, strmif/DVD_CMD_FLAG_None, strmif/DVD_CMD_FLAG_SendEvents, strmif/DVD_CMD_FLAG_StartWhenRendered
-f1_keywords:
-- strmif/DVD_CMD_FLAGS
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- DVD_CMD_FLAGS
 targetos: Windows
 req.typenames: DVD_CMD_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_strmif_0000_0132_0002
+ - strmif/__MIDL___MIDL_itf_strmif_0000_0132_0002
+ - DVD_CMD_FLAGS
+ - strmif/DVD_CMD_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - DVD_CMD_FLAGS
 ---
 
 # DVD_CMD_FLAGS enumeration
@@ -49,42 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Defines flags that control how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> filter handles command synchronization.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field DVD_CMD_FLAG_None
 
 The DVD Navigator will not flush its buffers when it issues the command, will not send any events, and will not to block the thread of execution on any method call.
 
-
 ### -field DVD_CMD_FLAG_Flush
 
 The DVD Navigator will flush all of its buffered video data before issuing the command. This can cause the DVD Navigator to discard approximately two seconds of video, which will decrease the response time but cause a gap in the playback data.
-
 
 ### -field DVD_CMD_FLAG_SendEvents
 
 The DVD Navigator will send an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a> event when the command begins, and an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a> event when the command ends. The event parameters contain the status code of the operation.
 
-
 ### -field DVD_CMD_FLAG_Block
 
 The DVD Navigator blocks until the command completes or is canceled.
 
-
 ### -field DVD_CMD_FLAG_StartWhenRendered
 
 Currently not used.
-
 
 ### -field DVD_CMD_FLAG_EndAfterRendered
 
@@ -106,18 +96,11 @@ The DVD Navigator will block until the specified action is actually rendered. Th
 </ul>
 For example, when used with <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchaptersautostop">PlayChaptersAutoStop</a>, this flag causes the DVD Navigator to block until the specified chapters have all played. When used with <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectsubpicturestream">SelectSubpictureStream</a>, the flag causes the DVD Navigator to block until the new subpicture is rendered.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
- 
-
- 
 

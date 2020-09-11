@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 11d8971b-354f-4347-9d3f-6d32df8dc9d2
 ms.date: 12/05/2018
 ms.keywords: ILoadChangeContext, ILoadChangeContext interface [Windows Sync], ILoadChangeContext interface [Windows Sync],described, winsync.iloadchangecontext, winsync/ILoadChangeContext
-f1_keywords:
-- winsync/ILoadChangeContext
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ILoadChangeContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILoadChangeContext
+ - winsync/ILoadChangeContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ILoadChangeContext
 ---
 
 # ILoadChangeContext interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents information about a change to be loaded from the item store.
-
-
 
 ## -inheritance
 
@@ -99,16 +97,9 @@ Indicates that a recoverable error occurred when data for the specified change u
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

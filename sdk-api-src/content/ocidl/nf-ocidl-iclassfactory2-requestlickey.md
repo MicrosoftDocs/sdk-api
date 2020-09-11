@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 6c0211d2-1cdd-4d1a-a1fe-44c89b750af6
 ms.date: 12/05/2018
 ms.keywords: IClassFactory2 interface [COM],RequestLicKey method, IClassFactory2.RequestLicKey, IClassFactory2::RequestLicKey, RequestLicKey, RequestLicKey method [COM], RequestLicKey method [COM],IClassFactory2 interface, _com_iclassfactory2_requestlickey, com.iclassfactory2_requestlickey, ocidl/IClassFactory2::RequestLicKey
-f1_keywords:
-- ocidl/IClassFactory2.RequestLicKey
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IClassFactory2.RequestLicKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClassFactory2::RequestLicKey
+ - ocidl/IClassFactory2::RequestLicKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IClassFactory2.RequestLicKey
 ---
 
 # IClassFactory2::RequestLicKey
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a license key that the caller can save and use later to create an instance of the licensed object.
 
-
 ## -parameters
-
-
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved and must be zero.
 
-
 ### -param pBstrKey [out]
 
 A pointer to the caller-allocated variable that receives the callee-allocated license key on successful return from this method. This parameter is set to <b>NULL</b> on any failure.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -124,14 +116,8 @@ This class factory supports run-time licensing, but the current machine itself i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller can save the license key for subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-createinstancelic">IClassFactory2::CreateInstanceLic</a> to create objects on an otherwise unlicensed machine.
 
@@ -143,16 +129,7 @@ This method allocates the <b>BSTR</b> key with <a href="https://docs.microsoft.c
 
 This method need not be implemented when a class factory does not support run-time license keys.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 83529CFD-46D2-45A7-9B0D-F00FF43D911B
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], IUIAutomationStylesPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationStylesPattern, winauto.uiauto_IUIAutomationStylesPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationStylesPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationStylesPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationStylesPattern
+ - uiautomationclient/IUIAutomationStylesPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationStylesPattern
 ---
 
 # IUIAutomationStylesPattern interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables Microsoft UI Automation clients to retrieve the visual styles associated with an element in a document.
-
 
 ## -inheritance
 
@@ -291,16 +290,9 @@ Retrieves the name of the visual style associated with an element in a document.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
 

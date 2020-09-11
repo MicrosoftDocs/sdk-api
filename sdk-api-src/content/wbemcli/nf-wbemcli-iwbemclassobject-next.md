@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 6d0e8aa3-ae64-4934-9000-2c526ceb7fb6
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Next method, IWbemClassObject.Next, IWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemClassObject interface, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_next, wbemcli/IWbemClassObject::Next, wmi.iwbemclassobject_next
-f1_keywords:
-- wbemcli/IWbemClassObject.Next
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CIMWin32.dll
-- Esscli.dll
-- Fastprox.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Krnlprov.dll
-- Ncprov.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wmipiprt.dll
-api_name:
-- IWbemClassObject.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemClassObject::Next
+ - wbemcli/IWbemClassObject::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CIMWin32.dll
+ - Esscli.dll
+ - Fastprox.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Krnlprov.dll
+ - Ncprov.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wmipiprt.dll
+api_name:
+ - IWbemClassObject.Next
 ---
 
 # IWbemClassObject::Next
 
 
 ## -description
-
 
 The <b>IWbemClassObject::Next</b> method retrieves the 
     next property in an enumeration that started with 
@@ -69,16 +69,11 @@ The <b>IWbemClassObject::Next</b> method retrieves the
 
 The order of the properties returned during the enumeration is not defined.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
 Reserved. This parameter must be 0.
-
 
 ### -param strName [out]
 
@@ -86,7 +81,6 @@ Receives a new <b>BSTR</b> that contains the property name. To prevent memory le
       in the client process, the caller must call 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when the name is no 
       longer required. You can set this parameter to <b>NULL</b> if the name is not required.
-
 
 ### -param pVal [out]
 
@@ -101,7 +95,6 @@ You can set this parameter to <b>NULL</b> if the value is not required. If an er
        is returned, the <b>VARIANT</b> pointed to by <i>pVal</i> is left 
        unmodified.
 
-
 ### -param pType [out, optional]
 
 This parameter can be <b>NULL</b>. If it is not <b>NULL</b>, it must 
@@ -109,7 +102,6 @@ This parameter can be <b>NULL</b>. If it is not <b>NULL</b>, it must
       type of the property is placed. It is possible that the value of this property can be a 
       <b>VT_NULL</b> <b>VARIANT</b>, in which case it 
       is necessary to determine the actual type of the property.
-
 
 ### -param plFlavor [out, optional]
 
@@ -148,22 +140,14 @@ The property is modified at the instance level (that is, either a value was supp
 
 For instances:
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The 
        following list lists the value contained within an <b>HRESULT</b>. For general 
        <b>HRESULT</b> values, see 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the underlying type of the property is an object path, date or time, or another special type, then the 
     returned type does not contain enough information. The caller must examine the 
@@ -173,13 +157,7 @@ If the underlying type of the property is an object path, date or time, or anoth
 This method also returns 
     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
@@ -198,7 +176,4 @@ This method also returns
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
- 
-
- 
 

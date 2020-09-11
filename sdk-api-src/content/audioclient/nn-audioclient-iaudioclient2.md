@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 9CE79CEB-115E-4802-A687-B2CB23E6A0E0
 ms.date: 12/05/2018
 ms.keywords: IAudioClient2, IAudioClient2 interface [Core Audio], IAudioClient2 interface [Core Audio],described, audioclient/IAudioClient2, coreaudio.iaudioclient2
-f1_keywords:
-- audioclient/IAudioClient2
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient2
+ - audioclient/IAudioClient2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient2
 ---
 
 # IAudioClient2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IAudioClient2</b> interface is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to do the following: opt in for offloading, query stream properties, and get information from the hardware that handles offloading.The audio client can be successful in creating an offloaded stream if the underlying endpoint supports the hardware audio engine, the endpoint has been enumerated and discovered by the audio system, and there are still offload pin instances available on the endpoint.</p> 
-
+The <b>IAudioClient2</b> interface is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to do the following: opt in for offloading, query stream properties, and get information from the hardware that handles offloading.The audio client can be successful in creating an offloaded stream if the underlying endpoint supports the hardware audio engine, the endpoint has been enumerated and discovered by the audio system, and there are still offload pin instances available on the endpoint.</p>
 
 ## -inheritance
 
@@ -95,13 +94,9 @@ Sets the properties of the audio stream by populating an <a href="/windows/win32
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a>
 
@@ -112,7 +107,4 @@ Sets the properties of the audio stream by populating an <a href="/windows/win32
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b
 ms.date: 12/05/2018
 ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], IViewObjectEx interface [COM],described, _ole_iviewobjectex, com.iviewobjectex, ocidl/IViewObjectEx
-f1_keywords:
-- ocidl/IViewObjectEx
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IViewObjectEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewObjectEx
+ - ocidl/IViewObjectEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IViewObjectEx
 ---
 
 # IViewObjectEx interface
 
 
 ## -description
-
 
 An extension derived from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a> to provide support for:
 <ul>
@@ -117,16 +117,9 @@ Indicates whether any point in a rectangle is within a given drawing aspect of a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>
- 
-
- 
 

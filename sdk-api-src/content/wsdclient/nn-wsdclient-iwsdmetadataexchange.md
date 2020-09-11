@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: f4e2c2f7-3e76-4a17-88f8-9d59c18343a9
 ms.date: 12/05/2018
 ms.keywords: IWSDMetadataExchange, IWSDMetadataExchange interface, IWSDMetadataExchange interface,described, ncd.iwsdmetadataexchange, wsdclient/IWSDMetadataExchange
-f1_keywords:
-- wsdclient/IWSDMetadataExchange
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDMetadataExchange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDMetadataExchange
+ - wsdclient/IWSDMetadataExchange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDMetadataExchange
 ---
 
 # IWSDMetadataExchange interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Is the base class for other objects which access metadata.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves metadata for an object.
 
 </td>
 </tr>
-</table> 
+</table>
 

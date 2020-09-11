@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d690827a-4608-4d02-a3bb-5cdb5073b0ad
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemInterconnect, IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,described, base.ivdssubsysteminterconnect, vds/IVdsSubSystemInterconnect, vdshwprv/IVdsSubSystemInterconnect
-f1_keywords:
-- vds/IVdsSubSystemInterconnect
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsSubSystemInterconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsSubSystemInterconnect
+ - vds/IVdsSubSystemInterconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsSubSystemInterconnect
 ---
 
 # IVdsSubSystemInterconnect interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to query the interconnect types that are supported by a subsystem.
-
 
 ## -inheritance
 
@@ -80,5 +79,5 @@ Returns the interconnect types that the subsystem supports.
 
 </td>
 </tr>
-</table> 
+</table>
 

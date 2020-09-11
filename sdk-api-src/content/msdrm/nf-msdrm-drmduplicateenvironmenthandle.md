@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 6e246181-1d93-49b4-bc3f-e54083d4cad2
 ms.date: 12/05/2018
 ms.keywords: DRMDuplicateEnvironmentHandle, DRMDuplicateEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateEnvironmentHandle, rm.drmduplicateenvironmenthandle
-f1_keywords:
-- msdrm/DRMDuplicateEnvironmentHandle
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMDuplicateEnvironmentHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMDuplicateEnvironmentHandle
+ - msdrm/DRMDuplicateEnvironmentHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMDuplicateEnvironmentHandle
 ---
 
 # DRMDuplicateEnvironmentHandle function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,49 +61,27 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMDuplicateEnvironmentHandle</b> function creates a copy of an environment handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hToCopy [in]
 
 A handle to copy. An environment handle is created by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drminitenvironment">DRMInitEnvironment</a>.
 
-
 ### -param phCopy [out]
 
 A copy of the handle. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcloseenvironmenthandle">DRMCloseEnvironmentHandle</a> to close.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function allows an application to keep a proper reference count on environment handles, so use this function, rather than simply copy assignment, to copy an environment handle. For other handles, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmduplicatehandle">DRMDuplicateHandle</a>. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcloseenvironmenthandle">DRMCloseEnvironmentHandle</a> to close the environment handle created by calling this function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d1c33908-8450-4baf-8598-535a1941820c
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveDestination method, IApplicationDestinations.RemoveDestination, IApplicationDestinations::RemoveDestination, RemoveDestination, RemoveDestination method [Windows Shell], RemoveDestination method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_RemoveDestination, shell.IApplicationDestinations_RemoveDestination, shobjidl_core/IApplicationDestinations::RemoveDestination
-f1_keywords:
-- shobjidl_core/IApplicationDestinations.RemoveDestination
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IApplicationDestinations.RemoveDestination
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationDestinations::RemoveDestination
+ - shobjidl_core/IApplicationDestinations::RemoveDestination
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IApplicationDestinations.RemoveDestination
 ---
 
 # IApplicationDestinations::RemoveDestination
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a single destination from the <b>Recent</b> and <b>Frequent</b> categories in a Jump List.
 
-
 ## -parameters
-
-
-
 
 ### -param punk [in]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> that represents the destination to remove.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a standard COM error value otherwise. If the object pointed to by <i>punk</i> is not an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>, the method returns E_INVALIDARG.
 
-
-
-
 ## -remarks
-
-
 
 A destination can appear in both the <b>Recent</b> and <b>Frequent</b> categories. If that is the case, this method removes the destination from both categories.
 
@@ -88,13 +76,7 @@ An application can call <b>RemoveDestination</b> without knowing if the item poi
 
 If the application has an explicit Application User Model ID (AppUserModelID), you must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid">IApplicationDestinations::SetAppID</a> before you call this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations">IApplicationDestinations</a>
 
@@ -109,7 +91,4 @@ If the application has an explicit Application User Model ID (AppUserModelID), y
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

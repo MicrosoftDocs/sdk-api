@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: f9e6eb88-ac38-4b99-ab64-a408f75f7969
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SubdirectoryFormat property, IDataCollectorSet.SubdirectoryFormat, IDataCollectorSet.put_SubdirectoryFormat, IDataCollectorSet::SubdirectoryFormat, IDataCollectorSet::get_SubdirectoryFormat, IDataCollectorSet::put_SubdirectoryFormat, SubdirectoryFormat property [PLA], SubdirectoryFormat property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectoryformat, pla.idatacollectorset_get_subdirectoryformat, pla/IDataCollectorSet::SubdirectoryFormat, pla/IDataCollectorSet::get_SubdirectoryFormat, pla/IDataCollectorSet::put_SubdirectoryFormat, put_SubdirectoryFormat
-f1_keywords:
-- pla/IDataCollectorSet.SubdirectoryFormat
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.SubdirectoryFormat
-- IDataCollectorSet.get_SubdirectoryFormat
-- IDataCollectorSet.put_SubdirectoryFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::put_SubdirectoryFormat
+ - pla/IDataCollectorSet::put_SubdirectoryFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.SubdirectoryFormat
+ - IDataCollectorSet.get_SubdirectoryFormat
+ - IDataCollectorSet.put_SubdirectoryFormat
 ---
 
 # IDataCollectorSet::put_SubdirectoryFormat
@@ -51,28 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets flags that describe how to decorate the subdirectory name.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 PLA appends the decoration to the folder name. For example, if you specify <b>plaMonthDayHour</b>, PLA appends the current month, day, and hour values to the folder name. If the folder name is MyFile, the result could be MyFile110816.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
@@ -83,7 +73,4 @@ PLA appends the decoration to the folder name. For example, if you specify <b>pl
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern">IDataCollectorSet::SubdirectoryFormatPattern</a>
- 
-
- 
 

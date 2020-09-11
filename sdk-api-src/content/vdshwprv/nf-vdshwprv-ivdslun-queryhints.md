@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6cdbbf17-fcee-4cd4-bf5c-d994886262da
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],QueryHints method, IVdsLun.QueryHints, IVdsLun::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLun interface, base.ivdslun_queryhints, vds/IVdsLun::QueryHints, vdshwprv/IVdsLun::QueryHints
-f1_keywords:
-- vdshwprv/IVdsLun.QueryHints
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsLun.QueryHints
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLun::QueryHints
+ - vdshwprv/IVdsLun::QueryHints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsLun.QueryHints
 ---
 
 # IVdsLun::QueryHints
@@ -50,27 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the hints 
    currently applied to the LUN.
 
-
 ## -parameters
-
-
-
 
 ### -param pHints [out]
 
 A pointer to the returned LUN hints. See the 
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -146,27 +139,15 @@ This operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Callers can specify hints by passing in the <i>pHints</i> parameter to the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method when 
     creating a LUN or by using the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-applyhints">IVdsLun::ApplyHints</a> 
     method to apply a set of new hints to an existing LUN.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
@@ -189,7 +170,4 @@ Callers can specify hints by passing in the <i>pHints</i> parameter to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
- 
-
- 
 

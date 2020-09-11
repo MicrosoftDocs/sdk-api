@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f44e291e-dbc6-4a44-92ba-92a81e043764
 ms.date: 12/05/2018
 ms.keywords: WriteEncryptedFileRaw, WriteEncryptedFileRaw function [Files], base.writeencryptedfileraw, fs.writeencryptedfileraw, winbase/WriteEncryptedFileRaw
-f1_keywords:
-- winbase/WriteEncryptedFileRaw
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
-api_name:
-- WriteEncryptedFileRaw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WriteEncryptedFileRaw
+ - winbase/WriteEncryptedFileRaw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+api_name:
+ - WriteEncryptedFileRaw
 ---
 
 # WriteEncryptedFileRaw function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Restores (import) encrypted files. This is one of a group of Encrypted File System (EFS) 
     functions that is intended  to implement backup and restore functionality, while maintaining files in their 
     encrypted state.
 
-
 ## -parameters
-
-
-
 
 ### -param pfImportCallback [in]
 
@@ -70,7 +66,6 @@ A pointer to the import callback function. The system calls the callback functio
       operation is finished. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pfe_import_func">ImportCallback</a>.
 
-
 ### -param pvCallbackContext [in, optional]
 
 A pointer to an application-defined and allocated context block. The system passes this pointer to the 
@@ -78,17 +73,13 @@ A pointer to an application-defined and allocated context block. The system pass
       This can be a structure and can contain any data the application needs, such as the handle to the file that will 
       contain the backup copy of the encrypted file.
 
-
 ### -param pvContext [in]
 
 A pointer to a system-defined context block. The context block is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a> function. Do not modify 
       it.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -96,12 +87,7 @@ If the function fails, it returns a nonzero error code defined in WinError.h. Yo
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the 
        <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a generic text description of the error.
 
-
-
-
 ## -remarks
-
-
 
 The file being restored is not decrypted;  it is restored in its encrypted state.
 
@@ -194,13 +180,7 @@ No
 
 SMB 3.0 does not support EFS on shares with continuous availability capability.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
 
@@ -227,7 +207,4 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
- 
-
- 
 

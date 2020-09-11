@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 251d462e-964e-42db-8554-dba8f5a9b1ef
 ms.date: 12/05/2018
 ms.keywords: 7ab4ccb7-1e59-6a38-2ca4-dd87773c596d, D3D11_USAGE, D3D11_USAGE enumeration [Direct3D 11], D3D11_USAGE_DEFAULT, D3D11_USAGE_DYNAMIC, D3D11_USAGE_IMMUTABLE, D3D11_USAGE_STAGING, d3d11/D3D11_USAGE, d3d11/D3D11_USAGE_DEFAULT, d3d11/D3D11_USAGE_DYNAMIC, d3d11/D3D11_USAGE_IMMUTABLE, d3d11/D3D11_USAGE_STAGING, direct3d11.d3d11_usage
-f1_keywords:
-- d3d11/D3D11_USAGE
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_USAGE
 targetos: Windows
 req.typenames: D3D11_USAGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_USAGE
+ - d3d11/D3D11_USAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_USAGE
 ---
 
 # D3D11_USAGE enumeration
@@ -49,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies expected resource use during rendering. The usage directly reflects whether a resource is accessible by the CPU and/or the graphics processing unit (GPU).
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_USAGE_DEFAULT
 
 A resource that requires read and write access by the GPU. This is likely to be the most common usage choice.
 
-
 ### -field D3D11_USAGE_IMMUTABLE
 
 A resource that can only be read by the GPU. It cannot be written by the GPU, and cannot be accessed at all by the CPU. This type of resource must be initialized when it is created, since it cannot be changed after creation.
-
 
 ### -field D3D11_USAGE_DYNAMIC
 
 A resource that is accessible by both the GPU (read only) and the CPU (write only). A dynamic resource is a good choice for a resource that will be updated by the CPU at least once per frame. To update a dynamic resource, use a <b>Map</b> method.
 
-For info about how to use dynamic resources, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/how-to--use-dynamic-resources">How to: Use dynamic resources</a>. 
-
+For info about how to use dynamic resources, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/how-to--use-dynamic-resources">How to: Use dynamic resources</a>.
 
 ### -field D3D11_USAGE_STAGING
 
 A resource that supports data transfer (copy) from the GPU to the CPU.
 
-
 ## -remarks
-
-
 
 An application identifies the way a resource is intended to be used (its usage) in a resource description. There are several structures for creating resources including: <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture2d_desc">D3D11_TEXTURE2D_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture3d_desc">D3D11_TEXTURE3D_DESC</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a>.
 
@@ -191,15 +181,7 @@ To maximize performance, not all resource usage options can be used as input or 
 <li>3 - The resource can only be created with a single subresource. The resource cannot be a texture array. The resource cannot be a mipmap chain.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
- 
-
- 
 

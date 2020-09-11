@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: A800DF1D-7957-49AA-B77C-D8019BE826D7
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestReader6, IAppxManifestReader6 interface [App packaging and management], IAppxManifestReader6 interface [App packaging and management],described, appxpackaging/IAppxManifestReader6, appxpkg.iappxmanifestreader6
-f1_keywords:
-- appxpackaging/IAppxManifestReader6
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestReader6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestReader6
+ - appxpackaging/IAppxManifestReader6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestReader6
 ---
 
 # IAppxManifestReader6 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Queries whether an app package is a non-qualified resource package.
 
 </td>
 </tr>
-</table> 
+</table>
 

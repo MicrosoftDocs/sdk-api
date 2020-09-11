@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 1acbae32-8fa6-4c1e-95f6-30aca483c966
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], ISyncKnowledge2 interface [Windows Sync],described, winsync.isyncknowledge2, winsync/ISyncKnowledge2
-f1_keywords:
-- winsync/ISyncKnowledge2
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge2
+ - winsync/ISyncKnowledge2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge2
 ---
 
 # ISyncKnowledge2 interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents additional information about the knowledge that a replica has about its item store.
-
-
 
 ## -inheritance
 
@@ -206,29 +204,17 @@ Serializes the knowledge object data to a byte array based on the specified vers
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An <b>ISyncKnowledge2</b> object can be obtained by passing <b>IID_ISyncKnowledge2</b> to the <b>QueryInterface</b> method of an <b>ISyncKnowledge</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

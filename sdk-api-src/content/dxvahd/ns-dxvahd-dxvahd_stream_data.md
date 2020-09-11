@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 95d74c87-5884-4004-926f-108e9bbb012d
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_DATA, DXVAHD_STREAM_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_DATA, mf.dxvahd_stream_data
-f1_keywords:
-- dxvahd/DXVAHD_STREAM_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_STREAM_DATA
 targetos: Windows
 req.typenames: DXVAHD_STREAM_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_STREAM_DATA
+ - dxvahd/_DXVAHD_STREAM_DATA
+ - DXVAHD_STREAM_DATA
+ - dxvahd/DXVAHD_STREAM_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_STREAM_DATA
 ---
 
 # DXVAHD_STREAM_DATA structure
@@ -49,59 +52,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains per-stream data for the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">IDXVAHD_VideoProcessor::VideoProcessBltHD</a> method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Enable
 
 Specifies whether this input stream is enabled. If the value is <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">VideoProcessBltHD</a> method blits this stream to the output surface<b></b>. Otherwise, the stream is not blitted. The maximum number of streams that can be enabled at one time is given in the <b>MaxInputStreams</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
 
-
-
 ### -field OutputIndex
 
 The zero-based index number of the output frame. See Remarks.
-
 
 ### -field InputFrameOrField
 
 The zero-based index number of the input frame or field. See Remarks.
 
-
 ### -field PastFrames
 
 The number of past reference frames. This value must be less than or equal to the value of the <b>PastFrames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure.
-
 
 ### -field FutureFrames
 
 The number of future reference frames. This value must be less than or equal to the value of the <b>FutureFrames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure.
 
-
 ### -field ppPastSurfaces
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> pointers, allocated by the caller. This array contains the past reference frames for the video processing operation. The number of elements in the array is equal to the value of the <b>PastFrames</b> member. 
-
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> pointers, allocated by the caller. This array contains the past reference frames for the video processing operation. The number of elements in the array is equal to the value of the <b>PastFrames</b> member.
 
 ### -field pInputSurface
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface of a Microsoft Direct3D surface that contains the current input frame.
 
-
 ### -field ppFutureSurfaces
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> pointers, allocated by the caller. This array contains the future reference frames for the video processing operation. The number of elements in the array is equal to the value of the <b>FutureFrames</b> member. 
-
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> pointers, allocated by the caller. This array contains the future reference frames for the video processing operation. The number of elements in the array is equal to the value of the <b>FutureFrames</b> member.
 
 ## -remarks
-
-
 
 <h3><a id="Input_Surfaces"></a><a id="input_surfaces"></a><a id="INPUT_SURFACES"></a>Input Surfaces</h3>
 The Direct3D surfaces must be allocated in the memory pool specified by the <b>InputPool</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. The following surface types can be used:
@@ -156,12 +143,7 @@ Here are some example patterns:
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -172,7 +154,4 @@ Here are some example patterns:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

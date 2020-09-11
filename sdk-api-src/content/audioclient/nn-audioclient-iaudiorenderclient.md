@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: e3e18e1e-1a09-4072-add6-36d2a6428a74
 ms.date: 12/05/2018
 ms.keywords: IAudioRenderClient, IAudioRenderClient interface [Core Audio], IAudioRenderClient interface [Core Audio],described, audioclient/IAudioRenderClient, coreaudio.iaudiorenderclient
-f1_keywords:
-- audioclient/IAudioRenderClient
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioRenderClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioRenderClient
+ - audioclient/IAudioRenderClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioRenderClient
 ---
 
 # IAudioRenderClient interface
 
 
 ## -description
-
-
 
 The <b>IAudioRenderClient</b> interface enables a client to write output data to a rendering endpoint buffer. The client obtains a reference to the <b>IAudioRenderClient</b> interface of a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to <b>REFIID</b> IID_IAudioRenderClient.
 
@@ -67,8 +66,6 @@ For code examples that use the <b>IAudioRenderClient</b> interface, see the foll
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/exclusive-mode-streams">Exclusive-Mode Streams</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -103,13 +100,9 @@ Releases the buffer space acquired in the previous call to the <a href="https://
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -124,7 +117,4 @@ Releases the buffer space acquired in the previous call to the <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

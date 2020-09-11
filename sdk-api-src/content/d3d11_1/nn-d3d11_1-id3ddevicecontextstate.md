@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: A8B9CADC-A9C7-4691-BB5C-3C12FF638C98
 ms.date: 12/05/2018
 ms.keywords: ID3DDeviceContextState, ID3DDeviceContextState interface [Direct3D 11], ID3DDeviceContextState interface [Direct3D 11],described, d3d11_1/ID3DDeviceContextState, direct3d11.id3ddevicecontextstate
-f1_keywords:
-- d3d11_1/ID3DDeviceContextState
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3DDeviceContextState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3DDeviceContextState
+ - d3d11_1/ID3DDeviceContextState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3DDeviceContextState
 ---
 
 # ID3DDeviceContextState interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ID3DDeviceContextState</b> interface represents a context state object, which holds state and behavior information about a Microsoft Direct3D device.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
@@ -72,7 +68,4 @@ The <b>ID3DDeviceContextState</b> interface represents a context state object, w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-swapdevicecontextstate">ID3D11DeviceContext1::SwapDeviceContextState</a>
- 
-
- 
 

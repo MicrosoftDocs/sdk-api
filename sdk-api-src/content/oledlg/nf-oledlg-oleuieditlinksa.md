@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
 ms.date: 12/05/2018
 ms.keywords: OleUIEditLinks, OleUIEditLinks function [COM], OleUIEditLinksA, OleUIEditLinksW, _ole_OleUIEditLinks, com.oleuieditlinks, oledlg/OleUIEditLinks, oledlg/OleUIEditLinksA, oledlg/OleUIEditLinksW
-f1_keywords:
-- oledlg/OleUIEditLinks
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIEditLinks
-- OleUIEditLinksA
-- OleUIEditLinksW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIEditLinksA
+ - oledlg/OleUIEditLinksA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIEditLinks
+ - OleUIEditLinksA
+ - OleUIEditLinksW
 ---
 
 # OleUIEditLinksA function
@@ -51,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Links</b> dialog box, allowing the user to make modifications to a container's linked objects.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1 [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuieditlinksa">OLEUIEDITLINKS</a> structure that contains information used to initialize the dialog box.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -363,9 +353,6 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -remarks
 

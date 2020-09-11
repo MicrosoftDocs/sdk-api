@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 517c1662-4230-44dc-94f0-a1996291bbee
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_FLAGS, PROPERTY_FLAGS enumeration [ETW], PropertyHasCustomSchema, PropertyHasTags, PropertyParamCount, PropertyParamFixedCount, PropertyParamFixedLength, PropertyParamLength, PropertyStruct, PropertyWBEMXmlFragment, etw.property_flags_enum, tdh.property_flags_enum, tdh/, tdh/PROPERTY_FLAGS, tdh/PropertyHasCustomSchema, tdh/PropertyHasTags, tdh/PropertyParamCount, tdh/PropertyParamFixedCount, tdh/PropertyParamFixedLength, tdh/PropertyParamLength, tdh/PropertyStruct, tdh/PropertyWBEMXmlFragment
-f1_keywords:
-- tdh/PROPERTY_FLAGS
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tdh.h
-api_name:
-- PROPERTY_FLAGS
 targetos: Windows
 req.typenames: PROPERTY_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROPERTY_FLAGS
+ - tdh/_PROPERTY_FLAGS
+ - PROPERTY_FLAGS
+ - tdh/PROPERTY_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tdh.h
+api_name:
+ - PROPERTY_FLAGS
 ---
 
 # PROPERTY_FLAGS enumeration
@@ -49,39 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines if the property is contained in a structure or array.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PropertyStruct
 
 The property information is contained in the <b>structType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure.
 
-
 ### -field PropertyParamLength
 
-Use the <b>lengthPropertyIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to locate the property that contains the length value of the property. 
-
+Use the <b>lengthPropertyIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to locate the property that contains the length value of the property.
 
 ### -field PropertyParamCount
 
-Use the <b>countPropertyIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to locate the property that contains the size of the array. 
-
+Use the <b>countPropertyIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to locate the property that contains the size of the array.
 
 ### -field PropertyWBEMXmlFragment
 
 Indicates that the MOF data is in XML format (the event data contains within itself a fully-rendered XML description). This flag is set if the MOF property contains the XMLFragment qualifier.
 
-
 ### -field PropertyParamFixedLength
 
 Indicates that the length member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure contains a fixed length, e.g. as specified in the provider manifest with &lt;data length="12" … /&gt;. This flag will not be set for a variable-length field, e.g. &lt;data length="LengthField" … /&gt;, nor will this flag be set for fields where the length is not specified in the manifest, e.g. int32 or null-terminated string. As an example, if <i>PropertyParamLength</i> is unset, length is 0, and InType is <b>TDH_INTYPE_UNICODESTRING</b>, we must check the <i>PropertyParamFixedLength</i> flag to determine the length of the string. If <i>PropertyParamFixedLength</i> is set, the string length is fixed at 0. If <i>PropertyParamFixedLength</i> is unset, the string is null-terminated.
-
 
 ### -field PropertyParamFixedCount
 
@@ -92,8 +85,7 @@ Indicates that the count member of the <a href="https://docs.microsoft.com/windo
 
 ### -field PropertyHasTags
 
-Indicates that the <b>Tags</b> field contains valid field tag data. 
-
+Indicates that the <b>Tags</b> field contains valid field tag data.
 
 ### -field PropertyHasCustomSchema
 
@@ -102,15 +94,7 @@ Indicates that the <b>Type</b> is described with a custom schema.
 <div class="alert"><b>Note</b>  This flag is new in the Windows 10 SDK.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a>
- 
-
- 
 

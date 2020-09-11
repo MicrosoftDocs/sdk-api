@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 2f7a447a-50b1-422e-a49a-00ede3fcf187
 ms.date: 12/05/2018
 ms.keywords: RpcBindingReset, RpcBindingReset function [RPC], _rpc_rpcbindingreset, rpc.rpcbindingreset, rpcdce/RpcBindingReset
-f1_keywords:
-- rpcdce/RpcBindingReset
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingReset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingReset
+ - rpcdce/RpcBindingReset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingReset
 ---
 
 # RpcBindingReset function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingReset</b> function resets a binding handle so that the host is specified but the server on that host is unspecified.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Server binding handle to reset.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -113,11 +106,7 @@ This was the wrong kind of binding for the operation.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A client calls the 
 <b>RpcBindingReset</b> function to disassociate a particular server instance from the server binding handle specified in the <i>Binding</i> parameter. The 
@@ -135,20 +124,11 @@ Server applications should register all binding handles by calling
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregisternoreplace">RpcEpRegisterNoReplace</a> if the server wants to be available to clients that make a remote procedure call on a reset binding handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregisternoreplace">RpcEpRegisterNoReplace</a>
- 
-
- 
 

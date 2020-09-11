@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 1708DC2B-8247-4F58-ACF5-7003F914C9E1
 ms.date: 12/05/2018
 ms.keywords: GetInt32, GetInt32 method [Windows Runtime], GetInt32 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt32 method, IPropertyValue.GetInt32, IPropertyValue.IPropertyValue, IPropertyValue::GetInt32, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt32, winrt.ipropertyvalue_getint32
-f1_keywords:
-- windows.foundation/IPropertyValue.GetInt32
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetInt32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetInt32
+ - windows.foundation/IPropertyValue::GetInt32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetInt32
 ---
 
 # IPropertyValue::IPropertyValue
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the signed 32-bit integer value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out, retval]
 
@@ -64,10 +60,7 @@ Type: <b>INT32*</b>
 
 The signed 32-bit integer value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -112,22 +105,12 @@ The type of <i>value</i> does not match the <a href="https://docs.microsoft.com/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint32">IPropertyValueStatics::CreateInt32</a>
- 
-
- 
 

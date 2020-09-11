@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 89145c7f-0b67-4eff-b462-049b047e6602
 ms.date: 12/05/2018
 ms.keywords: '*PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE enumeration pointer [QOS], QOSTrafficTypeAudioVideo, QOSTrafficTypeBackground, QOSTrafficTypeBestEffort, QOSTrafficTypeControl, QOSTrafficTypeExcellentEffort, QOSTrafficTypeVoice, QOS_TRAFFIC_TYPE, QOS_TRAFFIC_TYPE enumeration [QOS], qos.qos_traffic_type, qos2/PQOS_TRAFFIC_TYPE, qos2/QOSTrafficTypeAudioVideo, qos2/QOSTrafficTypeBackground, qos2/QOSTrafficTypeBestEffort, qos2/QOSTrafficTypeControl, qos2/QOSTrafficTypeExcellentEffort, qos2/QOSTrafficTypeVoice, qos2/QOS_TRAFFIC_TYPE'
-f1_keywords:
-- qos2/QOS_TRAFFIC_TYPE
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qos2.h
-api_name:
-- QOS_TRAFFIC_TYPE
 targetos: Windows
 req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _QOS_TRAFFIC_TYPE
+ - qos2/_QOS_TRAFFIC_TYPE
+ - PQOS_TRAFFIC_TYPE
+ - qos2/PQOS_TRAFFIC_TYPE
+ - QOS_TRAFFIC_TYPE
+ - qos2/QOS_TRAFFIC_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qos2.h
+api_name:
+ - QOS_TRAFFIC_TYPE
 ---
 
 # QOS_TRAFFIC_TYPE enumeration
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOS_TRAFFIC_TYPE</b> enumeration defines the various traffic types.  Each flow has a single traffic type.  This allows the QOS subsystem to apply user-specified policies to each type.
 
-
 ## -enum-fields
-
-
-
 
 ### -field QOSTrafficTypeBestEffort
 
@@ -64,13 +64,11 @@ Flow traffic has the same network priority as regular traffic not associated wit
 
 This traffic type is the same as not specifying priority, and as a result,  the DSCP mark and 802.1p tag are not added to sent traffic.
 
-
 ### -field QOSTrafficTypeBackground
 
 Flow traffic has a network priority lower than that of <b>QOSTrafficTypeBestEffort</b>.  This traffic type could be used for traffic of an application doing data backup.
 
 Sent traffic will contain a DSCP mark with a value of 0x08 and an 802.1p tag with a value of 2.
-
 
 ### -field QOSTrafficTypeExcellentEffort
 
@@ -78,15 +76,11 @@ Flow traffic has a network priority higher than <b>QOSTrafficTypeBestEffort</b>,
 
 Sent traffic will contain a DSCP mark with value of 0x28 and 802.1p tag with a value of 5.
 
-
-
 ### -field QOSTrafficTypeAudioVideo
 
 Flow traffic has a network priority higher than <b>QOSTrafficTypeExcellentEffort</b>, yet lower than <b>QOSTrafficTypeVoice</b>.  This traffic type should be used for A/V streaming scenarios such as MPEG2 streaming.
 
 Sent traffic will contain a DSCP mark with a value of 0x28 and an 802.1p tag with a value of 5.
-
-
 
 ### -field QOSTrafficTypeVoice
 
@@ -94,19 +88,13 @@ Flow traffic has a network priority higher than <b>QOSTrafficTypeAudioVideo</b>,
 
 Sent traffic will contain a DSCP mark with a value of 0x38 and an 802.1p tag with a value of 7.
 
-
-
 ### -field QOSTrafficTypeControl
 
 Flow traffic has the highest network priority.  This traffic type should only be used for the most critical of data.  For example, it may be used for data carrying user inputs.
 
 Sent traffic will contain a DSCP mark with a value of 0x38 and an 802.1p tag with a value of 7.
 
-
-
 ## -remarks
-
-
 
 802.1p tags are  added to sent traffic only when the following conditions are met:<ul>
 <li>
@@ -116,14 +104,7 @@ Sent traffic will contain a DSCP mark with a value of 0x38 and an 802.1p tag wit
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a>
 
@@ -134,7 +115,4 @@ Sent traffic will contain a DSCP mark with a value of 0x38 and an 802.1p tag wit
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
 

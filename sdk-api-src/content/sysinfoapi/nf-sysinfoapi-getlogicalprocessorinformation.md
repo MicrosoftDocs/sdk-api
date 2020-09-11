@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 904d2d35-f419-4e8f-a689-f39ed926644c
 ms.date: 12/05/2018
 ms.keywords: GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation
-f1_keywords:
-- sysinfoapi/GetLogicalProcessorInformation
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetLogicalProcessorInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLogicalProcessorInformation
+ - sysinfoapi/GetLogicalProcessorInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetLogicalProcessorInformation
 ---
 
 # GetLogicalProcessorInformation function
@@ -57,45 +58,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves information about logical processors and related hardware.
 
 
 
 To retrieve information about logical processors and related hardware, including processor groups, use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Buffer [out]
 
 A pointer to a buffer that receives  an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structures. If the function fails, the contents of this buffer are undefined.
 
-
 ### -param ReturnedLength [in, out]
 
 On input, specifies the length of the buffer pointed to by  <i>Buffer</i>, in bytes. If the buffer is large enough to contain all of the data, this function succeeds and <i>ReturnLength</i> is set to the number of bytes returned. If the buffer is not large enough to contain all of the data, the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, and <i>ReturnLength</i> is set to the buffer length required to contain all of the data. If the function fails with an error other than ERROR_INSUFFICIENT_BUFFER, the value of <i>ReturnLength</i> is undefined.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is TRUE and at least one <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structure is written to the output buffer.
 
 If the function fails, the return value is FALSE. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>GetLogicalProcessorInformation</b> can be used to get information about the relationship between logical processors in the system, including:
 
@@ -284,14 +270,7 @@ int _cdecl _tmain ()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
 
@@ -306,7 +285,4 @@ int _cdecl _tmain ()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 42114c5d-8f28-458a-8d22-ac1531cd50d2
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accFocus method, IAccessible.get_accFocus, IAccessible::get_accFocus, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_get_accFocus, get_accFocus, get_accFocus method [Windows Accessibility], get_accFocus method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accfocus, oleacc/IAccessible::get_accFocus, winauto.iaccessible_iaccessible__get_accfocus
-f1_keywords:
-- oleacc/IAccessible.get_accFocus
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accFocus
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accFocus
+ - oleacc/IAccessible::get_accFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accFocus
 ---
 
 # IAccessible::get_accFocus
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accFocus</b> method retrieves the object that has the keyboard focus. All objects that may receive the keyboard focus must support this property.
 
-
 ## -parameters
-
-
-
 
 ### -param pvarChild [out, retval]
 
@@ -110,12 +106,8 @@ None. Neither this object nor any of its children has the keyboard focus.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -151,14 +143,8 @@ The object does not support this property.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The concept of keyboard focus is related to that of an active window. An active window is the foreground window on which the user works. The object with the keyboard focus is either the active window or a child object of the active window.
 
@@ -205,14 +191,7 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accFocus(VARIANT *pvarChild)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
@@ -231,7 +210,4 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accFocus(VARIANT *pvarChild)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selection-and-focus-properties-and-methods">Selection and Focus Properties and Methods</a>
- 
-
- 
 

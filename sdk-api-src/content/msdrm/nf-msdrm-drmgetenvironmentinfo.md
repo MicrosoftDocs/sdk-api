@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 6b6dd54f-1835-42da-b151-9da9139efeb3
 ms.date: 12/05/2018
 ms.keywords: DRMGetEnvironmentInfo, DRMGetEnvironmentInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetEnvironmentInfo, rm.drmgetenvironmentinfo
-f1_keywords:
-- msdrm/DRMGetEnvironmentInfo
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMGetEnvironmentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMGetEnvironmentInfo
+ - msdrm/DRMGetEnvironmentInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMGetEnvironmentInfo
 ---
 
 # DRMGetEnvironmentInfo function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -62,51 +62,35 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMGetEnvironmentInfo</b> function returns information about a secure environment.
 
-
 ## -parameters
-
-
-
 
 ### -param handle [in]
 
 Environment handle.
 
-
 ### -param wszAttribute [in]
 
 The attribute to query for. In Rights Management Services client 1.0 SP1, the only supported attribute is <b>g_wszQUERY_BLOCKSIZE</b>. In Rights Management Services client 1.0, the attributes that can be queried are listed in the header file Msdrmgetinfo.h. Attributes include <b>g_wszQUERY_MANIFESTSOURCE</b> and <b>g_wszQUERY_APIVERSION</b>.
-
 
 ### -param peEncoding [out]
 
 Encoding type used.
 
-
 ### -param pcBuffer [in, out]
 
 A pointer to a UINT value that, on input, contains the size of the buffer pointed to by the <i>pbBuffer</i> parameter. The size of the buffer is expressed as the number of Unicode characters, including the terminating null character. On output, the value contains the number of characters copied to the buffer. The number copied includes the terminating null character.
-
 
 ### -param pbBuffer [out]
 
 A pointer to a null-terminated Unicode string that receives the value associated with the attribute specified by the <i>wszAttribute</i> parameter. The size of this buffer is specified by the <i>pcBuffer</i> parameter. The size is expressed as the number of Unicode characters, including the terminating null character.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function returns information only about environment handles. For information about other handles, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetinfo">DRMGetInfo</a>.
 
@@ -123,20 +107,11 @@ Memory allocation and deallocation are handled by the caller.To create a buffer 
 
 In Rights Management Services client 1.0 SP1, the only supported attribute is <b>g_wszQUERY_BLOCKSIZE</b>. For the attributes that can be queried in Rights Management Services client 1.0, see the Msdrmgetinfo.h header file that installs with this SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetinfo">DRMGetInfo</a>
- 
-
- 
 

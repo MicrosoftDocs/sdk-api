@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: e828d3e0-5a2a-499a-a718-11aa76a01b1b
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkEventInterface, mstv.imsvidstreambuffersinkevent, segment/IMSVidStreamBufferSinkEvent
-f1_keywords:
-- segment/IMSVidStreamBufferSinkEvent
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSinkEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSinkEvent
+ - segment/IMSVidStreamBufferSinkEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSinkEvent
 ---
 
 # IMSVidStreamBufferSinkEvent interface
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Windows XP Service Pack 1 or later.
         
 
 The <b>IMSVidStreamBufferSinkEvent</b> interface is used to receive events from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695135(v=vs.85)">MSVidStreamBufferSink</a> object.
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection.
-
-
-
 
 ## -inheritance
 
@@ -103,29 +99,17 @@ A write error occured in the Stream Buffer Sink filter.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidStreamBufferSinkEvent)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidoutputdeviceevent">IMSVidOutputDeviceEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
- 
-
- 
 

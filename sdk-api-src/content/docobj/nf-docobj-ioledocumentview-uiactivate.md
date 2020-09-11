@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: df92366c-89b3-44b3-bea0-1b6deb321fe4
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],UIActivate method, IOleDocumentView.UIActivate, IOleDocumentView::UIActivate, UIActivate, UIActivate method [COM], UIActivate method [COM],IOleDocumentView interface, _ole_ioledocumentview_uiactivate, com.ioledocumentview_uiactivate, docobj/IOleDocumentView::UIActivate
-f1_keywords:
-- docobj/IOleDocumentView.UIActivate
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.UIActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::UIActivate
+ - docobj/IOleDocumentView::UIActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.UIActivate
 ---
 
 # IOleDocumentView::UIActivate
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Activates or deactivates a document view's user interface elements, such as menus, toolbars, and accelerators.
 
-
 ## -parameters
-
-
-
 
 ### -param fUIActivate [in]
 
 If <b>TRUE</b>, the view is to activate its user interface. If <b>FALSE</b>, the view is to deactivate its user interface.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -108,14 +101,8 @@ An unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Calling this method before calling <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a> returns E_UNEXPECTED, because the view must be associated with a view site before it can activate itself.
@@ -138,13 +125,7 @@ In addition, the view can and should participate in extended <b>Help</b> menu me
 
 All views of a document object must support in-place activation. E_NOTIMPL is not an acceptable return value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
@@ -163,7 +144,4 @@ All views of a document object must support in-place activation. E_NOTIMPL is no
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>
- 
-
- 
 

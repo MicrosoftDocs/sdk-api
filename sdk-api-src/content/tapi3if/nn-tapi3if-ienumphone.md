@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: fa12508d-6224-4e11-a4a3-5ce5fff7b735
 ms.date: 12/05/2018
 ms.keywords: IEnumPhone, IEnumPhone interface [TAPI 2.2], IEnumPhone interface [TAPI 2.2],described, _tapi3_ienumphone, tapi3.ienumphone, tapi3if/IEnumPhone
-f1_keywords:
-- tapi3if/IEnumPhone
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumPhone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumPhone
+ - tapi3if/IEnumPhone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumPhone
 ---
 
 # IEnumPhone interface
 
 
 ## -description
-
 
 The 
 <b>IEnumPhone</b> interface provides COM-standard enumeration methods for the 
@@ -59,7 +59,6 @@ The
 
 The 
 <b>IEnumPhone</b> interface is hidden from Visual Basic and scripting languages.
-
 
 ## -inheritance
 
@@ -112,13 +111,9 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-enumeratephones">ITAddress2::EnumeratePhones</a>
 
@@ -129,7 +124,4 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-enumeratephones">ITTAPI2::EnumeratePhones</a>
- 
-
- 
 

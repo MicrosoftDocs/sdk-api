@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 007d5daf-f0cf-4bfb-bd87-bb949bf90126
 ms.date: 12/05/2018
 ms.keywords: IAssociatedIdentityProvider, IAssociatedIdentityProvider interface [Security], IAssociatedIdentityProvider interface [Security],described, identityprovider/IAssociatedIdentityProvider, identitystore/IAssociatedIdentityProvider, security.iassociatedidentityprovider
-f1_keywords:
-- identityprovider/IAssociatedIdentityProvider
-dev_langs:
-- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IdentityProvider.h
-- Identitystore.h
-api_name:
-- IAssociatedIdentityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssociatedIdentityProvider
+ - identityprovider/IAssociatedIdentityProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IdentityProvider.h
+ - Identitystore.h
+api_name:
+ - IAssociatedIdentityProvider
 ---
 
 # IAssociatedIdentityProvider interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAssociatedIdentityProvider</b> interface allows an identity provider to associate identities with local user accounts.
-
 
 ## -inheritance
 
@@ -98,5 +97,5 @@ Disassociates the specified identity from a local user account.
 
 </td>
 </tr>
-</table> 
+</table>
 

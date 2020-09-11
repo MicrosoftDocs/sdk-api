@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 209c9953-a4a5-4ff0-961f-92e97ccce23d
 ms.date: 12/05/2018
 ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CERT_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrustEx, WinVerifyTrustEx function [Security], Zero, security.winverifytrustex, wintrust/WinVerifyTrustEx
-f1_keywords:
-- wintrust/WinVerifyTrustEx
-dev_langs:
-- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- WinVerifyTrustEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinVerifyTrustEx
+ - wintrust/WinVerifyTrustEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - WinVerifyTrustEx
 ---
 
 # WinVerifyTrustEx function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 For certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -102,8 +98,6 @@ A trust provider can treat any value other than INVALID_HANDLE_VALUE or zero as 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pgActionID [in]
 
@@ -204,8 +198,6 @@ Authenticode policy provider.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pWinTrustData [in]
 
@@ -214,10 +206,7 @@ A pointer to a
 
 The format of the structure depends on the action identifier. For information about the data required for a specific action identifier, see the documentation for the trust provider that supports that action.
 
-
 ## -returns
-
-
 
 If the trust provider verifies that the subject is trusted for the specified action, the return value is ERROR_SUCCESS. Otherwise, the function returns a status code from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>.
 
@@ -277,7 +266,4 @@ The trust provider does not support the form specified for the subject.
 </td>
 </tr>
 </table>
- 
-
-
 

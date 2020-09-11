@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatacallback\iwiadatacallback.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDataCallback, IWiaDataCallback interface [WIA], IWiaDataCallback interface [WIA],described, _wia_IWiaDataCallback, wia._wia_IWiaDataCallback, wia_xp/IWiaDataCallback
-f1_keywords:
-- wia_xp/IWiaDataCallback
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaguid.lib
-- Wiaguid.dll
-api_name:
-- IWiaDataCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaDataCallback
+ - wia_xp/IWiaDataCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaguid.lib
+ - Wiaguid.dll
+api_name:
+ - IWiaDataCallback
 ---
 
 # IWiaDataCallback interface
 
 
 ## -description
-
 
 Provides an application callback mechanism during data transfers from Windows Image Acquisition (WIA) hardware devices to applications.
 <div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-iwiatransfercallback">IWiaTransferCallback</a> instead of <b>IWiaDataCallback</b>.</div><div> </div>
@@ -78,12 +78,9 @@ Provides data transfer status notifications. WIA data transfer methods of the <a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IWiaDataCallback</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
@@ -111,7 +108,4 @@ The <b>IWiaDataCallback</b> interface, like all Component Object Model (COM) int
 <td>Decrements reference count.</td>
 </tr>
 </table>
- 
-
-
 

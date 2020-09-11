@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 90a3da46-7dd1-428b-ab72-d5defa710225
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_INTERFACE_1, MPR_INTERFACE_1, MPR_INTERFACE_1 structure [RAS], PMPR_INTERFACE_1, PMPR_INTERFACE_1 structure pointer [RAS], _mpr_mpr_interface_1, mprapi/MPR_INTERFACE_1, mprapi/PMPR_INTERFACE_1, rras.mpr_interface_1'
-f1_keywords:
-- mprapi/MPR_INTERFACE_1
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- MPR_INTERFACE_1
 targetos: Windows
 req.typenames: MPR_INTERFACE_1, *PMPR_INTERFACE_1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MPR_INTERFACE_1
+ - mprapi/_MPR_INTERFACE_1
+ - PMPR_INTERFACE_1
+ - mprapi/PMPR_INTERFACE_1
+ - MPR_INTERFACE_1
+ - mprapi/MPR_INTERFACE_1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - MPR_INTERFACE_1
 ---
 
 # MPR_INTERFACE_1 structure
@@ -49,53 +54,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MPR_INTERFACE_1</b> structure contains configuration and status information for a particular router interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wszInterfaceName
 
 Pointer to a Unicode string that contains the name of the interface.
 
-
 ### -field hInterface
 
 Handle to the interface.
 
-
 ### -field fEnabled
 
 Specifies whether the interface is enabled. This value is <b>TRUE</b> if the interface is enabled, <b>FALSE</b> if the interface is administratively disabled.
-
 
 ### -field dwIfType
 
 Specifies the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">type of interface</a>.
 
-
 ### -field dwConnectionState
 
 Specifies the current state of the interface, for example connected, disconnected, or unreachable. For a list of possible states, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
-
 
 ### -field fUnReachabilityReasons
 
 Specifies a value that represents a reason why the interface was unreachable. See 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a> for a list of possible values.
 
-
 ### -field dwLastError
 
 Specifies a nonzero value if the interface fails to connect.
-
 
 ### -field lpwsDialoutHoursRestriction
 
@@ -205,11 +198,7 @@ Example:
 </code></pre>
 The preceding string restricts dial-out to Tuesdays and Thursdays from 9:00 AM to 12:00 PM and from 1:00 PM to 5:30 PM.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
@@ -240,7 +229,4 @@ The preceding string restricts dial-out to Tuesdays and Thursdays from 9:00 AM t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>
- 
-
- 
 

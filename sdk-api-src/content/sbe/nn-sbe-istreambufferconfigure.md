@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 8874fefd-2241-4b04-a7d5-191e13743fa0
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure, IStreamBufferConfigure interface [Microsoft TV Technologies], IStreamBufferConfigure interface [Microsoft TV Technologies],described, IStreamBufferConfigureInterface, mstv.istreambufferconfigure, sbe/IStreamBufferConfigure
-f1_keywords:
-- sbe/IStreamBufferConfigure
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferConfigure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferConfigure
+ - sbe/IStreamBufferConfigure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferConfigure
 ---
 
 # IStreamBufferConfigure interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IStreamBufferConfigure</b> interface configures the location, number, and size of the backing files used by the various stream buffer objects.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/streambufferconfig-object">StreamBufferConfig</a> object exposes this interface.
 
 Before calling any of the <b>Set</b> methods on this interface, you must specify a registry key to hold the new settings. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferinitialize-sethkey">IStreamBufferInitialize::SetHKEY</a>.
-
-
-
 
 ## -inheritance
 
@@ -129,25 +125,13 @@ Sets the directory where backing files are saved.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IStreamBufferConfigure)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 839ab3d8-0fdc-4d43-a12b-238091289ff5
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO structure [Security], PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_recipient_encrypted_key_encode_info, security.cmsg_recipient_encrypted_key_encode_info, wincrypt/CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, wincrypt/PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO'
-f1_keywords:
-- wincrypt/CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
 targetos: Windows
 req.typenames: CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, *PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+ - wincrypt/_CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+ - PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+ - wincrypt/PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+ - CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+ - wincrypt/CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
 ---
 
 # CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO structure
@@ -49,35 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</b> structure contains information on a message receiver used to decrypt the session key needed to decrypt the message contents. This structure is used with CMS low level messages using any of the key management methods.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this data structure.
 
-
 ### -field RecipientPublicKey
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the recipient's public key.
 
-
 ### -field RecipientId
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> that identifies a message recipient's public key. 
-					
-
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> that identifies a message recipient's public key.
 
 ### -field Date
 
 Optional <b>FILETIME</b>. Applicable only if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> identifies the receiver's public key with a KEY_IDENTIFIER.
-
 
 ### -field pOtherAttr
 

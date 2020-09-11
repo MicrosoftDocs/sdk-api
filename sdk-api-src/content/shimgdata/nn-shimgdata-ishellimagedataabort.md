@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 98a79c41-a384-4486-af51-a33cd5f0750e
 ms.date: 12/05/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
-f1_keywords:
-- shimgdata/IShellImageDataAbort
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageDataAbort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageDataAbort
+ - shimgdata/IShellImageDataAbort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageDataAbort
 ---
 
 # IShellImageDataAbort interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a single method used to abort <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> processes.
-
 
 ## -inheritance
 
@@ -77,16 +76,11 @@ Aborts an <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is not expected to be available in later versions of Windows. It is recommended that Windows GDI+ APIs be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> methods.
 
 This interface was not included in a public header file prior to Windows Vista.
-
-
 

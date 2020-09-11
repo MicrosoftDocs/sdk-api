@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 3eeecd34-aa94-4a48-8b41-167a71b52860
 ms.date: 12/05/2018
 ms.keywords: CoWaitForMultipleHandles, CoWaitForMultipleHandles function [COM], _com_CoWaitForMultipleHandles, com.cowaitformultiplehandles, combaseapi/CoWaitForMultipleHandles
-f1_keywords:
-- combaseapi/CoWaitForMultipleHandles
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoWaitForMultipleHandles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoWaitForMultipleHandles
+ - combaseapi/CoWaitForMultipleHandles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoWaitForMultipleHandles
 ---
 
 # CoWaitForMultipleHandles function
@@ -54,34 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits for specified handles to be signaled or for a specified timeout period to elapse.
-
 
 ## -parameters
 
-
-
-
 ### -param dwFlags [in]
 
-The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration. 
-
+The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration.
 
 ### -param dwTimeout [in]
 
 The timeout period, in milliseconds.
 
-
 ### -param cHandles [in]
 
 The number of elements in the <i>pHandles</i> array.
 
-
 ### -param pHandles [in]
 
 An array of handles.
-
 
 ### -param lpdwindex [out]
 
@@ -93,10 +85,7 @@ If the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-com
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a> for more information.
 
-
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -152,14 +141,8 @@ The timeout period elapsed before the required handle or handles were signaled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Depending on which flags are set in the dwFlags parameter, <b>CoWaitForMultipleHandles</b> blocks the calling thread until one of the following events occurs: 
 
@@ -174,16 +157,7 @@ If the caller resides in a single-thread apartment, <b>CoWaitForMultipleHandles<
 
 If the calling thread resides in a multithread apartment (MTA), <b>CoWaitForMultipleHandles</b> calls the  <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a> function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a>
- 
-
- 
 

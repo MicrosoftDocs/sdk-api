@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 9cd5d185-ff0f-45f4-91fc-da601d256914
 ms.date: 12/05/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSetPreferredProvidersComplete method, IMbnInterfaceEvents.OnSetPreferredProvidersComplete, IMbnInterfaceEvents::OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete method [Microsoft Broadband Networks], OnSetPreferredProvidersComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onsetpreferredproviderscomplete, mbnapi/IMbnInterfaceEvents::OnSetPreferredProvidersComplete
-f1_keywords:
-- mbnapi/IMbnInterfaceEvents.OnSetPreferredProvidersComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterfaceEvents.OnSetPreferredProvidersComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterfaceEvents::OnSetPreferredProvidersComplete
+ - mbnapi/IMbnInterfaceEvents::OnSetPreferredProvidersComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterfaceEvents.OnSetPreferredProvidersComplete
 ---
 
 # IMbnInterfaceEvents::OnSetPreferredProvidersComplete
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 This notification method is called by the Mobile Broadband service to indicate the completion of a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-setpreferredproviders">SetPreferredProviders</a> operation.
 
-
 ## -parameters
-
-
-
 
 ### -param newInterface [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> that represents a device on which this operation was performed.
 
-
 ### -param requestID [in]
 
 The request ID assigned by the Mobile Broadband service for this asynchronous operation.
-
 
 ### -param status [in]
 
@@ -132,21 +127,12 @@ The device does not support this operation.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the operation completed successfully, that is, when <i>status</i> is  <b>S_OK</b>, then the application can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getpreferredproviders">GetPreferredProviders</a> method of the  passed <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> to get an updated list of preferred providers.
 
@@ -154,16 +140,7 @@ If multiple applications registered for notifications, then this method will be 
 
 If a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-setpreferredproviders">SetPreferredProviders</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> results in a change in the preferred provider list, then the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onpreferredproviderschange">OnPreferredProvidersChange</a> method of  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> will not be called.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>
- 
-
- 
 

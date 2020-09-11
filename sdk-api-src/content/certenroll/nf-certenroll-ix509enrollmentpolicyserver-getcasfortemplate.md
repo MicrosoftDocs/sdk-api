@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7330aea0-36b3-49fa-8970-2476f2ae9d34
 ms.date: 12/05/2018
 ms.keywords: GetCAsForTemplate, GetCAsForTemplate method [Security], GetCAsForTemplate method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCAsForTemplate method, IX509EnrollmentPolicyServer.GetCAsForTemplate, IX509EnrollmentPolicyServer::GetCAsForTemplate, certenroll/IX509EnrollmentPolicyServer::GetCAsForTemplate, security.ix509enrollmentpolicyserver_getcasfortemplate
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.GetCAsForTemplate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.GetCAsForTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::GetCAsForTemplate
+ - certenroll/IX509EnrollmentPolicyServer::GetCAsForTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.GetCAsForTemplate
 ---
 
 # IX509EnrollmentPolicyServer::GetCAsForTemplate
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCAsForTemplate</b> method retrieves a collection of certificate enrollment servers that support a specified template.
 
-
 ## -parameters
-
-
-
 
 ### -param pTemplate [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> interface that represents the template.
 
-
 ### -param ppCAs [out, retval]
 
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthorities">ICertificationAuthorities</a> interface that represents the server collection.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -93,18 +85,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certen
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

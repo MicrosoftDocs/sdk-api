@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 344e95e1-45a5-4951-b545-1a938bfc8a8c
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accName method, IAccessible.get_accName, IAccessible::get_accName, _msaa_IAccessible_get_accName, get_accName, get_accName method [Windows Accessibility], get_accName method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accname, oleacc/IAccessible::get_accName, winauto.iaccessible_iaccessible__get_accname
-f1_keywords:
-- oleacc/IAccessible.get_accName
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accName
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accName
+ - oleacc/IAccessible::get_accName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accName
 ---
 
 # IAccessible::get_accName
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accName</b> method retrieves the name of the specified object. All objects support this property.
 
-
 ## -parameters
-
-
-
 
 ### -param varChild [in]
 
@@ -64,17 +60,13 @@ Type: <b>VARIANT</b>
 
 Specifies whether the retrieved name belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-
 ### -param pszName [out, retval]
 
 Type: <b>BSTR*</b>
 
 Address of a <b>BSTR</b> that receives a string that contains the specified object's name.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -110,14 +102,8 @@ An argument is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Many objects such as icons, menus, check boxes, combo boxes, and other controls have labels that are displayed to users. Any label that is displayed to users is used for the object's name property. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/name-property">Name Property</a>.
 
@@ -194,14 +180,7 @@ HRESULT PrintName(IAccessible* pAcc, long childId)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
@@ -216,7 +195,4 @@ HRESULT PrintName(IAccessible* pAcc, long childId)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
 

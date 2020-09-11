@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 84610d5f-9b90-4830-b6d3-7b5622709668
 ms.date: 12/05/2018
 ms.keywords: WSDCreateUdpAddress, WSDCreateUdpAddress function, ncd.wsdcreateudpaddress, wsdbase/WSDCreateUdpAddress
-f1_keywords:
-- wsdbase/WSDCreateUdpAddress
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateUdpAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateUdpAddress
+ - wsdbase/WSDCreateUdpAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateUdpAddress
 ---
 
 # WSDCreateUdpAddress function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAddress [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a> interface pointer. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -108,7 +101,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

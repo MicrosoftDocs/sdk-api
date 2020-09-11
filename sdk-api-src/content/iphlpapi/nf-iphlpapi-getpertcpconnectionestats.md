@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 71b9d795-6050-4a1a-9949-2c970801f52c
 ms.date: 12/05/2018
 ms.keywords: GetPerTcpConnectionEStats, GetPerTcpConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.getpertcpconnectionestats, iphlpapi/GetPerTcpConnectionEStats
-f1_keywords:
-- iphlpapi/GetPerTcpConnectionEStats
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetPerTcpConnectionEStats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPerTcpConnectionEStats
+ - iphlpapi/GetPerTcpConnectionEStats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetPerTcpConnectionEStats
 ---
 
 # GetPerTcpConnectionEStats function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetPerTcpConnectionEStats</b> function retrieves extended statistics for an IPv4 TCP connection.
 
-
 ## -parameters
-
-
-
 
 ### -param Row
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structure for an IPv4 TCP connection. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structure for an IPv4 TCP connection.
 
 ### -param EstatsType
 
@@ -220,57 +215,44 @@ If fine-grained RTT estimation statistics was enabled  for this TCP connection, 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Rw [out]
 
-A pointer to a buffer to receive the read/write information. This parameter may be a <b>NULL</b> pointer if an application does not want to retrieve read/write information for the TCP connection. 
-
+A pointer to a buffer to receive the read/write information. This parameter may be a <b>NULL</b> pointer if an application does not want to retrieve read/write information for the TCP connection.
 
 ### -param RwVersion
 
 The version of the read/write information requested. The current supported value is a version of zero.
 
-
 ### -param RwSize
 
 The size, in bytes, of the buffer pointed to by <i>Rw</i> parameter.
 
-
 ### -param Ros [out]
 
-A pointer to a buffer to receive read-only static information. This parameter may be a <b>NULL</b> pointer if an application does not want to retrieve read-only static information for the TCP connection. 
-
+A pointer to a buffer to receive read-only static information. This parameter may be a <b>NULL</b> pointer if an application does not want to retrieve read-only static information for the TCP connection.
 
 ### -param RosVersion
 
 The version of the read-only static information requested. The current supported value is a version of zero.
 
-
 ### -param RosSize
 
 The size, in bytes, of the buffer pointed to by the <i>Ros</i> parameter.
 
-
 ### -param Rod [out]
 
-A pointer to a buffer to receive read-only dynamic information. This parameter may be a <b>NULL</b> pointer if an application does not want to retrieve read-only dynamic information  for the TCP connection. 
-
+A pointer to a buffer to receive read-only dynamic information. This parameter may be a <b>NULL</b> pointer if an application does not want to retrieve read-only dynamic information  for the TCP connection.
 
 ### -param RodVersion
 
 The version of the read-only dynamic information requested. The current supported value is a version of zero.
 
-
 ### -param RodSize
 
 The size, in bytes, of the buffer pointed to by the <i>Rod</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -363,14 +345,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetPerTcpConnectionEStats</b> function is defined on Windows Vista and later. 
 
@@ -501,7 +477,4 @@ For a code example, see the **Examples** section in the [GetPerTcp6ConnectionESt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_soft_error">TCP_SOFT_ERROR</a>
- 
-
- 
 

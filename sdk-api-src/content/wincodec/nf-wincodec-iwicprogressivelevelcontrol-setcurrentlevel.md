@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: b4a2c279-385d-4177-bd8f-a49f545c692a
 ms.date: 12/05/2018
 ms.keywords: IWICProgressiveLevelControl interface [Windows Imaging Component],SetCurrentLevel method, IWICProgressiveLevelControl.SetCurrentLevel, IWICProgressiveLevelControl::SetCurrentLevel, SetCurrentLevel, SetCurrentLevel method [Windows Imaging Component], SetCurrentLevel method [Windows Imaging Component],IWICProgressiveLevelControl interface, _wic_codec_iwicprogressivelevelcontrol_setcurrentlevel, wic._wic_codec_iwicprogressivelevelcontrol_setcurrentlevel, wincodec/IWICProgressiveLevelControl::SetCurrentLevel
-f1_keywords:
-- wincodec/IWICProgressiveLevelControl.SetCurrentLevel
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICProgressiveLevelControl.SetCurrentLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICProgressiveLevelControl::SetCurrentLevel
+ - wincodec/IWICProgressiveLevelControl::SetCurrentLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICProgressiveLevelControl.SetCurrentLevel
 ---
 
 # IWICProgressiveLevelControl::SetCurrentLevel
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the level to retrieve on the next call to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param nLevel [in]
 
@@ -64,21 +60,13 @@ Type: <b>UINT</b>
 
 Specifies which level to return next. If greater than the total number of levels supported, an error will be returned.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A call does not have to request every level supported.
         If a caller requests level 1, without having previously requested level 0, the bits returned by the next call to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> will include both levels.
@@ -127,21 +115,11 @@ if (pProgressive)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicprogressivelevelcontrol">IWICProgressiveLevelControl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-progressive-decoding">Progressive Decoding Overview</a>
- 
-
- 
 

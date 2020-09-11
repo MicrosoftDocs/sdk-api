@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 6649f43d-0e2a-42d7-8111-862bb28e3dbc
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], ITsSbClientConnection interface [Remote Desktop Services],described, sbtsv/ITsSbClientConnection, termserv.itssbclientconnection
-f1_keywords:
-- sbtsv/ITsSbClientConnection
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbClientConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbClientConnection
+ - sbtsv/ITsSbClientConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbClientConnection
 ---
 
 # ITsSbClientConnection interface
 
 
 ## -description
-
 
 Exposes methods and properties that store state information about an incoming connection request from a 
     Remote Desktop  Connection (RDC) client. This information does not need to be stored on the resource or 
@@ -58,7 +58,6 @@ Plug-ins can use this interface to obtain information about a connection request
     make decisions about load balancing, placement, and orchestration. This interface also stores the results of all 
     these operations. A <b>ITsSbClientConnection</b> object 
     should persist until the client successfully logs on to a target computer.
-
 
 ## -inheritance
 
@@ -240,16 +239,9 @@ The name of the user who initiated the connection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

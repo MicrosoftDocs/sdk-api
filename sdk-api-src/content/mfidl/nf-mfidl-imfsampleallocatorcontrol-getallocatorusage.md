@@ -35,6 +35,7 @@ api_location:
 api_name:
  - IMFSampleAllocatorControl::GetAllocatorUsage
 f1_keywords:
+ - IMFSampleAllocatorControl::GetAllocatorUsage
  - mfidl/IMFSampleAllocatorControl::GetAllocatorUsage
 dev_langs:
  - c++

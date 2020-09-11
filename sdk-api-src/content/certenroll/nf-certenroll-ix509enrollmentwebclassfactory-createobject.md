@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e865e499-1bfe-45c3-aeb3-3936f9173fd5
 ms.date: 12/05/2018
 ms.keywords: CreateObject, CreateObject method [Security], CreateObject method [Security],IX509EnrollmentWebClassFactory interface, ICertProperties, ICertPropertyDescription, ICertPropertyFriendlyName, ICspInformation, ICspInformations, ICspStatus, IObjectId, IObjectIds, ISignerCertificate, IX500DistinguishedName, IX509CertificateRequestCmc, IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs7, IX509Enrollment, IX509EnrollmentHelper, IX509EnrollmentWebClassFactory interface [Security],CreateObject method, IX509EnrollmentWebClassFactory.CreateObject, IX509EnrollmentWebClassFactory::CreateObject, IX509Extension, IX509ExtensionEnhancedKeyUsage, IX509ExtensionKeyUsage, IX509ExtensionTemplate, IX509ExtensionTemplateName, IX509Extensions, IX509PrivateKey, certenroll/IX509EnrollmentWebClassFactory::CreateObject, security.ix509enrollmentwebclassfactory_createobject_method
-f1_keywords:
-- certenroll/IX509EnrollmentWebClassFactory.CreateObject
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509EnrollmentWebClassFactory.CreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentWebClassFactory::CreateObject
+ - certenroll/IX509EnrollmentWebClassFactory::CreateObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509EnrollmentWebClassFactory.CreateObject
 ---
 
 # IX509EnrollmentWebClassFactory::CreateObject
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateObject</b> method can be used to create an object in the user context on a webpage.
 
-
 ## -parameters
-
-
-
 
 ### -param strProgID [in]
 
@@ -310,17 +306,12 @@ A <b>BSTR</b> variable that contains the Prog ID. The following table shows the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppIUnknown [out]
 
 Address of a variable that receives a pointer to an  <b>IUnknown</b> interface that represents the created object.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -343,18 +334,8 @@ The Prog ID specified represents an object that cannot be created by using this 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentwebclassfactory">IX509EnrollmentWebClassFactory</a>
- 
-
- 
 

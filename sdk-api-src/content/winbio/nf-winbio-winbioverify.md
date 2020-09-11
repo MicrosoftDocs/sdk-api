@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 7266ca33-d3f9-421f-8265-e23a3ec3a77e
 ms.date: 12/05/2018
 ms.keywords: WinBioVerify, WinBioVerify function [Windows Biometric Framework API], secbiomet.winbioverify, winbio/WinBioVerify
-f1_keywords:
-- winbio/WinBioVerify
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioVerify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioVerify
+ - winbio/WinBioVerify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioVerify
 ---
 
 # WinBioVerify function
@@ -53,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Captures a biometric sample and determines whether the sample corresponds to the specified user identity. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>.
 
-
 ### -param Identity [in]
 
 Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the GUID or SID of the user providing the biometric sample.
-
 
 ### -param SubFactor [in]
 
@@ -96,11 +90,9 @@ A <b>WINBIO_BIOMETRIC_SUBTYPE</b> value that specifies the sub-factor associated
 
 A pointer to a  <b>WINBIO_UNIT_ID</b> value that specifies the biometric unit that performed the verification.
 
-
 ### -param Match [out, optional]
 
 Pointer to a Boolean value that specifies whether the captured sample matched the user identity specified by the <i>Identity</i> parameter.
-
 
 ### -param RejectDetail [out, optional]
 
@@ -120,8 +112,6 @@ A pointer to a <b>ULONG</b> value that contains additional information about the
 </ul>
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -197,14 +187,8 @@ The biometric sample does not correspond to the specified <i>Identity</i> and <i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If capture of the biometric sample fails, the <i>UnitId</i> parameter will contain the unit number of the sensor that attempted to perform the capture.
 
@@ -389,17 +373,7 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioverifywithcallback">WinBioVerifyWithCallback</a>
- 
-
- 
 

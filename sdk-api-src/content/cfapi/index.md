@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: cloudapi
 archived: true
+f1_keywords:
+ - cfapi
+ - cfapi/cfapi
 ---
 
 # Cfapi.h header
 
 
 ## -description
-
 
 This header is used by Cloud Filter API. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 9E438012-0991-46AA-8D0F-2C561F523EC2
 ms.date: 12/05/2018
 ms.keywords: IInkRectangle, IInkRectangle interface [Tablet PC], IInkRectangle interface [Tablet PC],described, msinkaut/IInkRectangle, tablet.iinkrectangle
-f1_keywords:
-- msinkaut/IInkRectangle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRectangle
+ - msinkaut/IInkRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkRectangle
 ---
 
 # IInkRectangle interface
@@ -50,7 +51,6 @@ ms.custom: 19H1
 ## -description
 
 Represents an ink rectangle.
-
 
 ## -inheritance
 
@@ -174,8 +174,9 @@ Gets or sets the top position of the <a href="https://docs.microsoft.com/windows
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [InkRectangle class](/windows/win32/tablet/inkrectangle-class)
+

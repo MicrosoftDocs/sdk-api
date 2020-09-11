@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: e0c4f64e-7e20-4dff-b597-acc280aebf32
 ms.date: 12/05/2018
 ms.keywords: GetGUIDDescription, GetGUIDDescription method [Text Services Framework], GetGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDescription method, ITfCategoryMgr.GetGUIDDescription, ITfCategoryMgr::GetGUIDDescription, _tsf_itfcategorymgr_getguiddescription_ref, msctf/ITfCategoryMgr::GetGUIDDescription, tsf.itfcategorymgr_getguiddescription
-f1_keywords:
-- msctf/ITfCategoryMgr.GetGUIDDescription
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.GetGUIDDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::GetGUIDDescription
+ - msctf/ITfCategoryMgr::GetGUIDDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.GetGUIDDescription
 ---
 
 # ITfCategoryMgr::GetGUIDDescription
+
 
 ## -description
 
@@ -105,7 +107,8 @@ The method cannot obtain the description.
 </td>
 </tr>
 </table>
- 
+
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterGUIDDescription](nf-msctf-itfcategorymgr-registerguiddescription.md), [ITfCategoryMgr::UnregisterGUIDDescription](nf-msctf-itfcategorymgr-unregisterguiddescription.md)
+

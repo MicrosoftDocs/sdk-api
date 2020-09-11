@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: d2e3bc10-e45f-43de-abc5-c5e35d366d87
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection, IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,described, functiondiscoveryprovider/IProviderPropertyConstraintCollection, ncd.iproviderpropertyconstraintcollection
-f1_keywords:
-- functiondiscoveryprovider/IProviderPropertyConstraintCollection
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IProviderPropertyConstraintCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderPropertyConstraintCollection
+ - functiondiscoveryprovider/IProviderPropertyConstraintCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IProviderPropertyConstraintCollection
 ---
 
 # IProviderPropertyConstraintCollection interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 This interface is accessible to the provider through <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getpropertyconstraints">IFunctionDiscoveryProviderQuery::GetPropertyConstraints</a>.
-
 
 ## -inheritance
 
@@ -124,5 +123,5 @@ Skips the next item in the collection.
 
 </td>
 </tr>
-</table> 
+</table>
 

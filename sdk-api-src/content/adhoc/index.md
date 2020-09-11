@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: nwifi
+f1_keywords:
+ - adhoc
+ - adhoc/adhoc
 ---
 
 # Adhoc.h header
 
 
 ## -description
-
 
 This header is used by Native Wifi. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 05ae6763-a3e1-461d-af90-08bddbe82300
 ms.date: 12/05/2018
 ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties],described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
-f1_keywords:
-- propsys/IPropertyEnumType
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyEnumType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyEnumType
+ - propsys/IPropertyEnumType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyEnumType
 ---
 
 # IPropertyEnumType interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that extract data from enumeration information. <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> gives access to the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enum">enum</a> and <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumrange">enumRange</a> elements in the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">property schema</a> in a programmatic way at run time.
-
 
 ## -inheritance
 
@@ -113,14 +112,9 @@ Gets a value from an enumeration information structure.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 For additional information, see <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>.
-
-
 

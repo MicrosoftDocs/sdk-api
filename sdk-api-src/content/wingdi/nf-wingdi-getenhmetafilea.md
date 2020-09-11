@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: bcb9611e-8e4e-4f87-8a1e-dedbe0042821
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFile, GetEnhMetaFile function [Windows GDI], GetEnhMetaFileA, GetEnhMetaFileW, _win32_GetEnhMetaFile, gdi.getenhmetafile, wingdi/GetEnhMetaFile, wingdi/GetEnhMetaFileA, wingdi/GetEnhMetaFileW
-f1_keywords:
-- wingdi/GetEnhMetaFile
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Metafile-L1-1-2.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetEnhMetaFile
-- GetEnhMetaFileA
-- GetEnhMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetEnhMetaFileA
+ - wingdi/GetEnhMetaFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Metafile-L1-1-2.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetEnhMetaFile
+ - GetEnhMetaFileA
+ - GetEnhMetaFileW
 ---
 
 # GetEnhMetaFileA function
@@ -54,34 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetEnhMetaFile</b> function creates a handle that identifies the enhanced-format metafile stored in the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
 A pointer to a null-terminated string that specifies the name of an enhanced metafile.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the enhanced metafile.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 When the application no longer needs an enhanced-metafile handle, it should delete the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function.
 
@@ -104,9 +92,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/open
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a>
 
 
@@ -124,7 +109,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/open
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 396545d5-8844-4dd2-9ed5-e4ed77f352ac
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], IWMPEvents interface [Windows Media Player],described, IWMPEventsInterface, wmp.iwmpevents_interface, wmp/IWMPEvents
-f1_keywords:
-- wmp/IWMPEvents
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEvents
+ - wmp/IWMPEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPEvents
 ---
 
 # IWMPEvents interface
 
 
 ## -description
-
-
 
 The <b>IWMPEvents</b> interface provides events that originate from the Windows Media Player control. An embedding program can respond to these events. The events exposed by <b>IWMPEvents</b> are also exposed by the <b>_WMPOCXEvents</b> interface.
 
@@ -333,20 +332,13 @@ In addition to the methods inherited from <b>IUnknown</b>, the <b>IWMPEvents</b>
 </td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents2">IWMPEvents2 Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

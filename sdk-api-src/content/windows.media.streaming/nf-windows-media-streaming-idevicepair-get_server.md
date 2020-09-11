@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: F362617D-E0F8-4F2C-8968-93AD25FE0990
 ms.date: 12/05/2018
 ms.keywords: IDevicePair interface [Media Streaming API],get_Server method, IDevicePair.get_Server, IDevicePair.streaming, IDevicePair::get_Server, IDevicePair::streaming, get_Server, get_Server method [Media Streaming API], get_Server method [Media Streaming API],IDevicePair interface, mediastreaming.idevicepair_server, windows/IDevicePair::get_Server
-f1_keywords:
-- windows.media.streaming/IDevicePair.get_Server
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: PlayToDevice.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PlayToDevice.dll
-api_name:
-- IDevicePair.get_Server
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDevicePair::get_Server
+ - windows.media.streaming/IDevicePair::get_Server
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PlayToDevice.dll
+api_name:
+ - IDevicePair.get_Server
 ---
 
 # IDevicePair::streaming
@@ -49,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the server for the active basic device pair.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out, retval]
 
 Receives the server device.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
 
@@ -86,7 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-idevicepair">IDevicePair</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 1abdeac1-c156-40b8-8b8c-5ddb51e410aa
 ms.date: 12/05/2018
 ms.keywords: IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], IMMDeviceEnumerator interface [Core Audio],described, coreaudio.immdeviceenumerator, mmdeviceapi/IMMDeviceEnumerator
-f1_keywords:
-- mmdeviceapi/IMMDeviceEnumerator
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMDeviceEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMDeviceEnumerator
+ - mmdeviceapi/IMMDeviceEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMDeviceEnumerator
 ---
 
 # IMMDeviceEnumerator interface
 
 
 ## -description
-
-
 
 The <b>IMMDeviceEnumerator</b> interface provides methods for enumerating multimedia device resources. In the current implementation of the MMDevice API, the only device resources that this interface can enumerate are <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint devices</a>. A client obtains a reference to an <b>IMMDeviceEnumerator</b> interface by calling the <b>CoCreateInstance</b> function, as described previously (see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>).
 
@@ -67,8 +66,6 @@ For code examples that use the <b>IMMDeviceEnumerator</b> interface, see the fol
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -130,13 +127,9 @@ Deletes the registration of a notification interface that the client registered 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -159,7 +152,4 @@ Deletes the registration of a notification interface that the client registered 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>
- 
-
- 
 

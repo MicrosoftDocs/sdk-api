@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 1ef27b3a-b897-4757-803d-d3a18959895c
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin2, ItsPubPlugin2 interface [Remote Desktop Services], ItsPubPlugin2 interface [Remote Desktop Services],described, termserv.itspubplugin2, tspubplugin2com/ItsPubPlugin2
-f1_keywords:
-- tspubplugin2com/ItsPubPlugin2
-dev_langs:
-- c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tspubplugin2com.h
-api_name:
-- ItsPubPlugin2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ItsPubPlugin2
+ - tspubplugin2com/ItsPubPlugin2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tspubplugin2com.h
+api_name:
+ - ItsPubPlugin2
 ---
 
 # ItsPubPlugin2 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies methods that provide information about resources available to users of RemoteApp and Desktop Connections. This interface is an enhancement to the <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a> interface.
 
 The methods in this interface are called by the RemoteApp and Desktop Connection Management service in Remote Desktop Web Access (RD Web Access) and Remote Desktop Connection Broker (RD Connection Broker).
-
 
 ## -inheritance
 
@@ -106,5 +105,5 @@ Called to resolve a mapping between the specified user and a virtual machine in 
 
 </td>
 </tr>
-</table> 
+</table>
 

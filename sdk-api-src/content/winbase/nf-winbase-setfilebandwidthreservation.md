@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a22bd8f3-4fbf-4f77-b8b6-7e786942615a
 ms.date: 12/05/2018
 ms.keywords: SetFileBandwidthReservation, SetFileBandwidthReservation function [Files], fs.setfilebandwidthreservation_func, winbase/SetFileBandwidthReservation
-f1_keywords:
-- winbase/SetFileBandwidthReservation
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- SetFileBandwidthReservation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileBandwidthReservation
+ - winbase/SetFileBandwidthReservation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - SetFileBandwidthReservation
 ---
 
 # SetFileBandwidthReservation function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests that bandwidth for the specified file stream be reserved. The reservation is specified as a 
     number of bytes in a period of milliseconds for I/O requests on the specified  file handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file.
-
 
 ### -param nPeriodMilliseconds [in]
 
@@ -73,7 +68,6 @@ The period of the reservation, in milliseconds. The period is the time from whic
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfilebandwidthreservation">GetFileBandwidthReservation</a> function, 
       on a handle that has not had a bandwidth reservation set.
 
-
 ### -param nBytesPerPeriod [in]
 
 The bandwidth to reserve, in bytes per period. The maximum supported value for the file 
@@ -81,7 +75,6 @@ The bandwidth to reserve, in bytes per period. The maximum supported value for t
       <i>lpBytesPerPeriod</i> parameter to the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfilebandwidthreservation">GetFileBandwidthReservation</a> function, 
       on a handle that has not had a bandwidth reservation set.
-
 
 ### -param bDiscardable [in]
 
@@ -93,12 +86,10 @@ Indicates whether I/O should be completed with an error if a driver is unable to
       using the same <i>hFile</i> handle and examine the <i>*pDiscardable</i> 
       return value.
 
-
 ### -param lpTransferSize [out]
 
 A pointer to a variable that receives the minimum size of any individual I/O request that may be issued by 
       the application. All I/O requests should be multiples of <i>TransferSize</i>.
-
 
 ### -param lpNumOutstandingRequests [out]
 
@@ -106,10 +97,7 @@ A pointer to a variable that receives the number of <i>TransferSize</i> chunks t
       application should allow to be outstanding with the operating system. This allows the storage stack to keep the 
       device busy and allows maximum throughput.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 
@@ -119,12 +107,7 @@ A reservation can fail if there is not enough bandwidth available on the volume 
 To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The requested bandwidth reservation must be greater than or equal to one packet per period. The minimum period, 
      in milliseconds, maximum bytes per period, and minimum transfer size, in bytes, for a specific volume are 
@@ -195,22 +178,12 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfilebandwidthreservation">GetFileBandwidthReservation</a>
- 
-
- 
 

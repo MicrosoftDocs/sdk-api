@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\iprotocolhandlersite.htm
 ms.date: 12/05/2018
 ms.keywords: IProtocolHandlerSite, IProtocolHandlerSite interface [search], IProtocolHandlerSite interface [search],described, _search_IProtocolHandlerSite, search._search_IProtocolHandlerSite, searchapi/IProtocolHandlerSite
-f1_keywords:
-- searchapi/IProtocolHandlerSite
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- IProtocolHandlerSite
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IProtocolHandlerSite
+ - searchapi/IProtocolHandlerSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - IProtocolHandlerSite
 ---
 
 # IProtocolHandlerSite interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for a protocol handler's <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object to query the Filter Daemon for the appropriate filter for the URL item.
-        
-
 
 ## -inheritance
 
@@ -79,25 +77,13 @@ Retrieves the appropriate <a href="https://docs.microsoft.com/windows/desktop/ap
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter">IProtocolHandlerSite::GetFilter</a> method.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
- 
-
- 
 

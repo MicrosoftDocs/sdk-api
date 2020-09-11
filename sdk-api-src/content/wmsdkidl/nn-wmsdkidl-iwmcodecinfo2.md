@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 0cfb355e-af68-400d-aa64-57f17e7d936b
 ms.date: 12/05/2018
 ms.keywords: IWMCodecInfo2, IWMCodecInfo2 interface [windows Media Format], IWMCodecInfo2 interface [windows Media Format],described, IWMCodecInfo2Interface, wmformat.iwmcodecinfo2, wmsdkidl/IWMCodecInfo2
-f1_keywords:
-- wmsdkidl/IWMCodecInfo2
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMCodecInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecInfo2
+ - wmsdkidl/IWMCodecInfo2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMCodecInfo2
 ---
 
 # IWMCodecInfo2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMCodecInfo2</b> interface manages the retrieval of information about codecs. To access it, call <b>QueryInterface</b> on a profile manager object.
-
-
-
 
 ## -inheritance
 
@@ -127,15 +123,8 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <td>IID_IWMProfileManagerLanguage</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo Interface</a>
 
@@ -150,7 +139,4 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/profile-manager-object">Profile Manager Object</a>
- 
-
- 
 

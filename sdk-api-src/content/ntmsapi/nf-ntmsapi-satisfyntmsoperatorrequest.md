@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 37f9c9c4-7fb2-4559-94a4-e508b277e69e
 ms.date: 12/05/2018
 ms.keywords: SatisfyNtmsOperatorRequest, SatisfyNtmsOperatorRequest function [Files], _zaw_satisfyntmsoperatorrequest, base.satisfyntmsoperatorrequest, fs.satisfyntmsoperatorrequest, ntmsapi/SatisfyNtmsOperatorRequest
-f1_keywords:
-- ntmsapi/SatisfyNtmsOperatorRequest
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- SatisfyNtmsOperatorRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SatisfyNtmsOperatorRequest
+ - ntmsapi/SatisfyNtmsOperatorRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - SatisfyNtmsOperatorRequest
 ---
 
 # SatisfyNtmsOperatorRequest function
@@ -49,33 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SatisfyNtmsOperatorRequest</b> function completes the specified RSM operator request.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
-
 ### -param lpRequestId [in]
 
 Operator request object ID. This value is returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a>.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -118,14 +110,8 @@ The operator request has been satisfied.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If an application detects that the operator did not acknowledge a satisfied operator request, the application can use the 
 <b>SatisfyNtmsOperatorRequest</b> function to remove the request.
@@ -134,13 +120,7 @@ For a list of the existing operator requests to cancel with the
 <b>SatisfyNtmsOperatorRequest</b> function, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest">CancelNtmsOperatorRequest</a>
 
@@ -155,7 +135,4 @@ For a list of the existing operator requests to cancel with the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsoperatorrequest">WaitForNtmsOperatorRequest</a>
- 
-
- 
 

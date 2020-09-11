@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysInt, GetThemeSysInt function [Windows Controls], TMT_MINCOLORDEPTH, controls.GetThemeSysInt, controls.inet_GetThemeSysInt, inet_GetThemeSysInt, inet_GetThemeSysInt_cpp, uxtheme/GetThemeSysInt
-f1_keywords:
-- uxtheme/GetThemeSysInt
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- GetThemeSysInt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeSysInt
+ - uxtheme/GetThemeSysInt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - GetThemeSysInt
 ---
 
 # GetThemeSysInt function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the value of a system <b>int</b>. 
-
+Retrieves the value of a system <b>int</b>.
 
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
 Type: <b>HTHEME</b>
 
 Handle to theme data.
-
 
 ### -param iIntId [in]
 
@@ -87,8 +82,6 @@ The minimum color depth, in bits, required to properly view this style.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param piValue [in]
 
@@ -96,14 +89,9 @@ Type: <b>int*</b>
 
 Pointer to an <b>int</b> that receives the system integer value.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

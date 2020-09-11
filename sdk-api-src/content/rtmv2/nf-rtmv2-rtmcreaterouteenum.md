@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 9d9c35e8-a9d4-4b30-a92c-f3188e11e317
 ms.date: 12/05/2018
 ms.keywords: RTM_ENUM_ALL_ROUTES, RTM_ENUM_NEXT, RTM_ENUM_OWN_ROUTES, RTM_ENUM_RANGE, RTM_ENUM_START, RTM_MATCH_FULL, RTM_MATCH_INTERFACE, RTM_MATCH_NEIGHBOUR, RTM_MATCH_NEXTHOP, RTM_MATCH_NONE, RTM_MATCH_OWNER, RTM_MATCH_PREF, RTM_VIEW_MASK_ANY, RTM_VIEW_MASK_MCAST, RTM_VIEW_MASK_UCAST, RtmCreateRouteEnum, RtmCreateRouteEnum function [RAS], _rtmv2ref_rtmcreaterouteenum, rras.rtmcreaterouteenum, rtmv2/RtmCreateRouteEnum
-f1_keywords:
-- rtmv2/RtmCreateRouteEnum
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmCreateRouteEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmCreateRouteEnum
+ - rtmv2/RtmCreateRouteEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmCreateRouteEnum
 ---
 
 # RtmCreateRouteEnum function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmCreateRouteEnum</b> function creates an enumeration of the routes for a particular destination or range of destinations in the routing table. A client can enumerate routes for one or more views, or for all views.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param DestHandle [in]
 
 Handle to the destination for which to enumerate routes. This parameter is optional, and can be set to <b>NULL</b>; specifying <b>NULL</b> enumerates all routes for all destinations. Specify <b>NULL</b> if <i>EnumFlags</i> contains RTM_ENUM_START.
-
 
 ### -param TargetViews [in]
 
@@ -112,8 +106,6 @@ Return destinations from the multicast view.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EnumFlags [in]
 
@@ -185,14 +177,11 @@ Enumerate routes starting at 0/0. Specify <b>NULL</b> for <i>NetAddress</i>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param StartDest [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a> structure that contains the starting address of the enumeration. This parameter is ignored if <i>EnumFlags</i> contains RTM_ENUM_START.
-
 
 ### -param MatchingFlags [in]
 
@@ -278,18 +267,14 @@ Match routes that have the same preference.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param CriteriaRoute [in]
 
 Specifies which routes to enumerate. This parameter is optional and can be set to <b>NULL</b> if <i>MatchingFlags</i> contains RTM_MATCH_INTERFACE or RTM_MATCH_NONE.
 
-
 ### -param CriteriaInterface [in]
 
 Pointer to a <b>ULONG</b> that specifies on which interfaces routes should be located. This parameter is ignored unless <i>MatchingFlags</i> contains RTM_MATCH_INTERFACE.
-
 
 ### -param RtmEnumHandle [out]
 
@@ -303,10 +288,7 @@ On output, <i>RtmEnumHandle</i> receives a pointer to a handle to the enumeratio
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseroutes">RtmReleaseRoutes</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -356,13 +338,7 @@ One or more of the specified views is not supported.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 If <i>EnumFlags</i> contains RTM_ENUM_RANGE, use <i>NetAddress</i> to specify the range of the routing table to enumerate. For example, if a client sets <i>NetAddress</i> to 10/8, destinations in the range 10.0.0.0/8 to 10.255.255.255/32 are returned.
 
@@ -372,13 +348,7 @@ When the enumeration handle is no longer required, release it by calling
 For sample code using this function, see 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/enumerate-all-routes">Enumerate All Routes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
 
@@ -397,7 +367,4 @@ For sample code using this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseroutes">RtmReleaseRoutes</a>
- 
-
- 
 

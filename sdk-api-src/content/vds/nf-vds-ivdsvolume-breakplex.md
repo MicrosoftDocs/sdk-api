@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: c7e42aa4-3233-40e9-b537-043eecd192ad
 ms.date: 12/05/2018
 ms.keywords: BreakPlex, BreakPlex method [VDS], BreakPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],BreakPlex method, IVdsVolume.BreakPlex, IVdsVolume::BreakPlex, base.ivdsvolume_breakplex, vds/IVdsVolume::BreakPlex
-f1_keywords:
-- vds/IVdsVolume.BreakPlex
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVolume.BreakPlex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVolume::BreakPlex
+ - vds/IVdsVolume::BreakPlex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVolume.BreakPlex
 ---
 
 # IVdsVolume::BreakPlex
 
 
 ## -description
-
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
@@ -61,16 +61,11 @@ Removes a specified
    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure returned contains the volume 
    object interface pointer in the <b>bvp.pVolumeUnk</b> member.
 
-
 ## -parameters
-
-
-
 
 ### -param plexId [in]
 
 The GUID of the plex to be broken.
-
 
 ### -param ppAsync [out]
 
@@ -82,10 +77,7 @@ If you call <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-
       you must release the interfaces returned in the 
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -130,14 +122,8 @@ The volume is not a mirror.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This operation is not valid for basic volumes, which have exactly one plex.
 
@@ -151,13 +137,7 @@ A boot or system plex—essentially, the plex used to boot the computer—is not
 Implementers must return a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> 
      interface for this method, regardless of whether the call initiates an asynchronous operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
@@ -172,7 +152,4 @@ Implementers must return a pointer to the <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a>
- 
-
- 
 

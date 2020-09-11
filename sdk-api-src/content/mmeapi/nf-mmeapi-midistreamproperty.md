@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: fb0f8bf4-5802-444e-9b2e-d9a7c80e3a20
 ms.date: 12/05/2018
 ms.keywords: _win32_midiStreamProperty, midiStreamProperty, midiStreamProperty function [Windows Multimedia], mmeapi/midiStreamProperty, multimedia.midistreamproperty
-f1_keywords:
-- mmeapi/midiStreamProperty
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiStreamProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiStreamProperty
+ - mmeapi/midiStreamProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiStreamProperty
 ---
 
 # midiStreamProperty function
@@ -51,27 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiStreamProperty</b> function sets or retrieves properties of a MIDI data stream associated with a MIDI output device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hms
 
 Handle to the MIDI device that the property is associated with.
 
-
 ### -param lppropdata
 
 Pointer to the property data.
-
 
 ### -param dwProperty
 
@@ -101,12 +92,8 @@ Flags that specify the action to perform and identify the appropriate property o
 <td>Specifies the time division property. You can get or set this property. The <i>lppropdata</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/dd798484(v=vs.85)">MIDIPROPTIMEDIV</a> structure. This property can be set only when the device is stopped.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -138,27 +125,12 @@ The given handle or flags parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 These properties are the default properties defined by the system. Driver writers can implement and document their own properties.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
 

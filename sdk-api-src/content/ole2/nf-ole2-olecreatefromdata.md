@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: aa5e997e-60d4-472d-9c81-5359c277bde3
 ms.date: 12/05/2018
 ms.keywords: OleCreateFromData, OleCreateFromData function [COM], _ole_OleCreateFromData, com.olecreatefromdata, ole2/OleCreateFromData
-f1_keywords:
-- ole2/OleCreateFromData
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- OleCreateFromData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleCreateFromData
+ - ole2/OleCreateFromData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - OleCreateFromData
 ---
 
 # OleCreateFromData function
@@ -51,55 +52,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an embedded object from a data transfer object retrieved either from the clipboard or as part of an OLE drag-and-drop operation. It is intended to be used to implement a paste from an OLE drag-and-drop operation.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pSrcDataObj [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data transfer object that holds the data from which the object is created.
 
-
 ### -param riid [in]
 
 Reference to the identifier of the interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>).
-
 
 ### -param renderopt [in]
 
 Value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. Additional considerations are described in the following Remarks section.
 
-
 ### -param pFormatEtc [in]
 
  Pointer to a value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>pFormatEtc</i> parameter.
-
 
 ### -param pClientSite [in]
 
 Pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
 
-
 ### -param pStg [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object. This parameter may not be <b>NULL</b>.
-
 
 ### -param ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created object.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -131,14 +116,8 @@ No acceptable formats are available for object creation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>OleCreateFromData</b> function creates an embedded object from a data transfer object supporting the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface. The data object in this case is either the type retrieved from the clipboard with a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegetclipboard">OleGetClipboard</a> function or is part of an OLE drag-and-drop operation (the data object is passed to a call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a>).
 
@@ -209,22 +188,12 @@ If the source has the CF_EMBEDDEDOBJECT format, the cache of the new object is t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: bbd2c3c4-d2d0-4590-9b5c-6916b91600cd
 ms.date: 12/05/2018
 ms.keywords: HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration
-f1_keywords:
-- http/HttpQueryServiceConfiguration
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpQueryServiceConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpQueryServiceConfiguration
+ - http/HttpQueryServiceConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpQueryServiceConfiguration
 ---
 
 # HttpQueryServiceConfiguration function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpQueryServiceConfiguration</b> function retrieves one or more HTTP Server API configuration records.
 
-
 ## -parameters
-
-
-
 
 ### -param ServiceHandle [in]
 
 Reserved. Must be zero.
-
 
 ### -param ConfigId [in]
 
@@ -144,8 +139,6 @@ Queries  the SSL configuration for an SSL Centralized Certificate Store (CCS) re
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pInput [in, optional]
 
@@ -241,11 +234,9 @@ No input data; set to <b>NULL</b>.
 
 For more information, see the appropriate query structures.
 
-
 ### -param InputLength [in, optional]
 
 Size, in bytes, of the <i>pInputConfigInfo</i> buffer.
-
 
 ### -param pOutput [in, out, optional]
 
@@ -338,27 +329,20 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param OutputLength [in, optional]
 
 Size, in bytes, of the <i>pOutputConfigInfo</i> buffer.
 
-
 ### -param pReturnLength [out, optional]
 
 A pointer to a variable that receives the number of bytes to be written in the output buffer. If the output buffer is too small, the call fails with a return value of <b>ERROR_INSUFFICIENT_BUFFER</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length the buffer requires for the call to succeed.
-
 
 ### -param pOverlapped [in]
 
 Reserved for asynchronous operation and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -425,15 +409,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
@@ -448,7 +425,4 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1eeb00a3-d3c5-46f0-95a8-f694f802894b
 ms.date: 12/05/2018
 ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM],described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
-f1_keywords:
-- callobj/ICallFrameWalker
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallFrameWalker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallFrameWalker
+ - callobj/ICallFrameWalker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallFrameWalker
 ---
 
 # ICallFrameWalker interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Walks a stack frame looking for interesting values.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Walks through a call frame to look for the specified interface in the call frame
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-walkframe">ICallFrame::WalkFrame</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7
 ms.date: 12/05/2018
 ms.keywords: SetupOpenInfFile, SetupOpenInfFile function [Setup API], SetupOpenInfFileA, SetupOpenInfFileW, _setupapi_setupopeninffile, setup.setupopeninffile, setupapi/SetupOpenInfFile, setupapi/SetupOpenInfFileA, setupapi/SetupOpenInfFileW
-f1_keywords:
-- setupapi/SetupOpenInfFile
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-setupapi-inf-l1-1-0.dll
-- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
-api_name:
-- SetupOpenInfFile
-- SetupOpenInfFileA
-- SetupOpenInfFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupOpenInfFileA
+ - setupapi/SetupOpenInfFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-setupapi-inf-l1-1-0.dll
+ - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+api_name:
+ - SetupOpenInfFile
+ - SetupOpenInfFileA
+ - SetupOpenInfFileW
 ---
 
 # SetupOpenInfFileA function
@@ -53,27 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupOpenInfFile</b> function opens an INF file and returns a handle to it.
 
-
 ## -parameters
-
-
-
 
 ### -param FileName [in]
 
 Pointer to a null-terminated string containing the name (and optional path) of the INF file to be opened. If the filename does not contain path separator characters, it is searched for, first in the %windir%\inf directory, and then in the %windir%\system32 directory. If the filename contains path separator characters, it is assumed to be a full path specification and no further processing is performed on it.
 
-
 ### -param InfClass [in]
 
-Optional pointer to a null-terminated string containing the class of INF file desired. This string must match the Class value of the <b>Version</b> section (for example, Class=Net). If there is no entry in the Class value, but there is an entry for ClassGUID in the <b>Version</b> section, the corresponding class name for that GUID is retrieved and used for the comparison. 
-
+Optional pointer to a null-terminated string containing the class of INF file desired. This string must match the Class value of the <b>Version</b> section (for example, Class=Net). If there is no entry in the Class value, but there is an entry for ClassGUID in the <b>Version</b> section, the corresponding class name for that GUID is retrieved and used for the comparison.
 
 ### -param InfStyle [in]
 
@@ -95,26 +89,17 @@ A legacy INF file format.
 
 A Windows INF file format.
 
-
 ### -param ErrorLine [in]
 
 Optional pointer to a variable to which this function returns the (1-based) line number where an error occurred during loading of the INF file. This value is generally reliable only if 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> does not return ERROR_NOT_ENOUGH_MEMORY. If an out-of-memory condition does occur, <i>ErrorLine</i> may be 0.
 
-
 ## -returns
-
-
 
 The function returns a handle to the opened INF file if it is successful. Otherwise, the return value is INVALID_HANDLE_VALUE. Extended error information can be retrieved by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the load fails because the INF file type does not match <i>InfClass</i>, the function returns INVALID_HANDLE_VALUE and a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_CLASS_MISMATCH.
@@ -136,9 +121,6 @@ For legacy INF files, the <i>InfClass</i> string must match the type specified i
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
@@ -156,7 +138,4 @@ For legacy INF files, the <i>InfClass</i> string must match the type specified i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>
- 
-
- 
 

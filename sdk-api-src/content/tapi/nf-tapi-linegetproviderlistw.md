@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 87d43409-e8c5-401a-87a2-02568ed0af4a
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetproviderlist, lineGetProviderList, lineGetProviderList function [TAPI 2.2], lineGetProviderListA, lineGetProviderListW, tapi/lineGetProviderList, tapi/lineGetProviderListA, tapi/lineGetProviderListW, tapi2.linegetproviderlist
-f1_keywords:
-- tapi/lineGetProviderList
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGetProviderList
-- lineGetProviderListA
-- lineGetProviderListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGetProviderListW
+ - tapi/lineGetProviderListW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGetProviderList
+ - lineGetProviderListA
+ - lineGetProviderListW
 ---
 
 # lineGetProviderListW function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGetProviderList</b> function returns a list of service providers currently installed in the telephony system.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAPIVersion
 
 Highest version of TAPI supported by the application (not necessarily the value negotiated by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a> on some particular line device).
-
 
 ### -param lpProviderList
 
@@ -82,19 +77,11 @@ Pointer to a memory location where TAPI can return a
 
 ## -returns
 
-
-
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_OPERATIONFAILED, LINEERR_INVALPOINTER, LINEERR_STRUCTURETOOSMALL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist">LINEPROVIDERLIST</a>
 
@@ -109,9 +96,6 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
- 
-
- 
 
 ## -remarks
 

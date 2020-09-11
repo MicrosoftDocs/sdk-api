@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: f37d3abb-e8ad-4aae-884a-1c6c4fa445e2
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidaudiorendererevent2, segment/IMSVidAudioRendererEvent2
-f1_keywords:
-- segment/IMSVidAudioRendererEvent2
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidAudioRendererEvent2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidAudioRendererEvent2
+ - segment/IMSVidAudioRendererEvent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidAudioRendererEvent2
 ---
 
 # IMSVidAudioRendererEvent2 interface
 
 
 ## -description
-
 
 Implements an event system for the audio renderer associated with a Video Control. Audio renderer events are triggered by events from the audio decoder upstream of the audio renderer in the filter graph. 
 
@@ -57,8 +57,7 @@ The audio renderer subscribes to audio decoder events by using the <a href="http
 <li>An audio decoder property changes.</li>
 <li>The decoder fires an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> event. The event data includes the GUID that identifies the codec property.</li>
 <li>The audio renderer fires the corresponding <b>IMSVidAudioRendererEvent2</b> event.</li>
-</ol>For a list of codec properties, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>. 
-
+</ol>For a list of codec properties, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
 
 ## -inheritance
 
@@ -155,14 +154,9 @@ Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/Di
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidAudioRendererEvent2)</code>.
-
-
 

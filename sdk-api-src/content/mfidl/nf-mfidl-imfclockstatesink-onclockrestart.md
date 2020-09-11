@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 55973dfa-59b9-4105-9706-5d5497ad2818
 ms.date: 12/05/2018
 ms.keywords: 55973dfa-59b9-4105-9706-5d5497ad2818, IMFClockStateSink interface [Media Foundation],OnClockRestart method, IMFClockStateSink.OnClockRestart, IMFClockStateSink::OnClockRestart, OnClockRestart, OnClockRestart method [Media Foundation], OnClockRestart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockrestart, mfidl/IMFClockStateSink::OnClockRestart
-f1_keywords:
-- mfidl/IMFClockStateSink.OnClockRestart
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFClockStateSink.OnClockRestart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFClockStateSink::OnClockRestart
+ - mfidl/IMFClockStateSink::OnClockRestart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFClockStateSink.OnClockRestart
 ---
 
 # IMFClockStateSink::OnClockRestart
@@ -50,34 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when the presentation clock restarts from the same position while paused.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param hnsSystemTime [in]
 
 The system time when the clock restarted, in 100-nanosecond units.
-          
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is called if the presentation clock is paused and the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">IMFPresentationClock::Start</a> method is called with the value <b>PRESENTATION_CURRENT_POSITION</b>.
       
@@ -86,15 +72,8 @@ The clock notifies the presentation time source by calling the time source's <b>
       
 
 For any object that is not the presentation time source, the <b>OnClockRestart</b> method is called asynchronously, after the state change is completed. In that case, the return value from this method is ignored.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
 
@@ -105,7 +84,4 @@ For any object that is not the presentation time source, the <b>OnClockRestart</
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
 

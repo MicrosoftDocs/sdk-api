@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 58044de0-124f-4efd-a14f-4865f3278421
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],ScrollIntoView method, ITextRangeProvider.ScrollIntoView, ITextRangeProvider::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_ScrollIntoView, uiauto_ITextRangeProvider_ScrollIntoView, uiautomationcore/ITextRangeProvider::ScrollIntoView, winauto.uiauto_ITextRangeProvider_ScrollIntoView
-f1_keywords:
-- uiautomationcore/ITextRangeProvider.ScrollIntoView
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- ITextRangeProvider.ScrollIntoView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRangeProvider::ScrollIntoView
+ - uiautomationcore/ITextRangeProvider::ScrollIntoView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ITextRangeProvider.ScrollIntoView
 ---
 
 # ITextRangeProvider::ScrollIntoView
@@ -49,50 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Causes the text control to scroll vertically until the text range is visible in the viewport. 
-
+Causes the text control to scroll vertically until the text range is visible in the viewport.
 
 ## -parameters
-
-
-
 
 ### -param alignToTop [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 TRUE if the text control should be scrolled so the text range is flush with the top of the viewport; 
-				FALSE if it should be flush with the bottom of the viewport. 
-
-
+				FALSE if it should be flush with the bottom of the viewport.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>ITextRangeProvider::ScrollIntoView</b> respects both hidden and visible text. 
 
 If the text range is hidden, the text control will scroll only if the hidden text has an anchor in the viewport.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -111,7 +92,4 @@ If the text range is hidden, the text control will scroll only if the hidden tex
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5df840ab-fff6-4c7e-b799-51e4de4c644a
 ms.date: 12/05/2018
 ms.keywords: CertViewProperties, CertViewProperties function [Security], CertViewPropertiesA, CertViewPropertiesW, cryptdlg/CertViewProperties, cryptdlg/CertViewPropertiesA, cryptdlg/CertViewPropertiesW, security.certviewproperties
-f1_keywords:
-- cryptdlg/CertViewProperties
-dev_langs:
-- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: CryptDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CryptDlg.dll
-api_name:
-- CertViewProperties
-- CertViewPropertiesA
-- CertViewPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertViewPropertiesA
+ - cryptdlg/CertViewPropertiesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CryptDlg.dll
+api_name:
+ - CertViewProperties
+ - CertViewPropertiesA
+ - CertViewPropertiesW
 ---
 
 # CertViewPropertiesA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>CertViewProperties</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcontext">CryptUIDlgViewContext</a> function.]
 
@@ -59,21 +59,13 @@ The <b>CertViewProperties</b> function displays the properties for a certificate
 
 ## -parameters
 
-
-
-
 ### -param pCertViewInfo [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-cert_viewproperties_struct_a">CERT_VIEWPROPERTIES_STRUCT</a> structure that contains the information about the certificate to view.
 
-
 ## -returns
 
-
-
 The return value is <b>TRUE</b> if the function is successful; <b>FALSE</b> if the function fails.
-
-
 
 ## -remarks
 

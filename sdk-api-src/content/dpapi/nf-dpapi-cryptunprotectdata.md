@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 54eab3b0-d341-47c6-9c32-79328d7a7155
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECT_UI_FORBIDDEN, CRYPTPROTECT_VERIFY_PROTECTION, CryptUnprotectData, CryptUnprotectData function [Security], _crypto2_cryptunprotectdata, dpapi/CryptUnprotectData, security.cryptunprotectdata, wincrypt/CryptUnprotectData
-f1_keywords:
-- dpapi/CryptUnprotectData
-dev_langs:
-- c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptUnprotectData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptUnprotectData
+ - dpapi/CryptUnprotectData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptUnprotectData
 ---
 
 # CryptUnprotectData function
@@ -49,43 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptUnprotectData</b> function decrypts and does an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">integrity</a> check of the data in a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure. Usually, the only user who can decrypt the data is a user with the same logon <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> as the user who encrypted the data. In addition, the encryption and decryption must be done on the same computer. For information about exceptions, see the Remarks section of 
 <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pDataIn [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure that holds the encrypted data. The <b>DATA_BLOB</b> structure's <b>cbData</b> member holds the length of the <b>pbData</b> member's byte string that contains the text to be encrypted.
 
-
 ### -param ppszDataDescr [out, optional]
 
 A pointer to a string-readable description of the encrypted data included with the encrypted data. This parameter can be set to <b>NULL</b>.  When you have finished using <i>ppszDataDescr</i>, free it by calling the  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
 
 ### -param pOptionalEntropy [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure that contains a password or other additional entropy used when the data was encrypted. This parameter can be set to <b>NULL</b>; however, if an optional entropy <b>DATA_BLOB</b> structure was used in the encryption phase, that same <b>DATA_BLOB</b> structure must be used for the decryption phase. For information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
-
 ### -param pvReserved
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
 
 ### -param pPromptStruct [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-cryptprotect_promptstruct">CRYPTPROTECT_PROMPTSTRUCT</a> structure that provides information about where and when prompts are to be displayed and what the content of those prompts should be. This parameter can be set to <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -118,28 +109,18 @@ This flag verifies the protection of a protected <a href="https://docs.microsoft
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pDataOut [out]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure where the function stores the decrypted data. When you have finished using the <b>DATA_BLOB</b> structure, free its <b>pbData</b> member by calling the  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns  <b>TRUE</b>.
 
 If the function fails, it returns  <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a> function creates a session key when the data is encrypted. That key is derived again and used to decrypt the data <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
@@ -195,14 +176,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a>
 
@@ -221,7 +195,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>
- 
-
- 
 

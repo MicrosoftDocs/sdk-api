@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: fb0bc52c-ae50-4c14-864d-099f2903adfb
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Task Scheduler], GetStatus method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetStatus method, IScheduledWorkItem.GetStatus, IScheduledWorkItem::GetStatus, _msb_ischeduledworkitem_getstatus, mstask/IScheduledWorkItem::GetStatus, taskschd.ischeduledworkitem_getstatus
-f1_keywords:
-- mstask/IScheduledWorkItem.GetStatus
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::GetStatus
+ - mstask/IScheduledWorkItem::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.GetStatus
 ---
 
 # IScheduledWorkItem::GetStatus
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Retrieves the status of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param phrStatus [out]
 
@@ -108,12 +104,9 @@ There are no more runs scheduled for this task.
 
 #### SCHED_S_TASK_NO_VALID_TRIGGERS
 
-Either the task has no triggers or the existing triggers are disabled or not set. 
-
+Either the task has no triggers or the existing triggers are disabled or not set.
 
 ## -returns
-
-
 
 The 
 <b>GetStatus</b> method returns one of the following values.
@@ -146,14 +139,8 @@ The arguments are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The methods of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a> interface are inherited by the 
@@ -172,19 +159,11 @@ For an example of how to retrieve  the task status as part of terminating the ta
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 4b133336-7cd1-4af4-bc8d-4defce97559d
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerInstall, TUISPI_providerInstall function [TAPI 2.2], _tspi_tuispi_providerinstall, tspi.tuispi_providerinstall, tspi/TUISPI_providerInstall
-f1_keywords:
-- tspi/TUISPI_providerInstall
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TUISPI_providerInstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TUISPI_providerInstall
+ - tspi/TUISPI_providerInstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TUISPI_providerInstall
 ---
 
 # TUISPI_providerInstall function
 
 
 ## -description
-
 
 Implementation of the 
 <b>TUISPI_providerInstall</b> function is the service provider's opportunity to install any additional "pieces" of the provider into the right directories (or at least verifying that they're there) and set up registry entries the provider needs. This function makes the 
@@ -58,41 +58,27 @@ If the service provider requires any privately-defined entries in the registry f
 
 Implementation is optional.
 
-
 ## -parameters
-
-
-
 
 ### -param lpfnUIDLLCallback
 
 Pointer to a function the UI DLL can call to communicate with the service provider DLL to obtain information needed to display the dialog box.
 
-
 ### -param hwndOwner
 
 The handle of the parent window in which the function can create any dialog box windows that are required during installation.
-
 
 ### -param dwPermanentProviderID
 
 The service provider's permanent provider identifier.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_OPERATIONFAILED, LINEERR_INIFILECORRUPT, LINEERR_NOMEM. LINEERR_INVALPARAM.
 
-
-
-
 ## -remarks
-
-
 
 This function must leave the system in a consistent state. It should run to completion, not allowing the user to abort the installation when it is partly completed. If installation fails, it is the provider's responsibility to "back out" what was done and return an error. This may imply pre-scanning to verify that a complete installation is possible, before the installation begins.
 
@@ -104,13 +90,7 @@ The corresponding function at the TAPI level is
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineaddprovider">lineAddProvider</a>. The 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message informs applications that are running about dynamic reconfiguration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a>
 
@@ -133,7 +113,4 @@ The corresponding function at the TAPI level is
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: fc1ae7e4-f856-4b48-8ab4-56cd511ed161
 ms.date: 12/05/2018
 ms.keywords: GetPerAdapterInfo, GetPerAdapterInfo function [IP Helper], _iphlp_getperadapterinfo, iphlp.getperadapterinfo, iphlpapi/GetPerAdapterInfo
-f1_keywords:
-- iphlpapi/GetPerAdapterInfo
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetPerAdapterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPerAdapterInfo
+ - iphlpapi/GetPerAdapterInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetPerAdapterInfo
 ---
 
 # GetPerAdapterInfo function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetPerAdapterInfo</b> function retrieves information about the adapter corresponding to the specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param IfIndex [in]
 
 Index of an interface. 
 The <b>GetPerAdapterInfo</b> function retrieves information for the adapter corresponding to this interface.
 
-
 ### -param pPerAdapterInfo [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_per_adapter_info_w2ksp1">IP_PER_ADAPTER_INFO</a> structure that receives information about the adapter.
-
 
 ### -param pOutBufLen [in]
 
@@ -77,10 +71,7 @@ Pointer to a <b>ULONG</b> variable that specifies the size of the
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_per_adapter_info_w2ksp1">IP_PER_ADAPTER_INFO</a> structure. If this size is insufficient to hold the information, 
 <b>GetPerAdapterInfo</b> fills in this variable with the required size, and returns an error code of ERROR_BUFFER_OVERFLOW.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -143,23 +134,11 @@ If the function fails, use
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
  An  adapter index  may change when the adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
@@ -170,7 +149,4 @@ If the function fails, use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_per_adapter_info_w2ksp1">IP_PER_ADAPTER_INFO</a>
- 
-
- 
 

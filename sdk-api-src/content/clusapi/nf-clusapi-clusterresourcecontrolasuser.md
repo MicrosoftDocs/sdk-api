@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: D8CA1B1C-7061-4EAD-B4A0-8468B503D96D
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceControlAsUser, ClusterResourceControlAsUser function [Failover Cluster], clusapi/ClusterResourceControlAsUser, mscs.clusterresourcecontrolasuser
-f1_keywords:
-- clusapi/ClusterResourceControlAsUser
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterResourceControlAsUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterResourceControlAsUser
+ - clusapi/ClusterResourceControlAsUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterResourceControlAsUser
 ---
 
 # ClusterResourceControlAsUser function
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates an operation affecting a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>.
 
 The operation performed depends on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed 
     to the <i>dwControlCode</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle to the resource to be affected.
 
-
 ### -param hHostNode [in, optional]
 
 Optional handle to the node to perform the operation. If <b>NULL</b>, the node that owns 
        the resource identified by <i>hResource</i> performs the operation.
-
 
 ### -param dwControlCode [in]
 
@@ -79,38 +73,30 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/res
        the operation to be performed. For the syntax associated with a control code, refer to  
        the link on the <b>CLUSCTL_RESOURCE_CODES</b> topic.
 
-
 ### -param lpInBuffer [in, optional]
 
 Pointer to an input buffer containing information needed for the operation, or <b>NULL</b> 
        if no information is needed.
 
-
 ### -param cbInBufferSize [in]
 
 The allocated size (in bytes) of the input buffer.
-
 
 ### -param lpOutBuffer [out, optional]
 
 Pointer to an output buffer to receive the data resulting from the operation, or 
        <b>NULL</b> if no data will be returned.
 
-
 ### -param cbOutBufferSize [in]
 
 The allocated size (in bytes) of the output buffer.
-
 
 ### -param lpBytesReturned [out, optional]
 
 Returns the actual size (in bytes) of the data resulting from the operation. If this information is not 
        needed, pass <b>NULL</b> for <i>lpBytesReturned</i>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -195,14 +181,8 @@ The operation was not successful. If the operation required an output buffer, th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> returns 
      <b>ERROR_MORE_DATA</b>, set <i>cbOutBufferSize</i> to the number of bytes 
@@ -218,20 +198,11 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cl
      on control codes and control code functions, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-control-codes">Using Control Codes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-control-codes">Resource Type Control Codes</a>
- 
-
- 
 

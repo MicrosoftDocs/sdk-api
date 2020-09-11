@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 40B34A65-4E3C-4B9D-9315-A0EF015BB8D0
 ms.date: 12/05/2018
 ms.keywords: WindowsCompareStringOrdinal, WindowsCompareStringOrdinal function [Windows Runtime], winrt.windowscomparestringordinal, winstring/WindowsCompareStringOrdinal
-f1_keywords:
-- winstring/WindowsCompareStringOrdinal
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: WinRTType.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinRTType.lib
-- WinRTType.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsCompareStringOrdinal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsCompareStringOrdinal
+ - winstring/WindowsCompareStringOrdinal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinRTType.lib
+ - WinRTType.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsCompareStringOrdinal
 ---
 
 ## -description
@@ -70,7 +71,7 @@ The second string to compare.
 
 Type: [out] <b>INT32*</b>
 
-A value that indicates the lexical relationship between <i>string1</i> and <i>string2</i>. 
+A value that indicates the lexical relationship between <i>string1</i> and <i>string2</i>.
 
 ## -returns
 
@@ -129,3 +130,4 @@ Use the <b>WindowsCompareStringOrdinal</b> function to compare two [**HSTRING**]
 <td><i>string1</i> is greater than <i>string2</i>.</td>
 </tr>
 </table>
+

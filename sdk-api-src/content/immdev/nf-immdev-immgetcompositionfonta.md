@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: c38f424f-84d4-4181-9ada-bbd178a70373
 ms.date: 12/05/2018
 ms.keywords: ImmGetCompositionFont, ImmGetCompositionFont function [Internationalization for Windows Applications], ImmGetCompositionFontA, ImmGetCompositionFontW, _win32_ImmGetCompositionFont, imm/ImmGetCompositionFont, imm/ImmGetCompositionFontA, imm/ImmGetCompositionFontW, intl.immgetcompositionfont
-f1_keywords:
-- immdev/ImmGetCompositionFont
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-api_name:
-- ImmGetCompositionFont
-- ImmGetCompositionFontA
-- ImmGetCompositionFontW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmGetCompositionFontA
+ - immdev/ImmGetCompositionFontA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+api_name:
+ - ImmGetCompositionFont
+ - ImmGetCompositionFontA
+ - ImmGetCompositionFontW
 ---
 
 # ImmGetCompositionFontA function
@@ -51,47 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the logical font currently used to display characters in the composition window.
 
-
 ## -parameters
-
-
-
 
 ### -param HIMC [in]
 
 Handle to the input context.
 
-
 ### -param lplf [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure in which this function retrieves the font information.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
 
 ## -remarks
 

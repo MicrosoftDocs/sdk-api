@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 669264cd-a43c-4681-9416-2704d4232685
 ms.date: 12/05/2018
 ms.keywords: AddIPAddress, AddIPAddress function [IP Helper], _iphlp_addipaddress, iphlp.addipaddress, iphlpapi/AddIPAddress
-f1_keywords:
-- iphlpapi/AddIPAddress
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- AddIPAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddIPAddress
+ - iphlpapi/AddIPAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - AddIPAddress
 ---
 
 # AddIPAddress function
@@ -49,45 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>AddIPAddress</b> function adds the specified IPv4 address to the specified adapter.
 
-
 ## -parameters
-
-
-
 
 ### -param Address [in]
 
 The IPv4 address to add to the adapter, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
 
-
 ### -param IpMask [in]
 
 The subnet mask for the IPv4 address specified in the <i>Address</i> parameter.   The <b>IPMask</b> parameter uses the same format as an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
 
-
 ### -param IfIndex [in]
 
 The index of the adapter on which to add the IPv4 address.
-
 
 ### -param NTEContext [out]
 
 A pointer to a <b>ULONG</b> variable. On successful return, this parameter points to the Net Table Entry (NTE) context for the IPv4 address that was added. The caller can later use this context in a call to 
 the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipaddress">DeleteIPAddress</a> function.
 
-
 ### -param NTEInstance [out]
 
 A pointer to a <b>ULONG</b> variable. On successful return, this parameter points to the NTE instance for the IPv4 address that was added.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -177,14 +166,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>AddIPAddress</b> function is used to add a new IPv4 address entry on a local computer. The IPv4 address added by 
 the <b>AddIPAddress</b> function is not persistent. The IPv4 address exists only as long as the adapter object exists. Restarting the computer destroys the IPv4 address, as does manually resetting the network interface card (NIC). Also, certain PnP events may destroy the address.
@@ -346,14 +329,7 @@ int __cdecl main(int argc, char **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>
 
@@ -380,7 +356,4 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
- 
-
- 
 

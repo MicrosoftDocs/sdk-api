@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\mouseinput.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPMOUSEINPUT, *PMOUSEINPUT, MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWHEEL, MOUSEEVENTF_LEFTDOWN, MOUSEEVENTF_LEFTUP, MOUSEEVENTF_MIDDLEDOWN, MOUSEEVENTF_MIDDLEUP, MOUSEEVENTF_MOVE, MOUSEEVENTF_MOVE_NOCOALESCE, MOUSEEVENTF_RIGHTDOWN, MOUSEEVENTF_RIGHTUP, MOUSEEVENTF_VIRTUALDESK, MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, MOUSEEVENTF_XUP, MOUSEINPUT, MOUSEINPUT structure [Keyboard and Mouse Input], PMOUSEINPUT, PMOUSEINPUT structure pointer [Keyboard and Mouse Input], XBUTTON1, XBUTTON2, _win32_MOUSEINPUT_str, _win32_mouseinput_str_cpp, inputdev.mouseinput, winui._win32_mouseinput_str, winuser/MOUSEINPUT, winuser/PMOUSEINPUT'
-f1_keywords:
-- winuser/MOUSEINPUT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MOUSEINPUT
 targetos: Windows
 req.typenames: MOUSEINPUT, *PMOUSEINPUT, *LPMOUSEINPUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMOUSEINPUT
+ - winuser/tagMOUSEINPUT
+ - PMOUSEINPUT
+ - winuser/PMOUSEINPUT
+ - MOUSEINPUT
+ - winuser/MOUSEINPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MOUSEINPUT
 ---
 
 # MOUSEINPUT structure
@@ -49,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a simulated mouse event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dx
 
 Type: <b>LONG</b>
 
-The absolute position of the mouse, or the amount of motion since the last mouse event was generated, depending on the value of the <b>dwFlags</b> member. Absolute data is specified as the x coordinate of the mouse; relative data is specified as the number of pixels moved. 
-
+The absolute position of the mouse, or the amount of motion since the last mouse event was generated, depending on the value of the <b>dwFlags</b> member. Absolute data is specified as the x coordinate of the mouse; relative data is specified as the number of pixels moved.
 
 ### -field dy
 
 Type: <b>LONG</b>
 
-The absolute position of the mouse, or the amount of motion since the last mouse event was generated, depending on the value of the <b>dwFlags</b> member. Absolute data is specified as the y coordinate of the mouse; relative data is specified as the number of pixels moved. 
-
+The absolute position of the mouse, or the amount of motion since the last mouse event was generated, depending on the value of the <b>dwFlags</b> member. Absolute data is specified as the y coordinate of the mouse; relative data is specified as the number of pixels moved.
 
 ### -field mouseData
 
@@ -113,8 +111,6 @@ Set if the second X button is pressed or released.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFlags
 
@@ -293,26 +289,20 @@ Maps coordinates to the entire desktop. Must be used with <b>MOUSEEVENTF_ABSOLUT
 </td>
 </tr>
 </table>
- 
-
 
 ### -field time
 
 Type: <b>DWORD</b>
 
-The time stamp for the event, in milliseconds. If this parameter is 0, the system will provide its own time stamp. 
-
+The time stamp for the event, in milliseconds. If this parameter is 0, the system will provide its own time stamp.
 
 ### -field dwExtraInfo
 
 Type: <b>ULONG_PTR</b>
 
-An additional value associated with the mouse event. An application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information. 
-
+An additional value associated with the mouse event. An application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information.
 
 ## -remarks
-
-
 
 If the mouse has moved, indicated by <b>MOUSEEVENTF_MOVE</b>, <b>dx</b>and <b>dy</b> specify information about that movement. The information is specified as absolute or relative integer values. 
 
@@ -326,13 +316,7 @@ Relative mouse motion is subject to the effects of the mouse speed and the two-m
 
 The system applies two tests to the specified relative mouse movement. If the specified distance along either the x or y axis is greater than the first mouse threshold value, and the mouse speed is not zero, the system doubles the distance. If the specified distance along either the x or y axis is greater than the second mouse threshold value, and the mouse speed is equal to two, the system doubles the distance that resulted from applying the first threshold test. It is thus possible for the system to multiply specified relative mouse movement along the x or y axis by up to four times.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -355,7 +339,4 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: a8f24501-4e85-4981-bb38-2bd6333a7b49
 ms.date: 12/05/2018
 ms.keywords: EndDraw, EndDraw method [Direct2D], EndDraw method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],EndDraw method, ID2D1RenderTarget.EndDraw, ID2D1RenderTarget::EndDraw, d2d1/ID2D1RenderTarget::EndDraw, direct2d.ID2D1RenderTarget_EndDraw
-f1_keywords:
-- d2d1/ID2D1RenderTarget.EndDraw
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.EndDraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::EndDraw
+ - d2d1/ID2D1RenderTarget::EndDraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.EndDraw
 ---
 
 # ID2D1RenderTarget::EndDraw
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Ends drawing operations  on the render target and indicates the current error state and associated tags. 
-
+Ends drawing operations  on the render target and indicates the current error state and associated tags.
 
 ## -parameters
-
-
-
 
 ### -param tag1 [out, optional]
 
@@ -64,30 +60,19 @@ Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 When this method returns, contains the tag for drawing operations that caused errors or 0 if there were no errors. This parameter is passed uninitialized.
 
-
 ### -param tag2 [out, optional]
 
 Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 When this method returns, contains the tag for drawing operations that caused errors or 0 if there were no errors. This parameter is passed uninitialized.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code and sets <i>tag1</i> and <i>tag2</i> to the tags that were active when the error occurred.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Drawing operations can only be issued between a <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and <b>EndDraw</b> call.
 
@@ -159,17 +144,7 @@ HRESULT DemoApp::OnRender()
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
 

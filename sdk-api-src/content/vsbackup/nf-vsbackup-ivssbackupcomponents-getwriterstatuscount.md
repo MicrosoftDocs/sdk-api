@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e358cb2b-9b0f-47fb-a0ca-7bbbc6e49aff
 ms.date: 12/05/2018
 ms.keywords: GetWriterStatusCount, GetWriterStatusCount method [VSS], GetWriterStatusCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatusCount method, IVssBackupComponents.GetWriterStatusCount, IVssBackupComponents::GetWriterStatusCount, _win32_ivssbackupcomponents_getwriterstatuscount, base.ivssbackupcomponents_getwriterstatuscount, vsbackup/IVssBackupComponents::GetWriterStatusCount
-f1_keywords:
-- vsbackup/IVssBackupComponents.GetWriterStatusCount
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.GetWriterStatusCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::GetWriterStatusCount
+ - vsbackup/IVssBackupComponents::GetWriterStatusCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.GetWriterStatusCount
 ---
 
 # IVssBackupComponents::GetWriterStatusCount
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetWriterStatusCount</b> method returns the number of writers with status.
 
-
 ## -parameters
-
-
-
 
 ### -param pcWriters [out]
 
 The number of writers with status.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -124,14 +117,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A requester must call the asynchronous operation 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a> and wait for it to complete prior to calling <b>IVssBackupComponents::GetWriterStatusCount</b>.
@@ -140,13 +127,7 @@ The number of writers returned by
 <b>GetWriterStatusCount</b> should always be the same as that returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadatacount">IVssBackupComponents::GetWriterMetadataCount</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -161,7 +142,4 @@ The number of writers returned by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_writer_state">VSS_WRITER_STATE</a>
- 
-
- 
 

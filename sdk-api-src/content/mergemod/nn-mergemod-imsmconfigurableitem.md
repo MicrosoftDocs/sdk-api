@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: d10bfd31-22a8-4100-ac0b-dd0795622808
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigurableItem interface,described, mergemod/IMsmConfigurableItem, setup.imsmconfigurableitem_interface
-f1_keywords:
-- mergemod/IMsmConfigurableItem
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmConfigurableItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmConfigurableItem
+ - mergemod/IMsmConfigurableItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmConfigurableItem
 ---
 
 # IMsmConfigurableItem interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IMsmConfigurableItem</b> interface manages a single row from the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. This is a single configurable "attribute" from the module. The interface consists of read-only properties, one for each column in the ModuleConfiguration table. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. This is a single configurable "attribute" from the module. The interface consists of read-only properties, one for each column in the ModuleConfiguration table.
 
 ## -inheritance
 
@@ -169,20 +168,13 @@ Retrieves the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
 

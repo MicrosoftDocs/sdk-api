@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 5c04ff8e-5686-4802-b312-71dddaf0155e
 ms.date: 12/05/2018
 ms.keywords: GetAppProperty, GetAppProperty method [Text Services Framework], GetAppProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetAppProperty method, ITfContext.GetAppProperty, ITfContext::GetAppProperty, _tsf_itfcontext_getappproperty_ref, msctf/ITfContext::GetAppProperty, tsf.itfcontext_getappproperty
-f1_keywords:
-- msctf/ITfContext.GetAppProperty
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.GetAppProperty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::GetAppProperty
+ - msctf/ITfContext::GetAppProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.GetAppProperty
 ---
 
 # ITfContext::GetAppProperty
@@ -53,22 +54,15 @@ Obtains an application property.
 
 ## -parameters
 
-
-
-
 ### -param guidProp [in]
 
 Specifies the property identifier. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
-
 
 ### -param ppProp [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a> interface pointer that receives the property object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -155,22 +149,14 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Applications can define unique properties identified by a GUID. Properties are stored as VARIANT data, so the caller must recognize the format and meaning of unique properties to be able to use them.
 
 Application properties differ from text properties, obtained by <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a>, in that, application properties are maintained by the context owner and cannot be modified by a text service. Application properties can only be modified by the context owner.
 
-
-
-
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfContext::GetProperty](nf-msctf-itfcontext-getproperty.md), [ITfReadOnlyProperty interface](nn-msctf-itfreadonlyproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)
+

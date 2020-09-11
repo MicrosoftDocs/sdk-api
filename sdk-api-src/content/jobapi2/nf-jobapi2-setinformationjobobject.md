@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 46f7c579-e8d3-4434-a6ce-56573cd84387
 ms.date: 12/05/2018
 ms.keywords: JobObjectAssociateCompletionPortInformation, JobObjectBasicLimitInformation, JobObjectBasicUIRestrictions, JobObjectCpuRateControlInformation, JobObjectEndOfJobTimeInformation, JobObjectExtendedLimitInformation, JobObjectGroupInformation, JobObjectGroupInformationEx, JobObjectLimitViolationInformation2, JobObjectNetRateControlInformation, JobObjectNotificationLimitInformation, JobObjectNotificationLimitInformation2, JobObjectSecurityLimitInformation, SetInformationJobObject, SetInformationJobObject function, _win32_setinformationjobobject, base.setinformationjobobject, jobapi2/SetInformationJobObject
-f1_keywords:
-- jobapi2/SetInformationJobObject
-dev_langs:
-- c++
 req.header: jobapi2.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-job-l2-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Job-L2-1-1.dll
-api_name:
-- SetInformationJobObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetInformationJobObject
+ - jobapi2/SetInformationJobObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-job-l2-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Job-L2-1-1.dll
+api_name:
+ - SetInformationJobObject
 ---
 
 # SetInformationJobObject function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets limits for a job object.
 
-
 ## -parameters
-
-
-
 
 ### -param hJob [in]
 
@@ -68,7 +64,6 @@ A handle to the job whose limits are being set. The
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function returns this handle. The handle 
       must have the <b>JOB_OBJECT_SET_ATTRIBUTES</b> access right. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-object-security-and-access-rights">Job Object Security and Access Rights</a>.
-
 
 ### -param JobObjectInformationClass [in]
 
@@ -280,34 +275,23 @@ This flag is not supported. Applications must set security limitations individua
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpJobObjectInformation [in]
 
 The limits or job state to be set for the job. The format of this data depends on the value of <i>JobObjectInfoClass</i>.
 
-
 ### -param cbJobObjectInformationLength [in]
 
 The size of the job information being set, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Use the <b>SetInformationJobObject</b> 
     function to set several limits in a single call. To establish the limits one at a time or change a 
@@ -327,13 +311,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
     information, see 
     <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_associate_completion_port">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a>
 
@@ -396,7 +374,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
- 
-
- 
 

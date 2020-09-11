@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 7D7E8171-229F-4D9C-B086-D68E064A8A4C
 ms.date: 12/05/2018
 ms.keywords: GetSearchCandidates, GetSearchCandidates method [Text Services Framework], GetSearchCandidates method [Text Services Framework],ITfFnSearchCandidateProvider interface, ITfFnSearchCandidateProvider interface [Text Services Framework],GetSearchCandidates method, ITfFnSearchCandidateProvider.GetSearchCandidates, ITfFnSearchCandidateProvider::GetSearchCandidates, ctffunc/ITfFnSearchCandidateProvider::GetSearchCandidates, tsf.itffnsearchcandidateprovider_getsearchcandidates
-f1_keywords:
-- ctffunc/ITfFnSearchCandidateProvider.GetSearchCandidates
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctffunc.h
-api_name:
-- ITfFnSearchCandidateProvider.GetSearchCandidates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnSearchCandidateProvider::GetSearchCandidates
+ - ctffunc/ITfFnSearchCandidateProvider::GetSearchCandidates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctffunc.h
+api_name:
+ - ITfFnSearchCandidateProvider.GetSearchCandidates
 ---
 
 # ITfFnSearchCandidateProvider::GetSearchCandidates
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of conversion candidates for a given string without generating any IME-related messages or events.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrQuery [in]
 
 A string that specifies the reading string that the text service attempts to convert.
 
-
 ### -param bstrApplicationId [in]
 
 App-specified string that enables a text service to optionally provide different candidates to different apps or contexts based on input history. You can pass an empty <b>BSTR</b>, L””, for a generic context.
-
 
 ### -param pplist [out]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a> that receives the requested candidate data.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,15 +98,8 @@ No candidates could be returned for the input string, <i>pplist</i> may be <b>NU
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnsearchcandidateprovider">ITfFnSearchCandidateProvider</a>
 
@@ -126,7 +110,4 @@ No candidates could be returned for the input string, <i>pplist</i> may be <b>NU
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">SetResult</a>
- 
-
- 
 

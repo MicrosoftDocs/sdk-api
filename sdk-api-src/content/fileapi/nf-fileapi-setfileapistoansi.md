@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 72b19773-9663-4cf8-90d3-656ee2785601
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfileapistoansi, base.setfileapistoansi, fileapi/SetFileApisToANSI, fs.setfileapistoansi
-f1_keywords:
-- fileapi/SetFileApisToANSI
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-Ms-Win-Core-File-L1-2-2.dll
-- KernelBase.dll
-api_name:
-- SetFileApisToANSI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileApisToANSI
+ - fileapi/SetFileApisToANSI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-Ms-Win-Core-File-L1-2-2.dll
+ - KernelBase.dll
+api_name:
+ - SetFileApisToANSI
 ---
 
 # SetFileApisToANSI function
@@ -51,21 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Causes the file I/O functions to use the ANSI character set code page for the current 
     process. This function is useful for 8-bit console input and output operations.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 The file I/O functions whose code page is set by <b>SetFileApisToANSI</b> are those 
     functions exported by KERNEL32.DLL that accept or return a file name. 
@@ -161,15 +153,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-arefileapisansi">AreFileApisANSI</a>
 
@@ -196,7 +181,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/console/writeconsole">WriteConsoleA</a>
- 
-
- 
 

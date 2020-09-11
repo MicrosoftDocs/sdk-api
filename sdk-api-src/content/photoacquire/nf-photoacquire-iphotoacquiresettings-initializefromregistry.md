@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: 7459792f-20f8-4449-96c5-8c289b17db68
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],InitializeFromRegistry method, IPhotoAcquireSettings.InitializeFromRegistry, IPhotoAcquireSettings::InitializeFromRegistry, IPhotoAcquireSettingsInitializeFromRegistry, InitializeFromRegistry, InitializeFromRegistry method [Picture Acquisition], InitializeFromRegistry method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::InitializeFromRegistry, picacq.iphotoacquiresettings_initializefromregistry
-f1_keywords:
-- photoacquire/IPhotoAcquireSettings.InitializeFromRegistry
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireSettings.InitializeFromRegistry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireSettings::InitializeFromRegistry
+ - photoacquire/IPhotoAcquireSettings::InitializeFromRegistry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireSettings.InitializeFromRegistry
 ---
 
 # IPhotoAcquireSettings::InitializeFromRegistry
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>InitializeFromRegistry</code> method specifies a registry key from which to initialize settings.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszRegistryKey [in]
 
 Pointer to a null-terminated string containing the registry key.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,27 +91,12 @@ This method is not yet implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The structure of the registry has not yet been determined at this point.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
- 
-
- 
 

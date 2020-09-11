@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 49cc7e6f-2d15-4756-bffd-e21f38b8ce8b
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAtGrow method, CHStringArray.SetAtGrow, CHStringArray::SetAtGrow, SetAtGrow, SetAtGrow method [Windows Management Instrumentation], SetAtGrow method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setatgrow, chstrarr/CHStringArray::SetAtGrow, wmi.chstringarray_setatgrow
-f1_keywords:
-- chstrarr/CHStringArray.SetAtGrow
-dev_langs:
-- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHStringArray.SetAtGrow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHStringArray::SetAtGrow
+ - chstrarr/CHStringArray::SetAtGrow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHStringArray.SetAtGrow
 ---
 
 # CHStringArray::SetAtGrow
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,11 +59,7 @@ ms.custom: 19H1
 
 The <b>SetAtGrow</b> method sets the array element at the specified index. The array increases automatically if necessary, adjusting the upper bound to accommodate the new element.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex
 
@@ -76,20 +72,11 @@ An integer index that is greater than or equal to zero (0).
 
 The object pointer to be added to this array. A <b>NULL</b> value is allowed.
 
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
@@ -100,7 +87,4 @@ This method does not return a value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstringarray--operator-brackets">CHStringArray::operator []</a>
- 
-
- 
 

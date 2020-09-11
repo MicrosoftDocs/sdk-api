@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 8c7525bf-e15f-4c30-8e16-4b945d73f3cb
 ms.date: 12/05/2018
 ms.keywords: AutomaticUpdatesScheduledInstallationDay, AutomaticUpdatesScheduledInstallationDay enumeration [Windows Update Agent], ausidEveryDay, ausidEveryFriday, ausidEveryMonday, ausidEverySaturday, ausidEverySunday, ausidEveryThursday, ausidEveryTuesday, ausidEveryWednesday, wua.automaticupdatesscheduledinstallationday, wuapi/AutomaticUpdatesScheduledInstallationDay, wuapi/ausidEveryDay, wuapi/ausidEveryFriday, wuapi/ausidEveryMonday, wuapi/ausidEverySaturday, wuapi/ausidEverySunday, wuapi/ausidEveryThursday, wuapi/ausidEveryTuesday, wuapi/ausidEveryWednesday
-f1_keywords:
-- wuapi/AutomaticUpdatesScheduledInstallationDay
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wuapi.h
-api_name:
-- AutomaticUpdatesScheduledInstallationDay
 targetos: Windows
 req.typenames: AutomaticUpdatesScheduledInstallationDay
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagAutomaticUpdatesScheduledInstallationDay
+ - wuapi/tagAutomaticUpdatesScheduledInstallationDay
+ - AutomaticUpdatesScheduledInstallationDay
+ - wuapi/AutomaticUpdatesScheduledInstallationDay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wuapi.h
+api_name:
+ - AutomaticUpdatesScheduledInstallationDay
 ---
 
 # AutomaticUpdatesScheduledInstallationDay enumeration
@@ -49,60 +52,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the days of the week when Automatic Updates installs or uninstalls updates.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ausidEveryDay
 
 Every day.
 
-
 ### -field ausidEverySunday
 
 Every Sunday.
-
 
 ### -field ausidEveryMonday
 
 Every Monday.
 
-
 ### -field ausidEveryTuesday
 
 Every Tuesday.
-
 
 ### -field ausidEveryWednesday
 
 Every Wednesday.
 
-
 ### -field ausidEveryThursday
 
 Every Thursday.
-
 
 ### -field ausidEveryFriday
 
 Every Friday.
 
-
 ### -field ausidEverySaturday
 
 Every Saturday.
 
-
 ## -remarks
 
-
-
 Updates are installed on the scheduled day. The updates depend on the settings of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">NotificationLevel</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationtime">ScheduledInstallationTime</a> properties of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a> interface.
-
-
 

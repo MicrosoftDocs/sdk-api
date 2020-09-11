@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: dshow
 archived: true
+f1_keywords:
+ - vidcap
+ - vidcap/vidcap
 ---
 
 # Vidcap.h header
 
 
 ## -description
-
 
 This header is used by DirectShow. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 39534411-3d69-408d-b495-10851fe40bdf
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], IWdsTransportClient interface [Windows Deployment Services],described, wds.iwdstransportclient, wdstptmgmt/IWdsTransportClient
-f1_keywords:
-- wdstptmgmt/IWdsTransportClient
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportClient
+ - wdstptmgmt/IWdsTransportClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportClient
 ---
 
 # IWdsTransportClient interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a WDS client that is joined to a transport session on a  WDS transport server.
-
 
 ## -inheritance
 
@@ -262,5 +261,5 @@ Receives a string representing the user identity associated with this client.
 
 </td>
 </tr>
-</table> 
+</table>
 

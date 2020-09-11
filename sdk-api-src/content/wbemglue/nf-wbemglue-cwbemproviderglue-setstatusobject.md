@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 2f094359-66ea-4604-85f8-1f6bc9a81cd1
 ms.date: 12/05/2018
 ms.keywords: ?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z, ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z, CWbemProviderGlue interface [Windows Management Instrumentation],SetStatusObject method, CWbemProviderGlue.SetStatusObject, CWbemProviderGlue::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_setstatusobject, wbemglue/CWbemProviderGlue::SetStatusObject, wmi.cwbemproviderglue_setstatusobject
-f1_keywords:
-- wbemglue/CWbemProviderGlue.SetStatusObject
-dev_langs:
-- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CWbemProviderGlue.SetStatusObject
-- ?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z
-- ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CWbemProviderGlue::SetStatusObject
+ - wbemglue/CWbemProviderGlue::SetStatusObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CWbemProviderGlue.SetStatusObject
+ - ?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z
+ - ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z
 ---
 
 # CWbemProviderGlue::SetStatusObject
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,47 +61,33 @@ ms.custom: 19H1
 
 The <b>SetStatusObject</b> method sets the parameters of a status object used to supply more information when an error occurs. This status object is derived from the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-privilegesstatus">Win32_PrivilegesStatus</a> class.
 
-
 ## -parameters
-
-
-
 
 ### -param pContext
 
 Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
-
 ### -param pNamespace
 
 Pointer to the namespace that contains the registration of the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-privilegesstatus">Win32_PrivilegesStatus</a> class.
-
 
 ### -param pDescription
 
 Pointer to the value to be put in the <b>Description</b> property of the status object instance.
 
-
 ### -param hr
 
 Value to be put in the <b>StatusCode</b> property of the status object instance.
-
 
 ### -param pPrivilegesNotHeld
 
 This parameter is not currently implemented and must be <b>NULL</b>.
 
-
 ### -param pPrivilegesRequired
 
 Pointer to the value to be put in the <b>PrivilegesRequired</b> property of the status object instance.
 
-
 ## -returns
 
-
-
 The method returns <b>TRUE</b> if successful, and <b>FALSE</b> otherwise.
-
-
 

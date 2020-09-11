@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 221b701b-93d5-4ff3-ae6d-c1b980064629
 ms.date: 12/05/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsNullRecord, ClfsRestartRecord, DumpLogRecords, DumpLogRecords function [Files], clfsw32/DumpLogRecords, fs.dumplogrecords
-f1_keywords:
-- clfsw32/DumpLogRecords
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- DumpLogRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DumpLogRecords
+ - clfsw32/DumpLogRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - DumpLogRecords
 ---
 
 # DumpLogRecords function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Scans a specified log; filters log records based on record type; and places the records in an output file stream that the caller opens.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszLogFileName [in]
 
@@ -71,7 +67,6 @@ This  name is specified when you create the log  by using  <a href="https://docs
 &lt;<i>log stream name</i>&gt; is the unique name of a log stream in the log.
 
  For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
-
 
 ### -param fRecordType [in]
 
@@ -135,8 +130,6 @@ Specifies a mask for all valid data or restart records.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param plsnStart [in, optional]
 
@@ -145,7 +138,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-c
 If this parameter is specified, the LSN must be the address of a valid log record in the active part of the log; otherwise, the call fails with status <b>ERROR_INVALID_PARAMETER</b>.
 
 If this parameter is not specified, the start of the dump sequence is the beginning of the active log.
-
 
 ### -param plsnEnd [in, optional]
 
@@ -157,13 +149,11 @@ Unlike <i>plsnStart</i>,  this value does not have to be the LSN of a valid reco
 
 If this parameter is <b>NULL</b>, the dump function uses the last LSN in the active log (at the head of the log).
 
-
 ### -param pstrmOut [in, optional]
 
 A pointer to an open output  stream   where  the log records are placed.  
 
 If this parameter is not specified, "stdout" is used as the default.
-
 
 ### -param pfnPrintRecord [in, optional]
 
@@ -172,7 +162,6 @@ A user-defined callback routine that formats user-defined buffers and prints the
 The <b>DumpLogRecords</b> function natively outputs its internal record headers to <i>pstrmOut</i>, but depends on the user-defined callback to format the user buffers.
 
 If this parameter is <b>NULL</b>,  <b>DumpLogRecords</b>  places user record data in the output stream as hexadecimal digits.
-
 
 ### -param pfnAllocBlock [in, optional]
 
@@ -183,7 +172,6 @@ If this parameter is <b>NULL</b>, Common Log File System (CLFS) provides a defau
 The following example identifies the  syntax of the block allocation callback function:
 
 <code>typedef PVOID (* CLFS_BLOCK_ALLOCATION) (voidULONG cbBufferSize, PVOID pvUserContext);</code>
-
 
 ### -param pfnFreeBlock [in, optional]
 
@@ -197,13 +185,11 @@ The following example identifies the syntax of the  block-freeing callback funct
 
 The <i>buffer</i> parameter of "ClfsBlockDeallocProc" must point to a block that is allocated by using the callback pointed to by <i>pfnAllocBuffer</i>.
 
-
 ### -param pvBlockAllocContext [in, optional]
 
 A pointer to a  buffer that is passed as a user context to the block allocation and deallocation routines, if a buffer is specified.  
 
 If <i>pfnAllocBuffer</i> is <b>NULL</b>, this parameter is ignored.
-
 
 ### -param cbBlock [in]
 
@@ -211,17 +197,13 @@ The size of the buffer that your records are marshaled into, in bytes.
 
 Records cannot be appended or read if they are longer than this value.
 
-
 ### -param cMaxBlocks [in]
 
 The maximum number of blocks that can be allocated at any time for read operations.  
 
 Read contexts use at least one read block.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -229,13 +211,7 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero (0). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
@@ -246,7 +222,4 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
- 
-
- 
 

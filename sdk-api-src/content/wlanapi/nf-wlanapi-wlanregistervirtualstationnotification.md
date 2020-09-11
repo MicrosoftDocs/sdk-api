@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: b86ac160-ee81-43aa-86bb-cf5d3eeb2234
 ms.date: 12/05/2018
 ms.keywords: WlanRegisterVirtualStationNotification, WlanRegisterVirtualStationNotification function [NativeWIFI], nwifi.wlanregistervirtualstationnotification, wlanapi/WlanRegisterVirtualStationNotification
-f1_keywords:
-- wlanapi/WlanRegisterVirtualStationNotification
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wlanapi.dll
-api_name:
-- WlanRegisterVirtualStationNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanRegisterVirtualStationNotification
+ - wlanapi/WlanRegisterVirtualStationNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wlanapi.dll
+api_name:
+ - WlanRegisterVirtualStationNotification
 ---
 
 # WlanRegisterVirtualStationNotification function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>WlanRegisterVirtualStationNotification</b> function is used to register and unregister notifications on a virtual station.  
-
+The <b>WlanRegisterVirtualStationNotification</b> function is used to register and unregister notifications on a virtual station.
 
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
-
 ### -param bRegister [in]
 
 A value that specifies whether to receive notifications on a virtual station.
-
 
 ### -param pReserved
 
 Reserved for future use. This parameter must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -148,14 +139,8 @@ Various RPC and other error codes. Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WlanRegisterVirtualStationNotification</b>  function is an extension to native wireless APIs added to support the wireless Hosted Network on Windows 7 and on Windows Server 2008 R2 with the Wireless LAN Service installed. 
 
@@ -168,13 +153,7 @@ By default, a application client will not receive notifications on a virtual sta
 
 On Windows 7 and later, the operating system installs a virtual device if a Hosted Network capable wireless adapter is present on the machine. This virtual device normally shows up in the “Network Connections Folder” as ‘Wireless  Network Connection 2’ with a Device Name of ‘Microsoft Virtual WiFi Miniport adapter’ if the computer has a single wireless network adapter. This virtual device is used exclusively for performing software access point (SoftAP) connections and is not present in the list returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function. The lifetime of this virtual device is tied to the physical wireless adapter. If the physical wireless adapter is disabled, this virtual device will be removed as well. This feature is also available on Windows Server 2008 R2 with the Wireless LAN Service installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wireless-hosted-network">About the Wireless Hosted Network</a>
 
@@ -189,7 +168,4 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
- 
-
- 
 

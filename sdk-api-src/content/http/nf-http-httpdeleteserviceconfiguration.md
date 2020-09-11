@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 0ae94936-4c6a-4c9f-adb8-5e3af75cf486
 ms.date: 12/05/2018
 ms.keywords: HttpDeleteServiceConfiguration, HttpDeleteServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigTimeouts, HttpServiceConfigUrlAclInfo, _http_httpdeleteserviceconfiguration, http.httpdeleteserviceconfiguration, http/HttpDeleteServiceConfiguration
-f1_keywords:
-- http/HttpDeleteServiceConfiguration
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpDeleteServiceConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpDeleteServiceConfiguration
+ - http/HttpDeleteServiceConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpDeleteServiceConfiguration
 ---
 
 # HttpDeleteServiceConfiguration function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpDeleteServiceConfiguration</b> function deletes specified data, such as IP addresses or SSL Certificates, from the HTTP Server API configuration store, one record at a time.
 
-
 ## -parameters
-
-
-
 
 ### -param ServiceHandle [in]
 
 This parameter is reserved and must be zero.
-
 
 ### -param ConfigId [in]
 
@@ -144,8 +139,6 @@ Deletes the   SSL certificate record that specifies that Http.sys should consult
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pConfigInformation [in]
 
@@ -238,22 +231,16 @@ Pointer to a buffer that contains data required for the type of configuration sp
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ConfigInformationLength [in]
 
 Size, in bytes, of the <i>pConfigInformation</i> buffer.
 
-
 ### -param pOverlapped [in]
 
 Reserved for future asynchronous operation. This parameter must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns NO_ERROR.
 
@@ -287,15 +274,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
@@ -310,7 +290,4 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
- 
-
- 
 

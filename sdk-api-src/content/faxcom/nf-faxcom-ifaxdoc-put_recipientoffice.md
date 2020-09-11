@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_563p.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientOffice property, IFaxDoc.RecipientOffice, IFaxDoc.put_RecipientOffice, IFaxDoc::RecipientOffice, IFaxDoc::get_RecipientOffice, IFaxDoc::put_RecipientOffice, RecipientOffice property [Fax Service], RecipientOffice property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientoffice_cpp, faxcom/IFaxDoc::RecipientOffice, faxcom/IFaxDoc::get_RecipientOffice, faxcom/IFaxDoc::put_RecipientOffice, put_RecipientOffice
-f1_keywords:
-- faxcom/IFaxDoc.RecipientOffice
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxDoc.RecipientOffice
-- IFaxDoc.get_RecipientOffice
-- IFaxDoc.put_RecipientOffice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDoc::put_RecipientOffice
+ - faxcom/IFaxDoc::put_RecipientOffice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxDoc.RecipientOffice
+ - IFaxDoc.get_RecipientOffice
+ - IFaxDoc.put_RecipientOffice
 ---
 
 # IFaxDoc::put_RecipientOffice
@@ -51,30 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves the <b>RecipientOffice</b> property of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The <b>RecipientOffice</b> property is a null-terminated string that contains the office of the recipient of the fax transmission.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The fax recipient's office location can appear on the cover page.
 
 The <b>get_RecipientOffice</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -89,7 +79,4 @@ The <b>get_RecipientOffice</b> method allocates the memory required for the buff
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e82f4686-75c6-4f06-8468-937352fe33d3
 ms.date: 12/05/2018
 ms.keywords: IActionProgressDialog interface [Windows Shell],Initialize method, IActionProgressDialog.Initialize, IActionProgressDialog::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IActionProgressDialog interface, SPINITF_MODAL, SPINITF_NOMINIMIZE, SPINITF_NORMAL, _shell_IActionProgressDialog_Initialize, shell.IActionProgressDialog_Initialize, shobjidl_core/IActionProgressDialog::Initialize
-f1_keywords:
-- shobjidl_core/IActionProgressDialog.Initialize
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Browseui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Browseui.dll
-api_name:
-- IActionProgressDialog.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActionProgressDialog::Initialize
+ - shobjidl_core/IActionProgressDialog::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Browseui.dll
+api_name:
+ - IActionProgressDialog.Initialize
 ---
 
 # IActionProgressDialog::Initialize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides details about the action progress dialog.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
@@ -82,13 +78,11 @@ Use a modal window for the dialog.
 
 Do not display a minimize button.
 
-
 ### -param pszTitle [in]
 
 Type: <b>LPCWSTR</b>
 
 The title of the progress dialog.
-
 
 ### -param pszCancel [in]
 
@@ -96,14 +90,9 @@ Type: <b>LPCWSTR</b>
 
 The string displayed when a user closes the dialog before completion.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

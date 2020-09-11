@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc
 ms.date: 12/05/2018
 ms.keywords: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc, IInkCursors, IInkCursors interface [Tablet PC], IInkCursors interface [Tablet PC],described, msinkaut/IInkCursors, tablet.iinkcursors
-f1_keywords:
-- msinkaut/IInkCursors
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCursors
-- IInkCursors._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCursors
+ - msinkaut/IInkCursors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCursors
+ - IInkCursors._NewEnum
 ---
 
 # IInkCursors interface
@@ -51,12 +52,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> objects.
-
-
-
 
 ## -inheritance
 
@@ -123,12 +119,9 @@ Gets the number of cursors in the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A cursor becomes part of the cursors collection of an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> object, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object, or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control when it comes within range of the object. Each time a new cursor comes within range, it is added to the object's cursors collection. The cursors collection exists only during the lifetime of that object.
 
@@ -140,13 +133,7 @@ For more information about collections in COM, see <a href="https://docs.microso
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
 
@@ -161,7 +148,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
- 
-
- 
 

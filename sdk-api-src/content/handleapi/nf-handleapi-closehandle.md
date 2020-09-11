@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 9b84891d-62ca-4ddc-97b7-c4c79482abd9
 ms.date: 12/05/2018
 ms.keywords: CloseHandle, CloseHandle function, _win32_closehandle, base.closehandle, handleapi/CloseHandle
-f1_keywords:
-- handleapi/CloseHandle
-dev_langs:
-- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-handle-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CloseHandle
+ - handleapi/CloseHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-handle-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CloseHandle
 ---
 
 # CloseHandle function
@@ -53,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes an open object handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hObject [in]
 
 A valid handle to an open object.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -80,12 +73,7 @@ If the application is running under a debugger,  the function will throw an exce
 <b>CloseHandle</b> on a handle returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> function instead of calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>CloseHandle</b> function closes handles to the following objects:
@@ -133,12 +121,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -170,7 +153,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/object-interface">Object Interface</a>
- 
-
- 
 

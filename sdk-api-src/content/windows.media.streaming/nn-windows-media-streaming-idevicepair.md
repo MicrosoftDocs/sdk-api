@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 0129ABDA-E634-4236-A3A9-76C94D35D052
 ms.date: 12/05/2018
 ms.keywords: IDevicePair, IDevicePair interface [Media Streaming API], IDevicePair interface [Media Streaming API],described, mediastreaming.idevicepair, windows/IDevicePair
-f1_keywords:
-- windows.media.streaming/IDevicePair
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: PlayToDevice.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PlayToDevice.dll
-api_name:
-- IDevicePair
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDevicePair
+ - windows.media.streaming/IDevicePair
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PlayToDevice.dll
+api_name:
+ - IDevicePair
 ---
 
 # IDevicePair interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a pair of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a> objects which is comprised of a renderer and a server.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Gets the server for the active basic device pair.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
 
@@ -103,7 +98,4 @@ Gets the server for the active basic device pair.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

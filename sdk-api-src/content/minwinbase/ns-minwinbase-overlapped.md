@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 5037f6b9-e316-483b-a8e2-b58d2587ebd9
 ms.date: 12/05/2018
 ms.keywords: '*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer, OVERLAPPED, OVERLAPPED structure, _win32_overlapped_str, base.overlapped_str, minwinbase/LPOVERLAPPED, minwinbase/OVERLAPPED, winbase/LPOVERLAPPED, winbase/OVERLAPPED'
-f1_keywords:
-- minwinbase/OVERLAPPED
-dev_langs:
-- c++
 req.header: minwinbase.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-- minWinBase.h
-api_name:
-- OVERLAPPED
 targetos: Windows
 req.typenames: OVERLAPPED, *LPOVERLAPPED
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OVERLAPPED
+ - minwinbase/_OVERLAPPED
+ - LPOVERLAPPED
+ - minwinbase/LPOVERLAPPED
+ - OVERLAPPED
+ - minwinbase/OVERLAPPED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+ - minWinBase.h
+api_name:
+ - OVERLAPPED
 ---
 
 # OVERLAPPED structure
@@ -50,38 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information used in asynchronous (or <i>overlapped</i>) input and output (I/O).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Internal
 
 The status code for the I/O request. When the request is issued, the system sets this member to <b>STATUS_PENDING</b> to indicate that the operation has not yet started.  When the request is completed, the system sets this member to the status code for the completed request. 
 
-The <b>Internal</b> member was originally reserved for system use and its behavior may change. 
-
+The <b>Internal</b> member was originally reserved for system use and its behavior may change.
 
 ### -field InternalHigh
 
 The number of bytes transferred for the I/O request. The system sets this member if the request is completed without errors. 
 
-The <b>InternalHigh</b> member was originally reserved for system use and its behavior may change. 
-
+The <b>InternalHigh</b> member was originally reserved for system use and its behavior may change.
 
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Offset
 
@@ -91,7 +83,6 @@ This member is nonzero only when performing I/O requests on a seeking device tha
 
 For additional information, see Remarks.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.OffsetHigh
 
 The high-order portion of the file position at which to start the I/O request, as specified by the user. 
@@ -100,11 +91,9 @@ This member is nonzero only when performing I/O requests on a seeking device tha
 
 For additional information, see Remarks.
 
-
 ### -field DUMMYUNIONNAME.Pointer
 
 Reserved for system use; do not use after initialization to zero.
-
 
 ### -field hEvent
 
@@ -117,10 +106,7 @@ Functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fileap
 
 Functions such as <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> and the synchronization <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> reset auto-reset events to the nonsignaled state. Therefore, you should use a manual reset event; if you use an auto-reset event, your application can stop responding if you wait for the operation to complete and then call <b>GetOverlappedResult</b> with the <i>bWait</i> parameter set to <b>TRUE</b>.
 
-
 ## -remarks
-
-
 
 Any unused members of this structure should always be initialized to zero before the structure is used in a function call.  Otherwise, the function may fail and return <b>ERROR_INVALID_PARAMETER</b>.
 
@@ -149,12 +135,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ipc/name
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
@@ -185,7 +166,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ipc/name
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIscsiPortalGroup interface [VDS],described, base.ivdsiscsiportalgroup, vds/IVdsIscsiPortalGroup, vdshwprv/IVdsIscsiPortalGroup
-f1_keywords:
-- vdshwprv/IVdsIscsiPortalGroup
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsIscsiPortalGroup
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsIscsiPortalGroup
+ - vdshwprv/IVdsIscsiPortalGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsIscsiPortalGroup
 ---
 
 # IVdsIscsiPortalGroup interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing query and configuration services on an iSCSI portal group.
-
 
 ## -inheritance
 
@@ -113,16 +112,9 @@ Returns an enumeration of the portals with which the portal group is associated.
 <td align="left" width="63%">
 Removes a portal from a portal group.</p> (Inherited from <b>IVdsIscsiPortalGroup</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

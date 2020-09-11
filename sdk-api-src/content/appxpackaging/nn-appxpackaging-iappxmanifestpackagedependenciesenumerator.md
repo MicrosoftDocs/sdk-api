@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: A09709AE-301F-4457-8E02-1A88FB283A43
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestPackageDependenciesEnumerator, IAppxManifestPackageDependenciesEnumerator interface [App packaging and management], IAppxManifestPackageDependenciesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestPackageDependenciesEnumerator, appxpkg.iappxmanifestpackagedependenciesenumerator
-f1_keywords:
-- appxpackaging/IAppxManifestPackageDependenciesEnumerator
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestPackageDependenciesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestPackageDependenciesEnumerator
+ - appxpackaging/IAppxManifestPackageDependenciesEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestPackageDependenciesEnumerator
 ---
 
 # IAppxManifestPackageDependenciesEnumerator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates  the package dependencies defined in the package manifest.
-
 
 ## -inheritance
 
@@ -95,25 +94,13 @@ Advances the position of the enumerator to the next package dependency.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This object can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getpackagedependencies">IAppxManifestReader::GetPackageDependencies</a> method.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>
- 
-
- 
 

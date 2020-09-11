@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: e227bb9f-f072-4e44-bd55-24c98b990a36
 ms.date: 12/05/2018
 ms.keywords: ConvertDefaultLocale, ConvertDefaultLocale function [Internationalization for Windows Applications], _win32_ConvertDefaultLocale, intl.convertdefaultlocale, winnls/ConvertDefaultLocale
-f1_keywords:
-- winnls/ConvertDefaultLocale
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- ConvertDefaultLocale
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ConvertDefaultLocale
+ - winnls/ConvertDefaultLocale
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - ConvertDefaultLocale
 ---
 
 # ConvertDefaultLocale function
@@ -56,14 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a default locale value to an actual <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
 <div class="alert"><b>Note</b>  This function is only provided for converting partial locale identifiers. Your applications should use locale names instead of identifiers. The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcidtolocalename">LCIDToLocaleName</a> function can be used to convert a locale identifier to a valid locale name. Your application can also use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a> to retrieve the current user locale name; <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlocalename">GetSystemDefaultLocaleName</a> to retrieve the current system locale name; and <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> with <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-sname">LOCALE_SNAME</a> to retrieve the locale name for any input locale, including the default constants.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param Locale [in]
 
@@ -96,28 +93,15 @@ Default locale identifier value to convert. You can use the <a href="https://doc
 
 ## -returns
 
-
-
 Returns the appropriate locale identifier if successful.
 
 This function returns the value of the <i>Locale</i> parameter if it does not succeed. The function fails when the <i>Locale</i> value is not one of the default values listed above.
 
-
-
-
 ## -remarks
-
-
 
 A call to <b>ConvertDefaultLocale</b> specifying LOCALE_SYSTEM_DEFAULT is equivalent to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>. A call to <b>ConvertDefaultLocale</b> specifying LOCALE_USER_DEFAULT is equivalent to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
 
@@ -148,7 +132,4 @@ A call to <b>ConvertDefaultLocale</b> specifying LOCALE_SYSTEM_DEFAULT is equiva
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

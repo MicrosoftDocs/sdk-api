@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 847d82f5-149d-48a4-a228-f5551a07a790
 ms.date: 12/05/2018
 ms.keywords: OleCreateStaticFromData, OleCreateStaticFromData function [COM], _ole_OleCreateStaticFromData, com.olecreatestaticfromdata, ole2/OleCreateStaticFromData
-f1_keywords:
-- ole2/OleCreateStaticFromData
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- OleCreateStaticFromData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleCreateStaticFromData
+ - ole2/OleCreateStaticFromData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - OleCreateStaticFromData
 ---
 
 # OleCreateStaticFromData function
 
 
 ## -description
-
 
 Creates a static object, that contains only a representation, with no native data, from a data transfer object.
 
@@ -57,56 +57,39 @@ Creates a static object, that contains only a representation, with no native dat
 
 ## -parameters
 
-
-
-
 ### -param pSrcDataObj [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data transfer object that holds the data from which the object will be created.
-
 
 ### -param iid [in]
 
 Reference to the identifier of the interface with which the caller is to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>).
 
-
 ### -param renderopt [in]
 
 Value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> indicating the locally cached drawing or data-retrieval capabilities that the container wants in the newly created component. It is an error to pass the render options OLERENDER_NONE or OLERENDER_ASIS to this function.
-
 
 ### -param pFormatEtc [in]
 
 Depending on which of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> flags is used as the value of <i>renderopt</i>, may be a pointer to one of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> enumeration values. Refer to the <b>OLERENDER</b> enumeration for restrictions.
 
-
 ### -param pClientSite [in]
 
 Pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
-
 
 ### -param pStg [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface for storage for the object. This parameter cannot be <b>NULL</b>.
 
-
 ### -param ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created object.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success.
 
-
-
-
 ## -remarks
-
-
 
 The <b>OleCreateStaticFromData</b> function can convert any object, as long as it provides an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface, to a static object. It is useful in implementing the Convert To Picture option for OLE linking or embedding.
 
@@ -128,14 +111,7 @@ The <i>pSrcDataObject</i> is still valid after <b>OleCreateStaticFromData</b> re
 
 There cannot be more than one presentation stream in a static object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
-
 

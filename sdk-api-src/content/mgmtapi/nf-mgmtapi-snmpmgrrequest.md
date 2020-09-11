@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: f66ce774-dba0-466b-ad1e-671f9a487e0f
 ms.date: 12/05/2018
 ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpMgrRequest, SnmpMgrRequest function [SNMP], _snmp_snmpmgrrequest, mgmtapi/SnmpMgrRequest, snmp.snmpmgrrequest
-f1_keywords:
-- mgmtapi/SnmpMgrRequest
-dev_langs:
-- c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mgmtapi.lib
 req.dll: Mgmtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mgmtapi.dll
-api_name:
-- SnmpMgrRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpMgrRequest
+ - mgmtapi/SnmpMgrRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mgmtapi.dll
+api_name:
+ - SnmpMgrRequest
 ---
 
 # SnmpMgrRequest function
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpMgrRequest</b> function requests the specified operation be performed with the specified agent. This function is an element of the SNMP Management API.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
@@ -72,7 +68,6 @@ Applications should not specify the <b>LPSNMP_MGR_SESSION</b> pointer returned b
 <a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a>, but only if the calls to 
 <b>SnmpMgrOpen</b> and 
 <b>SnmpMgrRequest</b> originate in the context of the same thread.
-
 
 ### -param requestType [in]
 
@@ -120,7 +115,6 @@ Write a value within a specific variable.
 
 Note that PDU request types have been renamed. For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-variable-types-and-request-pdu-types">SNMP Variable Types and Request PDU Types</a>.
-
 
 ### -param variableBindings [in, out]
 
@@ -201,17 +195,12 @@ An error other than one of those listed here occurred during the requested opera
 </td>
 </tr>
 </table>
- 
-
 
 ### -param errorIndex [out]
 
 Pointer to a variable in which the error index result will be returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -247,25 +236,13 @@ Unexpected error file descriptors indicated by the Windows Sockets
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Retries and time-outs are supplied to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a> function. Each variable in the variable bindings list must be initialized to type ASN_NULL for Get and Get Next requests.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
@@ -280,7 +257,4 @@ Retries and time-outs are supplied to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a>
- 
-
- 
 

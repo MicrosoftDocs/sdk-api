@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: cba78857-0b59-4012-84d6-f5e7ae28b8bd
 ms.date: 12/05/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],EventClassID property, IEventSubscription.EventClassID, IEventSubscription.put_EventClassID, IEventSubscription::EventClassID, IEventSubscription::get_EventClassID, IEventSubscription::put_EventClassID, cos.ieventsubscription_eventclassid, eventsys/IEventSubscription::EventClassID, eventsys/IEventSubscription::get_EventClassID, eventsys/IEventSubscription::put_EventClassID, put_EventClassID
-f1_keywords:
-- eventsys/IEventSubscription.EventClassID
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSubscription.EventClassID
-- IEventSubscription.get_EventClassID
-- IEventSubscription.put_EventClassID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSubscription::put_EventClassID
+ - eventsys/IEventSubscription::put_EventClassID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSubscription.EventClassID
+ - IEventSubscription.get_EventClassID
+ - IEventSubscription.put_EventClassID
 ---
 
 # IEventSubscription::put_EventClassID
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The unique ID of the event class associated with the subscription.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
- 
-
- 
 

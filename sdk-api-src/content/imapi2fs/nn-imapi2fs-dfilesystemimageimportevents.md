@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 972ab985-17c5-4458-a7f4-59ac25c0dca4
 ms.date: 12/05/2018
 ms.keywords: DFileSystemImageImportEvents, DFileSystemImageImportEvents interface [IMAPI], DFileSystemImageImportEvents interface [IMAPI],described, imapi.dfilesystemimageimportevents, imapi2fs/DFileSystemImageImportEvents
-f1_keywords:
-- imapi2fs/DFileSystemImageImportEvents
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- DFileSystemImageImportEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DFileSystemImageImportEvents
+ - imapi2fs/DFileSystemImageImportEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - DFileSystemImageImportEvents
 ---
 
 # DFileSystemImageImportEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to receives notifications regarding the current file system import operation.
-
 
 ## -inheritance
 
@@ -77,25 +76,13 @@ When implemented, receives import notification for every file and directory item
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface supports import notifications for ISO9660, Joliet and UDF file systems.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

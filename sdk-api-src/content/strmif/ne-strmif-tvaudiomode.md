@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
 ms.date: 12/05/2018
 ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C, AMTVAUDIO_MODE_MONO, AMTVAUDIO_MODE_STEREO, AMTVAUDIO_PRESET_LANG_A, AMTVAUDIO_PRESET_LANG_B, AMTVAUDIO_PRESET_LANG_C, AMTVAUDIO_PRESET_STEREO, TVAudioMode, TVAudioMode enumeration [DirectShow], TVAudioModeEnumeration, dshow.tvaudiomode, strmif/AMTVAUDIO_MODE_LANG_A, strmif/AMTVAUDIO_MODE_LANG_B, strmif/AMTVAUDIO_MODE_LANG_C, strmif/AMTVAUDIO_MODE_MONO, strmif/AMTVAUDIO_MODE_STEREO, strmif/AMTVAUDIO_PRESET_LANG_A, strmif/AMTVAUDIO_PRESET_LANG_B, strmif/AMTVAUDIO_PRESET_LANG_C, strmif/AMTVAUDIO_PRESET_STEREO, strmif/TVAudioMode
-f1_keywords:
-- strmif/TVAudioMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strmif.h
-api_name:
-- TVAudioMode
 targetos: Windows
 req.typenames: TVAudioMode
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTVAudioMode
+ - strmif/tagTVAudioMode
+ - TVAudioMode
+ - strmif/TVAudioMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strmif.h
+api_name:
+ - TVAudioMode
 ---
 
 # TVAudioMode enumeration
@@ -49,73 +52,47 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the mode of a TV audio control.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field AMTVAUDIO_MODE_MONO
 
 Mono.
 
-
 ### -field AMTVAUDIO_MODE_STEREO
 
 Stereo.
-          
-
 
 ### -field AMTVAUDIO_MODE_LANG_A
 
 Language A: Main audio channel.
-          
-
 
 ### -field AMTVAUDIO_MODE_LANG_B
 
 Languag B: Secondary audio program (SAP).
-          
-
 
 ### -field AMTVAUDIO_MODE_LANG_C
 
 Language C: Either a third language, or the main audio program plus the SAP (for example, English from one speaker and Japanese from the other speaker).
-          
-
 
 ### -field AMTVAUDIO_PRESET_STEREO
 
 Stereo preset.
 
-
 ### -field AMTVAUDIO_PRESET_LANG_A
 
 Languag A preset.
-          
-
 
 ### -field AMTVAUDIO_PRESET_LANG_B
 
 Language B preset.
-          
-
 
 ### -field AMTVAUDIO_PRESET_LANG_C
 
 Language C preset.
-          
-
 
 ## -remarks
-
-
 
 The <b>TVAudioMode</b> flags fall into two groups.
 
@@ -192,19 +169,11 @@ DWORD PresetFlags(DWORD AudioMode)
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
- 
-
- 
 

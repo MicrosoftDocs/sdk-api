@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: BB63C5EE-92D7-4051-8198-09F50BBC75C5
 ms.date: 12/05/2018
 ms.keywords: CfReleaseProtectedHandle, CfReleaseProtectedHandle function, cfapi/CfReleaseProtectedHandle, cloudApi.cfreleaseprotectedhandle
-f1_keywords:
-- cfapi/CfReleaseProtectedHandle
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CldApi.dll
-api_name:
-- CfReleaseProtectedHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CfReleaseProtectedHandle
+ - cfapi/CfReleaseProtectedHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CldApi.dll
+api_name:
+ - CfReleaseProtectedHandle
 ---
 
 # CfReleaseProtectedHandle function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases a protected handle referenced by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfreferenceprotectedhandle">CfReferenceProtectedHandle</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ProtectedHandle [in]
 
 The protected handle to be released.
 
-
 ## -returns
+

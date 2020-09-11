@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4edccbfe-c0a8-442b-b6b7-51ef598e7c90
 ms.date: 12/05/2018
 ms.keywords: CERT_FILE_STORE_COMMIT_ENABLE, CERT_LDAP_STORE_AREC_EXCLUSIVE_FLAG, CERT_LDAP_STORE_OPENED_FLAG, CERT_LDAP_STORE_SIGN_FLAG, CERT_LDAP_STORE_UNBIND_FLAG, CERT_REGISTRY_STORE_REMOTE_FLAG, CERT_REGISTRY_STORE_SERIALIZED_FLAG, CERT_STORE_BACKUP_RESTORE_FLAG, CERT_STORE_CREATE_NEW_FLAG, CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG, CERT_STORE_DELETE_FLAG, CERT_STORE_ENUM_ARCHIVED_FLAG, CERT_STORE_MAXIMUM_ALLOWED_FLAG, CERT_STORE_NO_CRYPT_RELEASE_FLAG, CERT_STORE_OPEN_EXISTING_FLAG, CERT_STORE_PROV_COLLECTION, CERT_STORE_PROV_FILE, CERT_STORE_PROV_FILENAME(_W), CERT_STORE_PROV_FILENAME_A, CERT_STORE_PROV_LDAP(_W), CERT_STORE_PROV_MEMORY, CERT_STORE_PROV_MSG, CERT_STORE_PROV_PHYSICAL(_W), CERT_STORE_PROV_PKCS12, CERT_STORE_PROV_PKCS7, CERT_STORE_PROV_REG, CERT_STORE_PROV_SERIALIZED, CERT_STORE_PROV_SMART_CARD(_W), CERT_STORE_PROV_SYSTEM(_W), CERT_STORE_PROV_SYSTEM_A, CERT_STORE_PROV_SYSTEM_REGISTRY(_W), CERT_STORE_PROV_SYSTEM_REGISTRY_A, CERT_STORE_READONLY_FLAG, CERT_STORE_SET_LOCALIZED_NAME_FLAG, CERT_STORE_SHARE_CONTEXT_FLAG, CERT_STORE_UPDATE_KEYID_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_CURRENT_USER_GROUP_POLICY, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_UNPROTECTED_FLAG, CERT_SYSTEM_STORE_USERS, CertOpenStore, CertOpenStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certopenstore, security.certopenstore, wincrypt/CertOpenStore
-f1_keywords:
-- wincrypt/CertOpenStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertOpenStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertOpenStore
+ - wincrypt/CertOpenStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertOpenStore
 ---
 
 # CertOpenStore function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertOpenStore</b> function opens a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> by using a specified store provider type. While this function can open a certificate store for most purposes, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea">CertOpenSystemStore</a> is recommended to open the most common certificate stores. <b>CertOpenStore</b> is required for more complex options and special cases.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszStoreProvider [in]
 
@@ -340,8 +336,6 @@ Same as <b>CERT_STORE_PROV_SYSTEM_REGISTRY_A</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwEncodingType [in]
 
@@ -382,17 +376,12 @@ Specifies X.509 certificate encoding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hCryptProv [in]
 
 This parameter is not used and should be set to <b>NULL</b>.
 
 <b>Windows Server 2003 and Windows XP:  </b>A handle to a cryptographic provider. Passing <b>NULL</b> for this parameter causes an appropriate, default provider to be used. Using the default provider is recommended. The default or specified cryptographic provider is used for all store functions that verify the signature of a subject certificate or CRL.This parameter's data type is <b>HCRYPTPROV</b>.
-
-
-
 
 ### -param dwFlags [in]
 
@@ -752,17 +741,12 @@ Use this flag with the <b>CERT_LDAP_STORE_OPENED_FLAG</b> flag to cause the LDAP
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvPara [in]
 
 A 32-bit value that can contain additional information for this function. The contents of this parameter depends on the value of the <i>lpszStoreProvider</i> and other parameters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns a handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. When you have finished using the store, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
@@ -773,13 +757,7 @@ If the function fails, it returns <b>NULL</b>. For extended error information, c
 <div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>, or registry errors might be propagated and their error codes returned. <b>CertOpenStore</b> has a single error code of its own, the ERROR_FILE_NOT_FOUND code, which indicates that the function was unable to find the provider specified by the <i>lpszStoreProvider</i> parameter.</div>
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 A system store is a collection that consists of one or more physical sibling stores. For each system store, there are predefined physical sibling stores. After opening a system store such as "My" at CERT_SYSTEM_STORE_CURRENT_USER, <b>CertOpenStore</b> is called to open all of the physical stores in the system store collection. Each of these physical stores is added to the system store collection by using 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a> function. All certificates, CRLs, and CTLs in those physical stores are available through the logical system store collection.
@@ -988,14 +966,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a>
 
@@ -1010,7 +981,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
- 
-
- 
 

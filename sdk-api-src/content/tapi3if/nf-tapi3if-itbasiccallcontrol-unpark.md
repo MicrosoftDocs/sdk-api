@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: d4cea44e-0dac-4021-a42c-b136c2e686e0
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Unpark method, ITBasicCallControl.Unpark, ITBasicCallControl::Unpark, Unpark, Unpark method [TAPI 2.2], Unpark method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_unpark, tapi3.itbasiccallcontrol_unpark, tapi3if/ITBasicCallControl::Unpark
-f1_keywords:
-- tapi3if/ITBasicCallControl.Unpark
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicCallControl.Unpark
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicCallControl::Unpark
+ - tapi3if/ITBasicCallControl::Unpark
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicCallControl.Unpark
 ---
 
 # ITBasicCallControl::Unpark
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Unpark</b> method gets the call from park.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -128,14 +120,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To unpark a call, 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">CreateCall</a> must be called using as the destination address the current parked location of the call. See the example below.
@@ -155,12 +141,7 @@ HRESULT hr = pAddress-&gt;CreateCall( bstrAddressToCall,
 // Select appropriate terminals for call, and then call: 
 pBasicCall -&gt;Unpark();</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
@@ -187,7 +168,4 @@ pBasicCall -&gt;Unpark();</code></pre>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
- 
-
- 
 

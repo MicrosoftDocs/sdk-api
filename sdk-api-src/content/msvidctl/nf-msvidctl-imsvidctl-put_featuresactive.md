@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 293506fa-3208-468e-982a-3c1f8ce0269b
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_FeaturesActive method, IMSVidCtl.put_FeaturesActive, IMSVidCtl::put_FeaturesActive, IMSVidCtlput_FeaturesActive, mstv.imsvidctl_put_featuresactive, msvidctl/IMSVidCtl::put_FeaturesActive, put_FeaturesActive, put_FeaturesActive method [Microsoft TV Technologies], put_FeaturesActive method [Microsoft TV Technologies],IMSVidCtl interface
-f1_keywords:
-- msvidctl/IMSVidCtl.put_FeaturesActive
-dev_langs:
-- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msvidctl.h
-api_name:
-- IMSVidCtl.put_FeaturesActive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidCtl::put_FeaturesActive
+ - msvidctl/IMSVidCtl::put_FeaturesActive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msvidctl.h
+api_name:
+ - IMSVidCtl.put_FeaturesActive
 ---
 
 # IMSVidCtl::put_FeaturesActive
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_FeaturesActive</b> method specifies a collection of features to activate.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [in]
 
 Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures</a> interface on a collection of features.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 Features represent additional capabilities beyond basic tuning and rendering, such as closed captioning or IP data services. When the Video Control builds the filter graph, it uses the active features collection to configure the graph.
 
@@ -82,13 +70,7 @@ For a default graph, it is not necessary to specify the active features. To acti
 
 If the Video Control's state is not <b>STATE_UNBUILT</b>, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-decompose">IMSVidCtl::Decompose</a> to tear down the filter graph before calling this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
@@ -99,7 +81,4 @@ If the Video Control's state is not <b>STATE_UNBUILT</b>, call the <a href="http
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_state">IMSVidCtl::get_State</a>
- 
-
- 
 

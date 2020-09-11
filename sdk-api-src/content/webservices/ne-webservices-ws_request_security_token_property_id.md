@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 7a2063eb-ab60-43d5-bd8c-41ef132abf50
 ms.date: 12/05/2018
 ms.keywords: WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO, WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows], WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS, WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES, WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION, WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION, WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS, WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION, wsw.ws_request_security_token_property_id
-f1_keywords:
-- webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+ - webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
 ---
 
 # WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the properties for requesting a security token from an issuer.  It is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_request_security_token_property">WS_REQUEST_SECURITY_TOKEN_PROPERTY*</a> parameter.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO
 
@@ -65,14 +60,11 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservic
 token will be presented.
                 .
 
-
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_trust_version">WS_TRUST_VERSION</a> value that specifies the version of WS-Trust to use.
 
 If this property is not specified, it defaults to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_trust_version">WS_TRUST_VERSION_FEBRUARY_2005</a>.
-                
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION
 
@@ -82,22 +74,16 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
           
 
 If this property is not specified, it defaults to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_secure_conversation_version">WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</a>.
-          
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> structure that specifies the type of the security token to be issued.  If this property is not specified,
                     the corresponding element is not generated in the request security token message, and the
                     issuer is assumed to know the token type required.
-                
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_action">WS_REQUEST_SECURITY_TOKEN_ACTION</a> value that specifies the action to be used with the request. The default is <b>WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE</b>.
-          
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN
 
@@ -105,8 +91,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-securi
             if specified, instead of requesting a new token, the provided token is renewed by requesting a new token based on 
             the existing one. The old token becomes invalid if this operation succeeds. 
             Only supported with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_action">WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT</a>.
-          
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE
 
@@ -121,8 +105,6 @@ The value <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne
 If this property is not specified, the corresponding key type element is not emitted in token requests. 
                     Not emitting the key type in token requests results in the implied default of symmetric keys for the 
                     issued token, as defined in the WS-Trust specification.
-                
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE
 
@@ -130,16 +112,12 @@ A <b>ULONG</b> that specifies the size (in bits) of the cryptographic key to be 
                     in the issued security token.  This property may be specified only for
                     issued tokens with symmetric keys.  If this property is not specified,
                     the corresponding key size element is not emitted in token requests.
-                
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_key_entropy_mode">WS_SECURITY_KEY_ENTROPY_MODE</a> value that specifies how entropy is contributed to the cryptographic key of the
                     issued token.  This property may be specified only for issued tokens
                     with symmetric keys.  If this property is not specified, the mode <b>WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY</b> is used.
-                
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS
 
@@ -153,8 +131,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-bu
 
 Unlike <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_property_id">WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS</a>, local request 
                     parameters are defined by the client as a means to add parameters to the token request.
-                
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS
 
@@ -176,9 +152,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webser
 
 Service request parameters are instructions regarding how to issue a token. They are obtained from the service, 
                    usually by means of metadata import. In that case, this parameter may be obtained 
-                   from the out.RequestSecurityTokenTemplate field of the <a href="/windows/win32/api/webservices/ns-webservices-ws_issued_token_message_security_binding_constraint">WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>.               
-               
-
+                   from the out.RequestSecurityTokenTemplate field of the <a href="/windows/win32/api/webservices/ns-webservices-ws_issued_token_message_security_binding_constraint">WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>.
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES
 
@@ -187,10 +161,6 @@ The set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/n
                     be used for the security token obtaining exchange.  If this property
                     is not specified, the request and reply messages are created with the
                     default message properties.
-                
-
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_BEARER_KEY_TYPE_VERSION
-
-
 

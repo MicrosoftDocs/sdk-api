@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrush_81color.htm
 ms.date: 12/05/2018
 ms.keywords: SolidBrush, SolidBrush class [GDI+],SolidBrush constructor, SolidBrush constructor [GDI+], SolidBrush constructor [GDI+],SolidBrush class, SolidBrush.SolidBrush, SolidBrush.SolidBrush(IN const Color &), SolidBrush::SolidBrush, SolidBrush::SolidBrush(IN const Color &), _gdiplus_CLASS_SolidBrush_SolidBrush_color_, gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_
-f1_keywords:
-- gdiplusbrush/SolidBrush.SolidBrush
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- SolidBrush.SolidBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - SolidBrush::SolidBrush
+ - gdiplusbrush/SolidBrush::SolidBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - SolidBrush.SolidBrush
 ---
 
 ## -description
@@ -55,7 +56,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/n
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the initial color of this solid brush. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the initial color of this solid brush.
 
 ## -see-also
 
@@ -72,3 +73,4 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusco
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
+

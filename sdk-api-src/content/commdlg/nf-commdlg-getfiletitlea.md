@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm
 ms.date: 12/05/2018
 ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, GetFileTitleW, _win32_GetFileTitle, _win32_getfiletitle_cpp, commdlg/GetFileTitle, commdlg/GetFileTitleA, commdlg/GetFileTitleW, dlgbox.getfiletitle, winui._win32_getfiletitle
-f1_keywords:
-- commdlg/GetFileTitle
-dev_langs:
-- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comdlg32.dll
-- ext-ms-win-shell-comdlg32-l1-1-1.dll
-api_name:
-- GetFileTitle
-- GetFileTitleA
-- GetFileTitleW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileTitleA
+ - commdlg/GetFileTitleA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comdlg32.dll
+ - ext-ms-win-shell-comdlg32-l1-1-1.dll
+api_name:
+ - GetFileTitle
+ - GetFileTitleA
+ - GetFileTitleW
 ---
 
 # GetFileTitleA function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name of the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -67,13 +63,11 @@ Type: <b>LPCTSTR</b>
 
 The name and location of a file.
 
-
 ### -param Buf [out]
 
 Type: <b>LPTSTR</b>
 
 The buffer that receives the name of the file.
-
 
 ### -param cchSize [in]
 
@@ -82,10 +76,7 @@ Type: <b>WORD</b>
 The length, in 
 					characters, of the buffer pointed to by the <i>lpszTitle</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>short</b>
 
@@ -95,12 +86,7 @@ If the file name is invalid, the return value is unknown. If there is an error, 
 
 If the buffer pointed to by the <i>lpszTitle</i> parameter is too small, the return value is a positive integer that specifies the required buffer size, in characters. The required buffer size includes the terminating null character.
 
-
-
-
 ## -remarks
-
-
 
 <b>GetFileTitle</b> should only be called with legal file names; using an illegal file name has an undefined result.
 
@@ -119,9 +105,6 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
@@ -139,7 +122,4 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 
 <b>Reference</b>
- 
-
- 
 

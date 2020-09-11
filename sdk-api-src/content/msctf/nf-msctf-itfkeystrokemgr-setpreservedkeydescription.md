@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: feb83f22-652c-4fec-b35d-a0cc41eab533
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],SetPreservedKeyDescription method, ITfKeystrokeMgr.SetPreservedKeyDescription, ITfKeystrokeMgr::SetPreservedKeyDescription, SetPreservedKeyDescription, SetPreservedKeyDescription method [Text Services Framework], SetPreservedKeyDescription method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_setpreservedkeydescription_ref, msctf/ITfKeystrokeMgr::SetPreservedKeyDescription, tsf.itfkeystrokemgr_setpreservedkeydescription
-f1_keywords:
-- msctf/ITfKeystrokeMgr.SetPreservedKeyDescription
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfKeystrokeMgr.SetPreservedKeyDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfKeystrokeMgr::SetPreservedKeyDescription
+ - msctf/ITfKeystrokeMgr::SetPreservedKeyDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfKeystrokeMgr.SetPreservedKeyDescription
 ---
 
 # ITfKeystrokeMgr::SetPreservedKeyDescription
@@ -53,27 +54,19 @@ Modifies the description string of an existing preserved key.
 
 ## -parameters
 
-
-
-
 ### -param rguid [in]
 
 Contains the command GUID of the preserved key.
-
 
 ### -param pchDesc [in]
 
 Pointer to a Unicode string that contains the new description of the preserved key. This cannot be <b>NULL</b> unless <i>cchDesc</i> is zero.
 
-
 ### -param cchDesc [in]
 
 Number of characters in <i>pchDesc</i>. Pass zero for this parameter if no description is required.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,24 +109,12 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Preserved keys are registered by TSF text services and provide keyboard shortcuts to common commands implemented by the TSF text service.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
@@ -141,7 +122,4 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-getpreservedkeydescription">ITfKeystrokeMgr::GetPreservedKeyDescription
       </a>
- 
-
- 
 

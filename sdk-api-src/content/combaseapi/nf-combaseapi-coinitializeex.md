@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: ffb79c0f-aeda-4ea1-aea8-afb79109837f
 ms.date: 12/05/2018
 ms.keywords: CoInitializeEx, CoInitializeEx function [COM], _com_CoInitializeEx, com.coinitializeex, combaseapi/CoInitializeEx
-f1_keywords:
-- combaseapi/CoInitializeEx
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoInitializeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoInitializeEx
+ - combaseapi/CoInitializeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoInitializeEx
 ---
 
 # CoInitializeEx function
@@ -54,30 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the COM library for use by the calling thread, sets the thread's concurrency model, and creates a new apartment for the thread if one is required.
 
 You should call Windows::Foundation::Initialize to initialize the thread instead of <b>CoInitializeEx</b> if you want to use the Windows Runtime APIs or if you want to use both COM and Windows Runtime components. Windows::Foundation::Initialize is sufficient to use for COM components.
 
-
 ## -parameters
-
-
-
 
 ### -param pvReserved [in, optional]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ### -param dwCoInit [in]
 
 The concurrency model and initialization options for the thread. Values for this parameter are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-coinit">COINIT</a> enumeration. Any combination of values from <b>COINIT</b> can be used, except that the COINIT_APARTMENTTHREADED and COINIT_MULTITHREADED flags cannot both be set. The default is COINIT_MULTITHREADED.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -120,14 +112,8 @@ A previous call to <a href="https://docs.microsoft.com/windows/desktop/api/comba
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>CoInitializeEx</b> must be called at least once, and is usually called only once, for each thread that uses the COM library. Multiple calls to <b>CoInitializeEx</b> by the same thread are allowed as long as they pass the same concurrency flag, but subsequent valid calls return S_FALSE. To close the COM library gracefully on a thread, each successful call to <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <b>CoInitializeEx</b>, including any call that returns S_FALSE, must be balanced by a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>.
 
@@ -151,16 +137,7 @@ Because OLE technologies are not thread-safe, the <a href="https://docs.microsof
 
 Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>, <b>CoInitializeEx</b>, or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> from the <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments">Processes, Threads, and Apartments</a>
- 
-
- 
 

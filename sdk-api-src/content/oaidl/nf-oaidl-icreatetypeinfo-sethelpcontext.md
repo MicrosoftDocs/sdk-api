@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 8f61500a-29b5-48e4-b8ee-584cf5430274
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetHelpContext method, ICreateTypeInfo.SetHelpContext, ICreateTypeInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetHelpContext, automat.icreatetypeinfo_sethelpcontext, oaidl/ICreateTypeInfo::SetHelpContext
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetHelpContext
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetHelpContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetHelpContext
+ - oaidl/ICreateTypeInfo::SetHelpContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetHelpContext
 ---
 
 # ICreateTypeInfo::SetHelpContext
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the Help context ID of the type information.
 
-
 ## -parameters
-
-
-
 
 ### -param dwHelpContext [in]
 
 A handle to the Help context.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -135,18 +128,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
 

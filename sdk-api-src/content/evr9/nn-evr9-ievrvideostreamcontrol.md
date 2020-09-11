@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ea7b0dd2-2eff-4a37-826b-6f87fbea5785
 ms.date: 12/05/2018
 ms.keywords: IEVRVideoStreamControl, IEVRVideoStreamControl interface [Media Foundation], IEVRVideoStreamControl interface [Media Foundation],described, ea7b0dd2-2eff-4a37-826b-6f87fbea5785, evr9/IEVRVideoStreamControl, mf.ievrvideostreamcontrol
-f1_keywords:
-- evr9/IEVRVideoStreamControl
-dev_langs:
-- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IEVRVideoStreamControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEVRVideoStreamControl
+ - evr9/IEVRVideoStreamControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IEVRVideoStreamControl
 ---
 
 # IEVRVideoStreamControl interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface is not supported.
-
 
 ## -inheritance
 
@@ -78,20 +77,13 @@ The <b>IEVRVideoStreamControl</b> interface has these methods.
 <div> </div>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: 60C94543-E0C4-4A79-BBE3-3098401B1123
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_RENAME_COMPLETION_FLAGS, CF_CALLBACK_RENAME_COMPLETION_FLAGS enumeration, CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_RENAME_COMPLETION_FLAGS, cfapi/CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE, cloudApi.cf_callback_rename_completion_flags
-f1_keywords:
-- cfapi/CF_CALLBACK_RENAME_COMPLETION_FLAGS
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_CALLBACK_RENAME_COMPLETION_FLAGS
 targetos: Windows
 req.typenames: CF_CALLBACK_RENAME_COMPLETION_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_CALLBACK_RENAME_COMPLETION_FLAGS
+ - cfapi/CF_CALLBACK_RENAME_COMPLETION_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_CALLBACK_RENAME_COMPLETION_FLAGS
 ---
 
 # CF_CALLBACK_RENAME_COMPLETION_FLAGS enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A callback flag to inform the sync provider that a placeholder under one of its sync roots has been successfully renamed.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE
 

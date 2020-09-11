@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 91778854-52af-4e1e-943b-89c786963291
 ms.date: 12/05/2018
 ms.keywords: GetPreviousBackupStamp, GetPreviousBackupStamp method [VSS], GetPreviousBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPreviousBackupStamp method, IVssComponent.GetPreviousBackupStamp, IVssComponent::GetPreviousBackupStamp, _win32_ivsscomponent_getpreviousbackupstamp, base.ivsscomponent_getpreviousbackupstamp, vswriter/IVssComponent::GetPreviousBackupStamp
-f1_keywords:
-- vswriter/IVssComponent.GetPreviousBackupStamp
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetPreviousBackupStamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetPreviousBackupStamp
+ - vswriter/IVssComponent::GetPreviousBackupStamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetPreviousBackupStamp
 ---
 
 # IVssComponent::GetPreviousBackupStamp
@@ -50,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetPreviousBackupStamp</b> method returns a previous backup stamp loaded by a requester in the Backup Components Document. The value is used by a writer when deciding if files should participate in differential or incremental backup operation.
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrBackupStamp [out]
 
 Pointer to a string containing the time stamp of a previous backup so that a differential or incremental backup can be correctly implemented.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -135,14 +128,8 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For more information about backup stamps, see <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-role-in-backing-up-complex-stores">Writer Role in Backing Up Complex Stores</a> and <a href="https://docs.microsoft.com/windows/desktop/VSS/requestor-role-in-backing-up-complex-stores">Requester Role in Backing Up Complex Stores</a>.
 
@@ -160,20 +147,11 @@ The backup stamp retrieved by
 Typically, the string used to set the value found by 
 <b>GetPreviousBackupStamp</b> was retrieved from a stored Backup Components Document or was stored by the requester as part of its own internal records.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
 

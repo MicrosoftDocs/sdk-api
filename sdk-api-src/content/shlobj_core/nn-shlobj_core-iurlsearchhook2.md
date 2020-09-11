@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5a17e099-a8b4-454d-8f2e-0a45435902a4
 ms.date: 12/05/2018
 ms.keywords: IURLSearchHook2, IURLSearchHook2 interface [Windows Shell], IURLSearchHook2 interface [Windows Shell],described, _shell_IURLSearchHook2, shell.IURLSearchHook2, shlobj_core/IURLSearchHook2
-f1_keywords:
-- shlobj_core/IURLSearchHook2
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IURLSearchHook2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IURLSearchHook2
+ - shlobj_core/IURLSearchHook2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IURLSearchHook2
 ---
 
 # IURLSearchHook2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that is used by the browser to translate the address of an unknown URL protocol by using a search context object.
-
 
 ## -inheritance
 
@@ -77,16 +76,11 @@ Called by the browser when the browser cannot determine the protocol of a URL ad
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook">IURLSearchHook</a> interface, from which it inherits.
 
 When attempting to browse to a URL address, if the browser retrieves an <b>IURLSearchHook2</b> interface, a search context is passed to the browser. If no <b>IURLSearchHook2</b> interface is available the browser uses <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook">IURLSearchHook</a> to determine the address of the unknown URL.
-
-
 

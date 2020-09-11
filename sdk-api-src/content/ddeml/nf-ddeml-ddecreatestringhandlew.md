@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecreatestringhandle.htm
 ms.date: 12/05/2018
 ms.keywords: DdeCreateStringHandle, DdeCreateStringHandle function [Data Exchange], DdeCreateStringHandleA, DdeCreateStringHandleW, _win32_DdeCreateStringHandle, _win32_ddecreatestringhandle_cpp, dataxchg.ddecreatestringhandle, ddeml/DdeCreateStringHandle, ddeml/DdeCreateStringHandleA, ddeml/DdeCreateStringHandleW, winui._win32_ddecreatestringhandle
-f1_keywords:
-- ddeml/DdeCreateStringHandle
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DdeCreateStringHandle
-- DdeCreateStringHandleA
-- DdeCreateStringHandleW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdeCreateStringHandleW
+ - ddeml/DdeCreateStringHandleW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DdeCreateStringHandle
+ - DdeCreateStringHandleA
+ - DdeCreateStringHandleW
 ---
 
 # DdeCreateStringHandleW function
@@ -51,39 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a handle that identifies the specified string. A Dynamic Data Exchange (DDE) client or server application can pass the string handle as a parameter to other Dynamic Data Exchange Management Library (DDEML) functions. 
-
+Creates a handle that identifies the specified string. A Dynamic Data Exchange (DDE) client or server application can pass the string handle as a parameter to other Dynamic Data Exchange Management Library (DDEML) functions.
 
 ## -parameters
-
-
-
 
 ### -param idInst [in]
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
-
+The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
 
 ### -param psz [in]
 
 Type: <b>LPTSTR</b>
 
-The null-terminated string for which a handle is to be created. This string can be up to 255 characters. The reason for this limit is that DDEML string management functions are implemented using atoms. 
-
+The null-terminated string for which a handle is to be created. This string can be up to 255 characters. The reason for this limit is that DDEML string management functions are implemented using atoms.
 
 ### -param iCodePage [in]
 
 Type: <b>int</b>
 
-The code page to be used to render the string. This value should be either <b>CP_WINANSI</b> (the default code page) or CP_WINUNICODE, depending on whether the ANSI or Unicode version of <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> was called by the client application. 
-
+The code page to be used to render the string. This value should be either <b>CP_WINANSI</b> (the default code page) or CP_WINUNICODE, depending on whether the ANSI or Unicode version of <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> was called by the client application.
 
 ## -returns
-
-
 
 Type: <b>HSZ</b>
 
@@ -91,14 +82,9 @@ If the function succeeds, the return value is a string handle.
 
 If the function fails, the return value is 0L. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
-
-
-
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 ## -remarks
-
-
 
 The value of a string handle is not related to the case of the string it identifies. 
 
@@ -127,9 +113,6 @@ hszNew = DdeCreateStringHandle(idInst, pszInst, CP_WINANSI);
 > The ddeml.h header defines DdeCreateStringHandle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -164,7 +147,4 @@ hszNew = DdeCreateStringHandle(idInst, pszInst, CP_WINANSI);
 
 
 <b>Reference</b>
- 
-
- 
 

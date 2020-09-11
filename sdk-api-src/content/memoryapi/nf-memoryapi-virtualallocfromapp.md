@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6124F358-718B-464F-ACBF-6BBE5189988B
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAllocFromApp, VirtualAllocFromApp function, base.virtualallocfromapp, memoryapi/VirtualAllocFromApp
-f1_keywords:
-- memoryapi/VirtualAllocFromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- KernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- VirtualAllocFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualAllocFromApp
+ - memoryapi/VirtualAllocFromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - VirtualAllocFromApp
 ---
 
 # VirtualAllocFromApp function
@@ -52,15 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reserves, commits, or changes the state  of a region of pages in the virtual address space of the calling process. 
     Memory allocated by this function is automatically initialized to zero.
 
-
 ## -parameters
-
-
-
 
 ### -param BaseAddress [in, optional]
 
@@ -71,7 +67,6 @@ The starting address of the region to allocate. If the memory is being reserved,
       <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. If this parameter is 
       <b>NULL</b>, the system determines where to allocate the region.
 
-
 ### -param Size [in]
 
 The size of the region, in bytes. If the <i>BaseAddress</i> parameter is 
@@ -79,7 +74,6 @@ The size of the region, in bytes. If the <i>BaseAddress</i> parameter is
       pages include all pages containing one or more bytes in the range from <i>BaseAddress</i> to 
       <i>BaseAddress</i>+<i>Size</i>. This means that a 2-byte range straddling 
       a page boundary causes both pages to be included in the allocated region.
-
 
 ### -param AllocationType [in]
 
@@ -259,8 +253,6 @@ To retrieve the addresses of the pages that have been written to since the regio
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Protection [in]
 
@@ -277,19 +269,12 @@ The memory protection for the region of pages to be allocated. If the pages are 
 
 ## -returns
 
-
-
 If the function succeeds, the return value is the base address of the allocated region of pages.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 You can call <b>VirtualAllocFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities.
 
@@ -338,13 +323,7 @@ When creating a region that will be executable, the calling program bears respon
     in place. Otherwise attempts to execute code out of the newly executable region may produce unpredictable 
     results.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
@@ -375,7 +354,4 @@ When creating a region that will be executable, the calling program bears respon
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
- 
-
- 
 

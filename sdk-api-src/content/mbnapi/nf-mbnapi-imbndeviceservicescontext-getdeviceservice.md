@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 293E9BE5-AD7D-41B7-9A27-E964EE745183
 ms.date: 12/05/2018
 ms.keywords: GetDeviceService, GetDeviceService method [Microsoft Broadband Networks], GetDeviceService method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],GetDeviceService method, IMbnDeviceServicesContext.GetDeviceService, IMbnDeviceServicesContext::GetDeviceService, mbn.imbndeviceservicescontext_getdeviceservice, mbnapi/IMbnDeviceServicesContext::GetDeviceService
-f1_keywords:
-- mbnapi/IMbnDeviceServicesContext.GetDeviceService
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceServicesContext.GetDeviceService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceServicesContext::GetDeviceService
+ - mbnapi/IMbnDeviceServicesContext::GetDeviceService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceServicesContext.GetDeviceService
 ---
 
 # IMbnDeviceServicesContext::GetDeviceService
@@ -54,25 +55,17 @@ ms.custom: 19H1
 
 Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
-
 ## -parameters
-
-
-
 
 ### -param deviceServiceID [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid">deviceServiceID</a> of the Mobile Broadband device.
 
-
 ### -param mbnDeviceService [out, retval]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object.
 
-
 ## -returns
-
-
 
 The method can return one of the following values.
 
@@ -104,27 +97,12 @@ An error was encountered when executing this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>GetDeviceService</b> may return an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a>
- 
-
- 
 

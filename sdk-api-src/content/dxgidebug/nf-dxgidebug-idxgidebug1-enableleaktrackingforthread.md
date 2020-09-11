@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: A6CE092E-389C-4DFE-A7A6-10CA96A0C1F4
 ms.date: 12/05/2018
 ms.keywords: EnableLeakTrackingForThread, EnableLeakTrackingForThread method [DXGI], EnableLeakTrackingForThread method [DXGI],IDXGIDebug1 interface, IDXGIDebug1 interface [DXGI],EnableLeakTrackingForThread method, IDXGIDebug1.EnableLeakTrackingForThread, IDXGIDebug1::EnableLeakTrackingForThread, direct3ddxgi.idxgidebug1_enableleaktrackingforthread, dxgidebug/IDXGIDebug1::EnableLeakTrackingForThread
-f1_keywords:
-- dxgidebug/IDXGIDebug1.EnableLeakTrackingForThread
-dev_langs:
-- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DXGIDebug.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGIDebug.dll
-api_name:
-- IDXGIDebug1.EnableLeakTrackingForThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIDebug1::EnableLeakTrackingForThread
+ - dxgidebug/IDXGIDebug1::EnableLeakTrackingForThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGIDebug.dll
+api_name:
+ - IDXGIDebug1.EnableLeakTrackingForThread
 ---
 
 # IDXGIDebug1::EnableLeakTrackingForThread
@@ -49,28 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts tracking leaks for the current thread.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-dxgigetdebuginterface1">DXGIGetDebugInterface1</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug1">IDXGIDebug1</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\locksetforegroundwindow.htm
 ms.date: 12/05/2018
 ms.keywords: LSFW_LOCK, LSFW_UNLOCK, LockSetForegroundWindow, LockSetForegroundWindow function [Windows and Messages], _win32_LockSetForegroundWindow, _win32_locksetforegroundwindow_cpp, winmsg.locksetforegroundwindow, winui._win32_locksetforegroundwindow, winuser/LockSetForegroundWindow
-f1_keywords:
-- winuser/LockSetForegroundWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- LockSetForegroundWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LockSetForegroundWindow
+ - winuser/LockSetForegroundWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - LockSetForegroundWindow
 ---
 
 # LockSetForegroundWindow function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The foreground process can call the <b>LockSetForegroundWindow</b> function to disable calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function. 
-
+The foreground process can call the <b>LockSetForegroundWindow</b> function to disable calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function.
 
 ## -parameters
-
-
-
 
 ### -param uLockCode [in]
 
@@ -94,12 +90,8 @@ Enables calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -107,24 +99,13 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The system automatically enables calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> if the user presses the ALT key or takes some action that causes the system itself to change the foreground window (for example, clicking a background window).
 
 This function is provided so applications can prevent other applications from making a foreground change that can interrupt its interaction with the user.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow">AllowSetForegroundWindow</a>
 
@@ -143,7 +124,4 @@ This function is provided so applications can prevent other applications from ma
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

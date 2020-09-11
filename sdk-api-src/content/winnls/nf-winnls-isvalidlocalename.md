@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: cd1b5a4e-7a9c-47a1-9ece-284fce3d5be4
 ms.date: 12/05/2018
 ms.keywords: IsValidLocaleName, IsValidLocaleName function [Internationalization for Windows Applications], _win32_IsValidLocaleName, intl.isvalidlocalename, winnls/IsValidLocaleName
-f1_keywords:
-- winnls/IsValidLocaleName
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- IsValidLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsValidLocaleName
+ - winnls/IsValidLocaleName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - IsValidLocaleName
 ---
 
 # IsValidLocaleName function
@@ -56,34 +57,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if the specified <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a> is valid for a locale that is installed or supported on the operating system.<div class="alert"><b>Note</b>  An application running only on Windows Vista and later should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlocale">IsValidLocale</a> to determine the validity of a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpLocaleName [in]
 
 Pointer to the locale name to validate.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if the locale name is valid, or returns 0 for an invalid name.
 
-
-
-
 ## -remarks
-
-
 
 On Windows Vista and later, all supported locales should be installed on all operating systems.
 
@@ -98,12 +85,7 @@ An example showing the use of this function can be found in <a href="https://doc
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
 
@@ -118,7 +100,4 @@ An example showing the use of this function can be found in <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

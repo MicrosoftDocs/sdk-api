@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winsat
+f1_keywords:
+ - winsatcominterfacei
+ - winsatcominterfacei/winsatcominterfacei
 ---
 
 # Winsatcominterfacei.h header
 
 
 ## -description
-
 
 This header is used by Windows System Assessment Tool. For more information, see:
 

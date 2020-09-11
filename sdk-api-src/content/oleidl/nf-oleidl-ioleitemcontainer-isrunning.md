@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7bbd7b58-b7ab-493e-8315-a35034ee2b7a
 ms.date: 12/05/2018
 ms.keywords: IOleItemContainer interface [COM],IsRunning method, IOleItemContainer.IsRunning, IOleItemContainer::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IOleItemContainer interface, _com_ioleitemcontainer_isrunning, com.ioleitemcontainer_isrunning, oleidl/IOleItemContainer::IsRunning
-f1_keywords:
-- oleidl/IOleItemContainer.IsRunning
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleItemContainer.IsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleItemContainer::IsRunning
+ - oleidl/IOleItemContainer::IsRunning
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleItemContainer.IsRunning
 ---
 
 # IOleItemContainer::IsRunning
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the specified object is running.
 
-
 ## -parameters
-
-
-
 
 ### -param pszItem [in]
 
 The container's name for the object.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -108,14 +101,8 @@ The parameter does not identify an object in this container.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The item moniker implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-isrunning">IMoniker::IsRunning</a> calls this method.
 
@@ -124,16 +111,7 @@ Your implementation of <b>IOleItemContainer::IsRunning</b> should first determin
 
 If <i>pszItem</i> names a pseudo-object, your implementation can simply return S_OK because a pseudo-object is running whenever its container is running.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
- 
-
- 
 

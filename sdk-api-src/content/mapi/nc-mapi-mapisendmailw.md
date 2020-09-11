@@ -8,10 +8,6 @@ tech.root: mapi
 ms.assetid: FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B
 ms.date: 12/05/2018
 ms.keywords: MAPISendMailW, MAPISendMailW callback, MAPISendMailW callback function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailw, mapi/MAPISendMailW
-f1_keywords:
-- mapi/MAPISendMailW
-dev_langs:
-- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mapi.h
-api_name:
-- MAPISendMailW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPISENDMAILW
+ - mapi/MAPISENDMAILW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mapi.h
+api_name:
+ - MAPISendMailW
 ---
 
 # MAPISENDMAILW callback function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a Unicode message. This function replaces the ANSI function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>.
 
 <b>On Windows 7 and earlier:  </b>Install the <a href="https://msdn.microsoft.com/windows/desktop/hh852363.aspx">Microsoft Windows Software Development Kit (SDK) for Windows 8</a> and use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> to send a message.
 
 All information applies to both <b>MAPISendMailW</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> unless otherwise specified.
 
-
 ## -parameters
-
-
-
 
 ### -param lhSession [in]
 
@@ -69,7 +65,6 @@ Type: <b>LHANDLE</b>
 Handle to a Simple MAPI session or zero.
 
 If the value of the <i>lhSession</i> parameter is zero, MAPI logs on the user and creates a session that exists only for the duration of the call. This temporary session can be an existing shared session or a new one. If necessary, the logon dialog box is displayed.
-
 
 ### -param ulUIParam [in]
 
@@ -80,7 +75,6 @@ Parent window handle or zero.
 If the <i>ulUIParam</i> parameter contains the parent window handle, the handle is  type HWND (cast to a <b>ULONG_PTR</b>).
 
 If no dialog box is displayed during the call, <i>ulUIParam</i> is ignored.
-
 
 ### -param lpMessage [in]
 
@@ -147,7 +141,6 @@ A value of zero means that there are no recipients. Additionally, when this memb
 If either <b>MAPI_DIALOG</b> or <b>MAPI_DIALOG_MODELESS</b> is not set, the <b>nRecipCount</b> and <b>lpRecips</b> members of the structure must be valid for successful message delivery. Client applications can set the <b>flFlags</b> member to <b>MAPI_RECEIPT_REQUESTED</b> to request a read report.
 
 For more details about how the function handles recipient information, see <a href="https://docs.microsoft.com/">Handling Recipient Information</a> in <i>Remarks</i>.
-
 
 ### -param flFlags [in]
 
@@ -236,8 +229,6 @@ Do not convert the message to ANSI if the provider does not support Unicode.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulReserved
 
@@ -245,10 +236,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
@@ -454,14 +442,8 @@ The call succeeded and the message was sent.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>MAPISendMailW</b> (Unicode) and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> (ANSI) functions both send a standard message, with or without any user interaction. The profile must be configured so that either function can open the default service providers without requiring user interaction.
 
@@ -549,22 +531,12 @@ No name resolution; name used only for displaying the recipient name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a>
 
 
 
 <a href="https://msdn.microsoft.com/windows/desktop/hh852363.aspx">Windows SDK for Windows 8</a>
- 
-
- 
 

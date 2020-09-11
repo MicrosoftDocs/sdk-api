@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush, PathGradientBrush constructors [GDI+], PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(const PathGradientBrush &), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(const PathGradientBrush &), _gdiplus_CLASS_PathGradientBrush_Constructors, gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors, gdipluspath/PathGradientBrush
-f1_keywords:
-- gdipluspath/PathGradientBrush.PathGradientBrush
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdipluspath.h
-api_name:
-- PathGradientBrush.PathGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathGradientBrush::PathGradientBrush
+ - gdipluspath/PathGradientBrush::PathGradientBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdipluspath.h
+api_name:
+ - PathGradientBrush.PathGradientBrush
 ---
 
 # PathGradientBrush::PathGradientBrush(const PathGradientBrush &)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> class. For a complete class listing, see <b>PathGradientBrushXX Class</b>. 

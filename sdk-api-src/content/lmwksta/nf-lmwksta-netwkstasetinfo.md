@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: d746b6c9-5ef1-4174-a84f-44e4e50200cd
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, 502, NetWkstaSetInfo, NetWkstaSetInfo function [Network Management], _win32_netwkstasetinfo, lmwksta/NetWkstaSetInfo, netmgmt.netwkstasetinfo
-f1_keywords:
-- lmwksta/NetWkstaSetInfo
-dev_langs:
-- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetWkstaSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetWkstaSetInfo
+ - lmwksta/NetWkstaSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetWkstaSetInfo
 ---
 
 # NetWkstaSetInfo function
@@ -49,23 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
  The <b>NetWkstaSetInfo</b> function configures a workstation with information  that remains in effect after the system has been reinitialized.
-
 
 ## -parameters
 
-
-
-
 ### -param servername [in]
 
-A pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+A pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param level [in]
 
@@ -127,21 +118,16 @@ The information level of the data. This parameter can be one of the following va
 
 Do not set levels 1010-1013, 1018, 1023, 1027, 1028, 1032, 1033, 1035, or 1041-1062.
 
-
 ### -param buffer [in]
 
 A pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ### -param parm_err [out]
 
 A pointer to a value that receives the index of the first member of the workstation information structure that causes the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -175,14 +161,8 @@ One of the function parameters is invalid. For more information, see the followi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators group can successfully execute the 
 <b>NetWkstaSetInfo</b> function on a remote server.
@@ -409,14 +389,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstagetinfo">NetWkstaGetInfo</a>
 
@@ -441,7 +414,4 @@ int wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
- 
-
- 
 

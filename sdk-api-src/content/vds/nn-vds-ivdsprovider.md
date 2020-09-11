@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: c09aa32f-d859-44b1-8656-973ba1b6a167
 ms.date: 12/05/2018
 ms.keywords: IVdsProvider, IVdsProvider interface [VDS], IVdsProvider interface [VDS],described, base.ivdsprovider, vds/IVdsProvider, vdshwprv/IVdsProvider
-f1_keywords:
-- vds/IVdsProvider
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsProvider
+ - vds/IVdsProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsProvider
 ---
 
 # IVdsProvider interface
@@ -50,12 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of 
    a hardware or software provider.
-
 
 ## -inheritance
 
@@ -81,13 +80,9 @@ Returns the properties of the provider.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-getprovider">IVdsPack::GetProvider</a>
 
@@ -110,7 +105,4 @@ Returns the properties of the provider.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a>
- 
-
- 
 

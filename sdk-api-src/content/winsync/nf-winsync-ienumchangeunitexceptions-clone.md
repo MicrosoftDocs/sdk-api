@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 8039d175-f0d9-44af-9571-e4f97b6cd43f
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumChangeUnitExceptions interface, IEnumChangeUnitExceptions interface [Windows Sync],Clone method, IEnumChangeUnitExceptions.Clone, IEnumChangeUnitExceptions::Clone, winsync.ienumchangeunitexceptions_clone, winsync/IEnumChangeUnitExceptions::Clone
-f1_keywords:
-- winsync/IEnumChangeUnitExceptions.Clone
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumChangeUnitExceptions.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumChangeUnitExceptions::Clone
+ - winsync/IEnumChangeUnitExceptions::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumChangeUnitExceptions.Clone
 ---
 
 # IEnumChangeUnitExceptions::Clone
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Returns the newly cloned enumerator.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -102,18 +95,8 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumchangeunitexceptions">IEnumChangeUnitExceptions Interface</a>
- 
-
- 
 

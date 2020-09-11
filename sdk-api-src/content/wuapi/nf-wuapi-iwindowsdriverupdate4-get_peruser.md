@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 97e1ede2-9b7d-46af-b3a5-d0860eaa9dce
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate4 interface [Windows Update Agent],PerUser property, IWindowsDriverUpdate4.PerUser, IWindowsDriverUpdate4.get_PerUser, IWindowsDriverUpdate4::PerUser, IWindowsDriverUpdate4::get_PerUser, PerUser property [Windows Update Agent], PerUser property [Windows Update Agent],IWindowsDriverUpdate4 interface, get_PerUser, wua.iwindowsdriverupdate4_peruser, wuapi/IWindowsDriverUpdate4::PerUser, wuapi/IWindowsDriverUpdate4::get_PerUser
-f1_keywords:
-- wuapi/IWindowsDriverUpdate4.PerUser
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdate4.PerUser
-- IWindowsDriverUpdate4.get_PerUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdate4::get_PerUser
+ - wuapi/IWindowsDriverUpdate4::get_PerUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdate4.PerUser
+ - IWindowsDriverUpdate4.get_PerUser
 ---
 
 # IWindowsDriverUpdate4::get_PerUser
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether an update is a per-user update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate4">IWindowsDriverUpdate4</a>
- 
-
- 
 

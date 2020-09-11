@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e61b209a-9cc1-4171-9638-5456b0fcf775
 ms.date: 12/05/2018
 ms.keywords: '*LPPROCESS_HEAP_ENTRY, *PPROCESS_HEAP_ENTRY, LPPROCESS_HEAP_ENTRY, LPPROCESS_HEAP_ENTRY structure pointer, PROCESS_HEAP_ENTRY, PROCESS_HEAP_ENTRY structure, PROCESS_HEAP_ENTRY_BUSY, PROCESS_HEAP_ENTRY_DDESHARE, PROCESS_HEAP_ENTRY_MOVEABLE, PROCESS_HEAP_REGION, PROCESS_HEAP_UNCOMMITTED_RANGE, _PROCESS_HEAP_ENTRY, _win32_process_heap_entry_str, base.process_heap_entry_str, minwinbase/LPPROCESS_HEAP_ENTRY, minwinbase/PROCESS_HEAP_ENTRY'
-f1_keywords:
-- minwinbase/PROCESS_HEAP_ENTRY
-dev_langs:
-- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- minwinbase.h
-api_name:
-- PROCESS_HEAP_ENTRY
 targetos: Windows
 req.typenames: PROCESS_HEAP_ENTRY, *LPPROCESS_HEAP_ENTRY, *PPROCESS_HEAP_ENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROCESS_HEAP_ENTRY
+ - minwinbase/_PROCESS_HEAP_ENTRY
+ - LPPROCESS_HEAP_ENTRY
+ - minwinbase/LPPROCESS_HEAP_ENTRY
+ - PROCESS_HEAP_ENTRY
+ - minwinbase/PROCESS_HEAP_ENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minwinbase.h
+api_name:
+ - PROCESS_HEAP_ENTRY
 ---
 
 # PROCESS_HEAP_ENTRY structure
@@ -49,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a heap element. The 
     <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> function uses a 
     <b>PROCESS_HEAP_ENTRY</b> structure to enumerate the 
     elements of a heap.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lpData
 
@@ -74,7 +74,6 @@ If <b>PROCESS_HEAP_REGION</b> is used in the <b>wFlags</b> member,
 If <b>PROCESS_HEAP_UNCOMMITTED_RANGE</b> is used in <b>wFlags</b>, 
        <b>lpData</b> points to the beginning of the range of uncommitted memory.
 
-
 ### -field cbData
 
 The size of the data portion of the heap element, in bytes.
@@ -85,7 +84,6 @@ If <b>PROCESS_HEAP_REGION</b> is used in <b>wFlags</b>,
 
 If <b>PROCESS_HEAP_UNCOMMITTED_RANGE</b> is used in <b>wFlags</b>, 
        <b>cbData</b> specifies the size, in bytes, of the range of uncommitted memory.
-
 
 ### -field cbOverhead
 
@@ -100,7 +98,6 @@ If <b>PROCESS_HEAP_REGION</b> is used in <b>wFlags</b>,
 If <b>PROCESS_HEAP_UNCOMMITTED_RANGE</b> is used in <b>wFlags</b>, 
        <b>cbOverhead</b> specifies the size, in bytes, of the control structures that describe 
        this uncommitted range.
-
 
 ### -field iRegionIndex
 
@@ -121,7 +118,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-h
        members of the <b>Region</b> structure are not valid. You can use the 
        <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a> function to get additional information 
        about a large block region.
-
 
 ### -field wFlags
 
@@ -217,35 +213,26 @@ The <b>lpData</b> member points to the beginning of the range of uncommitted mem
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.Block
 
 This structure is valid only if both the <b>PROCESS_HEAP_ENTRY_BUSY</b> and 
         <b>PROCESS_HEAP_ENTRY_MOVEABLE</b> are specified in <b>wFlags</b>.
 
-
 ### -field DUMMYUNIONNAME.Block.hMem
 
 Handle to the allocated, moveable memory block.
-
 
 ### -field DUMMYUNIONNAME.Block.dwReserved
 
 Reserved; not used.
 
-
 ### -field DUMMYUNIONNAME.Region
 
 This structure is valid only if the <b>wFlags</b> member specifies 
         <b>PROCESS_HEAP_REGION</b>.
-
 
 ### -field DUMMYUNIONNAME.Region.dwCommittedSize
 
@@ -254,28 +241,21 @@ Number of bytes in the heap region that are currently committed as free memory b
 
 This is an optional field that is set to zero if the number of committed bytes is not available.
 
-
 ### -field DUMMYUNIONNAME.Region.dwUnCommittedSize
 
 Number of bytes in the heap region that are currently uncommitted.
 
 This is an optional field that is set to zero if the number of uncommitted bytes is not available.
 
-
 ### -field DUMMYUNIONNAME.Region.lpFirstBlock
 
 Pointer to the first valid memory block in this heap region.
-
 
 ### -field DUMMYUNIONNAME.Region.lpLastBlock
 
 Pointer to the first invalid memory block in this heap region.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
 
@@ -294,7 +274,4 @@ Pointer to the first invalid memory block in this heap region.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
- 
-
- 
 

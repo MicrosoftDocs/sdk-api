@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 0fe051be-e5c0-44b2-8ebc-5aa362fe4008
 ms.date: 12/05/2018
 ms.keywords: MesDecodeIncrementalHandleCreate, MesDecodeIncrementalHandleCreate function [RPC], _rpc_mesdecodeincrementalhandlecreate, midles/MesDecodeIncrementalHandleCreate, rpc.mesdecodeincrementalhandlecreate
-f1_keywords:
-- midles/MesDecodeIncrementalHandleCreate
-dev_langs:
-- c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- MesDecodeIncrementalHandleCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MesDecodeIncrementalHandleCreate
+ - midles/MesDecodeIncrementalHandleCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - MesDecodeIncrementalHandleCreate
 ---
 
 # MesDecodeIncrementalHandleCreate function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MesDecodeIncrementalHandleCreate</b> function creates a decoding handle for the incremental style of serialization.
 
-
 ## -parameters
-
-
-
 
 ### -param UserState
 
 Pointer to the user-supplied state object that coordinates the user-supplied <b>Alloc</b>, <b>Write</b>, and <b>Read</b> functions.
 
-
 ### -param ReadFn
 
 Pointer to the <b>Read</b> function.
-
 
 ### -param pHandle
 
 Pointer to the newly created handle.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -123,23 +114,13 @@ Out of memory.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>MesDecodeIncrementalHandleCreate</b> function is used by applications to create the handle and initialize it for the incremental style of decoding. When using the incremental style of decoding, the user supplies a <b>Read</b> function to provide a buffer containing the next part of the data to be decoded. The buffer must be aligned at 8, and the size of the buffer must be a multiple of 8. For additional information on the user-supplied <b>Alloc</b>, <b>Write</b>, and <b>Read</b> functions, see 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/serialization-services">Serialization Services</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/incremental-serialization">Alloc</a>
 
@@ -150,7 +131,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesincrementalhandlereset">MesIncrementalHandleReset</a>
- 
-
- 
 

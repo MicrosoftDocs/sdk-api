@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: dcd2d8a1-10ef-4229-b873-b4fc3ec9293f
 ms.date: 12/05/2018
 ms.keywords: QueryServiceStatus, QueryServiceStatus function, _win32_queryservicestatus, base.queryservicestatus, winsvc/QueryServiceStatus
-f1_keywords:
-- winsvc/QueryServiceStatus
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- QueryServiceStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryServiceStatus
+ - winsvc/QueryServiceStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - QueryServiceStatus
 ---
 
 # QueryServiceStatus function
 
 
 ## -description
-
 
 Retrieves the current status of the specified service.
 
@@ -61,11 +61,7 @@ This function has been superseded by the
 <b>QueryServiceStatusEx</b> returns the same information 
 <b>QueryServiceStatus</b> returns, with the addition of the process identifier and additional information for the service.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -74,16 +70,12 @@ A handle to the service. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function, and it must have the SERVICE_QUERY_STATUS access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-
 ### -param lpServiceStatus [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a> structure that receives the status information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -120,25 +112,13 @@ The handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>QueryServiceStatus</b> function returns the most recent service status information reported to the service control manager. If the service just changed its status, it may not have updated the service control manager yet.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
 
@@ -169,7 +149,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
- 
-
- 
 

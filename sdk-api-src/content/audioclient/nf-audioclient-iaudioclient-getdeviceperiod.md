@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: f2f75fce-9eca-488d-b183-87d97d4e599a
 ms.date: 12/05/2018
 ms.keywords: GetDevicePeriod, GetDevicePeriod method [Core Audio], GetDevicePeriod method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetDevicePeriod method, IAudioClient.GetDevicePeriod, IAudioClient::GetDevicePeriod, IAudioClientGetDevicePeriod, audioclient/IAudioClient::GetDevicePeriod, coreaudio.iaudioclient_getdeviceperiod
-f1_keywords:
-- audioclient/IAudioClient.GetDevicePeriod
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient.GetDevicePeriod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient::GetDevicePeriod
+ - audioclient/IAudioClient::GetDevicePeriod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient.GetDevicePeriod
 ---
 
 # IAudioClient::GetDevicePeriod
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDevicePeriod</b> method retrieves the length of the periodic interval separating successive processing passes by the audio engine on the data in the endpoint buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phnsDefaultDevicePeriod [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> variable into which the method writes a time value specifying the default interval between periodic processing passes by the audio engine. The time is expressed in 100-nanosecond units. For information about <b>REFERENCE_TIME</b>, see the Windows SDK documentation.
 
-
 ### -param phnsMinimumDevicePeriod [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> variable into which the method writes a time value specifying the minimum interval between periodic processing passes by the audio endpoint device. The time is expressed in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -116,14 +105,8 @@ Parameters <i>phnsDefaultDevicePeriod</i> and <i>phnsMinimumDevicePeriod</i> are
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client can call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
@@ -141,20 +124,11 @@ The client determines the buffer size during its call to the <a href="https://do
 
 If the client chooses to run its periodic processing thread less often, at the cost of increased latency, it can do so as long as it creates an endpoint buffer during the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> call that is sufficiently large.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
- 
-
- 
 

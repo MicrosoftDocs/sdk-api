@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: b936c479-a5f1-47a3-bd5a-f1b83cd84dc0
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Next method, IEnumTfInputProcessorProfiles.Next, IEnumTfInputProcessorProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Next, tsf.ienumtfinputprocessorprofiles_next
-f1_keywords:
-- msctf/IEnumTfInputProcessorProfiles.Next
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IEnumTfInputProcessorProfiles.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfInputProcessorProfiles::Next
+ - msctf/IEnumTfInputProcessorProfiles::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IEnumTfInputProcessorProfiles.Next
 ---
 
 # IEnumTfInputProcessorProfiles::Next
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnumTfInputProcessorProfiles::Next</b> method obtains, from the current position, the specified number of elements in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 [in] Specifies the number of elements to obtain.
 
-
 ### -param pProfile [out]
 
 [out] Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a> structures. This array must be at least <i>ulCount</i> elements in size.
-
 
 ### -param pcFetch [out]
 
 [out] Pointer to a ULONG value that receives the number of elements actually obtained. This value can be less than the number of items requested. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,7 +109,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

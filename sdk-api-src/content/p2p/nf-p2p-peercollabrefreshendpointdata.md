@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: ba841da4-de7f-4288-84b7-a06370b55e3c
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRefreshEndpointData, PeerCollabRefreshEndpointData function [Peer Networking], p2p.peercollabrefreshendpointdata, p2p/PeerCollabRefreshEndpointData
-f1_keywords:
-- p2p/PeerCollabRefreshEndpointData
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabRefreshEndpointData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabRefreshEndpointData
+ - p2p/PeerCollabRefreshEndpointData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabRefreshEndpointData
 ---
 
 # PeerCollabRefreshEndpointData function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabRefreshEndpointData</b> function updates the calling peer node with new endpoint data.
 
-
 ## -parameters
-
-
-
 
 ### -param pcEndpoint [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains the updated peer endpoint information for the current peer node.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -97,14 +90,8 @@ One of the arguments is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>PeerCollabRefreshEndpointData</b> allows an application to refresh data associated with the endpoint. Upon completion of the API, the PEER_EVENT_REQUEST_STATUS_CHANGED event will be raised. The event will contain a success or failure code. 
 
@@ -117,13 +104,7 @@ The <b>PeerCollabRefreshEndpointData</b> API takes a snapshot of the data for th
 
 The <b>PeerCollabRefreshEndpointData</b> function will timeout at 30 seconds.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
 
@@ -142,7 +123,4 @@ The <b>PeerCollabRefreshEndpointData</b> function will timeout at 30 seconds.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetpresenceinfo">PeerCollabGetPresenceInfo</a>
- 
-
- 
 

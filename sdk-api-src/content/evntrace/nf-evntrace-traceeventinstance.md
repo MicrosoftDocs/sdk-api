@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689
 ms.date: 12/05/2018
 ms.keywords: TraceEventInstance, TraceEventInstance function [ETW], _evt_traceeventinstance, base.traceeventinstance, etw.traceeventinstance, evntrace/TraceEventInstance
-f1_keywords:
-- evntrace/TraceEventInstance
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- TraceEventInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceEventInstance
+ - evntrace/TraceEventInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - TraceEventInstance
 ---
 
 # TraceEventInstance function
@@ -49,22 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>TraceEventInstance</b> function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events. 
-			
-		
-
+<b>TraceEventInstance</b> function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
 
 ## -parameters
-
-
-
 
 ### -param TraceHandle [in]
 
 Handle to the event tracing session that records the event instance. The provider obtains the handle when it calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function in its <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> implementation.
-
 
 ### -param EventTrace [in]
 
@@ -87,22 +80,17 @@ Depending on the complexity of the information your provider provides, you shoul
 </ul>
 To trace hierarchical relationships between related events, also set the <b>ParentRegHandle</b> member.
 
-
 ### -param InstInfo [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a> structure, which contains the registration handle for this event trace class and the instance identifier. Use the  <a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function to initialize the structure.
-
 
 ### -param ParentInstInfo [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a> structure, which contains the registration handle for the parent event trace class and its instance identifier. Use the  <a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function to initialize the structure. Set to <b>NULL</b> if you are not tracing a hierarchical relationship.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -204,14 +192,8 @@ Data from a single event cannot span multiple buffers. A trace event is limited 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Providers call this function.
 
@@ -245,12 +227,7 @@ For an example of generating related sets of events using
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
 
@@ -269,7 +246,4 @@ For an example of generating related sets of events using
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a>
- 
-
- 
 

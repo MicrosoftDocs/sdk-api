@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7bb63396-21c2-400d-b9de-c00b90f46d62
 ms.date: 12/05/2018
 ms.keywords: 7bb63396-21c2-400d-b9de-c00b90f46d62, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], IMFASFStreamConfig interface [Media Foundation],described, mf.imfasfstreamconfig, wmcontainer/IMFASFStreamConfig
-f1_keywords:
-- wmcontainer/IMFASFStreamConfig
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFStreamConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFStreamConfig
+ - wmcontainer/IMFASFStreamConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFStreamConfig
 ---
 
 # IMFASFStreamConfig interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the settings of a stream in an ASF file. The ASF stream configuration object exposes this interface. To obtain a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createstream">IMFASFProfile::CreateStream</a> method.
-
 
 ## -inheritance
 
@@ -159,20 +158,13 @@ Assigns a stream number to the stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

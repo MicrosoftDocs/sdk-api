@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
-f1_keywords:
-- winnt/TpSetCallbackActivationContext
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winnt.h
-api_name:
-- TpSetCallbackActivationContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TpSetCallbackActivationContext
+ - winnt/TpSetCallbackActivationContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winnt.h
+api_name:
+ - TpSetCallbackActivationContext
 ---
 
 # TpSetCallbackActivationContext function
@@ -49,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns an activation context to the callback environment.
 
-
 ## -parameters
-
-
-
 
 ### -param CallbackEnviron [in, out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-tpinitializecallbackenviron">TpInitializeCallbackEnviron</a> function returns this structure.
 
-
 ### -param ActivationContext [in, optional]
 
 Pointer to an <b>_ACTIVATION_CONTEXT</b> structure.
 
-
 ## -remarks
-
-
 
 This function is implemented as an inline function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-tpdestroycallbackenviron">TpDestroyCallbackEnviron</a>
 
@@ -119,7 +105,4 @@ This function is implemented as an inline function.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-tpsetcallbackthreadpool">TpSetCallbackThreadpool</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: c77547ab-e666-4d72-b8ef-4b2f3d61ad38
 ms.date: 12/05/2018
 ms.keywords: ADsSecurityUtility, IADsSecurityDescriptor, IADsSecurityDescriptor interface [ADSI], IADsSecurityDescriptor interface [ADSI],described, _ds_iadssecuritydescriptor, adsi.iadssecuritydescriptor, iads/IADsSecurityDescriptor
-f1_keywords:
-- iads/IADsSecurityDescriptor
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsSecurityDescriptor
-- ADsSecurityUtility
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsSecurityDescriptor
+ - iads/IADsSecurityDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsSecurityDescriptor
+ - ADsSecurityUtility
 ---
 
 # IADsSecurityDescriptor interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsSecurityDescriptor</b> interface provides access to properties on an ADSI security descriptor object.
-
 
 ## -inheritance
 
@@ -247,12 +246,9 @@ Gets and sets the system ACL associated with the security descriptor.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use this interface to examine and change the access controls to an Active Directory directory service object. You can also use it to create copies of a security descriptor. To get this interface, use the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs.Get</a> method to obtain the <b>ntSecurityDescriptor</b> attribute of the object. For more information about how  to create  a new security descriptor and set it on an object, see <a href="https://docs.microsoft.com/windows/desktop/AD/creating-a-security-descriptor-for-a-new-directory-object">Creating a Security Descriptor for a New Directory Object</a> and <a href="https://docs.microsoft.com/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>.
 
@@ -369,14 +365,7 @@ Cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/creating-a-security-descriptor-for-a-new-directory-object">Creating a Security Descriptor for a New Directory
     Object</a>
@@ -396,7 +385,4 @@ Cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>
- 
-
- 
 

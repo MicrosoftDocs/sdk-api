@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\takepicture.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],TakePicture method, IWiaVideo.TakePicture, IWiaVideo::TakePicture, TakePicture, TakePicture method [WIA], TakePicture method [WIA],IWiaVideo interface, _wia_IWiaVideo_TakePicture, wia._wia_IWiaVideo_TakePicture, wiavideo/IWiaVideo::TakePicture
-f1_keywords:
-- wiavideo/IWiaVideo.TakePicture
-dev_langs:
-- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wiavideo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiavideo.dll
-api_name:
-- IWiaVideo.TakePicture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaVideo::TakePicture
+ - wiavideo/IWiaVideo::TakePicture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiavideo.dll
+api_name:
+ - IWiaVideo.TakePicture
 ---
 
 # IWiaVideo::TakePicture
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaVideo::TakePicture</b> method extracts a still image from the video stream, and saves the image as a JPEG file.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrNewImageFilename [out]
 
@@ -64,23 +60,13 @@ Type: <b>BSTR*</b>
 
 Receives the full path and filename of the JPEG file that this method creates.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 The path and directory where the image file is saved are specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-get_imagesdirectory">IWiaVideo::ImagesDirectory</a> property.
-
-
 

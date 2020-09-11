@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 97e7180e-4edb-4edd-915e-0477e7e7a9ff
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRight function [Security], _lsa_lsaenumerateaccountswithuserright, ntsecapi/LsaEnumerateAccountsWithUserRight, security.lsaenumerateaccountswithuserright
-f1_keywords:
-- ntsecapi/LsaEnumerateAccountsWithUserRight
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-lsapolicy-l1-1-0.dll
-- sechost.dll
-- API-MS-Win-Security-LSAPolicy-L1-1-1.dll
-api_name:
-- LsaEnumerateAccountsWithUserRight
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaEnumerateAccountsWithUserRight
+ - ntsecapi/LsaEnumerateAccountsWithUserRight
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-lsapolicy-l1-1-0.dll
+ - sechost.dll
+ - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+api_name:
+ - LsaEnumerateAccountsWithUserRight
 ---
 
 # LsaEnumerateAccountsWithUserRight function
@@ -52,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaEnumerateAccountsWithUserRight</b> function returns the accounts in the database of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object that hold a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privilege</a>. The accounts returned by this function hold the specified privilege directly through the user account, not as part of membership to a group.
 
-
 ## -parameters
-
-
-
 
 ### -param PolicyHandle [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle must have POLICY_LOOKUP_NAMES and POLICY_VIEW_LOCAL_INFORMATION user rights. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
-
 
 ### -param UserRight [in]
 
@@ -79,7 +74,6 @@ Account Rights Constants.
 
 If this parameter is <b>NULL</b>, the function enumerates all accounts in the LSA database of the system associated with the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
-
 ### -param Buffer [out]
 
 Pointer to a variable that receives a pointer to an array of 
@@ -91,15 +85,11 @@ Pointer to a variable that receives a pointer to an array of
 When you no longer need the information, free the memory by passing the returned pointer to 
 the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a> function.
 
-
 ### -param CountReturned [out]
 
 Pointer to a variable that receives the number of entries returned in the <i>EnumerationBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns STATUS_SUCCESS.
 
@@ -139,13 +129,7 @@ There were no accounts with the specified privilege.
 You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> code to a Windows error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_enumeration_information">LSA_ENUMERATION_INFORMATION</a>
 
@@ -160,7 +144,4 @@ You can use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaopenpolicy">LsaOpenPolicy</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: a404d30d-0b42-44c9-93e6-3eb9ef9e40fc
 ms.date: 12/05/2018
 ms.keywords: IWMDRMEditor, IWMDRMEditor interface [windows Media Format], IWMDRMEditor interface [windows Media Format],described, IWMDRMEditorInterface, wmformat.iwmdrmeditor, wmsdkidl/IWMDRMEditor
-f1_keywords:
-- wmsdkidl/IWMDRMEditor
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMDRMEditor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMEditor
+ - wmsdkidl/IWMDRMEditor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMDRMEditor
 ---
 
 # IWMDRMEditor interface
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWMDRMEditor</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
 The <b>IWMDRMEditor</b> interface is exposed on the metadata editor object. It can be obtained by calling <b>QueryInterface</b> from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor</a>. The <b>IWMDRMEditor</b> interface enables applications to examine the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DRM</a> attributes of an ASF file, for example to query the number of times a file is allowed to be played, without having the wmstubdrm.lib static library. The <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader</a> interface contains a similar method, but the application must be linked to a valid wmstubdrm.lib library in order to use that interface.
-
-
-
 
 ## -inheritance
 
@@ -87,12 +84,7 @@ Retrieves the specified DRM property or file attribute.
 
 For information on other interfaces that can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty">IWMDRMReader::GetDRMProperty</a>
 
@@ -107,7 +99,4 @@ For information on other interfaces that can be obtained by using the QueryInter
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/viewing-attributes-of-protected-files">Viewing Attributes of Protected Files</a>
- 
-
- 
 

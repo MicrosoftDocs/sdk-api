@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 756d8fba-d372-46f9-8035-f657d7ff133f
 ms.date: 12/05/2018
 ms.keywords: 756d8fba-d372-46f9-8035-f657d7ff133f, GetString, GetString method [Media Foundation], GetString method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetString method, IMFAttributes.GetString, IMFAttributes::GetString, mf.imfattributes_getstring, mfobjects/IMFAttributes::GetString
-f1_keywords:
-- mfobjects/IMFAttributes.GetString
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAttributes.GetString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAttributes::GetString
+ - mfobjects/IMFAttributes::GetString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAttributes.GetString
 ---
 
 # IMFAttributes::GetString
@@ -50,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a wide-character string associated with a key.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidKey [in]
 
 GUID that identifies which value to retrieve. The attribute type must be <b>MF_ATTRIBUTE_STRING</b>.
 
-
 ### -param pwszValue [out]
 
 Pointer to a wide-character array allocated by the caller. The array must be large enough to hold the string, including the terminating <b>NULL</b> character. If the key is found and the value is a string type, the method copies the string into this buffer. To find the length of the string, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstringlength">IMFAttributes::GetStringLength</a>.
-
 
 ### -param cchBufSize [in]
 
 The size of the <i>pwszValue</i> array, in characters. This value includes the terminating NULL character.
 
-
 ### -param pcchLength [out]
 
 Receives the number of characters in the string, excluding the terminating <b>NULL</b> character. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -149,14 +136,8 @@ The attribute value is not a string.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can also use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedstring">IMFAttributes::GetAllocatedString</a> method, which allocates the buffer to hold the string.
 
@@ -204,14 +185,7 @@ HRESULT AttributeGetString(IMFAttributes *pAttributes)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
@@ -222,7 +196,4 @@ HRESULT AttributeGetString(IMFAttributes *pAttributes)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
- 
-
- 
 

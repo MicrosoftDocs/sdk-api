@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setanimation.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetAnimation method, ITextFont.SetAnimation, ITextFont::SetAnimation, SetAnimation, SetAnimation method [Windows Controls], SetAnimation method [Windows Controls],ITextFont interface, _win32_ITextFont_SetAnimation, _win32_ITextFont_SetAnimation_cpp, controls.ITextFont_SetAnimation, controls._win32_ITextFont_SetAnimation, tom/ITextFont::SetAnimation
-f1_keywords:
-- tom/ITextFont.SetAnimation
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetAnimation
+ - tom/ITextFont::SetAnimation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetAnimation
 ---
 
 # ITextFont::SetAnimation
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the animation type. 
-
+Sets the animation type.
 
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -106,12 +102,8 @@ The animation type. It can be one of the following values.
 <td>8</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -134,15 +126,8 @@ Invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -161,7 +146,4 @@ Invalid argument.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

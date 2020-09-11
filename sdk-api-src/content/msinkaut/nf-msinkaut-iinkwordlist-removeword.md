@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d
 ms.date: 12/05/2018
 ms.keywords: 8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d, IInkWordList, IInkWordList interface [Tablet PC],RemoveWord method, IInkWordList.RemoveWord, IInkWordList::RemoveWord, InkWordList class [Tablet PC],RemoveWord method, RemoveWord, RemoveWord method [Tablet PC], RemoveWord method [Tablet PC],IInkWordList interface, RemoveWord method [Tablet PC],InkWordList class, msinkaut/IInkWordList::RemoveWord, tablet.inkwordlist_removeword
-f1_keywords:
-- msinkaut/IInkWordList.RemoveWord
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkWordList.RemoveWord
-- InkWordList.RemoveWord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkWordList::RemoveWord
+ - msinkaut/IInkWordList::RemoveWord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkWordList.RemoveWord
+ - InkWordList.RemoveWord
 ---
 
 # IInkWordList::RemoveWord
@@ -51,17 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Removes a single word from an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param RemoveWord [in]
 
@@ -69,10 +62,7 @@ The word to remove from the <a href="https://docs.microsoft.com/windows/desktop/
 
 For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -137,24 +127,12 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If a string is added to a word list, its capitalized versions are also implicitly added. For instance, adding "hello" implicitly adds "Hello" and "HELLO". Therefore, removing "hello" also implicitly removes "Hello" and "HELLO". However, if you add "hello" and then try to remove "Hello", the <b>RemoveWord</b> call has no effect, because "Hello" was never explicitly added.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord Method</a>
 
@@ -165,7 +143,4 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
- 
-
- 
 

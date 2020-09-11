@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 259f6c3d-73ec-4110-801a-c83ffca0f830
 ms.date: 12/05/2018
 ms.keywords: IADsPrintJobOperations, IADsPrintJobOperations interface [ADSI], IADsPrintJobOperations interface [ADSI],described, _ds_iadsprintjoboperations, adsi.iadsprintjoboperations, iads/IADsPrintJobOperations
-f1_keywords:
-- iads/IADsPrintJobOperations
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPrintJobOperations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPrintJobOperations
+ - iads/IADsPrintJobOperations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPrintJobOperations
 ---
 
 # IADsPrintJobOperations interface
 
 
 ## -description
-
 
 The <b>IADsPrintJobOperations</b> interface is a dual 
     interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is used to control a print job 
@@ -326,13 +326,9 @@ Tracks the elapsed time, in seconds, since the job started printing.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -343,7 +339,4 @@ Tracks the elapsed time, in seconds, since the job started printing.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

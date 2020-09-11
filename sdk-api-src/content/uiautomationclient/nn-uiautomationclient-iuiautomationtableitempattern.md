@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 8e9948ec-7c31-45dd-ac9f-e9eafed9d2db
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTableItemPattern, IUIAutomationTableItemPattern interface [Windows Accessibility], IUIAutomationTableItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTableItemPattern, uiauto_IUIAutomationTableItemPattern, uiautomationclient/IUIAutomationTableItemPattern, winauto.uiauto_IUIAutomationTableItemPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationTableItemPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationTableItemPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTableItemPattern
+ - uiautomationclient/IUIAutomationTableItemPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationTableItemPattern
 ---
 
 # IUIAutomationTableItemPattern interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides access to a  child element in a container that supports <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtablepattern">IUIAutomationTablePattern</a>. 
-
-
+Provides access to a  child element in a container that supports <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtablepattern">IUIAutomationTablePattern</a>.
 
 ## -inheritance
 
@@ -105,26 +103,13 @@ Retrieves the row headers associated with a table item or cell.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Elements that support this interface must also support <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a>, to provide properties that are not specific to tables.
-	
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
 

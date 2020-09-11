@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: b6eb5c03-dd6e-42ef-a020-cf0d61143040
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_ENUM_ALL, CLUSTER_ENUM_GROUP, CLUSTER_ENUM_INTERNAL_NETWORK, CLUSTER_ENUM_NETINTERFACE, CLUSTER_ENUM_NETWORK, CLUSTER_ENUM_NODE, CLUSTER_ENUM_RESOURCE, CLUSTER_ENUM_RESTYPE, CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, ClusterOpenEnum, ClusterOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_OPEN_ENUM, PCLUSAPI_CLUSTER_OPEN_ENUM function [Failover Cluster], _wolf_clusteropenenum, clusapi/ClusterOpenEnum, clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM, mscs.clusteropenenum
-f1_keywords:
-- clusapi/ClusterOpenEnum
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- ClusterOpenEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterOpenEnum
+ - clusapi/ClusterOpenEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - ClusterOpenEnum
 ---
 
 # ClusterOpenEnum function
@@ -53,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an enumerator for iterating through 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> in a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The 
     <b>PCLUSAPI_CLUSTER_OPEN_ENUM</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 A handle to a cluster.
-
 
 ### -param dwType [in]
 
@@ -141,10 +136,7 @@ Enumerates the networks that are used by the cluster for internal communication.
 
 Enumerates all cluster objects.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>ClusterOpenEnum</b> 
        returns a handle to a cluster enumerator.
@@ -152,12 +144,7 @@ If the operation succeeds, <b>ClusterOpenEnum</b>
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
        error, call the function <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Applications call the <b>ClusterOpenEnum</b> function to 
      create a particular type of enumerator. 
@@ -179,12 +166,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
 
@@ -199,7 +181,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusternetworkpriorityorder">SetClusterNetworkPriorityOrder</a>
- 
-
- 
 

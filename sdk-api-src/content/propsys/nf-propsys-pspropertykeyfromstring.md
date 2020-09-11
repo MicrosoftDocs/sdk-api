@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 9096912a-14ad-4a45-a564-08f98fce3f96
 ms.date: 12/05/2018
 ms.keywords: PSPropertyKeyFromString, PSPropertyKeyFromString function [Windows Properties], _shell_PSPropertyKeyFromString, properties.PSPropertyKeyFromString, propsys/PSPropertyKeyFromString, shell.PSPropertyKeyFromString
-f1_keywords:
-- propsys/PSPropertyKeyFromString
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSPropertyKeyFromString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSPropertyKeyFromString
+ - propsys/PSPropertyKeyFromString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSPropertyKeyFromString
 ---
 
 # PSPropertyKeyFromString function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a string to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param pszString [in]
 
@@ -64,28 +60,19 @@ Type: <b>LPCWSTR</b>
 
 Pointer to a null-terminated, Unicode string to be converted.
 
-
 ### -param pkey [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
 When this function returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The string to be converted must be formatted as <code>"{fmtid} pid"</code>. For instance, the string that corresponds to <code>PKEY_Title</code> is: <code>"{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 2"</code>. <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psstringfrompropertykey">PSStringFromPropertyKey</a> outputs strings in this format.
 
@@ -108,21 +95,11 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertykeyfromname">PSGetPropertyKeyFromName</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psstringfrompropertykey">PSStringFromPropertyKey</a>
- 
-
- 
 

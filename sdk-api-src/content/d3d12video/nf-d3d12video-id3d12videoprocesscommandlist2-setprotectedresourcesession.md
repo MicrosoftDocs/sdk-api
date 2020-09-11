@@ -6,7 +6,6 @@ tech.root: mf
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -35,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoProcessCommandList2::SetProtectedResourceSession
 f1_keywords:
+ - ID3D12VideoProcessCommandList2::SetProtectedResourceSession
  - d3d12video/ID3D12VideoProcessCommandList2::SetProtectedResourceSession
 dev_langs:
  - c++

@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: a092dbba-57a4-4deb-be05-26cfa29e33aa
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgressChangedCallback, IInstallationProgressChangedCallback interface [Windows Update Agent], IInstallationProgressChangedCallback interface [Windows Update Agent],described, wua.iinstallationprogresschangedcallback, wuapi/IInstallationProgressChangedCallback
-f1_keywords:
-- wuapi/IInstallationProgressChangedCallback
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationProgressChangedCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationProgressChangedCallback
+ - wuapi/IInstallationProgressChangedCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationProgressChangedCallback
 ---
 
 # IInstallationProgressChangedCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogresschangedcallback-invoke">Invoke</a> method that handles the notification about the on-going progress of an asynchronous installation or uninstallation. This interface is implemented by programmers who call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> method.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Handles the notification of the change of progress of an asynchronous installati
 
 </td>
 </tr>
-</table> 
+</table>
 

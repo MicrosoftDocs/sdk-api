@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 621C732E-9A42-455C-A1A8-F1997D6EF0D7
 ms.date: 12/05/2018
 ms.keywords: LookupPersistentUdpPortReservation, LookupPersistentUdpPortReservation function [IP Helper], iphlp.lookuppersistentudpportreservation, iphlpapi/LookupPersistentUdpPortReservation
-f1_keywords:
-- iphlpapi/LookupPersistentUdpPortReservation
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- LookupPersistentUdpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LookupPersistentUdpPortReservation
+ - iphlpapi/LookupPersistentUdpPortReservation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - LookupPersistentUdpPortReservation
 ---
 
 # LookupPersistentUdpPortReservation function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>LookupPersistentUdpPortReservation</b> function looks up the token for a persistent UDP port reservation for a consecutive block of TCP ports on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param StartPort [in]
 
-The starting UDP port number in network byte order. 
-
+The starting UDP port number in network byte order.
 
 ### -param NumberOfPorts [in]
 
 The number of UDP port numbers that were reserved.
 
-
 ### -param Token [out]
 
 A pointer to a port reservation token that is returned if the function succeeds.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -122,14 +113,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>LookupPersistentUdpPortReservation</b>  function is defined on Windows Vista and later. 
 
@@ -141,15 +126,9 @@ If the <b>LookupPersistentUdpPortReservation</b> function succeeds, the <i>Token
 
 
 
-An application can request port assignments from the UDP port reservation by opening a UDP socket, then calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function specifying the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a> IOCTL and passing the reservation token before issuing a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function on the socket. 
-
-
-
+An application can request port assignments from the UDP port reservation by opening a UDP socket, then calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function specifying the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a> IOCTL and passing the reservation token before issuing a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function on the socket.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
 
@@ -172,7 +151,4 @@ An application can request port assignments from the UDP port reservation by ope
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
- 
-
- 
 

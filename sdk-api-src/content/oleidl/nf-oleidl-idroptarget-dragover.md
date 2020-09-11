@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e
 ms.date: 12/05/2018
 ms.keywords: DragOver, DragOver method [COM], DragOver method [COM],IDropTarget interface, IDropTarget interface [COM],DragOver method, IDropTarget.DragOver, IDropTarget::DragOver, _ole_idroptarget_dragover, com.idroptarget_dragover, oleidl/IDropTarget::DragOver
-f1_keywords:
-- oleidl/IDropTarget.DragOver
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IDropTarget.DragOver
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDropTarget::DragOver
+ - oleidl/IDropTarget::DragOver
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IDropTarget.DragOver
 ---
 
 # IDropTarget::DragOver
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides target feedback to the user and communicates the drop's effect to the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function so it can communicate the effect of the drop back to the source.
 
-
 ## -parameters
-
-
-
 
 ### -param grfKeyState [in]
 
 The current state of the keyboard modifier keys on the keyboard. Valid values can be a combination of any of the flags MK_CONTROL, MK_SHIFT, MK_ALT, MK_BUTTON, MK_LBUTTON, MK_MBUTTON, and MK_RBUTTON.
 
-
 ### -param pt [in]
 
 A <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
-
 
 ### -param pdwEffect [in, out]
 
 On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. On return, must contain one of the <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible values include the following.
 
@@ -118,14 +109,8 @@ There was insufficient memory available for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You do not call <b>DragOver</b> directly. The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method each time the user moves the mouse across a given target window. <b>DoDragDrop</b> exits the loop if the drag-and-drop operation is canceled, if the user drags the mouse out of the target window, or if the drop is completed.
 
@@ -178,13 +163,7 @@ When <b>IDropTarget::DragOver</b> has completed its operation, the <a href="http
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 This function is called frequently during the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> loop so it makes sense to optimize your implementation of the <b>DragOver</b> method as much as possible.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
@@ -207,7 +186,4 @@ This function is called frequently during the <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
- 
-
- 
 

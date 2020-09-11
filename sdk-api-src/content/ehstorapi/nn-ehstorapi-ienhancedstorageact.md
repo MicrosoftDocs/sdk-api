@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: 33d5df30-f877-4852-ad2f-af1bb58d0044
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], IEnhancedStorageACT interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageACT, enstor.ienhancedstorageact
-f1_keywords:
-- ehstorapi/IEnhancedStorageACT
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageACT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageACT
+ - ehstorapi/IEnhancedStorageACT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageACT
 ---
 
 # IEnhancedStorageACT interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to obtain information and perform operations for an 1667 Addressable Contact Target (ACT).
-
 
 ## -inheritance
 
@@ -113,16 +112,9 @@ Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> sta
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 5e47cc72-4179-4ebe-8700-87861146b3d7
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringAlloc, PropVariantToStringAlloc function [Windows Properties], _shell_PropVariantToStringAlloc, properties.PropVariantToStringAlloc, propvarutil/PropVariantToStringAlloc, shell.PropVariantToStringAlloc
-f1_keywords:
-- propvarutil/PropVariantToStringAlloc
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToStringAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToStringAlloc
+ - propvarutil/PropVariantToStringAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToStringAlloc
 ---
 
 # PropVariantToStringAlloc function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts a string property value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param propvar [in]
 
@@ -64,28 +60,19 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param ppszOut [out]
 
 Type: <b>PWSTR*</b>
 
 When this function returns, contains a pointer to the extracted property value if one exists.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a string value.
 
@@ -146,14 +133,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstring">InitPropVariantFromString</a>
 
@@ -172,7 +152,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostring">VariantToString</a>
- 
-
- 
 

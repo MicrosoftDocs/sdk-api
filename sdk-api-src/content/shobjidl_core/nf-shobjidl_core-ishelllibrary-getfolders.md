@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 19abc4f9-5123-4dd9-9606-21b52e28854b
 ms.date: 12/05/2018
 ms.keywords: GetFolders, GetFolders method [Windows Shell], GetFolders method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetFolders method, IShellLibrary.GetFolders, IShellLibrary::GetFolders, LFF_ALLITEMS, LFF_FORCEFILESYSTEM, LFF_STORAGEITEMS, _shell_IShellLibrary_GetFolders, shell.IShellLibrary_GetFolders, shobjidl_core/IShellLibrary::GetFolders
-f1_keywords:
-- shobjidl_core/IShellLibrary.GetFolders
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellLibrary.GetFolders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLibrary::GetFolders
+ - shobjidl_core/IShellLibrary::GetFolders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellLibrary.GetFolders
 ---
 
 # IShellLibrary::GetFolders
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the set of child folders that are contained in the library.
 
-
 ## -parameters
-
-
-
 
 ### -param lff [in]
 
@@ -82,13 +78,11 @@ Get all folders that can be bound to <a href="https://docs.microsoft.com/windows
 
 Get all folders in the library.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 A reference to the IID of the interface to  get in  <i>ppv</i>. This value is typically IID_IShellItemArray,  but it can also be IID_IObjectCollection, IID_IObjectArray, or the IID of any other interface that is implemented by CShellItemArray.
-
 
 ### -param ppv [out]
 
@@ -96,10 +90,7 @@ Type: <b>void**</b>
 
  A pointer to the interface  requested in <i>riid</i>. If this  call fails, this value is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -144,26 +135,14 @@ This method can return other error values.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method gets   an ordered list of folders. By default, this method only returns storage locations.
 
 For best results, use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h,  for  the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>
 
@@ -226,7 +205,4 @@ For best results, use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h,  for 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
- 
-
- 
 

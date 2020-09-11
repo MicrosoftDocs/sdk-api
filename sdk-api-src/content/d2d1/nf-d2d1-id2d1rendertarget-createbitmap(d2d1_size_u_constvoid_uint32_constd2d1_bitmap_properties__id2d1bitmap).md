@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 0d5df705-50c5-4fe1-b02c-3458b1cf6c12
 ms.date: 12/05/2018
 ms.keywords: CreateBitmap, CreateBitmap method [Direct2D], CreateBitmap method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateBitmap method, ID2D1RenderTarget.CreateBitmap, ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES &,ID2D1Bitmap), ID2D1RenderTarget::CreateBitmap, ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES &,ID2D1Bitmap), d2d1/ID2D1RenderTarget::CreateBitmap, direct2d.ID2D1RenderTarget_CreateBitmap_D2D_SIZE_U_ptr_void_UINT32_ref_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap
-f1_keywords:
-- d2d1/ID2D1RenderTarget.CreateBitmap
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.CreateBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::CreateBitmap
+ - d2d1/ID2D1RenderTarget::CreateBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.CreateBitmap
 ---
 
 ## -description
@@ -89,3 +90,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+

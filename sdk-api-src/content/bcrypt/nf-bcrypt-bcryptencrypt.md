@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 69fe4530-4b7c-40db-a85c-f9dc458735e7
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptEncrypt, BCryptEncrypt function [Security], bcrypt/BCryptEncrypt, security.bcryptencrypt_func
-f1_keywords:
-- bcrypt/BCryptEncrypt
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptEncrypt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptEncrypt
+ - bcrypt/BCryptEncrypt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptEncrypt
 ---
 
 # BCryptEncrypt function
@@ -50,34 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptEncrypt</b> function encrypts a block of data.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in, out]
 
 The handle of the key to use to encrypt the data. This handle is obtained from one of the key creation functions, such as <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgeneratesymmetrickey">BCryptGenerateSymmetricKey</a>, <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair">BCryptGenerateKeyPair</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>.
 
-
 ### -param pbInput [in]
 
 The address of a buffer that contains the plaintext to be encrypted. The <i>cbInput</i> parameter contains the size of the plaintext to encrypt. For more information, see Remarks.
-
 
 ### -param cbInput [in]
 
 The number of bytes in the <i>pbInput</i> buffer to encrypt.
 
-
 ### -param pPaddingInfo [in, optional]
 
 A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an  authenticated encryption mode is used, this parameter must point to a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_authenticated_cipher_mode_info">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <i>dwFlags</i> parameter. Otherwise, the parameter  must be set to <b>NULL</b>.
-
 
 ### -param pbIV [in, out, optional]
 
@@ -87,11 +79,9 @@ This parameter is optional and can be <b>NULL</b> if no IV is used.
 
  The required size of the IV can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a> function to get the <b>BCRYPT_BLOCK_LENGTH</b> property. This will provide the size of a block for the algorithm, which is also the size of the IV.
 
-
 ### -param cbIV [in]
 
 The size, in bytes, of the <i>pbIV</i> buffer.
-
 
 ### -param pbOutput [out, optional]
 
@@ -101,16 +91,13 @@ If this parameter is <b>NULL</b>, the <b>BCryptEncrypt</b> function calculates t
 
 If the values of both the <i>pbOutput</i> and <i>pbInput</i> parameters are <b>NULL</b>, an error is returned unless  an authenticated encryption algorithm is in use. In the latter case, the call is treated as an authenticated encryption call with zero length data, and the authentication tag is returned in the <i>pPaddingInfo</i> parameter.
 
-
 ### -param cbOutput [in]
 
 The size, in bytes, of the <i>pbOutput</i> buffer. This parameter is ignored if the <i>pbOutput</i> parameter is <b>NULL</b>.
 
-
 ### -param pcbResult [out]
 
 A pointer to a <b>ULONG</b> variable that receives the number of bytes copied to the <i>pbOutput</i> buffer. If <i>pbOutput</i> is <b>NULL</b>, this receives the size, in bytes, required for the ciphertext.
-
 
 ### -param dwFlags [in]
 
@@ -184,12 +171,8 @@ The data will be padded with a random number to round out the block size. The <i
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -270,14 +253,8 @@ The algorithm does not support encryption.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pbInput</i> and <i>pbOutput</i> parameters can be equal. In this case, this function will perform the encryption in place. It is possible that the encrypted data size will be larger than the unencrypted data size, so the buffer must be large enough to hold the encrypted data. If <i>pbInput</i> and <i>pbOutput</i> are not equal then the two buffers may not overlap.
 
@@ -285,18 +262,7 @@ Depending on what processor modes a provider supports, <b>BCryptEncrypt</b> can 
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdecrypt">BCryptDecrypt</a>
- 
-
- 
 

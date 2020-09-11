@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 825a80c9-8023-4b7f-a303-f1eaa650e1d8
 ms.date: 12/05/2018
 ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_rasgetlinkstatistics, ras/RasGetLinkStatistics, rras.rasgetlinkstatistics
-f1_keywords:
-- ras/RasGetLinkStatistics
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasGetLinkStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetLinkStatistics
+ - ras/RasGetLinkStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasGetLinkStatistics
 ---
 
 # RasGetLinkStatistics function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetLinkStatistics</b> function retrieves accumulated statistics for the specified link in a RAS multilink connection.
 
-
 ## -parameters
-
-
-
 
 ### -param hRasConn [in]
 
@@ -65,11 +61,9 @@ Handle to the connection. Use
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> to obtain this handle.
 
-
 ### -param dwSubEntry [in]
 
 Specifies the subentry that corresponds to the link for which to retrieve statistics.
-
 
 ### -param lpStatistics [in, out]
 
@@ -84,10 +78,7 @@ On input, the <b>dwSize</b> member of this structure specifies the size of
 
 This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -134,15 +125,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasclearlinkstatistics">RasClearLinkStatistics</a>
 
@@ -165,7 +149,4 @@ Use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

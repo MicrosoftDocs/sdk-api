@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 5be4c315-0e47-44ec-970c-855f302b355c
 ms.date: 12/05/2018
 ms.keywords: CMP_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents function [Device and Driver Installation], cfgmgr32/CM_WaitNoPendingInstallEvents, cfgmgrfn_096076fd-3ea8-42cb-9b51-ea551bde863d.xml, devinst.cmp_waitnopendinginstallevents
-f1_keywords:
-- cfgmgr32/CM_WaitNoPendingInstallEvents
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cfgmgr32.dll
-- setupapi.dll
-api_name:
-- CM_WaitNoPendingInstallEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_WaitNoPendingInstallEvents
+ - cfgmgr32/CM_WaitNoPendingInstallEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cfgmgr32.dll
+ - setupapi.dll
+api_name:
+ - CM_WaitNoPendingInstallEvents
 ---
 
 # CM_WaitNoPendingInstallEvents function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CMP_WaitNoPendingInstallEvents</b> (CM_WaitNoPendingInstallEvents) function waits until there are no pending device installation activities for the PnP manager to perform.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTimeout [in]
 
@@ -79,8 +75,6 @@ For all other <i>dwTimeout</i> values, the function returns when the specified i
 </ul>
 
 ## -returns
-
-
 
 The function returns one of the following values (defined in <i>Winbase.h</i>):
 
@@ -123,14 +117,8 @@ The function failed. Call <a href="https://msdn.microsoft.com/library/ms679360(V
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The function waits for an internal event object, which the PnP manager sets when it determines that no installation activities are pending.
 
@@ -144,16 +132,7 @@ Do not call this function while processing any events inside of a system-initiat
 
 For Windows XP (with no service pack installed), this function must be called from <a href="https://docs.microsoft.com/windows-hardware/drivers/">session zero</a>, with administrator privileges. For Windows XP with Service Pack 1 (SP1) and later versions of Windows, the function can be called from any session, and administrator privileges are not required.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/cm-waitnopendinginstallevents">CM_WaitNoPendingInstallEvents</a>
- 
-
- 
 

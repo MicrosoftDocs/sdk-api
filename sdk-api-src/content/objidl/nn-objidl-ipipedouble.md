@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 434d0e0e-55a0-4a08-bc63-ebca4b2bdcca
 ms.date: 12/05/2018
 ms.keywords: IPipeDouble, IPipeDouble interface [COM], IPipeDouble interface [COM],described, _com_ipipedouble, com.ipipedouble, objidlbase/IPipeDouble
-f1_keywords:
-- objidl/IPipeDouble
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IPipeDouble
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPipeDouble
+ - objidl/IPipeDouble
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IPipeDouble
 ---
 
 # IPipeDouble interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Transfers data of the double type (which is 64 bits wide). 
-
+Transfers data of the double type (which is 64 bits wide).
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Sends data of the double integer type to the pipe source.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipebyte">IPipeByte</a>, <b>IPipeDouble</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipelong">IPipeLong</a> interfaces are similar to the standard DCE/RPC pipes. However, the COM implementation of pipes offers more flexibility. With the COM implementation, the basic idea is that the pipe is simply another interface with two methods: <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipedouble-pull">Pull</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipipedouble-push">Push</a>. This results in three main benefits: 
 
@@ -105,20 +101,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipi
 </ul>
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/pipes">Pipes</a> in the RPC documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipebyte">IPipeByte</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipelong">IPipeLong</a>
- 
-
- 
 

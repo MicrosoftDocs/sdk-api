@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 4fda7f64-130c-42c8-a671-2e24bdd0b09b
 ms.date: 12/05/2018
 ms.keywords: AM_ReverseBlockEnd, AM_ReverseBlockStart, AM_SAMPLE2_PROPERTIES, AM_SAMPLE2_PROPERTIES structure [DirectShow], AM_SAMPLE2_PROPERTIESStructure, AM_UseNewCSSKey, AM_VIDEO_FLAG_FIELD1, AM_VIDEO_FLAG_FIELD1FIRST, AM_VIDEO_FLAG_FIELD2, AM_VIDEO_FLAG_FIELD_MASK, AM_VIDEO_FLAG_INTERLEAVED_FRAME, AM_VIDEO_FLAG_REPEAT_FIELD, AM_VIDEO_FLAG_WEAVE, dshow.am_sample2_properties, strmif/AM_SAMPLE2_PROPERTIES
-f1_keywords:
-- strmif/AM_SAMPLE2_PROPERTIES
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- AM_SAMPLE2_PROPERTIES
 targetos: Windows
 req.typenames: AM_SAMPLE2_PROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagAM_SAMPLE2_PROPERTIES
+ - strmif/tagAM_SAMPLE2_PROPERTIES
+ - AM_SAMPLE2_PROPERTIES
+ - strmif/AM_SAMPLE2_PROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - AM_SAMPLE2_PROPERTIES
 ---
 
 # AM_SAMPLE2_PROPERTIES structure
@@ -49,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AM_SAMPLE2_PROPERTIES</b> structure describes the properties of a media sample. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample2">IMediaSample2</a> interface uses this structure.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbData
 
 Length of property data, in bytes. This structure member is for extensibility.
-
 
 ### -field dwTypeSpecificFlags
 
@@ -194,54 +188,39 @@ Previously, the DVD Navigator incorrectly sent this key before negotiating the d
 
 Other flags are defined but not currently used. See dvdmedia.h.
 
-
 ### -field dwSampleFlags
 
 Bitwise combination of flags the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags">AM_SAMPLE_PROPERTY_FLAGS</a> enumerated data type. Undefined bits are reserved and must be zero.
-
 
 ### -field lActual
 
 Length of the valid data in the buffer.
 
-
 ### -field tStart
 
 Start time, if valid. The <b>dwSampleFlags</b> member specifies whether this member is valid.
-
 
 ### -field tStop
 
 Stop time, if valid. The <b>dwSampleFlags</b> member specifies whether this member is valid.
 
-
 ### -field dwStreamId
 
 Stream identifier. If the value is AM_STREAM_MEDIA, the stream contains media data. If the value is AM_STREAM_CONTROL, the stream contains control information. Applications can define values of 0x80000000 or greater for their own use. (See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags">AM_SAMPLE_PROPERTY_FLAGS</a>.)
-
 
 ### -field pMediaType
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type if the format has changed. If this format has not changed, this member is <b>NULL</b>.
 
-
 ### -field pbBuffer
 
 Pointer to the sample buffer.
-
 
 ### -field cbBuffer
 
 Size of the sample buffer, in bytes.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
 

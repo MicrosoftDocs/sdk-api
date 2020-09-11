@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8d03e102-3f8a-4aa7-b175-0a6781eedea7
 ms.date: 12/05/2018
 ms.keywords: DestroyEnvironmentBlock, DestroyEnvironmentBlock function [Windows Shell], _shell_DestroyEnvironmentBlock, shell.DestroyEnvironmentBlock, userenv/DestroyEnvironmentBlock
-f1_keywords:
-- userenv/DestroyEnvironmentBlock
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- DestroyEnvironmentBlock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DestroyEnvironmentBlock
+ - userenv/DestroyEnvironmentBlock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - DestroyEnvironmentBlock
 ---
 
 # DestroyEnvironmentBlock function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees environment variables created by the <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpEnvironment [in]
 
@@ -65,22 +61,13 @@ Type: <b>LPVOID</b>
 Pointer to the environment block created by 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a>. The environment block is an array of null-terminated Unicode strings. The list ends with two nulls (\0\0).
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a>
 
@@ -91,7 +78,4 @@ Type: <b>BOOL</b>
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
- 
-
- 
 

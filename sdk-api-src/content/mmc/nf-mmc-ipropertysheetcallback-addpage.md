@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: db19fc38-7111-42f2-83a9-a08473a4d49b
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [MMC], AddPage method [MMC],IPropertySheetCallback interface, IPropertySheetCallback interface [MMC],AddPage method, IPropertySheetCallback.AddPage, IPropertySheetCallback::AddPage, _slate_ipropertysheetcallback_addpage, mmc.ipropertysheetcallback_addpage, mmc/IPropertySheetCallback::AddPage
-f1_keywords:
-- mmc/IPropertySheetCallback.AddPage
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IPropertySheetCallback.AddPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySheetCallback::AddPage
+ - mmc/IPropertySheetCallback::AddPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IPropertySheetCallback.AddPage
 ---
 
 # IPropertySheetCallback::AddPage
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPropertySheetCallback::AddPage</b> method enables a snap-in to add a page to a property sheet.
 
-
 ## -parameters
-
-
-
 
 ### -param hPage [in]
 
@@ -64,19 +60,11 @@ A value that specifies the handle to the page to be added. The hPage parameter i
 <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v3">PROPSHEETPAGE</a> structure created by the Windows API 
 <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 The snap-in cannot call 
 AddPage from within a property page handler because the property page is created and runs on a secondary thread. A snap-in cannot call an MMC interface from a different thread than the one in which the snap-in was created. The correct place to call 
@@ -90,16 +78,7 @@ AddPage to add the primary pages and then call <a href="https://docs.microsoft.c
 
 Pages are added to the sheet in the order in which they are presented. The primary snap-in's pages are always added first.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetcallback">IPropertySheetCallback</a>
- 
-
- 
 

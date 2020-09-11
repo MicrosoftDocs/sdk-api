@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 248022e7-c6cf-4c46-be94-ee1b79b9f39a
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallInfoString method, ITCallInfo.get_CallInfoString, ITCallInfo::get_CallInfoString, _tapi3_itcallinfo_get_callinfostring, get_CallInfoString, get_CallInfoString method [TAPI 2.2], get_CallInfoString method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callinfostring, tapi3if/ITCallInfo::get_CallInfoString
-f1_keywords:
-- tapi3if/ITCallInfo.get_CallInfoString
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallInfo.get_CallInfoString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallInfo::get_CallInfoString
+ - tapi3if/ITCallInfo::get_CallInfoString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallInfo.get_CallInfoString
 ---
 
 # ITCallInfo::get_CallInfoString
@@ -49,30 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_CallInfoString</b> method gets call information items described by a string, such as the displayable address.
 
-
 ## -parameters
-
-
-
 
 ### -param CallInfoString [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_string">CALLINFO_STRING</a> indicator of information type needed, such as CIS_DISPLAYABLEADDRESS.
-
 
 ### -param ppCallInfoString [out]
 
 Pointer to <b>BSTR</b> representation of needed string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -138,26 +129,13 @@ The current
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application must use 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppCallInfoString</i> parameter.
-			
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_string">CALLINFO_STRING</a>
 
@@ -172,7 +150,4 @@ The application must use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring">put_CallInfoString</a>
- 
-
- 
 

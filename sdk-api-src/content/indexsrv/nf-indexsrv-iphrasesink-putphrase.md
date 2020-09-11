@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: 5E1762A8-8CC9-4EAE-BC79-91672994C1E3
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink interface [search],PutPhrase method, IPhraseSink.PutPhrase, IPhraseSink::PutPhrase, PutPhrase, PutPhrase method [search], PutPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutPhrase, search.iphrasesink_putphrase
-f1_keywords:
-- indexsrv/IPhraseSink.PutPhrase
-dev_langs:
-- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Indexsrv.h
-api_name:
-- IPhraseSink.PutPhrase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhraseSink::PutPhrase
+ - indexsrv/IPhraseSink::PutPhrase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Indexsrv.h
+api_name:
+ - IPhraseSink.PutPhrase
 ---
 
 # IPhraseSink::PutPhrase
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Puts a query-time phrase in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> object.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pwcPhrase [in]
 
 A pointer to a buffer that contains a phrase.
 
-
 ### -param cwcPhrase [in]
 
 The number of characters in <i>pwcPhrase</i>. There is no limit on the size of a query-time phrase.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -104,29 +95,12 @@ The operation was completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>PutPhrase</b> is called by the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementation. Phrases that the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> object handles are used by Windows Search to expand the original query text.
-
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a>
- 
-
- 
 

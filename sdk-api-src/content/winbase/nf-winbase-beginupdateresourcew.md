@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\beginupdateresource.htm
 ms.date: 12/05/2018
 ms.keywords: BeginUpdateResource, BeginUpdateResource function [Menus and Other Resources], BeginUpdateResourceA, BeginUpdateResourceW, _win32_BeginUpdateResource, _win32_beginupdateresource_cpp, menurc.beginupdateresource, winbase/BeginUpdateResource, winbase/BeginUpdateResourceA, winbase/BeginUpdateResourceW, winui._win32_beginupdateresource
-f1_keywords:
-- winbase/BeginUpdateResource
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- BeginUpdateResource
-- BeginUpdateResourceA
-- BeginUpdateResourceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BeginUpdateResourceW
+ - winbase/BeginUpdateResourceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - BeginUpdateResource
+ - BeginUpdateResourceA
+ - BeginUpdateResourceW
 ---
 
 # BeginUpdateResourceW function
@@ -51,43 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a handle that can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function to add, delete, or replace resources in a binary module.
 
-
 ## -parameters
-
-
-
 
 ### -param pFileName [in]
 
 Type: <b>LPCTSTR</b>
 
-The binary file in which to update resources. An application must be able to obtain write-access to this file; the file referenced by <i>pFileName</i> cannot be currently executing. If <i>pFileName</i> does not specify a full path, the system searches for the file in the current directory. 
-
+The binary file in which to update resources. An application must be able to obtain write-access to this file; the file referenced by <i>pFileName</i> cannot be currently executing. If <i>pFileName</i> does not specify a full path, the system searches for the file in the current directory.
 
 ### -param bDeleteExistingResources [in]
 
 Type: <b>BOOL</b>
 
-Indicates whether to delete the <i>pFileName</i> parameter's existing resources. If this parameter is <b>TRUE</b>, existing resources are deleted and the updated file includes only resources added with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function. If this parameter is <b>FALSE</b>, the updated file includes existing resources unless they are explicitly deleted or replaced by using <b>UpdateResource</b>. 
-
+Indicates whether to delete the <i>pFileName</i> parameter's existing resources. If this parameter is <b>TRUE</b>, existing resources are deleted and the updated file includes only resources added with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function. If this parameter is <b>FALSE</b>, the updated file includes existing resources unless they are explicitly deleted or replaced by using <b>UpdateResource</b>.
 
 ## -returns
-
-
 
 Type: <b>HANDLE</b>
 
 If the function succeeds, the return value is a handle that can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a> functions. The return value is <b>NULL</b> if the specified file is not a PE, the file does not exist, or the file cannot be opened for writing. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 It is recommended that the resource file is not loaded before this function is called. However, if that file is already loaded, it will not cause an error to be returned.
 
@@ -111,9 +98,6 @@ For an example see, <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -131,7 +115,4 @@ For an example see, <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>
- 
-
- 
 

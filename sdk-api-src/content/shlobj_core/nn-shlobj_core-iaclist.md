@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 66513683-38ca-4b19-88d5-d14bf7ae73eb
 ms.date: 12/05/2018
 ms.keywords: IACList, IACList interface [Windows Shell], IACList interface [Windows Shell],described, _win32_IACList, shell.IACList, shlobj_core/IACList
-f1_keywords:
-- shlobj_core/IACList
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IACList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IACList
+ - shlobj_core/IACList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IACList
 ---
 
 # IACList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that improves the efficiency of <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">autocompletion</a> when the candidate strings are organized in a hierarchy.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Requests that the autocompletion client generate candidate strings associated wi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Autocompletion typically requires the following three components:
 		
@@ -108,5 +104,4 @@ The <b>IACList</b> interface is exported by autocompletion list objects to help 
 <li>The autocomplete object calls the list object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface again to request a new list of strings. If the partial string matches one of the top-level items in the namespace, the list object returns the names of the items that fall immediately under the selected item. For instance, if the user has entered "C:\Program Files\", the list object returns the names of the files and folders contained in that directory. If the name passed to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iaclist-expand">IACList::Expand</a> does not match any top-level item, the list object can simply stop returning strings until the autocomplete object calls <b>IACList::Expand</b> with a string that is in the list object's namespace.</li>
 <li>The process continues until the user selects a string, typically by pressing the <b>ENTER</b> key.</li>
 </ol>
-
 

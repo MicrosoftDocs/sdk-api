@@ -8,10 +8,6 @@ tech.root: battery
 ms.assetid: b74466e0-d900-49c6-a92e-d10a994fa948
 ms.date: 12/05/2018
 ms.keywords: BatteryClassStatusNotify, BatteryClassStatusNotify function [Battery Devices], bat-rtn_3e9d25d2-bd07-419a-80a5-98fcc08faedd.xml, batclass/BatteryClassStatusNotify, battery.batteryclassstatusnotify
-f1_keywords:
-- batclass/BatteryClassStatusNotify
-dev_langs:
-- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Battc.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Battc.lib
-- Battc.dll
-api_name:
-- BatteryClassStatusNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BatteryClassStatusNotify
+ - batclass/BatteryClassStatusNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Battc.lib
+ - Battc.dll
+api_name:
+ - BatteryClassStatusNotify
 ---
 
 # BatteryClassStatusNotify function
@@ -50,32 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>BatteryClassStatusNotify</b> notifies the battery class driver of changes in battery status.
 
-
 ## -parameters
-
-
-
 
 ### -param ClassData [in]
 
 Pointer to a battery class handle previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
 
-
 ## -returns
-
-
 
 <b>BatteryClassStatusNotify</b> returns STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 Battery miniclass drivers must call <b>BatteryClassStatusNotify</b> whenever any of the following occur:
 
@@ -99,20 +87,11 @@ The battery's capacity or power state deviates from the criteria set by a previo
 </ul>
 The battery class driver queues status requests internally. If any such requests are pending when the miniclass driver calls <b>BatteryClassStatusNotify</b>, the class driver immediately calls the miniclass driver's <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_status_callback">BatteryMiniQueryStatus</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_status_callback">BatteryMiniQueryStatus</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>
- 
-
- 
 

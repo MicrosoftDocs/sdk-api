@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 7b2a5ae6-b3ac-49b5-a798-9fca450da6d1
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetEnumerator method, IOpcPartSet.GetEnumerator, IOpcPartSet::GetEnumerator, msopc/IOpcPartSet::GetEnumerator, opc.iopcpartset_getenumerator
-f1_keywords:
-- msopc/IOpcPartSet.GetEnumerator
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcPartSet.GetEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcPartSet::GetEnumerator
+ - msopc/IOpcPartSet::GetEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcPartSet.GetEnumerator
 ---
 
 # IOpcPartSet::GetEnumerator
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an enumerator of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface pointers  in the set.
 
-
 ## -parameters
-
-
-
 
 ### -param partEnumerator [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpartenumerator">IOpcPartEnumerator</a> interface of the enumerator of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface pointers in the set.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,15 +112,8 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
@@ -154,7 +140,4 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 
 
 <b>Reference</b>
- 
-
- 
 

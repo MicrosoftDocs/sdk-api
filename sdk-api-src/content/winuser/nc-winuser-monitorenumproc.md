@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 2d69e363-2b2c-450f-9069-488b80991217
 ms.date: 12/05/2018
 ms.keywords: MonitorEnumProc, MonitorEnumProc callback, MonitorEnumProc callback function [Windows GDI], _win32_MonitorEnumProc, gdi.monitorenumproc, winuser/MonitorEnumProc
-f1_keywords:
-- winuser/MonitorEnumProc
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winuser.h
-api_name:
-- MonitorEnumProc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MONITORENUMPROC
+ - winuser/MONITORENUMPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winuser.h
+api_name:
+ - MonitorEnumProc
 ---
 
 # MONITORENUMPROC callback function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 A <b>MonitorEnumProc</b> function is an application-defined callback function that is called by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> function.
 
 A value of type <b>MONITORENUMPROC</b> is a pointer to a <b>MonitorEnumProc</b> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -84,24 +80,13 @@ If <i>hdcMonitor</i> is <b>NULL</b>, this rectangle is the display monitor recta
 
 Application-defined data that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> passes directly to the enumeration function.
 
-
-
-
-
 ## -returns
-
-
 
 To continue the enumeration, return <b>TRUE</b>.
 
 To stop the enumeration, return <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> function to enumerate the set of display monitors that intersect the visible region of a specified device context and, optionally, a clipping rectangle. To do this, set the <i>hdc</i> parameter to a non-<b>NULL</b> value, and set the <i>lprcClip</i> parameter as needed.
 
@@ -111,13 +96,7 @@ In all cases, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf
 
 If the <i>hdc</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> is non-<b>NULL</b>, the <b>MonitorEnumProc</b> function also receives a handle to a device context whose color format is appropriate for the display monitor. You can then paint into the device context in a manner that is optimal for the display monitor.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a>
 
@@ -128,7 +107,4 @@ If the <i>hdc</i> parameter of <a href="https://docs.microsoft.com/windows/deskt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
- 
-
- 
 

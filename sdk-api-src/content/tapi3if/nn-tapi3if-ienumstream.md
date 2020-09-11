@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 52e8c040-8bc5-4c9c-a697-ec05164adea2
 ms.date: 12/05/2018
 ms.keywords: IEnumStream, IEnumStream interface [TAPI 2.2], IEnumStream interface [TAPI 2.2],described, _tapi3_ienumstream, tapi3.ienumstream, tapi3if/IEnumStream
-f1_keywords:
-- tapi3if/IEnumStream
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- IEnumStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumStream
+ - tapi3if/IEnumStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - IEnumStream
 ---
 
 # IEnumStream interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IEnumStream</b> interface provides COM-standard enumeration methods for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-enumeratestreams">ITStreamControl::EnumerateStreams</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-enumeratestreams">ITParticipant::EnumerateStreams</a> methods return a pointer to 
 <b>IEnumStream</b>.
-
 
 ## -inheritance
 
@@ -109,20 +108,13 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

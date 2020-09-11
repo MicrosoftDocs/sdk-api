@@ -8,10 +8,6 @@ tech.root: WinSAT
 ms.assetid: bd15bc63-a918-43a7-9864-4206a0b6af84
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], IProvideWinSATResultsInfo interface [WinSAT],described, winsat.iprovidewinsatresultsinfo, winsatcominterfacei/IProvideWinSATResultsInfo
-f1_keywords:
-- winsatcominterfacei/IProvideWinSATResultsInfo
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IProvideWinSATResultsInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProvideWinSATResultsInfo
+ - winsatcominterfacei/IProvideWinSATResultsInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IProvideWinSATResultsInfo
 ---
 
 # IProvideWinSATResultsInfo interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IProvideWinSATResultsInfo may be altered or unavailable for releases after Windows 8.1.]
 
 Gets information about the results of an assessment, for example, the base score and the date that the assessment was run.
 
 To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info">IQueryRecentWinSATAssessment::get_Info</a> method.
-
 
 ## -inheritance
 
@@ -137,16 +136,9 @@ Retrieves the base score for the computer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e8ff2491-014c-43c7-bdce-99ed3b408605
 ms.date: 12/05/2018
 ms.keywords: IVssWriterComponents, IVssWriterComponents interface [VSS], IVssWriterComponents interface [VSS],described, _win32_ivsswritercomponents, base.ivsswritercomponents, vswriter/IVssWriterComponents
-f1_keywords:
-- vswriter/IVssWriterComponents
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWriterComponents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWriterComponents
+ - vswriter/IVssWriterComponents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWriterComponents
 ---
 
 # IVssWriterComponents class
 
 
 ## -description
-
 
 The <b>IVssWriterComponents</b> interface is a C++ (not 
     COM) interface that contains methods used to obtain and modify component information (in the 
@@ -105,7 +105,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter
 <td>Returns the instance and class identifier of the writer responsible for the components.</td>
 </tr>
 </table>
- 
-
-
 

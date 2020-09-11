@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: b61c8d05-6d73-4f84-95b2-2a892f3de77c
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenserEx, IMetaDataDispenserEx interface [Windows Runtime], IMetaDataDispenserEx interface [Windows Runtime],described, rometadataapi/IMetaDataDispenserEx, winrt.imetadatadispenserex
-f1_keywords:
-- rometadataapi/IMetaDataDispenserEx
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataDispenserEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataDispenserEx
+ - rometadataapi/IMetaDataDispenserEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataDispenserEx
 ---
 
 # IMetaDataDispenserEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a> interface to provide the capability to control how the metadata APIs operate on the current metadata scope.
-
 
 ## -inheritance
 
@@ -122,5 +121,5 @@ Sets the specified option to a given value for the current metadata scope. The o
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\physicaltologicalpoint.htm
 ms.date: 12/05/2018
 ms.keywords: PhysicalToLogicalPoint, PhysicalToLogicalPoint function [Windows and Messages], _win32_PhysicalToLogicalPoint, _win32_physicaltologicalpoint_cpp, winmsg.physicaltologicalpoint, winui._win32_physicaltologicalpoint, winuser/PhysicalToLogicalPoint
-f1_keywords:
-- winuser/PhysicalToLogicalPoint
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- minuser.dll
-api_name:
-- PhysicalToLogicalPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PhysicalToLogicalPoint
+ - winuser/PhysicalToLogicalPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - minuser.dll
+api_name:
+ - PhysicalToLogicalPoint
 ---
 
 # PhysicalToLogicalPoint function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the physical coordinates of a point in a window to logical coordinates.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -66,17 +62,13 @@ Type: <b>HWND</b>
 
 A handle to the window whose transform is used for the conversion. Top level windows are fully supported. In the case of child windows, only the area of overlap between the parent and the child window is converted.
 
-
 ### -param lpPoint [in, out]
 
 Type: <b>LPPOINT</b>
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the physical/screen coordinates to be converted. The new logical coordinates are copied into this structure if the function succeeds.
 
-
 ## -remarks
-
-
 
 Windows Vista introduces the concept of physical coordinates. Desktop Window Manager (DWM) scales non-dots per inch (dpi) aware windows when the display is high dpi. The window seen on the screen corresponds to the physical coordinates. The application continues to work in logical space. Therefore, the application's view of the window is different from that which appears on the screen. For scaled windows, logical and physical coordinates are different.
 
@@ -89,7 +81,4 @@ On all platforms, <b>PhysicalToLogicalPoint</b> will fail on a window that has e
 In Windows 8, system–DPI aware applications translate between physical and logical space using PhysicalToLogicalPoint and LogicalToPhysicalPoint. In Windows 8.1, the additional virtualization of the system and inter-process communications means that for the majority of applications, you do not need these APIs. As a result, in Windows 8.1, PhysicalToLogicalPoint and LogicalToPhysicalPoint no longer transform points. The system returns all points to an application in its own coordinate space. 
 This behavior preserves functionality for the majority of applications, but there are some exceptions in which you must make changes to ensure that the application works as expected.
 In those cases, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-physicaltologicalpointforpermonitordpi">PhysicalToLogicalPointForPerMonitorDPI</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-logicaltophysicalpointforpermonitordpi">LogicalToPhysicalPointForPerMonitorDPI.</a>
-
-
-
 

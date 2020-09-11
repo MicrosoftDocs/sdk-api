@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1d8de371-5138-4a26-b4ff-fc1a5f62e3bb
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupportXP, IExpDispSupportXP interface [Windows Shell], IExpDispSupportXP interface [Windows Shell],described, _shell_IExpDispSupportXP, shdeprecated/IExpDispSupportXP, shell.IExpDispSupportXP
-f1_keywords:
-- shdeprecated/IExpDispSupportXP
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IExpDispSupportXP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExpDispSupportXP
+ - shdeprecated/IExpDispSupportXP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IExpDispSupportXP
 ---
 
 # IExpDispSupportXP interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
 

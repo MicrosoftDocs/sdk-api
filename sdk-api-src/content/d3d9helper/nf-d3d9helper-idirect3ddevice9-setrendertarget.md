@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setrendertarget.htm
 ms.date: 12/05/2018
 ms.keywords: 8a35c59a-95b2-ac1b-0fde-a907c6a0b520, IDirect3DDevice9 interface [Direct3D 9],SetRenderTarget method, IDirect3DDevice9.SetRenderTarget, IDirect3DDevice9::SetRenderTarget, SetRenderTarget, SetRenderTarget method [Direct3D 9], SetRenderTarget method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetRenderTarget, direct3d9.idirect3ddevice9__setrendertarget
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.SetRenderTarget
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.SetRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::SetRenderTarget
+ - d3d9helper/IDirect3DDevice9::SetRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.SetRenderTarget
 ---
 
 # IDirect3DDevice9::SetRenderTarget
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a new color buffer for the device.
 
-
 ## -parameters
-
-
-
 
 ### -param RenderTargetIndex [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Index of the render target. See Remarks.
-
 
 ### -param pRenderTarget [in]
 
@@ -73,10 +68,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d
 Pointer to a new color buffer. If <b>NULL</b>, the color buffer for the corresponding RenderTargetIndex is disabled. Devices always must be associated with a color buffer.
  The new render-target surface must have at least D3DUSAGE_RENDERTARGET specified.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -89,11 +81,7 @@ If the method succeeds, the return value is D3D_OK.
 <li>pRenderTarget is != <b>NULL</b> and the render target is invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The device can support multiple render targets. The number of render targets supported by a device is contained in the NumSimultaneousRTs member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/multiple-render-targets">Multiple Render Targets (Direct3D 9)</a>.
 
@@ -111,19 +99,8 @@ Restrictions for using this method include the following:
 These restrictions are validated only when using the debug runtime when any of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>Draw methods are called.
 
 Cube textures differ from other surfaces in that they are collections of surfaces. To call <b>IDirect3DDevice9::SetRenderTarget</b> with a cube texture, you must select an individual face using <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getcubemapsurface">IDirect3DCubeTexture9::GetCubeMapSurface</a> and pass the resulting surface to <b>IDirect3DDevice9::SetRenderTarget</b>.
-    
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
- 
-
- 
 

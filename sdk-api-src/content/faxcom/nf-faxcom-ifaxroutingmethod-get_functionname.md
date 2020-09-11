@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1i5h.htm
 ms.date: 12/05/2018
 ms.keywords: FunctionName property [Fax Service], FunctionName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],FunctionName property, IFaxRoutingMethod.FunctionName, IFaxRoutingMethod.get_FunctionName, IFaxRoutingMethod::FunctionName, IFaxRoutingMethod::get_FunctionName, _mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_functionname_cpp, faxcom/IFaxRoutingMethod::FunctionName, faxcom/IFaxRoutingMethod::get_FunctionName, get_FunctionName
-f1_keywords:
-- faxcom/IFaxRoutingMethod.FunctionName
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxRoutingMethod.FunctionName
-- IFaxRoutingMethod.get_FunctionName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxRoutingMethod::get_FunctionName
+ - faxcom/IFaxRoutingMethod::get_FunctionName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxRoutingMethod.FunctionName
+ - IFaxRoutingMethod.get_FunctionName
 ---
 
 # IFaxRoutingMethod::get_FunctionName
@@ -50,31 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxRoutingMethod::get_FunctionName</b> property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
 
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 A fax client application can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxroutingmethod-get-guid-vb">IFaxRoutingMethod::get_Guid</a> property to uniquely identify a fax routing method. It is possible for multiple routing methods to have the same user-friendly name and even the same function name. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-routing-methods">Fax Routing Methods</a>.
 
 <b>IFaxRoutingMethod::get_FunctionName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -97,7 +87,4 @@ A fax client application can use the <a href="https://docs.microsoft.com/previou
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
- 
-
- 
 

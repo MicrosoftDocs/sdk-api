@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 755c74c4-417a-49b5-9f3d-9348c05ac850
 ms.date: 12/05/2018
 ms.keywords: 755c74c4-417a-49b5-9f3d-9348c05ac850, CanPaste, CanPaste method [Tablet PC], CanPaste method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CanPaste method, IInkDisp.CanPaste, IInkDisp::CanPaste, msinkaut/IInkDisp::CanPaste, tablet.inkdisp_canpaste
-f1_keywords:
-- msinkaut/IInkDisp.CanPaste
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkDisp.CanPaste
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDisp::CanPaste
+ - msinkaut/IInkDisp::CanPaste
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkDisp.CanPaste
 ---
 
 # IInkDisp::CanPaste
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> can be converted to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param DataObject [in, optional]
 
 Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to inspect. The default value is <b>NULL</b>, which means the data object on the Clipboard is used.
 
-
 ### -param CanPaste [out, retval]
 
 <b>VARIANT_TRUE</b> if the data object can be converted to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object; otherwise, <b>VARIANT_FALSE</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,31 +106,16 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> is <b>NULL</b>, then the data object on the Clipboard is used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
- 
-
- 
 

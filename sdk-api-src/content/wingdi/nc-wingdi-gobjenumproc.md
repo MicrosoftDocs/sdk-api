@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 05a0f329-add9-4e92-9a9a-e2cf0ba5a1c3
 ms.date: 12/05/2018
 ms.keywords: GOBJENUMPROC, GOBJENUMPROC callback, GOBJENUMPROC callback function [Windows GDI], _win32_EnumObjectsProc, gdi.enumobjectsproc, wingdi/GOBJENUMPROC
-f1_keywords:
-- wingdi/GOBJENUMPROC
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wingdi.h
-api_name:
-- GOBJENUMPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GOBJENUMPROC
+ - wingdi/GOBJENUMPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wingdi.h
+api_name:
+ - GOBJENUMPROC
 ---
 
 # GOBJENUMPROC callback function
@@ -49,26 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnumObjectsProc</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a> function. It is used to process the object data. The <b>GOBJENUMPROC</b> type defines a pointer to this callback function. <b>EnumObjectsProc</b> is a placeholder for the application-defined function name.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
 ### -param Arg2
-
-
-
-
-
-
-
 
 #### - lpData [in]
 
@@ -79,31 +67,17 @@ A pointer to the application-defined data passed by the <a href="https://docs.mi
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure describing the attributes of the object.
 
-
 ## -returns
-
-
 
 To continue enumeration, the callback function must return a nonzero value. This value is user-defined.
 
 To stop enumeration, the callback function must return zero.
 
-
-
-
 ## -remarks
-
-
 
 An application must register this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumobjects">EnumObjects</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
@@ -130,7 +104,4 @@ An application must register this function by passing its address to the <a href
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 1d4e2a78-2184-4846-b51d-441bf1133ec0
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO structure, PMINIDUMP_SYSTEM_INFO, PMINIDUMP_SYSTEM_INFO structure pointer, PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_ARM, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_UNKNOWN, VER_NT_DOMAIN_CONTROLLER, VER_NT_SERVER, VER_NT_WORKSTATION, VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, VER_PLATFORM_WIN32s, VER_SUITE_BACKOFFICE, VER_SUITE_BLADE, VER_SUITE_COMPUTE_SERVER, VER_SUITE_DATACENTER, VER_SUITE_EMBEDDEDNT, VER_SUITE_ENTERPRISE, VER_SUITE_PERSONAL, VER_SUITE_SINGLEUSERTS, VER_SUITE_SMALLBUSINESS, VER_SUITE_SMALLBUSINESS_RESTRICTED, VER_SUITE_STORAGE_SERVER, VER_SUITE_TERMINAL, _MINIDUMP_SYSTEM_INFO, _win32_minidump_system_info_str, base.minidump_system_info_str, minidumpapiset/MINIDUMP_SYSTEM_INFO, minidumpapiset/PMINIDUMP_SYSTEM_INFO'
-f1_keywords:
-- minidumpapiset/MINIDUMP_SYSTEM_INFO
-dev_langs:
-- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- minidumpapiset.h
-api_name:
-- MINIDUMP_SYSTEM_INFO
 targetos: Windows
 req.typenames: MINIDUMP_SYSTEM_INFO, *PMINIDUMP_SYSTEM_INFO
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - _MINIDUMP_SYSTEM_INFO
+ - minidumpapiset/_MINIDUMP_SYSTEM_INFO
+ - PMINIDUMP_SYSTEM_INFO
+ - minidumpapiset/PMINIDUMP_SYSTEM_INFO
+ - MINIDUMP_SYSTEM_INFO
+ - minidumpapiset/MINIDUMP_SYSTEM_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minidumpapiset.h
+api_name:
+ - MINIDUMP_SYSTEM_INFO
 ---
 
 # MINIDUMP_SYSTEM_INFO structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains processor and operating system information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ProcessorArchitecture
 
@@ -123,8 +123,6 @@ Unknown processor.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ProcessorLevel
 
@@ -190,7 +188,6 @@ If <b>ProcessorArchitecture</b> is
        <b>PROCESSOR_ARCHITECTURE_IA64</b>, <b>ProcessorLevel</b> is set to 
        1.
 
-
 ### -field ProcessorRevision
 
 The architecture-dependent processor revision.
@@ -225,18 +222,14 @@ Model <i>xx</i>, Stepping <i>yy</i>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved0
 
 This member is reserved for future use and must be zero.
 
-
 ### -field NumberOfProcessors
 
 The number of processors in the system.
-
 
 ### -field ProductType
 
@@ -282,24 +275,18 @@ The system is running Windows XP, Windows Vista, Windows 7,
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MajorVersion
 
 The major version number of the operating system. This member can be 4, 5, or 6.
 
-
 ### -field MinorVersion
 
 The minor version number of the operating system.
 
-
 ### -field BuildNumber
 
 The build number of the operating system.
-     
-
 
 ### -field PlatformId
 
@@ -344,8 +331,6 @@ The operating system platform is Windows.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CSDVersionRva
 
@@ -353,11 +338,9 @@ An RVA (from the beginning of the dump) to a
       <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> that describes the latest Service 
        Pack installed on the system. If no Service Pack has been installed, the string is empty.
 
-
 ### -field Reserved1
 
 This member is reserved for future use.
-
 
 ### -field SuiteMask
 
@@ -510,17 +493,12 @@ If <b>VER_SUITE_TERMINAL</b> is set but
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved2
 
 This member is reserved for future use.
 
-
 ### -field Cpu
-
-
 
 #### X86CpuInfo
 
@@ -567,18 +545,11 @@ For a list of possible values, see the
         <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a> 
         function.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
- 
-
- 
 

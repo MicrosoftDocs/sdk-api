@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 9bf47408-cc7f-455d-bbb2-6f1f318eee5f
 ms.date: 12/05/2018
 ms.keywords: '*PDD_MISCELLANEOUSCALLBACKS, DD_MISCELLANEOUSCALLBACKS, DD_MISCELLANEOUSCALLBACKS structure [Display Devices], PDD_MISCELLANEOUSCALLBACKS, PDD_MISCELLANEOUSCALLBACKS structure pointer [Display Devices], ddrawint/DD_MISCELLANEOUSCALLBACKS, ddrawint/PDD_MISCELLANEOUSCALLBACKS, ddstrcts_1345d66b-a9c2-497a-ba08-4fc901b24173.xml, display.dd_miscellaneouscallbacks'
-f1_keywords:
-- ddrawint/DD_MISCELLANEOUSCALLBACKS
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_MISCELLANEOUSCALLBACKS
 targetos: Windows
 req.typenames: DD_MISCELLANEOUSCALLBACKS, *PDD_MISCELLANEOUSCALLBACKS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_MISCELLANEOUSCALLBACKS
+ - ddrawint/_DD_MISCELLANEOUSCALLBACKS
+ - PDD_MISCELLANEOUSCALLBACKS
+ - ddrawint/PDD_MISCELLANEOUSCALLBACKS
+ - DD_MISCELLANEOUSCALLBACKS
+ - ddrawint/DD_MISCELLANEOUSCALLBACKS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_MISCELLANEOUSCALLBACKS
 ---
 
 # DD_MISCELLANEOUSCALLBACKS structure
@@ -49,43 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DD_MISCELLANEOUSCALLBACKS structure contains an entry pointer to the memory query callback that a device driver supports.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size in bytes of this DD_MISCELLANEOUSCALLBACKS structure.
 
-
 ### -field dwFlags
 
 Indicates whether the device supports the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getavaildrivermemory">DdGetAvailDriverMemory</a> callback. The driver sets this member to DDHAL_MISCCB32_GETAVAILDRIVERMEMORY when it implements the callback.
-
 
 ### -field GetAvailDriverMemory
 
 Points to the driver-supplied <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getavaildrivermemory">DdGetAvailDriverMemory</a> callback.
 
-
 ## -remarks
-
-
 
 Entries that the display driver does not use should be set to <b>NULL</b>. The driver should initialize this structure when its <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function is called with the GUID_MiscellaneousCallbacks GUID.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a>
 
@@ -120,7 +109,4 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
- 
-
- 
 

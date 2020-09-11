@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 413c107b-a943-4c02-9c00-aea708e876d7
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOnHGlobal, CreateStreamOnHGlobal function [Structured Storage], _stg_createstreamonhglobal, combaseapi/CreateStreamOnHGlobal, stg.createstreamonhglobal
-f1_keywords:
-- combaseapi/CreateStreamOnHGlobal
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CreateStreamOnHGlobal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateStreamOnHGlobal
+ - combaseapi/CreateStreamOnHGlobal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CreateStreamOnHGlobal
 ---
 
 # CreateStreamOnHGlobal function
 
 
 ## -description
-
 
 The 
 <b>CreateStreamOnHGlobal</b>function creates a stream object that uses an HGLOBAL memory handle to store the stream contents. This object is the OLE-provided implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
@@ -64,41 +64,26 @@ The returned stream object supports both reading and writing, is not transacted,
 <div class="alert"><b>Tip</b>  Consider using the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatememstream">SHCreateMemStream</a> function, which produces better performance, or for Windows Store apps, consider using <a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.inmemoryrandomaccessstream">InMemoryRandomAccessStream</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hGlobal [in]
 
 A memory handle allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function, or if <b>NULL</b> a new handle is to be allocated instead. The handle must be allocated as moveable and nondiscardable.
 
-
 ### -param fDeleteOnRelease [in]
 
 A value that indicates whether the underlying handle for this stream object should be automatically freed when the stream object is released. If set to <b>FALSE</b>, the caller must free the <i>hGlobal</i> after the final release. If set to <b>TRUE</b>, the final release will automatically free the underlying handle. See the Remarks for further discussion of the case where <i>fDeleteOnRelease</i> is <b>FALSE</b>.
-
 
 ### -param ppstm [out]
 
 The address of 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>* pointer variable that receives the interface pointer to the new stream object. Its value cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function supports the standard return values E_INVALIDARG and E_OUTOFMEMORY, as well as the following.
 
-
-
-
 ## -remarks
-
-
 
 If <i>hGlobal</i> is <b>NULL</b>, the function allocates a new memory handle and the stream is initially empty.
 
@@ -144,13 +129,7 @@ HRESULT hr = ::CreateStreamOnHGlobal(hMem,FALSE,&spStream);
 
 Prior to Windows 7 and Windows Server 2008 R2, this implementation did not zero memory when calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> to grow the memory block. Increasing the size of the stream with <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-setsize">IStream::SetSize</a> or by writing to a location past the current end of the stream may leave portions of the newly allocated memory uninitialized.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-gethglobalfromstream">GetHGlobalFromStream</a>
 
@@ -165,7 +144,4 @@ Prior to Windows 7 and Windows Server 2008 R2, this implementation did not ze
 
 
 <a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.inmemoryrandomaccessstream">InMemoryRandomAccessStream</a>
- 
-
- 
 

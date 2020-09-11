@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 077bc593-0071-4f41-8d07-141c9959b6ed
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],MyStoreNameWStr property, IEnroll.MyStoreNameWStr, IEnroll.put_MyStoreNameWStr, IEnroll::MyStoreNameWStr, IEnroll::get_MyStoreNameWStr, IEnroll::put_MyStoreNameWStr, MyStoreNameWStr property [Security], MyStoreNameWStr property [Security],IEnroll interface, put_MyStoreNameWStr, security.ienroll4_mystorenamewstr, xenroll/IEnroll::MyStoreNameWStr, xenroll/IEnroll::get_MyStoreNameWStr, xenroll/IEnroll::put_MyStoreNameWStr
-f1_keywords:
-- xenroll/IEnroll.MyStoreNameWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.MyStoreNameWStr
-- IEnroll.get_MyStoreNameWStr
-- IEnroll.put_MyStoreNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::put_MyStoreNameWStr
+ - xenroll/IEnroll::put_MyStoreNameWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.MyStoreNameWStr
+ - IEnroll.get_MyStoreNameWStr
+ - IEnroll.put_MyStoreNameWStr
 ---
 
 # IEnroll::put_MyStoreNameWStr
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -62,14 +62,9 @@ The value of <b>MyStoreNameWStr</b> specifies the store in which to place the ne
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>MyStoreNameWStr</b> property affects the behavior of the following methods:
 
@@ -82,17 +77,7 @@ The <b>MyStoreNameWStr</b> property affects the behavior of the following method
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

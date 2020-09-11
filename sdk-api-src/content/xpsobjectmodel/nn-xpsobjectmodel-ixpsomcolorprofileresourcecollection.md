@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: cb9253f3-461e-47a3-820b-bb6bf5e30210
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresourcecollection, xpsobjectmodel/IXpsOMColorProfileResourceCollection
-f1_keywords:
-- xpsobjectmodel/IXpsOMColorProfileResourceCollection
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMColorProfileResourceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMColorProfileResourceCollection
+ - xpsobjectmodel/IXpsOMColorProfileResourceCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMColorProfileResourceCollection
 ---
 
 # IXpsOMColorProfileResourceCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A collection of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface pointers.
-
 
 ## -inheritance
 
@@ -138,22 +137,13 @@ Replaces an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmod
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 For more information about the collection methods, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a>
 
@@ -168,7 +158,4 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

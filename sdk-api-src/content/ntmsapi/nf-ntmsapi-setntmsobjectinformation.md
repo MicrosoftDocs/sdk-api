@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW
-f1_keywords:
-- ntmsapi/SetNtmsObjectInformation
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- SetNtmsObjectInformation
-- SetNtmsObjectInformationA
-- SetNtmsObjectInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetNtmsObjectInformation
+ - ntmsapi/SetNtmsObjectInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - SetNtmsObjectInformation
+ - SetNtmsObjectInformationA
+ - SetNtmsObjectInformationW
 ---
 
 # SetNtmsObjectInformation function
@@ -51,38 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SetNtmsObjectInformation</b> function changes the information structure of the specified object.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
-
 ### -param lpObjectId [in]
 
 Unique identifier of the RSM object.
-
 
 ### -param lpInfo [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -180,14 +171,8 @@ The object ID is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The information size and type must be set before you can use 
 <b>SetNtmsObjectInformation</b>.
@@ -336,15 +321,8 @@ The following is the list of objects that have members that can be updated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>
 
@@ -359,7 +337,4 @@ The following is the list of objects that have members that can be updated.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
- 
-
- 
 

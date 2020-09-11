@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7
 ms.date: 12/05/2018
 ms.keywords: CreateMailslot, CreateMailslot function, CreateMailslotA, CreateMailslotW, MAILSLOT_WAIT_FOREVER, _win32_createmailslot, base.createmailslot, winbase/CreateMailslot, winbase/CreateMailslotA, winbase/CreateMailslotW
-f1_keywords:
-- winbase/CreateMailslot
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- CreateMailslot
-- CreateMailslotA
-- CreateMailslotW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateMailslotA
+ - winbase/CreateMailslotA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - CreateMailslot
+ - CreateMailslotA
+ - CreateMailslotW
 ---
 
 # CreateMailslotA function
@@ -59,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a mailslot with the specified name and returns  a handle that a mailslot server can use to perform operations on the mailslot. The mailslot is local to the computer that creates it. An error occurs if a mailslot with the specified name already exists.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
@@ -76,11 +72,9 @@ The name of the mailslot. This name must have the following form:
 
 The name field must be unique. The name may include multiple levels of pseudo directories separated by backslashes. For example, both \\\\.\mailslot\example_mailslot_name and \\\\.\mailslot\abc\def\ghi are valid names.
 
-
 ### -param nMaxMessageSize [in]
 
 The maximum size of a single message that can be written to the mailslot, in bytes. To specify that the message can be of any size, set this value to zero.
-
 
 ### -param lReadTimeout [in]
 
@@ -118,28 +112,19 @@ Waits forever for a message.
 
 This time-out value applies to all subsequent read operations and all inherited mailslot handles.
 
-
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. The <b>bInheritHandle</b> member of the structure determines whether the returned handle can be inherited by child processes. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the handle cannot be inherited.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the mailslot, for use in server mailslot operations.  The handle returned by this function is asynchronous, or overlapped.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The mailslot exists until one of the following conditions is true:
 
@@ -200,9 +185,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -232,7 +214,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

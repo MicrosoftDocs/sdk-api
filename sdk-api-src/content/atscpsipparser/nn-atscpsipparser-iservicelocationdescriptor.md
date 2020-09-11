@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 43dd800b-c51d-4a2f-ad59-943cb4975066
 ms.date: 12/05/2018
 ms.keywords: IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], IServiceLocationDescriptor interface [Microsoft TV Technologies],described, atscpsipparser/IServiceLocationDescriptor, mstv.iservicelocationdescriptor
-f1_keywords:
-- atscpsipparser/IServiceLocationDescriptor
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IServiceLocationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceLocationDescriptor
+ - atscpsipparser/IServiceLocationDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IServiceLocationDescriptor
 ---
 
 # IServiceLocationDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information from the Service Location Descriptor in an Advanced Television Systems Committee  (ATSC) Virtual Channel Table (VCT). The Service Location Descriptor lists the program IDs (PIDs) in an ATSC transport stream. The VCT is a Program and System Information Protocol (PSIP) table that describes the elementary streams for the virtual channels in an ATSC transport stream.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Gets the program ID (PID) for the packets that contain the Program Clock Referen
 
 </td>
 </tr>
-</table> 
+</table>
 

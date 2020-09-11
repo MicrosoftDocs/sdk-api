@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6bac5961-f9cc-4859-affa-aa7ed152ebfa
 ms.date: 12/05/2018
 ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 interface [Security],described, _certsrv_icertconfig2, certcli/ICertConfig2, security.icertconfig2
-f1_keywords:
-- certcli/ICertConfig2
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertConfig2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertConfig2
+ - certcli/ICertConfig2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertConfig2
 ---
 
 # ICertConfig2 interface
 
 
 ## -description
-
 
 The <b>ICertConfig2</b> interface is one of two interfaces that  provide functionality for retrieving  the public  configuration data (specified during client setup) for a Certificate Services server.
 
@@ -66,7 +66,6 @@ For each installation of Certificate Services, this public configuration data re
 <b>ICertConfig2</b> is defined in Certcli.h. When you create your program, however, use Certsrv.h as the include file. Certcli.dll provides the <b>ICertConfig2</b> interface. In Windows Server 2003 and later operating systems, the type information for this interface is also in Certclil.dll, which is shipped with the Platform Software Development Kit (SDK).
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -118,5 +117,5 @@ Resets the configuration query <a href="https://docs.microsoft.com/windows/deskt
 <td align="left" width="63%">
 Specifies a new path for the shared folder directory.</p> (Inherited from <b>ICertConfig2</b><b>CCertConfig</b>)</td>
 </tr>
-</table> 
+</table>
 

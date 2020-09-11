@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: cf30b285-9694-4ab0-ad13-c1ec4d8cb6e1
 ms.date: 12/05/2018
 ms.keywords: WlanScan, WlanScan function [NativeWIFI], nwifi.wlanscan, wlanapi/WlanScan
-f1_keywords:
-- wlanapi/WlanScan
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanScan
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanScan
+ - wlanapi/WlanScan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanScan
 ---
 
 # WlanScan function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanScan</b> function requests a scan for available networks on the indicated interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
 
 ### -param pInterfaceGuid [in]
 
@@ -69,30 +64,20 @@ The GUID of the interface to be queried.
 
  The GUID of each wireless LAN interface enabled on a local computer can be determined using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function.
 
-
 ### -param pDot11Ssid [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that specifies the SSID of the network to be scanned. This parameter is optional. When set to <b>NULL</b>, the returned list contains all available networks. 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This parameter must be <b>NULL</b>.
 
-
-
-
 ### -param pIeData [in, optional]
 
 A pointer to an information element to include in probe requests. This parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a> structure that may include client provisioning availability information and 802.1X authentication requirements.<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This parameter must be <b>NULL</b>.
-
-
-
 
 ### -param pReserved
 
 Reserved for future use. Must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -148,14 +133,8 @@ Failed to allocate memory for the query results.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WlanScan</b> function requests that the native 802.11 Wireless LAN driver scan for available wireless networks. The driver may or may not send probe requests (an active scan) depending on its implementation and the values passed in the <i>pDot11Ssid</i> and <i>pIeData</i> parameters. 
 
@@ -192,13 +171,7 @@ The <b>WlanScan</b> function returns immediately and does not provide a notifica
 
 Since it becomes more difficult for a wireless interface to send and receive data packets while a scan is occurring, the <b>WlanScan</b> function may increase latency until the network scan is complete.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a>
 
@@ -225,7 +198,4 @@ Since it becomes more difficult for a wireless interface to send and receive dat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>
- 
-
- 
 

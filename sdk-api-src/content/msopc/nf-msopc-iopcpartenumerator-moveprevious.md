@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 6405bf6f-da60-463c-9acc-820b586e42e1
 ms.date: 12/05/2018
 ms.keywords: IOpcPartEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcPartEnumerator.MovePrevious, IOpcPartEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcPartEnumerator interface, msopc/IOpcPartEnumerator::MovePrevious, opc.iopcpartenumerator_moveprevious
-f1_keywords:
-- msopc/IOpcPartEnumerator.MovePrevious
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcPartEnumerator.MovePrevious
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcPartEnumerator::MovePrevious
+ - msopc/IOpcPartEnumerator::MovePrevious
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcPartEnumerator.MovePrevious
 ---
 
 # IOpcPartEnumerator::MovePrevious
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the current position of the enumerator to the previous <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param hasPrevious [out, retval]
 
@@ -92,12 +88,8 @@ The current position of the enumerator has been moved past the beginning of the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,14 +145,8 @@ The current position already precedes the first item of the enumerator.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartenumerator-movenext">MoveNext</a>method after creating the enumerator.
 
@@ -171,13 +157,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
@@ -208,7 +188,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

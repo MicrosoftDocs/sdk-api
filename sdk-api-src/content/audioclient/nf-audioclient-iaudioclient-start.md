@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 706f9833-7f06-4bdc-96d5-6872f6effcb9
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Start method, IAudioClient.Start, IAudioClient::Start, IAudioClientStart, Start, Start method [Core Audio], Start method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Start, coreaudio.iaudioclient_start
-f1_keywords:
-- audioclient/IAudioClient.Start
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient.Start
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient::Start
+ - audioclient/IAudioClient::Start
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient.Start
 ---
 
 # IAudioClient::Start
@@ -49,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Start</b> method starts the audio stream.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -130,14 +119,8 @@ The Windows audio service is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method requires prior initialization of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
@@ -158,12 +141,7 @@ For code examples that call the <b>Start</b> method, see the following topics:
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
@@ -178,7 +156,4 @@ For code examples that call the <b>Start</b> method, see the following topics:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>
- 
-
- 
 

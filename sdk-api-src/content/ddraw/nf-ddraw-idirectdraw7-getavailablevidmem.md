@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: f7bfa81c-8e21-44ec-bed4-9b92aa099f00
 ms.date: 12/05/2018
 ms.keywords: GetAvailableVidMem, GetAvailableVidMem method [DirectDraw], GetAvailableVidMem method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetAvailableVidMem method, IDirectDraw7.GetAvailableVidMem, IDirectDraw7::GetAvailableVidMem, ddraw/IDirectDraw7::GetAvailableVidMem, directdraw.idirectdraw7_getavailablevidmem
-f1_keywords:
-- ddraw/IDirectDraw7.GetAvailableVidMem
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDraw7.GetAvailableVidMem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDraw7::GetAvailableVidMem
+ - ddraw/IDirectDraw7::GetAvailableVidMem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDraw7.GetAvailableVidMem
 ---
 
 # IDirectDraw7::GetAvailableVidMem
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the total amount of display memory available and the amount of display memory currently free for a given type of surface.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure that indicates the hardware capabilities of the proposed surface.
 
-
 ### -param arg2 [out]
 
 A pointer to a variable that receives the total amount of display memory available, in bytes. The value received reflects the total video memory, minus the video memory required for the primary surface and any private caches that the display driver reserves.
-
 
 ### -param arg3 [out]
 
 A pointer to a variable that receives the amount of display memory currently free that can be allocated for a surface that matches the capabilities specified by the structure at <i>lpDDSCaps2</i>.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -90,11 +81,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_NODIRECTDRAWHW</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The following C++ example demonstrates how to use <b>GetAvailableVidMem</b> to determine both the total and free display memory available for texture-map surfaces:
 
@@ -136,16 +123,7 @@ If the surface has the <a href="https://docs.microsoft.com/previous-versions/win
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetAvailableVidMem</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
- 
-
- 
 

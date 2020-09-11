@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\clone_31.htm
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Matrix class, Matrix class [GDI+],Clone method, Matrix.Clone, Matrix::Clone, _gdiplus_CLASS_Matrix_Clone_, gdiplus._gdiplus_CLASS_Matrix_Clone_
-f1_keywords:
-- gdiplusmatrix/Matrix.Clone
-dev_langs:
-- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Matrix.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Matrix::Clone
+ - gdiplusmatrix/Matrix::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Matrix.Clone
 ---
 
 # Matrix::Clone
@@ -50,35 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Matrix::Clone</b> method creates a new 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that is a copy of this 
 			<b>Matrix</b> object.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
 
 This method returns a pointer to the new 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-global-and-local-transformations-about">Global and Local Transformations</a>
 
@@ -97,7 +83,4 @@ This method returns a pointer to the new
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3b889cb7-92e4-4c18-b9b9-768865895595
 ms.date: 12/05/2018
 ms.keywords: AssociateControllerPorts, AssociateControllerPorts method [VDS], AssociateControllerPorts method [VDS],IVdsLunControllerPorts interface, IVdsLunControllerPorts interface [VDS],AssociateControllerPorts method, IVdsLunControllerPorts.AssociateControllerPorts, IVdsLunControllerPorts::AssociateControllerPorts, base.ivdsluncontrollerports_associatecontrollerports, vds/IVdsLunControllerPorts::AssociateControllerPorts, vdshwprv/IVdsLunControllerPorts::AssociateControllerPorts
-f1_keywords:
-- vdshwprv/IVdsLunControllerPorts.AssociateControllerPorts
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- IVdsLunControllerPorts.AssociateControllerPorts
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLunControllerPorts::AssociateControllerPorts
+ - vdshwprv/IVdsLunControllerPorts::AssociateControllerPorts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - IVdsLunControllerPorts.AssociateControllerPorts
 ---
 
 # IVdsLunControllerPorts::AssociateControllerPorts
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the subsystem controller ports to active or inactive with respect to the LUN. This method 
     replaces <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-associatecontrollers">IVdsLun::AssociateControllers</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pActiveControllerPortIdArray
 
 A pointer to an array of controller port GUIDs. The provider sets these controller ports to active. This array 
       includes controller ports already set to active that are to remain active.
 
-
 ### -param lNumberOfActiveControllerPorts
 
 The number of controller ports specified in the  <i>pActiveControllerPortIdArray</i> parameter.
-
 
 ### -param pInactiveControllerPortIdArray
 
@@ -79,15 +73,11 @@ A
       pointer to an array of controller port GUIDs. The provider sets these controller ports to inactive. This array 
       includes controller ports already set to inactive that are to remain inactive.
 
-
 ### -param lNumberOfInactiveControllerPorts
 
 The number of controller ports specified in the  <i>pInactiveControllerPortIdArray</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -187,18 +177,8 @@ This operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsluncontrollerports">IVdsLunControllerPorts</a>
- 
-
- 
 

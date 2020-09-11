@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 85953042-eeb6-49bd-bde0-f18d4edf108a
 ms.date: 12/05/2018
 ms.keywords: CreationTime property [File Server Resource Manager], CreationTime property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],CreationTime property, IFsrmPropertyBag.CreationTime, IFsrmPropertyBag.get_CreationTime, IFsrmPropertyBag::CreationTime, IFsrmPropertyBag::get_CreationTime, fs.ifsrmpropertybag_creationtime, fsrm.ifsrmpropertybag_creationtime, fsrmpipeline/IFsrmPropertyBag::CreationTime, fsrmpipeline/IFsrmPropertyBag::get_CreationTime, get_CreationTime
-f1_keywords:
-- fsrmpipeline/IFsrmPropertyBag.CreationTime
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyBag.CreationTime
-- IFsrmPropertyBag.get_CreationTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyBag::get_CreationTime
+ - fsrmpipeline/IFsrmPropertyBag::get_CreationTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyBag.CreationTime
+ - IFsrmPropertyBag.get_CreationTime
 ---
 
 # IFsrmPropertyBag::get_CreationTime
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The date and time that the file was created.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
- 
-
- 
 

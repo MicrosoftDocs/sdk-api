@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 79b0193e-3be8-46ce-a422-40ed9698363f
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_SECRET_AGREEMENT_INTERFACE, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_INTERFACE, NCRYPT_SIGNATURE_OPERATION, NCryptAlgorithmName, NCryptAlgorithmName structure [Security], ncrypt/NCryptAlgorithmName, security.ncryptalgorithmname_struct
-f1_keywords:
-- ncrypt/NCryptAlgorithmName
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ncrypt.h
-api_name:
-- NCryptAlgorithmName
 targetos: Windows
 req.typenames: NCryptAlgorithmName
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NCryptAlgorithmName
+ - ncrypt/_NCryptAlgorithmName
+ - NCryptAlgorithmName
+ - ncrypt/NCryptAlgorithmName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ncrypt.h
+api_name:
+ - NCryptAlgorithmName
 ---
 
 # NCryptAlgorithmName structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptAlgorithmName</b> structure is used to contain information about a CNG algorithm.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszName
 
 A pointer to a null-terminated Unicode string that contains the name of the algorithm. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
-
 
 ### -field dwClass
 
@@ -106,8 +103,6 @@ The algorithm belongs to the signature class of algorithms.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwAlgOperations
 
@@ -152,21 +147,12 @@ The algorithm is a digital signature algorithm.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFlags
 
 A set of flags that provide more information about the algorithm.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumalgorithms">NCryptEnumAlgorithms</a>
- 
-
- 
 

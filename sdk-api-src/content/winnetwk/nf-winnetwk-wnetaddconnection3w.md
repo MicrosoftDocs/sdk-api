@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 169c7bb4-cb08-424c-af79-2133684a99db
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetAddConnection3, WNetAddConnection3 function [Windows Networking (WNet)], WNetAddConnection3A, WNetAddConnection3W, _win32_wnetaddconnection3, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection3, winnetwk/WNetAddConnection3A, winnetwk/WNetAddConnection3W, wnet.wnetaddconnection3
-f1_keywords:
-- winnetwk/WNetAddConnection3
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetAddConnection3
-- WNetAddConnection3A
-- WNetAddConnection3W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetAddConnection3W
+ - winnetwk/WNetAddConnection3W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetAddConnection3
+ - WNetAddConnection3A
+ - WNetAddConnection3W
 ---
 
 # WNetAddConnection3W function
 
 
 ## -description
-
 
 The
 				<b>WNetAddConnection3</b> function makes a connection to a network resource. The function can redirect a local device to the network resource.
@@ -63,11 +63,7 @@ The
 <b>WNetAddConnection3</b> function supersede the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndOwner [in]
 
@@ -76,7 +72,6 @@ A handle to a window that the provider of network resources can use as an owner 
 The <i>hwndOwner</i> parameter can be <b>NULL</b>. If it is, a call to 
 <b>WNetAddConnection3</b> is equivalent to calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> function.
-
 
 ### -param lpNetResource [in]
 
@@ -158,7 +153,6 @@ The
 <b>WNetAddConnection3</b> function ignores the other members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
 
-
 ### -param lpPassword [in]
 
 A pointer to a <b>null</b>-terminated string that specifies a password to be used in making the network connection. 
@@ -175,7 +169,6 @@ If the connection fails because of an invalid password and the CONNECT_INTERACTI
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
 
-
 ### -param lpUserName [in]
 
 A pointer to a <b>null</b>-terminated string that specifies a user name for making the connection. 
@@ -191,7 +184,6 @@ The user-name string represents a
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. It may be specific to a network provider.
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
-
 
 ### -param dwFlags [in]
 
@@ -283,12 +275,8 @@ If this flag is set, and the operating system prompts for a credential, the cred
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -467,14 +455,8 @@ The network is unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona">WNetUseConnection</a> function is similar to the 
@@ -521,9 +503,6 @@ Other network providers may support the <b>lpRemoteName</b> member of the <a hre
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
@@ -551,7 +530,4 @@ Other network providers may support the <b>lpRemoteName</b> member of the <a hre
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

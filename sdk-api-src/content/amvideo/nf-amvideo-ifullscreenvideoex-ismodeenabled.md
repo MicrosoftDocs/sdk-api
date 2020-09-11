@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 97d8b9f8-4dbf-4b49-b32f-4513c9e5186e
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeEnabled method, IFullScreenVideoEx.IsModeEnabled, IFullScreenVideoEx::IsModeEnabled, IFullScreenVideoIsModeEnabled, IsModeEnabled, IsModeEnabled method [DirectShow], IsModeEnabled method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeEnabled, dshow.ifullscreenvideoex_ismodeenabled
-f1_keywords:
-- amvideo/IFullScreenVideoEx.IsModeEnabled
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFullScreenVideoEx.IsModeEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFullScreenVideoEx::IsModeEnabled
+ - amvideo/IFullScreenVideoEx::IsModeEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFullScreenVideoEx.IsModeEnabled
 ---
 
 # IFullScreenVideoEx::IsModeEnabled
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IsModeEnabled</code> method queries whether a specified display mode is enabled.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Mode [in]
 
 Index of the display mode to query.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -112,14 +102,8 @@ The display mode is enabled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Full Screen Renderer supports a static set of display modes. By default, every mode is enabled. You can enable or disable a display mode by calling the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setenabled">IFullScreenVideoEx::SetEnabled</a>. The <b>IsEnabled</b> method retrieves the current setting for the specified mode.
 
@@ -127,20 +111,11 @@ The video card on the user's system might not support every mode. The Full Scree
 
 Display modes are indexed from zero. The <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-countmodes">IFullScreenVideoEx::CountModes</a> method returns the number of modes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
- 
-
- 
 

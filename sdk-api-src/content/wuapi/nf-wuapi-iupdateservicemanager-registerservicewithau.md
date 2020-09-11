@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: ea54d96a-9ffb-4abd-a032-4dfcc7ba6403
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RegisterServiceWithAU method, IUpdateServiceManager.RegisterServiceWithAU, IUpdateServiceManager::RegisterServiceWithAU, RegisterServiceWithAU, RegisterServiceWithAU method [Windows Update Agent], RegisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_registerservicewithau, wuapi/IUpdateServiceManager::RegisterServiceWithAU
-f1_keywords:
-- wuapi/IUpdateServiceManager.RegisterServiceWithAU
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceManager.RegisterServiceWithAU
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceManager::RegisterServiceWithAU
+ - wuapi/IUpdateServiceManager::RegisterServiceWithAU
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceManager.RegisterServiceWithAU
 ---
 
 # IUpdateServiceManager::RegisterServiceWithAU
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a service with Automatic Updates.
 
-
 ## -parameters
-
-
-
 
 ### -param serviceID [in]
 
 An identifier for the service to be registered.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns  a COM or Windows error code. 
 
@@ -134,14 +127,8 @@ The computer could not access the update site, or the state of Automatic Updates
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method returns <b>WU_E_DS_UNKNOWNSERVICE</b> if the service to be registered is unknown to Automatic Updates.
 
@@ -151,16 +138,7 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the method is called with a
 
 This method returns <b>WU_E_DS_NEEDWINDOWSSERVICE</b> if you try to remove the Windows Update service.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 03cd9e3c-65ac-40ad-802d-e36127dbd61f
 ms.date: 12/05/2018
 ms.keywords: IMFPMPClientApp, IMFPMPClientApp interface [Media Foundation], IMFPMPClientApp interface [Media Foundation],described, mf.imfpmpclientapp, mfidl/IMFPMPClientApp
-f1_keywords:
-- mfidl/IMFPMPClientApp
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFPMPClientApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMPClientApp
+ - mfidl/IMFPMPClientApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFPMPClientApp
 ---
 
 # IMFPMPClientApp interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a mechanism for a media source to implement content protection functionality in a Windows Store apps.
-
 
 ## -inheritance
 
@@ -77,25 +76,14 @@ Initialize the component with <a href="https://docs.microsoft.com/windows/deskto
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>When to implement:</b> 
 A media source implements <b>IMFPMPClientApp</b> in order to implement content protection functionality for Windows Store apps.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
@@ -106,7 +94,4 @@ A media source implements <b>IMFPMPClientApp</b> in order to implement content p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
- 
-
- 
 

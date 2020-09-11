@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 7434e761-303f-496f-81cb-83c199ddec8a
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelRead, WTSVirtualChannelRead function [Remote Desktop Services], _win32_wtsvirtualchannelread, termserv.wtsvirtualchannelread, wtsapi32/WTSVirtualChannelRead
-f1_keywords:
-- wtsapi32/WTSVirtualChannelRead
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.Dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.Dll
-api_name:
-- WTSVirtualChannelRead
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSVirtualChannelRead
+ - wtsapi32/WTSVirtualChannelRead
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.Dll
+api_name:
+ - WTSVirtualChannelRead
 ---
 
 # WTSVirtualChannelRead function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads data from the server end of a virtual
    channel.
 
 <b>WTSVirtualChannelRead</b> reads the data written 
     by a <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> call at the client 
     end of the virtual channel.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param hChannelHandle [in]
 
 Handle to a virtual channel opened by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
-
 
 ### -param TimeOut [in]
 
@@ -76,7 +70,6 @@ Specifies the time-out, in milliseconds. If <i>TimeOut</i> is zero,
       <b>WTSVirtualChannelRead</b> returns immediately 
       if there is no data to read. If <i>TimeOut</i> is INFINITE (defined in Winbase.h), the 
       function waits indefinitely until there is data to read.
-
 
 ### -param Buffer [out]
 
@@ -96,34 +89,23 @@ client DLL sets the <b>CHANNEL_OPTION_SHOW_PROTOCOL</b> option when it calls the
        the buffer receives only the data written in the 
        <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> call.
 
-
 ### -param BufferSize [in]
 
 Specifies the size, in bytes, of <i>Buffer</i>. If the chunk of data in <i>Buffer</i> will be preceded by a <b>CHANNEL_PDU_HEADER</b> structure, the value of this parameter should be at least 
       <b>CHANNEL_PDU_LENGTH</b>. Otherwise, the value of this parameter should be at least <b>CHANNEL_CHUNK_LENGTH</b>.
 
-
 ### -param pBytesRead [out]
 
 Pointer to a variable that receives the number of bytes read.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-      
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  <b>WTSVirtualChannelRead</b> is not thread safe. 
     To access a virtual channel from multiple threads, or to do asynchronous IO through a virtual channel, use 
@@ -131,12 +113,7 @@ If the function fails, the return value is zero. To get extended error informati
     <b>WTSVirtualFileHandle</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-channel_pdu_header">CHANNEL_PDU_HEADER</a>
 
@@ -155,7 +132,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelwrite">WTSVirtualChannelWrite</a>
- 
-
- 
 

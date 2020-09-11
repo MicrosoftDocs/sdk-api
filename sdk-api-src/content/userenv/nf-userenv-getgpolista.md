@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: 26c54ac5-23d7-40ed-94a9-70d25e14431f
 ms.date: 12/05/2018
 ms.keywords: GetGPOList, GetGPOList function [Group Policy], GetGPOListA, GetGPOListW, _win32_getgpolist, policy.getgpolist, userenv/GetGPOList, userenv/GetGPOListA, userenv/GetGPOListW
-f1_keywords:
-- userenv/GetGPOList
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- GetGPOList
-- GetGPOListA
-- GetGPOListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetGPOListA
+ - userenv/GetGPOListA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - GetGPOList
+ - GetGPOListA
+ - GetGPOListW
 ---
 
 # GetGPOListA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>GetGPOList</b> function retrieves the list of GPOs for the specified user or computer. This function can be called in two ways: first, you can use the token for the user or computer, or, second, you can use the name of the user or computer and the name of the domain controller.
 
-
 ## -parameters
-
-
-
 
 ### -param hToken [in]
 
@@ -73,13 +69,11 @@ A token for the user or computer, returned from the
 
 If this parameter is <b>NULL</b>, you must supply values for the <i>lpName</i> and <i>lpHostName</i> parameters.
 
-
 ### -param lpName [in]
 
 A pointer to the user or computer name, in the fully qualified distinguished name format (for example,  "CN=<i>user</i>, OU=<i>users</i>, DC=<i>contoso</i>, DC=<i>com</i>").
 
 If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NULL</b>.
-
 
 ### -param lpHostName [in]
 
@@ -88,11 +82,9 @@ A DNS domain name or domain controller name. Domain controller name can be retri
 
 If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NULL</b>.
 
-
 ### -param lpComputerName [in]
 
 A pointer to the name of the computer used to determine the site location. The format of the name is "&#92;&#92;<i>computer_name</i>". If this parameter is <b>NULL</b>, the local computer name is used.
-
 
 ### -param dwFlags [in]
 
@@ -100,28 +92,19 @@ A value that specifies additional flags that are used to control information ret
 
 If you specify <b>GPO_LIST_FLAG_SITEONLY</b> the function returns only site information for the computer or user.
 
-
 ### -param pGPOList [out]
 
 A pointer that receives the list of GPO structures. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>GetGPOList</b> function is intended for use by services acting on behalf of a user or computer. The service calls this function to obtain a list of GPOs, then checks each GPO for service-specific policy.
@@ -177,9 +160,6 @@ To retrieve the list of GPOs applied for a specific user or computer and extensi
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
 
 
@@ -199,7 +179,4 @@ To retrieve the list of GPOs applied for a specific user or computer and extensi
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
- 
-
- 
 

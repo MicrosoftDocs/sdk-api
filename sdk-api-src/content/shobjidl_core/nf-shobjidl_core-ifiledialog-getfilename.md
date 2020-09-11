@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d27acb22-906a-4e5e-9239-6de3162fd263
 ms.date: 12/05/2018
 ms.keywords: GetFileName, GetFileName method [Windows Shell], GetFileName method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileName method, IFileDialog.GetFileName, IFileDialog::GetFileName, shell.IFileDialog_GetFileName, shell_IFileDialog_GetFileName, shobjidl_core/IFileDialog::GetFileName
-f1_keywords:
-- shobjidl_core/IFileDialog.GetFileName
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileDialog.GetFileName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileDialog::GetFileName
+ - shobjidl_core/IFileDialog::GetFileName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileDialog.GetFileName
 ---
 
 # IFileDialog::GetFileName
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the text currently entered in the dialog's <b>File name</b> edit box.
 
-
 ## -parameters
-
-
-
 
 ### -param pszName [out]
 
@@ -64,25 +60,15 @@ Type: <b>WCHAR**</b>
 
 The address of a pointer to a buffer that, when this method returns successfully, receives the text.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The text in the <b>File name</b> edit box does not necessarily reflect the item the user chose.  To get the item the user chose, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult">IFileDialog::GetResult</a>.
 
 The calling application is responsible for releasing the retrieved buffer by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
-
-
 

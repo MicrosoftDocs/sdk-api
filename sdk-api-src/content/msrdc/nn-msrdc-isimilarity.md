@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: fe0cd874-a40c-4d82-99bf-b84008a4995c
 ms.date: 12/05/2018
 ms.keywords: ISimilarity, ISimilarity interface [Remote Differential Compression], ISimilarity interface [Remote Differential Compression],described, fs.isimilarity, msrdc/ISimilarity, rdc.isimilarity
-f1_keywords:
-- msrdc/ISimilarity
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- ISimilarity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISimilarity
+ - msrdc/ISimilarity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - ISimilarity
 ---
 
 # ISimilarity interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods for storing and retrieving per-file similarity data and file IDs  in a similarity file.
-
 
 ## -inheritance
 
@@ -131,16 +130,9 @@ Retrieves the number of records that are stored in the similarity file ID table 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

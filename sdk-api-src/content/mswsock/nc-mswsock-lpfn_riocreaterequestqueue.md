@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: CB69E0B6-519D-4268-A09B-196BBB6EB460
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOCREATEREQUESTQUEUE
-f1_keywords:
-- mswsock/LPFN_RIOCREATEREQUESTQUEUE
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIOCREATEREQUESTQUEUE
+ - mswsock/LPFN_RIOCREATEREQUESTQUEUE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIOCREATEREQUESTQUEUE
+ - LPFN_RIOCREATEREQUESTQUEUE
 ---
 
 ## -description
@@ -103,10 +104,6 @@ If no error occurs, the **RIOCreateRequestQueue** function returns a descriptor 
 | <dl> <dt>**[WSAENOTSOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)**</dt> </dl>     | The descriptor is not a socket. This error is returned if the *Socket* parameter is not a valid socket.<br/>                                                                                                                                                                                                                                                                                         |
 | <dl> <dt>**[WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)**</dt> </dl> | The attempted operation is not supported for the type of object referenced. This error is returned for a socket in the *Socket* parameter for an unsupported socket type (**SOCK\_RAW**, for example)<br/>                                                                                                                                                                                           |
 
-
-
- 
-
 ## -remarks
 
 The **RIOCreateRequestQueue** function creates a registered I/O socket descriptor using a specified socket and I/O completion queues. An application must call **RIOCreateRequestQueue** to obtain a [**RIO\_RQ**](/windows/win32/winsock/riorqueue) for a Winsock socket before the application can use the [**RIOSend**](/windows/win32/winsock/riosend), [**RIOSendEx**](/windows/win32/winsock/riosendex), [**RIOReceive**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive), or [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex) functions. In order to obtain a **RIO\_RQ**, the Winsock socket must be associated with completion queues for send and receive, although the same completion queue can be used for both.
@@ -130,7 +127,6 @@ When an application is finished using the [**RIO\_RQ**](/windows/win32/winsock/r
 **Windows Phone 8:** This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 **Windows 8.1** and **Windows Server 2012 R2**: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
-
 
 ## -see-also
 

@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: fd4e4cc8-f6b6-4896-abaa-0f0be85f34c0
 ms.date: 12/05/2018
 ms.keywords: _win32_auxOutMessage, auxOutMessage, auxOutMessage function [Windows Multimedia], mmeapi/auxOutMessage, multimedia.auxoutmessage
-f1_keywords:
-- mmeapi/auxOutMessage
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- auxOutMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - auxOutMessage
+ - mmeapi/auxOutMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - auxOutMessage
 ---
 
 # auxOutMessage function
@@ -51,50 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>auxOutMessage</b> function sends a message to the given auxiliary output device. This function also performs error checking on the device identifier passed as part of the message.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param uDeviceID
 
 Identifier of the auxiliary output device to receive the message.
 
-
 ### -param uMsg
 
 Message to send.
-
 
 ### -param dw1
 
 Message parameter.
 
-
 ### -param dw2
 
 Message parameter.
 
-
 ## -returns
-
-
 
 Returns the message return value.
 
-
-
-
 ## -remarks
-
-
 
 The <code>DRV_QUERYDEVICEINTERFACE</code> message queries for the device-interface name of a <b>waveIn</b>, <b>waveOut</b>, <b>midiIn</b>, <b>midiOut</b>, or <b>mixer</b> device.
 
@@ -182,20 +164,11 @@ When the DRVM_MAPPER_PREFERRED_FLAGS_PREFERREDONLY flag bit is set in the DWORD 
 
 The <i>xxx</i>Message functions accept this value in place of a valid device handle in order to allow an application to determine the default device ID without first having to open a device. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/accessing-the-preferred-device-id">Accessing the Preferred Device ID</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: eece7e36-7c3e-4bc4-9b5a-8142a062dbce
 ms.date: 12/05/2018
 ms.keywords: IWMAuthorizer, IWMAuthorizer interface [windows Media Format], IWMAuthorizer interface [windows Media Format],described, wmformat.iwmauthorizer, wmsecure/IWMAuthorizer
-f1_keywords:
-- wmsecure/IWMAuthorizer
-dev_langs:
-- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsecure.h
-api_name:
-- IWMAuthorizer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMAuthorizer
+ - wmsecure/IWMAuthorizer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsecure.h
+api_name:
+ - IWMAuthorizer
 ---
 
 # IWMAuthorizer interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWMAuthorizer</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 Provides access to certificates.
-
 
 ## -inheritance
 
@@ -98,5 +97,5 @@ Retrieves shared  data for the specified certificate.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollrange.htm
 ms.date: 12/05/2018
 ms.keywords: GetScrollRange, GetScrollRange function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, _win32_GetScrollRange, _win32_GetScrollRange_cpp, controls.GetScrollRange, controls._win32_GetScrollRange, winuser/GetScrollRange
-f1_keywords:
-- winuser/GetScrollRange
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- GetScrollRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetScrollRange
+ - winuser/GetScrollRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - GetScrollRange
 ---
 
 # GetScrollRange function
 
 
 ## -description
-
 
 The <b>GetScrollRange</b> function retrieves the current minimum and maximum scroll box (thumb) positions for the specified scroll bar.
 
@@ -57,16 +57,12 @@ The <b>GetScrollRange</b> function retrieves the current minimum and maximum scr
 
 ## -parameters
 
-
-
-
 ### -param hWnd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the 
-					<i>nBar</i> parameter. 
-
+					<i>nBar</i> parameter.
 
 ### -param nBar [in]
 
@@ -111,39 +107,28 @@ Retrieves the positions of the window's standard vertical scroll bar.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpMinPos [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 
-Pointer to the integer variable that receives the minimum position. 
-
+Pointer to the integer variable that receives the minimum position.
 
 ### -param lpMaxPos [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 
-Pointer to the integer variable that receives the maximum position. 
-
+Pointer to the integer variable that receives the maximum position.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If the specified window does not have standard scroll bars or is not a scroll bar control, the <b>GetScrollRange</b> function copies zero to the 
 				<i>lpMinPos</i> and 
@@ -155,13 +140,7 @@ The messages that indicate scroll bar position, <a href="https://docs.microsoft.
 
 If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-getrange">SBM_GETRANGE</a> message to the window to obtain scroll bar information.  This allows <b>GetScrollRange</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_GETRANGE</b> message, the <b>GetScrollRange</b> function fails.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>
 
@@ -192,7 +171,4 @@ If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-vscroll">WM_VSCROLL</a>
- 
-
- 
 

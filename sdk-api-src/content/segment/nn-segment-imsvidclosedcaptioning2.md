@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 37fe213a-7778-4448-937d-30ad1015d56c
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning2, IMSVidClosedCaptioning2 interface [Microsoft TV Technologies], IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],described, IMSVidClosedCaptioning2Interface, mstv.imsvidclosedcaptioning2, segment/IMSVidClosedCaptioning2
-f1_keywords:
-- segment/IMSVidClosedCaptioning2
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidClosedCaptioning2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidClosedCaptioning2
+ - segment/IMSVidClosedCaptioning2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidClosedCaptioning2
 ---
 
 # IMSVidClosedCaptioning2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMSVidClosedCaptioning2</b> interface sets the closed captioning service, such as CC1 or CC2. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695119(v=vs.85)">MSVidClosedCaptioning</a> feature exposes this interface.
-
-
-
 
 ## -inheritance
 
@@ -89,29 +85,17 @@ Sets the closed captioning service.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidClosedCaptioning2)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
 

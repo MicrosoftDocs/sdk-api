@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5b3764dc-fc63-45cc-8c35-65539c461e81
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], IX509CertificateRequestPkcs10 interface [Security],described, certenroll/IX509CertificateRequestPkcs10, security.ix509certificaterequestpkcs10
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10
+ - certenroll/IX509CertificateRequestPkcs10
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10
 ---
 
 # IX509CertificateRequestPkcs10 interface
 
 
 ## -description
-
 
 The <b>IX509CertificateRequestPkcs10</b> interface represents a PKCS #10 certificate request. The public key cryptography standard (PKCS) #10 defines the format of messages sent to a certification or registration authority to request a public-key certificate.
 
@@ -162,8 +162,6 @@ The following properties must be set, if at all, before calling the Encode metho
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-get_subject">Subject</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -476,20 +474,13 @@ Retrieves a collection of the extensions included in the certificate request.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
- 
-
- 
 

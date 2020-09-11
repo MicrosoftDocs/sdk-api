@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: directdraw
+f1_keywords:
+ - ddraw
+ - ddraw/ddraw
 ---
 
 # Ddraw.h header
 
 
 ## -description
-
 
 This header is used by DirectDraw. For more information, see:
 

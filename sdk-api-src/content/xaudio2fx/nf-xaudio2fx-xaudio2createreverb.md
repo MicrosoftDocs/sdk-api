@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateReverb(IUnknown@,UINT32)
 ms.date: 12/05/2018
 ms.keywords: XAudio2CreateReverb, XAudio2CreateReverb function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createreverb, xaudio2fx/XAudio2CreateReverb
-f1_keywords:
-- xaudio2fx/XAudio2CreateReverb
-dev_langs:
-- c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Xaudio2.lib
 req.dll: Windows.Media.Audio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Windows.Media.Audio.dll
-api_name:
-- XAudio2CreateReverb
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XAudio2CreateReverb
+ - xaudio2fx/XAudio2CreateReverb
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Windows.Media.Audio.dll
+api_name:
+ - XAudio2CreateReverb
 ---
 
 # XAudio2CreateReverb function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new reverb audio processing object (APO), and returns a pointer to it.
 
-
 ## -parameters
-
-
-
 
 ### -param ppApo [in, out]
 
 Contains a pointer to the reverb APO that is created.
 
-
 ### -param DEFAULT [in]
 
 Flags that specify the behavior of the APO. The value of this parameter must be 0.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>XAudio2CreateReverb</b> creates an effect performing Princeton Digital Reverb. The XAPO effect library (XAPOFX) includes an alternate reverb effect. Use <a href="https://docs.microsoft.com/windows/desktop/api/xapofx/nf-xapofx-createfx">CreateFX</a> to create this alternate effect.
 
@@ -170,13 +157,7 @@ __inline HRESULT XAudio2CreateReverb(_Outptr_ IUnknown** ppApo, UINT32 /*Flags*/
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
 
@@ -191,7 +172,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
- 
-
- 
 

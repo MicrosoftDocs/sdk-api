@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 40550df0-9da4-4b02-bd57-23eae78c68df
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code, _win32_ioctl_changer_exchange_medium, base.ioctl_changer_exchange_medium, winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
-f1_keywords:
-- winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_CHANGER_EXCHANGE_MEDIUM
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_CHANGER_EXCHANGE_MEDIUM
+ - winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_CHANGER_EXCHANGE_MEDIUM
 ---
 
 # IOCTL_CHANGER_EXCHANGE_MEDIUM IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -93,14 +88,13 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 To swap two pieces of media, specify the source as the value for the second destination.
-
 
 ## -see-also
 
 * [CHANGER_EXCHANGE_MEDIUM](ns-winioctl-changer_exchange_medium.md)
 * [Device Management Control Codes](https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+

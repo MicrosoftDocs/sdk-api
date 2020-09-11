@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: b2c48c06-8bfc-431b-aab3-89ec9b30a9a0
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx interface,SetPrepareForBackupFailureMsg method, IVssComponentEx.SetPrepareForBackupFailureMsg, IVssComponentEx::SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg method, SetPrepareForBackupFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setprepareforbackupfailuremsg, vswriter/IVssComponentEx::SetPrepareForBackupFailureMsg
-f1_keywords:
-- vswriter/IVssComponentEx.SetPrepareForBackupFailureMsg
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponentEx.SetPrepareForBackupFailureMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponentEx::SetPrepareForBackupFailureMsg
+ - vswriter/IVssComponentEx::SetPrepareForBackupFailureMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponentEx.SetPrepareForBackupFailureMsg
 ---
 
 # IVssComponentEx::SetPrepareForBackupFailureMsg
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message string for a component.
 
 This method can only be called by a writer's <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param wszFailureMsg [in]
 
@@ -67,10 +63,7 @@ The address of a caller-allocated <b>NULL</b>-terminated wide character string c
       while processing a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> 
       event.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -124,25 +117,13 @@ This method was not called by a writer's <a href="https://docs.microsoft.com/win
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The failure message that is set by 
 <b>SetPrepareForBackupFailureMsg</b> applies to all files in the component and any subcomponents.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
 
@@ -153,7 +134,4 @@ The failure message that is set by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getprepareforbackupfailuremsg">IVssComponentEx::GetPrepareForBackupFailureMsg</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
 ms.date: 12/05/2018
 ms.keywords: CryptEncodeObject, CryptEncodeObject function [Security], _crypto2_cryptencodeobject, security.cryptencodeobject, wincrypt/CryptEncodeObject
-f1_keywords:
-- wincrypt/CryptEncodeObject
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptEncodeObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptEncodeObject
+ - wincrypt/CryptEncodeObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptEncodeObject
 ---
 
 # CryptEncodeObject function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptEncodeObject</b> function encodes a structure of the type indicated by the value of the <i>lpszStructType</i> parameter. The use of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> is recommended as an API that performs the same function with significant performance improvements.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -81,11 +77,9 @@ A pointer to an OID defining the structure type. If the high-order word of the <
 For more information about object identifier strings, their predefined constants and corresponding structures, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
-
 ### -param pvStructInfo [in]
 
 A pointer to the structure to be encoded. The structure must be of a type specified by <i>lpszStructType</i>.
-
 
 ### -param pbEncoded [out]
 
@@ -93,7 +87,6 @@ A pointer to a buffer to receive the encoded structure. When the buffer that is 
 
 This parameter can be <b>NULL</b> to retrieve the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbEncoded [in, out]
 
@@ -103,8 +96,6 @@ A pointer to a <b>DWORD</b> variable that contains the size, in bytes, of the bu
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -156,12 +147,7 @@ If the buffer specified by the <i>pbEncoded</i> parameter is not large enough to
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 When encoding a cryptographic object using the preferred <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function, the terminating <b>NULL</b> character is included. When decoding, using the preferred <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex">CryptDecodeObjectEx</a> function, the terminating <b>NULL</b> character is not retained.
 
@@ -174,12 +160,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a>
 
@@ -190,7 +171,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Object Encoding and Decoding Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Advise method, IPortableDevice.Advise, IPortableDevice::Advise, IPortableDeviceAdvise, portabledeviceapi/IPortableDevice::Advise, wpdsdk.iportabledevice_advise
-f1_keywords:
-- portabledeviceapi/IPortableDevice.Advise
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDevice.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDevice::Advise
+ - portabledeviceapi/IPortableDevice::Advise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDevice.Advise
 ---
 
 # IPortableDevice::Advise
@@ -50,43 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Advise</b> method registers an application-defined callback that receives device events.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 <b>DWORD</b> that specifies option flags.
-          
-
 
 ### -param pCallback [in]
 
 Pointer to a callback object.
-          
-
 
 ### -param pParameters [in]
 
 This parameter is ignored and should be set to <b>NULL</b>.
-          
-
 
 ### -param ppszCookie [out]
 
 A string that represents a unique context ID. This is used to unregister for callbacks when calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-unadvise">Unadvise</a>.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -108,22 +93,12 @@ The application-defined callback was successfully registered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/handling-events-from-the-device">Handling Events from the Device</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
- 
-
- 
 

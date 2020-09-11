@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5b5bfe87-8f31-4228-931e-50cfc399b66b
 ms.date: 12/05/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CredUICmdLinePromptForCredentials, CredUICmdLinePromptForCredentials function [Security], CredUICmdLinePromptForCredentialsA, CredUICmdLinePromptForCredentialsW, _cred_creduicmdlinepromptforcredentials, security.creduicmdlinepromptforcredentials, wincred/CredUICmdLinePromptForCredentials, wincred/CredUICmdLinePromptForCredentialsA, wincred/CredUICmdLinePromptForCredentialsW
-f1_keywords:
-- wincred/CredUICmdLinePromptForCredentials
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Credui.dll
-- Ext-MS-Win-security-credui-l1-1-0.dll
-- Ext-MS-Win-security-credui-l1-1-1.dll
-- AnalogCredUI.dll
-api_name:
-- CredUICmdLinePromptForCredentials
-- CredUICmdLinePromptForCredentialsA
-- CredUICmdLinePromptForCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredUICmdLinePromptForCredentialsA
+ - wincred/CredUICmdLinePromptForCredentialsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-0.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
+api_name:
+ - CredUICmdLinePromptForCredentials
+ - CredUICmdLinePromptForCredentialsA
+ - CredUICmdLinePromptForCredentialsW
 ---
 
 # CredUICmdLinePromptForCredentialsA function
@@ -54,29 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredUICmdLinePromptForCredentials</b> function prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification.
 
-
 ## -parameters
-
-
-
 
 ### -param pszTargetName [in]
 
 A pointer to a <b>null</b>-terminated string that contains the name of the target for the credentials, typically a server name. For DFS connections, this string is of the form <i>ServerName</i><b>\\</b><i>ShareName</i>. The <i>pszTargetName</i> parameter is used to identify the target information and is used to store and retrieve the credential.
 
-
 ### -param pContext [in]
 
 Currently reserved and must be <b>NULL</b>.
 
-
 ### -param dwAuthError [in, optional]
 
 Specifies why prompting for credentials is needed. A caller can pass this Windows error parameter, returned by another authentication call, to allow the dialog box to accommodate certain errors. For example, if the password expired status code is passed, the dialog box prompts the user to change the password on the account.
-
 
 ### -param UserName [in, out]
 
@@ -90,7 +83,6 @@ This function writes the user-supplied name to this buffer, copying a maximum of
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUsername</a> function. The string in its marshaled format can be passed directly to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
 If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUsername</a>. The subsequent results of <b>CredUIParseUsername</b> can  be passed only to a client-side authentication API such as <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> or the SSP API.
-
 
 ### -param ulUserBufferSize [in]
 
@@ -113,7 +105,6 @@ This function writes the user-supplied password to this buffer, copying a maximu
 
 When you have finished using the password, clear the password from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
-
 ### -param ulPasswordBufferSize [in]
 
 The maximum number of characters that can be copied to <i>pszPassword</i> including the terminating <b>null</b> character. 
@@ -127,7 +118,6 @@ The maximum number of characters that can be copied to <i>pszPassword</i> includ
 ### -param pfSave [in, out]
 
 A pointer to a <b>BOOL</b> that specifies the initial state of the <b>Save</b> message and receives the state of the <b>Save</b> message after the user has responded to the command prompt. If <i>pfSave</i> is not <b>NULL</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> returns NO_ERROR, <i>pfSave</i> returns the state of the <b>Save</b> message. If the CREDUI_FLAGS_PERSIST flag is specified, the <b>Save</b> message is not displayed but is considered to be "y". If the CREDUI_FLAGS_DO_NOT_PERSIST flag is specified and CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX is not specified, the <b>Save</b> message is not displayed but is considered to be "n".
-
 
 ### -param dwFlags [in]
 
@@ -286,12 +276,8 @@ The credential is a run-as credential. The <i>pszTargetName</i> parameter specif
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The return value is a <b>DWORD</b> and can be one of the following values.
 
@@ -351,14 +337,8 @@ User chose <b>OK</b>. The <i>pszUserName</i>, <i>pszPassword</i>, and <i>pfSave<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_REQUIRE_CERTIFICATE, and CREDUI_FLAGS_EXCLUDE_CERTIFICATE flags are mutually exclusive.
 
@@ -410,9 +390,6 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>
 
 
@@ -434,7 +411,4 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a>
- 
-
- 
 

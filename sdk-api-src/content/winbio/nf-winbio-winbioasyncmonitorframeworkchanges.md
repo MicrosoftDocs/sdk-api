@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 4BA91B17-DA7D-456C-A815-ED25A3C5D74A
 ms.date: 12/05/2018
 ms.keywords: WINBIO_FRAMEWORK_CHANGE_UNIT, WinBioAsyncMonitorFrameworkChanges, WinBioAsyncMonitorFrameworkChanges function [Windows Biometric Framework API], secbiomet.winbioasyncmonitorframeworkchanges, winbio/WinBioAsyncMonitorFrameworkChanges
-f1_keywords:
-- winbio/WinBioAsyncMonitorFrameworkChanges
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- WinBioExt.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioAsyncMonitorFrameworkChanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioAsyncMonitorFrameworkChanges
+ - winbio/WinBioAsyncMonitorFrameworkChanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - WinBioExt.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioAsyncMonitorFrameworkChanges
 ---
 
 # WinBioAsyncMonitorFrameworkChanges function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts an asynchronous monitor of changes to the biometric framework. Currently, the only monitored changes that are supported occur when a biometric unit is attached to or detached from the computer.
 
-
 ## -parameters
-
-
-
 
 ### -param FrameworkHandle [in]
 
 Handle to the framework session opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>.
-
 
 ### -param ChangeTypes [in]
 
@@ -86,12 +81,8 @@ A biometric unit has been attached to or detached from the computer.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b> indicating success or failure. Note that success indicates only that the function arguments were valid. Failures encountered during the execution of the operation will be returned asynchronously to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure using the notification method specified in <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>.
 
@@ -134,14 +125,8 @@ The <i>FrameworkHandle</i> argument must represent an asynchronous framework ses
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Once started, this monitor will continue generating events until the client application calls <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocancel">WinBioCancel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocloseframework">WinBioCloseFramework</a>. Creating a monitor for <b>WINBIO_FRAMEWORK_CHANGE_UNIT</b> events will generate two types of asynchronous notifications:
 
@@ -181,16 +166,7 @@ The <b>WinBioAsyncMonitorFrameworkChanges</b> function uses a handle to the fram
 </ul>
 Notifications are   returned in an <b>EnumServiceProviders</b> structure nested inside the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure. You must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the <b>WINBIO_ASYNC_RESULT</b> structure after you have finished using it.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>
- 
-
- 
 

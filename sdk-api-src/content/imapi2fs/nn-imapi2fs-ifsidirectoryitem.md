@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 1c9a2e36-0e79-4bad-b880-ddfbf473308b
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], IFsiDirectoryItem interface [IMAPI],described, imapi.ifsidirectoryitem, imapi2fs/IFsiDirectoryItem
-f1_keywords:
-- imapi2fs/IFsiDirectoryItem
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiDirectoryItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiDirectoryItem
+ - imapi2fs/IFsiDirectoryItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiDirectoryItem
 ---
 
 # IFsiDirectoryItem interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to add items to or remove items from the file-system image. 
 
 To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem">IFileSystemImage::CreateDirectoryItem</a> method.
-
 
 ## -inheritance
 
@@ -160,12 +159,9 @@ Remove the specified directory tree from the file system image.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Each directory item contains an enumerable collection of child items within the directory.
 
@@ -174,20 +170,11 @@ You can add and remove files and directories only after the directory item has b
 
 This is an <b>FsiDirectoryItem</b> object in script.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem">IFileSystemImage::CreateDirectoryItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: psapi
 ms.assetid: 55925741-da23-44b1-93e8-0e9468434a61
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceDrivers, EnumDeviceDrivers function [PSAPI], K32EnumDeviceDrivers, _win32_enumdevicedrivers, base.enumdevicedrivers, psapi.enumdevicedrivers, psapi/EnumDeviceDrivers, psapi/K32EnumDeviceDrivers
-f1_keywords:
-- psapi/EnumDeviceDrivers
-dev_langs:
-- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Psapi.dll
-- Psapi.dll
-- API-MS-Win-Core-PsAPI-L1-1-0.dll
-- KernelBase.dll
-api_name:
-- EnumDeviceDrivers
-- K32EnumDeviceDrivers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumDeviceDrivers
+ - psapi/EnumDeviceDrivers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Psapi.dll
+ - Psapi.dll
+ - API-MS-Win-Core-PsAPI-L1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - EnumDeviceDrivers
+ - K32EnumDeviceDrivers
 ---
 
 # EnumDeviceDrivers function
@@ -54,45 +55,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the load address for each device driver in the system.
 
-
 ## -parameters
-
-
-
 
 ### -param lpImageBase [out]
 
 An array that receives the list of load addresses for the device drivers.
 
-
 ### -param cb [in]
 
 The size of the <i>lpImageBase</i> array, in bytes. If the array is not large enough to store the load addresses, the <i>lpcbNeeded</i> parameter receives the required size of the array.
-
 
 ### -param lpcbNeeded [out]
 
 The number of bytes returned in the <i>lpImageBase</i> array.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To determine how many device drivers were enumerated by the call to 
 <b>EnumDeviceDrivers</b>, divide the resulting value in the <i>lpcbNeeded</i> parameter by <code>sizeof(LPVOID)</code>.
@@ -110,12 +96,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/psapi/en
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/psapi/device-driver-information">Device Driver Information</a>
 
@@ -130,7 +111,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/psapi/en
 
 
 <a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
- 
-
- 
 

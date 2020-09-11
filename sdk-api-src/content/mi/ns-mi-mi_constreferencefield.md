@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: 4d93aea8-6d66-4c69-b6f4-22837a692efd
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReferenceField, MI_ConstReferenceField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstReferenceField, wmi._mi_constreferencefield, wmi_v2.mi_constreferencefield
-f1_keywords:
-- mi/MI_ConstReferenceField
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_ConstReferenceField
 targetos: Windows
 req.typenames: MI_ConstReferenceField
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _MI_ConstReferenceField
+ - mi/_MI_ConstReferenceField
+ - MI_ConstReferenceField
+ - mi/MI_ConstReferenceField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_ConstReferenceField
 ---
 
 # MI_ConstReferenceField structure
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field value
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
-
 ### -field exists
 
 Indicates whether the field is non-null. This member can be set to <b>MI_TRUE</b> or <b>MI_FALSE</b>.
-
 
 ### -field flags
 

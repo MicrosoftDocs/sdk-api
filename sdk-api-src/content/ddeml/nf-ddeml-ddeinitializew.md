@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeinitialize.htm
 ms.date: 12/05/2018
 ms.keywords: APPCLASS_MONITOR, APPCLASS_STANDARD, APPCMD_CLIENTONLY, APPCMD_FILTERINITS, CBF_FAIL_ADVISES, CBF_FAIL_ALLSVRXACTIONS, CBF_FAIL_CONNECTIONS, CBF_FAIL_EXECUTES, CBF_FAIL_POKES, CBF_FAIL_REQUESTS, CBF_FAIL_SELFCONNECTIONS, CBF_SKIP_ALLNOTIFICATIONS, CBF_SKIP_CONNECT_CONFIRMS, CBF_SKIP_DISCONNECTS, CBF_SKIP_REGISTRATIONS, CBF_SKIP_UNREGISTRATIONS, DdeInitialize, DdeInitialize function [Data Exchange], DdeInitializeA, DdeInitializeW, MF_CALLBACKS, MF_CONV, MF_ERRORS, MF_HSZ_INFO, MF_LINKS, MF_POSTMSGS, MF_SENDMSGS, _win32_DdeInitialize, _win32_ddeinitialize_cpp, dataxchg.ddeinitialize, ddeml/DdeInitialize, ddeml/DdeInitializeA, ddeml/DdeInitializeW, winui._win32_ddeinitialize
-f1_keywords:
-- ddeml/DdeInitialize
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DdeInitialize
-- DdeInitializeA
-- DdeInitializeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdeInitializeW
+ - ddeml/DdeInitializeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DdeInitialize
+ - DdeInitializeA
+ - DdeInitializeW
 ---
 
 # DdeInitializeW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Registers an application with the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function. 
-
+Registers an application with the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function.
 
 ## -parameters
-
-
-
 
 ### -param pidInst [in, out]
 
@@ -69,15 +65,13 @@ The application instance identifier. At initialization, this parameter should po
 
 If 
 					<i>pidInst</i> points to a nonzero value, reinitialization of the DDEML is implied. In this case, 
-					<i>pidInst</i> must point to a valid application-instance identifier. 
-
+					<i>pidInst</i> must point to a valid application-instance identifier.
 
 ### -param pfnCallback [in]
 
 Type: <b>PFNCALLBACK</b>
 
-A pointer to the application-defined DDE callback function. This function processes DDE transactions sent by the system. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nc-ddeml-pfncallback">DdeCallback</a> callback function. 
-
+A pointer to the application-defined DDE callback function. This function processes DDE transactions sent by the system. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nc-ddeml-pfncallback">DdeCallback</a> callback function.
 
 ### -param afCmd [in]
 
@@ -349,19 +343,14 @@ Notifies the callback function whenever the system or an application sends a DDE
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulRes
 
 Type: <b>DWORD</b>
 
-Reserved; must be set to zero. 
-
+Reserved; must be set to zero.
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
@@ -369,12 +358,7 @@ If the function succeeds, the return value is <b>DMLERR_NO_ERROR</b>.
 
 If the function fails, the return value is one of the following values:
 
-
-
-
 ## -remarks
-
-
 
 An application that uses multiple instances of the DDEML must not pass DDEML objects between instances. 
 
@@ -397,11 +381,5 @@ There is an ANSI version and a Unicode version of <b>DdeInitialize</b>. The vers
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 0f20c738-ae56-4352-a1fb-5aa469a58bc8
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSearchRecords, PeerGraphSearchRecords function [Peer Networking], p2p.peergraphsearchrecords, p2p/PeerGraphSearchRecords
-f1_keywords:
-- p2p/PeerGraphSearchRecords
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphSearchRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphSearchRecords
+ - p2p/PeerGraphSearchRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphSearchRecords
 ---
 
 # PeerGraphSearchRecords function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphSearchRecords</b> function searches the peer graph for specific records.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to the peer graph.
 
-
 ### -param pwzCriteria [in]
 
 Pointer to an XML string that specifies the records to search for. For information on formulating an XML query string to search the peer graphing records, see <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/record-search-query-format">Record Search Query Format</a>.
-
 
 ### -param phPeerEnum [out]
 
 Handle to the enumeration.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is S_OK. Otherwise, it  returns one of the following values.
 
@@ -140,26 +131,14 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumrecords">PeerGraphEnumRecords</a> function is more efficient than the  <b>PeerGraphSearchRecords</b> function.
 
 When <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a> is called with the handle returned by  <b>PeerGraphSearchRecords</b>, <b>PeerGraphGetNextItem</b>  returns the data in the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
@@ -178,7 +157,4 @@ When <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrap
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a>
- 
-
- 
 

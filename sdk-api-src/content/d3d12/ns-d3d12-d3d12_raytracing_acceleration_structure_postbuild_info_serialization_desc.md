@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: F956D936-9946-4FEC-B0D1-ED522440B9E2
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC structure, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC structure pointer, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC, d3d12/PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC, direct3d12.d3d12_raytracing_acceleration_structure_postbuild_info_serialization_desc
-f1_keywords:
-- d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC
+ - d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC
 ---
 
 # D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC structure
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the size and layout of the serialized acceleration structure and header
-
 
 ## -struct-fields
 
-
-
-
 ### -field SerializedSizeInBytes
 
-The size of the serialized acceleration structure, including a header.  The header is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_serialized_raytracing_acceleration_structure_header">D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER</a> followed by followed by a list of pointers to bottom-level acceleration structures.  
-
+The size of the serialized acceleration structure, including a header.  The header is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_serialized_raytracing_acceleration_structure_header">D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER</a> followed by followed by a list of pointers to bottom-level acceleration structures.
 
 ### -field NumBottomLevelAccelerationStructurePointers
 

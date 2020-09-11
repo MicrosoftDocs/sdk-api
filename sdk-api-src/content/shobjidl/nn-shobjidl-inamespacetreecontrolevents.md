@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 496fa657-c27c-4f6c-a137-fb0d393aa284
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], INameSpaceTreeControlEvents interface [Windows Shell],described, _shell_INameSpaceTreeControlEvents, shell.INameSpaceTreeControlEvents, shobjidl/INameSpaceTreeControlEvents
-f1_keywords:
-- shobjidl/INameSpaceTreeControlEvents
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- INameSpaceTreeControlEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControlEvents
+ - shobjidl/INameSpaceTreeControlEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - INameSpaceTreeControlEvents
 ---
 
 # INameSpaceTreeControlEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for handling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> events.
-
 
 ## -inheritance
 
@@ -222,25 +221,13 @@ Called when the selection changes.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is implemented by a client of namespace control (CLSID_NameSpaceTreeControl) to be advised of namespace control events so that the client may process these events and if not, allow the namespace control to process them.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>
- 
-
- 
 

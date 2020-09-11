@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowpos.htm
 ms.date: 12/05/2018
 ms.keywords: HWND_BOTTOM, HWND_NOTOPMOST, HWND_TOP, HWND_TOPMOST, SWP_ASYNCWINDOWPOS, SWP_DEFERERASE, SWP_DRAWFRAME, SWP_FRAMECHANGED, SWP_HIDEWINDOW, SWP_NOACTIVATE, SWP_NOCOPYBITS, SWP_NOMOVE, SWP_NOOWNERZORDER, SWP_NOREDRAW, SWP_NOREPOSITION, SWP_NOSENDCHANGING, SWP_NOSIZE, SWP_NOZORDER, SWP_SHOWWINDOW, SetWindowPos, SetWindowPos function [Windows and Messages], _win32_SetWindowPos, _win32_setwindowpos_cpp, winmsg.setwindowpos, winui._win32_setwindowpos, winuser/SetWindowPos
-f1_keywords:
-- winuser/SetWindowPos
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- SetWindowPos
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetWindowPos
+ - winuser/SetWindowPos
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetWindowPos
 ---
 
 # SetWindowPos function
@@ -59,21 +60,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the size, position, and Z order of a child, pop-up, or top-level window. These windows are ordered according to their appearance on the screen. The topmost window receives the highest rank and is the first window in the Z order.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window.
-
 
 ### -param hWndInsertAfter [in, optional]
 
@@ -137,34 +132,29 @@ Places the window above all non-topmost windows. The window maintains its topmos
 
 For more information about how this parameter is used, see the following Remarks section.
 
-
 ### -param X [in]
 
 Type: <b>int</b>
 
-The new position of the left side of the window, in client coordinates. 
-
+The new position of the left side of the window, in client coordinates.
 
 ### -param Y [in]
 
 Type: <b>int</b>
 
-The new position of the top of the window, in client coordinates. 
-
+The new position of the top of the window, in client coordinates.
 
 ### -param cx [in]
 
 Type: <b>int</b>
 
-The new width of the window, in pixels. 
-
+The new width of the window, in pixels.
 
 ### -param cy [in]
 
 Type: <b>int</b>
 
-The new height of the window, in pixels. 
-
+The new height of the window, in pixels.
 
 ### -param uFlags [in]
 
@@ -343,25 +333,16 @@ Displays the window.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 As part of the Vista re-architecture, all services were moved off the interactive desktop into Session 0. hwnd and window manager operations are only effective inside a session and cross-session attempts to manipulate the hwnd will fail. For more information, see <a href="https://msdn.microsoft.com/library/Aa480152.aspx">The Windows Vista Developer Story: Application Compatibility Cookbook</a>.
 
@@ -392,12 +373,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -420,7 +396,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

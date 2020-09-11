@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isearchlanguagesupport.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], ISearchLanguageSupport interface [search],described, _search_ISearchLanguageSupport, search._search_ISearchLanguageSupport, searchapi/ISearchLanguageSupport
-f1_keywords:
-- searchapi/ISearchLanguageSupport
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchLanguageSupport
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchLanguageSupport
+ - searchapi/ISearchLanguageSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchLanguageSupport
 ---
 
 # ISearchLanguageSupport interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for accessing thesaurus information.
-
 
 ## -inheritance
 
@@ -131,14 +130,9 @@ Sets a value that indicates whether an implemented <b>ISearchLanguageSupport</b>
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A thesaurus file contains a word and a list of words to substitute when querying. It is specific to a catalog and can be defined in more than one file.
-
-
 

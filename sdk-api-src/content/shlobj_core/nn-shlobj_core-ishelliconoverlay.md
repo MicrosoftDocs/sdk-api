@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1a1d03ca-0922-41df-8cec-e74a16ed3bd6
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlay, IShellIconOverlay interface [Windows Shell], IShellIconOverlay interface [Windows Shell],described, _win32_IShellIconOverlay, shell.IShellIconOverlay, shlobj_core/IShellIconOverlay
-f1_keywords:
-- shlobj_core/IShellIconOverlay
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellIconOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellIconOverlay
+ - shlobj_core/IShellIconOverlay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellIconOverlay
 ---
 
 # IShellIconOverlay interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that are used by a namespace extension to specify icon overlays for the objects it contains.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Gets the overlay index in the system image list.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Icon overlays are small images placed at the lower-left corner of the icon that represents a Shell object. They are typically used to add some extra information to the icon. A commonly used icon overlay is the small arrow that indicates that a file or folder icon represents a shortcut.
 
@@ -106,6 +102,4 @@ To specify an icon overlay, both methods must first retrieve the overlay's overl
 This interface is implemented by namespace extensions that need to specify icon overlays for their objects.
 
 This interface is not typically used by applications.
-
-
 

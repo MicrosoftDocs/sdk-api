@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_BACKGROUND_PROCESSING_MODE","D3D12_BACKGROUND_PROCE
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: D3D12_BACKGROUND_PROCESSING_MODE, D3D12_BACKGROUND_PROCESSING_MODE enumeration, direct3d12.d3d12_background_processing_mode
-f1_keywords:
-- d3d12/D3D12_BACKGROUND_PROCESSING_MODE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +23,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_BACKGROUND_PROCESSING_MODE
 targetos: Windows
 req.typenames: D3D12_BACKGROUND_PROCESSING_MODE
 req.redist: 
+f1_keywords:
+ - D3D12_BACKGROUND_PROCESSING_MODE
+ - d3d12/D3D12_BACKGROUND_PROCESSING_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_BACKGROUND_PROCESSING_MODE
 ---
 
 ## -description
@@ -68,3 +69,4 @@ Specifies that all dynamic optimization should be disabled. For example, if you'
 ## -see-also
 
 [Core enumerations](/windows/win32/direct3d12/direct3d-12-enumerations)
+

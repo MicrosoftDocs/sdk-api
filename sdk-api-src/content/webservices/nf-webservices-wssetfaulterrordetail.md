@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 469982a5-42da-40e7-a053-4820fee58828
 ms.date: 12/05/2018
 ms.keywords: WsSetFaultErrorDetail, WsSetFaultErrorDetail function [Web Services for Windows], webservices/WsSetFaultErrorDetail, wsw.wssetfaulterrordetail
-f1_keywords:
-- webservices/WsSetFaultErrorDetail
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsSetFaultErrorDetail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsSetFaultErrorDetail
+ - webservices/WsSetFaultErrorDetail
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsSetFaultErrorDetail
 ---
 
 # WsSetFaultErrorDetail function
@@ -49,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Write the fault detail stored in a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param error [in]
 
 The error object that will contain the fault information.
-                
-
 
 ### -param faultDetailDescription [in]
 
@@ -76,21 +69,15 @@ If the action field of the fault detail description is non-<b>NULL</b>,
 
 The element description of the fault detail description 
                     describes the format of the element in the fault detail.
-                
-
 
 ### -param writeOption [in]
 
 Information about how the value is allocated.
                     See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.
-                
-
 
 ### -param value
 
 A pointer to the value to serialize.
-                
-
 
 ### -param valueSize [in]
 
@@ -98,12 +85,8 @@ The size of the value being serialized, in bytes.
                 
 
 If the value is <b>NULL</b>, then the size should be 0.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -146,14 +129,8 @@ Ran out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This API will serialize the value of the detail field of
                 the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> stored in the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
@@ -176,5 +153,4 @@ This functions supports the following scenarios, based on the contents
                 <b>WS_WRITE_REQUIRED_POINTER</b>.                
                 </li>
 </ul>
-
 

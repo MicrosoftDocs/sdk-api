@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: dd619138-f867-4517-bc67-a52c598efad0
 ms.date: 12/05/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_ENSURE_TRAILING_SLASH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathAllocCombine, PathAllocCombine function [Windows Shell], pathcch/PathAllocCombine, shell.PathAllocCombine
-f1_keywords:
-- pathcch/PathAllocCombine
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathAllocCombine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathAllocCombine
+ - pathcch/PathAllocCombine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathAllocCombine
 ---
 
 # PathAllocCombine function
@@ -59,19 +60,15 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 <div class="alert"><b>Note</b> This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a>.</div><
 
-
 ## -parameters
-
 
 ### -param pszPathIn [in]
 
 A pointer to the first path string.
 
-
 ### -param pszMore [in]
 
 A pointer to the second path string. If this path begins with a single backslash, it is combined with only the root of the path pointed to by <i>pszPathIn</i>. If this path is fully qualified, it is copied directly to the output buffer without being combined with the other path.
-
 
 ### -param dwFlags [in]
 
@@ -156,17 +153,14 @@ One or more of the following flags:
 </td>
 </tr>
 </table>
- 
 
 ### -param ppszPathOut [out]
 
 The address of a pointer to a buffer that, when this function returns successfully, receives the combined path string. It is the responsibility of the caller to free this resource, when it is no longer needed, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. This value cannot be <b>NULL</b>.
 
-
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
 
 ## -remarks
 
@@ -180,10 +174,9 @@ This function supports these alternate path forms:
 <li>\\?\Volume{guid}\</li>
 </ul>
 
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>
- 
+

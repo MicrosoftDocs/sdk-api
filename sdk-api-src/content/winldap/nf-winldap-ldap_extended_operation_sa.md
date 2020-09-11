@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: a9e354f3-b6b3-4c41-93d7-497354c87237
 ms.date: 12/05/2018
 ms.keywords: ldap.ldap_extended_operation_s, ldap_extended_operation_s, ldap_extended_operation_s function [LDAP], ldap_extended_operation_sA, ldap_extended_operation_sW, winldap/ldap_extended_operation_s, winldap/ldap_extended_operation_sA, winldap/ldap_extended_operation_sW
-f1_keywords:
-- winldap/ldap_extended_operation_s
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_extended_operation_s
-- ldap_extended_operation_sA
-- ldap_extended_operation_sW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_extended_operation_sA
+ - winldap/ldap_extended_operation_sA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_extended_operation_s
+ - ldap_extended_operation_sA
+ - ldap_extended_operation_sW
 ---
 
 # ldap_extended_operation_sA function
@@ -51,65 +52,46 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_extended_operation_s</b> function is used to pass extended LDAP operations to the server.
 
-
 ## -parameters
-
-
-
 
 ### -param ExternalHandle [in]
 
 The session handle.
 
-
 ### -param Oid [in]
 
 A pointer to a null-terminated string that contains the dotted object identifier (OID) text string that names the request.
-
 
 ### -param Data [in]
 
 The arbitrary data required by the operation. If <b>NULL</b>, no data is sent to the server.
 
-
 ### -param ServerControls [in]
 
 Optional. A list of LDAP server controls. Set this parameter to <b>NULL</b> if not used.
-
 
 ### -param ClientControls [in]
 
 Optional. A list of client controls. Set this parameter to <b>NULL</b> if not used.
 
-
 ### -param ReturnedOid [out]
 
 Optional. A pointer to a null-terminated string that contains the dotted OID text string of the server response message.  This is normally the same OID  as that which names the request passed to the server in the <i>Oid</i> parameter. Set to <b>NULL</b> if not used.
-
 
 ### -param ReturnedData [out]
 
 Optional. The arbitrary data returned by the extended operation. If <b>NULL</b>, no data is returned by the server. Set this parameter to <b>NULL</b> if not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
 If the function fails, an error code is returned. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ldap_extended_operation_s</b> function enables a client to send an extended request (free for all) to an LDAP 3 (or later) server. The functionality is open and the client request can be for any operation.
 
@@ -136,9 +118,6 @@ Multithreading: The <b>ldap_extended_operation_s</b> function is thread-safe.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
@@ -152,7 +131,4 @@ Multithreading: The <b>ldap_extended_operation_s</b> function is thread-safe.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
- 
-
- 
 

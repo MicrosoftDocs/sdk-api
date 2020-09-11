@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ccfed197-6637-4283-9996-56049da49b84
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenMoniker method, IAMMultiMediaStream.OpenMoniker, IAMMultiMediaStream::OpenMoniker, IAMMultiMediaStreamOpenMoniker, OpenMoniker, OpenMoniker method [DirectShow], OpenMoniker method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenMoniker, dshow.iammultimediastream_openmoniker
-f1_keywords:
-- amstream/IAMMultiMediaStream.OpenMoniker
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMultiMediaStream.OpenMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMultiMediaStream::OpenMoniker
+ - amstream/IAMMultiMediaStream::OpenMoniker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMultiMediaStream.OpenMoniker
 ---
 
 # IAMMultiMediaStream::OpenMoniker
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>OpenMoniker</code> method opens a file or device moniker; you can read media data from this moniker if DirectShow supports the moniker.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCtx [in]
 
 Pointer to the bind context associated with the moniker.
 
-
 ### -param pMoniker [in]
 
 Pointer to an <b>IMoniker</b> interface that specifies the moniker you want to open.
-
 
 ### -param dwFlags [in]
 
@@ -105,25 +96,12 @@ Value that modifies how the filter graph will render the specified file. This va
 <td>Set the stream into the run state.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns S_OK if successful or E_INVALIDARG if the <i>dwFlags</i> parameter is invalid.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
- 
-
- 
 

@@ -31,7 +31,11 @@ api_name:
  - _WLAN_DEVICE_SERVICE_GUID_LIST
  - WLAN_DEVICE_SERVICE_GUID_LIST
 f1_keywords:
+ - _WLAN_DEVICE_SERVICE_GUID_LIST
  - wlanapi/_WLAN_DEVICE_SERVICE_GUID_LIST
+ - PWLAN_DEVICE_SERVICE_GUID_LIST
+ - wlanapi/PWLAN_DEVICE_SERVICE_GUID_LIST
+ - WLAN_DEVICE_SERVICE_GUID_LIST
  - wlanapi/WLAN_DEVICE_SERVICE_GUID_LIST
 dev_langs:
  - c++
@@ -64,3 +68,4 @@ A pointer to an array containing **GUID**s; each corresponds to a WLAN device se
 ## -remarks
 
 ## -see-also
+

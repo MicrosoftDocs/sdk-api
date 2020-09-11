@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 7a7ae88a-b893-4d10-8542-b2066d1572a9
 ms.date: 12/05/2018
 ms.keywords: INSTALLLEVEL_DEFAULT, INSTALLLEVEL_MAXIMUM, INSTALLLEVEL_MINIMUM, INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureProductEx, MsiConfigureProductEx function, MsiConfigureProductExA, MsiConfigureProductExW, _msi_msiconfigureproductex, msi/MsiConfigureProductEx, msi/MsiConfigureProductExA, msi/MsiConfigureProductExW, setup.msiconfigureproductex
-f1_keywords:
-- msi/MsiConfigureProductEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiConfigureProductEx
-- MsiConfigureProductExA
-- MsiConfigureProductExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiConfigureProductExW
+ - msi/MsiConfigureProductExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiConfigureProductEx
+ - MsiConfigureProductExA
+ - MsiConfigureProductExW
 ---
 
 # MsiConfigureProductExW function
@@ -52,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiConfigureProductEx</b> function installs or uninstalls a product. A product command line can also be specified.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product to be configured.
-
 
 ### -param iInstallLevel [in]
 
@@ -109,8 +104,6 @@ All features are installed. You can specify a value between <b>INSTALLLEVEL_MINI
 </td>
 </tr>
 </table>
- 
-
 
 ### -param eInstallState [in]
 
@@ -172,18 +165,13 @@ The product is advertised.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szCommandLine [in]
 
 Specifies the command-line property settings. This should be a list of the format <i>Property=Setting Property=Setting</i>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">About Properties</a>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -236,14 +224,8 @@ An error relating to initialization occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The command line passed in as <i>szCommandLine</i> can contain any of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/property-reference">Feature Installation Options Properties</a>. In this case, the <i>eInstallState</i> passed must be <b>INSTALLSTATE_DEFAULT</b>.
@@ -264,9 +246,6 @@ The
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
@@ -284,7 +263,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
 

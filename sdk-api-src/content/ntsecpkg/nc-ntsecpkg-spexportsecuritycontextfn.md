@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0c8cafb3-aaf5-4937-91dc-e534bb6e4caf
 ms.date: 12/05/2018
 ms.keywords: SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SpExportSecurityContext, SpExportSecurityContext callback function [Security], SpExportSecurityContextFn, SpExportSecurityContextFn callback, _ssp_spexportsecuritycontext, ntsecpkg/SpExportSecurityContext, security.spexportsecuritycontext
-f1_keywords:
-- ntsecpkg/SpExportSecurityContext
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpExportSecurityContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpExportSecurityContextFn
+ - ntsecpkg/SpExportSecurityContextFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpExportSecurityContext
 ---
 
 # SpExportSecurityContextFn callback function
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exports a security context to another process.
 
 The <b>SpExportSecurityContext</b> function is the dispatch function for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a> function of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param phContext [in]
 
 A handle to the security context to export.
-
 
 ### -param fFlags [in]
 
@@ -102,8 +97,6 @@ Old context is deleted during export.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pPackedContext [out]
 
@@ -112,26 +105,17 @@ Pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function, and freed by the caller using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
-
 ### -param pToken [out]
 
 Optional. Pointer to a handle that receives the context's token.
 
-
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS.
 
 If the function fails, return an <b>NTSTATUS</b> code that indicates the reason it failed.
 
-
-
-
 ## -remarks
-
-
 
 To import a previously exported security context use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spimportsecuritycontextfn">SpImportSecurityContext</a> function.
@@ -142,13 +126,7 @@ A pointer to the <b>SpExportSecurityContext</b> function is available in the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
@@ -159,7 +137,4 @@ A pointer to the <b>SpExportSecurityContext</b> function is available in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
- 
-
- 
 

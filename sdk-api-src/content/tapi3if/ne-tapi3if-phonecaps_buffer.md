@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 208efd60-58b2-4d0a-b757-29b1db017195
 ms.date: 12/05/2018
 ms.keywords: PCB_DEVSPECIFICBUFFER, PHONECAPS_BUFFER, PHONECAPS_BUFFER enumeration [TAPI 2.2], _tapi3_phonecaps_buffer, tapi3.phonecaps_buffer, tapi3if/PCB_DEVSPECIFICBUFFER, tapi3if/PHONECAPS_BUFFER
-f1_keywords:
-- tapi3if/PHONECAPS_BUFFER
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tapi3if.h
-api_name:
-- PHONECAPS_BUFFER
 targetos: Windows
 req.typenames: PHONECAPS_BUFFER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PHONECAPS_BUFFER
+ - tapi3if/PHONECAPS_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tapi3if.h
+api_name:
+ - PHONECAPS_BUFFER
 ---
 
 # PHONECAPS_BUFFER enumeration
@@ -49,32 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PHONECAPS_BUFFER</b> enum is used by methods that set or get phone capabilities described by a buffer.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PCB_DEVSPECIFICBUFFER
 
 Device-specific phone capabilities.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-getphonecapsbuffer">ITPhone::GetPhoneCapsBuffer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapsbuffer">ITPhone::get_PhoneCapsBuffer</a>
- 
-
- 
 

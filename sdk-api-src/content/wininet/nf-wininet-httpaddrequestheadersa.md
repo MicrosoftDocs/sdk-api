@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 636c3442-a2e6-4885-8fb4-1f6996ba6860
 ms.date: 12/05/2018
 ms.keywords: HTTP_ADDREQ_FLAG_ADD, HTTP_ADDREQ_FLAG_ADD_IF_NEW, HTTP_ADDREQ_FLAG_COALESCE, HTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, HTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, HTTP_ADDREQ_FLAG_REPLACE, HttpAddRequestHeaders, HttpAddRequestHeaders function [WinINet], HttpAddRequestHeadersA, HttpAddRequestHeadersW, _inet_httpaddrequestheaders_function, wininet.httpaddrequestheaders, wininet/HttpAddRequestHeaders, wininet/HttpAddRequestHeadersA, wininet/HttpAddRequestHeadersW
-f1_keywords:
-- wininet/HttpAddRequestHeaders
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- HttpAddRequestHeaders
-- HttpAddRequestHeadersA
-- HttpAddRequestHeadersW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpAddRequestHeadersA
+ - wininet/HttpAddRequestHeadersA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - HttpAddRequestHeaders
+ - HttpAddRequestHeadersA
+ - HttpAddRequestHeadersW
 ---
 
 # HttpAddRequestHeadersA function
@@ -51,32 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds one or more HTTP request headers to the HTTP request handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
 A handle returned by a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
-
 ### -param lpszHeaders [in]
 
 A pointer to a string variable containing the headers to append to the request. Each header must be terminated by a CR/LF (carriage return/line feed) pair.
-
 
 ### -param dwHeadersLength [in]
 
 The size of 
 <i>lpszHeaders</i>, in <b>TCHARs</b>. If this parameter is -1L, the function assumes that 
 <i>lpszHeaders</i> is zero-terminated (ASCIIZ), and the length is computed.
-
 
 ### -param dwModifiers [in]
 
@@ -148,22 +141,13 @@ Replaces or removes a header. If the header value is empty and the header is fou
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>HttpAddRequestHeaders</b> appends additional, free-format headers to the HTTP request handle and is intended for use by sophisticated clients that need detailed control over the exact request sent to the HTTP server.
 
@@ -188,15 +172,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_65gz.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevReportStatus, FaxDevReportStatus function [Fax Service], _mfax_faxdevreportstatus, fax._mfax_faxdevreportstatus, faxdev/FaxDevReportStatus
-f1_keywords:
-- faxdev/FaxDevReportStatus
-dev_langs:
-- c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- FaxDev.h
-api_name:
-- FaxDevReportStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxDevReportStatus
+ - faxdev/FaxDevReportStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - FaxDev.h
+api_name:
+ - FaxDevReportStatus
 ---
 
 # FaxDevReportStatus function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The fax service calls the <b>FaxDevReportStatus</b> function to query a fax service provider (FSP) for status information about an individual active fax operation, or for status information after a failed fax operation. Each FSP must export the <b>FaxDevReportStatus</b> function.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Specifies a fax handle returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a> function that is associated with the fax job.
 
-
 ### -param FaxStatus [out]
 
 Type: <b>PFAX_DEV_STATUS</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a> structure that receives status and identification information. This parameter can also be a <b>NULL</b> pointer. For more information, see the following Remarks section.
-
 
 ### -param FaxStatusSize [in]
 
@@ -78,17 +72,13 @@ Type: <b>DWORD</b>
 
 Specifies the size, in bytes, of the buffer pointed to by the <i>FaxStatus</i> parameter.
 
-
 ### -param FaxStatusSizeRequired [out]
 
 Type: <b>LPDWORD</b>
 
 Pointer to a variable that receives the calculated size, in bytes, of the buffer required to hold a <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a> structure. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -99,11 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 <div class="alert"><b>Note</b>  For a successful send, FaxDevSend() should return <b>TRUE</b> and FaxDevReportStatus() should return FS_COMPLETED. For an unsuccessful send, FaxDevSend() should return <b>FALSE</b>, and FaxDevReportStatus() should return any of the following codes: FS_LINE_UNAVAILABLE, FS_NO_ANSWER, FS_NO_DIAL_TONE, FS_DISCONNECTED, FS_BUSY, FS_NOT_FAX_CALL, or FS_FATAL_ERROR. If after a failed fax the fax should not be re-sent, FaxDevReportStatus() should return any code other than those listed here.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 To obtain status information for the operation, the <b>FaxDevReportStatus</b> function is called asynchronously on an execution thread that is independent of the fax operation. It is usually necessary to synchronize access by multiple threads. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/synchronizing-execution-of-multiple-threads">Synchronizing Execution of Multiple Threads</a>. 
             
@@ -112,15 +98,8 @@ If the <i>FaxStatusSize</i> parameter is equal to zero, and <i>FaxStatus</i> is 
             
 
 The FSP must set all of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a> structure with status information for the active fax operation. The fax service allocates the memory for the strings pointed to by the <b>CSI</b>, <b>CallerId</b>, and <b>RoutingInfo</b> members. The size of the memory the service allocates is equal to <b>sizeof(FAX_DEV_STATUS) + FAXDEVREPORTSTATUS_SIZE</b>. The FSP must place the strings in the block of memory that immediately follows the <b>FAX_DEV_STATUS</b> structure. The <b>CSI</b>, <b>CallerId</b>, and <b>RoutingInfo</b> members must point to the location of the strings in the memory block.
-            
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a>
 
@@ -135,7 +114,4 @@ The FSP must set all of the members of the <a href="https://docs.microsoft.com/w
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
- 
-
- 
 

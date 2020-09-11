@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: fd87d52a-1227-48ba-8b7e-a8fd007c9d01
 ms.date: 12/05/2018
 ms.keywords: '*PEMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT structure [Windows GDI], PEMRCREATEBRUSHINDIRECT, PEMRCREATEBRUSHINDIRECT structure pointer [Windows GDI], _win32_EMRCREATEBRUSHINDIRECT_str, gdi.emrcreatebrushindirect, wingdi/EMRCREATEBRUSHINDIRECT, wingdi/PEMRCREATEBRUSHINDIRECT'
-f1_keywords:
-- wingdi/EMRCREATEBRUSHINDIRECT
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- EMRCREATEBRUSHINDIRECT
 targetos: Windows
 req.typenames: EMRCREATEBRUSHINDIRECT, *PEMRCREATEBRUSHINDIRECT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEMRCREATEBRUSHINDIRECT
+ - wingdi/tagEMRCREATEBRUSHINDIRECT
+ - PEMRCREATEBRUSHINDIRECT
+ - wingdi/PEMRCREATEBRUSHINDIRECT
+ - EMRCREATEBRUSHINDIRECT
+ - wingdi/EMRCREATEBRUSHINDIRECT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMRCREATEBRUSHINDIRECT
 ---
 
 # EMRCREATEBRUSHINDIRECT structure
@@ -49,27 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EMRCREATEBRUSHINDIRECT</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a> enhanced metafile record.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field emr
 
 The base structure for all record types.
 
-
 ### -field ihBrush
 
 Index of brush in handle table.
-
 
 ### -field lb
 
@@ -77,11 +72,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbr
 
 Note, that if your code is used on both 32-bit and 64-bit platforms, you must use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush32">LOGBRUSH32</a> structure. This maintains compatibility between the platforms when you record the metafile on one platform and use it on the other platform. If your code remains on one platform, it is sufficient to use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>
 
@@ -100,7 +91,4 @@ Note, that if your code is used on both 32-bit and 64-bit platforms, you must us
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
- 
-
- 
 

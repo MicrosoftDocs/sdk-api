@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 35b6449e-5a82-4f47-bdda-5356f44bb1fd
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies, IX509ExtensionMSApplicationPolicies interface [Security], IX509ExtensionMSApplicationPolicies interface [Security],described, certenroll/IX509ExtensionMSApplicationPolicies, security.ix509extensionmsapplicationpolicies
-f1_keywords:
-- certenroll/IX509ExtensionMSApplicationPolicies
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionMSApplicationPolicies
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionMSApplicationPolicies
+ - certenroll/IX509ExtensionMSApplicationPolicies
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionMSApplicationPolicies
 ---
 
 # IX509ExtensionMSApplicationPolicies interface
 
 
 ## -description
-
 
 The <b>IX509ExtensionMSApplicationPolicies</b> interface enables you to specify a collection of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that indicate how a certificate can be used by an application. It is therefore similar to the <b>EnhancedKeyUsage</b> (EKU) extension. You can define your own OIDs or use any of the following EKU OIDs.<table>
 <tr>
@@ -265,7 +265,6 @@ You can use this extension to specify which applications can use a certificate o
 
 To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a>.
 
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionMSApplicationPolicies</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionMSApplicationPolicies</b> also has these types of members:
@@ -319,13 +318,9 @@ Retrieves a collection of application policies.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
@@ -336,7 +331,4 @@ Retrieves a collection of application policies.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
- 
-
- 
 

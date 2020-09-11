@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcallbackmask.htm
 ms.date: 12/05/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_SetCallbackMask, ListView_SetCallbackMask macro [Windows Controls], _win32_ListView_SetCallbackMask, _win32_ListView_SetCallbackMask_cpp, commctrl/ListView_SetCallbackMask, controls.ListView_SetCallbackMask, controls._win32_ListView_SetCallbackMask
-f1_keywords:
-- commctrl/ListView_SetCallbackMask
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_SetCallbackMask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_SetCallbackMask
+ - commctrl/ListView_SetCallbackMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_SetCallbackMask
 ---
 
 # ListView_SetCallbackMask macro
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Changes the callback mask for a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcallbackmask">LVM_SETCALLBACKMASK</a> message explicitly. 
-
+Changes the callback mask for a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcallbackmask">LVM_SETCALLBACKMASK</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param mask
 
@@ -137,12 +132,8 @@ The application stores the image list index of the current state image for each 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The <i>callback mask</i> of a list-view control is a set of bit flags that specify the item states for which the application, rather than the control, stores the current data. The callback mask applies to all of the control's items, unlike the callback item designation, which applies to a specific item. The callback mask is zero by default, meaning that the list-view control stores all item state information. After creating a list-view control and initializing its items, you can use the <b>ListView_SetCallbackMask</b> macro or <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcallbackmask">LVM_SETCALLBACKMASK</a> message to change the callback mask. To retrieve the current callback mask, send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getcallbackmask">LVM_GETCALLBACKMASK</a> message. 
 
@@ -150,16 +141,7 @@ For more information about overlay images and state images, see <a href="https:/
 
 For more information on list-view callbacks, see <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview">Callback Items and the Callback Mask</a>
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a>
- 
-
- 
 

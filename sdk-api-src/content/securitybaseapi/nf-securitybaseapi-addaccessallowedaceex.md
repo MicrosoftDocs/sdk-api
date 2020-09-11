@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6ddec01f-237f-4b6a-8ea8-a126017b30c5
 ms.date: 12/05/2018
 ms.keywords: AddAccessAllowedAceEx, AddAccessAllowedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessallowedaceex, security.addaccessallowedaceex, securitybaseapi/AddAccessAllowedAceEx
-f1_keywords:
-- securitybaseapi/AddAccessAllowedAceEx
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- AddAccessAllowedAceEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddAccessAllowedAceEx
+ - securitybaseapi/AddAccessAllowedAceEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - AddAccessAllowedAceEx
 ---
 
 # AddAccessAllowedAceEx function
@@ -56,25 +57,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddAccessAllowedAceEx</b> function adds an access-allowed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL).
 
-
 ## -parameters
-
-
-
 
 ### -param pAcl [in, out]
 
 A pointer to a DACL. The <b>AddAccessAllowedAceEx</b> function adds an access-allowed ACE to the end of this DACL. The ACE is in the form of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
 
-
 ### -param dwAceRevision [in]
 
 Specifies the revision level of the DACL being modified. This value can be ACL_REVISION or ACL_REVISION_DS. Use ACL_REVISION_DS if the DACL contains object-specific ACEs.
-
 
 ### -param AceFlags [in]
 
@@ -137,24 +131,18 @@ The ACE is inherited by noncontainer objects.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AccessMask [in]
 
 A set of bit flags that use the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format. These flags specify the access rights that the new ACE allows for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
-
 ### -param pSid [in]
 
 A pointer to a 
 SID that identifies the user, group, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> to which the new ACE allows access.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -233,25 +221,13 @@ The ACE was successfully added.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller must ensure that ACEs are added to the DACL in the correct order. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl">Order of ACEs in a DACL</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
@@ -282,7 +258,4 @@ The caller must ensure that ACEs are added to the DACL in the correct order. For
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
- 
-
- 
 

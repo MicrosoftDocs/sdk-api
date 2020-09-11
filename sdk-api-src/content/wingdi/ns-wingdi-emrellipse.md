@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 1400f9d7-4ccd-4348-98f0-fccc78e06212
 ms.date: 12/05/2018
 ms.keywords: '*PEMRELLIPSE, *PEMRRECTANGLE, EMRELLIPSE, EMRELLIPSE structure [Windows GDI], EMRELLIPSE,EMRRECTANGLE, EMRELLIPSE,EMRRECTANGLE structure [Windows GDI], EMRRECTANGLE, EMRRECTANGLE structure [Windows GDI], PEMRELLIPSE, PEMRELLIPSE structure pointer [Windows GDI], PEMRRECTANGLE, PEMRRECTANGLE structure pointer [Windows GDI], _win32_EMRELLIPSE_str, gdi.emrellipse__emrrectangle, wingdi/EMRELLIPSE,EMRRECTANGLE, wingdi/EMRRECTANGLE, wingdi/PEMRELLIPSE, wingdi/PEMRRECTANGLE'
-f1_keywords:
-- wingdi/EMRELLIPSE
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- EMRELLIPSE
 targetos: Windows
 req.typenames: EMRELLIPSE, *PEMRELLIPSE, EMRRECTANGLE, *PEMRRECTANGLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEMRELLIPSE
+ - wingdi/tagEMRELLIPSE
+ - PEMRELLIPSE
+ - wingdi/PEMRELLIPSE
+ - EMRELLIPSE
+ - wingdi/EMRELLIPSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMRELLIPSE
 ---
 
 # EMRELLIPSE structure
@@ -49,32 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EMRELLIPSE</b> and <b>EMRRECTANGLE</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle</a> enhanced metafile records.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field emr
 
 Base structure for all record types.
 
-
 ### -field rclBox
 
 Bounding rectangle in logical units.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ellipse">Ellipse</a>
 
@@ -89,7 +81,4 @@ Bounding rectangle in logical units.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle</a>
- 
-
- 
 

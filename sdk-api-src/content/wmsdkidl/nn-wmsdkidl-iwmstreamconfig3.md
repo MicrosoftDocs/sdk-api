@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig3, IWMStreamConfig3 interface [windows Media Format], IWMStreamConfig3 interface [windows Media Format],described, IWMStreamConfig3Interface, wmformat.iwmstreamconfig3, wmsdkidl/IWMStreamConfig3
-f1_keywords:
-- wmsdkidl/IWMStreamConfig3
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMStreamConfig3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamConfig3
+ - wmsdkidl/IWMStreamConfig3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMStreamConfig3
 ---
 
 # IWMStreamConfig3 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMStreamConfig3</b> interface controls language settings for a stream.
 
 An <b>IWMStreamConfig3</b> interface exists for every stream configuration object. You can obtain a pointer to an <b>IWMStreamConfig3</b> interface by calling the <b>QueryInterface</b> method of any other interface of the stream configuration object.
-
-
-
 
 ## -inheritance
 
@@ -281,13 +277,9 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps</a> (on video streams only)</td>
 <td>IID_IWMVideoMediaProps</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
 
@@ -298,7 +290,4 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

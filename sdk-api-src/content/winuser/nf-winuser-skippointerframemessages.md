@@ -8,10 +8,6 @@ tech.root: InputMsg
 ms.assetid: d67f8d44-3e19-4523-a0f3-38f09f5df91f
 ms.date: 12/05/2018
 ms.keywords: SkipPointerFrameMessages, SkipPointerFrameMessages function [Input Messages and Notifications], inputmsg.skippointerframemessages, winuser/SkipPointerFrameMessages
-f1_keywords:
-- winuser/SkipPointerFrameMessages
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
-- MinUser.dll
-- api-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll
-- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
-api_name:
-- SkipPointerFrameMessages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SkipPointerFrameMessages
+ - winuser/SkipPointerFrameMessages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+ - MinUser.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll
+ - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+api_name:
+ - SkipPointerFrameMessages
 ---
 
 # SkipPointerFrameMessages function
@@ -54,34 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines which pointer input frame generated the most recently retrieved message for the specified pointer and discards any queued (unretrieved) pointer input messages generated from the same pointer input frame. If an application has retrieved information for an entire frame using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframeinfo">GetPointerFrameInfo</a> function, the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframeinfohistory">GetPointerFrameInfoHistory</a> function or one of their type-specific variants, it can use this function to avoid retrieving and discarding remaining messages from that frame one by one.
 
-
 ## -parameters
-
-
-
 
 ### -param pointerId [in]
 
 Identifier of the pointer. Pending messages will be skipped for the frame that includes the most recently retrieved input for this pointer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Parallel-mode devices may report pointer input in frames, that is, they may report the state and position of all pointers from that device in a single input report to the system. Ideally, applications should view the entire frame as a single input unless the application-specific requirements dictate otherwise.
 
@@ -99,18 +87,7 @@ If the pointer frame contains no additional pointers besides the specified point
 
 If the calling thread does not own the window to which the pointer message has been delivered, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
- 
-
- 
 

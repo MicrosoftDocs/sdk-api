@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 64767a6b-cd79-4e02-881a-706a078ff446
 ms.date: 12/05/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo
-f1_keywords:
-- aclapi/GetSecurityInfo
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
-- advapi32legacy.dll
-- api-ms-win-security-provider-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
-- ntmarta.dll
-api_name:
-- GetSecurityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSecurityInfo
+ - aclapi/GetSecurityInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
+ - advapi32legacy.dll
+ - api-ms-win-security-provider-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+ - ntmarta.dll
+api_name:
+ - GetSecurityInfo
 ---
 
 # GetSecurityInfo function
@@ -54,25 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSecurityInfo</b> function retrieves a copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for an object specified by a handle.
 
-
 ## -parameters
-
-
-
 
 ### -param handle [in]
 
 A handle to the object from which to retrieve security information.
 
-
 ### -param ObjectType [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration value that indicates the type of object.
-
 
 ### -param SecurityInfo [in]
 
@@ -80,26 +73,21 @@ A set of
 bit flags that indicate the type of security information to retrieve. This parameter can be a combination of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
-
 ### -param ppsidOwner [out, optional]
 
 A pointer to a variable that receives a pointer to the owner SID in the security descriptor returned in <i>ppSecurityDescriptor</i>. The returned pointer is valid only if you set the OWNER_SECURITY_INFORMATION flag. This parameter can be <b>NULL</b> if you do not need the owner SID.
-
 
 ### -param ppsidGroup [out, optional]
 
 A pointer to a variable that receives a pointer to the primary group SID in the returned <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>. The returned pointer is valid only if you set the GROUP_SECURITY_INFORMATION flag. This parameter can be <b>NULL</b> if you do not need the group SID.
 
-
 ### -param ppDacl [out, optional]
 
 A pointer to a variable that receives a pointer to the DACL in the returned security descriptor. The returned pointer is valid only if you set the DACL_SECURITY_INFORMATION flag. This parameter can be <b>NULL</b> if you do not need the DACL.
 
-
 ### -param ppSacl [out, optional]
 
 A pointer to a variable that receives a pointer to the SACL in the returned security descriptor. The returned pointer is valid only if you set the SACL_SECURITY_INFORMATION flag. This parameter can be <b>NULL</b> if you do not need the SACL.
-
 
 ### -param ppSecurityDescriptor [out, optional]
 
@@ -108,21 +96,13 @@ A pointer to a variable that receives a pointer to the security descriptor of th
 
 This parameter is required if any one of the <i>ppsidOwner</i>, <i>ppsidGroup</i>, <i>ppDacl</i>, or <i>ppSacl</i> parameters is not <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>ppsidOwner</i>, <i>ppsidGroup</i>, <i>ppDacl</i>, and <i>ppSacl</i> parameters are non-<b>NULL</b>, and the <i>SecurityInfo</i> parameter specifies that they be retrieved from the object, those parameters will point to the corresponding parameters in the security descriptor returned in <i>ppSecurityDescriptor</i>.
 
@@ -154,12 +134,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
@@ -206,7 +181,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>
- 
-
- 
 

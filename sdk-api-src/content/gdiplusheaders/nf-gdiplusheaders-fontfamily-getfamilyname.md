@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getfamilyname.htm
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GetFamilyName method, FontFamily.GetFamilyName, FontFamily::GetFamilyName, GetFamilyName, GetFamilyName method [GDI+], GetFamilyName method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetFamilyName_name_language_, gdiplus._gdiplus_CLASS_FontFamily_GetFamilyName_name_language_
-f1_keywords:
-- gdiplusheaders/FontFamily.GetFamilyName
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- FontFamily.GetFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - FontFamily::GetFamilyName
+ - gdiplusheaders/FontFamily::GetFamilyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - FontFamily.GetFamilyName
 ---
 
 # FontFamily::GetFamilyName
@@ -50,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FontFamily::GetFamilyName</b> method gets the name of this font family.
 
-
 ## -parameters
-
-
-
 
 ### -param name [out]
 
 Type: <b>WCHAR[LF_FACESIZE]</b>
 
-Name of this font family. 
-
+Name of this font family.
 
 ### -param language [in]
 
 Type: <b>WCHAR</b>
 
-Optional. Sixteen-bit value that specifies the language to use. The default value is LANG_NEUTRAL, which is the user's default language. 
-
+Optional. Sixteen-bit value that specifies the language to use. The default value is LANG_NEUTRAL, which is the user's default language.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -83,12 +75,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 When specifying LANG_NEUTRAL as the language ID, it is common practice to pass just LANG_NEUTRAL as in the following example:
 
@@ -126,14 +113,7 @@ VOID Example_GetFamilyName(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-font-families-and-fonts-use">Constructing Font Families and Fonts</a>
 
@@ -144,7 +124,4 @@ VOID Example_GetFamilyName(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a>
- 
-
- 
 

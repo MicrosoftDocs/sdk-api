@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 5c45874f-5546-40cc-a113-bea92bd9784b
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IDMOQualityControl interface, IDMOQualityControl interface [DirectShow],GetStatus method, IDMOQualityControl.GetStatus, IDMOQualityControl::GetStatus, IDMOQualityControlGetStatus, dshow.idmoqualitycontrol_getstatus, mediaobj/IDMOQualityControl::GetStatus
-f1_keywords:
-- mediaobj/IDMOQualityControl.GetStatus
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IDMOQualityControl.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMOQualityControl::GetStatus
+ - mediaobj/IDMOQualityControl::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IDMOQualityControl.GetStatus
 ---
 
 # IDMOQualityControl::GetStatus
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetStatus</code> method determines whether quality control is active.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags [out]
 
 Pointer to a variable that receives the quality control status. If quality control is disabled, the value is zero. If quality control is enabled, the value is DMO_QUALITY_STATUS_ENABLED.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -101,18 +91,8 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol">IDMOQualityControl Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: df511ff0-a87b-442a-85bd-c8d924ab2047
 ms.date: 12/05/2018
 ms.keywords: BeginWriting, BeginWriting method [windows Media Format], BeginWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],BeginWriting method, IWMWriter.BeginWriting, IWMWriter::BeginWriting, IWMWriterBeginWriting, wmformat.iwmwriter_beginwriting, wmsdkidl/IWMWriter::BeginWriting
-f1_keywords:
-- wmsdkidl/IWMWriter.BeginWriting
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriter.BeginWriting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriter::BeginWriting
+ - wmsdkidl/IWMWriter::BeginWriting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriter.BeginWriting
 ---
 
 # IWMWriter::BeginWriting
@@ -52,23 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BeginWriting</b> method initializes the writing process.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -177,14 +166,8 @@ The required video codec is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>BeginWriting</b> method must be called before any samples are written. This method does not actually start writing, but initializes the process. Between this call and the call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">EndWriting</a> there can be no configuration changes to the writer. The <b>EndWriting</b> method must be called to cleanly end the writing of the samples.
 
@@ -396,21 +379,11 @@ if ( pWriterNetworkSink )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a>
- 
-
- 
 

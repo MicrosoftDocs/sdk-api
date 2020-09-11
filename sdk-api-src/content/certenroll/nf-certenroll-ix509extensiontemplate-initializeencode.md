@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 93590649-78b4-4f78-81b8-5c21cf91608d
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],InitializeEncode method, IX509ExtensionTemplate.InitializeEncode, IX509ExtensionTemplate::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::InitializeEncode, security.ix509extensiontemplate_initializeencode_method
-f1_keywords:
-- certenroll/IX509ExtensionTemplate.InitializeEncode
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionTemplate.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionTemplate::InitializeEncode
+ - certenroll/IX509ExtensionTemplate::InitializeEncode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionTemplate.InitializeEncode
 ---
 
 # IX509ExtensionTemplate::InitializeEncode
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeEncode</b> method initializes the extension from a template <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and from major and minor version numbers. This method is web enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param pTemplateOid [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the template OID.
 
-
 ### -param MajorVersion [in]
 
 A <b>LONG</b> variable that contains the major version number of the template. The default value is zero (0).
-
 
 ### -param MinorVersion [in]
 
 A <b>LONG</b> variable that contains the minor version number of the template. The default value is zero (0).
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -99,14 +90,8 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must call either <b>InitializeEncode</b> or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-initializedecode">InitializeDecode</a> before you can use an  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplate">IX509ExtensionTemplate</a> object. The two methods complement each other. The <b>InitializeEncode</b> method enables you to construct a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) extension object from raw data, and the <b>InitializeDecode</b> method enables you to initialize the raw data from an encoded object.
 
@@ -120,16 +105,7 @@ You can retrieve the following properties for this extension:<ul>
 
 You must call either <b>InitializeEncode</b> or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-initializedecode">InitializeDecode</a> before you can use an  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionbasicconstraints">IX509ExtensionBasicConstraints</a> object. The two methods complement each other. The <b>InitializeEncode</b> method enables you to construct an encoded ASN.1 structure from raw data, and the <b>InitializeDecode</b> method enables you to initialize the raw data from an encoded ASN.1 structure. You can retrieve the raw data for the extension by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_majorversion">MajorVersion</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_minorversion">MinorVersion</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_templateoid">TemplateOid</a> properties.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplate">IX509ExtensionTemplate</a>
- 
-
- 
 

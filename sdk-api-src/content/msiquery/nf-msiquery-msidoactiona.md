@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
 ms.date: 12/05/2018
 ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi_msidoaction, msiquery/MsiDoAction, msiquery/MsiDoActionA, msiquery/MsiDoActionW, setup.msidoaction
-f1_keywords:
-- msiquery/MsiDoAction
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiDoAction
-- MsiDoActionA
-- MsiDoActionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDoActionA
+ - msiquery/MsiDoActionA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiDoAction
+ - MsiDoActionA
+ - MsiDoActionW
 ---
 
 # MsiDoActionA function
@@ -51,38 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiDoAction</b> function executes a built-in action, custom action, or user-interface wizard action.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
 Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
-
 ### -param szAction [in]
 
 Specifies the action to execute.
 
-
 ## -returns
-
-
 
 This function returns UINT.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiDoAction</b> function executes the action that corresponds to the name supplied. If the name is not recognized by the installer as a built-in action or as a custom action in the 
@@ -108,11 +95,5 @@ Actions that update the system, such as the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Action Functions</a>
- 
-
- 
 

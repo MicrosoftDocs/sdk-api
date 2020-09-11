@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd
 ms.date: 12/05/2018
 ms.keywords: AVRF_ENUM_RESOURCES_FLAGS_DONT_RESOLVE_TRACES, AVRF_ENUM_RESOURCES_FLAGS_SUSPEND, AvrfResourceHandleTrace, AvrfResourceHeapAllocation, VerifierEnumerateResource, VerifierEnumerateResource function [Windows API], avrfsdk/VerifierEnumerateResource, base.verifierenumerateresource, winprog.verifierenumerateresource
-f1_keywords:
-- avrfsdk/VerifierEnumerateResource
-dev_langs:
-- c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Verifier.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Verifier.dll
-api_name:
-- VerifierEnumerateResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VerifierEnumerateResource
+ - avrfsdk/VerifierEnumerateResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Verifier.dll
+api_name:
+ - VerifierEnumerateResource
 ---
 
 # VerifierEnumerateResource function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates operating system resources for use by debugging and support tools.
 
-
 ## -parameters
-
-
-
 
 ### -param Process
 
@@ -65,7 +61,6 @@ A handle to the process in which resources are being enumerated.
 When the <i>ResourceType</i> parameter is AvrfResrouceHeapAllocation, the handle must be opened with the PROCESS_VM_READ and PROCESS_QUERY_INFORMATION access rights.
 
 If <i>ResourceType</i> is AvrfResrouceHeapAllocation and the <i>Flags</i> parameter contains AVRF_ENUM_RESOURCES_FLAGS_SUSPEND, the PROCESS_SUSPEND_RESUME flag must be used as well.
-
 
 ### -param Flags
 
@@ -99,8 +94,6 @@ The process is suspended before the heap allocations enumeration is executed.Thi
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ResourceType
 
@@ -132,8 +125,6 @@ The API enumerates heap allocation, including heap metadata blocks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ResourceCallback
 
@@ -141,24 +132,15 @@ An application-defined function that is invoked by the API.
 
 The prototype is agnostic toward the type of resource being enumerated. The use will pass a prototype suitable for the type of enumeration being performed
 
-
 ### -param EnumerationContext
 
 An application-specific pointer that is passed back to the callback function.
 
-
 ## -returns
-
-
 
 This function returns one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Verifier.dll.
 
@@ -169,12 +151,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/DevNotes/using-resource-
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nc-avrfsdk-avrf_handleoperation_enumerate_callback">AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK</a>
 
@@ -189,7 +166,4 @@ See <a href="https://docs.microsoft.com/windows/desktop/DevNotes/using-resource-
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
- 
-
- 
 

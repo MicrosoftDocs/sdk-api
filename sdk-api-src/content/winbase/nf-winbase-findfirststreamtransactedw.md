@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 76c64aa9-0501-457d-b774-c209fbac4ccc
 ms.date: 12/05/2018
 ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Files], FindStreamInfoStandard, fs.findfirststreamtransactedw, winbase/FindFirstStreamTransactedW
-f1_keywords:
-- winbase/FindFirstStreamTransactedW
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- FindFirstStreamTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstStreamTransactedW
+ - winbase/FindFirstStreamTransactedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - FindFirstStreamTransactedW
 ---
 
 # FindFirstStreamTransactedW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -59,11 +59,7 @@ ms.custom: 19H1
 Enumerates the first stream in the specified file or directory as a transacted 
     operation.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -71,7 +67,6 @@ The fully qualified file name.
 
 The file must reside on the local computer; otherwise, the function fails and the last error code is set to 
        <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b> (6805).
-
 
 ### -param InfoLevel [in]
 
@@ -96,29 +91,22 @@ The data is returned in a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpFindStreamData [out]
 
 A pointer to a buffer that receives the file data. The format of this data depends on the value of 
        the <i>InfoLevel</i> parameter.
 
-
 ### -param dwFlags
 
 Reserved for future use. This parameter must be zero.
-
 
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
        <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a search handle that can be used in subsequent calls to the 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a>function.
@@ -126,12 +114,7 @@ If the function succeeds, the return value is a search handle that can be used i
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
        error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 All files contain a default data stream. On NTFS, files can also contain one or more named data streams. On 
     FAT file systems, files cannot have more that the default data stream, and therefore, this function will not 
@@ -207,13 +190,7 @@ No
 
 SMB 3.0 does not support TxF.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
@@ -236,7 +213,4 @@ SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
- 
-
- 
 

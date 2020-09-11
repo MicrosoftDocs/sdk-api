@@ -8,10 +8,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_3asr.htm
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink, IPhraseSink interface [Indexing Service], IPhraseSink interface [Indexing Service],described, _idxs_PhraseSink, indexsrv.iphrasesink, indexsrv/IPhraseSink
-f1_keywords:
-- indexsrv/IPhraseSink
-dev_langs:
-- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Indexsrv.h
-api_name:
-- IPhraseSink
-- IPhraseSink.PutSmallPhrase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhraseSink
+ - indexsrv/IPhraseSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Indexsrv.h
+api_name:
+ - IPhraseSink
+ - IPhraseSink.PutSmallPhrase
 ---
 
 # IPhraseSink interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Handles phrases that word breakers parse from query text during query time.
-
 
 ## -inheritance
 
@@ -87,12 +86,9 @@ Not supported.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Indexing Service creates and initializes instances of the PhraseSink object. The PhraseSink receives the <i>fQuery</i> parameter during initialization and uses this parameter to determine the word-breaking context in which the object is being used.
 
@@ -101,16 +97,7 @@ Indexing Service creates and initializes instances of the PhraseSink object. The
 
 <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementations receive a pointer to the PhraseSink object in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">BreakText</a> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a>
- 
-
- 
 

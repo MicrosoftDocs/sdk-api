@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 823db8d1-e4e3-4cfb-a864-5ad57a44ebc6
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Addresses method, ITPhone.get_Addresses, ITPhone::get_Addresses, _tapi3_itphone_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_addresses, tapi3if/ITPhone::get_Addresses
-f1_keywords:
-- tapi3if/ITPhone.get_Addresses
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPhone.get_Addresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPhone::get_Addresses
+ - tapi3if/ITPhone::get_Addresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPhone.get_Addresses
 ---
 
 # ITPhone::get_Addresses
 
 
 ## -description
-
 
 The 
 <b>get_Addresses</b> method returns a collection of addresses that the phone can be used on. The application does not have to call 
@@ -57,11 +57,7 @@ The
 This method is intended for Visual Basic and scripting applications. C/C++ applications should use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumerateaddresses">EnumerateAddresses</a> method instead.
 
-
 ## -parameters
-
-
-
 
 ### -param pAddresses [out]
 
@@ -69,19 +65,11 @@ Pointer to a VARIANT containing an
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface pointers.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A phone device declares itself as being available on all addresses that support audio terminals by the TSP setting the PHONEFEATURE_GENERICPHONE bit in the <b>dwPhoneFeatures</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure. A phone device can also declare itself as being preferred to an address or set of addresses by returning address/line IDs using 
@@ -100,20 +88,11 @@ TAPI calls the <b>AddRef</b> method on the
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITPhone::get_Addresses</b>. The application must call <b>Release</b> on the 
 <b>ITAddress</b> interface to free resources associated with it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_preferredaddresses">get_PreferredAddresses</a>
- 
-
- 
 

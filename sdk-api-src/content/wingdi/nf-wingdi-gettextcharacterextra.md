@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 44d5145d-1c42-429e-89c4-dc31d275bc73
 ms.date: 12/05/2018
 ms.keywords: GetTextCharacterExtra, GetTextCharacterExtra function [Windows GDI], _win32_GetTextCharacterExtra, gdi.gettextcharacterextra, wingdi/GetTextCharacterExtra
-f1_keywords:
-- wingdi/GetTextCharacterExtra
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetTextCharacterExtra
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTextCharacterExtra
+ - wingdi/GetTextCharacterExtra
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetTextCharacterExtra
 ---
 
 # GetTextCharacterExtra function
@@ -51,44 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetTextCharacterExtra</b> function retrieves the current intercharacter spacing for the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to the device context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the current intercharacter spacing, in logical coordinates.
 
 If the function fails, the return value is 0x8000000.
 
-
-
-
 ## -remarks
-
-
 
 The intercharacter spacing defines the extra space, in logical units along the base line, that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> functions add to each character as a line is written. The spacing is used to expand lines of text.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
@@ -107,7 +89,4 @@ The intercharacter spacing defines the extra space, in logical units along the b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
- 
-
- 
 

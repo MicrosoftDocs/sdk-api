@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: aed89483-9870-445d-96e3-a9cee764f0ad
 ms.date: 12/05/2018
 ms.keywords: 4fcc18c3-ca99-b51e-9162-bb8b4121db03, CopySubresourceRegion, CopySubresourceRegion method [Direct3D 11], CopySubresourceRegion method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CopySubresourceRegion method, ID3D11DeviceContext.CopySubresourceRegion, ID3D11DeviceContext::CopySubresourceRegion, d3d11/ID3D11DeviceContext::CopySubresourceRegion, direct3d11.id3d11devicecontext_copysubresourceregion
-f1_keywords:
-- d3d11/ID3D11DeviceContext.CopySubresourceRegion
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.CopySubresourceRegion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::CopySubresourceRegion
+ - d3d11/ID3D11DeviceContext::CopySubresourceRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.CopySubresourceRegion
 ---
 
 # ID3D11DeviceContext::CopySubresourceRegion
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copy a region from a source resource to a destination resource.
 
-
 ## -parameters
-
-
-
 
 ### -param pDstResource [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 A pointer to the destination resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>).
 
-
 ### -param DstSubresource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Destination subresource index.
-
 
 ### -param DstX [in]
 
@@ -79,13 +73,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The x-coordinate of the upper left corner of the destination region.
 
-
 ### -param DstY [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The y-coordinate of the upper left corner of the destination region. For a 1D subresource, this must be zero.
-
 
 ### -param DstZ [in]
 
@@ -93,20 +85,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The z-coordinate of the upper left corner of the destination region. For a 1D or 2D subresource, this must be zero.
 
-
 ### -param pSrcResource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>*</b>
 
 A pointer to the source resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>).
 
-
 ### -param SrcSubresource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Source subresource index.
-
 
 ### -param pSrcBox [in, optional]
 
@@ -116,10 +105,7 @@ A pointer to a 3D box (see <a href="https://docs.microsoft.com/windows/desktop/a
 
 An empty box results in a no-op. A box is empty if the top value is greater than or equal to the bottom value, or the left value is greater than or equal to the right value, or the front value is greater than or equal to the back value. When the box is empty, <b>CopySubresourceRegion</b> doesn't perform a copy operation.
 
-
 ## -remarks
-
-
 
 The source box must be within the size of the source resource. The destination offsets, (x, y, and z), allow the source box to be offset when writing into the destination resource; however, the dimensions of the source box and the offsets must be within the size of the resource. If you try and copy outside the destination resource or specify a source box that is larger than the source resource, the behavior of <b>CopySubresourceRegion</b> is undefined. If you created a device that supports the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">debug layer</a>, the debug output reports an error on this invalid <b>CopySubresourceRegion</b> call. Invalid parameters to <b>CopySubresourceRegion</b> cause undefined behavior and might result in incorrect rendering, clipping, no copy, or even the removal of the rendering device.
 
@@ -168,22 +154,12 @@ pd3dDeviceContext->CopySubresourceRegion( pDestTexture, 0, 10, 20, 0, pSourceTex
 
 
 Notice, that for a 2D texture, front and back are set to 0 and 1 respectively.
-          
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
- 
-
- 
 

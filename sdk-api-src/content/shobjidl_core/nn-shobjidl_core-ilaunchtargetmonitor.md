@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 358598D8-6488-4F8E-93CF-C70AD1A46862
 ms.date: 12/05/2018
 ms.keywords: ILaunchTargetMonitor, ILaunchTargetMonitor interface [Windows Shell], ILaunchTargetMonitor interface [Windows Shell],described, shell.ILaunchTargetMonitor, shobjidl_core/ILaunchTargetMonitor
-f1_keywords:
-- shobjidl_core/ILaunchTargetMonitor
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ILaunchTargetMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILaunchTargetMonitor
+ - shobjidl_core/ILaunchTargetMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ILaunchTargetMonitor
 ---
 
 # ILaunchTargetMonitor interface
@@ -50,8 +51,6 @@ ms.custom: 19H1
 ## -description
 
 Provides a method for retrieving the target monitor for the application being launched.
-
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves the target monitor for the application being launched.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7d72f727-cca9-4a07-beb4-d64f23c1f0c1
 ms.date: 12/05/2018
 ms.keywords: WSARemoveServiceClass, WSARemoveServiceClass function [Winsock], _win32_wsaremoveserviceclass_2, winsock.wsaremoveserviceclass_2, winsock2/WSARemoveServiceClass
-f1_keywords:
-- winsock2/WSARemoveServiceClass
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSARemoveServiceClass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSARemoveServiceClass
+ - winsock2/WSARemoveServiceClass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSARemoveServiceClass
 ---
 
 # WSARemoveServiceClass function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSARemoveServiceClass</b> function permanently removes the service class schema from the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param lpServiceClassId [in]
 
 Pointer to the GUID for the service class you want to remove.
 
-
 ## -returns
-
-
 
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -149,14 +142,7 @@ There was insufficient memory to perform the operation.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
@@ -171,7 +157,4 @@ There was insufficient memory to perform the operation.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

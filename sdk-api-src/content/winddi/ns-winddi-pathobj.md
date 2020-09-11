@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: ceccca92-3312-49b4-b0f6-a3d0cd4bbef5
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ, PATHOBJ structure [Display Devices], display.pathobj, grstrcts_e8c946a6-f07c-4cc2-8440-d4f3af979612.xml, winddi/PATHOBJ
-f1_keywords:
-- winddi/PATHOBJ
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- PATHOBJ
 targetos: Windows
 req.typenames: PATHOBJ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PATHOBJ
+ - winddi/_PATHOBJ
+ - PATHOBJ
+ - winddi/PATHOBJ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - PATHOBJ
 ---
 
 # PATHOBJ structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled. 
-
+The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled.
 
 ## -struct-fields
-
-
-
 
 ### -field fl
 
@@ -116,17 +114,12 @@ When this flag is set, the driver is permitted to deviate slightly from the stan
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cCurves
 
 The number of lines and Bezier curves that make up the path.
 
-
 ## -remarks
-
-
 
 Functions associated with this structure allow the lines and curves to be enumerated for the driver.
 
@@ -163,14 +156,7 @@ The following GDI service routines are provided for PATHOBJ objects:
 </dt>
 </dl>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>
 
@@ -189,7 +175,4 @@ The following GDI service routines are provided for PATHOBJ objects:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>
- 
-
- 
 

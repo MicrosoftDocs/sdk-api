@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: affc0af4-36f8-4479-8685-f91c29111d76
 ms.date: 12/05/2018
 ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], IPublisherFilter interface [COM+],described, _cos_IPublisherFilter, cos.ipublisherfilter, eventsys/IPublisherFilter
-f1_keywords:
-- eventsys/IPublisherFilter
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IPublisherFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPublisherFilter
+ - eventsys/IPublisherFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IPublisherFilter
 ---
 
 # IPublisherFilter interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Acts as a callback interface so that event publishers can control which subscribers receive event notifications or the order in which subscribers are notified.
 
 
-<b>IPublisherFilter</b> is supported only for backward compatibility. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface. 
-
+<b>IPublisherFilter</b> is supported only for backward compatibility. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface.
 
 ## -inheritance
 
@@ -90,16 +89,9 @@ Prepares a publisher filter to begin firing a filtered list of subscriptions usi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
- 
-
- 
 

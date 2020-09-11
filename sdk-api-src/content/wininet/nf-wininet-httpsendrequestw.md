@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: f53d9ff7-43b1-452f-a6cb-754d0229ab9a
 ms.date: 12/05/2018
 ms.keywords: HttpSendRequest, HttpSendRequest function [WinINet], HttpSendRequestA, HttpSendRequestW, _inet_httpsendrequest_function, wininet.httpsendrequest, wininet/HttpSendRequest, wininet/HttpSendRequestA, wininet/HttpSendRequestW
-f1_keywords:
-- wininet/HttpSendRequest
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- HttpSendRequest
-- HttpSendRequestA
-- HttpSendRequestW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpSendRequestW
+ - wininet/HttpSendRequestW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - HttpSendRequest
+ - HttpSendRequestA
+ - HttpSendRequestW
 ---
 
 # HttpSendRequestW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequestexa">HttpSendRequestEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
 A handle returned by 
 a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
-
 ### -param lpszHeaders [in]
 
 A pointer to a <b>null</b>-terminated string  that contains the additional headers to be appended to the request. This parameter can be <b>NULL</b> if there are no additional headers to be appended.
-
 
 ### -param dwHeadersLength [in]
 
@@ -77,30 +71,20 @@ The size of the additional headers, in <b>TCHARs</b>. If this parameter is -1L a
 <i>lpszHeaders</i> is not <b>NULL</b>, the function assumes that 
 <i>lpszHeaders</i> is zero-terminated (ASCIIZ), and the length is calculated. See Remarks for specifics.
 
-
 ### -param lpOptional [in]
 
 A pointer to a buffer containing any optional data to be sent immediately after the request headers. This parameter is generally used for POST and PUT operations. The optional data can be the resource or information being posted to the server. This parameter can be <b>NULL</b> if there is no optional data to send.
-
 
 ### -param dwOptionalLength [in]
 
 The size of the optional data, in bytes. This parameter can be zero if there is no optional data to send.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>HttpSendRequest</b> sends the specified request to the HTTP server and allows the client to specify additional headers to send along with the request.
 
@@ -138,15 +122,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

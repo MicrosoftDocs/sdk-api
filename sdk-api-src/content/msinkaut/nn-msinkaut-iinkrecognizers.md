@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 9BCCCFB1-567A-4CE7-9122-299A5AF52B08
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizers, IInkRecognizers interface [Tablet PC], IInkRecognizers interface [Tablet PC],described, msinkaut/IInkRecognizers, tablet.iinkrecognizers
-f1_keywords:
-- msinkaut/IInkRecognizers
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkRecognizers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizers
+ - msinkaut/IInkRecognizers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkRecognizers
 ---
 
 # IInkRecognizers interface
+
 
 ## -description
 
@@ -108,8 +110,9 @@ Gets the number of objects or collections contained in a collection.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [InkRecognizers collection](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85))
+

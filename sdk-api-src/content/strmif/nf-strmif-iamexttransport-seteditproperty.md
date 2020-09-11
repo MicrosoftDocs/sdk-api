@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 85ac14c7-7b47-4462-98ba-68a73f4c7497
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetEditProperty method, IAMExtTransport.SetEditProperty, IAMExtTransport::SetEditProperty, IAMExtTransportSetEditProperty, SetEditProperty, SetEditProperty method [DirectShow], SetEditProperty method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditproperty, strmif/IAMExtTransport::SetEditProperty
-f1_keywords:
-- strmif/IAMExtTransport.SetEditProperty
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.SetEditProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::SetEditProperty
+ - strmif/IAMExtTransport::SetEditProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.SetEditProperty
 ---
 
 # IAMExtTransport::SetEditProperty
@@ -50,47 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetEditProperty</code> method defines parameters and values associated with an edit event.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param EditID [in]
 
 Specifies the edit property set. Use the identifier returned by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-seteditpropertyset">IAMExtTransport::SetEditPropertySet</a> method.
 
-
 ### -param Param [in]
 
 Specifies the edit event parameter. See Remarks for more information.
-
 
 ### -param Value [in]
 
 Specifies the value of the parameter. See Remarks for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 An edit event consists of one or more edit event parameters. Use the <b>SetEditPropertySet</b> method to create an edit event, and then use this method to specify the edit event parameters for that edit event.
 
@@ -207,13 +192,7 @@ The <i>Param</i> parameter is a flag that specifies the edit event parameter. Th
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -224,7 +203,4 @@ The <i>Param</i> parameter is a flag that specifies the edit event parameter. Th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-geteditproperty">IAMExtTransport::GetEditProperty</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: f2cd2bb7-0e4f-4d3b-9e6c-6f15661064df
 ms.date: 12/05/2018
 ms.keywords: INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_FILESINUSE, INSTALLLOGMODE_INFO, INSTALLLOGMODE_INITIALIZE, INSTALLLOGMODE_INSTALLEND, INSTALLLOGMODE_INSTALLSTART, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROGRESS, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_RMFILESINUSE, INSTALLLOGMODE_SHOWDIALOG, INSTALLLOGMODE_TERMINATE, INSTALLLOGMODE_USER, INSTALLLOGMODE_WARNING, MsiSetExternalUIRecord, MsiSetExternalUIRecord function, msi/MsiSetExternalUIRecord, setup.msisetexternaluirecord
-f1_keywords:
-- msi/MsiSetExternalUIRecord
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiSetExternalUIRecord
-- MsiSetExternalUIRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSetExternalUIRecord
+ - msi/MsiSetExternalUIRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiSetExternalUIRecord
+ - MsiSetExternalUIRecord
 ---
 
 # MsiSetExternalUIRecord function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiSetExternalUIRecord</b> function enables an external user-interface (UI) handler.
 
-
 ## -parameters
-
-
-
 
 ### -param puiHandler [in]
 
 Specifies a callback function that conforms to the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handler_record">INSTALLUI_HANDLER_RECORD</a> specification.
 
 To disable the current external UI handler, call the function with this parameter set to a <b>NULL</b> value.
-
 
 ### -param dwMessageFilter [in]
 
@@ -277,8 +272,6 @@ The message contains the product's ProductName, ProductCode, and return value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvContext [in]
 
@@ -286,15 +279,11 @@ A pointer to an application context that is passed to the callback function.
 
 This parameter can be used for error checking.
 
-
 ### -param ppuiPrevHandler [out, optional]
 
 Returns the pointer to the previously set callback function that conforms to the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handler_record">INSTALLUI_HANDLER_RECORD</a> specification, or <b>NULL</b> if no callback is previously set.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -326,14 +315,8 @@ This function cannot be called from a custom action.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function cannot be called from <a href="https://docs.microsoft.com/windows/desktop/Msi/custom-actions">Custom Actions</a>.
 
@@ -355,20 +338,11 @@ To disable this external UI handler, call <b>MsiSetExternalUIRecord</b> with a <
 
 For more information about using a record-based external handler, see <a href="https://docs.microsoft.com/windows/desktop/Msi/monitoring-an-installation-using-msisetexternaluirecord">Monitoring an Installation Using MsiSetExternalUIRecord</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
- 
-
- 
 

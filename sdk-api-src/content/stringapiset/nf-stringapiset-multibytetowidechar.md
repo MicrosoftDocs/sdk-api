@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: a117fdfe-b52b-466f-9300-6455e91ea2a8
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, MB_COMPOSITE, MB_ERR_INVALID_CHARS, MB_PRECOMPOSED, MB_USEGLYPHCHARS, MultiByteToWideChar, MultiByteToWideChar function [Internationalization for Windows Applications], _win32_MultiByteToWideChar, intl.multibytetowidechar, stringapiset/MultiByteToWideChar
-f1_keywords:
-- stringapiset/MultiByteToWideChar
-dev_langs:
-- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-String-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- MultiByteToWideChar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MultiByteToWideChar
+ - stringapiset/MultiByteToWideChar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-String-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - MultiByteToWideChar
 ---
 
 # MultiByteToWideChar function
@@ -53,18 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maps a character string to a UTF-16 (wide character) string. The character string is not necessarily from a multibyte character set.<div class="alert"><b>Caution</b>  Using the <b>MultiByteToWideChar</b> function incorrectly can compromise the security of your application. Calling this function can easily cause a buffer overrun because the size of the input buffer indicated by <i>lpMultiByteStr</i> equals the number of bytes in the string, while the size of the output buffer indicated by <i>lpWideCharStr</i> equals the number of characters. To avoid a buffer overrun, your application must specify a buffer size appropriate for the data type the buffer receives. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  The ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page, unless legacy standards or data formats prevent the use of Unicode. If using Unicode is not possible, applications should tag the data stream with the appropriate encoding name when protocols allow it. HTML and XML files allow tagging, but text files do not.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param CodePage [in]
 
@@ -156,8 +151,6 @@ UTF-8.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -239,7 +232,6 @@ For the code pages listed below, <i>dwFlags</i> must be set to 0. Otherwise, the
 
 Pointer to the character string to convert.
 
-
 ### -param cbMultiByte [in]
 
 Size, in bytes, of the string indicated by the <i>lpMultiByteStr</i> parameter. Alternatively, this parameter can be set to -1 if the string is null-terminated. Note that, if <i>cbMultiByte</i> is 0, the function fails.
@@ -248,20 +240,15 @@ If this parameter is -1, the function processes the entire input string, includi
 
 If this parameter is set to a positive integer, the function processes exactly the specified number of bytes. If the provided size does not include a terminating null character, the resulting Unicode string is not null-terminated, and the returned length does not include this character.
 
-
 ### -param lpWideCharStr [out, optional]
 
 Pointer to a buffer that receives the converted string.
-
 
 ### -param cchWideChar [in]
 
 Size, in characters, of the buffer indicated by <i>lpWideCharStr</i>. If this value is 0, the function returns the required buffer size, in characters, including any terminating null character, and makes no use of the <i>lpWideCharStr</i> buffer.
 
-
 ## -returns
-
-
 
 Returns the number of characters written to the buffer indicated by <i>lpWideCharStr</i> if successful. If the function succeeds and <i>cchWideChar</i> is 0, the return value is the required size, in characters, for the buffer indicated by <i>lpWideCharStr</i>. Also see <i>dwFlags</i> for info about how the MB_ERR_INVALID_CHARS flag affects the return value when invalid sequences are input.
 
@@ -274,11 +261,7 @@ The function returns 0 if it does not succeed. To get extended error information
 <li>ERROR_NO_UNICODE_TRANSLATION. Invalid Unicode was found in a string.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The default behavior of this function is to translate to a precomposed form of the input character string. If a precomposed form does not exist, the function attempts to translate to a composite form.
 
@@ -302,13 +285,7 @@ Starting with Windows Vista, this function fully conforms with the Unicode 4.1 
 
 <b>Starting with Windows 8: </b><b>MultiByteToWideChar</b>  is declared in Stringapiset.h. Before Windows 8, it was declared in Winnls.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
@@ -319,7 +296,4 @@ Starting with Windows Vista, this function fully conforms with the Unicode 4.1 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
- 
-
- 
 

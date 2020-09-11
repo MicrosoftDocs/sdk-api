@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\connectedsubmit2.htm
 ms.date: 12/05/2018
 ms.keywords: ConnectedSubmit2, ConnectedSubmit2 method [Fax Service], ConnectedSubmit2 method [Fax Service],IFaxDocument2 interface, IFaxDocument2 interface [Fax Service],ConnectedSubmit2 method, IFaxDocument2.ConnectedSubmit2, IFaxDocument2::ConnectedSubmit2, _mfax_faxdocument2.connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_connectedsubmit2_cpp, faxcomex/IFaxDocument2::ConnectedSubmit2
-f1_keywords:
-- faxcomex/IFaxDocument2.ConnectedSubmit2
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxDocument2.ConnectedSubmit2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDocument2::ConnectedSubmit2
+ - faxcomex/IFaxDocument2::ConnectedSubmit2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxDocument2.ConnectedSubmit2
 ---
 
 # IFaxDocument2::ConnectedSubmit2
 
 
 ## -description
-
 
 Submits one or more fax documents to the connected <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>. This method returns an array of fax job ID strings, one for each recipient of the fax.
 
@@ -57,15 +57,11 @@ Submits one or more fax documents to the connected <a href="https://docs.microso
 
 ## -parameters
 
-
-
-
 ### -param pFaxServer [in]
 
 Type: <b>IFaxServer*</b>
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a> object that specifies a connected fax server.
-
 
 ### -param pvFaxOutgoingJobIDs [out]
 
@@ -73,28 +69,19 @@ Type: <b>VARIANT*</b>
 
 A <b>VARIANT</b> that holds an array of outbound job ID strings, one for each recipient of the fax.
 
-
 ### -param plErrorBodyFile [out, retval]
 
 Type: <b>LONG*</b>
 
 A <b>LONG</b> representing the zero-based position of the submitted file that caused the fax send operation to fail. See Remarks.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  To succeed, the <b>IFaxDocument2::ConnectedSubmit2</b> method requires that the fax have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
 <div> </div>
@@ -114,20 +101,11 @@ To illustrate <i>plErrorBodyFile</i>, here is an example: The following list of 
 
 Because the "*.pdf" extension is not supported, the send operation will fail and <i>plErrorBodyFile</i> will return as 2.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument2">IFaxDocument2</a>
- 
-
- 
 

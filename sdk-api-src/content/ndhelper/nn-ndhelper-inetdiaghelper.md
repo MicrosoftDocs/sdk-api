@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 7f1b8a5b-389b-4276-a49d-94a39be3c35c
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], INetDiagHelper interface [NDF],described, ndf.inetdiaghelper, ndhelper/INetDiagHelper
-f1_keywords:
-- ndhelper/INetDiagHelper
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelper
+ - ndhelper/INetDiagHelper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelper
 ---
 
 # INetDiagHelper interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetDiagHelper</b> interface provides methods that capture and provide information associated with diagnoses and resolution of network-related issues.
-
 
 ## -inheritance
 
@@ -230,5 +229,5 @@ Confirms that a previously diagnosed problem is fixed. This method is optional w
 
 </td>
 </tr>
-</table> 
+</table>
 

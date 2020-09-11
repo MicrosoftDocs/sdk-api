@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 2d0efbae-4a1c-43b1-9021-8d89377f7282
 ms.date: 12/05/2018
 ms.keywords: IOleWindow, IOleWindow interface [COM], IOleWindow interface [COM],described, _ole_iolewindow, com.iolewindow, oleidl/IOleWindow
-f1_keywords:
-- oleidl/IOleWindow
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleWindow
+ - oleidl/IOleWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleWindow
 ---
 
 # IOleWindow interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IOleWindow</b> interface provides methods that allow an application to obtain the handle to the various windows that participate in in-place activation, and also to enter and exit context-sensitive help mode.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Retrieves a handle to one of the windows participating in in-place activation (f
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Several other in-place activation interfaces are derived from the <b>IOleWindow</b> interface. Containers and objects must implement and use these interfaces in order to support in-place activation. The following table briefly summarizes each of these interfaces.
 
@@ -184,13 +180,7 @@ Implemented by windowless objects called by containers to support window message
 
 These interfaces can be arranged in three hierarchical levels with various interfaces implemented at each level. Calls that install user-interface menus commands and frame adornments, activate and switch between windows, and dispatch menu and keystrokes take place between the top-level container and the active object. Calls that support activating, deactivating, scrolling, or clipping span the containment hierarchy, with each level performing the correct actions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a>
 
@@ -201,7 +191,4 @@ These interfaces can be arranged in three hierarchical levels with various inter
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>
- 
-
- 
 

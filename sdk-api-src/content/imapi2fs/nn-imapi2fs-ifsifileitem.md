@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem, IFsiFileItem interface [IMAPI], IFsiFileItem interface [IMAPI],described, imapi.ifsifileitem, imapi2fs/IFsiFileItem
-f1_keywords:
-- imapi2fs/IFsiFileItem
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiFileItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiFileItem
+ - imapi2fs/IFsiFileItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiFileItem
 ---
 
 # IFsiFileItem interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to identify the file size and data stream of the file contents.
 
 To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createfileitem">IFileSystemImage::CreateFileItem</a> method.
-
 
 ## -inheritance
 
@@ -115,27 +114,15 @@ Sets the data stream of the file's content.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Data streams for files contained within the file system image are read-only.  File data can only be replaced by overwriting an existing file item.
 
 This is an <b>FsiFileItem</b> object in script.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
- 
-
- 
 

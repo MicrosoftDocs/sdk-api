@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 5b94a468-88b2-40a4-b28d-49f262e62749
 ms.date: 12/05/2018
 ms.keywords: '*LPAUXCAPSW, *NPAUXCAPSW, *PAUXCAPSW, AUXCAPS, AUXCAPS structure [Windows Multimedia], AUXCAPSA, AUXCAPSW, AUXCAPS_AUXIN, AUXCAPS_CDAUDIO, AUXCAPS_LRVOLUME, AUXCAPS_VOLUME, _win32_AUXCAPS_str, auxcaps_tag, mmeapi/AUXCAPS, multimedia.auxcaps'
-f1_keywords:
-- mmeapi/AUXCAPS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- AUXCAPS
-- AUXCAPSW
 targetos: Windows
 req.typenames: AUXCAPSW, *PAUXCAPSW, *NPAUXCAPSW, *LPAUXCAPSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagAUXCAPSW
+ - mmeapi/tagAUXCAPSW
+ - PAUXCAPSW
+ - mmeapi/PAUXCAPSW
+ - AUXCAPSW
+ - mmeapi/AUXCAPSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - AUXCAPS
+ - AUXCAPSW
 ---
 
 # AUXCAPSW structure
@@ -50,37 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AUXCAPS</b> structure describes the capabilities of an auxiliary output device.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field wMid
 
 Manufacturer identifier for the device driver for the auxiliary audio device. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
-
 ### -field wPid
 
 Product identifier for the auxiliary audio device. Currently, no product identifiers are defined for auxiliary audio devices.
-
 
 ### -field vDriverVersion
 
 Version number of the device driver for the auxiliary audio device. The high-order byte is the major version number, and the low-order byte is the minor version number.
 
-
 ### -field szPname
 
 Product name in a null-terminated string.
-
 
 ### -field wTechnology
 
@@ -112,10 +105,6 @@ Audio output from an internal CD-ROM drive.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ### -field dwSupport
 

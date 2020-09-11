@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d484f56c-3d96-48df-a0d1-1bea58e30f26
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AZ_PROP_WRITABLE, AzTask object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzTask object, GetProperty method [Security],IAzTask interface, IAzTask interface [Security],GetProperty method, IAzTask.GetProperty, IAzTask::GetProperty, azroles/IAzTask::GetProperty, security.iaztask_getproperty
-f1_keywords:
-- azroles/IAzTask.GetProperty
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzTask.GetProperty
-- AzTask.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzTask::GetProperty
+ - azroles/IAzTask::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzTask.GetProperty
+ - AzTask.GetProperty
 ---
 
 # IAzTask::GetProperty
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object property  with the specified property ID.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -169,24 +165,16 @@ Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ### -param pvarProp [out]
 
 A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object property.
 
-
 ## -returns
 
-
-
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-
-
 

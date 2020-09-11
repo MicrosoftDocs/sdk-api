@@ -8,10 +8,6 @@ tech.root: winlocation
 ms.assetid: bf0a0c13-a50f-4ed8-bc29-7d70561da306
 ms.date: 12/05/2018
 ms.keywords: ILocationPower, ILocationPower interface [WinLocation], ILocationPower interface [WinLocation],described, locationapi/ILocationPower, winlocation.ilocationpower
-f1_keywords:
-- locationapi/ILocationPower
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ILocationPower
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocationPower
+ - locationapi/ILocationPower
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ILocationPower
 ---
 
 # ILocationPower interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
 
 Most apps will not need to use this interface.
-
 
 ## -inheritance
 
@@ -91,5 +90,5 @@ Notify the location platform that an app has disconnected.
 
 </td>
 </tr>
-</table> 
+</table>
 

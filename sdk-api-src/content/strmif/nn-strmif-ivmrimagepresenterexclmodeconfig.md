@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 67c9675c-c0fd-44f6-bdeb-ac3f73e937cc
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterExclModeConfig, IVMRImagePresenterExclModeConfig interface [DirectShow], IVMRImagePresenterExclModeConfig interface [DirectShow],described, dshow.ivmrimagepresenterexclmodeconfig, strmif/IVMRImagePresenterExclModeConfig
-f1_keywords:
-- strmif/IVMRImagePresenterExclModeConfig
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRImagePresenterExclModeConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRImagePresenterExclModeConfig
+ - strmif/IVMRImagePresenterExclModeConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRImagePresenterExclModeConfig
 ---
 
 # IVMRImagePresenterExclModeConfig interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IVMRImagePresenterExclModeConfig</code> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig</a> and provides methods for setting and retrieving the renderering preferences on the Exclusive Mode Allocator-Presenter. This interface is exposed on the DirectDraw Exclusive Mode Allocator-Presenter object. When applications run in DirectDraw Exclusive Mode, they must create their own DirectDraw object, configure the VMR to use the Exclusive Mode Allocator-Presenter, and use this interface to inform the VMR about the DirectDraw object and the primary surface associated with it. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directdraw-exclusive-mode">DirectDraw Exclusive Mode</a>.
-
-
-
 
 ## -inheritance
 
@@ -90,20 +86,13 @@ Informs the VMR of the DirectDraw object and primary surface that were created b
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

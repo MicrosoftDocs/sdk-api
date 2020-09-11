@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 37695195-fc33-499d-98c1-ccfd190cb2f9
 ms.date: 12/05/2018
 ms.keywords: IADsFileShare, IADsFileShare interface [ADSI], IADsFileShare interface [ADSI],described, _ds_iadsfileshare, adsi.iadsfileshare, iads/IADsFileShare
-f1_keywords:
-- iads/IADsFileShare
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsFileShare
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsFileShare
+ - iads/IADsFileShare
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsFileShare
 ---
 
 # IADsFileShare interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsFileShare</b> interface is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed for representing a published file share across the network. Call the methods on <b>IADsFileShare</b> to access or publish data about a file share point.
-
 
 ## -inheritance
 
@@ -316,12 +315,9 @@ Gets the ADsPath string to the schema class object for this object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IADsFileShare</b> is supported by WinNT system provider only. Using the WinNT provider, you can also bind to a FPNW share by substituting "FPNW" for "LanmanServer" in the code examples below.
 
@@ -363,14 +359,7 @@ On Error Resume Next
 Set fs = GetObject("WinNT://aComputer/LanmanServer/_file_share_name_")
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -381,7 +370,4 @@ Set fs = GetObject("WinNT://aComputer/LanmanServer/_file_share_name_")
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

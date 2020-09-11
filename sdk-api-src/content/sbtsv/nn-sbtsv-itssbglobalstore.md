@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: d25b6f73-ee5f-40e4-9c49-fd48dd3990d2
 ms.date: 12/05/2018
 ms.keywords: ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], ITsSbGlobalStore interface [Remote Desktop Services],described, sbtsv/ITsSbGlobalStore, termserv.itssbglobalstore
-f1_keywords:
-- sbtsv/ITsSbGlobalStore
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbGlobalStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbGlobalStore
+ - sbtsv/ITsSbGlobalStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbGlobalStore
 ---
 
 # ITsSbGlobalStore interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that query for target computers, sessions, environments, and farms that have been added 
 to the Remote Desktop Connection Broker (RD Connection Broker) store. Plug-ins can obtain an instance of the global store from the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a> 
 object that they retrieve during initialization.
-
 
 ## -inheritance
 
@@ -135,16 +134,9 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

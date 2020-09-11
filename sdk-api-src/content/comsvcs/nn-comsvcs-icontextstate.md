@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: cba54ad7-c670-4efb-ad3b-aca1daabc4a3
 ms.date: 12/05/2018
 ms.keywords: IContextState, IContextState interface [COM+], IContextState interface [COM+],described, _cos_IContextState, comsvcs/IContextState, cos.icontextstate
-f1_keywords:
-- comsvcs/IContextState
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IContextState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextState
+ - comsvcs/IContextState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IContextState
 ---
 
 # IContextState interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls object deactivation and transaction voting by manipulating context state flags. By calling the methods of this interface, you can set consistent and done flags independently of each other and get the current status of each flag. Also, the methods of this interface return errors that indicate the absence of just-in-time (JIT) activation or the absence of a transaction.
-
 
 ## -inheritance
 
@@ -104,16 +103,9 @@ Sets the consistent flag.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
- 
-
- 
 

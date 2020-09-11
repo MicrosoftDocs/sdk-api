@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: de40f3a3-1880-426d-b3c2-864f0f45f218
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetBufferSetLength method, CHString.GetBufferSetLength, CHString::GetBufferSetLength, GetBufferSetLength, GetBufferSetLength method [Windows Management Instrumentation], GetBufferSetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffersetlength, chstring/CHString::GetBufferSetLength, wmi.chstring_getbuffersetlength
-f1_keywords:
-- chstring/CHString.GetBufferSetLength
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.GetBufferSetLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::GetBufferSetLength
+ - chstring/CHString::GetBufferSetLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.GetBufferSetLength
 ---
 
 # CHString::GetBufferSetLength
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,29 +59,17 @@ ms.custom: 19H1
 
 The <b>GetBufferSetLength</b> method returns a pointer to the internal character buffer for the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object, truncating or increasing its length if necessary to exactly match the length specified in <i>nNewLength</i>.
 
-
 ## -parameters
-
-
-
 
 ### -param nNewLength
 
 Exact size of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> character buffer, measured in characters.
 
-
 ## -returns
-
-
 
 Returns an <b>LPWSTR</b> pointer to the object's (NULL-terminated) character buffer.
 
-
-
-
 ## -remarks
-
-
 
 The returned <b>LPWSTR</b> pointer, which is not <b>const</b>, allows direct modification of <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> contents.
 
@@ -111,14 +99,7 @@ str += " hockey is best!";
 printf( "str: %S\n", (LPCWSTR)str );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
@@ -129,7 +110,4 @@ printf( "str: %S\n", (LPCWSTR)str );
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">CHString::ReleaseBuffer</a>
- 
-
- 
 

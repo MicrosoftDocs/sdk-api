@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d31024bf-7022-440b-8134-a02578510357
 ms.date: 12/05/2018
 ms.keywords: CryptSignMessageWithKey, CryptSignMessageWithKey function [Security], security.cryptsignmessagewithkey, wincrypt/CryptSignMessageWithKey
-f1_keywords:
-- wincrypt/CryptSignMessageWithKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSignMessageWithKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSignMessageWithKey
+ - wincrypt/CryptSignMessageWithKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSignMessageWithKey
 ---
 
 # CryptSignMessageWithKey function
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptSignMessageWithKey</b> function signs a message by using a CSP's private key specified in the
 parameters. A placeholder <b>SignerId</b> is created and stored in the message.
 
-
 ## -parameters
-
-
-
 
 ### -param pSignPara [in]
 
 A pointer to 
 a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_sign_message_para">CRYPT_KEY_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
 
-
 ### -param pbToBeSigned [in]
 
 A pointer to a buffer array that contains the message to be signed.
 
-
 ### -param cbToBeSigned [in]
 
 The number of array elements in the <i>pbToBeSigned</i> buffer array.
-
 
 ### -param pbSignedBlob [out]
 
@@ -84,7 +77,6 @@ A pointer to a buffer to receive the encoded signed message.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbSignedBlob [in, out]
 
@@ -97,8 +89,6 @@ A pointer to a <b>DWORD</b> value that indicates the size, in bytes, of the <i>p
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -149,7 +139,4 @@ The <i>pSigningCert</i> in *<i>pSignPara</i> does not have a CERT_KEY_PROV_INFO_
 </td>
 </tr>
 </table>
- 
-
-
 

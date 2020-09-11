@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirselectex.htm
 ms.date: 12/05/2018
 ms.keywords: DlgDirSelectEx, DlgDirSelectEx function [Windows Controls], DlgDirSelectExA, DlgDirSelectExW, _win32_DlgDirSelectEx, _win32_DlgDirSelectEx_cpp, controls.DlgDirSelectEx, controls._win32_DlgDirSelectEx, winuser/DlgDirSelectEx, winuser/DlgDirSelectExA, winuser/DlgDirSelectExW
-f1_keywords:
-- winuser/DlgDirSelectEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DlgDirSelectEx
-- DlgDirSelectExA
-- DlgDirSelectExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DlgDirSelectExA
+ - winuser/DlgDirSelectExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DlgDirSelectEx
+ - DlgDirSelectExA
+ - DlgDirSelectExW
 ---
 
 # DlgDirSelectExA function
@@ -51,28 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a> function and that the selection is a drive letter, filename, or directory name. 
-
+Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a> function and that the selection is a drive letter, filename, or directory name.
 
 ## -parameters
-
-
-
 
 ### -param hwndDlg [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the dialog box that contains the list box. 
-
+A handle to the dialog box that contains the list box.
 
 ### -param lpString [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-A pointer to a buffer that receives the selected path. 
-
+A pointer to a buffer that receives the selected path.
 
 ### -param chCount [in]
 
@@ -80,33 +74,23 @@ Type: <b>int</b>
 
 The length, in 
                     <b>TCHARs</b>, of the buffer pointed to by 
-                    <i>lpString</i>. 
-
-
+                    <i>lpString</i>.
 
 ### -param idListBox [in]
 
 Type: <b>int</b>
 
-The identifier of a list box in the dialog box. 
-
+The identifier of a list box in the dialog box.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the current selection is a directory name, the return value is nonzero.
 
-If the current selection is not a directory name, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the current selection is not a directory name, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The <b>DlgDirSelectEx</b> function copies the selection to the buffer pointed to by the 
                 <i>lpString</i> parameter. If the current selection is a directory name or drive letter, <b>DlgDirSelectEx</b> removes the enclosing square brackets (and hyphens, for drive letters), so that the name or letter is ready to be inserted into a new path. If there is no selection, 
@@ -134,9 +118,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a>
 
 
@@ -158,7 +139,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: de42ca97-4ce2-4bfb-abd1-7409cc5c09a8
 ms.date: 12/05/2018
 ms.keywords: CrackSingleName, CrackSingleName callback function [Security], DS_CANONICAL_NAME, DS_CANONICAL_NAME_EX, DS_DISPLAY_NAME, DS_FQDN_1779_NAME, DS_NT4_ACCOUNT_NAME, DS_SERVICE_PRINCIPAL_NAME, DS_SID_OR_SID_HISTORY_NAME, DS_UNIQUE_ID_NAME, DS_UNKNOWN_NAME, DS_USER_PRINCIPAL_NAME, LSA_CRACK_SINGLE_NAME, LSA_CRACK_SINGLE_NAME callback, _ssp_cracksinglename, ntsecpkg/CrackSingleName, security.cracksinglename
-f1_keywords:
-- ntsecpkg/CrackSingleName
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- CrackSingleName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_CRACK_SINGLE_NAME
+ - ntsecpkg/LSA_CRACK_SINGLE_NAME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - CrackSingleName
 ---
 
 # LSA_CRACK_SINGLE_NAME callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CrackSingleName</b> function converts a name from one format to another.
 
-
 ## -parameters
-
-
-
 
 ### -param FormatOffered [in]
 
@@ -169,78 +165,53 @@ User principal name (for example, someone@example.microsoft.com).
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PerformAtGC [in]
 
 Specifies whether to perform the translation at a global catalog server.
-
 
 ### -param NameInput [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that contains the name to convert.
 
-
 ### -param Prefix [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies a prefix for the name.
-
 
 ### -param RequestedFormat [in]
 
 The requested format of the cracked name. For a list of valid values, see the <i>FormatOffered</i> parameter.
 
-
 ### -param CrackedName [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that receives the reformatted name.
-
 
 ### -param DnsDomainName [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that receives the name of the domain that owns the name specified by the <i>NameInput</i> parameter.
 
-
 ### -param SubStatus [out]
 
 A pointer to a variable that receives additional information about the return value of the function call.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns STATUS_UNSUCCESSFUL. For more information, see the value returned in the <i>SubStatus</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 A pointer to the <b>CrackSingleName</b> function is available in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
 

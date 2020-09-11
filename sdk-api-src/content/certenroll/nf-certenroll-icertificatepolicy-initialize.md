@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 995b344b-ed1f-47e4-a7c6-0d638ed9ec23
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicy interface [Security],Initialize method, ICertificatePolicy.Initialize, ICertificatePolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::Initialize, security.icertificatepolicy_initialize_method
-f1_keywords:
-- certenroll/ICertificatePolicy.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertificatePolicy.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificatePolicy::Initialize
+ - certenroll/ICertificatePolicy::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertificatePolicy.Initialize
 ---
 
 # ICertificatePolicy::Initialize
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method initializes the object from an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the OID.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -101,33 +94,18 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must use an initialized <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object when calling this method. All of the  <b>IObjectId</b> initialization methods search  the registry and static memory on the local computer and Active Directory on the domain server for the first OID that matches the specified initialization parameters. You can retrieve the OID by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificatepolicy-get_objectid">ObjectId</a> property.
 
 When you call the <b>Initialize</b> method, an empty <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a> object is created. You can retrieve the object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificatepolicy-get_policyqualifiers">PolicyQualifiers</a> property. You can use the object to define policy qualifiers if you are creating a <b>CertificatePolicies</b> extension.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicies">ICertificatePolicies</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a>
- 
-
- 
 

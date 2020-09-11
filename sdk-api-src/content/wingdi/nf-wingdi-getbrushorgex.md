@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 0b938237-cb06-4776-86f8-14478abcee00
 ms.date: 12/05/2018
 ms.keywords: GetBrushOrgEx, GetBrushOrgEx function [Windows GDI], _win32_GetBrushOrgEx, gdi.getbrushorgex, wingdi/GetBrushOrgEx
-f1_keywords:
-- wingdi/GetBrushOrgEx
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- GetBrushOrgEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetBrushOrgEx
+ - wingdi/GetBrushOrgEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - GetBrushOrgEx
 ---
 
 # GetBrushOrgEx function
@@ -52,39 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetBrushOrgEx</b> function retrieves the current brush origin for the specified device context. This function replaces the <b>GetBrushOrg</b> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param lppt [out]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the brush origin, in device coordinates.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 A brush is a bitmap that the system uses to paint the interiors of filled shapes.
 
@@ -94,13 +81,7 @@ If an application uses a brush to fill the backgrounds of both a parent and a ch
 
 The system automatically tracks the origin of all window-managed device contexts and adjusts their brushes as necessary to maintain an alignment of patterns on the surface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
@@ -123,7 +104,4 @@ The system automatically tracks the origin of all window-managed device contexts
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-unrealizeobject">UnrealizeObject</a>
- 
-
- 
 

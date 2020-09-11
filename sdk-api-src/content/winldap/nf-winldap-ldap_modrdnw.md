@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 7a85eb4d-dcb1-4a5b-a7df-1d726215bde3
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_modrdn, ldap.ldap__modrdn, ldap.ldap_modrdn, ldap_modrdn, ldap_modrdn function [LDAP], ldap_modrdnA, ldap_modrdnW, winldap/ldap_modrdn, winldap/ldap_modrdnA, winldap/ldap_modrdnW
-f1_keywords:
-- winldap/ldap_modrdn
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_modrdn
-- ldap_modrdnA
-- ldap_modrdnW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_modrdnW
+ - winldap/ldap_modrdnW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_modrdn
+ - ldap_modrdnA
+ - ldap_modrdnW
 ---
 
 # ldap_modrdnW function
@@ -51,48 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_modrdn</b> function changes the relative distinguished name of an LDAP entry.
 
 This function is obsolete and is provided for backward compatibility with earlier versions of LDAP. For LDAP 3 or later, use the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext">ldap_rename_ext</a> or 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext_s">ldap_rename_ext_s</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param ExternalHandle [in]
 
 The session handle.
 
-
 ### -param DistinguishedName [in]
 
 A pointer to a null-terminated string that contains the distinguished name of the entry to be changed.
-
 
 ### -param NewDistinguishedName [out]
 
 A pointer to a null-terminated string that contains the new relative distinguished name to give the entry.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns the message ID of the modify operation.
 
 If the function fails, it returns –1 and sets the session error parameters in the LDAP data structure.
 
-
-
-
 ## -remarks
-
-
 
 Use the <b>ldap_modrdn</b> function, or its synchronous equivalent, 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modrdn_s">ldap_modrdn_s</a>, to change the name of an LDAP entry. LDAP 2 supports additional features through 
@@ -122,9 +108,6 @@ Multithreading: Calls to <b>ldap_modrdn</b> are thread-safe, provided that
 > The winldap.h header defines ldap_modrdn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
@@ -163,7 +146,4 @@ Multithreading: Calls to <b>ldap_modrdn</b> are thread-safe, provided that
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
- 
-
- 
 

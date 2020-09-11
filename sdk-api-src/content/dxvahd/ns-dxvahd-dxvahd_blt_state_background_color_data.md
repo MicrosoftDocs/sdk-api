@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 34b8c29e-a183-4e68-bd46-802c43d554f7
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, mf.dxvahd_blt_state_background_color_data
-f1_keywords:
-- dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
+ - dxvahd/_DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
+ - DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
+ - dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
 ---
 
 # DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA structure
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the background color for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-
 ## -struct-fields
-
-
-
 
 ### -field YCbCr
 
 If <b>TRUE</b>, the <b>BackgroundColor</b> member specifies a YCbCr color. Otherwise, it specifies an RGB color.  The default device state is <b>FALSE</b> (RGB color).
 
-
 ### -field BackgroundColor
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_color">DXVAHD_COLOR</a> union that specifies the background color. The default state value is (0.0, 0.0, 0.0, 1.0).
 
-
 ## -remarks
-
-
 
 The background color is used to fill the target rectangle wherever no video image appears. Areas outside the target rectangle are not affected. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a>.
 
@@ -104,14 +98,7 @@ HRESULT DXVAHD_SetBackgroundColor(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -130,7 +117,4 @@ HRESULT DXVAHD_SetBackgroundColor(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

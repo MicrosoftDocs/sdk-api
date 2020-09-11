@@ -8,10 +8,6 @@ tech.root: SecCrypto
 ms.assetid: 65ba80db-b7ee-46fa-b044-eab554720ce9
 ms.date: 12/05/2018
 ms.keywords: GetMaxIndex, GetMaxIndex method [Security], GetMaxIndex method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],GetMaxIndex method, IEnumCERTVIEWROW.GetMaxIndex, IEnumCERTVIEWROW::GetMaxIndex, certview/IEnumCERTVIEWROW::GetMaxIndex, security.ienumcertviewrow_getmaxindex, security.ienumcertviewrow_getmaxtindex
-f1_keywords:
-- certview/IEnumCERTVIEWROW.GetMaxIndex
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWROW.GetMaxIndex
-- IEnumCERTVIEWROW.GetMaxIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWROW::GetMaxIndex
+ - certview/IEnumCERTVIEWROW::GetMaxIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWROW.GetMaxIndex
+ - IEnumCERTVIEWROW.GetMaxIndex
 ---
 
 # IEnumCERTVIEWROW::GetMaxIndex
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetMaxIndex</b> method retrieves the maximum valid index value after all the rows in the row-enumeration sequence have been referenced.
 
-
 ## -parameters
-
-
-
 
 ### -param pIndex [out]
 
 A pointer to a <b>LONG</b> variable that contains the maximum index value for the row-enumeration sequence. This method fails if <i>pIndex</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and <i>pIndex</i> is set to the maximum index value for the row-enumeration sequence.
@@ -78,12 +71,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is the maximum index value for the row-enumeration sequence. This method fails if traversal to the last row has not occurred.
 
-
-
-
 ## -remarks
-
-
 
 Successful completion of this method is dependent on reaching the last row of the enumeration sequence. The maximum row index can be useful to size a scroll bar or display window, but it can also be resource-intensive to compute because it requires evaluating the entire query. For some queries, column data for each row must be examined to determine whether it is included in the view. After the user has paged through all of the data or explicitly requested to proceed to the end, the maximum row index is preserved.
 
@@ -135,14 +123,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>IEnumCERTVIEWROW</b>
 
@@ -157,7 +138,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-skip">IEnumCERTVIEWROW::Skip</a>
- 
-
- 
 

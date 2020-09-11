@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 2d54efbd-d88e-430e-9e46-c2b80559d356
 ms.date: 12/05/2018
 ms.keywords: IPropertySheetCallback interface [MMC],RemovePage method, IPropertySheetCallback.RemovePage, IPropertySheetCallback::RemovePage, RemovePage, RemovePage method [MMC], RemovePage method [MMC],IPropertySheetCallback interface, _slate_ipropertysheetcallback_removepage, mmc.ipropertysheetcallback_removepage, mmc/IPropertySheetCallback::RemovePage
-f1_keywords:
-- mmc/IPropertySheetCallback.RemovePage
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IPropertySheetCallback.RemovePage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySheetCallback::RemovePage
+ - mmc/IPropertySheetCallback::RemovePage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IPropertySheetCallback.RemovePage
 ---
 
 # IPropertySheetCallback::RemovePage
@@ -49,45 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPropertySheetCallback::RemovePage</b> method enables a snap-in to remove a page from a property sheet.
 
-
 ## -parameters
-
-
-
 
 ### -param hPage [in]
 
 A handle to the page to be removed.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 RemovePage can be used only for pages that the snap-in has added.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetcallback">IPropertySheetCallback</a>
- 
-
- 
 

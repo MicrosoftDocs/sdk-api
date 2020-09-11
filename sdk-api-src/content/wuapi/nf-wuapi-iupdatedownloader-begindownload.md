@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 9a953240-3d8e-4876-92a9-cc7efca62780
 ms.date: 12/05/2018
 ms.keywords: BeginDownload, BeginDownload method [Windows Update Agent], BeginDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],BeginDownload method, IUpdateDownloader.BeginDownload, IUpdateDownloader::BeginDownload, wua.iupdatedownloader_begindownload, wuapi/IUpdateDownloader::BeginDownload
-f1_keywords:
-- wuapi/IUpdateDownloader.BeginDownload
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateDownloader.BeginDownload
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateDownloader::BeginDownload
+ - wuapi/IUpdateDownloader::BeginDownload
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateDownloader.BeginDownload
 ---
 
 # IUpdateDownloader::BeginDownload
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts an asynchronous download of the content files that are associated with the updates.
 
-
 ## -parameters
-
-
-
 
 ### -param onProgressChanged [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallback">IDownloadProgressChangedCallback</a> interface that is called periodically for download progress changes before download is complete.
 
-
 ### -param onCompleted [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadcompletedcallback">IDownloadCompletedCallback</a> interface (C++/COM) that is called when an asynchronous download operation is complete.
-
 
 ### -param state [in]
 
@@ -81,10 +75,7 @@ The caller-specific state that the <a href="https://docs.microsoft.com/windows/d
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadjob">IDownloadJob</a> interface that contains the properties and methods that are available to a download operation that has started.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -129,14 +120,8 @@ The Windows Update Agent (WUA) is not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
   As an alternative to implementing the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallback">IDownloadProgressChangedCallback</a> interface, you can use a script to   implement a callback routine of any identifier with DISPID 0 on an automation object. The type of the  <i>onProgressChanged</i> parameter is <b>IUnknown*</b>.
 
@@ -150,17 +135,7 @@ This method returns <b>SUS_E_NOT_INITIALIZED</b> if the download job contains no
 
 When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
- 
-
- 
 

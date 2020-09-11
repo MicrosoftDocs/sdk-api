@@ -8,10 +8,6 @@ tech.root: AllJoyn
 ms.assetid: 2E9FE6B4-E8F0-4627-A712-F7A4CE5404BE
 ms.date: 12/05/2018
 ms.keywords: IWindowsDevicesAllJoynBusAttachmentFactoryInterop, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],described, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
-f1_keywords:
-- windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
-dev_langs:
-- c++
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.devices.alljoyn.interop.h
-api_name:
-- IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDevicesAllJoynBusAttachmentFactoryInterop
+ - windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.devices.alljoyn.interop.h
+api_name:
+ - IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 ---
 
 # IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface allows for the creation of <b>alljoyn_busattachment</b> without taking ownership of the reference.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Constructs an <b>AllJoynBusAttachment</b> over an existing <b>alljoyn_busattachm
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>
- 
-
- 
 

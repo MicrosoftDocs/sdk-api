@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 9c236f31-e3ba-4678-a4fe-1e078c9f9af3
 ms.date: 12/05/2018
 ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDServiceProxy interface, IWSDServiceProxy interface,GetEndpointProxy method, IWSDServiceProxy.GetEndpointProxy, IWSDServiceProxy::GetEndpointProxy, ncd.iwsdserviceproxy_getendpointproxy, wsdclient/IWSDServiceProxy::GetEndpointProxy
-f1_keywords:
-- wsdclient/IWSDServiceProxy.GetEndpointProxy
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDServiceProxy.GetEndpointProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDServiceProxy::GetEndpointProxy
+ - wsdclient/IWSDServiceProxy::GetEndpointProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDServiceProxy.GetEndpointProxy
 ---
 
 # IWSDServiceProxy::GetEndpointProxy
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the endpoint proxy for the device.
 
-
 ## -parameters
-
-
-
 
 ### -param ppProxy [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a> interface.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -97,27 +90,12 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The endpoint proxy is provided if a fault was received for a prior request. The client can then call <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdendpointproxy-getfaultinfo">IWSDEndpointProxy::GetFaultInfo</a> to determine the nature of the error.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
- 
-
- 
 

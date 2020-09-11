@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 08638917-88b1-42f0-8324-ae6fb9afe5bd
 ms.date: 12/05/2018
 ms.keywords: IReferenceClockTimerControl, IReferenceClockTimerControl interface [DirectShow], IReferenceClockTimerControl interface [DirectShow],described, IReferenceClockTimerControlInterface, dshow.ireferenceclocktimercontrol, strmif/IReferenceClockTimerControl
-f1_keywords:
-- strmif/IReferenceClockTimerControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IReferenceClockTimerControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReferenceClockTimerControl
+ - strmif/IReferenceClockTimerControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IReferenceClockTimerControl
 ---
 
 # IReferenceClockTimerControl interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IReferenceClockTimerControl</code> interface changes the timer period used by a reference clock. This interface is exposed by the DirectShow <a href="https://docs.microsoft.com/windows/desktop/DirectShow/system-reference-clock">System Reference Clock</a>.
-
-
-
 
 ## -inheritance
 
@@ -90,12 +86,9 @@ Sets the minimum timer resolution.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 By default, the system reference clock in DirectShow sets the timer period to the minimum value allowed by the timer. Typically, this value is 1 millisecond.
 
@@ -104,6 +97,4 @@ The timer period is a global settings in Windows. A higher resolution can improv
 The main purpose of this interface is to override the reference clock's default timer setting. To do so, call <b>SetDefaultTimerResolution</b> with the value zero. This can result in a lower timer resolution, which might enable the user's computer to enter a power saving mode. (The actual behavior depends on many other factors, such as what other processes are running.) The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter uses this interface as described here.
 
 If a DirectShow filter requires a higher timer resolution, it should call <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a>. Typically this requirement would apply only to renderer filters.
-
-
 

@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 74039bdf-d1b5-41ba-aa4e-4779ce0dd02a
 ms.date: 12/05/2018
 ms.keywords: PDH_FLAGS_CLOSE_QUERY, PdhCloseLog, PdhCloseLog function [Perf], _win32_pdhcloselog, base.pdhcloselog, pdh/PdhCloseLog, perf.pdhcloselog
-f1_keywords:
-- pdh/PdhCloseLog
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhCloseLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhCloseLog
+ - pdh/PdhCloseLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhCloseLog
 ---
 
 # PdhCloseLog function
@@ -49,21 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the specified log file.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hLog [in]
 
 Handle to the log file to be closed. This handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function.
-
 
 ### -param dwFlags [in]
 
@@ -87,12 +81,8 @@ Closes the query associated with the specified log file handle. See the <i>hQuer
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS and closes and deletes the query.
 						
@@ -118,22 +108,12 @@ The log file handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>
- 
-
- 
 

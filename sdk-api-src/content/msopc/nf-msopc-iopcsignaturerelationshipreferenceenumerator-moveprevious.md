@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: c56f871f-50ca-4253-84db-0602459fc2fa
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureRelationshipReferenceEnumerator.MovePrevious, IOpcSignatureRelationshipReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, msopc/IOpcSignatureRelationshipReferenceEnumerator::MovePrevious, opc.iopcsignaturerelationshipreferenceenumerator_moveprevious
-f1_keywords:
-- msopc/IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureRelationshipReferenceEnumerator::MovePrevious
+ - msopc/IOpcSignatureRelationshipReferenceEnumerator::MovePrevious
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
 ---
 
 # IOpcSignatureRelationshipReferenceEnumerator::MovePrevious
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the current position of the enumerator to the previous <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturerelationshipreference">IOpcSignatureRelationshipReference</a> interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param hasPrevious [out, retval]
 
@@ -92,12 +88,8 @@ The current position of the enumerator has been moved past the beginning of the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,15 +145,8 @@ The current position already precedes the first item of the enumerator.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -200,7 +185,4 @@ The current position already precedes the first item of the enumerator.
 
 
 <b>Reference</b>
- 
-
- 
 

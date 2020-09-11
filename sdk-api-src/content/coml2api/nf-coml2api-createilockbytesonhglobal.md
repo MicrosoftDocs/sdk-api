@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c
 ms.date: 12/05/2018
 ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Structured Storage], _stg_createilockbytesonhglobal, coml2api/CreateILockBytesOnHGlobal, stg.createilockbytesonhglobal
-f1_keywords:
-- coml2api/CreateILockBytesOnHGlobal
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-api_name:
-- CreateILockBytesOnHGlobal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateILockBytesOnHGlobal
+ - coml2api/CreateILockBytesOnHGlobal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+api_name:
+ - CreateILockBytesOnHGlobal
 ---
 
 # CreateILockBytesOnHGlobal function
@@ -52,45 +53,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateILockBytesOnHGlobal</b> function creates a byte array object that uses an HGLOBAL memory handle to store the bytes intended for in-memory storage of a compound file. This object is the OLE-provided implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface.
 
 The returned byte array object supports both reading and writing, but does not support region locking .  The object calls the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function to grow the memory block as required.
 
-
 ## -parameters
-
-
-
 
 ### -param hGlobal [in]
 
 A memory handle allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function, or if <b>NULL</b> a new handle is to be allocated instead. The handle must be allocated as moveable and nondiscardable.
 
-
 ### -param fDeleteOnRelease [in]
 
 A flag  that specifies whether the underlying handle for this byte array object should be automatically freed when the object is released. If set to <b>FALSE</b>, the caller must free the <i>hGlobal</i> after the final release. If set to <b>TRUE</b>, the final release will automatically free the <i>hGlobal</i> parameter.
-
 
 ### -param pplkbyt [out]
 
 The address of 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> pointer variable that receives the interface pointer to the new byte array object.
 
-
 ## -returns
-
-
 
 This function supports the standard return values <b>E_INVALIDARG</b> and <b>E_OUTOFMEMORY</b>, as well as the following:
 
-
-
-
 ## -remarks
-
-
 
 If <i>hGlobal</i> is <b>NULL</b>, the <b>CreateILockBytesOnHGlobal</b> allocates a new memory handle and the byte array is empty initially.
 
@@ -139,14 +125,7 @@ Compound files in memory are typically used as scratch space or with APIs that r
 <li>Implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface such that memory reallocations are zeroed (see for example the <b>HEAP_ZERO_MEMORY</b> flag in <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a>). The memory contents of this byte array can then be written to a file. </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-gethglobalfromilockbytes">GetHGlobalFromILockBytes</a>
 
@@ -157,7 +136,4 @@ Compound files in memory are typically used as scratch space or with APIs that r
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageonilockbytes">StgOpenStorageOnILockBytes</a>
- 
-
- 
 

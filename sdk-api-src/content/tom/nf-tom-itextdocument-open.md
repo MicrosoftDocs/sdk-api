@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\open.htm
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],Open method, ITextDocument.Open, ITextDocument::Open, Open, Open method [Windows Controls], Open method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Open, _win32_ITextDocument_Open_cpp, controls.ITextDocument_Open, controls._win32_ITextDocument_Open, tom/ITextDocument::Open, tomCreateAlways, tomCreateNew, tomHTML, tomOpenAlways, tomOpenExisting, tomPasteFile, tomRTF, tomReadOnly, tomShareDenyRead, tomShareDenyWrite, tomText, tomTruncateExisting, tomWordDocument
-f1_keywords:
-- tom/ITextDocument.Open
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument::Open
+ - tom/ITextDocument::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument.Open
 ---
 
 # ITextDocument::Open
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a specified document. There are parameters to specify access and sharing privileges, creation and conversion of the file, as well as the code page for the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pVar [in]
 
 Type: <b>VARIANT*</b>
 
-A <b>VARIANT</b> that specifies the name of the file to open. 
-
+A <b>VARIANT</b> that specifies the name of the file to open.
 
 ### -param Flags
 
@@ -172,17 +167,13 @@ These values are mutually exclusive.
 
 #### tomWordDocument
 
-
 ### -param CodePage
 
 Type: <b>long</b>
 
-The code page to use for the file. Zero (the default value) means <b>CP_ACP</b> (ANSI code page) unless the file begins with a Unicode BOM 0xfeff, in which case the file is considered to be Unicode. Note that code page 1200 is Unicode, <b>CP_UTF8</b> is UTF-8. 
-
+The code page to use for the file. Zero (the default value) means <b>CP_ACP</b> (ANSI code page) unless the file begins with a Unicode BOM 0xfeff, in which case the file is considered to be Unicode. Note that code page 1200 is Unicode, <b>CP_UTF8</b> is UTF-8.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -238,14 +229,8 @@ Feature not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a document is created with the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-new">ITextDocument::New</a> method and the zero values are used, then the Text Object Model (TOM) engine has to choose which flags and code page to use. UTF-8 Rich Text Format (RTF) (defined below) is an attractive default.
 
@@ -275,14 +260,7 @@ if(hr == STG_E_FILENOTFOUND)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -313,7 +291,4 @@ if(hr == STG_E_FILENOTFOUND)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

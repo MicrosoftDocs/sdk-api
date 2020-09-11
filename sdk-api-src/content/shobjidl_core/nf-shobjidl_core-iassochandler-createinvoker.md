@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 12ffd2f1-e041-41f1-9b57-282a166ccbf7
 ms.date: 12/05/2018
 ms.keywords: CreateInvoker, CreateInvoker method [Windows Shell], CreateInvoker method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],CreateInvoker method, IAssocHandler.CreateInvoker, IAssocHandler::CreateInvoker, _shell_IAssocHandler_CreateInvoker, shell.IAssocHandler_CreateInvoker, shobjidl_core/IAssocHandler::CreateInvoker
-f1_keywords:
-- shobjidl_core/IAssocHandler.CreateInvoker
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IAssocHandler.CreateInvoker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssocHandler::CreateInvoker
+ - shobjidl_core/IAssocHandler::CreateInvoker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IAssocHandler.CreateInvoker
 ---
 
 # IAssocHandler::CreateInvoker
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an object that enables the invocation of the associated handler on the current selection.  The invoker includes the ability to verify whether the current selection is supported.
 
-
 ## -parameters
-
-
-
 
 ### -param pdo [in]
 
@@ -64,29 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objid
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> that represents the selected item or items on which to invoke the handler. Note that if you have only a single item, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-invoke">IAssocHandler::Invoke</a> could be the better choice. See Remarks for more details.
 
-
 ### -param ppInvoker [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandlerinvoker">IAssocHandlerInvoker</a>**</b>
 
 When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandlerinvoker">IAssocHandlerInvoker</a> object. This object is used to invoke the menu item after ensuring that the selected items are supported by the associated handler.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler">IAssocHandler</a> objects are typically used to populate an <b>Open With</b> menu. When one of those menu items is selected, this method is called to launch the chosen application.
 
@@ -103,13 +89,7 @@ For multiple selection scenarios, the application should call <b>IAssocHandler::
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-invoke">IAssocHandler::Invoke</a> can be called on a selection of multiple files, but it is not recommended due to the large processing load involved and no guarantee of success.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler">IAssocHandler</a>
 
@@ -120,7 +100,4 @@ For multiple selection scenarios, the application should call <b>IAssocHandler::
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers">IEnumAssocHandlers</a>
- 
-
- 
 

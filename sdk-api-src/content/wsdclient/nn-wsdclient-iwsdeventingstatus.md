@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 04e6ea03-f9b5-48d9-940f-532bb3a85ff0
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, IWSDEventingStatus interface,described, ncd.iwsdeventingstatus, wsdclient/IWSDEventingStatus
-f1_keywords:
-- wsdclient/IWSDEventingStatus
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDEventingStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDEventingStatus
+ - wsdclient/IWSDEventingStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDEventingStatus
 ---
 
 # IWSDEventingStatus interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Implement this interface to receive notification when status changes occur in event subscriptions. 
-
+Implement this interface to receive notification when status changes occur in event subscriptions.
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Indicates that the subscription has successfully been renewed.
 
 </td>
 </tr>
-</table> 
+</table>
 

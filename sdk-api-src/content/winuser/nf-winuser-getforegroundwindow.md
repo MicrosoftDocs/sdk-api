@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getforegroundwindow.htm
 ms.date: 12/05/2018
 ms.keywords: GetForegroundWindow, GetForegroundWindow function [Windows and Messages], _win32_GetForegroundWindow, _win32_getforegroundwindow_cpp, winmsg.getforegroundwindow, winui._win32_getforegroundwindow, winuser/GetForegroundWindow
-f1_keywords:
-- winuser/GetForegroundWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- GetForegroundWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetForegroundWindow
+ - winuser/GetForegroundWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - GetForegroundWindow
 ---
 
 # GetForegroundWindow function
@@ -59,32 +60,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a handle to the foreground window (the window with which the user is currently working). The system assigns a slightly higher priority to the thread that creates the foreground window than it does to other threads. 
-
+Retrieves a handle to the foreground window (the window with which the user is currently working). The system assigns a slightly higher priority to the thread that creates the foreground window than it does to other threads.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HWND</b>
 
-The return value is a handle to the foreground window. The foreground window can be <b>NULL</b> in certain circumstances, such as when a window is losing activation. 
-
-
-
+The return value is a handle to the foreground window. The foreground window can be <b>NULL</b> in certain circumstances, such as when a window is losing activation.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -99,7 +85,4 @@ The return value is a handle to the foreground window. The foreground window can
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

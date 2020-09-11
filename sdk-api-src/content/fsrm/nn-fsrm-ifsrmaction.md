@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 81bfae1d-7d09-4ddc-9669-1da40dc72fd4
 ms.date: 12/05/2018
 ms.keywords: IFsrmAction, IFsrmAction interface [File Server Resource Manager], IFsrmAction interface [File Server Resource Manager],described, fs.ifsrmaction, fsrm.ifsrmaction, fsrm/IFsrmAction
-f1_keywords:
-- fsrm/IFsrmAction
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmAction
+ - fsrm/IFsrmAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmAction
 ---
 
 # IFsrmAction interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -94,7 +94,6 @@ Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ap
     type of action that this interface defines. You can then call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on this interface to get an 
     interface that defines the action type. The See Also section lists the possible interfaces.
-
 
 ## -inheritance
 
@@ -177,23 +176,14 @@ Retrieves or sets the interval that must expire before the action is run again.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The FSRM server starts the action in response to quota or file screen event (for example, a directory size 
     exceeds a directory quota threshold or detection of a restricted file).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -228,7 +218,4 @@ The FSRM server starts the action in response to quota or file screen event (for
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
- 
-
- 
 

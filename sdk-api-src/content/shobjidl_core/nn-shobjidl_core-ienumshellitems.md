@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 07aed597-359f-4f4b-9edf-168c15bdc58e
 ms.date: 12/05/2018
 ms.keywords: IEnumShellItems, IEnumShellItems interface [Windows Shell], IEnumShellItems interface [Windows Shell],described, _shell_IEnumShellItems, shell.IEnumShellItems, shobjidl_core/IEnumShellItems
-f1_keywords:
-- shobjidl_core/IEnumShellItems
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IEnumShellItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumShellItems
+ - shobjidl_core/IEnumShellItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IEnumShellItems
 ---
 
 # IEnumShellItems interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes enumeration of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interfaces. This interface is typically obtained by calling the <b>IEnumShellItems</b> method.
-
 
 ## -inheritance
 
@@ -104,16 +103,9 @@ Skips a given number of <a href="https://docs.microsoft.com/windows/desktop/api/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
- 
-
- 
 

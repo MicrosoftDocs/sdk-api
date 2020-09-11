@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: fd7ee250-6f76-419b-8164-0d2717ea288c
 ms.date: 12/05/2018
 ms.keywords: IInkRecognitionResult, IInkRecognitionResult interface [Tablet PC], IInkRecognitionResult interface [Tablet PC],described, fd7ee250-6f76-419b-8164-0d2717ea288c, msinkaut/IInkRecognitionResult, tablet.iinkrecognitionresult
-f1_keywords:
-- msinkaut/IInkRecognitionResult
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognitionResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognitionResult
+ - msinkaut/IInkRecognitionResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognitionResult
 ---
 
 # IInkRecognitionResult interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Represents the result of the recognition. The results of recognizing handwritten ink are returned in an <b>IInkRecognitionResult</b> object.
-
-
-
 
 ## -inheritance
 
@@ -155,13 +151,9 @@ Gets the result text for the <a href="https://docs.microsoft.com/windows/desktop
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> objects, or alternates, are created from the result. The best, or top, alternate is the one that is used by the default in the result. However, you can use the methods of the <b>IInkRecognitionResult</b> object to specify which alternates to use in the result.
 
@@ -176,12 +168,7 @@ If you define a class that implements this interface, the new class will not int
 <div class="alert"><b>Note</b>  The various handwriting recognizers shipped from Microsoft in both Latin characters  and East Asian languages can sometimes produce the Unicode value 0xFFFF as the recognition result. This occurs when the recognizer is unable to match a piece of ink with any valid character. The 0xFFFF code point is valid UCS-2, but not allowed in UTF-8. An application that converts recognition results to UTF-8, should replace 0xFFFF with some other code point, for example, 0xFFFD.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_customstrokes">CustomStrokes Property [InkDisp Class]</a>
 
@@ -204,7 +191,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

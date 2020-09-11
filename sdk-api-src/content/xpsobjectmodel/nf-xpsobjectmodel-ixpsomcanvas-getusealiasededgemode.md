@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 9d3f0660-227a-4b0f-bd41-112bd89e4605
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetUseAliasedEdgeMode, GetUseAliasedEdgeMode method [XPS Documents and Packaging], GetUseAliasedEdgeMode method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetUseAliasedEdgeMode method, IXpsOMCanvas.GetUseAliasedEdgeMode, IXpsOMCanvas::GetUseAliasedEdgeMode, TRUE, xps.ixpsomcanvas_getusealiasededgemode, xpsobjectmodel/IXpsOMCanvas::GetUseAliasedEdgeMode
-f1_keywords:
-- xpsobjectmodel/IXpsOMCanvas.GetUseAliasedEdgeMode
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCanvas.GetUseAliasedEdgeMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCanvas::GetUseAliasedEdgeMode
+ - xpsobjectmodel/IXpsOMCanvas::GetUseAliasedEdgeMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCanvas.GetUseAliasedEdgeMode
 ---
 
 # IXpsOMCanvas::GetUseAliasedEdgeMode
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that determines whether the edges of the objects in the canvas are to be rendered using the aliased edge mode.
 
-
 ## -parameters
-
-
-
 
 ### -param useAliasedEdgeMode [out, retval]
 
@@ -92,12 +88,8 @@ In the document markup, this corresponds  to the <b>RenderOptions.EdgeMode</b> a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -129,24 +121,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The property that is returned by this method corresponds to the <b>RenderOptions.EdgeMode</b> attribute of the <b>Canvas</b> element in the document markup.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas">IXpsOMCanvas</a>
 
@@ -157,7 +137,4 @@ The property that is returned by this method corresponds to the <b>RenderOptions
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

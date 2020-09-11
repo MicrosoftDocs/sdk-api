@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 3eb30caa-ce29-4898-b1a7-bd905031ca98
 ms.date: 12/05/2018
 ms.keywords: IFsrmAutoApplyQuota, IFsrmAutoApplyQuota interface [File Server Resource Manager], IFsrmAutoApplyQuota interface [File Server Resource Manager],described, fs.ifsrmautoapplyquota, fsrm.ifsrmautoapplyquota, fsrm/IFsrmAutoApplyQuota
-f1_keywords:
-- fsrmquota/IFsrmAutoApplyQuota
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmAutoApplyQuota
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmAutoApplyQuota
+ - fsrmquota/IFsrmAutoApplyQuota
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmAutoApplyQuota
 ---
 
 # IFsrmAutoApplyQuota interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -120,12 +120,9 @@ Retrieves or sets an array of subdirectories to exclude from the automatic quota
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To change the properties of an automatic quota, change the properties of the template from which the automatic 
     quota is derived. Then call the 
@@ -140,13 +137,7 @@ If any quota under the automatic quota's path was changed to a different templat
 Changes made to the automatic quota are reflected in new quotas only after the automatic quota is 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">committed</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createquota">IFsrmQuotaManager::CreateQuota</a>
 
@@ -157,7 +148,4 @@ Changes made to the automatic quota are reflected in new quotas only after the a
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a>
- 
-
- 
 

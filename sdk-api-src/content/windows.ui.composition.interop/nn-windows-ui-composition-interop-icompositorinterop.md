@@ -8,10 +8,6 @@ tech.root: winrt
 ms.assetid: 0BE505EA-1C31-411E-AAF7-06D52D9F4682
 ms.date: 12/05/2018
 ms.keywords: ICompositorInterop, ICompositorInterop interface, ICompositorInterop interface,described, w_ui_comp.icompositorinterop, windows/ICompositorInterop
-f1_keywords:
-- windows.ui.composition.interop/ICompositorInterop
-dev_langs:
-- c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.ui.composition.interop.h
-api_name:
-- ICompositorInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICompositorInterop
+ - windows.ui.composition.interop/ICompositorInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.ui.composition.interop.h
+api_name:
+ - ICompositorInterop
 ---
 
 # ICompositorInterop interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Native interoperation interface that allows creating swapchain surfaces and graphics devices. This is interface is available in C++ only.
-
 
 ## -inheritance
 
@@ -95,29 +94,17 @@ Creates a CompositionGraphicsDevice backed by the specified rendering device.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 See <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop">ICompositionDrawingSurfaceInterop</a> for usage examples.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/uwp/composition/composition-native-interop">Composition Native Interoperation Overview</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4ba43175-4429-437d-acfb-e0ea8d300651
 ms.date: 12/05/2018
 ms.keywords: IMFSSLCertificateManager interface [Media Foundation],OnServerCertificate method, IMFSSLCertificateManager.OnServerCertificate, IMFSSLCertificateManager::OnServerCertificate, OnServerCertificate, OnServerCertificate method [Media Foundation], OnServerCertificate method [Media Foundation],IMFSSLCertificateManager interface, mf.imfsslcertificatemanager_onservercertificate, mfidl/IMFSSLCertificateManager::OnServerCertificate
-f1_keywords:
-- mfidl/IMFSSLCertificateManager.OnServerCertificate
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFSSLCertificateManager.OnServerCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSSLCertificateManager::OnServerCertificate
+ - mfidl/IMFSSLCertificateManager::OnServerCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFSSLCertificateManager.OnServerCertificate
 ---
 
 # IMFSSLCertificateManager::OnServerCertificate
@@ -49,51 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by Media Foundation when the server SSL certificate has been received; indicates whether the server certificate is accepted.
 
-
 ## -parameters
-
-
-
 
 ### -param pszURL [in]
 
 Pointer to a string that contains the URL used to send the request to the server, and for which a server-side SSL certificate has been received.
 
-
 ### -param pbData [in]
 
 Pointer to a buffer that contains the server SSL certificate.
-
 
 ### -param cbData [in]
 
 Pointer to a <b>DWORD</b> variable that indicates the size of <i>pbData</i> in bytes.
 
-
 ### -param pfIsGood [out]
 
 Pointer to a <b>BOOL</b> variable that indicates whether the certificate is accepted.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 85A3B088-0F69-4879-A844-E8834F832ED6
 ms.date: 12/05/2018
 ms.keywords: CLRES_V4_FUNCTION_TABLE_SET, CLRES_V4_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v4_function_table_set, resapi/CLRES_V4_FUNCTION_TABLE_SET
-f1_keywords:
-- resapi/CLRES_V4_FUNCTION_TABLE_SET
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ResApi.h
-api_name:
-- CLRES_V4_FUNCTION_TABLE_SET
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLRES_V4_FUNCTION_TABLE_SET
+ - resapi/CLRES_V4_FUNCTION_TABLE_SET
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ResApi.h
+api_name:
+ - CLRES_V4_FUNCTION_TABLE_SET
 ---
 
 # CLRES_V4_FUNCTION_TABLE_SET macro
@@ -49,84 +50,65 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a 
     function table for version 4.0 of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param _Name
 
 The name of the function table.
 
-
 ### -param _Version
 
 The version of the function table, such as <b>CLRES_VERSION_V4_00</b>.
-
 
 ### -param _Prefix
 
 The prefix that is appended to the front of each entry point name in the function table.
 
-
 ### -param _Arbitrate
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a> entry point.
-
 
 ### -param _Release
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-prelease_routine">Release</a> entry point.
 
-
 ### -param _BeginResCtrl
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pbegin_rescall_routine">BeginResourceControl</a> entry point.
-
 
 ### -param _BeginResTypeCtrl
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pbegin_restypecall_routine">BeginResourceTypeControl</a> entry 
        point.
 
-
 ### -param _LooksAlive
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plooks_alive_routine">LooksAlive</a> entry 
        point.
-
 
 ### -param _IsAlive
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pis_alive_routine">IsAlive</a> entry 
        point.
 
-
 ### -param _Cancel
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pcancel_routine">Cancel</a> entry 
        point.
 
-
 ### -param _BeginResCtrlAsUser
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pbegin_rescall_as_user_routine">BeginResourceControlAsUser</a> entry point.
-
 
 ### -param _BeginResTypeCtrlAsUser
 
 The name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pbegin_restypecall_as_user_routine">BeginResourceTypeControlAsUser</a> entry 
        point.
 
-
 ## -remarks
-
-
 
 The <b>CLRES_V4_FUNCTION_TABLE_SET</b> macro creates a 
      function table for version 4.0 of the 
@@ -200,16 +182,7 @@ Name of the <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 To view the format of the function table, see the 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_function_table">CLRES_FUNCTION_TABLE</a> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/macros">Failover Cluster Macros</a>
- 
-
- 
 

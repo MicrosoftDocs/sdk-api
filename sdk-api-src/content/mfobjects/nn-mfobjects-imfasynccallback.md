@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7edff985-da59-4cc0-96de-1a92e03a7d41
 ms.date: 12/05/2018
 ms.keywords: 7edff985-da59-4cc0-96de-1a92e03a7d41, IMFAsyncCallback, IMFAsyncCallback interface [Media Foundation], IMFAsyncCallback interface [Media Foundation],described, mf.imfasynccallback, mfobjects/IMFAsyncCallback
-f1_keywords:
-- mfobjects/IMFAsyncCallback
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAsyncCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAsyncCallback
+ - mfobjects/IMFAsyncCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAsyncCallback
 ---
 
 # IMFAsyncCallback interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Callback interface to notify the application when an asynchronous method completes.
-        
-
 
 ## -inheritance
 
@@ -88,12 +86,9 @@ Called when an asynchronous operation is completed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 For more information about asynchronous methods in Microsoft Media Foundation, see <a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>.
       
@@ -107,12 +102,7 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
@@ -127,7 +117,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\imilbitmapeffectinputconnector.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectInputConnector, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinputconnector, mileffects/IMILBitmapEffectInputConnector, wibe._wibe_imilbitmapeffectinputconnector
-f1_keywords:
-- mileffects/IMILBitmapEffectInputConnector
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mileffects.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.dll
-api_name:
-- IMILBitmapEffectInputConnector
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectInputConnector
+ - mileffects/IMILBitmapEffectInputConnector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.dll
+api_name:
+ - IMILBitmapEffectInputConnector
 ---
 
 # IMILBitmapEffectInputConnector interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that define an input connect.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9d6118bb-7b13-4ae1-9faf-9c17ada20511
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],Reenumerate method, IVdsSubSystem.Reenumerate, IVdsSubSystem::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsSubSystem interface, base.ivdssubsystem_reenumerate, vds/IVdsSubSystem::Reenumerate, vdshwprv/IVdsSubSystem::Reenumerate
-f1_keywords:
-- vds/IVdsSubSystem.Reenumerate
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsSubSystem.Reenumerate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsSubSystem::Reenumerate
+ - vds/IVdsSubSystem::Reenumerate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsSubSystem.Reenumerate
 ---
 
 # IVdsSubSystem::Reenumerate
@@ -50,23 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Prompts the 
    subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -131,14 +123,8 @@ Another operation is in progress; this operation cannot proceed until the previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Most subsystems detect new connections and disconnections automatically. However, for those that do not, this 
     method provides a means by which to initiate detection manually. This operation can take a long time to complete.
@@ -151,13 +137,7 @@ Each object should have a unique and persistent identifier. An object ID must be
     should persist an object ID across each reenumeration by using this method for objects that exist both before and 
     after the reenumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
@@ -172,7 +152,4 @@ Each object should have a unique and persistent identifier. An object ID must be
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
- 
-
- 
 

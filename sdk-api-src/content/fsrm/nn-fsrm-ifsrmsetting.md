@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b
 ms.date: 12/05/2018
 ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], IFsrmSetting interface [File Server Resource Manager],described, fs.ifsrmsetting, fsrm.ifsrmsetting, fsrm/IFsrmSetting
-f1_keywords:
-- fsrm/IFsrmSetting
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmSetting
+ - fsrm/IFsrmSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmSetting
 ---
 
 # IFsrmSetting interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to configure FSRM.
 
 To get this interface, call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmSetting</b> as the class identifier and 
     <code>__uuidof(IFsrmSetting)</code> as the interface identifier.
-
 
 ## -inheritance
 
@@ -192,12 +191,9 @@ Retrieves or sets the SMTP server that FSRM uses to send email.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To create this object from a script, use the program identifier, "Fsrm.FsrmSetting".
 
@@ -371,21 +367,11 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
- 
-
- 
 

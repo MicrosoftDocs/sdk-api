@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\winmain.htm
 ms.date: 12/05/2018
 ms.keywords: SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, WinMain, WinMain callback, WinMain callback function [Windows and Messages], _win32_WinMain, _win32_winmain_cpp, winbase/WinMain, winmsg.winmain, winui._win32_winmain
-f1_keywords:
-- winbase/WinMain
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbase.h
-api_name:
-- WinMain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinMain
+ - winbase/WinMain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbase.h
+api_name:
+ - WinMain
 ---
 
 # WinMain function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The user-provided entry point for a graphical Windows-based application.
 
 <b>WinMain</b> is the conventional name used for the application entry point. For more information, see Remarks.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstance [in]
 
@@ -66,20 +62,17 @@ Type: <b>HINSTANCE</b>
 
 A handle to the current instance of the application.
 
-
 ### -param hPrevInstance [in]
 
 Type: <b>HINSTANCE</b>
 
 A handle to the previous instance of the application. This parameter is always <b>NULL</b>. If you need to detect whether another instance already exists, create a uniquely named mutex using the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> function. <b>CreateMutex</b> will succeed even if the mutex already exists, but the  function will return <b>ERROR_ALREADY_EXISTS</b>. This indicates that another instance of your application exists, because it created the mutex first. However, a malicious user can create this mutex before you do and prevent your application from starting. To prevent this situation, create a randomly named mutex and store the name so that it can only be obtained by an authorized user. Alternatively, you can use a file for this purpose. To limit your application to one instance per user, create a locked file in the user's profile directory.
 
-
 ### -param lpCmdLine [in]
 
 Type: <b>LPSTR</b>
 
 The command line for the application, excluding the program name. To retrieve the entire command line, use the <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLine</a> function.
-
 
 ### -param nShowCmd
 
@@ -221,23 +214,14 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
 If the function succeeds, terminating when it receives a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message, it should return the exit value contained in that message's <i>wParam</i> parameter. If the function terminates before entering the message loop, it should return zero.
 
-
-
-
 ## -remarks
-
-
 
 The name <b>WinMain</b> is used by convention by many programming frameworks. Depending on the programming framework, the call to the <b>WinMain</b> function can be preceded and followed by additional activities specific to that framework.
 
@@ -245,13 +229,7 @@ Your <b>WinMain</b> should initialize the application, display its main window, 
 
 ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> function to access the command-line string, excluding the program name. Note that <i>lpCmdLine</i> uses the <b>LPSTR</b> data type instead of the <b>LPTSTR</b> data type. This means that <b>WinMain</b> cannot be used by Unicode programs. The <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLineW</a> function can be used to obtain the command line as a Unicode string. Some programming frameworks might provide an alternative entry point that provides a Unicode command line. For example, the Microsoft Visual Studio C++ complier uses the name <b>wWinMain</b> for the Unicode entry point.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -290,7 +268,4 @@ ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> f
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

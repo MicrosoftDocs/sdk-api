@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 18989598-86C5-4BD7-B8F4-27496897DFBA
 ms.date: 12/05/2018
 ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], IDeviceController interface [Media Streaming API],described, mediastreaming.idevicecontroller, windows/IDeviceController
-f1_keywords:
-- windows.media.streaming/IDeviceController
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IDeviceController
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeviceController
+ - windows.media.streaming/IDeviceController
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IDeviceController
 ---
 
 # IDeviceController interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates the methods and events  needed to retrieve a list of cached Digital Media Renderers (DMRs) and/or Digital Media Servers (DMSs), or to asynchronously find the DMRs and/or DMSs that are currently on the network.
-
 
 ## -inheritance
 
@@ -131,16 +130,9 @@ Removes the specified device from the list of devices that is returned by the <a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

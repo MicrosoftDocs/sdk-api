@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontCollection2 interface [Direct Write]","GetMatc
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetMatchingFonts method, IDWriteFontCollection2.GetMatchingFonts, IDWriteFontCollection2::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getmatchingfont, dwrite_3/IDWriteFontCollection2::GetMatchingFonts
-f1_keywords:
-- dwrite_3/IDWriteFontCollection2.GetMatchingFonts
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontCollection2::GetMatchingFonts
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontCollection2::GetMatchingFonts
+ - dwrite_3/IDWriteFontCollection2::GetMatchingFonts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontCollection2::GetMatchingFonts
 ---
 
 ## -description
@@ -84,3 +85,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 If no fonts match, an empty list object is returned (calling [IDWriteFontList::GetFontCount](/windows/win32/api/dwrite/nf-dwrite-idwritefontlist-getfontcount) on it returns 0), but the function doesn't return an error.
 
 ## -see-also
+

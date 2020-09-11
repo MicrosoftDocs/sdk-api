@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 3bd27fce-90be-480b-b157-a17beccda068
 ms.date: 12/05/2018
 ms.keywords: IGuideData, IGuideData interface [Microsoft TV Technologies], IGuideData interface [Microsoft TV Technologies],described, IGuideDataInterface, bdatif/IGuideData, mstv.iguidedata
-f1_keywords:
-- bdatif/IGuideData
-dev_langs:
-- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdatif.h
-api_name:
-- IGuideData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGuideData
+ - bdatif/IGuideData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdatif.h
+api_name:
+ - IGuideData
 ---
 
 # IGuideData interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IGuideData</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> (TIF). It enables the client to get service information from the MPEG-2 transport stream. Use this interface if you are writing a guide store loader.
-
-
-
 
 ## -inheritance
 
@@ -125,12 +121,9 @@ Retrieves a collection of tune requests representing all of the services availab
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The TIF collects service informaton for services, programs, and schedule entries. A service is analogous to a channel; a program is a television show (also known as an "event"); and a schedule entry is an event that occurs at a specific time on a specific service.
 
@@ -138,16 +131,7 @@ For each program and schedule entry, the TIF creates a string that uniquely iden
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IGuideData)</code>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

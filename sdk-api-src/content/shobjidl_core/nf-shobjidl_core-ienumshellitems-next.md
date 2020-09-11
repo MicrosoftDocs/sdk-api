@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8074ecea-30b9-4d1e-9184-457d3dd70bb8
 ms.date: 12/05/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Next method, IEnumShellItems.Next, IEnumShellItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Next, shell.IEnumShellItems_Next, shobjidl_core/IEnumShellItems::Next
-f1_keywords:
-- shobjidl_core/IEnumShellItems.Next
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IEnumShellItems.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumShellItems::Next
+ - shobjidl_core/IEnumShellItems::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IEnumShellItems.Next
 ---
 
 # IEnumShellItems::Next
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interfaces from the enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
@@ -64,13 +60,11 @@ Type: <b>ULONG</b>
 
 The number of elements in the array referenced by the <i>rgelt</i> parameter.
 
-
 ### -param rgelt [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
 
 The address of an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interfaces that receive the enumerated item or items. The calling application is responsible for freeing the <b>IShellItem</b> interfaces by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
-
 
 ### -param pceltFetched [out]
 
@@ -78,11 +72,7 @@ Type: <b>ULONG*</b>
 
 A pointer to a value that receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interfaces successfully retrieved. The count can be smaller than the value specified in the <i>celt</i> parameter. This parameter can be <b>NULL</b> on entry only if <i>celt</i> is one, because in that case the method can only retrieve one item and return <b>S_OK</b>, or zero items and return <b>S_FALSE</b>.
 
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -124,22 +114,12 @@ Returns an  error value if the function fails for any other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems">IEnumShellItems</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
- 
-
- 
 

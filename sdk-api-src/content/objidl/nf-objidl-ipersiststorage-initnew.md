@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 79caf1f6-d974-4aee-8563-eda4876a0a90
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],InitNew method, IPersistStorage.InitNew, IPersistStorage::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IPersistStorage interface, _com_ipersiststorage_initnew, com.ipersiststorage_initnew, objidl/IPersistStorage::InitNew
-f1_keywords:
-- objidl/IPersistStorage.InitNew
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersistStorage.InitNew
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistStorage::InitNew
+ - objidl/IPersistStorage::InitNew
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersistStorage.InitNew
 ---
 
 # IPersistStorage::InitNew
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a new storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param pStg [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the new storage object to be initialized. The container creates a nested storage object in its storage object (see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstorage">IStorage::CreateStorage</a>). Then, the container calls the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a> function to initialize the new storage object with the object class identifier (CLSID).
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -119,14 +112,8 @@ The storage object was not initialized for some reason other than a lack of memo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A container application can call this method when it needs to initialize a new object, for example, with an InsertObject command.
 
@@ -159,16 +146,7 @@ The first two steps are particularly important for ensuring that the object can 
 
 Your implementation of this method should return the CO_E_ALREADYINITIALIZED error code if it receives a call to either the <b>IPersistStorage::InitNew</b> method or the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> method after it is already initialized.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
- 
-
- 
 

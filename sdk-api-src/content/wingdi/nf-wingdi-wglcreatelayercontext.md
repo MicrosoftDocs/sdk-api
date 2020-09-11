@@ -8,10 +8,6 @@ tech.root: OpenGL
 ms.assetid: 81050b48-7385-4ef3-acc5-82d5c893b2e8
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglCreateLayerContext, opengl.wglcreatelayercontext, wglCreateLayerContext, wglCreateLayerContext function [OpenGL], wingdi/wglCreateLayerContext
-f1_keywords:
-- wingdi/wglCreateLayerContext
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- opengl32.dll
-api_name:
-- wglCreateLayerContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - wglCreateLayerContext
+ - wingdi/wglCreateLayerContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - opengl32.dll
+api_name:
+ - wglCreateLayerContext
 ---
 
 # wglCreateLayerContext function
@@ -49,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>wglCreateLayerContext</b> function creates a new OpenGL rendering context for drawing to a specified layer plane on a device context.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1
 
 Specifies the device context for a new rendering context.
 
-
 ### -param arg2
 
 Specifies the layer plane to which you want to bind a rendering context. The value 0 identifies the main plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to an OpenGL rendering context.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 A rendering context is a port through which all OpenGL commands pass. Every thread that makes OpenGL calls must have one current, active rendering context. A rendering context is not the same as a device context; a rendering context contains information specific to OpenGL, while a device context contains information specific to GDI.
 
@@ -120,14 +107,7 @@ wglMakeCurrent(NULL, NULL);
 wglDeleteContext(hglrc);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
@@ -162,7 +142,4 @@ wglDeleteContext(hglrc);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent">wglMakeCurrent</a>
- 
-
- 
 

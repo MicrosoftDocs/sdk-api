@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: f43f53f9-1491-4847-89ef-e65ba98a2127
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler, IUIAnimationStoryboardEventHandler interface [Windows Animation], IUIAnimationStoryboardEventHandler interface [Windows Animation],described, uianimation.iuianimationstoryboardeventhandler, uianimation/IUIAnimationStoryboardEventHandler
-f1_keywords:
-- uianimation/IUIAnimationStoryboardEventHandler
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationStoryboardEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationStoryboardEventHandler
+ - uianimation/IUIAnimationStoryboardEventHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationStoryboardEventHandler
 ---
 
 # IUIAnimationStoryboardEventHandler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods for handling status and update events for a storyboard.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Handles events that occur when a storyboard is updated.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-getstatus">IUIAnimationStoryboard::GetStatus</a>
 
@@ -107,7 +102,4 @@ Handles events that occur when a storyboard is updated.
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
- 
-
- 
 

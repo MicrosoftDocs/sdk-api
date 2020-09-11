@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 1970ed09-5f37-4cc9-98c5-982629676fe4
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REPAIR_COPIES, FSCTL_REPAIR_COPIES control, FSCTL_REPAIR_COPIES control code [Files], fs.fsctl_repair_copies, winioctl/FSCTL_REPAIR_COPIES
-f1_keywords:
-- winioctl/FSCTL_REPAIR_COPIES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_REPAIR_COPIES
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_REPAIR_COPIES
+ - winioctl/FSCTL_REPAIR_COPIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_REPAIR_COPIES
 ---
 
 # FSCTL_REPAIR_COPIES IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -92,10 +88,10 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FSCTL_GET_INTEGRITY_INFORMATION](ni-winioctl-fsctl_get_integrity_information.md)
 * [REPAIR_COPIES_OUTPUT](ns-winioctl-repair_copies_output.md)
 * [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+

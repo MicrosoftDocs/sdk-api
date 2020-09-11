@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: AF007D43-7BAC-4753-9D2B-8F397B4A464A
 ms.date: 12/05/2018
 ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometadataresolution/RoParseTypeName, winrt.roparsetypename
-f1_keywords:
-- rometadataresolution/RoParseTypeName
-dev_langs:
-- c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: WinTypes.lib
 req.dll: WinTypes.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinTypes.dll
-- API-MS-Win-ro-typeresolution-l1-1-0.dll
-- Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
-api_name:
-- RoParseTypeName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoParseTypeName
+ - rometadataresolution/RoParseTypeName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinTypes.dll
+ - API-MS-Win-ro-typeresolution-l1-1-0.dll
+ - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
+api_name:
+ - RoParseTypeName
 ---
 
 # RoParseTypeName function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Parses a type name and existing type parameters, in the case of parameterized types.
 
-
 ## -parameters
-
-
-
 
 ### -param typeName [in]
 
@@ -66,13 +62,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTR
 
 String-encoded typename. The typename can be a non-namespace-qualified type, a non-parameterized namespace-qualified type or a fully instantiated namespace-qualified parameterized type.
 
-
 ### -param partsCount [out]
 
 Type: <b>DWORD*</b>
 
 Number of elements in the <i>typenameParts</i> array.
-
 
 ### -param typeNameParts
 
@@ -80,10 +74,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTR
 
 The first element of the array is the specified type, and the remaining array elements are the type parameters (if any) in prewalk tree order.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -128,14 +119,8 @@ Parsing was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RoParseTypeName</b> function parses the string-encoded  type name and returns an array of <b>HSTRING</b> values. The first element of the array is the base type, and the remaining array elements are the type parameters, if any, in pre-order tree traversal order. <b>S_OK</b> is returned if the parsing was successful. 
 
@@ -344,7 +329,4 @@ HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename)
 }
 
 ```
-
-
-
 

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: qos
+f1_keywords:
+ - qos2
+ - qos2/qos2
 ---
 
 # Qos2.h header
 
 
 ## -description
-
 
 This header is used by Quality of Service (QOS). For more information, see:
 

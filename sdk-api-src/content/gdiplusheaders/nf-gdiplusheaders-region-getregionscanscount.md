@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getregionscanscount.htm
 ms.date: 12/05/2018
 ms.keywords: GetRegionScansCount, GetRegionScansCount method [GDI+], GetRegionScansCount method [GDI+],Region class, Region class [GDI+],GetRegionScansCount method, Region.GetRegionScansCount, Region::GetRegionScansCount, _gdiplus_CLASS_Region_GetRegionScansCount_matrix_, gdiplus._gdiplus_CLASS_Region_GetRegionScansCount_matrix_
-f1_keywords:
-- gdiplusheaders/Region.GetRegionScansCount
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.GetRegionScansCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::GetRegionScansCount
+ - gdiplusheaders/Region::GetRegionScansCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.GetRegionScansCount
 ---
 
 # Region::GetRegionScansCount
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Region::GetRegionScansCount</b> method gets the number of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
 
-
 ## -parameters
-
-
-
 
 ### -param matrix [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
 
-Pointer to a matrix that is used to transform the region. 
-
+Pointer to a matrix that is used to transform the region.
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
 This method returns an integer that indicates the number of rectangles that approximate this region.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Region::GetRegionScansCount</b> method can be used before the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscans(inconstmatrix_outrect_outint)">GetRegionScans</a> method to determine the number of rectangles. Then, you can allocate a buffer that is the correct size to store the rectangles that are obtained with the GetRegionScans method.
 
@@ -122,14 +110,7 @@ VOID Example_GetRegionScansCount(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
 
@@ -144,7 +125,4 @@ VOID Example_GetRegionScansCount(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscans(inconstmatrix_outrect_outint)">Region::GetRegionScans Methods</a>
- 
-
- 
 

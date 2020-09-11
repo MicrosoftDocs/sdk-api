@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a935798b-91dc-4a36-aa31-7bde68b45778
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetDefaultQuotaThreshold method, IDiskQuotaControl.SetDefaultQuotaThreshold, IDiskQuotaControl::SetDefaultQuotaThreshold, SetDefaultQuotaThreshold, SetDefaultQuotaThreshold method [Files], SetDefaultQuotaThreshold method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setdefaultquotathreshold, base.idiskquotacontrol_setdefaultquotathreshold, dskquota/IDiskQuotaControl::SetDefaultQuotaThreshold, fs.idiskquotacontrol_setdefaultquotathreshold
-f1_keywords:
-- dskquota/IDiskQuotaControl.SetDefaultQuotaThreshold
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.SetDefaultQuotaThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::SetDefaultQuotaThreshold
+ - dskquota/IDiskQuotaControl::SetDefaultQuotaThreshold
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.SetDefaultQuotaThreshold
 ---
 
 # IDiskQuotaControl::SetDefaultQuotaThreshold
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Modifies the default warning threshold. This threshold is applied automatically to new users of the volume.
 
-
 ## -parameters
-
-
-
 
 ### -param llThreshold [in]
 
 The default warning threshold value, in bytes.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -141,15 +134,8 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
@@ -160,7 +146,4 @@ An unexpected exception occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
 

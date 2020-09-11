@@ -36,30 +36,39 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticReport
+f1_keywords:
+ - DdqGetDiagnosticReport
+ - diagnosticdataquery/DdqGetDiagnosticReport
 ---
 
 ## -description
+
 Fetches error reports uploaded or enqueued for upload from this PC via HDIAGNOSTIC_REPORT_DATA handle.
 
 ## -parameters
 
 ### -param hSession
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
 Handle to the Diagnostic Data Query session.
 
 ### -param reportStoreType
+
 Type: **[UINT32](/windows/desktop/winprog/windows-data-types)**
 The type of report store to extract from. See remarks.
 
 ### -param hReport
+
 Type: **[HANDLE\*](/windows/desktop/winprog/windows-data-types)**
 This output parameter is a pointer to the handle for the resource that contains the known set of problem reports.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
+
 For report store types, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoreopen").
 
 ## -see-also

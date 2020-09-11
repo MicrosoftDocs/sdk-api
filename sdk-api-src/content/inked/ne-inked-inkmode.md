@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 81aac302-c89a-42ca-9c90-170611a8995a
 ms.date: 12/05/2018
 ms.keywords: 81aac302-c89a-42ca-9c90-170611a8995a, IM_Disabled, IM_Ink, IM_InkAndGesture, InkMode, InkMode enumeration [Tablet PC], inked/IM_Disabled, inked/IM_Ink, inked/IM_InkAndGesture, inked/InkMode, tablet.inkmode
-f1_keywords:
-- inked/InkMode
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- inked.h
-api_name:
-- InkMode
 targetos: Windows
 req.typenames: InkMode
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkMode
+ - inked/InkMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - inked.h
+api_name:
+ - InkMode
 ---
 
 # InkMode enumeration
@@ -49,28 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the collection mode for drawn ink-whether ink collection is disabled, ink is collected, or ink and gestures are collected.
-
-
-
 
 ## -enum-fields
 
-
-
-
 ### -field IEM_Disabled
-
 
 ### -field IEM_Ink
 
-
 ### -field IEM_InkAndGesture
-
-
-
 
 #### - IM_Disabled
 
@@ -86,11 +74,7 @@ Ink only is collected, creating a stroke.
 
 Default. Ink is collected and single-stroke gestures are accepted.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
@@ -101,7 +85,4 @@ Default. Ink is collected and single-stroke gestures are accepted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode">InkEdit::InkMode Property</a>
- 
-
- 
 

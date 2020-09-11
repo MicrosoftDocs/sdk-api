@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 3f4f9beb-51db-407f-91ea-6e32ff5796ce
 ms.date: 12/05/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface [COM],described, _com_icatregister, com.icatregister, comcat/ICatRegister
-f1_keywords:
-- comcat/ICatRegister
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- ICatRegister
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatRegister
+ - comcat/ICatRegister
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - ICatRegister
 ---
 
 # ICatRegister interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for registering and unregistering component category information in the registry. This includes both the human-readable names of categories and the categories implemented/required by a given component or class.
-
-
 
 ## -inheritance
 
@@ -123,20 +121,13 @@ Removes one or more required category identifiers from a class.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comcat/ns-comcat-categoryinfo">CATEGORYINFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
- 
-
- 
 

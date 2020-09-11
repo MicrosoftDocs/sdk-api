@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5f4a6168-4102-4790-81d6-d195a440471f
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnPreRestore method, CVssWriter.OnPreRestore, CVssWriter::OnPreRestore, OnPreRestore, OnPreRestore method [VSS], OnPreRestore method [VSS],CVssWriter interface, _win32_cvsswriter_onprerestore, base.cvsswriter_onprerestore, vswriter/CVssWriter::OnPreRestore
-f1_keywords:
-- vswriter/CVssWriter.OnPreRestore
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.OnPreRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::OnPreRestore
+ - vswriter/CVssWriter::OnPreRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.OnPreRestore
 ---
 
 # CVssWriter::OnPreRestore
 
 
 ## -description
-
 
 The 
 <b>OnPreRestore</b> method is called by a writer following a 
@@ -58,21 +58,14 @@ The
 <b>OnPreRestore</b> is a virtual method. It is implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class, but can be overridden by derived classes.
 
-
 ## -parameters
-
-
-
 
 ### -param pComponent [in]
 
 Pointer to an instantiation of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a> object containing those components associated with the current writer in the requester's Backup Components Document.
 
-
 ## -returns
-
-
 
 As implemented by the base class, 
 <b>OnPreRestore</b> always returns <b>true</b>.
@@ -82,12 +75,7 @@ Any other implementation of this method must return <b>true</b> except in the ca
 
   In all cases when a failure occurs, the method should write an event to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event occurs before backed-up data is actually being restored. This is an opportunity for the writer to determine what is being restored.
@@ -102,13 +90,7 @@ Writers should never throw an exception from this method or any other <b>CVssWri
 If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -127,7 +109,4 @@ If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
- 
-
- 
 

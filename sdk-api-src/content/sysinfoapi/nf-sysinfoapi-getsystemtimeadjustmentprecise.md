@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 95EEE23D-01D8-49E1-BA64-49C07E8B1619
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimeAdjustmentPrecise, GetSystemTimeAdjustmentPrecise function, base.getsystemtimeadjustmentprecise, sysinfoapi/GetSystemTimeAdjustmentPrecise
-f1_keywords:
-- sysinfoapi/GetSystemTimeAdjustmentPrecise
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mincore.lib
 req.dll: Api-ms-win-core-version-l1-2-3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Api-ms-win-core-version-l1-2-3.dll
-api_name:
-- GetSystemTimeAdjustmentPrecise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSystemTimeAdjustmentPrecise
+ - sysinfoapi/GetSystemTimeAdjustmentPrecise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Api-ms-win-core-version-l1-2-3.dll
+api_name:
+ - GetSystemTimeAdjustmentPrecise
 ---
 
 # GetSystemTimeAdjustmentPrecise function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the system is applying periodic, programmed time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.
 
-
 ## -parameters
-
-
-
 
 ### -param lpTimeAdjustment [out]
 
 Returns the adjusted clock update frequency.
 
-
 ### -param lpTimeIncrement [out]
 
 Returns the clock update frequency.
-
 
 ### -param lpTimeAdjustmentDisabled [out]
 
@@ -76,21 +70,13 @@ A value of <b>TRUE</b> indicates that periodic adjustment is disabled. In this c
 
 A value of <b>FALSE</b> indicates that periodic, programmed time adjustment is being used to serialize time-of-day, and the system will not interfere or attempt to synchronize time-of-day on its own.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function is used in algorithms that  synchronize the time-of-day with another time source, using a programmed clock adjustment. To do this, the system computes the adjusted clock update frequency, and then this function allows the caller to obtain that value.
 
@@ -100,17 +86,7 @@ This function is used in algorithms that  synchronize the time-of-day with anoth
 </div>
 <div> </div>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setsystemtimeadjustmentprecise">SetSystemTimeAdjustmentPrecise</a>
- 
-
- 
 

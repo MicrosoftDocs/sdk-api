@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_addicon.htm
 ms.date: 12/05/2018
 ms.keywords: ImageList_AddIcon, ImageList_AddIcon macro [Windows Controls], _win32_ImageList_AddIcon, _win32_ImageList_AddIcon_cpp, commctrl/ImageList_AddIcon, controls.ImageList_AddIcon, controls._win32_ImageList_AddIcon
-f1_keywords:
-- commctrl/ImageList_AddIcon
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ImageList_AddIcon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImageList_AddIcon
+ - commctrl/ImageList_AddIcon
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ImageList_AddIcon
 ---
 
 # ImageList_AddIcon macro
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds an icon or cursor to an image list. <b>ImageList_AddIcon</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_replaceicon">ImageList_ReplaceIcon</a> function. 
-
+Adds an icon or cursor to an image list. <b>ImageList_AddIcon</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_replaceicon">ImageList_ReplaceIcon</a> function.
 
 ## -parameters
-
-
-
 
 ### -param himl
 
 Type: <b>HIMAGELIST</b>
 
-A handle to the image list. If this parameter identifies a masked image list, the macro copies both the image and mask bitmaps of the icon or cursor. If this parameter identifies a nonmasked image list, the macro copies only the image bitmap. 
-
+A handle to the image list. If this parameter identifies a masked image list, the macro copies both the image and mask bitmaps of the icon or cursor. If this parameter identifies a nonmasked image list, the macro copies only the image bitmap.
 
 ### -param hicon
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
-A handle to the icon or cursor that contains the bitmap and mask for the new image. 
-
+A handle to the icon or cursor that contains the bitmap and mask for the new image.
 
 ## -remarks
-
-
 
 Because the system does not save 
 				<i>hicon</i>, you can destroy it after the macro returns if the icon or cursor was created by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed. 
@@ -82,5 +74,4 @@ Because the system does not save
 The <b>ImageList_AddIcon</b> macro is defined as follows: 
 
 <pre class="syntax" xml:space="preserve"><code>#define  ImageList_AddIcon(himl, hicon) ImageList_ReplaceIcon(himl, -1, hicon)</code></pre>
-
 

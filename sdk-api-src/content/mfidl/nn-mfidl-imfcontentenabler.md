@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 45d02bd0-1104-47ec-8559-8cc51590fc62
 ms.date: 12/05/2018
 ms.keywords: 45d02bd0-1104-47ec-8559-8cc51590fc62, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], IMFContentEnabler interface [Media Foundation],described, mf.imfcontentenabler, mfidl/IMFContentEnabler
-f1_keywords:
-- mfidl/IMFContentEnabler
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFContentEnabler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFContentEnabler
+ - mfidl/IMFContentEnabler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFContentEnabler
 ---
 
 # IMFContentEnabler interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements one step that must be performed for the user to access media content. For example, the steps might be individualization followed by license acquisition. Each of these steps would be encapsulated by a content enabler object that exposes the <b>IMFContentEnabler</b> interface.
-
 
 ## -inheritance
 
@@ -132,20 +131,13 @@ Requests notification when the enabling action is completed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

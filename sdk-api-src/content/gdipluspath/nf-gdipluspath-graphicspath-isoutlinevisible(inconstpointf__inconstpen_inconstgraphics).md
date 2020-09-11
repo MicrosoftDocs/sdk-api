@@ -7,10 +7,6 @@ helpviewer_keywords: ["GraphicsPath::IsOutlineVisible"]
 ms.assetid: f80b0cd2-0c6c-4fa9-9567-5383750689e8
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::IsOutlineVisible
-f1_keywords:
-- gdipluspath/GraphicsPath::IsOutlineVisible
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - GraphicsPath::IsOutlineVisible
+ - gdipluspath/GraphicsPath::IsOutlineVisible
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- GraphicsPath::IsOutlineVisible
+ - GraphicsPath::IsOutlineVisible
 ---
 
 # GraphicsPath::IsOutlineVisible
+
 
 ## -description
 
@@ -140,3 +142,4 @@ Color(255, 255, 0,  0)Color(255, 255, 0,  0)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>
+

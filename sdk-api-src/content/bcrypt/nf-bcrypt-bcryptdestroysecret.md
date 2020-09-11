@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 237743ff-ecb1-4c01-b4f9-192f27716f2c
 ms.date: 12/05/2018
 ms.keywords: BCryptDestroySecret, BCryptDestroySecret function [Security], bcrypt/BCryptDestroySecret, security.bcryptdestroysecret
-f1_keywords:
-- bcrypt/BCryptDestroySecret
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptDestroySecret
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptDestroySecret
+ - bcrypt/BCryptDestroySecret
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptDestroySecret
 ---
 
 # BCryptDestroySecret function
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptDestroySecret</b> function destroys a secret agreement handle that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsecretagreement">BCryptSecretAgreement</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hSecret [in]
 
 The <b>BCRYPT_SECRET_HANDLE</b> to be destroyed.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -103,31 +96,14 @@ The handle in the <i>hSecret</i> parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Depending on what processor modes a provider supports, <b>BCryptDestroySecret</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hSecret</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsecretagreement">BCryptSecretAgreement</a>
- 
-
- 
 

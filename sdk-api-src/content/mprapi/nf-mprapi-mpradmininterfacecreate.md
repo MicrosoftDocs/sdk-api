@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceCreate, MprAdminInterfaceCreate function [RAS], _mpr_mpradmininterfacecreate, mprapi/MprAdminInterfaceCreate, rras.mpradmininterfacecreate
-f1_keywords:
-- mprapi/MprAdminInterfaceCreate
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceCreate
+ - mprapi/MprAdminInterfaceCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceCreate
 ---
 
 # MprAdminInterfaceCreate function
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminInterfaceCreate</b> function creates an interface on a specified server.
-			
-
 
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to the  router on which to execute this call. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
-
 
 ### -param dwLevel [in]
 
@@ -99,8 +93,6 @@ A DWORD value that describes the format in which the information is structured i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpbBuffer [in]
 
@@ -108,17 +100,12 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>,  
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_2">MPR_INTERFACE_2</a>, or  <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_3">MPR_INTERFACE_3</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
-					
-
 
 ### -param phInterface [out]
 
 Pointer to a <b>HANDLE</b> variable. The variable receives a handle to use in all subsequent calls to manage this interface.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -185,14 +172,8 @@ The <i>dwLevel</i> value is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MprAdminInterfaceCreate</b> function supports the 
@@ -204,13 +185,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
 
@@ -241,7 +216,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

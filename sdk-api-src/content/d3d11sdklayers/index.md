@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: direct3d11
+f1_keywords:
+ - d3d11sdklayers
+ - d3d11sdklayers/d3d11sdklayers
 ---
 
 # D3D11Sdklayers.h header
 
 
 ## -description
-
 
 This header is used by Direct3D 11 Graphics. For more information, see:
 

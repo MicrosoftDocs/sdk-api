@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 2948b495-c400-4227-94fb-7c4f5171ecae
 ms.date: 12/05/2018
 ms.keywords: GetSystemPreferredUILanguages, GetSystemPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MACHINE_LANGUAGE_SETTINGS, _win32_GetSystemPreferredUILanguages, intl.getsystempreferreduilanguages, winnls/GetSystemPreferredUILanguages
-f1_keywords:
-- winnls/GetSystemPreferredUILanguages
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetSystemPreferredUILanguages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSystemPreferredUILanguages
+ - winnls/GetSystemPreferredUILanguages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetSystemPreferredUILanguages
 ---
 
 # GetSystemPreferredUILanguages function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the system preferred UI languages. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -115,13 +111,10 @@ Retrieve the stored system preferred UI languages list, checking only to ensure 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pulNumLanguages [out]
 
 Pointer to the number of languages retrieved in <i>pwszLanguagesBuffer</i>.
-
 
 ### -param pwszLanguagesBuffer [out, optional]
 
@@ -129,17 +122,13 @@ Optional. Pointer to a buffer in which this function retrieves an ordered, null-
 
 Alternatively if this parameter is set to <b>NULL</b> and <i>pcchLanguagesBuffer</i> is set to 0, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>. The required size includes the two null characters
 
-
 ### -param pcchLanguagesBuffer [in, out]
 
 Pointer to the size, in characters, for the language buffer indicated by <i>pwszLanguagesBuffer</i>. On successful return from the function, the parameter contains the size of the retrieved language buffer.
 
-Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>. 
-
+Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>.
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 <ul>
@@ -150,12 +139,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 
 If the function fails for any other reason, the parameters <i>pulNumLanguages</i> and <i>pcchLanguagesBuffer</i> are undefined.
 
-
-
-
 ## -remarks
-
-
 
 When MUI_LANGUAGE_ID is specified, the language strings retrieved will be hexadecimal language identifiers 
 
@@ -194,14 +178,7 @@ If the MUI_MACHINE_LANGUAGE_SETTINGS flag is not set, the retrieved language lis
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultuilanguage">GetSystemDefaultUILanguage</a>
 
@@ -228,7 +205,4 @@ If the MUI_MACHINE_LANGUAGE_SETTINGS flag is not set, the retrieved language lis
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages">SetThreadPreferredUILanguages</a>
- 
-
- 
 

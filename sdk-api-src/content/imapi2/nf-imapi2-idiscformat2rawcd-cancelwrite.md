@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 12cd6797-dcb8-496d-a141-9d3a805266e9
 ms.date: 12/05/2018
 ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IDiscFormat2RawCD interface, IDiscFormat2RawCD interface [IMAPI],CancelWrite method, IDiscFormat2RawCD.CancelWrite, IDiscFormat2RawCD::CancelWrite, imapi.idiscformat2rawcd_cancelwrite, imapi2/IDiscFormat2RawCD::CancelWrite
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.CancelWrite
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.CancelWrite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::CancelWrite
+ - imapi2/IDiscFormat2RawCD::CancelWrite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.CancelWrite
 ---
 
 # IDiscFormat2RawCD::CancelWrite
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cancels the current write operation.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -98,14 +90,8 @@ Value: 0x80004005
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To cancel the write operation, you must call this method from the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2rawcdevents-update">DDiscFormat2RawCDEvents::Update</a> event handler that you implemented. 
 
@@ -115,20 +101,11 @@ Note that calling this method does not immediately cancel the write operation on
 
 This method leaves the media in an indeterminate state. For rewriteable media, you should call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-erasemedia">IDiscFormat2Erase::EraseMedia</a> method after calling this method to prepare the media for future use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2rawcdevents-update">DDiscFormat2RawCDEvents::Update</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
- 
-
- 
 

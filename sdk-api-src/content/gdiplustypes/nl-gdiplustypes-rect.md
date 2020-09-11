@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rect.htm
 ms.date: 12/05/2018
 ms.keywords: Rect, Rect class [GDI+], Rect class [GDI+],described, _gdiplus_CLASS_Rect_Class, gdiplus._gdiplus_CLASS_Rect_Class, gdiplustypes/Rect
-f1_keywords:
-- gdiplustypes/Rect
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdiplustypes.h
-api_name:
-- Rect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Rect
+ - gdiplustypes/Rect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdiplustypes.h
+api_name:
+ - Rect
 ---
 
 # Rect class
 
 
 ## -description
-
 
 A <b>Rect</b> object stores the upper-left corner, width, and height of a rectangle.
 
@@ -305,5 +305,5 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 
 </td>
 </tr>
-</table> 
+</table>
 

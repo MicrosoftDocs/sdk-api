@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 4ce48038-bfcf-4b1f-8053-3446929a5f06
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], IAMExtTransport interface [DirectShow],described, IAMExtTransportInterface, dshow.iamexttransport, strmif/IAMExtTransport
-f1_keywords:
-- strmif/IAMExtTransport
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport
+ - strmif/IAMExtTransport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport
 ---
 
 # IAMExtTransport interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAMExtTransport</b> interface controls the transport on a video tape recporder (VTR) or camcorder. Applications can use this interface to play, record, or stop the transport; determine whether the transport contains media; and other transport-related functions. The implementation of this interface can vary, depending on the device. Some methods might return E_NOTIMPL if the device does not support them.
 
 This interface also contains methods for non-linear editing through <i>edit events</i> and <i>edit property sets</i>. Currently, DirectShow does not provide any filters or drivers that implement this part of the interface.
-
-
-
 
 ## -inheritance
 
@@ -326,12 +322,9 @@ Sets the video parameters for the transport.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The DV device drivers require some additional constants that are defined in the header file Xprtdefs.h.
 
@@ -343,16 +336,7 @@ To control an external VCR, certain hardware requirements are recommended. VCRs 
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
 Implement this interface if you are writing a filter that controls an external device with a transport, such as a VTR. If you implement this interface, you should implement the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice</a> interface as well.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: hid
 ms.assetid: 86885ca6-0b1f-42cb-8d6e-d5140e579905
 ms.date: 12/05/2018
 ms.keywords: '*LPDIDEVICESTATE, DIDEVICESTATE, DIDEVICESTATE structure [Human Input Devices], di_ref_53204ab2-7d3d-4a59-8359-ef3fd114147d.xml, dinputd/DIDEVICESTATE, hid.didevicestate'
-f1_keywords:
-- dinputd/DIDEVICESTATE
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dinputd.h
-api_name:
-- DIDEVICESTATE
 targetos: Windows
 req.typenames: DIDEVICESTATE, *LPDIDEVICESTATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DIDEVICESTATE
+ - dinputd/DIDEVICESTATE
+ - LPDIDEVICESTATE
+ - dinputd/LPDIDEVICESTATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dinputd.h
+api_name:
+ - DIDEVICESTATE
 ---
 
 # DIDEVICESTATE structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DIDEVICESTATE</b> structure returns information about the state of a force feedback device. 
-
+The <b>DIDEVICESTATE</b> structure returns information about the state of a force feedback device.
 
 ## -struct-fields
 
-
-
-
 ### -field dwSize
 
-Specifies the size of the structure in bytes. This member must be initialized before the structure is used. 
-
+Specifies the size of the structure in bytes. This member must be initialized before the structure is used.
 
 ### -field dwState
 
@@ -139,10 +136,9 @@ Indicates that the user force-feedback switch is currently off, meaning that the
 
 #### DIGFFS_DEVICELOST
 
-Indicates that the device suffered an unexpected failure and is in an indeterminate state. It must be reset either by unacquiring and reacquiring the device, or by explicitly sending a DISFFC_RESET command. For example, the device may be lost if the user suspends the computer, causing on-board memory on the device to be lost. 
-
+Indicates that the device suffered an unexpected failure and is in an indeterminate state. It must be reset either by unacquiring and reacquiring the device, or by explicitly sending a DISFFC_RESET command. For example, the device may be lost if the user suspends the computer, causing on-board memory on the device to be lost.
 
 ### -field dwLoad
 
-A value indicating the percentage of device memory in use. A value  of zero indicates that the device memory is completely available. A value of 100 indicates that the device is full. 
+A value indicating the percentage of device memory in use. A value  of zero indicates that the device memory is completely available. A value of 100 indicates that the device is full.
 

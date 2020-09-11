@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 74957f08-2912-4e5e-af45-7dc66b405bc2
 ms.date: 12/05/2018
 ms.keywords: ICDrawStartPlay, ICDrawStartPlay macro [Windows Multimedia], _win32_ICDrawStartPlay, multimedia.icdrawstartplay, vfw/ICDrawStartPlay
-f1_keywords:
-- vfw/ICDrawStartPlay
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICDrawStartPlay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDrawStartPlay
+ - vfw/ICDrawStartPlay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICDrawStartPlay
 ---
 
 # ICDrawStartPlay macro
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICDrawStartPlay</b> macro provides the start and end times of a play operation to a rendering driver. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-start-play">ICM_DRAW_START_PLAY</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hic
 
-Handle to a driver. 
-
+Handle to a driver.
 
 ### -param lFrom
 
-Start time. 
-
+Start time.
 
 ### -param lTo
 
-End time. 
-
+End time.
 
 ## -remarks
-
-
 
 This message precedes any frame data sent to the rendering driver.
 
@@ -86,20 +74,11 @@ Units for <i>lFrom</i> and <i>lTo</i> are specified with the <a href="https://do
 
 If the end time is less than the start time, the playback direction is reversed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
 

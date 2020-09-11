@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8fmt.htm
 ms.date: 12/05/2018
 ms.keywords: FaxPrintCoverPage, FaxPrintCoverPage function [Fax Service], FaxPrintCoverPageA, FaxPrintCoverPageW, _mfax_faxprintcoverpage, fax._mfax_faxprintcoverpage, winfax/FaxPrintCoverPage, winfax/FaxPrintCoverPageA, winfax/FaxPrintCoverPageW
-f1_keywords:
-- winfax/FaxPrintCoverPage
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxPrintCoverPage
-- FaxPrintCoverPageA
-- FaxPrintCoverPageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxPrintCoverPageA
+ - winfax/FaxPrintCoverPageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxPrintCoverPage
+ - FaxPrintCoverPageA
+ - FaxPrintCoverPageW
 ---
 
 # FaxPrintCoverPageA function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxPrintCoverPage</b> function prints a fax transmission cover page to the specified device context for a fax client application.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxContextInfo [in]
 
@@ -67,17 +63,13 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a> structure that contains a handle to a fax printer device context.
 
-
 ### -param CoverPageInfo [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure that contains personal data to display on the cover page of the fax document.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -124,14 +116,8 @@ The fax server cannot locate the file specified by the <b>CoverPageName</b> memb
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A device context handle is obtained by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function.
 
@@ -150,9 +136,6 @@ A fax client application must call the <a href="https://docs.microsoft.com/previ
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a>
 
 
@@ -170,7 +153,4 @@ A fax client application must call the <a href="https://docs.microsoft.com/previ
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a>
- 
-
- 
 

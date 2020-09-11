@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\iwabobject.htm
 ms.date: 12/05/2018
 ms.keywords: IWABObject, IWABObject interface [Windows Address Book], IWABObject interface [Windows Address Book],described, _wab_IWABObject, wab._wab_IWABObject, wabapi/IWABObject
-f1_keywords:
-- wabapi/IWABObject
-dev_langs:
-- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IWABObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IWABObject
+ - wabapi/IWABObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IWABObject
 ---
 
 # IWABObject interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Do not use. This interface provides access to the  Windows Address Book (WAB) object which contains function pointers to memory allocation functions and database maintenance functions. 
-
+Do not use. This interface provides access to the  Windows Address Book (WAB) object which contains function pointers to memory allocation functions and database maintenance functions.
 
 ## -inheritance
 
@@ -204,5 +203,5 @@ Reads a vCard file and creates a MailUser object containing
 
 </td>
 </tr>
-</table> 
+</table>
 

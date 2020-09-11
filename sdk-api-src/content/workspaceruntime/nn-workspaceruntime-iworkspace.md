@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 7a94ef42-8a63-4709-816d-1f51a948d486
 ms.date: 12/05/2018
 ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], IWorkspace interface [Remote Desktop Services],described, termserv.iworkspace, workspaceruntime/IWorkspace
-f1_keywords:
-- workspaceruntime/IWorkspace
-dev_langs:
-- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wksprt.exe
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wksprt.exe
-api_name:
-- IWorkspace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspace
+ - workspaceruntime/IWorkspace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wksprt.exe
+api_name:
+ - IWorkspace
 ---
 
 # IWorkspace interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide information about a connection in RemoteApp and Desktop Connection. This interface is implemented by the Remote Desktop Services workspace runtime. These methods are called by custom clients that implement the <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Starts a RemoteApp program.
 
 </td>
 </tr>
-</table> 
+</table>
 

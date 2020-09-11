@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: B97EBDA2-83FE-4982-987E-E5C9E615065C
 ms.date: 12/5/2018
 ms.keywords: DMLCreateDevice, DMLCreateDevice function, direct3d12.dmlcreatedevice, directml/DMLCreateDevice
-f1_keywords:
-- directml/DMLCreateDevice
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- DirectML.dll
-api_name:
-- DMLCreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DMLCreateDevice
+ - directml/DMLCreateDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - DirectML.dll
+api_name:
+ - DMLCreateDevice
 ---
 
 # DMLCreateDevice function
@@ -49,18 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-
-
 Creates a DirectML device for a given Direct3D 12 device.
 
-
 ## -parameters
-
-
-
 
 ### -param d3d12Device
 
@@ -74,13 +66,11 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn
 If the call to <b>DMLCreateDevice</b> is successful, the DirectML device maintains a strong reference to the supplied
       Direct3D 12 device.
 
-
 ### -param flags
 
 Type: <b>DML_CREATE_DEVICE_FLAGS</b>
 
 A [DML_CREATE_DEVICE_FLAGS](/windows/desktop/api/directml/ne-directml-dml_create_device_flags) value specifying additional device creation options.
-
 
 ### -param riid
 
@@ -88,17 +78,13 @@ Type: <b>REFIID</b>
 
 A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>device</i>. This is expected to be the GUID of [IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice).
 
-
 ### -param device [out]
 
 Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the device. This is the address of a pointer to an [IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice), representing  the DirectML device created.
 
-
 ## -returns
-
-
 
 Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
 
@@ -107,6 +93,4 @@ If the function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [HRES
 To use the debug layers, developer mode must be enabled, and the DirectML
       debug layers must be installed. So, if the <b>DML_CREATE_DEVICE_FLAG_DEBUG</b> flag is specified in <i>flags</i> and either condition is
       not met, then <b>DMLCreateDevice</b> returns <b>DXGI_ERROR_SDK_COMPONENT_MISSING</b>.
-
-
 

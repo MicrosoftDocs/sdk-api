@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 33372d10-c947-45de-9ea2-03ba6378179d
 ms.date: 12/05/2018
 ms.keywords: AddDifferencedFilesByLastModifyTime, AddDifferencedFilesByLastModifyTime method [VSS], AddDifferencedFilesByLastModifyTime method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDifferencedFilesByLastModifyTime method, IVssComponent.AddDifferencedFilesByLastModifyTime, IVssComponent::AddDifferencedFilesByLastModifyTime, _win32_ivsscomponent_adddifferencedfilesbylastmodifytime, base.ivsscomponent_adddifferencedfilesbylastmodifytime, vswriter/IVssComponent::AddDifferencedFilesByLastModifyTime
-f1_keywords:
-- vswriter/IVssComponent.AddDifferencedFilesByLastModifyTime
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.AddDifferencedFilesByLastModifyTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::AddDifferencedFilesByLastModifyTime
+ - vswriter/IVssComponent::AddDifferencedFilesByLastModifyTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.AddDifferencedFilesByLastModifyTime
 ---
 
 # IVssComponent::AddDifferencedFilesByLastModifyTime
 
 
 ## -description
-
 
 The 
     <b>AddDifferencedFilesByLastModifyTime</b> 
@@ -59,11 +59,7 @@ The
 
 This method can be called by a writer only during a backup operation.
 
-
 ## -parameters
-
-
-
 
 ### -param wszPath [in]
 
@@ -77,7 +73,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 There is no requirement that the path end with a backslash ("\"). It is up to applications that 
        retrieve this information to check.
 
-
 ### -param wszFilespec [in]
 
 Null-terminated wide character string containing the file specification of the files to be mapped.
@@ -85,7 +80,6 @@ Null-terminated wide character string containing the file specification of the f
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain 
        the ? and * wildcard characters.
-
 
 ### -param bRecursive [in]
 
@@ -96,7 +90,6 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 For information on traversing mounted folders, see 
        <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
-
 ### -param ftLastModifyTime [in]
 
 The writer specification of the time of last modification for the difference files, expressed as a 
@@ -105,10 +98,7 @@ The writer specification of the time of last modification for the difference fil
 
 The last-modify time is always given in Greenwich Mean Time.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -192,14 +182,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A writer calls this method to specify that certain files in a component should be backed up only if they have been modified since a certain time. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-role-in-backing-up-complex-stores">Backup By Last Modify Time</a>.
 
@@ -265,13 +249,7 @@ There is no method in the
     <b>AddDifferencedFilesByLastModifyTime</b>. 
     If an alternate location mapping corresponds to the new file, then that alternate location will be used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>
 
@@ -302,7 +280,4 @@ There is no method in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 7eb17073-f79a-4a87-a85b-94007e77888a
 ms.date: 12/05/2018
 ms.keywords: GetUILanguageInfo, GetUILanguageInfo function [Internationalization for Windows Applications], MUI_FULL_LANGUAGE, MUI_LANGUAGE_ID, MUI_LANGUAGE_INSTALLED, MUI_LANGUAGE_LICENSED, MUI_LANGUAGE_NAME, MUI_LIP_LANGUAGE, MUI_PARTIAL_LANGUAGE, _win32_GetUILanguageInfo, intl.getuilanguageinfo, winnls/GetUILanguageInfo
-f1_keywords:
-- winnls/GetUILanguageInfo
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,33 +25,37 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetUILanguageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUILanguageInfo
+ - winnls/GetUILanguageInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetUILanguageInfo
 ---
 
 # GetUILanguageInfo function
 
 
 ## -description
-
 
 Retrieves a variety of information about an installed UI language:
 <ul>
@@ -71,9 +71,6 @@ Retrieves a variety of information about an installed UI language:
 </ul>
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -105,13 +102,10 @@ Retrieve the language strings in <a href="https://docs.microsoft.com/windows/des
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwmszLanguage [in]
 
 Pointer to languages for which the function is to retrieve information. This parameter indicates an ordered, null-delimited list of language identifiers or language names, depending on the flag setting. For information on the use of this parameter, see the Remarks section.
-
 
 ### -param pwszFallbackLanguages [out, optional]
 
@@ -119,13 +113,11 @@ Pointer to a buffer in which this function retrieves an ordered, null-delimited 
 
 Alternatively if this parameter is set to <b>NULL</b> and <i>pcchLanguagesBuffer</i> is set to 0, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>. The required size includes the two null characters.
 
-
 ### -param pcchFallbackLanguages [in, out, optional]
 
 Pointer to the size, in characters, for the language buffer indicated by <i>pwszFallbackLanguages</i>. On successful return from the function, the parameter contains the size of the retrieved language buffer.
 
 Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer </i>is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>.
-
 
 ### -param pAttributes [out]
 
@@ -197,12 +189,8 @@ The language is appropriately licensed for the current user.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return the following error codes:
 
@@ -214,12 +202,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 </ul>
 If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns any other error code, the parameters <i>pcchFallbackLanguages</i> and <i>pdwAttributes</i> are undefined.
 
-
-
-
 ## -remarks
-
-
 
 MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID because it allows the function to do a better job of handling LIP languages that do not correspond to predefined locales, but instead correspond to a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>. LIP languages that correspond to predefined locales are handled just like non-LIP languages.
 
@@ -276,14 +259,7 @@ The ERROR_OBJECT_NAME_NOT_FOUND error code occurs if <i>pwmszLanguage</i> can be
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
 
@@ -298,7 +274,4 @@ The ERROR_OBJECT_NAME_NOT_FOUND error code occurs if <i>pwmszLanguage</i> can be
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
- 
-
- 
 

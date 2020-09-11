@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 44136284-b553-446e-a95f-1eac476a7143
 ms.date: 12/05/2018
 ms.keywords: QOSAddSocketToFlow, QOSAddSocketToFlow function [QOS], QOS_NON_ADAPTIVE_FLOW, qos.qosaddsockettoflow, qos2/QOSAddSocketToFlow
-f1_keywords:
-- qos2/QOSAddSocketToFlow
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSAddSocketToFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSAddSocketToFlow
+ - qos2/QOSAddSocketToFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSAddSocketToFlow
 ---
 
 # QOSAddSocketToFlow function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOSAddSocketToFlow</b> function adds a new flow for traffic.
 
-
 ## -parameters
-
-
-
 
 ### -param QOSHandle [in]
 
 Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
-
 ### -param Socket [in]
 
  Identifies the socket that the application will use to flow traffic.
-
 
 ### -param DestAddr [in, optional]
 
@@ -82,7 +76,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockadd
 ### -param TrafficType [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_traffic_type">QOS_TRAFFIC_TYPE</a> constant that specifies the type of traffic for which this flow will be used.
-
 
 ### -param Flags [in, optional]
 
@@ -104,8 +97,6 @@ If specified, the QoS subsystem will not gather data about the network path for 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param FlowId [in, out]
 
@@ -117,10 +108,7 @@ An application can make use of this parameter if multiple sockets used can share
 
 A <b>QOS_FLOWID</b> is an unsigned 32-bit integer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -244,14 +232,8 @@ The network location cannot be reached.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The use of IPv4/v6 mixed addresses is not supported in qWAVE. The address specified by the <i>DestAddr</i> parameter must be either IPv4 or IPv6.
 
@@ -322,21 +304,11 @@ if (QoSResult != TRUE)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: facff24d-56a3-4a1f-a726-3442c17fe869
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile2, IBackgroundCopyFile2 interface [BITS], IBackgroundCopyFile2 interface [BITS],described, bits.ibackgroundcopyfile2, bits2_0/IBackgroundCopyFile2
-f1_keywords:
-- bits2_0/IBackgroundCopyFile2
-dev_langs:
-- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx3.dll
-api_name:
-- IBackgroundCopyFile2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile2
+ - bits2_0/IBackgroundCopyFile2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx3.dll
+api_name:
+ - IBackgroundCopyFile2
 ---
 
 # IBackgroundCopyFile2 interface
 
 
 ## -description
-
 
 Use the 
 <b>IBackgroundCopyFile2</b> interface to specify a new remote name  for the file and retrieve the list of ranges to download.
@@ -62,7 +62,6 @@ To get an
 <b>IBackgroundCopyFile2</b> interface pointer to call both the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a> and 
 <b>IBackgroundCopyFile2</b> methods.
-
 
 ## -inheritance
 
@@ -97,16 +96,9 @@ Changes the remote name to a new URL.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
- 
-
- 
 

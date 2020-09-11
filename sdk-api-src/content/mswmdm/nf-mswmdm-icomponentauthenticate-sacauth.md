@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 26cecd09-5f28-47e5-92ec-c2f277be8052
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SACAuth method, IComponentAuthenticate.SACAuth, IComponentAuthenticate::SACAuth, IComponentAuthenticateSACAuth, SACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager],IComponentAuthenticate interface, mswmdm/IComponentAuthenticate::SACAuth, wmdm.icomponentauthenticate_sacauth
-f1_keywords:
-- mswmdm/IComponentAuthenticate.SACAuth
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IComponentAuthenticate.SACAuth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentAuthenticate::SACAuth
+ - mswmdm/IComponentAuthenticate::SACAuth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IComponentAuthenticate.SACAuth
 ---
 
 # IComponentAuthenticate::SACAuth
@@ -50,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SACAuth</b> method establishes a secure authenticated channel between components.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwProtocolID [in]
 
 <b>DWORD</b> containing the protocol identifier. For this version of Windows Media Device Manager, always set this parameter to SAC_PROTOCOL_V1.
 
-
 ### -param dwPass [in]
 
 <b>DWORD</b> containing the number of the current communication pass. A pass consists of two messages, one in each direction. SAC_PROTOCOL_V1 is a two-pass protocol, and the passes are numbered 0 and 1.
-
 
 ### -param pbDataIn [in]
 
 Pointer to the input data.
 
-
 ### -param dwDataInLen [in]
 
 <b>DWORD</b> containing the length of the data to which <i>pbDataIn</i> points.
-
 
 ### -param ppbDataOut [out]
 
 Pointer to a pointer to the output data.
 
-
 ### -param pdwDataOutLen [out]
 
 Pointer to a <b>DWORD</b> containing the length of the data to which <i>ppbDataOut</i> points.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -105,12 +90,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method is called only by service providers. It is called one or more times as dictated by the protocol identifier.
 
@@ -149,14 +129,7 @@ HRESULT CMyServiceProvider::SACAuth(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
 
@@ -167,7 +140,4 @@ HRESULT CMyServiceProvider::SACAuth(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>
- 
-
- 
 

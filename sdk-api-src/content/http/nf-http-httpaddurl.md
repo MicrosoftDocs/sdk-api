@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 76b228a0-6792-4184-bf0e-8638f3ab6b98
 ms.date: 12/05/2018
 ms.keywords: HttpAddUrl, HttpAddUrl function [HTTP], _http_httpaddurl, http.httpaddurl, http/HttpAddUrl
-f1_keywords:
-- http/HttpAddUrl
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpAddUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpAddUrl
+ - http/HttpAddUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpAddUrl
 ---
 
 # HttpAddUrl function
 
 
 ## -description
-
 
 The 
 <b>HttpAddUrl</b> function registers a given URL so that requests that match it are routed to a specified HTTP Server API request queue. An application can register multiple URLs to a single request queue using repeated calls to 
@@ -57,11 +57,7 @@ The
 
 Starting with HTTP Server API Version 2.0,  applications should call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a> to register a URL; <b>HttpAddUrl</b> should not be used.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
@@ -70,21 +66,16 @@ The handle to the request queue to which requests for the specified URL are to b
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
-
 ### -param FullyQualifiedUrl [in]
 
 A pointer to a Unicode string that contains a properly formed 
 <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that identifies the URL to be registered.
 
-
 ### -param Reserved
 
 Reserved; must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -163,14 +154,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 As stated in the <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a> topic, the scheme specification of the UrlPrefix to be registered must be either lower-case "http" or lower-case "https". No other substring is valid.
 
@@ -183,13 +168,7 @@ To release the resources allocated as a result of the registration performed by
 <b>HttpAddUrl</b>, make a matching call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a> function when your application has finished with the namespace involved.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
@@ -200,7 +179,4 @@ To release the resources allocated as a result of the registration performed by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>
- 
-
- 
 

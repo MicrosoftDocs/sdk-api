@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c8dec22b-946d-48ae-9315-54d353f3b853
 ms.date: 12/05/2018
 ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], IEnumMoniker interface [COM],described, _ole_ienummoniker, com.ienummoniker, objidl/IEnumMoniker
-f1_keywords:
-- objidl/IEnumMoniker
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IEnumMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumMoniker
+ - objidl/IEnumMoniker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IEnumMoniker
 ---
 
 # IEnumMoniker interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the components of a moniker or the monikers in a table of monikers.
-
 
 ## -inheritance
 
@@ -104,20 +103,13 @@ Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-enum">IMoniker::Enum</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-enumrunning">IRunningObjectTable::EnumRunning</a>
- 
-
- 
 

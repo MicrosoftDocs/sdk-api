@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f48b6ec9-e03b-43b0-9f22-120ae93d934c
 ms.date: 12/05/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_IPSEC_HMAC_KEY, CRYPT_NO_SALT, CRYPT_OAEP, CRYPT_USER_PROTECTED, CryptImportKey, CryptImportKey function [Security], _crypto2_cryptimportkey, security.cryptimportkey, wincrypt/CryptImportKey
-f1_keywords:
-- wincrypt/CryptImportKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptImportKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptImportKey
+ - wincrypt/CryptImportKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptImportKey
 ---
 
 # CryptImportKey function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptImportKey</b> function transfers a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic key</a> from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> into a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This function can be used to import an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Schannel</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>, regular session key, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a>. For all but the public key, the key or key pair is encrypted.
 
-
 ## -parameters
-
-
-
 
 ### -param hProv [in]
 
 The handle of a CSP obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
-
 
 ### -param pbData [in]
 
@@ -71,11 +66,9 @@ A <b>BYTE</b> array that contains a
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a> BLOB header followed by the encrypted key. This key BLOB is created by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportkey">CryptExportKey</a> function, either in this application or by another application possibly running on a different computer.
 
-
 ### -param dwDataLen [in]
 
 Contains the length, in bytes, of the key BLOB.
-
 
 ### -param hPubKey [in]
 
@@ -158,17 +151,12 @@ Allows for the import of an RC2 key that is larger than 16 bytes. If this flag i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phKey [out]
 
 A pointer to a <b>HCRYPTKEY</b> value that receives the handle of the imported key. When you have finished using the key, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
@@ -282,14 +270,8 @@ The version number of the key BLOB does not match the CSP version. This usually 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When importing a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) key, the caller must identify the imported key as a <b>PLAINTEXTKEYBLOB</b> type and set the appropriate algorithm identifier in the <b>aiKeyAlg</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a> BLOB header.
 
@@ -406,14 +388,7 @@ BOOL ImportKey(HCRYPTPROV hProv, LPBYTE pbKeyBlob, DWORD dwBlobLen)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
@@ -428,7 +403,4 @@ BOOL ImportKey(HCRYPTPROV hProv, LPBYTE pbKeyBlob, DWORD dwBlobLen)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
- 
-
- 
 

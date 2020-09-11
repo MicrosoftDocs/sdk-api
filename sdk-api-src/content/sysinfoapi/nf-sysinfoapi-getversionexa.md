@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 8e3ab4d6-bacd-4bc5-b8f6-dd49289354de
 ms.date: 12/05/2018
 ms.keywords: GetVersionEx, GetVersionEx function, GetVersionExA, GetVersionExW, _win32_getversionex, base.getversionex, sysinfoapi/GetVersionEx, sysinfoapi/GetVersionExA, sysinfoapi/GetVersionExW
-f1_keywords:
-- sysinfoapi/GetVersionEx
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,36 +25,40 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetVersionEx
-- GetVersionExA
-- GetVersionExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetVersionExA
+ - sysinfoapi/GetVersionExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetVersionEx
+ - GetVersionExA
+ - GetVersionExW
 ---
 
 # GetVersionExA function
 
 
 ## -description
-
 
 <b>GetVersionExA</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>. For Windows 10 apps, please see [Targeting your applications for Windows](https://docs.microsoft.com/windows/win32/sysinfo/targeting-your-application-at-windows-8-1).
 
@@ -67,11 +67,7 @@ With the release of Windows 8.1, the behavior of the <b>GetVersionEx</b> API ha
 
 Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2).  Once an application is manifested for a given operating system version, <b>GetVersionEx</b> will always return the version that the application is manifested for in future releases.  To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpVersionInformation [in, out]
 
@@ -84,10 +80,7 @@ An
 Before calling the 
 <b>GetVersionEx</b> function, set the <b>dwOSVersionInfoSize</b> member of the structure as appropriate to indicate which data structure is being passed to this function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
@@ -96,12 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure.
 
-
-
-
 ## -remarks
-
-
 
 Identifying the current operating system is usually not the best way to determine whether a particular operating system feature is present. This is because the operating system may have had new features added in a redistributable DLL. Rather than using 
 <b>GetVersionEx</b> to determine the operating system platform or version number, test for the presence of the feature itself. For more information, see 
@@ -189,9 +177,6 @@ For an example that identifies the current operating system, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversion">GetVersion</a>
 
 
@@ -217,7 +202,4 @@ For an example that identifies the current operating system, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>
- 
-
- 
 

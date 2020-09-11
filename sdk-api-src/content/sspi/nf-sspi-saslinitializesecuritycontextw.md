@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9cc661b7-f1b0-4fb1-b799-5b318d87fd4d
 ms.date: 12/05/2018
 ms.keywords: ISC_REQ_CONFIDENTIALITY, ISC_REQ_CONNECTION, ISC_REQ_EXTENDED_ERROR, ISC_REQ_INTEGRITY, ISC_REQ_MUTUAL_AUTH, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, SaslInitializeSecurityContext, SaslInitializeSecurityContext function [Security], SaslInitializeSecurityContextA, SaslInitializeSecurityContextW, security.saslinitializesecuritycontext, sspi/SaslInitializeSecurityContext, sspi/SaslInitializeSecurityContextA, sspi/SaslInitializeSecurityContextW
-f1_keywords:
-- sspi/SaslInitializeSecurityContext
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- SaslInitializeSecurityContext
-- SaslInitializeSecurityContextA
-- SaslInitializeSecurityContextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaslInitializeSecurityContextW
+ - sspi/SaslInitializeSecurityContextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - SaslInitializeSecurityContext
+ - SaslInitializeSecurityContextA
+ - SaslInitializeSecurityContextW
 ---
 
 # SaslInitializeSecurityContextW function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaslInitializeSecurityContext</b> function wraps a standard call to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Support Provider Interface</a> <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function and processes  SASL server cookies from the server.
 
-
 ## -parameters
-
-
-
 
 ### -param phCredential [in]
 
 A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> returned by the  
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function used to build the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. Using the <b>SaslInitializeSecurityContext</b> function requires at least OUTBOUND credentials.
 
-
 ### -param phContext [in]
 
 Pointer to a <b>CtxtHandle</b> structure. On the first call to the <b>SaslInitializeSecurityContext</b> function, this pointer is <b>NULL</b>. On the second call, this parameter is a pointer to the handle to the partially formed context returned in the <i>phNewContext</i> parameter by the first call.
 
-
 ### -param pszTargetName [in]
 
 Pointer to a Unicode or ANSI string that indicates the target of the context.
-
 
 ### -param fContextReq [in]
 
@@ -171,16 +164,13 @@ Sign messages and verify signatures.
 For  further descriptions of the various attributes, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/context-requirements">Context Requirements</a>.
 
-
 ### -param Reserved1 [in]
 
 Reserved value; must be zero.
 
-
 ### -param TargetDataRep [in]
 
 Indicates the data representation, such as byte ordering, on the target. Can be either SECURITY_NATIVE_DREP or SECURITY_NETWORK_DREP.
-
 
 ### -param pInput [in]
 
@@ -189,24 +179,20 @@ Pointer to a
 
 SASL requires a single buffer of type <b>SECBUFFER_TOKEN</b> that contains the challenge received from the server.
 
-
 ### -param Reserved2 [in]
 
 Reserved value; must be zero.
-
 
 ### -param phNewContext [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CtxtHandle</a> structure. On the first call to the <b>SaslInitializeSecurityContext</b> function, this pointer receives the new context handle. On the second call, <i>phNewContext</i> can be the same as the handle specified in the <i>phContext</i> parameter.
 
-
 ### -param pOutput [in, out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains pointers to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives the output data. If a buffer was typed as SEC_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC_REQ_ALLOCATE_MEMORY) and fill in the address in the buffer descriptor for the security token.
-
 
 ### -param pfContextAttr [out]
 
@@ -227,10 +213,7 @@ Do not check for security-related attributes until the final function call retur
 
 Pointer to a <b>TimeStamp</b> structure that receives the expiration time of the context. It is recommended that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> always return this value in local time. This parameter is optional and <b>NULL</b> should be passed for short-lived clients.
 
-
 ## -returns
-
-
 
 If the call is completed successfully, this function returns SEC_E_OK. The following table shows some possible failure return values.
 
@@ -273,9 +256,6 @@ No Token buffer is located in the <i>pOutput</i> parameter, or the message faile
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -remarks
 

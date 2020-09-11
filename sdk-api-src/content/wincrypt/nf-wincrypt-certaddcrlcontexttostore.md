@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5dfa1c08-5d75-4ee4-bd65-ce56eb61ecce
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCRLContextToStore, CertAddCRLContextToStore function [Security], _crypto2_certaddcrlcontexttostore, security.certaddcrlcontexttostore, wincrypt/CertAddCRLContextToStore
-f1_keywords:
-- wincrypt/CertAddCRLContextToStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertAddCRLContextToStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertAddCRLContextToStore
+ - wincrypt/CertAddCRLContextToStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertAddCRLContextToStore
 ---
 
 # CertAddCRLContextToStore function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertAddCRLContextToStore</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context to the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of a certificate store.
 
-
 ### -param pCrlContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure to be added.
-
 
 ### -param dwAddDisposition [in]
 
@@ -158,18 +152,13 @@ If a matching CRL or a link to a matching CRL does not exist, a new CRL is added
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppStoreContext [out, optional]
 
 A pointer to a pointer to the decoded CRL context. This is an optional parameter and can be <b>NULL</b>, indicating that the calling application does not require a copy of the added or existing CRL. If a copy is made, that context must be freed by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -208,27 +197,15 @@ The <i>dwAddDisposition</i> parameter specified a disposition value that is not 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The CRL context is not duplicated using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext">CertDuplicateCRLContext</a>. Instead, a new copy is created and added to the store. In addition to copying the encoded CRL, the function copies the context's properties.
 
 To remove the CRL context from the certificate store, use the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore">CertDeleteCRLFromStore</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcrltostore">CertAddEncodedCRLToStore</a>
 
@@ -247,7 +224,4 @@ To remove the CRL context from the certificate store, use the  <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
- 
-
- 
 

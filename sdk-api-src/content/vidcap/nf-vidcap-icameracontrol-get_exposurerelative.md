@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: d63cf869-ccb6-45cb-85ba-a1e41faa8086
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ExposureRelative method, ICameraControl.get_ExposureRelative, ICameraControl::get_ExposureRelative, ICameraControlget_ExposureRelative, dshow.icameracontrol_get_exposurerelative, get_ExposureRelative, get_ExposureRelative method [DirectShow], get_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ExposureRelative
-f1_keywords:
-- vidcap/ICameraControl.get_ExposureRelative
-dev_langs:
-- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICameraControl.get_ExposureRelative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICameraControl::get_ExposureRelative
+ - vidcap/ICameraControl::get_ExposureRelative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICameraControl.get_ExposureRelative
 ---
 
 # ICameraControl::get_ExposureRelative
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>get_ExposureRelative</code> method returns the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out]
 
@@ -83,34 +79,20 @@ Receives the relative exposure. To get the range of possible values, call <a hre
 <td>Decremented by one step.</td>
 </tr>
 </table>
- 
-
 
 ### -param pFlags [out]
 
 Receives one or more flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
- 
-
- 
 

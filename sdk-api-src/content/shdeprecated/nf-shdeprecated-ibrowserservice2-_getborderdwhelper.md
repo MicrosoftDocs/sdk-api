@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 44477311-61c6-48d0-bef8-349ca114a891
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetBorderDWHelper method, IBrowserService2._GetBorderDWHelper, IBrowserService2::_GetBorderDWHelper, _GetBorderDWHelper, _GetBorderDWHelper method [Windows Shell], _GetBorderDWHelper method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetBorderDWHelper, shell.IBrowserService2__GetBorderDWHelper, zone_IBrowserService2__GetBorderDWHelper
-f1_keywords:
-- shdeprecated/IBrowserService2._GetBorderDWHelper
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._GetBorderDWHelper
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_GetBorderDWHelper
+ - shdeprecated/IBrowserService2::_GetBorderDWHelper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._GetBorderDWHelper
 ---
 
 # IBrowserService2::_GetBorderDWHelper
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. A helper method for the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-idockingwindowsite-getborderdw">GetBorderDW</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param punkSrc [in]
 
@@ -65,29 +61,21 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that represents the object for which the border space is being requested.
 
-
 ### -param lprectBorder [in]
 
 Type: <b>LPRECT</b>
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the dimensions of the available border space for the browser.
 
-
 ### -param bUseHmonitor [in]
 
 Type: <b>BOOL</b>
 
 A value of type <b>BOOL</b> that indicates whether to use an <b>HMONITOR</b> to determine the display. <b>TRUE</b> to use the <b>HMONITOR</b>; <b>FALSE</b> to ignore the particular display in the size determination.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

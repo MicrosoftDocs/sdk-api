@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 17c50d55-1c95-4178-82ba-7f504aa63c83
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPV4HEADER, *PBITMAPV4HEADER, BITMAPV4HEADER, BITMAPV4HEADER structure [Windows GDI], PBITMAPV4HEADER, PBITMAPV4HEADER structure pointer [Windows GDI], _win32_BITMAPV4HEADER_str, gdi.bitmapv4header, wingdi/BITMAPV4HEADER, wingdi/PBITMAPV4HEADER'
-f1_keywords:
-- wingdi/BITMAPV4HEADER
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- BITMAPV4HEADER
 targetos: Windows
 req.typenames: BITMAPV4HEADER, *LPBITMAPV4HEADER, *PBITMAPV4HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPBITMAPV4HEADER
+ - wingdi/LPBITMAPV4HEADER
+ - BITMAPV4HEADER
+ - wingdi/BITMAPV4HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - BITMAPV4HEADER
 ---
 
 # BITMAPV4HEADER structure
@@ -49,32 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BITMAPV4HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
 
 Applications can use the 
         <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> structure for added functionality.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field bV4Size
 
 The number of bytes required by the structure. Applications should use this member to determine which bitmap information header structure is being used.
-
 
 ### -field bV4Width
 
 The width of the bitmap, in pixels.
 
  If <b>bV4Compression</b> is BI_JPEG or BI_PNG, <b>bV4Width</b> specifies the width of the JPEG or PNG image in pixels.
-
 
 ### -field bV4Height
 
@@ -84,11 +77,9 @@ If <b>bV4Height</b> is negative, indicating a top-down DIB, <b>bV4Compression</b
 
  If <b>bV4Compression</b> is BI_JPEG or BI_PNG, <b>bV4Height</b> specifies the height of the JPEG or PNG image in pixels.
 
-
 ### -field bV4Planes
 
 The number of planes for the target device. This value must be set to 1.
-
 
 ### -field bV4BitCount
 
@@ -134,8 +125,6 @@ The number of bits-per-pixel. The <b>bV4BitCount</b> member of the <b>BITMAPV4HE
 </td>
 </tr>
 </table>
- 
-
 
 ### -field bV4V4Compression
 
@@ -171,8 +160,6 @@ The type of compression for a compressed bottom-up bitmap (top-down DIBs cannot 
 <td> Specifies that the image is compressed using the PNG file interchange format.</td>
 </tr>
 </table>
- 
-
 
 ### -field bV4SizeImage
 
@@ -180,16 +167,13 @@ The size, in bytes, of the image. This may be set to zero for BI_RGB bitmaps.
 
  If <b>bV4Compression</b> is BI_JPEG or BI_PNG, <b>bV4SizeImage</b> is the size of the JPEG or PNG image buffer.
 
-
 ### -field bV4XPelsPerMeter
 
 The horizontal resolution, in pixels-per-meter, of the target device for the bitmap. An application can use this value to select a bitmap from a resource group that best matches the characteristics of the current device.
 
-
 ### -field bV4YPelsPerMeter
 
 The vertical resolution, in pixels-per-meter, of the target device for the bitmap.
-
 
 ### -field bV4ClrUsed
 
@@ -197,31 +181,25 @@ The number of color indexes in the color table that are actually used by the bit
 
 If <b>bV4ClrUsed</b> is nonzero and the <b>bV4BitCount</b> member is less than 16, the <b>bV4ClrUsed</b> member specifies the actual number of colors the graphics engine or device driver accesses. If <b>bV4BitCount</b> is 16 or greater, the <b>bV4ClrUsed</b> member specifies the size of the color table used to optimize performance of the system color palettes. If <b>bV4BitCount</b> equals 16 or 32, the optimal color palette starts immediately following the <b>BITMAPV4HEADER</b>.
 
-
 ### -field bV4ClrImportant
 
 The number of color indexes that are required for displaying the bitmap. If this value is zero, all colors are important.
-
 
 ### -field bV4RedMask
 
 Color mask that specifies the red component of each pixel, valid only if <b>bV4Compression</b> is set to BI_BITFIELDS.
 
-
 ### -field bV4GreenMask
 
 Color mask that specifies the green component of each pixel, valid only if <b>bV4Compression</b> is set to BI_BITFIELDS.
-
 
 ### -field bV4BlueMask
 
 Color mask that specifies the blue component of each pixel, valid only if <b>bV4Compression</b> is set to BI_BITFIELDS.
 
-
 ### -field bV4AlphaMask
 
 Color mask that specifies the alpha component of each pixel.
-
 
 ### -field bV4CSType
 
@@ -241,7 +219,6 @@ The color space of the DIB. The following table lists the value for <b>bV4CSType
 
 See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> structure for information that defines a logical color space.
 
-
 ### -field bV4Endpoints
 
 A <a href="/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a> structure that specifies the x, y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for the logical color space associated with the bitmap. This member is ignored unless the <b>bV4CSType</b> member specifies LCS_CALIBRATED_RGB.
@@ -253,30 +230,19 @@ A <a href="/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a> st
 
 Tone response curve for red. This member is ignored unless color values are calibrated RGB values and <b>bV4CSType</b> is set to LCS_CALIBRATED_RGB. Specify in unsigned fixed 16.16 format. The upper 16 bits are the unsigned integer value. The lower 16 bits are the fractional part.
 
-
 ### -field bV4GammaGreen
 
 Tone response curve for green. Used if <b>bV4CSType</b> is set to LCS_CALIBRATED_RGB. Specify in unsigned fixed 16.16 format. The upper 16 bits are the unsigned integer value. The lower 16 bits are the fractional part.
-
 
 ### -field bV4GammaBlue
 
 Tone response curve for blue. Used if <b>bV4CSType</b> is set to LCS_CALIBRATED_RGB. Specify in unsigned fixed 16.16 format. The upper 16 bits are the unsigned integer value. The lower 16 bits are the fractional part.
 
-
 ## -remarks
-
-
 
 The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to be passed as the source image to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
@@ -311,7 +277,4 @@ The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
- 
-
- 
 

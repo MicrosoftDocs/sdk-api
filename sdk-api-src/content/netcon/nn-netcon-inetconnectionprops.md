@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 8152f75c-1c93-4c30-8a13-c47fd5dde4af
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], INetConnectionProps interface [ICS/ICF],described, _ics_inetconnectionprops, ics.inetconnectionprops, netcon/INetConnectionProps
-f1_keywords:
-- netcon/INetConnectionProps
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetConnectionProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetConnectionProps
+ - netcon/INetConnectionProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetConnectionProps
 ---
 
 # INetConnectionProps interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 Use the 
 <b>INetConnectionProps</b> interface to retrieve the properties for a connection.
-
 
 ## -inheritance
 
@@ -116,13 +115,9 @@ Retrieves the status of the connection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_netconnectionprops">INetSharingManager::get_NetConnectionProps</a>
 
@@ -133,7 +128,4 @@ Retrieves the status of the connection.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
 

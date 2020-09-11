@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcursel.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCurSel, MonthCal_GetCurSel macro [Windows Controls], _win32_MonthCal_GetCurSel, _win32_MonthCal_GetCurSel_cpp, commctrl/MonthCal_GetCurSel, controls.MonthCal_GetCurSel, controls._win32_MonthCal_GetCurSel
-f1_keywords:
-- commctrl/MonthCal_GetCurSel
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MonthCal_GetCurSel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonthCal_GetCurSel
+ - commctrl/MonthCal_GetCurSel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MonthCal_GetCurSel
 ---
 
 # MonthCal_GetCurSel macro
@@ -49,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the currently selected date. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getcursel">MCM_GETCURSEL</a> message explicitly. 
-
+Retrieves the currently selected date. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getcursel">MCM_GETCURSEL</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hmc
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to a month calendar control. 
-
+Handle to a month calendar control.
 
 ### -param pst
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that will receive the currently selected date information. This parameter must be a valid address and cannot be <b>NULL</b>. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that will receive the currently selected date information. This parameter must be a valid address and cannot be <b>NULL</b>.
 

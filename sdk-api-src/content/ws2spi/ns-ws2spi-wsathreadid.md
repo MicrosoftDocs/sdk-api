@@ -23,14 +23,21 @@ req.typenames: WSATHREADID, *LPWSATHREADID
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- _WSATHREADID
-- WSATHREADID
+ - _WSATHREADID
+ - WSATHREADID
+f1_keywords:
+ - _WSATHREADID
+ - ws2spi/_WSATHREADID
+ - LPWSATHREADID
+ - ws2spi/LPWSATHREADID
+ - WSATHREADID
+ - ws2spi/WSATHREADID
 ---
 
 ## -description
@@ -38,18 +45,23 @@ api_name:
 The **WSATHREADID** structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the [**WPUQueueApc**](/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc.md) function.
 
 ## -struct-fields
+
 ```C++
 } WSATHREADID, *LPWSATHREADID;
 ```
+
 ### -field ThreadHandle
+
 Handle to the thread ID.
 
 ### -field Reserved
-Reserved. 
+
+Reserved.
 
 ## -remarks
 
 ## -see-also
+
 <b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>
    
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl">LPWSPIoctl</a></b>   
@@ -58,5 +70,4 @@ Reserved.
    
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>
-  
 

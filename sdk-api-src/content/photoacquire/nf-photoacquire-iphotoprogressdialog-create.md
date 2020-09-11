@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: e68ac203-f97b-4459-b344-c845f0ac0f1b
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Create method, IPhotoProgressDialog.Create, IPhotoProgressDialog::Create, IPhotoProgressDialogCreate, photoacquire/IPhotoProgressDialog::Create, picacq.iphotoprogressdialog_create
-f1_keywords:
-- photoacquire/IPhotoProgressDialog.Create
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoProgressDialog.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoProgressDialog::Create
+ - photoacquire/IPhotoProgressDialog::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoProgressDialog.Create
 ---
 
 # IPhotoProgressDialog::Create
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Create</code> method creates and displays a progress dialog box that can be shown during image enumeration and acquisition.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 Handle of the parent window.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,33 +80,18 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The dialog box that is created is modal, and runs in its own thread.
 
 To close the dialog, call <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-destroy">Destroy</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-destroy">IPhotoProgressDialog::Destroy</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: cb0e4f92-4aff-48c7-af62-5f7154539289
 ms.date: 12/05/2018
 ms.keywords: IWICPalette, IWICPalette interface [Windows Imaging Component], IWICPalette interface [Windows Imaging Component],described, _wic_codec_iwicpalette, wic._wic_codec_iwicpalette, wincodec/IWICPalette
-f1_keywords:
-- wincodec/IWICPalette
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICPalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICPalette
+ - wincodec/IWICPalette
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICPalette
 ---
 
 # IWICPalette interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for accessing and building a color table, primarily for indexed pixel formats.
-
 
 ## -inheritance
 
@@ -158,12 +157,9 @@ Retrieves a value that describes whether a palette is grayscale.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> is not <b>WICBitmapPaletteCustom</b>, then the colors are automatically generated based on the table above.  If the user subsequently changes a color palette entry the WICBitmapPalette is set to Custom by that action.
 
@@ -277,7 +273,5 @@ Traditionally the basic operation of the palette is to provide a translation fro
 In this example code, <b>WICColor</b> is defined as a <b>UINT32</b> value with this layout: 
 
 <pre class="syntax" xml:space="preserve"><code>0xAARRGGBB</code></pre>
-The wincodec.h header type-defines <b>WICColor</b> as <b>UINT32</b>. 
-
-
+The wincodec.h header type-defines <b>WICColor</b> as <b>UINT32</b>.
 

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 8d77548d-dfba-4be1-b19d-41b21ab3a112
 ms.date: 12/05/2018
 ms.keywords: EnumTypeRefs, EnumTypeRefs method [Windows Runtime], EnumTypeRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeRefs method, IMetaDataImport.EnumTypeRefs, IMetaDataImport::EnumTypeRefs, rometadataapi/IMetaDataImport::EnumTypeRefs, winrt.imetadataimport_enumtyperefs
-f1_keywords:
-- rometadataapi/IMetaDataImport.EnumTypeRefs
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataImport.EnumTypeRefs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataImport::EnumTypeRefs
+ - rometadataapi/IMetaDataImport::EnumTypeRefs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataImport.EnumTypeRefs
 ---
 
 # IMetaDataImport::EnumTypeRefs
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates TypeRef tokens defined in the current metadata scope.
 
-
 ## -parameters
-
-
-
 
 ### -param phEnum [in, out]
 
 A pointer to the enumerator. This must be NULL for the first call of this method.
 
-
 ### -param rgTypeRefs [out]
 
 The array used to store the TypeRef tokens.
-
 
 ### -param cMax [in]
 
 The maximum size of the <i>rgTypeRefs</i> array.
 
-
 ### -param pcTypeRefs [out, retval]
 
 A pointer to the number of TypeRef tokens returned in <i>rgTypeRefs</i>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -99,18 +89,8 @@ A pointer to the number of TypeRef tokens returned in <i>rgTypeRefs</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
- 
-
- 
 

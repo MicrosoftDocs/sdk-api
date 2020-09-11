@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 07ef2af1-230e-41d9-ad19-d002d0579d66
 ms.date: 12/05/2018
 ms.keywords: '*LPOPENQUERYWINDOW, CLSID_DsFindAdvanced, CLSID_DsFindComputer, CLSID_DsFindContainer, CLSID_DsFindDomainController, CLSID_DsFindFrsMembers, CLSID_DsFindObjects, CLSID_DsFindPeople, CLSID_DsFindPrinter, CLSID_DsFindVolume, CLSID_DsFindWriteableDomainController, CLSID_DsQuery, LPOPENQUERYWINDOW, LPOPENQUERYWINDOW structure pointer [Active Directory], OPENQUERYWINDOW, OPENQUERYWINDOW structure [Active Directory], OQWF_DEFAULTFORM, OQWF_HIDEMENUS, OQWF_HIDESEARCHUI, OQWF_ISSUEONOPEN, OQWF_LOADQUERY, OQWF_OKCANCEL, OQWF_PARAMISPROPERTYBAG, OQWF_REMOVEFORMS, OQWF_REMOVESCOPES, OQWF_SAVEQUERYONOK, OQWF_SHOWOPTIONAL, OQWF_SINGLESELECT, _glines_openquerywindow, ad.openquerywindow, cmnquery/LPOPENQUERYWINDOW, cmnquery/OPENQUERYWINDOW'
-f1_keywords:
-- cmnquery/OPENQUERYWINDOW
-dev_langs:
-- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cmnquery.h
-api_name:
-- OPENQUERYWINDOW
 targetos: Windows
 req.typenames: OPENQUERYWINDOW, *LPOPENQUERYWINDOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPOPENQUERYWINDOW
+ - cmnquery/LPOPENQUERYWINDOW
+ - OPENQUERYWINDOW
+ - cmnquery/OPENQUERYWINDOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cmnquery.h
+api_name:
+ - OPENQUERYWINDOW
 ---
 
 # OPENQUERYWINDOW structure
@@ -49,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OPENQUERYWINDOW</b> structure is used with 
    the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a> method to 
    initialize the directory service query dialog box.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Contains the size, in bytes, of the structure. This member is used for versioning and parameter validation 
       and must be filled in before calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>.
-
 
 ### -field dwFlags
 
@@ -159,7 +156,6 @@ Causes the query dialog box to display optional forms in the form drop-down list
 
 Causes the query dialog box to make the query results list single-selection.
 
-
 ### -field clsidHandler
 
 Contains a <b>CLSID</b> value that specifies the query handler to be used by the 
@@ -171,7 +167,6 @@ Contains a <b>CLSID</b> value that specifies the query handler to be used by the
 #### CLSID_DsQuery
 
 This is the standard directory service query and the only currently supported query.
-
 
 ### -field pHandlerParameters
 
@@ -185,7 +180,6 @@ Pointer to a structure that contains data for the query handler. The type of str
 
 Contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dsqueryinitparams">DSQUERYINITPARAMS</a> 
         structure.
-
 
 ### -field clsidDefaultForm
 
@@ -254,7 +248,6 @@ Identifies the <b>Shared Folders</b> query form.
 Identifies the <b>Domain Controllers</b> query form and displays writeable Domain 
         Controllers.
 
-
 ### -field pPersistQuery
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a> interface used 
@@ -263,13 +256,11 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/n
       from this interface. If <b>dwFlags</b> contains <b>OQWF_SAVEQUERY</b>, 
       the query data is saved to this interface.
 
-
 ### -field pFormParameters
 
 Reserved. Pointer to a structure or interface that provides parameter initialization data for the form. 
        The contents of this pointer is defined by the form class specified by the 
        <b>clsidDefaultForm</b> member.
-
 
 ### -field ppbFormParameters
 
@@ -385,13 +376,8 @@ Read-only Domain Controllers
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqform">CQFORM</a>
 
@@ -410,7 +396,4 @@ Read-only Domain Controllers
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a>
- 
-
- 
 

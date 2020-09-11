@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 03e5f255-3a5d-4c77-ad3b-5a188c9eb35b
 ms.date: 12/05/2018
 ms.keywords: 1d5ebba7-ca6f-9bb1-f5b2-4f1482759e6a, ID3D11DeviceContext interface [Direct3D 11],PSSetConstantBuffers method, ID3D11DeviceContext.PSSetConstantBuffers, ID3D11DeviceContext::PSSetConstantBuffers, PSSetConstantBuffers, PSSetConstantBuffers method [Direct3D 11], PSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSSetConstantBuffers, direct3d11.id3d11devicecontext_pssetconstantbuffers
-f1_keywords:
-- d3d11/ID3D11DeviceContext.PSSetConstantBuffers
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.PSSetConstantBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::PSSetConstantBuffers
+ - d3d11/ID3D11DeviceContext::PSSetConstantBuffers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.PSSetConstantBuffers
 ---
 
 # ID3D11DeviceContext::PSSetConstantBuffers
@@ -50,42 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the constant buffers used by the pixel shader pipeline stage.
 
-
 ## -parameters
-
-
-
 
 ### -param StartSlot [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index into the device's zero-based array to begin setting constant buffers to (ranges from 0 to <b>D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT</b> - 1).
-          
-
 
 ### -param NumBuffers [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of buffers to set (ranges from 0 to <b>D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT</b> - <i>StartSlot</i>).
-          
-
 
 ### -param ppConstantBuffers [in, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>*</b>
 
 Array of constant buffers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>) being given to the device.
-          
-
 
 ## -remarks
-
-
 
 The method will hold a reference to the interfaces passed in.
           This differs from the device state behavior in Direct3D 10.
@@ -99,18 +87,8 @@ The Direct3D 11.1 runtime, which is available on Windows 8 and later operating 
 To enable the shader to access other parts of the buffer, call
           <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11devicecontext1-pssetconstantbuffers1">PSSetConstantBuffers1</a> instead of <b>PSSetConstantBuffers</b>.
           <b>PSSetConstantBuffers1</b> has additional parameters <i>pFirstConstant</i> and <i>pNumConstants</i>.
-        
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 05924bb7-cc59-4df6-a2dd-4e6032a0eb8b
 ms.date: 12/05/2018
 ms.keywords: Context property [Windows Update Agent], Context property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],Context property, IUpdateException.Context, IUpdateException.get_Context, IUpdateException::Context, IUpdateException::get_Context, get_Context, wua.iupdateexception_context, wuapi/IUpdateException::Context, wuapi/IUpdateException::get_Context
-f1_keywords:
-- wuapi/IUpdateException.Context
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateException.Context
-- IUpdateException.get_Context
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateException::get_Context
+ - wuapi/IUpdateException::get_Context
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateException.Context
+ - IUpdateException.get_Context
 ---
 
 # IUpdateException::get_Context
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the context of search results.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a>
- 
-
- 
 

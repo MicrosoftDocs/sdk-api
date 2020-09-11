@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: a891adb0-6c2d-4b69-a0de-4a615be938e3
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6AddressToString, RtlIpv6AddressToString function [IP Helper], RtlIpv6AddressToStringA, RtlIpv6AddressToStringW, ip2string/RtlIpv6AddressToString, ip2string/RtlIpv6AddressToStringA, ip2string/RtlIpv6AddressToStringW, iphlp.rtlipv6addresstostring
-f1_keywords:
-- ip2string/RtlIpv6AddressToString
-dev_langs:
-- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlIpv6AddressToString
-- RtlIpv6AddressToStringA
-- RtlIpv6AddressToStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlIpv6AddressToStringA
+ - ip2string/RtlIpv6AddressToStringA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlIpv6AddressToString
+ - RtlIpv6AddressToStringA
+ - RtlIpv6AddressToStringW
 ---
 
 # RtlIpv6AddressToStringA function
@@ -51,40 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtlIpv6AddressToString</b> function  converts an IPv6 address to a string in Internet standard format.
 
-
-
 ## -parameters
-
-
-
 
 ### -param Addr [in]
 
 The IPv6 address in network byte order.
 
-
 ### -param S [out]
 
 A pointer to a buffer in which to store the <b>NULL</b>-terminated string representation of the IPv6 address. This buffer should be large enough to hold at least 46 characters.
 
-
 ## -returns
-
-
 
 A pointer to the NULL character inserted at the end of the string representation of the IPv6 address.
 This can be used by the caller to easily append more information to the string.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlIpv6AddressToString</b> function is used to convert an IPv6 address to the string representation of the IPv6 address in Internet standard format. 
 
@@ -116,9 +102,6 @@ An import library containing the <b>RtlIpv6AddressToString</b> function is not i
 > The ip2string.h header defines RtlIpv6AddressToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
 
@@ -173,7 +156,4 @@ An import library containing the <b>RtlIpv6AddressToString</b> function is not i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
- 
-
- 
 

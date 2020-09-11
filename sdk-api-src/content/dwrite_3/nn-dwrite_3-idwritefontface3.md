@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 1081A005-E4A8-4EE0-AFE0-10BD8D8471DF
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace3, IDWriteFontFace3 interface [Direct Write], IDWriteFontFace3 interface [Direct Write],described, directwrite.idwritefontface3, dwrite_3/IDWriteFontFace3
-f1_keywords:
-- dwrite_3/IDWriteFontFace3
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFace3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFace3
+ - dwrite_3/IDWriteFontFace3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFace3
 ---
 
 ## -description
@@ -53,3 +54,4 @@ This interface extends [IDWriteFontFace2](/windows/win32/api/dwrite_2/nn-dwrite_
 ## -see-also
 
 [IDWriteFontFace2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontface2)
+

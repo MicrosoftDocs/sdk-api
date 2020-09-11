@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cb1a32bd-aafb-4e41-8d6f-673c3d747f14
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_SID_INFO, LPSERVICE_SID_INFO, LPSERVICE_SID_INFO structure pointer, SERVICE_SID_INFO, SERVICE_SID_INFO structure, SERVICE_SID_TYPE_NONE, SERVICE_SID_TYPE_RESTRICTED, SERVICE_SID_TYPE_UNRESTRICTED, base.service_sid_info, winsvc/LPSERVICE_SID_INFO, winsvc/SERVICE_SID_INFO'
-f1_keywords:
-- winsvc/SERVICE_SID_INFO
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsvc.h
-api_name:
-- SERVICE_SID_INFO
 targetos: Windows
 req.typenames: SERVICE_SID_INFO, *LPSERVICE_SID_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_SID_INFO
+ - winsvc/_SERVICE_SID_INFO
+ - LPSERVICE_SID_INFO
+ - winsvc/LPSERVICE_SID_INFO
+ - SERVICE_SID_INFO
+ - winsvc/SERVICE_SID_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsvc.h
+api_name:
+ - SERVICE_SID_INFO
 ---
 
 # SERVICE_SID_INFO structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a service security identifier (SID).
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwServiceSidType
 
@@ -110,12 +110,8 @@ When the service process is created, the service SID is added to the service pro
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The change takes effect the next time the system is started.
 
@@ -145,20 +141,11 @@ NT SERVICE&#92;<i>SvcName</i>
 
 Note that NT SERVICE is the domain name.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
- 
-
- 
 

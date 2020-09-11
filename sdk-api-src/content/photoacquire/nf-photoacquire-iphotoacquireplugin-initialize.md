@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: 0992e4f0-43a0-49fb-99f4-8713af96ef7e
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],Initialize method, IPhotoAcquirePlugin.Initialize, IPhotoAcquirePlugin::Initialize, IPhotoAcquirePluginInitialize, Initialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::Initialize, picacq.iphotoacquireplugin_initialize
-f1_keywords:
-- photoacquire/IPhotoAcquirePlugin.Initialize
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquirePlugin.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquirePlugin::Initialize
+ - photoacquire/IPhotoAcquirePlugin::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquirePlugin.Initialize
 ---
 
 # IPhotoAcquirePlugin::Initialize
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Initialize</code> method provides extended functionality when the plug-in is initialized. The application provides the implementation of the <code>Initialize</code> method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPhotoAcquireSource [in]
 
 Specifies the source from which photos are being acquired.
 
-
 ### -param pPhotoAcquireProgressCB [in]
 
 Specifies the callback that will provide additional processing during acquisition.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Your implementation is not limited to the following return values.
 
@@ -106,15 +95,8 @@ The method is not implemented
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireplugin">IPhotoAcquirePlugin Interface</a>
 
@@ -125,7 +107,4 @@ The method is not implemented
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
- 
-
- 
 

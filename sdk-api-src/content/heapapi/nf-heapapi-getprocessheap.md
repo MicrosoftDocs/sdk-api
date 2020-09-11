@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ecd716b2-df48-4914-9de4-47d8ad8ff9a2
 ms.date: 12/05/2018
 ms.keywords: GetProcessHeap, GetProcessHeap function, _win32_getprocessheap, base.getprocessheap, heapapi/GetProcessHeap, winbase/GetProcessHeap
-f1_keywords:
-- heapapi/GetProcessHeap
-dev_langs:
-- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-heap-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-heap-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- vertdll.dll
-api_name:
-- GetProcessHeap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProcessHeap
+ - heapapi/GetProcessHeap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - vertdll.dll
+api_name:
+ - GetProcessHeap
 ---
 
 # GetProcessHeap function
@@ -55,32 +56,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a handle to the default heap of the calling process. This handle can then be used in subsequent calls to the heap functions.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the calling process's heap.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>GetProcessHeap</b> function obtains a handle to the default heap for the calling process. A process can use this handle to allocate memory from the process heap without having to first create a private heap using the 
@@ -96,12 +83,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/g
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
@@ -113,7 +95,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/g
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
- 
-
- 
 

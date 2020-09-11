@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintfex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchPrintfEx, StringCchPrintfEx function [Menus and Other Resources], StringCchPrintfExA, StringCchPrintfExW, _shell_StringCchPrintfEx, _shell_stringcchprintfex_cpp, menurc.stringcchprintfex, strsafe/StringCchPrintfEx, strsafe/StringCchPrintfExA, strsafe/StringCchPrintfExW, winui._shell_stringcchprintfex
-f1_keywords:
-- strsafe/StringCchPrintfEx
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCchPrintfEx
-- StringCchPrintfExA
-- StringCchPrintfExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCchPrintfExA
+ - strsafe/StringCchPrintfExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCchPrintfEx
+ - StringCchPrintfExA
+ - StringCchPrintfExW
 ---
 
 # StringCchPrintfExA function
 
 
 ## -description
-
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
@@ -70,15 +70,11 @@ Writes formatted data to the specified string. The size of the destination buffe
 
 ## -parameters
 
-
-
-
 ### -param pszDest [out]
 
 Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the formatted, null-terminated string created from <i>pszFormat</i> and its arguments.
-
 
 ### -param cchDest [in]
 
@@ -86,20 +82,17 @@ Type: <b>size_t</b>
 
 The size of the destination buffer, in characters. This value must be sufficiently large to accommodate the final formatted string plus 1 to account for the terminating null character. The maximum number of characters allowed is <b>STRSAFE_MAX_CCH</b>.
 
-
 ### -param ppszDestEnd [out, optional]
 
 Type: <b>LPTSTR*</b>
 
 The address of a pointer to the end of <i>pszDest</i>. If <i>ppszDestEnd</i> is non-<b>NULL</b> and any data is copied into the destination buffer, this points to the terminating null character at the end of the string.
 
-
 ### -param pcchRemaining [out, optional]
 
 Type: <b>size_t*</b>
 
 The number of unused characters in <i>pszDest</i>, including the terminating null character. If <i>pcchRemaining</i> is <b>NULL</b>, the count is not kept or returned.
-
 
 ### -param dwFlags [in]
 
@@ -168,8 +161,6 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFormat [in]
 
@@ -177,15 +168,11 @@ Type: <b>LPCTSTR</b>
 
 The format string. This string must be null-terminated. For more information, see <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
-
 ### -param arg7 [in]
 
 The Arguments to be inserted into the <i>pszFormat</i> string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -234,12 +221,7 @@ The copy operation failed due to insufficient buffer space. Depending on the val
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 Compared to  the functions it replaces, <b>StringCchPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchPrintfEx</b>always null-terminates a nonzero-length destination buffer.
 
@@ -282,9 +264,6 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 ## -see-also
 
-
-
-
 <b>Reference</b>
 
 
@@ -298,7 +277,4 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
- 
-
- 
 

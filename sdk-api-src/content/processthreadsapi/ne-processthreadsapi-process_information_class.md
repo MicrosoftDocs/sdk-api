@@ -27,7 +27,9 @@ api_name:
  - _PROCESS_INFORMATION_CLASS
  - PROCESS_INFORMATION_CLASS
 f1_keywords:
+ - _PROCESS_INFORMATION_CLASS
  - processthreadsapi/_PROCESS_INFORMATION_CLASS
+ - PROCESS_INFORMATION_CLASS
  - processthreadsapi/PROCESS_INFORMATION_CLASS
 dev_langs:
  - c++
@@ -54,7 +56,6 @@ The process information is represented by a <a href="/windows/win32/api/processt
 ### -field ProcessInPrivateInfo
 
 If a process is set to **ProcessInPrivate** mode, and a trace session has set the [EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) flag, then the trace session will drop all events from that process.
-
 
 ### -field ProcessPowerThrottling
 

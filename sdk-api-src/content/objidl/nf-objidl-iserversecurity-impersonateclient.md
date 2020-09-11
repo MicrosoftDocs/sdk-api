@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 20398b63-0fcb-40ab-93ed-f4c75760eb9e
 ms.date: 12/05/2018
 ms.keywords: IServerSecurity interface [COM],ImpersonateClient method, IServerSecurity.ImpersonateClient, IServerSecurity::ImpersonateClient, ImpersonateClient, ImpersonateClient method [COM], ImpersonateClient method [COM],IServerSecurity interface, _com_iserversecurity_impersonateclient, com.iserversecurity_impersonateclient, objidlbase/IServerSecurity::ImpersonateClient
-f1_keywords:
-- objidl/IServerSecurity.ImpersonateClient
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IServerSecurity.ImpersonateClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServerSecurity::ImpersonateClient
+ - objidl/IServerSecurity::ImpersonateClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IServerSecurity.ImpersonateClient
 ---
 
 # IServerSecurity::ImpersonateClient
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a server to impersonate a client for the duration of a call.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
-
-
-
 ## -remarks
-
-
 
 Usually, a method executes on a thread that uses the access token of the process. However, when impersonating a client, the server runs in the client's security context so that the server has access to the resources that the client has access to. When impersonation is necessary, the server calls the <b>ImpersonateClient</b> method to cause an access token representing the client's credentials to be assigned to the current thread. This thread token is used for access checks. <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">RevertToSelf</a> restores the current thread's access token.
 
@@ -83,23 +70,13 @@ At the end of each method call, COM will call <a href="https://docs.microsoft.co
 
 Traditionally, impersonation information is not nested â€“ the last call to any impersonation mechanism overrides any previous impersonation. However, in the apartment model, impersonation is maintained during nested calls. Thus if the server A receives a call from B, impersonates, calls C, receives a call from D, impersonates, reverts, and receives the reply from C, the impersonation token will be set back to B, not A.
 
-For information on using impersonation with asynchronous calls, see <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-and-asynchronous-calls">Impersonation and Asynchronous Calls</a>. 
-
-
-
-
+For information on using impersonation with asynchronous calls, see <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-and-asynchronous-calls">Impersonation and Asynchronous Calls</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coimpersonateclient">CoImpersonateClient</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
- 
-
- 
 

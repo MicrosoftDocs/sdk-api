@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
 ms.date: 12/05/2018
 ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA, RemoveDirectoryW, _win32_removedirectory, base.removedirectory, fileapi/RemoveDirectory, fileapi/RemoveDirectoryA, fileapi/RemoveDirectoryW, fs.removedirectory, winbase/RemoveDirectory, winbase/RemoveDirectoryA, winbase/RemoveDirectoryW
-f1_keywords:
-- fileapi/RemoveDirectory
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- RemoveDirectory
-- RemoveDirectoryA
-- RemoveDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveDirectoryA
+ - fileapi/RemoveDirectoryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - RemoveDirectory
+ - RemoveDirectoryA
+ - RemoveDirectoryW
 ---
 
 # RemoveDirectoryA function
@@ -58,17 +59,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes an existing empty directory.
 
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPathName [in]
 
@@ -85,19 +81,12 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 
 ## -returns
 
-
-
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RemoveDirectory</b> function marks a directory for 
     deletion on close. Therefore, the directory is not removed until the last handle to the directory is closed.
@@ -179,9 +168,6 @@ Yes
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
 
 
@@ -195,7 +181,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a>
- 
-
- 
 

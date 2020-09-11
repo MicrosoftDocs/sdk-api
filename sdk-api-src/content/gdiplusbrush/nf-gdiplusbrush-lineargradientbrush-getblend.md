@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getblend.htm
 ms.date: 12/05/2018
 ms.keywords: GetBlend, GetBlend method [GDI+], GetBlend method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetBlend method, LinearGradientBrush.GetBlend, LinearGradientBrush::GetBlend, _gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_
-f1_keywords:
-- gdiplusbrush/LinearGradientBrush.GetBlend
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- LinearGradientBrush.GetBlend
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - LinearGradientBrush::GetBlend
+ - gdiplusbrush/LinearGradientBrush::GetBlend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - LinearGradientBrush.GetBlend
 ---
 
 # LinearGradientBrush::GetBlend
@@ -50,29 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LinearGradientBrush::GetBlend</b> method gets the blend factors and their corresponding blend positions from a 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param blendFactors [out]
 
 Type: <b>REAL*</b>
 
-Pointer to an array that receives the blend factors. Each number in the array indicates a percentage of the ending color and is in the range from 0.0 through 1.0. 
-
+Pointer to an array that receives the blend factors. Each number in the array indicates a percentage of the ending color and is in the range from 0.0 through 1.0.
 
 ### -param blendPositions [out]
 
 Type: <b>REAL*</b>
 
-Pointer to an array that receives the blend positions. Each number in the array indicates a percentage of the distance between the starting boundary and the ending boundary and is in the range from 0.0 through 1.0, where 0.0 indicates the starting boundary of the gradient and 1.0 indicates the ending boundary. A blend position between 0.0 and 1.0 indicates a line, parallel to the boundary lines, that is a certain fraction of the distance from the starting boundary to the ending boundary. For example, a blend position of 0.7 indicates the line that is 70 percent of the distance from the starting boundary to the ending boundary. The color is constant on lines that are parallel to the boundary lines. 
-
+Pointer to an array that receives the blend positions. Each number in the array indicates a percentage of the distance between the starting boundary and the ending boundary and is in the range from 0.0 through 1.0, where 0.0 indicates the starting boundary of the gradient and 1.0 indicates the ending boundary. A blend position between 0.0 and 1.0 indicates a line, parallel to the boundary lines, that is a certain fraction of the distance from the starting boundary to the ending boundary. For example, a blend position of 0.7 indicates the line that is 70 percent of the distance from the starting boundary to the ending boundary. The color is constant on lines that are parallel to the boundary lines.
 
 ### -param count [in]
 
@@ -80,12 +74,9 @@ Type: <b>INT</b>
 
 Integer that specifies the number of blend factors to retrieve. Before calling the <b>LinearGradientBrush::GetBlend</b> method of a 
 					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object, call the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getblendcount">LinearGradientBrush::GetBlendCount</a> method of that same 
-					<b>LinearGradientBrush</b> object to determine the current number of blend factors. The number of blend positions retrieved is the same as the number of blend factors retrieved. 
-
+					<b>LinearGradientBrush</b> object to determine the current number of blend factors. The number of blend positions retrieved is the same as the number of blend factors retrieved.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -95,12 +86,7 @@ If the method succeeds, it returns Ok, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 A 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object has two parallel boundaries: a starting boundary and an ending boundary. A color is associated with each of these two boundaries. Each boundary is a straight line that passes through a specified point — the starting boundary passes through the starting point; the ending boundary passes through the ending point — and is perpendicular to the direction of the linear gradient brush. The direction of the linear gradient brush follows the line that is defined by the starting and ending points. This line, the "directional line," may be horizontal, vertical, or diagonal. All points that lie on a line that is parallel to the boundaries are the same color. When you fill an area with a linear gradient brush, the color changes gradually from one line to the next as you move along the directional line from the starting boundary to the ending boundary. By default, the change in color is proportional to the change in distance; that is, a line 30 percent of the distance between the starting boundary and the ending boundary has a color that is 30 percent of the distance between the starting boundary color and the ending boundary color. The color pattern is repeated outside of the starting and ending boundaries.
@@ -155,14 +141,7 @@ VOID Example_GetBlend(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -189,7 +168,4 @@ VOID Example_GetBlend(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
- 
-
- 
 

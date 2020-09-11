@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: f20f778b-fdd5-4c34-871b-d03cd1cd31cc
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter interface [COM+], IMultiInterfacePublisherFilter interface [COM+],described, _cos_IMultiInterfacePublisherFilter, cos.imultiinterfacepublisherfilter, eventsys/IMultiInterfacePublisherFilter
-f1_keywords:
-- eventsys/IMultiInterfacePublisherFilter
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IMultiInterfacePublisherFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiInterfacePublisherFilter
+ - eventsys/IMultiInterfacePublisherFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IMultiInterfacePublisherFilter
 ---
 
 # IMultiInterfacePublisherFilter interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages a filtered subscription cache for an event method. Only subscribers who meet the criteria specified by the filter are notified when the associated event is fired. The <b>IMultiInterfacePublisherFilter</b> interface differs from the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a> interface in that it supports multiple event interfaces for the event object.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Prepares the publisher filter to begin firing a filtered list of subscriptions u
 
 </td>
 </tr>
-</table> 
+</table>
 

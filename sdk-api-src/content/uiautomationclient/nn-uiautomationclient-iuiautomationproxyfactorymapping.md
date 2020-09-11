@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 7a938c1c-a11c-4fdd-a73a-e7656032f21e
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], IUIAutomationProxyFactoryMapping interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactoryMapping, uiauto_IUIAutomationProxyFactoryMapping, uiautomationclient/IUIAutomationProxyFactoryMapping, winauto.uiauto_IUIAutomationProxyFactoryMapping
-f1_keywords:
-- uiautomationclient/IUIAutomationProxyFactoryMapping
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationProxyFactoryMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationProxyFactoryMapping
+ - uiautomationclient/IUIAutomationProxyFactoryMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationProxyFactoryMapping
 ---
 
 # IUIAutomationProxyFactoryMapping interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes properties and methods for a table of proxy factories. Each table entry is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationproxyfactoryentry">IUIAutomationProxyFactoryEntry</a> interface. The entries are in the order in which the system will attempt to use the proxies.
-
 
 ## -inheritance
 
@@ -165,16 +164,9 @@ Retrieves the number of entries in the proxy factory table.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-proxyfactoryinterfaces">Proxy Factory Interfaces for Clients</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 0985e27c-aa70-43c1-bcec-00ef14f2df58
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Differential Compression], ISimilarityTraitsTable interface [Remote Differential Compression],described, fs.isimilaritytraitstable, msrdc/ISimilarityTraitsTable, rdc.isimilaritytraitstable
-f1_keywords:
-- msrdc/ISimilarityTraitsTable
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- ISimilarityTraitsTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISimilarityTraitsTable
+ - msrdc/ISimilarityTraitsTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - ISimilarityTraitsTable
 ---
 
 # ISimilarityTraitsTable interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods for storing per-file similarity data and performing similarity lookups.
-
 
 ## -inheritance
 
@@ -131,16 +130,9 @@ Retrieves the index of the last entry that was stored in the similarity traits t
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

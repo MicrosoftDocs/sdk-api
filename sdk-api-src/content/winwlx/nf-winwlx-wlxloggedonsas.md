@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d60d1464-1948-444c-801a-dde17905091b
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOnSAS, WlxLoggedOnSAS function [Security], _gina_wlxloggedonsas, security.wlxloggedonsas, winwlx/WlxLoggedOnSAS
-f1_keywords:
-- winwlx/WlxLoggedOnSAS
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winwlx.h
-api_name:
-- WlxLoggedOnSAS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlxLoggedOnSAS
+ - winwlx/WlxLoggedOnSAS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winwlx.h
+api_name:
+ - WlxLoggedOnSAS
 ---
 
 # WlxLoggedOnSAS function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxLoggedOnSAS function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -57,14 +57,10 @@ The <b>WlxLoggedOnSAS</b> function must be implemented by a replacement <a href=
 
 ## -parameters
 
-
-
-
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
 
 ### -param dwSasType [in]
 
@@ -122,17 +118,12 @@ Indicates that a smart card has been removed from a compatible device.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved [in]
 
 This parameter is reserved and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The <b>WlxLoggedOnSAS</b> function should return one of the following values.
 
@@ -274,34 +265,19 @@ Shuts down the system into the hibernate mode. If the system was not configured 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Winlogon calls <b>WlxLoggedOnSAS</b> when the logged-on user wants to shut down, log out, or lock the workstation. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL can lock the workstation by returning WLX_SAS_ACTION_LOCK_WKSTA. When this value is returned, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> locks the workstation and calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a> the next time it receives an SAS.
 
 Before calling <b>WlxLoggedOnSAS</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>
- 
-
- 
 

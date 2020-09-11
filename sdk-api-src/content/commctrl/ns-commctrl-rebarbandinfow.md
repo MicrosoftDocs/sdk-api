@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarbandinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPREBARBANDINFOW, LPREBARBANDINFO, LPREBARBANDINFO structure pointer [Windows Controls], RBBIM_BACKGROUND, RBBIM_CHEVRONLOCATION, RBBIM_CHEVRONSTATE, RBBIM_CHILD, RBBIM_CHILDSIZE, RBBIM_COLORS, RBBIM_HEADERSIZE, RBBIM_ID, RBBIM_IDEALSIZE, RBBIM_IMAGE, RBBIM_LPARAM, RBBIM_SIZE, RBBIM_STYLE, RBBIM_TEXT, RBBS_BREAK, RBBS_CHILDEDGE, RBBS_FIXEDBMP, RBBS_FIXEDSIZE, RBBS_GRIPPERALWAYS, RBBS_HIDDEN, RBBS_HIDETITLE, RBBS_NOGRIPPER, RBBS_NOVERT, RBBS_TOPALIGN, RBBS_USECHEVRON, RBBS_VARIABLEHEIGHT, REBARBANDINFO, REBARBANDINFO structure [Windows Controls], REBARBANDINFOA, REBARBANDINFOW, _win32_REBARBANDINFO, _win32_REBARBANDINFO_cpp, commctrl/LPREBARBANDINFO, commctrl/REBARBANDINFO, commctrl/REBARBANDINFOA, commctrl/REBARBANDINFOW, controls.REBARBANDINFO, controls._win32_REBARBANDINFO'
-f1_keywords:
-- commctrl/REBARBANDINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- REBARBANDINFO
-- REBARBANDINFOA
-- REBARBANDINFOW
 targetos: Windows
 req.typenames: REBARBANDINFOW, *LPREBARBANDINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagREBARBANDINFOW
+ - commctrl/tagREBARBANDINFOW
+ - LPREBARBANDINFOW
+ - commctrl/LPREBARBANDINFOW
+ - REBARBANDINFOW
+ - commctrl/REBARBANDINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - REBARBANDINFO
+ - REBARBANDINFOA
+ - REBARBANDINFOW
 ---
 
 # REBARBANDINFOW structure
@@ -51,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information that defines a band in a rebar control. 
-
+Contains information that defines a band in a rebar control.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Size of this structure, in bytes. Your application must fill this member before sending any messages that use the address of this structure as a parameter. 
-
+Size of this structure, in bytes. Your application must fill this member before sending any messages that use the address of this structure as a parameter.
 
 ### -field fMask
 
@@ -222,8 +221,6 @@ The <b>uChevronState</b> member is valid or must be set.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fStyle
 
@@ -363,8 +360,6 @@ Keep band in top row.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field clrFore
 
@@ -372,69 +367,59 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Band foreground colors.
 
-
 ### -field clrBack
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-Band background colors. If <b>hbmBack</b> specifies a background bitmap, these members are ignored. By default, the band will use the background color of the rebar control set with the <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-setbkcolor">RB_SETBKCOLOR</a> message. If a background color is specified here, then this background color will be used instead. 
-
+Band background colors. If <b>hbmBack</b> specifies a background bitmap, these members are ignored. By default, the band will use the background color of the rebar control set with the <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-setbkcolor">RB_SETBKCOLOR</a> message. If a background color is specified here, then this background color will be used instead.
 
 ### -field lpText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-Pointer to a buffer that contains the display text for the band. If band information is being requested from the control and  RBBIM_TEXT is specified in <b>fMask</b>, this member must be initialized to the address of the buffer that will receive the text. 
-
+Pointer to a buffer that contains the display text for the band. If band information is being requested from the control and  RBBIM_TEXT is specified in <b>fMask</b>, this member must be initialized to the address of the buffer that will receive the text.
 
 ### -field cch
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Size of the buffer at <b>lpText</b>, in bytes. If information is not being requested from the control, this member is ignored. 
-
+Size of the buffer at <b>lpText</b>, in bytes. If information is not being requested from the control, this member is ignored.
 
 ### -field iImage
 
 Type: <b>int</b>
 
-Zero-based index of any image that should be displayed in the band. The image list is set using the <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-setbarinfo">RB_SETBARINFO</a> message. 
-
+Zero-based index of any image that should be displayed in the band. The image list is set using the <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-setbarinfo">RB_SETBARINFO</a> message.
 
 ### -field hwndChild
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the child window contained in the band, if any. 
-
+Handle to the child window contained in the band, if any.
 
 ### -field cxMinChild
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Minimum width of the child window, in pixels. The band can't be sized smaller than this value. 
-
+Minimum width of the child window, in pixels. The band can't be sized smaller than this value.
 
 ### -field cyMinChild
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Minimum height of the child window, in pixels. The band can't be sized smaller than this value. 
-
+Minimum height of the child window, in pixels. The band can't be sized smaller than this value.
 
 ### -field cx
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Length of the band, in pixels. 
-
+Length of the band, in pixels.
 
 ### -field hbmBack
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
-Handle to a bitmap that is used as the background for this band. 
-
+Handle to a bitmap that is used as the background for this band.
 
 ### -field wID
 
@@ -442,54 +427,47 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 UINT value that the control uses to identify this band for custom draw notification messages.
 
-
 ### -field cyChild
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Initial height of the band, in pixels. This member is ignored unless the RBBS_VARIABLEHEIGHT style is specified. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Initial height of the band, in pixels. This member is ignored unless the RBBS_VARIABLEHEIGHT style is specified.
 
 ### -field cyMaxChild
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Maximum height of the band, in pixels. This member is ignored unless the RBBS_VARIABLEHEIGHT style is specified. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Maximum height of the band, in pixels. This member is ignored unless the RBBS_VARIABLEHEIGHT style is specified.
 
 ### -field cyIntegral
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Step value by which the band can grow or shrink, in pixels. If the band is resized, it will be resized in steps specified by this value. This member is ignored unless the  RBBS_VARIABLEHEIGHT style is specified. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Step value by which the band can grow or shrink, in pixels. If the band is resized, it will be resized in steps specified by this value. This member is ignored unless the  RBBS_VARIABLEHEIGHT style is specified.
 
 ### -field cxIdeal
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Ideal width of the band, in pixels. If the band is maximized to the ideal width (see <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-maximizeband">RB_MAXIMIZEBAND</a>), the rebar control will attempt to make the band this width. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Ideal width of the band, in pixels. If the band is maximized to the ideal width (see <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-maximizeband">RB_MAXIMIZEBAND</a>), the rebar control will attempt to make the band this width.
 
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Application-defined value. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Application-defined value.
 
 ### -field cxHeader
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Size of the band's header, in pixels. The band header is the area between the edge of the band and the edge of the child window. This is the area where band text and images are displayed, if they are specified. If this value is specified, it will override the normal header dimensions that the control calculates for the band. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Size of the band's header, in pixels. The band header is the area between the edge of the band and the edge of the child window. This is the area where band text and images are displayed, if they are specified. If this value is specified, it will override the normal header dimensions that the control calculates for the band.
 
 ### -field rcChevronLocation
 
@@ -498,7 +476,6 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6</a>. Location of the chevron.
 
-
 ### -field uChevronState
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
@@ -506,10 +483,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6</a>. A combination of the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-state-constants">Object State Constants</a>.
 
-
 ## -remarks
-
-
 
 The <b>cxMinChild</b>, <b>cyMinChild</b>, and <b>cx</b> members provide information on dimensions relative to the orientation of the control. That is, for a horizontal rebar control, <b>cxMinChild</b> and <b>cx</b> are horizontal measurements and <b>cyMinChild</b> is a vertical measurement. However, if the control uses the <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-styles">CCS_VERT</a> style, <b>cxMinChild</b> and <b>cx</b> are vertical measurements and <b>cyMinChild</b> is a horizontal measurement. 
 

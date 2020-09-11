@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 26e08e4d-ac69-49f8-8a1a-1ba1a04d085c
 ms.date: 12/05/2018
 ms.keywords: DeleteProxyArpEntry, DeleteProxyArpEntry function [IP Helper], _iphlp_deleteproxyarpentry, iphlp.deleteproxyarpentry, iphlpapi/DeleteProxyArpEntry
-f1_keywords:
-- iphlpapi/DeleteProxyArpEntry
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- DeleteProxyArpEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteProxyArpEntry
+ - iphlpapi/DeleteProxyArpEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - DeleteProxyArpEntry
 ---
 
 # DeleteProxyArpEntry function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DeleteProxyArpEntry</b> function deletes the PARP entry on the local computer specified by the <i>dwAddress</i> and <i>dwIfIndex</i> parameters.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAddress [in]
 
 The IPv4 address for which this computer is acting as a proxy.
 
-
 ### -param dwMask [in]
 
 The subnet mask for the IPv4 address specified in the <i>dwAddress</i> parameter.
-
 
 ### -param dwIfIndex [in]
 
 The index of the interface on which this computer is supporting proxy ARP for the IP address specified by the <i>dwAddress</i> parameter.
 
-
 ## -returns
-
-
 
 The function returns <b>NO_ERROR</b> (zero) if the function is successful. 
 
@@ -133,14 +124,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To retrieve the ARP table, call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a> function. 
 
@@ -151,12 +136,7 @@ On Windows Vista and later, the <b>DeleteProxyArpEntry</b> function can only be
 <div class="alert"><b>Note</b>  This function executes a privileged operation. For this function to execute successfully, the caller must be logged on as a member of the Administrators group or the NetworkConfigurationOperators group.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createproxyarpentry">CreateProxyArpEntry</a>
 
@@ -175,7 +155,4 @@ On Windows Vista and later, the <b>DeleteProxyArpEntry</b> function can only be
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_proxyarp">MIB_PROXYARP</a>
- 
-
- 
 

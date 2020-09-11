@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: ADBA96C3-BD9E-4F12-89C8-371F6F7D369D
 ms.date: 12/05/2018
 ms.keywords: D3D12_TILED_RESOURCES_TIER, D3D12_TILED_RESOURCES_TIER enumeration, D3D12_TILED_RESOURCES_TIER_1, D3D12_TILED_RESOURCES_TIER_2, D3D12_TILED_RESOURCES_TIER_3, D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED, d3d12/D3D12_TILED_RESOURCES_TIER, d3d12/D3D12_TILED_RESOURCES_TIER_1, d3d12/D3D12_TILED_RESOURCES_TIER_2, d3d12/D3D12_TILED_RESOURCES_TIER_3, d3d12/D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED, direct3d12.d3d12_tiled_resources_tier
-f1_keywords:
-- d3d12/D3D12_TILED_RESOURCES_TIER
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_TILED_RESOURCES_TIER
 targetos: Windows
 req.typenames: D3D12_TILED_RESOURCES_TIER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_TILED_RESOURCES_TIER
+ - d3d12/D3D12_TILED_RESOURCES_TIER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_TILED_RESOURCES_TIER
 ---
 
 # D3D12_TILED_RESOURCES_TIER enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the tier level at which tiled resources are supported.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED
 
@@ -66,8 +61,6 @@ Indicates that textures cannot be created with the <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">ID3D12Device::CreateReservedResource</a> cannot be used, not even for buffers.
-            
-
 
 ### -field D3D12_TILED_RESOURCES_TIER_1
 
@@ -85,8 +78,6 @@ GPU reads or writes to NULL mappings are undefined.
             
 
 When the size of a texture mipmap level is an integer multiple of the standard tile shape for its format, it is guaranteed to be nonpacked.
-            
-
 
 ### -field D3D12_TILED_RESOURCES_TIER_2
 
@@ -106,23 +97,14 @@ Indicates that a superset of Tier_1 functionality is supported, including this a
               </li>
 </ul>
 Adapters that support feature level 12_0 all support TIER_2 or greater.
-            
-
 
 ### -field D3D12_TILED_RESOURCES_TIER_3
 
 Indicates that a superset of Tier 2 is supported, with the addition that 3D textures (<a href="https://docs.microsoft.com/windows/desktop/direct3d12/volume-tiled-resources">Volume Tiled Resources</a>) are supported.
-          
-
 
 ### -field D3D12_TILED_RESOURCES_TIER_4
 
-
-
-
 ## -remarks
-
-
 
 This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
       
@@ -161,15 +143,7 @@ Three significant changes over D3D11 are:
           </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
- 
-
- 
 

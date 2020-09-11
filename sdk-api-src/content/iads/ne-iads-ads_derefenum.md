@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 4cd080cc-59f9-48e8-93c1-1fccea0238ad
 ms.date: 12/05/2018
 ms.keywords: ADS_DEREFENUM, ADS_DEREFENUM enumeration [ADSI], ADS_DEREF_ALWAYS, ADS_DEREF_FINDING, ADS_DEREF_NEVER, ADS_DEREF_SEARCHING, _ds_ads_derefenum, adsi.ads__derefenum, adsi.ads_derefenum, iads/ADS_DEREFENUM, iads/ADS_DEREF_ALWAYS, iads/ADS_DEREF_FINDING, iads/ADS_DEREF_NEVER, iads/ADS_DEREF_SEARCHING
-f1_keywords:
-- iads/ADS_DEREFENUM
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iads.h
-api_name:
-- ADS_DEREFENUM
 targetos: Windows
 req.typenames: ADS_DEREFENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_ads_0000_0000_0020
+ - iads/__MIDL___MIDL_itf_ads_0000_0000_0020
+ - ADS_DEREFENUM
+ - iads/ADS_DEREFENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iads.h
+api_name:
+ - ADS_DEREFENUM
 ---
 
 # ADS_DEREFENUM enumeration
@@ -49,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADS_DEREFENUM</b> enumeration specifies the process through which aliases are dereferenced.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ADS_DEREF_NEVER
 
 Does not dereference aliases when searching or locating the base object of the search.
 
-
 ### -field ADS_DEREF_SEARCHING
 
 Dereferences aliases when searching subordinates of the base object, but not when locating the base itself.
-
 
 ### -field ADS_DEREF_FINDING
 
 Dereferences aliases when locating the base object of the search, but not when searching its subordinates.
 
-
 ### -field ADS_DEREF_ALWAYS
 
 Dereferences aliases when both searching subordinates and locating the base object of the search.
 
-
 ## -remarks
-
-
 
 The  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a> interface uses these constants to set the alias dereferencing behavior. If no option is specified, the server defaults to <b>ADS_DEREF_NEVER</b>.
 
@@ -102,14 +94,7 @@ prefInfo[0].vValue.Integer = ADS_DEREF_ALWAYS;
 hr = m_pSearch->SetSearchPreference(prefInfo, 1);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
@@ -117,7 +102,4 @@ hr = m_pSearch->SetSearchPreference(prefInfo, 1);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
- 
-
- 
 

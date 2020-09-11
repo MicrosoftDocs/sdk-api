@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ca957f8c-ac8e-472e-b762-ddc45e20462d
 ms.date: 12/05/2018
 ms.keywords: GetRootItems, GetRootItems method [Windows Shell], GetRootItems method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetRootItems method, INameSpaceTreeControl.GetRootItems, INameSpaceTreeControl::GetRootItems, _shell_INameSpaceTreeControl_GetRootItems, shell.INameSpaceTreeControl_GetRootItems, shobjidl_core/INameSpaceTreeControl::GetRootItems
-f1_keywords:
-- shobjidl_core/INameSpaceTreeControl.GetRootItems
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- INameSpaceTreeControl.GetRootItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControl::GetRootItems
+ - shobjidl_core/INameSpaceTreeControl::GetRootItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - INameSpaceTreeControl.GetRootItems
 ---
 
 # INameSpaceTreeControl::GetRootItems
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an array of the root items.
 
-
 ## -parameters
-
-
-
 
 ### -param ppsiaRootItems [out]
 
@@ -64,14 +60,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to an array of root items.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

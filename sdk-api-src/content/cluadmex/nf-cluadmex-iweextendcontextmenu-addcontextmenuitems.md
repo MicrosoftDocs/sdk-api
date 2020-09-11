@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 48de3627-a919-437b-b19b-374327234df9
 ms.date: 12/05/2018
 ms.keywords: AddContextMenuItems, AddContextMenuItems method [Failover Cluster], AddContextMenuItems method [Failover Cluster],IWEExtendContextMenu interface, IWEExtendContextMenu interface [Failover Cluster],AddContextMenuItems method, IWEExtendContextMenu.AddContextMenuItems, IWEExtendContextMenu::AddContextMenuItems, _wolf_iweextendcontextmenu_addcontextmenuitems, cluadmex/IWEExtendContextMenu::AddContextMenuItems, mscs.iweextendcontextmenu_addcontextmenuitems
-f1_keywords:
-- cluadmex/IWEExtendContextMenu.AddContextMenuItems
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWEExtendContextMenu.AddContextMenuItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWEExtendContextMenu::AddContextMenuItems
+ - cluadmex/IWEExtendContextMenu::AddContextMenuItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWEExtendContextMenu.AddContextMenuItems
 ---
 
 # IWEExtendContextMenu::AddContextMenuItems
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
 Allows you to create context menu items for a cluster object and add the items to a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> context menu.
 
-
 ## -parameters
 
-
-
-
 ### -param piData [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information relating to the new menu 
        item. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method with the 
@@ -106,10 +101,7 @@ Depending on the type of <a href="https://docs.microsoft.com/previous-versions/w
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwccontextmenucallback">IWCContextMenuCallback</a> 
        interface implementation for adding new items to the Cluster Administrator context menu.
 
-
 ## -returns
-
-
 
 Return one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
@@ -156,14 +148,8 @@ The extension does not support adding context menu items.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <p class="proch"><b>To implement AddContextMenuItems</b>
 
@@ -180,13 +166,7 @@ To add context menu items and to implement code that executes when your context 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a> 
      method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterdatainfo">IGetClusterDataInfo</a>
 
@@ -233,7 +213,4 @@ To add context menu items and to implement code that executes when your context 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
- 
-
- 
 

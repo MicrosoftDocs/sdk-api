@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e013dd73-7276-48b3-bf5f-ffb4b3d49419
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportAudioParameters method, IAMExtTransport.SetTransportAudioParameters, IAMExtTransport::SetTransportAudioParameters, IAMExtTransportSetTransportAudioParameters, SetTransportAudioParameters, SetTransportAudioParameters method [DirectShow], SetTransportAudioParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportaudioparameters, strmif/IAMExtTransport::SetTransportAudioParameters
-f1_keywords:
-- strmif/IAMExtTransport.SetTransportAudioParameters
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.SetTransportAudioParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::SetTransportAudioParameters
+ - strmif/IAMExtTransport::SetTransportAudioParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.SetTransportAudioParameters
 ---
 
 # IAMExtTransport::SetTransportAudioParameters
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetTransportAudioParameters</code> assigns audio parameter settings for external transport.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param Param [in]
 
@@ -96,26 +91,16 @@ Specifies the audio parameter you want to set as a <b>long</b> integer.
 <td>Set the active audio input.</td>
 </tr>
 </table>
- 
-
 
 ### -param Value [in]
 
 Specifies which audio channel or channels is assigned the parameter as a <b>long</b> integer.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Specify an exact channel or channels in <i>Value</i> by selecting ED_AUDIO_1 through ED_AUDIO_24 (use a bitwise OR to combine), or all channels by selecting ED_AUDIO_ALL.
 
@@ -123,13 +108,7 @@ Specify an exact channel or channels in <i>Value</i> by selecting ED_AUDIO_1 thr
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -140,7 +119,4 @@ Specify an exact channel or channels in <i>Value</i> by selecting ED_AUDIO_1 thr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-gettransportaudioparameters">IAMExtTransport::GetTransportAudioParameters</a>
- 
-
- 
 

@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFont
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFont method, IDWriteFontSetBuilder2.AddFont, IDWriteFontSetBuilder2::AddFont, AddFont, AddFont method [Direct Write], AddFont method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfont, dwrite_3/IDWriteFontSetBuilder2::AddFont
-f1_keywords:
-- dwrite_3/IDWriteFontSetBuilder2.AddFont
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSetBuilder2::AddFont
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSetBuilder2::AddFont
+ - dwrite_3/IDWriteFontSetBuilder2::AddFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSetBuilder2::AddFont
 ---
 
 ## -description
@@ -114,3 +115,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 The font properties should include at least a family (typographic or weight/style/stretch). Otherwise the font would be accessible in the **IDWriteFontSet** only by index, not name.
 
 ## -see-also
+

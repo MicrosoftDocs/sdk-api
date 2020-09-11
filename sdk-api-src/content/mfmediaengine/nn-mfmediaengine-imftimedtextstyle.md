@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ED358A36-BEEF-491E-8984-938F71472F26
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], IMFTimedTextStyle interface [Media Foundation],described, mf.imftimedtextstyle, mfmediaengine/IMFTimedTextStyle
-f1_keywords:
-- mfmediaengine/IMFTimedTextStyle
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextStyle
+ - mfmediaengine/IMFTimedTextStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextStyle
 ---
 
 # IMFTimedTextStyle interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the style for timed text.
-
 
 ## -inheritance
 
@@ -185,16 +184,9 @@ Determines whether the timed-text style is external.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

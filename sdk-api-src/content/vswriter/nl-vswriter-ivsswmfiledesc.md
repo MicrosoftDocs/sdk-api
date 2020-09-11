@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 0b86882d-af1b-4a09-8c25-5b806c9ca909
 ms.date: 12/05/2018
 ms.keywords: IVssWMFiledesc, IVssWMFiledesc interface [VSS], IVssWMFiledesc interface [VSS],described, _win32_ivsswmfiledesc, base.ivsswmfiledesc, vswriter/IVssWMFiledesc
-f1_keywords:
-- vswriter/IVssWMFiledesc
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWMFiledesc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWMFiledesc
+ - vswriter/IVssWMFiledesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWMFiledesc
 ---
 
 # IVssWMFiledesc class
 
 
 ## -description
-
 
 The 
 <b>IVssWMFiledesc</b> interface is a C++ (not COM) interface returned to a calling application by a number of query methods. It provides detailed information about a file or set of files (a file set).
@@ -143,5 +143,5 @@ Determines whether only files in the root directory or files in the entire direc
 
 </td>
 </tr>
-</table> 
+</table>
 

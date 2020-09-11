@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\typetext.htm
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],TypeText method, ITextSelection.TypeText, ITextSelection::TypeText, TypeText, TypeText method [Windows Controls], TypeText method [Windows Controls],ITextSelection interface, _win32_ITextSelection_TypeText, _win32_ITextSelection_TypeText_cpp, controls.ITextSelection_TypeText, controls._win32_ITextSelection_TypeText, tom/ITextSelection::TypeText
-f1_keywords:
-- tom/ITextSelection.TypeText
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextSelection.TypeText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextSelection::TypeText
+ - tom/ITextSelection::TypeText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextSelection.TypeText
 ---
 
 # ITextSelection::TypeText
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Types the string given by <i>bstr</i> at this selection as if someone typed it. This is similar to the underlying <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a> method, but is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes.
 
-
 ## -parameters
-
-
-
 
 ### -param bstr
 
@@ -64,10 +60,7 @@ Type: <b>BSTR</b>
 
 String to type into this selection.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -113,26 +106,14 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method types the string given by <i>bstr</i> at this selection as if someone typed it. Using <b>TypeText</b> is faster than sending characters through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>function, but it is slower than using <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>. 
 
-<b>TypeText</b> is similar to the underlying <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a> method, however, it is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes. For example, it deletes any nondegenerate selection and then inserts or overtypes (depending on the Insert/Overtype key state—see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a> method) the string <i>bstr</i> at the insertion point, leaving this selection as an insertion point following the inserted text. 
-
-
-
+<b>TypeText</b> is similar to the underlying <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a> method, however, it is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes. For example, it deletes any nondegenerate selection and then inserts or overtypes (depending on the Insert/Overtype key state—see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a> method) the string <i>bstr</i> at the insertion point, leaving this selection as an insertion point following the inserted text.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -163,7 +144,4 @@ This method types the string given by <i>bstr</i> at this selection as if someon
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

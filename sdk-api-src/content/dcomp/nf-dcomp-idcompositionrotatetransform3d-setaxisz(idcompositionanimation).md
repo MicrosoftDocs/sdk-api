@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 2264BB6F-D2B7-49A8-959A-FA5AA935F6CC
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisZ method, IDCompositionRotateTransform3D.SetAxisZ, IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ, IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation*), SetAxisZ, SetAxisZ method [DirectComposition], SetAxisZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisZ, directcomp.idcompositionrotatetransform3d_setaxisz_idcompositionanimation
-f1_keywords:
-- dcomp/IDCompositionRotateTransform3D.SetAxisZ
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionRotateTransform3D.SetAxisZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionRotateTransform3D::SetAxisZ
+ - dcomp/IDCompositionRotateTransform3D::SetAxisZ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionRotateTransform3D.SetAxisZ
 ---
 
 # IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation)
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 
-
 ## -parameters
-
-
-
 
 ### -param animation [in]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/
 
 An animation object that determines how the value of the AxisZ property changes over time. This parameter must not be NULL.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 When setting the axis to a non-default value, you should always set all three axis properties (AxisX, AxisY, and AxisZ).
 
@@ -91,13 +79,7 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 The default value is 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrotatetransform3d">IDCompositionRotateTransform3D</a>
 
@@ -108,7 +90,4 @@ The default value is 0.
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisy(float)">IDCompositionRotateTransform3D::SetAxisY</a>
- 
-
- 
 

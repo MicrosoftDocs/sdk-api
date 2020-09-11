@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b
 ms.date: 12/05/2018
 ms.keywords: AddClusterResourceNode, AddClusterResourceNode function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE function [Failover Cluster], _wolf_addclusterresourcenode, clusapi/AddClusterResourceNode, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, mscs.addclusterresourcenode
-f1_keywords:
-- clusapi/AddClusterResourceNode
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- AddClusterResourceNode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddClusterResourceNode
+ - clusapi/AddClusterResourceNode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - AddClusterResourceNode
 ---
 
 # AddClusterResourceNode function
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> to the list of possible nodes that a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> can run on. The 
     <b>PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle to a resource that will add a node to its possible owners list.
-
 
 ### -param hNode [in]
 
 Handle to the node to be added to the list of potential host nodes belonging to the resource identified by 
       <i>hResource</i>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -81,25 +73,14 @@ If the operation fails,
        <b>AddClusterResourceNode</b> returns one of the 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
     can have additional destructive effects. For information on how LPC and RPC handles are created, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
 
@@ -110,7 +91,4 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-removeclusterresourcenode">RemoveClusterResourceNode</a>
- 
-
- 
 

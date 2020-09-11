@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 01660e9d-d8f2-40ef-a6d6-b80f0140ab5f
 ms.date: 12/05/2018
 ms.keywords: CoFreeUnusedLibrariesEx, CoFreeUnusedLibrariesEx function [COM], _com_CoFreeUnusedLibrariesEx, com.cofreeunusedlibrariesex, combaseapi/CoFreeUnusedLibrariesEx
-f1_keywords:
-- combaseapi/CoFreeUnusedLibrariesEx
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoFreeUnusedLibrariesEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoFreeUnusedLibrariesEx
+ - combaseapi/CoFreeUnusedLibrariesEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoFreeUnusedLibrariesEx
 ---
 
 # CoFreeUnusedLibrariesEx function
@@ -53,28 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unloads any DLLs that are no longer in use and whose unload delay has expired.
 
-
 ## -parameters
-
-
-
 
 ### -param dwUnloadDelay [in]
 
 The delay in milliseconds between the time that the DLL has stated it can be unloaded until it becomes a candidate to unload. Setting this parameter to INFINITE uses the system default delay (10 minutes). Setting this parameter to 0 forces the unloading of any DLLs without any delay.
 
-
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -remarks
-
-
 
 COM supplies functions to reclaim memory held by DLLs containing components. The most commonly used function is <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries">CoFreeUnusedLibraries</a>. <b>CoFreeUnusedLibraries</b> does not immediately release DLLs that have no active object. There is a 10-minute delay for multithreaded apartments (MTAs) and neutral apartments (NAs). For single-threaded apartments (STAs), there is no delay.
 
@@ -96,14 +88,7 @@ Setting <i>dwUnloadDelay</i> to 0 may have unexpected consequences. The componen
 
 This behavior is triggered by the DLL supplying components with threading models set to Free, Neutral, or Both. For a threading model set to Apartment (or if no threading model is specified), <i>dwUnloadDelay</i> is treated as 0 because these components are tied to the single thread hosting the apartment.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cofreealllibraries">CoFreeAllLibraries</a>
 
@@ -122,7 +107,4 @@ This behavior is triggered by the DLL supplying components with threading models
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-dllcanunloadnow">DllCanUnloadNow</a>
- 
-
- 
 

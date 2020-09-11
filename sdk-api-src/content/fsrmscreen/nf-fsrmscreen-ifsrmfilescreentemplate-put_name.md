@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: b72309d1-8b8e-46bc-bca4-e6e47dae88e8
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenTemplate interface [File Server Resource Manager],Name property, IFsrmFileScreenTemplate.Name, IFsrmFileScreenTemplate.put_Name, IFsrmFileScreenTemplate::Name, IFsrmFileScreenTemplate::get_Name, IFsrmFileScreenTemplate::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileScreenTemplate interface, fs.ifsrmfilescreentemplate_name, fsrm.ifsrmfilescreentemplate_name, fsrmscreen/IFsrmFileScreenTemplate::Name, fsrmscreen/IFsrmFileScreenTemplate::get_Name, fsrmscreen/IFsrmFileScreenTemplate::put_Name, put_Name
-f1_keywords:
-- fsrmscreen/IFsrmFileScreenTemplate.Name
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreenTemplate.Name
-- IFsrmFileScreenTemplate.get_Name
-- IFsrmFileScreenTemplate.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreenTemplate::put_Name
+ - fsrmscreen/IFsrmFileScreenTemplate::put_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreenTemplate.Name
+ - IFsrmFileScreenTemplate.get_Name
+ - IFsrmFileScreenTemplate.put_Name
 ---
 
 # IFsrmFileScreenTemplate::put_Name
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -60,13 +60,9 @@ Retrieves and sets the name of the file screen template.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If a template with the specified name exists, the template fails with 
     <b>FSRM_E_ALREADY_EXISTS</b> when you call the 
@@ -80,19 +76,11 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplate">IFsrmFileScreenTemplate</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreentemplate">MSFT_FSRMFileScreenTemplate</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c499f32b-3897-4c61-b9c1-d660648aab76
 ms.date: 12/05/2018
 ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], IFileBasedLogInit interface [COM],described, _com_ifilebasedloginit, com.ifilebasedloginit, txlogpub/IFileBasedLogInit
-f1_keywords:
-- txlogpub/IFileBasedLogInit
-dev_langs:
-- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Txlogpub.h
-api_name:
-- IFileBasedLogInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileBasedLogInit
+ - txlogpub/IFileBasedLogInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Txlogpub.h
+api_name:
+ - IFileBasedLogInit
 ---
 
 # IFileBasedLogInit interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes an instance of a file based implementation of <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>. 
-
+Initializes an instance of a file based implementation of <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>.
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Create a new log instance on the specified file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
- 
-
- 
 

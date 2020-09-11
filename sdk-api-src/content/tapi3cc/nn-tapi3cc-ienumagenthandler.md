@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: a318318a-769e-4619-a461-4988d90d3f1a
 ms.date: 12/05/2018
 ms.keywords: IEnumAgentHandler, IEnumAgentHandler interface [TAPI 2.2], IEnumAgentHandler interface [TAPI 2.2],described, _tapi3_ienumagenthandler, tapi3.ienumagenthandler, tapi3cc/IEnumAgentHandler
-f1_keywords:
-- tapi3cc/IEnumAgentHandler
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumAgentHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumAgentHandler
+ - tapi3cc/IEnumAgentHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumAgentHandler
 ---
 
 # IEnumAgentHandler interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IEnumAgentHandler</b> interface provides COM-standard enumeration methods for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-enumerateagenthandlers">ITTAPICallCenter::EnumerateAgentHandlers</a> method returns a pointer to 
 <b>IEnumAgentHandler</b>.
-
 
 ## -inheritance
 
@@ -108,5 +107,5 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

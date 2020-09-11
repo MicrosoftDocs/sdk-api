@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: eb747c85-1ad1-4510-b674-7d9cf9fa9021
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetHeartbeatInterval, MI_SubscriptionDeliveryOptions_SetHeartbeatInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetHeartbeatInterval, wmi_v2.mi_subscriptiondeliveryoptions_setheartbeatinterval
-f1_keywords:
-- mi/MI_SubscriptionDeliveryOptions_SetHeartbeatInterval
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_SubscriptionDeliveryOptions_SetHeartbeatInterval
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_SubscriptionDeliveryOptions_SetHeartbeatInterval
+ - mi/MI_SubscriptionDeliveryOptions_SetHeartbeatInterval
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_SubscriptionDeliveryOptions_SetHeartbeatInterval
 ---
 
 # MI_SubscriptionDeliveryOptions_SetHeartbeatInterval function
@@ -49,47 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the heartbeat interval.
 
-
 ## -parameters
-
-
-
 
 ### -param self [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.
 
-
 ### -param value [in]
 
 Interval between delivery of results whereby the server notifies the client that the server is still connected.
 
-
 ## -returns
-
-
 
 A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
-
-
-
 ## -remarks
-
-
 
 If no events are available, the server uses this interval to send a heartbeat back to the client so that the client knows that the server is still there. This function is relevant for push delivery.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_interval">MI_Interval</a>
 
@@ -132,7 +113,4 @@ If no events are available, the server uses this interval to send a heartbeat ba
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setdeliveryretryinterval">MI_SubscriptionDeliveryOptions_SetDeliveryRetryInterval</a>
- 
-
- 
 

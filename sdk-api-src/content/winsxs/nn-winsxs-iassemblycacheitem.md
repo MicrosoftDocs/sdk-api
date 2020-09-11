@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 9df9ee58-0354-49f0-af9c-5b92179cfaea
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCacheItem, IAssemblyCacheItem interface [Side-by-side Assemblies], IAssemblyCacheItem interface [Side-by-side Assemblies],described, setup.iassemblycacheitem, winsxs/IAssemblyCacheItem
-f1_keywords:
-- winsxs/IAssemblyCacheItem
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sxs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sxs.dll
-api_name:
-- IAssemblyCacheItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyCacheItem
+ - winsxs/IAssemblyCacheItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sxs.dll
+api_name:
+ - IAssemblyCacheItem
 ---
 
 # IAssemblyCacheItem interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAssemblyCacheItem</b> interface can be used to install side-by-side assemblies into the side-by-side store using a stream-based installation.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Copies the source of a manifest or module into a stream.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 0862cd4a-4d22-4d8d-a754-0cd376d44b22
 ms.date: 12/05/2018
 ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection, GetOutputNodeCollection method [Media Foundation], GetOutputNodeCollection method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetOutputNodeCollection method, IMFTopology.GetOutputNodeCollection, IMFTopology::GetOutputNodeCollection, mf.imftopology_getoutputnodecollection, mfidl/IMFTopology::GetOutputNodeCollection
-f1_keywords:
-- mfidl/IMFTopology.GetOutputNodeCollection
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopology.GetOutputNodeCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopology::GetOutputNodeCollection
+ - mfidl/IMFTopology::GetOutputNodeCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopology.GetOutputNodeCollection
 ---
 
 # IMFTopology::GetOutputNodeCollection
@@ -50,35 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the output nodes in the topology.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param ppCollection [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface. The caller must release the pointer. The collection contains <b>IUnknown</b> pointers to all of the output nodes in the topology. Each pointer can be queried for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface. The collection might be empty.
-          
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
@@ -89,7 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
 

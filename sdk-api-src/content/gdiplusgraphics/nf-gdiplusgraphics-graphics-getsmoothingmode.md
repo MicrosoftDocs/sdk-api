@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getsmoothingmode.htm
 ms.date: 12/05/2018
 ms.keywords: GetSmoothingMode, GetSmoothingMode method [GDI+], GetSmoothingMode method [GDI+],Graphics class, Graphics class [GDI+],GetSmoothingMode method, Graphics.GetSmoothingMode, Graphics::GetSmoothingMode, _gdiplus_CLASS_Graphics_GetSmoothingMode_, gdiplus._gdiplus_CLASS_Graphics_GetSmoothingMode_
-f1_keywords:
-- gdiplusgraphics/Graphics.GetSmoothingMode
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.GetSmoothingMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::GetSmoothingMode
+ - gdiplusgraphics/Graphics::GetSmoothingMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.GetSmoothingMode
 ---
 
 # Graphics::GetSmoothingMode
@@ -50,21 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::GetSmoothingMode</b> method determines whether smoothing (antialiasing) is applied to the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-smoothingmode">SmoothingMode</a></b>
 
@@ -73,12 +65,7 @@ If smoothing (antialiasing) is applied to this
 						<b>Graphics</b> object, this method returns SmoothingModeNone. SmoothingModeAntiAlias and SmoothingModeNone are elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-smoothingmode">SmoothingMode</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 To get the rendering quality level for text, use the 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gettextrenderinghint">Graphics::GetTextRenderingHint</a> method.
@@ -117,14 +104,7 @@ VOID Example_GetSmoothingMode(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-antialiasing-with-lines-and-curves-about">Antialiasing with Lines and Curves</a>
 
@@ -139,7 +119,4 @@ VOID Example_GetSmoothingMode(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-bitmaps-use">Loading and Displaying Bitmaps</a>
- 
-
- 
 

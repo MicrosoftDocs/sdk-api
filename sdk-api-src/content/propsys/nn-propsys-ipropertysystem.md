@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 9ead94d9-4d4e-44c6-8c53-11c4c4ee2fb2
 ms.date: 12/05/2018
 ms.keywords: IPropertySystem, IPropertySystem interface [Windows Properties], IPropertySystem interface [Windows Properties],described, properties.IPropertySystem, propsys/IPropertySystem, shell.IPropertySystem, shell_IPropertySystem
-f1_keywords:
-- propsys/IPropertySystem
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertySystem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySystem
+ - propsys/IPropertySystem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertySystem
 ---
 
 # IPropertySystem interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that get property descriptions, register and unregister property schemas, enumerate property descriptions, and format property values in a type-strict way.
-
 
 ## -inheritance
 
@@ -149,14 +148,9 @@ Informs the schema subsystem of the removal of a property description schema (.p
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Many of the exported APIs (such as <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a>) are simply wrappers around the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a> methods. If your code calls a lot of these helper APIs in sequence, it may be worthwhile to instantiate a single <b>IPropertySystem</b> object, and call the methods directly, rather than calling the helper APIs. (To improve the performance, the helper APIs do obtain a cached instance of the <b>IPropertySystem</b> object.)
-
-
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ce155b83-ee4a-47d4-9258-a1d18cf25f8b
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl interface [DirectShow],StartAt method, IAMStreamControl.StartAt, IAMStreamControl::StartAt, IAMStreamControlStartAt, StartAt, StartAt method [DirectShow], StartAt method [DirectShow],IAMStreamControl interface, dshow.iamstreamcontrol_startat, strmif/IAMStreamControl::StartAt
-f1_keywords:
-- strmif/IAMStreamControl.StartAt
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStreamControl.StartAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStreamControl::StartAt
+ - strmif/IAMStreamControl::StartAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStreamControl.StartAt
 ---
 
 # IAMStreamControl::StartAt
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>StartAt</code> method informs the pin when to start delivering data.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ptStart [in]
 
@@ -68,24 +61,15 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/refe
 
 For preview pins, only the values <b>NULL</b> and <b>MAXLONGLONG</b> are valid, because preview pins do not time stamp the samples they deliver.
 
-
 ### -param dwCookie [in]
 
 Specifies a value to send along with the start notification. See Remarks.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, returns an <b>HRESULT</b> value indicating the cause of the failure.
 
-
-
-
 ## -remarks
-
-
 
 By default, the pin delivers data as soon as the filter graph runs. The <code>StartAt</code> method causes the pin to wait until a specified time after the graph runs, before the pin begins delivering data.
 
@@ -105,20 +89,11 @@ This method also handles the following boundary conditions:
 </ul>
 <b>MAXLONGLONG</b> is the largest possible <b>REFERENCE_TIME</b> value. In the base class library, it is also defined as the constant <b>MAX_TIME</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl Interface</a>
- 
-
- 
 

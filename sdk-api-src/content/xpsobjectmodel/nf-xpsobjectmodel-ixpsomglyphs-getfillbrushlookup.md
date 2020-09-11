@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: f71b0b98-12d6-4108-8b1e-4ad254ffbdfd
 ms.date: 12/05/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMGlyphs.GetFillBrushLookup, IXpsOMGlyphs::GetFillBrushLookup, xps.ixpsomglyphs_getfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphs.GetFillBrushLookup
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphs.GetFillBrushLookup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphs::GetFillBrushLookup
+ - xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphs.GetFillBrushLookup
 ---
 
 # IXpsOMGlyphs::GetFillBrushLookup
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the lookup key of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that is stored in a resource dictionary and will be used as the fill brush.
 
-
 ## -parameters
-
-
-
 
 ### -param key [out, retval]
 
@@ -102,12 +98,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -139,24 +131,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method allocates the memory that is used by the string returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
 
@@ -167,7 +147,4 @@ This method allocates the memory that is used by the string returned in <i>key</
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

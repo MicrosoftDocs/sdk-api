@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 40d70c1f-c580-43c4-b44b-6c9388e138fb
 ms.date: 12/05/2018
 ms.keywords: ICM_DONE_OUTSIDEDC, ICM_OFF, ICM_ON, ICM_QUERY, SetICMMode, SetICMMode function [Windows Color System], _color_SetICMMode, wcs.seticmmode, wingdi/SetICMMode
-f1_keywords:
-- wingdi/SetICMMode
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-api_name:
-- SetICMMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetICMMode
+ - wingdi/SetICMMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+api_name:
+ - SetICMMode
 ---
 
 # SetICMMode function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetICMMode</b> function causes Image Color Management to be enabled, disabled, or queried on a given device context (DC).
 
-
 ## -parameters
-
-
-
 
 ### -param hdc
 
 Identifies handle to the device context.
-
 
 ### -param mode
 
@@ -115,12 +110,8 @@ Turns off color management inside DC. Under Windows 2000, also turns off old-sty
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If this function succeeds, the return value is a nonzero value.
 
@@ -128,12 +119,7 @@ If this function fails, the return value is zero.
 
 If ICM_QUERY is specified and the function succeeds, the nonzero value returned is ICM_ON or ICM_OFF to indicate the current mode.
 
-
-
-
 ## -remarks
-
-
 
 If the system cannot find an ICC color profile to match the state of the device, <b>SetICMMode</b> fails and returns zero.
 
@@ -145,13 +131,7 @@ When a compatible DC is created from a printer's DC (see <b>CreateCompatibleDC</
 
 Also, when printing to a printer's DC with WCS turned on, the <b>SetICMMode</b> function needs to be called after every call to the <b>StartPage</b> function to turn back on WCS. The <b>StartPage</b> function calls the <b>RestoreDC</b> and <b>SaveDC</b> functions, which result in WCS being turned off for the printer's DC.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
@@ -182,7 +162,4 @@ Also, when printing to a printer's DC with WCS turned on, the <b>SetICMMode</b> 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
- 
-
- 
 

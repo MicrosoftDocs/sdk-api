@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: 715cbb70-91fe-47ac-a713-1fe0701d4f8c
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_SOA_DATA, *PDNS_SOA_DATAA, DNS_SOA_DATA, DNS_SOA_DATA structure [DNS], DNS_SOA_DATAA, PDNS_SOA_DATA, PDNS_SOA_DATA structure pointer [DNS], _dns_dns_soa_data, dns.dns_soa_data, windns/DNS_SOA_DATA, windns/PDNS_SOA_DATA'
-f1_keywords:
-- windns/DNS_SOA_DATA
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_SOA_DATA
 targetos: Windows
 req.typenames: DNS_SOA_DATAA, *PDNS_SOA_DATAA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDNS_SOA_DATAA
+ - windns/PDNS_SOA_DATAA
+ - DNS_SOA_DATAA
+ - windns/DNS_SOA_DATAA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_SOA_DATA
 ---
 
 # DNS_SOA_DATAA structure
@@ -49,54 +52,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DNS_SOA_DATA</b> structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pNamePrimaryServer
 
 A pointer to a string that represents the name of the authoritative DNS server for the zone to which the record belongs.
 
-
 ### -field pNameAdministrator
 
 A pointer to a string that represents the name of the responsible party for the zone to which the record belongs.
-
 
 ### -field dwSerialNo
 
 The serial number of the SOA record.
 
-
 ### -field dwRefresh
 
 The time, in seconds, before the zone containing this record should be refreshed.
-
 
 ### -field dwRetry
 
 The time, in seconds, before retrying a failed refresh of the zone to which this record belongs.
 
-
 ### -field dwExpire
 
 The time, in seconds, before an unresponsive zone is no longer authoritative.
-
 
 ### -field dwDefaultTtl
 
 The lower limit on the time, in seconds, that a DNS server or caching resolver are allowed to cache any resource records (RR) from the zone to which this record belongs.
 
-
 ## -remarks
-
-
 
 The 
 <b>DNS_SOA_DATA</b> structure is used in conjunction with the 
@@ -111,11 +100,5 @@ The
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
- 
-
- 
 

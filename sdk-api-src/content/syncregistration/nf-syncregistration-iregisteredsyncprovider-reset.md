@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 05fe5db8-9a21-4e09-a1fb-d50d1f08a540
 ms.date: 12/05/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Reset method, IRegisteredSyncProvider.Reset, IRegisteredSyncProvider::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Reset, winsync.iregisteredsyncprovider_reset
-f1_keywords:
-- syncregistration/IRegisteredSyncProvider.Reset
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- IRegisteredSyncProvider.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegisteredSyncProvider::Reset
+ - syncregistration/IRegisteredSyncProvider::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - IRegisteredSyncProvider.Reset
 ---
 
 # IRegisteredSyncProvider::Reset
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets a synchronization provider so that it looks like a new replica
 	in the next synchronization session.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -84,27 +76,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The writer of a synchronization provider may choose not to implement this method.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
- 
-
- 
 

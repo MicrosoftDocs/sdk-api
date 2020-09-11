@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: b57ad8da-6f79-4d27-96e0-608cbcaae826
 ms.date: 12/05/2018
 ms.keywords: 0, ITextStoreACP interface [Text Services Framework],InsertTextAtSelection method, ITextStoreACP.InsertTextAtSelection, ITextStoreACP::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreACP interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, _tsf_itextstoreacp_inserttextatselection_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::InsertTextAtSelection, tsf.itextstoreacp_inserttextatselection
-f1_keywords:
-- textstor/ITextStoreACP.InsertTextAtSelection
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP.InsertTextAtSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP::InsertTextAtSelection
+ - textstor/ITextStoreACP::InsertTextAtSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP.InsertTextAtSelection
 ---
 
 # ITextStoreACP::InsertTextAtSelection
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreACP::InsertTextAtSelection</b> method inserts text at the insertion point or selection. A caller must have a read/write lock on the document before inserting text.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -100,28 +96,22 @@ Text is not inserted, and the values for the <i>pacpStart</i> and <i>pacpEnd</i>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pchText [in]
 
 Pointer to the string to insert in the document. The string can be <b>NULL</b> terminated.
 
-
 ### -param cch [in]
 
 Specifies the text length.
-
 
 ### -param pacpStart [out]
 
 Pointer to the starting application character position where the text insertion occurs.
 
-
 ### -param pacpEnd [out]
 
 Pointer to the ending application character position where the text insertion occurs. This parameter value is the same as the value of the <i>pacpStart</i> parameter for an insertion point.
-
 
 ### -param pChange [out]
 
@@ -163,12 +153,8 @@ The end position after the text insertion occurred.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -211,26 +197,14 @@ The <i>pchText</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The values of the <i>pacpStart</i> and the <i>pacpEnd</i> parameters depend upon how the client application inserts text into a document. For example, if the application sets the cursor at the start of the inserted text after text insertion, then the value for the <i>pacpStart</i> and <i>pacpEnd</i> parameters is the same as the <b>acpStart</b> member of the <b>TS_TEXTCHANGE</b> structure.
 
 Applications should not call the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-ontextchange">ITextStoreACPSink::OnTextChange</a> method in response to this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">Compositions</a>
 
@@ -252,7 +226,4 @@ Applications should not call the <a href="https://docs.microsoft.com/windows/des
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
- 
-
- 
 

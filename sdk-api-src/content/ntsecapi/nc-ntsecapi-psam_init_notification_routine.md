@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c503c849-65da-4514-b6d9-a95c9d75433e
 ms.date: 12/05/2018
 ms.keywords: InitializeChangeNotify, InitializeChangeNotify callback function [Security], PSAM_INIT_NOTIFICATION_ROUTINE, PSAM_INIT_NOTIFICATION_ROUTINE callback, _pswd_initializechangenotify, ntsecapi/InitializeChangeNotify, security.initializechangenotify
-f1_keywords:
-- ntsecapi/InitializeChangeNotify
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecapi.h
-api_name:
-- InitializeChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSAM_INIT_NOTIFICATION_ROUTINE
+ - ntsecapi/PSAM_INIT_NOTIFICATION_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecapi.h
+api_name:
+ - InitializeChangeNotify
 ---
 
 # PSAM_INIT_NOTIFICATION_ROUTINE callback function
@@ -49,27 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeChangeNotify</b> function is implemented by a password filter DLL. This function initializes the DLL.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-
-
-
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -99,14 +86,8 @@ The password filter DLL is not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>InitializeChangeNotify</b> is called by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to verify that the password notification DLL is loaded and initialized.
 
@@ -140,22 +121,12 @@ Any process exception that is not handled within this function may cause securit
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_notification_routine">PasswordChangeNotify</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_filter_routine">PasswordFilter</a>
- 
-
- 
 

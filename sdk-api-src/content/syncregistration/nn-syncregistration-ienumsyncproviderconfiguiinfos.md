@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: d8b4f4a4-b238-431f-a123-edebe07ea7b0
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos, IEnumSyncProviderConfigUIInfos interface [Windows Sync], IEnumSyncProviderConfigUIInfos interface [Windows Sync],described, syncregistration/IEnumSyncProviderConfigUIInfos, winsync.ienumsyncproviderconfiguiinfos
-f1_keywords:
-- syncregistration/IEnumSyncProviderConfigUIInfos
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- IEnumSyncProviderConfigUIInfos
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncProviderConfigUIInfos
+ - syncregistration/IEnumSyncProviderConfigUIInfos
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - IEnumSyncProviderConfigUIInfos
 ---
 
 # IEnumSyncProviderConfigUIInfos interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo</a> objects that contain configuration UI information used to build and register a synchronization provider.
-
 
 ## -inheritance
 
@@ -104,25 +103,13 @@ Skips the specified number of <b>ISyncProviderConfigUIInfo</b> objects.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is obtained from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317197(v=vs.85)">ISyncProviderRegistration::EnumerateSyncProviderConfigUIsForContentType</a> method. The method will return an  <b>IEnumSyncProviderConfigUIInfos</b> enumerator for all registered <b>ISyncProviderConfigUI</b> objects or for just the registered <b>ISyncProviderConfigUI</b> objects of a particular content type.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
- 
-
- 
 

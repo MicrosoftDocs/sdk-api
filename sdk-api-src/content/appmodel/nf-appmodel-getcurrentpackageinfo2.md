@@ -6,10 +6,6 @@ helpviewer_keywords: ["GetCurrentPackageInfo2"]
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetCurrentPackageInfo2
-f1_keywords:
-- appmodel/GetCurrentPackageInfo2
-dev_langs:
-- c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -29,19 +25,25 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- 
-api_location:
-- appmodel.h
-api_name:
-- GetCurrentPackageInfo2
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentPackageInfo2
+ - appmodel/GetCurrentPackageInfo2
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - appmodel.h
+api_name:
+ - GetCurrentPackageInfo2
 ---
 
 # GetCurrentPackageInfo2 function
+
 
 ## -description
 
@@ -145,3 +147,4 @@ The *packagePathType* parameter is useful for applications that use the [windows
 
 
 [GetPackageInfo2](nf-appmodel-getpackageinfo2.md)
+

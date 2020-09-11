@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 4d10c986-1cba-427c-ae90-f81b83be1b8b
 ms.date: 12/05/2018
 ms.keywords: ID3DDestructionNotifier interface [Direct3D],UnregisterDestructionCallback method, ID3DDestructionNotifier.UnregisterDestructionCallback, ID3DDestructionNotifier::UnregisterDestructionCallback, UnregisterDestructionCallback, UnregisterDestructionCallback method [Direct3D], UnregisterDestructionCallback method [Direct3D],ID3DDestructionNotifier interface, d3dcommon/ID3DDestructionNotifier::UnregisterDestructionCallback, direct3d11.id3ddestructionnotifier_unregisterdestructioncallback
-f1_keywords:
-- d3dcommon/ID3DDestructionNotifier.UnregisterDestructionCallback
-dev_langs:
-- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +23,24 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCommon.h
-api_name:
-- ID3DDestructionNotifier.UnregisterDestructionCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3DDestructionNotifier::UnregisterDestructionCallback
+ - d3dcommon/ID3DDestructionNotifier::UnregisterDestructionCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCommon.h
+api_name:
+ - ID3DDestructionNotifier.UnregisterDestructionCallback
 ---
 
 # ID3DDestructionNotifier::UnregisterDestructionCallback
@@ -47,21 +48,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters a callback registered with <b><a href="windows/desktop/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback"></b>.
 
-
 ## -parameters
-
-
 
 ### -param callbackID
 
 Type: <b><a href="windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A **UINT** that was created by the **pCallbackID** parameter of <b><a href="windows/desktop/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a></b>.
- 
-
 
 ## -returns
 
@@ -71,15 +66,9 @@ If this function suceeds, it will return **S_OK**
 
 ## -see-also
 
-
-
-
 <a href="windows/desktop/api/d3dcommon/nn-d3dcommon-id3ddestructionnotifier">ID3DDestructionNotifier</a>
 
 
 
 <a href="windows/desktop/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a>
- 
-
- 
 

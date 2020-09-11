@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 7f590ecf-06e9-42da-ba40-4364296ae594
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeInfo, ITfDisplayAttributeInfo interface [Text Services Framework], ITfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_itfdisplayattributeinfo_ref, msctf/ITfDisplayAttributeInfo, tsf.itfdisplayattributeinfo
-f1_keywords:
-- msctf/ITfDisplayAttributeInfo
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfDisplayAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfDisplayAttributeInfo
+ - msctf/ITfDisplayAttributeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfDisplayAttributeInfo
 ---
 
 # ITfDisplayAttributeInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfDisplayAttributeInfo</b> interface is implemented by a text service to provide display attribute data. This interface is used by any component, most often an application, that must determine how text displays.
-
 
 ## -inheritance
 
@@ -113,24 +112,15 @@ Sets the new attribute data.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An application obtains an instance of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">ITfDisplayAttributeMgr::GetDisplayAttributeInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next</a>.
 
 A text service supplies an instance of this interface in its <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">ITfDisplayAttributeProvider::GetDisplayAttributeInfo</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next
       </a>
@@ -148,7 +138,4 @@ A text service supplies an instance of this interface in its <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

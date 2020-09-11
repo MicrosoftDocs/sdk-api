@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 25774ccb-8e76-443d-89da-177d6e77c019
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation, IX509SignatureInformation interface [Security], IX509SignatureInformation interface [Security],described, certenroll/IX509SignatureInformation, security.ix509signatureinformation
-f1_keywords:
-- certenroll/IX509SignatureInformation
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509SignatureInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509SignatureInformation
+ - certenroll/IX509SignatureInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509SignatureInformation
 ---
 
 # IX509SignatureInformation interface
 
 
 ## -description
-
 
 The <b>IX509SignatureInformation</b> interface represents information used to sign a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This includes signature, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithms</a>, and public key parameters. The signature process consists of digesting the certificate request by using a hash algorithm, encoding the digest and the hash algorithm identifier by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER), and signing (encrypting) the result.
 
@@ -97,7 +97,6 @@ Combined algorithms, which can be used to sign PKCS #10 requests, are represente
 
 
 The object is automatically initialized when an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object is initialized.
-
 
 ## -inheritance
 
@@ -212,13 +211,9 @@ Specifies and retrieves an OID for the public key algorithm used in the <a href=
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
@@ -237,7 +232,4 @@ Specifies and retrieves an OID for the public key algorithm used in the <a href=
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6720EDBE-6A0E-4192-A096-2ACA681E2AAF
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_INFORMATION, ENCLAVE_INFORMATION structure, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.enclave_information, ntenclv/ENCLAVE_INFORMATION
-f1_keywords:
-- ntenclv/ENCLAVE_INFORMATION
-dev_langs:
-- c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntenclv.h
-api_name:
-- ENCLAVE_INFORMATION
 targetos: Windows
 req.typenames: ENCLAVE_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ENCLAVE_INFORMATION
+ - ntenclv/ENCLAVE_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntenclv.h
+api_name:
+ - ENCLAVE_INFORMATION
 ---
 
 # ENCLAVE_INFORMATION structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the currently executing enclave.
 
-
 ## -struct-fields
-
-
-
 
 ### -field EnclaveType
 
@@ -90,40 +86,28 @@ A  VBS enclave.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved.
 
-
 ### -field BaseAddress
 
 A pointer to the base address of the enclave.
-
 
 ### -field Size
 
 The size of the enclave, in bytes.
 
-
 ### -field Identity
 
 The identity of the primary module of an enclave.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-enclave_identity">ENCLAVE_IDENTITY</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation">EnclaveGetEnclaveInformation</a>
- 
-
- 
 

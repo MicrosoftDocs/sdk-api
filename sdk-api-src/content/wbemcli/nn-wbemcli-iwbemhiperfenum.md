@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 71ce1c89-446e-4137-9857-9d3c5921e0b7
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], IWbemHiPerfEnum interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfenum, wbemcli/IWbemHiPerfEnum, wmi.iwbemhiperfenum
-f1_keywords:
-- wbemcli/IWbemHiPerfEnum
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemuuid.lib
-- Wbemuuid.dll
-api_name:
-- IWbemHiPerfEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemHiPerfEnum
+ - wbemcli/IWbemHiPerfEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemuuid.lib
+ - Wbemuuid.dll
+api_name:
+ - IWbemHiPerfEnum
 ---
 
 # IWbemHiPerfEnum interface
 
 
 ## -description
-
 
 The 
 <b>IWbemHiPerfEnum</b> interface is used in refresher operations to provide rapid access to enumerations of instance objects. WMI provides an implementation of this interface, which it passes to providers when 
@@ -113,13 +113,9 @@ Remove objects with the specified identifiers.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-performance-data-in-c--">Accessing Performance Data in C++</a>
 
@@ -134,7 +130,4 @@ Remove objects with the specified identifiers.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a>
- 
-
- 
 

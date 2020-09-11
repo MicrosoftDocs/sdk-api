@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: a39aaa62-6f23-4fe0-9231-1781ce74b090
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceManager3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IWMDeviceManager3.SetDeviceEnumPreference, IWMDeviceManager3::SetDeviceEnumPreference, IWMDeviceManager3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IWMDeviceManager3 interface, mswmdm/IWMDeviceManager3::SetDeviceEnumPreference, wmdm.iwmdevicemanager3_setdeviceenumpreference
-f1_keywords:
-- mswmdm/IWMDeviceManager3.SetDeviceEnumPreference
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDeviceManager3.SetDeviceEnumPreference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDeviceManager3::SetDeviceEnumPreference
+ - mswmdm/IWMDeviceManager3::SetDeviceEnumPreference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDeviceManager3.SetDeviceEnumPreference
 ---
 
 # IWMDeviceManager3::SetDeviceEnumPreference
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetDeviceEnumPreference</b> method sets the device enumeration preferences.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwEnumPref [in]
 
@@ -81,12 +74,8 @@ Specifies a bitwise <b>OR</b> combination of one or more of the following bit va
 <td>When this flag is set, the service provider can send device arrival and removal by an additional mechanism, such as by using a window message, as well as the default mechanism of calling any application-implemented <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification</a> interfaces.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,14 +118,8 @@ The method was called after an enumeration operation; it must be called before t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method provides clients the ability to override the default device enumeration behavior of Windows Media Device Manager. In order to override the default behavior, the client application must call this method immediately after creating the device manager object by querying for the <b>IWMDMDeviceManager3</b>  interface from Media Device Manager. The call must be made before any enumeration occurs, either explicitly or implicitly as a result of another operation.
 
@@ -144,16 +127,7 @@ After a preference flag is set, it cannot be changed for the lifetime of the app
 
 The service provider may not honor the DO_NOT_VIRTUALIZE_STORAGES_AS_DEVICES flag. A more robust way to determine if storages are hosted by the same device is to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">IWMDMDevice2::GetCanonicalName</a>. Storages from the same device will return identical values, except for the final digit after the last "$" character.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">IWMDMDevice2::GetCanonicalName</a>
- 
-
- 
 

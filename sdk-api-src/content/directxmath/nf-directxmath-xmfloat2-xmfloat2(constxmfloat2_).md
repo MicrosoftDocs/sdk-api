@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: XMFLOAT2, XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT2 constructor [DirectX Math Support APIs],XMFLOAT2 structure, XMFLOAT2 structure [DirectX Math Support APIs],XMFLOAT2 constructor, XMFLOAT2.XMFLOAT2, XMFLOAT2.XMFLOAT2(), XMFLOAT2.XMFLOAT2(const XMFLOAT2 &), XMFLOAT2::XMFLOAT2, XMFLOAT2::XMFLOAT2(const XMFLOAT2 &), dxmath.xmfloat2_ctor_1
-f1_keywords:
-- directxmath/XMFLOAT2.XMFLOAT2
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT2.XMFLOAT2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT2::XMFLOAT2
+ - directxmath/XMFLOAT2::XMFLOAT2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT2.XMFLOAT2
 ---
 
 # XMFLOAT2::XMFLOAT2(const XMFLOAT2 &)
+
 
 ## -description
 
@@ -67,3 +69,4 @@ A value.
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constfloat)">XMFLOAT2 Constructors</a>
+

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f8e87f71-f1a2-433a-8b57-6a7bd59b1e06
 ms.date: 12/05/2018
 ms.keywords: Int8ToUChar, Int8ToUChar function [Windows Shell], intsafe/Int8ToUChar, shell.Int8ToUChar
-f1_keywords:
-- intsafe/Int8ToUChar
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- intsafe.h
-api_name:
-- Int8ToUChar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Int8ToUChar
+ - intsafe/Int8ToUChar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - intsafe.h
+api_name:
+ - Int8ToUChar
 ---
 
 # Int8ToUChar function
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a value of type <b>INT8</b> to a value of type <b>UCHAR</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param i8Operand [in]
 
 The value to convert.
 
-
 ### -param pch [out]
 
 The converted value.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

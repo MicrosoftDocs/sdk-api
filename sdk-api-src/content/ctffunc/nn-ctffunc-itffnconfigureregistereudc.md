@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
-f1_keywords:
-- ctffunc/ITfFnConfigureRegisterEudc
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ctffunc.h
-api_name:
-- ITfFnConfigureRegisterEudc
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnConfigureRegisterEudc
+ - ctffunc/ITfFnConfigureRegisterEudc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ctffunc.h
+api_name:
+ - ITfFnConfigureRegisterEudc
 ---
 
 # ITfFnConfigureRegisterEudc interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfFnConfigureRegisterEudc</b> interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Show the EUDC key sequence register UI.
 
 </td>
 </tr>
-</table> 
+</table>
 

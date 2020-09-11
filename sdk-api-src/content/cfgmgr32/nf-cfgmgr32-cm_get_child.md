@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: b339d794-cbf0-46aa-a106-b2837f797def
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Child, CM_Get_Child function [Device and Driver Installation], cfgmgr32/CM_Get_Child, cfgmgrfn_ca4f152f-3a57-4e04-b9b8-c9ed65b600f8.xml, devinst.cm_get_child
-f1_keywords:
-- cfgmgr32/CM_Get_Child
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CfgMgr32.dll
-- API-MS-Win-devices-config-l1-1-0.dll
-- API-MS-Win-devices-config-l1-1-1.dll
-api_name:
-- CM_Get_Child
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Get_Child
+ - cfgmgr32/CM_Get_Child
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CfgMgr32.dll
+ - API-MS-Win-devices-config-l1-1-0.dll
+ - API-MS-Win-devices-config-l1-1-1.dll
+api_name:
+ - CM_Get_Child
 ---
 
 # CM_Get_Child function
@@ -51,42 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CM_Get_Child</b> function is used to retrieve a device instance handle to the first child node of a specified device node (<a href="https://docs.microsoft.com/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-tree">device tree</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pdnDevInst [out]
 
 Caller-supplied pointer to the device instance handle to the child node that this function retrieves. The retrieved handle is bound to the local machine. See the <b>Remarks</b> section.
 
-
 ### -param dnDevInst [in]
 
 Caller-supplied device instance handle that is bound to the local machine.
-
 
 ### -param ulFlags [in]
 
 Not used, must be zero.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 To enumerate all children of a devnode in the local machine's device tree, first call <b>CM_Get_Child</b> to obtain a device instance handle to the first child node, then call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_sibling">CM_Get_Sibling</a> to obtain handles for the rest of the children.
 
@@ -141,12 +127,7 @@ Obtain the device instance handle for the device instance from the <b>DevInst</b
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>
 
@@ -185,7 +166,4 @@ Obtain the device instance handle for the device instance from the <b>DevInst</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>
- 
-
- 
 

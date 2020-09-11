@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2e205f97-be9b-4358-ba22-d475b6a250b7
 ms.date: 12/05/2018
 ms.keywords: CONTEXT_OID_CAPI2_ANY, CONTEXT_OID_CERTIFICATE, CONTEXT_OID_CRL, CONTEXT_OID_CTL, CONTEXT_OID_OCSP_RESP, CONTEXT_OID_PKCS7, CRYPT_AIA_RETRIEVAL, CRYPT_ASYNC_RETRIEVAL, CRYPT_CACHE_ONLY_RETRIEVAL, CRYPT_DONT_CACHE_RESULT, CRYPT_HTTP_POST_RETRIEVAL, CRYPT_LDAP_AREC_EXCLUSIVE_RETRIEVAL, CRYPT_LDAP_INSERT_ENTRY_ATTRIBUTE, CRYPT_LDAP_SCOPE_BASE_ONLY_RETRIEVAL, CRYPT_LDAP_SIGN_RETRIEVAL, CRYPT_NOT_MODIFIED_RETRIEVAL, CRYPT_NO_AUTH_RETRIEVAL, CRYPT_OFFLINE_CHECK_RETRIEVAL, CRYPT_PROXY_CACHE_RETRIEVAL, CRYPT_RETRIEVE_MULTIPLE_OBJECTS, CRYPT_STICKY_CACHE_RETRIEVAL, CRYPT_VERIFY_CONTEXT_SIGNATURE, CRYPT_VERIFY_DATA_HASH, CRYPT_WIRE_ONLY_RETRIEVAL, CryptRetrieveObjectByUrl, CryptRetrieveObjectByUrl function [Security], CryptRetrieveObjectByUrlA, CryptRetrieveObjectByUrlW, NULL, _crypto2_cryptretrieveobjectbyurl, security.cryptretrieveobjectbyurl, wincrypt/CryptRetrieveObjectByUrl, wincrypt/CryptRetrieveObjectByUrlA, wincrypt/CryptRetrieveObjectByUrlW
-f1_keywords:
-- wincrypt/CryptRetrieveObjectByUrl
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Cryptnet.lib
 req.dll: Cryptnet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptnet.dll
-api_name:
-- CryptRetrieveObjectByUrl
-- CryptRetrieveObjectByUrlA
-- CryptRetrieveObjectByUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptRetrieveObjectByUrlW
+ - wincrypt/CryptRetrieveObjectByUrlW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptnet.dll
+api_name:
+ - CryptRetrieveObjectByUrl
+ - CryptRetrieveObjectByUrlA
+ - CryptRetrieveObjectByUrlW
 ---
 
 # CryptRetrieveObjectByUrlW function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptRetrieveObjectByUrl</b> function retrieves the public key infrastructure (PKI) object from a location specified by a URL.
 
 These remote objects are in encoded format and are retrieved in a "context" form.
 
-
 ## -parameters
-
-
-
 
 ### -param pszUrl [in]
 
@@ -172,8 +168,6 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwRetrievalFlags [in]
 
@@ -381,54 +375,39 @@ Retrieves the encoded bits from the wire only. Does not use the URL cache.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwTimeout [in]
 
 Specifies the maximum number of milliseconds to wait for retrieval. If a value of zero is specified, this function does not time out. This parameter is not used if the URL scheme is file:///.
 
-
 ### -param ppvObject [out]
 
 The address of a pointer to the returned object. The return type can be one of the supported types shown in <i>pszObjectOid</i>.
-
 
 ### -param hAsyncRetrieve [in]
 
 This parameter is reserved and must be set to <b>NULL</b>.
 
-
 ### -param pCredentials [in, optional]
 
 This parameter is not used.
 
-
 ### -param pvVerify [in, optional]
 
 A pointer to a verification object. This object is a function of the <i>dwRetrievalFlags</i> parameter. It can be <b>NULL</b> to indicate that the caller is not interested in getting the certificate context or index of the signer if <i>dwRetrievalFlags</i> is CRYPT_VERIFY_CONTEXT_SIGNATURE.
-
 
 ### -param pAuxInfo [in]
 
 An optional pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure. If not <b>NULL</b> and if the <b>cbSize</b> member of the structure is set, this parameter returns the time of the last successful wire retrieval.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>).
 
-
-
-
 ## -remarks
-
-
 
 The remote object retrieval manager exposes two provider models. One is the Scheme Provider model that allows for installable protocol providers as defined by the URL scheme, that is, ldap, http, ftp, or file. The scheme provider entry point is the same as the <b>CryptRetrieveObjectByUrl</b> function; however, the *<i>ppvObject</i> returned is always a counted array of encoded bits (one per object retrieved).
 
@@ -451,11 +430,5 @@ This function supports "http:" and "ldap:" URL schemes as well as newly defined 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetobjecturl">CryptGetObjectUrl</a>
- 
-
- 
 

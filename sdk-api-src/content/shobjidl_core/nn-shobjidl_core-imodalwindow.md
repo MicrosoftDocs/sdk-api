@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e9d640fd-ef10-486a-a037-01b7a71179a0
 ms.date: 12/05/2018
 ms.keywords: IModalWindow, IModalWindow interface [Windows Shell], IModalWindow interface [Windows Shell],described, _win32_IModalWindow, shell.IModalWindow, shobjidl_core/IModalWindow
-f1_keywords:
-- shobjidl_core/IModalWindow
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IModalWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IModalWindow
+ - shobjidl_core/IModalWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IModalWindow
 ---
 
 # IModalWindow interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that represents a modal window. This interface is used in the Windows XP Passport Wizard.
-
 
 ## -inheritance
 
@@ -77,14 +76,9 @@ Launches the modal window.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IModalWindow</b>'s IID is IID_IModalWindow.
-
-
 

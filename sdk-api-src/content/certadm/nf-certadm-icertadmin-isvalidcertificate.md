@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cd133c57-a62e-4083-b4fd-7eaf0c9e7606
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],IsValidCertificate method, ICertAdmin interface [Security],IsValidCertificate method, ICertAdmin.IsValidCertificate, ICertAdmin2 interface [Security],IsValidCertificate method, ICertAdmin2::IsValidCertificate, ICertAdmin::IsValidCertificate, IsValidCertificate, IsValidCertificate method [Security], IsValidCertificate method [Security],CCertAdmin object, IsValidCertificate method [Security],ICertAdmin interface, IsValidCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::IsValidCertificate, certadm/ICertAdmin::IsValidCertificate, security.icertadmin2_isvalidcertificate
-f1_keywords:
-- certadm/ICertAdmin2.IsValidCertificate
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.IsValidCertificate
-- ICertAdmin.IsValidCertificate
-- CCertAdmin.IsValidCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin::IsValidCertificate
+ - certadm/ICertAdmin::IsValidCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.IsValidCertificate
+ - ICertAdmin.IsValidCertificate
+ - CCertAdmin.IsValidCertificate
 ---
 
 # ICertAdmin::IsValidCertificate
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsValidCertificate</b> method verifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> against the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) key and  checks that the certificate has not been revoked. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -72,15 +68,11 @@ Represents a valid configuration string for the CA in the form COMPUTERNAME\CANA
 
 Specifies a serial number that identifies the certificate to be reviewed. The string must specify the serial number as an even number of hexadecimal digits. If necessary, a zero can be prefixed to the number to produce an even number of digits. No more than one leading zero may be used.
 
-
 ### -param pDisposition [out, retval]
 
 A pointer to a <b>LONG</b> that receives the disposition value.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds and the <i>pDisposition</i> parameter is set to one of the following values, the method returns S_OK.
@@ -162,14 +154,8 @@ The certificate is pending.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method determines only whether a certificate has been issued and is not currently revoked; it does not check that the current time and date are within the period for which the certificate is valid (the NotBefore and NotAfter certificate properties). An application that uses this method is also responsible for checking the certificate expiration.
 
@@ -219,14 +205,7 @@ error:
         SysFreeString(bstrSerial);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
@@ -241,7 +220,4 @@ error:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 2dc9dd37-0dc1-4b73-bcac-9fb3d1158b54
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalancing, ITsSbLoadBalancing interface [Remote Desktop Services], ITsSbLoadBalancing interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalancing, termserv.itssbloadbalancing
-f1_keywords:
-- sbtsv/ITsSbLoadBalancing
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbLoadBalancing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbLoadBalancing
+ - sbtsv/ITsSbLoadBalancing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbLoadBalancing
 ---
 
 # ITsSbLoadBalancing interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods you can use to provide a custom load-balancing algorithm.
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbloadbalancing-getmostsuitabletarget">GetMostSuitableTarget</a> method should return an endpoint (target) to which the client 
 connects.
-
 
 ## -inheritance
 
@@ -82,29 +81,17 @@ connection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A plug-in can implement this interface to provide a custom load-balancing algorithm.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

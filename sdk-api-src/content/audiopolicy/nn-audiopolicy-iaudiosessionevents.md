@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: fd287ef7-8a37-4342-b4c2-79b84a56c30e
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IAudioSessionEvents interface [Core Audio],described, audiopolicy/IAudioSessionEvents, coreaudio.iaudiosessionevents
-f1_keywords:
-- audiopolicy/IAudioSessionEvents
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionEvents
+ - audiopolicy/IAudioSessionEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionEvents
 ---
 
 # IAudioSessionEvents interface
 
 
 ## -description
-
-
 
 The <b>IAudioSessionEvents</b> interface provides notifications of session-related events such as changes in the volume level, display name, and session state. Unlike the other interfaces in this section, which are implemented by the WASAPI system component, a WASAPI client implements the <b>IAudioSessionEvents</b> interface. To receive event notifications, the client passes a pointer to its <b>IAudioSessionEvents</b> interface to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification">IAudioSessionControl::RegisterAudioSessionNotification</a> method.
 
@@ -63,9 +62,6 @@ In implementing the <b>IAudioSessionEvents</b> interface, the client should obse
 <li>The client should never release the final reference on a WASAPI object during an event callback.</li>
 </ul>
 For a code example that implements an <b>IAudioSessionEvents</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>. For a code example that registers a client's <b>IAudioSessionEvents</b> interface to receive notifications, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
-
-
-
 
 ## -inheritance
 
@@ -145,13 +141,9 @@ Notifies the client that the stream-activity state of the session has changed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -166,7 +158,4 @@ Notifies the client that the stream-activity state of the session has changed.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

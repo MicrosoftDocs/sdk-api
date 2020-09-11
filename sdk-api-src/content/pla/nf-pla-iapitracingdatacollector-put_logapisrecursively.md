@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 245f4f27-9a57-459c-b6e9-fe11fe58d77a
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogApisRecursively property, IApiTracingDataCollector.LogApisRecursively, IApiTracingDataCollector.put_LogApisRecursively, IApiTracingDataCollector::LogApisRecursively, IApiTracingDataCollector::get_LogApisRecursively, IApiTracingDataCollector::put_LogApisRecursively, LogApisRecursively property [PLA], LogApisRecursively property [PLA],IApiTracingDataCollector interface, pla.iapitracingdatacollector_logapisrecursively, pla/IApiTracingDataCollector::LogApisRecursively, pla/IApiTracingDataCollector::get_LogApisRecursively, pla/IApiTracingDataCollector::put_LogApisRecursively, put_LogApisRecursively
-f1_keywords:
-- pla/IApiTracingDataCollector.LogApisRecursively
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IApiTracingDataCollector.LogApisRecursively
-- IApiTracingDataCollector.get_LogApisRecursively
-- IApiTracingDataCollector.put_LogApisRecursively
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApiTracingDataCollector::put_LogApisRecursively
+ - pla/IApiTracingDataCollector::put_LogApisRecursively
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IApiTracingDataCollector.LogApisRecursively
+ - IApiTracingDataCollector.get_LogApisRecursively
+ - IApiTracingDataCollector.put_LogApisRecursively
 ---
 
 # IApiTracingDataCollector::put_LogApisRecursively
@@ -51,31 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property has meaning for x86 architectures only.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 4bd21b30-cac5-482b-9826-b5a4ffeeebe9
 ms.date: 12/05/2018
 ms.keywords: CommitUrlCacheEntryA, CommitUrlCacheEntryA function [WinINet], wininet.commiturlcacheentrya, wininet/CommitUrlCacheEntryA
-f1_keywords:
-- wininet/CommitUrlCacheEntryA
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- CommitUrlCacheEntryA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CommitUrlCacheEntryA
+ - wininet/CommitUrlCacheEntryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - CommitUrlCacheEntryA
 ---
 
 # CommitUrlCacheEntryA function
@@ -49,37 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stores data in the specified file in the Internet cache and associates it with the specified URL.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrlName [in]
 
 Pointer to a string variable that contains the source name of the cache entry. The name string must be unique and should not contain any escape characters.
-
 
 ### -param lpszLocalFileName [in]
 
 Pointer to a string variable that contains the name of the local file that is being cached. This should be the same name as that returned by 
 <b>CreateUrlCacheEntryA</b>.
 
-
 ### -param ExpireTime [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the expire date and time (in Greenwich mean time) of the file that is being cached. If the expire date and time is unknown, set this parameter to zero.
 
-
 ### -param LastModifiedTime [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last modified date and time (in Greenwich mean time) of the URL that is being cached. If the last modified date and time is unknown, set this parameter to zero.
-
 
 ### -param CacheEntryType [in]
 
@@ -181,14 +171,11 @@ Visited link cache entry.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpHeaderInfo [in]
 
 Pointer to the buffer that contains the header information. If this parameter is not <b>NULL</b>, the header information is treated as extended attributes of the URL that are returned in the <b>lpHeaderInfo</b> 
 member of the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure.
-
 
 ### -param cchHeaderInfo [in]
 
@@ -197,20 +184,15 @@ Size of the header information, in <b>TCHARs</b>. If
 <i>cchHeaderInfo</i> together with a <b>NULL</b> value for 
 <i>lpHeaderInfo</i>.
 
-
 ### -param lpszFileExtension [in]
 
 This parameter is reserved and must be <b>NULL</b>.
-
 
 ### -param lpszOriginalUrl [in]
 
 Pointer to a string  that contains the original URL, if redirection has occurred.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
@@ -243,14 +225,8 @@ The specified local file is not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The STICKY_CACHE_ENTRY type is used to make cache entries exempt from scavenging. The default exempt time for entries set using 
 <b>CommitUrlCacheEntryA</b> is ten minutes. The exempt time can be changed by setting the expires time parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure in the call to the 
@@ -278,15 +254,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
- 
-
- 
 

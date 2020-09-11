@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: b85d5df0-a99a-48d2-9bad-3b8c86abea91
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], IFsrmPropertyDefinition interface [File Server Resource Manager],described, fs.ifsrmpropertydefinition, fsrm.ifsrmpropertydefinition, fsrm/IFsrmPropertyDefinition
-f1_keywords:
-- fsrmpipeline/IFsrmPropertyDefinition
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyDefinition
+ - fsrmpipeline/IFsrmPropertyDefinition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyDefinition
 ---
 
 # IFsrmPropertyDefinition interface
 
 
 ## -description
-
 
 Defines a property that you want to use to classify files.
 
@@ -67,8 +67,6 @@ The following methods return this interface:
 </ul>
 
 ## -remarks
-
-
 
 The name and type properties define a unique property; you cannot rename a property or change its type.
 
@@ -92,19 +90,11 @@ For examples in C# and PowerShell see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmproperty">IFsrmProperty</a>
- 
-
- 
 

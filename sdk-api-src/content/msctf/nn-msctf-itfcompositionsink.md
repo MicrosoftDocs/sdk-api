@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 17d5eab5-a308-40a5-823a-f176508dda71
 ms.date: 12/05/2018
 ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Framework], ITfCompositionSink interface [Text Services Framework],described, _tsf_itfcompositionsink_ref, msctf/ITfCompositionSink, tsf.itfcompositionsink
-f1_keywords:
-- msctf/ITfCompositionSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Imekrcic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imekrcic.dll
-api_name:
-- ITfCompositionSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompositionSink
+ - msctf/ITfCompositionSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imekrcic.dll
+api_name:
+ - ITfCompositionSink
 ---
 
 # ITfCompositionSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfCompositionSink</b> interface is implemented by a text service to receive a notification when a composition is terminated. This advise sink is installed by passing a pointer to this interface when the composition is started with the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition</a> method.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Called when a composition is terminated.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition
       </a>
@@ -91,7 +86,4 @@ Called when a composition is terminated.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

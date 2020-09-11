@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e424c70e-289c-4519-8b20-5fb98d46bf34
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMPage.SetDictionaryResource, IXpsOMPage::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setdictionaryresource, xpsobjectmodel/IXpsOMPage::SetDictionaryResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage.SetDictionaryResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage.SetDictionaryResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage::SetDictionaryResource
+ - xpsobjectmodel/IXpsOMPage::SetDictionaryResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage.SetDictionaryResource
 ---
 
 # IXpsOMPage::SetDictionaryResource
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface pointer of the page's remote dictionary resource.
 
-
 ## -parameters
-
-
-
 
 ### -param remoteDictionaryResource [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface pointer to be set for the page. A <b>NULL</b> value releases the previously assigned dictionary resource.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,14 +90,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Setting this value will cause <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-getdictionarylocal">GetDictionaryLocal</a> to return <b>NULL</b>.
 
@@ -175,15 +162,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
@@ -198,7 +178,4 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

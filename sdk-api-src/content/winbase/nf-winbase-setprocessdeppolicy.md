@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 17c9f522-fd64-4061-9212-8fc91cc96b18
 ms.date: 12/05/2018
 ms.keywords: PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, SetProcessDEPPolicy, SetProcessDEPPolicy function, base.setprocessdeppolicy, winbase/SetProcessDEPPolicy
-f1_keywords:
-- winbase/SetProcessDEPPolicy
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-api_name:
-- SetProcessDEPPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessDEPPolicy
+ - winbase/SetProcessDEPPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+api_name:
+ - SetProcessDEPPolicy
 ---
 
 # SetProcessDEPPolicy function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes data execution prevention (DEP) and DEP-ATL thunk emulation settings for a 32-bit process.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -102,23 +98,14 @@ Disables DEP-ATL thunk emulation for the current process, which prevents the sys
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To retrieve error values defined for this function,  call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SetProcessDEPPolicy</b>  function overrides the system DEP policy for the current process unless its DEP policy was specified at process creation. The system DEP policy setting must be OptIn or OptOut. If the system DEP policy is AlwaysOff or AlwaysOn, <b>SetProcessDEPPolicy</b> returns an error. After DEP is enabled for a process, subsequent calls to <b>SetProcessDEPPolicy</b> are ignored. 
 
@@ -233,13 +220,7 @@ If DEP is disabled for the current process, DEP-ATL thunk emulation is automatic
 
 To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention">Data Execution Prevention</a>
 
@@ -250,7 +231,4 @@ To compile an application that calls this function, define <b>_WIN32_WINNT</b> a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemdeppolicy">GetSystemDEPPolicy</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 1e8f1106-6320-4670-867a-24ce6597026e
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetLowerBound method, IUIAnimationVariable.SetLowerBound, IUIAnimationVariable::SetLowerBound, SetLowerBound, SetLowerBound method [Windows Animation], SetLowerBound method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setlowerbound, uianimation/IUIAnimationVariable::SetLowerBound
-f1_keywords:
-- uianimation/IUIAnimationVariable.SetLowerBound
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationVariable.SetLowerBound
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationVariable::SetLowerBound
+ - uianimation/IUIAnimationVariable::SetLowerBound
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationVariable.SetLowerBound
 ---
 
 # IUIAnimationVariable::SetLowerBound
@@ -49,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the lower bound (floor) for the animation variable. The value of the animation variable should not fall below the specified value.
 
-
 ## -parameters
-
-
-
 
 ### -param bound [in]
 
 The lower bound for the animation variable.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>
 
@@ -106,7 +93,4 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setupperbound">IUIAnimationVariable::SetUpperBound</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 787EB209-5944-4F0A-8550-FE1115C2298A
 ms.date: 12/05/2018
 ms.keywords: GetHostNameW, GetHostNameW function [Winsock], winsock.gethostnamew, winsock2/GetHostNameW
-f1_keywords:
-- winsock2/GetHostNameW
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- GetHostNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetHostNameW
+ - winsock2/GetHostNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - GetHostNameW
 ---
 
 # GetHostNameW function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetHostNameW</b> function retrieves the standard host name for the local computer as a Unicode string.
 
-
 ## -parameters
-
-
-
 
 ### -param name [out]
 
 A pointer to a buffer that receives the local host name as a <b>null</b>-terminated Unicode string.
 
-
 ### -param namelen [in]
 
 The length, in wide characters, of the buffer pointed to by the <i>name</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>GetHostNameW</b> returns zero. Otherwise, it returns <b>SOCKET_ERROR</b> and a specific error code can be retrieved by calling 
@@ -117,14 +109,8 @@ The network subsystem has failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>GetHostNameW</b> function returns the name of the local host into the buffer specified by the <i>name</i> parameter in Unicode (UTF-16). The host name is returned as a <b>null</b>-terminated Unicode string. The form of the host name is dependent on the Windows Sockets provider—it can be a simple host name, or it can be a fully qualified domain name. However, it is guaranteed that the name returned will be successfully parsed by 
@@ -154,13 +140,7 @@ The maximum length, in wide characters, of the string returned in the buffer poi
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
@@ -175,7 +155,4 @@ The maximum length, in wide characters, of the string returned in the buffer poi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-gethostname">gethostname</a>
- 
-
- 
 

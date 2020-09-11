@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 12313d19-e6f1-4ec3-9702-2a403087763a
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryResource, GetDictionaryResource method [XPS Documents and Packaging], GetDictionaryResource method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionaryResource method, IXpsOMPage.GetDictionaryResource, IXpsOMPage::GetDictionaryResource, xps.ixpsompage_getdictionaryresource, xpsobjectmodel/IXpsOMPage::GetDictionaryResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage.GetDictionaryResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage.GetDictionaryResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage::GetDictionaryResource
+ - xpsobjectmodel/IXpsOMPage::GetDictionaryResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage.GetDictionaryResource
 ---
 
 # IXpsOMPage::GetDictionaryResource
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface of the shared dictionary resource that is used by this page.
 
-
 ## -parameters
-
-
-
 
 ### -param remoteDictionaryResource [out, retval]
 
@@ -102,12 +98,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -139,24 +131,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After loading and parsing the resource into the XPS OM, this method might return an error that applies to another resource. This occurs because all of the relationships are parsed when a resource is loaded.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
@@ -171,7 +151,4 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

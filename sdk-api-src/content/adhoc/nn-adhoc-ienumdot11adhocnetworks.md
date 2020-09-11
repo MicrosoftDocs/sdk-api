@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 5818e921-86bc-4f96-9ecd-3cb9c9a1a488
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocNetworks, IEnumDot11AdHocNetworks interface [NativeWIFI], IEnumDot11AdHocNetworks interface [NativeWIFI],described, adhoc/IEnumDot11AdHocNetworks, nwifi.ienumdot11adhocnetworks
-f1_keywords:
-- adhoc/IEnumDot11AdHocNetworks
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IEnumDot11AdHocNetworks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDot11AdHocNetworks
+ - adhoc/IEnumDot11AdHocNetworks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IEnumDot11AdHocNetworks
 ---
 
 # IEnumDot11AdHocNetworks interface
 
 
 ## -description
-
 
 This interface represents the collection of currently visible 802.11 ad hoc networks. It is a standard enumerator.
 <div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>
@@ -104,5 +104,5 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

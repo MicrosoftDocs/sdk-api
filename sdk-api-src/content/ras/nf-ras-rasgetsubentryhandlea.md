@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 020388b1-9965-4bd1-be7b-30f2127cb0fb
 ms.date: 12/05/2018
 ms.keywords: RasGetSubEntryHandle, RasGetSubEntryHandle function [RAS], RasGetSubEntryHandleA, RasGetSubEntryHandleW, _ras_rasgetsubentryhandle, ras/RasGetSubEntryHandle, ras/RasGetSubEntryHandleA, ras/RasGetSubEntryHandleW, rras.rasgetsubentryhandle
-f1_keywords:
-- ras/RasGetSubEntryHandle
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasGetSubEntryHandle
-- RasGetSubEntryHandleA
-- RasGetSubEntryHandleW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetSubEntryHandleA
+ - ras/RasGetSubEntryHandleA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasGetSubEntryHandle
+ - RasGetSubEntryHandleA
+ - RasGetSubEntryHandleW
 ---
 
 # RasGetSubEntryHandleA function
@@ -51,35 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetSubEntryHandle</b> function retrieves a connection handle for a specified subentry of a multilink connection.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 Specifies the <b>HRASCONN</b> connection handle returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function for a multilink phone-book entry.
 
-
 ### -param arg2 [in]
 
 Specifies a valid subentry index for the phone-book entry.
-
 
 ### -param arg3 [out]
 
 Pointer to the <b>HRASCONN</b> variable that receives a connection handle that represents the subentry connection.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -124,14 +115,8 @@ The value specified by <i>dwSubEntry</i> exceeds the maximum number of subentrie
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The connection handle specified in the <i>hRasConn</i> parameter refers to the entire multilink connection, but the connection handle returned in the <i>*lphRasConn</i> parameter refers only to the subentry connection. Use the subentry connection handle in any function that accepts an <i>hRasConn</i> parameter, including the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>, 
@@ -154,9 +139,6 @@ You can call
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
@@ -178,7 +160,4 @@ You can call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

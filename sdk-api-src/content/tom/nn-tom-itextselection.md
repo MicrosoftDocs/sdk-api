@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextselection.htm
 ms.date: 12/05/2018
 ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], ITextSelection interface [Windows Controls],described, _win32_ITextSelection, _win32_ITextSelection_cpp, controls.ITextSelection, controls._win32_ITextSelection, tom/ITextSelection
-f1_keywords:
-- tom/ITextSelection
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextSelection
+ - tom/ITextSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextSelection
 ---
 
 # ITextSelection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A text selection is a text range with selection highlighting.
-
 
 ## -inheritance
 
@@ -158,12 +157,9 @@ Types the string given by <i>bstr</i> at this selection as if someone typed it. 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The selection is associated with some kind of view, and has some UI-oriented methods that allow one to emulate keyboard input. Thus, an application can use the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> methods on a text selection, as well as the <b>ITextSelection</b> methods.
 
@@ -232,6 +228,4 @@ To see how the cursor-keypad methods work, see the following table. A given meth
 Applications typically do not implement the <b>ITextSelection</b> interface. Instead, Microsoft text solutions such as rich edit controls implement <b>ITextSelection</b> as part of their Text Object Model (TOM) implementation.
 
 Applications can retrieve an <b>ITextSelection</b> pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getselection">GetSelection</a> method.
-
-
 

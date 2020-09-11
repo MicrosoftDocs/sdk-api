@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: cb9b1e29-45c3-4208-8343-c2924505a9f3
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter, IVMRImagePresenter interface [DirectShow], IVMRImagePresenter interface [DirectShow],described, IVMRImagePresenterInterface, dshow.ivmrimagepresenter, strmif/IVMRImagePresenter
-f1_keywords:
-- strmif/IVMRImagePresenter
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRImagePresenter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRImagePresenter
+ - strmif/IVMRImagePresenter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRImagePresenter
 ---
 
 # IVMRImagePresenter interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IVMRImagePresenter</code> interface is implemented by the default Allocator-Presenter for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). It must also be implemented by any plug-in Allocator-Presenter that an application provides for the VMR-7. The VMR-7 uses the methods on this interface to inform the Allocator-Presenter that it should present the video frame contained in the supplied Direct Draw surface. Applications do not use this interface.
 
 For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenter9">IVMRImagePresenter9</a> interface.
-
-
-
 
 ## -inheritance
 
@@ -101,16 +97,9 @@ Called just after the video stops playing.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

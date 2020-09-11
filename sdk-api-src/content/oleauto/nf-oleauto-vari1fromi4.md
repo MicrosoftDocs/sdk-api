@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 38d8bc5c-0d4b-4072-86ed-8a666b2aed88
 ms.date: 12/05/2018
 ms.keywords: VarI1FromI4, VarI1FromI4 function [Automation], _oa96_VarI1FromI4, automat.vari1fromi4, oleauto/VarI1FromI4
-f1_keywords:
-- oleauto/VarI1FromI4
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI1FromI4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI1FromI4
+ - oleauto/VarI1FromI4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI1FromI4
 ---
 
 # VarI1FromI4 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a long value to a char value.
 
-
 ## -parameters
-
-
-
 
 ### -param lIn [in]
 
 The value to convert.
 
-
 ### -param pcOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

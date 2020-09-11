@@ -8,10 +8,6 @@ tech.root: hcp
 ms.assetid: e7335caf-d89b-45b4-831d-9ead4448a6a3
 ms.date: 12/05/2018
 ms.keywords: READ_THREAD_PROFILING_FLAG_DISPATCHING, READ_THREAD_PROFILING_FLAG_HARDWARE_COUNTERS, ReadThreadProfilingData, ReadThreadProfilingData function [Hardware Counter Profiling], hcp.readthreadprofilingdata, winbase/ReadThreadProfilingData
-f1_keywords:
-- winbase/ReadThreadProfilingData
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- ReadThreadProfilingData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadThreadProfilingData
+ - winbase/ReadThreadProfilingData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - ReadThreadProfilingData
 ---
 
 # ReadThreadProfilingData function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads the specified profiling data associated with the thread.
 
-
 ## -parameters
-
-
-
 
 ### -param PerformanceDataHandle [in]
 
 The handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function returned.
-
 
 ### -param Flags [in]
 
@@ -95,30 +90,16 @@ Get the hardware performance counters data.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PerformanceData [out]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a> structure that contains the thread profiling and hardware counter data.
 
-
 ## -returns
-
-
 
  Returns ERROR_SUCCESS if the call is successful; otherwise, a system error code (see Winerror.h).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a>
- 
-
- 
 

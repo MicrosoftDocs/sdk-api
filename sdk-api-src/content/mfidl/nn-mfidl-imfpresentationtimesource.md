@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: e5fab6b7-0abc-4ad7-89a9-33c673e97ce2
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationTimeSource, IMFPresentationTimeSource interface [Media Foundation], IMFPresentationTimeSource interface [Media Foundation],described, e5fab6b7-0abc-4ad7-89a9-33c673e97ce2, mf.imfpresentationtimesource, mfidl/IMFPresentationTimeSource
-f1_keywords:
-- mfidl/IMFPresentationTimeSource
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFPresentationTimeSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPresentationTimeSource
+ - mfidl/IMFPresentationTimeSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFPresentationTimeSource
 ---
 
 # IMFPresentationTimeSource interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the clock times for the presentation clock.
-        
-
 
 ## -inheritance
 
@@ -79,12 +77,9 @@ Retrieves the underlying clock that the presentation time source uses to generat
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is implemented by presentation time sources. A presentation time source is an object that provides the clock time for the presentation clock. For example, the audio renderer is a presentation time source. The rate at which the audio renderer consumes audio samples determines the clock time. If the audio format is 44100 samples per second, the audio renderer will report that one second has passed for every 44100 audio samples it plays. In this case, the timing is provided by the sound card.
 
@@ -94,13 +89,7 @@ A presentation time source must also implement the <a href="https://docs.microso
 
 Media Foundation provides a presentation time source that is based on the system clock. To create this object, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesystemtimesource">MFCreateSystemTimeSource</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>
 
@@ -111,7 +100,4 @@ Media Foundation provides a presentation time source that is based on the system
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
 

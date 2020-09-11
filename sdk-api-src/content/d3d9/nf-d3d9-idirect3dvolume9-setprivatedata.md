@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__setprivatedata.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DVolume9 interface [Direct3D 9],SetPrivateData method, IDirect3DVolume9.SetPrivateData, IDirect3DVolume9::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9],IDirect3DVolume9 interface, d3d9helper/IDirect3DVolume9::SetPrivateData, direct3d9.idirect3dvolume9__setprivatedata, e78e1093-63e6-c468-61fa-034b8ab6af7a
-f1_keywords:
-- d3d9/IDirect3DVolume9.SetPrivateData
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DVolume9.SetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DVolume9::SetPrivateData
+ - d3d9/IDirect3DVolume9::SetPrivateData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DVolume9.SetPrivateData
 ---
 
 # IDirect3DVolume9::SetPrivateData
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates data with the volume that is intended for use by the application, not by Direct3D.
 
-
 ## -parameters
-
-
-
 
 ### -param refguid [in]
 
@@ -65,20 +61,17 @@ Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut
 
 Reference to the globally unique identifier that identifies the private data to set.
 
-
 ### -param pData [in]
 
 Type: <b>const void*</b>
 
-Pointer to a buffer that contains the data to associate with the volume. 
-
+Pointer to a buffer that contains the data to associate with the volume.
 
 ### -param SizeOfData [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Size of the buffer at pData in bytes. 
-
+Size of the buffer at pData in bytes.
 
 ### -param Flags [in]
 
@@ -114,35 +107,20 @@ The data at pData is a pointer to an <a href="https://docs.microsoft.com/windows
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, E_OUTOFMEMORY.
 
-
-
-
 ## -remarks
-
-
 
 Direct3D does not manage the memory at pData. If this buffer was dynamically allocated, it is the calling application's responsibility to free the memory.
 
 Data is passed by value, and multiple sets of data can be associated with a single volume.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>
 
@@ -153,7 +131,4 @@ Data is passed by value, and multiple sets of data can be associated with a sing
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-getprivatedata">IDirect3DVolume9::GetPrivateData</a>
- 
-
- 
 

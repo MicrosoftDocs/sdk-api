@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 502a94bf-3ec4-44d2-b0de-9994f2f9861f
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], IWICBitmapCodecInfo interface [Windows Imaging Component],described, _wic_codec_iwicbitmapcodecinfo, wic._wic_codec_iwicbitmapcodecinfo, wincodec/IWICBitmapCodecInfo
-f1_keywords:
-- wincodec/IWICBitmapCodecInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapCodecInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapCodecInfo
+ - wincodec/IWICBitmapCodecInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapCodecInfo
 ---
 
 # IWICBitmapCodecInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide information about a particular codec.
-
 
 ## -inheritance
 
@@ -176,13 +175,9 @@ Retrieves a value indicating whether the given mime type matches the mime type o
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo">IWICBitmapDecoderInfo</a>
 
@@ -197,7 +192,4 @@ Retrieves a value indicating whether the given mime type matches the mime type o
 
 
 <b>Reference</b>
- 
-
- 
 

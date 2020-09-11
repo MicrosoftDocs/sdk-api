@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wic
+f1_keywords:
+ - wincodecsdk
+ - wincodecsdk/wincodecsdk
 ---
 
 # Wincodecsdk.h header
 
 
 ## -description
-
 
 This header is used by Windows Imaging Component. For more information, see:
 

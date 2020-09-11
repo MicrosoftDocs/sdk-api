@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 308eddea-50e2-44c8-858f-315b8960a421
 ms.date: 12/05/2018
 ms.keywords: IsVolumeSnapshotted, IsVolumeSnapshotted function [VSS], IsVolumeSnapshottedInternal, _win32_isvolumesnapshotted, base.isvolumesnapshotted, vsbackup/IsVolumeSnapshotted, vsbackup/IsVolumeSnapshottedInternal
-f1_keywords:
-- vsbackup/IsVolumeSnapshotted
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VssApi.dll
-- Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
-api_name:
-- IsVolumeSnapshotted
-- IsVolumeSnapshottedInternal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsVolumeSnapshotted
+ - vsbackup/IsVolumeSnapshotted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VssApi.dll
+ - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+api_name:
+ - IsVolumeSnapshotted
+ - IsVolumeSnapshottedInternal
 ---
 
 # IsVolumeSnapshotted function
@@ -51,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsVolumeSnapshotted</b> function determines 
     whether any shadow copies exist for the specified volume.
 <div class="alert"><b>Note</b>  This function is exported as <b>IsVolumeSnapshottedInternal</b>, but you should call <b>IsVolumeSnapshotted</b>, not <b>IsVolumeSnapshottedInternal</b>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param pwszVolumeName [in]
 
@@ -77,7 +74,6 @@ Name of the volume. The name of the volume to be checked must be in one of the f
 The value of this parameter is <b>TRUE</b> if the volume has a shadow copy, and 
       <b>FALSE</b> if the volume does not have a shadow copy.
 
-
 ### -param plSnapshotCapability [out]
 
 A bit mask (or bitwise OR) of 
@@ -85,10 +81,7 @@ A bit mask (or bitwise OR) of
       indicates whether certain volume control or file I/O operations are disabled for the given volume if a shadow 
       copy of it exists.
 
-
 ## -returns
-
-
 
 The return values listed here are in addition to the normal COM <b>HRESULT</b>s that may be returned at any time 
        from the function.
@@ -193,30 +186,15 @@ Unexpected provider error. The error code is logged in the event log file. For a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this function, the caller must have initialized COM by calling the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function.
 
 If no volume control or file I/O operations are disabled for the selected volume, then the shadow copy 
     capability of the selected volume returned by <i>plSnapshotCapability</i> will be zero.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a>
- 
-
- 
 

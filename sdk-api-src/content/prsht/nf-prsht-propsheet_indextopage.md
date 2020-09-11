@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextopage.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_IndexToPage, PropSheet_IndexToPage macro [Windows Controls], _win32_PropSheet_IndexToPage, _win32_PropSheet_IndexToPage_cpp, controls.PropSheet_IndexToPage, controls._win32_PropSheet_IndexToPage, prsht/PropSheet_IndexToPage
-f1_keywords:
-- prsht/PropSheet_IndexToPage
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PropSheet_IndexToPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropSheet_IndexToPage
+ - prsht/PropSheet_IndexToPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheet_IndexToPage
 ---
 
 # PropSheet_IndexToPage macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-indextopage">PSM_INDEXTOPAGE</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hDlg
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the property sheet window.
 
-
 ### -param i
 
 Type: <b>int</b>
 
 Zero-based index of the page.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_pagetoindex">PropSheet_PageToIndex</a>
- 
-
- 
 

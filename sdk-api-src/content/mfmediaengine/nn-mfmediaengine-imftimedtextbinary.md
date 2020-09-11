@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: C76FAC0F-6C15-4874-BAE6-7315E1C3066E
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextBinary, IMFTimedTextBinary interface [Media Foundation], IMFTimedTextBinary interface [Media Foundation],described, mf.imftimedtextbinary, mfmediaengine/IMFTimedTextBinary
-f1_keywords:
-- mfmediaengine/IMFTimedTextBinary
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextBinary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextBinary
+ - mfmediaengine/IMFTimedTextBinary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextBinary
 ---
 
 # IMFTimedTextBinary interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the data content of a timed-text object.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Gets the data content of the timed-text object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

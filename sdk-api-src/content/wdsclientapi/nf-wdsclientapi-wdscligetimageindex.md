@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: e90750f0-5b45-40d5-ae6f-23b885cbe714
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageIndex, WdsCliGetImageIndex function [Windows Deployment Services], wds.wdscligetimageindex, wdsclientapi/WdsCliGetImageIndex
-f1_keywords:
-- wdsclientapi/WdsCliGetImageIndex
-dev_langs:
-- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsClientAPI.dll
-api_name:
-- WdsCliGetImageIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsCliGetImageIndex
+ - wdsclientapi/WdsCliGetImageIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsClientAPI.dll
+api_name:
+ - WdsCliGetImageIndex
 ---
 
 # WdsCliGetImageIndex function
@@ -49,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the index within the Windows Imaging Format(WIM) file for the current image.
 
-
 ## -parameters
-
-
-
 
 ### -param hIfh [in]
 
 A find handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclifindfirstimage">WdsCliFindFirstImage</a> function. The image referenced by the find handle can be advanced using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclifindnextimage">WdsCliFindNextImage</a> function.
 
-
 ### -param pdwValue [out]
 
 A pointer to a 
-      value that contains the image index for the current image WIM file. 
-
+      value that contains the image index for the current image WIM file.
 
 ## -returns
 
-
-
 If the function succeeds, the return is <b>S_OK</b>.
 
-
-
-
 ## -remarks
-
-
 
 This value 
       is valid until the 
@@ -88,13 +75,7 @@ This value
       <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliclose">WdsCliClose</a> function is used to change or close the 
       current handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliclose">WdsCliClose</a>
 
@@ -109,7 +90,4 @@ This value
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>
- 
-
- 
 

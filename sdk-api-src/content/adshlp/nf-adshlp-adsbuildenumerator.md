@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: e4fdec19-bccf-49ec-8a95-29e096c4c9c1
 ms.date: 12/05/2018
 ms.keywords: ADsBuildEnumerator, ADsBuildEnumerator function [ADSI], _ds_adsbuildenumerator, adshlp/ADsBuildEnumerator, adsi.adsbuildenumerator
-f1_keywords:
-- adshlp/ADsBuildEnumerator
-dev_langs:
-- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Activeds.dll
-api_name:
-- ADsBuildEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ADsBuildEnumerator
+ - adshlp/ADsBuildEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Activeds.dll
+api_name:
+ - ADsBuildEnumerator
 ---
 
 # ADsBuildEnumerator function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADsBuildEnumerator</b> function creates an enumerator object for the specified ADSI container object.
 
-
 ## -parameters
-
-
-
 
 ### -param pADsContainer [in]
 
@@ -64,28 +60,19 @@ Type: <b>IADsContainer*</b>
 
 Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interface for the object to enumerate.
 
-
 ### -param ppEnumVariant [out]
 
 Type: <b>IEnumVARIANT**</b>
 
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface pointer that receives the enumerator object created for the specified container object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 This method supports the standard <b>HRESULT</b> return values, including <b>S_OK</b> for a successful operation. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ADsBuildEnumerator</b> helper function wraps the calls used to retrieve the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on the enumerator object.
 
@@ -164,14 +151,7 @@ HRESULT PrintAllObjects(IADsContainer* pContainer)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -194,7 +174,4 @@ HRESULT PrintAllObjects(IADsContainer* pContainer)
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
- 
-
- 
 

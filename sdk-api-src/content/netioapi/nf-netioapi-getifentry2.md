@@ -7,10 +7,6 @@ tech.root: IpHlp
 ms.assetid: da787dae-5e89-4bf2-a9b6-90e727995414
 ms.date: 12/05/2018
 ms.keywords: GetIfEntry2, GetIfEntry2 function [IP Helper], iphlp.getifentry2, netioapi/GetIfEntry2
-f1_keywords:
-- netioapi/GetIfEntry2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIfEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIfEntry2
+ - netioapi/GetIfEntry2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIfEntry2
 ---
 
 # GetIfEntry2 function
@@ -48,25 +49,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIfEntry2</b> function  retrieves information for the specified interface on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Row
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure that, on successful return, receives information for an interface on the local computer. On input, the <b>InterfaceLuid</b> or the <b>InterfaceIndex</b> member of the <b>MIB_IF_ROW2</b> must be set to the interface for which to retrieve information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -112,14 +105,8 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIfEntry2</b> function is defined on Windows Vista and later. 
 
@@ -414,14 +401,7 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>GetIfEntry</b>
 
@@ -456,7 +436,4 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59
 ms.date: 12/05/2018
 ms.keywords: GetPages, GetPages method [COM], GetPages method [COM],ISpecifyPropertyPages interface, ISpecifyPropertyPages interface [COM],GetPages method, ISpecifyPropertyPages.GetPages, ISpecifyPropertyPages::GetPages, _ctrl_ispecifypropertypages_getpages, com.ispecifypropertypages_getpages, ocidl/ISpecifyPropertyPages::GetPages
-f1_keywords:
-- ocidl/ISpecifyPropertyPages.GetPages
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- ISpecifyPropertyPages.GetPages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpecifyPropertyPages::GetPages
+ - ocidl/ISpecifyPropertyPages::GetPages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - ISpecifyPropertyPages.GetPages
 ---
 
 # ISpecifyPropertyPages::GetPages
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of property pages that can be displayed in this object's property sheet.
 
-
 ## -parameters
-
-
-
 
 ### -param pPages [out]
 
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-cauuid">CAUUID</a> structure that must be initialized and filled before returning. The <b>pElems</b> member in the structure is allocated by the callee with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed by the caller with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -98,14 +91,8 @@ The address in <i>pPages</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-cauuid">CAUUID</a> structure is caller-allocated, but is not initialized by the caller. The <b>GetPages</b> method fills the <b>cElements</b> member in the structure. This method also allocates memory for the array pointed to by the <b>pElems</b> member using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. Then, it fills the newly allocated array. After this method returns successfully, the structure contains a counted array of UUIDs, each UUID specifying a property page CLSID.
 
@@ -115,16 +102,7 @@ The caller must release the memory pointed to by the <b>pElems</b> member of <a 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 E_NOTIMPL is not allowed as a return value, because an object with no property pages should not expose the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPages</a> interface.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPages</a>
- 
-
- 
 

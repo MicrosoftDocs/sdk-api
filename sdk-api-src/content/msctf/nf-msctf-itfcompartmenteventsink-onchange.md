@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1756754c-6353-4296-bdb5-1cbef1d29ec5
 ms.date: 12/05/2018
 ms.keywords: ITfCompartmentEventSink interface [Text Services Framework],OnChange method, ITfCompartmentEventSink.OnChange, ITfCompartmentEventSink::OnChange, OnChange, OnChange method [Text Services Framework], OnChange method [Text Services Framework],ITfCompartmentEventSink interface, _tsf_itfcompartmenteventsink_onchange_ref, msctf/ITfCompartmentEventSink::OnChange, tsf.itfcompartmenteventsink_onchange
-f1_keywords:
-- msctf/ITfCompartmentEventSink.OnChange
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfCompartmentEventSink.OnChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompartmentEventSink::OnChange
+ - msctf/ITfCompartmentEventSink::OnChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfCompartmentEventSink.OnChange
 ---
 
 # ITfCompartmentEventSink::OnChange
+
 
 ## -description
 
@@ -69,3 +71,4 @@ When this method is called, the data has changed. The new data can be obtained a
 ## -see-also
 
 [ITfCompartment::GetValue](nf-msctf-itfcompartment-getvalue.md), [ITfCompartment::SetValue](nf-msctf-itfcompartment-setvalue.md), [ITfCompartmentEventSink interface](nn-msctf-itfcompartmenteventsink.md)
+

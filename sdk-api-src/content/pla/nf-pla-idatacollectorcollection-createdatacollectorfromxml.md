@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 32a1aba6-24f4-416a-b2ba-9be264fce3fc
 ms.date: 12/05/2018
 ms.keywords: CreateDataCollectorFromXml, CreateDataCollectorFromXml method [PLA], CreateDataCollectorFromXml method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollectorFromXml method, IDataCollectorCollection.CreateDataCollectorFromXml, IDataCollectorCollection::CreateDataCollectorFromXml, pla.idatacollectorcollection_createdatacollectorfromxml, pla/IDataCollectorCollection::CreateDataCollectorFromXml
-f1_keywords:
-- pla/IDataCollectorCollection.CreateDataCollectorFromXml
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorCollection.CreateDataCollectorFromXml
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorCollection::CreateDataCollectorFromXml
+ - pla/IDataCollectorCollection::CreateDataCollectorFromXml
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorCollection.CreateDataCollectorFromXml
 ---
 
 # IDataCollectorCollection::CreateDataCollectorFromXml
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a data collector using the specified XML.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrXml [in]
 
 A string that contains the XML of the data collector to create. For details on specifying the XML string, see the Remarks section of the data collector that you want to create.
 
-
 ### -param pValidation [out]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors.
-
 
 ### -param pCollector [out]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a> interface of the newly created data collector. To get the actual data collector interface requested, call the <b>QueryInterface</b> method.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful.
 
-
-
-
 ## -remarks
-
-
 
 If the XML syntax is valid, this API will return S_OK, even if one or more properties is not valid.  Those properties whose values are valid are set. Those properties whose values are not valid are set to their default value.
 
@@ -146,22 +132,12 @@ Use one of the following interface identifiers to query the <a href="https://doc
 <td>IID_ITraceDataCollector</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-createdatacollector">IDataCollectorCollection::CreateDataCollector</a>
- 
-
- 
 

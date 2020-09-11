@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ujp_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage, IFaxOutgoingMessage interface [Fax Service], IFaxOutgoingMessage interface [Fax Service],described, _mfax_faxoutgoingmessage_cpp, fax._mfax_faxoutgoingmessage_cpp, faxcomex/IFaxOutgoingMessage
-f1_keywords:
-- faxcomex/IFaxOutgoingMessage
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutgoingMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutgoingMessage
+ - faxcomex/IFaxOutgoingMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutgoingMessage
 ---
 
 # IFaxOutgoingMessage interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxOutgoingMessage</b> interface describes an object that is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes. The archive contains faxes transmitted successfully by the fax service. The object enables you to retrieve information about the fax recipient, contained in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a> object, and information about the fax sender, contained in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a> object. It also includes methods to delete a message from the archive and to copy the Tagged Image File Format Class F (TIFF Class F) file associated with the fax message, to a file on the local computer.
-
 
 ## -inheritance
 
@@ -367,14 +366,9 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A default implementation of <b>IFaxOutgoingMessage</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object.
-
-
 

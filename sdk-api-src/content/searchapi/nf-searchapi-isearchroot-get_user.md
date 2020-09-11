@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_user.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_User method, ISearchRoot.get_User, ISearchRoot::get_User, _search_ISearchRoot_get_User, get_User, get_User method [search], get_User method [search],ISearchRoot interface, search._search_ISearchRoot_get_User, searchapi/ISearchRoot::get_User
-f1_keywords:
-- searchapi/ISearchRoot.get_User
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- searchapi.h
-api_name:
-- ISearchRoot.get_User
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchRoot::get_User
+ - searchapi/ISearchRoot::get_User
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - searchapi.h
+api_name:
+ - ISearchRoot.get_User
 ---
 
 # ISearchRoot::get_User
@@ -49,34 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszUser
 
 This parameter is unused.
 
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
 <b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
+

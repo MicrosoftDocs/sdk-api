@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 2767056d-59dc-4f6e-b0f7-e37b3fed9581
 ms.date: 12/05/2018
 ms.keywords: GetDevicePosition, GetDevicePosition method [Core Audio], GetDevicePosition method [Core Audio],IAudioClock2 interface, IAudioClock2 interface [Core Audio],GetDevicePosition method, IAudioClock2.GetDevicePosition, IAudioClock2::GetDevicePosition, audioclient/IAudioClock2::GetDevicePosition, coreaudio.iaudioclock2_getdeviceposition
-f1_keywords:
-- audioclient/IAudioClock2.GetDevicePosition
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioclient.h
-api_name:
-- IAudioClock2.GetDevicePosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClock2::GetDevicePosition
+ - audioclient/IAudioClock2::GetDevicePosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioclient.h
+api_name:
+ - IAudioClock2.GetDevicePosition
 ---
 
 # IAudioClock2::GetDevicePosition
@@ -49,33 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDevicePosition</b> method gets the current device position, in frames, directly from the hardware.
 
-
 ## -parameters
-
-
-
 
 ### -param DevicePosition [out]
 
 Receives the device position, in frames. The received position is an unprocessed value that the method obtains directly from the hardware. For more information, see Remarks.
-			 
-
 
 ### -param QPCPosition [out]
 
 Receives the value of the performance counter at the time that the audio endpoint device read the device position retrieved in the <i>DevicePosition</i> parameter in response to the <b>GetDevicePosition</b> call.  
 					 <b>GetDevicePosition</b> converts the counter value to 100-nanosecond time units before writing it to <i>QPCPosition</i>.
 					<i>QPCPosition</i> can be <b>NULL</b> if the client does not require the performance counter value.
-				For more information, see Remarks.			 	
-			  
-
+				For more information, see Remarks.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK.
 
@@ -118,14 +108,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audio
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method only applies to shared-mode streams. 
 
@@ -147,15 +131,7 @@ Given the device position and the performance counter at the time of the <b>GetD
 <li>Divide the result by the counter frequency obtained from <b>QueryPerformanceFrequency</b>.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock2">IAudioClock2</a>
- 
-
- 
 

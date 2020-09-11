@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 4A20B1E3-ED99-4429-A9C1-35C9330CB108
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORESIZEREQUESTQUEUE
-f1_keywords:
-- mswsock/LPFN_RIORESIZEREQUESTQUEUE
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,20 +28,24 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIORESIZEREQUESTQUEUE
+ - mswsock/LPFN_RIORESIZEREQUESTQUEUE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIORESIZEREQUESTQUEUE
+ - LPFN_RIORESIZEREQUESTQUEUE
 ---
 
 ## -description
 
 The **RIOResizeRequestQueue** function resizes a request queue to be either larger or smaller for use with the Winsock registered I/O extensions.
-
 
 ## -parameters
 
@@ -74,8 +74,6 @@ If no error occurs, the **RIOResizeRequestQueue** function returns **TRUE**. Oth
 | <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl>             | An invalid parameter was passed to the function. This error is returned if the *RQ* parameter is not valid (RIO\_INVALID\_RQ, for example). This error is also returned if both the *MaxOutstandingReceive* and *MaxOutstandingSend* parameters are zero. <br/> |
 | <dl> <dt>**[WSAENOBUFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**</dt> </dl>           | Sufficient memory could not be allocated. This error is returned if memory could not be allocated for the resized request queue.<br/>                                                                                                                           |
 | <dl> <dt>**[WSAETOOMANYREFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaetoomanyrefs)**</dt> </dl> | There are too many operations that still reference the request queue. Resizing of this request queue to be smaller is not possible at this time.<br/>                                                                                                           |
-
-
 
 ## -remarks
 

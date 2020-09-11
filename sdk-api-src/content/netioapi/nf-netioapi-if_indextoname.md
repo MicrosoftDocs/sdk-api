@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 0da31819-3ee7-4474-9e68-f5a18d4a135a
 ms.date: 12/05/2018
 ms.keywords: if_indextoname, if_indextoname function [IP Helper], iphlp.if_indextoname, netioapi/if_indextoname
-f1_keywords:
-- netioapi/if_indextoname
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- if_indextoname
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - if_indextoname
+ - netioapi/if_indextoname
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - if_indextoname
 ---
 
 # if_indextoname function
@@ -49,40 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>if_indextoname</b> function converts the local index for a network interface to the ANSI interface name.
 
-
 ## -parameters
-
-
-
 
 ### -param InterfaceIndex [in]
 
 The local index for a network interface.
-
 
 ### -param InterfaceName [out]
 
 A pointer to a buffer to hold the <b>NULL</b>-terminated ANSI string containing the interface name when the function returns successfully. The length, in bytes, of the buffer pointed to by this parameter must be equal to or greater than 
         <b>IF_NAMESIZE</b>.
 
-
 ## -returns
 
-
-
 On success, 
-<b>if_indextoname</b> returns a pointer to <b>NULL</b>-terminated ANSI string containing the interface name. On failure, a <b>NULL</b> pointer is returned.  
-
-
-
+<b>if_indextoname</b> returns a pointer to <b>NULL</b>-terminated ANSI string containing the interface name. On failure, a <b>NULL</b> pointer is returned.
 
 ## -remarks
-
-
 
 The <b>if_indextoname</b> function is available on Windows Vistaand later.
 
@@ -93,16 +80,9 @@ The <b>if_indextoname</b> function is implemented for portability of application
 
 If the <b>if_indextoname</b> fails and returns a <b>NULL</b> pointer, it is not possible to determine an error code. 
 
-The length, in bytes, of the buffer pointed to by the <i>InterfaceName</i> parameter must be equal or greater than <b>IF_NAMESIZE</b>, a value declared in the <i>Netioapi.h</i> header file equal to <b>NDIS_IF_MAX_STRING_SIZE</b>. The maximum length of an interface name, <b>NDIS_IF_MAX_STRING_SIZE</b>, without the terminating <b>NULL</b> is declared in the <i>Ntddndis.h</i> header file. The <b>NDIS_IF_MAX_STRING_SIZE</b> is defined to be the <b>IF_MAX_STRING_SIZE</b> constant defined in the <i>Ifdef.h</i> header file. The <i>Ntddndis.h</i> and <i>Ifdef.h</i> header files are automatically included in the <i>Netioapi.h</i> header file which is automatically included by the <i>Iphlpapi.h</i> header file. The <i>Ntddndis.h</i>, <i>Ifdef.h</i>, and <i> Netioapi.h</i> header files should never be used directly. 
-
-
-
-
+The length, in bytes, of the buffer pointed to by the <i>InterfaceName</i> parameter must be equal or greater than <b>IF_NAMESIZE</b>, a value declared in the <i>Netioapi.h</i> header file equal to <b>NDIS_IF_MAX_STRING_SIZE</b>. The maximum length of an interface name, <b>NDIS_IF_MAX_STRING_SIZE</b>, without the terminating <b>NULL</b> is declared in the <i>Ntddndis.h</i> header file. The <b>NDIS_IF_MAX_STRING_SIZE</b> is defined to be the <b>IF_MAX_STRING_SIZE</b> constant defined in the <i>Ifdef.h</i> header file. The <i>Ntddndis.h</i> and <i>Ifdef.h</i> header files are automatically included in the <i>Netioapi.h</i> header file which is automatically included by the <i>Iphlpapi.h</i> header file. The <i>Ntddndis.h</i>, <i>Ifdef.h</i>, and <i> Netioapi.h</i> header files should never be used directly.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfacealiastoluid">ConvertInterfaceAliasToLuid</a>
 
@@ -149,7 +129,4 @@ The length, in bytes, of the buffer pointed to by the <i>InterfaceName</i> param
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-if_nametoindex">if_nametoindex</a>
- 
-
- 
 

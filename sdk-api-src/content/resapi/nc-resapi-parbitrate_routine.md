@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: dc16b785-bbb1-4917-a826-e49445a86c26
 ms.date: 12/05/2018
 ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
-f1_keywords:
-- resapi/Arbitrate
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- Arbitrate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PARBITRATE_ROUTINE
+ - resapi/PARBITRATE_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - Arbitrate
 ---
 
 # PARBITRATE_ROUTINE callback function
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> to attempt to regain ownership of a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>. The 
     <b>PARBITRATE_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param Resource [in]
 
 Resource identifier for the quorum resource to be owned.
-
 
 ### -param LostQuorumResource [in]
 
 Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pquorum_resource_lost">QuorumResourceLost</a> callback 
        function that should be called if control of the quorum resource is lost after being successfully gained.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -104,14 +96,8 @@ The arbitration was not successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>Arbitrate</i> entry-point function is implemented for 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resources</a> only. Expect this function to 
@@ -126,16 +112,7 @@ If <b>Arbitrate</b> is successful, make sure that only the
      <i>ResourceId</i>. For example, a disk resource can implement a defense by continually 
      replacing the reservation made on it once per second.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
 

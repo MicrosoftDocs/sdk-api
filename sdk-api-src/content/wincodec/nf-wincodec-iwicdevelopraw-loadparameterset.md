@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: c3882d90-5772-4b10-8fcc-8d16f5004a05
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],LoadParameterSet method, IWICDevelopRaw.LoadParameterSet, IWICDevelopRaw::LoadParameterSet, LoadParameterSet, LoadParameterSet method [Windows Imaging Component], LoadParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_loadparameterset, wic._wic_codec_iwicdevelopraw_loadparameterset, wincodec/IWICDevelopRaw::LoadParameterSet
-f1_keywords:
-- wincodec/IWICDevelopRaw.LoadParameterSet
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICDevelopRaw.LoadParameterSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICDevelopRaw::LoadParameterSet
+ - wincodec/IWICDevelopRaw::LoadParameterSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICDevelopRaw.LoadParameterSet
 ---
 
 # IWICDevelopRaw::LoadParameterSet
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the desired <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawparameterset">WICRawParameterSet</a> option.
 
-
 ## -parameters
-
-
-
 
 ### -param ParameterSet [in]
 
@@ -64,14 +60,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-win
 
 The desired <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawparameterset">WICRawParameterSet</a> option.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 057424eb-c491-4295-b2a7-cf983902c667
 ms.date: 12/05/2018
 ms.keywords: IVdsMaintenance interface [VDS],PulseMaintenance method, IVdsMaintenance.PulseMaintenance, IVdsMaintenance::PulseMaintenance, PulseMaintenance, PulseMaintenance method [VDS], PulseMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_pulsemaintenance, vds/IVdsMaintenance::PulseMaintenance, vdshwprv/IVdsMaintenance::PulseMaintenance
-f1_keywords:
-- vds/IVdsMaintenance.PulseMaintenance
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsMaintenance.PulseMaintenance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsMaintenance::PulseMaintenance
+ - vds/IVdsMaintenance::PulseMaintenance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsMaintenance.PulseMaintenance
 ---
 
 # IVdsMaintenance::PulseMaintenance
@@ -50,30 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Performs the specified operation a specified number of times.
 
-
 ## -parameters
-
-
-
 
 ### -param operation [in]
 
 A maintenance operation enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>.
 
-
 ### -param ulCount [in]
 
 The number of times to perform the operation.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -154,24 +146,12 @@ This operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the operation is already running, this method causes it to pulse the specified number of times and then stop. The intervals at which the operation pulses is defined by the provider. This method cannot be used with the SpinDown or SpinUp operations.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
@@ -186,7 +166,4 @@ If the operation is already running, this method causes it to pulse the specifie
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>
- 
-
- 
 

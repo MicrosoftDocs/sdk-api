@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: be3d42a4-a18a-40a5-99fc-2cf2a848c564
 ms.date: 12/05/2018
 ms.keywords: IConsole3, IConsole3 interface [MMC], IConsole3 interface [MMC],described, _slate_iconsole3, mmc.iconsole3, mmc/IConsole3
-f1_keywords:
-- mmc/IConsole3
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsole3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsole3
+ - mmc/IConsole3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsole3
 ---
 
 # IConsole3 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IConsole3</b> interface supersedes the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a> interface. The 
 <b>IConsole3</b> interface contains the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole3-renamescopeitem">IConsole3::RenameScopeItem</a> method, which allows a scope node to programmatically be placed in rename mode.
-
 
 ## -inheritance
 
@@ -184,5 +183,5 @@ IComponent interface.</p> (Inherited from <a href="https://docs.microsoft.com/wi
 <td align="left" width="63%">
 Generates a notification to update views when the content changes.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>)</td>
 </tr>
-</table> 
+</table>
 

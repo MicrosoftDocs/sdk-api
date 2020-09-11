@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 0e809ae7-381c-4ada-8940-5d42bf5c03da
 ms.date: 12/05/2018
 ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow],described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata
-f1_keywords:
-- austream/IMemoryData
-dev_langs:
-- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- austream.h
-api_name:
-- IMemoryData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMemoryData
+ - austream/IMemoryData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - austream.h
+api_name:
+ - IMemoryData
 ---
 
 # IMemoryData interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
@@ -60,9 +59,6 @@ Implement this interface on underlying audio data objects that audio stream samp
 Typically these methods are called by the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample</a> object, rather than by the application.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <code>IMemoryData</code> interface exposes the following methods.
-
-
-
 
 ## -inheritance
 
@@ -106,5 +102,5 @@ Initializes a memory buffer with a pointer to memory and length.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 0daec97f-c1c9-4d87-8e24-485e262d8a85
 ms.date: 12/05/2018
 ms.keywords: WinHttpCheckPlatform, WinHttpCheckPlatform function [WinHTTP], http.winhttpcheckplatform, winhttp.winhttpcheckplatform_function, winhttp/WinHttpCheckPlatform
-f1_keywords:
-- winhttp/WinHttpCheckPlatform
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpCheckPlatform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpCheckPlatform
+ - winhttp/WinHttpCheckPlatform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpCheckPlatform
 ---
 
 # WinHttpCheckPlatform function
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpCheckPlatform</b> function determines whether the current platform is supported by this version of Microsoft Windows HTTP Services (WinHTTP).
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The return value is <b>TRUE</b> if the platform is supported by Microsoft Windows HTTP Services (WinHTTP), or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function is useful if your application uses Microsoft Windows HTTP Services (WinHTTP), but also supports platforms that WinHTTP does not.
 
@@ -96,17 +83,7 @@ The following example shows how to determine whether the current platform is sup
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
- 
-
- 
 

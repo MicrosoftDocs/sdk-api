@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 4ff850a8-3208-4fb4-a581-7581e71f34e6
 ms.date: 12/05/2018
 ms.keywords: AddPropertyConstraint, AddPropertyConstraint method, AddPropertyConstraint method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,AddPropertyConstraint method, IFunctionInstanceCollectionQuery.AddPropertyConstraint, IFunctionInstanceCollectionQuery::AddPropertyConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint, ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceCollectionQuery.AddPropertyConstraint
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceCollectionQuery.AddPropertyConstraint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceCollectionQuery::AddPropertyConstraint
+ - functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceCollectionQuery.AddPropertyConstraint
 ---
 
 # IFunctionInstanceCollectionQuery::AddPropertyConstraint
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Adds a property constraint to the query.
 
 This method limits query results to only function instances with a property key (PKEY) matching the specified constraint.
 
-
 ## -parameters
-
-
-
 
 ### -param Key [in]
 
-The property key (PKEY) for the constraint. For more information about PKEYs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/key-definitions">Key Definitions</a>. 
-
+The property key (PKEY) for the constraint. For more information about PKEYs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/key-definitions">Key Definitions</a>.
 
 ### -param pv [in]
 
@@ -98,15 +93,11 @@ The following shows possible values. Note that only a subset of the PROPVARIANT 
 
 <p class="indent">VT_UINT
 
-
 ### -param enumPropertyConstraint [in]
 
 A <a href="/windows/win32/api/functiondiscoveryconstraints/ne-functiondiscoveryconstraints-propertyconstraint">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -149,33 +140,18 @@ The constraint specified for the query is not supported.  Either the constraint 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A function instance will only match a property constraint when the PROPVARIANT type of the function instance's PKEY matches the PROPVARIANT type of the constraint's  PKEY and the function instance's PKEY value matches the constraint's PKEY value using the comparison operator specified by <i>enumPropertyConstraint</i>.
 
 If multiple constraints are added, all constraints must be supported to satisfy the query.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a>
- 
-
- 
 

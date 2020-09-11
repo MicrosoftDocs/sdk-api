@@ -8,10 +8,6 @@ tech.root: winsensors
 ms.assetid: abf4e339-651d-4444-b219-e5177dbaa7ee
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SupportsEvent method, ISensor.SupportsEvent, ISensor::SupportsEvent, SupportsEvent, SupportsEvent method, SupportsEvent method,ISensor interface, sensorsapi/ISensor::SupportsEvent, winsensors_com_ref.isensor_supportsevent
-f1_keywords:
-- sensorsapi/ISensor.SupportsEvent
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.SupportsEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::SupportsEvent
+ - sensorsapi/ISensor::SupportsEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.SupportsEvent
 ---
 
 # ISensor::SupportsEvent
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether the sensor supports the specified event.
 
-
 ## -parameters
-
-
-
 
 ### -param eventGuid [in]
 
 <b>REFGUID</b> value specifying the event to search for.
 
-
 ### -param pIsSupported [out]
 
 Address of a <b>VARIANT_BOOL</b> that receives a value indicating whether the sensor supports the event.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,18 +94,8 @@ NULL was passed in for pIsSupported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
- 
-
- 
 

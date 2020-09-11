@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getinterpolationcolors_50presetcolors_blendpositions_count.htm
 ms.date: 12/05/2018
 ms.keywords: GetInterpolationColors, GetInterpolationColors method [GDI+], GetInterpolationColors method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetInterpolationColors method, PathGradientBrush.GetInterpolationColors, PathGradientBrush::GetInterpolationColors, _gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_
-f1_keywords:
-- gdipluspath/PathGradientBrush.GetInterpolationColors
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- PathGradientBrush.GetInterpolationColors
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - PathGradientBrush::GetInterpolationColors
+ - gdipluspath/PathGradientBrush::GetInterpolationColors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - PathGradientBrush.GetInterpolationColors
 ---
 
 # PathGradientBrush::GetInterpolationColors
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PathGradientBrush::GetInterpolationColors</b> method gets the preset colors and blend positions currently specified for this path gradient brush.
 
-
 ## -parameters
-
-
-
 
 ### -param presetColors [out]
 
@@ -65,15 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl
 
 Pointer to an array that receives the preset colors. A color of a given index in the 
 					<i>presetColors</i> array corresponds to the blend position of that same index in the 
-					<i>blendPositions</i> array. 
-
+					<i>blendPositions</i> array.
 
 ### -param blendPositions [out]
 
 Type: <b>REAL*</b>
 
-Pointer to an array that receives the blend positions. Each blend position is a number from 0 through 1, where 0 indicates the boundary of the gradient and 1 indicates the center point. A blend position between 0 and 1 indicates the set of all points that are a certain fraction of the distance from the boundary to the center point. For example, a blend position of 0.7 indicates the set of all points that are 70 percent of the way from the boundary to the center point. 
-
+Pointer to an array that receives the blend positions. Each blend position is a number from 0 through 1, where 0 indicates the boundary of the gradient and 1 indicates the center point. A blend position between 0 and 1 indicates the set of all points that are a certain fraction of the distance from the boundary to the center point. For example, a blend position of 0.7 indicates the set of all points that are 70 percent of the way from the boundary to the center point.
 
 ### -param count [in]
 
@@ -81,12 +75,9 @@ Type: <b>INT</b>
 
 Integer that specifies the number of elements in the 
 					<i>presetColors</i>array. This is the same as the number of elements in the 
-					<i>blendPositions</i> array. 
-
+					<i>blendPositions</i> array.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -96,12 +87,7 @@ If the method succeeds, it returns <b>Ok</b>, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 A simple path gradient brush has two colors: a boundary color and a center color. When you paint with such a brush, the color changes gradually from the boundary color to the center color as you move from the boundary path to the center point. You can create a more complex gradient by specifying an array of preset colors and an array of blend positions. 
 
@@ -165,14 +151,7 @@ VOID Example_GetInterpColors(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -199,7 +178,4 @@ VOID Example_GetInterpColors(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setinterpolationcolors">PathGradientBrush::SetInterpolationColors</a>
- 
-
- 
 

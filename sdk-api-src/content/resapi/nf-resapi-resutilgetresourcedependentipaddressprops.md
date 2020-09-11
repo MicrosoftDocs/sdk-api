@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 283b0086-1dbf-45dc-9651-93af9a9ff6d0
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS function [Failover Cluster], ResUtilGetResourceDependentIPAddressProps, ResUtilGetResourceDependentIPAddressProps function [Failover Cluster], _wolf_resutilgetresourcedependentipaddressprops, mscs.resutilgetresourcedependentipaddressprops, resapi/PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, resapi/ResUtilGetResourceDependentIPAddressProps
-f1_keywords:
-- resapi/ResUtilGetResourceDependentIPAddressProps
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilGetResourceDependentIPAddressProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetResourceDependentIPAddressProps
+ - resapi/ResUtilGetResourceDependentIPAddressProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilGetResourceDependentIPAddressProps
 ---
 
 # ResUtilGetResourceDependentIPAddressProps function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/private-properties">private properties</a> of the 
     first IP Address <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> found for a specified 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle to the resource to query for dependencies.
 
-
 ### -param pszAddress [out]
 
 Output buffer for returning the value of the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-address">Address</a> private property.
-
 
 ### -param pcchAddress [in, out]
 
@@ -77,12 +71,10 @@ On input, specifies the size of the <i>pszAddress</i> buffer as a count of
       <b>WCHAR</b>s. On output, specifies the size of the resulting data as a count of 
       <b>WCHAR</b>s that includes the terminating <b>NULL</b>.
 
-
 ### -param pszSubnetMask [out]
 
 Output buffer for returning the value of the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-subnetmask">SubnetMask</a> private property.
-
 
 ### -param pcchSubnetMask [in, out]
 
@@ -90,12 +82,10 @@ On input, specifies the size of the <i>pszSubnetMask</i> buffer as a count of
       <b>WCHAR</b>s. On output, specifies the size of the resulting data as a count of 
       <b>WCHAR</b>s that includes the terminating <b>NULL</b>.
 
-
 ### -param pszNetwork [out]
 
 Output buffer for returning the value of the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-network">Network</a> private property.
-
 
 ### -param pcchNetwork [in, out]
 
@@ -105,10 +95,7 @@ On input, specifies the size of the <i>pszNetwork</i> buffer as a count of
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This parameter is named <i>pcch</i> prior to Windows Server 2012.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
@@ -158,14 +145,8 @@ The size of one of the buffers was too small to hold the resulting data.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not call 
     <b>ResUtilGetResourceDependentIPAddressProps</b> 
@@ -183,13 +164,7 @@ The
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ipv6-address">IPv6 Address</a> resources, or 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ipv6-tunnel-address">IPv6 Tunnel Address</a> resources.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfinddependentdiskresourcedriveletter">ResUtilFindDependentDiskResourceDriveLetter</a>
 
@@ -212,7 +187,4 @@ The
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
- 
-
- 
 

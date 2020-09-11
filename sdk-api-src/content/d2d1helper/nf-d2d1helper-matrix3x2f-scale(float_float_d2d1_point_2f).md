@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 401b8710-c486-44b0-b79c-d7238279fdef
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Scale, D2D1::Matrix3x2F::Scale, Matrix3x2F interface [Direct2D],Scale method, Matrix3x2F.Scale, Matrix3x2F.Scale(FLOAT,FLOAT,D2D1_POINT_2F), Matrix3x2F::Scale, Matrix3x2F::Scale(FLOAT,FLOAT,D2D1_POINT_2F), Scale, Scale method [Direct2D], Scale method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Scale, direct2d.matrix3x2f_scale_float_float_d2d1_point_2f_
-f1_keywords:
-- d2d1helper/Matrix3x2F.Scale
-dev_langs:
-- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- Matrix3x2F.Scale
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Matrix3x2F::Scale
+ - d2d1helper/Matrix3x2F::Scale
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - Matrix3x2F.Scale
 ---
 
 # Matrix3x2F::Scale(FLOAT,FLOAT,D2D1_POINT_2F)
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a scale transformation that has the specified scale factors and center point. 
-
+Creates a scale transformation that has the specified scale factors and center point.
 
 ## -parameters
-
-
-
 
 ### -param x
 
@@ -64,13 +60,11 @@ Type: <b>FLOAT</b>
 
 The x-axis scale factor of the scale transformation.
 
-
 ### -param y
 
 Type: <b>FLOAT</b>
 
 The y-axis scale factor of the scale transformation.
-
 
 ### -param center
 
@@ -78,21 +72,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point
 
 The point about which the scale is performed.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The new scale transformation.
 
-
-
-
 ## -remarks
-
-
 
 This method creates a scale transformation for the specified <i>centerPoint</i> and the 
 	 x-axis and y-axis scale factors. If you prefer to create a  
@@ -106,16 +92,7 @@ The following illustration shows the size of the square increased
 
  For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
- 
-
- 
 

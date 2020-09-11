@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 48e07bc4-da70-406b-8024-3fa36416247f
 ms.date: 12/05/2018
 ms.keywords: IImageRecompress, IImageRecompress interface [Windows Shell], IImageRecompress interface [Windows Shell],described, _win32_IImageRecompress, shell.IImageRecompress, shobjidl/IImageRecompress
-f1_keywords:
-- shobjidl/IImageRecompress
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shimgvw.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shimgvw.dll
-api_name:
-- IImageRecompress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageRecompress
+ - shobjidl/IImageRecompress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shimgvw.dll
+api_name:
+ - IImageRecompress
 ---
 
 # IImageRecompress interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that recompress images.
-
 
 ## -inheritance
 
@@ -81,28 +80,16 @@ Recompresses an image. Implemented in an
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Implement <b>IImageRecompress</b> if you are implementing
 			an image object that may need recompressing. The
 			<b>IImageRecompress</b> interface is implemented in the
 			<a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a> object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a>
- 
-
- 
 

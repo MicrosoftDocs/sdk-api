@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: a95323d1-4329-4a1e-9c8a-adfdd199e9a5
 ms.date: 12/05/2018
 ms.keywords: GetPortableDevice, GetPortableDevice method [Enhanced Storage], GetPortableDevice method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetPortableDevice method, IEnhancedStorageSilo.GetPortableDevice, IEnhancedStorageSilo::GetPortableDevice, ehstorapi/IEnhancedStorageSilo::GetPortableDevice, enstor.ienhancedstoragesilo_getportabledevice
-f1_keywords:
-- ehstorapi/IEnhancedStorageSilo.GetPortableDevice
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageSilo.GetPortableDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageSilo::GetPortableDevice
+ - ehstorapi/IEnhancedStorageSilo::GetPortableDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageSilo.GetPortableDevice
 ---
 
 # IEnhancedStorageSilo::GetPortableDevice
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains an <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
 
-
 ## -parameters
-
-
-
 
 ### -param ppIPortableDevice [out]
 
 Pointer to a pointer to an <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableDevice</a>  object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,18 +90,8 @@ Pointer to <a href="https://msdn.microsoft.com/library/dd319361.aspx">IPortableD
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
- 
-
- 
 

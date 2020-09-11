@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: ecb33eee-4622-4a2e-bc24-7a77d16ef4a4
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],LoadPackageFile method, IXpsSignatureManager.LoadPackageFile, IXpsSignatureManager::LoadPackageFile, LoadPackageFile, LoadPackageFile method [XPS Documents and Packaging], LoadPackageFile method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_loadpackagefile, xpsdigitalsignature/IXpsSignatureManager::LoadPackageFile
-f1_keywords:
-- xpsdigitalsignature/IXpsSignatureManager.LoadPackageFile
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignatureManager.LoadPackageFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignatureManager::LoadPackageFile
+ - xpsdigitalsignature/IXpsSignatureManager::LoadPackageFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignatureManager.LoadPackageFile
 ---
 
 # IXpsSignatureManager::LoadPackageFile
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads an existing XPS package from a file into the digital signature manager.
 
-
 ## -parameters
-
-
-
 
 ### -param fileName [in]
 
 The file name of the XPS package to be loaded.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372949(v=vs.85)">XPS Digital Signature API Errors</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -108,14 +101,8 @@ An XPS package has already  been opened in the signature manager.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  After the interface has been instantiated, the XPS package must be loaded by calling this method or <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream">LoadPackageStream</a> before
 calling any other method in this interface.
@@ -127,13 +114,7 @@ After <b>LoadPackageFile</b> or <a href="https://docs.microsoft.com/windows/desk
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream">LoadPackageStream</a> does not validate all content of the XPS package; it does not, for example, detect invalid markup in a FixedPage part.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager">IXpsSignatureManager</a>
 
@@ -148,7 +129,4 @@ After <b>LoadPackageFile</b> or <a href="https://docs.microsoft.com/windows/desk
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

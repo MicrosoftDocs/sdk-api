@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f8091e79-33af-49d5-b3c8-d30952c62010
 ms.date: 12/05/2018
 ms.keywords: GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetACPFromPoint method, ITfContextOwner.GetACPFromPoint, ITfContextOwner::GetACPFromPoint, _tsf_itfcontextowner_getacpfrompoint_ref, msctf/ITfContextOwner::GetACPFromPoint, tsf.itfcontextowner_getacpfrompoint
-f1_keywords:
-- msctf/ITfContextOwner.GetACPFromPoint
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msimtf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msimtf.dll
-api_name:
-- ITfContextOwner.GetACPFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextOwner::GetACPFromPoint
+ - msctf/ITfContextOwner::GetACPFromPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msimtf.dll
+api_name:
+ - ITfContextOwner.GetACPFromPoint
 ---
 
 # ITfContextOwner::GetACPFromPoint
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfContextOwner::GetACPFromPoint</b> method converts a point in screen coordinates to an application character position.
 
-
 ## -parameters
-
-
-
 
 ### -param ptScreen [in]
 
 Pointer to the <b>POINT</b> structure with the screen coordinates of the point.
-
 
 ### -param dwFlags [in]
 
@@ -73,15 +68,11 @@ If the GXFPF_NEAREST flag is specified for this parameter and the screen coordin
 
 The bit flags can be combined.
 
-
 ### -param pacp [out]
 
 Receives the character position that corresponds to the screen coordinates of the point
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -124,14 +115,8 @@ The application has not calculated a text layout.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="./images/ACPFig01.gif"/>
 Use the illustration to determine the character position returned based on the flags used in the <i>dwFlags</i> parameter.
@@ -152,12 +137,7 @@ Use the illustration to determine the character position returned based on the f
 <li>GXPF_NEAREST-- <i>pacp = 1</i> --The closest character position to the screen coordinates of the point is Character Position 1.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getacpfrompoint">ITextStoreACP::GetACPFromPoint
       </a>
@@ -175,7 +155,4 @@ Use the illustration to determine the character position returned based on the f
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
- 
-
- 
 

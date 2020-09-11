@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 606726e7-fd6b-4419-bd37-7282283007f8
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_FULL_DIR_INFO, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FULL_DIR_INFO, FILE_FULL_DIR_INFO structure [Files], PFILE_FULL_DIR_INFO, PFILE_FULL_DIR_INFO structure pointer [Files], _FILE_FULL_DIR_INFO, fs.file_full_dir_info, winbase/FILE_FULL_DIR_INFO, winbase/PFILE_FULL_DIR_INFO'
-f1_keywords:
-- winbase/FILE_FULL_DIR_INFO
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- FILE_FULL_DIR_INFO
 targetos: Windows
 req.typenames: FILE_FULL_DIR_INFO, *PFILE_FULL_DIR_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILE_FULL_DIR_INFO
+ - winbase/_FILE_FULL_DIR_INFO
+ - PFILE_FULL_DIR_INFO
+ - winbase/PFILE_FULL_DIR_INFO
+ - FILE_FULL_DIR_INFO
+ - winbase/FILE_FULL_DIR_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - FILE_FULL_DIR_INFO
 ---
 
 # FILE_FULL_DIR_INFO structure
@@ -49,23 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains directory information for a file. This structure is returned from the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
     <b>FileFullDirectoryInfo</b> or <b>FileFullDirectoryRestartInfo</b> is 
-    passed in the <i>FileInformationClass</i> parameter. 
-
+    passed in the <i>FileInformationClass</i> parameter.
 
 ## -struct-fields
-
-
-
 
 ### -field NextEntryOffset
 
 The offset for the next <b>FILE_FULL_DIR_INFO</b> 
       structure that is returned. Contains zero (0) if no other entries follow this one.
-
 
 ### -field FileIndex
 
@@ -73,26 +72,21 @@ The byte offset of the file within the parent directory. This member is undefine
       NTFS, in which the position of a file within the parent directory is not fixed and can be changed at any time to 
       maintain sort order.
 
-
 ### -field CreationTime
 
 The time that the file was created.
-
 
 ### -field LastAccessTime
 
 The time that the file was last accessed.
 
-
 ### -field LastWriteTime
 
 The time that the file was last written to.
 
-
 ### -field ChangeTime
 
 The time that the file was last changed.
-
 
 ### -field EndOfFile
 
@@ -101,12 +95,10 @@ The absolute new end-of-file position as a byte offset from the start of the fil
       file. In other words, <b>EndOfFile</b> is the offset to the byte that immediately follows 
       the last valid byte in the file.
 
-
 ### -field AllocationSize
 
 The number of bytes that are allocated for the file. This value is usually a multiple of the sector or 
       cluster size of the underlying physical device.
-
 
 ### -field FileAttributes
 
@@ -144,26 +136,20 @@ The file attributes. This member can be any valid combination of the following a
 
 #### FILE_ATTRIBUTE_TEMPORARY (0x00000100)
 
-
 ### -field FileNameLength
 
 The length of the file name.
 
-
 ### -field EaSize
 
 The size of the extended attributes for the file.
-
 
 ### -field FileName
 
 The first character of the file name string. This is followed in memory by the remainder of the 
       string.
 
-
 ## -remarks
-
-
 
 The <b>FILE_FULL_DIR_INFO</b> structure is a subset of the 
     information in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a> structure. 
@@ -186,13 +172,7 @@ To compile an application that uses this structure, define the <b>_WIN32_WINNT</
     as 0x0600 or later. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
@@ -203,7 +183,4 @@ To compile an application that uses this structure, define the <b>_WIN32_WINNT</
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
- 
-
- 
 

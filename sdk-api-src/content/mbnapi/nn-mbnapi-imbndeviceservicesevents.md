@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 66A388D0-C704-45D2-AD56-4F81E1928774
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicesevents, mbnapi/IMbnDeviceServicesEvents
-f1_keywords:
-- mbnapi/IMbnDeviceServicesEvents
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceServicesEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceServicesEvents
+ - mbnapi/IMbnDeviceServicesEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceServicesEvents
 ---
 
 # IMbnDeviceServicesEvents interface
@@ -53,7 +54,6 @@ ms.custom: 19H1
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 Signals an application about notification events related to Mobile Broadband device services on the system.
-
 
 ## -inheritance
 
@@ -169,12 +169,9 @@ Notification method indicating that a device service session <b>Write</b> reques
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The following procedure describes how to register for notifications.<ol>
 <li>Get an <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager">IMbnDeviceServicesManager</a> object.</li>
@@ -187,3 +184,4 @@ Notifications can be terminated by calling <a href="https://docs.microsoft.com/w
 
 
 To view some code that registers for COM notifications, see the Client section of the <a href="https://docs.microsoft.com/archive/msdn-magazine/2001/january/msdn-magazine-january-2001">COM Connection Points article</a>.
+

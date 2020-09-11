@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1a6ab686-99a1-40c2-addf-7fa215e2311a
 ms.date: 12/05/2018
 ms.keywords: AMMPEG2_27MhzTimebase, AMMPEG2_DSS_UserData, AMMPEG2_DVB_UserData, AMMPEG2_DVDLine21Field1, AMMPEG2_DVDLine21Field2, AMMPEG2_DoPanScan, AMMPEG2_FilmCameraMode, AMMPEG2_LetterboxAnalogOut, AMMPEG2_SourceIsLetterboxed, AMMPEG2_WidescreenAnalogOut, MPEG2VIDEOINFO, MPEG2VIDEOINFO structure [DirectShow], MPEG2VIDEOINFOStructure, dshow.mpeg2videoinfo, dvdmedia/MPEG2VIDEOINFO, tagMPEG2VIDEOINFO
-f1_keywords:
-- dvdmedia/MPEG2VIDEOINFO
-dev_langs:
-- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dvdmedia.h
-api_name:
-- MPEG2VIDEOINFO
 targetos: Windows
 req.typenames: MPEG2VIDEOINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMPEG2VIDEOINFO
+ - dvdmedia/tagMPEG2VIDEOINFO
+ - MPEG2VIDEOINFO
+ - dvdmedia/MPEG2VIDEOINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dvdmedia.h
+api_name:
+ - MPEG2VIDEOINFO
 ---
 
 # MPEG2VIDEOINFO structure
@@ -49,46 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MPEG2VIDEOINFO</b> structure describes an MPEG-2 video stream.
-        
-
 
 ## -struct-fields
 
-
-
-
 ### -field hdr
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure.
-          
-
 
 ### -field dwStartTimeCode
 
 25-bit group-of-pictures (GOP) time code at start of data. This field is not used for DVD.
-          
-
 
 ### -field cbSequenceHeader
 
 Length of the sequence header, in bytes. For DVD, set this field to zero. The sequence header is given in the <b>dwSequenceHeader</b> field.
-          
-
 
 ### -field dwProfile
 
 Specifies the MPEG-2 profile as an <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2profile">AM_MPEG2Profile</a> enumeration type.
-          
-
 
 ### -field dwLevel
 
 Specifies the MPEG-2 level as an <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2level">AM_MPEG2Level</a> enumeration type.
-          
-
 
 ### -field dwFlags
 
@@ -216,29 +202,15 @@ If set and this stream is sent to an analog output, it should  be in widescreen 
 
 Set undefined flags to zero or connection will be rejected. For more information on how to use these flags, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-decoder-preprocessing-transformations">MPEG Decoder Preprocessing Transformations</a>.
 
-
 ### -field dwSequenceHeader
 
 Start of an array that contains the sequence header, including quantization matrices and the sequence extension, if required. This field is typed as <b>DWORD</b> array to enforce 32-bit alignment. The size of the array, in bytes, is given in the <b>cbSequenceHeader</b> member.
-          
-
 
 ## -remarks
 
-
-
 The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure contained in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure (<b>hdr</b>) cannot be followed by any pallette entries or color masks, because this structure is immediately followed by the <b>dwStartTimeCode</b> member.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
 

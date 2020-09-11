@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: B0A3D3C6-75A4-4E4A-A104-B09EF6C77751
 ms.date: 12/05/2018
 ms.keywords: CachedLastSelectedItem property [Windows Accessibility], CachedLastSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedLastSelectedItem property, IUIAutomationSelectionPattern2.CachedLastSelectedItem, IUIAutomationSelectionPattern2.get_CachedLastSelectedItem, IUIAutomationSelectionPattern2::CachedLastSelectedItem, IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, get_CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedItem
-f1_keywords:
-- uiautomationclient/IUIAutomationSelectionPattern2.CachedLastSelectedItem
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationSelectionPattern2.CachedLastSelectedItem
-- IUIAutomationSelectionPattern2.get_CachedLastSelectedItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationSelectionPattern2::get_CachedLastSelectedItem
+ - uiautomationclient/IUIAutomationSelectionPattern2::get_CachedLastSelectedItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationSelectionPattern2.CachedLastSelectedItem
+ - IUIAutomationSelectionPattern2.get_CachedLastSelectedItem
 ---
 
 # IUIAutomationSelectionPattern2::get_CachedLastSelectedItem
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a cached <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> object representing the last item in a group of selected items.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern2">IUIAutomationSelectionPattern2</a>
- 
-
- 
 

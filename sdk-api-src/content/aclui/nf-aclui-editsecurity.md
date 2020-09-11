@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 756c94b0-946f-47eb-b4b4-db3e6e89fe46
 ms.date: 12/05/2018
 ms.keywords: EditSecurity, EditSecurity function [Security], _win32_editsecurity, aclui/EditSecurity, security.editsecurity
-f1_keywords:
-- aclui/EditSecurity
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Aclui.lib
 req.dll: Aclui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Aclui.dll
-api_name:
-- EditSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EditSecurity
+ - aclui/EditSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Aclui.dll
+api_name:
+ - EditSecurity
 ---
 
 # EditSecurity function
@@ -49,42 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EditSecurity</b> function displays a property sheet that contains a 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/basic-security-property-page">basic security property page</a>. This property page enables the user to view and edit the access rights allowed or denied by the ACEs in an object's DACL.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndOwner [in]
 
 A handle to the window that owns the property sheet. This parameter can be <b>NULL</b>.
-
 
 ### -param psi [in]
 
 A pointer to your implementation of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface. The system calls the interface methods to retrieve information about the object being edited and to return the user's input.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>EditSecurity</b> function calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a> function to create a basic security property page.
@@ -96,13 +83,7 @@ During the property page initialization, the system calls the
 The basic security property page can include an <b>Advanced</b> button for displaying the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/advanced-security-property-sheet">advanced security property sheet</a>. This advanced security property sheet can contain three additional property pages that enable the user to view and edit the object's DACL, SACL, and owner.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
@@ -125,7 +106,4 @@ The basic security property page can include an <b>Advanced</b> button for displ
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">SetSecurity</a>
- 
-
- 
 

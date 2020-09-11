@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: e0a1a3d3-f683-410d-a0d9-081cd2476d1e
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], IFsrmFileGroupManager interface [File Server Resource Manager],described, fs.ifsrmfilegroupmanager, fsrm.ifsrmfilegroupmanager, fsrmscreen/IFsrmFileGroupManager
-f1_keywords:
-- fsrmscreen/IFsrmFileGroupManager
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileGroupManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileGroupManager
+ - fsrmscreen/IFsrmFileGroupManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileGroupManager
 ---
 
 # IFsrmFileGroupManager interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -62,7 +62,6 @@ To get this interface, call the
     <code>__uuidof(IFsrmFileGroupManager)</code> as the interface identifier. For an 
     example, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/creating-file-groups-to-specify-the-files-to-restrict">Creating File Groups to Specify the Files to Restrict</a>.
-
 
 ## -inheritance
 
@@ -124,12 +123,9 @@ Imports the specified file groups from an XML string.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 FSRM defines the following groups:
 
@@ -149,13 +145,7 @@ FSRM defines the following groups:
 To create this object from a script, use the "Fsrm.FsrmFileGroupManager" program 
     identifier.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -166,7 +156,4 @@ To create this object from a script, use the "Fsrm.FsrmFileGroupManager" program
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 522dcb38-8c17-46b0-b5aa-5ee380057077
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],Resume method, IDvdControl2.Resume, IDvdControl2::Resume, IDvdControl2Resume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_resume, strmif/IDvdControl2::Resume
-f1_keywords:
-- strmif/IDvdControl2.Resume
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::Resume
+ - strmif/IDvdControl2::Resume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.Resume
 ---
 
 # IDvdControl2::Resume
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Resume</code> method leaves a menu and resumes playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
-
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -117,14 +106,8 @@ Resume was called from the Video Manager Menu.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method returns to playback from the location where play left off.
 
@@ -150,15 +133,8 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::RootMen
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -169,7 +145,4 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::RootMen
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
 

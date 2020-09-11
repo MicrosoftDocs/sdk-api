@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 778BE01B-360C-431C-9515-DE43B4F2B77D
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler2, IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation], IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariableintegerchangehandler2, uianimation/IUIAnimationVariableIntegerChangeHandler2
-f1_keywords:
-- uianimation/IUIAnimationVariableIntegerChangeHandler2
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationVariableIntegerChangeHandler2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationVariableIntegerChangeHandler2
+ - uianimation/IUIAnimationVariableIntegerChangeHandler2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationVariableIntegerChangeHandler2
 ---
 
 # IUIAnimationVariableIntegerChangeHandler2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a method for handling animation variable update events. <b>IUIAnimationVariableIntegerChangeHandler2</b> handles events that occur in a specified dimension.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Handles events that occur when the integer value of an animation variable change
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getintegervalue">IUIAnimationVariable2::GetIntegerValue</a>
 
@@ -98,7 +93,4 @@ Handles events that occur when the integer value of an animation variable change
 
 
 <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
- 
-
- 
 

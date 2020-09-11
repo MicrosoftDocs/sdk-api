@@ -8,10 +8,6 @@ tech.root: oprec
 ms.assetid: 3E67057E-D09F-48BA-A95A-5D00F4783D9C
 ms.date: 12/05/2018
 ms.keywords: OperationStart, OperationStart function [Operation Recorder], oprec.operationstart, winbase/OperationStart
-f1_keywords:
-- winbase/OperationStart
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- OperationStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OperationStart
+ - winbase/OperationStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - OperationStart
 ---
 
 # OperationStart function
@@ -49,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the system that the application is about to start an operation.
 
  If an application calls <b>OperationStart</b> with a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a> value, the system records the specified operation’s file access patterns until <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationend">OperationEnd</a> is called for the same operation ID. This record is stored in a <i>filename.pf</i> prefetch file. Every call to <b>OperationStart</b> must be followed by a call to <b>OperationEnd</b>, otherwise the operation's record is discarded after 10 seconds.
 
 
-If an application calls <b>OperationStart</b> for an operation ID for which a prefetch file exists, the system loads the operation's files into memory prior to running the operation. The recording process remains the same and the system updates the appropriate <i>filename.pf</i> prefetch file. 
-
+If an application calls <b>OperationStart</b> for an operation ID for which a prefetch file exists, the system loads the operation's files into memory prior to running the operation. The recording process remains the same and the system updates the appropriate <i>filename.pf</i> prefetch file.
 
 ## -parameters
-
-
-
 
 ### -param OperationStartParams [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
 
-
 ## -returns
 
-
-
-<b>TRUE</b> for all valid parameters and <b>FALSE</b> otherwise.  To get extended error information, call <b>GetLastError</b>. 
-
-
-
+<b>TRUE</b> for all valid parameters and <b>FALSE</b> otherwise.  To get extended error information, call <b>GetLastError</b>.
 
 ## -remarks
-
-
 
 The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
 
@@ -144,12 +132,7 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
 
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -172,7 +155,4 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a>
- 
-
- 
 

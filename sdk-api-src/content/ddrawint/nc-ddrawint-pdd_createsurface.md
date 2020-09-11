@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 8b012e65-b78b-41a4-ac05-d9be015b6ed8
 ms.date: 12/05/2018
 ms.keywords: CreateD3DBuffer, CreateD3DBuffer callback function [Display Devices], PDD_CREATESURFACE, PDD_CREATESURFACE callback, d3dfncs_065c964d-8e17-4ec1-9b9a-c74d2f91aa27.xml, ddrawint/CreateD3DBuffer, display.created3dbuffer
-f1_keywords:
-- ddrawint/CreateD3DBuffer
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- CreateD3DBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_CREATESURFACE
+ - ddrawint/PDD_CREATESURFACE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - CreateD3DBuffer
 ---
 
 # PDD_CREATESURFACE callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>CreateD3DBuffer</i> callback function is used to create a driver-level command or vertex buffer of the specified description.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpCreateD3DBuffer
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a> structure that contains the information required to create the buffer.
 
-
 ## -returns
-
-
 
 <i>CreateD3DBuffer</i> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 This callback is used only if the driver manages driver-level command and vertex buffers.
 
@@ -155,15 +136,8 @@ DirectDraw should allocate the buffer memory from user memory. The driver must a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a>
 
@@ -190,7 +164,4 @@ DirectDraw should allocate the buffer memory from user memory. The driver must a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
- 
-
- 
 

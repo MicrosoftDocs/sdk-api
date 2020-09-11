@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: c6655eed-5dd2-4b36-9ed7-55a3b25940e9
 ms.date: 12/05/2018
 ms.keywords: GetFontResources, GetFontResources method [XPS Documents and Packaging], GetFontResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetFontResources method, IXpsOMPartResources.GetFontResources, IXpsOMPartResources::GetFontResources, xps.ixpsompartresources_getfontresources, xpsobjectmodel/IXpsOMPartResources::GetFontResources
-f1_keywords:
-- xpsobjectmodel/IXpsOMPartResources.GetFontResources
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPartResources.GetFontResources
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPartResources::GetFontResources
+ - xpsobjectmodel/IXpsOMPartResources::GetFontResources
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPartResources.GetFontResources
 ---
 
 # IXpsOMPartResources::GetFontResources
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the   <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresourcecollection">IXpsOMFontResourceCollection</a> interface that contains the fonts that are used in the XPS document.
 
-
 ## -parameters
-
-
-
 
 ### -param fontResources [out, retval]
 
 A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresourcecollection">IXpsOMFontResourceCollection</a> interface that contains the fonts that are used in the XPS document.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,24 +90,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After loading and parsing the resource into the XPS OM, this method might return an error that applies to another resource. This occurs because all of the relationships are parsed when a resource is loaded.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresourcecollection">IXpsOMFontResourceCollection</a>
 
@@ -129,7 +110,4 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

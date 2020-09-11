@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 098788f4-539f-420b-a4e1-65625dd56ca1
 ms.date: 12/05/2018
 ms.keywords: Encode, Encode method [Security], Encode method [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],Encode method, IX509CertificateRequest.Encode, IX509CertificateRequest::Encode, certenroll/IX509CertificateRequest::Encode, security.ix509certificaterequest_encode_method
-f1_keywords:
-- certenroll/IX509CertificateRequest.Encode
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequest.Encode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequest::Encode
+ - certenroll/IX509CertificateRequest::Encode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequest.Encode
 ---
 
 # IX509CertificateRequest::Encode
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Encode</b> method signs and encodes a certificate request and creates a key pair if one does not exist. The request is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. The encoding process creates a byte array.  You can retrieve the byte array by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_rawdata">RawData</a> property. 
-
+The <b>Encode</b> method signs and encodes a certificate request and creates a key pair if one does not exist. The request is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. The encoding process creates a byte array.  You can retrieve the byte array by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_rawdata">RawData</a> property.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -98,14 +90,8 @@ The object is not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For a PKCS #10 request, this method:<ul>
 <li>Updates the private key or creates the key if necessary.</li>
@@ -130,14 +116,7 @@ For a CMC request, this method:<ul>
 <li>Encodes the assembled content into a PKCS #7 message.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
@@ -160,7 +139,4 @@ For a CMC request, this method:<ul>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
- 
-
- 
 

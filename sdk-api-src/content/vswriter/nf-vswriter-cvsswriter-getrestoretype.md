@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 438298ee-ab8b-4604-9d43-5acefd7cabd5
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetRestoreType method, CVssWriter.GetRestoreType, CVssWriter::GetRestoreType, GetRestoreType, GetRestoreType method [VSS], GetRestoreType method [VSS],CVssWriter interface, _win32_cvsswriter_getrestoretype, base.cvsswriter_getrestoretype, vswriter/CVssWriter::GetRestoreType
-f1_keywords:
-- vswriter/CVssWriter.GetRestoreType
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.GetRestoreType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::GetRestoreType
+ - vswriter/CVssWriter::GetRestoreType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.GetRestoreType
 ---
 
 # CVssWriter::GetRestoreType
@@ -50,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetRestoreType</b> method returns the type of restore a writer is participating in.
 
 <b>GetRestoreType</b> is a protected method implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns the type of restore operation a writer is participating in, in terms of values of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a> enumeration.
@@ -75,12 +67,7 @@ This method returns the type of restore operation a writer is participating in, 
 If 
 <b>GetRestoreType</b> is called during a backup operation, the return value is undefined.
 
-
-
-
 ## -remarks
-
-
 
 This method should be called only during restore operations.
 
@@ -96,13 +83,7 @@ A requester can call <a href="https://docs.microsoft.com/windows/desktop/api/vsb
 <b>PreRestore</b> event in 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -121,7 +102,4 @@ A requester can call <a href="https://docs.microsoft.com/windows/desktop/api/vsb
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a>
- 
-
- 
 

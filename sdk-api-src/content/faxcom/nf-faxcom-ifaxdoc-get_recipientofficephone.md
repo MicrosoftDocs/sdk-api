@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3945.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientOfficePhone property, IFaxDoc.RecipientOfficePhone, IFaxDoc.get_RecipientOfficePhone, IFaxDoc::RecipientOfficePhone, IFaxDoc::get_RecipientOfficePhone, IFaxDoc::put_RecipientOfficePhone, RecipientOfficePhone property [Fax Service], RecipientOfficePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientofficephone_cpp, faxcom/IFaxDoc::RecipientOfficePhone, faxcom/IFaxDoc::get_RecipientOfficePhone, faxcom/IFaxDoc::put_RecipientOfficePhone, get_RecipientOfficePhone
-f1_keywords:
-- faxcom/IFaxDoc.RecipientOfficePhone
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxDoc.RecipientOfficePhone
-- IFaxDoc.get_RecipientOfficePhone
-- IFaxDoc.put_RecipientOfficePhone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDoc::get_RecipientOfficePhone
+ - faxcom/IFaxDoc::get_RecipientOfficePhone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxDoc.RecipientOfficePhone
+ - IFaxDoc.get_RecipientOfficePhone
+ - IFaxDoc.put_RecipientOfficePhone
 ---
 
 # IFaxDoc::get_RecipientOfficePhone
@@ -51,30 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves the <b>RecipientOfficePhone</b> property of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The <b>RecipientOfficePhone</b> property is a null-terminated string that contains the office telephone number of the recipient of the fax transmission.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The fax recipient's office telephone number can appear on the cover page.
 
 The <b>get_RecipientOfficePhone</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -89,7 +79,4 @@ The <b>get_RecipientOfficePhone</b> method allocates the memory required for the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
 

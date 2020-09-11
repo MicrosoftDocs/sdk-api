@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 4315562e-674b-40a4-a2d9-133e6ab27c25
 ms.date: 12/05/2018
 ms.keywords: RpcCancelThread, RpcCancelThread function [RPC], _rpc_rpccancelthread, rpc.rpccancelthread, rpcdce/RpcCancelThread
-f1_keywords:
-- rpcdce/RpcCancelThread
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcCancelThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcCancelThread
+ - rpcdce/RpcCancelThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcCancelThread
 ---
 
 # RpcCancelThread function
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcCancelThread</b> function cancels a thread. The 
 <b>RpcCancelThread</b> function should not be used to cancel asynchronous RPC calls; instead, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a> function to cancel an asynchronous RPC call.
 
-
 ## -parameters
-
-
-
 
 ### -param Thread
 
 Handle of the thread to cancel.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -115,11 +108,7 @@ Called by an MS-DOS or Windows 3.x client.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcCancelThread</b> function allows one client thread to cancel an RPC in progress on another client thread. When the function is called, the server run-time is informed of the cancel operation. The server stub can determine if the call has been canceled by calling 
@@ -137,13 +126,7 @@ You can use
 
 <b>Note</b>  Windows XP/2000 The <b>RpcCancelThread</b> function is not available for <b>ncacn_http</b>.  The <b>RpcCancelThread</b> function supports <b>ncacn_http</b> on Windows Server 2003 or later operating systems and Windows XP with Service Pack 1 (SP1) and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>
 
@@ -158,7 +141,4 @@ You can use
 
 
 <a href="https://msdn.microsoft.com/library/aa367115(VS.85).aspx">ncalrpc</a>
- 
-
- 
 

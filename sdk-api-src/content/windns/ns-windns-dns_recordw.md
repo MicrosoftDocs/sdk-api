@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_RECORD, *PDNS_RECORDW, DNS_RECORD, DNS_RECORD structure [DNS], DNS_RECORDW, PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD'
-f1_keywords:
-- windns/DNS_RECORD
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_RECORD
 targetos: Windows
 req.typenames: DNS_RECORDW, *PDNS_RECORDW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DnsRecordW
+ - windns/_DnsRecordW
+ - PDNS_RECORDW
+ - windns/PDNS_RECORDW
+ - DNS_RECORDW
+ - windns/DNS_RECORDW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_RECORD
 ---
 
 # DNS_RECORDW structure
@@ -49,31 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DNS_RECORD</b> structure stores a DNS resource record (RR).
 
-
 ## -struct-fields
-
-
-
 
 ### -field pNext
 
 A pointer to the next 
 <b>DNS_RECORD</b> structure.
 
-
 ### -field pName
 
 A pointer to a string that represents the domain name of the record set. This must be in the string format that corresponds to the function called, such as ANSI, Unicode, or UTF8.
 
-
 ### -field wType
 
 A value that represents the RR <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
-
 
 ### -field wDataLength
 
@@ -102,27 +99,22 @@ The length, in bytes, of <b>Data</b>. For fixed-length data types, this value is
 
 ### -field Flags
 
-
 ### -field Flags.DW
 
  A value that contains a bitmap of <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Flags</a>.
-
 
 ### -field Flags.S
 
 A set of flags in the form of a 
 <a href="/windows/win32/api/windns/ns-windns-dns_record_flags">DNS_RECORD_FLAGS</a> structure.
 
-
 ### -field dwTtl
 
 The DNS RR's Time To Live value (TTL), in seconds.
 
-
 ### -field dwReserved
 
 Reserved. Do not use.
-
 
 ### -field Data
 
@@ -254,421 +246,179 @@ The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_wins_data">
 
 The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_winsr_dataw">DNS_WINSR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WINSR</b>.
 
-
 ### -field Data.A
 
 The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_A</b>.
 
-
 ### -field Data.SOA
-
- 
-
 
 ### -field Data.Soa
 
- 
-
-
 ### -field Data.PTR
-
- 
-
 
 ### -field Data.Ptr
 
- 
-
-
 ### -field Data.NS
-
- 
-
 
 ### -field Data.Ns
 
- 
-
-
 ### -field Data.CNAME
-
- 
-
 
 ### -field Data.Cname
 
- 
-
-
 ### -field Data.DNAME
-
- 
-
 
 ### -field Data.Dname
 
- 
-
-
 ### -field Data.MB
-
- 
-
 
 ### -field Data.Mb
 
- 
-
-
 ### -field Data.MD
-
- 
-
 
 ### -field Data.Md
 
- 
-
-
 ### -field Data.MF
-
- 
-
 
 ### -field Data.Mf
 
- 
-
-
 ### -field Data.MG
-
- 
-
 
 ### -field Data.Mg
 
- 
-
-
 ### -field Data.MR
-
- 
-
 
 ### -field Data.Mr
 
- 
-
-
 ### -field Data.MINFO
-
- 
-
 
 ### -field Data.Minfo
 
- 
-
-
 ### -field Data.RP
-
- 
-
 
 ### -field Data.Rp
 
- 
-
-
 ### -field Data.MX
-
- 
-
 
 ### -field Data.Mx
 
- 
-
-
 ### -field Data.AFSDB
-
- 
-
 
 ### -field Data.Afsdb
 
- 
-
-
 ### -field Data.RT
-
- 
-
 
 ### -field Data.Rt
 
- 
-
-
 ### -field Data.HINFO
-
- 
-
 
 ### -field Data.Hinfo
 
- 
-
-
 ### -field Data.ISDN
-
- 
-
 
 ### -field Data.Isdn
 
- 
-
-
 ### -field Data.TXT
-
- 
-
 
 ### -field Data.Txt
 
- 
-
-
 ### -field Data.X25
-
- 
-
 
 ### -field Data.Null
 
 The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_null_data">DNS_NULL_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NULL</b>.
 
-
 ### -field Data.WKS
 
- 
-
-
 ### -field Data.Wks
-
- 
-
 
 ### -field Data.AAAA
 
 The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_aaaa_data">DNS_AAAA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_AAAA</b>.
 
-
 ### -field Data.KEY
-
- 
-
 
 ### -field Data.Key
 
- 
-
-
 ### -field Data.SIG
-
- 
-
 
 ### -field Data.Sig
 
- 
-
-
 ### -field Data.ATMA
-
- 
-
 
 ### -field Data.Atma
 
- 
-
-
 ### -field Data.NXT
-
- 
-
 
 ### -field Data.Nxt
 
- 
-
-
 ### -field Data.SRV
-
- 
-
 
 ### -field Data.Srv
 
- 
-
-
 ### -field Data.NAPTR
-
- 
-
 
 ### -field Data.Naptr
 
- 
-
-
 ### -field Data.OPT
-
- 
-
 
 ### -field Data.Opt
 
- 
-
-
 ### -field Data.DS
-
- 
-
 
 ### -field Data.Ds
 
- 
-
-
 ### -field Data.RRSIG
-
- 
-
 
 ### -field Data.Rrsig
 
- 
-
-
 ### -field Data.NSEC
-
- 
-
 
 ### -field Data.Nsec
 
- 
-
-
 ### -field Data.DNSKEY
-
- 
-
 
 ### -field Data.Dnskey
 
- 
-
-
 ### -field Data.TKEY
-
- 
-
 
 ### -field Data.Tkey
 
- 
-
-
 ### -field Data.TSIG
-
- 
-
 
 ### -field Data.Tsig
 
- 
-
-
 ### -field Data.WINS
-
- 
-
 
 ### -field Data.Wins
 
- 
-
-
 ### -field Data.WINSR
-
- 
-
 
 ### -field Data.WinsR
 
- 
-
-
 ### -field Data.NBSTAT
 
- 
-
-
 ### -field Data.Nbstat
-
- 
-
 
 ### -field Data.DHCID
 
 Windows 7 or later: The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_dhcid_data">DNS_DHCID_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DHCID</b>.
 
-
 ### -field Data.NSEC3
-
- 
-
 
 ### -field Data.Nsec3
 
- 
-
-
 ### -field Data.NSEC3PARAM
-
- 
-
 
 ### -field Data.Nsec3Param
 
- 
-
-
 ### -field Data.TLSA
-
- 
-
 
 ### -field Data.Tlsa
 
- 
-
-
 ### -field Data.UNKNOWN
 
- 
-
-
 ### -field Data.Unknown
-
- 
-
 
 ### -field Data.pDataPtr
 
@@ -781,10 +531,7 @@ The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_winsr_dataw
 
 The RR data type is <a href="/windows/win32/api/windns/ns-windns-dns_wks_data">DNS_WKS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WKS</b>.
 
-
 ## -remarks
-
-
 
 When building a 
 <b>DNS_RECORD</b> list as an input argument for the various DNS update routines found in the DNS API, all flags in the 
@@ -798,9 +545,6 @@ When building a
 > The windns.h header defines DNS_RECORD as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/windns/ns-windns-dns_aaaa_data">DNS_AAAA_DATA</a>
 
@@ -935,7 +679,4 @@ When building a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsreplacerecordseta">DnsReplaceRecordSet</a>
- 
-
- 
 

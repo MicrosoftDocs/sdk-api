@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e6933542-eb88-4936-a1d7-8380afc61557
 ms.date: 12/05/2018
 ms.keywords: CreateGeometry, CreateGeometry method [XPS Documents and Packaging], CreateGeometry method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometry method, IXpsOMObjectFactory.CreateGeometry, IXpsOMObjectFactory::CreateGeometry, xps.ixpsomobjectfactory_creategeometry, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometry
-f1_keywords:
-- xpsobjectmodel/IXpsOMObjectFactory.CreateGeometry
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMObjectFactory.CreateGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMObjectFactory::CreateGeometry
+ - xpsobjectmodel/IXpsOMObjectFactory::CreateGeometry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMObjectFactory.CreateGeometry
 ---
 
 # IXpsOMObjectFactory::CreateGeometry
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface,  which specifies the shape of a path or of a clipping region.
 
-
 ## -parameters
-
-
-
 
 ### -param geometry [out, retval]
 
 A pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,14 +90,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
@@ -142,14 +129,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a>
 
@@ -164,7 +144,4 @@ else
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

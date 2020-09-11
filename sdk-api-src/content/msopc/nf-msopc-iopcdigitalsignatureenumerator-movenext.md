@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 1dd6321c-b9dc-4c09-8874-31f891c37146
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcDigitalSignatureEnumerator.MoveNext, IOpcDigitalSignatureEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, msopc/IOpcDigitalSignatureEnumerator::MoveNext, opc.iopcdigitalsignatureenumerator_movenext
-f1_keywords:
-- msopc/IOpcDigitalSignatureEnumerator.MoveNext
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcDigitalSignatureEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcDigitalSignatureEnumerator::MoveNext
+ - msopc/IOpcDigitalSignatureEnumerator::MoveNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcDigitalSignatureEnumerator.MoveNext
 ---
 
 # IOpcDigitalSignatureEnumerator::MoveNext
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the current position of the enumerator to the next <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignature">IOpcDigitalSignature</a> interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param hasNext [out, retval]
 
@@ -92,12 +88,8 @@ The current position of the enumerator has been advanced past the end of the col
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,15 +145,8 @@ The enumerator is invalid because the underlying set has changed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/digital-signatures-overview">Digital Signatures Overview</a>
 
@@ -200,7 +185,4 @@ The enumerator is invalid because the underlying set has changed.
 
 
 <b>Reference</b>
- 
-
- 
 

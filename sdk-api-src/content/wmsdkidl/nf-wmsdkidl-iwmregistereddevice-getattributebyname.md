@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: e74bd544-295d-4e83-8804-5a99d7efdbb8
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByName method, IWMRegisteredDevice.GetAttributeByName, IWMRegisteredDevice::GetAttributeByName, IWMRegisteredDeviceGetAttributeByName, wmformat.iwmregistereddevice_getattributebyname, wmsdkidl/IWMRegisteredDevice::GetAttributeByName
-f1_keywords:
-- wmsdkidl/IWMRegisteredDevice.GetAttributeByName
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMRegisteredDevice.GetAttributeByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMRegisteredDevice::GetAttributeByName
+ - wmsdkidl/IWMRegisteredDevice::GetAttributeByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMRegisteredDevice.GetAttributeByName
 ---
 
 # IWMRegisteredDevice::GetAttributeByName
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAttributeByName</b> method retrieves an attribute associated with the device. This method uses an attribute name to specify the attribute to retrieve.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrName [in]
 
 Name of the attribute to retrieve.
 
-
 ### -param pbstrValue [out]
 
 Address of a variable that receives the attribute value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -95,22 +84,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-setattributebyname">IWMRegisteredDevice::SetAttributeByName</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 0daaf06f-ba05-469c-b888-3df5d9495364
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelOpen, WTSVirtualChannelOpen function [Remote Desktop Services], _win32_wtsvirtualchannelopen, termserv.wtsvirtualchannelopen, wtsapi32/WTSVirtualChannelOpen
-f1_keywords:
-- wtsapi32/WTSVirtualChannelOpen
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
-api_name:
-- WTSVirtualChannelOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSVirtualChannelOpen
+ - wtsapi32/WTSVirtualChannelOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+ - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+api_name:
+ - WTSVirtualChannelOpen
 ---
 
 # WTSVirtualChannelOpen function
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a handle to the server end of a specified virtual channel.
 
 This function is obsolete. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopenex">WTSVirtualChannelOpenEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hServer [in]
 
 This parameter must be WTS_CURRENT_SERVER_HANDLE.
-
 
 ### -param SessionId [in]
 
@@ -74,27 +69,18 @@ A Remote Desktop Services session identifier. To indicate the current session, s
 To open a virtual channel on another user's session, you need to have permission from the Virtual Channel. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a>. To modify permissions on a session, use the Remote Desktop Services Configuration administrative tool.
 
-
 ### -param pVirtualName [in]
 
 A pointer to a <b>null</b>-terminated string containing the virtual channel name. Note that this is an ANSI string even when UNICODE is defined. The virtual channel name consists of one to CHANNEL_NAME_LEN characters, not including the terminating <b>null</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the specified virtual channel.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 When you have finished using the handle, release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a> function.
 
@@ -103,13 +89,7 @@ For an example that shows how to gain access to a virtual channel file handle th
 
 If you try to use this function to open the same virtual channel multiple times, it can cause a 10-second delay and disrupt the established channel.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a>
 
@@ -120,7 +100,4 @@ If you try to use this function to open the same virtual channel multiple times,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a>
- 
-
- 
 

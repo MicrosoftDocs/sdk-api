@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectContext, ID2D1EffectContext interface [Direct2D], ID2D1EffectContext interface [Direct2D],described, d2d1effectauthor/ID2D1EffectContext, direct2d.id2d1contextinternal
-f1_keywords:
-- d2d1effectauthor/ID2D1EffectContext
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2D1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2D1.lib
-- D2D1.dll
-api_name:
-- ID2D1EffectContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1EffectContext
+ - d2d1effectauthor/ID2D1EffectContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2D1.lib
+ - D2D1.dll
+api_name:
+ - ID2D1EffectContext
 ---
 
 # ID2D1EffectContext interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides factory methods and other state management for effect and transform authors.
-
 
 ## -inheritance
 
@@ -262,24 +261,15 @@ Loads the given shader by its unique ID.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface  is passed to an effect implementation through the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize">ID2D1EffectImpl::Initialize</a> method. In order to prevent applications casually gaining access to this interface, and to separate reference counts between the public and private interfaces, it is not possible to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> between the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a> and the <b>ID2D1EffectContext</b>.
 
 Each call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize">ID2D1Effect::Initialize</a> will be provided a different <b>ID2D1EffectContext</b> interface. This interface tracks resource allocations for the effect. When the effect is released, the corresponding allocations will also be released.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
 
@@ -290,7 +280,4 @@ Each call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effecta
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

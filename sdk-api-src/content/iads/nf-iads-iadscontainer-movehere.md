@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 132b1cdc-6fb5-43b1-a5de-3b25c361e8e1
 ms.date: 12/05/2018
 ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveHere, IADsContainer::MoveHere, MoveHere, MoveHere method [ADSI], MoveHere method [ADSI],IADsContainer interface, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
-f1_keywords:
-- iads/IADsContainer.MoveHere
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsContainer.MoveHere
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsContainer::MoveHere
+ - iads/IADsContainer::MoveHere
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsContainer.MoveHere
 ---
 
 # IADsContainer::MoveHere
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsContainer::MoveHere</b>method moves a specified object to the container that implements this interface.The method can be used to rename an object.
 
-
 ## -parameters
-
-
-
 
 ### -param SourceName [in]
 
 The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
-
 
 ### -param NewName [in]
 
@@ -69,28 +64,19 @@ The null-terminated Unicode string that specifies the relative name of the new o
     <b>NULL</b>, in which case the object is moved. If it is not <b>NULL</b>, the object is
     renamed accordingly in the process.
 
-
 ### -param ppObject [out]
 
 Pointer to a pointer to the 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the moved
     object.
 
-
 ## -returns
-
-
 
 This method supports standard return values, including
     <b>S_OK</b>, for a successful operation. For more information about error codes, see 
      <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 In Active Directory, you can move an object within the same domain
     or from different domains in the same directory forest. For the cross domain
@@ -257,14 +243,7 @@ Cleanup:
     CoUninitialize();
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error
   Codes</a>
@@ -292,7 +271,4 @@ Cleanup:
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

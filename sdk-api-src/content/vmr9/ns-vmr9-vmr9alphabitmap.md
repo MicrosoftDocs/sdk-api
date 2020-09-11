@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 62214c24-0a4b-43c3-91dc-3eb6e5df3d94
 ms.date: 12/05/2018
 ms.keywords: MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_GaussianQuadFiltering, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, VMR9AlphaBitmap, VMR9AlphaBitmap structure [DirectShow], VMR9AlphaBitmapStructure, dshow.vmr9alphabitmap, vmr9/VMR9AlphaBitmap
-f1_keywords:
-- vmr9/VMR9AlphaBitmap
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vmr9.h
-api_name:
-- VMR9AlphaBitmap
 targetos: Windows
 req.typenames: VMR9AlphaBitmap
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VMR9AlphaBitmap
+ - vmr9/_VMR9AlphaBitmap
+ - VMR9AlphaBitmap
+ - vmr9/VMR9AlphaBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vmr9.h
+api_name:
+ - VMR9AlphaBitmap
 ---
 
 # VMR9AlphaBitmap structure
@@ -49,32 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VMR9AlphaBitmap</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9">IVMRMixerBitmap9</a> interface when an application provides a static bitmap for alpha blending with the video frame.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
 Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9alphabitmapflags">VMR9AlphaBitmapFlags</a> enumeration type.
-          
-
 
 ### -field hdc
 
 Handle to the GDI device context (HDC) for the bitmap. If this member contains a non-<b>NULL</b> value, set <b>pDDS</b> to <b>NULL</b> and set the <b>VMR9AlphaBitmap_hDC</b> flag in the <b>dwFlags</b> member. The device context is not compatible with GDI+.
-          
-
 
 ### -field pDDS
 
 Pointer to the <b>IDirect3DSurface9</b> interface of a Direct3D surface that contains the bitmap. If this member contains a valid pointer, set the <b>hdc</b> member to <b>NULL</b>. The surface format must be <b>D3DFMT_X8R8G8B8</b> (32-bit RGB) or <b>D3DFMT_A8R8G8B8</b> (32-bit RGB with per-pixel alpha). The surface must be allocated from the <b>D3DPOOL_SYSTEMMEM</b> pool.
-
 
 ### -field rSrc
 
@@ -84,24 +76,17 @@ When calling <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr
 
 When calling <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-updatealphabitmapparameters">IVMRMixerBitmap9::UpdateAlphaBitmapParameters</a>, <b>rSrc</b> is always optional, and is used if <b>dwFlags</b> contains the VMR9AlphaBitmap_SrcRect flag.
 
-
 ### -field rDest
 
 Specifies the destination rectangle in composition space.
-          
-
 
 ### -field fAlpha
 
 Specifies the alpha blending value; must be a value from 0.0 to 1.0 (inclusive).
-          
-
 
 ### -field clrSrcKey
 
 Specifies the source color key. This value is used if the <b>dwFlags</b> member contains the <b>VMR9AlphaBitmap_SrcColorKey</b>. A color key cannot be used with a Direct3D surface that contains per-pixel alpha.
-          
-
 
 ### -field dwFilterMode
 
@@ -174,10 +159,7 @@ This structure member is used only if the <b>dwFlags</b> member contains the <b>
 
 Point filtering is particularly useful for images that contain text and do not need to be stretched prior to mixing.
 
-
 ## -remarks
-
-
 
 To get the HDC for a GDI bitmap, do the following:
 
@@ -186,18 +168,9 @@ To get the HDC for a GDI bitmap, do the following:
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> to create a compatible device context.</li>
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> to select the bitmap into the device context obtained in the previous step.</li>
 </ol>
-When you are done, release the device context by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>. 
-
-
-
+When you are done, release the device context by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
 

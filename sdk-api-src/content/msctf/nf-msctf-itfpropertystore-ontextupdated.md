@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 6e3d6341-6e5b-445e-b6ac-48853a5b56f2
 ms.date: 12/05/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],OnTextUpdated method, ITfPropertyStore.OnTextUpdated, ITfPropertyStore::OnTextUpdated, OnTextUpdated, OnTextUpdated method [Text Services Framework], OnTextUpdated method [Text Services Framework],ITfPropertyStore interface, TF_TU_CORRECTION, _tsf_itfpropertystore_ontextupdated_ref, msctf/ITfPropertyStore::OnTextUpdated, tsf.itfpropertystore_ontextupdated
-f1_keywords:
-- msctf/ITfPropertyStore.OnTextUpdated
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfPropertyStore.OnTextUpdated
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfPropertyStore::OnTextUpdated
+ - msctf/ITfPropertyStore::OnTextUpdated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfPropertyStore.OnTextUpdated
 ---
 
 # ITfPropertyStore::OnTextUpdated
@@ -52,9 +53,6 @@ ms.custom: 19H1
 Called when the text that the property store applies to is modified.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -76,22 +74,16 @@ The text change is the result of a correction. This implies that the semantics o
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pRangeNew [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that contains the range of text modified.
 
-
 ### -param pfAccept [out]
 
 Pointer to a <b>BOOL</b> variable that receives a value that indicates if the property store should be retained. Receives a nonzero value if the property store should be retained or zero if the property store should be discarded. If the property store is discarded, the TSF manager will set the property value to VT_EMPTY and release the property store.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,24 +104,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If this method returns any value other than S_OK, the property store is discarded.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a>
 
@@ -137,7 +117,4 @@ If this method returns any value other than S_OK, the property store is discarde
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
- 
-
- 
 

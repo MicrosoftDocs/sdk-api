@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 069ee899-ae3a-4043-92b5-e193dbfe4f54
 ms.date: 12/05/2018
 ms.keywords: GetVideoHandle, GetVideoHandle method [Remote Desktop Services], GetVideoHandle method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetVideoHandle method, IWRdsProtocolConnection.GetVideoHandle, IWRdsProtocolConnection::GetVideoHandle, termserv.iwrdsprotocolconnection_getvideohandle, wtsprotocol/IWRdsProtocolConnection::GetVideoHandle
-f1_keywords:
-- wtsprotocol/IWRdsProtocolConnection.GetVideoHandle
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolConnection.GetVideoHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolConnection::GetVideoHandle
+ - wtsprotocol/IWRdsProtocolConnection::GetVideoHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolConnection.GetVideoHandle
 ---
 
 # IWRdsProtocolConnection::GetVideoHandle
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the handle of the video device for the protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param pVideoHandle [out]
 
@@ -66,23 +62,11 @@ If the protocol object is using the <a href="https://docs.microsoft.com/windows/
 
 If the protocol is not using the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsremotefxgraphicsconnection">IWRdsRemoteFXGraphicsConnection</a> interface, this method should return a handle to the video miniport driver for the remote session associated with the protocol.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
- 
-
- 
 

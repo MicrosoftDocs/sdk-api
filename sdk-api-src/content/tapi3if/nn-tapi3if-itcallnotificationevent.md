@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: d0ea4f7a-7b50-4610-ae17-957c0c1891e1
 ms.date: 12/05/2018
 ms.keywords: ITCallNotificationEvent, ITCallNotificationEvent interface [TAPI 2.2], ITCallNotificationEvent interface [TAPI 2.2],described, _tapi3_itcallnotificationevent, tapi3.itcallnotificationevent, tapi3if/ITCallNotificationEvent
-f1_keywords:
-- tapi3if/ITCallNotificationEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallNotificationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallNotificationEvent
+ - tapi3if/ITCallNotificationEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallNotificationEvent
 ---
 
 # ITCallNotificationEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITCallNotificationEvent</b> interface contains methods that retrieve the description of call notification events. When the application's implementation of the 
@@ -106,13 +106,9 @@ Gets a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
@@ -135,7 +131,4 @@ Gets a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 092d5ed1-8d03-45d8-bc7a-3e27035f4b2f
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],ProviderName property, ICEnroll interface [Security],ProviderName property, ICEnroll.ProviderName, ICEnroll.put_ProviderName, ICEnroll2 interface [Security],ProviderName property, ICEnroll2.ProviderName, ICEnroll2::get_ProviderName, ICEnroll2::put_ProviderName, ICEnroll3 interface [Security],ProviderName property, ICEnroll3.ProviderName, ICEnroll3::get_ProviderName, ICEnroll3::put_ProviderName, ICEnroll4 interface [Security],ProviderName property, ICEnroll4.ProviderName, ICEnroll4::ProviderName, ICEnroll4::get_ProviderName, ICEnroll4::put_ProviderName, ICEnroll::get_ProviderName, ICEnroll::put_ProviderName, ProviderName property [Security], ProviderName property [Security],CEnroll object, ProviderName property [Security],ICEnroll interface, ProviderName property [Security],ICEnroll2 interface, ProviderName property [Security],ICEnroll3 interface, ProviderName property [Security],ICEnroll4 interface, put_ProviderName, security.icenroll4_providername, xenroll/ICEnroll2::ProviderName, xenroll/ICEnroll2::get_ProviderName, xenroll/ICEnroll2::put_ProviderName, xenroll/ICEnroll3::ProviderName, xenroll/ICEnroll3::get_ProviderName, xenroll/ICEnroll3::put_ProviderName, xenroll/ICEnroll4::ProviderName, xenroll/ICEnroll4::get_ProviderName, xenroll/ICEnroll4::put_ProviderName, xenroll/ICEnroll::ProviderName, xenroll/ICEnroll::get_ProviderName, xenroll/ICEnroll::put_ProviderName
-f1_keywords:
-- xenroll/ICEnroll4.ProviderName
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.ProviderName
-- ICEnroll4.get_ProviderName
-- ICEnroll4.put_ProviderName
-- ICEnroll3.ProviderName
-- ICEnroll3.get_ProviderName
-- ICEnroll3.put_ProviderName
-- ICEnroll2.ProviderName
-- ICEnroll2.get_ProviderName
-- ICEnroll2.put_ProviderName
-- ICEnroll.ProviderName
-- ICEnroll.get_ProviderName
-- ICEnroll.put_ProviderName
-- CEnroll.ProviderName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::put_ProviderName
+ - xenroll/ICEnroll::put_ProviderName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.ProviderName
+ - ICEnroll4.get_ProviderName
+ - ICEnroll4.put_ProviderName
+ - ICEnroll3.ProviderName
+ - ICEnroll3.get_ProviderName
+ - ICEnroll3.put_ProviderName
+ - ICEnroll2.ProviderName
+ - ICEnroll2.get_ProviderName
+ - ICEnroll2.put_ProviderName
+ - ICEnroll.ProviderName
+ - ICEnroll.get_ProviderName
+ - ICEnroll.put_ProviderName
+ - CEnroll.ProviderName
 ---
 
 # ICEnroll::put_ProviderName
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -70,14 +70,9 @@ If the CSP has not been specified, the default value for this property  is "Micr
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>ProviderName</b> property affects the behavior of the following methods:
 
@@ -127,7 +122,4 @@ else
 if ( NULL != bstrMyProvName )
     SysFreeString( bstrMyProvName );
 ```
-
-
-
 

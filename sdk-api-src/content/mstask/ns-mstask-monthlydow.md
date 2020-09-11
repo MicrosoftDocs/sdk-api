@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 1f353611-0542-4534-91bf-4a76f41c9c9d
 ms.date: 12/05/2018
 ms.keywords: MONTHLYDOW, MONTHLYDOW structure [Task Scheduler], TASK_APRIL, TASK_AUGUST, TASK_DECEMBER, TASK_FEBRUARY, TASK_FIRST_WEEK, TASK_FOURTH_WEEK, TASK_FRIDAY, TASK_JANUARY, TASK_JULY, TASK_JUNE, TASK_LAST_WEEK, TASK_MARCH, TASK_MAY, TASK_MONDAY, TASK_NOVEMBER, TASK_OCTOBER, TASK_SATURDAY, TASK_SECOND_WEEK, TASK_SEPTEMBER, TASK_SUNDAY, TASK_THIRD_WEEK, TASK_THURSDAY, TASK_TUESDAY, TASK_WEDNESDAY, _msb_monthlydow, mstask/MONTHLYDOW, taskschd.monthlydow, triggers [Task Scheduler],structures,MONTHLYDOW
-f1_keywords:
-- mstask/MONTHLYDOW
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mstask.h
-api_name:
-- MONTHLYDOW
 targetos: Windows
 req.typenames: MONTHLYDOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MONTHLYDOW
+ - mstask/_MONTHLYDOW
+ - MONTHLYDOW
+ - mstask/MONTHLYDOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mstask.h
+api_name:
+ - MONTHLYDOW
 ---
 
 # MONTHLYDOW structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Defines the date(s) that the task runs by month, week, and day of the week.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wWhichWeek
 
@@ -120,8 +118,6 @@ The task will run between the last seven days of the month.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rgfDaysOfTheWeek
 
@@ -205,8 +201,6 @@ The task will run on Saturday.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rgfMonths
 
@@ -340,12 +334,8 @@ The task will run in December.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
@@ -361,16 +351,7 @@ example.rgfDaysOfTheWeek = TASK_FRIDAY | TASK_MONDAY;
 example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
 ```
 
-
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger">IMonthlyDOWTrigger</a>
 
@@ -381,7 +362,4 @@ example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
- 
-
- 
 

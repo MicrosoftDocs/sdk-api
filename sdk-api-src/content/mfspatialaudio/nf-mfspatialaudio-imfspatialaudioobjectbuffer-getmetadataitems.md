@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 19BF7AC6-B21F-47D1-8573-48C5E4869574
 ms.date: 12/05/2018
 ms.keywords: GetMetadataItems, GetMetadataItems method [Media Foundation], GetMetadataItems method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetMetadataItems method, IMFSpatialAudioObjectBuffer.GetMetadataItems, IMFSpatialAudioObjectBuffer::GetMetadataItems, mf.imfspatialaudioobjectbuffer_getmetadataitems, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetMetadataItems
-f1_keywords:
-- mfspatialaudio/IMFSpatialAudioObjectBuffer.GetMetadataItems
-dev_langs:
-- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.lib
-- mfobjects.dll
-api_name:
-- IMFSpatialAudioObjectBuffer.GetMetadataItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSpatialAudioObjectBuffer::GetMetadataItems
+ - mfspatialaudio/IMFSpatialAudioObjectBuffer::GetMetadataItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.lib
+ - mfobjects.dll
+api_name:
+ - IMFSpatialAudioObjectBuffer.GetMetadataItems
 ---
 
 # IMFSpatialAudioObjectBuffer::GetMetadataItems
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to a buffer that may 
-    contain spatial audio metadata.  
-
+    contain spatial audio metadata.
 
 ## -parameters
-
-
-
 
 ### -param ppMetadataItems [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object in which the collection
     of metadata items will be stored.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,27 +93,12 @@ The supplied pointer is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The metadata is written to the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>collection in a format identified by the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-spatial-audio-object-metadata-format-id">MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID</a>     media type attribute specified during media type negotiation phase of Media Foundation     topology construction.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setactivewindow.htm
 ms.date: 12/05/2018
 ms.keywords: SetActiveWindow, SetActiveWindow function [Keyboard and Mouse Input], _win32_SetActiveWindow, _win32_setactivewindow_cpp, inputdev.setactivewindow, winui._win32_setactivewindow, winuser/SetActiveWindow
-f1_keywords:
-- winuser/SetActiveWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- SetActiveWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetActiveWindow
+ - winuser/SetActiveWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetActiveWindow
 ---
 
 # SetActiveWindow function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Activates a window. The window must be attached to the calling thread's message queue.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -70,10 +66,7 @@ Type: <b>HWND</b>
 
 A handle to the top-level window to be activated.
 
-
 ## -returns
-
-
 
 Type: <b>HWND</b>
 
@@ -81,12 +74,7 @@ If the function succeeds, the return value is the handle to the window that was 
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SetActiveWindow</b> function activates a window, but not if the application is in the background. The window will be brought into the foreground (top of <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Z-Order</a>) if its application is in the foreground when the system activates the window.
 
@@ -94,13 +82,7 @@ If the window identified by the
     <i>hWnd</i> parameter was created by the calling thread, the active window status of the calling thread is set to 
     <i>hWnd</i>. Otherwise, the active window status of the calling thread is set to <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -123,7 +105,4 @@ If the window identified by the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-activate">WM_ACTIVATE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__setlod.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DBaseTexture9 interface [Direct3D 9],SetLOD method, IDirect3DBaseTexture9.SetLOD, IDirect3DBaseTexture9::SetLOD, SetLOD, SetLOD method [Direct3D 9], SetLOD method [Direct3D 9],IDirect3DBaseTexture9 interface, d3d9helper/IDirect3DBaseTexture9::SetLOD, direct3d9.idirect3dbasetexture9__setlod, e09d34c8-aef0-62f8-8160-11d659b8bb51
-f1_keywords:
-- d3d9helper/IDirect3DBaseTexture9.SetLOD
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DBaseTexture9.SetLOD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DBaseTexture9::SetLOD
+ - d3d9helper/IDirect3DBaseTexture9::SetLOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DBaseTexture9.SetLOD
 ---
 
 # IDirect3DBaseTexture9::SetLOD
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the most detailed level-of-detail for a managed texture. 
-
+Sets the most detailed level-of-detail for a managed texture.
 
 ## -parameters
-
-
-
 
 ### -param LODNew [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Most detailed level-of-detail value to set for the mipmap chain. 
-
+Most detailed level-of-detail value to set for the mipmap chain.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A DWORD value, clamped to the maximum level-of-detail value (one less than the total number of levels). Subsequent calls to this method will return the clamped value, not the level-of-detail value that was previously set.
 
-
-
-
 ## -remarks
-
-
 
 This method applies to the following interfaces, which inherit from <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>.
 
@@ -103,16 +91,7 @@ This method applies to the following interfaces, which inherit from <a href="htt
 
 More specifically, if the texture was created with the dimensions of 256x256, setting the most detailed level to 0 indicates that 256 x 256 is the largest mipmap available, setting the most detailed level to 1 indicates that 128 x 128 is the largest mipmap available, and so on, up to the most detailed mip level (the smallest texture size) for the chain.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>
- 
-
- 
 

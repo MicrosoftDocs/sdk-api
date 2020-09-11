@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 52342B15-6250-4D46-9188-CC7AD98F09F7
 ms.date: 12/05/2018
 ms.keywords: CreateBasicDeviceAsync, CreateBasicDeviceAsync method [Media Streaming API], CreateBasicDeviceAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],CreateBasicDeviceAsync method, IActiveBasicDeviceStatics.CreateBasicDeviceAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::CreateBasicDeviceAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_createbasicdeviceasync, windows/IActiveBasicDeviceStatics::CreateBasicDeviceAsync
-f1_keywords:
-- windows.media.streaming/IActiveBasicDeviceStatics.CreateBasicDeviceAsync
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: PlayToDevice.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PlayToDevice.dll
-api_name:
-- IActiveBasicDeviceStatics.CreateBasicDeviceAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActiveBasicDeviceStatics::CreateBasicDeviceAsync
+ - windows.media.streaming/IActiveBasicDeviceStatics::CreateBasicDeviceAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PlayToDevice.dll
+api_name:
+ - IActiveBasicDeviceStatics.CreateBasicDeviceAsync
 ---
 
 # IActiveBasicDeviceStatics::streaming
@@ -49,43 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Asynchronously creates an active basic device.
-
 
 ## -parameters
 
-
-
-
 ### -param deviceIdentifier [in]
 
-The identifier of the device. 
-
+The identifier of the device.
 
 ### -param type [in]
 
 The type of the device.
 
-
 ### -param value [out, retval]
 
 The asynchronous operation. Upon completion, <a href="https://docs.microsoft.com/previous-versions/br205815(v=vs.85)">IAsyncOperation.GetResults</a> returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a> object.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
 
@@ -96,7 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevicestatics">IActiveBasicDeviceStatics</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 449f297e-6207-446e-ac80-03145c44d671
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_RESOURCE_CLASS_INFO, CLUSPROP_RESOURCE_CLASS_INFO, CLUSPROP_RESOURCE_CLASS_INFO structure [Failover Cluster], PCLUSPROP_RESOURCE_CLASS_INFO, PCLUSPROP_RESOURCE_CLASS_INFO structure pointer [Failover Cluster], _wolf_clusprop_resource_class_info, clusapi/CLUSPROP_RESOURCE_CLASS_INFO, clusapi/PCLUSPROP_RESOURCE_CLASS_INFO, mscs.clusprop_resource_class_info'
-f1_keywords:
-- clusapi/CLUSPROP_RESOURCE_CLASS_INFO
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_RESOURCE_CLASS_INFO
 targetos: Windows
 req.typenames: CLUSPROP_RESOURCE_CLASS_INFO, *PCLUSPROP_RESOURCE_CLASS_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_RESOURCE_CLASS_INFO
+ - clusapi/CLUSPROP_RESOURCE_CLASS_INFO
+ - PCLUSPROP_RESOURCE_CLASS_INFO
+ - clusapi/PCLUSPROP_RESOURCE_CLASS_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_RESOURCE_CLASS_INFO
 ---
 
 # CLUSPROP_RESOURCE_CLASS_INFO structure
 
 
 ## -description
-
 
 Describes information relating to a resource class. It is used as an entry in a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
@@ -61,26 +63,17 @@ Describes information relating to a resource class. It is used as an entry in a
 
 ## -struct-fields
 
-
-
-
 ### -field CLUSPROP_VALUE
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <b>cbLength</b> field indicating 
        the count of bytes in the <b>CLUS_RESOURCE_CLASS_INFO</b> member. Padding 
       bytes are not included in the count.
 
-
 ### -field CLUS_RESOURCE_CLASS_INFO
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a> structure.
 
-
 ## -remarks
-
-
 
 A resource class identifies resources of similar capability. A 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> that defines its own resource class should 
@@ -88,13 +81,7 @@ A resource class identifies resources of similar capability. A
     <b>CLUS_RESCLASS_USER</b>. <b>CLUS_RESCLASS_USER</b> specifies the beginning 
     for user-defined resource class identifiers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
@@ -109,7 +96,4 @@ A resource class identifies resources of similar capability. A
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
 

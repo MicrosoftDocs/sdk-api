@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 37A3EAC0-639C-47F3-AAB9-588EBEC8E1E3
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], IMFMediaEngineSrcElements interface [Media Foundation],described, mf.imfmediaenginesrcelements, mfmediaengine/IMFMediaEngineSrcElements
-f1_keywords:
-- mfmediaengine/IMFMediaEngineSrcElements
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineSrcElements
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineSrcElements
+ - mfmediaengine/IMFMediaEngineSrcElements
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineSrcElements
 ---
 
 # IMFMediaEngineSrcElements interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the Media Engine with a list of media resources.
-
 
 ## -inheritance
 
@@ -122,12 +121,9 @@ Removes all of the source elements from the list.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IMFMediaEngineSrcElements</b> interface represents an ordered list of media resources.
 
@@ -139,15 +135,7 @@ This interface enables the application to provide the same audio/video content i
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">IMFMediaEngine::SetSourceElements</a> method.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

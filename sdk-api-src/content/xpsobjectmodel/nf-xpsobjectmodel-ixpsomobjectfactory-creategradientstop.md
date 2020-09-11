@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: c9217444-fc9d-4b1e-abb2-7e1badd32052
 ms.date: 12/05/2018
 ms.keywords: CreateGradientStop, CreateGradientStop method [XPS Documents and Packaging], CreateGradientStop method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGradientStop method, IXpsOMObjectFactory.CreateGradientStop, IXpsOMObjectFactory::CreateGradientStop, xps.ixpsomobjectfactory_creategradientstop, xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop
-f1_keywords:
-- xpsobjectmodel/IXpsOMObjectFactory.CreateGradientStop
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMObjectFactory.CreateGradientStop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMObjectFactory::CreateGradientStop
+ - xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMObjectFactory.CreateGradientStop
 ---
 
 # IXpsOMObjectFactory::CreateGradientStop
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface to represent a single color and location definition within a gradient.
 
-
 ## -parameters
-
-
-
 
 ### -param color [in]
 
 The color value.
 
-
 ### -param colorProfile [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface that contains the color profile to be used. If the color type is not <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, this parameter must be <b>NULL</b>.
-
 
 ### -param offset [in]
 
@@ -74,17 +68,11 @@ The offset value.
 
 Valid range: 0.0–1.0
 
-
-
-
 ### -param gradientStop [out, retval]
 
 A pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -160,14 +148,8 @@ The value in <i>offset</i> is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  Gradient stops are used to define the color at a specific location; the color is interpolated between the gradient stops. The offset, which is specified by <i>offset</i>,  is a relative position between the start  and end points of the gradient. The  offset at the start point of a linear gradient or the origin of a radial  gradient is 0.0.  The offset of the end point of a linear gradient or the  bounding ellipse of a radial gradient is 1.0. Gradient stops can be specified for any offset between those points, including the start and end points. The following illustration shows the gradient path and gradient stops of a linear gradient.
 
@@ -225,14 +207,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a>
 
@@ -255,7 +230,4 @@ else
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a>
- 
-
- 
 

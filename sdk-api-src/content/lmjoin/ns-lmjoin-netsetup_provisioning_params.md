@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: E965804F-145A-4D8F-BB8E-466580AC65DA
 ms.date: 12/05/2018
 ms.keywords: '*PNETSETUP_PROVISIONING_PARAMS, NETSETUP_PROVISIONING_PARAMS, NETSETUP_PROVISIONING_PARAMS structure [Network Management], NETSETUP_PROVISIONING_PARAMS_CURRENT_VERSION, NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT, NETSETUP_PROVISION_REUSE_ACCOUNT, NETSETUP_PROVISION_ROOT_CA_CERTS, NETSETUP_PROVISION_SKIP_ACCOUNT_SEARCH, NETSETUP_PROVISION_USE_DEFAULT_PASSWORD, PNETSETUP_PROVISIONING_PARAMS, PNETSETUP_PROVISIONING_PARAMS structure pointer [Network Management], lmjoin/NETSETUP_PROVISIONING_PARAMS, lmjoin/PNETSETUP_PROVISIONING_PARAMS, netmgmt.netsetup_provisioning_params'
-f1_keywords:
-- lmjoin/NETSETUP_PROVISIONING_PARAMS
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmjoin.h
-api_name:
-- NETSETUP_PROVISIONING_PARAMS
 targetos: Windows
 req.typenames: NETSETUP_PROVISIONING_PARAMS, *PNETSETUP_PROVISIONING_PARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NETSETUP_PROVISIONING_PARAMS
+ - lmjoin/_NETSETUP_PROVISIONING_PARAMS
+ - PNETSETUP_PROVISIONING_PARAMS
+ - lmjoin/PNETSETUP_PROVISIONING_PARAMS
+ - NETSETUP_PROVISIONING_PARAMS
+ - lmjoin/NETSETUP_PROVISIONING_PARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmjoin.h
+api_name:
+ - NETSETUP_PROVISIONING_PARAMS
 ---
 
 # NETSETUP_PROVISIONING_PARAMS structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NETSETUP_PROVISIONING_PARAMS</b> structure contains information that is used when creating a provisioning package using the  <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisionPackage</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
@@ -79,21 +79,12 @@ The version for this package is Windows Server 2012.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpDomain
 
-A pointer to a <b>NULL</b>-terminated character string that specifies the name of the domain where the computer account is created. 
-
-
- 
-
+A pointer to a <b>NULL</b>-terminated character string that specifies the name of the domain where the computer account is created.
 
 ### -field lpHostName
-
- 
-
 
 ### -field lpMachineAccountOU
 
@@ -101,11 +92,9 @@ A optional pointer to a <b>NULL</b>-terminated character string that contains th
 
 If this parameter is <b>NULL</b>, the well known computer object container will be used as published in the domain.
 
-
 ### -field lpDcName
 
 An optional pointer to a <b>NULL</b>-terminated character string that contains the name of the domain controller to target.
-
 
 ### -field dwProvisionOptions
 
@@ -182,28 +171,22 @@ This option retrieves all of the root Certificate Authority certificates on the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field aCertTemplateNames
 
-A pointer to an array of <b>NULL</b>-terminated certificate template names. 
-
+A pointer to an array of <b>NULL</b>-terminated certificate template names.
 
 ### -field cCertTemplateNames
 
 When <b>aCertTemplateNames</b> is not <b>NULL</b>, this member provides an explicit count of the number of items in the array.
 
-
 ### -field aMachinePolicyNames
 
 A pointer to an array of <b>NULL</b>-terminated  machine policy names.
 
-
 ### -field cMachinePolicyNames
 
 When <b>aMachinePolicyNames</b> is not <b>NULL</b>, this member provides an explicit count of the number of items in the array.
-
 
 ### -field aMachinePolicyPaths
 
@@ -213,21 +196,13 @@ A pointer to an array of  character strings. Each array element is a NULL-termin
 This path could
                      be a UNC path on a remote server.
 
-
 ### -field cMachinePolicyPaths
 
 When <b>aMachinePolicyPaths</b> is not <b>NULL</b>, this member provides an explicit count of the number of items in the array.
 
-
 ### -field lpNetbiosName
 
- 
-
-
 ### -field lpSiteName
-
- 
-
 
 ### -field lpPrimaryDNSDomain
 
@@ -240,10 +215,7 @@ When <b>aMachinePolicyPaths</b> is not <b>NULL</b>, this member provides an expl
 
 A pointer to a <b>NULL</b>-terminated character string that specifies the short name of the machine from which the computer account attribute sAMAccountName is derived by appending a '$'. This parameter must contain a valid DNS or NetBIOS machine name.
 
-
 ## -remarks
-
-
 
 The <b>NETSETUP_PROVISIONING_PARAMS</b> structure  provides flags for the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function which is supported on Windows 8 and  Windows Server 2012 for offline join operations.
 
@@ -262,14 +234,7 @@ There are two different ways to add policies. You can use one or both methods:<u
 <li>Policy path—A pointer to an array of  <b>NULL</b>-terminated character strings provided in the <b>aMachinePolicyPaths</b> member which specify the path to a file in the Registry Policy File format. For more information on the Registry Policy File Format , see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/registry-policy-file-format">Registry Policy File Format</a>. The policy path is a full or relative path to the policy file.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -310,7 +275,4 @@ There are two different ways to add policies. You can use one or both methods:<u
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
 

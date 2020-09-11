@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 987383c8-aaea-4144-8a8c-b4a8943a2acd
 ms.date: 12/05/2018
 ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArrange method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetAutoArrange method, IFolderView.GetAutoArrange, IFolderView::GetAutoArrange, _shell_IFolderView_GetAutoArrange, shell.IFolderView_GetAutoArrange, shobjidl_core/IFolderView::GetAutoArrange
-f1_keywords:
-- shobjidl_core/IFolderView.GetAutoArrange
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IFolderView.GetAutoArrange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView::GetAutoArrange
+ - shobjidl_core/IFolderView::GetAutoArrange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IFolderView.GetAutoArrange
 ---
 
 # IFolderView::GetAutoArrange
@@ -49,24 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current state of the folder's Auto Arrange mode.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if the folder is in Auto Arrange mode; S_FALSE if it is not.
-
-
 

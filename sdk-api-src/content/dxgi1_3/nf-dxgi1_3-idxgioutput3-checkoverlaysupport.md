@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: D7B90FF5-5E8B-4F9E-A442-B44449438388
 ms.date: 12/05/2018
 ms.keywords: CheckOverlaySupport, CheckOverlaySupport method [DXGI], CheckOverlaySupport method [DXGI],IDXGIOutput3 interface, IDXGIOutput3 interface [DXGI],CheckOverlaySupport method, IDXGIOutput3.CheckOverlaySupport, IDXGIOutput3::CheckOverlaySupport, direct3ddxgi.idxgioutput3_checkoverlaysupport, dxgi1_3/IDXGIOutput3::CheckOverlaySupport
-f1_keywords:
-- dxgi1_3/IDXGIOutput3.CheckOverlaySupport
-dev_langs:
-- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIOutput3.CheckOverlaySupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutput3::CheckOverlaySupport
+ - dxgi1_3/IDXGIOutput3::CheckOverlaySupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIOutput3.CheckOverlaySupport
 ---
 
 # IDXGIOutput3::CheckOverlaySupport
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks for overlay support.
 
-
 ## -parameters
-
-
-
 
 ### -param EnumFormat [in]
 
@@ -65,39 +61,25 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-d
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value for the color format.
 
-
 ### -param pConcernedDevice [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the Direct3D device interface. <b>CheckOverlaySupport</b> returns only support info about this scan-out device. 
-
+A pointer to the Direct3D device interface. <b>CheckOverlaySupport</b> returns only support info about this scan-out device.
 
 ### -param pFlags [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
-A pointer to a variable that receives a combination of <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/ne-dxgi1_3-dxgi_overlay_support_flag">DXGI_OVERLAY_SUPPORT_FLAG</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies options for overlay support. 
-
+A pointer to a variable that receives a combination of <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/ne-dxgi1_3-dxgi_overlay_support_flag">DXGI_OVERLAY_SUPPORT_FLAG</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies options for overlay support.
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns one of the error codes described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput3">IDXGIOutput3</a>
- 
-
- 
 

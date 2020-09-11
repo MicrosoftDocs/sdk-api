@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 769293d8-0ae0-419f-9399-3c501d700251
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Attributes interface, IX509Attributes interface [Security],Add method, IX509Attributes.Add, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method
-f1_keywords:
-- certenroll/IX509Attributes.Add
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Attributes.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Attributes::Add
+ - certenroll/IX509Attributes::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Attributes.Add
 ---
 
 # IX509Attributes::Add
@@ -49,35 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Add</b> method adds an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a> object to the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a> interface that represents the attribute to add to the collection.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
 
@@ -88,7 +75,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
 

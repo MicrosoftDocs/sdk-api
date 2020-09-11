@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4e9bbed7-f899-4361-a526-029a710d5147
 ms.date: 12/05/2018
 ms.keywords: '*LPSCARD_READERSTATEW, *PSCARD_READERSTATEW, LPSCARD_READERSTATE, LPSCARD_READERSTATE structure pointer [Security], PSCARD_READERSTATE, PSCARD_READERSTATE structure pointer [Security], SCARD_READERSTATE, SCARD_READERSTATE structure [Security], SCARD_READERSTATEA, SCARD_READERSTATEW, SCARD_STATE_ATRMATCH, SCARD_STATE_CHANGED, SCARD_STATE_EMPTY, SCARD_STATE_EXCLUSIVE, SCARD_STATE_IGNORE, SCARD_STATE_INUSE, SCARD_STATE_MUTE, SCARD_STATE_PRESENT, SCARD_STATE_UNAVAILABLE, SCARD_STATE_UNAWARE, SCARD_STATE_UNKNOWN, _smart_scard_readerstate, security.scard_readerstate, winscard/LPSCARD_READERSTATE, winscard/PSCARD_READERSTATE, winscard/SCARD_READERSTATE, winscard/SCARD_READERSTATEA, winscard/SCARD_READERSTATEW'
-f1_keywords:
-- winscard/SCARD_READERSTATE
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winscard.h
-api_name:
-- SCARD_READERSTATE
-- SCARD_READERSTATEA
-- SCARD_READERSTATEW
 targetos: Windows
 req.typenames: SCARD_READERSTATEW, *PSCARD_READERSTATEW, *LPSCARD_READERSTATEW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSCARD_READERSTATEW
+ - winscard/PSCARD_READERSTATEW
+ - SCARD_READERSTATEW
+ - winscard/SCARD_READERSTATEW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winscard.h
+api_name:
+ - SCARD_READERSTATE
+ - SCARD_READERSTATEA
+ - SCARD_READERSTATEW
 ---
 
 # SCARD_READERSTATEW structure
@@ -51,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCARD_READERSTATE</b> structure is used by functions for tracking <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart cards</a> within <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">readers</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field szReader
 
@@ -66,11 +64,9 @@ A pointer to the name of the reader being monitored.
 
 Set the value of this member to "\\\\?PnP?\\Notification" and the values of all other members to zero to be notified of the arrival of a new smart card reader.
 
-
 ### -field pvUserData
 
 Not used by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card subsystem</a>. This member is used by the application.
-
 
 ### -field dwCurrentState
 
@@ -177,8 +173,6 @@ The application expects that there is an unresponsive card in the reader.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwEventState
 
@@ -295,32 +289,22 @@ There is an unresponsive card in the reader.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cbAtr
 
 Number of bytes in the returned ATR.
 
-
 ### -field rgbAtr
 
 ATR of the inserted card, with extra alignment bytes.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 9a945740-b191-41f5-8b3d-49b7e2d1e463
 ms.date: 12/05/2018
 ms.keywords: 9a945740-b191-41f5-8b3d-49b7e2d1e463, IInkTablet, IInkTablet interface [Tablet PC], IInkTablet interface [Tablet PC],described, msinkaut/IInkTablet, tablet.iinktablet
-f1_keywords:
-- msinkaut/IInkTablet
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkTablet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkTablet
+ - msinkaut/IInkTablet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkTablet
 ---
 
 # IInkTablet interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Represents the digitizer device of Tablet PC that receives tablet device messages or events.
-
-
-
 
 ## -inheritance
 
@@ -146,12 +142,9 @@ Gets a string representation of the Plug and Play identifier of the <b>IInkTable
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You can use the <b>IInkTablet</b> object to determine the hardware capabilities of the tablet device. A Tablet PC may have more than one digitizer attached in addition to the built-in digitizer.
 
@@ -165,13 +158,7 @@ The default mode is all tablets mode (set with the <a href="https://docs.microso
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
 
@@ -186,7 +173,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
- 
-
- 
 

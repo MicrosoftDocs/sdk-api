@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 1BFEC534-A9D4-4310-9E40-FCC1AB301D0F
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingWriteActivity, TraceLoggingWriteActivity macro, tracelogging.traceloggingwriteactivity, traceloggingprovider/TraceLoggingWriteActivity
-f1_keywords:
-- traceloggingprovider/TraceLoggingWriteActivity
-dev_langs:
-- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- traceloggingprovider.h
-api_name:
-- TraceLoggingWriteActivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingWriteActivity
+ - traceloggingprovider/TraceLoggingWriteActivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - traceloggingprovider.h
+api_name:
+ - TraceLoggingWriteActivity
 ---
 
 # TraceLoggingWriteActivity macro
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Emits an event with specific activity IDs.
 
-
 ## -parameters
-
-
-
 
 ### -param hProvider [in]
 
 A provider registration handle.
 
-
 ### -param eventName [in]
 
 The name of the event. This must be a string literal and not a variable. It cannot have any embedded nul characters.
 
-
 ### -param pActivityId [in, optional]
 
 The activity id for the event.
-
 
 ### -param pRelatedActivityId [in, optional]
 
@@ -82,10 +75,7 @@ The related activity id for the event.
 
 Additional parameters added to the event. The maximum number of optional parameters is 99. All parameters must be wrapper macros as defined in <a href="https://docs.microsoft.com/windows/desktop/tracelogging/tracelogging-wrapper-macros">TraceLogging Wrapper Macros</a>.
 
-
 ## -remarks
-
-
 
 This macro functions the same as <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite">TraceLoggingWrite</a> except for the addition of the activity ids. If you submit <b>NULL</b> for the activity ids, this macro will be identical to TraceLoggingWrite.
      
@@ -94,7 +84,4 @@ When submitting the optional parameters, you might generate an error that a line
      
 
 The maximum number of event data descriptors is 128. Since each parameter can have 0, 1, or 2, it is possible to hit the data descriptor limit before the argument limit. In addition, the maximum number of bytes per event is 65536.
-     
-
-
 

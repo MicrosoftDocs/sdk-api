@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 570CB5FD-7586-41AD-84A6-DA6966B18E91
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],GetDefaultTarget method, GetDefaultTarget, GetDefaultTarget method [Windows API], GetDefaultTarget method [Windows API],FhConfigMgr class, GetDefaultTarget method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetDefaultTarget method, IFhConfigMgr.GetDefaultTarget, IFhConfigMgr::GetDefaultTarget, fhcfg/IFhConfigMgr::GetDefaultTarget, winprog.ifhconfigmgr_getdefaulttarget
-f1_keywords:
-- fhcfg/IFhConfigMgr.GetDefaultTarget
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhConfigMgr.GetDefaultTarget
-- FhConfigMgr.GetDefaultTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhConfigMgr::GetDefaultTarget
+ - fhcfg/IFhConfigMgr::GetDefaultTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhConfigMgr.GetDefaultTarget
+ - FhConfigMgr.GetDefaultTarget
 ---
 
 # IFhConfigMgr::GetDefaultTarget
 
 
 ## -description
-
 
 Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface that can be used to query information about the currently assigned backup target.
 
@@ -58,36 +58,19 @@ Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ## -parameters
 
-
-
-
 ### -param DefaultTarget [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface of an object that represents the currently assigned default target, or <b>NULL</b> if there is no default target.
 
-
 ## -returns
-
-
 
 <b>S_OK</b> on success, or an unsuccessful <b>HRESULT</b>  value on failure. Possible unsuccessful <b>HRESULT</b> values include values defined in the FhErrors.h header file.
 
-
-
-
 ## -remarks
-
-
 
 If no backup target is currently assigned, this method returns <code>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
@@ -98,7 +81,4 @@ If no backup target is currently assigned, this method returns <code>HRESULT_FRO
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a>
- 
-
- 
 

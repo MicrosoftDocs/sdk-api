@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 687d7e2f-13b1-4871-8850-2b179a6ce786
 ms.date: 12/05/2018
 ms.keywords: Check, Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],Check method, ISpellChecker.Check, ISpellChecker::Check, intl.ispellchecker_check, spellcheck/ISpellChecker::Check
-f1_keywords:
-- spellcheck/ISpellChecker.Check
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- ISpellChecker.Check
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellChecker::Check
+ - spellcheck/ISpellChecker::Check
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - ISpellChecker.Check
 ---
 
 # ISpellChecker::Check
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks the spelling of the supplied text and returns a collection of spelling errors.
 
-
 ## -parameters
-
-
-
 
 ### -param text [in]
 
 The text to check.
 
-
 ### -param value [out, retval]
 
 The result of checking this text, returned as an <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,31 +105,16 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The returned <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> contains the results of spell checking. A correct <i>text</i> returns an empty (not a null) enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
- 
-
- 
 

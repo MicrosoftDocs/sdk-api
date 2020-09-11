@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b409a6fc-2cfd-491e-8f4c-f8567df7b08f
 ms.date: 12/05/2018
 ms.keywords: '*LPOPENCARDNAMEW, *POPENCARDNAMEW, LPOPENCARDNAME, LPOPENCARDNAME structure pointer [Security], OPENCARDNAME, OPENCARDNAME structure [Security], OPENCARDNAMEA, OPENCARDNAMEW, SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname, security.opencardname, winscard/LPOPENCARDNAME, winscard/OPENCARDNAME, winscard/OPENCARDNAMEA, winscard/OPENCARDNAMEW'
-f1_keywords:
-- winscard/OPENCARDNAME
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winscard.h
-api_name:
-- OPENCARDNAME
-- OPENCARDNAMEA
-- OPENCARDNAMEW
 targetos: Windows
 req.typenames: OPENCARDNAMEW, *POPENCARDNAMEW, *LPOPENCARDNAMEW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - POPENCARDNAMEW
+ - winscard/POPENCARDNAMEW
+ - OPENCARDNAMEW
+ - winscard/OPENCARDNAMEW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winscard.h
+api_name:
+ - OPENCARDNAME
+ - OPENCARDNAMEA
+ - OPENCARDNAMEW
 ---
 
 # OPENCARDNAMEW structure
@@ -51,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OPENCARDNAME</b> structure contains the information that the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-getopencardnamea">GetOpenCardName</a> function uses to initialize a smart card <b>Select Card</b> dialog box. Calling <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a> with <a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a> is recommended over calling <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-getopencardnamea">GetOpenCardName</a> with <b>OPENCARDNAME</b>. <b>OPENCARDNAME</b> is provided for backward compatibility.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwStructSize
 
 Specifies the length, in bytes, of the structure. This member must not be <b>NULL</b>.
 
-
 ### -field hwndOwner
 
 The window that owns the dialog box. This member can be any valid window handle, or it can be <b>NULL</b> for desktop default.
-
 
 ### -field hSCardContext
 
@@ -77,62 +73,50 @@ The context used for communication with the <a href="https://docs.microsoft.com/
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> to set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreleasecontext">SCardReleaseContext</a> to release it. This member must not be <b>NULL</b>.
 
-
 ### -field lpstrGroupNames
 
 A pointer to a buffer that contains null-terminated group name strings. The last string in the buffer must be terminated by two null characters. Each string is the name of a group of cards that is to be included in the search. If <b>lpstrGroupNames</b> is <b>NULL</b>, the default group (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Scard$DefaultReaders</a>) is searched.
-
 
 ### -field nMaxGroupNames
 
 The maximum number of bytes (ANSI version) or characters (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> version) in the <b>lpstrGroupNames</b> string.
 
-
 ### -field lpstrCardNames
 
 A pointer to a buffer that contains null-terminated card name strings. The last string in the buffer must be terminated by two null characters. Each string is the name of a card that is to be located.
-
 
 ### -field nMaxCardNames
 
 The maximum number of bytes (ANSI version) or characters (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> version) in the <b>lpstrCardNames</b> string.
 
-
 ### -field rgguidInterfaces
 
 Reserved for future use. Set to <b>NULL</b>. An array of GUIDs that identify the interfaces required.
-
 
 ### -field cguidInterfaces
 
 Reserved for futures use. Set to <b>NULL</b>. The number of interfaces in the <b>rgguidInterfaces</b> array.
 
-
 ### -field lpstrRdr
 
 If the card is located, the <b>lpstrRdr</b> buffer contains the name of the reader that contains the located card. The buffer should be at least 256 characters long.
-
 
 ### -field nMaxRdr
 
 The size, in bytes (ANSI version) or characters (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> version), of the buffer pointed to by <b>lpstrRdr</b>. If the buffer is too small to contain the reader information, 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-getopencardnamea">GetOpenCardName</a> returns SCARD_E_NO_MEMORY and the required size of the buffer pointed to by <b>lpstrRdr</b>.
 
-
 ### -field lpstrCard
 
 If the card is located, the <b>lpstrCard</b> buffer contains the name of the located card. The buffer should be at least 256 characters long.
-
 
 ### -field nMaxCard
 
 The size, in bytes (ANSI version) or characters (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> version), of the buffer pointed to by <b>lpstrCard</b>. If the buffer is too small to contain the card information, <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-getopencardnamea">GetOpenCardName</a> returns SCARD_E_NO_MEMORY and the required size of the buffer in <b>nMaxCard</b>.
 
-
 ### -field lpstrTitle
 
  A pointer to a string to be placed in the title bar of the dialog box. If this member is <b>NULL</b>, the system uses the default title "Select Card:".
-
 
 ### -field dwFlags
 
@@ -174,13 +158,10 @@ Force display of the <b>Select Card</b> UI, regardless of the search outcome.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pvUserData
 
 A void pointer to user data. This pointer is passed back to the caller on the Connect, Check, and Disconnect routines.
-
 
 ### -field dwShareMode
 
@@ -191,16 +172,13 @@ If <b>lpfnConnect</b> is <b>NULL</b> and <b>dwShareMode</b> is nonzero, then an 
 
 If <b>lpfnConnect</b> is <b>NULL</b> and <b>dwShareMode</b> is zero, the dialog box returns <b>hCardHandle</b> as <b>NULL</b>.
 
-
 ### -field dwPreferredProtocols
 
 Used for internal connection as described in <b>dwShareMode</b>.
 
-
 ### -field dwActiveProtocol
 
 Returns the actual protocol in use when the dialog box makes a connection to a card.
-
 
 ### -field lpfnConnect
 
@@ -222,8 +200,6 @@ Connect(
 );
 
 ```
-
-
 
 ### -field lpfnCheck
 
@@ -247,8 +223,6 @@ Check(
 );
 
 ```
-
-
 
 ### -field lpfnDisconnect
 
@@ -277,11 +251,7 @@ Disconnect(
 
 A handle of the connected card (either through an internal dialog box connect or an <b>lpfnConnect</b> callback).
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-getopencardnamea">GetOpenCardName</a>
 
@@ -300,9 +270,6 @@ A handle of the connected card (either through an internal dialog box connect or
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a>
- 
-
- 
 
 ## -remarks
 

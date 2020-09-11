@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], ITfThreadMgrEventSink interface [Text Services Framework],described, _tsf_itfthreadmgreventsink_ref, msctf/ITfThreadMgrEventSink, tsf.itfthreadmgreventsink
-f1_keywords:
-- msctf/ITfThreadMgrEventSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.h
-api_name:
-- ITfThreadMgrEventSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgrEventSink
+ - msctf/ITfThreadMgrEventSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.h
+api_name:
+ - ITfThreadMgrEventSink
 ---
 
 # ITfThreadMgrEventSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfThreadMgrEventSink</b> interface is implemented by an application or TSF text service to receive notifications of certain thread manager events. Call the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfThreadMgrEventSink to install this advise sink.
-
 
 ## -inheritance
 
@@ -113,13 +112,9 @@ Called when the last context is removed from the context stack
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
@@ -127,7 +122,4 @@ Called when the last context is removed from the context stack
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

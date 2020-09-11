@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 2EAFC6B9-376C-4801-8E53-BF0DB08943AA
 ms.date: 12/05/2018
 ms.keywords: CopyTextureRegion, CopyTextureRegion method, CopyTextureRegion method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyTextureRegion method, ID3D12GraphicsCommandList.CopyTextureRegion, ID3D12GraphicsCommandList::CopyTextureRegion, d3d12/ID3D12GraphicsCommandList::CopyTextureRegion, direct3d12.id3d12graphicscommandlist_copytextureregion
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.CopyTextureRegion
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.CopyTextureRegion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::CopyTextureRegion
+ - d3d12/ID3D12GraphicsCommandList::CopyTextureRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.CopyTextureRegion
 ---
 
 # ID3D12GraphicsCommandList::CopyTextureRegion
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method uses the GPU to copy texture data between two locations. Both the source and the destination may reference texture data located within either a buffer resource or a texture resource.
 
-
 ## -parameters
-
-
-
 
 ### -param pDst [in]
 
@@ -64,31 +60,23 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 
 Specifies the destination <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_texture_copy_location">D3D12_TEXTURE_COPY_LOCATION</a>. The subresource referred to must be in the D3D12_RESOURCE_STATE_COPY_DEST state.
 
-
-
 ### -param DstX
 
 Type: <b>UINT</b>
 
 The x-coordinate of the upper left corner of the destination region.
-          
-
 
 ### -param DstY
 
 Type: <b>UINT</b>
 
 The y-coordinate of the upper left corner of the destination region. For a 1D subresource, this must be zero.
-          
-
 
 ### -param DstZ
 
 Type: <b>UINT</b>
 
 The z-coordinate of the upper left corner of the destination region. For a 1D or 2D subresource, this must be zero.
-          
-
 
 ### -param pSrc [in]
 
@@ -97,14 +85,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 Specifies the source <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_texture_copy_location">D3D12_TEXTURE_COPY_LOCATION</a>.
           The subresource referred to must be in the D3D12_RESOURCE_STATE_COPY_SOURCE state.
 
-
 ### -param pSrcBox [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_box">D3D12_BOX</a>*</b>
 
 Specifies an optional  D3D12_BOX that sets the size of the source texture to copy.
-          
-
 
 ## -remarks
 
@@ -224,15 +209,11 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion">CopyBufferRegion</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
+

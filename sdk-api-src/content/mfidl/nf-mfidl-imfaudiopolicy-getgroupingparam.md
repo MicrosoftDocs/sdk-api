@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 725892fd-4af6-483d-bb5c-87051fa45ec4
 ms.date: 12/05/2018
 ms.keywords: 725892fd-4af6-483d-bb5c-87051fa45ec4, GetGroupingParam, GetGroupingParam method [Media Foundation], GetGroupingParam method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetGroupingParam method, IMFAudioPolicy.GetGroupingParam, IMFAudioPolicy::GetGroupingParam, mf.imfaudiopolicy_getgroupingparam, mfidl/IMFAudioPolicy::GetGroupingParam
-f1_keywords:
-- mfidl/IMFAudioPolicy.GetGroupingParam
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAudioPolicy.GetGroupingParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAudioPolicy::GetGroupingParam
+ - mfidl/IMFAudioPolicy::GetGroupingParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAudioPolicy.GetGroupingParam
 ---
 
 # IMFAudioPolicy::GetGroupingParam
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the group of sessions to which this audio session belongs.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pguidClass [out]
 
 Receives a GUID that identifies the session group.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,31 +80,16 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If two or more audio sessions share the same group, the Windows volume control displays one slider control for the entire group. Otherwise, it displays a slider for each session. For more information, see <b>IAudioSessionControl::SetGroupingParam</b> in the core audio API documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy">IMFAudioPolicy</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
- 
-
- 
 

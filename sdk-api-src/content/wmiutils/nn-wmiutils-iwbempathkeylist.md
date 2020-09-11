@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5b188426-9d7f-4e87-9eed-ce80e5d93c30
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], IWbemPathKeyList interface [Windows Management Instrumentation],described, _hmm_iwbempathkeylist, wmi.iwbempathkeylist, wmiutils/IWbemPathKeyList
-f1_keywords:
-- wmiutils/IWbemPathKeyList
-dev_langs:
-- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiutils.dll
-api_name:
-- IWbemPathKeyList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemPathKeyList
+ - wmiutils/IWbemPathKeyList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiutils.dll
+api_name:
+ - IWbemPathKeyList
 ---
 
 # IWbemPathKeyList interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemPathKeyList</b> interface is used to access the details of the path keys.
-
 
 ## -inheritance
 
@@ -159,5 +158,5 @@ Sets the name or value pair for a key using variants.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 36bf82e0-f3e7-43cf-943f-eed783ad24a4
 ms.date: 12/05/2018
 ms.keywords: SetViewportExtEx, SetViewportExtEx function [Windows GDI], _win32_SetViewportExtEx, gdi.setviewportextex, wingdi/SetViewportExtEx
-f1_keywords:
-- wingdi/SetViewportExtEx
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- SetViewportExtEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetViewportExtEx
+ - wingdi/SetViewportExtEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - SetViewportExtEx
 ---
 
 # SetViewportExtEx function
@@ -52,49 +53,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetViewportExtEx</b> function sets the horizontal and vertical extents of the viewport for a device context by using the specified values.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param x [in]
 
 The horizontal extent, in device units, of the viewport.
-
 
 ### -param y [in]
 
 The vertical extent, in device units, of the viewport.
 
-
 ### -param lpsz [out]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the previous viewport extents, in device units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <i>viewport</i> refers to the device coordinate system of the device space. The <i>extent</i> is the maximum value of an axis. This function sets the maximum values for the horizontal and vertical axes of the viewport in device coordinates (or pixels). When mapping between page space and device space, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a> and <b>SetViewportExtEx</b> determine the scaling factor between the window and the viewport. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/transformation-of-coordinate-spaces">Transformation of Coordinate Spaces</a>.
 
@@ -117,12 +102,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/inva
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
@@ -141,7 +121,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/inva
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a>
- 
-
- 
 

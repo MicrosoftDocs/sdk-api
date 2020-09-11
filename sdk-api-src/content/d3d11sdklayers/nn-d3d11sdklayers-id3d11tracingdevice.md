@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: AE42E2A8-9FEE-4991-B1A0-4C6C04958DE4
 ms.date: 12/05/2018
 ms.keywords: ID3D11TracingDevice, ID3D11TracingDevice interface [Direct3D 11], ID3D11TracingDevice interface [Direct3D 11],described, d3d11sdklayers/ID3D11TracingDevice, direct3d11.id3d11tracingdevice
-f1_keywords:
-- d3d11sdklayers/ID3D11TracingDevice
-dev_langs:
-- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3DCompiler.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCompiler.lib
-- D3DCompiler.dll
-api_name:
-- ID3D11TracingDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11TracingDevice
+ - d3d11sdklayers/ID3D11TracingDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCompiler.lib
+ - D3DCompiler.dll
+api_name:
+ - ID3D11TracingDevice
 ---
 
 # ID3D11TracingDevice interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The tracing device interface sets shader tracking information, which enables accurate logging and playback of shader execution.
-
 
 ## -inheritance
 
@@ -87,31 +86,20 @@ Sets the reference rasterizer's default race-condition tracking options for the 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get this interface, turn on the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">debug layer</a> and use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>
- 
-
- 
 

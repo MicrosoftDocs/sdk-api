@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: d02d26f5-34cf-4a3c-b67c-0f9191bb854b
 ms.date: 12/05/2018
 ms.keywords: '*LPDDKERNELCAPS, DDKERNELCAPS, DDKERNELCAPS structure [Display Devices], LPDDKERNELCAPS, LPDDKERNELCAPS structure pointer [Display Devices], ddkernel/DDKERNELCAPS, ddkernel/LPDDKERNELCAPS, ddstrcts_efe32a57-5435-4e15-a17f-880870d70c85.xml, display.ddkernelcaps'
-f1_keywords:
-- ddkernel/DDKERNELCAPS
-dev_langs:
-- c++
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddkernel.h
-api_name:
-- DDKERNELCAPS
 targetos: Windows
 req.typenames: '*LPDDKERNELCAPS, DDKERNELCAPS'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDKERNELCAPS
+ - ddkernel/_DDKERNELCAPS
+ - LPDDKERNELCAPS
+ - ddkernel/LPDDKERNELCAPS
+ - DDKERNELCAPS
+ - ddkernel/DDKERNELCAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddkernel.h
+api_name:
+ - DDKERNELCAPS
 ---
 
 # DDKERNELCAPS structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDKERNELCAPS structure notifies the client what support, if any, exists in the miniport driver for the kernel-mode video transport. 
-
+The DDKERNELCAPS structure notifies the client what support, if any, exists in the miniport driver for the kernel-mode video transport.
 
 ## -struct-fields
 
-
-
-
 ### -field dwSize
 
-Specifies the size, in bytes, of this structure. This member must be initialized before the structure is used. 
-
+Specifies the size, in bytes, of this structure. This member must be initialized before the structure is used.
 
 ### -field dwCaps
 
@@ -173,8 +172,6 @@ The device supports field skipping, either using hardware or by supporting the <
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwIRQCaps
 
@@ -396,13 +393,8 @@ he device can generate V-sync IRQs for hardware video port number 9.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a>
 
@@ -421,7 +413,4 @@ he device can generate V-sync IRQs for hardware video port number 9.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a>
- 
-
- 
 

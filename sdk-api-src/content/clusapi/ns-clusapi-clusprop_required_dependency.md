@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: dae7544d-31c0-4a4b-8acb-d652bae817dd
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_REQUIRED_DEPENDENCY, CLUSPROP_REQUIRED_DEPENDENCY, CLUSPROP_REQUIRED_DEPENDENCY structure [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, PCLUSPROP_REQUIRED_DEPENDENCY, PCLUSPROP_REQUIRED_DEPENDENCY structure pointer [Failover Cluster], _wolf_clusprop_required_dependency, clusapi/CLUSPROP_REQUIRED_DEPENDENCY, clusapi/PCLUSPROP_REQUIRED_DEPENDENCY, mscs.clusprop_required_dependency'
-f1_keywords:
-- clusapi/CLUSPROP_REQUIRED_DEPENDENCY
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_REQUIRED_DEPENDENCY
 targetos: Windows
 req.typenames: CLUSPROP_REQUIRED_DEPENDENCY, *PCLUSPROP_REQUIRED_DEPENDENCY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_REQUIRED_DEPENDENCY
+ - clusapi/CLUSPROP_REQUIRED_DEPENDENCY
+ - PCLUSPROP_REQUIRED_DEPENDENCY
+ - clusapi/PCLUSPROP_REQUIRED_DEPENDENCY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_REQUIRED_DEPENDENCY
 ---
 
 # CLUSPROP_REQUIRED_DEPENDENCY structure
 
 
 ## -description
-
 
 Describes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> that is a required 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> of another resource. This union is used as 
@@ -57,18 +59,12 @@ Describes a <a href="https://docs.microsoft.com/previous-versions/windows/deskto
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-required-dependencies">CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES</a>
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Value
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure describing whether the data 
        in the structure is a resource class or resource type name.
-
 
 ### -field ResClass
 
@@ -101,17 +97,12 @@ A resource has a dependency on a resource belonging to a user-defined class.
          <b>CLUS_RESCLASS_USER</b> specifies the beginning of the range for user-defined resource 
          classes.
 
-
 ### -field ResTypeName
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">Resource type</a> upon which a resource must depend, such 
        as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a>.
 
-
 ## -remarks
-
-
 
 The <b>CLUSPROP_REQUIRED_DEPENDENCY</b> 
      structure describes mandatory dependencies. For example, a 
@@ -135,12 +126,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-required-dependencies">CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES</a>
 
@@ -163,7 +149,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
 

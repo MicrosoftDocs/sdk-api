@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: f40fecfe-3c3b-46f0-9edf-ba48236e50e7
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutoLigatures method, ITextFont2.SetAutoLigatures, ITextFont2::SetAutoLigatures, SetAutoLigatures, SetAutoLigatures method [Windows Controls], SetAutoLigatures method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautoligatures, tom/ITextFont2::SetAutoLigatures
-f1_keywords:
-- tom/ITextFont2.SetAutoLigatures
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont2.SetAutoLigatures
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont2::SetAutoLigatures
+ - tom/ITextFont2::SetAutoLigatures
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont2.SetAutoLigatures
 ---
 
 # ITextFont2::SetAutoLigatures
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets whether support for automatic ligatures is active.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -86,31 +82,18 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 <td>The AutoLigatures property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-getautoligatures">ITextFont2::GetAutoLigatures</a>
- 
-
- 
 

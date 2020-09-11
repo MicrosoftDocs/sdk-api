@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 919772f5-1e86-424c-b3de-079a03bbc8e5
 ms.date: 12/05/2018
 ms.keywords: GetConnection, GetConnection method [Microsoft Broadband Networks], GetConnection method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetConnection method, IMbnInterface.GetConnection, IMbnInterface::GetConnection, mbn.imbninterface_getconnection, mbnapi/IMbnInterface::GetConnection
-f1_keywords:
-- mbnapi/IMbnInterface.GetConnection
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterface.GetConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterface::GetConnection
+ - mbnapi/IMbnInterface::GetConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterface.GetConnection
 ---
 
 # IMbnInterface::GetConnection
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> object associated with this interface.
 
-
 ## -parameters
-
-
-
 
 ### -param mbnConnection [out]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,18 +93,8 @@ Either there is no available connection or the device is not registered to a net
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
- 
-
- 
 

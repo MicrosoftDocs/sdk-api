@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 125665d1-5af6-4d8f-b7fe-cdbff6a7b415
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetClientInfo, DhcpV4FailoverGetClientInfo function [DHCP], dhcp.dhcpv4failovergetclientinfo, dhcpsapi/DhcpV4FailoverGetClientInfo
-f1_keywords:
-- dhcpsapi/DhcpV4FailoverGetClientInfo
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpV4FailoverGetClientInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpV4FailoverGetClientInfo
+ - dhcpsapi/DhcpV4FailoverGetClientInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpV4FailoverGetClientInfo
 ---
 
 # DhcpV4FailoverGetClientInfo function
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpV4FailoverGetClientInfo</b> function retrieves the DHCPv4 client lease information.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in, optional]
 
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
-
 ### -param SearchInfo [in]
 
 Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search the DHCPv4 client lease record on the server. 
 If the <b>SearchType</b> member of <i>SearchInfo</i> is <b>DhcpClientName</b> and there are multiple lease records with the same client name, the server will return client information for the client with the lowest numerical IP address.
-
-
 
 ### -param ClientInfo [out]
 
@@ -80,8 +73,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -115,7 +106,4 @@ An error occurred while accessing the DHCP server database or the client entry i
 </td>
 </tr>
 </table>
- 
-
-
 

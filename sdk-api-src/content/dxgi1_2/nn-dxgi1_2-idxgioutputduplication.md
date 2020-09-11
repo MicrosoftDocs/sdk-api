@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], IDXGIOutputDuplication interface [DXGI],described, direct3ddxgi.idxgioutputduplication, dxgi1_2/IDXGIOutputDuplication
-f1_keywords:
-- dxgi1_2/IDXGIOutputDuplication
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIOutputDuplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutputDuplication
+ - dxgi1_2/IDXGIOutputDuplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIOutputDuplication
 ---
 
 # IDXGIOutputDuplication interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDXGIOutputDuplication</b> interface accesses and manipulates the duplicated desktop image.
-      
-
 
 ## -inheritance
 
@@ -142,12 +140,9 @@ Invalidates the pointer to the desktop image that was retrieved by using <a href
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A collaboration application can use <b>IDXGIOutputDuplication</b> to access the desktop image. <b>IDXGIOutputDuplication</b> is supported in Desktop Window Manager (DWM) on non-8bpp DirectX full-screen modes and non-8bpp OpenGL full-screen modes. 16-bit or 32-bit GDI non-DWM desktop modes are not supported.
         
@@ -192,22 +187,12 @@ The desktop image is always in the <a href="https://docs.microsoft.com/windows/d
         
 
 The <b>IDXGIOutputDuplication</b> interface does not exist for Windows Store apps.
-        
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
- 
-
- 
 

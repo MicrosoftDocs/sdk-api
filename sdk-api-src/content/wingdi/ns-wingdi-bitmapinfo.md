@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 84cc51e8-78f3-4ee6-bc08-94feff89afb0
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPINFO, *PBITMAPINFO, BITMAPINFO, BITMAPINFO structure [Windows GDI], PBITMAPINFO, PBITMAPINFO structure pointer [Windows GDI], _win32_BITMAPINFO_str, gdi.bitmapinfo, tagBITMAPINFO, wingdi/BITMAPINFO, wingdi/PBITMAPINFO'
-f1_keywords:
-- wingdi/BITMAPINFO
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- BITMAPINFO
 targetos: Windows
 req.typenames: BITMAPINFO, *LPBITMAPINFO, *PBITMAPINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagBITMAPINFO
+ - wingdi/tagBITMAPINFO
+ - LPBITMAPINFO
+ - wingdi/LPBITMAPINFO
+ - BITMAPINFO
+ - wingdi/BITMAPINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - BITMAPINFO
 ---
 
 # BITMAPINFO structure
@@ -49,24 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BITMAPINFO</b> structure defines the dimensions and color information for a DIB.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field bmiHeader
 
 A <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that contains information about the dimensions of color format.
 
 .
-
 
 ### -field bmiColors
 
@@ -94,10 +90,7 @@ The number of entries in the array depends on the values of the <b>biBitCount</b
 
 The colors in the <b>bmiColors</b> table appear in order of importance. For more information, see the Remarks section.
 
-
 ## -remarks
-
-
 
 A DIB consists of two distinct parts: a <b>BITMAPINFO</b> structure describing the dimensions and colors of the bitmap, and an array of bytes defining the pixels of the bitmap. The bits in the array are packed together, but each scan line must be padded with zeros to end on a <b>LONG</b> data-type boundary. If the height of the bitmap is positive, the bitmap is a bottom-up DIB and its origin is the lower-left corner. If the height is negative, the bitmap is a top-down DIB and its origin is the upper left corner.
 
@@ -110,12 +103,7 @@ A bitmap is packed when the bitmap array immediately follows the <b>BITMAPINFO</
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
@@ -142,7 +130,4 @@ A bitmap is packed when the bitmap array immediately follows the <b>BITMAPINFO</
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>
- 
-
- 
 

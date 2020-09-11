@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 1c56c47b-d898-4c70-ba70-8978057c66b9
 ms.date: 12/05/2018
 ms.keywords: ClfsContextForward, ClfsContextPrevious, ClfsContextUndoNext, ReadLogRecord, ReadLogRecord function [Files], clfsw32/ReadLogRecord, fs.readlogrecord
-f1_keywords:
-- clfsw32/ReadLogRecord
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- ReadLogRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadLogRecord
+ - clfsw32/ReadLogRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - ReadLogRecord
 ---
 
 # ReadLogRecord function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates a sequence of reads from a specified log sequence number (LSN) in one of three modes, and returns the first of the specified log records and a read context.  A client can read subsequent records in the designated mode by passing the read context to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readnextlogrecord">ReadNextLogRecord</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pvMarshal [in]
 
 A pointer to a  marshaling context that is allocated by using the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
-
 
 ### -param plsnFirst [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the record  where  the read operation should start.  
 
 This value must be an LSN of a valid record in the active range of the log.
-
 
 ### -param eContextMode [in]
 
@@ -112,18 +106,14 @@ The following table identifies the three  mutually exclusive  read modes.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppvReadBuffer [out]
 
 A pointer to a variable that receives a pointer to the target record in the log I/O block.
 
-
 ### -param pcbReadBuffer [out]
 
 A pointer to  a variable that receives the size of the data that is returned in <i>*ppvReadBuffer</i>, in bytes.
-
 
 ### -param peRecordType [out]
 
@@ -131,16 +121,13 @@ A pointer to a variable that receives the  type of record read.
 
 This parameter is one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/clfs-record-type-constants">CLFS_RECORD_TYPE Constants</a>.
 
-
 ### -param plsnUndoNext [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the LSN of the next record in the undo record chain.
 
-
 ### -param plsnPrevious [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
-
 
 ### -param ppvReadContext [out]
 
@@ -159,10 +146,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
 
  This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -172,12 +156,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The following  list identifies the possible error codes.
 
-
-
-
 ## -remarks
-
-
 
 The error message ERROR_LOG_BLOCK_INCOMPLETE is returned if the log block size specified by <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> is not large enough to hold a complete log block.
 
@@ -196,12 +175,7 @@ To complete the requested read and obtain a valid pointer to the log record, the
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ne-clfs-clfs_context_mode">CLFS_CONTEXT_MODE</a>
 
@@ -232,7 +206,4 @@ To complete the requested read and obtain a valid pointer to the log record, the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-terminatereadlog">TerminateReadLog</a>
- 
-
- 
 

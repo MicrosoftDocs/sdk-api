@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 77dcee49-35ef-4664-b0e6-3044352d543c
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], IOverlayNotify interface [DirectShow],described, IOverlayNotifyInterface, dshow.ioverlaynotify, strmif/IOverlayNotify
-f1_keywords:
-- strmif/IOverlayNotify
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IOverlayNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOverlayNotify
+ - strmif/IOverlayNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IOverlayNotify
 ---
 
 # IOverlayNotify interface
 
 
 ## -description
-
-
 
 The <code>IOverlayNotify</code> interface provides an upstream filter, such as a decoder, with notifications of changes to the rendering window. This includes notifications of changes to the palette, color key, and window position, and visible region (clipping) changes.
 
@@ -61,9 +60,6 @@ However, some video decoding filters (typically hardware decompression boards) h
 Decoders that do their own drawing should implement the <code>IOverlayNotify</code> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlaynotify2">IOverlayNotify2</a> interfaces. The renderer uses this interface to notify the decoder whenever the window size or position changes, the system palette changes, or a different color key is used. The decoder should call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-advise">IOverlay::Advise</a> method on the renderer's input pin, to set up the callback. Once the callback is established, the renderer calls the decoder's <code>IOverlayNotify</code> methods when the appropriate events occur. To cancel the callback, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-unadvise">IOverlay::Unadvise</a> method.
 
 The video renderer is the only filter that calls the methods on this interface. This is done automatically by the default video renderer. If you are writing a replacement video renderer, you will need to use the methods on this interface if your filter supports <b>IOverlay</b> and this interface is passed to your filter in an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-advise">IOverlay::Advise</a> call.
-
-
-
 
 ## -inheritance
 
@@ -116,5 +112,5 @@ Provides notification that the position has changed.
 
 </td>
 </tr>
-</table> 
+</table>
 

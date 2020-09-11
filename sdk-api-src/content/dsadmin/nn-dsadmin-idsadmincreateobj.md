@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 93673b29-744a-4100-86b7-8a2eec861c47
 ms.date: 12/05/2018
 ms.keywords: IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], IDsAdminCreateObj interface [Active Directory],described, _glines_idsadmincreateobj, ad.idsadmincreateobj, dsadmin/IDsAdminCreateObj
-f1_keywords:
-- dsadmin/IDsAdminCreateObj
-dev_langs:
-- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: DSAdmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DSAdmin.dll
-api_name:
-- IDsAdminCreateObj
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsAdminCreateObj
+ - dsadmin/IDsAdminCreateObj
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DSAdmin.dll
+api_name:
+ - IDsAdminCreateObj
 ---
 
 # IDsAdminCreateObj interface
 
 
 ## -description
-
 
 The <b>IDsAdminCreateObj</b> interface is implemented by the system and used by an application or component to programmatically start a creation wizard for a specified object class.
 
@@ -65,8 +65,6 @@ hr = ::CoCreateInstance(CLSID_DsAdminCreateObj,
         IID_IDsAdminCreateObj,
         (void**)&pCreateObj);
 ```
-
-
 
 ## -inheritance
 
@@ -102,13 +100,9 @@ Initializes the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
 
@@ -119,7 +113,4 @@ Initializes the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/invoking-creation-wizards-from-your-application">Invoking Creation Wizards from Your Application</a>
- 
-
- 
 

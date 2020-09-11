@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: EA278262-8CA7-42A3-9F66-0C7B4D3AA525
 ms.date: 12/05/2018
 ms.keywords: UI_EVENTLOCATION, UI_EVENTLOCATION enumeration [Windows Ribbon], UI_EVENTLOCATION_ApplicationMenu, UI_EVENTLOCATION_ContextPopup, UI_EVENTLOCATION_QAT, UI_EVENTLOCATION_Ribbon, uiribbon/UI_EVENTLOCATION, uiribbon/UI_EVENTLOCATION_ApplicationMenu, uiribbon/UI_EVENTLOCATION_ContextPopup, uiribbon/UI_EVENTLOCATION_QAT, uiribbon/UI_EVENTLOCATION_Ribbon, windowsribbon.ui_eventlocation
-f1_keywords:
-- uiribbon/UI_EVENTLOCATION
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uiribbon.h
-api_name:
-- UI_EVENTLOCATION
 targetos: Windows
 req.typenames: UI_EVENTLOCATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UI_EVENTLOCATION
+ - uiribbon/UI_EVENTLOCATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uiribbon.h
+api_name:
+ - UI_EVENTLOCATION
 ---
 
 # UI_EVENTLOCATION enumeration
@@ -49,39 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the locations where events associated with a Ribbon control can originate.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UI_EVENTLOCATION_Ribbon
 
 The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a>.
 
-
 ### -field UI_EVENTLOCATION_QAT
 
 The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-quickaccesstoolbar">QuickAccessToolbar</a>.
-
 
 ### -field UI_EVENTLOCATION_ApplicationMenu
 
 The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-applicationmenu">ApplicationMenu</a>.
 
-
 ### -field UI_EVENTLOCATION_ContextPopup
 
 The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
@@ -92,7 +81,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsrib
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE</a>
- 
-
- 
 

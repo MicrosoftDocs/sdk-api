@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2f3eb00a-864e-4fb7-a722-4537e6b8dd42
 ms.date: 12/05/2018
 ms.keywords: IVdsLunMpio interface [VDS],SetLoadBalancePolicy method, IVdsLunMpio.SetLoadBalancePolicy, IVdsLunMpio::SetLoadBalancePolicy, SetLoadBalancePolicy, SetLoadBalancePolicy method [VDS], SetLoadBalancePolicy method [VDS],IVdsLunMpio interface, base.ivdslunmpio_setloadbalancepolicy, vds/IVdsLunMpio::SetLoadBalancePolicy, vdshwprv/IVdsLunMpio::SetLoadBalancePolicy
-f1_keywords:
-- vds/IVdsLunMpio.SetLoadBalancePolicy
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- IVdsLunMpio.SetLoadBalancePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLunMpio::SetLoadBalancePolicy
+ - vds/IVdsLunMpio::SetLoadBalancePolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - IVdsLunMpio.SetLoadBalancePolicy
 ---
 
 # IVdsLunMpio::SetLoadBalancePolicy
@@ -50,22 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the load balance policy on the LUN.
 
-
 ## -parameters
-
-
-
 
 ### -param policy
 
 The load balance policy enumerated by the  
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_loadbalance_policy_enum">VDS_LOADBALANCE_POLICY_ENUM</a> enumeration.
-
 
 ### -param pPaths
 
@@ -73,16 +68,12 @@ A
       pointer to an array of members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_policy">VDS_PATH_POLICY</a> structure 
       that contain the path-specific policy information.
 
-
 ### -param lNumberOfPaths
 
 The number of members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_policy">VDS_PATH_POLICY</a> structure in the array 
       pointed to by the <i>pPaths</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -156,15 +147,8 @@ Another operation is in progress. This operation cannot proceed until previous o
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslunmpio">IVdsLunMpio</a>
 
@@ -179,7 +163,4 @@ Another operation is in progress. This operation cannot proceed until previous o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_policy">VDS_PATH_POLICY</a>
- 
-
- 
 

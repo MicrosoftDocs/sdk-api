@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: ad4b182d-a65d-4890-9eda-fdd6d044f736
 ms.date: 12/05/2018
 ms.keywords: InitializeCriticalSection, InitializeCriticalSection function, _win32_initializecriticalsection, base.initializecriticalsection, synchapi/InitializeCriticalSection, winbase/InitializeCriticalSection
-f1_keywords:
-- synchapi/InitializeCriticalSection
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- vertdll.dll
-api_name:
-- InitializeCriticalSection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeCriticalSection
+ - synchapi/InitializeCriticalSection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - vertdll.dll
+api_name:
+ - InitializeCriticalSection
 ---
 
 # InitializeCriticalSection function
@@ -56,23 +57,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a critical section object.
 
-
 ## -parameters
-
-
-
 
 ### -param lpCriticalSection [out]
 
 A pointer to the critical section object.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
@@ -81,12 +74,7 @@ This function does not return a value.
 <b>Windows Server 2003 and Windows XP:  </b>In low memory situations, 
 <b>InitializeCriticalSection</b> can raise a <b>STATUS_NO_MEMORY</b> exception. Starting with Windows Vista, this exception was eliminated and <b>InitializeCriticalSection</b> always succeeds, even in low memory situations.
 
-
-
-
 ## -remarks
-
-
 
 The threads of a single process can use a critical section object for mutual-exclusion synchronization. There is no guarantee about the order in which threads will obtain ownership of the critical section, however, the system will be fair to all threads.
 
@@ -102,13 +90,7 @@ A critical section object cannot be moved or copied. The process must also not m
 
 A critical section object must be deleted before it can be reinitialized. Initializing a critical section that has already been initialized results in undefined behavior.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a>
 
@@ -139,7 +121,4 @@ A critical section object must be deleted before it can be reinitialized. Initia
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>
- 
-
- 
 

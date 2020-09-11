@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 56122d92-7e38-4eaa-b2f5-713adc81e68e
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Security], IX509CertificateTemplate interface [Security],described, certenroll/IX509CertificateTemplate, security.ix509certificatetemplate
-f1_keywords:
-- certenroll/IX509CertificateTemplate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateTemplate
+ - certenroll/IX509CertificateTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateTemplate
 ---
 
 # IX509CertificateTemplate interface
 
 
 ## -description
-
 
 The <b>IX509CertificateTemplate</b> interface represents a certificate request template. It can be used to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> interface.
 

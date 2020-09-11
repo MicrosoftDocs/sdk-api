@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 4cc7bd86-e098-4de7-a73a-b878cba37e88
 ms.date: 12/05/2018
 ms.keywords: 4cc7bd86-e098-4de7-a73a-b878cba37e88, Ascender property [Tablet PC], Ascender property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Ascender property, IInkRecognitionAlternate.Ascender, IInkRecognitionAlternate.get_Ascender, IInkRecognitionAlternate::Ascender, IInkRecognitionAlternate::get_Ascender, get_Ascender, msinkaut/IInkRecognitionAlternate::Ascender, msinkaut/IInkRecognitionAlternate::get_Ascender, tablet.iinkrecognitionalternate_ascender
-f1_keywords:
-- msinkaut/IInkRecognitionAlternate.Ascender
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognitionAlternate.Ascender
-- IInkRecognitionAlternate.get_Ascender
-- IInkRecognitionAlternate.get_Ascender
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognitionAlternate::get_Ascender
+ - msinkaut/IInkRecognitionAlternate::get_Ascender
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognitionAlternate.Ascender
+ - IInkRecognitionAlternate.get_Ascender
+ - IInkRecognitionAlternate.get_Ascender
 ---
 
 # IInkRecognitionAlternate::get_Ascender
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets the ascender line for a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object that represents a single line of text.
 
 
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 For western languages, the ascender corresponds to the portion of a lowercase letter that extends above the main body (the midline or x-height) of that letter such as the vertical line of a "b" that extends above the highest point of the circle in that letter. The ascender line is the imaginary horizontal line across the top of the ascenders.
 
@@ -75,12 +70,7 @@ For western languages, the ascender corresponds to the portion of a lowercase le
 <div class="alert"><b>Note</b>  If the recognition alternate spans more than one line, this property generates an E_FAIL error. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates</a> property to get a collection of one line recognition alternates that corresponds to a multiple line recognition alternate.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues">AlternatesWithConstantPropertyValues Method</a>
 
@@ -103,7 +93,4 @@ For western languages, the ascender corresponds to the portion of a lowercase le
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline">Midline Property [IInkRecognitionAlternate Interface]</a>
- 
-
- 
 

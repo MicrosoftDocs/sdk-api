@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: cac794c0-bea2-417e-880f-15838f718ba7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],described, xps.ixpsomthumbnailgenerator, xpsobjectmodel/IXpsOMThumbnailGenerator
-f1_keywords:
-- xpsobjectmodel/IXpsOMThumbnailGenerator
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: XpsRasterService.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XpsRasterService.dll
-api_name:
-- IXpsOMThumbnailGenerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMThumbnailGenerator
+ - xpsobjectmodel/IXpsOMThumbnailGenerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XpsRasterService.dll
+api_name:
+ - IXpsOMThumbnailGenerator
 ---
 
 # IXpsOMThumbnailGenerator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates a thumbnail image resource.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Generates a thumbnail image of a page.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To instantiate this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> as shown in the code example that follows.
 
@@ -119,16 +115,7 @@ else
 This interface requires XpsRasterService.dll. 
 If XpsRasterService.dll is not present when <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> is called to create an <b>IXpsOMThumbnailGenerator</b> instance, <b>CoCreateInstance</b> returns E_FAIL.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

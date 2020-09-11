@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 7fcd49d3-ccdb-4d55-96ea-cc925a36c366
 ms.date: 12/05/2018
 ms.keywords: DSA_NOTIFY_ALL, DSA_NOTIFY_DEL, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler interface [Active Directory],Initialize method, IDsAdminNotifyHandler.Initialize, IDsAdminNotifyHandler::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminNotifyHandler interface, ad.idsadminnotifyhandler_initialize, dsadmin/IDsAdminNotifyHandler::Initialize
-f1_keywords:
-- dsadmin/IDsAdminNotifyHandler.Initialize
-dev_langs:
-- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DSAdmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DSAdmin.dll
-api_name:
-- IDsAdminNotifyHandler.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsAdminNotifyHandler::Initialize
+ - dsadmin/IDsAdminNotifyHandler::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DSAdmin.dll
+api_name:
+ - IDsAdminNotifyHandler.Initialize
 ---
 
 # IDsAdminNotifyHandler::Initialize
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDsAdminNotifyHandler::Initialize</b> method is called to initialize the  notification  handler.
 
-
 ## -parameters
-
-
-
 
 ### -param pExtraInfo [in]
 
 Reserved. This parameter will be <b>NULL</b>.
-
 
 ### -param puEventFlags [out]
 
@@ -97,27 +92,15 @@ Notify the handler when a property is changed.
 
 Notify the handler in response to all events.
 
-
 ## -returns
-
-
 
 If the method succeeds, <b>S_OK</b> is returned. If the method fails,  a standard <b>HRESULT</b> value is returned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnotifyhandler">IDsAdminNotifyHandler</a>
- 
-
- 
 

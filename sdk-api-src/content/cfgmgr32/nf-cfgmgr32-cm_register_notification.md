@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 15847F9C-9F2A-453F-9EF8-0AF63CFF93C9
 ms.date: 12/05/2018
 ms.keywords: CM_Register_Notification, CM_Register_Notification function [Device and Driver Installation], cfgmgr32/CM_Register_Notification, devinst.cm_register_notification
-f1_keywords:
-- cfgmgr32/CM_Register_Notification
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CfgMgr32.dll
-- API-MS-Win-devices-config-l1-1-0.dll
-- API-MS-Win-devices-config-l1-1-1.dll
-api_name:
-- CM_Register_Notification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Register_Notification
+ - cfgmgr32/CM_Register_Notification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CfgMgr32.dll
+ - API-MS-Win-devices-config-l1-1-0.dll
+ - API-MS-Win-devices-config-l1-1-1.dll
+api_name:
+ - CM_Register_Notification
 ---
 
 # CM_Register_Notification function
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> instead of <b>CM_Register_Notification</b> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a> instead.
 
 The <b>CM_Register_Notification</b> function registers an application callback routine to be called when a PnP event of the specified type occurs.
 
-
 ## -parameters
-
-
-
 
 ### -param pFilter [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cm_notify_filter">CM_NOTIFY_FILTER</a> structure.
 
-
 ### -param pContext [in, optional]
 
 Pointer to a caller-allocated buffer containing the context to be passed to the callback routine in <i>pCallback</i>.
-
 
 ### -param pCallback [in]
 
@@ -100,24 +94,15 @@ The callback should examine <b>EventData-&gt;u.DeviceHandle</b>.
 
 The callback should examine <b>EventData-&gt;u.DeviceInstance</b>.
 
-
 ### -param pNotifyContext [out]
 
 Pointer to receive the HCMNOTIFICATION handle that corresponds to the registration call.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 Be sure to handle Plug and Play device events as quickly as possible.  If your event handler performs any operation that may block execution (such as I/O), it is best to start another thread to perform the operation asynchronously.
 
@@ -150,12 +135,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-cm_notify_action">CM_NOTIFY_ACTION</a>
 
@@ -178,7 +158,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>
- 
-
- 
 

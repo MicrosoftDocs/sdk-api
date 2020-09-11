@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 7666A28B-42B2-473F-852F-BD3F6CAA6AC7
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity class, TraceLoggingThreadActivity class,described, tracelogging.traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity
-f1_keywords:
-- traceloggingactivity/TraceLoggingThreadActivity
-dev_langs:
-- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- traceloggingactivity.h
-api_name:
-- TraceLoggingThreadActivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingThreadActivity
+ - traceloggingactivity/TraceLoggingThreadActivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - traceloggingactivity.h
+api_name:
+ - TraceLoggingThreadActivity
 ---
 
 # TraceLoggingThreadActivity class
 
 
 ## -description
-
 
 Provides support for logging ETW events during an activity. Events will be automatically tagged with or nested in this activity.
 
@@ -155,8 +155,7 @@ Contains the value of the level that will be used in the activity’s start and 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -members
 
@@ -243,12 +242,7 @@ The value of the keyword that will be used in the activity’s start and stop ev
 
 Contains the value of the level that will be used in the activity’s start and stop events.
 
- 
-
-
 ## -remarks
-
-
 
 This class works by setting a per-thread variable. Only events occurring on the active thread will be automatically tagged.
 
@@ -266,18 +260,8 @@ Any active threads will be automatically nested in this instance when you start 
 </div>
 <div> </div>
 This class is not available for store applications.
-         
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity Class</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 1ca67e7e-a2a7-433f-b2b6-8fa5ecc50354
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, IsDBCSLeadByteEx, IsDBCSLeadByteEx function [Internationalization for Windows Applications], _win32_IsDBCSLeadByteEx, intl.isdbcsleadbyteex, winnls/IsDBCSLeadByteEx
-f1_keywords:
-- winnls/IsDBCSLeadByteEx
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- IsDBCSLeadByteEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsDBCSLeadByteEx
+ - winnls/IsDBCSLeadByteEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - IsDBCSLeadByteEx
 ---
 
 # IsDBCSLeadByteEx function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if a specified character is potentially a lead byte. A lead byte is the first byte of a two-byte character in a <a href="https://docs.microsoft.com/windows/desktop/Intl/double-byte-character-sets">double-byte character set</a> (DBCS) for the code page.
 
-
 ## -parameters
-
-
-
 
 ### -param CodePage [in]
 
@@ -114,26 +110,16 @@ Use the Windows ANSI code page for the current thread.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param TestChar [in]
 
 The character to test.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if the byte is a lead byte. The function returns 0 if the byte is not a lead byte or if the character is a single-byte character. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>   This function does not validate the presence or validity of a trail byte. Therefore, <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> might not recognize a sequence that the application using <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isdbcsleadbyte">IsDBCSLeadByte</a> reports as a lead byte. The application can easily become unsynchronized with the results of <b>MultiByteToWideChar</b>, potentially leading to unexpected errors or buffer size mismatches.</div>
 <div> </div>
@@ -143,13 +129,7 @@ Lead byte values are specific to each distinct DBCS. Some byte values can appear
 
 To make sense of a DBCS string, an application normally starts at the beginning of the string and scans forward, keeping track when it encounters a lead byte, and treating the next byte as the trailing part of the same character. To back up, the application should use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charprevexa">CharPrevExA</a> instead of attempting to develop its own algorithm.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
@@ -164,7 +144,4 @@ To make sense of a DBCS string, an application normally starts at the beginning 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
- 
-
- 
 

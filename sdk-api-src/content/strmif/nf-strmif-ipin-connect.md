@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1b02ee67-5dc5-44c1-bea5-2eab46ebd0f6
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IPin interface, IPin interface [DirectShow],Connect method, IPin.Connect, IPin::Connect, IPinConnect, dshow.ipin_connect, strmif/IPin::Connect
-f1_keywords:
-- strmif/IPin.Connect
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPin.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPin::Connect
+ - strmif/IPin::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPin.Connect
 ---
 
 # IPin::Connect
@@ -50,33 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Connect</code> method connects the pin to another pin.
 
 
 
 Applications should not call this method. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> methods instead. This method is called by the Filter Graph Manager to connect pins.
 
-
 ## -parameters
-
-
-
 
 ### -param pReceivePin [in]
 
 Pointer to the receiving pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface.
 
-
 ### -param pmt [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection. Can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -152,26 +143,14 @@ The specified media type is not acceptable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pmt</i> parameter can be <b>NULL</b>. It can also specify a partial media type, with a value of GUID_NULL for the major type, subtype, or format.
 
 This method verifies that the connection is possible. If the pin rejects the connection, the method fails. The connecting pin proposes media types by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-receiveconnection">IPin::ReceiveConnection</a> on the receiving pin.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
@@ -182,7 +161,4 @@ This method verifies that the connection is possible. If the pin rejects the con
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
- 
-
- 
 

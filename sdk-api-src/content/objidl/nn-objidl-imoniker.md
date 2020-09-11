@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 17f4c1df-7a9c-42ef-a888-70cd8d85f070
 ms.date: 12/05/2018
 ms.keywords: IMoniker, IMoniker interface [COM], IMoniker interface [COM],described, _com_imoniker, com.imoniker, objidl/IMoniker
-f1_keywords:
-- objidl/IMoniker
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker
+ - objidl/IMoniker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker
 ---
 
 # IMoniker interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables you to use a moniker object, which contains information that uniquely identifies a COM object. An object that has a pointer to the moniker object's <b>IMoniker</b> interface can locate, activate, and get access to the identified object without having any other specific information on where the object is actually located in a distributed system.
 
-Monikers are used as the basis for linking in COM. A linked object contains a moniker that identifies its source. When the user activates the linked object to edit it, the moniker is bound; this loads the link source into memory. 
-
+Monikers are used as the basis for linking in COM. A linked object contains a moniker that identifies its source. When the user activates the linked object to edit it, the moniker is bound; this loads the link source into memory.
 
 ## -inheritance
 
@@ -206,12 +205,9 @@ Creates a relative moniker between this moniker and the specified moniker.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Like a path to a file in a file system, a moniker contains information that allows a COM object to be located and activated. Monikers can identify any type of COM object, from a document object stored in a file to a selection within an embedded object. COM provides a set of moniker classes that allow you to create moniker objects identifying the objects most commonly found in the system. For example, there might be an object representing a range of cells in a spreadsheet that is itself embedded in a text document stored in a file. In a distributed system, this object's moniker would identify the location of the object's system, the file's physical location on that system, the storage of the embedded object within that file, and, finally, the location of the range of cells within the embedded object.
 
@@ -320,16 +316,9 @@ A moniker provider (handing out monikers that identify its objects to make them 
 To use item monikers, you must use the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createitemmoniker">CreateItemMoniker</a> function to create the monikers. To allow your objects to be loaded when an item moniker is bound, the container of
 your objects must implement the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a> interface.
 
-The most common example of moniker providers are COM applications that support linking. If your COM application supports linking to objects smaller than a file-based documents, you need to use item monikers. For a server application that allows linking to a selection within a document, you use the item monikers to identify those objects. For a container application that allows linking to embedded objects, you use the item monikers to identify the embedded objects. 
-
-
-
-
+The most common example of moniker providers are COM applications that support linking. If your COM application supports linking to objects smaller than a file-based documents, you need to use item monikers. For a server application that allows linking to a selection within a document, you use the item monikers to identify those objects. For a container application that allows linking to embedded objects, you use the item monikers to identify the embedded objects.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a>
 
@@ -360,7 +349,4 @@ The most common example of moniker providers are COM applications that support l
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/monikers">Monikers</a>
- 
-
- 
 

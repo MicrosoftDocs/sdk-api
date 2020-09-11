@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: b240acbd-2c0e-4e2c-a334-a86440627e72
 ms.date: 12/05/2018
 ms.keywords: WsRemoveHeader, WsRemoveHeader function [Web Services for Windows], webservices/WsRemoveHeader, wsw.wsremoveheader
-f1_keywords:
-- webservices/WsRemoveHeader
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsRemoveHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsRemoveHeader
+ - webservices/WsRemoveHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsRemoveHeader
 ---
 
 # WsRemoveHeader function
 
 
 ## -description
-
 
 Removes the standard <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> object from a message.
                 
@@ -58,32 +58,22 @@ Removes the standard <a href="https://docs.microsoft.com/windows/desktop/api/web
 
 For application-defined header types use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovecustomheader">WsRemoveCustomHeader</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param message [in]
 
 A pointer to the <b>Message</b> object with the header  to be removed.  
                     The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b>.
 
-
 ### -param headerType [in]
 
 Indicates the type of header to be removed.
 
-
 ### -param error [in, optional]
 
 A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -126,17 +116,9 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If a header of the given type exists in the message it is removed.  If the header does not exist, no action is taken
                 and the function completes successfully.
-
-
 

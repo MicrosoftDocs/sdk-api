@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: e95afd9c-5793-4cb7-bcb8-aae4d28b6532
 ms.date: 12/05/2018
 ms.keywords: D2D1_PIXEL_FORMAT, D2D1_PIXEL_FORMAT structure [Direct2D], dcommon/D2D1_PIXEL_FORMAT, direct2d.D2D1_PIXEL_FORMAT
-f1_keywords:
-- dcommon/D2D1_PIXEL_FORMAT
-dev_langs:
-- c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dcommon.h
-api_name:
-- D2D1_PIXEL_FORMAT
 targetos: Windows
 req.typenames: D2D1_PIXEL_FORMAT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_PIXEL_FORMAT
+ - dcommon/D2D1_PIXEL_FORMAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dcommon.h
+api_name:
+ - D2D1_PIXEL_FORMAT
 ---
 
 # D2D1_PIXEL_FORMAT structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the data format and alpha mode for a bitmap or render target. 
-
+Contains the data format and alpha mode for a bitmap or render target.
 
 ## -struct-fields
-
-
-
 
 ### -field format
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-d
 
 A value that specifies the size and arrangement of channels in each pixel.
 
-
 ### -field alphaMode
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE</a></b>
 
-A value that specifies whether the alpha channel is using pre-multiplied alpha, straight alpha, whether it should be ignored and considered opaque, or whether it is unkown.  
-
+A value that specifies whether the alpha channel is using pre-multiplied alpha, straight alpha, whether it should be ignored and considered opaque, or whether it is unkown.
 
 ## -remarks
-
-
 
 For more information about the pixel formats and alpha modes supported by each render target, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>.
 
@@ -113,14 +105,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-pixelformat">D2D1::PixelFormat</a>
 
@@ -131,7 +116,4 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
- 
-
- 
 

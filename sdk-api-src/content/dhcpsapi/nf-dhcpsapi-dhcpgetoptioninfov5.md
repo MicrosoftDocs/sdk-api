@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: bf7b744d-da02-4c2f-b29a-e2b9b3fe3881
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV5, DhcpGetOptionInfoV5 function [DHCP], dhcp.dhcpgetoptioninfov5, dhcpsapi/DhcpGetOptionInfoV5
-f1_keywords:
-- dhcpsapi/DhcpGetOptionInfoV5
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetOptionInfoV5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetOptionInfoV5
+ - dhcpsapi/DhcpGetOptionInfoV5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetOptionInfoV5
 ---
 
 # DhcpGetOptionInfoV5 function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpGetOptionInfoV5</b> function returns information on a specific DHCP option.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
-
 
 ### -param Flags [in]
 
@@ -95,24 +90,18 @@ The option value is retrieved for a specific vendor class. The vendor name is su
 </td>
 </tr>
 </table>
- 
-
 
 ### -param OptionID [in]
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for the option to retrieve information on.
-
 
 ### -param ClassName [in]
 
 Unicode string that specifies the DHCP  class name of the option. This parameter is optional.
 
-
 ### -param VendorName [in]
 
 Unicode string that specifies the vendor of the option. This parameter is optional, and must be null when <i>Flags</i> is not set to DHCP_FLAGS_OPTION_IS_VENDOR. If it is not set, then the option definition for the default vendor class is returned.
-
 
 ### -param OptionInfo [out]
 
@@ -124,8 +113,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns
 <div> </div>
 
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -190,22 +177,12 @@ The specified DHCP client is not a reserved client. o
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetoptioninfov5">DhcpSetOptionInfoV5</a>
- 
-
- 
 

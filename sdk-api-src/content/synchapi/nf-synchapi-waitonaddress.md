@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: d40de436-f71e-47f6-a8c3-549c2699eb4c
 ms.date: 12/05/2018
 ms.keywords: WaitOnAddress, WaitOnAddress function, base.waitonaddress, synchapi/WaitOnAddress
-f1_keywords:
-- synchapi/WaitOnAddress
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Synchronization.lib
 req.dll: API-MS-Win-Core-Synch-l1-2-0.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- MinKernelBase.dll
-api_name:
-- WaitOnAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WaitOnAddress
+ - synchapi/WaitOnAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - MinKernelBase.dll
+api_name:
+ - WaitOnAddress
 ---
 
 # WaitOnAddress function
@@ -53,47 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits for the value at the specified address to change.
 
-
 ## -parameters
-
-
-
 
 ### -param Address [in]
 
 The address on which to wait. If the value at <i>Address</i> differs from the value at <i>CompareAddress</i>, the function returns immediately. If the values are the same, the function does not return until another thread in the same process signals that the value at Address has changed by calling <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddressall">WakeByAddressAll</a> or the timeout elapses, whichever comes first.
 
-
 ### -param CompareAddress [in]
 
 A pointer to the location of the previously observed value at <i>Address</i>. The function returns when the value at <i>Address</i> differs from the value at <i>CompareAddress</i>.
 
-
 ### -param AddressSize [in]
 
-The size of the value, in bytes. This parameter can be 1, 2, 4, or 8. 
-
+The size of the value, in bytes. This parameter can be 1, 2, 4, or 8.
 
 ### -param dwMilliseconds [in, optional]
 
 The number of milliseconds to wait before the operation times out. If this parameter is <b>INFINITE</b>, the thread waits indefinitely.
 
-
 ## -returns
-
-
 
 TRUE if the wait succeeded. If the operation fails, the function returns FALSE. If the wait fails, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain extended error information. In particular, if the operation times out, <b>GetLastError</b>  returns <b>ERROR_TIMEOUT</b>.
 
-
-
-
 ## -remarks
-
-
 
 Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://msdn.microsoft.com/en-US/windows/desktop/hh852363">Windows Software Development Kit (SDK) for Windows 8</a>.
 
@@ -125,15 +110,11 @@ while (CapturedValue == UndesiredValue) {
 }
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddressall">WakeByAddressAll</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a>
+

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: fa60e832-1148-4ffb-bf70-bd7b27180cdd
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], IVdsHwProviderPrivateMpio interface [VDS],described, base.ivdshwproviderprivatempio, vdshwprv/IVdsHwProviderPrivateMpio
-f1_keywords:
-- vdshwprv/IVdsHwProviderPrivateMpio
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsHwProviderPrivateMpio
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsHwProviderPrivateMpio
+ - vdshwprv/IVdsHwProviderPrivateMpio
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsHwProviderPrivateMpio
 ---
 
 # IVdsHwProviderPrivateMpio interface
@@ -50,12 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method that sets the status of paths originating from a particular HBA port to the provider.
-  
-
 
 ## -inheritance
 
@@ -79,13 +77,9 @@ The <b>IVdsHwProviderPrivateMpio</b> interface has these methods.
 <td align="left" width="63%">
 Sets the statuses of paths originating from a particular HBA port to a specified status.</p> (Inherited from <b>IVdsHwProviderPrivateMpio</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontroller">IVdsController</a>
 
@@ -96,7 +90,4 @@ Sets the statuses of paths originating from a particular HBA port to a specified
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

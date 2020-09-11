@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 72ea90ce-3493-49bf-beaa-833217495e47
 ms.date: 12/05/2018
 ms.keywords: NPFMXEditPerm, NPFMXEditPerm function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxeditperm, npapi/NPFMXEditPerm, security.npfmxeditperm
-f1_keywords:
-- npapi/NPFMXEditPerm
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPFMXEditPerm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPFMXEditPerm
+ - npapi/NPFMXEditPerm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPFMXEditPerm
 ---
 
 # NPFMXEditPerm function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables network vendors to supply their own permission editor dialog boxes.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDriveName [in]
 
 Pointer to the current drive name selected in File Manager.
 
-
 ### -param hwndFMX [in]
 
 A handle to the FMX window which can be used to query selections.
-
 
 ### -param nDialogType [in]
 
@@ -108,12 +102,8 @@ Brings up the <b>Owner</b> dialog box.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function should return WN_SUCCESS.
 					
@@ -172,7 +162,4 @@ Some other network error occurred.
 </td>
 </tr>
 </table>
- 
-
-
 

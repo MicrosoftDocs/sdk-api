@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopy.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbCopy, StringCbCopy function [Menus and Other Resources], StringCbCopyA, StringCbCopyW, _shell_StringCbCopy, _shell_stringcbcopy_cpp, menurc.stringcbcopy, strsafe/StringCbCopy, strsafe/StringCbCopyA, strsafe/StringCbCopyW, winui._shell_stringcbcopy
-f1_keywords:
-- strsafe/StringCbCopy
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCbCopy
-- StringCbCopyA
-- StringCbCopyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCbCopyW
+ - strsafe/StringCbCopyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCbCopy
+ - StringCbCopyA
+ - StringCbCopyW
 ---
 
 # StringCbCopyW function
 
 
 ## -description
-
 
 Copies one string to another. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
@@ -67,15 +67,11 @@ Copies one string to another. The size of the destination buffer is provided to 
 
 ## -parameters
 
-
-
-
 ### -param pszDest [out]
 
 Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the copied string.
-
 
 ### -param cbDest [in]
 
@@ -83,17 +79,13 @@ Type: <b>size_t</b>
 
 The size of the destination buffer, in bytes. This value must consider the length of <i>pszSrc</i> plus the terminating null character. The maximum number of bytes allowed is <code>STRSAFE_MAX_CCH * sizeof(TCHAR)</code>.
 
-
 ### -param pszSrc [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a buffer containing the source string. This source string must be null-terminated.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -142,12 +134,7 @@ The copy operation failed due to insufficient buffer space. The destination buff
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 Compared to  the functions it replaces, <b>StringCbCopy</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopy</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
@@ -190,9 +177,6 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 ## -see-also
 
-
-
-
 <b>Reference</b>
 
 
@@ -202,7 +186,4 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
- 
-
- 
 

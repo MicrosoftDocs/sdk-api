@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1f956d61-6a09-464e-bfe8-0b3bcb9ea181
 ms.date: 12/05/2018
 ms.keywords: IAutoCompleteDropDown, IAutoCompleteDropDown interface [Windows Shell], IAutoCompleteDropDown interface [Windows Shell],described, _shell_IAutoCompleteDropDown, shell.IAutoCompleteDropDown, shobjidl/IAutoCompleteDropDown
-f1_keywords:
-- shobjidl/IAutoCompleteDropDown
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Browseui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Browseui.dll
-api_name:
-- IAutoCompleteDropDown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutoCompleteDropDown
+ - shobjidl/IAutoCompleteDropDown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Browseui.dll
+api_name:
+ - IAutoCompleteDropDown
 ---
 
 # IAutoCompleteDropDown interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow clients to reset or query the display state of the autocomplete drop-down list, which contains possible completions to a string entered by the user in an edit control.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Forces the autocomplete object to refresh its list of suggestions when the list 
 
 </td>
 </tr>
-</table> 
+</table>
 

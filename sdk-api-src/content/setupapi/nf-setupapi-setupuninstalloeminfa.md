@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 70cec8c7-7954-44d7-93f5-711368f72bf7
 ms.date: 12/05/2018
 ms.keywords: SUOI_FORCEDELETE, SetupUninstallOEMInf, SetupUninstallOEMInf function [Setup API], SetupUninstallOEMInfA, SetupUninstallOEMInfW, _setupapi_setupuninstalloeminf, setup.setupuninstalloeminf, setupapi/SetupUninstallOEMInf, setupapi/SetupUninstallOEMInfA, setupapi/SetupUninstallOEMInfW
-f1_keywords:
-- setupapi/SetupUninstallOEMInf
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupUninstallOEMInf
-- SetupUninstallOEMInfA
-- SetupUninstallOEMInfW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupUninstallOEMInfA
+ - setupapi/SetupUninstallOEMInfA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupUninstallOEMInf
+ - SetupUninstallOEMInfA
+ - SetupUninstallOEMInfW
 ---
 
 # SetupUninstallOEMInfA function
@@ -52,22 +53,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupUninstallOEMInf</b> function uninstalls a specified .inf file and any associated .pnf file. If the .inf file was installed with a catalog for signing drivers, the catalog is also removed. A caller of this function must have administrative privileges, otherwise the function fails.
 
-
 ## -parameters
-
-
-
 
 ### -param InfFileName [in]
 
 File name, without path, of the .inf file in the Windows Inf directory that is to be uninstalled.
-
 
 ### -param Flags [in]
 
@@ -98,27 +93,16 @@ If this flag is set, the .inf file is removed whether  the function finds a devi
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved [in]
 
 Set to <b>null</b>.
 
-
 ## -returns
-
-
 
 This function returns WINSETUPAPI BOOL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -129,9 +113,6 @@ This function returns WINSETUPAPI BOOL.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcopyoeminfa">SetupCopyOEMInf</a>
- 
-
- 
 
 ## -remarks
 

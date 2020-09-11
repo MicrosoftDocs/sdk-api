@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b
 ms.date: 12/05/2018
 ms.keywords: HEAP_CREATE_ENABLE_EXECUTE, HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HeapCreate, HeapCreate function, _win32_heapcreate, base.heapcreate, heapapi/HeapCreate, winbase/HeapCreate
-f1_keywords:
-- heapapi/HeapCreate
-dev_langs:
-- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-heap-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-heap-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- HeapCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HeapCreate
+ - heapapi/HeapCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - HeapCreate
 ---
 
 # HeapCreate function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a private heap object that can be used by the calling process. The function reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
 
-
 ## -parameters
-
-
-
 
 ### -param flOptions [in]
 
@@ -114,8 +110,6 @@ For more information about serialized access, see the  Remarks section of this t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwInitialSize [in]
 
@@ -123,7 +117,6 @@ The initial size of the heap, in bytes. This value determines the initial amount
 
 If this parameter is 0, the function commits one page. To determine the size of a page on the host computer, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
-
 
 ### -param dwMaximumSize [in]
 
@@ -140,22 +133,14 @@ If <i>dwMaximumSize</i> is not zero, the heap size is fixed and cannot grow beyo
 If <i>dwMaximumSize</i> is 0, the heap can grow in size. The heap's size is limited only by the available memory. Requests to allocate memory blocks larger than the limit for a fixed-size heap do not automatically fail; instead, the system calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function to obtain the memory that is needed for large blocks. Applications that need to allocate large memory blocks should set <i>dwMaximumSize</i> to 0.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the newly created heap.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>HeapCreate</b> function creates a private heap object from which the calling process can allocate memory blocks by using the 
@@ -192,12 +177,7 @@ To obtain a handle to the default heap for a process, use the <a href="https://d
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
@@ -217,7 +197,4 @@ To obtain a handle to the default heap for a process, use the <a href="https://d
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
- 
-
- 
 

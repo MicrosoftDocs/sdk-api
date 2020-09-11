@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SubmitSourceBuffer(const XAUDIO2_BUFFER,const XAUDIO2_BUFFER_WMA)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SubmitSourceBuffer method, IXAudio2SourceVoice.SubmitSourceBuffer, IXAudio2SourceVoice::SubmitSourceBuffer, SubmitSourceBuffer, SubmitSourceBuffer method [XAudio2 Audio Mixing APIs], SubmitSourceBuffer method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_submitsourcebuffer, xaudio2/IXAudio2SourceVoice::SubmitSourceBuffer
-f1_keywords:
-- xaudio2/IXAudio2SourceVoice.SubmitSourceBuffer
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.h
-api_name:
-- IXAudio2SourceVoice.SubmitSourceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2SourceVoice::SubmitSourceBuffer
+ - xaudio2/IXAudio2SourceVoice::SubmitSourceBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.h
+api_name:
+ - IXAudio2SourceVoice.SubmitSourceBuffer
 ---
 
 # IXAudio2SourceVoice::SubmitSourceBuffer
@@ -49,45 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a new audio buffer to the voice queue.
-
 
 ## -parameters
 
-
-
-
 ### -param pBuffer [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer">XAUDIO2_BUFFER</a> structure to queue. 
-
-
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer">XAUDIO2_BUFFER</a> structure to queue.
 
 ### -param X2DEFAULT
 
 TBD
 
-
-
-
 ### -param pBufferWMA [in]
 
-Pointer to an additional <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer_wma">XAUDIO2_BUFFER_WMA</a> structure used when submitting WMA data. 
-
+Pointer to an additional <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer_wma">XAUDIO2_BUFFER_WMA</a> structure used when submitting WMA data.
 
 ## -returns
 
-
-
 Returns S_OK if successful, an error code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes.
 
-
-
-
 ## -remarks
-
-
 
 The voice processes and plays back the buffers in its queue in the order that they were submitted.
 
@@ -148,13 +131,7 @@ Up to XAUDIO2_MAX_QUEUED_BUFFERS buffers can be queued on a voice at any one tim
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--build-a-basic-audio-processing-graph">How to: Build a Basic Audio Processing Graph</a>
 
@@ -165,7 +142,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>
- 
-
- 
 

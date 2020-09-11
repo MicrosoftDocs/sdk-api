@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: f5082b2b-d925-4f9d-bbfd-edcf4553a6fa
 ms.date: 12/05/2018
 ms.keywords: GetSupportedEvents, GetSupportedEvents method [Windows Portable Devices SDK], GetSupportedEvents method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedEvents method, IPortableDeviceCapabilities.GetSupportedEvents, IPortableDeviceCapabilities::GetSupportedEvents, IPortableDeviceCapabilitiesGetSupportedEvents, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedEvents, wpdsdk.iportabledevicecapabilities_getsupportedevents
-f1_keywords:
-- portabledeviceapi/IPortableDeviceCapabilities.GetSupportedEvents
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceCapabilities.GetSupportedEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceCapabilities::GetSupportedEvents
+ - portabledeviceapi/IPortableDeviceCapabilities::GetSupportedEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceCapabilities.GetSupportedEvents
 ---
 
 # IPortableDeviceCapabilities::GetSupportedEvents
@@ -50,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSupportedEvents</b> method retrieves the supported events for this device.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param ppEvents [out]
 
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that lists the supported events. The caller must release this interface when it is done with it.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -101,18 +92,8 @@ At least one of the arguments was a <b>NULL</b> pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
- 
-
- 
 

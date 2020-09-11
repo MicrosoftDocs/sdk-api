@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: B0921292-1EEA-4154-8AB4-B654A9B31DA6
 ms.date: 12/5/2018
 ms.keywords: RoTransformError, RoTransformError function [Windows Runtime], WinRTTransformError, roerrorapi/RoTransformError, roerrorapi/WinRTTransformError, winrt.rotransformerror, winrt.winrttransformerror
-f1_keywords:
-- roerrorapi/RoTransformError
-dev_langs:
-- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- roerrorapi.h
-- API-MS-Win-Core-WinRT-error-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-error-l1-1-1.dll
-api_name:
-- RoTransformError
-- WinRTTransformError
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - RoTransformError
+ - roerrorapi/RoTransformError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - roerrorapi.h
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+ - RoTransformError
+ - WinRTTransformError
 ---
 
 # RoTransformError function
@@ -52,14 +53,9 @@ req.redist:
 
 ## -description
 
-
 Reports a modified error and an informative string to an attached debugger.
 
-
 ## -parameters
-
-
-
 
 ### -param oldError [in]
 
@@ -67,13 +63,11 @@ Type: <b>HRESULT</b>
 
 The original error code associated with the error condition.
 
-
 ### -param newError [in]
 
 Type: <b>HRESULT</b>
 
 A different  error code to associate with the error condition. If <i>oldError</i> and <i>newError</i>  are the same, or both are success codes, such as <b>S_OK</b>, the function has no effect and returns <b>FALSE</b>.
-
 
 ### -param message [in]
 
@@ -87,10 +81,7 @@ If <i>message</i> is <b>NULL</b>, the function succeeds and reports the generic 
 
 Although the <i>message</i> string is an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>, the <b>RoTransformError</b> function  does not support embedded null characters, so only the characters before the first null are reported.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -122,14 +113,8 @@ The  error message was reported successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the <b>RoTransformError</b> function  to substitute a custom error code for an existing error condition. For example, if the current error condition is <b>E_FAIL</b>, you can substitute a more specific error code, such as  	<b>E_FILENOTFOUND</b>, and report the transformed error to an attached debugger. 
 
@@ -137,13 +122,7 @@ The behavior of the  <b>RoTransformError</b> function is otherwise the same as t
 
  If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="/windows/win32/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
@@ -162,7 +141,4 @@ The behavior of the  <b>RoTransformError</b> function is otherwise the same as t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerrorw">RoTransformErrorW</a>
- 
-
- 
 

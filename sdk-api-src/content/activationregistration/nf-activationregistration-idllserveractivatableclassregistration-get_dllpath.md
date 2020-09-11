@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: B46BB464-C993-49A7-86C8-4945E69AA9CC
 ms.date: 12/05/2018
 ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],get_DllPath method, IDllServerActivatableClassRegistration.get_DllPath, IDllServerActivatableClassRegistration::get_DllPath, activationregistration/IDllServerActivatableClassRegistration::get_DllPath, get_DllPath, get_DllPath method [Windows Runtime], get_DllPath method [Windows Runtime],IDllServerActivatableClassRegistration interface, winrt.idllserveractivatableclassregistration_dllpath
-f1_keywords:
-- activationregistration/IDllServerActivatableClassRegistration.get_DllPath
-dev_langs:
-- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- activationregistration.h
-api_name:
-- IDllServerActivatableClassRegistration.get_DllPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDllServerActivatableClassRegistration::get_DllPath
+ - activationregistration/IDllServerActivatableClassRegistration::get_DllPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - activationregistration.h
+api_name:
+ - IDllServerActivatableClassRegistration.get_DllPath
 ---
 
 # IDllServerActivatableClassRegistration::get_DllPath
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the fully qualified path to the in-process server.
 
-
 ## -parameters
-
-
-
 
 ### -param dllPath [out, retval]
 
 The fully qualified path to the in-process server.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration">IDllServerActivatableClassRegistration</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0
 ms.date: 12/05/2018
 ms.keywords: HttpWaitForDisconnect, HttpWaitForDisconnect function [HTTP], _http_httpwaitfordisconnect, http.httpwaitfordisconnect, http/HttpWaitForDisconnect
-f1_keywords:
-- http/HttpWaitForDisconnect
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpWaitForDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpWaitForDisconnect
+ - http/HttpWaitForDisconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpWaitForDisconnect
 ---
 
 # HttpWaitForDisconnect function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpWaitForDisconnect</b> function notifies the application when the connection to an HTTP client is broken for any reason.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
@@ -66,13 +62,11 @@ A handle to the request queue that handles requests from the specified connectio
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
-
 ### -param ConnectionId [in]
 
 Identifier for the connection to the client computer. This value is returned in the <b>ConnectionID</b> member of the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure by a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> function.
-
 
 ### -param Overlapped [in]
 
@@ -86,10 +80,7 @@ A synchronous call blocks until the connection is broken, whereas an asynchronou
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For information about using 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -125,22 +116,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
- 
-
- 
 

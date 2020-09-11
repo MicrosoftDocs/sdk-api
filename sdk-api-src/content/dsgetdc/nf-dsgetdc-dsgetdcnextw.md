@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
 ms.date: 12/05/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
-f1_keywords:
-- dsgetdc/DsGetDcNext
-dev_langs:
-- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- DsGetDcNext
-- DsGetDcNextA
-- DsGetDcNextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsGetDcNextW
+ - dsgetdc/DsGetDcNextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - DsGetDcNext
+ - DsGetDcNextA
+ - DsGetDcNextW
 ---
 
 # DsGetDcNextW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsGetDcNext</b> function retrieves the next domain controller in a domain controller enumeration operation.
 
-
 ## -parameters
-
-
-
 
 ### -param GetDcContextHandle [in]
 
 Contains the domain controller enumeration context handle provided by the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> function.
 
-
 ### -param SockAddressCount [out, optional]
 
 Pointer to a <b>ULONG</b> value that receives the number of elements in the <i>SockAddresses</i> array.
         If this parameter is <b>NULL</b>, socket addresses are not retrieved.
-
 
 ### -param SockAddresses [out, optional]
 
@@ -83,25 +77,16 @@ The caller must free this memory when it is no longer required by calling <a hre
 
 This parameter is ignored if <i>SockAddressCount</i> is <b>NULL</b>.
 
-
 ### -param DnsHostName [out, optional]
 
 Pointer to a string pointer that receives the DNS name of the domain controller.
         This parameter receives <b>NULL</b> if no host name is known. The caller must free this memory when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error otherwise. Possible error values include the following.
 
-
-
-
 ## -remarks
-
-
 
 To reset the enumeration, close the current enumeration by calling <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a> and then reopen the enumeration by calling <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> again.
 
@@ -124,9 +109,6 @@ The following procedure shows how to get a complete DC list from a computer runn
 > The dsgetdc.h header defines DsGetDcNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
@@ -153,7 +135,4 @@ The following procedure shows how to get a complete DC list from a computer runn
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
- 
-
- 
 

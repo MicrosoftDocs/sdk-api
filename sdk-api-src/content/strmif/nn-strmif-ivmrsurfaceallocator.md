@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: bbcbe152-80fd-469b-a79b-c8db6f97da22
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], IVMRSurfaceAllocator interface [DirectShow],described, IVMRSurfaceAllocatorInterface, dshow.ivmrsurfaceallocator, strmif/IVMRSurfaceAllocator
-f1_keywords:
-- strmif/IVMRSurfaceAllocator
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRSurfaceAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRSurfaceAllocator
+ - strmif/IVMRSurfaceAllocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRSurfaceAllocator
 ---
 
 # IVMRSurfaceAllocator interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IVMRSurfaceAllocator</code> interface is implemented by the default allocator-presenter for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). It must also be implemented by any plug-in allocator-presenter that an application provides to the VMR-7. The VMR-7 uses the methods on this interface to allocate, prepare and free DirectDraw surfaces. Applications do not use this interface.
 
 For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocator9">IVMRSurfaceAllocator9</a> interface.
-
-
-
 
 ## -inheritance
 
@@ -110,16 +106,9 @@ Prepares the DirectDraw surface to have the next video frame decoded into it.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

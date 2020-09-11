@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 04f3daf3-2ac0-4999-9a08-1b46f1ef47c8
 ms.date: 12/05/2018
 ms.keywords: MFCC_DISABLE, MFCC_ENABLE, MFCC_VALUE_CHANGE, MMC_FILTER_CHANGE_CODE, MMC_FILTER_CHANGE_CODE enumeration [MMC], _slate_mmc_filter_change_code, mmc.mmc_filter_change_code, mmc/MFCC_DISABLE, mmc/MFCC_ENABLE, mmc/MFCC_VALUE_CHANGE, mmc/MMC_FILTER_CHANGE_CODE
-f1_keywords:
-- mmc/MMC_FILTER_CHANGE_CODE
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmc.h
-api_name:
-- MMC_FILTER_CHANGE_CODE
 targetos: Windows
 req.typenames: MMC_FILTER_CHANGE_CODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MMC_FILTER_CHANGE_CODE
+ - mmc/_MMC_FILTER_CHANGE_CODE
+ - MMC_FILTER_CHANGE_CODE
+ - mmc/MMC_FILTER_CHANGE_CODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - MMC_FILTER_CHANGE_CODE
 ---
 
 # MMC_FILTER_CHANGE_CODE enumeration
 
 
 ## -description
-
 
 The 
 <b>MMC_FILTER_CHANGE_CODE</b> enumeration is introduced in MMC 1.2.
@@ -58,39 +60,26 @@ The
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a> notification in calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MFCC_DISABLE
 
 The filter view has been turned off.
 
-
 ### -field MFCC_ENABLE
 
 The filter view has been turned on.
-
 
 ### -field MFCC_VALUE_CHANGE
 
 The filter value of a column in a result view filter list has changed. The <i>param</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method contains the column ID.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 642f8d0b-8dae-41a7-a87c-2b55d1034328
 ms.date: 12/05/2018
 ms.keywords: CAConfig property [Security], CAConfig property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CAConfig property, IOCSPCAConfiguration.CAConfig, IOCSPCAConfiguration.put_CAConfig, IOCSPCAConfiguration::CAConfig, IOCSPCAConfiguration::get_CAConfig, IOCSPCAConfiguration::put_CAConfig, certadm/IOCSPCAConfiguration::CAConfig, certadm/IOCSPCAConfiguration::get_CAConfig, certadm/IOCSPCAConfiguration::put_CAConfig, put_CAConfig, security.iocspcaconfiguration_caconfig
-f1_keywords:
-- certadm/IOCSPCAConfiguration.CAConfig
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPCAConfiguration.CAConfig
-- IOCSPCAConfiguration.get_CAConfig
-- IOCSPCAConfiguration.put_CAConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPCAConfiguration::put_CAConfig
+ - certadm/IOCSPCAConfiguration::put_CAConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPCAConfiguration.CAConfig
+ - IOCSPCAConfiguration.get_CAConfig
+ - IOCSPCAConfiguration.put_CAConfig
 ---
 
 # IOCSPCAConfiguration::put_CAConfig
 
 
 ## -description
-
 
 The <b>CAConfig</b> property gets or sets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name with which a signing certificate must be signed.
 
@@ -60,17 +60,9 @@ This property supports responses to status requests for a certificate that has b
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 69861a6d-3dc5-4871-8e99-0d46d2896dcc
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],RemoteName property, IRDPSRAPIAttendee.RemoteName, IRDPSRAPIAttendee.get_RemoteName, IRDPSRAPIAttendee::RemoteName, IRDPSRAPIAttendee::get_RemoteName, RDPSRAPIAttendee object [RDP],RemoteName property, RemoteName property [RDP], RemoteName property [RDP],IRDPSRAPIAttendee interface, RemoteName property [RDP],RDPSRAPIAttendee object, get_RemoteName, rdp.irdpsrapiattendee_remotename, rdpencomapi/IRDPSRAPIAttendee::RemoteName, rdpencomapi/IRDPSRAPIAttendee::get_RemoteName
-f1_keywords:
-- rdpencomapi/IRDPSRAPIAttendee.RemoteName
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIAttendee.RemoteName
-- IRDPSRAPIAttendee.get_RemoteName
-- RDPSRAPIAttendee.RemoteName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIAttendee::get_RemoteName
+ - rdpencomapi/IRDPSRAPIAttendee::get_RemoteName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIAttendee.RemoteName
+ - IRDPSRAPIAttendee.get_RemoteName
+ - RDPSRAPIAttendee.RemoteName
 ---
 
 # IRDPSRAPIAttendee::get_RemoteName
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The name of the remote client. This is usually the attendee's friendly name.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
- 
-
- 
 

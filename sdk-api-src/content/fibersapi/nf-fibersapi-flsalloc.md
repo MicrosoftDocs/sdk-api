@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59
 ms.date: 12/05/2018
 ms.keywords: FlsAlloc, FlsAlloc function, _win32_flsalloc, base.flsalloc, fibersapi/FlsAlloc, winbase/FlsAlloc
-f1_keywords:
-- fibersapi/FlsAlloc
-dev_langs:
-- c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-fibers-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-fibers-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- FlsAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FlsAlloc
+ - fibersapi/FlsAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-fibers-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-fibers-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - FlsAlloc
 ---
 
 # FlsAlloc function
@@ -54,36 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates a fiber local storage (FLS) index. Any fiber in the process can subsequently use this index to store and retrieve values that are local to the fiber.
 
-
 ## -parameters
-
-
-
 
 ### -param lpCallback [in]
 
 A pointer to the application-defined callback function of type <b>PFLS_CALLBACK_FUNCTION</b>. This parameter is optional. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pfls_callback_function">FlsCallback</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is an FLS index initialized to zero.
 
 If the function fails, the return value is FLS_OUT_OF_INDEXES. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The fibers of the process can use the FLS index in subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsfree">FlsFree</a>, 
@@ -96,13 +84,7 @@ FLS indexes are typically allocated during process or dynamic-link library (DLL)
 
 FLS indexes are not valid across process boundaries. A DLL cannot assume that an index assigned in one process is valid in another process.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
 
@@ -125,7 +107,4 @@ FLS indexes are not valid across process boundaries. A DLL cannot assume that an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
- 
-
- 
 

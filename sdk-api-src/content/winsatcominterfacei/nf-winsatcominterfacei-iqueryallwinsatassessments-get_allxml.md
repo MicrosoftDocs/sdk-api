@@ -8,10 +8,6 @@ tech.root: WinSAT
 ms.assetid: a43aee18-642f-44d9-a116-ffc762cec80a
 ms.date: 12/05/2018
 ms.keywords: AllXML property [WinSAT], AllXML property [WinSAT],IQueryAllWinSATAssessments interface, IQueryAllWinSATAssessments interface [WinSAT],AllXML property, IQueryAllWinSATAssessments.AllXML, IQueryAllWinSATAssessments.get_AllXML, IQueryAllWinSATAssessments::AllXML, IQueryAllWinSATAssessments::get_AllXML, get_AllXML, winsat.iqueryallwinsatassessments_allxml, winsatcominterfacei/IQueryAllWinSATAssessments::AllXML, winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML
-f1_keywords:
-- winsatcominterfacei/IQueryAllWinSATAssessments.AllXML
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IQueryAllWinSATAssessments.AllXML
-- IQueryAllWinSATAssessments.get_AllXML
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueryAllWinSATAssessments::get_AllXML
+ - winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IQueryAllWinSATAssessments.AllXML
+ - IQueryAllWinSATAssessments.get_AllXML
 ---
 
 # IQueryAllWinSATAssessments::get_AllXML
@@ -50,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IQueryAllWinSATAssessments::AllXML may be altered or unavailable for releases after Windows 8.1.]
 
 Retrieves data from the formal XML assessment documents using the specified XPath. The query is run against all formal assessments in the WinSAT data store.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You can use this method to retrieve details of the assessment that are not available in the summary information provided through the API. For details about all the information available in an assessment, see the <a href="https://docs.microsoft.com/windows/desktop/WinSAT/winsat-schema">WinSAT Schema</a>.
 
@@ -188,14 +184,7 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
@@ -206,7 +195,4 @@ cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml">IQueryRecentWinSATAssessment::XML</a>
- 
-
- 
 

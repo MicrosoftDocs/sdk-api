@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 45c09a02-7da8-460a-9a64-f012c2181b94
 ms.date: 12/05/2018
 ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], IMPEG2PIDMap interface [DirectShow],described, IMPEG2PIDMapInterface, bdaiface/IMPEG2PIDMap, dshow.impeg2pidmap
-f1_keywords:
-- bdaiface/IMPEG2PIDMap
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMPEG2PIDMap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMPEG2PIDMap
+ - bdaiface/IMPEG2PIDMap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMPEG2PIDMap
 ---
 
 # IMPEG2PIDMap interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This interface is implemented on each output pin of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter (Demux) and is used in transport stream mode only. It is called by applications or other filters to associate the pin with one or more Packet IDs (PID). Once a PID has been mapped, the Demux will deliver all packets with that ID to the output pin. This interface is not exposed when the filter is playing back a file (pull-mode).
 
 For program streams, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-impeg2streamidmap">IMPEG2StreamIdMap</a> interface.
 
 <b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
-
-
-
 
 ## -inheritance
 
@@ -103,16 +99,9 @@ Unmaps the PID mapping created in a previous call to <a href="https://docs.micro
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

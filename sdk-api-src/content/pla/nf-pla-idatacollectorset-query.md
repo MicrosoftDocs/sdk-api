@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: ac07169e-710c-4267-ae08-ed18a15d866d
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Query method, IDataCollectorSet.Query, IDataCollectorSet::Query, Query, Query method [PLA], Query method [PLA],IDataCollectorSet interface, base.idatacollectorset_query, pla.idatacollectorset_query, pla/IDataCollectorSet::Query
-f1_keywords:
-- pla/IDataCollectorSet.Query
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.Query
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::Query
+ - pla/IDataCollectorSet::Query
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.Query
 ---
 
 # IDataCollectorSet::Query
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified data collector set.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 The name of the data collector set to retrieve. The name is case-insensitive and is of the form <b>[</b><i>Namespace</i><b>\]</b><i>Name</i>. For details on the optional namespace, see Remarks.
 
-
 ### -param server [in]
 
 The computer on which the set exists. You can specify a computer name, a fully qualified domain name, or an IP address (IPv4 or IPv6 format). If <b>NULL</b>, the set is retrieved from the local computer.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful. The following table shows possible error values.
 
@@ -126,14 +118,8 @@ Unable to find the remote computer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The contents of the retrieved data collector set overwrites the contents of this instance. The instance must be empty (newly created) or be from the same namespace.
 
@@ -203,13 +189,7 @@ Note that the Service namespace can be used in place of the Legacy namespace on 
 
 To query all committed sets on a computer, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-getdatacollectorsets">IDataCollectorSetCollection::GetDataCollectorSets</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
@@ -220,7 +200,4 @@ To query all committed sets on a computer, call the <a href="https://docs.micros
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-delete">IDataCollectorSet::Delete</a>
- 
-
- 
 

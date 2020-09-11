@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 38339881-30d2-4f55-9fee-81916ab15135
 ms.date: 12/05/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindNLSStringEx, FindNLSStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, _win32_FindNLSStringEx, intl.findnlsstringex, winnls/FindNLSStringEx
-f1_keywords:
-- winnls/FindNLSStringEx
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- FindNLSStringEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindNLSStringEx
+ - winnls/FindNLSStringEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - FindNLSStringEx
 ---
 
 # FindNLSStringEx function
@@ -56,14 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates a Unicode string (wide characters) or its equivalent in another Unicode string for a locale specified by name.
 <div class="alert"><b>Caution</b>  Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpLocaleName [in, optional]
 
@@ -223,28 +220,22 @@ Use linguistic rules for casing, instead of file system rules (default). For mor
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpStringSource [in]
 
 Pointer to the source string, in which the function searches for the string specified by <i>lpStringValue</i>.
 
-
 ### -param cchSource [in]
 
 Size, in characters excluding the terminating null character, of the string indicated by <i>lpStringSource</i>. The application cannot specify 0 or any negative number other than -1 for this parameter. The application specifies -1 if the source string is null-terminated and the function should calculate the size automatically.
-
 
 ### -param lpStringValue [in]
 
 Pointer to the search string, for which the function searches in the source string.
 
-
 ### -param cchValue [in]
 
 Size, in characters excluding the terminating null character, of the string indicated by <i>lpStringValue</i>. The application cannot specify 0 or any negative number other than -1 for this parameter. The application specifies -1 if the search string is null-terminated and the function should calculate the size automatically.
-
 
 ### -param pcchFound [out, optional]
 
@@ -263,20 +254,15 @@ Note that the value of <i>pcchFound</i> is often identical to the value provided
 
 Reserved; must be <b>NULL</b>.
 
-
 ### -param lpReserved [in, optional]
 
 Reserved; must be <b>NULL</b>.
-
 
 ### -param sortHandle [in, optional]
 
 Reserved; must be 0.
 
-
 ## -returns
-
-
 
 Returns a 0-based index into the source string indicated by <i>lpStringSource</i> if successful. In combination with the value in <i>pcchFound</i>, this index provides the exact location of the entire found string in the source string. A return value of 0 is an error-free index into the source string, and the matching string is in the source string at offset 0.
 
@@ -288,11 +274,7 @@ The function returns -1 if it does not succeed. To get extended error informatio
 <li>ERROR_SUCCESS. The action completed successfully but yielded no results.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function provides a variety of search options, including search direction, character equivalence filtering, and locale-specific filtering. Note that equivalence depends on the locale and flags specified in the call to the function. The filtering flags can alter the results of the search. For example, the potential matches increase when the function ignores case or diacritic marks when performing the search.
 
@@ -311,13 +293,7 @@ This function is one of the few NLS functions that calls <a href="https://docs.m
 
 <b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
 
@@ -344,7 +320,4 @@ This function is one of the few NLS functions that calls <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>
- 
-
- 
 

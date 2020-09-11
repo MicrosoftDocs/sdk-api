@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 2f996f62-6605-405a-9cbb-6b41905eae29
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromFileTimeVector, InitPropVariantFromFileTimeVector function [Windows Properties], properties.InitPropVariantFromFileTimeVector, propvarutil/InitPropVariantFromFileTimeVector, shell.InitPropVariantFromFileTimeVector, shell_InitPropVariantFromFileTimeVector
-f1_keywords:
-- propvarutil/InitPropVariantFromFileTimeVector
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- InitPropVariantFromFileTimeVector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitPropVariantFromFileTimeVector
+ - propvarutil/InitPropVariantFromFileTimeVector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - InitPropVariantFromFileTimeVector
 ---
 
 # InitPropVariantFromFileTimeVector function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure from a specified vector of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> values.
 
-
 ## -parameters
-
-
-
 
 ### -param prgft [in, optional]
 
@@ -64,13 +60,11 @@ Type: <b>const FILETIME*</b>
 
 Pointer to the date and time as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> vector. If this value is <b>NULL</b>, the elements pointed to by the <b>cafiletime.pElems</b> structure member is initialized with (FILETIME)0.
 
-
 ### -param cElems [in]
 
 Type: <b>ULONG</b>
 
 The number of vector elements.
-
 
 ### -param ppropvar [out]
 
@@ -78,21 +72,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-prop
 
 When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Creates a VT_VECTOR | VT_FILETIME propvariant.
 
@@ -117,14 +103,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromfiletime">InitPropVariantFromFileTime</a>
 
@@ -135,7 +114,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttofiletimevector">PropVariantToFileTimeVector</a>
- 
-
- 
 

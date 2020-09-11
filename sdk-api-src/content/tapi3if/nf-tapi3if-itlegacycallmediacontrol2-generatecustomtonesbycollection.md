@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 5115192e-68de-4779-92dc-7cf63585faae
 ms.date: 12/05/2018
 ms.keywords: GenerateCustomTonesByCollection, GenerateCustomTonesByCollection method [TAPI 2.2], GenerateCustomTonesByCollection method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateCustomTonesByCollection method, ITLegacyCallMediaControl2.GenerateCustomTonesByCollection, ITLegacyCallMediaControl2::GenerateCustomTonesByCollection, _tapi3_itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3.itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
-f1_keywords:
-- tapi3if/ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
+ - tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
 ---
 
 # ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GenerateCustomTonesByCollection</b> method generates the specified custom tone.
 
 This method is intended for Visual Basic and scripting applications. C/C++ applications should use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtones">GenerateCustomTones</a> method instead.
 
-
 ## -parameters
-
-
-
 
 ### -param pCustomToneCollection [in]
 
@@ -68,15 +64,11 @@ Pointer to an
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a> interface containing a collection of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a> interface pointers representing the tone's components. If the collection is a multifrequency tone, the various tones are played simultaneously.
 
-
 ### -param lDuration [in]
 
 The duration, in milliseconds, during which the tone should be sustained. A value of zero uses a default duration.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -130,27 +122,15 @@ The call must be in the <i>connected</i> state.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method translates to a call to the TAPI 2.<i>x</i>
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> function.
 
 When tone generation finishes, an event of type TE_GENERATEEVENT is generated.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
 
@@ -161,7 +141,4 @@ When tone generation finishes, an event of type TE_GENERATEEVENT is generated.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 63e38e74-3d46-4474-a31c-eaf724156bc6
 ms.date: 12/05/2018
 ms.keywords: WINBIO_PROPERTY_ANTI_SPOOF_POLICY, WINBIO_PROPERTY_EXTENDED_ENGINE_INFO, WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS, WINBIO_PROPERTY_EXTENDED_SENSOR_INFO, WINBIO_PROPERTY_EXTENDED_STORAGE_INFO, WINBIO_PROPERTY_SAMPLE_HINT, WinBioGetProperty, WinBioGetProperty function [Windows Biometric Framework API], secbiomet.winbiogetproperty, winbio/WinBioGetProperty
-f1_keywords:
-- winbio/WinBioGetProperty
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioGetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioGetProperty
+ - winbio/WinBioGetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioGetProperty
 ---
 
 # WinBioGetProperty function
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves  a session, unit, or template property. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>.
-
 
 ### -param PropertyType [in]
 
 A <b>WINBIO_PROPERTY_TYPE</b> value that specifies the source of the property information. Currently this must be <b>WINBIO_PROPERTY_TYPE_UNIT</b> or <b>WINBIO_PROPERTY_TYPE_ACCOUNT</b>. For more information about property types, see <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-property-type-constants">WINBIO_PROPERTY_TYPE Constants</a>.
 
 The <b>WINBIO_PROPERTY_TYPE_ACCOUNT</b> value is supported starting in Windows 10.
-
 
 ### -param PropertyId [in]
 
@@ -151,13 +145,11 @@ This value is supported starting in Windows 10.
 
 For more information about these properties, see <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-property-constants">WINBIO_PROPERTY Constants</a>.
 
-
 ### -param UnitId [in, optional]
 
 A <b>WINBIO_UNIT_ID</b> value that identifies the biometric unit. You can find a  unit identifier by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiolocatesensor">WinBioLocateSensor</a> functions.
 
 If you specify <b>WINBIO_PROPERTY_ANTI_SPOOF_POLICY</b> as the value for the <i>PropertyId</i> parameter, specify 0 for the <i>UnitId</i> parameter. If you specify any other property with the <i>PropertyId</i> parameter, you cannot specify 0 for the <i>UnitId</i> parameter.
-
 
 ### -param Identity [in, optional]
 
@@ -165,25 +157,19 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity"
 
 If you specify any other value for the <i>PropertyId</i> parameter,  the <i>Identity</i> parameter  must be <b>NULL</b>.
 
-
 ### -param SubFactor [in, optional]
 
 Reserved. This must be <b>WINBIO_SUBTYPE_NO_INFORMATION</b>.
-
 
 ### -param PropertyBuffer
 
 Address of a pointer to a buffer that receives the property value. For information about the contents of this buffer for different properties, see the descriptions of the property values for the <i>PropertyId</i> parameter.
 
-
 ### -param PropertyBufferSize [out, optional]
 
 Pointer to a variable that receives the size, in bytes, of the buffer pointed to by the <i>PropertyBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -281,14 +267,8 @@ The operation could not be completed because the specified biometric unit is cur
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To use <b>WinBioGetProperty</b> synchronously, call the function with a session handle created by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. The function blocks until the operation completes or an error is encountered. To prevent memory leaks when you use <b>WinBioGetProperty</b> synchronously, you must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the memory pointed to by the <i>PropertyBuffer</i> parameter when you are finished using the data contained in the buffer.
 
@@ -300,20 +280,11 @@ To use <b>WinBioGetProperty</b> asynchronously, call the function with a session
 </ul>
 To prevent memory leaks when you use <b>WinBioGetProperty</b> asynchronously, you must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure after you have finished using it. The <b>WINBIO_ASYNC_RESULT</b> structure and the property buffer occupy a single block of memory, so your application only needs to pass the address of the <b>WINBIO_ASYNC_RESULT</b> structure to <b>WinBioFree</b>. When you call <b>WinBioFree</b> this way, <b>WinBioFree</b> automatically releases both the <b>WINBIO_ASYNC_RESULT</b> structure and the property buffer. If you try to release the property buffer separately in this case, the application stops responding.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetproperty">WinBioSetProperty</a>
- 
-
- 
 

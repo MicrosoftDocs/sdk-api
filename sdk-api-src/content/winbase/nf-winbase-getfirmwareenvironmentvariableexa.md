@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: B093BA68-C68B-4ED6-9902-058650A191FD
 ms.date: 12/05/2018
 ms.keywords: GetFirmwareEnvironmentVariableEx, GetFirmwareEnvironmentVariableEx function, GetFirmwareEnvironmentVariableExA, GetFirmwareEnvironmentVariableExW, base.getfirmwareenvironmentvariableex, winbase/GetFirmwareEnvironmentVariableEx, winbase/GetFirmwareEnvironmentVariableExA, winbase/GetFirmwareEnvironmentVariableExW
-f1_keywords:
-- winbase/GetFirmwareEnvironmentVariableEx
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-firmware-l1-1-0.dll
-- kernel32legacy.dll
-api_name:
-- GetFirmwareEnvironmentVariableEx
-- GetFirmwareEnvironmentVariableExA
-- GetFirmwareEnvironmentVariableExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFirmwareEnvironmentVariableExA
+ - winbase/GetFirmwareEnvironmentVariableExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-firmware-l1-1-0.dll
+ - kernel32legacy.dll
+api_name:
+ - GetFirmwareEnvironmentVariableEx
+ - GetFirmwareEnvironmentVariableExA
+ - GetFirmwareEnvironmentVariableExW
 ---
 
 # GetFirmwareEnvironmentVariableExA function
@@ -53,55 +54,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of the specified firmware environment variable and its attributes.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName
 
 The name of the firmware environment variable. The pointer must not be <b>NULL</b>.
 
-
 ### -param lpGuid
 
 The GUID that represents the namespace of the firmware environment variable. The GUID must be  a string in the format  "{<i>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</i>}" where 'x' represents a hexadecimal value. The pointer must not be <b>NULL</b>.
-
 
 ### -param pBuffer
 
 A pointer to a buffer that receives the value of the specified firmware environment variable.
 
-
 ### -param nSize
 
 The size of the <i>pValue</i> buffer, in bytes.
-
 
 ### -param pdwAttribubutes
 
 Bitmask identifying UEFI variable attributes associated with the variable. See <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfirmwareenvironmentvariableexa">SetFirmwareEnvironmentVariableEx</a> for the bitmask definition.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of bytes stored in the <i>pValue</i> buffer.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include ERROR_INVALID_FUNCTION.
 
-
-
-
 ## -remarks
-
-
 
 Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>for details.
 
@@ -125,9 +109,6 @@ If you are creating a backup application, you can use this function to save all 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>
 
 
@@ -137,7 +118,4 @@ If you are creating a backup application, you can use this function to save all 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfirmwareenvironmentvariableexa">SetFirmwareEnvironmentVariableEx</a>
- 
-
- 
 

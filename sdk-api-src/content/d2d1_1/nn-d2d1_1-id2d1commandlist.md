@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 30b89f53-d20b-4070-abcd-ef95813130d1
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandList, ID2D1CommandList interface [Direct2D], ID2D1CommandList interface [Direct2D],described, d2d1_1/ID2D1CommandList, direct2d.id2d1commandlist
-f1_keywords:
-- d2d1_1/ID2D1CommandList
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1CommandList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1CommandList
+ - d2d1_1/ID2D1CommandList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1CommandList
 ---
 
 # ID2D1CommandList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a sequence of commands that can be recorded and played back.
-
 
 ## -inheritance
 
@@ -87,12 +86,9 @@ Streams the contents of the command list  to the specified command sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The command list does not include static copies of resources with the recorded set of commands. All bitmaps, effects, and geometries are stored as references to the actual resource and all the brushes are stored by value. All the resource creation and destruction happens outside of the command list. The following table  	lists resources and how they are treated inside of a command list.
 
@@ -291,13 +287,7 @@ To rasterize the bitmap at the correct DPI, at the time of playback of the comma
 
 <b>DX:</b> Direct3D cannot render directly to the command list. To render Direct3D content in this case, the application can call <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-drawbitmap">DrawBitmap</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> backed by a Direct3D surface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">Command List</a>
 
@@ -312,7 +302,4 @@ To rasterize the bitmap at the correct DPI, at the time of playback of the comma
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/printing-and-command-lists">Printing and Command Lists</a>
- 
-
- 
 

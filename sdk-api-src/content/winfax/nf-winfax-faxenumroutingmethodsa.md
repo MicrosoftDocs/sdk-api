@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_41gz.htm
 ms.date: 12/05/2018
 ms.keywords: FaxEnumRoutingMethods, FaxEnumRoutingMethods function [Fax Service], FaxEnumRoutingMethodsA, FaxEnumRoutingMethodsW, _mfax_faxenumroutingmethods, fax._mfax_faxenumroutingmethods, winfax/FaxEnumRoutingMethods, winfax/FaxEnumRoutingMethodsA, winfax/FaxEnumRoutingMethodsW
-f1_keywords:
-- winfax/FaxEnumRoutingMethods
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxEnumRoutingMethods
-- FaxEnumRoutingMethodsA
-- FaxEnumRoutingMethodsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxEnumRoutingMethodsA
+ - winfax/FaxEnumRoutingMethodsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxEnumRoutingMethods
+ - FaxEnumRoutingMethodsA
+ - FaxEnumRoutingMethodsW
 ---
 
 # FaxEnumRoutingMethodsA function
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxEnumRoutingMethods</b> function enumerates all fax routing methods for a specific fax device. The function returns information about each routing method to a fax client application.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxPortHandle [in]
 
 Type: <b>HANDLE</b>
 
 Specifies a fax port handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function.
-
 
 ### -param RoutingMethod [out]
 
@@ -78,17 +73,13 @@ Pointer to the address of a buffer to receive an array of <a href="https://docs.
 
 For information about memory allocation, see the following Remarks section. For information about fax routing methods, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">About the Fax Routing Extension API</a>.
 
-
 ### -param MethodsReturned [out]
 
 Type: <b>LPDWORD</b>
 
 Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_routing_methoda">FAX_ROUTING_METHOD</a> structures the <b>FaxEnumRoutingMethods</b> function returns in the <i>RoutingMethod</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -135,14 +126,8 @@ An error occurred during memory allocation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A fax administration application typically calls the <b>FaxEnumRoutingMethods</b> function to query the fax routing methods associated with a particular device. A call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetroutinginfoa">FaxSetRoutingInfo</a> function changes the routing information for a particular fax routing method.
 
@@ -160,9 +145,6 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 > The winfax.h header defines FaxEnumRoutingMethods as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>
 
@@ -205,7 +187,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <b>FaxSetRoutingInfo</b>
- 
-
- 
 

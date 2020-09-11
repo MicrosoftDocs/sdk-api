@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: f48b90db-5984-4ea7-826b-6fbbf3c33788
 ms.date: 12/05/2018
 ms.keywords: IGPMAsyncProgress, IGPMAsyncProgress interface [GPMC], IGPMAsyncProgress interface [GPMC],described, _win32_igpmasyncprogress, gpmc.igpmasyncprogress, gpmgmt/IGPMAsyncProgress
-f1_keywords:
-- gpmgmt/IGPMAsyncProgress
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMAsyncProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMAsyncProgress
+ - gpmgmt/IGPMAsyncProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMAsyncProgress
 ---
 
 # IGPMAsyncProgress interface
 
 
 ## -description
-
 
 The <b>IGPMAsyncProgress</b> interface can be implemented by the client and passed as an 
     input parameter to the Group Policy Management Console (GPMC) methods that can execute asynchronously. The server 
@@ -61,7 +61,6 @@ The <b>IGPMAsyncProgress</b> interface can be implemented by the client and pass
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-import">Import</a>, and 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-copyto">CopyTo</a>. This object cannot be accessed through scripting. 
     For more information, see the "Remarks" section.
-
 
 ## -inheritance
 
@@ -87,12 +86,9 @@ The server calls this method to notify the client about the status of an asynchr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Complex GPMC operations, such as backup, restore, import, and copy operations, can execute asynchronously. To 
     use this interface with asynchronous operations, follow these steps.
@@ -111,20 +107,11 @@ The server will call the <a href="https://docs.microsoft.com/previous-versions/w
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasynccancel">IGPMAsyncCancel</a> interface pointer so that the caller can cancel the 
     operation by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmasynccancel-cancel">Cancel</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasynccancel">IGPMAsyncCancel</a>
- 
-
- 
 

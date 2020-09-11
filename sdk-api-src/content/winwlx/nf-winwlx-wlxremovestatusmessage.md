@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b8e64f7b-04fc-4dbe-8670-314ff8838ba4
 ms.date: 12/05/2018
 ms.keywords: WlxRemoveStatusMessage, WlxRemoveStatusMessage function [Security], _gina_wlxremovestatusmessage, security.wlxremovestatusmessage, winwlx/WlxRemoveStatusMessage
-f1_keywords:
-- winwlx/WlxRemoveStatusMessage
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winwlx.h
-api_name:
-- WlxRemoveStatusMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlxRemoveStatusMessage
+ - winwlx/WlxRemoveStatusMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winwlx.h
+api_name:
+ - WlxRemoveStatusMessage
 ---
 
 # WlxRemoveStatusMessage function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxRemoveStatusMessage function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -57,18 +57,12 @@ The <b>WlxRemoveStatusMessage</b> function must be implemented by a replacement 
 
 ## -parameters
 
-
-
-
 ### -param pWlxContext [in]
 
 Pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -98,15 +92,8 @@ Return <b>FALSE</b> if the message was not removed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxdisplaystatusmessage">WlxDisplayStatusMessage</a>
 
@@ -117,7 +104,4 @@ Return <b>FALSE</b> if the message was not removed.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
- 
-
- 
 

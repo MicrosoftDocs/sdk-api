@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 66f4e5c6-e97b-48a5-9c71-3efb1eba12d6
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],SuffixTop method, ITextStrings.SuffixTop, ITextStrings::SuffixTop, SuffixTop, SuffixTop method [Windows Controls], SuffixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_suffixtop, tom/ITextStrings::SuffixTop
-f1_keywords:
-- tom/ITextStrings.SuffixTop
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextStrings.SuffixTop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStrings::SuffixTop
+ - tom/ITextStrings::SuffixTop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextStrings.SuffixTop
 ---
 
 # ITextStrings::SuffixTop
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Suffixes a string to the top string in the collection. 
-
+Suffixes a string to the top string in the collection.
 
 ## -parameters
-
-
-
 
 ### -param bstr [in]
 
@@ -64,17 +60,13 @@ Type: <b>BSTR</b>
 
 The text to suffix to the top string.
 
-
 ### -param pRange [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>*</b>
 
 The range with the desired character formatting.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -97,27 +89,12 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is similar to <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstrings-append">ITextStrings::Append</a>, but appends a string instead of a range.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
- 
-
- 
 

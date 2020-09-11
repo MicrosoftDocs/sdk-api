@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 7472f84b-cd14-4b9f-8ea9-69e743319d05
 ms.date: 12/05/2018
 ms.keywords: GetColorProfileResource, GetColorProfileResource method [XPS Documents and Packaging], GetColorProfileResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],GetColorProfileResource method, IXpsOMImageBrush.GetColorProfileResource, IXpsOMImageBrush::GetColorProfileResource, xps.ixpsomimagebrush_getcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::GetColorProfileResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMImageBrush.GetColorProfileResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMImageBrush.GetColorProfileResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMImageBrush::GetColorProfileResource
+ - xpsobjectmodel/IXpsOMImageBrush::GetColorProfileResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMImageBrush.GetColorProfileResource
 ---
 
 # IXpsOMImageBrush::GetColorProfileResource
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface, which  contains the color profile resource that is associated with the image.
 
-
 ## -parameters
-
-
-
 
 ### -param colorProfileResource [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface that contains the color profile resource that is associated with the image. If no color profile resource has been set, a <b>NULL</b> pointer is returned.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,24 +90,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After loading and parsing the resource into the XPS OM, this method might return an error that applies to another resource. This occurs because all of the relationships are parsed when a resource is loaded.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a>
 
@@ -129,7 +110,4 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

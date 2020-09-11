@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 75510d73-3d5e-4d4c-a38c-c560a41a0baa
 ms.date: 12/05/2018
 ms.keywords: IComponentData2, IComponentData2 interface [MMC], IComponentData2 interface [MMC],described, _slate_icomponentdata2, mmc.icomponentdata2, mmc/IComponentData2
-f1_keywords:
-- mmc/IComponentData2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IComponentData2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentData2
+ - mmc/IComponentData2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IComponentData2
 ---
 
 # IComponentData2 interface
 
 
 ## -description
-
 
 The 
 <b>IComponentData2</b> interface supersedes the 
@@ -57,7 +57,6 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata2-querydispatch">IComponentData2::QueryDispatch</a> method, which provides an <b>IDispatch</b> interface to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-object">View</a> object for use with the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
-
 
 ## -inheritance
 
@@ -136,5 +135,5 @@ Returns an <b>IDispatch</b> interface for the specified cookie; MMC will expose 
 
 </td>
 </tr>
-</table> 
+</table>
 

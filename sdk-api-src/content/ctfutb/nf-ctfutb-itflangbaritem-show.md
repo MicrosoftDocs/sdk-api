@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 3f5be2f4-e9de-4b03-9c37-651b1e572cf0
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItem interface [Text Services Framework],Show method, ITfLangBarItem.Show, ITfLangBarItem::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfLangBarItem interface, _tsf_itflangbaritem_show_ref, ctfutb/ITfLangBarItem::Show, tsf.itflangbaritem_show
-f1_keywords:
-- ctfutb/ITfLangBarItem.Show
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfLangBarItem.Show
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItem::Show
+ - ctfutb/ITfLangBarItem::Show
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfLangBarItem.Show
 ---
 
 # ITfLangBarItem::Show
@@ -53,17 +54,11 @@ Called to show or hide the language bar item.
 
 ## -parameters
 
-
-
-
 ### -param fShow [in]
 
 Contains a <b>BOOL</b> that indicates if the item should be shown or hidden. Contains a nonzero value if the item should be shown or zero otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,26 +90,14 @@ The language bar item does not support this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The language bar item implementation should update its visible status by modifying the value returned from <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getstatus">ITfLangBarItem::GetStatus</a> to include or exclude the TF_LBI_STATUS_HIDDEN status flag. The implementation then prompts language bar to obtain the new status value by calling <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_STATUS.
 
 This method is only useful when the item has the TF_LBI_STYLE_HIDDENSTATUSCONTROL style. Without this style, only the language bar can show or hide the item.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
 
@@ -127,7 +110,4 @@ This method is only useful when the item has the TF_LBI_STYLE_HIDDENSTATUSCONTRO
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate
       </a>
- 
-
- 
 

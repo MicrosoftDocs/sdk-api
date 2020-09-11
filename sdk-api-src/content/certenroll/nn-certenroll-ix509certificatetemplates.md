@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 82d14b93-e07b-4ff3-88b9-b1873972b4ad
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplates, IX509CertificateTemplates interface [Security], IX509CertificateTemplates interface [Security],described, certenroll/IX509CertificateTemplates, security.ix509certificatetemplates
-f1_keywords:
-- certenroll/IX509CertificateTemplates
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateTemplates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateTemplates
+ - certenroll/IX509CertificateTemplates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateTemplates
 ---
 
 # IX509CertificateTemplates interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509CertificateTemplates</b> interface defines the following methods and properties that manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> objects.
-
 
 ## -inheritance
 
@@ -192,5 +191,5 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 70AB644F-7406-4271-89C9-8D38FE3B4D7A
 ms.date: 12/05/2018
 ms.keywords: CreateMetaCommand, CreateMetaCommand method, CreateMetaCommand method,ID3D12Device5 interface, ID3D12Device5 interface,CreateMetaCommand method, ID3D12Device5.CreateMetaCommand, ID3D12Device5::CreateMetaCommand, d3d12/ID3D12Device5::CreateMetaCommand, direct3d12.id3d12device5_createmetacommand
-f1_keywords:
-- d3d12/ID3D12Device5.CreateMetaCommand
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12Device5.CreateMetaCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device5::CreateMetaCommand
+ - d3d12/ID3D12Device5::CreateMetaCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12Device5.CreateMetaCommand
 ---
 
 ## -description
@@ -109,7 +110,8 @@ The current hardware does not support the algorithm being requested
 </td>
 </tr>
 </table>
- 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
+

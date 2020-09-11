@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 4d828e41-9073-407a-aab5-531f1d6d6d02
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CALLBACK_STATUS_CLOSE_COMPLETE, WINHTTP_CALLBACK_STATUS_CLOSING_CONNECTION, WINHTTP_CALLBACK_STATUS_CONNECTED_TO_SERVER, WINHTTP_CALLBACK_STATUS_CONNECTING_TO_SERVER, WINHTTP_CALLBACK_STATUS_CONNECTION_CLOSED, WINHTTP_CALLBACK_STATUS_DATA_AVAILABLE, WINHTTP_CALLBACK_STATUS_FLAG_CERT_CN_INVALID, WINHTTP_CALLBACK_STATUS_FLAG_CERT_DATE_INVALID, WINHTTP_CALLBACK_STATUS_FLAG_CERT_REVOKED, WINHTTP_CALLBACK_STATUS_FLAG_CERT_REV_FAILED, WINHTTP_CALLBACK_STATUS_FLAG_INVALID_CA, WINHTTP_CALLBACK_STATUS_FLAG_INVALID_CERT, WINHTTP_CALLBACK_STATUS_FLAG_SECURITY_CHANNEL_ERROR, WINHTTP_CALLBACK_STATUS_GETPROXYFORURL_COMPLETE, WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING, WINHTTP_CALLBACK_STATUS_HANDLE_CREATED, WINHTTP_CALLBACK_STATUS_HEADERS_AVAILABLE, WINHTTP_CALLBACK_STATUS_INTERMEDIATE_RESPONSE, WINHTTP_CALLBACK_STATUS_NAME_RESOLVED, WINHTTP_CALLBACK_STATUS_READ_COMPLETE, WINHTTP_CALLBACK_STATUS_RECEIVING_RESPONSE, WINHTTP_CALLBACK_STATUS_REDIRECT, WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, WINHTTP_CALLBACK_STATUS_REQUEST_SENT, WINHTTP_CALLBACK_STATUS_RESOLVING_NAME, WINHTTP_CALLBACK_STATUS_RESPONSE_RECEIVED, WINHTTP_CALLBACK_STATUS_SECURE_FAILURE, WINHTTP_CALLBACK_STATUS_SENDING_REQUEST, WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE, WINHTTP_CALLBACK_STATUS_SHUTDOWN_COMPLETE, WINHTTP_CALLBACK_STATUS_WRITE_COMPLETE, WINHTTP_STATUS_CALLBACK, WINHTTP_STATUS_CALLBACK callback, WINHTTP_STATUS_CALLBACK callback function [HTTP], http.internet_status_callback_prototype, winhttp/WINHTTP_STATUS_CALLBACK, winhttp_internet_status_callback_prototype
-f1_keywords:
-- winhttp/WINHTTP_STATUS_CALLBACK
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winhttp.h
-api_name:
-- WINHTTP_STATUS_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WINHTTP_STATUS_CALLBACK
+ - winhttp/WINHTTP_STATUS_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winhttp.h
+api_name:
+ - WINHTTP_STATUS_CALLBACK
 ---
 
 # WINHTTP_STATUS_CALLBACK callback function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WINHTTP_STATUS_CALLBACK</b> type represents an application-defined status callback function.
 
-
 ## -parameters
-
-
-
 
 ### -param hInternet [in]
 
 The handle for which the callback function is called.
-
 
 ### -param dwContext [in]
 
@@ -69,7 +64,6 @@ A pointer to a <b>DWORD</b> that specifies the application-defined context value
 <i>hInternet</i> parameter.
 
 A context value can be assigned to a Session, Connect, or Request handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a>  with the  <a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">WINHTTP_OPTION_CONTEXT_VALUE</a> option. Alternatively, <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a> can be used to associate a context value with a Request handle.
-
 
 ### -param dwInternetStatus [in]
 
@@ -257,7 +251,6 @@ The connection was successfully closed via a call to <a href="https://docs.micro
 
 The connection was successfully shut down via a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>.
 
-
 ### -param lpvStatusInformation [in]
 
 A pointer to a buffer that specifies information pertinent to this call to the callback function. The format of these data depends on the value of the <i>dwInternetStatus</i> argument. For more information, see <i>dwInternetStatus</i>.
@@ -343,17 +336,12 @@ The application experienced an internal error loading the SSL libraries.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwStatusInformationLength [in]
 
 <b>WINHTTP_CALLBACK_STATUS_REDIRECT</b> status callbacks provide a <i>dwStatusInformationLength</i> value that corresponds to the character count of the <b>LPWSTR</b> pointed to by <i>lpvStatusInformation</i>.
 
-
 ## -remarks
-
-
 
 The callback function must be threadsafe and reentrant because it can be called on another thread for a separate request, and reentered on the same thread for the current request. It must therefore be coded to handle reentrance safely while processing. When the <i>dwInternetStatus</i> parameter is equal to <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b>, the callback does not need to be able to handle reentrance for the same request, because this callback is guaranteed to be the last, and does not occur when other messages for this request are handled.
 
@@ -411,19 +399,11 @@ Similarly, there is no callback thread afinity when you call WinHttp asynchronou
 <div class="alert"><b>Note</b>  For more information about implementation in Windows XP and Windows 2000, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>
- 
-
- 
 

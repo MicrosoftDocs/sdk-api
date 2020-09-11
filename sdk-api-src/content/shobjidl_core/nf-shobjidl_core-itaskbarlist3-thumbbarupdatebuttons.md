@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5bb38b1e-dc09-4868-b424-f11beca6e64f
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarUpdateButtons method, ITaskbarList3.ThumbBarUpdateButtons, ITaskbarList3::ThumbBarUpdateButtons, ThumbBarUpdateButtons, ThumbBarUpdateButtons method [Windows Shell], ThumbBarUpdateButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarUpdateButtons, shell.ITaskbarList3_ThumbBarUpdateButtons, shobjidl_core/ITaskbarList3::ThumbBarUpdateButtons
-f1_keywords:
-- shobjidl_core/ITaskbarList3.ThumbBarUpdateButtons
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Explorerframe.dll
-api_name:
-- ITaskbarList3.ThumbBarUpdateButtons
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskbarList3::ThumbBarUpdateButtons
+ - shobjidl_core/ITaskbarList3::ThumbBarUpdateButtons
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Explorerframe.dll
+api_name:
+ - ITaskbarList3.ThumbBarUpdateButtons
 ---
 
 # ITaskbarList3::ThumbBarUpdateButtons
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by the window's current state. A thumbnail toolbar is a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,13 +60,11 @@ Type: <b>HWND</b>
 
 The handle of the window whose thumbnail representation contains the toolbar.
 
-
 ### -param cButtons [in]
 
 Type: <b>UINT</b>
 
 The number of buttons defined in the array pointed to by <i>pButton</i>. The maximum number of buttons allowed is 7. This array contains only structures that represent existing buttons that are being updated.
-
 
 ### -param pButton [in]
 
@@ -78,21 +72,13 @@ Type: <b>LPTHUMBBUTTON</b>
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a> structures. Each <b>THUMBBUTTON</b> defines an individual button. If the button already exists (the <b>iId</b> value is already defined), then that existing button is updated with the information provided in the structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Because there is a limited amount of space in which to display thumbnails, as well as a constantly changing number of thumbnails to display, applications are not guaranteed a specific toolbar size. If display space is low, buttons in the toolbar are truncated from right to left as needed. Therefore, an application should prioritize the commands associated with its buttons to ensure that those of highest priority are to the left and are therefore least likely to be truncated.
 
@@ -133,14 +119,7 @@ HRESULT UpdateThumbarButton(HWND hwnd)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
 
@@ -163,7 +142,4 @@ HRESULT UpdateThumbarButton(HWND hwnd)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

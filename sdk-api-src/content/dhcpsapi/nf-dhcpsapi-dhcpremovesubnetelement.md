@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: b27de25f-c96d-4881-9788-495ffe220d61
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveSubnetElement, DhcpRemoveSubnetElement function [DHCP], dhcp.dhcpremovesubnetelement, dhcpsapi/DhcpRemoveSubnetElement
-f1_keywords:
-- dhcpsapi/DhcpRemoveSubnetElement
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpRemoveSubnetElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpRemoveSubnetElement
+ - dhcpsapi/DhcpRemoveSubnetElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpRemoveSubnetElement
 ---
 
 # DhcpRemoveSubnetElement function
@@ -49,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpRemoveSubnetElement</b> function removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCPv4 server.
 
-
 ### -param SubnetAddress [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the IPv4 address of the subnet gateway from which elements are to be removed.
 
-
 ### -param RemoveElementInfo [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data">DHCP_SUBNET_ELEMENT_DATA</a> structure that contains information used to find the element that will be removed from subnet specified in <i>SubnetAddress</i>.
 
-
 ### -param ForceFlag [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a> enumeration value that indicates whether or not the clients affected by the removal of the subnet element should also be deleted.
 
@@ -84,8 +74,6 @@ Unicode string that specifies the IP address or hostname of the DHCPv4 server.
 <div> </div>
 
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -150,15 +138,8 @@ At least one multicast IPv4 address has been leased out to a MADCAP client.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a>
 
@@ -169,7 +150,4 @@ At least one multicast IPv4 address has been leased out to a MADCAP client.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelement">DhcpAddSubnetElement</a>
- 
-
- 
 

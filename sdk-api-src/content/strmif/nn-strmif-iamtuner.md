@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 997d39c5-a1a5-4d2d-8704-9846f149712c
 ms.date: 12/05/2018
 ms.keywords: IAMTuner, IAMTuner interface [DirectShow], IAMTuner interface [DirectShow],described, IAMTunerInterface, dshow.iamtuner, strmif/IAMTuner
-f1_keywords:
-- strmif/IAMTuner
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTuner
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTuner
+ - strmif/IAMTuner
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTuner
 ---
 
 # IAMTuner interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMTuner</code> interface controls a TV tuner. This interface is the base class for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a> interface, which inherits all of the <code>IAMTuner</code> methods. For more information on controlling a TV tuner using Microsoft DirectShow, see the <b>IAMTVTuner</b> documentation.
-
-
-
 
 ## -inheritance
 
@@ -207,5 +203,5 @@ Unregisters an object for event notifications. (Not implemented.)
 
 </td>
 </tr>
-</table> 
+</table>
 

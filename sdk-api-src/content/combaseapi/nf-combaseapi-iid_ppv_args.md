@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 268B59FA-44EB-4777-8162-C50981CBDD09
 ms.date: 12/05/2018
 ms.keywords: IID_PPV_ARGS, IID_PPV_ARGS macro [Windows Shell], IID_PPV_ARGS_Helper, _shell_IID_PPV_ARGS, combaseapi/IID_PPV_ARGS, shell.IID_PPV_ARGS
-f1_keywords:
-- combaseapi/IID_PPV_ARGS
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- combaseapi.h
-api_name:
-- IID_PPV_ARGS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IID_PPV_ARGS
+ - combaseapi/IID_PPV_ARGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - combaseapi.h
+api_name:
+ - IID_PPV_ARGS
 ---
 
 ## -description
@@ -73,3 +74,4 @@ IPropertyStore *pPropertyStore;
 
 CoCreateInstance(CLSID_PropertyStore, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pPropertyStore));
 ```
+

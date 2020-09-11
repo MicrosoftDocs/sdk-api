@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ebcc9cc1-b6ee-4fb9-9125-54d6a9ee9434
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],Scale method, IShellImageData.Scale, IShellImageData::Scale, Scale, Scale method [Windows Shell], Scale method [Windows Shell],IShellImageData interface, _shell_IShellImageData_Scale, shell.IShellImageData_Scale, shimgdata/IShellImageData::Scale
-f1_keywords:
-- shimgdata/IShellImageData.Scale
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.Scale
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::Scale
+ - shimgdata/IShellImageData::Scale
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.Scale
 ---
 
 # IShellImageData::Scale
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adjusts the size of an image.
 
-
 ## -parameters
-
-
-
 
 ### -param cx [in]
 
@@ -64,13 +60,11 @@ Type: <b>ULONG</b>
 
 The horizontal (x) dimension. If this value is 0, the x dimension is set to a scaled value based on the point specified in <i>cy</i>.
 
-
 ### -param cy [in]
 
 Type: <b>ULONG</b>
 
 The vertical (y) dimension. If this value is 0, the y dimension is set to a scaled value based on the point specified in <i>cx</i>.
-
 
 ### -param hints [in]
 
@@ -78,10 +72,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne
 
 A member of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-interpolationmode">InterpolationMode</a> enumeration, specifying the algorithm that is used when the image is scaled.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -137,7 +128,4 @@ The process was stopped by the calling application through a registered instance
 </td>
 </tr>
 </table>
- 
-
-
 

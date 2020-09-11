@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd
 ms.date: 12/05/2018
 ms.keywords: SetCurrentDirectory, SetCurrentDirectory function [Files], SetCurrentDirectoryA, SetCurrentDirectoryW, _win32_setcurrentdirectory, base.setcurrentdirectory, fs.setcurrentdirectory, winbase/SetCurrentDirectory, winbase/SetCurrentDirectoryA, winbase/SetCurrentDirectoryW
-f1_keywords:
-- winbase/SetCurrentDirectory
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetCurrentDirectory
-- SetCurrentDirectoryA
-- SetCurrentDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetCurrentDirectory
+ - winbase/SetCurrentDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetCurrentDirectory
+ - SetCurrentDirectoryA
+ - SetCurrentDirectoryW
 ---
 
 # SetCurrentDirectory function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the current directory for the current process.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPathName [in]
 
@@ -81,19 +77,12 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 
 ## -returns
 
-
-
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Each process has a single current directory made up of two parts:
 
@@ -173,12 +162,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
@@ -189,7 +173,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>
- 
-
- 
 

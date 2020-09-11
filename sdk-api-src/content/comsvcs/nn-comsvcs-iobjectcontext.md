@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 9395bc9a-dfe5-428a-839f-1c4ad090f636
 ms.date: 12/05/2018
 ms.keywords: IObjectContext, IObjectContext interface [COM+], IObjectContext interface [COM+],described, _cos_IObjectContext, comsvcs/IObjectContext, cos.iobjectcontext
-f1_keywords:
-- comsvcs/IObjectContext
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectContext
+ - comsvcs/IObjectContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectContext
 ---
 
 # IObjectContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the current object's context. An object's context is primarily used when working with transactions or dealing with the security of an object.
-
 
 ## -inheritance
 
@@ -140,29 +139,17 @@ Declares that the transaction in which the object is executing can be committed 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 As with any COM object, you must release an <b>IObjectContext</b> object when you are finished using it, unless it is a local variable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-getobjectcontext">GetObjectContext</a>
- 
-
- 
 

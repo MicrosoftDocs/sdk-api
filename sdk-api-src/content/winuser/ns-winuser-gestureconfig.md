@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: 4ec5050e-7fef-4f52-89af-5237e8cdbdb8
 ms.date: 12/05/2018
 ms.keywords: '*PGESTURECONFIG, GESTURECONFIG, GESTURECONFIG structure [Windows Touch], PGESTURECONFIG, PGESTURECONFIG structure pointer [Windows Touch], tagGESTURECONFIG, wintouch.gestureconfig, winuser/GESTURECONFIG, winuser/PGESTURECONFIG'
-f1_keywords:
-- winuser/GESTURECONFIG
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winuser.h
-api_name:
-- GESTURECONFIG
 targetos: Windows
 req.typenames: GESTURECONFIG, *PGESTURECONFIG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagGESTURECONFIG
+ - winuser/tagGESTURECONFIG
+ - PGESTURECONFIG
+ - winuser/PGESTURECONFIG
+ - GESTURECONFIG
+ - winuser/GESTURECONFIG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winuser.h
+api_name:
+ - GESTURECONFIG
 ---
 
 # GESTURECONFIG structure
@@ -49,35 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets and sets the configuration for 
   enabling gesture messages and the type of this configuration.
-  
-
 
 ## -struct-fields
-
-
-
 
 ### -field dwID
 
 The identifier for the type of configuration that will have messages enabled or disabled. For more information, see Remarks.
 
-
 ### -field dwWant
 
 The messages to enable.
-
 
 ### -field dwBlock
 
 The messages to disable.
 
-
 ## -remarks
-
-
 
 It is impossible to disable two-finger panning and keep single finger panning.
       You must set the want bits for GC_PAN before you can set them for GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY 
@@ -273,14 +267,7 @@ The following flags are used when <i>dwID</i> is set to GID_PRESSANDTAP.
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
 
@@ -291,7 +278,4 @@ The following flags are used when <i>dwID</i> is set to GID_PRESSANDTAP.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/mtstructures">Structures</a>
- 
-
- 
 

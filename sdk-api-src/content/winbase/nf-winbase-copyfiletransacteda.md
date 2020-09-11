@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 118392de-166b-413e-99c9-b3deb756de0e
 ms.date: 12/05/2018
 ms.keywords: COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileTransacted, CopyFileTransacted function [Files], CopyFileTransactedA, CopyFileTransactedW, fs.copyfiletransacted, winbase/CopyFileTransacted, winbase/CopyFileTransactedA, winbase/CopyFileTransactedW
-f1_keywords:
-- winbase/CopyFileTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- CopyFileTransacted
-- CopyFileTransactedA
-- CopyFileTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CopyFileTransactedA
+ - winbase/CopyFileTransactedA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - CopyFileTransacted
+ - CopyFileTransactedA
+ - CopyFileTransactedW
 ---
 
 # CopyFileTransactedA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -65,11 +65,7 @@ ms.custom: 19H1
 Copies an existing file to a new file as a transacted operation, notifying the application of its 
     progress through a callback function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpExistingFileName [in]
 
@@ -88,7 +84,6 @@ If <i>lpExistingFileName</i> does not exist, the
 The file must reside on the local computer; otherwise, the function fails and the last error code is set to 
        <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
-
 ### -param lpNewFileName [in]
 
 The name of the new file.
@@ -98,7 +93,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
        "\\?\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-
 ### -param lpProgressRoutine [in, optional]
 
 The address of a callback function of type <b>LPPROGRESS_ROUTINE</b> that is called 
@@ -106,18 +100,15 @@ The address of a callback function of type <b>LPPROGRESS_ROUTINE</b> that is cal
       more information on the progress callback function, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a> function.
 
-
 ### -param lpData [in, optional]
 
 The argument to be passed to the callback function. This parameter can be 
       <b>NULL</b>.
 
-
 ### -param pbCancel [in, optional]
 
 If this flag is set to <b>TRUE</b> during the copy operation, the operation is canceled. 
       Otherwise, the copy operation will continue to completion.
-
 
 ### -param dwCopyFlags [in]
 
@@ -178,18 +169,13 @@ Progress of the copy is tracked in the target file in case the copy fails. The f
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -213,12 +199,7 @@ If you attempt to call this function with a handle to a transaction that has alr
        <b>ERROR_TRANSACTION_NOT_ACTIVE</b> or 
        <b>ERROR_INVALID_TRANSACTION</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function preserves extended attributes, OLE structured storage, NTFS file system alternate data streams, 
      security attributes, and file attributes.
@@ -326,9 +307,6 @@ Note that SMB 3.0 does not support TxF.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a>
 
 
@@ -354,7 +332,4 @@ Note that SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
 

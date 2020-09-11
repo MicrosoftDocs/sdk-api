@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 06430DD6-B6BF-4F55-A99C-13860B800444
 ms.date: 12/05/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect, IDCompositionArithmeticCompositeEffect interface [DirectComposition], IDCompositionArithmeticCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionArithmeticCompositeEffect, directcomp.idcompositionarithmeticcompositeeffect
-f1_keywords:
-- dcomp/IDCompositionArithmeticCompositeEffect
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionArithmeticCompositeEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionArithmeticCompositeEffect
+ - dcomp/IDCompositionArithmeticCompositeEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionArithmeticCompositeEffect
 ---
 
 # IDCompositionArithmeticCompositeEffect interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.
-
 
 ## -inheritance
 
@@ -118,16 +117,9 @@ Sets the coefficients for the equation used to composite the two input images.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
- 
-
- 
 

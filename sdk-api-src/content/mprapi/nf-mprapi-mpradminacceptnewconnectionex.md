@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 398dd922-dd83-402f-b7ad-ce9438f15ca9
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptNewConnectionEx, MprAdminAcceptNewConnectionEx callback, MprAdminAcceptNewConnectionEx callback function [RAS], mprapi/MprAdminAcceptNewConnectionEx, rras.mpradminacceptnewconnectionex
-f1_keywords:
-- mprapi/MprAdminAcceptNewConnectionEx
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mprapi.h
-api_name:
-- MprAdminAcceptNewConnectionEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminAcceptNewConnectionEx
+ - mprapi/MprAdminAcceptNewConnectionEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mprapi.h
+api_name:
+ - MprAdminAcceptNewConnectionEx
 ---
 
 # MprAdminAcceptNewConnectionEx function
@@ -49,35 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Remote Access Service (RAS) calls the 
 <b>MprAdminAcceptNewConnectionEx</b> function each time a new user dials in and successfully completes a RAS authentication. <b>MprAdminAcceptNewConnectionEx</b> determines whether the user is allowed to connect.
 
-
 ## -parameters
-
-
-
 
 ### -param pRasConn [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure structure that describes this connection.
 
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewconnection">MprAdminAcceptNewConnection</a>
 
@@ -100,7 +87,4 @@ This callback function does not return a value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
- 
-
- 
 

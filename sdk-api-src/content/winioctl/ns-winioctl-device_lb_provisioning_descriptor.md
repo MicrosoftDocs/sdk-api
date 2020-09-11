@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: dbc46b33-9e9d-4ccf-9bc9-1df70738fa73
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Files], PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Files], fs.device_lb_provisioning_descriptor, winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR, winioctl/PDEVICE_LB_PROVISIONING_DESCRIPTOR'
-f1_keywords:
-- winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DEVICE_LB_PROVISIONING_DESCRIPTOR
 targetos: Windows
 req.typenames: DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR
 req.redist: 
+f1_keywords:
+ - _DEVICE_LB_PROVISIONING_DESCRIPTOR
+ - winioctl/_DEVICE_LB_PROVISIONING_DESCRIPTOR
+ - PDEVICE_LB_PROVISIONING_DESCRIPTOR
+ - winioctl/PDEVICE_LB_PROVISIONING_DESCRIPTOR
+ - DEVICE_LB_PROVISIONING_DESCRIPTOR
+ - winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DEVICE_LB_PROVISIONING_DESCRIPTOR
 ---
 
 # DEVICE_LB_PROVISIONING_DESCRIPTOR structure
@@ -48,30 +53,23 @@ req.redist:
 
 ## -description
 
-
 The 
    <b>DEVICE_LB_PROVISIONING_DESCRIPTOR</b> 
    structure is one of the query result structures returned from an 
    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request. This 
    structure contains the thin provisioning capabilities for a storage device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Contains the size of this structure, in bytes. The value of this member will change as members are added to 
       the structure.
 
-
 ### -field Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
-
 
 ### -field ThinProvisioningEnabled
 
@@ -105,8 +103,6 @@ Thin provisioning is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ThinProvisioningReadZeros
 
@@ -140,8 +136,6 @@ Reads return zeros.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AnchorSupported
 
@@ -175,8 +169,6 @@ Deterministic read after trim is supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field UnmapGranularityAlignmentValid
 
@@ -210,42 +202,32 @@ Unmap granularity alignment is valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved0
 
 Reserved.
 
-
 ### -field Reserved1
 
 Reserved.
-
 
 ### -field OptimalUnmapGranularity
 
 The optimal number of logical sectors for unmap granularity for the device.
 
-
 ### -field UnmapGranularityAlignment
 
 The current value, in logical sectors, set for unmap granularity alignment on the device.
-
 
 ### -field MaxUnmapLbaCount
 
 <b>Starting in Windows 10: </b>The maximum number of LBAs that can be unmapped in a single unmap command, in logical blocks.
 
-
 ### -field MaxUnmapBlockDescriptorCount
 
 <b>Starting in Windows 10: </b>The maximum number of descriptors allowed in a single unmap command.
 
-
 ## -remarks
-
-
 
 This structure is returned from a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request when the 
@@ -256,13 +238,7 @@ This structure is returned from a
 If <b>UnmapGranularityAlignmentValid</b> = 0, then any code using 
     <b>UnmapGranularityAlignment</b> should assume it has a value of 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
@@ -273,7 +249,4 @@ If <b>UnmapGranularityAlignmentValid</b> = 0, then any code using
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
- 
-
- 
 

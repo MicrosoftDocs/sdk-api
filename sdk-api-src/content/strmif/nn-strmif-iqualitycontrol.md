@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2672e563-75d7-4a8a-b914-7b0712e856e8
 ms.date: 12/05/2018
 ms.keywords: IQualityControl, IQualityControl interface [DirectShow], IQualityControl interface [DirectShow],described, IQualityControlInterface, dshow.iqualitycontrol, strmif/IQualityControl
-f1_keywords:
-- strmif/IQualityControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IQualityControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQualityControl
+ - strmif/IQualityControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IQualityControl
 ---
 
 # IQualityControl interface
 
 
 ## -description
-
-
 
 The <code>IQualityControl</code> interface provides support for quality control. An object exposes this interface if it can generate or receive quality-control messages. This includes renderer filters (which typically generate quality control messages), pins (which receive them), and external quality managers (which also receive them).
 
@@ -59,10 +58,6 @@ A renderer filter generates a quality-control message by calling the <a href="ht
 An application can implement its own quality-control manager. Call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-setsink">IQualityControl::SetSink</a> on the renderer to designate the quality-control manager as the recipient for quality-control messages. Calling this method overrides the default handling of quality-control messages.
 
 However, most applications will not implement their own quality-control managers; and aside from this special case, applications typically do not use this interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/quality-control-management">Quality-Control Management</a>
-
-
-
-
 
 ## -inheritance
 
@@ -97,5 +92,5 @@ Sets the <code>IQualityControl</code> object that will receive quality messages.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 396bbf7e-7fd0-4a2e-8304-f87097cd5e50
 ms.date: 12/05/2018
 ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], IKnowledgeSyncProvider interface [Windows Sync],described, winsync.iknowledgesyncprovider, winsync/IKnowledgeSyncProvider
-f1_keywords:
-- winsync/IKnowledgeSyncProvider
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IKnowledgeSyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKnowledgeSyncProvider
+ - winsync/IKnowledgeSyncProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IKnowledgeSyncProvider
 ---
 
 # IKnowledgeSyncProvider interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a synchronization provider that uses knowledge to perform synchronization.
-
-
 
 ## -inheritance
 
@@ -139,31 +137,19 @@ Processes a set of changes for a full enumeration by applying changes to the ite
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Typically, the first method that is called by a synchronization  session is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">BeginSession</a>. The last method is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-endsession">EndSession</a>. All other <b>IKnowledgeSyncProvider</b> methods are called between these two methods.
 
 For an overview of what a synchronization session is see the topic <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-overview">Windows Sync Overview</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>ISyncProvider</b>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

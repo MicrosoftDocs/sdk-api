@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\imilbitmapeffectrendercontextimpl.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects], IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontextimpl, mileffects/IMILBitmapEffectRenderContextImpl, wibe._wibe_imilbitmapeffectrendercontextimpl
-f1_keywords:
-- mileffects/IMILBitmapEffectRenderContextImpl
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mileffects.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.dll
-api_name:
-- IMILBitmapEffectRenderContextImpl
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectRenderContextImpl
+ - mileffects/IMILBitmapEffectRenderContextImpl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.dll
+api_name:
+ - IMILBitmapEffectRenderContextImpl
 ---
 
 # IMILBitmapEffectRenderContextImpl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that define a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectrendercontext">IMILBitmapEffectRenderContext</a>.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Updates the output transform with the new matrix.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 60489142-125f-4deb-afa0-9dae63ea1d46
 ms.date: 12/05/2018
 ms.keywords: CommitSnapshots, CommitSnapshots method [VSS], CommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],CommitSnapshots method, IVssProviderCreateSnapshotSet.CommitSnapshots, IVssProviderCreateSnapshotSet::CommitSnapshots, base.ivssprovidercreatesnapshotset_commitsnapshots, vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
-f1_keywords:
-- vsprov/IVssProviderCreateSnapshotSet.CommitSnapshots
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderCreateSnapshotSet.CommitSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderCreateSnapshotSet::CommitSnapshots
+ - vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderCreateSnapshotSet.CommitSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::CommitSnapshots
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CommitSnapshots</b> 
    method quickly commits all LUNs in this provider.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 The <b>VSS_ID</b> that identifies the shadow copy set.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -140,12 +133,7 @@ An unexpected provider error occurred. The provider must log the details of this
 If any other value is returned, VSS will write an event to the event log and convert the error to 
       <b>VSS_E_UNEXPECTED_PROVIDER_ERROR</b>.
 
-
-
-
 ## -remarks
-
-
 
 This method is called at the defined time at which the shadow copies should be taken. For each prepared LUN 
     in this shadow copy set, the provider will perform the work required to persist the point-in-time LUN contents. 
@@ -162,16 +150,7 @@ Because the I/O system is quiescent, the provider must take care to not initiate
 
 Note that the I/O system is quiescent only while this method is executing. Immediately after the last provider's <b>CommitSnapshots</b> method returns, the VSS service releases all pending writes on the source LUNs. If the provider performs any synchronization of the source and shadow copy LUNs, this synchronization must be completed before the provider's <b>CommitSnapshots</b> method returns;  it cannot be performed asynchronously.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
- 
-
- 
 

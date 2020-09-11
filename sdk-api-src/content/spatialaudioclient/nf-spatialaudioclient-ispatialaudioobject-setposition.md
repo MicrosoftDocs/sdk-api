@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: DDF4859E-6510-45D5-82E7-2C5A7F2EC679
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetPosition method, ISpatialAudioObject.SetPosition, ISpatialAudioObject::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setposition, spatialaudioclient/ISpatialAudioObject::SetPosition
-f1_keywords:
-- spatialaudioclient/ISpatialAudioObject.SetPosition
-dev_langs:
-- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudioclient.h
-api_name:
-- ISpatialAudioObject.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioObject::SetPosition
+ - spatialaudioclient/ISpatialAudioObject::SetPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudioclient.h
+api_name:
+ - ISpatialAudioObject.SetPosition
 ---
 
 # ISpatialAudioObject::SetPosition
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the position in 3D space, relative to the listener, from which the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> audio data will be rendered.
 
-
 ## -parameters
-
-
-
 
 ### -param x [in]
 
 The x position of the audio object, in meters, relative to the listener. Positive values are to the right of the listener and negative values are to the left.
 
-
 ### -param y [in]
 
 The y position of the audio object, in meters, relative to the listener. Positive values are above the listener and negative values are below.
-
 
 ### -param z [in]
 
 The z position of the audio object, in meters, relative to the listener. Positive values are behind the listener and negative values are in front.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -120,14 +111,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can only be called on a  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> that is of type <b>AudioObjectType_Dynamic</b>. Set the type of the audio object with the <i>type</i> parameter to the  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject">ISpatialAudioObjectRenderStreamBase::ActivateSpatialAudioObject</a> method.
 
@@ -135,16 +120,7 @@ This method can only be called on a  <a href="https://docs.microsoft.com/windows
 
 If <b>SetPosition</b> is never called, the origin (x=0.0, y=0.0, z=0.0) is used as the default position. After <b>SetPosition</b> is called, the position that is set will be used for the audio object until the position is changed with another call to <b>SetPosition</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 8d8cba34-e5d3-42ae-9724-361802f21410
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBServerConnect, MprAdminMIBServerConnect function [RAS], _mpr_mpradminmibserverconnect, mprapi/MprAdminMIBServerConnect, rras.mpradminmibserverconnect
-f1_keywords:
-- mprapi/MprAdminMIBServerConnect
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminMIBServerConnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminMIBServerConnect
+ - mprapi/MprAdminMIBServerConnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminMIBServerConnect
 ---
 
 # MprAdminMIBServerConnect function
@@ -49,39 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminMIBServerConnect</b> function establishes a connection to the router being administered. This call should be made before any other calls to the server. The handle returned by this function is used in subsequent MIB calls.
 
-
 ## -parameters
-
-
-
 
 ### -param lpwsServerName [in]
 
 Pointer to a Unicode string that specifies the name of the remote server. If the caller specifies <b>NULL</b> for this parameter, the function returns a handle to the local server.
 
-
 ### -param phMibServer [out]
 
 Pointer to a handle variable. This variable receives a handle to the server.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverdisconnect">MprAdminMIBServerDisconnect</a>
 
@@ -92,7 +78,4 @@ If the function succeeds, the return value is NO_ERROR.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
- 
-
- 
 

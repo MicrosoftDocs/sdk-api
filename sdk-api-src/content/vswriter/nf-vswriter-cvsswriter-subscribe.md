@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ab9520c9-bd6b-4c81-87fc-f5cda6ee9c94
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],Subscribe method, CVssWriter.Subscribe, CVssWriter::Subscribe, Subscribe, Subscribe method [VSS], Subscribe method [VSS],CVssWriter interface, _win32_cvsswriter_subscribe, base.cvsswriter_subscribe, vswriter/CVssWriter::Subscribe
-f1_keywords:
-- vswriter/CVssWriter.Subscribe
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.Subscribe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::Subscribe
+ - vswriter/CVssWriter::Subscribe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.Subscribe
 ---
 
 # CVssWriter::Subscribe
@@ -50,17 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Subscribe</b> method subscribes the writer with VSS.
 
 <b>Subscribe</b> is a public method implemented by the base class.
 
-
 ## -parameters
-
-
-
 
 ### -param dwEventFlags [in]
 
@@ -74,10 +70,7 @@ The default value for this argument is (VSS_SM_BACKUP_EVENTS_FLAG | VSS_SM_RESTO
 
 This parameter is reserved for future use.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -145,15 +138,8 @@ The writer has previously called this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -168,7 +154,4 @@ The writer has previously called this method.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_subscribe_mask">VSS_SUBSCRIBE_MASK</a>
- 
-
- 
 

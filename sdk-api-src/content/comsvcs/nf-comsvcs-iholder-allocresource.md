@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 2b6c5d54-4917-460f-9740-abe4b578761f
 ms.date: 12/05/2018
 ms.keywords: AllocResource, AllocResource method [COM+], AllocResource method [COM+],IHolder interface, IHolder interface [COM+],AllocResource method, IHolder.AllocResource, IHolder::AllocResource, _dtc_IHolder_AllocResource, comsvcs/IHolder::AllocResource, cos.iholder_allocresource
-f1_keywords:
-- comsvcs/IHolder.AllocResource
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder.AllocResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder::AllocResource
+ - comsvcs/IHolder::AllocResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder.AllocResource
 ---
 
 # IHolder::AllocResource
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates a resource from the inventory.
 
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__IHolder0000 [in]
 
 The type of resource to be allocated.
 
-
 ### -param __MIDL__IHolder0001 [out]
 
 A pointer to the location where the handle of the allocated resource is returned.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -113,14 +105,8 @@ The method failed. The <i>pResId</i> parameter has not been set. The likely caus
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Dispenser Manager takes the following steps to locate a resource:
 
@@ -131,14 +117,7 @@ The Dispenser Manager takes the following steps to locate a resource:
 </ol>
 If the caller does not have a current transaction, the enlistment is skipped. Or if the Resource Dispenser rejects the enlistment (meaning the resource is not transaction capable), the enlistment is skipped.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
@@ -149,7 +128,4 @@ If the caller does not have a current transaction, the enlistment is skipped. Or
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
- 
-
- 
 

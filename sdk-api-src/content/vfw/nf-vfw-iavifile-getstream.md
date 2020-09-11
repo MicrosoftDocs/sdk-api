@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 66ab2d8f-39f5-4eec-a873-c6f554e3b8ff
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [Windows Multimedia], GetStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],GetStream method, IAVIFile.GetStream, IAVIFile::GetStream, _win32_IAVIFile_GetStream, multimedia.iavifile_getstream, vfw/IAVIFile::GetStream
-f1_keywords:
-- vfw/IAVIFile.GetStream
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vfw32.lib
-- Vfw32.dll
-api_name:
-- IAVIFile.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAVIFile::GetStream
+ - vfw/IAVIFile::GetStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vfw32.lib
+ - Vfw32.dll
+api_name:
+ - IAVIFile.GetStream
 ---
 
 # IAVIFile::GetStream
@@ -50,27 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStream</b> method opens a stream by accessing it in a file. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilegetstream">AVIFileGetStream</a> function.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppStream
 
 Pointer to a buffer that receives a pointer to the interface to a stream.
 
-
 ### -param fccType
 
 Four-character code indicating the type of stream to locate.
-
 
 ### -param lParam
 
@@ -81,19 +72,11 @@ Stream number.
 
 Pointer to the interface to a file.
 
-
 ## -returns
-
-
 
 Returns the HRESULT defined by OLE.
 
-
-
-
 ## -remarks
-
-
 
 It is typically easier to implement this method by creating all of the stream objects in advance by using the <a href="https://docs.microsoft.com/previous-versions/dd798007(v=vs.85)">IAVIFile::Open</a> method. Then, this method accesses the interface to the specified stream.
 
@@ -110,21 +93,11 @@ HRESULT GetStream(PAVISTREAM *ppStream,
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
- 
-
- 
 

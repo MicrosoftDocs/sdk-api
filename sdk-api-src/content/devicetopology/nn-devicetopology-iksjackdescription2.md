@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 9a3d7631-6892-457a-91ab-484ae867fd9f
 ms.date: 12/05/2018
 ms.keywords: IKsJackDescription2, IKsJackDescription2 interface [Core Audio], IKsJackDescription2 interface [Core Audio],described, coreaudio.iksjackdescription2, devicetopology/IKsJackDescription2
-f1_keywords:
-- devicetopology/IKsJackDescription2
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IKsJackDescription2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKsJackDescription2
+ - devicetopology/IKsJackDescription2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IKsJackDescription2
 ---
 
 # IKsJackDescription2 interface
 
 
 ## -description
-
 
 The <b>IKsJackDescription2</b> interface provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player). 
 
@@ -60,7 +60,6 @@ Most Windows audio adapter drivers support the Windows Driver Model (WDM) and us
 An application obtains a reference to the <b>IKsJackDescription2</b> interface of a part by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to <b>REFIID</b><b>IID_IKsJackDescription2</b>. The call to <b>IPart::Activate</b> succeeds only if the part supports the <b>IKsJackDescription2</b> interface. Only a part object that represents a bridge pin connector on a KS filter device topology object supports this interface.
 
 For a code example, see <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription</a>.
-
 
 ## -inheritance
 
@@ -95,13 +94,9 @@ Gets the description of a specified audio jack.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -112,7 +107,4 @@ Gets the description of a specified audio jack.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>
- 
-
- 
 

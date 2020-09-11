@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 87acf207-d109-4173-9530-8cbbebb473b2
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OID_DISABLE_SEARCH_DS_FLAG, CRYPT_OID_INFO_ALGID_KEY, CRYPT_OID_INFO_CNG_ALGID_KEY, CRYPT_OID_INFO_CNG_SIGN_KEY, CRYPT_OID_INFO_NAME_KEY, CRYPT_OID_INFO_OID_KEY, CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CRYPT_OID_INFO_SIGN_KEY, CryptFindOIDInfo, CryptFindOIDInfo function [Security], _crypto2_cryptfindoidinfo, security.cryptfindoidinfo, wincrypt/CryptFindOIDInfo
-f1_keywords:
-- wincrypt/CryptFindOIDInfo
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptFindOIDInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptFindOIDInfo
+ - wincrypt/CryptFindOIDInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptFindOIDInfo
 ---
 
 # CryptFindOIDInfo function
 
 
 ## -description
-
 
 The <b>CryptFindOIDInfo</b> function retrieves the first predefined or registered 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure that matches a specified key type and key. The search can be limited to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) within a specified OID group.
@@ -60,11 +60,7 @@ Use
 
 New OIDs can be placed in the list of registered OIDs either before or after the predefined entries. Because <b>CryptFindOIDInfo</b> returns the first key on the list that matches the search criteria, a newly registered OID placed before a predefined OID entry with the same key overrides a predefined entry.
 
-
 ## -parameters
-
-
-
 
 ### -param dwKeyType [in]
 
@@ -219,13 +215,10 @@ Skips public keys in the CRYPT_PUBKEY_ALG_OID_GROUP_ID group that are explicitly
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvKey [in]
 
 The address of a buffer that contains additional search information. This parameter depends on the value of the <i>dwKeyType</i> parameter. For more information, see the table under <i>dwKeyType</i>.
-
 
 ### -param dwGroupId [in]
 
@@ -259,19 +252,11 @@ Disables searching the directory server.
 
 The bit length shifted left 16 bits can be specified in the <i>dwGroupId</i> parameter by using the logical <b>OR</b> operator (|). For more information, see Remarks.
 
-
 ## -returns
-
-
 
 Returns a pointer to a constant structure of type <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>. The returned pointer must not be freed. When the specified key and group is not found, <b>NULL</b> is returned.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CryptFindOIDInfo</b> function performs a lookup in the active directory to retrieve the friendly names of OIDs under the following conditions:
 <ul>
@@ -296,14 +281,7 @@ PCCRYPT_OID_INFO pOIDInfo = CryptFindOIDInfo(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
@@ -326,7 +304,4 @@ PCCRYPT_OID_INFO pOIDInfo = CryptFindOIDInfo(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
- 
-
- 
 

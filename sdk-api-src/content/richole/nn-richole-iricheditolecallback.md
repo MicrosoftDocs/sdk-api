@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback.htm
 ms.date: 12/05/2018
 ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], IRichEditOleCallback interface [Windows Controls],described, _win32_IRichEditOleCallback, _win32_IRichEditOleCallback_cpp, controls.IRichEditOleCallback, controls._win32_IRichEditOleCallback, richole/IRichEditOleCallback
-f1_keywords:
-- richole/IRichEditOleCallback
-dev_langs:
-- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- IRichEditOleCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRichEditOleCallback
+ - richole/IRichEditOleCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - IRichEditOleCallback
 ---
 
 # IRichEditOleCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IRichEditOleCallback</b> interface is used by a rich text edit control to retrieve OLE-related information from its client. A rich edit control client is responsible for implementing this interface and assigning it to the control by using the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setolecallback">EM_SETOLECALLBACK</a> message.
-
 
 ## -inheritance
 
@@ -158,5 +157,5 @@ Indicates whether or not the application is to display its container UI. The ric
 
 </td>
 </tr>
-</table> 
+</table>
 

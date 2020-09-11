@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 4303c24d-e3e1-e188-bbef-e654c0e7e266
 ms.date: 12/05/2018
 ms.keywords: IDCompositionFilterEffect, IDCompositionFilterEffect interface [DirectComposition], IDCompositionFilterEffect interface [DirectComposition],described, dcomp/IDCompositionFilterEffect, directcomp.idcompositionfiltereffect
-f1_keywords:
-- dcomp/IDCompositionFilterEffect
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionFilterEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionFilterEffect
+ - dcomp/IDCompositionFilterEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionFilterEffect
 ---
 
 # IDCompositionFilterEffect interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a filter effect.
 
 IDCompositionFilterEffect exposes a subset of Direct2D's image <a href="https://docs.microsoft.com/windows/desktop/Direct2D/effects-overview">effects</a> through Direction Composition for use in CSS filters in the browser platform.
-
 
 ## -inheritance
 
@@ -79,20 +78,13 @@ Sets the the input at an index to the specified filter effect.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
- 
-
- 
 

@@ -3,10 +3,6 @@ UID: NF:traceloggingprovider.TraceLoggingUnregister
 title: TraceLoggingUnregister
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingUnregister
-f1_keywords:
-- TraceLoggingUnregister
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - TraceLoggingUnregister
+ - traceloggingprovider/TraceLoggingUnregister
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- traceloggingprovider.h
+ - traceloggingprovider.h
 api_name:
-- TraceLoggingUnregister
+ - TraceLoggingUnregister
 ---
 
 ## -description
@@ -56,3 +57,4 @@ In regards to thread safety, do not overlap calls to [**TraceLoggingRegister**](
 In addition, you must not call **TraceLoggingRegister** on a handle that is already registered or for a handle that could be in the process of being registered or unregistered on another thread.
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ba6dc70a-d77d-41de-afe1-65f2efcc4a95
 ms.date: 12/05/2018
 ms.keywords: IMFPMPServer, IMFPMPServer interface [Media Foundation], IMFPMPServer interface [Media Foundation],described, ba6dc70a-d77d-41de-afe1-65f2efcc4a95, mf.imfpmpserver, mfidl/IMFPMPServer
-f1_keywords:
-- mfidl/IMFPMPServer
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFPMPServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMPServer
+ - mfidl/IMFPMPServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFPMPServer
 ---
 
 # IMFPMPServer interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables two instances of the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> to share the same protected media path (PMP) process.
-        
-
 
 ## -inheritance
 
@@ -97,12 +95,9 @@ Decrements the lock count on the PMP process.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If your application creates more than one instance of the Media Session, you can use this interface to share the same PMP process among several instances. This can be more efficient than re-creating the PMP process each time.
 
@@ -117,19 +112,11 @@ Use this interface as follows:
           </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
- 
-
- 
 

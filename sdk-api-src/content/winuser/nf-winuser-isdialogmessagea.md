@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\isdialogmessage.htm
 ms.date: 12/05/2018
 ms.keywords: IsDialogMessage, IsDialogMessage function [Dialog Boxes], IsDialogMessageA, IsDialogMessageW, _win32_IsDialogMessage, _win32_isdialogmessage_cpp, dlgbox.isdialogmessage, winui._win32_isdialogmessage, winuser/IsDialogMessage, winuser/IsDialogMessageA, winuser/IsDialogMessageW
-f1_keywords:
-- winuser/IsDialogMessage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
-api_name:
-- IsDialogMessage
-- IsDialogMessageA
-- IsDialogMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsDialogMessageA
+ - winuser/IsDialogMessageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+api_name:
+ - IsDialogMessage
+ - IsDialogMessageA
+ - IsDialogMessageW
 ---
 
 # IsDialogMessageA function
@@ -52,45 +53,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines whether a message is intended for the specified dialog box and, if it is, processes the message. 
-
+Determines whether a message is intended for the specified dialog box and, if it is, processes the message.
 
 ## -parameters
-
-
-
 
 ### -param hDlg [in]
 
 Type: <b>HWND</b>
 
-A handle to the dialog box. 
-
+A handle to the dialog box.
 
 ### -param lpMsg [in]
 
 Type: <b>LPMSG</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be checked. 
-
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be checked.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the message has been processed, the return value is nonzero.
 
-If the message has not been processed, the return value is zero. 
-
-
-
+If the message has not been processed, the return value is zero.
 
 ## -remarks
-
-
 
 Although the <b>IsDialogMessage</b> function is intended for modeless dialog boxes, you can use it with any window that contains controls, enabling the windows to provide the same keyboard selection as is used in a dialog box. 
 
@@ -110,9 +97,6 @@ Because the <b>IsDialogMessage</b> function performs all necessary translating a
 > The winuser.h header defines IsDialogMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -151,7 +135,4 @@ Because the <b>IsDialogMessage</b> function performs all necessary translating a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>
- 
-
- 
 

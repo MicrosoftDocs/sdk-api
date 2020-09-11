@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 3672babb-b172-4f25-8d95-61f3aacce2f0
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],Expand method, IConsoleNameSpace2.Expand, IConsoleNameSpace2::Expand, _slate_iconsolenamespace2_expand, mmc.iconsolenamespace2_expand, mmc/IConsoleNameSpace2::Expand
-f1_keywords:
-- mmc/IConsoleNameSpace2.Expand
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsoleNameSpace2.Expand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsoleNameSpace2::Expand
+ - mmc/IConsoleNameSpace2::Expand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsoleNameSpace2.Expand
 ---
 
 # IConsoleNameSpace2::Expand
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IConsoleNameSpace2::Expand</b> method enables the snap-in to expand an item in the namespace without visibly expanding the item in the scope pane.
 
-
 ## -parameters
-
-
-
 
 ### -param hItem [in]
 
 A handle to the item to expand.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 <b>IConsoleNameSpace2::Expand</b> should be used to expand a specified item for the purpose of enumerating the child items of that item. Be aware that you must call <b>IConsoleNameSpace2::Expand</b> before inserting an item as a child item in the scope pane.
 
@@ -85,16 +73,7 @@ For example, if a snap-in must place a child item beneath a parent item at a spe
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole2-expand">IConsole2::Expand</a> to visibly expand or collapse an item in the scope pane. This method sends an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> if and only if the item has not been previously expanded.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
- 
-
- 
 

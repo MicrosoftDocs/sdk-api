@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 71ce4f79-8168-47c5-a8b1-4286b34f7a31
 ms.date: 12/05/2018
 ms.keywords: IWbemDecoupledBasicEventProvider, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation], IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],described, _hmm_iwbemdecoupledbasiceventprovider, wbemprov/IWbemDecoupledBasicEventProvider, wmi.iwbemdecoupledbasiceventprovider
-f1_keywords:
-- wbemprov/IWbemDecoupledBasicEventProvider
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmidcprv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmidcprv.dll
-api_name:
-- IWbemDecoupledBasicEventProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemDecoupledBasicEventProvider
+ - wbemprov/IWbemDecoupledBasicEventProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmidcprv.dll
+api_name:
+ - IWbemDecoupledBasicEventProvider
 ---
 
 # IWbemDecoupledBasicEventProvider interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemDecoupledBasicEventProvider</b> interface is a cocreatable interface that  registers decoupled providers with WMI. The object created should be passed into the <i>pUnknown </i>argument of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register">IWbemDecoupledRegistrar::Register</a>.
-
 
 ## -inheritance
 
@@ -98,13 +97,9 @@ Registers an object interface with WMI.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
@@ -115,7 +110,4 @@ Registers an object interface with WMI.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application">Incorporating a Provider in an Application</a>
- 
-
- 
 

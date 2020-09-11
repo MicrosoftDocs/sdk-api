@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f131203b-6d8e-4445-9b4f-a24e1ca62645
 ms.date: 12/05/2018
 ms.keywords: FSCTL_RECALL_FILE, FSCTL_RECALL_FILE control, FSCTL_RECALL_FILE control code [Files], _win32_fsctl_recall_file, base.fsctl_recall_file, fs.fsctl_recall_file, winioctl/FSCTL_RECALL_FILE
-f1_keywords:
-- winioctl/FSCTL_RECALL_FILE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_RECALL_FILE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_RECALL_FILE
+ - winioctl/FSCTL_RECALL_FILE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_RECALL_FILE
 ---
 
 # FSCTL_RECALL_FILE IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -196,7 +191,6 @@ Return Value
 }
 ```
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -204,3 +198,4 @@ Return Value
 * [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
 * [GetFileAttributes](../fileapi/nf-fileapi-getfileattributesa.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
+

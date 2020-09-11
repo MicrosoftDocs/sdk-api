@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: ea4bf623-c93a-4c0f-a84f-e3a979b37d60
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceManager2, IWMDeviceManager2 interface [windows Media Device Manager], IWMDeviceManager2 interface [windows Media Device Manager],described, IWMDeviceManager2Interface, mswmdm/IWMDeviceManager2, wmdm.iwmdevicemanager2
-f1_keywords:
-- mswmdm/IWMDeviceManager2
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDeviceManager2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDeviceManager2
+ - mswmdm/IWMDeviceManager2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDeviceManager2
 ---
 
 # IWMDeviceManager2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDeviceManager2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a> interface. It provides a way of enumerating devices that takes advantage of the Plug and Play (PnP) system that results in better performance and lower memory use. It also enables the application to query for a specific device based on the canonical name of the device.
-
-
-
 
 ## -inheritance
 
@@ -98,20 +94,13 @@ Forces Windows Media Device Manager to rediscover all the Windows Media Device M
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 833A24EA-11E0-47CF-A710-06E38A1FD50A
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], IMFSensorProcessActivity interface [Media Foundation],described, mf.imfsensorprocessactivity, mfidl/IMFSensorProcessActivity
-f1_keywords:
-- mfidl/IMFSensorProcessActivity
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorProcessActivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorProcessActivity
+ - mfidl/IMFSensorProcessActivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorProcessActivity
 ---
 
 # IMFSensorProcessActivity interface
@@ -52,9 +53,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the activity of a process associated with a sensor.
-
 
 ## -inheritance
 
@@ -107,5 +106,5 @@ Gets a value indicating whether the sensor is currently streaming.
 
 </td>
 </tr>
-</table> 
+</table>
 

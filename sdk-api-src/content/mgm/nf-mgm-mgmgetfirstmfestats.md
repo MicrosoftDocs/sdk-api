@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: b546c1a6-31a7-4053-9494-6903faa4df52
 ms.date: 12/05/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetFirstMfeStats, MgmGetFirstMfeStats function [RAS], _mpr_mgmgetfirstmfestats, mgm/MgmGetFirstMfeStats, rras.mgmgetfirstmfestats
-f1_keywords:
-- mgm/MgmGetFirstMfeStats
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- MgmGetFirstMfeStats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MgmGetFirstMfeStats
+ - mgm/MgmGetFirstMfeStats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - MgmGetFirstMfeStats
 ---
 
 # MgmGetFirstMfeStats function
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MgmGetFirstMfeStats</b> function retrieves MFE statistics starting at the beginning of the MFE list. The function can retrieve zero, one, or more sets of MFE statistics. The number of sets returned depends on the size of the entries and the size of the buffer supplied by the client when the function is called.
 
 The data returned in the buffer is ordered first by group, and then by the sources within a group. The statistics returned include the packets received, bytes received, and packets forwarded on each outgoing interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwBufferSize [in, out]
 
@@ -69,7 +65,6 @@ On input, <i>pdwBufferSize</i> is a pointer to a <b>DWORD</b>-sized memory locat
 
 
 On output, if the return value is ERROR_INSUFFICIENT_BUFFER, <i>pdwBufferSize</i> receives the minimum size <i>pbBuffer</i> must be to hold a set of MFE statistics; otherwise, the value of <i>pdwBufferSize</i> remains unchanged.
-
 
 ### -param pbBuffer [in, out]
 
@@ -81,7 +76,6 @@ On input, the client must supply a pointer to a buffer.
 On output, <i>pbBuffer</i> contains one or more sets of MFE statistics. Each set of MFE statistics is a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> structure.
 
-
 ### -param pdwNumEntries [in, out]
 
 On input, the client must supply a pointer to a <b>DWORD</b>-sized memory location. 
@@ -90,7 +84,6 @@ On input, the client must supply a pointer to a <b>DWORD</b>-sized memory locati
 
 
 On output, <i>pdwNumEntries</i> receives the number of sets of MFE statistics contained in <i>pbBuffer</i>.
-
 
 ### -param dwFlags
 
@@ -122,12 +115,8 @@ Include statistics corresponding to <a href="https://docs.microsoft.com/windows/
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -183,14 +172,8 @@ No more MFE statistics are available. Zero or more sets of MFE statistics were r
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is used to begin sequential retrieval of MFE statistics; use 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a> to continue the retrieval process.
@@ -208,12 +191,7 @@ The MFE statistics are returned in either an <a href="https://docs.microsoft.com
 <b>sizeof</b> macro to determine the size of each set of statistics returned in the buffer.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>
 
@@ -228,7 +206,4 @@ The MFE statistics are returned in either an <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a>
- 
-
- 
 

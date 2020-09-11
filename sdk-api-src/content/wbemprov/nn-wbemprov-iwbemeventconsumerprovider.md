@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 793bbc22-4a8b-4ab3-8cfe-7d81f42a6b7f
 ms.date: 12/05/2018
 ms.keywords: IWbemEventConsumerProvider, IWbemEventConsumerProvider interface [Windows Management Instrumentation], IWbemEventConsumerProvider interface [Windows Management Instrumentation],described, _hmm_iwbemeventconsumerprovider, wbemprov/IWbemEventConsumerProvider, wmi.iwbemeventconsumerprovider
-f1_keywords:
-- wbemprov/IWbemEventConsumerProvider
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemEventConsumerProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemEventConsumerProvider
+ - wbemprov/IWbemEventConsumerProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemEventConsumerProvider
 ---
 
 # IWbemEventConsumerProvider interface
 
 
 ## -description
-
 
 The 
 <b>IWbemEventConsumerProvider</b> interface provides the primary interface for an event consumer provider. Through 
@@ -59,7 +59,6 @@ this interface and the
 
 If you implement a permanent event consumer, you must implement 
 <b>IWbemEventConsumerProvider</b> so that WMI can deliver events to your physical consumer.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Called by Windows Management to retrieve an
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: c919eb01-bd15-4583-afcf-e46ac2fc9c8c
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT, WS_XML_WRITER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES, WS_XML_WRITER_PROPERTY_BUFFERS, WS_XML_WRITER_PROPERTY_BUFFER_MAX_SIZE, WS_XML_WRITER_PROPERTY_BUFFER_TRIM_SIZE, WS_XML_WRITER_PROPERTY_BYTES, WS_XML_WRITER_PROPERTY_BYTES_TO_CLOSE, WS_XML_WRITER_PROPERTY_BYTES_WRITTEN, WS_XML_WRITER_PROPERTY_CHARSET, WS_XML_WRITER_PROPERTY_COMPRESS_EMPTY_ELEMENTS, WS_XML_WRITER_PROPERTY_EMIT_UNCOMPRESSED_EMPTY_ELEMENTS, WS_XML_WRITER_PROPERTY_ID, WS_XML_WRITER_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_WRITER_PROPERTY_INDENT, WS_XML_WRITER_PROPERTY_INITIAL_BUFFER, WS_XML_WRITER_PROPERTY_IN_ATTRIBUTE, WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES, WS_XML_WRITER_PROPERTY_MAX_DEPTH, WS_XML_WRITER_PROPERTY_MAX_MIME_PARTS_BUFFER_SIZE, WS_XML_WRITER_PROPERTY_MAX_NAMESPACES, WS_XML_WRITER_PROPERTY_WRITE_DECLARATION, webservices/WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT, webservices/WS_XML_WRITER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES, webservices/WS_XML_WRITER_PROPERTY_BUFFERS, webservices/WS_XML_WRITER_PROPERTY_BUFFER_MAX_SIZE, webservices/WS_XML_WRITER_PROPERTY_BUFFER_TRIM_SIZE, webservices/WS_XML_WRITER_PROPERTY_BYTES, webservices/WS_XML_WRITER_PROPERTY_BYTES_TO_CLOSE, webservices/WS_XML_WRITER_PROPERTY_BYTES_WRITTEN, webservices/WS_XML_WRITER_PROPERTY_CHARSET, webservices/WS_XML_WRITER_PROPERTY_COMPRESS_EMPTY_ELEMENTS, webservices/WS_XML_WRITER_PROPERTY_EMIT_UNCOMPRESSED_EMPTY_ELEMENTS, webservices/WS_XML_WRITER_PROPERTY_ID, webservices/WS_XML_WRITER_PROPERTY_INDENT, webservices/WS_XML_WRITER_PROPERTY_INITIAL_BUFFER, webservices/WS_XML_WRITER_PROPERTY_IN_ATTRIBUTE, webservices/WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES, webservices/WS_XML_WRITER_PROPERTY_MAX_DEPTH, webservices/WS_XML_WRITER_PROPERTY_MAX_MIME_PARTS_BUFFER_SIZE, webservices/WS_XML_WRITER_PROPERTY_MAX_NAMESPACES, webservices/WS_XML_WRITER_PROPERTY_WRITE_DECLARATION, wsw.ws_xml_writer_property_id
-f1_keywords:
-- webservices/WS_XML_WRITER_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_WRITER_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_XML_WRITER_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_XML_WRITER_PROPERTY_ID
+ - webservices/WS_XML_WRITER_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_WRITER_PROPERTY_ID
 ---
 
 # WS_XML_WRITER_PROPERTY_ID enumeration
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Each xml writer property is identified by an ID and has an associated value.
       This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritexmlbuffertobytes">WsWriteXmlBufferToBytes</a>. It is also used directly as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterproperty">WsGetWriterProperty</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WS_XML_WRITER_PROPERTY_MAX_DEPTH
 
@@ -71,8 +67,6 @@ A depth of 0 prevents any start elements from being written.
         
 
 This property defaults to 32.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT
 
@@ -81,8 +75,6 @@ A <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_enco
         
 
 This property defaults to <b>FALSE</b>.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES
 
@@ -91,8 +83,6 @@ A <b>ULONG</b> that specifies
         
 
 This property defaults to 128.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_WRITE_DECLARATION
 
@@ -100,8 +90,6 @@ A <b>BOOL</b> that specifies if the writer should emit an appropriate xml declar
         
 
 This property defaults to <b>FALSE</b>.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_INDENT
 
@@ -109,8 +97,6 @@ A <b>ULONG</b> that specifies the how many spaces of indenting should be used to
         
 
 This property defaults to 0.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_BUFFER_TRIM_SIZE
 
@@ -129,16 +115,12 @@ This property has no effect when specified with <a href="https://docs.microsoft.
         
 
 This property defaults to 4096.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_CHARSET
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET</a> value that
           returns the character set the writer is using to encode the document.  This value is only available for
           text documents.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_BUFFERS
 
@@ -163,8 +145,6 @@ This property is not available on a writer that is set to a <a href="https://doc
 
 This may be less convenient but more efficient than using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_BYTES</a> because the
           writer does not have to concatenate the buffers that comprise the document into a single buffer.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_BUFFER_MAX_SIZE
 
@@ -181,8 +161,6 @@ If the writer is using <a href="/windows/win32/api/webservices/ns-webservices-ws
         
 
 This property has no effect when specified with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a>.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_BYTES
 
@@ -207,16 +185,12 @@ This property is not available on a writer that is set to a <a href="https://doc
 
 This may be more convenient but less efficient than using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_BUFFERS</a> because the
           writer may need to concatenate the buffers that comprise the document into a single buffer.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_IN_ATTRIBUTE
 
 A <b>BOOL</b> that
           indicates that <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> has been called and the writer is
           positioned on attribute content.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_MAX_MIME_PARTS_BUFFER_SIZE
 
@@ -227,8 +201,6 @@ A <b>ULONG</b> used with <a href="/windows/win32/api/webservices/ns-webservices-
         
 
 This property defaults to 65536.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_INITIAL_BUFFER
 
@@ -245,8 +217,6 @@ This buffer may appear as one of the buffers returned by the property <a href="h
         
 
 The caller must ensure that the buffer specified is valid for the lifetime of the writer.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES
 
@@ -258,8 +228,6 @@ Setting this property to <b>TRUE</b> may affect interoperability.
         
 
 This property defaults to <b>FALSE</b>.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_MAX_NAMESPACES
 
@@ -268,8 +236,6 @@ A <b>ULONG</b> that specifies the maximum number of xmlns unique declarations th
         
 
 This property defaults to 32.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_BYTES_WRITTEN
 
@@ -289,8 +255,6 @@ If the writer is currently writing an element start tag, then the size of the st
         
 
 This property is not available on a writer that was set using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a>.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_BYTES_TO_CLOSE
 
@@ -304,8 +268,6 @@ An application can use <a href="https://docs.microsoft.com/windows/desktop/api/w
         
 
 This property is not available on a writer that was set using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a>.
-        
-
 
 ### -field WS_XML_WRITER_PROPERTY_COMPRESS_EMPTY_ELEMENTS
 

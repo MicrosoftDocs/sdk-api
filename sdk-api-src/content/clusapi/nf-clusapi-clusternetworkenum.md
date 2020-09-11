@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 41cfb436-7494-4065-b287-075c4c771278
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NETWORK_ENUM_NETINTERFACES, ClusterNetworkEnum, ClusterNetworkEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_ENUM, PCLUSAPI_CLUSTER_NETWORK_ENUM function [Failover Cluster], _wolf_clusternetworkenum, clusapi/ClusterNetworkEnum, clusapi/PCLUSAPI_CLUSTER_NETWORK_ENUM, mscs.clusternetworkenum
-f1_keywords:
-- clusapi/ClusterNetworkEnum
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterNetworkEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterNetworkEnum
+ - clusapi/ClusterNetworkEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterNetworkEnum
 ---
 
 # ClusterNetworkEnum function
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> on a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>, returning the name of one object with each call. The <b>PCLUSAPI_CLUSTER_NETWORK_ENUM</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hNetworkEnum [in]
 
 A handle to an existing enumeration object originally returned by the 
        <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a> function.
 
-
 ### -param dwIndex [in]
 
 The index used to identify the next entry to be enumerated. This parameter should be zero for the first call 
        to <b>ClusterNetworkEnum</b> and then incremented for 
        subsequent calls.
-
 
 ### -param lpdwType [out]
 
@@ -84,11 +78,9 @@ A pointer to the type of object returned. The following value of the
 
 The object is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
 
-
 ### -param lpszName [out]
 
 A pointer to a null-terminated Unicode string containing the name of the returned object.
-
 
 ### -param lpcchName [in, out]
 
@@ -97,10 +89,7 @@ A pointer to the size of the <i>lpszName</i> buffer as a count of characters. On
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -150,14 +139,8 @@ No more data is available. This value is returned if there are no more objects o
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ClusterNetworkEnum</b> function is typically 
      used to iterate through a collection of objects of one or more types belonging to a network object. If, for 
@@ -184,12 +167,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_enum">CLUSTER_NETWORK_ENUM</a>
 
@@ -204,7 +182,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a>
- 
-
- 
 

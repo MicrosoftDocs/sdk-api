@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 3789c876-f42c-4f69-b683-96c157d6418d
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], IDiscFormat2Erase interface [IMAPI],described, imapi.idiscformat2erase, imapi2/IDiscFormat2Erase
-f1_keywords:
-- imapi2/IDiscFormat2Erase
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Erase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Erase
+ - imapi2/IDiscFormat2Erase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Erase
 ---
 
 # IDiscFormat2Erase interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
 Use this interface to erase data from a disc.
 
 To create an instance of this interface, call the <b>CoCreateInstance</b> function. Use__uuidof(MsftDiscFormat2Erase) for the class identifier and __uuidof(IDiscFormat2Erase) for the interface identifier.
-
 
 ## -inheritance
 
@@ -144,25 +141,13 @@ Sets the recording device to use in the erase operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create the <b>MsftDiscFormat2Erase</b> object in a script, use IMAPI2.MsftDiscFormat2Erase as the program identifier when calling <b>CreateObject</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
- 
-
- 
 

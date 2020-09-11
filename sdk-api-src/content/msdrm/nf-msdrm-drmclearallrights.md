@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: f0a5dc8d-2bc6-4fcc-8871-ea80fc6a4abc
 ms.date: 12/05/2018
 ms.keywords: DRMClearAllRights, DRMClearAllRights function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClearAllRights, rm.drmclearallrights
-f1_keywords:
-- msdrm/DRMClearAllRights
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMClearAllRights
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMClearAllRights
+ - msdrm/DRMClearAllRights
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMClearAllRights
 ---
 
 # DRMClearAllRights function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,48 +61,27 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMClearAllRights</b> function removes all rights from an existing issuance license.
 
-
 ## -parameters
-
-
-
 
 ### -param hIssuanceLicense [in]
 
 A handle to the issuance license to remove the rights from.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 There is no way to remove individual rights from an issuance license.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmaddrightwithuser">DRMAddRightWithUser</a>
- 
-
- 
 

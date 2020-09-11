@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195
 ms.date: 12/05/2018
 ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
-f1_keywords:
-- appmodel/GetCurrentApplicationUserModelId
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetCurrentApplicationUserModelId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentApplicationUserModelId
+ - appmodel/GetCurrentApplicationUserModelId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetCurrentApplicationUserModelId
 ---
 
 # GetCurrentApplicationUserModelId function
@@ -54,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the current process.
 
-
 ## -parameters
-
-
-
 
 ### -param applicationUserModelIdLength [in, out]
 
 On input, the size of the  <i>applicationUserModelId</i> buffer, in wide characters. On success, the size of the buffer used, including the null terminator.
 
-
 ### -param applicationUserModelId [out]
 
 A pointer to a buffer that receives the application user model ID.
 
-
 ## -returns
-
-
 
 If the function succeeds it returns <b>ERROR_SUCCESS</b>. Otherwise, the function returns an error code. The possible error codes include the following.
 
@@ -107,14 +99,8 @@ The buffer is not large enough to hold the data. The required size is specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
@@ -166,21 +152,11 @@ int __cdecl wmain()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getapplicationusermodelid">GetApplicationUserModelId</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
- 
-
- 
 

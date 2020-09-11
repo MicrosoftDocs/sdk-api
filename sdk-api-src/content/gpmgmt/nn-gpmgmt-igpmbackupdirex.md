@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 3008e70c-cc34-45b0-bdfc-17f2e9cd5de0
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDirEx, IGPMBackupDirEx, IGPMBackupDirEx interface [GPMC], IGPMBackupDirEx interface [GPMC],described, gpmc.igpmbackupdirex, gpmgmt/IGPMBackupDirEx
-f1_keywords:
-- gpmgmt/IGPMBackupDirEx
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMBackupDirEx
-- GPMBackupDirEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMBackupDirEx
+ - gpmgmt/IGPMBackupDirEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMBackupDirEx
+ - GPMBackupDirEx
 ---
 
 # IGPMBackupDirEx interface
 
 
 ## -description
-
 
 The 
 <b>IGPMBackupDirEx</b> interface supports methods that allow you to query 
@@ -59,7 +59,6 @@ and <b>GPMStarterGPOBackupCollection</b>    objects when you are using the Group
 
 To create a <b>GPMBackupDirEx</b> object, call the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getbackupdir">IGPM2::GetBackupDirEx</a> method.
-
 
 ## -inheritance
 
@@ -127,13 +126,9 @@ Value that specifies whether the  specified backup is a Group Policy object (GPO
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -156,7 +151,4 @@ Value that specifies whether the  specified backup is a Group Policy object (GPO
 
 
 <b>IGPMStarterGPOBackupCollection</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 777c7302-5b5b-4263-ad9e-3d1bff5328fc
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumComponentTypes interface, IEnumComponentTypes interface [Microsoft TV Technologies],Clone method, IEnumComponentTypes.Clone, IEnumComponentTypes::Clone, IEnumComponentTypesClone, mstv.ienumcomponenttypes_clone, tuner/IEnumComponentTypes::Clone
-f1_keywords:
-- tuner/IEnumComponentTypes.Clone
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IEnumComponentTypes.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumComponentTypes::Clone
+ - tuner/IEnumComponentTypes::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IEnumComponentTypes.Clone
 ---
 
 # IEnumComponentTypes::Clone
@@ -49,39 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Clone</b> method creates a new copy of the collection and all its sub-objects.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Address of an <b>IEnumComponentTypes</b> interface pointer that will be set to the returned collection object.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponenttypes">IEnumComponentTypes Interface</a>
- 
-
- 
 

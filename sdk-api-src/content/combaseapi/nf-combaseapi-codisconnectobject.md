@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4293316a-bafe-4fca-ad6a-68d8e99c8fba
 ms.date: 12/05/2018
 ms.keywords: CoDisconnectObject, CoDisconnectObject function [COM], _com_CoDisconnectObject, com.codisconnectobject, combaseapi/CoDisconnectObject
-f1_keywords:
-- combaseapi/CoDisconnectObject
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoDisconnectObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoDisconnectObject
+ - combaseapi/CoDisconnectObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoDisconnectObject
 ---
 
 # CoDisconnectObject function
@@ -54,39 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disconnects all remote process connections being maintained on behalf of all the interface pointers that point to a specified object.
 
 Only the process that actually manages the object should call <b>CoDisconnectObject</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param pUnk [in]
 
 A pointer to any interface derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> on the object to be disconnected.
 
-
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 This function returns S_OK to indicate that all connections to remote processes were successfully deleted.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CoDisconnectObject</b> function enables a server to correctly disconnect all external clients to the object specified by <i>pUnk</i>.
 
@@ -104,14 +91,7 @@ Similarly, an OLE container that supports external links to its embedded objects
 
 <b>CoDisconnectObject</b> does not necessarily disconnect out-of-process clients immediately. If any marshaled calls are pending on the server object, <b>CoDisconnectObject</b> disconnects the object only when those calls have returned. In the meantime, <b>CoDisconnectObject</b> sets a flag that causes any new marshaled calls to return CO_E_OBJNOTCONNECTED.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a>
 
@@ -122,7 +102,4 @@ Similarly, an OLE container that supports external links to its embedded objects
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
- 
-
- 
 

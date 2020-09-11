@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1abed0be-b4e3-41f4-af6c-e327ce934b59
 ms.date: 12/05/2018
 ms.keywords: ISynchronize interface [COM],Wait method, ISynchronize.Wait, ISynchronize::Wait, Wait, Wait method [COM], Wait method [COM],ISynchronize interface, _com_isynchronize_wait, com.isynchronize_wait, objidlbase/ISynchronize::Wait
-f1_keywords:
-- objidlbase/ISynchronize.Wait
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- ISynchronize.Wait
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISynchronize::Wait
+ - objidlbase/ISynchronize::Wait
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - ISynchronize.Wait
 ---
 
 # ISynchronize::Wait
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits for the synchronization object to be signaled or for a specified timeout period to elapse, whichever comes first.
-
 
 ## -parameters
 
-
-
-
 ### -param dwFlags [in]
 
-The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration. 
-
+The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration.
 
 ### -param dwMilliseconds [in]
 
 The time this call will wait before returning, in milliseconds. If this parameter is INFINITE, the caller will wait until the synchronization object is signaled, no matter how long it takes. If this parameter is 0, the method returns immediately.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_FAIL, as well as the following values.
 
@@ -102,31 +94,16 @@ The time-out period elapsed before the synchronization object was signaled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the caller is waiting in a single-thread apartment, <b>Wait</b> enters the COM modal loop. If the caller is waiting in a multithread apartment, the caller is blocked until <b>Wait</b> returns.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles">CoWaitForMultipleHandles</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>
- 
-
- 
 

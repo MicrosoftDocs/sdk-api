@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce
 ms.date: 12/05/2018
 ms.keywords: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce, MFVideoAlphaBitmapParams, MFVideoAlphaBitmapParams structure [Media Foundation], evr9/MFVideoAlphaBitmapParams, mf.mfvideoalphabitmapparams
-f1_keywords:
-- evr9/MFVideoAlphaBitmapParams
-dev_langs:
-- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- evr9.h
-api_name:
-- MFVideoAlphaBitmapParams
 targetos: Windows
 req.typenames: MFVideoAlphaBitmapParams
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFVideoAlphaBitmapParams
+ - evr9/MFVideoAlphaBitmapParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - evr9.h
+api_name:
+ - MFVideoAlphaBitmapParams
 ---
 
 # MFVideoAlphaBitmapParams structure
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
 Bitwise OR of one or more flags from the <a href="/windows/win32/api/evr9/ne-evr9-mfvideoalphabitmapflags">MFVideoAlphaBitmapFlags</a> enumeration. These flags indicate which of the other structure members contain valid information.
-
 
 ### -field clrSrcKey
 
 Source color key. This member is used if the <b>dwFlags</b> member contains the MFVideoAlphaBitmap_SrcColorKey flag. Any pixels in the bitmap that match the color key are rendered as transparent pixels.
 
 You cannot specify a color key if you are alpha-blending a Direct3D surface with per-pixel alpha (D3DFMT_A8R8G8B8).
-
 
 ### -field rcSrc
 
@@ -85,20 +76,17 @@ After setting the initiali bitmap, you can update the source rectangle by callin
 
 The source rectangle cannot be an empty rectangle, and cannot exceed the bounds of the bitmap.
 
-
 ### -field nrcDest
 
 Destination rectangle. The destination rectangle defines the region of the composited video image that receives the alpha-blended bitmap. The destination rectangle is specified as a normalized rectangle using the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure.
 
 This member is used if the <b>dwFlags</b> member contains the MFVideoAlphaBitmap_DestRect flag. Otherwise, the default destination rectangle is {0, 0, 1, 1}.
 
-
 ### -field fAlpha
 
 Alpha blending value. This member is used if the <b>dwFlags</b> member contains the MFVideoAlphaBitmap_Alpha flag. Otherwise, the default value is 1.0 (opaque). The valid range is 0.0 to 1.0, inclusive.
 
 This value is applied to the entire bitmap image. To create transparent regions, use the <b>clrSrcKey</b> member or use a DirectDraw surface with per-pixel alpha.
-
 
 ### -field dwFilterMode
 
@@ -108,11 +96,7 @@ This member is used if the <b>dwFlags</b> member contains the MFVideoAlphaBitmap
 
 Point filtering is particularly useful for images that contain text and will not be stretched.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
@@ -127,7 +111,4 @@ Point filtering is particularly useful for images that contain text and will not
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

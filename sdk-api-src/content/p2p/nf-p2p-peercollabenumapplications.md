@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 550cbd9d-5569-485e-897d-73d8bab8430a
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumApplications, PeerCollabEnumApplications function [Peer Networking], p2p.peercollabenumapplications, p2p/PeerCollabEnumApplications
-f1_keywords:
-- p2p/PeerCollabEnumApplications
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabEnumApplications
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabEnumApplications
+ - p2p/PeerCollabEnumApplications
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabEnumApplications
 ---
 
 # PeerCollabEnumApplications function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabEnumApplications</b> function returns the handle to an enumeration that contains the applications registered to a specific peer's endpoint(s).
 
-
 ## -parameters
-
-
-
 
 ### -param pcEndpoint [in, optional]
 
@@ -64,20 +60,15 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-
 
 If this parameter is set to <b>NULL</b>, the published application information for the local peer's endpoint is enumerated.
 
-
 ### -param pApplicationId [in, optional]
 
 Pointer to the GUID value that uniquely identifies a particular application of the supplied peer. If this parameter is supplied, the only peer application returned is the one that matches this GUID.
-
 
 ### -param phPeerEnum [out]
 
 Pointer to the handle for the enumerated set of registered applications that correspond to the GUID returned in <i>pObjectId</i>. Pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to obtain each item in the enumerated set.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -120,14 +111,8 @@ The Windows Peer infrastructure is not initialized. Calling the relevant initial
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In order to enumerate the applications for the specified endpoint  successfully, application data must be available on the endpoint. For application data to be available, one of the following must occur:<ul>
 <li>The endpoint must have been previously obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabenumendpoints">PeerCollabEnumEndpoints</a>.
@@ -143,13 +128,7 @@ Peer application data items are returned as individual <a href="https://docs.mic
 
 The <b>PeerCollabEnumApplications</b> function returns an empty array for endpoints on the subnet that are not trusted contacts.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application">PEER_APPLICATION</a>
 
@@ -164,7 +143,4 @@ The <b>PeerCollabEnumApplications</b> function returns an empty array for endpoi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
- 
-
- 
 

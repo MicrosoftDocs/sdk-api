@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: fad61b7f-b9da-4a1b-bb5e-ad20bc87fb5c
 ms.date: 12/05/2018
 ms.keywords: IUPnPAddressFamilyControl, IUPnPAddressFamilyControl interface [UPnP APIs], IUPnPAddressFamilyControl interface [UPnP APIs],described, upnp.iupnpaddressfamilycontrol, upnp/IUPnPAddressFamilyControl
-f1_keywords:
-- upnp/IUPnPAddressFamilyControl
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPAddressFamilyControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPAddressFamilyControl
+ - upnp/IUPnPAddressFamilyControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPAddressFamilyControl
 ---
 
 # IUPnPAddressFamilyControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IUPnPAddressFamilyControl</b> interface accesses the address family flag of the Device Finder object.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Sets the address family flag of the Device Finder object.
 
 </td>
 </tr>
-</table> 
+</table>
 

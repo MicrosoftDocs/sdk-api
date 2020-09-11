@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: ee458ab8-38f1-43ec-a9b4-a2c31f80fce2
 ms.date: 12/05/2018
 ms.keywords: EndPort property [Windows Deployment Services], EndPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndPort property, IWdsTransportServicePolicy.EndPort, IWdsTransportServicePolicy.get_EndPort, IWdsTransportServicePolicy::EndPort, IWdsTransportServicePolicy::get_EndPort, IWdsTransportServicePolicy::put_EndPort, get_EndPort, wds.iwdstransportservicepolicy_endport, wdstptmgmt/IWdsTransportServicePolicy::EndPort, wdstptmgmt/IWdsTransportServicePolicy::get_EndPort, wdstptmgmt/IWdsTransportServicePolicy::put_EndPort
-f1_keywords:
-- wdstptmgmt/IWdsTransportServicePolicy.EndPort
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportServicePolicy.EndPort
-- IWdsTransportServicePolicy.get_EndPort
-- IWdsTransportServicePolicy.put_EndPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportServicePolicy::get_EndPort
+ - wdstptmgmt/IWdsTransportServicePolicy::get_EndPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportServicePolicy.EndPort
+ - IWdsTransportServicePolicy.get_EndPort
+ - IWdsTransportServicePolicy.put_EndPort
 ---
 
 # IWdsTransportServicePolicy::get_EndPort
@@ -51,31 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables  a WDS client computer to configure the end of a UDP port range that is used by WDS transport services.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-When setting the UDP end port, this property validates that it is a valid value. 
-
-
-
+When setting the UDP end port, this property validates that it is a valid value.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a>
- 
-
- 
 

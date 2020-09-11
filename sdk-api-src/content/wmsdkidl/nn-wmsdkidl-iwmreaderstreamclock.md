@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 0f170b6d-fd93-4bf8-8a98-f2a80f03b380
 ms.date: 12/05/2018
 ms.keywords: IWMReaderStreamClock, IWMReaderStreamClock interface [windows Media Format], IWMReaderStreamClock interface [windows Media Format],described, IWMReaderStreamClockInterface, wmformat.iwmreaderstreamclock, wmsdkidl/IWMReaderStreamClock
-f1_keywords:
-- wmsdkidl/IWMReaderStreamClock
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMReaderStreamClock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderStreamClock
+ - wmsdkidl/IWMReaderStreamClock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMReaderStreamClock
 ---
 
 # IWMReaderStreamClock interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMReaderStreamClock</b> interface provides access to the clock used by the reader.
 
 This interface exists for every reader object. You can obtain a pointer to an instance of this interface by calling the <b>QueryInterface</b> method of any other interface of the reader object.
-
-
-
 
 ## -inheritance
 
@@ -104,19 +100,11 @@ Sets a timer on the stream clock.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
- 
-
- 
 

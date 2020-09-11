@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: directwrite
+f1_keywords:
+ - dwrite_2
+ - dwrite_2/dwrite_2
 ---
 
 # Dwrite_2.h header
 
 
 ## -description
-
 
 This header is used by DirectWrite. For more information, see:
 

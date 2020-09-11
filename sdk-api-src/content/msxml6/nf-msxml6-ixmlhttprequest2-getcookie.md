@@ -8,10 +8,6 @@ tech.root: ixhr2
 ms.assetid: A2A9C54B-92A2-41EA-A741-797BA219BCDA
 ms.date: 12/05/2018
 ms.keywords: GetCookie, GetCookie method [XMLHttpRequest2], GetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetCookie method, IXMLHTTPRequest2.GetCookie, IXMLHTTPRequest2::GetCookie, ixhr2.ixmlhttprequest2_getcookie, msxml6/IXMLHTTPRequest2::GetCookie
-f1_keywords:
-- msxml6/IXMLHTTPRequest2.GetCookie
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msxml6.h
-api_name:
-- IXMLHTTPRequest2.GetCookie
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLHTTPRequest2::GetCookie
+ - msxml6/IXMLHTTPRequest2::GetCookie
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msxml6.h
+api_name:
+ - IXMLHTTPRequest2.GetCookie
 ---
 
 # IXMLHTTPRequest2::GetCookie
@@ -49,55 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a cookie associated with the specified URL from the HTTP cookie jar.
-
 
 ## -parameters
 
-
-
-
 ### -param pwszUrl
 
-A null-terminated string that specifies the URL in the cookie. 
-
+A null-terminated string that specifies the URL in the cookie.
 
 ### -param pwszName
 
 A null-terminated string that specifies the name in the cookie.
 
-
 ### -param dwFlags
 
-A set of bit flags that specifies how this method retrieves the cookies. This parameter can be a set values from the <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cookie_flag">XHR_COOKIE_FLAG</a> enumeration type defined in the <i>Msxml6.h</i> header file. 
-
- 
-
+A set of bit flags that specifies how this method retrieves the cookies. This parameter can be a set values from the <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cookie_flag">XHR_COOKIE_FLAG</a> enumeration type defined in the <i>Msxml6.h</i> header file.
 
 ### -param pcCookies
 
 A count of cookies pointed to by the <i>ppCookies</i> if the call is successful.
 
-
 ### -param ppCookies [out]
 
 A pointer to the cookies associated with the specified <i>pwszUrl</i> and <i>pwszName</i>.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success; <b>E_FAIL</b> indicates an error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree Function</a>
 
@@ -116,7 +97,4 @@ Returns <b>S_OK</b> on success; <b>E_FAIL</b> indicates an error.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cookie_flag">XHR_COOKIE_FLAG</a>
- 
-
- 
 

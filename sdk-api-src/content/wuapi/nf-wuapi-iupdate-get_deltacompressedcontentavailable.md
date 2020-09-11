@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: b713a349-45fe-492a-a966-17112edf00ec
 ms.date: 12/05/2018
 ms.keywords: DeltaCompressedContentAvailable property [Windows Update Agent], DeltaCompressedContentAvailable property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeltaCompressedContentAvailable property, IUpdate.DeltaCompressedContentAvailable, IUpdate.get_DeltaCompressedContentAvailable, IUpdate::DeltaCompressedContentAvailable, IUpdate::get_DeltaCompressedContentAvailable, get_DeltaCompressedContentAvailable, wua.iupdate_deltacompressedcontentavailable, wuapi/IUpdate::DeltaCompressedContentAvailable, wuapi/IUpdate::get_DeltaCompressedContentAvailable
-f1_keywords:
-- wuapi/IUpdate.DeltaCompressedContentAvailable
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.DeltaCompressedContentAvailable
-- IUpdate.get_DeltaCompressedContentAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_DeltaCompressedContentAvailable
+ - wuapi/IUpdate::get_DeltaCompressedContentAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.DeltaCompressedContentAvailable
+ - IUpdate.get_DeltaCompressedContentAvailable
 ---
 
 # IUpdate::get_DeltaCompressedContentAvailable
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether delta-compressed content is available on a server for the update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
 

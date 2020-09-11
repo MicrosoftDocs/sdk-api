@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 403e45fa-bcd6-4422-9111-e9ca9859550a
 ms.date: 12/05/2018
 ms.keywords: ADS_SCOPEENUM, ADS_SCOPEENUM enumeration [ADSI], ADS_SCOPE_BASE, ADS_SCOPE_ONELEVEL, ADS_SCOPE_SUBTREE, _ds_ads_scopeenum, adsi.ads__scopeenum, adsi.ads_scopeenum, iads/ADS_SCOPEENUM, iads/ADS_SCOPE_BASE, iads/ADS_SCOPE_ONELEVEL, iads/ADS_SCOPE_SUBTREE
-f1_keywords:
-- iads/ADS_SCOPEENUM
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iads.h
-api_name:
-- ADS_SCOPEENUM
 targetos: Windows
 req.typenames: ADS_SCOPEENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_ads_0000_0000_0021
+ - iads/__MIDL___MIDL_itf_ads_0000_0000_0021
+ - ADS_SCOPEENUM
+ - iads/ADS_SCOPEENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iads.h
+api_name:
+ - ADS_SCOPEENUM
 ---
 
 # ADS_SCOPEENUM enumeration
@@ -49,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADS_SCOPEENUM</b> enumeration specifies the scope of a directory search.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ADS_SCOPE_BASE
 
 Limits the search to the base object. The result contains, at most, one object.
 
-
 ### -field ADS_SCOPE_ONELEVEL
 
 Searches one level of the immediate children, excluding the base object.
-
 
 ### -field ADS_SCOPE_SUBTREE
 
 Searches the whole subtree, including all the children and the base object itself.
 
-
 ## -remarks
-
-
 
 If you do not explicitly set the search scope, the default is <b>ADS_SCOPE_SUBTREE</b>.
 
@@ -94,14 +87,7 @@ prefInfo.vValue.dwType = ADSTYPE_INTEGER;
 prefInfo.vValue.Integer = ADS_SCOPE_SUBTREE;
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
@@ -112,7 +98,4 @@ prefInfo.vValue.Integer = ADS_SCOPE_SUBTREE;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a>
- 
-
- 
 

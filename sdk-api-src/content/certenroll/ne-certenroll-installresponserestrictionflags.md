@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 070cadd8-08cf-44ce-a8b7-39a4fb11e724
 ms.date: 12/05/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, InstallResponseRestrictionFlags, InstallResponseRestrictionFlags enumeration [Security], certenroll/AllowNoOutstandingRequest, certenroll/AllowNone, certenroll/AllowUntrustedCertificate, certenroll/AllowUntrustedRoot, certenroll/InstallResponseRestrictionFlags, security.installresponserestrictionflags_enum
-f1_keywords:
-- certenroll/InstallResponseRestrictionFlags
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- InstallResponseRestrictionFlags
 targetos: Windows
 req.typenames: InstallResponseRestrictionFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InstallResponseRestrictionFlags
+ - certenroll/InstallResponseRestrictionFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - InstallResponseRestrictionFlags
 ---
 
 # InstallResponseRestrictionFlags enumeration
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InstallResponseRestrictionFlags</b> enumeration contains flags that identify the restrictions placed on the local installation of a certificate chain. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-installresponse">InstallResponse</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field AllowNone
 
 Does not allow the installation of untrusted certificates or certificates for which there is no corresponding request.
 
-
 ### -field AllowNoOutstandingRequest
 
 Creates the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> from the certificate response rather than from the dummy certificate. This makes the dummy certificate optional. If this value is not set, the dummy certificate must exist, and the private key is extracted from it.
 
-
 ### -field AllowUntrustedCertificate
 
 Installs untrusted end entity and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> certificates. Certification authority certificates include root and subordinate certification authority certificates. End entity certificates are installed to the personal store, and certification authority certificates are installed to the certification authority store.
-
 
 ### -field AllowUntrustedRoot
 
@@ -82,9 +75,6 @@ Performs the same action as the <b>AllowUntrustedCertificate</b> flag but also i
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
@@ -94,7 +84,4 @@ Performs the same action as the <b>AllowUntrustedCertificate</b> flag but also i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-installresponse">InstallResponse</a>
- 
-
- 
 

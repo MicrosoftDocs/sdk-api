@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 899aadbe-d3d7-42e2-b9c0-09efeb378bda
 ms.date: 12/05/2018
 ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, OleUIChangeIconW, _ole_OleUIChangeIcon, com.oleuichangeicon, oledlg/OleUIChangeIcon, oledlg/OleUIChangeIconA, oledlg/OleUIChangeIconW
-f1_keywords:
-- oledlg/OleUIChangeIcon
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIChangeIcon
-- OleUIChangeIconA
-- OleUIChangeIconW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIChangeIconW
+ - oledlg/OleUIChangeIconW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIChangeIcon
+ - OleUIChangeIconA
+ - OleUIChangeIconW
 ---
 
 # OleUIChangeIconW function
@@ -51,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Change Icon</b> dialog box, which allows the user to select an icon from an icon file, executable, or DLL.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1 [in]
 
  Pointer to the In/Out [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure for this dialog box.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -394,14 +386,8 @@ The <i>szIconExe</i> value was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure.
 
@@ -415,11 +401,5 @@ The <i>szIconExe</i> value was invalid.
 
 ## -see-also
 
-
-
-
 [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)
- 
-
- 
 

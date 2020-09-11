@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: eb0d15c0-8a34-4211-b840-29d5862cf767
 ms.date: 12/05/2018
 ms.keywords: IPrint, IPrint interface [COM], IPrint interface [COM],described, _ctrl_iprint, com.iprint, docobj/IPrint
-f1_keywords:
-- docobj/IPrint
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IPrint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrint
+ - docobj/IPrint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IPrint
 ---
 
 # IPrint interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables compound documents in general and active documents in particular to support programmatic printing. 
-
+Enables compound documents in general and active documents in particular to support programmatic printing.
 
 ## -inheritance
 
@@ -95,12 +94,9 @@ Sets the page number of the first page of a document.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 After a document is loaded, containers and other clients can call <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iprint-print">IPrint::Print</a> to instruct a document to print itself, specifying printing control flags, the target device, the particular pages to print, and other options. The client can control the continuation of printing by calling the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a> interface. 
 
@@ -113,6 +109,4 @@ An object that implements <b>IPrint</b> registers itself with the <b>Printable</
 
 
 Callers determine whether a particular object class supports programmatic printing of its persistent state by looking in the registry for this key.
-
-
 

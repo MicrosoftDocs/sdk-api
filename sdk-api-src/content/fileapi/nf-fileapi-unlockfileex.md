@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 78e2a75e-ff67-4039-b609-fb5004718c45
 ms.date: 12/05/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx
-f1_keywords:
-- fileapi/UnlockFileEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- UnlockFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnlockFileEx
+ - fileapi/UnlockFileEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - UnlockFileEx
 ---
 
 # UnlockFileEx function
@@ -56,15 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unlocks a region in the specified file. This function can operate either synchronously or 
     asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -73,21 +69,17 @@ A handle to the file. The handle must have been created with either the
       information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param dwReserved
 
 Reserved parameter; must be zero.
-
 
 ### -param nNumberOfBytesToUnlockLow [in]
 
 The low-order part of the length of the byte range to unlock.
 
-
 ### -param nNumberOfBytesToUnlockHigh [in]
 
 The high-order part of the length of the byte range to unlock.
-
 
 ### -param lpOverlapped [in, out]
 
@@ -97,22 +89,14 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
       information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero or <b>NULL</b>. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Unlocking a region of a file releases a previously acquired lock on the file. The region to unlock must 
     correspond exactly to an existing locked region. Two adjacent regions of a file cannot be locked separately and 
@@ -179,15 +163,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -214,7 +191,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>
- 
-
- 
 

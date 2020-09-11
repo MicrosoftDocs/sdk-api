@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: b1bcd725-723c-47a3-a2b9-468f5f2e6596
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpInitialize, PxeDhcpInitialize function [Windows Deployment Services], wds.pxedhcpinitialize, wdspxe/PxeDhcpInitialize
-f1_keywords:
-- wdspxe/PxeDhcpInitialize
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxeDhcpInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxeDhcpInitialize
+ - wdspxe/PxeDhcpInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxeDhcpInitialize
 ---
 
 # PxeDhcpInitialize function
@@ -49,55 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a response packet as a DHCP reply packet.
 
-
 ## -parameters
-
-
-
 
 ### -param pRecvPacket [in]
 
 Address of a valid DHCP packet received from the client in the 
       <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
 
-
 ### -param uRecvPacketLen [in]
 
 Length of the packet pointed to by the <i>pRecvPacket</i> parameter.
-
 
 ### -param pReplyPacket [in, out]
 
 Pointer to a reply packet allocated with 
       the <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a> function.
 
-
 ### -param uMaxReplyPacketLen [in]
 
 Allocated length of the packet pointed to by the <i>pReplyPacket</i> parameter.
-
 
 ### -param puReplyPacketLen [out]
 
 Address of a <b>ULONG</b> that on successful completion will receive the length of 
       the packet pointed to by the <i>pReplyPacket</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -remarks
-
-
 
 Providers use this function to initialize a reply packet based on the packet received from the client. The 
     reply packet is initialized as follows.
@@ -156,13 +140,7 @@ Providers use this function to initialize a reply packet based on the packet rec
 
 All other fields are initialized to zero.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a>
 
@@ -173,7 +151,4 @@ All other fields are initialized to zero.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
 

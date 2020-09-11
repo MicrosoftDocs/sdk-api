@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","CreateFont
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],CreateFontFaceReference method, IDWriteFontResource.CreateFontFaceReference, IDWriteFontResource::CreateFontFaceReference, CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_createfontfacereference, dwrite_3/IDWriteFontResource::CreateFontFaceReference
-f1_keywords:
-- dwrite_3/IDWriteFontResource.CreateFontFaceReference
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::CreateFontFaceReference
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::CreateFontFaceReference
+ - dwrite_3/IDWriteFontResource::CreateFontFaceReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::CreateFontFaceReference
 ---
 
 ## -description
@@ -84,3 +85,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 The axis values that you provide are permitted to be a subset or superset of all the ones actually supported by the font. Any unspecified axes use their default values: values beyond the ranges are clamped, and any non-varying axes have no effect.
 
 ## -see-also
+

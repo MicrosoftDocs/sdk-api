@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 9d911238-05d9-4bba-920f-40ca23ab9549
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], ILegacyIAccessibleProvider interface [Windows Accessibility],described, uiauto.uiauto_ILegacyIAccessibleProvider, uiauto_ILegacyIAccessibleProvider, uiautomationcore/ILegacyIAccessibleProvider, winauto.uiauto_ILegacyIAccessibleProvider
-f1_keywords:
-- uiautomationcore/ILegacyIAccessibleProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ILegacyIAccessibleProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILegacyIAccessibleProvider
+ - uiautomationcore/ILegacyIAccessibleProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ILegacyIAccessibleProvider
 ---
 
 # ILegacyIAccessibleProvider interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables Microsoft UI Automation clients to access the underlying <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> implementation of Microsoft Active Accessibility elements.
-
 
 ## -inheritance
 
@@ -266,15 +265,9 @@ Specifies the value of this element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is implemented by the Microsoft Active Accessibility to UI Automation Proxy to expose native MSAA properties and methods to UI Automation clients that need them for legacy reasons. The proxy automatically supplies this interface for applications or controls that implement Microsoft Active Accessibility natively. This interface is not intended to be implemented by UI Automation applications or controls.
-	
-
-
 

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 44275cbe-ea02-41fd-b88d-81d4df966067
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDiscoveryProvider, WSDCreateDiscoveryProvider function, ncd.wsdcreatediscoveryprovider_func, wsddisco/WSDCreateDiscoveryProvider
-f1_keywords:
-- wsddisco/WSDCreateDiscoveryProvider
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateDiscoveryProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateDiscoveryProvider
+ - wsddisco/WSDCreateDiscoveryProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateDiscoveryProvider
 ---
 
 # WSDCreateDiscoveryProvider function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param pContext [in]
 
@@ -64,15 +60,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsd
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
-
 ### -param ppProvider [out]
 
 Returns a reference to the initialized <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a> object. Cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -93,7 +85,4 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
 

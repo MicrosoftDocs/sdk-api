@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 8d64e5b6-e8fa-4678-92d4-3cbf92e13ddf
 ms.date: 12/05/2018
 ms.keywords: IAMStreamConfig interface [DirectShow],SetFormat method, IAMStreamConfig.SetFormat, IAMStreamConfig::SetFormat, IAMStreamConfigSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMStreamConfig interface, dshow.iamstreamconfig_setformat, strmif/IAMStreamConfig::SetFormat
-f1_keywords:
-- strmif/IAMStreamConfig.SetFormat
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStreamConfig.SetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStreamConfig::SetFormat
+ - strmif/IAMStreamConfig::SetFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStreamConfig.SetFormat
 ---
 
 # IAMStreamConfig::SetFormat
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetFormat</code> method sets the output format on the pin.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pmt [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the new format.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -156,14 +146,8 @@ Cannot set the type; the filter is not stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method specifies the format for the output pin. If the pin is not connected, it will use this format for its next connection. If the pin is already connected, it will attempt to reconnect with this format. The method might fail if the other pin rejects the new type.
 
@@ -179,20 +163,11 @@ If the output pin is not connected, and the pin supports the specified media typ
 
 If the pin is already connected, and the pin supports the media type, reconnect the pin with that type. If the other pin rejects the new type, return VFW_E_INVALIDMEDIATYPE and restore the original connection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
- 
-
- 
 

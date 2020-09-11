@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: 24f2041c-0a8c-4f2c-8585-ebbb0cad394f
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW_OWNER_MODULE, PMIB_TCP6ROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_TCP6ROW_OWNER_MODULE, iprtrmib/PMIB_TCP6ROW_OWNER_MODULE, mib.mib_tcp6row_owner_module, tcpmib/MIB_TCP6ROW_OWNER_MODULE, tcpmib/PMIB_TCP6ROW_OWNER_MODULE'
-f1_keywords:
-- tcpmib/MIB_TCP6ROW_OWNER_MODULE
-dev_langs:
-- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpmib.h
-- Iprtrmib.h
-api_name:
-- MIB_TCP6ROW_OWNER_MODULE
 targetos: Windows
 req.typenames: MIB_TCP6ROW_OWNER_MODULE, *PMIB_TCP6ROW_OWNER_MODULE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_TCP6ROW_OWNER_MODULE
+ - tcpmib/_MIB_TCP6ROW_OWNER_MODULE
+ - PMIB_TCP6ROW_OWNER_MODULE
+ - tcpmib/PMIB_TCP6ROW_OWNER_MODULE
+ - MIB_TCP6ROW_OWNER_MODULE
+ - tcpmib/MIB_TCP6ROW_OWNER_MODULE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_TCP6ROW_OWNER_MODULE
 ---
 
 # MIB_TCP6ROW_OWNER_MODULE structure
@@ -50,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MIB_TCP6ROW_OWNER_MODULE</b> structure contains information that describes an IPv6 TCP connection bound to a specific process ID (PID) with ownership data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ucLocalAddr
 
@@ -65,13 +65,11 @@ Type: <b>UCHAR[16]</b>
 
 The IPv6 address for the local endpoint of the TCP connection on the local computer. A value of zero indicates the listener  can accept a connection on any interface.
 
-
 ### -field dwLocalScopeId
 
 Type: <b>DWORD</b>
 
 The scope ID in network byte order for the local IPv6 address.
-
 
 ### -field dwLocalPort
 
@@ -79,13 +77,11 @@ Type: <b>DWORD</b>
 
 The port number in network byte order for the local endpoint of the TCP connection on the local computer.
 
-
 ### -field ucRemoteAddr
 
 Type: <b>UCHAR[16]</b>
 
-The IPv6 address of the remote endpoint of the TCP connection on the remote computer. When the <b>dwState</b> member is <b>MIB_TCP_STATE_LISTEN</b>, this value has no meaning. 
-
+The IPv6 address of the remote endpoint of the TCP connection on the remote computer. When the <b>dwState</b> member is <b>MIB_TCP_STATE_LISTEN</b>, this value has no meaning.
 
 ### -field dwRemoteScopeId
 
@@ -93,13 +89,11 @@ Type: <b>DWORD</b>
 
 The scope ID in network byte order for the remote IPv6 address.
 
-
 ### -field dwRemotePort
 
 Type: <b>DWORD</b>
 
 The port number in network byte order for the remote endpoint of the TCP connection on the remote computer.
-
 
 ### -field dwState
 
@@ -262,15 +256,12 @@ The TCP connection is in the delete TCB state that represents the deletion of th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwOwningPid
 
 Type: <b>DWORD</b>
 
-The PID of the local process that issued a context bind for this TCP connection. 
-
+The PID of the local process that issued a context bind for this TCP connection.
 
 ### -field liCreateTimestamp
 
@@ -278,17 +269,13 @@ Type: <b>LARGE_INTEGER</b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that indicates when the context bind operation that created this TCP connection occurred.
 
-
 ### -field OwningModuleInfo
 
 Type: <b>ULONGLONG[TCPIP_OWNING_MODULE_SIZE]</b>
 
 An array of opaque data that contains ownership information.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to a  <b>TCP_TABLE_OWNER_MODULE_LISTENER</b>, <b>TCP_TABLE_OWNER_MODULE_CONNECTIONS</b>, or <b>TCP_TABLE_OWNER_MODULE_ALL</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>. The <b>MIB_TCP6TABLE_OWNER_MODULE</b> structure contains an array of <b>MIB_TCP6ROW_OWNER_MODULE</b> structures.
 
@@ -308,13 +295,7 @@ The <b>dwLocalPort</b> and <b>dwRemotePort</b> members are in network byte order
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>
 
@@ -345,7 +326,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
- 
-
- 
 

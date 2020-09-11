@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 2B4B868F-3E9F-4570-B1C7-2767ED717A3B
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_RESOURCE_VIEW_DESC, D3D12_SHADER_RESOURCE_VIEW_DESC structure, d3d12/D3D12_SHADER_RESOURCE_VIEW_DESC, direct3d12.d3d12_shader_resource_view_desc
-f1_keywords:
-- d3d12/D3D12_SHADER_RESOURCE_VIEW_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_SHADER_RESOURCE_VIEW_DESC
 targetos: Windows
 req.typenames: D3D12_SHADER_RESOURCE_VIEW_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_SHADER_RESOURCE_VIEW_DESC
+ - d3d12/D3D12_SHADER_RESOURCE_VIEW_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_SHADER_RESOURCE_VIEW_DESC
 ---
 
 ## -description
@@ -60,7 +61,7 @@ A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_srv_dimension">D3D12_SRV_DI
 
 ### -field Shader4ComponentMapping
 
-A value, constructed using the <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping">D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING</a> macro. The **D3D12_SHADER_COMPONENT_MAPPING** enumeration specifies what values from memory should be returned when the texture is accessed in a shader via this shader resource view (SRV). For example, it can route component 1 (green) from memory, or the constant `0`, into component 2 (`.b`) of the value given to the shader.     
+A value, constructed using the <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping">D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING</a> macro. The **D3D12_SHADER_COMPONENT_MAPPING** enumeration specifies what values from memory should be returned when the texture is accessed in a shader via this shader resource view (SRV). For example, it can route component 1 (green) from memory, or the constant `0`, into component 2 (`.b`) of the value given to the shader.
 
 ### -field Buffer
 
@@ -117,3 +118,4 @@ Create a shader-resource-view description by calling <a href="/windows/desktop/a
 ## -see-also
 
 [Core structures](/windows/desktop/direct3d12/direct3d-12-structures)
+

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\defmdichildproc.htm
 ms.date: 12/05/2018
 ms.keywords: DefMDIChildProc, DefMDIChildProc function [Windows and Messages], DefMDIChildProcA, DefMDIChildProcW, _win32_DefMDIChildProc, _win32_defmdichildproc_cpp, winmsg.defmdichildproc, winui._win32_defmdichildproc, winuser/DefMDIChildProc, winuser/DefMDIChildProcA, winuser/DefMDIChildProcW
-f1_keywords:
-- winuser/DefMDIChildProc
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DefMDIChildProc
-- DefMDIChildProcA
-- DefMDIChildProcW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DefMDIChildProcW
+ - winuser/DefMDIChildProcW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DefMDIChildProc
+ - DefMDIChildProcA
+ - DefMDIChildProcW
 ---
 
 # DefMDIChildProcW function
@@ -51,57 +52,41 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides default processing for any window message that the window procedure of a multiple-document interface (MDI) child window does not process. A window message not processed by the window procedure must be passed to the <b>DefMDIChildProc</b> function, not to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function. 
-
+Provides default processing for any window message that the window procedure of a multiple-document interface (MDI) child window does not process. A window message not processed by the window procedure must be passed to the <b>DefMDIChildProc</b> function, not to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the MDI child window. 
-
+A handle to the MDI child window.
 
 ### -param uMsg [in]
 
 Type: <b>UINT</b>
 
-The message to be processed. 
-
+The message to be processed.
 
 ### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
-Additional message-specific information. 
-
+Additional message-specific information.
 
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
-Additional message-specific information. 
-
+Additional message-specific information.
 
 ## -returns
 
-
-
 Type: <b>LRESULT</b>
 
-The return value specifies the result of the message processing and depends on the message. 
-
-
-
+The return value specifies the result of the message processing and depends on the message.
 
 ## -remarks
-
-
 
 The <b>DefMDIChildProc</b> function assumes that the parent window of the MDI child window identified by the <i>hWnd</i> parameter was created with the <b>MDICLIENT</b> class. 
 
@@ -168,9 +153,6 @@ When an application's window procedure does not handle a message, it typically p
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -220,7 +202,4 @@ When an application's window procedure does not handle a message, it typically p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
- 
-
- 
 

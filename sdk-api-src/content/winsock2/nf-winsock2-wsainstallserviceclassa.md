@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 06760319-aeeb-4ad7-b77a-01efea7ed904
 ms.date: 12/05/2018
 ms.keywords: WSAInstallServiceClass, WSAInstallServiceClass function [Winsock], WSAInstallServiceClassA, WSAInstallServiceClassW, _win32_wsainstallserviceclass_2, winsock.wsainstallserviceclass_2, winsock2/WSAInstallServiceClass, winsock2/WSAInstallServiceClassA, winsock2/WSAInstallServiceClassW
-f1_keywords:
-- winsock2/WSAInstallServiceClass
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAInstallServiceClass
-- WSAInstallServiceClassA
-- WSAInstallServiceClassW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAInstallServiceClassA
+ - winsock2/WSAInstallServiceClassA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAInstallServiceClass
+ - WSAInstallServiceClassA
+ - WSAInstallServiceClassW
 ---
 
 # WSAInstallServiceClassA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAInstallServiceClass</b> function registers a service class schema within a namespace. This schema includes the class name, class identifier, and any namespace-specific information that is common to all instances of the service, such as the SAP identifier or object identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param lpServiceClassInfo [in]
 
@@ -71,10 +67,7 @@ Service class to namespace specific–type mapping information. Multiple mapping
 See the section 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/name-resolution-data-structures-2">Service Class Data Structures</a> for a description of pertinent data structures.
 
-
 ## -returns
-
-
 
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -175,15 +168,8 @@ The WS2_32.DLL has not been initialized. The application must first call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
@@ -202,9 +188,6 @@ The WS2_32.DLL has not been initialized. The application must first call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 
 ## -remarks
 

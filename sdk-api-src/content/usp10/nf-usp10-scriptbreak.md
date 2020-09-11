@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 1613819f-9473-4d9f-8a65-a109c9ef3f43
 ms.date: 12/05/2018
 ms.keywords: ScriptBreak, ScriptBreak function [Internationalization for Windows Applications], _win32_ScriptBreak, intl.scriptbreak, usp10/ScriptBreak
-f1_keywords:
-- usp10/ScriptBreak
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- usp10.dll
-- Ext-MS-Win-usp10-l1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptBreak
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - ScriptBreak
+ - usp10/ScriptBreak
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - usp10.dll
+ - Ext-MS-Win-usp10-l1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptBreak
 ---
 
 # ScriptBreak function
@@ -52,47 +53,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information for determining line breaks.
 
-
 ## -parameters
-
-
-
 
 ### -param pwcChars [in]
 
 Pointer to the Unicode characters to process.
 
-
 ### -param cChars [in]
 
 Number of Unicode characters to process.
-
 
 ### -param psa [in]
 
 Pointer to the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from an earlier call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
 
-
 ### -param psla [out]
 
 Pointer to a buffer in which this function retrieves the character attributes as a <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> structure.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. The application can test the return value with the <b>SUCCEEDED</b> and <b>FAILED</b> macros.
 
-
-
-
 ## -remarks
-
-
 
 See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
@@ -109,12 +94,7 @@ Most shaping engines that identify invalid sequences set the flag indicated by t
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
@@ -141,7 +121,4 @@ Most shaping engines that identify invalid sequences set the flag indicated by t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

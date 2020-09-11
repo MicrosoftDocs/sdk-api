@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 7ca3b0ef-b0d5-408a-8d75-647546087155
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],SearchSOMs method, IGPMDomain interface [GPMC],SearchSOMs method, IGPMDomain.SearchSOMs, IGPMDomain::SearchSOMs, SearchSOMs, SearchSOMs method [GPMC], SearchSOMs method [GPMC],GPMDomain object, SearchSOMs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchsoms, gpmc.igpmdomain_searchsoms, gpmgmt/IGPMDomain::SearchSOMs, somLinks
-f1_keywords:
-- gpmgmt/IGPMDomain.SearchSOMs
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMDomain.SearchSOMs
-- GPMDomain.SearchSOMs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMDomain::SearchSOMs
+ - gpmgmt/IGPMDomain::SearchSOMs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMDomain.SearchSOMs
+ - GPMDomain.SearchSOMs
 ---
 
 # IGPMDomain::SearchSOMs
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Executes a search for 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">GPMSOM</a> objects (domains and organizational units) in the domain and then returns a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">GPMSOMCollection</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param pIGPMSearchCriteria [in]
 
@@ -72,7 +68,6 @@ Criteria to apply to the search. The valid criteria for the search include the f
 Pointer to an <b>IDispatch</b> or <b>IUnknown</b> interface to query the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface. For script programmers, this is a reference to a <b>GPMGPO</b> object.   The valid criteria include the <b>opContains</b> search operator.
 
-
 ### -param ppIGPMSOMCollection [out]
 
 Address of a pointer to the 
@@ -84,10 +79,7 @@ Address of a pointer to the
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -98,23 +90,12 @@ Returns a reference to a <b>GPMSOMCollection</b> object.
 <h3>VB</h3>
 Returns a reference to a <b>GPMSOMCollection</b> object.
 
-
-
-
 ## -remarks
-
-
 
 This method does not allow you to search for site SOMs. Call the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsitescontainer-searchsites">IGPMSitesContainer::SearchSites</a> method to perform this type of search.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
@@ -137,7 +118,4 @@ This method does not allow you to search for site SOMs. Call the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
- 
-
- 
 

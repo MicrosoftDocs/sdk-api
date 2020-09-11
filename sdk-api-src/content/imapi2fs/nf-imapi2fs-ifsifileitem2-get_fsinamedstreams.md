@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 011c6241-4989-41ca-9876-d6810797a382
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_FsiNamedStreams method, IFsiFileItem2.get_FsiNamedStreams, IFsiFileItem2::get_FsiNamedStreams, get_FsiNamedStreams, get_FsiNamedStreams method [IMAPI], get_FsiNamedStreams method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_fsinamedstreams, imapi2fs/IFsiFileItem2::get_FsiNamedStreams
-f1_keywords:
-- imapi2fs/IFsiFileItem2.get_FsiNamedStreams
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiFileItem2.get_FsiNamedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiFileItem2::get_FsiNamedStreams
+ - imapi2fs/IFsiFileItem2::get_FsiNamedStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiFileItem2.get_FsiNamedStreams
 ---
 
 # IFsiFileItem2::get_FsiNamedStreams
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a collection of named streams associated with a file in the file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param streams [out, optional]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams">IFsiNamedStreams</a> object that represents a collection of named streams associated with the file.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -111,14 +104,8 @@ Failed to allocate necessary memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If this method is invoked for a file item which itself represents a named stream, the <b>IMAPI_E_PROPERTY_NOT_ACCESSIBLE</b> error code is returned, as a named streams cannot contain additional named streams.
 
@@ -126,16 +113,7 @@ The user must enable UDF and set the UDF revision to 2.00 or higher to support n
 
 This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
- 
-
- 
 

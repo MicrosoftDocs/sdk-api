@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 9b8ff585-5795-48ce-b2fd-a49e3d34ccb9
 ms.date: 12/05/2018
 ms.keywords: OPC_SIGNATURE_TIME_FORMAT, OPC_SIGNATURE_TIME_FORMAT enumeration [Open Packaging Conventions], OPC_SIGNATURE_TIME_FORMAT_DAYS, OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS, OPC_SIGNATURE_TIME_FORMAT_MINUTES, OPC_SIGNATURE_TIME_FORMAT_MONTHS, OPC_SIGNATURE_TIME_FORMAT_SECONDS, OPC_SIGNATURE_TIME_FORMAT_YEARS, msopc/OPC_SIGNATURE_TIME_FORMAT, msopc/OPC_SIGNATURE_TIME_FORMAT_DAYS, msopc/OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS, msopc/OPC_SIGNATURE_TIME_FORMAT_MINUTES, msopc/OPC_SIGNATURE_TIME_FORMAT_MONTHS, msopc/OPC_SIGNATURE_TIME_FORMAT_SECONDS, msopc/OPC_SIGNATURE_TIME_FORMAT_YEARS, opc.opc_signature_time_format
-f1_keywords:
-- msopc/OPC_SIGNATURE_TIME_FORMAT
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msopc.h
-api_name:
-- OPC_SIGNATURE_TIME_FORMAT
 targetos: Windows
 req.typenames: OPC_SIGNATURE_TIME_FORMAT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_msopc_0001_0076_0005
+ - msopc/__MIDL___MIDL_itf_msopc_0001_0076_0005
+ - OPC_SIGNATURE_TIME_FORMAT
+ - msopc/OPC_SIGNATURE_TIME_FORMAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msopc.h
+api_name:
+ - OPC_SIGNATURE_TIME_FORMAT
 ---
 
 # OPC_SIGNATURE_TIME_FORMAT enumeration
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes how to interpret the <i>signingTime</i> parameter, which is a record of when a signature was created,  of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignature-getsigningtime">IOpcDigitalSignature::GetSigningTime</a> method.
 
-
 ## -enum-fields
-
-
-
 
 ### -field OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS
 
@@ -66,7 +64,6 @@ Syntax: <i>YYYY</i>-<i>MM</i>-<i>DD</i>T<i>hh</i>:<i>mm</i>:<i>ss</i>.<i>s</i><i
 
 A value of "2010-03-09T18:45:32.3-08:00" would represent 6:45:32.3 P.M. on March 9, 2010 Pacific Time.
 
-
 ### -field OPC_SIGNATURE_TIME_FORMAT_SECONDS
 
 The format is the complete date with hours, minutes, and seconds.
@@ -74,7 +71,6 @@ The format is the complete date with hours, minutes, and seconds.
 Syntax: <i>YYYY</i>-<i>MM</i>-<i>DD</i>T<i>hh</i>:<i>mm</i>:<i>ss</i><i>TZD</i>
 
 A value of "2010-03-09T18:45:32-08:00" would represent 6:45:32 P.M. on March 9, 2010  Pacific Time.
-
 
 ### -field OPC_SIGNATURE_TIME_FORMAT_MINUTES
 
@@ -84,7 +80,6 @@ Syntax: <i>YYYY</i>-<i>MM</i>-<i>DD</i>T<i>hh</i>:<i>mm</i><i>TZD</i>
 
 A value of "2010-03-09T18:45-08:00" would represent 6:45 P.M. on March 9, 2010 Pacific Time.
 
-
 ### -field OPC_SIGNATURE_TIME_FORMAT_DAYS
 
 The format is the complete date.
@@ -92,7 +87,6 @@ The format is the complete date.
 Syntax: <i>YYYY</i>-<i>MM</i>-<i>DD</i>
 
 A value of "2010-03-09" would represent March 9, 2010.
-
 
 ### -field OPC_SIGNATURE_TIME_FORMAT_MONTHS
 
@@ -102,7 +96,6 @@ Syntax: <i>YYYY</i>-<i>MM</i>
 
 A value of "2010-03" would represent March, 2010.
 
-
 ### -field OPC_SIGNATURE_TIME_FORMAT_YEARS
 
 The format is the year.
@@ -111,10 +104,7 @@ Syntax:  <i>YYYY</i>
 
 A value of "2010" would represent 2010.
 
-
 ## -remarks
-
-
 
 The following table provides descriptions of  placeholder values.
 
@@ -237,15 +227,8 @@ Time zone designator with a leading zero. Possible values:  Z, +<i>hh</i>:<i>mm<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
@@ -296,7 +279,4 @@ Time zone designator with a leading zero. Possible values:  Z, +<i>hh</i>:<i>mm<
 
 
 <a href="https://www.w3.org/TR/xmldsig-core/">W3C Recommendation, XML Signature and Syntax Processing</a>
- 
-
- 
 

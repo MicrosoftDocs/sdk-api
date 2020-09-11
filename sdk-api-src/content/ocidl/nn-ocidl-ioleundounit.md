@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0822c894-b96c-4b69-94d2-b052dff81f6e
 ms.date: 12/05/2018
 ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], IOleUndoUnit interface [COM],described, _ole_ioleundounit, com.ioleundounit, ocidl/IOleUndoUnit
-f1_keywords:
-- ocidl/IOleUndoUnit
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleUndoUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUndoUnit
+ - ocidl/IOleUndoUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleUndoUnit
 ---
 
 # IOleUndoUnit interface
 
 
 ## -description
-
 
 Serves as the main interface on an undo unit. An undo unit encapsulates the information necessary to undo or redo a single action.
 
@@ -57,7 +57,6 @@ When an object's state changes and it needs to create an undo unit, it first nee
 If the method returns S_OK, but the UAS_BLOCKED flag is set, then the open parent is a blocking parent. The object does not need to create an undo unit, since it would be immediately discarded. If the return value is S_OK and neither of the bit flags are set, then the object creates the undo unit and calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-add">IOleUndoManager::Add</a> on the undo manager.
 
 The object should retain a pointer to the undo manager.
-
 
 ## -inheritance
 
@@ -110,20 +109,13 @@ Notifies the last undo unit in the collection that a new unit has been added.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
- 
-
- 
 

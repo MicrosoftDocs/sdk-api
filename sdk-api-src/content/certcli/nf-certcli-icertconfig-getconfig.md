@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3a35b2a0-f8e4-496d-b76a-a7310842cc4c
 ms.date: 12/05/2018
 ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, CCertConfig object [Security],GetConfig method, GetConfig, GetConfig method [Security], GetConfig method [Security],CCertConfig object, GetConfig method [Security],ICertConfig interface, GetConfig method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetConfig method, ICertConfig.GetConfig, ICertConfig2 interface [Security],GetConfig method, ICertConfig2::GetConfig, ICertConfig::GetConfig, _certsrv_icertconfig_getconfig, certcli/ICertConfig2::GetConfig, certcli/ICertConfig::GetConfig, security.icertconfig2_getconfig
-f1_keywords:
-- certcli/ICertConfig2.GetConfig
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertConfig2.GetConfig
-- ICertConfig.GetConfig
-- CCertConfig.GetConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertConfig::GetConfig
+ - certcli/ICertConfig::GetConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertConfig2.GetConfig
+ - ICertConfig.GetConfig
+ - CCertConfig.GetConfig
 ---
 
 # ICertConfig::GetConfig
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetConfig</b> method retrieves the configuration string for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a> server. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
 
 The configuration string is the server name and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> name separated by a backslash (\); for example: <i>ServerName</i><b>\\</b><i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -138,17 +134,12 @@ Displays a user interface that allows the user to select a certification authori
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pstrOut [out]
 
 A pointer to a <b>BSTR</b> that contains the configuration. When you have finished using the configuration, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to free <i>pbstrOut</i>.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -158,12 +149,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is a string that contains the configuration.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name portion of the configuration string that this function returns is the exact text entered during the Certificate Services setup process. Note that this text may be different from the form of the CA name found in file names (such as for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a>) or in registry keys. This is because file names and registry keys use a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized</a> version of the CA name.
 
@@ -373,14 +359,7 @@ error:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>
 
@@ -391,7 +370,4 @@ error:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView2::OpenConnection</a>
- 
-
- 
 

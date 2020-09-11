@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ce713421-d4ff-48ed-b751-5e5c5397d820
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList
-f1_keywords:
-- securitybaseapi/AccessCheckByTypeResultList
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- AccessCheckByTypeResultList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AccessCheckByTypeResultList
+ - securitybaseapi/AccessCheckByTypeResultList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - AccessCheckByTypeResultList
 ---
 
 # AccessCheckByTypeResultList function
@@ -56,20 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AccessCheckByTypeResultList</b> function determines whether a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> grants a specified set of access rights to the client identified by an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a>. The function can check the client's access to a hierarchy of objects, such as an object, its property sets, and properties. The function reports the access rights granted or denied to each object type in the hierarchy. Typically, server applications use this function to check access to a private object.
 
-
 ## -parameters
-
-
-
 
 ### -param pSecurityDescriptor [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure against which access is checked.
-
 
 ### -param PrincipalSelfSid [in, optional]
 
@@ -80,11 +75,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gl
 
 If the protected object does not represent a principal, set this parameter to <b>NULL</b>.
 
-
 ### -param ClientToken [in]
 
 A handle to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a> that represents the client attempting to gain access. The handle must have TOKEN_QUERY access to the token; otherwise, the function fails with ERROR_ACCESS_DENIED.
-
 
 ### -param DesiredAccess [in]
 
@@ -95,7 +88,6 @@ An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access ma
 
 
 If this parameter is MAXIMUM_ALLOWED, the function sets the access masks in the <i>GrantedAccess</i> array to indicate the client's maximum access rights to each element in the object type list.
-
 
 ### -param ObjectTypeList [in, out, optional]
 
@@ -108,54 +100,40 @@ A pointer to an array of
 The array must have at least one element. The first element in the array must be at level zero and identify the object itself. The array can have only one level zero element. The second element is a subobject, such as a property set, at level 1. Following each level 1 entry are subordinate entries for the level 2 through 4 subobjects. Thus, the levels for the elements in the array might be {0, 1, 2, 2, 1, 2, 3}. If the object type list is out of order, <b>AccessCheckByTypeResultList</b> fails and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INVALID_PARAMETER.
 
-
 ### -param ObjectTypeListLength [in]
 
 The number of elements in the <i>ObjectTypeList</i> array. This is also the number of elements in the arrays pointed to by the <i>GrantedAccessList</i> and <i>AccessStatusList</i> parameters.
-
 
 ### -param GenericMapping [out]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
 
-
 ### -param PrivilegeSet [out, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a> structure that receives the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> used to perform the access validation. If no privileges were used, the function sets the <b>PrivilegeCount</b> member to zero.
 
-
 ### -param PrivilegeSetLength [in, out]
 
 The size, in bytes, of the buffer pointed to by the <i>PrivilegeSet</i> parameter.
-
 
 ### -param GrantedAccessList [out]
 
 A pointer to an array of access masks. The function sets each access mask to indicate the access rights granted to the corresponding element in the object type list. If the function fails, it does not set the access masks.
 
-
 ### -param AccessStatusList [out]
 
 A pointer to an array of status codes for the corresponding elements in the object type list. The function sets an element to zero to indicate success or a nonzero value to indicate the specific error during the access check. If the function fails, it does not set any of the elements in the array.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a> overview.
 
@@ -172,13 +150,7 @@ If the security descriptor's <a href="https://docs.microsoft.com/windows/desktop
 
 If the security descriptor does not contain owner and group SIDs, <b>AccessCheckByTypeResultList</b> fails with ERROR_INVALID_SECURITY_DESCR.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
 
@@ -233,7 +205,4 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
- 
-
- 
 

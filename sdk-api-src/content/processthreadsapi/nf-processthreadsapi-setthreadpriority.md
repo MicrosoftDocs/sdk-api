@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadPriority, SetThreadPriority function, THREAD_MODE_BACKGROUND_BEGIN, THREAD_MODE_BACKGROUND_END, THREAD_PRIORITY_ABOVE_NORMAL, THREAD_PRIORITY_BELOW_NORMAL, THREAD_PRIORITY_HIGHEST, THREAD_PRIORITY_IDLE, THREAD_PRIORITY_LOWEST, THREAD_PRIORITY_NORMAL, THREAD_PRIORITY_TIME_CRITICAL, _win32_setthreadpriority, base.setthreadpriority, processthreadsapi/SetThreadPriority, winbase/SetThreadPriority
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetThreadPriority"
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - SetThreadPriority
+ - processthreadsapi/SetThreadPriority
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,11 +51,6 @@ api_location:
  - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
  - SetThreadPriority
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # SetThreadPriority function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base priority level.
 
-
 ## -parameters
-
-
-
 
 ### -param hThread [in]
 
@@ -72,9 +68,6 @@ A handle to the thread whose priority value is to be set.
 
 The handle must have the <b>THREAD_SET_INFORMATION</b> or <b>THREAD_SET_LIMITED_INFORMATION</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.<b>Windows Server 2003:  </b>The handle must have the <b>THREAD_SET_INFORMATION</b> access right.
-
-
-
 
 ### -param nPriority [in]
 
@@ -198,10 +191,7 @@ Base priority of 15 for <b>IDLE_PRIORITY_CLASS</b>, <b>BELOW_NORMAL_PRIORITY_CLA
 If the thread has the <b>REALTIME_PRIORITY_CLASS</b> base class, this parameter can also be -7, -6, -5, -4, -3, 3, 4, 5, or 6. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -210,12 +200,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 <b>Windows Phone 8.1:  </b>Windows Phone Store apps may call this function but it has no effect. The function will return a nonzero value indicating success.
 
-
-
-
 ## -remarks
-
-
 
 Every thread has a base priority level determined by the thread's priority value and the priority class of its process. The system uses the base priority level of all executable threads to determine which thread gets the next slice of CPU time. Threads are scheduled in a round-robin fashion at each priority level, and only when there are no executable threads at a higher level does scheduling of threads at a lower level take place.
 
@@ -292,14 +277,7 @@ return 0;
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>
 
@@ -322,7 +300,4 @@ return 0;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
- 
-
- 
 

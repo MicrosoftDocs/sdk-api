@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3d_tutorials.htm
 ms.date: 12/05/2018
 ms.keywords: 911c767b-a75f-146e-b3ba-02c1df537127, Direct3DCreate9, Direct3DCreate9 function [Direct3D 9], d3d9helper/Direct3DCreate9, direct3d9.direct3dcreate9
-f1_keywords:
-- d3d9/Direct3DCreate9
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d9.lib
 req.dll: D3d9.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- d3d9.dll
-- Ext-MS-Win-dx-d3d9-l1-1-0.dll
-api_name:
-- Direct3DCreate9
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Direct3DCreate9
+ - d3d9/Direct3DCreate9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - d3d9.dll
+ - Ext-MS-Win-dx-d3d9-l1-1-0.dll
+api_name:
+ - Direct3DCreate9
 ---
 
 # Direct3DCreate9 function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Create an IDirect3D9 object and return an interface to it.
 
-
 ## -parameters
-
-
-
 
 ### -param SDKVersion
 
@@ -65,21 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The value of this parameter should be D3D_SDK_VERSION. See Remarks.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>*</b>
 
 If successful, this function returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> interface; otherwise, a <b>NULL</b> pointer is returned.
 
-
-
-
 ## -remarks
-
-
 
 The Direct3D object is the first Direct3D COM object that your graphical application needs to create and the last object that your application needs to release. Functions for enumerating and retrieving capabilities of a device are accessible through the Direct3D object. This enables applications to select devices without creating them.
 
@@ -102,16 +90,7 @@ D3D_SDK_VERSION is passed to this function to ensure that the header files again
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/creating-a-device">Creating a Device (Direct3D 9)</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-functions">Direct3D Functions</a>
- 
-
- 
 

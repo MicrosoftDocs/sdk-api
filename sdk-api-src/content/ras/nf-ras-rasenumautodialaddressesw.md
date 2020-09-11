@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: bd4fb897-5cc0-452f-b6a2-ec0540c59b90
 ms.date: 12/05/2018
 ms.keywords: RasEnumAutodialAddresses, RasEnumAutodialAddresses function [RAS], RasEnumAutodialAddressesA, RasEnumAutodialAddressesW, _ras_rasenumautodialaddresses, ras/RasEnumAutodialAddresses, ras/RasEnumAutodialAddressesA, ras/RasEnumAutodialAddressesW, rras.rasenumautodialaddresses
-f1_keywords:
-- ras/RasEnumAutodialAddresses
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasEnumAutodialAddresses
-- RasEnumAutodialAddressesA
-- RasEnumAutodialAddressesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasEnumAutodialAddressesW
+ - ras/RasEnumAutodialAddressesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasEnumAutodialAddresses
+ - RasEnumAutodialAddressesA
+ - RasEnumAutodialAddressesW
 ---
 
 # RasEnumAutodialAddressesW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasEnumAutodialAddresses</b> function returns a list of all addresses in the AutoDial mapping database.
 
-
 ## -parameters
-
-
-
 
 ### -param lppRasAutodialAddresses [in, out]
 
@@ -72,7 +68,6 @@ On output, each string receives the name of an address in the AutoDial mapping d
 
 If <i>lppAddresses</i> is <b>NULL</b> on input, 
 <b>RasEnumAutodialAddresses</b> sets the <i>lpdwcbAddresses</i> and <i>lpdwcAddresses</i> parameters to indicate the required size, in bytes, and the number of address entries in the database.
-
 
 ### -param lpdwcbRasAutodialAddresses [in, out]
 
@@ -91,10 +86,7 @@ Pointer to a variable that, on input, contains the size, in bytes, of the buffer
 
 Pointer to a variable that receives the number of address strings returned in the <i>lppAddresses</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -128,14 +120,8 @@ The <i>lppAddresses</i> buffer was <b>NULL</b> and <i>lpdwcbAddresses</i> was ze
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following code sample code uses <b>RasEnumAutodialAddresses</b> to enumerate the Autodial mapping database.
 
@@ -220,9 +206,6 @@ DWORD __cdecl wmain(){
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a>
 
 
@@ -240,7 +223,4 @@ DWORD __cdecl wmain(){
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 2172a543-b3b7-453e-887b-05c8ee74f197
 ms.date: 12/05/2018
 ms.keywords: IFsrmReport, IFsrmReport interface [File Server Resource Manager], IFsrmReport interface [File Server Resource Manager],described, fs.ifsrmreport, fsrm.ifsrmreport, fsrm/IFsrmReport
-f1_keywords:
-- fsrmreports/IFsrmReport
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReport
+ - fsrmreports/IFsrmReport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReport
 ---
 
 # IFsrmReport interface
 
 
 ## -description
-
 
 Used to configure the description and filters for a single report.
 
@@ -176,5 +176,5 @@ Retrieves the type of report to generate.
 
 </td>
 </tr>
-</table> 
+</table>
 

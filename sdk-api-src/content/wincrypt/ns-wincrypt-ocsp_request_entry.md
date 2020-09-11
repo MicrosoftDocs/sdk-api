@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 61d5cbc9-22de-4768-b610-138bcd3c9cce
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_REQUEST_ENTRY, OCSP_REQUEST_ENTRY, OCSP_REQUEST_ENTRY structure [Security], POCSP_REQUEST_ENTRY, POCSP_REQUEST_ENTRY structure pointer [Security], security.ocsp_request_entry, wincrypt/OCSP_REQUEST_ENTRY, wincrypt/POCSP_REQUEST_ENTRY'
-f1_keywords:
-- wincrypt/OCSP_REQUEST_ENTRY
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- OCSP_REQUEST_ENTRY
 targetos: Windows
 req.typenames: OCSP_REQUEST_ENTRY, *POCSP_REQUEST_ENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OCSP_REQUEST_ENTRY
+ - wincrypt/_OCSP_REQUEST_ENTRY
+ - POCSP_REQUEST_ENTRY
+ - wincrypt/POCSP_REQUEST_ENTRY
+ - OCSP_REQUEST_ENTRY
+ - wincrypt/OCSP_REQUEST_ENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - OCSP_REQUEST_ENTRY
 ---
 
 # OCSP_REQUEST_ENTRY structure
@@ -49,34 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OCSP_REQUEST_ENTRY</b> structure contains information about a single certificate in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request. This structure populates the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_info">OCSP_REQUEST_INFO</a> <b>rgRequestEntry</b> member.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CertId
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate.
 
-
 ### -field cExtension
 
 The number of elements in the <b>rgExtension</b> array.
 
-
 ### -field rgExtension
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains information about the <b>CertId</b> certificate. 
-
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains information about the <b>CertId</b> certificate.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
@@ -91,7 +85,4 @@ An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>
- 
-
- 
 

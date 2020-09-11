@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 334b6c88-4d5d-4e73-843f-2be07b9de9c9
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetNodeAttributes, PeerGraphSetNodeAttributes function [Peer Networking], p2p.peergraphsetnodeattributes, p2p/PeerGraphSetNodeAttributes
-f1_keywords:
-- p2p/PeerGraphSetNodeAttributes
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphSetNodeAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphSetNodeAttributes
+ - p2p/PeerGraphSetNodeAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphSetNodeAttributes
 ---
 
 # PeerGraphSetNodeAttributes function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphSetNodeAttributes</b> function sets the attributes of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a> structure for the local node.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to the peer graph.
 
-
 ### -param pwzAttributes [in]
 
 Pointer to  a string that represents the attributes the application associates with the local node. This string is a free-form text string that is specific to the application. Specify <b>NULL</b> to delete all attributes for the specified node.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is S_OK. Otherwise, it  returns one of the following value.
 
@@ -124,31 +116,16 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To retrieve attributes for a node, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnodeinfo">PeerGraphGetNodeInfo</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnodeinfo">PeerGraphGetNodeInfo</a>
- 
-
- 
 

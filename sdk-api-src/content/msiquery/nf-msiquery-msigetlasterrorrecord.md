@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 0d6f4506-367b-43d7-ba1c-2a93c1d0cc51
 ms.date: 12/05/2018
 ms.keywords: MsiGetLastErrorRecord, MsiGetLastErrorRecord function, _msi_msigetlasterrorrecord, msiquery/MsiGetLastErrorRecord, setup.msigetlasterrorrecord
-f1_keywords:
-- msiquery/MsiGetLastErrorRecord
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetLastErrorRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetLastErrorRecord
+ - msiquery/MsiGetLastErrorRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetLastErrorRecord
 ---
 
 # MsiGetLastErrorRecord function
@@ -49,32 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetLastErrorRecord</b> function returns the error record that was last returned for the calling process. This function returns a handle that should be closed using 
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 A handle to the error record. If the last function was successful, 
 <b>MsiGetLastErrorRecord</b> returns a null <b>MSIHANDLE</b>.
 
-
-
-
 ## -remarks
-
-
 
 With the 
 <b>MsiGetLastErrorRecord</b> function, field 1 of the record contains the installer error code. Other fields contain data specific to the particular error. The error record is released internally after this function is run.
@@ -245,17 +232,7 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer State Access Functions</a>
- 
-
- 
 

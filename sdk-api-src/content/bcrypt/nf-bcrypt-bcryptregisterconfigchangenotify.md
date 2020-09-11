@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399
 ms.date: 12/05/2018
 ms.keywords: BCryptRegisterConfigChangeNotify, BCryptRegisterConfigChangeNotify function [Security], BCryptRegisterConfigChangeNotify(HANDLE*), bcrypt/BCryptRegisterConfigChangeNotify, security.bcryptregisterconfigchangenotify_handle
-f1_keywords:
-- bcrypt/BCryptRegisterConfigChangeNotify
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptRegisterConfigChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptRegisterConfigChangeNotify
+ - bcrypt/BCryptRegisterConfigChangeNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptRegisterConfigChangeNotify
 ---
 
 # BCryptRegisterConfigChangeNotify function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>BCryptRegisterConfigChangeNotify</b> is deprecated beginning with Windows 10.]
 
 The <b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> function creates a user mode CNG configuration change event handler.
 
-
 ## -parameters
-
-
-
 
 ### -param pEvent [out]
 
@@ -66,10 +62,7 @@ The address of a <b>HANDLE</b> variable that receives the event handle. Use one 
 
 This handle must be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(HANDLE)</a> function to remove the event notification.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -117,29 +110,14 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The handle returned in the variable pointed to by the <i>phEvent</i> parameter will be signaled when a change to the CNG configuration occurs.
 
 <b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> can be called only in user mode. Code executing in kernel mode must call <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(HANDLE)</a>
- 
-
- 
 

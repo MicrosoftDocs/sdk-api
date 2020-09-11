@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: fc495bc3-1172-4e39-b617-055b7ac95898
 ms.date: 12/05/2018
 ms.keywords: ITSubStream, ITSubStream interface [TAPI 2.2], ITSubStream interface [TAPI 2.2],described, _tapi3_itsubstream, tapi3.itsubstream, tapi3if/ITSubStream
-f1_keywords:
-- tapi3if/ITSubStream
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3if.h
-api_name:
-- ITSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITSubStream
+ - tapi3if/ITSubStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3if.h
+api_name:
+ - ITSubStream
 ---
 
 # ITSubStream interface
 
 
 ## -description
-
 
 An 
 <b>ITSubStream</b> is a component of an 
@@ -57,7 +57,6 @@ An
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-next">IEnumSubStream::Next</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-createsubstream">ITSubStreamControl::CreateSubStream</a> methods create the 
 <b>ITSubStream</b> interface.
-
 
 ## -inheritance
 
@@ -148,13 +147,9 @@ Unselects the terminal from the substream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -173,7 +168,4 @@ Unselects the terminal from the substream.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

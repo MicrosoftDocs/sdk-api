@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 38d308d7-77e3-4f13-82e7-677ac94234e7
 ms.date: 12/05/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasAudio method, IMFPMediaItem.HasAudio, IMFPMediaItem::HasAudio, mf.imfpmediaitem_hasaudio, mfplay/IMFPMediaItem::HasAudio
-f1_keywords:
-- mfplay/IMFPMediaItem.HasAudio
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaItem.HasAudio
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaItem::HasAudio
+ - mfplay/IMFPMediaItem::HasAudio
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaItem.HasAudio
 ---
 
 # IMFPMediaItem::HasAudio
@@ -49,59 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Queries whether the media item contains an audio stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pfHasAudio [out]
 
 Receives the value <b>TRUE</b> if the media item contains at least one audio stream, or <b>FALSE</b> otherwise.
 
-
 ### -param pfSelected [out]
 
 Receives the value <b>TRUE</b> if at least one audio stream is selected, or <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To select or deselect streams before playback starts, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamselection">IMFPMediaItem::SetStreamSelection</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

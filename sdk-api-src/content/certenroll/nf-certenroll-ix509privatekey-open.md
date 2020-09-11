@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 965e3bf8-22b9-4015-8fb2-102c5f7b1cb5
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Open method, IX509PrivateKey.Open, IX509PrivateKey::Open, Open, Open method [Security], Open method [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Open, security.ix509privatekey_open_method
-f1_keywords:
-- certenroll/IX509PrivateKey.Open
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey::Open
+ - certenroll/IX509PrivateKey::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey.Open
 ---
 
 # IX509PrivateKey::Open
@@ -49,31 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Open</b> method opens an existing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 If successful, this method sets the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_opened">Opened</a> property. You must call either the <b>Open</b> or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> methods before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-export">Export</a> method or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-exportpublickey">ExportPublicKey</a> method.
 
@@ -156,17 +143,7 @@ The following properties can be set regardless of whether the key is open:<ul>
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3f79bf84-c7b9-4291-ae3b-7061fe3199e9
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],Query method, IVssBackupComponents.Query, IVssBackupComponents::Query, Query, Query method [VSS], Query method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_query, base.ivssbackupcomponents_query, vsbackup/IVssBackupComponents::Query
-f1_keywords:
-- vsbackup/IVssBackupComponents.Query
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.Query
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::Query
+ - vsbackup/IVssBackupComponents::Query
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.Query
 ---
 
 # IVssBackupComponents::Query
@@ -50,22 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Query</b> method queries providers on the 
     system and/or the completed shadow copies in the system that reside in the current context. The method can be 
     called only during backup operations.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param QueriedObjectId [in]
 
 Reserved. The value of this parameter must be GUID_NULL.
-
 
 ### -param eQueriedObjectType [in]
 
@@ -75,23 +69,16 @@ Indicates restriction of the query to the given object type. A value of VSS_OBJE
 
 Currently, the value of this parameter must be <b>VSS_OBJECT_NONE</b>.
 
-
 ### -param eReturnedObjectsType [in]
 
 Object types to be returned. The value of this parameter must be either 
       <b>VSS_OBJECT_SNAPSHOT</b> or <b>VSS_OBJECT_PROVIDER</b>.
-     
-
 
 ### -param ppEnum [out]
 
 Doubly indirect pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> enumerator object.
-     
-
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -211,14 +198,8 @@ Unexpected provider error. The error code is logged in the error log. For more i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because <b>Query</b> returns only information on 
     completed shadow copies, the only shadow copy state it can disclose is VSS_SS_COMPLETED.
@@ -240,15 +221,8 @@ While <b>Query</b> can return information on all of
 
 While this method currently returns a lists of all available providers and/or all completed shadow copies, in the 
     future, specialized queries may be supported: for instance, querying all shadow copies associated with a provider.
-   
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -263,7 +237,4 @@ While this method currently returns a lists of all available providers and/or al
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
- 
-
- 
 

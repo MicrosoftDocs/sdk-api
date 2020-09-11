@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 90403516-f677-4396-8991-ae621c159567
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ICrmMonitorClerks interface [COM+],described, _dtc_ICrmMonitorClerks_Interface, comsvcs/ICrmMonitorClerks, cos.icrmmonitorclerks
-f1_keywords:
-- comsvcs/ICrmMonitorClerks
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitorClerks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitorClerks
+ - comsvcs/ICrmMonitorClerks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitorClerks
 ---
 
 # ICrmMonitorClerks interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the state of clerks.
-
 
 ## -inheritance
 
@@ -131,16 +130,9 @@ Retrieves the unit of work (UOW) of the transaction for the specified index.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
- 
-
- 
 

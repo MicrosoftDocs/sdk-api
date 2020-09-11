@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: uianimation
+f1_keywords:
+ - uianimation
+ - uianimation/uianimation
 ---
 
 # Uianimation.h header
 
 
 ## -description
-
 
 This header is used by Windows Animation Manager. For more information, see:
 

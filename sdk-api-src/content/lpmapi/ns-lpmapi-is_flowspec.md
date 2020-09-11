@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 1e0cd196-f53c-4d68-a287-7a98b7215d6d
 ms.date: 12/05/2018
 ms.keywords: IS_FLOWSPEC, IS_FLOWSPEC structure [QOS], lpmapi/IS_FLOWSPEC, qos.is_flowspec
-f1_keywords:
-- lpmapi/IS_FLOWSPEC
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- IS_FLOWSPEC
 targetos: Windows
 req.typenames: IS_FLOWSPEC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IS_FLOWSPEC
+ - lpmapi/IS_FLOWSPEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - IS_FLOWSPEC
 ---
 
 # IS_FLOWSPEC structure
@@ -49,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IS_FLOWSPEC</b> structure stores an Integrated Services FLOWSPEC object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field flow_header
 
 General information and length information for the Integrated Services flowspec object (this structure), expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
-
 ### -field flow_body
 
 FLOWSPEC object data, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservflowspec">IntServFlowSpec</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservflowspec">IntServFlowSpec</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
- 
-
- 
 

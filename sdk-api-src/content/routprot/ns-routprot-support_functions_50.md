@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: c6e1e3a3-2c2a-40ef-965f-554263614bdf
 ms.date: 12/05/2018
 ms.keywords: '*PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS structure pointer [RAS], SUPPORT_FUNCTIONS, SUPPORT_FUNCTIONS structure [RAS], SUPPORT_FUNCTIONS_50, _mpr_support_functions, routprot/PSUPPORT_FUNCTIONS, routprot/SUPPORT_FUNCTIONS, rras.support_functions'
-f1_keywords:
-- routprot/SUPPORT_FUNCTIONS
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Routprot.h
-api_name:
-- SUPPORT_FUNCTIONS
 targetos: Windows
 req.typenames: SUPPORT_FUNCTIONS_50
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SUPPORT_FUNCTIONS_50
+ - routprot/_SUPPORT_FUNCTIONS_50
+ - SUPPORT_FUNCTIONS_50
+ - routprot/SUPPORT_FUNCTIONS_50
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Routprot.h
+api_name:
+ - SUPPORT_FUNCTIONS
 ---
 
 # SUPPORT_FUNCTIONS_50 structure
@@ -49,29 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SUPPORT_FUNCTIONS</b> structure is used by the router manager to pass the routing protocol a set of pointers to functions provided by the router manager.
 
-
 ## -struct-fields
-
-
-
 
 ### -field _Align8
 
-
 ### -field dwVersion
-
 
 ### -field dwReserved
 
-
 ### -field DWORD
 
-TBD 
-
+TBD
 
 ### -field BOOL
 
@@ -365,14 +359,7 @@ Pointer to information that describes the route to validate.
 
 Pointer to information that describes the destination address. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>
- 
-
- 
 

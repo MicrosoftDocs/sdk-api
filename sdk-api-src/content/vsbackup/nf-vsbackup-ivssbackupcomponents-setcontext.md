@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 0e466090-b551-44e8-a86d-75126352aa49
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetContext method, IVssBackupComponents.SetContext, IVssBackupComponents::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setcontext, base.ivssbackupcomponents_setcontext, vsbackup/IVssBackupComponents::SetContext
-f1_keywords:
-- vsbackup/IVssBackupComponents.SetContext
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SetContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SetContext
+ - vsbackup/IVssBackupComponents::SetContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SetContext
 ---
 
 # IVssBackupComponents::SetContext
@@ -50,16 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetContext</b> method sets the context 
     for subsequent shadow copy-related operations.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param lContext [in]
 
@@ -68,12 +63,8 @@ The context to be set. The context must be one of the supported values of
       bitwise OR) of 
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> with a 
       valid <b>_VSS_SNAPSHOT_CONTEXT</b>.
-     
-
 
 ## -returns
-
-
 
 The default return value of this method is S_OK. The following are the valid return codes for this method.
      
@@ -133,14 +124,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The default context for VSS shadow copies is VSS_CTX_BACKUP.
 
@@ -161,15 +146,8 @@ For details on how the context set by
 For a complete discussion of the permitted shadow copy contexts, see 
     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
-   
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -188,7 +166,4 @@ For a complete discussion of the permitted shadow copy contexts, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
- 
-
- 
 

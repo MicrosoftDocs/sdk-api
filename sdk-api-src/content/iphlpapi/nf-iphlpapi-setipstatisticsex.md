@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 13b52016-5bdb-4546-af53-d3ae2708653b
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, SetIpStatisticsEx, SetIpStatisticsEx function [IP Helper], iphlp.setipstatisticsex, iphlpapi/SetIpStatisticsEx
-f1_keywords:
-- iphlpapi/SetIpStatisticsEx
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- SetIpStatisticsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetIpStatisticsEx
+ - iphlpapi/SetIpStatisticsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - SetIpStatisticsEx
 ---
 
 # SetIpStatisticsEx function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetIpStatisticsEx</b> function toggles IP forwarding on or off and sets the default time-to-live (TTL) value for the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Statistics [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a> structure. The caller should set the <b>dwForwarding</b> and <b>dwDefaultTTL</b> members of this structure to the new values. To keep one of the members at its current value, use MIB_USE_CURRENT_TTL or MIB_USE_CURRENT_FORWARDING.
-
 
 ### -param Family
 
@@ -103,12 +98,8 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -165,14 +156,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To set only the default TTL, the caller can also use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipttl">SetIpTTL</a> function.
@@ -181,15 +166,7 @@ The <b>SetIpStatisticsEx</b> function can only be called by a user logged on as 
 
 The <b>SetIpStatisticsEx</b> function can also fail because of user account control (UAC) on Windows Vista and later. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application on lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
@@ -208,7 +185,4 @@ The <b>SetIpStatisticsEx</b> function can also fail because of user account cont
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipttl">SetIpTTL</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 268e0d3a-2b04-40fd-91eb-f1780236b3e4
 ms.date: 12/05/2018
 ms.keywords: '*LPFLOWSPEC, *PFLOWSPEC, FLOWSPEC, FLOWSPEC structure [QOS], LPFLOWSPEC, LPFLOWSPEC structure pointer [QOS], PFLOWSPEC, PFLOWSPEC structure pointer [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILBLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, SERVICE_NO_QOS_SIGNALING, SERVICE_NO_TRAFFIC_CONTROL, _gqos_flowspec, qos.flowspec, qos/FLOWSPEC, qos/LPFLOWSPEC, qos/PFLOWSPEC'
-f1_keywords:
-- qos/FLOWSPEC
-dev_langs:
-- c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qos.h
-api_name:
-- FLOWSPEC
 targetos: Windows
 req.typenames: FLOWSPEC, *PFLOWSPEC, *LPFLOWSPEC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _flowspec
+ - qos/_flowspec
+ - PFLOWSPEC
+ - qos/PFLOWSPEC
+ - FLOWSPEC
+ - qos/FLOWSPEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qos.h
+api_name:
+ - FLOWSPEC
 ---
 
 # FLOWSPEC structure
@@ -49,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FLOWSPEC</b> structure provides quality of service parameters to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/rsvp-service-provider">RSVP SP</a>. This allows QOS-aware applications to invoke, modify, or remove QOS settings for a given flow. Some members of 
 <b>FLOWSPEC</b> can be set to default values. See Remarks for more information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TokenRate
 
@@ -77,26 +77,21 @@ If <b>TokenRate</b> is set to QOS_NOT_SPECIFIED on the receiver only, the maximu
 The <b>TokenRate</b> member cannot be set to zero. Nor can it be set as a default (that is, set to QOS_NOT_SPECIFIED) in a sending 
 <b>FLOWSPEC</b>.
 
-
 ### -field TokenBucketSize
 
-The maximum amount of credits a given direction of a flow can accrue, regardless of time, in bytes. In video applications, <b>TokenBucketSize</b> will likely be the largest average frame size. In constant rate applications, <b>TokenBucketSize</b> should be set to allow for small variations. 
-
+The maximum amount of credits a given direction of a flow can accrue, regardless of time, in bytes. In video applications, <b>TokenBucketSize</b> will likely be the largest average frame size. In constant rate applications, <b>TokenBucketSize</b> should be set to allow for small variations.
 
 ### -field PeakBandwidth
 
-The upper limit on time-based transmission permission for a given flow, in bytes per second. The <b>PeakBandwidth</b> member restricts flows that may have accrued a significant amount of transmission credits, or tokens from overburdening network resources with one-time or cyclical data bursts, by enforcing a per-second data transmission ceiling. Some intermediate systems can take advantage of this information, resulting in more efficient resource allocation. 
-
+The upper limit on time-based transmission permission for a given flow, in bytes per second. The <b>PeakBandwidth</b> member restricts flows that may have accrued a significant amount of transmission credits, or tokens from overburdening network resources with one-time or cyclical data bursts, by enforcing a per-second data transmission ceiling. Some intermediate systems can take advantage of this information, resulting in more efficient resource allocation.
 
 ### -field Latency
 
-Maximum acceptable delay between transmission of a bit by the sender and its receipt by one or more intended receivers, in microseconds. The precise interpretation of this number depends on the level of guarantee specified in the QOS request. 
-
+Maximum acceptable delay between transmission of a bit by the sender and its receipt by one or more intended receivers, in microseconds. The precise interpretation of this number depends on the level of guarantee specified in the QOS request.
 
 ### -field DelayVariation
 
-Difference between the maximum and minimum possible delay a packet will experience, in microseconds. Applications use <b>DelayVariation</b> to determine the amount of buffer space needed at the receiving end of the flow. This buffer space information can be used to restore the original data transmission pattern. 
-
+Difference between the maximum and minimum possible delay a packet will experience, in microseconds. Applications use <b>DelayVariation</b> to determine the amount of buffer space needed at the receiving end of the flow. This buffer space information can be used to restore the original data transmission pattern.
 
 ### -field ServiceType
 
@@ -259,20 +254,15 @@ Non-conforming traffic
 
 For a simple example, if a given network device were resource-bounded and had to choose among transmitting a packet from one of the above <b>ServiceType</b> settings, it would first send a packet of SERVICETYPE_NETWORKCONTROL, and if there were no packets of that <b>ServiceType</b> requiring transmission it would send a packet of <b>ServiceType</b> SERVICETYPE_GUARANTEED, and so on.
 
-
 ### -field MaxSduSize
 
 Specifies the maximum packet size permitted or used in the traffic flow, in bytes.
-
 
 ### -field MinimumPolicedSize
 
 Specifies the minimum packet size for which the requested quality of service will be provided, in bytes. Packets smaller than this size are treated by traffic control as <b>MinimumPolicedSize</b>. When using the <b>FLOWSPEC</b> structure in association with RSVP, the value of <b>MinimumPolicedSize</b> cannot be zero; however, if you are using the <b>FLOWSPEC</b> structure specifically with the TC API, you can set <b>MinimumPolicedSize</b> to zero.
 
-
 ## -remarks
-
-
 
 Many members of the 
 <b>FLOWSPEC</b> structure can be set to default values by setting the member to QOS_NOT_SPECIFIED. Note that the members that can be set to default values differ depending on whether the 
@@ -321,17 +311,7 @@ In a sending
 <dd>SERVICETYPE_NOTRAFFIC</dd>
 </dl>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 97fbb6bf-110e-4393-bf25-1ec378b91bdc
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], IVssHardwareSnapshotProvider interface [VSS],described, base.ivsshardwaresnapshotprovider, vsprov/IVssHardwareSnapshotProvider
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProvider
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProvider
+ - vsprov/IVssHardwareSnapshotProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProvider
 ---
 
 # IVssHardwareSnapshotProvider interface
 
 
 ## -description
-
 
 The <b>IVssHardwareSnapshotProvider</b> 
    interface contains the methods used by VSS to map volumes to LUNs, discover LUNs created during the 
@@ -125,16 +125,9 @@ Called whenever VSS determines that a shadow copy LUN contains no interesting da
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
- 
-
- 
 

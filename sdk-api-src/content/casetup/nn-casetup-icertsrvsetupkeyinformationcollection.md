@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d029dd5f-9c19-46fd-aac3-275c624a157b
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection, ICertSrvSetupKeyInformationCollection interface [Security], ICertSrvSetupKeyInformationCollection interface [Security],described, casetup/ICertSrvSetupKeyInformationCollection, security.icertsrvsetupkeyinformationcollection
-f1_keywords:
-- casetup/ICertSrvSetupKeyInformationCollection
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetupKeyInformationCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetupKeyInformationCollection
+ - casetup/ICertSrvSetupKeyInformationCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetupKeyInformationCollection
 ---
 
 # ICertSrvSetupKeyInformationCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ICertSrvSetupKeyInformationCollection</b> interface defines functionality to populate and enumerate a collection of <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> objects. Microsoft provides an implementation of this interface in the <b>CCertSrvSetupKeyInformationCollection</b> class. You cannot create an external instance of this interface. You obtain this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getexistingcacertificates">GetExistingCACertificates</a> method.
-
 
 ## -inheritance
 
@@ -134,5 +133,5 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-caset
 
 </td>
 </tr>
-</table> 
+</table>
 

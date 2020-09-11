@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontFamily2 interface [Direct Write]","GetMatching
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontFamily2 interface [Direct Write],GetMatchingFonts method, IDWriteFontFamily2.GetMatchingFonts, IDWriteFontFamily2::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontFamily2 interface, directwrite.idwritefontfamily2_getmatchingfont, dwrite_3/IDWriteFontFamily2::GetMatchingFonts
-f1_keywords:
-- dwrite_3/IDWriteFontFamily2.GetMatchingFonts
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontFamily2::GetMatchingFonts
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontFamily2::GetMatchingFonts
+ - dwrite_3/IDWriteFontFamily2::GetMatchingFonts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontFamily2::GetMatchingFonts
 ---
 
 ## -description
@@ -76,3 +77,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

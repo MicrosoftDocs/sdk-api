@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9a5fe298-e76b-44ac-9fcd-a5d1aeb3593c
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Sharpness method, IVideoProcAmp.getRange_Sharpness, IVideoProcAmp::getRange_Sharpness, IVideoProcAmpgetRange_Sharpness, dshow.ivideoprocamp_getrange_sharpness, getRange_Sharpness, getRange_Sharpness method [DirectShow], getRange_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Sharpness
-f1_keywords:
-- vidcap/IVideoProcAmp.getRange_Sharpness
-dev_langs:
-- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vidcap.h
-api_name:
-- IVideoProcAmp.getRange_Sharpness
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoProcAmp::getRange_Sharpness
+ - vidcap/IVideoProcAmp::getRange_Sharpness
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vidcap.h
+api_name:
+ - IVideoProcAmp.getRange_Sharpness
 ---
 
 # IVideoProcAmp::getRange_Sharpness
@@ -49,60 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>getRange_Sharpness</code> method returns the range of sharpness settings supported by the camera.
 
-
 ## -parameters
-
-
-
 
 ### -param pMin [out]
 
 Receives the minimum sharpness setting.
 
-
 ### -param pMax [out]
 
 Receives the maximum sharpness setting.
-
 
 ### -param pSteppingDelta [out]
 
 Receives the smallest step between settings.
 
-
 ### -param pDefault [out]
 
 Receives the default sharpness setting.
-
 
 ### -param pCapsFlag [out]
 
 Receives one or more flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampflags">VideoProcAmpFlags</a>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ivideoprocamp">IVideoProcAmp Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
 ms.date: 12/05/2018
 ms.keywords: MsiGetFeatureUsage, MsiGetFeatureUsage function, MsiGetFeatureUsageA, MsiGetFeatureUsageW, _msi_msigetfeatureusage, msi/MsiGetFeatureUsage, msi/MsiGetFeatureUsageA, msi/MsiGetFeatureUsageW, setup.msigetfeatureusage
-f1_keywords:
-- msi/MsiGetFeatureUsage
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetFeatureUsage
-- MsiGetFeatureUsageA
-- MsiGetFeatureUsageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetFeatureUsageW
+ - msi/MsiGetFeatureUsageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetFeatureUsage
+ - MsiGetFeatureUsageA
+ - MsiGetFeatureUsageW
 ---
 
 # MsiGetFeatureUsageW function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetFeatureUsage</b> function returns the usage metrics for a product feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that contains the feature.
 
-
 ### -param szFeature [in]
 
 Specifies the feature code for the feature for which metrics are to be returned.
 
-
 ### -param pdwUseCount [out]
 
 Indicates the number of times the feature has been used.
-
 
 ### -param pwDateUsed [out]
 
@@ -121,12 +114,8 @@ Year offset from 1980 (add 1980 to get actual year)
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
 <b>MsiGetFeatureUsage</b> function returns the following values.
@@ -170,20 +159,10 @@ The function completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
 
 ## -remarks
 

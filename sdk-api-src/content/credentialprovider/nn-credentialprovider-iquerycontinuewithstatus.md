@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3f41714e-d8f6-46ea-aea4-19dca4723ca5
 ms.date: 12/05/2018
 ms.keywords: IQueryContinueWithStatus, IQueryContinueWithStatus interface [Windows Shell], IQueryContinueWithStatus interface [Windows Shell],described, _shell_IQueryContinueWithStatus, credentialprovider/IQueryContinueWithStatus, shell.IQueryContinueWithStatus
-f1_keywords:
-- credentialprovider/IQueryContinueWithStatus
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- IQueryContinueWithStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueryContinueWithStatus
+ - credentialprovider/IQueryContinueWithStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - IQueryContinueWithStatus
 ---
 
 # IQueryContinueWithStatus interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide a standard mechanism for credential providers to call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue">QueryContinue</a> while attempting to connect to the network to determine if they should continue these attempts. Credential providers can also use this interface to display messages to the user while attempting to establish a network connection.
-
 
 ## -inheritance
 
@@ -77,14 +76,9 @@ Enables the credential provider to pass status messages to the Logon UI as it at
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue">IQueryContinue</a> interface, from which it inherits.
-
-
 

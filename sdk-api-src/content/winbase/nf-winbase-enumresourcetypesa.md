@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypes.htm
 ms.date: 12/05/2018
 ms.keywords: EnumResourceTypes, EnumResourceTypes function [Menus and Other Resources], EnumResourceTypesA, EnumResourceTypesW, _win32_EnumResourceTypes, _win32_enumresourcetypes_cpp, menurc.enumresourcetypes, winbase/EnumResourceTypes, winbase/EnumResourceTypesA, winbase/EnumResourceTypesW, winui._win32_enumresourcetypes
-f1_keywords:
-- winbase/EnumResourceTypes
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- EnumResourceTypes
-- EnumResourceTypesA
-- EnumResourceTypesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumResourceTypesA
+ - winbase/EnumResourceTypesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - EnumResourceTypes
+ - EnumResourceTypesA
+ - EnumResourceTypesW
 ---
 
 # EnumResourceTypesA function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates resource types within a binary module. Starting with Windows Vista, this is typically a <a href="https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management">language-neutral Portable Executable</a> (LN file), and the enumeration also includes resources from one of the corresponding language-specific resource files (.mui files)—if one exists—that contain localizable language resources. It is also possible to use <i>hModule</i> to specify a .mui file, in which case only that file is searched for resource types.
 
 Alternately, applications can call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw">EnumResourceTypesEx</a>, which provides more precise control over which resource files to enumerate.
 
-
 ## -parameters
-
-
-
 
 ### -param hModule [in, optional]
 
@@ -72,13 +68,11 @@ A handle to a module to be searched. This handle must be obtained through <a hre
 
 If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to the module used to create the current process.
 
-
 ### -param lpEnumFunc [in]
 
 Type: <b>ENUMRESTYPEPROC</b>
 
 A pointer to the callback function to be called for each enumerated resource type. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms648041(v=vs.85)">EnumResTypeProc</a> function.
-
 
 ### -param lParam [in]
 
@@ -86,21 +80,13 @@ Type: <b>LONG_PTR</b>
 
 An application-defined value passed to the callback function.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 For each resource type found, <b>EnumResourceTypes</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing each resource type it finds, as well as the various other parameters that were passed to <b>EnumResourceTypes</b>.
 
@@ -124,9 +110,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 > The winbase.h header defines EnumResourceTypes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -153,7 +136,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
- 
-
- 
 

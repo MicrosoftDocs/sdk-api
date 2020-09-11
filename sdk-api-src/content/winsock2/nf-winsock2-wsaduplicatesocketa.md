@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: d4028461-bfa6-4074-9460-5d1371790d41
 ms.date: 12/05/2018
 ms.keywords: WSADuplicateSocket, WSADuplicateSocket function [Winsock], WSADuplicateSocketA, WSADuplicateSocketW, _win32_wsaduplicatesocket_2, winsock.wsaduplicatesocket_2, winsock2/WSADuplicateSocket, winsock2/WSADuplicateSocketA, winsock2/WSADuplicateSocketW
-f1_keywords:
-- winsock2/WSADuplicateSocket
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSADuplicateSocket
-- WSADuplicateSocketA
-- WSADuplicateSocketW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSADuplicateSocketA
+ - winsock2/WSADuplicateSocketA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSADuplicateSocket
+ - WSADuplicateSocketA
+ - WSADuplicateSocketW
 ---
 
 # WSADuplicateSocketA function
@@ -51,37 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSADuplicateSocket</b> function returns a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that can be used to create a new socket descriptor for a shared socket. The 
 <b>WSADuplicateSocket</b> function cannot be used on a QOS-enabled socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 Descriptor identifying the local socket.
 
-
 ### -param dwProcessId [in]
 
 Process identifier of the target process in which the duplicated socket will be used.
-
 
 ### -param lpProtocolInfo [out]
 
 Pointer to a buffer, allocated by the client, that is large enough to contain a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. The service provider copies the protocol information structure contents to this buffer.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSADuplicateSocket</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -182,14 +173,8 @@ The <i>lpProtocolInfo</i> parameter is not a valid part of the user address spac
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSADuplicateSocket</b> function is used to enable socket sharing between processes. A source process calls 
@@ -295,9 +280,6 @@ Notification on shared sockets is subject to the usual constraints of
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
 
 
@@ -307,7 +289,4 @@ Notification on shared sockets is subject to the usual constraints of
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

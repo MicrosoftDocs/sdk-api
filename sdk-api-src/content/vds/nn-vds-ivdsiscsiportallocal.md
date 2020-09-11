@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: eec436c4-73a6-43c5-aae2-dcdd37eb5767
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalLocal, IVdsIscsiPortalLocal interface [VDS], IVdsIscsiPortalLocal interface [VDS],described, base.ivdsiscsiportallocal, vds/IVdsIscsiPortalLocal
-f1_keywords:
-- vds/IVdsIscsiPortalLocal
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsIscsiPortalLocal
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsIscsiPortalLocal
+ - vds/IVdsIscsiPortalLocal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsIscsiPortalLocal
 ---
 
 # IVdsIscsiPortalLocal interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for setting local-initiator-specific IPSEC pre-shared keys on an iSCSI portal.
-
 
 ## -inheritance
 
@@ -78,16 +77,9 @@ The <b>IVdsIscsiPortalLocal</b> interface has these methods.
 <td align="left" width="63%">
 This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiPortalLocal</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4fa6a7f7-df9f-4e38-884c-81a01f913df0
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA, DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA, mf.dxvahd_stream_state_frame_format_data
-f1_keywords:
-- dxvahd/DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
+ - dxvahd/_DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
+ - DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
+ - dxvahd/DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
 ---
 
 # DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream is interlaced.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FrameFormat
 
@@ -64,10 +62,7 @@ The video interlacing, specified as a <a href="https://docs.microsoft.com/window
 
 The default state value is <b>DXVAHD_FRAME_FORMAT_PROGRESSIVE</b> (progressive frames).
 
-
 ## -remarks
-
-
 
 Some devices do not support interlaced RGB. Interlaced RGB support is indicated by the <b>DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED</b>  capability flag. If the device does not support interlaced RGB, it treats all RGB input streams as progressive frames. 
 
@@ -100,14 +95,7 @@ HRESULT DXVAHD_SetFrameFormat(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -126,7 +114,4 @@ HRESULT DXVAHD_SetFrameFormat(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: ccac0f07-a272-41b0-950c-7e5d97d9f1d7
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SetAt method, CHString.SetAt, CHString::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_setat, chstring/CHString::SetAt, wmi.chstring_setat
-f1_keywords:
-- chstring/CHString.SetAt
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::SetAt
+ - chstring/CHString::SetAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.SetAt
 ---
 
 # CHString::SetAt
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,11 +59,7 @@ ms.custom: 19H1
 
 The <b>SetAt</b> method overwrites one character specified by an index number. If the index exceeds the bounds of the existing string,  <b>SetAt</b> does not enlarge the string.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex
 
@@ -76,27 +72,15 @@ Zero-based index of the character in the <a href="https://docs.microsoft.com/win
 
 The character to insert.
 
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getat(int)">CHString::GetAt</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 62E95500-5691-FAE8-BC31-0BB31318D8A4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange2, IUIAutomationTextRange2 interface [Windows Accessibility], IUIAutomationTextRange2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextRange2, winauto.uiauto_IUIAutomationTextRange2
-f1_keywords:
-- uiautomationclient/IUIAutomationTextRange2
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationTextRange2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTextRange2
+ - uiautomationclient/IUIAutomationTextRange2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationTextRange2
 ---
 
 # IUIAutomationTextRange2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange</a> interface to enable Microsoft UI Automation clients to programmatically invoke context menus.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Programmatically invokes a context menu on the target text range.
 
 </td>
 </tr>
-</table> 
+</table>
 

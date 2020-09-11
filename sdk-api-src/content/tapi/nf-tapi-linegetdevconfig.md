@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig function [TAPI 2.2], lineGetDevConfigA, lineGetDevConfigW, tapi/lineGetDevConfig, tapi/lineGetDevConfigA, tapi/lineGetDevConfigW, tapi2.linegetdevconfig
-f1_keywords:
-- tapi/lineGetDevConfig
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGetDevConfig
-- lineGetDevConfigA
-- lineGetDevConfigW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGetDevConfig
+ - tapi/lineGetDevConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGetDevConfig
+ - lineGetDevConfigA
+ - lineGetDevConfigW
 ---
 
 # lineGetDevConfig function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGetDevConfig</b> function returns an "opaque" data structure object, the contents of which are specific to the line (service provider) and device class. The data structure object stores the current configuration of a media-stream device associated with the line device.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDeviceID
 
 Identifier of the line device to be configured.
-
 
 ### -param lpDeviceConfig
 
@@ -85,21 +80,13 @@ Pointer to the memory location of type
 Pointer to a null-terminated string that specifies the device class of the device whose configuration is requested. Valid device class 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a> strings are the same as those specified for the function.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_BADDEVICEID, LINEERR_NODRIVER, LINEERR_INVALDEVICECLASS, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALPOINTER, LINEERR_RESOURCEUNAVAIL, LINEERR_STRUCTURETOOSMALL, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_UNINITIALIZED, LINEERR_NODEVICE.
 
-
-
-
 ## -remarks
-
-
 
 Call states are device specific.
 
@@ -118,13 +105,7 @@ Typically, an application calls
 The exact format of the data contained within the structure is specific to the line and media stream API (device class), is undocumented, and is undefined. The structure returned by this function cannot be directly accessed or manipulated by the application, but can only be stored intact and later used in 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a> to restore the settings. The structure also cannot necessarily be passed to other devices, even of the same device class (although this can work in some instances, it is not guaranteed).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
@@ -147,7 +128,4 @@ The exact format of the data contained within the structure is specific to the l
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a>
- 
-
- 
 

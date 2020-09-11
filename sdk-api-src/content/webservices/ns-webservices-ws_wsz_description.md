@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 12b6f630-7585-4c88-8c49-f37d1899d32b
 ms.date: 12/05/2018
 ms.keywords: WS_WSZ_DESCRIPTION, WS_WSZ_DESCRIPTION structure [Web Services for Windows], webservices/WS_WSZ_DESCRIPTION, wsw.ws_wsz_description
-f1_keywords:
-- webservices/WS_WSZ_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_WSZ_DESCRIPTION
 targetos: Windows
 req.typenames: WS_WSZ_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_WSZ_DESCRIPTION
+ - webservices/_WS_WSZ_DESCRIPTION
+ - WS_WSZ_DESCRIPTION
+ - webservices/WS_WSZ_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_WSZ_DESCRIPTION
 ---
 
 # WS_WSZ_DESCRIPTION structure
@@ -49,26 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 This type description is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a> and is optional.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field minCharCount
 
 Specifies the minimum number of characters (not including the terminating '\0' character).
-                
-
 
 ### -field maxCharCount
 
 Specifies the maximum number of characters (not including the terminating '\0' character).
-                
 

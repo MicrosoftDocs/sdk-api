@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 255CB074-9C05-4402-9EDE-43AD8C6707E6
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method, GetBreakOnSeverity method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnSeverity method, ID3D12InfoQueue.GetBreakOnSeverity, ID3D12InfoQueue::GetBreakOnSeverity, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnSeverity, direct3d12.id3d12infoqueue_getbreakonseverity
-f1_keywords:
-- d3d12sdklayers/ID3D12InfoQueue.GetBreakOnSeverity
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12sdklayers.h
-api_name:
-- ID3D12InfoQueue.GetBreakOnSeverity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12InfoQueue::GetBreakOnSeverity
+ - d3d12sdklayers/ID3D12InfoQueue::GetBreakOnSeverity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12sdklayers.h
+api_name:
+ - ID3D12InfoQueue.GetBreakOnSeverity
 ---
 
 # ID3D12InfoQueue::GetBreakOnSeverity
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Get a message severity level to break on when a message with that severity level passes through the storage filter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Severity [in]
 
@@ -66,27 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/
 
 Message severity level to break on.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Whether this breaking condition is turned on or off (true for on, false for off).
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>
- 
-
- 
 

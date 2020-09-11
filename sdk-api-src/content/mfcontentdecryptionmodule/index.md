@@ -5,13 +5,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal
 tech.root: mf
+f1_keywords:
+ - mfidl
+ - mfidl/mfidl
 ---
 
 # Mfidl.h header
 
 
 ## -description
-
 
 This header is used by Microsoft Media Foundation. For more information, see:
 

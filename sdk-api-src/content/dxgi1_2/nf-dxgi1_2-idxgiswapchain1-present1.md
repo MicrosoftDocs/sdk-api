@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: F795A719-71BA-4A25-B41A-9D93F96B6CA4
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],Present1 method, IDXGISwapChain1.Present1, IDXGISwapChain1::Present1, Present1, Present1 method [DXGI], Present1 method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_present1, dxgi1_2/IDXGISwapChain1::Present1
-f1_keywords:
-- dxgi1_2/IDXGISwapChain1.Present1
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGISwapChain1.Present1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISwapChain1::Present1
+ - dxgi1_2/IDXGISwapChain1::Present1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGISwapChain1.Present1
 ---
 
 # IDXGISwapChain1::Present1
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Presents a frame on the display screen. 
-
+Presents a frame on the display screen.
 
 ## -parameters
-
-
-
 
 ### -param SyncInterval
 
@@ -81,29 +77,19 @@ For an example that shows how sync-interval values affect a flip presentation qu
 
 If the update region straddles more than one output (each represented by <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutput1">IDXGIOutput1</a>), <b>Present1</b> performs the synchronization to the output that contains the largest sub-rectangle of the target window's client area.
 
-
 ### -param PresentFlags
 
 An integer value that contains swap-chain presentation options. These options are defined by the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-present">DXGI_PRESENT</a> constants.
-
 
 ### -param pPresentParameters [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_present_parameters">DXGI_PRESENT_PARAMETERS</a> structure that describes updated rectangles and scroll information of the frame to present.
 
-
 ## -returns
 
-
-
-Possible return values include: S_OK, <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_DEVICE_REMOVED</a> , <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-status">DXGI_STATUS_OCCLUDED</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a>, or E_OUTOFMEMORY.  
-
-
-
+Possible return values include: S_OK, <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_DEVICE_REMOVED</a> , <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-status">DXGI_STATUS_OCCLUDED</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a>, or E_OUTOFMEMORY.
 
 ## -remarks
-
-
 
 An app can use <b>Present1</b> to optimize presentation by specifying scroll and dirty rectangles. When the runtime has information about these rectangles, the runtime can then perform necessary bitblts during presentation more efficiently and pass this metadata to the Desktop Window Manager (DWM). The DWM can then use the metadata to optimize presentation and pass the metadata to indirect displays and terminal servers to optimize traffic over the wire. An app must confine its modifications to only the dirty regions that it passes to <b>Present1</b>, as well as modify the entire dirty region to avoid undefined resource contents from being exposed.
 
@@ -124,20 +110,11 @@ When you call <b>Present1</b>, the runtime shows frame A for only 1 vertical bla
 <h3><a id="Variable_refresh_rate_displays"></a><a id="variable_refresh_rate_displays"></a><a id="VARIABLE_REFRESH_RATE_DISPLAYS"></a>Variable refresh rate displays</h3>
 It is a requirement of variable refresh rate displays that tearing is enabled. The <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport">CheckFeatureSupport</a> method can be used to determine if this feature is available, and to set the required flags refer to the descriptions of <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-present">DXGI_PRESENT_ALLOW_TEARING</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>, and the <b>Variable refresh rate displays/Vsync off</b> section of <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-5-improvements">DXGI 1.5 Improvements</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>
- 
-
- 
 

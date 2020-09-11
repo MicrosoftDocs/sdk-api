@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6a0a6228-2131-48a6-8d18-9491969d265b
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],StartSnapshotSet method, IVssBackupComponents.StartSnapshotSet, IVssBackupComponents::StartSnapshotSet, StartSnapshotSet, StartSnapshotSet method [VSS], StartSnapshotSet method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_startsnapshotset, base.ivssbackupcomponents_startsnapshotset, vsbackup/IVssBackupComponents::StartSnapshotSet
-f1_keywords:
-- vsbackup/IVssBackupComponents.StartSnapshotSet
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.StartSnapshotSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::StartSnapshotSet
+ - vsbackup/IVssBackupComponents::StartSnapshotSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.StartSnapshotSet
 ---
 
 # IVssBackupComponents::StartSnapshotSet
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>StartSnapshotSet</b> method creates a new, empty shadow copy set.
 
-
 ## -parameters
-
-
-
 
 ### -param pSnapshotSetId [out]
 
 The address of a caller-allocated variable that receives the shadow copy set identifier.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -146,32 +139,17 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method must be called before 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a> during backup operations.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
- 
-
- 
 

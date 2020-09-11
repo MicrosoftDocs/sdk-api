@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ffd37a2e-6bac-4566-bb15-eafce8a11c3b
 ms.date: 12/05/2018
 ms.keywords: GetEnlistmentId, GetEnlistmentId function [Files], fs.getenlistmentid, ktmw32/GetEnlistmentId
-f1_keywords:
-- ktmw32/GetEnlistmentId
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ktmw32.dll
-api_name:
-- GetEnlistmentId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetEnlistmentId
+ - ktmw32/GetEnlistmentId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ktmw32.dll
+api_name:
+ - GetEnlistmentId
 ---
 
 # GetEnlistmentId function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the identifier (ID) for the specified enlistment.
 
-
 ## -parameters
-
-
-
 
 ### -param EnlistmentHandle [in]
 
 A handle to the enlistment.
 
-
 ### -param EnlistmentId [out]
 
 A pointer to a variables that receives the ID of the enlistment.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -79,18 +71,7 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 The following list identifies the possible error codes:
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
- 
-
- 
 

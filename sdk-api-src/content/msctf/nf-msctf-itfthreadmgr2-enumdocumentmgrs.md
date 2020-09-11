@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 16A07BA6-05C2-4CA6-97D6-F1B4CEE1E757
 ms.date: 12/05/2018
 ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr2.EnumDocumentMgrs, ITfThreadMgr2::EnumDocumentMgrs, msctf/ITfThreadMgr2::EnumDocumentMgrs, tsf.itfthreadmgr2_enumdocumentmgrs
-f1_keywords:
-- msctf/ITfThreadMgr2.EnumDocumentMgrs
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.EnumDocumentMgrs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::EnumDocumentMgrs
+ - msctf/ITfThreadMgr2::EnumDocumentMgrs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.EnumDocumentMgrs
 ---
 
 # ITfThreadMgr2::EnumDocumentMgrs
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns an enumerator for all the document managers within the calling thread.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs</a> interface that receives the enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -119,27 +112,12 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller must release the enumerator when it is no longer required.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
 

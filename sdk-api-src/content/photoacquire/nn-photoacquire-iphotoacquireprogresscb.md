@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: c4fcc470-1b05-4d33-8581-80c6e7488e04
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], IPhotoAcquireProgressCB interface [Picture Acquisition],described, IPhotoAcquireProgressCBInterface, photoacquire/IPhotoAcquireProgressCB, picacq.iphotoacquireprogresscb
-f1_keywords:
-- photoacquire/IPhotoAcquireProgressCB
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- photoacquire.h
-api_name:
-- IPhotoAcquireProgressCB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireProgressCB
+ - photoacquire/IPhotoAcquireProgressCB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - photoacquire.h
+api_name:
+ - IPhotoAcquireProgressCB
 ---
 
 # IPhotoAcquireProgressCB interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IPhotoAcquireProgressCB</code> interface may be implemented if you wish to do extra processing at various stages in the acquisition process.
-
-
-
 
 ## -inheritance
 
@@ -242,16 +238,9 @@ Provides extended functionality when the percentage of items transferred changes
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
- 
-
- 
 

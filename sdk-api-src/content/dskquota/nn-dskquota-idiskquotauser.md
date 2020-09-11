@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 27edbebc-35b4-4f6a-87cc-d8a99782f405
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser, IDiskQuotaUser interface [Files], IDiskQuotaUser interface [Files],described, _win32_idiskquotauser, base.idiskquotauser, dskquota/IDiskQuotaUser, fs.idiskquotauser
-f1_keywords:
-- dskquota/IDiskQuotaUser
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser
+ - dskquota/IDiskQuotaUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser
 ---
 
 # IDiskQuotaUser interface
 
 
 ## -description
-
 
 Represents a single user quota entry in the volume quota information file. Through this 
     interface, you can query and modify user-specific quota information on an NTFS file system 
@@ -58,7 +58,6 @@ Represents a single user quota entry in the volume quota information file. Throu
     <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>, 
     <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusersid">IDiskQuotaControl::AddUserSid</a>, or 
     <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusername">IDiskQuotaControl::AddUserName</a>.
-
 
 ## -inheritance
 
@@ -210,20 +209,13 @@ Sets the user's warning threshold value on the volume.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
- 
-
- 
 

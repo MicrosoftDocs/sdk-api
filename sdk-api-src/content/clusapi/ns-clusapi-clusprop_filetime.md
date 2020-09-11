@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 2c88e9db-f218-4b88-9bb0-607fd09e8d0b
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_FILETIME, CLUSPROP_FILETIME, CLUSPROP_FILETIME structure [Failover Cluster], PCLUSPROP_FILETIME, PCLUSPROP_FILETIME structure pointer [Failover Cluster], clusapi/CLUSPROP_FILETIME, clusapi/PCLUSPROP_FILETIME, mscs.clusprop_filetime'
-f1_keywords:
-- clusapi/CLUSPROP_FILETIME
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_FILETIME
 targetos: Windows
 req.typenames: CLUSPROP_FILETIME, *PCLUSPROP_FILETIME
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_FILETIME
+ - clusapi/CLUSPROP_FILETIME
+ - PCLUSPROP_FILETIME
+ - clusapi/PCLUSPROP_FILETIME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_FILETIME
 ---
 
 # CLUSPROP_FILETIME structure
 
 
 ## -description
-
 
 Describes a date 
      and time stamp for a file. It is used as an entry in a 
@@ -60,29 +62,19 @@ Describes a date
 </ul>For convenience, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> members are listed 
      explicitly.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ft
 
 A date and time value.
 
-
 ### -field CLUSPROP_VALUE
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_LIST_VALUE_FILETIME</b> (0x0001000c) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>ft</b> member.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
@@ -97,7 +89,4 @@ A date and time value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
- 
-
- 
 

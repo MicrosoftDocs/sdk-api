@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7e9d4a0d-b61f-47d9-af47-d8a07cd728f6
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetRate method, IMFPMediaPlayer.SetRate, IMFPMediaPlayer::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setrate, mfplay/IMFPMediaPlayer::SetRate
-f1_keywords:
-- mfplay/IMFPMediaPlayer.SetRate
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.SetRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::SetRate
+ - mfplay/IMFPMediaPlayer::SetRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.SetRate
 ---
 
 # IMFPMediaPlayer::SetRate
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Sets the playback rate.
 
-
 ## -parameters
-
-
-
 
 ### -param flRate [in]
 
 Playback rate. The playback rate is expressed as a ratio of the current rate to the normal rate. For example, <b>1.0</b> indicates normal playback speed, <b>0.5</b> indicates half speed, and <b>2.0</b> indicates twice speed. Positive values indicate forward playback, and negative values indicate reverse playback.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,14 +105,8 @@ The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-m
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method completes asynchronously.  When the operation completes, the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback method is invoked. The event type is <b>MFP_EVENT_TYPE_RATE_SET</b>.
 
@@ -132,20 +118,11 @@ This method does not support playback rates of zero, although Media Foundation d
 
 The new rate applies only to the current media item. Setting a new media item resets the playback rate to 1.0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

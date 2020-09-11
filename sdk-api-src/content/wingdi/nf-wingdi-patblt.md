@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 6deea8ef-b55d-4086-a54e-3f89bb17c6cd
 ms.date: 12/05/2018
 ms.keywords: BLACKNESS, DSTINVERT, PATCOPY, PATINVERT, PatBlt, PatBlt function [Windows GDI], WHITENESS, _win32_PatBlt, gdi.patblt, wingdi/PatBlt
-f1_keywords:
-- wingdi/PatBlt
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- PatBlt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PatBlt
+ - wingdi/PatBlt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - PatBlt
 ---
 
 # PatBlt function
@@ -53,39 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PatBlt</b> function paints the specified rectangle using the brush that is currently selected into the specified device context. The brush color and the surface color or colors are combined by using the specified raster operation.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param x [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the rectangle to be filled.
-
 
 ### -param y [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the rectangle to be filled.
 
-
 ### -param w [in]
 
 The width, in logical units, of the rectangle.
 
-
 ### -param h [in]
 
 The height, in logical units, of the rectangle.
-
 
 ### -param rop [in]
 
@@ -147,23 +138,14 @@ Fills the destination rectangle using the color associated with index 1 in the p
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The values of the <i>dwRop</i> parameter for this function are a limited subset of the full 256 ternary raster-operation codes; in particular, an operation code that refers to a source rectangle cannot be used.
 
@@ -176,12 +158,7 @@ For an example, see "Example of Menu-Item Bitmaps" in <a href="https://docs.micr
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
@@ -192,7 +169,4 @@ For an example, see "Example of Menu-Item Bitmaps" in <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
- 
-
- 
 

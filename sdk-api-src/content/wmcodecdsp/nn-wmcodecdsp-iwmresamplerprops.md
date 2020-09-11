@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: af3cec68-59a2-4b9d-a279-e5af46e9c38e
 ms.date: 12/05/2018
 ms.keywords: IWMResamplerProps, IWMResamplerProps interface [Media Foundation], IWMResamplerProps interface [Media Foundation],described, codecapi.iwmresamplerpropsinterface, mf.iwmresamplerprops, mf.iwmresamplerpropsinterface, wmcodecdsp/IWMResamplerProps
-f1_keywords:
-- wmcodecdsp/IWMResamplerProps
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMResamplerProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMResamplerProps
+ - wmcodecdsp/IWMResamplerProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMResamplerProps
 ---
 
 # IWMResamplerProps interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets properties on the audio resampler DSP.
-
-
-
 
 ## -inheritance
 
@@ -88,20 +85,13 @@ Specifies the channel matrix.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 Audio Resampler
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

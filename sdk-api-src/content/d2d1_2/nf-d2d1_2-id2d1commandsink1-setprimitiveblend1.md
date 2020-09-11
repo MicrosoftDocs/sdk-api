@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 3EA9EC07-1B2F-48A2-ABFB-2DA0E2EFFBF4
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink1 interface [Direct2D],SetPrimitiveBlend1 method, ID2D1CommandSink1.SetPrimitiveBlend1, ID2D1CommandSink1::SetPrimitiveBlend1, SetPrimitiveBlend1, SetPrimitiveBlend1 method [Direct2D], SetPrimitiveBlend1 method [Direct2D],ID2D1CommandSink1 interface, d2d1_2/ID2D1CommandSink1::SetPrimitiveBlend1, direct2d.id2d1commandsink_setprimitiveblend1
-f1_keywords:
-- d2d1_2/ID2D1CommandSink1.SetPrimitiveBlend1
-dev_langs:
-- c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1_2.h
-api_name:
-- ID2D1CommandSink1.SetPrimitiveBlend1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1CommandSink1::SetPrimitiveBlend1
+ - d2d1_2/ID2D1CommandSink1::SetPrimitiveBlend1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1_2.h
+api_name:
+ - ID2D1CommandSink1.SetPrimitiveBlend1
 ---
 
 # ID2D1CommandSink1::SetPrimitiveBlend1
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets a new primitive blend mode. 
-
+Sets a new primitive blend mode.
 
 ## -parameters
-
-
-
 
 ### -param primitiveBlend
 
@@ -64,22 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_
 
 The primitive blend that will apply to subsequent primitives.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code. 
-
-
-
-
+If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 <h3><a id="Blend_modes"></a><a id="blend_modes"></a><a id="BLEND_MODES"></a>Blend modes</h3>
 For aliased rendering (except for MIN mode), the output value O is computed by linearly interpolating the value <i>blend(S, D)</i> with the destination pixel value, based on the amount that the primitive covers the destination pixel.
@@ -140,17 +127,7 @@ The primitive blend applies to the interior of any primitives drawn on the conte
 
 If the primitive blend is anything other than <b>D2D1_PRIMITIVE_BLEND_OVER</b> then ClearType rendering will be turned off. If the application explicitly forces ClearType rendering in these modes, the drawing context will be placed in an error state. D2DERR_WRONG_STATE will be returned from either <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">Flush</a>.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1commandsink1">ID2D1CommandSink1</a>
- 
-
- 
 

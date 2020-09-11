@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 712a93d1-3b5b-4e8f-90bf-f51d1dca923a
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromI1, VarUI1FromI1 function [Automation], _oa96_VarUI1FromI1, automat.varui1fromi1, oleauto/VarUI1FromI1
-f1_keywords:
-- oleauto/VarUI1FromI1
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI1FromI1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI1FromI1
+ - oleauto/VarUI1FromI1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI1FromI1
 ---
 
 # VarUI1FromI1 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a char value to an unsigned char value.
 
-
 ## -parameters
-
-
-
 
 ### -param cIn [in]
 
 The value to convert.
 
-
 ### -param pbOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 3bfe81ca-6d04-4da1-9579-6b0b48faa4a2
 ms.date: 12/05/2018
 ms.keywords: GetSystemFirmwareTable, GetSystemFirmwareTable function, base.getsystemfirmwaretable, sysinfoapi/GetSystemFirmwareTable
-f1_keywords:
-- sysinfoapi/GetSystemFirmwareTable
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetSystemFirmwareTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSystemFirmwareTable
+ - sysinfoapi/GetSystemFirmwareTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetSystemFirmwareTable
 ---
 
 # GetSystemFirmwareTable function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified firmware table from the firmware table provider.
 
-
 ## -parameters
-
-
-
 
 ### -param FirmwareTableProviderSignature [in]
 
@@ -87,8 +83,6 @@ The identifier of the firmware table provider to which the query is to be direct
 <td>The raw SMBIOS firmware table provider.</td>
 </tr>
 </table>
- 
-
 
 ### -param FirmwareTableID [in]
 
@@ -100,22 +94,17 @@ For example, FACP is an ACPI provider, as described in the Signature field of th
 
 For more information, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables">EnumSystemFirmwareTables</a> function.
 
-
 ### -param pFirmwareTableBuffer [out]
 
 A pointer to a buffer that receives the requested firmware table. If this parameter is <b>NULL</b>, the return value is the required buffer size. 
 
 For more information on the contents of this buffer, see the Remarks section.
 
-
 ### -param BufferSize [in]
 
 The size of the <i>pFirmwareTableBuffer</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of bytes written to the buffer. This value will always be less than or equal to <i>BufferSize</i>.
 
@@ -123,12 +112,7 @@ If the function fails because the buffer is not large enough, the return value i
 
 If the function fails for any other reason, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Starting with Windows 10, version 1803, Universal Windows apps can access the System Management BIOS (SMBIOS) information by declaring the <b>smbios</b> restricted capability in the app manifest.
 See <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-smbios-information-from-a-universal-windows-app">Access SMBIOS information from a Universal Windows App</a>for details. Only raw SMBIOS (RSMB) firmware tables can be accessed from a Universal Windows app.
@@ -200,14 +184,7 @@ if (bytesWritten != smBiosDataSize) {
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-smbios-information-from-a-universal-windows-app">Access SMBIOS information from a Universal Windows App</a>
 
@@ -219,7 +196,4 @@ if (bytesWritten != smBiosDataSize) {
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
- 
-
- 
 

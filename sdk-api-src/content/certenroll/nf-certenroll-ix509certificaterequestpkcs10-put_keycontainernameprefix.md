@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d4a99b08-5616-4c75-b99f-680f55288baa
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],KeyContainerNamePrefix property, IX509CertificateRequestPkcs10.KeyContainerNamePrefix, IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::KeyContainerNamePrefix, IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, KeyContainerNamePrefix property [Security], KeyContainerNamePrefix property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, put_KeyContainerNamePrefix, security.ix509certificaterequestpkcs10_keycontainernameprefix_property
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10.KeyContainerNamePrefix
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10.KeyContainerNamePrefix
-- IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix
-- IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix
+ - certenroll/IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10.KeyContainerNamePrefix
+ - IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix
+ - IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
 ---
 
 # IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>KeyContainerNamePrefix</b> property specifies or retrieves a prefix used to create the container name for a new private key.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Each CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> or Cryptography API: Next Generation (CNG) key provider maintains a key container for the private key. To retrieve the name of a key container for an existing key, use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containername">ContainerName</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object.
 
@@ -86,17 +82,7 @@ You must set this property before calling the <a href="https://docs.microsoft.co
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
 

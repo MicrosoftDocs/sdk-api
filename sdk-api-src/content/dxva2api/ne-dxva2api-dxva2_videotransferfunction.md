@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 43b99d5f-ea28-4de2-b118-e2277f283dee
 ms.date: 12/05/2018
 ms.keywords: 43b99d5f-ea28-4de2-b118-e2277f283dee, DXVA2_VideoTransFuncMask, DXVA2_VideoTransFunc_10, DXVA2_VideoTransFunc_18, DXVA2_VideoTransFunc_20, DXVA2_VideoTransFunc_22, DXVA2_VideoTransFunc_240M, DXVA2_VideoTransFunc_28, DXVA2_VideoTransFunc_709, DXVA2_VideoTransFunc_Unknown, DXVA2_VideoTransFunc_sRGB, DXVA2_VideoTransferFunction, DXVA2_VideoTransferFunction enumeration [Media Foundation], dxva2api/DXVA2_VideoTransFuncMask, dxva2api/DXVA2_VideoTransFunc_10, dxva2api/DXVA2_VideoTransFunc_18, dxva2api/DXVA2_VideoTransFunc_20, dxva2api/DXVA2_VideoTransFunc_22, dxva2api/DXVA2_VideoTransFunc_240M, dxva2api/DXVA2_VideoTransFunc_28, dxva2api/DXVA2_VideoTransFunc_709, dxva2api/DXVA2_VideoTransFunc_Unknown, dxva2api/DXVA2_VideoTransFunc_sRGB, dxva2api/DXVA2_VideoTransferFunction, mf.dxva2_videotransferfunction
-f1_keywords:
-- dxva2api/DXVA2_VideoTransferFunction
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva2api.h
-api_name:
-- DXVA2_VideoTransferFunction
 targetos: Windows
 req.typenames: DXVA2_VideoTransferFunction
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA2_VideoTransferFunction
+ - dxva2api/_DXVA2_VideoTransferFunction
+ - DXVA2_VideoTransferFunction
+ - dxva2api/DXVA2_VideoTransferFunction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva2api.h
+api_name:
+ - DXVA2_VideoTransferFunction
 ---
 
 # DXVA2_VideoTransferFunction enumeration
@@ -49,79 +52,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the conversion function from linear RGB to non-linear RGB (R'G'B'). These flags are used in the DXVA2_ExtendedFormat Structure.
-        
-      
-
 
 ## -enum-fields
-
-
-
 
 ### -field DXVA2_VideoTransFuncMask
 
 Bitmask to validate flag values. This value is not a valid flag.
-          
-
 
 ### -field DXVA2_VideoTransFunc_Unknown
 
 Unknown. Treat as DXVA2_VideoTransFunc_709.
-          
-
 
 ### -field DXVA2_VideoTransFunc_10
 
 Linear RGB (gamma = 1.0).
-          
-
 
 ### -field DXVA2_VideoTransFunc_18
 
 True 1.8 gamma, L' = L^1/1.8.
-          
-
 
 ### -field DXVA2_VideoTransFunc_20
 
 True 2.0 gamma, L' = L^1/2.0.
-          
-
 
 ### -field DXVA2_VideoTransFunc_22
 
 True 2.2 gamma, L' = L^1/2.2. This transfer function is used in ITU-R BT.470-2 System M (NTSC).
-          
-
 
 ### -field DXVA2_VideoTransFunc_709
 
 ITU-R BT.709 transfer function. Gamma 2.2 curve with a linear segment in the lower range. This transfer function is used in BT.709, BT.601, SMPTE 296M, SMPTE 170M, BT.470, and SMPTE 274M. In addition BT-1361 uses this function within the range [0...1].
 
-
 ### -field DXVA2_VideoTransFunc_240M
 
 SMPTE 240M transfer function. Gamma 2.2 curve with a linear segment in the lower range.
-          
-
 
 ### -field DXVA2_VideoTransFunc_sRGB
 
 sRGB transfer function. Gamma 2.4 curve with a linear segment in the lower range.
-          
-
 
 ### -field DXVA2_VideoTransFunc_28
 
 True 2.8 gamma. L' = L^1/2.8. This transfer function is used in ITU-R BT.470-2 System B, G (PAL).
-          
-
 
 ## -remarks
-
-
 
 The following table shows the formulas for the most common transfer functions. In these formulas, L is the linear value and L' is the non-linear (gamma corrected) value. These values are relative to a normalized range [0...1].
 
@@ -225,20 +200,11 @@ This enumeration is equivalent to the <b>DXVA_VideoTransferFunction</b> enumerat
 
 If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the transfer function is specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-transfer-function-attribute">MF_MT_TRANSFER_FUNCTION</a> attribute.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
 

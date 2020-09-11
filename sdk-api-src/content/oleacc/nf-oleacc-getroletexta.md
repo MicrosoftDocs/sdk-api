@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 58436001-92d7-4afa-af07-169c8bbda9ba
 ms.date: 12/05/2018
 ms.keywords: GetRoleText, GetRoleText function [Windows Accessibility], GetRoleTextA, GetRoleTextW, _msaa_GetRoleText, msaa.getroletext, oleacc/GetRoleText, oleacc/GetRoleTextA, oleacc/GetRoleTextW, winauto.getroletext
-f1_keywords:
-- oleacc/GetRoleText
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Oleacc.dll
-- ext-ms-win-oleacc-l1-1-1.dll
-api_name:
-- GetRoleText
-- GetRoleTextA
-- GetRoleTextW
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - GetRoleTextA
+ - oleacc/GetRoleTextA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Oleacc.dll
+ - ext-ms-win-oleacc-l1-1-1.dll
+api_name:
+ - GetRoleText
+ - GetRoleTextA
+ - GetRoleTextW
 ---
 
 # GetRoleTextA function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the localized string that describes the object's role for the specified role value.
 
-
 ## -parameters
-
-
-
 
 ### -param lRole [in]
 
@@ -67,13 +63,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 One of the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-roles">object role</a> constants.
 
-
 ### -param lpszRole [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a buffer that receives the role text string. If this parameter is <b>NULL</b>, the function returns the role string's length, not including the null character.
-
 
 ### -param cchRoleMax [in]
 
@@ -81,18 +75,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The size of the buffer that is pointed to by the <i>lpszRole</i> parameter. For ANSI strings, this value is measured in bytes; for Unicode strings, it is measured in characters.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 If successful, and if <i>lpszRole</i> is non-<b>NULL</b>, the return value is the number of bytes (ANSI strings) or characters (Unicode strings) copied into the buffer, not including the terminating null character. If <i>lpszRole</i> is <b>NULL</b>, the return value represents the string's length, not including the null character.
 
 If the string resource does not exist, or if the <i>lpszRole</i> parameter is not a valid pointer, the return value is zero (0). To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
 
 ## -remarks
 

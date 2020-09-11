@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: a0cc8748-08b2-4471-9961-603786e983a4
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentStructureResource, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging], IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],described, xps.ixpsomdocumentstructureresource, xpsobjectmodel/IXpsOMDocumentStructureResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMDocumentStructureResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMDocumentStructureResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMDocumentStructureResource
+ - xpsobjectmodel/IXpsOMDocumentStructureResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMDocumentStructureResource
 ---
 
 # IXpsOMDocumentStructureResource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the  XML content of the resource stream of the DocumentStructure part.The <b>IXpsOMDocumentStructureResource</b> interface enables a program to read  and replace the XML content of the DocumentStructure part.
-
 
 ## -inheritance
 
@@ -96,12 +95,9 @@ Sets the read-only stream to be associated with this resource.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <i>DocumentStructure</i> part of an XPS document contains the document outline, which, along with the <i>StoryFragments</i> parts, defines the reading order of every element that appears in the fixed pages of the document. 
 
@@ -109,13 +105,7 @@ The reading order of an XPS document is organized into semantic blocks called st
 
 The XML markup  in the DocumentStructure and StoryFragments parts is described in the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createdocumentstructureresource">IXpsOMObjectFactory::CreateDocumentStructureResource</a>
 
@@ -134,7 +124,4 @@ The XML markup  in the DocumentStructure and StoryFragments parts is described i
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

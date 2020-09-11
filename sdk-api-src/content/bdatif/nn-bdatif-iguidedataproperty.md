@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1c614f2a-69e0-4100-b83e-740478654c17
 ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], IGuideDataProperty interface [Microsoft TV Technologies],described, IGuideDataPropertyInterface, bdatif/IGuideDataProperty, mstv.iguidedataproperty
-f1_keywords:
-- bdatif/IGuideDataProperty
-dev_langs:
-- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdatif.h
-api_name:
-- IGuideDataProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGuideDataProperty
+ - bdatif/IGuideDataProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdatif.h
+api_name:
+ - IGuideDataProperty
 ---
 
 # IGuideDataProperty interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IGuideDataProperty</b> interface represents the name, value, and language of a property associated with a service, program or schedule entry object.
-
-
-
 
 ## -inheritance
 
@@ -98,25 +94,13 @@ Retrieves the value associated with the property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IGuideDataProperty)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

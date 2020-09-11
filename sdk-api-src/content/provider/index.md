@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: lwef
+f1_keywords:
+ - provider
+ - provider/provider
 ---
 
 # Provider.h header
 
 
 ## -description
-
 
 This header is used by Legacy Windows Environment Features. For more information, see:
 

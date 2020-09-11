@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: dfac8b29-47d9-4cee-801b-f43fa2bba6ed
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bitRate method, IWMPNetwork.get_bitRate, IWMPNetwork::get_bitRate, IWMPNetworkget_bitRate, get_bitRate, get_bitRate method [Windows Media Player], get_bitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bitrate, wmp/IWMPNetwork::get_bitRate
-f1_keywords:
-- wmp/IWMPNetwork.get_bitRate
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_bitRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_bitRate
+ - wmp/IWMPNetwork::get_bitRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_bitRate
 ---
 
 # IWMPNetwork::get_bitRate
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_bitRate</b> method retrieves the current bit rate being received.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plBitRate [out]
 
 Pointer to a <b>long</b> containing the bit rate.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,27 +79,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The value retrieved by this method is a combination of the bit rates of both video and audio streams.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
 

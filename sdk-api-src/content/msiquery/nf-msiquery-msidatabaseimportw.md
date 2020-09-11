@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: df277641-393e-4202-bb92-4b813ddaa0ca
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseImport, MsiDatabaseImport function, MsiDatabaseImportA, MsiDatabaseImportW, _msi_msidatabaseimport, msiquery/MsiDatabaseImport, msiquery/MsiDatabaseImportA, msiquery/MsiDatabaseImportW, setup.msidatabaseimport
-f1_keywords:
-- msiquery/MsiDatabaseImport
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiDatabaseImport
-- MsiDatabaseImportA
-- MsiDatabaseImportW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDatabaseImportW
+ - msiquery/MsiDatabaseImportW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiDatabaseImport
+ - MsiDatabaseImportA
+ - MsiDatabaseImportW
 ---
 
 # MsiDatabaseImportW function
@@ -51,44 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiDatabaseImport</b> function imports an installer <a href="https://docs.microsoft.com/windows/desktop/Msi/text-archive-files">text archive file</a>  into an open database table.
 
-
 ## -parameters
-
-
-
 
 ### -param hDatabase [in]
 
 Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
-
 ### -param szFolderPath [in]
 
 Specifies the path to the folder that contains archive files.
-
 
 ### -param szFileName [in]
 
 Specifies the name of the file to import.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiDatabaseImport</b> function returns one of the following values:
 
-
-
-
 ## -remarks
-
-
 
 When you use the 
 <b>MsiDatabaseImport</b> function to import a text archive table named _SummaryInformation into an installer database, you write the "05SummaryInformation" stream. This stream contains standard properties that can be viewed using Windows Explorer and are defined by COM. The rows of the table are written to the property stream as pairs of property ID numbers and corresponding data values. See 
@@ -110,15 +96,9 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/text-archive-files">Text Archive Files </a>
- 
-
- 
 

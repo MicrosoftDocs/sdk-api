@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: eb3a751f-741e-448f-b812-5f16a4040b5e
 ms.date: 12/05/2018
 ms.keywords: SEF_AVOID_OWNER_CHECK, SEF_AVOID_OWNER_RESTRICTION, SEF_AVOID_PRIVILEGE_CHECK, SEF_DACL_AUTO_INHERIT, SEF_DEFAULT_GROUP_FROM_PARENT, SEF_DEFAULT_OWNER_FROM_PARENT, SEF_MACL_NO_EXECUTE_UP, SEF_MACL_NO_READ_UP, SEF_MACL_NO_WRITE_UP, SEF_SACL_AUTO_INHERIT, SetPrivateObjectSecurityEx, SetPrivateObjectSecurityEx function [Security], _win32_setprivateobjectsecurityex, security.setprivateobjectsecurityex, securitybaseapi/SetPrivateObjectSecurityEx
-f1_keywords:
-- securitybaseapi/SetPrivateObjectSecurityEx
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- SetPrivateObjectSecurityEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetPrivateObjectSecurityEx
+ - securitybaseapi/SetPrivateObjectSecurityEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - SetPrivateObjectSecurityEx
 ---
 
 # SetPrivateObjectSecurityEx function
@@ -55,26 +56,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetPrivateObjectSecurityEx</b> function modifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of a private object maintained by the resource manager calling this function. The <b>SetPrivateObjectSecurityEx</b> function has a flags parameter that specifies whether the resource manager supports automatic inheritance of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
-
 ## -parameters
-
-
-
 
 ### -param SecurityInformation [in]
 
 The parts of the security descriptor to set. This value can be a combination of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
-
 ### -param ModificationDescriptor [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. The parts of this security descriptor indicated by the <i>SecurityInformation</i> parameter are applied to the <i>ObjectsSecurityDescriptor</i> security descriptor.
-
 
 ### -param ObjectsSecurityDescriptor [in, out]
 
@@ -84,7 +78,6 @@ A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/
 
 
 On input, this is the current security descriptor of the private object. The function modifies it to produce the new security descriptor. If necessary, the <b>SetPrivateObjectSecurityEx</b> function allocates additional memory to produce a larger security descriptor.
-
 
 ### -param AutoInheritFlags [in]
 
@@ -212,23 +205,17 @@ Any restrictions  specified by the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param GenericMapping [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the specific and standard access rights that correspond to each of the generic access rights.
 
-
 ### -param Token [in, optional]
 
 Identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> for the client on whose behalf the private object's security is being modified. This parameter is required to ensure that the client has provided a legitimate value for a new owner <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID). The token must be open for TOKEN_QUERY access.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
       
@@ -236,12 +223,7 @@ If the function succeeds, the function returns nonzero.
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>AutoInheritFlags</i> parameter is zero, <b>SetPrivateObjectSecurityEx</b> is identical to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a> function.
@@ -325,12 +307,7 @@ A resource manager that is setting the Owner on a subtree of objects can avoid t
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a> function.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
@@ -381,7 +358,4 @@ A resource manager that is setting the Owner on a subtree of objects can avoid t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 55c4739a-4835-4f53-a435-804ddf06ffcf
 ms.date: 12/05/2018
 ms.keywords: IThumbnailProvider, IThumbnailProvider interface [Windows Shell], IThumbnailProvider interface [Windows Shell],described, _shell_IThumbnailProvider, shell.IThumbnailProvider, thumbcache/IThumbnailProvider
-f1_keywords:
-- thumbcache/IThumbnailProvider
-dev_langs:
-- c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Thumbcache.h
-api_name:
-- IThumbnailProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThumbnailProvider
+ - thumbcache/IThumbnailProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Thumbcache.h
+api_name:
+ - IThumbnailProvider
 ---
 
 # IThumbnailProvider interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes a method for getting a thumbnail image and is intended to be implemented for thumbnail handlers. The object that implements this interface must also implement <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-iinitializewithstream">IInitializeWithStream</a>. 
-
+Exposes a method for getting a thumbnail image and is intended to be implemented for thumbnail handlers. The object that implements this interface must also implement <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-iinitializewithstream">IInitializeWithStream</a>.
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Gets a thumbnail image and alpha type.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The Shell calls <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail">IThumbnailProvider::GetThumbnail</a> to obtain an image to use as a representation of the item.
 
@@ -104,7 +100,5 @@ If none of these interfaces is present, <b>IThumbnailProvider</b> is not called.
 
 <b>Client apps</b> If you're developing a client app, you should use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory">IShellItemImageFactory</a> instead. 
 
-<b>Windows Vista</b> IThumbnailProivder is new for Vista and replaces <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>. Vista still supports IExtractImage but lacks the ability to return the image type (alpha or not). 
-
-
+<b>Windows Vista</b> IThumbnailProivder is new for Vista and replaces <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>. Vista still supports IExtractImage but lacks the ability to return the image type (alpha or not).
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics, Graphics constructors [GDI+], Graphics.Graphics, Graphics.Graphics(GpGraphics), Graphics::Graphics, Graphics::Graphics(GpGraphics), _gdiplus_CLASS_Graphics_Constructors, gdiplus._gdiplus_CLASS_Graphics_Constructors, gdiplusgraphics/Graphics
-f1_keywords:
-- gdiplusgraphics/Graphics.Graphics
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusgraphics.h
-api_name:
-- Graphics.Graphics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::Graphics
+ - gdiplusgraphics/Graphics::Graphics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusgraphics.h
+api_name:
+ - Graphics.Graphics
 ---
 
 # Graphics::Graphics(GpGraphics)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class. For a complete class listing, see <b>Graphics Class</b>. 

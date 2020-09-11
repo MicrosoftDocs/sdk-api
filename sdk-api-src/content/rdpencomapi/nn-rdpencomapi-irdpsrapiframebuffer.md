@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: ab40bdd2-448f-4867-aabd-d6b66add5247
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP],described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
-f1_keywords:
-- rdpencomapi/IRDPSRAPIFrameBuffer
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIFrameBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIFrameBuffer
+ - rdpencomapi/IRDPSRAPIFrameBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIFrameBuffer
 ---
 
 # IRDPSRAPIFrameBuffer interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides data about the frame buffer size and format and allows the contents to be retrieved.
 
-Applications can get a pointer to this interface from the <b>FrameBuffer</b> property of the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a> interface. 
-
+Applications can get a pointer to this interface from the <b>FrameBuffer</b> property of the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a> interface.
 
 ## -inheritance
 
@@ -136,5 +135,5 @@ The width of the frame in pixels.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e0571a8c-c682-44fd-a479-ace627b314b5
 ms.date: 12/05/2018
 ms.keywords: EnableSMIMECapabilities property [Security], EnableSMIMECapabilities property [Security],IEnroll2 interface, IEnroll2 interface [Security],EnableSMIMECapabilities property, IEnroll2.EnableSMIMECapabilities, IEnroll2.put_EnableSMIMECapabilities, IEnroll2::EnableSMIMECapabilities, IEnroll2::get_EnableSMIMECapabilities, IEnroll2::put_EnableSMIMECapabilities, put_EnableSMIMECapabilities, security.ienroll4_enablesmimecapabilities, xenroll/IEnroll2::EnableSMIMECapabilities, xenroll/IEnroll2::get_EnableSMIMECapabilities, xenroll/IEnroll2::put_EnableSMIMECapabilities
-f1_keywords:
-- xenroll/IEnroll2.EnableSMIMECapabilities
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll2.EnableSMIMECapabilities
-- IEnroll2.get_EnableSMIMECapabilities
-- IEnroll2.put_EnableSMIMECapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll2::put_EnableSMIMECapabilities
+ - xenroll/IEnroll2::put_EnableSMIMECapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll2.EnableSMIMECapabilities
+ - IEnroll2.get_EnableSMIMECapabilities
+ - IEnroll2.put_EnableSMIMECapabilities
 ---
 
 # IEnroll2::put_EnableSMIMECapabilities
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -60,17 +60,9 @@ The default value for this property is <b>FALSE</b>. This property was first def
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
- 
-
- 
 

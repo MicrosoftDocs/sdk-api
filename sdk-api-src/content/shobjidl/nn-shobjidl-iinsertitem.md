@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f90fdd7b-1f51-4f92-8c1a-68e8b76f723f
 ms.date: 12/05/2018
 ms.keywords: IInsertItem, IInsertItem interface [Windows Shell], IInsertItem interface [Windows Shell],described, shell.IInsertItem, shell_IInsertItem, shobjidl/IInsertItem
-f1_keywords:
-- shobjidl/IInsertItem
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IInsertItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInsertItem
+ - shobjidl/IInsertItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IInsertItem
 ---
 
 # IInsertItem interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IInsertItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Exposes a method that inserts an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure into a list of such structures.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Adds an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtyp
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8ab9fa3b-50f4-492d-a352-8e215b2d62c1
 ms.date: 12/05/2018
 ms.keywords: NPGetConnectionPerformance, NPGetConnectionPerformance function [Security], _mnp_npgetconnectionperformance, npapi/NPGetConnectionPerformance, security.npgetconnectionperformance
-f1_keywords:
-- npapi/NPGetConnectionPerformance
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPGetConnectionPerformance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPGetConnectionPerformance
+ - npapi/NPGetConnectionPerformance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPGetConnectionPerformance
 ---
 
 # NPGetConnectionPerformance function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns information about the expected performance of a connection used to access a network resource. The request can only be for a network resource that is currently connected.
 
-
 ## -parameters
-
-
-
 
 ### -param lpRemoteName [in]
 
 Pointer to the local name or remote name for a connected resource.
-
 
 ### -param lpNetConnectInfo [out]
 
@@ -70,10 +65,7 @@ Pointer to a
 
 The information returned may be an estimate. If the network cannot obtain information about the resource on the network, it can return information about the network adapter and its associated performance and then set the <b>dwFlags</b> field accordingly.
 
-
 ## -returns
-
-
 
 If the function succeeds, it should return WN_SUCCESS. Otherwise, it should return an error code, which can be one of the following.
 
@@ -105,7 +97,4 @@ The network is not present.
 </td>
 </tr>
 </table>
- 
-
-
 

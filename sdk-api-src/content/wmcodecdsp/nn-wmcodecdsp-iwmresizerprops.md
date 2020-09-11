@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 12c26507-c729-4143-a0bd-e043d42744f6
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], IWMResizerProps interface [Media Foundation],described, codecapi.iwmresizerpropsinterface, mf.iwmresizerprops, mf.iwmresizerpropsinterface, wmcodecdsp/IWMResizerProps
-f1_keywords:
-- wmcodecdsp/IWMResizerProps
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMResizerProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMResizerProps
+ - wmcodecdsp/IWMResizerProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMResizerProps
 ---
 
 # IWMResizerProps interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets properties on the video resizer DSP.
-
 
 ## -inheritance
 
@@ -113,20 +112,13 @@ Specifies whether to use an algorithm that produces higher-quality video, or a f
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/videoresizer">Video Resizer DSP</a>
- 
-
- 
 

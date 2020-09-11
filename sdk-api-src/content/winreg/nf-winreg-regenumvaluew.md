@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 7014ff96-c655-486f-af32-180b87281b06
 ms.date: 12/05/2018
 ms.keywords: RegEnumValue, RegEnumValue function, RegEnumValueA, RegEnumValueW, _win32_regenumvalue, base.regenumvalue, winreg/RegEnumValue, winreg/RegEnumValueA, winreg/RegEnumValueW
-f1_keywords:
-- winreg/RegEnumValue
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-api_name:
-- RegEnumValue
-- RegEnumValueA
-- RegEnumValueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegEnumValueW
+ - winreg/RegEnumValueW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+api_name:
+ - RegEnumValue
+ - RegEnumValueA
+ - RegEnumValueW
 ---
 
 # RegEnumValueW function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the values for the specified open registry key. The function copies one indexed value name and data block for the key each time it is called.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -87,8 +83,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param dwIndex [in]
 
 The index of the value to be retrieved. This parameter should be zero for the first call to the 
@@ -98,7 +92,6 @@ The index of the value to be retrieved. This parameter should be zero for the fi
 
 
 Because values are not ordered, any new value will have an arbitrary index. This means that the function may return values in any order.
-
 
 ### -param lpValueName [out]
 
@@ -110,24 +103,20 @@ This buffer must be large enough to include the terminating <b>null</b> characte
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
-
 ### -param lpcchValueName [in, out]
 
 A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpValueName</i> parameter, in characters. When the function returns, the variable receives the number of characters stored in the buffer, not including the terminating <b>null</b> character.
 
 Registry value names are limited to 32,767 bytes. The ANSI version of this function treats this parameter as a <b>SHORT</b> value. Therefore, if you specify a value greater than 32,767 bytes, there is an overflow and the function may return ERROR_MORE_DATA.
 
-
 ### -param lpReserved
 
 This parameter is reserved and must be <b>NULL</b>.
-
 
 ### -param lpType [out, optional]
 
 A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. The <i>lpType</i> parameter can be <b>NULL</b> if the type code is not required.
-
 
 ### -param lpData [out, optional]
 
@@ -137,7 +126,6 @@ A pointer to a buffer that receives the data for the value entry. This parameter
 
 
 If <i>lpData</i> is <b>NULL</b> and <i>lpcbData</i> is non-<b>NULL</b>, the function stores the size of the data, in bytes, in the variable pointed to by <i>lpcbData</i>. This enables an application to determine the best way to allocate a buffer for the data.
-
 
 ### -param lpcbData [in, out, optional]
 
@@ -149,10 +137,7 @@ If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, this size includ
 
 If the buffer specified by <i>lpData</i> is not large enough to hold the data, the function returns ERROR_MORE_DATA and stores the required buffer size in the variable pointed to by <i>lpcbData</i>. In this case, the contents of <i>lpData</i> are undefined.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -161,12 +146,7 @@ If the function fails, the return value is a
 
 If the <i>lpData</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
 
-
-
-
 ## -remarks
-
-
 
 To enumerate values, an application should initially call the 
 <b>RegEnumValue</b> function with the <i>dwIndex</i> parameter set to zero. The application should then increment <i>dwIndex</i> and call the 
@@ -199,9 +179,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
@@ -223,7 +200,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 

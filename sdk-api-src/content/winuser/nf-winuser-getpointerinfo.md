@@ -8,10 +8,6 @@ tech.root: InputMsg
 ms.assetid: 75faea24-91cd-448b-b67a-19fe530f1800
 ms.date: 12/05/2018
 ms.keywords: GetPointerInfo, GetPointerInfo function [Input Messages and Notifications], inputmsg.getpointerinfo, winuser/GetPointerInfo
-f1_keywords:
-- winuser/GetPointerInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
-- MinUser.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
-- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
-api_name:
-- GetPointerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPointerInfo
+ - winuser/GetPointerInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+ - MinUser.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+ - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+api_name:
+ - GetPointerInfo
 ---
 
 # GetPointerInfo function
@@ -56,39 +57,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the information for the specified pointer associated with the current message.
 <div class="alert"><b>Note</b>  Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertype">GetPointerType</a> if you don't need the additional information exposed by <b>GetPointerInfo</b>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pointerId [in]
 
 The pointer identifier.
-
 
 ### -param pointerInfo [out]
 
 Address of a  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure that receives the pointer information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>GetPointerInfo</b> retrieves information for a single pointer associated with a pointer message. 
 
@@ -102,13 +90,7 @@ If the information associated with the message is no longer available, this func
 
 If the calling thread does not own the window to which the pointer message has been delivered, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>. Note that this may be the window to which the input was originally delivered or it may be a window to which the message was forwarded.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
@@ -123,7 +105,4 @@ If the calling thread does not own the window to which the pointer message has b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>
- 
-
- 
 

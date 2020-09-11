@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 246722a9-5db6-4a82-8f29-f60f0a2263e3
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_SELECT_CRITERIA, CERT_SELECT_BY_ENHKEY_USAGE, CERT_SELECT_BY_EXTENSION, CERT_SELECT_BY_ISSUER_ATTR, CERT_SELECT_BY_ISSUER_NAME, CERT_SELECT_BY_KEY_USAGE, CERT_SELECT_BY_POLICY_OID, CERT_SELECT_BY_PROV_NAME, CERT_SELECT_BY_PUBLIC_KEY, CERT_SELECT_BY_SUBJECT_ATTR, CERT_SELECT_BY_SUBJECT_HOST_NAME, CERT_SELECT_BY_TLS_SIGNATURES, CERT_SELECT_CRITERIA, CERT_SELECT_CRITERIA structure [Security], PCCERT_SELECT_CRITERIA, PCCERT_SELECT_CRITERIA structure pointer [Security], PCERT_SELECT_CRITERIA, PCERT_SELECT_CRITERIA structure pointer [Security], security.cert_select_criteria, wincrypt/CERT_SELECT_CRITERIA, wincrypt/PCCERT_SELECT_CRITERIA, wincrypt/PCERT_SELECT_CRITERIA'
-f1_keywords:
-- wincrypt/CERT_SELECT_CRITERIA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_SELECT_CRITERIA
 targetos: Windows
 req.typenames: CERT_SELECT_CRITERIA, *PCERT_SELECT_CRITERIA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_SELECT_CRITERIA
+ - wincrypt/_CERT_SELECT_CRITERIA
+ - PCERT_SELECT_CRITERIA
+ - wincrypt/PCERT_SELECT_CRITERIA
+ - CERT_SELECT_CRITERIA
+ - wincrypt/CERT_SELECT_CRITERIA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_SELECT_CRITERIA
 ---
 
 # CERT_SELECT_CRITERIA structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_SELECT_CRITERIA</b> structure specifies selection criteria that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwType
 
@@ -207,13 +207,10 @@ This criteria is evaluated on the certificate.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cPara
 
-A <b>DWORD</b> value that specifies the number of search attributes specified in the <b>ppPara</b> member. 
-
+A <b>DWORD</b> value that specifies the number of search attributes specified in the <b>ppPara</b> member.
 
 ### -field ppPara
 

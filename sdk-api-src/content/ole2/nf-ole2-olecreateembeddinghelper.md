@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5c67b513-0692-4e0a-beab-8b514089699c
 ms.date: 12/05/2018
 ms.keywords: OleCreateEmbeddingHelper, OleCreateEmbeddingHelper function [COM], _ole_OleCreateEmbeddingHelper, com.olecreateembeddinghelper, ole2/OleCreateEmbeddingHelper
-f1_keywords:
-- ole2/OleCreateEmbeddingHelper
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- OleCreateEmbeddingHelper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleCreateEmbeddingHelper
+ - ole2/OleCreateEmbeddingHelper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - OleCreateEmbeddingHelper
 ---
 
 # OleCreateEmbeddingHelper function
@@ -49,48 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an OLE embedding helper object using application-supplied code aggregated with pieces of the OLE default object handler. This helper object can be created and used in a specific context and role, as determined by the caller.
 
-
 ## -parameters
-
-
-
 
 ### -param clsid [in]
 
 CLSID of the class to be helped.
 
-
 ### -param pUnkOuter [in]
 
 If the embedding helper is to be aggregated, pointer to the outer object's controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. If it is not to be aggregated, although this is rare, the value should be <b>NULL</b>.
-
 
 ### -param flags [in]
 
 DWORD containing flags that specify the role and creation context for the embedding helper. For legal values, see the following Remarks section.
 
-
 ### -param pCF [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface on the class object the function uses to create the secondary object. In some situations, this value may be <b>NULL</b>. For more information, see the following Remarks section.
-
 
 ### -param riid [in]
 
 Reference to the identifier of the interface desired by the caller.
 
-
 ### -param lplpObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created embedding helper.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -144,14 +132,8 @@ The provided interface identifier is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>OleCreateEmbeddingHelper</b> function creates an object that supports the same interface implementations found in the default handler, but which has additional hooks that allow it to be used more generally than just as a handler object. The following two calls produce the same result: 
 
@@ -240,18 +222,8 @@ Delays creation of the secondary object until it is needed (when the helper is p
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatedefaulthandler">OleCreateDefaultHandler</a>
- 
-
- 
 

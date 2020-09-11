@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5e75c524-5fa6-4d76-8fe9-a69ee1b509e8
 ms.date: 12/05/2018
 ms.keywords: ITravelLog interface [Windows Shell],InsertMenuEntries method, ITravelLog.InsertMenuEntries, ITravelLog::InsertMenuEntries, InsertMenuEntries, InsertMenuEntries method [Windows Shell], InsertMenuEntries method [Windows Shell],ITravelLog interface, TLMENUF_BACK, TLMENUF_BACKANDFORTH, TLMENUF_CHECKCURRENT, TLMENUF_FORE, TLMENUF_INCLUDECURRENT, shdeprecated/ITravelLog::InsertMenuEntries, shell.ITravelLog_InsertMenuEntries, zone_ITravelLog_InsertMenuEntries
-f1_keywords:
-- shdeprecated/ITravelLog.InsertMenuEntries
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- ITravelLog.InsertMenuEntries
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - ITravelLog::InsertMenuEntries
+ - shdeprecated/ITravelLog::InsertMenuEntries
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - ITravelLog.InsertMenuEntries
 ---
 
 # ITravelLog::InsertMenuEntries
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Inserts entries into the specified menu.
 
-
 ## -parameters
-
-
-
 
 ### -param punk [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> representing the nearest browser or frame within which the travel generating the log is taking place.
 
-
 ### -param hmenu [in]
 
 Type: <b>HMENU</b>
 
 The handle of the menu.
-
 
 ### -param nPos [in]
 
@@ -79,20 +73,17 @@ Type: <b>int</b>
 
 The position in the menu to insert the entries.
 
-
 ### -param idFirst [in]
 
 Type: <b>int</b>
 
 The ID of the first entry to be inserted.
 
-
 ### -param idLast [in]
 
 Type: <b>int</b>
 
 The ID of the last entry to be inserted. The difference between <i>idFirst</i> and <i>idLast</i> is the maximum number of entries that can be inserted into the menu.
-
 
 ### -param dwFlags [in]
 
@@ -130,14 +121,9 @@ The next pages.
 
 Previous, current, and next pages.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

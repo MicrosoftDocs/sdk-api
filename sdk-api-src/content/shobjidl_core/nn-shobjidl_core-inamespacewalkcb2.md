@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a748083b-a99e-4015-93da-112d2950f623
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB2, INamespaceWalkCB2 interface [Windows Shell], INamespaceWalkCB2 interface [Windows Shell],described, _shell_INamespaceWalkCB2, shell.INamespaceWalkCB2, shobjidl_core/INamespaceWalkCB2
-f1_keywords:
-- shobjidl_core/INamespaceWalkCB2
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- INamespaceWalkCB2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INamespaceWalkCB2
+ - shobjidl_core/INamespaceWalkCB2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - INamespaceWalkCB2
 ---
 
 # INamespaceWalkCB2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.    
-
+Extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.
 
 ## -inheritance
 
@@ -77,29 +76,17 @@ Removes data collected during a namespace walk.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> interface, from which it inherits.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>
- 
-
- 
 

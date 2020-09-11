@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 9b3e3b56-5055-4dfa-83e6-702578662463
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate, IQuickActivate interface [COM], IQuickActivate interface [COM],described, _ctrl_iquickactivate, com.iquickactivate, ocidl/IQuickActivate
-f1_keywords:
-- ocidl/IQuickActivate
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IQuickActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQuickActivate
+ - ocidl/IQuickActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IQuickActivate
 ---
 
 # IQuickActivate interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables controls and containers to avoid performance bottlenecks on loading controls. It combines the load-time or initialization-time handshaking between the control and its container into a single call.
-
 
 ## -inheritance
 
@@ -96,5 +95,5 @@ Sets the content extent of a control.
 
 </td>
 </tr>
-</table> 
+</table>
 

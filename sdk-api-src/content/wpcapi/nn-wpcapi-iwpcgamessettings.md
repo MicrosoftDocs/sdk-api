@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: 7509d9ef-d437-406a-8de6-39733499ca0a
 ms.date: 12/05/2018
 ms.keywords: IWPCGamesSettings, IWPCGamesSettings interface, IWPCGamesSettings interface,described, parcon.iwpcgamessettings, wpcapi/IWPCGamesSettings
-f1_keywords:
-- wpcapi/IWPCGamesSettings
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCGamesSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCGamesSettings
+ - wpcapi/IWPCGamesSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCGamesSettings
 ---
 
 # IWPCGamesSettings interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Accesses games settings for the user.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Determines whether the specified game is blocked from execution.
 
 </td>
 </tr>
-</table> 
+</table>
 

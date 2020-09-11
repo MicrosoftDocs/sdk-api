@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 37c3084d-828a-42b4-92c3-d4c89336cac7
 ms.date: 12/05/2018
 ms.keywords: VarI2FromDisp, VarI2FromDisp function [Automation], _oa96_VarI2FromDisp, automat.vari2fromdisp, oleauto/VarI2FromDisp
-f1_keywords:
-- oleauto/VarI2FromDisp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI2FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI2FromDisp
+ - oleauto/VarI2FromDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI2FromDisp
 ---
 
 # VarI2FromDisp function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the default property of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a short value.
 
-
 ## -parameters
-
-
-
 
 ### -param pdispIn
 
 The value to convert.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param psOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -153,7 +144,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

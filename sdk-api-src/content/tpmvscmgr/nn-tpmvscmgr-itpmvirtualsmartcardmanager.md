@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 46CC703B-14A2-4588-BA13-837C76B70F07
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security],described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager
-f1_keywords:
-- tpmvscmgr/ITpmVirtualSmartCardManager
-dev_langs:
-- c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Vscmgr.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vscmgr.lib
-- Vscmgr.dll
-api_name:
-- ITpmVirtualSmartCardManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITpmVirtualSmartCardManager
+ - tpmvscmgr/ITpmVirtualSmartCardManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vscmgr.lib
+ - Vscmgr.dll
+api_name:
+ - ITpmVirtualSmartCardManager
 ---
 
 # ITpmVirtualSmartCardManager interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages the TPM virtual smart cards.
-
 
 ## -inheritance
 
@@ -87,5 +86,5 @@ Destroys the TPM virtual smart card that has the given instance ID.
 
 </td>
 </tr>
-</table> 
+</table>
 

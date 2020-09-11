@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 330af6ac-f1db-4cee-81fd-d3c2c341d493
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA structure [Security], PCRYPT_ENCODE_PARA, PCRYPT_ENCODE_PARA structure pointer [Security], _crypto2_crypt_encode_para, security.crypt_encode_para, wincrypt/CRYPT_ENCODE_PARA, wincrypt/PCRYPT_ENCODE_PARA'
-f1_keywords:
-- wincrypt/CRYPT_ENCODE_PARA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_ENCODE_PARA
 targetos: Windows
 req.typenames: CRYPT_ENCODE_PARA, *PCRYPT_ENCODE_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_ENCODE_PARA
+ - wincrypt/_CRYPT_ENCODE_PARA
+ - PCRYPT_ENCODE_PARA
+ - wincrypt/PCRYPT_ENCODE_PARA
+ - CRYPT_ENCODE_PARA
+ - wincrypt/CRYPT_ENCODE_PARA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_ENCODE_PARA
 ---
 
 # CRYPT_ENCODE_PARA structure
@@ -49,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_ENCODE_PARA</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function to provide access to memory allocation and memory freeing callback functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Indicates the size, in bytes, of the structure.
 
-
 ### -field pfnAlloc
 
 This member is an optional pointer to a callback function used to allocate memory.
-
 
 ### -field pfnFree
 

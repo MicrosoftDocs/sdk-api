@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: f72b0709-1a55-49c9-ab5d-22f9259c41f0
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceClientExt, IWorkspaceClientExt interface [Remote Desktop Services], IWorkspaceClientExt interface [Remote Desktop Services],described, termserv.iworkspaceclientext, workspaceruntimeclientext/IWorkspaceClientExt
-f1_keywords:
-- workspaceruntimeclientext/IWorkspaceClientExt
-dev_langs:
-- c++
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Workspaceruntimeclientext.h
-api_name:
-- IWorkspaceClientExt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceClientExt
+ - workspaceruntimeclientext/IWorkspaceClientExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Workspaceruntimeclientext.h
+api_name:
+ - IWorkspaceClientExt
 ---
 
 # IWorkspaceClientExt interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow the runtime to disconnect a custom client in RemoteApp and Desktop Connection.  This interface is the outbound interface of the custom client.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Disconnects the custom client in RemoteApp and Desktop Connection.
 
 </td>
 </tr>
-</table> 
+</table>
 

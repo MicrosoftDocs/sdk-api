@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 46e115bb-2634-4b79-b307-45720d8cb2be
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob3, IBackgroundCopyJob3 interface [BITS], IBackgroundCopyJob3 interface [BITS],described, bits.ibackgroundcopyjob3, bits2_0/IBackgroundCopyJob3
-f1_keywords:
-- bits2_0/IBackgroundCopyJob3
-dev_langs:
-- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx3.dll
-api_name:
-- IBackgroundCopyJob3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob3
+ - bits2_0/IBackgroundCopyJob3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx3.dll
+api_name:
+ - IBackgroundCopyJob3
 ---
 
 # IBackgroundCopyJob3 interface
 
 
 ## -description
-
 
 Use the 
 <b>IBackgroundCopyJob3</b> interface to download ranges of a file and change the prefix of a remote file name. 
@@ -64,7 +64,6 @@ Use the
 <b>IBackgroundCopyJob3</b> interface pointer to call  the 
 methods of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>,  
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2">IBackgroundCopyJob2</a>, and <b>IBackgroundCopyJob3</b> interfaces.
-
 
 ## -inheritance
 
@@ -117,20 +116,13 @@ Specifies the owner and ACL information to maintain when downloading a file usin
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2">IBackgroundCopyJob2</a>
- 
-
- 
 

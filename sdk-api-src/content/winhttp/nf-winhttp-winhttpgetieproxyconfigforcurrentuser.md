@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 3de4dfb9-881f-47db-9fdf-af0ce162e380
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetIEProxyConfigForCurrentUser, WinHttpGetIEProxyConfigForCurrentUser function [WinHTTP], http.winhttpgetieproxyconfigforcurrentuser, winhttp/WinHttpGetIEProxyConfigForCurrentUser
-f1_keywords:
-- winhttp/WinHttpGetIEProxyConfigForCurrentUser
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpGetIEProxyConfigForCurrentUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpGetIEProxyConfigForCurrentUser
+ - winhttp/WinHttpGetIEProxyConfigForCurrentUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpGetIEProxyConfigForCurrentUser
 ---
 
 # WinHttpGetIEProxyConfigForCurrentUser function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpGetIEProxyConfigForCurrentUser</b> function retrieves the Internet Explorer proxy configuration for the current user.
 
-
 ## -parameters
-
-
-
 
 ### -param pProxyConfig [in, out]
 
 A pointer, on input, to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config">WINHTTP_CURRENT_USER_IE_PROXY_CONFIG</a> structure. On output, the structure contains the Internet Explorer proxy settings for the current active network connection (for example, LAN, dial-up, or VPN connection).
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -109,14 +102,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In Internet Explorer, the proxy settings are found on the <b>Connections</b> tab of the <b>Tools</b> / <b>Internet Options</b> menu option. Proxy settings are configured on a per-connection basis; that is, the proxy settings for a LAN connection are separate from those for a dial-up or VPN connection. <b>WinHttpGetIEProxyConfigForCurrentUser</b> returns the proxy settings for the current active connection.
 
@@ -126,16 +113,7 @@ This function should not be used in a service process that does not impersonate 
 
 The caller must free the <b>lpszProxy</b>, <b>lpszProxyBypass</b>  and <b>lpszAutoConfigUrl</b> strings in the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config">WINHTTP_CURRENT_USER_IE_PROXY_CONFIG</a>  structure if they are non-<b>NULL</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> to free the strings.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
- 
-
- 
 

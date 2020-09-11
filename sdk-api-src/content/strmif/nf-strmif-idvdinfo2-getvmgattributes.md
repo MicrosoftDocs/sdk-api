@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ddb1059a-e1c5-4506-b565-fd871ad8385f
 ms.date: 12/05/2018
 ms.keywords: GetVMGAttributes, GetVMGAttributes method [DirectShow], GetVMGAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetVMGAttributes method, IDvdInfo2.GetVMGAttributes, IDvdInfo2::GetVMGAttributes, IDvdInfo2GetVMGAttributes, dshow.idvdinfo2_getvmgattributes, strmif/IDvdInfo2::GetVMGAttributes
-f1_keywords:
-- strmif/IDvdInfo2.GetVMGAttributes
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetVMGAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetVMGAttributes
+ - strmif/IDvdInfo2::GetVMGAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetVMGAttributes
 ---
 
 # IDvdInfo2::GetVMGAttributes
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetVMGAttributes</code> method retrieves attributes of all video, audio, and subpicture streams for the Video Manager Menu.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pATR [out]
 
 Pointer to a [DVD_MenuAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_menuattributes) structure that receives the attributes.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -112,24 +102,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The Video Manager Menu is not associated with any particular title number.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -140,7 +118,4 @@ The Video Manager Menu is not associated with any particular title number.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
 

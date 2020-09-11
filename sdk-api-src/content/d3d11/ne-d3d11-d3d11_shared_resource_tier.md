@@ -6,10 +6,6 @@ tech.root: direct3d11
 ms.date: 05/27/2020
 helpviewer_keywords: ["D3D11_SHARED_RESOURCE_TIER"]
 ms.keywords: D3D11_SHARED_RESOURCE_TIER
-f1_keywords:
-- d3d11/D3D11_SHARED_RESOURCE_TIER
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,14 +18,19 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - D3D11_SHARED_RESOURCE_TIER
+ - d3d11/D3D11_SHARED_RESOURCE_TIER
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d11.h
+ - d3d11.h
 api_name:
-- D3D11_SHARED_RESOURCE_TIER
+ - D3D11_SHARED_RESOURCE_TIER
 ---
 
 ## -description
@@ -57,3 +58,4 @@ Specifies that [DXGI_FORMAT_R11G11B10_FLOAT](/windows/win32/api/dxgiformat/ne-dx
 ## -remarks
 
 ## -see-also
+

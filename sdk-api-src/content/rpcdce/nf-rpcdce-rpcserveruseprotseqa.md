@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 9b2c9cf0-fe96-4063-a893-f2793595af57
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseProtseq, RpcServerUseProtseq function [RPC], RpcServerUseProtseqA, RpcServerUseProtseqW, _rpc_rpcserveruseprotseq, rpc.rpcserveruseprotseq, rpcdce/RpcServerUseProtseq, rpcdce/RpcServerUseProtseqA, rpcdce/RpcServerUseProtseqW
-f1_keywords:
-- rpcdce/RpcServerUseProtseq
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerUseProtseq
-- RpcServerUseProtseqA
-- RpcServerUseProtseqW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerUseProtseqA
+ - rpcdce/RpcServerUseProtseqA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerUseProtseq
+ - RpcServerUseProtseqA
+ - RpcServerUseProtseqW
 ---
 
 # RpcServerUseProtseqA function
@@ -51,34 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerUseProtseq</b> function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
 
-
 ## -parameters
-
-
-
 
 ### -param Protseq
 
 Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
-
 ### -param MaxCalls
 
 Backlog queue length for the <b>ncacn_ip_tcp</b> protocol sequence. All other protocol sequences ignore this parameter. Use RPC_C_PROTSEQ_MAX_REQS_DEFAULT to specify the default value. See Remarks.
-
 
 ### -param SecurityDescriptor
 
 Pointer to an optional parameter provided for the security subsystem. Used only for <b>ncacn_np</b> and <b>ncalrpc</b> protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -147,11 +138,7 @@ The security descriptor is invalid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server application calls 
 <b>RpcServerUseProtseq</b> to register one protocol sequence with the RPC run-time library. To receive remote procedure call requests, a server must register at least one protocol sequence with the RPC run-time library. A server application can call 
@@ -181,9 +168,6 @@ For more information, see
 > The rpcdce.h header defines RpcServerUseProtseq as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a>
 
@@ -234,7 +218,4 @@ For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
- 
-
- 
 

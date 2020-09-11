@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c530aff7-fd83-413d-8945-0c9d1bfb51ba
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], IOleInPlaceFrame interface [COM],described, _ole_ioleinplaceframe, com.ioleinplaceframe, oleidl/IOleInPlaceFrame
-f1_keywords:
-- oleidl/IOleInPlaceFrame
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceFrame
+ - oleidl/IOleInPlaceFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceFrame
 ---
 
 # IOleInPlaceFrame interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the container's top-level frame window. This control involves allowing the container to insert its menu group into the composite menu, install the composite menu into the appropriate window frame, and remove the container's menu elements from the composite menu. It sets and displays status text relevant to the in-place object. It also enables or disables the frame's modeless dialog boxes, and translates accelerator keystrokes intended for the container's frame.
-
 
 ## -inheritance
 
@@ -122,20 +121,13 @@ Translates accelerator keystrokes intended for the container's frame while an ob
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
- 
-
- 
 

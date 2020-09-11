@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b821329b-2ec6-4f47-ba5f-2e1cd7ffb06f
 ms.date: 12/05/2018
 ms.keywords: Export, Export method [Security], Export method [Security],IX509EnrollmentPolicyServer interface, ExportOIDs, ExportTemplates, IX509EnrollmentPolicyServer interface [Security],Export method, IX509EnrollmentPolicyServer.Export, IX509EnrollmentPolicyServer::Export, certenroll/IX509EnrollmentPolicyServer::Export, security.ix509enrollmentpolicyserver_export
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.Export
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.Export
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::Export
+ - certenroll/IX509EnrollmentPolicyServer::Export
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.Export
 ---
 
 # IX509EnrollmentPolicyServer::Export
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Export</b> method exports templates and object identifiers associated with the certificate enrollment policy (CEP) server to a buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param exportFlags [in]
 
@@ -88,17 +84,12 @@ Export custom object identifiers.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pVal [out, retval]
 
 Pointer to a <b>VARIANT</b> of type <b>VT_ARRAY|VT_UI1</b> that receives the templates and object identifiers.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -143,29 +134,14 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certen
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To prevent memory leaks, you must free the <b>VARIANT</b> returned by this function.
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a> before calling this function and after calling <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-initialize">Initialize</a> for the exported data to be meaningful.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

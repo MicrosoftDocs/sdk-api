@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 95f58433-deef-4c47-8f6c-a9e7b0d52dad
 ms.date: 12/05/2018
 ms.keywords: '*PDOT11_NETWORK, DOT11_NETWORK, DOT11_NETWORK structure [NativeWIFI], PDOT11_NETWORK, PDOT11_NETWORK structure pointer [NativeWIFI], nwifi.dot11_network, wlanapi/DOT11_NETWORK, wlanapi/PDOT11_NETWORK'
-f1_keywords:
-- wlanapi/DOT11_NETWORK
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- DOT11_NETWORK
 targetos: Windows
 req.typenames: DOT11_NETWORK, *PDOT11_NETWORK
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _DOT11_NETWORK
+ - wlanapi/_DOT11_NETWORK
+ - PDOT11_NETWORK
+ - wlanapi/PDOT11_NETWORK
+ - DOT11_NETWORK
+ - wlanapi/DOT11_NETWORK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - DOT11_NETWORK
 ---
 
 # DOT11_NETWORK structure
@@ -49,32 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DOT11_NETWORK</b> structure contains information about an available wireless network.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dot11Ssid
 
 A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that contains the SSID of a visible wireless network.
 
-
 ### -field dot11BssType
 
 A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> value that indicates the BSS type of the network.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network_list">DOT11_NETWORK_LIST</a>
- 
-
- 
 

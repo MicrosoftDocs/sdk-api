@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: de01ed53-4a46-4796-900b-e95db2a725b7
 ms.date: 12/05/2018
 ms.keywords: VarI8FromI2, VarI8FromI2 function [Automation], _oa96_VarI8FromI2, automat.vari8fromi2, oleauto/VarI8FromI2
-f1_keywords:
-- oleauto/VarI8FromI2
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI8FromI2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI8FromI2
+ - oleauto/VarI8FromI2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI8FromI2
 ---
 
 # VarI8FromI2 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts a short value to an 8-byte integer value. 
-
+Converts a short value to an 8-byte integer value.
 
 ## -parameters
-
-
-
 
 ### -param sIn [in]
 
 The value to convert.
 
-
 ### -param pi64Out [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

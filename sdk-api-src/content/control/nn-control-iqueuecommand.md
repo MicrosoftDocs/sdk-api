@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4
 ms.date: 12/05/2018
 ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], IQueueCommand interface [DirectShow],described, IQueueCommandInterface, control/IQueueCommand, dshow.iqueuecommand
-f1_keywords:
-- control/IQueueCommand
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IQueueCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueueCommand
+ - control/IQueueCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IQueueCommand
 ---
 
 # IQueueCommand interface
 
 
 ## -description
-
-
 
 The <code>IQueueCommand</code> interface queues a command for processing at a designated time. The Filter Graph Manager exposes this interface. Applications can use it to queue graph-control commands in advance.
 
@@ -60,8 +59,6 @@ When the command is queued, the filter graph manager returns a pointer to the <a
 
 <div class="alert"><b>Note</b>  The two methods in <code>IQueueCommand</code> refer to stream time and presentation time, respectively. In the context of the Filter Graph Manager, stream time and presentation time are identical, so there is no functional difference between the two methods. Other objects could implement <code>IQueueCommand</code> differently. For more information about stream time and presentation time, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-and-clocks-in-directshow">Time and Clocks in DirectShow</a>.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -96,5 +93,5 @@ Queues a method to be invoked at the specified stream time.
 
 </td>
 </tr>
-</table> 
+</table>
 

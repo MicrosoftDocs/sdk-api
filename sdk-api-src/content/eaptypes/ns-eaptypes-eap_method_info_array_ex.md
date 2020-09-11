@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: 3deb04da-3071-4ddd-a7cb-82a1c47c3677
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_INFO_ARRAY_EX, EAP_METHOD_INFO_ARRAY_EX structure [EAPHost], PEAP_METHOD_INFO_ARRAY_EX, PEAP_METHOD_INFO_ARRAY_EX structure pointer [EAPHost], eaphost.eap_method_info_array_ex, eaptypes/EAP_METHOD_INFO_ARRAY_EX, eaptypes/PEAP_METHOD_INFO_ARRAY_EX
-f1_keywords:
-- eaptypes/EAP_METHOD_INFO_ARRAY_EX
-dev_langs:
-- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- eaptypes.h
-api_name:
-- EAP_METHOD_INFO_ARRAY_EX
 targetos: Windows
 req.typenames: EAP_METHOD_INFO_ARRAY_EX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EAP_METHOD_INFO_ARRAY_EX
+ - eaptypes/_EAP_METHOD_INFO_ARRAY_EX
+ - EAP_METHOD_INFO_ARRAY_EX
+ - eaptypes/EAP_METHOD_INFO_ARRAY_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - eaptypes.h
+api_name:
+ - EAP_METHOD_INFO_ARRAY_EX
 ---
 
 # EAP_METHOD_INFO_ARRAY_EX structure
@@ -49,29 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EAP_METHOD_INFO_ARRAY_EX</b> structure contains information about all of the EAP methods installed on the client computer. After populating <b>EAP_METHOD_INFO_ARRAY_EX</b>, EAPHost passes this method information to the supplicant.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumberOfMethods
 
 The number of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_ex">EAP_METHOD_INFO_EX</a> structures in <b>pEapMethods</b>.
 
-
 ### -field pEapMethods
 
 Pointer to the address of the first element in an array of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_ex">EAP_METHOD_INFO_EX</a> structures. The total number of elements is specified in <b>dwNumberOfMethods</b>.
 
-
 ## -see-also
-
-
-
 
 [Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
@@ -94,7 +87,4 @@ Pointer to the address of the first element in an array of <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a>
- 
-
- 
 

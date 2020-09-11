@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: cc30a78a-78a4-49c2-a97d-228400da46a9
 ms.date: 12/05/2018
 ms.keywords: IVdsController, IVdsController interface [VDS], IVdsController interface [VDS],described, base.ivdscontroller, vds/IVdsController, vdshwprv/IVdsController
-f1_keywords:
-- vdshwprv/IVdsController
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsController
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsController
+ - vdshwprv/IVdsController
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsController
 ---
 
 # IVdsController interface
@@ -50,12 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for 
    performing query and configuration operations on a controller.
-
 
 ## -inheritance
 
@@ -145,13 +144,9 @@ Sets the status of the controller to the specified value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/controller-object">Controller Object</a>
 
@@ -174,7 +169,4 @@ Sets the status of the controller to the specified value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>
- 
-
- 
 

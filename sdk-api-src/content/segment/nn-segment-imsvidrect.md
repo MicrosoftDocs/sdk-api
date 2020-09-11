@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 0b3cf31b-e0cc-4208-a128-b77460fc0f1b
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], IMSVidRect interface [Microsoft TV Technologies],described, IMSVidRectInterface, mstv.imsvidrect, segment/IMSVidRect
-f1_keywords:
-- segment/IMSVidRect
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidRect
+ - segment/IMSVidRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidRect
 ---
 
 # IMSVidRect interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMSVidRect</b> interface represents a rectangle with an associated window handle. It contains methods to set and retrieve the top and left coordinates, the width, and the height. All values are in pixels. The top and left coordinates are relative to the associated window.
-
-
-
 
 ## -inheritance
 
@@ -170,29 +166,17 @@ Specifies the width of the rectangle.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidRect)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
 

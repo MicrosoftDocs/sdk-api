@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 3ec4a397-e0d4-419c-9e12-6d76a87b1ca0
 ms.date: 12/05/2018
 ms.keywords: MultinetGetConnectionPerformance, MultinetGetConnectionPerformance function [Windows Networking (WNet)], MultinetGetConnectionPerformanceA, MultinetGetConnectionPerformanceW, _win32_multinetgetconnectionperformance, lpLocalName, lpProvider, lpRemoteName, winnetwk/MultinetGetConnectionPerformance, winnetwk/MultinetGetConnectionPerformanceA, winnetwk/MultinetGetConnectionPerformanceW, wnet.multinetgetconnectionperformance
-f1_keywords:
-- winnetwk/MultinetGetConnectionPerformance
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- MultinetGetConnectionPerformance
-- MultinetGetConnectionPerformanceA
-- MultinetGetConnectionPerformanceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MultinetGetConnectionPerformanceW
+ - winnetwk/MultinetGetConnectionPerformanceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - MultinetGetConnectionPerformance
+ - MultinetGetConnectionPerformanceA
+ - MultinetGetConnectionPerformanceW
 ---
 
 # MultinetGetConnectionPerformanceW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>MultinetGetConnectionPerformance</b> function returns information about the expected performance of a connection used to access a network resource.
 
-
 ## -parameters
-
-
-
 
 ### -param lpNetResource [in]
 
@@ -112,18 +108,13 @@ If the <i>lpProvider</i> member is not <b>NULL</b>, the system attempts to retur
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpNetConnectInfoStruct [out]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netconnectinfostruct">NETCONNECTINFOSTRUCT</a> structure that receives the data.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -237,14 +228,8 @@ A network-specific error occurred. To obtain a description of the error, call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>MultinetGetConnectionPerformance</b> function returns the information in a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netconnectinfostruct">NETCONNECTINFOSTRUCT</a> structure.
@@ -268,9 +253,6 @@ A typical way to use this function would be to open a file on a network server (
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netconnectinfostruct">NETCONNECTINFOSTRUCT</a>
 
 
@@ -286,7 +268,4 @@ A typical way to use this function would be to open a file on a network server (
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

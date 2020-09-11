@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: a149466a-a274-495a-a6cd-1553205abc07
 ms.date: 12/05/2018
 ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility],described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
-f1_keywords:
-- msaatext/IVersionInfo
-dev_langs:
-- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msaatext.h
-api_name:
-- IVersionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVersionInfo
+ - msaatext/IVersionInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msaatext.h
+api_name:
+ - IVersionInfo
 ---
 
 # IVersionInfo interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
 <a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods that supply version information for accessible elements.
-
 
 ## -inheritance
 
@@ -117,5 +116,5 @@ Retrieves the number of subcomponents for which version information is returned.
 
 </td>
 </tr>
-</table> 
+</table>
 

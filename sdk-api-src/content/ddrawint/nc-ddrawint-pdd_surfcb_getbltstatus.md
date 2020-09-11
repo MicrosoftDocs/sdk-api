@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 77cce7a4-a0e6-48f7-933f-a216b13ddc93
 ms.date: 12/05/2018
 ms.keywords: DdGetBltStatus, DdGetBltStatus callback function [Display Devices], PDD_SURFCB_GETBLTSTATUS, PDD_SURFCB_GETBLTSTATUS callback, ddfncs_b4844b94-b4ec-402e-87c3-b7d83a980963.xml, ddrawint/DdGetBltStatus, display.ddgetbltstatus
-f1_keywords:
-- ddrawint/DdGetBltStatus
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdGetBltStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_SURFCB_GETBLTSTATUS
+ - ddrawint/PDD_SURFCB_GETBLTSTATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdGetBltStatus
 ---
 
 # PDD_SURFCB_GETBLTSTATUS callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DdGetBltStatus</b> callback function queries the blit status of the specified surface.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpGetBltStatus
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getbltstatusdata">DD_GETBLTSTATUSDATA</a> structure that contains the information required to perform the blit status query.
 
-
 ## -returns
-
-
 
 <b>DdGetBltStatus</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 The blit status that the driver returns is based on the <b>dwFlags</b> member of the structure that <i>lpGetBltStatus</i> points to, as follows:
 
@@ -98,19 +79,11 @@ If the flag is DDGBS_ISBLTDONE, the driver should set <b>ddRVal</b> to DDERR_WAS
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getbltstatusdata">DD_GETBLTSTATUSDATA</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: ed038b41-211c-4483-99cd-0bc43b241761
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetAt method, CHString.GetAt, CHString.GetAt(int), CHString::GetAt, CHString::GetAt(int), GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
-f1_keywords:
-- chstring/CHString.GetAt
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::GetAt
+ - chstring/CHString::GetAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.GetAt
 ---
 
 # CHString::GetAt(int)
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,11 +59,7 @@ ms.custom: 19H1
 
 The <b>GetAt</b> method returns a single character specified by an index number.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex
 
@@ -74,16 +70,9 @@ Zero-based index of the character in the <a href="https://docs.microsoft.com/win
 
 ## -returns
 
-
-
 Returns a <b>WCHAR</b> that contains the character at the specified place in the string.
 
-
-
-
 ## -remarks
-
-
 
 The overloaded subscript (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">[]</a>) operator is a convenient alternative for <b>GetAt</b>.
 
@@ -98,14 +87,7 @@ CHString s( L"abcdef" );
 assert( s.GetAt(2) == 'c' );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
@@ -116,7 +98,4 @@ assert( s.GetAt(2) == 'c' );
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">CHString::operator[]</a>
- 
-
- 
 

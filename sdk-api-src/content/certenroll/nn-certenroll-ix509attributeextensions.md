@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d216bcfd-50be-4445-87a5-d1cb223aa70c
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeExtensions, IX509AttributeExtensions interface [Security], IX509AttributeExtensions interface [Security],described, certenroll/IX509AttributeExtensions, security.ix509attributeextensions
-f1_keywords:
-- certenroll/IX509AttributeExtensions
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509AttributeExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509AttributeExtensions
+ - certenroll/IX509AttributeExtensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509AttributeExtensions
 ---
 
 # IX509AttributeExtensions interface
 
 
 ## -description
-
 
 The <b>IX509AttributeExtensions</b> interface defines methods and properties that initialize and retrieve certificate extensions in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. For example, the  <b>CertificateRequestInfo</b> structure of a  PKCS #10 request does not contain a field for version 3 extensions. Instead, the extensions must be added to the attributes collection in the request.
 <pre class="syntax" xml:space="preserve"><code>
@@ -126,8 +126,6 @@ AttributeSetValue ::= SET OF ANY</code></pre>You can create one or more  version
 <li>Add the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a> object to the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a> collection for the request.</li>
 </ul>
 
-
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509AttributeExtensions</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeExtensions</b> also has these types of members:
@@ -186,13 +184,9 @@ Retrieves the certificate extensions.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -203,7 +197,4 @@ Retrieves the certificate extensions.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
 

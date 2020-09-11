@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 22084409-B2E6-47EF-A59B-A762E9A9191D
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StartRecord method, IMFCaptureEngine.StartRecord, IMFCaptureEngine::StartRecord, StartRecord, StartRecord method [Media Foundation], StartRecord method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startrecord, mfcaptureengine/IMFCaptureEngine::StartRecord
-f1_keywords:
-- mfcaptureengine/IMFCaptureEngine.StartRecord
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureEngine.StartRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureEngine::StartRecord
+ - mfcaptureengine/IMFCaptureEngine::StartRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureEngine.StartRecord
 ---
 
 # IMFCaptureEngine::StartRecord
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts recording audio and/or video to a file.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,14 +86,8 @@ The recording sink was not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, configure the recording sink by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a>. To get a pointer to the recording sink, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">IMFCaptureEngine::GetSink</a>.
 
@@ -109,16 +95,7 @@ This method is asynchronous. If the method returns a success code, the caller wi
 
 To stop recording, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoprecord">IMFCaptureEngine::StopRecord</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
- 
-
- 
 

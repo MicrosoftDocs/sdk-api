@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhddispinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMHDDISPINFOW, HDI_DI_SETITEM, HDI_IMAGE, HDI_LPARAM, HDI_TEXT, LPNMHDDISPINFO, LPNMHDDISPINFO structure pointer [Windows Controls], NMHDDISPINFO, NMHDDISPINFO structure [Windows Controls], NMHDDISPINFOA, NMHDDISPINFOW, _win32_NMHDDISPINFO, _win32_NMHDDISPINFO_cpp, commctrl/LPNMHDDISPINFO, commctrl/NMHDDISPINFO, commctrl/NMHDDISPINFOA, commctrl/NMHDDISPINFOW, controls.NMHDDISPINFO, controls._win32_NMHDDISPINFO'
-f1_keywords:
-- commctrl/NMHDDISPINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMHDDISPINFO
-- NMHDDISPINFOA
-- NMHDDISPINFOW
 targetos: Windows
 req.typenames: NMHDDISPINFOW, *LPNMHDDISPINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMHDDISPINFOW
+ - commctrl/tagNMHDDISPINFOW
+ - LPNMHDDISPINFOW
+ - commctrl/LPNMHDDISPINFOW
+ - NMHDDISPINFOW
+ - commctrl/NMHDDISPINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMHDDISPINFO
+ - NMHDDISPINFOA
+ - NMHDDISPINFOW
 ---
 
 # NMHDDISPINFOW structure
@@ -51,29 +56,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used in handling <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification codes. 
-
+Contains information used in handling <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification codes.
 
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure containing information about this notification code. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure containing information about this notification code.
 
 ### -field iItem
 
 Type: <b>int</b>
 
-The zero-based index of the item in the header control. 
-
+The zero-based index of the item in the header control.
 
 ### -field mask
 
@@ -132,37 +130,32 @@ The
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pszText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-A pointer to a null-terminated string containing the text that will be displayed for the header item. 
-
+A pointer to a null-terminated string containing the text that will be displayed for the header item.
 
 ### -field cchTextMax
 
 Type: <b>int</b>
 
 The size of the buffer that 
-					<b>pszText</b> points to. 
-
+					<b>pszText</b> points to.
 
 ### -field iImage
 
 Type: <b>int</b>
 
 The zero-based index of an image within the image list. The specified image will be displayed with the header item, but it does not take the place of the item's bitmap. If 
-					<b>iImage</b> is set to I_IMAGECALLBACK, the control requests image information for this item by using an <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification code. 
-
+					<b>iImage</b> is set to I_IMAGECALLBACK, the control requests image information for this item by using an <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification code.
 
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-An application-defined value to associate with the item. 
+An application-defined value to associate with the item.
 
 ## -remarks
 

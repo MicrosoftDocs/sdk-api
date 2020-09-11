@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 6f399600-0534-44cc-b179-d3bc7bee091d
 ms.date: 12/05/2018
 ms.keywords: RpcProtseqVectorFree, RpcProtseqVectorFree function [RPC], RpcProtseqVectorFreeA, RpcProtseqVectorFreeW, _rpc_rpcprotseqvectorfree, rpc.rpcprotseqvectorfree, rpcdce/RpcProtseqVectorFree, rpcdce/RpcProtseqVectorFreeA, rpcdce/RpcProtseqVectorFreeW
-f1_keywords:
-- rpcdce/RpcProtseqVectorFree
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcProtseqVectorFree
-- RpcProtseqVectorFreeA
-- RpcProtseqVectorFreeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcProtseqVectorFreeW
+ - rpcdce/RpcProtseqVectorFreeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcProtseqVectorFree
+ - RpcProtseqVectorFreeA
+ - RpcProtseqVectorFreeW
 ---
 
 # RpcProtseqVectorFreeW function
@@ -51,24 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcProtseqVectorFree</b> function frees the protocol sequences contained in the vector and the vector itself.
 
-
 ## -parameters
-
-
-
 
 ### -param ProtseqVector
 
 Pointer to a pointer to a vector of protocol sequences. On return, the pointer is set to NULL.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -93,11 +86,7 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server calls 
 <b>RpcProtseqVectorFree</b> to release the memory used to store a vector of protocol sequences and the individual protocol sequences. 
@@ -120,11 +109,5 @@ A server obtains a vector of protocol sequences by calling
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
- 
-
- 
 

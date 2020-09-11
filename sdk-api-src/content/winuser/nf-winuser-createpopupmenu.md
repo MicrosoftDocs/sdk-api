@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\createpopupmenu.htm
 ms.date: 12/05/2018
 ms.keywords: CreatePopupMenu, CreatePopupMenu function [Menus and Other Resources], _win32_CreatePopupMenu, _win32_createpopupmenu_cpp, menurc.createpopupmenu, winui._win32_createpopupmenu, winuser/CreatePopupMenu
-f1_keywords:
-- winuser/CreatePopupMenu
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- CreatePopupMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreatePopupMenu
+ - winuser/CreatePopupMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - CreatePopupMenu
 ---
 
 # CreatePopupMenu function
@@ -53,20 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a drop-down menu, submenu, or shortcut menu. The menu is initially empty. You can insert or append menu items by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a> function. You can also use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> function to insert menu items and the <a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a> function to append menu items.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HMENU</b>
 
@@ -74,12 +66,7 @@ If the function succeeds, the return value is a handle to the newly created menu
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The application can add the new menu to an existing menu, or it can display a shortcut menu by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> functions. 
 
@@ -92,12 +79,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a>
 
@@ -140,7 +122,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>
- 
-
- 
 

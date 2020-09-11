@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: d0807c03-3994-4624-97ea-94b55e7cd1e4
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceSetCredentialsEx, MprAdminInterfaceSetCredentialsEx function [RAS], _mpr_mpradmininterfacesetcredentialsex, mprapi/MprAdminInterfaceSetCredentialsEx, rras.mpradmininterfacesetcredentialsex
-f1_keywords:
-- mprapi/MprAdminInterfaceSetCredentialsEx
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceSetCredentialsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceSetCredentialsEx
+ - mprapi/MprAdminInterfaceSetCredentialsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceSetCredentialsEx
 ---
 
 # MprAdminInterfaceSetCredentialsEx function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>MprAdminInterfaceSetCredentialsEx</b> function to set extended credentials information for an interface. Use this function to set credentials information used for Extensible Authentication Protocols (EAPs).
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to a  router. This handle is obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hInterface [in]
 
 Handle to the interface. This handle is obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
-
 
 ### -param dwLevel [in]
 
@@ -91,18 +85,13 @@ A DWORD value that describes the format in which the information is structured i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpbBuffer [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_0">MPR_CREDENTIALSEX_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -169,25 +158,13 @@ The <i>dwLevel</i> value is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To a delete a pre-shared key, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentials">MprAdminInterfaceSetCredentials</a> with the <b>dwSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a> structure set to zero.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_0">MPR_CREDENTIALSEX_0</a>
 
@@ -210,7 +187,4 @@ To a delete a pre-shared key, call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
- 
-
- 
 

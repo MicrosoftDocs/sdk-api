@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 741def10-d2b5-4395-8049-1eba2e29b0e8
 ms.date: 12/05/2018
 ms.keywords: OleSetClipboard, OleSetClipboard function [COM], _ole_OleSetClipboard, com.olesetclipboard, ole2/OleSetClipboard
-f1_keywords:
-- ole2/OleSetClipboard
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
-- ie_shims.dll
-- ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
-- API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
-api_name:
-- OleSetClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleSetClipboard
+ - ole2/OleSetClipboard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+ - ie_shims.dll
+ - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+ - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+api_name:
+ - OleSetClipboard
 ---
 
 # OleSetClipboard function
@@ -53,25 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Places a pointer to a specific data object onto the clipboard. This makes the data object accessible to the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegetclipboard">OleGetClipboard</a> function.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pDataObj [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object from which the data to be placed on the clipboard can be obtained. This parameter can be <b>NULL</b>; in which case the clipboard is emptied.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -125,14 +116,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are writing an application that can act as the source of a clipboard operation, you must do the following:
 
@@ -156,12 +141,7 @@ Specifying <b>NULL</b> as the parameter value for <b>OleSetClipboard</b> empties
 
 If you need to leave the data on the clipboard after your application is closed, you should call <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a> rather than calling <b>OleSetClipboard</b> with a <b>NULL</b> parameter value.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>
 
@@ -172,7 +152,4 @@ If you need to leave the data on the clipboard after your application is closed,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleiscurrentclipboard">OleIsCurrentClipboard</a>
- 
-
- 
 

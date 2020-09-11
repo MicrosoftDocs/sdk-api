@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: d7ea638d-f95c-4d72-8f55-cbb6a7d1ae8d
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [XPS Documents and Packaging], AddPage method [XPS Documents and Packaging],IXpsOMPackageWriter interface, AddPage method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],AddPage method, IXpsOMPackageWriter.AddPage, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddPage method, IXpsOMPackageWriter3D::AddPage, IXpsOMPackageWriter::AddPage, xps.ixpsompackagewriter_addpage, xpsobjectmodel/IXpsOMPackageWriter3D::AddPage, xpsobjectmodel/IXpsOMPackageWriter::AddPage
-f1_keywords:
-- xpsobjectmodel/IXpsOMPackageWriter.AddPage
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPackageWriter.AddPage
-- IXpsOMPackageWriter3D.AddPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackageWriter::AddPage
+ - xpsobjectmodel/IXpsOMPackageWriter::AddPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPackageWriter.AddPage
+ - IXpsOMPackageWriter3D.AddPage
 ---
 
 # IXpsOMPackageWriter::AddPage
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes a new FixedPage part to the currently open FixedDocument part in the package.
 
-
 ## -parameters
-
-
-
 
 ### -param page [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a> interface whose page content is to be written to the currently open FixedDocument of the  package.
-
 
 ### -param advisoryPageDimensions [in]
 
@@ -70,30 +65,23 @@ The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_S
 
 Size is described in XPS units. There are 96 XPS units per inch.  For example, the dimensions of an 8.5" by 11.0" page are 816 by 1,056 XPS units.
 
-
 ### -param discardableResourceParts [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomparturicollection">IXpsOMPartUriCollection</a> interface that contains a collection of the discardable resource parts.
-
 
 ### -param storyFragments [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomstoryfragmentsresource">IXpsOMStoryFragmentsResource</a> interface that is to be  used for this page.
 
-
 ### -param pagePrintTicket [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface that contains the page-level print ticket for this page. See also Remarks.
-
 
 ### -param pageThumbnail [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface that contains the thumbnail image of this page.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -151,12 +139,7 @@ A severe error occurred and the contents of the XPS OM might be unrecoverable. S
 
 This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 Call this method  after calling <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument">StartNewDocument</a>.
 
@@ -166,13 +149,7 @@ If <i>pagePrintTicket</i> contains a <b>NULL</b> pointer and the package writer 
 
 If <i>pagePrintTicket</i> contains a <b>NULL</b> pointer and the package writer was created with interleaving set to <b>XPS_INTERLEAVING_OFF</b>,  no blank print ticket is created.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource">IXpsOMDocumentStructureResource</a>
 
@@ -223,7 +200,4 @@ If <i>pagePrintTicket</i> contains a <b>NULL</b> pointer and the package writer 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
- 
-
- 
 

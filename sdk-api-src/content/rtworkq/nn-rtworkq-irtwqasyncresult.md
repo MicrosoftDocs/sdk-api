@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: AB23282D-D731-48EE-AF55-CC5A513EBA33
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncResult, IRtwqAsyncResult interface, IRtwqAsyncResult interface,described, base.irtwqasyncresult, rtworkq/IRtwqAsyncResult
-f1_keywords:
-- rtworkq/IRtwqAsyncResult
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTWorkQ.dll
-api_name:
-- IRtwqAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRtwqAsyncResult
+ - rtworkq/IRtwqAsyncResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqAsyncResult
 ---
 
 # IRtwqAsyncResult interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides information about the result of an asynchronous operation.
-         
-
 
 ## -inheritance
 
@@ -114,5 +112,5 @@ Sets the status of the asynchronous operation.
 
 </td>
 </tr>
-</table> 
+</table>
 

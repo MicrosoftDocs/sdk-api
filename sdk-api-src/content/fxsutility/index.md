@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: fax
+f1_keywords:
+ - fxsutility
+ - fxsutility/fxsutility
 ---
 
 # Fxsutility.h header
 
 
 ## -description
-
 
 This header is used by Fax Service. For more information, see:
 

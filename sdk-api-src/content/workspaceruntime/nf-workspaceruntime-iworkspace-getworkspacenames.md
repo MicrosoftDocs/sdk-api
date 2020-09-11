@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 379a9fb5-36e3-4c3d-a276-9d0804599b42
 ms.date: 12/05/2018
 ms.keywords: GetWorkspaceNames, GetWorkspaceNames method [Remote Desktop Services], GetWorkspaceNames method [Remote Desktop Services],IWorkspace interface, GetWorkspaceNames method [Remote Desktop Services],IWorkspace2 interface, GetWorkspaceNames method [Remote Desktop Services],IWorkspace3 interface, GetWorkspaceNames method [Remote Desktop Services],Workspace object, IWorkspace interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace.GetWorkspaceNames, IWorkspace2 interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace2::GetWorkspaceNames, IWorkspace3 interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace3::GetWorkspaceNames, IWorkspace::GetWorkspaceNames, Workspace object [Remote Desktop Services],GetWorkspaceNames method, termserv.iworkspace_getworkspacenames, workspaceruntime/IWorkspace2::GetWorkspaceNames, workspaceruntime/IWorkspace3::GetWorkspaceNames, workspaceruntime/IWorkspace::GetWorkspaceNames
-f1_keywords:
-- workspaceruntime/IWorkspace.GetWorkspaceNames
-dev_langs:
-- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library: Wksprt.exe
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wksprt.exe
-api_name:
-- IWorkspace.GetWorkspaceNames
-- IWorkspace2.GetWorkspaceNames
-- IWorkspace3.GetWorkspaceNames
-- Workspace.GetWorkspaceNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspace::GetWorkspaceNames
+ - workspaceruntime/IWorkspace::GetWorkspaceNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wksprt.exe
+api_name:
+ - IWorkspace.GetWorkspaceNames
+ - IWorkspace2.GetWorkspaceNames
+ - IWorkspace3.GetWorkspaceNames
+ - Workspace.GetWorkspaceNames
 ---
 
 # IWorkspace::GetWorkspaceNames
@@ -52,33 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the names of the connections in the current process.
 
-
 ## -parameters
-
-
-
 
 ### -param psaWkspNames [out]
 
 A pointer to an array of <b>BSTR</b> variables to receive the names of the connections.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace">IWorkspace</a>
 
@@ -89,7 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>
- 
-
- 
 

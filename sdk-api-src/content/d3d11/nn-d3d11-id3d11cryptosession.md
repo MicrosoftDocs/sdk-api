@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: E17F39CB-61E3-44EF-805D-AD386743744E
 ms.date: 12/05/2018
 ms.keywords: ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundation], ID3D11CryptoSession interface [Media Foundation],described, d3d11/ID3D11CryptoSession, mf.id3d11cryptosession
-f1_keywords:
-- d3d11/ID3D11CryptoSession
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.h
-api_name:
-- ID3D11CryptoSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11CryptoSession
+ - d3d11/ID3D11CryptoSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.h
+api_name:
+ - ID3D11CryptoSession
 ---
 
 # ID3D11CryptoSession interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a cryptographic session.
-
-
-
 
 ## -inheritance
 
@@ -115,29 +112,17 @@ Gets the decoding profile of the session.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createcryptosession">ID3D11VideoDevice::CreateCryptoSession</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
- 
-
- 
 

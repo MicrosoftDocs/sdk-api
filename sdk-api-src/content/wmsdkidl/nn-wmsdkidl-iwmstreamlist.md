@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 076bb0bf-3cf8-48b4-bfca-abbd9c1bf211
 ms.date: 12/05/2018
 ms.keywords: IWMStreamList, IWMStreamList interface [windows Media Format], IWMStreamList interface [windows Media Format],described, IWMStreamListInterface, wmformat.iwmstreamlist, wmsdkidl/IWMStreamList
-f1_keywords:
-- wmsdkidl/IWMStreamList
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMStreamList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamList
+ - wmsdkidl/IWMStreamList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMStreamList
 ---
 
 # IWMStreamList interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMStreamList</b> interface is used by mutual exclusion objects and bandwidth sharing objects to maintain lists of streams. The <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing</a> interfaces each inherit from <b>IWMStreamList</b>. These are the only uses of this interface in the SDK. You never need to deal with interface pointers for <b>IWMStreamList</b> directly.
-
-
-
 
 ## -inheritance
 
@@ -102,12 +98,7 @@ Removes a stream from the list.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/bandwidth-sharing-object">Bandwidth Sharing Object</a>
 
@@ -118,7 +109,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/mutual-exclusion-object">Mutual Exclusion Object</a>
- 
-
- 
 

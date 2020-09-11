@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: fae1299f-2f3f-48cf-91d9-1057ce62172b
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetAccountInformation method, IScheduledWorkItem.SetAccountInformation, IScheduledWorkItem::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Task Scheduler], SetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setaccountinformation, mstask/IScheduledWorkItem::SetAccountInformation, taskschd.ischeduledworkitem_setaccountinformation
-f1_keywords:
-- mstask/IScheduledWorkItem.SetAccountInformation
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.SetAccountInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::SetAccountInformation
+ - mstask/IScheduledWorkItem::SetAccountInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.SetAccountInformation
 ---
 
 # IScheduledWorkItem::SetAccountInformation
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Sets the account name and password used to run the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszAccountName [in]
 
 A string that contains the <b>null</b>-terminated name of the user account in which the work item will run. To specify the local system account, use the empty string, L"". Do not use any other string to specify the local system account. For more information, see Remarks.
-
 
 ### -param pwszPassword [in]
 
@@ -78,10 +73,7 @@ Task Scheduler stores account information only once for all tasks that use the s
 
 When you have finished using the password, clear the password information by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
-
 ## -returns
-
-
 
 The 
 <b>SetAccountInformation</b> method returns one of the following values. Note that errors from this call may also be returned by the subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>.
@@ -169,14 +161,8 @@ The <i>pwszPassword</i> parameter was incorrect.  In the Windows Server 2003, T
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is for the Windows Server 2003, Windows XP, and Windows 2000.
 
@@ -208,12 +194,7 @@ For more information and an example of how to set the account information of a t
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
@@ -224,7 +205,4 @@ For more information and an example of how to set the account information of a t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>
- 
-
- 
 

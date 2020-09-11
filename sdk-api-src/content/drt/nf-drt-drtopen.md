@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 67320767-f622-478a-a886-bbea1650ac1a
 ms.date: 12/05/2018
 ms.keywords: DrtOpen, DrtOpen function [Peer Networking], drt/DrtOpen, p2p.drtopen
-f1_keywords:
-- drt/DrtOpen
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtOpen
+ - drt/DrtOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtOpen
 ---
 
 # DrtOpen function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtOpen</b> function creates a local Distributed Routing Table instance against criteria specified by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param pSettings [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure which specifies the settings used for the creation of the DRT instance.
 
-
 ### -param hEvent [in]
 
 Handle to the event signaled when an event occurs.
-
 
 ### -param pvContext [in, optional]
 
 User defined context data which is passed  to the application via  events.
 
-
 ### -param phDrt [out]
 
 The new handle associated with the DRT. This is used in all future operations on the DRT instance.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -321,31 +311,16 @@ An unexpected fatal error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
- After <b>DrtOpen</b> is called, the DRT will begin the bootstrapping procedure and move to the <b>DRT_ACTIVE</b> or <b>DRT_ALONE</b> state, depending on the success of the bootstrap. 
-
-
-
+ After <b>DrtOpen</b> is called, the DRT will begin the bootstrapping procedure and move to the <b>DRT_ACTIVE</b> or <b>DRT_ALONE</b> state, depending on the success of the bootstrap.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a>
- 
-
- 
 

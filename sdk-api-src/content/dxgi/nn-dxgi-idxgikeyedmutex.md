@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: f790eb46-f116-4258-8c8d-de1ece4a1f21
 ms.date: 12/05/2018
 ms.keywords: 624ec55f-8325-5294-526a-89138f1d7331, IDXGIKeyedMutex, IDXGIKeyedMutex interface [DXGI], IDXGIKeyedMutex interface [DXGI],described, direct3ddxgi.idxgikeyedmutex, dxgi/IDXGIKeyedMutex
-f1_keywords:
-- dxgi/IDXGIKeyedMutex
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIKeyedMutex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIKeyedMutex
+ - dxgi/IDXGIKeyedMutex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIKeyedMutex
 ---
 
 # IDXGIKeyedMutex interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a keyed mutex, which allows exclusive access to a shared resource that is used by multiple devices.
-
 
 ## -inheritance
 
@@ -87,12 +86,9 @@ Using a key, releases exclusive rendering access to a shared resource.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a> is required to create a resource capable of supporting the <b>IDXGIKeyedMutex</b> interface.
 
@@ -100,20 +96,11 @@ An <b>IDXGIKeyedMutex</b> should be retrieved for each device sharing a resource
 
 For information about creating a keyed mutex, see the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-acquiresync">IDXGIKeyedMutex::AcquireSync</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevicesubobject">IDXGIDeviceSubObject</a>
- 
-
- 
 

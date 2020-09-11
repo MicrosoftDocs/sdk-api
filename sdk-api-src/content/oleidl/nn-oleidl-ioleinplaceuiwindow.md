@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 3cfb31aa-9746-438c-af64-8236c170fe88
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow, IOleInPlaceUIWindow interface [COM], IOleInPlaceUIWindow interface [COM],described, _ole_ioleinplaceuiwindow, com.ioleinplaceuiwindow, oleidl/IOleInPlaceUIWindow
-f1_keywords:
-- oleidl/IOleInPlaceUIWindow
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceUIWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceUIWindow
+ - oleidl/IOleInPlaceUIWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceUIWindow
 ---
 
 # IOleInPlaceUIWindow interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implemented by container applications and used by object applications to negotiate border space on the document or frame window. The container provides a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure in which the object can place toolbars and other similar controls, determines if tools can in fact be installed around the object's window frame, allocates space for the border, and establishes a communication channel between the object and each frame and document window.
-
 
 ## -inheritance
 
@@ -104,16 +103,9 @@ Allocates space for the border requested in the call to <a href="https://docs.mi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
- 
-
- 
 

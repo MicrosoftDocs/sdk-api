@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1f8b9d75-5bba-40c3-99a0-6910855fcd4d
 ms.date: 12/05/2018
 ms.keywords: SCardIntroduceReader, SCardIntroduceReader function [Security], SCardIntroduceReaderA, SCardIntroduceReaderW, _smart_scardintroducereader, security.scardintroducereader, winscard/SCardIntroduceReader, winscard/SCardIntroduceReaderA, winscard/SCardIntroduceReaderW
-f1_keywords:
-- winscard/SCardIntroduceReader
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardIntroduceReader
-- SCardIntroduceReaderA
-- SCardIntroduceReaderW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardIntroduceReaderW
+ - winscard/SCardIntroduceReaderW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardIntroduceReader
+ - SCardIntroduceReaderA
+ - SCardIntroduceReaderW
 ---
 
 # SCardIntroduceReaderW function
@@ -51,34 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardIntroduceReader</b> function introduces a new name for an existing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>.
 <div class="alert"><b>Note</b>  Smart card readers are automatically introduced to the system; a smart card reader vendor's setup program can also introduce a smart card reader to the system.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
 
-
 ### -param szReaderName [in]
 
 Display name to be assigned to the reader.
-
 
 ### -param szDeviceName [in]
 
 System name of the smart card reader, for example, "MyReader 01".
 
-
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -111,14 +103,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 All readers installed on the system are automatically introduced by their system name. Typically, <b>SCardIntroduceReader</b> is called only to change the name of an existing reader.
 
@@ -189,9 +175,6 @@ lReturn = SCardFreeMemory( hContext, pbAttr );
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
@@ -205,7 +188,4 @@ lReturn = SCardFreeMemory( hContext, pbAttr );
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a>
- 
-
- 
 

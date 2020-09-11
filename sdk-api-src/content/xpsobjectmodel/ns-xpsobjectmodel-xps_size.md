@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2f6eb553-892b-455b-97a5-280f257b5702
 ms.date: 12/05/2018
 ms.keywords: XPS_SIZE, XPS_SIZE structure [XPS Documents and Packaging], xps.xps_size, xpsobjectmodel/XPS_SIZE
-f1_keywords:
-- xpsobjectmodel/XPS_SIZE
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xpsobjectmodel.h
-api_name:
-- XPS_SIZE
 targetos: Windows
 req.typenames: XPS_SIZE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0018
+ - xpsobjectmodel/__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0018
+ - XPS_SIZE
+ - xpsobjectmodel/XPS_SIZE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - XPS_SIZE
 ---
 
 # XPS_SIZE structure
@@ -49,41 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the size of an object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field width
 
 A non-negative value that represents the  object's size in the horizontal (x) dimension.
 
-
 ### -field height
 
 A non-negative value that represents the  object's size in the vertical (y) dimension.
 
-
 ## -remarks
-
-
 
 The measurement units are not specified in the structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

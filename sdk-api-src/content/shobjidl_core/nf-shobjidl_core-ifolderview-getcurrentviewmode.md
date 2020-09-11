@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e8f69203-f0b4-4537-980c-8e5bbdb49aab
 ms.date: 12/05/2018
 ms.keywords: FVM_DETAILS, FVM_ICON, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_THUMBSTRIP, FVM_TILE, GetCurrentViewMode, GetCurrentViewMode method [Windows Shell], GetCurrentViewMode method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetCurrentViewMode method, IFolderView.GetCurrentViewMode, IFolderView::GetCurrentViewMode, _shell_IFolderView_GetCurrentViewMode, shell.IFolderView_GetCurrentViewMode, shobjidl_core/IFolderView::GetCurrentViewMode
-f1_keywords:
-- shobjidl_core/IFolderView.GetCurrentViewMode
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IFolderView.GetCurrentViewMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView::GetCurrentViewMode
+ - shobjidl_core/IFolderView::GetCurrentViewMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IFolderView.GetCurrentViewMode
 ---
 
 # IFolderView::GetCurrentViewMode
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an address containing a value representing the folder's current view mode.
 
-
 ## -parameters
-
-
-
 
 ### -param pViewMode [out]
 
@@ -108,22 +104,13 @@ Large icons
 
 Filmstrip view
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getcurrentinfo">GetCurrentInfo</a>
 
@@ -134,7 +121,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-setcurrentviewmode">IFolderView::SetCurrentViewMode</a>
- 
-
- 
 

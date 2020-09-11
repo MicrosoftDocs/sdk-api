@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 073b42ba-90dd-48a1-9661-9b1686c09561
 ms.date: 12/05/2018
 ms.keywords: InterlockedDecrement64, InterlockedDecrement64 function, base.interlockeddecrement64, winnt/InterlockedDecrement64
-f1_keywords:
-- winnt/InterlockedDecrement64
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedDecrement64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedDecrement64
+ - winnt/InterlockedDecrement64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedDecrement64
 ---
 
 # InterlockedDecrement64 function
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrements (decreases by one) the value of the specified 64-bit variable as an atomic operation.
 
 To operate on 32-bit values, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockeddecrement">InterlockedDecrement</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Addend [in, out]
 
 A pointer to the variable to be decremented.
 
-
 ## -returns
-
-
 
 The function returns the resulting decremented value.
 
-
-
-
 ## -remarks
-
-
 
 The variable pointed to by the <i>Addend</i> parameter must be aligned on a 64-bit boundary; otherwise, this function will behave unpredictably on multiprocessor x86 systems and any non-x86 systems. See <b>_aligned_malloc</b>.
 
@@ -91,12 +79,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -147,7 +130,4 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

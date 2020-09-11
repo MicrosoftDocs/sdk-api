@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 5304f93a-993a-4327-9fdb-fb2ef1dafecb
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile3, IBackgroundCopyFile3 interface [BITS], IBackgroundCopyFile3 interface [BITS],described, bits.ibackgroundcopyfile3, bits3_0/IBackgroundCopyFile3
-f1_keywords:
-- bits3_0/IBackgroundCopyFile3
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyFile3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile3
+ - bits3_0/IBackgroundCopyFile3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyFile3
 ---
 
 # IBackgroundCopyFile3 interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this 
 interface to retrieve the name of the temporary file that contains the downloaded content and to validate the file so that peers can request its content.
 
 To get an 
-<b>IBackgroundCopyFile3</b> interface pointer, call the <b>IBackgroundCopyFile::QueryInterface</b> method using __uuidof(IBackgroundCopyFile3) for the interface identifier. 
-
+<b>IBackgroundCopyFile3</b> interface pointer, call the <b>IBackgroundCopyFile::QueryInterface</b> method using __uuidof(IBackgroundCopyFile3) for the interface identifier.
 
 ## -inheritance
 
@@ -109,20 +108,13 @@ Sets the validation state of this file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
- 
-
- 
 

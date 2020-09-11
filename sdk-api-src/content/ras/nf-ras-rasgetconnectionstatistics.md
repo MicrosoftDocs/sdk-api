@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 2db03535-c2bd-4e04-a86f-e68fe5c1f805
 ms.date: 12/05/2018
 ms.keywords: RasGetConnectionStatistics, RasGetConnectionStatistics function [RAS], _ras_rasgetconnectionstatistics, ras/RasGetConnectionStatistics, rras.rasgetconnectionstatistics
-f1_keywords:
-- ras/RasGetConnectionStatistics
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasGetConnectionStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetConnectionStatistics
+ - ras/RasGetConnectionStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasGetConnectionStatistics
 ---
 
 # RasGetConnectionStatistics function
@@ -51,21 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetConnectionStatistics</b> function retrieves accumulated connection statistics for the specified connection.
 
-
 ## -parameters
-
-
-
 
 ### -param hRasConn [in]
 
-Handle to the connection. Use <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> to obtain this handle. 
-					
-
+Handle to the connection. Use <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> to obtain this handle.
 
 ### -param lpStatistics [in, out]
 
@@ -79,10 +73,7 @@ On input, set the <b>dwSize</b> member of this structure to sizeof(<a href="http
 
 This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -129,15 +120,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasclearconnectionstatistics">RasClearConnectionStatistics</a>
 
@@ -160,7 +144,4 @@ Use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

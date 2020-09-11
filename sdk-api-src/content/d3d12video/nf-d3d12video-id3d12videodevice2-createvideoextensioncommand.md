@@ -5,10 +5,6 @@ description: Creates a video extension command.
 tech.root: mf
 ms.date: 6/7/2019
 ms.keywords: ID3D12VideoDevice2::CreateVideoExtensionCommand
-f1_keywords:
-- ID3D12VideoDevice2::CreateVideoExtensionCommand
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,14 +25,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12VideoDevice2::CreateVideoExtensionCommand
+ - d3d12video/ID3D12VideoDevice2::CreateVideoExtensionCommand
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12video.h
+ - d3d12video.h
 api_name:
-- ID3D12VideoDevice2::CreateVideoExtensionCommand
+ - ID3D12VideoDevice2::CreateVideoExtensionCommand
 ---
 
 ## -description

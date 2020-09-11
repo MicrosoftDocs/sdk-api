@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messagebox.htm
 ms.date: 12/05/2018
 ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_CANCELTRYCONTINUE, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_HELP, MB_ICONASTERISK, MB_ICONERROR, MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_ICONSTOP, MB_ICONWARNING, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_RIGHT, MB_RTLREADING, MB_SERVICE_NOTIFICATION, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_TOPMOST, MB_YESNO, MB_YESNOCANCEL, MessageBox, MessageBox function [Dialog Boxes], MessageBoxA, MessageBoxW, _win32_MessageBox, _win32_messagebox_cpp, dlgbox.messagebox, winui._win32_messagebox, winuser/MessageBox, winuser/MessageBoxA, winuser/MessageBoxW
-f1_keywords:
-- winuser/MessageBox
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
-- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
-- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
-api_name:
-- MessageBox
-- MessageBoxA
-- MessageBoxW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MessageBoxA
+ - winuser/MessageBoxA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+ - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+api_name:
+ - MessageBox
+ - MessageBoxA
+ - MessageBoxW
 ---
 
 # MessageBoxA function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a modal dialog box that contains a system icon, a set of buttons, and a brief application-specific message, such as status or error information. The message box returns an integer value that indicates which button the user clicked.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in, optional]
 
@@ -69,20 +65,17 @@ Type: <b>HWND</b>
 
 A handle to the owner window of the message box to be created. If this parameter is <b>NULL</b>, the message box has no owner window.
 
-
 ### -param lpText [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 The message to be displayed. If the string consists of more than one line, you can separate the lines using a carriage return and/or linefeed character between each line.
 
-
 ### -param lpCaption [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 The dialog box title. If this parameter is <b>NULL</b>, the default title is <b>Error</b>.
-
 
 ### -param uType [in]
 
@@ -492,12 +485,8 @@ For information on security considerations in regard to using this flag, see <a 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -621,14 +610,8 @@ The <b>Yes</b> button was selected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following system icons can be used in a message box by setting the <i>uType</i> parameter to the corresponding flag value.
 
@@ -711,9 +694,6 @@ For another message box example, see <a href="https://docs.microsoft.com/windows
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -747,7 +727,4 @@ For another message box example, see <a href="https://docs.microsoft.com/windows
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
- 
-
- 
 

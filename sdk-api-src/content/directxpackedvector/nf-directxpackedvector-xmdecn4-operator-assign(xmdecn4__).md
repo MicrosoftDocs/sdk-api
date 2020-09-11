@@ -7,10 +7,6 @@ helpviewer_keywords: ["XMDECN4::operator="]
 ms.assetid: 5f8c7563-b0b1-44a4-a52e-7a25e684f284
 ms.date: 05/20/2019
 ms.keywords: XMDECN4::operator=
-f1_keywords:
-- directxpackedvector/XMDECN4::operator=
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - XMDECN4::operator=
+ - directxpackedvector/XMDECN4::operator=
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxpackedvector.h
+ - directxpackedvector.h
 api_name:
-- XMDECN4::operator=
+ - XMDECN4::operator=
 ---
 
 # XMDECN4::operator =  (const XMDECN4&)
+
 
 ## -description
 
@@ -66,3 +68,4 @@ The current instance of **XMDECN4** whose vector component data has been updated
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>
+

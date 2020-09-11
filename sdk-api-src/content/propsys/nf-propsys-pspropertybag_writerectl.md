@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 83C29519-CAB0-4989-85B5-70AD79E69D04
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteRECTL, PSPropertyBag_WriteRECTL function [Windows Properties], properties.PSPropertyBag_WriteRECTL, propsys/PSPropertyBag_WriteRECTL, shell.PSPropertyBag_WriteRECTL, shell_PSPropertyBag_WriteRECTL
-f1_keywords:
-- propsys/PSPropertyBag_WriteRECTL
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSPropertyBag_WriteRECTL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSPropertyBag_WriteRECTL
+ - propsys/PSPropertyBag_WriteRECTL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSPropertyBag_WriteRECTL
 ---
 
 # PSPropertyBag_WriteRECTL function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stores the coordinates of a rectangle in a property in a property bag.
 
-
 ## -parameters
-
-
-
 
 ### -param propBag [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-
 
 A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
-
 ### -param propName [in]
 
 Type: <b>LPCWSTR</b>
 
 A null-terminated property name string.
-
 
 ### -param value [in]
 
@@ -78,34 +72,17 @@ Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd162907(v=
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a> structure that specifies the coordinates to store in the property.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The property bag property function API converts between window types and the <b>VARIANT</b> type that is used to express values in a property bag. Doing so eases property bag usage, simplifies applications, and avoids common coding errors.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_readrectl">PSPropertyBag_ReadRECTL</a>
- 
-
- 
 

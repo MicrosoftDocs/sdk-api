@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 20f7b20e-37f8-49f7-ae9d-83a9b9f574b6
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo2, ITCallInfo2 interface [TAPI 2.2], ITCallInfo2 interface [TAPI 2.2],described, _tapi3_itcallinfo2, tapi3.itcallinfo2, tapi3if/ITCallInfo2
-f1_keywords:
-- tapi3if/ITCallInfo2
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallInfo2
+ - tapi3if/ITCallInfo2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallInfo2
 ---
 
 # ITCallInfo2 interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITCallInfo2</b> interface is an extension of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface. 
 <b>ITCallInfo2</b> provides additional methods that allow an application to set event filtering on a per-call basis.
-
 
 ## -inheritance
 
@@ -89,20 +88,13 @@ Sets filtering for a given event.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
- 
-
- 
 

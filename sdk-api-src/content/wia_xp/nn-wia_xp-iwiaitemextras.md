@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\iwiaitemextras.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaItemExtras, IWiaItemExtras interface [WIA], IWiaItemExtras interface [WIA],described, _wia_IWiaItemExtras, wia._wia_IWiaItemExtras, wia_xp/IWiaItemExtras
-f1_keywords:
-- wia_xp/IWiaItemExtras
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaItemExtras
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaItemExtras
+ - wia_xp/IWiaItemExtras
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaItemExtras
 ---
 
 # IWiaItemExtras interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaItemExtras</b> interface provides several methods that enable applications to communicate with hardware drivers.
-
 
 ## -inheritance
 
@@ -95,12 +94,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IWiaItemExtras</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
@@ -128,7 +124,4 @@ The <b>IWiaItemExtras</b> interface, like all Component Object Model (COM) inter
 <td>Decrements reference count.</td>
 </tr>
 </table>
- 
-
-
 

@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: a2021d70-e7ef-4c2a-8800-1a1d7540ce02
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS_OBJECT_HDR, LPQOS_OBJECT_HDR, LPQOS_OBJECT_HDR structure pointer [QOS], QOS_OBJECT_DESTADDR, QOS_OBJECT_END_OF_LIST, QOS_OBJECT_HDR, QOS_OBJECT_HDR structure [QOS], QOS_OBJECT_SD_MODE, QOS_OBJECT_SHAPING_RATE, RSVP_OBJECT_ADSPEC, RSVP_OBJECT_FILTERSPEC_LIST, RSVP_OBJECT_POLICY_INFO, RSVP_OBJECT_RESERVE_INFO, _gqos_qos_object_hdr, qos.qos_object_hdr, qos/LPQOS_OBJECT_HDR, qos/QOS_OBJECT_HDR'
-f1_keywords:
-- qos/QOS_OBJECT_HDR
-dev_langs:
-- c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qos.h
-api_name:
-- QOS_OBJECT_HDR
 targetos: Windows
 req.typenames: QOS_OBJECT_HDR, *LPQOS_OBJECT_HDR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPQOS_OBJECT_HDR
+ - qos/LPQOS_OBJECT_HDR
+ - QOS_OBJECT_HDR
+ - qos/QOS_OBJECT_HDR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qos.h
+api_name:
+ - QOS_OBJECT_HDR
 ---
 
 # QOS_OBJECT_HDR structure
@@ -49,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The QOS object 
 <b>QOS_OBJECT_HDR</b> is attached to each QOS object. It specifies the object type and its length.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ObjectType
 
@@ -116,20 +114,11 @@ Specifies the type of object to which
 
 #### RSVP_OBJECT_RESERVE_INFO
 
-
 ### -field ObjectLength
 
 Specifies the length of the attached object, inclusive of QOS_OBJECT_HDR.
-					
-
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
- 
-
- 
 

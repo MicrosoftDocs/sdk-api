@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: e50e13c2-1ef3-46f6-8c53-f99cc1631a79
 ms.date: 12/05/2018
 ms.keywords: IControlChangeNotify, IControlChangeNotify interface [Core Audio], IControlChangeNotify interface [Core Audio],described, coreaudio.icontrolchangenotify, devicetopology/IControlChangeNotify
-f1_keywords:
-- devicetopology/IControlChangeNotify
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IControlChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IControlChangeNotify
+ - devicetopology/IControlChangeNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IControlChangeNotify
 ---
 
 # IControlChangeNotify interface
 
 
 ## -description
-
-
 
 The <b>IControlChangeNotify</b> interface provides notifications when the status of a part (connector or subunit) changes. Unlike the other interfaces in this section, which are implemented by the DeviceTopology API, the <b>IControlChangeNotify</b> interface must be implemented by a client. To receive notifications, the client passes a pointer to its <b>IControlChangeNotify</b> interface instance as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-registercontrolchangecallback">IPart::RegisterControlChangeCallback</a> method.
 
@@ -62,8 +61,6 @@ In implementing the <b>IControlChangeNotify</b> interface, the client should obs
 <li>The client should never call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a> method during an event callback.</li>
 <li>The client should never release the final reference on an MMDevice API object during an event callback.</li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -89,13 +86,9 @@ Notifies the client when the status of a part (connector or subunit) changes.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -110,7 +103,4 @@ Notifies the client when the status of a part (connector or subunit) changes.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: d0f75414-18cf-4e76-b875-5f373510c87b
 ms.date: 12/05/2018
 ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Media Foundation], GetOutputAvailableType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputAvailableType method, IMFTransform.GetOutputAvailableType, IMFTransform::GetOutputAvailableType, d0f75414-18cf-4e76-b875-5f373510c87b, mf.imftransform_getoutputavailabletype, mftransform/IMFTransform::GetOutputAvailableType
-f1_keywords:
-- mftransform/IMFTransform.GetOutputAvailableType
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTransform.GetOutputAvailableType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTransform::GetOutputAvailableType
+ - mftransform/IMFTransform::GetOutputAvailableType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTransform.GetOutputAvailableType
 ---
 
 # IMFTransform::GetOutputAvailableType
@@ -50,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an available media type for an output stream on this Media Foundation transform (MFT).
-        
-
 
 ## -parameters
-
-
-
 
 ### -param dwOutputStreamID [in]
 
 Output stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
-          
-
 
 ### -param dwTypeIndex [in]
 
 Index of the media type to retrieve. Media types are indexed from zero and returned in approximate order of preference.
-          
-
 
 ### -param ppType [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -151,14 +138,8 @@ You must set the input types before setting the output types.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The MFT defines a list of available media types for each output stream and orders them by preference. This method enumerates the available media types for an output stream. To enumerate the available types, increment <i>dwTypeIndex</i> until the method returns MF_<b>E_NO_MORE_TYPES</b>.
       
@@ -196,20 +177,11 @@ If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, thi
 <h3><a id="Implementation_Notes"></a><a id="implementation_notes"></a><a id="IMPLEMENTATION_NOTES"></a>Implementation Notes</h3>
 If the MFT stores a media type internally, the MFT should return a clone of the media  type, not a pointer to the original type. Otherwise, the caller might modify the type and alter the internal state of the MFT.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
 

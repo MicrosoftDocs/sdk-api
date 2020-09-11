@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 44515be4-891b-4f3d-a2c2-1699e468e708
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], IUPnPServiceCallback interface [UPnP APIs],described, _upnp_iupnpservicecallback, upnp.iupnpservicecallback, upnp/IUPnPServiceCallback
-f1_keywords:
-- upnp/IUPnPServiceCallback
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServiceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServiceCallback
+ - upnp/IUPnPServiceCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServiceCallback
 ---
 
 # IUPnPServiceCallback interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPServiceCallback</b> interface is used to send event notifications to clients of Service objects.
-
 
 ## -inheritance
 
@@ -87,5 +86,5 @@ Method that indicates that a state variable has changed.
 
 </td>
 </tr>
-</table> 
+</table>
 

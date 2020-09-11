@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 31edab76-7b16-4a02-83ff-998c21e77f2e
 ms.date: 12/05/2018
 ms.keywords: 06d995ac-16d4-215c-4d9a-179636a32853, AcquireSync, AcquireSync method [DXGI], AcquireSync method [DXGI],IDXGIKeyedMutex interface, IDXGIKeyedMutex interface [DXGI],AcquireSync method, IDXGIKeyedMutex.AcquireSync, IDXGIKeyedMutex::AcquireSync, direct3ddxgi.idxgikeyedmutex_acquiresync, dxgi/IDXGIKeyedMutex::AcquireSync
-f1_keywords:
-- dxgi/IDXGIKeyedMutex.AcquireSync
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIKeyedMutex.AcquireSync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIKeyedMutex::AcquireSync
+ - dxgi/IDXGIKeyedMutex::AcquireSync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIKeyedMutex.AcquireSync
 ---
 
 # IDXGIKeyedMutex::AcquireSync
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Using a key, acquires exclusive rendering access to a shared resource.
 
-
 ## -parameters
-
-
-
 
 ### -param Key
 
@@ -65,7 +61,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A value that indicates which device to give access to. This method will succeed when the device that currently owns the surface calls 
           the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a> method using the same value. This value can be any UINT64 value.
-
 
 ### -param dwMilliseconds
 
@@ -75,10 +70,7 @@ The time-out interval, in milliseconds. This method will return if the interval 
           If this value is set to zero, the <b>AcquireSync</b> method will test to see if the keyed mutex has been released and returns immediately. 
           If this value is set to INFINITE, the time-out interval will never elapse.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -94,11 +86,7 @@ If the owning device attempted to create another keyed mutex on the same shared 
 <li>WAIT_TIMEOUT - The time-out interval elapsed before the specified key was released.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The <b>AcquireSync</b> method creates a lock to a surface that is shared between multiple devices, allowing only one device to render to a surface at a time.  
       This method uses a key to determine which device currently has exclusive access to the surface.
@@ -158,12 +146,7 @@ pDXGIKeyedMutex->ReleaseSync(1);
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
@@ -174,7 +157,4 @@ pDXGIKeyedMutex->ReleaseSync(1);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a>
- 
-
- 
 

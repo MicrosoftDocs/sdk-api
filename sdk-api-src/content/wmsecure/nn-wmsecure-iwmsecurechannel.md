@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], IWMSecureChannel interface [windows Media Format],described, wmformat.iwmsecurechannel, wmsecure/IWMSecureChannel
-f1_keywords:
-- wmsecure/IWMSecureChannel
-dev_langs:
-- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmsecure.h
-api_name:
-- IWMSecureChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSecureChannel
+ - wmsecure/IWMSecureChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmsecure.h
+api_name:
+ - IWMSecureChannel
 ---
 
 # IWMSecureChannel interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWMSecureChannel</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 The <b>IWMSecureChannel</b> interface provides methods that allow two DLLs to validate
  each other and perform secure communication.
-
 
 ## -inheritance
 
@@ -176,16 +175,9 @@ Used to unlock access to the secure connection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer">IWMAuthorizer</a>
- 
-
- 
 

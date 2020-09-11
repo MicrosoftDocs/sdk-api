@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_COMPLETE_USERNAME, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_KEEP_USERNAME, CREDUI_FLAGS_PASSWORD_ONLY_OK, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CREDUI_FLAGS_VALIDATE_USERNAME, CredUIPromptForCredentials, CredUIPromptForCredentials function [Security], CredUIPromptForCredentialsA, CredUIPromptForCredentialsW, _cred_creduipromptforcredentials, security.creduipromptforcredentials, wincred/CredUIPromptForCredentials, wincred/CredUIPromptForCredentialsA, wincred/CredUIPromptForCredentialsW
 ms.topic: function
-f1_keywords:
-- wincred/CredUIPromptForCredentials
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,32 +27,34 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Credui.dll
-- Ext-MS-Win-security-credui-l1-1-0.dll
-- Ext-MS-Win-security-credui-l1-1-1.dll
-- AnalogCredUI.dll
-api_name:
-- CredUIPromptForCredentials
-- CredUIPromptForCredentialsA
-- CredUIPromptForCredentialsW
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredUIPromptForCredentialsW
+ - wincred/CredUIPromptForCredentialsW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-0.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
+api_name:
+ - CredUIPromptForCredentials
+ - CredUIPromptForCredentialsA
+ - CredUIPromptForCredentialsW
 ---
 
 # CredUIPromptForCredentialsW function
 
 
 ## -description
-
 
 The <b>CredUIPromptForCredentials</b> function creates and displays a configurable dialog box that accepts credentials information from a user.
 
@@ -67,32 +67,23 @@ Applications that target Windows Vista or Windows Server 2008 should call <a h
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> is compliant with the Common Criteria specification.</li>
 </ul>
 
-
-
 ## -parameters
-
-
-
 
 ### -param pUiInfo [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box.
 
-
 ### -param pszTargetName [in]
 
 A pointer to a null-terminated string that contains  the name of the target for the credentials, typically a server name. For Distributed File System (DFS) connections, this string is of the form <i>ServerName</i>&#92;<i>ShareName</i>. This parameter is used to identify target information when storing and retrieving credentials.
-
 
 ### -param pContext [in]
 
 This parameter is reserved for future use. It must be <b>NULL</b>.
 
-
 ### -param dwAuthError [in, optional]
 
 Specifies why the credential dialog box is needed. A caller can pass this Windows error parameter, returned by another authentication call, to allow the dialog box to accommodate certain errors. For example, if the password expired status code is passed, the dialog box could prompt the user to change the password on the account.
-
 
 ### -param pszUserName [in, out]
 
@@ -105,7 +96,6 @@ This function copies the user-supplied name to this buffer, copying a maximum of
 If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea">CredUIParseUsername</a>. The subsequent results of <b>CredUIParseUsername</b> can  be passed only to a client-side authentication function such as <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> or an SSP function.
 
 If no domain or server is specified as part of this parameter, the value of the  <b>pszTargetName</b> parameter is used as the domain to form a <i>DomainName</i>&#92;<i>UserName</i> pair. On output, this parameter receives a string that contains that <i>DomainName</i>&#92;<i>UserName</i> pair.
-
 
 ### -param ulUserNameBufferSize [in]
 
@@ -121,7 +111,6 @@ A pointer to a null-terminated string that contains the password for the credent
 This function copies the user-supplied password to this buffer, copying a maximum of <i>ulPasswordMaxChars</i> characters. If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in this parameter is of a form that should not be inspected, printed, or persisted other than passing it to a client-side authentication function such as <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> or an SSP function.
 
 When you have finished using the password, clear the password from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
-
 
 ### -param ulPasswordBufferSize [in]
 
@@ -139,7 +128,6 @@ If the CREDUI_FLAGS_PERSIST flag is specified, the <b>Save</b> check box is not 
 If the CREDUI_FLAGS_DO_NOT_PERSIST flag is specified and CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX is not specified, the <b>Save</b> check box is not displayed, but is considered to be cleared.
 
 An application that needs to use CredUI to prompt the user for credentials, but does not need the credential management services provided by the credential manager, can use <i>pfSave</i> to receive the state of the <b>Save</b> check box after the user closes the dialog box. To do this, the caller must specify CREDUI_FLAGS_DO_NOT_PERSIST and  CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX in <i>dwFlags</i>. When CREDUI_FLAGS_DO_NOT_PERSIST and  CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX are set, the application is responsible for examining *<i>pfSave</i> after the function returns, and if *<i>pfSave</i> is <b>TRUE</b>,  then the application must take the appropriate action to save the user credentials within the resources of the application.
-
 
 ### -param dwFlags [in]
 
@@ -342,12 +330,8 @@ Check that the user name is valid.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The return value is a <b>DWORD</b> and can be one of the following values.
 
@@ -418,14 +402,8 @@ User chose <b>OK</b>. The  <i>pszUserName</i>, <i>pszPassword</i>, and <i>pfSave
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CredUIPromptForCredentials</b> function creates and displays an application modal dialog box. After the dialog box is displayed and until it is closed by the user or application, no other window in the application can become active.
 
@@ -471,13 +449,7 @@ Any piece of this information can be missing if the information does not apply t
 
 Credentials are stored in the credential manager based on target name. Each target name is stored as generally as possible without colliding with credentials already stored in the credential manager. Because credentials are stored by target name, a particular user can only have one credential per target stored in the credential manager.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>
 
@@ -504,7 +476,4 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a>
- 
-
- 
 

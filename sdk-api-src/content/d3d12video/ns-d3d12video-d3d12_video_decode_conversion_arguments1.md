@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1","D3D12_VIDEO_DE
 tech.root: mf
 ms.assetid: c5e03c98-6c64-43fa-b71a-8c4038f221dd
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1, D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1,
 req.header: d3d12video.h
 req.include-header: 
@@ -25,18 +21,24 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1
+ - d3d12video/D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1
 ---
 
 # D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1 structure
+
 
 ## -description
 
@@ -47,23 +49,23 @@ Specifies the parameters for decode output conversion.  [D3D12_VIDEO_DECODE_CONV
 ### -field Enable
 
 A boolean value indicating whether decode conversion should be used.
- 
+
 ### -field pReferenceTexture2D
 
 A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) containing the native decoding output. When downsampling is enabled, the output at native decode resolution, color space, and format may be required for future decode submissions (as reference frames, for instance).
- 
+
 ### -field ReferenceSubresource
 
 The subresource index of the resource provided in *pDecodeTexture2D* to use.
- 
+
 ### -field OutputColorSpace
 
 A value from the [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration specifying the target color space of the output.
- 
+
 ### -field DecodeColorSpace
 
 A value from the [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration specifying the source-decoded color space before conversion.
- 
+
 ### -field OutputWidth
 
 The output width, in pixels.
@@ -75,3 +77,4 @@ The output width, in pixels.
 ## -remarks
 
 ## -see-also
+

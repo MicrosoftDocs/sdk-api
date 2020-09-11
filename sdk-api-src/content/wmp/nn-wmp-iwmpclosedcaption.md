@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: fd67e139-0bc1-459e-b43b-bf07f6f656ed
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], IWMPClosedCaption interface [Windows Media Player],described, IWMPClosedCaptionInterface, wmp.iwmpclosedcaption, wmp/IWMPClosedCaption
-f1_keywords:
-- wmp/IWMPClosedCaption
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPClosedCaption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPClosedCaption
+ - wmp/IWMPClosedCaption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPClosedCaption
 ---
 
 # IWMPClosedCaption interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPClosedCaption</b> interface provides a way to include captions with a digital media file. The captioning text is in a Synchronized Accessible Media Interchange (SAMI) file.
-
-
-
 
 ## -inheritance
 
@@ -160,20 +156,13 @@ Retrieve a pointer to an <b>IWMPClosedCaption</b> interface with the following m
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_closedcaption">get_closedCaption</a>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption2">IWMPClosedCaption2 Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

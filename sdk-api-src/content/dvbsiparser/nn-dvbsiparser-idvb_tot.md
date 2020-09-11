@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: fe5b6b7c-fc6b-4889-b780-4b9f61f3e895
 ms.date: 12/05/2018
 ms.keywords: IDVB_TOT, IDVB_TOT interface [Microsoft TV Technologies], IDVB_TOT interface [Microsoft TV Technologies],described, IDVB_TOTInterface, dvbsiparser/IDVB_TOT, mstv.idvb_tot
-f1_keywords:
-- dvbsiparser/IDVB_TOT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_TOT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_TOT
+ - dvbsiparser/IDVB_TOT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_TOT
 ---
 
 # IDVB_TOT interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IDVB_TOT</b> interface enables the client to get information from a time offset table (TOT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-gettot">IDvbSiParser::GetTOT</a> method returns a pointer to this information. A TOT contains the current UTC time, plus the offset from UTC for local time in one or more regions. The offsets are contained in a <i>local offset time descriptor</i>, as specified by ETSI EN 300 468.
-
-
-
 
 ## -inheritance
 
@@ -119,16 +115,9 @@ Initializes the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

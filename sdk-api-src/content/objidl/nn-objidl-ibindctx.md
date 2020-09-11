@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: e4c8abb5-0c89-44dd-8d95-efbfcc999b46
 ms.date: 12/05/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], IBindCtx interface [COM],described, _com_ibindctx, com.ibindctx, objidl/IBindCtx
-f1_keywords:
-- objidl/IBindCtx
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IBindCtx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBindCtx
+ - objidl/IBindCtx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IBindCtx
 ---
 
 # IBindCtx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to a bind context, which is an object that stores information about a particular moniker binding operation.
-
 
 ## -inheritance
 
@@ -158,12 +157,9 @@ Sets new values for the binding parameters stored in the bind context.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A bind context includes the following information:
 
@@ -176,12 +172,7 @@ A bind context includes the following information:
 <li>A table of interface pointers, each associated with a string key. This capability enables moniker implementations to store interface pointers under a well-known string so that they can later be retrieved from the bind context. For example, OLE defines several string keys ("ExceededDeadline", "ConnectManually", and so on) that can be used to store a pointer to the object that caused an error during a binding operation.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a>
 
@@ -196,7 +187,4 @@ A bind context includes the following information:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a>
- 
-
- 
 

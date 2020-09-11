@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: d2d43bfd-7cdf-458a-822d-e3965bfe2284
 ms.date: 12/05/2018
 ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], ITextFont2 interface [Windows Controls],described, controls.itextfont2, tom/ITextFont2
-f1_keywords:
-- tom/ITextFont2
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont2
+ - tom/ITextFont2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont2
 ---
 
 # ITextFont2 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 In the Text Object Model (TOM), applications access text-range attributes by using a pair of dual interfaces, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>.
 
 The <b>ITextFont2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>, providing the programming equivalent of the Microsoft Word format-font dialog.
-
 
 ## -inheritance
 
@@ -484,5 +483,5 @@ Sets the underline position mode.
 
 </td>
 </tr>
-</table> 
+</table>
 

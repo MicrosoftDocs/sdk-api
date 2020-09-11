@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fa2e71f3-3aa0-4260-925d-579006459a09
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio interface [DirectShow],get_TVAudioMode method, IAMTVAudio.get_TVAudioMode, IAMTVAudio::get_TVAudioMode, IAMTVAudioget_TVAudioMode, dshow.iamtvaudio_get_tvaudiomode, get_TVAudioMode, get_TVAudioMode method [DirectShow], get_TVAudioMode method [DirectShow],IAMTVAudio interface, strmif/IAMTVAudio::get_TVAudioMode
-f1_keywords:
-- strmif/IAMTVAudio.get_TVAudioMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTVAudio.get_TVAudioMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTVAudio::get_TVAudioMode
+ - strmif/IAMTVAudio::get_TVAudioMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTVAudio.get_TVAudioMode
 ---
 
 # IAMTVAudio::get_TVAudioMode
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_TVAudioMode</code> method retrieves the current TV audio mode.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plMode [out]
 
 Pointer to a [TVAudioMode](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tvaudiomode) enumeration type, identifying the audio mode.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -134,22 +124,12 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
- 
-
- 
 

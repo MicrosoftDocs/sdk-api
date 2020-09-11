@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: a728aaad-3d7a-425c-b886-ba35c4fa54d0
 ms.date: 12/05/2018
 ms.keywords: CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow
-f1_keywords:
-- objbase/CoAllowSetForegroundWindow
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- ComBase.dll
-- Ext-MS-Win-COM-OLE32-l1-1-1.dll
-- Ext-MS-Win-COM-OLE32-l1-1-2.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- CoAllowSetForegroundWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoAllowSetForegroundWindow
+ - objbase/CoAllowSetForegroundWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - ComBase.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-1.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-2.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - CoAllowSetForegroundWindow
 ---
 
 # CoAllowSetForegroundWindow function
@@ -54,29 +55,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process. Note that calling <b>CoAllowSetForegroundWindow</b> only confers the privilege; it does not set the foreground window itself. Foreground and focus are only taken away from the client application when the target COM server calls either <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> or another API that does so indirectly.
 
-
 ## -parameters
-
-
-
 
 ### -param pUnk [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the proxy of the 
       target COM server.
 
-
 ### -param lpvReserved [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -130,14 +122,8 @@ The calling process does not currently possess the foreground privilege.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The system restricts which processes can call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> and 
@@ -172,17 +158,7 @@ HRESULT hr = ::CoAllowSetForegroundWindow(exampleLocalServer.Get(), nullptr);
 hr = exampleLocalServer->FunctionThatSetsForegroundWindow();
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iforegroundtransfer">IForegroundTransfer</a>
- 
-
- 
 

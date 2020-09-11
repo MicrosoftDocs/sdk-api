@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: d524c4c7-22af-495d-aecc-b9921e53ca7b
 ms.date: 12/05/2018
 ms.keywords: ASPECTX, ASPECTXY, ASPECTY, BITSPIXEL, BLTALIGNMENT, CLIPCAPS, COLORMGMTCAPS, COLORRES, CURVECAPS, DRIVERVERSION, GetDeviceCaps, GetDeviceCaps function [Windows GDI], HORZRES, HORZSIZE, LINECAPS, LOGPIXELSX, LOGPIXELSY, NUMBRUSHES, NUMCOLORS, NUMFONTS, NUMPENS, NUMRESERVED, PDEVICESIZE, PHYSICALHEIGHT, PHYSICALOFFSETX, PHYSICALOFFSETY, PHYSICALWIDTH, PLANES, POLYGONALCAPS, RASTERCAPS, SCALINGFACTORX, SCALINGFACTORY, SHADEBLENDCAPS, SIZEPALETTE, TECHNOLOGY, TEXTCAPS, VERTRES, VERTSIZE, VREFRESH, _win32_GetDeviceCaps, gdi.getdevicecaps, wingdi/GetDeviceCaps
-f1_keywords:
-- wingdi/GetDeviceCaps
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-devcaps-l1-1-0.dll
-- Ext-MS-Win-RTCore-GDI-devcaps-l1-1-0.dll
-- Ext-MS-Win-RTCore-GDI-DevCaps-L1-1-1.dll
-- GDI32Full.dll
-api_name:
-- GetDeviceCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDeviceCaps
+ - wingdi/GetDeviceCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-devcaps-l1-1-0.dll
+ - Ext-MS-Win-RTCore-GDI-devcaps-l1-1-0.dll
+ - Ext-MS-Win-RTCore-GDI-DevCaps-L1-1-1.dll
+ - GDI32Full.dll
+api_name:
+ - GetDeviceCaps
 ---
 
 # GetDeviceCaps function
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDeviceCaps</b> function retrieves device-specific information for the specified device.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the DC.
-
 
 ### -param index [in]
 
@@ -768,23 +763,14 @@ Value that indicates the color management capabilities of the device.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The return value specifies the value of the desired item.
 
 When <i>nIndex</i> is BITSPIXEL and the device has 15bpp or 16bpp, the return value is 16.
 
-
-
-
 ## -remarks
-
-
 
 When <i>nIndex</i> is SHADEBLENDCAPS:
 
@@ -839,12 +825,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/printdoc
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>
 
@@ -887,7 +868,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/printdoc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
- 
-
- 
 

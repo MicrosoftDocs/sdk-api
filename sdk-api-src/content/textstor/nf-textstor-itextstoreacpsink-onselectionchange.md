@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 500333ae-06dc-4194-a21b-e03c1acc9f9a
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionChange method, ITextStoreACPSink.OnSelectionChange, ITextStoreACPSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
-f1_keywords:
-- textstor/ITextStoreACPSink.OnSelectionChange
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACPSink.OnSelectionChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACPSink::OnSelectionChange
+ - textstor/ITextStoreACPSink::OnSelectionChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACPSink.OnSelectionChange
 ---
 
 # ITextStoreACPSink::OnSelectionChange
@@ -53,14 +54,7 @@ Called when the selection within the document changes.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -92,26 +86,14 @@ The manager holds a lock on the document.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>ITextStoreACPSink::OnSelectionChange</b> is never called when the selection is modified by one of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> interface methods, such as <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">ITextStoreACP::SetSelection</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">ITextStoreACP::InsertTextAtSelection</a>.
 
 When calling this method, the application must be able to grant a <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">document lock</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
 
@@ -133,7 +115,4 @@ When calling this method, the application must be able to grant a <a href="https
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
- 
-
- 
 

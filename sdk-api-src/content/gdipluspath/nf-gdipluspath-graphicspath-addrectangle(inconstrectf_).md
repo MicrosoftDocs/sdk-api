@@ -7,10 +7,6 @@ helpviewer_keywords: ["GraphicsPath::AddRectangle"]
 ms.assetid: 3b7288d2-c5b9-4b3b-be6f-218ad8511217
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddRectangle
-f1_keywords:
-- gdipluspath/GraphicsPath::AddRectangle
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - GraphicsPath::AddRectangle
+ - gdipluspath/GraphicsPath::AddRectangle
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- GraphicsPath::AddRectangle
+ - GraphicsPath::AddRectangle
 ---
 
 # GraphicsPath::AddRectangle
+
 
 ## -description
 
@@ -99,3 +101,4 @@ VOID Example_AddRectangle(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-polygons-about">Polygons</a>
+

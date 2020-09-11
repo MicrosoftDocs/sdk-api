@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: a7de2fef-7966-4742-a821-7fce0bf3bba2
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],_NewEnum property, INetFwOpenPorts._NewEnum, INetFwOpenPorts.get__NewEnum, INetFwOpenPorts::_NewEnum, INetFwOpenPorts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwOpenPorts interface, get__NewEnum, ics.inetfwopenports_newenum, netfw/INetFwOpenPorts::_NewEnum, netfw/INetFwOpenPorts::get__NewEnum
-f1_keywords:
-- netfw/INetFwOpenPorts._NewEnum
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwOpenPorts._NewEnum
-- INetFwOpenPorts.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwOpenPorts::get__NewEnum
+ - netfw/INetFwOpenPorts::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwOpenPorts._NewEnum
+ - INetFwOpenPorts.get__NewEnum
 ---
 
 # INetFwOpenPorts::get__NewEnum
 
 
 ## -description
-
 
 <p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
@@ -60,21 +60,13 @@ Iteration through a collection is done using the <b>for each</b> construct in VB
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/iterating-a-collection">Iterating a Collection</a>
- 
-
- 
 

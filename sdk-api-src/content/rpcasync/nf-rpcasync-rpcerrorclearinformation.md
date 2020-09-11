@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: ff96904c-285d-4d39-af3b-bf295c29e62f
 ms.date: 12/05/2018
 ms.keywords: RpcErrorClearInformation, RpcErrorClearInformation function [RPC], _rpc_rpcerrorclearinformation, rpc.rpcerrorclearinformation, rpcasync/RpcErrorClearInformation
-f1_keywords:
-- rpcasync/RpcErrorClearInformation
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcErrorClearInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcErrorClearInformation
+ - rpcasync/RpcErrorClearInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcErrorClearInformation
 ---
 
 # RpcErrorClearInformation function
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcErrorClearInformation</b> function clears all extended error information on the current thread.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This function has no return values.
 
@@ -71,11 +63,7 @@ This function has no return values.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The RPC Runtime usually handles the clearing of extended error information. In only two cases should callers use 
 <b>RpcErrorClearInformation</b>:
@@ -87,12 +75,7 @@ The RPC Runtime usually handles the clearing of extended error information. In o
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerroraddrecord">RpcErrorAddRecord</a> in a loop with many iterations, it may want to clear the error information, as the extended error information accumulates over time and can exhaust available memory.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/obtaining-extended-rpc-error-information">Obtaining Extended RPC Error Information</a>
 
@@ -107,7 +90,4 @@ The RPC Runtime usually handles the clearing of extended error information. In o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>
- 
-
- 
 

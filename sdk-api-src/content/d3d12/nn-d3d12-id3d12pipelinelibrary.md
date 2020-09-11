@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 7A1D750D-51F1-48F6-9D74-6439A147F1EC
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,described, d3d12/ID3D12PipelineLibrary, direct3d12.id3d12pipelinelibrary
-f1_keywords:
-- d3d12/ID3D12PipelineLibrary
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12PipelineLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12PipelineLibrary
+ - d3d12/ID3D12PipelineLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12PipelineLibrary
 ---
 
 # ID3D12PipelineLibrary interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages a pipeline library, in particular loading and retrieving individual PSOs.
-
 
 ## -inheritance
 
@@ -116,22 +115,13 @@ Adds the input PSO to an internal database with the corresponding name.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-Refer to the remarks and examples for <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary">CreatePipelineLibrary</a>. 
-
-
-
+Refer to the remarks and examples for <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary">CreatePipelineLibrary</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
@@ -142,7 +132,4 @@ Refer to the remarks and examples for <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>
- 
-
- 
 

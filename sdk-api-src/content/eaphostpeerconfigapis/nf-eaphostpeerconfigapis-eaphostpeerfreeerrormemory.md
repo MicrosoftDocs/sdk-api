@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: c80ac625-8202-49a7-813a-62a9e0d15058
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeErrorMemory, EapHostPeerFreeErrorMemory function [EAPHost], eaphost.eaphostpeerfreeerrormemory, eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
-f1_keywords:
-- eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
-dev_langs:
-- c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Eappcfg.lib
 req.dll: Eappcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- eappcfg.dll
-api_name:
-- EapHostPeerFreeErrorMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EapHostPeerFreeErrorMemory
+ - eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - eappcfg.dll
+api_name:
+ - EapHostPeerFreeErrorMemory
 ---
 
 # EapHostPeerFreeErrorMemory function
 
 
 ## -description
-
 
 Frees memory allocated to an [EAPHost supplicant configuration function](/windows/win32/eaphost/eap-host-supplicant-configuration-functions) fails. 
 
@@ -79,18 +79,11 @@ If any  of the following configuration APIs functions are called, and an <a href
 
 ## -parameters
 
-
-
-
 ### -param pEapError
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that  contains the error data to free.
 
-
 ## -see-also
-
-
-
 
 [EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
@@ -101,7 +94,4 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostFreeEapError</a>
- 
-
- 
 

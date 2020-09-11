@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5e31f706-1c9c-4510-845c-4e47093780a1
 ms.date: 12/05/2018
 ms.keywords: ICancelMethodCalls, ICancelMethodCalls interface [COM], ICancelMethodCalls interface [COM],described, _com_icancelmethodcalls, com.icancelmethodcalls, objidlbase/ICancelMethodCalls
-f1_keywords:
-- objidl/ICancelMethodCalls
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- ICancelMethodCalls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICancelMethodCalls
+ - objidl/ICancelMethodCalls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - ICancelMethodCalls
 ---
 
 # ICancelMethodCalls interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages cancellation requests on an outbound method call and monitors the current state of that method call on the server thread.
-
-
 
 ## -inheritance
 
@@ -87,16 +85,9 @@ Determines whether a call has been canceled.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
- 
-
- 
 

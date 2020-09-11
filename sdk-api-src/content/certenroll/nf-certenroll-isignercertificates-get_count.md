@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4cd4c71a-2fb3-4a47-bd86-e69a08890a09
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Count property, ISignerCertificates.Count, ISignerCertificates.get_Count, ISignerCertificates::Count, ISignerCertificates::get_Count, certenroll/ISignerCertificates::Count, certenroll/ISignerCertificates::get_Count, get_Count, security.isignercertificates_count_property
-f1_keywords:
-- certenroll/ISignerCertificates.Count
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ISignerCertificates.Count
-- ISignerCertificates.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISignerCertificates::get_Count
+ - certenroll/ISignerCertificates::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ISignerCertificates.Count
+ - ISignerCertificates.get_Count
 ---
 
 # ISignerCertificates::get_Count
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Count</b> property retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> objects in the collection.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificates">ISignerCertificates</a>
- 
-
- 
 

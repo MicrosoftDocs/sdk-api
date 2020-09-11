@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: E52E411C-0A3E-4DA3-B25D-14E761FEF676
 ms.date: 12/05/2018
 ms.keywords: GetIsOptionalPackage, GetIsOptionalPackage method [App packaging and management], GetIsOptionalPackage method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetIsOptionalPackage method, IAppxManifestOptionalPackageInfo.GetIsOptionalPackage, IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpackaging/IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpkg.iappxmanifestoptionalpackageinfo_getisoptionalpackage
-f1_keywords:
-- appxpackaging/IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestOptionalPackageInfo::GetIsOptionalPackage
+ - appxpackaging/IAppxManifestOptionalPackageInfo::GetIsOptionalPackage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
 ---
 
 # IAppxManifestOptionalPackageInfo::GetIsOptionalPackage
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the package is optional.
 
-
 ## -parameters
-
-
-
 
 ### -param isOptionalPackage [out, retval]
 
 True if the package is optional, false otherwise.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestoptionalpackageinfo">IAppxManifestOptionalPackageInfo</a>
- 
-
- 
 

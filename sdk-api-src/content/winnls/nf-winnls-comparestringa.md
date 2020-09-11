@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 4db84fa7-f3c2-48fb-ad7d-8673397c4b0e
 ms.date: 12/05/2018
 ms.keywords: CompareString, CompareString function [Internationalization for Windows Applications], CompareStringA, CompareStringW, _win32_CompareString, _win32_CompareString_cpp, intl.comparestring, stringapiset/CompareString, stringapiset/CompareStringA, stringapiset/CompareStringW, winnls/CompareString, winnls/CompareStringA, winnls/CompareStringW, winui._win32_CompareString
-f1_keywords:
-- winnls/CompareString
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
-- API-MS-Win-Core-String-l1-1-0.dll
-- API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
-api_name:
-- CompareString
-- CompareStringA
-- CompareStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CompareStringA
+ - winnls/CompareStringA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+ - API-MS-Win-Core-String-l1-1-0.dll
+ - API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+api_name:
+ - CompareString
+ - CompareStringA
+ - CompareStringW
 ---
 
 # CompareStringA function
@@ -59,17 +60,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares two character strings, for a <a href="https://docs.microsoft.com/windows/desktop/Intl/locales-and-languages">locale</a> specified by identifier.
 <div class="alert"><b>Caution</b>  Using <b>CompareString</b> incorrectly can compromise the security of your application. Strings that are not compared correctly can produce invalid input. For example, the function can raise security issues when used for a non-linguistic comparison, because two strings that are distinct in their binary representation can be linguistically equivalent. The application should test strings for validity before using them, and should provide error handlers. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.</div><div> </div><div class="alert"><b>Note</b>  For compatibility with Unicode, your applications should prefer <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a> or the Unicode version of <b>CompareString</b>. Another reason for preferring <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a> is that Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales, for interoperability reasons. Any application that will be run only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Locale [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> of the locale used for the comparison. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
 
@@ -98,39 +94,27 @@ Compares two character strings, for a <a href="https://docs.microsoft.com/window
 
 Flags that indicate how the function compares the two strings. For detailed definitions, see the <i>dwCmpFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>.
 
-
 ### -param lpString1 [in]
 
 Pointer to the first string to compare.
-
 
 ### -param cchCount1 [in]
 
 Length of the string indicated by <i>lpString1</i>, excluding the terminating null character. This value represents bytes for the ANSI version of the function and wide characters for the Unicode version. The application can supply a negative value if the string is null-terminated. In this case, the function determines the length automatically.
 
-
 ### -param lpString2 [in]
 
 Pointer to the second string to compare.
-
 
 ### -param cchCount2 [in]
 
 Length of the string indicated by <i>lpString2</i>, excluding the terminating null character. This value represents bytes for the ANSI version of the function and wide characters for the Unicode version. The application can supply a negative value if the string is null-terminated. In this case, the function determines the length automatically.
 
-
 ## -returns
-
-
 
 Returns the values described for <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>.
 
-
-
-
 ## -remarks
-
-
 
 See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>.
 
@@ -148,9 +132,6 @@ Normally, for case-insensitive comparisons, <b>CompareString</b> maps the lowerc
 > The winnls.h header defines CompareString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
 
@@ -173,7 +154,4 @@ Normally, for case-insensitive comparisons, <b>CompareString</b> maps the lowerc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 6930683e-bb9e-499c-b44f-27938faff3db
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRenderer, IWTSBitmapRenderer interface [Remote Desktop Services], IWTSBitmapRenderer interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderer, tsvirtualchannels/IWTSBitmapRenderer
-f1_keywords:
-- tsvirtualchannels/IWTSBitmapRenderer
-dev_langs:
-- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tsvirtualchannels.h
-api_name:
-- IWTSBitmapRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSBitmapRenderer
+ - tsvirtualchannels/IWTSBitmapRenderer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tsvirtualchannels.h
+api_name:
+ - IWTSBitmapRenderer
 ---
 
 # IWTSBitmapRenderer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by a dynamic virtual channel plug-in to render bitmaps. This interface is implemented by the rendering service. The plug-in obtains a pointer to this interface by using the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderservice-getmappedrenderer">IWTSBitmapRenderService::GetMappedRenderer</a> method.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Called by a dynamic virtual channel plug-in to render bitmaps.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: f82fb087-c511-48b7-9e0b-9ec690a86ac7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSolidColorBrush interface [XPS Documents and Packaging],SetColor method, IXpsOMSolidColorBrush.SetColor, IXpsOMSolidColorBrush::SetColor, SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, xps.ixpsomsolidcolorbrush_setcolor, xpsobjectmodel/IXpsOMSolidColorBrush::SetColor
-f1_keywords:
-- xpsobjectmodel/IXpsOMSolidColorBrush.SetColor
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMSolidColorBrush.SetColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMSolidColorBrush::SetColor
+ - xpsobjectmodel/IXpsOMSolidColorBrush::SetColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMSolidColorBrush.SetColor
 ---
 
 # IXpsOMSolidColorBrush::SetColor
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the color value and color profile of the brush.
 
-
 ## -parameters
-
-
-
 
 ### -param color [in]
 
@@ -64,17 +60,13 @@ The color value of the brush.
 
 If the value of the <b>colorType</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure that is passed in this parameter is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, a valid color profile must be provided in the <i>colorProfile</i> parameter.
 
-
 ### -param colorProfile [in]
 
 The color profile to be used with <i>color</i>.
 
 A color profile is required when the value of the <b>colorType</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure that is passed  in the <i>color</i> parameter is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>. If the value of the <b>colorType</b> field is not <b>XPS_COLOR_TYPE_CONTEXT</b>, this parameter must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -139,15 +131,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a>
 
@@ -166,7 +151,4 @@ The method succeeded.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a>
- 
-
- 
 

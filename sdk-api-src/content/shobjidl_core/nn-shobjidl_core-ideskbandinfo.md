@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1fff31d0-e732-4c93-8238-a8b4a5a62d37
 ms.date: 12/05/2018
 ms.keywords: IDeskBandInfo, IDeskBandInfo interface [Windows Shell], IDeskBandInfo interface [Windows Shell],described, _shell_IDeskBandInfo, shell.IDeskBandInfo, shobjidl_core/IDeskBandInfo
-f1_keywords:
-- shobjidl_core/IDeskBandInfo
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDeskBandInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeskBandInfo
+ - shobjidl_core/IDeskBandInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDeskBandInfo
 ---
 
 # IDeskBandInfo interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IDeskBandInfo</b> may be altered or unavailable in subsequent versions of the operating system or product.]
 
 Exposes a method for getting the default Desk Band bandwidth.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Gets the band width that the bandsite initially uses to set the default width wh
 
 </td>
 </tr>
-</table> 
+</table>
 

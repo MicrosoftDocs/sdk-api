@@ -8,10 +8,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6mat.htm
 ms.date: 12/05/2018
 ms.keywords: CHUNKSTATE, CHUNKSTATE enumeration [Indexing Service], CHUNK_FILTER_OWNED_VALUE, CHUNK_TEXT, CHUNK_VALUE, _idxs_CHUNKSTATE, filter/CHUNKSTATE, filter/CHUNK_FILTER_OWNED_VALUE, filter/CHUNK_TEXT, filter/CHUNK_VALUE, indexsrv.chunkstate, tagCHUNKSTATE
-f1_keywords:
-- filter/CHUNKSTATE
-dev_langs:
-- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Filter.h
-api_name:
-- CHUNKSTATE
 targetos: Windows
 req.typenames: CHUNKSTATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCHUNKSTATE
+ - filter/tagCHUNKSTATE
+ - CHUNKSTATE
+ - filter/CHUNKSTATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Filter.h
+api_name:
+ - CHUNKSTATE
 ---
 
 # CHUNKSTATE enumeration
@@ -49,37 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Specifies whether the current chunk is a text-type property or a value-type property.
 
-
-
 ## -enum-fields
-
-
-
 
 ### -field CHUNK_TEXT
 
 The current chunk is a text-type property.
 
-
 ### -field CHUNK_VALUE
 
 The current chunk is a value-type property.
-
 
 ### -field CHUNK_FILTER_OWNED_VALUE
 
 Reserved.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getchunk">IFilter::GetChunk</a>
 
@@ -90,7 +81,4 @@ Reserved.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a>
- 
-
- 
 

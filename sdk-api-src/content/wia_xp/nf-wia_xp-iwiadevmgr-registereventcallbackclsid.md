@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackclsid.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackCLSID method, IWiaDevMgr.RegisterEventCallbackCLSID, IWiaDevMgr::RegisterEventCallbackCLSID, RegisterEventCallbackCLSID, RegisterEventCallbackCLSID method [WIA], RegisterEventCallbackCLSID method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia._wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia_xp/IWiaDevMgr::RegisterEventCallbackCLSID
-f1_keywords:
-- wia_xp/IWiaDevMgr.RegisterEventCallbackCLSID
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaDevMgr.RegisterEventCallbackCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaDevMgr::RegisterEventCallbackCLSID
+ - wia_xp/IWiaDevMgr::RegisterEventCallbackCLSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaDevMgr.RegisterEventCallbackCLSID
 ---
 
 # IWiaDevMgr::RegisterEventCallbackCLSID
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaDevMgr::RegisterEventCallbackCLSID</b> method registers an application to receive events even if the application may not be running.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
@@ -84,8 +80,6 @@ Specifies registration flags. Can be set to the following values:
 <td>Set the application as the default event handler.</td>
 </tr>
 </table>
- 
-
 
 ### -param bstrDeviceID [in]
 
@@ -93,13 +87,11 @@ Type: <b>BSTR</b>
 
 Specifies a device identifier. Pass <b>NULL</b> to register for the event on all WIA devices.
 
-
 ### -param pEventGUID [in]
 
 Type: <b>const GUID*</b>
 
 Specifies the event for which the application is registering. For a list of standard events, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wia-event-identifiers">WIA Event Identifiers</a>.
-
 
 ### -param pClsID [in]
 
@@ -107,13 +99,11 @@ Type: <b>const GUID*</b>
 
 Pointer to the application's class ID (<b>CLSID</b>). The WIA run-time system uses the application's <b>CLSID</b> to start the application when an event occurs for which it is registered.
 
-
 ### -param bstrName [in]
 
 Type: <b>BSTR</b>
 
 Specifies the name of the application that registers for the event.
-
 
 ### -param bstrDescription [in]
 
@@ -121,28 +111,19 @@ Type: <b>BSTR</b>
 
 Specifies a text description of the application that registers for the event.
 
-
 ### -param bstrIcon [in]
 
 Type: <b>BSTR</b>
 
 Specifies the name of an image file to be used for the icon for the application that registers for the event.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 WIA applications use this method to register to receive hardware device events of the type WIA_ACTION_EVENT. Once programs call <b>IWiaDevMgr::RegisterEventCallbackCLSID</b>, they are registered to receive WIA device events even if they are not running. 
 
@@ -156,5 +137,4 @@ If the application is not a registered Component Object Model (COM) component an
 
 <div class="alert"><b>Note</b>  In a multi-threaded application, there is no guarantee that the event notification callback will come in on the same thread that registered the callback.</div>
 <div> </div>
-
 

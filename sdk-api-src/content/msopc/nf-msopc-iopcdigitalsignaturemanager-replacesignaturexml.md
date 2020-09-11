@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: cacd0ccf-0cb9-41dc-a944-74db8254fd95
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],ReplaceSignatureXml method, IOpcDigitalSignatureManager.ReplaceSignatureXml, IOpcDigitalSignatureManager::ReplaceSignatureXml, ReplaceSignatureXml, ReplaceSignatureXml method [Open Packaging Conventions], ReplaceSignatureXml method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::ReplaceSignatureXml, opc.iopcdigitalsignaturemanager_replacesignaturexml
-f1_keywords:
-- msopc/IOpcDigitalSignatureManager.ReplaceSignatureXml
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcDigitalSignatureManager.ReplaceSignatureXml
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcDigitalSignatureManager::ReplaceSignatureXml
+ - msopc/IOpcDigitalSignatureManager::ReplaceSignatureXml
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcDigitalSignatureManager.ReplaceSignatureXml
 ---
 
 # IOpcDigitalSignatureManager::ReplaceSignatureXml
@@ -49,43 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the existing signature markup that is stored in a specified signature part.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param signaturePartName [in]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface pointer that represents the part name of the signature part that stores the existing signature markup.
-            
-
 
 ### -param newSignatureXml [in]
 
 A buffer that contains the signature markup that will replace the existing markup.
-            
-
 
 ### -param count [in]
 
 The size of the <i>newSignatureXml</i> buffer.
-            
-
 
 ### -param digitalSignature [out, retval]
 
 A pointer to a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignature">IOpcDigitalSignature</a> interface that represents the signature derived from the signature markup that is passed in <i>newSignatureXml</i>.
-            
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
             
@@ -347,14 +332,8 @@ The specified part does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method does not validate the signature that is derived from the  new signature markup that is in the <i>newSignatureXml</i> parameter.
       
@@ -373,13 +352,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -422,7 +395,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

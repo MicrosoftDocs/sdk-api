@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 300BA329-1E56-4C0F-81FC-FED42FCE9EB7
 ms.date: 12/05/2018
 ms.keywords: MEM_PRESERVE_PLACEHOLDER, MEM_UNMAP_WITH_TRANSIENT_BOOST, UnmapViewOfFile2, UnmapViewOfFile2 function, base.unmapviewoffile2, winbase/UnmapViewOfFile2
-f1_keywords:
-- memoryapi/UnmapViewOfFile2
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- UnmapViewOfFile2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnmapViewOfFile2
+ - memoryapi/UnmapViewOfFile2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - UnmapViewOfFile2
 ---
 
 # UnmapViewOfFile2 function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unmaps a previously mapped view of a file or a
     pagefile-backed section.
 
-
 ## -parameters
-
-
-
 
 ### -param Process [in]
 
 A <b>HANDLE</b> to the process from which the section
                     will be unmapped.
-
 
 ### -param BaseAddress [in]
 
@@ -71,7 +66,6 @@ The base address of a previously mapped
                   view that is to be unmapped.  This value must be
                   identical to the value returned by a previous call
                   to <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a>.
-
 
 ### -param UnmapFlags [in]
 
@@ -106,23 +100,13 @@ Unmaps a mapped view back to a placeholder (after you've replaced a placeholder 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if sucessful. Otherwise, returns <b>FALSE</b> and extended error status is available
             using <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a>
 
@@ -133,7 +117,4 @@ Returns <b>TRUE</b> if sucessful. Otherwise, returns <b>FALSE</b> and extended e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a>
- 
-
- 
 

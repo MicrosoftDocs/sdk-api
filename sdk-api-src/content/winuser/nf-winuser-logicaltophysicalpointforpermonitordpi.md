@@ -8,10 +8,6 @@ tech.root: hidpi
 ms.assetid: C9ABDC73-1E96-42F1-B34D-3A649DDF02A6
 ms.date: 12/05/2018
 ms.keywords: LogicalToPhysicalPointForPerMonitorDPI, LogicalToPhysicalPointForPerMonitorDPI function [High DPI], hidpi.logicaltophysicalpointforpermonitordpi, winuser/LogicalToPhysicalPointForPerMonitorDPI
-f1_keywords:
-- winuser/LogicalToPhysicalPointForPerMonitorDPI
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- LogicalToPhysicalPointForPerMonitorDPI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LogicalToPhysicalPointForPerMonitorDPI
+ - winuser/LogicalToPhysicalPointForPerMonitorDPI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - LogicalToPhysicalPointForPerMonitorDPI
 ---
 
 # LogicalToPhysicalPointForPerMonitorDPI function
@@ -50,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a point in a window from logical coordinates into physical coordinates, regardless of the dots per inch (dpi) awareness of the caller. For more information about DPI awareness levels, see <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 A handle to the window whose transform is used for the conversion.
 
-
 ### -param lpPoint [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the logical coordinates to be converted. The new physical coordinates are copied into this structure if the function succeeds.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 In Windows 8, system–DPI aware applications translated between physical and logical space using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-logicaltophysicalpoint">LogicalToPhysicalPoint</a>. In Windows 8.1, the additional virtualization of the system and inter-process communications means that for the majority of applications, you do not need these APIs. As a result, in Windows 8.1, these APIs no longer transform points. The system returns all points to an application in its own coordinate space. 
 This behavior preserves functionality for the majority of applications, but there are some exceptions in which you must make changes to ensure that the application works as expected.
@@ -94,19 +81,11 @@ Consider two applications, one has a <a href="https://docs.microsoft.com/windows
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-physicaltologicalpointforpermonitordpi">PhysicalToLogicalPointForPerMonitorDPI</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 41ED045F-0C47-40BE-9ECD-6A925E166E6D
 ms.date: 12/05/2018
 ms.keywords: GetSharedModeEnginePeriod, GetSharedModeEnginePeriod method [Core Audio], GetSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetSharedModeEnginePeriod method, IAudioClient3.GetSharedModeEnginePeriod, IAudioClient3::GetSharedModeEnginePeriod, audioclient/IAudioClient3::GetSharedModeEnginePeriod, coreaudio.iaudioclient3_getsharedmodeengineperiod
-f1_keywords:
-- audioclient/IAudioClient3.GetSharedModeEnginePeriod
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioclient.h
-api_name:
-- IAudioClient3.GetSharedModeEnginePeriod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient3::GetSharedModeEnginePeriod
+ - audioclient/IAudioClient3::GetSharedModeEnginePeriod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioclient.h
+api_name:
+ - IAudioClient3.GetSharedModeEnginePeriod
 ---
 
 # IAudioClient3::GetSharedModeEnginePeriod
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the range of periodicities supported by the engine for the specified stream format. The periodicity of the engine is the rate at which the engine wakes an event-driven audio client
     to transfer audio data to or from the engine.
     The values returned depend on the characteristics of the audio client as specified through a previous call to 
     <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a>.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pFormat [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>*</b>
 
-The stream format for which the supported periodicities are queried. 
-
+The stream format for which the supported periodicities are queried.
 
 ### -param pDefaultPeriodInFrames [out]
 
@@ -76,15 +70,12 @@ Type: <b>UINT32*</b>
 The default period with which the engine will wake the client for 
     transferring audio samples
 
-
-
 ### -param pFundamentalPeriodInFrames [out]
 
 Type: <b>UINT32*</b>
 
 The fundamental period with which the engine will wake the client for 
     transferring audio samples. When setting the audio engine periodicity, you must use an integral multiple of this value.
-
 
 ### -param pMinPeriodInFrames [out]
 
@@ -93,8 +84,6 @@ Type: <b>UINT32*</b>
 The shortest period, in audio frames, with which the audio engine will wake the client for 
     transferring audio samples.
 
-
-
 ### -param pMaxPeriodInFrames [out]
 
 Type: <b>UINT32*</b>
@@ -102,22 +91,13 @@ Type: <b>UINT32*</b>
 The longest period, in audio frames,  with which the audio engine will wake the client for 
     transferring audio samples.
 
-
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. 
-
-
-
+This method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code.
 
 ## -remarks
-
-
 
 Audio clients request a specific periodicity from the audio engine with the <i>PeriodInFrames</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-initializesharedaudiostream">IAudioClient3::InitializeSharedAudioStream</a>. The value of <i>PeriodInFrames</i> must be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of <i>pMaxPeriodInFrames</i>.
 
@@ -141,16 +121,7 @@ Allowed values for the <i>PeriodInFrames</i> parameter to <b>InitializeSharedAud
 
 They would NOT include 4 (which is smaller than the minimum allowed value) or 98 (which is not a multiple of the fundamental) or 1000 (which is larger than the maximum allowed value).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
- 
-
- 
 

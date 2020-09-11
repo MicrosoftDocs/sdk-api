@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::Close
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::Close
  - d3d12video/ID3D12VideoEncodeCommandList::Close
 dev_langs:
  - c++

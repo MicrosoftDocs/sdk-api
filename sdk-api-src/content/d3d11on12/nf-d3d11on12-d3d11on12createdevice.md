@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 6FC2CB44-4AA8-4E89-9E9B-ED1C3C9C64CC
 ms.date: 12/05/2018
 ms.keywords: D3D11On12CreateDevice, D3D11On12CreateDevice function, d3d11on12/D3D11On12CreateDevice, direct3d12.d3d11on12createdevice
-f1_keywords:
-- d3d11on12/D3D11On12CreateDevice
-dev_langs:
-- c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3D11.dll
-api_name:
-- D3D11On12CreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11On12CreateDevice
+ - d3d11on12/D3D11On12CreateDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3D11.dll
+api_name:
+ - D3D11On12CreateDevice
 ---
 
 ## -description
@@ -80,7 +81,7 @@ An array of any of the following:
 <li>D3D_FEATURE_LEVEL_9_1</li>
 </ul>
 
-The first feature level that is less than or equal to the Direct3D 12 device's feature level will be used to perform Direct3D 11 validation. Creation will fail if no acceptable feature levels are provided. Providing NULL will default to the Direct3D 12 device's feature level.          
+The first feature level that is less than or equal to the Direct3D 12 device's feature level will be used to perform Direct3D 11 validation. Creation will fail if no acceptable feature levels are provided. Providing NULL will default to the Direct3D 12 device's feature level.
 
 ### -param FeatureLevels
 
@@ -324,3 +325,4 @@ See the notes about the [Example code in the Direct3D 12 reference content](/win
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-11-on-12-functions-">11on12 Functions</a>
+

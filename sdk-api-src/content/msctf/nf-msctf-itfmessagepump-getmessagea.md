@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: a1d66377-fca1-4c9c-ac59-a1417d8ab190
 ms.date: 12/05/2018
 ms.keywords: GetMessageA, GetMessageA method [Text Services Framework], GetMessageA method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageA method, ITfMessagePump.GetMessageA, ITfMessagePump::GetMessageA, _tsf_itfmessagepump_getmessagea_ref, msctf/ITfMessagePump::GetMessageA, tsf.itfmessagepump_getmessagea
-f1_keywords:
-- msctf/ITfMessagePump.GetMessageA
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfMessagePump.GetMessageA
-- getmessagea
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMessagePump::GetMessageA
+ - msctf/ITfMessagePump::GetMessageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfMessagePump.GetMessageA
+ - getmessagea
 ---
 
 # ITfMessagePump::GetMessageA
@@ -54,37 +55,27 @@ Obtains a message from the message queue and does not return until a message is 
 
 ## -parameters
 
-
-
-
 ### -param pMsg [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that receives message data.
-
 
 ### -param hwnd [in]
 
 Handle to the window whose messages are obtained. The window must belong to the current thread. If this value is <b>NULL</b>, this method obtains messages for any window that belongs to the calling thread.
 
-
 ### -param wMsgFilterMin [in]
 
 Specifies the lowest message value obtained.
-
 
 ### -param wMsgFilterMax [in]
 
 Specifies the highest message value obtained.
 
-
 ### -param pfResult [out]
 
 Pointer to a BOOL value that receives the return value from the <b>GetMessage</b> function.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,24 +107,12 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method returns all available messages; that is, no range filtering is performed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>
 
@@ -144,7 +123,4 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
- 
-
- 
 

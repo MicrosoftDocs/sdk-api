@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: ebf03974-371b-4bf4-91b4-f137339bd784
 ms.date: 12/05/2018
 ms.keywords: IADsProperty, IADsProperty interface [ADSI], IADsProperty interface [ADSI],described, _ds_iadsproperty, adsi.iadsproperty, iads/IADsProperty
-f1_keywords:
-- iads/IADsProperty
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsProperty
+ - iads/IADsProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsProperty
 ---
 
 # IADsProperty interface
 
 
 ## -description
-
 
 The <b>IADsProperty</b> interface is designed to manage a single 
     attribute definition for a schema class object. An attribute definition specifies the minimum and maximum values 
@@ -344,12 +344,9 @@ Relative path of the syntax object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IADsProperty</b> interface methods can add new 
     attributes and property objects to a provider-specific implementation.
@@ -412,14 +409,7 @@ Cleanup:
     Set sc = Nothing
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -430,7 +420,4 @@ Cleanup:
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

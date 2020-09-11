@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: c35c39ff-497e-46d4-9dd7-2187a78f710e
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS, WS_ENDPOINT_ADDRESS_EXTENSION_TYPE, WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration [Web Services for Windows], webservices/WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS, webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE, wsw.ws_endpoint_address_extension_type
-f1_keywords:
-- webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
 targetos: Windows
 req.typenames: WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
+ - webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
 ---
 
 # WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 This identifies a type of extension within the extensions field of the 
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS
 
@@ -66,5 +61,4 @@ The address that metadata can be downloaded from the endpoint.
                 
 
 The type of the extension value is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
-                
 

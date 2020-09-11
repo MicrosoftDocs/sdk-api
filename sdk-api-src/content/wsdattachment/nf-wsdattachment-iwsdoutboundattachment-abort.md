@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: add0160c-bbf7-446e-8592-a05fd4d16fac
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method, Abort method,IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,Abort method, IWSDOutboundAttachment.Abort, IWSDOutboundAttachment::Abort, ncd.iwsdoutboundattachment_abort, wsdattachment/IWSDOutboundAttachment::Abort
-f1_keywords:
-- wsdattachment/IWSDOutboundAttachment.Abort
-dev_langs:
-- c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDOutboundAttachment.Abort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDOutboundAttachment::Abort
+ - wsdattachment/IWSDOutboundAttachment::Abort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDOutboundAttachment.Abort
 ---
 
 # IWSDOutboundAttachment::Abort
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Aborts the transfer of data on the attachment MIME data stream. When <b>Abort</b> is called, any pending data may be discarded.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -95,27 +87,15 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>Abort</b> method may be called when a <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">Write</a> method call failed with the error <b>STG_S_BLOCK</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a> must not be called once <b>Abort</b> has been called on an attachment stream.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a>
 
@@ -126,7 +106,4 @@ The <b>Abort</b> method may be called when a <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">IWSDOutboundAttachment::Write</a>
- 
-
- 
 

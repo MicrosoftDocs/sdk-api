@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f
 ms.date: 12/05/2018
 ms.keywords: IEnumOfflineFilesItems, IEnumOfflineFilesItems interface [Offline Files], IEnumOfflineFilesItems interface [Offline Files],described, cscobj/IEnumOfflineFilesItems, of.ienumofflinefilesitems
-f1_keywords:
-- cscobj/IEnumOfflineFilesItems
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IEnumOfflineFilesItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumOfflineFilesItems
+ - cscobj/IEnumOfflineFilesItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IEnumOfflineFilesItems
 ---
 
 # IEnumOfflineFilesItems interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitem">IOfflineFilesItem</a> interface pointers.
-
 
 ## -inheritance
 
@@ -105,12 +104,9 @@ Skips over the next specified number of elements in the enumeration.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To obtain an instance of this interface, first obtain an instance of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitemcontainer">IOfflineFilesItemContainer</a> using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on an instance of one of the following interfaces:
 
@@ -135,16 +131,7 @@ To obtain an instance of this interface, first obtain an instance of <a href="ht
 <div> </div>
 For a code example that shows how to use the <b>IEnumOfflineFilesItems</b> interface, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemcontainer-enumitems">IOfflineFilesItemContainer::EnumItems</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

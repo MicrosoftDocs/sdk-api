@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\paste.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],Paste method, ITextRange.Paste, ITextRange::Paste, Paste, Paste method [Windows Controls], Paste method [Windows Controls],ITextRange interface, _win32_ITextRange_Paste, _win32_ITextRange_Paste_cpp, controls.ITextRange_Paste, controls._win32_ITextRange_Paste, tom/ITextRange::Paste
-f1_keywords:
-- tom/ITextRange.Paste
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.Paste
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::Paste
+ - tom/ITextRange::Paste
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.Paste
 ---
 
 # ITextRange::Paste
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Pastes text from a specified data object. 
-
+Pastes text from a specified data object.
 
 ## -parameters
-
-
-
 
 ### -param pVar
 
@@ -71,8 +67,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ida
 
 <i>pVar</i> is not <b>VT_UNKNOWN</b>
 
-<i>pVar</i> punkVal does not return an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> when queried for one 
-
+<i>pVar</i> punkVal does not return an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> when queried for one
 
 ### -param Format
 
@@ -80,10 +75,7 @@ Type: <b>long</b>
 
 The clipboard format to use in the paste operation. Zero is best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero. For more information, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats">Clipboard Formats</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -117,24 +109,12 @@ Destination cannot contain the text to be pasted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information, see<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-copy">ITextRange::Copy</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats">Clipboard Formats</a>
 
@@ -157,7 +137,4 @@ For more information, see<a href="https://docs.microsoft.com/windows/desktop/api
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

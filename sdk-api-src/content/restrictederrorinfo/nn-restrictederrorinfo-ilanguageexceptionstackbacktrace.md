@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: A5AA17A2-414B-4641-A417-4F73384216F9
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], ILanguageExceptionStackBackTrace interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionStackBackTrace, winrt.ilanguageexceptionstackbacktrace
-f1_keywords:
-- restrictederrorinfo/ILanguageExceptionStackBackTrace
-dev_langs:
-- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- restrictederrorinfo.h
-api_name:
-- ILanguageExceptionStackBackTrace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILanguageExceptionStackBackTrace
+ - restrictederrorinfo/ILanguageExceptionStackBackTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - restrictederrorinfo.h
+api_name:
+ - ILanguageExceptionStackBackTrace
 ---
 
 # ILanguageExceptionStackBackTrace interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Allows projections to provide custom stack trace for that exception. 
-
+Allows projections to provide custom stack trace for that exception.
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Retrieves the back stack trace.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 It is recommended that language projections implement this interface when the stack trace is not captured by the relevant Global Error Handler API.
 
@@ -122,17 +118,7 @@ public:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

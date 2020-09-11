@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678
 ms.date: 12/05/2018
 ms.keywords: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678, MFCreateTempFile, MFCreateTempFile function [Media Foundation], mf.mfcreatetempfile, mfapi/MFCreateTempFile
-f1_keywords:
-- mfapi/MFCreateTempFile
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFCreateTempFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateTempFile
+ - mfapi/MFCreateTempFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFCreateTempFile
 ---
 
 # MFCreateTempFile function
@@ -49,52 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a byte stream that is backed by a temporary local file.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param AccessMode
 
 The requested access mode, specified as a member of the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode">MF_FILE_ACCESSMODE</a> enumeration.
-          
-
 
 ### -param OpenMode
 
 The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode">MF_FILE_OPENMODE</a> enumeration.
-          
-
 
 ### -param fFlags
 
 Bitwise <b>OR</b> of values from the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags">MF_FILE_FLAGS</a> enumeration.
-          
-
 
 ### -param ppIByteStream
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of the byte stream. The caller must release the interface.
-          
-
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function creates a file in the system temporary folder, and then returns a byte stream object for that file.
       The full path name of the file is storted in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-bytestream-origin-name-attribute">MF_BYTESTREAM_ORIGIN_NAME</a> attribute. The file is created with the <b>FILE_FLAG_DELETE_ON_CLOSE</b> flag, and is deleted after the byte stream is released.
@@ -106,19 +86,11 @@ This function is available on the following platforms if the Windows Media Forma
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

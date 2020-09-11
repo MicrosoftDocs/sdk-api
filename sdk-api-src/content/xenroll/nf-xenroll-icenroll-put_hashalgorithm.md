@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 48f8a47b-0ab4-4150-b8cf-37e57fb04d3e
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],HashAlgorithm property, HashAlgorithm property [Security], HashAlgorithm property [Security],CEnroll object, HashAlgorithm property [Security],ICEnroll interface, HashAlgorithm property [Security],ICEnroll2 interface, HashAlgorithm property [Security],ICEnroll3 interface, HashAlgorithm property [Security],ICEnroll4 interface, ICEnroll interface [Security],HashAlgorithm property, ICEnroll.HashAlgorithm, ICEnroll.put_HashAlgorithm, ICEnroll2 interface [Security],HashAlgorithm property, ICEnroll2.HashAlgorithm, ICEnroll2::get_HashAlgorithm, ICEnroll2::put_HashAlgorithm, ICEnroll3 interface [Security],HashAlgorithm property, ICEnroll3.HashAlgorithm, ICEnroll3::get_HashAlgorithm, ICEnroll3::put_HashAlgorithm, ICEnroll4 interface [Security],HashAlgorithm property, ICEnroll4.HashAlgorithm, ICEnroll4::HashAlgorithm, ICEnroll4::get_HashAlgorithm, ICEnroll4::put_HashAlgorithm, ICEnroll::get_HashAlgorithm, ICEnroll::put_HashAlgorithm, put_HashAlgorithm, security.icenroll4_hashalgorithm, xenroll/ICEnroll2::HashAlgorithm, xenroll/ICEnroll2::get_HashAlgorithm, xenroll/ICEnroll2::put_HashAlgorithm, xenroll/ICEnroll3::HashAlgorithm, xenroll/ICEnroll3::get_HashAlgorithm, xenroll/ICEnroll3::put_HashAlgorithm, xenroll/ICEnroll4::HashAlgorithm, xenroll/ICEnroll4::get_HashAlgorithm, xenroll/ICEnroll4::put_HashAlgorithm, xenroll/ICEnroll::HashAlgorithm, xenroll/ICEnroll::get_HashAlgorithm, xenroll/ICEnroll::put_HashAlgorithm
-f1_keywords:
-- xenroll/ICEnroll4.HashAlgorithm
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.HashAlgorithm
-- ICEnroll4.get_HashAlgorithm
-- ICEnroll4.put_HashAlgorithm
-- ICEnroll3.HashAlgorithm
-- ICEnroll3.get_HashAlgorithm
-- ICEnroll3.put_HashAlgorithm
-- ICEnroll2.HashAlgorithm
-- ICEnroll2.get_HashAlgorithm
-- ICEnroll2.put_HashAlgorithm
-- ICEnroll.HashAlgorithm
-- ICEnroll.get_HashAlgorithm
-- ICEnroll.put_HashAlgorithm
-- CEnroll.HashAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::put_HashAlgorithm
+ - xenroll/ICEnroll::put_HashAlgorithm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.HashAlgorithm
+ - ICEnroll4.get_HashAlgorithm
+ - ICEnroll4.put_HashAlgorithm
+ - ICEnroll3.HashAlgorithm
+ - ICEnroll3.get_HashAlgorithm
+ - ICEnroll3.put_HashAlgorithm
+ - ICEnroll2.HashAlgorithm
+ - ICEnroll2.get_HashAlgorithm
+ - ICEnroll2.put_HashAlgorithm
+ - ICEnroll.HashAlgorithm
+ - ICEnroll.get_HashAlgorithm
+ - ICEnroll.put_HashAlgorithm
+ - CEnroll.HashAlgorithm
 ---
 
 # ICEnroll::put_HashAlgorithm
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -70,13 +70,9 @@ This property was first defined in the <a href="https://docs.microsoft.com/windo
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This  signature <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a> is not to be confused with the <i>hashing algorithm</i> used to sign the certificate. The enrollment control currently supports any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">OID</a> for <i>hashing algorithms</i>, plus the following display name values: SHA1 (the default), MD2, and MD5. When retrieving this property, the retrieved value is in OID format (that is, SHA1 appears as 1.3.14.3.2.29). When setting this property, the corresponding OID format can be used as an alternative to the text shown for the defined friendly values.
 
@@ -129,7 +125,4 @@ else
 if ( NULL != bstrMyHashAlg )
     SysFreeString( bstrMyHashAlg);
 ```
-
-
-
 

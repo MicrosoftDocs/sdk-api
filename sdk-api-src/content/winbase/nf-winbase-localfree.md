@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a0393983-cb43-4dfa-91a6-d82a5fb8de12
 ms.date: 12/05/2018
 ms.keywords: LocalFree, LocalFree function, _win32_localfree, base.localfree, winbase/LocalFree
-f1_keywords:
-- winbase/LocalFree
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Heap-l2-1-0.dll
-api_name:
-- LocalFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LocalFree
+ - winbase/LocalFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Heap-l2-1-0.dll
+api_name:
+ - LocalFree
 ---
 
 # LocalFree function
@@ -56,14 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees the specified local memory object and invalidates its handle.
 <div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hMem [in]
 
@@ -71,22 +68,14 @@ A handle to the local memory object. This handle is returned by either the
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function. It is not safe to free memory allocated with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NULL</b>.
 
 If the function fails, the return value is equal to a handle to the local memory object. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the process tries to examine or modify the memory after it has been freed, heap corruption may occur or an access violation exception (EXCEPTION_ACCESS_VIOLATION) may be generated.
 
@@ -111,12 +100,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
@@ -148,7 +132,4 @@ For an example, see
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
- 
-
- 
 

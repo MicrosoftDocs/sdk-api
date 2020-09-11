@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: be0e2cda-5481-49ab-9a12-6dc52981fd24
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequest interface [Security],Initialize method, IX509CertificateRequest.Initialize, IX509CertificateRequest::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Initialize, security.ix509certificaterequest_initialize_method
-f1_keywords:
-- certenroll/IX509CertificateRequest.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequest.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequest::Initialize
+ - certenroll/IX509CertificateRequest::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequest.Initialize
 ---
 
 # IX509CertificateRequest::Initialize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method initializes the request object for a user or a computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
@@ -101,12 +97,8 @@ The certificate is being requested by an administrator acting on the behalf of a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -129,14 +121,8 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  <b>Initialize</b> method initializes various objects depending on the type of certificate request being created. If you call this method from an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> object, a private key object is created and the following objects are initialized:<ul>
 <li>An empty <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a> collection.</li>
@@ -174,13 +160,7 @@ The following properties can be called before you call this method. <ul>
 
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_cspinformations">CSPInformations</a> property before calling this method if you want to specify an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a> collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
@@ -203,7 +183,4 @@ You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certen
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
- 
-
- 
 

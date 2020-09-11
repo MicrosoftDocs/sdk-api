@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 95c32056-e444-441c-bbc1-c5ae82aba964
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptVerifySignature, BCryptVerifySignature function [Security], bcrypt/BCryptVerifySignature, security.bcryptverifysignature_func
-f1_keywords:
-- bcrypt/BCryptVerifySignature
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptVerifySignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptVerifySignature
+ - bcrypt/BCryptVerifySignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptVerifySignature
 ---
 
 # BCryptVerifySignature function
@@ -50,44 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptVerifySignature</b> function verifies that the specified signature matches the specified hash.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a> function.
 
-
 ### -param pPaddingInfo [in, optional]
 
 A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <i>dwFlags</i> parameter. This parameter is only used with asymmetric keys and must be <b>NULL</b> otherwise.
-
 
 ### -param pbHash [in]
 
 The address of a buffer that contains the hash of the data. The <i>cbHash</i> parameter contains the size of this buffer.
 
-
 ### -param cbHash [in]
 
 The size, in bytes, of the <i>pbHash</i> buffer.
-
 
 ### -param pbSignature [in]
 
 The address of a buffer that contains the signed hash of the data. The <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a> function is used to create the signature. The <i>cbSignature</i> parameter contains the size of this buffer.
 
-
 ### -param cbSignature [in]
 
 The size, in bytes, of the <i>pbSignature</i> buffer. The <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a> function is used to create the signature.
-
 
 ### -param dwFlags [in]
 
@@ -126,12 +116,8 @@ The Probabilistic Signature Scheme (PSS) padding scheme was used when the signat
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -201,14 +187,8 @@ The algorithm provider used to create the key handle specified by the <i>hKey</i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  This function decrypts the signature with the provided key and then compares the decrypted value to the specified hash value.
 
@@ -218,18 +198,7 @@ Depending on what processor modes a provider supports, <b>BCryptVerifySignature<
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a>
- 
-
- 
 

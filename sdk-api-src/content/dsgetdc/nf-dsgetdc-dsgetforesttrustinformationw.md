@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: c94fdc5b-920b-4807-9cbf-3172ec1c7386
 ms.date: 12/05/2018
 ms.keywords: DS_GFTI_UPDATE_TDO, DsGetForestTrustInformationW, DsGetForestTrustInformationW function [Active Directory], ad.dsgetforesttrustinformationw, dsgetdc/DsGetForestTrustInformationW
-f1_keywords:
-- dsgetdc/DsGetForestTrustInformationW
-dev_langs:
-- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- DsGetForestTrustInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsGetForestTrustInformationW
+ - dsgetdc/DsGetForestTrustInformationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - DsGetForestTrustInformationW
 ---
 
 # DsGetForestTrustInformationW function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsGetForestTrustInformationW</b> function obtains forest trust data for a specified domain.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerName [in, optional]
 
 Contains the name of the domain controller that <b>DsGetForestTrustInformationW</b> is connected to remotely.
         The caller must be an authenticated user on this server.
         If this parameter is <b>NULL</b>, the local server is used.
-
 
 ### -param TrustedDomainName [in, optional]
 
@@ -73,7 +68,6 @@ Contains the NETBIOS or DNS name of the trusted domain that the forest trust dat
 
 If this parameter is <b>NULL</b>, the forest trust
         data for the domain hosted by <i>ServerName</i> is retrieved.
-
 
 ### -param Flags [in]
 
@@ -90,7 +84,6 @@ If this flag is set, <b>DsGetForestTrustInformationW</b> will update
 
 This flag is only valid if <i>ServerName</i> specifies the primary domain controller of the domain.
 
-
 ### -param ForestTrustInfo [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_information">LSA_FOREST_TRUST_INFORMATION</a> structure pointer that receives the forest trust data that describes the namespaces claimed by the
@@ -98,20 +91,11 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/n
 
 The caller must free this structure when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
 
-
 ## -returns
-
-
 
 Returns <b>NO_ERROR</b> if successful or a Win32 error code otherwise. Possible error codes include the following.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
@@ -122,7 +106,4 @@ Returns <b>NO_ERROR</b> if successful or a Win32 error code otherwise. Possible 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
- 
-
- 
 

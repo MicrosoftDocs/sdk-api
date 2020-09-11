@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e906b69b-5574-4dd5-aa30-9c2a67972202
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin
-f1_keywords:
-- certadm/ICertAdmin
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin
+ - certadm/ICertAdmin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin
 ---
 
 # ICertAdmin interface
 
 
 ## -description
-
 
 The <b>ICertAdmin</b> interface
 			provides administration functionality for properly authorized clients.
@@ -67,7 +67,6 @@ The <b>ICertAdmin</b> interface is used to perform the following tasks:
 Administration tasks use DCOM. Code that calls this interface method as defined in an earlier version of Certadm.h will run on Windows-based servers as long as the client and the server are both running the same Windows operating system.
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -154,5 +153,5 @@ Adds a new extension to a certificate to be issued.</p> (Inherited from <b>ICert
 <td align="left" width="63%">
 Sets the attributes of a certificate request.</p> (Inherited from <b>ICertAdmin</b><b>CCertAdmin</b>)</td>
 </tr>
-</table> 
+</table>
 

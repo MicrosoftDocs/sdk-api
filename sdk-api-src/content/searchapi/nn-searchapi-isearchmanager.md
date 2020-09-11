@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\isearchmanager.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchManager, ISearchManager interface [search], ISearchManager interface [search],described, _search_ISearchManager, search._search_ISearchManager, searchapi/ISearchManager
-f1_keywords:
-- searchapi/ISearchManager
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchManager
+ - searchapi/ISearchManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchManager
 ---
 
 # ISearchManager interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.
-        
-
 
 ## -inheritance
 
@@ -192,13 +190,9 @@ Stores information in the indexer that determines how the indexer will work and 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
 For a sample that demonstrates ways to specify which files to re-index and how, see the [ReindexMatchingUrls](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/ReindexMatchingUrls) sample.
-
-
 

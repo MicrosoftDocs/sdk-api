@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 941fa35c-20fa-4843-89be-26112ff7eec5
 ms.date: 12/05/2018
 ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], IRdcLibrary interface [Remote Differential Compression],described, fs.irdclibrary, msrdc/IRdcLibrary, rdc.irdclibrary
-f1_keywords:
-- msrdc/IRdcLibrary
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcLibrary
+ - msrdc/IRdcLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcLibrary
 ---
 
 # IRdcLibrary interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IRdcLibrary</b> interface is the primary interface 
     for using RDC.
-
 
 ## -inheritance
 
@@ -125,20 +124,13 @@ Opens an existing serialized parameter block and returns an
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer 
      initialized with the data.</p> (Inherited from <b>IRdcLibrary</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
- 
-
- 
 

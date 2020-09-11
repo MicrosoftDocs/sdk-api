@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7567bf23-4f4c-4210-87f7-4f90262fda7a
 ms.date: 12/05/2018
 ms.keywords: DisableWriterClasses, DisableWriterClasses method [VSS], DisableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterClasses method, IVssBackupComponents.DisableWriterClasses, IVssBackupComponents::DisableWriterClasses, _win32_ivssbackupcomponents_disablewriterclasses, base.ivssbackupcomponents_disablewriterclasses, vsbackup/IVssBackupComponents::DisableWriterClasses
-f1_keywords:
-- vsbackup/IVssBackupComponents.DisableWriterClasses
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.DisableWriterClasses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::DisableWriterClasses
+ - vsbackup/IVssBackupComponents::DisableWriterClasses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.DisableWriterClasses
 ---
 
 # IVssBackupComponents::DisableWriterClasses
@@ -50,29 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DisableWriterClasses</b> method prevents a specific class of writers from receiving any events.
 
-
 ## -parameters
-
-
-
 
 ### -param rgWriterClassId [in]
 
 An array containing one or more writer class identifiers.
 
-
 ### -param cClassId [in]
 
 The number of entries in the <i>rgWriterClassId</i> array.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -140,14 +132,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you have multiple running copies of the same writer, they will all have the same writer class identifier, but they will have different writer instance identifiers. Disabling a writer class causes all of the writer's instances to be disabled.
 
@@ -161,13 +147,7 @@ If you call <b>DisableWriterClasses</b> one or more times and then call <a href=
 
 If you call <b>DisableWriterClasses</b>, you must do so before calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> method. If you call <b>GatherWriterMetadata</b> first and then call <b>DisableWriterClasses</b>, the call to <b>DisableWriterClasses</b> has no effect. If you need to call <b>GatherWriterMetadata</b> first, to determine which writer classes to disable, you must call it from a different instance of the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -178,7 +158,4 @@ If you call <b>DisableWriterClasses</b>, you must do so before calling the <a hr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">IVssBackupComponents::EnableWriterClasses</a>
- 
-
- 
 

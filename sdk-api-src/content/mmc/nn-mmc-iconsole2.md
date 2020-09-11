@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 9a20d09d-219c-4bcb-95b3-67a44e41629e
 ms.date: 12/05/2018
 ms.keywords: IConsole2, IConsole2 interface [MMC], IConsole2 interface [MMC],described, _slate_iconsole2, mmc.iconsole2, mmc/IConsole2
-f1_keywords:
-- mmc/IConsole2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsole2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsole2
+ - mmc/IConsole2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsole2
 ---
 
 # IConsole2 interface
 
 
 ## -description
-
 
 The 
 <b>IConsole2</b> interface is introduced in MMC 1.1.
@@ -215,5 +215,5 @@ Generates a notification to update views because of content change.
 
 </td>
 </tr>
-</table> 
+</table>
 

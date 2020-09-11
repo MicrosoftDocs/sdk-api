@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
 ms.date: 12/05/2018
 ms.keywords: OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace, base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA, evntrace/OpenTraceW
-f1_keywords:
-- evntrace/OpenTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- AdvAPI32Legacy.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Consumer-l1-1-0.dll
-- API-MS-Win-Eventing-Legacy-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- OpenTrace
-- OpenTraceA
-- OpenTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenTraceW
+ - evntrace/OpenTraceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - AdvAPI32Legacy.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Consumer-l1-1-0.dll
+ - API-MS-Win-Eventing-Legacy-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - OpenTrace
+ - OpenTraceA
+ - OpenTraceW
 ---
 
 # OpenTraceW function
@@ -57,26 +58,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OpenTrace</b> function opens a real-time trace session or 
    log file for consuming.
 
-
 ## -parameters
-
-
-
 
 ### -param Logfile [in, out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure. 
       The structure specifies the source from which to consume events (from a log file or the session in real time) 
-      and specifies the callbacks the consumer wants to use to receive the events. 
-
+      and specifies the callbacks the consumer wants to use to receive the events.
 
 ## -returns
-
-
 
 If the function succeeds, it returns a handle to the trace.
 
@@ -160,14 +153,8 @@ Only users with administrative privileges, users in the Performance Log Users gr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Consumers call this function.
 
@@ -199,9 +186,6 @@ For an example that uses <b>OpenTrace</b>, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>
 
 
@@ -211,7 +195,4 @@ For an example that uses <b>OpenTrace</b>, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
- 
-
- 
 

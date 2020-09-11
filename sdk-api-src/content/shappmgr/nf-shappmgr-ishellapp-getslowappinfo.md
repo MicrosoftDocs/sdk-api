@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 02f8e527-1c3c-4a2e-bf55-4f33c6a7b822
 ms.date: 12/05/2018
 ms.keywords: GetSlowAppInfo, GetSlowAppInfo method [Windows Shell], GetSlowAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetSlowAppInfo method, IShellApp.GetSlowAppInfo, IShellApp::GetSlowAppInfo, inet_IShellApp_GetSlowAppInfo, shappmgr/IShellApp::GetSlowAppInfo, shell.IShellApp_GetSlowAppInfo
-f1_keywords:
-- shappmgr/IShellApp.GetSlowAppInfo
-dev_langs:
-- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellApp.GetSlowAppInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellApp::GetSlowAppInfo
+ - shappmgr/IShellApp::GetSlowAppInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellApp.GetSlowAppInfo
 ---
 
 # IShellApp::GetSlowAppInfo
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns information to the application that originates from a slow source. This method is not applicable to published applications.
 
-
 ## -parameters
-
-
-
 
 ### -param psaid [out]
 
@@ -64,31 +60,17 @@ Type: <b>PSLOWAPPINFO</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-slowappinfo">SLOWAPPINFO</a> structure in which to return application information.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Implementations of <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> should return E_NOTIMPL. This method is used internally by Add/Remove Programs for installed applications.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
@@ -99,7 +81,4 @@ Implementations of <a href="https://docs.microsoft.com/windows/desktop/api/shapp
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
- 
-
- 
 

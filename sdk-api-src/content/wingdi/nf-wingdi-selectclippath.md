@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: c5102e1b-ba33-4cce-a4e5-93cf10c1c0bb
 ms.date: 12/05/2018
 ms.keywords: RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, SelectClipPath, SelectClipPath function [Windows GDI], _win32_SelectClipPath, gdi.selectclippath, wingdi/SelectClipPath
-f1_keywords:
-- wingdi/SelectClipPath
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-l1-2-0.dll
-- ext-ms-win-gdi-dc-l1-2-1.dll
-- GDI32Full.dll
-api_name:
-- SelectClipPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SelectClipPath
+ - wingdi/SelectClipPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-l1-2-0.dll
+ - ext-ms-win-gdi-dc-l1-2-1.dll
+ - GDI32Full.dll
+api_name:
+ - SelectClipPath
 ---
 
 # SelectClipPath function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SelectClipPath</b> function selects the current path as a clipping region for a device context, combining the new region with any existing clipping region using the specified mode.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context of the path.
-
 
 ### -param mode [in]
 
@@ -126,23 +121,14 @@ The new clipping region includes the union of the current clipping region and th
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The device context identified by the <i>hdc</i> parameter must contain a closed path.
 
@@ -153,12 +139,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
@@ -173,7 +154,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
- 
-
- 
 

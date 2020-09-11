@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\updatelayeredwindowinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PUPDATELAYEREDWINDOWINFO, PUPDATELAYEREDWINDOWINFO, PUPDATELAYEREDWINDOWINFO structure pointer [Windows and Messages], ULW_ALPHA, ULW_COLORKEY, ULW_EX_NORESIZE, ULW_OPAQUE, UPDATELAYEREDWINDOWINFO, UPDATELAYEREDWINDOWINFO structure [Windows and Messages], _win32_UPDATELAYEREDWINDOWINFO, _win32_updatelayeredwindowinfo_cpp, winmsg.updatelayeredwindowinfo, winui._win32_updatelayeredwindowinfo, winuser/PUPDATELAYEREDWINDOWINFO, winuser/UPDATELAYEREDWINDOWINFO'
-f1_keywords:
-- winuser/UPDATELAYEREDWINDOWINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- UPDATELAYEREDWINDOWINFO
 targetos: Windows
 req.typenames: UPDATELAYEREDWINDOWINFO, *PUPDATELAYEREDWINDOWINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagUPDATELAYEREDWINDOWINFO
+ - winuser/tagUPDATELAYEREDWINDOWINFO
+ - PUPDATELAYEREDWINDOWINFO
+ - winuser/PUPDATELAYEREDWINDOWINFO
+ - UPDATELAYEREDWINDOWINFO
+ - winuser/UPDATELAYEREDWINDOWINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - UPDATELAYEREDWINDOWINFO
 ---
 
 # UPDATELAYEREDWINDOWINFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)">UpdateLayeredWindowIndirect</a> to provide position, size, shape, content, and translucency information for a layered window.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
 The size, in bytes, of this structure.
-
 
 ### -field hdcDst
 
@@ -75,13 +74,11 @@ A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</
 
 If <b>hdcSrc</b> is <b>NULL</b>, <b>hdcDst</b> must be <b>NULL</b>.
 
-
 ### -field pptDst
 
 Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 The new screen position of the layered window. If the new position is unchanged from the current position, <b>pptDst</b> can be <b>NULL</b>.
-
 
 ### -field psize
 
@@ -89,20 +86,17 @@ Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd145106(v=
 
 The new size of the layered window. If the size of the window will not change, this parameter can be <b>NULL</b>. If <b>hdcSrc</b> is <b>NULL</b>, <b>psize</b> must be <b>NULL</b>.
 
-
 ### -field hdcSrc
 
 Type: <b>HDC</b>
 
 A handle to the DC for the surface that defines the layered window. This handle can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> function. If the shape and visual context of the window will not change, <b>hdcSrc</b> can be <b>NULL</b>.
 
-
 ### -field pptSrc
 
 Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
-The location of the layer in the device context. If <b>hdcSrc</b> is <b>NULL</b>, <b>pptSrc</b> should be <b>NULL</b>. 
-
+The location of the layer in the device context. If <b>hdcSrc</b> is <b>NULL</b>, <b>pptSrc</b> should be <b>NULL</b>.
 
 ### -field crKey
 
@@ -110,13 +104,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLOR
 
 The color key to be used when composing the layered window. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
-
 ### -field pblend
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a>*</b>
 
 The transparency value to be used when composing the layered window.
-
 
 ### -field dwFlags
 
@@ -178,18 +170,13 @@ Force the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 If <b>hdcSrc</b> is <b>NULL</b>, <b>dwFlags</b> should be zero.
 
-
 ### -field prcDirty
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 The area to be updated. This parameter can be <b>NULL</b>. If it is non-NULL, only the area in this rectangle is updated from the source DC.
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -204,7 +191,4 @@ The area to be updated. This parameter can be <b>NULL</b>. If it is non-NULL, on
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Window Features</a>
- 
-
- 
 

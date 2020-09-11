@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: a6598b4e-6797-4e18-8ab5-059c75bc84ef
 ms.date: 12/05/2018
 ms.keywords: SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, SNMP_SYNTAX_GAUGE32, SNMP_SYNTAX_INT, SNMP_SYNTAX_INT32, SNMP_SYNTAX_IPADDR, SNMP_SYNTAX_NOSUCHINSTANCE, SNMP_SYNTAX_NOSUCHOBJECT, SNMP_SYNTAX_NULL, SNMP_SYNTAX_OCTETS, SNMP_SYNTAX_OID, SNMP_SYNTAX_OPAQUE, SNMP_SYNTAX_TIMETICKS, SNMP_SYNTAX_UINT32, SnmpGetVb, SnmpGetVb function [SNMP], _snmp_snmpgetvb, snmp.snmpgetvb, winsnmp/SnmpGetVb
-f1_keywords:
-- winsnmp/SnmpGetVb
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpGetVb
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpGetVb
+ - winsnmp/SnmpGetVb
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpGetVb
 ---
 
 # SnmpGetVb function
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 A WinSNMP application calls the 
 <b>SnmpGetVb</b> function to retrieve information from a variable bindings list. This WinSNMP function retrieves a variable name and its associated value from the variable binding entry specified by the <i>index</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param vbl [in]
 
 Handle to the variable bindings list to retrieve.
-
 
 ### -param index [in]
 
@@ -75,12 +70,10 @@ Specifies an unsigned long integer variable that identifies the variable binding
 
 Valid values for this parameter are in the range from 1 to n, where 1 indicates the first variable binding entry in the variable bindings list, and n is the total number of entries in the list. For additional information, see the following Remarks section.
 
-
 ### -param name [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure to receive the variable name of the variable binding entry.
-
 
 ### -param value [out]
 
@@ -248,12 +241,8 @@ Indicates the WinSNMP application is attempting to reference an object identifie
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
@@ -323,14 +312,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The last three syntax types describe exception conditions under the SNMP version 2C(SNMPv2C) framework.
 
@@ -360,13 +343,7 @@ The WinSNMP application must call the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> to free the resources allocated for these structures. For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcountvbl">SnmpCountVbl</a>
 
@@ -398,7 +375,4 @@ The WinSNMP application must call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>
- 
-
- 
 

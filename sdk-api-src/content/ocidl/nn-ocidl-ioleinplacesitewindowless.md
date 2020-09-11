@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4ad83599-99d2-4b35-95de-cff845a8d5e4
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], IOleInPlaceSiteWindowless interface [COM],described, _ole_ioleinplacesitewindowless, com.ioleinplacesitewindowless, ocidl/IOleInPlaceSiteWindowless
-f1_keywords:
-- ocidl/IOleInPlaceSiteWindowless
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleInPlaceSiteWindowless
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSiteWindowless
+ - ocidl/IOleInPlaceSiteWindowless
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleInPlaceSiteWindowless
 ---
 
 # IOleInPlaceSiteWindowless interface
 
 
 ## -description
-
 
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx</a> interface. <b>IOleInPlaceSiteWindowless</b> works with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a> which is implemented on the windowless object. Together, these two interfaces provide services to a windowless object from its container allowing the windowless object to:
 <ul>
@@ -59,9 +59,6 @@ Extends the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-oci
 </ul>Having a window can place unnecessary burdens on small objects, such as controls. It prevents an object from being non-rectangular. It prevents windows from being transparent. It prevents the small instance size needed by many small controls.
 
 A windowless object can enter the in-place active state without requiring a window or the resources associated with a window. Instead, the object's container provides the object with many of the services associated with having a window.
-
-
-
 
 ## -inheritance
 
@@ -186,13 +183,9 @@ Sets the keyboard focus for a UI-active, windowless object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iadvisesinkex">IAdviseSinkEx</a>
 
@@ -207,7 +200,4 @@ Sets the keyboard focus for a UI-active, windowless object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a>
- 
-
- 
 

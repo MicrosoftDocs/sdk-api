@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: eb7e224d-948e-46d6-ac1b-cd851530cc8b
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency interface,get_Language method, IMsmDependency.get_Language, IMsmDependency::get_Language, _msi_get_language_function_dependency_object_, get_Language, get_Language method, get_Language method,IMsmDependency interface, mergemod/IMsmDependency::get_Language, setup.imsmdependency_get_language
-f1_keywords:
-- mergemod/IMsmDependency.get_Language
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmDependency.get_Language
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmDependency::get_Language
+ - mergemod/IMsmDependency::get_Language
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmDependency.get_Language
 ---
 
 # IMsmDependency::get_Language
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Language</b> method retrieves the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object. This method returns the <b>LANGID</b> of the required module.
 
-
 ## -parameters
-
-
-
 
 ### -param Language [out]
 
 A pointer to a location in memory that receives the language.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -100,22 +93,12 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmdependency">IMsmDependency</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
 

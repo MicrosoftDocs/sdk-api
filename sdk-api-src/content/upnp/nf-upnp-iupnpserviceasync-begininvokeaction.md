@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 40900CE1-03EE-451A-84DE-5C496EB2D7E5
 ms.date: 12/05/2018
 ms.keywords: BeginInvokeAction, BeginInvokeAction method [UPnP APIs], BeginInvokeAction method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginInvokeAction method, IUPnPServiceAsync.BeginInvokeAction, IUPnPServiceAsync::BeginInvokeAction, upnp.iupnpserviceasync_begininvokeaction, upnp/IUPnPServiceAsync::BeginInvokeAction
-f1_keywords:
-- upnp/IUPnPServiceAsync.BeginInvokeAction
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServiceAsync.BeginInvokeAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServiceAsync::BeginInvokeAction
+ - upnp/IUPnPServiceAsync::BeginInvokeAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServiceAsync.BeginInvokeAction
 ---
 
 # IUPnPServiceAsync::BeginInvokeAction
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The 	<b>BeginInvokeAction</b> method invokes an action on a device in asynchronous mode. Additionally, if a delayed SCPD download and event subscription is opted-in, and it has not taken place already, this method will initiate SCPD download. 
-
+The 	<b>BeginInvokeAction</b> method invokes an action on a device in asynchronous mode. Additionally, if a delayed SCPD download and event subscription is opted-in, and it has not taken place already, this method will initiate SCPD download.
 
 ## -parameters
-
-
-
 
 ### -param bstrActionName [in]
 
 Specifies the method to invoke.
 
-
 ### -param vInActionArgs [in]
 
 Specifies an array of input arguments to the method. If the action has no input arguments, this parameter must contain an empty array.  The contents of this array are service-specific.
-
 
 ### -param pAsyncResult [in, optional]
 
@@ -74,16 +68,11 @@ Pointer  to a <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-up
 	UPnP will use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
 	point.
 
-
-
 ### -param pullRequestID [out]
 
 Pointer to a 64-bit <b>ULONG</b> value used to identify the asynchronous I/O operation. The control point must use this handle as a cookie while ending or cancelling this  operation with <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">EndInvokeAction</a>.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success. Otherwise, the method returns a COM error code defined in <b>WinError.h</b> or one of the following values:
 
@@ -131,19 +120,11 @@ This action is not supported by the device.
 <div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">IUPnPServiceAsync::EndInvokeAction</a>
- 
-
- 
 

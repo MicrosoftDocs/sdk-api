@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1b20585f-2bcd-475e-abee-80158692ae0f
 ms.date: 12/05/2018
 ms.keywords: GetPredefinedStrings, GetPredefinedStrings method [COM], GetPredefinedStrings method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedStrings method, IPerPropertyBrowsing.GetPredefinedStrings, IPerPropertyBrowsing::GetPredefinedStrings, _ctrl_iperpropertybrowsing_getpredefinedstrings, com.iperpropertybrowsing_getpredefinedstrings, ocidl/IPerPropertyBrowsing::GetPredefinedStrings
-f1_keywords:
-- ocidl/IPerPropertyBrowsing.GetPredefinedStrings
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPerPropertyBrowsing.GetPredefinedStrings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPerPropertyBrowsing::GetPredefinedStrings
+ - ocidl/IPerPropertyBrowsing::GetPredefinedStrings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPerPropertyBrowsing.GetPredefinedStrings
 ---
 
 # IPerPropertyBrowsing::GetPredefinedStrings
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an array description strings for the allowable values that the specified property can accept.
 
-
 ## -parameters
-
-
-
 
 ### -param dispID [in]
 
 The dispatch identifier of the property.
 
-
 ### -param pCaStringsOut [out]
 
 A pointer to a caller-allocated, counted array structure that contains the element count and address of a method-allocated array of string pointers. This method also allocates memory for the string values containing the predefined names, and it stores the string pointers in the array. If the method fails, no memory is allocated, and the contents of the structure are undefined.
-
 
 ### -param pCaCookiesOut [out]
 
 A pointer to the caller-allocated, counted array structure that contains the element count and address of a method-allocated array of <b>DWORD</b> values. The values in the array can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a> to retrieve the value associated with the name in the same array position inside <i>pCaStringsOut</i>. If the method fails, no memory is allocated, and the contents of the structure are undefined.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -118,14 +109,8 @@ The address in <i>pCaStringsOut</i> or <i>pCaCookiesOut</i> is not valid. For ex
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each string returned in the array pointed to by <i>pCaStringsOut</i> has a matching token in the counted array pointed to by <i>pCaCookiesOut</i>, where the token can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a> to get the actual value (a <b>VARIANT</b>) corresponding to the string.
 
@@ -158,13 +143,7 @@ Support for predefined names and values is not required. If your object does not
 
 This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-cadword">CADWORD</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-calpolestr">CALPOLESTR</a> structures. It allocates the arrays pointed to by these structures with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and fills those arrays. In the <b>CALPOLESTR</b> case, this method also allocates each string with <b>CoTaskMemAlloc</b>, storing each string pointer in the array.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-cadword">CADWORD</a>
 
@@ -175,7 +154,4 @@ This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
- 
-
- 
 

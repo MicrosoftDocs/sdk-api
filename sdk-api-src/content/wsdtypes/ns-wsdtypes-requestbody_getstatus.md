@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 5b2282b2-297a-4151-a809-b85495d5d741
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_GetStatus, REQUESTBODY_GetStatus structure, ncd.requestbody_getstatus, wsdtypes/REQUESTBODY_GetStatus
-f1_keywords:
-- wsdtypes/REQUESTBODY_GetStatus
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdTypes.h
-api_name:
-- REQUESTBODY_GetStatus
 targetos: Windows
 req.typenames: REQUESTBODY_GetStatus
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - REQUESTBODY_GetStatus
+ - wsdtypes/REQUESTBODY_GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdTypes.h
+api_name:
+ - REQUESTBODY_GetStatus
 ---
 
 # REQUESTBODY_GetStatus structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a WS-Eventing GetStatus request message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Any
 

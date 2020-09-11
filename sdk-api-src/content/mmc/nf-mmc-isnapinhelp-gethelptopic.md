@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 2F7E987F-1E1E-4C9E-9B26-D7BB8F5A05DD
 ms.date: 12/05/2018
 ms.keywords: GetHelpTopic, GetHelpTopic method [MMC], GetHelpTopic method [MMC],ISnapinHelp interface, ISnapinHelp interface [MMC],GetHelpTopic method, ISnapinHelp.GetHelpTopic, ISnapinHelp::GetHelpTopic, mmc.isnapinhelp_gethelptopic, mmc/ISnapinHelp::GetHelpTopic
-f1_keywords:
-- mmc/ISnapinHelp.GetHelpTopic
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- ISnapinHelp.GetHelpTopic
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISnapinHelp::GetHelpTopic
+ - mmc/ISnapinHelp::GetHelpTopic
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - ISnapinHelp.GetHelpTopic
 ---
 
 # ISnapinHelp::GetHelpTopic
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a snap-in to add its compiled HTML Help file to the MMC Help collection file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpCompiledHelpFile [out]
 
 A pointer to the address of the null-terminated Unicode string that contains the path of the compiled Help file (.chm) for the snap-in. When specifying the path, place the file anywhere and specify the full path name.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 MMC calls the snap-in's implementation of this method to get the location of the snap-in's Help file. MMC merges the HTML Help files of all snap-ins with the MMC console HTML Help collection file.
 
@@ -112,14 +100,7 @@ STDMETHODIMP CComponentData::GetHelpTopic( LPOLESTR *lpCompiledFile )
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-html-help-support">Adding HTML Help Support</a>
 
@@ -138,7 +119,4 @@ STDMETHODIMP CComponentData::GetHelpTopic( LPOLESTR *lpCompiledFile )
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/providing-mui-compliant-help-files">Providing MUI-Compliant Help Files</a>
- 
-
- 
 

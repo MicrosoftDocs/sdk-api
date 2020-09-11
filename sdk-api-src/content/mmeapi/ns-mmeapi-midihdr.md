@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 630f0645-555e-4f48-9397-2623a9918b8a
 ms.date: 12/05/2018
 ms.keywords: '*LPMIDIHDR, *NPMIDIHDR, *PMIDIHDR, LPMIDIHDR, LPMIDIHDR structure pointer [Windows Multimedia], MHDR_DONE, MHDR_INQUEUE, MHDR_ISSTRM, MHDR_PREPARED, MIDIHDR, MIDIHDR structure [Windows Multimedia], _win32_MIDIHDR_str, midihdr_tag, mmeapi/LPMIDIHDR, mmeapi/MIDIHDR, multimedia.midihdr'
-f1_keywords:
-- mmeapi/MIDIHDR
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIDIHDR
 targetos: Windows
 req.typenames: MIDIHDR, *PMIDIHDR, *NPMIDIHDR, *LPMIDIHDR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midihdr_tag
+ - mmeapi/midihdr_tag
+ - PMIDIHDR
+ - mmeapi/PMIDIHDR
+ - MIDIHDR
+ - mmeapi/MIDIHDR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIDIHDR
 ---
 
 # MIDIHDR structure
@@ -49,37 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MIDIHDR</b> structure defines the header used to identify a MIDI system-exclusive or stream buffer.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lpData
 
 Pointer to MIDI data.
 
-
 ### -field dwBufferLength
 
 Size of the buffer.
-
 
 ### -field dwBytesRecorded
 
 Actual amount of data in the buffer. This value should be less than or equal to the value given in the <b>dwBufferLength</b> member.
 
-
 ### -field dwUser
 
 Custom user data.
-
 
 ### -field dwFlags
 
@@ -131,33 +124,24 @@ Set by Windows to indicate that the buffer has been prepared by using the <a hre
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpNext
 
 Reserved; do not use.
 
-
 ### -field reserved
 
 Reserved; do not use.
-
 
 ### -field dwOffset
 
 Offset into the buffer when a callback is performed. (This callback is generated because the MEVT_F_CALLBACK flag is set in the <b>dwEvent</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a> structure.) This offset enables an application to determine which event caused the callback.
 
-
 ### -field dwReserved
 
 Reserved; do not use.
 
-
 ## -see-also
-
-
-
 
 MIDI Structures
 
@@ -176,7 +160,4 @@ MIDI Structures
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd798477(v=vs.85)">midiOutPrepareHeader</a>
- 
-
- 
 

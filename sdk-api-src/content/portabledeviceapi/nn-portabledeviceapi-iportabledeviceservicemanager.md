@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 8df23343-26f0-4fb0-90b9-e8b75bcadffa
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceManager, IPortableDeviceServiceManager interface [Windows Portable Devices SDK], IPortableDeviceServiceManager interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceManager, wpdsdk.iportabledeviceservicemanager
-f1_keywords:
-- portabledeviceapi/IPortableDeviceServiceManager
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceServiceManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceServiceManager
+ - portabledeviceapi/IPortableDeviceServiceManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceServiceManager
 ---
 
 # IPortableDeviceServiceManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPortableDeviceServiceManager</b> interface retrieves the device associated with a service and the list of services found on a device.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Retrieves a list of the services associated with the specified device.
 
 </td>
 </tr>
-</table> 
+</table>
 

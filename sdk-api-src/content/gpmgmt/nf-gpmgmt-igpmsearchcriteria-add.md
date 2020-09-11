@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 8d3f62df-6de1-4871-903f-05ac234db17f
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],IGPMSearchCriteria interface, IGPMSearchCriteria interface [GPMC],Add method, IGPMSearchCriteria.Add, IGPMSearchCriteria::Add, _win32_igpmsearchcriteria_add, gpmc.igpmsearchcriteria_add, gpmgmt/IGPMSearchCriteria::Add
-f1_keywords:
-- gpmgmt/IGPMSearchCriteria.Add
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSearchCriteria.Add
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Vista
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSearchCriteria::Add
+ - gpmgmt/IGPMSearchCriteria::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSearchCriteria.Add
 ---
 
 # IGPMSearchCriteria::Add
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a criterion for search operations.
 
-
 ## -parameters
-
-
-
 
 ### -param searchProperty [in]
 
 The search property to evaluate. For a valid combination of search properties, search operations, and values, see the  Remarks section.
 
-
 ### -param searchOperation [in]
 
 The operation to use to evaluate <i>searchProperty</i> using the value specified by <i>varValue</i>.
-
 
 ### -param varValue [in]
 
 The value to evaluate <i>searchProperty</i> against.
 
-
 ## -returns
-
-
 
 <h3>JScript</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -83,12 +74,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 <h3>VB</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
-
-
-
 ## -remarks
-
-
 
 Following is a table that contains the valid combinations for the <i>searchProperty</i>, <i>searchOperation</i>, and <i>varValue</i> parameters.
 
@@ -349,15 +335,8 @@ GPMDomain
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
@@ -368,7 +347,4 @@ GPMDomain
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
- 
-
- 
 

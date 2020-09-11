@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 7b1b5ef6-355a-4760-9d54-ec73cc66fb8a
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], IOfflineFilesCache interface [Offline Files],described, cscobj/IOfflineFilesCache, of.iofflinefilescache
-f1_keywords:
-- cscobj/IOfflineFilesCache
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesCache
+ - cscobj/IOfflineFilesCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesCache
 ---
 
 # IOfflineFilesCache interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to manage the Offline Files cache.
-
 
 ## -inheritance
 
@@ -222,16 +221,9 @@ Unpins files, directories, and network shared folders from the Offline Files cac
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

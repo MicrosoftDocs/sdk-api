@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9b2dce08-a4ab-4e55-aeef-819f71ddf9d2
 ms.date: 12/05/2018
 ms.keywords: GetBackupSucceeded, GetBackupSucceeded method [VSS], GetBackupSucceeded method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupSucceeded method, IVssComponent.GetBackupSucceeded, IVssComponent::GetBackupSucceeded, _win32_ivsscomponent_getbackupsucceeded, base.ivsscomponent_getbackupsucceeded, vswriter/IVssComponent::GetBackupSucceeded
-f1_keywords:
-- vswriter/IVssComponent.GetBackupSucceeded
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetBackupSucceeded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetBackupSucceeded
+ - vswriter/IVssComponent::GetBackupSucceeded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetBackupSucceeded
 ---
 
 # IVssComponent::GetBackupSucceeded
 
 
 ## -description
-
 
 The 
 <b>GetBackupSucceeded</b> method returns the status of a complete attempt at backing up all the files of a selected component or component set as a 
@@ -58,20 +58,13 @@ The
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbSucceeded [out]
 
 The address of a caller-allocated variable that receives <b>true</b> if the backup was successful, or <b>false</b> otherwise.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -138,33 +131,18 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method should not be called prior to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> event, and is designed for use in an implementation of the event handler 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
 

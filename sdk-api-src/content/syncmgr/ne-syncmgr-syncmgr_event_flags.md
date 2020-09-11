@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: bb901a85-8f54-4030-81d5-40af66e490bf
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_EF_NONE, SYNCMGR_EF_VALID, SYNCMGR_EVENT_FLAGS, SYNCMGR_EVENT_FLAGS enumeration [Windows Shell], shell.SYNCMGR_EVENT_FLAGS, shell_SYNCMGR_EVENT_FLAGS, syncmgr/SYNCMGR_EF_NONE, syncmgr/SYNCMGR_EF_VALID, syncmgr/SYNCMGR_EVENT_FLAGS
-f1_keywords:
-- syncmgr/SYNCMGR_EVENT_FLAGS
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Syncmgr.h
-api_name:
-- SYNCMGR_EVENT_FLAGS
 targetos: Windows
 req.typenames: SYNCMGR_EVENT_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SYNCMGR_EVENT_FLAGS
+ - syncmgr/SYNCMGR_EVENT_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Syncmgr.h
+api_name:
+ - SYNCMGR_EVENT_FLAGS
 ---
 
 # SYNCMGR_EVENT_FLAGS enumeration
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies flags for a synchronization event.
 
-
 ## -enum-fields
-
-
-
 
 ### -field SYNCMGR_EF_NONE
 
 No flags specified.
-
 
 ### -field SYNCMGR_EF_VALID
 

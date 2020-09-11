@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e0539478-8c64-4445-ab99-22f1df70afe8
 ms.date: 12/05/2018
 ms.keywords: PathCchStripToRoot, PathCchStripToRoot function [Windows Shell], pathcch/PathCchStripToRoot, shell.PathCchStripToRoot
-f1_keywords:
-- pathcch/PathCchStripToRoot
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchStripToRoot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchStripToRoot
+ - pathcch/PathCchStripToRoot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchStripToRoot
 ---
 
 # PathCchStripToRoot function
+
 
 ## -description
 
@@ -55,7 +57,6 @@ Removes all file and directory elements in a path except for the root informatio
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 <div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div>
-
 
 ## -parameters
 
@@ -93,4 +94,4 @@ Some examples of the effect of this function:
 <td>"\"</td>
 </tr>
 </table>
- 
+

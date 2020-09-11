@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c1e3e708-b543-4e87-8638-a9946a83e614
 ms.date: 12/05/2018
 ms.keywords: CryptReleaseContext, CryptReleaseContext function [Security], _crypto2_cryptreleasecontext, security.cryptreleasecontext, wincrypt/CryptReleaseContext
-f1_keywords:
-- wincrypt/CryptReleaseContext
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptReleaseContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptReleaseContext
+ - wincrypt/CryptReleaseContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptReleaseContext
 ---
 
 # CryptReleaseContext function
@@ -51,31 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptReleaseContext</b> function releases the handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a>. At each call to this function, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> on the CSP is reduced by one. When the reference count reaches zero, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> is fully released and it can no longer be used by any function in the application.
 
 An application calls this function after finishing the use of the CSP. After this function is called, the released CSP handle is no longer valid. This function does not destroy <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key containers</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key pairs</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hProv [in]
 
 Handle of a cryptographic service provider (CSP) created by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
-
 ### -param dwFlags [in]
 
 Reserved for future use and must be zero. If <i>dwFlags</i> is not set to zero, this function returns <b>FALSE</b> but the CSP is released.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -143,14 +135,8 @@ The <i>hProv</i> parameter does not contain a valid context handle.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After this function has been called, the CSP session is finished and all existing session keys and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash objects</a> created by using the <i>hProv</i> handle are no longer valid. In practice, all of these objects should be destroyed with calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> and 
@@ -163,12 +149,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
@@ -183,7 +164,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
- 
-
- 
 

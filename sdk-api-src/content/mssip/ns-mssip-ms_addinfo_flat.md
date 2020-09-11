@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4
 ms.date: 12/05/2018
 ms.keywords: '*PMS_ADDINFO_FLAT, MS_ADDINFO_FLAT, MS_ADDINFO_FLAT structure [Security], PMS_ADDINFO_FLAT, PMS_ADDINFO_FLAT structure pointer [Security], mssip/MS_ADDINFO_FLAT_, mssip/PMS_ADDINFO_FLAT, security.ms_addinfo_flat'
-f1_keywords:
-- mssip/MS_ADDINFO_FLAT
-dev_langs:
-- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mssip.h
-api_name:
-- MS_ADDINFO_FLAT
 targetos: Windows
 req.typenames: MS_ADDINFO_FLAT, *PMS_ADDINFO_FLAT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MS_ADDINFO_FLAT_
+ - mssip/MS_ADDINFO_FLAT_
+ - PMS_ADDINFO_FLAT
+ - mssip/PMS_ADDINFO_FLAT
+ - MS_ADDINFO_FLAT
+ - mssip/MS_ADDINFO_FLAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mssip.h
+api_name:
+ - MS_ADDINFO_FLAT
 ---
 
 # MS_ADDINFO_FLAT structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MS_ADDINFO_FLAT</b> structure provides additional information about flat or end-to-end subject types.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 The size, in bytes, of this structure.
-
 
 ### -field pIndirectData
 

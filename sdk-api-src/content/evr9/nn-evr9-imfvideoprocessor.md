@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21
 ms.date: 12/05/2018
 ms.keywords: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], IMFVideoProcessor interface [Media Foundation],described, evr9/IMFVideoProcessor, mf.imfvideoprocessor
-f1_keywords:
-- evr9/IMFVideoProcessor
-dev_langs:
-- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoProcessor
+ - evr9/IMFVideoProcessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoProcessor
 ---
 
 # IMFVideoProcessor interface
 
 
 ## -description
-
 
 Controls video processing in the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR). The operations controlled through this interface include color adjustment (ProcAmp), noise filters, and detail filters.
 
@@ -64,7 +64,6 @@ The EVR mixer implements this interface. To get a pointer to the interface, call
 <li>The EVR mixer.
             </li>
 </ul>If you implement a custom mixer for the EVR, the mixer can optionally expose this interface as a service.
-
 
 ## -inheritance
 
@@ -189,12 +188,9 @@ Sets the preferred video processor mode.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface provides access to functionality that is implemented by the graphics driver. The driver provides one or more video processor <i>modes</i>, which are identified by GUID. Each mode has its own set of capabilities. The list of available modes might change depending on the media type of the video.
 
@@ -227,19 +223,11 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvid
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 32f115a4-3096-4af0-a254-1bac39a830d7
 ms.date: 12/05/2018
 ms.keywords: ICSETSTATUSPROC, ICSETSTATUSPROC structure [Windows Multimedia], multimedia.icsetstatusproc_COLLISION563, multimedia.icsetstatusproc_struct, vfw/ICSETSTATUSPROC
-f1_keywords:
-- vfw/ICSETSTATUSPROC
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICSETSTATUSPROC
 targetos: Windows
 req.typenames: ICSETSTATUSPROC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICSETSTATUSPROC
+ - vfw/ICSETSTATUSPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICSETSTATUSPROC
 ---
 
 # ICSETSTATUSPROC structure
@@ -49,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICSETSTATUSPROC</b> structure contains status information used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-set-status-proc">ICM_SET_STATUS_PROC</a> message.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
 Reserved; set to zero.
 
-
 ### -field lParam
 
 Parameter that contains a constant to pass to the status procedure.
-
 
 ### -field Status
 
@@ -82,11 +73,7 @@ Parameter that contains a constant to pass to the status procedure.
 
 Pointer to the status function. Specify <b>NULL</b> if status messages should not be sent. For more information about the callback function, see the <a href="https://docs.microsoft.com/previous-versions/dd743620(v=vs.85)">MyStatusProc</a> function.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-set-status-proc">ICM_SET_STATUS_PROC</a>
 
@@ -101,7 +88,4 @@ Pointer to the status function. Specify <b>NULL</b> if status messages should no
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
- 
-
- 
 

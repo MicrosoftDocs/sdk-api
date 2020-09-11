@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5b77217d-5c63-41be-b4df-338714a90fb9
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], ISyncMgrResolutionHandler interface [Windows Shell],described, _shell_ISyncMgrResolutionHandler, shell.ISyncMgrResolutionHandler, syncmgr/ISyncMgrResolutionHandler
-f1_keywords:
-- syncmgr/ISyncMgrResolutionHandler
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrResolutionHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrResolutionHandler
+ - syncmgr/ISyncMgrResolutionHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrResolutionHandler
 ---
 
 # ISyncMgrResolutionHandler interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that manage synchronizing conflicts. Implement this interface to construct a sync conflict handler. The conflict resolution user interface (UI) will call this interface to resolve the conflict presented to the user.
-       
-
 
 ## -inheritance
 
@@ -114,5 +112,5 @@ Deletes the conflict and removes the <a href="https://docs.microsoft.com/windows
 
 </td>
 </tr>
-</table> 
+</table>
 

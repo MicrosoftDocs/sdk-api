@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 437e448f-9eb3-4dfb-b1e8-61fceb904954
 ms.date: 12/05/2018
 ms.keywords: '*LPMOUSEKEYS, LPMOUSEKEYS, LPMOUSEKEYS structure pointer [Windows Accessibility], MKF_AVAILABLE, MKF_CONFIRMHOTKEY, MKF_HOTKEYACTIVE, MKF_HOTKEYSOUND, MKF_INDICATOR, MKF_LEFTBUTTONDOWN, MKF_LEFTBUTTONSEL, MKF_MODIFIERS, MKF_MOUSEKEYSON, MKF_MOUSEMODE, MKF_REPLACENUMBERS, MKF_RIGHTBUTTONDOWN, MKF_RIGHTBUTTONSEL, MOUSEKEYS, MOUSEKEYS structure [Windows Accessibility], _win32_MOUSEKEYS_str, msaa.mousekeys, tagMOUSEKEYS, winauto.mousekeys, winuser/LPMOUSEKEYS, winuser/MOUSEKEYS'
-f1_keywords:
-- winuser/MOUSEKEYS
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MOUSEKEYS
 targetos: Windows
 req.typenames: MOUSEKEYS, *LPMOUSEKEYS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMOUSEKEYS
+ - winuser/tagMOUSEKEYS
+ - LPMOUSEKEYS
+ - winuser/LPMOUSEKEYS
+ - MOUSEKEYS
+ - winuser/MOUSEKEYS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MOUSEKEYS
 ---
 
 # MOUSEKEYS structure
@@ -49,22 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the MouseKeys accessibility feature. When the MouseKeys feature is active, the user can use the numeric keypad to control the mouse pointer, and to click, double-click, drag, and drop. By pressing NUMLOCK, the user can toggle the numeric keypad between mouse control mode and normal operation.
-      
-
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the size, in bytes, of this structure.
-
 
 ### -field dwFlags
 
@@ -224,8 +222,6 @@ If this flag is set, the MouseKeys feature is on.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iMaxSpeed
 
@@ -237,13 +233,11 @@ Specifies the maximum speed the mouse cursor attains when an arrow key is held d
 
 <b>Windows NT/2000:</b> Valid values are from 10 to 360.
 
-
 ### -field iTimeToMaxSpeed
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, that it takes for the mouse cursor to reach maximum speed when an arrow key is held down. Valid values are from 1000 to 5000.
-
 
 ### -field iCtrlSpeed
 
@@ -251,13 +245,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Specifies the multiplier to apply to the mouse cursor speed when the user holds down the CTRL key while using the arrow keys to move the cursor. this value is ignored if MKF_MODIFIERS is not set.
 
-
 ### -field dwReserved1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 This member is reserved for future use. It must be set to zero.
-
 
 ### -field dwReserved2
 
@@ -265,10 +257,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 This member is reserved for future use. It must be set to zero.
 
-
 ## -remarks
-
-
 
 An application uses a <b>MOUSEKEYS</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETMOUSEKEYS</b> or <b>SPI_SETMOUSEKEYS</b> value. When using <b>SPI_GETMOUSEKEYS</b>, an application must specify the <b>cbSize</b> member of the <b>MOUSEKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETMOUSEKEYS</b> value.
 
@@ -282,19 +271,11 @@ If you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-w
 <li><b>MKF_RIGHTBUTTONSEL</b></li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
 

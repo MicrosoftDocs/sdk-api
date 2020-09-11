@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 90103468-fcdc-4c40-b328-29fe467b9039
 ms.date: 12/05/2018
 ms.keywords: ICSeqCompressFrameStart, ICSeqCompressFrameStart function [Windows Multimedia], _win32_ICSeqCompressFrameStart, multimedia.icseqcompressframestart, vfw/ICSeqCompressFrameStart
-f1_keywords:
-- vfw/ICSeqCompressFrameStart
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- ICSeqCompressFrameStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICSeqCompressFrameStart
+ - vfw/ICSeqCompressFrameStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - ICSeqCompressFrameStart
 ---
 
 # ICSeqCompressFrameStart function
@@ -49,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICSeqCompressFrameStart</b> function initializes resources for compressing a sequence of frames using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icseqcompressframe">ICSeqCompressFrame</a> function.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pc
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure initialized with information for compression.
 
-
 ### -param lpbiIn
 
 Format of the data to be compressed.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function uses a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure to provide settings for the specified compressor and intersperses key frames at the rate specified by the <b>lKey</b> member of <b>COMPVARS</b>. You can specify values for the data rate for the sequence and the key-frame frequency by using the appropriate members of <b>COMPVARS</b>.
 
@@ -93,20 +77,11 @@ When finished with compression, use the <a href="https://docs.microsoft.com/wind
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> needs to be initialized before you use this function. You can initialize the structure manually or you can allow the user to specify a compressor and initialize a <b>COMPVARS</b> structure by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompressorchoose">ICCompressorChoose</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
 

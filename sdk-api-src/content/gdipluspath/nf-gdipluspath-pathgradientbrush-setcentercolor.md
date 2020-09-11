@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setcentercolor.htm
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetCenterColor method, PathGradientBrush.SetCenterColor, PathGradientBrush::SetCenterColor, SetCenterColor, SetCenterColor method [GDI+], SetCenterColor method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetCenterColor_color_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetCenterColor_color_
-f1_keywords:
-- gdipluspath/PathGradientBrush.SetCenterColor
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- PathGradientBrush.SetCenterColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - PathGradientBrush::SetCenterColor
+ - gdipluspath/PathGradientBrush::SetCenterColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - PathGradientBrush.SetCenterColor
 ---
 
 # PathGradientBrush::SetCenterColor
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PathGradientBrush::SetCenterColor</b> method sets the center color of this path gradient brush. The center color is the color that appears at the brush's center point.
 
-
 ## -parameters
-
-
-
 
 ### -param color [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the center color. 
-
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the center color.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -78,12 +71,7 @@ If the method succeeds, it returns <b>Ok</b>, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 By default the center point is the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.
 
@@ -123,14 +111,7 @@ VOID Example_SetCenter(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -165,7 +146,4 @@ VOID Example_SetCenter(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)">PathGradientBrush::SetCenterPoint Methods</a>
- 
-
- 
 

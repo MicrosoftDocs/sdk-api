@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 6c29bbe0-840f-4eaf-97ad-40b0f89cadfd
 ms.date: 12/05/2018
 ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], IManagedPoolAction interface [COM+],described, _cos_IManagedPoolAction, comsvcs/IManagedPoolAction, cos.imanagedpoolaction
-f1_keywords:
-- comsvcs/IManagedPoolAction
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IManagedPoolAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IManagedPoolAction
+ - comsvcs/IManagedPoolAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IManagedPoolAction
 ---
 
 # IManagedPoolAction interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an object to be notified before it is released from a COM+ object pool.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Called when a COM+ object pool drops the last reference to the object that imple
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--object-pooling">COM+ Object Pooling</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a>
- 
-
- 
 

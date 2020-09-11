@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c5ab5b4c-dc0c-416b-aa9e-b939398cfa6d
 ms.date: 12/05/2018
 ms.keywords: CertEnumCertificatesInStore, CertEnumCertificatesInStore function [Security], _crypto2_certenumcertificatesinstore, security.certenumcertificatesinstore, wincrypt/CertEnumCertificatesInStore
-f1_keywords:
-- wincrypt/CertEnumCertificatesInStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertEnumCertificatesInStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertEnumCertificatesInStore
+ - wincrypt/CertEnumCertificatesInStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertEnumCertificatesInStore
 ---
 
 # CertEnumCertificatesInStore function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertEnumCertificatesInStore</b> function retrieves the first or next certificate in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. Used in a loop, this function can retrieve in sequence all certificates in a certificate store.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 A handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
-
 
 ### -param pPrevCertContext [in]
 
@@ -73,10 +68,7 @@ This parameter must be <b>NULL</b> to begin the enumeration and get the first ce
 For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logical stores</a>, including collection stores, a duplicate of the <i>pCertContext</i> returned by this function cannot be used to begin a new subsequence of enumerations because the duplicated certificate loses the initial enumeration <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>. The enumeration skips any certificate previously deleted by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecertificatefromstore">CertDeleteCertificateFromStore</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns  a pointer to the next 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> in the store. If no more certificates exist in the store, the function returns <b>NULL</b>.
@@ -123,14 +115,8 @@ Applies to external stores. No certificates were found. This happens if the stor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The returned pointer is freed when passed as the <i>pPrevCertContext</i> parameter on a subsequent call. Otherwise, the pointer must be freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. A non-<b>NULL</b> <i>pPrevCertContext</i> passed to <b>CertEnumCertificatesInStore</b> is always freed even for an error.
@@ -198,14 +184,7 @@ if (!CertCloseStore(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
@@ -236,7 +215,4 @@ if (!CertCloseStore(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
 

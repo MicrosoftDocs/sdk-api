@@ -8,10 +8,6 @@ tech.root: OpenGL
 ms.assetid: e9a65f3a-6932-462f-b342-a993d222fae8
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat function [OpenGL], _ogl_GetPixelFormat, opengl.getpixelformat, wingdi/GetPixelFormat
-f1_keywords:
-- wingdi/GetPixelFormat
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPixelFormat
+ - wingdi/GetPixelFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetPixelFormat
 ---
 
 # GetPixelFormat function
@@ -51,35 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetPixelFormat</b> function obtains the index of the currently selected pixel format of the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc
 
 Specifies the device context of the currently selected pixel format index returned by the function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the currently selected pixel format index of the specified device context. This is a positive, one-based index value.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>
 
@@ -98,7 +85,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/OpenGL/win32-functions">Windows Functions</a>
- 
-
- 
 

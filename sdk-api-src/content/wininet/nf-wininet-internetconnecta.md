@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 42b5d733-dccd-4c9d-8820-e358e033077c
 ms.date: 12/05/2018
 ms.keywords: InternetConnect, InternetConnect function [WinINet], InternetConnectA, InternetConnectW, _win32_internetconnect, wininet.internetconnect, wininet/InternetConnect, wininet/InternetConnectA, wininet/InternetConnectW
-f1_keywords:
-- wininet/InternetConnect
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetConnect
-- InternetConnectA
-- InternetConnectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetConnectA
+ - wininet/InternetConnectA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetConnect
+ - InternetConnectA
+ - InternetConnectW
 ---
 
 # InternetConnectA function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an File Transfer Protocol (FTP) or HTTP session for a given site.
 
-
 ## -parameters
-
-
-
 
 ### -param hInternet [in]
 
 Handle returned by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a>.
 
-
 ### -param lpszServerName [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the host name of an Internet server. Alternately, the string can contain the IP number of the site, in ASCII dotted-decimal format (for example, 11.0.1.45).
-
 
 ### -param nServerPort [in]
 
@@ -151,13 +145,10 @@ Uses the default port for the service specified by
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszUserName [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the name of the user to log on. If this parameter is <b>NULL</b>, the function uses an appropriate default. For the FTP protocol, the default is "anonymous".
-
 
 ### -param lpszPassword [in]
 
@@ -166,7 +157,6 @@ Pointer to a <b>null</b>-terminated string that contains the password to use to 
 <i>lpszUsername</i> are <b>NULL</b>, the function uses the default "anonymous" password. In the case of FTP, the default password is the user's email name. If 
 <i>lpszPassword</i> is <b>NULL</b>, but 
 <i>lpszUsername</i> is not <b>NULL</b>, the function uses a blank password.
-
 
 ### -param dwService [in]
 
@@ -213,8 +203,6 @@ HTTP service.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -222,26 +210,17 @@ Options specific to the service used. If
 <i>dwService</i> is INTERNET_SERVICE_FTP, 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_PASSIVE</a> causes the application to use passive FTP semantics.
 
-
 ### -param dwContext [in]
 
 Pointer to a variable that contains an application-defined value that is used to identify the application context for the returned handle in callbacks.
 
-
 ## -returns
-
-
 
 Returns a valid handle to the session if the connection is successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> to determine why access to the service was denied.
 
-
-
-
 ## -remarks
-
-
 
 The following table describes the behavior for the four possible settings of 
 <i>lpszUsername</i> and 
@@ -326,15 +305,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

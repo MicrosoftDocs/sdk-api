@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: B0315585-A41C-423C-A059-14C2F04F6652
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings3, ITaskSettings3 interface [Task Scheduler], ITaskSettings3 interface [Task Scheduler],described, taskschd.itasksettings3, taskschd/ITaskSettings3
-f1_keywords:
-- taskschd/ITaskSettings3
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.h
-api_name:
-- ITaskSettings3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskSettings3
+ - taskschd/ITaskSettings3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.h
+api_name:
+ - ITaskSettings3
 ---
 
 # ITaskSettings3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the extended settings that the Task Scheduler uses to run the task.
-
 
 ## -inheritance
 
@@ -118,16 +117,9 @@ Gets or sets a boolean value that indicates whether the task is automatically di
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
- 
-
- 
 

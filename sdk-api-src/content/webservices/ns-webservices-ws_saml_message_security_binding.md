@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 713afe9a-49b8-419a-b78b-d3b5a4a8d073
 ms.date: 12/05/2018
 ms.keywords: WS_SAML_MESSAGE_SECURITY_BINDING, WS_SAML_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SAML_MESSAGE_SECURITY_BINDING, wsw.ws_saml_message_security_binding
-f1_keywords:
-- webservices/WS_SAML_MESSAGE_SECURITY_BINDING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_SAML_MESSAGE_SECURITY_BINDING
 targetos: Windows
 req.typenames: WS_SAML_MESSAGE_SECURITY_BINDING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_SAML_MESSAGE_SECURITY_BINDING
+ - webservices/_WS_SAML_MESSAGE_SECURITY_BINDING
+ - WS_SAML_MESSAGE_SECURITY_BINDING
+ - webservices/WS_SAML_MESSAGE_SECURITY_BINDING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_SAML_MESSAGE_SECURITY_BINDING
 ---
 
 # WS_SAML_MESSAGE_SECURITY_BINDING structure
 
 
 ## -description
-
 
 The security binding subtype for specifying the use of a SAML
 assertion as a message security token.  The SAML token is expected to
@@ -75,19 +77,12 @@ and do further processing.
             
 
 With this security binding, no security binding properties may be specified:
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field binding
 
 The base type from which this security binding subtype and all other security binding subtypes derive.
-                
-
 
 ### -field bindingUsage
 
@@ -105,10 +100,8 @@ channel.
 
 To use this binding on HTTP without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>. This is not supported on the client or on TCP.
 
-
 ### -field authenticator
 
 The authenticator for validating incoming SAML tokens.  This field is
 required.
-                
 

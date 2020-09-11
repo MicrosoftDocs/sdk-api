@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 672ea208-4048-4d2f-9606-ee3e2133765b
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1005, 2, 501, 502, 503, NetShareGetInfo, NetShareGetInfo function [Files], _win32_netsharegetinfo, fs.netsharegetinfo, lmshare/NetShareGetInfo, netmgmt.netsharegetinfo
-f1_keywords:
-- lmshare/NetShareGetInfo
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetShareGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetShareGetInfo
+ - lmshare/NetShareGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetShareGetInfo
 ---
 
 # NetShareGetInfo function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a particular shared resource on a server.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param netname [in]
 
 Pointer to a string that specifies the name of the share for which to return information.
-
 
 ### -param level [in]
 
@@ -159,8 +153,6 @@ Specifies information about the shared resource, including the name of the resou
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -173,10 +165,7 @@ Pointer to the buffer that receives the data. The format of this data depends on
 This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -243,14 +232,8 @@ The share name does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function applies only to Server Message Block (SMB) shares. For other types of shares, such as Distributed File System (DFS) or WebDAV shares, use <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows Networking (WNet) functions</a>, which support all types of shares.
 
@@ -334,14 +317,7 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a>
 
@@ -390,7 +366,4 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a>
- 
-
- 
 

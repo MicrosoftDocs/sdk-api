@@ -8,10 +8,6 @@ tech.root: audio
 ms.assetid: E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC
 ms.date: 12/05/2018
 ms.keywords: APOInitSystemEffects, APOInitSystemEffects structure [Audio Devices], PAPOInitSystemEffects, PAPOInitSystemEffects structure pointer [Audio Devices], audio.apoinitsystemeffects, audioenginebaseapo/APOInitSystemEffects, audioenginebaseapo/PAPOInitSystemEffects
-f1_keywords:
-- audioenginebaseapo/APOInitSystemEffects
-dev_langs:
-- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Audioenginebaseapo.h
-api_name:
-- APOInitSystemEffects
 targetos: Windows
 req.typenames: APOInitSystemEffects
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - APOInitSystemEffects
+ - audioenginebaseapo/APOInitSystemEffects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Audioenginebaseapo.h
+api_name:
+ - APOInitSystemEffects
 ---
 
 # APOInitSystemEffects structure
@@ -49,45 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The APOInitSystemEffects structure gets passed to the system effects APO for  
 initialization.
 
-
 ## -struct-fields
-
-
-
 
 ### -field APOInit
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitbasestruct">APOInitBaseStruct</a> structure.
 
-
 ### -field pAPOEndpointProperties
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
-
 
 ### -field pAPOSystemEffectsProperties
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
 
-
 ### -field pReserved
 
 Reserved for future use.
-
 
 ### -field pDeviceCollection
 
 A pointer to an IMMDeviceCollection object.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitbasestruct">APOInitBaseStruct</a>
 
@@ -98,7 +86,4 @@ A pointer to an IMMDeviceCollection object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 26905280-3470-4fe9-9464-e7e4a04e2bd3
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_CUE_PARMS, MCI_DGV_CUE_PARMS, MCI_DGV_CUE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_CUE_PARMS_str, digitalv/MCI_DGV_CUE_PARMS, multimedia.mci_dgv_cue_parms'
-f1_keywords:
-- digitalv/MCI_DGV_CUE_PARMS
-dev_langs:
-- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Digitalv.h
-api_name:
-- MCI_DGV_CUE_PARMS
 targetos: Windows
 req.typenames: MCI_DGV_CUE_PARMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCI_DGV_CUE_PARMS
+ - digitalv/MCI_DGV_CUE_PARMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Digitalv.h
+api_name:
+ - MCI_DGV_CUE_PARMS
 ---
 
 # MCI_DGV_CUE_PARMS structure
@@ -49,41 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCI_DGV_CUE_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-cue">MCI_CUE</a> command for digital-video devices.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwCallback
 
 The low-order word specifies a window handle used for the MCI_NOTIFY flag.
 
-
 ### -field dwTo
 
 Cue position.
 
-
 ## -remarks
-
-
 
 When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
 
@@ -98,7 +81,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
- 
-
- 
 

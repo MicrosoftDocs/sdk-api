@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 758c5553-056f-4ea5-a851-30ef641ffb14
 ms.date: 12/05/2018
 ms.keywords: '*LPWSAPROTOCOL_INFOA, AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPWSAPROTOCOL_INFOA, LPWSAPROTOCOL_INFOA structure pointer [Winsock], PFL_HIDDEN, PFL_MATCHES_PROTOCOL_ZERO, PFL_MULTIPLE_PROTO_ENTRIES, PFL_NETWORKDIRECT_PROVIDER, PFL_RECOMMENDED_PROTO_ENTRY, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, WSAPROTOCOL_INFO, WSAPROTOCOL_INFOA, WSAPROTOCOL_INFOA structure [Winsock], WSAPROTOCOL_INFOW, XP1_CONNECTIONLESS, XP1_CONNECT_DATA, XP1_DISCONNECT_DATA, XP1_EXPEDITED_DATA, XP1_GRACEFUL_CLOSE, XP1_GUARANTEED_DELIVERY, XP1_GUARANTEED_ORDER, XP1_IFS_HANDLES, XP1_INTERRUPT, XP1_MESSAGE_ORIENTED, XP1_MULTIPOINT_CONTROL_PLANE, XP1_MULTIPOINT_DATA_PLANE, XP1_PARTIAL_MESSAGE, XP1_PSEUDO_STREAM, XP1_QOS_SUPPORTED, XP1_SAN_SUPPORT_SDP, XP1_SUPPORT_BROADCAST, XP1_SUPPORT_MULTIPOINT, XP1_UNI_RECV, XP1_UNI_SEND, _WSAPROTOCOL_INFOA, _win32_wsaprotocol_info_2, winsock.wsaprotocol_info_2, winsock2/LPWSAPROTOCOL_INFOA, winsock2/WSAPROTOCOL_INFOA, winsock2/WSAPROTOCOL_INFOW'
-f1_keywords:
-- winsock2/WSAPROTOCOL_INFOA
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsock2.h
-api_name:
-- WSAPROTOCOL_INFOA
-- WSAPROTOCOL_INFOA
-- WSAPROTOCOL_INFOW
 targetos: Windows
 req.typenames: WSAPROTOCOL_INFOA, *LPWSAPROTOCOL_INFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSAPROTOCOL_INFOA
+ - winsock2/_WSAPROTOCOL_INFOA
+ - LPWSAPROTOCOL_INFOA
+ - winsock2/LPWSAPROTOCOL_INFOA
+ - WSAPROTOCOL_INFOA
+ - winsock2/WSAPROTOCOL_INFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsock2.h
+api_name:
+ - WSAPROTOCOL_INFOA
+ - WSAPROTOCOL_INFOA
+ - WSAPROTOCOL_INFOW
 ---
 
 # WSAPROTOCOL_INFOA structure
@@ -51,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAPROTOCOL_INFO</b> structure is used to store or retrieve complete information for a given protocol.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwServiceFlags1
 
@@ -309,20 +309,17 @@ Type: <b>DWORD</b>
 
 Reserved for additional protocol-attribute definitions.
 
-
 ### -field dwServiceFlags3
 
 Type: <b>DWORD</b>
 
 Reserved for additional protocol-attribute definitions.
 
-
 ### -field dwServiceFlags4
 
 Type: <b>DWORD</b>
 
 Reserved for additional protocol-attribute definitions.
-
 
 ### -field dwProviderFlags
 
@@ -398,8 +395,6 @@ This value is supported on Windows 7 and Windows Server 2008 R2.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ProviderId
 
@@ -407,18 +402,11 @@ Type: <b>GUID</b>
 
 A globally unique identifier (GUID) assigned to the provider by the service provider vendor. This value is useful for instances where more than one service provider is able to implement a particular protocol. An application can use the <b>ProviderId</b> member to distinguish between providers that might otherwise be indistinguishable.
 
-
 ### -field dwCatalogEntryId
 
 Type: <b>DWORD</b>
 
-A unique identifier assigned by the WS2_32.DLL for each <b>WSAPROTOCOL_INFO</b> structure. 
-
-
-
-						
-					
-
+A unique identifier assigned by the WS2_32.DLL for each <b>WSAPROTOCOL_INFO</b> structure.
 
 ### -field ProtocolChain
 
@@ -426,13 +414,11 @@ Type: <b>WSAPROTOCOLCHAIN</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocolchain">WSAPROTOCOLCHAIN</a> structure associated with the protocol. If the length of the chain is 0, this <b>WSAPROTOCOL_INFO</b> entry represents a layered protocol which has Windows Sockets 2 SPI as both its top and bottom edges. If the length of the chain equals 1, this entry represents a base protocol whose Catalog Entry identifier is in the <b>dwCatalogEntryId</b> member of the <b>WSAPROTOCOL_INFO</b> structure. If the length of the chain is larger than 1, this entry represents a protocol chain which consists of one or more layered protocols on top of a base protocol. The corresponding Catalog Entry identifiers are in the ProtocolChain.ChainEntries array starting with the layered protocol at the top (the zero element in the ProtocolChain.ChainEntries array) and ending with the base protocol. Refer to the Windows Sockets 2 Service Provider Interface specification for more information on protocol chains.
 
-
 ### -field iVersion
 
 Type: <b>int</b>
 
 The protocol version identifier.
-
 
 ### -field iAddressFamily
 
@@ -549,8 +535,6 @@ This address family is supported on Windows XP with SP2 or later if the compute
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iMaxSockAddr
 
@@ -558,13 +542,11 @@ Type: <b>int</b>
 
 The maximum address length, in bytes.
 
-
 ### -field iMinSockAddr
 
 Type: <b>int</b>
 
 The minimum address length, in bytes.
-
 
 ### -field iSocketType
 
@@ -638,8 +620,6 @@ A socket type that provides a pseudo-stream packet based on datagrams.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iProtocol
 
@@ -747,8 +727,6 @@ This value is only supported if the Reliable Multicast Protocol is installed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iProtocolMaxOffset
 
@@ -757,20 +735,17 @@ Type: <b>int</b>
 The maximum value that may be added to <b>iProtocol</b> when supplying a value for the <i>protocol</i> parameter to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function. Not all protocols allow a range of values. When this is the case <b>iProtocolMaxOffset</b> is zero.
 
-
 ### -field iNetworkByteOrder
 
 Type: <b>int</b>
 
 Currently these values are manifest constants (BIGENDIAN and LITTLEENDIAN) that indicate either big-endian or little-endian with the values 0 and 1 respectively.
 
-
 ### -field iSecurityScheme
 
 Type: <b>int</b>
 
 The type of security scheme employed (if any). A value of SECURITY_PROTOCOL_NONE (0) is used for protocols that do not incorporate security provisions.
-
 
 ### -field dwMessageSize
 
@@ -818,8 +793,6 @@ The protocol is message-oriented, but there is no maximum limit to the size of m
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwProviderReserved
 
@@ -827,18 +800,13 @@ Type: <b>DWORD</b>
 
 Reserved for use by service providers.
 
-
 ### -field szProtocol
 
 Type: <b>TCHAR[WSAPROTOCOL_LEN+1]</b>
 
 An array of characters that contains a human-readable name identifying the protocol, for example "MSAFD Tcpip [UDP/IP]". The maximum number of characters allowed is WSAPROTOCOL_LEN, which is defined to be 255.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
 
@@ -885,9 +853,6 @@ An array of characters that contains a human-readable name identifying the proto
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 
 ## -remarks
 

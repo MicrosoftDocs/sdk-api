@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayerCallback interface [Media Foundation],OnMediaPlayerEvent method, IMFPMediaPlayerCallback.OnMediaPlayerEvent, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation],IMFPMediaPlayerCallback interface, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
-f1_keywords:
-- mfplay/IMFPMediaPlayerCallback.OnMediaPlayerEvent
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayerCallback.OnMediaPlayerEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayerCallback::OnMediaPlayerEvent
+ - mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayerCallback.OnMediaPlayerEvent
 ---
 
 # IMFPMediaPlayerCallback::OnMediaPlayerEvent
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Called by the MFPlay player object to notify the application of a playback event.
 
-
 ## -parameters
-
-
-
 
 ### -param pEventHeader [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ns-mfplay-mfp_event_header">MFP_EVENT_HEADER</a> structure that contains information about the event.
 
-
 ## -remarks
-
-
 
 The specific type of playback event is given in the <b>eEventType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ns-mfplay-mfp_event_header">MFP_EVENT_HEADER</a> structure. This structure contains information that is common to all of the event types. Some event types use extended structures. A set of macros is defined for casting the <i>pEventHeader</i> pointer to the correct structure type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ne-mfplay-mfp_event_type">MFP_EVENT_TYPE</a>.
       
@@ -161,21 +153,11 @@ void STDMETHODCALLTYPE PlayerCallback::OnMediaPlayerEvent(MFP_EVENT_HEADER * pEv
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

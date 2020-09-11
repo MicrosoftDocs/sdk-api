@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessage.htm
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage function [Windows and Messages], GetMessageA, GetMessageW, _win32_GetMessage, _win32_getmessage_cpp, winmsg.getmessage, winui._win32_getmessage, winuser/GetMessage, winuser/GetMessageA, winuser/GetMessageW
-f1_keywords:
-- winuser/GetMessage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-message-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-message-l1-1-0.dll
-- Ext-MS-Win-NTUser-message-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- Ext-MS-Win-NTUser-Message-l1-1-2.dll
-- Ext-MS-Win-NTUser-Message-L1-1-3.dll
-api_name:
-- GetMessage
-- GetMessageA
-- GetMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetMessage
+ - winuser/GetMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-message-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-message-l1-1-0.dll
+ - Ext-MS-Win-NTUser-message-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - GetMessage
+ - GetMessageA
+ - GetMessageW
 ---
 
 # GetMessage function
@@ -60,24 +61,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval. 
 			
 
 Unlike <b>GetMessage</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function does not wait for a message to be posted before returning.
 
-
 ## -parameters
-
-
-
 
 ### -param lpMsg [out]
 
 Type: <b>LPMSG</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that receives message information from the thread's message queue.
-
 
 ### -param hWnd [in, optional]
 
@@ -90,7 +85,6 @@ If <i>hWnd</i> is <b>NULL</b>, <b>GetMessage</b> retrieves messages for any wind
 
  If <i>hWnd</i> is -1, <b>GetMessage</b> retrieves only messages on the current thread's message queue whose <b>hwnd</b> value is <b>NULL</b>,  that is, thread messages as posted by  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> (when the <i>hWnd</i> parameter is <b>NULL</b>) or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a>.
 
-
 ### -param wMsgFilterMin [in]
 
 Type: <b>UINT</b>
@@ -99,8 +93,7 @@ The integer value of the lowest message value to be retrieved. Use <b>WM_KEYFIRS
 
 Use <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a> here and in <i>wMsgFilterMax</i> to specify only the <b>WM_INPUT</b> messages.
 
-If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, <b>GetMessage</b> returns all available messages (that is, no range filtering is performed). 
-
+If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, <b>GetMessage</b> returns all available messages (that is, no range filtering is performed).
 
 ### -param wMsgFilterMax [in]
 
@@ -111,12 +104,9 @@ The integer value of the highest message value to be retrieved. Use <b>WM_KEYLAS
 
 Use <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a> here and in <i>wMsgFilterMin</i> to specify only the <b>WM_INPUT</b> messages.
 
-If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, <b>GetMessage</b> returns all available messages (that is, no range filtering is performed). 
-
+If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, <b>GetMessage</b> returns all available messages (that is, no range filtering is performed).
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -154,13 +144,7 @@ while( (bRet = GetMessage( &msg, hWnd, 0, 0 )) != 0)
 }
 ```
 
-
-
-
-
 ## -remarks
-
-
 
 An application typically uses the return value to determine whether to end the main message loop and exit the program. 
 
@@ -197,12 +181,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -237,7 +216,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a>
- 
-
- 
 

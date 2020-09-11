@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 894E6E30-6C28-476D-9AE5-D0664A69E03C
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetContent method, IDCompositionVisual.SetContent, IDCompositionVisual::SetContent, SetContent, SetContent method [DirectComposition], SetContent method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetContent, directcomp.idcompositionvisual_setcontent
-f1_keywords:
-- dcomp/IDCompositionVisual.SetContent
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionVisual.SetContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionVisual::SetContent
+ - dcomp/IDCompositionVisual::SetContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionVisual.SetContent
 ---
 
 # IDCompositionVisual::SetContent
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the Content property of this visual to the specified bitmap or window wrapper.
 
-
 ## -parameters
-
-
-
 
 ### -param content [in, optional]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 The object that is the new content of this visual. This parameter can be NULL.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 The <i>content</i> parameter must point to one of the following:
 
@@ -98,20 +86,11 @@ A DirectComposition surface wrapper is created with the <a href="https://docs.mi
 
 The bitmap is always drawn at position (0,0) relative to the visual's coordinate system, although the coordinate system is directly affected by the OffsetX, OffsetY, and Transform properties, as well as indirectly by the transformations on ancestor visuals. The bitmap of a visual is always drawn behind the children of that visual.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
 
 
 
 <b>IDXGIFactory2::CreateSwapChain1</b>
- 
-
- 
 

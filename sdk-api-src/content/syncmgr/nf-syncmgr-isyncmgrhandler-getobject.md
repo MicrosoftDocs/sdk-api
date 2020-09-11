@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 91441b28-a2d8-4114-86dd-9a3e826deef4
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetObject method, ISyncMgrHandler.GetObject, ISyncMgrHandler::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventLinkClick, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeActivate, SYNCMGR_OBJECTID_QueryBeforeDeactivate, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, SYNCMGR_OBJECTID_ShowSchedule, _shell_ISyncMgrHandler_GetObject, shell.ISyncMgrHandler_GetObject, syncmgr/ISyncMgrHandler::GetObject
-f1_keywords:
-- syncmgr/ISyncMgrHandler.GetObject
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrHandler.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrHandler::GetObject
+ - syncmgr/ISyncMgrHandler::GetObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrHandler.GetObject
 ---
 
 # ISyncMgrHandler::GetObject
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a specific type of object related to the handler.
 
-
 ## -parameters
-
-
-
 
 ### -param rguidObjectID [in]
 
@@ -162,13 +158,11 @@ An object implementing the <a href="https://docs.microsoft.com/windows/desktop/a
 
 Sync Center only requests this object if the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_capabilities">SYNCMGR_HCM_CAN_SHOW_SCHEDULE</a> capability flag is set in the mask retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">GetCapabilities</a>.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 The IID of the requested interface. This depends on the object type named in <i>rguidObjectID</i>.
-
 
 ### -param ppv [out]
 
@@ -176,21 +170,13 @@ Type: <b>void**</b>
 
 When this method returns, contains the address of a pointer to the requested interface.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. Returns E_NOTIMPL if the handler does not support the requested type of object.
 
-
-
-
 ## -remarks
-
-
 
 The handler can implement the requested interface on itself or it can implement it on a different object.
 
@@ -223,7 +209,4 @@ STDMETHODIMP CMyDeviceHandler::GetObject( __in REFGUID   rguidObjectID,
 }
 
 ```
-
-
-
 

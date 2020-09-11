@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 89e7526f-2b9b-4f37-b537-5046a0ac283d
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], IWriteEngine2 interface [IMAPI],described, imapi.iwriteengine2, imapi2/IWriteEngine2
-f1_keywords:
-- imapi2/IWriteEngine2
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2
+ - imapi2/IWriteEngine2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2
 ---
 
 # IWriteEngine2 interface
 
 
 ## -description
-
 
 Use this interface to write a data stream to a device.
 
@@ -65,7 +65,6 @@ This interface should be used by those  developing support for new media types o
 Most client applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> interface to write images to a device.
 
 To create an instance of this interface, call the <b>CoCreateInstance</b> function. Use__uuidof(MsftWriteEngine2) for the class identifier and __uuidof(IWriteEngine2) for the interface identifier.
-
 
 ## -inheritance
 
@@ -199,24 +198,15 @@ Writes a data stream to the current recorder.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To create the <b>MsftWriteEngine2</b> object in a script, use IMAPI2.MsftWriteEngine2 as the program identifier when calling <b>CreateObject</b>.
 
  It is possible for a power state transition to take place during a burn operation (i.e. user log-off or system suspend) which leads to the  interruption of the burn process and  possible data loss. For programming considerations, see <a href="https://docs.microsoft.com/windows/desktop/imapi/preventing-logoff-or-suspend-during-a-burn">Preventing Logoff or Suspend During a Burn</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events">DWriteEngine2Events</a>
 
@@ -243,7 +233,4 @@ To create the <b>MsftWriteEngine2</b> object in a script, use IMAPI2.MsftWriteEn
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
- 
-
- 
 

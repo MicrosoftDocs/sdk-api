@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: a42d0791-28d0-4d83-b94d-ff2f8ef9a614
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], IEnumEventObject interface [COM+],described, _cos_ienumeventobject, cos.ienumeventobject, eventsys/IEnumEventObject
-f1_keywords:
-- eventsys/IEnumEventObject
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Eventsys.h
-api_name:
-- IEnumEventObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumEventObject
+ - eventsys/IEnumEventObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Eventsys.h
+api_name:
+ - IEnumEventObject
 ---
 
 # IEnumEventObject interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the event objects that are registered in the COM+ events store.
 
 Similar functionality is available through <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>.
-
 
 ## -inheritance
 
@@ -106,16 +105,9 @@ Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>
- 
-
- 
 

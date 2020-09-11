@@ -5,10 +5,6 @@ description: Targets a monitor(s) for the creation of a graphics capture item.
 helpviewer_keywords: ["IGraphicsCaptureItemInterop::CreateForMonitor"]
 ms.date: 6/24/2019
 ms.keywords: IGraphicsCaptureItemInterop::CreateForMonitor
-f1_keywords:
-- IGraphicsCaptureItemInterop::CreateForMonitor
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,15 +25,20 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- windows.h
-api_name:
-- IGraphicsCaptureItemInterop::CreateForMonitor
 tech.root: winrt
+f1_keywords:
+ - IGraphicsCaptureItemInterop::CreateForMonitor
+ - windows.graphics.capture.interop/IGraphicsCaptureItemInterop::CreateForMonitor
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - windows.h
+api_name:
+ - IGraphicsCaptureItemInterop::CreateForMonitor
 ---
 
 ## -description
@@ -73,3 +74,4 @@ The return error code.
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4x7p_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingQueue, IFaxIncomingQueue interface [Fax Service], IFaxIncomingQueue interface [Fax Service],described, _mfax_faxincomingqueue_cpp, fax._mfax_faxincomingqueue_cpp, faxcomex/IFaxIncomingQueue
-f1_keywords:
-- faxcomex/IFaxIncomingQueue
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxIncomingQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxIncomingQueue
+ - faxcomex/IFaxIncomingQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxIncomingQueue
 ---
 
 # IFaxIncomingQueue interface
 
 
 ## -description
-
 
 The <b>IFaxIncomingQueue</b> interface is used by a fax client application to manage the inbound fax jobs (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjobs">FaxIncomingJobs</a> object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.
 
@@ -131,22 +131,13 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create a <b>FaxIncomingQueue</b> object in C++, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxfolders-incomingqueue-vb">IFaxFolders::get_IncomingQueue</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingqueue">FaxIncomingQueue</a>
 
@@ -161,7 +152,4 @@ To create a <b>FaxIncomingQueue</b> object in C++, call the <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingqueue-save-vb">IFaxIncomingQueue::Save</a>
- 
-
- 
 

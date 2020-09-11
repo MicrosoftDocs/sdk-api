@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4b6d5efe-703b-4245-81d8-e2fc7f650d4b
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnBackupShutdown method, CVssWriter.OnBackupShutdown, CVssWriter::OnBackupShutdown, OnBackupShutdown, OnBackupShutdown method [VSS], OnBackupShutdown method [VSS],CVssWriter interface, _win32_cvsswriter_onbackupshutdown, base.cvsswriter_onbackupshutdown, vswriter/CVssWriter::OnBackupShutdown
-f1_keywords:
-- vswriter/CVssWriter.OnBackupShutdown
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.OnBackupShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::OnBackupShutdown
+ - vswriter/CVssWriter::OnBackupShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.OnBackupShutdown
 ---
 
 # CVssWriter::OnBackupShutdown
@@ -50,27 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>OnBackupShutdown</b> method is called by a writer following a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> event. It is used to perform operations considered necessary when a backup application shuts down, particularly in the case of a crash of the backup application.
 
 <b>OnBackupShutdown</b> is a virtual method. It is implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class, but can be overridden by derived classes.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 Identifier for the shadow copy set involved in the backup operation.
 
-
 ## -returns
-
-
 
 As implemented by the base class, 
 <b>OnBackupShutdown</b> always returns <b>true</b>
@@ -80,12 +73,7 @@ Any other implementation of this method should return <b>true</b> except in the 
 
   In all cases when a failure occurs, the method should write an event to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
-
-
 
 The default implementation of this method by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class returns <b>true</b> without performing any other operation.
@@ -115,13 +103,7 @@ Writers should never throw an exception from this method or any other <b>CVssWri
 If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -136,7 +118,4 @@ If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">IVssBackupComponents::BackupComplete</a>
- 
-
- 
 

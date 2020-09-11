@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7a258b0b-d214-46c5-be0a-6493cd14a0e5
 ms.date: 12/05/2018
 ms.keywords: SUCCEEDED, SUCCEEDED macro [COM], _com_SUCCEEDED, com.succeeded, com.succeeded_macro, winerror/SUCCEEDED
-f1_keywords:
-- winerror/SUCCEEDED
-dev_langs:
-- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winerror.h
-api_name:
-- SUCCEEDED
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SUCCEEDED
+ - winerror/SUCCEEDED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winerror.h
+api_name:
+ - SUCCEEDED
 ---
 
 # SUCCEEDED macro
@@ -49,38 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a generic test for success on any status value.
 
-
 ## -parameters
-
-
-
 
 ### -param hr
 
 The status code. This value can be an <b>HRESULT</b> or an <b>SCODE</b>. A non-negative number indicates success.
 
-
-
 ## -remarks
-
-
 
 This macro is defined as follows:
 
 <pre class="syntax" xml:space="preserve"><code>#define SUCCEEDED(hr) (((HRESULT)(hr)) &gt;= 0)</code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
- 
-
- 
 

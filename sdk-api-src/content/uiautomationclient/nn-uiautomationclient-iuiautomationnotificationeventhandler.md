@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 7E12B8C2-D6A7-4637-9049-312B78EC01DE
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationNotificationEventHandler, IUIAutomationNotificationEventHandler interface [Windows Accessibility], IUIAutomationNotificationEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationNotificationEventHandler, winauto.uiauto_IUIAutomationNotificationEventHandler
-f1_keywords:
-- uiautomationclient/IUIAutomationNotificationEventHandler
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationNotificationEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationNotificationEventHandler
+ - uiautomationclient/IUIAutomationNotificationEventHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationNotificationEventHandler
 ---
 
 # IUIAutomationNotificationEventHandler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method to handle Microsoft UI Automation notification events.
-
 
 ## -inheritance
 
@@ -77,26 +76,13 @@ Handles a UI Automation notification event.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is implemented by the application to handle events that it has subscribed to by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation5-addnotificationeventhandler">AddNotificationEventHandler</a>.
-			
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-eventhandlinginterfaces">Event Handling Interfaces for Clients</a>
- 
-
- 
 

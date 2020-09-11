@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
 ms.date: 12/05/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink
-f1_keywords:
-- mfidl/IMFMediaSink
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSink
+ - mfidl/IMFMediaSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSink
 ---
 
 # IMFMediaSink interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implemented by media sink objects. This interface is the base interface for all Media Foundation media sinks. Stream sinks handle the actual processing of data on each stream.
-
 
 ## -inheritance
 
@@ -159,20 +158,13 @@ Shuts down the media sink and releases the resources it is using.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
- 
-
- 
 

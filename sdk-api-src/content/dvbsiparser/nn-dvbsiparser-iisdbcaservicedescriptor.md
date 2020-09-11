@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6d56e39d-3c7a-4c55-8d07-00e25eba18bd
 ms.date: 12/05/2018
 ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAServiceDescriptor, mstv.iisdbcaservicedescriptor
-f1_keywords:
-- dvbsiparser/IIsdbCAServiceDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbCAServiceDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbCAServiceDescriptor
+ - dvbsiparser/IIsdbCAServiceDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbCAServiceDescriptor
 ---
 
 # IIsdbCAServiceDescriptor interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from  an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) service descriptor. The conditional access service descriptor appears in the ISDB service information as part of the conditional access table (CAT). It facilitates the display of  entitlement management message (EMM) automatic display
 messages by indicating the broadcaster group that provides the service, the EMM automatic
 display message, and the delay time for displaying the "EMM automatic display message" .
-
 
 ## -inheritance
 
@@ -124,5 +123,5 @@ Gets the tag that identifies an ISDB CA service descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

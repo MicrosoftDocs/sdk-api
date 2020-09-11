@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 72064f9f-311e-4d7b-9ead-4fe2b7f528a8
 ms.date: 12/05/2018
 ms.keywords: ITfProperty interface [Text Services Framework],SetValue method, ITfProperty.SetValue, ITfProperty::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfProperty interface, _tsf_itfproperty_setvalue_ref, msctf/ITfProperty::SetValue, tsf.itfproperty_setvalue
-f1_keywords:
-- msctf/ITfProperty.SetValue
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfProperty.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfProperty::SetValue
+ - msctf/ITfProperty::SetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfProperty.SetValue
 ---
 
 # ITfProperty::SetValue
@@ -53,27 +54,19 @@ Sets the value of the property for a range.
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
 Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
 
 ### -param pRange [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that contains the range that the property value is set for. This parameter cannot be <b>NULL</b>. This method will fail if <i>pRange</i> is empty.
 
-
 ### -param pvarValue [in]
 
 Pointer to a <b>VARIANT</b> structure that contains the new property value. Only values of type VT_I4, VT_UNKNOWN, VT_BSTR and VT_EMPTY are supported.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -160,14 +153,8 @@ The TSF manager does not own the range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Property values set with this method will be discarded when the text that the property value covers is modified. To gain custom control over a value response to text edits, use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore</a>.
 
@@ -175,13 +162,7 @@ Values set with this method are serialized, except for values of type VT_UNKNOWN
 
 Overlapping property values of the same type are unsupported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
@@ -204,7 +185,4 @@ Overlapping property values of the same type are unsupported.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
- 
-
- 
 

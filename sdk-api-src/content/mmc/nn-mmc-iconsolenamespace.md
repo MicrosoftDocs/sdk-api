@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 0E72A4DF-5A74-49DD-BD94-06860EFFE09A
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace, IConsoleNameSpace interface [MMC], IConsoleNameSpace interface [MMC],described, mmc.iconsolenamespace, mmc/IConsoleNameSpace
-f1_keywords:
-- mmc/IConsoleNameSpace
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsoleNameSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsoleNameSpace
+ - mmc/IConsoleNameSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsoleNameSpace
 ---
 
 # IConsoleNameSpace interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  This interface is obsolete, and only used in MMC 1.0.</div><div> </div>Enables snap-ins to enumerate dynamic subcontainers in the scope pane. The particular snap-in determines what qualifies as a subcontainer. For example, a snap-in that features a domain object might enumerate individual groups or organizations within the domain.
 
 The snap-in can query for a pointer to the 
 <b>IConsoleNameSpace</b> interface during a call to its 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-initialize">IComponentData::Initialize</a> method.
-
 
 ## -inheritance
 
@@ -135,20 +134,13 @@ Enables the snap-in to set the attributes of a single scope pane item.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
- 
-
- 
 

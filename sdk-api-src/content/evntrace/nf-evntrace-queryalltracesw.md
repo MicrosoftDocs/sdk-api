@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 6b6144b0-9152-4b5e-863d-06e823fbe084
 ms.date: 12/05/2018
 ms.keywords: QueryAllTraces, QueryAllTraces function [ETW], QueryAllTracesA, QueryAllTracesW, _evt_queryalltraces, base.queryalltraces, etw.queryalltraces, evntrace/QueryAllTraces, evntrace/QueryAllTracesA, evntrace/QueryAllTracesW
-f1_keywords:
-- evntrace/QueryAllTraces
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Controller-l1-1-0.dll
-- API-MS-Win-Eventing-Legacy-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- QueryAllTraces
-- QueryAllTracesA
-- QueryAllTracesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryAllTracesW
+ - evntrace/QueryAllTracesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Controller-l1-1-0.dll
+ - API-MS-Win-Eventing-Legacy-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - QueryAllTraces
+ - QueryAllTracesA
+ - QueryAllTracesW
 ---
 
 # QueryAllTracesW function
@@ -57,16 +58,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QueryAllTraces</b> function retrieves the properties 
    and statistics for all event tracing sessions started on the computer for which the caller has permissions to 
    query.
 
-
 ## -parameters
-
-
-
 
 ### -param PropertyArray [out]
 
@@ -79,21 +75,16 @@ You only need to set the <b>Wnode.BufferSize</b>,
        <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. The other 
        members should all be set to zero.
 
-
 ### -param PropertyArrayCount [in]
 
 Number of structures in the <i>PropertyArray</i> array. This value must be less than or 
       equal to 64, the maximum number of event tracing sessions that ETW supports.
 
-
 ### -param LoggerCount [out]
 
-Actual number of event tracing sessions started on the computer. 
-
+Actual number of event tracing sessions started on the computer.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -136,14 +127,8 @@ The property array is too small to receive information for all sessions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event trace controllers call this function.
 
@@ -266,9 +251,6 @@ cleanup:
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
 
 
@@ -278,7 +260,4 @@ cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguids">EnumerateTraceGuids</a>
- 
-
- 
 

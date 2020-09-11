@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 72918a54-8e8a-404a-9fd3-45b0bcc98038
 ms.date: 12/05/2018
 ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnectionNotification function [RAS], _mpr_mpradminderegisterconnectionnotification, mprapi/MprAdminDeregisterConnectionNotification, rras.mpradminderegisterconnectionnotification
-f1_keywords:
-- mprapi/MprAdminDeregisterConnectionNotification
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminDeregisterConnectionNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminDeregisterConnectionNotification
+ - mprapi/MprAdminDeregisterConnectionNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminDeregisterConnectionNotification
 ---
 
 # MprAdminDeregisterConnectionNotification function
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminDeregisterConnectionNotification</b> function deregisters an event object that was previously registered using 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminregisterconnectionnotification">MprAdminRegisterConnectionNotification</a>. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to the router on which to execute this call. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
-
 ### -param hEventNotification [in]
 
 Handle to an event object to deregister. This event is no longer  signaled when an interface connects or disconnects.
 
-
 ## -returns
-
-
 
 If the function is successful, the return value is NO_ERROR.
 
@@ -135,14 +127,7 @@ Use
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -157,7 +142,4 @@ Use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: cb0fbdce-0b20-4fb3-8b01-d5e81d7bf3a3
 ms.date: 12/05/2018
 ms.keywords: MsiEnumRelatedProducts, MsiEnumRelatedProducts function, MsiEnumRelatedProductsA, MsiEnumRelatedProductsW, _msi_msienumrelatedproducts, msi/MsiEnumRelatedProducts, msi/MsiEnumRelatedProductsA, msi/MsiEnumRelatedProductsW, setup.msienumrelatedproducts
-f1_keywords:
-- msi/MsiEnumRelatedProducts
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnumRelatedProducts
-- MsiEnumRelatedProductsA
-- MsiEnumRelatedProductsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumRelatedProductsW
+ - msi/MsiEnumRelatedProductsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnumRelatedProducts
+ - MsiEnumRelatedProductsA
+ - MsiEnumRelatedProductsW
 ---
 
 # MsiEnumRelatedProductsW function
@@ -51,42 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiEnumRelatedProducts</b> function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/upgradecode">UpgradeCode</a> property in their 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/property-table">Property table</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpUpgradeCode [in]
 
 The null-terminated string specifying the upgrade code of related products that the installer is to enumerate.
 
-
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ### -param iProductIndex [in]
 
 The zero-based index into the registered products.
-
 
 ### -param lpProductBuf [out]
 
 A buffer to receive the product code GUID. This buffer must be 39 characters long. The first 38 characters are for the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -149,14 +139,8 @@ A value was enumerated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 See 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/upgradecode">UpgradeCode</a> property.

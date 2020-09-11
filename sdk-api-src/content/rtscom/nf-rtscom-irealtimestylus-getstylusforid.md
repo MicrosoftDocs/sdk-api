@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 16218bd3-9e92-407b-99b1-155d4387641e
 ms.date: 12/05/2018
 ms.keywords: 16218bd3-9e92-407b-99b1-155d4387641e, GetStylusForId, GetStylusForId method [Tablet PC], GetStylusForId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusForId method, IRealTimeStylus.GetStylusForId, IRealTimeStylus::GetStylusForId, rtscom/IRealTimeStylus::GetStylusForId, tablet.irealtimestylus_getstylusforid
-f1_keywords:
-- rtscom/IRealTimeStylus.GetStylusForId
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.GetStylusForId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::GetStylusForId
+ - rtscom/IRealTimeStylus::GetStylusForId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.GetStylusForId
 ---
 
 # IRealTimeStylus::GetStylusForId
@@ -49,41 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a stylus for the specified stylus identifier.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param sid [in]
 
 Specifies security identifier (SID) for the collection.
 
-
 ### -param ppiInkCursor [out, retval]
 
 When this method returns, contains a pointer to an IInkCursor that describes the stylus for the <i>sid</i> parameter.
 
-
 ## -returns
-
-
 
 For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
@@ -94,7 +77,4 @@ For a description of the return values, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
- 
-
- 
 

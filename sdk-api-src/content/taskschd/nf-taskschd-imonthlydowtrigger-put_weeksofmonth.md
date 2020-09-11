@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 55bbf8d6-6ff6-46a3-82e2-b5986ee3927e
 ms.date: 12/05/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],WeeksOfMonth property, IMonthlyDOWTrigger.WeeksOfMonth, IMonthlyDOWTrigger.put_WeeksOfMonth, IMonthlyDOWTrigger::WeeksOfMonth, IMonthlyDOWTrigger::get_WeeksOfMonth, IMonthlyDOWTrigger::put_WeeksOfMonth, WeeksOfMonth property [Task Scheduler], WeeksOfMonth property [Task Scheduler],IMonthlyDOWTrigger interface, put_WeeksOfMonth, taskschd.imonthlydowtrigger_weeksofmonth, taskschd/IMonthlyDOWTrigger::WeeksOfMonth, taskschd/IMonthlyDOWTrigger::get_WeeksOfMonth, taskschd/IMonthlyDOWTrigger::put_WeeksOfMonth
-f1_keywords:
-- taskschd/IMonthlyDOWTrigger.WeeksOfMonth
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IMonthlyDOWTrigger.WeeksOfMonth
-- IMonthlyDOWTrigger.get_WeeksOfMonth
-- IMonthlyDOWTrigger.put_WeeksOfMonth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMonthlyDOWTrigger::put_WeeksOfMonth
+ - taskschd/IMonthlyDOWTrigger::put_WeeksOfMonth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IMonthlyDOWTrigger.WeeksOfMonth
+ - IMonthlyDOWTrigger.get_WeeksOfMonth
+ - IMonthlyDOWTrigger.put_WeeksOfMonth
 ---
 
 # IMonthlyDOWTrigger::put_WeeksOfMonth
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the weeks of the month during which the task runs.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following table shows the mapping of the bitwise mask used by this property. Note that you can explicitly specify the last week of the month, regardless  of what week it is, by specifying 0X10 (16).<table>
 <tr>
@@ -102,20 +98,11 @@ The following table shows the mapping of the bitwise mask used by this property.
 
 When reading or writing XML for a task, the weeks of the month of a monthly day-of-week calendar are specified by the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-weeks-monthlydayofweekscheduletype-element">Weeks</a> element of the Task Scheduler schema.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger">IMonthlyDOWTrigger</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

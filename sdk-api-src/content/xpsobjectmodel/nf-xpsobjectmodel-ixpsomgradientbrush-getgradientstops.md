@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 1b308323-12d4-427c-a3d8-fcf5488e1dde
 ms.date: 12/05/2018
 ms.keywords: GetGradientStops, GetGradientStops method [XPS Documents and Packaging], GetGradientStops method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetGradientStops method, IXpsOMGradientBrush.GetGradientStops, IXpsOMGradientBrush::GetGradientStops, xps.ixpsomgradientbrush_getgradientstops, xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops
-f1_keywords:
-- xpsobjectmodel/IXpsOMGradientBrush.GetGradientStops
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGradientBrush.GetGradientStops
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGradientBrush::GetGradientStops
+ - xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGradientBrush.GetGradientStops
 ---
 
 # IXpsOMGradientBrush::GetGradientStops
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstopcollection">IXpsOMGradientStopCollection</a> interface that contains the collection of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interfaces that define the gradient.
 
-
 ## -parameters
-
-
-
 
 ### -param gradientStops [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstopcollection">IXpsOMGradientStopCollection</a> interface that contains the collection of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interfaces.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,14 +90,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Gradient stops, which are  described  in the XPS OM by an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface, are used to define the color at a specific location along a gradient path; the color is interpolated between the gradient stops. The illustration that follows shows the gradient path and gradient stops of a linear gradient.
 
@@ -113,12 +100,7 @@ The illustration that follows shows the gradient stops of a radial gradient. In 
 
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient2.png"/>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
 
@@ -133,7 +115,4 @@ The illustration that follows shows the gradient stops of a radial gradient. In 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

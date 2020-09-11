@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: e5679f4f-23e7-40af-9f45-d2077643da98
 ms.date: 12/05/2018
 ms.keywords: DRMCreateUser, DRMCreateUser function [Active Directory Rights Management Services SDK 1.0], Federation, Internal, Passport, Unspecified, Windows, msdrm/DRMCreateUser, rm.drmcreateuser
-f1_keywords:
-- msdrm/DRMCreateUser
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMCreateUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMCreateUser
+ - msdrm/DRMCreateUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMCreateUser
 ---
 
 # DRMCreateUser function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -62,11 +62,7 @@ which leverages functionality exposed by the client in Msipc.dll.]
 The <b>DRMCreateUser</b> function creates a user that 
     will be granted a right.
 
-
 ## -parameters
-
-
-
 
 ### -param wszUserName [in]
 
@@ -76,7 +72,6 @@ A null-terminated string that identifies a user or group of users (see Remarks).
        attached to the Owner node in the license XrML. For more information about possible values for this parameter, 
        see the <i>wszUserIdType</i> parameter.
 
-
 ### -param wszUserId [in]
 
 A null-terminated string that identifies a user that will be granted a right. This parameter can be a 
@@ -85,7 +80,6 @@ A null-terminated string that identifies a user that will be granted a right. Th
        <i>wszUserIdType</i> must contain "Unspecified". This ID is verified by the 
        Active Directory Rights Management Services system. For more information about possible values for this 
        parameter, see the <i>wszUserIdType</i> parameter.
-
 
 ### -param wszUserIdType [in]
 
@@ -217,16 +211,12 @@ Fully qualified SMTP address. Can be <b>NULL</b> if <i>wszUserId
 Optional SID (used for decorative purposes only; not verified). If not given, the license records 
             "Unspecified".
 
-
 ### -param phUser [out]
 
 A pointer to the handle of the created user. Call 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosepubhandle">DRMClosePubHandle</a> to close the handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -234,12 +224,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
        a list of common error codes, see 
        <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 At license request time, a user must present a rights account certificate identifying themselves by SID or PUID 
      if the user ID is WINDOWS or PASSPORT. If the user ID type is UNSPECIFIED (that is, if you do not know if it will 
@@ -262,13 +247,7 @@ If you want to create an issuance license for a group of people under an email d
 Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosepubhandle">DRMClosePubHandle</a> to close the handle of the 
      user object  created by calling this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
@@ -279,7 +258,4 @@ Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/m
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/onlinesigning-getunsignedil-cpp">OnlineSigning_GetUnsignedIL.cpp</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 065ebfa8-bfac-4c75-a3f9-9dc0409ea454
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IRecordInfo interface [Automation],described, _oa96_IRecordInfo_Interface, automat.irecordinfo, oaidl/IRecordInfo
-f1_keywords:
-- oaidl/IRecordInfo
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IRecordInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecordInfo
+ - oaidl/IRecordInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IRecordInfo
 ---
 
 # IRecordInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the structure of a particular UDT. You can use <b>IRecordInfo</b> any time you need to access the description of UDTs contained in type libraries. <b>IRecordInfo</b> can be reused as needed; there can be many instances of the UDT for a single <b>IRecordInfo</b> pointer.
-
 
 ## -inheritance
 
@@ -224,20 +223,13 @@ Initializes a new instance of a record.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/udt-functions-and-interfaces">UDT Functions and Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/user-defined-data-types">User-Defined Data Types </a>
- 
-
- 
 

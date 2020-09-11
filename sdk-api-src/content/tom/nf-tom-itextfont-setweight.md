@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setweight.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetWeight method, ITextFont.SetWeight, ITextFont::SetWeight, SetWeight, SetWeight method [Windows Controls], SetWeight method [Windows Controls],ITextFont interface, _win32_ITextFont_SetWeight, _win32_ITextFont_SetWeight_cpp, controls.ITextFont_SetWeight, controls._win32_ITextFont_SetWeight, tom/ITextFont::SetWeight
-f1_keywords:
-- tom/ITextFont.SetWeight
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetWeight
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetWeight
+ - tom/ITextFont::SetWeight
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetWeight
 ---
 
 # ITextFont::SetWeight
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the font weight for the characters in a range.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -114,12 +110,8 @@ The new font weight. The
 <td>900</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -175,15 +167,8 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -202,7 +187,4 @@ Insufficient memory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

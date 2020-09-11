@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 10ccda23-98d7-49ad-bb0c-60050d01892d
 ms.date: 12/05/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestCmc2 interface, IX509CertificateRequestCmc2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestCmc2.CheckCertificateSignature, IX509CertificateRequestCmc2::CheckCertificateSignature, certenroll/IX509CertificateRequestCmc2::CheckCertificateSignature, security.ix509certificaterequestcmc2_checkcertificatesignature
-f1_keywords:
-- certenroll/IX509CertificateRequestCmc2.CheckCertificateSignature
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509CertificateRequestCmc2.CheckCertificateSignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCmc2::CheckCertificateSignature
+ - certenroll/IX509CertificateRequestCmc2::CheckCertificateSignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509CertificateRequestCmc2.CheckCertificateSignature
 ---
 
 # IX509CertificateRequestCmc2::CheckCertificateSignature
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CheckCertificateSignature</b> method verifies the signature for a specified signer.
 
-
 ## -parameters
-
-
-
 
 ### -param pSignerCertificate [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> interface that represents a signing certificate.
 
-
 ### -param ValidateCertificateChain [in]
 
 A Boolean value that specifies whether to also verify the certificate chain. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -105,18 +97,8 @@ A signer certificate cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc2">IX509CertificateRequestCmc2</a>
- 
-
- 
 

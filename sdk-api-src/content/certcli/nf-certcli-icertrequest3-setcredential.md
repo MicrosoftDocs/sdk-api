@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cdc3fc7b-aef6-4d73-876e-c958d7bf8f98
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],SetCredential method, ICertRequest3 class [Security],SetCredential method, ICertRequest3.SetCredential, ICertRequest3::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],CCertRequest object, SetCredential method [Security],ICertRequest3 class, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certcli/ICertRequest3::SetCredential, security.icertrequest3_setcredential
-f1_keywords:
-- certcli/ICertRequest3.SetCredential
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3.SetCredential
-- CCertRequest.SetCredential
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest3::SetCredential
+ - certcli/ICertRequest3::SetCredential
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3.SetCredential
+ - CCertRequest.SetCredential
 ---
 
 # ICertRequest3::SetCredential
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetCredential</b> method sets the credential used to contact the Certificate Enrollment Web Service.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -67,8 +63,7 @@ You must set the <i>hWnd</i> parameter there is a UI presented to obtain the cre
 
 For certificate based authorization, the handle is used if a UI prompt is needed to obtain the credential, for example, if the credential is on a smart card and a pin prompt is needed.
 
-When using Kerberos, anonymous, or user name and password authentication, this parameter is ignored. 
-
+When using Kerberos, anonymous, or user name and password authentication, this parameter is ignored.
 
 ### -param AuthType [in]
 
@@ -128,22 +123,16 @@ The <i>strCredential</i> and <i>strPassword</i> parameters contain a user name s
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strCredential [in]
 
 A string that contains the credential.
 
-
 ### -param strPassword [in]
 
 A string that contains the password.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -162,14 +151,8 @@ The <i>AuthType</i> parameter must be <b>X509AuthKerberos</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetCredential</b> method must be called prior to calling the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest2::Submit</a> method.
 
@@ -238,22 +221,12 @@ A plaintext password that is associated with the user name
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
- 
-
- 
 

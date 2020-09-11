@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 25b1bf9f-3ae1-453c-baae-5f70ae46cd24
 ms.date: 12/05/2018
 ms.keywords: IpRenewAddress, IpRenewAddress function [IP Helper], _iphlp_iprenewaddress, iphlp.iprenewaddress, iphlpapi/IpRenewAddress
-f1_keywords:
-- iphlpapi/IpRenewAddress
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- IpRenewAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IpRenewAddress
+ - iphlpapi/IpRenewAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - IpRenewAddress
 ---
 
 # IpRenewAddress function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IpRenewAddress</b>function renews a lease on an IPv4 address previously obtained through Dynamic Host Configuration Protocol (DHCP).
 
-
 ## -parameters
-
-
-
 
 ### -param AdapterInfo [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure that specifies the adapter associated with the IP address to renew.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -114,14 +107,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>IpRenewAddress</b>function is specific to IPv4 and renews only an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP). The <b>Name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure pointed to by the <i>AdapterInfo</i> parameter is the only member used to determine the DHCP address to renew.
@@ -234,14 +221,7 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a>
 
@@ -264,7 +244,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-ipreleaseaddress">IpReleaseAddress</a>
- 
-
- 
 

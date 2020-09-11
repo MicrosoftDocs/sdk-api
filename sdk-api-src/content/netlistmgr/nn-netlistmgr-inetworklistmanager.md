@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: a9f76b6a-ea15-47b7-a4ef-14ea60b7810d
 ms.date: 12/05/2018
 ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], INetworkListManager interface [Network Awareness],described, netlistmgr/INetworkListManager, nla.inetworklistmanager
-f1_keywords:
-- netlistmgr/INetworkListManager
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkListManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkListManager
+ - netlistmgr/INetworkListManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkListManager
 ---
 
 # INetworkListManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetworkListManager</b> interface provides a set of methods to perform network list management functions.
-
 
 ## -inheritance
 
@@ -163,5 +162,5 @@ Specifies if the machine has Internet connectivity.
 
 </td>
 </tr>
-</table> 
+</table>
 

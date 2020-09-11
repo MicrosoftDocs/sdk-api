@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 54ed8ac8-4821-4c0c-9fb9-789c70dbca37
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], IGraphBuilder interface [DirectShow],described, IGraphBuilderInterface, dshow.igraphbuilder, strmif/IGraphBuilder
-f1_keywords:
-- strmif/IGraphBuilder
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphBuilder
+ - strmif/IGraphBuilder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphBuilder
 ---
 
 # IGraphBuilder interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This interface provides methods that enable an application to build a filter graph. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a> implements this interface.
 
 The <b>IGraphBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a> interface. <b>IFilterGraph</b> provides basic operations, such as adding a filter to the graph or connecting two pins. <b>IGraphBuilder</b> adds further methods that construct graphs from partial information. For example, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> method builds a graph for file playback, given the name of the file. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-render">IGraphBuilder::Render</a> method renders data from an output pin by connecting new filters to the pin.
 
 Using these methods, an application does not need to specify every filter and pin connection in the graph. Instead, the Filter Graph Manager selects filters that are registered on the user's system, adds them to the graph, and connects them. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>.
-
-
-
 
 ## -inheritance
 
@@ -139,20 +135,13 @@ Queries whether the current operation should continue.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

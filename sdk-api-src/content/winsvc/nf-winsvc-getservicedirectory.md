@@ -35,6 +35,9 @@ api_location:
  - sechost.dll
 api_name:
  - GetServiceDirectory
+f1_keywords:
+ - GetServiceDirectory
+ - winsvc/GetServiceDirectory
 ---
 
 ## -description

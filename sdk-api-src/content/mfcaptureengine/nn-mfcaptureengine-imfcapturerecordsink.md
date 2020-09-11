@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: AEF5923D-C4ED-4BEA-A969-163ED837A5BD
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], IMFCaptureRecordSink interface [Media Foundation],described, mf.imfcapturerecordsink, mfcaptureengine/IMFCaptureRecordSink
-f1_keywords:
-- mfcaptureengine/IMFCaptureRecordSink
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureRecordSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureRecordSink
+ - mfcaptureengine/IMFCaptureRecordSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureRecordSink
 ---
 
 # IMFCaptureRecordSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the recording sink. The recording sink creates compressed audio/video files or compressed audio/video streams.
-
 
 ## -inheritance
 
@@ -122,12 +121,9 @@ Sets a callback to receive the recording data for one stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The recording sink can deliver samples to one of the following destinations:
 
@@ -142,20 +138,11 @@ If the destination is a byte stream or an output file, the application specifies
 
 To start the recording, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startrecord">IMFCaptureEngine::StartRecord</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

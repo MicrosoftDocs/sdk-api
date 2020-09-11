@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8EAA54AF-359A-48C4-9A23-BE7997DBAA89
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineWebSupport, IMFMediaEngineWebSupport interface [Media Foundation], IMFMediaEngineWebSupport interface [Media Foundation],described, mf.imfmediaenginewebsupport, mfmediaengine/IMFMediaEngineWebSupport
-f1_keywords:
-- mfmediaengine/IMFMediaEngineWebSupport
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineWebSupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineWebSupport
+ - mfmediaengine/IMFMediaEngineWebSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineWebSupport
 ---
 
 # IMFMediaEngineWebSupport interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables playback of web audio.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Gets a value indicating if the connecting to Web audio should delay the page's l
 
 </td>
 </tr>
-</table> 
+</table>
 

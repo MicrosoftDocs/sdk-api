@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: d07c3093-8050-4c62-8e90-3b09cdb10700
 ms.date: 12/05/2018
 ms.keywords: GetPreferredFont, GetPreferredFont method [Windows Controls], GetPreferredFont method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetPreferredFont method, ITextDocument2.GetPreferredFont, ITextDocument2::GetPreferredFont, controls.itextdocument2_getpreferredfont, tom/ITextDocument2::GetPreferredFont, tomAboriginal, tomAnsi, tomArabic, tomArmenian, tomBIG5, tomBaltic, tomBengali, tomBraille, tomCherokee, tomCyrillic, tomDefaultCharRep, tomDevanagari, tomEastEurope, tomEmoji, tomEthiopic, tomGB2312, tomGeorgian, tomGetHeightOnly, tomGreek, tomGujarati, tomGurmukhi, tomHangul, tomHebrew, tomIgnoreCurrentFont, tomJamo, tomKannada, tomKayahli, tomKharoshthi, tomKhmer, tomLao, tomLimbu, tomMac, tomMalayalam, tomMatchAscii, tomMatchCharRep, tomMatchFontSignature, tomMatchMathFont, tomMongolian, tomMyanmar, tomNewTaiLu, tomOEM, tomOgham, tomOriya, tomPC437, tomRunic, tomShiftJIS, tomSinhala, tomSylotinagr, tomSymbol, tomSyriac, tomTaiLe, tomTamil, tomTelugu, tomThaana, tomThai, tomTibetan, tomTurkish, tomUsymbol, tomVietnamese, tomYi
-f1_keywords:
-- tom/ITextDocument2.GetPreferredFont
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument2.GetPreferredFont
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument2::GetPreferredFont
+ - tom/ITextDocument2::GetPreferredFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument2.GetPreferredFont
 ---
 
 # ITextDocument2::GetPreferredFont
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the preferred font for a particular character repertoire and character position.
 
-
 ## -parameters
-
-
-
 
 ### -param cp [in]
 
 Type: <b>long</b>
 
-The character position for the preferred font. 
-
+The character position for the preferred font.
 
 ### -param CharRep [in]
 
@@ -449,7 +444,6 @@ The character repertoire index for the preferred font. It can be one of the foll
 
 #### tomYi
 
-
 ### -param Options [in]
 
 Type: <b>long</b>
@@ -500,13 +494,11 @@ The preferred font options. The low-order word can be a combination of the follo
 
 If the high-order word of <i>Options</i> is <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomUseTwips</a>, the font heights are given in twips.
 
-
 ### -param curCharRep [in]
 
 Type: <b>long</b>
 
 The index of the current character repertoire.
-
 
 ### -param curFontSize [in]
 
@@ -514,13 +506,11 @@ Type: <b>long</b>
 
 The current font size.
 
-
 ### -param pbstr [out]
 
 Type: <b>BSTR*</b>
 
 The name of the font.
-
 
 ### -param pPitchAndFamily [out]
 
@@ -528,32 +518,19 @@ Type: <b>long*</b>
 
 The font pitch and family.
 
-
 ### -param pNewFontSize [out]
 
 Type: <b>long*</b>
 
 The new font size.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
- 
-
- 
 

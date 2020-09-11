@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 0267ad70-e7cc-41e8-8325-7ede4a662d13
 ms.date: 12/05/2018
 ms.keywords: DDLOCK_DISCARDCONTENTS, DDLOCK_DONOTWAIT, DDLOCK_EVENT, DDLOCK_NOOVERWRITE, DDLOCK_NOSYSLOCK, DDLOCK_OKTOSWAP, DDLOCK_READONLY, DDLOCK_SURFACEMEMORYPTR, DDLOCK_WAIT, DDLOCK_WRITEONLY, IDirectDrawSurface7 interface [DirectDraw],Lock method, IDirectDrawSurface7.Lock, IDirectDrawSurface7::Lock, Lock, Lock method [DirectDraw], Lock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Lock, directdraw.idirectdrawsurface7_lock
-f1_keywords:
-- ddraw/IDirectDrawSurface7.Lock
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.Lock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::Lock
+ - ddraw/IDirectDrawSurface7::Lock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.Lock
 ---
 
 # IDirectDrawSurface7::Lock
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains a pointer to the surface memory.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 A pointer to a <b>RECT</b> structure that identifies the region of the surface that is being locked. If this parameter is NULL, the entire surface is locked.
 
-
 ### -param arg2 [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
-
 
 ### -param arg3 [in]
 
@@ -132,15 +126,11 @@ If a lock cannot be obtained because a bit block transfer (bitblt) operation is 
 
 Indicates that the surface being locked is write-enabled.
 
-
 ### -param arg4 [in]
 
 Handle of the event. This parameter is not currently used and must be set to NULL.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -157,11 +147,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_WASSTILLDRAWING</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 In <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>, the default behavior of <b>Lock</b> is to wait for the accelerator to finish. Therefore, under default conditions, <b>Lock</b> never returns DDERR_WASSTILLDRAWING. If you want to see the error codes and not wait until the bitblt operation succeeds, use the DDLOCK_DONOTWAIT flag.
 
@@ -177,16 +163,7 @@ Unless you include the DDLOCK_NOSYSLOCK flag, <b>Lock</b> causes DirectDraw to h
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Lock</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

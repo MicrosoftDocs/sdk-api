@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 23353e11-63bb-4d3b-90fb-e2a5544e0d09
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_SYNTAX, CLUSPROP_FORMAT_BINARY, CLUSPROP_FORMAT_DWORD, CLUSPROP_FORMAT_EXPANDED_SZ, CLUSPROP_FORMAT_EXPAND_SZ, CLUSPROP_FORMAT_FILETIME, CLUSPROP_FORMAT_LARGE_INTEGER, CLUSPROP_FORMAT_LONG, CLUSPROP_FORMAT_MULTI_SZ, CLUSPROP_FORMAT_SECURITY_DESCRIPTOR, CLUSPROP_FORMAT_SZ, CLUSPROP_FORMAT_ULARGE_INTEGER, CLUSPROP_FORMAT_UNKNOWN, CLUSPROP_FORMAT_USER, CLUSPROP_FORMAT_WORD, CLUSPROP_SYNTAX, CLUSPROP_SYNTAX union [Failover Cluster], CLUSPROP_TYPE_DISK_GUID, CLUSPROP_TYPE_DISK_NUMBER, CLUSPROP_TYPE_DISK_SERIALNUMBER, CLUSPROP_TYPE_DISK_SIZE, CLUSPROP_TYPE_ENDMARK, CLUSPROP_TYPE_LIST_VALUE, CLUSPROP_TYPE_NAME, CLUSPROP_TYPE_PARTITION_INFO, CLUSPROP_TYPE_PARTITION_INFO_EX, CLUSPROP_TYPE_RESCLASS, CLUSPROP_TYPE_SCSI_ADDRESS, CLUSPROP_TYPE_SIGNATURE, CLUSPROP_TYPE_UNKNOWN, CLUSPROP_TYPE_USER, PCLUSPROP_SYNTAX, PCLUSPROP_SYNTAX union pointer [Failover Cluster], _wolf_clusprop_syntax, clusapi/CLUSPROP_SYNTAX, clusapi/PCLUSPROP_SYNTAX, mscs.clusprop_syntax'
-f1_keywords:
-- clusapi/CLUSPROP_SYNTAX
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_SYNTAX
 targetos: Windows
 req.typenames: CLUSPROP_SYNTAX, *PCLUSPROP_SYNTAX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_SYNTAX
+ - clusapi/CLUSPROP_SYNTAX
+ - PCLUSPROP_SYNTAX
+ - clusapi/PCLUSPROP_SYNTAX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_SYNTAX
 ---
 
 # CLUSPROP_SYNTAX structure
@@ -49,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the format and type of a data value. It is used as the <b>Syntax</b> member of the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dw
 
@@ -65,9 +63,7 @@ A DWORD that describes the format and type of the data value. The
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_property_syntax">CLUSTER_PROPERTY_SYNTAX</a> enumeration defines the 
        possible values.
 
-
 ### -field DUMMYSTRUCTNAME
-
 
 ### -field DUMMYSTRUCTNAME.wFormat
 
@@ -161,7 +157,6 @@ Data is in a user-defined format.
 ##### wFormat.CLUSPROP_FORMAT_WORD (11 (0xB))
 
 Data is a <b>WORD</b> value.
-
 
 ### -field DUMMYSTRUCTNAME.wType
 
@@ -291,10 +286,7 @@ The type is unknown.
 Describes the beginning of the range for users to define their own types. Associate this type with 
           user-defined private properties.
 
-
 ## -remarks
-
-
 
 To parse data that is returned from a 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-functions">control code function</a>, use the 
@@ -310,12 +302,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-address">Address</a>
 
@@ -426,7 +413,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodename">NodeName</a>
- 
-
- 
 

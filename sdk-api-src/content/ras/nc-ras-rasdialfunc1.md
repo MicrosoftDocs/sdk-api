@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: f0b0dbbc-8544-4711-819a-48bb714a67d9
 ms.date: 12/05/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc1, RasDialFunc1 callback, RasDialFunc1 callback function [RAS], _ras_rasdialfunc1, ras/RasDialFunc1, rras.rasdialfunc1
-f1_keywords:
-- ras/RasDialFunc1
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ras.h
-api_name:
-- RasDialFunc1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RASDIALFUNC1
+ - ras/RASDIALFUNC1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ras.h
+api_name:
+ - RasDialFunc1
 ---
 
 # RASDIALFUNC1 callback function
@@ -49,39 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 A 
 <b>RasDialFunc1</b> function is called by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function  when a change of state occurs during a remote access connection process. A 
 <b>RasDialFunc1</b> function is comparable to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasdialfunc">RasDialFunc</a> function, but is enhanced by the addition of two parameters: a handle to the RAS connection, and an extended error code.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
-
 ### -param Arg2
-
 
 ### -param Arg3
 
-
 ### -param Arg4
 
-
 ### -param Arg5
-
-
-
-
-
-
-
 
 #### - dwError [in]
 
@@ -174,10 +159,7 @@ Specifies the
 
 Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
 
-
 ## -remarks
-
-
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> connection operation is suspended during a call to a 
@@ -206,13 +188,7 @@ Note that, for convenience,
 
 <b>RasDialFunc1</b> is a placeholder for the application-defined or library-defined function name.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a>
 
@@ -255,7 +231,4 @@ Note that, for convenience,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

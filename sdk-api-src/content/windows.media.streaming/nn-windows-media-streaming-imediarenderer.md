@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], IMediaRenderer interface [Media Streaming API],described, mediastreaming.imediarenderer, windows/IMediaRenderer
-f1_keywords:
-- windows.media.streaming/IMediaRenderer
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IMediaRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaRenderer
+ - windows.media.streaming/IMediaRenderer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IMediaRenderer
 ---
 
 # IMediaRenderer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates the methods and events  needed to represent a DLNA Digital Media Renderer (DMR) device.
-
 
 ## -inheritance
 
@@ -295,16 +294,9 @@ Instructs the DMR asynchronously to stop playing the current content.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
- 
-
- 
 

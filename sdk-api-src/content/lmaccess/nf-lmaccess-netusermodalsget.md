@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 5bb18144-82a6-4e9b-8321-c06a667bdd03
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetUserModalsGet, NetUserModalsGet function [Network Management], _win32_netusermodalsget, lmaccess/NetUserModalsGet, netmgmt.netusermodalsget
-f1_keywords:
-- lmaccess/NetUserModalsGet
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserModalsGet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserModalsGet
+ - lmaccess/NetUserModalsGet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserModalsGet
 ---
 
 # NetUserModalsGet function
@@ -49,24 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserModalsGet</b> function retrieves global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in, optional]
 
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. For more information, see the following Remarks section. 
-
-
-
-					
-
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. For more information, see the following Remarks section.
 
 ### -param level [in]
 
@@ -129,7 +120,6 @@ Return lockout information. The <i>bufptr</i> parameter points to a
 A null session logon can call 
 <b>NetUserModalsGet</b> anonymously at information levels 0 and 3.
 
-
 ### -param bufptr [out]
 
 A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. 
@@ -138,10 +128,7 @@ The buffer for this data is allocated by the system and the application must cal
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -219,14 +206,8 @@ The computer name is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user modal functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdomain">IADsDomain</a>.
@@ -311,14 +292,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusermodalsset">NetUserModalsSet</a>
 
@@ -352,7 +326,4 @@ int wmain(int argc, wchar_t *argv[])
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-modal-functions">User Modals
 		  Functions</a>
- 
-
- 
 

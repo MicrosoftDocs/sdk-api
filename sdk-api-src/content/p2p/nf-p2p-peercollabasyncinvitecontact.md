@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 2101e16e-ee05-417f-835b-c00cba7f6576
 ms.date: 12/05/2018
 ms.keywords: PeerCollabAsyncInviteContact, PeerCollabAsyncInviteContact function [Peer Networking], p2p.peercollabasyncinvitecontact, p2p/PeerCollabAsyncInviteContact
-f1_keywords:
-- p2p/PeerCollabAsyncInviteContact
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabAsyncInviteContact
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabAsyncInviteContact
+ - p2p/PeerCollabAsyncInviteContact
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabAsyncInviteContact
 ---
 
 # PeerCollabAsyncInviteContact function
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabAsyncInviteContact</b> function sends an invitation to a trusted peer contact to join the sender's peer collaboration activity over a secured connection. The availability of the invitation response is updated through an asynchronous event.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcContact [in, optional]
 
@@ -66,16 +60,13 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-
 
 To invite the endpoint of the calling peer specified in <i>pcEndpoint</i>, set the pointer value to <b>NULL</b>.
 
-
 ### -param pcEndpoint [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains information about the invited peer's endpoint. The endpoint must be associated with the peer contact specified in <i>pcContact</i>.
 
-
 ### -param pcInvitation [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a> structure that contains the invitation request to send to the endpoint  specified in <i>pcEndpoint</i>. E_INVALIDARG is returned if this parameter is set to <b>NULL</b>.
-
 
 ### -param hEvent [in, optional]
 
@@ -83,15 +74,11 @@ Handle to the event for this invitation, created by a previous call to CreateEve
 
 If the event is not provided the caller must poll for the result by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetinvitationresponse">PeerCollabGetInvitationResponse</a>.
 
-
 ### -param phInvitation [optional]
 
 A pointer to a handle to the sent invitation. The framework will cleanup the response information after the invitation response is received if <b>NULL</b> is specified. When <b>NULL</b> is not the specified handle to the invitation provided, it must be closed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabclosehandle">PeerCollabCloseHandle</a>.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -145,14 +132,8 @@ One of the arguments is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This API ensures the peer that receives the invitation is the contact specified as input. The connection will fail if the specific contact is not present on the endpoint specified.  The use of <b>PeerCollabAsyncInviteContact</b> is recommended  in place of the less secure <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabasyncinviteendpoint">PeerCollabAsyncInviteEndpoint</a>.
 
@@ -169,14 +150,7 @@ If the recipient is accepting invitations only from trusted contacts, then the s
 
 To cancel an outstanding invitation, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabcancelinvitation">PeerCollabCancelInvitation</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
 
@@ -211,7 +185,4 @@ To cancel an outstanding invitation, call <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetinvitationresponse">PeerCollabGetInvitationResponse</a>
- 
-
- 
 

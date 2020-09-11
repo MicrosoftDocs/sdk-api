@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 2d6cc17f-7288-468c-a028-31e6e284d8ca
 ms.date: 12/05/2018
 ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], IATSC_MGT interface [Microsoft TV Technologies],described, IATSC_MGTInterface, atscpsipparser/IATSC_MGT, mstv.iatsc_mgt
-f1_keywords:
-- atscpsipparser/IATSC_MGT
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_MGT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_MGT
+ - atscpsipparser/IATSC_MGT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_MGT
 ---
 
 # IATSC_MGT interface
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IATSC_MGT</b> interface enables the client to get data from a master guide table (MGT). The MGT describes the program guide information and service information that is delivered in a transport stream, including the table types, the packet identifiers, and the version numbers. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getmgt">IAtscPsipParser::GetMGT</a> method returns a pointer to this interface.
 
 The MGT may contain one or more table-wide descriptors. In addition, each record in the MGT may have one or more descriptors. To get the table-wide descriptors, use the <b>GetTableDescriptorByIndex</b> method or the <b>GetTableDescriptorByTag</b> method. To get the record descriptors, use the <b>GetRecordDescriptorByIndex</b> method or the <b>GetRecordDescriptorByTag</b> method.
-
-
-
 
 ## -inheritance
 
@@ -193,16 +189,9 @@ Initializes the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

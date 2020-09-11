@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: dc298f61-f7f1-42dc-a585-bfe9f58b1629
 ms.date: 12/05/2018
 ms.keywords: GetFrequency, GetFrequency method [Microsoft TV Technologies], GetFrequency method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFrequency method, IDvbSatelliteDeliverySystemDescriptor.GetFrequency, IDvbSatelliteDeliverySystemDescriptor::GetFrequency, IDvbSatelliteDeliverySystemDescriptorGetFrequency, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFrequency, mstv.idvbsatellitedeliverysystemdescriptor_getfrequency
-f1_keywords:
-- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetFrequency
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSatelliteDeliverySystemDescriptor.GetFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSatelliteDeliverySystemDescriptor::GetFrequency
+ - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFrequency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSatelliteDeliverySystemDescriptor.GetFrequency
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetFrequency
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetFrequency</b> method returns the frequency.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwVal [out]
 
 Receives the frequency field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -92,18 +84,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsatellitedeliverysystemdescriptor">IDvbSatelliteDeliverySystemDescriptor Interface</a>
- 
-
- 
 

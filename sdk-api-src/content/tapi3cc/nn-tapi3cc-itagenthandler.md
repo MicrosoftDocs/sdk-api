@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 11861d77-39ad-4d85-bf68-ba0f4321ba7c
 ms.date: 12/05/2018
 ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], ITAgentHandler interface [TAPI 2.2],described, _tapi3_itagenthandler, tapi3.itagenthandler, tapi3cc/ITAgentHandler
-f1_keywords:
-- tapi3cc/ITAgentHandler
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentHandler
+ - tapi3cc/ITAgentHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentHandler
 ---
 
 # ITAgentHandler interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITAgentHandler</b> interface provides methods to create Agent objects and enumerate Automatic Call Distribution (ACD) groups. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-next">IEnumAgentHandler::Next</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-get_agenthandlers">ITTapiCallCenter::get_AgentHandlers</a> methods create the 
 <b>ITAgentHandler</b> interface.
-
 
 ## -inheritance
 
@@ -135,13 +134,9 @@ Creates a collection of addresses available for receiving ACD calls on this agen
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
@@ -152,7 +147,4 @@ Creates a collection of addresses available for receiving ACD calls on this agen
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
- 
-
- 
 

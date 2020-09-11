@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: caa757a2-fc3f-4883-8d3e-b98d28f92517
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OpenFileById, OpenFileById function [Files], fileextd/OpenFileById, fs.openfilebyid, winbase/OpenFileById
-f1_keywords:
-- winbase/OpenFileById
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-api_name:
-- OpenFileById
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.
 ms.custom: 19H1
+f1_keywords:
+ - OpenFileById
+ - winbase/OpenFileById
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+api_name:
+ - OpenFileById
 ---
 
 # OpenFileById function
@@ -52,25 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens the file that matches the specified identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param hVolumeHint [in]
 
 A handle to any file on a volume or share on which the file to be opened is stored.
 
-
 ### -param lpFileId [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a> that identifies 
        the file to open.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -85,7 +79,6 @@ If this parameter is zero (0), the application can query file and device attribu
       device. This is useful for an application to determine the size of a floppy disk drive and the formats it
       supports without requiring a floppy in a drive. It can also be used to test for the existence of a file or
       directory without opening them for read or write access.
-
 
 ### -param dwShareMode [in]
 
@@ -157,13 +150,10 @@ If this flag is not specified, but the object has been opened for write access o
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpSecurityAttributes [in, optional]
 
 Reserved.
-
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -333,24 +323,15 @@ If <b>FILE_FLAG_NO_BUFFERING</b> is also specified, so that system caching is no
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to a specified file.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
        error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close an object handle 
     that <b>OpenFileById</b> returns.
@@ -419,15 +400,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
@@ -474,7 +448,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 7a03c673-8e7f-41a4-81ba-88406af2762d
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], IPortableDeviceContent interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceContent, wpdsdk.iportabledevicecontent
-f1_keywords:
-- portabledeviceapi/IPortableDeviceContent
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portabledeviceapi.h
-api_name:
-- IPortableDeviceContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceContent
+ - portabledeviceapi/IPortableDeviceContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portabledeviceapi.h
+api_name:
+ - IPortableDeviceContent
 ---
 
 # IPortableDeviceContent interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IPortableDeviceContent</b> interface provides methods to create, enumerate, examine, and delete content on a device. To get this interface, call <b>IPortableDevice::Content</b>.
-
-
-
 
 ## -inheritance
 
@@ -166,16 +162,9 @@ Retrieves an interface that is used to read from or write to the content data of
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
- 
-
- 
 

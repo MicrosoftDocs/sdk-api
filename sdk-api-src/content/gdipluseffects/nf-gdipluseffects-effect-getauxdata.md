@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getauxdata.htm
 ms.date: 12/05/2018
 ms.keywords: Effect class [GDI+],GetAuxData method, Effect.GetAuxData, Effect::GetAuxData, GetAuxData, GetAuxData method [GDI+], GetAuxData method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetAuxData_, gdiplus._gdiplus_CLASS_Effect_GetAuxData_
-f1_keywords:
-- gdipluseffects/Effect.GetAuxData
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Effect.GetAuxData
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - Effect::GetAuxData
+ - gdipluseffects/Effect::GetAuxData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Effect.GetAuxData
 ---
 
 # Effect::GetAuxData
@@ -50,29 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Effect::GetAuxData</b> gets a pointer to a set of lookup tables created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns a pointer to a set of lookup tables created by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a>. If no lookup tables are available, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 You can apply an effect to a bitmap by creating an instance of one of the descendants of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a> class and passing the address of that descendant to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method. For certain descendants of <b>Effect</b>, ApplyEffect creates lookup tables and returns the address of those tables to the descendant object. For example, you can retrieve the lookup tables for a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-brightnesscontrast">BrightnessContrast</a> object as follows:
 
@@ -144,14 +131,7 @@ for(UINT j = 0; j < 256; ++j)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a>
 
@@ -166,7 +146,4 @@ for(UINT j = 0; j < 256; ++j)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-useauxdata">Effect::UseAuxData</a>
- 
-
- 
 

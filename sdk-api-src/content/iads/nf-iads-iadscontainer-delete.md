@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 2f3873e0-376e-4212-a28d-bd9bc112f6cf
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [ADSI], Delete method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Delete method, IADsContainer.Delete, IADsContainer::Delete, _ds_iadscontainer_delete, adsi.iadscontainer__delete, adsi.iadscontainer_delete, iads/IADsContainer::Delete
-f1_keywords:
-- iads/IADsContainer.Delete
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsContainer.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsContainer::Delete
+ - iads/IADsContainer::Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsContainer.Delete
 ---
 
 # IADsContainer::Delete
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsContainer::Delete</b> method deletes a specified directory object from this container.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrClassName [in]
 
 The schema class object to delete. The name is that returned from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs::get_Class</a> method. Also, <b>NULL</b> is a valid option for this parameter.   Providing <b>NULL</b> for this parameter is the only way to deal with defunct schema classes. If an instance was created before the class became defunct, the only way to  delete the instance of the defunct class is to call <b>IADsContainer::Delete</b> and provide <b>NULL</b> for this parameter.
 
-
 ### -param bstrRelativeName [in]
 
 Name of the object as it is known in the underlying directory and identical to the name retrieved with the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs::get_Name</a> method.
 
-
 ## -returns
-
-
 
 This method supports the standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The object to be deleted must be a leaf object or a childless subcontainer. To delete a container and its children, that is, a subtree, use  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a>.
 
@@ -148,14 +135,7 @@ hr = pCont->Delete(CComBSTR("user"), CComBSTR("JeffSmith"));
 pCont->Release();
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error
   Codes</a>
@@ -195,7 +175,4 @@ pCont->Release();
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a>
- 
-
- 
 

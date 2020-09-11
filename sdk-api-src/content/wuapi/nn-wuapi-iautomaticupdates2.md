@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 9cb09bb2-5532-446b-9441-0987d50c6228
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates2, IAutomaticUpdates2 interface [Windows Update Agent], IAutomaticUpdates2 interface [Windows Update Agent],described, wua.iautomaticupdates2, wuapi/IAutomaticUpdates2
-f1_keywords:
-- wuapi/IAutomaticUpdates2
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdates2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdates2
+ - wuapi/IAutomaticUpdates2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdates2
 ---
 
 # IAutomaticUpdates2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the functionality of Automatic Updates.
-
 
 ## -inheritance
 
@@ -78,26 +77,14 @@ Returns a pointer to an
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You can create a new instance of this interface by using the AutomaticUpdates coclass. Use the 
     Microsoft.Update.AutoUpdate program identifier to create the object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 27813041-ee42-4412-982e-fce594c5e648
 ms.date: 12/05/2018
 ms.keywords: CreateThresholdAction, CreateThresholdAction method [File Server Resource Manager], CreateThresholdAction method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],CreateThresholdAction method, IFsrmQuotaBase.CreateThresholdAction, IFsrmQuotaBase::CreateThresholdAction, fs.ifsrmquotabase_createthresholdaction, fsrm.ifsrmquotabase_createthresholdaction, fsrmquota/IFsrmQuotaBase::CreateThresholdAction
-f1_keywords:
-- fsrmquota/IFsrmQuotaBase.CreateThresholdAction
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaBase.CreateThresholdAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaBase::CreateThresholdAction
+ - fsrmquota/IFsrmQuotaBase::CreateThresholdAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaBase.CreateThresholdAction
 ---
 
 # IFsrmQuotaBase::CreateThresholdAction
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Creates an action and associates it with the specified threshold.
 
-
 ## -parameters
-
-
-
 
 ### -param threshold [in]
 
@@ -68,12 +64,10 @@ The threshold with which to associate the action. Specify the same value that yo
       the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-addthreshold">IFsrmQuotaBase::AddThreshold</a> 
       method.
 
-
 ### -param actionType [in]
 
 The action to perform when the threshold is reached or exceeded. For possible values, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a> enumeration.
-
 
 ### -param action [out]
 
@@ -82,19 +76,11 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsr
       parameter. For example, if the action type is <b>FsrmActionType_Command</b>, query the 
       interface for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactioncommand">IFsrmActionCommand</a> interface.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 You can specify up to four unique actions for each threshold.
 
@@ -108,19 +94,11 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotabase">IFsrmQuotaBase</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

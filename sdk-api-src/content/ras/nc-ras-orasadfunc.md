@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: d3ad49e3-6807-419d-8d05-f703f5327020
 ms.date: 12/05/2018
 ms.keywords: ORASADFunc, ORASADFunc callback, ORASADFunc callback function [RAS], _ras_orasadfunc, ras/ORASADFunc, rras.orasadfunc
-f1_keywords:
-- ras/ORASADFunc
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ras.h
-api_name:
-- ORASADFunc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ORASADFUNC
+ - ras/ORASADFUNC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ras.h
+api_name:
+ - ORASADFunc
 ---
 
 # ORASADFUNC callback function
@@ -49,36 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ORASADFunc</b> function is an application-defined callback function that is used to provide a customized user interface for autodialing.
 
 This prototype is provided for compatibility with earlier versions of Windows. New applications should use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasadfunca">RASADFunc</a> callback function. Support for this prototype may be removed in future versions of RAS.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
-
 ### -param Arg2
-
 
 ### -param Arg3
 
-
 ### -param Arg4
-
-
-
-
-
-
-
 
 #### - dwFlags [in]
 
@@ -99,21 +85,13 @@ Pointer to a variable that the callback function fills in with the results of th
 
 Pointer to a null-terminated string that specifies the phone-book entry to use.
 
-
 ## -returns
-
-
 
 If the callback function performs the dialing operation, return <b>TRUE</b>. Use the <i>lpdwRetCode</i> parameter to indicate the results of the dialing operation.
 
 If the callback function does not perform the dialing operation, return <b>FALSE</b>. In this case, the system uses the default user interface for dialing.
 
-
-
-
 ## -remarks
-
-
 
 If the 
 <b>ORASADFunc</b> function performs the dialing operation, it presents its own user interface for dialing and calls the 
@@ -129,13 +107,7 @@ The
 <b>ORASADFunc</b> function is a placeholder for the library-defined function name. The <b>ORASADFUNC</b> type is a pointer to an 
 <b>ORASADFunc</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasadfunca">RASADFunc</a>
 
@@ -158,7 +130,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

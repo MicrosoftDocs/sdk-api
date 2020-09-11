@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 9debed66-6588-40b5-ab52-a3dba0ddef92
 ms.date: 12/05/2018
 ms.keywords: GetSignatureId, GetSignatureId method [XPS Documents and Packaging], GetSignatureId method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureId method, IXpsSignature.GetSignatureId, IXpsSignature::GetSignatureId, xps.ixpssignature_getsignatureid, xpsdigitalsignature/IXpsSignature::GetSignatureId
-f1_keywords:
-- xpsdigitalsignature/IXpsSignature.GetSignatureId
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignature.GetSignatureId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignature::GetSignatureId
+ - xpsdigitalsignature/IXpsSignature::GetSignatureId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignature.GetSignatureId
 ---
 
 # IXpsSignature::GetSignatureId
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
 
-
 ## -parameters
-
-
-
 
 ### -param sigId [out, retval]
 
 The value of the <b>Id</b> attribute of the <b>Signature</b> element. If the <b>Id</b> attribute is not present, a <b>NULL</b> pointer is returned.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372949(v=vs.85)">XPS Digital Signature API Errors</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -108,24 +101,12 @@ The interface is not connected to the signature manager.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method allocates the memory used by the string that is returned in <i>sigId</i>.  If <i>sigId</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignature">IOpcDigitalSignature</a>
 
@@ -148,7 +129,4 @@ This method allocates the memory used by the string that is returned in <i>sigId
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

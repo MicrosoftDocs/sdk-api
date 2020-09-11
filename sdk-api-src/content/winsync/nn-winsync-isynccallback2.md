@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: d2d690ba-8da2-4d53-a42c-14e4f010bc2d
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback2, ISyncCallback2 interface [Windows Sync], ISyncCallback2 interface [Windows Sync],described, winsync.isynccallback2, winsync/ISyncCallback2
-f1_keywords:
-- winsync/ISyncCallback2
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncCallback2
+ - winsync/ISyncCallback2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncCallback2
 ---
 
 # ISyncCallback2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents additional application callbacks that are used to notify the application of synchronization events.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Occurs after a change fails to apply.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT_RESOLUTION_POLICY Enumeration</a>
 
@@ -103,7 +98,4 @@ Occurs after a change fails to apply.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

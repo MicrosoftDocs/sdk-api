@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: e3d3acc2-914b-40bd-9e1e-a3a612821ab7
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider, IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,described, ncd.iwsdiscoveryprovider, wsddisco/IWSDiscoveryProvider
-f1_keywords:
-- wsddisco/IWSDiscoveryProvider
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryProvider
+ - wsddisco/IWSDiscoveryProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryProvider
 ---
 
 # IWSDiscoveryProvider interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface is used to discover services on the network advertised by WS-Discovery.
 
 To get this interface, you can call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider">WSDCreateDiscoveryProvider</a>.
-
 
 ## -inheritance
 
@@ -133,25 +132,13 @@ Specifies the IP address family (IPv4, IPv6, or both) to search when discovering
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The Discovery Provider represents the "client" view of WS-Discovery.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WsdApi/overview-of-the-wsdapi-interfaces">Overview of the WSDAPI Interfaces</a>
- 
-
- 
 

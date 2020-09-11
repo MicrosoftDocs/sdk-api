@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b046bb62-8bc1-4021-bcb2-d4f23a9fccf4
 ms.date: 12/05/2018
 ms.keywords: 0, AddToolbar, AddToolbar method [Windows Shell], AddToolbar method [Windows Shell],IDockingWindowFrame interface, DWFAF_AUTOHIDE, DWFAF_GROUP1, DWFAF_GROUP2, DWFAF_HIDDEN, IDockingWindowFrame interface [Windows Shell],AddToolbar method, IDockingWindowFrame.AddToolbar, IDockingWindowFrame::AddToolbar, _win32_IDockingWindowFrame_AddToolbar, shell.IDockingWindowFrame_AddToolbar, shlobj/IDockingWindowFrame::AddToolbar
-f1_keywords:
-- shlobj/IDockingWindowFrame.AddToolbar
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDockingWindowFrame.AddToolbar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDockingWindowFrame::AddToolbar
+ - shlobj/IDockingWindowFrame::AddToolbar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDockingWindowFrame.AddToolbar
 ---
 
 # IDockingWindowFrame::AddToolbar
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the specified <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> object to the frame.
 
-
 ## -parameters
-
-
-
 
 ### -param punkSrc [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> object to be added.
 
-
 ### -param pwszItem [in]
 
 Type: <b>PCWSTR</b>
 
 A pointer to a null-terminated, Unicode, application-defined string that is used to identify the docking window object.
-
 
 ### -param dwAddFlags
 
@@ -108,29 +102,17 @@ Reserved. Do not use.
 
 Reserved. Do not use.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-idockingwindowframe">IDockingWindowFrame</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-idockingwindowsite">IDockingWindowSite</a>
- 
-
- 
 

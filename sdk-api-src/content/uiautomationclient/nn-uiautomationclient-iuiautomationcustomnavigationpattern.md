@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 0FF8604E-DD0E-4243-9B7E-219A26ACAC9C
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCustomNavigationPattern, IUIAutomationCustomNavigationPattern interface [Windows Accessibility], IUIAutomationCustomNavigationPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationCustomNavigationPattern, winauto.uiauto_IUIAutomationCustomNavigationPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationCustomNavigationPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationCustomNavigationPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationCustomNavigationPattern
+ - uiautomationclient/IUIAutomationCustomNavigationPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationCustomNavigationPattern
 ---
 
 # IUIAutomationCustomNavigationPattern interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method to support access by a Microsoft UI Automation client to controls that support a custom navigation order.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Gets the next element in the specified direction within the logical UI tree.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection</a>
- 
-
- 
 

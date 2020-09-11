@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 8ad43a1d-428a-41cc-bba8-5eec7f87c11f
 ms.date: 12/05/2018
 ms.keywords: GetIpPathEntry, GetIpPathEntry function [IP Helper], iphlp.getippathentry, netioapi/GetIpPathEntry
-f1_keywords:
-- netioapi/GetIpPathEntry
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpPathEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpPathEntry
+ - netioapi/GetIpPathEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpPathEntry
 ---
 
 # GetIpPathEntry function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>GetIpPathEntry</b> function  retrieves information for a IP path entry on the local computer. 
-
+<b>GetIpPathEntry</b> function  retrieves information for a IP path entry on the local computer.
 
 ## -parameters
-
-
-
 
 ### -param Row [in, out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> structure entry for a IP path entry. On successful return, this structure will be updated with the properties for IP path entry.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -135,14 +128,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpPathEntry</b> function is defined on Windows Vista and later. 
 
@@ -157,13 +144,7 @@ On output when the call is successful, <b>GetIpPathEntry</b> retrieves the other
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getippathtable">GetIpPathTable</a> function can be called to enumerate the IP path entries on a local computer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-flushippathtable">FlushIpPathTable</a>
 
@@ -178,7 +159,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_table">MIB_IPPATH_TABLE</a>
- 
-
- 
 

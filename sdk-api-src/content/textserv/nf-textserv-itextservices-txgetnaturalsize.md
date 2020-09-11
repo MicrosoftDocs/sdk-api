@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetnaturalsize.htm
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetNaturalSize method, ITextServices.TxGetNaturalSize, ITextServices::TxGetNaturalSize, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize, TxGetNaturalSize method [Windows Controls], TxGetNaturalSize method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetNaturalSize, _win32_ITextServices_TxGetNaturalSize_cpp, controls.ITextServices_TxGetNaturalSize, controls._win32_ITextServices_TxGetNaturalSize, textserv/ITextServices::TxGetNaturalSize
-f1_keywords:
-- textserv/ITextServices.TxGetNaturalSize
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextServices.TxGetNaturalSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextServices::TxGetNaturalSize
+ - textserv/ITextServices::TxGetNaturalSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextServices.TxGetNaturalSize
 ---
 
 # ITextServices::TxGetNaturalSize
@@ -49,42 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a control to be resized so it fits its content appropriately.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAspect
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The aspect for the drawing. It can be any of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration. 
-
+The aspect for the drawing. It can be any of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration.
 
 ### -param hdcDraw
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-The device context into which drawing occurs. 
-
+The device context into which drawing occurs.
 
 ### -param hicTargetDev
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-The device context for which text should be formatted (that is, for WYSIWYG). 
-
+The device context for which text should be formatted (that is, for WYSIWYG).
 
 ### -param ptd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
 
 More information on the target device.
-
 
 ### -param dwMode
 
@@ -175,33 +167,26 @@ Resize the control to show an integral number of lines (no line is clipped). For
 </td>
 </tr>
 </table>
- 
-
 
 ### -param psizelExtent
 
 Type: <b>const SIZEL*</b>
 
-Not supported. 
-
+Not supported.
 
 ### -param pwidth [in, out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
-The width for the fitting defined by <i>dwMode</i>. 
-
+The width for the fitting defined by <i>dwMode</i>.
 
 ### -param pheight [in, out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
-The height for the fitting defined by <i>dwMode</i>. 
-
+The height for the fitting defined by <i>dwMode</i>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -248,26 +233,14 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The first four parameters are similar to equivalent parameters in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a> and give the same information. In the case where the lines must be recalculated, it should use these values the same ways as in <b>ITextServices::TxDraw</b>.
 
-The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host passes in the tentative width and height of the natural extent of the text object. The text services object compares these values against its current cached state, and if different, recalculate lines. Then, it computes and returns the natural size, as specified by <i>dwMode</i>. 
-
-
-
+The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host passes in the tentative width and height of the natural extent of the text object. The text services object compares these values against its current cached state, and if different, recalculate lines. Then, it computes and returns the natural size, as specified by <i>dwMode</i>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -298,7 +271,4 @@ The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/06/2019
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(), XMU555.XMU555(XMU555 &&), XMU555::XMU555, XMU555::XMU555(XMU555 &&), dxmath.xmu555_ctor_1
-f1_keywords:
-- directxpackedvector/XMU555.XMU555
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMU555.XMU555
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMU555::XMU555
+ - directxpackedvector/XMU555::XMU555
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMU555.XMU555
 ---
 
 # XMU555::XMU555(XMU555 &&)
+
 
 ## -description
 
@@ -67,3 +69,4 @@ A value.
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
+

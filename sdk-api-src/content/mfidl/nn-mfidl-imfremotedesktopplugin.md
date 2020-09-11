@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 75bb9bf8-12a7-430f-9943-18623aff9903
 ms.date: 12/05/2018
 ms.keywords: 75bb9bf8-12a7-430f-9943-18623aff9903, IMFRemoteDesktopPlugin, IMFRemoteDesktopPlugin interface [Media Foundation], IMFRemoteDesktopPlugin interface [Media Foundation],described, mf.imfremotedesktopplugin, mfidl/IMFRemoteDesktopPlugin
-f1_keywords:
-- mfidl/IMFRemoteDesktopPlugin
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFRemoteDesktopPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFRemoteDesktopPlugin
+ - mfidl/IMFRemoteDesktopPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFRemoteDesktopPlugin
 ---
 
 # IMFRemoteDesktopPlugin interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Modifies a topology for use in a Terminal Services environment.
-        
-
 
 ## -inheritance
 
@@ -79,12 +77,9 @@ Modifies a topology for use in a Terminal Services environment.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To use this interface, do the following:
 
@@ -98,16 +93,7 @@ To use this interface, do the following:
 </ol>
 The application must call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfremotedesktopplugin-updatetopology">UpdateTopology</a> before calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> on the Media Session.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

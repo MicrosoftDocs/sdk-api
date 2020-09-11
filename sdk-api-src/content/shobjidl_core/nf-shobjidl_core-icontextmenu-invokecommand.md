@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f3aaa84c-3b33-4288-a46a-cd80d3fa89cf
 ms.date: 12/05/2018
 ms.keywords: IContextMenu interface [Windows Shell],InvokeCommand method, IContextMenu.InvokeCommand, IContextMenu::InvokeCommand, InvokeCommand, InvokeCommand method [Windows Shell], InvokeCommand method [Windows Shell],IContextMenu interface, _win32_IContextMenu_InvokeCommand, _win32_icontextmenu_win32_icontextmenu_invokecommand_cpp, shell.IContextMenu_InvokeCommand, shobjidl_core/IContextMenu::InvokeCommand
-f1_keywords:
-- shobjidl_core/IContextMenu.InvokeCommand
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IContextMenu.InvokeCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenu::InvokeCommand
+ - shobjidl_core/IContextMenu::InvokeCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IContextMenu.InvokeCommand
 ---
 
 # IContextMenu::InvokeCommand
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Carries out the command associated with a shortcut menu item.
 
-
 ## -parameters
-
-
-
 
 ### -param pici
 
@@ -64,21 +60,13 @@ Type: <b>LPCMINVOKECOMMANDINFO</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure that contains specifics about the command.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> interface is exported by several Shell extension handlers and namespace extensions. It is used to add commands to shortcut menus. When the user selects one of the commands that the handler or namespace extension added to a shortcut menu, the Shell calls that command's <b>InvokeCommand</b> method. The command can be specified by its menu identifier offset, defined when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">IContextMenu::QueryContextMenu</a> was called, or by its associated verb. An application can invoke this method directly by obtaining a pointer to an object's <b>IContextMenu</b> interface. An application can also invoke this method indirectly by calling <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> and specifying a verb that is supported by the namespace extension or handler.
 
@@ -92,16 +80,7 @@ If the verb, specified either by a canonical verb name or the command ID is not 
 
 As of Windows Vista, it is not sufficient invoke the command asynchronously simply by setting the CMIC_MASK_ASYNCOK flag in the <b>fMask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. You must also set a thread reference on the calling thread as explained in <a href="https://docs.microsoft.com/windows/desktop/shell/managing-thread-references">Managing Thread References</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>
- 
-
- 
 

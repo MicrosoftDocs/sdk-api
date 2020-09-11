@@ -8,10 +8,6 @@ tech.root: WebSock
 ms.assetid: 289f3880-22ed-44f8-8a69-1c983153ea72
 ms.date: 12/05/2018
 ms.keywords: WebSocketSend, WebSocketSend function [Websocket Protocol Component API], websock.websocketsend, websocket/WebSocketSend
-f1_keywords:
-- websocket/WebSocketSend
-dev_langs:
-- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- websocket.dll
-api_name:
-- WebSocketSend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WebSocketSend
+ - websocket/WebSocketSend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - websocket.dll
+api_name:
+ - WebSocketSend
 ---
 
 # WebSocketSend function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WebSocketSend</b> function adds a send operation to the protocol component operation queue.
 
-
 ## -parameters
-
-
-
 
 ### -param hWebSocket [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-
 
 WebSocket session handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
-
 ### -param BufferType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_buffer_type">WEB_SOCKET_BUFFER_TYPE</a></b>
 
 The type of WebSocket buffer data to send in <i>pBuffer</i>.
-
 
 ### -param pBuffer [in, optional]
 
@@ -87,10 +81,7 @@ Type: <b>PVOID</b>
 
 A pointer to an application context handle that will be returned by a subsequent call to  <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -115,24 +106,12 @@ Protocol performed an invalid operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After an application sends a <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_property_type">WEB_SOCKET_CLOSE_BUFFER_TYPE</a> WebSocket buffer successfully, it can only send control frames.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action">WEB_SOCKET_ACTION</a>
 
@@ -151,7 +130,4 @@ After an application sends a <a href="https://docs.microsoft.com/windows/desktop
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a>
- 
-
- 
 

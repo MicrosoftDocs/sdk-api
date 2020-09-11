@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: cb8dc379-30a1-43b0-b5a7-c6bc59b3e9ac
 ms.date: 12/05/2018
 ms.keywords: EndNtmsDeviceChangeDetection, EndNtmsDeviceChangeDetection function [Files], _zaw_endntmsdevicechangedetection, base.endntmsdevicechangedetection, fs.endntmsdevicechangedetection, ntmsapi/EndNtmsDeviceChangeDetection
-f1_keywords:
-- ntmsapi/EndNtmsDeviceChangeDetection
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- EndNtmsDeviceChangeDetection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EndNtmsDeviceChangeDetection
+ - ntmsapi/EndNtmsDeviceChangeDetection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - EndNtmsDeviceChangeDetection
 ---
 
 # EndNtmsDeviceChangeDetection function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>EndNtmsDeviceChangeDetection</b> function ends device change detection for any target devices specified using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsdevicechangedetection">SetNtmsDeviceChangeDetection</a> function and closes the change detection handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function
 
-
 ### -param DetectHandle [in]
 
 Device change detection handle returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-beginntmsdevicechangedetection">BeginNtmsDeviceChangeDetection</a> function.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -108,24 +100,12 @@ The operator request has been canceled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Closing the Removable Storage Manager session also ends all device change detection sessions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-beginntmsdevicechangedetection">BeginNtmsDeviceChangeDetection</a>
 
@@ -136,7 +116,4 @@ Closing the Removable Storage Manager session also ends all device change detect
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsdevicechangedetection">SetNtmsDeviceChangeDetection</a>
- 
-
- 
 

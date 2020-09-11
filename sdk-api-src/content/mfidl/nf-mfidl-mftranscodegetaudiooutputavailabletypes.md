@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8750eacb-7e6f-4c17-987b-f4baa4eea847
 ms.date: 12/05/2018
 ms.keywords: MFT_FIELDOFUSE_UNLOCK_Attribute, MFTranscodeGetAudioOutputAvailableTypes, MFTranscodeGetAudioOutputAvailableTypes function [Media Foundation], MF_TRANSCODE_ENCODINGPROFILE, MF_TRANSCODE_QUALITYVSSPEED, mf.mftranscodegetaudiooutputavailabletypes, mfidl/MFTranscodeGetAudioOutputAvailableTypes
-f1_keywords:
-- mfidl/MFTranscodeGetAudioOutputAvailableTypes
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFTranscodeGetAudioOutputAvailableTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFTranscodeGetAudioOutputAvailableTypes
+ - mfidl/MFTranscodeGetAudioOutputAvailableTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFTranscodeGetAudioOutputAvailableTypes
 ---
 
 # MFTranscodeGetAudioOutputAvailableTypes function
@@ -49,26 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of output formats from an audio encoder.
-
 
 ## -parameters
 
-
-
-
 ### -param guidSubType [in]
 
-Specifies the subtype of the output media. The encoder uses this value as a filter when it is enumerating the available output types. For information about the audio subtypes, see  <a href="https://docs.microsoft.com/windows/desktop/medfound/audio-subtype-guids">Audio Subtype GUIDs</a>. 
-
+Specifies the subtype of the output media. The encoder uses this value as a filter when it is enumerating the available output types. For information about the audio subtypes, see  <a href="https://docs.microsoft.com/windows/desktop/medfound/audio-subtype-guids">Audio Subtype GUIDs</a>.
 
 ### -param dwMFTFlags [in]
 
 Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
-
-
-
 
 ### -param pCodecConfig [in]
 
@@ -110,17 +102,12 @@ Sets the tradeoff between encoding quality and encoding speed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppAvailableTypes [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of a collection object that contains a list of preferred audio media types. The collection contains <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> pointers. The caller must release the interface pointer.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -154,14 +141,8 @@ Failed to find an encoder that matches the specified configuration settings.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function assumes the encoder will be used in its default encoding mode, which is typically constant bit-rate (CBR) encoding. Therefore, the types returned by the function might not work with other modes, such as variable bit-rate (VBR) encoding.
 
@@ -290,14 +271,7 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelement">IMFCollection::GetElement</a>
 
@@ -312,7 +286,4 @@ done:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/tutorial--converting-an-mp3-file-to-a-wma-file">Tutorial: Encoding a WMA File</a>
- 
-
- 
 

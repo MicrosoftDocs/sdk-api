@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 7DCA4750-A397-4B5A-908F-A046427D30FB
 ms.date: 12/05/2018
 ms.keywords: IDXGIDebug, IDXGIDebug interface [DXGI], IDXGIDebug interface [DXGI],described, direct3ddxgi.idxgidebug, dxgidebug/IDXGIDebug
-f1_keywords:
-- dxgidebug/IDXGIDebug
-dev_langs:
-- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DXGIDebug.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGIDebug.dll
-api_name:
-- IDXGIDebug
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIDebug
+ - dxgidebug/IDXGIDebug
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGIDebug.dll
+api_name:
+ - IDXGIDebug
 ---
 
 # IDXGIDebug interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface controls debug settings, and can only be used if the debug layer is turned on.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Reports info about the lifetime of an object or objects.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-dxgigetdebuginterface">DXGIGetDebugInterface</a> function.
         
@@ -98,19 +94,11 @@ For more info about the debug layer, see <a href="https://docs.microsoft.com/win
       </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

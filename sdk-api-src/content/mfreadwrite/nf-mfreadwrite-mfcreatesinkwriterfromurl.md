@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ac6a30c7-5e44-453a-8114-8d7d65332024
 ms.date: 12/05/2018
 ms.keywords: MFCreateSinkWriterFromURL, MFCreateSinkWriterFromURL function [Media Foundation], mf.mfcreatesinkwriterfromurl, mfreadwrite/MFCreateSinkWriterFromURL
-f1_keywords:
-- mfreadwrite/MFCreateSinkWriterFromURL
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfreadwrite.lib
 req.dll: Mfreadwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfreadwrite.dll
-api_name:
-- MFCreateSinkWriterFromURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateSinkWriterFromURL
+ - mfreadwrite/MFCreateSinkWriterFromURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfreadwrite.dll
+api_name:
+ - MFCreateSinkWriterFromURL
 ---
 
 # MFCreateSinkWriterFromURL function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates the sink writer from a URL or byte stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszOutputURL [in]
 
 A null-terminated string that contains the URL of the output file. This parameter can be <b>NULL</b>.
-
 
 ### -param pByteStream [in]
 
@@ -69,20 +64,15 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects
 
 If this parameter is a valid pointer, the sink writer writes to the provided byte stream. (The byte stream must be writable.) Otherwise, if <i>pByteStream</i> is <b>NULL</b>, the sink writer creates a new file named <i>pwszOutputURL</i>.
 
-
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. You can use this parameter to configure the sink writer. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer-attributes">Sink Writer Attributes</a>. This parameter can be <b>NULL</b>. 
-
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. You can use this parameter to configure the sink writer. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer-attributes">Sink Writer Attributes</a>. This parameter can be <b>NULL</b>.
 
 ### -param ppSinkWriter [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -114,14 +104,8 @@ The specified URL was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call <b>CoInitialize(Ex)</b> and <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> before calling this function.
 
@@ -167,16 +151,7 @@ The <i>pAttributes</i> parameter is required in the first case and optional in t
 </ul>
 This function is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 7d3522b8-ddf0-449e-8ab4-09e679ba1f15
 ms.date: 12/05/2018
 ms.keywords: RollbackTransaction, RollbackTransaction function [Files], fs.rollbacktransaction, ktmw32/RollbackTransaction
-f1_keywords:
-- ktmw32/RollbackTransaction
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ktmw32.dll
-api_name:
-- RollbackTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RollbackTransaction
+ - ktmw32/RollbackTransaction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ktmw32.dll
+api_name:
+ - RollbackTransaction
 ---
 
 # RollbackTransaction function
@@ -49,36 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
         Requests that the specified transaction be rolled back.  This function is synchronous.
 
-
 ## -parameters
-
-
-
 
 ### -param TransactionHandle [in]
 
 A handle to the transaction.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following list identifies the possible error codes: 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following list identifies the possible error codes:
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a>
 
@@ -93,7 +79,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-opentransaction">OpenTransaction</a>
- 
-
- 
 

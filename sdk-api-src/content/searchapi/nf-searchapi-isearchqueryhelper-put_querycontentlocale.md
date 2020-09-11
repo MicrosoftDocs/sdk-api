@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentlocale.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryContentLocale method, ISearchQueryHelper.put_QueryContentLocale, ISearchQueryHelper::put_QueryContentLocale, _search_ISearchQueryHelper_put_QueryContentLocale, put_QueryContentLocale, put_QueryContentLocale method [search], put_QueryContentLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryContentLocale, searchapi/ISearchQueryHelper::put_QueryContentLocale
-f1_keywords:
-- searchapi/ISearchQueryHelper.put_QueryContentLocale
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchQueryHelper.put_QueryContentLocale
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchQueryHelper::put_QueryContentLocale
+ - searchapi/ISearchQueryHelper::put_QueryContentLocale
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchQueryHelper.put_QueryContentLocale
 ---
 
 # ISearchQueryHelper::put_QueryContentLocale
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the language code identifier (LCID) of the query.
 
-
 ## -parameters
-
-
-
 
 ### -param lcid [in]
 
@@ -64,21 +60,13 @@ Type: <b>LCID</b>
 
 Sets the LCID of the query.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The locale identifier has the components necessary to uniquely identify one of the installed system-defined locales. The LCID controls a number of settings including numeric format, date format, currency format, uppercase and lowercase mapping, dictionary sort ordering, tokenization, and others. Although these settings help Windows operating system and Windows Search API provide excellent localized support, unexpected results can occur when documents from one locale are searched by a system set for another locale.
 
@@ -89,9 +77,6 @@ The locale is used for word breaking, normalizing, and stemming the string value
 Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
 
@@ -106,7 +91,4 @@ Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>
- 
-
- 
 

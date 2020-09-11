@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 2245d198-056c-467f-aae7-b1bb02f188e2
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], IWdsTransportCacheable interface [Windows Deployment Services],described, wds.iwdstransportcacheable, wdstptmgmt/IWdsTransportCacheable
-f1_keywords:
-- wdstptmgmt/IWdsTransportCacheable
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportCacheable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportCacheable
+ - wdstptmgmt/IWdsTransportCacheable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportCacheable
 ---
 
 # IWdsTransportCacheable interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides caching for objects that handle persistent data. This interface can be inherited by other interfaces that represent persisted objects.
-
 
 ## -inheritance
 
@@ -120,5 +119,5 @@ Receives a value that indicates whether object data has been modified.
 
 </td>
 </tr>
-</table> 
+</table>
 

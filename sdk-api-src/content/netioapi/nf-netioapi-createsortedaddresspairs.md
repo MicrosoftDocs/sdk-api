@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: cdc90d63-15a4-4278-afc3-dbf9ad6ba698
 ms.date: 12/05/2018
 ms.keywords: CreateSortedAddressPairs, CreateSortedAddressPairs function [IP Helper], iphlp.createsortedaddresspairs, netioapi/CreateSortedAddressPairs
-f1_keywords:
-- netioapi/CreateSortedAddressPairs
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- CreateSortedAddressPairs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateSortedAddressPairs
+ - netioapi/CreateSortedAddressPairs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - CreateSortedAddressPairs
 ---
 
 # CreateSortedAddressPairs function
@@ -49,58 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreateSortedAddressPairs</b> function  takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address
     pair is best suited for communication between the two peers.
 
-
-
 ## -parameters
-
-
-
 
 ### -param SourceAddressList [in, optional]
 
 Must be <b>NULL</b>. Reserved for future use.
 
-
 ### -param SourceAddressCount [in]
 
 Must be 0. Reserved for future use.
 
-
 ### -param DestinationAddressList [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structures that contain a list of potential IPv6 destination addresses.
-        Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. 
-
+        Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node.
 
 ### -param DestinationAddressCount [in]
 
 The number of destination addresses pointed to by the <i>DestinationAddressList</i> parameter.
 
-
 ### -param AddressSortOptions [in]
 
 Reserved for future use.
-
 
 ### -param SortedAddressPairList [out]
 
 A pointer to store an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair">SOCKADDR_IN6_PAIR</a> structures that contain a list of pairs of IPv6 addresses
         sorted in the preferred order of communication, if the function call is successful.
 
-
 ### -param SortedAddressPairCount [out]
 
 A pointer to store the number of address pairs pointed to by the <i>SortedAddressPairList</i> parameter, if the function call is successful.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -157,14 +143,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CreateSortedAddressPairs</b> function is defined on Windows Vista and later. 
 
@@ -179,14 +159,7 @@ The list of destination addresses is pointed to by the <i>DestinationAddressList
 
 If the <b>CreateSortedAddressPairs</b> function is successful, the <i>SortedAddressPairList</i> parameter points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair">SOCKADDR_IN6_PAIR</a> structures that contain the sorted address pairs. When this returned list is no longer required, free the memory used by the list by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a> function.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>
 
@@ -205,7 +178,4 @@ If the <b>CreateSortedAddressPairs</b> function is successful, the <i>SortedAddr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

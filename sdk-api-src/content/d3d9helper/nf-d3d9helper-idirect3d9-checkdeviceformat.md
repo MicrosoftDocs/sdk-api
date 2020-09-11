@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdeviceformat.htm
 ms.date: 12/05/2018
 ms.keywords: CheckDeviceFormat, CheckDeviceFormat method [Direct3D 9], CheckDeviceFormat method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceFormat method, IDirect3D9.CheckDeviceFormat, IDirect3D9::CheckDeviceFormat, d3d9helper/IDirect3D9::CheckDeviceFormat, daa5cafd-0b8b-a747-98fe-eb9db7acde6d, direct3d9.idirect3d9__checkdeviceformat
-f1_keywords:
-- d3d9helper/IDirect3D9.CheckDeviceFormat
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3D9.CheckDeviceFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3D9::CheckDeviceFormat
+ - d3d9helper/IDirect3D9::CheckDeviceFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3D9.CheckDeviceFormat
 ---
 
 # IDirect3D9::CheckDeviceFormat
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a surface format is available as a specified resource type and can be used as a texture, depth-stencil buffer, or render target, or any combination of the three, on a device representing this adapter.
 
-
 ## -parameters
-
-
-
 
 ### -param Adapter [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Ordinal number denoting the display adapter to query. <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dadapter-default">D3DADAPTER_DEFAULT</a> is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
-
+Ordinal number denoting the display adapter to query. <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dadapter-default">D3DADAPTER_DEFAULT</a> is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system.
 
 ### -param DeviceType [in]
 
@@ -72,13 +67,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtyp
 
 Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type, identifying the device type.
 
-
 ### -param AdapterFormat [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
 Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed.
-
 
 ### -param Usage [in]
 
@@ -86,13 +79,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Requested usage options for the surface. Usage options are any combination of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage">D3DUSAGE</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage-query">D3DUSAGE_QUERY</a> constants (only a subset of the D3DUSAGE constants are valid for <b>CheckDeviceFormat</b>; see the table on the D3DUSAGE page).
 
-
 ### -param RType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a></b>
 
-Resource type requested for use with the queried format. Member of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a>. 
-
+Resource type requested for use with the queried format. Member of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dresourcetype">D3DRESOURCETYPE</a>.
 
 ### -param CheckFormat [in]
 
@@ -100,10 +91,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat
 
 Format of the surfaces which may be used, as defined by Usage. Member of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -113,12 +101,7 @@ D3DERR_INVALIDCALL is returned if Adapter equals or exceeds the number of displa
 
 D3DERR_NOTAVAILABLE is returned if the format is not acceptable to the device for this usage.
 
-
-
-
 ## -remarks
-
-
 
 Here are some examples using <b>CheckDeviceFormat</b> to check for hardware support of:
 
@@ -173,16 +156,7 @@ BOOL IsTextureFormatOk( D3DFORMAT TextureFormat, D3DFORMAT AdapterFormat )
 </ul>
 When migrating code from Direct3D 9 to Direct3D 10, the Direct3D 10 equivalent to CheckDeviceFormat is <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkformatsupport">CheckFormatSupport</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
- 
-
- 
 

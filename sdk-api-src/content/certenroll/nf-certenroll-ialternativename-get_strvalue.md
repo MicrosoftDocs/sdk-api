@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1d916450-4a4e-4f11-b95b-dbf9693b7cdd
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],StrValue property, IAlternativeName.StrValue, IAlternativeName.get_StrValue, IAlternativeName::StrValue, IAlternativeName::get_StrValue, StrValue property [Security], StrValue property [Security],IAlternativeName interface, certenroll/IAlternativeName::StrValue, certenroll/IAlternativeName::get_StrValue, get_StrValue, security.ialternativename_strvalue_property
-f1_keywords:
-- certenroll/IAlternativeName.StrValue
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IAlternativeName.StrValue
-- IAlternativeName.get_StrValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAlternativeName::get_StrValue
+ - certenroll/IAlternativeName::get_StrValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IAlternativeName.StrValue
+ - IAlternativeName.get_StrValue
 ---
 
 # IAlternativeName::get_StrValue
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>StrValue</b> property retrieves a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You can call this property to retrieve a string if you initialized the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a> object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromstring">InitializeFromString</a> method and specifying one of the following <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> values.<table>
 <tr>
@@ -89,20 +85,8 @@ You can call this property to retrieve a string if you initialized the <a href="
 <td>The name is a UPN.</td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
- 
-
- 
 

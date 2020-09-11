@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: cfaf475c-336a-492f-b5a8-c49c21e5392d
 ms.date: 12/05/2018
 ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDecoderCaps method, IDvdInfo2.GetDecoderCaps, IDvdInfo2::GetDecoderCaps, IDvdInfo2GetDecoderCaps, dshow.idvdinfo2_getdecodercaps, strmif/IDvdInfo2::GetDecoderCaps
-f1_keywords:
-- strmif/IDvdInfo2.GetDecoderCaps
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetDecoderCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetDecoderCaps
+ - strmif/IDvdInfo2::GetDecoderCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetDecoderCaps
 ---
 
 # IDvdInfo2::GetDecoderCaps
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDecoderCaps</code> method retrieves the DVD decoder's maximum data rate for video, audio, and subpicture (in forward and reverse) as well as support for various types of audio (AC-3, MPEG-2, DTS, SDDS, LPCM).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCaps [out]
 
 Pointer to a variable of type [DVD_DECODER_CAPS](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_decoder_caps) that receives the information about the decoder.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -101,15 +91,8 @@ The filter graph has not been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -120,7 +103,4 @@ The filter graph has not been initialized.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setnolinenumber.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetNoLineNumber method, ITextPara.SetNoLineNumber, ITextPara::SetNoLineNumber, SetNoLineNumber, SetNoLineNumber method [Windows Controls], SetNoLineNumber method [Windows Controls],ITextPara interface, _win32_ITextPara_SetNoLineNumber, _win32_ITextPara_SetNoLineNumber_cpp, controls.ITextPara_SetNoLineNumber, controls._win32_ITextPara_SetNoLineNumber, tom/ITextPara::SetNoLineNumber
-f1_keywords:
-- tom/ITextPara.SetNoLineNumber
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetNoLineNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetNoLineNumber
+ - tom/ITextPara::SetNoLineNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetNoLineNumber
 ---
 
 # ITextPara::SetNoLineNumber
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether to suppress line numbering of paragraphs in a range.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -103,12 +99,8 @@ The property is undefined.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -175,25 +167,13 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This property concerns the numbering of paragraphs in a range. If 
 				<i>Value</i> is <b>tomFalse</b>, the number of the paragraph appears on the first line of the paragraph.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -208,7 +188,4 @@ This property concerns the numbering of paragraphs in a range. If
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

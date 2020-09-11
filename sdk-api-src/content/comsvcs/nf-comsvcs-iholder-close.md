@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: c8aac9b4-04d7-46a7-9b77-5f7d9d6a2ac3
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [COM+], Close method [COM+],IHolder interface, IHolder interface [COM+],Close method, IHolder.Close, IHolder::Close, _dtc_IHolder_Close, comsvcs/IHolder::Close, cos.iholder_close
-f1_keywords:
-- comsvcs/IHolder.Close
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder::Close
+ - comsvcs/IHolder::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder.Close
 ---
 
 # IHolder::Close
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the Holder.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This closes a Resource Dispenser's Holder, after which the Resource Dispenser probably released.
 
@@ -103,14 +90,7 @@ The following sequence describes how to close down a Resource Dispenser:
 </ol>
 Note that the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-registerdispenser">IDispenserManager::RegisterDispenser</a> method does not call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on its <i>pDispenserDriver</i> object, but <b>IHolder::Close</b> does perform a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on <i>pDispenserDriver</i>. This can cause the Resource Dispenser object to be destroyed prematurely. To prevent this premature destruction, the caller of <b>IHolder::Close</b> must hold a reference to the Resource Dispenser object as described in steps 1 and 5.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
@@ -121,7 +101,4 @@ Note that the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
- 
-
- 
 

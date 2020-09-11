@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4
 ms.date: 12/05/2018
 ms.keywords: AuthzCachedAccessCheck, AuthzCachedAccessCheck function [Security], _win32_authzcachedaccesscheck, authz/AuthzCachedAccessCheck, security.authzcachedaccesscheck
-f1_keywords:
-- authz/AuthzCachedAccessCheck
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-api_name:
-- AuthzCachedAccessCheck
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - AuthzCachedAccessCheck
+ - authz/AuthzCachedAccessCheck
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+api_name:
+ - AuthzCachedAccessCheck
 ---
 
 # AuthzCachedAccessCheck function
@@ -49,45 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AuthzCachedAccessCheck</b> function performs a fast access check based on a cached handle containing the static granted bits from a previous 
 <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> call.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
 Reserved for future use.
 
-
 ### -param hAccessCheckResults [in]
 
 A handle to the cached access check results.
-
 
 ### -param pRequest [in]
 
 Access request handle specifying the desired <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a>, principal self <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SID</a>, and the object type list structure (if any).
 
-
 ### -param hAuditEvent [in]
 
 A structure that contains object-specific audit information. When the value of this parameter is not null, an audit is automatically requested. Static audit information is read from the resource manager structure.
-
 
 ### -param pReply [out]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a> handle that returns the results of access check as an array of GrantedAccessMask/ErrorValue pairs. The number of pairs returned is supplied by the caller in the <b>ResultListLength</b> member of the <b>AUTHZ_ACCESS_REPLY</b> structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
@@ -143,14 +132,8 @@ One or more of the following is true:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client context pointer is stored in the <i>AuthzHandle</i> parameter. The structure of the client context must be exactly the same as it was at the time <i>AuthzHandle</i> was created. This restriction is for the following fields:
 
@@ -165,13 +148,7 @@ The <b>AuthzCachedAccessCheck</b> function maintains a cache as a result of eval
 
 For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a> and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a> overviews.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a>
 
@@ -198,7 +175,4 @@ For more information, see the <a href="https://docs.microsoft.com/windows/deskto
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>
- 
-
- 
 

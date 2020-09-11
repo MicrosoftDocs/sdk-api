@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 0b029ace-1f5d-4cb2-9f09-51e5a11d2e5a
 ms.date: 12/05/2018
 ms.keywords: WinBioEnrollDiscard, WinBioEnrollDiscard function [Windows Biometric Framework API], secbiomet.winbioenrolldiscard, winbio/WinBioEnrollDiscard
-f1_keywords:
-- winbio/WinBioEnrollDiscard
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioEnrollDiscard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioEnrollDiscard
+ - winbio/WinBioEnrollDiscard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioEnrollDiscard
 ---
 
 # WinBioEnrollDiscard function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Ends the enrollment sequence and discards a pending biometric template. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -110,14 +103,8 @@ The biometric unit is in use and is locked.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use this function to allow a user to stop an enrollment sequence before saving a biometric template to the template database.
 
@@ -281,14 +268,7 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollbegin">WinBioEnrollBegin</a>
 
@@ -303,7 +283,4 @@ e_Exit:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrolldiscard">WinBioEnrollDiscard</a>
- 
-
- 
 

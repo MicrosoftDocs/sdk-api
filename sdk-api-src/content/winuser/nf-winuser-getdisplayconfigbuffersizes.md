@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 5ec7f521-28b5-4922-a3fc-aa4433de69e0
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayConfigBufferSizes, GetDisplayConfigBufferSizes function [Display Devices], display.getdisplayconfigbuffersizes, winuser/GetDisplayConfigBufferSizes
-f1_keywords:
-- winuser/GetDisplayConfigBufferSizes
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib; OneCoreUAP.lib on Windows 10
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-SysParams-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
-api_name:
-- GetDisplayConfigBufferSizes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDisplayConfigBufferSizes
+ - winuser/GetDisplayConfigBufferSizes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-SysParams-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+api_name:
+ - GetDisplayConfigBufferSizes
 ---
 
 # GetDisplayConfigBufferSizes function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDisplayConfigBufferSizes</b> function retrieves the size of the buffers that are required to call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
@@ -85,20 +81,15 @@ The caller requests the table sizes to hold only active paths.
 
 The caller requests the table sizes to hold the active paths as defined in the persistence database for the currently connected monitors.
 
-
 ### -param numPathArrayElements [out]
 
 Pointer to a variable that receives the number of elements in the path information table. The <i>pNumPathArrayElements</i> parameter value is then used by a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> function. This parameter cannot be <b>NULL</b>.
-
 
 ### -param numModeInfoArrayElements [out]
 
 Pointer to a variable that receives the number of elements in the mode information table. The <i>pNumModeInfoArrayElements</i> parameter value is then used by a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> function. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The function returns one of the following return codes.
 
@@ -163,14 +154,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Given the current display path configuration and the requested flags, <b>GetDisplayConfigBufferSizes</b> returns the size of the path and mode tables that are required to store the information. <b>GetDisplayConfigBufferSizes</b> can return values that are slightly larger than are actually required because it determines that all source and target paths are valid; whereas, the driver might place some restrictions on the possible combinations.
 
@@ -178,20 +163,11 @@ As <b>GetDisplayConfigBufferSizes</b> can only determine the required array size
 
 If a caller is aware that it must enable additional sources and targets, the caller can allocate a larger mode information array than is returned from <b>GetDisplayConfigBufferSizes</b> so that it has the space to add the additional source and target modes after calling <b>QueryDisplayConfig</b> and before calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a>
- 
-
- 
 

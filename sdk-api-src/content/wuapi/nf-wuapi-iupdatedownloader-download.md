@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 8b860632-3d10-4791-b4b3-d37aad319a0a
 ms.date: 12/05/2018
 ms.keywords: Download, Download method [Windows Update Agent], Download method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],Download method, IUpdateDownloader.Download, IUpdateDownloader::Download, wua.iupdatedownloader_download, wuapi/IUpdateDownloader::Download
-f1_keywords:
-- wuapi/IUpdateDownloader.Download
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateDownloader.Download
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateDownloader::Download
+ - wuapi/IUpdateDownloader::Download
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateDownloader.Download
 ---
 
 # IUpdateDownloader::Download
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts a synchronous download of the content files that are associated with the updates.
 
-
 ## -parameters
-
-
-
 
 ### -param retval [out]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadresult">IDownloadResult</a> interface that contains result codes for the download.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -110,14 +103,8 @@ Windows Update Agent is not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implementing the interface is locked down.
 
@@ -125,16 +112,7 @@ This method returns <b>WU_E_NO_UPDATE</b> if the <a href="https://docs.microsoft
 
 This method returns <b>SUS_E_NOT_INITIALIZED</b> if the download job does not contain updates.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
- 
-
- 
 

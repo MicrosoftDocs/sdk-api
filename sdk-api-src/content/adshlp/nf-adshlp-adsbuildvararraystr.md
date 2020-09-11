@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331
 ms.date: 12/05/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
-f1_keywords:
-- adshlp/ADsBuildVarArrayStr
-dev_langs:
-- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Activeds.dll
-api_name:
-- ADsBuildVarArrayStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ADsBuildVarArrayStr
+ - adshlp/ADsBuildVarArrayStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Activeds.dll
+api_name:
+ - ADsBuildVarArrayStr
 ---
 
 # ADsBuildVarArrayStr function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADsBuildVarArrayStr</b> function builds a variant array from an array of Unicode strings.
 
-
 ## -parameters
-
-
-
 
 ### -param lppPathNames [in]
 
@@ -64,13 +60,11 @@ Type: <b>LPWSTR*</b>
 
 Array of null-terminated Unicode strings.
 
-
 ### -param dwPathNames [in]
 
 Type: <b>DWORD</b>
 
 Number of Unicode entries in the given array.
-
 
 ### -param pVar [out]
 
@@ -78,10 +72,7 @@ Type: <b>VARIANT*</b>
 
 Pointer to the resulting variant array.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -89,12 +80,7 @@ This method supports the standard return values, as well as the following.
 
 For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 To support Automation, use the <b>ADsBuildVarArrayStr</b> function to convert Unicode strings to a variant array of strings.
 
@@ -174,14 +160,7 @@ cleanup:
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -192,7 +171,4 @@ cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsbuildvararrayint">ADsBuildVarArrayInt</a>
- 
-
- 
 

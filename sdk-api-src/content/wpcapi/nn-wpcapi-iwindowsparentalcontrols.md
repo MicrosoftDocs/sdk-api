@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: f825388f-c4de-4bf2-8076-6efd81b6e030
 ms.date: 12/05/2018
 ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface,described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
-f1_keywords:
-- wpcapi/IWindowsParentalControls
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWindowsParentalControls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsParentalControls
+ - wpcapi/IWindowsParentalControls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWindowsParentalControls
 ---
 
 # IWindowsParentalControls interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables access to all settings interfaces of the Minimum Compliance API.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Retrieves a pointer to an interface for web restrictions settings for the specif
 
 </td>
 </tr>
-</table> 
+</table>
 

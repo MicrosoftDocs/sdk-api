@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\peekmessage.htm
 ms.date: 12/05/2018
 ms.keywords: PM_NOREMOVE, PM_NOYIELD, PM_QS_INPUT, PM_QS_PAINT, PM_QS_POSTMESSAGE, PM_QS_SENDMESSAGE, PM_REMOVE, PeekMessage, PeekMessage function [Windows and Messages], PeekMessageA, PeekMessageW, _win32_PeekMessage, _win32_peekmessage_cpp, winmsg.peekmessage, winui._win32_peekmessage, winuser/PeekMessage, winuser/PeekMessageA, winuser/PeekMessageW
-f1_keywords:
-- winuser/PeekMessage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-message-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-message-l1-1-0.dll
-- Ext-MS-Win-NTUser-message-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- Ext-MS-Win-NTUser-Message-l1-1-2.dll
-- Ext-MS-Win-NTUser-Message-L1-1-3.dll
-api_name:
-- PeekMessage
-- PeekMessageA
-- PeekMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeekMessageW
+ - winuser/PeekMessageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-message-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-message-l1-1-0.dll
+ - Ext-MS-Win-NTUser-message-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - PeekMessage
+ - PeekMessageA
+ - PeekMessageW
 ---
 
 # PeekMessageW function
@@ -60,21 +61,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
 
-
 ## -parameters
-
-
-
 
 ### -param lpMsg [out]
 
 Type: <b>LPMSG</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that receives message information.
-
 
 ### -param hWnd [in, optional]
 
@@ -88,7 +83,6 @@ If <i>hWnd</i> is <b>NULL</b>, <b>PeekMessage</b> retrieves messages for any win
 
  If <i>hWnd</i> is -1, <b>PeekMessage</b> retrieves only messages on the current thread's message queue whose <b>hwnd</b> value is <b>NULL</b>, that is, thread messages as posted by  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> (when the <i>hWnd</i> parameter is <b>NULL</b>) or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a>.
 
-
 ### -param wMsgFilterMin [in]
 
 Type: <b>UINT</b>
@@ -97,7 +91,6 @@ The value of the first message in the range of messages to be examined. Use <b>W
 
 If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, <b>PeekMessage</b> returns all available messages (that is, no range filtering is performed).
 
-
 ### -param wMsgFilterMax [in]
 
 Type: <b>UINT</b>
@@ -105,7 +98,6 @@ Type: <b>UINT</b>
 The value of the last message in the range of messages to be examined. Use <b>WM_KEYLAST</b> to specify the last keyboard message or <b>WM_MOUSELAST</b> to specify the last mouse message.
 
 If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, <b>PeekMessage</b> returns all available messages (that is, no range filtering is performed).
-
 
 ### -param wRemoveMsg [in]
 
@@ -211,25 +203,16 @@ By default, all message types are processed. To specify that only certain messag
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If a message is available, the return value is nonzero.
 
-If no messages are available, the return value is zero. 
-
-
-
+If no messages are available, the return value is zero.
 
 ## -remarks
-
-
 
 <b>PeekMessage</b> retrieves messages associated with the window identified by the <i>hWnd</i> parameter or any of its children as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ischild">IsChild</a> function, and within the range of message values given by the <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> parameters. Note that an application can only use the low word in the <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> parameters; the high word is reserved for the system.
 
@@ -271,9 +254,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -307,7 +287,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a>
- 
-
- 
 

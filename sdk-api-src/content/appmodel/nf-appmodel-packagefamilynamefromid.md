@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 198DAB6B-21D2-4ACB-87DF-B3F4EFBEE323
 ms.date: 12/05/2018
 ms.keywords: PackageFamilyNameFromId, PackageFamilyNameFromId function [App packaging and management], appmodel/PackageFamilyNameFromId, appxpkg.packagefamilynamefromid
-f1_keywords:
-- appmodel/PackageFamilyNameFromId
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-l1-1-0.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- PackageFamilyNameFromId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PackageFamilyNameFromId
+ - appmodel/PackageFamilyNameFromId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-l1-1-0.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - PackageFamilyNameFromId
 ---
 
 # PackageFamilyNameFromId function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package family name for the specified package identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param packageId [in]
 
@@ -72,13 +68,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/
 
 The package identifier.
 
-
 ### -param packageFamilyNameLength [in, out]
 
 Type: <b>UINT32*</b>
 
 On input, the size of the <i>packageFamilyName</i> buffer, in characters. On output, the size of the package family name returned, in characters, including the null terminator.
-
 
 ### -param packageFamilyName [out, optional]
 
@@ -86,10 +80,7 @@ Type: <b>PWSTR</b>
 
 The package family name.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -112,14 +103,8 @@ The buffer is not large enough to hold the data. The required size is specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
@@ -267,14 +252,7 @@ bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
 
@@ -297,3 +275,4 @@ bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagenameandpublisheridfromfamilyname">PackageNameAndPublisherIdFromFamilyName</a>
+

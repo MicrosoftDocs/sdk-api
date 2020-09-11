@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f543da95-c0cc-4631-b91e-ba02dde2c081
 ms.date: 12/05/2018
 ms.keywords: ITCallInfoChangeEvent, ITCallInfoChangeEvent interface [TAPI 2.2], ITCallInfoChangeEvent interface [TAPI 2.2],described, _tapi3_itcallinfochangeevent, tapi3.itcallinfochangeevent, tapi3if/ITCallInfoChangeEvent
-f1_keywords:
-- tapi3if/ITCallInfoChangeEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallInfoChangeEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallInfoChangeEvent
+ - tapi3if/ITCallInfoChangeEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallInfoChangeEvent
 ---
 
 # ITCallInfoChangeEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITCallInfoChangeEvent</b> interface contains methods that retrieve the description of call information change events. When the application's implementation of the 
@@ -107,13 +107,9 @@ Gets a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
@@ -140,7 +136,4 @@ Gets a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

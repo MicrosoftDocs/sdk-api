@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoMotionEstimator::GetDesc
 f1_keywords:
+ - ID3D12VideoMotionEstimator::GetDesc
  - d3d12video/ID3D12VideoMotionEstimator::GetDesc
 dev_langs:
  - c++

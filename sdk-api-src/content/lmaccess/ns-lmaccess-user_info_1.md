@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: f17a1aef-45f1-461f-975d-75221d08277c
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_1, *PUSER_INFO_1, LPUSER_INFO_1, LPUSER_INFO_1 structure pointer [Network Management], PUSER_INFO_1, PUSER_INFO_1 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_1, USER_INFO_1 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _win32_user_info_1_str, lmaccess/LPUSER_INFO_1, lmaccess/PUSER_INFO_1, lmaccess/USER_INFO_1, netmgmt.user_info_1_str'
-f1_keywords:
-- lmaccess/USER_INFO_1
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- USER_INFO_1
 targetos: Windows
 req.typenames: USER_INFO_1, *PUSER_INFO_1, *LPUSER_INFO_1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USER_INFO_1
+ - lmaccess/_USER_INFO_1
+ - PUSER_INFO_1
+ - lmaccess/PUSER_INFO_1
+ - USER_INFO_1
+ - lmaccess/USER_INFO_1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - USER_INFO_1
 ---
 
 # USER_INFO_1 structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USER_INFO_1</b> structure contains information about a user account, including account name, password data, privilege level, and the path to the user's home directory.
 
-
 ## -struct-fields
-
-
-
 
 ### -field usri1_name
 
@@ -65,7 +65,6 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that specifies the name of the user account. For the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function, this member is ignored. For more information, see the following Remarks section.
-
 
 ### -field usri1_password
 
@@ -80,7 +79,6 @@ A pointer to a Unicode string that specifies the password of the user indicated 
 
 By convention, the length of passwords is limited to LM20_PWLEN characters.
 
-
 ### -field usri1_password_age
 
 Type: <b>DWORD</b>
@@ -88,7 +86,6 @@ Type: <b>DWORD</b>
 The number of seconds that have elapsed since the <b>usri1_password</b> member was last changed. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
-
 
 ### -field usri1_priv
 
@@ -139,8 +136,6 @@ Administrator
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri1_home_dir
 
@@ -148,13 +143,11 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string specifying the path of the home directory for the user specified in the <b>usri1_name</b> member. The string can be <b>NULL</b>.
 
-
 ### -field usri1_comment
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains a comment to associate with the user account. This string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character.
-
 
 ### -field usri1_flags
 
@@ -386,8 +379,6 @@ This is a permit to trust account for a domain that trusts other domains.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri1_script_path
 
@@ -395,20 +386,11 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string specifying the path for the user's logon script file. The script file can be a .CMD file, an .EXE file, or a .BAT file. The string can also be <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
 
@@ -435,7 +417,4 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

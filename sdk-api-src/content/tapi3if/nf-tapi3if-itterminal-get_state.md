@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 18eebe2c-2c65-4836-a371-146eb76a379c
 ms.date: 12/05/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_State method, ITTerminal.get_State, ITTerminal::get_State, _tapi3_itterminal_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_state, tapi3if/ITTerminal::get_State
-f1_keywords:
-- tapi3if/ITTerminal.get_State
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- ITTerminal.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTerminal::get_State
+ - tapi3if/ITTerminal::get_State
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - ITTerminal.get_State
 ---
 
 # ITTerminal::get_State
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_State</b> method gets the current state of the terminal.
 
-
 ## -parameters
-
-
-
 
 ### -param pTerminalState [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_state">TERMINAL_STATE</a> enum member.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,15 +103,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
 
@@ -133,7 +119,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
- 
-
- 
 

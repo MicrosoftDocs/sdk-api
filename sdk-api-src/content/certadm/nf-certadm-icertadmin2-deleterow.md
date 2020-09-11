@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ee64740a-850b-4af5-a7cd-75eaa1687f8d
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],DeleteRow method, CDR_EXPIRED, CDR_REQUEST_LAST_CHANGED, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, DeleteRow, DeleteRow method [Security], DeleteRow method [Security],CCertAdmin object, DeleteRow method [Security],ICertAdmin interface, DeleteRow method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],DeleteRow method, ICertAdmin2 interface [Security],DeleteRow method, ICertAdmin2.DeleteRow, ICertAdmin2::DeleteRow, ICertAdmin::DeleteRow, certadm/ICertAdmin2::DeleteRow, certadm/ICertAdmin::DeleteRow, security.icertadmin2_deleterow
-f1_keywords:
-- certadm/ICertAdmin2.DeleteRow
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.DeleteRow
-- ICertAdmin.DeleteRow
-- CCertAdmin.DeleteRow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2::DeleteRow
+ - certadm/ICertAdmin2::DeleteRow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.DeleteRow
+ - ICertAdmin.DeleteRow
+ - CCertAdmin.DeleteRow
 ---
 
 # ICertAdmin2::DeleteRow
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeleteRow</b> method deletes a row or set of rows from a database table. The caller specifies a database table and either a row ID or an ending date.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -102,15 +98,12 @@ The rows being deleted are for pending or denied requests, and their last modifi
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Date [in]
 
 Specifies an expiration date when deleting certificates or CRLs, and a last modified date when deleting certificate requests.
 
 If this value is not zero, then <i>RowID</i> must be zero.
-
 
 ### -param Table [in]
 
@@ -167,8 +160,6 @@ The table of pending requests, denied requests, issued certificates, and revoked
 </td>
 </tr>
 </table>
- 
-
 
 ### -param RowId [in]
 
@@ -176,15 +167,11 @@ Specifies the ID of the row to delete.
 
 If this value is not zero, then <i>Date</i> must be zero.
 
-
 ### -param pcDeleted [out]
 
 The number of rows successfully deleted.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was successful, and *<i>pcDeleted</i> is set to the number of rows deleted.
@@ -192,22 +179,11 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was 
 <h3>VB</h3>
 The number of rows deleted.
 
-
-
-
 ## -remarks
-
-
 
 <i>RowID</i> and <i>Date</i> are mutually exclusive; one and only one of them can be nonzero.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>CCertAdmin</b>
 
@@ -218,7 +194,4 @@ The number of rows deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
- 
-
- 
 

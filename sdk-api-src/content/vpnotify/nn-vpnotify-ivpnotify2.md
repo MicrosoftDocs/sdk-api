@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 8d5fc7ee-93ee-4297-ba24-0eed63bec1ea
 ms.date: 12/05/2018
 ms.keywords: IVPNotify2, IVPNotify2 interface [DirectShow], IVPNotify2 interface [DirectShow],described, IVPNotify2Interface, dshow.ivpnotify2, vpnotify/IVPNotify2
-f1_keywords:
-- vpnotify/IVPNotify2
-dev_langs:
-- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVPNotify2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVPNotify2
+ - vpnotify/IVPNotify2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVPNotify2
 ---
 
 # IVPNotify2 interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IVPNotify2</code> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> and is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter. This interface enables the Overlay Mixer to communicate with a video port (on a hardware device such as a decoder) that implements <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>.
 
 Applications should never use this interface.
-
-
-
 
 ## -inheritance
 
@@ -92,25 +88,13 @@ Sets whether the video port controls vertical synchronization of the VGA.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Include Vptype.h before Vpnotify.h.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>
- 
-
- 
 

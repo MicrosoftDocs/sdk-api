@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 76580828-c776-4787-843c-db0acb768321
 ms.date: 12/05/2018
 ms.keywords: 76580828-c776-4787-843c-db0acb768321, AddStrokes, AddStrokes method [Tablet PC], AddStrokes method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],AddStrokes method, IInkStrokes.AddStrokes, IInkStrokes::AddStrokes, msinkaut/IInkStrokes::AddStrokes, tablet.inkstrokes_addstrokes
-f1_keywords:
-- msinkaut/IInkStrokes.AddStrokes
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokes.AddStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokes::AddStrokes
+ - msinkaut/IInkStrokes::AddStrokes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokes.AddStrokes
 ---
 
 # IInkStrokes::AddStrokes
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Adds a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">Strokes</a> collection to an existing Strokes collection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param InkStrokes [in]
 
  The collection of strokes to add to the collection of strokes.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -156,24 +146,13 @@ Unexpected parameter or property type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This collection must already exist within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object and cannot belong to another <b>InkDisp</b> object. Also, this does not copy or otherwise alter the <b>InkDisp</b> object, but merely adds this collection of strokes to the collection.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-add">Add Method [InkStrokes Collection]</a>
 
@@ -184,7 +163,4 @@ Unexpected parameter or property type.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

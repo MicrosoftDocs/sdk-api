@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 3C5724B7-598B-44F1-80F3-07010EAA089B
 ms.date: 12/05/2018
 ms.keywords: CreateSwapChainForCompositionSurfaceHandle, CreateSwapChainForCompositionSurfaceHandle method [DXGI], CreateSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
-f1_keywords:
-- dxgi1_3/IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle
-dev_langs:
-- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
+ - dxgi1_3/IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle
 ---
 
 # IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
@@ -50,29 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a YUV swap chain for an existing <a href="https://docs.microsoft.com/windows/desktop/directcomp/reference">DirectComposition</a> surface handle.
 
-
 ## -parameters
-
-
-
 
 ### -param pDevice [in]
 
 A pointer to the Direct3D device for the swap chain. This parameter cannot be <b>NULL</b>. Software drivers, like <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type">D3D_DRIVER_TYPE_REFERENCE</a>, are not supported for composition swap chains.
 
-
 ### -param hSurface [in, optional]
 
 A handle to an existing <a href="https://docs.microsoft.com/windows/desktop/directcomp/reference">DirectComposition</a> surface. This parameter cannot be <b>NULL</b>.
 
-
 ### -param pDesc [in]
 
 A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1">DXGI_SWAP_CHAIN_DESC1</a> structure for the swap-chain description. This parameter cannot be <b>NULL</b>.
-
 
 ### -param pRestrictToOutput [in, optional]
 
@@ -82,15 +75,11 @@ You must also pass the <a href="https://docs.microsoft.com/windows/desktop/direc
 
 Set this parameter to <b>NULL</b> if you don't want to restrict content to an output target.
 
-
 ### -param ppSwapChain [out]
 
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a> interface for the swap chain that this method creates.
 
-
 ## -returns
-
-
 
 <b>CreateSwapChainForCompositionSurfaceHandle</b> returns:
         <ul>
@@ -101,21 +90,11 @@ A pointer to a variable that receives a pointer to the <a href="https://docs.mic
 <li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic that are defined by the type of device that you pass to <i>pDevice</i>.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/for-best-performance--use-dxgi-flip-model">For best performance, use DXGI flip model</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactorymedia">IDXGIFactoryMedia</a>
- 
-
- 
 

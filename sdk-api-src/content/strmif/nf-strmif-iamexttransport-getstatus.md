@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 01d90527-4851-45a3-9481-929a9f4aa0cd
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetStatus method, IAMExtTransport.GetStatus, IAMExtTransport::GetStatus, IAMExtTransportGetStatus, dshow.iamexttransport_getstatus, strmif/IAMExtTransport::GetStatus
-f1_keywords:
-- strmif/IAMExtTransport.GetStatus
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::GetStatus
+ - strmif/IAMExtTransport::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.GetStatus
 ---
 
 # IAMExtTransport::GetStatus
@@ -50,40 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetStatus</code> method returns information about the transport's status.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param StatusItem [in]
 
 Specifies the status information to retrieve. See Remarks for more information.
 
-
 ### -param pValue [in, out]
 
 Pointer to variable that either specifies or receives a <b>long</b> integer, whose meaning depends on the value of <i>StatusItem</i>. See Remarks for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <i>StatusItem</i> parameter is a flag that specifies which status information to retrieve. The method returns in the information in the <i>pValue</i> parameter. Not every device supports every status flag. The following flags are defined:
 
@@ -273,20 +257,11 @@ To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 
 Some of these flags are defined in the header file Xptrdefs.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
- 
-
- 
 

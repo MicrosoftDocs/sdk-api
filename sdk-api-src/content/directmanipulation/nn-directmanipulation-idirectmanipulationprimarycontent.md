@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 9910F5F5-950F-4099-9808-B46FA5BBA6FB
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent, IDirectManipulationPrimaryContent interface [Direct Manipulation], IDirectManipulationPrimaryContent interface [Direct Manipulation],described, directmanipulation.idirectmanipulationprimarycontent, directmanipulation/IDirectManipulationPrimaryContent
-f1_keywords:
-- directmanipulation/IDirectManipulationPrimaryContent
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationPrimaryContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationPrimaryContent
+ - directmanipulation/IDirectManipulationPrimaryContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationPrimaryContent
 ---
 
 # IDirectManipulationPrimaryContent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates the primary content inside a viewport. Primary content is the content specified during the creation of a viewport.
-
 
 ## -inheritance
 
@@ -149,16 +148,9 @@ Specifies the minimum and maximum boundaries for zoom.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
- 
-
- 
 

@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: 7ab6b5e8-8202-4553-ba9b-be7cf9f9381d
 ms.date: 12/05/2018
 ms.keywords: PSGetNameFromPropertyKey, PSGetNameFromPropertyKey function [Windows Properties], properties.PSGetNameFromPropertyKey, propsys/PSGetNameFromPropertyKey, shell.PSGetNameFromPropertyKey, shell_PSGetNameFromPropertyKey
-f1_keywords:
-- propsys/PSGetNameFromPropertyKey
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSGetNameFromPropertyKey
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSGetNameFromPropertyKey
+ - propsys/PSGetNameFromPropertyKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSGetNameFromPropertyKey
 ---
 
 # PSGetNameFromPropertyKey function
@@ -48,14 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the canonical name of the property, given its <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param propkey [in]
 
@@ -63,17 +59,13 @@ Type: <b>REFPROPERTYKEY</b>
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies the requested property.
 
-
 ### -param ppszCanonicalName [out]
 
 Type: <b>PWSTR*</b>
 
 When this function returns, contains a pointer to the property name as a null-terminated Unicode string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -107,14 +99,8 @@ Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/wtype
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Retrieves a canonical name for a specified property key. Like property keys, canonical names uniquely identify a property. For example, <code>System.Keywords</code> is the canonical name for <code>PKEY_Keywords</code>. This function succeeds only for properties registered as part of the property schema.
 
@@ -139,14 +125,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getcanonicalname">IPropertyDescription::GetCanonicalName</a>
 
@@ -161,7 +140,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psstringfrompropertykey">PSStringFromPropertyKey</a>
- 
-
- 
 

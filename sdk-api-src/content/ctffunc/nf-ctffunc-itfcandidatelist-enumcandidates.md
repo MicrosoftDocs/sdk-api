@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f63799a1-2284-4da8-933c-f3616c1cb295
 ms.date: 12/05/2018
 ms.keywords: EnumCandidates, EnumCandidates method [Text Services Framework], EnumCandidates method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],EnumCandidates method, ITfCandidateList.EnumCandidates, ITfCandidateList::EnumCandidates, _tsf_itfcandidatelist_enumcandidates_ref, ctffunc/ITfCandidateList::EnumCandidates, tsf.itfcandidatelist_enumcandidates
-f1_keywords:
-- ctffunc/ITfCandidateList.EnumCandidates
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tiptsf.dll
-api_name:
-- ITfCandidateList.EnumCandidates
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateList::EnumCandidates
+ - ctffunc/ITfCandidateList::EnumCandidates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tiptsf.dll
+api_name:
+ - ITfCandidateList.EnumCandidates
 ---
 
 # ITfCandidateList::EnumCandidates
@@ -53,17 +54,11 @@ Obtains an enumerator that contains all the candidate string objects in the cand
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtfcandidates">IEnumTfCandidates</a> interface pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,15 +101,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtfcandidates">IEnumTfCandidates
       </a>
@@ -122,7 +110,4 @@ A memory allocation failure occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
- 
-
- 
 

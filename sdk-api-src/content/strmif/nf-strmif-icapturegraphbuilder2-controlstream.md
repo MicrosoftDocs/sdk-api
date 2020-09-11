@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f5c91444-6ddb-403c-bff5-33d9ce91fae3
 ms.date: 12/05/2018
 ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],ControlStream method, ICaptureGraphBuilder2.ControlStream, ICaptureGraphBuilder2::ControlStream, ICaptureGraphBuilder2ControlStream, dshow.icapturegraphbuilder2_controlstream, strmif/ICaptureGraphBuilder2::ControlStream
-f1_keywords:
-- strmif/ICaptureGraphBuilder2.ControlStream
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICaptureGraphBuilder2.ControlStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICaptureGraphBuilder2::ControlStream
+ - strmif/ICaptureGraphBuilder2::ControlStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICaptureGraphBuilder2.ControlStream
 ---
 
 # ICaptureGraphBuilder2::ControlStream
@@ -50,57 +51,39 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ControlStream</code> method sets the start and stop times for one or more streams of captured data.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCategory [in]
 
 A pointer to a GUID that specifies one of the pin categories listed in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/pin-property-set">Pin Property Set</a>. The value of this parameter cannot be <b>NULL</b>.
-          
-
 
 ### -param pType [in]
 
 Pointer to a major type GUID that specifies the media type, or <b>NULL</b>. If this parameter is <b>NULL</b>, set the <i>pFilter</i> parameter to <b>NULL</b> as well. Otherwise, you might control the wrong pin and get unpredictable results.
 
-
 ### -param pFilter [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface that specifies which filter to control. To control all the capture filters in the graph, set this parameter to <b>NULL</b>.
-
 
 ### -param pstart [in]
 
 Pointer to a variable that contains the start time. If the value is <b>MAXLONGLONG</b> (0x7FFFFFFFFFFFFFFF), the method cancels the previous start request. If the value is <b>NULL</b>, the pin starts immediately when the graph runs.
 
-
 ### -param pstop [in]
 
 Pointer to a variable that contains the stop time. If the value is <b>MAXLONGLONG</b>, the method cancels any previous stop request. If the value is <b>NULL</b>, the pin stops immediately.
-
 
 ### -param wStartCookie [in]
 
 Value that is sent as the second parameter of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-stream-control-started">EC_STREAM_CONTROL_STARTED</a> event notification. See Remarks for more information.
 
-
 ### -param wStopCookie [in]
 
 Value that is sent as the second parameter of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-stream-control-stopped">EC_STREAM_CONTROL_STOPPED</a> event notification. See Remarks for more information.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -154,14 +137,8 @@ Could not find a matching pin, or the pin did not support stream control.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method locates output pins on capture filters, using search criteria that you supply in the method call. Then it calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl</a> methods on those pins. This method enables an application to control streams without the application needing to enumerate the filters and pins in the graph.
 
@@ -183,20 +160,11 @@ If no downstream filter supports <b>IAMStreamControl</b>, the method returns S_F
 
 <b>MAXLONGLONG</b> is the largest possible <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value. In the DirectShow base class library, it is also defined as the constant <b>MAX_TIME</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
- 
-
- 
 

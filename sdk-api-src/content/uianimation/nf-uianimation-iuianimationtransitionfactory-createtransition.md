@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 02d28669-0cbd-41e2-b9ca-4ad893f09fc9
 ms.date: 12/05/2018
 ms.keywords: CreateTransition, CreateTransition method [Windows Animation], CreateTransition method [Windows Animation],IUIAnimationTransitionFactory interface, IUIAnimationTransitionFactory interface [Windows Animation],CreateTransition method, IUIAnimationTransitionFactory.CreateTransition, IUIAnimationTransitionFactory::CreateTransition, uianimation.iuianimationtransitionfactory_createtransition, uianimation/IUIAnimationTransitionFactory::CreateTransition
-f1_keywords:
-- uianimation/IUIAnimationTransitionFactory.CreateTransition
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationTransitionFactory.CreateTransition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationTransitionFactory::CreateTransition
+ - uianimation/IUIAnimationTransitionFactory::CreateTransition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationTransitionFactory.CreateTransition
 ---
 
 # IUIAnimationTransitionFactory::CreateTransition
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a transition from a custom interpolator.
 
-
 ## -parameters
-
-
-
 
 ### -param interpolator [in]
 
@@ -65,25 +61,15 @@ The interpolator from which a transition is to be created.
                The specified object must implement the
                <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a> interface.
 
-
 ### -param transition [out]
 
 The new transition.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a>
 
@@ -94,7 +80,4 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionfactory">IUIAnimationTransitionFactory</a>
- 
-
- 
 

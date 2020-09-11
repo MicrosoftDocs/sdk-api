@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: b9b16d2e-92fd-40d2-b33d-8a82a1291794
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl, ISecurityCallersColl interface [COM+], ISecurityCallersColl interface [COM+],described, _cos_ISecurityCallersColl, comsvcs/ISecurityCallersColl, cos.isecuritycallerscoll
-f1_keywords:
-- comsvcs/ISecurityCallersColl
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISecurityCallersColl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityCallersColl
+ - comsvcs/ISecurityCallersColl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISecurityCallersColl
 ---
 
 # ISecurityCallersColl interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides access to information about individual callers in a collection of callers. The collection represents the chain of calls ending with the current call, and each caller in the collection represents the identity of one caller. Only callers who cross a boundary where security is checked are included in the chain of callers. (In the COM+ environment, security is checked at application boundaries.) Access to information about a particular caller's identity is provided through <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>, an identity collection. 
-
-
+Provides access to information about individual callers in a collection of callers. The collection represents the chain of calls ending with the current call, and each caller in the collection represents the identity of one caller. Only callers who cross a boundary where security is checked are included in the chain of callers. (In the COM+ environment, security is checked at application boundaries.) Access to information about a particular caller's identity is provided through <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>, an identity collection.
 
 ## -inheritance
 
@@ -99,13 +97,9 @@ Retrieves a specified caller in the security callers collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
@@ -120,7 +114,4 @@ Retrieves a specified caller in the security callers collection.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallers">SecurityCallers</a>
- 
-
- 
 

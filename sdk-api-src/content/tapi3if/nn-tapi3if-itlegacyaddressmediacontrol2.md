@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 38e5f1ba-b31e-47c9-a24a-2e4d37a0961b
 ms.date: 12/05/2018
 ms.keywords: ITLegacyAddressMediaControl2, ITLegacyAddressMediaControl2 interface [TAPI 2.2], ITLegacyAddressMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacyaddressmediacontrol2, tapi3.itlegacyaddressmediacontrol2, tapi3if/ITLegacyAddressMediaControl2
-f1_keywords:
-- tapi3if/ITLegacyAddressMediaControl2
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyAddressMediaControl2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyAddressMediaControl2
+ - tapi3if/ITLegacyAddressMediaControl2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyAddressMediaControl2
 ---
 
 # ITLegacyAddressMediaControl2 interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITLegacyAddressMediaControl2</b> interface derives from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a> interface. 
 <b>ITLegacyAddressMediaControl2</b> provides additional methods that allow the configuration of parameters related to line devices.
-
 
 ## -inheritance
 
@@ -89,20 +88,13 @@ Displays a dialog box to allow the user to configure parameters related to the s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>
- 
-
- 
 

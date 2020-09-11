@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: f62fadf8-8cc2-4597-93b0-e076258ccd6a
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetProperties, PeerGraphGetProperties function [Peer Networking], p2p.peergraphgetproperties, p2p/PeerGraphGetProperties
-f1_keywords:
-- p2p/PeerGraphGetProperties
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphGetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphGetProperties
+ - p2p/PeerGraphGetProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphGetProperties
 ---
 
 # PeerGraphGetProperties function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphGetProperties</b> function retrieves the current peer graph properties.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to a peer graph.
 
-
 ### -param ppGraphProperties [out]
 
 Receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a> structure.  When the structure is not needed, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -135,15 +127,8 @@ A peer graph must be  initialized with a call to <a href="https://docs.microsoft
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a>
 
@@ -154,7 +139,4 @@ A peer graph must be  initialized with a call to <a href="https://docs.microsoft
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>
- 
-
- 
 

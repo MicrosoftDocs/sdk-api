@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 8fc414da-835c-438f-b607-8a273e7f9064
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgressChangedCallback, IDownloadProgressChangedCallback interface [Windows Update Agent], IDownloadProgressChangedCallback interface [Windows Update Agent],described, wua.idownloadprogresschangedcallback, wuapi/IDownloadProgressChangedCallback
-f1_keywords:
-- wuapi/IDownloadProgressChangedCallback
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadProgressChangedCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadProgressChangedCallback
+ - wuapi/IDownloadProgressChangedCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadProgressChangedCallback
 ---
 
 # IDownloadProgressChangedCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles the notification that indicates a change in the progress of an asynchronous download operation.   This interface is implemented by programmers who call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> method.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Handles the notification of a change in the progress of an asynchronous download
 
 </td>
 </tr>
-</table> 
+</table>
 

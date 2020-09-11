@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ad7fb66d-6592-47ae-9a2f-4432d8aaaebb
 ms.date: 12/05/2018
 ms.keywords: IEnumComponentTypes, IEnumComponentTypes interface [Microsoft TV Technologies], IEnumComponentTypes interface [Microsoft TV Technologies],described, IEnumComponentTypesInterface, mstv.ienumcomponenttypes, tuner/IEnumComponentTypes
-f1_keywords:
-- tuner/IEnumComponentTypes
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IEnumComponentTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumComponentTypes
+ - tuner/IEnumComponentTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IEnumComponentTypes
 ---
 
 # IEnumComponentTypes interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IEnumComponentTypes</b> interface is implemented on a standard COM collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd693036(v=vs.85)">ComponentType</a> objects associated with a given broadcast stream, and returned through a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-enumcomponenttypes">IComponentTypes::EnumComponentTypes</a>.
-
-
-
 
 ## -inheritance
 
@@ -107,25 +103,13 @@ Skips the element at the specified index.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IEnumComponentTypes)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

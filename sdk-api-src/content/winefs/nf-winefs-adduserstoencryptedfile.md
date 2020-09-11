@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a92d6a52-20d1-4d5c-a222-ab9afaf85c4b
 ms.date: 12/05/2018
 ms.keywords: AddUsersToEncryptedFile, AddUsersToEncryptedFile function [Files], _win32_adduserstoencryptedfile, base.adduserstoencryptedfile, fs.adduserstoencryptedfile, winefs/AddUsersToEncryptedFile
-f1_keywords:
-- winefs/AddUsersToEncryptedFile
-dev_langs:
-- c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
-api_name:
-- AddUsersToEncryptedFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddUsersToEncryptedFile
+ - winefs/AddUsersToEncryptedFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+api_name:
+ - AddUsersToEncryptedFile
 ---
 
 # AddUsersToEncryptedFile function
@@ -50,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds user keys to the specified encrypted file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 The name of the encrypted file.
-
 
 ### -param pEncryptionCertificates [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a> structure that contains the list of new user keys to be added to the file.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is a system error code. For a complete list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 Starting with Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -155,12 +142,7 @@ For example code that uses this function, see <a href="https://docs.microsoft.co
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a>
 
@@ -171,7 +153,4 @@ For example code that uses this function, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
 

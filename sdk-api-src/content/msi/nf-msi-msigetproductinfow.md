@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 336a68d6-5239-4313-b6c7-8091907a0e35
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_HELPLINK, INSTALLPROPERTY_HELPTELEPHONE, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_INSTALLEDLANGUAGE, INSTALLPROPERTY_INSTALLEDPRODUCTNAME, INSTALLPROPERTY_INSTALLLOCATION, INSTALLPROPERTY_INSTALLSOURCE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_PUBLISHER, INSTALLPROPERTY_URLINFOABOUT, INSTALLPROPERTY_URLUPDATEINFO, INSTALLPROPERTY_VERSIONMAJOR, INSTALLPROPERTY_VERSIONMINOR, INSTALLPROPERTY_VERSIONSTRING, MsiGetProductInfo, MsiGetProductInfo function, MsiGetProductInfoA, MsiGetProductInfoW, _msi_msigetproductinfo, msi/MsiGetProductInfo, msi/MsiGetProductInfoA, msi/MsiGetProductInfoW, setup.msigetproductinfo
-f1_keywords:
-- msi/MsiGetProductInfo
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSI-Misc-l1-1-0.dll
-api_name:
-- MsiGetProductInfo
-- MsiGetProductInfoA
-- MsiGetProductInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetProductInfoW
+ - msi/MsiGetProductInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+api_name:
+ - MsiGetProductInfo
+ - MsiGetProductInfoA
+ - MsiGetProductInfoW
 ---
 
 # MsiGetProductInfoW function
@@ -52,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetProductInfo</b> function returns product information for published and installed products.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product.
-
 
 ### -param szAttribute [in]
 
@@ -329,13 +324,10 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpproducticon">ARPP
 <td>A value of one (1) indicates a product that can be serviced by non-administrators using <a href="https://docs.microsoft.com/windows/desktop/Msi/user-account-control--uac--patching">User Account Control (UAC) Patching</a>. A missing value or a value of 0 (zero) indicates that least-privilege patching is not enabled. Available in Windows Installer 3.0 or later.</td>
 </tr>
 </table>
- 
-
 
 ### -param lpValueBuf [out]
 
 Pointer to a buffer that receives the property value. This parameter can be null.
-
 
 ### -param pcchValueBuf [in, out]
 
@@ -346,10 +338,7 @@ Pointer to a buffer that receives the property value. This parameter can be null
 
 If <i>lpValueBuf</i> is null, <i>pcchValueBuf</i> can be null. In this case, the function checks that the property is registered correctly with the product.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -425,14 +414,8 @@ The property is unrecognized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the 
 <b>MsiGetProductInfo</b> function returns, the <i>pcchValueBuf</i> parameter contains the length of the string stored in the buffer. The count returned does not include the terminating null character. If the buffer is not large enough, 
@@ -455,9 +438,6 @@ If you attempt to use <b>MsiGetProductInfo</b> to query an advertised product  f
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
 
 
@@ -467,7 +447,4 @@ If you attempt to use <b>MsiGetProductInfo</b> to query an advertised product  f
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
 

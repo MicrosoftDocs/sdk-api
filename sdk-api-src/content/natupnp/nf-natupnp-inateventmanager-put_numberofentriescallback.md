@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: a02a0f1e-5085-444b-adc4-c3cd919f7e25
 ms.date: 12/05/2018
 ms.keywords: INATEventManager interface [ICS/ICF],put_NumberOfEntriesCallback method, INATEventManager.put_NumberOfEntriesCallback, INATEventManager::put_NumberOfEntriesCallback, _ics_inateventmanager_put_numberofentriescallback, ics.inateventmanager_put_numberofentriescallback, natupnp/INATEventManager::put_NumberOfEntriesCallback, put_NumberOfEntriesCallback, put_NumberOfEntriesCallback method [ICS/ICF], put_NumberOfEntriesCallback method [ICS/ICF],INATEventManager interface
-f1_keywords:
-- natupnp/INATEventManager.put_NumberOfEntriesCallback
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INATEventManager.put_NumberOfEntriesCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INATEventManager::put_NumberOfEntriesCallback
+ - natupnp/INATEventManager::put_NumberOfEntriesCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INATEventManager.put_NumberOfEntriesCallback
 ---
 
 # INATEventManager::put_NumberOfEntriesCallback
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_NumberOfEntriesCallback</b> method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the number of NAT port mappings changes.
 
-
 ## -parameters
-
-
-
 
 ### -param pUnk [in]
 
@@ -64,10 +60,7 @@ Pointer to an object that supports either the
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface or the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. See the Remarks section for more information.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -167,14 +160,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The object referred to by <i>pUnk</i> must either support the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatnumberofentriescallback">INATNumberOfEntriesCallback</a> interface or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. The NAT first queries <i>pUnk</i> for the 
@@ -183,13 +170,7 @@ The object referred to by <i>pUnk</i> must either support the
 If only <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> is supported, the NAT invokes the callback by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This <b>IDispatch</b> method is passed the same parameters as the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatnumberofentriescallback">INATNumberOfEntriesCallback</a> method, except that the first parameter passed is a string that indicates the reason the callback is invoked.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -208,7 +189,4 @@ If only <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ap
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c2897dad-647c-4dc1-b962-bd7fbae2da3a
 ms.date: 12/05/2018
 ms.keywords: IEffectivePermission, IEffectivePermission interface [Security], IEffectivePermission interface [Security],described, aclui/IEffectivePermission, security.ieffectivepermission
-f1_keywords:
-- aclui/IEffectivePermission
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- IEffectivePermission
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEffectivePermission
+ - aclui/IEffectivePermission
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - IEffectivePermission
 ---
 
 # IEffectivePermission interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEffectivePermission</b> interface provides a means to determine effective permission for a security principal on an object. The access control editor uses this information to communicate the effective permission to the client.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Returns the effective permission for an object type.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityobjecttypeinfo">ISecurityObjectTypeInfo</a>
- 
-
- 
 

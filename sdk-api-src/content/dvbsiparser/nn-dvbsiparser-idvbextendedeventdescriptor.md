@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: db100f17-f7b8-4252-8090-44567ab9dcbe
 ms.date: 12/05/2018
 ms.keywords: IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbExtendedEventDescriptor, mstv.idvbextendedeventdescriptor
-f1_keywords:
-- dvbsiparser/IDvbExtendedEventDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbExtendedEventDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbExtendedEventDescriptor
+ - dvbsiparser/IDvbExtendedEventDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbExtendedEventDescriptor
 ---
 
 # IDvbExtendedEventDescriptor interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data  from a Digital Video Broadcast (DVB) extended event descriptor. An extended  event descriptor appears as part of the DVB service information in the event information table (EIT) and service information table (SIT). The descriptor provides a detailed text description of an event that may be used in addition to the
 short event descriptor. More than one extended event descriptor can be associated to allow more than 256 bytes of information about one event
 to be conveyed. Text information can be structured into two columns, one that provides an
 item description field, and one that provides the item text, for example, to include a cast list in a movie or show description.
-
 
 ## -inheritance
 
@@ -171,5 +170,5 @@ Gets the text describing the event in Unicode string format from a DVB extended 
 
 </td>
 </tr>
-</table> 
+</table>
 

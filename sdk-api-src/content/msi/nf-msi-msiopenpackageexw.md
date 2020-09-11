@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 9e9550e9-9c10-4ef1-a172-dfacaaa37fd0
 ms.date: 12/05/2018
 ms.keywords: MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE, MsiOpenPackageEx, MsiOpenPackageEx function, MsiOpenPackageExA, MsiOpenPackageExW, _msi_msiopenpackageex, msi/MsiOpenPackageEx, msi/MsiOpenPackageExA, msi/MsiOpenPackageExW, setup.msiopenpackageex
-f1_keywords:
-- msi/MsiOpenPackageEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiOpenPackageEx
-- MsiOpenPackageExA
-- MsiOpenPackageExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiOpenPackageExW
+ - msi/MsiOpenPackageExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiOpenPackageEx
+ - MsiOpenPackageExA
+ - MsiOpenPackageExW
 ---
 
 # MsiOpenPackageExW function
@@ -51,23 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiOpenPackageEx</b> function opens a package to use with functions that access the product database. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is no longer needed.<div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <b>MsiOpenPackageEx</b>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param szPackagePath [in]
 
 The path to the package.
-
 
 ### -param dwOptions [in]
 
@@ -93,17 +87,12 @@ Ignore the computer state when creating the product handle.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hProduct [out]
 
 A pointer to a variable that receives the product handle.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -171,12 +160,7 @@ The function completes successfully.
 If this function fails, it may return a system error code. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 To create a restricted product handle that is independent of the current machine state and incapable of changing the current machine state, use 
 <b>MsiOpenPackageEx</b> with MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE set in <i>dwOptions</i>.

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9ec1f8f2-8f20-4d38-9d41-70315b890336
 ms.date: 12/05/2018
 ms.keywords: LoadUserProfile, LoadUserProfile function [Windows Shell], LoadUserProfileA, LoadUserProfileW, _shell_LoadUserProfile, shell.LoadUserProfile, userenv/LoadUserProfile, userenv/LoadUserProfileA, userenv/LoadUserProfileW
-f1_keywords:
-- userenv/LoadUserProfile
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- LoadUserProfile
-- LoadUserProfileA
-- LoadUserProfileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadUserProfileW
+ - userenv/LoadUserProfileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - LoadUserProfile
+ - LoadUserProfileA
+ - LoadUserProfileW
 ---
 
 # LoadUserProfileW function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the specified user's profile. The profile can be a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776894(v=vs.85)">local user profile</a> or a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">roaming user profile</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hToken [in]
 
@@ -68,17 +64,13 @@ Type: <b>HANDLE</b>
 
 Token for the user, which is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>, <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a> function. The token must have <b>TOKEN_QUERY</b>, <b>TOKEN_IMPERSONATE</b>, and <b>TOKEN_DUPLICATE</b> access. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>.
 
-
 ### -param lpProfileInfo [in, out]
 
 Type: <b>LPPROFILEINFO</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-profileinfoa">PROFILEINFO</a> structure. <b>LoadUserProfile</b> fails and returns <b>ERROR_INVALID_PARAMETER</b> if the <b>dwSize</b> member of the structure is not set to <code>sizeof(PROFILEINFO)</code> or if the <b>lpUserName</b> member is <b>NULL</b>. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -88,12 +80,7 @@ Type: <b>BOOL</b>
 
 The function fails and returns ERROR_INVALID_PARAMETER if the <b>dwSize</b> member of the structure at <i>lpProfileInfo</i> is not set to <code>sizeof(PROFILEINFO)</code> or if the <b>lpUserName</b> member is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 When a user logs on interactively, the system automatically loads the user's profile. If a service or an application impersonates a user, the system does not load the user's profile. Therefore, the service or application should load the user's profile with <b>LoadUserProfile</b>.
 
@@ -120,9 +107,6 @@ Starting with Windows XP Service Pack 2 (SP2) and Windows Server 2003, the ca
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-profileinfoa">PROFILEINFO</a>
 
 
@@ -136,7 +120,4 @@ Starting with Windows XP Service Pack 2 (SP2) and Windows Server 2003, the ca
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
- 
-
- 
 

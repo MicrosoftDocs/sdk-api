@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 23392f93-8724-4b58-879e-4f48aaba4084
 ms.date: 12/05/2018
 ms.keywords: LANGIDFROMLCID, LANGIDFROMLCID macro [Internationalization for Windows Applications], _win32_LANGIDFROMLCID, intl.langidfromlcid, winnt/LANGIDFROMLCID
-f1_keywords:
-- winnt/LANGIDFROMLCID
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- LANGIDFROMLCID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LANGIDFROMLCID
+ - winnt/LANGIDFROMLCID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - LANGIDFROMLCID
 ---
 
 # LANGIDFROMLCID macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> from a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lcid
 
@@ -89,9 +85,6 @@ Locale identifier. You can use the <a href="https://docs.microsoft.com/windows/d
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
@@ -113,7 +106,4 @@ Locale identifier. You can use the <a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sublangid">SUBLANGID</a>
- 
-
- 
 

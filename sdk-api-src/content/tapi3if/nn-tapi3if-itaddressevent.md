@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 340d938a-a107-4317-af65-3dca98102767
 ms.date: 12/05/2018
 ms.keywords: ITAddressEvent, ITAddressEvent interface [TAPI 2.2], ITAddressEvent interface [TAPI 2.2],described, _tapi3_itaddressevent, tapi3.itaddressevent, tapi3if/ITAddressEvent
-f1_keywords:
-- tapi3if/ITAddressEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddressEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddressEvent
+ - tapi3if/ITAddressEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddressEvent
 ---
 
 # ITAddressEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITAddressEvent</b> interface contains methods that retrieve the description of address events. When the application's implementation of the 
@@ -104,24 +104,15 @@ Gets a pointer to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Certain events on PnP devices will not be received until after the first time static terminals are enumerated using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">ITTerminalSupport::EnumerateStaticTerminals</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals">ITTerminalSupport::get_StaticTerminals</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_event">ADDRESS_EVENT</a>
 
@@ -160,7 +151,4 @@ Certain events on PnP devices will not be received until after the first time st
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

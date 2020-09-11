@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
 ms.date: 12/05/2018
 ms.keywords: '*LPNEWCPLINFOW, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOW, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO'
-f1_keywords:
-- cpl/NEWCPLINFO
-dev_langs:
-- c++
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cpl.h
-api_name:
-- NEWCPLINFO
-- NEWCPLINFOW
 targetos: Windows
 req.typenames: NEWCPLINFOW, *LPNEWCPLINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNEWCPLINFOW
+ - cpl/tagNEWCPLINFOW
+ - LPNEWCPLINFOW
+ - cpl/LPNEWCPLINFOW
+ - NEWCPLINFOW
+ - cpl/NEWCPLINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cpl.h
+api_name:
+ - NEWCPLINFO
+ - NEWCPLINFOW
 ---
 
 ## -description
@@ -109,3 +114,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_pr
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cpl/ns-cpl-cplinfo">CPLINFO</a>
+

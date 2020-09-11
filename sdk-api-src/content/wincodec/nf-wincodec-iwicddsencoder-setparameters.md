@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 9DF51D95-97B0-4EC9-8F77-E49B16D76D77
 ms.date: 12/05/2018
 ms.keywords: IWICDdsEncoder interface [Windows Imaging Component],SetParameters method, IWICDdsEncoder.SetParameters, IWICDdsEncoder::SetParameters, SetParameters, SetParameters method [Windows Imaging Component], SetParameters method [Windows Imaging Component],IWICDdsEncoder interface, wic.iwicddsencoder_setparameters, wincodec/IWICDdsEncoder::SetParameters
-f1_keywords:
-- wincodec/IWICDdsEncoder.SetParameters
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICDdsEncoder.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICDdsEncoder::SetParameters
+ - wincodec/IWICDdsEncoder::SetParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICDdsEncoder.SetParameters
 ---
 
 # IWICDdsEncoder::SetParameters
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets DDS-specific data.
 
-
 ## -parameters
-
-
-
 
 ### -param pParameters [out]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-win
 
 Points to the structure where the information is described.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 You cannot call this method after you have started to write frame data, for example by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-createnewframe">IWICDdsEncoder::CreateNewFrame</a>.
 
@@ -95,19 +83,11 @@ Setting DDS parameters using this method provides the DDS encoder with informati
 <li>1x1 pixels.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicddsencoder">IWICDdsEncoder</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>
- 
-
- 
 

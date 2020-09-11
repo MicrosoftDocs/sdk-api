@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 49bb1a89-7064-4822-866f-739434043869
 ms.date: 12/05/2018
 ms.keywords: 49bb1a89-7064-4822-866f-739434043869, ITextInputPanel interface [Tablet PC],SetInPlacePosition method, ITextInputPanel.SetInPlacePosition, ITextInputPanel::SetInPlacePosition, SetInPlacePosition, SetInPlacePosition method [Tablet PC], SetInPlacePosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlacePosition, tablet.itextinputpanel_setinplaceposition
-f1_keywords:
-- peninputpanel/ITextInputPanel.SetInPlacePosition
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.SetInPlacePosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::SetInPlacePosition
+ - peninputpanel/ITextInputPanel::SetInPlacePosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.SetInPlacePosition
 ---
 
 # ITextInputPanel::SetInPlacePosition
 
 
 ## -description
-
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
@@ -57,32 +57,21 @@ ms.custom: 19H1
 
 Explicitly positions the Tablet PC Input Panel in screen coordinates.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param xPosition
 
 The horizontal x-coordinate for the top left corner of the Input Panel, with no correction comb visible.
 
-
 ### -param yPosition
 
 The vertical y-coordinate for the top left corner of the Input Panel, with no correction comb visible.
-
 
 ### -param position
 
 The direction the post insertion correction comb should pop up in, as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-correctionposition">CorrectionPosition</a> enumeration.
 
-
 ## -returns
-
-
 
 Returns <b>false</b> when the Input Panel is open (docked or floating) and cannot be moved; otherwise it returns <b>true</b>.
 
@@ -114,14 +103,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  In Windows 7, calling <b>SetInPlacePosition</b> will no longer use the <i>CorrectionPosition</i> parameter.
 		</div>
@@ -210,14 +193,7 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
@@ -228,7 +204,4 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility">ITextInputPanel::SetInPlaceVisibility Method</a>
- 
-
- 
 

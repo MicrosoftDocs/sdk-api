@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 71442967-ee8a-448c-83cf-949934ddd152
 ms.date: 12/05/2018
 ms.keywords: PSFormatForDisplay, PSFormatForDisplay function [Windows Properties], properties.PSFormatForDisplay, propsys/PSFormatForDisplay, shell.PSFormatForDisplay, shell_PSFormatForDisplay
-f1_keywords:
-- propsys/PSFormatForDisplay
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSFormatForDisplay
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSFormatForDisplay
+ - propsys/PSFormatForDisplay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSFormatForDisplay
 ---
 
 # PSFormatForDisplay function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a formatted, Unicode string representation of a property value stored in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. The caller is responsible for allocating the output buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param propkey [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFPROPERTYKEY</b>
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that names the property whose value is being retrieved.
 
-
 ### -param propvar [in]
 
 Type: <b>REFPROPVARIANT</b>
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the property.
-
 
 ### -param pdfFlags [in]
 
@@ -78,13 +72,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-prop
 
 A flag that specifies the format to apply to the property string. See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> for possible values.
 
-
 ### -param pwszText [out]
 
 Type: <b>LPWSTR</b>
 
 When the function returns, contains a pointer to the formatted value as a null-terminated, Unicode string. The calling application is responsible for allocating memory for the buffer before it calls <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a>.
-
 
 ### -param cchText [in]
 
@@ -92,10 +84,7 @@ Type: <b>DWORD</b>
 
 Specifies the length of the buffer at <i>pwszText</i> in <b>WCHAR</b><b>s</b>, including the terminating null character.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -140,14 +129,8 @@ Indicates allocation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function calls the schema subsystem's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplay">IPropertySystem::FormatForDisplay</a>. That call provides a Unicode string representation of a property value, with additional formatting based on one or more <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>. If the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> is not recognized by the schema subsystem, <b>IPropertySystem::FormatForDisplay</b> attempts to format the value according to the value's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a>.
 
@@ -349,14 +332,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatfordisplayalloc">PSFormatForDisplayAlloc</a>
 
@@ -367,7 +343,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
- 
-
- 
 

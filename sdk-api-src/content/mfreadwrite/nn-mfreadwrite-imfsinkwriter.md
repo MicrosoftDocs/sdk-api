@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 76fb915e-1586-429a-88a5-bd1290799352
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], IMFSinkWriter interface [Media Foundation],described, mf.imfsinkwriter, mfreadwrite/IMFSinkWriter
-f1_keywords:
-- mfreadwrite/IMFSinkWriter
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSinkWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSinkWriter
+ - mfreadwrite/IMFSinkWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSinkWriter
 ---
 
 # IMFSinkWriter interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implemented by the Microsoft Media Foundation sink writer object.
-
 
 ## -inheritance
 
@@ -167,12 +166,9 @@ Delivers a sample to the sink writer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To create the sink writer, call one of the following functions:
 
@@ -190,20 +186,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 In Windows 8, this interface is extended with <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriterex">IMFSinkWriterEx</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
- 
-
- 
 

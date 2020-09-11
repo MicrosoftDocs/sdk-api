@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 352e6679-0710-429a-a659-47044ab60773
 ms.date: 12/05/2018
 ms.keywords: Finalize, Finalize method [Media Foundation], Finalize method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Finalize method, IMFSinkWriter.Finalize, IMFSinkWriter::Finalize, mf.imfsinkwriter_finalize, mfreadwrite/IMFSinkWriter::Finalize
-f1_keywords:
-- mfreadwrite/IMFSinkWriter.Finalize
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSinkWriter.Finalize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSinkWriter::Finalize
+ - mfreadwrite/IMFSinkWriter::Finalize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSinkWriter.Finalize
 ---
 
 # IMFSinkWriter::Finalize
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Completes all writing operations on the sink writer.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Call this method after you send all of the input samples to the sink writer. The method performs any operations needed to create the final output from the media sink.
 
@@ -96,20 +83,11 @@ If you do not call <b>Finalize</b>, the output from the media sink might be inco
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 349ec124-f3f5-4142-8600-8d9f508c9bb2
 ms.date: 12/05/2018
 ms.keywords: AddAlternativeLocationMapping, AddAlternativeLocationMapping method [VSS], AddAlternativeLocationMapping method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddAlternativeLocationMapping method, IVssBackupComponents.AddAlternativeLocationMapping, IVssBackupComponents::AddAlternativeLocationMapping, _win32_ivssbackupcomponents_addalternativelocationmapping, base.ivssbackupcomponents_addalternativelocationmapping, vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
-f1_keywords:
-- vsbackup/IVssBackupComponents.AddAlternativeLocationMapping
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.AddAlternativeLocationMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::AddAlternativeLocationMapping
+ - vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.AddAlternativeLocationMapping
 ---
 
 # IVssBackupComponents::AddAlternativeLocationMapping
@@ -50,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>AddAlternativeLocationMapping</b> method is used by a requester to indicate that an alternate location mapping was used to restore all the members of a file set in a given component.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Globally unique identifier (GUID) of the writer class that exported the component.
 
-
 ### -param componentType [in]
 
 Type of the component. The possible values of this parameter are defined by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> enumeration.
-
 
 ### -param wszLogicalPath [in]
 
@@ -82,7 +76,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the component name. 
@@ -91,7 +84,6 @@ There are no restrictions on the characters that can appear in a non-<b>NULL</b>
 
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
-
 
 ### -param wszPath [in]
 
@@ -104,7 +96,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
 
-
 ### -param wszFilespec [in]
 
 <b>Null</b>-terminated wide character string containing the original file specification. 
@@ -113,7 +104,6 @@ There is no requirement that the path end with a backslash ("\"). It is up to ap
 
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
-
 
 ### -param bRecursive [in]
 
@@ -125,15 +115,11 @@ A Boolean value that indicates whether the path specified by the <i>wszPath</i> 
 For information on traversing mounted folders, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
-
 ### -param wszDestination [in]
 
 <b>Null</b>-terminated wide character string containing the name of the directory where the file will be relocated. This path can be local to the VSS machine, or it can be a file share directory on a remote file server. UNC paths are supported.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -224,14 +210,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
@@ -280,13 +260,7 @@ Again, if no valid alternate location mapping is defined this constitutes a writ
 
 An alternate location mapping is used only during a restore operation and should not be confused with an alternate path, which is used only during a backup operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -297,7 +271,4 @@ An alternate location mapping is used only during a restore operation and should
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

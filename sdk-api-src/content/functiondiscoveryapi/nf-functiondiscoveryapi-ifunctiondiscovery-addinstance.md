@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: a99213b5-b310-4ce2-99ca-07b343f08c4d
 ms.date: 12/05/2018
 ms.keywords: AddInstance, AddInstance method, AddInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,AddInstance method, IFunctionDiscovery.AddInstance, IFunctionDiscovery::AddInstance, functiondiscoveryapi/IFunctionDiscovery::AddInstance, ncd.ifunctiondiscovery_addinstance_method
-f1_keywords:
-- functiondiscoveryapi/IFunctionDiscovery.AddInstance
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionDiscovery.AddInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscovery::AddInstance
+ - functiondiscoveryapi/IFunctionDiscovery::AddInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionDiscovery.AddInstance
 ---
 
 # IFunctionDiscovery::AddInstance
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Creates or modifies a function instance.
 
-
 ## -parameters
-
-
-
 
 ### -param enumSystemVisibility [in]
 
@@ -71,25 +67,19 @@ A <a href="/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-syste
 
 The category of the created function instance. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/category-definitions">Category Definitions</a>.
 
-
 ### -param pszSubCategory [in]
 
 The subcategory of the created function instance. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>. The maximum length of this string is MAX_PATH.
-
 
 ### -param pszCategoryIdentity [in]
 
 The provider instance identifier string. This string is returned from <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getproviderinstanceid">GetProviderInstanceID</a>.
 
-
 ### -param ppIFunctionInstance [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>  interface pointer that receives the function instance.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -177,14 +167,8 @@ An invalid parameter was specified. This error is returned when the length of th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method temporarily creates a new function instance for the specified category and subcategory.  The provider that implements the category is responsible for persisting the metadata associated with the newly created function instance using the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory-createinstance">IFunctionDiscoveryProviderFactory::CreateInstance</a> method.
 
@@ -198,16 +182,7 @@ Whether the new function instance is capable of being visible system-wide or onl
 
 Access permission to change HKEY_LOCAL_MACHINE\SYSTEM registry keys is required in order to add or remove function instances using the registry provider (Administrator or Power User access).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
- 
-
- 
 

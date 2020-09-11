@@ -8,10 +8,6 @@ tech.root: WMLSS
 ms.assetid: bbec5687-3c77-4385-a9be-74c6d84db962
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingServicesInterface, wmlss/IWindowsMediaLibrarySharingServices
-f1_keywords:
-- wmlss/IWindowsMediaLibrarySharingServices
-dev_langs:
-- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WMPMediaSharing.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMPMediaSharing.dll
-api_name:
-- IWindowsMediaLibrarySharingServices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsMediaLibrarySharingServices
+ - wmlss/IWindowsMediaLibrarySharingServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMPMediaSharing.dll
+api_name:
+ - IWindowsMediaLibrarySharingServices
 ---
 
 # IWindowsMediaLibrarySharingServices interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWindowsMediaLibrarySharingServices</b> interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.
-
 
 ## -inheritance
 
@@ -247,29 +246,17 @@ Displays the media sharing page in the Control Panel and highlights a specified 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To obtain an <b>IWindowsMediaLibrarySharingServices</b> interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> to create a <b>WindowsMediaLibrarySharingServices</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal">Windows Media Library Sharing Services</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 715e802b-4707-4c6d-9ae9-a4ddfa90f05e
 ms.date: 12/05/2018
 ms.keywords: 715e802b-4707-4c6d-9ae9-a4ddfa90f05e, GetCapabilities, GetCapabilities method [Media Foundation], GetCapabilities method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetCapabilities method, IMFByteStream.GetCapabilities, IMFByteStream::GetCapabilities, MFBYTESTREAM_DOES_NOT_USE_NETWORK, MFBYTESTREAM_HAS_SLOW_SEEK, MFBYTESTREAM_IS_DIRECTORY, MFBYTESTREAM_IS_PARTIALLY_DOWNLOADED, MFBYTESTREAM_IS_READABLE, MFBYTESTREAM_IS_REMOTE, MFBYTESTREAM_IS_SEEKABLE, MFBYTESTREAM_IS_WRITABLE, MFBYTESTREAM_SHARE_WRITE, mf.imfbytestream_getcapabilities, mfobjects/IMFByteStream::GetCapabilities
-f1_keywords:
-- mfobjects/IMFByteStream.GetCapabilities
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFByteStream.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStream::GetCapabilities
+ - mfobjects/IMFByteStream::GetCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFByteStream.GetCapabilities
 ---
 
 # IMFByteStream::GetCapabilities
@@ -50,15 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the characteristics of the byte stream.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pdwCapabilities [out]
 
@@ -188,21 +183,12 @@ may enter a power saving state when this bit is set.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -211,15 +197,7 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
- 
-
- 
 

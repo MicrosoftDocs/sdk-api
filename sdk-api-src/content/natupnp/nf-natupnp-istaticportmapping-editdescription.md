@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 6bfa6242-298e-4835-9eda-fdc6a88d848f
 ms.date: 12/05/2018
 ms.keywords: EditDescription, EditDescription method [ICS/ICF], EditDescription method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditDescription method, IStaticPortMapping.EditDescription, IStaticPortMapping::EditDescription, _ics_istaticportmapping_editdescription, ics.istaticportmapping_editdescription, natupnp/IStaticPortMapping::EditDescription
-f1_keywords:
-- natupnp/IStaticPortMapping.EditDescription
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMapping.EditDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMapping::EditDescription
+ - natupnp/IStaticPortMapping::EditDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMapping.EditDescription
 ---
 
 # IStaticPortMapping::EditDescription
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EditDescription</b> method sets the description property of this port mapping to the specified value.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrDescription [in]
 
 Specifies the new value for the description property of this port mapping.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is <b>S_OK</b>.
 
@@ -166,15 +159,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
@@ -189,7 +175,4 @@ The method failed for unknown reasons.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
 

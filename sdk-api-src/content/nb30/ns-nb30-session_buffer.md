@@ -8,10 +8,6 @@ tech.root: NetBIOS
 ms.assetid: 29352074-3dff-430f-82fb-6f7fd0b2966a
 ms.date: 12/05/2018
 ms.keywords: '*PSESSION_BUFFER, CALL_PENDING, HANGUP_COMPLETE, HANGUP_PENDING, LISTEN_OUTSTANDING, PSESSION_BUFFER, PSESSION_BUFFER structure pointer [NetBIOS], SESSION_ABORTED, SESSION_BUFFER, SESSION_BUFFER structure [NetBIOS], SESSION_ESTABLISHED, nb30/PSESSION_BUFFER, nb30/SESSION_BUFFER, netbios.session_buffer'
-f1_keywords:
-- nb30/SESSION_BUFFER
-dev_langs:
-- c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Nb30.h
-api_name:
-- SESSION_BUFFER
 targetos: Windows
 req.typenames: SESSION_BUFFER, *PSESSION_BUFFER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SESSION_BUFFER
+ - nb30/_SESSION_BUFFER
+ - PSESSION_BUFFER
+ - nb30/PSESSION_BUFFER
+ - SESSION_BUFFER
+ - nb30/SESSION_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Nb30.h
+api_name:
+ - SESSION_BUFFER
 ---
 
 # SESSION_BUFFER structure
@@ -49,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>SESSION_BUFFER</b> structure contains information about a local network session. One or more <b>SESSION_BUFFER</b> structures follows a <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-session_header">SESSION_HEADER</a> structure when an application specifies the <b>NCBSSTAT</b> command in the <b>ncb_command</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure. 
-
-
-
+The <b>SESSION_BUFFER</b> structure contains information about a local network session. One or more <b>SESSION_BUFFER</b> structures follows a <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-session_header">SESSION_HEADER</a> structure when an application specifies the <b>NCBSSTAT</b> command in the <b>ncb_command</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field lsn
 
 Specifies the local session number.
-
 
 ### -field state
 
@@ -137,38 +134,26 @@ The session was abandoned due to a network or user problem.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field local_name
 
 Specifies the 16-byte NetBIOS name on the local computer used for this session.
 
-
 ### -field remote_name
-
- 
-
 
 ### -field rcvs_outstanding
 
 Specifies the number of pending <b>NCBRECV</b> commands.
 
-
 ### -field sends_outstanding
 
 Specifies the number of pending <b>NCBSEND</b> and <b>NCBCHAINSEND</b> commands.
-
 
 ### -field Remote_name
 
 Specifies the 16-byte NetBIOS name on the remote computer used for this session.
 
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -187,7 +172,4 @@ Specifies the 16-byte NetBIOS name on the remote computer used for this session.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
- 
-
- 
 

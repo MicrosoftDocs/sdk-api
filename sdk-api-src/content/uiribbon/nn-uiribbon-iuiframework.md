@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\iuiframework.htm
 ms.date: 12/05/2018
 ms.keywords: IUIFramework, IUIFramework interface [Windows Ribbon], IUIFramework interface [Windows Ribbon],described, scenicintent_IUIFramework, uiribbon/IUIFramework, windowsribbon.windowsribbon_iuiframework
-f1_keywords:
-- uiribbon/IUIFramework
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Uiribbon.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiribbon.dll
-api_name:
-- IUIFramework
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIFramework
+ - uiribbon/IUIFramework
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiribbon.dll
+api_name:
+ - IUIFramework
 ---
 
 # IUIFramework interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IUIFramework</b> interface is implemented by the Windows Ribbon framework and defines the methods that provide the core functionality for the framework.
-
 
 ## -inheritance
 
@@ -159,12 +158,9 @@ Sets a command property, value, or state.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is used to initialize and dismantle the Ribbon framework.
 
@@ -173,18 +169,8 @@ Ribbon framework UI functionality is differentiated by Views, which are essentia
 
 To get an interface pointer to the implementation of IUIFramework, use <a href="https://msdn.microsoft.com/library/ms686615(VS.85).aspx">CoCreateInstance</a>to 
 			create a COM object with the class identifier (CLSID) of CLSID_UIRibbonFramework.
-			
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
 

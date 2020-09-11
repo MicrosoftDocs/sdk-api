@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4390c8da-9c4d-47a4-9af4-d179829f77f3
 ms.date: 12/05/2018
 ms.keywords: CertDeleteCertificateFromStore, CertDeleteCertificateFromStore function [Security], _crypto2_certdeletecertificatefromstore, security.certdeletecertificatefromstore, wincrypt/CertDeleteCertificateFromStore
-f1_keywords:
-- wincrypt/CertDeleteCertificateFromStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertDeleteCertificateFromStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertDeleteCertificateFromStore
+ - wincrypt/CertDeleteCertificateFromStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertDeleteCertificateFromStore
 ---
 
 # CertDeleteCertificateFromStore function
@@ -49,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertDeleteCertificateFromStore</b> function deletes the specified certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param pCertContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure to be deleted.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 						
@@ -92,14 +84,8 @@ Indicates the store was opened as read-only and a delete operation is not allowe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After a certificate is deleted from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">store</a>, all subsequent attempts to get or find that certificate in that store will fail. However, memory allocated for the certificate is not freed until all duplicated contexts have also been freed.
 
@@ -112,12 +98,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore">CertDeleteCRLFromStore</a>
 
@@ -128,7 +109,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
 

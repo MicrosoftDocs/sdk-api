@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 6f134160-b0aa-44fd-b1b9-938f11349eac
 ms.date: 12/05/2018
 ms.keywords: IMediaPropertyBag, IMediaPropertyBag interface [DirectShow], IMediaPropertyBag interface [DirectShow],described, IMediaPropertyBagInterface, dshow.imediapropertybag, strmif/IMediaPropertyBag
-f1_keywords:
-- strmif/IMediaPropertyBag
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPropertyBag
+ - strmif/IMediaPropertyBag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPropertyBag
 ---
 
 # IMediaPropertyBag interface
 
 
 ## -description
-
-
 
 The <code>IMediaPropertyBag</code> interface is exposed by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-property-bag">Media Property Bag</a> object. The Media Property Bag is a specialized version of the standard COM property bag, designed for setting and retrieving INFO and DISP chunks in Audio-Video Interleaved (AVI) files.
 
@@ -63,9 +62,6 @@ The media property bag stores the chunks as name/value pairs, as follows:
 <li>DISP chunks: The name is a string with the form DISP/0000000000, where 0000000000 is the 10-character decimal equivalent of a standard Clipboard format—for example, 0000000008 for CF_DIB. The value is an array of bytes that contains the display data.</li>
 </ul>
 Use this interface with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag</a> interface to retrieve INFO and DISP chunks from an AVI file.
-
-
-
 
 ## -inheritance
 
@@ -91,5 +87,5 @@ Retrieves a property/value pair.
 
 </td>
 </tr>
-</table> 
+</table>
 

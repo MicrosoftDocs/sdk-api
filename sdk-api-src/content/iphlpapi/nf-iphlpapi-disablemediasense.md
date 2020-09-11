@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: ec845db8-d544-4291-8221-0fde82c2de27
 ms.date: 12/05/2018
 ms.keywords: DisableMediaSense, DisableMediaSense function [IP Helper], iphlp.disablemediasense, iphlpapi/DisableMediaSense
-f1_keywords:
-- iphlpapi/DisableMediaSense
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- DisableMediaSense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DisableMediaSense
+ - iphlpapi/DisableMediaSense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - DisableMediaSense
 ---
 
 # DisableMediaSense function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DisableMediaSense</b> function disables the media sensing capability of the TCP/IP stack on a local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pHandle
 
@@ -64,17 +60,13 @@ A pointer to a variable that is used to store a handle. If the <i>pOverlapped</i
 
 An application should not use the value pointed to by this variable. This handle is for internal use and should not be closed.
 
-
 ### -param pOverLapped
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member requires a handle to a valid event object. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event object.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -142,14 +134,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>pHandle</i> or <i>pOverlapped</i> parameters are <b>NULL</b>, the <b>DisableMediaSense</b> function is  executed synchronously. 
 
@@ -374,14 +360,7 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -412,7 +391,4 @@ int __cdecl main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a>
- 
-
- 
 

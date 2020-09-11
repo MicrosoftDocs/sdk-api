@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 60f9da61-dc97-4b6d-b187-df3605ad9336
 ms.date: 12/05/2018
 ms.keywords: 3ffbf56d-c151-9ef4-e7f6-03fca9a9b5a0, ID3D11Debug interface [Direct3D 11],SetFeatureMask method, ID3D11Debug.SetFeatureMask, ID3D11Debug::SetFeatureMask, SetFeatureMask, SetFeatureMask method [Direct3D 11], SetFeatureMask method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetFeatureMask, direct3d11.id3d11debug_setfeaturemask
-f1_keywords:
-- d3d11sdklayers/ID3D11Debug.SetFeatureMask
-dev_langs:
-- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Debug.SetFeatureMask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Debug::SetFeatureMask
+ - d3d11sdklayers/ID3D11Debug::SetFeatureMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Debug.SetFeatureMask
 ---
 
 # ID3D11Debug::SetFeatureMask
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Set a bit field of flags that will turn debug features on and off.
 
-
 ## -parameters
-
-
-
 
 ### -param Mask
 
@@ -65,21 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A combination of feature-mask flags that are combined by using a bitwise OR operation. If a flag is present, that feature will be set to on, otherwise the feature will be set to off. For descriptions of the feature-mask flags, see Remarks.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
@@ -189,16 +177,7 @@ By default (that is, without D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_
 
 If D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_TRACKING_AND_VALIDATION is set when a tiled resource is created, the debug layer never performs the tracking of tile mapping for that resource for its entire lifetime.  Alternatively, if D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_TRACKING_AND_VALIDATION is set for any given device context method call (like draw or copy calls) involving tiled resources, the debug layer skips all tile mapping validation for the call.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11debug">ID3D11Debug Interface</a>
- 
-
- 
 

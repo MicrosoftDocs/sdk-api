@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 1ddeeab8-b81b-4d34-9ca6-103147fb3426
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplication, INetFwAuthorizedApplication interface [ICS/ICF], INetFwAuthorizedApplication interface [ICS/ICF],described, ics.inetfwauthorizedapplication, netfw/INetFwAuthorizedApplication
-f1_keywords:
-- netfw/INetFwAuthorizedApplication
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwAuthorizedApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwAuthorizedApplication
+ - netfw/INetFwAuthorizedApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwAuthorizedApplication
 ---
 
 # INetFwAuthorizedApplication interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 The <b>INetFwAuthorizedApplication</b> interface provides access to the properties of an application that has been authorized have openings in the firewall.
-
 
 ## -inheritance
 
@@ -259,12 +258,9 @@ Accesses the contents of the Scope property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 When creating new applications, this interface is supported by the HNetCfg.FwAuthorizedApplication COM object.  
 
@@ -272,13 +268,7 @@ For reading or modifying existing applications, instances of this interface are 
 
 All configuration changes take effect immediately.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -289,7 +279,4 @@ All configuration changes take effect immediately.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

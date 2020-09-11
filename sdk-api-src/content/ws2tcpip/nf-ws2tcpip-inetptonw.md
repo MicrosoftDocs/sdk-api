@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: d0705997-0dc7-443b-a43f-611301cc9169
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, InetPton, InetPton function [Winsock], InetPtonA, InetPtonA or inet_pton, InetPtonW, inet_pton, winsock.inet_pton, ws2tcpip/InetPton, ws2tcpip/InetPtonA or inet_pton, ws2tcpip/InetPtonW
-f1_keywords:
-- ws2tcpip/InetPton
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- InetPton
-- InetPtonA or inet_pton
-- InetPtonW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InetPtonW
+ - ws2tcpip/InetPtonW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - InetPton
+ - InetPtonA or inet_pton
+ - InetPtonW
 ---
 
 # InetPtonW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>InetPton</b> function converts an IPv4 or IPv6 Internet network address in its standard text   presentation form into its numeric binary form. The ANSI version of this function is   <b>inet_pton</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param Family [in]
 
@@ -97,8 +93,6 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszAddrString [in]
 
@@ -106,8 +100,7 @@ A pointer to the <b>NULL</b>-terminated string that contains the text representa
 
 When the <i>Family</i> parameter is <b>AF_INET</b>, then the <i>pszAddrString</i> parameter must point to a text representation of an IPv4 address in standard dotted-decimal notation.
 
-When the <i>Family</i> parameter is <b>AF_INET6</b>, then the <i>pszAddrString</i> parameter must point to a text representation of an IPv6 address in standard notation. 
-
+When the <i>Family</i> parameter is <b>AF_INET6</b>, then the <i>pszAddrString</i> parameter must point to a text representation of an IPv6 address in standard notation.
 
 ### -param pAddrBuf [out]
 
@@ -117,10 +110,7 @@ When the <i>Family</i> parameter is <b>AF_INET</b>, this buffer should be large 
 
 When the <i>Family</i> parameter is <b>AF_INET6</b>,  this buffer should be large enough to hold an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">IN6_ADDR</a> structure.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 the <b>InetPton</b> function returns a value of 1 and the buffer pointed to by the <i>pAddrBuf</i> parameter contains the binary numeric IP address in network byte order.
@@ -158,14 +148,8 @@ The <i>pszAddrString</i> or <i>pAddrBuf</i> parameters are <b>NULL</b> or are no
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>InetPton</b> function is supported on Windows Vistaand later.
@@ -195,13 +179,7 @@ On Windows Vista and later, the <a href="https://docs.microsoft.com/windows/des
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The  <b>InetPtonW</b> function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">IN6_ADDR</a>
 
@@ -252,7 +230,4 @@ On Windows Vista and later, the <a href="https://docs.microsoft.com/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 34c97d61-694e-4ee3-92ed-55b0a787b747
 ms.date: 12/05/2018
 ms.keywords: ICheckSxSConfig, ICheckSxSConfig interface [COM+], ICheckSxSConfig interface [COM+],described, _cos_ICheckSxsConfig, comsvcs/ICheckSxSConfig, cos.ichecksxsconfig
-f1_keywords:
-- comsvcs/ICheckSxSConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICheckSxSConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICheckSxsConfig
+ - comsvcs/ICheckSxsConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICheckSxSConfig
 ---
 
 # ICheckSxsConfig interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to check the configuration of the current side-by-side assembly.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Determines whether the side-by-side assembly has the specified configuration.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
@@ -94,7 +89,4 @@ Determines whether the side-by-side assembly has the specified configuration.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal">Isolated Applications and Side-by-side Assemblies</a>
- 
-
- 
 

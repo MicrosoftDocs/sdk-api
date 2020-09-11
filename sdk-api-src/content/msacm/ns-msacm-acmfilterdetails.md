@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: c0423701-b957-4f77-a565-f6f761614389
 ms.date: 12/05/2018
 ms.keywords: '*LPACMFILTERDETAILS, *PACMFILTERDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFILTERDETAILS, ACMFILTERDETAILS structure [Windows Multimedia], msacm/ACMFILTERDETAILS, multimedia.acmfilterdetails_COLLISION925, multimedia.acmfilterdetails_struct'
-f1_keywords:
-- msacm/ACMFILTERDETAILS
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msacm.h
-api_name:
-- ACMFILTERDETAILS
 targetos: Windows
 req.typenames: ACMFILTERDETAILS, *PACMFILTERDETAILS, *LPACMFILTERDETAILS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tACMFILTERDETAILS
+ - msacm/tACMFILTERDETAILS
+ - PACMFILTERDETAILS
+ - msacm/PACMFILTERDETAILS
+ - ACMFILTERDETAILS
+ - msacm/ACMFILTERDETAILS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msacm.h
+api_name:
+ - ACMFILTERDETAILS
 ---
 
 # ACMFILTERDETAILS structure
@@ -49,32 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ACMFILTERDETAILS</b> structure details a waveform-audio filter for a specific filter tag for an ACM driver.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Size, in bytes, of the <b>ACMFILTERDETAILS</b> structure. This member must be initialized before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a> functions. The size specified in this member must be large enough to contain the base <b>ACMFILTERDETAILS</b> structure. When the <b>acmFilterDetails</b> function returns, this member contains the actual size of the information returned. The returned information will never exceed the requested size.
 
-
 ### -field dwFilterIndex
 
 Index of the filter about which details will be retrieved. The index ranges from zero to one less than the number of standard filters supported by an ACM driver for a filter tag. The number of standard filters supported by a driver for a filter tag is contained in the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure. The <b>dwFilterIndex</b> member is used only when querying standard filter details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a filter; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
 
-
 ### -field dwFilterTag
 
 Waveform-audio filter tag that the <b>ACMFILTERDETAILS</b> structure describes. This member is used as an input for the ACM_FILTERDETAILSF_INDEX query flag. For the ACM_FILTERDETAILSF_FORMAT query flag, this member must be initialized to the same filter tag as the <b>pwfltr</b> member specifies. If the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> function is successful, this member is always returned. This member should be set to WAVE_FILTER_UNKNOWN for all other query flags.
-
 
 ### -field fdwSupport
 
@@ -136,28 +130,20 @@ Driver supports hardware input, output, or both with the specified filter throug
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwfltr
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure that will receive the filter details. This structure requires no initialization by the application unless the ACM_FILTERDETAILSF_FILTER flag is specified with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> function. In this case, the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure.
 
-
 ### -field cbwfltr
 
 Size, in bytes, available for <b>pwfltr</b> to receive the filter details. The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a> functions can be used to determine the maximum size required for any filter available for the specified driver (or for all installed ACM drivers).
-
 
 ### -field szFilter
 
 String that describes the filter for the <b>dwFilterTag</b> type. If the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> function is successful, this string is always returned.
 
-
 ## -see-also
-
-
-
 
 [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)
 
@@ -192,7 +178,4 @@ String that describes the filter for the <b>dwFilterTag</b> type. If the <a href
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
- 
-
- 
 

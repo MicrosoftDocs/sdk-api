@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: C3E61527-76AB-49E9-8BBD-486F437CC677
 ms.date: 12/05/2018
 ms.keywords: '*PSECURITY_OBJECT, PSECURITY_OBJECT, PSECURITY_OBJECT structure pointer [Security], SECURITY_OBJECT, SECURITY_OBJECT structure [Security], SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE (4), SECURITY_OBJECT_ID_CENTRAL_POLICY (3), SECURITY_OBJECT_ID_OBJECT_SD (1), SECURITY_OBJECT_ID_SHARE (2), aclui/PSECURITY_OBJECT, aclui/SECURITY_OBJECT, security.security_object'
-f1_keywords:
-- aclui/SECURITY_OBJECT
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Aclui.h
-api_name:
-- SECURITY_OBJECT
 targetos: Windows
 req.typenames: SECURITY_OBJECT, *PSECURITY_OBJECT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SECURITY_OBJECT
+ - aclui/_SECURITY_OBJECT
+ - PSECURITY_OBJECT
+ - aclui/PSECURITY_OBJECT
+ - SECURITY_OBJECT
+ - aclui/SECURITY_OBJECT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Aclui.h
+api_name:
+ - SECURITY_OBJECT
 ---
 
 # SECURITY_OBJECT structure
@@ -49,39 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SECURITY_OBJECT</b> structure contains the security object information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pwszName
 
 A pointer to the name.
 
-
 ### -field pData
 
 A pointer to the security data.
-
 
 ### -field cbData
 
 The size, in bytes, of the data pointed to by the <b>pData</b> member. This may be zero if <b>pData</b> contains the data, such as when the data is an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer, a handle, or data specific to the resource manager that can be stored in <b>pData</b> directly without a memory allocation.
 
-
 ### -field pData2
 
 A pointer to the additional security data.
 
-
 ### -field cbData2
 
 The size, in bytes, of the data pointed to by the <b>pData2</b> member. This may be zero if <b>pData2</b> contains the data, such as when the data is an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer, a handle, or data specific to the resource manager that can be stored in <b>pData2</b> directly without a memory allocation.
-
 
 ### -field Id
 
@@ -157,34 +152,20 @@ The security descriptor is constructed to allow computing effective permissions 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fWellKnown
 
 <b>TRUE</b> if the security object represents one of the well-know security objects listed in the <b>Id</b> member.
 
-
 ## -remarks
-
-
 
 When the <b>Id</b> member the <b>SECURITY_OBJECT</b> structure is set to SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE, the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity">ComputeEffectivePermissionWithSecondarySecurity</a> method must use the <b>pData2</b> member of  first and only then evaluate the access  using the  <b>pData</b> member.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity">IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity">ISecurityInformation4::GetSecondarySecurity</a>
- 
-
- 
 

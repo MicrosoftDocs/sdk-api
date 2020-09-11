@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 5344044a-0973-4ab2-bf5c-74e0d07d4e76
 ms.date: 12/05/2018
 ms.keywords: 5344044a-0973-4ab2-bf5c-74e0d07d4e76, IInkRecognizerContext interface [Tablet PC],IsStringSupported method, IInkRecognizerContext.IsStringSupported, IInkRecognizerContext::IsStringSupported, IsStringSupported, IsStringSupported method [Tablet PC], IsStringSupported method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::IsStringSupported, tablet.inkrecognizercontext_isstringsupported
-f1_keywords:
-- msinkaut/IInkRecognizerContext.IsStringSupported
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerContext.IsStringSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerContext::IsStringSupported
+ - msinkaut/IInkRecognizerContext::IsStringSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerContext.IsStringSupported
 ---
 
 # IInkRecognizerContext::IsStringSupported
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Indicates whether the system dictionary, user dictionary, or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">word list</a> contain a specified string.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param String [in]
 
@@ -68,15 +61,11 @@ The string to look up in the dictionaries and word list.
 
 For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
-
 ### -param Supported [out, retval]
 
 When this method returns, contains <b>VARIANT_TRUE</b> if the string is in the dictionary or word list; otherwise <b>VARIANT_FALSE</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -152,14 +141,8 @@ Unexpected parameter or property type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method considers all flags and factoid, among other things, that give context to the string that is being tested.
 
@@ -167,13 +150,7 @@ This method does not search the user dictionary if you specify a <a href="https:
 
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid">Factoid</a> property to limit the search to the system dictionary or the word list that is associated with the context. For example, to limit the search to the system dictionary, specify the <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">SystemDictionary</a> factoid. To improve the results, you may also need to set the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags">RecognitionFlags</a> property.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid">Factoid Property [InkRecognizeContext Class]</a>
 
@@ -188,7 +165,4 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags">RecognitionFlags Property</a>
- 
-
- 
 

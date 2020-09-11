@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 3b49d548-640c-47d0-a7bb-4edbb654464e
 ms.date: 12/05/2018
 ms.keywords: GamutShellTriangle, GamutShellTriangle structure [Windows Color System], _color_GamutShellTriangle_str, wcs.gamutshelltriangle, wcsplugin/GamutShellTriangle
-f1_keywords:
-- wcsplugin/GamutShellTriangle
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WcsPlugIn.h
-api_name:
-- GamutShellTriangle
 targetos: Windows
 req.typenames: GamutShellTriangle
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _GamutShellTriangle
+ - wcsplugin/_GamutShellTriangle
+ - GamutShellTriangle
+ - wcsplugin/GamutShellTriangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WcsPlugIn.h
+api_name:
+ - GamutShellTriangle
 ---
 
 # GamutShellTriangle structure
@@ -49,27 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains three vertex indices for accessing a vertex buffer.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field aVertexIndex
 
 An array of three vertex indices that are used for accessing a vertex buffer.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
@@ -80,7 +71,4 @@ An array of three vertex indices that are used for accessing a vertex buffer.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/windows-color-system-schemas-and-algorithms">Windows Color System Schemas and Algorithms</a>
- 
-
- 
 

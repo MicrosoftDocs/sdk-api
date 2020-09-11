@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 6c45d735-9a07-41ca-8d8a-919f32c98a3c
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpNetTable2, GetIpNetTable2 function [IP Helper], iphlp.getipnettable2, netioapi/GetIpNetTable2
-f1_keywords:
-- netioapi/GetIpNetTable2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpNetTable2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpNetTable2
+ - netioapi/GetIpNetTable2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpNetTable2
 ---
 
 # GetIpNetTable2 function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpNetTable2</b> function retrieves the IP neighbor table on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Family [in]
 
@@ -108,18 +104,13 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Table [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure that contains a table of neighbor IP address entries on the local computer. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure that contains a table of neighbor IP address entries on the local computer.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR or ERROR_NOT_FOUND.
 
@@ -191,14 +182,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpNetTable2</b> function is defined on Windows Vista and later. 
 
@@ -357,14 +342,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2">CreateIpNetEntry2</a>
 
@@ -395,7 +373,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipnetentry2">SetIpNetEntry2</a>
- 
-
- 
 

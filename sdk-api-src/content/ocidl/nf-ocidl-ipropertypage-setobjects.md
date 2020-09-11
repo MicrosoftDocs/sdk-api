@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0d7a73ce-8e3c-40c5-9040-6370df5edc2b
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],SetObjects method, IPropertyPage.SetObjects, IPropertyPage::SetObjects, SetObjects, SetObjects method [COM], SetObjects method [COM],IPropertyPage interface, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
-f1_keywords:
-- ocidl/IPropertyPage.SetObjects
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPropertyPage.SetObjects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyPage::SetObjects
+ - ocidl/IPropertyPage::SetObjects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPropertyPage.SetObjects
 ---
 
 # IPropertyPage::SetObjects
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the property page with an array of pointers to objects associated with this property page.
 
 When the property page receives a call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-apply">IPropertyPage::Apply</a>, it must send value changes to these objects through whatever interfaces are appropriate. The property page must query for those interfaces. This method can fail if the objects do not support the interfaces expected by the property page.
 
-
 ## -parameters
-
-
-
 
 ### -param cObjects [in]
 
 The number of pointers in the array pointed to by <i>ppUnk</i>. If this parameter is 0, the property page must release any pointers previously passed to this method.
 
-
 ### -param ppUnk [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointers where each pointer identifies a unique object affected by the property sheet in which this (and possibly other) property pages are displayed. The property page must cache these pointers calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> for each pointer at that time. This array of pointers is the same one that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a> or <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a> to invoke the property sheet.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_FAIL, E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -115,14 +107,8 @@ The address in <i>ppUnk</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The property page is required to keep the pointers returned by this method or others queried through them. If these specific <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers are held, the property page must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> through each when caching them, until the time when <b>SetObjects</b> is called with <i>cObjects</i> equal to 0. At that time, the property page must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through each pointer, releasing any objects that it held.
 
@@ -133,17 +119,7 @@ The caller must provide the property page with these objects before calling <a h
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 E_NOTIMPL is not a valid return value.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
- 
-
- 
 

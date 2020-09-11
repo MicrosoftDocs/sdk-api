@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: eac678f4-c77c-46b5-9c45-62b5822079da
 ms.date: 12/05/2018
 ms.keywords: SnmpClose, SnmpClose function [SNMP], _snmp_snmpclose, snmp.snmpclose, winsnmp/SnmpClose
-f1_keywords:
-- winsnmp/SnmpClose
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpClose
+ - winsnmp/SnmpClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpClose
 ---
 
 # SnmpClose function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -57,20 +57,13 @@ The
 <b>SnmpClose</b> function also closes communications mechanisms the implementation opened as a result of a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
 Handle to the WinSNMP session to close.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
@@ -129,14 +122,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 It is recommended that a WinSNMP application call the 
 <b>SnmpClose</b> function once for each session that the application opened using the 
@@ -149,13 +136,7 @@ It is recommended that a WinSNMP application call the
 When the implementation closes a session it discards all outstanding incoming and outgoing asynchronous requests and replies for the session. For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-sessions">WinSNMP Sessions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
 
@@ -171,7 +152,4 @@ When the implementation closes a session it discards all outstanding incoming an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

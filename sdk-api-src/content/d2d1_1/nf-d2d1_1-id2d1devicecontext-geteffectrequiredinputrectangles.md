@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: B34548A9-1E23-496F-A1D9-87B74EF67C72
 ms.date: 12/05/2018
 ms.keywords: GetEffectRequiredInputRectangles, GetEffectRequiredInputRectangles method [Direct2D], GetEffectRequiredInputRectangles method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectRequiredInputRectangles method, ID2D1DeviceContext.GetEffectRequiredInputRectangles, ID2D1DeviceContext::GetEffectRequiredInputRectangles, d2d1_1/ID2D1DeviceContext::GetEffectRequiredInputRectangles, direct2d.id2d1devicecontext_geteffectrequiredinputrectangles
-f1_keywords:
-- d2d1_1/ID2D1DeviceContext.GetEffectRequiredInputRectangles
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DeviceContext.GetEffectRequiredInputRectangles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DeviceContext::GetEffectRequiredInputRectangles
+ - d2d1_1/ID2D1DeviceContext::GetEffectRequiredInputRectangles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DeviceContext.GetEffectRequiredInputRectangles
 ---
 
 # ID2D1DeviceContext::GetEffectRequiredInputRectangles
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns the input rectangles that are required to be supplied by the caller to produce the given output rectangle. 
-        
-
+Returns the input rectangles that are required to be supplied by the caller to produce the given output rectangle.
 
 ## -parameters
-
-
-
 
 ### -param renderEffect [in]
 
@@ -65,21 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_
 
 The image whose output is being rendered.
 
-
 ### -param renderImageRectangle [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The portion of the output image whose inputs are being inspected.
 
-
 ### -param inputDescriptions [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_effect_input_description">D2D1_EFFECT_INPUT_DESCRIPTION</a>*</b>
 
 A list of the inputs whos rectangles are being queried.
-          
-
 
 ### -param requiredInputRects [out]
 
@@ -87,44 +78,25 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-
 
 The input rectangles returned to the caller.
 
-
 ### -param inputCount
 
 Type: <b>UINT32</b>
 
 The number of inputs.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 A failure code, this will typically only be because an effect in the chain returned some error.
-            
-
-
-
 
 ## -remarks
 
-
-
 The caller should be very careful not to place a reliance on the required input rectangles returned. 
       Small changes for correctness to an effect's behavior can result in different rectangles being returned. 
-      In addition, different kinds of optimization applied inside the render can also influence the result. 
-
-
-
+      In addition, different kinds of optimization applied inside the render can also influence the result.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
- 
-
- 
 

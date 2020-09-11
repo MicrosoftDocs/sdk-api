@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a66c23ac-8211-40fd-bfe8-ef9089bf3745
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithName, BuildTrusteeWithName function [Security], BuildTrusteeWithNameA, BuildTrusteeWithNameW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithname, aclapi/BuildTrusteeWithName, aclapi/BuildTrusteeWithNameA, aclapi/BuildTrusteeWithNameW, pMultipleTrustee, security.buildtrusteewithname
-f1_keywords:
-- aclapi/BuildTrusteeWithName
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-security-trustee-l1-1-1.dll
-- advapi32legacy.dll
-api_name:
-- BuildTrusteeWithName
-- BuildTrusteeWithNameA
-- BuildTrusteeWithNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BuildTrusteeWithNameA
+ - aclapi/BuildTrusteeWithNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-security-trustee-l1-1-1.dll
+ - advapi32legacy.dll
+api_name:
+ - BuildTrusteeWithName
+ - BuildTrusteeWithNameA
+ - BuildTrusteeWithNameW
 ---
 
 # BuildTrusteeWithNameA function
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BuildTrusteeWithName</b> function initializes a 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
 
-
 ## -parameters
-
-
-
 
 ### -param pTrustee [in, out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure to initialize. The <b>BuildTrusteeWithName</b> function does not allocate any memory. If this parameter is <b>NULL</b> or a pointer that is not valid, the results are undefined.
-
 
 ### -param pName [in, optional]
 
@@ -123,13 +118,8 @@ TRUSTEE_IS_UNKNOWN
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
@@ -152,9 +142,6 @@ TRUSTEE_IS_UNKNOWN
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
- 
-
- 
 
 ## -remarks
 

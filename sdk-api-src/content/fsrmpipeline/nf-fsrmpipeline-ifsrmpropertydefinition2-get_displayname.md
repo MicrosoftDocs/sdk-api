@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: e8991ce2-8b63-46e9-ac1c-03a93a963d10
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [File Server Resource Manager], DisplayName property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, IFsrmPropertyDefinition2 interface [File Server Resource Manager],DisplayName property, IFsrmPropertyDefinition2.DisplayName, IFsrmPropertyDefinition2.get_DisplayName, IFsrmPropertyDefinition2::DisplayName, IFsrmPropertyDefinition2::get_DisplayName, IFsrmPropertyDefinition2::put_DisplayName, fs.ifsrmpropertydefinition2_displayname, fsrm.ifsrmpropertydefinition2_displayname, fsrmpipeline/IFsrmPropertyDefinition2::DisplayName, fsrmpipeline/IFsrmPropertyDefinition2::get_DisplayName, fsrmpipeline/IFsrmPropertyDefinition2::put_DisplayName, get_DisplayName
-f1_keywords:
-- fsrmpipeline/IFsrmPropertyDefinition2.DisplayName
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyDefinition2.DisplayName
-- IFsrmPropertyDefinition2.get_DisplayName
-- IFsrmPropertyDefinition2.put_DisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyDefinition2::get_DisplayName
+ - fsrmpipeline/IFsrmPropertyDefinition2::get_DisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyDefinition2.DisplayName
+ - IFsrmPropertyDefinition2.get_DisplayName
+ - IFsrmPropertyDefinition2.put_DisplayName
 ---
 
 # IFsrmPropertyDefinition2::get_DisplayName
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -61,21 +61,13 @@ This property is the display name of the property definition.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition2">IFsrmPropertyDefinition2</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationpropertydefinition">MSFT_FSRMClassificationPropertyDefinition</a>
- 
-
- 
 

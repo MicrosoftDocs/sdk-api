@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: f6dfeb1d-1730-4df4-adf7-f27dd9edc54d
 ms.date: 12/05/2018
 ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteInstance method, IWbemServices.DeleteInstance, IWbemServices::DeleteInstance, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteinstance, wbemcli/IWbemServices::DeleteInstance, wmi.iwbemservices_deleteinstance
-f1_keywords:
-- wbemcli/IWbemServices.DeleteInstance
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,33 +25,38 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-- Esscli.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Ntevt.dll
-- Stdprov.dll
-- Viewprov.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wbemsvc.dll
-- Wmipicmp.dll
-- Wmidcprv.dll
-- Wmipjobj.dll
-- Wmiprvsd.dll
-api_name:
-- IWbemServices.DeleteInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemServices::DeleteInstance
+ - wbemcli/IWbemServices::DeleteInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+ - Esscli.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Ntevt.dll
+ - Stdprov.dll
+ - Viewprov.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wbemsvc.dll
+ - Wmipicmp.dll
+ - Wmidcprv.dll
+ - Wmipjobj.dll
+ - Wmiprvsd.dll
+api_name:
+ - IWbemServices.DeleteInstance
 ---
 
 # IWbemServices::DeleteInstance
@@ -63,20 +64,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemServices::DeleteInstance</b> method deletes an instance of an existing class in the current namespace.
 
-
 ## -parameters
-
-
-
 
 ### -param strObjectPath [in]
 
 Valid <b>BSTR</b> containing the object path to the instance to be deleted.
-
 
 ### -param lFlags [in]
 
@@ -89,12 +84,10 @@ One of the following values are valid.
 This flag causes this to be a semisynchronous call. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-
 ### -param pCtx [in]
 
 Typically NULL. Otherwise, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider that is deleting the instance. The values in the context object must be specified in the documentation for the provider in question.
-
 
 ### -param ppCallResult [out]
 
@@ -102,10 +95,7 @@ If NULL, this parameter is not used. If <i>ppCallResult</i> is specified, it mus
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a> object, which can then be polled to obtain the result using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus">GetCallStatus</a> method.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
@@ -113,12 +103,7 @@ On failure, you can obtain any available information from the COM function <a hr
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to Windows Management.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>IWbemServices::DeleteInstance</b> method is called to delete an existing instance in the current namespace. Instances in other namespaces cannot be deleted. When 
@@ -145,13 +130,7 @@ If ClassX is the only abstract class in the hierarchy and the <i>strObjectPath</
 If ClassX, ClassA, and ClassB are all abstract and the <i>strObjectPath</i> parameter in 
 <b>DeleteInstance</b> again points to an instance of ClassB, either the provider for ClassC or the provider for ClassD must succeed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/describing-an-instance-object-path">Describing an Instance Object Path</a>
 
@@ -170,7 +149,4 @@ If ClassX, ClassA, and ClassB are all abstract and the <i>strObjectPath</i> para
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d50c05e7-7ddd-4a7d-96f6-51878e52373c
 ms.date: 12/05/2018
 ms.keywords: 2, 3, NetFileGetInfo, NetFileGetInfo function [Files], _win32_netfilegetinfo, fs.netfilegetinfo, lmshare/NetFileGetInfo, netmgmt.netfilegetinfo
-f1_keywords:
-- lmshare/NetFileGetInfo
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetFileGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetFileGetInfo
+ - lmshare/NetFileGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetFileGetInfo
 ---
 
 # NetFileGetInfo function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a particular opening of a server resource.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
@@ -67,11 +63,9 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> is defined.
 
-
 ### -param fileid [in]
 
 Specifies the file identifier of the open resource for which to return information. The value of this parameter must have been returned in a previous enumeration call. For more information, see the following Remarks section.
-
 
 ### -param level [in]
 
@@ -107,8 +101,6 @@ Return the file identification number and other information about the file. The 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -117,10 +109,7 @@ Pointer to the address of the buffer that receives the information. The format o
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
@@ -187,14 +176,8 @@ The supplied buffer is too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators or Server Operators local group can successfully execute the 
 <b>NetFileGetInfo</b> function.
@@ -207,13 +190,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a>
 
@@ -239,7 +216,4 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
 

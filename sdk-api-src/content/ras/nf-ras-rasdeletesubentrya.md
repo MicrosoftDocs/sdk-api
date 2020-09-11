@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956
 ms.date: 12/05/2018
 ms.keywords: RasDeleteSubEntry, RasDeleteSubEntry function [RAS], RasDeleteSubEntryA, RasDeleteSubEntryW, _ras_rasdeletesubentry, ras/RasDeleteSubEntry, ras/RasDeleteSubEntryA, ras/RasDeleteSubEntryW, rras.rasdeletesubentry
-f1_keywords:
-- ras/RasDeleteSubEntry
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasDeleteSubEntry
-- RasDeleteSubEntryA
-- RasDeleteSubEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasDeleteSubEntryA
+ - ras/RasDeleteSubEntryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasDeleteSubEntry
+ - RasDeleteSubEntryA
+ - RasDeleteSubEntryW
 ---
 
 # RasDeleteSubEntryA function
@@ -51,53 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasDeleteSubEntry</b> function deletes the specified subentry from the specified phone-book entry.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPhonebook [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file.
 
-
 ### -param pszEntry [in]
 
 Pointer to a <b>null</b>-terminated string that contains the name of an existing entry from which a subentry is to be deleted.
-
 
 ### -param dwSubentryId
 
 TBD
 
-
-
-
 ### -param dwSubEntryId [in]
 
 Specifies the one-based index of the subentry.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
@@ -108,9 +90,6 @@ If the function fails, the return value is one of the following error codes or a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdeleteentrya">RasDeleteEntry</a>
- 
-
- 
 
 ## -remarks
 

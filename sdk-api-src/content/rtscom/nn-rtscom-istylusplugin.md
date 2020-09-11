@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: bbef5cdb-4112-4733-80bb-692b7a198605
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], IStylusPlugin interface [Tablet PC],described, bbef5cdb-4112-4733-80bb-692b7a198605, rtscom/IStylusPlugin, tablet.istylusplugin
-f1_keywords:
-- rtscom/IStylusPlugin
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStylusPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStylusPlugin
+ - rtscom/IStylusPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStylusPlugin
 ---
 
 # IStylusPlugin interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Receives notifications of <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> events to enable you to perform custom processing based on those events.
-
-
-
 
 ## -inheritance
 
@@ -224,29 +220,17 @@ Notifies the implementing object when tablet display properties have changed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Both the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> interfaces derive from this interface and can be added to <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> plug-in collections.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
- 
-
- 
 

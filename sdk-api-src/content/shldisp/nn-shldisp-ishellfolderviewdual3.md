@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1aa70db8-4225-49de-8b8f-ec86b1aafa22
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], IShellFolderViewDual3 interface [Windows Shell],described, _shell_IShellFolderViewDual3, shell.IShellFolderViewDual3, shldisp/IShellFolderViewDual3
-f1_keywords:
-- shldisp/IShellFolderViewDual3
-dev_langs:
-- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shldisp.h
-api_name:
-- IShellFolderViewDual3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderViewDual3
+ - shldisp/IShellFolderViewDual3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shldisp.h
+api_name:
+ - IShellFolderViewDual3
 ---
 
 # IShellFolderViewDual3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that modify the current folder view.
-
 
 ## -inheritance
 
@@ -149,29 +148,17 @@ Sets the names of the columns to be sorted.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a> interfaces, from which it inherits.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
- 
-
- 
 

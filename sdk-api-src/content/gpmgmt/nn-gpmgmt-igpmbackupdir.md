@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 2d44cf6d-a3fa-43db-b28e-3d48f6d13625
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDir, IGPMBackupDir, IGPMBackupDir interface [GPMC], IGPMBackupDir interface [GPMC],described, _win32_igpmbackupdir, gpmc.igpmbackupdir, gpmgmt/IGPMBackupDir
-f1_keywords:
-- gpmgmt/IGPMBackupDir
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMBackupDir
-- GPMBackupDir
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMBackupDir
+ - gpmgmt/IGPMBackupDir
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMBackupDir
+ - GPMBackupDir
 ---
 
 # IGPMBackupDir interface
 
 
 ## -description
-
 
 The 
 <b>IGPMBackupDir</b> interface supports methods that allow you to query 
@@ -58,7 +58,6 @@ The
 
 To create a <b>GPMBackupDir</b> object, call the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getbackupdir">IGPM::GetBackupDir</a> method.
-
 
 ## -inheritance
 
@@ -114,13 +113,9 @@ Full path of the file system directory for Group Policy object (GPO) backups.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -135,7 +130,4 @@ Full path of the file system directory for Group Policy object (GPO) backups.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
- 
-
- 
 

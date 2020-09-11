@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 4CE57EB6-0738-4A5B-84FE-9761363F304B
 ms.date: 12/5/2018
 ms.keywords: IDMLDispatchable, IDMLDispatchable interface, IDMLDispatchable interface,described, direct3d12.idmldispatchable, directml/IDMLDispatchable
-f1_keywords:
-- directml/IDMLDispatchable
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.h
-api_name:
-- IDMLDispatchable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLDispatchable
+ - directml/IDMLDispatchable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.h
+api_name:
+ - IDMLDispatchable
 ---
 
 # IDMLDispatchable interface
+
 
 ## -description
 
@@ -53,4 +55,6 @@ Implemented by objects that can be recorded into a command list for dispatch on 
 This interface is implemented by [IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator) and [IDMLOperatorInitializer](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer).
 
 ## -see-also
+
 [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable)
+

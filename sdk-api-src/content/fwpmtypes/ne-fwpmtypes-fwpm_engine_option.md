@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: e70986af-0c38-4fe6-a59f-3c45ce98bcc0
 ms.date: 12/05/2018
 ms.keywords: FWPM_ENGINE_COLLECT_NET_EVENTS, FWPM_ENGINE_MONITOR_IPSEC_CONNECTIONS, FWPM_ENGINE_NAME_CACHE, FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS, FWPM_ENGINE_OPTION, FWPM_ENGINE_OPTION enumeration [Filtering], FWPM_ENGINE_OPTION_MAX, FWPM_ENGINE_PACKET_QUEUING, FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC, fwp.fwpm_engine_option, fwpmtypes/FWPM_ENGINE_COLLECT_NET_EVENTS, fwpmtypes/FWPM_ENGINE_MONITOR_IPSEC_CONNECTIONS, fwpmtypes/FWPM_ENGINE_NAME_CACHE, fwpmtypes/FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS, fwpmtypes/FWPM_ENGINE_OPTION, fwpmtypes/FWPM_ENGINE_OPTION_MAX, fwpmtypes/FWPM_ENGINE_PACKET_QUEUING, fwpmtypes/FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC
-f1_keywords:
-- fwpmtypes/FWPM_ENGINE_OPTION
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_ENGINE_OPTION
 targetos: Windows
 req.typenames: FWPM_ENGINE_OPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_ENGINE_OPTION_
+ - fwpmtypes/FWPM_ENGINE_OPTION_
+ - FWPM_ENGINE_OPTION
+ - fwpmtypes/FWPM_ENGINE_OPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_ENGINE_OPTION
 ---
 
 # FWPM_ENGINE_OPTION enumeration
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_ENGINE_OPTION</b> enumerated type specifies configurable options for the filter engine.
 
-
 ## -enum-fields
-
-
-
 
 ### -field FWPM_ENGINE_COLLECT_NET_EVENTS
 
 The filter engine will collect WFP network events.
 
-
 ### -field FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS
 
 The filter engine will collect WFP network events that match any supplied key words.
-
 
 ### -field FWPM_ENGINE_NAME_CACHE
 
@@ -106,18 +102,11 @@ Transactions lasting longer than this time (in milliseconds) will trigger a
 
 Maximum value for testing purposes.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/logging">Logging</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 68ea8f6a-4b6d-4d79-a986-6032b767147b
 ms.date: 12/05/2018
 ms.keywords: IMediaParams, IMediaParams interface [DirectShow], IMediaParams interface [DirectShow],described, IMediaParamsInterface, dshow.imediaparams, medparam/IMediaParams
-f1_keywords:
-- medparam/IMediaParams
-dev_langs:
-- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaParams
+ - medparam/IMediaParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaParams
 ---
 
 # IMediaParams interface
@@ -50,14 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IMediaParams</code> interface sets and retrieves envelope-following parameters on an object.
 
 
 
 To reduce overhead, parameters are referenced by index value, and all parameter values are 32 bits, defined as type <b>MP_DATA</b>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface to determine whether a given parameter is an integer, floating-point value, Boolean value, or member of an enumerated type.
-
 
 ## -inheritance
 
@@ -119,5 +117,5 @@ Specifies the time format for the object.
 
 </td>
 </tr>
-</table> 
+</table>
 

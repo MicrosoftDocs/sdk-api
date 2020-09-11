@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a2dc8675-1d75-4c15-a9f7-971274ab044c
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],SetRestriction method, CVR_SEEK_EQ, CVR_SEEK_GE, CVR_SEEK_GT, CVR_SEEK_LE, CVR_SEEK_LT, CVR_SORT_ASCEND, CVR_SORT_DESCEND, CVR_SORT_NONE, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetRestriction method, ICertView.SetRestriction, ICertView2 interface [Security],SetRestriction method, ICertView2::SetRestriction, ICertView::SetRestriction, SetRestriction, SetRestriction method [Security], SetRestriction method [Security],CCertView object, SetRestriction method [Security],ICertView interface, SetRestriction method [Security],ICertView2 interface, certview/ICertView2::SetRestriction, certview/ICertView::SetRestriction, security.icertview2_setrestriction
-f1_keywords:
-- certview/ICertView2.SetRestriction
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertView2.SetRestriction
-- ICertView.SetRestriction
-- CCertView.SetRestriction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertView::SetRestriction
+ - certview/ICertView::SetRestriction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertView2.SetRestriction
+ - ICertView.SetRestriction
+ - CCertView.SetRestriction
 ---
 
 # ICertView::SetRestriction
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetRestriction</b> method sets the sorting and qualifying restrictions on a column.
 
-
 ## -parameters
-
-
-
 
 ### -param ColumnIndex [in]
 
@@ -105,8 +101,6 @@ Restricts view to requests that have not been resolved; if a request has resulte
 </td>
 </tr>
 </table>
- 
-
 
 ### -param SeekOperator [in]
 
@@ -168,8 +162,6 @@ Greater than
 </td>
 </tr>
 </table>
- 
-
 
 ### -param SortOrder [in]
 
@@ -211,29 +203,19 @@ No sort order
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarValue [in]
 
 Specifies the data query qualifier applied to this column. This parameter, along with the <i>SeekOperator</i> parameter, determines which data is returned to the Certificate Services view.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a> object maintains an array of restrictions, allowing each column to contain any number of restrictions. After the column restrictions are established, a call to the 
@@ -295,14 +277,7 @@ error:
         SysFreeString(bstrCol);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
@@ -325,7 +300,4 @@ error:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-isindexed">IEnumCertViewColumn::IsIndexed</a>
- 
-
- 
 

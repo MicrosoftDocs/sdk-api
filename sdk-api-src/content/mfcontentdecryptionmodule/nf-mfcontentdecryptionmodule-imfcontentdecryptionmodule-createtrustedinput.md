@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::CreateTrustedInput
 f1_keywords:
+ - IMFContentDecryptionModule::CreateTrustedInput
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::CreateTrustedInput
 dev_langs:
  - c++
@@ -48,8 +49,6 @@ Creates an [IMFTrustedInput](/windows/win32/api/mfidl/nn-mfidl-imftrustedinput) 
 ### -param contentInitData
 
 A **BYTE** array containing initialization data. *contentInitData* will only be used if initData from [IMFContentDecryptionModuleSession::GenerateRequest](nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-generaterequest) is not provided or incomplete. Initialization Data should be structured in PSSH Box Format. For more details, see the Encrypted Media Extension specification's [Common SystemID and PSSH Box Format](https://www.w3.org/TR/eme-initdata-cenc/#common-system).
-
-
 
 ### -param contentInitDataSize
 

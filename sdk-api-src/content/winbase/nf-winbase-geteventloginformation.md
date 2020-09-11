@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 627e0af2-3ce6-47fe-89c6-d7c0483cb94b
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_FULL_INFO, GetEventLogInformation, GetEventLogInformation function, _win32_geteventloginformation, base.geteventloginformation, winbase/GetEventLogInformation
-f1_keywords:
-- winbase/GetEventLogInformation
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-EventLog-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- GetEventLogInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetEventLogInformation
+ - winbase/GetEventLogInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-EventLog-Legacy-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - GetEventLogInformation
 ---
 
 # GetEventLogInformation function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the specified event log.
 
-
 ## -parameters
-
-
-
 
 ### -param hEventLog [in]
 
 A handle to the event log. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function returns this handle.
-
 
 ### -param dwInfoLevel [in]
 
@@ -94,27 +89,20 @@ Indicate whether the specified log is full. The <i>lpBuffer</i> parameter will c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
 An application-allocated buffer that receives the event log information. The format of this data depends on the value of the <i>dwInfoLevel</i> parameter.
 
-
 ### -param cbBufSize [in]
 
 The size of the <i>lpBuffer</i> buffer, in bytes.
-
 
 ### -param pcbBytesNeeded [out]
 
 The function sets this parameter to the required buffer size for the requested information, regardless of whether the function succeeds. Use this value if the function fails with <b>ERROR_INSUFFICIENT_BUFFER</b> to allocate a buffer of the correct size.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -122,13 +110,7 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-eventlog_full_information">EVENTLOG_FULL_INFORMATION</a>
 
@@ -143,7 +125,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a>
- 
-
- 
 

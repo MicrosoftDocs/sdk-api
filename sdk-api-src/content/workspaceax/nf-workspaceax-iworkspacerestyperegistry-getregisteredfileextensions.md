@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: e86c93d4-d5da-4d44-b1ea-641cb1fcceb4
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredFileExtensions, GetRegisteredFileExtensions method [Remote Desktop Services], GetRegisteredFileExtensions method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetRegisteredFileExtensions method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetRegisteredFileExtensions method, IWorkspaceResTypeRegistry.GetRegisteredFileExtensions, IWorkspaceResTypeRegistry::GetRegisteredFileExtensions, Workspace object [Remote Desktop Services],GetRegisteredFileExtensions method, termserv.iworkspacerestyperegistry_getregisteredfileextensions, workspaceax/IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
-f1_keywords:
-- workspaceax/IWorkspaceResTypeRegistry.GetRegisteredFileExtensions
-dev_langs:
-- c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library: TSWorkspace.dll
 req.lib: 
 req.dll: TSWorkspace.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TSWorkspace.dll
-api_name:
-- IWorkspaceResTypeRegistry.GetRegisteredFileExtensions
-- Workspace.GetRegisteredFileExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
+ - workspaceax/IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TSWorkspace.dll
+api_name:
+ - IWorkspaceResTypeRegistry.GetRegisteredFileExtensions
+ - Workspace.GetRegisteredFileExtensions
 ---
 
 # IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the third-party file name extensions that are registered with the RemoteApp and Desktop Connections runtime.
 
-
 ## -parameters
-
-
-
 
 ### -param fMachineWide [in]
 
@@ -75,28 +71,15 @@ The resource is registered per machine.
 
 The resource is registered per user.
 
-
 ### -param psaFileExtensions [out, retval]
 
 The address of a pointer to a <b>SAFEARRAY</b> variable that receives an array of <b>BSTR</b>s that contain the registered file name extensions.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>
- 
-
- 
 

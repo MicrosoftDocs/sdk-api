@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 306a5b28-658a-4dab-a516-c638b73f4a77
 ms.date: 12/05/2018
 ms.keywords: DebugActiveProcess, DebugActiveProcess function, _win32_debugactiveprocess, base.debugactiveprocess, debugapi/DebugActiveProcess
-f1_keywords:
-- debugapi/DebugActiveProcess
-dev_langs:
-- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-debug-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Debug-L1-1-2.dll
-api_name:
-- DebugActiveProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DebugActiveProcess
+ - debugapi/DebugActiveProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-debug-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Debug-L1-1-2.dll
+api_name:
+ - DebugActiveProcess
 ---
 
 # DebugActiveProcess function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a debugger to attach to an active process and debug it.
 
-
 ## -parameters
-
-
-
 
 ### -param dwProcessId [in]
 
@@ -69,22 +65,14 @@ The identifier for the process to be debugged. The debugger is granted debugging
       if it created the process with the <b>DEBUG_ONLY_THIS_PROCESS</b> flag. For more information, 
       see the Remarks section of this topic.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To stop debugging the process, you must exit the process or call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop">DebugActiveProcessStop</a> function. Exiting the 
@@ -125,13 +113,7 @@ After all of this is done, the system resumes all threads in the process. When t
     debugging event to be sent to the debugger. All future debugging events are sent to the debugger by using the 
     normal mechanism and rules.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a>
 
@@ -158,7 +140,4 @@ After all of this is done, the system resumes all threads in the process. When t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>
- 
-
- 
 

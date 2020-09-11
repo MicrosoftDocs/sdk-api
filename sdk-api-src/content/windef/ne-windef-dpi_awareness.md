@@ -8,10 +8,6 @@ tech.root: hidpi
 ms.assetid: 0E7EB331-7D72-4853-8785-03F30263C323
 ms.date: 12/05/2018
 ms.keywords: DPI_AWARENESS, DPI_AWARENESS enumeration, DPI_AWARENESS enumeration enumeration [High DPI], DPI_AWARENESS_INVALID, DPI_AWARENESS_PER_MONITOR_AWARE, DPI_AWARENESS_SYSTEM_AWARE, DPI_AWARENESS_UNAWARE, hidpi.dpi_awareness, windef/DPI_AWARENESS enumeration, windef/DPI_AWARENESS_INVALID, windef/DPI_AWARENESS_PER_MONITOR_AWARE, windef/DPI_AWARENESS_SYSTEM_AWARE, windef/DPI_AWARENESS_UNAWARE
-f1_keywords:
-- windef/DPI_AWARENESS
-dev_langs:
-- c++
 req.header: windef.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windef.h
-api_name:
-- DPI_AWARENESS
 targetos: Windows
 req.typenames: DPI_AWARENESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DPI_AWARENESS
+ - windef/DPI_AWARENESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windef.h
+api_name:
+ - DPI_AWARENESS
 ---
 
 # DPI_AWARENESS enumeration
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the dots per inch (dpi) setting for a thread, process, or window.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DPI_AWARENESS_INVALID
 
 Invalid DPI awareness. This is an invalid DPI awareness value.
 
-
 ### -field DPI_AWARENESS_UNAWARE
 
 DPI unaware. This process does not scale for DPI changes and is always assumed to have a scale factor of 100% (96 DPI). It will be automatically scaled by the system on any other DPI setting.
-
 
 ### -field DPI_AWARENESS_SYSTEM_AWARE
 
 System DPI aware. This process does not scale for DPI changes. It will query for the DPI once and use that value for the lifetime of the process. If the DPI changes, the process will not adjust to the new DPI value. It will be automatically scaled up or down by the system when the DPI changes from the system value.
 
-
 ### -field DPI_AWARENESS_PER_MONITOR_AWARE
 
 Per monitor DPI aware. This process checks for the DPI when it is created and adjusts the scale factor whenever the DPI changes. These processes are not automatically scaled by the system.
 
-
 ## -remarks
-
-
 
 In previous versions of Windows, DPI values were only set once for an entire application. For those apps, the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> type determined the type of DPI awareness for the entire application. Currently, the DPI awareness is defined on an individual thread, window, or process level and is indicated by the <b>DPI_AWARENESS</b> type. While the focus shifted from a process level to a thread level, the different kinds of DPI awareness are the same: unaware, system aware, and per monitor aware. For detailed descriptions and some examples of the different DPI kinds, see <b>PROCESS_DPI_AWARENESS</b>.
 
@@ -106,21 +96,11 @@ This snippet demonstrates how to set a value of <b>DPI_AWARENESS_PER_MONITOR_AWA
 <dpiAwareness>PerMonitor</dpiAwareness>
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext">SetThreadDpiAwarenessContext</a>
- 
-
- 
 

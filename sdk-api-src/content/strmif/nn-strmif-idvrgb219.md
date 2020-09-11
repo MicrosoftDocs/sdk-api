@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 6d346f0b-97c1-4f3c-aa79-b3bfab18c634
 ms.date: 12/05/2018
 ms.keywords: IDVRGB219, IDVRGB219 interface [DirectShow], IDVRGB219 interface [DirectShow],described, IDVRGB219Interface, dshow.idvrgb219, strmif/IDVRGB219
-f1_keywords:
-- strmif/IDVRGB219
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDVRGB219
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVRGB219
+ - strmif/IDVRGB219
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDVRGB219
 ---
 
 # IDVRGB219 interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IDVRGB219</code> interface controls the dynamic range in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-encoder-filter">DV Video Encoder</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filters.
-
-
-
 
 ## -inheritance
 
@@ -81,5 +77,5 @@ Controls the dynamic range for DV encoding and decoding.
 
 </td>
 </tr>
-</table> 
+</table>
 

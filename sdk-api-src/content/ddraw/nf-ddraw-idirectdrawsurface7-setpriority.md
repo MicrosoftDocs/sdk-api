@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 06ab2190-db76-41e5-915e-32a3613505a5
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetPriority method, IDirectDrawSurface7.SetPriority, IDirectDrawSurface7::SetPriority, SetPriority, SetPriority method [DirectDraw], SetPriority method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPriority, directdraw.idirectdrawsurface7_setpriority
-f1_keywords:
-- ddraw/IDirectDrawSurface7.SetPriority
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.SetPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::SetPriority
+ - ddraw/IDirectDrawSurface7::SetPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.SetPriority
 ---
 
 # IDirectDrawSurface7::SetPriority
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns the texture-management priority for this texture. This method succeeds only on managed textures.
 
-
 ## -parameters
-
-
-
-
-
 
 #### - dwPriority [in]
 
 A value that specifies the new texture-management priority for the texture.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -75,14 +66,7 @@ If the method succeeds, the return value is DD_OK.
 
 If it fails, the return value is an error. The method returns DDERR_INVALIDOBJECT if the parameter is invalid or if the texture is not managed by Direct3D.
 
-
-
-
-
-
 ## -remarks
-
-
 
 <b>SetPriority</b> was introduced with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface.
 
@@ -94,16 +78,7 @@ Applications can set and retrieve priorities only for managed textures (those su
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetPriority</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

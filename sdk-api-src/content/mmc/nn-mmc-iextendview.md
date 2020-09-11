@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: a6ea8735-4cad-4c04-be97-dfad01b00388
 ms.date: 12/05/2018
 ms.keywords: IExtendView, IExtendView interface [MMC], IExtendView interface [MMC],described, _slate_iextendview, mmc.iextendview, mmc/IExtendView
-f1_keywords:
-- mmc/IExtendView
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IExtendView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExtendView
+ - mmc/IExtendView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IExtendView
 ---
 
 # IExtendView interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IExtendView</b> interface provides information about the extended view.
-
 
 ## -inheritance
 
@@ -78,13 +77,9 @@ Returns the extended view information. MMC calls this method so that a view exte
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendview">IExtendView</a>
 
@@ -95,7 +90,4 @@ Returns the extended view information. MMC calls this method so that a view exte
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-extension-mechanism">View Extension Mechanism</a>
- 
-
- 
 

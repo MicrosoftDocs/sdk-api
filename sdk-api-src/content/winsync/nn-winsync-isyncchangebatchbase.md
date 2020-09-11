@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 14ca01a1-04eb-4282-adf0-e775d6ff0801
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], ISyncChangeBatchBase interface [Windows Sync],described, winsync.isyncchangebatchbase, winsync/ISyncChangeBatchBase
-f1_keywords:
-- winsync/ISyncChangeBatchBase
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase
+ - winsync/ISyncChangeBatchBase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase
 ---
 
 # ISyncChangeBatchBase interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents metadata for a set of changes.
-
-
 
 ## -inheritance
 
@@ -209,22 +207,13 @@ Sets the work estimate for the session.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>ISyncChangeBatchBase</b> is the base interface for change batches. Typically, it is overridden by a derived interface, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch</a> for a knowledge synchronization, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch</a> for a full enumeration synchronization.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsyncchanges">IEnumSyncChanges Interface</a>
 
@@ -251,7 +240,4 @@ Sets the work estimate for the session.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

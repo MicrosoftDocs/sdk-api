@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ca85cf27-b16c-4356-abb8-eb6474db637f
 ms.date: 12/05/2018
 ms.keywords: GetAuthoritativeRestore, GetAuthoritativeRestore method, GetAuthoritativeRestore method,IVssComponentEx interface, IVssComponentEx interface,GetAuthoritativeRestore method, IVssComponentEx.GetAuthoritativeRestore, IVssComponentEx::GetAuthoritativeRestore, base.ivsscomponentex_getauthoritativerestore, vswriter/IVssComponentEx::GetAuthoritativeRestore
-f1_keywords:
-- vswriter/IVssComponentEx.GetAuthoritativeRestore
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponentEx.GetAuthoritativeRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponentEx::GetAuthoritativeRestore
+ - vswriter/IVssComponentEx::GetAuthoritativeRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponentEx.GetAuthoritativeRestore
 ---
 
 # IVssComponentEx::GetAuthoritativeRestore
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a requester has marked the restore of a component as authoritative for a replicated data store.
 
-
 ## -parameters
-
-
-
 
 ### -param pbAuth [out]
 
 The address of a caller-allocated variable that receives <b>true</b> if the restore is authoritative, or <b>false</b> otherwise.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -109,14 +102,8 @@ The caller is out of memory or other system resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A writer indicates that it supports authoritative restore by setting the <b>VSS_BS_AUTHORITATIVE_RESTORE</b> flag in its backup schema mask.
 
@@ -124,13 +111,7 @@ For more
       information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/setting-vss-restore-options">Setting VSS Restore 
       Options</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore">IVssBackupComponentsEx2::SetAuthoritativeRestore</a>
 
@@ -141,7 +122,4 @@ For more
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
- 
-
- 
 

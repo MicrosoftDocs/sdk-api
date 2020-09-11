@@ -5,10 +5,6 @@ description: A native interoperation interface that allows you to read back the 
 ms.date: 01/07/2020
 tech.root: winrt
 ms.topic: language-reference
-f1_keywords:
- - windows/interop::ICompositionDrawingSurfaceInterop2
-dev_langs:
-- c++
 req.construct-type: iface
 req.header: windows.ui.composition.interop.h
 req.include-header: 
@@ -27,17 +23,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
- - apiref
-api_type:
-- COM
-api_location:
-- windows.ui.composition.interop.h
-api_name:
- - interop::ICompositionDrawingSurfaceInterop2
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ICompositionDrawingSurfaceInterop2
+ - windows.ui.composition.interop/ICompositionDrawingSurfaceInterop2
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - windows.ui.composition.interop.h
+api_name:
+ - interop::ICompositionDrawingSurfaceInterop2
 ---
 
 ## -description
@@ -56,3 +57,4 @@ A native interoperation interface that allows you to read back the contents of a
 [ICompositionDrawingSurfaceInterop interface](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop)
 
 [Composition native interoperation overview](/windows/uwp/composition/composition-native-interop)
+

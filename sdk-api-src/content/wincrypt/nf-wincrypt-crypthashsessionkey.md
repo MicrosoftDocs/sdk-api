@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
 ms.date: 12/05/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
-f1_keywords:
-- wincrypt/CryptHashSessionKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptHashSessionKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptHashSessionKey
+ - wincrypt/CryptHashSessionKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptHashSessionKey
 ---
 
 # CryptHashSessionKey function
@@ -51,28 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashSessionKey</b> function computes the cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> object. This function can be called multiple times with the same hash handle to compute the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of multiple keys. Calls to <b>CryptHashSessionKey</b> can be interspersed with calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>.
 
 Before calling this function, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> must be called to create the handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>.
 
-
 ### -param hKey [in]
 
 A handle to the key object to be hashed.
-
 
 ### -param dwFlags [in]
 
@@ -100,12 +94,8 @@ When this flag is set, the bytes of the key are hashed in <a href="https://docs.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -219,15 +209,8 @@ The function failed in some unexpected way.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
@@ -242,7 +225,4 @@ The function failed in some unexpected way.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

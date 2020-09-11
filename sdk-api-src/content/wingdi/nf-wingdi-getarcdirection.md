@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 6bf426cd-e028-4568-9e9a-aca58dd69732
 ms.date: 12/05/2018
 ms.keywords: GetArcDirection, GetArcDirection function [Windows GDI], _win32_GetArcDirection, gdi.getarcdirection, wingdi/GetArcDirection
-f1_keywords:
-- wingdi/GetArcDirection
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetArcDirection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetArcDirection
+ - wingdi/GetArcDirection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetArcDirection
 ---
 
 # GetArcDirection function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetArcDirection</b> function retrieves the current arc direction for the specified device context. Arc and rectangle functions use the arc direction.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to the device context.
 
-
 ## -returns
-
-
 
 The return value specifies the current arc direction; it can be any one of the following values:
 
@@ -85,15 +78,8 @@ The return value specifies the current arc direction; it can be any one of the f
 <td>Arcs and rectangles are drawn clockwise.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
@@ -104,7 +90,4 @@ The return value specifies the current arc direction; it can be any one of the f
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>
- 
-
- 
 

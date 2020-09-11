@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 694dbf3d-3355-44d9-8af0-ea2baae832fd
 ms.date: 12/05/2018
 ms.keywords: OfflineClusterResource, OfflineClusterResource function [Failover Cluster], PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, PCLUSAPI_OFFLINE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_offlineclusterresource, clusapi/OfflineClusterResource, clusapi/PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, mscs.offlineclusterresource
-f1_keywords:
-- clusapi/OfflineClusterResource
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- OfflineClusterResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OfflineClusterResource
+ - clusapi/OfflineClusterResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - OfflineClusterResource
 ---
 
 # OfflineClusterResource function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Takes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> offline. The <b>PCLUSAPI_OFFLINE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle to the resource to be taken offline.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -105,26 +98,14 @@ This system error code is not returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When calling <b>OfflineClusterResource</b> to offline a failed resource, it returns <b>ERROR_SUCCESS</b> instead of <b>ERROR_RESOURCE_FAILED</b>, and the resource will transition to the offline state.
 
 Do not call  <b>OfflineClusterResource</b> from a resource DLL. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 
@@ -139,7 +120,4 @@ Do not call  <b>OfflineClusterResource</b> from a resource DLL. For more informa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
- 
-
- 
 

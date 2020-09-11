@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5dd2c197-8846-481f-b51e-ea0a93fd5e9b
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],LoadLibraryFromItem method, IShellLibrary.LoadLibraryFromItem, IShellLibrary::LoadLibraryFromItem, LoadLibraryFromItem, LoadLibraryFromItem method [Windows Shell], LoadLibraryFromItem method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_LoadLibraryFromItem, shell.IShellLibrary_LoadLibraryFromItem, shobjidl_core/IShellLibrary::LoadLibraryFromItem
-f1_keywords:
-- shobjidl_core/IShellLibrary.LoadLibraryFromItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellLibrary.LoadLibraryFromItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLibrary::LoadLibraryFromItem
+ - shobjidl_core/IShellLibrary::LoadLibraryFromItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellLibrary.LoadLibraryFromItem
 ---
 
 # IShellLibrary::LoadLibraryFromItem
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the library from a specified library definition file.
 
-
 ## -parameters
-
-
-
 
 ### -param psiLibrary [in]
 
@@ -64,28 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object for the library definition file to load. An error is returned if this object is not a library.
 
-
 ### -param grfMode [in]
 
 Type: <b>DWORD</b>
 
 One or more <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> storage medium flags that specify access and sharing modes for the library object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If this method is called on an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a> object that is already loaded, the contents of that object are overwritten in memory with the new information.
 
@@ -163,14 +150,7 @@ __inline HRESULT SHLoadLibraryFromParsingName(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
@@ -193,7 +173,4 @@ __inline HRESULT SHLoadLibraryFromParsingName(
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
- 
-
- 
 

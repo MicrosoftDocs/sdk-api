@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcblength.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbLength, StringCbLength function [Menus and Other Resources], StringCbLengthA, StringCbLengthW, UnalignedStringCbLength, _shell_StringCbLength, _shell_stringcblength_cpp, menurc.stringcblength, strsafe/StringCbLength, strsafe/StringCbLengthA, strsafe/StringCbLengthW, winui._shell_stringcblength
-f1_keywords:
-- strsafe/StringCbLength
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCbLength
-- StringCbLengthA
-- StringCbLengthW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCbLengthW
+ - strsafe/StringCbLengthW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCbLength
+ - StringCbLengthA
+ - StringCbLengthW
 ---
 
 # StringCbLengthW function
 
 
 ## -description
-
 
 Determines whether a  string exceeds the specified length, in bytes.
 
@@ -61,15 +61,11 @@ Determines whether a  string exceeds the specified length, in bytes.
 
 ## -parameters
 
-
-
-
 ### -param psz [in]
 
 Type: <b>LPCTSTR</b>
 
 The string whose length is to be checked.
-
 
 ### -param cbMax [in]
 
@@ -77,17 +73,13 @@ Type: <b>size_t</b>
 
 The maximum number of bytes allowed in <i>psz</i>, including those used for the terminating null character. This value cannot exceed <code>STRSAFE_MAX_CCH * sizeof(TCHAR)</code>.
 
-
 ### -param pcbLength [out]
 
 Type: <b>size_t*</b>
 
 The number of bytes in <i>psz</i>, excluding those used for the terminating null character. This value is valid only if <i>pcb</i> is not <b>NULL</b> and the function succeeds.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -125,12 +117,7 @@ The value in <i>psz</i> is <b>NULL</b>, <i>cbMax</i> is larger than <code>STRSAF
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 Compared to  the functions it replaces, <b>StringCbLength</b> is an additional tool for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns.
 
@@ -172,11 +159,5 @@ Compared to  the functions it replaces, <b>StringCbLength</b> is an additional t
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>
- 
-
- 
 

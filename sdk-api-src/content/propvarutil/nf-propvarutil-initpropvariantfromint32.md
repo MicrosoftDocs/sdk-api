@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 923be4ac-5545-431b-ab69-3b7f366a1ec0
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromInt32, InitPropVariantFromInt32 function [Windows Properties], properties.InitPropVariantFromInt32, propvarutil/InitPropVariantFromInt32, shell.InitPropVariantFromInt32, shell_InitPropVariantFromInt32
-f1_keywords:
-- propvarutil/InitPropVariantFromInt32
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Propvarutil.h
-api_name:
-- InitPropVariantFromInt32
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitPropVariantFromInt32
+ - propvarutil/InitPropVariantFromInt32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Propvarutil.h
+api_name:
+ - InitPropVariantFromInt32
 ---
 
 # InitPropVariantFromInt32 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure based on a 32-bit integer value.
 
-
 ## -parameters
-
-
-
 
 ### -param lVal [in]
 
@@ -64,28 +60,19 @@ Type: <b>LONG</b>
 
 The source <b>LONG</b> value.
 
-
 ### -param ppropvar [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Creates a VT_I4 propvariant.
 
@@ -110,14 +97,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromint32">InitVariantFromInt32</a>
 
@@ -128,7 +108,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint32withdefault">PropVariantToInt32WithDefault</a>
- 
-
- 
 

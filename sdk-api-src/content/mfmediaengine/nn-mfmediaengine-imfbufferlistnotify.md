@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2a2705b4-fac3-4059-b2c9-c03efaa9c15e
 ms.date: 12/05/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify
-f1_keywords:
-- mfmediaengine/IMFBufferListNotify
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFBufferListNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFBufferListNotify
+ - mfmediaengine/IMFBufferListNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFBufferListNotify
 ---
 
 # IMFBufferListNotify interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebufferlist">IMFSourceBufferList</a> object to notify its clients of important state changes.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Indicates that a <a href="https://docs.microsoft.com/windows/desktop/api/mfmedia
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

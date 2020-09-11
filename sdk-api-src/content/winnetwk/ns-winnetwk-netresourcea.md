@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c7e22694-2dfd-4a9e-bd40-277611476f97
 ms.date: 12/05/2018
 ms.keywords: '*LPNETRESOURCEA, LPNETRESOURCE, LPNETRESOURCE structure pointer [Security], NETRESOURCE, NETRESOURCE structure [Security], NETRESOURCEA, NETRESOURCEW, RESOURCEDISPLAYTYPE_DIRECTORY, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_NETWORK, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, _mnp_netresource, security.netresource, winnetwk/LPNETRESOURCE, winnetwk/NETRESOURCE, winnetwk/NETRESOURCEA, winnetwk/NETRESOURCEW'
-f1_keywords:
-- winnetwk/NETRESOURCE
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnetwk.h
-api_name:
-- NETRESOURCE
-- NETRESOURCEA
-- NETRESOURCEW
 targetos: Windows
 req.typenames: NETRESOURCEA, *LPNETRESOURCEA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NETRESOURCEA
+ - winnetwk/_NETRESOURCEA
+ - LPNETRESOURCEA
+ - winnetwk/LPNETRESOURCEA
+ - NETRESOURCEA
+ - winnetwk/NETRESOURCEA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnetwk.h
+api_name:
+ - NETRESOURCE
+ - NETRESOURCEA
+ - NETRESOURCEW
 ---
 
 # NETRESOURCEA structure
@@ -51,16 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The following structure contains information about a network resource. It is used by several of the network provider functions, including 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> 
 and <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwScope
 
@@ -102,8 +102,6 @@ The network resources associated with the user's current and default network con
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwType
 
@@ -145,8 +143,6 @@ The resource matches more than one type, for example, a container of both print 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwDisplayType
 
@@ -218,8 +214,6 @@ The resource type is unspecified. This value is used by network providers that d
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwUsage
 
@@ -262,8 +256,6 @@ The container may, however, be empty at the time  the enumeration is made. In ot
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpLocalName
 
@@ -274,17 +266,14 @@ If <b>dwScope</b> is RESOURCE_CONNECTED, the <b>lpLocalName</b> field contains t
 
 If <b>dwScope</b> is not set to RESOURCE_CONNECTED, this field is undefined.
 
-
 ### -field lpRemoteName
 
 If the enumerated item is a network resource, this field contains a remote network name. This name may be then passed to 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> to make a network connection if <b>dwUsage</b> is set to RESOURCEUSAGE_CONNECTABLE. If the enumerated item is a current connection, this field will refer to the remote network name that <b>lpLocalName</b> is connected to.
 
-
 ### -field lpComment
 
 May be any provider-supplied comment associated with the enumerated item.
-
 
 ### -field lpProvider
 

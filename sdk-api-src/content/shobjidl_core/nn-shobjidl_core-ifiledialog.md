@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9341bb68-2410-4e03-8acd-fef29287b61c
 ms.date: 12/05/2018
 ms.keywords: IFileDialog, IFileDialog interface [Windows Shell], IFileDialog interface [Windows Shell],described, shell.IFileDialog, shell_IFileDialog, shobjidl_core/IFileDialog
-f1_keywords:
-- shobjidl_core/IFileDialog
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileDialog
+ - shobjidl_core/IFileDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileDialog
 ---
 
 # IFileDialog interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that initialize, show, and get results from the common file dialog.
-
 
 ## -inheritance
 
@@ -275,23 +274,14 @@ Removes an event handler that was attached through the <a href="https://docs.mic
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 <b>IFileDialog</b> is implemented by the common file dialog browser.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog">IFileOpenDialog</a>
 
@@ -302,7 +292,4 @@ Removes an event handler that was attached through the <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow">IModalWindow</a>
- 
-
- 
 

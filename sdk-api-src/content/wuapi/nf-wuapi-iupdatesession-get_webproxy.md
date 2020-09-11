@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 33611ac4-9471-45c5-91cc-0a07251c74a5
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession interface [Windows Update Agent],WebProxy property, IUpdateSession.WebProxy, IUpdateSession.get_WebProxy, IUpdateSession::WebProxy, IUpdateSession::get_WebProxy, IUpdateSession::put_WebProxy, WebProxy property [Windows Update Agent], WebProxy property [Windows Update Agent],IUpdateSession interface, get_WebProxy, wua.iupdatesession_webproxy, wuapi/IUpdateSession::WebProxy, wuapi/IUpdateSession::get_WebProxy, wuapi/IUpdateSession::put_WebProxy
-f1_keywords:
-- wuapi/IUpdateSession.WebProxy
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSession.WebProxy
-- IUpdateSession.get_WebProxy
-- IUpdateSession.put_WebProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSession::get_WebProxy
+ - wuapi/IUpdateSession::get_WebProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSession.WebProxy
+ - IUpdateSession.get_WebProxy
+ - IUpdateSession.put_WebProxy
 ---
 
 # IUpdateSession::get_WebProxy
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets and sets the proxy settings that are used to access the server.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
- 
-
- 
 

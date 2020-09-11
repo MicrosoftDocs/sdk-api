@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D
 ms.date: 12/05/2018
 ms.keywords: StartXpsPrintJob1, StartXpsPrintJob1 function [Windows GDI], gdi.startxpsprintjob1, xpsprint/StartXpsPrintJob1
-f1_keywords:
-- xpsprint/StartXpsPrintJob1
-dev_langs:
-- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: XpsPrint.lib
 req.dll: XpsPrint.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- XpsPrint.dll
-api_name:
-- StartXpsPrintJob1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StartXpsPrintJob1
+ - xpsprint/StartXpsPrintJob1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - XpsPrint.dll
+api_name:
+ - StartXpsPrintJob1
 ---
 
 # StartXpsPrintJob1 function
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[StartXpsPrintJob1 is not supported and may be altered or unavailable in the future. ]
 
 Creates a print job for sending XPS document content to a printer.This function creates a more efficient print path than <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param printerName [in]
 
 The name of the printer with which this job will be associated.
 
-
 ### -param jobName [in, optional]
 
 A user-specified  job name to be associated with this job.  You can set this parameter to <b>NULL</b> if the job does not require a  separate, user-specified name.
 
-
 ### -param outputFileName [in, optional]
 
 The  file name of the file or port into which the output of this job is to be redirected.  Setting this value will cause the output of the print job to be directed to the specified file or port. To send the print job to the printer that is specified by <i>printerName</i>, you must set this parameter to <b>NULL</b>.
-
 
 ### -param progressEvent [in, optional]
 
@@ -96,18 +89,15 @@ The XPS Print API does not reset this event—that is the caller's responsibilit
 
 Set this parameter to <b>NULL</b> if you do not want to be notified about  progress.
 
-
 ### -param completionEvent [in, optional]
 
 An event handle that is signaled when the  print job finishes.  This event is guaranteed to be signaled exactly once per <b>StartXpsPrintJob1</b> call.  The XPS Print API does not reset this event—that is the caller's responsibility.
 
 Set this parameter to <b>NULL</b> if do not want to be notified about completion.
 
-
 ### -param xpsPrintJob [out, optional]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a> interface that represents the print job that  <b>StartXpsPrintJob1</b> created.  To get the status of the print job or to cancel it, use the <b>IXpsPrintJob</b> interface. Set this parameter to <b>NULL</b> if you do not need it.
-
 
 ### -param printContentReceiver [out]
 
@@ -115,10 +105,7 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 To send document content to the print job that this function created, use the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface that you  create by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ff970305(v=vs.85)">CreateXpsOMPackageWriter</a> method of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ff970304(v=vs.85)">IXpsOMPackageTarget</a> interface returned in <i>xpsOMPackageTarget</i>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -162,14 +149,8 @@ Not enough memory to create a new <a href="https://docs.microsoft.com/windows/de
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>StartXpsPrintJob1</b> is an asynchronous function, and therefore it can return before the print spooler creates or starts a print job.
 
@@ -189,12 +170,7 @@ If a call to <b>StartXpsPrintJob1</b> fails,  the print spooler updates the job 
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
@@ -209,7 +185,4 @@ If a call to <b>StartXpsPrintJob1</b> fails,  the print spooler updates the job 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

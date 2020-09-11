@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ff8fe103-0303-4f40-af25-efa50155c36f
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],EnableT61DNEncoding property, EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security],CEnroll object, EnableT61DNEncoding property [Security],ICEnroll2 interface, EnableT61DNEncoding property [Security],ICEnroll3 interface, EnableT61DNEncoding property [Security],ICEnroll4 interface, ICEnroll2 interface [Security],EnableT61DNEncoding property, ICEnroll2.EnableT61DNEncoding, ICEnroll2.put_EnableT61DNEncoding, ICEnroll2::get_EnableT61DNEncoding, ICEnroll2::put_EnableT61DNEncoding, ICEnroll3 interface [Security],EnableT61DNEncoding property, ICEnroll3.EnableT61DNEncoding, ICEnroll3::get_EnableT61DNEncoding, ICEnroll3::put_EnableT61DNEncoding, ICEnroll4 interface [Security],EnableT61DNEncoding property, ICEnroll4.EnableT61DNEncoding, ICEnroll4::EnableT61DNEncoding, ICEnroll4::get_EnableT61DNEncoding, ICEnroll4::put_EnableT61DNEncoding, put_EnableT61DNEncoding, security.icenroll4_enablet61dnencoding, xenroll/ICEnroll2::EnableT61DNEncoding, xenroll/ICEnroll2::get_EnableT61DNEncoding, xenroll/ICEnroll2::put_EnableT61DNEncoding, xenroll/ICEnroll3::EnableT61DNEncoding, xenroll/ICEnroll3::get_EnableT61DNEncoding, xenroll/ICEnroll3::put_EnableT61DNEncoding, xenroll/ICEnroll4::EnableT61DNEncoding, xenroll/ICEnroll4::get_EnableT61DNEncoding, xenroll/ICEnroll4::put_EnableT61DNEncoding
-f1_keywords:
-- xenroll/ICEnroll4.EnableT61DNEncoding
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.EnableT61DNEncoding
-- ICEnroll4.get_EnableT61DNEncoding
-- ICEnroll4.put_EnableT61DNEncoding
-- ICEnroll3.EnableT61DNEncoding
-- ICEnroll3.get_EnableT61DNEncoding
-- ICEnroll3.put_EnableT61DNEncoding
-- ICEnroll2.EnableT61DNEncoding
-- ICEnroll2.get_EnableT61DNEncoding
-- ICEnroll2.put_EnableT61DNEncoding
-- CEnroll.EnableT61DNEncoding
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll2::put_EnableT61DNEncoding
+ - xenroll/ICEnroll2::put_EnableT61DNEncoding
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.EnableT61DNEncoding
+ - ICEnroll4.get_EnableT61DNEncoding
+ - ICEnroll4.put_EnableT61DNEncoding
+ - ICEnroll3.EnableT61DNEncoding
+ - ICEnroll3.get_EnableT61DNEncoding
+ - ICEnroll3.put_EnableT61DNEncoding
+ - ICEnroll2.EnableT61DNEncoding
+ - ICEnroll2.get_EnableT61DNEncoding
+ - ICEnroll2.put_EnableT61DNEncoding
+ - CEnroll.EnableT61DNEncoding
 ---
 
 # ICEnroll2::put_EnableT61DNEncoding
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -67,14 +67,9 @@ The <b>EnableT61DNEncoding</b> property sets or retrieves a Boolean value that d
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>EnableT61DNEncoding</b> property affects the behavior of the following methods:
 
@@ -116,7 +111,4 @@ if ( FAILED ( hr ) )
 else
     printf( "EnableT61DNEncoding was set to TRUE\n" );
 ```
-
-
-
 

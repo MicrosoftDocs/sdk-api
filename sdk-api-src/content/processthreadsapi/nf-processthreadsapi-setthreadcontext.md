@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: be134953-b569-48ea-80ac-ab14dee24500
 ms.date: 12/05/2018
 ms.keywords: SetThreadContext, SetThreadContext function, _win32_setthreadcontext, base.setthreadcontext, processthreadsapi/SetThreadContext
-f1_keywords:
-- processthreadsapi/SetThreadContext
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- SetThreadContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadContext
+ - processthreadsapi/SetThreadContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - SetThreadContext
 ---
 
 # SetThreadContext function
@@ -55,25 +56,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the context for the specified thread.
 
 A 64-bit application can set the context of a WOW64 thread using the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hThread [in]
 
 A handle to the thread whose context is to be set. The handle must have the 
       <b>THREAD_SET_CONTEXT</b> access right to the thread. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
-     
-
 
 ### -param lpContext [in]
 
@@ -85,22 +79,14 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
       mode, global enabling bits in the debugging register, and other states that must be controlled by the operating 
       system.
 
-
 ## -returns
-
-
 
 If the context was set, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The function sets the thread context based on the value of the <b>ContextFlags</b> member 
     of the context structure. The thread identified by the <i>hThread</i> parameter is typically 
@@ -110,13 +96,7 @@ Do not try to set the context for a running thread; the results are unpredictabl
     <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> function to suspend the thread before 
     calling <b>SetThreadContext</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
@@ -139,7 +119,4 @@ Do not try to set the context for a running thread; the results are unpredictabl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a>
- 
-
- 
 

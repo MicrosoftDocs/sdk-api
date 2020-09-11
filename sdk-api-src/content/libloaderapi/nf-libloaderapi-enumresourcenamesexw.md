@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenamesex.htm
 ms.date: 12/05/2018
 ms.keywords: EnumResourceNamesEx, EnumResourceNamesEx function [Menus and Other Resources], EnumResourceNamesExA, EnumResourceNamesExW, RESOURCE_ENUM_LN, RESOURCE_ENUM_MUI, RESOURCE_ENUM_VALIDATE, _win32_EnumResourceNamesEx, _win32_enumresourcenamesex_cpp, libloaderapi/EnumResourceNamesEx, libloaderapi/EnumResourceNamesExA, libloaderapi/EnumResourceNamesExW, menurc.enumresourcenamesex, winui._win32_enumresourcenamesex
-f1_keywords:
-- libloaderapi/EnumResourceNamesEx
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
-- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-api_name:
-- EnumResourceNamesEx
-- EnumResourceNamesExA
-- EnumResourceNamesExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumResourceNamesExW
+ - libloaderapi/EnumResourceNamesExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+api_name:
+ - EnumResourceNamesEx
+ - EnumResourceNamesExA
+ - EnumResourceNamesExW
 ---
 
 # EnumResourceNamesExW function
@@ -59,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates resources of a specified type that are associated with a specified binary module. The search can include both an LN file and its associated .mui files, or it can be limited in several ways.
 
-
 ## -parameters
-
-
-
 
 ### -param hModule [in, optional]
 
@@ -76,11 +72,9 @@ The handle to a module to search. Typically this is an LN file, and if flag <b>R
 
 If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the module used to create the current process.
 
-
 ### -param lpType
 
 TBD
-
 
 ### -param lpEnumFunc [in]
 
@@ -88,13 +82,11 @@ Type: <b>ENUMRESNAMEPROC</b>
 
 A pointer to the callback function to be called for each enumerated resource name. For more information, see <a href="https://msdn.microsoft.com/286118cd-8832-4e8f-92c7-aa1ab34e66c5">EnumResNameProc</a>.
 
-
 ### -param lParam [in]
 
 Type: <b>LONG_PTR</b>
 
 An application-defined value passed to the callback function. This parameter can be used in error checking.
-
 
 ### -param dwFlags [in]
 
@@ -141,8 +133,6 @@ Performs extra validation on the resource section and its reference in the PE he
 </td>
 </tr>
 </table>
- 
-
 
 ### -param LangId [in]
 
@@ -159,21 +149,13 @@ The type of the resource for which the name is being enumerated. Alternately, ra
 
 the Remarks section below.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 The function <b>TRUE</b> if successful, or <b>FALSE</b> if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>(<i>lpszType</i>) is <b>TRUE</b>, then <i>lpszType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
 
@@ -210,9 +192,6 @@ For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -238,7 +217,4 @@ For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
- 
-
- 
 

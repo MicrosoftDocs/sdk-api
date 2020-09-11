@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 015f2be2-8e10-4abd-afd0-f76834856733
 ms.date: 12/05/2018
 ms.keywords: SnmpExtensionInit, SnmpExtensionInit callback, SnmpExtensionInit callback function [SNMP], _snmp_snmpextensioninit, snmp.snmpextensioninit, snmp/SnmpExtensionInit
-f1_keywords:
-- snmp/SnmpExtensionInit
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Snmp.h
-api_name:
-- SnmpExtensionInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpExtensionInit
+ - snmp/SnmpExtensionInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Snmp.h
+api_name:
+ - SnmpExtensionInit
 ---
 
 # SnmpExtensionInit function
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The Microsoft SNMP service calls the 
 <b>SnmpExtensionInit</b> function to initialize the SNMP extension agent DLL. This function is an element of the SNMP Extension Agent API.
 
-
 ## -parameters
-
-
-
 
 ### -param dwUptimeReference [in]
 
@@ -76,7 +72,6 @@ Specifies a time-zero reference for the extension agent.
 
 Pointer to an event handle the extension agent passes back to the SNMP service. This handle is used to notify the service that the extension agent has one or more traps to send. For additional information about allocating and deallocating the event handle, see the following Remarks section.
 
-
 ### -param pFirstSupportedRegion [out]
 
 Pointer to an 
@@ -88,21 +83,13 @@ Pointer to an
 The extension agent can register additional MIB subtrees by implementing the 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninitex">SnmpExtensionInitEx</a> entry point function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Extension agents should ignore the <i>dwUptimeReference</i> parameter. Instead, they should call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpsvcgetuptime">SnmpSvcGetUptime</a> function to retrieve the number of centiseconds that the Microsoft SNMP service has been running. Because the <i>dwUptimeReference</i> parameter stores the elapsed time as a <b>DWORD</b> value in milliseconds, the time can wrap to zero and reflect an inaccurate time interval.
@@ -119,13 +106,7 @@ The SNMP service makes a copy of the
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure the extension agent returns in the <i>pFirstSupportedRegion</i> parameter. The extension agent must allocate and deallocate the resources associated with the original structure. It can do this when the SNMP service calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionclose">SnmpExtensionClose</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a>
 
@@ -156,7 +137,4 @@ The SNMP service makes a copy of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpsvcgetuptime">SnmpSvcGetUptime</a>
- 
-
- 
 

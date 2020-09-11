@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 0750838d-56c8-449c-b1fd-99c9426beb52
 ms.date: 12/05/2018
 ms.keywords: MsiReinstallFeature, MsiReinstallFeature function, MsiReinstallFeatureA, MsiReinstallFeatureW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallfeature, msi/MsiReinstallFeature, msi/MsiReinstallFeatureA, msi/MsiReinstallFeatureW, setup.msireinstallfeature
-f1_keywords:
-- msi/MsiReinstallFeature
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiReinstallFeature
-- MsiReinstallFeatureA
-- MsiReinstallFeatureW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiReinstallFeatureW
+ - msi/MsiReinstallFeatureW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiReinstallFeature
+ - MsiReinstallFeatureA
+ - MsiReinstallFeatureW
 ---
 
 # MsiReinstallFeatureW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiReinstallFeature</b> function reinstalls features.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that contains the feature to be reinstalled.
 
-
 ### -param szFeature [in]
 
 Specifies the feature to be reinstalled. The parent feature or child feature of the specified feature is not reinstalled. To reinstall the parent or child feature, you must call the <b>MsiReinstallFeature</b>   function for each separately or use the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallproducta">MsiReinstallProduct</a> function.
-
 
 ### -param dwReinstallMode [in]
 
@@ -195,12 +189,8 @@ Use to run from the source package and re-cache the local package. Do not use  f
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -300,16 +290,8 @@ The product code does not identify a known product.
 
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
-						
-					
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
@@ -320,9 +302,6 @@ For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/reinstallmode">REINSTALLMODE Property</a>
- 
-
- 
 
 ## -remarks
 

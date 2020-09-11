@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 3662ac53-25d5-4d8c-8f98-02f313e03dce
 ms.date: 12/05/2018
 ms.keywords: LsnCreate, LsnCreate function [Files], clfsw32/LsnCreate, fs.lsncreate
-f1_keywords:
-- clfsw32/LsnCreate
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- LsnCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsnCreate
+ - clfsw32/LsnCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - LsnCreate
 ---
 
 # LsnCreate function
@@ -49,43 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a log sequence number (LSN), given a container ID, a block offset, and a record sequence number.
 
-
 ## -parameters
-
-
-
 
 ### -param cidContainer [in]
 
 The container ID. This value must be an integer between 0x0 and 0xFFFFFFFF.
 
-
 ### -param offBlock [in]
 
 The block offset. This value must be a multiple of 512.
-
 
 ### -param cRecord [in]
 
 The record sequence number. This value must be  an integer between  0 - 511.
 
-
 ## -returns
-
-
 
 Returns a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that represents the container ID, block offset, and record sequence number that is supplied by the caller.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
@@ -100,7 +85,4 @@ Returns a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsnrecordsequence">LsnRecordSequence</a>
- 
-
- 
 

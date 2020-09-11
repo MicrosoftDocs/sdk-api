@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: e1de871f-a2c9-4787-a3e8-8c3428e9249e
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], IFsrmRule interface [File Server Resource Manager],described, fs.ifsrmrule, fsrm.ifsrmrule, fsrm/IFsrmRule
-f1_keywords:
-- fsrmpipeline/IFsrmRule
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmRule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmRule
+ - fsrmpipeline/IFsrmRule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmRule
 ---
 
 # IFsrmRule interface
 
 
 ## -description
-
 
 Defines a rule.
 
@@ -70,27 +70,15 @@ The following methods return this interface:
     <b>FsrmRuleType_Classification</b>, query this interface for the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationrule">IFsrmClassificationRule</a> interface.
 
-
 ## -remarks
-
-
 
 The name and rule type properties define a unique rule.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationrule">IFsrmClassificationRule</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
- 
-
- 
 

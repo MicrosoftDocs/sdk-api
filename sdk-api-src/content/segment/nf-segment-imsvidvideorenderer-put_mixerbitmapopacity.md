@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 5dba67ab-9522-48a3-be09-8ed8c27bffee
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmapOpacity method, IMSVidVideoRenderer.put_MixerBitmapOpacity, IMSVidVideoRenderer::put_MixerBitmapOpacity, IMSVidVideoRendererput_MixerBitmapOpacity, mstv.imsvidvideorenderer_put_mixerbitmapopacity, put_MixerBitmapOpacity, put_MixerBitmapOpacity method [Microsoft TV Technologies], put_MixerBitmapOpacity method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmapOpacity
-f1_keywords:
-- segment/IMSVidVideoRenderer.put_MixerBitmapOpacity
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidVideoRenderer.put_MixerBitmapOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidVideoRenderer::put_MixerBitmapOpacity
+ - segment/IMSVidVideoRenderer::put_MixerBitmapOpacity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidVideoRenderer.put_MixerBitmapOpacity
 ---
 
 # IMSVidVideoRenderer::put_MixerBitmapOpacity
@@ -49,42 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_MixerBitmapOpacity</b> method specifies the opacity of the static bitmap image.
 
-
 ## -parameters
-
-
-
 
 ### -param opacity [in]
 
 Specifies the opacity as an integer from 0 (transparent) to 100 (opaque).
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 If the static bitmap image is set, the VMR alpha blends the bitmap onto the video image, using the specified opacity.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
@@ -99,7 +81,4 @@ If the static bitmap image is set, the VMR alpha blends the bitmap onto the vide
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap">IMSVidVideoRenderer::put_MixerBitmap</a>
- 
-
- 
 

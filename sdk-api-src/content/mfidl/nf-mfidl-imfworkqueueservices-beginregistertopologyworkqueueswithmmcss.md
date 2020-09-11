@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b
 ms.date: 12/05/2018
 ms.keywords: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b, BeginRegisterTopologyWorkQueuesWithMMCSS, BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS, mf.imfworkqueueservices_beginregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
-f1_keywords:
-- mfidl/IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
+ - mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
 ---
 
 # IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
@@ -50,42 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Registers the topology work queues with the Multimedia Class Scheduler Service (MMCSS).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCallback [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
-          
-
 
 ### -param pState [in]
 
 A pointer to the <b>IUnknown</b> interface of a state object defined by the caller. This parameter can be <b>NULL</b>. You can use this object to hold state information. The object is returned to the caller when the callback is invoked.
-          
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Each source node in the topology defines one branch of the topology. The branch includes every topology node that receives data from that node. An application can assign each branch of a topology its own work queue and then associate those work queues with MMCSS tasks. 
 
@@ -113,16 +95,7 @@ The <b>BeginRegisterTopologyWorkQueuesWithMMCSS</b> method is asynchronous. When
 
 To unregister the topology work queues from MMCSS, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginunregistertopologyworkqueueswithmmcss">IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
- 
-
- 
 

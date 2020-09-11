@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: EA4D12F6-D1F0-4DA9-BF80-22C6965CE396
 ms.date: 12/05/2018
 ms.keywords: GetMetadataTracks, GetMetadataTracks method [Media Foundation], GetMetadataTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetMetadataTracks method, IMFTimedText.GetMetadataTracks, IMFTimedText::GetMetadataTracks, mf.imftimedtext_getmetadatatracks, mfmediaengine/IMFTimedText::GetMetadataTracks
-f1_keywords:
-- mfmediaengine/IMFTimedText.GetMetadataTracks
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedText.GetMetadataTracks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedText::GetMetadataTracks
+ - mfmediaengine/IMFTimedText::GetMetadataTracks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedText.GetMetadataTracks
 ---
 
 # IMFTimedText::GetMetadataTracks
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the list of the timed-metadata tracks in the timed-text component.
 
-
 ## -parameters
-
-
-
 
 ### -param metadataTracks [out]
 
@@ -64,25 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/n
 
 A pointer to a memory block that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttracklist">IMFTimedTextTrackList</a> interface that can enumerate the list of the timed-metadata tracks.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>
- 
-
- 
 

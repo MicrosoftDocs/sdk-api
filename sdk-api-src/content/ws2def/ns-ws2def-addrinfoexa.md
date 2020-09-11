@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 1077e03d-a1a4-45ab-a5d2-29a67e03f5df
 ms.date: 12/05/2018
 ms.keywords: '*LPADDRINFOEXA, *PADDRINFOEXA, ADDRINFOEX, ADDRINFOEX structure [Winsock], ADDRINFOEXA, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, PADDRINFOEX, PADDRINFOEX structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex, addrinfoex structure [Winsock], addrinfoexA, addrinfoexW, winsock.addrinfoex, ws2def/ADDRINFOEX, ws2def/PADDRINFOEX, ws2def/addrinfoexA, ws2def/addrinfoexW, ws2tcpip/ADDRINFOEX, ws2tcpip/PADDRINFOEX, ws2tcpip/addrinfoexA, ws2tcpip/addrinfoexW'
-f1_keywords:
-- ws2def/ADDRINFOEX
-dev_langs:
-- c++
 req.header: ws2def.h
 req.include-header: Windows Server 2012, Windows 7  Windows Server 2008 R2
 req.target-type: Windows
@@ -29,22 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2def.h
-- Ws2tcpip.h
-api_name:
-- ADDRINFOEX
-- addrinfoexA
-- addrinfoexW
 targetos: Windows
 req.typenames: ADDRINFOEXA, *PADDRINFOEXA, *LPADDRINFOEXA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - addrinfoexA
+ - ws2def/addrinfoexA
+ - PADDRINFOEXA
+ - ws2def/PADDRINFOEXA
+ - ADDRINFOEXA
+ - ws2def/ADDRINFOEXA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2def.h
+ - Ws2tcpip.h
+api_name:
+ - ADDRINFOEX
+ - addrinfoexA
+ - addrinfoexW
 ---
 
 # ADDRINFOEXA structure
@@ -52,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>addrinfoex</b> structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function to hold host address information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ai_flags
 
@@ -252,8 +252,6 @@ This option is supported on Windows 8, Windows Server 2012,   and later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ai_family
 
@@ -340,8 +338,6 @@ The Bluetooth address family. This address family is only supported if a Bluetoo
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ai_socktype
 
@@ -417,8 +413,7 @@ Provides a pseudo-stream packet based on datagrams.
 In Windows Sockets 2, new socket types were introduced. An application can dynamically discover the attributes of each available transport protocol through the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
 
-In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DATAGRAM</b> and <b>SOCK_STREAM</b>. 
-
+In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DATAGRAM</b> and <b>SOCK_STREAM</b>.
 
 ### -field ai_protocol
 
@@ -476,20 +471,17 @@ The PGM protocol for reliable multicast. This is a possible value when the <b>ai
 
 If the <b>ai_family</b> member is <b>AF_IRDA</b>, then the <b>ai_protocol</b> must be 0.
 
-
 ### -field ai_addrlen
 
 Type: <b>size_t</b>
 
 The length, in bytes, of the  buffer pointed to by the <b>ai_addr</b> member.
 
-
 ### -field ai_canonname
 
 Type: <b>PCTSTR</b>
 
 The canonical name for the host.
-
 
 ### -field ai_addr
 
@@ -498,13 +490,11 @@ Type: <b>struct sockaddr*</b>
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <b>addrinfoex</b> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>addrinfoex</b> structure is specified in the <b>ai_addrlen</b> member.
 
-
 ### -field ai_blob
 
 Type: <b>void*</b>
 
 A pointer to data that is used to return provider-specific namespace information that is associated with the name beyond a list of addresses. The length, in bytes, of the buffer pointed to by <b>ai_blob</b> must be specified in the <b>ai_bloblen</b> member.
-
 
 ### -field ai_bloblen
 
@@ -512,13 +502,11 @@ Type: <b>size_t</b>
 
 The length, in bytes, of the <b>ai_blob</b> member.
 
-
 ### -field ai_provider
 
 Type: <b>LPGUID</b>
 
 A pointer to the GUID of a specific namespace provider.
-
 
 ### -field ai_next
 
@@ -527,10 +515,7 @@ Type: <b>struct addrinfoex*</b>
 A pointer to the next structure in a linked list. This parameter is set to <b>NULL</b> in the last 
 <b>addrinfoex</b> structure of a linked list.
 
-
 ## -remarks
-
-
 
 The 
 <b>addrinfoex</b> structure is used by the 
@@ -748,12 +733,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 <div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <b>ADDRINFOEX</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, respectively.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
@@ -764,7 +744,4 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a>
- 
-
- 
 

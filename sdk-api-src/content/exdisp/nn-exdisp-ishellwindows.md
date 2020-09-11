@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
 ms.date: 12/05/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindows interface [Windows Shell],described, _win32_IShellWindows, exdisp/IShellWindows, shell.IShellWindows
-f1_keywords:
-- exdisp/IShellWindows
-dev_langs:
-- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdocvw.dll
-api_name:
-- IShellWindows
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5
 ms.custom: 19H1
+f1_keywords:
+ - IShellWindows
+ - exdisp/IShellWindows
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdocvw.dll
+api_name:
+ - IShellWindows
 ---
 
 # IShellWindows interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the collection of open Shell windows.
-
 
 ## -inheritance
 
@@ -168,12 +167,9 @@ Revokes a Shell window's registration and removes the window from the Shell wind
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A <i>Shell window</i> is a window that has been registered by calling <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">IShellWindows::Register</a> or <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-registerpending">IShellWindows::RegisterPending</a>. Upon registration, the specified window is added to the collection of Shell windows, and granted a cookie that uniquely identifies the window within the collection. A window can be un-registered by calling <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-revoke">IShellWindows::Revoke</a>.
 
@@ -225,14 +221,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
@@ -251,7 +240,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/shellwindows">ShellWindows</a>
- 
-
- 
 

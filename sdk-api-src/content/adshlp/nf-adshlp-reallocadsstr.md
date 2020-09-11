@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 805d45dc-8da4-4c15-a6d1-8967a4da9c24
 ms.date: 12/05/2018
 ms.keywords: ReallocADsStr, ReallocADsStr function [ADSI], _ds_reallocadsstr, adshlp/ReallocADsStr, adsi.reallocadsstr
-f1_keywords:
-- adshlp/ReallocADsStr
-dev_langs:
-- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Activeds.dll
-api_name:
-- ReallocADsStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReallocADsStr
+ - adshlp/ReallocADsStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Activeds.dll
+api_name:
+ - ReallocADsStr
 ---
 
 # ReallocADsStr function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ReallocADsStr</b> function creates a copy of a Unicode string.
 
-
 ## -parameters
-
-
-
 
 ### -param ppStr [out]
 
@@ -66,29 +62,19 @@ Pointer to null-terminated Unicode string pointer that receives the allocated st
 
 The caller must free this memory when it is no longer required by passing this pointer to <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsstr">FreeADsStr</a>.
 
-
 ### -param pStr [in]
 
 Type: <b>LPWSTR</b>
 
 Pointer to a null-terminated Unicode string that contains the string to copy.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 The function returns <b>TRUE</b> if  successful, otherwise <b>FALSE</b> is returned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
@@ -107,7 +93,4 @@ The function returns <b>TRUE</b> if  successful, otherwise <b>FALSE</b> is retur
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsmem">ReallocADsMem</a>
- 
-
- 
 

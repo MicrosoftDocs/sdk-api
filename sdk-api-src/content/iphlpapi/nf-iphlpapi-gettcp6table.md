@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 77150609-d06d-4492-bbd7-21eecd825bde
 ms.date: 12/05/2018
 ms.keywords: GetTcp6Table, GetTcp6Table function [IP Helper], iphlp.gettcp6table, iphlpapi/GetTcp6Table
-f1_keywords:
-- iphlpapi/GetTcp6Table
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetTcp6Table
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTcp6Table
+ - iphlpapi/GetTcp6Table
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetTcp6Table
 ---
 
 # GetTcp6Table function
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTcp6Table</b> function retrieves the TCP connection table for IPv6.
 
-
 ## -parameters
-
-
-
 
 ### -param TcpTable [out]
 
 A pointer to a buffer that receives the TCP connection table for IPv6 as a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a> structure.
 
-
 ### -param SizePointer [in, out]
 
 On input, specifies the size in bytes of the buffer pointed to by the <i>TcpTable</i> parameter.
 
 On output, if the buffer is not large enough to hold the returned TCP connection table, the function sets this parameter equal to the required buffer size in bytes.
-
 
 ### -param Order [in]
 
@@ -88,11 +82,7 @@ The following values are compared (as listed) when ordering the TCP endpoints:
 <li>Remote port</li>
 </ol>
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -150,14 +140,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetTcp6Table</b> function is defined on Windows Vista and later. 
 
@@ -298,14 +282,7 @@ int wmain()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>
 
@@ -348,7 +325,4 @@ int wmain()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table_owner_pid">MIB_TCP6TABLE_OWNER_PID</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 63f3e593-3904-44f9-a912-78c6c98e7597
 ms.date: 12/05/2018
 ms.keywords: GetMixFormat, GetMixFormat method [Core Audio], GetMixFormat method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetMixFormat method, IAudioClient.GetMixFormat, IAudioClient::GetMixFormat, IAudioClientGetMixFormat, audioclient/IAudioClient::GetMixFormat, coreaudio.iaudioclient_getmixformat
-f1_keywords:
-- audioclient/IAudioClient.GetMixFormat
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient.GetMixFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient::GetMixFormat
+ - audioclient/IAudioClient::GetMixFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient.GetMixFormat
 ---
 
 # IAudioClient::GetMixFormat
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetMixFormat</b> method retrieves the stream format that the audio engine uses for its internal processing of shared-mode streams.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppDeviceFormat [out]
 
 Pointer to a pointer variable into which the method writes the address of the mix format. This parameter must be a valid, non-<b>NULL</b> pointer to a pointer variable. The method writes the address of a <b>WAVEFORMATEX</b> (or <b>WAVEFORMATEXTENSIBLE</b>) structure to this variable. The method allocates the storage for the structure. The caller is responsible for freeing the storage, when it is no longer needed, by calling the <b>CoTaskMemFree</b> function. If the <b>GetMixFormat</b> call fails, <i>*ppDeviceFormat</i> is <b>NULL</b>. For information about <b>WAVEFORMATEX</b>, <b>WAVEFORMATEXTENSIBLE</b>, and <b>CoTaskMemFree</b>, see the Windows SDK documentation.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -122,14 +112,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client can call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method. When creating a shared-mode stream for an audio endpoint device, the <b>Initialize</b> method always accepts the stream format obtained from a <b>GetMixFormat</b> call on the same device.
 
@@ -152,12 +136,7 @@ For more information about the <b>GetMixFormat</b> method, see <a href="https://
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
@@ -168,7 +147,4 @@ For more information about the <b>GetMixFormat</b> method, see <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a>
- 
-
- 
 

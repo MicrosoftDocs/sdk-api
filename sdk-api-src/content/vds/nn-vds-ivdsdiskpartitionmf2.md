@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 94a8ef66-3daf-46d4-be5f-dd56739c773a
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskPartitionMF2, IVdsDiskPartitionMF2 interface, IVdsDiskPartitionMF2 interface,described, base.ivdsdiskpartitionmf2, vds/IVdsDiskPartitionMF2
-f1_keywords:
-- vds/IVdsDiskPartitionMF2
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vds.h
-api_name:
-- IVdsDiskPartitionMF2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsDiskPartitionMF2
+ - vds/IVdsDiskPartitionMF2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vds.h
+api_name:
+ - IVdsDiskPartitionMF2
 ---
 
 # IVdsDiskPartitionMF2 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to format a partition with additional formatting options.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Formats an existing OEM, ESP, or unknown partition. This method is identical to 
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 03b87230-457f-4483-a183-d8a8cc7cead4
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEqualEnd method, ITfRange.IsEqualEnd, ITfRange::IsEqualEnd, IsEqualEnd, IsEqualEnd method [Text Services Framework], IsEqualEnd method [Text Services Framework],ITfRange interface, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_isequalend_ref, msctf/ITfRange::IsEqualEnd, tsf.itfrange_isequalend
-f1_keywords:
-- msctf/ITfRange.IsEqualEnd
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.IsEqualEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::IsEqualEnd
+ - msctf/ITfRange::IsEqualEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.IsEqualEnd
 ---
 
 # ITfRange::IsEqualEnd
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-isequalstart">ITfRange::IsEqualStart</a> method verifies that the end anchor of this range of text matches an anchor of another specified range.
 
-
 ## -parameters
-
-
-
 
 ### -param ec [in]
 
 Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
-
 ### -param pWith [in]
 
 Pointer to a specified range in which an anchor is to be compared to this range end anchor.
-
 
 ### -param aPos [in]
 
@@ -98,17 +92,12 @@ Compares this range end anchor with the specified range end anchor.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pfEqual [out]
 
 Pointer to a Boolean value. Upon return, <b>TRUE</b> indicates that the specified <i>pWith</i> range anchor matches this range end anchor. <b>FALSE</b> indicates otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -162,26 +151,14 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is identical to <b>ITfRange::IsEqualStart</b>, except that the end anchor of this range is compared to an anchor of another specified range.
 
 This method is functionally equivalent to, but more efficient than, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-compareend">ITfRange::CompareEnd</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
@@ -213,7 +190,4 @@ This method is functionally equivalent to, but more efficient than, <a href="htt
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
- 
-
- 
 

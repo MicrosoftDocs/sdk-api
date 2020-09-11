@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17
 ms.date: 12/05/2018
 ms.keywords: 50a2d8f7-d7c9-4d50-88cc-f6c8562fbb17, IDirectXVideoAccelerationService, IDirectXVideoAccelerationService interface [Media Foundation], IDirectXVideoAccelerationService interface [Media Foundation],described, dxva2api/IDirectXVideoAccelerationService, mf.idirectxvideoaccelerationservice
-f1_keywords:
-- dxva2api/IDirectXVideoAccelerationService
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxva2api.h
-api_name:
-- IDirectXVideoAccelerationService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectXVideoAccelerationService
+ - dxva2api/IDirectXVideoAccelerationService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxva2api.h
+api_name:
+ - IDirectXVideoAccelerationService
 ---
 
 # IDirectXVideoAccelerationService interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides DirectX Video Acceleration (DXVA) services from a Direct3D device. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-getvideoservice">IDirect3DDeviceManager9::GetVideoService</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-dxva2createvideoservice">DXVA2CreateVideoService</a>.
-
 
 ## -inheritance
 
@@ -78,12 +77,9 @@ Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder rend
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This is the base interface for DXVA services. The Direct3D device can support any of the following DXVA services, which derive from <b>IDirectXVideoAccelerationService</b>:
 
@@ -94,19 +90,11 @@ This is the base interface for DXVA services. The Direct3D device can support an
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

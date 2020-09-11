@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 42496da6-452e-45cb-9061-74eba95aff7e
 ms.date: 12/05/2018
 ms.keywords: FreeIDListArray, FreeIDListArray function [Windows Shell], _shell_FreeIDListArray, shell.FreeIDListArray, shobjidl_core/FreeIDListArray
-f1_keywords:
-- shobjidl_core/FreeIDListArray
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- FreeIDListArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FreeIDListArray
+ - shobjidl_core/FreeIDListArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - FreeIDListArray
 ---
 
 # FreeIDListArray function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees the memory used by an pointer to an item identifier list (PIDL) list array.
 
-
 ## -parameters
-
-
-
 
 ### -param ppidls [in]
 
@@ -64,11 +60,9 @@ Type: <b>PIDLIST_RELATIVE*</b>
 
 A pointer to the list of <i>cItems</i> PIDLs, stored as an array.
 
-
 ### -param cItems
 
 Type: <b>UINT</b>
 
 The number of items in the array.
-
 

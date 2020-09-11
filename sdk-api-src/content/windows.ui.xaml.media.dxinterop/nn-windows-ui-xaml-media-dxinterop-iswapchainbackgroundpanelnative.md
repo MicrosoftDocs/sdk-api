@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 77F5EB53-0DF9-4BA7-810C-9B7B073E76A7
 ms.date: 12/05/2018
 ms.keywords: ISwapChainBackgroundPanelNative, ISwapChainBackgroundPanelNative interface [Windows Runtime], ISwapChainBackgroundPanelNative interface [Windows Runtime],described, windows/ISwapChainBackgroundPanelNative, winrt.iswapchainbackgroundpanelnative
-f1_keywords:
-- windows.ui.xaml.media.dxinterop/ISwapChainBackgroundPanelNative
-dev_langs:
-- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.UI.Xaml.dll
-api_name:
-- ISwapChainBackgroundPanelNative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISwapChainBackgroundPanelNative
+ - windows.ui.xaml.media.dxinterop/ISwapChainBackgroundPanelNative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.UI.Xaml.dll
+api_name:
+ - ISwapChainBackgroundPanelNative
 ---
 
 # ISwapChainBackgroundPanelNative interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides interoperation between XAML and a DirectX swap chain.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Sets the DirectX swap chain for <a href="https://docs.microsoft.com/uwp/api/wind
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface provides the native implementation of the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.swapchainbackgroundpanel">Windows::UI::XAML::Control::SwapChainBackgroundPanel</a> Windows Runtime type. To obtain a pointer to <b>ISwapChainBackgroundPanelNative</b>, you must cast a <b>SwapChainBackgroundPanel</b> instance to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> or <b>IUnknown</b>, and call <b>QueryInterface</b>.
 
@@ -96,17 +92,7 @@ panelInspectable->QueryInterface(__uuidof(ISwapChainBackgroundPanelNative), (voi
 	
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
- 
-
- 
 

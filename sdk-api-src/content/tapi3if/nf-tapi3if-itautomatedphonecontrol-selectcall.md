@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: b9e721cb-8f62-420d-bfc1-f8e634f0f2d4
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],SelectCall method, ITAutomatedPhoneControl.SelectCall, ITAutomatedPhoneControl::SelectCall, SelectCall, SelectCall method [TAPI 2.2], SelectCall method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_selectcall, tapi3.itautomatedphonecontrol_selectcall, tapi3if/ITAutomatedPhoneControl::SelectCall
-f1_keywords:
-- tapi3if/ITAutomatedPhoneControl.SelectCall
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAutomatedPhoneControl.SelectCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAutomatedPhoneControl::SelectCall
+ - tapi3if/ITAutomatedPhoneControl::SelectCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAutomatedPhoneControl.SelectCall
 ---
 
 # ITAutomatedPhoneControl::SelectCall
@@ -49,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SelectCall</b> method selects the current phone object onto the Call object pointed to by the <i>pCall</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param pCall [in]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface.
 
-
 ### -param fSelectDefaultTerminals [in]
 
 If VARIANT_TRUE, use default terminals. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
-
-
-
 ## -remarks
-
-
 
 The application must have owner privilege on both the call and the phone for this method to return success. If the phone is not already open with owner privilege, this method fails.
 
@@ -127,12 +114,7 @@ Depending on the circumstances, the phone object performs one of the following a
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">ITAutomatedPhoneControl::StartTone</a>( PT_ERROR, 0 ).</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
 
@@ -143,7 +125,4 @@ Depending on the circumstances, the phone object performs one of the following a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
- 
-
- 
 

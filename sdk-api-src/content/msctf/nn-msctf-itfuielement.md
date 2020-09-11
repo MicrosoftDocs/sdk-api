@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 651c3ca1-5e5b-4978-80d2-2183bd158610
 ms.date: 12/05/2018
 ms.keywords: ITfUIElement, ITfUIElement interface [Text Services Framework], ITfUIElement interface [Text Services Framework],described, _tsf_itfuielement_ref, msctf/ITfUIElement, tsf.itfuielement
-f1_keywords:
-- msctf/ITfUIElement
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.h
-api_name:
-- ITfUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElement
+ - msctf/ITfUIElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.h
+api_name:
+ - ITfUIElement
 ---
 
 # ITfUIElement interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementsink">ITfUIElement</a> interface is a base interface of the UIElement object and is implemented by a text service.
-
 
 ## -inheritance
 
@@ -104,14 +103,9 @@ Shows the text service's UI of this UI element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A text service may implement some other UIElement interface such as <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a> in the same object that can be obtained by QI. A text service may implement only the <b>ITfUIElement</b> interface to a UI object that does not have to be drawn by the application but the show status can be controlled by the application. A text service that is categorized by GUID_TFCAT_TIPCAP_UIELEMENTENABLED needs to implement ITfUIElement for any UI object.
-
-
 

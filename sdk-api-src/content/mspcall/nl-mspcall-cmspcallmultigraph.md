@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 86512d40-380b-4e98-840d-b7be99a86623
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph class [TAPI 2.2], CMSPCallMultiGraph class [TAPI 2.2],described, _tapi3_cmspcallmultigraph, mspcall/CMSPCallMultiGraph, tapi3.cmspcallmultigraph
-f1_keywords:
-- mspcall/CMSPCallMultiGraph
-dev_langs:
-- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mspcall.h
-api_name:
-- CMSPCallMultiGraph
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CMSPCallMultiGraph
+ - mspcall/CMSPCallMultiGraph
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mspcall.h
+api_name:
+ - CMSPCallMultiGraph
 ---
 
 # CMSPCallMultiGraph class
 
 
 ## -description
-
 
 Derived from 
 <a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than 
@@ -77,14 +77,7 @@ Derived from
 </li>
 </ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPCallMultiGraph</b> has these types of members:
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
- 
-
- 
 

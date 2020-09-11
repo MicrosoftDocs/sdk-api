@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 885E7580-6BF0-4A44-9493-6D4FFCB5577B
 ms.date: 12/05/2018
 ms.keywords: ID2D1Multithread, ID2D1Multithread interface [Direct2D], ID2D1Multithread interface [Direct2D],described, d2d1_1/ID2D1Multithread, direct2d.id2d1multithread
-f1_keywords:
-- d2d1_1/ID2D1Multithread
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Multithread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Multithread
+ - d2d1_1/ID2D1Multithread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Multithread
 ---
 
 # ID2D1Multithread interface
@@ -49,11 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 A  locking mechanism from a <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> factory that Direct2D 
           uses to control exclusive resource access in an app that is uses multiple threads.
-        
-
 
 ## -inheritance
 
@@ -98,12 +96,9 @@ Leaves the Direct2D API critical section, if it exists.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You can get an <b>ID2D1Multithread</b> object by querying for it from an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> 
         object.
@@ -117,15 +112,7 @@ You should use this lock while doing any operation on a Direct3D/DXGI surface. <
         </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
- 
-
- 
 

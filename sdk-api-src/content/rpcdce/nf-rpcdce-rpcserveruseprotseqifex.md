@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 28238ff2-0ed0-4cb5-8117-b6c544d8c098
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseProtseqIfEx, RpcServerUseProtseqIfEx function [RPC], RpcServerUseProtseqIfExA, RpcServerUseProtseqIfExW, _rpc_rpcserveruseprotseqifex, rpc.rpcserveruseprotseqifex, rpcdce/RpcServerUseProtseqIfEx, rpcdce/RpcServerUseProtseqIfExA, rpcdce/RpcServerUseProtseqIfExW
-f1_keywords:
-- rpcdce/RpcServerUseProtseqIfEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerUseProtseqIfEx
-- RpcServerUseProtseqIfExA
-- RpcServerUseProtseqIfExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerUseProtseqIfEx
+ - rpcdce/RpcServerUseProtseqIfEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerUseProtseqIfEx
+ - RpcServerUseProtseqIfExA
+ - RpcServerUseProtseqIfExW
 ---
 
 # RpcServerUseProtseqIfEx function
@@ -51,45 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerUseProtseqIfEx</b> function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls.
 
-
 ## -parameters
-
-
-
 
 ### -param Protseq
 
 Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
-
 ### -param MaxCalls
 
 Backlog queue length for the <b>ncacn_ip_tcp</b> protocol sequence. All other protocol sequences ignore this parameter. Use RPC_C_PROTSEQ_MAX_REQS_DEFAULT to specify the default value. See Remarks.
-
 
 ### -param IfSpec
 
 Interface containing endpoint information to use in creating a binding for the protocol sequence specified in the <i>Protseq</i> parameter.
 
-
 ### -param SecurityDescriptor
 
 Pointer to an optional parameter provided for the security subsystem. Used only for <b>ncacn_np</b> and <b>ncalrpc</b> protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
-
 
 ### -param Policy
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and that allow multihomed computers to selectively bind to network interface cards.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -180,11 +169,7 @@ The security descriptor is invalid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The parameters and effects of 
 <b>RpcServerUseProtseqIfEx</b> extend those of 
@@ -217,13 +202,7 @@ To register all protocol sequences from the IDL file, a server calls
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/server-side-binding">Server-Side Binding</a>. For a list of Microsoft RPC supported protocol sequences, see 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/string-binding">String Binding</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a>
 
@@ -242,7 +221,4 @@ To register all protocol sequences from the IDL file, a server calls
 
 
 Writing a Secure RPC Client or Server
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3e07af46-4271-472d-be80-70eccc26729c
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerVisuals, IPreviewHandlerVisuals interface [Windows Shell], IPreviewHandlerVisuals interface [Windows Shell],described, _shell_IPreviewHandlerVisuals, shell.IPreviewHandlerVisuals, shobjidl_core/IPreviewHandlerVisuals
-f1_keywords:
-- shobjidl_core/IPreviewHandlerVisuals
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IPreviewHandlerVisuals
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
 ms.custom: 19H1
+f1_keywords:
+ - IPreviewHandlerVisuals
+ - shobjidl_core/IPreviewHandlerVisuals
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IPreviewHandlerVisuals
 ---
 
 # IPreviewHandlerVisuals interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for applying color and font information to preview handlers.
-
 
 ## -inheritance
 
@@ -95,14 +94,10 @@ Sets the color of the text within the preview handler.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  These are suggestions. It is not compulsory for this interface to be called. The preview handlers must be able to make their own decisions.</div>
 <div> </div>
-
 

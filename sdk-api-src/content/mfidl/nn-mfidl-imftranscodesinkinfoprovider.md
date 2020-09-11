@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: c5eb0c30-559a-44dd-80d4-4b11933dc7ce
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation],described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider
-f1_keywords:
-- mfidl/IMFTranscodeSinkInfoProvider
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFTranscodeSinkInfoProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTranscodeSinkInfoProvider
+ - mfidl/IMFTranscodeSinkInfoProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFTranscodeSinkInfoProvider
 ---
 
 # IMFTranscodeSinkInfoProvider interface
 
 
 ## -description
-
 
 Implemented by the transcode sink activation object.
 
@@ -110,12 +110,9 @@ Sets the specified transcode profile that contains the configuration settings fo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To use this interface, perform the following steps:
 
@@ -248,21 +245,11 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodesinkactivate">MFCreateTranscodeSinkActivate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

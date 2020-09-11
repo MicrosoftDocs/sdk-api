@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5B987C19-5F59-4B5D-BA40-341FA4B3CD35
 ms.date: 12/05/2018
 ms.keywords: GetTextDecoration, GetTextDecoration method [Media Foundation], GetTextDecoration method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextDecoration method, IMFTimedTextStyle.GetTextDecoration, IMFTimedTextStyle::GetTextDecoration, mf.imftimedtextstyle_gettextdecoration, mfmediaengine/IMFTimedTextStyle::GetTextDecoration
-f1_keywords:
-- mfmediaengine/IMFTimedTextStyle.GetTextDecoration
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextStyle.GetTextDecoration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextStyle::GetTextDecoration
+ - mfmediaengine/IMFTimedTextStyle::GetTextDecoration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextStyle.GetTextDecoration
 ---
 
 # IMFTimedTextStyle::GetTextDecoration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets how text is decorated for the timed-text style.
 
-
 ## -parameters
-
-
-
 
 ### -param textDecoration [out]
 
@@ -64,25 +60,13 @@ Type: <b>DWORD*</b>
 
 A pointer to a variable that receives a combination of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_decoration">MF_TIMED_TEXT_DECORATION</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies how text is decorated.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextstyle">IMFTimedTextStyle</a>
- 
-
- 
 

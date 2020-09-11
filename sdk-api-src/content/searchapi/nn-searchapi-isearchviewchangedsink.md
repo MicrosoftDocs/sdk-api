@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewchangedsink\isearchviewchangedsink.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchViewChangedSink, ISearchViewChangedSink interface [search], ISearchViewChangedSink interface [search],described, _search_ISearchViewChangedSink, search._search_ISearchViewChangedSink, searchapi/ISearchViewChangedSink
-f1_keywords:
-- searchapi/ISearchViewChangedSink
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- searchapi.h
-api_name:
-- ISearchViewChangedSink
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchViewChangedSink
+ - searchapi/ISearchViewChangedSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - searchapi.h
+api_name:
+ - ISearchViewChangedSink
 ---
 
 # ISearchViewChangedSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not implemented.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
 

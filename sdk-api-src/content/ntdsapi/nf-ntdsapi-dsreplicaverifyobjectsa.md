@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: d0e139dc-6aaf-47e1-a76f-4e84f17aa7c6
 ms.date: 12/05/2018
 ms.keywords: DS_EXIST_ADVISORY_MODE, DsReplicaVerifyObjects, DsReplicaVerifyObjects function [Active Directory], DsReplicaVerifyObjectsA, DsReplicaVerifyObjectsW, ad.dsreplicaverifyobjects, ntdsapi/DsReplicaVerifyObjects, ntdsapi/DsReplicaVerifyObjectsA, ntdsapi/DsReplicaVerifyObjectsW
-f1_keywords:
-- ntdsapi/DsReplicaVerifyObjects
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsReplicaVerifyObjects
-- DsReplicaVerifyObjectsA
-- DsReplicaVerifyObjectsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsReplicaVerifyObjectsA
+ - ntdsapi/DsReplicaVerifyObjectsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsReplicaVerifyObjects
+ - DsReplicaVerifyObjectsA
+ - DsReplicaVerifyObjectsW
 ---
 
 # DsReplicaVerifyObjectsA function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsReplicaVerifyObjects</b> function verifies all objects for a naming context with a source.
 
-
 ## -parameters
-
-
-
 
 ### -param hDS [in]
 
@@ -66,16 +62,13 @@ Contains a directory service handle obtained from either the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a> function.
 
-
 ### -param NameContext [in]
 
 Pointer to a null-terminated string that contains the distinguished name of the naming context.
 
-
 ### -param pUuidDsaSrc [in]
 
 Pointer to a <b>UUID</b> value that contains the <b>objectGuid</b> of the directory system agent object.
-
 
 ### -param ulOptions [in]
 
@@ -87,20 +80,11 @@ Contains a set of flags that modify the behavior of the function. This can be ze
 
 Do not delete objects in response to  this function.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error otherwise. Possible error values include the following.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
@@ -115,9 +99,6 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error otherwise. Possible 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>
- 
-
- 
 
 ## -remarks
 

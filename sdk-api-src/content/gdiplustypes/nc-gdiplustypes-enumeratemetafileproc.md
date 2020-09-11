@@ -34,6 +34,7 @@ api_location:
 api_name:
  - EnumerateMetafileProc
 f1_keywords:
+ - EnumerateMetafileProc
  - gdiplustypes/EnumerateMetafileProc
 dev_langs:
  - c++
@@ -84,3 +85,4 @@ Return **FALSE** to abort the enumeration process; return **TRUE** to continue i
 ## -remarks
 
 ## -see-also
+

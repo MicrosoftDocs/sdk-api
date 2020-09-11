@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 8f19e74a-f010-4082-a4da-d1dc3cfe3192
 ms.date: 12/05/2018
 ms.keywords: ID2D1Resource, ID2D1Resource interface [Direct2D], ID2D1Resource interface [Direct2D],described, d2d1/ID2D1Resource, direct2d.ID2D1Resource
-f1_keywords:
-- d2d1/ID2D1Resource
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Resource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Resource
+ - d2d1/ID2D1Resource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Resource
 ---
 
 # ID2D1Resource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a Direct2D drawing resource.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Retrieves the factory associated with this resource.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6c1a4de1-6cae-4c35-bfba-0bc252fadbd9
 ms.date: 12/05/2018
 ms.keywords: ReadFileEx, ReadFileEx function [Files], _win32_readfileex, base.readfileex, fileapi/ReadFileEx, fs.readfileex, winbase/ReadFileEx
-f1_keywords:
-- fileapi/ReadFileEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,33 +25,37 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- ReadFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadFileEx
+ - fileapi/ReadFileEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - ReadFileEx
 ---
 
 # ReadFileEx function
 
 
 ## -description
-
 
 Reads data from the specified file or input/output (I/O) device. It reports its completion status 
     asynchronously, calling the specified completion routine when reading is completed or canceled and the calling 
@@ -64,11 +64,7 @@ Reads data from the specified file or input/output (I/O) device. It reports its 
 To read data from a file or device synchronously, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -84,7 +80,6 @@ This handle also must have the <b>GENERIC_READ</b> access right. For more inform
        access rights, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param lpBuffer [out, optional]
 
 A pointer to a buffer that receives the data read from the file or device.
@@ -92,11 +87,9 @@ A pointer to a buffer that receives the data read from the file or device.
 This buffer must remain valid for the duration of the read operation. The application should not use this 
        buffer until the read operation is completed.
 
-
 ### -param nNumberOfBytesToRead [in]
 
 The number of bytes to be read.
-
 
 ### -param lpOverlapped [in, out]
 
@@ -127,17 +120,13 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwin
        the duration of the read operation. It should not be a variable that can go out of scope while the read 
        operation is pending completion.
 
-
 ### -param lpCompletionRoutine [in]
 
 A pointer to the completion routine to be called when the read operation is complete and the calling thread 
       is in an alertable wait state. For more information about the completion routine, see 
       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -160,12 +149,7 @@ If <b>ReadFileEx</b> attempts to read past the
        <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        returns <b>ERROR_HANDLE_EOF</b>.
 
-
-
-
 ## -remarks
-
-
 
 When using <b>ReadFileEx</b> you should check 
     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> even when the function returns "success" to 
@@ -296,12 +280,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
@@ -352,7 +331,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

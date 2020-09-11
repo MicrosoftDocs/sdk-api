@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 34379b8d-4e00-49cd-9fd1-65f88746c61a
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],Load method, IPersistStorage.Load, IPersistStorage::Load, Load, Load method [COM], Load method [COM],IPersistStorage interface, _com_ipersiststorage_load, com.ipersiststorage_load, objidl/IPersistStorage::Load
-f1_keywords:
-- objidl/IPersistStorage.Load
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersistStorage.Load
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistStorage::Load
+ - objidl/IPersistStorage::Load
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersistStorage.Load
 ---
 
 # IPersistStorage::Load
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads an object from its existing storage.
 
-
 ## -parameters
-
-
-
 
 ### -param pStg [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the existing storage from which the object is to be loaded.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -119,14 +112,8 @@ The object was not loaded due to some reason other than a lack of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method initializes an object from an existing storage. The object is placed in the loaded state if this method is called by the container application. If called by the default handler, this method places the object in the running state.
 
@@ -158,20 +145,11 @@ Steps 3 and 4 are particularly important for ensuring that the object can save i
 
 Your implementation of this method should return the CO_E_ALREADYINITIALIZED error code if it receives a call to either the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-initnew">IPersistStorage::InitNew</a> method or the <b>IPersistStorage::Load</b> method after it is already initialized.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
- 
-
- 
 

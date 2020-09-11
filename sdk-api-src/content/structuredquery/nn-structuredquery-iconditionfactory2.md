@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\iconditionfactory2.htm
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory2, IConditionFactory2 interface [search], IConditionFactory2 interface [search],described, _search_IConditionFactory2, search._search_IConditionFactory2, structuredquery/IConditionFactory2
-f1_keywords:
-- structuredquery/IConditionFactory2
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- IConditionFactory2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConditionFactory2
+ - structuredquery/IConditionFactory2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - IConditionFactory2
 ---
 
 # IConditionFactory2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IConditionFactory2</b> provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
-
 
 ## -inheritance
 
@@ -153,22 +152,13 @@ Performs a variety of transformations on a condition tree, and thereby the resol
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
 
@@ -195,7 +185,4 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\proxy_info.htm
 ms.date: 12/05/2018
 ms.keywords: PROXY_INFO, PROXY_INFO structure [search], _search_PROXY_INFO, search._search_PROXY_INFO, searchapi/PROXY_INFO
-f1_keywords:
-- searchapi/PROXY_INFO
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Searchapi.h
-api_name:
-- PROXY_INFO
 targetos: Windows
 req.typenames: PROXY_INFO
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - _PROXY_INFO
+ - searchapi/_PROXY_INFO
+ - PROXY_INFO
+ - searchapi/PROXY_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Searchapi.h
+api_name:
+ - PROXY_INFO
 ---
 
 # PROXY_INFO structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stores information about a proxy. Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
@@ -64,13 +62,11 @@ Type: <b>DWORD</b>
 
 The size of the structure in bytes.
 
-
 ### -field pcwszUserAgent
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a Unicode string buffer containing the user agent string.
-
 
 ### -field paUseProxy
 
@@ -78,13 +74,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-se
 
 The proxy type to use.
 
-
 ### -field fLocalBypass
 
 Type: <b>BOOL</b>
 
 The bypass proxy for local addresses.
-
 
 ### -field dwPortNumber
 
@@ -92,13 +86,11 @@ Type: <b>DWORD</b>
 
 The port number to use.
 
-
 ### -field pcwszProxyName
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a Unicode string buffer that contains the name of the proxy server.
-
 
 ### -field pcwszBypassList
 

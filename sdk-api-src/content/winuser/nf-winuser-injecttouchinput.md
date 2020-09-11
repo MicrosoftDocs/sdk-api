@@ -8,10 +8,6 @@ tech.root: controls
 ms.assetid: c3c1425e-2af6-4ecb-a0b2-a456654f7a53
 ms.date: 12/05/2018
 ms.keywords: InjectTouchInput, InjectTouchInput function [Windows Touch], input_touchinjection.injecttouchinput, touch_injection.injecttouchinput, winuser/InjectTouchInput
-f1_keywords:
-- winuser/InjectTouchInput
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
-- MinUser.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
-- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
-api_name:
-- InjectTouchInput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InjectTouchInput
+ - winuser/InjectTouchInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+ - MinUser.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+ - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+api_name:
+ - InjectTouchInput
 ---
 
 # InjectTouchInput function
@@ -54,16 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Simulates touch input.<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-initializetouchinjection">InitializeTouchInjection</a> must precede any call to  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-injecttouchinput">InjectTouchInput</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param count [in]
 
@@ -71,26 +66,17 @@ The size of the array in <i>contacts</i>.
 
 The maximum value for <i>count</i> is specified by the <i>maxCount</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-initializetouchinjection">InitializeTouchInjection</a> function.
 
-
 ### -param contacts [in]
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_touch_info">POINTER_TOUCH_INFO</a> structures that represents all contacts on the desktop. The  screen coordinates of each contact must be within the bounds of the desktop.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The injected input is sent to the desktop of the session where the injection process is running.
 
@@ -158,17 +144,7 @@ If both dwTime and PerformanceCount are specified in the injection parameter, <a
 
 When neither dwTime or PerformanceCount values are specified, the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-injecttouchinput">InjectTouchInput</a> allocates the timestamp based on the timing of the API call. If the calls are less than 0.1 millisecond apart, the API may return an error (ERROR_NOT_READY). The error will not invalidate the input immediately, but the injection application needs to retry the same frame again to ensure  injection is successful.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/xinput/functions">Functions</a>
- 
-
- 
 

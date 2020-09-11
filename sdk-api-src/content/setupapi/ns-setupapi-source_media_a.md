@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
 ms.date: 12/05/2018
 ms.keywords: '*PSOURCE_MEDIA_A, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_A, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA'
-f1_keywords:
-- setupapi/SOURCE_MEDIA
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Setupapi.h
-api_name:
-- SOURCE_MEDIA
-- source_media_a
 targetos: Windows
 req.typenames: SOURCE_MEDIA_A, *PSOURCE_MEDIA_A
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SOURCE_MEDIA_A
+ - setupapi/_SOURCE_MEDIA_A
+ - PSOURCE_MEDIA_A
+ - setupapi/PSOURCE_MEDIA_A
+ - SOURCE_MEDIA_A
+ - setupapi/SOURCE_MEDIA_A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Setupapi.h
+api_name:
+ - SOURCE_MEDIA
+ - source_media_a
 ---
 
 # SOURCE_MEDIA_A structure
@@ -50,41 +55,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SOURCE_MEDIA</b> structure is used with the 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-needmedia">SPFILENOTIFY_NEEDMEDIA</a> notification to pass source media information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Reserved
 
 This member is not currently used.
 
-
 ### -field Tagfile
 
 Optional  tag file that can be used to identify the source media.
-
 
 ### -field Description
 
 Human-readable description of the source media.
 
-
 ### -field SourcePath
 
 Path to the source that needs the new media.
 
-
 ### -field SourceFile
 
 Source file to be retrieved from the new media.
-
 
 ### -field Flags
 
@@ -118,11 +113,7 @@ The current source file is continued in another cabinet file.
 
 Do not offer the user the option to browse.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
@@ -133,9 +124,6 @@ Do not offer the user the option to browse.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
- 
-
- 
 
 ## -remarks
 

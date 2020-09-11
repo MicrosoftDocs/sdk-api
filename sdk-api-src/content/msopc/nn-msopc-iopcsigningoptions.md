@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], IOpcSigningOptions interface [Open Packaging Conventions],described, msopc/IOpcSigningOptions, opc.iopcsigningoptions
-f1_keywords:
-- msopc/IOpcSigningOptions
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSigningOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSigningOptions
+ - msopc/IOpcSigningOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSigningOptions
 ---
 
 # IOpcSigningOptions interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods to set and access information required to generate a signature.
-
 
 ## -inheritance
 
@@ -237,12 +236,9 @@ Sets the format of the string retrieved by the <a href="https://docs.microsoft.c
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To generate a signature, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignaturemanager-sign">IOpcDigitalSignatureManager::Sign</a> method with the <i>signingOptions</i> parameter value set to an <b>IOpcSigningOptions</b> interface pointer.
 
@@ -265,13 +261,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -318,7 +308,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

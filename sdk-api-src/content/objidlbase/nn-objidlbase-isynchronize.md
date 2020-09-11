@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6
 ms.date: 12/05/2018
 ms.keywords: ISynchronize, ISynchronize interface [COM], ISynchronize interface [COM],described, _com_isynchronize, com.isynchronize, objidlbase/ISynchronize
-f1_keywords:
-- objidlbase/ISynchronize
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- ISynchronize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISynchronize
+ - objidlbase/ISynchronize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - ISynchronize
 ---
 
 # ISynchronize interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides asynchronous communication between objects about the occurrence of an event. Objects that implement <b>ISynchronize</b> can receive indications that an event has occurred, and they can respond to queries about the event. In this way, clients can make sure that one request has been processed before they submit a subsequent request that depends on completion of the first one.
-
-
 
 ## -inheritance
 
@@ -96,16 +94,9 @@ Waits for the synchronization object to be signaled or for a specified timeout p
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer">ISynchronizeContainer</a>
- 
-
- 
 

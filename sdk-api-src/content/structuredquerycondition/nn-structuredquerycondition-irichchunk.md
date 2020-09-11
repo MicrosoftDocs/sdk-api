@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\irichchunk.htm
 ms.date: 12/05/2018
 ms.keywords: IRichChunk, IRichChunk interface [search], IRichChunk interface [search],described, _search_IRichChunk, search._search_IRichChunk, structuredquerycondition/IRichChunk
-f1_keywords:
-- structuredquerycondition/IRichChunk
-dev_langs:
-- c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquerycondition.h
-api_name:
-- IRichChunk
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IRichChunk
+ - structuredquerycondition/IRichChunk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquerycondition.h
+api_name:
+ - IRichChunk
 ---
 
 # IRichChunk interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a chunk of data as a string and a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> value.
-        
-
 
 ## -inheritance
 
@@ -87,22 +85,13 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 In Windows 7, this interface is defined in structuredquerycondition.idl and structuredquerycondition.h. Prior to Windows 7 this interface was declared in structuredquery.h and structuredquery.idl.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">GetErrors</a>
 
@@ -113,7 +102,4 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 
 <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a>
- 
-
- 
 

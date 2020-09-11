@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: a22f2723-b44e-4c7e-8508-db5c6af5b1d6
 ms.date: 12/05/2018
 ms.keywords: ISeekingPassThru, ISeekingPassThru interface [DirectShow], ISeekingPassThru interface [DirectShow],described, ISeekingPassThruInterface, dshow.iseekingpassthru, strmif/ISeekingPassThru
-f1_keywords:
-- strmif/ISeekingPassThru
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ISeekingPassThru
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISeekingPassThru
+ - strmif/ISeekingPassThru
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ISeekingPassThru
 ---
 
 # ISeekingPassThru interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ISeekingPassThru</code> interface creates a helper object that implements seeking for one-input filters. Filters can use this interface to implement the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> and <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition</a> interfaces. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cpospassthru">CPosPassThru</a>.
 
 Applications do not use this interface.
-
-
-
 
 ## -inheritance
 
@@ -83,14 +79,9 @@ Initializes the seeking helper object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To obtain this interface, call <b>CoCreateInstance</b> with CLSID_SeekingPassThru. You can also use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/createpospassthru">CreatePosPassThru</a> function in the base class library.
-
-
 

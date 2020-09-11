@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 278cf536-3aed-4384-a9d8-ab8786a5cb1e
 ms.date: 12/05/2018
 ms.keywords: MprConfigFilterSetInfo, MprConfigFilterSetInfo function [RAS], mprapi/MprConfigFilterSetInfo, rras.mprconfigfiltersetinfo
-f1_keywords:
-- mprapi/MprConfigFilterSetInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigFilterSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigFilterSetInfo
+ - mprapi/MprConfigFilterSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigFilterSetInfo
 ---
 
 # MprConfigFilterSetInfo function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MprConfigFilterSetInfo</b> function sets the static filtering information for a specified  transport protocol type.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
-
 ### -param dwLevel [in]
 
 A <b>DWORD</b> value that describes the format in which the information is structured in the <i>lpBuffer</i> parameter. Must be zero.
-
 
 ### -param dwTransportId [in]
 
@@ -99,17 +93,12 @@ A <b>DWORD</b> value that describes the transport protocol type of the static fi
 <td>Windows Server 2008 or later: Internet Protocol version 6</td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a> structure that contains the filter driver configuration information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -132,22 +121,12 @@ If the function fails, the return value is one of the following error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigfiltergetinfo">MprConfigFilterGetInfo</a>
- 
-
- 
 

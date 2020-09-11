@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 4dd0e555-ee62-40f6-9b4a-57c6063981bf
 ms.date: 12/05/2018
 ms.keywords: GetActivateResult, GetActivateResult method [Core Audio], GetActivateResult method [Core Audio],IActivateAudioInterfaceAsyncOperation interface, IActivateAudioInterfaceAsyncOperation interface [Core Audio],GetActivateResult method, IActivateAudioInterfaceAsyncOperation.GetActivateResult, IActivateAudioInterfaceAsyncOperation::GetActivateResult, coreaudio.iactivateaudiointerfaceasyncoperation_getactivateresult, mmdeviceapi/IActivateAudioInterfaceAsyncOperation::GetActivateResult
-f1_keywords:
-- mmdeviceapi/IActivateAudioInterfaceAsyncOperation.GetActivateResult
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmdeviceapi.h
-api_name:
-- IActivateAudioInterfaceAsyncOperation.GetActivateResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActivateAudioInterfaceAsyncOperation::GetActivateResult
+ - mmdeviceapi/IActivateAudioInterfaceAsyncOperation::GetActivateResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmdeviceapi.h
+api_name:
+ - IActivateAudioInterfaceAsyncOperation.GetActivateResult
 ---
 
 # IActivateAudioInterfaceAsyncOperation::GetActivateResult
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the results of an asynchronous activation of a <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> interface initiated by an application calling the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a> function.
-
 
 ## -parameters
 
-
-
-
 ### -param activateResult [out]
-
 
 ### -param activatedInterface [out]
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -87,35 +79,20 @@ The method was called before the asynchronous operation was complete.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application calls this method after Windows calls the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-iactivateaudiointerfacecompletionhandler-activatecompleted">ActivateCompleted</a> method of the application’s <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfacecompletionhandler">IActivateAudioInterfaceCompletionHandler</a> interface.
 
 The result code returned through <i>activateResult</i> may depend on the requested interface. For additional information, see <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>. A result code of <b>E_ACCESSDENIED</b> might indicate that the user has not given consent to access the device in a manner required by the requested <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> interface. 
 
-The returned <i>activatedInterface</i> may be <b>NULL</b> if <i>activateResult</i> is not a success code. 
-
-
-
+The returned <i>activatedInterface</i> may be <b>NULL</b> if <i>activateResult</i> is not a success code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation">IActivateAudioInterfaceAsyncOperation</a>
- 
-
- 
 

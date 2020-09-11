@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 202058e8-50c2-4366-9bb6-bbc46dc5ea3f
 ms.date: 12/05/2018
 ms.keywords: GetParentTerm, GetParentTerm method [Windows Accessibility], GetParentTerm method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetParentTerm method, IAccDictionary.GetParentTerm, IAccDictionary::GetParentTerm, _msaa_IAccDictionary_GetParentTerm, msaa.iaccdictionary_iaccdictionary__getparentterm, msaatext/IAccDictionary::GetParentTerm, winauto.iaccdictionary_iaccdictionary__getparentterm
-f1_keywords:
-- msaatext/IAccDictionary.GetParentTerm
-dev_langs:
-- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Msaatext.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msaatext.dll
-api_name:
-- IAccDictionary.GetParentTerm
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ms.custom: 19H1
+f1_keywords:
+ - IAccDictionary::GetParentTerm
+ - msaatext/IAccDictionary::GetParentTerm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msaatext.dll
+api_name:
+ - IAccDictionary.GetParentTerm
 ---
 
 # IAccDictionary::GetParentTerm
 
 
 ## -description
-
 
 Clients call the <b>IAccDictionary::GetParentTerm</b> method to navigate through the object hierarchy tree. This method returns the parent object of a specified property.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
@@ -57,15 +57,11 @@ Clients call the <b>IAccDictionary::GetParentTerm</b> method to navigate through
 
 ## -parameters
 
-
-
-
 ### -param Term [in]
 
 Type: <b>REFGUID</b>
 
 A GUID for a property.
-
 
 ### -param pParentTerm [out]
 
@@ -73,23 +69,13 @@ Type: <b>GUID*</b>
 
 The parent of the property specified in the <i>Term</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-
-
-
 ## -remarks
 
-
-
 If there is not a parent term for <i>Term</i>, then <i>pParentTerm</i> will point to GUID_NULL.
-
-
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 653b286b-dc86-4896-8f03-1628b7178680
 ms.date: 12/05/2018
 ms.keywords: HttpQueryServerSessionProperty, HttpQueryServerSessionProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryserversessionproperty, http/HttpQueryServerSessionProperty
-f1_keywords:
-- http/HttpQueryServerSessionProperty
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpQueryServerSessionProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpQueryServerSessionProperty
+ - http/HttpQueryServerSessionProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpQueryServerSessionProperty
 ---
 
 # HttpQueryServerSessionProperty function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpQueryServerSessionProperty</b> function queries a  server property on the specified server session.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerSessionId [in]
 
 The server session for which the property setting is returned.
-
 
 ### -param Property [in]
 
@@ -123,8 +118,6 @@ Queries the channel binding token (CBT) properties.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyInformation [out]
 
@@ -166,15 +159,10 @@ A pointer to the buffer that receives the property data.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param PropertyInformationLength [in]
 
 The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
 
 ### -param ReturnLength [out, optional]
 
@@ -182,10 +170,7 @@ The number, in  bytes, returned in the  <i>pPropertyInformation</i> buffer.
 
 If the output buffer is too small, the call fails with a return value of <b>ERROR_MORE_DATA</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length of the buffer required for the call to succeed.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>
 
@@ -227,14 +212,8 @@ The size, in bytes, of the buffer pointed to by the  <i>pPropertyInformation</i>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Querying the <b>HttpServerLoggingProperty</b> is not supported.
 
@@ -242,13 +221,7 @@ The <i>pPropertyInformation</i> parameter points to the configuration structure 
 
  To specify the HttpServerQosProperty property in the <i>pPropertyInformation</i> parameter, set    <b>QosType</b> to <b>HttpQosSettingTypeBandwidth</b> inside the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure, and pass a pointer to this structure in the parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
@@ -267,7 +240,4 @@ The <i>pPropertyInformation</i> parameter points to the configuration structure 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>
- 
-
- 
 

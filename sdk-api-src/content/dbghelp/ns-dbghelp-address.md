@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: f49249e5-ef02-4e1f-9c08-1c7fe25ee71c
 ms.date: 12/05/2018
 ms.keywords: '*LPADDRESS, ADDRESS, ADDRESS structure, ADDRESS64, ADDRESS64 structure, AddrMode1616, AddrMode1632, AddrModeFlat, AddrModeReal, LPADDRESS64, LPADDRESS64 structure pointer, _tagADDRESS64, _win32_address64_str, base.address64_str, dbghelp/ADDRESS64, dbghelp/LPADDRESS64'
-f1_keywords:
-- dbghelp/ADDRESS64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgHelp.h
-api_name:
-- ADDRESS64
-- ADDRESS
 targetos: Windows
 req.typenames: ADDRESS, *LPADDRESS
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - _tagADDRESS
+ - dbghelp/_tagADDRESS
+ - LPADDRESS
+ - dbghelp/LPADDRESS
+ - ADDRESS
+ - dbghelp/ADDRESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgHelp.h
+api_name:
+ - ADDRESS64
+ - ADDRESS
 ---
 
 # ADDRESS structure
@@ -50,25 +55,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an address. It is used in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Offset
 
 The offset into the segment, or a 32-bit virtual address. The interpretation of this value depends on the value contained in the <b>Mode</b> member.
 
-
 ### -field Segment
 
 The segment number. This value is used only for 16-bit addressing.
-
 
 ### -field Mode
 
@@ -129,12 +127,8 @@ Flat addressing. This is the only addressing mode supported by the library.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 This structure supersedes the <b>ADDRESS</b> structure. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>ADDRESS</b> is defined as follows in DbgHelp.h. 
@@ -153,17 +147,7 @@ typedef struct _tagADDRESS {
 #endif
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
- 
-
- 
 

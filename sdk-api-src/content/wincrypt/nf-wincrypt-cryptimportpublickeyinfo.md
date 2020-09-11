@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f5f8ebb6-c838-404b-9b61-3ec36fdaef01
 ms.date: 12/05/2018
 ms.keywords: CryptImportPublicKeyInfo, CryptImportPublicKeyInfo function [Security], _crypto2_cryptimportpublickeyinfo, security.cryptimportpublickeyinfo, wincrypt/CryptImportPublicKeyInfo
-f1_keywords:
-- wincrypt/CryptImportPublicKeyInfo
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptImportPublicKeyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptImportPublicKeyInfo
+ - wincrypt/CryptImportPublicKeyInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptImportPublicKeyInfo
 ---
 
 # CryptImportPublicKeyInfo function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptImportPublicKeyInfo</b> function converts and imports the public key information into the provider and returns a handle of the public key. 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex">CryptImportPublicKeyInfoEx</a> provides a revised version of this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptProv [in]
 
 The handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use when importing the public key. This handle must have already been created using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
-
 
 ### -param dwCertEncodingType [in]
 
@@ -83,15 +78,11 @@ Currently defined encoding types are:
 The address of a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to import into the provider.
 
-
 ### -param phKey [out]
 
 The address of an <b>HCRYPTKEY</b> variable that receives the handle of the imported public key. When you have finished using the public key, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -125,12 +116,7 @@ An import function that can be installed or registered could not be found for th
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function is normally used to retrieve the public key from a certificate. This is done by passing the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure from a filled-in certificate structure as shown in the following pseudocode.
 
@@ -152,19 +138,11 @@ if(pCertContext)
     CertFreeCertificateContext(pCertContext)
 }</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfo">CryptExportPublicKeyInfo</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

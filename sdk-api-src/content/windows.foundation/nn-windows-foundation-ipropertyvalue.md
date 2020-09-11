@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 447625BA-F982-4155-9B05-E478E1229443
 ms.date: 12/05/2018
 ms.keywords: IPropertyValue, IPropertyValue interface [Windows Runtime], IPropertyValue interface [Windows Runtime],described, windows/IPropertyValue, winrt.ipropertyvalue
-f1_keywords:
-- windows.foundation/IPropertyValue
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue
+ - windows.foundation/IPropertyValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue
 ---
 
 # IPropertyValue interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a value in a Windows Runtime property store.
-
 
 ## -inheritance
 
@@ -390,13 +389,9 @@ Gets the data type of the value that is stored in the current <b>IPropertyValue<
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
 
@@ -407,7 +402,4 @@ Gets the data type of the value that is stored in the current <b>IPropertyValue<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ne-windows-foundation-propertytype">PropertyType</a>
- 
-
- 
 

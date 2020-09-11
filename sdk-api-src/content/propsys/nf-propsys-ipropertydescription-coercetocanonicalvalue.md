@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: bc51ec1b-c1ec-4162-a60d-b67d19d5b591
 ms.date: 12/05/2018
 ms.keywords: CoerceToCanonicalValue, CoerceToCanonicalValue method [Windows Properties], CoerceToCanonicalValue method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],CoerceToCanonicalValue method, IPropertyDescription.CoerceToCanonicalValue, IPropertyDescription::CoerceToCanonicalValue, properties.IPropertyDescription_CoerceToCanonicalValue, propsys/IPropertyDescription::CoerceToCanonicalValue, shell.IPropertyDescription_CoerceToCanonicalValue, shell_IPropertyDescription_CoerceToCanonicalValue
-f1_keywords:
-- propsys/IPropertyDescription.CoerceToCanonicalValue
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyDescription.CoerceToCanonicalValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyDescription::CoerceToCanonicalValue
+ - propsys/IPropertyDescription::CoerceToCanonicalValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyDescription.CoerceToCanonicalValue
 ---
 
 # IPropertyDescription::CoerceToCanonicalValue
@@ -48,14 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Coerces the value to the canonical value, according to the property description.
 
-
 ## -parameters
-
-
-
 
 ### -param ppropvar [in, out]
 
@@ -63,10 +59,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-prop
 
 On entry, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the original value. When this method returns, contains the canonical value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -115,14 +108,8 @@ The <i>ppropvar</i> parameter is invalid. The <a href="https://docs.microsoft.co
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For more information, see the <i>type</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
@@ -245,19 +232,11 @@ The coercion is performed in four steps, as follows:
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
- 
-
- 
 

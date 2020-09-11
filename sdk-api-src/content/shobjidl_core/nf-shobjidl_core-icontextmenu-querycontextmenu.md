@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 329fe15b-c1c1-4ffd-812e-9e74451bad6e
 ms.date: 12/05/2018
 ms.keywords: CMF_ASYNCVERBSTATE, CMF_CANRENAME, CMF_DEFAULTONLY, CMF_DISABLEDVERBS, CMF_DONOTPICKDEFAULT, CMF_EXPLORE, CMF_EXTENDEDVERBS, CMF_INCLUDESTATIC, CMF_ITEMMENU, CMF_NODEFAULT, CMF_NORMAL, CMF_NOVERBS, CMF_OPTIMIZEFORINVOKE, CMF_RESERVED, CMF_SYNCCASCADEMENU, CMF_VERBSONLY, IContextMenu interface [Windows Shell],QueryContextMenu method, IContextMenu.QueryContextMenu, IContextMenu::QueryContextMenu, QueryContextMenu, QueryContextMenu method [Windows Shell], QueryContextMenu method [Windows Shell],IContextMenu interface, _win32_IContextMenu_QueryContextMenu, _win32_icontextmenu_win32_icontextmenu_querycontextmenu_cpp, shell.IContextMenu_QueryContextMenu, shobjidl_core/IContextMenu::QueryContextMenu
-f1_keywords:
-- shobjidl_core/IContextMenu.QueryContextMenu
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IContextMenu.QueryContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenu::QueryContextMenu
+ - shobjidl_core/IContextMenu::QueryContextMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IContextMenu.QueryContextMenu
 ---
 
 # IContextMenu::QueryContextMenu
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds commands to a shortcut menu.
 
-
 ## -parameters
-
-
-
 
 ### -param hmenu
 
@@ -64,13 +60,11 @@ Type: <b>HMENU</b>
 
 A handle to the shortcut menu. The handler should specify this handle when adding menu items.
 
-
 ### -param indexMenu
 
 Type: <b>UINT</b>
 
 The zero-based position at which to insert the first new menu item.
-
 
 ### -param idCmdFirst
 
@@ -78,13 +72,11 @@ Type: <b>UINT</b>
 
 The minimum value that the handler can specify for a menu item identifier.
 
-
 ### -param idCmdLast
 
 Type: <b>UINT</b>
 
 The maximum value that the handler can specify for a menu item identifier.
-
 
 ### -param uFlags
 
@@ -202,21 +194,13 @@ This value is not available.
 
 0xffff0000. This flag is a bitmask that specifies all bits that should not be used. This is to be used only as a mask. Do not pass this as a parameter value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If successful, returns an <b>HRESULT</b> value that has its severity value set to SEVERITY_SUCCESS and its code value set to the offset of the largest command identifier that was assigned, plus one. For example, if <i>idCmdFirst</i> is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8, the return value should be MAKE_HRESULT(SEVERITY_SUCCESS, 0, 8 - 5 + 1). Otherwise, it returns a COM error value.
 
-
-
-
 ## -remarks
-
-
 
 This method should call either <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a> to insert its menu items into the menu specified by <i>hmenu</i>. The <i>indexMenu</i> parameter holds the index to be used for the first menu item. The identifier of each menu item must fall within the range defined by <i>idCmdFirst</i> and <i>idCmdLast</i>.
 
@@ -225,6 +209,4 @@ A common practice is to set the first command identifier to <i>idCmdFirst</i> (a
 If the Shell subsequently calls another shortcut menu handler, it will use the code value of the returned <b>HRESULT</b> to set <i>idCmdFirst</i> when it calls that handler's <b>QueryContextMenu</b> method.
 
 When a context menu handler adds a pop-up menu item, it must use <b>IContextMenu::QueryContextMenu</b> to add at least one item to that menu for the WM_INITMENUPOPUP message to be forwarded.
-
-
 

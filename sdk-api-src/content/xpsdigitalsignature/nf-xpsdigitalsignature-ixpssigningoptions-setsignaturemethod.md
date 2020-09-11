@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 318f0e08-2384-4fab-a181-6ff3070ea21f
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignatureMethod method, IXpsSigningOptions.SetSignatureMethod, IXpsSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [XPS Documents and Packaging], SetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::SetSignatureMethod
-f1_keywords:
-- xpsdigitalsignature/IXpsSigningOptions.SetSignatureMethod
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSigningOptions.SetSignatureMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSigningOptions::SetSignatureMethod
+ - xpsdigitalsignature/IXpsSigningOptions::SetSignatureMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSigningOptions.SetSignatureMethod
 ---
 
 # IXpsSigningOptions::SetSignatureMethod
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the signature method.
 
-
 ## -parameters
-
-
-
 
 ### -param signatureMethod [in]
 
@@ -64,19 +60,11 @@ The signature method expressed as a URI.
 
 This parameter must refer to a valid signature method. The following signature methods have been tested in Windows 7:
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The signature method must be set before signing.
 
@@ -85,13 +73,7 @@ When a new instance of this interface is returned by <a href="https://docs.micro
 The URI in  <i>signatureMethod</i>  must be the URI of a valid signing algorithm, such as http://www.w3.org/2000/09/xmldsig#rsa-sha1, and it must be
     supported by the signing certificate.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Cryptography Functions</a>
 
@@ -106,7 +88,4 @@ The URI in  <i>signatureMethod</i>  must be the URI of a valid signing algorithm
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

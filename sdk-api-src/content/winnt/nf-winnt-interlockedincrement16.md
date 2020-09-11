@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 93460ed0-2c2c-4686-a8ed-02669c4df214
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement16, InterlockedIncrement16 function, base.interlockedincrement16, winnt/InterlockedIncrement16
-f1_keywords:
-- winnt/InterlockedIncrement16
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedIncrement16
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedIncrement16
+ - winnt/InterlockedIncrement16
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedIncrement16
 ---
 
 # InterlockedIncrement16 function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Increments (increases by one) the value of the specified 16-bit variable as an atomic operation.
 
 To operate on 32-bit values, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedincrement">InterlockedIncrement</a> function.
 
 To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedincrement64">InterlockedIncrement64</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Addend [in, out]
 
 A pointer to the variable to be incremented.
 
-
 ## -returns
 
-
-
 The function returns the resulting incremented value.
-     
-
-
-
 
 ## -remarks
-
-
 
 The variable pointed to by the <i>Addend</i> parameter must be aligned on a 16-bit boundary; otherwise, this function will behave unpredictably on multiprocessor x86 systems and any non-x86 systems. See <b>_aligned_malloc</b>.
 
@@ -92,12 +79,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -152,7 +134,4 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

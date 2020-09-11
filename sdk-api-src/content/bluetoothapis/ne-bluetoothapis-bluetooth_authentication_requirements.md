@@ -8,10 +8,6 @@ tech.root: bluetooth
 ms.assetid: 644372af-d613-4fd6-adcd-7faf0afb0033
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_AUTHENTICATION_REQUIREMENTS, BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration [Bluetooth], BLUETOOTH_MITM_ProtectionNotDefined, BLUETOOTH_MITM_ProtectionNotRequired, BLUETOOTH_MITM_ProtectionNotRequiredBonding, BLUETOOTH_MITM_ProtectionRequired, BLUETOOTH_MITM_ProtectionRequiredBonding, BLUETOOTH_MITM_ProtectionRequiredGeneralBonding, MBLUETOOTH_MITM_ProtectionNotRequiredGeneralBonding, _BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetooth.bluetooth_authentication_requirements, bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetoothapis/BLUETOOTH_MITM_ProtectionNotDefined, bluetoothapis/BLUETOOTH_MITM_ProtectionNotRequired, bluetoothapis/BLUETOOTH_MITM_ProtectionNotRequiredBonding, bluetoothapis/BLUETOOTH_MITM_ProtectionRequired, bluetoothapis/BLUETOOTH_MITM_ProtectionRequiredBonding, bluetoothapis/BLUETOOTH_MITM_ProtectionRequiredGeneralBonding, bluetoothapis/MBLUETOOTH_MITM_ProtectionNotRequiredGeneralBonding
-f1_keywords:
-- bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS
-dev_langs:
-- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BluetoothAPIs.h
-api_name:
-- BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 targetos: Windows
 req.typenames: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+ - bluetoothapis/_BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+ - BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+ - bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BluetoothAPIs.h
+api_name:
+ - BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 ---
 
 ## -description
@@ -81,8 +84,9 @@ Protection against "Man in the Middle" attack is not defined.
 
 ## -remarks
 
-The header file associated with this API is available at Microsoft Connect via the Windows Vista Feature Pack for Wireless Developers Supplement download. Access to this resource requires registration with the Microsoft Connect website. The header is also included in the comprehensive developer resource packages available via the Windows Driver Kit (WDK), Windows Logo Kit (WLK) and Windows Driver Framework (WDF) Connections at Microsoft Connect. 
+The header file associated with this API is available at Microsoft Connect via the Windows Vista Feature Pack for Wireless Developers Supplement download. Access to this resource requires registration with the Microsoft Connect website. The header is also included in the comprehensive developer resource packages available via the Windows Driver Kit (WDK), Windows Logo Kit (WLK) and Windows Driver Framework (WDF) Connections at Microsoft Connect.
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatedeviceex">BluetoothAuthenticateDeviceEx</a>
+

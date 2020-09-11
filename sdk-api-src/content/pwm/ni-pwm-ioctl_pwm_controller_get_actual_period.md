@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 11EB530E-4C73-44A3-8739-315F992DBE7B
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control code, base.ioctl_pwm_controller_get_actual_period, pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
-f1_keywords:
-- pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
-dev_langs:
-- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pwm.h
-api_name:
-- IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
+ - pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pwm.h
+api_name:
+ - IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 ---
 
 # IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD IOCTL
@@ -49,55 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the effective output signal period of the Pulse Width Modulation (PWM) controller as it would be measured on its output channels.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Not used with this operation; set to NULL.
 
-
 ### -input-buffer-length
 
 Not used with this operation; set to zero.
-
 
 ### -output-buffer
 
 A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-controller-get-actual-period-output">PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT</a> value. This represents the effective output signal period of the Pulse Width Modulation (PWM) controller as it would be measured on its output channels.
 
-
 ### -output-buffer-length
 
 The size of the output buffer, in bytes.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
@@ -109,10 +88,7 @@ If the operation fails or is pending,
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -257,18 +233,8 @@ For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
- 
-
- 
 

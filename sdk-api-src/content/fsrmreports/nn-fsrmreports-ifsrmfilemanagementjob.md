@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], IFsrmFileManagementJob interface [File Server Resource Manager],described, fs.ifsrmfilemanagementjob, fsrm.ifsrmfilemanagementjob, fsrm/IFsrmFileManagementJob
-f1_keywords:
-- fsrmreports/IFsrmFileManagementJob
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileManagementJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileManagementJob
+ - fsrmreports/IFsrmFileManagementJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileManagementJob
 ---
 
 # IFsrmFileManagementJob interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -74,7 +74,6 @@ The following methods return this interface:
     class, then the methods and properties of the 
     <b>IFsrmFileManagementJob</b> interface may no longer be 
     usable and fail in unexpected ways when working with the same job.
-
 
 ## -inheritance
 
@@ -562,12 +561,9 @@ The name of the scheduled task associated with the job.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 When a file management job runs, it scans the files in the specified folders and if a file in the folder meets 
     the conditions specified by the job, FSRM moves the file to the specified expired files folder if the type is 
@@ -598,13 +594,7 @@ FSRM does not expire files in the system directories (for example, "\Windows",
     "\System Volume Information", "$Event", and 
     "$Recycle").
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -615,7 +605,4 @@ FSRM does not expire files in the system directories (for example, "\Windows",
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
- 
-
- 
 

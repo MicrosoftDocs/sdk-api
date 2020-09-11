@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopynex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyNEx, StringCbCopyNEx function [Menus and Other Resources], StringCbCopyNExA, StringCbCopyNExW, _shell_StringCbCopyNEx, _shell_stringcbcopynex_cpp, menurc.stringcbcopynex, strsafe/StringCbCopyNEx, strsafe/StringCbCopyNExA, strsafe/StringCbCopyNExW, winui._shell_stringcbcopynex
-f1_keywords:
-- strsafe/StringCbCopyNEx
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCbCopyNEx
-- StringCbCopyNExA
-- StringCbCopyNExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCbCopyNExW
+ - strsafe/StringCbCopyNExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCbCopyNEx
+ - StringCbCopyNExA
+ - StringCbCopyNExW
 ---
 
 # StringCbCopyNExW function
 
 
 ## -description
-
 
 Copies the specified number of bytes from one string to another. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
@@ -63,15 +63,11 @@ Copies the specified number of bytes from one string to another. The size of the
 
 ## -parameters
 
-
-
-
 ### -param pszDest [out]
 
 Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the copied string.
-
 
 ### -param cbDest [in]
 
@@ -79,13 +75,11 @@ Type: <b>size_t</b>
 
 The size of <i>pszDest</i>, in bytes. This value must be at least large enough to hold the copied bytes (the length of <i>pszSrc</i> or the value of <i>cbSrc</i>, whichever is smaller) as well as to account for the terminating null character. The maximum number of bytes allowed is <code>STRSAFE_MAX_CCH * sizeof(TCHAR)</code>.
 
-
 ### -param pszSrc [in]
 
 Type: <b>LPCTSTR</b>
 
 The source string. This string must be null-terminated.
-
 
 ### -param cbToCopy [in]
 
@@ -93,20 +87,17 @@ Type: <b>size_t</b>
 
 The maximum number of bytes to be copied from <i>pszSrc</i> to <i>pszDest</i>.
 
-
 ### -param ppszDestEnd [out, optional]
 
 Type: <b>LPTSTR*</b>
 
 The address of a pointer to the end of <i>pszDest</i>. If <i>ppszDestEnd</i> is non-<b>NULL</b> and any data is copied into the destination buffer, this points to the terminating null character at the end of the string.
 
-
 ### -param pcbRemaining [out, optional]
 
 Type: <b>size_t*</b>
 
 The number of unused bytes in <i>pszDest</i>, including those used for the terminating null character. If <i>pcbRemaining</i> is <b>NULL</b>, the count is not kept or returned.
-
 
 ### -param dwFlags [in]
 
@@ -175,12 +166,8 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -229,12 +216,7 @@ The copy operation failed due to insufficient buffer space. Depending on the val
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 <b>StringCbCopyNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopyNEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
@@ -279,9 +261,6 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 ## -see-also
 
-
-
-
 <b>Reference</b>
 
 
@@ -291,7 +270,4 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>
- 
-
- 
 

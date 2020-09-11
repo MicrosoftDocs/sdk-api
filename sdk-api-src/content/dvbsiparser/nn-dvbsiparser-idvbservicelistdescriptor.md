@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 0d39595b-0297-473d-9b0f-e038a938a196
 ms.date: 12/05/2018
 ms.keywords: IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], IDvbServiceListDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbServiceListDescriptor, mstv.idvbservicelistdescriptor
-f1_keywords:
-- dvbsiparser/IDvbServiceListDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbServiceListDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbServiceListDescriptor
+ - dvbsiparser/IDvbServiceListDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbServiceListDescriptor
 ---
 
 # IDvbServiceListDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from a Digital Video Broadcast (DVB) service list descriptor. A service list descriptor is part of the DVB network information table (NIT) or bouquet association table (BAT) that lists services by service ID and type.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Gets the tag identifying a DVB service list descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

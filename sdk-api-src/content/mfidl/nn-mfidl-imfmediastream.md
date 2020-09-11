@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 66d07292-3bfe-4e68-b26f-890996262b98
 ms.date: 12/05/2018
 ms.keywords: 66d07292-3bfe-4e68-b26f-890996262b98, IMFMediaStream, IMFMediaStream interface [Media Foundation], IMFMediaStream interface [Media Foundation],described, mf.imfmediastream, mfidl/IMFMediaStream
-f1_keywords:
-- mfidl/IMFMediaStream
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaStream
+ - mfidl/IMFMediaStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaStream
 ---
 
 # IMFMediaStream interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents one stream in a media source.
-        
-
 
 ## -inheritance
 
@@ -106,22 +104,13 @@ Requests a sample from the media source.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Streams are created when a media source is started. For each stream, the media source sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/menewstream">MENewStream</a> event with a pointer to the stream's <b>IMFMediaStream</b> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
@@ -132,7 +121,4 @@ Streams are created when a media source is started. For each stream, the media s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
- 
-
- 
 

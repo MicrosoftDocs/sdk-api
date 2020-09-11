@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 809d1a71-bb14-4516-9624-2f10fe19a5d9
 ms.date: 12/05/2018
 ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], IOptionDescription interface [Internationalization for Windows Applications],described, intl.ioptiondescription, spellcheck/IOptionDescription
-f1_keywords:
-- spellcheck/IOptionDescription
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- IOptionDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOptionDescription
+ - spellcheck/IOptionDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - IOptionDescription
 ---
 
 # IOptionDescription interface
 
 
 ## -description
-
 
 Represents the description of a spell checker option.
 

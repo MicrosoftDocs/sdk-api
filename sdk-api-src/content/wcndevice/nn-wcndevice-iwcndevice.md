@@ -8,10 +8,6 @@ tech.root: wcn
 ms.assetid: a092406d-7af4-436d-9755-5a9b87aa6ca9
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice, IWCNDevice interface [Windows Connect Now], IWCNDevice interface [Windows Connect Now],described, wcn.iwcndevice, wcndevice/IWCNDevice
-f1_keywords:
-- wcndevice/IWCNDevice
-dev_langs:
-- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WcnDevice.h
-api_name:
-- IWCNDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCNDevice
+ - wcndevice/IWCNDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WcnDevice.h
+api_name:
+ - IWCNDevice
 ---
 
 # IWCNDevice interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to configure the device and initiate the session.
-
 
 ## -inheritance
 
@@ -160,16 +159,9 @@ Removes any callback previously set via <a href="https://docs.microsoft.com/wind
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
- 
-
- 
 

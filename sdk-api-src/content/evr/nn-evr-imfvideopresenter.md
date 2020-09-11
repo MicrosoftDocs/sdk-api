@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8f6e3132-03e9-4a2e-9160-e39d29cf2408
 ms.date: 12/05/2018
 ms.keywords: 8f6e3132-03e9-4a2e-9160-e39d29cf2408, IMFVideoPresenter, IMFVideoPresenter interface [Media Foundation], IMFVideoPresenter interface [Media Foundation],described, evr/IMFVideoPresenter, mf.imfvideopresenter
-f1_keywords:
-- evr/IMFVideoPresenter
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoPresenter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoPresenter
+ - evr/IMFVideoPresenter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoPresenter
 ---
 
 # IMFVideoPresenter interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a video presenter. A <i>video presenter</i> is an object that receives video frames, typically from a video mixer, and presents them in some way, typically by rendering them to the display. The enhanced video renderer (EVR) provides a default video presenter, and applications can implement custom presenters.
 
 The video presenter receives video frames as soon as they are available from upstream. The video presenter is responsible for presenting frames at the correct time and for synchronizing with the presentation clock.
-
 
 ## -inheritance
 
@@ -89,13 +88,9 @@ Sends a message to the video presenter.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
@@ -106,7 +101,4 @@ Sends a message to the video presenter.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

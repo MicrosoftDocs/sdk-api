@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 903e2c05-e4d4-42ca-a28d-6d4738ae6cfc
 ms.date: 12/05/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],CreateVideoProcessor method, IDXVAHD_Device.CreateVideoProcessor, IDXVAHD_Device::CreateVideoProcessor, dxvahd/IDXVAHD_Device::CreateVideoProcessor, mf.idxvahd_device_createvideoprocessor
-f1_keywords:
-- dxvahd/IDXVAHD_Device.CreateVideoProcessor
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxvahd.h
-api_name:
-- IDXVAHD_Device.CreateVideoProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXVAHD_Device::CreateVideoProcessor
+ - dxvahd/IDXVAHD_Device::CreateVideoProcessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxvahd.h
+api_name:
+ - IDXVAHD_Device.CreateVideoProcessor
 ---
 
 # IDXVAHD_Device::CreateVideoProcessor
@@ -49,45 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 
-
 ## -parameters
-
-
-
 
 ### -param pVPGuid [in]
 
 A GUID that identifies the video processor to create. This GUID must equal the value of the <b>VPGuid</b> member from one of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structures retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a> method.
 
-
 ### -param ppVideoProcessor [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_videoprocessor">IDXVAHD_VideoProcessor</a> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a>
- 
-
- 
 

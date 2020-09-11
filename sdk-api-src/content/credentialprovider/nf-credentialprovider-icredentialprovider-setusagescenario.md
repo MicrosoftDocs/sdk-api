@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 62577b41-e115-45df-9f9b-c5c282365a3e
 ms.date: 12/05/2018
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, CREDUIWIN_SECURE_PROMPT, ICredentialProvider interface [Windows Shell],SetUsageScenario method, ICredentialProvider.SetUsageScenario, ICredentialProvider::SetUsageScenario, SetUsageScenario, SetUsageScenario method [Windows Shell], SetUsageScenario method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::SetUsageScenario, shell.ICredentialProvider_SetUsageScenario, shell_ICredentialProvider_SetUsageScenario
-f1_keywords:
-- credentialprovider/ICredentialProvider.SetUsageScenario
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- ICredentialProvider.SetUsageScenario
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProvider::SetUsageScenario
+ - credentialprovider/ICredentialProvider::SetUsageScenario
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - ICredentialProvider.SetUsageScenario
 ---
 
 # ICredentialProvider::SetUsageScenario
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the scenarios for which the credential provider is valid. Called whenever the credential provider is initialized.
 
-
 ## -parameters
-
-
-
 
 ### -param cpus [in]
 
 Type: <b><a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
 
 The scenario the credential provider has been created in. This is the usage scenario that needs to be supported. See the Remarks for more information.
-
 
 ### -param dwFlags [in]
 
@@ -120,25 +115,15 @@ to determine how many credential tiles to enumerate. This value cannot be combin
 
 0x10000000. Buffers passed to the provider are 32-bit. Buffers returned from the provider must also be 32-bit. This is necessary for WOW64.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is required and enables the credential provider to indicate how it will be used.
 
 This method should return <b>E_NOTIMPL</b> if the call completes but the requested usage scenario is not supported. This method should return <b>S_OK</b> if the method is successful and the usage scenario is supported.
-
-
 

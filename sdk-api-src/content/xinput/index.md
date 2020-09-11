@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: xinput
+f1_keywords:
+ - xinput
+ - xinput/xinput
 ---
 
 # Xinput.h header
 
 
 ## -description
-
 
 This header is used by XInput Game Controller APIs. For more information, see:
 

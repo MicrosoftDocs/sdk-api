@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 3d1612ee-1eb2-44c1-921e-a84af56a0790
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],InsertEmbedded method, ITextStoreACP.InsertEmbedded, ITextStoreACP::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_insertembedded_ref, textstor/ITextStoreACP::InsertEmbedded, tsf.itextstoreacp_insertembedded
-f1_keywords:
-- textstor/ITextStoreACP.InsertEmbedded
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP.InsertEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP::InsertEmbedded
+ - textstor/ITextStoreACP::InsertEmbedded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP.InsertEmbedded
 ---
 
 # ITextStoreACP::InsertEmbedded
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Inserts an embedded object at the specified character.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Must be TS_IE_CORRECTION.
 
-
 ### -param acpStart [in]
 
 Contains the starting character position where the object is inserted.
-
 
 ### -param acpEnd [in]
 
 Contains the ending character position where the object is inserted.
 
-
 ### -param pDataObject [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that contains data about the object inserted.
-
 
 ### -param pChange [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure that receives data about the modified text.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -161,15 +150,8 @@ The caller does not have a read/write lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
@@ -186,7 +168,4 @@ The caller does not have a read/write lock.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
- 
-
- 
 

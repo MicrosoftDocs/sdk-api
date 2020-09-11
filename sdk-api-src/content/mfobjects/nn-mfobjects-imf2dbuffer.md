@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7
 ms.date: 12/05/2018
 ms.keywords: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7, IMF2DBuffer, IMF2DBuffer interface [Media Foundation], IMF2DBuffer interface [Media Foundation],described, mf.imf2dbuffer, mfobjects/IMF2DBuffer
-f1_keywords:
-- mfobjects/IMF2DBuffer
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMF2DBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMF2DBuffer
+ - mfobjects/IMF2DBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMF2DBuffer
 ---
 
 # IMF2DBuffer interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a buffer that contains a two-dimensional surface, such as a video frame.
-        
-
 
 ## -inheritance
 
@@ -140,12 +138,9 @@ Unlocks a buffer that was previously locked.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a pointer to this interface, call <b>QueryInterface</b> on the media buffer.
 
@@ -165,13 +160,7 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mf
 
 For uncompressed images, the amount of valid data in the buffer is determined by the width, height, and pixel layout of the image. For this reason, if you call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">Lock2D</a> to access the buffer, do not rely on the values returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength">IMFMediaBuffer::GetMaxLength</a>. Similarly, if you modify the data in the buffer, you do not have to call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">IMFMediaBuffer::SetCurrentLength</a> to update the size. Generally, you should avoid mixing calls to <b>IMF2DBuffer</b> and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> methods on the same media buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
@@ -182,7 +171,4 @@ For uncompressed images, the amount of valid data in the buffer is determined by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
- 
-
- 
 

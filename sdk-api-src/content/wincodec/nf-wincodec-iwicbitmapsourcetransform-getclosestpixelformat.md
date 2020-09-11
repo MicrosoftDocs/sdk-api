@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 153c5e2a-c42f-4949-9313-48d5e186ecf3
 ms.date: 12/05/2018
 ms.keywords: GetClosestPixelFormat, GetClosestPixelFormat method [Windows Imaging Component], GetClosestPixelFormat method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],GetClosestPixelFormat method, IWICBitmapSourceTransform.GetClosestPixelFormat, IWICBitmapSourceTransform::GetClosestPixelFormat, _wic_codec_iwicbitmapsourcetransform_getclosestpixelformat, wic._wic_codec_iwicbitmapsourcetransform_getclosestpixelformat, wincodec/IWICBitmapSourceTransform::GetClosestPixelFormat
-f1_keywords:
-- wincodec/IWICBitmapSourceTransform.GetClosestPixelFormat
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.lib
-- Windowscodecs.dll
-api_name:
-- IWICBitmapSourceTransform.GetClosestPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapSourceTransform::GetClosestPixelFormat
+ - wincodec/IWICBitmapSourceTransform::GetClosestPixelFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.lib
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapSourceTransform.GetClosestPixelFormat
 ---
 
 # IWICBitmapSourceTransform::GetClosestPixelFormat
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the closest pixel format to which the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a> can natively copy pixels, given a desired format.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidDstFormat [in, out]
 
@@ -65,21 +61,13 @@ Type: <b>WICPixelFormatGUID*</b>
 
 A pointer that receives the GUID of the pixel format that is the closest supported pixel format of the desired format.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The Windows provided codecs provide the following support:
 
@@ -87,5 +75,4 @@ The Windows provided codecs provide the following support:
 <li>BMP, ICO, GIF, TIFF: No implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a>.</li>
 <li>JPEG, PNG, JPEG-XR: Trivial support (always returns the same value as <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getpixelformat">IWICBitmapFrameDecode::GetPixelFormat</a>).</li>
 </ul>
-
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 53bf55a2-0cfa-4612-bca7-c6693f84e18f
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [COM+], Activate method [COM+],IObjectControl interface, IObjectControl interface [COM+],Activate method, IObjectControl.Activate, IObjectControl::Activate, _cos_IObjectControl_Activate, comsvcs/IObjectControl::Activate, cos.iobjectcontrol_activate
-f1_keywords:
-- comsvcs/IObjectControl.Activate
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectControl.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectControl::Activate
+ - comsvcs/IObjectControl::Activate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectControl.Activate
 ---
 
 # IObjectControl::Activate
@@ -49,30 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a COM+ object to perform context-specific initialization whenever it is activated. This method is called by the COM+ run-time environment before any other methods are called on the object.
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 Whenever a client calls a COM+ object that isn't already active, the COM+ run-time environment automatically activates the object. This is called <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a>. For components that support <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a> as an interface, COM+ invokes the object's <b>Activate</b> method before passing the client's method call on to the object.
 
@@ -88,17 +74,7 @@ COM+ expressly forbids calling into an object that exposes <a href="https://docs
 
 You can also use the <b>Activate</b> method to obtain a reference to the object's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a> interface and check the security ID of the object's creator before any methods are called.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a>
- 
-
- 
 

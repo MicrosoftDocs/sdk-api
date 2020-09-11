@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 3847AF32-D8E4-4BB2-9FBC-7CFAEF2CA664
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleReader, IAppxBundleReader interface [App packaging and management], IAppxBundleReader interface [App packaging and management],described, appxpackaging/IAppxBundleReader, appxpkg.iappxbundlereader
-f1_keywords:
-- appxpackaging/IAppxBundleReader
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleReader
+ - appxpackaging/IAppxBundleReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleReader
 ---
 
 # IAppxBundleReader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a read-only object model for bundle packages.
-
 
 ## -inheritance
 
@@ -113,16 +112,11 @@ Retrieves an enumerator that iterates over the list of all payload packages in t
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlefactory-createbundlereader">CreateBundleReader</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a> interface to retrieve the <b>IAppxBundleReader</b> object. 
 
 Through <b>IAppxBundleReader</b>, you can retrieve both footprint files, such as the bundle’s manifest, block map, and signature, and app packages that are contained in the bundle.
-
-
 

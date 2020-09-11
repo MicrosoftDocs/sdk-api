@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: ebedf664-4c45-49c3-9d86-c3d782077a00
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linecompletetransfer, lineCompleteTransfer, lineCompleteTransfer function [TAPI 2.2], tapi/lineCompleteTransfer, tapi2.linecompletetransfer
-f1_keywords:
-- tapi/lineCompleteTransfer
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineCompleteTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineCompleteTransfer
+ - tapi/lineCompleteTransfer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineCompleteTransfer
 ---
 
 # lineCompleteTransfer function
@@ -49,52 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineCompleteTransfer</b> function completes the transfer of the specified call to the party connected in the consultation call.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to the call to be transferred. The application must be an owner of this call. The call state of <i>hCall</i> must be <i>onHold</i> or <i>onHoldPendingTransfer</i>.
 
-
 ### -param hConsultCall
 
 Handle to the call that represents a connection with the destination of the transfer. The application must be an owner of this call. The call state of <i>hConsultCall</i> must be <i>connected</i>, <i>ringback</i>, <i>busy</i>, or <i>proceeding</i>.
 
-
 ### -param lphConfCall
 
 Pointer to a memory location where an <i>hCall</i> handle can be returned. If <i>dwTransferMode</i> is LINETRANSFERMODE_CONFERENCE, the newly created conference call is returned in <i>lphConfCall</i> and the application becomes the sole owner of the conference call. Otherwise, this parameter is ignored by TAPI.
-
 
 ### -param dwTransferMode
 
 How the initiated transfer request is to be resolved. This parameter uses one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linetransfermode--constants">LINETRANSFERMODE_ Constants</a>.
 
-
 ## -returns
-
-
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_NOTOWNER, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCONSULTCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALTRANSFERMODE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED, LINEERR_NOMEM.
 
-
-
-
 ## -remarks
-
-
 
 The LINE_REPLY message sent in response to a call to the 
 <b>lineCompleteTransfer</b> function is based on the status of the call specified by the <i>hCall</i> parameter.
@@ -117,13 +102,7 @@ If
 It can also be possible to perform a blind transfer of a call using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineblindtransfer">lineBlindTransfer</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
@@ -158,7 +137,4 @@ It can also be possible to perform a blind transfer of a call using
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetuptransfer">lineSetupTransfer</a>
- 
-
- 
 

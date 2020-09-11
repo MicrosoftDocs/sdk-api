@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 846d4e21-5255-491a-a8aa-5bb19b62a050
 ms.date: 12/05/2018
 ms.keywords: IWMCredentialCallback, IWMCredentialCallback interface [windows Media Format], IWMCredentialCallback interface [windows Media Format],described, IWMCredentialCallbackInterface, wmformat.iwmcredentialcallback, wmsdkidl/IWMCredentialCallback
-f1_keywords:
-- wmsdkidl/IWMCredentialCallback
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMCredentialCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCredentialCallback
+ - wmsdkidl/IWMCredentialCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMCredentialCallback
 ---
 
 # IWMCredentialCallback interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMCredentialCallback</b> interface is a callback interface used by the reader object to acquire user credentials. When the reader object receives an authentication challenge from the server, it calls the application's <b>AcquireCredentials</b> method to get the credentials of the user, in order to access the remote site. This interface is implemented by the application.
-
-
-
 
 ## -inheritance
 
@@ -80,13 +76,9 @@ Acquires the credentials of the user, to verify that the user has permission to 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/authentication">Authentication</a>
 
@@ -97,7 +89,4 @@ Acquires the credentials of the user, to verify that the user has permission to 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
- 
-
- 
 

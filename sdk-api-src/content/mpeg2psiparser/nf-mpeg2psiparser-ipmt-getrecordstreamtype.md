@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: c3e17c0c-88ea-4143-aa9b-da2c5bf2069f
 ms.date: 12/05/2018
 ms.keywords: GetRecordStreamType, GetRecordStreamType method [Microsoft TV Technologies], GetRecordStreamType method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordStreamType method, IPMT.GetRecordStreamType, IPMT::GetRecordStreamType, IPMTGetRecordStreamType, mpeg2psiparser/IPMT::GetRecordStreamType, mstv.ipmt_getrecordstreamtype
-f1_keywords:
-- mpeg2psiparser/IPMT.GetRecordStreamType
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPMT.GetRecordStreamType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPMT::GetRecordStreamType
+ - mpeg2psiparser/IPMT::GetRecordStreamType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPMT.GetRecordStreamType
 ---
 
 # IPMT::GetRecordStreamType
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetRecordStreamType</b> method returns the stream type for a given elementary stream in the program.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
 Specifies the record number, indexed from zero. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getcountofrecords">IPMT::GetCountOfRecords</a> method to get the number of records in the PMT.
 
-
 ### -param pbVal [out]
 
 Receives the stream_type field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -116,18 +105,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
- 
-
- 
 

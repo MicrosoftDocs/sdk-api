@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor(uint16_t)
 ms.date: 12/05/2018
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(uint16_t), XMU565::XMU565, XMU565::XMU565(uint16_t), dxmath.xmu565_ctor_2
-f1_keywords:
-- directxpackedvector/XMU565.XMU565
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMU565.XMU565
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMU565::XMU565
+ - directxpackedvector/XMU565::XMU565
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMU565.XMU565
 ---
 
 # XMU565::XMU565(uint16_t)
 
 
 ## -description
-
 
 Initializes a new instance of <code>XMU565</code> from a <code>uint16_t</code> variable containing
 	component data in a packed format.
@@ -60,17 +60,11 @@ This constructor initializes a new instance of <a href="https://docs.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param Packed
 
 		The values of three vector components in a packed format.
 
-
 ## -remarks
-
-
 
 The values defining the three components of the new instance of <code>XMU565</code> are
 	    stored in the argument <code>Packed</code> as follows:
@@ -97,12 +91,7 @@ The third 5 bits (bits 11-15) of <b>Packed</b> assigned, as an integer, to
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -113,7 +102,4 @@ The third 5 bits (bits 11-15) of <b>Packed</b> assigned, as an integer, to
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: ce98b0a6-f4b3-4f49-897a-f144af7dfc49
 ms.date: 12/05/2018
 ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions], GetRelativeUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelativeUri method, IOpcUri.GetRelativeUri, IOpcUri::GetRelativeUri, msopc/IOpcUri::GetRelativeUri, opc.iopcuri_getrelativeuri
-f1_keywords:
-- msopc/IOpcUri.GetRelativeUri
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcUri.GetRelativeUri
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcUri::GetRelativeUri
+ - msopc/IOpcUri::GetRelativeUri
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcUri.GetRelativeUri
 ---
 
 # IOpcUri::GetRelativeUri
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
  Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
 
-
 ## -parameters
-
-
-
 
 ### -param targetPartUri [in]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface of the part URI object that represents the part name from which the relative URI is formed.
 
-
 ### -param relativeUri [out, retval]
 
 A pointer to the <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUri</a> interface of the URI of the part, relative to the current OPC URI object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -124,14 +116,8 @@ An <b>HRESULT</b> error code from a  <a href="https://docs.microsoft.com/windows
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Example input and output:
 
@@ -172,13 +158,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
@@ -209,7 +189,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

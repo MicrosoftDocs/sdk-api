@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcaretindex.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetCaretIndex, ListBox_SetCaretIndex macro [Windows Controls], _win32_ListBox_SetCaretIndex, _win32_ListBox_SetCaretIndex_cpp, controls.ListBox_SetCaretIndex, controls._win32_ListBox_SetCaretIndex, windowsx/ListBox_SetCaretIndex
-f1_keywords:
-- windowsx/ListBox_SetCaretIndex
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ListBox_SetCaretIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListBox_SetCaretIndex
+ - windowsx/ListBox_SetCaretIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ListBox_SetCaretIndex
 ---
 
 # ListBox_SetCaretIndex macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lb-setcaretindex">LB_SETCARETINDEX</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndCtl
 
@@ -64,21 +60,15 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the control.
 
-
 ### -param index
 
 Type: <b>int</b>
 
- the zero-based index of the list box item that is to receive the focus rectangle. 
-
+ the zero-based index of the list box item that is to receive the focus rectangle.
 
 ## -remarks
-
-
 
 The contents of the list box are scrolled till the item is fully visible.
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/controls/lb-setcaretindex">LB_SETCARETINDEX</a>.
-
-
 

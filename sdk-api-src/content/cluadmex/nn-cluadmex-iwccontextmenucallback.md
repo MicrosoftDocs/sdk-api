@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 50dbb062-100a-40af-8e52-7bd4574334f4
 ms.date: 12/05/2018
 ms.keywords: IWCContextMenuCallback, IWCContextMenuCallback interface [Failover Cluster], IWCContextMenuCallback interface [Failover Cluster],described, _wolf_iwccontextmenucallback, cluadmex/IWCContextMenuCallback, mscs.iwccontextmenucallback
-f1_keywords:
-- cluadmex/IWCContextMenuCallback
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWCContextMenuCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCContextMenuCallback
+ - cluadmex/IWCContextMenuCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWCContextMenuCallback
 ---
 
 # IWCContextMenuCallback interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is available for use in the operating systems specified in the Requirements 
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IWCContextMenuCallback</b> interface is called by a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extension to add items 
      to a Failover Cluster Administrator context menu.
-
 
 ## -inheritance
 
@@ -82,32 +81,20 @@ Adds a menu item to a Failover Cluster Administrator context menu.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use the <i>piCallback</i> pointer that you receive when Failover Cluster Administrator calls 
      your 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a> 
      method to call the <b>IWCContextMenuCallback</b> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-callback-interfaces">Failover Cluster Administrator Callback Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a>
- 
-
- 
 

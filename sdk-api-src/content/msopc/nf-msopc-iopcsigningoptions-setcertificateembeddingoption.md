@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: afae4b98-c05f-4fa3-bb1e-f9f43ee86e64
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetCertificateEmbeddingOption method, IOpcSigningOptions.SetCertificateEmbeddingOption, IOpcSigningOptions::SetCertificateEmbeddingOption, SetCertificateEmbeddingOption, SetCertificateEmbeddingOption method [Open Packaging Conventions], SetCertificateEmbeddingOption method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetCertificateEmbeddingOption, opc.iopcsigningoptions_setcertificateembeddingoption
-f1_keywords:
-- msopc/IOpcSigningOptions.SetCertificateEmbeddingOption
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSigningOptions.SetCertificateEmbeddingOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSigningOptions::SetCertificateEmbeddingOption
+ - msopc/IOpcSigningOptions::SetCertificateEmbeddingOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSigningOptions.SetCertificateEmbeddingOption
 ---
 
 # IOpcSigningOptions::SetCertificateEmbeddingOption
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Set the storage location of the certificate to be used for the signature.
 
-
 ## -parameters
-
-
-
 
 ### -param embeddingOption [in]
 
 The <a href="/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> value that describes the location of the certificate.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,14 +90,8 @@ The <i>embeddingOption</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method changes the location of the certificate from the default location, <b>OPC_CERTIFICATE_IN_CERTIFICATE_PART</b>, to a location that is specified by the caller.
 
@@ -117,13 +104,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -174,7 +155,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

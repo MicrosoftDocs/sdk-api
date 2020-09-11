@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 74708744-78BF-4135-BB0A-50A7CA41ECDD
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], ISpatialAudioMetadataCopier interface [Core Audio],described, coreaudio.ispatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataCopier
-f1_keywords:
-- spatialaudiometadata/ISpatialAudioMetadataCopier
-dev_langs:
-- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SpatialAudioMetadata.h
-api_name:
-- ISpatialAudioMetadataCopier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioMetadataCopier
+ - spatialaudiometadata/ISpatialAudioMetadataCopier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SpatialAudioMetadata.h
+api_name:
+ - ISpatialAudioMetadataCopier
 ---
 
 # ISpatialAudioMetadataCopier interface
 
 
 ## -description
-
 
 Provides methods for copying all or subsets of metadata items from a source <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">SpatialAudioMetadataItems</a> into a destination <b>SpatialAudioMetadataItems</b>.
 The <b>SpatialAudioMetadataItems</b> object, which is populated using an  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a> or <b>ISpatialAudioMetadataCopier</b>, has a frame count, specified with the <i>frameCount</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadataitems">ActivateSpatialAudioMetadataItems</a>,
@@ -57,7 +57,6 @@ groups of items within a subrange of the total frame count.  The object
 maintains an internal read position, which is advanced by the number of frames specified when a copy operation is performed.
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
-
 
 ## -inheritance
 
@@ -101,5 +100,5 @@ Opens an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiomet
 
 </td>
 </tr>
-</table> 
+</table>
 

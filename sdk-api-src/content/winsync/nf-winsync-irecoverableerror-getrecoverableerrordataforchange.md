@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: e6fbc99f-ae01-4f5e-b22c-bd802520ae39
 ms.date: 12/05/2018
 ms.keywords: GetRecoverableErrorDataForChange, GetRecoverableErrorDataForChange method [Windows Sync], GetRecoverableErrorDataForChange method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChange method, IRecoverableError.GetRecoverableErrorDataForChange, IRecoverableError::GetRecoverableErrorDataForChange, winsync.irecoverableerror_getrecoverableerrordataforchange, winsync/IRecoverableError::GetRecoverableErrorDataForChange
-f1_keywords:
-- winsync/IRecoverableError.GetRecoverableErrorDataForChange
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRecoverableError.GetRecoverableErrorDataForChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecoverableError::GetRecoverableErrorDataForChange
+ - winsync/IRecoverableError::GetRecoverableErrorDataForChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRecoverableError.GetRecoverableErrorDataForChange
 ---
 
 # IRecoverableError::GetRecoverableErrorDataForChange
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets additional data about the recoverable error.
 
-
 ## -parameters
-
-
-
 
 ### -param phrError [out]
 
 Returns the error code that is associated with the error that prevented the change unit data from being applied.
 
-
 ### -param ppErrorData [out]
 
 Returns additional information about the error.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -102,18 +94,8 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerror">IRecoverableError Interface</a>
- 
-
- 
 

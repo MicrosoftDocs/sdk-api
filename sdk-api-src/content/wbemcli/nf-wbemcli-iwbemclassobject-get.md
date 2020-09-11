@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: e4f6c28b-42d7-4109-803e-d3aac4d8509e
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Get method, IWbemClassObject.Get, IWbemClassObject::Get, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_get, wbemcli/IWbemClassObject::Get, wmi.iwbemclassobject_get
-f1_keywords:
-- wbemcli/IWbemClassObject.Get
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CIMWin32.dll
-- Esscli.dll
-- Fastprox.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Krnlprov.dll
-- Ncprov.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wmipiprt.dll
-api_name:
-- IWbemClassObject.Get
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemClassObject::Get
+ - wbemcli/IWbemClassObject::Get
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CIMWin32.dll
+ - Esscli.dll
+ - Fastprox.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Krnlprov.dll
+ - Ncprov.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wmipiprt.dll
+api_name:
+ - IWbemClassObject.Get
 ---
 
 # IWbemClassObject::Get
@@ -58,36 +59,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemClassObject::Get</b> method retrieves the specified property value, if it exists. This method can also return 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param wszName [in]
 
 Name of the desired property. It is treated as read-only.
 
-
 ### -param lFlags [in]
 
 Reserved. This parameter must be 0 (zero).
-
 
 ### -param pVal [out]
 
 When successful, this parameter is assigned the correct type and value for the qualifier, and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit">VariantInit</a> function is called on <i>pVal</i>. It is the responsibility of the caller to call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> on <i>pVal</i> when the value is not needed. If there is an error, the value that <i>pVal</i> points to is not modified. If an uninitialized <i>pVal</i> value is passed to the method, then the caller must check the return value of the method, and call <b>VariantClear</b> only when the method succeeds.
 
-
 ### -param pType [out, optional]
 
 Can be <b>NULL</b>. If it is not <b>NULL</b>, it receives the CIM type of the property, that is, one of the CIM-type constants, such as <b>CIM_SINT32</b>, <b>CIM_STRING</b>, and so on. For more information about these values, see <a href="/windows/win32/api/wbemcli/ne-wbemcli-cimtype_enumeration">CIMTYPE_ENUMERATION</a>. This indicates the CIM semantics of the property value packed into <b>VARIANT</b>.
-
 
 ### -param plFlavor [out, optional]
 
@@ -115,19 +107,11 @@ For classes only. The property belongs to the derived child class.
 
 For instances only. The property is modified at the instance level—that is, a value was supplied, or a qualifier was added or modified.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained in an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the  type of the property is an object path, date/time string, or other special type, then the returned values in the <b>VARIANT</b> do not contain enough information to identify the true type. The <i>pvtType</i> out parameter indicates this.
 
@@ -180,14 +164,7 @@ VariantClear(&v);
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
@@ -206,7 +183,4 @@ VariantClear(&v);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
- 
-
- 
 

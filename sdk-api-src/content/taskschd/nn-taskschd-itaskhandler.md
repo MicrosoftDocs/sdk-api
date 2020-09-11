@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: ea3100d7-a80b-4487-9786-24124f2d72f1
 ms.date: 12/05/2018
 ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], ITaskHandler interface [Task Scheduler],described, taskschd.itaskhandler, taskschd/ITaskHandler
-f1_keywords:
-- taskschd/ITaskHandler
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskHandler
+ - taskschd/ITaskHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskHandler
 ---
 
 # ITaskHandler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the methods that are called by the Task Scheduler service to manage a COM handler.
-
 
 ## -inheritance
 
@@ -104,20 +103,13 @@ Required. Called to stop the COM handler.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

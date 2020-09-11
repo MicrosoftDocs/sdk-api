@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 531502ac-8e89-46ee-a426-86e22a9dbe8d
 ms.date: 12/05/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, EnrollmentPolicyServerPropertyFlags, EnrollmentPolicyServerPropertyFlags enumeration [Security], certenroll/DefaultNone, certenroll/DefaultPolicyServer, certenroll/EnrollmentPolicyServerPropertyFlags, security.enrollmentpolicyserverpropertyflags
-f1_keywords:
-- certenroll/EnrollmentPolicyServerPropertyFlags
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Certenroll.h
-api_name:
-- EnrollmentPolicyServerPropertyFlags
 targetos: Windows
 req.typenames: EnrollmentPolicyServerPropertyFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnrollmentPolicyServerPropertyFlags
+ - certenroll/EnrollmentPolicyServerPropertyFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Certenroll.h
+api_name:
+ - EnrollmentPolicyServerPropertyFlags
 ---
 
 # EnrollmentPolicyServerPropertyFlags enumeration
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnrollmentPolicyServerPropertyFlags</b> enumeration specifies the default policy server. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DefaultNone
 
 No default policy server URL has been specified.
 
-
 ### -field DefaultPolicyServer
 
 The policy server URL returned by <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a>
- 
-
- 
 

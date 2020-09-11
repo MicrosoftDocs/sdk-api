@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: fcc2840b-d302-4cd6-b576-1826c83b711e
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster interface [IMAPI],SetActiveDiscMasterFormat method, IDiscMaster.SetActiveDiscMasterFormat, IDiscMaster::SetActiveDiscMasterFormat, SetActiveDiscMasterFormat, SetActiveDiscMasterFormat method [IMAPI], SetActiveDiscMasterFormat method [IMAPI],IDiscMaster interface, _win32_idiscmaster_setactivediscmasterformat, base.idiscmaster_setactivediscmasterformat, imapi.idiscmaster_setactivediscmasterformat, imapi/IDiscMaster::SetActiveDiscMasterFormat
-f1_keywords:
-- imapi/IDiscMaster.SetActiveDiscMasterFormat
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscMaster.SetActiveDiscMasterFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscMaster::SetActiveDiscMasterFormat
+ - imapi/IDiscMaster::SetActiveDiscMasterFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscMaster.SetActiveDiscMasterFormat
 ---
 
 # IDiscMaster::SetActiveDiscMasterFormat
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the currently active disc recorder format. The active format specifies both the structure of the staged image file content (audio/data) and the COM interface that must be used to manipulate that staged image.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 IID of the currently active format.
 
-
 ### -param ppUnk [out]
 
 Pointer to the COM interface for the new disc format.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
-
-
-
 ## -remarks
-
-
 
 A successful call to this method clears the contents of the currently staged image. In addition, it may change the list of supported disc recorders. This is because not all recorders support all formats. Changes to the recorder list are announced with 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifypnpactivity">IDiscMasterProgressEvents::NotifyPnPActivity</a>. If the currently selected recorder is not a member of the new set of supported devices, then there will no longer be an active recorder (similar to the state after the first call to 
@@ -92,15 +79,7 @@ A successful call to this method clears the contents of the currently staged ima
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-enumdiscrecorders">EnumDiscRecorders</a> for more information.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
- 
-
- 
 

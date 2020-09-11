@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 373b4eb3-af6d-4112-9787-f14c19972189
 ms.date: 12/05/2018
 ms.keywords: '*PPARTITION_INFORMATION_GPT, GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED_GUID, PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Files], PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_SYSTEM_GUID, PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Files], SET_PARTITION_INFORMATION_GPT, _win32_partition_information_gpt_str, base.partition_information_gpt_str, fs.partition_information_gpt_str, winioctl/PARTITION_INFORMATION_GPT, winioctl/PPARTITION_INFORMATION_GPT'
-f1_keywords:
-- winioctl/PARTITION_INFORMATION_GPT
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- PARTITION_INFORMATION_GPT
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
 req.redist: 
+f1_keywords:
+ - _PARTITION_INFORMATION_GPT
+ - winioctl/_PARTITION_INFORMATION_GPT
+ - PPARTITION_INFORMATION_GPT
+ - winioctl/PPARTITION_INFORMATION_GPT
+ - PARTITION_INFORMATION_GPT
+ - winioctl/PARTITION_INFORMATION_GPT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - PARTITION_INFORMATION_GPT
 ---
 
 # PARTITION_INFORMATION_GPT structure
@@ -48,14 +53,9 @@ req.redist:
 
 ## -description
 
-
 Contains <b>GUID</b> partition table (GPT) partition information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PartitionType
 
@@ -173,13 +173,10 @@ This value can be set for basic and dynamic disks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PartitionId
 
 The GUID of the partition.
-
 
 ### -field Attributes
 
@@ -294,17 +291,12 @@ Do not set this attribute for dynamic disks. Setting it can cause I/O errors and
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Name
 
 A wide-character string that describes the partition.
 
-
 ## -remarks
-
-
 
 The GPT partition format is required for disks that are used to boot computers that use 
     Extended Firmware Interface (EFI) firmware. GPT data disks can reside on x86, x64, and Itanium-based 
@@ -314,13 +306,7 @@ Starting with
     Windows Server 2003 with SP1, GPT is supported on all Windows platforms, not only platforms that use 
     EFI.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
 
@@ -335,7 +321,4 @@ Starting with
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
- 
-
- 
 

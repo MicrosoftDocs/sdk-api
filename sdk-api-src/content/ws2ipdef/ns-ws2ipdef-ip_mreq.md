@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 0bcf4c17-679d-42fc-b77e-722ce955d01f
 ms.date: 12/05/2018
 ms.keywords: '*PIP_MREQ, IP_MREQ, IP_MREQ [Winsock], IP_MREQ structure [Winsock], PIP_MREQ, PIP_MREQ structure pointer [Winsock], ip_mreq, ip_mreq structure [Winsock], winsock.ip_mreq, ws2ipdef/PIP_MREQ, ws2ipdef/ip_mreq, ws2tcpip/PIP_MREQ, ws2tcpip/ip_mreq'
-f1_keywords:
-- ws2ipdef/IP_MREQ
-dev_langs:
-- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2ipdef.h
-- Ws2tcpip.h
-api_name:
-- IP_MREQ
 targetos: Windows
 req.typenames: IP_MREQ, *PIP_MREQ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ip_mreq
+ - ws2ipdef/ip_mreq
+ - PIP_MREQ
+ - ws2ipdef/PIP_MREQ
+ - IP_MREQ
+ - ws2ipdef/IP_MREQ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2ipdef.h
+ - Ws2tcpip.h
+api_name:
+ - IP_MREQ
 ---
 
 # IP_MREQ structure
@@ -50,30 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ip_mreq</b> structure provides multicast group information for IPv4 addresses. 
-
+The <b>ip_mreq</b> structure provides multicast group information for IPv4 addresses.
 
 ## -struct-fields
-
-
-
 
 ### -field imr_multiaddr
 
 The address of the IPv4 multicast group.
 
-
 ### -field imr_interface
 
 The local IPv4 address of the interface or the interface index on which the multicast group should be joined or dropped. This value is in network byte order. If this member specifies an IPv4 address of 0.0.0.0, the default IPv4 multicast interface is used. 
 
- To use an interface index of 1 would be the same as an IP address of  0.0.0.1.  
-
+ To use an interface index of 1 would be the same as an IP address of  0.0.0.1.
 
 ## -remarks
-
-
 
 The <b>ip_mreq</b> structure is used with IPv4 addresses. The <b>ip_mreq</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IP_ADD_MEMBERSHIP</a> and <b>IP_DROP_MEMBERSHIP</b> socket options. 
 
@@ -104,12 +100,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 <div class="alert"><b>Note</b>  The <b>IP_MREQ</b> and <b>PIP_MREQ</b> derived structures are only defined on the Windows SDK released with Windows Vista and later. The <b>ip_mreq</b> structure should be used on earlier versions of the Windows SDK. </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a>
 
@@ -148,7 +139,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ipv6_mreq">ipv6_mreq</a>
- 
-
- 
 

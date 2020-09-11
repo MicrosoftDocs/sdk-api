@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 12d717c4-5f81-4bbf-a693-042e51913081
 ms.date: 12/05/2018
 ms.keywords: D2D1_RENDER_TARGET_USAGE, D2D1_RENDER_TARGET_USAGE enumeration [Direct2D], D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING, D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE, D2D1_RENDER_TARGET_USAGE_NONE, d2d1/D2D1_RENDER_TARGET_USAGE, d2d1/D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING, d2d1/D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE, d2d1/D2D1_RENDER_TARGET_USAGE_NONE, direct2d.D2D1_RENDER_TARGET_USAGE
-f1_keywords:
-- d2d1/D2D1_RENDER_TARGET_USAGE
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_RENDER_TARGET_USAGE
 targetos: Windows
 req.typenames: D2D1_RENDER_TARGET_USAGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_RENDER_TARGET_USAGE
+ - d2d1/D2D1_RENDER_TARGET_USAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_RENDER_TARGET_USAGE
 ---
 
 # D2D1_RENDER_TARGET_USAGE enumeration
@@ -49,42 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes how a render target is remoted and whether it should be GDI-compatible. This enumeration allows a bitwise combination of its member values.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_RENDER_TARGET_USAGE_NONE
 
 The render target attempts to use Direct3D command-stream remoting and uses bitmap remoting if stream remoting fails. The render target is not GDI-compatible.
 
-
 ### -field D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING
 
-The render target renders content locally and sends it to the terminal services client as a bitmap. 
-
+The render target renders content locally and sends it to the terminal services client as a bitmap.
 
 ### -field D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE
 
 The render target can be used efficiently with GDI.
 
-
 ### -field D2D1_RENDER_TARGET_USAGE_FORCE_DWORD
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>
- 
-
- 
 

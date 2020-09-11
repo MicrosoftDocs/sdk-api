@@ -3,10 +3,6 @@ UID: NF:gdiplusgraphics.Graphics.BeginContainer~r3
 title: Graphics::BeginContainer
 ms.date: 01/30/19
 ms.keywords: Graphics::BeginContainer
-f1_keywords:
-- gdiplusgraphics/Graphics::BeginContainer
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::BeginContainer
+ - gdiplusgraphics/Graphics::BeginContainer
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::BeginContainer
+ - Graphics::BeginContainer
 ---
 
 # Graphics::BeginContainer
@@ -42,8 +43,7 @@ api_name:
 
 ## -description
 
-The <b>Graphics::BeginContainer</b> method begins a new graphics container. 
-
+The <b>Graphics::BeginContainer</b> method begins a new graphics container.
 
 ## -returns
 
@@ -51,10 +51,7 @@ Type: <b>GraphicsContainer</b>
 
 This method returns a value that identifies the container.
 
-
 ## -remarks
-
-
 
 Use this method to create nested graphics containers. Graphics containers are used to retain graphics state, such as transformations, clipping regions, and various rendering properties.
 
@@ -115,10 +112,7 @@ VOID Example_BeginContainer(HDC hdc)
 }
 ```
 
-
-
 ## -see-also
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
@@ -141,5 +135,4 @@ VOID Example_BeginContainer(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>
- 
 

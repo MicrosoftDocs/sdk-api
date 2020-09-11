@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 8ac1a406-92f3-4e39-985e-ab8fa7d28751
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceCollection, IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,described, functiondiscoveryapi/IFunctionInstanceCollection, ncd.ifunctioninstancecollection
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceCollection
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceCollection
+ - functiondiscoveryapi/IFunctionInstanceCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceCollection
 ---
 
 # IFunctionInstanceCollection interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 This interface represents a group of <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> objects returned as the result of a query or get instance request through one of the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a> methods; client program do not create these collections themselves.
-
 
 ## -inheritance
 
@@ -133,14 +132,9 @@ Deletes the specified function instance and returns a pointer to the function in
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <b>IFunctionInstanceCollection</b> interface allows a client program to enumerate a collection of  <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> objects.
-
-
 

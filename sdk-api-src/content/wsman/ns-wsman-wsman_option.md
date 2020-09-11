@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 9ebb9b21-1418-476d-a7a2-395c77f26dc9
 ms.date: 12/05/2018
 ms.keywords: WSMAN_OPTION, WSMAN_OPTION structure [Windows Remote Management], winrm.wsman_option, wsman/WSMAN_OPTION
-f1_keywords:
-- wsman/WSMAN_OPTION
-dev_langs:
-- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wsman.h
-api_name:
-- WSMAN_OPTION
 targetos: Windows
 req.typenames: WSMAN_OPTION
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WSMAN_OPTION
+ - wsman/_WSMAN_OPTION
+ - WSMAN_OPTION
+ - wsman/WSMAN_OPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wsman.h
+api_name:
+ - WSMAN_OPTION
 ---
 
 # WSMAN_OPTION structure
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a specific option name and value pair.  An option that is not understood and has a <b>mustComply</b> value of <b>TRUE</b> should result in the plug-in operation failing the request with an error.
 
-
 ## -struct-fields
-
-
-
 
 ### -field name
 
 Specifies the name of the option.
 
-
 ### -field value
 
 Specifies the value of the option.
-
 
 ### -field mustComply
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: C46468A6-684D-494c-8261-87F16485B97B
 ms.date: 12/05/2018
 ms.keywords: GetProcessReference, GetProcessReference function [Windows Shell], shell.GetProcessReference, shlwapi/GetProcessReference
-f1_keywords:
-- shlwapi/GetProcessReference
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Api-ms-win-shcore-thread-L1-1-0.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-shcore-thread-L1-1-0.dll
-- ShCore.dll
-api_name:
-- GetProcessReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProcessReference
+ - shlwapi/GetProcessReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-shcore-thread-L1-1-0.dll
+ - ShCore.dll
+api_name:
+ - GetProcessReference
 ---
 
 # GetProcessReference function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the process-specific object supplied by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a>, incrementing the reference count to keep the process alive.
 
-
 ## -parameters
-
-
-
 
 ### -param punk [out]
 
@@ -65,10 +61,7 @@ The address of a pointer that, when this function returns successfully, points t
 
 A pointer to a free-threaded <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. Components can use this interface (through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>) to prevent the host process from terminating. This value can be <b>NULL</b>, in which case the process reference is no longer made available to components.
 
-
 ## -remarks
-
-
 
 There are a number of components, such as Shell extension handlers, that are implemented as DLLs and run in a host process such as Windows Explorer (Explorer.exe) or Windows Internet Explorer (Iexplore.exe). Typically, when the user closes the host process, the component is shut down immediately as well. Such an abrupt termination can create problems for some components. For example, if a component is using a background thread to download data or run user-interface functions, it might need additional time to safely shut itself down.
 
@@ -78,13 +71,7 @@ There are a number of components, such as Shell extension handlers, that are imp
 <div> </div>
 <b>GetProcessReference</b> succeeds only if it is called from from an application which had previously called <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a> to set a process reference.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>
 
@@ -95,7 +82,4 @@ There are a number of components, such as Shell extension handlers, that are imp
 
 
 <a href="https://docs.microsoft.com/windows/desktop/apiindex/windows-apisets">Windows API Sets</a>
- 
-
- 
 

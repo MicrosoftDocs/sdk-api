@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 15d991e0-a271-4427-844f-5e4a9bbc6507
 ms.date: 12/05/2018
 ms.keywords: IWMReaderStreamClock interface [windows Media Format],SetTimer method, IWMReaderStreamClock.SetTimer, IWMReaderStreamClock::SetTimer, IWMReaderStreamClockSetTimer, SetTimer, SetTimer method [windows Media Format], SetTimer method [windows Media Format],IWMReaderStreamClock interface, wmformat.iwmreaderstreamclock_settimer, wmsdkidl/IWMReaderStreamClock::SetTimer
-f1_keywords:
-- wmsdkidl/IWMReaderStreamClock.SetTimer
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderStreamClock.SetTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderStreamClock::SetTimer
+ - wmsdkidl/IWMReaderStreamClock::SetTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderStreamClock.SetTimer
 ---
 
 # IWMReaderStreamClock::SetTimer
@@ -52,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetTimer</b> method sets a timer on the clock.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cnsWhen [in]
 
 Specifies the time at which the reader notifies the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">OnStatus</a> callback, in 100-nanosecond units.
 
-
 ### -param pvParam [in]
 
 Specifies a pointer to the timer context parameters that are returned in the <b>OnStatus</b> callback.
-
 
 ### -param pdwTimerId [out]
 
 Pointer to a <b>DWORD</b> containing the timer identifier.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -124,14 +112,8 @@ Not enough available memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application must execute <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, and successfully receive a WMT_OPENED status notification to its <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method, before it creates any timers.
 
@@ -144,19 +126,11 @@ All timers are automatically terminated when the application stops the reader. W
 <li><i>pvContext</i> is set to the <i>pvParam</i> pointer that is specified in this method</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderstreamclock">IWMReaderStreamClock Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderstreamclock-gettime">IWMReaderStreamClock::GetTime</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: 49F43A0F-5C93-4FEC-870B-17535DE674C5
 ms.date: 12/05/2018
 ms.keywords: IWindowsParentalControlsCore, IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,described, parcon.iwindowsparentalcontrolscore, wpcapi/IWindowsParentalControlsCore
-f1_keywords:
-- wpcapi/IWindowsParentalControlsCore
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWindowsParentalControlsCore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsParentalControlsCore
+ - wpcapi/IWindowsParentalControlsCore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWindowsParentalControlsCore
 ---
 
 # IWindowsParentalControlsCore interface
@@ -50,7 +51,6 @@ ms.custom: 19H1
 ## -description
 
 The **IWindowsParentalControlsCore** interface is used to retrieve pointers for general and web restriction settings as well as identifiers for active Web Content Filters.
-
 
 ## -inheritance
 
@@ -103,4 +103,5 @@ Retrieves a pointer to an interface for web restrictions settings for the specif
 
 </td>
 </tr>
-</table> 
+</table>
+

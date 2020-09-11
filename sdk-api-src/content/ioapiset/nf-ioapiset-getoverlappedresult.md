@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 7f999959-9b22-4491-ae2b-a2674d821110
 ms.date: 12/05/2018
 ms.keywords: GetOverlappedResult, GetOverlappedResult function, _win32_getoverlappedresult, base.getoverlappedresult, ioapiset/GetOverlappedResult, winbase/GetOverlappedResult
-f1_keywords:
-- ioapiset/GetOverlappedResult
-dev_langs:
-- c++
 req.header: ioapiset.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-io-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-io-l1-1-1.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-api_name:
-- GetOverlappedResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetOverlappedResult
+ - ioapiset/GetOverlappedResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+api_name:
+ - GetOverlappedResult
 ---
 
 # GetOverlappedResult function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device. To specify a timeout interval or wait on an alertable thread, use <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresultex">GetOverlappedResultEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -77,12 +73,10 @@ A handle to the file, named pipe, or communications device. This is the same han
 - [LockFileEx](/windows/win32/api/fileapi/nf-fileapi-lockfileex)
 - [ReadDirectoryChangesW](/windows/win32/api/winbase/nf-winbase-readdirectorychangesw)
 
-
 ### -param lpOverlapped [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
-
 
 ### -param lpNumberOfBytesTransferred [out]
 
@@ -92,28 +86,19 @@ A pointer to a variable that receives the number of bytes that were actually tra
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> operation, this value is undefined.
 
-
 ### -param bWait [in]
 
 If this parameter is <b>TRUE</b>, and the <b>Internal</b> member of the <i>lpOverlapped</i> structure is <b>STATUS_PENDING</b>, the function does not return until the operation has been completed. If this parameter is <b>FALSE</b> and the operation is still pending, the function returns <b>FALSE</b> and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_IO_INCOMPLETE</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The results reported by the 
 <b>GetOverlappedResult</b> function are those of the specified handle's last overlapped operation to which the specified 
@@ -134,3 +119,4 @@ For an example that uses **GetOverlappedResult**, see [Testing for the End of a 
 ## -see-also
 
 [CancelIo](/windows/win32/FileIO/cancelio), [CreateEvent](/windows/win32/api/synchapi/nf-synchapi-createeventa), [GetOverlappedResultEx](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex), [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped), [Overlapped Input and Output](/windows/win32/Sync/synchronization-and-overlapped-input-and-output), [Synchronization Functions](/windows/win32/Sync/synchronization-functions)
+

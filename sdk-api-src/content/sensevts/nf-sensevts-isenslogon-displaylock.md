@@ -8,10 +8,6 @@ tech.root: Sens
 ms.assetid: 1675ffc7-7031-492d-bf39-64281a16a074
 ms.date: 12/05/2018
 ms.keywords: DisplayLock, DisplayLock method [SENS], DisplayLock method [SENS],ISensLogon interface, ISensLogon interface [SENS],DisplayLock method, ISensLogon.DisplayLock, ISensLogon::DisplayLock, _zaw_isenslogon_displaylock, sens.isenslogon_displaylock, sensevts/ISensLogon::DisplayLock, syncmgr.isenslogon_displaylock
-f1_keywords:
-- sensevts/ISensLogon.DisplayLock
-dev_langs:
-- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Sensevts.tlb
 req.lib: 
 req.dll: Sens.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sens.dll
-api_name:
-- ISensLogon.DisplayLock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensLogon::DisplayLock
+ - sensevts/ISensLogon::DisplayLock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sens.dll
+api_name:
+ - ISensLogon.DisplayLock
 ---
 
 # ISensLogon::DisplayLock
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DisplayLock</b> method notifies an application that the screen display is locked.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrUserName [in]
 
 The name of a current user.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -87,26 +80,15 @@ The method returns successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 SENS calls this method to notify an application that the screen display is locked.
 
 <div class="alert"><b>Important</b>  This function will not work with multiple logins through Remote Desktop Services and does not support Remote Desktop Services or Fast-User Switching scenarios. Desktop applications can register for session changes notifications by calling <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a>. Services can handle session change notifications via SERVICE_CONTROL_SESSIONCHANGE control codes in their <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> callback function.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
@@ -133,7 +115,4 @@ SENS calls this method to notify an application that the screen display is locke
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-stopscreensaver">ISensLogon::StopScreenSaver</a>
- 
-
- 
 

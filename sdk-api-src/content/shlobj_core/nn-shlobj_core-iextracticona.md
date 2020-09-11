@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f8e0ab98-c225-4cc1-93f8-b7ab6b2f706f
 ms.date: 12/05/2018
 ms.keywords: IExtractIcon, IExtractIcon interface [Windows Shell], IExtractIcon interface [Windows Shell],described, IExtractIconA, IExtractIconW, _win32_IExtractIcon, shell.IExtractIcon, shlobj_core/IExtractIcon
-f1_keywords:
-- shlobj_core/IExtractIcon
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IExtractIcon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExtractIconA
+ - shlobj_core/IExtractIconA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IExtractIcon
 ---
 
 # IExtractIconA interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow a client to retrieve the icon that is associated with one of the objects in a folder.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Gets the location and index of an icon.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 There are two ways to retrieve an object's icon. The simplest way is to call <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a>. However, this approach is inflexible and may be slow. A more flexible and efficient way to retrieve an item's icon is to use <b>IExtractIcon</b>. The Shell uses <b>IExtractIcon</b> to retrieve icons when it displays the contents of a folder. To use <b>IExtractIcon</b> to retrieve an object's icon, do the following:
 

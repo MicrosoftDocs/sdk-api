@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e3b08b80-b81d-444b-86f6-2d10607ad02e
 ms.date: 12/05/2018
 ms.keywords: IVdsController interface [VDS],Reset method, IVdsController.Reset, IVdsController::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsController interface, base.ivdscontroller_reset, vds/IVdsController::Reset, vdshwprv/IVdsController::Reset
-f1_keywords:
-- vds/IVdsController.Reset
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsController.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsController::Reset
+ - vds/IVdsController::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsController.Reset
 ---
 
 # IVdsController::Reset
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Reinitializes the controller and invalidates the cache.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -123,15 +115,8 @@ This operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontroller">IVdsController</a>
 
@@ -146,7 +131,4 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
- 
-
- 
 

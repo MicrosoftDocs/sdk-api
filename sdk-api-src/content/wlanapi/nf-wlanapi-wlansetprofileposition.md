@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 06ef9f55-b425-4f61-9b9e-3c27cc3796f6
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfilePosition, WlanSetProfilePosition function [NativeWIFI], nwifi.wlansetprofileposition, wlanapi/WlanSetProfilePosition
-f1_keywords:
-- wlanapi/WlanSetProfilePosition
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanSetProfilePosition
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanSetProfilePosition
+ - wlanapi/WlanSetProfilePosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanSetProfilePosition
 ---
 
 # WlanSetProfilePosition function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanSetProfilePosition</b> function sets the position of a single, specified profile in the preference list.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
-
 ### -param pInterfaceGuid [in]
 
 The GUID of the interface.
-
 
 ### -param strProfileName [in]
 
@@ -74,20 +68,15 @@ The name of the profile. Profile names are case-sensitive. This string must be N
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The supplied name must match the profile name derived automatically from the SSID of the network. For an infrastructure network profile, the SSID must be supplied for the profile name. For an ad hoc network profile, the supplied name must be the SSID of the ad hoc network followed by <code>-adhoc</code>.
 
-
 ### -param dwPosition [in]
 
 Indicates the position in the preference list that the profile should be shifted to.  0 (zero) corresponds to the first profile in the list that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a> function.
-
 
 ### -param pReserved
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -145,14 +134,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The position of group policy profiles cannot be changed.
 
@@ -166,17 +149,9 @@ Guest profiles, profiles with Wireless Provisioning Service (WPS) authentication
 
 All wireless LAN functions require an interface GUID for the wireless interface when performing profile operations. When a wireless interface is removed, its state is cleared from Wireless LAN Service (WLANSVC)  and no profile operations are possible.
 
-The <b>WlanSetProfilePosition</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example). 
-
-
-
-
-
+The <b>WlanSetProfilePosition</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
@@ -191,7 +166,4 @@ The <b>WlanSetProfilePosition</b> function can fail with <b>ERROR_INVALID_PARAME
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilelist">WlanSetProfileList</a>
- 
-
- 
 

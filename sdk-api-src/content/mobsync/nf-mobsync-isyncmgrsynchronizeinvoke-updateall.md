@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 94731c78-b7cf-4ad2-afe5-6355830a5550
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateAll method, ISyncMgrSynchronizeInvoke.UpdateAll, ISyncMgrSynchronizeInvoke::UpdateAll, UpdateAll, UpdateAll method [Windows Shell], UpdateAll method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateAll, shell.syncmgr_isyncmgrsynchronizeinvoke_updateall, syncmgr.isyncmgrsynchronizeinvoke_updateall
-f1_keywords:
-- mobsync/ISyncMgrSynchronizeInvoke.UpdateAll
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrSynchronizeInvoke.UpdateAll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSynchronizeInvoke::UpdateAll
+ - mobsync/ISyncMgrSynchronizeInvoke::UpdateAll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrSynchronizeInvoke.UpdateAll
 ---
 
 # ISyncMgrSynchronizeInvoke::UpdateAll
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Programmatically starts an update for all items.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -85,27 +77,12 @@ Call was completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method returns immediately and the synchronization manager performs the synchronizations in a separate process from the calling application.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>
- 
-
- 
 

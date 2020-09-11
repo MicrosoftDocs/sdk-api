@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: bc0648a9-bacf-4b09-aa4e-66aecbbdca3d
 ms.date: 12/05/2018
 ms.keywords: HTTP_INITIALIZE_CONFIG, HTTP_INITIALIZE_SERVER, HttpInitialize, HttpInitialize function [HTTP], _http_httpinitialize, http.httpinitialize, http/HttpInitialize
-f1_keywords:
-- http/HttpInitialize
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpInitialize
+ - http/HttpInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpInitialize
 ---
 
 # HttpInitialize function
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpInitialize</b> function initializes the HTTP Server API driver, starts it, if it has not already been started, and allocates data structures for the calling application to support response-queue creation and other operations. Call this function before calling any other functions in the HTTP Server API.
 
-
 ## -parameters
-
-
-
 
 ### -param Version [in]
 
 HTTP version. This parameter is an 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure. For the current version, declare an instance of the structure and set it to the pre-defined value HTTPAPI_VERSION_1 before passing it to 
 <b>HttpInitialize</b>.
-
 
 ### -param Flags [in]
 
@@ -99,17 +94,12 @@ Perform initialization for applications that use the HTTP Server API.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved [in, out]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -143,14 +133,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpterminate">HttpTerminate</a> when the application completes. All the same flags that were passed to 
@@ -160,20 +144,11 @@ Call
 <b>HttpInitialize</b> is later matched by a corresponding call to 
 <b>HttpTerminate</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpterminate">HttpTerminate</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: a165d88c-113c-41ed-920e-f8f434578158
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveOption, DhcpRemoveOption function [DHCP], dhcp.dhcpremoveoption, dhcpsapi/DhcpRemoveOption
-f1_keywords:
-- dhcpsapi/DhcpRemoveOption
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpRemoveOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpRemoveOption
+ - dhcpsapi/DhcpRemoveOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpRemoveOption
 ---
 
 # DhcpRemoveOption function
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpRemoveOption</b> function removes the definition of a specific option for the default user class and vendor class at the default option level on the DHCP server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param OptionID [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the code uniquely identifying the specific option to remove from the DHCP server.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -103,22 +94,12 @@ The specified option definition could not be found in the DHCP server database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateoption">DhcpCreateOption</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremoveoptionv5">DhcpRemoveOptionV5</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: acf417ea-2396-4178-84e5-6d6b495476f8
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], IWdsTransportSession interface [Windows Deployment Services],described, wds.iwdstransportsession, wdstptmgmt/IWdsTransportSession
-f1_keywords:
-- wdstptmgmt/IWdsTransportSession
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportSession
+ - wdstptmgmt/IWdsTransportSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportSession
 ---
 
 # IWdsTransportSession interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents an active transport session on the WDS transport server. 
-
+Represents an active transport session on the WDS transport server.
 
 ## -inheritance
 
@@ -191,5 +190,5 @@ Receives the data transfer rate for this session in bytes per second.
 
 </td>
 </tr>
-</table> 
+</table>
 

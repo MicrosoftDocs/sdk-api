@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertyattributes.htm
 ms.date: 12/05/2018
 ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [WIA], GetPropertyAttributes method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyAttributes method, IWiaPropertyStorage.GetPropertyAttributes, IWiaPropertyStorage::GetPropertyAttributes, _wia_IWiaPropertyStorage_GetPropertyAttributes, wia._wia_IWiaPropertyStorage_GetPropertyAttributes, wia_xp/IWiaPropertyStorage::GetPropertyAttributes
-f1_keywords:
-- wia_xp/IWiaPropertyStorage.GetPropertyAttributes
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaPropertyStorage.GetPropertyAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaPropertyStorage::GetPropertyAttributes
+ - wia_xp/IWiaPropertyStorage::GetPropertyAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaPropertyStorage.GetPropertyAttributes
 ---
 
 # IWiaPropertyStorage::GetPropertyAttributes
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaPropertyStorage::GetPropertyAttributes</b> method retrieves access rights and legal value information for a specified set of properties.
 
-
 ## -parameters
-
-
-
 
 ### -param cpspec [in]
 
@@ -64,13 +60,11 @@ Type: <b>ULONG</b>
 
 Specifies the number of property attributes to query.
 
-
 ### -param rgpspec [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a>[]</b>
 
 Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wiadeviceinfoprop">Device Information Property Constants</a>. Each constant in the array selects a property to query.
-
 
 ### -param rgflags [out]
 
@@ -78,17 +72,13 @@ Type: <b>ULONG[]</b>
 
 An array that receives a <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-property-attributes">property attribute descriptor</a> for each property specified in the <i>rgpspec</i> array. Each element in the array is one or more descriptor values combined with a bitwise <b>OR</b> operation.
 
-
 ### -param rgpropvar [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>[]</b>
 
 An array that receives a <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-property-attributes">property attribute descriptor</a> for each property specified in the <i>pPROPSPEC</i> array. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -132,14 +122,8 @@ This method returns one of the following values or a standard COM error code:
 <td>A translation from Unicode to ANSI or ANSI to Unicode failed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method retrieves both property access rights and valid property values. Access rights report whether the property is readable, writeable, or both. Valid property values are specified as a range of values, a list of values, or a group of flag values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-property-attributes">Property Attributes</a>.
 
@@ -229,22 +213,12 @@ where <i>n</i> is the index number of the property that is inspected, and <i>fla
 <td>All values with all valid flag bits set.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a>
- 
-
- 
 

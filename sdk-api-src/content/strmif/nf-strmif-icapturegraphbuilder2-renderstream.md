@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2fb5f13c-2bf5-463b-a209-77129a159bd6
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, ICaptureGraphBuilder2.RenderStream, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream
-f1_keywords:
-- strmif/ICaptureGraphBuilder2.RenderStream
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICaptureGraphBuilder2.RenderStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICaptureGraphBuilder2::RenderStream
+ - strmif/ICaptureGraphBuilder2::RenderStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICaptureGraphBuilder2.RenderStream
 ---
 
 # ICaptureGraphBuilder2::RenderStream
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RenderStream</code> method connects an output pin on a source filter to a sink filter, optionally through an intermediate filter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCategory [in]
 
@@ -76,25 +69,19 @@ A pointer to a GUID that specifies one of the pin categories listed in <a href="
 
 Pointer to a major-type GUID that specifies the media type of the output pin; or <b>NULL</b> to use any pin, regardless of media type. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/major-types">Major Types</a>.
 
-
 ### -param pSource [in]
 
 Specifies a pointer to the starting filter for the connection, or to an output pin.
-
 
 ### -param pfCompressor [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of an intermediate filter, such as a compression filter. Can be <b>NULL</b>.
 
-
 ### -param pfRenderer [in]
 
 Pointer to the <b>IBaseFilter</b> interface of a sink filter, such as a renderer or mux filter. If the value is <b>NULL</b>, the method uses a default renderer (see Remarks).
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible return values include the following.
 
@@ -170,14 +157,8 @@ A filter is not in the filter graph. This error can occur if you did not call <b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method renders a stream by connecting two or more filters together in a chain:
 
@@ -263,13 +244,7 @@ pBuilder-&gt;RenderStream(NULL, NULL, pSrc, NULL, pMux);
 </table></span></div>
 For a complete example, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/recompressing-an-avi-file">Recompressing an AVI File</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/building-graphs-with-the-capture-graph-builder">Building Graphs with the Capture Graph Builder</a>
 
@@ -284,7 +259,4 @@ For a complete example, see <a href="https://docs.microsoft.com/windows/desktop/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-capture">Video Capture</a>
- 
-
- 
 

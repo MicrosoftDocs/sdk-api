@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setextendedstyle.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetExtendedStyle, TreeView_SetExtendedStyle macro [Windows Controls], _shell_TreeView_SetExtendedStyle, _shell_TreeView_SetExtendedStyle_cpp, commctrl/TreeView_SetExtendedStyle, controls.TreeView_SetExtendedStyle, controls._shell_TreeView_SetExtendedStyle
-f1_keywords:
-- commctrl/TreeView_SetExtendedStyle
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TreeView_SetExtendedStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TreeView_SetExtendedStyle
+ - commctrl/TreeView_SetExtendedStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TreeView_SetExtendedStyle
 ---
 
 # TreeView_SetExtendedStyle macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the extended style for a specified TreeView control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setextendedstyle">TVM_SETEXTENDEDSTYLE</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the TreeView control.
 
-
 ### -param dw
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Value that indicates the extended style. For more information on styles, see <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">Tree-View Control Extended Styles</a>.
-
 
 ### -param mask
 

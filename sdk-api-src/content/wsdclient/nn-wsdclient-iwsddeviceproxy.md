@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: a1a54ba0-241a-4c3d-8113-89c0f8171c40
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceProxy, IWSDDeviceProxy interface, IWSDDeviceProxy interface,described, ncd.iwsddeviceproxy, wsdclient/IWSDDeviceProxy
-f1_keywords:
-- wsdclient/IWSDDeviceProxy
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceProxy
+ - wsdclient/IWSDDeviceProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceProxy
 ---
 
 # IWSDDeviceProxy interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a remote Devices Profile for Web Services (DPWS) device for client applications and middleware.
 
 To get this interface, you can call <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxy">WSDCreateDeviceProxy</a>.
-
 
 ## -inheritance
 
@@ -160,12 +159,9 @@ Initializes the device proxy, optionally sharing a session with a previously ini
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is a client-side representation of a remote device. The proxy provides basic access to device metadata (<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_model_metadata">WSD_THIS_MODEL_METADATA</a>), in addition to providing methods for creating service proxy objects. The service proxy objects correspond to service hosted on the device. For example, a television is a device and the tuner portion of the television is a service hosted on the device that has an accessible, atomic set of functions.
 
@@ -181,15 +177,7 @@ To use <b>IWSDDeviceProxy</b> in your client or middleware application:
 <li>Get an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object, either by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getserviceproxybyid">GetServiceProxyById</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getserviceproxybytype">GetServiceProxyByType</a>.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WsdApi/overview-of-the-wsdapi-interfaces">Overview of the WSDAPI Interfaces</a>
- 
-
- 
 

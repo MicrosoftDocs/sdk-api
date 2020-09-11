@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: df190133-b73b-4f3e-aaee-4095cd619065
 ms.date: 12/05/2018
 ms.keywords: WNetGetNetworkInformation, WNetGetNetworkInformation function [Windows Networking (WNet)], WNetGetNetworkInformationA, WNetGetNetworkInformationW, _win32_wnetgetnetworkinformation, winnetwk/WNetGetNetworkInformation, winnetwk/WNetGetNetworkInformationA, winnetwk/WNetGetNetworkInformationW, wnet.wnetgetnetworkinformation
-f1_keywords:
-- winnetwk/WNetGetNetworkInformation
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetGetNetworkInformation
-- WNetGetNetworkInformationA
-- WNetGetNetworkInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetGetNetworkInformationA
+ - winnetwk/WNetGetNetworkInformationA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetNetworkInformation
+ - WNetGetNetworkInformationA
+ - WNetGetNetworkInformationW
 ---
 
 # WNetGetNetworkInformationA function
@@ -51,30 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetGetNetworkInformation</b> function returns extended information about a specific network provider whose name was returned by a previous network enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProvider [in]
 
 Pointer to a constant null-terminated string that contains the name of the network provider for which information is required.
-
 
 ### -param lpNetInfoStruct [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netinfostruct">NETINFOSTRUCT</a> structure. The structure describes characteristics of the network.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -110,15 +102,8 @@ The <b>cbStructure</b> member of the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netinfostruct">NETINFOSTRUCT</a>
 
@@ -147,9 +132,6 @@ The <b>cbStructure</b> member of the
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 
 ## -remarks
 

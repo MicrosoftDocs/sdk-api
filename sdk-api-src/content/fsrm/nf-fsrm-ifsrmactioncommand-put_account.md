@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 24f0bf5c-064c-4f1e-b69f-23374ea78324
 ms.date: 12/05/2018
 ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],Account property, IFsrmActionCommand.Account, IFsrmActionCommand.put_Account, IFsrmActionCommand::Account, IFsrmActionCommand::get_Account, IFsrmActionCommand::put_Account, fs.ifsrmactioncommand_account, fsrm.ifsrmactioncommand_account, fsrm/IFsrmActionCommand::Account, fsrm/IFsrmActionCommand::get_Account, fsrm/IFsrmActionCommand::put_Account, put_Account
-f1_keywords:
-- fsrm/IFsrmActionCommand.Account
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmActionCommand.Account
-- IFsrmActionCommand.get_Account
-- IFsrmActionCommand.put_Account
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmActionCommand::put_Account
+ - fsrm/IFsrmActionCommand::put_Account
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmActionCommand.Account
+ - IFsrmActionCommand.get_Account
+ - IFsrmActionCommand.put_Account
 ---
 
 # IFsrmActionCommand::put_Account
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -64,14 +64,9 @@ Retrieves or sets the system account that is used to run the executable program 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactioncommand">IFsrmActionCommand</a>
 
@@ -86,7 +81,4 @@ This property is read/write.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
- 
-
- 
 

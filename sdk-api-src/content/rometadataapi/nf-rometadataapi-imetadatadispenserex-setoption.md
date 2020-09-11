@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: bb84abf1-0bba-4f9d-98fb-3ed67819a9dc
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],SetOption method, IMetaDataDispenserEx.SetOption, IMetaDataDispenserEx::SetOption, SetOption, SetOption method [Windows Runtime], SetOption method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::SetOption, winrt.imetadatadispenserex_setoption
-f1_keywords:
-- rometadataapi/IMetaDataDispenserEx.SetOption
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataDispenserEx.SetOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataDispenserEx::SetOption
+ - rometadataapi/IMetaDataDispenserEx::SetOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataDispenserEx.SetOption
 ---
 
 # IMetaDataDispenserEx::SetOption
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the specified option to a given value for the current metadata scope. The option controls how calls to the current metadata scope are handled.
 
-
 ## -parameters
-
-
-
 
 ### -param optionId [in]
 
  A pointer to a GUID that specifies the option to be set.
 
-
 ### -param pValue [in]
 
 The value to use to set the option. The type of this value must be a variant of the specified option's type.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The following table lists the available GUIDs that the <i>optionId</i> parameter can point to and the corresponding valid values for the <i>pValue</i> parameter.
 
@@ -183,18 +170,8 @@ The following table lists the available GUIDs that the <i>optionId</i> parameter
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenserex">IMetaDataDispenserEx</a>
- 
-
- 
 

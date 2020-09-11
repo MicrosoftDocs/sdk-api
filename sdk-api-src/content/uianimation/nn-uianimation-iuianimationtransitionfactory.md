@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 62aec8da-e067-4b61-9465-e07fb5b42b7f
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransitionFactory, IUIAnimationTransitionFactory interface [Windows Animation], IUIAnimationTransitionFactory interface [Windows Animation],described, uianimation.iuianimationtransitionfactory, uianimation/IUIAnimationTransitionFactory
-f1_keywords:
-- uianimation/IUIAnimationTransitionFactory
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationTransitionFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationTransitionFactory
+ - uianimation/IUIAnimationTransitionFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationTransitionFactory
 ---
 
 # IUIAnimationTransitionFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a method for creating transitions from custom interpolators.
-
 
 ## -inheritance
 
@@ -77,29 +76,17 @@ Creates a transition from a custom interpolator.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 When an application requires animation effects that are not available in the transition library, developers can implement custom transitions that it can use. A custom transition is created by first implementing the interpolator function for the transition, and then by using a factory object to generate transitions from the interpolator. An interpolator must implement the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a>interface; an implementation of the transition factory object is provided by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317024(v=vs.85)">UIAnimationTransitionFactory</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

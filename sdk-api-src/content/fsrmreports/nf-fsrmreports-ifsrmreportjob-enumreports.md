@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: a1292084-f1b5-43eb-9b59-fa2f3f99557d
 ms.date: 12/05/2018
 ms.keywords: EnumReports, EnumReports method [File Server Resource Manager], EnumReports method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],EnumReports method, IFsrmReportJob.EnumReports, IFsrmReportJob::EnumReports, fs.ifsrmreportjob_enumreports, fsrm.ifsrmreportjob_enumreports, fsrmreports/IFsrmReportJob::EnumReports
-f1_keywords:
-- fsrmreports/IFsrmReportJob.EnumReports
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReportJob.EnumReports
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReportJob::EnumReports
+ - fsrmreports/IFsrmReportJob::EnumReports
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReportJob.EnumReports
 ---
 
 # IFsrmReportJob::EnumReports
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates all the reports configured for this report job.
 
-
 ## -parameters
-
-
-
 
 ### -param reports [out]
 
@@ -64,23 +60,11 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsr
 
 Each item of the collection is a <b>VARIANT</b> of type <b>VT_DISPATCH</b>. Query the <b>pdispVal</b> member to get the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a> interface.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
- 
-
- 
 

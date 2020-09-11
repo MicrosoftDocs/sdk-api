@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 679a2dca-019b-4f6e-acd9-efb30e0d4b44
 ms.date: 12/05/2018
 ms.keywords: DS_ROLE_DOMAIN_OWNER, DS_ROLE_INFRASTRUCTURE_OWNER, DS_ROLE_PDC_OWNER, DS_ROLE_RID_OWNER, DS_ROLE_SCHEMA_OWNER, DsListRoles, DsListRoles function [Active Directory], DsListRolesA, DsListRolesW, _glines_dslistroles, ad.dslistroles, ntdsapi/DsListRoles, ntdsapi/DsListRolesA, ntdsapi/DsListRolesW
-f1_keywords:
-- ntdsapi/DsListRoles
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsListRoles
-- DsListRolesA
-- DsListRolesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsListRolesA
+ - ntdsapi/DsListRolesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsListRoles
+ - DsListRolesA
+ - DsListRolesW
 ---
 
 # DsListRolesA function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsListRoles</b> function lists roles recognized by the server.
 
-
 ## -parameters
-
-
-
 
 ### -param hDs [in]
 
 Contains a directory service handle obtained from either the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
-
 
 ### -param ppRoles [out]
 
@@ -105,10 +100,7 @@ Server owns the RID.
 
 Server owns the schema.
 
-
 ## -returns
-
-
 
 If the function returns a list of roles, the return value is <b>NO_ERROR</b>.
 
@@ -116,13 +108,7 @@ If the function fails, the return value can be one of the following error codes.
 
 Individual name conversion errors are reported in the returned <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta">DS_NAME_RESULT</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta">DS_NAME_RESULT</a>
 
@@ -133,9 +119,6 @@ Individual name conversion errors are reported in the returned <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreenameresulta">DsFreeNameResult</a>
- 
-
- 
 
 ## -remarks
 

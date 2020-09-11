@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: da6924cf-87c0-4774-a02e-5d54be65ef28
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetThumbnail method, IWICBitmapFrameEncode.SetThumbnail, IWICBitmapFrameEncode::SetThumbnail, SetThumbnail, SetThumbnail method [Windows Imaging Component], SetThumbnail method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setthumbnail, wic._wic_codec_iwicbitmapframeencode_setthumbnail, wincodec/IWICBitmapFrameEncode::SetThumbnail
-f1_keywords:
-- wincodec/IWICBitmapFrameEncode.SetThumbnail
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapFrameEncode.SetThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapFrameEncode::SetThumbnail
+ - wincodec/IWICBitmapFrameEncode::SetThumbnail
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapFrameEncode.SetThumbnail
 ---
 
 # IWICBitmapFrameEncode::SetThumbnail
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the frame thumbnail if supported by the codec.
 
-
 ## -parameters
-
-
-
 
 ### -param pIThumbnail [in]
 
@@ -64,10 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-win
 
 The bitmap source to use as the thumbnail.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -76,12 +69,7 @@ Returns S_OK if successful, or an error value otherwise.
 
 Returns WINCODEC_ERR_UNSUPPORTEDOPERATION if the feature is not supported by the encoder.
 
-
-
-
 ## -remarks
-
-
 
 We recommend that you call
 			   <b>SetThumbnail</b> before calling <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writepixels">WritePixels</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writesource">WriteSource</a>.
@@ -105,12 +93,7 @@ We recommend that you call
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -125,7 +108,4 @@ We recommend that you call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a>
- 
-
- 
 

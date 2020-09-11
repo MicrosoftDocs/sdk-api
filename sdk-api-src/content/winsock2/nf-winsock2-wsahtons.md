@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 95fb103b-f7dd-4fa4-bf68-ed8e87cdd96b
 ms.date: 12/05/2018
 ms.keywords: WSAHtons, WSAHtons function [Winsock], _win32_wsahtons_2, winsock.wsahtons_2, winsock2/WSAHtons
-f1_keywords:
-- winsock2/WSAHtons
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAHtons
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAHtons
+ - winsock2/WSAHtons
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAHtons
 ---
 
 # WSAHtons function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAHtons</b> function converts a <b>u_short</b> from host byte order to network byte order.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a socket.
 
-
 ### -param hostshort [in]
 
 A 16-bit number in host byte order.
-
 
 ### -param lpnetshort [out]
 
 A pointer to a 16-bit buffer to receive the number in network byte order.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSAHtons</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -133,14 +124,8 @@ The <i>lpnetshort</i> parameter is <b>NULL</b> or the address pointed to is not 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAHtons</b> function takes a 16-bit number in host byte order and returns a 16-bit number  in network byte order in the 16-bit number pointed to by the <i>lpnetshort</i> parameter. The socket passed in the <i>s</i> parameter is used to determine the network byte order required based on the Winsock catalog protocol entry associated with the socket. This feature supports Winsock providers that use different network byte orders.  
@@ -156,13 +141,7 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
@@ -209,7 +188,4 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
- 
-
- 
 

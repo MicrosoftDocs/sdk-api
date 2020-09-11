@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: cef6115c-98e8-49e6-b419-271b43ce2938
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory, ID2D1Factory interface [Direct2D], ID2D1Factory interface [Direct2D],described, d2d1/ID2D1Factory, direct2d.ID2D1Factory
-f1_keywords:
-- d2d1/ID2D1Factory
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Factory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Factory
+ - d2d1/ID2D1Factory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Factory
 ---
 
 # ID2D1Factory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates Direct2D resources.
-
 
 ## -inheritance
 
@@ -185,12 +184,9 @@ Forces the factory to refresh any system defaults that it might have changed sin
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>ID2D1Factory</b> interface is the starting point for using Direct2D; it's what you use to create other Direct2D resources that you can use to draw or describe shapes.   
 
@@ -244,14 +240,7 @@ ID2D1Factory* m_pDirect2dFactory;
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-overview">Direct2D Overview</a>
 
@@ -274,7 +263,4 @@ ID2D1Factory* m_pDirect2dFactory;
 
 
 <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>
- 
-
- 
 

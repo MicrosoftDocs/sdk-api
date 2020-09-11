@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: cd104b26-1498-4f95-a411-97d868b43836
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterValue, PdhGetFormattedCounterValue function [Perf], _win32_pdhgetformattedcountervalue, base.pdhgetformattedcountervalue, pdh/PdhGetFormattedCounterValue, perf.pdhgetformattedcountervalue
-f1_keywords:
-- pdh/PdhGetFormattedCounterValue
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhGetFormattedCounterValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhGetFormattedCounterValue
+ - pdh/PdhGetFormattedCounterValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhGetFormattedCounterValue
 ---
 
 # PdhGetFormattedCounterValue function
@@ -49,21 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Computes a displayable value for the specified counter.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hCounter [in]
 
 Handle of the counter for which you want to compute a displayable value. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
-
 
 ### -param dwFormat [in]
 
@@ -147,23 +141,17 @@ Multiply the actual value by 1,000.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwType [out]
 
 Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
-
 
 ### -param pValue [out]
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that receives the counter value.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -211,14 +199,8 @@ The counter handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The data for the counter is locked (protected) for the duration of the call to 
 <b>PdhGetFormattedCounterValue</b> to prevent any changes during the processing of the call. Reading the data (calling this function successfully) clears the data-changed flag for the counter.
@@ -241,12 +223,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcollectquerydata">PdhCollectQueryData</a>
 
@@ -257,7 +234,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhsetcounterscalefactor">PdhSetCounterScaleFactor</a>
- 
-
- 
 

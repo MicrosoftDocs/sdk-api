@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 76a29d81-33c2-489f-a71d-2e85ba2617bf
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface [Windows Management Instrumentation], IWbemEventProviderQuerySink interface [Windows Management Instrumentation],described, _hmm_iwbemeventproviderquerysink, wbemprov/IWbemEventProviderQuerySink, wmi.iwbemeventproviderquerysink
-f1_keywords:
-- wbemprov/IWbemEventProviderQuerySink
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemEventProviderQuerySink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemEventProviderQuerySink
+ - wbemprov/IWbemEventProviderQuerySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemEventProviderQuerySink
 ---
 
 # IWbemEventProviderQuerySink interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemEventProviderQuerySink</b> interface is optionally implemented by event providers who want to know what kinds of event query filters are currently active to optimize performance.
-
 
 ## -inheritance
 
@@ -87,12 +86,9 @@ Called whenever a new consumer query is registered with WMI.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Although WMI calls the methods of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventprovider">IWbemEventProvider</a> only one time after an event provider becomes active, WMI calls the methods of 
@@ -102,6 +98,4 @@ Although WMI calls the methods of
 
 A provider can also generate more events than requested, which WMI filters as appropriate. This functionality means you can implement 
 <b>IWbemEventProviderQuerySink</b> and optimize processing without addressing all parts of the WMI Query Language (WQL). For instance, if a provider does not specifically handle a particular query, the provider can generate all possible events for the query.
-
-
 

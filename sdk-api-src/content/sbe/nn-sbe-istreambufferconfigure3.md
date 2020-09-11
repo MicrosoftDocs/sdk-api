@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 73f3cd43-11d1-4eff-861d-087bfda7d135
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], IStreamBufferConfigure3 interface [Microsoft TV Technologies],described, IStreamBufferConfigure3Interface, mstv.istreambufferconfigure3, sbe/IStreamBufferConfigure3
-f1_keywords:
-- sbe/IStreamBufferConfigure3
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferConfigure3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferConfigure3
+ - sbe/IStreamBufferConfigure3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferConfigure3
 ---
 
 # IStreamBufferConfigure3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IStreamBufferConfigure3</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/streambufferconfig-object">StreamBufferConfig</a> object.
-
-
-
 
 ## -inheritance
 
@@ -107,29 +103,17 @@ Specifies whether the <b>IStreamBufferRecordControl::Start</b> method automatica
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IStreamBufferConfigure3)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 4820c93a-a5d8-4ab9-aefc-9377fc76e745
 ms.date: 12/05/2018
 ms.keywords: IAudioClock2, IAudioClock2 interface [Core Audio], IAudioClock2 interface [Core Audio],described, audioclient/IAudioClock2, coreaudio.iaudioclock2
-f1_keywords:
-- audioclient/IAudioClock2
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioclient.h
-api_name:
-- IAudioClock2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClock2
+ - audioclient/IAudioClock2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioclient.h
+api_name:
+ - IAudioClock2
 ---
 
 # IAudioClock2 interface
 
 
 ## -description
-
 
 The <b>IAudioClock2</b> interface is used to get the current device position.
 		
@@ -60,8 +60,6 @@ The client obtains a reference to the <b>IAudioClock</b> interface of a stream o
 	
 
 When releasing an <b>IAudioClock2</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> that created the object.
-	
-
 
 ## -inheritance
 
@@ -87,13 +85,9 @@ Gets the current device position, in frames, directly from  the hardware.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -104,7 +98,4 @@ Gets the current device position, in frames, directly from  the hardware.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a>
- 
-
- 
 

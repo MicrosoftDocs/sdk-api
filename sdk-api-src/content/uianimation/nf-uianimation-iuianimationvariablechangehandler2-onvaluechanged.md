@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 3C885518-8EAC-4123-83A5-5DEB27523DEF
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableChangeHandler2 interface [Windows Animation],OnValueChanged method, IUIAnimationVariableChangeHandler2.OnValueChanged, IUIAnimationVariableChangeHandler2::OnValueChanged, OnValueChanged, OnValueChanged method [Windows Animation], OnValueChanged method [Windows Animation],IUIAnimationVariableChangeHandler2 interface, uianimation.iuianimationvariablechangehandler2_onvaluechanged, uianimation/IUIAnimationVariableChangeHandler2::OnValueChanged
-f1_keywords:
-- uianimation/IUIAnimationVariableChangeHandler2.OnValueChanged
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationVariableChangeHandler2.OnValueChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationVariableChangeHandler2::OnValueChanged
+ - uianimation/IUIAnimationVariableChangeHandler2::OnValueChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationVariableChangeHandler2.OnValueChanged
 ---
 
 # IUIAnimationVariableChangeHandler2::OnValueChanged
@@ -49,52 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles events that occur when the value of an animation variable changes in the specified dimension.
 
-
 ## -parameters
-
-
-
 
 ### -param storyboard [in]
 
 The storyboard that is animating the animation variable specified by the <i>variable</i> parameter.
 
-
 ### -param variable [in]
 
 The animation variable that has been updated.
-
 
 ### -param newValue [in]
 
 The new value of the animation variable.
 
-
 ### -param previousValue [in]
 
 The previous value of the animation variable.
-
 
 ### -param cDimension [in]
 
 The dimension in which the value of the animation variable changed.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 This method receives updates as <b>DOUBLE</b> values.  
          To receive updates as <b>INT32</b> values, use the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariableintegerchangehandler2-onintegervaluechanged">IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged</a> method.
@@ -192,12 +176,7 @@ By default, a call made in a callback method to any other animation method resul
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-setvariablechangehandler">IUIAnimationVariable2::SetVariableChangeHandler</a>
 
@@ -212,7 +191,4 @@ By default, a call made in a callback method to any other animation method resul
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariableintegerchangehandler2-onintegervaluechanged">IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged</a>
- 
-
- 
 

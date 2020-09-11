@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 46b31ab6-39aa-4df8-a421-6369c32a9605
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], IUIAutomation interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomation, uiauto_IUIAutomation, uiautomationclient/IUIAutomation, winauto.uiauto_IUIAutomation
-f1_keywords:
-- uiautomationclient/IUIAutomation
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation
+ - uiautomationclient/IUIAutomation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomation
 ---
 
 # IUIAutomation interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that enable Microsoft UI Automation client applications to discover, access, and filter UI Automation elements. UI Automation exposes every element of the UI Automation as an object represented by the <b>IUIAutomation</b> interface. The members of this interface are not specific to a particular element.
-
 
 ## -inheritance
 
@@ -645,12 +644,9 @@ Retrieves a static token object representing a property or text attribute that i
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Every UI Automation client application must obtain this interface to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)">CUIAutomation</a> object in order to gain access to the functionality of UI Automation.
 	        
@@ -671,17 +667,7 @@ BOOL InitializeUIAutomation()
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
- 
-
- 
 

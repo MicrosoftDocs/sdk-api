@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 13468139-dc03-45bd-850c-7ac2dbcb6e60
 ms.date: 12/05/2018
 ms.keywords: _win32_connect_2, connect, connect function [Winsock], winsock.connect_2, winsock2/connect
-f1_keywords:
-- winsock2/connect
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - connect
+ - winsock2/connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - connect
 ---
 
 # connect function
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>connect</b> function establishes a connection to a specified socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying an unconnected socket.
-
 
 ### -param name [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure to which the connection should be established.
 
-
 ### -param namelen [in]
 
 The length, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure pointed to by the <i>name</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>connect</b> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code can be retrieved by calling 
@@ -345,14 +336,8 @@ An attempt to connect a datagram socket to broadcast address failed because
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>connect</b> function is used to create a connection to the specified destination. If socket <i>s</i>, is unbound, unique values are assigned to the local association by the system, and the socket is marked as bound.
@@ -509,13 +494,7 @@ For another example that uses the <b>connect</b> function, see <a href="https://
 IrDA implements the connect function with addresses of the form sockaddr_irda. Typically, a client application will create a socket with the socket function, scan the immediate vicinity for IrDA devices with the IRLMP_ENUMDEVICES socket option, choose a device from the returned list, form an address, and then call 
 <b>connect</b>. There is no difference between blocking and nonblocking semantics.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
@@ -554,7 +533,4 @@ IrDA implements the connect function with addresses of the form sockaddr_irda. T
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

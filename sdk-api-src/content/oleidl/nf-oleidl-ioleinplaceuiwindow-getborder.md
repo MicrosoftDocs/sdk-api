@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 9ee9970a-b937-4538-b3b8-460647086db1
 ms.date: 12/05/2018
 ms.keywords: GetBorder, GetBorder method [COM], GetBorder method [COM],IOleInPlaceUIWindow interface, IOleInPlaceUIWindow interface [COM],GetBorder method, IOleInPlaceUIWindow.GetBorder, IOleInPlaceUIWindow::GetBorder, _ole_ioleinplaceuiwindow_getborder, com.ioleinplaceuiwindow_getborder, oleidl/IOleInPlaceUIWindow::GetBorder
-f1_keywords:
-- oleidl/IOleInPlaceUIWindow.GetBorder
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceUIWindow.GetBorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceUIWindow::GetBorder
+ - oleidl/IOleInPlaceUIWindow::GetBorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceUIWindow.GetBorder
 ---
 
 # IOleInPlaceUIWindow::GetBorder
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the outer rectange for toolbars and controls while the object is active in place.
 
-
 ## -parameters
-
-
-
 
 ### -param lprectBorder [out]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure where the outer rectangle is to be returned. The structure's coordinates are relative to the window being represented by the interface.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -108,14 +101,8 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The <b>IOleInPlaceUIWindow::GetBorder</b> function, when called on a document or frame window object, returns the outer rectangle (relative to the window) where the object can put toolbars or similar controls.
@@ -125,12 +112,7 @@ If the object is to install these tools, it should negotiate space for the tools
 <div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::GetBorder</b>, do not make calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>GetBorder</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
 
@@ -141,7 +123,4 @@ If the object is to install these tools, it should negotiate space for the tools
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-setborderspace">IOleInPlaceUIWindow::SetBorderSpace</a>
- 
-
- 
 

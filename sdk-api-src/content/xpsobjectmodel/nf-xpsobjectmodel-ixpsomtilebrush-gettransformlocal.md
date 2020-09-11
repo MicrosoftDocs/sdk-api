@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e06661dd-387c-46c4-8c37-f4e101d3c536
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMTileBrush.GetTransformLocal, IXpsOMTileBrush::GetTransformLocal, xps.ixpsomtilebrush_gettransformlocal, xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal
-f1_keywords:
-- xpsobjectmodel/IXpsOMTileBrush.GetTransformLocal
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMTileBrush.GetTransformLocal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMTileBrush::GetTransformLocal
+ - xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMTileBrush.GetTransformLocal
 ---
 
 # IXpsOMTileBrush::GetTransformLocal
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a> interface that contains the local, unshared resolved matrix transform for the brush.
 
-
 ## -parameters
-
-
-
 
 ### -param transform [out, retval]
 
@@ -102,12 +98,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -139,24 +131,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The transform determines how the output area is transformed before the brush image is rendered in the path, stroke, or glyph that is using the tile brush.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a>
 
@@ -171,7 +151,4 @@ The transform determines how the output area is transformed before the brush ima
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

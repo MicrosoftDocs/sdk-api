@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: bfe6a9a9-6117-4403-a83f-e9448615500b
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SSL_CLIENT_CERT_INFO, CERT_E_CN_NO_MATCH, CERT_E_EXPIRED, CERT_E_REVOKED, CERT_E_UNTRUSTEDCA, CERT_E_UNTRUSTEDROOT, CERT_E_WRONG_USAGE, HTTP_SSL_CLIENT_CERT_INFO, HTTP_SSL_CLIENT_CERT_INFO structure [HTTP], PHTTP_SSL_CLIENT_CERT_INFO, PHTTP_SSL_CLIENT_CERT_INFO structure pointer [HTTP], _http_http_ssl_client_cert_info, http.http_ssl_client_cert_info, http/HTTP_SSL_CLIENT_CERT_INFO, http/PHTTP_SSL_CLIENT_CERT_INFO'
-f1_keywords:
-- http/HTTP_SSL_CLIENT_CERT_INFO
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_SSL_CLIENT_CERT_INFO
 targetos: Windows
 req.typenames: HTTP_SSL_CLIENT_CERT_INFO, *PHTTP_SSL_CLIENT_CERT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_SSL_CLIENT_CERT_INFO
+ - http/_HTTP_SSL_CLIENT_CERT_INFO
+ - PHTTP_SSL_CLIENT_CERT_INFO
+ - http/PHTTP_SSL_CLIENT_CERT_INFO
+ - HTTP_SSL_CLIENT_CERT_INFO
+ - http/HTTP_SSL_CLIENT_CERT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_SSL_CLIENT_CERT_INFO
 ---
 
 # HTTP_SSL_CLIENT_CERT_INFO structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure contains data about a Secure Sockets Layer (SSL) client certificate that can be used to determine whether the certificate is valid.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CertFlags
 
@@ -100,16 +100,13 @@ a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-status-codes
 
 #### CERT_E_CN_NO_MATCH
 
-
 ### -field CertEncodedSize
 
 The size, in bytes, of the certificate.
 
-
 ### -field pCertEncoded
 
 A pointer to the actual certificate.
-
 
 ### -field Token
 
@@ -118,28 +115,18 @@ A handle to an access token. If the HTTP_SERVICE_CONFIG_SSL_FLAG_USE_DS_MAPPER f
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">access token</a>. When the 
 <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure is no longer required, release this token explicitly by closing the handle.
 
-
 ### -field CertDeniedByMapper
 
 Reserved.
 
-
 ## -remarks
-
-
 
 An 
 <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure is pointed to by the <b>pClientCertInfo</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_info">HTTP_SSL_INFO</a> structure, and is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiveclientcertificate">HttpReceiveClientCertificate</a> function to return data about the client certificate through the <i>pSslClientCertInfo</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
 
@@ -150,7 +137,4 @@ An
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiveclientcertificate">HttpReceiveClientCertificate</a>
- 
-
- 
 

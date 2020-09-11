@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 4a5fae5a-91d5-4a94-ac54-cb641147e8dc
 ms.date: 12/05/2018
 ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], IMbnSms interface [Microsoft Broadband Networks],described, mbn.imbnsms, mbnapi/IMbnSms
-f1_keywords:
-- mbnapi/IMbnSms
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSms
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSms
+ - mbnapi/IMbnSms
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSms
 ---
 
 # IMbnSms interface
@@ -53,7 +54,6 @@ ms.custom: 19H1
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 SMS interface for sending and receiving messages as well as controlling the messaging configuration.
-
 
 ## -inheritance
 
@@ -142,15 +142,9 @@ Sends a message in PDU format.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The calling application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-
-
-
 

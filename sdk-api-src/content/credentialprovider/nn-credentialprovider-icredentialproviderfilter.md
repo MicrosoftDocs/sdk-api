@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a12a0648-ea60-4537-9d5c-8d21fd53cc80
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderFilter, ICredentialProviderFilter interface [Windows Shell], ICredentialProviderFilter interface [Windows Shell],described, _shell_ICredentialProviderFilter, credentialprovider/ICredentialProviderFilter, shell.ICredentialProviderFilter
-f1_keywords:
-- credentialprovider/ICredentialProviderFilter
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- ICredentialProviderFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderFilter
+ - credentialprovider/ICredentialProviderFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - ICredentialProviderFilter
 ---
 
 # ICredentialProviderFilter interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to dynamically filter credential providers based on information available at runtime.
-
 
 ## -inheritance
 
@@ -86,14 +85,9 @@ Updates a credential from a remote session.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 It is recommended that third party credential providers do not use this interface to filter or disable system credential providers on a desktop. If an enterprise deploys a third party credential provider and wants to disable system credential providers currently available, that is a decision that should be made by a domain administrator after careful consideration. System policies exist that enable administrators to filter out credential providers and those should be used instead of building filters directly into a third party credential provider.
-
-
 

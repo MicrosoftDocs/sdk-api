@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getpixelshaderprofile.htm
 ms.date: 12/05/2018
 ms.keywords: 8d581e0e-4553-6a9c-455b-9ef399e0d29f, D3D10GetPixelShaderProfile, D3D10GetPixelShaderProfile function [Direct3D 10], d3d10shader/D3D10GetPixelShaderProfile, direct3d10.d3d10getpixelshaderprofile
-f1_keywords:
-- d3d10shader/D3D10GetPixelShaderProfile
-dev_langs:
-- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3D10.dll
-api_name:
-- D3D10GetPixelShaderProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D10GetPixelShaderProfile
+ - d3d10shader/D3D10GetPixelShaderProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3D10.dll
+api_name:
+ - D3D10GetPixelShaderProfile
 ---
 
 # D3D10GetPixelShaderProfile function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Get the pixel <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-models">shader profile</a> best suited to a given device.
 
-
 ## -parameters
-
-
-
 
 ### -param pDevice [in]
 
@@ -64,25 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-
 
 Pointer to the device (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>).
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The shader profile.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-functions">Shader Functions</a>
- 
-
- 
 

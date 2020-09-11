@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: eef9c197-04b3-4f3c-a7bd-8c62f9fac560
 ms.date: 12/05/2018
 ms.keywords: RasGetEntryProperties, RasGetEntryProperties function [RAS], RasGetEntryPropertiesA, RasGetEntryPropertiesW, _ras_rasgetentryproperties, ras/RasGetEntryProperties, ras/RasGetEntryPropertiesA, ras/RasGetEntryPropertiesW, rras.rasgetentryproperties
-f1_keywords:
-- ras/RasGetEntryProperties
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasGetEntryProperties
-- RasGetEntryPropertiesA
-- RasGetEntryPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetEntryPropertiesW
+ - ras/RasGetEntryPropertiesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasGetEntryProperties
+ - RasGetEntryPropertiesA
+ - RasGetEntryPropertiesW
 ---
 
 # RasGetEntryPropertiesW function
@@ -53,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetEntryProperties</b> function retrieves the properties of a phone-book entry.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -72,11 +68,9 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-
 ### -param arg2 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies an existing entry name. If an empty string is specified, the function returns default values in the buffers pointed to by the <i>lpRasEntry</i> and <i>lpbDeviceInfo</i> parameters.
-
 
 ### -param arg3 [in, out]
 
@@ -96,7 +90,6 @@ This parameter can be <b>NULL</b>.
 Microsoft Layer for Unicode does not support <b>dwAlternateOffset</b> in 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>.
 
-
 ### -param arg4 [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpRasEntry</i> buffer. 
@@ -111,7 +104,6 @@ This parameter can be <b>NULL</b> if the <i>lpRasEntry</i> parameter is <b>NULL<
 To determine the required buffer size, call 
 <b>RasGetEntryProperties</b> with <i>lpRasEntry</i> set to <b>NULL</b> and <i>*lpdwEntryInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwEntryInfoSize</i>.
 
-
 ### -param arg5 [out]
 
 This parameter is no longer used. The calling function should set this parameter to <b>NULL</b>.
@@ -121,9 +113,6 @@ This parameter is no longer used. The calling function should set this parameter
 
 
 This parameter can be <b>NULL</b>.
-
-
-
 
 ### -param arg6 [in, out]
 
@@ -140,12 +129,7 @@ This parameter can be <b>NULL</b> if the <i>lpbDeviceInfo</i> parameter s <b>NUL
 To determine the required buffer size, call 
 <b>RasGetEntryProperties</b> with <i>lpbDeviceInfo</i> set to <b>NULL</b> and <i>*lpdwDeviceInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwDeviceInfoSize</i>.
 
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -212,15 +196,8 @@ The phone-book entry does not exist, or the phone-book file is corrupted and/or 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
@@ -235,9 +212,6 @@ The phone-book entry does not exist, or the phone-book file is corrupted and/or 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 
 ## -remarks
 

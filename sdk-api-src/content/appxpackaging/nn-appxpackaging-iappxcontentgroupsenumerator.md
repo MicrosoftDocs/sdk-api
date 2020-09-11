@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: BA91A1A6-6C6B-4086-AE95-47372581429C
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupsEnumerator, IAppxContentGroupsEnumerator interface [App packaging and management], IAppxContentGroupsEnumerator interface [App packaging and management],described, appxpackaging/IAppxContentGroupsEnumerator, appxpkg.iappxcontentgroupsenumerator
-f1_keywords:
-- appxpackaging/IAppxContentGroupsEnumerator
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxContentGroupsEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxContentGroupsEnumerator
+ - appxpackaging/IAppxContentGroupsEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxContentGroupsEnumerator
 ---
 
 # IAppxContentGroupsEnumerator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the content groups from a content group map.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Advances the position of the enumerator to the next content group.
 
 </td>
 </tr>
-</table> 
+</table>
 

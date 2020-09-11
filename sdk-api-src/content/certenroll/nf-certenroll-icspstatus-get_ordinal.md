@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
 ms.date: 12/05/2018
 ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.get_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, get_Ordinal, security.icspstatus_ordinal_property
-f1_keywords:
-- certenroll/ICspStatus.Ordinal
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspStatus.Ordinal
-- ICspStatus.get_Ordinal
-- ICspStatus.put_Ordinal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspStatus::get_Ordinal
+ - certenroll/ICspStatus::get_Ordinal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspStatus.Ordinal
+ - ICspStatus.get_Ordinal
+ - ICspStatus.put_Ordinal
 ---
 
 # ICspStatus::get_Ordinal
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Ordinal</b> property specifies or retrieves the  position of the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 To iterate through the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection by ordinal, call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatuses-get_itembyordinal">ItemByOrdinal</a> property. The ordinal order of the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> objects in the collection can vary each time the collection is enumerated for a variety of reasons including, but not limited to, the following:<ul>
 <li>Certificate request template settings</li>
@@ -87,21 +83,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certen
 For another example, assume that a version 3 template specifies one specific CNG provider and  algorithm. That provider/algorithm pair (<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object) is ordered first, enabled for display and selected. All other algorithms supported by that provider are ordered later, not enabled for display, and not selected. All other providers that support the specified algorithm will be ordered later still, enabled for display, but not selected. All remaining provider/algorithm pairs will not be enabled for display and not selected.<div class="alert"><b>Note</b>  CNG providers do not support the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_keyspec">KeySpec</a> intended use concept. They return XCN_AT_NONE for this property value.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
- 
-
- 
 

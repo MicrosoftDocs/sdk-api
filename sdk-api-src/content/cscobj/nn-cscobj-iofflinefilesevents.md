@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: c0bd0033-e5e1-4d21-8d98-eb937acdd6cf
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], IOfflineFilesEvents interface [Offline Files],described, cscobj/IOfflineFilesEvents, of.iofflinefilesevents
-f1_keywords:
-- cscobj/IOfflineFilesEvents
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesEvents
+ - cscobj/IOfflineFilesEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesEvents
 ---
 
 # IOfflineFilesEvents interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Used to report significant events associated with Offline Files.
-
 
 ## -inheritance
 
@@ -294,16 +293,9 @@ Reports the result of synchronizing a particular file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

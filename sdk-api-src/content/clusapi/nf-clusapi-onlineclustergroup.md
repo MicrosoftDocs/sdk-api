@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 33b4f435-f394-41fc-846f-8e9206c76aa1
 ms.date: 12/05/2018
 ms.keywords: OnlineClusterGroup, OnlineClusterGroup function [Failover Cluster], PCLUSAPI_ONLINE_CLUSTER_GROUP, PCLUSAPI_ONLINE_CLUSTER_GROUP function [Failover Cluster], _wolf_onlineclustergroup, clusapi/OnlineClusterGroup, clusapi/PCLUSAPI_ONLINE_CLUSTER_GROUP, mscs.onlineclustergroup
-f1_keywords:
-- clusapi/OnlineClusterGroup
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- OnlineClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OnlineClusterGroup
+ - clusapi/OnlineClusterGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - OnlineClusterGroup
 ---
 
 # OnlineClusterGroup function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Brings a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> online. The <b>PCLUSAPI_ONLINE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 Handle to the group to be brought online.
 
-
 ### -param hDestinationNode [in, optional]
 
 Handle to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> where the group identified by <i>hGroup</i> should be brought online or <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -105,14 +97,8 @@ The operation is in progress.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the group cannot be brought online on the node identified by the <i>hDestinationNode</i> parameter, the  <b>OnlineClusterGroup</b> function fails.
 
@@ -122,13 +108,7 @@ Do not call  <b>OnlineClusterGroup</b> from a resource DLL. For more information
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and can have additional destructive effects. For information on how LPC and RPC handles are created, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-offlineclustergroup">OfflineClusterGroup</a>
 
@@ -139,7 +119,4 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
- 
-
- 
 

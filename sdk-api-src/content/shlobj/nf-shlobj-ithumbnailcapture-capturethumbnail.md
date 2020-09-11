@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3f492199-f40c-416f-b20f-84bd5c3b3709
 ms.date: 12/05/2018
 ms.keywords: CaptureThumbnail, CaptureThumbnail method [Windows Shell], CaptureThumbnail method [Windows Shell],IThumbnailCapture interface, IThumbnailCapture interface [Windows Shell],CaptureThumbnail method, IThumbnailCapture.CaptureThumbnail, IThumbnailCapture::CaptureThumbnail, _shell_IThumbnailCapture_CaptureThumbnail, shell.IThumbnailCapture_CaptureThumbnail, shlobj/IThumbnailCapture::CaptureThumbnail
-f1_keywords:
-- shlobj/IThumbnailCapture.CaptureThumbnail
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Shimgvw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shimgvw.dll
-api_name:
-- IThumbnailCapture.CaptureThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThumbnailCapture::CaptureThumbnail
+ - shlobj/IThumbnailCapture::CaptureThumbnail
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shimgvw.dll
+api_name:
+ - IThumbnailCapture.CaptureThumbnail
 ---
 
 # IThumbnailCapture::CaptureThumbnail
 
 
 ## -description
-
 
 Retrieves a thumbnail representation of an <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> document.
         
@@ -57,15 +57,11 @@ Retrieves a thumbnail representation of an <a href="https://docs.microsoft.com/e
 
 ## -parameters
 
-
-
-
 ### -param pMaxSize [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that specifies the maximum size of the bitmap, in pixels.
-
 
 ### -param pHTMLDoc2 [in]
 
@@ -73,36 +69,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 A pointer to an <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
-
 ### -param phbmThumbnail [out]
 
 Type: <b>HBITMAP*</b>
 
 A handle to a bitmap that represents the document object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ithumbnailcapture">IThumbnailCapture</a>
- 
-
- 
 

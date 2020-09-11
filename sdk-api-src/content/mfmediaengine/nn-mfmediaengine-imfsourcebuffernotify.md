@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4a823d37-f55a-4810-aaed-4e04f5371d3b
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], IMFSourceBufferNotify interface [Media Foundation],described, mf.imfsourcebuffernotify, mfmediaengine/IMFSourceBufferNotify
-f1_keywords:
-- mfmediaengine/IMFSourceBufferNotify
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBufferNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBufferNotify
+ - mfmediaengine/IMFSourceBufferNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBufferNotify
 ---
 
 # IMFSourceBufferNotify interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides functionality for raising events associated with <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
-
 
 ## -inheritance
 
@@ -113,16 +112,9 @@ Used to indicate that the source buffer has started updating.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

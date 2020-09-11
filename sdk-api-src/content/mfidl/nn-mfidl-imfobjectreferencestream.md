@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 9d29befd-b0ae-4610-a0b7-17face03c45e
 ms.date: 12/05/2018
 ms.keywords: 9d29befd-b0ae-4610-a0b7-17face03c45e, IMFObjectReferenceStream, IMFObjectReferenceStream interface [Media Foundation], IMFObjectReferenceStream interface [Media Foundation],described, mf.imfobjectreferencestream, mfidl/IMFObjectReferenceStream
-f1_keywords:
-- mfidl/IMFObjectReferenceStream
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFObjectReferenceStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFObjectReferenceStream
+ - mfidl/IMFObjectReferenceStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFObjectReferenceStream
 ---
 
 # IMFObjectReferenceStream interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Marshals an interface pointer to and from a stream.
 
 Stream objects that support <b>IStream</b> can expose this interface to provide custom marshaling for interface pointers.
-
-
-
 
 ## -inheritance
 
@@ -92,20 +88,13 @@ Stores the data needed to marshal an interface across a process boundary.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

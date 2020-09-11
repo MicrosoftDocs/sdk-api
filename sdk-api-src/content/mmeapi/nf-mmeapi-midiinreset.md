@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 74df14c2-df28-40c0-81f2-aed2147f7072
 ms.date: 12/05/2018
 ms.keywords: _win32_midiInReset, midiInReset, midiInReset function [Windows Multimedia], mmeapi/midiInReset, multimedia.midiinreset
-f1_keywords:
-- mmeapi/midiInReset
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiInReset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiInReset
+ - mmeapi/midiInReset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiInReset
 ---
 
 # midiInReset function
@@ -51,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiInReset</b> function stops input on a given MIDI input device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmi
 
 Handle to the MIDI input device.
 
-
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -91,27 +81,12 @@ The specified device handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function returns all pending input buffers to the callback function and sets the MHDR_DONE flag in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
 

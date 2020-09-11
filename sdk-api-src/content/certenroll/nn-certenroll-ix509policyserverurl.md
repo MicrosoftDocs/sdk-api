@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ad9d61ec-f607-4f71-ad8a-28d821e29c27
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], IX509PolicyServerUrl interface [Security],described, certenroll/IX509PolicyServerUrl, security.ix509policyserverurl
-f1_keywords:
-- certenroll/IX509PolicyServerUrl
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PolicyServerUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PolicyServerUrl
+ - certenroll/IX509PolicyServerUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PolicyServerUrl
 ---
 
 # IX509PolicyServerUrl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509PolicyServerUrl</b> interface can be used to set or retrieve property values associated with the certificate enrollment policy (CEP) server and to update associated registry values.
-
 
 ## -inheritance
 
@@ -202,5 +201,5 @@ Specifies or retrieves the URL for the certificate enrollment policy (CEP) serve
 
 </td>
 </tr>
-</table> 
+</table>
 

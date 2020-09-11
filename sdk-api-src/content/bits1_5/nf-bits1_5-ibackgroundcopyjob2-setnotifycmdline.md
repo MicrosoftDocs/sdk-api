@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 61b99d01-ca0f-4a89-b7ca-77d23c21a9ad
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetNotifyCmdLine method, IBackgroundCopyJob2.SetNotifyCmdLine, IBackgroundCopyJob2::SetNotifyCmdLine, SetNotifyCmdLine, SetNotifyCmdLine method [BITS], SetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setnotifycmdline, bits.ibackgroundcopyjob2_setnotifycmdline, bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine
-f1_keywords:
-- bits1_5/IBackgroundCopyJob2.SetNotifyCmdLine
-dev_langs:
-- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx2.dll
-api_name:
-- IBackgroundCopyJob2.SetNotifyCmdLine
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob2::SetNotifyCmdLine
+ - bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx2.dll
+api_name:
+ - IBackgroundCopyJob2.SetNotifyCmdLine
 ---
 
 # IBackgroundCopyJob2::SetNotifyCmdLine
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a program to execute if the job enters the <b>BG_JOB_STATE_ERROR</b> or <b>BG_JOB_STATE_TRANSFERRED</b> state. BITS executes the program in the context of the user who called this method.
 
-
 ## -parameters
-
-
-
 
 ### -param Program [in]
 
@@ -67,15 +63,11 @@ Null-terminated string that contains the program to execute. The <i>pProgram</i>
 
 To remove command line notification, set <i>pProgram</i> and <i>pParameters</i> to <b>NULL</b>. The method fails if <i>pProgram</i> is <b>NULL</b> and <i>pParameters</i> is non-<b>NULL</b>.
 
-
 ### -param Parameters [in]
 
 Null-terminated string that contains the parameters of the program in <i>pProgram</i>. The first parameter must be the program in <i>pProgram</i> (use quotes if the path uses long file names). The <i>pParameters</i> parameter is limited to 4,000 characters, not including the null terminator. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -118,14 +110,8 @@ The <i>pProgram</i> or <i>pParameters</i> string is too long.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 BITS calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function to launch the program.
@@ -163,12 +149,7 @@ For an example that calls the
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getnotifycmdline">IBackgroundCopyJob2::GetNotifyCmdLine</a>
 
@@ -179,7 +160,4 @@ For an example that calls the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
- 
-
- 
 

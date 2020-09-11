@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 982c82a4-466d-476e-ad17-8f6f1c309c79
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition, IFsrmPipelineModuleDefinition interface [File Server Resource Manager], IFsrmPipelineModuleDefinition interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduledefinition, fsrm.ifsrmpipelinemoduledefinition, fsrm/IFsrmPipelineModuleDefinition
-f1_keywords:
-- fsrmpipeline/IFsrmPipelineModuleDefinition
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPipelineModuleDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPipelineModuleDefinition
+ - fsrmpipeline/IFsrmPipelineModuleDefinition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPipelineModuleDefinition
 ---
 
 # IFsrmPipelineModuleDefinition interface
 
 
 ## -description
-
 
 Defines a module that is used to classify files or store and retrieve properties from 
     files.
@@ -73,10 +73,7 @@ The following methods return this interface:
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduledefinition">IFsrmClassifierModuleDefinition</a> 
     interface.
 
-
 ## -remarks
-
-
 
 The name and module type identify a unique module (a classifier module and storage module can use the same 
     name).
@@ -87,13 +84,7 @@ When de-registering a module programmatically (calling
     active classification rules that use that module. If this is not properly performed, the rules will produce errors 
     during classification runs and the UI will reflect a module that is no longer available.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduledefinition">IFsrmClassifierModuleDefinition</a>
 
@@ -104,7 +95,4 @@ When de-registering a module programmatically (calling
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduledefinition">IFsrmStorageModuleDefinition</a>
- 
-
- 
 

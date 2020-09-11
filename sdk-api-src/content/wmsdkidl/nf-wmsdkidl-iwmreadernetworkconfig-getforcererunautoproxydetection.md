@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: af4c4f4d-ad19-46b5-b38f-9aa51f2d95ba
 ms.date: 12/05/2018
 ms.keywords: GetForceRerunAutoProxyDetection, GetForceRerunAutoProxyDetection method [windows Media Format], GetForceRerunAutoProxyDetection method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetForceRerunAutoProxyDetection method, IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection, IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection, IWMReaderNetworkConfigGetForceRerunAutoProxyDetection, wmformat.iwmreadernetworkconfig_getforcererunautoproxydetection, wmsdkidl/IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
+ - wmsdkidl/IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection
 ---
 
 # IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
@@ -52,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetForceRerunAutoProxyDetection</b> method ascertains whether forced rerun detection is enabled.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfForceRerunDetection [out]
 
 Pointer to a Boolean value that is set to True if forced rerun detection has been enabled.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -103,31 +93,16 @@ NULL or invalid argument passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 See the Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setforcererunautoproxydetection">SetForceRerunAutoProxyDetection</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setforcererunautoproxydetection">IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection</a>
- 
-
- 
 

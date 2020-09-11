@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: dfa12961-1552-4531-8f79-d44fb2a46e74
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_IC_CREDENTIALS, PWLX_QUERY_IC_CREDENTIALS callback, WlxQueryInetConnectorCredentials, WlxQueryInetConnectorCredentials callback function [Security], _gina_wlxqueryinetconnectorcredentials, security.wlxqueryinetconnectorcredentials, winwlx/WlxQueryInetConnectorCredentials
-f1_keywords:
-- winwlx/WlxQueryInetConnectorCredentials
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winwlx.h
-api_name:
-- WlxQueryInetConnectorCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWLX_QUERY_IC_CREDENTIALS
+ - winwlx/PWLX_QUERY_IC_CREDENTIALS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winwlx.h
+api_name:
+ - WlxQueryInetConnectorCredentials
 ---
 
 # PWLX_QUERY_IC_CREDENTIALS callback function
@@ -49,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The WlxQueryInetConnectorCredentials function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 Called by a replacement GINA DLL if Terminal Services is enabled.
 				<a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> calls this function to determine whether the terminal server is using Internet connector licensing and to retrieve <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> information.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>The GINA DLL can then use this information to fill in a logon box automatically and attempt to log the user in.
 
-
 ## -parameters
-
-
-
 
 ### -param pCred [out]
 
 When the return value is <b>TRUE</b>, <i>pCred</i> specifies a pointer to a 
 <a href="/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials to use for auto logon.
 
-
 ## -returns
-
-
 
 The <b>WlxQueryInetConnectorCredentials</b> function returns one of the following values.
 
@@ -102,14 +95,8 @@ Internet connector licensing is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The GINA DLL is responsible for calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free the resources used by this structure when the structure is no longer needed.
@@ -125,13 +112,7 @@ Other Winlogon support functions that may be called when Terminal Services is en
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data">WlxQueryTerminalServicesData</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate">WlxWin31Migrate</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_3">WLX_DISPATCH_VERSION_1_3</a>
 
@@ -150,7 +131,4 @@ Other Winlogon support functions that may be called when Terminal Services is en
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate">WlxWin31Migrate</a>
- 
-
- 
 

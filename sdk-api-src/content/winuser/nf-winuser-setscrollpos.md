@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollpos.htm
 ms.date: 12/05/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollPos, SetScrollPos function [Windows Controls], _win32_SetScrollPos, _win32_SetScrollPos_cpp, controls.SetScrollPos, controls._win32_SetScrollPos, winuser/SetScrollPos
-f1_keywords:
-- winuser/SetScrollPos
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- SetScrollPos
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetScrollPos
+ - winuser/SetScrollPos
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - SetScrollPos
 ---
 
 # SetScrollPos function
 
 
 ## -description
-
 
 The <b>SetScrollPos</b> function sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 
@@ -63,15 +63,11 @@ The <b>SetScrollPos</b> function sets the position of the scroll box (thumb) in 
 
 ## -parameters
 
-
-
-
 ### -param hWnd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the <i>nBar</i> parameter. 
-
+Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the <i>nBar</i> parameter.
 
 ### -param nBar [in]
 
@@ -115,26 +111,20 @@ Sets the position of the scroll box in a window's standard vertical scroll bar.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param nPos [in]
 
 Type: <b>int</b>
 
-Specifies the new position of the scroll box. The position must be within the scrolling range. For more information about the scrolling range, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a> function. 
-
+Specifies the new position of the scroll box. The position must be within the scrolling range. For more information about the scrolling range, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a> function.
 
 ### -param bRedraw [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Specifies whether the scroll bar is redrawn to reflect the new scroll box position. If this parameter is <b>TRUE</b>, the scroll bar is redrawn. If it is <b>FALSE</b>, the scroll bar is not redrawn. 
-
+Specifies whether the scroll bar is redrawn to reflect the new scroll box position. If this parameter is <b>TRUE</b>, the scroll bar is redrawn. If it is <b>FALSE</b>, the scroll bar is not redrawn.
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -144,12 +134,7 @@ If the function succeeds, the return value is the previous position of the scrol
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the scroll bar is redrawn by a subsequent call to another function, setting the <i>bRedraw</i> parameter to <b>FALSE</b> is useful. 
 
@@ -159,14 +144,7 @@ However, because the <a href="https://docs.microsoft.com/windows/desktop/api/win
 
 If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-setpos">SBM_SETPOS</a> message to the window to set scroll bar information.  This allows <b>SetScrollPos</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_SETPOS</b> message, the <b>SetScrollPos</b> function fails.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>
 
@@ -189,7 +167,4 @@ If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a>
- 
-
- 
 

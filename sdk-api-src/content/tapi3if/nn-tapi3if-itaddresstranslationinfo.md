@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: b59454a0-315f-4160-b969-d930c13bb4de
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo, ITAddressTranslationInfo interface [TAPI 2.2], ITAddressTranslationInfo interface [TAPI 2.2],described, _tapi3_itaddresstranslationinfo, tapi3.itaddresstranslationinfo, tapi3if/ITAddressTranslationInfo
-f1_keywords:
-- tapi3if/ITAddressTranslationInfo
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddressTranslationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddressTranslationInfo
+ - tapi3if/ITAddressTranslationInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddressTranslationInfo
 ---
 
 # ITAddressTranslationInfo interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITAddressTranslationInfo</b> interface is used to determine the address translation data. To obtain a pointer to it, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translateaddress">ITAddressTranslation::TranslateAddress</a>.
-
 
 ## -inheritance
 
@@ -115,13 +114,9 @@ Gets the translated dialed number calling address.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
@@ -136,7 +131,4 @@ Gets the translated dialed number calling address.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
- 
-
- 
 

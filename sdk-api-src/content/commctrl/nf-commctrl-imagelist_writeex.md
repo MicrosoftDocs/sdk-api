@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_writeex.htm
 ms.date: 12/05/2018
 ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_WriteEx, ImageList_WriteEx function [Windows Controls], _win32_ImageList_WriteEx, _win32_ImageList_WriteEx_cpp, commctrl/ImageList_WriteEx, controls.ImageList_WriteEx, controls._win32_ImageList_WriteEx
-f1_keywords:
-- commctrl/ImageList_WriteEx
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- ImageList_WriteEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImageList_WriteEx
+ - commctrl/ImageList_WriteEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - ImageList_WriteEx
 ---
 
 # ImageList_WriteEx function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes an image list to a stream.
 
-
-
 ## -parameters
-
-
-
 
 ### -param himl [in]
 
 Type: <b>HIMAGELIST</b>
 
-A handle to the image list. 
-		
-
+A handle to the image list.
 
 ### -param dwFlags [in]
 
@@ -103,44 +96,27 @@ Writes to the stream using a file format previous to version 6.0.  Specify this 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pstm [in]
 
 Type: <b>LPSTREAM</b>
 
-The address of the stream. 
-		
-
+The address of the stream.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_create">ILC_COLOR32</a>.  
 	
 
-To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
-
+To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_read">ImageList_Read</a>
 
@@ -155,7 +131,4 @@ To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll versi
 
 
 <b>Reference</b>
- 
-
- 
 

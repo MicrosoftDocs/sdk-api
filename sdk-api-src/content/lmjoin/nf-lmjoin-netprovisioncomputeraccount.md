@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 4c854258-b84d-4ef3-a6da-ce0a9540ffd5
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT, NETSETUP_PROVISION_REUSE_ACCOUNT, NETSETUP_PROVISION_ROOT_CA_CERTS, NETSETUP_PROVISION_SKIP_ACCOUNT_SEARCH, NETSETUP_PROVISION_USE_DEFAULT_PASSWORD, NetProvisionComputerAccount, NetProvisionComputerAccount function [Network Management], Offline Domain Join, lmjoin/NetProvisionComputerAccount, netmgmt.netprovisioncomputeraccount
-f1_keywords:
-- lmjoin/NetProvisionComputerAccount
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetProvisionComputerAccount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetProvisionComputerAccount
+ - lmjoin/NetProvisionComputerAccount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetProvisionComputerAccount
 ---
 
 # NetProvisionComputerAccount function
@@ -49,28 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
-				<b>NetProvisionComputerAccount</b> function provisions a computer account for later use in an offline domain join operation. 
-
+				<b>NetProvisionComputerAccount</b> function provisions a computer account for later use in an offline domain join operation.
 
 ## -parameters
 
-
-
-
 ### -param lpDomain [in]
 
-A pointer to a <b>NULL</b>-terminated character string that specifies the name of the domain where the computer account is created. 
-
-
- 
-
+A pointer to a <b>NULL</b>-terminated character string that specifies the name of the domain where the computer account is created.
 
 ### -param lpMachineName [in]
 
 A pointer to a <b>NULL</b>-terminated character string that specifies the short name of the machine from which the computer account attribute sAMAccountName is derived by appending a '$'. This parameter must contain a valid DNS or NetBIOS machine name.
-
 
 ### -param lpMachineAccountOU [in, optional]
 
@@ -78,11 +69,9 @@ An optional pointer to a <b>NULL</b>-terminated character string that contains t
 
 If this parameter is <b>NULL</b>, the well known computer object container will be used as published in the domain.
 
-
 ### -param lpDcName [in, optional]
 
 An optional pointer to a <b>NULL</b>-terminated character string that contains the name of the domain controller to target.
-
 
 ### -param dwOptions [in]
 
@@ -161,8 +150,6 @@ This option retrieves all of the root Certificate Authority certificates on the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pProvisionBinData [out, optional]
 
@@ -170,13 +157,11 @@ An optional pointer that will receive the opaque binary blob of serialized metad
 
 If this parameter is <b>NULL</b>, then <i>pProvisionTextData</i> parameter must not be <b>NULL</b>. If this parameter is not <b>NULL</b>, then the  <i>pProvisionTextData</i> parameter must be <b>NULL</b>.
 
-
 ### -param pdwProvisionBinDataSize [out, optional]
 
 A pointer to a value that receives the size, in bytes, of the buffer returned in the <i>pProvisionBinData</i> parameter. 
 
-This parameter must not be <b>NULL</b> if the <i>pProvisionBinData</i> parameter is not <b>NULL</b>. This parameter must be <b>NULL</b> when the <i>pProvisionBinData</i> parameter is <b>NULL</b>. 
-
+This parameter must not be <b>NULL</b> if the <i>pProvisionBinData</i> parameter is not <b>NULL</b>. This parameter must be <b>NULL</b> when the <i>pProvisionBinData</i> parameter is <b>NULL</b>.
 
 ### -param pProvisionTextData [out, optional]
 
@@ -184,10 +169,7 @@ An optional pointer that will receive the opaque binary blob of serialized metad
 
 If this parameter is <b>NULL</b>, then the <i>pProvisionBinData</i> parameter must not be <b>NULL</b>. If this parameter is not <b>NULL</b>, then the  the <i>pProvisionBinData</i> parameter must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -321,14 +303,8 @@ The remote procedure call protocol sequence is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NetProvisionComputerAccount</b> function is supported on Windows 7 and Windows Server 2008 R2 for offline join operations.  On Windows 8 or Windows Server 2008 R2, it is recommended that the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function be used instead of the <b>NetProvisionComputerAccount</b> function.
 
@@ -360,13 +336,7 @@ For more information on offline domain join operations, see the <a href="https:/
 
 Joining (and unjoining) a computer to a domain using <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a> can be performed only by a member of the Administrators local group on the target computer. Note that the domain administrator can set additional requirements for joining the domain using delegation and assignment of privileges.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetCreateProvisioningPackage</a>
 
@@ -403,7 +373,4 @@ Joining (and unjoining) a computer to a domain using <a href="https://docs.micro
 
 
 <a href="https://msdn.microsoft.com/library/cc220640.aspx">ms-DS-MachineAccountQuota</a>
- 
-
- 
 

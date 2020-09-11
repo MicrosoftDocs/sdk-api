@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 486c659e-59af-4a82-bcb0-72d12c2d05df
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Name property, IFsrmPipelineModuleDefinition.Name, IFsrmPipelineModuleDefinition.put_Name, IFsrmPipelineModuleDefinition::Name, IFsrmPipelineModuleDefinition::get_Name, IFsrmPipelineModuleDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_name, fsrm.ifsrmpipelinemoduledefinition_name, fsrmpipeline/IFsrmPipelineModuleDefinition::Name, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Name, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Name, put_Name
-f1_keywords:
-- fsrmpipeline/IFsrmPipelineModuleDefinition.Name
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPipelineModuleDefinition.Name
-- IFsrmPipelineModuleDefinition.get_Name
-- IFsrmPipelineModuleDefinition.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPipelineModuleDefinition::put_Name
+ - fsrmpipeline/IFsrmPipelineModuleDefinition::put_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPipelineModuleDefinition.Name
+ - IFsrmPipelineModuleDefinition.get_Name
+ - IFsrmPipelineModuleDefinition.put_Name
 ---
 
 # IFsrmPipelineModuleDefinition::put_Name
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The name of the module definition.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
- 
-
- 
 

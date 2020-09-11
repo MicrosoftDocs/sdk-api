@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\iurlaccessor.htm
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor, IUrlAccessor interface [search], IUrlAccessor interface [search],described, _search_IUrlAccessor, search._search_IUrlAccessor, searchapi/IUrlAccessor
-f1_keywords:
-- searchapi/IUrlAccessor
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- IUrlAccessor
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IUrlAccessor
+ - searchapi/IUrlAccessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - IUrlAccessor
 ---
 
 # IUrlAccessor interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for processing an individual item in a content source whose URL is provided by the gatherer to the filter host.
-        
-
 
 ## -inheritance
 
@@ -199,12 +197,9 @@ Ascertains whether the item URL points to a directory.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This is the main interface for pulling data from the content source. The Get... methods are for properties that are required by or useful to the filter host. Not all data sources have these properties. If the property returned by one of these methods is not meaningful for your data source, your protocol handler should return E_NOTIMPL.
 
@@ -212,13 +207,7 @@ The Bind... methods provide access to the data.
 
 Although the protocol handler runs in the protocol host's multithreaded environment, each protocol handler runs in its own thread, employing one <b>IUrlAccessor</b> object at a time.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -241,7 +230,4 @@ Although the protocol handler runs in the protocol host's multithreaded environm
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
- 
-
- 
 

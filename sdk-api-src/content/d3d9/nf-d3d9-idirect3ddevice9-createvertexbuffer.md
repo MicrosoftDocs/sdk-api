@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createvertexbuffer.htm
 ms.date: 12/05/2018
 ms.keywords: CreateVertexBuffer, CreateVertexBuffer method [Direct3D 9], CreateVertexBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVertexBuffer method, IDirect3DDevice9.CreateVertexBuffer, IDirect3DDevice9::CreateVertexBuffer, d3d9helper/IDirect3DDevice9::CreateVertexBuffer, direct3d9.idirect3ddevice9__createvertexbuffer, f6027373-8860-696b-558e-21f53073f7c8
-f1_keywords:
-- d3d9/IDirect3DDevice9.CreateVertexBuffer
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.CreateVertexBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::CreateVertexBuffer
+ - d3d9/IDirect3DDevice9::CreateVertexBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.CreateVertexBuffer
 ---
 
 # IDirect3DDevice9::CreateVertexBuffer
@@ -50,35 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a vertex buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param Length [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Size of the vertex buffer, in bytes. For FVF vertex buffers, Length must be large enough to contain at least one vertex, but it need not be a multiple of the vertex size. Length is not validated for non-FVF buffers. See Remarks. 
-
+Size of the vertex buffer, in bytes. For FVF vertex buffers, Length must be large enough to contain at least one vertex, but it need not be a multiple of the vertex size. Length is not validated for non-FVF buffers. See Remarks.
 
 ### -param Usage [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Usage can be 0, which indicates no usage value. However, if usage is desired, use a combination of one or more <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage">D3DUSAGE</a> constants. It is good practice to match the usage parameter in CreateVertexBuffer with the behavior flags in <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">IDirect3D9::CreateDevice</a>. For more information, see Remarks. 
-
+Usage can be 0, which indicates no usage value. However, if usage is desired, use a combination of one or more <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage">D3DUSAGE</a> constants. It is good practice to match the usage parameter in CreateVertexBuffer with the behavior flags in <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">IDirect3D9::CreateDevice</a>. For more information, see Remarks.
 
 ### -param FVF [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Combination of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dfvf">D3DFVF</a>, a usage specifier that describes the vertex format of the vertices in this buffer. If this parameter is set to a valid FVF code, the created vertex buffer is an FVF vertex buffer (see Remarks). Otherwise, if this parameter is set to zero, the vertex buffer is a non-FVF vertex buffer. 
-
+Combination of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dfvf">D3DFVF</a>, a usage specifier that describes the vertex format of the vertices in this buffer. If this parameter is set to a valid FVF code, the created vertex buffer is an FVF vertex buffer (see Remarks). Otherwise, if this parameter is set to zero, the vertex buffer is a non-FVF vertex buffer.
 
 ### -param Pool [in]
 
@@ -86,13 +79,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool">
 
 Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool">D3DPOOL</a> enumerated type, describing a valid memory class into which to place the resource. Do not set to D3DPOOL_SCRATCH.
 
-
 ### -param ppVertexBuffer [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a>**</b>
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a> interface, representing the created vertex buffer resource. 
-
+Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a> interface, representing the created vertex buffer resource.
 
 ### -param pSharedHandle [in]
 
@@ -100,21 +91,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Reserved. Set this parameter to <b>NULL</b>. This parameter can be used in Direct3D 9 for Windows Vista to <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9lh">share resources</a>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_OUTOFVIDEOMEMORY, E_OUTOFMEMORY.
 
-
-
-
 ## -remarks
-
-
 
 A vertex buffer can be used with either hardware or software vertex processing. This is determined by how the device and the vertex buffer are created.
 
@@ -145,13 +128,7 @@ When set to a nonzero value, which must be a valid FVF code, the FVF parameter i
 
 Non-FVF buffers can be used to interleave data during multipass rendering or multitexture rendering in a single pass. To do this, one buffer contains geometry data and the others contain texture coordinates for each texture to be rendered. When rendering, the buffer containing the geometry data is interleaved with each of the buffers containing the texture coordinates. If FVF buffers were used instead, each of them would need to contain identical geometry data in addition to the texture coordinate data specific to each texture rendered. This would result in either a speed or memory penalty, depending on the strategy used. For more information about texture coordinates, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/texture-coordinates">Texture Coordinates (Direct3D 9)</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
@@ -166,7 +143,4 @@ Non-FVF buffers can be used to interleave data during multipass rendering or mul
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
- 
-
- 
 

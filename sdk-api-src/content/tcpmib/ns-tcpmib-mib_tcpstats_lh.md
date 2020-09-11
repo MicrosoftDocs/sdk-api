@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: 08d85d02-62a0-479d-bf56-5dad452436f3
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCPSTATS, *PMIB_TCPSTATS_LH, MIB_TCPSTATS, MIB_TCPSTATS structure [MIB], MIB_TCPSTATS_LH, MIB_TCPSTATS_W2K, MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS, PMIB_TCPSTATS structure pointer [MIB], _mpr_mib_tcpstats, iprtrmib/MIB_TCPSTATS, iprtrmib/PMIB_TCPSTATS, mib.mib_tcpstats, rras.mib_tcpstats, tcpmib/MIB_TCPSTATS, tcpmib/PMIB_TCPSTATS'
-f1_keywords:
-- tcpmib/MIB_TCPSTATS
-dev_langs:
-- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpmib.h
-- Iprtrmib.h
-api_name:
-- MIB_TCPSTATS
 targetos: Windows
 req.typenames: MIB_TCPSTATS_LH, *PMIB_TCPSTATS_LH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_TCPSTATS_LH
+ - tcpmib/_MIB_TCPSTATS_LH
+ - PMIB_TCPSTATS_LH
+ - tcpmib/PMIB_TCPSTATS_LH
+ - MIB_TCPSTATS_LH
+ - tcpmib/MIB_TCPSTATS_LH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_TCPSTATS
 ---
 
 # MIB_TCPSTATS_LH structure
@@ -50,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_TCPSTATS</b> structure contains statistics for the TCP protocol running on the local computer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwRtoAlgorithm
 
@@ -118,13 +118,8 @@ Van Jacobson's Algorithm
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RtoAlgorithm
-
- 
-
 
 ### -field dwRtoMin
 
@@ -132,13 +127,11 @@ Type: <b>DWORD</b>
 
 The minimum RTO value in milliseconds.
 
-
 ### -field dwRtoMax
 
 Type: <b>DWORD</b>
 
 The maximum RTO value in milliseconds.
-
 
 ### -field dwMaxConn
 
@@ -146,14 +139,11 @@ Type: <b>DWORD</b>
 
 The maximum number of connections. If this member is -1, the maximum number of connections is variable.
 
-
 ### -field dwActiveOpens
 
 Type: <b>DWORD</b>
 
 The number of active opens. In an active open, the client is initiating a connection with the server.
-					
-
 
 ### -field dwPassiveOpens
 
@@ -161,13 +151,11 @@ Type: <b>DWORD</b>
 
 The number of passive opens. In a passive open, the server is listening for a connection request from a client.
 
-
 ### -field dwAttemptFails
 
 Type: <b>DWORD</b>
 
 The number of failed connection attempts.
-
 
 ### -field dwEstabResets
 
@@ -175,13 +163,11 @@ Type: <b>DWORD</b>
 
 The number of established connections that were reset.
 
-
 ### -field dwCurrEstab
 
 Type: <b>DWORD</b>
 
 The number of currently established connections.
-
 
 ### -field dwInSegs
 
@@ -189,13 +175,11 @@ Type: <b>DWORD</b>
 
 The number of segments received.
 
-
 ### -field dwOutSegs
 
 Type: <b>DWORD</b>
 
 The number of segments transmitted. This number does not include retransmitted segments.
-
 
 ### -field dwRetransSegs
 
@@ -203,13 +187,11 @@ Type: <b>DWORD</b>
 
 The number of segments retransmitted.
 
-
 ### -field dwInErrs
 
 Type: <b>DWORD</b>
 
 The number of errors received.
-
 
 ### -field dwOutRsts
 
@@ -217,17 +199,13 @@ Type: <b>DWORD</b>
 
 The number of segments transmitted with the reset flag set.
 
-
 ### -field dwNumConns
 
 Type: <b>DWORD</b>
 
 The number of connections that are currently present in the system. This total number includes connections in all states except listening connections.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatistics">GetTcpStatistics</a> function returns a pointer to a <b>MIB_TCPSTATS</b> structure. 
 
@@ -267,13 +245,7 @@ In the Windows SDK, the version of the structure for use on Windows Vista and l
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatistics">GetTcpStatistics</a>
 
@@ -284,7 +256,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udpstats">MIB_UDPSTATS</a>
- 
-
- 
 

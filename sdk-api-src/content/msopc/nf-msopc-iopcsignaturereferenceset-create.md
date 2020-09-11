@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 5e943769-a043-4354-80e7-d471a1dbde7a
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureReferenceSet interface, IOpcSignatureReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignatureReferenceSet.Create, IOpcSignatureReferenceSet::Create, msopc/IOpcSignatureReferenceSet::Create, opc.iopcsignaturereferenceset_create
-f1_keywords:
-- msopc/IOpcSignatureReferenceSet.Create
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureReferenceSet.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureReferenceSet::Create
+ - msopc/IOpcSignatureReferenceSet::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureReferenceSet.Create
 ---
 
 # IOpcSignatureReferenceSet::Create
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereference">IOpcSignatureReference</a> interface pointer that represents a reference to an XML element to be signed.
 
-
 ## -parameters
-
-
-
 
 ### -param referenceUri [in]
 
@@ -66,16 +62,13 @@ Set the value of this parameter to a URI that represents "#" followed by  the <b
 
 For examples, see the Remarks section.
 
-
 ### -param referenceId [in]
 
 The <b>Id</b> attribute of the <b>Reference</b> element that represents the reference in signature  markup. To omit the  <b>Id</b> attribute, set this parameter value to  <b>NULL</b>.
 
-
 ### -param type [in]
 
 The <b>Type</b> attribute of the <b>Reference</b> element that represents the reference in signature markup. To omit the <b>Type</b> attribute, set this parameter value to  <b>NULL</b>.
-
 
 ### -param digestMethod [in]
 
@@ -88,15 +81,11 @@ The digest method to be used for the XML markup to be referenced. To use the def
 
 The canonicalization method to be used for the XML markup to be referenced.
 
-
 ### -param reference [out, retval]
 
 A new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereference">IOpcSignatureReference</a> interface pointer that represents the reference to  the XML element to be signed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -151,14 +140,8 @@ The reserved <b>URI</b> attribute value of the signature's <b>Reference</b> elem
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method creates a reference to an XML element that is signed when the signature is generated. The referenced element can be either an application-specific <b>Object</b> element or a child of an application-specific <b>Object</b>.
 
@@ -200,13 +183,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -257,7 +234,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 3FB070C7-EAEA-461B-8A68-B29822D0560E
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroup, IAppxContentGroup interface [App packaging and management], IAppxContentGroup interface [App packaging and management],described, appxpackaging/IAppxContentGroup, appxpkg.iappxcontentgroup
-f1_keywords:
-- appxpackaging/IAppxContentGroup
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxContentGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxContentGroup
+ - appxpackaging/IAppxContentGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxContentGroup
 ---
 
 # IAppxContentGroup interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a content group.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Gets the name of the content group.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 5D176919-34DC-4FD5-A577-78B03D5AB76B
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList3 interface,SetProtectedResourceSession method, ID3D12GraphicsCommandList3.SetProtectedResourceSession, ID3D12GraphicsCommandList3::SetProtectedResourceSession, SetProtectedResourceSession, SetProtectedResourceSession method, SetProtectedResourceSession method,ID3D12GraphicsCommandList3 interface, d3d12/ID3D12GraphicsCommandList3::SetProtectedResourceSession, direct3d12.id3d12graphicscommandlist3_setprotectedresourcesession
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList3.SetProtectedResourceSession
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12GraphicsCommandList3.SetProtectedResourceSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList3::SetProtectedResourceSession
+ - d3d12/ID3D12GraphicsCommandList3::SetProtectedResourceSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12GraphicsCommandList3.SetProtectedResourceSession
 ---
 
 ## -description
@@ -63,3 +64,4 @@ If set, indicates that protected resources can be accessed with the given sessio
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
+

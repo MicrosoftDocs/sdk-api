@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c3b5b526-5662-4971-8ba2-663e4b2c36ff
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AZ_PROP_SCOPE_BIZRULES_WRITABLE, AZ_PROP_SCOPE_CAN_BE_DELEGATED, AZ_PROP_WRITABLE, AzScope object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzScope object, GetProperty method [Security],IAzScope interface, IAzScope interface [Security],GetProperty method, IAzScope.GetProperty, IAzScope::GetProperty, azroles/IAzScope::GetProperty, security.iazscope_getproperty
-f1_keywords:
-- azroles/IAzScope.GetProperty
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzScope.GetProperty
-- AzScope.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzScope::GetProperty
+ - azroles/IAzScope::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzScope.GetProperty
+ - AzScope.GetProperty
 ---
 
 # IAzScope::GetProperty
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property  with the specified property ID.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -179,24 +175,16 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ### -param pvarProp [out]
 
 A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property.
 
-
 ## -returns
 
-
-
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-
-
 

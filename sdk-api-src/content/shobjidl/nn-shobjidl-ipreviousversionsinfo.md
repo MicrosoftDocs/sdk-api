@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5d55107e-a07a-4d70-80f6-7ec99578bb48
 ms.date: 12/05/2018
 ms.keywords: IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], IPreviousVersionsInfo interface [Windows Shell],described, _shell_IPreviousVersionsInfo, shell.IPreviousVersionsInfo, shobjidl/IPreviousVersionsInfo
-f1_keywords:
-- shobjidl/IPreviousVersionsInfo
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Twext.dll (version 5.2 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Twext.dll
-api_name:
-- IPreviousVersionsInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPreviousVersionsInfo
+ - shobjidl/IPreviousVersionsInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Twext.dll
+api_name:
+ - IPreviousVersionsInfo
 ---
 
 # IPreviousVersionsInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that checks for previous versions of server files or folders, stored for the purpose of reversion by the <i>shadow copies</i> technology provided with Windows Server 2003.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Queries for the availablilty of a Windows Server 2003 volume image recorded by 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The CLSID, IID, and definition for this interface are shown in the following example.
 
@@ -106,6 +102,4 @@ public:
         /* [retval][out] */ BOOL *pfAvailable) = 0;
 };</code></pre>
 Note that the shadow copies technology does not store entire copies of older versions unless they are deleted; only the changed bits are stored.
-
-
 

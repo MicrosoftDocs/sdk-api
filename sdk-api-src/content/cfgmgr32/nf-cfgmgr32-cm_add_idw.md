@@ -1,17 +1,13 @@
 ---
 UID: NF:cfgmgr32.CM_Add_IDW
 title: CM_Add_IDW function (cfgmgr32.h)
-description: The CM_Add_ID function appends a specified device ID (if not already present) to a device instance's�hardware ID list or compatible ID list.
+description: The CM_Add_ID function appends a specified device ID (if not already present) to a device instance's�hardware ID list or compatible ID list.
 helpviewer_keywords: ["CM_Add_ID","CM_Add_ID function [Device and Driver Installation]","CM_Add_IDW","cfgmgr32/CM_Add_ID","cfgmgr32/CM_Add_IDW","cfgmgrfn_70bf6b8b-4ab4-47aa-b24e-873af6a3712c.xml","devinst.cm_add_id"]
 old-location: devinst\cm_add_id.htm
 tech.root: devinst
 ms.assetid: 0a2da246-7803-45cb-baee-351726dbcf15
 ms.date: 12/05/2018
 ms.keywords: CM_Add_ID, CM_Add_ID function [Device and Driver Installation], CM_Add_IDW, cfgmgr32/CM_Add_ID, cfgmgr32/CM_Add_IDW, cfgmgrfn_70bf6b8b-4ab4-47aa-b24e-873af6a3712c.xml, devinst.cm_add_id
-f1_keywords:
-- cfgmgr32/CM_Add_ID
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Cfgmgr32.lib
-- Cfgmgr32.dll
-api_name:
-- CM_Add_ID
-- CM_Add_IDW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Add_IDW
+ - cfgmgr32/CM_Add_IDW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Cfgmgr32.lib
+ - Cfgmgr32.dll
+api_name:
+ - CM_Add_ID
+ - CM_Add_IDW
 ---
 
 # CM_Add_IDW function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CM_Add_ID</b> function appends a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list.
 
-
 ## -parameters
-
-
-
 
 ### -param dnDevInst [in]
 
 Caller-supplied device instance handle that is bound to the local machine.
 
-
 ### -param pszID [in]
 
 Caller-supplied pointer to a NULL-terminated device ID string.
-
 
 ### -param ulFlags [in]
 
@@ -100,21 +94,12 @@ The specified device ID should be appended to the specific device instance's har
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CM_Add_ID</b> function can only be used when <i>dnDevInst</i> represents a root-enumerated device.     For other devices, the bus driver reports hardware and compatible IDs when enumerating a child device after receiving <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a>.
 
@@ -124,20 +109,11 @@ Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are
 
 For information about using device instance handles that are bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_id_exw">CM_Add_ID_Ex</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
- 
-
- 
 

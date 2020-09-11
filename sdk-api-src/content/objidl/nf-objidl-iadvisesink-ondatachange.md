@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 834a5328-3a1f-4edb-aad0-be8ab87acb04
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnDataChange method, IAdviseSink.OnDataChange, IAdviseSink::OnDataChange, OnDataChange, OnDataChange method [COM], OnDataChange method [COM],IAdviseSink interface, _ole_iadvisesink_ondatachange, com.iadvisesink_ondatachange, objidl/IAdviseSink::OnDataChange
-f1_keywords:
-- objidl/IAdviseSink.OnDataChange
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IAdviseSink.OnDataChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAdviseSink::OnDataChange
+ - objidl/IAdviseSink::OnDataChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IAdviseSink.OnDataChange
 ---
 
 # IAdviseSink::OnDataChange
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the server to notify a data object's currently registered advise sinks that data in the object has changed.
 
-
 ## -parameters
-
-
-
 
 ### -param pFormatetc [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure, which describes the format, target device, rendering, and storage information of the calling data object.
 
-
 ### -param pStgmed [in]
 
 A pointer to a <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure, which defines the storage medium (global memory, disk file, storage object, stream object, GDI object, or undefined) and ownership of that medium for the calling data object.
 
-
 ## -remarks
-
-
 
 Object handlers and containers of link objects implement <b>IAdviseSink::OnDataChange</b> to take appropriate steps when notified that data in the object has changed. They also must call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> to set up advisory connections with the objects in whose data they are interested.
 
@@ -81,16 +73,7 @@ If you implement <b>IAdviseSink::OnDataChange</b> for a container, remember that
 
 The data itself, which is valid only for the duration of the call, is passed using the storage medium pointed to by <i>pStgmed</i>. Since the caller owns the medium, the advise sink should not free it. Also, if <i>pStgmed</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface, the sink must not increment the reference count.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
- 
-
- 
 

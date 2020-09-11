@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT
 f1_keywords:
+ - D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT
  - d3d12video/D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT
 dev_langs:
  - c++
@@ -50,6 +51,7 @@ An [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) containing
 Call [ID3D12VideoEncodeCommandList::ResolveMotionVectorHeap](nf-d3d12video-id3d12videoencodecommandlist-resolvemotionvectorheap.md) to translate the motion vector output of the [EstimateMotion](nf-d3d12video-id3d12videoencodecommandlist-estimatemotion.md) method from hardware-dependent formats into a consistent format defined by the video motion estimation APIs.
 
 ## -see-also
+
 [ID3D12VideoEncodeCommandList::EstimateMotion](nf-d3d12video-id3d12videoencodecommandlist-estimatemotion.md)
 [ID3D12VideoEncodeCommandList::ResolveMotionVectorHeap](nf-d3d12video-id3d12videoencodecommandlist-resolvemotionvectorheap.md)
 

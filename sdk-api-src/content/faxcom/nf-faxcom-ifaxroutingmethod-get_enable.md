@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1vmt.htm
 ms.date: 12/05/2018
 ms.keywords: Enable property [Fax Service], Enable property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],Enable property, IFaxRoutingMethod.Enable, IFaxRoutingMethod.get_Enable, IFaxRoutingMethod::Enable, IFaxRoutingMethod::get_Enable, IFaxRoutingMethod::put_Enable, _mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_enable_cpp, faxcom/IFaxRoutingMethod::Enable, faxcom/IFaxRoutingMethod::get_Enable, faxcom/IFaxRoutingMethod::put_Enable, get_Enable
-f1_keywords:
-- faxcom/IFaxRoutingMethod.Enable
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxRoutingMethod.Enable
-- IFaxRoutingMethod.get_Enable
-- IFaxRoutingMethod.put_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxRoutingMethod::get_Enable
+ - faxcom/IFaxRoutingMethod::get_Enable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxRoutingMethod.Enable
+ - IFaxRoutingMethod.get_Enable
+ - IFaxRoutingMethod.put_Enable
 ---
 
 # IFaxRoutingMethod::get_Enable
@@ -51,29 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxRoutingMethod::get_Enable</b> property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 If a fax client application passes a value of <b>TRUE</b> to the <b>IFaxRoutingMethod::get_Enable</b> property, the property enables the routing method for inbound faxes on the parent port.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxport-get-canmodify-vb">CanModify</a>
 
@@ -92,7 +82,4 @@ If a fax client application passes a value of <b>TRUE</b> to the <b>IFaxRoutingM
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
- 
-
- 
 

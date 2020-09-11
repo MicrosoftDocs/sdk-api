@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 63a20250-1b93-49df-b7f8-7169db8efde0
 ms.date: 12/05/2018
 ms.keywords: IADsWinNTSystemInfo, IADsWinNTSystemInfo interface [ADSI], IADsWinNTSystemInfo interface [ADSI],described, _ds_iadswinntsysteminfo, adsi.iadswinntsysteminfo, iads/IADsWinNTSystemInfo
-f1_keywords:
-- iads/IADsWinNTSystemInfo
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsWinNTSystemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsWinNTSystemInfo
+ - iads/IADsWinNTSystemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsWinNTSystemInfo
 ---
 
 # IADsWinNTSystemInfo interface
 
 
 ## -description
-
 
 The <b>IADsWinNTSystemInfo</b> interface  retrieves the WinNT system information about a computer. Such system information includes user account name, user domain, host name, and the primary domain controller of the host computer.
 
@@ -76,12 +76,7 @@ Dim ntSys
 Set ntSys = CreateObject("WinNTSystemInfo")
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
@@ -92,7 +87,4 @@ Set ntSys = CreateObject("WinNTSystemInfo")
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

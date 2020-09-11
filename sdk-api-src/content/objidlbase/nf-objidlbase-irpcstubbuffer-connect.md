@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0a452287-b674-4b51-9690-316beeab4482
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Connect method, IRpcStubBuffer.Connect, IRpcStubBuffer::Connect, _com_irpcstubbuffer_connect, com.irpcstubbuffer_connect, objidlbase/IRpcStubBuffer::Connect
-f1_keywords:
-- objidlbase/IRpcStubBuffer.Connect
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IRpcStubBuffer.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRpcStubBuffer::Connect
+ - objidlbase/IRpcStubBuffer::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IRpcStubBuffer.Connect
 ---
 
 # IRpcStubBuffer::Connect
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a server stub, binding it to the specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pUnkServer [in]
 
 A pointer to the interface.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
- 
-
- 
 

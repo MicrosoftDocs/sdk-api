@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 81e48318-b6a4-4b1a-8b78-21c00b9dc485
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemFromParsingName, SHCreateItemFromParsingName function [Windows Shell], _shell_SHCreateItemFromParsingName, shell.SHCreateItemFromParsingName, shobjidl_core/SHCreateItemFromParsingName
-f1_keywords:
-- shobjidl_core/SHCreateItemFromParsingName
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-Shell-Namespace-L1-1-0.dll
-- Ext-MS-Win-shell-shell32-L1-2-0.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-- Windows.Storage.Dll
-api_name:
-- SHCreateItemFromParsingName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHCreateItemFromParsingName
+ - shobjidl_core/SHCreateItemFromParsingName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-Shell-Namespace-L1-1-0.dll
+ - Ext-MS-Win-shell-shell32-L1-2-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - Windows.Storage.Dll
+api_name:
+ - SHCreateItemFromParsingName
 ---
 
 # SHCreateItemFromParsingName function
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and initializes a Shell item object from a parsing name.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
 Type: <b>PCWSTR</b>
 
 A pointer to a display name.
-
 
 ### -param pbc [in, optional]
 
@@ -83,13 +78,11 @@ Optional. A pointer to a bind context used to pass parameters as inputs and outp
 
 If no data is being passed to or received from the parsing function, this value can be <b>NULL</b>.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 A reference to the IID of the interface to retrieve through <i>ppv</i>, typically <b>IID_IShellItem</b> or <b>IID_IShellItem2</b>.
-
 
 ### -param ppv [out]
 
@@ -97,23 +90,13 @@ Type: <b>void**</b>
 
 When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct <b>IID</b> based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
-
-
 

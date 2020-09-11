@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 50cf01b4-fd14-4468-9191-79ccd0e2bd05
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_SAVEPOINT_INFORMATION, FSCTL_TXFS_SAVEPOINT_INFORMATION control, FSCTL_TXFS_SAVEPOINT_INFORMATION control code [Files], fs.fsctl_txfs_savepoint_information, winioctl/FSCTL_TXFS_SAVEPOINT_INFORMATION
-f1_keywords:
-- winioctl/FSCTL_TXFS_SAVEPOINT_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_SAVEPOINT_INFORMATION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_SAVEPOINT_INFORMATION
+ - winioctl/FSCTL_TXFS_SAVEPOINT_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_SAVEPOINT_INFORMATION
 ---
 
 # FSCTL_TXFS_SAVEPOINT_INFORMATION IOCTL
+
 
 ## -description
 
@@ -67,26 +69,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -96,13 +91,12 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 **ReFS:**  This code is not supported.
-
 
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [TXFS_SAVEPOINT_INFORMATION](ns-winioctl-txfs_savepoint_information.md)
+

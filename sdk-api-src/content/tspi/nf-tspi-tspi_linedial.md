@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 8b24b9a3-af97-45dc-aaaf-d95ce9007ba8
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDial, TSPI_lineDial function [TAPI 2.2], _tspi_tspi_linedial, tspi.tspi_linedial, tspi/TSPI_lineDial
-f1_keywords:
-- tspi/TSPI_lineDial
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineDial
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineDial
+ - tspi/TSPI_lineDial
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineDial
 ---
 
 # TSPI_lineDial function
@@ -49,51 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineDial</b> function dials the specified dialable number on the specified call.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequestID
 
 The identifier of the asynchronous request.
 
-
 ### -param hdCall
 
 The service provider's handle to the call to be dialed. The call state of <i>hdCall</i> can be any state except <i>idle</i> and <i>disconnected</i>.
-
 
 ### -param lpszDestAddress
 
 Pointer to a <b>null</b>-terminated Unicode string that specifies the destination to be dialed using the standard dialable number format.
 
-
 ### -param dwCountryCode
 
 The country or region code of the destination. The implementation uses this to select the call progress protocols for the destination address. If a value of 0 is specified, a default call-progress protocol defined by the service provider is used. TAPI does not validate this parameter when this function is called.
 
-
 ## -returns
-
-
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALADDRESS, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALCOUNTRYCODE, LINEERR_DIALBILLING, LINEERR_INVALCALLSTATE, LINEERR_DIALQUIET, LINEERR_ADDRESSBLOCKED, LINEERR_DIALDIALTONE, LINEERR_NOMEM, LINEERR_DIALPROMPT, LINEERR_OPERATIONUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 The service provider returns LINEERR_INVALCALLSTATE if the current state of the call does not allow dialing.
 
@@ -118,13 +103,7 @@ Multiple addresses can be provided in a single dial string separated by CRLF. Se
 Dialing is considered complete after the address has been accepted by the service provider, not after the call is finally connected. Service providers that provide inverse multiplexing may allow multiple addresses to be provided at once. The service provider must send 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a> messages to TAPI to inform it about the progress of the call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
@@ -135,7 +114,4 @@ Dialing is considered complete after the address has been accepted by the servic
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardstate.htm
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardState, GetKeyboardState function [Keyboard and Mouse Input], _win32_GetKeyboardState, _win32_getkeyboardstate_cpp, inputdev.getkeyboardstate, winui._win32_getkeyboardstate, winuser/GetKeyboardState
-f1_keywords:
-- winuser/GetKeyboardState
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
-- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-keyboard-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
-- MinUser.dll
-api_name:
-- GetKeyboardState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetKeyboardState
+ - winuser/GetKeyboardState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+ - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-keyboard-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
+ - MinUser.dll
+api_name:
+ - GetKeyboardState
 ---
 
 # GetKeyboardState function
@@ -56,38 +57,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Copies the status of the 256 virtual keys to the specified buffer. 
-
+Copies the status of the 256 virtual keys to the specified buffer.
 
 ## -parameters
-
-
-
 
 ### -param lpKeyState [out]
 
 Type: <b>PBYTE</b>
 
-The 256-byte array that receives the status data for each virtual key. 
-
+The 256-byte array that receives the status data for each virtual key.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 An application can call this function to retrieve the current status of all the virtual keys. The status changes as a thread removes keyboard messages from its message queue. The status does not change as keyboard messages are posted to the thread's message queue, nor does it change as keyboard messages are posted to or retrieved from message queues of other threads. (Exception: Threads that are connected through <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-attachthreadinput">AttachThreadInput</a> share the same keyboard state.)
 
@@ -122,15 +110,9 @@ An application can use the virtual-key code constants <b>VK_SHIFT</b>, <b>VK_CON
 </table>
  
 
-These left- and right-distinguishing constants are available to an application only through the <b>GetKeyboardState</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a> functions. 
-
-
-
+These left- and right-distinguishing constants are available to an application only through the <b>GetKeyboardState</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a> functions.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -157,7 +139,4 @@ These left- and right-distinguishing constants are available to an application o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: ae55831c-0dfa-4901-b241-27e2cdf1035f
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAccessible.accSelect, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
-f1_keywords:
-- oleacc/IAccessible.accSelect
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.accSelect
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::accSelect
+ - oleacc/IAccessible::accSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.accSelect
 ---
 
 # IAccessible::accSelect
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::accSelect</b> method modifies the selection or moves the keyboard focus of the specified object. All objects that support selection or receive the keyboard focus must support this method.
 
-
 ## -parameters
-
-
-
 
 ### -param flagsSelect [in]
 
@@ -64,17 +60,13 @@ Type: <b>long</b>
 
 Specifies which selection or focus operations are to be performed. This parameter must have a combination of the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selflag">SELFLAG Constants</a>.
 
-
 ### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
 Specifies the selected object. If the value is CHILDID_SELF, the object itself is selected; if a child ID, one of the object's child elements is selected. For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -121,14 +113,8 @@ The object does not support this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Client applications use this method to perform complex selection operations. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selecting-child-objects">Selecting Child Objects</a>. This method provides the simplest way to programmatically switch the input focus between applications. This applies to applications running on Windows 2000.
 
@@ -157,14 +143,7 @@ HRESULT SelectItemAtPoint(POINT point)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
@@ -187,7 +166,4 @@ HRESULT SelectItemAtPoint(POINT point)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
 

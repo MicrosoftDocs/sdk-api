@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: e422c61f-7a97-4f95-8592-22a1eb5f616b
 ms.date: 12/05/2018
 ms.keywords: LANGGROUPLOCALE_ENUMPROC, LANGGROUPLOCALE_ENUMPROC callback, LANGGROUPLOCALE_ENUMPROC callback function [Internationalization for Windows Applications], LANGGROUPLOCALE_ENUMPROCA, LANGGROUPLOCALE_ENUMPROCW, _win32_EnumLanguageGroupLocalesProc, intl.enumlanguagegrouplocalesproc, winnls/LANGGROUPLOCALE_ENUMPROC
-f1_keywords:
-- winnls/LANGGROUPLOCALE_ENUMPROC
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winnls.h
-api_name:
-- LANGGROUPLOCALE_ENUMPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LANGGROUPLOCALE_ENUMPROCW
+ - winnls/LANGGROUPLOCALE_ENUMPROCW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winnls.h
+api_name:
+ - LANGGROUPLOCALE_ENUMPROC
 ---
 
 # LANGGROUPLOCALE_ENUMPROCW callback function
@@ -49,32 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function that processes enumerated language group locale information provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a> function. The LANGGROUPLOCALE_ENUMPROC type defines a pointer to this callback function. <b>EnumLanguageGroupLocalesProc</b> is a placeholder for the application-defined function name.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
 
 ### -param Arg2
 
-
 ### -param Arg3
 
-
 ### -param Arg4
-
-
-
-
-
-
-
 
 #### - LanguageGroup [in]
 
@@ -141,19 +127,11 @@ Application-defined value passed to the <a href="https://docs.microsoft.com/wind
 
 Pointer to a buffer containing a null-terminated locale identifier string.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> to continue enumeration or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 An <b>EnumLanguageGroupLocalesProc</b> function can carry out any desired task. The application registers this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a> function.
 
@@ -165,9 +143,6 @@ An <b>EnumLanguageGroupLocalesProc</b> function can carry out any desired task. 
 > The winnls.h header defines LANGGROUPLOCALE_ENUMPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a>
 
@@ -182,7 +157,4 @@ An <b>EnumLanguageGroupLocalesProc</b> function can carry out any desired task. 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

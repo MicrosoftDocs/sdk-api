@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 523c6e75-a51c-4ef7-928c-0d228ab0d337
 ms.date: 12/05/2018
 ms.keywords: VariantToBooleanWithDefault, VariantToBooleanWithDefault function [Windows Properties], _shell_VariantToBooleanWithDefault, properties.VariantToBooleanWithDefault, propvarutil/VariantToBooleanWithDefault, shell.VariantToBooleanWithDefault
-f1_keywords:
-- propvarutil/VariantToBooleanWithDefault
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- VariantToBooleanWithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - VariantToBooleanWithDefault
+ - propvarutil/VariantToBooleanWithDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - VariantToBooleanWithDefault
 ---
 
 # VariantToBooleanWithDefault function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts a <b>BOOL</b> value from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure. If no value exists, then the specified default value is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param varIn [in]
 
@@ -64,28 +60,19 @@ Type: <b>REFVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
-
 ### -param fDefault [in]
 
 Type: <b>BOOL</b>
 
 The default value for use where no extractable value exists.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns the extracted <b>BOOL</b> value; otherwise, the default value specified in <i>fDefault</i>.
 
-
-
-
 ## -remarks
-
-
 
 This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold a <b>BOOL</b> value and wants to use a default value if it does not.
 
@@ -112,14 +99,7 @@ BOOL fValue = VariantToBooleanWithDefault(var, FALSE);
 // fValue is now valid.
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromboolean">InitVariantFromBoolean</a>
 
@@ -134,7 +114,4 @@ BOOL fValue = VariantToBooleanWithDefault(var, FALSE);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoboolean">VariantToBoolean</a>
- 
-
- 
 

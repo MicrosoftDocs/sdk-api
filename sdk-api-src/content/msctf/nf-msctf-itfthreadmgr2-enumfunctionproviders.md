@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 0F28BDFD-4CD8-4D50-92D9-6A60B80122B2
 ms.date: 12/05/2018
 ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr2.EnumFunctionProviders, ITfThreadMgr2::EnumFunctionProviders, msctf/ITfThreadMgr2::EnumFunctionProviders, tsf.itfthreadmgr2_enumfunctionproviders
-f1_keywords:
-- msctf/ITfThreadMgr2.EnumFunctionProviders
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.EnumFunctionProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::EnumFunctionProviders
+ - msctf/ITfThreadMgr2::EnumFunctionProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.EnumFunctionProviders
 ---
 
 # ITfThreadMgr2::EnumFunctionProviders
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains an enumerator for all of the function providers registered for the calling thread.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Address of a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtffunctionproviders">IEnumTfFunctionProviders</a> interface that receives the function provider enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -119,29 +112,14 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The enumerator only contains the registered function providers. The enumerator will not contain the predefined function providers as described in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfunctionprovider">GetFunctionProvider</a>.
 
 A function provider registers itself by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
 

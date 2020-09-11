@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 335114ff-3db8-4867-b830-6806adef01f8
 ms.date: 12/05/2018
 ms.keywords: IGetClusterGroupInfo, IGetClusterGroupInfo interface [Failover Cluster], IGetClusterGroupInfo interface [Failover Cluster],described, _wolf_igetclustergroupinfo, cluadmex/IGetClusterGroupInfo, mscs.igetclustergroupinfo
-f1_keywords:
-- cluadmex/IGetClusterGroupInfo
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IGetClusterGroupInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetClusterGroupInfo
+ - cluadmex/IGetClusterGroupInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IGetClusterGroupInfo
 ---
 
 # IGetClusterGroupInfo interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is available for use in the operating systems specified in the Requirements 
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IGetClusterGroupInfo</b> interface is called by a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extension to retrieve 
     information about a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>.
-
 
 ## -inheritance
 
@@ -82,12 +81,9 @@ Returns a handle to a group.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If the object being extended is not a group, queries for 
      <b>IGetClusterGroupInfo</b> methods will fail. Otherwise, 
@@ -116,13 +112,7 @@ Failover Cluster Administrator passes in an <a href="https://docs.microsoft.com/
      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for one of the 
      <b>IGetClusterGroupInfo</b> methods.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-information-interfaces">Failover Cluster Administrator Information Interfaces</a>
 
@@ -145,7 +135,4 @@ Failover Cluster Administrator passes in an <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
- 
-
- 
 

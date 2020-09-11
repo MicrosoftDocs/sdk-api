@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 18f9a445-99db-43b1-bee0-35bfbd1de0a5
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],RemoveFromRegistry method, IX509PolicyServerUrl.RemoveFromRegistry, IX509PolicyServerUrl::RemoveFromRegistry, RemoveFromRegistry, RemoveFromRegistry method [Security], RemoveFromRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::RemoveFromRegistry, security.ix509policyserverurl_removefromregistry
-f1_keywords:
-- certenroll/IX509PolicyServerUrl.RemoveFromRegistry
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509PolicyServerUrl.RemoveFromRegistry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PolicyServerUrl::RemoveFromRegistry
+ - certenroll/IX509PolicyServerUrl::RemoveFromRegistry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509PolicyServerUrl.RemoveFromRegistry
 ---
 
 # IX509PolicyServerUrl::RemoveFromRegistry
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RemoveFromRegistry</b> method unregisters a certificate enrollment policy (CEP) server.
 
-
 ## -parameters
-
-
-
 
 ### -param context [in]
 
@@ -98,12 +94,8 @@ An administrator acting on the behalf of a computer.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -126,18 +118,8 @@ You do not have sufficient access rights to unregister the CEP.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
- 
-
- 
 

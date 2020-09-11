@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 7f25aac8-13ad-4ea2-96df-351da4729666
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_DevicePower method, IAMExtDevice.get_DevicePower, IAMExtDevice::get_DevicePower, IAMExtDeviceget_DevicePower, dshow.iamextdevice_get_devicepower, get_DevicePower, get_DevicePower method [DirectShow], get_DevicePower method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_DevicePower
-f1_keywords:
-- strmif/IAMExtDevice.get_DevicePower
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtDevice.get_DevicePower
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtDevice::get_DevicePower
+ - strmif/IAMExtDevice::get_DevicePower
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtDevice.get_DevicePower
 ---
 
 # IAMExtDevice::get_DevicePower
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_DevicePower</code> method retrieves the external device's power mode.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPowerMode [out]
 
@@ -86,21 +79,12 @@ Pointer to a <b>long</b> integer that receives one of the following values, indi
 <td>Device is in standby mode.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 In Windows XP Service Pack 2 and later, the following additional power mode is defined.
 
@@ -124,13 +108,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports both ED_POWER_OFF and ED_POWER_ON, but not ED_POWER_STANDBY.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -141,7 +119,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-put_devicepower">IAMExtDevice::put_DevicePower</a>
- 
-
- 
 

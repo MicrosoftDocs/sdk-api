@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 0789fbfe-be91-4849-a31c-1e1a6ae1e70d
 ms.date: 12/05/2018
 ms.keywords: NetServerComputerNameAdd, NetServerComputerNameAdd function [Network Management], _win32_netservercomputernameadd, lmserver/NetServerComputerNameAdd, netmgmt.netservercomputernameadd
-f1_keywords:
-- lmserver/NetServerComputerNameAdd
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetServerComputerNameAdd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetServerComputerNameAdd
+ - lmserver/NetServerComputerNameAdd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetServerComputerNameAdd
 ---
 
 # NetServerComputerNameAdd function
 
 
 ## -description
-
 
 The 
 				<b>NetServerComputerNameAdd</b> function enumerates the transports on which the specified server is active, and binds the emulated server name to each of the transports.
@@ -57,34 +57,21 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportenum">NetServerTransportEnum</a> function and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerName [in]
 
-Pointer to a string that specifies the name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a string that specifies the name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param EmulatedDomainName [in]
 
 Pointer to a string that contains the domain name the specified server should use when announcing its presence using the <i>EmulatedServerName</i>. This parameter is optional.
 
-
 ### -param EmulatedServerName [in]
 
 Pointer to a null-terminated character string that contains the emulated name the server should begin supporting in addition to the name specified by the <i>ServerName</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success. Note that 
 <b>NetServerComputerNameAdd</b> succeeds if the emulated server name specified is added to at least one transport.
@@ -152,14 +139,8 @@ Insufficient memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators or Server Operators local group can successfully execute the 
 <b>NetServerComputerNameAdd</b> function.
@@ -186,14 +167,7 @@ NetServerComputerNameAdd (Server1, NULL, Server2);
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservercomputernamedel">NetServerComputerNameDel</a>
 
@@ -223,7 +197,4 @@ NetServerComputerNameAdd (Server1, NULL, Server2);
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server
 		  Functions</a>
- 
-
- 
 

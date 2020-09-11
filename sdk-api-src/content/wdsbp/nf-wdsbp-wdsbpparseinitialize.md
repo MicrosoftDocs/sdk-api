@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: dc6007ad-0dd5-477d-a49f-45820aa1b5f6
 ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitialize, WdsBpParseInitialize function [Windows Deployment Services], wds.wdsbpparseinitialize, wdsbp/WdsBpParseInitialize
-f1_keywords:
-- wdsbp/WdsBpParseInitialize
-dev_langs:
-- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wdsbp.dll
-api_name:
-- WdsBpParseInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsBpParseInitialize
+ - wdsbp/WdsBpParseInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wdsbp.dll
+api_name:
+ - WdsBpParseInitialize
 ---
 
 # WdsBpParseInitialize function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives a handle to the packet sent by the network boot program.
 
-
 ## -parameters
-
-
-
 
 ### -param pPacket [in]
 
 A pointer to the packet received from the WDS client. The packet must be a valid DHCP packet.
 
-
 ### -param uPacketLen [in]
 
 The length of the packet, in bytes.
-
 
 ### -param pbPacketType [out, optional]
 
@@ -111,19 +105,12 @@ The presence of this value indicates that the packet contains a path to a Boot C
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phHandle [out]
 
 A handle to the packet. This handle can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpqueryoption">WdsBpQueryOption</a> function and must be closed using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpclosehandle">WdsBpCloseHandle</a> function.
 
-
 ## -returns
 
-
-
 If the function succeeds, the return is <b>S_OK</b>.
-
-
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 5d3e65d1-e0c8-4063-b2e8-dd9f482d3378
 ms.date: 12/05/2018
 ms.keywords: ScreenToClient, ScreenToClient function [Windows GDI], _win32_ScreenToClient, gdi.screentoclient, winuser/ScreenToClient
-f1_keywords:
-- winuser/ScreenToClient
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- api-ms-win-ntuser-ie-gui-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- ScreenToClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ScreenToClient
+ - winuser/ScreenToClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - api-ms-win-ntuser-ie-gui-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - ScreenToClient
 ---
 
 # ScreenToClient function
@@ -59,39 +60,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ScreenToClient</b> function converts the screen coordinates of a specified point on the screen to client-area coordinates.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 A handle to the window whose client area will be used for the conversion.
 
-
 ### -param lpPoint
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the screen coordinates to be converted.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The function uses the window identified by the <i>hWnd</i> parameter and the screen coordinates given in the <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure to compute client coordinates. It then replaces the screen coordinates with the client coordinates. The new coordinates are relative to the upper-left corner of the specified window's client area.
 
@@ -101,13 +88,7 @@ All coordinates are in device units.
 
 Do not use <b>ScreenToClient</b> when in a mirroring situation, that is, when changing from left-to-right layout to right-to-left layout. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapwindowpoints">MapWindowPoints</a>. For more information, see "Window Layout and Mirroring" in <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Window Features</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clienttoscreen">ClientToScreen</a>
 
@@ -126,7 +107,4 @@ Do not use <b>ScreenToClient</b> when in a mirroring situation, that is, when ch
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
- 
-
- 
 

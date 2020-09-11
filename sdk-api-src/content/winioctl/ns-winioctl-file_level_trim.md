@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: db3ac916-83e7-4aa1-b5aa-dab139a0a21a
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_LEVEL_TRIM, FILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Files], PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Files], fs.file_level_trim, winioctl/FILE_LEVEL_TRIM, winioctl/PFILE_LEVEL_TRIM'
-f1_keywords:
-- winioctl/FILE_LEVEL_TRIM
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FILE_LEVEL_TRIM
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM
 req.redist: 
+f1_keywords:
+ - _FILE_LEVEL_TRIM
+ - winioctl/_FILE_LEVEL_TRIM
+ - PFILE_LEVEL_TRIM
+ - winioctl/PFILE_LEVEL_TRIM
+ - FILE_LEVEL_TRIM
+ - winioctl/FILE_LEVEL_TRIM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FILE_LEVEL_TRIM
 ---
 
 # FILE_LEVEL_TRIM structure
@@ -48,20 +53,14 @@ req.redist:
 
 ## -description
 
-
 Used as input to the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a> control code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Key
 
 Reserved. Set to zero (0).
-
 
 ### -field NumRanges
 
@@ -70,16 +69,11 @@ Number of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-wi
       <b>NumRangesProcessed</b> member of the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a> structure.
 
-
 ### -field Ranges
 
 Array of ranges that describe the portions of the file that are to be trimmed.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a>
 
@@ -90,7 +84,4 @@ Array of ranges that describe the portions of the file that are to be trimmed.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a>
- 
-
- 
 

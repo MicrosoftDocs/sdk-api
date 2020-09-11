@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 2F4DBA5B-F586-4126-8867-BEE650F6D161
 ms.date: 12/05/2018
 ms.keywords: DiscardResource, DiscardResource method, DiscardResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DiscardResource method, ID3D12GraphicsCommandList.DiscardResource, ID3D12GraphicsCommandList::DiscardResource, d3d12/ID3D12GraphicsCommandList::DiscardResource, direct3d12.id3d12graphicscommandlist_discardresource
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.DiscardResource
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.DiscardResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::DiscardResource
+ - d3d12/ID3D12GraphicsCommandList::DiscardResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.DiscardResource
 ---
 
 ## -description
@@ -85,3 +86,4 @@ For <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
+

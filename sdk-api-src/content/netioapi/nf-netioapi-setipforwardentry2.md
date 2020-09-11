@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: e11aab0b-6d6c-4e90-a60a-f7d68c09751b
 ms.date: 12/05/2018
 ms.keywords: SetIpForwardEntry2, SetIpForwardEntry2 function [IP Helper], iphlp.setipforwardentry2, netioapi/SetIpForwardEntry2
-f1_keywords:
-- netioapi/SetIpForwardEntry2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- SetIpForwardEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetIpForwardEntry2
+ - netioapi/SetIpForwardEntry2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - SetIpForwardEntry2
 ---
 
 # SetIpForwardEntry2 function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetIpForwardEntry2</b> function  sets the properties of an IP route entry on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Route [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure entry for an IP route entry. The <b>DestinationPrefix</b> member of the <b>MIB_IPFORWARD_ROW2</b> must be set to a valid IP destination prefix, the <b>NextHop</b> member of the <b>MIB_IPFORWARD_ROW2</b> must be set to a valid IP address family and IP address,   and the <b>InterfaceLuid</b> or the  <b>InterfaceIndex</b> member of the <b>MIB_IPFORWARD_ROW2</b> must be specified. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure entry for an IP route entry. The <b>DestinationPrefix</b> member of the <b>MIB_IPFORWARD_ROW2</b> must be set to a valid IP destination prefix, the <b>NextHop</b> member of the <b>MIB_IPFORWARD_ROW2</b> must be set to a valid IP address family and IP address,   and the <b>InterfaceLuid</b> or the  <b>InterfaceIndex</b> member of the <b>MIB_IPFORWARD_ROW2</b> must be specified.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -124,14 +117,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetIpForwardEntry2</b> function is defined on Windows Vista and later. 
 
@@ -151,15 +138,7 @@ The <b>SetIpForwardEntry2</b> function can only be called by a user logged on as
 
 The <b>SetIpForwardEntry2</b> function can also fail because of user account control (UAC) on Windows Vista and later. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2">CreateIpForwardEntry2</a>
 
@@ -202,7 +181,4 @@ The <b>SetIpForwardEntry2</b> function can also fail because of user account con
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2">NotifyRouteChange2</a>
- 
-
- 
 

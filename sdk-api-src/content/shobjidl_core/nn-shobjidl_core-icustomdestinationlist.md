@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 65a3dab8-3136-416d-bd8a-ca813bfe0533
 ms.date: 12/05/2018
 ms.keywords: ICustomDestinationList, ICustomDestinationList interface [Windows Shell], ICustomDestinationList interface [Windows Shell],described, _shell_ICustomDestinationList, shell.ICustomDestinationList, shobjidl_core/ICustomDestinationList
-f1_keywords:
-- shobjidl_core/ICustomDestinationList
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ICustomDestinationList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICustomDestinationList
+ - shobjidl_core/ICustomDestinationList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ICustomDestinationList
 ---
 
 # ICustomDestinationList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow an application to provide a custom Jump List, including destinations and tasks, for display in the taskbar.
-
 
 ## -inheritance
 
@@ -149,12 +148,9 @@ Specifies a unique AppUserModelID for the application whose taskbar button will 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided in Windows as CLSID_DestinationList. This interface is not implemented by third parties.
@@ -199,15 +195,7 @@ The basic sequence of <b>ICustomDestinationList</b> method calls to build and di
 </li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

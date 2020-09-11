@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2
 ms.date: 12/05/2018
 ms.keywords: 1, 2, DsFreeDomainControllerInfo, DsFreeDomainControllerInfo function [Active Directory], DsFreeDomainControllerInfoA, DsFreeDomainControllerInfoW, _glines_dsfreedomaincontrollerinfo, ad.dsfreedomaincontrollerinfo, ntdsapi/DsFreeDomainControllerInfo, ntdsapi/DsFreeDomainControllerInfoA, ntdsapi/DsFreeDomainControllerInfoW
-f1_keywords:
-- ntdsapi/DsFreeDomainControllerInfo
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
-- KernelBase.dll
-- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
-api_name:
-- DsFreeDomainControllerInfo
-- DsFreeDomainControllerInfoA
-- DsFreeDomainControllerInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsFreeDomainControllerInfoA
+ - ntdsapi/DsFreeDomainControllerInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+ - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+ - KernelBase.dll
+ - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+api_name:
+ - DsFreeDomainControllerInfo
+ - DsFreeDomainControllerInfoA
+ - DsFreeDomainControllerInfoW
 ---
 
 # DsFreeDomainControllerInfoA function
@@ -54,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsFreeDomainControllerInfo</b> function frees memory that is allocated by 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa">DsGetDomainControllerInfo</a> for data about the domain controllers in a domain.
 
-
 ## -parameters
-
-
-
 
 ### -param InfoLevel [in]
 
@@ -80,30 +76,19 @@ The function frees the structure that contains  <a href="https://docs.microsoft.
 
 The function frees the structure that contains <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_2a">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
 
-
 ### -param cInfo [in]
 
 Indicates the number of items in <i>pInfo</i>.
-
 
 ### -param pInfo [in]
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a">DS_DOMAIN_CONTROLLER_INFO</a> structures to be freed.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a">DS_DOMAIN_CONTROLLER_INFO_1</a>
 
@@ -114,9 +99,6 @@ This function does not return a value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa">DsGetDomainControllerInfo</a>
- 
-
- 
 
 ## -remarks
 

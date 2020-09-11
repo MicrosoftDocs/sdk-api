@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 1aa549a0-c95f-4385-a30e-8906f67e39cd
 ms.date: 12/05/2018
 ms.keywords: DeleteDC, DeleteDC function [Windows GDI], _win32_DeleteDC, gdi.deletedc, wingdi/DeleteDC
-f1_keywords:
-- wingdi/DeleteDC
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
-- Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
-- ext-ms-win-gdi-dc-create-l1-1-2.dll
-- GDI32Full.dll
-api_name:
-- DeleteDC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteDC
+ - wingdi/DeleteDC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
+ - Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
+ - ext-ms-win-gdi-dc-create-l1-1-2.dll
+ - GDI32Full.dll
+api_name:
+ - DeleteDC
 ---
 
 # DeleteDC function
@@ -53,34 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeleteDC</b> function deletes the specified device context (DC).
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 An application must not delete a DC whose handle was obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> function. Instead, it must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a> function to free the DC.
 
@@ -91,12 +79,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/retr
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
@@ -115,7 +98,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/retr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a>
- 
-
- 
 

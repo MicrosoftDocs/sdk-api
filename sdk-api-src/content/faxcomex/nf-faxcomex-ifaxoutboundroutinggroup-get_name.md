@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0s6d.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingGroup interface [Fax Service],Name property, IFaxOutboundRoutingGroup.Name, IFaxOutboundRoutingGroup.get_Name, IFaxOutboundRoutingGroup::Name, IFaxOutboundRoutingGroup::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxOutboundRoutingGroup interface, _mfax_faxoutboundroutinggroup.name, fax._mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_name_cpp, fax._mfax_faxoutboundroutinggroup_name, faxcomex/IFaxOutboundRoutingGroup::Name, faxcomex/IFaxOutboundRoutingGroup::get_Name, get_Name
-f1_keywords:
-- faxcomex/IFaxOutboundRoutingGroup.Name
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutboundRoutingGroup.Name
-- IFaxOutboundRoutingGroup.get_Name
-- IFaxOutboundRoutingGroup.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutboundRoutingGroup::get_Name
+ - faxcomex/IFaxOutboundRoutingGroup::get_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutboundRoutingGroup.Name
+ - IFaxOutboundRoutingGroup.get_Name
+ - IFaxOutboundRoutingGroup.get_Name
 ---
 
 # IFaxOutboundRoutingGroup::get_Name
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Name</b> property is a null-terminated string that specifies the name of the outbound routing group.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroup">FaxOutboundRoutingGroup</a>
 
@@ -74,7 +69,4 @@ This property is read-only.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>
- 
-
- 
 

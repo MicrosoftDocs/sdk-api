@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 834C7CBA-179E-4C1E-9664-A70EB38D74BE
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
-f1_keywords:
-- pwm/IOCTL_PWM_PIN_GET_POLARITY
-dev_langs:
-- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pwm.h
-api_name:
-- IOCTL_PWM_PIN_GET_POLARITY
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_PWM_PIN_GET_POLARITY
+ - pwm/IOCTL_PWM_PIN_GET_POLARITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pwm.h
+api_name:
+ - IOCTL_PWM_PIN_GET_POLARITY
 ---
 
 # IOCTL_PWM_PIN_GET_POLARITY IOCTL
@@ -49,55 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> enumeration. 
-
-
-
+Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> enumeration.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Not used with this operation; set to NULL.
 
-
 ### -input-buffer-length
 
 Not used with this operation; set to zero.
-
 
 ### -output-buffer
 
 A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. This represents the polarity value of the PWM controller, and is either Active High or Active Low.
 
-
 ### -output-buffer-length
 
 The size of the output buffer, in bytes.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
@@ -109,10 +88,7 @@ If the operation fails or is pending,
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -257,18 +233,8 @@ For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
- 
-
- 
 

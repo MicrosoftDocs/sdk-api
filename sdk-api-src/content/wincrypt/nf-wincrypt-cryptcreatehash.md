@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253
 ms.date: 12/05/2018
 ms.keywords: CRYPT_SECRETDIGEST, CryptCreateHash, CryptCreateHash function [Security], _crypto2_cryptcreatehash, security.cryptcreatehash, wincrypt/CryptCreateHash
-f1_keywords:
-- wincrypt/CryptCreateHash
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptCreateHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptCreateHash
+ - wincrypt/CryptCreateHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptCreateHash
 ---
 
 # CryptCreateHash function
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptCreateHash</b> function initiates the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing</a> of a stream of data. It creates and returns to the calling application a handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>. This handle is used in subsequent calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> to hash session keys and other streams of data.
 
-
 ## -parameters
-
-
-
 
 ### -param hProv [in]
 
 A handle to a CSP created by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
-
 
 ### -param Algid [in]
 
@@ -74,13 +69,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID<
 
 Valid values for this parameter vary, depending on the CSP that is used. For a list of default algorithms, see  Remarks.
 
-
 ### -param hKey [in]
 
 If the type of hash algorithm is a keyed hash, such as the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) algorithm, the key for the hash is passed in this parameter. For nonkeyed algorithms, this parameter must be set to zero.
 
 For keyed algorithms, the key must be to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block cipher</a> key, such as RC2, that has a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher mode</a> of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Cipher Block Chaining</a> (CBC).
-
 
 ### -param dwFlags [in]
 
@@ -103,17 +96,12 @@ This flag is not used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phHash [out]
 
 The address to which the function copies a handle to the new hash object. When you have finished using the hash object, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
@@ -205,14 +193,8 @@ The CSP ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For a list of Microsoft service providers and the algorithms they implement, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-cryptographic-service-providers">Microsoft Cryptographic Service Providers</a>.
 
@@ -299,14 +281,7 @@ if(hCryptProv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
@@ -345,7 +320,4 @@ if(hCryptProv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

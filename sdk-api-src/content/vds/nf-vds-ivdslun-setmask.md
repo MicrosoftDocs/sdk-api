@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: b7e841cc-95b4-452f-ac14-d7063fe6a694
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
-f1_keywords:
-- vds/IVdsLun.SetMask
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsLun.SetMask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLun::SetMask
+ - vds/IVdsLun::SetMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsLun.SetMask
 ---
 
 # IVdsLun::SetMask
@@ -50,17 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Specifies the unmasking list, 
    which is the list of computers to be granted access to the LUN.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszUnmaskingList [in]
 
@@ -91,8 +87,6 @@ For iSCSI networks, each entry is an iSCSI qualified name (IQN) of each initiato
 <div> </div>
 
 ## -returns
-
-
 
 This method can return standard <b>HRESULT</b> values, such as 
       <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and 
@@ -162,14 +156,8 @@ Another operation is in progress; this operation cannot proceed until the previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling the <b>SetMask</b> method to mask a LUN, 
     the caller should uninstall the corresponding disks as follows. First, retrieve the VDS object ID of the disk that 
@@ -235,13 +223,7 @@ After a LUN is unmasked to a target machine or masked from a target machine, the
     bus rescan by calling <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-reenumerate">IVdsService::Reenumerate</a>. 
     The initiating of the bus rescan is the responsibility of the VDS application, not the hardware provider.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
@@ -252,7 +234,4 @@ After a LUN is unmasked to a target machine or masked from a target machine, the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a>
- 
-
- 
 

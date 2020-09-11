@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 508c447e-dbbb-4e10-b9f7-c1d58ccf1895
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignaturePartReferenceEnumerator.MovePrevious, IOpcSignaturePartReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, msopc/IOpcSignaturePartReferenceEnumerator::MovePrevious, opc.iopcsignaturepartreferenceenumerator_moveprevious
-f1_keywords:
-- msopc/IOpcSignaturePartReferenceEnumerator.MovePrevious
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignaturePartReferenceEnumerator.MovePrevious
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignaturePartReferenceEnumerator::MovePrevious
+ - msopc/IOpcSignaturePartReferenceEnumerator::MovePrevious
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignaturePartReferenceEnumerator.MovePrevious
 ---
 
 # IOpcSignaturePartReferenceEnumerator::MovePrevious
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the current position of the enumerator to the previous <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturepartreference">IOpcSignaturePartReference</a> interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param hasPrevious [out, retval]
 
@@ -92,12 +88,8 @@ The current position of the enumerator has been moved past the beginning of the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,15 +145,8 @@ The enumerator is invalid because the underlying set has changed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -204,7 +189,4 @@ The enumerator is invalid because the underlying set has changed.
 
 
 <b>Reference</b>
- 
-
- 
 

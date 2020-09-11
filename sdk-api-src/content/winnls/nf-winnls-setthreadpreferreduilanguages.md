@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 32a8117c-2cb2-4559-8e86-9fad5b28aa5b
 ms.date: 12/05/2018
 ms.keywords: MUI_COMPLEX_SCRIPT_FILTER, MUI_CONSOLE_FILTER, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_RESET_FILTERS, SetThreadPreferredUILanguages, SetThreadPreferredUILanguages function [Internationalization for Windows Applications], _win32_SetThreadPreferredUILanguages, intl.setthreadpreferreduilanguages, winnls/SetThreadPreferredUILanguages
-f1_keywords:
-- winnls/SetThreadPreferredUILanguages
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- SetThreadPreferredUILanguages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadPreferredUILanguages
+ - winnls/SetThreadPreferredUILanguages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - SetThreadPreferredUILanguages
 ---
 
 # SetThreadPreferredUILanguages function
@@ -55,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the thread preferred UI languages for the current thread. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 
 <div class="alert"><b>Note</b>  This function is also used by the operating system to identify languages that are safe to use on the Windows console.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -145,8 +140,6 @@ Reset the filtering for the language list by removing any other filter settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwszLanguagesBuffer [in, optional]
 
@@ -157,24 +150,15 @@ If an application clears a language list, it should specify either a format flag
 
 When the application specifies one of the filtering flags, it must set this parameter to <b>NULL</b>. In this case, the function succeeds, but does not reset the thread preferred languages.
 
-
 ### -param pulNumLanguages [out, optional]
 
 Pointer to the number of languages that the function has set in the thread preferred UI languages list. When the application specifies one of the filtering flags, the function must set this parameter to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 When the application loads resources after a call to this function, the thread-specific preferences take priority over the languages preferred by the user.
 
@@ -229,14 +213,7 @@ To change the code page, the application uses the <b>setlocale</b> function, or 
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>
 
@@ -251,7 +228,4 @@ To change the code page, the application uses the <b>setlocale</b> function, or 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a>
- 
-
- 
 

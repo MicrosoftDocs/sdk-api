@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 091b3f17-ccf7-493c-8992-00425f37d0ec
 ms.date: 12/05/2018
 ms.keywords: GetLocaleInfo, GetLocaleInfo function [Internationalization for Windows Applications], GetLocaleInfoA, GetLocaleInfoW, _win32_GetLocaleInfo, intl.getlocaleinfo, winnls/GetLocaleInfo, winnls/GetLocaleInfoA, winnls/GetLocaleInfoW
-f1_keywords:
-- winnls/GetLocaleInfo
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetLocaleInfo
-- GetLocaleInfoA
-- GetLocaleInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLocaleInfoA
+ - winnls/GetLocaleInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetLocaleInfo
+ - GetLocaleInfoA
+ - GetLocaleInfoW
 ---
 
 # GetLocaleInfoA function
@@ -58,17 +59,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a locale specified by identifier.
 <div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> function to <b>GetLocaleInfo</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Locale [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> for which to retrieve information. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
@@ -104,15 +100,11 @@ The locale information to retrieve. For detailed definitions, see the <i>LCType<
 
 Pointer to a buffer in which this function retrieves the requested locale information. This pointer is not used if <i>cchData</i> is set to 0. For more information, see the Remarks section.
 
-
 ### -param cchData [in]
 
 Size, in TCHAR values, of the data buffer indicated by <i>lpLCData</i>. Alternatively, the application can set this parameter to 0. In this case, the function does not use the <i>lpLCData</i> parameter and returns the required buffer size, including the terminating null character.
 
-
 ## -returns
-
-
 
 Returns the number of characters retrieved in the locale data buffer if successful and <i>cchData</i> is a nonzero value. If the function succeeds, <i>cchData</i> is nonzero, and <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-return-constants">LOCALE_RETURN_NUMBER</a> is specified, the return value is the size of the integer retrieved in the data buffer; that is, 2 for the Unicode version of the function or 4 for the ANSI version. If the function succeeds and the value of <i>cchData</i> is 0, the return value is the required size, in characters including a null character, for the locale data buffer.
 
@@ -124,11 +116,7 @@ The function returns 0 if it does not succeed. To get extended error information
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 For the operation of this function, see Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>.
 
@@ -172,9 +160,6 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
 
 
@@ -200,7 +185,4 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setlocaleinfoa">SetLocaleInfo</a>
- 
-
- 
 

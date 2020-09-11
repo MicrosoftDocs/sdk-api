@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 496234C1-C20B-46FE-A9BB-4B90C14FEB46
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes, IInkStrokes interface [Tablet PC], IInkStrokes interface [Tablet PC],described, msinkaut/IInkStrokes, tablet.iinkstrokes
-f1_keywords:
-- msinkaut/IInkStrokes
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokes
+ - msinkaut/IInkStrokes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkStrokes
 ---
 
 # IInkStrokes interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a collection of ink strokes.
 
 A stroke is a set of properties and point data that the digitizer captures that represent the coordinates and properties of a known ink mark. It is the set of data that is captured in a single pen down, up, or move sequence.
-
 
 ## -inheritance
 
@@ -309,3 +308,4 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msi
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

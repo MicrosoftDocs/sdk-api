@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setgammaramp.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetGammaRamp method, IDirect3DDevice9.SetGammaRamp, IDirect3DDevice9::SetGammaRamp, SetGammaRamp, SetGammaRamp method [Direct3D 9], SetGammaRamp method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetGammaRamp, direct3d9.idirect3ddevice9__setgammaramp, e89cee81-1943-1a70-dd75-6de0d4b7dca7
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.SetGammaRamp
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.SetGammaRamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::SetGammaRamp
+ - d3d9helper/IDirect3DDevice9::SetGammaRamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.SetGammaRamp
 ---
 
 # IDirect3DDevice9::SetGammaRamp
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the gamma correction ramp for the implicit swap chain. This method will affect the entire screen (not just the active window if you are running in windowed mode).
 
-
 ## -parameters
-
-
-
 
 ### -param iSwapChain [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Unsigned integer specifying the swap chain.
-
 
 ### -param Flags [in]
 
@@ -100,19 +95,14 @@ No gamma correction is applied. The supplied gamma table is transferred directly
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pRamp [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dgammaramp">D3DGAMMARAMP</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dgammaramp">D3DGAMMARAMP</a> structure, representing the gamma correction ramp to be set for the implicit swap chain. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dgammaramp">D3DGAMMARAMP</a> structure, representing the gamma correction ramp to be set for the implicit swap chain.
 
 ## -remarks
-
-
 
 There is always at least one swap chain (the implicit swap chain) for each device, because Direct3D 9 has one swap chain as a property of the device. The gamma ramp takes effect immediately; there is no wait for a vertical sync.
 
@@ -120,13 +110,7 @@ If the device does not support gamma ramps in the swap chain's current presentat
 
 For windowed gamma correction presentation, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present">IDirect3DSwapChain9::Present</a> if the hardware supports the feature. In DirectX 8, SetGammaRamp will set the gamma ramp only on a full-screen mode application. For more information about gamma correction, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/gamma">Gamma (Direct3D 9)</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
@@ -137,7 +121,4 @@ For windowed gamma correction presentation, use <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>
- 
-
- 
 

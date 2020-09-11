@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\msllhookstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPMSLLHOOKSTRUCT, *PMSLLHOOKSTRUCT, LLMHF_INJECTED, LLMHF_LOWER_IL_INJECTED, LPMSLLHOOKSTRUCT, LPMSLLHOOKSTRUCT structure pointer [Windows and Messages], MSLLHOOKSTRUCT, MSLLHOOKSTRUCT structure [Windows and Messages], PMSLLHOOKSTRUCT, PMSLLHOOKSTRUCT structure pointer [Windows and Messages], XBUTTON1, XBUTTON2, _win32_MSLLHOOKSTRUCT_str, _win32_msllhookstruct_str_cpp, winmsg.msllhookstruct, winui._win32_msllhookstruct_str, winuser/LPMSLLHOOKSTRUCT, winuser/MSLLHOOKSTRUCT, winuser/PMSLLHOOKSTRUCT'
-f1_keywords:
-- winuser/MSLLHOOKSTRUCT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MSLLHOOKSTRUCT
 targetos: Windows
 req.typenames: MSLLHOOKSTRUCT, *LPMSLLHOOKSTRUCT, *PMSLLHOOKSTRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMSLLHOOKSTRUCT
+ - winuser/tagMSLLHOOKSTRUCT
+ - LPMSLLHOOKSTRUCT
+ - winuser/LPMSLLHOOKSTRUCT
+ - MSLLHOOKSTRUCT
+ - winuser/MSLLHOOKSTRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MSLLHOOKSTRUCT
 ---
 
 # MSLLHOOKSTRUCT structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a low-level mouse input event. 
-
+Contains information about a low-level mouse input event.
 
 ## -struct-fields
-
-
-
 
 ### -field pt
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-The x- and y-coordinates of the cursor, in <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">per-monitor-aware</a> screen coordinates. 
-
+The x- and y-coordinates of the cursor, in <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">per-monitor-aware</a> screen coordinates.
 
 ### -field mouseData
 
@@ -102,8 +101,6 @@ The second X button was pressed or released.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field flags
 
@@ -139,27 +136,20 @@ Test the event-injected (from a process running at lower integrity level) flag.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field time
 
 Type: <b>DWORD</b>
 
-The time stamp for this message. 
-
+The time stamp for this message.
 
 ### -field dwExtraInfo
 
 Type: <b>ULONG_PTR</b>
 
-Additional information associated with the message. 
-
+Additional information associated with the message.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -214,7 +204,4 @@ Additional information associated with the message.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttonup">WM_XBUTTONUP</a>
- 
-
- 
 

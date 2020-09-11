@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: da779e8d-4984-44e3-8731-647a422b55b2
 ms.date: 12/05/2018
 ms.keywords: RemoveTraceCallback, RemoveTraceCallback function [ETW], _evt_removetracecallback, base.removetracecallback, etw.removetracecallback, evntrace/RemoveTraceCallback
-f1_keywords:
-- evntrace/RemoveTraceCallback
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Obsolete-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- RemoveTraceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveTraceCallback
+ - evntrace/RemoveTraceCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - RemoveTraceCallback
 ---
 
 # RemoveTraceCallback function
@@ -53,18 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Do not use this function; it may be unavailable in subsequent versions.]
 
 The <b>RemoveTraceCallback</b> function stops an 
     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> function from receiving events 
     for an event trace class.
 
-
 ## -parameters
-
-
-
 
 ### -param pGuid [in]
 
@@ -72,10 +68,7 @@ Pointer to the class GUID of the event trace class for which the callback receiv
       class GUID that you passed to the <a href="https://docs.microsoft.com/windows/desktop/ETW/settracecallback">SetTraceCallback</a> 
       to begin receiving the events.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -112,24 +105,12 @@ There is no <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclassca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Consumers call this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
 
@@ -140,7 +121,4 @@ Consumers call this function.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/settracecallback">SetTraceCallback</a>
- 
-
- 
 

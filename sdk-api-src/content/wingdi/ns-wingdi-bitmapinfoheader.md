@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 153c08a8-d32c-4e9d-9da9-b915eb172327
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPINFOHEADER, *PBITMAPINFOHEADER, BITMAPINFOHEADER, BITMAPINFOHEADER structure [DirectShow], BITMAPINFOHEADERStructure, BI_BITFIELDS, BI_RGB, dshow.bitmapinfoheader, tagBITMAPINFOHEADER, wingdi/BITMAPINFOHEADER'
-f1_keywords:
-- wingdi/BITMAPINFOHEADER
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinGDI.h
-api_name:
-- BITMAPINFOHEADER
 targetos: Windows
 req.typenames: BITMAPINFOHEADER, *LPBITMAPINFOHEADER, *PBITMAPINFOHEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagBITMAPINFOHEADER
+ - wingdi/tagBITMAPINFOHEADER
+ - LPBITMAPINFOHEADER
+ - wingdi/LPBITMAPINFOHEADER
+ - BITMAPINFOHEADER
+ - wingdi/BITMAPINFOHEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinGDI.h
+api_name:
+ - BITMAPINFOHEADER
 ---
 
 # BITMAPINFOHEADER structure
@@ -49,26 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BITMAPINFOHEADER</b> structure contains information about the dimensions and color format of a device-independent bitmap (DIB).
 <div class="alert"><b>Note</b>  This structure is also described in the GDI documentation. However, the semantics for video data are slightly different than the semantics used for GDI. If you are using this structure to describe video data, use the information given here.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field biSize
 
 Specifies the number of bytes required by the structure. This value does not include the size of the color table or the size of the color masks, if they are appended to the end of structure. See Remarks.
-          
-
 
 ### -field biWidth
 
 Specifies the width of the bitmap, in pixels. For information about calculating the stride of the bitmap, see Remarks.
-          
-
 
 ### -field biHeight
 
@@ -83,14 +80,10 @@ Specifies the height of the bitmap, in pixels.
 ### -field biPlanes
 
 Specifies the number of planes for the target device. This value must be set to 1.
-          
-
 
 ### -field biBitCount
 
 Specifies the number of bits per pixel (bpp). For uncompressed formats, this value is the average number of bits per pixel. For compressed formats, this value is the implied bit depth of the uncompressed image, after the image has been decoded.
-          
-
 
 ### -field biCompression
 
@@ -130,40 +123,27 @@ See Remarks for more information. Note that <b>BI_JPG</b> and <b>BI_PNG</b> are 
 
 For 16-bpp bitmaps, if <b>biCompression</b> equals <b>BI_RGB</b>, the format is always RGB 555. If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the format is either RGB 555 or RGB 565. Use the subtype GUID in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure to determine the specific RGB type.
 
-
 ### -field biSizeImage
 
 Specifies the size, in bytes, of the image. This can be set to 0 for uncompressed RGB bitmaps.
-          
-
 
 ### -field biXPelsPerMeter
 
 Specifies the horizontal resolution, in pixels per meter, of the target device for the bitmap.
-          
-
 
 ### -field biYPelsPerMeter
 
 Specifies the vertical resolution, in pixels per meter, of the target device for the bitmap.
-          
-
 
 ### -field biClrUsed
 
 Specifies the number of color indices in the color table that are actually used by the bitmap. See Remarks for more information.
-          
-
 
 ### -field biClrImportant
 
 Specifies the number of color indices that are considered important for displaying the bitmap. If this value is zero, all colors are important.
-          
-
 
 ## -remarks
-
-
 
 <h3><a id="Color_Tables"></a><a id="color_tables"></a><a id="COLOR_TABLES"></a>Color Tables</h3>
 The <b>BITMAPINFOHEADER</b> structure may be followed by an array of palette entries or color masks. The rules depend on the value of <b>biCompression</b>.
@@ -203,13 +183,7 @@ Then the video renderer proposes the modified format by calling <a href="https:/
 
 If there is padding in the image buffer, never dereference a pointer into the memory that has been reserved for the padding. If the image buffer has been allocated in video memory, the padding might not be readable memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
@@ -224,7 +198,4 @@ If there is padding in the image buffer, never dereference a pointer into the me
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-video-frames">Working with Video Frames</a>
- 
-
- 
 

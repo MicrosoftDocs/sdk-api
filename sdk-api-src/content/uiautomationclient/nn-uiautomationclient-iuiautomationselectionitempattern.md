@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: b76d5003-b9af-4a48-91d3-8075f45cf131
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], IUIAutomationSelectionItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationSelectionItemPattern, uiauto_IUIAutomationSelectionItemPattern, uiautomationclient/IUIAutomationSelectionItemPattern, winauto.uiauto_IUIAutomationSelectionItemPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationSelectionItemPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationSelectionItemPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationSelectionItemPattern
+ - uiautomationclient/IUIAutomationSelectionItemPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationSelectionItemPattern
 ---
 
 # IUIAutomationSelectionItemPattern interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the selectable child items of a container control that supports <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a>.
-
 
 ## -inheritance
 
@@ -170,16 +169,9 @@ Retrieves the element that supports <a href="https://docs.microsoft.com/windows/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
 

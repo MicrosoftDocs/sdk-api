@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging],described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
-f1_keywords:
-- xpsobjectmodel/IXpsOMPageReference
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPageReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPageReference
+ - xpsobjectmodel/IXpsOMPageReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPageReference
 ---
 
 # IXpsOMPageReference interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables virtualization of pages in an XPS document.
 
 A page reference defers loading of the full object model of a page until  the page is requested. If the page has not been altered, it  can also be unloaded on request.
-
 
 ## -inheritance
 
@@ -233,12 +232,9 @@ Sets the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -285,13 +281,7 @@ else
 
 For information about using this interface in a program, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316970(v=vs.85)">Create a Blank XPS OM</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372917(v=vs.85)">Navigate the XPS OM</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316970(v=vs.85)">Create a Blank XPS OM</a>
 
@@ -334,7 +324,4 @@ For information about using this interface in a program, see <a href="https://do
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

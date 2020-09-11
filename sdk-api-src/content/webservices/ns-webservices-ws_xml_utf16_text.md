@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 07260aa6-4513-43e6-8803-c53199427932
 ms.date: 12/05/2018
 ms.keywords: WS_XML_UTF16_TEXT, WS_XML_UTF16_TEXT structure [Web Services for Windows], webservices/WS_XML_UTF16_TEXT, wsw.ws_xml_utf16_text
-f1_keywords:
-- webservices/WS_XML_UTF16_TEXT
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_UTF16_TEXT
 targetos: Windows
 req.typenames: WS_XML_UTF16_TEXT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_XML_UTF16_TEXT
+ - webservices/_WS_XML_UTF16_TEXT
+ - WS_XML_UTF16_TEXT
+ - webservices/WS_XML_UTF16_TEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_UTF16_TEXT
 ---
 
 # WS_XML_UTF16_TEXT structure
@@ -49,30 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents text encoded as UTF-16 bytes.
-      
-
 
 ## -struct-fields
-
-
-
 
 ### -field text
 
 The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
-        
-
 
 ### -field bytes
 
 The bytes that point to UTF-16 encoded data.
-        
-
 
 ### -field byteCount
 
 The length in bytes of the UTF-16 encoded data.
-        
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4skk.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxRoutingMethod, IFaxRoutingMethod interface [Fax Service], IFaxRoutingMethod interface [Fax Service],described, _mfax_ifaxroutingmethod, fax._mfax_ifaxroutingmethod, faxcom/IFaxRoutingMethod
-f1_keywords:
-- faxcom/IFaxRoutingMethod
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxRoutingMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxRoutingMethod
+ - faxcom/IFaxRoutingMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxRoutingMethod
 ---
 
 # IFaxRoutingMethod interface
 
 
 ## -description
-
 
 The <b>IFaxRoutingMethod</b> dual interface is used by a fax client application to retrieve fax routing configuration information for a fax port on a connected fax server. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxroutingmethods">FaxRoutingMethods</a> object is a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxroutingmethod">FaxRoutingMethod</a> objects. 
 
@@ -59,12 +59,9 @@ The <b>IFaxRoutingMethod</b> interface includes the following interface methods.
 </ul>
 
 
-A routing method is an action that is performed each time a fax is received on a port. If fax reception is not enabled on a port, the fax service disregards the routing methods associated with the port. Only enabled routing methods are executed when a fax is received. 
-
+A routing method is an action that is performed each time a fax is received on a port. If fax reception is not enabled on a port, the fax service disregards the routing methods associated with the port. Only enabled routing methods are executed when a fax is received.
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 You should not implement this interface. The Microsoft standard implementation provides complete functionality. 
@@ -85,14 +82,7 @@ A client application should not call the <a href="https://docs.microsoft.com/win
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxroutingmethod">FaxRoutingMethod</a> object to allow the object to deallocate itself. Also call IUnknown::Release for each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object, and to destroy the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a> interface pointer.</li>
 </ol>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -103,7 +93,4 @@ A client application should not call the <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

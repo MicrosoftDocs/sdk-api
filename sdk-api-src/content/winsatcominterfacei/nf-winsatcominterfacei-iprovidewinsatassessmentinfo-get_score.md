@@ -8,10 +8,6 @@ tech.root: WinSAT
 ms.assetid: a1fbeb60-10dd-4082-8d2e-76c4baf35152
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATAssessmentInfo interface [WinSAT],Score property, IProvideWinSATAssessmentInfo.Score, IProvideWinSATAssessmentInfo.get_Score, IProvideWinSATAssessmentInfo::Score, IProvideWinSATAssessmentInfo::get_Score, Score property [WinSAT], Score property [WinSAT],IProvideWinSATAssessmentInfo interface, get_Score, winsat.iprovidewinsatassessmentinfo_score, winsatcominterfacei/IProvideWinSATAssessmentInfo::Score, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Score
-f1_keywords:
-- winsatcominterfacei/IProvideWinSATAssessmentInfo.Score
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IProvideWinSATAssessmentInfo.Score
-- IProvideWinSATAssessmentInfo.get_Score
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProvideWinSATAssessmentInfo::get_Score
+ - winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Score
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IProvideWinSATAssessmentInfo.Score
+ - IProvideWinSATAssessmentInfo.get_Score
 ---
 
 # IProvideWinSATAssessmentInfo::get_Score
@@ -50,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IProvideWinSATAssessmentInfo::Score may be altered or unavailable for releases after Windows 8.1.]
 
 Retrieves the score for the subcomponent.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The score represents the subcomponent's metrics as normalized by WinSAT.    The score is a floating point value that should be displayed with only one significant digit to the right of the decimal point.  The value is 0.0 if the assessment is unavailable or not valid. 
 
@@ -78,19 +74,11 @@ For an example, see the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a>
- 
-
- 
 

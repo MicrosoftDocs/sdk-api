@@ -35,6 +35,7 @@ api_location:
 api_name:
  - WlxReconnectNotify
 f1_keywords:
+ - WlxReconnectNotify
  - winwlx/WlxReconnectNotify
 dev_langs:
  - c++

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b2903a76-2888-4f0e-b23e-36d7488c837b
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectButton method, IDvdControl2.SelectButton, IDvdControl2::SelectButton, IDvdControl2SelectButton, SelectButton, SelectButton method [DirectShow], SelectButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectbutton, strmif/IDvdControl2::SelectButton
-f1_keywords:
-- strmif/IDvdControl2.SelectButton
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectButton
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectButton
+ - strmif/IDvdControl2::SelectButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectButton
 ---
 
 # IDvdControl2::SelectButton
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectButton</code> method selects the specified menu button.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulButton [in]
 
 Value from 1 through 36 that specifies the button to select.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -123,14 +113,8 @@ UOP control prohibits the <a href="https://docs.microsoft.com/windows/desktop/Di
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table shows the Annex J command name to which this method name corresponds, and the domains in which this method is valid.
 
@@ -152,15 +136,8 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -175,7 +152,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
- 
-
- 
 

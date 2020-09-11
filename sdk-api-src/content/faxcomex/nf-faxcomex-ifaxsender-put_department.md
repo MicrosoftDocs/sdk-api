@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7hx0.htm
 ms.date: 12/05/2018
 ms.keywords: Department property [Fax Service], Department property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Department property, IFaxSender.Department, IFaxSender.get_Department, IFaxSender.put_Department, IFaxSender::Department, IFaxSender::get_Department, IFaxSender::put_Department, _mfax_faxsender.department, fax._mfax_faxsender_cpp_mfax_faxsender_department_cpp, fax._mfax_faxsender_department, faxcomex/IFaxSender::Department, faxcomex/IFaxSender::get_Department, faxcomex/IFaxSender::put_Department, put_Department
-f1_keywords:
-- faxcomex/IFaxSender.Department
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxSender.Department
-- IFaxSender.get_Department
-- IFaxSender.put_Department
-- IFaxSender.get_Department
-- IFaxSender.put_Department
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxSender::put_Department
+ - faxcomex/IFaxSender::put_Department
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxSender.Department
+ - IFaxSender.get_Department
+ - IFaxSender.put_Department
+ - IFaxSender.get_Department
+ - IFaxSender.put_Department
 ---
 
 # IFaxSender::put_Department
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxSender::get_Department</b> property is a null-terminated string that contains the department associated with the sender.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
 
@@ -76,7 +71,4 @@ This property is read/write.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
- 
-
- 
 

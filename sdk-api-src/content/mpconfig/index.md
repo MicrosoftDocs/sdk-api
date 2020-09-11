@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: virtual
+f1_keywords:
+ - mpconfig
+ - mpconfig/mpconfig
 ---
 
 # Mpconfig.h header
 
 
 ## -description
-
 
 This header is used by Hyper-V WMI Provider. For more information, see:
 

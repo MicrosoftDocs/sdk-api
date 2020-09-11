@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoDecodeCommandList::Reset","Reset","ID3D12Video
 tech.root: mf
 ms.assetid: 2cad8f37-8905-4321-a707-0121961e1f9c
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoDecodeCommandList::Reset
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoDecodeCommandList::Reset, Reset, ID3D12VideoDecodeCommandList.Reset, ID3D12VideoDecodeCommandList::Reset, ID3D12VideoDecodeCommandList.Reset
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoDecodeCommandList::Reset
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoDecodeCommandList::Reset
+ - d3d12video/ID3D12VideoDecodeCommandList::Reset
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoDecodeCommandList::Reset
 ---
 
 # ID3D12VideoDecodeCommandList::Reset
@@ -54,7 +55,6 @@ Resets a command list back to its initial state as if a new command list was jus
 Type: <b>ID3D12CommandAllocator*</b>
 
 A pointer to the <a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a> object that the device creates command lists from.
-  
 
 ## -returns
 
@@ -78,3 +78,4 @@ See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Di
 For additional information and examples of using this method, see [ID3D12GraphicsCommandList::Reset method](https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
 
 ## -see-also
+

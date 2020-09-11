@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2
 ms.date: 12/05/2018
 ms.keywords: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2, IInkCursorButton, IInkCursorButton interface [Tablet PC], IInkCursorButton interface [Tablet PC],described, msinkaut/IInkCursorButton, tablet.iinkcursorbutton
-f1_keywords:
-- msinkaut/IInkCursorButton
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCursorButton
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCursorButton
+ - msinkaut/IInkCursorButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCursorButton
 ---
 
 # IInkCursorButton interface
@@ -50,16 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Represents general information about a button on a tablet pointing and selecting device.
 
-
-
-
 ## -remarks
-
-
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> can contain zero to 32 associated buttons, and these buttons are provided to an application as <b>IInkCursorButton</b> objects. Examples of cursor buttons are:
 
@@ -73,13 +67,7 @@ A single pen cursor with no barrel may consist of two cursor buttons: the writin
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_buttons">Buttons Property</a>
 
@@ -90,7 +78,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbuttons">IInkCursorButtons Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e17723ad-20b5-4679-94a9-e32efbe82124
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SetMaxGraphLatency method, IAMGraphStreams.SetMaxGraphLatency, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency
-f1_keywords:
-- strmif/IAMGraphStreams.SetMaxGraphLatency
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMGraphStreams.SetMaxGraphLatency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMGraphStreams::SetMaxGraphLatency
+ - strmif/IAMGraphStreams::SetMaxGraphLatency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMGraphStreams.SetMaxGraphLatency
 ---
 
 # IAMGraphStreams::SetMaxGraphLatency
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetMaxGraphLatency</code> method sets the maximum latency for the graph. You must call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset">IAMGraphStreams::SyncUsingStreamOffset</a> method before calling this method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param rtMaxGraphLatency [in]
 
 Specifies the maximum latency in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -101,33 +91,18 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 At connection time, some live source filters use the maximum latency to determine the size of buffer to allocate. Calling this method before constructing the graph can help to ensure that sufficient buffers are allocated for the expected latency.
 
 If you call this method beforing calling <b>SyncUsingStreamOffset</b>, the method returns E_FAIL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams Interface</a>
- 
-
- 
 

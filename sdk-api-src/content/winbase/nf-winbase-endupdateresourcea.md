@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\endupdateresource.htm
 ms.date: 12/05/2018
 ms.keywords: EndUpdateResource, EndUpdateResource function [Menus and Other Resources], EndUpdateResourceA, EndUpdateResourceW, _win32_EndUpdateResource, _win32_endupdateresource_cpp, menurc.endupdateresource, winbase/EndUpdateResource, winbase/EndUpdateResourceA, winbase/EndUpdateResourceW, winui._win32_endupdateresource
-f1_keywords:
-- winbase/EndUpdateResource
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- EndUpdateResource
-- EndUpdateResourceA
-- EndUpdateResourceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EndUpdateResourceA
+ - winbase/EndUpdateResourceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - EndUpdateResource
+ - EndUpdateResourceA
+ - EndUpdateResourceW
 ---
 
 # EndUpdateResourceA function
@@ -51,32 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Commits or discards changes made prior to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hUpdate [in]
 
 Type: <b>HANDLE</b>
 
-A module handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> function, and used by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>, referencing the file to be updated. 
-
+A module handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> function, and used by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>, referencing the file to be updated.
 
 ### -param fDiscard [in]
 
 Type: <b>BOOL</b>
 
-Indicates whether to write the resource updates to the file. If this parameter is <b>TRUE</b>, no changes are made. If it is <b>FALSE</b>, the changes are made: the resource updates will take effect. 
-
+Indicates whether to write the resource updates to the file. If this parameter is <b>TRUE</b>, no changes are made. If it is <b>FALSE</b>, the changes are made: the resource updates will take effect.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -86,12 +78,7 @@ Returns <b>TRUE</b> if the function succeeds; <b>FALSE</b> otherwise. If the fun
 
 successful resource updates are made to the file. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Before you call this function, make sure all file handles other than the one returned by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> are closed.
 
@@ -112,9 +99,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a>
 
 
@@ -132,7 +116,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>
- 
-
- 
 

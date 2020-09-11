@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 2f7b5057-8522-4ef3-bf5a-3b96b72128b3
 ms.date: 12/05/2018
 ms.keywords: ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery interface [Windows Management Instrumentation],GetQuery method, CFrameworkQuery.GetQuery, CFrameworkQuery::GetQuery, GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery
-f1_keywords:
-- frquery/CFrameworkQuery.GetQuery
-dev_langs:
-- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CFrameworkQuery.GetQuery
-- ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CFrameworkQuery::GetQuery
+ - frquery/CFrameworkQuery::GetQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CFrameworkQuery.GetQuery
+ - ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ
 ---
 
 # CFrameworkQuery::GetQuery
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -60,28 +60,13 @@ ms.custom: 19H1
 
 The <b>GetQuery</b> method retrieves the actual WQL command associated with the <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> object.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 Returns the WQL command if the operation was successful and <b>NULL</b> otherwise.
-
-
-
 
 ## -remarks
 
-
-
 If <b>GetQuery</b> is called within <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)">Provider::GetObject</a>, the WQL command line does not contain a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/select-statement-for-data-queries">WHERE</a> clause.
-
-
 

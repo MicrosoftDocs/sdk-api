@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: fa348767-8a83-4a45-9411-1e9eb545d97d
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceReleased method, IFunctionDiscoveryProvider.InstanceReleased, IFunctionDiscoveryProvider::InstanceReleased, InstanceReleased, InstanceReleased method, InstanceReleased method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased, ncd.ifunctiondiscoveryprovider_instancereleased
-f1_keywords:
-- functiondiscoveryprovider/IFunctionDiscoveryProvider.InstanceReleased
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IFunctionDiscoveryProvider.InstanceReleased
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscoveryProvider::InstanceReleased
+ - functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IFunctionDiscoveryProvider.InstanceReleased
 ---
 
 # IFunctionDiscoveryProvider::InstanceReleased
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Releases the specified function instance and frees the memory previously allocated.
 
-
 ## -parameters
-
-
-
 
 ### -param pIFunctionInstance [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
 
-
 ### -param iProviderInstanceContext [in]
 
 The context associated with the specific function instance.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,27 +112,12 @@ The method is unable to allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When you implement this method, you must clean up the memory allocated for <i>ppvProviderInstanceContext</i> as necessary.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
- 
-
- 
 

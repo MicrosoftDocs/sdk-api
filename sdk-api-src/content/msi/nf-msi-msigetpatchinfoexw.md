@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 18acad03-7794-4c29-8cac-1dd3ea64369a
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_DISPLAYNAME, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_MOREINFOURL, INSTALLPROPERTY_PATCHSTATE, INSTALLPROPERTY_TRANSFORMS, INSTALLPROPERTY_UNINSTALLABLE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetPatchInfoEx, MsiGetPatchInfoEx function, MsiGetPatchInfoExA, MsiGetPatchInfoExW, NULL, User SID, msi/MsiGetPatchInfoEx, msi/MsiGetPatchInfoExA, msi/MsiGetPatchInfoExW, setup.msigetpatchinfoex
-f1_keywords:
-- msi/MsiGetPatchInfoEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiGetPatchInfoEx
-- MsiGetPatchInfoExA
-- MsiGetPatchInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetPatchInfoExW
+ - msi/MsiGetPatchInfoExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiGetPatchInfoEx
+ - MsiGetPatchInfoExA
+ - MsiGetPatchInfoExW
 ---
 
 # MsiGetPatchInfoExW function
@@ -52,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiGetPatchInfoEx</b>  function queries for information about the application of a patch to a specified instance of a product.
 
-
 ## -parameters
-
-
-
 
 ### -param szPatchCode [in]
 
 A null-terminated string that contains the GUID of the patch. This parameter cannot be <b>NULL</b>.
 
-
 ### -param szProductCode [in]
 
 A null-terminated string that contains the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product instance. This parameter cannot be <b>NULL</b>.
-
 
 ### -param szUserSid [in]
 
@@ -149,8 +143,6 @@ Query that is extended to all per-machine installations.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szProperty [in]
 
@@ -243,8 +235,6 @@ Get the registered support information URL for the patch. For patches that do no
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpValue [out, optional]
 
@@ -254,17 +244,13 @@ If <i>lpValue</i> is set to <b>NULL</b> and <i>pcchValue</i> is set to a valid p
 
 If <i>lpValue</i> and <i>pcchValue</i> are both set to <b>NULL</b>, the function returns <b>ERROR_SUCCESS</b> if the value exists, without  retrieving the value.
 
-
 ### -param pcchValue [in, out]
 
 When calling the function, this parameter should be a pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>lpValue</i> buffer. When the function returns, this parameter is set to the size of the requested value whether or not the function copies the value into the specified buffer. The size is returned as the number of <b>TCHAR</b> in the requested value, not including the terminating null character.
 
 This parameter can be set to <b>NULL</b> only if <i>lpValue</i> is also <b>NULL</b>. Otherwise, the function returns <b>ERROR_INVALID_PARAMETER</b>.
 
-
 ## -returns
-
-
 
 The <b>MsiGetPatchInfoEx</b> function returns the following values.
 
@@ -373,14 +359,8 @@ The patch is unrecognized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows Installer 2.0:  </b>Not supported. This function is available beginning with Windows Installer version 3.0.
 
@@ -395,15 +375,9 @@ A user may query patch data for any product instance that is visible. The admini
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/removing-patches">Removing Patches</a>
- 
-
- 
 

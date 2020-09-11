@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 1283a5b5-d893-4795-a50a-5a3bd6fce8d5
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage2, IWMDMStorage2 interface [windows Media Device Manager], IWMDMStorage2 interface [windows Media Device Manager],described, IWMDMStorage2Interface, mswmdm/IWMDMStorage2, wmdm.iwmdmstorage2
-f1_keywords:
-- mswmdm/IWMDMStorage2
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMStorage2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMStorage2
+ - mswmdm/IWMDMStorage2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMStorage2
 ---
 
 # IWMDMStorage2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDMStorage2</b> interface extends <b>IWMDMStorage</b> by making it possible to get a child storage by name, and to get and set extended attributes. <b>IWMDMStorage3</b> interface extends this interface by supporting metadata.
-
-
-
 
 ## -inheritance
 
@@ -98,13 +94,9 @@ Sets extended attributes of the storage.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
@@ -119,7 +111,4 @@ Sets extended attributes of the storage.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

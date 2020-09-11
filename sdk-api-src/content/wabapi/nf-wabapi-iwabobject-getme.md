@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\getme.htm
 ms.date: 12/05/2018
 ms.keywords: AB_NO_DIALOG, GetMe, GetMe method [Windows Address Book], GetMe method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],GetMe method, IWABObject.GetMe, IWABObject::GetMe, WABOBJECT_ME_NOCREATE, _wab_IWABObject_GetMe, wab._wab_IWABObject_GetMe, wabapi/IWABObject::GetMe
-f1_keywords:
-- wabapi/IWABObject.GetMe
-dev_langs:
-- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IWABObject.GetMe
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IWABObject::GetMe
+ - wabapi/IWABObject::GetMe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IWABObject.GetMe
 ---
 
 # IWABObject::GetMe
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the entry identifier of the object that has been designated 
 		as "ME."
 
-
 ## -parameters
-
-
-
 
 ### -param lpIAB
 
@@ -66,7 +62,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabia
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book object.
-
 
 ### -param ulFlags
 
@@ -87,7 +82,6 @@ Suppresses the ME selection dialog box.
 
 Suppresses automatic ME creation.
 
-
 ### -param lpdwAction
 
 Type: <b>DWORD*</b>
@@ -97,14 +91,12 @@ Pointer to a variable of type <b>DWORD</b> that
 				 The variable is used to signal creation, as opposed to selection, of a new ME entry. The variable 
 				 can be <b>NULL</b>.
 
-
 ### -param lpsbEID
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a>*</b>
 
 Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> 
 				that specifies the entry identifier of the ME object on return.
-
 
 ### -param hwnd
 
@@ -115,21 +107,13 @@ Value of type <b>ULONG</b> that specifies
 				You must cast the parent <b>HWND</b> to a 
 				<b>ULONG</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Users can designate a single entry in the Windows Address Book (WAB) 
 that represents them. This entry is referred to as "ME." Applications desiring information about the WAB user can access 
@@ -159,5 +143,4 @@ information will be displayed to the user so that the user has the option
 of changing it as necessary.
 </div>
 <div> </div>
-
 

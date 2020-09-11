@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788
 ms.date: 12/05/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
-f1_keywords:
-- wingdi/PlayEnhMetaFile
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- ext-ms-win-gdi-metafile-l1-1-2.dll
-- GDI32Full.dll
-api_name:
-- PlayEnhMetaFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PlayEnhMetaFile
+ - wingdi/PlayEnhMetaFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - ext-ms-win-gdi-metafile-l1-1-2.dll
+ - GDI32Full.dll
+api_name:
+ - PlayEnhMetaFile
 ---
 
 # PlayEnhMetaFile function
@@ -51,44 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PlayEnhMetaFile</b> function displays the picture stored in the specified enhanced-format metafile.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context for the output device on which the picture will appear.
 
-
 ### -param hmf [in]
 
 A handle to the enhanced metafile.
-
 
 ### -param lprect [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the coordinates of the bounding rectangle used to display the picture. The coordinates are specified in logical units.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 When an application calls the <b>PlayEnhMetaFile</b> function, the system uses the picture frame in the enhanced-metafile header to map the picture onto the rectangle pointed to by the <i>lpRect</i> parameter. (This picture may be sheared or rotated by setting the world transform in the output device before calling <b>PlayEnhMetaFile</b>.) Points along the edges of the rectangle are included in the picture.
 
@@ -109,12 +95,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/open
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-canceldc">CancelDC</a>
 
@@ -137,7 +118,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/open
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
- 
-
- 
 

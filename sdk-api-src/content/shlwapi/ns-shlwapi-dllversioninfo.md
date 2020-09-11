@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: bc6d856c-027f-43df-9bbc-a76f560dddb0
 ms.date: 12/05/2018
 ms.keywords: DLLVERSIONINFO, DLLVERSIONINFO structure [Windows Shell], DLLVER_PLATFORM_NT, DLLVER_PLATFORM_WINDOWS, _win32_DLLVERSIONINFO_0rjh, shell.DLLVERSIONINFO_0rjh, shlwapi/DLLVERSIONINFO
-f1_keywords:
-- shlwapi/DLLVERSIONINFO
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlwapi.h
-api_name:
-- DLLVERSIONINFO
 targetos: Windows
 req.typenames: DLLVERSIONINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DLLVERSIONINFO
+ - shlwapi/_DLLVERSIONINFO
+ - DLLVERSIONINFO
+ - shlwapi/DLLVERSIONINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlwapi.h
+api_name:
+ - DLLVERSIONINFO
 ---
 
 # DLLVERSIONINFO structure
 
 
 ## -description
-
 
 Receives DLL-specific version information. It is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a> function.
 
@@ -57,15 +59,11 @@ Receives DLL-specific version information. It is used with the <a href="https://
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
 The size of the structure, in bytes. This member must be filled in before calling the function.
-
 
 ### -field dwMajorVersion
 
@@ -73,20 +71,17 @@ Type: <b>DWORD</b>
 
 The major version of the DLL. For instance, if the DLL's version is 4.0.950, this value will be 4.
 
-
 ### -field dwMinorVersion
 
 Type: <b>DWORD</b>
 
 The minor version of the DLL. For instance, if the DLL's version is 4.0.950, this value will be 0.
 
-
 ### -field dwBuildNumber
 
 Type: <b>DWORD</b>
 
 The build number of the DLL. For instance, if the DLL's version is 4.0.950, this value will be 950.
-
 
 ### -field dwPlatformID
 
@@ -106,18 +101,11 @@ The DLL was built for earlier Windows platforms such as Windows 95.
 
 The DLL was built for platforms such as Windows 2000, Windows Vista, or Windows 7.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a>
- 
-
- 
 

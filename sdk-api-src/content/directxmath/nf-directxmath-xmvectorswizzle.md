@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSwizzle(XMVECTOR,uint32_t,uint32_t,uint32_t,uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSwizzle, XMVectorSwizzle, XMVectorSwizzle method [DirectX Math Support APIs], dxmath.xmvectorswizzle
-f1_keywords:
-- directxmath/XMVectorSwizzle
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- directxmathvector.inl
-api_name:
-- XMVectorSwizzle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMVectorSwizzle
+ - directxmath/XMVectorSwizzle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - directxmathvector.inl
+api_name:
+ - XMVectorSwizzle
 ---
 
 # XMVectorSwizzle function
@@ -49,56 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Swizzles a vector.
 
-
 ## -parameters
-
-
-
 
 ### -param V [in]
 
 Vector to swizzle.
-
 
 ### -param E0 [in]
 
 Index that describes which component of <i>V</i> to place in the x-component of the swizzled vector. A value of 0
         selects the x-component, 1 selects the y-component, 2 selects the z-component, and 3 selects the w-component.
 
-
 ### -param E1 [in]
 
 Index that describes which component of <i>V</i> to place in the y-component of the swizzled vector. A value of 0
         selects the x-component, 1 selects the y-component, 2 selects the z-component, and 3 selects the w-component.
-
 
 ### -param E2 [in]
 
 Index that describes which component of <i>V</i> to place in the z-component of the swizzled vector. A value of 0
         selects the x-component, 1 selects the y-component, 2 selects the z-component, and 3 selects the w-component.
 
-
 ### -param E3 [in]
 
 Index that describes which component of <i>V</i> to place in the w-component of the swizzled vector. A value of 0
         selects the x-component, 1 selects the y-component, 2 selects the z-component, and 3 selects the w-component.
 
-
 ## -returns
-
-
 
 Returns the swizzled <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
-
-
-
 ## -remarks
-
-
 
 The following code demonstrates how this function might be used.
 
@@ -131,20 +115,11 @@ Example: XMVectorSwizzle< 3, 3, 0, 2>(v);
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorpermute">XMVectorPermute</a>
- 
-
- 
 

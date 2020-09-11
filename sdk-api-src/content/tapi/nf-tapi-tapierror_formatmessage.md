@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 95817592-467f-438e-ae81-b4c2fff42d1f
 ms.date: 12/05/2018
 ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], _tapi2_tapierror_formatmessage, tapi/TAPIERROR_FORMATMESSAGE, tapi2.tapierror_formatmessage
-f1_keywords:
-- tapi/TAPIERROR_FORMATMESSAGE
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tapi.h
-api_name:
-- TAPIERROR_FORMATMESSAGE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TAPIERROR_FORMATMESSAGE
+ - tapi/TAPIERROR_FORMATMESSAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tapi.h
+api_name:
+ - TAPIERROR_FORMATMESSAGE
 ---
 
 # TAPIERROR_FORMATMESSAGE macro
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TAPIERROR_FORMATMESSAGE</b> macro generates an identifier for standard TAPI error codes that can be used in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function.
 
-
 ## -parameters
-
-
-
 
 #### - ErrCode
 
 TAPI error code.
 
-
 ## -remarks
-
-
 
 This mechanism should be used only for displaying information on errors for which the application has no defined method of recovery (that is, unexpected or internal errors). In most cases (unlike the following simplified example), it is desirable to include additional text informing the user of actions the application takes (or the user should take) as a result of the unhandled error.
 
@@ -91,5 +84,4 @@ if (lResult &lt; 0)
                   NULL);
     MessageBox(hWnd,pBuf,"TAPI ERROR",MB_OK);
 }</code></pre>
-
 

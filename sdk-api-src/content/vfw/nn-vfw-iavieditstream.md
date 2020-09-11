@@ -3,16 +3,11 @@ UID: NN:vfw.IAVIEditStream
 title: IAVIEditStream (vfw.h)
 description: The IAVIEditStream interface supports manipulating and modifying editable streams. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
 helpviewer_keywords: ["IAVIEditStream","IAVIEditStream interface [Windows Multimedia]","IAVIEditStream interface [Windows Multimedia]","described","_win32_IAVIEditStream","multimedia.iavieditstream","vfw/IAVIEditStream"]
-The IAVIEditStream interface supports manipulating and modifying editable streams. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods: 
 old-location: multimedia\iavieditstream.htm
 tech.root: Multimedia
 ms.assetid: d32dc386-05cf-4f7b-9785-a38586a09402
 ms.date: 12/05/2018
 ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], IAVIEditStream interface [Windows Multimedia],described, _win32_IAVIEditStream, multimedia.iavieditstream, vfw/IAVIEditStream
-f1_keywords:
-- vfw/IAVIEditStream
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,20 +25,25 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vfw32.lib
-- Vfw32.dll
-api_name:
-- IAVIEditStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAVIEditStream
+ - vfw/IAVIEditStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vfw32.lib
+ - Vfw32.dll
+api_name:
+ - IAVIEditStream
 ---
 
 # IAVIEditStream interface
@@ -51,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAVIEditStream</b> interface supports manipulating and modifying editable streams. Uses <a href="https://docs.microsoft.com/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="https://docs.microsoft.com/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="https://docs.microsoft.com/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
-
-
-
 
 ## -inheritance
 
@@ -118,20 +113,13 @@ Changes the characteristics of a stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
- 
-
- 
 

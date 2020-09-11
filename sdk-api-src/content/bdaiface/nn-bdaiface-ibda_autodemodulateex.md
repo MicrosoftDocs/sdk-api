@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ecc642e4-7c36-400c-8a63-639f75b2bbc2
 ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulateEx, IBDA_AutoDemodulateEx interface [Microsoft TV Technologies], IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],described, IBDA_AutoDemodulateExInterface, bdaiface/IBDA_AutoDemodulateEx, mstv.ibda_autodemodulateex
-f1_keywords:
-- bdaiface/IBDA_AutoDemodulateEx
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdaiface.h
-api_name:
-- IBDA_AutoDemodulateEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_AutoDemodulateEx
+ - bdaiface/IBDA_AutoDemodulateEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdaiface.h
+api_name:
+ - IBDA_AutoDemodulateEx
 ---
 
 # IBDA_AutoDemodulateEx interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IBDA_AutoDemodulateEx</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>. If a BDA device filter, specifically a demodulator, exposes this interface, it indicates that the filter can automatically detect signal characteristics. With this information, the Network Provider can be more efficient in managing the tuning process. For more information, see <b>KSPROPSETID_BdaAutodemodulate</b> in the Windows DDK.
 
 <b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
-
-
-
 
 ## -inheritance
 
@@ -100,29 +96,17 @@ Retrieves the video formats that are supported by the demodulator.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_AutoDemodulateEx)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>
- 
-
- 
 

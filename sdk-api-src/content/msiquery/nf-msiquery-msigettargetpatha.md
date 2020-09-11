@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: cad0e1c1-3f3a-4438-8b85-ea146c943579
 ms.date: 12/05/2018
 ms.keywords: MsiGetTargetPath, MsiGetTargetPath function, MsiGetTargetPathA, MsiGetTargetPathW, _msi_msigettargetpath, msiquery/MsiGetTargetPath, msiquery/MsiGetTargetPathA, msiquery/MsiGetTargetPathW, setup.msigettargetpath
-f1_keywords:
-- msiquery/MsiGetTargetPath
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetTargetPath
-- MsiGetTargetPathA
-- MsiGetTargetPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetTargetPathA
+ - msiquery/MsiGetTargetPathA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetTargetPath
+ - MsiGetTargetPathA
+ - MsiGetTargetPathW
 ---
 
 # MsiGetTargetPathA function
@@ -51,52 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetTargetPath</b> function returns the full target path for a folder in the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/directory-table">Directory table</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
 Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
 
 ### -param szFolder [in]
 
 A null-terminated string that specifies a record of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/directory-table">Directory table</a>. If the directory is a root directory, this can be a value from the DefaultDir column. Otherwise it must be a value from the Directory column.
 
-
 ### -param szPathBuf [out]
 
 Pointer to the buffer that receives the null terminated full target path. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szPathBuf</i>. You can get the size of the buffer by passing in an empty string (for example ""). The function then returns ERROR_MORE_DATA and <i>pcchPathBuf</i> contains the required buffer size in TCHARs, not including the terminating null character. On return of ERROR_SUCCESS, <i>pcchPathBuf</i> contains the number of TCHARs written to the buffer, not including the terminating null character.
-
 
 ### -param pcchPathBuf [in, out]
 
 Pointer to the variable that specifies the size, in <b>TCHARs</b>, of the buffer pointed to by the variable <i>szPathBuf</i> When the function returns ERROR_SUCCESS, this variable contains the size of the data copied to <i>szPathBuf</i>, not including the terminating null character. If <i>szPathBuf</i> is not large enough, the function returns ERROR_MORE_DATA and stores the required size, not including the terminating null character, in the variable pointed to by <i>pcchPathBuf</i>.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiGetTargetPath</b> function returns the following values:
-					
-
-
-
 
 ## -remarks
-
-
 
 If ERROR_MORE_DATA is returned, the parameter which is a pointer gives the size of the buffer required to hold the string. If ERROR_SUCCESS is returned, it gives the number of characters written to the string buffer. Therefore you can get the size of the buffer by passing in an empty string (for example "") for the parameter that specifies the buffer. Do not attempt to determine the size of the buffer by passing in a Null (value=0).
 
@@ -123,15 +107,9 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Location Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b47efa8d-2118-4805-bb04-97bd143228dc
 ms.date: 12/05/2018
 ms.keywords: SHACF_AUTOAPPEND_FORCE_OFF, SHACF_AUTOAPPEND_FORCE_ON, SHACF_AUTOSUGGEST_FORCE_OFF, SHACF_AUTOSUGGEST_FORCE_ON, SHACF_DEFAULT, SHACF_FILESYSTEM, SHACF_FILESYS_DIRS, SHACF_FILESYS_ONLY, SHACF_URLALL, SHACF_URLHISTORY, SHACF_URLMRU, SHACF_USETAB, SHACF_VIRTUAL_NAMESPACE, SHAutoComplete, SHAutoComplete function [Windows Shell], _win32_ShAutoComplete, shell.SHAutoComplete, shlwapi/SHAutoComplete
-f1_keywords:
-- shlwapi/SHAutoComplete
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-api_name:
-- SHAutoComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHAutoComplete
+ - shlwapi/SHAutoComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+api_name:
+ - SHAutoComplete
 ---
 
 # SHAutoComplete function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Instructs system edit controls to use AutoComplete to help complete URLs or file system paths.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndEdit [in]
 
 Type: <b>HWND</b>
 
 The window handle of a system edit control. Typically, this parameter is the handle of an edit control or the edit control embedded in a <a href="https://docs.microsoft.com/windows/desktop/Controls/comboboxex-control-reference">ComboBoxEx</a> control.
-
 
 ### -param dwFlags
 
@@ -147,21 +142,13 @@ Allow the user to select from the autosuggest list by pressing the TAB key. If t
 
 #### SHACF_VIRTUAL_NAMESPACE (0x00000040)
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>SHAutoComplete</b> works on any system edit control, including the edit control and controls that contain edit controls such as <a href="https://docs.microsoft.com/windows/desktop/Controls/comboboxex-control-reference">ComboBoxEx</a> controls. To retrieve a handle to an edit control embedded in a ComboBoxEx control, send the ComboBoxEx control a <a href="https://docs.microsoft.com/windows/desktop/Controls/cbem-geteditcontrol">CBEM_GETEDITCONTROL</a> message.
 
@@ -171,16 +158,7 @@ The maximum number of items that can be displayed in an autosuggest drop-down li
 
 On versions of Windows prior to Windows Vista and server versions prior to Windows Server 2008, <b>SHAutoComplete</b> should not be called more than once with the same <b>HWND</b>. Doing so results in a memory leak. It prevents the original resources from being released, including the previous instance of the AutoComplete object, enumerator objects that the previous AutoComplete object has referenced, and Windows Graphics Device Interface (GDI) resources. Rather than call <b>SHAutoComplete</b> again with a different set of flags to change the AutoComplete list, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_AutoComplete to obtain the AutoComplete object. Then pass the <b>HWND</b> to the object to initialize it and provide your own custom enumerator. You can use CLSID_ACLMulti if you want AutoComplete to use multiple lists.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776884(v=vs.85)">Using Autocomplete</a>
- 
-
- 
 

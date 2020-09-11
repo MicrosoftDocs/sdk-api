@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: b6e7c212-5d1d-41c2-85ee-24365c2246cf
 ms.date: 12/05/2018
 ms.keywords: AutoRedraw property [Tablet PC], AutoRedraw property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],AutoRedraw property, IInkOverlay.AutoRedraw, IInkOverlay.get_AutoRedraw, IInkOverlay::AutoRedraw, IInkOverlay::get_AutoRedraw, IInkOverlay::put_AutoRedraw, InkOverlay.get_AutoRedraw, InkOverlay.put_AutoRedraw, get_AutoRedraw, msinkaut/IInkOverlay::AutoRedraw, msinkaut/IInkOverlay::get_AutoRedraw, msinkaut/IInkOverlay::put_AutoRedraw, tablet.inkoverlay_autoredraw
-f1_keywords:
-- msinkaut/IInkOverlay.AutoRedraw
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkOverlay.AutoRedraw
-- IInkOverlay.get_AutoRedraw
-- IInkOverlay.put_AutoRedraw
-- InkOverlay.get_AutoRedraw
-- InkOverlay.put_AutoRedraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay::get_AutoRedraw
+ - msinkaut/IInkOverlay::get_AutoRedraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkOverlay.AutoRedraw
+ - IInkOverlay.get_AutoRedraw
+ - IInkOverlay.put_AutoRedraw
+ - InkOverlay.get_AutoRedraw
+ - InkOverlay.put_AutoRedraw
 ---
 
 # IInkOverlay::get_AutoRedraw
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets a value that specifies whether an ink collector repaints the ink when the window is invalidated.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If <b>TRUE</b>, the ink collector repaints the ink when the window is invalidated. For example, if you minimize the window and then restore it, the ink is automatically redrawn. If <b>FALSE</b>, the ink collector does not repaint the ink when the window is invalidated. For example, if you minimize the window and then restore it, the ink disappears from the screen.
 
@@ -112,15 +107,8 @@ InkPicture controls inherited Invalidated and Paint events.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-draw">Draw Method</a>
 
@@ -139,7 +127,4 @@ InkPicture controls inherited Invalidated and Paint events.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
- 
-
- 
 

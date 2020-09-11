@@ -36,6 +36,7 @@ api_location:
 api_name:
  - RegisterDeviceWithManagementUsingAADDeviceCredentials
 f1_keywords:
+ - RegisterDeviceWithManagementUsingAADDeviceCredentials
  - mdmregistration/RegisterDeviceWithManagementUsingAADDeviceCredentials
 dev_langs:
  - c++

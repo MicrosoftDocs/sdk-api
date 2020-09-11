@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ac7da3f9-2c17-4517-bb64-6b56257a65c3
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap, IVMRMixerBitmap interface [DirectShow], IVMRMixerBitmap interface [DirectShow],described, IVMRMixerBitmapInterface, dshow.ivmrmixerbitmap, strmif/IVMRMixerBitmap
-f1_keywords:
-- strmif/IVMRMixerBitmap
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerBitmap
+ - strmif/IVMRMixerBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerBitmap
 ---
 
 # IVMRMixerBitmap interface
 
 
 ## -description
-
 
 The <b>IVMRMixerBitmap</b> interface enables an application to blend a static image from a bitmap or DirectDraw surface onto the video stream, when using the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7).
 
@@ -61,7 +61,6 @@ The <b>IVMRMixerBitmap</b> interface enables an application to blend a static im
 You can pass images to the VMR as frequently as you like, but changing the image several times per second may impact the performance and smoothness of the video being rendered. The new image will be blended with the next and all subsequent video frames rendered by the VMR.
 
 Internally, the VMR uses its mixer component to perform the blending operation. Therefore the VMR must be configured correctly prior to commencing video playback. Even if only a single video stream is present, applications should call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams">IVMRFilterConfig::SetNumberOfStreams</a> with a value of "1" to cause the VMR to load the mixer and compositor. The image can contain embedded per pixel alpha information; this allows the image to contain regions that are transparent. Transparent areas can also be identified by a color key value. Changes in the image are only shown on the screen while the filter graph is running.
-
 
 ## -inheritance
 
@@ -105,13 +104,9 @@ Changes the bitmap location, size and blending value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/displaying-an-application-supplied-bitmap-on-the-composited-image">Displaying an Application-Supplied Bitmap on the Composited Image</a>
 
@@ -122,7 +117,4 @@ Changes the bitmap location, size and blending value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>
- 
-
- 
 

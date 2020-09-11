@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 42300501-2a64-4433-81e9-6ee3fc31b094
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderNameWStr property, IEnroll.ProviderNameWStr, IEnroll.get_ProviderNameWStr, IEnroll::ProviderNameWStr, IEnroll::get_ProviderNameWStr, IEnroll::put_ProviderNameWStr, ProviderNameWStr property [Security], ProviderNameWStr property [Security],IEnroll interface, get_ProviderNameWStr, security.ienroll4_providernamewstr, xenroll/IEnroll::ProviderNameWStr, xenroll/IEnroll::get_ProviderNameWStr, xenroll/IEnroll::put_ProviderNameWStr
-f1_keywords:
-- xenroll/IEnroll.ProviderNameWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.ProviderNameWStr
-- IEnroll.get_ProviderNameWStr
-- IEnroll.put_ProviderNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_ProviderNameWStr
+ - xenroll/IEnroll::get_ProviderNameWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.ProviderNameWStr
+ - IEnroll.get_ProviderNameWStr
+ - IEnroll.put_ProviderNameWStr
 ---
 
 # IEnroll::get_ProviderNameWStr
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -60,14 +60,9 @@ If the CSP has not been specified, the default value for this property  is "Micr
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>ProviderNameWStr</b> property affects the behavior of the following methods:
 
@@ -83,17 +78,7 @@ The <b>ProviderNameWStr</b> property affects the behavior of the following metho
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

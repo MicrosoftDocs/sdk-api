@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 4b5dcb1f-8edb-4fcb-94ea-2a627667071e
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaEvents, IDiskQuotaEvents interface [Files], IDiskQuotaEvents interface [Files],described, _win32_idiskquotaevents, base.idiskquotaevents, dskquota/IDiskQuotaEvents, fs.idiskquotaevents
-f1_keywords:
-- dskquota/IDiskQuotaEvents
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaEvents
+ - dskquota/IDiskQuotaEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaEvents
 ---
 
 # IDiskQuotaEvents interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 A client must implement the 
 <b>IDiskQuotaEvents</b> interface as an event sink that receives the quota-related event notifications. Its methods are called by the system whenever significant quota events have occurred. Currently, the only event supported is the asynchronous resolution of user account name information.
-
 
 ## -inheritance
 
@@ -78,20 +77,13 @@ Notifies the client's connection sink whenever a user's SID has been asynchronou
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
- 
-
- 
 

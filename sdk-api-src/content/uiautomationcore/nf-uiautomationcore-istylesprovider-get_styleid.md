@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: EFFEC853-595C-4304-8EDF-BA80EA8FEC5B
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],StyleId property, IStylesProvider.StyleId, IStylesProvider.get_StyleId, IStylesProvider::StyleId, IStylesProvider::get_StyleId, StyleId property [Windows Accessibility], StyleId property [Windows Accessibility],IStylesProvider interface, get_StyleId, uiautomationcore/IStylesProvider::StyleId, uiautomationcore/IStylesProvider::get_StyleId, winauto.uiauto_istylesprovider_styleid
-f1_keywords:
-- uiautomationcore/IStylesProvider.StyleId
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IStylesProvider.StyleId
-- IStylesProvider.get_StyleId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStylesProvider::get_StyleId
+ - uiautomationcore/IStylesProvider::get_StyleId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IStylesProvider.StyleId
+ - IStylesProvider.get_StyleId
 ---
 
 # IStylesProvider::get_StyleId
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the visual style of an element in a document.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 A provider should use this property to expose style identifiers that are useful to client applications. For example, a provider might expose the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-style-identifiers">StyleId_Title</a> identifier for an element that represents the title of a presentation. A screen reader could then retrieve the <b>StyleId</b> property, discover that the element is a presentation title, and read the title to the user.
 
@@ -74,13 +70,7 @@ When bullet styles are mixed within a list, the <b>BulletedList</b> style should
 
 When nested lists contain bullets also (perhaps of a different type than the main list), the <b>BulletedList</b> style would again be applied to the whole range, and the <b>BulletStyle</b> attribute value is whatever the nested bullet style is (for the range covering the nested list).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-bulletstyle">BulletStyle</a>
 
@@ -91,7 +81,4 @@ When nested lists contain bullets also (perhaps of a different type than the mai
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
- 
-
- 
 

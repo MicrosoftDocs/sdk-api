@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: 99b7e136-b502-435b-9c62-a0e106ec8ec5
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetInfo, EapPeerGetInfo function [EAPHost], eaphost.eappeergetinfo, eapmethodpeerapis/EapPeerGetInfo
-f1_keywords:
-- eapmethodpeerapis/EapPeerGetInfo
-dev_langs:
-- c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- eapmethodpeerapis.h
-api_name:
-- EapPeerGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EapPeerGetInfo
+ - eapmethodpeerapis/EapPeerGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - eapmethodpeerapis.h
+api_name:
+ - EapPeerGetInfo
 ---
 
 # EapPeerGetInfo function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains a set of function pointers for an implementation of the EAP peer method <i>EapPeerGetInfo</i> currently loaded on the EAPHost service.
 
-
 ## -parameters
-
-
-
 
 ### -param pEapType [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a> structure that contains the vendor data on the implementor of the APIs pointed to by the members of this structure.
 
-
 ### -param pEapInfo [out]
 
 A pointer to an <a href="/windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eap_peer_method_routines">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
-
 
 ### -param ppEapError [out]
 
  A pointer to a pointer to  an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that receives any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ## -remarks
-
-
 
 Every EAP peer method DLL must implement the following APIs:
 
@@ -126,16 +117,7 @@ The other functions in the EAP Peer Method API set are called by a peer-based EA
 
 This call is performed by a peer-based EAPHost using a function pointer to this API. This API must be implemented on the EAP method loaded by EAPHost, and must strictly conform to the syntax and parameter types specified in the documentation.
 
-
-
-
 ## -see-also
 
-
-
-
 [EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
- 
-
- 
 

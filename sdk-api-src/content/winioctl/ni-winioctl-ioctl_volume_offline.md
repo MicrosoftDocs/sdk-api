@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Files], fs.ioctl_volume_offline, winioctl/IOCTL_VOLUME_OFFLINE
-f1_keywords:
-- winioctl/IOCTL_VOLUME_OFFLINE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_VOLUME_OFFLINE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_VOLUME_OFFLINE
+ - winioctl/IOCTL_VOLUME_OFFLINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_VOLUME_OFFLINE
 ---
 
 # IOCTL_VOLUME_OFFLINE IOCTL
+
 
 ## -description
 
@@ -66,26 +68,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -94,7 +89,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -117,9 +111,9 @@ SMB 3.0 Transparent Failover (TFO) | No
 SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | No
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [IOCTL_VOLUME_ONLINE](ni-winioctl-ioctl_volume_online.md)
 * [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+

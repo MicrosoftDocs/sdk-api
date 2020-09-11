@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: c4ed4da1-9378-4c35-8f03-b028e37c1707
 ms.date: 12/05/2018
 ms.keywords: GetDataDemands, GetDataDemands method [windows Media Device Manager], GetDataDemands method [windows Media Device Manager],ISCPSecureQuery interface, ISCPSecureQuery interface [windows Media Device Manager],GetDataDemands method, ISCPSecureQuery.GetDataDemands, ISCPSecureQuery::GetDataDemands, ISCPSecureQueryGetDataDemands, mswmdm/ISCPSecureQuery::GetDataDemands, wmdm.iscpsecurequery_getdatademands
-f1_keywords:
-- mswmdm/ISCPSecureQuery.GetDataDemands
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- ISCPSecureQuery.GetDataDemands
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCPSecureQuery::GetDataDemands
+ - mswmdm/ISCPSecureQuery::GetDataDemands
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - ISCPSecureQuery.GetDataDemands
 ---
 
 # ISCPSecureQuery::GetDataDemands
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDataDemands</b> method reports which data the secure content provider needs to determine the rights and responsibility for a specified piece of content.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfuFlags [out]
 
@@ -98,32 +91,24 @@ Flags describing the data required by the secure content provider to make decisi
 <td>The secure content provider needs unprotected output.</td>
 </tr>
 </table>
- 
-
 
 ### -param pdwMinRightsData [out]
 
 Pointer to a <b>DWORD</b> specifying the minimum amount of data needed to determine rights for this content. This parameter is included in the output message authentication code.
 
-
 ### -param pdwMinExamineData [out]
 
 Pointer to a <b>DWORD</b> containing the minimum number of bytes of data that the secure content provider needs to determine whether it is responsible for the content. This parameter is included in the output message authentication code.
-
 
 ### -param pdwMinDecideData [out]
 
 Pointer to a <b>DWORD</b> containing the minimum number of bytes of data that the secure content provider needs to determine whether to allow the content to be downloaded. This parameter is included in the output message authentication code.
 
-
 ### -param abMac [in, out]
 
 Array of eight bytes containing the message authentication code for the parameter data of this method. (WMDM_MAC_LENGTH is defined as 8.)
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
@@ -166,14 +151,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method must be called before any of the other methods of <b>ISCPSecureQuery</b> are called.
 
@@ -189,16 +168,7 @@ If no examine flags are set, Windows Media Device Manager does not make any more
 
 If this method does not return S_OK, then Windows Media Device Manager does not make any further calls to this secure content provider.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
- 
-
- 
 

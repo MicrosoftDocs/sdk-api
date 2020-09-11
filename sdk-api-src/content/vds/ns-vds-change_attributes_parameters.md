@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6ff3ea68-70dd-4ef1-9c31-1f8c1fcf5fca
 ms.date: 12/05/2018
 ms.keywords: CHANGE_ATTRIBUTES_PARAMETERS, CHANGE_ATTRIBUTES_PARAMETERS structure [VDS], GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, base.change_attributes_parameters, vds/CHANGE_ATTRIBUTES_PARAMETERS
-f1_keywords:
-- vds/CHANGE_ATTRIBUTES_PARAMETERS
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-api_name:
-- CHANGE_ATTRIBUTES_PARAMETERS
 targetos: Windows
 req.typenames: CHANGE_ATTRIBUTES_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CHANGE_ATTRIBUTES_PARAMETERS
+ - vds/_CHANGE_ATTRIBUTES_PARAMETERS
+ - CHANGE_ATTRIBUTES_PARAMETERS
+ - vds/CHANGE_ATTRIBUTES_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+api_name:
+ - CHANGE_ATTRIBUTES_PARAMETERS
 ---
 
 # CHANGE_ATTRIBUTES_PARAMETERS structure
@@ -49,43 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the partition parameters of a partition style.
 
-
 ## -struct-fields
-
-
-
 
 ### -field style
 
 Determines the partition parameters. Supported values are <b>VDS_PST_MBR</b> or 
       <b>VDS_PST_GPT</b>.
 
-
 ### -field MbrPartInfo
 
 Used if <b>style</b> is <b>VDS_PST_MBR</b>. Parameters for a Master 
        Boot Record (MBR) disk.
-
 
 ### -field MbrPartInfo.bootIndicator
 
 If <b>TRUE</b>, the partition is active and can be booted; otherwise the partition 
         cannot be used to boot the system.
 
-
 ### -field GptPartInfo
 
 Used if <b>style</b> is <b>VDS_PST_GPT</b>. Parameters for a GUID 
        Partition Table (GPT) disk.
 
-
 ### -field GptPartInfo.attributes
-
 
 Attributes of the partition. This can be one or more of the following values:
 
@@ -188,31 +181,18 @@ Do not set this attribute for dynamic disks. Setting it can cause I/O errors and
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The 
     <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">IVdsAdvancedDisk::ChangeAttributes</a> 
     method takes this structure as a parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">IVdsAdvancedDisk::ChangeAttributes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
- 
-
- 
 

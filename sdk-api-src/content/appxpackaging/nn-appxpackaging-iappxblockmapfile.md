@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 4C380E2F-8125-4147-97F5-BEDF5BEFB81D
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], IAppxBlockMapFile interface [App packaging and management],described, appxpackaging/IAppxBlockMapFile, appxpkg.iappxblockmapfile
-f1_keywords:
-- appxpackaging/IAppxBlockMapFile
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBlockMapFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBlockMapFile
+ - appxpackaging/IAppxBlockMapFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBlockMapFile
 ---
 
 # IAppxBlockMapFile interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a file in the block map.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Validates the content of a file against the hashes stored in the block elements 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IAppxBlockMapFile</b> interface provides a read-only object model that represents the files in the block map. Files are represented in the block map file with the <b>File</b> element. You can retrieve the file's attributes and block hashes from the <b>File</b> element. Block hashes can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a> interface.
 
@@ -126,12 +122,7 @@ For a code example, see the [Query app package and app manifest sample](https://
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a>
 

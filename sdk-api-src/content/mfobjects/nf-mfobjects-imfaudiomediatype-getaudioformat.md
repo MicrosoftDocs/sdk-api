@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 6a874e7b-9358-45e1-85be-7207bf46d93e
 ms.date: 12/05/2018
 ms.keywords: 6a874e7b-9358-45e1-85be-7207bf46d93e, GetAudioFormat, GetAudioFormat method [Media Foundation], GetAudioFormat method [Media Foundation],IMFAudioMediaType interface, IMFAudioMediaType interface [Media Foundation],GetAudioFormat method, IMFAudioMediaType.GetAudioFormat, IMFAudioMediaType::GetAudioFormat, mf.imfaudiomediatype_getaudioformat, mfobjects/IMFAudioMediaType::GetAudioFormat
-f1_keywords:
-- mfobjects/IMFAudioMediaType.GetAudioFormat
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAudioMediaType.GetAudioFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAudioMediaType::GetAudioFormat
+ - mfobjects/IMFAudioMediaType::GetAudioFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAudioMediaType.GetAudioFormat
 ---
 
 # IMFAudioMediaType::GetAudioFormat
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>GetAudioFormat</b> is no longer available for use as of Windows 7. Instead, use the media type attributes to get the properties of the audio format.]
 
 Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that describes the audio format.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 This method returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
-
-
-
 ## -remarks
-
-
 
 If you need to convert the media type into a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype">MFCreateWaveFormatExFromMFMediaType</a>.
 
@@ -87,12 +74,7 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/audio-media-types">Audio Media Types</a>
 
@@ -103,7 +85,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
- 
-
- 
 

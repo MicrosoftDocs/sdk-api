@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: c552b26a-a8db-42a1-85c9-9578230def74
 ms.date: 12/05/2018
 ms.keywords: AccessibleObjectFromID, AccessibleObjectFromID method [Windows Accessibility], AccessibleObjectFromID method [Windows Accessibility],IAccessibleHandler interface, IAccessibleHandler interface [Windows Accessibility],AccessibleObjectFromID method, IAccessibleHandler.AccessibleObjectFromID, IAccessibleHandler::AccessibleObjectFromID, _msaa_IAccessibleHandler_AccessibleObjectFromID, msaa.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid, oleacc/IAccessibleHandler::AccessibleObjectFromID, winauto.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid
-f1_keywords:
-- oleacc/IAccessibleHandler.AccessibleObjectFromID
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessibleHandler.AccessibleObjectFromID
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibleHandler::AccessibleObjectFromID
+ - oleacc/IAccessibleHandler::AccessibleObjectFromID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessibleHandler.AccessibleObjectFromID
 ---
 
 # IAccessibleHandler::AccessibleObjectFromID
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AccessibleObjectFromID</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>interface pointer for the interface associated with the given object ID. Oleacc.dll uses this method to obtain an <b>IAccessible</b> interface pointer for proxies that are supplied by other code.
 <div class="alert"><b>Note</b>  <b>IAccessibleHandler::AccessibleObjectFromID</b> is deprecated and should not be used.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,13 +61,11 @@ Type: <b>long</b>
 
 Specifies the handle of a window for which an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer is to be retrieved.
 
-
 ### -param lObjectID [in]
 
 Type: <b>long</b>
 
 Specifies the object ID. This value is one of the standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">object identifier</a> constants or a custom object ID.
-
 
 ### -param pIAccessible [out]
 
@@ -78,10 +73,7 @@ Type: <b>LPACCESSIBLE*</b>
 
 Specifies the address of a pointer variable that receives the address of the object's <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -117,20 +109,12 @@ The requested interface is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Oleacc calls this function to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer for <b>HWND</b>s that have the class name that this handler is registered for.
 
 At startup, Oleacc looks in the registry key HKLM\SOFTWARE\Microsoft\Active Accessibility\Handlers and enumerates over each subkey (Oleacc expects the subkey to be a GUID). Oleacc reads the associated class name from HKCR\CLSID\{guid}\AccClassName, where {guid} was the GUID found under the HKLM\SOFTWARE\Microsoft\Active Accessibility\Handlers key. When Oleacc finds a window with a class name that matches the GUID, it CoCreates the object using the GUID, retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessiblehandler">IAccessibleHandler</a> interface pointer, and calls <b>AccessibleObjectFromID</b> on it to get at <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer.
 
 As with other <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/receiving-errors-for-iaccessible-interface-pointers">Receiving Errors for IAccessible Interface Pointers</a>.
-
-
 

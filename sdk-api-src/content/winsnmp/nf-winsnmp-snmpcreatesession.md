@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 8d982eb5-a7b5-418e-94ad-3e5dc43d225c
 ms.date: 12/05/2018
 ms.keywords: SnmpCreateSession, SnmpCreateSession function [SNMP], _snmp_snmpcreatesession, snmp.snmpcreatesession, winsnmp/SnmpCreateSession
-f1_keywords:
-- winsnmp/SnmpCreateSession
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpCreateSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpCreateSession
+ - winsnmp/SnmpCreateSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpCreateSession
 ---
 
 # SnmpCreateSession function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -61,21 +61,15 @@ The
 <b>SnmpCreateSession</b> to open a WinSNMP session instead of calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpopen">SnmpOpen</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Handle to a window of the WinSNMP application to notify when an asynchronous request completes, or when trap notification occurs. This parameter is required for window notification messages for the session.
 
-
 ### -param wMsg [in]
 
 Specifies an unsigned integer that identifies the notification message to send to the WinSNMP application window. This parameter is required for window notification messages for the session.
-
 
 ### -param fCallBack [in]
 
@@ -87,15 +81,11 @@ Specifies the address of an application-defined, session-specific
 
 This parameter is required to specify callback notifications for the session. This parameter must be <b>NULL</b> to specify window notification messages for the session. For additional information, see the following Remarks section.
 
-
 ### -param lpClientData [in]
 
 Pointer to application-defined data to pass to the callback function specified by the <i>fCallback</i> parameter. This parameter is optional and can be <b>NULL</b>. If the <i>fCallback</i> parameter is <b>NULL</b>, the implementation ignores this parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle that identifies the WinSNMP session that the implementation opens for the calling application.
 
@@ -187,14 +177,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SnmpCreateSession</b> function returns a unique handle to each open WinSNMP session within the calling WinSNMP application. The application must use the session handle that 
@@ -227,13 +211,7 @@ Following is an example of a call to the
 
 <code>hSession = SnmpCreateSession (myWnd, myMsg, NULL, NULL);</code>
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nc-winsnmp-snmpapi_callback">SNMPAPI_CALLBACK</a>
 
@@ -257,7 +235,4 @@ Following is an example of a call to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

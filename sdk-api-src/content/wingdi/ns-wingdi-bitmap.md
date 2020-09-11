@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 6ee382da-dd63-442b-80c3-59472defb41f
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAP, *NPBITMAP, *PBITMAP, BITMAP, BITMAP structure [Windows GDI], PBITMAP, PBITMAP structure pointer [Windows GDI], _win32_BITMAP_str, gdi.bitmap, wingdi/BITMAP, wingdi/PBITMAP'
-f1_keywords:
-- wingdi/BITMAP
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- BITMAP
 targetos: Windows
 req.typenames: BITMAP, *PBITMAP, *NPBITMAP, *LPBITMAP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagBITMAP
+ - wingdi/tagBITMAP
+ - PBITMAP
+ - wingdi/PBITMAP
+ - BITMAP
+ - wingdi/BITMAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - BITMAP
 ---
 
 # BITMAP structure
@@ -49,56 +54,39 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BITMAP</b> structure defines the type, width, height, color format, and bit values of a bitmap.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field bmType
 
 The bitmap type. This member must be zero.
 
-
 ### -field bmWidth
 
 The width, in pixels, of the bitmap. The width must be greater than zero.
-
 
 ### -field bmHeight
 
 The height, in pixels, of the bitmap. The height must be greater than zero.
 
-
 ### -field bmWidthBytes
 
 The number of bytes in each scan line. This value must be divisible by 2, because the system assumes that the bit values of a bitmap form an array that is word aligned.
-
 
 ### -field bmPlanes
 
 The count of color planes.
 
-
 ### -field bmBitsPixel
 
 The number of bits required to indicate the color of a pixel.
-
 
 ### -field bmBits
 
 A pointer to the location of the bit values for the bitmap. The <b>bmBits</b> member must be a pointer to an array of character (1-byte) values.
 
-
 ## -remarks
-
-
 
 The bitmap formats currently used are monochrome and color. The monochrome bitmap uses a one-bit, one-plane format. Each scan is a multiple of 16 bits.
 
@@ -119,13 +107,7 @@ All devices that have the RC_BITBLT device capability support bitmaps. For more 
 
 Each device has a unique color format. To transfer a bitmap from one device to another, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
@@ -152,7 +134,4 @@ Each device has a unique color format. To transfer a bitmap from one device to a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
- 
-
- 
 

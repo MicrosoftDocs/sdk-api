@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelparam.htm
 ms.date: 12/05/2018
 ms.keywords: MAKELPARAM, MAKELPARAM macro [Windows and Messages], _win32_MAKELPARAM, _win32_makelparam_cpp, winmsg.makelparam, winui._win32_makelparam, winuser/MAKELPARAM
-f1_keywords:
-- winuser/MAKELPARAM
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MAKELPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAKELPARAM
+ - winuser/MAKELPARAM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MAKELPARAM
 ---
 
 # MAKELPARAM macro
@@ -49,30 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a value for use as an
-			<i>lParam</i> parameter in a message. The macro concatenates the specified values. 
-
+			<i>lParam</i> parameter in a message. The macro concatenates the specified values.
 
 ## -parameters
 
-
-
-
 ### -param l
 
-The low-order word of the new value. 
-
+The low-order word of the new value.
 
 ### -param h
 
-The high-order word of the new value. 
-
+The high-order word of the new value.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -95,7 +86,4 @@ The high-order word of the new value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
- 
-
- 
 

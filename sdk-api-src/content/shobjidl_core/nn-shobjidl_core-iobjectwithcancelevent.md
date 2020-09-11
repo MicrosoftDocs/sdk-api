@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3bac219d-d9fd-4259-8f34-032554291327
 ms.date: 12/05/2018
 ms.keywords: IObjectWithCancelEvent, IObjectWithCancelEvent interface [Windows Shell], IObjectWithCancelEvent interface [Windows Shell],described, _shell_IObjectWithCancelEvent, shell.IObjectWithCancelEvent, shobjidl_core/IObjectWithCancelEvent
-f1_keywords:
-- shobjidl_core/IObjectWithCancelEvent
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IObjectWithCancelEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectWithCancelEvent
+ - shobjidl_core/IObjectWithCancelEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IObjectWithCancelEvent
 ---
 
 # IObjectWithCancelEvent interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 Supplies a caller with an event that will be signaled by the called object to denote cancellation of a task.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Retrieves an event that will be sent when an operation is cancelled.
 
 </td>
 </tr>
-</table> 
+</table>
 

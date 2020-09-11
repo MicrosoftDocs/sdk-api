@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: a7a20f87-6f21-4fe8-8889-1b6689daf833
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], IWMReaderAdvanced interface [windows Media Format],described, IWMReaderAdvancedInterface, wmformat.iwmreaderadvanced, wmsdkidl/IWMReaderAdvanced
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMReaderAdvanced
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced
+ - wmsdkidl/IWMReaderAdvanced
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMReaderAdvanced
 ---
 
 # IWMReaderAdvanced interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 A call to <b>QueryInterface</b> from a reader object exposes the advanced functionality described in this section.
-
-
-
 
 ## -inheritance
 
@@ -255,12 +251,7 @@ Specifies that a clock provided by the application is to be used.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
@@ -303,7 +294,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/reading-asf-files">Reading ASF Files</a>
- 
-
- 
 

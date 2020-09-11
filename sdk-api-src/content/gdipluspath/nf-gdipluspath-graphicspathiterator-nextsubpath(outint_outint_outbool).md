@@ -7,10 +7,6 @@ helpviewer_keywords: ["GraphicsPathIterator::NextSubpath"]
 ms.assetid: 175a664d-76d3-40d7-8978-90120e26baf6
 ms.date: 05/13/2019
 ms.keywords: GraphicsPathIterator::NextSubpath
-f1_keywords:
-- gdipluspath/GraphicsPathIterator::NextSubpath
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,14 +27,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - GraphicsPathIterator::NextSubpath
+ - gdipluspath/GraphicsPathIterator::NextSubpath
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- GraphicsPathIterator::NextSubpath
+ - GraphicsPathIterator::NextSubpath
 ---
 
 ## -description
@@ -151,3 +152,4 @@ VOID NextSubpathExample2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextsubpath(outconstgraphicspath_outbool)">NextSubpath</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

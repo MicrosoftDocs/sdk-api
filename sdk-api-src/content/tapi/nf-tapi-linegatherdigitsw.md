@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 87d5f777-e536-46be-8ad4-437386f04c9b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits function [TAPI 2.2], lineGatherDigitsA, lineGatherDigitsW, tapi/lineGatherDigits, tapi/lineGatherDigitsA, tapi/lineGatherDigitsW, tapi2.linegatherdigits
-f1_keywords:
-- tapi/lineGatherDigits
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGatherDigits
-- lineGatherDigitsA
-- lineGatherDigitsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGatherDigitsW
+ - tapi/lineGatherDigitsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGatherDigits
+ - lineGatherDigitsA
+ - lineGatherDigitsW
 ---
 
 # lineGatherDigitsW function
@@ -51,37 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGatherDigits</b> function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to the call on which digits are to be gathered. The application must be an owner of the call. The call state of <i>hCall</i> can be any state.
-
 
 ### -param dwDigitModes
 
 Digit modes to be monitored. This parameter uses one or more of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>.
 
-
 ### -param lpsDigits
 
 Pointer to the buffer where detected digits are to be stored as text characters. Digits may not show up in the buffer one at a time as they are collected. Only after a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-gatherdigits">LINE_GATHERDIGITS</a> message is received should the content of the buffer be assumed to be valid. If <i>lpsDigits</i> is <b>NULL</b>, the digit gathering currently in progress on the call is terminated and <i>dwNumDigits</i> is ignored. Otherwise, <i>lpsDigits</i> is assumed to have room for <i>dwNumDigits</i> digits.
 
-
 ### -param dwNumDigits
 
 Number of digits to be collected before a LINE_GATHERDIGITS message is sent to the application. The <i>dwNumDigits</i> parameter is ignored when <i>lpsDigits</i> is <b>NULL</b>. This function fails if <i>dwNumDigits</i> is zero.
-
 
 ### -param lpszTerminationDigits
 
@@ -96,32 +88,22 @@ The list of valid characters is dependent on the constant provided in <i>dwDigit
 
 If this pointer is <b>NULL</b>, or if it points to an empty string, the function behaves as though no termination digits were supplied.
 
-
 ### -param dwFirstDigitTimeout
 
 Time duration in milliseconds in which the first digit is expected. If the first digit is not received in this timeframe, digit collection is aborted and a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-gatherdigits">LINE_GATHERDIGITS</a> message is sent to the application. The buffer only contains the <b>NULL</b> character, indicating that no digits were received and the first digit timeout terminated digit gathering. The call's line-device capabilities specify the valid range for this parameter or indicate that timeouts are not supported.
 
-
 ### -param dwInterDigitTimeout
 
 Maximum time duration in milliseconds between consecutive digits. If no digit is received in this timeframe, digit collection is aborted and a LINE_GATHERDIGITS message is sent to the application. The buffer only contains the digits collected up to this point followed by a <b>NULL</b> character, indicating that an interdigit timeout terminated digit gathering. The call's line-device capabilities specify the valid range for this parameter or indicate that timeouts are not supported.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_NOMEM, LINEERR_INVALCALLSTATE, LINEERR_NOTOWNER, LINEERR_INVALDIGITMODE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALDIGITS, LINEERR_OPERATIONFAILED, LINEERR_INVALPARAM, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 Digit collection is terminated when the requested number of digits has been collected. It is also terminated when one of the digits detected matches a digit in <i>szTerminationDigits</i> before the specified number of digits has been collected. The detected termination digit is also placed in the buffer and the partial buffer is returned.
 
@@ -160,9 +142,6 @@ If the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-gatherdigits">LINE_GATHERDIGITS</a>
 
 
@@ -184,7 +163,4 @@ If the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitordigits">lineMonitorDigits</a>
- 
-
- 
 

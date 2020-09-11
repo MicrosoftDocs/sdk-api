@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: cdcb661f-5f17-481a-a4b7-db06d53e1b97
 ms.date: 12/05/2018
 ms.keywords: INetworkListManagerEvents, INetworkListManagerEvents interface [Network Awareness], INetworkListManagerEvents interface [Network Awareness],described, netlistmgr/INetworkListManagerEvents, nla.inetworklistmanagerevents
-f1_keywords:
-- netlistmgr/INetworkListManagerEvents
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkListManagerEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkListManagerEvents
+ - netlistmgr/INetworkListManagerEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkListManagerEvents
 ---
 
 # INetworkListManagerEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>INetworkListManagerEvents</b> is a message sink interface that a client implements to get overall machine state related events. Applications that are interested on higher-level events, for example internet connectivity, implement this interface.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Called when network connectivity related changes occur.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a>
- 
-
- 
 

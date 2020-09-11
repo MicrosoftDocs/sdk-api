@@ -8,10 +8,6 @@ tech.root: Monitor
 ms.assetid: 1cb0f035-a429-4355-89b8-d8bcd89cb037
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromIDirect3DDevice9, GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromidirect3ddevice9, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
-f1_keywords:
-- physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
-dev_langs:
-- c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- dxva2.dll
-api_name:
-- GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
+ - physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - dxva2.dll
+api_name:
+ - GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
 ---
 
 # GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function
@@ -49,47 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of physical monitors associated with a Direct3D device.
 
-
 ## -parameters
-
-
-
 
 ### -param pDirect3DDevice9 [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a> interface of the Direct3D device.
-          
-
 
 ### -param pdwNumberOfPhysicalMonitors [out]
 
 Receives the number of physical monitors associated with the Direct3D device.
-          
-
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
- 
-
- 
 

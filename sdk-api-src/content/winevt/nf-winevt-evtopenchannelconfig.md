@@ -8,10 +8,6 @@ tech.root: wes
 ms.assetid: d197f04e-01e8-4ef6-a9ca-61e5178d825b
 ms.date: 12/05/2018
 ms.keywords: EvtOpenChannelConfig, EvtOpenChannelConfig function [EventLog], wes.evtopenchannelconfig, winevt/EvtOpenChannelConfig
-f1_keywords:
-- winevt/EvtOpenChannelConfig
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-- Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
-- Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
-- Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
-api_name:
-- EvtOpenChannelConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtOpenChannelConfig
+ - winevt/EvtOpenChannelConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+api_name:
+ - EvtOpenChannelConfig
 ---
 
 # EvtOpenChannelConfig function
@@ -52,42 +53,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a handle that you use to read or modify a channel's configuration property.
 
-
 ## -parameters
-
-
-
 
 ### -param Session [in]
 
 A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to access a channel on the local computer.
 
-
 ### -param ChannelPath [in]
 
 The name of the channel to access.
-
 
 ### -param Flags [in]
 
 Reserved. Must be zero.
 
-
 ## -returns
-
-
 
 If successful, the function returns a handle to the channel's configuration; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
-
-
-
 ## -remarks
-
-
 
 To get a configuration property, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a> function.
 
@@ -104,12 +90,7 @@ For an example that shows how to use this function, see <a href="https://docs.mi
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
 
@@ -124,7 +105,4 @@ For an example that shows how to use this function, see <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>
- 
-
- 
 

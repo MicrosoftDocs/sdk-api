@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\multiplytransform_37matrix_order.htm
 ms.date: 12/05/2018
 ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],MultiplyTransform method, TextureBrush.MultiplyTransform, TextureBrush::MultiplyTransform, _gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_
-f1_keywords:
-- gdiplusbrush/TextureBrush.MultiplyTransform
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- TextureBrush.MultiplyTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - TextureBrush::MultiplyTransform
+ - gdiplusbrush/TextureBrush::MultiplyTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - TextureBrush.MultiplyTransform
 ---
 
 # TextureBrush::MultiplyTransform
@@ -50,33 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TextureBrush::MultiplyTransform</b> method updates this brush's transformation matrix with the product of itself and another matrix.
 
-
 ## -parameters
-
-
-
 
 ### -param matrix [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
 
-Pointer to the matrix to be multiplied by this brush's current transformation matrix. 
-
+Pointer to the matrix to be multiplied by this brush's current transformation matrix.
 
 ### -param order [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a></b>
 
 Optional. Element of the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a> enumeration that specifies the order of multiplication. <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrderPrepend</a> specifies that the passed matrix is on the left, and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrderAppend</a> specifies that the passed matrix is on the right. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrderPrepend</a>. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a> enumeration that specifies the order of multiplication. <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrderPrepend</a> specifies that the passed matrix is on the left, and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrderAppend</a> specifies that the passed matrix is on the right. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrderPrepend</a>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -86,13 +78,7 @@ If the method succeeds, it returns <a href="https://docs.microsoft.com/windows/d
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -139,7 +125,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

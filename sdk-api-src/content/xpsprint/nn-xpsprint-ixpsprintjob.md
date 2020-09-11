@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: aa17e059-6208-4348-87f3-556a3818f2b9
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJob, IXpsPrintJob interface [Windows GDI], IXpsPrintJob interface [Windows GDI],described, gdi.ixpsprintjob, xpsprint/IXpsPrintJob
-f1_keywords:
-- xpsprint/IXpsPrintJob
-dev_langs:
-- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XpsPrint.h
-api_name:
-- IXpsPrintJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsPrintJob
+ - xpsprint/IXpsPrintJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XpsPrint.h
+api_name:
+ - IXpsPrintJob
 ---
 
 # IXpsPrintJob interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IXpsPrintJob is not supported and may be altered or unavailable in the future. ]
 
 Provides access to a print job that is currently in progress.
-
 
 ## -inheritance
 
@@ -88,20 +87,13 @@ Gets the current status of the print job.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

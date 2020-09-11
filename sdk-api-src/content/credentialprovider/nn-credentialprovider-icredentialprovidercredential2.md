@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: C1C4BF88-3151-4a8b-A1EE-9616DCB6EA58
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential2, ICredentialProviderCredential2 interface [Windows Shell], ICredentialProviderCredential2 interface [Windows Shell],described, credentialprovider/ICredentialProviderCredential2, shell.ICredentialProviderCredential2
-f1_keywords:
-- credentialprovider/ICredentialProviderCredential2
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CredentialProvider.h
-api_name:
-- ICredentialProviderCredential2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderCredential2
+ - credentialprovider/ICredentialProviderCredential2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CredentialProvider.h
+api_name:
+ - ICredentialProviderCredential2
 ---
 
 # ICredentialProviderCredential2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a> interface by adding a method that retrieves the security identifier (SID) of a user. The credential is associated with that user and can be grouped under the user's tile.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Retrieves the SID of the user that is associated with this credential.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This class is required for creating a V2 credential provider. V2 credential providers provide a personalized log on experience for the user. This occurs by the credential provider telling the Logon UI what sign in options are available for a user. It is recommended that new credential providers should be V2 credential providers. 
 
@@ -99,15 +95,7 @@ Similar to specifying an icon for your credential provider, you can also specify
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
 Implement this interface to associate credential tiles with specific user tiles in the Logon UI.
 
-
-
-
 ## -see-also
-
-
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
 
@@ -118,7 +106,4 @@ Implement this interface to associate credential tiles with specific user tiles 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>
- 
-
- 
 

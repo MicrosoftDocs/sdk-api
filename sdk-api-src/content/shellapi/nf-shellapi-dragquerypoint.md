@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 87794ab0-a075-4a1f-869f-5998bdc57a1d
 ms.date: 12/05/2018
 ms.keywords: DragQueryPoint, DragQueryPoint function [Windows Shell], _win32_DragQueryPoint, shell.DragQueryPoint, shellapi/DragQueryPoint
-f1_keywords:
-- shellapi/DragQueryPoint
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- DragQueryPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DragQueryPoint
+ - shellapi/DragQueryPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - DragQueryPoint
 ---
 
 # DragQueryPoint function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the position of the mouse pointer at the time a file was dropped during a drag-and-drop operation.
 
-
 ## -parameters
-
-
-
 
 ### -param hDrop [in]
 
@@ -64,41 +60,23 @@ Type: <b>HDROP</b>
 
 Handle of the drop structure that describes the dropped file.
 
-
 ### -param ppt [out]
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that, when this function returns successfully, receives the coordinates of the mouse pointer at the time the file was dropped.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if the drop occurred in the client area of the window; otherwise <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The window for which coordinates are returned is the window that received the <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragqueryfilea">DragQueryFile</a>
- 
-
- 
 

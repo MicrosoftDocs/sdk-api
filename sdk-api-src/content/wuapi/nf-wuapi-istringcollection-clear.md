@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 480b8a8a-ecf1-4f1c-b53d-98a0151c57b5
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Clear method, IStringCollection.Clear, IStringCollection::Clear, wua.istringcollection_clear, wuapi/IStringCollection::Clear
-f1_keywords:
-- wuapi/IStringCollection.Clear
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IStringCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStringCollection::Clear
+ - wuapi/IStringCollection::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IStringCollection.Clear
 ---
 
 # IStringCollection::Clear
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all the elements from the collection.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -85,18 +77,8 @@ The collection is read-only.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
- 
-
- 
 

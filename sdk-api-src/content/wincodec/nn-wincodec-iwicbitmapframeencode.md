@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: a8de774b-3783-46be-9a21-c9fec2f10ffd
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], IWICBitmapFrameEncode interface [Windows Imaging Component],described, _wic_codec_iwicbitmapframeencode, wic._wic_codec_iwicbitmapframeencode, wincodec/IWICBitmapFrameEncode
-f1_keywords:
-- wincodec/IWICBitmapFrameEncode
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapFrameEncode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapFrameEncode
+ - wincodec/IWICBitmapFrameEncode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapFrameEncode
 ---
 
 # IWICBitmapFrameEncode interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an encoder's individual image frames.
-
 
 ## -inheritance
 
@@ -167,13 +166,9 @@ Encodes a bitmap source.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>
 
@@ -196,7 +191,4 @@ Encodes a bitmap source.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 081a14ed-c152-4e0a-b85b-1111d825ce53
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice, IDCompositionDevice interface [DirectComposition], IDCompositionDevice interface [DirectComposition],described, dcomp/IDCompositionDevice, directcomp.idcompositiondevice
-f1_keywords:
-- dcomp/IDCompositionDevice
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionDevice
+ - dcomp/IDCompositionDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionDevice
 ---
 
 # IDCompositionDevice interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition.
-
 
 ## -inheritance
 
@@ -286,16 +285,9 @@ Waits for the composition engine to finish processing the previous call to the <
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-dcompositioncreatedevice">DCompositionCreateDevice</a>
- 
-
- 
 

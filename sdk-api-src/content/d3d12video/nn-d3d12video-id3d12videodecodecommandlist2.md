@@ -28,6 +28,7 @@ api_location:
 api_name:
  - ID3D12VideoDecodeCommandList2
 f1_keywords:
+ - ID3D12VideoDecodeCommandList2
  - d3d12video/ID3D12VideoDecodeCommandList2
 dev_langs:
  - c++

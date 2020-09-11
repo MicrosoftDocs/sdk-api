@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2c66f5e3-3479-414c-8888-0a888708dbe0
 ms.date: 12/05/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],UnregisterFolder method, IKnownFolderManager.UnregisterFolder, IKnownFolderManager::UnregisterFolder, UnregisterFolder, UnregisterFolder method [Windows Shell], UnregisterFolder method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_UnregisterFolder, shell.IKnownFolderManager_UnregisterFolder, shobjidl_core/IKnownFolderManager::UnregisterFolder
-f1_keywords:
-- shobjidl_core/IKnownFolderManager.UnregisterFolder
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IKnownFolderManager.UnregisterFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKnownFolderManager::UnregisterFolder
+ - shobjidl_core/IKnownFolderManager::UnregisterFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IKnownFolderManager.UnregisterFolder
 ---
 
 # IKnownFolderManager::UnregisterFolder
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Remove a known folder from the registry, which makes it unknown to the known folder system. This method does not remove the folder itself.
 
-
 ## -parameters
-
-
-
 
 ### -param rfid [in]
 
@@ -64,10 +60,7 @@ Type: <b>REFKNOWNFOLDERID</b>
 
 <b>GUID</b> or <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that represents the known folder.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -90,24 +83,13 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This method updates <b>HKEY_LOCAL_MACHINE</b> and needs to be run in the context of an administrator. Setup programs need administrator privileges to register or unregister a known folder.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
@@ -118,7 +100,4 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
- 
-
- 
 

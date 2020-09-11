@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 230666c7-e7e4-4e75-a84d-1786e8cbbb6c
 ms.date: 12/05/2018
 ms.keywords: EndPrepareSnapshots, EndPrepareSnapshots method [VSS], EndPrepareSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],EndPrepareSnapshots method, IVssProviderCreateSnapshotSet.EndPrepareSnapshots, IVssProviderCreateSnapshotSet::EndPrepareSnapshots, base.ivssprovidercreatesnapshotset_endpreparesnapshots, vsprov/IVssProviderCreateSnapshotSet::EndPrepareSnapshots
-f1_keywords:
-- vsprov/IVssProviderCreateSnapshotSet.EndPrepareSnapshots
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderCreateSnapshotSet.EndPrepareSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderCreateSnapshotSet::EndPrepareSnapshots
+ - vsprov/IVssProviderCreateSnapshotSet::EndPrepareSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderCreateSnapshotSet.EndPrepareSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::EndPrepareSnapshots
 
 
 ## -description
-
 
 The <b>EndPrepareSnapshots</b> 
    method is called once for the complete shadow copy set, after the last 
@@ -60,20 +60,13 @@ The <b>EndPrepareSnapshots</b>
    <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a> method call 
    at any time and immediately end the preparation work.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 The <b>VSS_ID</b> of the shadow copy set.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -161,13 +154,7 @@ An unexpected provider error occurred. If this is returned, the error must be de
 If any other value is returned, VSS will write an event to the event log and convert the error to 
       <b>VSS_E_UNEXPECTED_PROVIDER_ERROR</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a>
 
@@ -178,7 +165,4 @@ If any other value is returned, VSS will write an event to the event log and con
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
- 
-
- 
 

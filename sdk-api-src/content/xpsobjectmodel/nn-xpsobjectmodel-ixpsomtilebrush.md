@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: fc9e1925-0dbc-447b-9acc-e7f719df62d1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], IXpsOMTileBrush interface [XPS Documents and Packaging],described, xps.ixpsomtilebrush, xpsobjectmodel/IXpsOMTileBrush
-f1_keywords:
-- xpsobjectmodel/IXpsOMTileBrush
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMTileBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMTileBrush
+ - xpsobjectmodel/IXpsOMTileBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMTileBrush
 ---
 
 # IXpsOMTileBrush interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A tile brush uses a  visual image to paint a region by repeating the image. 
 
 This is the base interface of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimagebrush">IXpsOMImageBrush</a> and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualbrush">IXpsOMVisualBrush</a>.
-
 
 ## -inheritance
 
@@ -175,12 +174,9 @@ Sets the portion of the destination geometry that is covered by a single tile.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 As shown in the illustration that follows, the tile brush takes a visual element, or a part of it,  transforms the visual element to create a tile, places the tile in the viewport of the output area, and fills the output area  as specified  by the tile mode.
 
@@ -196,12 +192,7 @@ The next illustration shows the tile modes that are used to repeat the tile imag
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="./images/TileMode.png"/>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
 
@@ -220,7 +211,4 @@ The next illustration shows the tile modes that are used to repeat the tile imag
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

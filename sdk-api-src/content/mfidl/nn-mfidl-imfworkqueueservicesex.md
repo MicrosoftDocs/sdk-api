@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 12d4f0f4-9a6d-4782-b5ae-4add6608782a
 ms.date: 12/05/2018
 ms.keywords: IMFWorkQueueServicesEx, IMFWorkQueueServicesEx interface [Media Foundation], IMFWorkQueueServicesEx interface [Media Foundation],described, mf.imfworkqueueservicesex, mfidl/IMFWorkQueueServicesEx
-f1_keywords:
-- mfidl/IMFWorkQueueServicesEx
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFWorkQueueServicesEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFWorkQueueServicesEx
+ - mfidl/IMFWorkQueueServicesEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFWorkQueueServicesEx
 ---
 
 # IMFWorkQueueServicesEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a> interface.
-
 
 ## -inheritance
 
@@ -106,28 +105,16 @@ Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface allows applications to control
 both platform and topology work queues.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a> can be obtained from the session by querying     for the <b>MF_WORKQUEUE_SERVICES</b> service.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

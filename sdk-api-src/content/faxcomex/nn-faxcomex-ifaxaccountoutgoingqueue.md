@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingqueue\faxinta_n_ifaxaccountoutgoingqueue_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountOutgoingQueue, IFaxAccountOutgoingQueue interface [Fax Service], IFaxAccountOutgoingQueue interface [Fax Service],described, _mfax_faxaccountoutgoingqueue_cpp, fax._mfax_faxaccountoutgoingqueue_cpp, faxcomex/IFaxAccountOutgoingQueue
-f1_keywords:
-- faxcomex/IFaxAccountOutgoingQueue
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxAccountOutgoingQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxAccountOutgoingQueue
+ - faxcomex/IFaxAccountOutgoingQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxAccountOutgoingQueue
 ---
 
 # IFaxAccountOutgoingQueue interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by a fax client application to retrieve the outbound fax jobs (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjobs">FaxOutgoingJobs</a> object) in the job queue for a particular fax account.
 
 The <b>IFaxAccountOutgoingQueue</b> interface is accessed through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountfolders">IFaxAccountFolders</a> interface.
-
 
 ## -inheritance
 
@@ -88,13 +87,9 @@ Returns the collection of outbound fax jobs in the queue for the current fax acc
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingqueue">FaxAccountOutgoingQueue</a>
 
@@ -105,7 +100,4 @@ Returns the collection of outbound fax jobs in the queue for the current fax acc
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountfolders">IFaxAccountFolders</a>
- 
-
- 
 

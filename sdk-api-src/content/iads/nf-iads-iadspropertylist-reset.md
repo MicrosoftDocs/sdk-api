@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: ca9f92e5-d81f-40e5-8223-38fd8312ef7c
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],Reset method, IADsPropertyList.Reset, IADsPropertyList::Reset, Reset, Reset method [ADSI], Reset method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_reset, adsi.iadspropertylist__reset, adsi.iadspropertylist_reset, iads/IADsPropertyList::Reset
-f1_keywords:
-- iads/IADsPropertyList.Reset
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPropertyList.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPropertyList::Reset
+ - iads/IADsPropertyList::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPropertyList.Reset
 ---
 
 # IADsPropertyList::Reset
@@ -49,30 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsPropertyList::Reset</b> method resets the list to the first item.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method supports the standard <b>HRESULT</b> values, including <b>S_OK</b>. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -87,7 +73,4 @@ This method supports the standard <b>HRESULT</b> values, including <b>S_OK</b>. 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a>
- 
-
- 
 

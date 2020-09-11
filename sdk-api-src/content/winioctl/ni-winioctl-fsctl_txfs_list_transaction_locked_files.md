@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: fdef45fd-b197-4428-96c5-ac91b43681b1
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES, FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control, FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control code [Files], fs.fsctl_txfs_list_transaction_locked_files, winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
-f1_keywords:
-- winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
+ - winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 ---
 
 # FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES IOCTL
+
 
 ## -description
 
@@ -65,26 +67,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -93,7 +88,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -105,9 +99,9 @@ The number of files returned from one call to the next can change depending on t
 
 **ReFS:**  This code is not supported.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [TXFS_LIST_TRANSACTION_LOCKED_FILES](ns-winioctl-txfs_list_transaction_locked_files.md)
 * [TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY](ns-winioctl-txfs_list_transaction_locked_files_entry.md)
+

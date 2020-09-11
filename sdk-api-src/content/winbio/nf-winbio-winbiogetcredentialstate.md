@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 738b7efb-c796-4f64-95e3-feaaa50ac673
 ms.date: 12/05/2018
 ms.keywords: WINBIO_CREDENTIAL_NOT_SET, WINBIO_CREDENTIAL_PASSWORD, WINBIO_CREDENTIAL_SET, WinBioGetCredentialState, WinBioGetCredentialState function [Windows Biometric Framework API], secbiomet.winbiogetcredentialstate, winbio/WinBioGetCredentialState
-f1_keywords:
-- winbio/WinBioGetCredentialState
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioGetCredentialState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioGetCredentialState
+ - winbio/WinBioGetCredentialState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioGetCredentialState
 ---
 
 # WinBioGetCredentialState function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a value that specifies whether credentials have been set for the specified user. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-
 ## -parameters
-
-
-
 
 ### -param Identity [in]
 
 A  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the SID of the user account for which the credential is being queried.
-
 
 ### -param Type [in]
 
@@ -85,8 +80,6 @@ The password-based credential is checked.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param CredentialState [out]
 
@@ -118,12 +111,8 @@ A credential has been specified.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -166,14 +155,8 @@ Current administrative policy prohibits use of the credential provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WinBioGetCredentialState</b> is typically used to provide feedback about credential state in a user interface. For example, an enrollment application might query credential state before prompting a user for credentials.
 
@@ -324,17 +307,7 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a>
- 
-
- 
 

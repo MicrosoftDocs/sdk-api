@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 46793ae9-936e-4a58-bc34-84396151b4a3
 ms.date: 12/05/2018
 ms.keywords: IShellMenu, IShellMenu interface [Windows Shell], IShellMenu interface [Windows Shell],described, _shell_IShellMenu, shell.IShellMenu, shobjidl_core/IShellMenu
-f1_keywords:
-- shobjidl_core/IShellMenu
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellMenu
+ - shobjidl_core/IShellMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellMenu
 ---
 
 # IShellMenu interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that interact with Shell menus such as the <b>Start</b> menu, and the <b>Favorites</b> menu.
-
 
 ## -inheritance
 
@@ -149,14 +148,9 @@ Specifies the folder for the menu band to browse.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <i>rclsid</i> parameter set to CLSID_MenuBand and the <i>riid</i> parameter set to IID_IShellMenu. You must first initialize the interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>, and then initialize the menu band by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setshellfolder">IShellMenu::SetShellFolder</a>.
-
-
 

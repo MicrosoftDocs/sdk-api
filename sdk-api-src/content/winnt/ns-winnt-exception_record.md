@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 85a64178-bdcb-4293-9363-289c654730a2
 ms.date: 12/05/2018
 ms.keywords: '*PEXCEPTION_RECORD, EXCEPTION_ACCESS_VIOLATION, EXCEPTION_ARRAY_BOUNDS_EXCEEDED, EXCEPTION_BREAKPOINT, EXCEPTION_DATATYPE_MISALIGNMENT, EXCEPTION_FLT_DENORMAL_OPERAND, EXCEPTION_FLT_DIVIDE_BY_ZERO, EXCEPTION_FLT_INEXACT_RESULT, EXCEPTION_FLT_INVALID_OPERATION, EXCEPTION_FLT_OVERFLOW, EXCEPTION_FLT_STACK_CHECK, EXCEPTION_FLT_UNDERFLOW, EXCEPTION_ILLEGAL_INSTRUCTION, EXCEPTION_INT_DIVIDE_BY_ZERO, EXCEPTION_INT_OVERFLOW, EXCEPTION_INVALID_DISPOSITION, EXCEPTION_IN_PAGE_ERROR, EXCEPTION_NONCONTINUABLE_EXCEPTION, EXCEPTION_PRIV_INSTRUCTION, EXCEPTION_RECORD, EXCEPTION_RECORD structure, EXCEPTION_RECORD64, EXCEPTION_SINGLE_STEP, EXCEPTION_STACK_OVERFLOW, PEXCEPTION_RECORD, PEXCEPTION_RECORD structure pointer, _EXCEPTION_RECORD, _win32_exception_record_str, base.exception_record_str, winnt/EXCEPTION_RECORD, winnt/PEXCEPTION_RECORD'
-f1_keywords:
-- winnt/EXCEPTION_RECORD
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- EXCEPTION_RECORD
 targetos: Windows
 req.typenames: EXCEPTION_RECORD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EXCEPTION_RECORD
+ - winnt/_EXCEPTION_RECORD
+ - EXCEPTION_RECORD
+ - winnt/EXCEPTION_RECORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - EXCEPTION_RECORD
 ---
 
 # EXCEPTION_RECORD structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes an exception.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ExceptionCode
 
@@ -275,27 +273,22 @@ The thread used up its stack.
 
 Another exception code is likely to occur when debugging console processes. It does not arise because of a programming error. The <b>DBG_CONTROL_C</b> exception code occurs when CTRL+C is input to a console process that handles CTRL+C signals and is being debugged. This exception code is not meant to be handled by applications. It is raised only for the benefit of the debugger, and is raised only when a debugger is attached to the console process.
 
-
 ### -field ExceptionFlags
 
 The exception flags. This member can be either zero, indicating a continuable exception, or <b>EXCEPTION_NONCONTINUABLE</b> indicating a noncontinuable exception. Any attempt to continue execution after a noncontinuable exception causes the <b>EXCEPTION_NONCONTINUABLE_EXCEPTION</b> exception.
-
 
 ### -field ExceptionRecord
 
 A pointer to an associated 
 <b>EXCEPTION_RECORD</b> structure. Exception records can be chained together to provide additional information when nested exceptions occur.
 
-
 ### -field ExceptionAddress
 
 The address where the exception occurred.
 
-
 ### -field NumberParameters
 
 The number of parameters associated with the exception. This is the number of defined elements in the <b>ExceptionInformation</b> array.
-
 
 ### -field ExceptionInformation
 
@@ -342,12 +335,8 @@ The third array element specifies the underlying <b>NTSTATUS</b> code that resul
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 To enable a debugger to debug a target that is running on a different architecture (32-bit versus 64-bit), use one of the explicit forms of this structure.
 
@@ -373,14 +362,7 @@ typedef struct _EXCEPTION_RECORD64 {
 } EXCEPTION_RECORD64, *PEXCEPTION_RECORD64;
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info">EXCEPTION_DEBUG_INFO</a>
 
@@ -399,7 +381,4 @@ typedef struct _EXCEPTION_RECORD64 {
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>
- 
-
- 
 

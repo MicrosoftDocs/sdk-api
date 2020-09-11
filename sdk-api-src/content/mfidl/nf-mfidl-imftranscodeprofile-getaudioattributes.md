@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: c02dabfe-33ef-4835-a707-d1350b18629f
 ms.date: 12/05/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [Media Foundation], GetAudioAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetAudioAttributes method, IMFTranscodeProfile.GetAudioAttributes, IMFTranscodeProfile::GetAudioAttributes, mf.imftranscodeprofile_getaudioattributes, mfidl/IMFTranscodeProfile::GetAudioAttributes
-f1_keywords:
-- mfidl/IMFTranscodeProfile.GetAudioAttributes
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFTranscodeProfile.GetAudioAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTranscodeProfile::GetAudioAttributes
+ - mfidl/IMFTranscodeProfile::GetAudioAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFTranscodeProfile.GetAudioAttributes
 ---
 
 # IMFTranscodeProfile::GetAudioAttributes
@@ -49,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the audio stream settings that are currently set in the transcode profile.
-  
-
 
 ## -parameters
-
-
-
 
 ### -param ppAttrs [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store containing the current audio stream settings. Caller must release the interface pointer.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If there are no audio attributes set in the transcode profile, the call to <b>GetAudioAttributes</b> succeeds and  <i>ppAttrs</i> receives <b>NULL</b>.
 
@@ -93,12 +80,7 @@ To get a specific attribute value, the caller must call the appropriate <a href=
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes in Media Foundation</a>
 
@@ -109,7 +91,4 @@ To get a specific attribute value, the caller must call the appropriate <a href=
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/transcode-api">Transcode API</a>
- 
-
- 
 

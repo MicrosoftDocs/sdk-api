@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 129e682c-bc95-46d5-a0d3-adbadc7e6478
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_GET_METADATA_INFO, FSCTL_TXFS_GET_METADATA_INFO control, FSCTL_TXFS_GET_METADATA_INFO control code [Files], fs.fsctl_txfs_get_metadata_info, winioctl/FSCTL_TXFS_GET_METADATA_INFO
-f1_keywords:
-- winioctl/FSCTL_TXFS_GET_METADATA_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_GET_METADATA_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_GET_METADATA_INFO
+ - winioctl/FSCTL_TXFS_GET_METADATA_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_GET_METADATA_INFO
 ---
 
 # FSCTL_TXFS_GET_METADATA_INFO IOCTL
+
 
 ## -description
 
@@ -71,21 +73,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -95,15 +91,14 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 **FSCTL_TXFS_GET_METADATA_INFO** is a synchronous operation.
 
 **ReFS:**  This code is not supported.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [TXFS_GET_METADATA_INFO_OUT](ns-winioctl-txfs_get_metadata_info_out.md)
+

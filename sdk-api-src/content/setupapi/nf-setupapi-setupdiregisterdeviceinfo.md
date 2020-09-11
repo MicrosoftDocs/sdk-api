@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 76b2d1ab-3efb-46e6-8c44-d6913b0eecd5
 ms.date: 12/05/2018
 ms.keywords: SetupDiRegisterDeviceInfo, SetupDiRegisterDeviceInfo function [Device and Driver Installation], devinst.setupdiregisterdeviceinfo, di-rtns_ab9a56a2-3256-472f-a818-32918efd5673.xml, setupapi/SetupDiRegisterDeviceInfo
-f1_keywords:
-- setupapi/SetupDiRegisterDeviceInfo
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupDiRegisterDeviceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiRegisterDeviceInfo
+ - setupapi/SetupDiRegisterDeviceInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupDiRegisterDeviceInfo
 ---
 
 # SetupDiRegisterDeviceInfo function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-   <b>SetupDiRegisterDeviceInfo</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-registerdevice">DIF_REGISTERDEVICE</a> request. 
-
+   <b>SetupDiRegisterDeviceInfo</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-registerdevice">DIF_REGISTERDEVICE</a> request.
 
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device to register. The device information set must not contain any remote elements.
 
-
 ### -param DeviceInfoData [in, out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
-
 
 ### -param Flags [in]
 
@@ -82,7 +76,6 @@ A flag value that controls how the device is registered, which can be zero or th
 Search for a previously-existing <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> that corresponds to the device that is represented by <i>DeviceInfoData</i>. If this flag is not specified, the device instance is registered regardless of whether a device instance already exists for it.
 
 If the caller supplies <i>CompareProc</i>, the caller must also set this flag.
-
 
 ### -param CompareProc [in, optional]
 
@@ -103,31 +96,21 @@ The compare function must return ERROR_DUPLICATE_FOUND if it finds that the two 
 
 If <i>CompareProc</i> is not specified and duplication detection is requested, a default comparison behavior is used. The default is to compare the new device's detect signature with the detect signature of all other devices in the class. The detect signature is contained in the class-specific resource descriptor of the device's boot log configuration.
 
-
 ### -param CompareContext [in, optional]
 
 A pointer to a caller-supplied context buffer that is passed into the callback function. This parameter is ignored if <i>CompareProc</i> is not specified.
-
 
 ### -param DupDeviceInfoData [out, optional]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure to receive information about a duplicate device instance, if any, discovered as a result of attempting to register this device. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the caller must set <i>DupDeviceInfoData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_DATA). This will be filled in if the function returns <b>FALSE</b>, and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_DUPLICATE_FOUND. This device information element is added as a member of the specified <i>DeviceInfoSet</i>, if not already a member. If <i>DupDeviceInfoData</i> is not specified, the duplicate is not added to the device information set.
 
-If you call this function when handling a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-registerdevice">DIF_REGISTERDEVICE</a> request, the <i>DupDeviceInfoData</i> parameter must be <b>NULL</b>. 
-
+If you call this function when handling a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-registerdevice">DIF_REGISTERDEVICE</a> request, the <i>DupDeviceInfoData</i> parameter must be <b>NULL</b>.
 
 ## -returns
 
-
-
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetupDiRegisterDeviceInfo</b> is primarily designed to register a non-PnP device with the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/pnp-manager">Plug and Play (PnP) manager</a> on a local computer. Although <b>SetupDiRegisterDeviceInfo</b> will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations on a remote computer. For example, calling <b>SetupDiCreateDevRegKey</b> to execute an INF section for a newly registered device on a remote computer will fail.
 
@@ -162,12 +145,7 @@ The caller of <b>SetupDiRegisterDeviceInfo</b> must be a member of the Administr
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-registerdevice">DIF_REGISTERDEVICE</a>
 
@@ -178,7 +156,4 @@ The caller of <b>SetupDiRegisterDeviceInfo</b> must be a member of the Administr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a>
- 
-
- 
 

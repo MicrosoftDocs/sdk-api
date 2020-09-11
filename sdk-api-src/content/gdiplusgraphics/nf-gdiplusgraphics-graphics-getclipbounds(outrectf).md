@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::GetClipBounds"]
 ms.assetid: e33964c8-d643-420c-87d7-91fc561bcd1d
 ms.date: 05/13/2019
 ms.keywords: Graphics::GetClipBounds
-f1_keywords:
-- gdiplusgraphics/Graphics::GetClipBounds
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::GetClipBounds
+ - gdiplusgraphics/Graphics::GetClipBounds
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::GetClipBounds
+ - Graphics::GetClipBounds
 ---
 
 # GetClipBounds(RectF*)
+
 
 ## -description
 
@@ -119,3 +121,4 @@ VOID Example_GetClipBounds2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstgraphicspath_incombinemode)">SetClip Methods</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

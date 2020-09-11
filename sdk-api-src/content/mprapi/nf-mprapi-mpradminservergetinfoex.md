@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 19fff58d-6e13-478f-a960-de5d0702661c
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerGetInfoEx, MprAdminServerGetInfoEx function [RAS], mprapi/MprAdminServerGetInfoEx, rras.mpradminservergetinfoex
-f1_keywords:
-- mprapi/MprAdminServerGetInfoEx
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminServerGetInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminServerGetInfoEx
+ - mprapi/MprAdminServerGetInfoEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminServerGetInfoEx
 ---
 
 # MprAdminServerGetInfoEx function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminServerGetInfoEx</b> function retrieves port information about the specified RRAS server.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 A handle to the server to query. Obtain this handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
-
 
 ### -param pServerInfo [out]
 
@@ -70,10 +65,7 @@ A pointer, on output, to  a <a href="https://docs.microsoft.com/windows/desktop/
 
 To free this memory, call <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -118,15 +110,8 @@ The specified procedure could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>
 
@@ -145,7 +130,4 @@ The specified procedure could not be found.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

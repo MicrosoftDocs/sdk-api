@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: bef888a2-7cfd-4096-bd03-e1864af42365
 ms.date: 12/05/2018
 ms.keywords: LPNSPCLEANUP, NSPCleanup, NSPCleanup function [Winsock], _win32_nspcleanup_2, winsock.nspcleanup_2, ws2spi/NSPCleanup
-f1_keywords:
-- ws2spi/NSPCleanup
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPCleanup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPCLEANUP
+ - ws2spi/LPNSPCLEANUP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPCleanup
 ---
 
 ## -description
@@ -80,3 +81,4 @@ This function should not return until the namespace service provider DLL can be 
 
 * <a href="/windows/desktop/api/ws2spi/nf-ws2spi-nspstartup">NSPStartup</a>
 * <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
+

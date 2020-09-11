@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddedisconnectlist.htm
 ms.date: 12/05/2018
 ms.keywords: DdeDisconnectList, DdeDisconnectList function [Data Exchange], _win32_DdeDisconnectList, _win32_ddedisconnectlist_cpp, dataxchg.ddedisconnectlist, ddeml/DdeDisconnectList, winui._win32_ddedisconnectlist
-f1_keywords:
-- ddeml/DdeDisconnectList
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DdeDisconnectList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdeDisconnectList
+ - ddeml/DdeDisconnectList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DdeDisconnectList
 ---
 
 # DdeDisconnectList function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Destroys the specified conversation list and terminates all conversations associated with the list. 
-
+Destroys the specified conversation list and terminates all conversations associated with the list.
 
 ## -parameters
-
-
-
 
 ### -param hConvList [in]
 
 Type: <b>HCONVLIST</b>
 
-A handle to the conversation list. This handle must have been created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a> function. 
-
+A handle to the conversation list. This handle must have been created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a> function.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -75,24 +68,13 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
-
-
-
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 ## -remarks
 
-
-
-An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a> function to terminate individual conversations in the list. 
-
-
-
+An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnect">DdeDisconnect</a> function to terminate individual conversations in the list.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -115,7 +97,4 @@ An application can use the <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 <b>Reference</b>
- 
-
- 
 

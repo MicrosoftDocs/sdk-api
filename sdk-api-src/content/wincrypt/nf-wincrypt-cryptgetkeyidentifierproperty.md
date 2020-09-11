@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bc0511c1-0699-4959-afd7-a838c91c77d5
 ms.date: 12/05/2018
 ms.keywords: CRYPT_KEYID_ALLOC_FLAG, CRYPT_KEYID_MACHINE_FLAG, CryptGetKeyIdentifierProperty, CryptGetKeyIdentifierProperty function [Security], _crypto2_cryptgetkeyidentifierproperty, security.cryptgetkeyidentifierproperty, wincrypt/CryptGetKeyIdentifierProperty
-f1_keywords:
-- wincrypt/CryptGetKeyIdentifierProperty
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptGetKeyIdentifierProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetKeyIdentifierProperty
+ - wincrypt/CryptGetKeyIdentifierProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptGetKeyIdentifierProperty
 ---
 
 # CryptGetKeyIdentifierProperty function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetKeyIdentifierProperty</b> acquires a specific property from a specified key identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param pKeyIdentifier [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> that contains the key identifier.
 
-
 ### -param dwPropId [in]
 
 Identifies the property to retrieve. The value of <i>dwPropId</i> determines the type and content of the <i>pvData</i> parameter. Any certificate property ID can be used.
-
 
 ### -param dwFlags [in]
 
@@ -104,18 +98,14 @@ The <b>LocalAlloc()</b> function is called to allocate memory for <i>pvData</i>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwszComputerName [in]
 
 A pointer to the name of a remote computer to be searched. If CRYPT_KEYID_MACHINE_FLAG flag is set, searches the remote computer for a list of key identifiers. If the local computer is to be searched and not a remote computer, set <i>pwszComputerName</i> to <b>NULL</b>.
 
-
 ### -param pvReserved [in]
 
 Reserved for future use and must be <b>NULL</b>.
-
 
 ### -param pvData [out]
 
@@ -133,7 +123,6 @@ To get the size of this information for memory allocation purposes, this paramet
 
 When the CRYPT_KEYID_ALLOC_FLAG is set, <i>pvData</i> is the address of a pointer to the buffer that will be updated. Because memory is allocated and its pointer is stored at *<i>pvData</i>, <i>pvData</i> must not be <b>NULL</b>.
 
-
 ### -param pcbData [in, out]
 
 A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer pointed to by the <i>pvData</i> parameter. When the function returns, the <b>DWORD</b> contains the number of bytes stored in the buffer. The size contained in the variable pointed to by <i>pcbData</i> can indicate a size larger than the 
@@ -149,20 +138,12 @@ When the CRYPT_KEYID_ALLOC_FLAG is set, <i>pcbData</i> is the address of a point
 
 ## -returns
 
-
-
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties">CryptEnumKeyIdentifierProperties</a>
 
@@ -173,7 +154,4 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Identifier Functions</a>
- 
-
- 
 

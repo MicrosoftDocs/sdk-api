@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: ce09e6ad-10c0-4cdd-8dee-4faacd958f2b
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsValid method, IWMRegisteredDevice.IsValid, IWMRegisteredDevice::IsValid, IWMRegisteredDeviceIsValid, IsValid, IsValid method [windows Media Format], IsValid method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isvalid, wmsdkidl/IWMRegisteredDevice::IsValid
-f1_keywords:
-- wmsdkidl/IWMRegisteredDevice.IsValid
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMRegisteredDevice.IsValid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMRegisteredDevice::IsValid
+ - wmsdkidl/IWMRegisteredDevice::IsValid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMRegisteredDevice.IsValid
 ---
 
 # IWMRegisteredDevice::IsValid
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IsValid</b> method retrieves the validation status of the device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfValid [out]
 
 Address of a variable that receives the validation status of the device. <b>TRUE</b> indicates that the device is valid. <b>FALSE</b> indicates that the device is not valid and needs to be revalidated before it can be used.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To receive data, a device must be opened, validated, and approved.
 
@@ -107,16 +91,7 @@ A device is validated by performing proximity detection. For more information, s
 
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-isapproved">IsApproved</a> method to determine whether the device is approved. To approve the device, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-approve">Approve</a> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
- 
-
- 
 

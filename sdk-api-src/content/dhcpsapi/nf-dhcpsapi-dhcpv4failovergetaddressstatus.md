@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 4d8371f2-1dc5-487d-b4c0-c5a2071466b2
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetAddressStatus, DhcpV4FailoverGetAddressStatus function [DHCP], dhcp.dhcpv4failovergetaddressstatus, dhcpsapi/DhcpV4FailoverGetAddressStatus
-f1_keywords:
-- dhcpsapi/DhcpV4FailoverGetAddressStatus
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpV4FailoverGetAddressStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpV4FailoverGetAddressStatus
+ - dhcpsapi/DhcpV4FailoverGetAddressStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpV4FailoverGetAddressStatus
 ---
 
 # DhcpV4FailoverGetAddressStatus function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpV4FailoverGetAddressStatus</b> function returns the status of a IPv4 address.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in, optional]
 
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
-
 ### -param SubnetAddress [in]
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IPv4 address whose status is being requested.
-
 
 ### -param pStatus [in, out]
 
@@ -123,16 +116,10 @@ The IPv4 address is a reservation.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns one of the following or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
-
-
 

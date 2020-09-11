@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 93F2947F-3076-4109-AC6C-7BAA2D79B456
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE enumeration, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_CLONE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_COMPACT, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_DESERIALIZE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_VISUALIZATION_DECODE_FOR_TOOLS, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_CLONE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_COMPACT, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_DESERIALIZE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_VISUALIZATION_DECODE_FOR_TOOLS, direct3d12.d3d12_raytracing_acceleration_structure_copy_mode
-f1_keywords:
-- d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
+ - d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
 ---
 
 # D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE enumeration
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the type of copy operation performed when calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_CLONE
 
 Copy an acceleration structure while fixing any self-referential pointers that may be present so that the destination is a self-contained copy of the source.  Any external pointers to other acceleration structures remain unchanged from source to destination in the copy.  The size of the destination is identical to the size of the source.
 
-The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>. 
-
+The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>.
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_COMPACT
 
@@ -71,8 +66,7 @@ Produces a functionally equivalent acceleration structure to source in the desti
 
 This mode is only valid if the source acceleration structure was originally built with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_build_flags">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION</a>  flag, otherwise results are undefined.
 
-The source and destination memory for the operation must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>. 
-
+The source and destination memory for the operation must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>.
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_VISUALIZATION_DECODE_FOR_TOOLS
 
@@ -86,8 +80,7 @@ The source memory for the operation must be in state <a href="https://docs.micro
 
 The destination memory for the operation must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a>. 
 
-This mode is only permitted when developer mode is enabled in the OS.   
-
+This mode is only permitted when developer mode is enabled in the OS.
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE
 
@@ -97,8 +90,7 @@ This mode serializes an acceleration structure so that an app or tools can store
 
 The source memory for the operation must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>. 
 
-When serializing a top-level acceleration structure, the bottom-level acceleration structures it refers to do not have to still be present or intact in memory.  Likewise, bottom-level acceleration structures can be serialized independent of whether any top-level acceleration structures are pointing to them.  In other words, the order of serialization of acceleration structures doesn’t matter. 
-
+When serializing a top-level acceleration structure, the bottom-level acceleration structures it refers to do not have to still be present or intact in memory.  Likewise, bottom-level acceleration structures can be serialized independent of whether any top-level acceleration structures are pointing to them.  In other words, the order of serialization of acceleration structures doesn’t matter.
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_DESERIALIZE
 

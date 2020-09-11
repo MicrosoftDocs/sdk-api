@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 892a7a9d-f058-4c4d-870d-c0eb5773949f
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity
-f1_keywords:
-- wbemprov/IWbemEventProviderSecurity
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemEventProviderSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemEventProviderSecurity
+ - wbemprov/IWbemEventProviderSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemEventProviderSecurity
 ---
 
 # IWbemEventProviderSecurity interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemEventProviderSecurity</b> interface is optionally implemented by event providers who want to restrict consumer access to their event. For more information about when to use this interface, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>.
-
 
 ## -inheritance
 
@@ -78,15 +77,10 @@ Checks a consumer's access permission when the consumer attempts to subscribe to
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This method is automatically called by Windows Management whenever a new consumer attempts to subscribe to an event where the event provider has implemented 
 <b>IWbemEventProviderSecurity</b>. If the consumer has access permission for the event the consumer is subscribed to the event; otherwise, the subscription is denied.
-
-
 

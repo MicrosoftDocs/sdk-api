@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 0bceb9d5-11f3-40a3-ba05-be896420e1db
 ms.date: 12/05/2018
 ms.keywords: IEventTrigger interface [Task Scheduler],ValueQueries property, IEventTrigger.ValueQueries, IEventTrigger.put_ValueQueries, IEventTrigger::ValueQueries, IEventTrigger::get_ValueQueries, IEventTrigger::put_ValueQueries, ValueQueries property [Task Scheduler], ValueQueries property [Task Scheduler],IEventTrigger interface, put_ValueQueries, taskschd.ieventtrigger_valuequeries, taskschd/IEventTrigger::ValueQueries, taskschd/IEventTrigger::get_ValueQueries, taskschd/IEventTrigger::put_ValueQueries
-f1_keywords:
-- taskschd/IEventTrigger.ValueQueries
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IEventTrigger.ValueQueries
-- IEventTrigger.get_ValueQueries
-- IEventTrigger.put_ValueQueries
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventTrigger::put_ValueQueries
+ - taskschd/IEventTrigger::put_ValueQueries
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IEventTrigger.ValueQueries
+ - IEventTrigger.get_ValueQueries
+ - IEventTrigger.put_ValueQueries
 ---
 
 # IEventTrigger::put_ValueQueries
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets a collection of named XPath queries. Each query in the collection is applied to the last matching event XML returned from the subscription query specified in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_subscription">Subscription</a> property. 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The name of the query can be used as a variable in the following action properties:<ul>
 <li>
@@ -117,13 +113,7 @@ name: machine
 value: Event/UserData/MachineName</code></pre>
 For more information about writing a query string for certain events, see <a href="https://msdn.microsoft.com/library/aa385231(VS.85).aspx">Event Selection</a> and <a href="https://msdn.microsoft.com/library/aa385771(VS.85).aspx">Subscribing to Events</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger">IEventTrigger</a>
 
@@ -134,7 +124,4 @@ For more information about writing a query string for certain events, see <a hre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluepair">ITaskNamedValuePair</a>
- 
-
- 
 

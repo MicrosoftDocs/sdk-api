@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: BD11C779-78C6-4961-9DF1-2521B8F91FF5
 ms.date: 12/05/2018
 ms.keywords: IDCompositionHueRotationEffect, IDCompositionHueRotationEffect interface [DirectComposition], IDCompositionHueRotationEffect interface [DirectComposition],described, dcomp/IDCompositionHueRotationEffect, directcomp.idcompositionhuerotationeffect
-f1_keywords:
-- dcomp/IDCompositionHueRotationEffect
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionHueRotationEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionHueRotationEffect
+ - dcomp/IDCompositionHueRotationEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionHueRotationEffect
 ---
 
 # IDCompositionHueRotationEffect interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The hue rotate effect alters the hue of an image by applying a color matrix based on the rotation angle.
-        
-
 
 ## -inheritance
 
@@ -77,16 +75,9 @@ The <b>IDCompositionHueRotationEffect</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
- 
-
- 
 

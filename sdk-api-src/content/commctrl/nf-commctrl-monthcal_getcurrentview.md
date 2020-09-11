@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcurrentview.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCurrentView, MonthCal_GetCurrentView macro [Windows Controls], _shell_MonthCal_GetCurrentView, _shell_MonthCal_GetCurrentView_cpp, commctrl/MonthCal_GetCurrentView, controls.MonthCal_GetCurrentView, controls._shell_MonthCal_GetCurrentView
-f1_keywords:
-- commctrl/MonthCal_GetCurrentView
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MonthCal_GetCurrentView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonthCal_GetCurrentView
+ - commctrl/MonthCal_GetCurrentView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MonthCal_GetCurrentView
 ---
 
 # MonthCal_GetCurrentView macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the view for a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getcurrentview">MCM_GETCURRENTVIEW</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hmc
 

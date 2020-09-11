@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 8cf3fbca-0953-4dd7-aa44-3e1924cfd8b0
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecProgressNotification, IWICBitmapCodecProgressNotification interface [Windows Imaging Component], IWICBitmapCodecProgressNotification interface [Windows Imaging Component],described, _wic_codec_iwicbitmapcodecprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification, wincodec/IWICBitmapCodecProgressNotification
-f1_keywords:
-- wincodec/IWICBitmapCodecProgressNotification
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.lib
-- Windowscodecs.dll
-api_name:
-- IWICBitmapCodecProgressNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapCodecProgressNotification
+ - wincodec/IWICBitmapCodecProgressNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.lib
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapCodecProgressNotification
 ---
 
 # IWICBitmapCodecProgressNotification interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods used for progress notification for encoders and decoders.
-
 
 ## -inheritance
 
@@ -78,22 +77,13 @@ Registers a progress notification callback function.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is not supported by the Windows provided codecs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>
 
@@ -112,7 +102,4 @@ This interface is not supported by the Windows provided codecs.
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8C13F1AF-3328-40B8-B5F8-6CDF753A7FA7
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory, CItemIDFactory class [Windows Shell], CItemIDFactory class [Windows Shell],described, shell.citemidfactory, shidfact/CItemIDFactory
-f1_keywords:
-- shidfact/CItemIDFactory
-dev_langs:
-- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shidfact.h
-api_name:
-- CItemIDFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CItemIDFactory
+ - shidfact/CItemIDFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shidfact.h
+api_name:
+ - CItemIDFactory
 ---
 
 # CItemIDFactory class
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for interacting with Shell data sources.
-
 
 ## -inheritance
 
@@ -130,25 +129,13 @@ Provides the <b>CItemIDFactory</b> an <a href="https://docs.microsoft.com/window
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 it is recomended that all data sources use this as it manages an important issue of security when  dealing with IDList parsing.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>
- 
-
- 
 

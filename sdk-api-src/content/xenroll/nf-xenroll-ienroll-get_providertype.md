@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d4ab2b0e-127f-4ec0-9e4a-4314561912e3
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderType property, IEnroll.ProviderType, IEnroll.get_ProviderType, IEnroll::ProviderType, IEnroll::get_ProviderType, IEnroll::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IEnroll interface, get_ProviderType, security.ienroll4_providertype, xenroll/IEnroll::ProviderType, xenroll/IEnroll::get_ProviderType, xenroll/IEnroll::put_ProviderType
-f1_keywords:
-- xenroll/IEnroll.ProviderType
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.ProviderType
-- IEnroll.get_ProviderType
-- IEnroll.put_ProviderType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_ProviderType
+ - xenroll/IEnroll::get_ProviderType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.ProviderType
+ - IEnroll.get_ProviderType
+ - IEnroll.put_ProviderType
 ---
 
 # IEnroll::get_ProviderType
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -61,13 +61,9 @@ The value of the <b>ProviderType</b> property is passed to the
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 For general information about provider types, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>.
@@ -94,17 +90,7 @@ The <b>ProviderType</b> property affects the behavior of the following methods:
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontFaceReference1","IDWriteFontFaceReference1 int
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontFaceReference1, IDWriteFontFaceReference1 interface [Direct Write], IDWriteFontFaceReference1 interface [Direct Write],described, directwrite.idwritefontfacereference1, dwrite_3/IDWriteFontFaceReference1
-f1_keywords:
-- IDWriteFontFaceReference1
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -25,16 +21,21 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: Windows
 req.unicode-ansi: 
+f1_keywords:
+ - IDWriteFontFaceReference1
+ - dwrite_3/IDWriteFontFaceReference1
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- COM
+ - COM
 api_location:
-- Dwrite.lib
-- Dwrite.dll
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
-- IDWriteFontFaceReference1
+ - IDWriteFontFaceReference1
 ---
 
 ## -description
@@ -46,3 +47,4 @@ This interface extends [IDWriteFontFaceReference](/windows/win32/api/dwrite_3/nn
 ## -see-also
 
 [IDWriteFontFaceReference](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference)
+

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3C260634-E722-4F1D-800C-FB32308CF605
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorStream, MFCreateSensorStream function [Media Foundation], mf.mfcreatesensorstream, mfidl/MFCreateSensorStream
-f1_keywords:
-- mfidl/MFCreateSensorStream
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MFCreateSensorStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateSensorStream
+ - mfidl/MFCreateSensorStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MFCreateSensorStream
 ---
 
 # MFCreateSensorStream function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param StreamId
 
 The identifier for the created stream. This is the same as setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devicestream-stream-id">MF_DEVICESTREAM_STREAM_ID</a> attribute. This value is used if <i>pAttributes</i> is null.
 
-
 ### -param pAttributes [in, optional]
 
 The attribute store for the created stream.
-
 
 ### -param pMediaTypeCollection [in]
 
 The collection of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> objects specifying the media types supported by the stream.
 
-
 ### -param ppStream [out]
 
 The created stream interface.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -123,7 +113,4 @@ The supplied <b>LPCWSTR</b> is null.
 </td>
 </tr>
 </table>
- 
-
-
 

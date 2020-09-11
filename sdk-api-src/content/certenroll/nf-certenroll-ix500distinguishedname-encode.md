@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: da0d4479-dc58-4719-886e-5ce610764305
 ms.date: 12/05/2018
 ms.keywords: Encode, Encode method [Security], Encode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Encode method, IX500DistinguishedName.Encode, IX500DistinguishedName::Encode, certenroll/IX500DistinguishedName::Encode, security.ix500distinguishedname_encode_method
-f1_keywords:
-- certenroll/IX500DistinguishedName.Encode
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX500DistinguishedName.Encode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX500DistinguishedName::Encode
+ - certenroll/IX500DistinguishedName::Encode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX500DistinguishedName.Encode
 ---
 
 # IX500DistinguishedName::Encode
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Encode</b> method initializes the object from a string that contains a distinguished name. This method is web enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param strName [in]
 
 A <b>BSTR</b> variable that contains the string to encode.
-
 
 ### -param NameFlags [in]
 
@@ -77,8 +72,6 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenr
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -124,27 +117,12 @@ The length, in characters of the <i>strName</i> parameter cannot exceed 64 * 102
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method internally calls the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea">CertStrToName</a> function. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_name">Name</a> property to retrieve the name as a null-terminated character string. Call the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_encodedname">EncodedName</a> property to retrieve a string containing an encoded name.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a>
- 
-
- 
 

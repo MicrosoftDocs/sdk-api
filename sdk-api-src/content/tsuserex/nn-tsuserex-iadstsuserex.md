@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 7af8fe94-15db-49dc-ba4a-b79601205f59
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], IADsTSUserEx interface [Remote Desktop Services],described, termserv.iadstsuserex, tsuserex/IADsTSUserEx
-f1_keywords:
-- tsuserex/IADsTSUserEx
-dev_langs:
-- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: Tsuserex.tlb
 req.lib: 
 req.dll: Tsuserex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tsuserex.dll
-api_name:
-- IADsTSUserEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsTSUserEx
+ - tsuserex/IADsTSUserEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tsuserex.dll
+api_name:
+ - IADsTSUserEx
 ---
 
 # IADsTSUserEx interface
 
 
 ## -description
-
 
 The property methods of the <b>IADsTSUserEx</b> interface can be used to examine 
    and configure Remote Desktop Services user properties. Properties include logon, <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalserviceshomedirectory">TerminalServicesHomeDirectory</a>, remote control, session, 
@@ -73,11 +73,7 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD
 The following table lists the property methods of the <b>IADsTSUserEx</b> interface in 
     vtable order.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-interfaces">ADSI Interfaces</a>
 
@@ -100,7 +96,4 @@ The following table lists the property methods of the <b>IADsTSUserEx</b> interf
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/interface-property-methods">Interface Property Methods</a>
- 
-
- 
 

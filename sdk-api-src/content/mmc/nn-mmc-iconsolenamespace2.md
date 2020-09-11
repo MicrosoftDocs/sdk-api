@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 894f99a6-2189-458d-a50f-497930d4a9dd
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace, IConsoleNameSpace interface [MMC], IConsoleNameSpace interface [MMC],described, IConsoleNameSpace2, IConsoleNameSpace2 interface [MMC], IConsoleNameSpace2 interface [MMC],described, _slate_iconsolenamespace2, mmc.iconsolenamespace2, mmc/IConsoleNameSpace, mmc/IConsoleNameSpace2
-f1_keywords:
-- mmc/IConsoleNameSpace2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsoleNameSpace2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsoleNameSpace2
+ - mmc/IConsoleNameSpace2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsoleNameSpace2
 ---
 
 # IConsoleNameSpace2 interface
 
 
 ## -description
-
 
 The 
 <b>IConsoleNameSpace2</b> interface is introduced in MMC 1.1.
@@ -68,7 +68,6 @@ The
 </ul>The snap-in can query for a pointer to the 
 <b>IConsoleNameSpace2</b> interface during a call to its 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponentData::Initialize</a> method.
-
 
 ## -inheritance
 
@@ -166,5 +165,5 @@ Enables the snap-in to set the attributes of a single scope pane item.
 
 </td>
 </tr>
-</table> 
+</table>
 

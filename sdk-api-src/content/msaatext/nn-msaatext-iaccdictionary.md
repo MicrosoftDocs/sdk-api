@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 0d18d219-b584-43ff-bded-6ed8f00a252f
 ms.date: 12/05/2018
 ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], IAccDictionary interface [Windows Accessibility],described, msaa.iaccdictionary, msaatext/IAccDictionary, winauto.iaccdictionary
-f1_keywords:
-- msaatext/IAccDictionary
-dev_langs:
-- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msaatext.h
-api_name:
-- IAccDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccDictionary
+ - msaatext/IAccDictionary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msaatext.h
+api_name:
+ - IAccDictionary
 ---
 
 # IAccDictionary interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
 <a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods for string manipulation.
-
 
 ## -inheritance
 
@@ -117,5 +116,5 @@ Retrieves the property for a given mnemonic string.
 
 </td>
 </tr>
-</table> 
+</table>
 

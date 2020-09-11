@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2f398173-3cd6-46da-931d-057d1dccbe9b
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify method, IPrintAsyncNotifyCallback.OnEventNotify, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI],IPrintAsyncNotifyCallback interface, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
-f1_keywords:
-- prnasnot/IPrintAsyncNotifyCallback.OnEventNotify
-dev_langs:
-- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Prnasnot.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prnasnot.dll
-api_name:
-- IPrintAsyncNotifyCallback.OnEventNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintAsyncNotifyCallback::OnEventNotify
+ - prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prnasnot.dll
+api_name:
+ - IPrintAsyncNotifyCallback.OnEventNotify
 ---
 
 # IPrintAsyncNotifyCallback::OnEventNotify
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Alerts a listener that a notification is available on a specified channel. This method is called by the print system.
 
-
 ## -parameters
-
-
-
 
 ### -param pChannel [in]
 
 A pointer to the channel used by the sender and the listener.
 
-
 ### -param pData [in]
 
 A pointer to the object that contains the notification data and its size and type.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -125,23 +117,11 @@ if (FAILED(hr)) {
 
 ```
 
-
-
-
-
 ## -remarks
-
-
 
 To deliver a notification, the print spooler will call the <b>OnEventNotify</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifycallback">IPrintAsyncNotifyCallback</a> object provided by the listening application at the time it registered for notifications. For unidirectional notifications, <i>pChannel</i> is <b>NULL</b>. For bidirectional channels, <i>pChannel</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifychannel">IPrintAsyncNotifyChannel</a> to be used by a listening application to send a notification in response. The listener will do this by calling the <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">SendNotification</a> method of the <b>IPrintAsyncNotifyChannel</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
@@ -156,7 +136,4 @@ To deliver a notification, the print spooler will call the <b>OnEventNotify</b> 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
 

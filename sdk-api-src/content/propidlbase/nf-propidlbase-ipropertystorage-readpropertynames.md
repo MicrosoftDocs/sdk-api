@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 42b0bf7e-0402-425c-8a5f-09eaa16d93fe
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg], IPropertyStorage [Strctd Stg],ReadPropertyNames, IPropertyStorage interface [Structured Storage],ReadPropertyNames method, IPropertyStorage.ReadPropertyNames, IPropertyStorage::ReadPropertyNames, ReadPropertyNames, ReadPropertyNames method [Structured Storage], ReadPropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readpropertynames, propidl/IPropertyStorage::ReadPropertyNames, stg.ipropertystorage_readpropertynames
-f1_keywords:
-- propidlbase/IPropertyStorage.ReadPropertyNames
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IPropertyStorage.ReadPropertyNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyStorage::ReadPropertyNames
+ - propidlbase/IPropertyStorage::ReadPropertyNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IPropertyStorage.ReadPropertyNames
 ---
 
 # IPropertyStorage::ReadPropertyNames
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ReadPropertyNames</b> method retrieves any existing string names for the specified property IDs.
 
-
 ## -parameters
-
-
-
 
 ### -param cpropid [in]
 
 The number of elements on input of the array <i>rgpropid</i>.  The value of this parameter can be set to zero, however that defeats the purpose of this method as no property names are thereby read.
 
-
 ### -param rgpropid [in]
 
 An array of property IDs for which names are to be retrieved.
-
 
 ### -param rglpwstrName [in, out]
 
@@ -75,32 +69,18 @@ A caller-allocated array of size <i>cpropid</i> of <b>LPWSTR</b> members. On ret
 Each <b>LPWSTR</b> member of the array should be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
-
 ## -returns
-
-
 
 This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
-
-
-
 ## -remarks
-
-
 
 For each property ID in the list of property IDs supplied in the <i>rgpropid</i> array, <b>ReadPropertyNames</b> retrieves the corresponding string name, if there is one. String names are created either by specifying the names in calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">IPropertyStorage::WriteMultiple</a> when creating the property, or through a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">IPropertyStorage::WritePropertyNames</a>. In either case, the string name is optional, however all properties must have a property ID.
 
 String names mapped to property IDs must be unique within the set.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
@@ -111,7 +91,4 @@ String names mapped to property IDs must be unique within the set.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">IPropertyStorage::WritePropertyNames</a>
- 
-
- 
 

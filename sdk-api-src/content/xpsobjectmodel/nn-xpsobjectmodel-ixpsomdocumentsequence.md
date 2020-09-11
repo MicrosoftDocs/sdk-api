@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 472095a4-ecd8-406a-97c2-1a34b4e5184a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentSequence, IXpsOMDocumentSequence interface [XPS Documents and Packaging], IXpsOMDocumentSequence interface [XPS Documents and Packaging],described, xps.ixpsomdocumentsequence, xpsobjectmodel/IXpsOMDocumentSequence
-f1_keywords:
-- xpsobjectmodel/IXpsOMDocumentSequence
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMDocumentSequence
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMDocumentSequence
+ - xpsobjectmodel/IXpsOMDocumentSequence
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMDocumentSequence
 ---
 
 # IXpsOMDocumentSequence interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The root object that has the XPS document content.
-
 
 ## -inheritance
 
@@ -107,12 +106,9 @@ Sets the job-level print ticket resource for the document sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -158,14 +154,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createdocumentsequence">IXpsOMObjectFactory::CreateDocumentSequence</a>
 
@@ -180,7 +169,4 @@ else
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

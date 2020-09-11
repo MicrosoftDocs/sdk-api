@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: d1a71976-2825-48d2-812c-fd2336cd4c1d
 ms.date: 12/05/2018
 ms.keywords: IInkDivisionResult, IInkDivisionResult interface [Tablet PC], IInkDivisionResult interface [Tablet PC],described, d1a71976-2825-48d2-812c-fd2336cd4c1d, msinkaut15/IInkDivisionResult, tablet.iinkdivisionresult
-f1_keywords:
-- msinkaut15/IInkDivisionResult
-dev_langs:
-- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Inkdiv.dll
-- Inkdiv.dll.dll
-api_name:
-- IInkDivisionResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDivisionResult
+ - msinkaut15/IInkDivisionResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Inkdiv.dll
+ - Inkdiv.dll.dll
+api_name:
+ - IInkDivisionResult
 ---
 
 # IInkDivisionResult interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Represents the layout analysis of the collection of strokes contained by the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
-
-
-
 
 ## -inheritance
 
@@ -106,12 +102,9 @@ Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/l
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IInkDivisionResult</b> object is the result of calling the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-divide">Divide</a> method of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object. Each <b>IInkDivisionResult</b> represents a snapshot of the layout analysis of the collection of strokes contained by the <b>InkDivider</b>.
 
@@ -119,13 +112,7 @@ The analysis results can be divided into a collection of structural units by cal
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits Interface</a>
 
@@ -140,7 +127,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype">ResultByType Method</a>
- 
-
- 
 

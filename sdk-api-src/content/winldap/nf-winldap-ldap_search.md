@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: fe0d782b-8faf-4666-a952-e2bfd33f6d67
 ms.date: 12/05/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search, ldap.ldap__search, ldap.ldap_search, ldap_search, ldap_search function [LDAP], ldap_searchA, ldap_searchW, winldap/ldap_search, winldap/ldap_searchA, winldap/ldap_searchW
-f1_keywords:
-- winldap/ldap_search
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_search
-- ldap_searchA
-- ldap_searchW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_search
+ - winldap/ldap_search
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_search
+ - ldap_searchA
+ - ldap_searchW
 ---
 
 # ldap_search function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_search</b> function searches the LDAP directory and returns a requested set of attributes for each matched entry.
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 A session handle.
 
-
 ### -param base [in]
 
 A pointer to a null-terminated string that contains the distinguished name of the entry at which to start the search.
-
 
 ### -param scope [in]
 
@@ -92,37 +86,26 @@ Search all entries in the first level below the base entry, excluding the base e
 
 Search the base entry and all entries in the tree below the base.
 
-
 ### -param filter [in]
 
 A pointer to a null-terminated string that specifies the search filter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/search-filter-syntax">Search Filter Syntax</a>.
 
-
 ### -param attrs [in]
 
 A null-terminated array of null-terminated strings that indicate which attributes to return for each matching entry. Pass <b>NULL</b> to retrieve available attributes.
-
 
 ### -param attrsonly [in]
 
 Boolean value that should be zero if both attribute types and values are to be returned, nonzero if only types are required.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns the message ID of the search operation.
 
 If the function fails, it returns –1 and sets the session error parameters in the LDAP data structure.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ldap_search</b> function initiates an asynchronous search operation.
 
@@ -147,12 +130,7 @@ Multithreading: Calls to <b>ldap_search</b> are thread-safe, provided that
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a> routines, before attempting other operations.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
@@ -187,7 +165,4 @@ Multithreading: Calls to <b>ldap_search</b> are thread-safe, provided that
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
- 
-
- 
 

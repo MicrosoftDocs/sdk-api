@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 6B435A29-2825-4FFD-8E05-2FE94E75A531
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestReader5, IAppxManifestReader5 interface [App packaging and management], IAppxManifestReader5 interface [App packaging and management],described, appxpackaging/IAppxManifestReader5, appxpkg.iappxmanifestreader5
-f1_keywords:
-- appxpackaging/IAppxManifestReader5
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestReader5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestReader5
+ - appxpackaging/IAppxManifestReader5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestReader5
 ---
 
 # IAppxManifestReader5 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Gets a main package dependencies enumerator.
 
 </td>
 </tr>
-</table> 
+</table>
 

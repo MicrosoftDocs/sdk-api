@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1db28e46-e5e0-4d99-b9a8-80c3f1534ca6
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER structure [Failover Cluster], PCLUSPROP_ULARGE_INTEGER, PCLUSPROP_ULARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_ularge_integer, clusapi/CLUSPROP_ULARGE_INTEGER, clusapi/PCLUSPROP_ULARGE_INTEGER, mscs.clusprop_ularge_integer'
-f1_keywords:
-- clusapi/CLUSPROP_ULARGE_INTEGER
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_ULARGE_INTEGER
 targetos: Windows
 req.typenames: CLUSPROP_ULARGE_INTEGER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_ULARGE_INTEGER
+ - clusapi/CLUSPROP_ULARGE_INTEGER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_ULARGE_INTEGER
 ---
 
 # CLUSPROP_ULARGE_INTEGER structure
 
 
 ## -description
-
 
 Describes an unsigned large integer. It is used as an entry in a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
@@ -60,25 +60,17 @@ Describes an unsigned large integer. It is used as an entry in a
 
 ## -struct-fields
 
-
-
-
 ### -field li
 
 Unsigned large integer value.
 
-
 ### -field CLUSPROP_VALUE
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_LIST_VALUE_ULARGE_INTEGER</b> (0x00010006) and a <b>cbLength</b> field indicating 
-       the count of bytes in the <b>li</b> member. 
-
+       the count of bytes in the <b>li</b> member.
 
 ## -remarks
-
-
 
 Use caution when referencing large integer values in <b>DWORD</b>-aligned structures such 
      as value lists, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property lists</a>, and 
@@ -89,13 +81,7 @@ Use caution when referencing large integer values in <b>DWORD</b>-aligned struct
      alignment faults by separately copying the high and low <b>DWORD</b> parts of large values 
      into local variables, which are guaranteed to be naturally aligned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
@@ -106,7 +92,4 @@ Use caution when referencing large integer values in <b>DWORD</b>-aligned struct
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
 

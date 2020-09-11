@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1yud.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SendCoverpage property, IFaxDoc.SendCoverpage, IFaxDoc.get_SendCoverpage, IFaxDoc::SendCoverpage, IFaxDoc::get_SendCoverpage, IFaxDoc::put_SendCoverpage, SendCoverpage property [Fax Service], SendCoverpage property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendcoverpage_cpp, faxcom/IFaxDoc::SendCoverpage, faxcom/IFaxDoc::get_SendCoverpage, faxcom/IFaxDoc::put_SendCoverpage, get_SendCoverpage
-f1_keywords:
-- faxcom/IFaxDoc.SendCoverpage
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxDoc.SendCoverpage
-- IFaxDoc.get_SendCoverpage
-- IFaxDoc.put_SendCoverpage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDoc::get_SendCoverpage
+ - faxcom/IFaxDoc::get_SendCoverpage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxDoc.SendCoverpage
+ - IFaxDoc.get_SendCoverpage
+ - IFaxDoc.put_SendCoverpage
 ---
 
 # IFaxDoc::get_SendCoverpage
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves the <b>SendCoverpage</b> property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The <b>SendCoverpage</b> property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 To send a cover page with a fax document, the following are required:
 		        
@@ -79,13 +75,7 @@ The <b>IFaxDoc::get_SendCoverpage</b> method allocates the memory required for t
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-cover-pages">Cover Pages</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-cover-page">Sending a Cover Page</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -108,7 +98,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
 

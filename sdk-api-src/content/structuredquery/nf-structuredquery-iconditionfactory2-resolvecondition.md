@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\resolvecondition.htm
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory2 interface [search],ResolveCondition method, IConditionFactory2.ResolveCondition, IConditionFactory2::ResolveCondition, ResolveCondition, ResolveCondition method [search], ResolveCondition method [search],IConditionFactory2 interface, _search_IConditionFactory2_ResolveCondition, search._search_IConditionFactory2_ResolveCondition, structuredquery/IConditionFactory2::ResolveCondition
-f1_keywords:
-- structuredquery/IConditionFactory2.ResolveCondition
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- IConditionFactory2.ResolveCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConditionFactory2::ResolveCondition
+ - structuredquery/IConditionFactory2::ResolveCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - IConditionFactory2.ResolveCondition
 ---
 
 # IConditionFactory2::ResolveCondition
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a variety of transformations on a condition tree, and thereby the resolved condition for evaluation. The returned object supports <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pc [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> object to be resolved.
 
-
 ### -param sqro [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_resolve_option">STRUCTURED_QUERY_RESOLVE_OPTION</a></b>
 
 Specifies zero or more of the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_resolve_option">STRUCTURED_QUERY_RESOLVE_OPTION</a> flags. The <i>SQRO_NULL_VALUE_TYPE_FOR_PLAIN_VALUES</i> flag is automatically added to <i>sqro</i>.
-
 
 ### -param pstReferenceTime [in, optional]
 
@@ -78,13 +72,11 @@ Type: <b>SYSTEMTIME const*</b>
 
 Pointer to a <b>SYSTEMTIME</b> value to use as the reference date and time. A null pointer can be passed if <i>sqro</i> is set to the <i>SQRO_DONT_RESOLVE_DATETIME</i> flag.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 The desired IID of the  enumerating interface: either <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>, or (for a negation condition) IID_ICondition.
-
 
 ### -param ppv [out]
 
@@ -92,33 +84,19 @@ Type: <b>void**</b>
 
 Receives a pointer to zero or more <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a> objects.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 Refer to the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-resolve">Resolve</a> method for additional detail.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
 
@@ -149,7 +127,4 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/api/structuredq
 
 
 <b>Reference</b>
- 
-
- 
 

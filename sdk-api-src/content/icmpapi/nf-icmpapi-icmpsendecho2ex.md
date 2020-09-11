@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 7b2b2cae-650f-4ecb-aa2e-a55ee4026999
 ms.date: 12/05/2018
 ms.keywords: IcmpSendEcho2Ex, IcmpSendEcho2Ex function [IP Helper], icmpapi/IcmpSendEcho2Ex, iphlp.icmpsendecho2ex
-f1_keywords:
-- icmpapi/IcmpSendEcho2Ex
-dev_langs:
-- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- IcmpSendEcho2Ex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IcmpSendEcho2Ex
+ - icmpapi/IcmpSendEcho2Ex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - IcmpSendEcho2Ex
 ---
 
 # IcmpSendEcho2Ex function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IcmpSendEcho2Ex</b> function sends an IPv4 ICMP echo request and returns either immediately (if <i>Event</i> or <i>ApcRoutine</i> is non-<b>NULL</b>) or returns after the specified time-out. The <i>ReplyBuffer</i> contains the ICMP responses, if any.
 
-
 ## -parameters
-
-
-
 
 ### -param IcmpHandle [in]
 
 An open handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpcreatefile">ICMPCreateFile</a> function.
-
 
 ### -param Event [in, optional]
 
@@ -71,43 +66,35 @@ An event to be signaled whenever an ICMP response arrives. If this parameter is 
 
 For more information on using events, see <a href="https://docs.microsoft.com/windows/desktop/Sync/event-objects">Event Objects</a>.
 
-
 ### -param ApcRoutine [in, optional]
 
-The routine that is called when the calling thread is in an alertable thread and  an ICMP reply arrives. <b>PIO_APC_ROUTINE_DEFINED</b> must be defined to force the datatype for this parameter to <b>PIO_APC_ROUTINE</b> rather than <b>FARPROC</b>. 
-
+The routine that is called when the calling thread is in an alertable thread and  an ICMP reply arrives. <b>PIO_APC_ROUTINE_DEFINED</b> must be defined to force the datatype for this parameter to <b>PIO_APC_ROUTINE</b> rather than <b>FARPROC</b>.
 
 ### -param ApcContext [in, optional]
 
-An optional parameter passed to the callback routine specified in the  <i>ApcRoutine</i> parameter whenever an ICMP response arrives or an error occurs. 
-
+An optional parameter passed to the callback routine specified in the  <i>ApcRoutine</i> parameter whenever an ICMP response arrives or an error occurs.
 
 ### -param SourceAddress [in]
 
 The IPv4 source address on which to issue the echo request. This address is in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
 
-
 ### -param DestinationAddress [in]
 
 The IPv4 destination address for the echo request. This address is in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
-
 
 ### -param RequestData [in]
 
 A pointer to a buffer that contains data to send in the request.
 
-
 ### -param RequestSize [in]
 
 The size, in bytes, of the request data buffer pointed to by the <i>RequestData</i> parameter.
-
 
 ### -param RequestOptions [in, optional]
 
 A pointer to the IP header options for the request, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_option_information">IP_OPTION_INFORMATION</a> structure. On a 64-bit platform, this parameter is in the form for an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_option_information32">IP_OPTION_INFORMATION32</a> structure.
 
 This parameter may be <b>NULL</b> if no IP header options need to be specified.
-
 
 ### -param ReplyBuffer [out]
 
@@ -117,8 +104,6 @@ A pointer to a buffer to hold any replies to the request. Upon return, the buffe
 
 This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message) plus space for an <b>IO_STATUS_BLOCK</b> structure.
 
-
-
 ### -param ReplySize [in]
 
 The allocated size, in bytes,  of the reply buffer. The buffer should be large enough to hold at least one 
@@ -126,16 +111,11 @@ The allocated size, in bytes,  of the reply buffer. The buffer should be large e
 
 This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message) plus space for an <b>IO_STATUS_BLOCK</b> structure.
 
-
-
 ### -param Timeout [in]
 
-The time, in milliseconds, to wait for replies. 
-
+The time, in milliseconds, to wait for replies.
 
 ## -returns
-
-
 
 When called synchronously, the <b>IcmpSendEcho2Ex</b> function returns the number of replies received and stored in <i>ReplyBuffer</i>. If the return value is zero, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
@@ -221,14 +201,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>IcmpSendEcho2Ex</b> function is available on Windows Server 2008 and later. 
 
@@ -312,13 +286,7 @@ For IPv6, use the <a href="https://docs.microsoft.com/windows/desktop/api/icmpap
 
 Note that the include directive for <i>Iphlpapi.h</i> header file must be placed before the <i>Icmpapi.h</i> header file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
@@ -377,7 +345,4 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2">IcmpSendEcho2</a>
- 
-
- 
 

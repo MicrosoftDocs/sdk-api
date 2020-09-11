@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 80fb8fe7-0f8f-497c-a046-82f19d6469d8
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get__NewEnum method, ISecurityCallersColl.get__NewEnum, ISecurityCallersColl::get__NewEnum, _cos_ISecurityCallersColl_get__NewEnum, comsvcs/ISecurityCallersColl::get__NewEnum, cos.isecuritycallerscoll_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityCallersColl interface
-f1_keywords:
-- comsvcs/ISecurityCallersColl.get__NewEnum
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISecurityCallersColl.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityCallersColl::get__NewEnum
+ - comsvcs/ISecurityCallersColl::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISecurityCallersColl.get__NewEnum
 ---
 
 # ISecurityCallersColl::get__NewEnum
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an enumerator for the security callers collection.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 A reference to the returned <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallerscoll">ISecurityCallersColl</a>
- 
-
- 
 

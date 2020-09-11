@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 72d84752-4e64-4c16-872b-cb892dffbf9a
 ms.date: 12/05/2018
 ms.keywords: WNetGetConnection, WNetGetConnection function [Windows Networking (WNet)], WNetGetConnectionA, WNetGetConnectionW, _win32_wnetgetconnection, winnetwk/WNetGetConnection, winnetwk/WNetGetConnectionA, winnetwk/WNetGetConnectionW, wnet.wnetgetconnection
-f1_keywords:
-- winnetwk/WNetGetConnection
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetGetConnection
-- WNetGetConnectionA
-- WNetGetConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetGetConnectionW
+ - winnetwk/WNetGetConnectionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetConnection
+ - WNetGetConnectionA
+ - WNetGetConnectionW
 ---
 
 # WNetGetConnectionW function
@@ -51,34 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetGetConnection</b> function retrieves the name of the network resource associated with a local device.
 
-
 ## -parameters
-
-
-
 
 ### -param lpLocalName [in]
 
 Pointer to a constant null-terminated string that specifies the name of the local device to get the network name for.
 
-
 ### -param lpRemoteName [out]
 
 Pointer to a null-terminated  string  that receives the remote name used to make the connection.
-
 
 ### -param lpnLength [in, out]
 
 Pointer to a variable that specifies the size of the buffer pointed to by the <i>lpRemoteName</i> parameter, in characters. If the function fails because the buffer is not large enough, this parameter returns the required buffer size.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -169,14 +160,8 @@ None of the providers recognize the local name as having a connection. However, 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the network connection was made using the Microsoft LAN Manager network, and the calling application is running in a different logon session than the application that made the connection, a call to the 
 <b>WNetGetConnection</b> function for the associated local device will fail. The function fails with ERROR_NOT_CONNECTED or ERROR_CONNECTION_UNAVAIL. This is because a connection made using Microsoft LAN Manager is visible only to applications running in the same logon session as the application that made the connection. (To prevent the call to 
@@ -205,9 +190,6 @@ For a code sample that illustrates how to use the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
 
 
@@ -227,7 +209,4 @@ For a code sample that illustrates how to use the
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

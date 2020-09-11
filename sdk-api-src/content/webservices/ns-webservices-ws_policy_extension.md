@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 85a3fa35-b574-4091-9ef2-486ac751ef82
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_EXTENSION, WS_POLICY_EXTENSION structure [Web Services for Windows], webservices/WS_POLICY_EXTENSION, wsw.ws_policy_extension
-f1_keywords:
-- webservices/WS_POLICY_EXTENSION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_POLICY_EXTENSION
 targetos: Windows
 req.typenames: WS_POLICY_EXTENSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_POLICY_EXTENSION
+ - webservices/_WS_POLICY_EXTENSION
+ - WS_POLICY_EXTENSION
+ - webservices/WS_POLICY_EXTENSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_POLICY_EXTENSION
 ---
 
 # WS_POLICY_EXTENSION structure
@@ -49,19 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The base class for all policy extension structures. Policy extensions 
               are assertions that are directly handled by applications such as custom assertions.
-          
-
 
 ## -struct-fields
-
-
-
 
 ### -field type
 
 This value depends on which type of policy extension that is used.
-              
 

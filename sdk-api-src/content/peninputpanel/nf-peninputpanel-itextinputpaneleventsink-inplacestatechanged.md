@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2
 ms.date: 12/05/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanged method, ITextInputPanelEventSink.InPlaceStateChanged, ITextInputPanelEventSink::InPlaceStateChanged, InPlaceStateChanged, InPlaceStateChanged method [Tablet PC], InPlaceStateChanged method [Tablet PC],ITextInputPanelEventSink interface, bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanged, tablet.itextinputpaneleventsink_inplacestatechanged
-f1_keywords:
-- peninputpanel/ITextInputPanelEventSink.InPlaceStateChanged
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanelEventSink.InPlaceStateChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanelEventSink::InPlaceStateChanged
+ - peninputpanel/ITextInputPanelEventSink::InPlaceStateChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanelEventSink.InPlaceStateChanged
 ---
 
 # ITextInputPanelEventSink::InPlaceStateChanged
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Occurs when the In-Place state has changed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param oldInPlaceState [in]
 
 The current state, as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
-
 ### -param newInPlaceState [in]
 
 The new state that the Input Panel has changed to, as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -105,15 +94,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
@@ -124,7 +106,4 @@ An unspecified error occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanging">ITextInputPanelEventSink::InPlaceStateChanging Method</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 5da66dc2-825d-4332-b1cb-2b9d0fabb445
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate, IComponentAuthenticate interface [windows Media Device Manager], IComponentAuthenticate interface [windows Media Device Manager],described, IComponentAuthenticateInterface, mswmdm/IComponentAuthenticate, wmdm.icomponentauthenticate
-f1_keywords:
-- mswmdm/IComponentAuthenticate
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IComponentAuthenticate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentAuthenticate
+ - mswmdm/IComponentAuthenticate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IComponentAuthenticate
 ---
 
 # IComponentAuthenticate interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IComponentAuthenticate</b> interface provides secure, encrypted communication between modules of Windows Media Device Manager. It is implemented by a service provider and created and used by an application or plug-in. To get this interface, the application calls <b>CoCreateInstance</b> (__uuidof(MediaDevMgr)).
 
 The application creates and passes this interface to <a href="https://docs.microsoft.com/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a>, but never calls any methods on this interface.
 
 The service provider implements the methods in this interface, and calls them on a private <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
-
-
-
 
 ## -inheritance
 
@@ -93,13 +89,9 @@ Discovers the authentication protocols supported by another component.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
@@ -114,7 +106,4 @@ Discovers the authentication protocols supported by another component.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
- 
-
- 
 

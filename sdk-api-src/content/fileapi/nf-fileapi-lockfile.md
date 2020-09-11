@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: c88e7b6c-c339-443b-adf9-0325807203dc
 ms.date: 12/05/2018
 ms.keywords: LockFile, LockFile function [Files], _win32_lockfile, base.lockfile, fileapi/LockFile, fs.lockfile, winbase/LockFile
-f1_keywords:
-- fileapi/LockFile
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- LockFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LockFile
+ - fileapi/LockFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - LockFile
 ---
 
 # LockFile function
@@ -56,59 +57,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks the specified file  for exclusive access  by the calling process.
 
 To specify additional options, for example creating a shared lock or for block-on-fail operation, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file. The file handle must have been created with the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param dwFileOffsetLow [in]
 
 The low-order 32 bits of the starting byte offset in the file where the lock should begin.
-
 
 ### -param dwFileOffsetHigh [in]
 
 The high-order 32 bits of the starting byte offset in the file where the lock should begin.
 
-
 ### -param nNumberOfBytesToLockLow [in]
 
 The low-order 32 bits of the length of the byte range to be locked.
-
 
 ### -param nNumberOfBytesToLockHigh [in]
 
 The high-order 32 bits of the length of the byte range to be locked.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the call to <b>LockFile</b> completes synchronously, a completion entry may not be queued when a completion port is associated with the file handle.
 
@@ -198,12 +182,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -218,7 +197,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>
- 
-
- 
 

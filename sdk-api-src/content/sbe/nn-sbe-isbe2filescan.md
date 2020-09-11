@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 95d59004-b182-42b8-b05e-920bfc5ea6a0
 ms.date: 12/05/2018
 ms.keywords: ISBE2FileScan, ISBE2FileScan interface [Microsoft TV Technologies], ISBE2FileScan interface [Microsoft TV Technologies],described, mstv.isbe2filescan, sbe/ISBE2FileScan
-f1_keywords:
-- sbe/ISBE2FileScan
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.dll
-api_name:
-- ISBE2FileScan
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2FileScan
+ - sbe/ISBE2FileScan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.dll
+api_name:
+ - ISBE2FileScan
 ---
 
 # ISBE2FileScan interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Repairs a corrupted .WTV file.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/filescan-object">FileScan</a> object implements this interface.
-
 
 ## -inheritance
 
@@ -79,14 +78,9 @@ Repairs a corrupted .WTV file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ISBE2FileScan)</code>.
-
-
 

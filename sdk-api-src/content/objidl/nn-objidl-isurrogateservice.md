@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 01773aa6-3eb5-43dd-8a10-d1351a07fe1f
 ms.date: 12/05/2018
 ms.keywords: ISurrogateService, ISurrogateService interface [COM], ISurrogateService interface [COM],described, _com_isurrogateservice, com.isurrogateservice, objidl/ISurrogateService
-f1_keywords:
-- objidl/ISurrogateService
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- ISurrogateService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISurrogateService
+ - objidl/ISurrogateService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - ISurrogateService
 ---
 
 # ISurrogateService interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Use of ISurrogateService is not recommended; use <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a> instead.]
 
 Used to initialize, launch, and release a COM+ application. You can also refresh the catalog and shut down the process.
-
 
 ## -inheritance
 
@@ -115,16 +114,9 @@ Shuts down the process.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a>
- 
-
- 
 

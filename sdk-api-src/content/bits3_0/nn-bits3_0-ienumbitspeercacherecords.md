@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 680c1468-d780-44a3-9048-c7c3928234f9
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS],described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
-f1_keywords:
-- bits3_0/IEnumBitsPeerCacheRecords
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IEnumBitsPeerCacheRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBitsPeerCacheRecords
+ - bits3_0/IEnumBitsPeerCacheRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IEnumBitsPeerCacheRecords
 ---
 
 # IEnumBitsPeerCacheRecords interface
 
 
 ## -description
-
 
 Use <b>IEnumBitsPeerCacheRecords</b> to enumerate the records of the cache. 
 
@@ -117,5 +117,5 @@ Skips a specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

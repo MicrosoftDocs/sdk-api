@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: aebe06d8-c764-4d2d-9bd2-58fd9e3714bd
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetFlags method, IPhotoAcquireSettings.SetFlags, IPhotoAcquireSettings::SetFlags, IPhotoAcquireSettingsSetFlags, SetFlags, SetFlags method [Picture Acquisition], SetFlags method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetFlags, picacq.iphotoacquiresettings_setflags
-f1_keywords:
-- photoacquire/IPhotoAcquireSettings.SetFlags
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireSettings.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireSettings::SetFlags
+ - photoacquire/IPhotoAcquireSettings::SetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireSettings.SetFlags
 ---
 
 # IPhotoAcquireSettings::SetFlags
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetFlags</code> method sets the photo acquire flags.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwPhotoAcquireFlags [in]
 
 Double word value containing the photo acquire flags.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,22 +80,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getflags">GetFlags</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
- 
-
- 
 

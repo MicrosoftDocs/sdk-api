@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 234bed82-a148-4313-a8cb-eefe2061b7ed
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetOutputByteStream method, IMFTranscodeSinkInfoProvider.SetOutputByteStream, IMFTranscodeSinkInfoProvider::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setoutputbytestream, mfidl/IMFTranscodeSinkInfoProvider::SetOutputByteStream
-f1_keywords:
-- mfidl/IMFTranscodeSinkInfoProvider.SetOutputByteStream
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFTranscodeSinkInfoProvider.SetOutputByteStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTranscodeSinkInfoProvider::SetOutputByteStream
+ - mfidl/IMFTranscodeSinkInfoProvider::SetOutputByteStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFTranscodeSinkInfoProvider.SetOutputByteStream
 ---
 
 # IMFTranscodeSinkInfoProvider::SetOutputByteStream
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets an output byte stream for the transcode media sink.
-
 
 ## -parameters
 
-
-
-
 ### -param pByteStreamActivate [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of a byte-stream activation object. 
-
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of a byte-stream activation object.
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Call this method to provide a writeable byte stream 
         that will receive the transcoded data.
@@ -88,16 +76,7 @@ The <i>pByteStreamActivate</i> parameter must specify an activation object that 
 HRESULT hr = pByteStreamActivate-&gt;ActivateObject(IID_IMFByteStream, (void**)&amp;pByteStream);</code></pre>
 Currently, Microsoft Media Foundation does not provide any byte-stream activation objects. To use this method, an application must provide a custom implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a>
- 
-
- 
 

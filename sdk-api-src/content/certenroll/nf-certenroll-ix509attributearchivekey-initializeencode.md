@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 44865c22-0eca-4781-962c-a10698a435f4
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeEncode method, IX509AttributeArchiveKey.InitializeEncode, IX509AttributeArchiveKey::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeEncode, security.ix509attributearchivekey_initializeencode_method
-f1_keywords:
-- certenroll/IX509AttributeArchiveKey.InitializeEncode
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509AttributeArchiveKey.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509AttributeArchiveKey::InitializeEncode
+ - certenroll/IX509AttributeArchiveKey::InitializeEncode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509AttributeArchiveKey.InitializeEncode
 ---
 
 # IX509AttributeArchiveKey::InitializeEncode
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeEncode</b> method initializes the attribute from an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> encryption certificate, and the symmetric encryption algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
-
 ## -parameters
-
-
-
 
 ### -param pKey [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface that represents the key.
 
-
 ### -param Encoding [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to the input string that contains the encrypted key.
-
 
 ### -param strCAXCert [in]
 
@@ -85,26 +79,17 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the OID of the symmetric encryption algorithm used to encrypt the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. This parameter is optional. If you do not supply an OID, XCN_OID_RSA_DES_EDE3_CBC (Triple DES) is used.
 
-
 ### -param EncryptionStrength [in]
 
 A <b>LONG</b> variable that contains the encryption strength of the algorithm identified by the <i>pAlgorithm</i> parameter. This parameter is not currently used because the Certificate Enrollment SDK does not support any algorithms for which the OID does not already imply the strength (key length). For example, AES has multiple strengths but strength each is already indicated by the OID.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The object identifier for this attribute is <b>XCN_OID_ARCHIVED_KEY_ATTR</b> (1.3.6.1.4.1.311.21.13). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_objectid">CERTENROLL_OBJECTID</a>.
 
@@ -120,17 +105,7 @@ You must call either <b>InitializeEncode</b> or <a href="https://docs.microsoft.
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekey">IX509AttributeArchiveKey</a>
- 
-
- 
 

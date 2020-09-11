@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 4a2ab828-1eb8-4aae-bebd-dc8b406fd58f
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLockGranted method, ITextStoreAnchorSink.OnLockGranted, ITextStoreAnchorSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreAnchorSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreanchorsink_onlockgranted_ref, textstor/ITextStoreAnchorSink::OnLockGranted, tsf.itextstoreanchorsink_onlockgranted
-f1_keywords:
-- textstor/ITextStoreAnchorSink.OnLockGranted
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchorSink.OnLockGranted
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchorSink::OnLockGranted
+ - textstor/ITextStoreAnchorSink::OnLockGranted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchorSink.OnLockGranted
 ---
 
 # ITextStoreAnchorSink::OnLockGranted
@@ -52,9 +53,6 @@ ms.custom: 19H1
 Called to grant a document lock.
 
 ## -parameters
-
-
-
 
 ### -param dwLockFlags [in]
 
@@ -86,12 +84,8 @@ The lock is read/write.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,14 +128,8 @@ The wrong type of lock was granted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A document lock is requested by calling <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock</a>. The application grants the lock request by calling <b>ITextStoreAnchorSink::OnLockGranted</b> with the requested lock type. The lock is only valid during the <b>OnLockGranted</b> call. When <b>OnLockGranted</b> returns, the document is considered unlocked.
 
@@ -153,13 +141,7 @@ Applications must not call any of the <a href="https://docs.microsoft.com/window
 
 If a synchronous lock request is made from within <b>ITextStoreAnchor::RequestLock</b>, then the caller must also provide the return value from <b>ITextStoreAnchor::RequestLock</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
 
@@ -177,7 +159,4 @@ If a synchronous lock request is made from within <b>ITextStoreAnchor::RequestLo
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-lf--constants">TS_LF_* Constants
       </a>
- 
-
- 
 

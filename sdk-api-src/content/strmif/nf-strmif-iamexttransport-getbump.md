@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 340b7c9a-cfd9-4915-b0fc-0d12d7663578
 ms.date: 12/05/2018
 ms.keywords: GetBump, GetBump method [DirectShow], GetBump method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetBump method, IAMExtTransport.GetBump, IAMExtTransport::GetBump, IAMExtTransportGetBump, dshow.iamexttransport_getbump, strmif/IAMExtTransport::GetBump
-f1_keywords:
-- strmif/IAMExtTransport.GetBump
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.GetBump
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::GetBump
+ - strmif/IAMExtTransport::GetBump
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.GetBump
 ---
 
 # IAMExtTransport::GetBump
@@ -50,42 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetBump</code> method retrieves the status of bump mode.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param pSpeed [out]
 
 Pointer to a <b>long</b> integer that receives the temporary bump speed, as a multiple of normal speed.
 
-
 ### -param pDuration [out]
 
 Pointer to a <b>long</b> integer that receives the duration of a bump. The duration is given in the current time format; see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportbasicparameters">IAMExtTransport::SetTransportBasicParameters</a> for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method returns the temporary speed and remaining duration for an active "bump."
 
@@ -93,13 +79,7 @@ This method returns the temporary speed and remaining duration for an active "bu
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -110,7 +90,4 @@ This method returns the temporary speed and remaining duration for an active "bu
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-setbump">IAMExtTransport::SetBump</a>
- 
-
- 
 

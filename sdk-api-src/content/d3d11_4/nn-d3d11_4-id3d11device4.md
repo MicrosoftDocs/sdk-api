@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: C4971129-C879-470A-ACD7-910D9F522E8C
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device4, ID3D11Device4 interface [Direct3D 11], ID3D11Device4 interface [Direct3D 11],described, d3d11_4/ID3D11Device4, direct3d11.id3d11device4
-f1_keywords:
-- d3d11_4/ID3D11Device4
-dev_langs:
-- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.lib
-- d3d11.dll
-api_name:
-- ID3D11Device4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device4
+ - d3d11_4/ID3D11Device4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.lib
+ - d3d11.dll
+api_name:
+ - ID3D11Device4
 ---
 
 # ID3D11Device4 interface
@@ -50,12 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The device interface represents a virtual adapter; it is used to create resources. 
           <b>ID3D11Device4</b> adds new methods to those in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>, 
           such as <b>RegisterDeviceRemovedEvent</b> and <b>UnregisterDeviceRemoved</b>.
-        
-
 
 ## -inheritance
 
@@ -92,20 +90,13 @@ Unregisters the "device removed" event.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
- 
-
- 
 

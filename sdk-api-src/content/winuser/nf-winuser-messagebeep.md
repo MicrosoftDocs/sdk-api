@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 70681472-36a5-4ae3-b769-0421cf97ff2a
 ms.date: 12/05/2018
 ms.keywords: MessageBeep, MessageBeep function, _win32_messagebeep, base.messagebeep, winuser/MessageBeep
-f1_keywords:
-- winuser/MessageBeep
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- MessageBeep
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MessageBeep
+ - winuser/MessageBeep
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - MessageBeep
 ---
 
 # MessageBeep function
@@ -56,15 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the 
     registry.
 
-
 ## -parameters
-
-
-
 
 ### -param uType [in]
 
@@ -197,24 +193,15 @@ The sound specified as the Windows Default Beep sound.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 After queuing the sound, the <b>MessageBeep</b> function 
     returns control to the calling function and plays the sound asynchronously.
@@ -230,13 +217,7 @@ The user can disable the warning beep by using the Sound control panel applicati
      The <b>Beep</b> function is redirected to the client, whereas 
      <b>MessageBeep</b> is not.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/utilapiset/nf-utilapiset-beep">Beep</a>
 
@@ -251,7 +232,4 @@ The user can disable the warning beep by using the Sound control panel applicati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/notifying-the-user">Notifying the User</a>
- 
-
- 
 

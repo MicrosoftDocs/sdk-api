@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setcuebannertext.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_SetCueBannerText, Edit_SetCueBannerText macro [Windows Controls], _win32_Edit_SetCueBannerText, _win32_Edit_SetCueBannerText_cpp, commctrl/Edit_SetCueBannerText, controls.Edit_SetCueBannerText, controls._win32_Edit_SetCueBannerText
-f1_keywords:
-- commctrl/Edit_SetCueBannerText
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Edit_SetCueBannerText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Edit_SetCueBannerText
+ - commctrl/Edit_SetCueBannerText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Edit_SetCueBannerText
 ---
 
 # Edit_SetCueBannerText macro
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a> message explicitly. 
-
+Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the edit control. 
-
+A handle to the edit control.
 
 ### -param lpcwText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
-A pointer to a Unicode string that contains the text to set as the textual cue. 
-
+A pointer to a Unicode string that contains the text to set as the textual cue.
 
 ## -remarks
-
-
 
 An edit control that is used to begin a search may display "Enter search here" in gray text as a textual cue. When the user clicks the text, the text goes away and the user can type.
 
@@ -83,12 +75,7 @@ You cannot set a cue banner on a multiline edit control.
 <div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -103,7 +90,4 @@ You cannot set a cue banner on a multiline edit control.
 
 
 <b>Reference</b>
- 
-
- 
 

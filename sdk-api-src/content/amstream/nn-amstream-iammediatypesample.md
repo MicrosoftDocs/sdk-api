@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e0a62251-68ee-4318-b09a-0aac6b73bf54
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], IAMMediaTypeSample interface [DirectShow],described, IAMMediaTypeSampleInterface, amstream/IAMMediaTypeSample, dshow.iammediatypesample
-f1_keywords:
-- amstream/IAMMediaTypeSample
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaTypeSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaTypeSample
+ - amstream/IAMMediaTypeSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaTypeSample
 ---
 
 # IAMMediaTypeSample interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 This interface contains methods for manipulating stream samples with arbitrary media types. Call the <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypestream-createsample">IAMMediaTypeStream::CreateSample</a> method to create a sample that exposes this interface.
 
 The methods in this interface parallel those of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface, although <b>IAMMediaTypeSample</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setpointer">SetPointer</a> method in addition to the <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getpointer">GetPointer</a> method.
-
-
-
 
 ## -inheritance
 
@@ -228,16 +224,9 @@ Sets the stream times at which this sample should start and stop.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>
- 
-
- 
 

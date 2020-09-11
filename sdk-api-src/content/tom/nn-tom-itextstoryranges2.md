@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 24e2dd79-8054-44e3-aa68-778a96e2f66a
 ms.date: 12/05/2018
 ms.keywords: ITextStoryRanges2, ITextStoryRanges2 interface [Windows Controls], ITextStoryRanges2 interface [Windows Controls],described, controls.itextstoryranges2, tom/ITextStoryRanges2
-f1_keywords:
-- tom/ITextStoryRanges2
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextStoryRanges2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoryRanges2
+ - tom/ITextStoryRanges2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextStoryRanges2
 ---
 
 # ITextStoryRanges2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoryRanges2</b> interface enumerates the stories in an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>.
 
 You get a pointer to an <b>ITextStoryRanges2</b> collection by using the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstoryranges">ITextDocument::GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object that covers the whole story. 
 
-A Text Object Model (TOM) implementation that has only a single story doesn't need to implement the <b>ITextStoryRanges2</b> interface. An implementation of this interface should only retrieve a stories collection if <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">ITextDocument::GetStoryCount</a> returns a story count greater than one. 
-
+A Text Object Model (TOM) implementation that has only a single story doesn't need to implement the <b>ITextStoryRanges2</b> interface. An implementation of this interface should only retrieve a stories collection if <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">ITextDocument::GetStoryCount</a> returns a story count greater than one.
 
 ## -inheritance
 
@@ -81,5 +80,5 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itext
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\imilbitmapeffectoutputconnectorimpl.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectOutputConnectorImpl, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects], IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectoutputconnectorimpl, mileffects/IMILBitmapEffectOutputConnectorImpl, wibe._wibe_imilbitmapeffectoutputconnectorimpl
-f1_keywords:
-- mileffects/IMILBitmapEffectOutputConnectorImpl
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mileffects.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.dll
-api_name:
-- IMILBitmapEffectOutputConnectorImpl
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectOutputConnectorImpl
+ - mileffects/IMILBitmapEffectOutputConnectorImpl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.dll
+api_name:
+ - IMILBitmapEffectOutputConnectorImpl
 ---
 
 # IMILBitmapEffectOutputConnectorImpl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that define an output connector.
-
 
 ## -inheritance
 
@@ -80,14 +79,9 @@ The <b>IMILBitmapEffectOutputConnectorImpl</b> interface has these methods.
 </td>
 <td align="left" width="63%"></td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface must be implemented if an effect also implements <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectoutputconnector">IMILBitmapEffectOutputConnector</a>.
-
-
 

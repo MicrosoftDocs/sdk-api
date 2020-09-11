@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: a054fb71-66ab-46fd-be19-2237f05662bc
 ms.date: 12/05/2018
 ms.keywords: INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCONNECTED, INTERNET_STATE_DISCONNECTED_BY_USER, INTERNET_STATE_IDLE, INTERNET_STATUS_CALLBACK, INTERNET_STATUS_CALLBACK callback function [WinINet], INTERNET_STATUS_CLOSING_CONNECTION, INTERNET_STATUS_CONNECTED_TO_SERVER, INTERNET_STATUS_CONNECTING_TO_SERVER, INTERNET_STATUS_CONNECTION_CLOSED, INTERNET_STATUS_COOKIE_HISTORY, INTERNET_STATUS_COOKIE_RECEIVED, INTERNET_STATUS_COOKIE_SENT, INTERNET_STATUS_CTL_RESPONSE_RECEIVED, INTERNET_STATUS_DETECTING_PROXY, INTERNET_STATUS_HANDLE_CLOSING, INTERNET_STATUS_HANDLE_CREATED, INTERNET_STATUS_INTERMEDIATE_RESPONSE, INTERNET_STATUS_NAME_RESOLVED, INTERNET_STATUS_P3P_HEADER, INTERNET_STATUS_P3P_POLICYREF, INTERNET_STATUS_PREFETCH, INTERNET_STATUS_PRIVACY_IMPACTED, INTERNET_STATUS_RECEIVING_RESPONSE, INTERNET_STATUS_REDIRECT, INTERNET_STATUS_REQUEST_COMPLETE, INTERNET_STATUS_REQUEST_SENT, INTERNET_STATUS_RESOLVING_NAME, INTERNET_STATUS_RESPONSE_RECEIVED, INTERNET_STATUS_SENDING_REQUEST, INTERNET_STATUS_STATE_CHANGE, INTERNET_STATUS_USER_INPUT_REQUIRED, InternetStatusCallback, InternetStatusCallback callback, InternetStatusCallback callback function [WinINet], _inet_internet_status_callback_prototype, wininet.internetstatuscallback, wininet/InternetStatusCallback
-f1_keywords:
-- wininet/INTERNET_STATUS_CALLBACK
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wininet.h
-api_name:
-- INTERNET_STATUS_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INTERNET_STATUS_CALLBACK
+ - wininet/INTERNET_STATUS_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wininet.h
+api_name:
+ - INTERNET_STATUS_CALLBACK
 ---
 
 # INTERNET_STATUS_CALLBACK callback function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Prototype for an application-defined status callback function.
 
 The <b>INTERNET_STATUS_CALLBACK</b> type defines a pointer to this callback function.<i>InternetStatusCallback</i> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param hInternet [in]
 
 The handle for which the callback function is called.
 
-
 ### -param dwContext [in]
 
 A pointer to a variable that specifies the application-defined context value associated with 
 <i>hInternet</i>.
-
 
 ### -param dwInternetStatus [in]
 
@@ -353,8 +347,6 @@ Moved between a secure (HTTPS) and a nonsecure (HTTP) site. The user must be inf
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpvStatusInformation [in]
 
@@ -426,18 +418,13 @@ The request requires user input to be completed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwStatusInformationLength [in]
 
 The size, in bytes, of the data pointed to by 
 <i>lpvStatusInformation</i>.
 
-
 ## -remarks
-
-
 
 Because callbacks are made during processing of the request, the application should spend little time in the callback function to avoid degrading data throughput on the network. For example, displaying a dialog box in a callback function can be such a lengthy operation that the server terminates the request.
 
@@ -450,12 +437,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/asynchronous-operation">Asynchronous Operation</a>
 
@@ -470,7 +452,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

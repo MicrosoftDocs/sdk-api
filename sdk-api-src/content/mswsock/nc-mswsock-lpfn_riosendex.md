@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: BD246278-C2BF-48E6-97AD-65057EDA1F59
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOSENDEX
-f1_keywords:
-- mswsock/LPFN_RIOSENDEX
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,20 +28,24 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIOSENDEX
+ - mswsock/LPFN_RIOSENDEX
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIOSENDEX
+ - LPFN_RIOSENDEX
 ---
 
 ## -description
 
 The **RIOSendEx** function sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions.
-
 
 ## -parameters
 
@@ -53,20 +53,17 @@ The **RIOSendEx** function sends network data on a connected registered I/O TCP 
 
 A descriptor that identifies a connected registered I/O TCP socket or a bound registered I/O UDP socket.
 
-
 ### -param pData
 
 A buffer segment from a registered buffer from which to send data. The [**RIO\_BUF**](/windows/win32/api/mswsockdef/ns-mswsockdef-rio_buf) structure pointed to by this parameter can represent a portion of a registered buffer or a complete registered buffer.
 
 This parameter may be NULL for a bound registered I/O UDP socket if the application does not need to send a data payload in the UDP datagram.
 
-
 ### -param DataBufferCount
 
 A data buffer count parameter that indicates if data is to be sent in the buffer pointed to by the *pData* parameter.
 
 This parameter should be set to zero if the *pData* is NULL. Otherwise, this parameter should be set to 1.
-
 
 ### -param pLocalAddress
 
@@ -86,7 +83,6 @@ This parameter may be **NULL** if the application does not want to receive the a
 
 ### -param pFlags
 
-
 A buffer slice that on completion will hold additional information about the set of flags for the send operation.
 
 This parameter may be **NULL** if the application does not want to receive the additional flags information.
@@ -101,7 +97,6 @@ The *Flags* parameter can contain a combination of the following options defined
 
 <table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Flag</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="RIO_MSG_COMMIT_ONLY"></span><span id="rio_msg_commit_only"></span><dl> <dt><strong>RIO_MSG_COMMIT_ONLY</strong></dt> </dl></td><td>Previous requests added with <strong>RIO_MSG_DEFER</strong> flag will be committed. <br/> When the <strong>RIO_MSG_COMMIT_ONLY</strong> flag is set, no other flags may be specified. When the <strong>RIO_MSG_COMMIT_ONLY</strong> flag is set, the <em>pData</em>, <em>pLocalAddress</em>, <em>pRemoteAddress</em>, <em>pControlContext</em>, <em>pFlags</em>, and <em>RequestContext</em> parameters must be NULL and the <em>DataBufferCount</em> parameter must be zero. <br/> This flag would normally be used occasionally after a number of requests were issued with the <strong>RIO_MSG_DEFER</strong> flag set. This eliminates the need when using the <strong>RIO_MSG_DEFER</strong> flag to make the last request without the <strong>RIO_MSG_DEFER</strong> flag, which causes the last request to complete much slower than other requests. <br/> Unlike other calls to the <strong>RIOSendEx</strong> function, when the <strong>RIO_MSG_COMMIT_ONLY</strong> flag is set calls to the <strong>RIOSendEx</strong> function do not need to be serialized. For a single [<strong>RIO_RQ</strong>](/windows/win32/winsock/riorqueue), the <strong>RIOSendEx</strong> function can be called with <strong>RIO_MSG_COMMIT_ONLY</strong> on one thread while calling the <strong>RIOSendEx</strong> function on another thread.<br/></td></tr><tr class="even"><td><span id="RIO_MSG_DONT_NOTIFY"></span><span id="rio_msg_dont_notify"></span><dl> <dt><strong>RIO_MSG_DONT_NOTIFY</strong></dt> </dl></td><td>The request should not trigger the [<strong>RIONotify</strong>](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify) function when request completion is inserted into its completion queue.<br/></td></tr><tr class="odd"><td><span id="RIO_MSG_DEFER"></span><span id="rio_msg_defer"></span><dl> <dt><strong>RIO_MSG_DEFER</strong></dt> </dl></td><td>The request does not need to be executed immediately. This will insert the request into the request queue, but it may or may not trigger the execution of the request. <br/> Sending data may be delayed until a send request is made on the [<strong>RIO_RQ</strong>](/windows/win32/winsock/riorqueue) passed in the <em>SocketQueue</em> parameter without the <strong>RIO_MSG_DEFER</strong> flag set. To trigger execution for all sends in a send queue, call the [<strong>RIOSend</strong>](/windows/win32/winsock/riosend) or <strong>RIOSendEx</strong> function without the <strong>RIO_MSG_DEFER</strong> flag set. <br/><blockquote>[!Note]<br />
 The send request is charged against the outstanding I/O capacity on the [<strong>RIO_RQ</strong>](/windows/win32/winsock/riorqueue) passed in the <em>SocketQueue</em> parameter regardless of whether <strong>RIO_MSG_DEFER</strong> is set.</blockquote><br/></td></tr></tbody></table>
-
 
 ### -param RequestContext
 
@@ -121,8 +116,6 @@ A value of **FALSE** indicates the function failed, the operation was not succes
 | <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl>             | An invalid parameter was passed to the function. <br/> This error is returned if the *SocketQueue* parameter is not valid, the *Flags* parameter contains an value not valid for a send operation, or the integrity of the completion queue has been compromised. This error can also be returned for other issues with parameters.<br/> |
 | <dl> <dt>**[WSAENOBUFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**</dt> </dl>           | Sufficient memory could not be allocated. This error is returned if the I/O completion queue associated with the *SocketQueue* parameter is full or the I/O completion queue was created with zero send entries.<br/>                                                                                                                          |
 | <dl> <dt>**[WSA\_IO\_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending)**</dt> </dl> | The operation has been successfully initiated and the completion will be queued at a later time.<br/>                                                                                                                                                                                                                                          |
-
-
 
 ## -remarks
 

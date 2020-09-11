@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 1af45503-2f6f-4266-a0d2-ffc74a7be16f
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], IVssFileShareSnapshotProvider interface [VSS],described, base.ivssfilesharesnapshotprovider, vsprov/IVssFileShareSnapshotProvider
-f1_keywords:
-- vsprov/IVssFileShareSnapshotProvider
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssFileShareSnapshotProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssFileShareSnapshotProvider
+ - vsprov/IVssFileShareSnapshotProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssFileShareSnapshotProvider
 ---
 
 # IVssFileShareSnapshotProvider interface
@@ -50,11 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-Contains the methods used by VSS to manage shadow copy volumes. 
-
+Contains the methods used by VSS to manage shadow copy volumes.
 
 ## -inheritance
 
@@ -143,5 +140,5 @@ Requests the provider to set a property value for the specified snapshot.
 
 </td>
 </tr>
-</table> 
+</table>
 

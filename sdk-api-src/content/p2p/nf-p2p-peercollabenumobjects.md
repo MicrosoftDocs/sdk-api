@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: a9ac2603-b007-4d1c-ac11-c72aeb06e663
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumObjects, PeerCollabEnumObjects function [Peer Networking], p2p.peercollabenumobjects, p2p/PeerCollabEnumObjects
-f1_keywords:
-- p2p/PeerCollabEnumObjects
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabEnumObjects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabEnumObjects
+ - p2p/PeerCollabEnumObjects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabEnumObjects
 ---
 
 # PeerCollabEnumObjects function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabEnumObjects</b> function returns the handle to an enumeration that contains the peer objects associated with a specific peer's endpoint.
 
-
 ## -parameters
-
-
-
 
 ### -param pcEndpoint [in]
 
@@ -64,20 +60,15 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-
 
 If this parameter is <b>NULL</b> the published objects of the  local peer's contacts are returned.
 
-
 ### -param pObjectId [in, optional]
 
 Pointer to a GUID value that uniquely identifies a peer object with the supplied peer. If this parameter is supplied, the only peer object returned is the one that matches this GUID.
-
 
 ### -param phPeerEnum [out]
 
 Pointer to the handle for the enumerated set of peer objects that correspond to the GUID returned in <i>pObjectId</i>. Pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to obtain each item in the enumerated set.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -131,14 +122,8 @@ The operation requires the user to be signed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Peer objects are run-time data items associated with a particular application, such as a picture, an avatar, a certificate, or a specific description. Each peer object must be smaller than 16K in size.
 
@@ -156,13 +141,7 @@ To obtain a peer object successfully:<ul>
 
 If the user is publishing a picture, the picture can be obtained by retrieving the corresponding object. The GUID for the picture object is PEER_COLLAB_OBJECTID_USER_PICTURE.
 
-
-
-
 ## -see-also
-
-
-
 
 [PEER_CONTACT](/windows/win32/api/p2p/ns-p2p-peer_contact)
 
@@ -177,7 +156,4 @@ If the user is publishing a picture, the picture can be obtained by retrieving t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 437d803d-b916-4209-bbf0-64b1ec3b7068
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderInit interface [Windows Management Instrumentation],Initialize method, IWbemProviderInit.Initialize, IWbemProviderInit::Initialize, Initialize, Initialize method [Windows Management Instrumentation], Initialize method [Windows Management Instrumentation],IWbemProviderInit interface, _hmm_iwbemproviderinit_initialize, wbemprov/IWbemProviderInit::Initialize, wmi.iwbemproviderinit_initialize
-f1_keywords:
-- wbemprov/IWbemProviderInit.Initialize
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemProviderInit.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemProviderInit::Initialize
+ - wbemprov/IWbemProviderInit::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemProviderInit.Initialize
 ---
 
 # IWbemProviderInit::Initialize
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemProviderInit::Initialize</b> method is called by Windows Management to initialize a provider to receive client requests. All types of providers must implement this method.
 
-
 ## -parameters
-
-
-
 
 ### -param wszUser [in]
 
@@ -66,16 +62,13 @@ A pointer to the user name, if per-user initialization was requested in the
 
 Be aware that this parameter is set to <b>NULL</b> for event consumer providers regardless of the value of the <b>PerUserInitialization</b> property in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider">__Win32Provider</a> instance for the provider.
 
-
 ### -param lFlags [in]
 
 Reserved. This parameter must be 0 (zero).
 
-
 ### -param wszNamespace [in]
 
 A namespace name for which the provider is initialized.
-
 
 ### -param wszLocale [in]
 
@@ -88,12 +81,10 @@ A string of the following format, where the hex value is a Microsoft standard LC
 </ul>
 This parameter may be <b>NULL</b>.
 
-
 ### -param pNamespace [in]
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer back into Windows Management. This pointer is can service any requests made by the provider. The provider should use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IWbemProviderInit::AddRef</a> method on this pointer if it is going to call back into Windows Management during its execution.
-
 
 ### -param pCtx [in]
 
@@ -105,25 +96,16 @@ If the provider will perform requests back into Windows Management before comple
 
 In the event that a provider must make a dependent request on another provider, you must pass this context string back to WMI to avoid potential lockups. However, in the case of an independent request, this is not necessary, and WMI generates a new context string for it.
 
-
 ### -param pInitSink [in]
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinitsink">IWbemProviderInitSink</a> pointer that is used by the provider to report initialization status.
 
-
 ## -returns
-
-
 
 The provider should return <b>WBEM_S_NO_ERROR</b> and indicate its status using the supplied object sink in the <i>pInitSink</i> parameter. However, if a provider returns <b>WBEM_E_FAILED</b> and does not use the sink, then the provider initialization is considered as failed.
 
-
-
-
 ## -remarks
-
-
 
 Typically, the provider implements a COM object using multiple inheritance to support both the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit">IWbemProviderInit</a> interface as well as its primary interface, such as 
@@ -236,21 +218,11 @@ HRESULT CMyEventConsumer::Initialize(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit">IWbemProviderInit</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/initializing-a-provider">Initializing a Provider</a>
- 
-
- 
 

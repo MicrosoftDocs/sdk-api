@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 73a92f44-03c6-47e3-98d1-a20100ed8fa1
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], IFilterGraph interface [DirectShow],described, IFilterGraphInterface, dshow.ifiltergraph, strmif/IFilterGraph
-f1_keywords:
-- strmif/IFilterGraph
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFilterGraph
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilterGraph
+ - strmif/IFilterGraph
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFilterGraph
 ---
 
 # IFilterGraph interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IFilterGraph</code> interface provides methods for building a filter graph. An application can use it to add filters to the graph, connect or disconnect filters, remove filters, and perform other basic operations. However, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface inherits from this interface and provides additional methods that are more sophisticated. Therefore, applications should use <b>IGraphBuilder</b> rather than using <code>IFilterGraph</code> directly.
 
 The filter graph manager implements this interface.
-
-
-
 
 ## -inheritance
 
@@ -146,5 +142,5 @@ Sets the reference clock to the default clock.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 74fe42fe-33de-483a-88e4-50da9c1f77c2
 ms.date: 12/05/2018
 ms.keywords: GetView, GetView method [Windows Shell], GetView method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],GetView method, IShellView2.GetView, IShellView2::GetView, SV2GV_CURRENTVIEW, SV2GV_DEFAULTVIEW, VID_Details, VID_LargeIcons, VID_List, VID_SmallIcons, VID_Tile, _win32_IShellView2_GetView, shell.IShellView2_GetView, shobjidl_core/IShellView2::GetView
-f1_keywords:
-- shobjidl_core/IShellView2.GetView
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellView2.GetView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellView2::GetView
+ - shobjidl_core/IShellView2::GetView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellView2.GetView
 ---
 
 # IShellView2::GetView
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pvid [out]
 
@@ -94,7 +90,6 @@ A pointer to the GUID of the requested view. The following views are defined in 
 
 {65F125E5-7BE1-4810-BA9D-D271C8432CE3}
 
-
 ### -param uView [in]
 
 Type: <b>ULONG</b>
@@ -113,21 +108,13 @@ Current Shell view.
 
 Default Shell view.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a standard COM error code otherwise.
 
-
-
-
 ## -remarks
-
-
 
 <b>IShellView2::GetView</b> retrieves a "viewset", which is the requested view (default or current) together with all other valid views for this instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a>. Calling <b>IShellView2::GetView</b> with the <b>SV2GV_CURRENTVIEW</b> returns a GUID representing the current view and also iterates through the valid VIDs. This information is stored for later use in validating a new view before it is displayed.
 
@@ -143,6 +130,4 @@ The priority of these assorted views can be generally said to be the following:
 <li>Previous view</li>
 </ol>
 The priority of the previous view can be higher if the <b>Remember each folder's view settings</b> option is not selected in <b>Folder Options</b>. Other factors such as policies can also come into play, so the list above should be viewed only as a very broad guideline.
-
-
 

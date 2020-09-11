@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
 ms.date: 12/05/2018
 ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhParseInstanceNameA, PdhParseInstanceNameW, _win32_pdhparseinstancename, base.pdhparseinstancename, pdh/PdhParseInstanceName, pdh/PdhParseInstanceNameA, pdh/PdhParseInstanceNameW, perf.pdhparseinstancename
-f1_keywords:
-- pdh/PdhParseInstanceName
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhParseInstanceName
-- PdhParseInstanceNameA
-- PdhParseInstanceNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhParseInstanceNameA
+ - pdh/PdhParseInstanceNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhParseInstanceName
+ - PdhParseInstanceNameA
+ - PdhParseInstanceNameW
 ---
 
 # PdhParseInstanceNameA function
@@ -51,15 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Parses the elements of an instance string.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param szInstanceString [in]
 
@@ -79,30 +74,23 @@ Parses the elements of an instance string.
 
 Caller-allocated buffer that receives the <b>null</b>-terminated instance name. Set to <b>NULL</b> if <i>pcchInstanceNameLength</i> is zero.
 
-
 ### -param pcchInstanceNameLength [in, out]
 
 Size of the <i>szInstanceName</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
-
 
 ### -param szParentName [out]
 
 Caller-allocated buffer that receives the <b>null</b>-terminated name of the parent instance, if one is specified. Set to <b>NULL</b> if <i>pcchParentNameLength</i> is zero.
 
-
 ### -param pcchParentNameLength [in, out]
 
 Size of the <i>szParentName</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
-
 
 ### -param lpIndex [out]
 
 Index value of the instance. If an index entry is not present in the string, then this value is zero. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -150,14 +138,8 @@ The instance string is incorrectly formatted, exceeds MAX_PATH characters in len
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function twice, the first time to get the required buffer size (set the buffers to <b>NULL</b> and buffer sizes to 0), and the second time to get the data.
 
@@ -170,11 +152,5 @@ You should call this function twice, the first time to get the required buffer s
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
- 
-
- 
 

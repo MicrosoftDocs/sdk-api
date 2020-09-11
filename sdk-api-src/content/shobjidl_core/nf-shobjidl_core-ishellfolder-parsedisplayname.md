@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 099e71b0-04f2-4f82-aa00-7581bd357900
 ms.date: 12/05/2018
 ms.keywords: IShellFolder interface [Windows Shell],ParseDisplayName method, IShellFolder.ParseDisplayName, IShellFolder2 interface [Windows Shell],ParseDisplayName method, IShellFolder2::ParseDisplayName, IShellFolder::ParseDisplayName, ParseDisplayName, ParseDisplayName method [Windows Shell], ParseDisplayName method [Windows Shell],IShellFolder interface, ParseDisplayName method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_ParseDisplayName, shell.IShellFolder_ParseDisplayName, shobjidl_core/IShellFolder2::ParseDisplayName, shobjidl_core/IShellFolder::ParseDisplayName
-f1_keywords:
-- shobjidl_core/IShellFolder.ParseDisplayName
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellFolder.ParseDisplayName
-- IShellFolder2.ParseDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolder::ParseDisplayName
+ - shobjidl_core/IShellFolder::ParseDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellFolder.ParseDisplayName
+ - IShellFolder2.ParseDisplayName
 ---
 
 # IShellFolder::ParseDisplayName
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates the display name of a file object or a folder into an item identifier list.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Type: <b>HWND</b>
 
 A window handle. The client should provide a window handle if it displays a dialog or message box. Otherwise set <i>hwnd</i> to <b>NULL</b>.
-
 
 ### -param pbc [in]
 
@@ -75,7 +70,6 @@ Optional. A pointer to a bind context used to pass parameters as inputs and outp
 
 
 If no data is being passed to or received from the parsing function, this value can be <b>NULL</b>.
-
 
 ### -param pszDisplayName [in]
 
@@ -91,14 +85,11 @@ A null-terminated Unicode string with the display name. Because each Shell folde
 
 ```
 
-
-
 ### -param pchEaten [out]
 
 Type: <b>ULONG*</b>
 
 A pointer to a <b>ULONG</b> value that receives the number of characters of the display name that was parsed. If your application does not need this information, set <i>pchEaten</i> to <b>NULL</b>, and no value will be returned.
-
 
 ### -param ppidl [out]
 
@@ -109,30 +100,19 @@ When this method returns, contains a pointer to the PIDL for the object. The ret
 
 When it is no longer needed, it is the responsibility of the caller to free this resource by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
-
 ### -param pdwAttributes [in, out]
 
 Type: <b>ULONG*</b>
 
 The value used to query for file attributes. If not used, it should be set to <b>NULL</b>. To query for one or more attributes, initialize this parameter with the <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO</a> flags that represent the attributes of interest. On return, those attributes that are true <i>and</i> were requested will be set.
 
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Some Shell folders may not implement <b>IShellFolder::ParseDisplayName</b>. Each folder that does will define its own parsing syntax.
 
@@ -167,13 +147,7 @@ Since <i>pdwAttributes</i> is an in/out parameter, it should always be initializ
 
 This method is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iparsedisplayname-parsedisplayname">IParseDisplayName::ParseDisplayName</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
@@ -188,7 +162,4 @@ This method is similar to the <a href="https://docs.microsoft.com/windows/deskto
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
- 
-
- 
 

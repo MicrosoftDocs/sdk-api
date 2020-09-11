@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: eca70819-fb7c-48b9-a479-d20aa0f05649
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetDest, MCIWndGetDest macro [Windows Multimedia], _win32_MCIWndGetDest, multimedia.mciwndgetdest, vfw/MCIWndGetDest
-f1_keywords:
-- vfw/MCIWndGetDest
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndGetDest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndGetDest
+ - vfw/MCIWndGetDest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndGetDest
 ---
 
 # MCIWndGetDest macro
@@ -49,35 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCIWndGetDest</b> macro retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-get-dest">MCIWNDM_GET_DEST</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
-
+Handle of the MCIWnd window.
 
 ### -param prc
 
-Pointer to a RECT structure to return the coordinates of the destination rectangle. 
-
+Pointer to a RECT structure to return the coordinates of the destination rectangle.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-get-dest">MCIWNDM_GET_DEST</a>
- 
-
- 
 

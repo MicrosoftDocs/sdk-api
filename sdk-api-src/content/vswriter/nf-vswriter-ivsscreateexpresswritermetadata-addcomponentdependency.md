@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 1d7e28de-8bb7-4ab4-bcdd-554d47007233
 ms.date: 12/05/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method, AddComponentDependency method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponentDependency method, IVssCreateExpressWriterMetadata.AddComponentDependency, IVssCreateExpressWriterMetadata::AddComponentDependency, base.ivsscreateexpresswritermetadata_addcomponentdependency, vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency
-f1_keywords:
-- vswriter/IVssCreateExpressWriterMetadata.AddComponentDependency
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateExpressWriterMetadata.AddComponentDependency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateExpressWriterMetadata::AddComponentDependency
+ - vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateExpressWriterMetadata.AddComponentDependency
 ---
 
 # IVssCreateExpressWriterMetadata::AddComponentDependency
@@ -50,44 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows an express writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component (possibly managed by another writer) must be backed up and restored with it.
 
-
 ## -parameters
-
-
-
 
 ### -param wszForLogicalPath [in]
 
 A null-terminated wide character string containing the logical path of the component (managed by the express writer) that requires a dependency.
 
-
 ### -param wszForComponentName [in]
 
 A null-terminated wide character string containing the component (managed by the express writer) that requires a dependency.
-
 
 ### -param onWriterId [in]
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) value that specifies the writer class of the express writer managing the component on which the current component depends.
 
-
 ### -param wszOnLogicalPath [in]
 
 The logical path of the component (managed by the express writer identified by <i>onWriterId</i>) on which the current component depends.
-
 
 ### -param wszOnComponentName [in]
 
 The name of the component (managed by the express writer identified by <i>onWriterId</i>) on which the current component depends.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -167,18 +156,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
- 
-
- 
 

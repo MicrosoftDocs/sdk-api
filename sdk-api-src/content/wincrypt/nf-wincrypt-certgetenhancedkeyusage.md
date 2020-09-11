@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: eda6d875-df62-4f40-8734-a91666dba289
 ms.date: 12/05/2018
 ms.keywords: CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG, CERT_FIND_PROP_ONLY_ENHKEY_USAGE_FLAG, CertGetEnhancedKeyUsage, CertGetEnhancedKeyUsage function [Security], _crypto2_certgetenhancedkeyusage, security.certgetenhancedkeyusage, wincrypt/CertGetEnhancedKeyUsage
-f1_keywords:
-- wincrypt/CertGetEnhancedKeyUsage
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetEnhancedKeyUsage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetEnhancedKeyUsage
+ - wincrypt/CertGetEnhancedKeyUsage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetEnhancedKeyUsage
 ---
 
 # CertGetEnhancedKeyUsage function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertGetEnhancedKeyUsage</b> function returns information from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a> (EKU) extension or the EKU extended property of a certificate. EKUs indicate valid uses of the certificate.
 
-
 ## -parameters
-
-
-
 
 ### -param pCertContext [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> certificate context.
-
 
 ### -param dwFlags [in]
 
@@ -99,8 +94,6 @@ Get only the extended property value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pUsage [out]
 
@@ -112,26 +105,17 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 This parameter can be <b>NULL</b> to set the size of the key usage for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-
 ### -param pcbUsage [in, out]
 
 A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the structure pointed to by <i>pUsage</i>. When the function returns, the <b>DWORD</b> contains the size, in bytes, of the structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>).
 
-
-
-
 ## -remarks
-
-
 
 If a certificate has an EKU extension, that extension lists <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for valid uses of that certificate. In a Microsoft environment, a certificate might also have EKU extended properties that specify valid uses for the certificate.
 
@@ -144,20 +128,11 @@ If <i>dwFlags</i> is set to zero, the <b>cUsageIdentifier</b> member of the <b>C
 
 If the <b>cUsageIdentifier</b> member is zero, the certificate might be valid for all uses or the certificate might have no valid uses. The return from a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be used to determine whether the certificate is good for all uses or for none. If <b>GetLastError</b> returns CRYPT_E_NOT_FOUND, the certificate is good for all uses. If it returns zero, the certificate has no valid uses.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetenhancedkeyusage">CertSetEnhancedKeyUsage</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Enhanced Key Usage Functions</a>
- 
-
- 
 

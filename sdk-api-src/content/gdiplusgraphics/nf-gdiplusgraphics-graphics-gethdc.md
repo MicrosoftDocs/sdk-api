@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gethdc.htm
 ms.date: 12/05/2018
 ms.keywords: GetHDC, GetHDC method [GDI+], GetHDC method [GDI+],Graphics class, Graphics class [GDI+],GetHDC method, Graphics.GetHDC, Graphics::GetHDC, _gdiplus_CLASS_Graphics_GetHDC_, gdiplus._gdiplus_CLASS_Graphics_GetHDC_
-f1_keywords:
-- gdiplusgraphics/Graphics.GetHDC
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.GetHDC
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::GetHDC
+ - gdiplusgraphics/Graphics::GetHDC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.GetHDC
 ---
 
 # Graphics::GetHDC
@@ -50,33 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::GetHDC</b> method gets a handle to the device context associated with this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HDC</b>
 
 This method returns a handle to the device context associated with this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-
-
-
 ## -remarks
-
-
 
 Each call to the <b>Graphics::GetHDC</b> method of a 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object should be paired with a call 
@@ -119,14 +106,7 @@ VOID Example_GetReleaseHDC(Graphics* g)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-changes-in-the-programming-model-about">Changes in the Programming Model</a>
 
@@ -145,7 +125,4 @@ VOID Example_GetReleaseHDC(Graphics* g)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-releasehdc">Graphics::ReleaseHDC</a>
- 
-
- 
 

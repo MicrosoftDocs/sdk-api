@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\translatetransform_38dx_dy_order.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],TranslateTransform method, LinearGradientBrush.TranslateTransform, LinearGradientBrush::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_LinearGradientBrush_TranslateTransform_dx_dy_order_
-f1_keywords:
-- gdiplusbrush/LinearGradientBrush.TranslateTransform
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- LinearGradientBrush.TranslateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - LinearGradientBrush::TranslateTransform
+ - gdiplusbrush/LinearGradientBrush::TranslateTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - LinearGradientBrush.TranslateTransform
 ---
 
 # LinearGradientBrush::TranslateTransform
@@ -50,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LinearGradientBrush::TranslateTransform</b> method updates this brush's current transformation matrix with the product of itself and a translation matrix.
 
-
 ## -parameters
-
-
-
 
 ### -param dx [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the horizontal component of the translation. 
-
+Real number that specifies the horizontal component of the translation.
 
 ### -param dy [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the vertical component of the translation. 
-
+Real number that specifies the vertical component of the translation.
 
 ### -param order [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a></b>
 
-Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a> enumeration that specifies the order of the multiplication. MatrixOrderPrepend specifies that the translation matrix is on the left, and MatrixOrderAppend specifies that the translation matrix is on the right. The default value is MatrixOrderPrepend. 
-
+Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a> enumeration that specifies the order of the multiplication. MatrixOrderPrepend specifies that the translation matrix is on the left, and MatrixOrderAppend specifies that the translation matrix is on the right. The default value is MatrixOrderPrepend.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -92,12 +83,7 @@ If the method succeeds, it returns Ok, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 A single 3
 				×3 matrix can store any sequence of affine transformations. If you have several 3
@@ -137,14 +123,7 @@ VOID Example_TranslateTrans(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -187,7 +166,4 @@ VOID Example_TranslateTrans(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

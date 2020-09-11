@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 07948c08-f047-4ae0-a41b-5410b4bbf4d6
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], IOleDocumentView interface [COM],described, _ole_ioledocumentview, com.ioledocumentview, docobj/IOleDocumentView
-f1_keywords:
-- docobj/IOleDocumentView
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView
+ - docobj/IOleDocumentView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView
 ---
 
 # IOleDocumentView interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IOleDocumentView</b> interface enables a container to communicate with each view supported by a document object.
 
 A document object that supports multiple views of its data represents each view as a separate object. Each document view object implements <b>IOleDocumentView</b>, along with <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>, and optional interfaces such as <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a> and <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>. A document object that supports only a single view does not require that view to be implemented as a separate object. Instead, both document and view can be implemented as a single class.
-
 
 ## -inheritance
 
@@ -187,5 +186,5 @@ Activates or deactivates a document view's user interface elements, such as menu
 
 </td>
 </tr>
-</table> 
+</table>
 

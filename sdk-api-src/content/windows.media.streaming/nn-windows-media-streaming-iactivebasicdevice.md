@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 97544BF4-188F-4CE3-9436-EB7F3E706E94
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDevice, IActiveBasicDevice interface [Media Streaming API], IActiveBasicDevice interface [Media Streaming API],described, mediastreaming.iactivebasicdevice, windows/IActiveBasicDevice
-f1_keywords:
-- windows.media.streaming/IActiveBasicDevice
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: PlayToDevice.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PlayToDevice.dll
-api_name:
-- IActiveBasicDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActiveBasicDevice
+ - windows.media.streaming/IActiveBasicDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PlayToDevice.dll
+api_name:
+ - IActiveBasicDevice
 ---
 
 # IActiveBasicDevice interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents an active <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> that is associated with a UPnP device. 
-
+Represents an active <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> that is associated with a UPnP device.
 
 ## -inheritance
 
@@ -212,12 +211,9 @@ Gets the cached sink protocol info for the device.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a pointer to the underlying <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>, 	<b>IServiceProvider-&gt;QueryService</b> can be used with <b>GUID_NativeDeviceService</b> to get native interfaces for the device.
 
@@ -229,19 +225,7 @@ An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a p
 pActiveBasicDevice->QueryService( GUID_NativeDeviceService, IID_IUPnPDevice, (void **)&spUPnPDevice );
 ```
 
-
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
- 
-
- 
 

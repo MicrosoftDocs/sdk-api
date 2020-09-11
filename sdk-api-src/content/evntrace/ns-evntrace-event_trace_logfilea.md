@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_TRACE_LOGFILEA, EVENT_TRACE_LOGFILE, EVENT_TRACE_LOGFILE structure [ETW], EVENT_TRACE_LOGFILEA, EVENT_TRACE_LOGFILEW, PEVENT_TRACE_LOGFILE, PEVENT_TRACE_LOGFILE structure pointer [ETW], PROCESS_TRACE_MODE_EVENT_RECORD, PROCESS_TRACE_MODE_RAW_TIMESTAMP, PROCESS_TRACE_MODE_REAL_TIME, _EVENT_TRACE_LOGFILEA, _EVENT_TRACE_LOGFILEW, _evt_event_trace_logfile, base.event_trace_logfile, etw.event_trace_logfile, evntrace/EVENT_TRACE_LOGFILE, evntrace/EVENT_TRACE_LOGFILEA, evntrace/EVENT_TRACE_LOGFILEW, evntrace/PEVENT_TRACE_LOGFILE'
-f1_keywords:
-- evntrace/EVENT_TRACE_LOGFILE
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntrace.h
-api_name:
-- EVENT_TRACE_LOGFILE
-- EVENT_TRACE_LOGFILEA
-- EVENT_TRACE_LOGFILEW
 targetos: Windows
 req.typenames: EVENT_TRACE_LOGFILEA, *PEVENT_TRACE_LOGFILEA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EVENT_TRACE_LOGFILEA
+ - evntrace/_EVENT_TRACE_LOGFILEA
+ - PEVENT_TRACE_LOGFILEA
+ - evntrace/PEVENT_TRACE_LOGFILEA
+ - EVENT_TRACE_LOGFILEA
+ - evntrace/EVENT_TRACE_LOGFILEA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntrace.h
+api_name:
+ - EVENT_TRACE_LOGFILE
+ - EVENT_TRACE_LOGFILEA
+ - EVENT_TRACE_LOGFILEW
 ---
 
 # EVENT_TRACE_LOGFILEA structure
@@ -51,17 +56,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EVENT_TRACE_LOGFILE</b> structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events. 
 
 When ETW flushes a buffer, this structure contains information about the event tracing session and the buffer that ETW flushed.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LogFileName
 
@@ -76,7 +76,6 @@ If the controller set the <b>LogFileMode</b> member of <a href="https://docs.mic
 
 The user consuming the events must have permissions to read the file.
 
-
 ### -field LoggerName
 
 Name of the event tracing session. Specify a value for this member if you want to consume events in real time. This member must be <b>NULL</b> if <b>LogFileName</b> is specified.
@@ -87,26 +86,19 @@ Only users with administrative privileges, users in the Performance Log Users gr
 
 <b>Windows XP and Windows 2000:  </b>Anyone can consume real time events.
 
-
 ### -field CurrentTime
 
 On output, the current time, in 100-nanosecond intervals since midnight, January 1, 1601.
-
 
 ### -field BuffersRead
 
 On output, the number of buffers processed.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.LogFileMode
 
 Reserved. Do not use.
-
 
 ### -field DUMMYUNIONNAME.ProcessTraceMode
 
@@ -152,46 +144,35 @@ Specify this mode to receive events in real time (you must specify this mode if 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CurrentEvent
 
 On output, an 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a> structure that contains the last event processed.
 
-
 ### -field LogfileHeader
 
 On output, a 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-logfile-header">TRACE_LOGFILE_HEADER</a> structure that contains general information about the session and the computer on which the session ran.
-
 
 ### -field BufferCallback
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a> function that receives buffer-related statistics for each buffer ETW flushes. ETW calls this callback after it delivers all the events in the buffer. This callback is optional.
 
-
 ### -field BufferSize
 
-On output, contains the size of each buffer, in bytes. 
-
+On output, contains the size of each buffer, in bytes.
 
 ### -field Filled
 
-On output, contains the number of bytes in the buffer that contain valid information. 
-
+On output, contains the number of bytes in the buffer that contain valid information.
 
 ### -field EventsLost
 
 Not used.
 
-
 ### -field DUMMYUNIONNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME2.EventCallback
 
@@ -199,7 +180,6 @@ Pointer to the
 <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a> function that ETW calls for each event in the buffer. 
 
 Specify this callback if you are consuming events from a provider that used one of the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a> functions to log events.
-
 
 ### -field DUMMYUNIONNAME2.EventRecordCallback
 
@@ -210,11 +190,9 @@ Specify this callback if you are consuming events from a provider that used one 
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
-
 ### -field IsKernelTrace
 
 On output, if this member is <b>TRUE</b>, the event tracing session is the NT Kernel Logger. Otherwise, it is another event tracing session.
-
 
 ### -field Context
 
@@ -222,10 +200,7 @@ Context data that a consumer can specify when calling <a href="https://docs.micr
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
-
 ## -remarks
-
-
 
 Be sure to initialize the memory for this structure to zero before setting any members.
 
@@ -244,15 +219,9 @@ consumer's <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallbac
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
- 
-
- 
 

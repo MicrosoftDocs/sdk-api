@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: d9a4f395-3d2f-429a-884d-90131927a929
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], IVPBaseConfig interface [DirectShow],described, IVPBaseConfigInterface, dshow.ivpbaseconfig, vpconfig/IVPBaseConfig
-f1_keywords:
-- vpconfig/IVPBaseConfig
-dev_langs:
-- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vpconfig.h
-api_name:
-- IVPBaseConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVPBaseConfig
+ - vpconfig/IVPBaseConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vpconfig.h
+api_name:
+ - IVPBaseConfig
 ---
 
 # IVPBaseConfig interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <code>IVPBaseConfig</code> is implemented on a filter that wraps a hardware device such as a decoder or capture device, if the device has a video port to the graphics adapter. This interface allows the video port to communicate with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter regarding configuration information. The <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a> interface derives from this interface.
 
 Applications should never use this interface.
-
-
-
 
 ## -inheritance
 
@@ -190,25 +186,13 @@ Specifies the ID of the hardware video port to use.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Include Dvp.h and Vptype.h before Vpconfig.h.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>
- 
-
- 
 

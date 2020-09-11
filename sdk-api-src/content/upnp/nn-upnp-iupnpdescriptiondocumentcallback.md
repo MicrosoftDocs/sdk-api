@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 0c9071d8-2ec1-49fe-976d-0c63f9de8b61
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocumentCallback, IUPnPDescriptionDocumentCallback interface [UPnP APIs], IUPnPDescriptionDocumentCallback interface [UPnP APIs],described, _upnp_iupnpdescriptiondocumentcallback, upnp.iupnpdescriptiondocumentcallback, upnp/IUPnPDescriptionDocumentCallback
-f1_keywords:
-- upnp/IUPnPDescriptionDocumentCallback
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPDescriptionDocumentCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPDescriptionDocumentCallback
+ - upnp/IUPnPDescriptionDocumentCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPDescriptionDocumentCallback
 ---
 
 # IUPnPDescriptionDocumentCallback interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPDescriptionDocumentCallback</b> interface allows the UPnP framework to communicate the results of an asynchronous load operation to an application.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Invoked by the UPnP framework to notify the application that a load operation ha
 
 </td>
 </tr>
-</table> 
+</table>
 

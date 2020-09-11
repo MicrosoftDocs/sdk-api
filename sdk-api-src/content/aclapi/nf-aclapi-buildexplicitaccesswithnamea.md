@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5f12db19-63cf-4be6-9450-3c36e425967b
 ms.date: 12/05/2018
 ms.keywords: BuildExplicitAccessWithName, BuildExplicitAccessWithName function [Security], BuildExplicitAccessWithNameA, BuildExplicitAccessWithNameW, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, MultipleTrusteeOperation, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, TrusteeForm, TrusteeType, _win32_buildexplicitaccesswithname, aclapi/BuildExplicitAccessWithName, aclapi/BuildExplicitAccessWithNameA, aclapi/BuildExplicitAccessWithNameW, pMultipleTrustee, security.buildexplicitaccesswithname
-f1_keywords:
-- aclapi/BuildExplicitAccessWithName
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-security-trustee-l1-1-1.dll
-- advapi32legacy.dll
-api_name:
-- BuildExplicitAccessWithName
-- BuildExplicitAccessWithNameA
-- BuildExplicitAccessWithNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BuildExplicitAccessWithNameA
+ - aclapi/BuildExplicitAccessWithNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-security-trustee-l1-1-1.dll
+ - advapi32legacy.dll
+api_name:
+ - BuildExplicitAccessWithName
+ - BuildExplicitAccessWithNameA
+ - BuildExplicitAccessWithNameW
 ---
 
 # BuildExplicitAccessWithNameA function
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BuildExplicitAccessWithName</b> function initializes an 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure with data specified by the caller. The trustee is identified by a name string.
 
-
 ## -parameters
-
-
-
 
 ### -param pExplicitAccess [in, out]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure to initialize. The <b>BuildExplicitAccessWithName</b> function does not allocate any memory. This parameter cannot be <b>NULL</b>.
-
 
 ### -param pTrusteeName [in, optional]
 
@@ -124,8 +119,6 @@ TRUSTEE_IS_UNKNOWN
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AccessPermissions [in]
 
@@ -133,12 +126,10 @@ Specifies an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly"
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format to specify the access rights that an 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> allows, denies, or audits for the trustee. The functions that use the <b>EXPLICIT_ACCESS</b> structure do not convert, interpret, or validate the bits in this mask.
 
-
 ### -param AccessMode [in]
 
 Specifies an access mode for the <b>grfAccessMode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure. The access mode indicates whether the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) allows, denies, or audits the specified rights. For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL), this parameter can be one of the values from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a> enumeration. For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), this parameter can be a combination of <b>ACCESS_MODE</b> values.
-
 
 ### -param Inheritance [in]
 
@@ -222,13 +213,8 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>
 
@@ -259,9 +245,6 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
- 
-
- 
 
 ## -remarks
 

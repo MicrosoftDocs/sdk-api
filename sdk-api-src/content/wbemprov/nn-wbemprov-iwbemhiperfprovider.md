@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: eb0d12c0-d746-4bae-b47d-50350d33447a
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], IWbemHiPerfProvider interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfprovider, wbemprov/IWbemHiPerfProvider, wmi.iwbemhiperfprovider
-f1_keywords:
-- wbemprov/IWbemHiPerfProvider
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiprvsd.dll
-api_name:
-- IWbemHiPerfProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemHiPerfProvider
+ - wbemprov/IWbemHiPerfProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiprvsd.dll
+api_name:
+ - IWbemHiPerfProvider
 ---
 
 # IWbemHiPerfProvider interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemHiPerfProvider</b> interface enables providers to supply refreshable objects and enumerators. High-performance providers can be loaded in-process to either WMI or a client process. When the provider is loaded in-process to a client process, it uses the CLSID specified as the <b>ClientLoadableCLSID</b> value in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider">__Win32Provider</a>  representing the provider instance definition.
-
 
 ## -inheritance
 
@@ -124,13 +123,9 @@ Stops refreshing an enumerator or instance object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-performance-data-in-c--">Accessing Performance Data in C++</a>
 
@@ -157,7 +152,4 @@ Making an Instance Provider into a High-Performance Provider
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
- 
-
- 
 

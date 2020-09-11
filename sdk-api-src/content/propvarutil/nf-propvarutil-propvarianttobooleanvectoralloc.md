@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 241f43b6-5ff0-4ce6-b0a4-59dc9cb6cf8f
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBooleanVectorAlloc, PropVariantToBooleanVectorAlloc function [Windows Properties], _shell_PropVariantToBooleanVectorAlloc, properties.PropVariantToBooleanVectorAlloc, propvarutil/PropVariantToBooleanVectorAlloc, shell.PropVariantToBooleanVectorAlloc
-f1_keywords:
-- propvarutil/PropVariantToBooleanVectorAlloc
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToBooleanVectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToBooleanVectorAlloc
+ - propvarutil/PropVariantToBooleanVectorAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToBooleanVectorAlloc
 ---
 
 # PropVariantToBooleanVectorAlloc function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a newly allocated Boolean vector.
 
-
 ## -parameters
-
-
-
 
 ### -param propvar [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param pprgf [out]
 
 Type: <b>BOOL**</b>
 
 When this function returns, contains a pointer to a vector of Boolean values extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
 
 ### -param pcElem [out]
 
@@ -78,10 +72,7 @@ Type: <b>ULONG*</b>
 
 When this function returns, contains the count of Boolean elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -115,14 +106,8 @@ The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-pr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a Boolean vector value.
 
@@ -150,14 +135,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfrombooleanvector">InitPropVariantFromBooleanVector</a>
 
@@ -172,7 +150,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobooleanvector">PropVariantToBooleanVector</a>
- 
-
- 
 

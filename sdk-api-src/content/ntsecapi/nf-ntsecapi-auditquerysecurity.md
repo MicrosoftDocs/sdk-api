@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 496c9659-0c03-42c9-93c4-eb4d97e950e2
 ms.date: 12/05/2018
 ms.keywords: AuditQuerySecurity, AuditQuerySecurity function [Security], ntsecapi/AuditQuerySecurity, security.auditquerysecurity
-f1_keywords:
-- ntsecapi/AuditQuerySecurity
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-audit-l1-1-1.dll
-- sechost.dll
-api_name:
-- AuditQuerySecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AuditQuerySecurity
+ - ntsecapi/AuditQuerySecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-audit-l1-1-1.dll
+ - sechost.dll
+api_name:
+ - AuditQuerySecurity
 ---
 
 # AuditQuerySecurity function
@@ -51,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AuditQuerySecurity</b> function retrieves <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> that delegates access to audit policy.
 
-
 ## -parameters
-
-
-
 
 ### -param SecurityInformation [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies which parts of the security descriptor this function sets. Only <b>SACL_SECURITY_INFORMATION</b> and <b>DACL_SECURITY_INFORMATION</b> are supported. Any other values are ignored. If neither <b>SACL_SECURITY_INFORMATION</b> nor <b>DACL_SECURITY_INFORMATION</b> is specified, this function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
 
-
 ### -param ppSecurityDescriptor [out]
 
 The address of a pointer to a well-formed <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that controls access to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
@@ -109,27 +101,12 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To successfully call this function, the caller must have <b>SeSecurityPrivilege</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsecurity">AuditSetSecurity</a>
- 
-
- 
 

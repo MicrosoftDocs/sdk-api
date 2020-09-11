@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 1D9D1846-2BE2-4B88-8D23-5A27173918DD
 ms.date: 12/05/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR_TABLE1, D3D12_ROOT_DESCRIPTOR_TABLE1 structure, d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1, direct3d12.d3d12_root_descriptor_table1
-f1_keywords:
-- d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_ROOT_DESCRIPTOR_TABLE1
 targetos: Windows
 req.typenames: D3D12_ROOT_DESCRIPTOR_TABLE1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_ROOT_DESCRIPTOR_TABLE1
+ - d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_ROOT_DESCRIPTOR_TABLE1
 ---
 
 # D3D12_ROOT_DESCRIPTOR_TABLE1 structure
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the root signature 1.1 layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field NumDescriptorRanges
 
 The number of descriptor ranges in the table layout.
-          
-
 
 ### -field pDescriptorRanges
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range1">D3D12_DESCRIPTOR_RANGE1</a> structures that describe the descriptor ranges.
-          
-
 
 ## -remarks
-
-
 
 Samplers are not allowed in the same descriptor table as constant-buffer views (CBVs), unordered-access views (UAVs), and shader-resource views (SRVs).
       
@@ -87,13 +76,7 @@ Samplers are not allowed in the same descriptor table as constant-buffer views (
 
 Refer to the helper structure <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-root-descriptor-table1">CD3DX12_ROOT_DESCRIPTOR_TABLE1</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
@@ -104,7 +87,4 @@ Refer to the helper structure <a href="https://docs.microsoft.com/windows/deskto
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>
- 
-
- 
 

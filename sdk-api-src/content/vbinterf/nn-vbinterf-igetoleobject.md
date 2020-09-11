@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 2cdc35e7-ab0b-4b12-920c-9eac0d9b5a0c
 ms.date: 12/05/2018
 ms.keywords: IGetOleObject, IGetOleObject interface [COM], IGetOleObject interface [COM],described, _com_IGetOleObject, com.igetoleobject, vbinterf/IGetOleObject
-f1_keywords:
-- vbinterf/IGetOleObject
-dev_langs:
-- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VbInterf.h
-api_name:
-- IGetOleObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetOleObject
+ - vbinterf/IGetOleObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VbInterf.h
+api_name:
+ - IGetOleObject
 ---
 
 # IGetOleObject interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets access to an OLE control on a Visual Basic container.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Gets a pointer to a control.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\idistlist\idistlist.htm
 ms.date: 12/05/2018
 ms.keywords: IDistList, IDistList interface [Windows Address Book], IDistList interface [Windows Address Book],described, _wab_IDistList, wab._wab_IDistList, wabdefs/IDistList
-f1_keywords:
-- wabdefs/IDistList
-dev_langs:
-- c++
 req.header: wabdefs.h
 req.include-header: Wabtmp.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IDistList
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IDistList
+ - wabdefs/IDistList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IDistList
 ---
 
 # IDistList interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This interface is used to provide access to distribution lists in modifiable address book containers. The interface provides methods to create, copy, and delete distribution lists, in addition to performing name resolution.
-
 
 ## -inheritance
 
@@ -250,5 +249,5 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: BC5A6B97-6BA8-4C97-9F8B-D87EBCD80A98
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],Initialize method, ID2D1EffectImpl.Initialize, ID2D1EffectImpl::Initialize, Initialize, Initialize method [Direct2D], Initialize method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::Initialize, direct2d.id2d1effectimpl_initialize
-f1_keywords:
-- d2d1effectauthor/ID2D1EffectImpl.Initialize
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2D1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2D1.lib
-- D2D1.dll
-api_name:
-- ID2D1EffectImpl.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1EffectImpl::Initialize
+ - d2d1effectauthor/ID2D1EffectImpl::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2D1.lib
+ - D2D1.dll
+api_name:
+ - ID2D1EffectImpl.Initialize
 ---
 
 # ID2D1EffectImpl::Initialize
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The effect can use this method to do one time initialization tasks.  If this method is not needed, the method can just return <b>S_OK</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param effectContext [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>*</b>
 
 An internal context interface that creates and returns effect author–centric types.
-
 
 ### -param transformGraph [in]
 
@@ -73,21 +68,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectautho
 The effect can
     populate the transform graph with a topology and can update it later.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This moves resource creation cost to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a> call, rather than during rendering.
 
@@ -137,21 +124,11 @@ private:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
- 
-
- 
 

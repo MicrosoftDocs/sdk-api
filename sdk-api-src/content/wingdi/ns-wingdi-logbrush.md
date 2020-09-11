@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: ded2c7a4-2248-4d01-95c6-ab4050719094
 ms.date: 12/05/2018
 ms.keywords: '*LPLOGBRUSH, *LPPATTERN, *NPLOGBRUSH, *NPPATTERN, *PLOGBRUSH, *PPATTERN, LOGBRUSH, LOGBRUSH structure [Windows GDI], PATTERN, PLOGBRUSH, PLOGBRUSH structure pointer [Windows GDI], _win32_LOGBRUSH_str, gdi.logbrush, wingdi/LOGBRUSH, wingdi/PLOGBRUSH'
-f1_keywords:
-- wingdi/LOGBRUSH
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- LOGBRUSH
 targetos: Windows
 req.typenames: LOGBRUSH, *PLOGBRUSH, *NPLOGBRUSH, *LPLOGBRUSH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLOGBRUSH
+ - wingdi/tagLOGBRUSH
+ - PLOGBRUSH
+ - wingdi/PLOGBRUSH
+ - LOGBRUSH
+ - wingdi/LOGBRUSH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - LOGBRUSH
 ---
 
 # LOGBRUSH structure
@@ -49,17 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>LOGBRUSH</b> structure defines the style, color, and pattern of a physical brush. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> functions.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lbStyle
 
@@ -107,8 +104,6 @@ The brush style. The <b>lbStyle</b> member must be one of the following styles.
 <td>Solid brush.</td>
 </tr>
 </table>
- 
-
 
 ### -field lbColor
 
@@ -133,7 +128,6 @@ If <b>lbStyle</b> is BS_DIBPATTERN or BS_DIBPATTERNPT, the low-order word of <b>
  
 
 If <b>lbStyle</b> is BS_HATCHED or BS_SOLID, <b>lbColor</b> is a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value. To create a <b>COLORREF</b> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
-
 
 ### -field lbHatch
 
@@ -181,20 +175,11 @@ If <b>lbStyle</b> is BS_PATTERN, <b>lbHatch</b> is a handle to the bitmap that d
 
 If <b>lbStyle</b> is BS_SOLID or BS_HOLLOW, <b>lbHatch</b> is ignored.
 
-
 ## -remarks
-
-
 
 Although <b>lbColor</b> controls the foreground color of a hatch brush, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a> functions control the background color.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
@@ -237,7 +222,4 @@ Although <b>lbColor</b> controls the foreground color of a hatch brush, the <a h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
- 
-
- 
 

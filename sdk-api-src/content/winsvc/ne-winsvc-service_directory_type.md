@@ -27,6 +27,9 @@ api_location:
  - winsvc.h
 api_name:
  - SERVICE_DIRECTORY_TYPE
+f1_keywords:
+ - SERVICE_DIRECTORY_TYPE
+ - winsvc/SERVICE_DIRECTORY_TYPE
 ---
 
 ## -description
@@ -51,3 +54,4 @@ Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc
 ## -see-also
 
 [GetServiceDirectory](/windows/win32/api/winsvc/ne-winsvc-getservicedirectory)
+

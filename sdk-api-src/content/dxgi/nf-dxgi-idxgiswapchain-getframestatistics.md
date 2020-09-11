@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getframestatistics.htm
 ms.date: 12/05/2018
 ms.keywords: GetFrameStatistics, GetFrameStatistics method [DXGI], GetFrameStatistics method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetFrameStatistics method, IDXGISwapChain.GetFrameStatistics, IDXGISwapChain::GetFrameStatistics, direct3ddxgi.idxgiswapchain_getframestatistics, dxgi/IDXGISwapChain::GetFrameStatistics, f3c97ad1-9125-a209-1985-7dfedb3a35e2
-f1_keywords:
-- dxgi/IDXGISwapChain.GetFrameStatistics
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGISwapChain.GetFrameStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISwapChain::GetFrameStatistics
+ - dxgi/IDXGISwapChain::GetFrameStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGISwapChain.GetFrameStatistics
 ---
 
 # IDXGISwapChain::GetFrameStatistics
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets performance statistics about the last render frame.
 
-
 ## -parameters
-
-
-
 
 ### -param pStats [out]
 
@@ -65,36 +61,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dx
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_frame_statistics">DXGI_FRAME_STATISTICS</a> structure for the frame statistics.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> values.
 
-
-
-
 ## -remarks
-
-
 
 You cannot use <b>GetFrameStatistics</b> for swap chains that both use the bit-block transfer (bitblt) presentation model and draw in windowed mode.
 
 You can only use <b>GetFrameStatistics</b> for swap chains that either use the flip presentation model or draw in full-screen mode. You set the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value in the <b>SwapEffect</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1">DXGI_SWAP_CHAIN_DESC1</a> structure to specify that the swap chain uses the flip presentation model.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
- 
-
- 
 

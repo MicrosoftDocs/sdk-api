@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 6bf6e6c4-6268-479c-86a6-52e90cf317db
 ms.date: 12/05/2018
 ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, AF_UNSPEC, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _win32_socket_2, socket, socket function [Winsock], winsock.socket_2, winsock2/socket
-f1_keywords:
-- winsock2/socket
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- socket
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - socket
+ - winsock2/socket
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - socket
 ---
 
 # socket function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>socket</b> function creates a socket that is bound to a specific transport service provider.
 
-
 ## -parameters
-
-
-
 
 ### -param af [in]
 
@@ -180,8 +176,6 @@ This address family is supported on Windows XP with SP2 or later if the compute
 </td>
 </tr>
 </table>
- 
-
 
 ### -param type [in]
 
@@ -260,8 +254,7 @@ A socket type that provides a pseudo-stream packet based on datagrams.
 In Windows Sockets 2, new socket types were introduced. An application can dynamically discover the attributes of each available transport protocol through the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
 
-In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DGRAM</b> and <b>SOCK_STREAM</b>. 
-
+In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DGRAM</b> and <b>SOCK_STREAM</b>.
 
 ### -param protocol [in]
 
@@ -370,12 +363,8 @@ This <i>protocol</i> value is only supported if the Reliable Multicast Protocol 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If no error occurs, 
 <b>socket</b> returns a descriptor referencing the new socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code can be retrieved by calling 
@@ -532,14 +521,8 @@ The specified socket type is not supported in this address family.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>socket</b> function causes a socket descriptor and any related resources to be allocated and bound to a specific transport-service provider. Winsock will utilize the first available service provider that supports the requested combination of address family, socket type and protocol parameters. The socket that is created will have the overlapped attribute as a default. For Windows, the Microsoft-specific socket option, SO_OPENTYPE, defined in Mswsock.h can affect this default. See Microsoft-specific documentation for a detailed description of SO_OPENTYPE.
@@ -759,13 +742,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IPPROTO_IP Socket Options</a>
 
@@ -848,7 +825,4 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a>
- 
-
- 
 

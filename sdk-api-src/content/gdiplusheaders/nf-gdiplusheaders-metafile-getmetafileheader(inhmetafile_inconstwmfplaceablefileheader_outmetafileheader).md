@@ -7,10 +7,6 @@ helpviewer_keywords: ["Metafile::GetMetafileHeader"]
 ms.assetid: 5d12078c-4492-4bd1-a68b-8ff06dede784
 ms.date: 05/20/2019
 ms.keywords: Metafile::GetMetafileHeader
-f1_keywords:
-- gdiplusheaders/Metafile::GetMetafileHeader
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Metafile::GetMetafileHeader
+ - gdiplusheaders/Metafile::GetMetafileHeader
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Metafile::GetMetafileHeader
+ - Metafile::GetMetafileHeader
 ---
 
 # Metafile::GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader*,MetafileHeader*)
+
 
 ## -description
 
@@ -80,3 +82,4 @@ If the method fails, it returns one of the other elements of the <a href="https:
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
+

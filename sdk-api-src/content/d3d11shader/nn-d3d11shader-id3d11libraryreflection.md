@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 59792EC6-B739-4D86-84F6-DC03AD3016F1
 ms.date: 12/05/2018
 ms.keywords: ID3D11LibraryReflection, ID3D11LibraryReflection interface [Direct3D 11], ID3D11LibraryReflection interface [Direct3D 11],described, d3d11shader/ID3D11LibraryReflection, direct3d11.id3d11libraryreflection
-f1_keywords:
-- d3d11shader/ID3D11LibraryReflection
-dev_langs:
-- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCompiler_47.dll
-api_name:
-- ID3D11LibraryReflection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11LibraryReflection
+ - d3d11shader/ID3D11LibraryReflection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCompiler_47.dll
+api_name:
+ - ID3D11LibraryReflection
 ---
 
 # ID3D11LibraryReflection interface
@@ -49,12 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A library-reflection interface accesses library info. <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -89,12 +87,9 @@ Gets the function reflector.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a library-reflection interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dreflectlibrary">D3DReflectLibrary</a>.
       
@@ -103,19 +98,11 @@ To get a library-reflection interface, call <a href="https://docs.microsoft.com/
       </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
- 
-
- 
 

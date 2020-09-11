@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 66572F97-CE34-4C6B-9083-269A1AE2876D
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],Install method, ICertificateEnrollmentPolicyServerSetup.Install, ICertificateEnrollmentPolicyServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::Install, security.icertificateenrollmentpolicyserversetup_install
-f1_keywords:
-- casetup/ICertificateEnrollmentPolicyServerSetup.Install
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentPolicyServerSetup.Install
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentPolicyServerSetup::Install
+ - casetup/ICertificateEnrollmentPolicyServerSetup::Install
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentPolicyServerSetup.Install
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::Install
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Install</b> method installs the Certificate Enrollment Policy (CEP) Web Service configured by the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a> object.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -105,14 +97,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function performs the following actions:
 
@@ -178,19 +164,11 @@ Updates the security descriptor of the Deleted Objects container in Active Direc
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-setproperty">SetProperty</a>
- 
-
- 
 

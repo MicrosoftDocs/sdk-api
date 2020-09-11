@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 6bc78464-8c9e-4016-b9aa-6589d53d45bf
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX, IAMOverlayFX interface [DirectShow], IAMOverlayFX interface [DirectShow],described, IAMOverlayFXInterface, dshow.iamoverlayfx, strmif/IAMOverlayFX
-f1_keywords:
-- strmif/IAMOverlayFX
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMOverlayFX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMOverlayFX
+ - strmif/IAMOverlayFX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMOverlayFX
 ---
 
 # IAMOverlayFX interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMOverlayFX</code> interface controls how the video overlay appears on the user's screen. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter implements this interface.
-
-
-
 
 ## -inheritance
 
@@ -99,5 +95,5 @@ Applies the specified effects to the overlay surface.
 
 </td>
 </tr>
-</table> 
+</table>
 

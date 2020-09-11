@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 53185A9A-EBA3-4443-8E76-AC85E69B39F2
 ms.date: 12/05/2018
 ms.keywords: EnumModesCallback2, EnumModesCallback2 callback function [DirectDraw], LPDDENUMMODESCALLBACK2, LPDDENUMMODESCALLBACK2 callback, ddraw/EnumModesCallback2, directdraw.enummodescallback2
-f1_keywords:
-- ddraw/EnumModesCallback2
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ddraw.h
-api_name:
-- EnumModesCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPDDENUMMODESCALLBACK2
+ - ddraw/LPDDENUMMODESCALLBACK2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ddraw.h
+api_name:
+ - EnumModesCallback2
 ---
 
 # LPDDENUMMODESCALLBACK2 callback function
@@ -49,28 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>EnumModesCallback2</i> function is an application-defined callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> method.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
 ### -param Arg2
-
-
-
-
-
-
-
 
 #### - lpContext [in]
 
@@ -79,30 +65,15 @@ A pointer to an application-defined structure to be passed to the callback funct
 
 #### - lpDDSurfaceDesc [in]
 
-A pointer to a read-only <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that provides the monitor frequency and the mode that can be created. 
-
-
+A pointer to a read-only <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that provides the monitor frequency and the mode that can be created.
 
 ## -returns
-
-
 
 The callback function returns DDENUMRET_OK to continue the enumeration.
 
 It returns DDENUMRET_CANCEL to stop the enumeration.
 
-
-
-
-
-
 ## -remarks
 
-
-
 You can use the LPDDENUMMODESCALLBACK2 data type to declare a variable that can contain a pointer to this callback function.
-
-
-
-
 

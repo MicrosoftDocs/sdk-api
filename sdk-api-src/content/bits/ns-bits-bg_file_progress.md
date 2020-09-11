@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 322363b4-081e-4100-9087-e34c21a3ffae
 ms.date: 12/05/2018
 ms.keywords: BG_FILE_PROGRESS, BG_FILE_PROGRESS structure [BITS], _drz_bg_file_progress, bits.bg_file_progress, bits/BG_FILE_PROGRESS
-f1_keywords:
-- bits/BG_FILE_PROGRESS
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bits.h
-api_name:
-- BG_FILE_PROGRESS
 targetos: Windows
 req.typenames: BG_FILE_PROGRESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BG_FILE_PROGRESS
+ - bits/_BG_FILE_PROGRESS
+ - BG_FILE_PROGRESS
+ - bits/BG_FILE_PROGRESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bits.h
+api_name:
+ - BG_FILE_PROGRESS
 ---
 
 # BG_FILE_PROGRESS structure
@@ -51,11 +54,7 @@ ms.custom: 19H1
 
 Provides file-related progress information, such as the number of bytes transferred.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BytesTotal
 
@@ -63,11 +62,9 @@ Size of the file in bytes. If BITS cannot determine the size of the file (for ex
 
 If you are downloading ranges from a file, <b>BytesTotal</b> reflects the total number of bytes you want to download from the file.
 
-
 ### -field BytesTransferred
 
 Number of bytes transferred.
-
 
 ### -field Completed
 
@@ -79,10 +76,7 @@ For downloads, the value is <b>TRUE</b> if the file is available to the user; ot
 
 For uploads, the value is <b>TRUE</b> when the file upload is complete; otherwise, the value is <b>FALSE</b>.
 
-
 ## -remarks
-
-
 
 To determine if BITS transferred the file, you can:
 
@@ -92,13 +86,7 @@ To determine if BITS transferred the file, you can:
 </ul>
 Note that the progress values will be set back to zero if the time stamp of the URL changes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>
 
@@ -113,7 +101,4 @@ Note that the progress values will be set back to zero if the time stamp of the 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
- 
-
- 
 

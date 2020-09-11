@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: e204c585-4996-4274-a654-b9912e957fe6
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Direct3D 11], Flush method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Flush method, ID3D11DeviceContext.Flush, ID3D11DeviceContext::Flush, b14698ec-f6ed-febc-05d4-5a02d568e816, d3d11/ID3D11DeviceContext::Flush, direct3d11.id3d11devicecontext_flush
-f1_keywords:
-- d3d11/ID3D11DeviceContext.Flush
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::Flush
+ - d3d11/ID3D11DeviceContext::Flush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.Flush
 ---
 
 # ID3D11DeviceContext::Flush
@@ -50,20 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends queued-up commands in the command buffer to the graphics processing unit (GPU).
-
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 Most applications don't need to call this method. If an application calls this method when not necessary, it incurs a performance penalty. 
       Each call to <b>Flush</b> incurs a significant amount of overhead.
@@ -87,16 +79,7 @@ Direct3D 11 defers the destruction of objects like views and resources until it
 
 Most applications typically use the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a> method for the majority of scenarios where they replace new swap chain buffers for old swap chain buffers. However, if an application must actually destroy an old swap chain and create a new swap chain, the application must force the destruction of all objects that the application freed. To force the destruction, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-clearstate">ID3D11DeviceContext::ClearState</a> (or otherwise ensure no views are bound to pipeline state), and then call <b>Flush</b> on the immediate context. You must force destruction before you call <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a> again to create a new swap chain.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
 

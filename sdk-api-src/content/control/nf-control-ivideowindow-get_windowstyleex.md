@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: cdffe918-5802-406e-86b1-d1e9ebb6dbf7
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyleEx method, IVideoWindow.get_WindowStyleEx, IVideoWindow::get_WindowStyleEx, IVideoWindowget_WindowStyleEx, control/IVideoWindow::get_WindowStyleEx, dshow.ivideowindow_get_windowstyleex, get_WindowStyleEx, get_WindowStyleEx method [DirectShow], get_WindowStyleEx method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_WindowStyleEx
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_WindowStyleEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_WindowStyleEx
+ - control/IVideoWindow::get_WindowStyleEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_WindowStyleEx
 ---
 
 # IVideoWindow::get_WindowStyleEx
@@ -50,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_WindowStyleEx</code> method retrieves the extended window styles on the video window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param WindowStyleEx [out, retval]
 
 Receives the window style flags.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -113,24 +102,12 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method calls the Windows <b>GetWindowLong</b> function with the value GWL_EXSTYLE.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -145,7 +122,4 @@ This method calls the Windows <b>GetWindowLong</b> function with the value GWL_E
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyleex">IVideoWindow::put_WindowStyleEx</a>
- 
-
- 
 

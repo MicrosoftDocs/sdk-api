@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: FDD5F81B-F356-49D9-B6FE-FE2847934E61
 ms.date: 12/05/2018
 ms.keywords: D3D12_QUERY_HEAP_TYPE, D3D12_QUERY_HEAP_TYPE enumeration, D3D12_QUERY_HEAP_TYPE_COPY_QUEUE_TIMESTAMP, D3D12_QUERY_HEAP_TYPE_OCCLUSION, D3D12_QUERY_HEAP_TYPE_PIPELINE_STATISTICS, D3D12_QUERY_HEAP_TYPE_SO_STATISTICS, D3D12_QUERY_HEAP_TYPE_TIMESTAMP, D3D12_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS, d3d12/D3D12_QUERY_HEAP_TYPE, d3d12/D3D12_QUERY_HEAP_TYPE_COPY_QUEUE_TIMESTAMP, d3d12/D3D12_QUERY_HEAP_TYPE_OCCLUSION, d3d12/D3D12_QUERY_HEAP_TYPE_PIPELINE_STATISTICS, d3d12/D3D12_QUERY_HEAP_TYPE_SO_STATISTICS, d3d12/D3D12_QUERY_HEAP_TYPE_TIMESTAMP, d3d12/D3D12_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS, direct3d12.d3d12_query_heap_type
-f1_keywords:
-- d3d12/D3D12_QUERY_HEAP_TYPE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_QUERY_HEAP_TYPE
 targetos: Windows
 req.typenames: D3D12_QUERY_HEAP_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_QUERY_HEAP_TYPE
+ - d3d12/D3D12_QUERY_HEAP_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_QUERY_HEAP_TYPE
 ---
 
 # D3D12_QUERY_HEAP_TYPE enumeration
+
 
 ## -description
 
@@ -54,11 +56,11 @@ Specifies the type of query heap to create.
 
 ### -field D3D12_QUERY_HEAP_TYPE_OCCLUSION
 
-This returns a binary 0/1 result:  0 indicates that no samples passed depth and stencil testing, 1 indicates that at least one sample passed depth and stencil testing.  This enables occlusion queries to not interfere with any GPU performance optimization associated with depth/stencil testing.  
+This returns a binary 0/1 result:  0 indicates that no samples passed depth and stencil testing, 1 indicates that at least one sample passed depth and stencil testing.  This enables occlusion queries to not interfere with any GPU performance optimization associated with depth/stencil testing.
 
 ### -field D3D12_QUERY_HEAP_TYPE_TIMESTAMP
 
-Indicates that the heap is for high-performance timing data. 
+Indicates that the heap is for high-performance timing data.
 
 ### -field D3D12_QUERY_HEAP_TYPE_PIPELINE_STATISTICS
 
@@ -87,3 +89,4 @@ This enum is used by the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_query_
 ## -see-also
 
 [Core enumerations](/windows/win32/direct3d12/direct3d-12-enumerations)
+

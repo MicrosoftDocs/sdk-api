@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 2959B5C0-A513-4124-8391-E05E9F43CD53
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_LOCATE_SENSOR_CALLBACK, PWINBIO_LOCATE_SENSOR_CALLBACK callback, PWINBIO_LOCATE_SENSOR_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_locate_sensor_callback, winbio/PWINBIO_LOCATE_SENSOR_CALLBACK
-f1_keywords:
-- winbio/PWINBIO_LOCATE_SENSOR_CALLBACK
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio.h
-api_name:
-- PWINBIO_LOCATE_SENSOR_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWINBIO_LOCATE_SENSOR_CALLBACK
+ - winbio/PWINBIO_LOCATE_SENSOR_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio.h
+api_name:
+ - PWINBIO_LOCATE_SENSOR_CALLBACK
 ---
 
 # PWINBIO_LOCATE_SENSOR_CALLBACK callback function
 
 
 ## -description
-
 
 Called by the Windows Biometric Framework to return results from the   asynchronous  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiolocatesensorwithcallback">WinBioLocateSensorWithCallback</a> function. The client application must implement this function.
 
@@ -62,25 +62,17 @@ Called by the Windows Biometric Framework to return results from the   asynchron
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param LocateCallbackContext [in, optional]
 
 Pointer to a buffer defined by the application and passed to the <i>LocateCallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiolocatesensorwithcallback">WinBioLocateSensorWithCallback</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
 
-
 ### -param OperationStatus [in]
 
 Error code returned by the capture operation.
 
-
 ### -param UnitId
 
 Biometric unit ID number.
-
 

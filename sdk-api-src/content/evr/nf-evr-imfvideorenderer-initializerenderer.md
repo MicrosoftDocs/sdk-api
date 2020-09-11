@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: e46a9596-9f3f-4430-8d45-bbc9c240be3b
 ms.date: 12/05/2018
 ms.keywords: IMFVideoRenderer interface [Media Foundation],InitializeRenderer method, IMFVideoRenderer.InitializeRenderer, IMFVideoRenderer::InitializeRenderer, InitializeRenderer, InitializeRenderer method [Media Foundation], InitializeRenderer method [Media Foundation],IMFVideoRenderer interface, e46a9596-9f3f-4430-8d45-bbc9c240be3b, evr/IMFVideoRenderer::InitializeRenderer, mf.imfvideorenderer_initializerenderer
-f1_keywords:
-- evr/IMFVideoRenderer.InitializeRenderer
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoRenderer.InitializeRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoRenderer::InitializeRenderer
+ - evr/IMFVideoRenderer::InitializeRenderer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoRenderer.InitializeRenderer
 ---
 
 # IMFVideoRenderer::InitializeRenderer
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets a new mixer or presenter for the enhanced video renderer (EVR).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pVideoMixer [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of the mixer to use. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the EVR uses its default mixer.
 
-
 ### -param pVideoPresenter [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface of the presenter to use. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the EVR uses its default presenter.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -139,14 +128,8 @@ One or more input pins are connected. (DirectShow EVR filter.)
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this method directly after creating the EVR, before you do any of the following:
 
@@ -170,13 +153,7 @@ The device identifiers for the mixer and the presenter must match. The <a href="
 
 If the video renderer is in the protected media path (PMP), the mixer and presenter objects must be certified safe components and pass any trust authority verification that is being enforced. Otherwise, this method will fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
@@ -187,7 +164,4 @@ If the video renderer is in the protected media path (PMP), the mixer and presen
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideorenderer">IMFVideoRenderer</a>
- 
-
- 
 

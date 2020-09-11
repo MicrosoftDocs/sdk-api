@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: bb05847a-e7fb-481b-ad84-9f6dc15f9be0
 ms.date: 12/05/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStore.EnumerateTargets, ITsSbResourcePluginStore::EnumerateTargets, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStoreEx::EnumerateTargets, sbtsv/ITsSbResourcePluginStore::EnumerateTargets, sbtsv/ITsSbResourcePluginStoreEx::EnumerateTargets, termserv.itssbresourcepluginstore_enumeratetargets
-f1_keywords:
-- sbtsv/ITsSbResourcePluginStore.EnumerateTargets
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourcePluginStore.EnumerateTargets
-- ITsSbResourcePluginStoreEx.EnumerateTargets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourcePluginStore::EnumerateTargets
+ - sbtsv/ITsSbResourcePluginStore::EnumerateTargets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourcePluginStore.EnumerateTargets
+ - ITsSbResourcePluginStoreEx.EnumerateTargets
 ---
 
 # ITsSbResourcePluginStore::EnumerateTargets
@@ -50,58 +51,39 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns an array that contains the specified targets that are present in the resource plug-in store. 
-
+Returns an array that contains the specified targets that are present in the resource plug-in store.
 
 ## -parameters
-
-
-
 
 ### -param FarmName [in]
 
 The farm name.
 
-
 ### -param EnvName [in]
 
 The environment name.
-
 
 ### -param sortByFieldId [in]
 
 Specifies sort order.
 
-
 ### -param sortyByPropName [in]
 
 The property name to sort by if <i>sortByFieldId</i> is set to <b>TS_SB_SORT_BY_PROP</b>.
-
 
 ### -param pdwCount [in, out]
 
 The number of targets retrieved.
 
-
 ### -param pVal [out]
 
 Pointer to the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>objects.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
 
@@ -112,7 +94,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62
 ms.date: 12/05/2018
 ms.keywords: MprConfigBufferFree, MprConfigBufferFree function [RAS], _mpr_mprconfigbufferfree, mprapi/MprConfigBufferFree, rras.mprconfigbufferfree
-f1_keywords:
-- mprapi/MprConfigBufferFree
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigBufferFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigBufferFree
+ - mprapi/MprConfigBufferFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigBufferFree
 ---
 
 # MprConfigBufferFree function
 
 
 ## -description
-
 
 The 
 <b>MprConfigBufferFree</b> function frees buffers allocated by calls to the following functions:
@@ -62,11 +62,7 @@ MprConfigXGetInfo
 where X stands for Server, 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/interface">Interface</a>, Transport, or InterfaceTransport.
 
-
 ## -parameters
-
-
-
 
 ### -param pBuffer [in]
 
@@ -84,20 +80,11 @@ MprConfigXGetInfo
 where X stands for Server, 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/interface">Interface</a>, Transport, or InterfaceTransport.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a>
 
@@ -132,7 +119,4 @@ If the function succeeds, the return value is NO_ERROR.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

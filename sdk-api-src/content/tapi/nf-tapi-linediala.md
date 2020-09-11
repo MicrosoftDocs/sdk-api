@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 111e6c11-67a7-4aab-81dd-f1b4316887e7
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linedial, lineDial, lineDial function [TAPI 2.2], lineDialA, lineDialW, tapi/lineDial, tapi/lineDialA, tapi/lineDialW, tapi2.linedial
-f1_keywords:
-- tapi/lineDial
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineDial
-- lineDialA
-- lineDialW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineDialA
+ - tapi/lineDialA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineDial
+ - lineDialA
+ - lineDialW
 ---
 
 # lineDialA function
@@ -51,46 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineDial</b> function dials the specified dialable number on the specified call.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to the call on which a number is to be dialed. The application must be an owner of the call. The call state of <i>hCall</i> can be any state except <i>idle</i> and <i>disconnected</i>.
 
-
 ### -param lpszDestAddress
 
 Destination to be dialed using the standard dialable number format.
-
 
 ### -param dwCountryCode
 
 Country or region code of the destination. This is used by the implementation to select the call progress protocols for the destination address. If a value of 0 is specified, a service provider-defined default call progress protocol is used.
 
-
 ## -returns
-
-
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_ADDRESSBLOCKED, LINEERR_INVALPOINTER, LINEERR_DIALBILLING, LINEERR_NOMEM, LINEERR_DIALDIALTONE, LINEERR_NOTOWNER, LINEERR_DIALPROMPT, LINEERR_OPERATIONFAILED, LINEERR_DIALQUIET, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_UNINITIALIZED, LINEERR_INVALCOUNTRYCODE.
 
-
-
-
 ## -remarks
-
-
 
 If LINEERR_INVALADDRESS is returned, no dialing has been done. If LINEERR_DIALBILLING, LINEERR_DIALQUIET, LINEERR_DIALDIALTONE, or LINEERR_DIALPROMPT is returned, none of the actions otherwise performed by 
 <b>lineDial</b> have occurred. For example, none of the dialable addresses prior to the offending character has been dialed, no hookswitch state has changed, and so on.
@@ -126,9 +112,6 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
@@ -158,7 +141,4 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
- 
-
- 
 

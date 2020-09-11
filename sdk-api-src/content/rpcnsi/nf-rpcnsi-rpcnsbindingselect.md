@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 1acdd266-9ca2-43d4-b677-7c30b4dca4ee
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingSelect, RpcNsBindingSelect function [RPC], _rpc_rpcnsbindingselect, rpc.rpcnsbindingselect, rpcnsi/RpcNsBindingSelect
-f1_keywords:
-- rpcnsi/RpcNsBindingSelect
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingSelect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingSelect
+ - rpcnsi/RpcNsBindingSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingSelect
 ---
 
 # RpcNsBindingSelect function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingSelect</b> function returns a binding handle from a list of compatible binding handles.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param BindingVec
 
 Pointer to the vector of client-compatible server binding handles from which a binding handle is selected. The returned binding vector no longer references the selected binding handle, which is returned separately in the <i>Binding</i> parameter.
-
 
 ### -param Binding
 
 Pointer to a selected binding handle.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -107,11 +100,7 @@ No more bindings.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Each time the client calls the 
 <b>RpcNsBindingSelect</b> function, the function operation returns another binding handle from the vector.
@@ -127,13 +116,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2
 Clients can create their own select routines implementing application-specific selection criteria. In this case, 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a> provides access to the fields of a binding.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
 
@@ -148,7 +131,4 @@ Clients can create their own select routines implementing application-specific s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: SMI
 ms.assetid: f1dd3c93-43ca-4804-8330-55acaccf8ea8
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo, ITargetInfo interface [SMI], ITargetInfo interface [SMI],described, smi.itargetinfo, wcmconfig/ITargetInfo
-f1_keywords:
-- wcmconfig/ITargetInfo
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ITargetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITargetInfo
+ - wcmconfig/ITargetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ITargetInfo
 ---
 
 # ITargetInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the offline target information,  specifically, file and registry locations as well as wow64 information.
-
 
 ## -inheritance
 
@@ -257,5 +256,5 @@ Translates paths for wow64 redirection.
 
 </td>
 </tr>
-</table> 
+</table>
 

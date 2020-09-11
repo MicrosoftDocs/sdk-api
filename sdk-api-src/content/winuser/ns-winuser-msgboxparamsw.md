@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\msgboxparams.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPMSGBOXPARAMSW, *PMSGBOXPARAMSW, MSGBOXPARAMS, MSGBOXPARAMS structure [Dialog Boxes], MSGBOXPARAMSA, MSGBOXPARAMSW, PMSGBOXPARAMS, PMSGBOXPARAMS structure pointer [Dialog Boxes], _win32_MSGBOXPARAMS_str, _win32_msgboxparams_str_cpp, dlgbox.msgboxparams, winui._win32_msgboxparams_str, winuser/MSGBOXPARAMS, winuser/MSGBOXPARAMSA, winuser/MSGBOXPARAMSW, winuser/PMSGBOXPARAMS'
-f1_keywords:
-- winuser/MSGBOXPARAMS
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MSGBOXPARAMS
-- MSGBOXPARAMSA
-- MSGBOXPARAMSW
 targetos: Windows
 req.typenames: MSGBOXPARAMSW, *PMSGBOXPARAMSW, *LPMSGBOXPARAMSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMSGBOXPARAMSW
+ - winuser/tagMSGBOXPARAMSW
+ - PMSGBOXPARAMSW
+ - winuser/PMSGBOXPARAMSW
+ - MSGBOXPARAMSW
+ - winuser/MSGBOXPARAMSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MSGBOXPARAMS
+ - MSGBOXPARAMSA
+ - MSGBOXPARAMSW
 ---
 
 # MSGBOXPARAMSW structure
@@ -51,28 +56,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information used to display a message box. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a> function uses this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>UINT</b>
 
-The structure size, in bytes. 
-
+The structure size, in bytes.
 
 ### -field hwndOwner
 
 Type: <b>HWND</b>
 
-A handle to the owner window. This member can be <b>NULL</b>. 
-
+A handle to the owner window. This member can be <b>NULL</b>.
 
 ### -field hInstance
 
@@ -81,23 +79,20 @@ Type: <b>HINSTANCE</b>
 A handle to the module that contains the icon resource identified by the 
 					<b>lpszIcon</b> member, and the string resource identified by the 
 					<b>lpszText</b> or 
-					<b>lpszCaption</b> member. 
-
+					<b>lpszCaption</b> member.
 
 ### -field lpszText
 
 Type: <b>LPCTSTR</b>
 
-A null-terminated string, or the identifier of a string resource, that contains the message to be displayed. 
-
+A null-terminated string, or the identifier of a string resource, that contains the message to be displayed.
 
 ### -field lpszCaption
 
 Type: <b>LPCTSTR</b>
 
 A null-terminated string, or the identifier of a string resource, that contains the message box title. If this member is <b>NULL</b>, the default title 
-					<b>Error</b> is used. 
-
+					<b>Error</b> is used.
 
 ### -field dwStyle
 
@@ -107,8 +102,7 @@ The contents and behavior of the dialog box. This member can be a combination of
 					<i>uType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a> function. 
 
 In addition, you can specify the <b>MB_USERICON</b> flag (0x00000080L) if you want the message box to display the icon specified by the 
-					<b>lpszIcon</b> member. 
-
+					<b>lpszIcon</b> member.
 
 ### -field lpszIcon
 
@@ -121,15 +115,13 @@ To load one of the standard system-defined icons, set the
 						<b>lpszIcon</b> to one of the values listed with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function. 
 
 This member is ignored if the 
-						<b>dwStyle</b> member does not specify the <b>MB_USERICON</b> flag. 
-
+						<b>dwStyle</b> member does not specify the <b>MB_USERICON</b> flag.
 
 ### -field dwContextHelpId
 
 Type: <b>DWORD_PTR</b>
 
-Identifies a help context. If a help event occurs, this value is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpinfo">HELPINFO</a> structure that the message box sends to the owner window or callback function. 
-
+Identifies a help context. If a help event occurs, this value is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpinfo">HELPINFO</a> structure that the message box sends to the owner window or callback function.
 
 ### -field lpfnMsgBoxCallback
 
@@ -141,8 +133,7 @@ A pointer to the callback function that processes help events for the message bo
 <code>VOID CALLBACK MsgBoxCallback(LPHELPINFO lpHelpInfo);</code>
 
 If this member is <b>NULL</b>, the message box sends 
-					<a href="https://docs.microsoft.com/windows/desktop/shell/wm-help">WM_HELP</a> messages to the owner window when help events occur. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/shell/wm-help">WM_HELP</a> messages to the owner window when help events occur.
 
 ### -field dwLanguageId
 
@@ -152,13 +143,9 @@ The language in which to display the text contained in the predefined push butto
 					<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. 
 
 For a list of supported language identifiers, see <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>. Note that each localized release of Windows typically contains resources only for a limited set of languages. Thus, for example, the U.S. version offers <b>LANG_ENGLISH</b>, the French version offers <b>LANG_FRENCH</b>, the German version offers <b>LANG_GERMAN</b>, and the Japanese version offers <b>LANG_JAPANESE</b>. Each version offers <b>LANG_NEUTRAL</b>. This limits the set of values that can be used with the 
-					<b>dwLanguageId</b> parameter. Before specifying a language identifier, you should enumerate the locales that are installed on a system. 
-
+					<b>dwLanguageId</b> parameter. Before specifying a language identifier, you should enumerate the locales that are installed on a system.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -201,9 +188,6 @@ For a list of supported language identifiers, see <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/wm-help">WM_HELP</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 88ae35ea-6ff9-431c-848b-84fc61d3c690
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand, IShellFolderBand interface [Windows Shell], IShellFolderBand interface [Windows Shell],described, _win32_IShellFolderBand, shell.IShellFolderBand, shlobj/IShellFolderBand
-f1_keywords:
-- shlobj/IShellFolderBand
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellFolderBand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderBand
+ - shlobj/IShellFolderBand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellFolderBand
 ---
 
 # IShellFolderBand interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IShellFolderBand</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Exposes methods that manage folder bands. The Quick Launch bar is an example of a folder band.
-
 
 ## -inheritance
 
@@ -97,5 +96,5 @@ Uses the information in a <a href="https://docs.microsoft.com/windows/desktop/ap
 
 </td>
 </tr>
-</table> 
+</table>
 

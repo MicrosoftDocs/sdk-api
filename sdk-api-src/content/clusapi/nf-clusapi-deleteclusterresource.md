@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: d6a8425c-c926-46d8-b13a-c293f8ed30a8
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterResource, DeleteClusterResource function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_RESOURCE, PCLUSAPI_DELETE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_deleteclusterresource, clusapi/DeleteClusterResource, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE, mscs.deleteclusterresource
-f1_keywords:
-- clusapi/DeleteClusterResource
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- DeleteClusterResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteClusterResource
+ - clusapi/DeleteClusterResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - DeleteClusterResource
 ---
 
 # DeleteClusterResource function
@@ -53,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes an offline  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle to an offline resource. You must close this handle separately.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -104,26 +97,14 @@ Windows Server 2012: The resource identified by <i>hResource</i> is not offline
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>DeleteClusterResource</b> does not close the resource handle specified by <i>hResource</i>. To avoid memory leaks, be sure to close this handle with  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>.
 
 Do not call  <b>DeleteClusterResource</b> from a resource DLL. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
 
@@ -134,7 +115,4 @@ Do not call  <b>DeleteClusterResource</b> from a resource DLL. For more informat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
- 
-
- 
 

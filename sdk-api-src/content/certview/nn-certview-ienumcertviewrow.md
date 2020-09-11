@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c9529f7a-9d97-4315-af96-f7b687af3c2e
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], IEnumCERTVIEWROW interface [Security],described, _certsrv_ienumcertviewrow, certview/IEnumCERTVIEWROW, security.ienumcertviewrow
-f1_keywords:
-- certview/IEnumCERTVIEWROW
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWROW
-- IEnumCERTVIEWROW.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWROW
+ - certview/IEnumCERTVIEWROW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWROW
+ - IEnumCERTVIEWROW.Clone
 ---
 
 # IEnumCERTVIEWROW interface
 
 
 ## -description
-
 
 The <b>IEnumCERTVIEWROW</b> interface represents a row-enumeration sequence that contains the data in the rows of the Certificate Services view, allowing further access to the columns, attributes, and extensions associated with each row.
 
@@ -64,7 +64,6 @@ The row-enumeration sequence is obtained through a call to the
 <b>IEnumCERTVIEWROW</b> is defined in Certview.h. When you create your program, however, use Certsrv.h as the include file. Certadm.dll provides the <b>IEnumCERTVIEWROW</b> interface. The type information for this interface is also in Certadml.dll, which is shipped with the Platform Software Development Kit (SDK).
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -137,20 +136,13 @@ Moves to the beginning of the row-enumeration sequence.</p> (Inherited from <b>I
 <td align="left" width="63%">
 Skips a specified number of rows in the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

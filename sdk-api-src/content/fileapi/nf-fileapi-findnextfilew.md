@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: db7acb83-2da6-40bf-9962-5cfe54e257a5
 ms.date: 12/05/2018
 ms.keywords: FindNextFile, FindNextFile function [Files], FindNextFileA, FindNextFileW, _win32_findnextfile, base.findnextfile, fileapi/FindNextFile, fileapi/FindNextFileA, fileapi/FindNextFileW, fs.findnextfile, winbase/FindNextFile, winbase/FindNextFileA, winbase/FindNextFileW
-f1_keywords:
-- fileapi/FindNextFile
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- FindNextFile
-- FindNextFileA
-- FindNextFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindNextFileW
+ - fileapi/FindNextFileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - FindNextFile
+ - FindNextFileA
+ - FindNextFileW
 ---
 
 # FindNextFileW function
@@ -58,17 +59,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Continues a file search from a previous call to the 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>, or 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hFindFile [in]
 
@@ -76,16 +72,12 @@ The search handle returned by a previous call to the
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> or 
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function.
 
-
 ### -param lpFindFileData [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure 
       that receives information about the found file or subdirectory.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero and  the <i>lpFindFileData</i> 
        parameter contains information about the next file or directory found.
@@ -98,12 +90,7 @@ If the function fails because no more matching files can be found, the
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
        <b>ERROR_NO_MORE_FILES</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function uses the same search filters that were used to create the search handle passed in the 
     <i>hFindFile</i> parameter. For additional information, see 
@@ -208,9 +195,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
@@ -240,7 +224,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
- 
-
- 
 

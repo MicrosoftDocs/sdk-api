@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e0a77f8c-8608-4e16-bc7a-3c90dde2aad8
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_BassRange method, IAMAudioInputMixer.get_BassRange, IAMAudioInputMixer::get_BassRange, IAMAudioInputMixerget_BassRange, dshow.iamaudioinputmixer_get_bassrange, get_BassRange, get_BassRange method [DirectShow], get_BassRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_BassRange
-f1_keywords:
-- strmif/IAMAudioInputMixer.get_BassRange
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAudioInputMixer.get_BassRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAudioInputMixer::get_BassRange
+ - strmif/IAMAudioInputMixer::get_BassRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAudioInputMixer.get_BassRange
 ---
 
 # IAMAudioInputMixer::get_BassRange
@@ -50,36 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_BassRange</code> method retrieves the bass range.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pRange [out]
 
 Receives the largest valid value for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_bass">IAMAudioInputMixer::put_Bass</a> method. For example, 6.0 means that any value between –6.0 and 6.0 is valid.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -90,7 +74,4 @@ If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_bass">IAMAudioInputMixer::put_Bass</a>
- 
-
- 
 

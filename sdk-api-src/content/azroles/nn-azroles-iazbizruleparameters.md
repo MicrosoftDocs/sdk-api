@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 07eb33be-71a3-42fc-b7f3-12be23746aa3
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleParameters, IAzBizRuleParameters interface [Security], IAzBizRuleParameters interface [Security],described, azroles/IAzBizRuleParameters, security.iazbizruleparameters
-f1_keywords:
-- azroles/IAzBizRuleParameters
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzBizRuleParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzBizRuleParameters
+ - azroles/IAzBizRuleParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzBizRuleParameters
 ---
 
 # IAzBizRuleParameters interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzBizRuleParameters</b> interface provides methods and properties used to manage a list of parameters that can be passed to business rule (BizRule) scripts.
-
 
 ## -inheritance
 
@@ -133,20 +132,13 @@ Gets the number of parameters available to BizRule scripts.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleparameters">IAzClientContext3::BizRuleParameters</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: ef85dce6-b680-4a72-9277-4cfdab27cbbc
 ms.date: 12/05/2018
 ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [COM],described, _ctrl_iolecontrol, com.iolecontrol, ocidl/IOleControl
-f1_keywords:
-- ocidl/IOleControl
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleControl
+ - ocidl/IOleControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleControl
 ---
 
 # IOleControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the features for supporting keyboard mnemonics, ambient properties, and events in control objects.
-
 
 ## -inheritance
 
@@ -104,20 +103,13 @@ Informs a control that the user has pressed a keystroke that represents a keyboa
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a>
- 
-
- 
 

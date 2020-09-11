@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 2ddfdfc8-db43-4acc-aebc-617d3e746a4f
 ms.date: 12/05/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],GetStorage method, IMDSPStorage2.GetStorage, IMDSPStorage2::GetStorage, IMDSPStorage2GetStorage, mswmdm/IMDSPStorage2::GetStorage, wmdm.imdspstorage2_getstorage
-f1_keywords:
-- mswmdm/IMDSPStorage2.GetStorage
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPStorage2.GetStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorage2::GetStorage
+ - mswmdm/IMDSPStorage2::GetStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPStorage2.GetStorage
 ---
 
 # IMDSPStorage2::GetStorage
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStorage</b> method makes it possible to go directly to a storage object from a storage name instead of enumerating through all storages to find it.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszStorageName [in]
 
 Pointer to a <b>null</b>-terminated string containing the storage name.
 
-
 ### -param ppStorage [out]
 
 Pointer to the storage object specified by <i>pszStorageName</i>, or <b>NULL</b> if no such storage was found.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -85,12 +74,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IMDSPStorage2::GetStorage</b> interface extends the functionality of <b>IMDSPStorage</b>.
 
@@ -102,20 +86,11 @@ It is strongly recommended that a service provider implement this method to effi
 
 This method is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2 Interface</a>
- 
-
- 
 

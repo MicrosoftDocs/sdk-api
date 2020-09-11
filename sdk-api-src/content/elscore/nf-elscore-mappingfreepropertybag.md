@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 7e06e85d-109a-4c5f-be18-3750e25c4986
 ms.date: 12/05/2018
 ms.keywords: MappingFreePropertyBag, MappingFreePropertyBag function [Internationalization for Windows Applications], elscore/MappingFreePropertyBag, intl.mappingfreepropertybag
-f1_keywords:
-- elscore/MappingFreePropertyBag
-dev_langs:
-- c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Elscore.lib
 req.dll: Elscore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Elscore.dll
-- ext-ms-win-els-elscore-l1-1-0.dll
-api_name:
-- MappingFreePropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MappingFreePropertyBag
+ - elscore/MappingFreePropertyBag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Elscore.dll
+ - ext-ms-win-els-elscore-l1-1-0.dll
+api_name:
+ - MappingFreePropertyBag
 ---
 
 # MappingFreePropertyBag function
@@ -50,32 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees memory and resources allocated during an ELS text recognition operation.
 
-
 ## -parameters
-
-
-
 
 ### -param pBag [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure containing the properties for which to free resources. This parameter cannot be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful. The function returns an error HRESULT value if it does not succeed.
 
-
-
-
 ## -remarks
-
-
 
 An ELS service allocates memory and resources for data retrieved from application calls to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>. The <b>MappingFreePropertyBag</b> function releases these resources.
 
@@ -84,12 +72,7 @@ An ELS service allocates memory and resources for data retrieved from applicatio
 <div class="alert"><b>Caution</b>  The application must call this function only once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a> when the property bag is no longer needed. Not calling <b>MappingFreePropertyBag</b> after each call to <b>MappingRecognizeText</b> causes a resource leak. For more information about memory allocation for the property bag, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
 
@@ -108,7 +91,4 @@ An ELS service allocates memory and resources for data retrieved from applicatio
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/requesting-text-recognition">Requesting Text Recognition</a>
- 
-
- 
 

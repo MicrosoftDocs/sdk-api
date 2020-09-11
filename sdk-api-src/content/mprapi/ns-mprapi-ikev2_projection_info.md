@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 092ccaf9-d109-41a8-aa45-cf39f6bb70ca
 ms.date: 12/05/2018
 ms.keywords: '*PIKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO structure [RAS], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, MPRAPI_IKEV2_AUTH_USING_CERT, MPRAPI_IKEV2_AUTH_USING_EAP, PIKEV2_PROJECTION_INFO, PIKEV2_PROJECTION_INFO structure pointer [RAS], mprapi/IKEV2_PROJECTION_INFO, mprapi/PIKEV2_PROJECTION_INFO, rras.ikev2_projection_info'
-f1_keywords:
-- mprapi/IKEV2_PROJECTION_INFO
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- IKEV2_PROJECTION_INFO
 targetos: Windows
 req.typenames: IKEV2_PROJECTION_INFO, *PIKEV2_PROJECTION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IKEV2_PROJECTION_INFO
+ - mprapi/_IKEV2_PROJECTION_INFO
+ - PIKEV2_PROJECTION_INFO
+ - mprapi/PIKEV2_PROJECTION_INFO
+ - IKEV2_PROJECTION_INFO
+ - mprapi/IKEV2_PROJECTION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - IKEV2_PROJECTION_INFO
 ---
 
 # IKEV2_PROJECTION_INFO structure
@@ -49,70 +54,54 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>IKEV2_PROJECTION_INFO</b> structure contains information obtained during Internet Key Exchange (IKE) negotiation.  
-
+<b>IKEV2_PROJECTION_INFO</b> structure contains information obtained during Internet Key Exchange (IKE) negotiation.
 
 ## -struct-fields
-
-
-
 
 ### -field dwIPv4NegotiationError
 
 A value that specifies the result of IPv4 negotiation. A value of zero indicates an IPv4 address has been assigned successfully. A nonzero value indicates failure, and is the fatal error that occurred during negotiation.
 
-
 ### -field wszAddress
 
 An array that contains a Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>wszAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
-
 
 ### -field wszRemoteAddress
 
 An array that contains a Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>wszRemoteAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
 
-
 ### -field IPv4SubInterfaceIndex
 
 A value that specifies the IPv4 subinterface   index corresponding to the connection on the server.
-
 
 ### -field dwIPv6NegotiationError
 
 A value that specifies the result of IPv6 negotiation. A value of zero indicates an IPv6 address has been negotiated successfully. A nonzero value indicates failure, and is the fatal error that occurred during negotiation.
 
-
 ### -field bInterfaceIdentifier
 
 An array that specifies the 64-bit IPv6 interface identifier of the client. The last 64 bits of a 128-bit IPv6 internet address are considered the "interface identifier," which provides a strong level of uniqueness for the preceding 64-bits. <b>bInterfaceIdentifier</b> is valid only if <b>dwIPv6NegotiationError</b> is zero and must not be zero.
-
 
 ### -field bRemoteInterfaceIdentifier
 
 An array that specifies the 64-bit IPv6 interface identifier of the server. The last 64 bits of a 128-bit IPv6 internet address are considered the "interface identifier," which provides a strong level of uniqueness for the preceding 64-bits. <b>bInterfaceIdentifier</b> is valid only if <b>dwIPv6NegotiationError</b> is zero and must not be zero.
 
-
 ### -field bPrefix
 
 A value that specifies the client interface IPv6  address prefix.
-
 
 ### -field dwPrefixLength
 
 A value that specifies the length, in bits, of <b>bPrefix</b>.
 
-
 ### -field IPv6SubInterfaceIndex
 
 A value that specifies the IPv6 subinterface   index corresponding to the connection on the server.
 
-
 ### -field dwOptions
 
-Not used. 
-
+Not used.
 
 ### -field dwAuthenticationProtocol
 
@@ -145,18 +134,14 @@ Extensible Authentication Protocol
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwEapTypeId
 
 A value that specifies the type identifier of the Extensible Authentication Protocol (EAP) used to authenticate the local client. The value of this member is valid only if <b>dwAuthenticationProtocol</b> is <b>MPRAPI_IKEV2_AUTH_USING_EAP</b>.
 
-
 ### -field dwCompressionAlgorithm
 
 Not used.
-
 
 ### -field dwEncryptionMethod
 
@@ -208,20 +193,12 @@ AES-256 encryption
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
- 
-
- 
 

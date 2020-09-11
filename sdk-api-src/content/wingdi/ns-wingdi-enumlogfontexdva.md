@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 8d483f52-250e-4c4f-83cf-ff952bb84fd3
 ms.date: 12/05/2018
 ms.keywords: '*LPENUMLOGFONTEXDVA, *PENUMLOGFONTEXDVA, ENUMLOGFONTEXDV, ENUMLOGFONTEXDV structure [Windows GDI], ENUMLOGFONTEXDVA, ENUMLOGFONTEXDVW, PENUMLOGFONTEXDV, PENUMLOGFONTEXDV structure pointer [Windows GDI], _win32_ENUMLOGFONTEXDV_str, gdi.enumlogfontexdv, wingdi/ENUMLOGFONTEXDV, wingdi/ENUMLOGFONTEXDVA, wingdi/ENUMLOGFONTEXDVW, wingdi/PENUMLOGFONTEXDV'
-f1_keywords:
-- wingdi/ENUMLOGFONTEXDV
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- ENUMLOGFONTEXDV
-- ENUMLOGFONTEXDVA
-- ENUMLOGFONTEXDVW
 targetos: Windows
 req.typenames: ENUMLOGFONTEXDVA, *PENUMLOGFONTEXDVA, *LPENUMLOGFONTEXDVA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagENUMLOGFONTEXDVA
+ - wingdi/tagENUMLOGFONTEXDVA
+ - PENUMLOGFONTEXDVA
+ - wingdi/PENUMLOGFONTEXDVA
+ - ENUMLOGFONTEXDVA
+ - wingdi/ENUMLOGFONTEXDVA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - ENUMLOGFONTEXDV
+ - ENUMLOGFONTEXDVA
+ - ENUMLOGFONTEXDVW
 ---
 
 # ENUMLOGFONTEXDVA structure
@@ -51,31 +56,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ENUMLOGFONTEXDV</b> structure contains the information used to create a font.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field elfEnumLogfontEx
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexa">ENUMLOGFONTEX</a> structure that contains information about the logical attributes of the font.
 
-
 ### -field elfDesignVector
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a> structure. This is zero-filled unless the font described is a multiple master OpenType font.
 
-
 ## -remarks
-
-
 
 The actual size of <b>ENUMLOGFONTEXDV</b> depends on that of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a>, which, in turn depends on its <b>dvNumAxes</b> member.
 
@@ -89,9 +82,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enu
 > The wingdi.h header defines ENUMLOGFONTEXDV as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a>
 
@@ -122,7 +112,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enu
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
- 
-
- 
 

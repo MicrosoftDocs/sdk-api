@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: f2dc5f77-9f9e-4290-95fa-ce2f1e81fc69
 ms.date: 12/05/2018
 ms.keywords: 0, PDH_PATH_WBEM_INPUT, PDH_PATH_WBEM_RESULT, PdhMakeCounterPath, PdhMakeCounterPath function [Perf], PdhMakeCounterPathA, PdhMakeCounterPathW, _win32_pdhmakecounterpath, base.pdhmakecounterpath, pdh/PdhMakeCounterPath, pdh/PdhMakeCounterPathA, pdh/PdhMakeCounterPathW, perf.pdhmakecounterpath
-f1_keywords:
-- pdh/PdhMakeCounterPath
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhMakeCounterPath
-- PdhMakeCounterPathA
-- PdhMakeCounterPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhMakeCounterPathA
+ - pdh/PdhMakeCounterPathA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhMakeCounterPath
+ - PdhMakeCounterPathA
+ - PdhMakeCounterPathW
 ---
 
 # PdhMakeCounterPathA function
@@ -51,15 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a full counter path using the members specified in the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param pCounterPathElements [in]
 
@@ -70,16 +65,13 @@ A
 
 If the instance name member is <b>NULL</b>, the path will not contain an instance reference and the <b>szParentInstance</b> and <b>dwInstanceIndex</b> members will be ignored.
 
-
 ### -param szFullPathBuffer [out]
 
 Caller-allocated buffer that receives a <b>null</b>-terminated counter path. The maximum length of a counter path is PDH_MAX_COUNTER_PATH. Set to <b>NULL</b> if <i>pcchBufferSize</i> is zero.
 
-
 ### -param pcchBufferSize [in, out]
 
 Size of the <i>szFullPathBuffer</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
-
 
 ### -param dwFlags [in]
 
@@ -123,12 +115,8 @@ Returns the path in the PDH format, for example, \\computer\object(parent/instan
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -165,14 +153,8 @@ A parameter is not valid or is incorrectly formatted. For example, on some relea
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function twice, the first time to get the required buffer size (set <i>szFullPathBuffer</i> to <b>NULL</b> and <i>pcchBufferSize</i> to 0), and the second time to get the data.
 
@@ -185,15 +167,9 @@ You should call this function twice, the first time to get the required buffer s
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhparsecounterpatha">PdhParseCounterPath</a>
- 
-
- 
 

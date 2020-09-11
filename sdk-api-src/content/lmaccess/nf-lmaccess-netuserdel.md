@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: c1429b82-4fd1-48b6-8957-04dee0426077
 ms.date: 12/05/2018
 ms.keywords: NetUserDel, NetUserDel function [Network Management], _win32_netuserdel, lmaccess/NetUserDel, netmgmt.netuserdel
-f1_keywords:
-- lmaccess/NetUserDel
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserDel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserDel
+ - lmaccess/NetUserDel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserDel
 ---
 
 # NetUserDel function
@@ -49,33 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserDel</b> function deletes a user account from a server.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param username [in]
 
 Pointer to a constant string that specifies the name of the user account to delete. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -131,14 +119,8 @@ The user name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
@@ -202,14 +184,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
 
@@ -234,7 +209,4 @@ int wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

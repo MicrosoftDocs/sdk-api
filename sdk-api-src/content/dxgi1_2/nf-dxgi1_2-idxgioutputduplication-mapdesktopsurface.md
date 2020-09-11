@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 1FFFF954-0AD2-418E-B0CC-D674994C3CCE
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],MapDesktopSurface method, IDXGIOutputDuplication.MapDesktopSurface, IDXGIOutputDuplication::MapDesktopSurface, MapDesktopSurface, MapDesktopSurface method [DXGI], MapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_mapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface
-f1_keywords:
-- dxgi1_2/IDXGIOutputDuplication.MapDesktopSurface
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIOutputDuplication.MapDesktopSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutputDuplication::MapDesktopSurface
+ - dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIOutputDuplication.MapDesktopSurface
 ---
 
 # IDXGIOutputDuplication::MapDesktopSurface
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the CPU with efficient access to a desktop image if that desktop image is already in system memory.
-
 
 ## -parameters
 
-
-
-
 ### -param pLockedRect [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_mapped_rect">DXGI_MAPPED_RECT</a> structure that receives the surface data that the CPU needs to directly access the surface data. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_mapped_rect">DXGI_MAPPED_RECT</a> structure that receives the surface data that the CPU needs to directly access the surface data.
 
 ## -returns
-
-
 
 <b>MapDesktopSurface</b> returns:
         <ul>
@@ -82,26 +75,11 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-d
 <li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
-
-
-
-
 ## -remarks
-
-
 
 You can successfully call <b>MapDesktopSurface</b> if the  <b>DesktopImageInSystemMemory</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_desc">DXGI_OUTDUPL_DESC</a> structure is set to <b>TRUE</b>. If <b>DesktopImageInSystemMemory</b> is <b>FALSE</b>, <b>MapDesktopSurface</b> returns DXGI_ERROR_UNSUPPORTED. Call <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getdesc">IDXGIOutputDuplication::GetDesc</a> to retrieve the <b>DXGI_OUTDUPL_DESC</b> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
- 
-
- 
 

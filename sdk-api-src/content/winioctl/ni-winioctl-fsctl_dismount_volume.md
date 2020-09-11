@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DISMOUNT_VOLUME, FSCTL_DISMOUNT_VOLUME control, FSCTL_DISMOUNT_VOLUME control code [Files], _win32_fsctl_dismount_volume, base.fsctl_dismount_volume, fs.fsctl_dismount_volume, winioctl/FSCTL_DISMOUNT_VOLUME
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_DISMOUNT_VOLUME"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,13 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+f1_keywords:
+ - FSCTL_DISMOUNT_VOLUME
+ - winioctl/FSCTL_DISMOUNT_VOLUME
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,17 +43,12 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_DISMOUNT_VOLUME
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 # FSCTL_DISMOUNT_VOLUME IOCTL
 
 
 ## -description
-
 
 Dismounts a volume regardless of whether or not the volume is currently in use. For more information, see the Remarks section.
 
@@ -71,66 +71,31 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -138,12 +103,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 The <b>FSCTL_DISMOUNT_VOLUME</b> control code will attempt to dismount a volume regardless of whether or not any other processes are using the volume, which can have unpredictable results for those processes if they do not hold a lock on the volume. For information about locking a volume, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>.
 
@@ -244,13 +204,7 @@ See comment
 
 On CsvFs the node where dismount is issued will see a normal dismount sequence. On all other nodes FS will invalidate all the opened files.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -273,7 +227,4 @@ On CsvFs the node where dismount is issued will see a normal dismount sequence. 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
 

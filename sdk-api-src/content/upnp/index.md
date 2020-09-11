@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: upnp
+f1_keywords:
+ - upnp
+ - upnp/upnp
 ---
 
 # Upnp.h header
 
 
 ## -description
-
 
 This header is used by UPnP APIs. For more information, see:
 

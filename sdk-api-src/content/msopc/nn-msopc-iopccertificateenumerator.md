@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: a66ad728-9d20-44d9-a363-1d2a7927d810
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateEnumerator, IOpcCertificateEnumerator interface [Open Packaging Conventions], IOpcCertificateEnumerator interface [Open Packaging Conventions],described, msopc/IOpcCertificateEnumerator, opc.iopccertificateenumerator
-f1_keywords:
-- msopc/IOpcCertificateEnumerator
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcCertificateEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcCertificateEnumerator
+ - msopc/IOpcCertificateEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcCertificateEnumerator
 ---
 
 # IOpcCertificateEnumerator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A read-only enumerator of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures.
-
 
 ## -inheritance
 
@@ -105,12 +104,9 @@ Moves the current position of the enumerator to the previous <a href="https://do
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-movenext">MoveNext</a>method after the enumerator is created.
 
@@ -125,13 +121,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certificates">Certificates</a>
 
@@ -182,7 +172,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

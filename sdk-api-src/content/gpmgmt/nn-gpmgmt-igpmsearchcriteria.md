@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 6d24ffd1-987c-468f-a8cc-08992b7deb9d
 ms.date: 12/05/2018
 ms.keywords: GPMSearchCriteria, IGPMSearchCriteria, IGPMSearchCriteria interface [GPMC], IGPMSearchCriteria interface [GPMC],described, _win32_igpmsearchcriteria, gpmc.igpmsearchcriteria, gpmgmt/IGPMSearchCriteria
-f1_keywords:
-- gpmgmt/IGPMSearchCriteria
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSearchCriteria
-- GPMSearchCriteria
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSearchCriteria
+ - gpmgmt/IGPMSearchCriteria
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSearchCriteria
+ - GPMSearchCriteria
 ---
 
 # IGPMSearchCriteria interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMSearchCriteria</b> interface allows you to define the criteria to use for search operations when using the Group Policy Management Console (GPMC) interfaces. To create a <b>GPMSearchCriteria</b> object, call the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createsearchcriteria">IGPM::CreateSearchCriteria</a> method.
-
 
 ## -inheritance
 
@@ -80,20 +79,13 @@ Adds a criterion for search operations.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
- 
-
- 
 

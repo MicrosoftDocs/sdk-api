@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
 ms.date: 12/05/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
-f1_keywords:
-- shlobj_core/SHGetSetSettings
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHGetSetSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetSetSettings
+ - shlobj_core/SHGetSetSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHGetSetSettings
 ---
 
 # SHGetSetSettings function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHGetSetSettings</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Sets or retrieves Shell state settings.
 
-
 ## -parameters
-
-
-
 
 ### -param lpss [in, out]
 
@@ -66,13 +62,11 @@ Type: <b>LPSHELLSTATE</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea">SHELLSTATE</a> structure that provides or receives the Shell state settings.
 
-
 ### -param dwMask [in]
 
 Type: <b>DWORD</b>
 
 One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/ssf-constants">SSF</a> flags that indicate which settings should be set or retrieved.
-
 
 ### -param bSet [in]
 
@@ -80,14 +74,7 @@ Type: <b>BOOL</b>
 
 <b>TRUE</b> to indicate that the contents of <i>lpss</i> should be used to set the Shell settings, <b>FALSE</b> to indicate that the Shell settings should be retrieved to <i>lpss</i>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsettings">SHGetSettings</a>
- 
-
- 
 

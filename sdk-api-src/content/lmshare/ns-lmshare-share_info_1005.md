@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9fb3e0ae-76b5-4432-80dd-f3361738aa7c
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_1005, *PSHARE_INFO_1005, CSC_MASK, CSC_MASK_EXT, LPSHARE_INFO_1005, LPSHARE_INFO_1005 structure pointer [Files], PSHARE_INFO_1005, PSHARE_INFO_1005 structure pointer [Files], SHARE_INFO_1005, SHARE_INFO_1005 structure [Files], SHI1005_FLAGS_ACCESS_BASED_DIRECTORY_ENUM, SHI1005_FLAGS_ALLOW_NAMESPACE_CACHING, SHI1005_FLAGS_DFS, SHI1005_FLAGS_DFS_ROOT, SHI1005_FLAGS_ENABLE_CA, SHI1005_FLAGS_ENABLE_HASH, SHI1005_FLAGS_FORCE_LEVELII_OPLOCK, SHI1005_FLAGS_FORCE_SHARED_DELETE, SHI1005_FLAGS_RESTRICT_EXCLUSIVE_OPENS, _win32_share_info_1005_str, fs.share_info_1005_str, lmshare/LPSHARE_INFO_1005, lmshare/PSHARE_INFO_1005, lmshare/SHARE_INFO_1005, netmgmt.share_info_1005_str'
-f1_keywords:
-- lmshare/SHARE_INFO_1005
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmshare.h
-api_name:
-- SHARE_INFO_1005
 targetos: Windows
 req.typenames: SHARE_INFO_1005, *PSHARE_INFO_1005, *LPSHARE_INFO_1005
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHARE_INFO_1005
+ - lmshare/_SHARE_INFO_1005
+ - PSHARE_INFO_1005
+ - lmshare/PSHARE_INFO_1005
+ - SHARE_INFO_1005
+ - lmshare/SHARE_INFO_1005
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmshare.h
+api_name:
+ - SHARE_INFO_1005
 ---
 
 # SHARE_INFO_1005 structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the shared resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field shi1005_flags
 
@@ -270,23 +270,13 @@ Enables server-side functionality needed for peer caching support.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 This structure can be retrieved by calling the 
     <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function. It can be set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
@@ -305,7 +295,4 @@ This structure can be retrieved by calling the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
- 
-
- 
 

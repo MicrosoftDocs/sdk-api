@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a03a6da4-d286-487e-a292-8a02626325a8
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetValue method, IEnumCERTVIEWATTRIBUTE.GetValue, IEnumCERTVIEWATTRIBUTE::GetValue, _certsrv_ienumcertviewattribute_getvalue, certview/IEnumCERTVIEWATTRIBUTE::GetValue, security.ienumcertviewattribute_getvalue
-f1_keywords:
-- certview/IEnumCERTVIEWATTRIBUTE.GetValue
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWATTRIBUTE.GetValue
-- IEnumCERTVIEWATTRIBUTE.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWATTRIBUTE::GetValue
+ - certview/IEnumCERTVIEWATTRIBUTE::GetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWATTRIBUTE.GetValue
+ - IEnumCERTVIEWATTRIBUTE.GetValue
 ---
 
 # IEnumCERTVIEWATTRIBUTE::GetValue
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetValue</b> method retrieves the value of the current attribute in the attribute-enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param pstrOut [out]
 
 A pointer to a <b>BSTR</b> type that contains the value of the attribute.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and the <i>pstrOut</i> is set to the value of the current attribute.
@@ -78,12 +71,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is a <b>String</b> that represents the value of the current attribute.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to retrieve the data in the attribute currently referenced by the 
 attribute-enumeration sequence.
@@ -118,14 +106,7 @@ if (NULL != bstrAttribValue)
     SysFreeString(bstrAttribValue);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewattribute">IEnumCERTVIEWATTRIBUTE</a>
 
@@ -144,7 +125,4 @@ if (NULL != bstrAttribValue)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-skip">IEnumCERTVIEWATTRIBUTE::Skip</a>
- 
-
- 
 

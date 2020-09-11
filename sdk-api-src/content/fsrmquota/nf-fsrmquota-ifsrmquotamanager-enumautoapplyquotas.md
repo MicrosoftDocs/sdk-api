@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 6542bc4e-535f-4e6c-aaa8-ba6963490811
 ms.date: 12/05/2018
 ms.keywords: EnumAutoApplyQuotas, EnumAutoApplyQuotas method [File Server Resource Manager], EnumAutoApplyQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumAutoApplyQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumAutoApplyQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManager.EnumAutoApplyQuotas, IFsrmQuotaManager::EnumAutoApplyQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManagerEx::EnumAutoApplyQuotas, fs.ifsrmquotamanager_enumautoapplyquotas, fsrm.ifsrmquotamanager_enumautoapplyquotas, fsrmquota/IFsrmQuotaManager::EnumAutoApplyQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumAutoApplyQuotas
-f1_keywords:
-- fsrmquota/IFsrmQuotaManager.EnumAutoApplyQuotas
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaManager.EnumAutoApplyQuotas
-- IFsrmQuotaManagerEx.EnumAutoApplyQuotas
-- FsrmQuotaManager.EnumAutoApplyQuotas
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaManager::EnumAutoApplyQuotas
+ - fsrmquota/IFsrmQuotaManager::EnumAutoApplyQuotas
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaManager.EnumAutoApplyQuotas
+ - IFsrmQuotaManagerEx.EnumAutoApplyQuotas
+ - FsrmQuotaManager.EnumAutoApplyQuotas
 ---
 
 # IFsrmQuotaManager::EnumAutoApplyQuotas
 
 
 ## -description
-
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -59,11 +59,7 @@ ms.custom: 19H1
 Enumerates the automatic quotas that are associated with the specified directory. The 
     enumeration can also include automatic quotas associated with  subdirectories (recursively).
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
@@ -81,12 +77,10 @@ If the path does not end in "\*" or "\...", retrieve the automatic quota
 
 If path is null or empty, the method returns all quotas.
 
-
 ### -param options [in]
 
 Options to use when enumerating the quotas. For possible values, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
-
 
 ### -param quotas [out]
 
@@ -99,31 +93,17 @@ Each item of the collection is a <b>VARIANT</b> of type
 
 The collection is empty if the path does not contain quotas.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 To enumerate quotas that do not automatically apply to the path's subdirectories, call the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumquotas">IFsrmQuotaManager::EnumQuotas</a> 
     method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmquotamanager">FsrmQuotaManager</a>
 
@@ -138,7 +118,4 @@ To enumerate quotas that do not automatically apply to the path's subdirectories
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

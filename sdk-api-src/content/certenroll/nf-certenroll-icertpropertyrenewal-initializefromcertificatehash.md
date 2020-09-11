@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 87e0eabf-7a4a-4ff2-a9ce-6482f119cafd
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal interface [Security],InitializeFromCertificateHash method, ICertPropertyRenewal.InitializeFromCertificateHash, ICertPropertyRenewal::InitializeFromCertificateHash, InitializeFromCertificateHash, InitializeFromCertificateHash method [Security], InitializeFromCertificateHash method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::InitializeFromCertificateHash, security.icertpropertyrenewal_initializefromcertificatehash_method
-f1_keywords:
-- certenroll/ICertPropertyRenewal.InitializeFromCertificateHash
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertPropertyRenewal.InitializeFromCertificateHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyRenewal::InitializeFromCertificateHash
+ - certenroll/ICertPropertyRenewal::InitializeFromCertificateHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertPropertyRenewal.InitializeFromCertificateHash
 ---
 
 # ICertPropertyRenewal::InitializeFromCertificateHash
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromCertificateHash</b> method initializes the object from the new  certificate.
 
-
 ## -parameters
-
-
-
 
 ### -param MachineContext [in]
 
 A <b>VARIANT_BOOL</b> value that indicates  whether the certificate store is for the local computer or the current user. Specify <b>VARIANT_TRUE</b> for the computer and <b>VARIANT_FALSE</b> for the user.
 
-
 ### -param Encoding [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to the input string that contains the DER-encoded certificate.
-
 
 ### -param strCertificate [in]
 
@@ -84,8 +78,6 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 </ul>
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -109,14 +101,8 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  This method creates a SHA-1 hash by using the specified certificate. The certificate must be encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. You must also specify the type of Unicode encoding applied to the string that contains the DER-encoded certificate.
 
@@ -124,16 +110,7 @@ Typically the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll
 
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-setvalueoncertificate">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyrenewal-get_renewal">Renewal</a> property to retrieve the hash.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a>
- 
-
- 
 

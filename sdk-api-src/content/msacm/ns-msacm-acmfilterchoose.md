@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 92ec2a41-e853-4533-b831-43c9d52dc27f
 ms.date: 12/05/2018
 ms.keywords: '*LPACMFILTERCHOOSE, *PACMFILTERCHOOSE, ACMFILTERCHOOSE, ACMFILTERCHOOSE structure [Windows Multimedia], ACMFILTERCHOOSE_STYLEF_CONTEXTHELP, ACMFILTERCHOOSE_STYLEF_ENABLEHOOK, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE, ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT, ACMFILTERCHOOSE_STYLEF_SHOWHELP, ACM_FILTERENUMF_DWFILTERTAG, msacm/ACMFILTERCHOOSE, multimedia.acmfilterchoose_COLLISION925, multimedia.acmfilterchoose_struct'
-f1_keywords:
-- msacm/ACMFILTERCHOOSE
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msacm.h
-api_name:
-- ACMFILTERCHOOSE
 targetos: Windows
 req.typenames: ACMFILTERCHOOSE, *PACMFILTERCHOOSE, *LPACMFILTERCHOOSE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tACMFILTERCHOOSE
+ - msacm/tACMFILTERCHOOSE
+ - PACMFILTERCHOOSE
+ - msacm/PACMFILTERCHOOSE
+ - ACMFILTERCHOOSE
+ - msacm/ACMFILTERCHOOSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msacm.h
+api_name:
+ - ACMFILTERCHOOSE
 ---
 
 # ACMFILTERCHOOSE structure
@@ -49,22 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ACMFILTERCHOOSE</b> structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Size, in bytes, of the <b>ACMFILTERCHOOSE</b> structure. This member must be initialized before an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function. The size specified in this member must be large enough to contain the base <b>ACMFILTERCHOOSE</b> structure.
-
 
 ### -field fdwStyle
 
@@ -136,38 +132,30 @@ A help button will appear in the dialog box. To use a custom Help file, an appli
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hwndOwner
 
 Handle to the window that owns the dialog box. This member can be any valid window handle or <b>NULL</b> if the dialog box has no owner. This member must be initialized before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function.
 
-
 ### -field pwfltr
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure. If the ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid filter. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns, this buffer contains the selected filter. If the user cancels the dialog box, no changes will be made to this buffer.
-
 
 ### -field cbwfltr
 
 Size, in bytes, of the buffer pointed to by the <b>pwfltr</b> member. The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns ACMERR_NOTPOSSIBLE if the buffer is too small to contain the filter information; the ACM also copies the required size into this member. An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a> functions to determine the largest size required for this buffer.
 
-
 ### -field pszTitle
 
 Pointer to a string to be placed in the title bar of the dialog box. If this member is <b>NULL</b>, the ACM uses the default title (that is, "Filter Selection").
-
 
 ### -field szFilterTag
 
 Buffer containing a null-terminated string describing the filter tag of the filter selection when the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
 
-
 ### -field szFilter
 
 Buffer containing a null-terminated string describing the filter attributes of the filter selection when the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
-
 
 ### -field pszName
 
@@ -175,11 +163,9 @@ Pointer to a string for a user-defined filter name. If this is a non-null-termin
 
 If the ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT flag is specified by the <b>fdwStyle</b> member, the <b>pszName</b> member is ignored as an input member.
 
-
 ### -field cchName
 
 Size, in characters, of the buffer identified by the <b>pszName</b> member. This buffer should be at least 128 characters long. If <b>pszName</b> is <b>NULL</b>, this member is ignored.
-
 
 ### -field fdwEnum
 
@@ -201,38 +187,28 @@ The <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwfltrEnum
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure that will be used to restrict the filters listed in the dialog box. The <b>fdwEnum</b> member defines which members of this structure should be used for the enumeration restrictions. The <b>cbStruct</b> member of this <b>WAVEFILTER</b> structure must be initialized to the size of the <b>WAVEFILTER</b> structure. If no special restrictions are desired, this member can be <b>NULL</b>.
 
-
 ### -field hInstance
 
 Handle to a data block that contains a dialog box template specified by the <b>pszTemplateName</b> member. This member is used only if the <b>fdwStyle</b> member specifies the ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE or ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE flag; otherwise, this member should be <b>NULL</b> on input.
-
 
 ### -field pszTemplateName
 
 Pointer to a null-terminated string that specifies the name of the resource file for the dialog box template that is to be substituted for the dialog box template in the ACM. An application can use the <a href="https://msdn.microsoft.com/library/ms648029.aspx">MAKEINTRESOURCE</a> macro for numbered dialog box resources. This member is used only if the <b>fdwStyle</b> member specifies the ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE flag; otherwise, this member should be <b>NULL</b> on input.
 
-
 ### -field lCustData
 
 Application-defined data that the ACM passes to the hook function identified by the <b>pfnHook</b> member. The system passes the data in the <i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/library/ms645428.aspx">WM_INITDIALOG</a> message.
-
 
 ### -field pfnHook
 
 Pointer to a callback function that processes messages intended for the dialog box. An application must specify the ACMFILTERCHOOSE_STYLEF_ENABLEHOOK flag in the <b>fdwStyle</b> member to enable the hook; otherwise, this member should be <b>NULL</b>. The hook function should return <b>FALSE</b> to pass a message to the standard dialog box procedure or <b>TRUE</b> to discard the message. The callback function type is <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nc-msacm-acmfilterchoosehookproc">acmFilterChooseHookProc</a>.
 
-
 ## -see-also
-
-
-
 
 [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)
 
@@ -287,7 +263,4 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
- 
-
- 
 

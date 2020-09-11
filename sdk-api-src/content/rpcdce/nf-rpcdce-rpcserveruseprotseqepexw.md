@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: c5bc52c5-9799-4fab-89fa-a680639a229f
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseProtseqEpEx, RpcServerUseProtseqEpEx function [RPC], RpcServerUseProtseqEpExA, RpcServerUseProtseqEpExW, _rpc_rpcserveruseprotseqepex, rpc.rpcserveruseprotseqepex, rpcdce/RpcServerUseProtseqEpEx, rpcdce/RpcServerUseProtseqEpExA, rpcdce/RpcServerUseProtseqEpExW
-f1_keywords:
-- rpcdce/RpcServerUseProtseqEpEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerUseProtseqEpEx
-- RpcServerUseProtseqEpExA
-- RpcServerUseProtseqEpExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerUseProtseqEpExW
+ - rpcdce/RpcServerUseProtseqEpExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerUseProtseqEpEx
+ - RpcServerUseProtseqEpExA
+ - RpcServerUseProtseqEpExW
 ---
 
 # RpcServerUseProtseqEpExW function
@@ -51,35 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerUseProtseqEpEx</b> function tells the RPC run-time library to use the specified protocol sequence combined with the specified endpoint for receiving remote procedure calls.
 
-
 ## -parameters
-
-
-
 
 ### -param Protseq
 
 Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
-
 ### -param MaxCalls
 
 Backlog queue length for the <b>ncacn_ip_tcp</b> protocol sequence. All other protocol sequences ignore this parameter. Use RPC_C_PROTSEQ_MAX_REQS_DEFAULT to specify the default value. See Remarks.
-
 
 ### -param Endpoint
 
 Pointer to the endpoint-address information to use in creating a binding for the protocol sequence specified by <i>Protseq</i>.
 
-
 ### -param SecurityDescriptor
 
 Pointer to an optional parameter provided for the security subsystem. Used only for <b>ncacn_np</b> and <i>ncalrpc</i> protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
-
 
 ### -param Policy
 
@@ -95,8 +87,6 @@ The flag settings in the <b>Policy</b> field are effective only when the <b>ncac
 <div> </div>
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -187,11 +177,7 @@ The security descriptor is invalid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The parameters and effects of 
 <b>RpcServerUseProtseqEpEx</b> subsume those of 
@@ -230,9 +216,6 @@ For more information, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a>
 
 
@@ -254,7 +237,4 @@ For more information, see
 
 
 Writing a Secure RPC Client or Server
- 
-
- 
 

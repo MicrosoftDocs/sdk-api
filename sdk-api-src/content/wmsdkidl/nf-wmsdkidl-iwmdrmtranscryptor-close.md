@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: c277e3fa-069d-4eaf-947c-220730c5d61e
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMDRMTranscryptor interface, IWMDRMTranscryptor interface [windows Media Format],Close method, IWMDRMTranscryptor.Close, IWMDRMTranscryptor::Close, IWMDRMTranscryptorClose, wmformat.iwmdrmtranscryptor_close, wmsdkidl/IWMDRMTranscryptor::Close
-f1_keywords:
-- wmsdkidl/IWMDRMTranscryptor.Close
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMTranscryptor.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMTranscryptor::Close
+ - wmsdkidl/IWMDRMTranscryptor::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMTranscryptor.Close
 ---
 
 # IWMDRMTranscryptor::Close
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Close</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
 The <b>Close</b> method unloads the file from the DRM transcryptor and releases all associated resources.
 
-
-
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,24 +80,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is asynchronous. It returns immediately, but processing is not complete until a WMT_TRANSCRYPTOR_CLOSED message is sent to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor Interface</a>
 
@@ -118,7 +96,4 @@ This method is asynchronous. It returns immediately, but processing is not compl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">IWMDRMTranscryptor::Read</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 99670376-a338-4001-bede-a4fea57b73a7
 ms.date: 12/05/2018
 ms.keywords: SetupDiDrawMiniIcon, SetupDiDrawMiniIcon function [Device and Driver Installation], devinst.setupdidrawminiicon, di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml, setupapi/SetupDiDrawMiniIcon
-f1_keywords:
-- setupapi/SetupDiDrawMiniIcon
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupDiDrawMiniIcon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiDrawMiniIcon
+ - setupapi/SetupDiDrawMiniIcon
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupDiDrawMiniIcon
 ---
 
 # SetupDiDrawMiniIcon function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiDrawMiniIcon</b> function draws the specified mini-icon at the location requested.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 The handle to the device context in which the mini-icon will be drawn.
 
-
 ### -param rc [in]
 
 The rectangle in the specified device context handle to draw the mini-icon in.
-
 
 ### -param MiniIconIndex [in]
 
@@ -208,8 +202,6 @@ The index of the mini-icon, as retrieved from <a href="https://docs.microsoft.co
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -235,19 +227,11 @@ Use the system color index specified in the HIWORD of <i>Flags</i> as the backgr
 
 If set, <b>SetupDiDrawMiniIcon</b> uses the supplied rectangle and stretches the icon to fit.
 
-
 ## -returns
-
-
 
 This function returns the offset from the left side of <i>rc</i> where the string should start. If the draw operation fails, the function returns zero.
 
-
-
-
 ## -remarks
-
-
 
 By default, the icon is centered vertically and forced against the left side of the specified rectangle.
 
@@ -266,20 +250,11 @@ DestroyIcon(hIcon);
 
 For more information about <a href="https://msdn.microsoft.com/library/ms648064(VS.85).aspx">DrawIcon</a> or <a href="https://msdn.microsoft.com/library/ms648065(VS.85).aspx">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>
- 
-
- 
 

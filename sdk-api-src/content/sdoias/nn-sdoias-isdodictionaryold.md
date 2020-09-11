@@ -8,10 +8,6 @@ tech.root: Nps
 ms.assetid: 5aaa4008-3b39-4d1d-90db-79631e5bb6b9
 ms.date: 12/05/2018
 ms.keywords: ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], ISdoDictionaryOld interface [Network Policy Server],described, _sdo_isdodictionaryold, nps.SDO_isdodictionaryold, sdo.isdodictionaryold, sdoias/ISdoDictionaryOld
-f1_keywords:
-- sdoias/ISdoDictionaryOld
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Iassdo.dll
-api_name:
-- ISdoDictionaryOld
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISdoDictionaryOld
+ - sdoias/ISdoDictionaryOld
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Iassdo.dll
+api_name:
+ - ISdoDictionaryOld
 ---
 
 # ISdoDictionaryOld interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>ISdoDictionaryOld</b> interface to manipulate the dictionary of Remote Access Dial-In User Service (RADIUS) attributes.
-
 
 ## -inheritance
 
@@ -114,13 +113,9 @@ Retrieves the characteristics of the specified attribute.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -133,7 +128,4 @@ Retrieves the characteristics of the specified attribute.
 
 <a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data
     Objects Reference</a>
- 
-
- 
 

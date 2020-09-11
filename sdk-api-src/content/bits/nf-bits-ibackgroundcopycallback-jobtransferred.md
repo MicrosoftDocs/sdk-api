@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 04ff96c4-5b22-4935-bce8-5b9d3196cbe5
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobTransferred method, IBackgroundCopyCallback.JobTransferred, IBackgroundCopyCallback::JobTransferred, JobTransferred, JobTransferred method [BITS], JobTransferred method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobtransferred, bits.ibackgroundcopycallback_jobtransferred, bits/IBackgroundCopyCallback::JobTransferred
-f1_keywords:
-- bits/IBackgroundCopyCallback.JobTransferred
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.h
-api_name:
-- IBackgroundCopyCallback.JobTransferred
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyCallback::JobTransferred
+ - bits/IBackgroundCopyCallback::JobTransferred
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.h
+api_name:
+ - IBackgroundCopyCallback.JobTransferred
 ---
 
 # IBackgroundCopyCallback::JobTransferred
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 BITS calls your implementation of the 
 <b>JobTransferred</b> method when all of the files in the job have been successfully transferred. For BG_JOB_TYPE_UPLOAD_REPLY jobs, BITS calls the 
 <b>JobTransferred</b> method after the upload file has been transferred to the server and the reply has been transferred to the client.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param pJob [in]
 
 Contains job-related information, such as the time the job completed, the number of bytes transferred, and the number of files transferred. Do not release <i>pJob</i>; BITS releases the interface when the method returns.
 
-
 ## -returns
-
-
 
 This method should return <b>S_OK</b>; otherwise,  BITS continues to call this method until <b>S_OK</b> is returned. For performance reasons, you should limit the number  of times you return a value other than <b>S_OK</b> to a few times. As an alternative to returning an error code, consider always returning <b>S_OK</b> and handling the error internally. The interval at which this method is called is arbitrary.
 
 Note that if this method fails and you   called the <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">IBackgroundCopyJob2::SetNotifyCmdLine</a> method, the command line is executed and this method is not called again.
 
-
-
-
 ## -remarks
-
-
 
 Typically, your implementation should call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a> method to acknowledge that BITS successfully transferred the files. Download files and the reply file are not available on the client until you call the 
@@ -105,12 +92,7 @@ See the example code for the
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
 
@@ -125,7 +107,4 @@ See the example code for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a>
- 
-
- 
 

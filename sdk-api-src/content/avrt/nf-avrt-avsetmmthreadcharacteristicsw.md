@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 881d3f97-e68e-40cb-b799-76784185dd37
 ms.date: 12/05/2018
 ms.keywords: AvSetMmThreadCharacteristics, AvSetMmThreadCharacteristics function, AvSetMmThreadCharacteristicsA, AvSetMmThreadCharacteristicsW, avrt/AvSetMmThreadCharacteristics, avrt/AvSetMmThreadCharacteristicsA, avrt/AvSetMmThreadCharacteristicsW, base.avsetmmthreadcharacteristics
-f1_keywords:
-- avrt/AvSetMmThreadCharacteristics
-dev_langs:
-- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avrt.dll
-api_name:
-- AvSetMmThreadCharacteristics
-- AvSetMmThreadCharacteristicsA
-- AvSetMmThreadCharacteristicsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AvSetMmThreadCharacteristicsW
+ - avrt/AvSetMmThreadCharacteristicsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avrt.dll
+api_name:
+ - AvSetMmThreadCharacteristics
+ - AvSetMmThreadCharacteristicsA
+ - AvSetMmThreadCharacteristicsW
 ---
 
 # AvSetMmThreadCharacteristicsW function
@@ -51,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates the calling thread with the specified task.
 
-
 ## -parameters
-
-
-
 
 ### -param TaskName [in]
 
 The name of the task to be performed. This name must match the name of one of the subkeys of the following key <b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks</b>.
 
-
 ### -param TaskIndex [in, out]
 
 The unique task identifier. The first time this function is called, this value must be 0 on input. The index value is returned on output and can be used as input in subsequent calls.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a handle to the task. 
 
@@ -122,14 +114,8 @@ The caller does not have sufficient privilege.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the task is completed, call the <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avrevertmmthreadcharacteristics">AvRevertMmThreadCharacteristics</a> function.
 
@@ -142,11 +128,5 @@ When the task is completed, call the <a href="https://docs.microsoft.com/windows
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/multimedia-class-scheduler-service">Multimedia Class Scheduler Service</a>
- 
-
- 
 

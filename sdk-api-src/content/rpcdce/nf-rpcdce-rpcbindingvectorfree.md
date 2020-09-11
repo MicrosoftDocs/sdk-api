@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: a8af56ae-bacc-497d-b65e-c0a56f3b09de
 ms.date: 12/05/2018
 ms.keywords: RpcBindingVectorFree, RpcBindingVectorFree function [RPC], _rpc_rpcbindingvectorfree, rpc.rpcbindingvectorfree, rpcdce/RpcBindingVectorFree
-f1_keywords:
-- rpcdce/RpcBindingVectorFree
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingVectorFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingVectorFree
+ - rpcdce/RpcBindingVectorFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingVectorFree
 ---
 
 # RpcBindingVectorFree function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingVectorFree</b> function frees the binding handles contained in the vector and the vector itself.
 
-
 ## -parameters
-
-
-
 
 ### -param BindingVector
 
 Pointer to a pointer to a vector of server binding handles. On return, the pointer is set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -124,11 +117,7 @@ This was the wrong kind of binding for the operation.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 An application calls the 
 <b>RpcBindingVectorFree</b> function to release the memory used to store a vector of server binding handles. The function frees both the binding handles and the vector itself.
@@ -137,20 +126,11 @@ A server obtains a vector of binding handles by calling the
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinqbindings">RpcServerInqBindings</a> function. A client obtains a vector of binding handles by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinqbindings">RpcServerInqBindings</a>
- 
-
- 
 

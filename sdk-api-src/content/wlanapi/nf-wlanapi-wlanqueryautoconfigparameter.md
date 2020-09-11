@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 30fcfcf1-0784-4f20-b8c7-311227d0cfca
 ms.date: 12/05/2018
 ms.keywords: WlanQueryAutoConfigParameter, WlanQueryAutoConfigParameter function [NativeWIFI], nwifi.wlanqueryautoconfigparameter, wlan_autoconf_opcode_allow_explicit_creds, wlan_autoconf_opcode_allow_virtual_station_extensibility, wlan_autoconf_opcode_block_period, wlan_autoconf_opcode_only_use_gp_profiles_for_allowed_networks, wlan_autoconf_opcode_power_setting, wlan_autoconf_opcode_show_denied_networks, wlanapi/WlanQueryAutoConfigParameter
-f1_keywords:
-- wlanapi/WlanQueryAutoConfigParameter
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wlanapi.dll
-api_name:
-- WlanQueryAutoConfigParameter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanQueryAutoConfigParameter
+ - wlanapi/WlanQueryAutoConfigParameter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wlanapi.dll
+api_name:
+ - WlanQueryAutoConfigParameter
 ---
 
 # WlanQueryAutoConfigParameter function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanQueryAutoConfigParameter</b> function queries for the parameters of the auto configuration service.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
 
 ### -param OpCode [in]
 
@@ -141,18 +136,14 @@ If the function returns ERROR_SUCCESS and <i>ppData</i> points to <b>TRUE</b>, t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ### -param pdwDataSize [out]
 
 Specifies the size of the <i>ppData</i> parameter, in bytes.
-
 
 ### -param ppData [out]
 
@@ -163,12 +154,9 @@ Pointer to the memory that contains the queried value for the parameter specifie
 
 ### -param pWlanOpcodeValueType [out, optional]
 
-A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value. 
-
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -237,31 +225,16 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>WlanQueryAutoConfigParameter</b> function queries for the parameters used by Auto Configuration Module (ACM), the wireless configuration component supported on Windows Vista and  later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetautoconfigparameter">WlanSetAutoConfigParameter</a>
- 
-
- 
 

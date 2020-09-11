@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: cb666185-6a33-4e4c-a0b2-290f2f0bce4b
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_HTTP_PROXY, WS_CUSTOM_HTTP_PROXY structure [Web Services for Windows], webservices/WS_CUSTOM_HTTP_PROXY, wsw.ws_custom_http_proxy
-f1_keywords:
-- webservices/WS_CUSTOM_HTTP_PROXY
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_CUSTOM_HTTP_PROXY
 targetos: Windows
 req.typenames: WS_CUSTOM_HTTP_PROXY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_CUSTOM_HTTP_PROXY
+ - webservices/_WS_CUSTOM_HTTP_PROXY
+ - WS_CUSTOM_HTTP_PROXY
+ - webservices/WS_CUSTOM_HTTP_PROXY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_CUSTOM_HTTP_PROXY
 ---
 
 # WS_CUSTOM_HTTP_PROXY structure
@@ -49,16 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 A structure that is used to specify the custom proxy for the channel, using 
                 the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a>.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field servers
 
@@ -76,12 +73,9 @@ A semicolon-separated list of the proxy servers to be used by the channel. Each
                     </li>
 </ul>
 
-
-
 ### -field bypass
 
 A semicolon separated list of servers which must be bypassed by the proxy. 
                     The bypass list can contain the string &lt;local&gt; to indicate that 
                     all local machine servers are bypassed.
-
 

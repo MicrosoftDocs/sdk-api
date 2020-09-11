@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustate.htm
 ms.date: 12/05/2018
 ms.keywords: GetMenuState, GetMenuState function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuState, _win32_getmenustate_cpp, menurc.getmenustate, winui._win32_getmenustate, winuser/GetMenuState
-f1_keywords:
-- winuser/GetMenuState
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- GetMenuState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetMenuState
+ - winuser/GetMenuState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - GetMenuState
 ---
 
 # GetMenuState function
@@ -51,14 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the menu flags associated with the specified menu item. If the menu item opens a submenu, this function also returns the number of items in the submenu. 
 <div class="alert"><b>Note</b>  The <b>GetMenuState</b> function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>. You can still use <b>GetMenuState</b>, however, if you do not need any of the extended features of <b>GetMenuItemInfo</b>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
@@ -66,13 +63,11 @@ Type: <b>HMENU</b>
 
 A handle to the menu that contains the menu item whose flags are to be retrieved.
 
-
 ### -param uId [in]
 
 Type: <b>UINT</b>
 
 The menu item for which the menu flags are to be retrieved, as determined by the <i>uFlags</i> parameter.
-
 
 ### -param uFlags [in]
 
@@ -108,12 +103,8 @@ Indicates that the <i>uId</i> parameter gives the zero-based relative position o
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
@@ -237,14 +228,8 @@ There is a horizontal dividing line (for drop-down menus, submenus, and shortcut
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 It is possible to test an item for a flag value of <b>MF_ENABLED</b>, <b>MF_STRING</b>, <b>MF_UNCHECKED</b>, or <b>MF_UNHILITE</b>. However, since these values equate to zero you must use an expression to test for them.
 
@@ -281,12 +266,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -313,7 +293,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <b>Reference</b>
- 
-
- 
 

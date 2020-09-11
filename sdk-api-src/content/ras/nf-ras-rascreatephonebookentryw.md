@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: da8bd49f-e890-4e8a-ab4d-7366c6f2b361
 ms.date: 12/05/2018
 ms.keywords: RasCreatePhonebookEntry, RasCreatePhonebookEntry function [RAS], RasCreatePhonebookEntryA, RasCreatePhonebookEntryW, _ras_rascreatephonebookentry, ras/RasCreatePhonebookEntry, ras/RasCreatePhonebookEntryA, ras/RasCreatePhonebookEntryW, rras.rascreatephonebookentry
-f1_keywords:
-- ras/RasCreatePhonebookEntry
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasCreatePhonebookEntry
-- RasCreatePhonebookEntryA
-- RasCreatePhonebookEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasCreatePhonebookEntryW
+ - ras/RasCreatePhonebookEntryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasCreatePhonebookEntry
+ - RasCreatePhonebookEntryA
+ - RasCreatePhonebookEntryW
 ---
 
 # RasCreatePhonebookEntryW function
@@ -51,35 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function has been deprecated as of Windows Vista and its functionality has been replaced by <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDialDlg</a>. ]
 
 The 
 <b>RasCreatePhonebookEntry</b> function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 Handle to the parent window of the dialog box.
 
-
 ### -param arg2 [in]
 
- Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
-
-
-
-					
-
+ Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -102,14 +90,8 @@ The phone book is corrupted or missing components.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When calling <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDialDlg</a>, set each member of the <b>RASDIALDLG</b> structure passed to <i>lpInfo</i> to zero except:
 
@@ -126,9 +108,6 @@ When calling <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-r
 > The ras.h header defines RasCreatePhonebookEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a>
 
@@ -151,7 +130,4 @@ When calling <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-r
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

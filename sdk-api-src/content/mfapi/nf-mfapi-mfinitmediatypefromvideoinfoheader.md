@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7f88422d-c968-4eea-83cb-45e6cfe37921
 ms.date: 12/05/2018
 ms.keywords: 7f88422d-c968-4eea-83cb-45e6cfe37921, MFInitMediaTypeFromVideoInfoHeader, MFInitMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfinitmediatypefromvideoinfoheader, mfapi/MFInitMediaTypeFromVideoInfoHeader
-f1_keywords:
-- mfapi/MFInitMediaTypeFromVideoInfoHeader
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFInitMediaTypeFromVideoInfoHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFInitMediaTypeFromVideoInfoHeader
+ - mfapi/MFInitMediaTypeFromVideoInfoHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFInitMediaTypeFromVideoInfoHeader
 ---
 
 # MFInitMediaTypeFromVideoInfoHeader function
@@ -49,50 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Initializes a media type from a DirectShow <b>VIDEOINFOHEADER</b> structure.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pMFType
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to initialize. To create the uninitialized media type object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a>.
 
-
 ### -param pVIH
 
 Pointer to a <b>VIDEOINFOHEADER</b> structure that describes the media type. The caller must fill in the structure members before calling this function.
-
 
 ### -param cbBufSize
 
 Size of the <b>VIDEOINFOHEADER</b> structure, in bytes.
 
-
 ### -param pSubtype
 
 Pointer to a subtype GUID. This parameter can be <b>NULL</b>. If the subtype GUID is specified, the function uses it to set the media subtype. Otherwise, the function attempts to deduce the subtype from the <b>biCompression</b> field contained in the <b>VIDEOINFOHEADER</b> structure.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -101,12 +83,7 @@ This function is available on the following platforms if the Windows Media Forma
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
@@ -117,7 +94,4 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
- 
-
- 
 

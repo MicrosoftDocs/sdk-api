@@ -34,6 +34,7 @@ api_location:
 api_name:
  - GdiplusStartupInput::GdiplusStartupInput
 f1_keywords:
+ - GdiplusStartupInput::GdiplusStartupInput
  - gdiplusinit/GdiplusStartupInput::GdiplusStartupInput
 dev_langs:
  - c++
@@ -68,3 +69,4 @@ Boolean value that specifies whether you want GDI+ to suppress external image co
 ## -remarks
 
 ## -see-also
+

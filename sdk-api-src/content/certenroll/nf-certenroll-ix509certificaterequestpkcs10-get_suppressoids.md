@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3f7a6d23-00d3-4ab6-817a-a37490f0cb84
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],SuppressOids property, IX509CertificateRequestPkcs10.SuppressOids, IX509CertificateRequestPkcs10.get_SuppressOids, IX509CertificateRequestPkcs10::SuppressOids, IX509CertificateRequestPkcs10::get_SuppressOids, SuppressOids property [Security], SuppressOids property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SuppressOids, certenroll/IX509CertificateRequestPkcs10::get_SuppressOids, get_SuppressOids, security.ix509certificaterequestpkcs10_suppressoids_property
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10.SuppressOids
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10.SuppressOids
-- IX509CertificateRequestPkcs10.get_SuppressOids
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10::get_SuppressOids
+ - certenroll/IX509CertificateRequestPkcs10::get_SuppressOids
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10.SuppressOids
+ - IX509CertificateRequestPkcs10.get_SuppressOids
 ---
 
 # IX509CertificateRequestPkcs10::get_SuppressOids
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SuppressOids</b> property retrieves a collection of the default extension and attribute <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that were not added  to the request when the request was encoded.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Attributes and extensions are added to a certificate request when it is encoded or initialized. You can suppress the addition of default extensions and attributes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_suppressdefaults">SuppressDefaults</a> property. For a PKCS #10 request, the following attributes are added by default:
 
@@ -98,14 +94,7 @@ You must initialize the <a href="https://docs.microsoft.com/windows/desktop/api/
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
@@ -116,7 +105,4 @@ You must initialize the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
- 
-
- 
 

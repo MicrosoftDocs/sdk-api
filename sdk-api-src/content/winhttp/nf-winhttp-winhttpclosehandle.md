@@ -7,10 +7,6 @@ old-location: http\winhttpclosehandle.htm
 tech.root: http
 ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f
 ms.date: 12/05/2018
-f1_keywords:
-- winhttp/WinHttpCloseHandle
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpCloseHandle
+ - winhttp/WinHttpCloseHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpCloseHandle
 ---
 
 ## -description
@@ -51,7 +52,7 @@ The **WinHttpCloseHandle** function closes a single **HINTERNET** handle (see [H
 
 ### -param hInternet [in]
 
-A valid **HINTERNET** handle (see [HINTERNET Handles in WinHTTP](/windows/win32/winhttp/hinternet-handles-in-winhttp)) to be closed. 
+A valid **HINTERNET** handle (see [HINTERNET Handles in WinHTTP](/windows/win32/winhttp/hinternet-handles-in-winhttp)) to be closed.
 
 ## -returns
 
@@ -178,9 +179,6 @@ The following example shows you how to  retrieve the connection
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
@@ -198,7 +196,4 @@ The following example shows you how to  retrieve the connection
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
- 
-
- 
 

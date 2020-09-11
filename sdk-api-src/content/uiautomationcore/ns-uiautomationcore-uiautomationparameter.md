@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 8287867d-5aaf-4c52-8a8b-d98de6a2ad4b
 ms.date: 12/05/2018
 ms.keywords: UIAutomationParameter, UIAutomationParameter structure [Windows Accessibility], uiauto.uiauto_UIAutomationParameterStruct, uiauto_UIAutomationParameterStruct, uiautomationcore/UIAutomationParameter, winauto.uiauto_UIAutomationParameterStruct
-f1_keywords:
-- uiautomationcore/UIAutomationParameter
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCore.h
-api_name:
-- UIAutomationParameter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UIAutomationParameter
+ - uiautomationcore/UIAutomationParameter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - UIAutomationParameter
 ---
 
 # UIAutomationParameter structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a parameter of a custom control pattern.
 
-
 ## -struct-fields
-
-
-
 
 ### -field type
 
@@ -64,18 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcor
 
 A value indicating the type of the parameter.
 
-
 ### -field pData
 
 Type: <b>void*</b>
 
 A pointer to the parameter data.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationpatterninstance-callmethod">CallMethod</a>
 
@@ -90,7 +81,4 @@ A pointer to the parameter data.
 
 
 <b>Reference</b>
- 
-
- 
 

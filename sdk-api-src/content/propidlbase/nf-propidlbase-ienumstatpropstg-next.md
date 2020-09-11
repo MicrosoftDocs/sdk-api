@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 8e911da9-0056-4267-b9d0-c4ba929ddb94
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Next method, IEnumSTATPROPSTG.Next, IEnumSTATPROPSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Next, stg.ienumstatpropstg_next
-f1_keywords:
-- propidlbase/IEnumSTATPROPSTG.Next
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IEnumSTATPROPSTG.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSTATPROPSTG::Next
+ - propidlbase/IEnumSTATPROPSTG::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IEnumSTATPROPSTG.Next
 ---
 
 # IEnumSTATPROPSTG::Next
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Next</b> method retrieves a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures, that follow subsequently in the enumeration sequence. If fewer than the requested number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures exist in the enumeration sequence, it retrieves the remaining <b>STATPROPSTG</b> structures.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures requested.
 
-
 ### -param rgelt [out]
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures returned.
-
 
 ### -param pceltFetched [out]
 
 The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures  retrieved in the <i>rgelt</i> parameter.
 
-
 ## -returns
-
-
 
 This method supports the following return values.
 
@@ -107,7 +98,4 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns
 </td>
 </tr>
 </table>
- 
-
-
 

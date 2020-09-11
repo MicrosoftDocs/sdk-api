@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 9e44b248-fc8a-44c1-9da6-8afb7649f6f4
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent2, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkEvent2Interface, mstv.imsvidstreambuffersinkevent2, segment/IMSVidStreamBufferSinkEvent2
-f1_keywords:
-- segment/IMSVidStreamBufferSinkEvent2
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSinkEvent2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSinkEvent2
+ - segment/IMSVidStreamBufferSinkEvent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSinkEvent2
 ---
 
 # IMSVidStreamBufferSinkEvent2 interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
 The <b>IMSVidStreamBufferSinkEvent2</b> interface is used to receive events from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695135(v=vs.85)">MSVidStreamBufferSink</a> object.
-
-
-
 
 ## -inheritance
 
@@ -92,29 +88,17 @@ The stream is now encrypted
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidStreamBufferSinkEvent2)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent">IMSVidStreamBufferSinkEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
- 
-
- 
 

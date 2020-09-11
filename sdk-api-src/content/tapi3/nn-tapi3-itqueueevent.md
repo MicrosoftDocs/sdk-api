@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 7e4655ff-6ed4-4166-91f7-49d2e0556662
 ms.date: 12/05/2018
 ms.keywords: ITQueueEvent, ITQueueEvent interface [TAPI 2.2], ITQueueEvent interface [TAPI 2.2],described, _tapi3_itqueueevent, tapi3.itqueueevent, tapi3cc/ITQueueEvent
-f1_keywords:
-- tapi3/ITQueueEvent
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITQueueEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITQueueEvent
+ - tapi3/ITQueueEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITQueueEvent
 ---
 
 # ITQueueEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITQueueEvent</b> interface contains methods that retrieve the description of Automatic Call Distribution (ACD) queue events. When the application's implementation of the 
@@ -94,13 +94,9 @@ Gets a pointer to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-acdqueue_event">ACDQUEUE_EVENT</a>
 
@@ -123,7 +119,4 @@ Gets a pointer to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

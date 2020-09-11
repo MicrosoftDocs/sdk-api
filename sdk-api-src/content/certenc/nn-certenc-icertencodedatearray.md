@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9973c49a-d886-4cc4-b75e-7ff46f56d51c
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeDateArray, ICertEncodeDateArray interface [Security], ICertEncodeDateArray interface [Security],described, _certsrv_icertencodedatearray, certenc/ICertEncodeDateArray, security.icertencodedatearray
-f1_keywords:
-- certenc/ICertEncodeDateArray
-dev_langs:
-- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenc.dll
-api_name:
-- ICertEncodeDateArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertEncodeDateArray
+ - certenc/ICertEncodeDateArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenc.dll
+api_name:
+ - ICertEncodeDateArray
 ---
 
 # ICertEncodeDateArray interface
 
 
 ## -description
-
 
 The <b>ICertEncodeDateArray</b> interface provides methods for handling <b>Date</b> arrays used in certificate extensions.
 
@@ -60,7 +60,6 @@ This interface is provided mainly as a demonstration for encoding custom extensi
 <b>ICertEncodeDateArray</b> is defined in Certenc.h. When you create your program, however, use Certsrv.h as the include file. Certenc.dll provides the <b>ICertEncodeDateArray</b> interface. The type information for this interface is also in Certencl.dll, which is shipped with the Platform SDK.
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -131,5 +130,5 @@ Sets a <b>Date</b> value at a specified index of a <b>Date</b> array.
 
 </td>
 </tr>
-</table> 
+</table>
 

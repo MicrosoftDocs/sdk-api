@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 2a0d45dc-1df6-4b1a-b4bc-3704257c5b38
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetInactiveTimer, MCIWndSetInactiveTimer macro [Windows Multimedia], _win32_MCIWndSetInactiveTimer, multimedia.mciwndsetinactivetimer, vfw/MCIWndSetInactiveTimer
-f1_keywords:
-- vfw/MCIWndSetInactiveTimer
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndSetInactiveTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndSetInactiveTimer
+ - vfw/MCIWndSetInactiveTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndSetInactiveTimer
 ---
 
 # MCIWndSetInactiveTimer macro
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCIWndSetInactiveTimer</b> macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is inactive. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setinactivetimer">MCIWNDM_SETINACTIVETIMER</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
-
+Handle of the MCIWnd window.
 
 ### -param inactive
 
-Update period, in milliseconds. The default is 2000 milliseconds. 
+Update period, in milliseconds. The default is 2000 milliseconds.
 

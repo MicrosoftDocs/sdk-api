@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 2f454538-0f40-4811-b908-cd317ef79487
 ms.date: 12/05/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], IStorage interface [Structured Storage],described, _stg_istorage, objidl/IStorage, stg.istorage
-f1_keywords:
-- objidl/IStorage
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStorage
+ - objidl/IStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IStorage
 ---
 
 # IStorage interface
 
 
 ## -description
-
 
 The 
 <b>IStorage</b> interface supports the creation and management of structured storage objects. Structured storage allows hierarchical storage of information within a single file, and is often referred to as "a file system within a file". Elements of a structured storage object are storages and streams. Storages are analogous to directories, and streams are analogous to files. Within a structured storage there will be a primary storage object that may contain substorages, possibly nested, and streams. Storages provide the structure of the object, and streams contain the data, which is manipulated through the 
@@ -65,7 +65,6 @@ There are a number of different modes in which a storage object and its elements
 
 Other methods provide access to information about a storage object and its elements through the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure.
-
 
 ## -inheritance
 
@@ -218,20 +217,13 @@ Returns the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
- 
-
- 
 

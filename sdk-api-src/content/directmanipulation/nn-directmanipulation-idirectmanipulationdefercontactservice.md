@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 6063352F-39FF-4E8F-B836-3DA0A02BE523
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationDeferContactService, IDirectManipulationDeferContactService interface [Direct Manipulation], IDirectManipulationDeferContactService interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdefercontactservice, directmanipulation/IDirectManipulationDeferContactService
-f1_keywords:
-- directmanipulation/IDirectManipulationDeferContactService
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationDeferContactService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationDeferContactService
+ - directmanipulation/IDirectManipulationDeferContactService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationDeferContactService
 ---
 
 # IDirectManipulationDeferContactService interface
@@ -49,13 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a service for managing associations between a contact and a viewport.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a> is called when a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> message is received. Upon receiving a <b>WM_POINTERDOWN</b>, the application can use the coordinates of the input to hit-test and determine the viewports to which the contact is associated.
-
-
 
 ## -inheritance
 
@@ -101,20 +99,13 @@ Specifies the amount of time to defer the execution of a call to <a href="https:
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a>
- 
-
- 
 

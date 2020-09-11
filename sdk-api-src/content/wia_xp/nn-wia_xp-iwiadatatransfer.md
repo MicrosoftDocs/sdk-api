@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\iwiadatatransfer.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfer interface [WIA],described, _wia_IWiaDataTransfer, wia._wia_IWiaDataTransfer, wia_xp/IWiaDataTransfer
-f1_keywords:
-- wia_xp/IWiaDataTransfer
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaDataTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaDataTransfer
+ - wia_xp/IWiaDataTransfer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaDataTransfer
 ---
 
 # IWiaDataTransfer interface
 
 
 ## -description
-
 
 The <b>IWiaDataTransfer</b> interface is a high performance data transfer interface. This interface supports a shared memory window to transfer data from the device object to the application, and eliminates unnecessary data copies during marshalling. A callback mechanism is provided in the form of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatacallback">IWiaDataCallback</a> interface. It enables applications to obtain data transfer status notification, transfer data from the Windows Image Acquisition (WIA) device to the application, and cancel pending data transfers. 
 <div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-iwiatransfer">IWiaTransfer</a> instead of <b>IWiaDataTransfer</b>.</div><div> </div>
@@ -115,12 +115,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IWiaDataTransfer</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
@@ -148,7 +145,4 @@ The <b>IWiaDataTransfer</b> interface, like all Component Object Model (COM) int
 <td>Decrements reference count.</td>
 </tr>
 </table>
- 
-
-
 

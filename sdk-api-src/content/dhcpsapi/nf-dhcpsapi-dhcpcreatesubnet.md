@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: acae01cf-cbd9-4461-a1cc-5fcb745b9c8f
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateSubnet, DhcpCreateSubnet function [DHCP], dhcp.dhcpcreatesubnet, dhcpsapi/DhcpCreateSubnet
-f1_keywords:
-- dhcpsapi/DhcpCreateSubnet
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpCreateSubnet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpCreateSubnet
+ - dhcpsapi/DhcpCreateSubnet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpCreateSubnet
 ---
 
 # DhcpCreateSubnet function
@@ -49,45 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpCreateSubnet</b> function creates a new subnet on the DHCP server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param SubnetAddress [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the IP address of the subnet's gateway.
 
-
 ### -param SubnetInfo [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_info">DHCP_SUBNET_INFO</a> structure that contains specific settings for the subnet, including the subnet mask and IP address of the  subnet gateway.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_info">DHCP_SUBNET_INFO</a>
 
@@ -98,7 +81,4 @@ This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnets">DhcpEnumSubnets</a>
- 
-
- 
 

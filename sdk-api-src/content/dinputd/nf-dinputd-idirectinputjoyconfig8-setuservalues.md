@@ -8,10 +8,6 @@ tech.root: hid
 ms.assetid: 0e33a73b-0315-43a2-8563-f21a7776921c
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetUserValues method, IDirectInputJoyConfig8.SetUserValues, IDirectInputJoyConfig8::SetUserValues, SetUserValues, SetUserValues method [Human Input Devices], SetUserValues method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_6630ec2e-5680-4323-b38f-0e9e0ed75761.xml, dinputd/IDirectInputJoyConfig8::SetUserValues, hid.idirectinputjoyconfig8_setuservalues
-f1_keywords:
-- dinputd/IDirectInputJoyConfig8.SetUserValues
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dinputd.h
-api_name:
-- IDirectInputJoyConfig8.SetUserValues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectInputJoyConfig8::SetUserValues
+ - dinputd/IDirectInputJoyConfig8::SetUserValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dinputd.h
+api_name:
+ - IDirectInputJoyConfig8.SetUserValues
 ---
 
 # IDirectInputJoyConfig8::SetUserValues
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IDirectInputJoyConfig8::SetUserValues </b>method sets the user settings for the joystick. 
-
+The <b>IDirectInputJoyConfig8::SetUserValues </b>method sets the user settings for the joystick.
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-Points to a structure that receives information about the new user joystick settings. 
-
+Points to a structure that receives information about the new user joystick settings.
 
 ### -param arg2
 
@@ -89,10 +84,7 @@ A list of valid global drivers can be obtained by enumerating the list of joysti
 
 Unused.
 
-
 ## -returns
-
-
 
 Returns DI_OK if successful; otherwise, returns one of the following COM error values: 
 
@@ -124,7 +116,4 @@ One or more parameters was invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

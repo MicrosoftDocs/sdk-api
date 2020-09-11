@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 9fdcdb99-be6c-4a3b-97dd-8d0eadd2754d
 ms.date: 12/05/2018
 ms.keywords: RpcBindingServerFromClient, RpcBindingServerFromClient function [RPC], _rpc_rpcbindingserverfromclient, rpc.rpcbindingserverfromclient, rpcdce/RpcBindingServerFromClient
-f1_keywords:
-- rpcdce/RpcBindingServerFromClient
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingServerFromClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingServerFromClient
+ - rpcdce/RpcBindingServerFromClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingServerFromClient
 ---
 
 # RpcBindingServerFromClient function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application calls 
 <b>RpcBindingServerFromClient</b> to convert a client binding handle into a partially-bound server binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param ClientBinding
 
@@ -70,10 +66,7 @@ Client binding handle to convert to a server binding handle. If a value of zero 
 
 Returns a server binding handle.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -131,11 +124,7 @@ Cannot determine the client's host. See Remarks for a list of supported protocol
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The following protocol sequences support 
 <b>RpcBindingServerFromClient</b>:
@@ -180,12 +169,7 @@ The server application must call
 <div class="alert"><b>Note</b>  To query a client's address, an application starts by calling the RpcBindingServerFromClient function to obtain a partially bound server binding handle.  The server binding handle can be used to obtain a string binding by invoking RpcBindingToStringBinding.  The server can then call RpcStringBindingParse to extract the client's network address from the string binding.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
 
@@ -212,7 +196,4 @@ The server application must call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: de37bef6-e6c8-4455-856a-adebebda4cc7
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_AUDIT_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_DS_SELF, PSYSTEM_ALARM_OBJECT_ACE, PSYSTEM_ALARM_OBJECT_ACE structure pointer [Security], SYSTEM_AUDIT_OBJECT_ACE, SYSTEM_AUDIT_OBJECT_ACE structure [Security], _SYSTEM_AUDIT_OBJECT_ACE, _win32_system_audit_object_ace_str, security.system_audit_object_ace, winnt/PSYSTEM_ALARM_OBJECT_ACE, winnt/SYSTEM_AUDIT_OBJECT_ACE'
-f1_keywords:
-- winnt/SYSTEM_AUDIT_OBJECT_ACE
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- SYSTEM_AUDIT_OBJECT_ACE
 targetos: Windows
 req.typenames: SYSTEM_AUDIT_OBJECT_ACE, *PSYSTEM_AUDIT_OBJECT_ACE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SYSTEM_AUDIT_OBJECT_ACE
+ - winnt/_SYSTEM_AUDIT_OBJECT_ACE
+ - PSYSTEM_AUDIT_OBJECT_ACE
+ - winnt/PSYSTEM_AUDIT_OBJECT_ACE
+ - SYSTEM_AUDIT_OBJECT_ACE
+ - winnt/SYSTEM_AUDIT_OBJECT_ACE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - SYSTEM_AUDIT_OBJECT_ACE
 ---
 
 # SYSTEM_AUDIT_OBJECT_ACE structure
@@ -49,26 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SYSTEM_AUDIT_OBJECT_ACE</b> structure defines an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). The ACE can audit access to an object or subobjects such as  property sets or properties. The ACE contains a set of access rights, a GUID that identifies the type of object or subobject, and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trustee</a> for whom the system will audit access. The ACE also contains a GUID and a set of flags that control inheritance of the ACE by child objects.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It contains flags that control inheritance of the ACE by child objects. The structure also contains flags that indicate whether the ACE audits successful access attempts, failed access attempts, or both. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to SYSTEM_AUDIT_OBJECT_ACE_TYPE, and the <b>AceSize</b> member should be set to the total number of bytes allocated for the <b>SYSTEM_AUDIT_OBJECT_ACE</b> structure.
 
-
 ### -field Mask
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> that specifies the access rights the system will audit for access attempts by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trustee</a>.
-
 
 ### -field Flags
 
@@ -105,8 +103,6 @@ The <b>InheritedObjectType</b> member contains a GUID.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ObjectType
 
@@ -168,8 +164,6 @@ The <b>ObjectType</b> GUID identifies a validated write.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field InheritedObjectType
 
@@ -183,17 +177,13 @@ This member is valid only if the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is set in
 
 The offset of this member can vary. If the <b>Flags</b> member does not contain the ACE_OBJECT_TYPE_PRESENT flag, the <b>InheritedObjectType</b> member starts at the offset specified by the <b>ObjectType</b> member.
 
-
 ### -field SidStart
 
 Specifies the first <b>DWORD</b> of a SID that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trustee</a> for whom the access attempts are audited. The remaining bytes of the SID  are stored in contiguous memory after the <b>SidStart</b> member. This SID can be appended with application data.
 
 The offset of this member can vary. If the <b>Flags</b> member is zero, the <b>SidStart</b> member starts at the offset specified by the <b>ObjectType</b> member. If <b>Flags</b> contains only one flag (either ACE_OBJECT_TYPE_PRESENT or ACE_INHERITED_OBJECT_TYPE_PRESENT), the <b>SidStart</b> member starts at the offset specified by the <b>InheritedObjectType</b> member.
 
-
 ## -remarks
-
-
 
 If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> GUID is specified, the <b>SYSTEM_AUDIT_OBJECT_ACE</b> structure has the same semantics as the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a> structure. In that case, use the 
 <b>SYSTEM_AUDIT_ACE</b> structure because it is smaller and more efficient.
@@ -206,13 +196,7 @@ When a <b>SYSTEM_AUDIT_OBJECT_ACE</b> structure is created, sufficient memory mu
 
 An <b>SYSTEM_AUDIT_OBJECT_ACE</b> structure can be created in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessobjectace">AddAuditAccessObjectAce</a> function. When this function is used, the correct amount of memory needed to accommodate the GUID structures in the <b>ObjectType</b> and <b>InheritedObjectType</b> members, if one or both of them exists, as well as to accommodate the trustee's SID is automatically allocated. In addition, the values of the <b>Header.AceType</b> and <b>Header.AceSize</b> members are set automatically.	When an <b>SYSTEM_AUDIT_OBJECT_ACE</b> structure is created outside an ACL, sufficient memory must be allocated to accommodate the GUID structures in the <b>ObjectType</b> and <b>InheritedObjectType</b> members, if one or both of them exists, as well as to accommodate the complete SID of the trustee in the <b>SidStart</b> member and the contiguous memory following it. In addition,  the values of the <b>Header.AceType</b> and <b>Header.AceSize</b> members must be set explicitly by the application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
@@ -227,7 +211,4 @@ An <b>SYSTEM_AUDIT_OBJECT_ACE</b> structure can be created in an <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
- 
-
- 
 

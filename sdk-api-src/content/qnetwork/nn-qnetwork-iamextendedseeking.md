@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9e0e49af-61ef-408c-8c26-bb29ab26a1f5
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow],described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
-f1_keywords:
-- qnetwork/IAMExtendedSeeking
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMExtendedSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtendedSeeking
+ - qnetwork/IAMExtendedSeeking
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMExtendedSeeking
 ---
 
 # IAMExtendedSeeking interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMExtendedSeeking</code> interface seeks to a marker in a Windows Media stream or changes the playback rate for a Windows Media file. This interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-reader-filter">WM ASF Reader</a> filter.
-
-
-
 
 ## -inheritance
 
@@ -134,12 +130,9 @@ Sets the playback speed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:
 
@@ -150,19 +143,11 @@ To define the interface identifier, include the header file Initguid.h before Qn
 <div class="alert"><b>Note</b>  Make sure that Initguid.h is included only once in your project. Otherwise, you will receive linker errors for duplicate GUID values.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

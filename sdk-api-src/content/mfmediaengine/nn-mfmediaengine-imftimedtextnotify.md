@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: FE782D90-8CD4-4F8B-A20E-CE3F792A2DB4
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], IMFTimedTextNotify interface [Media Foundation],described, mf.imftimedtextnotify, mfmediaengine/IMFTimedTextNotify
-f1_keywords:
-- mfmediaengine/IMFTimedTextNotify
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextNotify
+ - mfmediaengine/IMFTimedTextNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextNotify
 ---
 
 # IMFTimedTextNotify interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Interface that defines callbacks  for Microsoft Media Foundation Timed Text notifications.
-
 
 ## -inheritance
 
@@ -122,16 +121,9 @@ Called when a track is selected or deselected.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

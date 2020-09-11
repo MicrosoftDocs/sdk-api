@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 419fb4f0-3dd1-4473-aeb2-8024355e0c1c
 ms.date: 12/05/2018
 ms.keywords: SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/SetCredentialsAttributes, sspi/SetCredentialsAttributesA, sspi/SetCredentialsAttributesW
-f1_keywords:
-- sspi/SetCredentialsAttributes
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- SetCredentialsAttributes
-- SetCredentialsAttributesA
-- SetCredentialsAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetCredentialsAttributesW
+ - sspi/SetCredentialsAttributesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - SetCredentialsAttributes
+ - SetCredentialsAttributesA
+ - SetCredentialsAttributesW
 ---
 
 # SetCredentialsAttributesW function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credential</a>, such as the name associated with the credential. The information is valid for any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> created with the specified credential.
 
-
 ## -parameters
-
-
-
 
 ### -param phCredential [in]
 
 A handle of the credentials to be set.
-
 
 ### -param ulAttribute [in]
 
@@ -140,22 +135,16 @@ This attribute is supported only by Schannel.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [in]
 
 A pointer to a buffer that contains the new attribute value. The type of structure returned depends on the value of <i>ulAttribute</i>.
 
-
 ### -param cbBuffer
 
 The size, in bytes, of the <i>pBuffer</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SEC_E_OK.
 
@@ -200,15 +189,8 @@ Not enough memory is available to complete the request.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>
 
@@ -239,9 +221,6 @@ Not enough memory is available to complete the request.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>
- 
-
- 
 
 ## -remarks
 

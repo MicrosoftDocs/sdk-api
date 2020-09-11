@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 9a7ed18a-f21c-486b-9261-59a3fe5aef9e
 ms.date: 12/05/2018
 ms.keywords: DrvEnablePDEV, DrvEnablePDEV function [Display Devices], ddifncs_62a5b81b-a608-4da0-8315-3268fb6f65da.xml, display.drvenablepdev, winddi/DrvEnablePDEV
-f1_keywords:
-- winddi/DrvEnablePDEV
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvEnablePDEV
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvEnablePDEV
+ - winddi/DrvEnablePDEV
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvEnablePDEV
 ---
 
 # DrvEnablePDEV function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvEnablePDEV</b> function returns a description of the physical device's characteristics to GDI.
 
-
 ## -parameters
-
-
-
 
 ### -param pdm [in]
 
 Pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that contains driver data. 
 
-For a driver that supports Windows NT 4.0, <b>DrvEnablePDEV</b> should return the default mode of the hardware when GDI calls it with the following <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> members set to zero: <b>dmBitsPerPel</b>, <b>dmPelsWidth</b>, <b>dmPelsHeight</b>, and <b>dmDisplayFrequency</b>. 
-
+For a driver that supports Windows NT 4.0, <b>DrvEnablePDEV</b> should return the default mode of the hardware when GDI calls it with the following <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> members set to zero: <b>dmBitsPerPel</b>, <b>dmPelsWidth</b>, <b>dmPelsHeight</b>, and <b>dmDisplayFrequency</b>.
 
 ### -param pwszLogAddress [in]
 
@@ -71,13 +66,11 @@ For printer drivers, points to the logical address string that is the user's nam
 
 Display drivers should ignore this parameter.
 
-
 ### -param cPat
 
 For printer drivers, specifies the number of surface handles in the buffer pointed to by <i>phsurfPatterns</i>. The driver cannot access memory beyond the end of the buffer.
 
 Display drivers should ignore this parameter.
-
 
 ### -param phsurfPatterns [in, optional]
 
@@ -161,54 +154,39 @@ Each of these surfaces must be a monochrome (1 bit per pixel) GDI bitmap for ras
 
 GDI is never required to use these brushes in support routines for a vector device. Therefore, surfaces can be device-supported surfaces that <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a> recognizes as standard patterns.
 
-
 ### -param cjCaps
 
 Specifies the size of the buffer pointed to by <i>pdevcaps</i>. The driver must not access memory beyond the end of the buffer.
-
 
 ### -param pdevcaps [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure that will be used to describe device capabilities. GDI zero-initializes this structure calling <b>DrvEnablePDEV</b>.
 
-
 ### -param cjDevInfo
 
 Specifies the number of bytes in the DEVINFO structure pointed to by <i>pdi</i>. The driver should modify no more than this number of bytes in the DEVINFO.
-
 
 ### -param pdi [out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure, which describes the driver and the physical device. The driver should only alter the members it understands. GDI fills this structure with zeros before a call to <b>DrvEnablePDEV</b>.
 
-
 ### -param hdev
 
 GDI-supplied handle to the device. This handle must be used as input to some GDI callbacks, such as <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetdrivername">EngGetDriverName</a>.
-
 
 ### -param pwszDeviceName [in]
 
 Pointer to a null-terminated string that is the user-readable name of the device.
 
-
 ### -param hDriver
 
-Handle to an output device. For a display driver, this is the display device handle. For a printer driver, this parameter should be used as a handle to the printer in calls to the spooler. 
-
+Handle to an output device. For a display driver, this is the display device handle. For a printer driver, this parameter should be used as a handle to the printer in calls to the spooler.
 
 ## -returns
 
-
-
 The return value is a handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that identifies the enabled device if the function is successful. That is, <b>DrvEnablePDEV</b> returns a handle to the private, driver-defined device instance information upon success. Otherwise, it returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 A graphics device driver might support several physical devices attached to different logical addresses. Drivers must also support simultenous use of different drawing surfaces.
 
@@ -250,13 +228,7 @@ GDI zero-initializes the buffer pointed to by <i>phsurfPatterns</i> before calli
 
 <b>DrvEnablePDEV</b> is required for graphics drivers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
 
@@ -279,7 +251,4 @@ GDI zero-initializes the buffer pointed to by <i>phsurfPatterns</i> before calli
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
- 
-
- 
 

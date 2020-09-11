@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: e12a532a-4624-4e06-8e19-6e9daec550ac
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl, IMFByteStreamCacheControl interface [Media Foundation], IMFByteStreamCacheControl interface [Media Foundation],described, mf.imfbytestreamcachecontrol, mfidl/IMFByteStreamCacheControl
-f1_keywords:
-- mfidl/IMFByteStreamCacheControl
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFByteStreamCacheControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamCacheControl
+ - mfidl/IMFByteStreamCacheControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFByteStreamCacheControl
 ---
 
 # IMFByteStreamCacheControl interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls how a network byte stream transfers data to a local cache. Optionally, this interface is exposed by byte streams that read data from a network, for example, through HTTP.
       
 
 To get a pointer to this interface, call <b>QueryInterface</b> on the byte stream object.
-
 
 ## -inheritance
 
@@ -80,13 +79,9 @@ Stops the background transfer of data to the local cache.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
@@ -97,7 +92,4 @@ Stops the background transfer of data to the local cache.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

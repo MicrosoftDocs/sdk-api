@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsmallcaps.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSmallCaps method, ITextFont.SetSmallCaps, ITextFont::SetSmallCaps, SetSmallCaps, SetSmallCaps method [Windows Controls], SetSmallCaps method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSmallCaps, _win32_ITextFont_SetSmallCaps_cpp, controls.ITextFont_SetSmallCaps, controls._win32_ITextFont_SetSmallCaps, tom/ITextFont::SetSmallCaps
-f1_keywords:
-- tom/ITextFont.SetSmallCaps
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetSmallCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetSmallCaps
+ - tom/ITextFont::SetSmallCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetSmallCaps
 ---
 
 # ITextFont::SetSmallCaps
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets whether characters are in small capital letters.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -86,12 +82,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 <td>The SmallCaps property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -147,15 +139,8 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -174,7 +159,4 @@ Insufficient memory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

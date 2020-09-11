@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f98cd8d0-7033-4bd2-94a1-1a75913c2647
 ms.date: 12/05/2018
 ms.keywords: ITfRangeBackup, ITfRangeBackup interface [Text Services Framework], ITfRangeBackup interface [Text Services Framework],described, _tsf_itfrangebackup_ref, msctf/ITfRangeBackup, tsf.itfrangebackup
-f1_keywords:
-- msctf/ITfRangeBackup
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfRangeBackup
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRangeBackup
+ - msctf/ITfRangeBackup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfRangeBackup
 ---
 
 # ITfRangeBackup interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRangeBackup</b> interface is implemented by the TSF manager and is used by a text service to create a backup copy of the data contained in a range object. This backup copy can be used later to restore the range object. An instance of this interface is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-createrangebackup">ITfContext::CreateRangeBackup</a>.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Restores a specified range object into the TSF context.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-createrangebackup">ITfContext::CreateRangeBackup
       </a>
@@ -100,7 +95,4 @@ Restores a specified range object into the TSF context.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges: Clones and Backups</a>
- 
-
- 
 

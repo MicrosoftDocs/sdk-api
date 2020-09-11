@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 7fe74fc2-03bd-43dd-917f-ee0149f1e17f
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], IAMTimecodeGenerator interface [DirectShow],described, IAMTimecodeGeneratorInterface, dshow.iamtimecodegenerator, strmif/IAMTimecodeGenerator
-f1_keywords:
-- strmif/IAMTimecodeGenerator
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTimecodeGenerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTimecodeGenerator
+ - strmif/IAMTimecodeGenerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTimecodeGenerator
 ---
 
 # IAMTimecodeGenerator interface
 
 
 ## -description
-
-
 
 The <code>IAMTimecodeGenerator</code> interface controls how an external SMPTE/MIDI timecode generator supplies data to the filter graph.
 
@@ -63,9 +62,6 @@ Optionally, you can enable applications to convert timecode to reference time by
 <b>Hardware Requirements</b>
 
 For hardware requirements, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport</a> interface.
-
-
-
 
 ## -inheritance
 
@@ -136,16 +132,9 @@ Sets the timecode, userbit value, or both.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>
- 
-
- 
 

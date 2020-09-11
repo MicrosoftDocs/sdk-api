@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 352dcd7d-a7e1-493f-b9ce-c125f9d45fa8
 ms.date: 12/05/2018
 ms.keywords: GetNextPacketSize, GetNextPacketSize method [Core Audio], GetNextPacketSize method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetNextPacketSize method, IAudioCaptureClient.GetNextPacketSize, IAudioCaptureClient::GetNextPacketSize, IAudioCaptureClientGetNextPacketSize, audioclient/IAudioCaptureClient::GetNextPacketSize, coreaudio.iaudiocaptureclient_getnextpacketsize
-f1_keywords:
-- audioclient/IAudioCaptureClient.GetNextPacketSize
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioCaptureClient.GetNextPacketSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioCaptureClient::GetNextPacketSize
+ - audioclient/IAudioCaptureClient::GetNextPacketSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioCaptureClient.GetNextPacketSize
 ---
 
 # IAudioCaptureClient::GetNextPacketSize
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetNextPacketSize</b> method retrieves the number of frames in the next data packet in the capture endpoint buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pNumFramesInNextPacket [out]
 
 Pointer to a <b>UINT32</b> variable into which the method writes the frame count (the number of audio frames in the next capture packet).
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -111,14 +101,8 @@ Parameter <i>pNumFramesInNextPacket</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method only with shared-mode streams. It does not work with exclusive-mode streams.
 
@@ -130,13 +114,7 @@ A packet always consists of an integral number of audio frames.
 
 For a code example that uses the <b>GetNextPacketSize</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
@@ -151,7 +129,4 @@ For a code example that uses the <b>GetNextPacketSize</b> method, see <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getcurrentpadding">IAudioClient::GetCurrentPadding</a>
- 
-
- 
 

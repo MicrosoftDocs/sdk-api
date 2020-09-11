@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: B68F7F68-12F5-4650-84ED-D1EE0B670964
 ms.date: 12/05/2018
 ms.keywords: D2D1_CHROMAKEY_PROP, D2D1_CHROMAKEY_PROP enumeration [Direct2D], D2D1_CHROMAKEY_PROP_COLOR, D2D1_CHROMAKEY_PROP_FEATHER, D2D1_CHROMAKEY_PROP_INVERT_ALPHA, D2D1_CHROMAKEY_PROP_TOLERANCE, d2d1effects_2/D2D1_CHROMAKEY_PROP, d2d1effects_2/D2D1_CHROMAKEY_PROP_COLOR, d2d1effects_2/D2D1_CHROMAKEY_PROP_FEATHER, d2d1effects_2/D2D1_CHROMAKEY_PROP_INVERT_ALPHA, d2d1effects_2/D2D1_CHROMAKEY_PROP_TOLERANCE, direct2d.d2d1_chromakey_prop
-f1_keywords:
-- d2d1effects_2/D2D1_CHROMAKEY_PROP
-dev_langs:
-- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects_2.h
-api_name:
-- D2D1_CHROMAKEY_PROP
 targetos: Windows
 req.typenames: D2D1_CHROMAKEY_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_CHROMAKEY_PROP
+ - d2d1effects_2/D2D1_CHROMAKEY_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects_2.h
+api_name:
+ - D2D1_CHROMAKEY_PROP
 ---
 
 # D2D1_CHROMAKEY_PROP enumeration
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/chromakey-effect">Chroma-key effect</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_CHROMAKEY_PROP_COLOR
 
 The D2D1_CHROMAKEY_PROP_COLOR property is a vector4 value indicating the color that should be converted to alpha.  The default color is black.
-
 
 ### -field D2D1_CHROMAKEY_PROP_TOLERANCE
 
 The D2D1_CHROMAKEY_PROP_TOLERANCE property is a float value indicating the tolerance for matching the color specified in the D2D1_CHROMAKEY_PROP_COLOR property.  
           The allowed range is 0.0 to 1.0.  The default value is 0.1.
 
-
 ### -field D2D1_CHROMAKEY_PROP_INVERT_ALPHA
 
 The D2D1_CHROMAKEY_PROP_INVERT_ALPHA property is a boolean value indicating whether the alpha values should be inverted.  The default value if False.
-
 
 ### -field D2D1_CHROMAKEY_PROP_FEATHER
 
@@ -80,8 +73,5 @@ The D2D1_CHROMAKEY_PROP_FEATHER property is a boolean value whether the edges of
           When set to False, the alpha output by the effect is 1-bit: either fully opaque or fully transparent. Setting to True results in a softening of edges in the alpha channel of the Chroma Key output.
           The default value is False.
 
-
 ### -field D2D1_CHROMAKEY_PROP_FORCE_DWORD
-
-
 

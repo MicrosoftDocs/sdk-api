@@ -8,10 +8,6 @@ tech.root: wer
 ms.assetid: CE840EE8-5EB6-4F0F-935E-5DA9097E950F
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterAdditionalProcess, WerUnregisterAdditionalProcess function [Windows Error Reporting], wer.werunregisteradditionalprocess, werapi/WerUnregisterAdditionalProcess
-f1_keywords:
-- werapi/WerUnregisterAdditionalProcess
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- WerUnregisterAdditionalProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerUnregisterAdditionalProcess
+ - werapi/WerUnregisterAdditionalProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - WerUnregisterAdditionalProcess
 ---
 
 # WerUnregisterAdditionalProcess function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a process from the list of additional processes to be included in the error report.
 
-
 ## -parameters
-
-
-
 
 ### -param processId
 
 The Id of the process to remove. It must have been previously registered with <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisteradditionalprocess">WerRegisterAdditionalProcess</a>.
 
-
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
 
@@ -99,15 +92,8 @@ The list of registered processes does not contain the specified process.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
@@ -118,7 +104,4 @@ The list of registered processes does not contain the specified process.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
 

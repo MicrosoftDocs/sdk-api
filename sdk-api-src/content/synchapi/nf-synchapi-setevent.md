@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: b474eef1-5df9-4729-b940-0c5f201c5f31
 ms.date: 12/05/2018
 ms.keywords: SetEvent, SetEvent function, _win32_setevent, base.setevent, synchapi/SetEvent, winbase/SetEvent
-f1_keywords:
-- synchapi/SetEvent
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetEvent
+ - synchapi/SetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetEvent
 ---
 
 # SetEvent function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the specified event object to the signaled state.
 
-
 ## -parameters
-
-
-
 
 ### -param hEvent [in]
 
@@ -76,22 +72,14 @@ A handle to the event object. The
 The handle must have the EVENT_MODIFY_STATE access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The state of a manual-reset event object remains signaled until it is set explicitly to the nonsignaled state by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a> function. Any number of waiting threads, or threads that subsequently begin wait operations for the specified event object by calling one of the 
@@ -112,12 +100,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
@@ -140,7 +123,4 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

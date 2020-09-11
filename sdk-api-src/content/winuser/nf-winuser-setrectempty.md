@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: d3c677ae-e45c-4d54-8521-75954a466a68
 ms.date: 12/05/2018
 ms.keywords: SetRectEmpty, SetRectEmpty function [Windows GDI], _win32_SetRectEmpty, gdi.setrectempty, winuser/SetRectEmpty
-f1_keywords:
-- winuser/SetRectEmpty
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
-api_name:
-- SetRectEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetRectEmpty
+ - winuser/SetRectEmpty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+api_name:
+ - SetRectEmpty
 ---
 
 # SetRectEmpty function
@@ -52,34 +53,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetRectEmpty</b> function creates an empty rectangle in which all coordinates are set to zero.
 
-
 ## -parameters
-
-
-
 
 ### -param lprc [out]
 
 Pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the coordinates of the rectangle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 Because applications can use rectangles for different purposes, the rectangle functions do not use an explicit unit of measure. Instead, all rectangle coordinates and dimensions are given in signed, logical values. The mapping mode and the function in which the rectangle is used determine the units of measure.
 
@@ -90,12 +78,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyrect">CopyRect</a>
 
@@ -114,7 +97,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setrect">SetRect</a>
- 
-
- 
 

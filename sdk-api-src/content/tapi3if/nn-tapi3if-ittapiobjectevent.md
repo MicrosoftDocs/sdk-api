@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 73be7109-0d3a-4ac5-adb7-e1577d8640b5
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent, ITTAPIObjectEvent interface [TAPI 2.2], ITTAPIObjectEvent interface [TAPI 2.2],described, _tapi3_ittapiobjectevent, tapi3.ittapiobjectevent, tapi3if/ITTAPIObjectEvent
-f1_keywords:
-- tapi3if/ITTAPIObjectEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTAPIObjectEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTAPIObjectEvent
+ - tapi3if/ITTAPIObjectEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTAPIObjectEvent
 ---
 
 # ITTAPIObjectEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITTAPIObjectEvent</b> interface contains methods that retrieve the description of TAPI object events. When the application's implementation of the 
@@ -62,7 +62,6 @@ The
 <b>ITTAPIObjectEvent</b> interface. 
 <b>ITTAPIObjectEvent2</b> exposes an additional method that returns a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface on the phone object that caused the TAPI object event.
-
 
 ## -inheritance
 
@@ -118,13 +117,9 @@ Gets a pointer to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -147,7 +142,4 @@ Gets a pointer to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

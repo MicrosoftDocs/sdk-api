@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: CBC4100A-756B-429E-8368-D5D018A2B0AC
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFallback, IDWriteFontFallback interface [Direct Write], IDWriteFontFallback interface [Direct Write],described, directwrite.idwritefontfallback, dwrite_2/IDWriteFontFallback
-f1_keywords:
-- dwrite_2/IDWriteFontFallback
-dev_langs:
-- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFallback
+ - dwrite_2/IDWriteFontFallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFallback
 ---
 
 # IDWriteFontFallback interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows you to access fallback fonts from the font list.
 
-The <b>IDWriteFontFallback</b> interface defines a fallback sequence to map character ranges to fonts, which is either created via <a href="/windows/win32/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a> or retrieved from <a href="/windows/win32/DirectWrite/idwritefactory2-getsystemfontfallback">IDWriteFactory2::GetSystemFontFallback</a>. 
-
+The <b>IDWriteFontFallback</b> interface defines a fallback sequence to map character ranges to fonts, which is either created via <a href="/windows/win32/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a> or retrieved from <a href="/windows/win32/DirectWrite/idwritefactory2-getsystemfontfallback">IDWriteFactory2::GetSystemFontFallback</a>.
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Determines an appropriate font to use to render the beginning range of text.
 
 </td>
 </tr>
-</table> 
+</table>
 

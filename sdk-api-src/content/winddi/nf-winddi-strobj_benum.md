@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 82cb12ff-2baa-4291-849c-dab9d01fa39b
 ms.date: 12/05/2018
 ms.keywords: STROBJ_bEnum, STROBJ_bEnum function [Display Devices], display.strobj_benum, gdifncs_2925a0a5-f797-41a5-b5b1-d87d60d44905.xml, winddi/STROBJ_bEnum
-f1_keywords:
-- winddi/STROBJ_bEnum
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- STROBJ_bEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - STROBJ_bEnum
+ - winddi/STROBJ_bEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - STROBJ_bEnum
 ---
 
 # STROBJ_bEnum function
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>STROBJ_bEnum</b> function enumerates glyph identities and positions.
 
-
 ## -parameters
-
-
-
 
 ### -param pstro
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> information.
 
-
 ### -param pc
 
 Pointer to the count, returned by GDI, of GLYPHPOS structures.
-
 
 ### -param ppgpos
 
 Pointer to the array in which GDI writes the GLYPHPOS structures.
 
-
 ## -returns
-
-
 
 The return value is <b>TRUE</b> if more glyphs remain to be enumerated, or <b>FALSE</b> if the enumeration is complete. The return value is DDI_ERROR if the glyphs cannot be enumerated, and an error code is logged.
 
-
-
-
 ## -remarks
-
-
 
 A driver should download only the glyph handles if it caches fonts itself.
 
@@ -94,13 +80,7 @@ Bitmaps or outlines can also be obtained from <a href="https://docs.microsoft.co
 
 Printer drivers should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benumpositionsonly">STROBJ_bEnumPositionsOnly</a> instead of <b>STROBJ_bEnum</b> if printer hardware provides internal rendering of TrueType fonts.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
 
@@ -127,7 +107,4 @@ Printer drivers should call <a href="https://docs.microsoft.com/windows/desktop/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_venumstart">STROBJ_vEnumStart</a>
- 
-
- 
 

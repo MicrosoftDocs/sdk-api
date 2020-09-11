@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: A30C73DA-9BD5-4D12-A6FB-771BBD2D1191
 ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngine, IMFImageSharingEngine interface [Media Foundation], IMFImageSharingEngine interface [Media Foundation],described, mf.imfimagesharingengine, mfsharingengine/IMFImageSharingEngine
-f1_keywords:
-- mfsharingengine/IMFImageSharingEngine
-dev_langs:
-- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfsharingengine.h
-api_name:
-- IMFImageSharingEngine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFImageSharingEngine
+ - mfsharingengine/IMFImageSharingEngine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfsharingengine.h
+api_name:
+ - IMFImageSharingEngine
 ---
 
 # IMFImageSharingEngine interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables image sharing.
-
 
 ## -inheritance
 
@@ -95,16 +94,9 @@ Shuts down the image sharing engine.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

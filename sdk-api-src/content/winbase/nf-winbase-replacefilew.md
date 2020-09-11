@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 23402a71-e945-4891-9815-c75e57051501
 ms.date: 12/05/2018
 ms.keywords: REPLACEFILE_IGNORE_ACL_ERRORS, REPLACEFILE_IGNORE_MERGE_ERRORS, REPLACEFILE_WRITE_THROUGH, ReplaceFile, ReplaceFile function [Files], ReplaceFileA, ReplaceFileW, _win32_replacefile, base.replacefile, fs.replacefile, winbase/ReplaceFile, winbase/ReplaceFileA, winbase/ReplaceFileW
-f1_keywords:
-- winbase/ReplaceFile
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- ReplaceFile
-- ReplaceFileA
-- ReplaceFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReplaceFileW
+ - winbase/ReplaceFileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - ReplaceFile
+ - ReplaceFileA
+ - ReplaceFileW
 ---
 
 # ReplaceFileW function
@@ -58,15 +59,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces one file with another file, with the option of creating a backup copy of the original 
     file. The replacement file assumes the name of the replaced file and its identity.
 
-
 ## -parameters
-
-
-
 
 ### -param lpReplacedFileName [in]
 
@@ -87,7 +83,6 @@ This file is opened with the <b>GENERIC_READ</b>, <b>DELETE</b>, and
 The caller must have write access to the file to be replaced. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param lpReplacementFileName [in]
 
 The name of the file that will replace the <i>lpReplacedFileName</i> file.
@@ -106,7 +101,6 @@ The function attempts to open this file with the <b>SYNCHRONIZE</b>,
        <b>SYNCHRONIZE</b>, <b>GENERIC_READ</b>, 
        <b>DELETE</b>, and <b>WRITE_DAC</b> access rights. No sharing mode is 
        specified.
-
 
 ### -param lpBackupFileName [in, optional]
 
@@ -171,22 +165,16 @@ Ignores errors that occur while merging ACL information from the replaced file t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpExclude
 
 Reserved for future use.
 
-
 ### -param lpReserved
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -249,12 +237,7 @@ If any other error is returned, such as <b>ERROR_INVALID_PARAMETER</b>, the repl
        does not exist and it is not guaranteed that the 
        replacement file will have inherited all of the attributes and streams of the replaced file.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>ReplaceFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation. See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
@@ -305,9 +288,6 @@ To delete or rename a file, you must have either delete permission on the file o
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a>
 
 
@@ -329,7 +309,4 @@ To delete or rename a file, you must have either delete permission on the file o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 4E0DEB5C-36AA-480C-913C-235DE9AEA58D
 ms.date: 12/05/2018
 ms.keywords: ClusterRegReadBatchReplyNextCommand, ClusterRegReadBatchReplyNextCommand function [Failover Cluster], clusapi/ClusterRegReadBatchReplyNextCommand, mscs.clusterregreadbatchreplynextcommand
-f1_keywords:
-- clusapi/ClusterRegReadBatchReplyNextCommand
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-api_name:
-- ClusterRegReadBatchReplyNextCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegReadBatchReplyNextCommand
+ - clusapi/ClusterRegReadBatchReplyNextCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+ - ClusterRegReadBatchReplyNextCommand
 ---
 
 # ClusterRegReadBatchReplyNextCommand function
@@ -52,28 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads the next command from a read batch result.
 
-
 ## -parameters
-
-
-
 
 ### -param hRegReadBatchReply [in]
 
 A handle to a read batch result that was created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatch">ClusterRegCloseReadBatch</a> function.  You must close this handle later by calling the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatchreply">ClusterRegCloseReadBatchReply</a> function.
 
-
 ### -param pBatchCommand [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a> structure that contains information about the read command.
 
-
 ## -returns
-
-
 
 The function returns one of the following 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
@@ -120,24 +112,12 @@ There is no more information in <i>hRegReadBatchReply</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The number of records in the read batch results is equal to the number of commands in the read batch. Also, the results are in the same order as the commands that were added to the read batch.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a>
 
@@ -148,7 +128,4 @@ The number of records in the read batch results is equal to the number of comman
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatchreply">ClusterRegCloseReadBatchReply</a>
- 
-
- 
 

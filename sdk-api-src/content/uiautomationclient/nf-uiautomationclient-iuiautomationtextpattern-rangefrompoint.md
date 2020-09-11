@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: aa80b1d8-c50e-45be-8769-8b937c8e714a
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],RangeFromPoint method, IUIAutomationTextPattern.RangeFromPoint, IUIAutomationTextPattern::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility],IUIAutomationTextPattern interface, uiauto.uiauto_IUIAutomationTextPattern_RangeFromPoint, uiauto_IUIAutomationTextPattern_RangeFromPoint, uiautomationclient/IUIAutomationTextPattern::RangeFromPoint, winauto.uiauto_IUIAutomationTextPattern_RangeFromPoint
-f1_keywords:
-- uiautomationclient/IUIAutomationTextPattern.RangeFromPoint
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationTextPattern.RangeFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTextPattern::RangeFromPoint
+ - uiautomationclient/IUIAutomationTextPattern::RangeFromPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationTextPattern.RangeFromPoint
 ---
 
 # IUIAutomationTextPattern::RangeFromPoint
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the degenerate (empty) text range nearest to the specified screen coordinates.
 
-
 ## -parameters
-
-
-
 
 ### -param pt [in]
 
@@ -64,28 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)
 
 A structure that contains the location, in screen coordinates.
 
-
 ### -param range [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange</a>**</b>
 
 Receives a pointer to the degenerate text range nearest the specified location.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A text range that wraps a child object is returned if the screen coordinates are within the coordinates of an image, hyperlink, Microsoft Excel spreadsheet, or other embedded object.
 
@@ -99,19 +86,11 @@ The implementation of <b>RangeFromPoint</b> in Windows Internet Explorer 9 does
 <li>Check the bounding rectangles to find the text range that occupies the particular screen coordinates. </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
- 
-
- 
 

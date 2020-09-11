@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 51ae200a-a630-44fd-afd4-33d1b1dbf6d7
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Animation], GetValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetValue method, IUIAnimationVariable.GetValue, IUIAnimationVariable::GetValue, uianimation.iuianimationvariable_getvalue, uianimation/IUIAnimationVariable::GetValue
-f1_keywords:
-- uianimation/IUIAnimationVariable.GetValue
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationVariable.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationVariable::GetValue
+ - uianimation/IUIAnimationVariable::GetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationVariable.GetValue
 ---
 
 # IUIAnimationVariable::GetValue
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current value of the animation variable.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 The current value of the animation variable.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 The results can be affected by the lower and upper bounds determined by <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setlowerbound">IUIAnimationVariable::SetLowerBound</a> and <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setupperbound">IUIAnimationVariable::SetUpperBound</a>, respectively.
 
@@ -85,12 +73,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/UIAnimat
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>
 
@@ -113,7 +96,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/UIAnimat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setupperbound">IUIAnimationVariable::SetUpperBound</a>
- 
-
- 
 

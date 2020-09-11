@@ -3,10 +3,6 @@ UID: NS:objidl.tagSTGMEDIUM~r1
 title: uSTGMEDIUM
 ms.date: 01/30/19
 ms.keywords: tagSTGMEDIUM, uSTGMEDIUM
-f1_keywords:
-- objidl/tagSTGMEDIUM
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -23,15 +19,22 @@ req.target-type:
 req.typenames: uSTGMEDIUM
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - tagSTGMEDIUM
+ - objidl/tagSTGMEDIUM
+ - uSTGMEDIUM
+ - objidl/uSTGMEDIUM
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- objidl.h
+ - objidl.h
 api_name:
-- tagSTGMEDIUM
-- uSTGMEDIUM
+ - tagSTGMEDIUM
+ - uSTGMEDIUM
 ---
 
 # uSTGMEDIUM structure
@@ -41,13 +44,11 @@ api_name:
 
 Represents a generalized global memory handle used for data transfer operations by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a> interfaces.
 
-
 ## -struct-fields
 
 ### -field tymed
 
 The type of storage medium. The marshaling and unmarshaling routines use this value to determine which union member was used. This value must be one of the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a> enumeration.
-
 
 ### -field DUMMYUNIONNAME
 
@@ -57,41 +58,33 @@ Handle, string, or interface pointer that the receiving process can use to acces
 
 Bitmap handle. The tymed member is TYMED_GDI.
 
-
 ### -field DUMMYUNIONNAME.hMetaFilePict
 
 Metafile handle. The tymed member is TYMED_MFPICT.
-
 
 ### -field DUMMYUNIONNAME.hEnhMetaFile
 
 Enhanced metafile handle. The tymed member is TYMED_ENHMF.
 
-
 ### -field DUMMYUNIONNAME.hGlobal
 
 Global memory handle. The tymed member is TYMED_HGLOBAL.
 
-
 ### -field DUMMYUNIONNAME.lpszFileName
 
-Pointer to the path of a disk file that contains the data. The tymed member is TYMED_FILE. 
-
+Pointer to the path of a disk file that contains the data. The tymed member is TYMED_FILE.
 
 ### -field DUMMYUNIONNAME.pstm
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface. The tymed member is TYMED_ISTREAM.
 
-
 ### -field DUMMYUNIONNAME.pstg
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface. The tymed member is TYMED_ISTORAGE.
 
-
 ### -field pUnkForRelease
 
 Pointer to an interface instance that allows the sending process to control the way the storage is released when the receiving process calls the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-releasestgmedium">ReleaseStgMedium</a> function. If <i>pUnkForRelease</i> is <b>NULL</b>, <b>ReleaseStgMedium</b> uses default procedures to release the storage; otherwise, <b>ReleaseStgMedium</b> uses the specified IUnknown interface.
-
 
 ## -see-also
 
@@ -112,5 +105,4 @@ Pointer to an interface instance that allows the sending process to control the 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-releasestgmedium">ReleaseStgMedium</a>
- 
 

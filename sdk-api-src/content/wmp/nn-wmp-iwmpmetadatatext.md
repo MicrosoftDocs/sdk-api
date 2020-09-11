@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 15d040fa-6c14-41ff-bd21-a8991c17681d
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataText, IWMPMetadataText interface [Windows Media Player], IWMPMetadataText interface [Windows Media Player],described, IWMPMetadataTextInterface, wmp.iwmpmetadatatext, wmp/IWMPMetadataText
-f1_keywords:
-- wmp/IWMPMetadataText
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPMetadataText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMetadataText
+ - wmp/IWMPMetadataText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPMetadataText
 ---
 
 # IWMPMetadataText interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPMetadataText</b> interface provides methods for retrieving information about complex textual metadata attributes.
-
-
-
 
 ## -inheritance
 
@@ -89,16 +85,9 @@ Retrieves the metadata text.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

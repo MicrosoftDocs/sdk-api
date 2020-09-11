@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 9c03f24c-073f-40bc-aee7-c462d4e2d781
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], INetDiagHelperEx interface [NDF],described, ndf.inetdiaghelperex, ndhelper/INetDiagHelperEx
-f1_keywords:
-- ndhelper/INetDiagHelperEx
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelperEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelperEx
+ - ndhelper/INetDiagHelperEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelperEx
 ---
 
 # INetDiagHelperEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetDiagHelperEx</b> interface provides methods that extend on the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a> interface to capture and provide information associated with diagnoses and resolution of network-related issues.
-
 
 ## -inheritance
 
@@ -95,16 +94,9 @@ Reserved for system use.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
- 
-
- 
 

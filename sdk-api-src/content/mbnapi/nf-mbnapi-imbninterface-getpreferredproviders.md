@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: cbd37f0a-4245-415d-bd74-501aa4c7ade7
 ms.date: 12/05/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnInterface.GetPreferredProviders, IMbnInterface::GetPreferredProviders, mbn.imbninterface_getpreferredproviders, mbnapi/IMbnInterface::GetPreferredProviders
-f1_keywords:
-- mbnapi/IMbnInterface.GetPreferredProviders
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterface.GetPreferredProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterface::GetPreferredProviders
+ - mbnapi/IMbnInterface::GetPreferredProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterface.GetPreferredProviders
 ---
 
 # IMbnInterface::GetPreferredProviders
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 Gets the list of preferred providers.
 
-
 ## -parameters
-
-
-
 
 ### -param preferredProviders [out, retval]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of preferred providers.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.   When <b>GetPreferredProviders</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221702.aspx">SafeArrayDestroy</a>.  
-
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of preferred providers.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.   When <b>GetPreferredProviders</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221702.aspx">SafeArrayDestroy</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -154,14 +148,8 @@ The device does not support this operation. CDMA devices will always return this
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>GetPreferredProviders</b> returns the list of providers that are stored in the interface's preferred provider list.
 
@@ -173,16 +161,7 @@ The Mobile Broadband service will update the application about the status of any
 
 In some cases, the device's preferred provider list can be updated through the network by SMS or OTA (over-the-air update). The operating system will notify the application of any change in the preferred provider list by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onpreferredproviderschange">OnPreferredProvidersChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
- 
-
- 
 

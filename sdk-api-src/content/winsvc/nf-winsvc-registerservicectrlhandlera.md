@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 31ec28fe-8774-48fc-91ba-6fa43108e2cc
 ms.date: 12/05/2018
 ms.keywords: RegisterServiceCtrlHandler, RegisterServiceCtrlHandler function, RegisterServiceCtrlHandlerA, RegisterServiceCtrlHandlerW, _win32_registerservicectrlhandler, base.registerservicectrlhandler, winsvc/RegisterServiceCtrlHandler, winsvc/RegisterServiceCtrlHandlerA, winsvc/RegisterServiceCtrlHandlerW
-f1_keywords:
-- winsvc/RegisterServiceCtrlHandler
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- RegisterServiceCtrlHandler
-- RegisterServiceCtrlHandlerA
-- RegisterServiceCtrlHandlerW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterServiceCtrlHandlerA
+ - winsvc/RegisterServiceCtrlHandlerA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - RegisterServiceCtrlHandler
+ - RegisterServiceCtrlHandlerA
+ - RegisterServiceCtrlHandlerW
 ---
 
 # RegisterServiceCtrlHandlerA function
@@ -55,17 +56,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a function to handle  service control requests.
 
 This function has been superseded by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> function. A service can use either function, but the new function supports user-defined context data, and the new handler function supports additional extended control codes.
 
-
 ## -parameters
-
-
-
 
 ### -param lpServiceName [in]
 
@@ -77,16 +73,12 @@ The name of the service run by the calling thread. This is the service name that
 
 If the service type is SERVICE_WIN32_OWN_PROCESS, the function does not verify that the specified name is valid, because there is only one registered service in the process.
 
-
 ### -param lpHandlerProc [in]
 
 A pointer to the handler function to be registered. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function">Handler</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a service status handle.
 
@@ -123,14 +115,8 @@ The service entry was specified incorrectly when the process called the <a href=
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function of a new service should immediately call the 
@@ -164,9 +150,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
@@ -192,7 +175,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
- 
-
- 
 

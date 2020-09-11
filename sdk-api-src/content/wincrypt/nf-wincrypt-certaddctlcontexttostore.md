@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e8858f75-77a1-4c5f-a3e3-a645c5e0f053
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCTLContextToStore, CertAddCTLContextToStore function [Security], _crypto2_certaddctlcontexttostore, security.certaddctlcontexttostore, wincrypt/CertAddCTLContextToStore
-f1_keywords:
-- wincrypt/CertAddCTLContextToStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertAddCTLContextToStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertAddCTLContextToStore
+ - wincrypt/CertAddCTLContextToStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertAddCTLContextToStore
 ---
 
 # CertAddCTLContextToStore function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertAddCTLContextToStore</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of a certificate store.
 
-
 ### -param pCtlContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be added to the store.
-
 
 ### -param dwAddDisposition [in]
 
@@ -155,18 +149,13 @@ If a matching CTL or a link to a matching CTL does not exist, a new CTL is added
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppStoreContext [out, optional]
 
 Pointer to a pointer to the decoded CTL <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>. This optional parameter can be <b>NULL</b> indicating that the calling application does not require a copy of the added or existing CTL. If a copy is made, that context must be freed using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -205,27 +194,15 @@ An add disposition that is not valid was specified by the <i>dwAddDisposition</i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The CTL context is not duplicated using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext">CertDuplicateCTLContext</a>. Instead, a new copy is created and added to the store. In addition to the encoded CTL, the context's properties are copied.
 
 To remove the CTL context from the certificate store, use the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedctltostore">CertAddEncodedCTLToStore</a>
 
@@ -236,7 +213,4 @@ To remove the CTL context from the certificate store, use the  <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\copy.htm
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [Windows Controls], Copy method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Copy method, ITextRange.Copy, ITextRange::Copy, _win32_ITextRange_Copy, _win32_ITextRange_Copy_cpp, controls.ITextRange_Copy, controls._win32_ITextRange_Copy, tom/ITextRange::Copy
-f1_keywords:
-- tom/ITextRange.Copy
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.Copy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::Copy
+ - tom/ITextRange::Copy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.Copy
 ---
 
 # ITextRange::Copy
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Copies the text to a data object. 
-
+Copies the text to a data object.
 
 ## -parameters
-
-
-
 
 ### -param pVar
 
@@ -72,24 +68,16 @@ The copied text.
 <li>pVar is not null </li>
 <li>pVar-&gt;ppunkVal is not null </li>
 </ul>
-Otherwise, the clipboard is used. 
-
+Otherwise, the clipboard is used.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 This method returns an 
 						<b>HRESULT</b> value. If successful, it returns <b>S_OK</b>. Otherwise, it returns <b>E_OUTOFMEMORY</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-cut">ITextRange::Cut</a>, 
 				<b>ITextRange::Copy</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-paste">ITextRange::Paste</a> methods let you perform the usual 
@@ -103,13 +91,7 @@ To copy and replace plain text, you can use the <a href="https://docs.microsoft.
 
 <code>r2.GetFormattedText = r1.GetFormattedText</code>
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -148,7 +130,4 @@ To copy and replace plain text, you can use the <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

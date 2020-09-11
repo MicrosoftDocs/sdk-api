@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 46c143d7-b9ec-4808-a4d2-337e6e0252dd
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], IDVBSTuningSpace interface [Microsoft TV Technologies],described, IDVBSTuningSpaceInterface, mstv.idvbstuningspace, tuner/IDVBSTuningSpace
-f1_keywords:
-- tuner/IDVBSTuningSpace
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IDVBSTuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVBSTuningSpace
+ - tuner/IDVBSTuningSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IDVBSTuningSpace
 ---
 
 # IDVBSTuningSpace interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IDVBSTuningSpace</b> interface is implemented on the <b>DVBTuningSpace</b> object and provides methods for working with tuning spaces with a DVBS network type.
-
-
-
 
 ## -inheritance
 
@@ -161,29 +157,17 @@ Sets an integer indicating the spectral inversion.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IDVBSTuningSpace)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace2">IDVBTuningSpace2</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

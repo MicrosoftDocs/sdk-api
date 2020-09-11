@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
 ms.date: 12/05/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
-f1_keywords:
-- processthreadsapi/SetThreadDescription
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- KernelBase.dll
-- Api-ms-win-core-processthreads-l1-1-3.dll
-api_name:
-- SetThreadDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadDescription
+ - processthreadsapi/SetThreadDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - KernelBase.dll
+ - Api-ms-win-core-processthreads-l1-1-3.dll
+api_name:
+ - SetThreadDescription
 ---
 
 # SetThreadDescription function
+
 
 ## -description
 
@@ -61,7 +63,6 @@ A handle for the thread for which you want to set the description. The handle mu
 ### -param lpThreadDescription [in]
 
 A Unicode string that specifies the description of the thread.
-
 
 ## -returns
 
@@ -90,4 +91,3 @@ if (FAILED(hr))
 
 [GetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreaddescription), [How to: Set a Thread Name in Native Code](https://docs.microsoft.com/visualstudio/debugger/how-to-set-a-thread-name-in-native-code)
 
- 

@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 6b30b660-dfa4-410f-a8de-58ea5c9a104d
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], IUIAnimationStoryboard interface [Windows Animation],described, uianimation.iuianimationstoryboard, uianimation/IUIAnimationStoryboard
-f1_keywords:
-- uianimation/IUIAnimationStoryboard
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationStoryboard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationStoryboard
+ - uianimation/IUIAnimationStoryboard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationStoryboard
 ---
 
 # IUIAnimationStoryboard interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a storyboard, which contains a group of transitions
       that are synchronized relative to one another.
-
 
 ## -inheritance
 
@@ -222,27 +221,16 @@ Sets the tag for the storyboard.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IUIAnimationStoryboard</b> is a primary component for building animations,
          along with 
          <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a> and 
          <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>.
-         
-         
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-abandonallstoryboards">IUIAnimationManager::AbandonAllStoryboards</a>
 
@@ -269,7 +257,4 @@ Sets the tag for the storyboard.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/storyboard-construction">Storyboard Overview</a>
- 
-
- 
 

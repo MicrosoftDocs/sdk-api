@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 236608c3-061e-4db0-96df-25d263b6463b
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF], INetSharingPortMapping interface [ICS/ICF],described, _ics_inetsharingportmapping, ics.inetsharingportmapping, netcon/INetSharingPortMapping
-f1_keywords:
-- netcon/INetSharingPortMapping
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingPortMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingPortMapping
+ - netcon/INetSharingPortMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingPortMapping
 ---
 
 # INetSharingPortMapping interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>INetSharingPortMapping</b> interface provides methods for managing a particular port mapping.
-
 
 ## -inheritance
 
@@ -107,25 +106,16 @@ Retrieves the properties for the port mapping.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-addportmapping">INetSharingConfiguration::AddPortMapping</a> and 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-get_enumportmappings">INetSharingConfiguration::EnumPortMappings</a> methods to obtain 
 <b>INetSharingPortMapping</b> interfaces.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-addportmapping">INetSharingConfiguration::AddPortMapping</a>
 
@@ -140,7 +130,4 @@ Use the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
 

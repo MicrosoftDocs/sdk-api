@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 0dd8cbe4-a8f8-479c-b8f7-ccdd255e978a
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSnapshotted method, IVssSoftwareSnapshotProvider.IsVolumeSnapshotted, IVssSoftwareSnapshotProvider::IsVolumeSnapshotted, IsVolumeSnapshotted, IsVolumeSnapshotted method, IsVolumeSnapshotted method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesnapshotted, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
-f1_keywords:
-- vsprov/IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
+ - vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
 ---
 
 # IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether any shadow copies exist for the specified volume.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszVolumeName [in]
 
@@ -76,15 +72,11 @@ Null-terminated wide character string containing the volume name. The name must 
 
 This parameter receives <b>TRUE</b> if the volume has a shadow copy, or <b>FALSE</b> if the volume does not have a shadow copy.
 
-
 ### -param plSnapshotCompatibility [out]
 
 A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that indicate whether certain volume control or file I/O operations are disabled for the given volume, if the volume has a shadow copy.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -176,27 +168,12 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If no volume control or file I/O operations are disabled for the selected volume, then the shadow copy capability of the selected volume returned by <i>plSnapshotCapability</i> will be zero.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
- 
-
- 
 

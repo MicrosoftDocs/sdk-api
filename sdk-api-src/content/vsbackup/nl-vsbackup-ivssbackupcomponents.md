@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: fe1220c7-11e5-4872-b7a9-61558f7c75c0
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], IVssBackupComponents interface [VSS],described, _win32_ivssbackupcomponents, base.ivssbackupcomponents, vsbackup/IVssBackupComponents
-f1_keywords:
-- vsbackup/IVssBackupComponents
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents
+ - vsbackup/IVssBackupComponents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents
 ---
 
 # IVssBackupComponents class
 
 
 ## -description
-
 
 The <b>IVssBackupComponents</b> interface is used by a 
     requester to poll writers about file status and to run backup/restore operations.
@@ -65,7 +65,6 @@ After the backup, restore, or <a href="https://docs.microsoft.com/windows/deskto
     release the <b>IVssBackupComponents</b> object by calling 
     <b>IVssBackupComponents::Release</b>. An 
     <b>IVssBackupComponents</b> object must not be reused. For example, you cannot perform a backup or restore operation with the same <b>IVssBackupComponents</b> object that you have already used for a <b>Query</b> operation.
-
 
 ## -inheritance
 
@@ -525,5 +524,5 @@ Creates a new, empty shadow copy set.
 
 </td>
 </tr>
-</table> 
+</table>
 

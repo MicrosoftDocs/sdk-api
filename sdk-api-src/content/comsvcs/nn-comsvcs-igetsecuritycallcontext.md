@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7be988b7-b144-4b8f-b8d3-b0700b564df3
 ms.date: 12/05/2018
 ms.keywords: IGetSecurityCallContext, IGetSecurityCallContext interface [COM+], IGetSecurityCallContext interface [COM+],described, _cos_IGetSecurityCallContext, comsvcs/IGetSecurityCallContext, cos.igetsecuritycallcontext
-f1_keywords:
-- comsvcs/IGetSecurityCallContext
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IGetSecurityCallContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetSecurityCallContext
+ - comsvcs/IGetSecurityCallContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IGetSecurityCallContext
 ---
 
 # IGetSecurityCallContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a reference to an object created from the <a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a> class that is associated with the current call.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Retrieves a reference to an object created from the <a href="https://docs.micros
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
@@ -94,7 +89,4 @@ Retrieves a reference to an object created from the <a href="https://docs.micros
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a>
- 
-
- 
 

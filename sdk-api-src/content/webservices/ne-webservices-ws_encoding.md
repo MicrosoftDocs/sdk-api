@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 37858df7-ae76-41c1-8fd2-fc810b8927bf
 ms.date: 12/05/2018
 ms.keywords: WS_ENCODING, WS_ENCODING enumeration [Web Services for Windows], WS_ENCODING_XML_BINARY_1, WS_ENCODING_XML_BINARY_SESSION_1, WS_ENCODING_XML_MTOM_UTF16BE, WS_ENCODING_XML_MTOM_UTF16LE, WS_ENCODING_XML_MTOM_UTF8, WS_ENCODING_XML_UTF16BE, WS_ENCODING_XML_UTF16LE, WS_ENCODING_XML_UTF8, webservices/WS_ENCODING, webservices/WS_ENCODING_XML_BINARY_1, webservices/WS_ENCODING_XML_BINARY_SESSION_1, webservices/WS_ENCODING_XML_MTOM_UTF16BE, webservices/WS_ENCODING_XML_MTOM_UTF16LE, webservices/WS_ENCODING_XML_MTOM_UTF8, webservices/WS_ENCODING_XML_UTF16BE, webservices/WS_ENCODING_XML_UTF16LE, webservices/WS_ENCODING_XML_UTF8, wsw.ws_encoding
-f1_keywords:
-- webservices/WS_ENCODING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_ENCODING
 targetos: Windows
 req.typenames: WS_ENCODING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_ENCODING
+ - webservices/WS_ENCODING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENCODING
 ---
 
 # WS_ENCODING enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The different encodings (message formats).
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_ENCODING_XML_BINARY_1
 
@@ -70,8 +65,6 @@ Although the data is still in the XML
                 
 
 This encoding requires SOAP 1.2 (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION_SOAP_1_2</a>).
-                
-
 
 ### -field WS_ENCODING_XML_BINARY_SESSION_1
 
@@ -107,8 +100,6 @@ The size of the session dictionary is configured using
                 
 
 This encoding requires SOAP 1.2 (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION_SOAP_1_2</a>).
-                
-
 
 ### -field WS_ENCODING_XML_MTOM_UTF8
 
@@ -125,8 +116,6 @@ The MTOM encoding optimizes for binary data by avoiding the costs
 
 The XML part of the MTOM package is written
                     using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF8</a>, but may be in any <b>WS_CHARSET</b>when read.
-                
-
 
 ### -field WS_ENCODING_XML_MTOM_UTF16BE
 
@@ -143,8 +132,6 @@ The MTOM encoding optimizes for binary data by avoiding the costs
 
 The XML part of the MTOM package is written
                     using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16BE</a>, but may be in any <b>WS_CHARSET</b>when read.
-                
-
 
 ### -field WS_ENCODING_XML_MTOM_UTF16LE
 
@@ -161,8 +148,6 @@ The MTOM encoding optimizes for binary data by avoiding the costs
 
 The XML part of the MTOM package is written
                     using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16LE</a>, but may be in any <b>WS_CHARSET</b>when read.
-                
-
 
 ### -field WS_ENCODING_XML_UTF8
 
@@ -171,8 +156,6 @@ The text encoding (XML 1.0 format).
 
 Data is written using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF8</a>,
                     but may be in any <b>WS_CHARSET</b> when read.
-                
-
 
 ### -field WS_ENCODING_XML_UTF16BE
 
@@ -181,8 +164,6 @@ The text encoding (XML 1.0 format).
 
 Data is written using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16BE</a>,
                     but may be in any <b>WS_CHARSET</b> when read.
-                
-
 
 ### -field WS_ENCODING_XML_UTF16LE
 
@@ -191,10 +172,6 @@ The text encoding (XML 1.0 format).
 
 Data is written using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16LE</a>,
                     but may be in any <b>WS_CHARSET</b> when read.
-                
-
 
 ### -field WS_ENCODING_RAW
-
-
 

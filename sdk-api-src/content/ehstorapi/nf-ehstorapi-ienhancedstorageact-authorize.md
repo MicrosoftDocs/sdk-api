@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: 77141891-9adc-4cd9-b682-8f5b8e842f4c
 ms.date: 12/05/2018
 ms.keywords: Authorize, Authorize method [Enhanced Storage], Authorize method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],Authorize method, IEnhancedStorageACT.Authorize, IEnhancedStorageACT::Authorize, ehstorapi/IEnhancedStorageACT::Authorize, enstor.ienhancedstorageact_authorize
-f1_keywords:
-- ehstorapi/IEnhancedStorageACT.Authorize
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageACT.Authorize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageACT::Authorize
+ - ehstorapi/IEnhancedStorageACT::Authorize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageACT.Authorize
 ---
 
 # IEnhancedStorageACT::Authorize
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates the Addressable Command Target (ACT) with the <b>Authorized</b> state    defined by <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the authentication of each individual silo according to the required sequence and logical combination necessary to authorize access to the ACT.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 Not used.
 
-
 ### -param dwFlags [in]
 
 Not used.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,27 +94,12 @@ The authorization operation has failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This interface method can be used when an application wants to change the ACT to the 'Authorized' state.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
- 
-
- 
 

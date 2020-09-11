@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 8f053c53-2a2b-4d98-a510-c516faa21611
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], ITuningSpaceContainer interface [Microsoft TV Technologies],described, ITuningSpaceContainerInterface, mstv.ituningspacecontainer, tuner/ITuningSpaceContainer
-f1_keywords:
-- tuner/ITuningSpaceContainer
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- ITuningSpaceContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITuningSpaceContainer
+ - tuner/ITuningSpaceContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - ITuningSpaceContainer
 ---
 
 # ITuningSpaceContainer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITuningSpaceContainer</b> interface is implemented on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/systemtuningspaces-object">SystemTuningSpaces</a> object. It provides access to all tuning spaces installed on the host system.
-
 
 ## -inheritance
 
@@ -185,29 +184,17 @@ Retrieves a collection of tuning spaces that match the specified name.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ITuningSpaceContainer)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

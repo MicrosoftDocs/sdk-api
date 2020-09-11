@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: ba56b029-95d4-4c79-8385-0a5adb9f7dcc
 ms.date: 12/05/2018
 ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfProvider.GetObjects, IWbemHiPerfProvider::GetObjects, _hmm_iwbemhiperfprovider_getobjects, wbemprov/IWbemHiPerfProvider::GetObjects, wmi.iwbemhiperfprovider_getobjects
-f1_keywords:
-- wbemprov/IWbemHiPerfProvider.GetObjects
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiprvsd.dll
-api_name:
-- IWbemHiPerfProvider.GetObjects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemHiPerfProvider::GetObjects
+ - wbemprov/IWbemHiPerfProvider::GetObjects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiprvsd.dll
+api_name:
+ - IWbemHiPerfProvider.GetObjects
 ---
 
 # IWbemHiPerfProvider::GetObjects
 
 
 ## -description
-
 
 The 
 <b>IWbemHiPerfProvider::GetObjects</b> method inserts the non-key properties of the objects in the supplied array. WMI calls 
@@ -61,30 +61,23 @@ The
 
 ## -parameters
 
-
-
-
 ### -param pNamespace [in]
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
 
-
 ### -param lNumObjects [in]
 
 Integer that contains the number of objects you are retrieving.
-
 
 ### -param apObj [in, out]
 
 Pointer to an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> objects. The <b>GetObjects</b> method inserts the key properties of each object into this array.
 
-
 ### -param lFlags
 
 Reserved. This parameter must be 0.
-
 
 ### -param pContext
 
@@ -92,19 +85,11 @@ Typically <b>NULL</b>; otherwise, a pointer to an
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in specific provider documentation. For more information about this parameter, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI.</a>.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 The requested objects will have their key properties filled out.
 
@@ -147,14 +132,7 @@ HRESULT CMyHiPerfProvider::GetObjects(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
 
@@ -173,7 +151,4 @@ Making an Instance Provider into a High-Performance Provider
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
- 
-
- 
 

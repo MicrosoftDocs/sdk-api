@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 962a99bd-060d-4101-b65a-d0406e136bf7
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_CONSTRICTION_DATA, DXVAHD_BLT_STATE_CONSTRICTION_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA, mf.dxvahd_blt_state_constriction_data
-f1_keywords:
-- dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_BLT_STATE_CONSTRICTION_DATA
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE_CONSTRICTION_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_BLT_STATE_CONSTRICTION_DATA
+ - dxvahd/_DXVAHD_BLT_STATE_CONSTRICTION_DATA
+ - DXVAHD_BLT_STATE_CONSTRICTION_DATA
+ - dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_BLT_STATE_CONSTRICTION_DATA
 ---
 
 # DXVAHD_BLT_STATE_CONSTRICTION_DATA structure
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether the output is downsampled in a  blit operation, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Enable
 
 If <b>TRUE</b>, downsampling is enabled<b></b>. Otherwise, downsampling is disabled and the <b>Size</b> member is ignored. The default state value is <b>FALSE</b> (downsampling is disabled).
 
-
 ### -field Size
 
 The sampling size. The default value is (1,1).
 
-
 ## -remarks
-
-
 
 If the <b>Enable</b> member is <b>TRUE</b>, the device downsamples the composed target rectangle  to the size given in the <b>Size</b> member, and then scales it back to the size of the target rectangle.
 
@@ -82,13 +76,7 @@ If the device does not support downsampling, the <a href="https://docs.microsoft
 
 Downsampling is sometimes used to reduce the quality of premium content when other forms of content protection are not available.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -107,7 +95,4 @@ Downsampling is sometimes used to reduce the quality of premium content when oth
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

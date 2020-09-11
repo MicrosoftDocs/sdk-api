@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: E4C4757F-4948-41C9-97FB-446B26BE8E93
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_STEP, D3D11_TRACE_STEP structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STEP, direct3d11.d3d11_trace_step
-f1_keywords:
-- d3d11shadertracing/D3D11_TRACE_STEP
-dev_langs:
-- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11ShaderTracing.h
-api_name:
-- D3D11_TRACE_STEP
 targetos: Windows
 req.typenames: D3D11_TRACE_STEP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_TRACE_STEP
+ - d3d11shadertracing/D3D11_TRACE_STEP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11ShaderTracing.h
+api_name:
+ - D3D11_TRACE_STEP
 ---
 
 # D3D11_TRACE_STEP structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a trace step, which is an instruction.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ID
 
@@ -64,21 +60,17 @@ A number that identifies the instruction, as an offset into the executable instr
 
 HLSL debugging information uses the same convention. Therefore, HLSL instructions are matched to a set of IDs. You can then map an ID to a disassembled string that can be displayed to the user.
 
-
 ### -field InstructionActive
 
 A value that specifies whether the instruction is active. This value is TRUE if something happened; therefore, you should parse other data in this structure. Otherwise, nothing happened; for example, if an instruction is disabled due to flow control even though other pixels in the stamp execute it.
-
 
 ### -field NumRegistersWritten
 
 The number of registers for the instruction that are written to. The range of registers is [0...NumRegistersWritten-1]. You can pass a register number to the <i>writtenRegisterIndex</i> parameter of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getwrittenregister">ID3D11ShaderTrace::GetWrittenRegister</a> to retrieve individual write-register information.
 
-
 ### -field NumRegistersRead
 
 The number of registers for the instruction that are read from. The range of registers is [0...NumRegistersRead-1]. You can pass a register number to the <i>readRegisterIndex</i> parameter of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getreadregister">ID3D11ShaderTrace::GetReadRegister</a> to retrieve individual read-register information.
-
 
 ### -field MiscOperations
 
@@ -122,11 +114,9 @@ A combination of the following values that are combined by using a bitwise <b>OR
 
 If the <b>NumRegistersWritten</b> member is 0, examine this member although this member still might be empty (0).
 
-
 ### -field OpcodeType
 
 A number that specifies the type of instruction (for example, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/add---vs">add</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-mul">mul</a>, and so on). You can ignore this member if you do not know the number for the instruction type. This member offers a minor convenience at the cost of bloating the trace slightly.  You can use the <b>ID</b> member and map back to the original shader code to retrieve the full information about the instruction.
-
 
 ### -field CurrentGlobalCycle
 
@@ -139,20 +129,9 @@ The global cycle count for this step.  You can use this member to correlate para
 
 ## -remarks
 
-
-
 This API requires the Windows Software Development Kit (SDK) for Windows 8.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
- 
-
- 
 

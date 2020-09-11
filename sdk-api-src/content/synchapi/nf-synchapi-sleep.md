@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 934d37ea-402c-4118-bd7e-87b5fce80fca
 ms.date: 12/05/2018
 ms.keywords: Sleep, Sleep function, _win32_sleep, base.sleep, synchapi/Sleep, winbase/Sleep
-f1_keywords:
-- synchapi/Sleep
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- Sleep
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Sleep
+ - synchapi/Sleep
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - Sleep
 ---
 
 # Sleep function
@@ -55,17 +56,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Suspends the execution of the current thread until the time-out interval elapses.
 
 To enter an alertable wait state, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMilliseconds [in]
 
@@ -77,10 +73,7 @@ A value of zero causes the thread to relinquish the remainder of its time slice 
 
 A value of INFINITE indicates that the suspension should not time out.
 
-
 ## -remarks
-
-
 
 This function causes a thread to relinquish the remainder of its time slice and become unrunnable for an interval based on the value of <i>dwMilliseconds</i>. The system clock "ticks" at a constant rate. If <i>dwMilliseconds</i> is less than the resolution of the system clock, the thread may sleep for less than the specified length of time. If <i>dwMilliseconds</i> is greater than one tick but less than two, the wait can be anywhere between one and two ticks, and so on. To increase the accuracy of the sleep interval, call the <b>timeGetDevCaps</b> function to determine the supported minimum timer resolution and the <b>timeBeginPeriod</b> function to set the timer resolution to its minimum. Use caution when calling <b>timeBeginPeriod</b>, as frequent calls can significantly affect the system clock, system power usage, and the scheduler. If you call <b>timeBeginPeriod</b>, call it one time early in the application and be sure to call the <b>timeEndPeriod</b> function at the very end of the application.
 
@@ -111,12 +104,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a>
 
@@ -143,7 +131,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a>
- 
-
- 
 

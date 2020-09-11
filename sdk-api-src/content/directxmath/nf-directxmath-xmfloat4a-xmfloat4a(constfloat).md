@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.#ctor(const float)
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4 constructor [DirectX Math Support APIs], XMFLOAT4 constructor [DirectX Math Support APIs],XMFLOAT4 structure, XMFLOAT4 structure [DirectX Math Support APIs],XMFLOAT4 constructor, XMFLOAT4.XMFLOAT4(const float*), XMFLOAT4A, XMFLOAT4A.XMFLOAT4A, XMFLOAT4A.XMFLOAT4A(const float), XMFLOAT4A::XMFLOAT4A, XMFLOAT4A::XMFLOAT4A(const float), dxmath.xmfloat4_ctor_3
-f1_keywords:
-- directxmath/XMFLOAT4.XMFLOAT4
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT4.XMFLOAT4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT4A::XMFLOAT4A
+ - directxmath/XMFLOAT4A::XMFLOAT4A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT4.XMFLOAT4
 ---
 
 # XMFLOAT4A::XMFLOAT4A(const float)
 
 
 ## -description
-
 
 Initializes a new instance of <code>XMFLOAT4</code> from a four element <code>float</code> array
 	argument.
@@ -61,19 +61,12 @@ This constructor initializes a new instance of <a href="https://docs.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
 Four element <code>float</code> array containing the values used to initialize the
 		    four components of a new instance of <code>XMFLOAT4</code>.
-		
-
 
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of this constructor:
 
@@ -89,14 +82,7 @@ The following pseudocode demonstrates the operation of this constructor:
     
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -107,7 +93,4 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat)">XMFLOAT4 Constructors</a>
- 
-
- 
 

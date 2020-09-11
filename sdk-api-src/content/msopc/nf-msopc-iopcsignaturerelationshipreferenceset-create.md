@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: c348ac25-f2b3-491d-b378-f0daf282b1ca
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignatureRelationshipReferenceSet.Create, IOpcSignatureRelationshipReferenceSet::Create, msopc/IOpcSignatureRelationshipReferenceSet::Create, opc.iopcsignaturerelationshipreferenceset_create
-f1_keywords:
-- msopc/IOpcSignatureRelationshipReferenceSet.Create
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureRelationshipReferenceSet.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureRelationshipReferenceSet::Create
+ - msopc/IOpcSignatureRelationshipReferenceSet::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureRelationshipReferenceSet.Create
 ---
 
 # IOpcSignatureRelationshipReferenceSet::Create
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturerelationshipreference">IOpcSignatureRelationshipReference</a> interface pointer that represents a reference to a Relationships part,  and adds the new interface pointer to the set. All or a subset of the relationships stored in the Relationships part to be referenced are selected for signing.
 
-
 ## -parameters
-
-
-
 
 ### -param sourceUri [in]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>  interface pointer that represents the source URI of the relationships to be selected for signing.
-
 
 ### -param digestMethod [in]
 
@@ -71,14 +66,11 @@ The digest method to be used for the relationships to be selected. To use the de
 <div class="alert"><b>Important</b>  The default digest method must be set by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setdefaultdigestmethod">IOpcSigningOptions::SetDefaultDigestMethod</a> method before <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignaturemanager-sign">IOpcDigitalSignatureManager::Sign</a> is called.</div>
 <div> </div>
 
-
-
 ### -param relationshipSigningOption [in]
 
 A value that indicates whether the relationships selected for signing include    all or a subset of the relationships in the Relationships part to be referenced.
 
 For information about the effect of <i>relationshipSigningOption</i> values on other parameters, see Remarks.
-
 
 ### -param selectorSet [in]
 
@@ -88,7 +80,6 @@ If <i>relationshipSigningOption</i> is  set to <b>OPC_RELATIONSHIP_SIGN_PART</b>
 
 For information about <i>selectorSet</i> values, see Remarks.
 
-
 ### -param transformMethod [in]
 
 A value that describes the canonicalization method to be applied to the relationship markup of the selected relationships.
@@ -97,15 +88,11 @@ If <i>relationshipSigningOption</i> is set <b>OPC_RELATIONSHIP_SIGN_USING_SELECT
 
 For more information about the transform methods to be applied when  <i>relationshipSigningOption</i>  is set to <b>OPC_RELATIONSHIP_SIGN_USING_SELECTORS</b>, see Remarks.
 
-
 ### -param relationshipReference [out, retval]
 
 A new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturerelationshipreference">IOpcSignatureRelationshipReference</a> interface pointer that represents the referenced Relationships part.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -170,14 +157,8 @@ The <i>selectorSet</i> parameter is not being passed <b>NULL</b> while the <i>re
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method creates a reference to a Relationships part. All or a subset of the  relationships that are stored in a referenced Relationships part can be signed when the signature is generated.
 
@@ -221,13 +202,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -282,7 +257,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawArc"]
 ms.assetid: b4936938-7337-43d8-8cc1-ff1f6d3f6b24
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawArc
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawArc
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawArc
+ - gdiplusgraphics/Graphics::DrawArc
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawArc
+ - Graphics::DrawArc
 ---
 
 # DrawArc(Pen*,REAL,REAL,REAL,REAL,REAL,REAL)
+
 
 ## -description
 
@@ -72,7 +74,7 @@ Real number that specifies the height of the ellipse that contains the arc.
 
 ### -param startAngle
 
-Real number that specifies the angle between the x-axis and the starting point of the arc.  
+Real number that specifies the angle between the x-axis and the starting point of the arc.
 
 ### -param sweepAngle
 
@@ -123,4 +125,5 @@ VOID Example_DrawArc4(HDC hdc)
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> 
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+

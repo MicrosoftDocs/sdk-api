@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 30d06e87-93a2-4a9c-8843-4c42d7d9e3c8
 ms.date: 12/05/2018
 ms.keywords: IMetaDataTables, IMetaDataTables interface [Windows Runtime], IMetaDataTables interface [Windows Runtime],described, rometadataapi/IMetaDataTables, winrt.imetadatatables
-f1_keywords:
-- rometadataapi/IMetaDataTables
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataTables
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataTables
+ - rometadataapi/IMetaDataTables
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataTables
 ---
 
 # IMetaDataTables interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for the storage and retrieval of metadata information in tables.
-
 
 ## -inheritance
 
@@ -241,5 +240,5 @@ Gets the size, in bytes, of the user string heap.
 
 </td>
 </tr>
-</table> 
+</table>
 

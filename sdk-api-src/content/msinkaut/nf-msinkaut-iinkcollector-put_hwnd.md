@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 1a8b933f-a4f0-46f5-8b41-df89b6378e9f
 ms.date: 12/05/2018
 ms.keywords: 1a8b933f-a4f0-46f5-8b41-df89b6378e9f, IInkCollector interface [Tablet PC],hWnd property, IInkCollector.hWnd, IInkCollector.put_hWnd, IInkCollector::get_hWnd, IInkCollector::hWnd, IInkCollector::put_hWnd, InkCollector.get_hWnd, InkCollector.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::get_hWnd, msinkaut/IInkCollector::hWnd, msinkaut/IInkCollector::put_hWnd, put_hWnd, tablet.inkcollector_hwnd
-f1_keywords:
-- msinkaut/IInkCollector.hWnd
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCollector.hWnd
-- IInkCollector.get_hWnd
-- IInkCollector.put_hWnd
-- put_hWnd
-- IInkCollector.put_hWnd
-- InkCollector.get_hWnd
-- InkCollector.put_hWnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCollector::put_hWnd
+ - msinkaut/IInkCollector::put_hWnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCollector.hWnd
+ - IInkCollector.get_hWnd
+ - IInkCollector.put_hWnd
+ - put_hWnd
+ - IInkCollector.put_hWnd
+ - InkCollector.get_hWnd
+ - InkCollector.put_hWnd
 ---
 
 # IInkCollector::put_hWnd
@@ -56,21 +57,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the handle value of the window on which ink is drawn.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If two or more windows exist, this property allows you to specify which window collects ink.
 
@@ -78,13 +73,7 @@ If two or more windows exist, this property allows you to specify which window c
 <div> </div>
 In Automation, this property is called <b>hWnd Property</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
 
@@ -99,7 +88,4 @@ In Automation, this property is called <b>hWnd Property</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
- 
-
- 
 

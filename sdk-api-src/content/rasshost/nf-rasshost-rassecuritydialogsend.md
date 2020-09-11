@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: adbc357b-7a5d-426d-b21f-0b1478bb2348
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogSend, RasSecurityDialogSend function [RAS], _ras_rassecuritydialogsend, rasshost/RasSecurityDialogSend, rras.rassecuritydialogsend
-f1_keywords:
-- rasshost/RasSecurityDialogSend
-dev_langs:
-- c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Rasman.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasman.dll
-api_name:
-- RasSecurityDialogSend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSecurityDialogSend
+ - rasshost/RasSecurityDialogSend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasman.dll
+api_name:
+ - RasSecurityDialogSend
 ---
 
 # RasSecurityDialogSend function
 
 
 ## -description
-
 
 The 
 <b>RasSecurityDialogSend</b> function sends a message to be displayed in a terminal window on a remote computer. A third-party RAS security DLL sends this message as part of its authentication of a remote user.
@@ -64,14 +64,10 @@ To call this function, first call the
 
 ## -parameters
 
-
-
-
 ### -param hPort [in]
 
 Specifies the port handle that the RAS server passed to the security DLL in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> call for this authentication transaction.
-
 
 ### -param pBuffer [in]
 
@@ -80,27 +76,18 @@ Pointer to the send buffer that was passed to the security DLL in the call to
 <b>RasSecurityDialogSend</b>, copy into this buffer the message to send to the remote user. The <i>SendBufSize</i> parameter of the 
 <b>RasSecurityDialogBegin</b> function indicates the maximum number of bytes the buffer can store.
 
-
 ### -param BufferLength [in]
 
 Specifies the number of bytes to send in the <i>pBuffer</i> buffer.
 
-
 ## -returns
-
-
 
 If the function is successful, the return value is PENDING (defined in Raserror.h). This indicates that the send operation is in progress.
 
 If an error occurs, the return value is one of the error codes defined in Raserror.h or Winerror.h. 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> does not provide extended error information.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>RasSecurityDialogSend</b> function is asynchronous. After calling it to send a message to the remote user, call the 
@@ -113,13 +100,7 @@ When a security DLL is authenticating a remote user, the connection operation on
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a> is the input that the remote user types in the terminal window. The RASCS_Interactive value is defined in the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
@@ -146,7 +127,4 @@ When a security DLL is authenticating a remote user, the connection operation on
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
 ms.date: 12/05/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
-f1_keywords:
-- wincrypt/CertRemoveStoreFromCollection
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertRemoveStoreFromCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertRemoveStoreFromCollection
+ - wincrypt/CertRemoveStoreFromCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertRemoveStoreFromCollection
 ---
 
 # CertRemoveStoreFromCollection function
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertRemoveStoreFromCollection</b> function removes a sibling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> from a collection store.
 
-
 ## -parameters
-
-
-
 
 ### -param hCollectionStore [in]
 
 A handle of the collection certificate store.
 
-
 ### -param hSiblingStore [in]
 
 Handle of the sibling certificate store to be removed from the collection store.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>
 
@@ -82,7 +73,4 @@ Handle of the sibling certificate store to be removed from the collection store.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
- 
-
- 
 

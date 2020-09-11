@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6b5e1bff-e7e8-4403-99ff-6dc97d113f37
 ms.date: 12/05/2018
 ms.keywords: IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], IVdsAdvancedDisk interface [VDS],described, base.ivdsadvanceddisk, vds/IVdsAdvancedDisk
-f1_keywords:
-- vds/IVdsAdvancedDisk
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsAdvancedDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsAdvancedDisk
+ - vds/IVdsAdvancedDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsAdvancedDisk
 ---
 
 # IVdsAdvancedDisk interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates and deletes partitions, and modifies partition attributes.
-
 
 ## -inheritance
 
@@ -161,12 +160,9 @@ Retrieves information about all partitions on the current disk.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The relationship between partitions and volumes is complex, and is best described in terms of the software provider (basic or dynamic) that manages the disk. Basic providers support the following three categories of partitions:
 
@@ -180,13 +176,7 @@ The relationship between partitions and volumes is complex, and is best describe
 In general, dynamic providers  do not map volumes to partitions. The exceptions are system volumes, boot volumes, and volumes for which the caller explicitly requests this mapping. 
 Only the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">GetPartitionProperties</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">QueryPartitions</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">Clean</a> methods are valid operations to be performed on dynamic disks. All other methods fail. Except for the <b>Clean</b> method, configuration-type operations are not valid on dynamic disks.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">Disk Object</a>
 
@@ -201,7 +191,4 @@ Only the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivds
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

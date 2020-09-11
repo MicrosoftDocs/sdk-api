@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c7d1e04f-d2b9-4bab-88f4-8a528c527e7c
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY structure [Security], PCRYPT_SMIME_CAPABILITY, PCRYPT_SMIME_CAPABILITY structure pointer [Security], _crypto2_crypt_smime_capability, security.crypt_smime_capability, wincrypt/CRYPT_SMIME_CAPABILITY, wincrypt/PCRYPT_SMIME_CAPABILITY'
-f1_keywords:
-- wincrypt/CRYPT_SMIME_CAPABILITY
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_SMIME_CAPABILITY
 targetos: Windows
 req.typenames: CRYPT_SMIME_CAPABILITY, *PCRYPT_SMIME_CAPABILITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_SMIME_CAPABILITY
+ - wincrypt/_CRYPT_SMIME_CAPABILITY
+ - PCRYPT_SMIME_CAPABILITY
+ - wincrypt/PCRYPT_SMIME_CAPABILITY
+ - CRYPT_SMIME_CAPABILITY
+ - wincrypt/CRYPT_SMIME_CAPABILITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_SMIME_CAPABILITY
 ---
 
 # CRYPT_SMIME_CAPABILITY structure
@@ -49,20 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_SMIME_CAPABILITY</b> structure specifies a single capability and its associated parameters. Single capabilities are grouped together into a list of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a> which can specify a prioritized list of capability preferences.
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a> is part of an Internet draft proposal. For a complete definition, see "draft-dusse-s/mime-cert-01.txt" dated May 5, 1997.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field pszObjId
 
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">Object identifier</a> (OID) for a capability. Capabilities include signature algorithms, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric algorithms</a>, and key enciphering algorithms. Also included are non-algorithm capabilities, which are the preference for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signed data</a> and the preference for unencrypted messages.
-
 
 ### -field Parameters
 
@@ -79,11 +79,5 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 66C00620-4209-4837-9305-4B1B1148881A
 ms.date: 12/05/2018
 ms.keywords: D2D1_DISTANTSPECULAR_PROP, D2D1_DISTANTSPECULAR_PROP enumeration [Direct2D], D2D1_DISTANTSPECULAR_PROP_AZIMUTH, D2D1_DISTANTSPECULAR_PROP_COLOR, D2D1_DISTANTSPECULAR_PROP_ELEVATION, D2D1_DISTANTSPECULAR_PROP_KERNEL_UNIT_LENGTH, D2D1_DISTANTSPECULAR_PROP_SCALE_MODE, D2D1_DISTANTSPECULAR_PROP_SPECULAR_CONSTANT, D2D1_DISTANTSPECULAR_PROP_SPECULAR_EXPONENT, D2D1_DISTANTSPECULAR_PROP_SURFACE_SCALE, d2d1effects/D2D1_DISTANTSPECULAR_PROP, d2d1effects/D2D1_DISTANTSPECULAR_PROP_AZIMUTH, d2d1effects/D2D1_DISTANTSPECULAR_PROP_COLOR, d2d1effects/D2D1_DISTANTSPECULAR_PROP_ELEVATION, d2d1effects/D2D1_DISTANTSPECULAR_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_DISTANTSPECULAR_PROP_SCALE_MODE, d2d1effects/D2D1_DISTANTSPECULAR_PROP_SPECULAR_CONSTANT, d2d1effects/D2D1_DISTANTSPECULAR_PROP_SPECULAR_EXPONENT, d2d1effects/D2D1_DISTANTSPECULAR_PROP_SURFACE_SCALE, direct2d.d2d1_distantspecular_prop
-f1_keywords:
-- d2d1effects/D2D1_DISTANTSPECULAR_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_DISTANTSPECULAR_PROP
 targetos: Windows
 req.typenames: D2D1_DISTANTSPECULAR_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_DISTANTSPECULAR_PROP
+ - d2d1effects/D2D1_DISTANTSPECULAR_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_DISTANTSPECULAR_PROP
 ---
 
 # D2D1_DISTANTSPECULAR_PROP enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/distant-specular">Distant-specular lighting effect</a>.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_DISTANTSPECULAR_PROP_AZIMUTH
 
@@ -68,7 +63,6 @@ The type is FLOAT.
 
 The default value is 0.0f.
 
-
 ### -field D2D1_DISTANTSPECULAR_PROP_ELEVATION
 
 The direction angle of the light source in the YZ plane relative to the Y-axis in the counter clock wise direction. The units are in degrees and must be between 0 and 360 degrees.
@@ -77,7 +71,6 @@ The direction angle of the light source in the YZ plane relative to the Y-axis i
 The type is FLOAT.
 
 The default value is 0.0f.
-
 
 ### -field D2D1_DISTANTSPECULAR_PROP_SPECULAR_EXPONENT
 
@@ -88,7 +81,6 @@ The type is FLOAT.
 
 The default value is 1.0f.
 
-
 ### -field D2D1_DISTANTSPECULAR_PROP_SPECULAR_CONSTANT
 
 The ratio of specular reflection to the incoming light. The value is unitless and must be between 0 and 10,000.
@@ -97,7 +89,6 @@ The ratio of specular reflection to the incoming light. The value is unitless an
 The type is FLOAT.
 
 The default value is 1.0f.
-
 
 ### -field D2D1_DISTANTSPECULAR_PROP_SURFACE_SCALE
 
@@ -108,7 +99,6 @@ The type is FLOAT.
 
 The default value is 1.0f.
 
-
 ### -field D2D1_DISTANTSPECULAR_PROP_COLOR
 
 The color of the incoming light. This property is exposed as a D2D1_VECTOR_3F â€“ (R, G, B) and used to compute LR, LG, LB.
@@ -117,7 +107,6 @@ The color of the incoming light. This property is exposed as a D2D1_VECTOR_3F â€
 The type is D2D1_VECTOR_3F.
 
 The default value is {1.0f, 1.0f, 1.0f}.
-
 
 ### -field D2D1_DISTANTSPECULAR_PROP_KERNEL_UNIT_LENGTH
 
@@ -128,7 +117,6 @@ The type is D2D1_VECTOR_2F.
 
 The default value is {1.0f, 1.0f}.
 
-
 ### -field D2D1_DISTANTSPECULAR_PROP_SCALE_MODE
 
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
@@ -138,8 +126,5 @@ The type is D2D1_DISTANTSPECULAR_SCALE_MODE.
 
 The default value is D2D1_DISTANTSPECULAR_SCALE_MODE_LINEAR.
 
-
 ### -field D2D1_DISTANTSPECULAR_PROP_FORCE_DWORD
-
-
 

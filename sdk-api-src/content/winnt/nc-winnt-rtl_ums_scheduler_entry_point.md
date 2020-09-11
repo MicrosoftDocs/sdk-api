@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 10de1c48-255d-45c3-acf0-25f8a564b585
 ms.date: 12/05/2018
 ms.keywords: 0, 1, RTL_UMS_SCHEDULER_ENTRY_POINT, RTL_UMS_SCHEDULER_ENTRY_POINT callback, UmsSchedulerProc, UmsSchedulerProc callback function, UmsSchedulerStartup, UmsSchedulerThreadBlocked, UmsSchedulerThreadYield, base.umsschedulerproc, winnt/UmsSchedulerProc
-f1_keywords:
-- winnt/UmsSchedulerProc
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: WinBase.h, Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinNT.h
-api_name:
-- UmsSchedulerProc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RTL_UMS_SCHEDULER_ENTRY_POINT
+ - winnt/RTL_UMS_SCHEDULER_ENTRY_POINT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinNT.h
+api_name:
+ - UmsSchedulerProc
 ---
 
 # RTL_UMS_SCHEDULER_ENTRY_POINT callback function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The application-defined user-mode scheduling (UMS) scheduler entry point function associated with a UMS completion list. 
 
 The <b>PUMS_SCHEDULER_ENTRY_POINT</b> type defines a pointer to this function. <i>UmsSchedulerProc</i> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param Reason [in]
 
@@ -103,8 +99,6 @@ An executing UMS worker thread yielded control by calling the <a href="https://d
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ActivationPayload [in]
 
@@ -140,8 +134,7 @@ The thread blocked on a system call.
 </table>
  
 
-If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b>, this parameter is a pointer to the UMS thread context of the UMS worker thread that yielded. 
-
+If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b>, this parameter is a pointer to the UMS thread context of the UMS worker thread that yielded.
 
 ### -param SchedulerParam [in]
 
@@ -151,10 +144,7 @@ If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b> this parameter 
 
 If the <i>Reason</i> parameter is <b>UmsSchedulerThreadBlocked</b>, this parameter is NULL.
 
-
 ## -remarks
-
-
 
 The <i>UmsSchedulerProc</i> function pointer type is defined as <b>PUMS_SCHEDULER_ENTRY_POINT</b> in WinBase.h. The underlying function type is defined as <b>RTL_UMS_SCHEDULER_ENTRY_POINT</b> in WinNT.h
 
@@ -166,13 +156,7 @@ The application's scheduler is responsible for selecting the next UMS worker thr
 
 When a blocked UMS worker thread becomes unblocked, the system queues the unblocked thread to the associated completion list and signals the completion list event. To retrieve UMS worker threads from the completion list, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a>
 
@@ -183,7 +167,4 @@ When a blocked UMS worker thread becomes unblocked, the system queues the unbloc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-umsthreadyield">UmsThreadYield</a>
- 
-
- 
 

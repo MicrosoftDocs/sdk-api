@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 6c822d4c-9d42-48a2-b378-06670acc39cf
 ms.date: 12/05/2018
 ms.keywords: TASKPAGE, TASKPAGE enumeration [Task Scheduler], TASKPAGE_SCHEDULE, TASKPAGE_SETTINGS, TASKPAGE_TASK, _msb_taskpage, mstask/TASKPAGE, mstask/TASKPAGE_SCHEDULE, mstask/TASKPAGE_SETTINGS, mstask/TASKPAGE_TASK, task page [Task Scheduler],enumerations,TASKPAGE, taskschd.taskpage
-f1_keywords:
-- mstask/TASKPAGE
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mstask.h
-api_name:
-- TASKPAGE
 targetos: Windows
 req.typenames: TASKPAGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TASKPAGE
+ - mstask/_TASKPAGE
+ - TASKPAGE
+ - mstask/TASKPAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mstask.h
+api_name:
+ - TASKPAGE
 ---
 
 # TASKPAGE enumeration
@@ -49,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-enumerated-types">Task Scheduler 2.0 Enumerated Types</a> instead.] ]
 
 Defines the type of task page to be retrieved.
 
 Each property page can be used to define the properties of a <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task object</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TASKPAGE_TASK
 
@@ -131,9 +129,6 @@ This page provides the following UI elements:
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-iprovidetaskpage-getpage">IProvideTaskPage::GetPage</a>
 
 
@@ -167,7 +162,4 @@ This page provides the following UI elements:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
- 
-
- 
 

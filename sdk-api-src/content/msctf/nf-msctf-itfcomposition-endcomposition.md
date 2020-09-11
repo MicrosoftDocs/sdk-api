@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: b5717c03-2611-4199-b07d-b6f3b6f65d3a
 ms.date: 12/05/2018
 ms.keywords: EndComposition, EndComposition method [Text Services Framework], EndComposition method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],EndComposition method, ITfComposition.EndComposition, ITfComposition::EndComposition, _tsf_itfcomposition_endcomposition_ref, msctf/ITfComposition::EndComposition, tsf.itfcomposition_endcomposition
-f1_keywords:
-- msctf/ITfComposition.EndComposition
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfComposition.EndComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfComposition::EndComposition
+ - msctf/ITfComposition::EndComposition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfComposition.EndComposition
 ---
 
 # ITfComposition::EndComposition
+
 
 ## -description
 
@@ -104,7 +106,7 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 </td>
 </tr>
 </table>
- 
+
 ## -remarks
 
 This method does not release the composition object, but the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> methods will fail with E_UNEXPECTED after this method is called.
@@ -116,3 +118,4 @@ This method causes the GUID_PROP_COMPOSING property to be removed from the text 
 ## -see-also
 
 [ITfContextOwnerCompositionServices::TerminateComposition](nf-msctf-itfcontextownercompositionservices-terminatecomposition.md), [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md)
+

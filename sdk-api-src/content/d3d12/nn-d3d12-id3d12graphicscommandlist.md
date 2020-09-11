@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 1BF282A7-F6D4-43A9-BDAD-D877564A1C6B
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,described, d3d12/ID3D12GraphicsCommandList, direct3d12.id3d12graphicscommandlist
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList
+ - d3d12/ID3D12GraphicsCommandList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList
 ---
 
 # ID3D12GraphicsCommandList interface
 
 
 ## -description
-
 
 Encapsulates a list of graphics commands for rendering. Includes APIs for instrumenting the command list execution, and for setting and clearing the pipeline state.
 <div class="alert"><b>Note</b>  The latest version of this interface is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a> introduced in the Windows 10 Creators Update. Applications targetting Windows 10 Creators Update should use the <b>ID3D12GraphicsCommandList1</b> interface instead of <b>ID3D12GraphicsCommandList</b>.</div><div> </div>
@@ -567,12 +567,9 @@ Sets the stream output buffer views.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is new to D3D12, encapsulating much of the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11commandlist">ID3D11CommandList</a> interface, and including the new functionality described in <a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>.
         
@@ -679,12 +676,7 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
@@ -695,7 +687,4 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
- 
-
- 
 

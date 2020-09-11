@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 57e8cb3a-1b11-45b9-9676-3b6dc600d225
 ms.date: 12/05/2018
 ms.keywords: '*PEXCEPTION_POINTERS, EXCEPTION_POINTERS, EXCEPTION_POINTERS structure, PEXCEPTION_POINTERS, PEXCEPTION_POINTERS structure pointer, _EXCEPTION_POINTERS, _win32_exception_pointers_str, base.exception_pointers_str, winnt/EXCEPTION_POINTERS, winnt/PEXCEPTION_POINTERS'
-f1_keywords:
-- winnt/EXCEPTION_POINTERS
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- EXCEPTION_POINTERS
 targetos: Windows
 req.typenames: EXCEPTION_POINTERS, *PEXCEPTION_POINTERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EXCEPTION_POINTERS
+ - winnt/_EXCEPTION_POINTERS
+ - PEXCEPTION_POINTERS
+ - winnt/PEXCEPTION_POINTERS
+ - EXCEPTION_POINTERS
+ - winnt/EXCEPTION_POINTERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - EXCEPTION_POINTERS
 ---
 
 # EXCEPTION_POINTERS structure
@@ -49,31 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains an exception record with a machine-independent description of an exception and a context record with a machine-dependent description of the processor context at the time of the exception.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ExceptionRecord
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure that contains a machine-independent description of the exception.
 
-
 ### -field ContextRecord
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that contains a processor-specific description of the state of the processor at the time of the exception.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
@@ -84,7 +79,4 @@ A pointer to a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>
- 
-
- 
 

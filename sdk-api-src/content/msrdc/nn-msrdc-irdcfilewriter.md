@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 8b6ac8d0-37fd-4bd3-aa44-5b57f546364d
 ms.date: 12/05/2018
 ms.keywords: IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compression], IRdcFileWriter interface [Remote Differential Compression],described, fs.irdcfilewriter, msrdc/IRdcFileWriter, rdc.irdcfilewriter
-f1_keywords:
-- msrdc/IRdcFileWriter
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcFileWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcFileWriter
+ - msrdc/IRdcFileWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcFileWriter
 ---
 
 # IRdcFileWriter interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Abstract interface to read from and write to a file.
 
 The RDC application must implement this interface for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtableindirect">ISimilarityFileIdTable::CreateTableIndirect</a>. Note that this interface does not include methods to open, close, or flush the file to disk. The application is responsible for properly opening and closing the file represented by an instance of this interface.
-
 
 ## -inheritance
 
@@ -97,20 +96,13 @@ Write bytes to a file starting at a given offset.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

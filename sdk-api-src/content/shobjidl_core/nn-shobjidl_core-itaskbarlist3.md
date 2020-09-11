@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a5eb4e5a-df17-4aca-96fb-d8475e266b92
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3, ITaskbarList3 interface [Windows Shell], ITaskbarList3 interface [Windows Shell],described, _shell_ITaskbarList3, shell.ITaskbarList3, shobjidl_core/ITaskbarList3
-f1_keywords:
-- shobjidl_core/ITaskbarList3
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Explorerframe.dll
-api_name:
-- ITaskbarList3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskbarList3
+ - shobjidl_core/ITaskbarList3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Explorerframe.dll
+api_name:
+ - ITaskbarList3
 ---
 
 # ITaskbarList3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a> by exposing methods that support the unified launching and switching taskbar button functionality added in Windows 7. This functionality includes thumbnail representations and switch targets based on individual tabs in a tabbed application, thumbnail toolbars, notification and status overlays, and progress indicators.
-
 
 ## -inheritance
 
@@ -176,12 +175,9 @@ Removes a thumbnail from an application's preview group when that tab or documen
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a> interfaces, from which it inherits.
 
@@ -210,19 +206,11 @@ When an application displays a window, its taskbar button is created by the syst
 <div class="alert"><b>Note</b>  Applications cannot programmatically pin themselves to the taskbar. That functionality is reserved strictly for the user.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

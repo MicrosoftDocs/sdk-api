@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_deleteallitems.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_DeleteAllItems, TreeView_DeleteAllItems macro [Windows Controls], _win32_TreeView_DeleteAllItems, _win32_TreeView_DeleteAllItems_cpp, commctrl/TreeView_DeleteAllItems, controls.TreeView_DeleteAllItems, controls._win32_TreeView_DeleteAllItems
-f1_keywords:
-- commctrl/TreeView_DeleteAllItems
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TreeView_DeleteAllItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TreeView_DeleteAllItems
+ - commctrl/TreeView_DeleteAllItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TreeView_DeleteAllItems
 ---
 
 # TreeView_DeleteAllItems macro
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Deletes all items from a tree-view control. 
-
+Deletes all items from a tree-view control.
 
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the tree-view control. 
-
+Handle to the tree-view control.
 
 ## -remarks
-
-
 
 Once an item is deleted from a tree-view control, its <b>HTREEITEM</b> handle is invalid and cannot be used.
 
@@ -87,7 +80,4 @@ DWORD styles = GetWindowLong(hwnd, GWL_STYLE);
 TreeView_DeleteAllItems(hwnd);
 SetWindowLong(hwnd, GWL_STYLE, styles);
 ```
-
-
-
 

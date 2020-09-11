@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: a79c3d6e-b587-4bbc-b3bf-6489a54d71f9
 ms.date: 12/05/2018
 ms.keywords: Buy, Buy method [Windows Media Player], Buy method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Buy method, IWMPContentPartner.Buy, IWMPContentPartner::Buy, IWMPContentPartnerBuy, contentpartner/IWMPContentPartner::Buy, wmp.iwmpcontentpartner_buy
-f1_keywords:
-- contentpartner/IWMPContentPartner.Buy
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.Buy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::Buy
+ - contentpartner/IWMPContentPartner::Buy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.Buy
 ---
 
 # IWMPContentPartner::Buy
@@ -49,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>Buy</b> method initiates the purchase of digital media content.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pInfo [in]
 
 Pointer to a content container list that represents the content to be purchased.
 
-
 ### -param cookie [in]
 
 A cookie used to identify the transaction. You must store this value and pass it to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete">IWMPContentPartnerCallback::BuyComplete</a> when the purchase transaction is finished.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,29 +85,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must call <b>IWMPContentPartnerCallback::BuyComplete</b> exactly once for each call to <b>Buy</b>. Call <b>BuyComplete</b> when the transaction is finished, even if it failed for some reason.
 
 If the user has an expired license for content previously purchased, you can simply update the license.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
- 
-
- 
 

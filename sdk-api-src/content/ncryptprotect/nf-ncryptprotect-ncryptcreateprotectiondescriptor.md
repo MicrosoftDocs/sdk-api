@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: BA6B15AC-2CD8-4D9A-817F-65CF9C09D22C
 ms.date: 12/05/2018
 ms.keywords: NCryptCreateProtectionDescriptor, NCryptCreateProtectionDescriptor function [Security], ncryptprotect/NCryptCreateProtectionDescriptor, security.ncryptcreateprotectiondescriptor
-f1_keywords:
-- ncryptprotect/NCryptCreateProtectionDescriptor
-dev_langs:
-- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NCrypt.dll
-api_name:
-- NCryptCreateProtectionDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptCreateProtectionDescriptor
+ - ncryptprotect/NCryptCreateProtectionDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NCrypt.dll
+api_name:
+ - NCryptCreateProtectionDescriptor
 ---
 
 # NCryptCreateProtectionDescriptor function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptCreateProtectionDescriptor</b> function retrieves a handle to a protection descriptor object.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszDescriptorString [in]
 
 Null-terminated Unicode string that contains a protection descriptor rule string or a registered display name for the rule.
 
 If you specify the display name and you want this function to look in the registry for the associated protection descriptor rule string, you must set the <i>dwFlags</i> parameter to <b>NCRYPT_NAMED_DESCRIPTOR_FLAG</b>.
-
 
 ### -param dwFlags [in]
 
@@ -81,10 +76,7 @@ Flag that specifies whether the string in <i>pwszDescriptorString</i> represents
 
 Pointer to a protection descriptor object handle.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function. Possible return codes include, but are not limited to, the following.
 
@@ -151,14 +143,8 @@ The protection descriptor name specified in the <i>pwszDescriptorString</i> para
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The protection descriptor object created by this function is an internal data structure that contains information about the descriptor. You cannot use it directly. Your application can, however, use the returned handle in the following functions:
 
@@ -194,16 +180,7 @@ The following examples show protection descriptor rule strings:
 </ul>
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname">NCryptRegisterProtectionDescriptorName</a> function to associate a display name with a rule string and save both in the registry.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
- 
-
- 
 

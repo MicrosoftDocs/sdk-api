@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 2dc383bb-0a1a-4612-88f9-f92c8e2a398d
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_DISK, WNetConnectionDialog, WNetConnectionDialog function [Windows Networking (WNet)], _win32_wnetconnectiondialog, winnetwk/WNetConnectionDialog, wnet.wnetconnectiondialog
-f1_keywords:
-- winnetwk/WNetConnectionDialog
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-- API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
-api_name:
-- WNetConnectionDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetConnectionDialog
+ - winnetwk/WNetConnectionDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+ - API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
+api_name:
+ - WNetConnectionDialog
 ---
 
 # WNetConnectionDialog function
@@ -50,20 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetConnectionDialog</b> function starts a general browsing dialog box for connecting to network resources. The function requires a handle to the owner window for the dialog box.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Handle to the owner window for the dialog box.
-
 
 ### -param dwType [in]
 
@@ -87,12 +82,8 @@ Connections to disk resources.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR. If the user cancels the dialog box, the function returns –1.
 
@@ -150,27 +141,15 @@ There is insufficient memory to start the dialog box.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the user clicks <b>OK</b> in the dialog box, the requested network connection will have been made when the 
 <b>WNetConnectionDialog</b> function returns.
 
 If the function attempts to make a connection and the network provider returns the message ERROR_INVALID_PASSWORD, the system prompts the user to enter a password. The system uses the new password in another attempt to make the connection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
 
@@ -191,7 +170,4 @@ If the function attempts to make a connection and the network provider returns t
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

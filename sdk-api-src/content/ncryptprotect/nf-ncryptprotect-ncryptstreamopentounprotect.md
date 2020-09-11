@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9848082E-EDDA-4DA1-9896-42EAF2ADFAB4
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToUnprotect, NCryptStreamOpenToUnprotect function [Security], ncryptprotect/NCryptStreamOpenToUnprotect, security.ncryptstreamopentounprotect
-f1_keywords:
-- ncryptprotect/NCryptStreamOpenToUnprotect
-dev_langs:
-- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NCrypt.dll
-api_name:
-- NCryptStreamOpenToUnprotect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptStreamOpenToUnprotect
+ - ncryptprotect/NCryptStreamOpenToUnprotect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NCrypt.dll
+api_name:
+ - NCryptStreamOpenToUnprotect
 ---
 
 # NCryptStreamOpenToUnprotect function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptStreamOpenToUnprotect</b> function opens a stream object that can be used to decrypt large amounts of data to the same  protection descriptor used for encryption. Call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> to perform the decryption. To decrypt smaller messages such as keys and passwords, call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pStreamInfo [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a> structure that contains the address of a user defined callback function to receive the decrypted data and a pointer to user-defined context data.
-
 
 ### -param dwFlags
 
@@ -83,22 +78,16 @@ Requests that the key service provider not display a user interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hWnd [in, optional]
 
 Handle to the parent window of the user interface, if any, to be displayed.
 
-
 ### -param phStream [out]
 
 Pointer to the handle of the decrypted stream of data.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function. Possible return codes include, but are not limited to, the following.
 
@@ -154,14 +143,8 @@ There was insufficient memory to allocate a data stream.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NCryptStreamOpenToUnprotect</b> function  creates an internal stream object that can be used to encrypt large messages. You cannot use the object directly. Instead, you must use the object handle returned by this function.
 
@@ -169,13 +152,7 @@ Call this function before calling the <a href="https://docs.microsoft.com/window
 
 The <b>NCryptStreamOpenToUnprotect</b> function retrieves the unencrypted protection descriptor rule string from the stream header. The rule string is placed in the header by the <b>NCryptStreamOpenToUnprotect</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
@@ -194,7 +171,4 @@ The <b>NCryptStreamOpenToUnprotect</b> function retrieves the unencrypted protec
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a>
- 
-
- 
 

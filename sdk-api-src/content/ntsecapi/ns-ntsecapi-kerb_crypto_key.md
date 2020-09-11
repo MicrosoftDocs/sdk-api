@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ac7ea61c-b1e0-4dc0-931e-81bb6fd74888
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_CRYPTO_KEY, KERB_CRYPTO_KEY, KERB_CRYPTO_KEY structure [Security], KERB_ETYPE_DES_CBC_CRC, KERB_ETYPE_DES_CBC_MD4, KERB_ETYPE_DES_CBC_MD5, KERB_ETYPE_NULL, KERB_ETYPE_RC4_HMAC_NT, KERB_ETYPE_RC4_MD4, PKERB_CRYPTO_KEY, PKERB_CRYPTO_KEY structure pointer [Security], _lsa_kerb_crypto_key, ntsecapi/KERB_CRYPTO_KEY, ntsecapi/PKERB_CRYPTO_KEY, security.kerb_crypto_key'
-f1_keywords:
-- ntsecapi/KERB_CRYPTO_KEY
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_CRYPTO_KEY
 targetos: Windows
 req.typenames: KERB_CRYPTO_KEY, *PKERB_CRYPTO_KEY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - KERB_CRYPTO_KEY
+ - ntsecapi/KERB_CRYPTO_KEY
+ - PKERB_CRYPTO_KEY
+ - ntsecapi/PKERB_CRYPTO_KEY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_CRYPTO_KEY
 ---
 
 # KERB_CRYPTO_KEY structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>KERB_CRYPTO_KEY</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field KeyType
 
@@ -132,11 +130,9 @@ Use the RC4 stream cipher with the MD4 hash function.
 
 Values greater than 127 are reserved for local values and may change without notice.
 
-
 ### -field Length
 
 Specifies the length, in bytes, of the cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>.
-
 
 ### -field Value
 

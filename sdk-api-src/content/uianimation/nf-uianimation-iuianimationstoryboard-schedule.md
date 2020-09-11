@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],Schedule method, IUIAnimationStoryboard.Schedule, IUIAnimationStoryboard::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_schedule, uianimation/IUIAnimationStoryboard::Schedule
-f1_keywords:
-- uianimation/IUIAnimationStoryboard.Schedule
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationStoryboard.Schedule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationStoryboard::Schedule
+ - uianimation/IUIAnimationStoryboard::Schedule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationStoryboard.Schedule
 ---
 
 # IUIAnimationStoryboard::Schedule
@@ -49,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Directs the storyboard to schedule itself for play.
 
-
 ## -parameters
-
-
-
 
 ### -param timeNow [in]
 
 The current time.
-
 
 ### -param schedulingResult [out, optional]
 
 The result of the scheduling request.
             This parameter can be omitted from calls to this method.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 This method directs a storyboard to attempt to add itself to the schedule of playing storyboards. The rules are as follows:
 
@@ -135,14 +122,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a>
 
@@ -173,7 +153,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
- 
-
- 
 

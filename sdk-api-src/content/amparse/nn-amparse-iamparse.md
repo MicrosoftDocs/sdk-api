@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6
 ms.date: 12/05/2018
 ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
-f1_keywords:
-- amparse/IAMParse
-dev_langs:
-- c++
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMParse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMParse
+ - amparse/IAMParse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMParse
 ---
 
 # IAMParse interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMParse</code> interface sets and retrieves the <i>parse time</i> for an MPEG-2 stream. The parse time is a notional time associated with the current position in the stream of bytes supplied to the parser filter. This time is also tied to the origin of the time stamps in that time stamp zero corresponds to parse time zero.
 
 The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-splitter">MPEG-2 Splitter</a> filter implements this interface. Use this interface to retrieve or set the current stream parse time or to clear the data buffer of its current data.
-
-
-
 
 ## -inheritance
 
@@ -101,5 +97,5 @@ Sets the current stream parse time.
 
 </td>
 </tr>
-</table> 
+</table>
 

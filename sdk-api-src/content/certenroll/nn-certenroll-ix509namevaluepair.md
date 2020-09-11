@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair
-f1_keywords:
-- certenroll/IX509NameValuePair
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509NameValuePair
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509NameValuePair
+ - certenroll/IX509NameValuePair
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509NameValuePair
 ---
 
 # IX509NameValuePair interface
 
 
 ## -description
-
 
 The <b>IX509NameValuePair</b> interface represents a generic name-value pair. Although there are a few common name-value pairs created by the certificate request and enrollment process, you can use this object to specify any name and value. An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a> collection can be retrieved from an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object and an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> object. The collections are not related.
 
@@ -150,13 +150,9 @@ Retrieves the value portion of the name-value pair.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -167,7 +163,4 @@ Retrieves the value portion of the name-value pair.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a>
- 
-
- 
 

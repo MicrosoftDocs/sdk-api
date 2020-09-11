@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 9bb21a4a-047e-4347-93b3-9c41cd2c20b7
 ms.date: 12/05/2018
 ms.keywords: FindNextAttrTransition, FindNextAttrTransition method [Text Services Framework], FindNextAttrTransition method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],FindNextAttrTransition method, ITextStoreAnchor.FindNextAttrTransition, ITextStoreAnchor::FindNextAttrTransition, TS_ATTR_FIND_BACKWARDS, TS_ATTR_FIND_UPDATESTART, TS_ATTR_FIND_WANT_OFFSET, textstor/ITextStoreAnchor::FindNextAttrTransition, tsf.itextstoreanchor_findnextattrtransition
-f1_keywords:
-- textstor/ITextStoreAnchor.FindNextAttrTransition
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.FindNextAttrTransition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::FindNextAttrTransition
+ - textstor/ITextStoreAnchor::FindNextAttrTransition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.FindNextAttrTransition
 ---
 
 # ITextStoreAnchor::FindNextAttrTransition
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreAnchor::FindNextAttrTransition</b> method finds the location in the text stream where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
 
-
 ## -parameters
-
-
-
 
 ### -param paStart [in]
 
 Pointer to the anchor position at the start of a range to search for an attribute transition.
 
-
 ### -param paHalt [in]
 
 Pointer to the anchor position at the end of a range to search for an attribute transition.
-
 
 ### -param cFilterAttrs [in]
 
 Specifies the number of attributes to check.
 
-
 ### -param paFilterAttrs [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to check. Pre-defined attributes are given in tsattrs.h.
-
 
 ### -param dwFlags [in]
 
@@ -118,22 +110,16 @@ The <i>plFoundOffset</i> parameter receives the character offset of the attribut
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pfFound [out]
 
 Receives a Boolean value of <b>TRUE</b> if an attribute transition was found, otherwise <b>FALSE</b> is returned.
 
-
 ### -param plFoundOffset [out]
 
 Receives the character offset of the attribute transition from the start anchor <i>paStart</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -176,15 +162,8 @@ The character positions specified are beyond the text in the document.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
@@ -197,7 +176,4 @@ The character positions specified are beyond the text in the document.
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
       </a>
- 
-
- 
 

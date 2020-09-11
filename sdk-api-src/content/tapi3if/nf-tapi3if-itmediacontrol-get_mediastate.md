@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: d28063cc-12fe-45b1-8f6a-8c2436926e12
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],get_MediaState method, ITMediaControl.get_MediaState, ITMediaControl::get_MediaState, _tapi3_itmediacontrol_get_mediastate, get_MediaState, get_MediaState method [TAPI 2.2], get_MediaState method [TAPI 2.2],ITMediaControl interface, tapi3.itmediacontrol_get_mediastate, tapi3if/ITMediaControl::get_MediaState
-f1_keywords:
-- tapi3if/ITMediaControl.get_MediaState
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITMediaControl.get_MediaState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITMediaControl::get_MediaState
+ - tapi3if/ITMediaControl::get_MediaState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITMediaControl.get_MediaState
 ---
 
 # ITMediaControl::get_MediaState
@@ -49,42 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_MediaState</b> method gets the current state of media on the file terminal.
 
-
 ## -parameters
-
-
-
 
 ### -param pTerminalMediaState [out]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_media_state">TERMINAL_MEDIA_STATE</a> descriptor of the current state of the file terminal.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediacontrol">ITMediaControl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_media_state">TERMINAL_MEDIA_STATE</a>
- 
-
- 
 

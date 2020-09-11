@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 71e1991f-c24f-43fe-8f3e-83f5b02cec6b
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDir object [GPMC],SearchBackups method, IGPMBackupDir interface [GPMC],SearchBackups method, IGPMBackupDir.SearchBackups, IGPMBackupDir::SearchBackups, SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC],GPMBackupDir object, SearchBackups method [GPMC],IGPMBackupDir interface, _win32_igpmbackupdir_searchbackups, backupMostRecent, gpmc.igpmbackupdir_searchbackups, gpmgmt/IGPMBackupDir::SearchBackups, gpoDisplayName, gpoDomain, gpoID
-f1_keywords:
-- gpmgmt/IGPMBackupDir.SearchBackups
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMBackupDir.SearchBackups
-- GPMBackupDir.SearchBackups
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMBackupDir::SearchBackups
+ - gpmgmt/IGPMBackupDir::SearchBackups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMBackupDir.SearchBackups
+ - GPMBackupDir.SearchBackups
 ---
 
 # IGPMBackupDir::SearchBackups
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Executes a search for 
 the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object according to the specified criteria, and returns an  
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">GPMBackupCollection</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param pIGPMSearchCriteria [in]
 
@@ -89,7 +85,6 @@ Pointer to criteria for a search for   a GPO display name. The search property v
 
 Pointer to criteria for a search for the most recent backup. The search property value is <b>TRUE</b>. The   <b>opEquals</b>  operator is the valid search criteria.
 
-
 ### -param ppIGPMBackupCollection [out]
 
 Address of a pointer to the 
@@ -101,10 +96,7 @@ Address of a pointer to the
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -115,23 +107,12 @@ Returns a reference to a <b>GPMBackupCollection</b> object.
 <h3>VB</h3>
 Returns a reference to a <b>GPMBackupCollection</b> object.
 
-
-
-
 ## -remarks
-
-
 
 An empty  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> has had no criteria added to it. Passing in an empty <b>GPMSearchCriteria</b> will return all  
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> objects.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
@@ -142,7 +123,4 @@ An empty  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 352a8d61-7d3a-423d-8b7e-1163d4fa1e00
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscovery, IFunctionDiscovery interface, IFunctionDiscovery interface,described, functiondiscoveryapi/IFunctionDiscovery, ncd.ifunctiondiscovery
-f1_keywords:
-- functiondiscoveryapi/IFunctionDiscovery
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionDiscovery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscovery
+ - functiondiscoveryapi/IFunctionDiscovery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionDiscovery
 ---
 
 # IFunctionDiscovery interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 This interface is used by client programs to discover function instances, get the default function instance for a category, and create advanced Function Discovery query objects that enable registering Function Discovery defaults, among other things.
-
 
 ## -inheritance
 
@@ -124,5 +123,5 @@ Removes the specified function instance, based on category and subcategory.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 12ac2dd8-516b-4b5d-a2bf-0abb55d18ee0
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],TakeOwnership method, IBackgroundCopyJob.TakeOwnership, IBackgroundCopyJob::TakeOwnership, TakeOwnership, TakeOwnership method [BITS], TakeOwnership method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_takeownership, bits.ibackgroundcopyjob_takeownership, bits/IBackgroundCopyJob::TakeOwnership
-f1_keywords:
-- bits/IBackgroundCopyJob.TakeOwnership
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.TakeOwnership
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::TakeOwnership
+ - bits/IBackgroundCopyJob::TakeOwnership
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.TakeOwnership
 ---
 
 # IBackgroundCopyJob::TakeOwnership
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Changes ownership of the job to the current user. 
-
+Changes ownership of the job to the current user.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -127,14 +119,8 @@ User does not have administrator privileges.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To take ownership of the job, the user must have administrator privileges on the client. On Windows Vista, the user must run in an elevated state. After taking ownership, any future updates to the job must be done while the user is running in an elevated state. For details, see <a href="https://docs.microsoft.com/windows/desktop/Bits/users-and-network-connections">Users and Network Connections</a>.
 
@@ -154,16 +140,7 @@ The
 
 If the job specifies <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">event notification</a>, the callback is executed in the context of the user who called the <b>IBackgroundCopyJob::SetNotifyInterface</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getowner">IBackgroundCopyJob::GetOwner</a>
- 
-
- 
 

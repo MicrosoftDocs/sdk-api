@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
 ms.date: 12/05/2018
 ms.keywords: '*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT'
-f1_keywords:
-- propidlbase/PROPVARIANT
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- propidlbase.h
-api_name:
-- PROPVARIANT
 targetos: Windows
 req.typenames: PROPVARIANT, *LPPROPVARIANT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagPROPVARIANT
+ - propidlbase/tagPROPVARIANT
+ - LPPROPVARIANT
+ - propidlbase/LPPROPVARIANT
+ - PROPVARIANT
+ - propidlbase/PROPVARIANT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - propidlbase.h
+api_name:
+ - PROPVARIANT
 ---
 
 # PROPVARIANT structure
 
 
 ## -description
-
 
 The 
 <b>PROPVARIANT</b> structure is used in the 
@@ -64,396 +68,161 @@ There are five members. The first member, the value-type tag, and the last membe
 <a href="https://docs.microsoft.com/windows/desktop/Stg/version-0-vs--version-1-property-set-serialization">Property Set Serialization</a>.</div><div> </div>The 
 <b>PROPVARIANT</b> structure is defined as follows:
 
-
 ## -struct-fields
-
-
-
 
 ### -field tag_inner_PROPVARIANT
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.vt
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.wReserved1
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.wReserved2
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.wReserved3
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.bVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.iVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.uiVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.lVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.ulVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.intVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.uintVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.hVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.uhVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.fltVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.dblVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.boolVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.scode
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cyVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.date
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.filetime
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.puuid
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pclipdata
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.bstrVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.bstrblobVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.blob
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pszVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pwszVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.punkVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pdispVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pStream
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pStorage
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pVersionedStream
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.parray
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cac
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.caub
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cai
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.caui
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.caul
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cah
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cauh
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.caflt
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cadbl
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cabool
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cascode
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cacy
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cadate
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cafiletime
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cauuid
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.caclipdata
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cabstr
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cabstrblob
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.calpstr
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.calpwstr
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.capropvar
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pcVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pbVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.piVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.puiVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.plVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pulVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pintVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.puintVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pfltVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pdblVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pboolVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pdecVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pscode
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pcyVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pdate
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pbstrVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.ppunkVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.ppdispVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pparray
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pvarVal
-
- 
-
 
 ### -field decVal
 
@@ -841,10 +610,7 @@ Reserved for future use.
 
 Reserved for future use.
 
-
 ## -remarks
-
-
 
 The 
 <b>PROPVARIANT</b> structure can also hold a value of <b>VT_DECIMAL</b>:
@@ -1227,6 +993,4 @@ If the value of the <b>ulClipFmt</b> member is -1, the data is in the form of a 
 After the <b>METAFILEPICT</b> structure is the metafile data, suitable to be passed to the <b>SetMetaFileBitsEx</b> function. This function creates a memory-based, Windows-format metafile from the supplied data. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the <b>SetEnhMetaFileBits</b> function. This function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer. If the function succeeds and the buffer pointer is <b>NULL</b>, the return value is the size of the enhanced metafile in bytes. If the function succeeds and the buffer pointer is a valid pointer, the return value is the number of bytes copied to the buffer. If the function fails, the return value is zero.
 
 When register clipboard formats are placed on or retrieved from the clipboard, they must be in the form of an <b>HGLOBAL</b> value.
-
-
 

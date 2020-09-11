@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalstyle.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetMonthCalStyle, DateTime_GetMonthCalStyle macro [Windows Controls], _shell_DateTime_GetMonthCalStyle, _shell_DateTime_GetMonthCalStyle_cpp, commctrl/DateTime_GetMonthCalStyle, controls.DateTime_GetMonthCalStyle, controls._shell_DateTime_GetMonthCalStyle
-f1_keywords:
-- commctrl/DateTime_GetMonthCalStyle
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_GetMonthCalStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_GetMonthCalStyle
+ - commctrl/DateTime_GetMonthCalStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_GetMonthCalStyle
 ---
 
 # DateTime_GetMonthCalStyle macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the style of a specified date and time picker (DTP) control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getmcstyle">DTM_GETMCSTYLE</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hdp [in]
 

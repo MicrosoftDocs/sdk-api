@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9.htm
 ms.date: 12/05/2018
 ms.keywords: 6e601b3e-6b1d-4777-8fd2-a1c3ed1d5565, IDirect3DQuery9, IDirect3DQuery9 interface [Direct3D 9], IDirect3DQuery9 interface [Direct3D 9],described, d3d9helper/IDirect3DQuery9, direct3d9.idirect3dquery9
-f1_keywords:
-- d3d9helper/IDirect3DQuery9
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d9.lib
-- d3d9.dll
-api_name:
-- IDirect3DQuery9
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DQuery9
+ - d3d9helper/IDirect3DQuery9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d9.lib
+ - d3d9.dll
+api_name:
+ - IDirect3DQuery9
 ---
 
 # IDirect3DQuery9 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications use the methods of the IDirect3DQuery9 interface to perform asynchronous queries on a driver.
-
 
 ## -inheritance
 
@@ -114,12 +113,9 @@ Issue a query.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The LPDIRECT3DQUERY9 and PDIRECT3DQUERY9 types are defined as pointers to the <b>IDirect3DQuery9</b> interface.
     
@@ -130,17 +126,7 @@ The LPDIRECT3DQUERY9 and PDIRECT3DQUERY9 types are defined as pointers to the <b
 typedef struct IDirect3DQuery9 *LPDIRECT3DQUERY9, *PDIRECT3DQUERY9;
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
- 
-
- 
 

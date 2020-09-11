@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 2F7E343F-2A25-44F2-9352-5F378718D6F6
 ms.date: 12/05/2018
 ms.keywords: CreateDeferredContext1, CreateDeferredContext1 method [Direct3D 11], CreateDeferredContext1 method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],CreateDeferredContext1 method, ID3D11Device1.CreateDeferredContext1, ID3D11Device1::CreateDeferredContext1, d3d11_1/ID3D11Device1::CreateDeferredContext1, direct3d11.id3d11device1_createdeferredcontext1
-f1_keywords:
-- d3d11_1/ID3D11Device1.CreateDeferredContext1
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device1.CreateDeferredContext1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device1::CreateDeferredContext1
+ - d3d11_1/ID3D11Device1::CreateDeferredContext1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device1.CreateDeferredContext1
 ---
 
 # ID3D11Device1::CreateDeferredContext1
@@ -50,31 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a deferred context, which can record command lists.
 
-
 ## -parameters
-
-
-
 
 ### -param ContextFlags
 
 Reserved for future use.
             Pass 0.
-          
-
 
 ### -param ppDeferredContext [out, optional]
 
 Upon completion of the method, the passed pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a> interface pointer is initialized.
-          
-
 
 ## -returns
-
-
 
 Returns S_OK if successful; otherwise, returns one of the following:
             
@@ -92,11 +82,7 @@ Returns S_OK if successful; otherwise, returns one of the following:
               </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 A deferred context is a thread-safe context that you can use to record graphics commands on a thread other than the main rendering thread.
           By using a deferred context, you can record graphics commands into a command list that is encapsulated by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11commandlist">ID3D11CommandList</a> interface.
@@ -115,15 +101,8 @@ For more information about deferred contexts, see <a href="https://docs.microsof
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
 
@@ -138,7 +117,4 @@ For more information about deferred contexts, see <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">ID3D11Device::CreateDeferredContext</a>
- 
-
- 
 

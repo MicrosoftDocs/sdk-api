@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: d2e062a6-2ec8-4057-b525-d1cd719dc736
 ms.date: 12/05/2018
 ms.keywords: ScriptShapeOpenType, ScriptShapeOpenType function [Internationalization for Windows Applications], _win32_ScriptShapeOpenType, intl.scriptshapeopentype, usp10/ScriptShapeOpenType
-f1_keywords:
-- usp10/ScriptShapeOpenType
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Usp10.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptShapeOpenType
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - ScriptShapeOpenType
+ - usp10/ScriptShapeOpenType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptShapeOpenType
 ---
 
 # ScriptShapeOpenType function
@@ -52,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates glyphs and visual attributes for a Unicode run with OpenType information. Each run consists of one call to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in, optional]
 
 Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
 
-
 ### -param psc [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
-
 
 ### -param psa [in, out]
 
@@ -77,75 +71,59 @@ Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_
 
 Alternatively, the application can set this parameter to <b>NULL</b> to receive unfiltered results.
 
-
 ### -param tagScript [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the OpenType script tag for the writing system.
-
 
 ### -param tagLangSys [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure containing the OpenType language tag for the writing system.
 
-
 ### -param rcRangeChars [in, optional]
 
 Array of characters in each <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">range</a>. The number of array elements is indicated by <i>cRanges</i>. The values of the elements of this array add up to the value of <i>cChars</i>.
-
 
 ### -param rpRangeProperties [in, optional]
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-textrange_properties">TEXTRANGE_PROPERTIES</a> structures, each representing one OpenType feature range. The number of structures is indicated by the <i>cRanges</i> parameter. For more information on <i>rpRangeProperties</i>, see the Remarks section.
 
-
 ### -param cRanges [in]
 
 The number of OpenType feature ranges.
-
 
 ### -param pwcChars [in]
 
 Pointer to an array of Unicode characters containing the run.
 
-
 ### -param cChars [in]
 
 Number of characters in the Unicode run.
-
 
 ### -param cMaxGlyphs [in]
 
 Maximum number of glyphs to generate.
 
-
 ### -param pwLogClust [out]
 
 Pointer to a buffer in which this function retrieves an array of logical <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">cluster</a> information. Each array element corresponds to a character in the array of Unicode characters. The value of each element is the offset from the first glyph in the run to the first glyph in the cluster containing the corresponding character. Note that, when the <b>fRTL</b> member of the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure is <b>TRUE</b>, the elements decrease as the array is read.
-
 
 ### -param pCharProps [out]
 
 Pointer to a buffer in which this function retrieves an array of character property values, of length indicated by <i>cChars</i>.
 
-
 ### -param pwOutGlyphs [out]
 
 Pointer to a buffer in which this function retrieves an array of glyphs.
-
 
 ### -param pOutGlyphProps [out]
 
 Pointer to a buffer in which this function retrieves an array of attributes for each of the retrieved glyphs. The length of the values equals the value of <i>pcGlyphs</i>. Since one glyph property is indicated per glyph, the value of this parameter indicates the number of elements specified by <i>cMaxGlyphs</i>.
 
-
 ### -param pcGlyphs [out]
 
 Pointer to the location in which this function retrieves the number of glyphs indicated in <i>pwOutGlyphs</i>.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. In all error cases, the content of all output array values is undefined.
 
@@ -157,11 +135,7 @@ Error returns include:
 <li>USP_E_SCRIPT_NOT_IN_FONT. The font corresponding to the device context does not support the required script. The application should choose another font, using either <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetcmap">ScriptGetCMap</a> or another method to select the font.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 <b>ScriptShapeOpenType</b> is preferred over the older <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> function. Some advantages of the <b>ScriptShapeOpenType</b> include the following:
 
@@ -236,12 +210,7 @@ The generated cluster array stores offsets to the cluster containing the charact
 </ul>
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
@@ -276,7 +245,4 @@ The generated cluster array stores offsets to the cluster containing the charact
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

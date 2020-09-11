@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 6761cf80-60b1-4c3a-8c3f-f040fab60f24
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTrackerACP, ITfMouseTrackerACP interface [Text Services Framework], ITfMouseTrackerACP interface [Text Services Framework],described, _tsf_itfmousetrackeracp_ref, msctf/ITfMouseTrackerACP, tsf.itfmousetrackeracp
-f1_keywords:
-- msctf/ITfMouseTrackerACP
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfMouseTrackerACP
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMouseTrackerACP
+ - msctf/ITfMouseTrackerACP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfMouseTrackerACP
 ---
 
 # ITfMouseTrackerACP interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfMouseTrackerACP</b> interface is implemented by an application to support mouse event sinks. This interface is used by the TSF manager to add and remove mouse event sinks in an ACP-based application. The TSF manager obtains this interface by calling the application's ITextStoreACP::QueryInterface with IID_ITfMouseTrackerACP.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Called to remove a mouse event sink.
 
 </td>
 </tr>
-</table> 
+</table>
 

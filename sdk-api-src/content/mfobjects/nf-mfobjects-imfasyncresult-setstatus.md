@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 79dec067-ba54-435b-8744-9a6f43dd416d
 ms.date: 12/05/2018
 ms.keywords: 79dec067-ba54-435b-8744-9a6f43dd416d, IMFAsyncResult interface [Media Foundation],SetStatus method, IMFAsyncResult.SetStatus, IMFAsyncResult::SetStatus, SetStatus, SetStatus method [Media Foundation], SetStatus method [Media Foundation],IMFAsyncResult interface, mf.imfasyncresult_setstatus, mfobjects/IMFAsyncResult::SetStatus
-f1_keywords:
-- mfobjects/IMFAsyncResult.SetStatus
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAsyncResult.SetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAsyncResult::SetStatus
+ - mfobjects/IMFAsyncResult::SetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAsyncResult.SetStatus
 ---
 
 # IMFAsyncResult::SetStatus
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the status of the asynchronous operation.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrStatus [in]
 
 The status of the asynchronous operation.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you implement an asynchronous method, call <b>SetStatus</b> to set the status code for the operation.
 
@@ -108,19 +92,11 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a>
- 
-
- 
 

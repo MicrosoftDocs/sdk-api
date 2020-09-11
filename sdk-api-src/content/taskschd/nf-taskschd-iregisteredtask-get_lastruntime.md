@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: c7ac7fea-35c7-4336-9142-6c97caa1dea0
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],LastRunTime property, IRegisteredTask.LastRunTime, IRegisteredTask.get_LastRunTime, IRegisteredTask::LastRunTime, IRegisteredTask::get_LastRunTime, LastRunTime property [Task Scheduler], LastRunTime property [Task Scheduler],IRegisteredTask interface, get_LastRunTime, taskschd.iregisteredtask_lastruntime, taskschd/IRegisteredTask::LastRunTime, taskschd/IRegisteredTask::get_LastRunTime
-f1_keywords:
-- taskschd/IRegisteredTask.LastRunTime
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRegisteredTask.LastRunTime
-- IRegisteredTask.get_LastRunTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegisteredTask::get_LastRunTime
+ - taskschd/IRegisteredTask::get_LastRunTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRegisteredTask.LastRunTime
+ - IRegisteredTask.get_LastRunTime
 ---
 
 # IRegisteredTask::get_LastRunTime
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the time the registered task was last run.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

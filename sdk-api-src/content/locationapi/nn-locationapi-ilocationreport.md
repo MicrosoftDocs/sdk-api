@@ -8,10 +8,6 @@ tech.root: winlocation
 ms.assetid: 6dc78c26-36b3-4545-b5ba-7f04f6e67706
 ms.date: 12/05/2018
 ms.keywords: ILocationReport, ILocationReport interface [WinLocation], ILocationReport interface [WinLocation],described, locationapi/ILocationReport, winlocation.ilocationreport
-f1_keywords:
-- locationapi/ILocationReport
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ILocationReport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocationReport
+ - locationapi/ILocationReport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ILocationReport
 ---
 
 # ILocationReport interface
@@ -49,13 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
-The parent interface for location reports. 
-   
-
+The parent interface for location reports.
 
 ## -inheritance
 
@@ -99,5 +97,5 @@ Retrieves a property value from the location report.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 704812f3-134c-4161-b3b4-a955d87ff563
 ms.date: 12/05/2018
 ms.keywords: GetServiceDisplayName, GetServiceDisplayName function, GetServiceDisplayNameA, GetServiceDisplayNameW, _win32_getservicedisplayname, base.getservicedisplayname, winsvc/GetServiceDisplayName, winsvc/GetServiceDisplayNameA, winsvc/GetServiceDisplayNameW
-f1_keywords:
-- winsvc/GetServiceDisplayName
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,35 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
-- API-Ms-Win-Service-Core-L1-1-2.dll
-- SecHost.dll
-- API-MS-Win-Service-Core-Ansi-L1-1-1.dll
-api_name:
-- GetServiceDisplayName
-- GetServiceDisplayNameA
-- GetServiceDisplayNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetServiceDisplayNameA
+ - winsvc/GetServiceDisplayNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
+ - API-Ms-Win-Service-Core-L1-1-2.dll
+ - SecHost.dll
+ - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
+api_name:
+ - GetServiceDisplayName
+ - GetServiceDisplayNameA
+ - GetServiceDisplayNameW
 ---
 
 # GetServiceDisplayNameA function
+
 
 ## -description
 
@@ -111,3 +113,4 @@ There are two names for a service: the service name and the display name. The se
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-getservicekeynamea">GetServiceKeyName</a>
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
+

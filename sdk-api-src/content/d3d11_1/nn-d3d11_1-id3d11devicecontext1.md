@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: DD2A556D-AEF0-407E-A497-CF17ACDEB1A7
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext1, ID3D11DeviceContext1 interface [Direct3D 11], ID3D11DeviceContext1 interface [Direct3D 11],described, d3d11_1/ID3D11DeviceContext1, direct3d11.id3d11devicecontext1
-f1_keywords:
-- d3d11_1/ID3D11DeviceContext1
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext1
+ - d3d11_1/ID3D11DeviceContext1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext1
 ---
 
 # ID3D11DeviceContext1 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The device context interface represents a device context; it is used to render commands. <b>ID3D11DeviceContext1</b> adds new methods to those in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>.
-
 
 ## -inheritance
 
@@ -241,20 +240,13 @@ Sets the constant buffers that the vertex shader pipeline stage uses.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
 

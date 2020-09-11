@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 187ae17c-82c0-4439-8b98-52ba0571d222
 ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo class [GPMC],Remove method, IGPMSecurityInfo interface [GPMC],Remove method, IGPMSecurityInfo.Remove, IGPMSecurityInfo::Remove, Remove, Remove method [GPMC], Remove method [GPMC],GPMSecurityInfo class, Remove method [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_remove, gpmc.igpmsecurityinfo_remove, gpmgmt/IGPMSecurityInfo::Remove
-f1_keywords:
-- gpmgmt/IGPMSecurityInfo.Remove
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSecurityInfo.Remove
-- GPMSecurityInfo.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSecurityInfo::Remove
+ - gpmgmt/IGPMSecurityInfo::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSecurityInfo.Remove
+ - GPMSecurityInfo.Remove
 ---
 
 # IGPMSecurityInfo::Remove
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the permission specified in a given 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> object from the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pPerm [in]
 
@@ -70,10 +66,7 @@ Pointer to the <b>GPMPermission</b> object to remove from the collection.
 
 <b>GPMPermission</b> object to remove.
 
-
 ## -returns
-
-
 
 <h3>JScript</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -81,12 +74,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 <h3>VB</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
-
-
-
 ## -remarks
-
-
 
 You cannot remove Inherited permissions. To determine if a permission is Inherited, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmpermission-property-methods">IGPMPermission Property Methods</a>.
@@ -106,13 +94,7 @@ For more information about policy-related permissions, see
 For more information about security groups, see 
 <a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
 
@@ -123,7 +105,4 @@ For more information about security groups, see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
- 
-
- 
 

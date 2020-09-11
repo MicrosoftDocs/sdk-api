@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 4f2514be-f05e-4be6-8c74-ef7a9ffe1c53
 ms.date: 12/05/2018
 ms.keywords: WlanSetAutoConfigParameter, WlanSetAutoConfigParameter function [NativeWIFI], nwifi.wlansetautoconfigparameter, wlan_autoconf_opcode_allow_explicit_creds, wlan_autoconf_opcode_allow_virtual_station_extensibility, wlan_autoconf_opcode_block_period, wlan_autoconf_opcode_show_denied_networks, wlanapi/WlanSetAutoConfigParameter
-f1_keywords:
-- wlanapi/WlanSetAutoConfigParameter
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wlanapi.dll
-api_name:
-- WlanSetAutoConfigParameter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanSetAutoConfigParameter
+ - wlanapi/WlanSetAutoConfigParameter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wlanapi.dll
+api_name:
+ - WlanSetAutoConfigParameter
 ---
 
 # WlanSetAutoConfigParameter function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanSetAutoConfigParameter</b> function sets parameters for the automatic configuration service.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
 
 ### -param OpCode [in]
 
@@ -115,13 +110,10 @@ This enumeration value is supported on Windows 7 and on Windows Server 2008 R
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwDataSize [in]
 
 The size of the <i>pData</i> parameter, in bytes. This parameter must be set to <code>sizeof(BOOL)</code> for a BOOL or <code>sizeof(DWORD)</code> for a DWORD, depending on the value of the <i>OpCode</i> parameter.
-
 
 ### -param pData [in]
 
@@ -134,10 +126,7 @@ The value to be set for the parameter specified in <i>OpCode</i> parameter. The 
 
 Reserved for future use. Must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -206,33 +195,18 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>WlanSetAutoConfigParameter</b> function sets parameters used by Auto Configuration Module (ACM), the wireless configuration component supported on Windows Vista and  later.
 
-Depending on the value of the <i>OpCode</i> parameter, the data pointed to by <i>pData</i> will be converted to a boolean value before the automatic configuration parameter is set. If <i>pData</i> points to 0, then the parameter is set to <b>FALSE</b>; otherwise, the parameter is set to <b>TRUE</b>. 
-
-
-
+Depending on the value of the <i>OpCode</i> parameter, the data pointed to by <i>pData</i> will be converted to a boolean value before the automatic configuration parameter is set. If <i>pData</i> points to 0, then the parameter is set to <b>FALSE</b>; otherwise, the parameter is set to <b>TRUE</b>.
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryautoconfigparameter">WlanQueryAutoConfigParameter</a>
- 
-
- 
 

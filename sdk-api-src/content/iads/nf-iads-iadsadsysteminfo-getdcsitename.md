@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 2b9bb5f2-8312-4413-bbf2-4765fd33a2c6
 ms.date: 12/05/2018
 ms.keywords: GetDCSiteName, GetDCSiteName method [ADSI], GetDCSiteName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetDCSiteName method, IADsADSystemInfo.GetDCSiteName, IADsADSystemInfo::GetDCSiteName, _ds_iadsadsysteminfo_getdcsitename, adsi.iadsadsysteminfo__getdcsitename, adsi.iadsadsysteminfo_getdcsitename, iads/IADsADSystemInfo::GetDCSiteName
-f1_keywords:
-- iads/IADsADSystemInfo.GetDCSiteName
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsADSystemInfo.GetDCSiteName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsADSystemInfo::GetDCSiteName
+ - iads/IADsADSystemInfo::GetDCSiteName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsADSystemInfo.GetDCSiteName
 ---
 
 # IADsADSystemInfo::GetDCSiteName
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsADSystemInfo::GetDCSiteName</b> method retrieves the name of the Active Directory site that contains the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param szServer [out]
 
 Name of the Active Directory site.
 
-
 ### -param pszSiteName [in]
 
 DNS name of the service server.
 
-
 ## -returns
-
-
 
 This method supports the standard <b>HRESULT</b> return values. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/AD/core-concepts-of-active-directory-domain-services">Active Directory Core Concepts</a>.
 
@@ -160,14 +147,7 @@ wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
 %>
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -178,7 +158,4 @@ wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsadsysteminfo">IADsADSystemInfo</a>
- 
-
- 
 

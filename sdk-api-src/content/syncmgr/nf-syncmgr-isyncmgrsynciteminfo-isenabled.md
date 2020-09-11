@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 47383322-3fb6-47aa-9c97-9d432845fd35
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsEnabled method, ISyncMgrSyncItemInfo.IsEnabled, ISyncMgrSyncItemInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsEnabled, shell.ISyncMgrSyncItemInfo_IsEnabled, syncmgr/ISyncMgrSyncItemInfo::IsEnabled
-f1_keywords:
-- syncmgr/ISyncMgrSyncItemInfo.IsEnabled
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrSyncItemInfo.IsEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSyncItemInfo::IsEnabled
+ - syncmgr/ISyncMgrSyncItemInfo::IsEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrSyncItemInfo.IsEnabled
 ---
 
 # ISyncMgrSyncItemInfo::IsEnabled
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates a value that indicates whether the item is enabled.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -74,12 +66,7 @@ If the item wants Sync Center to maintain the current state, it can return E_NOT
 
 If either the SYNCMGR_ICM_QUERY_BEFORE_ENABLE or SYNCMGR_ICM_QUERY_BEFORE_DISABLE flags are set in the mask returned from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>, the handler must manage its own enabled state and therefore must return either S_OK or S_FALSE. Any other return value will be considered an error.
 
-
-
-
 ## -remarks
-
-
 
 If an item is disabled, it is not synchronized by Sync Center. Also, many of the possible actions available to an item—such as Sync—are removed or disabled in the UI.
 
@@ -105,7 +92,4 @@ STDMETHODIMP CMyDeviceSyncItem::IsEnabled()
 }
 
 ```
-
-
-
 

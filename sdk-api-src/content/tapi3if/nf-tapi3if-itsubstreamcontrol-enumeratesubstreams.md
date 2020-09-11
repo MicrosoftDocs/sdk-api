@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 848d31e8-f878-4d33-b2b9-2d28e96bd14a
 ms.date: 12/05/2018
 ms.keywords: EnumerateSubStreams, EnumerateSubStreams method [TAPI 2.2], EnumerateSubStreams method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],EnumerateSubStreams method, ITSubStreamControl.EnumerateSubStreams, ITSubStreamControl::EnumerateSubStreams, _tapi3_itsubstreamcontrol_enumeratesubstreams, tapi3.itsubstreamcontrol_enumeratesubstreams, tapi3if/ITSubStreamControl::EnumerateSubStreams
-f1_keywords:
-- tapi3if/ITSubStreamControl.EnumerateSubStreams
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- ITSubStreamControl.EnumerateSubStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITSubStreamControl::EnumerateSubStreams
+ - tapi3if/ITSubStreamControl::EnumerateSubStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - ITSubStreamControl.EnumerateSubStreams
 ---
 
 # ITSubStreamControl::EnumerateSubStreams
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EnumerateSubStreams</b> method enumerates currently available media substreams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-get_substreams">get_SubStreams</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnumSubStream [out]
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumsubstream">IEnumSubStream</a> enumeration of substreams.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,33 +104,18 @@ The <i>ppEnumSubStream</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumsubstream">IEnumSubStream</a> interface returned by <b>ITSubStreamControl::EnumerateSubStreams</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
 <b>IEnumSubStream</b> interface to free resources associated with it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol">ITSubStreamControl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7F59BE62-D3F1-4C5A-94FD-F864342797BF
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertVideoEffect method, IMFMediaEngineEx.InsertVideoEffect, IMFMediaEngineEx::InsertVideoEffect, InsertVideoEffect, InsertVideoEffect method [Media Foundation], InsertVideoEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertvideoeffect, mfmediaengine/IMFMediaEngineEx::InsertVideoEffect
-f1_keywords:
-- mfmediaengine/IMFMediaEngineEx.InsertVideoEffect
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineEx.InsertVideoEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineEx::InsertVideoEffect
+ - mfmediaengine/IMFMediaEngineEx::InsertVideoEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineEx.InsertVideoEffect
 ---
 
 # IMFMediaEngineEx::InsertVideoEffect
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Inserts a video effect.
 
-
 ## -parameters
-
-
-
 
 ### -param pEffect [in]
 
@@ -97,12 +93,8 @@ The effect is required. If the Media Engine object cannot add the effect, a play
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,27 +126,12 @@ The maximum number of video effects was reached.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The effect is applied when the next media resource is loaded.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
- 
-
- 
 

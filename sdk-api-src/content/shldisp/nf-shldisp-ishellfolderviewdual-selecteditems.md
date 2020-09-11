@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 71ec6c0d-f3de-4a5d-941b-16d33b718921
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectedItems method, IShellFolderViewDual.SelectedItems, IShellFolderViewDual::SelectedItems, SelectedItems, SelectedItems method [Windows Shell], SelectedItems method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectedItems, shell.IShellFolderViewDual_SelectedItems, shldisp/IShellFolderViewDual::SelectedItems
-f1_keywords:
-- shldisp/IShellFolderViewDual.SelectedItems
-dev_langs:
-- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shldisp.h
-api_name:
-- IShellFolderViewDual.SelectedItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderViewDual::SelectedItems
+ - shldisp/IShellFolderViewDual::SelectedItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shldisp.h
+api_name:
+ - IShellFolderViewDual.SelectedItems
 ---
 
 # IShellFolderViewDual::SelectedItems
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a FolderItems object that represents all of the selected items in the view.
 
-
 ## -parameters
-
-
-
 
 ### -param ppid [out]
 
@@ -64,22 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shld
 
 The FolderItems object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>
 
@@ -90,7 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual3">IShellFolderViewDual3</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\imilbitmapeffectrendercontext.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontext, mileffects/IMILBitmapEffectRenderContext, wibe._wibe_imilbitmapeffectrendercontext
-f1_keywords:
-- mileffects/IMILBitmapEffectRenderContext
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mileffects.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.dll
-api_name:
-- IMILBitmapEffectRenderContext
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectRenderContext
+ - mileffects/IMILBitmapEffectRenderContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.dll
+api_name:
+ - IMILBitmapEffectRenderContext
 ---
 
 # IMILBitmapEffectRenderContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that define a <b>IMILBitmapEffectRenderContext</b> object.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Sets a value to indicate whether to use software rendering.
 
 </td>
 </tr>
-</table> 
+</table>
 

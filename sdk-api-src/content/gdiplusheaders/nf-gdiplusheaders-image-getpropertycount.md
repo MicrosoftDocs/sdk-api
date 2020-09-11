@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertycount.htm
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [GDI+], GetPropertyCount method [GDI+],Image class, Image class [GDI+],GetPropertyCount method, Image.GetPropertyCount, Image::GetPropertyCount, _gdiplus_CLASS_Image_GetPropertyCount_, gdiplus._gdiplus_CLASS_Image_GetPropertyCount_
-f1_keywords:
-- gdiplusheaders/Image.GetPropertyCount
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Image.GetPropertyCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Image::GetPropertyCount
+ - gdiplusheaders/Image::GetPropertyCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Image.GetPropertyCount
 ---
 
 # Image::GetPropertyCount
@@ -50,34 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Image::GetPropertyCount</b> method gets the number of properties (pieces of metadata) stored in this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. 
-
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
 This method returns the number of properties stored in this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
@@ -116,7 +102,4 @@ This method returns the number of properties stored in this
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-reading-and-writing-metadata-use">Reading and Writing Metadata</a>
- 
-
- 
 

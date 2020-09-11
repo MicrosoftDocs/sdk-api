@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 42aa21d3-7c38-4058-b766-454be8b1ae80
 ms.date: 12/05/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],EncryptionBlt method, IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
-f1_keywords:
-- d3d9/IDirect3DCryptoSession9.EncryptionBlt
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d9.h
-api_name:
-- IDirect3DCryptoSession9.EncryptionBlt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DCryptoSession9::EncryptionBlt
+ - d3d9/IDirect3DCryptoSession9::EncryptionBlt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d9.h
+api_name:
+ - IDirect3DCryptoSession9.EncryptionBlt
 ---
 
 # IDirect3DCryptoSession9::EncryptionBlt
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads encrypted data from a protected surface.
 
-
 ## -parameters
-
-
-
 
 ### -param pSrcSurface
 
 Pointer to the protected surface.
 
-
 ### -param pDstSurface
 
 Pointer to a surface that receives the encrypted data.
 
-
 ### -param DstSurfaceSize
 
 The size of the surface memory that <i>pDstSurface</i> points to, in bytes. The size must be aligned to the value of <b>BlockAlignmentSize</b> in the driver capabilities structure; see Remarks.
-
 
 ### -param pIV
 
@@ -81,19 +74,11 @@ If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b> (128-bit AES-CTR), <i>
 
 For other encryption types, a different structure might be used, or the encryption might not use an IV.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If the driver supports this method, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACK</b>flag in the capabilities structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
 
@@ -121,20 +106,11 @@ This method has the following limitations:
 </ul>
 If you lock the destination surface, the stride reported in the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlocked-rect">D3DLOCKED_RECT</a> structure might not match the stride of the protected surface. When you interpret the data, however, always use the stride of the protected surface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: d9c452e3-3850-4ca2-8114-b3866fbdeba6
 ms.date: 12/05/2018
 ms.keywords: DrvSendPage, DrvSendPage function [Display Devices], ddifncs_4211c283-c7c9-493d-b673-0fdc0d8ad04f.xml, display.drvsendpage, winddi/DrvSendPage
-f1_keywords:
-- winddi/DrvSendPage
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvSendPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvSendPage
+ - winddi/DrvSendPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvSendPage
 ---
 
 # DrvSendPage function
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 A printer graphics DLL's <b>DrvSendPage</b> function is called by GDI when it has finished drawing a physical page, so the driver can send the page to the printer.
 
-
 ## -parameters
-
-
-
 
 ### -param pso [in]
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the drawing surface.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it should call the Win32 <b>SetLastError</b> function to set an error code, and then return <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 GDI calls <b>DrvSendPage</b> each time it has finished drawing a physical page's image on the drawing surface. The function is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> to send the image to the printer, and for performing end-of-page operations, such as ejecting the page.
 
@@ -85,13 +73,7 @@ Additionally, if a printer graphics DLL is using a <a href="https://docs.microso
 
 If there is a potential for this function to take a long time to execute, it should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcheckabort">EngCheckAbort</a> every five seconds. If <b>EngCheckAbort</b> returns <b>TRUE</b>, <b>DrvSendPage</b> should terminate its operation and return <b>FALSE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
 
@@ -106,7 +88,4 @@ If there is a potential for this function to take a long time to execute, it sho
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>
- 
-
- 
 

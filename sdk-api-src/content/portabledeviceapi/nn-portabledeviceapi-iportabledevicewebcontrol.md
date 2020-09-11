@@ -8,10 +8,6 @@ tech.root: wpdauto
 ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], IPortableDeviceWebControl interface [WPD Automation],described, portabledeviceapi/IPortableDeviceWebControl, wpdauto.iportabledevicewebcontrol
-f1_keywords:
-- portabledeviceapi/IPortableDeviceWebControl
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portabledeviceapi.h
-api_name:
-- IPortableDeviceWebControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceWebControl
+ - portabledeviceapi/IPortableDeviceWebControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portabledeviceapi.h
+api_name:
+ - IPortableDeviceWebControl
 ---
 
 # IPortableDeviceWebControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a factory that can instantiate a WPD Automation <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object in a Windows Store app.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Instantiates a WPD Automation <a href="https://docs.microsoft.com/previous-versi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This interface can only be used in Windows Store apps.</div>
 <div> </div>
@@ -112,17 +108,7 @@ var deviceService = device.services[0];
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PortableDeviceServices">Portable Device Service Sample</a>
- 
-
- 
 

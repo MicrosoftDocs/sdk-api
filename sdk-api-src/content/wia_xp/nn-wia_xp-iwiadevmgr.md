@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\iwiadevmgr.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], IWiaDevMgr interface [WIA],described, _wia_IWiaDevMgr, wia._wia_IWiaDevMgr, wia_xp/IWiaDevMgr
-f1_keywords:
-- wia_xp/IWiaDevMgr
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaDevMgr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaDevMgr
+ - wia_xp/IWiaDevMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaDevMgr
 ---
 
 # IWiaDevMgr interface
 
 
 ## -description
-
 
 Applications use the <b>IWiaDevMgr</b> interface to create and manage image acquisition devices. They also use it to register to receive device events.
 <div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-iwiadevmgr2">IWiaDevMgr2</a> instead of <b>IWiaDevMgr</b>.</div><div> </div>
@@ -149,12 +149,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IWiaDevMgr</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
@@ -182,7 +179,4 @@ The <b>IWiaDevMgr</b> interface, like all Component Object Model (COM) interface
 <td>Decrements reference count.</td>
 </tr>
 </table>
- 
-
-
 

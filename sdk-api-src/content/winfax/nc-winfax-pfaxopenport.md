@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_15ro.htm
 ms.date: 12/05/2018
 ms.keywords: FaxOpenPortA, FaxOpenPortW, PFAXOPENPORT, PFAXOPENPORT callback, PFAXOPENPORT callback function [Fax Service], PORT_OPEN_MODIFY, PORT_OPEN_QUERY, _mfax_faxopenport, fax._mfax_faxopenport, winfax/FaxOpenPortA, winfax/FaxOpenPortW, winfax/PFAXOPENPORT
-f1_keywords:
-- winfax/PFAXOPENPORT
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winfax.h
-api_name:
-- PFAXOPENPORT
-- FaxOpenPortA
-- FaxOpenPortW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFAXOPENPORT
+ - winfax/PFAXOPENPORT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winfax.h
+api_name:
+ - PFAXOPENPORT
+ - FaxOpenPortA
+ - FaxOpenPortW
 ---
 
 # PFAXOPENPORT callback function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxOpenPort</b> function returns a fax port handle to a fax client application. The port handle is required when the application calls other fax client functions that facilitate device management and fax document routing.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
@@ -66,13 +62,11 @@ Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
 
-
 ### -param DeviceId [in]
 
 Type: <b>DWORD</b>
 
 Specifies a <b>DWORD</b> variable that is the permanent line identifier for the receiving device. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumportsa">FaxEnumPorts</a> function to retrieve a valid value for this parameter. For more information, see the following Remarks section.
-
 
 ### -param Flags [in]
 
@@ -92,17 +86,13 @@ Port access level required to obtain a fax port handle. This access level is als
 
 Port access level required to change the configuration of a fax port with a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetporta">FaxGetPort</a> function. This access level also includes the access rights associated with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-port-access-levels">PORT_OPEN_QUERY</a> access level.
 
-
 ### -param FaxPortHandle [out]
 
 Type: <b>LPHANDLE</b>
 
 Pointer to a variable that receives a fax port handle that is required on subsequent calls to other fax client functions. If the fax server returns a <b>NULL</b> handle, it indicates an error.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -160,14 +150,8 @@ The <i>DeviceId</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call the <b>FaxOpenPort</b> function to obtain the handle to a fax port. Use the handle when you call the following functions:
 
@@ -181,13 +165,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wi
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-ports">Fax Ports</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-device-management">Fax Device Management</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-fax-routing-data">Managing Fax Routing Data</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_port_infoa">FAX_PORT_INFO</a>
 
@@ -218,7 +196,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetporta">FaxSetPort</a>
- 
-
- 
 

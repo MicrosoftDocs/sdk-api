@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: bcb26b43-ec6e-4cc8-9d40-15a7a3a62582
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], ITsSbTarget interface [Remote Desktop Services],described, sbtsv/ITsSbTarget, termserv.itssbtarget
-f1_keywords:
-- sbtsv/ITsSbTarget
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbTarget
+ - sbtsv/ITsSbTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbTarget
 ---
 
 # ITsSbTarget interface
@@ -49,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes properties that store configuration and state information about a target.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

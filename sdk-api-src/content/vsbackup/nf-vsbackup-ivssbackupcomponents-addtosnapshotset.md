@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6c20e386-7cd8-45d9-92d6-96d0a458db50
 ms.date: 12/05/2018
 ms.keywords: AddToSnapshotSet, AddToSnapshotSet method [VSS], AddToSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddToSnapshotSet method, IVssBackupComponents.AddToSnapshotSet, IVssBackupComponents::AddToSnapshotSet, _win32_ivssbackupcomponents_addtosnapshotset, base.ivssbackupcomponents_addtosnapshotset, vsbackup/IVssBackupComponents::AddToSnapshotSet
-f1_keywords:
-- vsbackup/IVssBackupComponents.AddToSnapshotSet
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.AddToSnapshotSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::AddToSnapshotSet
+ - vsbackup/IVssBackupComponents::AddToSnapshotSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.AddToSnapshotSet
 ---
 
 # IVssBackupComponents::AddToSnapshotSet
@@ -50,16 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddToSnapshotSet</b> method adds 
     an original volume or original remote file share to the shadow copy set.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param pwszVolumeName [in]
 
@@ -77,15 +72,11 @@ Null-terminated wide character string containing the name of the volume or the U
 
 The provider to be used. GUID_NULL can be used, in which case the default provider will be used.
 
-
 ### -param pidSnapshot [out]
 
 Returned identifier of the added shadow copy.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -310,14 +301,8 @@ The provider returned an unexpected error code. This error code is only returned
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
@@ -344,13 +329,7 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 The shadow copy identifier that is returned in the <i>pidSnapshot</i> parameter is stored in the Backup Components Document. However, there is no method for querying this information, and the caller may need to store it so that it can be used during restore.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -361,7 +340,4 @@ The shadow copy identifier that is returned in the <i>pidSnapshot</i> parameter 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
- 
-
- 
 

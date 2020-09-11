@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 452f89ad-e512-4ac7-816a-c3f97e25350a
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],RootStoreType property, ICEnroll interface [Security],RootStoreType property, ICEnroll.RootStoreType, ICEnroll.get_RootStoreType, ICEnroll2 interface [Security],RootStoreType property, ICEnroll2.RootStoreType, ICEnroll2::get_RootStoreType, ICEnroll2::put_RootStoreType, ICEnroll3 interface [Security],RootStoreType property, ICEnroll3.RootStoreType, ICEnroll3::get_RootStoreType, ICEnroll3::put_RootStoreType, ICEnroll4 interface [Security],RootStoreType property, ICEnroll4.RootStoreType, ICEnroll4::RootStoreType, ICEnroll4::get_RootStoreType, ICEnroll4::put_RootStoreType, ICEnroll::get_RootStoreType, ICEnroll::put_RootStoreType, RootStoreType property [Security], RootStoreType property [Security],CEnroll object, RootStoreType property [Security],ICEnroll interface, RootStoreType property [Security],ICEnroll2 interface, RootStoreType property [Security],ICEnroll3 interface, RootStoreType property [Security],ICEnroll4 interface, get_RootStoreType, security.icenroll4_rootstoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::RootStoreType, xenroll/ICEnroll2::get_RootStoreType, xenroll/ICEnroll2::put_RootStoreType, xenroll/ICEnroll3::RootStoreType, xenroll/ICEnroll3::get_RootStoreType, xenroll/ICEnroll3::put_RootStoreType, xenroll/ICEnroll4::RootStoreType, xenroll/ICEnroll4::get_RootStoreType, xenroll/ICEnroll4::put_RootStoreType, xenroll/ICEnroll::RootStoreType, xenroll/ICEnroll::get_RootStoreType, xenroll/ICEnroll::put_RootStoreType
-f1_keywords:
-- xenroll/ICEnroll4.RootStoreType
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.RootStoreType
-- ICEnroll4.get_RootStoreType
-- ICEnroll4.put_RootStoreType
-- ICEnroll3.RootStoreType
-- ICEnroll3.get_RootStoreType
-- ICEnroll3.put_RootStoreType
-- ICEnroll2.RootStoreType
-- ICEnroll2.get_RootStoreType
-- ICEnroll2.put_RootStoreType
-- ICEnroll.RootStoreType
-- ICEnroll.get_RootStoreType
-- ICEnroll.put_RootStoreType
-- CEnroll.RootStoreType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::get_RootStoreType
+ - xenroll/ICEnroll::get_RootStoreType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.RootStoreType
+ - ICEnroll4.get_RootStoreType
+ - ICEnroll4.put_RootStoreType
+ - ICEnroll3.RootStoreType
+ - ICEnroll3.get_RootStoreType
+ - ICEnroll3.put_RootStoreType
+ - ICEnroll2.RootStoreType
+ - ICEnroll2.get_RootStoreType
+ - ICEnroll2.put_RootStoreType
+ - ICEnroll.RootStoreType
+ - ICEnroll.get_RootStoreType
+ - ICEnroll.put_RootStoreType
+ - CEnroll.RootStoreType
 ---
 
 # ICEnroll::get_RootStoreType
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -71,14 +71,9 @@ The default value for this property is sz_CERT_STORE_PROV_SYSTEM. Only system st
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 <b>RootStoreType</b> affects the behavior of the following methods:
 
@@ -122,7 +117,4 @@ if ( FAILED ( hr ) )
 else
     printf( "RootStoreType was set to %ws\n", bstrNewType );
 ```
-
-
-
 

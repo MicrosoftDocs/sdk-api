@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\save.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],Save method, Graphics.Save, Graphics::Save, Save, Save method [GDI+], Save method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_Save_, gdiplus._gdiplus_CLASS_Graphics_Save_
-f1_keywords:
-- gdiplusgraphics/Graphics.Save
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.Save
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::Save
+ - gdiplusgraphics/Graphics::Save
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.Save
 ---
 
 # Graphics::Save
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::Save</b> method saves the current state (transformations, clipping region, and quality settings) of this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. You can restore the state later by calling the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a> method.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>GraphicsState</b>
 
 This method returns a value that identifies the saved state. Pass this value to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a> method when you want to restore the state. The <b>GraphicsState</b> data type is defined in Gdiplusenums.h.
 
-
-
-
 ## -remarks
-
-
 
 When you call the <b>Graphics::Save</b> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, an information block that holds the state of the <b>Graphics</b> object is put on a stack. The <b>Graphics::Save</b> method returns a value that identifies that information block. When you pass the identifying value to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a> method, the information block is removed from the stack and is used to restore the <b>Graphics</b> object to the state it was in at the time of the <b>Graphics::Save</b> call. Note that the identifier returned by a given call to the <b>Graphics::Save</b> method can be passed only once to the <b>Graphics::Restore</b> method.
 
@@ -176,21 +163,11 @@ VOID Example_Save2(HDC hdc)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>
- 
-
- 
 

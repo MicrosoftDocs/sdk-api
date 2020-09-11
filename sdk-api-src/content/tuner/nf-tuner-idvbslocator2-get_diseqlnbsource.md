@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 665ea57d-6cb7-43d6-8bf3-993d0075b3cc
 ms.date: 12/05/2018
 ms.keywords: DiseqLNBSource property [Microsoft TV Technologies], DiseqLNBSource property [Microsoft TV Technologies],IDVBSLocator2 interface, IDVBSLocator2 interface [Microsoft TV Technologies],DiseqLNBSource property, IDVBSLocator2.DiseqLNBSource, IDVBSLocator2.get_DiseqLNBSource, IDVBSLocator2::DiseqLNBSource, IDVBSLocator2::get_DiseqLNBSource, IDVBSLocator2::put_DiseqLNBSource, get_DiseqLNBSource, mstv.idvbslocator2_diseqlnbsource, tuner/IDVBSLocator2::DiseqLNBSource, tuner/IDVBSLocator2::get_DiseqLNBSource, tuner/IDVBSLocator2::put_DiseqLNBSource
-f1_keywords:
-- tuner/IDVBSLocator2.DiseqLNBSource
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IDVBSLocator2.DiseqLNBSource
-- IDVBSLocator2.get_DiseqLNBSource
-- IDVBSLocator2.put_DiseqLNBSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVBSLocator2::get_DiseqLNBSource
+ - tuner/IDVBSLocator2::get_DiseqLNBSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IDVBSLocator2.DiseqLNBSource
+ - IDVBSLocator2.get_DiseqLNBSource
+ - IDVBSLocator2.put_DiseqLNBSource
 ---
 
 # IDVBSLocator2::get_DiseqLNBSource
@@ -51,27 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the input for a Digital Satellite Equipment Control (DiSEqC) low-noise block converter (LNB).
     
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator2">IDVBSLocator2</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/lnb-source">LNB_Source</a>
- 
-
- 
 

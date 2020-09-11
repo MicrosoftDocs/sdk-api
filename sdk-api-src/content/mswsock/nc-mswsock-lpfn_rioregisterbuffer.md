@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: CAADCC2F-1443-410F-A860-375C9AAE208E
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOREGISTERBUFFER
-f1_keywords:
-- mswsock/LPFN_RIOREGISTERBUFFER
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIOREGISTERBUFFER
+ - mswsock/LPFN_RIOREGISTERBUFFER
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIOREGISTERBUFFER
+ - LPFN_RIOREGISTERBUFFER
 ---
 
 ## -description
@@ -66,9 +67,6 @@ If no error occurs, the **RIORegisterBuffer** function returns a registered buff
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**</dt> </dl> | The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned if an invalid buffer pointer is passed in *DataBuffer* parameter.<br/> |
 | <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl> | An invalid parameter was passed to the function. <br/> This error is returned if the *DataLength* parameter is zero.<br/>                                                                 |
-
-
-
 
 ## -remarks
 

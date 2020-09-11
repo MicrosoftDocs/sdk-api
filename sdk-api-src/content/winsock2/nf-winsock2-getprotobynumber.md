@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: f1f55ab7-01ca-4ed7-b8f9-e7ddbaa95855
 ms.date: 12/05/2018
 ms.keywords: _win32_getprotobynumber_2, getprotobynumber, getprotobynumber function [Winsock], winsock.getprotobynumber_2, winsock/getprotobynumber
-f1_keywords:
-- winsock2/getprotobynumber
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getprotobynumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getprotobynumber
+ - winsock2/getprotobynumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getprotobynumber
 ---
 
 # getprotobynumber function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getprotobynumber</b> function retrieves protocol information corresponding to a protocol number.
 
-
 ## -parameters
-
-
-
 
 ### -param number [in]
 
 Protocol number, in host byte order.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getprotobynumber</b> returns a pointer to the 
@@ -169,14 +162,8 @@ A blocking Windows Socket 1.1 call was canceled through
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This 
 <b>getprotobynumber</b> function returns a pointer to the 
@@ -189,13 +176,7 @@ The pointer that is returned points to the structure allocated by Windows Socket
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobynumber">WSAAsyncGetProtoByNumber</a>
 
@@ -210,7 +191,4 @@ The pointer that is returned points to the structure allocated by Windows Socket
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getprotobyname">getprotobyname</a>
- 
-
- 
 

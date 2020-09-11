@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d27bfa6c-194a-41f1-8fcf-76c4dff14a8a
 ms.date: 12/05/2018
 ms.keywords: CoRegisterClassObject, CoRegisterClassObject function [COM], _com_CoRegisterClassObject, com.coregisterclassobject, combaseapi/CoRegisterClassObject
-f1_keywords:
-- combaseapi/CoRegisterClassObject
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoRegisterClassObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoRegisterClassObject
+ - combaseapi/CoRegisterClassObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoRegisterClassObject
 ---
 
 # CoRegisterClassObject function
@@ -54,43 +55,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-Registers an EXE class object with OLE so other applications can connect to it. 
-
+Registers an EXE class object with OLE so other applications can connect to it.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 The CLSID to be registered.
 
-
 ### -param pUnk [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the class object whose availability is being published.
-
 
 ### -param dwClsContext [in]
 
 The context in which the executable code is to be run. For information on these context values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration.
 
-
 ### -param flags [in]
 
 Indicates how connections are made to the class object. For information on these flags, see the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-regcls">REGCLS</a> enumeration.
-
 
 ### -param lpdwRegister [out]
 
 A pointer to a value that identifies the class object registered; later used by the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-corevokeclassobject">CoRevokeClassObject</a> function to revoke the registration.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -111,14 +100,8 @@ The class object was registered successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 EXE object applications should call <b>CoRegisterClassObject</b> on startup. It can also be used to register internal objects for use by the same EXE or other code (such as DLLs) that the EXE uses.
 Only EXE object applications call <b>CoRegisterClassObject</b>. Object handlers or DLL object applications do not call this function — instead, they must implement and export the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject">DllGetClassObject</a> function.
@@ -151,13 +134,7 @@ After the class object is revoked, when its reference count reaches zero, the cl
 
 As of Windows Server 2003, if a COM object application is registered as a service, COM verifies the registration. COM makes sure the process ID of the service, in the service control manager (SCM), matches the process ID of the registering process. If not, COM fails the registration. If the COM object application runs in the system account with no registry key, COM treats the objects application identity as <a href="https://docs.microsoft.com/windows/desktop/com/launching-user">Launching User</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
@@ -176,7 +153,4 @@ As of Windows Server 2003, if a COM object application is registered as a servi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-regcls">REGCLS</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: lwef
 ms.assetid: 2a0ec2c0-0bec-4aeb-bbd5-0db18f0d5f8c
 ms.date: 12/05/2018
 ms.keywords: IReconcilableObject, IReconcilableObject interface [Legacy Windows Environment Features], IReconcilableObject interface [Legacy Windows Environment Features],described, _win32_IReconcilableObject, lwef.ireconcilableobject, reconcil/IReconcilableObject, shell.ireconcilableobject
-f1_keywords:
-- reconcil/IReconcilableObject
-dev_langs:
-- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IReconcilableObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReconcilableObject
+ - reconcil/IReconcilableObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IReconcilableObject
 ---
 
 # IReconcilableObject interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that reconcile a given document. The briefcase reconciler is responsible for implementing this interface.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Reconciles the state of an object with one or more other objects. The reconcilia
 
 </td>
 </tr>
-</table> 
+</table>
 

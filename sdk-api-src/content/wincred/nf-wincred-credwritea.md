@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9a590347-d610-4916-bf63-60fbec173ac2
 ms.date: 12/05/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWrite, CredWrite function [Security], CredWriteA, CredWriteW, _cred_credwrite, security.credwrite, wincred/CredWrite, wincred/CredWriteA, wincred/CredWriteW
-f1_keywords:
-- wincred/CredWrite
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredWrite
-- CredWriteA
-- CredWriteW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredWriteA
+ - wincred/CredWriteA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredWrite
+ - CredWriteA
+ - CredWriteW
 ---
 
 # CredWriteA function
@@ -55,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredWrite</b> function creates a new credential or modifies an existing credential in the user's credential set. The new credential is associated with the logon session of the current token. The token must not have the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) disabled.
 
-
 ## -parameters
-
-
-
 
 ### -param Credential [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure to be written.
-
 
 ### -param Flags [in]
 
@@ -90,12 +85,8 @@ The credential BLOB from an existing credential is preserved with the same crede
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
@@ -205,14 +196,8 @@ The wrong PIN was supplied for the CRED_TYPE_CERTIFICATE credential being writte
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function creates a credential if a credential with the specified <b>TargetName</b> and <b>Type</b> does not exist. If a credential with the specified <b>TargetName</b> and <b>Type</b> exists, the new specified credential replaces the existing one.
 
@@ -229,11 +214,5 @@ If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a>
- 
-
- 
 

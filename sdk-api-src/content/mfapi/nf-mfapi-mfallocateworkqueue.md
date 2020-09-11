@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8def4375-919c-4619-9484-9ce2708a3886
 ms.date: 12/05/2018
 ms.keywords: 8def4375-919c-4619-9484-9ce2708a3886, MFAllocateWorkQueue, MFAllocateWorkQueue function [Media Foundation], mf.mfallocateworkqueue, mfapi/MFAllocateWorkQueue
-f1_keywords:
-- mfapi/MFAllocateWorkQueue
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFAllocateWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFAllocateWorkQueue
+ - mfapi/MFAllocateWorkQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFAllocateWorkQueue
 ---
 
 # MFAllocateWorkQueue function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new work queue.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwWorkQueue [out]
 
 Receives an identifier for the work queue.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,24 +104,12 @@ The application did not call <a href="https://docs.microsoft.com/windows/desktop
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When you are done using the work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfunlockworkqueue">MFUnlockWorkQueue</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem">MFPutWorkItem</a>
 
@@ -143,7 +124,4 @@ When you are done using the work queue, call <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
- 
-
- 
 

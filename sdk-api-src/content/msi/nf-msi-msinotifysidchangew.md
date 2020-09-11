@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: f35e503e-0bc0-4895-8e88-fc5636774e75
 ms.date: 12/05/2018
 ms.keywords: MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange
-f1_keywords:
-- msi/MsiNotifySidChange
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiNotifySidChange
-- MsiNotifySidChangeA
-- MsiNotifySidChangeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiNotifySidChangeW
+ - msi/MsiNotifySidChangeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiNotifySidChange
+ - MsiNotifySidChangeA
+ - MsiNotifySidChangeW
 ---
 
 # MsiNotifySidChangeW function
@@ -51,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiNotifySidChange</b> function notifies and updates the Windows Installer internal information  with changes to  user SIDs.
 
-
 ## -parameters
-
-
-
 
 ### -param pOldSid [in]
 
 Null-terminated string that specifies the string value of the previous security identifier(SID).
 
-
 ### -param pNewSid [in]
 
 Null-terminated string that specifies the string value of the new security identifier(SID).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -126,14 +118,8 @@ Internal failure during execution.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows Installer 2.0 and Windows Installer 3.0:  </b>Not supported. This function is available beginning with Windows Installer 3.1.
 
@@ -146,11 +132,5 @@ Internal failure during execution.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
- 
-
- 
 

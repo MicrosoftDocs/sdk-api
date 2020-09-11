@@ -8,10 +8,6 @@ tech.root: ToolHelp
 ms.assetid: df643c25-7558-424c-b187-b3f86ba51358
 ms.date: 12/05/2018
 ms.keywords: CreateToolhelp32Snapshot, CreateToolhelp32Snapshot function [ToolHelp], TH32CS_INHERIT, TH32CS_SNAPALL, TH32CS_SNAPHEAPLIST, TH32CS_SNAPMODULE, TH32CS_SNAPMODULE32, TH32CS_SNAPPROCESS, TH32CS_SNAPTHREAD, _win32_createtoolhelp32snapshot, base.createtoolhelp32snapshot, tlhelp32/CreateToolhelp32Snapshot, toolhelp.createtoolhelp32snapshot
-f1_keywords:
-- tlhelp32/CreateToolhelp32Snapshot
-dev_langs:
-- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-toolhelp-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-ToolHelp-L1-1-1.dll
-api_name:
-- CreateToolhelp32Snapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateToolhelp32Snapshot
+ - tlhelp32/CreateToolhelp32Snapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-toolhelp-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-ToolHelp-L1-1-1.dll
+api_name:
+ - CreateToolhelp32Snapshot
 ---
 
 # CreateToolhelp32Snapshot function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Takes a snapshot of the specified processes, as well as the heaps, modules, and threads used by these processes.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -158,8 +154,6 @@ To identify the threads that belong to a specific process, compare its process i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param th32ProcessID [in]
 
@@ -169,22 +163,14 @@ If the specified process is the Idle process or one of the CSRSS processes, this
 
 If the specified process is a 64-bit process and the caller is a 32-bit process, this function fails and the last error code is <b>ERROR_PARTIAL_COPY</b> (299).
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns an open handle to the specified snapshot.
 
 If the function fails, it returns <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include <b>ERROR_BAD_LENGTH</b>.
 
-
-
-
 ## -remarks
-
-
 
 The snapshot taken by this function is examined by the other tool help functions to provide their results. Access to the snapshot is read only. The snapshot handle acts as an object handle and is subject to the same rules regarding which processes and threads it is valid in.
 
@@ -208,12 +194,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -240,7 +221,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
- 
-
- 
 

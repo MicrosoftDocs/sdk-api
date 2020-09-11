@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: tapi3
+f1_keywords:
+ - mspstrm
+ - mspstrm/mspstrm
 ---
 
 # Mspstrm.h header
 
 
 ## -description
-
 
 This header is used by Telephony Application Programming Interfaces. For more information, see:
 

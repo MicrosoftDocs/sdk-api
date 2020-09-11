@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4c8a63bd-ae2f-4157-92f9-aefc592c7d4f
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF, IVdsVolumeMF interface [VDS], IVdsVolumeMF interface [VDS],described, base.ivdsvolumemf, vds/IVdsVolumeMF
-f1_keywords:
-- vds/IVdsVolumeMF
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVolumeMF
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVolumeMF
+ - vds/IVdsVolumeMF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVolumeMF
 ---
 
 # IVdsVolumeMF interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to perform access-path and file-system activities on the volume object.
-
 
 ## -inheritance
 
@@ -161,20 +160,13 @@ Sets the file-system flags.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">Volume Object</a>
- 
-
- 
 

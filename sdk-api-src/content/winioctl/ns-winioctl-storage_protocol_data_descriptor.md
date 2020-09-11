@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: BCA56343-9FB4-4079-9DB1-5DD55529B586
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Files], STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Files], fs.storage_protocol_data_descriptor, winioctl/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, winioctl/STORAGE_PROTOCOL_DATA_DESCRIPTOR'
-f1_keywords:
-- winioctl/STORAGE_PROTOCOL_DATA_DESCRIPTOR
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_PROTOCOL_DATA_DESCRIPTOR
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
 req.redist: 
+f1_keywords:
+ - _STORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - winioctl/_STORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - winioctl/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - STORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - winioctl/STORAGE_PROTOCOL_DATA_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_PROTOCOL_DATA_DESCRIPTOR
 ---
 
 # STORAGE_PROTOCOL_DATA_DESCRIPTOR structure
@@ -48,33 +53,23 @@ req.redist:
 
 ## -description
 
-
 This structure is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to return protocol-specific data from a storage device or adapter. .
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure.
 
-
 ### -field Size
 
 The total size of the descriptor, including the space for all protocol data.
-
 
 ### -field ProtocolSpecificData
 
 The protocol-specific data, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>.
 
-
 ## -remarks
-
-
 
 When using <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve protocol-specific information in the <b>STORAGE_PROTOCOL_DATA_DESCRIPTOR</b>, configure the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> structure as follows:
 
@@ -130,12 +125,7 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="https
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
@@ -146,7 +136,4 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="https
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
- 
-
- 
 

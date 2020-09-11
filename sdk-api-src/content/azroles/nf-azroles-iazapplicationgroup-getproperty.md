@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b91c21c0-3042-457b-9f53-b03d9805f255
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AZ_PROP_WRITABLE, AzApplicationGroup object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzApplicationGroup object, GetProperty method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],GetProperty method, IAzApplicationGroup.GetProperty, IAzApplicationGroup::GetProperty, azroles/IAzApplicationGroup::GetProperty, security.iazapplicationgroup_getproperty
-f1_keywords:
-- azroles/IAzApplicationGroup.GetProperty
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplicationGroup.GetProperty
-- AzApplicationGroup.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroup::GetProperty
+ - azroles/IAzApplicationGroup::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplicationGroup.GetProperty
+ - AzApplicationGroup.GetProperty
 ---
 
 # IAzApplicationGroup::GetProperty
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property  with the specified property ID.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -189,26 +185,18 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ### -param pvarProp [out]
 
 A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property.
 
-
 ## -returns
-
-
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-
-
 

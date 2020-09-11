@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 245448b0-f7bb-4890-80c0-04ddc90c96f2
 ms.date: 12/05/2018
 ms.keywords: IkeextSaEnum1, IkeextSaEnum1 function [Filtering], fwp.ikeextsaenum1, fwpmu/IkeextSaEnum1
-f1_keywords:
-- fwpmu/IkeextSaEnum1
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- IkeextSaEnum1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IkeextSaEnum1
+ - fwpmu/IkeextSaEnum1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - IkeextSaEnum1
 ---
 
 # IkeextSaEnum1 function
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IkeextSaEnum1</b> function returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
 <div class="alert"><b>Note</b>  <b>IkeextSaEnum1</b> is the specific implementation of IkeextSaEnum used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsaenum2">IkeextSaEnum2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsaenum0">IkeextSaEnum0</a> is available.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +61,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param enumHandle [in]
 
 Type: <b>HANDLE</b>
 
 Handle for an IKE/AuthIP SA enumeration. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsacreateenumhandle0">IkeextSaCreateEnumHandle0</a> to obtain an enumeration handle.
-
 
 ### -param numEntriesRequested [in]
 
@@ -78,13 +73,11 @@ Type: <b>UINT32</b>
 
 Number of enumeration entries requested.
 
-
 ### -param entries [out]
 
 Type: [IKEEXT_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details1)***</b>
 
 Addresses of the enumeration entries.
-
 
 ### -param numEntriesReturned [out]
 
@@ -92,10 +85,7 @@ Type: <b>UINT32*</b>
 
 The number of enumeration entries returned.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -141,14 +131,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>numEntriesReturned</i> is less than the <i>numEntriesRequested</i>, the enumeration is exhausted. 
 
@@ -158,13 +142,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 <b>IkeextSaEnum1</b> works on a snapshot of the SAs taken at the time the enumeration handle was created.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-ike-functions">IKE/AuthIP Functions</a>
 
@@ -175,7 +153,4 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
- 
-
- 
 

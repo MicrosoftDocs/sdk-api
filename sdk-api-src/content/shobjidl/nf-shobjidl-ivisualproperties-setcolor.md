@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 24e351af-687d-454a-9f0a-e7c07175dbd3
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetColor method, IVisualProperties.SetColor, IVisualProperties::SetColor, SetColor, SetColor method [Windows Shell], SetColor method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetColor, shell.IVisualProperties_SetColor, shobjidl/IVisualProperties::SetColor
-f1_keywords:
-- shobjidl/IVisualProperties.SetColor
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IVisualProperties.SetColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVisualProperties::SetColor
+ - shobjidl/IVisualProperties::SetColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IVisualProperties.SetColor
 ---
 
 # IVisualProperties::SetColor
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the color, as specified.
 
-
 ## -parameters
-
-
-
 
 ### -param vpcf [in]
 
@@ -64,22 +60,15 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-sho
 
 The color flags. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-vpcolorflags">VPCOLORFLAGS</a>.
 
-
 ### -param cr [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 A value of type <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

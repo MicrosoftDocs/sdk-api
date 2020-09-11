@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 4aa238a6-1a47-4fdc-b02b-f10cf0e90040
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerDeleteByKey0, FwpmSubLayerDeleteByKey0 function [Filtering], fwp.fwpmsublayerdeletebykey0_func, fwpmu/FwpmSubLayerDeleteByKey0
-f1_keywords:
-- fwpmu/FwpmSubLayerDeleteByKey0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmSubLayerDeleteByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmSubLayerDeleteByKey0
+ - fwpmu/FwpmSubLayerDeleteByKey0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmSubLayerDeleteByKey0
 ---
 
 # FwpmSubLayerDeleteByKey0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmSubLayerDeleteByKey0</b> function  deletes a sublayer from the system by its key.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,17 +60,13 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param key [in]
 
 Type: <b>const GUID*</b>
 
-Unique identifier of the sublayer to be removed from the system. This is the same GUID that was specified when the application called  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayeradd0">FwpmSubLayerAdd0</a>. 
-
+Unique identifier of the sublayer to be removed from the system. This is the same GUID that was specified when the application called  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayeradd0">FwpmSubLayerAdd0</a>.
 
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -120,14 +112,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function cannot be called from within a read-only transaction. It will fail with
 <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
@@ -138,16 +124,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/st
 
 <b>FwpmSubLayerDeleteByKey0</b> is a specific implementation of FwpmSubLayerDeleteByKey. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayeradd0">FwpmSubLayerAdd0</a>
- 
-
- 
 

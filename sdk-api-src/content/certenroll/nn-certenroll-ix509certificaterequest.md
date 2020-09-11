@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5425c9ab-565d-449d-87e1-e5765868acfb
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest, IX509CertificateRequest interface [Security], IX509CertificateRequest interface [Security],described, certenroll/IX509CertificateRequest, security.ix509certificaterequest
-f1_keywords:
-- certenroll/IX509CertificateRequest
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequest
+ - certenroll/IX509CertificateRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequest
 ---
 
 # IX509CertificateRequest interface
 
 
 ## -description
-
 
 The <b>IX509CertificateRequest</b> interface   represents an abstract base certificate request that identifies methods and properties common to and inherited by each of the request objects implemented by the Certificate Enrollment API. The following list discusses the inheritance structure of these objects:<ul>
 <li>
@@ -78,8 +78,6 @@ An object that can be used to represent a self-generated certificate (a certific
 
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -288,13 +286,9 @@ Specifies or retrieves a context string to display in the user interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -317,7 +311,4 @@ Specifies or retrieves a context string to display in the user interface.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
- 
-
- 
 

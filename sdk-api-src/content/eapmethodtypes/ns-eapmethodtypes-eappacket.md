@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: a5d78db0-990f-4318-8f1a-4e903221845f
 ms.date: 12/05/2018
 ms.keywords: EapPacket, EapPacket structure [EAPHost], eaphost.eappacket, eapmethodtypes/EapPacket
-f1_keywords:
-- eapmethodtypes/EapPacket
-dev_langs:
-- c++
 req.header: eapmethodtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- eapmethodtypes.h
-api_name:
-- EapPacket
 targetos: Windows
 req.typenames: EapPacket
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEapPacket
+ - eapmethodtypes/tagEapPacket
+ - EapPacket
+ - eapmethodtypes/EapPacket
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - eapmethodtypes.h
+api_name:
+ - EapPacket
 ---
 
 # EapPacket structure
@@ -49,46 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
  The <b>EapPacket</b> structure contains a packet of opaque data sent during an EAP authentication session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Code
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a> enumeration value that identifies the packet type.
 
-
 ### -field Id
 
 The packet ID number.
-
 
 ### -field Length
 
 The length of the entire packet
 
-
 ### -field Data
 
 The packet message data. This opaque data block continues after the first byte for <b>Length</b> - 1 bytes.
 
-
 ## -see-also
-
-
-
 
 [Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a>
- 
-
- 
 

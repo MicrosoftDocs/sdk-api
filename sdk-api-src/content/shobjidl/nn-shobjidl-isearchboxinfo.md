@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7b2082e9-b075-488a-a6c1-f9dc99409474
 ms.date: 12/05/2018
 ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBoxInfo interface [Windows Shell],described, _shell_ISearchBoxInfo, shell.ISearchBoxInfo, shobjidl/ISearchBoxInfo
-f1_keywords:
-- shobjidl/ISearchBoxInfo
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Explorerframe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Explorerframe.dll
-api_name:
-- ISearchBoxInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchBoxInfo
+ - shobjidl/ISearchBoxInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Explorerframe.dll
+api_name:
+ - ISearchBoxInfo
 ---
 
 # ISearchBoxInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow the caller to retrieve information entered into a search box.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Retrieves the contents of the search box as plain text.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The search box is shown here in an Windows Explorer window frame.
 
@@ -104,6 +100,4 @@ To access the search dialog, use <a href="https://docs.microsoft.com/previous-ve
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided with Windows. Third parties do not need to implement their own version.
-
-
 

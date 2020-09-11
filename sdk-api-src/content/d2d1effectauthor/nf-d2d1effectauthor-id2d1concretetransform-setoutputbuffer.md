@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: DCA691ED-B9DF-4B1A-8662-0981BFB359CE
 ms.date: 12/05/2018
 ms.keywords: ID2D1ConcreteTransform interface [Direct2D],SetOutputBuffer method, ID2D1ConcreteTransform.SetOutputBuffer, ID2D1ConcreteTransform::SetOutputBuffer, SetOutputBuffer, SetOutputBuffer method [Direct2D], SetOutputBuffer method [Direct2D],ID2D1ConcreteTransform interface, d2d1effectauthor/ID2D1ConcreteTransform::SetOutputBuffer, direct2d.id2d1concretetransform_setoutputbuffer
-f1_keywords:
-- d2d1effectauthor/ID2D1ConcreteTransform.SetOutputBuffer
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1ConcreteTransform.SetOutputBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1ConcreteTransform::SetOutputBuffer
+ - d2d1effectauthor/ID2D1ConcreteTransform::SetOutputBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1ConcreteTransform.SetOutputBuffer
 ---
 
 # ID2D1ConcreteTransform::SetOutputBuffer
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the properties of the output buffer of the specified transform node.
 
-
 ## -parameters
-
-
-
 
 ### -param bufferPrecision
 
@@ -65,17 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_
 
 The number of bits and the type of the output buffer.
 
-
 ### -param channelDepth
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_channel_depth">D2D1_CHANNEL_DEPTH</a></b>
 
 The number of channels in the output buffer (1 or 4).
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -95,26 +87,14 @@ The method returns an HRESULT. Possible values include, but are not limited to, 
 <td>One or more arguments are not valid</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-isbufferprecisionsupported">ID2D1EffectContext::IsBufferPrecisionSupported</a> method to see if buffer precision is supported.
 
 The available channel depth and precision depend on the capabilities of the underlying Microsoft Direct3D device.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a>
 
@@ -125,7 +105,4 @@ The available channel depth and precision depend on the capabilities of the unde
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: bfe9f12e-ceb7-4120-8193-70feb2bc7c85
 ms.date: 12/05/2018
 ms.keywords: IEnumAddress, IEnumAddress interface [TAPI 2.2], IEnumAddress interface [TAPI 2.2],described, _tapi3_ienumaddress, tapi3.ienumaddress, tapi3if/IEnumAddress
-f1_keywords:
-- tapi3if/IEnumAddress
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumAddress
+ - tapi3if/IEnumAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumAddress
 ---
 
 # IEnumAddress interface
 
 
 ## -description
-
 
 The 
 <b>IEnumAddress</b> interface provides COM-standard enumeration methods for the 
@@ -59,7 +59,6 @@ The
 
 The 
 <b>IEnumAddress</b> interface is hidden from Visual Basic and scripting languages.
-
 
 ## -inheritance
 
@@ -112,16 +111,9 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
- 
-
- 
 

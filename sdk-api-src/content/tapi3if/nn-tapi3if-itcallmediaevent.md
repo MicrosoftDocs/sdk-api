@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: db55ff03-9271-4a94-9cba-a3ef0282b7b6
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent, ITCallMediaEvent interface [TAPI 2.2], ITCallMediaEvent interface [TAPI 2.2],described, _tapi3_itcallmediaevent, tapi3.itcallmediaevent, tapi3if/ITCallMediaEvent
-f1_keywords:
-- tapi3if/ITCallMediaEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallMediaEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallMediaEvent
+ - tapi3if/ITCallMediaEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallMediaEvent
 ---
 
 # ITCallMediaEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITCallMediaEvent</b> interface contains methods that retrieve the description of media events. When the application's implementation of the 
@@ -133,13 +133,9 @@ Gets a pointer to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a>
 
@@ -174,7 +170,4 @@ Gets a pointer to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

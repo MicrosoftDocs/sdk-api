@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 67f5fa89-12c7-46fb-a118-de4bfed96923
 ms.date: 12/05/2018
 ms.keywords: '*LPFILE_INFO_3, *PFILE_INFO_3, FILE_INFO_3, FILE_INFO_3 structure [Files], LPFILE_INFO_3, LPFILE_INFO_3 structure pointer [Files], PERM_FILE_CREATE, PERM_FILE_READ, PERM_FILE_WRITE, PFILE_INFO_3, PFILE_INFO_3 structure pointer [Files], _win32_file_info_3_str, fs.file_info_3_str, lmshare/FILE_INFO_3, lmshare/LPFILE_INFO_3, lmshare/PFILE_INFO_3, netmgmt.file_info_3_str'
-f1_keywords:
-- lmshare/FILE_INFO_3
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmshare.h
-api_name:
-- FILE_INFO_3
 targetos: Windows
 req.typenames: FILE_INFO_3, *PFILE_INFO_3, *LPFILE_INFO_3
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILE_INFO_3
+ - lmshare/_FILE_INFO_3
+ - PFILE_INFO_3
+ - lmshare/PFILE_INFO_3
+ - FILE_INFO_3
+ - lmshare/FILE_INFO_3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmshare.h
+api_name:
+ - FILE_INFO_3
 ---
 
 # FILE_INFO_3 structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the identification number and other pertinent information about files, devices, and pipes.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fi3_id
 
 Specifies a DWORD value that contains the identification number assigned to the resource when it is opened.
-
 
 ### -field fi3_permissions
 
@@ -105,13 +104,10 @@ Permission to create a resource; data can be written when creating the resource.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fi3_num_locks
 
 Specifies a DWORD value that contains the number of file locks on the file, device, or pipe.
-
 
 ### -field fi3_pathname
 
@@ -119,18 +115,13 @@ Pointer to a string that specifies the path of the opened resource.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field fi3_username
 
 Pointer to a string that specifies which user (on servers that have user-level security) or which computer (on servers that have share-level security) opened the resource. Note that Windows does not support share-level security.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a>
 
@@ -153,7 +144,4 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
 

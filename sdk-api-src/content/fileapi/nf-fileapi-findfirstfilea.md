@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
 ms.date: 12/05/2018
 ms.keywords: FindFirstFile, FindFirstFile function [Files], FindFirstFileA, FindFirstFileW, _win32_findfirstfile, base.findfirstfile, fileapi/FindFirstFile, fileapi/FindFirstFileA, fileapi/FindFirstFileW, fs.findfirstfile, winbase/FindFirstFile, winbase/FindFirstFileA, winbase/FindFirstFileW
-f1_keywords:
-- fileapi/FindFirstFile
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- FindFirstFile
-- FindFirstFileA
-- FindFirstFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstFileA
+ - fileapi/FindFirstFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - FindFirstFile
+ - FindFirstFileA
+ - FindFirstFileW
 ---
 
 # FindFirstFileA function
 
 
 ## -description
-
 
 Searches a directory for a file or subdirectory with a name that matches a specific name (or partial 
     name if wildcards are used).
@@ -68,11 +68,7 @@ To specify additional attributes to use in a search, use the
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -98,10 +94,7 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that 
       receives information about a found file or directory.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a search handle used in a subsequent call to 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> or 
@@ -119,12 +112,7 @@ If the function fails because no matching files can be found, the
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
        <b>ERROR_FILE_NOT_FOUND</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FindFirstFile</b> function opens a search handle and 
     returns information about the first file that the file system finds with a name that matches the specified 
@@ -312,9 +300,6 @@ For another example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
@@ -352,7 +337,4 @@ For another example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
- 
-
- 
 

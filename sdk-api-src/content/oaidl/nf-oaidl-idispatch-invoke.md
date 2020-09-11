@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 964ade8e-9d8a-4d32-bd47-aa678912a54d
 ms.date: 12/05/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IDispatch interface [Automation],Invoke method, IDispatch.Invoke, IDispatch::Invoke, Invoke, Invoke method [Automation], Invoke method [Automation],IDispatch interface, _oa96_IDispatch::Invoke, automat.idispatch_invoke, oaidl/IDispatch::Invoke
-f1_keywords:
-- oaidl/IDispatch.Invoke
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IDispatch.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispatch::Invoke
+ - oaidl/IDispatch::Invoke
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IDispatch.Invoke
 ---
 
 # IDispatch::Invoke
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to properties and methods exposed by an object. The dispatch function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a> provides a standard implementation of <b>Invoke</b>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dispIdMember [in]
 
 Identifies the member. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> or the object's documentation to obtain the dispatch identifier.
 
-
 ### -param riid [in]
 
 Reserved for future use. Must be IID_NULL.
-
 
 ### -param lcid [in]
 
 The locale context in which to interpret arguments. The <i>lcid</i> is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> function, and is also passed to <b>Invoke</b> to allow the object to interpret its arguments specific to a locale.
 
 Applications that do not support multiple national languages can ignore this parameter. For more information, refer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/supporting-multiple-national-languages">Supporting Multiple National Languages</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/exposing-activex-objects">Exposing ActiveX Objects</a>.
-
 
 ### -param wFlags [in]
 
@@ -131,33 +122,24 @@ The member is changed by a reference assignment, rather than a value assignment.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pDispParams [in, out]
 
 Pointer to a DISPPARAMS structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
 
-
 ### -param pVarResult [out]
 
 Pointer to the location where the result is to be stored, or NULL if the caller expects no result. This argument is ignored if DISPATCH_PROPERTYPUT or DISPATCH_PROPERTYPUTREF is specified.
-
 
 ### -param pExcepInfo [out]
 
 Pointer to a structure that contains exception information. This structure should be filled in if DISP_E_EXCEPTION is returned. Can be NULL.
 
-
 ### -param puArgErr [out]
 
 The index within rgvarg of the first argument that has an error. Arguments are stored in pDispParams-&gt;rgvarg in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is DISP_E_TYPEMISMATCH or DISP_E_PARAMNOTFOUND. This argument can be set to null. For details, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/returning-errors">Returning Errors</a>.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -307,14 +289,8 @@ A required parameter was omitted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Generally, you should not implement <b>Invoke</b> directly. Instead, use the dispatch interface to create functions <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a>. For details, refer to <b>CreateStdDispatch</b>, <b>DispInvoke</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/creating-the-idispatch-interface">Creating the IDispatch Interface</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/exposing-activex-objects">Exposing ActiveX Objects</a>. 
 
@@ -334,16 +310,7 @@ dispparams.rgdispidNamedArgs = &dispidNamed;
 
 The information that follows addresses developers of ActiveX clients and others who use code to expose ActiveX objects. It describes the behavior that users of exposed objects should expect.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

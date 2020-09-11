@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: db048ce5-ca83-424b-853f-eda445176c0b
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_MULTI_SZ_VALUE, PRESUTIL_SET_MULTI_SZ_VALUE function [Failover Cluster], ResUtilSetMultiSzValue, ResUtilSetMultiSzValue function [Failover Cluster], _wolf_resutilsetmultiszvalue, mscs.resutilsetmultiszvalue, resapi/PRESUTIL_SET_MULTI_SZ_VALUE, resapi/ResUtilSetMultiSzValue
-f1_keywords:
-- resapi/ResUtilSetMultiSzValue
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilSetMultiSzValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilSetMultiSzValue
+ - resapi/ResUtilSetMultiSzValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilSetMultiSzValue
 ---
 
 # ResUtilSetMultiSzValue function
@@ -49,48 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a multiple string value in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>. The <b>PRESUTIL_SET_MULTI_SZ_VALUE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hkeyClusterKey [in]
 
 Key identifying the location of the multiple string value in the cluster database.
 
-
 ### -param pszValueName [in]
 
 Null-terminated Unicode string containing the name of the value to update.
-
 
 ### -param pszNewValue [in]
 
 Pointer to the new multiple string value.
 
-
 ### -param cbNewValueSize [in]
 
 Size of the new value.
-
 
 ### -param ppszOutValue [out, optional]
 
 Pointer to a string pointer that receives a copy of the updated value. If used, callers must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> on *<i>ppszOutValue</i>.
 
-
 ### -param pcbOutValueSize [in, out, optional]
 
 Pointer that receives the size of the new value.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -114,14 +102,8 @@ An error occurred while attempting to allocate memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  <b>ResUtilSetMultiSzValue</b> utility function allocates memory for the new value and calls the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>.
 
@@ -150,13 +132,7 @@ Do not call  <b>ResUtilSetMultiSzValue</b> from the following resource DLL entry
 </ul>
 <b>ResUtilSetMultiSzValue</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>
 
@@ -175,7 +151,4 @@ Do not call  <b>ResUtilSetMultiSzValue</b> from the following resource DLL entry
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetszvalue">ResUtilSetSzValue</a>
- 
-
- 
 

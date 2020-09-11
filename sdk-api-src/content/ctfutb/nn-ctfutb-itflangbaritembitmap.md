@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 3bae0422-625e-4f7d-9845-5353ad3ff335
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmap, ITfLangBarItemBitmap interface [Text Services Framework], ITfLangBarItemBitmap interface [Text Services Framework],described, _tsf_itflangbaritembitmap_ref, ctfutb/ITfLangBarItemBitmap, tsf.itflangbaritembitmap
-f1_keywords:
-- ctfutb/ITfLangBarItemBitmap
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemBitmap
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemBitmap
+ - ctfutb/ITfLangBarItemBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemBitmap
 ---
 
 # ITfLangBarItemBitmap interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfLangBarItemBitmap</b> interface is implemented by an application or text service and used by the language bar manager to obtain information specific to a bitmap item on the language bar.
 
 The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> passed to <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">ITfLangBarItemMgr::AddItem</a> with IID_ITfLangBarItemBitmap.
-
 
 ## -inheritance
 
@@ -97,22 +96,13 @@ Not currently used.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A language bar bitmap functions as a static item on the language bar that displays a bitmap.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
       </a>
@@ -125,7 +115,4 @@ A language bar bitmap functions as a static item on the language bar that displa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

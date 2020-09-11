@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: E9B04DAD-BD45-4699-9EB1-99CF59F8D934
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestMainPackageDependency, IAppxManifestMainPackageDependency interface [App packaging and management], IAppxManifestMainPackageDependency interface [App packaging and management],described, appxpackaging/IAppxManifestMainPackageDependency, appxpkg.iappxmanifestmainpackagedependency
-f1_keywords:
-- appxpackaging/IAppxManifestMainPackageDependency
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestMainPackageDependency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestMainPackageDependency
+ - appxpackaging/IAppxManifestMainPackageDependency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestMainPackageDependency
 ---
 
 # IAppxManifestMainPackageDependency interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to attribute values of the main package dependency.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Gets the publisher of the main package dependency from the AppxManifest.xml.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: a532ebed-3ed8-4b49-a17f-f542fdbd74ff
 ms.date: 12/05/2018
 ms.keywords: GetPredefinedValue, GetPredefinedValue method [COM], GetPredefinedValue method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedValue method, IPerPropertyBrowsing.GetPredefinedValue, IPerPropertyBrowsing::GetPredefinedValue, _ctrl_iperpropertybrowsing_getpredefinedvalue, com.iperpropertybrowsing_getpredefinedvalue, ocidl/IPerPropertyBrowsing::GetPredefinedValue
-f1_keywords:
-- ocidl/IPerPropertyBrowsing.GetPredefinedValue
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPerPropertyBrowsing.GetPredefinedValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPerPropertyBrowsing::GetPredefinedValue
+ - ocidl/IPerPropertyBrowsing::GetPredefinedValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPerPropertyBrowsing.GetPredefinedValue
 ---
 
 # IPerPropertyBrowsing::GetPredefinedValue
@@ -49,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of the specified property that is associated with a predefined string name. This property is associated with a predefined string name as returned from <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">IPerPropertyBrowsing::GetPredefinedStrings</a>. The predefined string is identified by a token returned from <b>GetPredefinedStrings</b>.
 
-
-
 ## -parameters
-
-
-
 
 ### -param dispID [in]
 
 The dispatch identifier of the property for which a predefined value is requested.
 
-
 ### -param dwCookie [in]
 
 A token identifying which value to return. The token was previously returned in the <i>pCaCookiesOut</i> array filled by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">GetPredefinedStrings</a>.
-
 
 ### -param pVarOut [out]
 
 A pointer to the <b>VARIANT</b> value for the property.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -119,14 +109,8 @@ The address in <i>pVarOut</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The caller is responsible for freeing any allocations contained in the <b>VARIANT</b>. Unless the <b>vt</b> member of <b>VARIANT</b> is VT_VARIANT, the caller can free memory using a single call to <b>VariantClear</b>. Otherwise, the caller must recursively free the contained <b>VARIANT</b> values before freeing the outer <b>VARIANT</b>.
@@ -136,16 +120,7 @@ Support for predefined names and values is not required. If your object does not
 
 This method allocates any memory needed inside the <b>VARIANT</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
- 
-
- 
 

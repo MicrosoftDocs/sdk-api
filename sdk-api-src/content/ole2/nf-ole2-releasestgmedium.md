@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: da7d7bcb-0b5b-4053-8f0e-ff311c424375
 ms.date: 12/05/2018
 ms.keywords: ReleaseStgMedium, ReleaseStgMedium function [COM], _ole_ReleaseStgMedium, com.releasestgmedium, ole2/ReleaseStgMedium
-f1_keywords:
-- ole2/ReleaseStgMedium
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-OLE32-IE-l1-1-0.dll
-- ole32_wp.dll
-- Ext-MS-Win-Com-Ole32-L1-1-3.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- ReleaseStgMedium
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReleaseStgMedium
+ - ole2/ReleaseStgMedium
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-OLE32-IE-l1-1-0.dll
+ - ole32_wp.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - ReleaseStgMedium
 ---
 
 # ReleaseStgMedium function
@@ -53,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees the specified storage medium.
 
-
 ## -parameters
-
-
-
 
 ### -param LPSTGMEDIUM [in]
 
 Pointer to the storage medium that is to be freed.
 
-
 ## -remarks
-
-
 
 The <b>ReleaseStgMedium</b> function calls the appropriate method or function to release the specified storage medium. Use this function during data transfer operations where storage medium structures are parameters, such as <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>. In addition to identifying the type of the storage medium, this structure specifies the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method for releasing the storage medium when it is no longer needed.
 
@@ -153,16 +146,7 @@ The provider indicates that the receiver of the medium is responsible for freein
 
 In either case, after the call to <b>ReleaseStgMedium</b>, the specified storage medium is invalid and can no longer be used.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
- 
-
- 
 

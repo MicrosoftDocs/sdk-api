@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: d7d70dd9-dcac-4b25-9954-10b4d6b436de
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],PauseStream method, ITStream.PauseStream, ITStream::PauseStream, PauseStream, PauseStream method [TAPI 2.2], PauseStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_pausestream, tapi3.itstream_pausestream, tapi3if/ITStream::PauseStream
-f1_keywords:
-- tapi3if/ITStream.PauseStream
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- ITStream.PauseStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITStream::PauseStream
+ - tapi3if/ITStream::PauseStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - ITStream.PauseStream
 ---
 
 # ITStream::PauseStream
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PauseStream</b> method pauses the stream.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,14 +87,8 @@ Method not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The difference between pausing and stopping a stream depends on the type of transport.
 
@@ -115,20 +101,11 @@ If the stream fails to pause, the event will be CME_STREAM_FAIL with cause CMC_L
 A call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">StartStream</a> restarts the stream.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

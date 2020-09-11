@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 40b2a2ff-50f4-484c-bf79-ae99a348644f
 ms.date: 12/05/2018
 ms.keywords: EnableSharing, EnableSharing method [ICS/ICF], EnableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableSharing method, INetSharingConfiguration.EnableSharing, INetSharingConfiguration::EnableSharing, _ics_inetsharingconfiguration_enablesharing, ics.inetsharingconfiguration_enablesharing, netcon/INetSharingConfiguration::EnableSharing
-f1_keywords:
-- netcon/INetSharingConfiguration.EnableSharing
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingConfiguration.EnableSharing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingConfiguration::EnableSharing
+ - netcon/INetSharingConfiguration::EnableSharing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingConfiguration.EnableSharing
 ---
 
 # INetSharingConfiguration::EnableSharing
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>EnableSharing</b> method enables sharing on this connection.
 
-
 ## -parameters
-
-
-
 
 ### -param Type [in]
 
 Specifies whether this connection is shared publicly or privately.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -168,14 +161,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling this method triggers the following notification:
 
@@ -189,13 +176,7 @@ Use the
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a particular connection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a>
 
@@ -218,7 +199,4 @@ Use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-sharingconnectiontype">SHARINGCONNECTIONTYPE</a>
- 
-
- 
 

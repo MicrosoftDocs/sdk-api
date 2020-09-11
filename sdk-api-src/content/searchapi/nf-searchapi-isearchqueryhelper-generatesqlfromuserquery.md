@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\generatesqlfromuserquery.htm
 ms.date: 12/05/2018
 ms.keywords: GenerateSQLFromUserQuery, GenerateSQLFromUserQuery method [search], GenerateSQLFromUserQuery method [search],ISearchQueryHelper interface, ISearchQueryHelper interface [search],GenerateSQLFromUserQuery method, ISearchQueryHelper.GenerateSQLFromUserQuery, ISearchQueryHelper::GenerateSQLFromUserQuery, _search_ISearchQueryHelper_GenerateSQLFromUserQuery, search._search_ISearchQueryHelper_GenerateSQLFromUserQuery, searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery
-f1_keywords:
-- searchapi/ISearchQueryHelper.GenerateSQLFromUserQuery
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchQueryHelper.GenerateSQLFromUserQuery
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchQueryHelper::GenerateSQLFromUserQuery
+ - searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchQueryHelper.GenerateSQLFromUserQuery
 ---
 
 # ISearchQueryHelper::GenerateSQLFromUserQuery
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates a Structured Query Language (SQL) query based on a client-supplied query string expressed in either Advanced Query Syntax (AQS) or Natural Query Syntax (NQS).
 
-
 ## -parameters
-
-
-
 
 ### -param pszQuery [in]
 
@@ -64,28 +60,19 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a null-terminated Unicode string containing a query in AQS or NQS.
 
-
 ### -param ppszSQL [out, retval]
 
 Type: <b>LPWSTR*</b>
 
 Receives the address of a pointer to a SQL query string based on the query in the <i>pszQuery</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method generates SQL in the following form:
 
@@ -100,9 +87,6 @@ Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sa
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
 
 
@@ -116,7 +100,4 @@ Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>
- 
-
- 
 

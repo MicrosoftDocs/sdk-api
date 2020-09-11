@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 607fcb85-4602-4651-b246-3e32c8868e47
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListenerCallback, IWTSProtocolListenerCallback interface [Remote Desktop Services], IWTSProtocolListenerCallback interface [Remote Desktop Services],described, termserv.iwtsprotocollistenercallback, wtsprotocol/IWTSProtocolListenerCallback
-f1_keywords:
-- wtsprotocol/IWTSProtocolListenerCallback
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWTSProtocolListenerCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolListenerCallback
+ - wtsprotocol/IWTSProtocolListenerCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWTSProtocolListenerCallback
 ---
 
 # IWTSProtocolListenerCallback interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWTSProtocolListenerCallback</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistenercallback">IWRdsProtocolListenerCallback</a>.]
 
  Exposes methods that notify the Remote Desktop Services service that a client has connected. This interface is the callback object for the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a> interface. It is implemented by the Remote Desktop Services service and called by the protocol.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Notifies the Remote Desktop Services service that a client connection request ha
 
 </td>
 </tr>
-</table> 
+</table>
 

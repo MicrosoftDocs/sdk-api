@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 04ff7cbb-fd33-40d9-9c11-4f716c6423b0
 ms.date: 12/05/2018
 ms.keywords: IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], IActivateAudioInterfaceCompletionHandler interface [Core Audio],described, coreaudio.iactivateaudiointerfacecompletionhandler, mmdeviceapi/IActivateAudioInterfaceCompletionHandler
-f1_keywords:
-- mmdeviceapi/IActivateAudioInterfaceCompletionHandler
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmdeviceapi.h
-api_name:
-- IActivateAudioInterfaceCompletionHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActivateAudioInterfaceCompletionHandler
+ - mmdeviceapi/IActivateAudioInterfaceCompletionHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmdeviceapi.h
+api_name:
+ - IActivateAudioInterfaceCompletionHandler
 ---
 
 # IActivateAudioInterfaceCompletionHandler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a callback to indicate that activation of a <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> interface is complete.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Indicates that activation of a <a href="https://docs.microsoft.com/windows/deskt
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>When to implement:</b>  
 An application implements this interface if it calls the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a> function.
@@ -90,13 +86,7 @@ An application implements this interface if it calls the <a href="https://docs.m
 
 The implementation must be agile (aggregating a free-threaded marshaler).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a>
 
@@ -107,7 +97,4 @@ The implementation must be agile (aggregating a free-threaded marshaler).
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation">IActivateAudioInterfaceAsyncOperation</a>
- 
-
- 
 

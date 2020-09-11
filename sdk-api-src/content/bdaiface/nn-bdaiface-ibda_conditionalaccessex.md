@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 9db9b6b1-fc4f-48f0-940e-d79a321ef094
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],described, bdaiface/IBDA_ConditionalAccessEx, mstv.ibda_conditionalaccessex
-f1_keywords:
-- bdaiface/IBDA_ConditionalAccessEx
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_ConditionalAccessEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_ConditionalAccessEx
+ - bdaiface/IBDA_ConditionalAccessEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_ConditionalAccessEx
 ---
 
 # IBDA_ConditionalAccessEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides access to a device's Conditional Access Service (CAS), which manages access to protected content. 
-
+Provides access to a device's Conditional Access Service (CAS), which manages access to protected content.
 
 ## -inheritance
 
@@ -113,14 +112,9 @@ Requests special events that are identified by a capture token.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_ConditionalAccessEx)</code>.
-
-
 

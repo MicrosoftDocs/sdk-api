@@ -8,10 +8,6 @@ tech.root: winsensors
 ms.assetid: 19581a45-500f-4210-9ec2-b3e33c84fb8a
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,ISensor interface, ISensor interface,GetProperties method, ISensor.GetProperties, ISensor::GetProperties, sensorsapi/ISensor::GetProperties, winsensors_com_ref.isensor_getproperties
-f1_keywords:
-- sensorsapi/ISensor.GetProperties
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.GetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::GetProperties
+ - sensorsapi/ISensor::GetProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.GetProperties
 ---
 
 # ISensor::GetProperties
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves multiple sensor properties.
 
-
 ## -parameters
-
-
-
 
 ### -param pKeys [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/library/ms739549(VS.85).aspx">IPortableDeviceKeyCollection</a> interface containing the <b>PROPERTYKEY</b> collection for the property values being requested. Set to <b>NULL</b> to retrieve all supported properties.
 
-
 ### -param ppProperties [out]
 
 Address of an <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> pointer that receives the pointer to the requested property values.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,14 +107,8 @@ NULL was passed in for ppProperties.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method enables you to retrieve the values of multiple properties, such as the sensor make, model, and serial number, by making a single call. To retrieve a single property, call <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperty">ISensor::GetProperty</a>.
 
@@ -135,12 +121,7 @@ For an example of how to retrieve properties from a sensor,  see <a href="https:
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
@@ -151,7 +132,4 @@ For an example of how to retrieve properties from a sensor,  see <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-setproperties">SetProperties</a>
- 
-
- 
 

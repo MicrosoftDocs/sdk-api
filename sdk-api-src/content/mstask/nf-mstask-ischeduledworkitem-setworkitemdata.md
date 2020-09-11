@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 9135b37a-d9f8-4bee-a851-9daca6dc733c
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetWorkItemData method, IScheduledWorkItem.SetWorkItemData, IScheduledWorkItem::SetWorkItemData, SetWorkItemData, SetWorkItemData method [Task Scheduler], SetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setworkitemdata, mstask/IScheduledWorkItem::SetWorkItemData, taskschd.ischeduledworkitem_setworkitemdata
-f1_keywords:
-- mstask/IScheduledWorkItem.SetWorkItemData
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.SetWorkItemData
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::SetWorkItemData
+ - mstask/IScheduledWorkItem::SetWorkItemData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.SetWorkItemData
 ---
 
 # IScheduledWorkItem::SetWorkItemData
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 This method stores application-defined data associated with the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param cbData [in]
 
 The number of bytes in the data buffer. The caller allocates and frees this memory.
 
-
 ### -param rgbData [in]
 
 The data to copy.
 
-
 ## -returns
-
-
 
 The 
 <b>SetWorkItemData</b> method returns one of the following values.
@@ -116,14 +108,8 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can retrieve data by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getworkitemdata">IScheduledWorkItem::GetWorkItemData</a>.
@@ -131,20 +117,11 @@ You can retrieve data by calling
 Programs must call the <b>IPersistFile::Save</b> method after calling 
 <b>SetWorkItemData</b> to update the work item data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getworkitemdata">IScheduledWorkItem::GetWorkItemData</a>
- 
-
- 
 

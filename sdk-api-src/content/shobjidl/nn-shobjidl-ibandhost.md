@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8d9fe92a-812e-4fa0-954b-37aa48b52008
 ms.date: 12/05/2018
 ms.keywords: IBandHost, IBandHost interface [Windows Shell], IBandHost interface [Windows Shell],described, _shell_IBandHost, shell.IBandHost, shobjidl/IBandHost
-f1_keywords:
-- shobjidl/IBandHost
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IBandHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBandHost
+ - shobjidl/IBandHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IBandHost
 ---
 
 # IBandHost interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that create and destroy bands and specifiy their availability.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Sets the availability of a specified band.
 
 </td>
 </tr>
-</table> 
+</table>
 

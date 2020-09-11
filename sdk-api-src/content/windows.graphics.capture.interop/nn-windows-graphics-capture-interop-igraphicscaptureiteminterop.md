@@ -5,10 +5,6 @@ description: Desktop interop interface for the [GraphicsCaptureItem](https://doc
 helpviewer_keywords: ["interop::IGraphicsCaptureItemInterop"]
 ms.date: 6/24/2019
 ms.keywords: interop::IGraphicsCaptureItemInterop
-f1_keywords:
-- interop::IGraphicsCaptureItemInterop
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -23,23 +19,29 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- windows.h
-api_name:
-- interop::IGraphicsCaptureItemInterop
 tech.root: winrt
+f1_keywords:
+ - IGraphicsCaptureItemInterop
+ - windows.graphics.capture.interop/IGraphicsCaptureItemInterop
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - windows.h
+api_name:
+ - interop::IGraphicsCaptureItemInterop
 ---
-
-## -inheritance
 
 ## -description
 
 Desktop interop interface for the [GraphicsCaptureItem](https://docs.microsoft.com/uwp/api/windows.graphics.capture.graphicscaptureitem) activation factory.
 
+## -inheritance
+
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: a958f62d-3e9a-47d9-8ac2-a92a21a74ed1
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcRelationshipSelectorEnumerator.MoveNext, IOpcRelationshipSelectorEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MoveNext, opc.iopcrelationshipselectorenumerator_movenext
-f1_keywords:
-- msopc/IOpcRelationshipSelectorEnumerator.MoveNext
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationshipSelectorEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationshipSelectorEnumerator::MoveNext
+ - msopc/IOpcRelationshipSelectorEnumerator::MoveNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationshipSelectorEnumerator.MoveNext
 ---
 
 # IOpcRelationshipSelectorEnumerator::MoveNext
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the current position of the enumerator to the next <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a>interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param hasNext [out, retval]
 
@@ -92,12 +88,8 @@ The current position of the enumerator has been advanced past the end of the col
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,15 +145,8 @@ The enumerator is invalid because the underlying set has changed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -200,7 +185,4 @@ The enumerator is invalid because the underlying set has changed.
 
 
 <b>Reference</b>
- 
-
- 
 

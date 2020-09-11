@@ -8,10 +8,6 @@ tech.root: OpenGL
 ms.assetid: f8d74078-a7e7-4d95-857a-f51d5d70598e
 ms.date: 12/05/2018
 ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelFormat, opengl.setpixelformat, wingdi/SetPixelFormat
-f1_keywords:
-- wingdi/SetPixelFormat
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetPixelFormat
+ - wingdi/SetPixelFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SetPixelFormat
 ---
 
 # SetPixelFormat function
@@ -52,44 +53,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetPixelFormat</b> function sets the pixel format of the specified device context to the format specified by the <i>iPixelFormat</i> index.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc
 
 Specifies the device context whose pixel format the function attempts to set.
 
-
 ### -param format
 
 Index that identifies the pixel format to set. The various pixel formats supported by a device context are identified by one-based indexes.
-
 
 ### -param ppfd
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure that contains the logical pixel format specification. The system's metafile component uses this structure to record the logical pixel format specification. The structure has no other effect upon the behavior of the <b>SetPixelFormat</b> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If <i>hdc</i> references a window, calling the <b>SetPixelFormat</b> function also changes the pixel format of the window. Setting the pixel format of a window more than once can lead to significant complications for the Window Manager and for multithread applications, so it is not allowed. An application can only set the pixel format of a window one time. Once a window's pixel format is set, it cannot be changed.
 
@@ -134,14 +120,7 @@ iPixelFormat = ChoosePixelFormat(hdc, &pfd);
 SetPixelFormat(hdc, iPixelFormat, &pfd);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>
 
@@ -160,7 +139,4 @@ SetPixelFormat(hdc, iPixelFormat, &pfd);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/OpenGL/win32-functions">Windows Functions</a>
- 
-
- 
 

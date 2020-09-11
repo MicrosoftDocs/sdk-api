@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: c0936e3c-3cd1-4c1e-a336-2dee7d943963
 ms.date: 12/05/2018
 ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate interface [Media Foundation],described, c0936e3c-3cd1-4c1e-a336-2dee7d943963, mf.imfactivate, mfobjects/IMFActivate
-f1_keywords:
-- mfobjects/IMFActivate
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFActivate
+ - mfobjects/IMFActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFActivate
 ---
 
 # IMFActivate interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the application to defer the creation of an object. This interface is exposed by activation objects.
-
 
 ## -inheritance
 
@@ -96,22 +95,13 @@ Shuts down the created object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Typically, the application calls some function that returns an <b>IMFActivate</b> pointer and then passes that pointer to another component. The other component calls <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">ActivateObject</a> at a later time to create the object. In the protected media path (PMP), the <b>IMFActivate</b> pointer might be marshaled to the protected process, so that the object can be created in that process.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>
 
@@ -122,7 +112,4 @@ Typically, the application calls some function that returns an <b>IMFActivate</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

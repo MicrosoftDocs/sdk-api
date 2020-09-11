@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawPolygon"]
 ms.assetid: b9ae10d3-96a9-47eb-9a66-f8a118c4e2ef
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawPolygon
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawPolygon
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawPolygon
+ - gdiplusgraphics/Graphics::DrawPolygon
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawPolygon
+ - Graphics::DrawPolygon
 ---
 
 # DrawPolygon(Pen*,PointF*,INT*)
+
 
 ## -description
 
@@ -106,3 +108,4 @@ VOID Example_DrawPolygon2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-polygons-about">Polygons</a>
+

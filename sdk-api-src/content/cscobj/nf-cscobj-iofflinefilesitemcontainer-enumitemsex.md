@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 001d384f-013d-41c0-a636-40206a33508d
 ms.date: 12/05/2018
 ms.keywords: EnumItemsEx, EnumItemsEx method [Offline Files], EnumItemsEx method [Offline Files],IOfflineFilesItemContainer interface, IOfflineFilesItemContainer interface [Offline Files],EnumItemsEx method, IOfflineFilesItemContainer.EnumItemsEx, IOfflineFilesItemContainer::EnumItemsEx, OFFLINEFILES_ENUM_FLAT, OFFLINEFILES_ENUM_FLAT_FILESONLY, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesItemContainer::EnumItemsEx, of.iofflinefilesitemcontainer_enumitemsex
-f1_keywords:
-- cscobj/IOfflineFilesItemContainer.EnumItemsEx
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesItemContainer.EnumItemsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesItemContainer::EnumItemsEx
+ - cscobj/IOfflineFilesItemContainer::EnumItemsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesItemContainer.EnumItemsEx
 ---
 
 # IOfflineFilesItemContainer::EnumItemsEx
@@ -50,36 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns an enumerator of child items for the cache item implementing this method. Server, share, and directory entries in the Offline Files cache implement this method to expose the enumeration of their immediate children.  However, a call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to query a file item for <b>IID_IOfflineFilesItemContainer</b> fails with <b>E_NOINTERFACE</b>, because file items have no children.
 
 This method is similar to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemcontainer-enumitems">IOfflineFilesItemContainer::EnumItems</a>, except that it allows filtering and flat enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param pIncludeFileFilter [in]
 
 If provided, references the filter applied to the decision to include files.  This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param pIncludeDirFilter [in]
 
 If provided, references the filter applied to the decision to include directories.  This parameter is optional and can be <b>NULL</b>.
-
 
 ### -param pExcludeFileFilter [in]
 
 If provided, references the filter applied to the decision to exclude files.  This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param pExcludeDirFilter [in]
 
 If provided, references the filter applied to the decision to exclude directories.  This parameter is optional and can be <b>NULL</b>.
-
 
 ### -param dwEnumFlags [in]
 
@@ -96,7 +88,6 @@ If this flag is set, the returned enumerator will enumerate all of the item's de
 #### OFFLINEFILES_ENUM_FLAT_FILESONLY (0x00000002)
 
 If this flag is set, only file items are returned in the enumeration.  Server, share, and directory entries are not included.  This flag has no effect if the <b>OFFLINEFILES_ENUM_FLAT</b> flag is not set.
-
 
 ### -param dwQueryFlags [in]
 
@@ -132,24 +123,15 @@ This flag is reserved for future use.
 
 Allows administrators to find items cached by any user. If this flag is set and the caller is not an administrator, the method call fails.
 
-
 ### -param ppenum [out]
 
 Enumerator of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitem">IOfflineFilesItem</a> interface pointers.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 To begin a top-down enumeration of the entire cache, perform the following steps:
 
@@ -183,13 +165,7 @@ It is possible to provide both inclusion and exclusion filters to the same enume
 
 As the table illustrates, if the exclusion filter matches or the inclusion filter does not match, the item is excluded from enumeration.  For an item to be included in the enumeration, the exclusion filter must not match and the inclusion filter must match.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-getconnectstate">IOfflineFilesConnectionInfo::GetConnectState</a>
 
@@ -204,7 +180,4 @@ As the table illustrates, if the exclusion filter matches or the inclusion filte
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemcontainer-enumitems">IOfflineFilesItemContainer::EnumItems</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: AFD2EFD1-55AF-49C9-8109-D4D1B7BB7C94
 ms.date: 12/05/2018
 ms.keywords: CreatePersistentUdpPortReservation, CreatePersistentUdpPortReservation function [IP Helper], iphlp.createpersistentudpportreservation, iphlpapi/CreatePersistentUdpPortReservation
-f1_keywords:
-- iphlpapi/CreatePersistentUdpPortReservation
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- CreatePersistentUdpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreatePersistentUdpPortReservation
+ - iphlpapi/CreatePersistentUdpPortReservation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - CreatePersistentUdpPortReservation
 ---
 
 # CreatePersistentUdpPortReservation function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreatePersistentUdpPortReservation</b> function creates a persistent UDP port reservation for a consecutive block of UDP ports on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param StartPort [in]
 
-The starting UDP port number in network byte order. 
-
+The starting UDP port number in network byte order.
 
 ### -param NumberOfPorts [in]
 
 The number of UDP port numbers to reserve.
 
-
 ### -param Token [out]
 
 A pointer to a port reservation token that is returned if the function succeeds.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -135,14 +126,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CreatePersistentUdpPortReservation</b> function is defined on Windows Vista and later. 
 
@@ -170,15 +155,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 
 The <b>CreatePersistentUdpPortReservation</b> function can only be called by a user logged on as a member of the Administrators group. If <b>CreatePersistentUdpPortReservation</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. This function can also fail because of user account control (UAC) on Windows Vista and later. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
 
@@ -217,7 +194,4 @@ The <b>CreatePersistentUdpPortReservation</b> function can only be called by a u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8a7c7b46-3bea-4043-b568-6d91d6335737
 ms.date: 12/05/2018
 ms.keywords: CRYPT_BLOB_VER3, CRYPT_DESTROYKEY, CRYPT_OAEP, CRYPT_SSL2_FALLBACK, CRYPT_Y_ONLY, CryptExportKey, CryptExportKey function [Security], OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _crypto2_cryptexportkey, security.cryptexportkey, wincrypt/CryptExportKey
-f1_keywords:
-- wincrypt/CryptExportKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptExportKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptExportKey
+ - wincrypt/CryptExportKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptExportKey
 ---
 
 # CryptExportKey function
@@ -51,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptExportKey</b> function exports a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic key</a> or a key pair from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) in a secure manner.
 
 A handle to the key to be exported is passed to the function, and the function returns 
 a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>. This key BLOB can be sent over a nonsecure transport or stored in a nonsecure storage location. This function can export an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Schannel</a> session key, regular <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The key BLOB to export is useless until the intended recipient uses the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> function on it to import the key or key pair into a recipient's CSP.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 A handle to the key to be exported.
-
 
 ### -param hExpKey [in]
 
@@ -157,8 +152,6 @@ Used to export and import a <a href="https://docs.microsoft.com/windows/desktop/
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -225,8 +218,6 @@ This flag is not used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbData [out]
 
@@ -236,7 +227,6 @@ A pointer to a buffer that receives the <a href="https://docs.microsoft.com/wind
 If this parameter is <b>NULL</b>, the required buffer size is placed in the value pointed to by the <i>pdwDataLen</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-
 ### -param pdwDataLen [in, out]
 
 A pointer to a <b>DWORD</b> value that, on entry, contains the size, in bytes, of the buffer pointed to by the <i>pbData</i> parameter. When the function returns, this value contains the number of bytes stored in the buffer.
@@ -245,10 +235,7 @@ A pointer to a <b>DWORD</b> value that, on entry, contains the size, in bytes, o
 <div> </div>
 To retrieve the required size of the <i>pbData</i> buffer, pass <b>NULL</b> for <i>pbData</i>. The required buffer size will be placed in the value pointed to by this parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns  nonzero (<b>TRUE</b>).
 
@@ -384,14 +371,8 @@ A session key is being exported, and the <i>hExpKey</i> parameter does not speci
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For any of the DES key permutations that use a PLAINTEXTKEYBLOB, only the full key size, including parity bit, may be exported. The following key sizes are supported.
 
@@ -494,21 +475,11 @@ BOOL GetExportedKey(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
- 
-
- 
 

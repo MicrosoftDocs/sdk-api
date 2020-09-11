@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: cda5698d-4aee-4771-9989-628162b433ef
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge2, IMsmMerge2 interface, IMsmMerge2 interface,described, _msi_imsmmerge2_interface, mergemod/IMsmMerge2, setup.imsmmerge2_interface
-f1_keywords:
-- mergemod/IMsmMerge2
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmMerge2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmMerge2
+ - mergemod/IMsmMerge2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmMerge2
 ---
 
 # IMsmMerge2 interface
 
 
 ## -description
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmmerge">IMsmMerge</a> interface and the 
@@ -64,7 +64,6 @@ Requesting this interface does not commit the tool to using the new functionalit
 The 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object provides access to other top-level objects. A 
 Merge object must be created before loading the automation support required by COM to access the functions in Mergemod.dll.
-
 
 ## -inheritance
 
@@ -278,5 +277,5 @@ Returns a collection of all errors from the most recent merge operation.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: e9aee857-237a-4bfd-85c2-3d5850f37ce7
 ms.date: 12/05/2018
 ms.keywords: IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],RequestGuideDataUpdate method, IBDA_GuideDataDeliveryService.RequestGuideDataUpdate, IBDA_GuideDataDeliveryService::RequestGuideDataUpdate, RequestGuideDataUpdate, RequestGuideDataUpdate method [Microsoft TV Technologies], RequestGuideDataUpdate method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, bdaiface/IBDA_GuideDataDeliveryService::RequestGuideDataUpdate, mstv.ibda_guidedatadeliveryservice_requestguidedataupdate
-f1_keywords:
-- bdaiface/IBDA_GuideDataDeliveryService.RequestGuideDataUpdate
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_GuideDataDeliveryService.RequestGuideDataUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_GuideDataDeliveryService::RequestGuideDataUpdate
+ - bdaiface/IBDA_GuideDataDeliveryService::RequestGuideDataUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_GuideDataDeliveryService.RequestGuideDataUpdate
 ---
 
 # IBDA_GuideDataDeliveryService::RequestGuideDataUpdate
@@ -49,33 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests updated guide data from the media transform device (MTD).
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_guidedatadeliveryservice">IBDA_GuideDataDeliveryService</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 82254529-3deb-4e69-8571-3f8eaa533459
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestLock method, ITextStoreACP2.RequestLock, ITextStoreACP2::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreACP2 interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreACP2::RequestLock, tsf.itextstoreacp2_requestlock
-f1_keywords:
-- textstor/ITextStoreACP2.RequestLock
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP2.RequestLock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP2::RequestLock
+ - textstor/ITextStoreACP2::RequestLock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP2.RequestLock
 ---
 
 # ITextStoreACP2::RequestLock
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the TSF manager to provide a document lock in order to modify the document. This method calls the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onlockgranted">OnLockGranted</a> method to create the document lock.
 
-
 ## -parameters
-
-
-
 
 ### -param dwLockFlags [in]
 
@@ -98,8 +94,6 @@ The document has a synchronous-lock if this flag is combined with other flags.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phrSession [out]
 
@@ -107,10 +101,7 @@ If the lock request is synchronous, receives an HRESULT value from the <a href="
 
 If the lock request is asynchronous and the result is <a href="https://docs.microsoft.com/windows/desktop/TSF/text-store-return-values">TS_S_ASYNC</a>, the document receives an asynchronous lock. If the lock request is asynchronous and the result is TS_E_SYNCHRONOUS, the document can't be locked synchronously.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -142,14 +133,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method uses the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onlockgranted">OnLockGranted</a> method to lock the document. Applications must never modify the document or send change notifications using the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-ontextchange">OnTextChange</a> method from within the <b>RequestLock</b> method. If the application has pending changes to report, the application can only respond to the asynchronous lock request.
 
@@ -163,13 +148,7 @@ A caller should never call this method reentrantly, except in the case that the 
 
 For more information about document locks, see <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
 
@@ -190,7 +169,4 @@ For more information about document locks, see <a href="https://docs.microsoft.c
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/text-store-return-values">Text Store Return Values
       </a>
- 
-
- 
 

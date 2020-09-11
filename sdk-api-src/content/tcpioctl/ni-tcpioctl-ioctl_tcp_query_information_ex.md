@@ -7,10 +7,6 @@ tech.root: winprog
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
 ms.date: 12/05/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
-f1_keywords:
-- tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX
-dev_langs:
-- c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +24,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpioctl.h
-api_name:
-- IOCTL_TCP_QUERY_INFORMATION_EX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_TCP_QUERY_INFORMATION_EX
+ - tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpioctl.h
+api_name:
+ - IOCTL_TCP_QUERY_INFORMATION_EX
 ---
 
 # IOCTL_TCP_QUERY_INFORMATION_EX IOCTL
 
 
 ## -description
-
 
 <p class="CCE_Message">[This control code may be altered or unavailable in future versions of Windows.
 Use  Internet Protocol Helper API instead of this
@@ -71,70 +71,33 @@ BOOL DeviceIoControl(
 );
 ```
 
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -142,12 +105,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 To use <b>IOCTL_TCP_QUERY_INFORMATION_EX</b>, you should be familiar with Windows Driver Development, as documented in the Windows Driver Kit (WDK), and specifically with Transport Driver Interface (TDI) drivers. The WDK is available for download from the MSDN website.
 
@@ -595,14 +553,7 @@ int main( )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
@@ -613,7 +564,4 @@ int main( )
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base Reference</a>
- 
-
- 
 

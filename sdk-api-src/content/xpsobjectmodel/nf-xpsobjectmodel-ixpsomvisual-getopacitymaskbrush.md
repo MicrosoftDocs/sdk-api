@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: df5b770e-cc66-45ee-b865-2959255920bf
 ms.date: 12/05/2018
 ms.keywords: GetOpacityMaskBrush, GetOpacityMaskBrush method [XPS Documents and Packaging], GetOpacityMaskBrush method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrush method, IXpsOMVisual.GetOpacityMaskBrush, IXpsOMVisual::GetOpacityMaskBrush, xps.ixpsomvisual_getopacitymaskbrush, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrush
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisual.GetOpacityMaskBrush
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisual.GetOpacityMaskBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisual::GetOpacityMaskBrush
+ - xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisual.GetOpacityMaskBrush
 ---
 
 # IXpsOMVisual::GetOpacityMaskBrush
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface of the visual's opacity mask brush.
 
-
 ## -parameters
-
-
-
 
 ### -param opacityMaskBrush [out, retval]
 
@@ -104,12 +100,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -163,15 +155,8 @@ No object could be found with a key name that matched the lookup value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
 
@@ -186,7 +171,4 @@ No object could be found with a key name that matched the lookup value.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

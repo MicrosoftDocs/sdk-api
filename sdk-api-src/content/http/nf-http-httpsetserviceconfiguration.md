@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: b0a6d442-2ff4-4e00-8301-696fb0864d8c
 ms.date: 12/05/2018
 ms.keywords: HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, HttpSetServiceConfiguration, HttpSetServiceConfiguration function [HTTP], _http_httpsetserviceconfiguration, http.httpsetserviceconfiguration, http/HttpSetServiceConfiguration
-f1_keywords:
-- http/HttpSetServiceConfiguration
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpSetServiceConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpSetServiceConfiguration
+ - http/HttpSetServiceConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpSetServiceConfiguration
 ---
 
 # HttpSetServiceConfiguration function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpSetServiceConfiguration</b> function creates and sets a configuration record for the HTTP Server API configuration store. The call fails if the specified record already exists. To change a given configuration record, delete it and then recreate it with a different value.
 
-
 ## -parameters
-
-
-
 
 ### -param ServiceHandle [in]
 
 Reserved. Must be zero.
-
 
 ### -param ConfigId [in]
 
@@ -143,8 +138,6 @@ Sets the   SSL certificate record that specifies that Http.sys should consult th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pConfigInformation [in]
 
@@ -237,22 +230,16 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ConfigInformationLength [in]
 
 Size, in bytes, of the <i>pConfigInformation</i> buffer.
 
-
 ### -param pOverlapped [in]
 
 This parameter is reserved and must be  <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -330,24 +317,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The configuration parameters set with <b>HttpSetServiceConfiguration</b> are applied to all the HTTP Server API applications on the machine, and persist when the HTTP Server API shuts down, or when the computer is restarted.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
@@ -362,7 +337,4 @@ The configuration parameters set with <b>HttpSetServiceConfiguration</b> are app
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: b0df588a-2ef1-4870-b304-c6f9e07322b0
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_KCC_DSA_FAILUREW_BLOB, DS_REPL_KCC_DSA_FAILUREW_BLOB structure [Active Directory], ad.ds_repl_kcc_dsa_failurew_blob, msDS-ReplConnectionFailures, msDS-ReplLinkFailures, ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB
-f1_keywords:
-- ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntdsapi.h
-api_name:
-- DS_REPL_KCC_DSA_FAILUREW_BLOB
 targetos: Windows
 req.typenames: DS_REPL_KCC_DSA_FAILUREW_BLOB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DS_REPL_KCC_DSA_FAILUREW_BLOB
+ - ntdsapi/_DS_REPL_KCC_DSA_FAILUREW_BLOB
+ - DS_REPL_KCC_DSA_FAILUREW_BLOB
+ - ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntdsapi.h
+api_name:
+ - DS_REPL_KCC_DSA_FAILUREW_BLOB
 ---
 
 # DS_REPL_KCC_DSA_FAILUREW_BLOB structure
@@ -49,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DS_REPL_KCC_DSA_FAILUREW_BLOB</b> structure contains replication state data with respect to a specific inbound replication partner. This state data is compiled and used by the Knowledge Consistency Checker (KCC) to decide when alternate replication routes must be added to account for  unreachable servers.
   This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew">DS_REPL_KCC_DSA_FAILURE</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplConnectionFailures</b> or <b>msDS-ReplLinkFailures</b> attribute.
 
-
 ## -struct-fields
-
-
-
 
 ### -field oszDsaDN
 
 Contains the offset, in bytes, from the address of this structure  to  a null-terminated string that contains the  distinguished name of the directory system agent object in the directory that corresponds to the source server.
 
-
 ### -field uuidDsaObjGuid
 
 Contains the <b>objectGuid</b> of the directory system agent object represented by the <b>oszDsaDN</b> member.
-
 
 ### -field ftimeFirstFailure
 
@@ -85,21 +81,15 @@ Contains the date and time that the first failure occurred when replicating from
 
 Contains the date and time of the last successful replication.
 
-
 ### -field cNumFailures
 
 Contains the number of consecutive failures since the last successful replication.
-
 
 ### -field dwLastResult
 
 Contains the error code associated with the most recent failure, or <b>ERROR_SUCCESS</b> if the specific error is unavailable.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew">DS_REPL_KCC_DSA_FAILURE</a>
 
@@ -110,7 +100,4 @@ Contains the error code associated with the most recent failure, or <b>ERROR_SUC
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
- 
-
- 
 

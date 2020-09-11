@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::DiscardResource
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::DiscardResource
  - d3d12video/ID3D12VideoEncodeCommandList::DiscardResource
 dev_langs:
  - c++
@@ -44,8 +45,6 @@ dev_langs:
 Indicate that the current contents of a resource can be discarded.  The current contents of the resource are no longer valid allowing optimizations for subsequent operations such as [ResourceBarrier](nf-d3d12video-id3d12videodecodecommandlist-discardresource.md).
 
 ## -parameters
-
-
 
 ### -param pResource
 

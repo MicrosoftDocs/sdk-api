@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 7aa22af2-7f0a-41c1-89c6-d813780e89bf
 ms.date: 12/05/2018
 ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], IPrincipal interface [Task Scheduler],described, taskschd.iprincipal, taskschd/IPrincipal
-f1_keywords:
-- taskschd/IPrincipal
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IPrincipal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrincipal
+ - taskschd/IPrincipal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IPrincipal
 ---
 
 # IPrincipal interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the security credentials  for a principal. These security credentials define the security context for the tasks that are associated with the principal.
 
-
 ## -remarks
-
-
 
 When specifying an account, remember to properly use the double backslash in code to specify the domain and user name. For example, use DOMAIN\\UserName to specify a value for the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid">UserId</a> property.
 
@@ -70,12 +67,7 @@ For more information and example code for this interface, see <a href="https://d
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
 
@@ -86,7 +78,4 @@ For more information and example code for this interface, see <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

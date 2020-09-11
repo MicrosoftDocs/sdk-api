@@ -8,10 +8,6 @@ tech.root: iSCSIDisc
 ms.assetid: 8b7e874b-5d2b-4948-98f2-1bcd6d4f8ca6
 ms.date: 12/05/2018
 ms.keywords: '*PISCSI_TARGET_PORTAL_GROUPW, ISCSI_TARGET_PORTAL_GROUP, ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUPW, PISCSI_TARGET_PORTAL_GROUP, PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_group, iscsidsc/ISCSI_TARGET_PORTAL_GROUP, iscsidsc/ISCSI_TARGET_PORTAL_GROUPA, iscsidsc/ISCSI_TARGET_PORTAL_GROUPW, iscsidsc/PISCSI_TARGET_PORTAL_GROUP'
-f1_keywords:
-- iscsidsc/ISCSI_TARGET_PORTAL_GROUP
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iscsidsc.h
-api_name:
-- ISCSI_TARGET_PORTAL_GROUP
-- ISCSI_TARGET_PORTAL_GROUPA
-- ISCSI_TARGET_PORTAL_GROUPW
 targetos: Windows
 req.typenames: ISCSI_TARGET_PORTAL_GROUPW, *PISCSI_TARGET_PORTAL_GROUPW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PISCSI_TARGET_PORTAL_GROUPW
+ - iscsidsc/PISCSI_TARGET_PORTAL_GROUPW
+ - ISCSI_TARGET_PORTAL_GROUPW
+ - iscsidsc/ISCSI_TARGET_PORTAL_GROUPW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iscsidsc.h
+api_name:
+ - ISCSI_TARGET_PORTAL_GROUP
+ - ISCSI_TARGET_PORTAL_GROUPA
+ - ISCSI_TARGET_PORTAL_GROUPW
 ---
 
 # ISCSI_TARGET_PORTAL_GROUPW structure
@@ -51,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISCSI_TARGET_PORTAL_GROUP</b> structure contains information about the portals associated with a portal group.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Count
 
 The number of portals in the portal group.
-
 
 ### -field Portals
 

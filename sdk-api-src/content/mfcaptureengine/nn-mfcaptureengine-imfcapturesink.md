@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink, IMFCaptureSink interface [Media Foundation], IMFCaptureSink interface [Media Foundation],described, mf.imfcapturesink, mfcaptureengine/IMFCaptureSink
-f1_keywords:
-- mfcaptureengine/IMFCaptureSink
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSink
+ - mfcaptureengine/IMFCaptureSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSink
 ---
 
 # IMFCaptureSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls a capture sink, which is an object that receives one or more streams from a capture device.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Removes all streams from the capture sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The capture engine creates the following capture sinks.
 
@@ -165,16 +161,7 @@ If the native type is H.264 for the record stream, the record sink should be con
 
 Record streams that expose H.264 do not  expose any other type. H.264 record streams cannot be used in conjunction with effects. To add effects, instead connect the preview stream to the recordsink using <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">AddStream</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

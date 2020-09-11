@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 41272218-25af-4c8f-8730-37a08a7fad4f
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetModuleDefinition method, GetModuleDefinition, GetModuleDefinition method [File Server Resource Manager], GetModuleDefinition method [File Server Resource Manager],FsrmClassificationManager class, GetModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, GetModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetModuleDefinition method, IFsrmClassificationManager.GetModuleDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],GetModuleDefinition method, IFsrmClassificationManager2::GetModuleDefinition, IFsrmClassificationManager::GetModuleDefinition, fs.ifsrmclassificationmanager_getmoduledefinition, fsrm.ifsrmclassificationmanager_getmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::GetModuleDefinition, fsrmpipeline/IFsrmClassificationManager::GetModuleDefinition
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager.GetModuleDefinition
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager.GetModuleDefinition
-- IFsrmClassificationManager2.GetModuleDefinition
-- FsrmClassificationManager.GetModuleDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager::GetModuleDefinition
+ - fsrmpipeline/IFsrmClassificationManager::GetModuleDefinition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager.GetModuleDefinition
+ - IFsrmClassificationManager2.GetModuleDefinition
+ - FsrmClassificationManager.GetModuleDefinition
 ---
 
 # IFsrmClassificationManager::GetModuleDefinition
@@ -51,29 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a> class.]
 
 Retrieves the specified module definition.
 
-
 ## -parameters
-
-
-
 
 ### -param moduleName [in]
 
 The name of the module to retrieve. Must not exceed 100 characters in length.
 
-
 ### -param moduleType [in]
 
 The type of the module to retrieve. For possible types, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpipelinemoduletype">FsrmPipelineModuleType</a> enumeration.
-
 
 ### -param moduleDefinition [out]
 
@@ -86,20 +80,11 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsr
       the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduledefinition">IFsrmClassifierModuleDefinition</a> 
       interface.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
 
@@ -130,7 +115,4 @@ The method returns the following return values.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 507c8262-c5e8-470e-be89-566ae732946d
 ms.date: 12/05/2018
 ms.keywords: ??1CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray class [Windows Management Instrumentation], CHPtrArray class [Windows Management Instrumentation],described, chptrarr/CHPtrArray, wmi.chptrarray
-f1_keywords:
-- chptrarr/CHPtrArray
-dev_langs:
-- c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHPtrArray
-- ??1CHPtrArray@@QAE@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHPtrArray
+ - chptrarr/CHPtrArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHPtrArray
+ - ??1CHPtrArray@@QAE@XZ
 ---
 
 # CHPtrArray class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>CHPtrArray</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -130,25 +130,13 @@ Gets the element at the specified index.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for the class is <b>CHPtrArray::~CHPtrArray</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
- 
-
- 
 

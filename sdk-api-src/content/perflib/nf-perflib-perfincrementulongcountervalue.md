@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 002162a0-d782-4648-949e-178985fd1d44
 ms.date: 12/05/2018
 ms.keywords: PerfIncrementULongCounterValue, PerfIncrementULongCounterValue function [Perf], perf.perfincrementulongcountervalue, perflib/PerfIncrementULongCounterValue
-f1_keywords:
-- perflib/PerfIncrementULongCounterValue
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-perfcounters-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PerfIncrementULongCounterValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PerfIncrementULongCounterValue
+ - perflib/PerfIncrementULongCounterValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-perfcounters-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PerfIncrementULongCounterValue
 ---
 
 # PerfIncrementULongCounterValue function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Increments the value of a counter whose value is a 4-byte unsigned integer.  Providers use this function.
 
-
 ## -parameters
-
-
-
 
 ### -param Provider [in]
 
@@ -66,11 +62,9 @@ The handle of the provider. Use the handle variable that the <a href="https://do
 
 <b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> function returns the handle.
 
-
 ### -param Instance [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure that contains the counter set instance. The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfcreateinstance">PerfCreateInstance</a> function returns this pointer.
-
 
 ### -param CounterId [in]
 
@@ -78,28 +72,19 @@ Identifier that uniquely identifies the counter to update in the instance block.
 
 <b>Windows Vista:  </b>The counter ID constant is not available.
 
-
 ### -param Value [in]
 
 Value by which to increment the counter.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
-
-
 
 This is a convenience function for incrementing raw counter data. To increment the raw counter data yourself, use the <b>Offset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a> structure to access the raw counter data for a specific counter. The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure block contains one or more counter information structures.
 
@@ -107,13 +92,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perfl
 
 Note that the counter value will overflow when the counter value increments past the maximum size of an 4-byte unsigned integer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdecrementulongcountervalue">PerfDecrementULongCounterValue</a>
 
@@ -124,7 +103,4 @@ Note that the counter value will overflow when the counter value increments past
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfsetulongcountervalue">PerfSetULongCounterValue</a>
- 
-
- 
 

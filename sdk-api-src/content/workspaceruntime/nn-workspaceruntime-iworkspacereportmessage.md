@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 841fce89-2996-42eb-81fc-7d6f8f864398
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceReportMessage, IWorkspaceReportMessage interface [Remote Desktop Services], IWorkspaceReportMessage interface [Remote Desktop Services],described, termserv.iworkspacereportmessage, workspaceruntime/IWorkspaceReportMessage
-f1_keywords:
-- workspaceruntime/IWorkspaceReportMessage
-dev_langs:
-- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: WkspRt.exe
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WkspRt.exe
-api_name:
-- IWorkspaceReportMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceReportMessage
+ - workspaceruntime/IWorkspaceReportMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WkspRt.exe
+api_name:
+ - IWorkspaceReportMessage
 ---
 
 # IWorkspaceReportMessage interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that support error message handling for remote workspaces.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Registers the specified error log message to use in the UI.
 
 </td>
 </tr>
-</table> 
+</table>
 

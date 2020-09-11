@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPREBARINFO, LPREBARINFO, LPREBARINFO structure pointer [Windows Controls], RBIM_IMAGELIST, REBARINFO, REBARINFO structure [Windows Controls], _win32_REBARINFO, _win32_REBARINFO_cpp, commctrl/LPREBARINFO, commctrl/REBARINFO, controls.REBARINFO, controls._win32_REBARINFO'
-f1_keywords:
-- commctrl/REBARINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- REBARINFO
 targetos: Windows
 req.typenames: REBARINFO, *LPREBARINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagREBARINFO
+ - commctrl/tagREBARINFO
+ - LPREBARINFO
+ - commctrl/LPREBARINFO
+ - REBARINFO
+ - commctrl/REBARINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - REBARINFO
 ---
 
 # REBARINFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information that describes rebar control characteristics. 
-
+Contains information that describes rebar control characteristics.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Size of this structure, in bytes. Your application must fill this member before sending any messages that use the address of this structure as a parameter. 
-
+Size of this structure, in bytes. Your application must fill this member before sending any messages that use the address of this structure as a parameter.
 
 ### -field fMask
 
@@ -88,12 +87,10 @@ The
 </td>
 </tr>
 </table>
- 
-
 
 ### -field himl
 
 Type: <b>HIMAGELIST</b>
 
-Handle to an image list. The rebar control will use the specified image list to obtain images. 
+Handle to an image list. The rebar control will use the specified image list to obtain images.
 

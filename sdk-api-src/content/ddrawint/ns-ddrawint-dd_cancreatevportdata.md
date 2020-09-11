@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 60116f1d-fca2-4282-95a9-2af8da113a20
 ms.date: 12/05/2018
 ms.keywords: '*PDD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA structure [Display Devices], ddrawint/DD_CANCREATEVPORTDATA, ddstrcts_72b44069-d635-4675-b632-d0d077aa96e8.xml, display.dd_cancreatevportdata'
-f1_keywords:
-- ddrawint/DD_CANCREATEVPORTDATA
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_CANCREATEVPORTDATA
 targetos: Windows
 req.typenames: '*PDD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_CANCREATEVPORTDATA
+ - ddrawint/_DD_CANCREATEVPORTDATA
+ - PDD_CANCREATEVPORTDATA
+ - ddrawint/PDD_CANCREATEVPORTDATA
+ - DD_CANCREATEVPORTDATA
+ - ddrawint/DD_CANCREATEVPORTDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_CANCREATEVPORTDATA
 ---
 
 # DD_CANCREATEVPORTDATA structure
@@ -49,42 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DD_CANCREATEVPORTDATA structure contains the information required for the driver to determine whether a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object can be created.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lpDD
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
-
 ### -field lpDDVideoPortDesc
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportdesc">DDVIDEOPORTDESC</a> structure that contains a description of the VPE object being requested.
-
 
 ### -field ddRVal
 
 Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_cancreatevideoport">DdVideoPortCanCreate</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
-
 ### -field CanCreateVideoPort
 
 Used by the DirectDraw API and should not be filled in by the driver.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_cancreatevideoport">DdVideoPortCanCreate</a>
- 
-
- 
 

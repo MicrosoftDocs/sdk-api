@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 94c8219f-8131-45dd-b350-878ffd6161ea
 ms.date: 12/05/2018
 ms.keywords: BindToStorage, BindToStorage method [COM], BindToStorage method [COM],IMoniker interface, IMoniker interface [COM],BindToStorage method, IMoniker.BindToStorage, IMoniker::BindToStorage, _com_imoniker_bindtostorage, com.imoniker_bindtostorage, objidl/IMoniker::BindToStorage
-f1_keywords:
-- objidl/IMoniker.BindToStorage
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.BindToStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::BindToStorage
+ - objidl/IMoniker::BindToStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.BindToStorage
 ---
 
 # IMoniker::BindToStorage
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Binds to the storage for the specified object. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> method, this method does not activate the object identified by the moniker.
 
-
 ## -parameters
-
-
-
 
 ### -param pbc [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context object, which is used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment.
 
-
 ### -param pmkToLeft [in]
 
 If the moniker is part of a composite moniker, pointer to the moniker to the left of this moniker. This parameter is primarily used by moniker implementers to enable cooperation between the various components of a composite moniker. Moniker clients should use <b>NULL</b>.
-
 
 ### -param riid [in]
 
 A reference to the identifier of the storage interface requested, whose pointer will be returned in <i>ppvObj</i>. Storage interfaces commonly requested include <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>.
 
-
 ### -param ppvObj [out]
 
 The address of pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer to the storage of the object the moniker identifies. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the storage. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, *<i>ppvObj</i> should be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_UNEXPECTED, as well as the following values.
 
@@ -160,12 +150,7 @@ Unable to access the storage object.
 
 This method can also return the errors associated with the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">IOleItemContainer::GetObject</a> method.
 
-
-
-
 ## -remarks
-
-
 
 There is an important difference between the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">BindToObject</a> and <b>BindToStorage</b> methods. If, for example, you have a moniker that identifies a spreadsheet object, calling <b>BindToObject</b> provides access to the spreadsheet object itself, while calling <b>BindToStorage</b> provides access to the storage object in which the spreadsheet resides. 
 
@@ -258,18 +243,8 @@ If the caller does not specify asynchronous <a href="https://docs.microsoft.com/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
 

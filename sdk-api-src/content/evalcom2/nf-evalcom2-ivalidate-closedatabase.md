@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 7124f467-4efd-4e8b-9ce2-8463779f6fb9
 ms.date: 12/05/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IValidate interface, IValidate interface,CloseDatabase method, IValidate.CloseDatabase, IValidate::CloseDatabase, evalcom2/IValidate::CloseDatabase, setup.ivalidate_closedatabase
-f1_keywords:
-- evalcom2/IValidate.CloseDatabase
-dev_langs:
-- c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Evalcom2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Evalcom2.dll
-api_name:
-- IValidate.CloseDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IValidate::CloseDatabase
+ - evalcom2/IValidate::CloseDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Evalcom2.dll
+api_name:
+ - IValidate.CloseDatabase
 ---
 
 # IValidate::CloseDatabase
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CloseDatabase</b> method closes the currently open Windows Installer package or merge module.  Windows Installer packages or merge modules can be opened by using the <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opendatabase">OpenDatabase</a> method.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -85,13 +77,7 @@ The method succeeded.
 
 This method can also return one or more of the errors returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function. The error is converted to <b>HRESULTS</b> using the <b>HRESULT_FROM_WIN32</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
@@ -102,7 +88,4 @@ This method can also return one or more of the errors returned by the <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
- 
-
- 
 

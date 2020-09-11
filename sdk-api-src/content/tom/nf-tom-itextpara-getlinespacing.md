@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacing.htm
 ms.date: 12/05/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Windows Controls], GetLineSpacing method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetLineSpacing method, ITextPara.GetLineSpacing, ITextPara::GetLineSpacing, _win32_ITextPara_GetLineSpacing, _win32_ITextPara_GetLineSpacing_cpp, controls.ITextPara_GetLineSpacing, controls._win32_ITextPara_GetLineSpacing, tom/ITextPara::GetLineSpacing
-f1_keywords:
-- tom/ITextPara.GetLineSpacing
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetLineSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetLineSpacing
+ - tom/ITextPara::GetLineSpacing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetLineSpacing
 ---
 
 # ITextPara::GetLineSpacing
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the line-spacing value for the text range.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -95,12 +91,8 @@ The line-spacing value. The following table shows how this value is interpreted 
 <td>The line-spacing value specifies the line spacing, in lines.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -145,24 +137,12 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To retrieve the line-spacing rule, call the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">ITextPara::GetLineSpacingRule</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -185,7 +165,4 @@ To retrieve the line-spacing rule, call the <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

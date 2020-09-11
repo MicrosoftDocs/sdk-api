@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: fcc4901a-1507-461e-bbcc-a9e440ec05ce
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RevokeEvent method, ISyncProviderRegistration.RevokeEvent, ISyncProviderRegistration::RevokeEvent, RevokeEvent, RevokeEvent method [Windows Sync], RevokeEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RevokeEvent, winsync.isyncproviderregistration_revokeevent
-f1_keywords:
-- syncregistration/ISyncProviderRegistration.RevokeEvent
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderRegistration.RevokeEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderRegistration::RevokeEvent
+ - syncregistration/ISyncProviderRegistration::RevokeEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderRegistration.RevokeEvent
 ---
 
 # ISyncProviderRegistration::RevokeEvent
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters the user from the notification of the arrival of new registration
 		events.
 
-
 ## -parameters
-
-
-
 
 ### -param hEvent [in]
 
 The <b>HANDLE</b> returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-registerforevent">RegisterForEvent</a> method.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -98,27 +91,12 @@ The specified event has not been registered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method closes the specified <b>HANDLE</b> and cleans up any related memory.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
- 
-
- 
 

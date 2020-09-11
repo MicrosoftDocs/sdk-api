@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 2f066e1d-035f-4c1c-b854-de4a6ef58a58
 ms.date: 12/05/2018
 ms.keywords: HttpReadFragmentFromCache, HttpReadFragmentFromCache function [HTTP], _http_httpreadfragmentfromcache, http.httpreadfragmentfromcache, http/HttpReadFragmentFromCache
-f1_keywords:
-- http/HttpReadFragmentFromCache
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpReadFragmentFromCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpReadFragmentFromCache
+ - http/HttpReadFragmentFromCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpReadFragmentFromCache
 ---
 
 # HttpReadFragmentFromCache function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpReadFragmentFromCache</b> function retrieves a response fragment having a specified name from the HTTP Server API cache.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
@@ -66,27 +62,22 @@ Handle to the request queue with which the specified response fragment is associ
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
-
 ### -param UrlPrefix [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that contains the name of the fragment to be retrieved. This must match a UrlPrefix string used in a previous successful call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>.
-
 
 ### -param ByteRange [in]
 
 Optional pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure that indicates a starting offset in the specified fragment and byte-count to be returned. <b>NULL</b> if not used, in which case the entire fragment is returned.
 
-
 ### -param Buffer [out]
 
 Pointer to a buffer into which the function copies the requested fragment.
 
-
 ### -param BufferLength [in]
 
 Size, in bytes, of the <i>pBuffer</i> buffer.
-
 
 ### -param BytesRead [out]
 
@@ -96,7 +87,6 @@ Optional pointer to a variable that receives the number of bytes to be written i
 
 
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesRead</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesRead</i> must contain a valid memory address, and not be set to <b>NULL</b>.
-
 
 ### -param Overlapped [in]
 
@@ -110,10 +100,7 @@ A synchronous call blocks until the cache operation is complete, whereas an asyn
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -161,15 +148,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
@@ -180,7 +160,4 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpflushresponsecache">HttpFlushResponseCache</a>
- 
-
- 
 

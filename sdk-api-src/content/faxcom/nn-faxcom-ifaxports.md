@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1hwz.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxPorts, IFaxPorts interface [Fax Service], IFaxPorts interface [Fax Service],described, _mfax_ifaxports, fax._mfax_ifaxports, faxcom/IFaxPorts
-f1_keywords:
-- faxcom/IFaxPorts
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxPorts
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxPorts
+ - faxcom/IFaxPorts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxPorts
 ---
 
 # IFaxPorts interface
 
 
 ## -description
-
 
 The <b>IFaxPorts</b> dual interface is used by a fax client application to access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> objects derived from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a> object. The interface enumerates port configuration information for a connection to an active fax server. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxports">FaxPorts</a> object is a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> objects. 
 
@@ -57,8 +57,6 @@ The <b>IFaxPorts</b> interface includes methods that allow a fax client applicat
 <li>Retrieve the number of fax ports associated with a fax server.</li>
 <li>Create and retrieve <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxport">IFaxPort</a> interface pointers for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> objects.</li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -93,12 +91,9 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fa
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 You should not implement this interface. The Microsoft standard implementation provides complete functionality. 
@@ -117,14 +112,7 @@ To create an instance of a <a href="https://docs.microsoft.com/previous-versions
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object to allow the object to deallocate itself, and again to destroy the <b>IFaxPorts</b> interface pointer.</li>
 </ol>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -135,7 +123,4 @@ To create an instance of a <a href="https://docs.microsoft.com/previous-versions
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

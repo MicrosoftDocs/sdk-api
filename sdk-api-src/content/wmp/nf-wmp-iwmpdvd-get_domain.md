@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 2a8d5ea6-ed70-4952-810c-215acd1ae560
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_domain method, IWMPDVD.get_domain, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
-f1_keywords:
-- wmp/IWMPDVD.get_domain
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPDVD.get_domain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPDVD::get_domain
+ - wmp/IWMPDVD::get_domain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPDVD.get_domain
 ---
 
 # IWMPDVD::get_domain
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_domain</b> method retrieves the current domain of the DVD.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param strDomain [out]
 
@@ -97,12 +90,8 @@ Pointer to a <b>BSTR</b> that contains one of the following values.
 <td>Windows Media Player is not in any DVD domain.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -123,29 +112,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Every DVD is authored differently. Some DVDs do not contain the firstPlay, videoManagerMenu, or videoTitleSetMenu domains.
 
 <b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>BSTR</b> containing an empty string.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
- 
-
- 
 

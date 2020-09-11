@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5f7997ba-a5c8-42b5-90c8-5cb34afd6092
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell], INamedPropertyStore interface [Windows Shell],described, _shell_INamedPropertyStore, propsys/INamedPropertyStore, shell.INamedPropertyStore
-f1_keywords:
-- propsys/INamedPropertyStore
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- INamedPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INamedPropertyStore
+ - propsys/INamedPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - INamedPropertyStore
 ---
 
 # INamedPropertyStore interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that get and set named properties.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Sets the value of a named property.
 
 </td>
 </tr>
-</table> 
+</table>
 

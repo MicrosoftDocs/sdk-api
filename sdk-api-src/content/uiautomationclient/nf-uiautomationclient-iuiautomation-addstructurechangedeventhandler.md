@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 671049a4-50cf-49df-9028-7af38629b7a9
 ms.date: 12/05/2018
 ms.keywords: AddStructureChangedEventHandler, AddStructureChangedEventHandler method [Windows Accessibility], AddStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddStructureChangedEventHandler method, IUIAutomation.AddStructureChangedEventHandler, IUIAutomation::AddStructureChangedEventHandler, uiauto.uiauto_IUIAutomation_AddStructureChangedEventHandler, uiauto_IUIAutomation_AddStructureChangedEventHandler, uiautomationclient/IUIAutomation::AddStructureChangedEventHandler, winauto.uiauto_IUIAutomation_AddStructureChangedEventHandler
-f1_keywords:
-- uiautomationclient/IUIAutomation.AddStructureChangedEventHandler
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation.AddStructureChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation::AddStructureChangedEventHandler
+ - uiautomationclient/IUIAutomation::AddStructureChangedEventHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation.AddStructureChangedEventHandler
 ---
 
 # IUIAutomation::AddStructureChangedEventHandler
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a method that handles structure-changed events.
 <div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param element [in]
 
@@ -64,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 A pointer to the UI Automation element associated with the event handler.
 
-
 ### -param arg2 [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a></b>
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
-
 
 ### -param cacheRequest [in]
 
@@ -78,39 +73,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 
-
 ### -param handler [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationstructurechangedeventhandler">IUIAutomationStructureChangedEventHandler</a>*</b>
 
 A pointer to the object that handles the structure-changed event.
 
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A UI Automation client should not use multiple threads to add or remove event handlers. Unexpected behavior can result if one event handler is being added or removed while another is being added or removed in the same client process.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cachingforclients">Caching UI Automation Properties and Control Patterns</a>
 
@@ -141,7 +120,4 @@ A UI Automation client should not use multiple threads to add or remove event ha
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>
- 
-
- 
 

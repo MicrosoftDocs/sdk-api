@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 01b7a571-fdbd-41e9-96c9-843cc733a32c
 ms.date: 12/05/2018
 ms.keywords: '*LPDSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTIONS structure [Active Directory], DSDSOF_DONTSIGNSEAL, DSDSOF_DSAVAILABLE, DSDSOF_HASUSERANDSERVERINFO, DSDSOF_SIMPLEAUTHENTICATE, LPDSDISPLAYSPECOPTIONS, LPDSDISPLAYSPECOPTIONS structure pointer [Active Directory], PDSDISPLAYSPECOPTIONS, PDSDISPLAYSPECOPTIONS structure pointer [Active Directory], _glines_dsdisplayspecoptions, ad.dsdisplayspecoptions, dsclient/DSDISPLAYSPECOPTIONS, dsclient/LPDSDISPLAYSPECOPTIONS, dsclient/PDSDISPLAYSPECOPTIONS'
-f1_keywords:
-- dsclient/DSDISPLAYSPECOPTIONS
-dev_langs:
-- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dsclient.h
-api_name:
-- DSDISPLAYSPECOPTIONS
 targetos: Windows
 req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DSDISPLAYSPECOPTIONS
+ - dsclient/_DSDISPLAYSPECOPTIONS
+ - PDSDISPLAYSPECOPTIONS
+ - dsclient/PDSDISPLAYSPECOPTIONS
+ - DSDISPLAYSPECOPTIONS
+ - dsclient/DSDISPLAYSPECOPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dsclient.h
+api_name:
+ - DSDISPLAYSPECOPTIONS
 ---
 
 # DSDISPLAYSPECOPTIONS structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DSDISPLAYSPECOPTIONS</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-ds-display-spec-options">CFSTR_DS_DISPLAY_SPEC_OPTIONS</a> clipboard format and is used to supply data to a context menu or property page extension about the display specifiers used. It is important to specify the credentials required by the extension, to access data in the Active Directory server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size of the structure for versioning purposes.
-
 
 ### -field dwFlags
 
@@ -91,7 +90,6 @@ Do not sign and seal when opening directory service objects.
 
 Forces the client to avoid checking if the user is authenticated, the network is present or logged in, assuming the client belongs to a domain controlled by Active Directory Domain Services.
 
-
 ### -field offsetAttribPrefix
 
 Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b> structure to a NULL-terminated, Unicode string that contains the prefix of the display specifier that the created extension was obtained from. This string can be one of the following values.
@@ -117,8 +115,6 @@ pwszAttribPrefix = (LPWSTR)((LPBYTE)pdos +
 
 ```
 
-
-
 ### -field offsetUserName
 
 Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b> structure to a NULL-terminated, Unicode string that contains the name of the user used to authenticate the bind. This member is only valid if <b>dwFlags</b> contains the <b>DSDSOF_HASUSERANDSERVERINFO</b> flag. If this member contains zero, the user name is not included.
@@ -131,8 +127,6 @@ pwszUserName = (LPWSTR)((LPBYTE)pdso +
     pdso->offsetUserName);
 
 ```
-
-
 
 ### -field offsetPassword
 
@@ -147,8 +141,6 @@ pwszPassword = (LPWSTR)((LPBYTE)pdso +
 
 ```
 
-
-
 ### -field offsetServer
 
 Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b> structure to a NULL-terminated, Unicode string that contains the name of the server. This member is only valid if <b>dwFlags</b> contains the <b>DSDSOF_HASUSERANDSERVERINFO</b> flag. If this member contains zero, the server name is not included.
@@ -161,8 +153,6 @@ pwszServer = (LPWSTR)((LPBYTE)pdso +
     pdso->offsetServer);
 
 ```
-
-
 
 ### -field offsetServerConfigPath
 
@@ -177,12 +167,7 @@ pwszServerConfigPath = (LPWSTR)((LPBYTE)pdso +
 
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
@@ -193,7 +178,4 @@ pwszServerConfigPath = (LPWSTR)((LPBYTE)pdso +
 
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
- 
-
- 
 

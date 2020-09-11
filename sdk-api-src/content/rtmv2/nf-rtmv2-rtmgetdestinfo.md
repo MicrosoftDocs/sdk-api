@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: bf6525ea-5f32-41d3-b436-920e7369b926
 ms.date: 12/05/2018
 ms.keywords: RtmGetDestInfo, RtmGetDestInfo function [RAS], _rtmv2ref_rtmgetdestinfo, rras.rtmgetdestinfo, rtmv2/RtmGetDestInfo
-f1_keywords:
-- rtmv2/RtmGetDestInfo
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetDestInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetDestInfo
+ - rtmv2/RtmGetDestInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetDestInfo
 ---
 
 # RtmGetDestInfo function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetDestInfo</b> function returns information about a destination.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param DestHandle [in]
 
 Handle to the destination for which to return information.
-
 
 ### -param ProtocolId [in]
 
@@ -79,11 +73,9 @@ Specifies the protocol identifier. The <i>ProtocolID</i> is not part of the sear
 
 Specify RTM_BEST_PROTOCOL to return a route regardless of which protocol owns it. Specify RTM_THIS_PROTOCOL to return the best route for the calling protocol.
 
-
 ### -param TargetViews [in]
 
 Specifies the views from which to return information. If the client specifies RTM_VIEW_MASK_ANY, destination information is returned from all views; however, no view-specific information is returned.
-
 
 ### -param DestInfo [out]
 
@@ -95,10 +87,7 @@ On input, <i>DestInfo</i> is a pointer to an
 
 On output, <i>DestInfo</i> is filled with the requested destination information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -126,13 +115,7 @@ The handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The  structure pointed to by <i>DestInfo</i> is a variable-sized structure. If the client specifies more than one view with <i>TargetViews</i>, the size of <i>DestInfo</i> increases for each view. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtm_size_of_dest_info">RTM_SIZE_OF_DEST_INFO</a> macro to determine how large a <i>DestInfo</i> structure to allocate before calling this function. Use the value specified for <i>TargetViews</i> as a parameter to 
@@ -141,20 +124,11 @@ The  structure pointed to by <i>DestInfo</i> is a variable-sized structure. If t
 Use 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasedestinfo">RtmReleaseDestInfo</a> to release the <i>DestInfo</i> buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasedestinfo">RtmReleaseDestInfo</a>
- 
-
- 
 

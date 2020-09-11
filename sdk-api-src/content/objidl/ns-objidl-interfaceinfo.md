@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5c2c07bf-1c15-4f21-baef-103837ea24d0
 ms.date: 12/05/2018
 ms.keywords: '*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LPINTERFACEINFO, LPINTERFACEINFO structure pointer [COM], _com_INTERFACEINFO, com.interfaceinfo, objidl/INTERFACEINFO, objidl/LPINTERFACEINFO'
-f1_keywords:
-- objidl/INTERFACEINFO
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Objidl.h
-api_name:
-- INTERFACEINFO
 targetos: Windows
 req.typenames: INTERFACEINFO, *LPINTERFACEINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagINTERFACEINFO
+ - objidl/tagINTERFACEINFO
+ - LPINTERFACEINFO
+ - objidl/LPINTERFACEINFO
+ - INTERFACEINFO
+ - objidl/INTERFACEINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Objidl.h
+api_name:
+ - INTERFACEINFO
 ---
 
 # INTERFACEINFO structure
@@ -49,37 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about incoming calls.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pUnk
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the object.
 
-
 ### -field iid
 
 The identifier of the requested interface.
-
 
 ### -field wMethod
 
 The interface method.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>
- 
-
- 
 

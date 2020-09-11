@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e2e6be6f-3a9d-4d39-875f-cd23bc82e74b
 ms.date: 12/05/2018
 ms.keywords: GetSegmentData, GetSegmentData method [XPS Documents and Packaging], GetSegmentData method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentData method, IXpsOMGeometryFigure.GetSegmentData, IXpsOMGeometryFigure::GetSegmentData, xps.ixpsomgeometryfigure_getsegmentdata, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentData
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.GetSegmentData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::GetSegmentData
+ - xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.GetSegmentData
 ---
 
 # IXpsOMGeometryFigure::GetSegmentData
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the segment data points for the geometry figure.
 
-
 ## -parameters
-
-
-
 
 ### -param dataCount [in, out]
 
@@ -68,17 +64,13 @@ If <i>segmentData</i> is set to <b>NULL</b> when the method is called,   <i>data
 
   If a <b>NULL</b> pointer is returned in <i>segmentData</i>, <i>dataCount</i> will contain the required buffer size as the number of elements.
 
-
 ### -param segmentData [in, out]
 
 The address of an array that has the same number of elements as specified in <i>dataCount</i>. This value can be set to <b>NULL</b> if the caller requires that the method return only the required buffer size in <i>dataCount</i>.
 
 If the array is large enough, this method copies the segment data points into the array and  returns, in <i>dataCount</i>, the number of data points that are copied. If <i>segmentData</i> is set to <b>NULL</b> or references a buffer that is not large enough, a <b>NULL</b> pointer will be returned, no data will be copied, and <i>dataCount</i> will contain the  required buffer size specified as the number of elements.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -121,14 +113,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To determine the required size of the segment data array before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdatacount">GetSegmentDataCount</a>. 
 
@@ -425,14 +411,7 @@ The following code example accesses the different data points of each segment ty
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentcount">GetSegmentCount</a>
 
@@ -455,7 +434,4 @@ The following code example accesses the different data points of each segment ty
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

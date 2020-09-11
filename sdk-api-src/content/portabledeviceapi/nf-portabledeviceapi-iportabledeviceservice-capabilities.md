@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 62ef0c63-2908-458f-8e9f-eb6150441380
 ms.date: 12/05/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Capabilities method, IPortableDeviceService.Capabilities, IPortableDeviceService::Capabilities, portabledeviceapi/IPortableDeviceService::Capabilities, wpdsdk.iportabledeviceservice_capabilities
-f1_keywords:
-- portabledeviceapi/IPortableDeviceService.Capabilities
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceService.Capabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceService::Capabilities
+ - portabledeviceapi/IPortableDeviceService::Capabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceService.Capabilities
 ---
 
 # IPortableDeviceService::Capabilities
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Capabilities</b> method retrieves the service capabilities.
 
-
 ## -parameters
-
-
-
 
 ### -param ppCapabilities [out]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities</a> interface specifying the capabilities of the service.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,15 +90,8 @@ A <b>NULL</b> parameter was specified.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
 
@@ -120,7 +106,4 @@ A <b>NULL</b> parameter was specified.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-methods">Retrieving Supported Service Methods</a>
- 
-
- 
 

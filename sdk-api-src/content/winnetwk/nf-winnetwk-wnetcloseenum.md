@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: c68fd9de-9f24-41f0-8b59-2d083fec8abf
 ms.date: 12/05/2018
 ms.keywords: WNetCloseEnum, WNetCloseEnum function [Windows Networking (WNet)], _win32_wnetcloseenum, winnetwk/WNetCloseEnum, wnet.wnetcloseenum
-f1_keywords:
-- winnetwk/WNetCloseEnum
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetCloseEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetCloseEnum
+ - winnetwk/WNetCloseEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetCloseEnum
 ---
 
 # WNetCloseEnum function
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetCloseEnum</b> function ends a network resource enumeration started by a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnum [in]
 
 Handle that identifies an enumeration instance. This handle must be returned by the 
 <b>WNetOpenEnum</b> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -115,15 +108,8 @@ A network-specific error occurred. To obtain a description of the error, call th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>
 
@@ -140,7 +126,4 @@ A network-specific error occurred. To obtain a description of the error, call th
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

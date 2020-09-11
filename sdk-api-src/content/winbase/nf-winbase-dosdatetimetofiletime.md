@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 33459ef5-e310-4fe0-bdda-e1db2ffd4888
 ms.date: 12/05/2018
 ms.keywords: DosDateTimeToFileTime, DosDateTimeToFileTime function, _win32_dosdatetimetofiletime, base.dosdatetimetofiletime, winbase/DosDateTimeToFileTime
-f1_keywords:
-- winbase/DosDateTimeToFileTime
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- DosDateTimeToFileTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DosDateTimeToFileTime
+ - winbase/DosDateTimeToFileTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - DosDateTimeToFileTime
 ---
 
 # DosDateTimeToFileTime function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts MS-DOS date and time values to a file time.
 
-
 ## -parameters
-
-
-
 
 ### -param wFatDate [in]
 
@@ -90,8 +86,6 @@ The MS-DOS date. The date is a packed value with the following format.
 <td>Year offset from 1980 (add 1980 to get actual year)</td>
 </tr>
 </table>
- 
-
 
 ### -param wFatTime [in]
 
@@ -117,31 +111,20 @@ The MS-DOS time. The time is a packed value with the following format.
 <td>Hour (0–23 on a 24-hour clock)</td>
 </tr>
 </table>
- 
-
 
 ### -param lpFileTime [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the converted file time.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
@@ -160,7 +143,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
- 
-
- 
 

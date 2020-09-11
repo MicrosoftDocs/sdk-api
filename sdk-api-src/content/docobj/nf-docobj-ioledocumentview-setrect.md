@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 994eddef-65e6-4ccd-92e7-1e76a7c11681
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetRect method, IOleDocumentView.SetRect, IOleDocumentView::SetRect, SetRect, SetRect method [COM], SetRect method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrect, com.ioledocumentview_setrect, docobj/IOleDocumentView::SetRect
-f1_keywords:
-- docobj/IOleDocumentView.SetRect
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.SetRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::SetRect
+ - docobj/IOleDocumentView::SetRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.SetRect
 ---
 
 # IOleDocumentView::SetRect
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the rectangular coordinates of the viewport in which the view is to be activated or resets the coordinates of the viewport in which a view is currently activated.
 
-
 ## -parameters
-
-
-
 
 ### -param prcView [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the viewport.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -86,14 +79,8 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For a single document interface (SDI) application, the viewport is the client area of the frame window minus the space allocated for toolbars, status bar, and such. For a multiple document interface (MDI) window, the viewport is the client area of the MDI document window minus any other frame-level user-interface elements.
 
@@ -109,16 +96,7 @@ This method is defined with the [input_sync] attribute, which means that the vie
 
 A document view must implement this method completely; E_NOTIMPL is not an acceptable return value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: d3f74c1e-49ef-40ee-a2f4-b6d198b57624
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packaging], IXpsOMGeometry interface [XPS Documents and Packaging],described, xps.ixpsomgeometry, xpsobjectmodel/IXpsOMGeometry
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometry
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometry
+ - xpsobjectmodel/IXpsOMGeometry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometry
 ---
 
 # IXpsOMGeometry interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the shape of a path or of a clipping region.
-
 
 ## -inheritance
 
@@ -155,12 +154,9 @@ Sets the lookup key name of a shared matrix transform in a resource dictionary.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -198,14 +194,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-creategeometry">IXpsOMObjectFactory::CreateGeometry</a>
 
@@ -220,7 +209,4 @@ else
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

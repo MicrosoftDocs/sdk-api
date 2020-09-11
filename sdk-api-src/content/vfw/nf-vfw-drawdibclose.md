@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 61f9784e-4992-43d2-9770-17c3a8e5078b
 ms.date: 12/05/2018
 ms.keywords: DrawDibClose, DrawDibClose function [Windows Multimedia], _win32_DrawDibClose, multimedia.drawdibclose, vfw/DrawDibClose
-f1_keywords:
-- vfw/DrawDibClose
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- DrawDibClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawDibClose
+ - vfw/DrawDibClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - DrawDibClose
 ---
 
 # DrawDibClose function
@@ -49,39 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DrawDibClose</b> function closes a DrawDib DC and frees the resources DrawDib allocated for it.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hdd
 
 Handle to a DrawDib DC.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
- 
-
- 
 

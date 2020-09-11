@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7063416c-b132-4b3a-bb2b-d27fccea25e4
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore3, IAzAuthorizationStore3 interface [Security], IAzAuthorizationStore3 interface [Security],described, azroles/IAzAuthorizationStore3, security.iazauthorizationstore3
-f1_keywords:
-- azroles/IAzAuthorizationStore3
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzAuthorizationStore3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore3
+ - azroles/IAzAuthorizationStore3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzAuthorizationStore3
 ---
 
 # IAzAuthorizationStore3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzAuthorizationStore3</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore2">IAzAuthorizationStore2</a> interface with methods that manage business rule (BizRule) support and caching.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Upgrades this authorization store from version 1 to version 2.
 
 </td>
 </tr>
-</table> 
+</table>
 

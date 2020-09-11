@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 54b85347-cdc1-42e3-bc26-0b50bd58131a
 ms.date: 12/05/2018
 ms.keywords: DeleteRequestCert property [Security], DeleteRequestCert property [Security],IEnroll interface, IEnroll interface [Security],DeleteRequestCert property, IEnroll.DeleteRequestCert, IEnroll.get_DeleteRequestCert, IEnroll::DeleteRequestCert, IEnroll::get_DeleteRequestCert, IEnroll::put_DeleteRequestCert, get_DeleteRequestCert, security.ienroll4_deleterequestcert, xenroll/IEnroll::DeleteRequestCert, xenroll/IEnroll::get_DeleteRequestCert, xenroll/IEnroll::put_DeleteRequestCert
-f1_keywords:
-- xenroll/IEnroll.DeleteRequestCert
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.DeleteRequestCert
-- IEnroll.get_DeleteRequestCert
-- IEnroll.put_DeleteRequestCert
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_DeleteRequestCert
+ - xenroll/IEnroll::get_DeleteRequestCert
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.DeleteRequestCert
+ - IEnroll.get_DeleteRequestCert
+ - IEnroll.put_DeleteRequestCert
 ---
 
 # IEnroll::get_DeleteRequestCert
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -63,14 +63,9 @@ The default value for this property is  true. This property was first defined in
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>DeleteRequestCert</b> property affects the behavior of the following methods:
 
@@ -83,17 +78,7 @@ The <b>DeleteRequestCert</b> property affects the behavior of the following meth
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

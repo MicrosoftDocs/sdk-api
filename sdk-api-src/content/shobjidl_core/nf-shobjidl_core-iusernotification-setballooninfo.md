@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: bd782a4b-fe3c-419b-ad55-ea3faf12e628
 ms.date: 12/05/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetBalloonInfo method, IUserNotification.SetBalloonInfo, IUserNotification::SetBalloonInfo, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, SetBalloonInfo, SetBalloonInfo method [Windows Shell], SetBalloonInfo method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetBalloonInfo, shell.IUserNotification_SetBalloonInfo, shobjidl_core/IUserNotification::SetBalloonInfo
-f1_keywords:
-- shobjidl_core/IUserNotification.SetBalloonInfo
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IUserNotification.SetBalloonInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserNotification::SetBalloonInfo
+ - shobjidl_core/IUserNotification::SetBalloonInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IUserNotification.SetBalloonInfo
 ---
 
 # IUserNotification::SetBalloonInfo
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the information to be displayed in a balloon notification.
 
-
 ## -parameters
-
-
-
 
 ### -param pszTitle [in]
 
@@ -64,13 +60,11 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a Unicode string that specifies the title of the notification.
 
-
 ### -param pszText [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a Unicode string that specifies the text to be displayed in the body of the balloon.
-
 
 ### -param dwInfoFlags [in]
 
@@ -143,14 +137,9 @@ If the current user is not in quiet time, this flag has no effect.
 
 0x0000000F. <b>Windows XP</b> (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 6.0</a><b>) and later</b>. Reserved.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

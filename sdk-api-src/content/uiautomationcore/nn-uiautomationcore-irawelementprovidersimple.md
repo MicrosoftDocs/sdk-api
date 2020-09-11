@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: f0ec6185-acd0-4df7-88f4-fd00747f98bf
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderSimple, IRawElementProviderSimple interface [Windows Accessibility], IRawElementProviderSimple interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderSimple, uiauto_IRawElementProviderSimple, uiautomationcore/IRawElementProviderSimple, winauto.uiauto_IRawElementProviderSimple
-f1_keywords:
-- uiautomationcore/IRawElementProviderSimple
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IRawElementProviderSimple
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderSimple
+ - uiautomationcore/IRawElementProviderSimple
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IRawElementProviderSimple
 ---
 
 # IRawElementProviderSimple interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods and properties that expose simple UI elements.
-
 
 ## -inheritance
 
@@ -127,12 +126,9 @@ Specifies the type of UI Automation provider; for example, whether it is a clien
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface can be implemented on:
 			
@@ -144,13 +140,7 @@ This interface can be implemented on:
 Providers for complex elements must also implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> and, if they 
 			are root elements, <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
 
@@ -161,7 +151,4 @@ Providers for complex elements must also implement <a href="https://docs.microso
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 6293d8e3-cc5b-4401-8fdc-86f5d03720ea
 ms.date: 12/05/2018
 ms.keywords: IUnsecuredApartment, IUnsecuredApartment interface [Windows Management Instrumentation], IUnsecuredApartment interface [Windows Management Instrumentation],described, UnsecuredApartment, _hmm_iunsecuredapartment, wbemcli/IUnsecuredApartment, wmi.iunsecuredapartment
-f1_keywords:
-- wbemcli/IUnsecuredApartment
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Unsecapp.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Unsecapp.exe
-api_name:
-- IUnsecuredApartment
-- UnsecuredApartment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUnsecuredApartment
+ - wbemcli/IUnsecuredApartment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Unsecapp.exe
+api_name:
+ - IUnsecuredApartment
+ - UnsecuredApartment
 ---
 
 # IUnsecuredApartment interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUnsecuredApartment</b> interface is used to simplify the process of making asynchronous calls from a client process. When a client is making asynchronous calls, the roles of the client and the server are reversed. In this case, the client implements an object (<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> interface) and the server calls the methods of that object. Because of this, COM security rules for servers make it difficult for clients to make asynchronous calls. The primary difficulty is the fact that the client needs to inform COM that it will allow Windows Management to invoke methods on the client's object (<b>IWbemObjectSink</b>).
-
 
 ## -inheritance
 
@@ -79,22 +78,13 @@ Creates an object stub to assist in making asynchronous calls from a client proc
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IUnsecuredApartment</b> allows WMI to create a separate process to handle callbacks. Using this interface creates security risks, as described in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>. Semisynchronous access or performing access checks are recommended instead of asynchronous calls. For more information and an example of using <b>IUnsecuredApartment</b>, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/lowering-the-security-for-a-sink-in-a-separate-process">Lowering the Security for a Sink in a Separate Process</a>. Use <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemunsecuredapartment">IWbemUnsecuredApartment::CreateSinkStub</a> for a more secure approach.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
@@ -117,7 +107,4 @@ Creates an object stub to assist in making asynchronous calls from a client proc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: b7003fcc-bff1-449d-8849-c02932880114
 ms.date: 12/05/2018
 ms.keywords: DhcpServerRestoreDatabase, DhcpServerRestoreDatabase function [DHCP], dhcp.dhcpserverrestoredatabase, dhcpsapi/DhcpServerRestoreDatabase
-f1_keywords:
-- dhcpsapi/DhcpServerRestoreDatabase
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpServerRestoreDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpServerRestoreDatabase
+ - dhcpsapi/DhcpServerRestoreDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpServerRestoreDatabase
 ---
 
 # DhcpServerRestoreDatabase function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpServerRestoreDatabase</b> function restores the settings, configuration, and records for a client lease database from a specific backup location (path).
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param Path [in]
 
 Unicode string that specifies the full absolute path and filename to the backup file from which the registry configuration file and client lease database will be restored. Note that this operation will overwrite any database currently held in memory.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -102,22 +94,12 @@ An error occurred while accessing the DHCP server's database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpscandatabase">DhcpScanDatabase</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserverbackupdatabase">DhcpServerBackupDatabase</a>
- 
-
- 
 

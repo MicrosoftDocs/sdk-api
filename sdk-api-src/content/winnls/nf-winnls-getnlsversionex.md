@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 255e6774-eb70-41db-a372-8796166ee8d6
 ms.date: 12/05/2018
 ms.keywords: GetNLSVersionEx, GetNLSVersionEx function [Internationalization for Windows Applications], _win32_GetNLSVersionEx, intl.getnlsversionex, winnls/GetNLSVersionEx
-f1_keywords:
-- winnls/GetNLSVersionEx
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetNLSVersionEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNLSVersionEx
+ - winnls/GetNLSVersionEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetNLSVersionEx
 ---
 
 # GetNLSVersionEx function
@@ -56,21 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the current version of a specified NLS capability for a locale specified by name.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param function [in]
 
 The NLS capability to query. This value must be COMPARE_STRING. See the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-sysnls_function">SYSNLS_FUNCTION</a> enumeration.
-
 
 ### -param lpLocaleName [in, optional]
 
@@ -97,8 +91,6 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if and only if the application has supplied valid values in <i>lpVersionInformation</i>, or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
@@ -107,11 +99,7 @@ Returns <b>TRUE</b> if and only if the application has supplied valid values in 
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function allows an application such as Active Directory to determine if an NLS change affects the locale used for a particular index table. If it does not, there is no need to re-index the table. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>. In particular, to tell if a sort version changed and you need to reindex:
 
@@ -133,13 +121,7 @@ This function supports <a href="https://docs.microsoft.com/windows/desktop/Intl/
 
 <b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>
 
@@ -170,7 +152,4 @@ This function supports <a href="https://docs.microsoft.com/windows/desktop/Intl/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-sysnls_function">SYSNLS_FUNCTION</a>
- 
-
- 
 

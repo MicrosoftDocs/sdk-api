@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 8225d0b4-b750-4580-83f5-dcffdf2ee67b
 ms.date: 12/05/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupAddSectionToDiskSpaceList, SetupAddSectionToDiskSpaceList function [Setup API], SetupAddSectionToDiskSpaceListA, SetupAddSectionToDiskSpaceListW, _setupapi_setupaddsectiontodiskspacelist, setup.setupaddsectiontodiskspacelist, setupapi/SetupAddSectionToDiskSpaceList, setupapi/SetupAddSectionToDiskSpaceListA, setupapi/SetupAddSectionToDiskSpaceListW
-f1_keywords:
-- setupapi/SetupAddSectionToDiskSpaceList
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupAddSectionToDiskSpaceList
-- SetupAddSectionToDiskSpaceListA
-- SetupAddSectionToDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupAddSectionToDiskSpaceListW
+ - setupapi/SetupAddSectionToDiskSpaceListW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupAddSectionToDiskSpaceList
+ - SetupAddSectionToDiskSpaceListA
+ - SetupAddSectionToDiskSpaceListW
 ---
 
 # SetupAddSectionToDiskSpaceListW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
@@ -59,31 +59,23 @@ The
 
 Target disk compression is ignored by this function. Files are assumed to occupy their full size on the target disk.
 
-
 ## -parameters
-
-
-
 
 ### -param DiskSpace [in]
 
 Handle to the disk-space list.
 
-
 ### -param InfHandle [in]
 
 Handle to an open INF file that contains the <b>SourceDisksFiles</b> section. If <i>ListInfHandle</i> is not specified, this INF file must also contain the section named by <i>SectionName</i>.
-
 
 ### -param ListInfHandle [in]
 
 Optional handle to an open INF file that contains the section specified by <i>SectionName</i>. Otherwise, <i>InfHandle</i> is assumed to contain this section.
 
-
 ### -param SectionName [in]
 
 Name of the <b>Copy Files</b> or <b>Delete Files</b> section that contains the file operations to add to the disk-space list. Use a null-terminated string.
-
 
 ### -param Operation [in]
 
@@ -117,34 +109,23 @@ A file copy operation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved1 [in]
 
 Must be zero.
 
-
 ### -param Reserved2 [in]
 
 Must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function requires a Windows INF file. Some older INF file  formats may not be supported. 
 
@@ -156,9 +137,6 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 > The setupapi.h header defines SetupAddSectionToDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -177,7 +155,4 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupremovesectionfromdiskspacelista">SetupRemoveSectionFromDiskSpaceList</a>
- 
-
- 
 

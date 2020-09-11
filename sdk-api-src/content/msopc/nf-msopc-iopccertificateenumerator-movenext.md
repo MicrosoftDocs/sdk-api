@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 81918b97-0d10-4d7c-aaad-fc886d55e664
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcCertificateEnumerator.MoveNext, IOpcCertificateEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MoveNext, opc.iopccertificateenumerator_movenext
-f1_keywords:
-- msopc/IOpcCertificateEnumerator.MoveNext
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcCertificateEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcCertificateEnumerator::MoveNext
+ - msopc/IOpcCertificateEnumerator::MoveNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcCertificateEnumerator.MoveNext
 ---
 
 # IOpcCertificateEnumerator::MoveNext
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the current position of the enumerator to the next <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param hasNext [out, retval]
 
@@ -92,12 +88,8 @@ The current position of the enumerator has been advanced past the end of the col
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,15 +145,8 @@ The enumerator is invalid because the underlying set has changed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certificates">Certificates</a>
 
@@ -208,7 +193,4 @@ The enumerator is invalid because the underlying set has changed.
 
 
 <b>Reference</b>
- 
-
- 
 

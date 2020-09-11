@@ -8,10 +8,6 @@ tech.root: hid
 ms.assetid: 23bef39d-0254-4b8e-9059-32665d35b5cf
 ms.date: 12/05/2018
 ms.keywords: Escape, Escape method [Human Input Devices], Escape method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],Escape method, IDirectInputEffectDriver.Escape, IDirectInputEffectDriver::Escape, di_ref_14789995-a66d-4f0b-9ac4-de0852996da6.xml, dinputd/IDirectInputEffectDriver::Escape, hid.idirectinputeffectdriver_escape
-f1_keywords:
-- dinputd/IDirectInputEffectDriver.Escape
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dinputd.h
-api_name:
-- IDirectInputEffectDriver.Escape
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectInputEffectDriver::Escape
+ - dinputd/IDirectInputEffectDriver::Escape
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dinputd.h
+api_name:
+ - IDirectInputEffectDriver.Escape
 ---
 
 # IDirectInputEffectDriver::Escape
@@ -49,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This method is called in response to an application invoking the <b>IDirectInputEffect::Escape</b> or <b>IDirectInputDevice::Escape</b> methods. 
-
+The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This method is called in response to an application invoking the <b>IDirectInputEffect::Escape</b> or <b>IDirectInputDevice::Escape</b> methods.
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-Indicates the joystick ID number being used. 
-
+Indicates the joystick ID number being used.
 
 ### -param arg2
 
-Specifies the effect at which the command is directed, or zero if the command is directed at the device itself and not any particular effect. 
-
+Specifies the effect at which the command is directed, or zero if the command is directed at the device itself and not any particular effect.
 
 ### -param arg3
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dinput/ns-dinput-dieffescape">DIEFFESCAPE</a> structure that describes the command to be sent. On success, the <b>cbOutBuffer</b> member contains the number of output buffer bytes actually used. 
-
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dinput/ns-dinput-dieffescape">DIEFFESCAPE</a> structure that describes the command to be sent. On success, the <b>cbOutBuffer</b> member contains the number of output buffer bytes actually used.
 
 ## -returns
 
-
-
-Returns S_OK if successful; otherwise, returns an error code. 
-
-
+Returns S_OK if successful; otherwise, returns an error code.
 

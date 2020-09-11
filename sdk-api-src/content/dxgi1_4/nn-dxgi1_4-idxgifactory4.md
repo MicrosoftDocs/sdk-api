@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 248CF7CF-BC7D-430F-9EA1-638A42AAC021
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory4, IDXGIFactory4 interface [DXGI], IDXGIFactory4 interface [DXGI],described, direct3ddxgi.idxgifactory4, dxgi1_4/IDXGIFactory4
-f1_keywords:
-- dxgi1_4/IDXGIFactory4
-dev_langs:
-- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIFactory4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIFactory4
+ - dxgi1_4/IDXGIFactory4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIFactory4
 ---
 
 # IDXGIFactory4 interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
-        
-
 
 ## -inheritance
 
@@ -90,13 +88,9 @@ Provides an adapter which can be provided to D3D12CreateDevice to use the WARP r
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
@@ -111,7 +105,4 @@ Provides an adapter which can be provided to D3D12CreateDevice to use the WARP r
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>
- 
-
- 
 

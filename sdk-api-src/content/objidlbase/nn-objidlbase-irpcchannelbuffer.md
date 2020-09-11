@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20
 ms.date: 12/05/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBuffer interface [COM],described, _com_irpcchannelbuffer, com.irpcchannelbuffer, objidlbase/IRpcChannelBuffer
-f1_keywords:
-- objidlbase/IRpcChannelBuffer
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IRpcChannelBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRpcChannelBuffer
+ - objidlbase/IRpcChannelBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IRpcChannelBuffer
 ---
 
 # IRpcChannelBuffer interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marshals data between a COM client proxy and a COM server stub.
-
-
 
 ## -inheritance
 
@@ -114,13 +112,9 @@ Sends a method invocation across an RPC channel to the server stub.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
@@ -131,7 +125,4 @@ Sends a method invocation across an RPC channel to the server stub.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 0b27b86d-6e55-4022-84ce-d4116d71f124
 ms.date: 12/05/2018
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, InternetGetConnectedStateEx, InternetGetConnectedStateEx function [WinINet], InternetGetConnectedStateExA, InternetGetConnectedStateExW, _inet_internetgetconnectedstateex_function, wininet.internetgetconnectedstateex, winineti/InternetGetConnectedStateEx, winineti/InternetGetConnectedStateExA, winineti/InternetGetConnectedStateExW
-f1_keywords:
-- winineti/InternetGetConnectedStateEx
-dev_langs:
-- c++
 req.header: winineti.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetGetConnectedStateEx
-- InternetGetConnectedStateExA
-- InternetGetConnectedStateExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetGetConnectedStateExW
+ - winineti/InternetGetConnectedStateExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetGetConnectedStateEx
+ - InternetGetConnectedStateExA
+ - InternetGetConnectedStateExW
 ---
 
 # InternetGetConnectedStateExW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  Using this API is not recommended, use the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-getconnectivity">INetworkListManager::GetConnectivity</a> method instead.</div><div> </div>Retrieves the connected state of the specified Internet connection.
 
-
 ## -parameters
-
-
-
 
 ### -param lpdwFlags [out]
 
@@ -136,18 +132,14 @@ Local system uses a proxy server to connect to the Internet.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszConnectionName [out]
 
 Pointer to a string value that receives the connection name.
 
-
 ### -param cchNameLen
 
 TBD
-
 
 ### -param dwReserved [in]
 
@@ -159,21 +151,13 @@ This parameter is reserved and must be <b>NULL</b>.
 Size of the 
 <i>lpszConnectionName</i> string, in <b>TCHARs</b>.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if there is an Internet connection, or <b>FALSE</b> if there is no Internet connection, or if all possible Internet connections are not currently active. For more information, see the Remarks section.
 
 When <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetconnectedstate">InternetGetConnectedState</a> returns <b>FALSE</b>, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to retrieve the error code.
 
-
-
-
 ## -remarks
-
-
 
 A return value of <b>TRUE</b> from <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetconnectedstate">InternetGetConnectedState</a> indicates that at least one connection to the Internet is available.  It does not guarantee that a connection to a specific host can be established.    Applications should always check for errors returned from API calls that connect to a server. <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcheckconnectiona">InternetCheckConnection</a> can be called to determine if a connection to a specific destination can be established.
 
@@ -192,15 +176,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/establishing-a-dial-up-connection-to-the-internet">Establishing a Dial-Up Connection to the Internet</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

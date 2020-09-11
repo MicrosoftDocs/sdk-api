@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d
 ms.date: 12/05/2018
 ms.keywords: GetThreadPreferredUILanguages, GetThreadPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MERGE_SYSTEM_FALLBACK, MUI_MERGE_USER_FALLBACK, MUI_THREAD_LANGUAGES, MUI_UI_FALLBACK, _win32_GetThreadPreferredUILanguages, intl.getthreadpreferreduilanguages, winnls/GetThreadPreferredUILanguages
-f1_keywords:
-- winnls/GetThreadPreferredUILanguages
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetThreadPreferredUILanguages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThreadPreferredUILanguages
+ - winnls/GetThreadPreferredUILanguages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetThreadPreferredUILanguages
 ---
 
 # GetThreadPreferredUILanguages function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the thread preferred UI languages for the current thread. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -145,13 +141,10 @@ Retrieve a complete thread preferred UI languages list along with associated fal
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pulNumLanguages [out]
 
 Pointer to the number of languages retrieved in <i>pwszLanguagesBuffer</i>.
-
 
 ### -param pwszLanguagesBuffer [out, optional]
 
@@ -159,17 +152,13 @@ Optional. Pointer to a buffer in which this function retrieves an ordered, null-
 
 Alternatively if this parameter is set to <b>NULL</b> and <i>pcchLanguagesBuffer</i> is set to 0, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>. The required size includes the two null characters.
 
-
 ### -param pcchLanguagesBuffer [in, out]
 
 Pointer to the size, in characters, for the language buffer indicated by <i>pwszLanguagesBuffer</i>. On successful return from the function, the parameter contains the size of the retrieved language buffer.
 
-Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>. 
-
+Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>.
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns one of the following error codes:
 <ul>
@@ -179,12 +168,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 
 If the function fails for any other reason, the parameters <i>pulNumLanguages</i> and <i>pcchLanguagesBuffer</i> are undefined.
 
-
-
-
 ## -remarks
-
-
 
 Depending on the flags specified by the application, this function can retrieve a composite list consisting of the thread preferred UI languages, process preferred UI languages, user preferred UI languages or system preferred UI languages, and the system default UI language. If it encounters a duplicate language, the function only retrieves the first language.
 
@@ -213,14 +197,7 @@ If the application sets the MUI_LANGUAGE_ID flag, the thread preferred UI langua
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreaduilanguage">GetThreadUILanguage</a>
 
@@ -239,7 +216,4 @@ If the application sets the MUI_LANGUAGE_ID flag, the thread preferred UI langua
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a>
- 
-
- 
 

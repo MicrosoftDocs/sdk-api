@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1u0j.htm
 ms.date: 12/05/2018
 ms.keywords: FaxGetDeviceStatus, FaxGetDeviceStatus function [Fax Service], FaxGetDeviceStatusA, FaxGetDeviceStatusW, _mfax_faxgetdevicestatus, fax._mfax_faxgetdevicestatus, winfax/FaxGetDeviceStatus, winfax/FaxGetDeviceStatusA, winfax/FaxGetDeviceStatusW
-f1_keywords:
-- winfax/FaxGetDeviceStatus
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxGetDeviceStatus
-- FaxGetDeviceStatusA
-- FaxGetDeviceStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxGetDeviceStatusW
+ - winfax/FaxGetDeviceStatusW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxGetDeviceStatus
+ - FaxGetDeviceStatusA
+ - FaxGetDeviceStatusW
 ---
 
 # FaxGetDeviceStatusW function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxGetDeviceStatus</b> function returns to a fax client application current status information for the fax device of interest. The returned data includes, among other items, device and station identifiers, sender and recipient names, and routing information.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxPortHandle [in]
 
@@ -67,17 +63,13 @@ Type: <b>HANDLE</b>
 
 Specifies a fax port handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function.
 
-
 ### -param DeviceStatus [out]
 
 Type: <b>PFAX_DEVICE_STATUS*</b>
 
 Pointer to the address of a buffer to receive a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_device_statusa">FAX_DEVICE_STATUS</a> structure. The structure describes the status of one fax device. For information about memory allocation, see the following Remarks section
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -124,14 +116,8 @@ An error occurred during memory allocation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A fax administration application typically calls the <b>FaxGetDeviceStatus</b> function to display the status of a fax device associated with a fax server. The <b>FaxGetDeviceStatus</b> function allocates the memory required for the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_device_statusa">FAX_DEVICE_STATUS</a> buffer pointed to by the <i>DeviceStatus</i> parameter. An application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
 
@@ -145,9 +131,6 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 > The winfax.h header defines FaxGetDeviceStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_device_statusa">FAX_DEVICE_STATUS</a>
 
@@ -166,7 +149,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 0727ae8b-a66f-42a7-bc74-4c01bfff3855
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Next method, IEnumTfContexts.Next, IEnumTfContexts::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_next_ref, msctf/IEnumTfContexts::Next, tsf.ienumtfcontexts_next
-f1_keywords:
-- msctf/IEnumTfContexts.Next
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfContexts.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfContexts::Next
+ - msctf/IEnumTfContexts::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfContexts.Next
 ---
 
 # IEnumTfContexts::Next
+
 
 ## -description
 
@@ -111,3 +113,4 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfContexts interface](nn-msctf-ienumtfcontexts.md), [ITfContext interface](nn-msctf-itfcontext.md)
+

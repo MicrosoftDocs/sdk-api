@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\save.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],Save method, IFaxOutgoingMessage2.Save, IFaxOutgoingMessage2::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.save, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_save_cpp, fax._mfax_faxoutgoingmessage_save, faxcomex/IFaxOutgoingMessage2::Save
-f1_keywords:
-- faxcomex/IFaxOutgoingMessage2.Save
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutgoingMessage2.Save
-- IFaxOutgoingMessage2.Save
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutgoingMessage2::Save
+ - faxcomex/IFaxOutgoingMessage2::Save
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutgoingMessage2.Save
+ - IFaxOutgoingMessage2.Save
 ---
 
 # IFaxOutgoingMessage2::Save
 
 
 ## -description
-
 
 Saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object's data.
 
@@ -58,35 +58,17 @@ Saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To use this method, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum_2">far2MANAGE_CONFIG</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum_2">far2QUERY_CONFIG</a> access rights.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a>
 
@@ -97,7 +79,4 @@ To use this method, a user must have the <a href="https://docs.microsoft.com/pre
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage2">IFaxOutgoingMessage2</a>
- 
-
- 
 

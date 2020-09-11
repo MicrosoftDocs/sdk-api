@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2usk.htm
 ms.date: 12/05/2018
 ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],DiscountSend property, IFaxDoc.DiscountSend, IFaxDoc.put_DiscountSend, IFaxDoc::DiscountSend, IFaxDoc::get_DiscountSend, IFaxDoc::put_DiscountSend, _mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_discountsend_cpp, faxcom/IFaxDoc::DiscountSend, faxcom/IFaxDoc::get_DiscountSend, faxcom/IFaxDoc::put_DiscountSend, put_DiscountSend
-f1_keywords:
-- faxcom/IFaxDoc.DiscountSend
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxDoc.DiscountSend
-- IFaxDoc.get_DiscountSend
-- IFaxDoc.put_DiscountSend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDoc::put_DiscountSend
+ - faxcom/IFaxDoc::put_DiscountSend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxDoc.DiscountSend
+ - IFaxDoc.get_DiscountSend
+ - IFaxDoc.put_DiscountSend
 ---
 
 # IFaxDoc::put_DiscountSend
@@ -51,28 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves the <b>DiscountSend</b> property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The <b>DiscountSend</b> property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 To determine the period during which the discount rate applies, you can call the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a> methods: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-discountratestartminute-vb">DiscountRateStartMinute</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-discountrateendminute-vb">DiscountRateEndMinute</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-discountratestarthour-vb">DiscountRateStartHour</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-discountrateendhour-vb">DiscountRateEndHour</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-discountrateendhour-vb">DiscountRateEndHour</a>
 
@@ -99,7 +89,4 @@ To determine the period during which the discount rate applies, you can call the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a>
- 
-
- 
 

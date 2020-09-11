@@ -6,10 +6,6 @@ tech.root: direct3d12
 helpviewer_keywords: ["D3D12_DRED_ENABLEMENT","D3D12_DRED_ENABLEMENT enumeration","d3d12/D3D12_DRED_ENABLEMENT","d3d12/D3D12_DRED_ENABLEMENT enumeration","direct3d12.d3d12_dred_enablement"]
 ms.date: 02/07/2019
 ms.keywords: D3D12_DRED_ENABLEMENT, D3D12_DRED_ENABLEMENT enumeration, d3d12/D3D12_DRED_ENABLEMENT, d3d12/D3D12_DRED_ENABLEMENT enumeration, direct3d12.d3d12_dred_enablement
-f1_keywords:
-- d3d12/D3D12_DRED_ENABLEMENT
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,18 +18,24 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: D3D12_DRED_ENABLEMENT
 req.umdf-ver: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_DRED_ENABLEMENT
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_DRED_ENABLEMENT
+ - d3d12/D3D12_DRED_ENABLEMENT
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_DRED_ENABLEMENT
 ---
 
 # D3D12_DRED_ENABLEMENT enumeration
+
 
 ## -description
 
@@ -59,3 +61,4 @@ Specifies that a DRED feature should be force-enabled, regardless of the system 
 
 * [Core enumerations](/windows/desktop/direct3d12/direct3d-12-enumerations)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

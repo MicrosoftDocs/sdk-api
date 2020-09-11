@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_55d1.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],Title property, IFaxSender.Title, IFaxSender.get_Title, IFaxSender.put_Title, IFaxSender::Title, IFaxSender::get_Title, IFaxSender::put_Title, Title property [Fax Service], Title property [Fax Service],IFaxSender interface, _mfax_faxsender.title, fax._mfax_faxsender_cpp_mfax_faxsender_title_cpp, fax._mfax_faxsender_title, faxcomex/IFaxSender::Title, faxcomex/IFaxSender::get_Title, faxcomex/IFaxSender::put_Title, put_Title
-f1_keywords:
-- faxcomex/IFaxSender.Title
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxSender.Title
-- IFaxSender.get_Title
-- IFaxSender.put_Title
-- IFaxSender.get_Title
-- IFaxSender.put_Title
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxSender::put_Title
+ - faxcomex/IFaxSender::put_Title
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxSender.Title
+ - IFaxSender.get_Title
+ - IFaxSender.put_Title
+ - IFaxSender.get_Title
+ - IFaxSender.put_Title
 ---
 
 # IFaxSender::put_Title
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxSender::get_Title</b> property is a null-terminated string that contains the title associated with the sender.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
 
@@ -76,7 +71,4 @@ This property is read/write.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
- 
-
- 
 

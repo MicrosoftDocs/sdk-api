@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: f2f9c03b-4f57-4087-8fef-5cdccece91d9
 ms.date: 12/05/2018
 ms.keywords: IGetAppTrackerData, IGetAppTrackerData interface [COM+], IGetAppTrackerData interface [COM+],described, comsvcs/IGetAppTrackerData, cos.igetapptrackerdata
-f1_keywords:
-- comsvcs/IGetAppTrackerData
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IGetAppTrackerData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetAppTrackerData
+ - comsvcs/IGetAppTrackerData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IGetAppTrackerData
 ---
 
 # IGetAppTrackerData interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables administrative applications to retrieve statistical information about running COM+ applications.
-
 
 ## -inheritance
 
@@ -131,12 +130,9 @@ Retrieves tracking data for all COM+ applications in the form of a collection ob
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Applications that use tracker data will usually need to poll the Tracker Server periodically to ensure that this data is up-to-date. For example, an administrative application that displays tracking data to the user would typically want this data to be near as possible to real-time. However, polling too frequently can degrade overall system performance. Also keep in mind that the COM+ applications updating the data do not send updates to the Tracker Server immediately, so even in the best case there will be some delay (typically only a few seconds).
 
@@ -146,8 +142,4 @@ The polling interval is by default equal to the tracking event frequency (three 
 
 
 <b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3</b>&#92;<b>TrackingInfoPollingFrequency</b> = <i>minimum polling interval in seconds</i>
-
-
-
-
 

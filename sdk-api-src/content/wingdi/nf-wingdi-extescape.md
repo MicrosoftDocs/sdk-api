@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f
 ms.date: 12/05/2018
 ms.keywords: CHECKJPEGFORMAT, CHECKPNGFORMAT, DRAWPATTERNRECT, ExtEscape, ExtEscape function [Windows GDI], GETTECHNOLOGY, GET_PS_FEATURESETTING, PASSTHROUGH, POSTSCRIPT_DATA, POSTSCRIPT_IDENTIFY, POSTSCRIPT_INJECTION, POSTSCRIPT_PASSTHROUGH, QUERYESCSUPPORT, SPCLPASSTHROUGH2, _win32_ExtEscape, gdi.extescape, wingdi/ExtEscape
-f1_keywords:
-- wingdi/ExtEscape
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-RTCore-GDI-DevCaps-l1-1-1.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-api_name:
-- ExtEscape
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExtEscape
+ - wingdi/ExtEscape
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-RTCore-GDI-DevCaps-l1-1-1.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+api_name:
+ - ExtEscape
 ---
 
 # ExtEscape function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ExtEscape</b> function enables an application to access device capabilities that are not available through GDI.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
-
 
 ### -param iEscape [in]
 
@@ -195,41 +190,28 @@ Enables applications to include private procedures and other resources at the do
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cjInput [in]
 
 The number of bytes of data pointed to by the <i>lpszInData</i> parameter.
 
-
 ### -param lpInData [in]
 
 A pointer to the input structure required for the specified escape. See also Remarks.
-
 
 ### -param cjOutput [in]
 
 The number of bytes of data pointed to by the <i>lpszOutData</i> parameter.
 
-
 ### -param lpOutData [out]
 
 A pointer to the structure that receives output from this escape. This parameter must not be <b>NULL</b> if <b>ExtEscape</b> is called as a query function. If no data is to be returned in this structure, set <i>cbOutput</i> to 0. See also Remarks.
 
-
 ## -returns
-
-
 
 The return value specifies the outcome of the function. It is greater than zero if the function is successful, except for the QUERYESCSUPPORT printer escape, which checks for implementation only. The return value is zero if the escape is not implemented. A return value less than zero indicates an error.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
@@ -343,12 +325,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/sizi
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-escape">Escape</a>
 
@@ -363,7 +340,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/sizi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
 

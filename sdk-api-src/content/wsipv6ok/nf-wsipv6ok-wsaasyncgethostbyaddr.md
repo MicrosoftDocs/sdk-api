@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 814cbb2e-8dd2-44b0-b8be-cfc5491bdc49
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByAddr, WSAAsyncGetHostByAddr function [Winsock], _win32_wsaasyncgethostbyaddr_2, winsock.wsaasyncgethostbyaddr_2, wsipv6ok/WSAAsyncGetHostByAddr
-f1_keywords:
-- wsipv6ok/WSAAsyncGetHostByAddr
-dev_langs:
-- c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAAsyncGetHostByAddr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAsyncGetHostByAddr
+ - wsipv6ok/WSAAsyncGetHostByAddr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAAsyncGetHostByAddr
 ---
 
 # WSAAsyncGetHostByAddr macro
 
 
 ## -description
-
 
 The 
 <b>WSAAsyncGetHostByAddr</b> function asynchronously retrieves host information that corresponds to an address.
@@ -59,33 +59,25 @@ The
 
 ## -parameters
 
-
-
-
 ### -param a [in]
 
 Handle of the window that will receive a message when the asynchronous request completes.
-
 
 ### -param b [in]
 
 Message to be received when the asynchronous request completes.
 
-
 ### -param c [in]
 
 Pointer to the network address for the host. Host addresses are stored in network byte order.
-
 
 ### -param d [in]
 
 Length of the address, in bytes.
 
-
 ### -param e [in]
 
 Type of the address.
-
 
 ### -param f [out]
 
@@ -95,15 +87,11 @@ Pointer to the data area to receive the
 <b>hostent</b> structure and all of the data referenced by members of the 
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
-
 ### -param g [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
 
-
 ## -remarks
-
-
 
 The 
 <b>WSAAsyncGetHostByAddr</b> function is an asynchronous version of 
@@ -137,13 +125,7 @@ The error code and buffer length should be extracted from the <i>lParam</i> usin
 
 The use of these macros will maximize the portability of the source code for the application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest">WSACancelAsyncRequest</a>
 
@@ -170,7 +152,4 @@ The use of these macros will maximize the portability of the source code for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a>
- 
-
- 
 

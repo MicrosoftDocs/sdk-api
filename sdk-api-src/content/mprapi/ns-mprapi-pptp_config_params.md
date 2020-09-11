@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 0314c517-75be-4357-90bf-8a2a72d49542
 ms.date: 12/05/2018
 ms.keywords: '*PPPTP_CONFIG_PARAMS, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, PPPTP_CONFIG_PARAMS, PPPTP_CONFIG_PARAMS structure pointer [RAS], PPTP_CONFIG_PARAMS, PPTP_CONFIG_PARAMS structure [RAS], mprapi/PPPTP_CONFIG_PARAMS, mprapi/PPTP_CONFIG_PARAMS, rras.pptp_config_params'
-f1_keywords:
-- mprapi/PPTP_CONFIG_PARAMS
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- PPTP_CONFIG_PARAMS
 targetos: Windows
 req.typenames: PPTP_CONFIG_PARAMS, *PPPTP_CONFIG_PARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PPTP_CONFIG_PARAMS
+ - mprapi/_PPTP_CONFIG_PARAMS
+ - PPPTP_CONFIG_PARAMS
+ - mprapi/PPPTP_CONFIG_PARAMS
+ - PPTP_CONFIG_PARAMS
+ - mprapi/PPTP_CONFIG_PARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - PPTP_CONFIG_PARAMS
 ---
 
 # PPTP_CONFIG_PARAMS structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PPTP_CONFIG_PARAMS</b> structure is used to get and set the device configuration for Point-to-Point Tunneling Protocool (PPTP) on a RAS Server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumPorts
 
@@ -136,13 +136,8 @@ If set, routing is enabled on the device.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
 
@@ -153,7 +148,4 @@ If set, routing is enabled on the device.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
- 
-
- 
 

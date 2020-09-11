@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 2780760e-7114-46b0-a264-00ed58a556cb
 ms.date: 12/05/2018
 ms.keywords: GPM, IGPM, IGPM interface [GPMC], IGPM interface [GPMC],described, _win32_igpm, gpmc.igpm, gpmgmt/IGPM
-f1_keywords:
-- gpmgmt/IGPM
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPM
-- GPM
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPM
+ - gpmgmt/IGPM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPM
+ - GPM
 ---
 
 # IGPM interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPM</b> interface provides methods that access other interfaces of the Group Policy Management Console (GPMC) and methods that create other objects on which various search operations can be performed.
 
 The <b>GPM</b> object is the only object used with 
 the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function.
-
 
 ## -inheritance
 
@@ -192,20 +191,13 @@ Sets the location of .adm files that are specified by the user, and initiates re
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/gpmc-interfaces">GPMC Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

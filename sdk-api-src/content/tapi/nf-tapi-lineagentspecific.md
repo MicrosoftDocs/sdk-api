@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 4a1f2be4-4465-418a-9717-3857acf930a4
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineagentspecific, lineAgentSpecific, lineAgentSpecific function [TAPI 2.2], tapi/lineAgentSpecific, tapi2.lineagentspecific
-f1_keywords:
-- tapi/lineAgentSpecific
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineAgentSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineAgentSpecific
+ - tapi/lineAgentSpecific
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineAgentSpecific
 ---
 
 # lineAgentSpecific function
@@ -49,38 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineAgentSpecific</b> function allows the application to access proprietary handler-specific functions of the agent handler associated with the address. The meaning of the extensions are specific to the agent handler. Each set of agent-related extensions is identified by a universally unique 128-bit extension ID that must be obtained, along with the specification for the extension, from the promulgator of that extension (usually the author of the agent handler software on the telephony server). The list of extensions supported by the agent handler is obtained from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a> structure returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentcapsa">lineGetAgentCaps</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hLine
 
 Handle to the open line device.
 
-
 ### -param dwAddressID
 
 Address on the open line device. An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
-
 
 ### -param dwAgentExtensionIDIndex
 
 Position in the <b>ExtensionIDList</b> structure in 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a> of the agent handler extension being invoked.
 
-
 ### -param lpParams
 
 Pointer to a memory area used to hold a parameter block. The format of this parameter block is device specific and its contents are passed by TAPI to and from the agent handler application on the telephony server. This parameter block must specify the function to be invoked and include sufficient room for any data to be returned.
-
 
 ### -param dwSize
 
@@ -94,20 +86,13 @@ Size of the parameter block area, in bytes.
 
 ## -returns
 
-
-
 Returns a positive request identifier if the asynchronous operation starts; otherwise, this function returns one of these negative error values:
 
 LINEERR_INVALADDRESSID, LINEERR_INVALAGENTID, LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_INVALPOINTER, LINEERR_NOMEM, LINEERR_OPERATIONFAILED, LINEERR_OPERATIONUNAVAIL, LINEERR_RESOURCEUNAVAIL, LINEERR_STRUCTURETOOSMALL, LINEERR_UNINITIALIZED.
 
 Additional return values are specific to the agent handler.
 
-
-
-
 ## -remarks
-
-
 
 This operation is part of the Extended Telephony services. It provides access to an agent handler-specific feature without defining its meaning.
 
@@ -116,13 +101,7 @@ This function provides a generic parameter profile. The interpretation of the pa
 
 An agent handler can provide access to handler-specific functions by defining parameters for use with this function. Applications that want to make use of these extensions should consult the vendor-specific documentation that describes what extensions are defined. Typically, an application that relies on these extensions is not able to work with other agent handler environments.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>
 
@@ -137,7 +116,4 @@ An agent handler can provide access to handler-specific functions by defining pa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentcapsa">lineGetAgentCaps</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 385819d0-cf27-4f39-86be-140d1bc87d12
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media Player], IWMPMetadataPicture interface [Windows Media Player],described, IWMPMetadataPictureInterface, wmp.iwmpmetadatapicture, wmp/IWMPMetadataPicture
-f1_keywords:
-- wmp/IWMPMetadataPicture
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPMetadataPicture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMetadataPicture
+ - wmp/IWMPMetadataPicture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPMetadataPicture
 ---
 
 # IWMPMetadataPicture interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPMetadataPicture</b> interface provides methods for retrieving information about the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmpicture">WM/Picture</a> metadata attribute.
-
-
-
 
 ## -inheritance
 
@@ -107,16 +103,9 @@ Internal use only.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

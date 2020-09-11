@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 748649a2-cf75-4ffa-ac1f-4a148b845d21
 ms.date: 12/05/2018
 ms.keywords: GetConvertStg, GetConvertStg function [Structured Storage], _stg_getconvertstg, coml2api/GetConvertStg, stg.getconvertstg
-f1_keywords:
-- coml2api/GetConvertStg
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-api_name:
-- GetConvertStg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetConvertStg
+ - coml2api/GetConvertStg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+api_name:
+ - GetConvertStg
 ---
 
 # GetConvertStg function
@@ -51,37 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetConvertStg</b> function returns the current value of the convert bit for the specified storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param pStg [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the storage object from which the convert bit is to be retrieved.
 
-
 ## -returns
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstream">IStorage::OpenStream</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> storage and stream access errors.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>GetConvertStg</b> function is called by object servers that support the conversion of an object from one format to another. The server must be able to read the storage object using the format of its previous class identifier (CLSID) and write the object using the format of its new CLSID to support the object's conversion. For example, a spreadsheet created by one application can be converted to the format used by a different application.
@@ -95,16 +81,7 @@ Then, when the object is activated, its server calls the
 After retrieving the bit value, the object application should clear the convert bit by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-setconvertstg">SetConvertStg</a> function with its <i>fConvert</i> parameter set to <b>FALSE</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-setconvertstg">SetConvertStg</a>
- 
-
- 
 

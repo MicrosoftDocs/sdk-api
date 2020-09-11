@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DEFAULT_CONTAINER_OPTIONAL, CRYPT_DELETEKEYSET, CRYPT_MACHINE_KEYSET, CRYPT_NEWKEYSET, CRYPT_SILENT, CRYPT_VERIFYCONTEXT, CryptAcquireContext, CryptAcquireContext function [Security], CryptAcquireContextA, CryptAcquireContextW, _crypto2_cryptacquirecontext, security.cryptacquirecontext, wincrypt/CryptAcquireContext, wincrypt/CryptAcquireContextA, wincrypt/CryptAcquireContextW
-f1_keywords:
-- wincrypt/CryptAcquireContext
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptAcquireContext
-- CryptAcquireContextA
-- CryptAcquireContextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptAcquireContextA
+ - wincrypt/CryptAcquireContextA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptAcquireContext
+ - CryptAcquireContextA
+ - CryptAcquireContextW
 ---
 
 # CryptAcquireContextA function
 
 
 ## -description
-
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptAcquireContext</b> function is used to acquire a handle to a particular <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> within a particular <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This returned handle is used in calls to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CryptoAPI</a> functions that use the selected CSP.
 
@@ -61,23 +61,17 @@ This function first attempts to find a CSP with the characteristics described in
 
 With the appropriate setting of <i>dwFlags</i>, this function can also create and destroy key containers and can provide access to a CSP with a temporary key container if access to a private key is not required.
 
-
 ## -parameters
-
-
-
 
 ### -param phProv [out]
 
 A pointer to a handle of a CSP. When you have finished using the CSP, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function.
-
 
 ### -param szContainer [in]
 
 The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>pszContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publically available information in the specfied container.
 
 For more information about the usage of the <i>pszContainer</i> parameter, see Remarks.
-
 
 ### -param szProvider [in]
 
@@ -94,12 +88,10 @@ An application can obtain the name of the CSP in use by using the <a href="https
 
 The default CSP can change between operating system releases. To ensure interoperability on different operating system platforms, the CSP should be explicitly set by using this parameter instead of using the default CSP.
 
-
 ### -param dwProvType [in]
 
 Specifies the type of provider to acquire. Defined provider types are discussed in 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>.
-
 
 ### -param dwFlags [in]
 
@@ -213,12 +205,8 @@ Obtains a context for a smart card CSP that can be used for hashing and symmetri
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
@@ -474,14 +462,8 @@ An error occurred while loading the DLL file image, prior to verifying its signa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pszContainer</i> parameter specifies the name of the container that is used to hold the key. Each container can contain one key. If  you  specify the name of an existing container when creating keys, the new key will overwrite a previous one.
 
@@ -603,9 +585,6 @@ else
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
 
 
@@ -623,7 +602,4 @@ else
 
 
 <a href="https://docs.microsoft.com/previous-versions/aa388149(v=vs.85)">Threading Issues with Cryptographic Service Providers</a>
- 
-
- 
 

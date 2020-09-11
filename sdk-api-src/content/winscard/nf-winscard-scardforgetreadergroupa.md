@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c6c98542-01b6-4b23-88cf-a619faee882e
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardForgetReaderGroup, SCardForgetReaderGroup function [Security], SCardForgetReaderGroupA, SCardForgetReaderGroupW, _smart_scardforgetreadergroup, security.scardforgetreadergroup, winscard/SCardForgetReaderGroup, winscard/SCardForgetReaderGroupA, winscard/SCardForgetReaderGroupW
-f1_keywords:
-- winscard/SCardForgetReaderGroup
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardForgetReaderGroup
-- SCardForgetReaderGroupA
-- SCardForgetReaderGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardForgetReaderGroupA
+ - winscard/SCardForgetReaderGroupA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardForgetReaderGroup
+ - SCardForgetReaderGroupA
+ - SCardForgetReaderGroupW
 ---
 
 # SCardForgetReaderGroupA function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardForgetReaderGroup</b> function removes a previously introduced <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader group</a> from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card subsystem</a>. Although this function automatically clears all readers from the group, it does not affect the existence of the individual <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">readers</a> in the database.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
-
 
 ### -param szGroupName [in]
 
@@ -120,12 +115,8 @@ Unused legacy value. This is an internally managed group that cannot be modified
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -158,14 +149,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SCardForgetReaderGroup</b> function is a database management function. For more information on other database management functions, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
@@ -195,9 +180,6 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
@@ -211,7 +193,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a>
- 
-
- 
 

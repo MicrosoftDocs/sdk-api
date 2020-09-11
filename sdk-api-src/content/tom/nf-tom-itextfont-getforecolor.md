@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getforecolor.htm
 ms.date: 12/05/2018
 ms.keywords: GetForeColor, GetForeColor method [Windows Controls], GetForeColor method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetForeColor method, ITextFont.GetForeColor, ITextFont::GetForeColor, _win32_ITextFont_GetForeColor, _win32_ITextFont_GetForeColor_cpp, controls.ITextFont_GetForeColor, controls._win32_ITextFont_GetForeColor, tom/ITextFont::GetForeColor
-f1_keywords:
-- tom/ITextFont.GetForeColor
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.GetForeColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::GetForeColor
+ - tom/ITextFont::GetForeColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.GetForeColor
 ---
 
 # ITextFont::GetForeColor
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the foreground, or text, color.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -84,12 +80,8 @@ The foreground color. It can be one of the following values.
 <td>Indicates that the range uses the default system foreground color.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -123,15 +115,8 @@ The font object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
@@ -162,7 +147,4 @@ The font object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

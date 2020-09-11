@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
 ms.date: 12/05/2018
 ms.keywords: RpcBindingSetAuthInfo, RpcBindingSetAuthInfo function [RPC], RpcBindingSetAuthInfoA, RpcBindingSetAuthInfoW, _rpc_rpcbindingsetauthinfo, rpc.rpcbindingsetauthinfo, rpcdce/RpcBindingSetAuthInfo, rpcdce/RpcBindingSetAuthInfoA, rpcdce/RpcBindingSetAuthInfoW
-f1_keywords:
-- rpcdce/RpcBindingSetAuthInfo
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingSetAuthInfo
-- RpcBindingSetAuthInfoA
-- RpcBindingSetAuthInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingSetAuthInfoA
+ - rpcdce/RpcBindingSetAuthInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingSetAuthInfo
+ - RpcBindingSetAuthInfoA
+ - RpcBindingSetAuthInfoW
 ---
 
 # RpcBindingSetAuthInfoA function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingSetAuthInfo</b> function sets a binding handle's authentication and authorization information.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Server binding handle to which authentication and authorization information is to be applied.
-
 
 ### -param ServerPrincName
 
@@ -78,7 +73,6 @@ Pointer to the expected principal name of the server referenced by <i>Binding</i
 Level of authentication to be performed on remote procedure calls made using <i>Binding</i>. For a list of the RPC-supported authentication levels, see the list of 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
 
-
 ### -param AuthnSvc
 
 Authentication service to use. See Note. 
@@ -89,7 +83,6 @@ Authentication service to use. See Note.
 Specify RPC_C_AUTHN_NONE to turn off authentication for remote procedure calls made using <i>Binding</i>.
 
 If RPC_C_AUTHN_DEFAULT is specified, the RPC run-time library uses the RPC_C_AUTHN_WINNT authentication service for remote procedure calls made using <i>Binding</i>.
-
 
 ### -param AuthIdentity
 
@@ -119,8 +112,6 @@ The validity and trustworthiness of authorization data, like any application dat
 <div> </div>
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -178,11 +169,7 @@ Unknown authentication service.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A client application calls the 
 <b>RpcBindingSetAuthInfo</b> function to set up a server binding handle for making authenticated remote procedure calls. A client is not required to call this function.
@@ -209,9 +196,6 @@ Due to varying requirements of different versions of Microsoft RPC, Microsoft re
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/msmq-security-services">MSMQ Security
 		  Services</a>
 
@@ -226,7 +210,4 @@ Due to varying requirements of different versions of Microsoft RPC, Microsoft re
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>
- 
-
- 
 

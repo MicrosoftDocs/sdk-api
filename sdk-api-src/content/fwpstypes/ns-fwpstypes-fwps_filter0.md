@@ -8,10 +8,6 @@ tech.root: NetVista
 ms.assetid: cf5e3372-466e-44f0-8312-78318c5efb13
 ms.date: 12/05/2018
 ms.keywords: FWPS_FILTER0, FWPS_FILTER0 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER0, netvista.fwps_filter0, wfp_ref_3_struct_3_fwps_F-O_3dd55c70-e1ab-4bb4-b177-24c4a185c69c.xml
-f1_keywords:
-- fwpstypes/FWPS_FILTER0
-dev_langs:
-- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpstypes.h
-api_name:
-- FWPS_FILTER0
 targetos: Windows
 req.typenames: FWPS_FILTER0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPS_FILTER0_
+ - fwpstypes/FWPS_FILTER0_
+ - FWPS_FILTER0
+ - fwpstypes/FWPS_FILTER0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpstypes.h
+api_name:
+ - FWPS_FILTER0
 ---
 
 # FWPS_FILTER0 structure
@@ -49,19 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPS_FILTER0</b> structure defines a run-time filter in the filter engine.
 [FWPS_FILTER2](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2) is available. For Windows 7, [FWPS_FILTER1](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1) is available.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field filterId
 
 A run-time identifier that identifies the filter in the filter engine.
-
 
 ### -field weight
 
@@ -76,13 +74,11 @@ An
      engine automatically assigns a weight to the filter based on how specific the filter tests the data
      compared to the other filters in the filter engine.
 
-
 ### -field subLayerWeight
 
 A value that specifies the importance of the filter's sublayer in relation to the other sublayers
      in the filter engine. Filters that are located in a sublayer with a higher 
      <b>subLayerWeight</b> value are invoked first.
-
 
 ### -field flags
 
@@ -125,8 +121,6 @@ This flag indicates to a callout's
 </td>
 </tr>
 </table>
- 
-
 
 ### -field numFilterConditions
 
@@ -135,7 +129,6 @@ The number of
      the array pointed to by the 
      <b>filterCondition</b> member. This member can be zero.
 
-
 ### -field filterCondition
 
 A pointer to an array of 
@@ -143,13 +136,11 @@ A pointer to an array of
      These structures define the run-time filtering conditions for the filter. If the 
      <b>numFilterConditions</b> member is zero, then this pointer will be <b>NULL</b>.
 
-
 ### -field action
 
 An 
      [FWPS_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0) structure that specifies the
      action that the filter should take if all of the filter's filtering conditions are true.
-
 
 ### -field context
 
@@ -162,16 +153,12 @@ A context value that is associated with the filter. A callout can set this membe
      driver-specific data or state information between calls by the filter engine to the callout driver's 
      <i>classifyFn0</i> callout function.
 
-
 ### -field providerContext
 
 A pointer to the provider context, which is formatted as a <a href="https://msdn.microsoft.com/library/aa364289(VS.85).aspx">FWPM_PROVIDER_CONTEXT0</a> structure. If the filter uses a callout, and the callout has the FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT flag set, this member will contain the provider context from the corresponding <a href="https://msdn.microsoft.com/library/aa364265(VS.85).aspx">FWPM_FILTER0</a> structure. Otherwise, this parameter is
      <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 The filter engine passes a pointer to an <b>FWPS_FILTER0</b> structure to a callout's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a> and 
@@ -184,13 +171,7 @@ The
     <b>ProviderContext</b> member provides a mechanism for a callout driver to retrieve provider contexts
     without calling the base filtering engine (BFE).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550076(v=vs.85)">FWPM_CALLOUT0</a>
 
@@ -221,7 +202,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a>
- 
-
- 
 

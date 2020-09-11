@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 867604aa-7a39-4da7-b189-a9183461e9a0
 ms.date: 12/05/2018
 ms.keywords: LsaLookupNames, LsaLookupNames function [Security], _lsa_lsalookupnames, ntsecapi/LsaLookupNames, security.lsalookupnames
-f1_keywords:
-- ntsecapi/LsaLookupNames
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- Ext-MS-Win-AdvAPI32-Lsa-L1-1-1.dll
-api_name:
-- LsaLookupNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaLookupNames
+ - ntsecapi/LsaLookupNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - Ext-MS-Win-AdvAPI32-Lsa-L1-1-1.dll
+api_name:
+ - LsaLookupNames
 ---
 
 # LsaLookupNames function
@@ -51,29 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaLookupNames</b> function retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) that correspond to an array of user, group, or local group names.
 
 The <b>LsaLookupNames</b> function is superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2">LsaLookupNames2</a> function. Applications should use the <b>LsaLookupNames2</b> function to ensure future compatibility.
 
-The <b>LsaLookupNames</b> function can also retrieve computer accounts. 
-
+The <b>LsaLookupNames</b> function can also retrieve computer accounts.
 
 ## -parameters
-
-
-
 
 ### -param PolicyHandle [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle must have the POLICY_LOOKUP_NAMES access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
-
 ### -param Count [in]
 
 Specifies the number of names in the <i>Names</i> array. This is also the number of entries returned in the <i>Sids</i> array. This value must be less than or equal to 1000.
-
 
 ### -param Names [in]
 
@@ -84,7 +78,6 @@ Pointer to an array of
 
 
 For more information about the format of the name strings, see Remarks.
-
 
 ### -param ReferencedDomains [out]
 
@@ -97,7 +90,6 @@ Receives a pointer to an
 When you have finished using the returned pointer, free the memory by calling the  
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a> function. This memory must be freed even when the function fails with the either of the error codes <b>STATUS_NONE_MAPPED</b> or <b>STATUS_SOME_NOT_MAPPED</b>
 
-
 ### -param Sids [out]
 
 Receives a pointer to an array of 
@@ -109,10 +101,7 @@ Receives a pointer to an array of
 When you have finished using the returned pointer, free the memory by calling the  
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a> function. This memory must be freed even when the function fails with the either of the error codes <b>STATUS_NONE_MAPPED</b> or <b>STATUS_SOME_NOT_MAPPED</b>
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns  one of the following <b>NTSTATUS</b> values.
 
@@ -182,12 +171,7 @@ The Names array parameter was too large.
 Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> code to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 > [!WARNING]
 >Use fully qualified account names (for example, domain_name\user_name) instead of isolated names (for example, user_name). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, example.example.com\user_name) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, someone@example.com).
@@ -223,12 +207,7 @@ For an example that calls this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a>
 
@@ -247,7 +226,4 @@ For an example that calls this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a>
- 
-
- 
 

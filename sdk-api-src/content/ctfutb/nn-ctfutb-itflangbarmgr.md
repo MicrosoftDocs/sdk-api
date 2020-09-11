@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 60bd765f-0846-47f5-af1b-bc8e72720841
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarMgr, ITfLangBarMgr interface [Text Services Framework], ITfLangBarMgr interface [Text Services Framework],described, _tsf_itflangbarmgr_ref, ctfutb/ITfLangBarMgr, tsf.itflangbarmgr
-f1_keywords:
-- ctfutb/ITfLangBarMgr
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarMgr
+ - ctfutb/ITfLangBarMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarMgr
 ---
 
 # ITfLangBarMgr interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfLangBarMgr</b> interface is implemented by the TSF manager and used by text services to manage event sink notification and configure floating language bar display settings. The interface ID is IID_ITfLangBarMgr.
-
 
 ## -inheritance
 
@@ -149,20 +148,13 @@ Uninstalls an advise event sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
 ms.date: 12/05/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
-f1_keywords:
-- oaidl/IDispatch.GetIDsOfNames
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IDispatch.GetIDsOfNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispatch::GetIDsOfNames
+ - oaidl/IDispatch::GetIDsOfNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IDispatch.GetIDsOfNames
 ---
 
 # IDispatch::GetIDsOfNames
@@ -49,45 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maps a single member and an optional set of argument names to a corresponding set of integer DISPIDs, which can be used on subsequent calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>. The dispatch function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a> provides a standard implementation of <b>GetIDsOfNames</b>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 Reserved for future use. Must be IID_NULL.
 
-
 ### -param rgszNames [in]
 
 The array of names to be mapped.
-
 
 ### -param cNames [in]
 
 The count of the names to be mapped.
 
-
 ### -param lcid [in]
 
 The locale context in which to interpret the names.
-
 
 ### -param rgDispId [out]
 
 Caller-allocated array, each element of which contains an identifier (ID) corresponding to one of the names passed in the rgszNames array. The first element represents the member name. The subsequent elements represent each of the member's parameters.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -142,14 +129,8 @@ The locale identifier (LCID) was not recognized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> implementation can associate any positive integer ID value with a given name. Zero is reserved for the default, or <b>Value</b> property; –1 is reserved to indicate an unknown name; and other negative values are defined for other purposes. For example, if <b>GetIDsOfNames</b> is called, and the implementation does not recognize one or more of the names, it returns DISP_E_UNKNOWNNAME, and the <i>rgDispId</i> array contains DISPID_UNKNOWN for the entries that correspond to the unknown names.
 
@@ -203,14 +184,7 @@ hresult = pdisp->GetIDsOfNames(
    &dispid);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
 
@@ -221,7 +195,4 @@ hresult = pdisp->GetIDsOfNames(
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

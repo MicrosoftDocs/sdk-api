@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 24ff171c-e9e2-4d62-8a8c-d62e5d7a92ad
 ms.date: 12/05/2018
 ms.keywords: IUserNotification, IUserNotification interface [Windows Shell], IUserNotification interface [Windows Shell],described, inet_IUserNotification, shell.IUserNotification, shobjidl_core/IUserNotification
-f1_keywords:
-- shobjidl_core/IUserNotification
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IUserNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserNotification
+ - shobjidl_core/IUserNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IUserNotification
 ---
 
 # IUserNotification interface
 
 
 ## -description
-
 
 Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar.
 
@@ -115,26 +115,14 @@ Displays the notification.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided in Windows as CLSID_UserNotification.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iusernotification2">IUserNotification2</a>
- 
-
- 
 

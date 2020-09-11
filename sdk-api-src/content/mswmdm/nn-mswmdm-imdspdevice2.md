@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: a53052a1-89f4-4571-9eee-031e0049a92e
 ms.date: 12/05/2018
 ms.keywords: IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], IMDSPDevice2 interface [windows Media Device Manager],described, IMDSPDevice2Interface, mswmdm/IMDSPDevice2, wmdm.imdspdevice2
-f1_keywords:
-- mswmdm/IMDSPDevice2
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IMDSPDevice2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPDevice2
+ - mswmdm/IMDSPDevice2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IMDSPDevice2
 ---
 
 # IMDSPDevice2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMDSPDevice2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> by getting extended formats, getting Plug and Play (PnP) device names, enabling the use of property pages, and making it possible to get a pointer to a storage medium from its name.
-
-
-
 
 ## -inheritance
 
@@ -107,13 +103,9 @@ Returns a storage object from a storage name.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
 
@@ -124,7 +116,4 @@ Returns a storage object from a storage name.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDECN4.#ctor(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: XMUDECN4, XMUDECN4 constructor [DirectX Math Support APIs], XMUDECN4 constructor [DirectX Math Support APIs],XMUDECN4 structure, XMUDECN4 structure [DirectX Math Support APIs],XMUDECN4 constructor, XMUDECN4.XMUDECN4, XMUDECN4.XMUDECN4(uint32_t), XMUDECN4::XMUDECN4, XMUDECN4::XMUDECN4(uint32_t), dxmath.xmudecn4_ctor_2
-f1_keywords:
-- directxpackedvector/XMUDECN4.XMUDECN4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUDECN4.XMUDECN4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUDECN4::XMUDECN4
+ - directxpackedvector/XMUDECN4::XMUDECN4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUDECN4.XMUDECN4
 ---
 
 # XMUDECN4::XMUDECN4(uint32_t)
 
 
 ## -description
-
 
 Initializes a new instance of <code>XMUDECN4</code> from a <code>uint32_t</code> variable containing
 	component data in a packed format.
@@ -60,19 +60,11 @@ This constructor initializes a new instance of <a href="https://docs.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param Packed
 
 The values of four vector components in a packed format.
-		    
-		
-
 
 ## -remarks
-
-
 
 The values defining the four components of the new instance of <code>XMUDECN4</code> are
 	    not normalized and are stored in the argument <code>Packed</code> as follows:
@@ -105,12 +97,7 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned integer, 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -121,7 +108,4 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned integer, 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmudecn4-ctor">XMUDECN4 Constructors</a>
- 
-
- 
 

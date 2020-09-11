@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a7881f06-792c-4791-9aa6-9a7eb202020b
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS structure pointer [Security], SECPKG_DLL_FUNCTIONS, SECPKG_DLL_FUNCTIONS structure [Security], _ssp_secpkg_dll_functions, ntsecpkg/PSECPKG_DLL_FUNCTIONS, ntsecpkg/SECPKG_DLL_FUNCTIONS, security.secpkg_dll_functions'
-f1_keywords:
-- ntsecpkg/SECPKG_DLL_FUNCTIONS
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecpkg.h
-api_name:
-- SECPKG_DLL_FUNCTIONS
 targetos: Windows
 req.typenames: SECPKG_DLL_FUNCTIONS, *PSECPKG_DLL_FUNCTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SECPKG_DLL_FUNCTIONS
+ - ntsecpkg/_SECPKG_DLL_FUNCTIONS
+ - PSECPKG_DLL_FUNCTIONS
+ - ntsecpkg/PSECPKG_DLL_FUNCTIONS
+ - SECPKG_DLL_FUNCTIONS
+ - ntsecpkg/SECPKG_DLL_FUNCTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SECPKG_DLL_FUNCTIONS
 ---
 
 # SECPKG_DLL_FUNCTIONS structure
@@ -49,37 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SECPKG_DLL_FUNCTIONS</b> structure contains pointers to the LSA functions that a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> can call while executing in-process with a client/server application. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) provides this structure during user-mode initialization using each security package's 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinstanceinitfn">SpInstanceInit</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AllocateHeap
 
 Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)">AllocateHeap</a> function.
-					
-
 
 ### -field FreeHeap
 
 Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375418(v=vs.85)">FreeHeap</a> function.
-					
-
 
 ### -field RegisterCallback
 
 Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a> function.
-					
-
 
 ### -field LocatePackageById
-
- 
-
-
 

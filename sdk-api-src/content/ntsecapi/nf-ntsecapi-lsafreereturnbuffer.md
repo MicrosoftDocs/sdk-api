@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e814ed68-07e7-4936-ba96-5411086f43f6
 ms.date: 12/05/2018
 ms.keywords: LsaFreeReturnBuffer, LsaFreeReturnBuffer function [Security], _lsa_lsafreereturnbuffer, ntsecapi/LsaFreeReturnBuffer, security.lsafreereturnbuffer
-f1_keywords:
-- ntsecapi/LsaFreeReturnBuffer
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- LsaFreeReturnBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaFreeReturnBuffer
+ - ntsecapi/LsaFreeReturnBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - LsaFreeReturnBuffer
 ---
 
 # LsaFreeReturnBuffer function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaFreeReturnBuffer</b> function frees the memory used by a buffer previously allocated by the LSA.
 
-
 ## -parameters
-
-
-
 
 ### -param Buffer [in]
 
 Pointer to the buffer to be freed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
@@ -75,31 +68,17 @@ If the function fails, the return value is an NTSTATUS code. For more informatio
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 Some of the LSA authentication functions allocate memory buffers to hold returned information, for example, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>. Your application should call <b>LsaFreeReturnBuffer</b> to free these buffers when they are no longer needed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>
- 
-
- 
 

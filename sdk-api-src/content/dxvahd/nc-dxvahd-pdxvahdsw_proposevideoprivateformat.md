@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: b543f05f-40fc-4bdf-ae53-9a451d3bdf2a
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_ProposeVideoPrivateFormat, PDXVAHDSW_ProposeVideoPrivateFormat callback, PDXVAHDSW_ProposeVideoPrivateFormat callback function [Media Foundation], dxvahd/PDXVAHDSW_ProposeVideoPrivateFormat, mf.pdxvahdsw_proposevideoprivateformat
-f1_keywords:
-- dxvahd/PDXVAHDSW_ProposeVideoPrivateFormat
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dxvahd.h
-api_name:
-- PDXVAHDSW_ProposeVideoPrivateFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDXVAHDSW_ProposeVideoPrivateFormat
+ - dxvahd/PDXVAHDSW_ProposeVideoPrivateFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dxvahd.h
+api_name:
+ - PDXVAHDSW_ProposeVideoPrivateFormat
 ---
 
 # PDXVAHDSW_ProposeVideoPrivateFormat callback function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a private surface format from a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 A handle to the plug-in DXVA-HD device.
 
-
 ### -param *pFormat [in, out]
 
 A pointer to a <b>D3DFORMAT</b> value. On input, specifies the surface format that is requested by the application. On output, specifies the private surface format that the plug-in device proposes.
 
-
 ## -returns
-
-
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function is called when the application calls <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">IDXVAHD_Device::CreateVideoSurface</a>  if  the following conditions are true:
 
@@ -116,14 +103,7 @@ HRESULT CALLBACK ProposeVideoPrivateFormat(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -138,7 +118,4 @@ HRESULT CALLBACK ProposeVideoPrivateFormat(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

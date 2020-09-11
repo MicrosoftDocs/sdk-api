@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 86094e1c-be59-4a15-a05b-21769f80e653
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CHAIN_PARA, CERT_CHAIN_PARA, CERT_CHAIN_PARA structure [Security], CERT_CHAIN_STRONG_SIGN_DISABLE_END_CHECK_FLAG, PCERT_CHAIN_PARA, PCERT_CHAIN_PARA structure pointer [Security], _crypto2_cert_chain_para, security.cert_chain_para, wincrypt/CERT_CHAIN_PARA, wincrypt/PCERT_CHAIN_PARA'
-f1_keywords:
-- wincrypt/CERT_CHAIN_PARA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_CHAIN_PARA
 targetos: Windows
 req.typenames: CERT_CHAIN_PARA, *PCERT_CHAIN_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_CHAIN_PARA
+ - wincrypt/_CERT_CHAIN_PARA
+ - PCERT_CHAIN_PARA
+ - wincrypt/PCERT_CHAIN_PARA
+ - CERT_CHAIN_PARA
+ - wincrypt/CERT_CHAIN_PARA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_CHAIN_PARA
 ---
 
 # CERT_CHAIN_PARA structure
@@ -49,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_CHAIN_PARA</b> structure establishes the searching and matching criteria to be used in building a certificate chain.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
 
-
 ### -field RequestedUsage
 
 Structure indicating the kind of matching necessary to find issuer certificates for building a certificate chain. The structure pointed to indicates whether AND or OR logic is to be used in the matching process. The structure also includes an array of OIDs to be matched.
-
 
 ### -field RequestedIssuancePolicy
 
@@ -144,8 +142,6 @@ If the chain is strong signed, the public key in the end certificate will be che
 
 ## -remarks
 
-
-
 The following remarks apply when checking for strong signatures.
 
 <ul>
@@ -167,15 +163,7 @@ If the <b>CERT_STRONG_SIGN_ENABLE_CRL_CHECK</b> or <b>CERT_STRONG_SIGN_ENABLE_OC
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_usage_match">CERT_USAGE_MATCH</a>
- 
-
- 
 

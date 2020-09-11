@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: b78bc885-ed4e-4c83-ad1b-043c5b226337
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windows Sync], ISyncChangeBatchAdvanced interface [Windows Sync],described, winsync.isyncchangebatchadvanced, winsync/ISyncChangeBatchAdvanced
-f1_keywords:
-- winsync/ISyncChangeBatchAdvanced
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchAdvanced
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchAdvanced
+ - winsync/ISyncChangeBatchAdvanced
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchAdvanced
 ---
 
 # ISyncChangeBatchAdvanced interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents additional information about a set of changes.
-
-
 
 ## -inheritance
 
@@ -119,22 +117,13 @@ Remaps all knowledge objects that are contained in the change batch so that they
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An <b>ISyncChangeBatchAdvanced</b> object can be obtained by passing <b>IID_ISyncChangeBatchAdvanced</b> to the <b>QueryInterface</b> method of a change batch object, such as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch Interface</a>
 
@@ -165,7 +154,4 @@ An <b>ISyncChangeBatchAdvanced</b> object can be obtained by passing <b>IID_ISyn
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

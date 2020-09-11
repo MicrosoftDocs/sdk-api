@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\ondeleteditem.htm
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents interface [search],OnDeletedItem method, IRowsetEvents.OnDeletedItem, IRowsetEvents::OnDeletedItem, OnDeletedItem, OnDeletedItem method [search], OnDeletedItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnDeletedItem, search._search_IRowsetEvents_OnDeletedItem, searchapi/IRowsetEvents::OnDeletedItem
-f1_keywords:
-- searchapi/IRowsetEvents.OnDeletedItem
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- IRowsetEvents.OnDeletedItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRowsetEvents::OnDeletedItem
+ - searchapi/IRowsetEvents::OnDeletedItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - IRowsetEvents.OnDeletedItem
 ---
 
 # IRowsetEvents::OnDeletedItem
@@ -49,46 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the indexer to notify clients that an item has been deleted. This item may have matched some (or all) of the search criteria for the client rowset.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param itemID [in]
 
 Type: <b>REFPROPVARIANT</b>
 
 Specifies the item in the rowset that has been deleted.
-        
-
 
 ### -param deletedItemState [in]
 
 Type: <b><a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a></b>
 
 Specifies whether the deleted item is currently in the rowset, as a <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> enumeration.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> indicates whether or not the item was contained in the original rowset:
         
@@ -99,12 +83,7 @@ The <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">RO
 <li><i>ROWSETEVENT_ITEMSTATE_NOTINROWSET</i> indicates the deleted item was definitely not in your original rowset (but may have already been given via an  <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetevents-onnewitem">OnNewItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetevents-onnewitem">OnChangedItem</a> event).</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -143,7 +122,4 @@ The <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">RO
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_ALLOW_MULTIPLE_SOURCE_INSTANCES, AUTHZ_MIGRATED_LEGACY_PUBLISHER, AUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_SOURCE_SCHEMA_REGISTRATION structure [Security], PAUTHZ_SOURCE_SCHEMA_REGISTRATION, PAUTHZ_SOURCE_SCHEMA_REGISTRATION structure pointer [Security], authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION, security.authz_source_schema_registration'
-f1_keywords:
-- authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Authz.h
-api_name:
-- AUTHZ_SOURCE_SCHEMA_REGISTRATION
 targetos: Windows
 req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - _AUTHZ_SOURCE_SCHEMA_REGISTRATION
+ - authz/_AUTHZ_SOURCE_SCHEMA_REGISTRATION
+ - PAUTHZ_SOURCE_SCHEMA_REGISTRATION
+ - authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION
+ - AUTHZ_SOURCE_SCHEMA_REGISTRATION
+ - authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Authz.h
+api_name:
+ - AUTHZ_SOURCE_SCHEMA_REGISTRATION
 ---
 
 # AUTHZ_SOURCE_SCHEMA_REGISTRATION structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AUTHZ_SOURCE_SCHEMA_REGISTRATION</b> structure specifies information about source schema registration.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -90,70 +90,50 @@ The caller is a migrated publisher that has registered a manifest with WEvtUtil.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szEventSourceName
 
 A pointer to a wide character string that represents the name of the event source.
 
-
 ### -field szEventMessageFile
 
 A pointer to a wide character string that represents the name of the resource that contains the event messages.
-
 
 ### -field szEventSourceXmlSchemaFile
 
 A pointer to a wide character string that represents the name of the XML schema file for the event source.
 
-
 ### -field szEventAccessStringsFile
 
 A pointer to a wide character string that represents the name of the resource that contains the event parameter strings.
-
 
 ### -field szExecutableImagePath
 
 This member is reserved and must be set to <b>NULL</b>.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.pReserved
 
 This member is reserved and must be set to <b>NULL</b>.
 
-
 ### -field DUMMYUNIONNAME.pProviderGuid
 
 The <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
-
 
 ### -field dwObjectTypeNameCount
 
 The number of objects in the <i>ObjectTypeNames</i> array.
 
-
 ### -field ObjectTypeNames
 
 An array of <a href="/windows/win32/api/authz/ns-authz-authz_registration_object_type_name_offset">AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET</a> structures that represents the object types for the events.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzenumeratesecurityeventsources">AuthzEnumerateSecurityEventSources</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinstallsecurityeventsource">AuthzInstallSecurityEventSource</a>
- 
-
- 
 

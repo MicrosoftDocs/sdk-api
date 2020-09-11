@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 84e065e6-b68d-4303-b98b-3f8507539468
 ms.date: 12/05/2018
 ms.keywords: SHAddToRecentDocs, SHAddToRecentDocs function [Windows Shell], _win32_SHAddToRecentDocs, shell.SHAddToRecentDocs, shlobj_core/SHAddToRecentDocs
-f1_keywords:
-- shlobj_core/SHAddToRecentDocs
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHAddToRecentDocs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHAddToRecentDocs
+ - shlobj_core/SHAddToRecentDocs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHAddToRecentDocs
 ---
 
 # SHAddToRecentDocs function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the system that an item has been accessed, for the purposes of tracking those items used most recently and most frequently. This function can also be used to clear all usage data.
 
-
 ## -parameters
-
-
-
 
 ### -param uFlags
 
 Type: <b>UINT</b>
 
 A value from the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-shard">SHARD</a> enumeration that indicates the form of the information pointed to by the <i>pv</i> parameter.
-
 
 ### -param pv [in, optional]
 
@@ -84,10 +79,7 @@ A pointer to data that identifies the item that has been accessed. The item can 
 
 Set this parameter to <b>NULL</b> to clear all usage data on all items.
 
-
 ## -remarks
-
-
 
 The usage statistics gathered through calls to this method are used to determine lists of items accessed most recently and most frequently. These lists are seen in the <b>Start</b> menu and, in Windows 7 and later, in an application's Jump List.
 
@@ -181,20 +173,11 @@ Individual <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core
 
 This subkey is not present by default on any <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> implementation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a>
- 
-
- 
 

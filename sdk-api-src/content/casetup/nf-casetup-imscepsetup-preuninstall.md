@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7c9ff619-7c26-4dfb-aeac-fa80a1050cf0
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],PreUnInstall method, IMSCEPSetup.PreUnInstall, IMSCEPSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PreUnInstall, security.imscepsetup_preuninstall
-f1_keywords:
-- casetup/IMSCEPSetup.PreUnInstall
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- IMSCEPSetup.PreUnInstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSCEPSetup::PreUnInstall
+ - casetup/IMSCEPSetup::PreUnInstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - IMSCEPSetup.PreUnInstall
 ---
 
 # IMSCEPSetup::PreUnInstall
@@ -49,33 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PreUnInstall</b> method removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 You can use this method to support an uninstall of an NDES role. The role must be already installed on the computer. This method should be called before calling the role-specific component-based servicing (CBS) uninstall process.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
- 
-
- 
 

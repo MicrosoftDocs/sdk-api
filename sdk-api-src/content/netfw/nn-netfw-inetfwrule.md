@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 59e2a140-bf55-4f0e-bf4b-1a39d3dc0457
 ms.date: 12/05/2018
 ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], INetFwRule interface [ICS/ICF],described, ics.inetfwrule, netfw/INetFwRule
-f1_keywords:
-- netfw/INetFwRule
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule
+ - netfw/INetFwRule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule
 ---
 
 # INetFwRule interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetFwRule</b> interface provides access to the properties of a rule.
-
 
 ## -inheritance
 
@@ -616,12 +615,9 @@ Accesses the ServiceName property for this rule.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Each time you change a property of a rule, Windows Firewall commits the rule and verifies it for correctness. As a result, when you edit a rule, you must perform the steps in a specific order. For example, if you add an ICMP rule, you must first set the protocol to ICMP, then add the rule. If these steps are taken in the opposite order, an error occurs and the change is lost.
 
@@ -770,20 +766,11 @@ Properties are used to create firewall rules.  Many of the properties can be use
 
 For additional information on each property, please see the corresponding topic.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

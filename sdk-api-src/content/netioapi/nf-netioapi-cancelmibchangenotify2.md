@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 81492118-7513-49a2-9c61-3ecfaf84cc2d
 ms.date: 12/05/2018
 ms.keywords: CancelMibChangeNotify2, CancelMibChangeNotify2 function [IP Helper], iphlp.cancelmibchangenotify2, netioapi/CancelMibChangeNotify2
-f1_keywords:
-- netioapi/CancelMibChangeNotify2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- CancelMibChangeNotify2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CancelMibChangeNotify2
+ - netioapi/CancelMibChangeNotify2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - CancelMibChangeNotify2
 ---
 
 # CancelMibChangeNotify2 function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CancelMibChangeNotify2</b> function deregisters for change notifications for IP interface changes, IP address changes, IP route changes, Teredo port changes, and when the unicast IP address table is stable and can be retrieved.
 
-
 ## -parameters
-
-
-
 
 ### -param NotificationHandle [in]
 
 The handle returned from a notification 
-        registration or retrieval function to indicate which notification to cancel. 
-
+        registration or retrieval function to indicate which notification to cancel.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -101,14 +94,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CancelMibChangeNotify2</b> function is defined on Windows Vista and later. 
 
@@ -120,13 +107,7 @@ The <i>NotificationHandle</i> parameter returned to these notification functions
 
 An application cannot make a call to the <b>CancelMibChangeNotify2</b> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyipinterfacechange">NotifyIpInterfaceChange</a>
 
@@ -145,7 +126,4 @@ An application cannot make a call to the <b>CancelMibChangeNotify2</b> function 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 02f55293-5d2d-4578-9c31-3ed04dac428e
 ms.date: 12/05/2018
 ms.keywords: CreateTrueCondition, CreateTrueCondition method [Windows Accessibility], CreateTrueCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateTrueCondition method, IUIAutomation.CreateTrueCondition, IUIAutomation::CreateTrueCondition, uiauto.uiauto_IUIAutomation_CreateTrueCondition, uiauto_IUIAutomation_CreateTrueCondition, uiautomationclient/IUIAutomation::CreateTrueCondition, winauto.uiauto_IUIAutomation_CreateTrueCondition
-f1_keywords:
-- uiautomationclient/IUIAutomation.CreateTrueCondition
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation.CreateTrueCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation::CreateTrueCondition
+ - uiautomationclient/IUIAutomation::CreateTrueCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation.CreateTrueCondition
 ---
 
 # IUIAutomation::CreateTrueCondition
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a predefined condition that selects all elements.
 
-
 ## -parameters
-
-
-
 
 ### -param newCondition [out, retval]
 
@@ -64,22 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 Receives a pointer to the true condition.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createfalsecondition">CreateFalseCondition</a>
 
@@ -90,7 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
- 
-
- 
 

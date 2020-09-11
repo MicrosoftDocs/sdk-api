@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 34df0557-eb86-4b00-bbd7-a4f0c1b82ff4
 ms.date: 12/05/2018
 ms.keywords: SetupDiEnumDeviceInfo, SetupDiEnumDeviceInfo function [Device and Driver Installation], devinst.setupdienumdeviceinfo, di-rtns_db6730f9-381a-4da6-91b1-046fec51f270.xml, setupapi/SetupDiEnumDeviceInfo
-f1_keywords:
-- setupapi/SetupDiEnumDeviceInfo
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-0.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupDiEnumDeviceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiEnumDeviceInfo
+ - setupapi/SetupDiEnumDeviceInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-0.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupDiEnumDeviceInfo
 ---
 
 # SetupDiEnumDeviceInfo function
@@ -52,42 +53,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiEnumDeviceInfo</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in a device information set. 
-
+The <b>SetupDiEnumDeviceInfo</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in a device information set.
 
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to return an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents a device information element.
 
-
 ### -param MemberIndex [in]
 
 A zero-based index of the device information element to retrieve.
-
 
 ### -param DeviceInfoData [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure to receive information about an enumerated device information element. The caller must set <i>DeviceInfoData</i>.<b>cbSize</b> to <code>sizeof(SP_DEVINFO_DATA)</code>.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Repeated calls to this function return a device information element for a different device. This function can be called repeatedly to get information about all devices in the device information set.
 
@@ -95,13 +81,7 @@ To enumerate device information elements, an installer should initially call <b>
 
 Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a> to get a context structure for a device <i>interface</i> element (versus a device <i>information</i> element).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
 
@@ -120,7 +100,4 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupap
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinfoa">SetupDiOpenDeviceInfo</a>
- 
-
- 
 

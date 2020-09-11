@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 88e42006-c387-41b5-a013-e968da0d918b
 ms.date: 12/05/2018
 ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], IDTFilter3 interface [Microsoft TV Technologies],described, IDTFilter3Interface, encdec/IDTFilter3, mstv.idtfilter3
-f1_keywords:
-- encdec/IDTFilter3
-dev_langs:
-- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- encdec.h
-api_name:
-- IDTFilter3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDTFilter3
+ - encdec/IDTFilter3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - encdec.h
+api_name:
+ - IDTFilter3
 ---
 
 # IDTFilter3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IDTFilter3</b> interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter2">IDTFilter2</a> interface and is exposed by the Decrypter/Detagger filter.
-
-
-
 
 ## -inheritance
 
@@ -98,29 +94,17 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IDTFilter3)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter2">IDTFilter2</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
- 
-
- 
 

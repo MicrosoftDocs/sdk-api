@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 9a2d6318-c5f0-41bc-a4df-bb9a53c9dee4
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate2, IWindowsDriverUpdate2 interface [Windows Update Agent], IWindowsDriverUpdate2 interface [Windows Update Agent],described, wua.iwindowsdriverupdate2, wuapi/IWindowsDriverUpdate2
-f1_keywords:
-- wuapi/IWindowsDriverUpdate2
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdate2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdate2
+ - wuapi/IWindowsDriverUpdate2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdate2
 ---
 
 # IWindowsDriverUpdate2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the properties and methods that are available only from a Windows driver update.
-
 
 ## -inheritance
 
@@ -134,25 +133,13 @@ Gets a Boolean value that indicates whether the computer must be restarted after
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface only if the interface represents a Windows Driver update.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>
- 
-
- 
 

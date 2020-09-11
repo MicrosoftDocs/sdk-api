@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1e760ad8-7e46-4748-8c45-36ad8efe936a
 ms.date: 12/05/2018
 ms.keywords: OpenProcessToken, OpenProcessToken function [Security], _win32_openprocesstoken, processthreadsapi/OpenProcessToken, security.openprocesstoken
-f1_keywords:
-- processthreadsapi/OpenProcessToken
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Processsecurity-l1-1-0.dll
-- Kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-Processthreads-l1-1-0.dll
-- API-MS-Win-Core-Processthreads-l1-1-1.dll
-- API-MS-Win-Core-Processthreads-l1-1-2.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- OpenProcessToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenProcessToken
+ - processthreadsapi/OpenProcessToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Processsecurity-l1-1-0.dll
+ - Kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Processthreads-l1-1-0.dll
+ - API-MS-Win-Core-Processthreads-l1-1-1.dll
+ - API-MS-Win-Core-Processthreads-l1-1-2.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - OpenProcessToken
 ---
 
 # OpenProcessToken function
@@ -59,19 +60,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OpenProcessToken</b> function opens the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> associated with a process.
 
-
 ## -parameters
-
-
-
 
 ### -param ProcessHandle [in]
 
 A handle to the process whose access token is opened. The process must have the PROCESS_QUERY_INFORMATION access permission.
-
 
 ### -param DesiredAccess [in]
 
@@ -83,38 +78,23 @@ Specifies an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly"
 For a list of access rights for access tokens, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>.
 
-
 ### -param TokenHandle [out]
 
 A pointer to a handle that identifies the newly opened access token when the function returns.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Close the access token handle returned through the <i>TokenHandle</i> parameter by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
@@ -161,7 +141,4 @@ Close the access token handle returned through the <i>TokenHandle</i> parameter 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a>
- 
-
- 
 

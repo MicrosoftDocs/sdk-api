@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: BA84FB47-F241-4120-9441-7E1149F68738
 ms.date: 12/05/2018
 ms.keywords: ClosePackageInfo, ClosePackageInfo function [App packaging and management], appmodel/ClosePackageInfo, appxpkg.closepackageinfo
-f1_keywords:
-- appmodel/ClosePackageInfo
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-l1-1-0.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- ClosePackageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClosePackageInfo
+ - appmodel/ClosePackageInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-l1-1-0.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - ClosePackageInfo
 ---
 
 # ClosePackageInfo function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a reference to the specified package information.
 
-
 ## -parameters
-
-
-
 
 ### -param packageInfoReference [in]
 
@@ -72,25 +68,13 @@ Type: <b>PACKAGE_INFO_REFERENCE</b>
 
 A reference to package information.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
 If the function succeeds it returns <b>ERROR_SUCCESS</b>. Otherwise, the function returns an error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-openpackageinfobyfullname">OpenPackageInfoByFullName</a>
- 
-
- 
 

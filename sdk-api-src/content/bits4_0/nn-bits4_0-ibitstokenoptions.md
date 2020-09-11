@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 8496c27b-68d8-4709-b8a6-6ffa17c886df
 ms.date: 12/05/2018
 ms.keywords: IBitsTokenOptions, IBitsTokenOptions interface [BITS], IBitsTokenOptions interface [BITS],described, bits.ibitstokenoptions, bits4_0/IBitsTokenOptions
-f1_keywords:
-- bits4_0/IBitsTokenOptions
-dev_langs:
-- c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits4_0.h
-api_name:
-- IBitsTokenOptions
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - IBitsTokenOptions
+ - bits4_0/IBitsTokenOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits4_0.h
+api_name:
+ - IBitsTokenOptions
 ---
 
 # IBitsTokenOptions interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use <b>IBitsTokenOptions</b> to associate and manage a pair of security tokens for a Background Intelligent Transfer Service (BITS) transfer job.
 
 To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob::QueryInterface</a> method, using __uuidof(IBitsTokenOptions) as the interface identifier.
-
 
 ## -inheritance
 
@@ -115,5 +114,5 @@ Sets the usage flags for a token that is associated with a BITS transfer job.
 
 </td>
 </tr>
-</table> 
+</table>
 

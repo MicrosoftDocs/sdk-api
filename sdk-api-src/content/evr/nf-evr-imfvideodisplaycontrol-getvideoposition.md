@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 59c2e914-cc15-4534-976c-a760ff97f6ae
 ms.date: 12/05/2018
 ms.keywords: 59c2e914-cc15-4534-976c-a760ff97f6ae, GetVideoPosition, GetVideoPosition method [Media Foundation], GetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoPosition method, IMFVideoDisplayControl.GetVideoPosition, IMFVideoDisplayControl::GetVideoPosition, evr/IMFVideoDisplayControl::GetVideoPosition, mf.imfvideodisplaycontrol_getvideoposition
-f1_keywords:
-- evr/IMFVideoDisplayControl.GetVideoPosition
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.GetVideoPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::GetVideoPosition
+ - evr/IMFVideoDisplayControl::GetVideoPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.GetVideoPosition
 ---
 
 # IMFVideoDisplayControl::GetVideoPosition
@@ -50,29 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the source and destination rectangles for the video.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pnrcSource [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that receives the source rectangle.
 
-
 ### -param prcDest [out]
 
 Receives the current destination rectangle.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,15 +106,8 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
@@ -134,7 +118,4 @@ The video renderer has been shut down.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 56f6e7b8-4ed2-47fe-bc57-e238668c5264
 ms.date: 12/05/2018
 ms.keywords: GetAuthentication, GetAuthentication method [Security], GetAuthentication method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetAuthentication method, ICertPropertyEnrollmentPolicyServer.GetAuthentication, ICertPropertyEnrollmentPolicyServer::GetAuthentication, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::GetAuthentication, security.icertpropertyenrollmentpolicyserver_getauthentication
-f1_keywords:
-- certenroll/ICertPropertyEnrollmentPolicyServer.GetAuthentication
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- ICertPropertyEnrollmentPolicyServer.GetAuthentication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyEnrollmentPolicyServer::GetAuthentication
+ - certenroll/ICertPropertyEnrollmentPolicyServer::GetAuthentication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - ICertPropertyEnrollmentPolicyServer.GetAuthentication
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetAuthentication
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAuthentication</b> method retrieves a value that specifies the type of authentication used by the certificate enrollment policy (CEP) server to authenticate a client. This value is set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
@@ -110,12 +106,8 @@ Client authentication certificate installed on the local computer and used by th
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -139,18 +131,8 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
- 
-
- 
 

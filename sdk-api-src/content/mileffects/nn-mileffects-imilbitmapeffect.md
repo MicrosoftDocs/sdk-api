@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\imilbitmapeffect.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffect, IMILBitmapEffect interface [WPF Bitmap Effects], IMILBitmapEffect interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffect, mileffects/IMILBitmapEffect, wibe._wibe_imilbitmapeffect
-f1_keywords:
-- mileffects/IMILBitmapEffect
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mileffects.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.dll
-api_name:
-- IMILBitmapEffect
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffect
+ - mileffects/IMILBitmapEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.dll
+api_name:
+ - IMILBitmapEffect
 ---
 
 # IMILBitmapEffect interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that define a Windows Presentation Foundation (WPF) bitmap effect.
-
 
 ## -inheritance
 
@@ -95,16 +94,10 @@ Sets the effect input source.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IMILBitmapEffect</b> is a wrapper for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectprimitive">IMILBitmapEffectPrimitive</a>. A <b>IMILBitmapEffectPrimitive</b> is wrapped by a <b>IMILBitmapEffect</b> through Component Object Model (COM) aggregation.
             Therefore, independent software vendor (ISV) effect writers do not need to implement the <b>IMILBitmapEffect</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectimpl">IMILBitmapEffectImpl</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectconnections">IMILBitmapEffectConnections</a> interfaces.
-         
-
-
 

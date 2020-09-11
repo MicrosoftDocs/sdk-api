@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursor.htm
 ms.date: 12/05/2018
 ms.keywords: IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_ICON, IDC_NO, IDC_SIZE, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT, LoadCursor, LoadCursor function [Menus and Other Resources], LoadCursorA, LoadCursorW, _win32_LoadCursor, _win32_loadcursor_cpp, menurc.loadcursor, winui._win32_loadcursor, winuser/LoadCursor, winuser/LoadCursorA, winuser/LoadCursorW
-f1_keywords:
-- winuser/LoadCursor
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
-- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
-- api-ms-win-ntuser-ie-gui-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-gui-l1-2-1.dll
-- Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
-- MinUser.dll
-api_name:
-- LoadCursor
-- LoadCursorA
-- LoadCursorW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadCursorW
+ - winuser/LoadCursorW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+ - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+ - api-ms-win-ntuser-ie-gui-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
+ - MinUser.dll
+api_name:
+ - LoadCursor
+ - LoadCursorA
+ - LoadCursorW
 ---
 
 # LoadCursorW function
@@ -59,21 +60,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.
 <div class="alert"><b>Note</b>  This function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hInstance [in, optional]
 
 Type: <b>HINSTANCE</b>
 
-A handle to an instance of the module whose executable file contains the cursor to be loaded. 
-
+A handle to an instance of the module whose executable file contains the cursor to be loaded.
 
 ### -param lpCursorName [in]
 
@@ -263,25 +259,16 @@ Hourglass
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HCURSOR</b>
 
 If the function succeeds, the return value is the handle to the newly loaded cursor.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The <b>LoadCursor</b> function loads the cursor resource only if it has not been loaded; otherwise, it retrieves the handle to the existing resource. This function returns a valid cursor handle only if the <i>lpCursorName</i> parameter is a pointer to a cursor resource. If <i>lpCursorName</i> is a pointer to any type of resource other than a cursor (such as an icon), the return value is not <b>NULL</b>, even though it is not a valid cursor handle. 
 
@@ -304,9 +291,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 > The winuser.h header defines LoadCursor as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -337,7 +321,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
- 
-
- 
 

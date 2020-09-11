@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbdispinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBDISPINFOA, LPNMTBDISPINFO, LPNMTBDISPINFO structure pointer [Windows Controls], NMTBDISPINFO, NMTBDISPINFO structure [Windows Controls], NMTBDISPINFOA, NMTBDISPINFOW, TBNF_DI_SETITEM, TBNF_IMAGE, TBNF_TEXT, _win32_NMTBDISPINFO, _win32_NMTBDISPINFO_cpp, commctrl/LPNMTBDISPINFO, commctrl/NMTBDISPINFO, commctrl/NMTBDISPINFOA, commctrl/NMTBDISPINFOW, controls.NMTBDISPINFO, controls._win32_NMTBDISPINFO'
-f1_keywords:
-- commctrl/NMTBDISPINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMTBDISPINFO
-- NMTBDISPINFOA
-- NMTBDISPINFOW
 targetos: Windows
 req.typenames: NMTBDISPINFOA, *LPNMTBDISPINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNMTBDISPINFOA
+ - commctrl/LPNMTBDISPINFOA
+ - NMTBDISPINFOA
+ - commctrl/NMTBDISPINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMTBDISPINFO
+ - NMTBDISPINFOA
+ - NMTBDISPINFOW
 ---
 
 # NMTBDISPINFOA structure
@@ -51,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains and receives display information for a toolbar item. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a> notification code. 
-
+Contains and receives display information for a toolbar item. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a> notification code.
 
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field dwMask
 
@@ -111,43 +108,37 @@ Set this flag when processing <a href="https://docs.microsoft.com/windows/deskto
 </td>
 </tr>
 </table>
- 
-
 
 ### -field idCommand
 
 Type: <b>int</b>
 
-Command identifier of the item for which display information is being requested. This member is filled in by the control before it sends the notification code. 
-
+Command identifier of the item for which display information is being requested. This member is filled in by the control before it sends the notification code.
 
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
-Application-defined value associated with the item for which display information is being requested. This member is filled in by the control before sending the notification code. 
-
+Application-defined value associated with the item for which display information is being requested. This member is filled in by the control before sending the notification code.
 
 ### -field iImage
 
 Type: <b>int</b>
 
-Image index for the item. 
-
+Image index for the item.
 
 ### -field pszText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-Pointer to a character buffer that receives the item's text. 
-
+Pointer to a character buffer that receives the item's text.
 
 ### -field cchText
 
 Type: <b>int</b>
 
 Size of the 
-					<b>pszText</b> buffer, in characters. 
+					<b>pszText</b> buffer, in characters.
 
 ## -remarks
 

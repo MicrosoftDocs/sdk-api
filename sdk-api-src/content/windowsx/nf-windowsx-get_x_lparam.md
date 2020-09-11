@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\get_x_lparam.htm
 ms.date: 12/05/2018
 ms.keywords: GET_X_LPARAM, GET_X_LPARAM macro [Windows and Messages], _win32_GET_X_LPARAM, _win32_get_x_lparam_cpp, windowsx/GET_X_LPARAM, winmsg.get_x_lparam, winui._win32_get_x_lparam
-f1_keywords:
-- windowsx/GET_X_LPARAM
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: Windowsx.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- GET_X_LPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GET_X_LPARAM
+ - windowsx/GET_X_LPARAM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - GET_X_LPARAM
 ---
 
 # GET_X_LPARAM macro
@@ -49,26 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the 
 			signed x-coordinate from the specified 
 			<b>LPARAM</b> value.
 
-
 ## -parameters
-
-
-
 
 ### -param lp
 
 The value to be converted.
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -87,7 +79,4 @@ The value to be converted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
- 
-
- 
 

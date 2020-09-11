@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 28afc305-d5b0-4ac9-9412-5876e575c2c2
 ms.date: 12/05/2018
 ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternalConnection interface [COM],described, _com_iexternalconnection, com.iexternalconnection, objidlbase/IExternalConnection
-f1_keywords:
-- objidl/IExternalConnection
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IExternalConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExternalConnection
+ - objidl/IExternalConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IExternalConnection
 ---
 
 # IExternalConnection interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Manages a server object's count of marshaled, or external, connections. A server that maintains such a count can detect when it has no external connections and shut itself down in an orderly fashion. 
-
-
+Manages a server object's count of marshaled, or external, connections. A server that maintains such a count can detect when it has no external connections and shut itself down in an orderly fashion.
 
 ## -inheritance
 
@@ -87,12 +85,9 @@ Decrements the count of an object's strong external connections.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IExternalConnection</b> is most commonly implemented on server objects, to enable the orderly shutdown of a link to an embedded object following a silent update. Objects that do not implement <b>IExternalConnection</b> risk losing data in such a situation: When the final link client releases the embedded (server) object, the last external connection on the object's stub manager is released, causing the stub manager to release its pointers to interfaces on the embedded object and initiate shutdown of the object. At this point, the server object calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-saveobject">IOleClientSite::SaveObject</a> on the link container, and the link container's return call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> fails because the stub manager no longer has a pointer to the embedded object. Any unsaved changes to the server object's data would then be lost. 
 
@@ -104,13 +99,7 @@ In standard marshaling, to increment the object's count of external connections,
 
 An object that implements <b>IExternalConnection</b> should explicitly call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a> on itself when its external reference count drops to 0. This call will cause the stub manager to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the object so that the object can destroy itself.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a>
 
@@ -121,7 +110,4 @@ An object that implements <b>IExternalConnection</b> should explicitly call <a h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
- 
-
- 
 

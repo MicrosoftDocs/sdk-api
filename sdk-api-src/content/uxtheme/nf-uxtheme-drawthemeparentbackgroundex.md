@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackgroundex.htm
 ms.date: 12/05/2018
 ms.keywords: DTPB_USECTLCOLORSTATIC, DTPB_USEERASEBKGND, DTPB_WINDOWDC, DrawThemeParentBackgroundEx, DrawThemeParentBackgroundEx function [Windows Controls], _shell_DrawThemeParentBackgroundEx, _shell_DrawThemeParentBackgroundEx_cpp, controls.DrawThemeParentBackgroundEx, controls._shell_DrawThemeParentBackgroundEx, uxtheme/DrawThemeParentBackgroundEx
-f1_keywords:
-- uxtheme/DrawThemeParentBackgroundEx
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- DrawThemeParentBackgroundEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawThemeParentBackgroundEx
+ - uxtheme/DrawThemeParentBackgroundEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - DrawThemeParentBackgroundEx
 ---
 
 # DrawThemeParentBackgroundEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message followed by a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle of the child control.
 
-
 ### -param hdc [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC of the child control.
-
 
 ### -param dwFlags [in]
 
@@ -114,23 +108,16 @@ If set, this function returns S_OK without sending a <a href="https://docs.micro
 </td>
 </tr>
 </table>
- 
-
 
 ### -param prc [in]
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Optional. The area to be drawn, in child coordinates. If this parameter is NULL, the area to be drawn includes the entire area occupied by the child control. 
-
+Optional. The area to be drawn, in child coordinates. If this parameter is NULL, the area to be drawn includes the entire area occupied by the child control.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 S_OK if successful; otherwise, S_FALSE.
-
-
 

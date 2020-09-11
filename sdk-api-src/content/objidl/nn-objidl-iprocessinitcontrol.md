@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: acce67ef-3290-4892-b56a-77a256776c80
 ms.date: 12/05/2018
 ms.keywords: IProcessInitControl, IProcessInitControl interface [COM], IProcessInitControl interface [COM],described, _com_iprocessinitcontrol, com.iprocessinitcontrol, objidlbase/IProcessInitControl
-f1_keywords:
-- objidl/IProcessInitControl
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IProcessInitControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProcessInitControl
+ - objidl/IProcessInitControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IProcessInitControl
 ---
 
 # IProcessInitControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the process initialization time-out interval.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Sets the process initialization time-out.
 
 </td>
 </tr>
-</table> 
+</table>
 

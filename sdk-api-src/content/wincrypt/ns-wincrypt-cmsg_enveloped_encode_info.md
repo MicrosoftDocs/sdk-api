@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 87712541-2806-4709-a7cf-c9ba966c96fd
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_ENVELOPED_ENCODE_INFO, All other encryption algorithms, CALG_3DES, CALG_DES, CMSG_ENVELOPED_ENCODE_INFO, CMSG_ENVELOPED_ENCODE_INFO structure [Security], PCMSG_ENVELOPED_ENCODE_INFO, PCMSG_ENVELOPED_ENCODE_INFO structure pointer [Security], RC2, RC4, SP3 or compatible, _crypto2_cmsg_enveloped_encode_info, security.cmsg_enveloped_encode_info, wincrypt/CMSG_ENVELOPED_ENCODE_INFO, wincrypt/PCMSG_ENVELOPED_ENCODE_INFO'
-f1_keywords:
-- wincrypt/CMSG_ENVELOPED_ENCODE_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CMSG_ENVELOPED_ENCODE_INFO
 targetos: Windows
 req.typenames: CMSG_ENVELOPED_ENCODE_INFO, *PCMSG_ENVELOPED_ENCODE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CMSG_ENVELOPED_ENCODE_INFO
+ - wincrypt/_CMSG_ENVELOPED_ENCODE_INFO
+ - PCMSG_ENVELOPED_ENCODE_INFO
+ - wincrypt/PCMSG_ENVELOPED_ENCODE_INFO
+ - CMSG_ENVELOPED_ENCODE_INFO
+ - wincrypt/CMSG_ENVELOPED_ENCODE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CMSG_ENVELOPED_ENCODE_INFO
 ---
 
 # CMSG_ENVELOPED_ENCODE_INFO structure
@@ -49,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CMSG_ENVELOPED_ENCODE_INFO</b> structure contains information needed to encode an enveloped message. It is passed to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> if the <i>dwMsgType</i> parameter is CMSG_ENVELOPED.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
-
 
 ### -field hCryptProv
 
@@ -74,9 +73,6 @@ This member is not used and should be set to <b>NULL</b>.
 This member's data type is <b>HCRYPTPROV</b>.
 
 Unless there is a strong reason for passing in a specific cryptographic provider in <b>hCryptProv</b>, pass zero to use the default RSA or DSS provider.
-
-
-
 
 ### -field ContentEncryptionAlgorithm
 
@@ -190,76 +186,57 @@ A pointer to a structure depending on the encryption algorithm.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cRecipients
 
 Number of elements in the <b>rgpRecipients</b> or <b>rgCmsRecipients</b> array.
-
 
 ### -field rgpRecipients
 
 An array of pointers to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structures, each containing a recipient's certificate Issuer, SerialNumber, and SubjectPublicKeyInfo. This array can only be used for recipients identified by their Issuer and serial number. If <b>rgpRecipients</b> is not <b>NULL</b>, <b>rgCmsRecipients</b> must be <b>NULL</b>.
 
-
 ### -field rgCmsRecipients
 
 Optional. An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structures containing recipient information. If <b>rgCmsRecipients</b> is not <b>NULL</b>, <b>rgpRecipients</b> must be <b>NULL</b>. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
-
 
 ### -field cCertEncoded
 
 Optional. A <b>DWORD</b> value that indicates the number of encoded certificates in the <b>rgCertEncoded</b> array. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
-
 ### -field rgCertEncoded
 
 Optional. Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
-
 
 ### -field cCrlEncoded
 
 Optional. A <b>DWORD</b> value that indicates the number of encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) in the <b>rgCRLEncoded</b> array. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
-
 ### -field rgCrlEncoded
 
 Optional. An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRL_BLOB</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
-
 
 ### -field cAttrCertEncoded
 
 Optional. A <b>DWORD</b> value that indicates the number of encoded certificate attributes in the <b>rgAttrCertEncoded</b> array. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
-
 ### -field rgAttrCertEncoded
 
 Optional. An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this member.
-
 
 ### -field cUnprotectedAttr
 
 Optional. A <b>DWORD</b> value that indicates the number of unprotected attributes in the <b>rgUnprotectedAttr</b> array. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
-
 ### -field rgUnprotectedAttr
 
 Optional. An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures. CMSG_ENVELOPED_ENCODE_INFO_HAS_CMS_FIELDS must be defined to reference this field.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
- 
-
- 
 

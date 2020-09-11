@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a29e1955-80e2-442d-9565-c885006be565
 ms.date: 12/05/2018
 ms.keywords: CreateEnumUsers, CreateEnumUsers method [Files], CreateEnumUsers method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],CreateEnumUsers method, IDiskQuotaControl.CreateEnumUsers, IDiskQuotaControl::CreateEnumUsers, _win32_idiskquotacontrol_createenumusers, base.idiskquotacontrol_createenumusers, dskquota/IDiskQuotaControl::CreateEnumUsers, fs.idiskquotacontrol_createenumusers
-f1_keywords:
-- dskquota/IDiskQuotaControl.CreateEnumUsers
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.CreateEnumUsers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::CreateEnumUsers
+ - dskquota/IDiskQuotaControl::CreateEnumUsers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.CreateEnumUsers
 ---
 
 # IDiskQuotaControl::CreateEnumUsers
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an enumerator object for enumerating quota users on the volume. The newly created object implements the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param rgpUserSids [in]
 
 An array of security identifier (SID) pointers representing the user objects to be included in the enumeration. If this value is <b>NULL</b>, all user entries are enumerated.
 
-
 ### -param cpSids [in]
 
 The number of items in the <i>rgpUserSids</i> array. Ignored if <i>rgpUserSids</i> is <b>NULL</b>.
-
 
 ### -param fNameResolution [in]
 
@@ -116,18 +110,13 @@ Resolve user account information synchronously. The
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppEnum [out]
 
 A pointer to a pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> enumerator.
 
-
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -203,15 +192,8 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
@@ -222,7 +204,4 @@ An unexpected exception occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
 

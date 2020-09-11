@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 55AEA5EA-7D9E-4669-8315-7A6F4428EDF9
 ms.date: 12/05/2018
 ms.keywords: AddTransitionBetweenKeyframes, AddTransitionBetweenKeyframes method [Windows Animation], AddTransitionBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddTransitionBetweenKeyframes method, IUIAnimationStoryboard2.AddTransitionBetweenKeyframes, IUIAnimationStoryboard2::AddTransitionBetweenKeyframes, uianimation.iuianimationstoryboard2_addtransitionbetweenkeyframes, uianimation/IUIAnimationStoryboard2::AddTransitionBetweenKeyframes
-f1_keywords:
-- uianimation/IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationStoryboard2::AddTransitionBetweenKeyframes
+ - uianimation/IUIAnimationStoryboard2::AddTransitionBetweenKeyframes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
 ---
 
 # IUIAnimationStoryboard2::AddTransitionBetweenKeyframes
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a transition between two keyframes.
 
-
 ## -parameters
-
-
-
 
 ### -param variable [in]
 
 The animation variable for which the transition is to be added.
 
-
 ### -param transition [in]
 
 The transition to be added.
-
 
 ### -param startKeyframe [in]
 
 A keyframe that specifies the beginning of the new transition.
 
-
 ### -param endKeyframe [in]
 
 A keyframe that specifies the end of the new transition. It must not be possible for <i>endKeyframe</i> to appear earlier in the storyboard than <i>startKeyframe</i>.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code.
 
@@ -127,12 +117,7 @@ The start keyframe might occur after the end keyframe.
 
 See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 This method applies the specified transition to the specified variable in the storyboard, with the transition starting and ending at the specified keyframes.  If the transition was created with a duration parameter specified, that duration is overwritten with the duration of time between the start and end keyframes. Otherwise, Windows Animation speeds up or slows down the transition as necessary.
 
@@ -140,13 +125,7 @@ A keyframe represents a moment in time within a storyboard and can be used to sp
 
 Transitions must be added in the order in which they will be played. A transition may begin playing before the preceding transition in the storyboard has finished, in which case the initial value and velocity seen by the new transition will be determined by the state of the preceding one. It must not be possible for a transition to begin before the start of the preceding transition.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
 
@@ -173,7 +152,4 @@ Transitions must be added in the order in which they will be played. A transitio
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
- 
-
- 
 

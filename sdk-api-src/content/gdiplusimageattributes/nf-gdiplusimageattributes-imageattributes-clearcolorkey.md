@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearcolorkey.htm
 ms.date: 12/05/2018
 ms.keywords: ClearColorKey, ClearColorKey method [GDI+], ClearColorKey method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearColorKey method, ImageAttributes.ClearColorKey, ImageAttributes::ClearColorKey, _gdiplus_CLASS_ImageAttributes_ClearColorKey_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearColorKey_type_
-f1_keywords:
-- gdiplusimageattributes/ImageAttributes.ClearColorKey
-dev_langs:
-- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- ImageAttributes.ClearColorKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - ImageAttributes::ClearColorKey
+ - gdiplusimageattributes/ImageAttributes::ClearColorKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - ImageAttributes.ClearColorKey
 ---
 
 # ImageAttributes::ClearColorKey
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ImageAttributes::ClearColorKey</b> method clears the color key (transparency range) for a specified category.
 
-
 ## -parameters
-
-
-
 
 ### -param type [in, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustType</a></b>
 
-Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustType</a> enumeration that specifies the category for which the color key is cleared. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustTypeDefault</a>. 
-
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustType</a> enumeration that specifies the category for which the color key is cleared. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustTypeDefault</a>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -76,12 +69,7 @@ If the method succeeds, it returns <a href="https://docs.microsoft.com/windows/d
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify one color key for the default category, a different color key for the bitmap category, and still a different color key for the pen category.
 
@@ -171,12 +159,7 @@ The preceding code, along with a particular file, TestMetafile5.png, produced th
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
@@ -215,7 +198,4 @@ The preceding code, along with a particular file, TestMetafile5.png, produced th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
- 
-
- 
 

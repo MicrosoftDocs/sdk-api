@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 227a2724-c2b3-4f12-8d30-1ff1eca59c83
 ms.date: 12/05/2018
 ms.keywords: IOpcFactory interface [Open Packaging Conventions],ReadPackageFromStream method, IOpcFactory.ReadPackageFromStream, IOpcFactory::ReadPackageFromStream, ReadPackageFromStream, ReadPackageFromStream method [Open Packaging Conventions], ReadPackageFromStream method [Open Packaging Conventions],IOpcFactory interface, msopc/IOpcFactory::ReadPackageFromStream, opc.iopcfactory_readpackagefromstream
-f1_keywords:
-- msopc/IOpcFactory.ReadPackageFromStream
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcFactory.ReadPackageFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcFactory::ReadPackageFromStream
+ - msopc/IOpcFactory::ReadPackageFromStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcFactory.ReadPackageFromStream
 ---
 
 # IOpcFactory::ReadPackageFromStream
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deserializes package data from a stream  and creates a package object to represent the package being read. While a Packaging API object obtained from the package object, or the package object itself, is still in use, the stream may be used to access package data.
 
-
 ## -parameters
-
-
-
 
 ### -param stream [in]
 
@@ -64,20 +60,15 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/
 
 The stream must be readable, seekable, have size,   and must contain package data. Additionally, if the stream is not clonable, it will be buffered and read sequentially, incurring overhead.
 
-
 ### -param flags [in]
 
 The value that specifies the read settings for caching package components and validating them against <i>OPC</i> conformance requirements.
-
 
 ### -param package [out, retval]
 
 A pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpackage">IOpcPackage</a> interface of the package object that represents the package being read through the stream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -164,14 +155,8 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not use a stream to serialize package data when the same stream is being used to deserialize a package, because the attempt may result in undefined behavior.
 
@@ -189,13 +174,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
@@ -238,7 +217,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

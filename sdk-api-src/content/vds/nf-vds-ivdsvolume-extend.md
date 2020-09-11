@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8f31dd3e-0c06-49fe-8ff2-55cfabe5099e
 ms.date: 12/05/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Extend method, IVdsVolume.Extend, IVdsVolume::Extend, base.ivdsvolume_extend, vds/IVdsVolume::Extend
-f1_keywords:
-- vds/IVdsVolume.Extend
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVolume.Extend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVolume::Extend
+ - vds/IVdsVolume::Extend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVolume.Extend
 ---
 
 # IVdsVolume::Extend
@@ -50,17 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Expands the size of the current 
    volume by adding disk extents to each member of each plex.
 
-
 ## -parameters
-
-
-
 
 ### -param pInputDiskArray [in]
 
@@ -78,7 +74,6 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/v
 The total number of disks in the volume. Callers can pass zero when the volume plexes contain enough space to 
       extend the volume; <i>pInputDiskArray</i> must be <b>NULL</b>.
 
-
 ### -param ppAsync [out]
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface pointer, which VDS 
@@ -89,10 +84,7 @@ The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwp
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on each interface pointer.
      However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -149,14 +141,8 @@ The volume is not healthy.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method extends a simple volume on the same disk, or creates a spanned volume by extending the volume to 
     multiple disks. Callers can extend a volume on a basic disk, however the disk extent must be contiguous with the 
@@ -193,13 +179,7 @@ When the caller passes <b>NULL</b> for <i>pInputDiskArray</i> and zero for
 Implementers must return a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface for 
      this method, regardless of whether the call initiates an asynchronous operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
@@ -222,7 +202,4 @@ Implementers must return a pointer to the <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: c0ddbc25-6abe-484b-a545-3b9376c514df
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], IWICBitmapLock interface [Windows Imaging Component],described, _wic_codec_iwicbitmaplock, wic._wic_codec_iwicbitmaplock, wincodec/IWICBitmapLock
-f1_keywords:
-- wincodec/IWICBitmapLock
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapLock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapLock
+ - wincodec/IWICBitmapLock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapLock
 ---
 
 # IWICBitmapLock interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that support the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> method.
-
 
 ## -inheritance
 
@@ -104,16 +103,11 @@ Provides access to the <a href="https://docs.microsoft.com/">stride</a> value fo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The bitmap lock is simply an abstraction for a rectangular memory window into the bitmap. For the simplest case, a system memory bitmap, this is simply a pointer to the top left corner of the rectangle and a stride value.
 
 To release the exclusive lock set by <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> method and the associated <b>IWICBitmapLock</b> object, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the <b>IWICBitmapLock</b> object.
-
-
 

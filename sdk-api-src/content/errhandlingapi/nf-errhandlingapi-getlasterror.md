@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: d852e148-985c-416f-a5a7-27b6914b45d4
 ms.date: 12/05/2018
 ms.keywords: GetLastError, GetLastError function, _win32_getlasterror, base.getlasterror, errhandlingapi/GetLastError
-f1_keywords:
-- errhandlingapi/GetLastError
-dev_langs:
-- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-errorhandling-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-errorhandling-l1-1-1.dll
-- API-MS-Win-Core-errorhandling-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
-- vertdll.dll
-api_name:
-- GetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLastError
+ - errhandlingapi/GetLastError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-errorhandling-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-errorhandling-l1-1-1.dll
+ - API-MS-Win-Core-errorhandling-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+ - vertdll.dll
+api_name:
+ - GetLastError
 ---
 
 # GetLastError function
@@ -57,34 +58,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the calling thread's last-error code value. The last-error code is maintained on a per-thread basis. Multiple threads do not overwrite each other's last-error code.
 
 <b>Visual Basic:  </b>Applications should call <b>err.LastDllError</b> instead of 
 <b>GetLastError</b>.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The return value is the calling thread's last-error code.
 
 The Return Value section of the documentation for each function that sets the last-error code notes the conditions under which the function sets the last-error code. Most functions that set the thread's last-error code set it when they fail. However, some functions also set the last-error code when they succeed. If the function is not documented to set the last-error code, the value returned by this function is simply the most recent last-error code to have been set; some functions set the last-error code to 0 on success and others do not.
 
-
-
-
 ## -remarks
-
-
 
 Functions executed by the calling thread set this value by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function. You should call the 
@@ -110,12 +97,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
@@ -138,7 +120,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>
- 
-
- 
 

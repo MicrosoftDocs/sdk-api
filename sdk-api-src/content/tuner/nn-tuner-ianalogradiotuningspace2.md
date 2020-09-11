@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 66e631cb-2ae8-40b0-8ec8-3a02764284bf
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace2, IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies], IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],described, IAnalogRadioTuningSpace2Interface, mstv.ianalogradiotuningspace2, tuner/IAnalogRadioTuningSpace2
-f1_keywords:
-- tuner/IAnalogRadioTuningSpace2
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IAnalogRadioTuningSpace2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAnalogRadioTuningSpace2
+ - tuner/IAnalogRadioTuningSpace2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IAnalogRadioTuningSpace2
 ---
 
 # IAnalogRadioTuningSpace2 interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Windows XP Media Center Edition 2004 and later.
         
 
 The <b>IAnalogRadioTuningSpace2</b> interface provides methods for getting and setting parameters associated with tuning spaces for analog radio transmission, including the source country code.
-
-
-
 
 ## -inheritance
 
@@ -92,29 +88,17 @@ Sets the country/region code of the tuning space (based on TAPI country/region c
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IAnalogRadioTuningSpace2)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

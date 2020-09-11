@@ -1,17 +1,13 @@
 ---
 UID: NN:radialcontrollerinterop.IRadialControllerInterop
 title: IRadialControllerInterop (radialcontrollerinterop.h)
-description: Enables interoperability with a Universal Windows Platform (UWP)�RadialController object and provides access to RadialController members for customizing the interaction experience.
+description: Enables interoperability with a Universal Windows Platform (UWP)�RadialController object and provides access to RadialController members for customizing the interaction experience.
 helpviewer_keywords: ["IRadialControllerInterop","IRadialControllerInterop interface","IRadialControllerInterop interface","described","Input_Radial.iradialcontrollerinterop","radialcontrollerinterop/IRadialControllerInterop"]
 old-location: input_radial\iradialcontrollerinterop.htm
 tech.root: input_radial
 ms.assetid: ed701930-fae7-4c42-9e6b-b1cb3fac861c
 ms.date: 12/05/2018
 ms.keywords: IRadialControllerInterop, IRadialControllerInterop interface, IRadialControllerInterop interface,described, Input_Radial.iradialcontrollerinterop, radialcontrollerinterop/IRadialControllerInterop
-f1_keywords:
-- radialcontrollerinterop/IRadialControllerInterop
-dev_langs:
-- c++
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RadialControllerInterop.h
-api_name:
-- IRadialControllerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRadialControllerInterop
+ - radialcontrollerinterop/IRadialControllerInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RadialControllerInterop.h
+api_name:
+ - IRadialControllerInterop
 ---
 
 # IRadialControllerInterop interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and provides access to <b>RadialController</b> members for customizing the interaction experience.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Instantiates a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>Developer and UX guidance</b>
 
@@ -106,7 +101,4 @@ Instantiates a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radi
 
 
 <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>
- 
-
- 
 

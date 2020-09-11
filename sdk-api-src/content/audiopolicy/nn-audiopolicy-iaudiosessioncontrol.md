@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 4446140e-2e61-40ed-b0f9-4c1b90e7c2de
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl, IAudioSessionControl interface [Core Audio], IAudioSessionControl interface [Core Audio],described, audiopolicy/IAudioSessionControl, coreaudio.iaudiosessioncontrol
-f1_keywords:
-- audiopolicy/IAudioSessionControl
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionControl
+ - audiopolicy/IAudioSessionControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionControl
 ---
 
 # IAudioSessionControl interface
 
 
 ## -description
-
-
 
 The <b>IAudioSessionControl</b> interface enables a client to configure the control parameters for an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-sessions">audio session</a> and to monitor events in the session. The <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method initializes a stream object and assigns the stream to an audio session. The client obtains a reference to the <b>IAudioSessionControl</b> interface on a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to <b>REFIID</b> IID_IAudioSessionControl.
 
@@ -62,9 +61,6 @@ When releasing an <b>IAudioSessionControl</b> interface instance, the client mus
 The <b>IAudioSessionControl</b> interface controls an audio session. An audio session is a collection of shared-mode streams. This interface does not work with exclusive-mode streams.
 
 For a code example that uses the <b>IAudioSessionControl</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
-
-
-
 
 ## -inheritance
 
@@ -162,13 +158,9 @@ Deletes a previous registration by the client to receive notifications.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -187,7 +179,4 @@ Deletes a previous registration by the client to receive notifications.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

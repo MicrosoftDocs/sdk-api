@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 1B4A5DC9-6853-4047-B64D-BD251352AC89
 ms.date: 12/05/2018
 ms.keywords: GetCreationFlags, GetCreationFlags method [DXGI], GetCreationFlags method [DXGI],IDXGIFactory3 interface, IDXGIFactory3 interface [DXGI],GetCreationFlags method, IDXGIFactory3.GetCreationFlags, IDXGIFactory3::GetCreationFlags, direct3ddxgi.idxgifactory3_getcreationflags, dxgi1_3/IDXGIFactory3::GetCreationFlags
-f1_keywords:
-- dxgi1_3/IDXGIFactory3.GetCreationFlags
-dev_langs:
-- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxgi1_3.h
-api_name:
-- IDXGIFactory3.GetCreationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIFactory3::GetCreationFlags
+ - dxgi1_3/IDXGIFactory3::GetCreationFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxgi1_3.h
+api_name:
+ - IDXGIFactory3.GetCreationFlags
 ---
 
 # IDXGIFactory3::GetCreationFlags
@@ -49,42 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the flags that were used when a Microsoft DirectX Graphics Infrastructure (DXGI) object was created.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The creation flags.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetCreationFlags</b> method returns flags that were passed to the  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2">CreateDXGIFactory2</a> function, or were implicitly constructed by <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory">CreateDXGIFactory</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain">D3D11CreateDeviceAndSwapChain</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>
- 
-
- 
 

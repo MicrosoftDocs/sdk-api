@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 4d8e45e3-7144-44ad-b79e-5acc0cec6ed4
 ms.date: 12/05/2018
 ms.keywords: IAMGraphBuilderCallback, IAMGraphBuilderCallback interface [DirectShow], IAMGraphBuilderCallback interface [DirectShow],described, IAMGraphBuilderCallbackInterface, dshow.iamgraphbuildercallback, strmif/IAMGraphBuilderCallback
-f1_keywords:
-- strmif/IAMGraphBuilderCallback
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMGraphBuilderCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMGraphBuilderCallback
+ - strmif/IAMGraphBuilderCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMGraphBuilderCallback
 ---
 
 # IAMGraphBuilderCallback interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMGraphBuilderCallback</code> interface provides a callback mechanism during graph building.
 
 To use this interface, implement the interface in your application or client object. Query the Filter Graph Manager for the <b>IObjectWithSite</b> interface and call the <b>IObjectWithSite::SetSite</b> method with a pointer to your implementation of the interface. The Filter Graph Manager calls the methods on this interface while it builds the graph, which gives the client the opportunity to modify the graph-building process.
 
 The primary use for this interface is to configure the Video Mixing Renderer filter before it is connected. You can also use it reject a specific filter during graph building, such as a decoder filter.
-
-
-
 
 ## -inheritance
 
@@ -94,16 +90,9 @@ Called when the Filter Graph Manager finds a candidate filter, but before it cre
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamfiltergraphcallback">IAMFilterGraphCallback Interface</a>
- 
-
- 
 

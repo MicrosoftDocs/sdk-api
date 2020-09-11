@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4e2b1f53-c6fc-4fb8-a69c-58ab8ac6f258
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getCertFromResponse method, ICEnroll4 interface [Security],getCertFromResponse method, ICEnroll4.getCertFromResponse, ICEnroll4::getCertFromResponse, _xen_icenroll4_getcertfromresponse, getCertFromResponse, getCertFromResponse method [Security], getCertFromResponse method [Security],CEnroll object, getCertFromResponse method [Security],ICEnroll4 interface, security.icenroll4_getcertfromresponse, xenroll/ICEnroll4::getCertFromResponse
-f1_keywords:
-- xenroll/ICEnroll4.getCertFromResponse
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.getCertFromResponse
-- CEnroll.getCertFromResponse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll4::getCertFromResponse
+ - xenroll/ICEnroll4::getCertFromResponse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.getCertFromResponse
+ - CEnroll.getCertFromResponse
 ---
 
 # ICEnroll4::getCertFromResponse
@@ -50,30 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>getCertFromResponse</b> method retrieves the certificate from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority's</a> response.  This method was first defined by the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param strResponse [in]
 
 The base64-encoded response.
 
-
 ### -param pstrCert [out]
 
 A pointer to a <b>BSTR</b> that receives the certificate retrieved from the response. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -84,16 +76,9 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is a string that contains a certificate.
 
-
-
-
 ## -remarks
-
-
 
 The response contained in <i>strResponse</i> must contain exactly one certificate; a child certificate cannot be present.
 
 The response may be either a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> or a full <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response. However, to accept a full CMC response, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) must support <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding of CMC structures.
-
-
 

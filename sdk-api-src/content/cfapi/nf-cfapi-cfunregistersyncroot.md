@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: B4DA85DB-A63A-45EB-9F71-9395AC026A0C
 ms.date: 12/05/2018
 ms.keywords: CfUnregisterSyncRoot, CfUnregisterSyncRoot function, cfapi/CfUnregisterSyncRoot, cloudApi.cfunregistersyncroot
-f1_keywords:
-- cfapi/CfUnregisterSyncRoot
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CldApi.dll
-api_name:
-- CfUnregisterSyncRoot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CfUnregisterSyncRoot
+ - cfapi/CfUnregisterSyncRoot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CldApi.dll
+api_name:
+ - CfUnregisterSyncRoot
 ---
 
 # CfUnregisterSyncRoot function
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters a previously registered sync root.
 
-
 ## -parameters
-
-
-
 
 ### -param SyncRootPath [in]
 
 The path to the sync root to be unregistered.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Unregisters a sync root that was registered with <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfregistersyncroot">CfRegisterSyncRoot</a>. This is typically called at the sync provider uninstall time, when a user account is deleted, or when a user opts to no longer sync a directory tree (if supported by the sync provider). 
 
@@ -100,7 +88,4 @@ For placeholder directories:
 
 <div class="alert"><b>Note</b>  If the placeholder files or directories cannot be reverted or deleted, it will be skipped, and the unregistering process will continue until the full sync root tree has been traversed.</div>
 <div> </div>
-
-
-
 

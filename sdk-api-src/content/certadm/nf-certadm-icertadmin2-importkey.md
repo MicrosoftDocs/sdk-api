@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d71f20d7-5b27-41e5-adc1-6f0ae4160210
 ms.date: 12/05/2018
 ms.keywords: CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin2 interface [Security],ImportKey method, ICertAdmin2.ImportKey, ICertAdmin2::ImportKey, IKF_OVERWRITE, ImportKey, ImportKey method [Security], ImportKey method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ImportKey, security.icertadmin2_importkey
-f1_keywords:
-- certadm/ICertAdmin2.ImportKey
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.ImportKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2::ImportKey
+ - certadm/ICertAdmin2::ImportKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.ImportKey
 ---
 
 # ICertAdmin2::ImportKey
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ImportKey</b> method adds an encrypted key set to an item in the Certificate Services database. The  key set is encrypted to one or several key recovery agent (KRA) certificates.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -70,11 +66,9 @@ String value that represents a valid configuration string for the <a href="https
 
 <b>LONG</b> value that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> ID in the Certificates Services database. If the serial number (passed in as <i>strCertHash</i>) is to be used instead of the request ID, use zero for this value.
 
-
 ### -param strCertHash [in]
 
 String value that represents the certificate hash. For <i>strCertHash</i> to be used, you must specify a value of zero for <i>RequestId</i>.
-
 
 ### -param Flags [in]
 
@@ -136,21 +130,12 @@ Any existing KRA encoded information is overwritten.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strKey [in]
 
 String value that represents the KRA key information.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
- 
-
- 
 

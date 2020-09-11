@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 6f91021c-d7a5-4131-bef7-b4f5f37f9f8b
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink, ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services], ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioningPluginNotifySink, termserv.itssbprovisioningpluginnotifysink
-f1_keywords:
-- sbtsv/ITsSbProvisioningPluginNotifySink
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbProvisioningPluginNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbProvisioningPluginNotifySink
+ - sbtsv/ITsSbProvisioningPluginNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbProvisioningPluginNotifySink
 ---
 
 # ITsSbProvisioningPluginNotifySink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about the provisioning of virtual machines.
-
 
 ## -inheritance
 
@@ -122,20 +121,13 @@ Virtual Machine status changed notification
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

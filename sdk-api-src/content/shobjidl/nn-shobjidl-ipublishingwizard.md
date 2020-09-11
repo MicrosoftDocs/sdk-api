@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 634dcc04-e2ed-4cde-bb4d-d2e8bcf5ab94
 ms.date: 12/05/2018
 ms.keywords: IPublishingWizard, IPublishingWizard interface [Windows Shell], IPublishingWizard interface [Windows Shell],described, _shell_IPublishingWizard, shell.IPublishingWizard, shobjidl/IPublishingWizard
-f1_keywords:
-- shobjidl/IPublishingWizard
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IPublishingWizard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPublishingWizard
+ - shobjidl/IPublishingWizard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IPublishingWizard
 ---
 
 # IPublishingWizard interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for working with the Online Print Wizard, the Web Publishing Wizard, and the Add Network Place Wizard. In Windows Vista, <b>IPublishingWizard</b> no longer supports the Web Publishing Wizard or Online Print Wizard.
-
 
 ## -inheritance
 
@@ -94,12 +93,9 @@ Initializes the <a href="https://docs.microsoft.com/windows/desktop/shell/script
 <div> </div>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The Online Print Wizard is a wizard for ordering prints of photos online. The use of <b>IPublishingWizard</b> to work with the Online Print Wizard is no longer supported in Windows Vista.
 
@@ -225,14 +221,7 @@ if SUCCEEDED(hr)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>
 
@@ -251,7 +240,4 @@ if SUCCEEDED(hr)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/scriptable-shell-objects-roadmap">Publishing Wizard object</a>
- 
-
- 
 

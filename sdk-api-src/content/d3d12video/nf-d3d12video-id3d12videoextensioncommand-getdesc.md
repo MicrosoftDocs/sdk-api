@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoExtensionCommand::GetDesc
 f1_keywords:
+ - ID3D12VideoExtensionCommand::GetDesc
  - d3d12video/ID3D12VideoExtensionCommand::GetDesc
 dev_langs:
  - c++

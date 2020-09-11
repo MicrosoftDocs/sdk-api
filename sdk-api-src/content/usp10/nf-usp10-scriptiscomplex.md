@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 4f8c5494-1887-45f8-92f2-1a767a7d00da
 ms.date: 12/05/2018
 ms.keywords: SIC_ASCIIDIGIT, SIC_COMPLEX, SIC_NEUTRAL, ScriptIsComplex, ScriptIsComplex function [Internationalization for Windows Applications], _win32_ScriptIsComplex, intl.scriptiscomplex, usp10/ScriptIsComplex
-f1_keywords:
-- usp10/ScriptIsComplex
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- usp10.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptIsComplex
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - ScriptIsComplex
+ - usp10/ScriptIsComplex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptIsComplex
 ---
 
 # ScriptIsComplex function
@@ -52,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a Unicode string requires complex script processing.
 
-
 ## -parameters
-
-
-
 
 ### -param pwcInChars [in]
 
 Pointer to the string to test.
 
-
 ### -param cInChars [in]
 
 Length of the input string, in characters.
-
 
 ### -param dwFlags [in]
 
@@ -111,33 +105,19 @@ Treat neutrals as complex. The application sets this flag to display the string 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns S_OK if the string requires complex script processing. The function returns S_FALSE if the string can be handled by standard API function calls, that is, it contains only characters laid out side-by-side and left-to-right. The function returns a nonzero HRESULT value if it does not succeed.
 
-
-
-
 ## -remarks
-
-
 
 See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
@@ -156,7 +136,4 @@ See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-wit
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

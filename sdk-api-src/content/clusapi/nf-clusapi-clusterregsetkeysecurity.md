@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: adb2ea52-6a3a-4243-944d-c7ae68a42a1a
 ms.date: 12/05/2018
 ms.keywords: ClusterRegSetKeySecurity, ClusterRegSetKeySecurity function [Failover Cluster], _wolf_clusterregsetkeysecurity, clusapi/ClusterRegSetKeySecurity, mscs.clusterregsetkeysecurity
-f1_keywords:
-- clusapi/ClusterRegSetKeySecurity
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterRegSetKeySecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegSetKeySecurity
+ - clusapi/ClusterRegSetKeySecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterRegSetKeySecurity
 ---
 
 # ClusterRegSetKeySecurity function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the security attributes for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> 
     key.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 Handle to a cluster database key.
-
 
 ### -param SecurityInformation [in]
 
@@ -70,28 +65,19 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-informat
        indicates the content of the security descriptor pointed to by 
        <i>pSecurityDescriptor</i>.
 
-
 ### -param pSecurityDescriptor [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure 
        that describes the security attributes to set for the key corresponding to <i>hKey</i>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ClusterRegSetKeySecurity</b> function 
      generates a <b>CLUSTER_CHANGE_REGISTRY_ATTRIBUTES</b> event for all registered notification 
@@ -121,16 +107,7 @@ Do not call <b>ClusterRegSetKeySecurity</b> from
      called from any other resource DLL entry point function or from a worker thread. For more information, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
- 
-
- 
 

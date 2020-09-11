@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: b86f9bc7-ddee-4d18-b5cb-28d28fa7ae7e
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager, IWdsTransportConfigurationManager interface [Windows Deployment Services], IWdsTransportConfigurationManager interface [Windows Deployment Services],described, wds.iwdstransportconfigurationmanager, wdstptmgmt/IWdsTransportConfigurationManager
-f1_keywords:
-- wdstptmgmt/IWdsTransportConfigurationManager
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportConfigurationManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportConfigurationManager
+ - wdstptmgmt/IWdsTransportConfigurationManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportConfigurationManager
 ---
 
 # IWdsTransportConfigurationManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages the configuration of a WDS transport server.
-
 
 ## -inheritance
 
@@ -179,5 +178,5 @@ Receives a value that indicates whether WDS transport services are running on th
 
 </td>
 </tr>
-</table> 
+</table>
 

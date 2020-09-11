@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatacallback\bandeddatacallback.htm
 ms.date: 12/05/2018
 ms.keywords: BandedDataCallback, BandedDataCallback method [WIA], BandedDataCallback method [WIA],IWiaDataCallback interface, IT_MSG_DATA, IT_MSG_DATA_HEADER, IT_MSG_DEVICE_STATUS, IT_MSG_FILE_PREVIEW_DATA, IT_MSG_FILE_PREVIEW_DATA_HEADER, IT_MSG_NEW_PAGE, IT_MSG_STATUS, IT_MSG_TERMINATION, IT_STATUS_PROCESSING_DATA, IT_STATUS_TRANSFER_FROM_DEVICE, IT_STATUS_TRANSFER_TO_CLIENT, IWiaDataCallback interface [WIA],BandedDataCallback method, IWiaDataCallback.BandedDataCallback, IWiaDataCallback::BandedDataCallback, _wia_IWiaDataCallback_BandedDataCallback, wia._wia_IWiaDataCallback_BandedDataCallback, wia_xp/IWiaDataCallback::BandedDataCallback
-f1_keywords:
-- wia_xp/IWiaDataCallback.BandedDataCallback
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaguid.lib
-- Wiaguid.dll
-api_name:
-- IWiaDataCallback.BandedDataCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaDataCallback::BandedDataCallback
+ - wia_xp/IWiaDataCallback::BandedDataCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaguid.lib
+ - Wiaguid.dll
+api_name:
+ - IWiaDataCallback.BandedDataCallback
 ---
 
 # IWiaDataCallback::BandedDataCallback
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides data transfer status notifications. Windows Image Acquisition (WIA) data transfer methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer">IWiaDataTransfer</a> interface periodically call this method. 
-
+Provides data transfer status notifications. Windows Image Acquisition (WIA) data transfer methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer">IWiaDataTransfer</a> interface periodically call this method.
 
 ## -parameters
-
-
-
 
 ### -param lMessage [in]
 
@@ -113,7 +109,6 @@ This invocation of the callback is sending only status information.
 
 The data transfer is complete.
 
-
 ### -param lStatus [in]
 
 Type: <b>LONG</b>
@@ -138,13 +133,11 @@ Data is currently being processed.
 
 Data is currently being transferred to the client's data buffer.
 
-
 ### -param lPercentComplete [in]
 
 Type: <b>LONG</b>
 
-Specifies the percentage of the total data that has been transferred so far. 
-
+Specifies the percentage of the total data that has been transferred so far.
 
 ### -param lOffset [in]
 
@@ -152,13 +145,11 @@ Type: <b>LONG</b>
 
 Specifies an offset, in bytes, from the beginning of the buffer where the current band of data begins.
 
-
 ### -param lLength [in]
 
 Type: <b>LONG</b>
 
 Specifies the length, in bytes, of the current band of data.
-
 
 ### -param lReserved [in]
 
@@ -166,13 +157,11 @@ Type: <b>LONG</b>
 
 Reserved for internal use by the WIA run-time system.
 
-
 ### -param lResLength [in]
 
 Type: <b>LONG</b>
 
 Reserved for internal use by the WIA run-time system.
-
 
 ### -param pbBuffer [in]
 
@@ -180,21 +169,13 @@ Type: <b>BYTE*</b>
 
 Pointer to the data buffer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If the method succeeds, the method returns S_OK. To cancel the data transfer, it returns S_FALSE. If the method fails, it returns a standard COM error code.
 
-
-
-
 ## -remarks
-
-
 
 Your application must provide the <b>IWiaDataCallback::BandedDataCallback</b> method. This method is periodically invoked by the data transfer methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer">IWiaDataTransfer</a> interface. It provides status messages to the application during the data transfer. By returning S_FALSE, your program can also use this method to prematurely terminate the data transfer.
 
@@ -425,7 +406,4 @@ public:
 };
 
 ```
-
-
-
 

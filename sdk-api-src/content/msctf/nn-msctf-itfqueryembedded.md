@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 6e2c3ad5-73c6-481f-9ade-58782e12dfbd
 ms.date: 12/05/2018
 ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framework], ITfQueryEmbedded interface [Text Services Framework],described, _tsf_itfqueryembedded_ref, msctf/ITfQueryEmbedded, tsf.itfqueryembedded
-f1_keywords:
-- msctf/ITfQueryEmbedded
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfQueryEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfQueryEmbedded
+ - msctf/ITfQueryEmbedded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfQueryEmbedded
 ---
 
 # ITfQueryEmbedded interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfQueryEmbedded</b> interface is implemented by the TSF manager and used by a text service to determine if a context can accept an embedded object.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Determines if the active context can accept an embedded object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To obtain an instance of this interface, call the <b>ITfContext::QueryInterface</b> method with IID_ITfQueryEmbedded.
 
@@ -111,14 +107,7 @@ if(SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
@@ -126,7 +115,4 @@ if(SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

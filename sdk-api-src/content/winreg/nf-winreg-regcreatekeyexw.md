@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4
 ms.date: 12/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_CREATE_LINK, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyEx, RegCreateKeyEx function, RegCreateKeyExA, RegCreateKeyExW, _win32_regcreatekeyex, base.regcreatekeyex, winreg/RegCreateKeyEx, winreg/RegCreateKeyExA, winreg/RegCreateKeyExW
-f1_keywords:
-- winreg/RegCreateKeyEx
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-api_name:
-- RegCreateKeyEx
-- RegCreateKeyExA
-- RegCreateKeyExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegCreateKeyExW
+ - winreg/RegCreateKeyExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+api_name:
+ - RegCreateKeyEx
+ - RegCreateKeyExA
+ - RegCreateKeyExW
 ---
 
 # RegCreateKeyExW function
@@ -58,18 +59,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive.
 
 To perform transacted registry operations on a key, call the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a> function.
 
  Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -92,8 +88,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param lpSubKey [in]
 
 The name of a subkey that this function opens or creates. The subkey specified must be a subkey of the key identified by the <i>hKey</i> parameter; it can be up to 32 levels deep in the registry tree. For more information on key names, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/structure-of-the-registry">Structure of the Registry</a>.
@@ -102,16 +96,13 @@ If <i>lpSubKey</i> is a pointer to an empty string, <i>phkResult</i> receives a 
 
 This parameter cannot be <b>NULL</b>.
 
-
 ### -param Reserved
 
 This parameter is reserved and must be zero.
 
-
 ### -param lpClass [in, optional]
 
 The user-defined class type of this key. This parameter may be ignored. This parameter can be <b>NULL</b>.
-
 
 ### -param dwOptions [in]
 
@@ -181,14 +172,11 @@ a fast startup shutdown is the default behavior for the system.</div>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param samDesired [in]
 
 A mask that specifies the access rights for the key to be created. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
-
 
 ### -param lpSecurityAttributes [in, optional]
 
@@ -200,12 +188,10 @@ A pointer to a
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new key. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the key gets a default security descriptor. The ACLs in a default security descriptor for a key are inherited from its direct parent key.
 
-
 ### -param phkResult [out]
 
 A pointer to a variable that receives a handle to the opened or created key. If the key is not one of the predefined registry keys, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function after you have finished using the handle.
-
 
 ### -param lpdwDisposition [out, optional]
 
@@ -243,22 +229,14 @@ The key existed and was simply opened without being changed.
 
 If <i>lpdwDisposition</i> is <b>NULL</b>, no disposition information is returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 The key that the 
 <b>RegCreateKeyEx</b> function creates has no values. An application can use the 
@@ -286,9 +264,6 @@ Note that operations that access certain registry keys are redirected. For more 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
@@ -314,7 +289,4 @@ Note that operations that access certain registry keys are redirected. For more 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
- 
-
- 
 

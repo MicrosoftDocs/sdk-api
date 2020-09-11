@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: d3a34a13-6114-4f15-9de5-60da43fde600
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo2, ITypeInfo2 interface [Automation], ITypeInfo2 interface [Automation],described, _oa96_ITypeInfo2_Interface, automat.itypeinfo2, oaidl/ITypeInfo2
-f1_keywords:
-- oaidl/ITypeInfo2
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo2
+ - oaidl/ITypeInfo2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo2
 ---
 
 # ITypeInfo2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used for reading information about objects. Can be cast to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> instead of using the calls <b>QueryInterface</b> and <b>Release</b> to allow quick opens and allocs. This only works for in-process cases.
-
 
 ## -inheritance
 
@@ -203,16 +202,9 @@ Binds to a specific member based on a known DISPID, where the member name is not
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
- 
-
- 
 

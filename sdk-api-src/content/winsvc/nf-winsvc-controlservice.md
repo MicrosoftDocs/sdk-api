@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c112b587-7455-4f15-93e1-ded73de6dbbd
 ms.date: 12/05/2018
 ms.keywords: ControlService, ControlService function, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_STOP, _win32_controlservice, base.controlservice, winsvc/ControlService
-f1_keywords:
-- winsvc/ControlService
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: AdvApi32.lib
 req.dll: AdvApi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- AdvApi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- ControlService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ControlService
+ - winsvc/ControlService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - AdvApi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - ControlService
 ---
 
 # ControlService function
@@ -53,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a control code to a service.
 
 To specify additional information when stopping a service, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -72,7 +68,6 @@ A handle to the service. This handle is returned by the
       <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The 
       <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">access rights</a> required for this handle 
       depend on the <i>dwControl</i> code requested.
-
 
 ### -param dwControl [in]
 
@@ -235,8 +230,6 @@ The service defines the action associated with the control code. The <i>hService
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpServiceStatus [out]
 
@@ -251,10 +244,7 @@ The service control manager fills in the structure only when
        <b>ERROR_SERVICE_CANNOT_ACCEPT_CTRL</b>, or 
        <b>ERROR_SERVICE_NOT_ACTIVE</b>. Otherwise, the structure is not filled in.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -378,14 +368,8 @@ The system is shutting down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ControlService</b> function asks the Service 
     Control Manager (SCM) to send the requested control code to the service. The SCM sends the code  if the service 
@@ -470,12 +454,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Services
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>
 
@@ -510,7 +489,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Services
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
- 
-
- 
 

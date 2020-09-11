@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 305758A1-D584-45A3-B118-B46B3731820D
 ms.date: 12/05/2018
 ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IObjectModelProvider interface, IObjectModelProvider interface [Windows Accessibility],GetUnderlyingObjectModel method, IObjectModelProvider.GetUnderlyingObjectModel, IObjectModelProvider::GetUnderlyingObjectModel, uiautomationcore/IObjectModelProvider::GetUnderlyingObjectModel, winauto.uiauto_IObjectModelProvider_GetUnderlyingObjectModel
-f1_keywords:
-- uiautomationcore/IObjectModelProvider.GetUnderlyingObjectModel
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IObjectModelProvider.GetUnderlyingObjectModel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectModelProvider::GetUnderlyingObjectModel
+ - uiautomationcore/IObjectModelProvider::GetUnderlyingObjectModel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IObjectModelProvider.GetUnderlyingObjectModel
 ---
 
 # IObjectModelProvider::GetUnderlyingObjectModel
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an interface used to access the underlying object model of the provider.
 
-
 ## -parameters
-
-
-
 
 ### -param ppUnknown [out, retval]
 
@@ -64,34 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 Receives an interface for accessing the underlying object model.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Client applications can use the object model to directly access the content of the control or application.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider">IObjectModelProvider</a>
- 
-
- 
 

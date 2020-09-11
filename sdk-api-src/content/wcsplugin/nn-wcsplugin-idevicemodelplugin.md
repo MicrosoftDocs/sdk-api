@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 90541ec2-c0ab-4f98-906b-3e58f8f5cc03
 ms.date: 12/05/2018
 ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], IDeviceModelPlugIn interface [Windows Color System],described, _color_IDeviceModelPlugIn, wcs.idevicemodelplugin, wcsplugin/IDeviceModelPlugIn
-f1_keywords:
-- wcsplugin/IDeviceModelPlugIn
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wcsplugin.h
-api_name:
-- IDeviceModelPlugIn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeviceModelPlugIn
+ - wcsplugin/IDeviceModelPlugIn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wcsplugin.h
+api_name:
+ - IDeviceModelPlugIn
 ---
 
 # IDeviceModelPlugIn interface
 
 
 ## -description
-
 
 Describes the methods that are defined for the <b>IDeviceModelPlugIn</b> Component Object Model (COM) interface.
 <ul>
@@ -86,3 +86,4 @@ Describes the methods that are defined for the <b>IDeviceModelPlugIn</b> Compone
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-settransformdevicemodelinfo">SetTransformDeviceModelInfo</a>
 </li>
 </ul>
+

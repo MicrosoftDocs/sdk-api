@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: f3356463-3373-4279-bae1-953378aa2680
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo, ITypeInfo interface [Automation], ITypeInfo interface [Automation],described, _oa96_ITypeInfo_Interface, automat.itypeinfo, oaidl/ITypeInfo
-f1_keywords:
-- oaidl/ITypeInfo
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo
+ - oaidl/ITypeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo
 ---
 
 # ITypeInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This section describes <b>ITypeInfo</b>, an interface typically used for reading information about objects. For example, an object browser tool can use <b>ITypeInfo</b> to extract information about the characteristics and capabilities of objects from type libraries.
-
 
 ## -inheritance
 
@@ -239,12 +238,9 @@ Releases a VARDESC previously returned by <a href="https://docs.microsoft.com/pr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Type information interfaces are intended to describe the parts of the application that can be called by outside clients, rather than those that might be used internally to build an application.
 
@@ -268,16 +264,7 @@ The type description of an <a href="https://docs.microsoft.com/previous-versions
 
 An instance of <b>ITypeInfo</b> provides various information about the type of an object, and is used in different ways. A compiler can use an <b>ITypeInfo</b> to compile references to members of the type. A type interface browser can use it to find information about each member of the type. An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> implementor can use it to provide automatic delegation of <b>IDispatch</b> calls to an interface.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
- 
-
- 
 

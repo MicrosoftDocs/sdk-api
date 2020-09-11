@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 8F47529B-52E9-4D67-81B3-DD2584B98101
 ms.date: 12/05/2018
 ms.keywords: IInkEdit, IInkEdit interface [Tablet PC], IInkEdit interface [Tablet PC],described, inked/IInkEdit, tablet.iinkedit_
-f1_keywords:
-- inked/IInkEdit
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- inked.h
-api_name:
-- IInkEdit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkEdit
+ - inked/IInkEdit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - inked.h
+api_name:
+ - IInkEdit
 ---
 
 # IInkEdit interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-
-
 
 ## -inheritance
 
@@ -839,5 +836,5 @@ Gets or sets a value that indicates whether the mouse can be used as an input de
 
 </td>
 </tr>
-</table> 
+</table>
 

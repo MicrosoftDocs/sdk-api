@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 2ac47da3-f60f-41f4-99f7-031744044bd4
 ms.date: 12/05/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_Call method, ITCallHubEvent.get_Call, ITCallHubEvent::get_Call, _tapi3_itcallhubevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_call, tapi3if/ITCallHubEvent::get_Call
-f1_keywords:
-- tapi3if/ITCallHubEvent.get_Call
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallHubEvent.get_Call
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallHubEvent::get_Call
+ - tapi3if/ITCallHubEvent::get_Call
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallHubEvent.get_Call
 ---
 
 # ITCallHubEvent::get_Call
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Call</b> method returns a pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface of the call on which the event occurred.
 
-
 ## -parameters
-
-
-
 
 ### -param ppCall [out]
 
 <b>ITCallInfo</b> interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,31 +103,16 @@ The <i>ppCallt</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method may return a <b>NULL</b> if the event is not associated with a call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>
- 
-
- 
 

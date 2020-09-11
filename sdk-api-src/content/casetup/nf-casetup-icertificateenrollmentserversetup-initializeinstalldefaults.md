@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2C6E8F84-56AC-4541-A778-839D5F2C764F
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentServerSetup.InitializeInstallDefaults, ICertificateEnrollmentServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults, security.icertificateenrollmentserversetup_initializeinstalldefaults
-f1_keywords:
-- casetup/ICertificateEnrollmentServerSetup.InitializeInstallDefaults
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentServerSetup.InitializeInstallDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentServerSetup::InitializeInstallDefaults
+ - casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentServerSetup.InitializeInstallDefaults
 ---
 
 # ICertificateEnrollmentServerSetup::InitializeInstallDefaults
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeInstallDefaults</b> method initializes the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object with a default configuration.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -102,14 +94,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method performs the following actions:
 
@@ -165,20 +151,11 @@ Sets the ENUM_CESSETUPPROP_URL property is to "https://<i>computerDNSname</i>/<i
 </ul>
 You must call the <b>InitializeInstallDefaults</b> method before calling any method other than <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-uninstall">UnInstall</a>. Call the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-install">Install</a> method to install the configured service. Call <b>UnInstall</b> on a new <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object to remove the service.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
- 
-
- 
 

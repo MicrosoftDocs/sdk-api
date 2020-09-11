@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 073ba94a-ebfa-42f5-9d90-d5693dc25703
 ms.date: 12/05/2018
 ms.keywords: ScriptShape, ScriptShape function [Internationalization for Windows Applications], _win32_ScriptShape, intl.scriptshape, usp10/ScriptShape
-f1_keywords:
-- usp10/ScriptShape
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- usp10.dll
-- Ext-MS-Win-usp10-l1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptShape
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ScriptShape
+ - usp10/ScriptShape
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - usp10.dll
+ - Ext-MS-Win-usp10-l1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptShape
 ---
 
 # ScriptShape function
@@ -52,68 +53,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates glyphs and visual attributes for a Unicode run.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Optional. Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
 
-
 ### -param psc [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
-
 
 ### -param pwcChars [in]
 
 Pointer to an array of Unicode characters defining the run.
 
-
 ### -param cChars [in]
 
 Number of characters in the Unicode run.
-
 
 ### -param cMaxGlyphs [in]
 
 Maximum number of glyphs to generate, and the length of <i>pwOutGlyphs</i>. A reasonable value is <code>(1.5 * cChars + 16)</code>, but this value might be insufficient in some circumstances. For more information, see the Remarks section.
 
-
 ### -param psa [in, out]
 
 Pointer to the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure for the run, containing the results from an earlier call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
-
 
 ### -param pwOutGlyphs [out]
 
 Pointer to a buffer in which this function retrieves an array of glyphs with size as indicated by <i>cMaxGlyphs</i>.
 
-
 ### -param pwLogClust [out]
 
 Pointer to a buffer in which this function retrieves an array of logical cluster information. Each array element corresponds to a character in the array of Unicode characters; therefore this array has the number of elements indicated by cChars. The value of each element is the offset from the first glyph in the run to the first glyph in the cluster containing the corresponding character. Note that, when the <b>fRTL</b> member is set to <b>TRUE</b> in the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure, the elements decrease as the array is read.
-
 
 ### -param psva [out]
 
 Pointer to a buffer in which this function retrieves an array of <a href="/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> structures containing visual attribute information. Since each glyph has only one visual attribute, this array has the number of elements indicated by <i>cMaxGlyphs</i>.
 
-
 ### -param pcGlyphs [out]
 
 Pointer to the location in which this function retrieves the number of glyphs indicated in <i>pwOutGlyphs</i>.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. In all error cases, the content of all output parameters is undefined.
 
@@ -125,11 +109,7 @@ Error returns include:
 <li>USP_E_SCRIPT_NOT_IN_FONT. The font corresponding to the device context does not support the script required by the run indicated by <i>pwcChars</i>. The application should choose another font, using either <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetcmap">ScriptGetCMap</a> or another function to select the font.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
@@ -173,12 +153,7 @@ Cluster array, that is, the offset (in glyphs) to the cluster containing the cha
 </ul>
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
@@ -213,7 +188,4 @@ Cluster array, that is, the offset (in glyphs) to the cluster containing the cha
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

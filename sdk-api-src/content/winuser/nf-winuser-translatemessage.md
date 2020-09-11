@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\translatemessage.htm
 ms.date: 12/05/2018
 ms.keywords: TranslateMessage, TranslateMessage function [Windows and Messages], _win32_TranslateMessage, _win32_translatemessage_cpp, winmsg.translatemessage, winui._win32_translatemessage, winuser/TranslateMessage
-f1_keywords:
-- winuser/TranslateMessage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-message-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-message-l1-1-0.dll
-- Ext-MS-Win-NTUser-message-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- Ext-MS-Win-NTUser-Message-l1-1-2.dll
-- Ext-MS-Win-NTUser-Message-L1-1-3.dll
-api_name:
-- TranslateMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TranslateMessage
+ - winuser/TranslateMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-message-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-message-l1-1-0.dll
+ - Ext-MS-Win-NTUser-message-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - TranslateMessage
 ---
 
 # TranslateMessage function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates virtual-key messages into character messages. The character messages are posted to the calling thread's message queue, to be read the next time the thread calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpMsg [in]
 
@@ -73,10 +69,7 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winuser/n
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains message information retrieved from the calling thread's message queue by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -86,12 +79,7 @@ If the message is <a href="https://docs.microsoft.com/windows/desktop/inputdev/w
 
 If the message is not translated (that is, a character message is not posted to the thread's message queue), the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>TranslateMessage</b> function does not modify the message pointed to by the <i>lpMsg</i> parameter. 
 
@@ -109,12 +97,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -173,7 +156,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: defb7509-e586-45a0-9e56-de9eba17f18e
 ms.date: 12/05/2018
 ms.keywords: GetControlInfo, GetControlInfo method [COM], GetControlInfo method [COM],IOleControl interface, IOleControl interface [COM],GetControlInfo method, IOleControl.GetControlInfo, IOleControl::GetControlInfo, _ctrl_iolecontrol_getcontrolinfo, com.iolecontrol_getcontrolinfo, ocidl/IOleControl::GetControlInfo
-f1_keywords:
-- ocidl/IOleControl.GetControlInfo
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleControl.GetControlInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleControl::GetControlInfo
+ - ocidl/IOleControl::GetControlInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleControl.GetControlInfo
 ---
 
 # IOleControl::GetControlInfo
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the control's keyboard mnemonics and behavior.
 
-
 ## -parameters
-
-
-
 
 ### -param pCI [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-controlinfo">CONTROLINFO</a> structure that receives the information.
 
-
 ## -returns
-
-
 
 This method can return the standard return value E_OUTOFMEMORY, as well as the following values.
 
@@ -108,18 +101,8 @@ The address in <i>pCI</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
- 
-
- 
 

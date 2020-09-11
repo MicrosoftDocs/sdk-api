@@ -7,10 +7,6 @@ helpviewer_keywords: ["GraphicsPath::GetPathPoints"]
 ms.assetid: b8477156-4557-4aa7-900e-61eb9108ec38
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetPathPoints
-f1_keywords:
-- gdipluspath/GraphicsPath::GetPathPoints
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - GraphicsPath::GetPathPoints
+ - gdipluspath/GraphicsPath::GetPathPoints
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- GraphicsPath::GetPathPoints
+ - GraphicsPath::GetPathPoints
 ---
 
 # GraphicsPath::GetPathPoints
+
 
 ## -description
 
@@ -71,6 +73,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
+
 A <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object has an array of points and an array of types.
 Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points.
 Possible point types and flags are listed in the PathPointType enumeration.
@@ -150,3 +153,4 @@ Color(255, 255, 0,  0)
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

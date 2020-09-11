@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: f5ae9ee9-18de-428d-9367-aa4a554577ea
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_ERROR_PROPERTY_ACTION, WS_FAULT_ERROR_PROPERTY_FAULT, WS_FAULT_ERROR_PROPERTY_HEADER, WS_FAULT_ERROR_PROPERTY_ID, WS_FAULT_ERROR_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_FAULT_ERROR_PROPERTY_ACTION, webservices/WS_FAULT_ERROR_PROPERTY_FAULT, webservices/WS_FAULT_ERROR_PROPERTY_HEADER, webservices/WS_FAULT_ERROR_PROPERTY_ID, wsw.ws_fault_error_property_id
-f1_keywords:
-- webservices/WS_FAULT_ERROR_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_FAULT_ERROR_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_FAULT_ERROR_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_FAULT_ERROR_PROPERTY_ID
+ - webservices/WS_FAULT_ERROR_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_FAULT_ERROR_PROPERTY_ID
 ---
 
 # WS_FAULT_ERROR_PROPERTY_ID enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Information about a fault.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WS_FAULT_ERROR_PROPERTY_FAULT
 
@@ -77,8 +73,6 @@ To get the WS_FAULT value, pass a WS_FAULT** to <a href="https://docs.microsoft.
                 
 
 The default value is <b>NULL</b>.
-                
-
 
 ### -field WS_FAULT_ERROR_PROPERTY_ACTION
 
@@ -96,8 +90,6 @@ To set the string value, pass a WS_XML_STRING* to <a href="https://docs.microsof
                 
 
 The default value is a zero-length string.
-                
-
 
 ### -field WS_FAULT_ERROR_PROPERTY_HEADER
 
@@ -116,5 +108,4 @@ To set the header value, pass a WS_XML_BUFFER** to <a href="https://docs.microso
                 
 
 The default value is <b>NULL</b>.
-                
 

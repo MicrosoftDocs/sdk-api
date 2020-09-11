@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: b5256ed8-79be-4c7b-a079-ed3bca954e9e
 ms.date: 12/05/2018
 ms.keywords: DdLock, DdLock callback function [Display Devices], PDD_SURFCB_LOCK, PDD_SURFCB_LOCK callback, ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml, ddrawint/DdLock, display.ddlock
-f1_keywords:
-- ddrawint/DdLock
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdLock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_SURFCB_LOCK
+ - ddrawint/PDD_SURFCB_LOCK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdLock
 ---
 
 # PDD_SURFCB_LOCK callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>DdLock</i> callback function locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpLock
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_lockdata">DD_LOCKDATA</a> structure that contains the information required to perform the lockdown.
 
-
 ## -returns
-
-
 
 <i>DdLock</i> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 <i>DdLock</i> 
 	 should set the <b>ddRVal</b> member 
@@ -140,13 +121,7 @@ This whole process only works if the memory pointer returned by <i>DdLock</i> is
 
 Consequently, a driver should not attempt to return system memory pointers from its <i>DdLock</i> function unless that driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> function previously allocated such memory with the PLEASE_ALLOC_USERMEM flag. The DirectDraw runtime owns memory allocated in this manner and can defer release of this memory until the application unlocks the memory. Therefore, the driver's <i>DdLock</i> function can return pointers to memory allocated in this manner without risk of crashing the application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_lockdata">DD_LOCKDATA</a>
 
@@ -157,7 +132,4 @@ Consequently, a driver should not attempt to return system memory pointers from 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_unlock">DdUnlock</a>
- 
-
- 
 

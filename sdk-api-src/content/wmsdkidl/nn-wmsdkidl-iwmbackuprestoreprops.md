@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 3a5af1f3-e652-4729-931b-d0702af408f3
 ms.date: 12/05/2018
 ms.keywords: IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], IWMBackupRestoreProps interface [windows Media Format],described, IWMBackupRestorePropsInterface, wmformat.iwmbackuprestoreprops, wmsdkidl/IWMBackupRestoreProps
-f1_keywords:
-- wmsdkidl/IWMBackupRestoreProps
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMBackupRestoreProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMBackupRestoreProps
+ - wmsdkidl/IWMBackupRestoreProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMBackupRestoreProps
 ---
 
 # IWMBackupRestoreProps interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IWMBackupRestoreProps</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
@@ -59,7 +59,6 @@ The <b>IWMBackupRestoreProps</b> interface sets and retrieves properties require
 
 
 This interface can be obtained from the backup restorer object.
-
 
 ## -inheritance
 
@@ -151,15 +150,8 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <td>IID_IWMLicenseRestore</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/backup-restorer-object">Backup Restorer Object</a>
 
@@ -174,7 +166,4 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

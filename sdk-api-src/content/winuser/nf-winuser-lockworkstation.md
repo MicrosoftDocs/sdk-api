@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e0f7f2b9-0fc1-4e76-b5bb-286408240fc6
 ms.date: 12/05/2018
 ms.keywords: LockWorkStation, LockWorkStation function, _win32_lockworkstation, base.lockworkstation, winuser/LockWorkStation
-f1_keywords:
-- winuser/LockWorkStation
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- LockWorkStation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LockWorkStation
+ - winuser/LockWorkStation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - LockWorkStation
 ---
 
 # LockWorkStation function
@@ -50,32 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks the workstation's display. Locking a workstation protects it from unauthorized use.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. Because the function executes asynchronously, a nonzero return value indicates that the operation has been initiated. It does not indicate whether the workstation has been successfully locked.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>LockWorkStation</b> function is callable only by processes running on the interactive desktop. In addition, the user must be logged on, and the workstation cannot already be locked.
@@ -92,15 +79,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 1c3bfdda-8049-4c3f-8ee6-0ee5c77b50ae
 ms.date: 12/05/2018
 ms.keywords: EXCEPTION_CONTINUE_EXECUTION, EXCEPTION_CONTINUE_SEARCH, EXCEPTION_EXECUTE_HANDLER, SetUnhandledExceptionFilter, SetUnhandledExceptionFilter function, _win32_setunhandledexceptionfilter, base.setunhandledexceptionfilter, errhandlingapi/SetUnhandledExceptionFilter
-f1_keywords:
-- errhandlingapi/SetUnhandledExceptionFilter
-dev_langs:
-- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-errorhandling-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-errorhandling-l1-1-1.dll
-- API-MS-Win-Core-errorhandling-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
-api_name:
-- SetUnhandledExceptionFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetUnhandledExceptionFilter
+ - errhandlingapi/SetUnhandledExceptionFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-errorhandling-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-errorhandling-l1-1-1.dll
+ - API-MS-Win-Core-errorhandling-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+api_name:
+ - SetUnhandledExceptionFilter
 ---
 
 # SetUnhandledExceptionFilter function
@@ -56,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an application to supersede the top-level exception handler of each thread of a process.
 
 After calling this function, if an exception occurs in a process that is not being debugged, and the exception makes it to the unhandled exception filter, that filter will call the exception filter function specified by the <i>lpTopLevelExceptionFilter</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param lpTopLevelExceptionFilter [in]
 
@@ -122,35 +118,20 @@ Proceed with normal execution of
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
 <b>SetUnhandledExceptionFilter</b> function returns the address of the previous exception filter established with the function. A <b>NULL</b> return value means that there is no current top-level exception handler.
 
-
-
-
 ## -remarks
-
-
 
 Issuing 
 <b>SetUnhandledExceptionFilter</b> replaces the existing top-level exception filter for all existing and all future threads in the calling process.
 
 The exception handler specified by <i>lpTopLevelExceptionFilter</i> is executed in the context of the thread that caused the fault. This can affect the exception handler's ability to recover from certain exceptions, such as an invalid stack.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
 
@@ -161,7 +142,4 @@ The exception handler specified by <i>lpTopLevelExceptionFilter</i> is executed 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>
- 
-
- 
 

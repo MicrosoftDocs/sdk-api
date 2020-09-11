@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCertificateToStore, CertAddEncodedCertificateToStore function [Security], _crypto2_certaddencodedcertificatetostore, security.certaddencodedcertificatetostore, wincrypt/CertAddEncodedCertificateToStore
-f1_keywords:
-- wincrypt/CertAddEncodedCertificateToStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertAddEncodedCertificateToStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertAddEncodedCertificateToStore
+ - wincrypt/CertAddEncodedCertificateToStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertAddEncodedCertificateToStore
 ---
 
 # CertAddEncodedCertificateToStore function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertAddEncodedCertificateToStore</b> function creates a certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> from an encoded certificate and adds it to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. The context created does not include any extended properties.
 
 The <b>CertAddEncodedCertificateToStore</b> function also makes a copy of the encoded certificate before adding the certificate to the store.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 A handle to the certificate store.
-
 
 ### -param dwCertEncodingType [in]
 
@@ -76,17 +71,13 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pbCertEncoded [in]
 
 A pointer to a buffer containing the encoded certificate that is to be added to the certificate store.
 
-
 ### -param cbCertEncoded [in]
 
 The size, in bytes, of the <i>pbCertEncoded</i> buffer.
-
 
 ### -param dwAddDisposition [in]
 
@@ -151,18 +142,13 @@ If a matching certificate or link to a matching certificate does not exist, a ne
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppCertContext [out, optional]
 
 A pointer to a pointer to the decoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>. This is an optional parameter that can be <b>NULL</b>, indicating that the calling application does not require a copy of the new or existing certificate. When a copy is made, its context must be freed by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -200,15 +186,9 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
  
 
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>  returns an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore">CertAddCertificateContextToStore</a>
 
@@ -219,7 +199,4 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
 

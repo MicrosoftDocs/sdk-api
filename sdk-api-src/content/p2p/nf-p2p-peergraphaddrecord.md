@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 8256e379-e5d5-4aef-ab05-e220602edf12
 ms.date: 12/05/2018
 ms.keywords: PeerGraphAddRecord, PeerGraphAddRecord function [Peer Networking], p2p.peergraphaddrecord, p2p/PeerGraphAddRecord
-f1_keywords:
-- p2p/PeerGraphAddRecord
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphAddRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphAddRecord
+ - p2p/PeerGraphAddRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphAddRecord
 ---
 
 # PeerGraphAddRecord function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphAddRecord</b> function adds a new record to a peer graph.  A record added with this function is  sent to each node in a peer graph.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to a peer graph.
 
-
 ### -param pRecord [in]
 
 Pointer to a record to add.
-
 
 ### -param pRecordId [out]
 
 Specifies   the record ID that uniquely identifies a  record in a peer graph.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -185,14 +176,8 @@ The graph must be initialized with a call to <a href="https://docs.microsoft.com
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following members of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure must contain valid values:
 
@@ -223,12 +208,7 @@ The following members cannot be specified; any value used is overwritten by the 
 <li><b>ftLastModified</b> - Uses peer time.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
@@ -243,7 +223,4 @@ The following members cannot be specified; any value used is overwritten by the 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphUpdate</a>
- 
-
- 
 

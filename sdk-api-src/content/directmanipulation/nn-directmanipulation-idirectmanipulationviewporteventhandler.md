@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 3594011a-da4a-4550-9b3b-076218d09f39
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewportEventHandler, IDirectManipulationViewportEventHandler interface [Direct Manipulation], IDirectManipulationViewportEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewporteventhandler, directmanipulation/IDirectManipulationViewportEventHandler
-f1_keywords:
-- directmanipulation/IDirectManipulationViewportEventHandler
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationViewportEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationViewportEventHandler
+ - directmanipulation/IDirectManipulationViewportEventHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationViewportEventHandler
 ---
 
 # IDirectManipulationViewportEventHandler interface
 
 
 ## -description
-
-
 
 Defines methods for handling status and update events for the viewport.
 
@@ -99,25 +98,13 @@ Called after all content in the viewport has been updated.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Client apps implement this handler to receive status and update events for viewports. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-addeventhandler">AddEventHandler</a> to set the handler for a viewport. Each viewport can have more than one handler.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
- 
-
- 
 

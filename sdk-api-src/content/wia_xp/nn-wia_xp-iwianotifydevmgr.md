@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\iwianotifydevmgr.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaNotifyDevMgr, IWiaNotifyDevMgr interface [WIA], IWiaNotifyDevMgr interface [WIA],described, _wia_IWiaNotifyDevMgr, wia._wia_IWiaNotifyDevMgr, wia_xp/IWiaNotifyDevMgr
-f1_keywords:
-- wia_xp/IWiaNotifyDevMgr
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaNotifyDevMgr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaNotifyDevMgr
+ - wia_xp/IWiaNotifyDevMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaNotifyDevMgr
 ---
 
 # IWiaNotifyDevMgr interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface is not implemented.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
 

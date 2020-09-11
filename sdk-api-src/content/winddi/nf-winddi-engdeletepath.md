@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 65ecf4bc-5180-4b4b-a359-298f385b849e
 ms.date: 12/05/2018
 ms.keywords: EngDeletePath, EngDeletePath function [Display Devices], display.engdeletepath, gdifncs_aa1e2ccc-cc76-4782-b2ff-9867576c82d1.xml, winddi/EngDeletePath
-f1_keywords:
-- winddi/EngDeletePath
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngDeletePath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngDeletePath
+ - winddi/EngDeletePath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngDeletePath
 ---
 
 # EngDeletePath function
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngDeletePath</b> function deletes a path previously allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ppo
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure to be deleted.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
- 
-
- 
 

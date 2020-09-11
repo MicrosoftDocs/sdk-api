@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 8B7F34AA-77A0-428D-800E-31AB43067102
 ms.date: 12/05/2018
 ms.keywords: WICPlanarOptions, WICPlanarOptions enumeration [Windows Imaging Component], WICPlanarOptionsDefault, WICPlanarOptionsPreserveSubsampling, wic.wicplanaroptions, wincodec/WICPlanarOptions, wincodec/WICPlanarOptionsDefault, wincodec/WICPlanarOptionsPreserveSubsampling
-f1_keywords:
-- wincodec/WICPlanarOptions
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincodec.h
-api_name:
-- WICPlanarOptions
 targetos: Windows
 req.typenames: WICPlanarOptions
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICPlanarOptions
+ - wincodec/WICPlanarOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincodec.h
+api_name:
+ - WICPlanarOptions
 ---
 
 # WICPlanarOptions enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies additional options to an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform">IWICPlanarBitmapSourceTransform</a> implementation.  
-
+Specifies additional options to an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform">IWICPlanarBitmapSourceTransform</a> implementation.
 
 ## -enum-fields
-
-
-
 
 ### -field WICPlanarOptionsDefault
 
@@ -66,32 +62,19 @@ No options specified.
 
 WIC JPEG Decoder:  The default behavior for iDCT scaling is to preserve quality when downscaling by downscaling only the Y plane in some cases, and the image may change to 4:4:4 chroma subsampling.
 
-
-
 ### -field WICPlanarOptionsPreserveSubsampling
 
 Asks the source to preserve the size ratio between planes when scaling.
 
-WIC JPEG Decoder:  Specifying this option causes the JPEG decoder to scale luma and chroma planes by the same amount, so a 4:2:0 chroma subsampled image outputs 4:2:0 data when downscaling by 2x, 4x, or 8x.  
-
-
+WIC JPEG Decoder:  Specifying this option causes the JPEG decoder to scale luma and chroma planes by the same amount, so a 4:2:0 chroma subsampled image outputs 4:2:0 data when downscaling by 2x, 4x, or 8x.
 
 ### -field WICPLANAROPTIONS_FORCE_DWORD
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-copypixels">IWICPlanarBitmapSourceTransform::CopyPixels</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform::DoesSupportTransform</a>
- 
-
- 
 

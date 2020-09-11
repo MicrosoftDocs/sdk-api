@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontFace
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontFaceReference method, IDWriteFactory6.CreateFontFaceReference, IDWriteFactory6::CreateFontFaceReference, CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontfacereference, dwrite_3/IDWriteFactory6::CreateFontFaceReference
-f1_keywords:
-- dwrite_3/IDWriteFactory6.CreateFontFaceReference
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFactory6::CreateFontFaceReference
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFactory6::CreateFontFaceReference
+ - dwrite_3/IDWriteFactory6::CreateFontFaceReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory6::CreateFontFaceReference
 ---
 
 ## -description
@@ -94,3 +95,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

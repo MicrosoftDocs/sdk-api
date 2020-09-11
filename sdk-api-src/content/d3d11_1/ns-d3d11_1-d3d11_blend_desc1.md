@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: BBBECB86-B33D-4AA3-8D0A-45AEC3BBC4AB
 ms.date: 12/05/2018
 ms.keywords: CD3D11_BLEND_DESC1, D3D11_BLEND_DESC1, D3D11_BLEND_DESC1 structure [Direct3D 11], d3d11_1/D3D11_BLEND_DESC1, direct3d11.d3d11_blend_desc1
-f1_keywords:
-- d3d11_1/D3D11_BLEND_DESC1
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_1.h
-api_name:
-- D3D11_BLEND_DESC1
 targetos: Windows
 req.typenames: D3D11_BLEND_DESC1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_BLEND_DESC1
+ - d3d11_1/D3D11_BLEND_DESC1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_1.h
+api_name:
+ - D3D11_BLEND_DESC1
 ---
 
 ## -description
@@ -143,3 +144,4 @@ When you set the <b>LogicOpEnable</b> member of the first element of the <b>Rend
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_render_target_blend_desc1">D3D11_RENDER_TARGET_BLEND_DESC1</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11blendstate1-getdesc1">ID3D11BlendState1::GetDesc1</a>
+

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\lineargradientbrushgetrectanglemethods.htm
 ms.date: 12/05/2018
 ms.keywords: GetRectangle, GetRectangle methods [GDI+], LinearGradientBrush.GetRectangle, LinearGradientBrush::GetRectangle, _gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods, gdiplusbrush/GetRectangle
-f1_keywords:
-- gdiplusbrush/LinearGradientBrush.GetRectangle
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Gdiplus.lib
-- Gdiplus.dll
-api_name:
-- LinearGradientBrush.GetRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - LinearGradientBrush::GetRectangle
+ - gdiplusbrush/LinearGradientBrush::GetRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Gdiplus.lib
+ - Gdiplus.dll
+api_name:
+ - LinearGradientBrush.GetRectangle
 ---
 
 # LinearGradientBrush::GetRectangle
 
 
 ## -description
-
 
 <span>This topic lists the 
 			GetRectangle methods of the 

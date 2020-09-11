@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getpaletteentries.htm
 ms.date: 12/05/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries method [Direct3D 9], GetPaletteEntries method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPaletteEntries method, IDirect3DDevice9.GetPaletteEntries, IDirect3DDevice9::GetPaletteEntries, c99163c4-eea0-1af6-c7fd-c8d1cfd3d969, d3d9helper/IDirect3DDevice9::GetPaletteEntries, direct3d9.idirect3ddevice9__getpaletteentries
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.GetPaletteEntries
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.GetPaletteEntries
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::GetPaletteEntries
+ - d3d9helper/IDirect3DDevice9::GetPaletteEntries
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.GetPaletteEntries
 ---
 
 # IDirect3DDevice9::GetPaletteEntries
@@ -50,55 +51,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves palette entries.
 
-
 ## -parameters
-
-
-
 
 ### -param PaletteNumber [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-An ordinal value identifying the particular palette to retrieve. 
-
+An ordinal value identifying the particular palette to retrieve.
 
 ### -param pEntries [in, out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure, representing the returned palette entries. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure, representing the returned palette entries.
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
-
-
-
 ## -remarks
-
-
 
 For more information about <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a>, see the Platform SDK.
 
 <div class="alert"><b>Note</b>  As of Direct3D 9, the peFlags member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure does not work the way it is documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
@@ -117,7 +99,4 @@ For more information about <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/texture-palettes">Texture Palettes (Direct3D 9)</a>
- 
-
- 
 

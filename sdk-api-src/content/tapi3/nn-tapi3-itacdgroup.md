@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 73e23023-5574-4c5a-bdff-cbc7da765a65
 ms.date: 12/05/2018
 ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [TAPI 2.2],described, _tapi3_itacdgroup, tapi3.itacdgroup, tapi3cc/ITACDGroup
-f1_keywords:
-- tapi3/ITACDGroup
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITACDGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITACDGroup
+ - tapi3/ITACDGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITACDGroup
 ---
 
 # ITACDGroup interface
 
 
 ## -description
-
 
 Automatic Call Distribution (ACD) is a mechanism that queues and distributes calls within a switching system. The ACDGroup object reflects an ACD pilot, split, or group. For example, one ACDGroup might handle calls for new accounts while another handles queries on existing accounts. The following methods create the 
 <b>ITACDGroup</b> interface:
@@ -67,7 +67,6 @@ Automatic Call Distribution (ACD) is a mechanism that queues and distributes cal
 
 See 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a> for additional information.
-
 
 ## -inheritance
 
@@ -111,5 +110,5 @@ Creates a collection of queues associated with the current ACD group. Provided f
 
 </td>
 </tr>
-</table> 
+</table>
 

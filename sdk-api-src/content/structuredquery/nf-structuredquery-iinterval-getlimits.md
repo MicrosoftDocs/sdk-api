@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\getlimits.htm
 ms.date: 12/05/2018
 ms.keywords: GetLimits, GetLimits method [search], GetLimits method [search],IInterval interface, IInterval interface [search],GetLimits method, IInterval.GetLimits, IInterval::GetLimits, _search_IInterval_GetLimits, search._search_IInterval_GetLimits, structuredquery/IInterval::GetLimits
-f1_keywords:
-- structuredquery/IInterval.GetLimits
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- IInterval.GetLimits
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IInterval::GetLimits
+ - structuredquery/IInterval::GetLimits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - IInterval.GetLimits
 ---
 
 # IInterval::GetLimits
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.
         
 
 
 When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iinterval">IInterval</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pilkLower [out]
 
@@ -68,20 +64,17 @@ Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-interval
 
 Receives a pointer to a value from the <a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the lower bound of the interval is inclusive, exclusive, or infinite.
 
-
 ### -param ppropvarLower [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 Receives a pointer to the value for the lower limit of the interval. If the <i>pilkLower</i> parameter is set to <i>ILK_NEGATIVE_INFINITY</i> or <i>ILK_POSITIVE_INFINITY</i>, this value is set to <b>VT_EMPTY</b>.
 
-
 ### -param pilkUpper [out]
 
 Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a>*</b>
 
-Receives a pointer to a value from the <a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the upper bound of the interval is inclusive, exclusive, or infinite. 
-
+Receives a pointer to a value from the <a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the upper bound of the interval is inclusive, exclusive, or infinite.
 
 ### -param ppropvarUpper [out]
 
@@ -89,21 +82,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-prop
 
 Receives a pointer to the value for the upper limit of the interval. If the <i>pilkUpper</i> parameter is set to <i>ILK_NEGATIVE_INFINITY</i> or <i>ILK_POSITIVE_INFINITY</i>, this value will be set to <b>VT_EMPTY</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method retrieves interval limits in two <a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a>—<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> pairs. The first pair specifies the lower limit of the interval, and the second pari specifies the upper limit of the interval. 
 
@@ -153,7 +138,4 @@ The highest value in the range is also 3 (explicitly included), and the interval
 <td>All integers are included in the interval.</td>
 </tr>
 </table>
- 
-
-
 

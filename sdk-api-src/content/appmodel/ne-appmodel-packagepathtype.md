@@ -6,10 +6,6 @@ helpviewer_keywords: ["PackagePathType"]
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: PackagePathType
-f1_keywords:
-- appmodel/PackagePathType
-dev_langs:
-- c++
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: appmodel.h
@@ -23,19 +19,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.typenames: 
 req.umdf-ver: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- appmodel.h
-api_name:
-- PackagePathType
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - PackagePathType
+ - appmodel/PackagePathType
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - appmodel.h
+api_name:
+ - PackagePathType
 ---
 
 # PackagePathType enumeration
+
 
 ## -description
 
@@ -61,7 +63,6 @@ An application has a mutable install folder if it uses the [windows.mutablePacka
 
 ## -see-also
 
-
 [GetCurrentPackageInfo2](nf-appmodel-getcurrentpackageinfo2.md)
 
 
@@ -75,3 +76,4 @@ An application has a mutable install folder if it uses the [windows.mutablePacka
 
 
 [GetStagedPackagePathByFullName2](nf-appmodel-getstagedpackagepathbyfullname2.md)
+

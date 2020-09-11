@@ -3,10 +3,6 @@ UID: NF:wincrypt.CryptCloseAsyncHandle
 title: CryptCloseAsyncHandle
 ms.date: 4/26/2019
 ms.keywords: CryptCloseAsyncHandle
-f1_keywords:
-- CryptCloseAsyncHandle
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CryptCloseAsyncHandle
+ - wincrypt/CryptCloseAsyncHandle
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- secforwarder.dll
+ - secforwarder.dll
 api_name:
-- CryptCloseAsyncHandle
+ - CryptCloseAsyncHandle
 ---
 
 ## -description
@@ -46,7 +47,6 @@ Closes an async handle.
 ### -param hAsync
 
 The async handle to close.
-
 
 ## -returns
 

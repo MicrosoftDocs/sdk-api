@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 815f4895-d418-4336-9420-2405bcd5cfb3
 ms.date: 12/05/2018
 ms.keywords: Cursors property [Tablet PC], Cursors property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],Cursors property, IInkPicture.Cursors, IInkPicture.get_Cursors, IInkPicture::Cursors, IInkPicture::get_Cursors, InkPicture.get_Cursors, get_Cursors, msinkaut/IInkPicture::Cursors, msinkaut/IInkPicture::get_Cursors, tablet.inkpicture_cursors
-f1_keywords:
-- msinkaut/IInkPicture.Cursors
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkPicture.Cursors
-- IInkPicture.get_Cursors
-- InkPicture.get_Cursors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkPicture::get_Cursors
+ - msinkaut/IInkPicture::get_Cursors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkPicture.Cursors
+ - IInkPicture.get_Cursors
+ - InkPicture.get_Cursors
 ---
 
 # IInkPicture::get_Cursors
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
 
 
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Cursors are local to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> object.
 
@@ -83,12 +78,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut
 <li>The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode">SetSingleTabletIntegratedMode</a> method is called.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors Interface</a>
 
@@ -115,7 +105,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode">SetSingleTabletIntegratedMode Method</a>
- 
-
- 
 

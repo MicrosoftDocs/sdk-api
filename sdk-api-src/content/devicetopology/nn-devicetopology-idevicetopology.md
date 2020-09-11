@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 1b509f69-6277-40c0-a293-02afc30d464a
 ms.date: 12/05/2018
 ms.keywords: IDeviceTopology, IDeviceTopology interface [Core Audio], IDeviceTopology interface [Core Audio],described, coreaudio.idevicetopology, devicetopology/IDeviceTopology
-f1_keywords:
-- devicetopology/IDeviceTopology
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IDeviceTopology
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeviceTopology
+ - devicetopology/IDeviceTopology
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IDeviceTopology
 ---
 
 # IDeviceTopology interface
 
 
 ## -description
-
-
 
 The <b>IDeviceTopology</b> interface provides access to the topology of an audio device. The topology of an audio <i>adapter</i> device consists of the data paths that lead to and from audio endpoint devices and the control points that lie along the paths. An audio <i>endpoint</i> device also has a topology, but it is trivial, as explained in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>. A client obtains a reference to the <b>IDeviceTopology</b> interface for an audio endpoint device by following these steps:
 
@@ -60,9 +59,6 @@ The <b>IDeviceTopology</b> interface provides access to the topology of an audio
 After obtaining the <b>IDeviceTopology</b> interface for an audio endpoint device, an application can explore the topologies of the audio adapter devices to which the endpoint device is connected.
 
 For code examples that use the <b>IDeviceTopology</b> interface, see the implementations of the GetHardwareDeviceTopology and SelectCaptureDevice functions in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
-
-
-
 
 ## -inheritance
 
@@ -142,13 +138,9 @@ Gets the number of subunits in the device topology.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -159,7 +151,4 @@ Gets the number of subunits in the device topology.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>
- 
-
- 
 

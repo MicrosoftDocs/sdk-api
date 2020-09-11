@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: ad0fe26f-b915-4903-9335-4b268a889c80
 ms.date: 12/05/2018
 ms.keywords: 0, EnumTimeFormats, EnumTimeFormats function [Internationalization for Windows Applications], EnumTimeFormatsA, EnumTimeFormatsW, LOCAL_USE_CP_ACP, TIME_NOSECONDS, _win32_EnumTimeFormats, intl.enumtimeformats, winnls/EnumTimeFormats, winnls/EnumTimeFormatsA, winnls/EnumTimeFormatsW
-f1_keywords:
-- winnls/EnumTimeFormats
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- EnumTimeFormats
-- EnumTimeFormatsA
-- EnumTimeFormatsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumTimeFormatsW
+ - winnls/EnumTimeFormatsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - EnumTimeFormats
+ - EnumTimeFormatsA
+ - EnumTimeFormatsW
 ---
 
 # EnumTimeFormatsW function
@@ -55,22 +56,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the time formats that are available for a locale specified by identifier.
 <div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a> function to <b>EnumTimeFormats</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpTimeFmtEnumProc [in]
 
 Pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317832(v=vs.85)">EnumTimeFormatsProc</a>.
 
-
 ### -param Locale [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale for which to retrieve time format information. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
@@ -137,12 +132,8 @@ Specified with the ANSI version of this function, <b>EnumTimeFormatsA</b> (not r
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
@@ -151,11 +142,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The function enumerates the time formats by passing a pointer to a buffer containing a time format to an application-defined callback function. The first value in the enumeration is always the user default (override) value. The function continues enumeration until the last time format is found or the callback function returns <b>FALSE</b>. 
 
@@ -174,9 +161,6 @@ Note that any new values for <i>dwFlags</i> introduced in the future will not wo
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a>
 
 
@@ -190,7 +174,4 @@ Note that any new values for <i>dwFlags</i> introduced in the future will not wo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

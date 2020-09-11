@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 7f553513-0928-41b8-858f-c06ec57660d1
 ms.date: 12/05/2018
 ms.keywords: GetPlayLength, GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetPlayLength method, IWMDMObjectInfo.GetPlayLength, IWMDMObjectInfo::GetPlayLength, IWMDMObjectInfoGetPlayLength, mswmdm/IWMDMObjectInfo::GetPlayLength, wmdm.iwmdmobjectinfo_getplaylength
-f1_keywords:
-- mswmdm/IWMDMObjectInfo.GetPlayLength
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMObjectInfo.GetPlayLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMObjectInfo::GetPlayLength
+ - mswmdm/IWMDMObjectInfo::GetPlayLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMObjectInfo.GetPlayLength
 ---
 
 # IWMDMObjectInfo::GetPlayLength
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetPlayLength</b> method retrieves the play length of the object in units appropriate to the format. This is the remaining length that the file can play, not its total length.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwLength [out]
 
 Pointer to a <b>DWORD</b> specifying the remaining play length of the file, in milliseconds.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -80,12 +70,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The value of the play length retrieved is either the total length of the object minus the current play position (if the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-setplaylength">SetPlayLength</a> method has not been called), or the value set by <b>SetPlayLength</b> clipped to be no greater than the total play length of the object minus the current play position.
 
@@ -93,13 +78,7 @@ The play length information can change either when the user starts playing a fil
 
 For folders or file systems containing playable files, the value returned is in tracks or numbers of playable files in that folder or in the root of that file system.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
 
@@ -110,7 +89,4 @@ For folders or file systems containing playable files, the value returned is in 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-setplaylength">SetPlayLength</a>
- 
-
- 
 

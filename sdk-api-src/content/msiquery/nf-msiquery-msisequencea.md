@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
 ms.date: 12/05/2018
 ms.keywords: MsiSequence, MsiSequence function, MsiSequenceA, MsiSequenceW, _msi_msisequence, msiquery/MsiSequence, msiquery/MsiSequenceA, msiquery/MsiSequenceW, setup.msisequence
-f1_keywords:
-- msiquery/MsiSequence
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSequence
-- MsiSequenceA
-- MsiSequenceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSequenceA
+ - msiquery/MsiSequenceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSequence
+ - MsiSequenceA
+ - MsiSequenceW
 ---
 
 # MsiSequenceA function
@@ -51,43 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiSequence</b> function executes another action sequence, as described in the specified table.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
 Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
-
 ### -param szTable [in]
 
 Specifies the name of the table containing the action sequence.
-
 
 ### -param iSequenceMode [in]
 
 This parameter is currently unimplemented. It is reserved for future use and must be 0.
 
-
 ## -returns
-
-
 
 This function returns UINT.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiSequence</b> function queries the specified table, ordering the actions by the numbers in the Sequence column. For each row retrieved, an action is executed, provided that any supplied condition expression does not evaluate to FALSE.
@@ -112,11 +98,5 @@ An action sequence containing any actions that update the system, such as the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Action Functions</a>
- 
-
- 
 

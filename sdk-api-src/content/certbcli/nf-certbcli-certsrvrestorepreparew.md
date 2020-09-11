@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
 ms.date: 12/05/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
-f1_keywords:
-- certbcli/CertSrvRestorePrepare
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvRestorePrepare
-- CertSrvRestorePrepareW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvRestorePrepareW
+ - certbcli/CertSrvRestorePrepareW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvRestorePrepare
+ - CertSrvRestorePrepareW
 ---
 
 # CertSrvRestorePrepareW function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvRestorePrepare</b>  function  prepares a Certificate Services instance for restore operations.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszServerName [in]
 
 A pointer to the computer name of the server to prepare for restore operations. This name can be the NetBIOS name or the DNS name.
-
 
 ### -param dwRestoreFlags [in]
 
@@ -84,26 +79,16 @@ Restore Certificate Services database, logs, and related files.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phbc [out]
 
 A pointer to a Certificate Services backup context handle (<b>HCSBC</b>).
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success, and *<i>phbc</i> is set to an <b>HCSBC</b>, which can be used by other Certificate Services restore APIs.
 
-
-
-
 ## -remarks
-
-
 
 Before a Certificate Services restore operation can occur, it is necessary to create an <b>HCSBC</b> by means of <b>CertSrvRestorePrepare</b>. This <b>HCSBC</b> can be used by various Certificate Services restore functions.
 
@@ -169,14 +154,7 @@ if (hInst)
     FreeLibrary(hInst);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreend">CertSrvRestoreEnd</a>
 
@@ -191,7 +169,4 @@ if (hInst)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
 

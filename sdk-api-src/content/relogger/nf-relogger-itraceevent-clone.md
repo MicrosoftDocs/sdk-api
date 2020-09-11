@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: a4fa29f4-a265-4b42-a499-bc53566dc889
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ETW], Clone method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],Clone method, ITraceEvent.Clone, ITraceEvent::Clone, etw.ievent_clone, relogger/ITraceEvent::Clone
-f1_keywords:
-- relogger/ITraceEvent.Clone
-dev_langs:
-- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Relogger.h
-api_name:
-- ITraceEvent.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceEvent::Clone
+ - relogger/ITraceEvent::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Relogger.h
+api_name:
+ - ITraceEvent.Clone
 ---
 
 # ITraceEvent::Clone
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Clone</b> method creates a duplicate copy of an event.
 
-
 ## -parameters
-
-
-
 
 ### -param NewEvent [out, retval]
 
@@ -64,25 +60,13 @@ Type: <b>IEvent**</b>
 
 The new event.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
- 
-
- 
 

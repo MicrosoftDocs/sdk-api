@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: b17da883-7f8c-4df0-9ee2-7e75b5852aa9
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],LastAccessTime property, IFsrmPropertyBag.LastAccessTime, IFsrmPropertyBag.get_LastAccessTime, IFsrmPropertyBag::LastAccessTime, IFsrmPropertyBag::get_LastAccessTime, LastAccessTime property [File Server Resource Manager], LastAccessTime property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_lastaccesstime, fsrm.ifsrmpropertybag_lastaccesstime, fsrmpipeline/IFsrmPropertyBag::LastAccessTime, fsrmpipeline/IFsrmPropertyBag::get_LastAccessTime, get_LastAccessTime
-f1_keywords:
-- fsrmpipeline/IFsrmPropertyBag.LastAccessTime
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyBag.LastAccessTime
-- IFsrmPropertyBag.get_LastAccessTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyBag::get_LastAccessTime
+ - fsrmpipeline/IFsrmPropertyBag::get_LastAccessTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyBag.LastAccessTime
+ - IFsrmPropertyBag.get_LastAccessTime
 ---
 
 # IFsrmPropertyBag::get_LastAccessTime
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The date and time of when the file was last accessed.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
- 
-
- 
 

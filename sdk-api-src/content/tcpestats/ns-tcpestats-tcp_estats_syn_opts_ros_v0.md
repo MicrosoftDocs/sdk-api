@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: e183b23c-ce87-4818-b6d6-2305a3aa345d
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_SYN_OPTS_ROS_v0, PTCP_ESTATS_SYN_OPTS_ROS_v0, PTCP_ESTATS_SYN_OPTS_ROS_v0 structure pointer [IP Helper], TCP_ESTATS_SYN_OPTS_ROS_v0, TCP_ESTATS_SYN_OPTS_ROS_v0 structure [IP Helper], iphlp.tcp_estats_syn_opts_ros_v0, tcpestats/PTCP_ESTATS_SYN_OPTS_ROS_v0, tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0'
-f1_keywords:
-- tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0
-dev_langs:
-- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpestats.h
-api_name:
-- TCP_ESTATS_SYN_OPTS_ROS_v0
 targetos: Windows
 req.typenames: TCP_ESTATS_SYN_OPTS_ROS_v0, *PTCP_ESTATS_SYN_OPTS_ROS_v0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TCP_ESTATS_SYN_OPTS_ROS_v0
+ - tcpestats/_TCP_ESTATS_SYN_OPTS_ROS_v0
+ - PTCP_ESTATS_SYN_OPTS_ROS_v0
+ - tcpestats/PTCP_ESTATS_SYN_OPTS_ROS_v0
+ - TCP_ESTATS_SYN_OPTS_ROS_v0
+ - tcpestats/TCP_ESTATS_SYN_OPTS_ROS_v0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpestats.h
+api_name:
+ - TCP_ESTATS_SYN_OPTS_ROS_v0
 ---
 
 # TCP_ESTATS_SYN_OPTS_ROS_v0 structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TCP_ESTATS_SYN_OPTS_ROS_v0</b> structure contains read-only static information for extended TCP statistics on SYN exchange for a TCP connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ActiveOpen
 
@@ -67,7 +67,6 @@ A value that indicates if the TCP connection was an active open.
 If the local connection traversed the SYN-SENT
            state, then this member is set to <b>TRUE</b>. Otherwise, this member is set to <b>FALSE</b>.
 
-
 ### -field MssRcvd
 
 Type: <b>ULONG</b>
@@ -76,17 +75,13 @@ The value received in an Maximum Segment Size (MSS) option during the SYN exchan
 
 This value is the maximum data in a single TCP datagram that the remote host  can receive.
 
-
 ### -field MssSent
 
 Type: <b>ULONG</b>
 
 The value sent in an MSS option during the SYN exchange, or zero if no MSS option was sent.
 
-
 ## -remarks
-
-
 
 The <b>TCP_ESTATS_SYN_OPTS_ROS_v0</b> structure is used as part of the TCP extended statistics feature available on Windows Vista and later. 
 
@@ -141,17 +136,8 @@ tcpEStatsStackMSSSent
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
@@ -162,7 +148,4 @@ tcpEStatsStackMSSSent
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
- 
-
- 
 

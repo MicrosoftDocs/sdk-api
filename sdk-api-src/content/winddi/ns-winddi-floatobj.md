@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 5f8c401b-7487-4d75-a0a8-534fa7992a3d
 ms.date: 12/05/2018
 ms.keywords: '*PFLOATOBJ, FLOATOBJ, FLOATOBJ structure [Display Devices], PFLOATOBJ, PFLOATOBJ structure pointer [Display Devices], display.floatobj, grstrcts_5e2796fc-6ccc-4230-9ded-fd2222f0e8ac.xml, winddi/FLOATOBJ, winddi/PFLOATOBJ'
-f1_keywords:
-- winddi/FLOATOBJ
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- FLOATOBJ
 targetos: Windows
 req.typenames: FLOATOBJ, *PFLOATOBJ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FLOATOBJ
+ - winddi/_FLOATOBJ
+ - PFLOATOBJ
+ - winddi/PFLOATOBJ
+ - FLOATOBJ
+ - winddi/FLOATOBJ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - FLOATOBJ
 ---
 
 # FLOATOBJ structure
@@ -49,38 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The FLOATOBJ structure is used to emulate a floating-point number.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ul1
 
 Reserved for system use.
 
-
 ### -field ul2
 
 Reserved for system use.
 
-
 ## -remarks
-
-
 
 This structure, in conjunction with the <b>FLOATOBJ_</b><i>Xxx</i> service routines, allows graphics drivers to emulate floating-point arithmetic in the NT kernel. Floating-point arithmetic is not otherwise supported in the NT kernel code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_add">FLOATOBJ_Add</a>
 
@@ -179,7 +169,4 @@ This structure, in conjunction with the <b>FLOATOBJ_</b><i>Xxx</i> service routi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xformobj_igetfloatobjxform">XFORMOBJ_iGetFloatObjXform</a>
- 
-
- 
 

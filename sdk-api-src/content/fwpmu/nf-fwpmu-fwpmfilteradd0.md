@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: ca11187e-3a91-438f-9a7f-606da7c88f6d
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterAdd0, FwpmFilterAdd0 function [Filtering], fwp.fwpmfilteradd0_func, fwpmu/FwpmFilterAdd0
-f1_keywords:
-- fwpmu/FwpmFilterAdd0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmFilterAdd0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmFilterAdd0
+ - fwpmu/FwpmFilterAdd0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmFilterAdd0
 ---
 
 # FwpmFilterAdd0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmFilterAdd0</b> function adds a new filter object to the system.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param filter [in]
 
 Type: [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)*</b>
 
 The filter object to be added.
-
 
 ### -param sd [in, optional]
 
@@ -78,17 +72,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-
 
 Security information about the filter object.
 
-
 ### -param id [out, optional]
 
 Type: <b>UINT64*</b>
 
 The runtime identifier for this filter.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -159,14 +149,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FwpmFilterAdd0</b> adds the filter to the specified sub-layer at every filtering layer in the system.
 
@@ -250,14 +234,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)
 
@@ -268,7 +245,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 38d94f36-f149-4b62-a710-8f7359bfd8cd
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation, ISecurityInformation interface [Security], ISecurityInformation interface [Security],described, _win32_isecurityinformation, aclui/ISecurityInformation, security.isecurityinformation
-f1_keywords:
-- aclui/ISecurityInformation
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- ISecurityInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityInformation
+ - aclui/ISecurityInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - ISecurityInformation
 ---
 
 # ISecurityInformation interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISecurityInformation</b> interface enables the access control editor to communicate with the caller of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a> functions. The editor calls the interface methods to retrieve information that is used to initialize its pages and to determine the editing options available to the user. The editor also calls the interface methods to pass the user's input back to the application.
 
 The <b>LPSECURITYINFO</b> type is a pointer to an <b>ISecurityInformation</b> object.
-
 
 ## -inheritance
 
@@ -135,13 +134,9 @@ Provides a security descriptor containing the security information specified by 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
@@ -160,7 +155,4 @@ Provides a security descriptor containing the security information specified by 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
- 
-
- 
 

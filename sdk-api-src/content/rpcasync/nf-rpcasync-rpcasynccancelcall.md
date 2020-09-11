@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: e55d586f-969b-4e9a-97d9-b6c74b2a8b6d
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncCancelCall, RpcAsyncCancelCall function [RPC], _rpc_rpcasynccancelcall, rpc.rpcasynccancelcall, rpcasync/RpcAsyncCancelCall
-f1_keywords:
-- rpcasync/RpcAsyncCancelCall
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcAsyncCancelCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcAsyncCancelCall
+ - rpcasync/RpcAsyncCancelCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcAsyncCancelCall
 ---
 
 # RpcAsyncCancelCall function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The client calls the 
 <b>RpcAsyncCancelCall</b> function to cancel an asynchronous call.
 
-
 ## -parameters
-
-
-
 
 ### -param pAsync
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information.
 
-
 ### -param fAbort
 
 If <b>TRUE</b>, the call is canceled immediately. If <b>FALSE</b>, wait for the server to complete the call.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -108,11 +100,7 @@ The asynchronous handle is invalid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 There are two ways for a client to request cancellation of an asynchronous call—<b>abortive</b> and <b>nonabortive</b>. In an abortive cancel (<i>fAbortCall</i> is <b>TRUE</b>), the 
 <b>RpcAsyncCancelCall</b> function sends a cancel notification to the server and client side and the asynchronous call is canceled immediately, without waiting for a response from the server. Note that in a multithreaded application, an async call can only be canceled by the client after the thread that originated the call has returned from it with success.  This is necessary to ensure that the call will not be canceled asynchronously by another thread after it has failed synchronously while being issued.  In general, if an async call fails synchronously it should not be canceled asynchronously.  The client application must ensure this behavior if calls may be issued and canceled on different threads.
@@ -124,13 +112,7 @@ The server checks for cancel requests from the client by calling
 In a nonabortive cancel (<i>fAbortCall</i> is <b>FALSE</b>) the 
 <b>RpcAsyncCancelCall</b> function notifies the server of the cancel and the client waits for the server to complete the call. There is no built-in time-out mechanism. If you want the call to time out, the client should first issue a nonabortive cancel using its own time-out mechanism. If the call times out, then the client can issue an abortive cancel.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc">Asynchronous RPC</a>
 
@@ -161,7 +143,4 @@ In a nonabortive cancel (<i>fAbortCall</i> is <b>FALSE</b>) the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcservertestcancel">RpcServerTestCancel</a>
- 
-
- 
 

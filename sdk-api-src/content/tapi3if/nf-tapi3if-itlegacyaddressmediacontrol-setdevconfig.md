@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 7c5fe0ab-8a03-41db-994b-9786782cf7c1
 ms.date: 12/05/2018
 ms.keywords: ITLegacyAddressMediaControl interface [TAPI 2.2],SetDevConfig method, ITLegacyAddressMediaControl.SetDevConfig, ITLegacyAddressMediaControl::SetDevConfig, SetDevConfig, SetDevConfig method [TAPI 2.2], SetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, _tapi3_itlegacyaddressmediacontrol_setdevconfig, tapi3.itlegacyaddressmediacontrol_setdevconfig, tapi3if/ITLegacyAddressMediaControl::SetDevConfig
-f1_keywords:
-- tapi3if/ITLegacyAddressMediaControl.SetDevConfig
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyAddressMediaControl.SetDevConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyAddressMediaControl::SetDevConfig
+ - tapi3if/ITLegacyAddressMediaControl::SetDevConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyAddressMediaControl.SetDevConfig
 ---
 
 # ITLegacyAddressMediaControl::SetDevConfig
@@ -49,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetDevConfig</b> function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-getdevconfig">GetDevConfig</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pDeviceClass [in]
 
 Pointer to <b>BSTR</b> containing 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-device-classes">TAPI device class</a> for which configuration information is needed.
 
-
 ### -param dwSize [in]
 
 Size of configuration array.
-
 
 ### -param pDeviceConfig [in]
 
 Pointer to the array of bytes containing device configuration information obtained by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-getdevconfig">GetDevConfig</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -133,14 +124,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is a COM wrapper for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a> TAPI 2.1 function.
@@ -154,14 +139,7 @@ The application must use
 
 <b>TAPI 2.1 Cross-References:  </b><a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-getdevconfig">GetDevConfig</a>
 
@@ -172,7 +150,4 @@ The application must use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>
- 
-
- 
 

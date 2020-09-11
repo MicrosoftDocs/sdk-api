@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 76504031-b63a-40fc-aa5b-728f3551057b
 ms.date: 12/05/2018
 ms.keywords: LPEVALCOMCALLBACK, LPEVALCOMCALLBACK callback, LPEVALCOMCALLBACK callback function, evalcom2/LPEVALCOMCALLBACK, ieStatusCancel, ieStatusCreateEngine, ieStatusFail, ieStatusICECount, ieStatusMerge, ieStatusRunICE, ieStatusShutdown, ieStatusStarting, ieStatusSuccess, ieStatusSummaryInfo, setup.lpevalcomcallback
-f1_keywords:
-- evalcom2/LPEVALCOMCALLBACK
-dev_langs:
-- c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- evalcom2.h
-api_name:
-- LPEVALCOMCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPEVALCOMCALLBACK
+ - evalcom2/LPEVALCOMCALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - evalcom2.h
+api_name:
+ - LPEVALCOMCALLBACK
 ---
 
 # LPEVALCOMCALLBACK callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LPEVALCOMCALLBACK</b> specification defines a callback function prototype. The <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus">IValidate::SetStatus</a> method enables an authoring tool to receive information about the progress of validation through the registered callback function.
 
-
 ## -parameters
-
-
-
 
 ### -param iStatus [in]
 
@@ -189,11 +185,8 @@ Validation was canceled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szData
-
 
 ### -param pContext
 
@@ -204,10 +197,7 @@ Pointer to an application context passed to the <a href="https://docs.microsoft.
 
 A string value containing information appropriate to the status. The value of <i>szwData</i> should be the number of ICEs that are being run if <i>iStatus</i> is <b>ieStatusICECount</b>. The value of <i>szwData</i> should be the name of the ICE being run if <i>iStatus</i> is <b>ieStatusRunICE</b>. Otherwise, the value of <i>szwData</i> should be <b>NULL</b>. The callback function should accept <b>NULL</b> as a possible value for this parameter.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -239,24 +229,12 @@ Validation was canceled. The callback function return <b>FALSE</b> to stop valid
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus">SetStatus</a> method and <b>LPEVALCOMCALLBACK</b> can be used to provide progress information.  For example, the <b>ieStatusICECount</b> message can provide the overall tick count for a progress bar.  For each <b>ieStatusRunICE</b> message received, the caller can increment the progress bar one tick.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
@@ -267,7 +245,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: DD922194-8AD2-4ADF-9AC2-46C903C56AE6
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineState, ID3D12PipelineState interface, ID3D12PipelineState interface,described, d3d12/ID3D12PipelineState, direct3d12.id3d12pipelinestate
-f1_keywords:
-- d3d12/ID3D12PipelineState
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12PipelineState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12PipelineState
+ - d3d12/ID3D12PipelineState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12PipelineState
 ---
 
 # ID3D12PipelineState interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the state of all currently set shaders as well as certain fixed function state objects.
-
 
 ## -inheritance
 
@@ -78,12 +77,9 @@ Gets the cached blob representing the pipeline state.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-creategraphicspipelinestate">ID3D12Device::CreateGraphicsPipelineState</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate">ID3D12Device::CreateComputePipelineState</a> to create a pipeline state object (PSO). 
 
@@ -193,19 +189,11 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
- 
-
- 
 

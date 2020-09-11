@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 095f0ed3-46e4-48f9-97d5-5bca1c2efa30
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetBackgroundClr method, IVMRMixerControl.GetBackgroundClr, IVMRMixerControl::GetBackgroundClr, IVMRMixerControlGetBackgroundClr, dshow.ivmrmixercontrol_getbackgroundclr, strmif/IVMRMixerControl::GetBackgroundClr
-f1_keywords:
-- strmif/IVMRMixerControl.GetBackgroundClr
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl.GetBackgroundClr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl::GetBackgroundClr
+ - strmif/IVMRMixerControl::GetBackgroundClr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl.GetBackgroundClr
 ---
 
 # IVMRMixerControl::GetBackgroundClr
@@ -50,36 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets the current background color on the output rectangle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpClrBkg [in]
 
 Address of a variable that receives the background color.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -90,7 +74,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

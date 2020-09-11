@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS","D3D12_VIDE
 tech.root: mf
 ms.assetid: d2806ba5-882b-4f69-9867-b271002681ba
 ms.date: 11/14/2019
-f1_keywords:
-- D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS, D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS,
 req.header: d3d12video.h
 req.include-header: 
@@ -22,18 +18,24 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS
+ - d3d12video/D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS
 ---
 
 # D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS enumeration
+
 
 ## -description
 
@@ -76,3 +78,4 @@ If the format is an RGB/BGR format, indicates the A component.
 ## -remarks
 
 ## -see-also
+

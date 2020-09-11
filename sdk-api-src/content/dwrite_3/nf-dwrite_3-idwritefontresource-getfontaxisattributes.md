@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetFontAxi
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisAttributes method, IDWriteFontResource.GetFontAxisAttributes, IDWriteFontResource::GetFontAxisAttributes, GetFontAxisAttributes, GetFontAxisAttributes method [Direct Write], GetFontAxisAttributes method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisattributes, dwrite_3/IDWriteFontResource::GetFontAxisAttributes
-f1_keywords:
-- dwrite_3/IDWriteFontResource.GetFontAxisAttributes
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::GetFontAxisAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::GetFontAxisAttributes
+ - dwrite_3/IDWriteFontResource::GetFontAxisAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::GetFontAxisAttributes
 ---
 
 ## -description
@@ -64,3 +65,4 @@ The attributes for the given axis, or **DWRITE_FONT_AXIS_ATTRIBUTES_NONE** if *a
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 54d6acb9-5602-4996-a483-08534143bc0a
 ms.date: 12/05/2018
 ms.keywords: DsFreeSchemaGuidMap, DsFreeSchemaGuidMap function [Active Directory], DsFreeSchemaGuidMapA, DsFreeSchemaGuidMapW, _glines_dsfreeschemaguidmap, ad.dsfreeschemaguidmap, ntdsapi/DsFreeSchemaGuidMap, ntdsapi/DsFreeSchemaGuidMapA, ntdsapi/DsFreeSchemaGuidMapW
-f1_keywords:
-- ntdsapi/DsFreeSchemaGuidMap
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsFreeSchemaGuidMap
-- DsFreeSchemaGuidMapA
-- DsFreeSchemaGuidMapW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsFreeSchemaGuidMapA
+ - ntdsapi/DsFreeSchemaGuidMapA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsFreeSchemaGuidMap
+ - DsFreeSchemaGuidMapA
+ - DsFreeSchemaGuidMapW
 ---
 
 # DsFreeSchemaGuidMapA function
@@ -51,35 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsFreeSchemaGuidMap</b> function frees memory that the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmapschemaguidsa">DsMapSchemaGuids</a> function has allocated for a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_schema_guid_mapa">DS_SCHEMA_GUID_MAP</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param pGuidMap [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_schema_guid_mapa">DS_SCHEMA_GUID_MAP</a> structure to deallocate.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_schema_guid_mapa">DS_SCHEMA_GUID_MAP</a>
 
@@ -90,9 +77,6 @@ This function does not return a value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmapschemaguidsa">DsMapSchemaGuids</a>
- 
-
- 
 
 ## -remarks
 

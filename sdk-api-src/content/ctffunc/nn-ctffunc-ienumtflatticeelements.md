@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 5e36f052-a539-4020-8899-fb14c792c666
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], IEnumTfLatticeElements interface [Text Services Framework],described, _tsf_ienumtflatticeelements_ref, ctffunc/IEnumTfLatticeElements, tsf.ienumtflatticeelements
-f1_keywords:
-- ctffunc/IEnumTfLatticeElements
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sptip.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sptip.dll
-api_name:
-- IEnumTfLatticeElements
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfLatticeElements
+ - ctffunc/IEnumTfLatticeElements
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sptip.dll
+api_name:
+ - IEnumTfLatticeElements
 ---
 
 # IEnumTfLatticeElements interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnumTfLatticeElements</b> interface is implemented by the TSF manager to provide an enumeration of lattice elements.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Moves the current position forward in the enumeration sequence by the specified 
 
 </td>
 </tr>
-</table> 
+</table>
 

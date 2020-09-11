@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 66720991-3a3f-4c45-a543-b8050d31fcc3
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IAMPluginControl interface [DirectShow],described, dshow.iamplugincontrol, strmif/IAMPluginControl
-f1_keywords:
-- strmif/IAMPluginControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IAMPluginControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMPluginControl
+ - strmif/IAMPluginControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IAMPluginControl
 ---
 
 # IAMPluginControl interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the preferred and blocked filter lists.
 
 To get a pointer to this interface, call <b>CoCreateInstance</b>. The class identifier (CLSID) is <b>CLSID_DirectShowPluginControl</b>, which is defined in the header file uuids.h.
-
 
 ## -inheritance
 
@@ -141,16 +140,9 @@ Adds a CLSID to the preferred list or removes a CLSID from the list.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
- 
-
- 
 

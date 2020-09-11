@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f7c7bf0a-0b66-4676-9448-f74937823f90
 ms.date: 12/05/2018
 ms.keywords: EncodedParameters property [Security], EncodedParameters property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],EncodedParameters property, IX509PublicKey.EncodedParameters, IX509PublicKey.get_EncodedParameters, IX509PublicKey::EncodedParameters, IX509PublicKey::get_EncodedParameters, certenroll/IX509PublicKey::EncodedParameters, certenroll/IX509PublicKey::get_EncodedParameters, get_EncodedParameters, security.ix509publickey_encodedparameters_property
-f1_keywords:
-- certenroll/IX509PublicKey.EncodedParameters
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PublicKey.EncodedParameters
-- IX509PublicKey.get_EncodedParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PublicKey::get_EncodedParameters
+ - certenroll/IX509PublicKey::get_EncodedParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PublicKey.EncodedParameters
+ - IX509PublicKey.get_EncodedParameters
 ---
 
 # IX509PublicKey::get_EncodedParameters
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EncodedParameters</b> property retrieves a byte array that contains the parameters associated with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> algorithm. The byte array is represented by a Unicode-encoded string.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-initializefromencodedpublickeyinfo">InitializeFromEncodedPublicKeyInfo</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-initialize">Initialize</a> method to initialize the public key object before calling this property.
 
@@ -134,15 +130,7 @@ The Advanced Encryption Standard (AES) is used to encrypt content. The following
 AES-IV ::= OCTET STRING (SIZE(16))
 </code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>
- 
-
- 
 

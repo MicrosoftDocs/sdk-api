@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 15244d6e-6cd7-4dee-8e4e-2533d5a60ae7
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB, INamespaceWalkCB interface [Windows Shell], INamespaceWalkCB interface [Windows Shell],described, _win32_INamespaceWalkCB, shell.INamespaceWalkCB, shobjidl_core/INamespaceWalkCB
-f1_keywords:
-- shobjidl_core/INamespaceWalkCB
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INamespaceWalkCB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INamespaceWalkCB
+ - shobjidl_core/INamespaceWalkCB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INamespaceWalkCB
 ---
 
 # INamespaceWalkCB interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A callback interface exposing methods used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>. After performing a walk with <b>INamespaceWalk</b>, an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object representing the walked nodes is passed to the <b>INamespaceWalkCB</b> methods. What those methods do with the information depends on the object that is implementing them.
-
 
 ## -inheritance
 
@@ -104,14 +103,9 @@ Called after a namespace walk through a folder. Use this method to perform any n
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The IID for this interface is IID_INamespaceWalkCB.
-
-
 

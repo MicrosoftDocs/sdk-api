@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 57DB1340-9BE4-46ED-9ADE-9B91657F09B7
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICPlanarBitmapFrameEncode.WritePixels, IWICPlanarBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICPlanarBitmapFrameEncode interface, wic.iwicplanarbitmapframeencode_writepixels, wincodec/IWICPlanarBitmapFrameEncode::WritePixels
-f1_keywords:
-- wincodec/IWICPlanarBitmapFrameEncode.WritePixels
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICPlanarBitmapFrameEncode.WritePixels
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICPlanarBitmapFrameEncode::WritePixels
+ - wincodec/IWICPlanarBitmapFrameEncode::WritePixels
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICPlanarBitmapFrameEncode.WritePixels
 ---
 
 # IWICPlanarBitmapFrameEncode::WritePixels
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes lines from the source planes to the encoded format.
 
-
 ## -parameters
-
-
-
 
 ### -param lineCount
 
@@ -64,13 +60,11 @@ Type: <b>UINT</b>
 
 The number of lines to encode.  See the Remarks section for WIC Jpeg specific line count restrictions.
 
-
 ### -param pPlanes [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicbitmapplane">WICBitmapPlane</a>*</b>
 
-Specifies the source buffers for each component plane encoded.  
-
+Specifies the source buffers for each component plane encoded.
 
 ### -param cPlanes
 
@@ -78,10 +72,7 @@ Type: <b>UINT</b>
 
 The number of component planes specified by the <i>pPlanes</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -89,13 +80,7 @@ If the planes and source rectangle do not meet the requirements, this method fai
 
 If the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> format does not meet the encoder requirements, this method fails with <b>WINCODEC_ERR_UNSUPPORTEDPIXELFORMAT</b>.
 
-
-
-
-
 ## -remarks
-
-
 
 Successive <b>WritePixels</b> calls are assumed sequentially add scanlines to the output image.  <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarformatconverter-initialize">IWICBitmapFrameEncode::Initialize</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setsize">IWICBitmapFrameEncode::SetSize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setpixelformat">IWICBitmapFrameEncode::SetPixelFormat</a> must be called before this method or it will fail.
 
@@ -173,15 +158,8 @@ The supported pixel formats of the bitmap sources passed into this method are as
 <td>N/A</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-creating-encoder">Encoding Overview</a>
 
@@ -192,7 +170,4 @@ The supported pixel formats of the bitmap sources passed into this method are as
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapframeencode">IWICPlanarBitmapFrameEncode</a>
- 
-
- 
 

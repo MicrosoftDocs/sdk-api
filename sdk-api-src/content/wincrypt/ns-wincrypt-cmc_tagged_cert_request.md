@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a90ec8c8-bda5-47a8-a1bb-f70f2eda01b7
 ms.date: 12/05/2018
 ms.keywords: '*PCMC_TAGGED_CERT_REQUEST, CMC_TAGGED_CERT_REQUEST, CMC_TAGGED_CERT_REQUEST structure [Security], PCMC_TAGGED_CERT_REQUEST, PCMC_TAGGED_CERT_REQUEST structure pointer [Security], _crypto2_cmc_tagged_cert_request, security.cmc_tagged_cert_request, wincrypt/CMC_TAGGED_CERT_REQUEST, wincrypt/PCMC_TAGGED_CERT_REQUEST'
-f1_keywords:
-- wincrypt/CMC_TAGGED_CERT_REQUEST
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CMC_TAGGED_CERT_REQUEST
 targetos: Windows
 req.typenames: CMC_TAGGED_CERT_REQUEST, *PCMC_TAGGED_CERT_REQUEST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CMC_TAGGED_CERT_REQUEST
+ - wincrypt/_CMC_TAGGED_CERT_REQUEST
+ - PCMC_TAGGED_CERT_REQUEST
+ - wincrypt/PCMC_TAGGED_CERT_REQUEST
+ - CMC_TAGGED_CERT_REQUEST
+ - wincrypt/CMC_TAGGED_CERT_REQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CMC_TAGGED_CERT_REQUEST
 ---
 
 # CMC_TAGGED_CERT_REQUEST structure
@@ -49,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CMC_TAGGED_CERT_REQUEST</b> structure is used in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_request">CMC_TAGGED_REQUEST</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwBodyPartID
 
 <b>DWORD</b> identifying the tagged <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
-
 
 ### -field SignedCertRequest
 

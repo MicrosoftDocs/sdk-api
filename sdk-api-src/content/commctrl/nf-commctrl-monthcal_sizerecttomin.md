@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_sizerecttomin.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SizeRectToMin, MonthCal_SizeRectToMin macro [Windows Controls], _shell_MonthCal_SizeRectToMin, _shell_MonthCal_SizeRectToMin_cpp, commctrl/MonthCal_SizeRectToMin, controls.MonthCal_SizeRectToMin, controls._shell_MonthCal_SizeRectToMin
-f1_keywords:
-- commctrl/MonthCal_SizeRectToMin
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MonthCal_SizeRectToMin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonthCal_SizeRectToMin
+ - commctrl/MonthCal_SizeRectToMin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MonthCal_SizeRectToMin
 ---
 
 # MonthCal_SizeRectToMin macro
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-sizerecttomin">MCM_SIZERECTTOMIN</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hmc
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
-
 
 ### -param prc [in, out]
 

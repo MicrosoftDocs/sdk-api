@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 3767a8b4-f318-4242-9b30-f1293b3f7091
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],get_SourceID method, IDigitalCableTuneRequest.get_SourceID, IDigitalCableTuneRequest::get_SourceID, IDigitalCableTuneRequestget_SourceID, get_SourceID, get_SourceID method [Microsoft TV Technologies], get_SourceID method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, mstv.idigitalcabletunerequest_get_sourceid, tuner/IDigitalCableTuneRequest::get_SourceID
-f1_keywords:
-- tuner/IDigitalCableTuneRequest.get_SourceID
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IDigitalCableTuneRequest.get_SourceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDigitalCableTuneRequest::get_SourceID
+ - tuner/IDigitalCableTuneRequest::get_SourceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IDigitalCableTuneRequest.get_SourceID
 ---
 
 # IDigitalCableTuneRequest::get_SourceID
@@ -49,39 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_SourceID</b> method retrieves the source identifier, which maps to a physical channel.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pSourceID [out]
 
 Receives the source identifier. If the value received is BDA_UNDEFINED_CHANNEL, the source identifier is not used.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitalcabletunerequest">IDigitalCableTuneRequest Interface</a>
- 
-
- 
 

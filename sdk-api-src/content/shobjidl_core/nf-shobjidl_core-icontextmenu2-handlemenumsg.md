@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 06ea4563-a299-4587-906f-4f312c21498a
 ms.date: 12/05/2018
 ms.keywords: HandleMenuMsg, HandleMenuMsg method [Windows Shell], HandleMenuMsg method [Windows Shell],IContextMenu2 interface, IContextMenu2 interface [Windows Shell],HandleMenuMsg method, IContextMenu2.HandleMenuMsg, IContextMenu2::HandleMenuMsg, _win32_IContextMenu2_HandleMenuMsg, shell.IContextMenu2_HandleMenuMsg, shobjidl_core/IContextMenu2::HandleMenuMsg
-f1_keywords:
-- shobjidl_core/IContextMenu2.HandleMenuMsg
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IContextMenu2.HandleMenuMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenu2::HandleMenuMsg
+ - shobjidl_core/IContextMenu2::HandleMenuMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IContextMenu2.HandleMenuMsg
 ---
 
 # IContextMenu2::HandleMenuMsg
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables client objects of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> interface to handle messages associated with owner-drawn menu items.
 
-
 ## -parameters
-
-
-
 
 ### -param uMsg
 
@@ -64,13 +60,11 @@ Type: <b>UINT</b>
 
 The message to be processed. In the case of some messages, such as WM_INITMENUPOPUP, WM_DRAWITEM, WM_MENUCHAR, or WM_MEASUREITEM, the client object being called may provide owner-drawn menu items.
 
-
 ### -param wParam
 
 Type: <b>WPARAM</b>
 
 Additional message information. The value of this parameter depends on the value of the <i>uMsg</i> parameter.
-
 
 ### -param lParam
 
@@ -78,21 +72,13 @@ Type: <b>LPARAM</b>
 
 Additional message information. The value of this parameter depends on the value of the <i>uMsg</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>IContextMenu2::HandleMenuMsg</b> is generally replaced by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu3-handlemenumsg2">HandleMenuMsg2</a>. <b>HandleMenuMsg2</b> is called when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> determines that <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3">IContextMenu3</a> is supported and receives one of the messages specified in the description of the <i>uMsg</i> parameter. However, in some cases, <b>IContextMenu2::HandleMenuMsg</b> is still called.
 
@@ -103,19 +89,11 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shob
       </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu3-handlemenumsg2">HandleMenuMsg2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2">IContextMenu2</a>
- 
-
- 
 

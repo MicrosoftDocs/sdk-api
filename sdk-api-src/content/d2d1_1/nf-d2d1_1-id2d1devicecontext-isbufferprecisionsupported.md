@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: c65824dc-a9d5-4d4d-a2de-b4283153f64f
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],IsBufferPrecisionSupported method, ID2D1DeviceContext.IsBufferPrecisionSupported, ID2D1DeviceContext::IsBufferPrecisionSupported, IsBufferPrecisionSupported, IsBufferPrecisionSupported method [Direct2D], IsBufferPrecisionSupported method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::IsBufferPrecisionSupported, direct2d.id2d1devicecontext_isbufferprecisionsupported
-f1_keywords:
-- d2d1_1/ID2D1DeviceContext.IsBufferPrecisionSupported
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DeviceContext.IsBufferPrecisionSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DeviceContext::IsBufferPrecisionSupported
+ - d2d1_1/ID2D1DeviceContext::IsBufferPrecisionSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DeviceContext.IsBufferPrecisionSupported
 ---
 
 # ID2D1DeviceContext::IsBufferPrecisionSupported
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether the buffer precision is supported by the underlying Direct3D <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">device.</a>
 
-
-
 ## -parameters
-
-
-
 
 ### -param bufferPrecision
 
@@ -65,25 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_
 
 The buffer precision to check.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns TRUE if the buffer precision is supported.  Returns FALSE if the buffer precision is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
- 
-
- 
 

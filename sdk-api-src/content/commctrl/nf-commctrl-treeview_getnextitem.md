@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextitem.htm
 ms.date: 12/05/2018
 ms.keywords: TVGN_CARET, TVGN_CHILD, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TVGN_NEXT, TVGN_NEXTSELECTED, TVGN_NEXTVISIBLE, TVGN_PARENT, TVGN_PREVIOUS, TVGN_PREVIOUSVISIBLE, TVGN_ROOT, TreeView_GetNextItem, TreeView_GetNextItem macro [Windows Controls], _win32_TreeView_GetNextItem, _win32_TreeView_GetNextItem_cpp, commctrl/TreeView_GetNextItem, controls.TreeView_GetNextItem, controls._win32_TreeView_GetNextItem
-f1_keywords:
-- commctrl/TreeView_GetNextItem
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TreeView_GetNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TreeView_GetNextItem
+ - commctrl/TreeView_GetNextItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TreeView_GetNextItem
 ---
 
 # TreeView_GetNextItem macro
@@ -49,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the tree-view item that bears the specified relationship to a specified item. You can use this macro, use one of the 
-			<b>TreeView_Get</b> macros described below, or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a> message explicitly. 
-
+			<b>TreeView_Get</b> macros described below, or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the tree-view control. 
-
+Handle to the tree-view control.
 
 ### -param hitem
 
 Type: <b>HTREEITEM</b>
 
-Handle to an item. 
-
+Handle to an item.
 
 ### -param code
 
@@ -196,14 +190,8 @@ Retrieves the topmost or very first item of the tree-view control. You can use t
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 This macro will return <b>NULL</b> if the item being retrieved is the root node of the tree. For example, if you use this macro with the TVGN_PARENT flag on a first-level child of the tree view's root node, the macro will return <b>NULL</b>.
-
-
 

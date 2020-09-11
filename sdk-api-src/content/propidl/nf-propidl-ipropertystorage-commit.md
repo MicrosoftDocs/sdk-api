@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 00efae8b-023e-425d-b7cd-c40c17d7948e
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],Commit, IPropertyStorage interface [Structured Storage],Commit method, IPropertyStorage.Commit, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
-f1_keywords:
-- propidl/IPropertyStorage.Commit
-dev_langs:
-- c++
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IPropertyStorage.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyStorage::Commit
+ - propidl/IPropertyStorage::Commit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IPropertyStorage.Commit
 ---
 
 # IPropertyStorage::Commit
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPropertyStorage::Commit</b> method saves changes made to a property storage object to the parent storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param grfCommitFlags [in]
 
 The flags that specify the conditions under which the commit is to be performed. For more information about specific flags and their meanings, see the Remarks section.
 
-
 ## -returns
-
-
 
 This method supports the standard return value E_UNEXPECTED, as well as the following:
 
-
-
-
 ## -remarks
-
-
 
 Like <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>, the <b>IPropertyStorage::Commit</b> method ensures that any changes made to a property storage object are reflected in the parent storage.
 
@@ -137,12 +125,7 @@ omit the call to <b>IPropertyStorage::Commit</b>. Calling IUnknown::Release on t
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
@@ -153,7 +136,4 @@ omit the call to <b>IPropertyStorage::Commit</b>. Calling IUnknown::Release on t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>
- 
-
- 
 

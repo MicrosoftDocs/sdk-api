@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 5ab4fdd2-d0bf-4e2c-b529-331ffa4c8403
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation3, IWMDMOperation3 interface [windows Media Device Manager], IWMDMOperation3 interface [windows Media Device Manager],described, IWMDMOperation3Interface, mswmdm/IWMDMOperation3, wmdm.iwmdmoperation3
-f1_keywords:
-- mswmdm/IWMDMOperation3
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMOperation3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMOperation3
+ - mswmdm/IWMDMOperation3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMOperation3
 ---
 
 # IWMDMOperation3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The optional, application-implemented <b>IWMDMOperation3</b> interface extends <b>IWMDMOperation</b> by providing a new method for transferring data unencrypted for added efficiency.
-
-
-
 
 ## -inheritance
 
@@ -80,13 +76,9 @@ Transfers a block of data to or from the device more efficiently than <a href="h
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
@@ -101,7 +93,4 @@ Transfers a block of data to or from the device more efficiently than <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: da5413b7-adf4-4a3d-893f-f51441460541
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], IMbnRegistration interface [Microsoft Broadband Networks],described, mbn.imbnregistration, mbnapi/IMbnRegistration
-f1_keywords:
-- mbnapi/IMbnRegistration
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnRegistration
+ - mbnapi/IMbnRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnRegistration
 ---
 
 # IMbnRegistration interface
@@ -53,7 +54,6 @@ ms.custom: 19H1
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 Provides access to network registration data.
-
 
 ## -inheritance
 
@@ -160,14 +160,9 @@ Sets the registration mode for the device.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.
-
-
 

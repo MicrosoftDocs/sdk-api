@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 88f122ce-e2ca-44ce-bd53-d73d0962e7ef
 ms.date: 12/05/2018
 ms.keywords: '*LPWSAPOLLFD, *PWSAPOLLFD, LPWSAPOLLFD, LPWSAPOLLFD structure pointer [Winsock], PWSAPOLLFD, PWSAPOLLFD structure pointer [Winsock], WSAPOLLFD, WSAPOLLFD structure [Winsock], winsock.pollfd, winsock2/LPWSAPOLLFD, winsock2/PWSAPOLLFD, winsock2/WSAPOLLFD'
-f1_keywords:
-- winsock2/WSAPOLLFD
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsock2.h
-api_name:
-- WSAPOLLFD
 targetos: Windows
 req.typenames: WSAPOLLFD, *PWSAPOLLFD, *LPWSAPOLLFD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - pollfd
+ - winsock2/pollfd
+ - PWSAPOLLFD
+ - winsock2/PWSAPOLLFD
+ - WSAPOLLFD
+ - winsock2/WSAPOLLFD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsock2.h
+api_name:
+ - WSAPOLLFD
 ---
 
 # WSAPOLLFD structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WSAPOLLFD</b> structure stores socket information used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll">WSAPoll</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fd
 
 Type: <b>SOCKET</b>
 
 The identifier of the socket for which to find status. This parameter is ignored if set to a negative value. See Remarks.
-
 
 ### -field events
 
@@ -96,7 +95,6 @@ A set of flags indicating the type of status being requested. This must be one o
  
 
 The POLLIN flag is defined as the combination of the <b>POLLRDNORM</b>  and <b>POLLRDBAND</b> flag values. The POLLOUT flag is defined as the same as the <b>POLLWRNORM</b>  flag value.
-
 
 ### -field revents
 
@@ -144,10 +142,7 @@ The POLLIN flag is defined as the combination of the <b>POLLRDNORM</b>  and <b>P
 
 For sockets that do not satisfy the status query, and have no error, the <b>revents</b> member is set to zero upon return.
 
-
 ## -remarks
-
-
 
 The <b>WSAPOLLFD</b> structure is defined on Windows Vista and later. 
 
@@ -155,13 +150,7 @@ The <b>WSAPOLLFD</b> structure is used by the <a href="https://docs.microsoft.co
 
 If the <b>fd</b> member of the <b>WSAPOLLFD</b> structure is set to a negative value, the structure is ignored by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll">WSAPoll</a> function call, and the <b>revents</b> member is cleared upon return. This is useful to applications that maintain a fixed  allocation for the <i>fdarray</i> parameter of <b>WSAPoll</b>; such applications need not waste resources compacting elements of the array for unused entries or reallocating memory. It is unnecessary to clear the <b>revents</b> member prior to calling the <b>WSAPoll</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll">WSAPoll</a>
 
@@ -176,7 +165,4 @@ If the <b>fd</b> member of the <b>WSAPOLLFD</b> structure is set to a negative v
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
- 
-
- 
 

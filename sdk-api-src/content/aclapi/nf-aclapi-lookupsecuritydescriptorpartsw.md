@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 68c3f56b-6c48-4f4b-bd38-9f4e346c663b
 ms.date: 12/05/2018
 ms.keywords: LookupSecurityDescriptorParts, LookupSecurityDescriptorParts function [Security], LookupSecurityDescriptorPartsA, LookupSecurityDescriptorPartsW, _win32_lookupsecuritydescriptorparts, aclapi/LookupSecurityDescriptorParts, aclapi/LookupSecurityDescriptorPartsA, aclapi/LookupSecurityDescriptorPartsW, security.lookupsecuritydescriptorparts
-f1_keywords:
-- aclapi/LookupSecurityDescriptorParts
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- LookupSecurityDescriptorParts
-- LookupSecurityDescriptorPartsA
-- LookupSecurityDescriptorPartsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LookupSecurityDescriptorPartsW
+ - aclapi/LookupSecurityDescriptorPartsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - LookupSecurityDescriptorParts
+ - LookupSecurityDescriptorPartsA
+ - LookupSecurityDescriptorPartsW
 ---
 
 # LookupSecurityDescriptorPartsW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>LookupSecurityDescriptorParts</b> function retrieves security information from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a>. 
-
+The <b>LookupSecurityDescriptorParts</b> function retrieves security information from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a>.
 
 ## -parameters
-
-
-
 
 ### -param ppOwner [out, optional]
 
@@ -71,7 +67,6 @@ A pointer to a variable that receives a pointer to a
 
 This parameter can be <b>NULL</b> if you are not interested in the name of the owner.
 
-
 ### -param ppGroup [out, optional]
 
 A pointer to a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. The function looks up the name associated with the primary group SID of the security descriptor, and returns a pointer to the name in the <b>ptstrName</b> member of the <b>TRUSTEE</b> structure. The function sets the <b>TrusteeForm</b> member to TRUSTEE_IS_NAME.  
@@ -81,12 +76,10 @@ A pointer to a variable that receives a pointer to a <a href="https://docs.micro
 
 This parameter can be <b>NULL</b> if you are not interested in the name of the group.
 
-
 ### -param pcCountOfAccessEntries [out, optional]
 
 A pointer to a <b>ULONG</b> that receives the number of 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures returned in the <i>pListOfAccessEntries</i> array. This parameter can be <b>NULL</b> only if the <i>pListOfAccessEntries</i> parameter is also <b>NULL</b>.
-
 
 ### -param ppListOfAccessEntries [out, optional]
 
@@ -95,36 +88,25 @@ A pointer to a variable that receives a pointer to an array of <a href="https://
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL), see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a> function. If this parameter is <b>NULL</b>, the <i>cCountOfAccessEntries</i> parameter must also be <b>NULL</b>.
 
-
 ### -param pcCountOfAuditEntries [out, optional]
 
 A pointer to a <b>ULONG</b> that receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures returned in the <i>pListOfAuditEntries</i> array. This parameter can be <b>NULL</b> only if the <i>pListOfAuditEntries</i> parameter is also <b>NULL</b>.
-
 
 ### -param ppListOfAuditEntries [out, optional]
 
 A pointer to a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe the ACEs in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the security descriptor. The <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure in these <b>EXPLICIT_ACCESS</b> structures uses the TRUSTEE_IS_NAME form. If this parameter is <b>NULL</b>, the <i>cCountOfAuditEntries</i> parameter must also be <b>NULL</b>.
 
-
 ### -param pSD [in]
 
 A pointer to an existing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> from which the function retrieves security information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns a nonzero error code defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 The <b>LookupSecurityDescriptorParts</b> function retrieves the names of the owner and primary group of the security descriptor. This function also returns descriptions of the ACEs in the DACL and audit-control entries in the SACL of the security descriptor.
 
@@ -142,9 +124,6 @@ The <b>LookupSecurityDescriptorParts</b> function is intended for trusted server
 > The aclapi.h header defines LookupSecurityDescriptorParts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>
 
@@ -183,7 +162,4 @@ The <b>LookupSecurityDescriptorParts</b> function is intended for trusted server
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
- 
-
- 
 

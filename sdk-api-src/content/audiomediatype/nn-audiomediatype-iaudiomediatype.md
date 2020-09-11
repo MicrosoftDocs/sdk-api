@@ -8,10 +8,6 @@ tech.root: audio
 ms.assetid: bf3ee44b-79f3-441a-91f9-a340dc146d67
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IAudioMediaType interface [Audio Devices],described, audio.iaudiomediatype, audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml, audiomediatype/IAudioMediaType
-f1_keywords:
-- audiomediatype/IAudioMediaType
-dev_langs:
-- c++
 req.header: audiomediatype.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiomediatype.h
-api_name:
-- IAudioMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioMediaType
+ - audiomediatype/IAudioMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiomediatype.h
+api_name:
+ - IAudioMediaType
 ---
 
 # IAudioMediaType interface
 
 
 ## -description
-
 
 The <code>IAudioMediaType</code> interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format. An sAPO also returns this interface in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>.
 
@@ -79,3 +79,4 @@ The <code>IAudioMediaType</code> interface exposes methods that allow an sAPO to
 
 </dd>
 </dl>
+

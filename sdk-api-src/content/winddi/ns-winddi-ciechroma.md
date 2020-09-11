@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: b8d1fd9b-c735-49f6-8d3b-12b5b1d92543
 ms.date: 12/05/2018
 ms.keywords: CIECHROMA, CIECHROMA structure [Display Devices], display.ciechroma, grstrcts_b0ffd3e4-c5c0-40f8-9272-1decae47108d.xml, winddi/CIECHROMA
-f1_keywords:
-- winddi/CIECHROMA
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- CIECHROMA
 targetos: Windows
 req.typenames: CIECHROMA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CIECHROMA
+ - winddi/_CIECHROMA
+ - CIECHROMA
+ - winddi/CIECHROMA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - CIECHROMA
 ---
 
 # CIECHROMA structure
@@ -49,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The CIECHROMA structure is used to describe the chromaticity coordinates, <b>x</b> and <b>y</b>, and the luminance, <b>Y</b> in CIE color space. 
-
+The CIECHROMA structure is used to describe the chromaticity coordinates, <b>x</b> and <b>y</b>, and the luminance, <b>Y</b> in CIE color space.
 
 ## -struct-fields
-
-
-
 
 ### -field x
 
 Specifies the x-coordinate in CIE chromaticity space.
 
-
 ### -field y
 
 Specifies the y-coordinate in CIE chromaticity space.
-
 
 ### -field Y
 
 Specifies the luminance. For more information, see the following Remarks section.
 
-
 ## -remarks
-
-
 
 The CIECHROMA structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure to define colors for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>.
 
@@ -85,13 +78,7 @@ The values of the <b>x</b> and <b>y</b> members of CIECHROMA should be in the ra
 
 The value of the <b>Y</b> member of this structure should be in the range from 0 through 100. This member can also be 65534 (0xFFFE) under certain circumstances. For more information about these circumstances, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
 
@@ -102,7 +89,4 @@ The value of the <b>Y</b> member of this structure should be in the range from 0
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getinterpolationcolorcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetInterpolationColorCount, GetInterpolationColorCount method [GDI+], GetInterpolationColorCount method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetInterpolationColorCount method, LinearGradientBrush.GetInterpolationColorCount, LinearGradientBrush::GetInterpolationColorCount, _gdiplus_CLASS_LinearGradientBrush_GetInterpolationColorCount_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetInterpolationColorCount_
-f1_keywords:
-- gdiplusbrush/LinearGradientBrush.GetInterpolationColorCount
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- LinearGradientBrush.GetInterpolationColorCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - LinearGradientBrush::GetInterpolationColorCount
+ - gdiplusbrush/LinearGradientBrush::GetInterpolationColorCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - LinearGradientBrush.GetInterpolationColorCount
 ---
 
 # LinearGradientBrush::GetInterpolationColorCount
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LinearGradientBrush::GetInterpolationColorCount</b> method gets the number of colors currently set to be interpolated for this linear gradient brush.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>INT</b>
 
 This method returns the number of colors to be interpolated for this linear gradient brush. If no colors have been set by using <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setinterpolationcolors">LinearGradientBrush::SetInterpolationColors</a>, or if invalid positions were passed to <b>LinearGradientBrush::SetInterpolationColors</b>, then <b>LinearGradientBrush::GetInterpolationColorCount</b> returns 0.
 
-
-
-
 ## -remarks
-
-
 
 A simple linear gradient brush has two colors: a color at the starting boundary and a color at the ending boundary. When you paint with such a brush, the color changes gradually from the starting color to the ending color as you move from the starting boundary to the ending boundary. You can create a more complex gradient by using the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setinterpolationcolors">LinearGradientBrush::SetInterpolationColors</a> method to specify an array of colors and their corresponding blend positions to be interpolated for this linear gradient brush. 
 
@@ -146,14 +133,7 @@ VOID Example_GetInterpColors(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -192,7 +172,4 @@ VOID Example_GetInterpColors(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
- 
-
- 
 

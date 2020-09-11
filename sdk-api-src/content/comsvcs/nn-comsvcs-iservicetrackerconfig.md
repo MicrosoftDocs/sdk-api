@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 342713d0-be5e-4d47-85ba-b18673a17fb5
 ms.date: 12/05/2018
 ms.keywords: IServiceTrackerConfig, IServiceTrackerConfig interface [COM+], IServiceTrackerConfig interface [COM+],described, _cos_IServiceTrackerConfig, comsvcs/IServiceTrackerConfig, cos.iservicetrackerconfig
-f1_keywords:
-- comsvcs/IServiceTrackerConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServiceTrackerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceTrackerConfig
+ - comsvcs/IServiceTrackerConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServiceTrackerConfig
 ---
 
 # IServiceTrackerConfig interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the tracker property for the work that is done when calling either <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
-
-
 
 ## -inheritance
 
@@ -79,26 +77,13 @@ Configures the tracker property for the enclosed work.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The tracker property is a reporting mechanism used by monitoring code to watch which code is running when. It is the reporting mechanism behind the spinning balls in the Component Services administrative tool.
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: audio
 ms.assetid: 5989BAFB-6B2D-4186-9A8D-96C8974E0D18
 ms.date: 12/05/2018
 ms.keywords: IAudioSystemEffects2, IAudioSystemEffects2 interface [Audio Devices], IAudioSystemEffects2 interface [Audio Devices],described, audio.iaudiosystemeffects2, audioenginebaseapo/IAudioSystemEffects2
-f1_keywords:
-- audioenginebaseapo/IAudioSystemEffects2
-dev_langs:
-- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioenginebaseapo.h
-api_name:
-- IAudioSystemEffects2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSystemEffects2
+ - audioenginebaseapo/IAudioSystemEffects2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioenginebaseapo.h
+api_name:
+ - IAudioSystemEffects2
 ---
 
 # IAudioSystemEffects2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioSystemEffects2</b> interface was introduced with  Windows 8.1 for retrieving information about the processing objects in a given mode.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ The GetEffectsList method is used for retrieving the list of audio processing ef
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects">IAudioSystemEffects</a>
- 
-
- 
 

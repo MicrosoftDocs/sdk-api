@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0375d6e4-cd9f-4245-abf5-1b200af79848
 ms.date: 12/05/2018
 ms.keywords: ITTTSTerminalEvent, ITTTSTerminalEvent interface [TAPI 2.2], ITTTSTerminalEvent interface [TAPI 2.2],described, _tapi3_itttsterminalevent, tapi3.itttsterminalevent, tapi3if/ITTTSTerminalEvent
-f1_keywords:
-- tapi3if/ITTTSTerminalEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTTSTerminalEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTTSTerminalEvent
+ - tapi3if/ITTTSTerminalEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTTSTerminalEvent
 ---
 
 # ITTTSTerminalEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITTTSTerminalEvent</b> interface contains methods that retrieve the description of Text-to-Speech (TTS) terminal events that have occurred.
@@ -106,5 +106,5 @@ Gets the
 
 </td>
 </tr>
-</table> 
+</table>
 

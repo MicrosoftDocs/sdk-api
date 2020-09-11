@@ -8,10 +8,6 @@ tech.root: ProjFS
 ms.assetid: 1BC7C1FA-1BAB-48FB-85C2-34EC3B1B4167
 ms.date: 12/05/2018
 ms.keywords: PRJ_GET_PLACEHOLDER_INFO_CB, PRJ_GET_PLACEHOLDER_INFO_CB callback, PRJ_GET_PLACEHOLDER_INFO_CB callback function, ProjFS.prj_get_placeholder_info_cb, projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB
-f1_keywords:
-- projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB
-dev_langs:
-- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- projectedfslib.h
-api_name:
-- PRJ_GET_PLACEHOLDER_INFO_CB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - PRJ_GET_PLACEHOLDER_INFO_CB
+ - projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - projectedfslib.h
+api_name:
+ - PRJ_GET_PLACEHOLDER_INFO_CB
 ---
 
 # PRJ_GET_PLACEHOLDER_INFO_CB callback function
@@ -49,14 +50,9 @@ ms.custom: RS5, 19H1
 
 ## -description
 
-
 Requests information for a file or directory from the provider.
 
-
 ## -parameters
-
-
-
 
 ### -param callbackData [in]
 
@@ -72,12 +68,9 @@ The provider uses this to determine whether the name exists in its backing store
 </dl>
 
 
-The provider can access this buffer only while the callback is running. If it wishes to pend the operation and it requires data from this buffer, it must make its own copy of it. 
-
+The provider can access this buffer only while the callback is running. If it wishes to pend the operation and it requires data from this buffer, it must make its own copy of it.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -121,19 +114,12 @@ The file does not exist in the provider's store.
 </table>
  
 
-Another appropriate HRESULT error code if the provider fails the operation. 
-
-
-
+Another appropriate HRESULT error code if the provider fails the operation.
 
 ## -remarks
-
-
 
 ProjFS will use the information provided in this callback to create a placeholder for the requested item. 
 
 
 To handle this callback, the provider calls <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo">PrjWritePlaceholderInfo</a> to give ProjFS the information for the requested file name. Then the provider completes the callback.
-
-
 

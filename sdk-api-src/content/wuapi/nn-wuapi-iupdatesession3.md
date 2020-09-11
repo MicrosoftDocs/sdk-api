@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 7caa07ee-ec78-45eb-99a2-0e6682790c88
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession3, IUpdateSession3 interface [Windows Update Agent], IUpdateSession3 interface [Windows Update Agent],described, wua.iupdatesession3, wuapi/IUpdateSession3
-f1_keywords:
-- wuapi/IUpdateSession3
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSession3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSession3
+ - wuapi/IUpdateSession3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSession3
 ---
 
 # IUpdateSession3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>
- 
-
- 
 

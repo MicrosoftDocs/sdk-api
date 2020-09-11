@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\isemptyarea_36.htm
 ms.date: 12/05/2018
 ms.keywords: IsEmptyArea, IsEmptyArea method [GDI+], IsEmptyArea method [GDI+],RectF class, RectF class [GDI+],IsEmptyArea method, RectF.IsEmptyArea, RectF::IsEmptyArea, _gdiplus_CLASS_RectF_IsEmptyArea_, gdiplus._gdiplus_CLASS_RectF_IsEmptyArea_
-f1_keywords:
-- gdiplustypes/RectF.IsEmptyArea
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- RectF.IsEmptyArea
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - RectF::IsEmptyArea
+ - gdiplustypes/RectF::IsEmptyArea
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - RectF.IsEmptyArea
 ---
 
 # RectF::IsEmptyArea
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RectF::IsEmptyArea</b> method determines whether this rectangle is empty.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the rectangle is empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 A rectangle is defined as empty if either the width or the height is zero or less.
 
@@ -100,14 +87,7 @@ VOID Example_IsEmptyArea(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_)">Inflate Methods</a>
 
@@ -126,7 +106,4 @@ VOID Example_IsEmptyArea(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
 

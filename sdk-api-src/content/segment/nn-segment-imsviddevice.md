@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], IMSVidDevice interface [Microsoft TV Technologies],described, IMSVidDeviceInterface, mstv.imsviddevice, segment/IMSVidDevice
-f1_keywords:
-- segment/IMSVidDevice
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidDevice
+ - segment/IMSVidDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidDevice
 ---
 
 # IMSVidDevice interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMSVidDevice</b> interface is the base interface for all the devices and features that the Video Control supports.
-
-
-
 
 ## -inheritance
 
@@ -152,29 +148,17 @@ Turns the device on or off.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidDevice)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 68fcb122-5d61-464a-99ae-d99e0d4a8117
 ms.date: 12/05/2018
 ms.keywords: GetSidLength, GetSidLength method [Files], GetSidLength method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetSidLength method, IDiskQuotaUser.GetSidLength, IDiskQuotaUser::GetSidLength, _win32_idiskquotauser_getsidlength, base.idiskquotauser_getsidlength, dskquota/IDiskQuotaUser::GetSidLength, fs.idiskquotauser_getsidlength
-f1_keywords:
-- dskquota/IDiskQuotaUser.GetSidLength
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.GetSidLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::GetSidLength
+ - dskquota/IDiskQuotaUser::GetSidLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.GetSidLength
 ---
 
 # IDiskQuotaUser::GetSidLength
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the length of the user's security identifier (SID), in bytes. Use the return value to determine the size of the destination buffer you pass to 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsid">IDiskQuotaUser::GetSid</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwLength [out]
 
 The SID length, in bytes.
 
-
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -120,15 +113,8 @@ Failure to obtain an exclusive lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
@@ -139,7 +125,4 @@ Failure to obtain an exclusive lock.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
 

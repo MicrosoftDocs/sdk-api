@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f582f3e3-56bd-4a21-817e-233ff0fece6e
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DELETE_REPARSE_POINT, FSCTL_DELETE_REPARSE_POINT control, FSCTL_DELETE_REPARSE_POINT control code [Files], _win32_fsctl_delete_reparse_point, base.fsctl_delete_reparse_point, fs.fsctl_delete_reparse_point, winioctl/FSCTL_DELETE_REPARSE_POINT
-f1_keywords:
-- winioctl/FSCTL_DELETE_REPARSE_POINT
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_DELETE_REPARSE_POINT
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_DELETE_REPARSE_POINT
+ - winioctl/FSCTL_DELETE_REPARSE_POINT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_DELETE_REPARSE_POINT
 ---
 
 # FSCTL_DELETE_REPARSE_POINT IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -107,7 +102,6 @@ Resilient File System (ReFS) | Yes
 
 CsvFs does not support reparse points.
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -115,3 +109,4 @@ CsvFs does not support reparse points.
 * [FSCTL_GET_REPARSE_POINT](ni-winioctl-fsctl_get_reparse_point.md)
 * [FSCTL_SET_REPARSE_POINT](ni-winioctl-fsctl_set_reparse_point.md)
 * [Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points)
+

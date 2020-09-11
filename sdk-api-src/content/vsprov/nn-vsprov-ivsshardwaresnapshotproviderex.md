@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: aaf94823-845b-49cb-8599-962229fef4cb
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx, IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,described, base.ivsshardwaresnapshotproviderex, vsprov/IVssHardwareSnapshotProviderEx
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProviderEx
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProviderEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProviderEx
+ - vsprov/IVssHardwareSnapshotProviderEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProviderEx
 ---
 
 # IVssHardwareSnapshotProviderEx interface
 
 
 ## -description
-
 
 Provides an additional method used by VSS to notify hardware providers of LUN state changes. All hardware providers must support this 
    interface.
@@ -105,20 +105,13 @@ The VSS service calls this method to notify hardware providers that a LUN resync
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
- 
-
- 
 

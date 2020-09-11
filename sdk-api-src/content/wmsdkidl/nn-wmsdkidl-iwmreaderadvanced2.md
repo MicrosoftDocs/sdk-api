@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 5d741e49-9fdf-4f8d-9ea1-faaecf879be4
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], IWMReaderAdvanced2 interface [windows Media Format],described, IWMReaderAdvanced2Interface, wmformat.iwmreaderadvanced2, wmsdkidl/IWMReaderAdvanced2
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced2
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMReaderAdvanced2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced2
+ - wmsdkidl/IWMReaderAdvanced2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMReaderAdvanced2
 ---
 
 # IWMReaderAdvanced2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMReaderAdvanced2</b> interface provides additional advanced methods for a reader object.
-
-
-
 
 ## -inheritance
 
@@ -210,12 +206,7 @@ Requests that the reader stops buffering as soon as possible.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
@@ -250,7 +241,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/reading-asf-files">Reading ASF Files</a>
- 
-
- 
 

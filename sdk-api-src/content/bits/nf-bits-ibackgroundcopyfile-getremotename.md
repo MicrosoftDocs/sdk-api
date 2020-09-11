@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: b6b1b1dc-776e-4369-bd39-d159e4edfe38
 ms.date: 12/05/2018
 ms.keywords: GetRemoteName, GetRemoteName method [BITS], GetRemoteName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetRemoteName method, IBackgroundCopyFile.GetRemoteName, IBackgroundCopyFile::GetRemoteName, _drz_ibackgroundcopyfile_getremotename, bits.ibackgroundcopyfile_getremotename, bits/IBackgroundCopyFile::GetRemoteName
-f1_keywords:
-- bits/IBackgroundCopyFile.GetRemoteName
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyFile.GetRemoteName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile::GetRemoteName
+ - bits/IBackgroundCopyFile::GetRemoteName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyFile.GetRemoteName
 ---
 
 # IBackgroundCopyFile::GetRemoteName
@@ -49,33 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the remote name of the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Null-terminated string that contains the remote name of the file to transfer. The name is fully qualified. Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppName</i> when done.
 
-
 ## -returns
-
-
 
 This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT</b> values on error.
 
-
-
-
 ## -remarks
-
-
 
 The remote file name is set when you call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">AddFile</a> or 
@@ -92,12 +80,7 @@ See the example code for the
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
@@ -112,7 +95,4 @@ See the example code for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
- 
-
- 
 

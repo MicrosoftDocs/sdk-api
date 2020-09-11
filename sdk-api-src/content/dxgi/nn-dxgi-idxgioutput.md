@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput.htm
 ms.date: 12/05/2018
 ms.keywords: 1d09c573-df6d-db81-0dbe-3135c4704ef8, IDXGIOutput, IDXGIOutput interface [DXGI], IDXGIOutput interface [DXGI],described, direct3ddxgi.idxgioutput, dxgi/IDXGIOutput
-f1_keywords:
-- dxgi/IDXGIOutput
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutput
+ - dxgi/IDXGIOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIOutput
 ---
 
 # IDXGIOutput interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An <b>IDXGIOutput</b> interface represents an adapter output (such as a monitor).
-
 
 ## -inheritance
 
@@ -181,29 +180,17 @@ Halt a thread until the next vertical blank occurs.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To see the outputs available, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-enumoutputs">IDXGIAdapter::EnumOutputs</a>. To see the specific output that the swap chain will update, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getcontainingoutput">IDXGISwapChain::GetContainingOutput</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
- 
-
- 
 

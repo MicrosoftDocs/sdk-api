@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 19a8efae-0b85-49ba-bf7e-08ed700874c3
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],SearchGPOs method, IGPMDomain interface [GPMC],SearchGPOs method, IGPMDomain.SearchGPOs, IGPMDomain::SearchGPOs, SearchGPOs, SearchGPOs method [GPMC], SearchGPOs method [GPMC],GPMDomain object, SearchGPOs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchgpos, gpmc.igpmdomain_searchgpos, gpmgmt/IGPMDomain::SearchGPOs, gpoComputerExtensions, gpoDisplayName, gpoEffectivePermissions, gpoID, gpoPermissions, gpoUserExtensions, gpoWMIFilter
-f1_keywords:
-- gpmgmt/IGPMDomain.SearchGPOs
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMDomain.SearchGPOs
-- GPMDomain.SearchGPOs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMDomain::SearchGPOs
+ - gpmgmt/IGPMDomain::SearchGPOs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMDomain.SearchGPOs
+ - GPMDomain.SearchGPOs
 ---
 
 # IGPMDomain::SearchGPOs
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Executes a search for 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> objects in the domain and then returns a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">GPMGPOCollection</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param pIGPMSearchCriteria [in]
 
@@ -111,7 +107,6 @@ Pointer to a string containing a GUID that represents the client-side extension'
 Pointer to a string containing a GUID that represents the user extension's ID.
  Valid criteria includes opContains or opNotContains search operator.
 
-
 ### -param ppIGPMGPOCollection [out]
 
 Address of a pointer to the 
@@ -123,10 +118,7 @@ Address of a pointer to the
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -137,22 +129,11 @@ Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/w
 <h3>VB</h3>
 Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">GPMGPOCollection</a> object.
 
-
-
-
 ## -remarks
-
-
 
 An empty  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object is one that has had no criteria added to it. Passing in an empty <b>GPMSearchCriteria</b> object will return all GPOs in the domain.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
@@ -171,7 +152,4 @@ An empty  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
- 
-
- 
 

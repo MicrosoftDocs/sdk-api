@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 97f0f574-6575-4be6-9c30-ed68e3438d30
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCallback2, IContextMenuCallback2 interface [MMC], IContextMenuCallback2 interface [MMC],described, _slate_icontextmenucallback2, mmc.icontextmenucallback2, mmc/IContextMenuCallback2
-f1_keywords:
-- mmc/IContextMenuCallback2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IContextMenuCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenuCallback2
+ - mmc/IContextMenuCallback2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IContextMenuCallback2
 ---
 
 # IContextMenuCallback2 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IContextMenuCallback2</b> interface is used to add menu items to a context menu. This interface supersedes 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Adds one item to the context menu.
 
 </td>
 </tr>
-</table> 
+</table>
 

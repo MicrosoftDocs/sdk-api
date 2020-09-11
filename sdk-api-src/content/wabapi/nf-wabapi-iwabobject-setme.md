@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\setme.htm
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],SetMe method, IWABObject.SetMe, IWABObject::SetMe, MAPI_DIALOG, SetMe, SetMe method [Windows Address Book], SetMe method [Windows Address Book],IWABObject interface, _wab_IWABObject_SetMe, wab._wab_IWABObject_SetMe, wabapi/IWABObject::SetMe
-f1_keywords:
-- wabapi/IWABObject.SetMe
-dev_langs:
-- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IWABObject.SetMe
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IWABObject::SetMe
+ - wabapi/IWABObject::SetMe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IWABObject.SetMe
 ---
 
 # IWABObject::SetMe
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Designates a particular contact as the ME object.
 
-
 ## -parameters
-
-
-
 
 ### -param lpIAB
 
@@ -65,7 +61,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabia
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book.
-
 
 ### -param ulFlags
 
@@ -80,7 +75,6 @@ Value of type <b>ULONG</b> that specifies flags
 
 Causes a selection dialog box to be displayed.
 
-
 ### -param sbEID
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
@@ -88,7 +82,6 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/
 Value of type <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> that 
 				specifies the entry identifier of the contact that should be tagged 
 				as ME.
-
 
 ### -param hwnd
 
@@ -99,21 +92,13 @@ Value of type <b>ULONG</b> that specifies the
 				parent <b>HWND</b> to a <b>ULONG</b> 
 				before passing.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error code otherwise.
 
-
-
-
 ## -remarks
-
-
 
 If the calling application provides an entry identifier to set as the ME object,
 	 and <i>ulFlags</i> is set to zero, the entry corresponding 
@@ -130,6 +115,4 @@ If the calling application specifies
  pre-selected in the contact list.
 
 Passing a combination of no flags and no entry identifiers is not valid.
-
-
 

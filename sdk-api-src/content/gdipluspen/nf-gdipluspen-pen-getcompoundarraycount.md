@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcompoundarraycount.htm
 ms.date: 12/05/2018
 ms.keywords: GetCompoundArrayCount, GetCompoundArrayCount method [GDI+], GetCompoundArrayCount method [GDI+],Pen class, Pen class [GDI+],GetCompoundArrayCount method, Pen.GetCompoundArrayCount, Pen::GetCompoundArrayCount, _gdiplus_CLASS_Pen_GetCompoundArrayCount_, gdiplus._gdiplus_CLASS_Pen_GetCompoundArrayCount_
-f1_keywords:
-- gdipluspen/Pen.GetCompoundArrayCount
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Pen.GetCompoundArrayCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Pen::GetCompoundArrayCount
+ - gdipluspen/Pen::GetCompoundArrayCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Pen.GetCompoundArrayCount
 ---
 
 # Pen::GetCompoundArrayCount
@@ -50,32 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Pen::GetCompoundArrayCount</b> method gets the number of elements in a compound array.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>INT</b>
 
 This method returns an integer that indicates the number of elements in the compound array.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-drawing-a-custom-dashed-line-use">Drawing a Custom Dashed Line</a>
 
@@ -94,7 +80,4 @@ This method returns an integer that indicates the number of elements in the comp
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 528c7172-56ed-4e14-991a-69e9fde7b227
 ms.date: 12/05/2018
 ms.keywords: PeerGraphEnumRecords, PeerGraphEnumRecords function [Peer Networking], p2p.peergraphenumrecords, p2p/PeerGraphEnumRecords
-f1_keywords:
-- p2p/PeerGraphEnumRecords
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphEnumRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphEnumRecords
+ - p2p/PeerGraphEnumRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphEnumRecords
 ---
 
 # PeerGraphEnumRecords function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphEnumRecords</b> function creates and returns an enumeration handle used to enumerate records of a specific type of record,   user, or both.  An enumeration provides  a snapshot of records at the time an enumeration is performed.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to a peer graph.
 
-
 ### -param pRecordType [in]
 
 Pointer to the type of record to enumerate. Specify <b>NULL</b> to enumerate   all record types.
-
 
 ### -param pwzPeerId [in]
 
 Pointer to a string that identifies the creator that an application is requesting an enumeration for. Specify <b>NULL</b> to enumerate   all records.
 
-
 ### -param phPeerEnum [out]
 
 Receives a handle to an enumeration. Supply the handle to all calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a>. When a handle is not needed, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphendenumeration">PeerGraphEndEnumeration</a>.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -134,14 +124,8 @@ A graph must be  initialized with a call to <a href="https://docs.microsoft.com/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <ul>
 <li>If both the <i>pRecordType</i> and <i>pwzPeerId</i> parameters are  <b>NULL</b>, all records are returned.</li>
@@ -153,12 +137,7 @@ A graph must be  initialized with a call to <a href="https://docs.microsoft.com/
 <li>When <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a> is called with the handle that   <b>PeerGraphEnumRecords</b>  returns, <b>PeerGraphGetNextItem</b>  returns the data in the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
@@ -177,7 +156,4 @@ A graph must be  initialized with a call to <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphsearchrecords">PeerGraphSearchRecords</a>
- 
-
- 
 

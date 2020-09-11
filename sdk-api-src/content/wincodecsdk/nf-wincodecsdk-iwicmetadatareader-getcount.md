@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: ce9b0267-112a-4aa9-8786-272ee4da4d8b
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetCount method, IWICMetadataReader.GetCount, IWICMetadataReader::GetCount, _wic_codec_iwicmetadatareader_getcount, wic._wic_codec_iwicmetadatareader_getcount, wincodecsdk/IWICMetadataReader::GetCount
-f1_keywords:
-- wincodecsdk/IWICMetadataReader.GetCount
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataReader.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataReader::GetCount
+ - wincodecsdk/IWICMetadataReader::GetCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataReader.GetCount
 ---
 
 # IWICMetadataReader::GetCount
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of metadata items within the reader.
 
-
 ## -parameters
-
-
-
 
 ### -param pcCount [out]
 
@@ -64,14 +60,9 @@ Type: <b>UINT*</b>
 
 Pointer that receives the number of metadata items within the reader.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

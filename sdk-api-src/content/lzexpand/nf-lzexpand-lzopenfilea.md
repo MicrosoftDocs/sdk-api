@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6ab3c81c-88f2-4b87-84b1-5b64848af043
 ms.date: 12/05/2018
 ms.keywords: LZOpenFile, LZOpenFile function [Files], LZOpenFileA, LZOpenFileW, OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_READ, OF_READWRITE, OF_REOPEN, OF_SHARE_DENY_NONE, OF_SHARE_DENY_READ, OF_SHARE_DENY_WRITE, OF_SHARE_EXCLUSIVE, OF_WRITE, _win32_lzopenfile, base.lzopenfile, fs.lzopenfile, lzexpand/LZOpenFile, lzexpand/LZOpenFileA, lzexpand/LZOpenFileW
-f1_keywords:
-- lzexpand/LZOpenFile
-dev_langs:
-- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Lz32.dll
-api_name:
-- LZOpenFile
-- LZOpenFileA
-- LZOpenFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LZOpenFileA
+ - lzexpand/LZOpenFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Lz32.dll
+api_name:
+ - LZOpenFile
+ - LZOpenFileA
+ - LZOpenFileW
 ---
 
 # LZOpenFileA function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates, opens, reopens, or deletes the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 The name of the file.
-
 
 ### -param lpReOpenBuf [out]
 
@@ -73,7 +68,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase
 
 The <b>szPathName</b> member of this structure contains characters from the original 
        equipment manufacturer (OEM) character set.
-
 
 ### -param wStyle [in]
 
@@ -253,12 +247,8 @@ Opens the file for writing only.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds and the value specified by the <i>wStyle</i> parameter is not 
        <b>OF_READ</b>, the return value is a handle identifying the file. If the file is compressed 
@@ -307,14 +297,8 @@ The maximum number of open compressed files has been exceeded or local memory ca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>wStyle</i> parameter is the <b>OF_READ</b> flag (or 
     <b>OF_READ</b> and any of the <b>OF_SHARE_*</b> flags) and the file is 
@@ -408,9 +392,6 @@ CsvFs will do redirected IO for compressed files.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
@@ -432,7 +413,4 @@ CsvFs will do redirected IO for compressed files.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a>
- 
-
- 
 

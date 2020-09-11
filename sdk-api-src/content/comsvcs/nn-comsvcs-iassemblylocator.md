@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 347a209e-be6f-42a9-978f-f40e628fc34b
 ms.date: 12/05/2018
 ms.keywords: IAssemblyLocator, IAssemblyLocator interface [COM+], IAssemblyLocator interface [COM+],described, _cos_IAssemblyLocator, comsvcs/IAssemblyLocator, cos.iassemblylocator
-f1_keywords:
-- comsvcs/IAssemblyLocator
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IAssemblyLocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyLocator
+ - comsvcs/IAssemblyLocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IAssemblyLocator
 ---
 
 # IAssemblyLocator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about an assembly when using managed code in the .NET Framework common language runtime.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Used to get the names of the modules that are contained in an assembly.
 
 </td>
 </tr>
-</table> 
+</table>
 

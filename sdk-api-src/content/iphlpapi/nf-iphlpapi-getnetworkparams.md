@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6
 ms.date: 12/05/2018
 ms.keywords: GetNetworkParams, GetNetworkParams function [IP Helper], _iphlp_getnetworkparams, iphlp.getnetworkparams, iphlpapi/GetNetworkParams
-f1_keywords:
-- iphlpapi/GetNetworkParams
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetNetworkParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNetworkParams
+ - iphlpapi/GetNetworkParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetNetworkParams
 ---
 
 # GetNetworkParams function
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetNetworkParams</b> function retrieves network parameters for the local computer.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param pFixedInfo [out]
 
 A pointer to a 
 buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure that receives the network parameters for the local computer, if the function was successful. This buffer must be allocated by the caller prior to calling the <b>GetNetworkParams</b> function.
-
 
 ### -param pOutBufLen [in]
 
@@ -72,10 +66,7 @@ A pointer to a <b>ULONG</b> variable that specifies the size of the
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure. If this size is insufficient to hold the information, 
 <b>GetNetworkParams</b> fills in this variable with the required size, and returns an error code of <b>ERROR_BUFFER_OVERFLOW</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -143,14 +134,8 @@ If the function fails, use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a>structure. The  memory for the <b>FIXED_INFO</b>structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
 
@@ -275,14 +260,7 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a>
 
@@ -293,7 +271,4 @@ int __cdecl main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
- 
-
- 
 

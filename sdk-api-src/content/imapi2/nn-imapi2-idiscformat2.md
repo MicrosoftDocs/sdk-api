@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: c0bc2e8b-bd60-4c97-bd86-41963b20b1a3
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2, IDiscFormat2 interface [IMAPI], IDiscFormat2 interface [IMAPI],described, imapi.idiscformat2, imapi2/IDiscFormat2
-f1_keywords:
-- imapi2/IDiscFormat2
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2
+ - imapi2/IDiscFormat2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2
 ---
 
 # IDiscFormat2 interface
 
 
 ## -description
-
 
 This is a base interface. Use the following interfaces which inherit this interface:<ul>
 <li>
@@ -64,8 +64,6 @@ This is a base interface. Use the following interfaces which inherit this interf
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -127,5 +125,5 @@ Determines if the recorder supports the given format.
 
 </td>
 </tr>
-</table> 
+</table>
 

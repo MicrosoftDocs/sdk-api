@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65
 ms.date: 12/05/2018
 ms.keywords: GetResultPropertyList, GetResultPropertyList function [Tablet PC], e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65, recapis/GetResultPropertyList, tablet.getresultpropertylist
-f1_keywords:
-- recapis/GetResultPropertyList
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- GetResultPropertyList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetResultPropertyList
+ - recapis/GetResultPropertyList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - GetResultPropertyList
 ---
 
 # GetResultPropertyList function
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a list of properties the recognizer can return for a result range.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrec
 
 Handle to the recognizer.
 
-
 ### -param pPropertyCount
 
 On input, the number of GUIDs the <i>pPropertyGuid</i> buffer can hold. On output, the number of GUIDs the <i>pPropertyGuid</i> buffer contains.
-
 
 ### -param pPropertyGuid
 
 Array of properties the recognizer can return. The order of the array is arbitrary. For a list of predefined properties, see the recognition <a href="https://docs.microsoft.com/windows/desktop/tablet/property-guids">Property GUIDs</a>. To determine the required size of the buffer, set <i>pPropertyGuid</i> to <b>NULL</b>; use the number of GUIDs to allocate the buffer.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -143,7 +131,4 @@ An invalid argument was received.
 </td>
 </tr>
 </table>
- 
-
-
 

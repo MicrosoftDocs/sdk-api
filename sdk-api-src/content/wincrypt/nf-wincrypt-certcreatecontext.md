@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0911054b-a47a-4046-b121-a236fc4b018b
 ms.date: 12/05/2018
 ms.keywords: CERT_CREATE_CONTEXT_NOCOPY_FLAG, CERT_CREATE_CONTEXT_NO_ENTRY_FLAG, CERT_CREATE_CONTEXT_NO_HCRYPTMSG_FLAG, CERT_CREATE_CONTEXT_SORTED_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CertCreateContext, CertCreateContext function [Security], _crypto2_certcreatecontext, security.certcreatecontext, wincrypt/CertCreateContext
-f1_keywords:
-- wincrypt/CertCreateContext
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertCreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertCreateContext
+ - wincrypt/CertCreateContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertCreateContext
 ---
 
 # CertCreateContext function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertCreateContext</b> function creates the specified context from the encoded bytes. The context created does not include any extended properties.
 
-
 ## -parameters
-
-
-
 
 ### -param dwContextType [in]
 
@@ -101,8 +97,6 @@ CTL context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwEncodingType [in]
 
@@ -111,16 +105,13 @@ Specifies the encoding type used. Currently, only X509_ASN_ENCODING and PKCS_7_A
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING.
 
-
 ### -param pbEncoded [in]
 
 A pointer to a buffer that contains the existing encoded context content to be copied.
 
-
 ### -param cbEncoded [in]
 
 The size, in bytes, of the <i>pbEncoded</i> buffer.
-
 
 ### -param dwFlags [in]
 
@@ -177,8 +168,6 @@ By default, when a CTL context is created, its entries are decoded. When this fl
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pCreatePara [in, optional]
 
@@ -191,10 +180,7 @@ If <i>pCreatePara</i> and its <b>pfnFree</b> member are both non-<b>NULL</b>, th
 
 If <i>pCreatePara</i> or its <b>pfnFree</b> member is <b>NULL</b>, no attempt is made to free <i>pbEncoded</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the newly created context. The <b>pvFree</b> member of <i>pCreatePara</i> must be called to free the created context.
 						
@@ -204,13 +190,7 @@ If the function fails, the return value is <b>NULL</b>. For extended error infor
 
 If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_CANCELLED</b>, this means that the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_create_context_sort_func">PFN_CERT_CREATE_CONTEXT_SORT_FUNC</a> callback function returned <b>FALSE</b> to stop the sort.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a>
 
@@ -225,7 +205,4 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-err
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate and Certificate Store Maintenance Functions</a>
- 
-
- 
 

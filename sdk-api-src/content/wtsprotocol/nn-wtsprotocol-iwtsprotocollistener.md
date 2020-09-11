@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: b11eb19f-ffc3-4a68-85c6-90a2412168f8
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener, IWTSProtocolListener interface [Remote Desktop Services], IWTSProtocolListener interface [Remote Desktop Services],described, termserv.iwtsprotocollistener, wtsprotocol/IWTSProtocolListener
-f1_keywords:
-- wtsprotocol/IWTSProtocolListener
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWTSProtocolListener
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolListener
+ - wtsprotocol/IWTSProtocolListener
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWTSProtocolListener
 ---
 
 # IWTSProtocolListener interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWTSProtocolListener</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a>.]
 
 Exposes methods that request that the protocol start and stop listening for client connection requests. The interface is implemented by the protocol and its methods are called by the Remote Desktop Services service.
-
 
 ## -inheritance
 
@@ -88,5 +87,5 @@ Notifies the protocol to stop listening for client connection requests.
 
 </td>
 </tr>
-</table> 
+</table>
 

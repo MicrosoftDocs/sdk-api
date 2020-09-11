@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 95ac188a-f27f-4e09-9de3-a822bbbd6e8e
 ms.date: 12/05/2018
 ms.keywords: ISearchContext, ISearchContext interface [Windows Shell], ISearchContext interface [Windows Shell],described, _shell_ISearchContext, shell.ISearchContext, shlobj_core/ISearchContext
-f1_keywords:
-- shlobj_core/ISearchContext
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ISearchContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchContext
+ - shlobj_core/ISearchContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ISearchContext
 ---
 
 # ISearchContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that channel customization information to the search hooks.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Retrieves the URL that is being searched for.
 
 </td>
 </tr>
-</table> 
+</table>
 

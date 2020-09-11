@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiontranslatemethods\translate_28intdx_intdy.htm
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Translate method, Region.Translate, Region.Translate(IN INT,IN INT), Region.Translate(INT,INT), Region::Translate, Region::Translate(IN INT,IN INT), Translate, Translate method [GDI+], Translate method [GDI+],Region class, _gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_, gdiplus._gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_
-f1_keywords:
-- gdiplusheaders/Region.Translate
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.Translate
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::Translate
+ - gdiplusheaders/Region::Translate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.Translate
 ---
 
 # Region::Translate(IN INT,IN INT)
@@ -50,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Region::Translate</b> method offsets this region by specified amounts in the horizontal and vertical directions.
 
-
 ## -parameters
-
-
-
 
 ### -param dx [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the amount to shift the region in the x direction. 
-
+Integer that specifies the amount to shift the region in the x direction.
 
 ### -param dy [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the amount to shift the region in the y direction. 
-
+Integer that specifies the amount to shift the region in the y direction.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -83,13 +75,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
@@ -104,7 +90,4 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
- 
-
- 
 

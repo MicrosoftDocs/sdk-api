@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: e4a73572-e477-4518-87fe-b9b74234e8ec
 ms.date: 12/05/2018
 ms.keywords: PINIT_ONCE_FN, PINIT_ONCE_FN callback, PINIT_ONCE_FN callback function, base.initoncecallback, synchapi/PINIT_ONCE_FN
-f1_keywords:
-- synchapi/PINIT_ONCE_FN
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- synchapi.h
-api_name:
-- PINIT_ONCE_FN
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PINIT_ONCE_FN
+ - synchapi/PINIT_ONCE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - synchapi.h
+api_name:
+ - PINIT_ONCE_FN
 ---
 
 # PINIT_ONCE_FN callback function
@@ -49,46 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function. Specify a pointer to this function when calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a> function. The <b>PINIT_ONCE_FN</b> type defines a pointer to this callback function. 
 <b>InitOnceCallback</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param InitOnce [in, out]
 
 A pointer to the one-time initialization structure.
 
-
 ### -param Parameter [in, out, optional]
 
 An optional parameter that was passed to the callback function.
-
 
 ### -param *Context [out, optional]
 
 The data to be stored with the one-time initialization structure. If  <i>Context</i>  references a value, the low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> of the value must be zero. If  <i>Context</i>  points to a data structure, the data structure must be <b>DWORD</b>-aligned.
 
-
 ## -returns
-
-
 
 If the function returns <b>TRUE</b>, the block is marked as initialized.
 
 If the function returns <b>FALSE</b>, the block is not marked as initialized and the call to <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a> fails. To communicate additional error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> before returning <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function can create a synchronization object and return it in the <i>lpContext</i> parameter.
 
@@ -104,12 +90,7 @@ this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a>
 
@@ -120,7 +101,4 @@ this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

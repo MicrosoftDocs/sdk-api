@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 04eddc88-f0ba-4a0b-8078-12c0d955d055
 ms.date: 12/05/2018
 ms.keywords: WS_UNION_DESCRIPTION, WS_UNION_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNION_DESCRIPTION, wsw.ws_union_description
-f1_keywords:
-- webservices/WS_UNION_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_UNION_DESCRIPTION
 targetos: Windows
 req.typenames: WS_UNION_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_UNION_DESCRIPTION
+ - webservices/_WS_UNION_DESCRIPTION
+ - WS_UNION_DESCRIPTION
+ - webservices/WS_UNION_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_UNION_DESCRIPTION
 ---
 
 # WS_UNION_DESCRIPTION structure
@@ -49,29 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Information about the choices within a union type.
                 This is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field size
 
 The size in bytes of the structure.
-                
-
 
 ### -field alignment
 
 The alignment requirement of the structure.  This must be a power
                     of two between 1 and 8.
-                
-
 
 ### -field fields
 
@@ -80,8 +73,6 @@ An array of pointers to the descriptions of the fields of the union.
 
 See the Remarks section for information about ordering of the fields
                     in this array.
-                
-
 
 ### -field fieldCount
 
@@ -89,24 +80,18 @@ The number of fields in the fields array.  Any part of the structure
                     that is not represented by a field will be left uninitialized.
                     Fields descriptions may reference the same offset of the structure
                     (for example if they are all part of a single union).
-                
-
 
 ### -field enumOffset
 
 The offset of the enumeration field which controls which choice is
                     selected within the union.  The size of the field is assumed to be
                     the size of an enumeration (32-bit signed integer).
-                
-
 
 ### -field noneEnumValue
 
 This value corresponds to the enum value used when none of the
                     choices are currently set.  This field is only used when the
                     field is optional (<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified).
-                
-
 
 ### -field valueIndices
 
@@ -134,8 +119,6 @@ If non-<b>NULL</b>, the following must be true:
 </ul>
 
 ## -remarks
-
-
 
 This description assumes a structure which contains both the 
                 selector value (an integer enumerated value) and a union which
@@ -263,5 +246,4 @@ The following restrictions apply to the field descriptions:
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> may not be used.
             </li>
 </ul>
-
 

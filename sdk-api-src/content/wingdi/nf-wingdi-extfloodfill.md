@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: b996d47d-5aaf-4b13-8643-209744e5a04b
 ms.date: 12/05/2018
 ms.keywords: ExtFloodFill, ExtFloodFill function [Windows GDI], FLOODFILLBORDER, FLOODFILLSURFACE, _win32_ExtFloodFill, gdi.extfloodfill, wingdi/ExtFloodFill
-f1_keywords:
-- wingdi/ExtFloodFill
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- ExtFloodFill
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExtFloodFill
+ - wingdi/ExtFloodFill
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - ExtFloodFill
 ---
 
 # ExtFloodFill function
@@ -51,34 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ExtFloodFill</b> function fills an area of the display surface with the current brush.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to a device context.
 
-
 ### -param x [in]
 
 The x-coordinate, in logical units, of the point where filling is to start.
-
 
 ### -param y [in]
 
 The y-coordinate, in logical units, of the point where filling is to start.
 
-
 ### -param color [in]
 
 The color of the boundary or of the area to be filled. The interpretation of <i>crColor</i> depends on the value of the <i>fuFillType</i> parameter. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
-
 
 ### -param type [in]
 
@@ -110,23 +102,14 @@ The fill area is defined by the color that is specified by <i>crColor</i>. Filli
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The following are some of the reasons this function might fail:
 
@@ -149,12 +132,7 @@ For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://docs
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
@@ -177,7 +155,4 @@ For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
- 
-
- 
 

@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_EXTENSION_COMMAND_DESC
 f1_keywords:
+ - D3D12_VIDEO_EXTENSION_COMMAND_DESC
  - d3d12video/D3D12_VIDEO_EXTENSION_COMMAND_DESC
 dev_langs:
  - c++

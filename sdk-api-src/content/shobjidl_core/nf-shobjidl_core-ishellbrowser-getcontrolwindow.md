@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0ddcdafd-01f6-441c-9cc8-1ca9f1209e25
 ms.date: 12/05/2018
 ms.keywords: FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, GetControlWindow, GetControlWindow method [Windows Shell], GetControlWindow method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],GetControlWindow method, IShellBrowser.GetControlWindow, IShellBrowser::GetControlWindow, _win32_IShellBrowser_GetControlWindow, shell.IShellBrowser_GetControlWindow, shobjidl_core/IShellBrowser::GetControlWindow
-f1_keywords:
-- shobjidl_core/IShellBrowser.GetControlWindow
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellBrowser.GetControlWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellBrowser::GetControlWindow
+ - shobjidl_core/IShellBrowser::GetControlWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellBrowser.GetControlWindow
 ---
 
 # IShellBrowser::GetControlWindow
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the window handle to a browser control.
 
-
 ## -parameters
-
-
-
 
 ### -param id
 
@@ -88,28 +84,19 @@ Retrieves the window handle to the browser's tree view.
 
 Retrieves the window handle to the browser's progress bar.
 
-
 ### -param phwnd
 
 Type: <b>HWND*</b>
 
 The address of the window handle to the Windows Explorer control.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a COM-defined error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 <b>GetControlWindow</b> is used so views can directly manipulate the browser's controls. <b>FCW_TREE</b> should be used only to determine if the tree is present.
 
@@ -120,7 +107,4 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 <b>GetControlWindow</b> returns the window handle to these controls if they exist in your implementation.
 
 See also <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-
-
-
 

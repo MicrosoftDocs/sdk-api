@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8d399bae-4084-4f06-b7f5-036a54d8d90e
 ms.date: 12/05/2018
 ms.keywords: NPGetCaps, NPGetCaps function [Security], WNNC_ADMIN, WNNC_CONNECTION, WNNC_DIALOG, WNNC_ENUMERATION, WNNC_NET_TYPE, WNNC_SPEC_VERSION, WNNC_START, WNNC_USER, _mnp_npgetcaps, npapi/NPGetCaps, security.npgetcaps
-f1_keywords:
-- npapi/NPGetCaps
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPGetCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPGetCaps
+ - npapi/NPGetCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPGetCaps
 ---
 
 # NPGetCaps function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns information about which services are supported on the network.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
@@ -153,12 +149,8 @@ A bitmask that indicates which user functions the network provider supports.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>NPGetCaps</b> function returns either a constant or a bitmask, depending on the value of the <i>nIndex</i> parameter. A few of the <i>nIndex</i> values cause a constant to be returned. But in most cases, the <i>nIndex</i> parameter specifies which set of services to query, and the returned value is a bitmask that indicates which services in this set are supported. In these cases, a zero return value indicates that none of the services in the set are supported.
 
@@ -277,27 +269,15 @@ Returns one of the following values to indicate if and when the provider is like
 ####WNNC_USER
 Returns WNNC_USR_GETUSER if the network provider supports the [NPGetUser](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npgetuser) function.
 
-
 ## -remarks
-
-
 
 When a start time is returned by <b>NPGetCaps</b>, the MPR uses this value to determine when to try to start all network providers again. MPR uses the longest start time returned by the providers it called.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a>
- 
-
- 
 

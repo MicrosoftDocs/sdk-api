@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 39360e69-0d54-4b1f-8de8-0abf81e9238b
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetDOUBLE method, CInstance.GetDOUBLE, CInstance::GetDOUBLE, GetDOUBLE, GetDOUBLE method [Windows Management Instrumentation], GetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdouble, instance/CInstance::GetDOUBLE, wmi.cinstance_getdouble
-f1_keywords:
-- instance/CInstance.GetDOUBLE
-dev_langs:
-- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CInstance.GetDOUBLE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CInstance::GetDOUBLE
+ - instance/CInstance::GetDOUBLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CInstance.GetDOUBLE
 ---
 
 # CInstance::GetDOUBLE
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,27 +59,17 @@ ms.custom: 19H1
 
 The <b>GetDOUBLE</b> method retrieves a <b>DOUBLE</b> property.
 
-
 ## -parameters
-
-
-
 
 ### -param name
 
 Name of the <b>DOUBLE</b> property retrieved.
 
-
 ### -param dub [ref]
 
 Buffer to receive the <b>DOUBLE</b> property.
 
-
 ## -returns
 
-
-
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a property that is not a <b>DOUBLE</b>-compatible type or a property that does not exist. More information is available in the log file, Framework.log.
-
-
 

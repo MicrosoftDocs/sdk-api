@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accHitTest method, IAccessible.accHitTest, IAccessible::accHitTest, _msaa_IAccessible_accHitTest, accHitTest, accHitTest method [Windows Accessibility], accHitTest method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acchittest, oleacc/IAccessible::accHitTest, winauto.iaccessible_iaccessible__acchittest
-f1_keywords:
-- oleacc/IAccessible.accHitTest
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.accHitTest
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::accHitTest
+ - oleacc/IAccessible::accHitTest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.accHitTest
 ---
 
 # IAccessible::accHitTest
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::accHitTest</b> method retrieves the child element or child object that is displayed at a specific point on the screen. All visual objects support this method, but sound objects do not. Client applications rarely call this method directly; to get the accessible object that is displayed at a point, use the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfrompoint">AccessibleObjectFromPoint</a> function, which calls this method internally.
 
-
 ## -parameters
-
-
-
 
 ### -param xLeft [in]
 
@@ -64,13 +60,11 @@ Type: <b>long</b>
 
 Specifies the screen coordinates of the point that is hit tested. The x-coordinates increase from left to right. Note that when screen coordinates are used, the origin is the upper-left corner of the screen.
 
-
 ### -param yTop [in]
 
 Type: <b>long</b>
 
 Specifies the screen coordinates of the point that is hit tested. The y-coordinates increase from top to bottom. Note that when screen coordinates are used, the origin is the upper-left corner of the screen.
-
 
 ### -param pvarChild [out, retval]
 
@@ -105,12 +99,8 @@ Type: <b>VARIANT*</b>
 <td><i>pdispVal</i> is set to the child object's <a href="https://msdn.microsoft.com/library/ms221608.aspx">IDispatch</a> interface pointer</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -161,12 +151,7 @@ An argument is not valid.
 
 <b>Note to client developers:  </b>Although servers return S_FALSE if the <b>vt</b> member of <i>pvarID</i> is VT_EMPTY, clients must also handle the case where <i>pvarID</i>-&gt;vt is VT_EMPTY and the return value is S_OK.
 
-
-
-
 ## -remarks
-
-
 
 If the tested point is on one of the object's children, and this child supports the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface itself, this method should return an <b>IAccessible</b> interface pointer. However, clients should be prepared to handle an <b>IAccessible</b> interface pointer or a child ID. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
@@ -250,14 +235,7 @@ HRESULT SelectItemAtPoint(IAccessible* pAcc, POINT point)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/active-accessibility-and-windows-vista-screen-scaling">Active Accessibility and Windows Vista Screen Scaling</a>
 
@@ -280,7 +258,4 @@ HRESULT SelectItemAtPoint(IAccessible* pAcc, POINT point)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
 

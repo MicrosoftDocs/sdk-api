@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 0664267f-90ba-4123-bfe5-7cf748b78c10
 ms.date: 12/05/2018
 ms.keywords: ISyncProvider, ISyncProvider interface [Windows Sync], ISyncProvider interface [Windows Sync],described, winsync.isyncprovider, winsync/ISyncProvider
-f1_keywords:
-- winsync/ISyncProvider
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProvider
+ - winsync/ISyncProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncProvider
 ---
 
 # ISyncProvider interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a synchronization provider that can be used by a synchronization session to synchronize data with another synchronization provider.
-
-
 
 ## -inheritance
 
@@ -79,16 +77,9 @@ Gets the ID format schema of the provider.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

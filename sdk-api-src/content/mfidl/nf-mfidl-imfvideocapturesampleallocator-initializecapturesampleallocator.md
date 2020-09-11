@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator
 f1_keywords:
+ - IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator
  - mfidl/IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator
 dev_langs:
  - c++
@@ -71,12 +72,9 @@ Optional. An [IMFAttributes](/windows/win32/api/mfobjects/nn-mfobjects-imfattrib
 - [MF_SA_D3D11_SHARED](/windows/win32/medfound/mf-sa-d3d11-shared)
 - [MF_SA_D3D11_SHARED_WITHOUT_MUTEX](/windows/win32/medfound/mf-sa-d3d11-shared-without-mutex)
 
-
-
 ### -param pMediaType
 
 An [IMFMediaType](/windows/win32/api/mfobjects/nn-mfobjects-imfmediatype) specifying the media type for which samples will be allocator. The sample allocator uses this parameter to calculate the minimum required size for the media samples.
-
 
 ## -returns
 
@@ -86,8 +84,6 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 |---------------|---------------|
 | S_OK | The method succeeded. |
 |MF_E_INVALIDMEDIATYPE | Invalid media type. |
-
-
 
 ## -remarks
 

@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM","D3D12_VIDEO_DECODE_
 tech.root: mf
 ms.assetid: af5643ac-4095-4d26-8dfe-ef882462d207
 ms.date: 11/14/2019
-f1_keywords:
-- D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM, D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM,
 req.header: d3d12video.h
 req.include-header: 
@@ -25,18 +21,24 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
+ - d3d12video/D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
 ---
 
 # D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM structure
+
 
 ## -description
 
@@ -47,7 +49,7 @@ Represents the histogram output buffer for a single component.
 ### -field Offset
 
 The offset location in *pBuffer* to write the component histogram.  Must be 256-byte aligned.  Set to zero when a component is disabled.
- 
+
 ### -field pBuffer
 
 And [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) representing the target buffer for hardware to write the components histogram.  Set to a nullptr when the component histogram is disabled.
@@ -87,5 +89,5 @@ The following [D3D12_RESOURCE_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_res
 - D3D12_RESOURCE_FLAG_ALLOW_ONLY_NON_RT_DS_TEXTURE_PLACEMENT
 - D3D12_RESOURCE_FLAG_ALLOW_ONLY_RT_DS_TEXTURE_PLACEMENT
 
-
 ## -see-also
+

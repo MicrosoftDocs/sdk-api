@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 448309ef-b9dd-4960-8016-d26691df59ec
 ms.date: 12/05/2018
 ms.keywords: LUP_CONTAINERS, LUP_DEEP, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_RES_SERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, WSALookupServiceBegin, WSALookupServiceBegin function [Winsock], WSALookupServiceBeginA, WSALookupServiceBeginW, _win32_wsalookupservicebegin_2, winsock.wsalookupservicebegin_2, winsock2/WSALookupServiceBegin, winsock2/WSALookupServiceBeginA, winsock2/WSALookupServiceBeginW
-f1_keywords:
-- winsock2/WSALookupServiceBegin
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSALookupServiceBegin
-- WSALookupServiceBeginA
-- WSALookupServiceBeginW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSALookupServiceBeginW
+ - winsock2/WSALookupServiceBeginW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSALookupServiceBegin
+ - WSALookupServiceBeginA
+ - WSALookupServiceBeginW
 ---
 
 # WSALookupServiceBeginW function
@@ -51,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSALookupServiceBegin</b> function initiates a client query that is constrained by the information contained within a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure. 
 <b>WSALookupServiceBegin</b> only returns a handle, which should be used by subsequent calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a> to get the actual results.
 
-
 ## -parameters
-
-
-
 
 ### -param lpqsRestrictions [in]
 
 A pointer to the search criteria. See the Remarks for details.
-
 
 ### -param dwControlFlags [in]
 
@@ -262,18 +257,13 @@ This indicates whether prime response is in the remote or local part of
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lphLookup [out]
 
 A  handle to be used when calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a> in order to start retrieving the results set.
 
-
 ## -returns
-
-
 
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -342,14 +332,8 @@ This error is returned for a bluetooth service discovery request if no remote bl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>lpqsRestrictions</i> parameter points to a buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the length of the buffer before calling the 
 <b>WSALookupServiceBegin</b> function. Applications can restrict the query by specifying other members in the <b>WSAQUERYSET</b>. 
@@ -478,9 +462,6 @@ See the Important note that follows.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicebegin-for-service-discovery">Bluetooth and WSALookupServiceBegin</a>
 
 
@@ -526,7 +507,4 @@ See the Important note that follows.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>
- 
-
- 
 

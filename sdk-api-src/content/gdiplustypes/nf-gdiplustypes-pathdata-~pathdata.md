@@ -34,6 +34,7 @@ api_location:
 api_name:
  - PathData::~PathData
 f1_keywords:
+ - PathData::~PathData
  - gdiplustypes/PathData::~PathData
 dev_langs:
  - c++
@@ -46,3 +47,4 @@ Destructor for the [**PathData**](/windows/win32/api/gdiplustypes/nl-gdiplustype
 ## -remarks
 
 ## -see-also
+

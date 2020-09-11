@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\iwialogex.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaLogEx, IWiaLogEx interface [WIA], IWiaLogEx interface [WIA],described, _wia_IWiaLogEx, wia._wia_IWiaLogEx, wia_xp/IWiaLogEx
-f1_keywords:
-- wia_xp/IWiaLogEx
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaLogEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaLogEx
+ - wia_xp/IWiaLogEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaLogEx
 ---
 
 # IWiaLogEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface is not supported.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Not currently supported.
 
 </td>
 </tr>
-</table> 
+</table>
 

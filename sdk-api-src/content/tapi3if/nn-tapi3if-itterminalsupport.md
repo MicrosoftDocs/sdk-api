@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 8669324a-5c2c-4ed8-be24-a0c71fbb8c01
 ms.date: 12/05/2018
 ms.keywords: ITTerminalSupport, ITTerminalSupport interface [TAPI 2.2], ITTerminalSupport interface [TAPI 2.2],described, _tapi3_itterminalsupport, tapi3.itterminalsupport, tapi3if/ITTerminalSupport
-f1_keywords:
-- tapi3if/ITTerminalSupport
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3if.h
-api_name:
-- ITTerminalSupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTerminalSupport
+ - tapi3if/ITTerminalSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3if.h
+api_name:
+ - ITTerminalSupport
 ---
 
 # ITTerminalSupport interface
 
 
 ## -description
-
 
 The 
 <b>ITTerminalSupport</b> interface is exposed on an 
@@ -64,7 +64,6 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport2">ITTerminalSupport2</a> interface is derived from the 
 <b>ITTerminalSupport</b> interface. 
 <b>ITTerminalSupport2</b> supports the retrieval of information about pluggable terminal classes and superclasses by C, C++, and scripting applications.
-
 
 ## -inheritance
 
@@ -135,13 +134,9 @@ Gets the default static terminal for the media specified.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
@@ -160,7 +155,4 @@ Gets the default static terminal for the media specified.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
- 
-
- 
 

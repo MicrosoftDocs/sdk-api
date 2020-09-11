@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: aad72ed5-1123-4a8b-9fc4-b54a713b635e
 ms.date: 12/05/2018
 ms.keywords: REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, REG_NOTIFY_THREAD_AGNOSTIC, RegNotifyChangeKeyValue, RegNotifyChangeKeyValue function, _win32_regnotifychangekeyvalue, base.regnotifychangekeyvalue, winreg/RegNotifyChangeKeyValue
-f1_keywords:
-- winreg/RegNotifyChangeKeyValue
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- Kernel32.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-api_name:
-- RegNotifyChangeKeyValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegNotifyChangeKeyValue
+ - winreg/RegNotifyChangeKeyValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+api_name:
+ - RegNotifyChangeKeyValue
 ---
 
 # RegNotifyChangeKeyValue function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the caller about changes to the attributes or contents of a specified registry key.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -86,11 +82,9 @@ This parameter must be a local handle. If
 The key must have been opened with the KEY_NOTIFY access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
-
 ### -param bWatchSubtree [in]
 
 If this parameter is TRUE, the function reports changes in the specified key and its subkeys. If the parameter is <b>FALSE</b>, the function reports changes only in the specified key.
-
 
 ### -param dwNotifyFilter [in]
 
@@ -159,13 +153,10 @@ Indicates that the lifetime of the registration must not be tied to the lifetime
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hEvent [in, optional]
 
 A handle to an event. If the <i>fAsynchronous</i> parameter is <b>TRUE</b>, the function returns immediately and changes are reported by signaling this event. If <i>fAsynchronous</i> is <b>FALSE</b>, <i>hEvent</i> is ignored.
-
 
 ### -param fAsynchronous [in]
 
@@ -176,22 +167,14 @@ If this parameter is <b>TRUE</b>, the function returns immediately and reports c
 
 If <i>hEvent</i> does not specify a valid event, the <i>fAsynchronous</i> parameter cannot be <b>TRUE</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 This function detects a single change. After the caller receives a notification event, it should call the function again to receive the next notification.
 
@@ -319,14 +302,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
@@ -353,7 +329,4 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
- 
-
- 
 

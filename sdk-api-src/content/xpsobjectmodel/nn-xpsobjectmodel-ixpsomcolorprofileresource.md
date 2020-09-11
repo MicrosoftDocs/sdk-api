@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 8a344300-c3fc-4225-bfa5-d5d33798a094
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResource, IXpsOMColorProfileResource interface [XPS Documents and Packaging], IXpsOMColorProfileResource interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresource, xpsobjectmodel/IXpsOMColorProfileResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMColorProfileResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMColorProfileResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMColorProfileResource
+ - xpsobjectmodel/IXpsOMColorProfileResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMColorProfileResource
 ---
 
 # IXpsOMColorProfileResource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to a color profile resource.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Sets the read-only stream to be associated with this resource.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -142,14 +138,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createcolorprofileresource">IXpsOMObjectFactory::CreateColorProfileResource</a>
 
@@ -164,7 +153,4 @@ else
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

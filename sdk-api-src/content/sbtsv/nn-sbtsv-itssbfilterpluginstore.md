@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 59541fc2-0063-41ca-bcfe-536bb1742c6e
 ms.date: 12/05/2018
 ms.keywords: ITsSbFilterPluginStore, ITsSbFilterPluginStore interface [Remote Desktop Services], ITsSbFilterPluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbFilterPluginStore, termserv.itssbfilterpluginstore
-f1_keywords:
-- sbtsv/ITsSbFilterPluginStore
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbFilterPluginStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbFilterPluginStore
+ - sbtsv/ITsSbFilterPluginStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbFilterPluginStore
 ---
 
 # ITsSbFilterPluginStore interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Filter Plugin Store
-  
-
 
 ## -inheritance
 
@@ -96,16 +94,9 @@ Saves a property set.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

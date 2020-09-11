@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txactivate.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxActivate method, ITextHost.TxActivate, ITextHost::TxActivate, TxActivate, TxActivate method [Windows Controls], TxActivate method [Windows Controls],ITextHost interface, _win32_ITextHost_TxActivate, _win32_ITextHost_TxActivate_cpp, controls.ITextHost_TxActivate, controls._win32_ITextHost_TxActivate, textserv/ITextHost::TxActivate
-f1_keywords:
-- textserv/ITextHost.TxActivate
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxActivate
+ - textserv/ITextHost::TxActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxActivate
 ---
 
 # ITextHost::TxActivate
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the text host that the control is active.
 
-
 ## -parameters
-
-
-
 
 ### -param plOldState
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
-The previous activation state. 
-
+The previous activation state.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -92,14 +85,8 @@ Activation is not possible at this time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 It is legal for the host to refuse an activation request; for example, the control may be minimized and thus invisible.
 
@@ -110,13 +97,7 @@ No matter how many times this method is called, only one <a href="https://docs.m
 This function returns an opaque handle in 
 				<i>plOldState</i>. The caller (the text services object) should save this handle and use it in a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txdeactivate">ITextHost::TxDeactivate</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -135,7 +116,4 @@ This function returns an opaque handle in
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

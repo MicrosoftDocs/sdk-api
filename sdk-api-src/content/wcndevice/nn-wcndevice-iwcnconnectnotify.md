@@ -8,10 +8,6 @@ tech.root: wcn
 ms.assetid: 63ea2b5a-4bec-4050-9a61-962a1faef0a0
 ms.date: 12/05/2018
 ms.keywords: IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now], IWCNConnectNotify interface [Windows Connect Now],described, wcn.iwcnconnectnotify, wcndevice/IWCNConnectNotify
-f1_keywords:
-- wcndevice/IWCNConnectNotify
-dev_langs:
-- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WcnDevice.h
-api_name:
-- IWCNConnectNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCNConnectNotify
+ - wcndevice/IWCNConnectNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WcnDevice.h
+api_name:
+ - IWCNConnectNotify
 ---
 
 # IWCNConnectNotify interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to receive a success or failure notification when a Windows Connect Now connect session completes.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice:Connect</a>
- 
-
- 
 

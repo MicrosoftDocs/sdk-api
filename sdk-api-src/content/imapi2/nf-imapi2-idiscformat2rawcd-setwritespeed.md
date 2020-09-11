@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 93021007-6ed8-4322-93bb-c52796a4ab66
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],SetWriteSpeed method, IDiscFormat2RawCD.SetWriteSpeed, IDiscFormat2RawCD::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_setwritespeed, imapi2/IDiscFormat2RawCD::SetWriteSpeed
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.SetWriteSpeed
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.SetWriteSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::SetWriteSpeed
+ - imapi2/IDiscFormat2RawCD::SetWriteSpeed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.SetWriteSpeed
 ---
 
 # IDiscFormat2RawCD::SetWriteSpeed
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the write speed of the disc recorder. 
-
+Sets the write speed of the disc recorder.
 
 ## -parameters
-
-
-
 
 ### -param RequestedSectorsPerSecond [in]
 
@@ -64,15 +60,11 @@ Requested write speed measured in disc sectors per second.
 
 A value of 0xFFFFFFFF (-1) requests that the write occurs using the fastest supported speed for the media.  This is the default.
 
-
 ### -param RotationTypeIsPureCAV [in]
 
 Requested rotational-speed control type. Set to VARIANT_TRUE to request constant angular velocity (CAV)  rotational-speed control type. Set to VARIANT_FALSE to use another rotational-speed control type that the recorder supports. The default is VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -446,14 +438,8 @@ Value: 0x00AA0006
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method sets the write speed and type of rotational-speed control for a recorder. Requested values might differ from the values set in the recorder. To specify the recorder, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">IDiscFormat2RawCD::put_Recorder</a> method. 
 
@@ -465,13 +451,7 @@ If you request constant angular velocity (CAV) for rotational-speed control type
 
 To retrieve the requested values, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedwritespeed">IDiscFormat2RawCD::get_RequestedWriteSpeed</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedrotationtypeispurecav">IDiscFormat2RawCD::get_RequestedRotationTypeIsPureCAV</a> methods.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
@@ -490,7 +470,4 @@ To retrieve the requested values, call the <a href="https://docs.microsoft.com/w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds">IDiscFormat2RawCD::get_SupportedWriteSpeeds</a>
- 
-
- 
 

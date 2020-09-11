@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 2a8b9b4a-0a08-442a-896f-f980bff28f03
 ms.date: 12/05/2018
 ms.keywords: WSDXMLBuildAnyForSingleElement, WSDXMLBuildAnyForSingleElement function, ncd.wsdxmlbuildanyforsingleelement, wsdutil/WSDXMLBuildAnyForSingleElement
-f1_keywords:
-- wsdutil/WSDXMLBuildAnyForSingleElement
-dev_langs:
-- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDXMLBuildAnyForSingleElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDXMLBuildAnyForSingleElement
+ - wsdutil/WSDXMLBuildAnyForSingleElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDXMLBuildAnyForSingleElement
 ---
 
 # WSDXMLBuildAnyForSingleElement function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an XML element with a specified name and value.  The created element can be used as the child of an XML <b>any</b>  element.
 
-
 ## -parameters
-
-
-
 
 ### -param pElementName [in]
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that contains the name of the  created element.
 
-
 ### -param pszText [in]
 
 The text value of the created element.
-
 
 ### -param ppAny [out]
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> that contains the created element.  <i>ppAny</i> must be freed with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -129,7 +120,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

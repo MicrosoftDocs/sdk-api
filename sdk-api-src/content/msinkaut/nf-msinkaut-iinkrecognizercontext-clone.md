@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: f376e177-7714-4771-8aa4-13f91a26395a
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Clone method, IInkRecognizerContext.Clone, IInkRecognizerContext::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, get_Clone, msinkaut/IInkRecognizerContext::Clone, putref_Clone, tablet.inkrecognizercontext_clone
-f1_keywords:
-- msinkaut/IInkRecognizerContext.Clone
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerContext.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerContext::Clone
+ - msinkaut/IInkRecognizerContext::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerContext.Clone
 ---
 
 # IInkRecognizerContext::Clone
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates a duplicate <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param RecoContext [out, retval]
 
 When this method returns, contains the newly created <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -156,14 +146,8 @@ Unexpected parameter or property type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone">Clone</a> method is defined for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a>, and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> objects. The <b>Clone</b> method returns an exact copy of the original object.
 
@@ -172,13 +156,7 @@ In most scenarios, the duplicate object is an exact copy of the original object,
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object: This method returns a copy of the original <b>InkRecognizerContext</b> that contains the same settings as the original, but does not include the recognition results, if any. The settings that are copied include the recognition guide, character Autocomplete mode, a reference to the original <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a>, and all properties that improve the recognition results, such as the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid">Factoid</a> property and <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags">RecognitionFlags</a> property.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_dirty">Dirty Property</a>
 
@@ -193,7 +171,4 @@ In most scenarios, the duplicate object is an exact copy of the original object,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes">ModifyDrawingAttributes Method</a>
- 
-
- 
 

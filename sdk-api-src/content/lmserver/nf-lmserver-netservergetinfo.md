@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: ed15e1b5-3fdc-4841-85d1-89269684df0e
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, NetServerGetInfo, NetServerGetInfo function [Network Management], _win32_netservergetinfo, lmserver/NetServerGetInfo, netmgmt.netservergetinfo
-f1_keywords:
-- lmserver/NetServerGetInfo
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetServerGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetServerGetInfo
+ - lmserver/NetServerGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetServerGetInfo
 ---
 
 # NetServerGetInfo function
@@ -49,24 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetServerGetInfo</b> function retrieves current configuration information for the specified server.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-Pointer to a string that specifies the name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a string that specifies the name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param level [in]
 
@@ -111,8 +102,6 @@ Return the server name, type, associated software, and other attributes. The <i>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -124,10 +113,7 @@ Pointer to the buffer that receives the data. The format of this data depends on
 This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -183,14 +169,8 @@ Insufficient memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only the Administrators or Server Operators local group, or those with Print or Server Operator group membership, can successfully execute the 
 <b>NetServerGetInfo</b> function at level 102. No special group membership is required for level 100 or level 101 calls.
@@ -269,14 +249,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/nf-lmremutl-netremotecomputersupports">NetRemoteComputerSupports</a>
 
@@ -310,7 +283,4 @@ int wmain(int argc, wchar_t *argv[])
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server
 		  Functions</a>
- 
-
- 
 

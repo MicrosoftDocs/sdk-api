@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813
 ms.date: 12/05/2018
 ms.keywords: D3dCreateSurfaceEx, D3dCreateSurfaceEx callback function [Display Devices], PDD_CREATESURFACEEX, PDD_CREATESURFACEEX callback, d3dfncs_84d5da96-838e-4ba9-84a2-412e58f36bd0.xml, ddrawint/D3dCreateSurfaceEx, display.d3dcreatesurfaceex
-f1_keywords:
-- ddrawint/D3dCreateSurfaceEx
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- D3dCreateSurfaceEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_CREATESURFACEEX
+ - ddrawint/PDD_CREATESURFACEEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - D3dCreateSurfaceEx
 ---
 
 # PDD_CREATESURFACEEX callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>D3dCreateSurfaceEx</b> function notifies about the association of a Microsoft DirectDraw surface and a Microsoft Direct3D handle value to enable setting up the surface for Direct3D rendering. 
-
+The <b>D3dCreateSurfaceEx</b> function notifies about the association of a Microsoft DirectDraw surface and a Microsoft Direct3D handle value to enable setting up the surface for Direct3D rendering.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - pcsxd
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfaceexdata">DD_CREATESURFACEEXDATA</a> structure that contains the information required for the driver to create the surface. 
-
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfaceexdata">DD_CREATESURFACEEXDATA</a> structure that contains the information required for the driver to create the surface.
 
 ## -returns
 
-
-
 <b>D3dCreateSurfaceEx</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 All Direct3D drivers must support <b>D3dCreateSurfaceEx</b>.
 
@@ -255,14 +236,7 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ne-d3dhal-_d3dhal_dp2operation">D3DDP2OP_CLEAR</a>
 
@@ -301,7 +275,4 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_destroysurface">DdDestroySurface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: bce55c34-d64a-4f3b-8d09-6c9363e4eb11
 ms.date: 12/05/2018
 ms.keywords: MFCreateAudioRendererActivate, MFCreateAudioRendererActivate function [Media Foundation], bce55c34-d64a-4f3b-8d09-6c9363e4eb11, mf.mfcreateaudiorendereractivate, mfidl/MFCreateAudioRendererActivate
-f1_keywords:
-- mfidl/MFCreateAudioRendererActivate
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateAudioRendererActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateAudioRendererActivate
+ - mfidl/MFCreateAudioRendererActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateAudioRendererActivate
 ---
 
 # MFCreateAudioRendererActivate function
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates an activation object for the <a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppActivate [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. Use this interface to create the audio renderer. The caller must release the interface.
-          
-
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To create the audio renderer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> on the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer.
 
@@ -128,15 +112,8 @@ To configure the audio renderer, set any of the following attributes on the <a h
 <td>Enables low-latency audio streaming.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>
 
@@ -147,7 +124,4 @@ To configure the audio renderer, set any of the following attributes on the <a h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
- 
-
- 
 

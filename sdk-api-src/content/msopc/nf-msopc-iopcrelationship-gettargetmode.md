@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 5fb103c9-cb73-46b3-9102-6811d6673faf
 ms.date: 12/05/2018
 ms.keywords: GetTargetMode, GetTargetMode method [Open Packaging Conventions], GetTargetMode method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetMode method, IOpcRelationship.GetTargetMode, IOpcRelationship::GetTargetMode, msopc/IOpcRelationship::GetTargetMode, opc.iopcrelationship_gettargetmode
-f1_keywords:
-- msopc/IOpcRelationship.GetTargetMode
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationship.GetTargetMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationship::GetTargetMode
+ - msopc/IOpcRelationship::GetTargetMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationship.GetTargetMode
 ---
 
 # IOpcRelationship::GetTargetMode
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value that describes whether the relationship's target is internal  or external to the package.
 
-
 ## -parameters
-
-
-
 
 ### -param targetMode [out, retval]
 
@@ -66,10 +62,7 @@ If the target of the relationship is internal, the target is a part.
 
 If the target of the relationship is external, the target is a resource outside of the package.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,14 +94,8 @@ The <i>targetMode</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the relationship target is internal, the  target is a part. The URI of the target is relative to the URI of the source part.
 
@@ -127,13 +114,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -180,7 +161,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
- 
-
- 
 

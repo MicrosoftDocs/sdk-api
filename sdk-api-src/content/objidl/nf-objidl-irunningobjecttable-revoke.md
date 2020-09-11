@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d3d83966-035d-4077-a770-cb62c8011132
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],Revoke method, IRunningObjectTable.Revoke, IRunningObjectTable::Revoke, Revoke, Revoke method [COM], Revoke method [COM],IRunningObjectTable interface, _com_irunningobjecttable_revoke, com.irunningobjecttable_revoke, objidl/IRunningObjectTable::Revoke
-f1_keywords:
-- objidl/IRunningObjectTable.Revoke
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IRunningObjectTable.Revoke
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRunningObjectTable::Revoke
+ - objidl/IRunningObjectTable::Revoke
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IRunningObjectTable.Revoke
 ---
 
 # IRunningObjectTable::Revoke
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes an entry from the running object table (ROT) that was previously registered by a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRegister [in]
 
 The identifier of the ROT entry to be revoked.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 This method undoes the effect of a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>, removing both the moniker and the pointer to the object identified by that moniker.
 
@@ -89,16 +77,7 @@ If you are writing a container application, you must revoke a document's registr
 
 If you are writing a server application, you must revoke an object's registration when the object is closed. You must also revoke an object's registration before re-registering it when its container document is renamed (see <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">IOleObject::SetMoniker</a>).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
- 
-
- 
 

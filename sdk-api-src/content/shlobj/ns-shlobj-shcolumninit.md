@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: eebe47c8-b3ee-4316-b578-5404ed8f7920
 ms.date: 12/05/2018
 ms.keywords: '*LPSHCOLUMNINIT, LPSHCOLUMNINFO, LPSHCOLUMNINFO structure pointer [Windows Shell], SHCOLUMNINIT, SHCOLUMNINIT structure [Windows Shell], _win32_SHCOLUMNINIT_str, shell.SHCOLUMNINIT_str, shlobj/LPSHCOLUMNINFO, shlobj/SHCOLUMNINIT'
-f1_keywords:
-- shlobj/SHCOLUMNINIT
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj.h
-api_name:
-- SHCOLUMNINIT
 targetos: Windows
 req.typenames: SHCOLUMNINIT, *LPSHCOLUMNINIT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPSHCOLUMNINIT
+ - shlobj/LPSHCOLUMNINIT
+ - SHCOLUMNINIT
+ - shlobj/SHCOLUMNINIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj.h
+api_name:
+ - SHCOLUMNINIT
 ---
 
 # SHCOLUMNINIT structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Passes initialization information to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize">IColumnProvider::Initialize</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -64,13 +62,11 @@ Type: <b>ULONG</b>
 
 Initialization flags. Reserved. Set to <b>NULL</b>
 
-
 ### -field dwReserved
 
 Type: <b>ULONG</b>
 
 Reserved. Set to <b>NULL</b>.
-
 
 ### -field wszFolder
 

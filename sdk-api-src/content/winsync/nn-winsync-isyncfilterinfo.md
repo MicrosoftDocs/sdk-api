@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 89a6d1c4-691d-4356-9ef5-1364b5a7507d
 ms.date: 12/05/2018
 ms.keywords: ISyncFilterInfo, ISyncFilterInfo interface [Windows Sync], ISyncFilterInfo interface [Windows Sync],described, winsync.isyncfilterinfo, winsync/ISyncFilterInfo
-f1_keywords:
-- winsync/ISyncFilterInfo
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncFilterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncFilterInfo
+ - winsync/ISyncFilterInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncFilterInfo
 ---
 
 # ISyncFilterInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents information about a filter that is used to control the data that is included in an <b>ISyncChangeBatch</b> object.
-
 
 ## -inheritance
 
@@ -78,29 +77,17 @@ Serializes the filter data to an array of bytes.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 If a provider filters the contents of a change batch that it creates, it must create a filtered <b>ISyncChangeBatch</b> object.  The filtered change batch object contains an <b>ISyncFilterInfo</b> object that describes how the contents of the change batch were filtered.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer.htm
 ms.date: 12/05/2018
 ms.keywords: 8a6172fe-deac-4b70-fb31-07255d702e32, ID3D10Buffer, ID3D10Buffer interface [Direct3D 10], ID3D10Buffer interface [Direct3D 10],described, d3d10/ID3D10Buffer, direct3d10.id3d10buffer
-f1_keywords:
-- d3d10/ID3D10Buffer
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10Buffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10Buffer
+ - d3d10/ID3D10Buffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10Buffer
 ---
 
 # ID3D10Buffer interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A buffer interface accesses a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer resource</a>, which is unstructured memory. Buffers typically store vertex or index data.
-
 
 ## -inheritance
 
@@ -96,12 +95,9 @@ Invalidate the pointer to the resource retrieved by <a href="https://docs.micros
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Three types of buffers can be created; <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">vertex</a>, index, and shader-constant buffers. To create a buffer resource, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createbuffer">ID3D10Device::CreateBuffer</a>.
 
@@ -109,20 +105,11 @@ A buffer must be bound to the pipeline before it can be accessed. Buffers can be
 
 Buffers can be bound to multiple pipeline stages simultaneously for reading. A buffer can also be bound to a single pipeline stage for writing; however, the same buffer cannot be bound for reading and writing simultaneously. For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">binding resources</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-interfaces">Resource Interfaces</a>
- 
-
- 
 

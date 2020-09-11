@@ -5,10 +5,6 @@ description: Reads back the contents of a composition drawing surface (or a com
 ms.date: 01/09/2020
 tech.root: winrt
 ms.topic: language-reference
-f1_keywords:
- - windows/ICompositionDrawingSurfaceInterop2::CopySurface
-dev_langs:
-- c++
 req.construct-type: function
 req.header: windows.ui.composition.interop.h
 req.include-header: 
@@ -27,17 +23,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
- - apiref
-api_type:
-- COM
-api_location:
-- windows.ui.composition.interop.h
-api_name:
- - ICompositionDrawingSurfaceInterop2::CopySurface
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ICompositionDrawingSurfaceInterop2::CopySurface
+ - windows.ui.composition.interop/ICompositionDrawingSurfaceInterop2::CopySurface
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - windows.ui.composition.interop.h
+api_name:
+ - ICompositionDrawingSurfaceInterop2::CopySurface
 ---
 
 ## -description
@@ -153,3 +154,4 @@ HRESULT CompressTexturePixels(_In_ ID3D11Texture2D* texture) 
     // ... 
 } 
 ```
+

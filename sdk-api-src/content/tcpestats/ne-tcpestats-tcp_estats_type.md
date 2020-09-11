@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 96f55528-e74a-4360-a7a2-54ba19c3a284
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_TYPE, TCP_ESTATS_TYPE, TCP_ESTATS_TYPE enumeration [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsMaximum, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.tcp_estats_type, tcpestats/TCP_ESTATS_TYPE, tcpestats/TcpConnectionEstatsBandwidth, tcpestats/TcpConnectionEstatsData, tcpestats/TcpConnectionEstatsFineRtt, tcpestats/TcpConnectionEstatsMaximum, tcpestats/TcpConnectionEstatsObsRec, tcpestats/TcpConnectionEstatsPath, tcpestats/TcpConnectionEstatsRec, tcpestats/TcpConnectionEstatsSendBuff, tcpestats/TcpConnectionEstatsSndCong, tcpestats/TcpConnectionEstatsSynOpts'
-f1_keywords:
-- tcpestats/TCP_ESTATS_TYPE
-dev_langs:
-- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpestats.h
-api_name:
-- TCP_ESTATS_TYPE
 targetos: Windows
 req.typenames: TCP_ESTATS_TYPE, *PTCP_ESTATS_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PTCP_ESTATS_TYPE
+ - tcpestats/PTCP_ESTATS_TYPE
+ - TCP_ESTATS_TYPE
+ - tcpestats/TCP_ESTATS_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpestats.h
+api_name:
+ - TCP_ESTATS_TYPE
 ---
 
 # TCP_ESTATS_TYPE enumeration
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>TCP_ESTATS_TYPE</b> enumeration defines the type of extended statistics for a TCP connection that is requested or being set. 
-
+The <b>TCP_ESTATS_TYPE</b> enumeration defines the type of extended statistics for a TCP connection that is requested or being set.
 
 ## -enum-fields
-
-
-
 
 ### -field TcpConnectionEstatsSynOpts
 
@@ -64,20 +62,17 @@ This value specifies SYN exchange information for a TCP connection.
 
 Only read-only static information is available for this enumeration value.
 
-
 ### -field TcpConnectionEstatsData
 
 This value specifies extended data transfer information for a TCP connection.
 
 Only read-only dynamic information and read/write information are available for this enumeration value.
 
-
 ### -field TcpConnectionEstatsSndCong
 
 This value specifies sender congestion for a TCP connection.
 
 All three types of information (read-only static, read-only dynamic,  and read/write information) are available for this enumeration value.
-
 
 ### -field TcpConnectionEstatsPath
 
@@ -87,13 +82,11 @@ This value specifies extended path measurement information for a TCP connection.
 
 Only read-only dynamic information and read/write information are available for this enumeration value.
 
-
 ### -field TcpConnectionEstatsSendBuff
 
 This value specifies extended output-queuing information for a TCP connection.
 
 Only read-only dynamic information and read/write information are available for this enumeration value.
-
 
 ### -field TcpConnectionEstatsRec
 
@@ -101,13 +94,11 @@ This value specifies extended local-receiver information for a TCP connection.
 
 Only read-only dynamic information and read/write information are available for this enumeration value.
 
-
 ### -field TcpConnectionEstatsObsRec
 
 This value specifies extended remote-receiver information for a TCP connection.
 
 Only read-only dynamic information and read/write information are available for this enumeration value.
-
 
 ### -field TcpConnectionEstatsBandwidth
 
@@ -115,22 +106,17 @@ This value specifies bandwidth estimation statistics for a TCP connection on ban
 
 Only read-only dynamic information and read/write information are available for this enumeration value.
 
-
 ### -field TcpConnectionEstatsFineRtt
 
 This value specifies fine-grained round-trip time (RTT) estimation statistics for a TCP connection.
 
 Only read-only dynamic information and read/write information are available for this enumeration value.
 
-
 ### -field TcpConnectionEstatsMaximum
 
 The maximum possible value for the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>_STATE enumeration type. This is not a legal value for the possible type of extended statistics for a TCP connection.
 
-
 ## -remarks
-
-
 
 The <b>TCP_ESTATS_TYPE</b> enumeration is defined on Windows Vista and later. 
 
@@ -144,13 +130,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> and <b>GetPerTcp6ConnectionEStats</b> functions  are used to retrieve extended statistics for a TCP connection based on the type of extended statistics specified using one of values from the <b>TCP_ESTATS_TYPE</b> enumeration type. The collection of extended statistics on a TCP connection are enabled and disabled using calls to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats">SetPerTcp6ConnectionEStats</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcpconnectionestats">SetPerTcpConnectionEStats</a> functions where the type of extended statistics specified is one of values from the <b>TCP_ESTATS_TYPE</b> enumeration type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
@@ -237,7 +217,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_syn_opts_ros_v0">TCP_ESTATS_SYN_OPTS_ROS_v0</a>
- 
-
- 
 

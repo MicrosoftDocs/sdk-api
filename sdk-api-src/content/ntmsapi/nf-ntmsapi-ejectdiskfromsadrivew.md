@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: eb1e79b5-f059-4e18-836f-3ba4de97eea2
 ms.date: 12/05/2018
 ms.keywords: EjectDiskFromSADrive, EjectDiskFromSADrive function [Files], EjectDiskFromSADriveA, EjectDiskFromSADriveW, NTMS_EJECT_ASK_USER, NTMS_EJECT_FORCE, NTMS_EJECT_IMMEDIATE, NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, base.ejectdiskfromsadrive, fs.ejectdiskfromsadrive, ntmsapi/EjectDiskFromSADrive, ntmsapi/EjectDiskFromSADriveA, ntmsapi/EjectDiskFromSADriveW
-f1_keywords:
-- ntmsapi/EjectDiskFromSADrive
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- EjectDiskFromSADrive
-- EjectDiskFromSADriveA
-- EjectDiskFromSADriveW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EjectDiskFromSADriveW
+ - ntmsapi/EjectDiskFromSADriveW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - EjectDiskFromSADrive
+ - EjectDiskFromSADriveA
+ - EjectDiskFromSADriveW
 ---
 
 # EjectDiskFromSADriveW function
@@ -51,33 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>EjectDiskFromSADrive</b> function ejects the  media that is in a standalone removable 
   drive.
 
-
 ## -parameters
-
-
-
 
 ### -param lpComputerName [in]
 
 Removable Storage Manager (RSM) server name. If this parameter is <b>NULL</b>, the current computer name is used.
 
-
 ### -param lpAppName [in]
 
 Unique character string that identifies the application. This name identifies resources and operator requests. This parameter is optional and may be <b>NULL</b>.
 
-
 ### -param lpDeviceName [in]
 
 Name of the device to eject.  For example, \\.\Cdrom0 or \\.\PhysicalDriveX (where X is the number of the drive being accessed).
-
 
 ### -param hWnd [in]
 
@@ -85,16 +78,13 @@ Name of the device to eject.  For example, \\.\Cdrom0 or \\.\PhysicalDriveX (whe
 
 Handle to a dialog box window for  user confirmation.
 
-
 ### -param lpTitle [in]
 
 Title displayed in a dialog box to get user input.
 
-
 ### -param lpMessage [in]
 
 Message displayed in a dialog box to get user input.
-
 
 ### -param dwOptions [in]
 
@@ -168,12 +158,8 @@ Eject the media immediately and synchronously. The function will not return unti
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -304,14 +290,8 @@ The eject operation was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Although <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a> can, in some cases, be used to accomplish the same functionality, <b>EjectDiskFromSADrive</b> provides a convenient way to eject media from a standalone device, by specifying its drive name instead of its RSM name. In some cases it is the only way to overcome file system locks on the media in order to eject that media.
 
@@ -333,9 +313,6 @@ The
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
 
 
@@ -345,7 +322,4 @@ The
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 74b1b453-66e9-4724-a956-26cea2d7d744
 ms.date: 12/05/2018
 ms.keywords: EnumSystemLocalesEx, EnumSystemLocalesEx function [Internationalization for Windows Applications], _win32_EnumSystemLocalesEx, intl.enumsystemlocalesex, winnls/EnumSystemLocalesEx
-f1_keywords:
-- winnls/EnumSystemLocalesEx
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-- api-ms-win-core-localization-l1-2-3.dll
-api_name:
-- EnumSystemLocalesEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumSystemLocalesEx
+ - winnls/EnumSystemLocalesEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+ - api-ms-win-core-localization-l1-2-3.dll
+api_name:
+ - EnumSystemLocalesEx
 ---
 
 # EnumSystemLocalesEx function
@@ -56,19 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the locales that are either installed on or supported by an operating system.
 <div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesa">EnumSystemLocales</a> if designed to run only on Windows Vista and later.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpLocaleEnumProcEx [in]
 
 Pointer to an application-defined callback function. The <b>EnumSystemLocalesEx</b> function enumerates locales by making repeated calls to this callback function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-locale_enumprocex">EnumLocalesProcEx</a>.
-
 
 ### -param dwFlags [in]
 
@@ -96,15 +92,11 @@ Flags identifying the locales to enumerate. The flags can be used singly or comb
 
 An application-provided parameter to be passed to the callback function. This is especially useful for multi-threaded applications.
 
-
 ### -param lpReserved [in, optional]
 
 Reserved; must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
@@ -114,11 +106,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function enumerates locales by passing locale names, one at a time, to the application-defined callback function specified by <i>lpLocaleEnumProcEx</i>. Enumeration continues until all installed or supported names have been passed to the callback function or the callback function returns <b>FALSE</b>.
 
@@ -133,12 +121,7 @@ An example showing the use of this function can be found in <a href="https://doc
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-locale_enumprocex">EnumLocalesProcEx</a>
 
@@ -153,7 +136,4 @@ An example showing the use of this function can be found in <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

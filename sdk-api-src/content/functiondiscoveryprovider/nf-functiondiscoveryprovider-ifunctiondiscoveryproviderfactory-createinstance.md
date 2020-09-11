@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 143a4f62-7093-4127-b89e-e7d0985a92bb
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateInstance method, IFunctionDiscoveryProviderFactory.CreateInstance, IFunctionDiscoveryProviderFactory::CreateInstance, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateInstance, ncd.ifunctiondiscoveryproviderfactory_createinstance
-f1_keywords:
-- functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreateInstance
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IFunctionDiscoveryProviderFactory.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscoveryProviderFactory::CreateInstance
+ - functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IFunctionDiscoveryProviderFactory.CreateInstance
 ---
 
 # IFunctionDiscoveryProviderFactory::CreateInstance
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Creates a function instance. All function instances should be created using this method.  Other implementations that support <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> should not be used.
 
-
 ## -parameters
-
-
-
 
 ### -param pszSubCategory [in]
 
 The subcategory string for the function instance. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>.
-
 
 ### -param pszProviderInstanceIdentity [in]
 
@@ -75,39 +70,27 @@ This string  is returned to client applications that call  <a href="https://docs
 
 There is no upper limit on the size of this string.
 
-
 ### -param iProviderInstanceContext [in]
 
 The context associated with the specific function instance.
-
 
 ### -param pIPropertyStore [in]
 
 A pointer to an <b>IPropertyStore</b> interface.
 
-
 ### -param pIFunctionDiscoveryProvider [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a> provider instance creating this function instance. 
-
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a> provider instance creating this function instance.
 
 ### -param ppIFunctionInstance [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The provider should specify the subcategory (may be <b>NULL</b>), the instance identifier, a provider-allocated context (if required), and an optional property store.  
 
@@ -117,16 +100,7 @@ The context specified by the provider will be passed back to the provider for al
 
 The provider must guarantee that the provider reference count does not go to zero, possibly on another thread, while <b>CreateInstance</b>  is being called.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory">IFunctionDiscoveryProviderFactory</a>
- 
-
- 
 

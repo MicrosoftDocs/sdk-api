@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\isearchcrawlscopemanager2.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager2, ISearchCrawlScopeManager2 interface [search], ISearchCrawlScopeManager2 interface [search],described, _search_ISearchCrawlScopeManager2, search._search_ISearchCrawlScopeManager2, searchapi/ISearchCrawlScopeManager2
-f1_keywords:
-- searchapi/ISearchCrawlScopeManager2
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchCrawlScopeManager2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchCrawlScopeManager2
+ - searchapi/ISearchCrawlScopeManager2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchCrawlScopeManager2
 ---
 
 # ISearchCrawlScopeManager2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcrawlscopemanager">ISearchCrawlScopeManager</a> interface. <b>ISearchCrawlScopeManager2</b> provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching.
-
 
 ## -inheritance
 
@@ -77,18 +76,13 @@ Causes file mapping to be mapped into the address space of the calling process, 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
 For a sample that demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations, see the [CrawlScopeCommandLine](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/CrawlScopeCommandLine) sample.
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -107,7 +101,4 @@ For a sample that demonstrates how to define command line options for Crawl Scop
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-extidx-csm">Using the Crawl Scope Manager</a>
- 
-
- 
 

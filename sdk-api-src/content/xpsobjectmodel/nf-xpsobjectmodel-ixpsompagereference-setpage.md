@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 7d1381ad-6ac8-4ea4-99a2-8bc5d95773c7
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetPage method, IXpsOMPageReference.SetPage, IXpsOMPageReference::SetPage, SetPage, SetPage method [XPS Documents and Packaging], SetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setpage, xpsobjectmodel/IXpsOMPageReference::SetPage
-f1_keywords:
-- xpsobjectmodel/IXpsOMPageReference.SetPage
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPageReference.SetPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPageReference::SetPage
+ - xpsobjectmodel/IXpsOMPageReference::SetPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPageReference.SetPage
 ---
 
 # IXpsOMPageReference::SetPage
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a> interface of the page reference.
 
-
 ## -parameters
-
-
-
 
 ### -param page [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a> interface pointer of the page.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -108,14 +101,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The page added by this method can be empty or fully constructed.
 
@@ -123,13 +110,7 @@ The page added by this method can be empty or fully constructed.
 
 If a page has been set, the calling method must first release that  page before calling  <b>SetPage</b> with a new page. To explain, once <b>SetPage</b> has been called with a new page, the original page cannot be discarded even if it still exists in the package.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
@@ -148,7 +129,4 @@ If a page has been set, the calling method must first release that  page before 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME function [Failover Cluster], ResUtilGetEnvironmentWithNetName, ResUtilGetEnvironmentWithNetName function [Failover Cluster], _wolf_resutilgetenvironmentwithnetname, mscs.resutilgetenvironmentwithnetname, resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, resapi/ResUtilGetEnvironmentWithNetName
-f1_keywords:
-- resapi/ResUtilGetEnvironmentWithNetName
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilGetEnvironmentWithNetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetEnvironmentWithNetName
+ - resapi/ResUtilGetEnvironmentWithNetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilGetEnvironmentWithNetName
 ---
 
 # ResUtilGetEnvironmentWithNetName function
@@ -49,35 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adjusts environment data for a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> so that the resource uses a cluster network name to identify its location. The resource must be dependent on a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource. The <b>PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle to a resource that depends on a Network Name resource.
 
-
 ## -returns
-
-
 
 If the operations succeeds, the function returns a pointer to the environment block.
 
 If the operation fails, 
 the function returns <b>NULL</b>. For more information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The  <b>ResUtilGetEnvironmentWithNetName</b> function appends environment variables to the current environment block. Pass the returned environment block to  <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> when starting the resource to achieve the following effects:
 
@@ -91,16 +79,7 @@ Use  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-re
 
 Do not call  <b>ResUtilGetEnvironmentWithNetName</b> from any resource DLL entry point function.  <b>ResUtilGetEnvironmentWithNetName</b> can safely be called from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceserviceenvironment">ResUtilSetResourceServiceEnvironment</a>
- 
-
- 
 

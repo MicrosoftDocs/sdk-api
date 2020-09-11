@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 039615ee-0485-4698-944f-23359253767a
 ms.date: 12/05/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
-f1_keywords:
-- cryptuiapi/CryptUIWizFreeDigitalSignContext
-dev_langs:
-- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Cryptui.lib
 req.dll: Cryptui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptui.dll
-api_name:
-- CryptUIWizFreeDigitalSignContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptUIWizFreeDigitalSignContext
+ - cryptuiapi/CryptUIWizFreeDigitalSignContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptui.dll
+api_name:
+ - CryptUIWizFreeDigitalSignContext
 ---
 
 # CryptUIWizFreeDigitalSignContext function
@@ -49,42 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param pSignContext [in]
 
 A pointer to the   <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure to be freed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
- 
-
- 
 

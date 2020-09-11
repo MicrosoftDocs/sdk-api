@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 47b059a9-a18a-4f32-9a02-6566175ca86b
 ms.date: 12/05/2018
 ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageManager interface [IMAPI],described, imapi.iisoimagemanager, imapi2fs/IIsoImageManager
-f1_keywords:
-- imapi2fs/IIsoImageManager
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IIsoImageManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsoImageManager
+ - imapi2fs/IIsoImageManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IIsoImageManager
 ---
 
 # IIsoImageManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to verify if an existing .iso file contains a valid file system for burning.
-
 
 ## -inheritance
 
@@ -113,17 +112,12 @@ Determines if the provided .iso image is valid.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If a valid path is provided via <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">SetPath</a>, an <b>IStream</b> object will be created from the supplied image file and the <b>Stream</b> property will be populated.
 If a valid <b>IStream</b> is provided via <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream">SetStream</a>, it will be used directly for image validation and the <b>Path</b> property will not be populated.
 
 This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
-
-
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: beef626c-64b1-4f49-bb21-69022907004d
 ms.date: 12/05/2018
 ms.keywords: IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDownloadContentDescriptor, mstv.iisdbdownloadcontentdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbDownloadContentDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbDownloadContentDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbDownloadContentDescriptor
+ - dvbsiparser/IIsdbDownloadContentDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbDownloadContentDescriptor
 ---
 
 # IIsdbDownloadContentDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The download content descriptor appears in the ISDB Service Information as part of the software download trigger table (SDTT) and provides details about content and scheduling related to downloading.
-
 
 ## -inheritance
 
@@ -221,5 +220,5 @@ Gets the tag that identifies an ISDB download content descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

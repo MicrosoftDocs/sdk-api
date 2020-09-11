@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10rasterizerstate.htm
 ms.date: 12/05/2018
 ms.keywords: ID3D10RasterizerState, ID3D10RasterizerState interface [Direct3D 10], ID3D10RasterizerState interface [Direct3D 10],described, ce1e96e6-707f-1c9e-1985-3b3acefd307f, d3d10/ID3D10RasterizerState, direct3d10.id3d10rasterizerstate
-f1_keywords:
-- d3d10/ID3D10RasterizerState
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10RasterizerState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10RasterizerState
+ - d3d10/ID3D10RasterizerState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10RasterizerState
 ---
 
 # ID3D10RasterizerState interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A rasterizer-state interface accesses rasterizer state for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>.
-
 
 ## -inheritance
 
@@ -78,29 +77,17 @@ Get the properties of a rasterizer-state object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A rasterizer-state object is created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createrasterizerstate">ID3D10Device::CreateRasterizerState</a> and bound to the pipeline with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rssetstate">ID3D10Device::RSSetState</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
- 
-
- 
 

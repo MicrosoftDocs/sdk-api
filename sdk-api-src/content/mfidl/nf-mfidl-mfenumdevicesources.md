@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: da4d96ce-e22b-4e1c-aa2e-df46416a5f0b
 ms.date: 12/05/2018
 ms.keywords: MFEnumDeviceSources, MFEnumDeviceSources function [Media Foundation], MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY, mf.mfenumdevicesources, mfidl/MFEnumDeviceSources
-f1_keywords:
-- mfidl/MFEnumDeviceSources
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFEnumDeviceSources
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFEnumDeviceSources
+ - mfidl/MFEnumDeviceSources
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFEnumDeviceSources
 ---
 
 # MFEnumDeviceSources function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates a list of audio or video capture devices.
 
-
 ## -parameters
-
-
-
 
 ### -param pAttributes [in]
 
@@ -98,31 +94,20 @@ For video capture devices, specifies the device category. (Optional.)
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pppSourceActivate [out]
 
 Receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface pointers. Each pointer represents an activation object for a media source. The function allocates the memory for the array. The caller must release the pointers in the array and call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the memory for the array.
 
-
 ### -param pcSourceActivate [out]
 
 Receives the number of elements in the <i>pppSourceActivate</i> array. If no capture devices match the search criteria, this parameter receives the value 0.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Each returned <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer represents a capture device, and can be used to create a media source for that device. You can also use the <b>IMFActivate</b> pointer to query for attributes that describe the device. The following attributes might be set:
 
@@ -248,21 +233,11 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/audio-video-capture-in-media-foundation">Audio/Video Capture in Media Foundation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

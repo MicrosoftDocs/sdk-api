@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: a374c963-cc28-41f6-814d-7ffc6efc67a6
 ms.date: 12/05/2018
 ms.keywords: IMediaFilter interface [DirectShow],SetSyncSource method, IMediaFilter.SetSyncSource, IMediaFilter::SetSyncSource, IMediaFilterSetSyncSource, SetSyncSource, SetSyncSource method [DirectShow], SetSyncSource method [DirectShow],IMediaFilter interface, dshow.imediafilter_setsyncsource, strmif/IMediaFilter::SetSyncSource
-f1_keywords:
-- strmif/IMediaFilter.SetSyncSource
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaFilter.SetSyncSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaFilter::SetSyncSource
+ - strmif/IMediaFilter::SetSyncSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaFilter.SetSyncSource
 ---
 
 # IMediaFilter::SetSyncSource
@@ -50,35 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetSyncSource</code> method sets the reference clock.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pClock [in]
 
 Pointer to the clock's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a> interface, or <b>NULL</b>. If this parameter is <b>NULL</b>, the filter graph does not use a reference clock, and all filters run as quickly as possible.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful, or an <b>HRESULT</b> value indicating the cause of the error.
 
-
-
-
 ## -remarks
-
-
 
 All the filters in the filter graph share the same reference clock, in order to stay synchronized. Stream time is calculated from the reference clock. Renderer filters use the reference clock to schedule when they render samples. If there is no reference clock, a renderer filter renders every sample as soon as it arrives.
 
@@ -96,13 +81,7 @@ An application can override the default clock by calling <b>SetSyncSource</b> on
 
 Applications should never call this method on filters.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -113,7 +92,4 @@ Applications should never call this method on filters.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
- 
-
- 
 

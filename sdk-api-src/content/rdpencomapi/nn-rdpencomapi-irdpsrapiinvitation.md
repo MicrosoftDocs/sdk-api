@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 66cd8251-726a-4368-8da5-4d3f6899bdc8
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], IRDPSRAPIInvitation interface [RDP],described, rdp.irdpsrapiinvitation, rdpencomapi/IRDPSRAPIInvitation
-f1_keywords:
-- rdpencomapi/IRDPSRAPIInvitation
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIInvitation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIInvitation
+ - rdpencomapi/IRDPSRAPIInvitation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIInvitation
 ---
 
 # IRDPSRAPIInvitation interface
 
 
 ## -description
-
 
 Invitations enable a person or group of persons to connect to a session. When an attendee connects to a session, the client sends a ticket and a password. These two pieces of information are used to authenticate an attendee.
 
@@ -64,15 +64,9 @@ An attendee can join a session if the invitation list contains and invitation wi
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitationmanager">IRDPSRAPIInvitationManager</a>
- 
-
- 
 

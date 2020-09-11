@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 7CC1DD25-762B-489F-AC20-1B57764923A2
 ms.date: 12/05/2018
 ms.keywords: IsWindowsServer, IsWindowsServer function, base.iswindowsserver, versionhelpers/IsWindowsServer
-f1_keywords:
-- versionhelpers/IsWindowsServer
-dev_langs:
-- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- ntdll.dll
-api_name:
-- IsWindowsServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsWindowsServer
+ - versionhelpers/IsWindowsServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - ntdll.dll
+api_name:
+ - IsWindowsServer
 ---
 
 # IsWindowsServer function
@@ -50,30 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates if the current OS is a  Windows Server release.  Applications that need to distinguish between server and client versions of Windows should call this function.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 True if the current OS is a Windows Server version; otherwise, false.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows7orgreater">IsWindows7OrGreater</a>
 
@@ -116,7 +102,4 @@ True if the current OS is a Windows Server version; otherwise, false.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp3orgreater">IsWindowsXPSP3OrGreater</a>
- 
-
- 
 

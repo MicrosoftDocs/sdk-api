@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8aaab68a-27e3-4e76-8116-530001b504a3
 ms.date: 12/05/2018
 ms.keywords: GetDatabaseLogFile, GetDatabaseLogFile method [VSS], GetDatabaseLogFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseLogFile method, IVssWMComponent.GetDatabaseLogFile, IVssWMComponent::GetDatabaseLogFile, _win32_ivsswmcomponent_getdatabaselogfile, base.ivsswmcomponent_getdatabaselogfile, vsbackup/IVssWMComponent::GetDatabaseLogFile
-f1_keywords:
-- vsbackup/IVssWMComponent.GetDatabaseLogFile
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWMComponent.GetDatabaseLogFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWMComponent::GetDatabaseLogFile
+ - vsbackup/IVssWMComponent::GetDatabaseLogFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWMComponent.GetDatabaseLogFile
 ---
 
 # IVssWMComponent::GetDatabaseLogFile
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetDatabaseLogFile</b> method obtains a file descriptor for the log file associated with the specified database backup component.
 
-
 ## -parameters
-
-
-
 
 ### -param iDbLogFile [in]
 
@@ -66,16 +62,12 @@ Offset between 0 and <i>n</i>-1, where <i>n</i> is the number of database log fi
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> object returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getcomponentinfo">IVssWMComponent::GetComponentInfo</a>.
 
-
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the returned file descriptor information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -156,32 +148,17 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release system resources held by the returned 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswmcomponent">IVssWMComponent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
- 
-
- 
 

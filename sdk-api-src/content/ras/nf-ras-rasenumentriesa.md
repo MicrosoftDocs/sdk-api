@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
 ms.date: 12/05/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
-f1_keywords:
-- ras/RasEnumEntries
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasEnumEntries
-- RasEnumEntriesA
-- RasEnumEntriesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasEnumEntriesA
+ - ras/RasEnumEntriesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasEnumEntries
+ - RasEnumEntriesA
+ - RasEnumEntriesW
 ---
 
 # RasEnumEntriesA function
@@ -53,27 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasEnumEntries</b> function lists all entry names in a remote access phone book.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 Reserved; must be <b>NULL</b>.
-
 
 ### -param arg2 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 If this parameter is <b>NULL</b>, the entries are enumerated from all the remote access phone-book files in the AllUsers profile and the user's profile.
-
 
 ### -param arg3 [in, out]
 
@@ -85,7 +79,6 @@ Pointer to a buffer that, on output, receives an array of
 
 On input, an application must set the <b>dwSize</b> member of the first 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) in order to identify the version of the structure being passed.
-
 
 ### -param arg4 [in, out]
 
@@ -100,15 +93,11 @@ Pointer to a variable that, on output, contains the size, in bytes, of the array
 <b>Windows Vista or later:  </b>To determine the required buffer size, call 
 <b>RasEnumEntries</b> with <i>lprasentryname</i> set to <b>NULL</b>. The variable pointed to by <i>lpcb</i> should be set to zero. The function will return the required buffer size in <i>lpcb</i> and an error code of <b>ERROR_BUFFER_TOO_SMALL</b>.
 
-
 ### -param arg5 [out]
 
 Pointer to a variable that receives to the number of phone-book entries written to the buffer specified by <i>lprasentryname</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -158,14 +147,8 @@ The function could not allocate sufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following sample code enumerates the RAS phone-book entries on Windows Vista and later versions of Windows. The code initially calls 
 <b>RasEnumEntries</b> to obtain the size of the buffer to pass in. The code then calls 
@@ -239,9 +222,6 @@ DWORD __cdecl wmain(){
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a>
 
 
@@ -255,7 +235,4 @@ DWORD __cdecl wmain(){
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

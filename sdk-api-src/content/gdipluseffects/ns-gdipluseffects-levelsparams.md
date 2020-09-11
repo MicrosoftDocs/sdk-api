@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\levelsparams.htm
 ms.date: 12/05/2018
 ms.keywords: LevelsParams, LevelsParams structure [GDI+], _gdiplus_STRUC_LevelsParams, gdiplus._gdiplus_STRUC_LevelsParams, gdipluseffects/LevelsParams
-f1_keywords:
-- gdipluseffects/LevelsParams
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdipluseffects.h
-api_name:
-- LevelsParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - LevelsParams
+ - gdipluseffects/LevelsParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdipluseffects.h
+api_name:
+ - LevelsParams
 ---
 
 # LevelsParams structure
 
 
 ## -description
-
 
 The <b>LevelsParams</b> structure contains members that specify adjustments to the light, midtone, or dark areas of a bitmap.
 
@@ -62,22 +62,17 @@ You can adjust the light, midtone, or dark areas of a bitmap by following these 
 
 ## -struct-fields
 
-
-
-
 ### -field highlight
 
 Type: <b>INT</b>
 
 Integer in the range 0 through 100 that specifies which pixels should be lightened. You can use this adjustment to lighten pixels that are already lighter than a certain threshold. Setting <b>highlight</b> to 100 specifies no change. Setting <b>highlight</b> to t specifies that a color channel value is increased if it is already greater than t percent of full intensity. For example, setting <b>highlight</b> to 90 specifies that all color channel values greater than 90 percent of full intensity are increased.
 
-
 ### -field midtone
 
 Type: <b>INT</b>
 
-Integer in the range -100 through 100 that specifies how much to lighten or darken an image. Color channel values in the middle of the intensity range are altered more than color channel values near the minimum or maximum intensity. You can use this adjustment to lighten (or darken) an image without loosing the contrast between the darkest and lightest portions of the image. A value of 0 specifies no change. Positive values specify that the midtones are made lighter, and negative values specify that the midtones are made darker. 
-
+Integer in the range -100 through 100 that specifies how much to lighten or darken an image. Color channel values in the middle of the intensity range are altered more than color channel values near the minimum or maximum intensity. You can use this adjustment to lighten (or darken) an image without loosing the contrast between the darkest and lightest portions of the image. A value of 0 specifies no change. Positive values specify that the midtones are made lighter, and negative values specify that the midtones are made darker.
 
 ### -field shadow
 

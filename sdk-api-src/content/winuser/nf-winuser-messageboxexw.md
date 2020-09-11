@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxex.htm
 ms.date: 12/05/2018
 ms.keywords: MessageBoxEx, MessageBoxEx function [Dialog Boxes], MessageBoxExA, MessageBoxExW, _win32_MessageBoxEx, _win32_messageboxex_cpp, dlgbox.messageboxex, winui._win32_messageboxex, winuser/MessageBoxEx, winuser/MessageBoxExA, winuser/MessageBoxExW
-f1_keywords:
-- winuser/MessageBoxEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- MessageBoxEx
-- MessageBoxExA
-- MessageBoxExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MessageBoxExW
+ - winuser/MessageBoxExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - MessageBoxEx
+ - MessageBoxExA
+ - MessageBoxExW
 ---
 
 # MessageBoxExW function
@@ -51,45 +52,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates, displays, and operates a message box. The message box contains an application-defined message and title, plus any combination of predefined icons and push buttons. The buttons are in the language of the system user interface.
     
 
 Currently <b>MessageBoxEx</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> work the same way.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in, optional]
 
 Type: <b>HWND</b>
 
-A handle to the owner window of the message box to be created. If this parameter is <b>NULL</b>, the message box has no owner window. 
-
+A handle to the owner window of the message box to be created. If this parameter is <b>NULL</b>, the message box has no owner window.
 
 ### -param lpText [in, optional]
 
 Type: <b>LPCTSTR</b>
 
-The message to be displayed. 
-
+The message to be displayed.
 
 ### -param lpCaption [in, optional]
 
 Type: <b>LPCTSTR</b>
 
-The dialog box title. If this parameter is <b>NULL</b>, the default title <b>Error</b> is used. 
-
+The dialog box title. If this parameter is <b>NULL</b>, the default title <b>Error</b> is used.
 
 ### -param uType [in]
 
 Type: <b>UINT</b>
 
 The contents and behavior of the dialog box. For information on the supported flags, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
-
 
 ### -param wLanguageId [in]
 
@@ -100,10 +92,7 @@ The language for the text displayed in the message box button(s). Specifying a v
 
 To specify a language other than the current language, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro to create this parameter. For more information, see <b>MAKELANGID</b>.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -227,14 +216,8 @@ The <b>Yes</b> button was selected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you use a system-modal message box to indicate that the system is low on memory, the strings pointed to by the <i>lpText</i> and <i>lpCaption</i> parameters should not be taken from a resource file because an attempt to load the resource may fail. 
 
@@ -248,9 +231,6 @@ If you create a message box while a dialog box is present, use a handle to the d
 > The winuser.h header defines MessageBoxEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -285,7 +265,4 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
- 
-
- 
 

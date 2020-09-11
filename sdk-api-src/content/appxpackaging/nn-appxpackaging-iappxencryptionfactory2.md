@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: CEA749C5-1DD0-4207-83BA-905B8838A923
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptionFactory2, IAppxEncryptionFactory2 interface [App packaging and management], IAppxEncryptionFactory2 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory2, appxpkg.iappxencryptionfactory2
-f1_keywords:
-- appxpackaging/IAppxEncryptionFactory2
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxEncryptionFactory2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxEncryptionFactory2
+ - appxpackaging/IAppxEncryptionFactory2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxEncryptionFactory2
 ---
 
 # IAppxEncryptionFactory2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates objects for encrypting, decrypting,  reading, and writing Windows app packages and bundles.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Creates a new instance of an <a href="https://docs.microsoft.com/windows/desktop
 
 </td>
 </tr>
-</table> 
+</table>
 

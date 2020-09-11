@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
 ms.date: 12/05/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
-f1_keywords:
-- shlobj_core/SHGetFolderPath
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-shell-shellfolders-l1-1-0.dll
-- KernelBase.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
-- ext-ms-win-shell32-shellfolders-l1-2-0.dll
-- Windows.Storage.dll
-- bcrypt.dll
-api_name:
-- SHGetFolderPath
-- SHGetFolderPathA
-- SHGetFolderPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetFolderPathW
+ - shlobj_core/SHGetFolderPathW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-shell-shellfolders-l1-1-0.dll
+ - KernelBase.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - ext-ms-win-shell32-shellfolders-l1-2-0.dll
+ - Windows.Storage.dll
+ - bcrypt.dll
+api_name:
+ - SHGetFolderPath
+ - SHGetFolderPathA
+ - SHGetFolderPathW
 ---
 
 # SHGetFolderPathW function
 
 
 ## -description
-
 
 Deprecated. Gets the path of a folder identified by a <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value.
             
@@ -66,22 +66,17 @@ Deprecated. Gets the path of a folder identified by a <a href="https://docs.micr
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
 Type: <b>HWND</b>
 
 Reserved.
 
-
 ### -param csidl [in]
 
 Type: <b>int</b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder whose path is to be retrieved. Only real folders are valid. If a virtual folder is specified, this function fails. You can force creation of a folder by combining the folder's <b>CSIDL</b> with <b>CSIDL_FLAG_CREATE</b>.
-
 
 ### -param hToken [in]
 
@@ -98,7 +93,6 @@ An <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">a
 The calling process is responsible for correct impersonation when <i>hToken</i> is non-<b>NULL</b>. The calling process must have appropriate security privileges for the particular user, including TOKEN_QUERY and TOKEN_IMPERSONATE, and the user's registry hive must be currently mounted. See <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> for further discussion of access control issues.
 
 Assigning the <i>hToken</i> parameter a value of -1 indicates the Default User. This enables clients of <b>SHGetFolderPath</b> to find folder locations (such as the Desktop folder) for the Default User. The Default User user profile is duplicated when any new user account is created, and includes special folders such as My Documents and Desktop. Any items added to the Default User folder also appear in any new user account.
-
 
 ### -param dwFlags [in]
 
@@ -126,7 +120,6 @@ Retrieve the folder's current path.
 
 Retrieve the folder's default path.
 
-
 ### -param pszPath [out]
 
 Type: <b>LPTSTR</b>
@@ -143,21 +136,13 @@ Retrieve the folder's current path.
 
 Retrieve the folder's default path.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function is a superset of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha">SHGetSpecialFolderPath</a>.
 
@@ -248,11 +233,5 @@ if(SUCCEEDED(SHGetFolderPath(NULL,
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>
- 
-
- 
 

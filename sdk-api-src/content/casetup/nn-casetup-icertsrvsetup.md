@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6792a0d6-d304-481d-a97b-5fb7033c7eae
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup interface [Security],described, casetup/ICertSrvSetup, security.icertsrvsetup
-f1_keywords:
-- casetup/ICertSrvSetup
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetup
+ - casetup/ICertSrvSetup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetup
 ---
 
 # ICertSrvSetup interface
 
 
 ## -description
-
 
 The <b>ICertSrvSetup</b> interface defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a> computer.
 
@@ -67,8 +67,6 @@ In addition, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-
 <li>Delegated enrollment agents are not supported.</li>
 <li>Role separation is not supported.</li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -288,16 +286,9 @@ Gets the string data for additional error information related to a failed CA spe
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

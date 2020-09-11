@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreExA, CreateSemaphoreExW, CreateSemaphoreExW function, base.createsemaphoreex, synchapi/CreateSemaphoreExA, synchapi/CreateSemaphoreExW
-f1_keywords:
-- synchapi/CreateSemaphoreExW
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- CreateSemaphoreExW
-- CreateSemaphoreExA
-- CreateSemaphoreExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateSemaphoreExW
+ - synchapi/CreateSemaphoreExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - CreateSemaphoreExW
+ - CreateSemaphoreExA
+ - CreateSemaphoreExW
 ---
 
 # CreateSemaphoreExW function
@@ -59,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a named or unnamed semaphore object and returns a handle to the object.
 
-
 ## -parameters
-
-
-
 
 ### -param lpSemaphoreAttributes [in, optional]
 
@@ -78,17 +74,14 @@ A pointer to a
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new semaphore. If this parameter is <b>NULL</b>, the semaphore gets a default security descriptor. The ACLs in the default security descriptor for a semaphore come from the primary or impersonation token of the creator.
 
-
 ### -param lInitialCount [in]
 
 The initial count for the semaphore object. This value must be greater than or equal to zero and less than or equal to <i>lMaximumCount</i>. The state of a semaphore is signaled when its count is greater than zero and nonsignaled when it is zero. The count is decreased by one whenever a wait function releases a thread that was waiting for the semaphore. The count is increased by a specified amount by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-releasesemaphore">ReleaseSemaphore</a> function.
 
-
 ### -param lMaximumCount [in]
 
 The maximum count for the semaphore object. This value must be greater than zero.
-
 
 ### -param lpName [in, optional]
 
@@ -106,33 +99,23 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 
 The object can be created in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-
 ### -param dwFlags
 
 This parameter is reserved and must be 0.
-
 
 ### -param dwDesiredAccess [in]
 
 The access mask for the semaphore object. For a list of access rights, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the semaphore object. If the named semaphore object existed before the function call, the function returns a handle to the existing object and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The state of a semaphore object is signaled when its count is greater than zero, and nonsignaled when its count is equal to zero. The <i>lInitialCount</i> parameter specifies the initial count. The count can never be less than zero or greater than the value specified in the <i>lMaximumCount</i> parameter.
 
@@ -153,13 +136,7 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The semaphore object is destroyed when its last handle has been closed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -170,7 +147,4 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

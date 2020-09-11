@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d6ff9240-8f58-4f2e-9298-ff2f0193eeba
 ms.date: 12/05/2018
 ms.keywords: NTMS_CHANGER, NTMS_DRIVE, NTMS_IEDOOR, NTMS_IEPORT., NTMS_LIBRARY, NTMS_OPREQUESTINFORMATION, NTMS_OPREQUESTINFORMATION structure [Files], NTMS_OPREQUESTINFORMATIONA, NTMS_OPREQUESTINFORMATIONW, NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, NTMS_OPSTATE_ACTIVE, NTMS_OPSTATE_COMPLETE, NTMS_OPSTATE_INPROGRESS, NTMS_OPSTATE_REFUSED, NTMS_OPSTATE_SUBMITTED, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_STORAGESLOT, NTMS_UNKNOWN, _NTMS_OPREQUESTINFORMATIONA, _NTMS_OPREQUESTINFORMATIONW, _zaw_ntms_oprequestinformation, base.ntms_oprequestinformation, fs.ntms_oprequestinformation, ntmsapi/NTMS_OPREQUESTINFORMATION
-f1_keywords:
-- ntmsapi/NTMS_OPREQUESTINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_OPREQUESTINFORMATION
-- NTMS_OPREQUESTINFORMATIONA
-- NTMS_OPREQUESTINFORMATIONW
 targetos: Windows
 req.typenames: NTMS_OPREQUESTINFORMATIONA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_OPREQUESTINFORMATIONA
+ - ntmsapi/_NTMS_OPREQUESTINFORMATIONA
+ - NTMS_OPREQUESTINFORMATIONA
+ - ntmsapi/NTMS_OPREQUESTINFORMATIONA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_OPREQUESTINFORMATION
+ - NTMS_OPREQUESTINFORMATIONA
+ - NTMS_OPREQUESTINFORMATIONW
 ---
 
 # NTMS_OPREQUESTINFORMATIONA structure
@@ -51,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_OPREQUESTINFORMATION</b> structure defines the properties specific to operator-request system control for RSM.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Request
 
@@ -125,13 +123,10 @@ An application-specific operator request. Text only.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Submitted
 
 System time when the operator request was submitted.
-
 
 ### -field State
 
@@ -195,13 +190,10 @@ The user has completed the operator service request.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szMessage
 
 Operator message text.
-
 
 ### -field Arg1Type
 
@@ -305,13 +297,10 @@ Library slot object.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Arg1
 
 <b>Arg1</b> object ID used for move requests or other operator requests that require a reference object. The purpose of this object varies based on the type of operator request. For appropriate uses of <b>Arg1</b>, see the <b>Request</b> description.
-
 
 ### -field Arg2Type
 
@@ -345,32 +334,24 @@ Library object.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Arg2
 
 <b>Arg2</b> object ID used for operator requests that require a second reference object. The purpose of this object varies based on the type of operator request. For appropriate uses of <b>Arg2</b>, see the <b>Request</b> description.
 
-
 ### -field szApplication
 
 Application that submitted the operator request.
-
 
 ### -field szUser
 
 Interactive user logged on to the computer that submitted the operator request.
 
-
 ### -field szComputer
 
 Computer that submitted the operator request.
 
-
 ## -remarks
-
-
 
 The 
 <b>NTMS_OPREQUESTINFORMATION</b> structure is included in the 
@@ -385,11 +366,5 @@ The
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
- 
-
- 
 

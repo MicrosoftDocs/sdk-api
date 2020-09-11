@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 188EB248-F056-40F4-8A27-6BEC75F14154
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS structure pointer [Security], SECPKG_EXTRA_OIDS, SECPKG_EXTRA_OIDS structure [Security], ntsecpkg/PSECPKG_EXTRA_OIDS, ntsecpkg/SECPKG_EXTRA_OIDS, security.secpkg_extra_oids'
-f1_keywords:
-- ntsecpkg/SECPKG_EXTRA_OIDS
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecpkg.h
-api_name:
-- SECPKG_EXTRA_OIDS
 targetos: Windows
 req.typenames: SECPKG_EXTRA_OIDS, *PSECPKG_EXTRA_OIDS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SECPKG_EXTRA_OIDS
+ - ntsecpkg/_SECPKG_EXTRA_OIDS
+ - PSECPKG_EXTRA_OIDS
+ - ntsecpkg/PSECPKG_EXTRA_OIDS
+ - SECPKG_EXTRA_OIDS
+ - ntsecpkg/SECPKG_EXTRA_OIDS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SECPKG_EXTRA_OIDS
 ---
 
 # SECPKG_EXTRA_OIDS structure
@@ -49,23 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SECPKG_EXTRA_OIDS</b> structure contains the object identifiers (OIDs) for the extended security package.
 
 This structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OidCount
 
 The total number of OIDs in the security package.
-
 
 ### -field Oids
 

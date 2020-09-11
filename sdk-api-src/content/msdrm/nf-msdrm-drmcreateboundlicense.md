@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 102fa347-47be-4dc7-ba17-3f1ad3735b00
 ms.date: 12/05/2018
 ms.keywords: DRMCreateBoundLicense, DRMCreateBoundLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateBoundLicense, rm.drmcreateboundlicense
-f1_keywords:
-- msdrm/DRMCreateBoundLicense
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMCreateBoundLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMCreateBoundLicense
+ - msdrm/DRMCreateBoundLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMCreateBoundLicense
 ---
 
 # DRMCreateBoundLicense function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,51 +61,35 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMCreateBoundLicense</b> function allows an application to examine or exercise the rights on a locally stored license.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnv [in]
 
 A handle to an environment; the handle is created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drminitenvironment">DRMInitEnvironment</a> function.
 
-
 ### -param pParams [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure that specifies additional options; for more information, see the Remarks section. The principal specified here is the one the application will try to bind to. If you pass in <b>NULL</b> to identify the principal or rights group, the first principal or rights group in the license will be used.
-
 
 ### -param wszLicenseChain [in]
 
 A pointer to a null-terminated Unicode string that contains the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/e-gly">end-user license</a> (or license chain).
 
-
 ### -param phBoundLicense [out]
 
 A pointer to a handle that receives the bound license. The <b>DRMHANDLE</b> passed back through <i>phBoundLicense</i> allows an application to navigate through all the license's objects (such as principals or rights) and attributes (such as maximum play count). A bound license consolidates duplicated rights information in the license and removes any rights information that is not available to the current user.
-
 
 ### -param phErrorLog [out]
 
 This parameter must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Calling this function binds a license to the right or rights specified in the  <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure passed to the <i>pParams</i> parameter. If any right requested cannot be exercised by the current user, the function will fail. Note also that you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetmetadata">DRMSetMetaData</a> and specify a value for the <i>wszContentId</i> parameter before calling this function and that this value must be the same as the ID set in the <b>DRMBOUNDLICENSEPARAMS</b> structure or the function will fail.
 
@@ -135,21 +119,11 @@ The handle returned by this function can be passed into one of the following fun
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: b14c7a62-579b-4a96-b018-c62918c9c35e
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetTimeSpan method, CInstance.GetTimeSpan, CInstance::GetTimeSpan, GetTimeSpan, GetTimeSpan method [Windows Management Instrumentation], GetTimeSpan method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_gettimespan, instance/CInstance::GetTimeSpan, wmi.cinstance_gettimespan
-f1_keywords:
-- instance/CInstance.GetTimeSpan
-dev_langs:
-- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CInstance.GetTimeSpan
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CInstance::GetTimeSpan
+ - instance/CInstance::GetTimeSpan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CInstance.GetTimeSpan
 ---
 
 # CInstance::GetTimeSpan
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,27 +59,17 @@ ms.custom: 19H1
 
 The <b>GetTimeSpan</b> method retrieves a property that represents a WMI time span.
 
-
 ## -parameters
-
-
-
 
 ### -param name
 
 Name of the time span property retrieved.
 
-
 ### -param wbemtimespan [ref]
 
 Buffer to receive the time span property.
 
-
 ## -returns
 
-
-
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if the supplied time span type is not valid for the property being returned or an attempt is made to retrieve a nonexistent property. More information is available in the log file, Framework.log.
-
-
 

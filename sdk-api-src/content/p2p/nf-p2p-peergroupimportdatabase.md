@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 507b2b51-07d1-4e8d-8ec6-6b7398eadcc0
 ms.date: 12/05/2018
 ms.keywords: PeerGroupImportDatabase, PeerGroupImportDatabase function [Peer Networking], p2p.peergroupimportdatabase, p2p/PeerGroupImportDatabase
-f1_keywords:
-- p2p/PeerGroupImportDatabase
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerGroupImportDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGroupImportDatabase
+ - p2p/PeerGroupImportDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerGroupImportDatabase
 ---
 
 # PeerGroupImportDatabase function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGroupImportDatabase</b> function imports a peer group database from a local file.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 Handle to a peer group whose database is imported from a local file. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
-
 ### -param pwzFilePath [in]
 
 Pointer to a Unicode string that contains the absolute file system path and file name where the data is stored, for example, "C:\backup\p2pdb.db". If the file does not exist at this location, an appropriate error from the file system is returned. This parameter is required.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b>  if the operation succeeds. Otherwise, the function returns one of the following values.
 
@@ -119,22 +111,11 @@ The handle to the peer group is invalid.
 
 Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
-
-
-
 ## -remarks
 
-
-
-This function must be called before <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>, and after <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>. 
-
-
-
+This function must be called before <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>, and after <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
 
@@ -153,7 +134,4 @@ This function must be called before <a href="https://docs.microsoft.com/windows/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupexportdatabase">PerrGroupExportDatabase</a>
- 
-
- 
 

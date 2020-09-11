@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 57818d7d-3290-46f7-a3fd-8585cdd64ec3
 ms.date: 12/05/2018
 ms.keywords: IStreamSample, IStreamSample interface [DirectShow], IStreamSample interface [DirectShow],described, IStreamSampleInterface, dshow.istreamsample, mmstream/IStreamSample
-f1_keywords:
-- mmstream/IStreamSample
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamSample
+ - mmstream/IStreamSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IStreamSample
 ---
 
 # IStreamSample interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
@@ -60,9 +59,6 @@ Implement this interface when you implement a media stream for a new media type.
 Use this interface when you want to control data samples created by <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> or its derived interfaces.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <code>IStreamSample</code> interface exposes the following methods.
-
-
-
 
 ## -inheritance
 
@@ -124,5 +120,5 @@ Performs a synchronous or an asynchronous update on the current sample.
 
 </td>
 </tr>
-</table> 
+</table>
 

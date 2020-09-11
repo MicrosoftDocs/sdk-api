@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07
 ms.date: 12/05/2018
 ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], ITSGPolicyEngine interface [Remote Desktop Services],described, termserv.itsgpolicyengine, tsgpolicyengine/ITSGPolicyEngine
-f1_keywords:
-- tsgpolicyengine/ITSGPolicyEngine
-dev_langs:
-- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TSGPolicyEngine.h
-api_name:
-- ITSGPolicyEngine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITSGPolicyEngine
+ - tsgpolicyengine/ITSGPolicyEngine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TSGPolicyEngine.h
+api_name:
+ - ITSGPolicyEngine
 ---
 
 # ITSGPolicyEngine interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that authorize connections and resources. Implement this interface when you want to override the default authorization logic of Remote Desktop Gateway (RD Gateway).
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ This method is reserved.
 
 </td>
 </tr>
-</table> 
+</table>
 

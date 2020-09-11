@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: e384aa43-72ab-44b7-b6bd-7a29335b5197
 ms.date: 12/05/2018
 ms.keywords: IWMPPlugin, IWMPPlugin interface [Windows Media Player], IWMPPlugin interface [Windows Media Player],described, IWMPPluginInterfaceDSP, wmp.iwmpplugin, wmpservices/IWMPPlugin
-f1_keywords:
-- wmpservices/IWMPPlugin
-dev_langs:
-- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmpservices.h
-api_name:
-- IWMPPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlugin
+ - wmpservices/IWMPPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmpservices.h
+api_name:
+ - IWMPPlugin
 ---
 
 # IWMPPlugin interface
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlugin</b> interface is implemented by the plug-in. It manages the connection to Windows Media Player.
 
 <div class="alert"><b>Note</b>  The interface identifier GUID for this interface changed between the beta release and the final release.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -127,16 +124,9 @@ Executes when Windows Media Player releases the pointer provided in <b>AdviseWMP
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/dsp-plug-in-interfaces">DSP Plug-in Interfaces</a>
- 
-
- 
 

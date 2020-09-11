@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: 73b640a4-db78-4cd2-af77-12317899d398
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetTimeout, MI_OperationOptions_SetTimeout function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetTimeout, wmi_v2.mi_operationoptions_settimeout
-f1_keywords:
-- mi/MI_OperationOptions_SetTimeout
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_OperationOptions_SetTimeout
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_OperationOptions_SetTimeout
+ - mi/MI_OperationOptions_SetTimeout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_OperationOptions_SetTimeout
 ---
 
 # MI_OperationOptions_SetTimeout function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the operation timeout for a specific operation.
 
-
 ## -parameters
-
-
-
 
 ### -param options [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
-
 ### -param timeout [in]
 
 A pointer to the new operation timeout value.
 
-
 ## -returns
-
-
 
 A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
-
-
-
 ## -remarks
-
-
 
 This timeout can be set in the destination options by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_settimeout">MI_DestinationOptions_SetTimeout</a> function. However, sometimes one operation may take longer than others. Therefore, it is best to set a reasonable default for all operations, then use this function to override specific operations that may take longer.
 
@@ -105,12 +92,7 @@ This changes the operation behavior so that if a fetch schema suboperation fails
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_settimeout">MI_DestinationOptions_SetTimeout</a>
 
@@ -121,7 +103,4 @@ This changes the operation behavior so that if a fetch schema suboperation fails
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>
- 
-
- 
 

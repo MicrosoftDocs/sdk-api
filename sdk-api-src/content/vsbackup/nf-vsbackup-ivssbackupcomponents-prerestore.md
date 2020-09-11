@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7a4c8869-9655-49a7-818b-98a08103f4b4
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PreRestore method, IVssBackupComponents.PreRestore, IVssBackupComponents::PreRestore, PreRestore, PreRestore method [VSS], PreRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prerestore, base.ivssbackupcomponents_prerestore, vsbackup/IVssBackupComponents::PreRestore
-f1_keywords:
-- vsbackup/IVssBackupComponents.PreRestore
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.PreRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::PreRestore
+ - vsbackup/IVssBackupComponents::PreRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.PreRestore
 ---
 
 # IVssBackupComponents::PreRestore
@@ -50,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PreRestore</b> method will cause VSS to generate a 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
 Doubly indirect pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing status data for the signaled event.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -138,14 +131,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller is responsible for releasing the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer.
@@ -160,20 +147,11 @@ Failure to perform this disk-cleaning step may result in unexpected results duri
 
 For more information about the ASR writer, see <a href="https://docs.microsoft.com/windows/desktop/VSS/in-box-vss-writers">In-Box VSS Writers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 8f97410c-27b5-4225-849e-ee55e4c5f762
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_VERSION, HTTP_VERSION, HTTP_VERSION structure [HTTP], PHTTP_VERSION, PHTTP_VERSION structure pointer [HTTP], _http_http_version, http.http_version, http/HTTP_VERSION, http/PHTTP_VERSION'
-f1_keywords:
-- http/HTTP_VERSION
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_VERSION
 targetos: Windows
 req.typenames: HTTP_VERSION, *PHTTP_VERSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_VERSION
+ - http/_HTTP_VERSION
+ - PHTTP_VERSION
+ - http/PHTTP_VERSION
+ - HTTP_VERSION
+ - http/HTTP_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_VERSION
 ---
 
 # HTTP_VERSION structure
@@ -49,30 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HTTP_VERSION</b> structure defines a version of the HTTP protocol that a request requires or a response provides. This is not to be confused with the version of the HTTP Server API used, which is stored in an 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MajorVersion
 
 Major version of the HTTP protocol.
 
-
 ### -field MinorVersion
 
 Minor version of the HTTP protocol.
 
-
 ## -remarks
-
-
 
 For more information about the HTTP protocol, see 
 <a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616</a>.
@@ -85,19 +81,11 @@ The HTTP Server API provides a number of macros that can be used to evaluate the
 <div class="alert"><b>Note</b>  The HTTP Server API rejects a version of HTTP larger than 65,535 in either the major or minor portion. If a request includes such a version number, the HTTP Server API discards it and returns a response with status 400 ("Bad Request").</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
- 
-
- 
 

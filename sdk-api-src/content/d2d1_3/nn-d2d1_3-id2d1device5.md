@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 3C436C9F-461B-4B18-B537-6724609D825F
 ms.date: 12/05/2018
 ms.keywords: ID2D1Device5, ID2D1Device5 interface [Direct2D], ID2D1Device5 interface [Direct2D],described, d2d1_3/ID2D1Device5, direct2d.id2d1device5
-f1_keywords:
-- d2d1_3/ID2D1Device5
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Device5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Device5
+ - d2d1_3/ID2D1Device5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Device5
 ---
 
 # ID2D1Device5 interface
@@ -49,12 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a resource domain whose objects and device contexts can be used together.
           This interface performs all the same functions as the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device4">ID2D1Device4</a> interface.
           It also enables the creation of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext5">ID2D1DeviceContext5</a> objects.
-        
-
 
 ## -inheritance
 
@@ -80,5 +78,5 @@ Creates a new device context with no initially assigned target.
 
 </td>
 </tr>
-</table> 
+</table>
 

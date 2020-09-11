@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 4B05144B-7766-4AE6-9B9F-C439B4BF0220
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext1 interface [Direct3D 11],PSSetConstantBuffers1 method, ID3D11DeviceContext1.PSSetConstantBuffers1, ID3D11DeviceContext1::PSSetConstantBuffers1, PSSetConstantBuffers1, PSSetConstantBuffers1 method [Direct3D 11], PSSetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, d3d11_1/ID3D11DeviceContext1::PSSetConstantBuffers1, direct3d11.id3d11devicecontext1_pssetconstantbuffers1
-f1_keywords:
-- d3d11_1/ID3D11DeviceContext1.PSSetConstantBuffers1
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext1.PSSetConstantBuffers1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext1::PSSetConstantBuffers1
+ - d3d11_1/ID3D11DeviceContext1::PSSetConstantBuffers1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext1.PSSetConstantBuffers1
 ---
 
 # ID3D11DeviceContext1::PSSetConstantBuffers1
@@ -50,39 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the constant buffers that the pixel shader pipeline stage uses, and enables the shader to access other parts of the buffer.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param StartSlot [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index into the device's zero-based array to begin setting constant buffers to (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT - 1).
-          
-
 
 ### -param NumBuffers [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of buffers to set (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT - <i>StartSlot</i>).
-          
-
 
 ### -param ppConstantBuffers [in, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>*</b>
 
 Array of constant buffers being given to the device.
-          
-
 
 ### -param pFirstConstant [in, optional]
 
@@ -93,8 +82,6 @@ An array that holds the offsets into the buffers that  <i>ppConstantBuffers</i> 
             Each offset is measured in shader constants, which are 16 bytes (4*32-bit components).
             Therefore, an offset of 16 indicates that the start of the associated constant buffer is 256 bytes into the constant buffer.
             Each offset must be a multiple of 16 constants.
-          
-
 
 ### -param pNumConstants [in, optional]
 
@@ -104,12 +91,8 @@ An array that holds the numbers of constants in the buffers that  <i>ppConstantB
             Each number specifies the number of constants that are contained in the constant buffer that the shader uses.
             Each number of constants starts from its respective offset that is specified in the <i>pFirstConstant</i> array.
             Each number of constants must be a multiple of 16 constants, in the range [0..4096].
-          
-
 
 ## -remarks
-
-
 
 To enable the shader to access other parts of the buffer, call
           <b>PSSetConstantBuffers1</b> instead of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetconstantbuffers">PSSetConstantBuffers</a>.
@@ -221,17 +204,7 @@ If you change multiple constant buffers, set the first and last constant buffers
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
- 
-
- 
 

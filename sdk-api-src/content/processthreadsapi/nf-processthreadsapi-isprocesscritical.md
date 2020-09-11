@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
 ms.date: 12/05/2018
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
-f1_keywords:
-- processthreadsapi/IsProcessCritical
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-- API-MS-Win-Core-Processthreads-l1-1-2.dll
-- Kernel32.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- IsProcessCritical
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsProcessCritical
+ - processthreadsapi/IsProcessCritical
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+ - API-MS-Win-Core-Processthreads-l1-1-2.dll
+ - Kernel32.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - IsProcessCritical
 ---
 
 # IsProcessCritical function
@@ -54,41 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the specified process is considered critical.
-
 
 ## -parameters
 
-
-
-
 ### -param hProcess [in]
 
-A handle to the process to query. The process must have been          opened with <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access.  
-
+A handle to the process to query. The process must have been          opened with <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access.
 
 ### -param Critical [out]
 
-A pointer to the <b>BOOL</b> value this function will use to indicate whether the process          is considered critical.  
-
+A pointer to the <b>BOOL</b> value this function will use to indicate whether the process          is considered critical.
 
 ## -returns
 
-
-
 This routine returns FALSE on failure. Any other value indicates success.      Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to query for the specific error reason on failure.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
- 
-
- 
 

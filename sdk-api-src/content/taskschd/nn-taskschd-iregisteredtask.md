@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], IRegisteredTask interface [Task Scheduler],described, taskschd.iregisteredtask, taskschd/IRegisteredTask
-f1_keywords:
-- taskschd/IRegisteredTask
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRegisteredTask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegisteredTask
+ - taskschd/IRegisteredTask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRegisteredTask
 ---
 
 # IRegisteredTask interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the  properties that describe the task.
-
 
 ## -inheritance
 
@@ -300,20 +299,13 @@ Gets the XML-formatted registration information for the registered task.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

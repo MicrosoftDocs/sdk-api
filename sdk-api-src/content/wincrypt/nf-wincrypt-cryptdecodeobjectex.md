@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bf1935f0-1ab0-4068-9ed5-8fbb2c286b8a
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DECODE_ALLOC_FLAG, CRYPT_DECODE_ENABLE_PUNYCODE_FLAG, CRYPT_DECODE_NOCOPY_FLAG, CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_FLAG, CRYPT_DECODE_SHARE_OID_STRING_FLAG, CRYPT_DECODE_TO_BE_SIGNED_FLAG, CRYPT_UNICODE_NAME_DECODE_DISABLE_IE4_UTF8_FLAG, CryptDecodeObjectEx, CryptDecodeObjectEx function [Security], _crypto2_cryptdecodeobjectex, security.cryptdecodeobjectex, wincrypt/CryptDecodeObjectEx
-f1_keywords:
-- wincrypt/CryptDecodeObjectEx
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptDecodeObjectEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptDecodeObjectEx
+ - wincrypt/CryptDecodeObjectEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptDecodeObjectEx
 ---
 
 # CryptDecodeObjectEx function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptDecodeObjectEx</b> function decodes a structure of the type indicated by the <i>lpszStructType</i> parameter. <b>CryptDecodeObjectEx</b> offers a significant performance improvement over 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> by supporting memory allocation with the CRYPT_DECODE_ALLOC_FLAG value.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -81,16 +77,13 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-g
 For more information about object identifier strings, their predefined constants, and corresponding structures, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
-
 ### -param pbEncoded [in]
 
 A pointer to the data to be decoded. The structure must be of the type specified by <i>lpszStructType</i>.
 
-
 ### -param cbEncoded [in]
 
 The number of bytes pointed to by <i>pbEncoded</i>. This is the number of bytes to be decoded.
-
 
 ### -param dwFlags [in]
 
@@ -179,13 +172,10 @@ By default, the signature bytes are reversed. If this flag is set, this byte rev
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pDecodePara [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_decode_para">CRYPT_DECODE_PARA</a> structure that contains decoding paragraph information. If <i>pDecodePara</i> is set to <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> are used to allocate and free memory. If <i>pDecodePara</i> points to a <b>CRYPT_DECODE_PARA</b> structure, that structure passes in callback functions to allocate and free memory. These callback functions override the default memory allocation of <b>LocalAlloc</b> and <b>LocalFree</b>.
-
 
 ### -param pvStructInfo [out]
 
@@ -195,7 +185,6 @@ If CRYPT_ENCODE_ALLOC_FLAG is not set, <i>pvStructInfo</i> is a pointer to a buf
 
 This parameter can be <b>NULL</b> to retrieve the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbStructInfo [in, out]
 
@@ -207,8 +196,6 @@ When CRYPT_DECODE_ALLOC_FLAG is set, the initial value of *<i>pcbStructInfo</i> 
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
@@ -260,12 +247,7 @@ If the buffer specified by the <i>pvStructInfo</i> parameter is not large enough
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 When encoding a cryptographic object using the preferred <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function, the terminating <b>NULL</b> character is included. When decoding, using the preferred <b>CryptDecodeObjectEx</b> function, the terminating <b>NULL</b> character is not retained.
 
@@ -357,12 +339,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a>
 
@@ -377,7 +354,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Object Encoding and Decoding Functions</a>
- 
-
- 
 

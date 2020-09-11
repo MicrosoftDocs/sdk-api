@@ -8,10 +8,6 @@ tech.root: audio
 ms.assetid: 08f1056a-fead-475b-a13a-ee11b9709241
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], IDirectMusicSynth interface [Audio Devices],described, audio.idirectmusicsynth, audmp-routines_ab253bc7-f9a6-4279-99fb-4e5b2693c94b.xml, dmusics/IDirectMusicSynth
-f1_keywords:
-- dmusics/IDirectMusicSynth
-dev_langs:
-- c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusics.h
-api_name:
-- IDirectMusicSynth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectMusicSynth
+ - dmusics/IDirectMusicSynth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusics.h
+api_name:
+ - IDirectMusicSynth
 ---
 
 # IDirectMusicSynth interface
 
 
 ## -description
-
 
 The <code>IDirectMusicSynth</code> interface is used by DirectMusic to communicate with user-mode synthesizers. If you create a custom software synthesizer that runs in user mode, it should have an <code>IDirectMusicSynth</code> interface to plug into DirectMusic. <code>IDirectMusicSynth</code> inherits from the <b>IUnknown</b> interface.
 
@@ -159,3 +159,4 @@ In addition to the methods that <code>IDirectMusicSynth</code> inherits from the
 
 </dd>
 </dl>
+

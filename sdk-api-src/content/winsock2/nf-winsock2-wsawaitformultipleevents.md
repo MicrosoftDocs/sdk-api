@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8
 ms.date: 12/05/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
-f1_keywords:
-- winsock2/WSAWaitForMultipleEvents
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAWaitForMultipleEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAWaitForMultipleEvents
+ - winsock2/WSAWaitForMultipleEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAWaitForMultipleEvents
 ---
 
 # WSAWaitForMultipleEvents function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAWaitForMultipleEvents</b> function returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.
 
-
 ## -parameters
-
-
-
 
 ### -param cEvents [in]
 
 The number of event object handles in the array pointed to by <i>lphEvents</i>. The maximum number of event object handles is <b>WSA_MAXIMUM_WAIT_EVENTS</b>. One or more events must be specified.
-
 
 ### -param lphEvents [in]
 
@@ -71,25 +66,19 @@ If one of these handles is closed while the wait is still pending, the behavior 
 
 The handles must have the <b>SYNCHRONIZE</b> access right.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
-
 ### -param fWaitAll [in]
 
 A value that specifies the wait type. If <b>TRUE</b>, the function returns when the state of all objects in the <i>lphEvents</i> array is signaled. If <b>FALSE</b>, the function returns when any  of the event objects is signaled. In the latter case, the return value minus <b>WSA_WAIT_EVENT_0</b> indicates the index of the event object whose state caused the function to return. If more than one event object became signaled during the call, this is the array index to the signaled event object with the smallest index value of all the signaled event objects.
-
 
 ### -param dwTimeout [in]
 
 The time-out interval, in milliseconds. <b>WSAWaitForMultipleEvents</b> returns if the time-out interval expires, even if conditions specified by the <i>fWaitAll</i> parameter are not satisfied. If the <i>dwTimeout</i> parameter is zero, <b>WSAWaitForMultipleEvents</b> tests the state of the specified event objects and returns immediately. If <i>dwTimeout</i> is <b>WSA_INFINITE</b>, <b>WSAWaitForMultipleEvents</b> waits forever; that is, the time-out interval never expires.
 
-
 ### -param fAlertable [in]
 
 A value that specifies whether the thread is placed in an alertable wait state so the system can execute I/O completion routines. If <b>TRUE</b>, the thread is placed in an alertable wait state and <b>WSAWaitForMultipleEvents</b> can return when the system executes an I/O completion routine. In this case, <b>WSA_WAIT_IO_COMPLETION</b> is returned and the event that was being waited on is not signaled yet. The application must call the <b>WSAWaitForMultipleEvents</b> function again. If <b>FALSE</b>, the thread is not placed in an alertable wait state and I/O completion routines are not executed.
 
-
 ## -returns
-
-
 
 If the 
 <b>WSAWaitForMultipleEvents</b> function succeeds,  the return value upon success is one of the following values.
@@ -170,14 +159,8 @@ If the <b>WSAWaitForMultipleEvents</b> function fails, the return value is <b>WS
 <td>The <i>cEvents</i> parameter does not contain a valid handle count.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WSAWaitForMultipleEvents</b> function determines whether the wait criteria have been met. If the criteria have not been met, the calling thread enters the wait state. It uses no processor time while waiting for the criteria to be met.
 
@@ -411,13 +394,7 @@ int main()
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This   function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>
 
@@ -440,7 +417,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

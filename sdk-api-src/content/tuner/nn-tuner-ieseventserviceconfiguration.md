@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 0b901732-42e1-4f50-904c-75d8202bb5b7
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration, IESEventServiceConfiguration interface [Microsoft TV Technologies], IESEventServiceConfiguration interface [Microsoft TV Technologies],described, mstv.ieseventserviceconfiguration, tuner/IESEventServiceConfiguration
-f1_keywords:
-- tuner/IESEventServiceConfiguration
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESEventServiceConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESEventServiceConfiguration
+ - tuner/IESEventServiceConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESEventServiceConfiguration
 ---
 
 # IESEventServiceConfiguration interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains methods that configure an event service that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> interface. This interface allows you to create your own event service and set it up to receive events from a Protected Broadcast Driver Architecture (PBDA) event service, then pass those events to your event service's clients. 
-
+Contains methods that configure an event service that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> interface. This interface allows you to create your own event service and set it up to receive events from a Protected Broadcast Driver Architecture (PBDA) event service, then pass those events to your event service's clients.
 
 ## -inheritance
 
@@ -127,29 +126,17 @@ Specifies an event service (the parent) that another <a href="https://docs.micro
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESEventServiceConfiguration)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a>
- 
-
- 
 

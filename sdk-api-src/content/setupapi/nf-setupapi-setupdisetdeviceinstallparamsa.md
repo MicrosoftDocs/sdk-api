@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 20384538-e124-41f7-94a6-c0fb9f5fe6a0
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetDeviceInstallParams, SetupDiSetDeviceInstallParams function [Device and Driver Installation], SetupDiSetDeviceInstallParamsA, SetupDiSetDeviceInstallParamsW, devinst.setupdisetdeviceinstallparams, di-rtns_4d977738-ea9e-4bb7-b0a6-37099647b8c8.xml, setupapi/SetupDiSetDeviceInstallParams
-f1_keywords:
-- setupapi/SetupDiSetDeviceInstallParams
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiSetDeviceInstallParams - SetupDiSetDeviceInstallParamsA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiSetDeviceInstallParamsA
+ - setupapi/SetupDiSetDeviceInstallParamsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiSetDeviceInstallParams - SetupDiSetDeviceInstallParamsA
 ---
 
 # SetupDiSetDeviceInstallParamsA function
@@ -50,42 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiSetDeviceInstallParams</b> function sets device installation parameters for a device information set or a particular device information element.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to set device installation parameters.
 
-
 ### -param DeviceInfoData [in, optional]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in <i>DeviceInfoSet</i>. This parameter is optional and can be set to <b>NULL</b>. If this parameter is specified, <b>SetupDiSetDeviceInstallParams</b> sets the installation parameters for the specified device. If this parameter is <b>NULL</b>, <b>SetupDiSetDeviceInstallParams</b> sets the installation parameters that are associated with the global class driver list for <i>DeviceInfoSet</i>.
-
 
 ### -param DeviceInstallParams [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure that contains the new values of the parameters. The <i>DeviceInstallParams.</i><b>cbSize</b> must be set to the size, in bytes, of the structure before this function is called.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 All parameters are validated before any changes are made. Therefore, a return value of <b>FALSE</b> indicates that no parameters were modified.
 
@@ -98,11 +84,5 @@ All parameters are validated before any changes are made. Therefore, a return va
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstallparamsa">SetupDiGetDeviceInstallParams</a>
- 
-
- 
 

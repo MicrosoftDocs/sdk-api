@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: bdd15b6f-2f1e-438a-a2fd-f3fa4df2a9fd
 ms.date: 12/05/2018
 ms.keywords: IDvbContentIdentifierDescriptor, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies], IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentIdentifierDescriptor, mstv.idvbcontentidentifierdescriptor
-f1_keywords:
-- dvbsiparser/IDvbContentIdentifierDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbContentIdentifierDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbContentIdentifierDescriptor
+ - dvbsiparser/IDvbContentIdentifierDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbContentIdentifierDescriptor
 ---
 
 # IDvbContentIdentifierDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get information from a Digital Video Broadcast (DVB) content identifier descriptor.  Content identifier descriptors uniquely identify a unit of content in a DVB broadcast stream. Content identifier descriptors appear in the DVB service information as part of the event information table (EIT), which provides information about the events in each service.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Gets the tag for a DVB content identifier descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

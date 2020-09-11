@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 2438816c-995e-4398-999d-48a3538eec18
 ms.date: 12/05/2018
 ms.keywords: RpcBindingSetAuthInfoEx, RpcBindingSetAuthInfoEx function [RPC], RpcBindingSetAuthInfoExA, RpcBindingSetAuthInfoExW, _rpc_rpcbindingsetauthinfoex, rpc.rpcbindingsetauthinfoex, rpcdce/RpcBindingSetAuthInfoEx, rpcdce/RpcBindingSetAuthInfoExA, rpcdce/RpcBindingSetAuthInfoExW
-f1_keywords:
-- rpcdce/RpcBindingSetAuthInfoEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingSetAuthInfoEx
-- RpcBindingSetAuthInfoExA
-- RpcBindingSetAuthInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingSetAuthInfoExA
+ - rpcdce/RpcBindingSetAuthInfoExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingSetAuthInfoEx
+ - RpcBindingSetAuthInfoExA
+ - RpcBindingSetAuthInfoExW
 ---
 
 # RpcBindingSetAuthInfoExA function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingSetAuthInfoEx</b> function sets a binding handle's authentication, authorization, and security quality-of-service information.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Server binding handle into which authentication and authorization information is set.
-
 
 ### -param ServerPrincName
 
@@ -78,7 +73,6 @@ Pointer to the expected principal name of the server referenced by <i>Binding</i
 Level of authentication to be performed on remote procedure calls made using <i>Binding</i>. For a list of the RPC-supported authentication levels, see 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
 
-
 ### -param AuthnSvc
 
 Authentication service to use.
@@ -86,7 +80,6 @@ Authentication service to use.
 Specify RPC_C_AUTHN_NONE to turn off authentication for remote procedure calls made using <i>Binding</i>.
 
 If RPC_C_AUTHN_DEFAULT is specified, the RPC run-time library uses the RPC_C_AUTHN_WINNT authentication service for remote procedure calls made using <i>Binding</i>.
-
 
 ### -param AuthIdentity
 
@@ -101,18 +94,13 @@ When using the <a href="https://docs.microsoft.com/windows/desktop/Rpc/authentic
 
 Specify a null value to use the security login context for the current address space. Pass the value RPC_C_NO_CREDENTIALS to use an anonymous log-in context. Note that RPC_C_NO_CREDENTIALS is only valid if RPC_C_AUTHN_GSS_SCHANNEL is selected as the authentication service.
 
-
 ### -param AuthzSvc
 
 Authorization service implemented by the server for the interface of interest. The validity and trustworthiness of authorization data, like any application data, depends on the authentication service and authentication level selected. This parameter is ignored when using the RPC_C_AUTHN_WINNT authentication service. See Note.
 
-
 ### -param SecurityQos
 
 TBD
-
-
-
 
 ### -param SecurityQOS
 
@@ -127,8 +115,6 @@ Pointer to the
 <div> </div>
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -186,11 +172,7 @@ Unknown authentication service.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A client application calls the 
 <b>RpcBindingSetAuthInfoEx</b> function to set up a server binding handle for making authenticated remote procedure calls. This function provides the capability to set security quality-of-service information on the binding handle. It is otherwise identical to 
@@ -220,9 +202,6 @@ Due to the varying requirements of different versions of Microsoft RPC, Microsof
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
 
 
@@ -232,7 +211,4 @@ Due to the varying requirements of different versions of Microsoft RPC, Microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>
- 
-
- 
 

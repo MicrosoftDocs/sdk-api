@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 4b84b305-8bc0-4592-9378-b757bbc0de19
 ms.date: 12/05/2018
 ms.keywords: InitializeCriticalSectionAndSpinCount, InitializeCriticalSectionAndSpinCount function, _win32_initializecriticalsectionandspincount, base.initializecriticalsectionandspincount, synchapi/InitializeCriticalSectionAndSpinCount, winbase/InitializeCriticalSectionAndSpinCount
-f1_keywords:
-- synchapi/InitializeCriticalSectionAndSpinCount
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- InitializeCriticalSectionAndSpinCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeCriticalSectionAndSpinCount
+ - synchapi/InitializeCriticalSectionAndSpinCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - InitializeCriticalSectionAndSpinCount
 ---
 
 # InitializeCriticalSectionAndSpinCount function
@@ -55,43 +56,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a critical section object and sets the spin count for the critical section. When a thread tries to acquire a critical section that is locked, the thread <i>spins</i>: it enters a loop which iterates spin count times, checking to see if the lock is released. If the lock is not released before  the loop finishes, the thread goes to sleep to wait for the lock to be released.
 
-
 ## -parameters
-
-
-
 
 ### -param lpCriticalSection [out]
 
 A pointer to the critical section object.
 
-
 ### -param dwSpinCount [in]
 
-The spin count for the critical section object. On single-processor systems, the spin count is ignored and the critical section spin count is set to 0 (zero). On multiprocessor systems, if the critical section is unavailable, the calling thread spins <i>dwSpinCount</i> times before performing a wait operation on a semaphore associated with the critical section. If the critical section becomes free during the spin operation, the calling thread avoids the wait operation. 
-
-
-
-
+The spin count for the critical section object. On single-processor systems, the spin count is ignored and the critical section spin count is set to 0 (zero). On multiprocessor systems, if the critical section is unavailable, the calling thread spins <i>dwSpinCount</i> times before performing a wait operation on a semaphore associated with the critical section. If the critical section becomes free during the spin operation, the calling thread avoids the wait operation.
 
 ## -returns
-
-
 
 This function always succeeds and returns a nonzero value.
 
 <b>Windows Server 2003 and Windows XP:  </b>If the function succeeds, the return value is nonzero. If the function fails, the return value is zero (0). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.  Starting with Windows Vista, the <b>InitializeCriticalSectionAndSpinCount</b> function always succeeds, even in low memory situations.
 
-
-
-
 ## -remarks
-
-
 
 The threads of a single process can use a critical section object for mutual-exclusion synchronization. There is no guarantee about the order that threads obtain ownership of the critical section. However, the system is fair to all threads.
 
@@ -124,12 +108,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/critical-section-objects">Critical Section Objects</a>
 
@@ -156,7 +135,4 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>
- 
-
- 
 

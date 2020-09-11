@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 674798d9-8614-4e3b-8d9b-cf0d307a7cfc
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GET_MAJOR_VERSION, CLUSTER_GET_MAJOR_VERSION macro [Failover Cluster], _wolf_cluster_get_major_version, clusapi/CLUSTER_GET_MAJOR_VERSION, mscs.cluster_get_major_version
-f1_keywords:
-- clusapi/CLUSTER_GET_MAJOR_VERSION
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSTER_GET_MAJOR_VERSION
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_GET_MAJOR_VERSION
+ - clusapi/CLUSTER_GET_MAJOR_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSTER_GET_MAJOR_VERSION
 ---
 
 # CLUSTER_GET_MAJOR_VERSION macro
@@ -49,35 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts the major version portion of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> version number.
 
-
 ## -parameters
-
-
-
 
 ### -param _ver
 
 Cluster service version number.
 
-
 ## -remarks
-
-
 
 Cluster service version numbers are obtained from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodehighestversion">NodeHighestVersion</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodelowestversion">NodeLowestVersion</a> properties as well as the function  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/version-compatibility">Version Compatibility</a>.
 
 In Windows Server 2016 Minor version has been renamed to upgrade version, but the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_get_minor_version">CLUSTER_GET_MINOR_VERSION</a> macro remains for compatibility.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_get_minor_version">CLUSTER_GET_MINOR_VERSION</a>
 
@@ -88,7 +75,4 @@ In Windows Server 2016 Minor version has been renamed to upgrade version, but t
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_make_version">CLUSTER_MAKE_VERSION</a>
- 
-
- 
 

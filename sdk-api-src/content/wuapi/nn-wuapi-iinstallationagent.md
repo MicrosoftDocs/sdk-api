@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: B24B527C-D92B-4BEB-ADCC-5E2BA684A478
 ms.date: 12/05/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], IInstallationAgent interface [Windows Update Agent],described, wua.iinstallationagent, wuapi/IInstallationAgent
-f1_keywords:
-- wuapi/IInstallationAgent
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationAgent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationAgent
+ - wuapi/IInstallationAgent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationAgent
 ---
 
 # IInstallationAgent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Records the result for an update.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Records the result for an update. The result is specified by an <a href="https:/
 
 </td>
 </tr>
-</table> 
+</table>
 

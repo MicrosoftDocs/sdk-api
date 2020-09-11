@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: dfdc00d6-c843-4298-9773-92775406fbf7
 ms.date: 12/05/2018
 ms.keywords: IGestureRecognizer, IGestureRecognizer interface [Tablet PC], IGestureRecognizer interface [Tablet PC],described, dfdc00d6-c843-4298-9773-92775406fbf7, rtscom/IGestureRecognizer, tablet.igesturerecognizer
-f1_keywords:
-- rtscom/IGestureRecognizer
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IGestureRecognizer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGestureRecognizer
+ - rtscom/IGestureRecognizer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IGestureRecognizer
 ---
 
 # IGestureRecognizer interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Reacts to events by recognizing gestures and adding gesture data to the input queue.
-
-
-
 
 ## -inheritance
 
@@ -130,12 +126,9 @@ Gets or sets the maximum number of strokes allowed per gesture recognition.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a>.
 
@@ -143,20 +136,11 @@ The gesture recognizer analyzes digitizer input and injects gesture recognition 
 
 Adding an instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> to multiple <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> instances is not a valid operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 74C006D0-EE13-4518-8ACC-C0CFD44D09A3
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORECEIVEEX
-f1_keywords:
-- mswsock/LPFN_RIORECEIVEEX
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIORECEIVEEX
+ - mswsock/LPFN_RIORECEIVEEX
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIORECEIVEEX
+ - LPFN_RIORECEIVEEX
 ---
 
 ## -description
@@ -111,6 +112,7 @@ A value of **FALSE** indicates the function failed, the operation was not succes
 | <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl>                           | An invalid parameter was passed to the function. <br/> This error is returned if the *SocketQueue* parameter is not valid, the *dwFlags* parameter contains an value not valid for a receive operation, or the integrity of the completion queue has been compromised. This error can also be returned for other issues with parameters.<br/> |
 | <dl> <dt>**[WSAENOBUFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**</dt> </dl>                         | Sufficient memory could not be allocated. This error is returned if the I/O completion queue associated with the *SocketQueue* parameter is full or the I/O completion queue was created with zero receive entries.<br/>                                                                                                                            |
 | <dl> <dt>**[WSA\_OPERATION\_ABORTED](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-operation-aborted)**</dt> </dl> | The operation has been canceled while the receive operation was pending. This error is returned if the socket is closed locally or remotely, or the the SIO\_FLUSH command in [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) is executed.<br/>                                                                                                                      |
+
 ## -remarks
 
 An application can use the **RIOReceiveEx** function to receive network data into any buffer completely contained within a single registered buffer. The **Offset** and **Length** members of the [**RIO\_BUF**](/windows/win32/api/mswsockdef/ns-mswsockdef-rio_buf) structure pointed to by the *pData* parameter determine where the network data is received in the buffer.

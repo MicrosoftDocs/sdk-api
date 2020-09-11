@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74
 ms.date: 12/05/2018
 ms.keywords: '*LPLINGER, *PLINGER, LINGER, _win32_linger_2, linger, linger structure [Winsock], winsock.linger_2, winsock/linger'
-f1_keywords:
-- winsock/linger
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsock.h
-api_name:
-- linger
 targetos: Windows
 req.typenames: LINGER, *PLINGER, *LPLINGER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - linger
+ - winsock/linger
+ - PLINGER
+ - winsock/PLINGER
+ - LINGER
+ - winsock/LINGER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsock.h
+api_name:
+ - linger
 ---
 
 # LINGER structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>linger</b> structure maintains information about a specific socket that specifies how that socket should behave when data is queued to be sent and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> function is called on the socket.
 
-
 ## -struct-fields
-
-
-
 
 ### -field l_onoff
 
@@ -99,8 +99,6 @@ This value is also set if the <a href="https://docs.microsoft.com/windows/deskto
 </td>
 </tr>
 </table>
- 
-
 
 ### -field l_linger
 
@@ -109,12 +107,9 @@ Type: <b>u_short</b>
 The linger time in seconds. This member specifies how long to remain open after a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> function call to enable queued data to be sent.  This member is only applicable if the <b>l_onoff</b> member of the <b>linger</b> structure is set to a nonzero value.
 
-This value is set if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function is called with the <i>optname</i> parameter set to <b>SO_LINGER</b>. The <i>optval</i> parameter passed to the <b>setsockopt</b> function must contain a <b>linger</b> structure that is copied to the internal <b>linger</b> structure maintained for the socket. 
-
+This value is set if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function is called with the <i>optname</i> parameter set to <b>SO_LINGER</b>. The <i>optval</i> parameter passed to the <b>setsockopt</b> function must contain a <b>linger</b> structure that is copied to the internal <b>linger</b> structure maintained for the socket.
 
 ## -remarks
-
-
 
 The <b>l_onoff</b> member of the <b>linger</b> structure determines whether a socket should remain open for a specified amount of time after a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> function call to enable queued data to be sent. Somewhat confusing is that this member can be modified in two ways: <ul>
@@ -133,13 +128,7 @@ Note that enabling a nonzero timeout on a nonblocking socket is not recommended.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function can be called with the <i>optname</i> parameter set to <b>SO_LINGER</b> to retrieve the current value of the <b>linger</b> structure associated with a socket.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/graceful-shutdown-linger-options-and-socket-closure-2">Graceful Shutdown, Linger Options, and Socket Closure</a>
 
@@ -154,7 +143,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-g
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
- 
-
- 
 

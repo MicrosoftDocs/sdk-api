@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: dc1b56f3-ea5f-4df5-b90a-ce24c36aee21
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Remote Desktop Services], ITsSbTaskPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbTaskPluginNotifySink, termserv.itssbtaskpluginnotifysink
-f1_keywords:
-- sbtsv/ITsSbTaskPluginNotifySink
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbTaskPluginNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbTaskPluginNotifySink
+ - sbtsv/ITsSbTaskPluginNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbTaskPluginNotifySink
 ---
 
 # ITsSbTaskPluginNotifySink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that report status and error messages about tasks to Remote Desktop Connection Broker (RD Connection Broker).
-
 
 ## -inheritance
 
@@ -104,20 +103,13 @@ Notifies RD Connection Broker that the status of a task has changed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

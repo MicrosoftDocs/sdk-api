@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 59364b91-d78b-46e2-b298-42f77e712577
 ms.date: 12/05/2018
 ms.keywords: CallbackMayRunLong, CallbackMayRunLong function, base.callbackmayrunlong, threadpoolapiset/CallbackMayRunLong, winbase/CallbackMayRunLong
-f1_keywords:
-- threadpoolapiset/CallbackMayRunLong
-dev_langs:
-- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-threadpool-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CallbackMayRunLong
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CallbackMayRunLong
+ - threadpoolapiset/CallbackMayRunLong
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-threadpool-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CallbackMayRunLong
 ---
 
 # CallbackMayRunLong function
@@ -54,34 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates that the callback may not return quickly.
 
-
 ## -parameters
-
-
-
 
 ### -param pci [in, out]
 
 A pointer to a <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The pointer is passed to the callback function.
 
-
 ## -returns
-
-
 
 The function returns TRUE if another thread in the thread pool is available for processing callbacks or the thread pool was able to create a new thread.  In this case, the current callback function may use the current thread indefinitely.
 
 The function returns FALSE if another thread in the thread pool is not available to process callbacks and the thread pool was not able to create a new thread.  The thread pool will attempt to create a new thread after a delay, but if the current callback function runs long, the thread pool may lose efficiency.
 
-
-
-
 ## -remarks
-
-
 
 The thread pool may use this information to better determine when a new thread should be created.
 
@@ -91,13 +79,7 @@ The <b>CallbackMayRunLong</b> function always marks the callback as long-running
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-disassociatecurrentthreadfromcallback">DisassociateCurrentThreadFromCallback</a>
 
@@ -132,7 +114,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-trysubmitthreadpoolcallback">TrySubmitThreadpoolCallback</a>
- 
-
- 
 

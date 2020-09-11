@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 2B3B97DC-5AA3-470E-8EED-3956B295BB94
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device interface,MakeResident method, ID3D12Device.MakeResident, ID3D12Device::MakeResident, MakeResident, MakeResident method, MakeResident method,ID3D12Device interface, d3d12/ID3D12Device::MakeResident, direct3d12.id3d12device_makeresident
-f1_keywords:
-- d3d12/ID3D12Device.MakeResident
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Device.MakeResident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device::MakeResident
+ - d3d12/ID3D12Device::MakeResident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Device.MakeResident
 ---
 
 # ID3D12Device::MakeResident
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Makes objects resident for the device.
 
-
 ## -parameters
-
-
-
 
 ### -param NumObjects
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of objects  in the <i>ppObjects</i> array to make resident for the device.
-          
-
 
 ### -param ppObjects [in]
 
@@ -76,22 +70,13 @@ A pointer to a memory block that contains an array of <a href="https://docs.micr
 Even though most D3D12 objects inherit from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>, residency changes are only supported on the following objects:
 Descriptor Heaps, Heaps, Committed Resources, and Query Heaps
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
-          
-
-
-
 
 ## -remarks
-
-
 
 <b>MakeResident</b> loads the data associated with a resource from disk, and re-allocates the memory from the resource's appropriate memory pool. This method should be called on the object which owns the physical memory.
 
@@ -112,16 +97,7 @@ Applications must use fences to ensure the GPU doesn't use non-resident objects.
 
 Evicted objects still consume the same GPU virtual address and same amount of GPU virtual address space. Therefore, resource descriptors and other GPU virtual address references are not invalidated after <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-evict">Evict</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: E2343759-FC36-4638-AE91-F6BF6D0BC3BA
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device3.OpenExistingHeapFromAddress, ID3D12Device3::OpenExistingHeapFromAddress, Id3d12device3 interface,OpenExistingHeapFromAddress method, Id3d12device3::OpenExistingHeapFromAddress, OpenExistingHeapFromAddress, OpenExistingHeapFromAddress method, OpenExistingHeapFromAddress method,Id3d12device3 interface, d3d12/Id3d12device3::OpenExistingHeapFromAddress, direct3d12.id3d12device3_openexistingheapfromaddress
-f1_keywords:
-- d3d12/Id3d12device3.OpenExistingHeapFromAddress
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- Id3d12device3.OpenExistingHeapFromAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device3::OpenExistingHeapFromAddress
+ - d3d12/ID3D12Device3::OpenExistingHeapFromAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - Id3d12device3.OpenExistingHeapFromAddress
 ---
 
 ## -description
@@ -87,3 +88,4 @@ Heaps can be used for placed and reserved resources, as orthogonally as other he
 ## -see-also
 
 [ID3D12Device3 interface](/windows/win32/api/d3d12/nn-d3d12-id3d12device3)
+

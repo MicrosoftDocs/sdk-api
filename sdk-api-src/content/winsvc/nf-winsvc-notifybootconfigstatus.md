@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0b2b9cd0-f897-4681-9e99-5d0bed986112
 ms.date: 12/05/2018
 ms.keywords: NotifyBootConfigStatus, NotifyBootConfigStatus function, _win32_notifybootconfigstatus, base.notifybootconfigstatus, winsvc/NotifyBootConfigStatus
-f1_keywords:
-- winsvc/NotifyBootConfigStatus
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-base-bootconfig-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- NotifyBootConfigStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NotifyBootConfigStatus
+ - winsvc/NotifyBootConfigStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-base-bootconfig-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - NotifyBootConfigStatus
 ---
 
 # NotifyBootConfigStatus function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reports the boot status to the service control manager. It is used by boot verification programs. This function can be called only by a process running in the LocalSystem or Administrator's account.
 
-
 ## -parameters
-
-
-
 
 ### -param BootAcceptable [in]
 
 If the value is TRUE, the system saves the configuration as the last-known good configuration. If the value is FALSE, the system immediately reboots, using the previously saved last-known good configuration.
 
-
 ## -returns
-
-
 
 If the <i>BootAcceptable</i> parameter is FALSE, the function does not return.
 
@@ -95,34 +88,19 @@ The user does not have permission to perform this operation. Only the system and
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Saving the configuration of a running system with this function is an acceptable method for saving the last-known good configuration. If the boot configuration is unacceptable, use this function to reboot the system using the existing last-known good configuration.
 
 This function call requires the caller's token to have permission to acquire the SC_MANAGER_MODIFY_BOOT_CONFIG access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/automatically-starting-services">Automatically Starting Services</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
- 
-
- 
 

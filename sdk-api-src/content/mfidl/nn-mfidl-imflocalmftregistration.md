@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: e540a93a-ecce-4c5b-a121-b0f868a2af41
 ms.date: 12/05/2018
 ms.keywords: IMFLocalMFTRegistration, IMFLocalMFTRegistration interface [Media Foundation], IMFLocalMFTRegistration interface [Media Foundation],described, mf.imflocalmftregistration, mfidl/IMFLocalMFTRegistration
-f1_keywords:
-- mfidl/IMFLocalMFTRegistration
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFLocalMFTRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFLocalMFTRegistration
+ - mfidl/IMFLocalMFTRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFLocalMFTRegistration
 ---
 
 # IMFLocalMFTRegistration interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers Media Foundation transforms (MFTs) in the caller's process.
 
 The Media Session exposes this interface as a service. To obtain a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> method on the Media Session with the service identifier <b>MF_LOCAL_MFT_REGISTRATION_SERVICE</b>.
-
 
 ## -inheritance
 
@@ -79,12 +78,9 @@ Registers one or more  MFTs in the caller's process.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface requires the Media Session. If you are not using the Media Session for playback, call one of the following functions instead:
 
@@ -97,15 +93,7 @@ This interface requires the Media Session. If you are not using the Media Sessio
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

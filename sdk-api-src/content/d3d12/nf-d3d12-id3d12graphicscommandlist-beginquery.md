@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 38011ED8-C867-4ECE-880F-3963A17790F7
 ms.date: 12/05/2018
 ms.keywords: BeginQuery, BeginQuery method, BeginQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,BeginQuery method, ID3D12GraphicsCommandList.BeginQuery, ID3D12GraphicsCommandList::BeginQuery, d3d12/ID3D12GraphicsCommandList::BeginQuery, direct3d12.id3d12graphicscommandlist_beginquery
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.BeginQuery
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.BeginQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::BeginQuery
+ - d3d12/ID3D12GraphicsCommandList::BeginQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.BeginQuery
 ---
 
 # ID3D12GraphicsCommandList::BeginQuery
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts a query running.
 
-
 ## -parameters
-
-
-
 
 ### -param pQueryHeap [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a>*</b>
 
 Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a> containing the query.
-          
-
 
 ### -param Type [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a></b>
 
 Specifies one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a>.
-          
-
 
 ### -param Index [in]
 
 Type: <b>UINT</b>
 
 Specifies the index of the query within the query heap.
-          
-
 
 ## -remarks
 
@@ -177,15 +167,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

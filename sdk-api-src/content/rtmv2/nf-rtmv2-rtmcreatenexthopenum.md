@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: d26ce475-ea05-4e84-92da-06df9c386858
 ms.date: 12/05/2018
 ms.keywords: RTM_ENUM_NEXT, RTM_ENUM_RANGE, RTM_ENUM_START, RtmCreateNextHopEnum, RtmCreateNextHopEnum function [RAS], _rtmv2ref_rtmcreatenexthopenum, rras.rtmcreatenexthopenum, rtmv2/RtmCreateNextHopEnum
-f1_keywords:
-- rtmv2/RtmCreateNextHopEnum
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmCreateNextHopEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmCreateNextHopEnum
+ - rtmv2/RtmCreateNextHopEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmCreateNextHopEnum
 ---
 
 # RtmCreateNextHopEnum function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmCreateNextHopEnum</b> enumerates the next hops in the next-hop list.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
 
 ### -param EnumFlags [in]
 
@@ -107,14 +102,11 @@ Enumerate next hops starting at 0/0. Specify <b>NULL</b> for <i>NetAddress</i>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param NetAddress [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a> structure that contains the starting address of the enumeration. Specify <b>NULL</b> if <i>EnumFlags</i> contains RTM_ENUM_START.
-
 
 ### -param RtmEnumHandle [out]
 
@@ -128,10 +120,7 @@ On output, <i>RtmEnumHandle</i> receives a pointer to a handle to the enumeratio
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -170,26 +159,14 @@ There is not enough memory to complete this operation.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 If <i>EnumFlags</i> contains RTM_ENUM_RANGE, use <i>NetAddress</i> to specify the range of the routing table to enumerate. For example, if a client sets <i>NetAddress</i> to 10/8, next hops in the range 10.0.0.0/8 to 10.255.255.255/32 are returned.
 
 When the enumeration handle is no longer required, release it by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
 
@@ -204,7 +181,4 @@ When the enumeration handle is no longer required, release it by calling
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>
- 
-
- 
 

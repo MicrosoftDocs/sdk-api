@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionBaryCentric(XMVECTOR,XMVECTOR,XMVECTOR,float,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionBaryCentric, XMQuaternionBaryCentric, XMQuaternionBaryCentric method [DirectX Math Support APIs], dxmath.xmquaternionbarycentric
-f1_keywords:
-- directxmath/XMQuaternionBaryCentric
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMQuaternionBaryCentric
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMQuaternionBaryCentric
+ - directxmath/XMQuaternionBaryCentric
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMQuaternionBaryCentric
 ---
 
 # XMQuaternionBaryCentric function
@@ -49,52 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a point in barycentric coordinates, using the specified quaternions.
 
-
 ## -parameters
-
-
-
 
 ### -param Q0 [in]
 
 First quaternion in the triangle.
 
-
 ### -param Q1 [in]
 
 Second quaternion in the triangle.
-
 
 ### -param Q2 [in]
 
 Third quaternion in the triangle.
 
-
 ### -param f [in]
 
 Weighting factor. See the remarks.
-
 
 ### -param g [in]
 
 Weighting factor. See the remarks.
 
-
 ## -returns
-
-
 
 Returns a quaternion in barycentric coordinates.
 
-
-
-
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of the function.
 
@@ -148,20 +132,11 @@ inline XMVECTOR XMQuaternionBlend(FXMVECTOR Q0, FXMVECTOR Q1, FXMVECTOR Q2, floa
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionbarycentricv">XMQuaternionBaryCentricV</a>
- 
-
- 
 

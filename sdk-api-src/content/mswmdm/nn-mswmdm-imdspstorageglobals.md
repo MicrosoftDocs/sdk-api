@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 70653352-a467-4197-93e3-e8fb45f99d34
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], IMDSPStorageGlobals interface [windows Media Device Manager],described, IMDSPStorageGlobalsInterface, mswmdm/IMDSPStorageGlobals, wmdm.imdspstorageglobals
-f1_keywords:
-- mswmdm/IMDSPStorageGlobals
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IMDSPStorageGlobals
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorageGlobals
+ - mswmdm/IMDSPStorageGlobals
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IMDSPStorageGlobals
 ---
 
 # IMDSPStorageGlobals interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMDSPStorageGlobals</b> interface, acquired from the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a> interface, provides methods for retrieving global information about a storage medium. This might include the amount of free space, serial number of the medium, and so on.
-
-
-
 
 ## -inheritance
 
@@ -152,20 +148,13 @@ Formats the storage medium.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
- 
-
- 
 

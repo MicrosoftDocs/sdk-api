@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8726F92B-34D5-4696-8803-3D7F50F1006D
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptProtectSecret, NCryptProtectSecret function [Security], ncryptprotect/NCryptProtectSecret, security.ncryptprotectsecret
-f1_keywords:
-- ncryptprotect/NCryptProtectSecret
-dev_langs:
-- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NCrypt.dll
-api_name:
-- NCryptProtectSecret
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptProtectSecret
+ - ncryptprotect/NCryptProtectSecret
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NCrypt.dll
+api_name:
+ - NCryptProtectSecret
 ---
 
 # NCryptProtectSecret function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptProtectSecret</b> function encrypts data to a specified protection descriptor. Call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a> to decrypt the data.
 
-
 ## -parameters
-
-
-
 
 ### -param hDescriptor [in]
 
 Handle of the protection descriptor object. Create the handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>.
-
 
 ### -param dwFlags [in]
 
@@ -83,42 +78,32 @@ Requests that the key service provider not display a user interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbData [in]
 
 Pointer to the byte array to be protected.
 
-
 ### -param cbData [in]
 
 Number of bytes in the binary array specified by the <i>pbData</i> parameter.
-
 
 ### -param pMemPara [in, optional]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/ns-ncrypt-ncrypt_alloc_para">NCRYPT_ALLOC_PARA</a> structure that you can use to specify custom memory management functions. If you set this argument to <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> function is used internally to allocate memory and your application must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release memory pointed to by the <i>ppbProtectedBlob</i> parameter.
 
-
 ### -param hWnd [in, optional]
 
 Handle to the parent window of the user interface, if any, to be displayed.
-
 
 ### -param ppbProtectedBlob [out]
 
 Address of a variable that receives a pointer to the encrypted data.
 
-
 ### -param pcbProtectedBlob [out]
 
 Pointer to a <b>ULONG</b> variable that contains the size, in bytes, of the encrypted data pointed to by the <i>ppbProtectedBlob</i> variable.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function. Possible return codes include, but are not limited to, the following.
 
@@ -174,24 +159,12 @@ The handle specified by the <i>hDescriptor</i> parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <b>NCryptProtectSecret</b> function to protect keys, key material, and passwords. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> functions to encrypt larger messages.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
@@ -202,7 +175,4 @@ Use the <b>NCryptProtectSecret</b> function to protect keys, key material, and p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>
- 
-
- 
 

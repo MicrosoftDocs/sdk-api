@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: d12c12ed-a556-4743-952e-2eb4f58ee0eb
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetDisplayName method, IAudioSessionControl.SetDisplayName, IAudioSessionControl::SetDisplayName, IAudioSessionControlSetDisplayName, SetDisplayName, SetDisplayName method [Core Audio], SetDisplayName method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetDisplayName, coreaudio.iaudiosessioncontrol_setdisplayname
-f1_keywords:
-- audiopolicy/IAudioSessionControl.SetDisplayName
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionControl.SetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionControl::SetDisplayName
+ - audiopolicy/IAudioSessionControl::SetDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionControl.SetDisplayName
 ---
 
 # IAudioSessionControl::SetDisplayName
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetDisplayName</b> method assigns a display name to the current session.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Pointer to a null-terminated, wide-character string that contains the display name for the session.
 
-
 ### -param EventContext [in]
 
 Pointer to the event-context GUID. If a call to this method generates a name-change event, the session manager sends notifications to all clients that have registered <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents</a> interfaces with the session manager. The session manager includes the <i>EventContext</i> pointer value with each notification. Upon receiving a notification, a client can determine whether it or another client is the source of the event by inspecting the <i>EventContext</i> value. This scheme depends on the client selecting a value for this parameter that is unique among all clients in the session. If the caller supplies a <b>NULL</b> pointer for this parameter, the client's notification method receives a <b>NULL</b> context pointer.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -116,14 +105,8 @@ The Windows audio service is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In Windows Vista, the system-supplied program, Sndvol.exe, uses the display name to label the volume control for the session. If the client does not call <b>SetDisplayName</b> to assign a display name to the session, the Sndvol program uses a default, automatically generated name to label the session. The default name incorporates information such as the window title or version resource of the audio application.
 
@@ -135,13 +118,7 @@ The display name does not persist beyond the lifetime of the <a href="https://do
 
 The client can retrieve the display name for the session by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-getdisplayname">IAudioSessionControl::GetDisplayName</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl Interface</a>
 
@@ -152,7 +129,4 @@ The client can retrieve the display name for the session by calling the <a href=
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8a508a2c-1c42-4414-9c54-a78d1e1564a0
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadata interface [VSS],LoadFromXML method, IVssExamineWriterMetadata.LoadFromXML, IVssExamineWriterMetadata::LoadFromXML, LoadFromXML, LoadFromXML method [VSS], LoadFromXML method [VSS],IVssExamineWriterMetadata interface, _win32_ivssexaminewritermetadata_loadfromxml, base.ivssexaminewritermetadata_loadfromxml, vsbackup/IVssExamineWriterMetadata::LoadFromXML
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadata.LoadFromXML
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadata.LoadFromXML
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadata::LoadFromXML
+ - vsbackup/IVssExamineWriterMetadata::LoadFromXML
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadata.LoadFromXML
 ---
 
 # IVssExamineWriterMetadata::LoadFromXML
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>LoadFromXML</b> method loads an XML document that contains a writer's metadata document into an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrXML [in]
 
 String that contains an XML document that represents a writer's metadata document.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -148,34 +141,19 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is used at restore time to load writer metadata that was saved by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml">IVssExamineWriterMetadata::SaveAsXML</a> at the time of the backup operation.
 
 Users should not tamper with this metadata document.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml">IVssExamineWriterMetadata::SaveAsXML</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6StringToAddress, RtlIpv6StringToAddress function [IP Helper], RtlIpv6StringToAddressA, RtlIpv6StringToAddressW, ip2string/RtlIpv6StringToAddress, ip2string/RtlIpv6StringToAddressA, ip2string/RtlIpv6StringToAddressW, iphlp.rtlipv6stringtoaddress
-f1_keywords:
-- ip2string/RtlIpv6StringToAddress
-dev_langs:
-- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlIpv6StringToAddress
-- RtlIpv6StringToAddressA
-- RtlIpv6StringToAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlIpv6StringToAddressA
+ - ip2string/RtlIpv6StringToAddressA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlIpv6StringToAddress
+ - RtlIpv6StringToAddressA
+ - RtlIpv6StringToAddressW
 ---
 
 # RtlIpv6StringToAddressA function
@@ -51,36 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtlIpv6StringToAddress</b> function  converts a string representation of an IPv6 address to a binary IPv6 address.
 
-
-
 ## -parameters
-
-
-
 
 ### -param S [in]
 
-A pointer to a buffer containing the <b>NULL</b>-terminated string representation of the IPv6 address. 
-
+A pointer to a buffer containing the <b>NULL</b>-terminated string representation of the IPv6 address.
 
 ### -param Terminator [out]
 
 A parameter that receives a pointer to the character that terminated
         the converted string. This can be used by the caller to extract more information from the string.
 
-
 ### -param Addr [out]
 
 A pointer where the binary representation of the IPv6 address is to be stored.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>STATUS_SUCCESS</b>.
 
@@ -117,14 +107,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RtlIpv6StringToAddress</b> function is used to convert a string representation of the IPv6 address to an IPv6 address returned in network order (bytes ordered from
     left to right). 
@@ -163,9 +147,6 @@ An import library containing the <b>RtlIpv6StringToAddress</b> function is not i
 > The ip2string.h header defines RtlIpv6StringToAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
 
@@ -224,7 +205,4 @@ An import library containing the <b>RtlIpv6StringToAddress</b> function is not i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
- 
-
- 
 

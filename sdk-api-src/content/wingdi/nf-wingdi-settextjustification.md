@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 55fb5a28-b7da-40d8-8e64-4b42c23fa8b1
 ms.date: 12/05/2018
 ms.keywords: SetTextJustification, SetTextJustification function [Windows GDI], _win32_SetTextJustification, gdi.settextjustification, wingdi/SetTextJustification
-f1_keywords:
-- wingdi/SetTextJustification
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SetTextJustification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetTextJustification
+ - wingdi/SetTextJustification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SetTextJustification
 ---
 
 # SetTextJustification function
@@ -51,44 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetTextJustification</b> function specifies the amount of space the system should add to the break characters in a string of text. The space is added when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param extra [in]
 
 The total extra space, in logical units, to be added to the line of text. If the current mapping mode is not MM_TEXT, the value identified by the <i>nBreakExtra</i> parameter is transformed and rounded to the nearest pixel.
-
 
 ### -param count [in]
 
 The number of break characters in the line.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The break character is usually the space character (ASCII 32), but it may be defined by a font as some other character. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a> function can be used to retrieve a font's break character.
 
@@ -100,13 +86,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-get
 
 Because rounding errors can occur during justification, the system keeps a running error term that defines the current error value. When justifying a line that contains multiple runs, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpointa">GetTextExtentPoint</a> automatically uses this error term when it computes the extent of the next run, allowing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> to blend the error into the new run. After each line has been justified, this error term must be cleared to prevent it from being incorporated into the next line. The term can be cleared by calling <b>SetTextJustification</b> with <i>nBreakExtra</i> set to zero.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
@@ -129,7 +109,4 @@ Because rounding errors can occur during justification, the system keeps a runni
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
- 
-
- 
 

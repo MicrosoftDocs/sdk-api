@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7
 ms.date: 12/05/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
-f1_keywords:
-- oleidl/IOleObject.DoVerb
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.DoVerb
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::DoVerb
+ - oleidl/IOleObject::DoVerb
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.DoVerb
 ---
 
 # IOleObject::DoVerb
@@ -49,48 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests that an object perform an action in response to an end-user's action. The possible actions are enumerated for the object in <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param iVerb [in]
 
 Number assigned to the verb in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>.
 
-
 ### -param lpmsg [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure describing the event (such as a double-click) that invoked the verb. The caller should pass the <b>MSG</b> structure unmodified, without attempting to interpret or alter the values of any of the structure members.
-
 
 ### -param pActiveSite [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface on the object's active client site, where the event occurred that invoked the verb.
 
-
 ### -param lindex [in]
 
 This parameter is reserved and must be zero.
-
 
 ### -param hwndParent [in]
 
 Handle of the document window containing the object. This and <i>lprcPosRect</i> together make it possible to open a temporary window for an object, where <i>hwndParent</i> is the parent window in which the object's window is to be displayed, and <i>lprcPosRect</i> defines the area available for displaying the object window within that parent. A temporary window is useful, for example, to a multimedia object that opens itself for playback but not for editing.
 
-
 ### -param lprcPosRect [in]
 
 Pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates, in pixels, that define an object's bounding rectangle in <i>hwndParent</i>. This and <i>hwndParent</i> together enable opening multimedia objects for playback but not for editing.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -210,14 +198,8 @@ Object does not support in-place activation or does not recognize a negative ver
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A "verb" is an action that an OLE object takes in response to a message from its container. An object's container, or a client linked to the object, normally calls <b>IOleObject::DoVerb</b> in response to some end-user action, such as double-clicking on the object. The various actions that are available for a given object are enumerated in an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a> structure, which the container obtains by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>. <b>IOleObject::DoVerb</b> matches the value of iVerb against the iVerb member of the structure to determine which verb to invoke.
 
@@ -325,13 +307,7 @@ If the verb being executed places the object in the running state, you should re
 <div> </div>
 When showing a window as a result of <b>IOleObject::DoVerb</b>, it is very important for the object to explicitly call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> on its editing window. This ensures that the object's window will be visible to the user even if another process originally obscured it. For more information see <b>SetForegroundWindow</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setactivewindow">SetActiveWindow</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-getrunningobjecttable">GetRunningObjectTable</a>
 
@@ -370,7 +346,4 @@ When showing a window as a result of <b>IOleObject::DoVerb</b>, it is very impor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\draw.htm
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Windows Controls], Draw method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Draw method, IImageList.Draw, IImageList::Draw, comctl_IImageList_Draw, comctl_IImageList_Draw_cpp, commoncontrols/IImageList::Draw, controls.IImageList_Draw, controls.comctl_IImageList_Draw
-f1_keywords:
-- commoncontrols/IImageList.Draw
-dev_langs:
-- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Comctl32.dll
-api_name:
-- IImageList.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageList::Draw
+ - commoncontrols/IImageList::Draw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Comctl32.dll
+api_name:
+ - IImageList.Draw
 ---
 
 # IImageList::Draw
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draws an image list item in the specified device context.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param pimldp [in]
 
@@ -65,26 +60,16 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/
 
 A pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure that contains the  drawing parameters.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Overlay images draw transparently over the primary image specified in the <b>i</b> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a>. You specify an overlay image in the <b>fStyle</b>, parameter of <b>IMAGELISTDRAWPARAMS</b> using the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to combine the macro's return value with the drawing style flags specified in <b>fStyle</b>. You must first specify this image as an overlay image by using <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-setoverlayimage">IImageList::SetOverlayImage</a>. 
 		
 
-To use <b>IImageList::Draw</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
+To use <b>IImageList::Draw</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 

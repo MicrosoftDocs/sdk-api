@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 8eaacfac-fc37-4eaa-870b-10b99d598d66
 ms.date: 12/05/2018
 ms.keywords: SetErrorInfo, SetErrorInfo function [Automation], _oa96_SetErrorInfo, automat.seterrorinfo, oleauto/SetErrorInfo
-f1_keywords:
-- oleauto/SetErrorInfo
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-- API-MS-Win-Downlevel-OLE32-l1-1-1.dll
-- ComBase.dll
-api_name:
-- SetErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetErrorInfo
+ - oleauto/SetErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+ - API-MS-Win-Downlevel-OLE32-l1-1-1.dll
+ - ComBase.dll
+api_name:
+ - SetErrorInfo
 ---
 
 # SetErrorInfo function
@@ -51,37 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the error information object for the current logical thread of execution.
 
-
 ## -parameters
-
-
-
 
 ### -param dwReserved [in]
 
 Reserved for future use. Must be zero.
 
-
 ### -param perrinfo [in, optional]
 
 An error object.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function releases the existing error information object, if one exists, and sets the pointer to <i>perrinfo</i>. Use this function after creating an error object that associates the object with the current logical thread of execution.
 
@@ -124,7 +111,4 @@ if (SUCCEEDED(hr))
 }
 
 ```
-
-
-
 

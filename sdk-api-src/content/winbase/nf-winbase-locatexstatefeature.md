@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 7AAEA13B-E4A4-4410-BFC7-09B81B92FF26
 ms.date: 12/05/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
-f1_keywords:
-- winbase/LocateXStateFeature
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Xstate-l2-1-0.dll
-- KernelBase.dll
-api_name:
-- LocateXStateFeature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LocateXStateFeature
+ - winbase/LocateXStateFeature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Xstate-l2-1-0.dll
+ - KernelBase.dll
+api_name:
+ - LocateXStateFeature
 ---
 
 # LocateXStateFeature function
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to the processor state for an XState feature within a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 The definition of XState feature bits are processor vendor specific. Please refer to the relevant processor 
     reference manuals for additional information on a particular feature.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
@@ -72,22 +68,17 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
       <b>CONTEXT_XSTATE</b> flag set in the <i>ContextFlags</i> 
       parameter.
 
-
 ### -param FeatureId [in]
 
 The number of the feature to locate within the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
-
 
 ### -param Length [out, optional]
 
 A pointer to a variable which receives the length of the feature area in bytes. The contents of this 
       variable are undefined if this function returns <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the specified feature is supported by the system and the specified 
        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure has been initialized with the 
@@ -99,12 +90,7 @@ If the <b>CONTEXT_XSTATE</b> flag is not set in the
        <i>FeatureID</i> is not supported by the system, the return value is 
        <b>NULL</b>. No additional error information is available.
 
-
-
-
 ## -remarks
-
-
 
 The <b>LocateXStateFeature</b> function must be used 
     to find an individual XState feature within an extensible 
@@ -137,15 +123,7 @@ If you are setting XState on a thread via the
        <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
@@ -168,7 +146,4 @@ If you are setting XState on a thread via the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
- 
-
- 
 

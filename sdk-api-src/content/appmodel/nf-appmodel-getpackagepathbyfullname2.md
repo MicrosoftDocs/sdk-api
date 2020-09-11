@@ -6,10 +6,6 @@ helpviewer_keywords: ["GetPackagePathByFullName2"]
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetPackagePathByFullName2
-f1_keywords:
-- appmodel/GetPackagePathByFullName2
-dev_langs:
-- c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -29,19 +25,25 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- 
-api_location:
-- appmodel.h
-api_name:
-- GetPackagePathByFullName2
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - GetPackagePathByFullName2
+ - appmodel/GetPackagePathByFullName2
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - appmodel.h
+api_name:
+ - GetPackagePathByFullName2
 ---
 
 # GetPackagePathByFullName2 function
+
 
 ## -description
 
@@ -106,3 +108,4 @@ The *packagePathType* parameter is useful for applications that use the [windows
 ## -see-also
 
 [GetPackagePathByFullName](nf-appmodel-getpackagepathbyfullname.md)
+

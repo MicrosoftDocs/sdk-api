@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: bc08e800-d58f-46d7-ba04-83a9f9144b0f
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTOPROXY_AUTO_DETECT, WINHTTP_AUTOPROXY_CONFIG_URL, WINHTTP_AUTOPROXY_NO_CACHE_CLIENT, WINHTTP_AUTOPROXY_NO_CACHE_SVC, WINHTTP_AUTOPROXY_NO_DIRECTACCESS, WINHTTP_AUTOPROXY_OPTIONS, WINHTTP_AUTOPROXY_OPTIONS structure [HTTP], WINHTTP_AUTOPROXY_RUN_INPROCESS, WINHTTP_AUTOPROXY_RUN_OUTPROCESS_ONLY, WINHTTP_AUTOPROXY_SORT_RESULTS, WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, http.winhttp_autoproxy_options, winhttp/WINHTTP_AUTOPROXY_OPTIONS
-f1_keywords:
-- winhttp/WINHTTP_AUTOPROXY_OPTIONS
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winhttp.h
-api_name:
-- WINHTTP_AUTOPROXY_OPTIONS
 targetos: Windows
 req.typenames: WINHTTP_AUTOPROXY_OPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WINHTTP_AUTOPROXY_OPTIONS
+ - winhttp/WINHTTP_AUTOPROXY_OPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winhttp.h
+api_name:
+ - WINHTTP_AUTOPROXY_OPTIONS
 ---
 
 ## -description
@@ -260,3 +261,4 @@ If this flag is TRUE, credentials should automatically be sent in response to an
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
+

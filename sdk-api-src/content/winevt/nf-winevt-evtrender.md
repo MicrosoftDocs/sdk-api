@@ -8,10 +8,6 @@ tech.root: wes
 ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76
 ms.date: 12/05/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
-f1_keywords:
-- winevt/EvtRender
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-- Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
-- Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
-- Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
-api_name:
-- EvtRender
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtRender
+ - winevt/EvtRender
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+api_name:
+ - EvtRender
 ---
 
 # EvtRender function
@@ -52,34 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Renders an XML fragment based on the rendering context that you specify.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 A handle to the rendering context that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a> function returns. This parameter must be set to <b>NULL</b> if the <i>Flags</i> parameter is set to EvtRenderEventXml or EvtRenderBookmark.
 
-
 ### -param Fragment [in]
 
 A handle to an event or to a bookmark. Set this parameter to a bookmark handle if the <i>Flags</i> parameter is set to EvtRenderBookmark; otherwise, set to an event handle.
-
 
 ### -param Flags [in]
 
 A flag that identifies what to render. For example, the entire event or specific properties of the event. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_render_flags">EVT_RENDER_FLAGS</a> enumeration.
 
-
 ### -param BufferSize [in]
 
 The size of the <i>Buffer</i> buffer, in bytes.
-
 
 ### -param Buffer [in]
 
@@ -87,20 +79,15 @@ A caller-allocated buffer that will receive the rendered output. The contents is
 
  You can set this parameter to <b>NULL</b> to determine the required buffer size.
 
-
 ### -param BufferUsed [out]
 
 The size, in bytes, of the caller-allocated buffer that the function used or the required buffer size if the function fails with ERROR_INSUFFICIENT_BUFFER.
-
 
 ### -param PropertyCount [out]
 
 The number of the properties in the <i>Buffer</i> parameter if the <i>Flags</i> parameter is set to EvtRenderEventValues; otherwise, zero.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -132,14 +119,8 @@ The function failed. Call the <a href="https://docs.microsoft.com/windows/deskto
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  There is a one-to-one relationship between the array of XPath expressions that you specified when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a> function and  the array the values returned in the buffer.
 
@@ -154,15 +135,7 @@ For an example that shows how to use this function, see <a href="https://docs.mi
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a>
- 
-
- 
 

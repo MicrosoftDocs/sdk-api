@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateProviderFilters, TdhEnumerateProviderFilters function [ETW], etw.tdhenumerateproviderfilters, tdh/TdhEnumerateProviderFilters
-f1_keywords:
-- tdh/TdhEnumerateProviderFilters
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
-api_name:
-- TdhEnumerateProviderFilters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhEnumerateProviderFilters
+ - tdh/TdhEnumerateProviderFilters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+api_name:
+ - TdhEnumerateProviderFilters
 ---
 
 # TdhEnumerateProviderFilters function
@@ -50,48 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TdhEnumerateProviderFilters</b> function enumerates the filters that the specified provider defined in the manifest.
 
-
 ## -parameters
-
-
-
 
 ### -param Guid [in]
 
 GUID that identifies the provider whose filters you want to retrieve.
 
-
 ### -param TdhContextCount [in]
 
 Not used.
-
 
 ### -param TdhContext [in, optional]
 
 Not used.
 
-
 ### -param FilterCount [in]
 
 The number of filter structures that the <i>pBuffer</i> buffer contains. Is zero if the <i>pBuffer</i> buffer is insufficient.
-
 
 ### -param Buffer [out, optional]
 
 User-allocated buffer to receive the filter information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
 
-
 ### -param BufferSize [in, out]
 
 Size, in bytes, of the <i>pBuffer</i> buffer. If the function succeeds, this parameter receives the size of the buffer used. If the buffer is too small, the function returns ERROR_INSUFFICIENT_BUFFER and sets this parameter to the required buffer size. If the buffer size is zero on input, no data is returned in the buffer and this parameter receives the required buffer size.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
@@ -145,16 +133,8 @@ The <b>resourceFileName</b> attribute in the manifest contains the location of t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function uses the XML manifest to retrieve the information.
-
-
 

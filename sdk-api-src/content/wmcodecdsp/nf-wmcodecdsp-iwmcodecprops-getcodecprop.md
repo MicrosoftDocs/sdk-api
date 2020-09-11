@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 380c0beb-47a7-46e2-bf5a-cf901d7e0719
 ms.date: 12/05/2018
 ms.keywords: GetCodecProp, GetCodecProp method [Media Foundation], GetCodecProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetCodecProp method, IWMCodecProps.GetCodecProp, IWMCodecProps::GetCodecProp, codecapi.iwmcodecpropsgetcodecprop, g_wszWMCPCodecName, g_wszWMCPSupportedVBRModes, mf.iwmcodecpropsgetcodecprop, wmcodecdsp/IWMCodecProps::GetCodecProp
-f1_keywords:
-- wmcodecdsp/IWMCodecProps.GetCodecProp
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMCodecProps.GetCodecProp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecProps::GetCodecProp
+ - wmcodecdsp/IWMCodecProps::GetCodecProp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMCodecProps.GetCodecProp
 ---
 
 # IWMCodecProps::GetCodecProp
@@ -49,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a codec property specific to an output format.
 
-
-
 ## -parameters
-
-
-
 
 ### -param dwFormat [in]
 
 The output format to which the property applies. Set this value to the FOURCC value of the desired video format.
-
 
 ### -param pszName [in]
 
@@ -101,27 +95,20 @@ Retrieves the encoding modes supported by the codec. The value returned contains
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pType [out]
 
 Address of a variable that receives the data type of the property value.
 
-
 ### -param pValue [out]
 
 Address of the byte buffer that receives the property value.
-
 
 ### -param pdwSize [in, out]
 
 Pointer to the size of the value buffer, in bytes. If pValue is <b>NULL</b>, the method will set this value to the size required.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -142,18 +129,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps Interface</a>
- 
-
- 
 

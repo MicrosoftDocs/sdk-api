@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 74b2bb04-6118-4fd1-83c0-3549db3f35f3
 ms.date: 12/05/2018
 ms.keywords: GPMAsyncCancel, IGPMAsyncCancel, IGPMAsyncCancel interface [GPMC], IGPMAsyncCancel interface [GPMC],described, _win32_igpmasynccancel, gpmc.igpmasynccancel, gpmgmt/IGPMAsyncCancel
-f1_keywords:
-- gpmgmt/IGPMAsyncCancel
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMAsyncCancel
-- GPMAsyncCancel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMAsyncCancel
+ - gpmgmt/IGPMAsyncCancel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMAsyncCancel
+ - GPMAsyncCancel
 ---
 
 # IGPMAsyncCancel interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 A pointer to the 
 <b>IGPMAsyncCancel</b> interface is returned to the client by the Group Policy Management Console (GPMC) method that the client calls asynchronously. GPMC operations such as backup, restore, import, copy, and report generation can execute asynchronously. This object cannot be accessed through scripting.
-
 
 ## -inheritance
 
@@ -79,12 +78,9 @@ A client application calls this function to cancel a GPMC operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 GPMC operations such as backup, restore, import, copy, and report generation can execute asynchronously. For more information about how to use this interface with asynchronous operations, see the "Remarks" section of 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasyncprogress">IGPMAsyncProgress Interface</a>. The server calls 
@@ -92,20 +88,11 @@ the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gp
 <b>Status</b> method also returns an interface pointer to the resultant object, for example, to a <b>GPMGPO</b> or to a <b>GPMBackup</b> object. The caller can then cancel the operation by calling the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmasynccancel-cancel">IGPMAsyncCancel::Cancel</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasyncprogress">IGPMAsyncProgress</a>
- 
-
- 
 

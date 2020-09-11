@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: c92a62b0-6c78-43cd-8b14-201f872c27fa
 ms.date: 12/05/2018
 ms.keywords: JabColorF, JabColorF structure [Windows Color System], wcs.jabcolorf, wcsplugin/JChColorF
-f1_keywords:
-- wcsplugin/JabColorF
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- JabColorF
 targetos: Windows
 req.typenames: JabColorF
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _JabColorF
+ - wcsplugin/_JabColorF
+ - JabColorF
+ - wcsplugin/JabColorF
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+ - 
+api_name:
+ - JabColorF
 ---
 
 # JabColorF structure
@@ -48,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -struct-fields
-
-
-
 
 ### -field J
 
 TBD
 
-
 ### -field a
 
 TBD
-
 
 ### -field b
 

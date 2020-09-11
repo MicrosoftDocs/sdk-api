@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: c8e88b36-fb40-4550-bef0-16d92f2bdd2a
 ms.date: 12/05/2018
 ms.keywords: IWMPAudioRenderConfig interface [Windows Media Player],put_audioOutputDevice method, IWMPAudioRenderConfig.put_audioOutputDevice, IWMPAudioRenderConfig::put_audioOutputDevice, put_audioOutputDevice, put_audioOutputDevice method [Windows Media Player], put_audioOutputDevice method [Windows Media Player],IWMPAudioRenderConfig interface, wmp.iwmpaudiorenderconfig_put_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::put_audioOutputDevice
-f1_keywords:
-- wmprealestate/IWMPAudioRenderConfig.put_audioOutputDevice
-dev_langs:
-- c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPAudioRenderConfig.put_audioOutputDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPAudioRenderConfig::put_audioOutputDevice
+ - wmprealestate/IWMPAudioRenderConfig::put_audioOutputDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPAudioRenderConfig.put_audioOutputDevice
 ---
 
 # IWMPAudioRenderConfig::put_audioOutputDevice
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>put_audioOutputDevice</b> sets the current audio output device for the Windows Media Player ActiveX control.  
-
+The <b>put_audioOutputDevice</b> sets the current audio output device for the Windows Media Player ActiveX control.
 
 ## -parameters
-
-
-
 
 ### -param bstrOutputDevice
 
 An MMDeviceAPI device ID that represents the device. If you pass <b>NULL</b> or an empty <b>BSTR</b> to this method, the Windows Media Player ActiveX control reverts to the default audio output device.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,24 +79,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method validates that the endpoint specified in <i>bstrOutputDevice</i> is a valid MMDeviceAPI device identifier string for an audio output endpoint. If it is not a valid identifier, the method fails.  This method does not check to ensure that the specified endpoint is active.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">About MMDevice API</a>
 
@@ -114,7 +95,4 @@ This method validates that the endpoint specified in <i>bstrOutputDevice</i> is 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig">IWMPAudioRenderConfig</a>
- 
-
- 
 

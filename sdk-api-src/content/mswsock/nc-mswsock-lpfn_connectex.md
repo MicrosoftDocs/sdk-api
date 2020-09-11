@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: a4552366-eafa-4f24-b6c2-e6a7edc4b021
 ms.date: 12/05/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
-f1_keywords:
-- mswsock/LPFN_CONNECTEX
-dev_langs:
-- c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mswsock.h
-api_name:
-- LPFN_CONNECTEX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPFN_CONNECTEX
+ - mswsock/LPFN_CONNECTEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mswsock.h
+api_name:
+ - LPFN_CONNECTEX
 ---
 
 # LPFN_CONNECTEX callback function
@@ -49,59 +50,44 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ConnectEx</b> function establishes a connection to a specified socket, and optionally sends data once the connection is established. The 
 <b>ConnectEx</b> function is only supported on connection-oriented sockets. <div class="alert"><b>Note</b>  This function is a Microsoft-specific extension to the Windows Sockets specification.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor that identifies an unconnected, previously bound socket. See Remarks for more information.
-
 
 ### -param *name [in]
 
 A pointer to  
 a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that specifies the address to which to connect. For  IPv4, the <b>sockaddr</b> contains <b>AF_INET</b> for the address family, the destination IPv4 address, and the destination port. For  IPv6, the <b>sockaddr</b> structure contains <b>AF_INET6</b> for the address family, the destination IPv6 address, the destination port, and may contain additional IPv6 flow and scope-id information.
 
-
 ### -param namelen [in]
 
 The length, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure pointed to by the <i>name</i> parameter.
-
 
 ### -param lpSendBuffer [in, optional]
 
 A pointer to the buffer to be transferred after a connection is established. This parameter is optional. If the TCP_FASTOPEN option is enabled  on <i>s</i> before <b>ConnectEx</b> is called, then some of this data may be sent during connection establishment.
 
-
 ### -param dwSendDataLength [in]
 
-The length, in bytes, of data pointed to by the <i>lpSendBuffer</i> parameter. This parameter is ignored when the <i>lpSendBuffer</i> parameter is <b>NULL</b>. 
-
+The length, in bytes, of data pointed to by the <i>lpSendBuffer</i> parameter. This parameter is ignored when the <i>lpSendBuffer</i> parameter is <b>NULL</b>.
 
 ### -param lpdwBytesSent [out]
 
 On successful return, this parameter points to a <b>DWORD</b> value that indicates the number of bytes that were sent after the connection was established. The bytes sent are from the buffer pointed to by the <i>lpSendBuffer</i> parameter. This parameter is ignored when the <i>lpSendBuffer</i> parameter is <b>NULL</b>.
-
 
 ### -param lpOverlapped [in]
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure used to process the request. The <i>lpOverlapped</i> parameter must be specified, and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 On success,  the <b>ConnectEx</b> function returns <b>TRUE</b>. On failure, the function returns <b>FALSE</b>. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function to get extended error information. If a call to the 
@@ -292,14 +278,8 @@ The attempt to connect timed out without establishing a connection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>ConnectEx</b> function combines several socket functions into a single API/kernel transition. The following operations are performed when a call to the 
@@ -459,13 +439,7 @@ This registry setting can be set from 0 to 300 seconds.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>
 
@@ -576,7 +550,4 @@ This registry setting can be set from 0 to 300 seconds.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

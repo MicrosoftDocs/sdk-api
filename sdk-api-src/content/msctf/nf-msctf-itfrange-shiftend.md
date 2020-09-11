@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1debec6d-f98f-45a4-aaa8-99b61f3583ef
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftEnd method, ITfRange.ShiftEnd, ITfRange::ShiftEnd, ShiftEnd, ShiftEnd method [Text Services Framework], ShiftEnd method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftend_ref, msctf/ITfRange::ShiftEnd, tsf.itfrange_shiftend
-f1_keywords:
-- msctf/ITfRange.ShiftEnd
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.ShiftEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::ShiftEnd
+ - msctf/ITfRange::ShiftEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.ShiftEnd
 ---
 
 # ITfRange::ShiftEnd
@@ -53,32 +54,23 @@ Moves the end anchor of the range.
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
 Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
 
 ### -param cchReq [in]
 
 Contains the number of characters that the end anchor is shifted. A negative value causes the anchor to move backward and a positive value causes the anchor to move forward.
 
-
 ### -param pcch [out]
 
 Pointer to a <b>LONG</b> value that receives the number of characters the anchor shifted.
-
 
 ### -param pHalt [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND</a> structure that contains conditions on the shift. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -132,14 +124,8 @@ The edit context identified by <i>ec</i> does not have a read-only lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The start and end positions of a range are called anchors.
 
@@ -149,13 +135,7 @@ If the shift operation causes the range end anchor to move past the start anchor
 
 ITfRange::ShiftEnd can be a lengthy operation. For better performance, use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstarttorange">ITfRange::ShiftEndToRange</a> when possible.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
@@ -183,7 +163,4 @@ ITfRange::ShiftEnd can be a lengthy operation. For better performance, use <a hr
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND
       </a>
- 
-
- 
 

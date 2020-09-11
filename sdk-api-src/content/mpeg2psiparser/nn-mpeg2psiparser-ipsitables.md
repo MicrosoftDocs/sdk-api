@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6f07b4d2-7a52-448c-9e9f-729bd5261757
 ms.date: 12/05/2018
 ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSITables interface [Microsoft TV Technologies],described, mpeg2psiparser/IPSITables, mstv.ipsitables
-f1_keywords:
-- mpeg2psiparser/IPSITables
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2PsiParser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mpeg2psiparser.h
-api_name:
-- IPSITables
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSITables
+ - mpeg2psiparser/IPSITables
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mpeg2psiparser.h
+api_name:
+ - IPSITables
 ---
 
 # IPSITables interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an MPEG-2 program specific information (PSI) table from an MPEG-2 transport stream.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> (TIF) implements this interface.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Gets an MPEG-2 PSI table from an MPEG-2 transport stream.
 
 </td>
 </tr>
-</table> 
+</table>
 

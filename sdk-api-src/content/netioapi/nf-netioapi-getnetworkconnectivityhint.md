@@ -8,8 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: GetNetworkConnectivityHint, GetNetworkConnectivityHint function [IP Helper], netioapi.GetNetworkConnectivityHint, netioapi/GetNetworkConnectivityHint
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetNetworkConnectivityHint"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -27,6 +25,12 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+f1_keywords:
+ - GetNetworkConnectivityHint
+ - netioapi/GetNetworkConnectivityHint
 topic_type:
  - APIRef
  - kbSyntax
@@ -36,9 +40,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - GetNetworkConnectivityHint
-targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 ## -description
@@ -58,3 +59,4 @@ In user mode, returns **NO_ERROR** on success, and an error code on failure. In 
 ## -remarks
 
 ## -see-also
+

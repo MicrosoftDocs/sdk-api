@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: E69F1D09-B937-4BCC-A040-18EF8A838289
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], ISpatialAudioObjectForHrtf interface [Core Audio],described, coreaudio.ispatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectForHrtf
-f1_keywords:
-- spatialaudiohrtf/ISpatialAudioObjectForHrtf
-dev_langs:
-- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudiohrtf.h
-api_name:
-- ISpatialAudioObjectForHrtf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioObjectForHrtf
+ - spatialaudiohrtf/ISpatialAudioObjectForHrtf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudiohrtf.h
+api_name:
+ - ISpatialAudioObjectForHrtf
 ---
 
 # ISpatialAudioObjectForHrtf interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an object that provides audio data to  be  rendered from a position in 3D space, relative to the user, a head-relative transfer function (HRTF). Spatial audio objects can be static or dynamic, which you specify with the <i>type</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf-activatespatialaudioobjectforhrtf">ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf</a>   method. Dynamic audio objects can be placed in an arbitrary position in space and can be moved over time. Static audio objects are assigned to one or more channels, defined in the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a> enumeration, that each correlate to a fixed speaker location that may be a physical or a virtualized speaker
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
-
 
 ## -inheritance
 
@@ -124,25 +123,14 @@ Sets the position in 3D space, relative to the listener, from which the <b>ISpat
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
- 
-
- 
 

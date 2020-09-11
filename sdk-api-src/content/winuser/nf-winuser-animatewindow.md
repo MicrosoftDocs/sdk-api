@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\animatewindow.htm
 ms.date: 12/05/2018
 ms.keywords: AW_ACTIVATE, AW_BLEND, AW_CENTER, AW_HIDE, AW_HOR_NEGATIVE, AW_HOR_POSITIVE, AW_SLIDE, AW_VER_NEGATIVE, AW_VER_POSITIVE, AnimateWindow, AnimateWindow function [Windows and Messages], _win32_AnimateWindow, _win32_animatewindow_cpp, winmsg.animatewindow, winui._win32_animatewindow, winuser/AnimateWindow
-f1_keywords:
-- winuser/AnimateWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- AnimateWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AnimateWindow
+ - winuser/AnimateWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - AnimateWindow
 ---
 
 # AnimateWindow function
@@ -54,28 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables you to produce special effects when showing or hiding windows. There are four types of animation: roll, slide, collapse or expand, and alpha-blended fade. 
-
+Enables you to produce special effects when showing or hiding windows. There are four types of animation: roll, slide, collapse or expand, and alpha-blended fade.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window to animate. The calling thread must own this window. 
-
+A handle to the window to animate. The calling thread must own this window.
 
 ### -param dwTime [in]
 
 Type: <b>DWORD</b>
 
-The time it takes to play the animation, in milliseconds. Typically, an animation takes 200 milliseconds to play. 
-
+The time it takes to play the animation, in milliseconds. Typically, an animation takes 200 milliseconds to play.
 
 ### -param dwFlags [in]
 
@@ -188,12 +182,8 @@ Animates the window from bottom to top. This flag can be used with roll or slide
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -208,14 +198,9 @@ If the function fails, the return value is zero. The function will fail in the f
 <li>When trying to animate a child window with <b>AW_BLEND</b>. </li>
 <li>If the thread does not own the window. Note that, in this case, <b>AnimateWindow</b> fails but <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b>.</li>
 </ul>
-To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. 
-
-
-
+To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
-
-
 
 To show or hide a window without special effects, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>.
 
@@ -229,15 +214,9 @@ If a child window is displayed partially clipped, when it is animated it will ha
 
 <b>AnimateWindow</b> supports RTL windows.
 
-Avoid animating a window that has a drop shadow because it produces visually distracting, jerky animations. 
-
-
-
+Avoid animating a window that has a drop shadow because it produces visually distracting, jerky animations.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -264,7 +243,4 @@ Avoid animating a window that has a drop shadow because it produces visually dis
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

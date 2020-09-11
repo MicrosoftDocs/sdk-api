@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 58774f49-6af2-4b81-bbd5-709eb694af2d
 ms.date: 12/05/2018
 ms.keywords: 58774f49-6af2-4b81-bbd5-709eb694af2d, IInkLineInfo, IInkLineInfo interface [Tablet PC], IInkLineInfo interface [Tablet PC],described, msinkaut/IInkLineInfo, tablet.iinklineinfo
-f1_keywords:
-- msinkaut/IInkLineInfo
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkLineInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkLineInfo
+ - msinkaut/IInkLineInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkLineInfo
 ---
 
 # IInkLineInfo interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IInkLineInfo</b> interface provides access to the display properties and recognition result list of a text ink object (tInk).
-        
-
 
 ## -inheritance
 
@@ -124,5 +122,5 @@ Specifies the display properties to set on the text ink object.
 
 </td>
 </tr>
-</table> 
+</table>
 

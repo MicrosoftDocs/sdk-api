@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 6f5ce9c0-39e4-4fab-910c-9a11b90fcde7
 ms.date: 12/05/2018
 ms.keywords: IAudioInputSelector, IAudioInputSelector interface [Core Audio], IAudioInputSelector interface [Core Audio],described, coreaudio.iaudioinputselector, devicetopology/IAudioInputSelector
-f1_keywords:
-- devicetopology/IAudioInputSelector
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IAudioInputSelector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioInputSelector
+ - devicetopology/IAudioInputSelector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IAudioInputSelector
 ---
 
 # IAudioInputSelector interface
 
 
 ## -description
-
-
 
 The <b>IAudioInputSelector</b> interface provides access to a hardware multiplexer control (input selector). The client obtains a reference to the <b>IAudioInputSelector</b> interface of a subunit by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IAudioInputSelector. The call to <b>IPart::Activate</b> succeeds only if the subunit supports the <b>IAudioInputSelector</b> interface. Only a subunit object that represents a hardware input selector will support this interface.
 
@@ -58,9 +57,6 @@ Each input of an input selector is identified by the local ID of the part (a con
 Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioInputSelector</b> interface provides convenient access to the KSPROPERTY_AUDIO_MUX_SOURCE property of a subunit that has a subtype GUID value of KSNODETYPE_MUX. To obtain the subtype GUID of a subunit, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
 
 For a code example that uses the <b>IAudioInputSelector</b> interface, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
-
-
-
 
 ## -inheritance
 
@@ -95,13 +91,9 @@ Selects one of the inputs of the input selector.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -112,7 +104,4 @@ Selects one of the inputs of the input selector.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>
- 
-
- 
 

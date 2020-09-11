@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: F394A740-8F86-4113-B6B8-57CC4127E9D0
 ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngine interface [Media Foundation],Shutdown method, IMFImageSharingEngine.Shutdown, IMFImageSharingEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_shutdown, mfsharingengine/IMFImageSharingEngine::Shutdown
-f1_keywords:
-- mfsharingengine/IMFImageSharingEngine.Shutdown
-dev_langs:
-- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfsharingengine.h
-api_name:
-- IMFImageSharingEngine.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFImageSharingEngine::Shutdown
+ - mfsharingengine/IMFImageSharingEngine::Shutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfsharingengine.h
+api_name:
+ - IMFImageSharingEngine.Shutdown
 ---
 
 # IMFImageSharingEngine::Shutdown
@@ -49,33 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shuts down the image sharing engine.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a>
- 
-
- 
 

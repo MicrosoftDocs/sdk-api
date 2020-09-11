@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: f82e7d42-f0cd-4d25-b56f-7e423cb64cfd
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiDeterminePatchSequence, MsiDeterminePatchSequence function, MsiDeterminePatchSequenceA, MsiDeterminePatchSequenceW, msi/MsiDeterminePatchSequence, msi/MsiDeterminePatchSequenceA, msi/MsiDeterminePatchSequenceW, setup.msideterminepatchsequence
-f1_keywords:
-- msi/MsiDeterminePatchSequence
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiDeterminePatchSequence
-- MsiDeterminePatchSequenceA
-- MsiDeterminePatchSequenceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDeterminePatchSequenceW
+ - msi/MsiDeterminePatchSequenceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiDeterminePatchSequence
+ - MsiDeterminePatchSequenceA
+ - MsiDeterminePatchSequenceW
 ---
 
 # MsiDeterminePatchSequenceW function
@@ -52,25 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiDeterminePatchSequence</b> function takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the  patches to a specified installed product. This function accounts for patches that have already been applied to the product and accounts for obsolete and superseded patches.
 
-
 ## -parameters
-
-
-
 
 ### -param szProductCode [in]
 
 The product that is the target for the set of patches. The value must be the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product.
 
-
 ### -param szUserSid [in, optional]
 
 Null-terminated string  that specifies  a security identifier (SID) of a user. This parameter restricts the context of enumeration for  this user account. This parameter cannot be   the special SID strings "S-1-1-0" (everyone) or "S-1-5-18" (local system). For the machine context <i>dwContext</i> is set to<b> MSIINSTALLCONTEXT_MACHINE</b> and <i>szUserSid</i> must be <b>NULL</b>. 
 For the current user context <i>szUserSid</i> can be null and  <i>dwContext</i> can be set to <b>MSIINSTALLCONTEXT_USERMANAGED</b> or <b>MSIINSTALLCONTEXT_USERUNMANAGED</b>.
-
 
 ### -param dwContext [in]
 
@@ -112,22 +106,16 @@ Patches are considered for the per-machine installation. When <i>dwContext</i> i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cPatchInfo [in]
 
 The number of patches in the array.
 
-
 ### -param pPatchInfo [in]
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures.
 
-
 ## -returns
-
-
 
 The <b>MsiDeterminePatchSequence</b> function returns the following values.
 
@@ -302,14 +290,8 @@ The specified patch is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Users that do not have administrator privileges  can call this function only in their own or machine context. Users that are administrators can call it for other users.
 
@@ -333,9 +315,6 @@ If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/a
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a>
 
 
@@ -349,7 +328,4 @@ If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
 

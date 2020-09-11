@@ -20,7 +20,7 @@ req.max-support:
 req.namespace: 
 req.redist: 
 req.target-min-winverclnt: Windows 10, version 1607 [kernel-mode drivers only]
-req.target-min-winversvr: Windows Server 2016 [kernel-mode drivers only] 
+req.target-min-winversvr: Windows Server 2016 [kernel-mode drivers only]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -34,12 +34,14 @@ api_location:
 api_name:
  - SspiAcquireCredentialsHandleAsyncW
 f1_keywords:
+ - SspiAcquireCredentialsHandleAsyncW
  - sspi/SspiAcquireCredentialsHandleAsyncW
 dev_langs:
  - c++
 ---
 
 ## -description
+
 The **SspiAcquireCredentialsHandleAsyncW** function asynchronously acquires a handle to preexisting [credentials](/windows/desktop/SecGloss/c-gly) of a [security principal](/windows/desktop/SecGloss/s-gly). 
 
 This handle is required by the 
@@ -52,21 +54,25 @@ This handle is required by the
 ## -parameters
 
 ### -param AsyncContext
+
 The async call context.
 
 ### -param pszPrincipal
+
 A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference asynchronously.
 
 > [!NOTE]
 > If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose [security context](/windows/desktop/SecGloss/s-gly) it is executing.
 
 ### -param pszPackage
+
 A pointer to a null-terminated string that specifies the name of the [security package](/windows/desktop/SecGloss/s-gly) with which these credentials will be used. This is a security package name returned in the **Name** member of a 
 [SecPkgInfo](/windows/desktop/api/sspi/ns-sspi-secpkginfoa) structure returned by the 
 [EnumerateSecurityPackages](/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa)  function. After a context is established, 
 [QueryContextAttributes (CredSSP)](/windows/desktop/api/sspi/nf-sspi-querycontextattributesa) can be called with *ulAttribute* set to **SECPKG_ATTR_PACKAGE_INFO** to return information on the security package in use.
 
 ### -param fCredentialUse
+
 A flag that indicates how these credentials will be used. This parameter can be one of the following values:
 
 |<div style="width:40%">Value</div>|<div style="width:60%">Meaning</div>|
@@ -75,24 +81,31 @@ A flag that indicates how these credentials will be used. This parameter can be 
 | **SECPKG_CRED_OUTBOUND** | Allow a local client credential to prepare an outgoing token.|
 
 ### -param pvLogonId
+
 A pointer to a [locally unique identifier](/windows/desktop/SecGloss/l-gly) (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be **NULL**.
 
 ### -param pAuthData
+
 A pointer to a [CREDSSP_CRED](/windows/desktop/api/credssp/ns-credssp-credssp_cred) structure that specifies authentication data for both Schannel and Negotiate packages.
 
 ### -param pGetKeyFn
+
 Pointer to the GetKey() function.
 
 ### -param pvGetKeyArgument
+
 Pass to GetKey().
 
 ### -param phCredential
+
 A pointer to the [CredHandle](/windows/desktop/SecAuthN/sspi-handles) structure that will receive the credential handle.
 
 ### -param ptsExpiry
-*optional* A pointer to a [TimeStamp](/windows/desktop/SecAuthN/timestamp) structure that receives the time at which the returned credentials expire. The structure value received depends on the security package, which must specify the value in local time. 
+
+*optional* A pointer to a [TimeStamp](/windows/desktop/SecAuthN/timestamp) structure that receives the time at which the returned credentials expire. The structure value received depends on the security package, which must specify the value in local time.
 
 ## -returns
+
 Returns **SEC_E_OK** if the async request to acquire a credential handle was successfully queued for execution. Otherwise, it returns the error generated attempting to queue it. To retrieve the status of the operation, use [SspiGetAsyncCallStatus](nf-sspi-sspigetasynccallstatus.md).
 
 If the handle was acquired, SspiGetAsyncCallStatus returns **SEC_E_OK**. Otherwise, it may return *SEC_I_ASYNC_CALL_PENDING* if the call is still in progress, or any of the following fatal error codes in the table below.
@@ -107,6 +120,7 @@ If the handle was acquired, SspiGetAsyncCallStatus returns **SEC_E_OK**. Otherwi
 | **SEC_E_UNKNOWN_CREDENTIALS** | The credentials supplied to the package were not recognized. |
 
 ## -remarks
+
 The **SspiAcquireCredentialsHandleAsyncW** function returns a handle to the credentials of a principal, such as a user or client, as used by a specific [security package](/windows/desktop/SecGloss/s-gly). The function can return the handle to either preexisting credentials or newly created credentials and return it. This handle can be used in subsequent calls to the 
 [SspiAcceptSecurityContextAsync](nf-sspi-sspiacceptsecuritycontextasync.md) and 
 [SspiInitializeSecurityContextAsync](nf-sspi-sspiinitializesecuritycontextasynca.md) functions.
@@ -124,6 +138,7 @@ When you have finished using the returned credentials, free the memory used by t
 [SspiFreeCredentialsHandleAsync](nf-sspi-sspifreecredentialshandleasync.md) function.
 
 ## -see-also
+
 [AcquireCredentialsHandle](/windows/win32/secauthn/acquirecredentialshandle--general)
 
 [SspiAcceptSecurityContextAsync](nf-sspi-sspiacceptsecuritycontextasync.md)
@@ -133,3 +148,4 @@ When you have finished using the returned credentials, free the memory used by t
 [SspiInitializeSecurityContextAsync](nf-sspi-sspiinitializesecuritycontextasynca.md)
 
 [SSPI Functions](/windows/desktop/SecAuthN/authentication-functions)
+

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 6FCAD9E9-AB44-4D26-BD75-26B1C25FA524
 ms.date: 12/05/2018
 ms.keywords: CreateInspectable, CreateInspectable method [Windows Runtime], CreateInspectable method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInspectable method, IPropertyValueStatics.CreateInspectable, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInspectable, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInspectable, winrt.ipropertyvaluefactory_createinspectable, winrt.ipropertyvaluestatics_createinspectable
-f1_keywords:
-- windows.foundation/IPropertyValueStatics.CreateInspectable
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValueStatics.CreateInspectable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValueStatics::CreateInspectable
+ - windows.foundation/IPropertyValueStatics::CreateInspectable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValueStatics.CreateInspectable
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object that contains  the specified <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-
 
 The object to store.
 
-
 ### -param propertyValue [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
 A pointer to a new object that contains <i>value</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -119,31 +111,16 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <b>CreateInspectable</b> method to  store a value in an <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="https://docs.microsoft.com/previous-versions/visualstudio">GetInspectable</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/visualstudio">IPropertyValue::GetInspectable</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
- 
-
- 
 

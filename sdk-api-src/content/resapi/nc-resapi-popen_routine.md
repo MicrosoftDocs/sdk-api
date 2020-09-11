@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 0a5c10c5-0380-4638-b49d-396be3b3c0dd
 ms.date: 12/05/2018
 ms.keywords: Open, Open callback, Open callback function [Failover Cluster], POPEN_ROUTINE, POPEN_ROUTINE callback function [Failover Cluster], _wolf_open, mscs.open, resapi/Open, resapi/POPEN_ROUTINE
-f1_keywords:
-- resapi/Open
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - POPEN_ROUTINE
+ - resapi/POPEN_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - Open
 ---
 
 # POPEN_ROUTINE callback function
@@ -49,39 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>POPEN_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceName [in]
 
 Name of the resource to open.
 
-
 ### -param ResourceKey [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key for the 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> that includes the resource represented by 
        <i>ResourceName</i>.
-
 
 ### -param ResourceHandle [in]
 
 Handle to be passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a> 
        callback function in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_routine">Startup</a> entry-point function.
 
-
 ## -returns
-
-
 
 If the operation was successful, <i>Open</i> returns a resource 
        identifier (<b>RESID</b>).
@@ -90,12 +80,7 @@ If the operation was not successful, <i>Open</i> returns
        <b>NULL</b>. Call  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to 
        specify that an error has occurred.
 
-
-
-
 ## -remarks
-
-
 
 The <i>Open</i> entry-point function opens a resource with the name 
      identified by the <i>ResourceName</i> parameter and returns its resource identifier. The 
@@ -117,12 +102,7 @@ See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Res
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>
 
@@ -133,7 +113,4 @@ See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Res
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>
- 
-
- 
 

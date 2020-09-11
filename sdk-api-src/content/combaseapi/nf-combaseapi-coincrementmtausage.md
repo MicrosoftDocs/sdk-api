@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: EFE6E66A-96A3-4B51-92DD-1CE84B1F0185
 ms.date: 12/05/2018
 ms.keywords: CoIncrementMTAUsage, CoIncrementMTAUsage function [COM], com.coincrementmtausage, combaseapi/CoIncrementMTAUsage
-f1_keywords:
-- combaseapi/CoIncrementMTAUsage
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-api_name:
-- CoIncrementMTAUsage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoIncrementMTAUsage
+ - combaseapi/CoIncrementMTAUsage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+api_name:
+ - CoIncrementMTAUsage
 ---
 
 # CoIncrementMTAUsage function
@@ -52,32 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Keeps MTA support active when no MTA threads are running.
 
-
 ## -parameters
-
-
-
 
 ### -param pCookie [out]
 
 Address of a <b>PVOID</b> variable that receives the cookie for the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codecrementmtausage">CoDecrementMTAUsage</a> function, or <b>NULL</b> if the call fails.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CoIncrementMTAUsage</b> function enables clients to create MTA workers and wait on them for completion before exiting the process.
 
@@ -100,15 +88,7 @@ You can use <b>CoIncrementMTAUsage</b> when:
 <li> Your API implementation requires COM to be initialized, but has no information about whether the current thread is already in an apartment, and does not need the current thread to go into a particular apartment. </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codecrementmtausage">CoDecrementMTAUsage</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 1b953b4c-6e8d-4097-a6bf-618b49cdd603
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipsPartUri, GetRelationshipsPartUri method [Open Packaging Conventions], GetRelationshipsPartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelationshipsPartUri method, IOpcUri.GetRelationshipsPartUri, IOpcUri::GetRelationshipsPartUri, msopc/IOpcUri::GetRelationshipsPartUri, opc.iopcuri_getrelationshipsparturi
-f1_keywords:
-- msopc/IOpcUri.GetRelationshipsPartUri
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcUri.GetRelationshipsPartUri
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcUri::GetRelationshipsPartUri
+ - msopc/IOpcUri::GetRelationshipsPartUri
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcUri.GetRelationshipsPartUri
 ---
 
 # IOpcUri::GetRelationshipsPartUri
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the part name of the Relationships part that stores relationships that have the source URI represented by the  current OPC URI object.
 
-
 ## -parameters
-
-
-
 
 ### -param relationshipPartUri [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface of the part URI object that represents the part name of the Relationships part. The source URI of the relationships stored in this Relationships part is represented by the  current OPC URI object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
             
@@ -138,14 +131,8 @@ An <b>HRESULT</b> error code from a  <a href="https://docs.microsoft.com/windows
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table shows Relationships part URIs for some OPC URIs.<table>
 <tr>
@@ -183,13 +170,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -228,7 +209,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

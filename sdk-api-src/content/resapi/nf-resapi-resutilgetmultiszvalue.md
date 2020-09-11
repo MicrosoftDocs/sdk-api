@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 09547806-16f4-40ce-8713-591a7691a588
 ms.date: 12/05/2018
 ms.keywords: ResUtilGetMultiSzValue, ResUtilGetMultiSzValue function [Failover Cluster], _wolf_resutilgetmultiszvalue, mscs.resutilgetmultiszvalue, resapi/ResUtilGetMultiSzValue
-f1_keywords:
-- resapi/ResUtilGetMultiSzValue
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ResApi.h
-api_name:
-- ResUtilGetMultiSzValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetMultiSzValue
+ - resapi/ResUtilGetMultiSzValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ResApi.h
+api_name:
+ - ResUtilGetMultiSzValue
 ---
 
 # ResUtilGetMultiSzValue function
@@ -49,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a multiple string value 
     from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hkeyClusterKey [in]
 
 Key identifying the location of the multiple string value in the cluster database.
 
-
 ### -param pszValueName [in]
 
 Pointer to a null-terminated Unicode string containing the name of the value to retrieve.
 
-
 ### -param ppszOutValue [out, optional]
 
 Address of the pointer to the retrieved value.
-
 
 ### -param pcbOutValueSize [out]
 
 Pointer to a <b>DWORD</b> in which the size in bytes of the buffer pointed to by 
       <i>ppszOutValue</i> is returned.
 
-
 ## -returns
-
-
 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -107,26 +97,14 @@ An error occurred during memory allocation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you are finished with the memory allocated for the value returned by the 
     <b>ResUtilGetMultiSzValue</b> utility function, you must call the function 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
 
@@ -145,7 +123,4 @@ When you are finished with the memory allocated for the value returned by the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>
- 
-
- 
 

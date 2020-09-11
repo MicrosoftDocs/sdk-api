@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 994fef62-77cf-4c99-be54-b4aff35a10f2
 ms.date: 12/05/2018
 ms.keywords: FlushViewOfFile, FlushViewOfFile function, _win32_flushviewoffile, base.flushviewoffile, fs.flushviewoffile, winbase/FlushViewOfFile
-f1_keywords:
-- memoryapi/FlushViewOfFile
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- FlushViewOfFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FlushViewOfFile
+ - memoryapi/FlushViewOfFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - FlushViewOfFile
 ---
 
 # FlushViewOfFile function
@@ -57,40 +58,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes to the disk a byte range within a mapped view of a file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpBaseAddress [in]
 
 A pointer to the base address of the byte range to be flushed to the disk representation of the mapped file.
 
-
 ### -param dwNumberOfBytesToFlush [in]
 
 The number of bytes to be flushed. If <i>dwNumberOfBytesToFlush</i> is zero, the file is flushed from the base address to the end of the mapping.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Flushing a range of a mapped view initiates writing of dirty pages within that range to the disk. Dirty pages are those whose contents have changed since the file view was mapped. The <b>FlushViewOfFile</b> function does not flush the file metadata, and it does not wait to  return until  the changes are flushed from the underlying hardware disk cache and physically written to disk. To flush all the dirty pages plus the metadata for the file and ensure that they are physically written to disk, call <b>FlushViewOfFile</b> and then call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function.
 
@@ -170,12 +157,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -194,7 +176,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
- 
-
- 
 

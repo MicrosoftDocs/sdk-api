@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 8e11c4e7-0203-4445-8f33-3b928161c62a
 ms.date: 12/05/2018
 ms.keywords: DrvGetGlyphMode, DrvGetGlyphMode function [Display Devices], ddifncs_e5ac278d-3417-4b76-aa0f-7fd2906f8137.xml, display.drvgetglyphmode, winddi/DrvGetGlyphMode
-f1_keywords:
-- winddi/DrvGetGlyphMode
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvGetGlyphMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvGetGlyphMode
+ - winddi/DrvGetGlyphMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvGetGlyphMode
 ---
 
 # DrvGetGlyphMode function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvGetGlyphMode</b> function tells GDI how to cache glyph information.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 Handle to a physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> structure.
 
-
 ### -param arg2 [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that can be queried to find the font size, transform, and other font attributes.
 
-
 ## -returns
-
-
 
 <b>DrvGetGlyphMode</b> returns one of the following values:
 
@@ -113,14 +105,8 @@ GDI should cache PATHOBJ structures for this font.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 GDI calls a driver's <b>DrvGetGlyphMode</b> routine to determine the range of font information that should be cached for a particular font; that is, <b>DrvGetGlyphMode</b> determines what GDI stores in its font cache. A device that caches fonts on its own should return FO_HGLYPHS to minimize the storage requirements for the font.
 
@@ -132,13 +118,7 @@ At the time of the call to <b>DrvGetGlyphMode</b>, the associated FONTOBJ is not
 
 <b>DrvGetGlyphMode</b> is an optional driver function. If this function is not provided, GDI will store raster fonts by default.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
 
@@ -165,7 +145,4 @@ At the time of the call to <b>DrvGetGlyphMode</b>, the associated FONTOBJ is not
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
- 
-
- 
 

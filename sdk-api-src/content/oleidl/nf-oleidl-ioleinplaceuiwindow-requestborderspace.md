@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: fd477b1d-e9a5-4b99-adf1-8e62de975730
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],RequestBorderSpace method, IOleInPlaceUIWindow.RequestBorderSpace, IOleInPlaceUIWindow::RequestBorderSpace, RequestBorderSpace, RequestBorderSpace method [COM], RequestBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_requestborderspace, com.ioleinplaceuiwindow_requestborderspace, oleidl/IOleInPlaceUIWindow::RequestBorderSpace
-f1_keywords:
-- oleidl/IOleInPlaceUIWindow.RequestBorderSpace
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceUIWindow.RequestBorderSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceUIWindow::RequestBorderSpace
+ - oleidl/IOleInPlaceUIWindow::RequestBorderSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceUIWindow.RequestBorderSpace
 ---
 
 # IOleInPlaceUIWindow::RequestBorderSpace
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether there is space available for tools to be installed around the object's window frame while the object is active in place.
 
-
 ## -parameters
-
-
-
 
 ### -param pborderwidths [in]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure containing the requested widths (in pixels) needed on each side of the window for the tools.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -97,14 +90,8 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The active in-place object calls <b>IOleInPlaceUIWindow::RequestBorderSpace</b> to ask if tools can be installed inside the window frame. These tools would be allocated between the rectangle returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">IOleInPlaceUIWindow::GetBorder</a> and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure specified in the argument to this call.
@@ -131,12 +118,7 @@ If the amount of space an active object uses for its toolbars is irrelevant to t
     return NOERROR; 
 } </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
 
@@ -147,7 +129,4 @@ If the amount of space an active object uses for its toolbars is irrelevant to t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-setborderspace">IOleInPlaceUIWindow::SetBorderSpace</a>
- 
-
- 
 

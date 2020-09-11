@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e3e02d5a-a004-49de-b2d8-86ccfc120481
 ms.date: 12/05/2018
 ms.keywords: IStylusSyncPlugin, IStylusSyncPlugin interface [Tablet PC], IStylusSyncPlugin interface [Tablet PC],described, e3e02d5a-a004-49de-b2d8-86ccfc120481, rtscom/IStylusSyncPlugin, tablet.istylussyncplugin
-f1_keywords:
-- rtscom/IStylusSyncPlugin
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStylusSyncPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStylusSyncPlugin
+ - rtscom/IStylusSyncPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStylusSyncPlugin
 ---
 
 # IStylusSyncPlugin interface
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Represents a synchronous plug-in that can be added to the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object's synchronous plug-in collection.
 
-
-
-
 ## -remarks
-
-
 
 This is the synchronous version of <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>. It provides for strong type checking in the synchronous plug-in collections.
 
@@ -68,13 +62,7 @@ The dynamic renderer and gesture recognizer are examples of plug-ins which imple
 
 In some circumstances, such as when large numbers of gestures are subscribed to, the response time in the gesture recognizer becomes excessively slow. To avoid this problem, the gesture recognizer also implements the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> interface so it can be placed on the UI thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
@@ -89,7 +77,4 @@ In some circumstances, such as when large numbers of gestures are subscribed to,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
- 
-
- 
 

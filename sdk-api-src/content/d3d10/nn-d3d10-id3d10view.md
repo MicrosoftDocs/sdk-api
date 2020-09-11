@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10view.htm
 ms.date: 12/05/2018
 ms.keywords: ID3D10View, ID3D10View interface [Direct3D 10], ID3D10View interface [Direct3D 10],described, d3d10/ID3D10View, direct3d10.id3d10view, f36206a8-55f1-ac58-4818-8c308ce6e81f
-f1_keywords:
-- d3d10/ID3D10View
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10View
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10View
+ - d3d10/ID3D10View
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10View
 ---
 
 # ID3D10View interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A view interface specifies the parts of a resource the pipeline can access during rendering (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a>).
-
 
 ## -inheritance
 
@@ -78,12 +77,9 @@ Get the resource that is accessed through this view.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A view interface is the base interface for all views. There are three types of views; a depth-stencil view, a render-target view, and a shader-resource view.
 
@@ -100,20 +96,11 @@ All resources must be bound to the pipeline before they can be accessed.
 </ul>
 A view can also be used to access a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">typeless resource</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-interfaces">Resource Interfaces</a>
- 
-
- 
 

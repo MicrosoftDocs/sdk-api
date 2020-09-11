@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
 ms.date: 12/05/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
-f1_keywords:
-- sas/SendSAS
-dev_langs:
-- c++
 req.header: sas.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sas.lib
 req.dll: Sas.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sas.dll
-api_name:
-- SendSAS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SendSAS
+ - sas/SendSAS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sas.dll
+api_name:
+ - SendSAS
 ---
 
 # SendSAS function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Simulates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS).
 
-
 ## -parameters
-
-
-
 
 ### -param AsUser [in]
 
 <b>TRUE</b> if the caller is running as the current user; otherwise, <b>FALSE</b>.
 
-
 ## -remarks
-
-
 
 To successfully call the <b>SendSAS</b> function, an application must either be running as a service or have the <b>uiAccess</b> attribute of the <b>requestedExecutionLevel</b> element set to "true" in its application manifest. If an application is not running as a service, it must be running as either the current user or the LocalSystem account to call <b>SendSAS</b>. In addition, if an application is not running as a service, <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/user-account-control">User Account Control</a> must be turned on to call <b>SendSAS</b>. 
 
@@ -82,6 +75,4 @@ The local security policy of a computer must be configured to allow services and
 A service can impersonate the token of another process that calls that service. In this case, a call to the <b>SendSAS</b> function by that service simulates a SAS on the session associated with the impersonated token.
 
 <b>Windows Server 2008 and Windows Vista:  </b>Sas.dll is not available natively. You must download the Windows 7 version of the Microsoft Windows Software Development Kit (SDK)  to use this function. In addition, an application must refer to Sas.dll to call this function.
-
-
 

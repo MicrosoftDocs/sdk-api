@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: E4290AE9-7F2E-4D0B-BEAF-F01D95B3E03D
 ms.date: 12/05/2018
 ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], IAudioLfxControl interface [Core Audio],described, audioengineendpoint/IAudioLfxControl, coreaudio.iaudiolfxcontrol
-f1_keywords:
-- audioengineendpoint/IAudioLfxControl
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioengineendpoint.h
-api_name:
-- IAudioLfxControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioLfxControl
+ - audioengineendpoint/IAudioLfxControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioengineendpoint.h
+api_name:
+ - IAudioLfxControl
 ---
 
 # IAudioLfxControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioLfxControl</b> interface allows the client to apply or remove local effects from the offloaded audio stream.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Sets the local effects state that is applied to the offloaded audio stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
- 
-
- 
 

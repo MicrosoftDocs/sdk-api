@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 03EAFF60-1703-47BA-BD77-225BEAC4DFAE
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_TENSOR_DESC, DML_BUFFER_TENSOR_DESC structure, direct3d12.dml_buffer_tensor_desc, directml/DML_BUFFER_TENSOR_DESC
-f1_keywords:
-- directml/DML_BUFFER_TENSOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_BUFFER_TENSOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_BUFFER_TENSOR_DESC
+ - directml/DML_BUFFER_TENSOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_BUFFER_TENSOR_DESC
 ---
 
 # DML_BUFFER_TENSOR_DESC structure
+
 
 ## -description
 
@@ -113,3 +115,4 @@ Although this member is optional, for best performance we recommend that you ali
 ## -see-also
 
 [Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+

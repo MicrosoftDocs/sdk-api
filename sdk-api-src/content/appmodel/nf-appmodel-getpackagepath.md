@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: BDA0DD87-A36D-486B-BF89-EA5CC105C742
 ms.date: 12/05/2018
 ms.keywords: GetPackagePath, GetPackagePath function [App packaging and management], appmodel/GetPackagePath, appxpkg.getpackagepath
-f1_keywords:
-- appmodel/GetPackagePath
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-l1-1-0.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetPackagePath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPackagePath
+ - appmodel/GetPackagePath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-l1-1-0.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetPackagePath
 ---
 
 # GetPackagePath function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the path for the specified package.
 
-
 ## -parameters
-
-
-
 
 ### -param packageId [in]
 
@@ -72,13 +68,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/
 
 The package identifier.
 
-
 ### -param reserved
 
 Type: <b>const UINT32</b>
 
 Reserved, do not use.
-
 
 ### -param pathLength [in, out]
 
@@ -86,17 +80,13 @@ Type: <b>UINT32*</b>
 
 On input, the size of the <i>path</i> buffer, in characters. On output, the size of the package path returned, in characters, including the null-terminator.
 
-
 ### -param path [out, optional]
 
 Type: <b>PWSTR</b>
 
 The package path.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -119,18 +109,8 @@ The buffer specified by <i>path</i> is not large enough to hold the data. The re
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>
- 
-
- 
 

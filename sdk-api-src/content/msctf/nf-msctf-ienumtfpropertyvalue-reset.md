@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: d18fd066-94a3-48af-8db4-0def6c51565e
 ms.date: 12/05/2018
 ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Reset method, IEnumTfPropertyValue.Reset, IEnumTfPropertyValue::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_reset_ref, msctf/IEnumTfPropertyValue::Reset, tsf.ienumtfpropertyvalue_reset
-f1_keywords:
-- msctf/IEnumTfPropertyValue.Reset
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfPropertyValue.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfPropertyValue::Reset
+ - msctf/IEnumTfPropertyValue::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfPropertyValue.Reset
 ---
 
 # IEnumTfPropertyValue::Reset
+
 
 ## -description
 
@@ -53,8 +55,6 @@ Resets the enumerator object by moving the current position to the beginning of 
 ## -parameters
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -79,3 +79,4 @@ The method was successful.
 ## -see-also
 
 [IEnumTfPropertyValue interface](nn-msctf-ienumtfpropertyvalue.md), [TF_PROPERTYVAL structure](ns-msctf-tf_propertyval.md)
+

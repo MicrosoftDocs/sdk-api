@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: d21457bc-9445-4ca2-ab9f-1e3f55e2e635
 ms.date: 12/05/2018
 ms.keywords: IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documents and Packaging], IXpsOMMatrixTransform interface [XPS Documents and Packaging],described, xps.ixpsommatrixtransform, xpsobjectmodel/IXpsOMMatrixTransform
-f1_keywords:
-- xpsobjectmodel/IXpsOMMatrixTransform
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMMatrixTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMMatrixTransform
+ - xpsobjectmodel/IXpsOMMatrixTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMMatrixTransform
 ---
 
 # IXpsOMMatrixTransform interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies an affine matrix transform that can be applied to other objects in the object model.
-
 
 ## -inheritance
 
@@ -97,12 +96,9 @@ Sets the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -146,14 +142,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-creatematrixtransform">IXpsOMObjectFactory::CreateMatrixTransform</a>
 
@@ -172,7 +161,4 @@ else
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
- 
-
- 
 

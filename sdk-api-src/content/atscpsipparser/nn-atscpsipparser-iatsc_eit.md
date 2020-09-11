@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ab3fd79f-4ca6-418e-8e7c-a5fa196c09e6
 ms.date: 12/05/2018
 ms.keywords: IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], IATSC_EIT interface [Microsoft TV Technologies],described, IATSC_EITInterface, atscpsipparser/IATSC_EIT, mstv.iatsc_eit
-f1_keywords:
-- atscpsipparser/IATSC_EIT
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_EIT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_EIT
+ - atscpsipparser/IATSC_EIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_EIT
 ---
 
 # IATSC_EIT interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IATSC_EIT</b> interface enables the client to get data from an ATSC event information table (EIT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-geteit">IAtscPsipParser::GetEIT</a> method returns a pointer to this interface.
-
-
-
 
 ## -inheritance
 
@@ -191,16 +187,9 @@ Initializes the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

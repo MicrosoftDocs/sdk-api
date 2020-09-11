@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: bf90fca7-0c4f-474f-a856-7d6865ea8f03
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Next method, IEnumNetSharingPortMapping.Next, IEnumNetSharingPortMapping::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_next, ics.ienumnetsharingportmapping_next, netcon/IEnumNetSharingPortMapping::Next
-f1_keywords:
-- netcon/IEnumNetSharingPortMapping.Next
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IEnumNetSharingPortMapping.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetSharingPortMapping::Next
+ - netcon/IEnumNetSharingPortMapping::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IEnumNetSharingPortMapping.Next
 ---
 
 # IEnumNetSharingPortMapping::Next
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>Next</b> method retrieves the specified number of port mappings that start from the current enumeration position.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Specifies the number of port mappings to retrieve.
-
 
 ### -param rgVar [out]
 
@@ -72,15 +67,11 @@ Pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> variable for the port mapping. This variant contains a pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmapping">INetSharingPortMapping</a> interface.
 
-
 ### -param pceltFetched [out]
 
 Pointer to a <b>ULONG</b> variable that, on successful return, specifies the number of port mappings actually returned.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -180,15 +171,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netcon/nn-netcon-ienumnetsharingportmapping">IEnumNetSharingPortMapping</a>
 
@@ -199,7 +183,4 @@ The method failed for unknown reasons.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
 

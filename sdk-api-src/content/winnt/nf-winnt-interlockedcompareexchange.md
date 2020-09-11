@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: c0da780c-5fd0-4c88-a283-8d057db812ac
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange function, _win32_interlockedcompareexchange, base.interlockedcompareexchange, winnt/InterlockedCompareExchange
-f1_keywords:
-- winnt/InterlockedCompareExchange
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Interlocked-l1-1-0.dll
-- API-MS-Win-Core-Interlocked-l1-2-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- InterlockedCompareExchange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedCompareExchange
+ - winnt/InterlockedCompareExchange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Interlocked-l1-1-0.dll
+ - API-MS-Win-Core-Interlocked-l1-2-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - InterlockedCompareExchange
 ---
 
 # InterlockedCompareExchange function
 
 
 ## -description
-
 
 Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 32-bit values and exchanges with another 32-bit value based on the outcome of the comparison.
 
@@ -61,39 +61,25 @@ If you are exchanging pointer values, this function has been superseded by the
 
 To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange64">InterlockedCompareExchange64</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Destination [in, out]
 
  A pointer to the destination value.
 
-
 ### -param ExChange [in]
 
 The exchange value.
-
 
 ### -param Comperand [in]
 
 The value to compare to <i>Destination</i>.
 
-
 ## -returns
-
-
 
 The function returns the initial value of the <i>Destination</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 The 
 function compares the <i>Destination</i> value with the <i>Comparand</i> value. If the <i>Destination</i> value is equal to the <i>Comparand</i> value, the <i>Exchange</i> value is stored in the address specified by <i>Destination</i>. Otherwise, no operation is performed.
@@ -111,12 +97,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -191,7 +172,4 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

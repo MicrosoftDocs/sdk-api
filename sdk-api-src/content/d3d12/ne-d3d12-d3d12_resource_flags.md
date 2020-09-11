@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_FLAGS, D3D12_RESOURCE_FLAGS enumeration, D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER, D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL, D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET, D3D12_RESOURCE_FLAG_ALLOW_SIMULTANEOUS_ACCESS, D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS, D3D12_RESOURCE_FLAG_DENY_SHADER_RESOURCE, D3D12_RESOURCE_FLAG_NONE, D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY, d3d12/D3D12_RESOURCE_FLAGS, d3d12/D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER, d3d12/D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL, d3d12/D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET, d3d12/D3D12_RESOURCE_FLAG_ALLOW_SIMULTANEOUS_ACCESS, d3d12/D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS, d3d12/D3D12_RESOURCE_FLAG_DENY_SHADER_RESOURCE, d3d12/D3D12_RESOURCE_FLAG_NONE, d3d12/D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY, direct3d12.d3d12_resource_flags
-f1_keywords:
-- d3d12/D3D12_RESOURCE_FLAGS
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_RESOURCE_FLAGS
 targetos: Windows
 req.typenames: D3D12_RESOURCE_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RESOURCE_FLAGS
+ - d3d12/D3D12_RESOURCE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_RESOURCE_FLAGS
 ---
 
 # D3D12_RESOURCE_FLAGS enumeration
@@ -49,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies options for working with resources.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D3D12_RESOURCE_FLAG_NONE
 
 No options are specified.
-          
-
 
 ### -field D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET
 
@@ -157,24 +150,11 @@ This resource may only be used as a decode reference frame.  It may only be writ
 [D3D12_VIDEO_DECODE_TIER_1](../d3d12video/ne-d3d12video-d3d12_video_decode_tier) and [D3D12_VIDEO_DECODE_TIER_2](../d3d12video/ne-d3d12video-d3d12_video_decode_tier) may report     [D3D12_VIDEO_DECODE_CONFIGURATION_FLAG_REFERENCE_ONLY_ALLOCATIONS_REQUIRED](../d3d12video/ne-d3d12video-d3d12_video_decode_configuration_flags) in the [D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](../d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_support) structure configuration flag.  If so, the application must allocate reference frames with the new **D3D12\_RESOURCE\_VIDEO\_DECODE\_REFERENCE\_ONLY** resource flag.  [D3D12_VIDEO_DECODE_TIER_3](../d3d12video/ne-d3d12video-d3d12_video_decode_tier) must not set the [D3D12_VIDEO_DECODE_CONFIGURATION_FLAG_REFERENCE_ONLY_ALLOCATIONS_REQUIRED]
 (../d3d12video/ne-d3d12video-d3d12_video_decode_configuration_flags)) configuration flag and must not require the use of this resource flag.
 
-
 ## -remarks
 
-
-
 This enum is used by the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc">D3D12_RESOURCE_DESC</a> structure.
-        
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
- 
-
- 
 

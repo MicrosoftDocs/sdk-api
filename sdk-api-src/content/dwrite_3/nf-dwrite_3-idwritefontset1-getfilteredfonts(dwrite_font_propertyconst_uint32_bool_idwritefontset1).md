@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFon
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFonts method, IDWriteFontSet1.GetFilteredFonts, IDWriteFontSet1::GetFilteredFonts, GetFilteredFonts, GetFilteredFonts method [Direct Write], GetFilteredFonts method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfonts, dwrite_3/IDWriteFontSet1::GetFilteredFonts
-f1_keywords:
-- dwrite_3/IDWriteFontSet1.GetFilteredFonts
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet1::GetFilteredFonts
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet1::GetFilteredFonts
+ - dwrite_3/IDWriteFontSet1::GetFilteredFonts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet1::GetFilteredFonts
 ---
 
 ## -description
@@ -84,3 +85,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 If no fonts match the filter, then the returned subset object will be empty (calling [IDWriteFontSet::GetFontCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount) on it returns 0), but the function does not return an error. The subset is always equal to or less than the original set.
 
 ## -see-also
+

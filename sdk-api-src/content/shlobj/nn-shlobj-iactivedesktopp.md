@@ -8,10 +8,6 @@ tech.root: lwef
 ms.assetid: 04d2e14a-374b-405d-803b-0bd6f57c077a
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktopP, IActiveDesktopP interface [Legacy Windows Environment Features], IActiveDesktopP interface [Legacy Windows Environment Features],described, _win32_IActiveDesktopP, lwef.iactivedesktopp, shell.iactivedesktopp, shlobj/IActiveDesktopP
-f1_keywords:
-- shlobj/IActiveDesktopP
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IActiveDesktopP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActiveDesktopP
+ - shlobj/IActiveDesktopP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IActiveDesktopP
 ---
 
 # IActiveDesktopP interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IActiveDesktopP</b> is available for use in the operating 
 
@@ -57,7 +57,6 @@ systems specified in the Requirements section. It may be altered or unavailable 
 subsequent versions.]
 
 Exposes methods that manage the Windows Desktop.
-
 
 ## -inheritance
 
@@ -83,16 +82,9 @@ Sets or updates the Active Desktop to safe mode.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
- 
-
- 
 

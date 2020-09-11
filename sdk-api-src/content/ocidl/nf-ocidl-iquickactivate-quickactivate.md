@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 504cb272-da1c-4ffb-b4b1-fdf288901660
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate interface [COM],QuickActivate method, IQuickActivate.QuickActivate, IQuickActivate::QuickActivate, QuickActivate, QuickActivate method [COM], QuickActivate method [COM],IQuickActivate interface, _ctrl_iquickactivate_quickactivate, com.iquickactivate_quickactivate, ocidl/IQuickActivate::QuickActivate
-f1_keywords:
-- ocidl/IQuickActivate.QuickActivate
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IQuickActivate.QuickActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQuickActivate::QuickActivate
+ - ocidl/IQuickActivate::QuickActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IQuickActivate.QuickActivate
 ---
 
 # IQuickActivate::QuickActivate
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Quick activates a control.
 
-
 ## -parameters
-
-
-
 
 ### -param pQaContainer [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a> structure containing information about the container.
 
-
 ### -param pQaControl [in, out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-qacontrol">QACONTROL</a> structure filled in by the control to return information about the control to the container. The container calling this method must reserve memory for this structure.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
-
-
-
 ## -remarks
-
-
 
 If the control does not support <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>, the container performs certain handshaking operations when it loads the control. The container calls certain interfaces on the control and the control, in turn, calls back to certain interfaces on the container's client site. First, the container creates the control object and calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to query for interfaces that it needs. Then, the container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> on the control, passing a pointer to its client site. Next, the control calls <b>QueryInterface</b> on this site, retrieving a pointer to additional necessary interfaces.
 
@@ -87,14 +74,7 @@ Using the <b>QuickActivate</b> method, the container passes a pointer to a <a hr
 
 The <b>IPersist*::Load</b> and <b>IPersist*::InitNew</b> methods should be called after quick activation occurs. The control should establish its connections to the container's sinks during quick activation. However, these connections are not live until <b>IPersist*::Load</b> or <b>IPersist*::InitNew</b> has been called.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
 
@@ -113,7 +93,4 @@ The <b>IPersist*::Load</b> and <b>IPersist*::InitNew</b> methods should be calle
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>
- 
-
- 
 

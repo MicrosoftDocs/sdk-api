@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 412a262a-1706-4101-b154-1804408a5b9f
 ms.date: 12/05/2018
 ms.keywords: WsCreateServiceHost, WsCreateServiceHost function [Web Services for Windows], webservices/WsCreateServiceHost, wsw.wscreateservicehost
-f1_keywords:
-- webservices/WsCreateServiceHost
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCreateServiceHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCreateServiceHost
+ - webservices/WsCreateServiceHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCreateServiceHost
 ---
 
 # WsCreateServiceHost function
@@ -49,43 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a> for the specified endpoints.
-            
-
-
-
 
 ## -parameters
-
-
-
 
 ### -param endpoints
 
 An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structures representing the service endpoints for which to create the service host.
 
-
 ### -param endpointCount [in]
 
 The number of endpoints in the <i>endpoints</i> array.
-                
-
 
 ### -param serviceProperties
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_property">WS_SERVICE_PROPERTY</a> structures containing optional properties for the service host.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>servicePropertyCount</i> parameter must be 0 (zero).
-                
-
 
 ### -param servicePropertyCount [in]
 
 The number of properties in the <i>serviceProperties</i> array.
-                
-
 
 ### -param serviceHost
 
@@ -93,17 +78,11 @@ On   success, a pointer that receives the address of the  <a href="https://docs.
                 
                 When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeservicehost">WsFreeServiceHost</a>.
 
-
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -157,7 +136,4 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
 

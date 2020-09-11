@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: DC500008-619C-425F-A2C4-DE17B984E4F7
 ms.date: 12/5/2018
 ms.keywords: DML_MAX_POOLING_OPERATOR_DESC, DML_MAX_POOLING_OPERATOR_DESC structure, direct3d12.dml_max_pooling_operator_desc, directml/DML_MAX_POOLING_OPERATOR_DESC
-f1_keywords:
-- directml/DML_MAX_POOLING_OPERATOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_MAX_POOLING_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_MAX_POOLING_OPERATOR_DESC
+ - directml/DML_MAX_POOLING_OPERATOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_MAX_POOLING_OPERATOR_DESC
 ---
 
 # DML_MAX_POOLING_OPERATOR_DESC structure
@@ -102,3 +103,4 @@ A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-ty
 ## -see-also
 
 * [DML_MAX_POOLING1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling1_operator_desc)
+

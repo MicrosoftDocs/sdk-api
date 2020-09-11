@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 339c8d47-4406-4f2e-b927-b2dd5f58d1ec
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],Silent property, IX509CertificateRequest.Silent, IX509CertificateRequest.get_Silent, IX509CertificateRequest::Silent, IX509CertificateRequest::get_Silent, IX509CertificateRequest::put_Silent, Silent property [Security], Silent property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Silent, certenroll/IX509CertificateRequest::get_Silent, certenroll/IX509CertificateRequest::put_Silent, get_Silent, security.ix509certificaterequest_silent_property
-f1_keywords:
-- certenroll/IX509CertificateRequest.Silent
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequest.Silent
-- IX509CertificateRequest.get_Silent
-- IX509CertificateRequest.put_Silent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequest::get_Silent
+ - certenroll/IX509CertificateRequest::get_Silent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequest.Silent
+ - IX509CertificateRequest.get_Silent
+ - IX509CertificateRequest.put_Silent
 ---
 
 # IX509CertificateRequest::get_Silent
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Silent</b> property specifies or retrieves a Boolean value that indicates whether any of the  key-related modal dialogs are displayed during the certificate enrollment process.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property value is used by key-related Certificate Enrollment Control modal dialogs that:<ul>
 <li>Direct a user to insert a smart card</li>
@@ -76,13 +72,7 @@ You can set this property before calling any initialization  method or the <a hr
 
 If the certificate request contains nested requests and you set the <b>Silent</b> property on the top level request, it is automatically propagated to all of the inner requests. You can, however, set the property manually on each of the inner objects.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
@@ -105,7 +95,4 @@ If the certificate request contains nested requests and you set the <b>Silent</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
- 
-
- 
 

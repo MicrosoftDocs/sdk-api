@@ -8,10 +8,6 @@ tech.root: EAP
 ms.assetid: d1634973-f6af-4be3-914a-513098c5fccf
 ms.date: 12/05/2018
 ms.keywords: '*PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT structure pointer [EAP], PPP_EAP_OUTPUT, PPP_EAP_OUTPUT structure [EAP], _eap_ppp_eap_output, eap.ppp_eap_output, raseapif/PPPP_EAP_OUTPUT, raseapif/PPP_EAP_OUTPUT'
-f1_keywords:
-- raseapif/PPP_EAP_OUTPUT
-dev_langs:
-- c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Raseapif.h
-api_name:
-- PPP_EAP_OUTPUT
 targetos: Windows
 req.typenames: PPP_EAP_OUTPUT, *PPPP_EAP_OUTPUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PPP_EAP_OUTPUT
+ - raseapif/_PPP_EAP_OUTPUT
+ - PPPP_EAP_OUTPUT
+ - raseapif/PPPP_EAP_OUTPUT
+ - PPP_EAP_OUTPUT
+ - raseapif/PPP_EAP_OUTPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Raseapif.h
+api_name:
+ - PPP_EAP_OUTPUT
 ---
 
 # PPP_EAP_OUTPUT structure
@@ -49,32 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The authentication protocol uses the 
 <b>PPP_EAP_OUTPUT</b> structure to communicate requests and status information to the Connection Manager on return from calls to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSizeInBytes
 
 Specifies the size of this structure.
-
 
 ### -field Action
 
 Specifies a 
 <a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ne-raseapif-ppp_eap_action">PPP_EAP_ACTION</a> value. The Connection Manager carries out this action on behalf of the authentication protocol.
 
-
 ### -field dwAuthResultCode
 
 Specifies whether authentication was successful. Any nonzero value for <b>dwAuthResultCode</b> indicates failure. The failure code must come from Winerror.h, Raserror.h or Mprerror.h. This member is valid only if the <b>Action</b> member has a value of <b>EAPACTION_Done</b> or <b>EAPACTION_SendAndDone</b>.
-
 
 ### -field pUserAttributes
 
@@ -94,12 +91,10 @@ When <b>Action</b> is <b>EAPACTION_Done</b> or <b>EAPACTION_SendAndDone</b>, and
 The authentication protocol frees this memory in its 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a> function.
 
-
 ### -field fInvokeInteractiveUI
 
 Specifies whether RAS should invoke the authentication protocol's interactive UI. If the authentication protocol sets this member to <b>TRUE</b>, RAS invokes the interactive UI, by calling the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a> function provided by the authentication protocol.
-
 
 ### -field pUIContextData
 
@@ -107,62 +102,42 @@ Pointer to context data that RAS should pass in the call to
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>. The authentication protocol should free this memory in its implementation of 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
 
-
 ### -field dwSizeOfUIContextData
 
 Specifies the size of the context data that RAS should pass in the call to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>.
 
-
 ### -field fSaveConnectionData
 
 Specifies whether RAS should save the information pointed to by the <b>pConnectionData</b> member. If <b>fSaveConnectionData</b> is <b>TRUE</b>, RAS will save the data in the phone book. Only valid for the process that is being authenticated.
-
 
 ### -field pConnectionData
 
 Identifies data specific to the connection, that is, data not specific to any particular user. If the <b>fSaveConnectionData</b> member is <b>TRUE</b>, RAS saves the connection data in the phone book. The authentication protocol should free the memory occupied by this data during the call to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
 
-
 ### -field dwSizeOfConnectionData
 
-Specifies the size, in bytes, of the data pointed to by the <b>pConnectionData</b> member. 
-
-					
-
+Specifies the size, in bytes, of the data pointed to by the <b>pConnectionData</b> member.
 
 ### -field fSaveUserData
 
 Specifies whether RAS should save the user data pointed to by the <b>pUserData</b> member. If this parameter is <b>TRUE</b>, RAS saves the user-specific data in the registry under <b>HKEY_CURRENT_USER</b>.
-
 
 ### -field pUserData
 
 Pointer to user data that RAS should save in the registry. RAS saves this data in the registry under <b>HKEY_CURRENT_USER</b>. The authentication protocol should free this memory during the call to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)">RasEapEnd</a>.
 
-
 ### -field dwSizeOfUserData
 
 Specifies the size in bytes of the data pointed to by <b>pUserData</b>.
 
-
 ### -field pNgcKerbTicket
-
- 
-
 
 ### -field fSaveToCredMan
 
- 
-
-
-
-
 ## -remarks
-
-
 
 Use the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function to pass the 
@@ -179,12 +154,7 @@ The authentication protocol can use the
 <div class="alert"><b>Note</b>  When formatting attributes for encryption keys, it is strongly recommended that you  use MSCHAPv2 and its MS-MPPE-Recv-Keys and MS-MPPE-Send-Keys,  which create <i>strong encryption</i> rather than  MSCHAPv1 and its MS-CHAP-MPPE-Keys.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 [EAP Structures](/windows/win32/eap/eap-structures)
 
@@ -207,7 +177,4 @@ The authentication protocol can use the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
- 
-
- 
 

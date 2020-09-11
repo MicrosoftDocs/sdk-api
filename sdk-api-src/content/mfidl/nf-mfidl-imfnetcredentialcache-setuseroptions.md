@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 024eea57-e7c8-495d-9959-ab37dd45873d
 ms.date: 12/05/2018
 ms.keywords: 024eea57-e7c8-495d-9959-ab37dd45873d, IMFNetCredentialCache interface [Media Foundation],SetUserOptions method, IMFNetCredentialCache.SetUserOptions, IMFNetCredentialCache::SetUserOptions, SetUserOptions, SetUserOptions method [Media Foundation], SetUserOptions method [Media Foundation],IMFNetCredentialCache interface, mf.imfnetcredentialcache_setuseroptions, mfidl/IMFNetCredentialCache::SetUserOptions
-f1_keywords:
-- mfidl/IMFNetCredentialCache.SetUserOptions
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFNetCredentialCache.SetUserOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFNetCredentialCache::SetUserOptions
+ - mfidl/IMFNetCredentialCache::SetUserOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFNetCredentialCache.SetUserOptions
 ---
 
 # IMFNetCredentialCache::SetUserOptions
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies how user credentials are stored.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCred [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface. Obtain this pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-getcredential">IMFNetCredentialCache::GetCredential</a>.
 
-
 ### -param dwOptionsFlags [in]
 
 Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetcredentialoptions">MFNetCredentialOptions</a> enumeration.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -95,27 +84,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If no flags are specified, the credentials are cached in memory. This method can be implemented by the credential manager and called by the network source.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
- 
-
- 
 

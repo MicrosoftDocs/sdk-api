@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 6ac425bc-f6ec-4a95-b351-01f9eb27a744
 ms.date: 12/05/2018
 ms.keywords: GetSyncChange, GetSyncChange method [Windows Sync], GetSyncChange method [Windows Sync],ILoadChangeContext interface, ILoadChangeContext interface [Windows Sync],GetSyncChange method, ILoadChangeContext.GetSyncChange, ILoadChangeContext::GetSyncChange, winsync.iloadchangecontext_getsyncchange, winsync/ILoadChangeContext::GetSyncChange
-f1_keywords:
-- winsync/ILoadChangeContext.GetSyncChange
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ILoadChangeContext.GetSyncChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILoadChangeContext::GetSyncChange
+ - winsync/ILoadChangeContext::GetSyncChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ILoadChangeContext.GetSyncChange
 ---
 
 # ILoadChangeContext::GetSyncChange
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the change item for which the change data should be retrieved from the item store.
 
-
 ## -parameters
-
-
-
 
 ### -param ppSyncChange [out]
 
 Returns the change item for which the change data should be retrieved from the item store.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -108,22 +101,12 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iloadchangecontext">ILoadChangeContext Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 9815ba89-d5c2-4d13-8ed1-478953836bc7
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_SDT.GetCountOfRecords, IDVB_SDT::GetCountOfRecords, IDVB_SDTGetCountOfRecords, dvbsiparser/IDVB_SDT::GetCountOfRecords, mstv.idvb_sdt_getcountofrecords
-f1_keywords:
-- dvbsiparser/IDVB_SDT.GetCountOfRecords
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_SDT.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_SDT::GetCountOfRecords
+ - dvbsiparser/IDVB_SDT::GetCountOfRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_SDT.GetCountOfRecords
 ---
 
 # IDVB_SDT::GetCountOfRecords
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetCountOfRecords</b> method returns the number of records in the SDT.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwVal [out]
 
 Pointer to a variable that receives the number of records.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -103,18 +95,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT Interface</a>
- 
-
- 
 

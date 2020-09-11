@@ -7,10 +7,6 @@ tech.root: IpHlp
 ms.assetid: a2df3749-6c75-40c0-8952-1656bbe639a6
 ms.date: 12/05/2018
 ms.keywords: '*PIP_ADAPTER_ADDRESSES, *PIP_ADAPTER_ADDRESSES_XP, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_ADAPTER_ADDRESSES, IP_ADAPTER_ADDRESSES structure [IP Helper], IP_ADAPTER_ADDRESSES_LH, IP_ADAPTER_ADDRESSES_XP, IP_ADAPTER_DDNS_ENABLED, IP_ADAPTER_DHCP_ENABLED, IP_ADAPTER_IPV4_ENABLED, IP_ADAPTER_IPV6_ENABLED, IP_ADAPTER_IPV6_MANAGE_ADDRESS_CONFIG, IP_ADAPTER_IPV6_OTHER_STATEFUL_CONFIG, IP_ADAPTER_NETBIOS_OVER_TCPIP_ENABLED, IP_ADAPTER_NO_MULTICAST, IP_ADAPTER_RECEIVE_ONLY, IP_ADAPTER_REGISTER_ADAPTER_SUFFIX, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, PIP_ADAPTER_ADDRESSES, PIP_ADAPTER_ADDRESSES structure pointer [IP Helper], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_IPHTTPS, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _iphlp_ip_adapter_addresses, iphlp.ip_adapter_addresses, iptypes/IP_ADAPTER_ADDRESSES, iptypes/PIP_ADAPTER_ADDRESSES'
-f1_keywords:
-- iptypes/IP_ADAPTER_ADDRESSES
-dev_langs:
-- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +24,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iptypes.h
-api_name:
-- IP_ADAPTER_ADDRESSES
 targetos: Windows
 req.typenames: IP_ADAPTER_ADDRESSES_XP, *PIP_ADAPTER_ADDRESSES_XP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IP_ADAPTER_ADDRESSES_XP
+ - iptypes/_IP_ADAPTER_ADDRESSES_XP
+ - PIP_ADAPTER_ADDRESSES_XP
+ - iptypes/PIP_ADAPTER_ADDRESSES_XP
+ - IP_ADAPTER_ADDRESSES_XP
+ - iptypes/IP_ADAPTER_ADDRESSES_XP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iptypes.h
+api_name:
+ - IP_ADAPTER_ADDRESSES
 ---
 
 # IP_ADAPTER_ADDRESSES_XP structure
@@ -48,24 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IP_ADAPTER_ADDRESSES</b> structure is the 
    <i>header node</i> for a linked list of addresses for a particular adapter. This structure can simultaneously 
    be used as part of a linked list of 
    <b>IP_ADAPTER_ADDRESSES</b> structures.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Alignment
 
 Type: <b>ULONGLONG</b>
 
 Reserved. Used by the compiler to align the structure.
-
 
 ### -field Length
 
@@ -75,7 +74,6 @@ The length, in bytes, of this structure. Note that the length of the
         <b>IP_ADAPTER_ADDRESSES</b> structure changed on 
         Windows XP with SP1 and later and also on Windows Vista and later.
 
-
 ### -field IfIndex
 
 Type: <b>DWORD</b>
@@ -83,13 +81,11 @@ Type: <b>DWORD</b>
 The index of the IPv4 interface with which these addresses are associated. On Windows Server 2003 and Windows XP, this member is zero if IPv4 is 
         not available on the interface.
 
-
 ### -field Next
 
 Type: <b>struct _IP_ADAPTER_ADDRESSES*</b>
 
 A pointer to the next adapter addresses structure in the list.
-
 
 ### -field AdapterName
 
@@ -99,7 +95,6 @@ An array of characters that contains the name of the adapter with which these ad
       Unlike an adapter's friendly name, the adapter name specified in <b>AdapterName</b> is 
       permanent and cannot be modified by the user.
 
-
 ### -field FirstUnicastAddress
 
 Type: <b>PIP_ADAPTER_UNICAST_ADDRESS</b>
@@ -107,7 +102,6 @@ Type: <b>PIP_ADAPTER_UNICAST_ADDRESS</b>
 A pointer to the first 
       <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structure in a 
       linked list of IP unicast addresses for the adapter.
-
 
 ### -field FirstAnycastAddress
 
@@ -117,7 +111,6 @@ A pointer to the first
       <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_anycast_address_xp">IP_ADAPTER_ANYCAST_ADDRESS</a> structure in a 
       linked list of IP anycast addresses for the adapter.
 
-
 ### -field FirstMulticastAddress
 
 Type: <b>PIP_ADAPTER_MULTICAST_ADDRESS</b>
@@ -125,7 +118,6 @@ Type: <b>PIP_ADAPTER_MULTICAST_ADDRESS</b>
 A pointer to the first 
       <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_multicast_address_xp">IP_ADAPTER_MULTICAST_ADDRESS</a> structure 
       in a list of IP multicast addresses for the adapter.
-
 
 ### -field FirstDnsServerAddress
 
@@ -135,20 +127,17 @@ A pointer to the first
       <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_dns_server_address_xp">IP_ADAPTER_DNS_SERVER_ADDRESS</a> structure 
       in a linked list of DNS server addresses for the adapter.
 
-
 ### -field DnsSuffix
 
 Type: <b>PWCHAR</b>
 
 The Domain Name System (DNS) suffix associated with this adapter.
 
-
 ### -field Description
 
 Type: <b>PWCHAR</b>
 
 A description for the adapter. This member is read-only.
-
 
 ### -field FriendlyName
 
@@ -164,7 +153,6 @@ This member is the ifAlias field used by NDIS as described in
        NDIS interface provider when the NDIS driver is installed. For NDIS miniport drivers, this field is set by 
        NDIS.
 
-
 ### -field PhysicalAddress
 
 Type: <b>BYTE[MAX_ADAPTER_ADDRESS_LENGTH]</b>
@@ -172,14 +160,12 @@ Type: <b>BYTE[MAX_ADAPTER_ADDRESS_LENGTH]</b>
 The Media Access Control (MAC) address for the adapter. For example, on an Ethernet network this member 
       would specify the Ethernet hardware address.
 
-
 ### -field PhysicalAddressLength
 
 Type: <b>DWORD</b>
 
 The length, in bytes, of the address specified in the <b>PhysicalAddress</b> member. 
       For interfaces that do not have a data-link layer, this value is zero.
-
 
 ### -field Flags
 
@@ -332,15 +318,12 @@ The adapter is enabled for IPv6 managed address configuration.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Mtu
 
 Type: <b>DWORD</b>
 
 The maximum transmission unit (MTU) size, in bytes.
-
 
 ### -field IfType
 
@@ -463,8 +446,6 @@ An IEEE 1394 (Firewire) high performance serial bus network interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field OperStatus
 
@@ -573,8 +554,6 @@ A refinement on the <b>IfOperStatusDown</b> state. This new state indicates that
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Ipv6IfIndex
 
@@ -952,12 +931,8 @@ IP over HTTPS encapsulation for IPv6 packets.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function retrieves 
      information for IPv4 and IPv6 addresses and returns this information as a linked list of 
@@ -1237,14 +1212,7 @@ int __cdecl main(int argc, char **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
@@ -1303,7 +1271,4 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

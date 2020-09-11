@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetcenterpointmethods\getcenterpoint.htm
 ms.date: 12/05/2018
 ms.keywords: GetCenterPoint, GetCenterPoint method [GDI+], GetCenterPoint method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetCenterPoint method, PathGradientBrush.GetCenterPoint, PathGradientBrush.GetCenterPoint(OUT Point), PathGradientBrush.GetCenterPoint(Point*), PathGradientBrush::GetCenterPoint, PathGradientBrush::GetCenterPoint(OUT Point), _gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Point_point_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Point_point_
-f1_keywords:
-- gdipluspath/PathGradientBrush.GetCenterPoint
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- PathGradientBrush.GetCenterPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - PathGradientBrush::GetCenterPoint
+ - gdipluspath/PathGradientBrush::GetCenterPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - PathGradientBrush.GetCenterPoint
 ---
 
 # PathGradientBrush::GetCenterPoint(OUT Point)
@@ -50,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PathGradientBrush::GetCenterPoint</b> method gets the center point of this path gradient brush.
 
-
 ## -parameters
-
-
-
 
 ### -param point [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>*</b>
 
 Pointer to a 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that receives the center point. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that receives the center point.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -79,12 +72,7 @@ If the method succeeds, it returns <b>Ok</b>, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 By default, the center point of a 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object is at the centroid of the brush's boundary path, but you can set the center point to any location, inside or outside the path, by calling the 
@@ -134,14 +122,7 @@ VOID Example_GetCenterPoint(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -172,7 +153,4 @@ VOID Example_GetCenterPoint(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)">PathGradientBrush::SetCenterPoint Methods</a>
- 
-
- 
 

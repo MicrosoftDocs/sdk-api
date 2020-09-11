@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
 ms.date: 12/05/2018
 ms.keywords: GetLongPathNameTransacted, GetLongPathNameTransacted function [Files], GetLongPathNameTransactedA, GetLongPathNameTransactedW, fs.getlongpathnametransacted, winbase/GetLongPathNameTransacted, winbase/GetLongPathNameTransactedA, winbase/GetLongPathNameTransactedW
-f1_keywords:
-- winbase/GetLongPathNameTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- GetLongPathNameTransacted
-- GetLongPathNameTransactedA
-- GetLongPathNameTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLongPathNameTransactedW
+ - winbase/GetLongPathNameTransactedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - GetLongPathNameTransacted
+ - GetLongPathNameTransactedA
+ - GetLongPathNameTransactedW
 ---
 
 # GetLongPathNameTransactedW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -70,11 +70,7 @@ To perform this operation without a transaction, use the
 For more information about file and path names, see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszShortPath [in]
 
@@ -88,29 +84,23 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> (26
 The path must reside on the local computer; otherwise, the function fails and the last error code is set to 
       <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
-
 ### -param lpszLongPath [out]
 
 A pointer to the buffer to receive the long path.
 
 You can use the same buffer you used for the <i>lpszShortPath</i> parameter.
 
-
 ### -param cchBuffer [in]
 
 The size of the buffer <i>lpszLongPath</i> points to, in 
       <b>TCHAR</b>s.
-
 
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the length, in <b>TCHAR</b>s, of the 
        string copied to <i>lpszLongPath</i>, not including the terminating null character.
@@ -123,12 +113,7 @@ If the function fails for any other reason, such as if the file does not exist, 
        get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 On many file systems, a short file name contains a tilde (~) character. However, not all file systems follow 
     this convention. Therefore, do not assume that you can skip calling 
@@ -225,9 +210,6 @@ SMB 3.0 does not support TxF.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
@@ -245,7 +227,4 @@ SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
 

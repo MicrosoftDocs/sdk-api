@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: b9e67a37-c09d-46f3-896f-e75122256812
 ms.date: 12/05/2018
 ms.keywords: IComponent2, IComponent2 interface [MMC], IComponent2 interface [MMC],described, _slate_icomponent2, mmc.icomponent2, mmc/IComponent2
-f1_keywords:
-- mmc/IComponent2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IComponent2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponent2
+ - mmc/IComponent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IComponent2
 ---
 
 # IComponent2 interface
 
 
 ## -description
-
 
 The 
 <b>IComponent2</b> interface, implemented by snap-ins, is introduced in MMC 2.0 and supersedes the 
@@ -63,7 +63,6 @@ Additionally, the
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-querydispatch">IComponent2::QueryDispatch</a> method provides an IDispatch interface to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-object">View</a> object for use with the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
-
 
 ## -inheritance
 
@@ -185,16 +184,9 @@ Restores the result view (supersedes <a href="https://docs.microsoft.com/previou
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/restoring-result-views">Restoring Result Views</a>
- 
-
- 
 

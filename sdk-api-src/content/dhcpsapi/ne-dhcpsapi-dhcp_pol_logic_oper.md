@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10
 ms.date: 12/05/2018
 ms.keywords: DHCP_POL_LOGIC_OPER, DHCP_POL_LOGIC_OPER enumeration [DHCP], DhcpLogicalAnd, DhcpLogicalOr, dhcp.dhcp_pol_logic_oper, dhcpsapi/DHCP_POL_LOGIC_OPER, dhcpsapi/DhcpLogicalAnd, dhcpsapi/DhcpLogicalOr
-f1_keywords:
-- dhcpsapi/DHCP_POL_LOGIC_OPER
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dhcpsapi.h
-api_name:
-- DHCP_POL_LOGIC_OPER
 targetos: Windows
 req.typenames: DHCP_POL_LOGIC_OPER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DHCP_POL_LOGIC_OPER
+ - dhcpsapi/DHCP_POL_LOGIC_OPER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dhcpsapi.h
+api_name:
+ - DHCP_POL_LOGIC_OPER
 ---
 
 # DHCP_POL_LOGIC_OPER enumeration
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCP_POL_LOGIC_OPER</b> enumeration defines how to group the constituent conditions and sub-expressions of an expression in a DHCP server policy.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DhcpLogicalOr
 
 The results of the constituent conditions and sub-expressions must be logically ORed to evaluate the expression.
 
-
 ### -field DhcpLogicalAnd
 
 The results of the constituent conditions and sub-expressions must be logically ANDed to evaluate the expression.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_expr">DHCP_POL_EXP</a>
 
@@ -86,7 +77,4 @@ The results of the constituent conditions and sub-expressions must be logically 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcphlprmodifyv4policyexpr">DhcpHlprModifyV4PolicyExpr</a>
- 
-
- 
 

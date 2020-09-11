@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 8590e9b1-2bbf-47e5-96de-8765a475a972
 ms.date: 12/05/2018
 ms.keywords: ITAddressDeviceSpecificEvent, ITAddressDeviceSpecificEvent interface [TAPI 2.2], ITAddressDeviceSpecificEvent interface [TAPI 2.2],described, _tapi3_itaddressdevicespecificevent, tapi3.itaddressdevicespecificevent, tapi3if/ITAddressDeviceSpecificEvent
-f1_keywords:
-- tapi3if/ITAddressDeviceSpecificEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddressDeviceSpecificEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddressDeviceSpecificEvent
+ - tapi3if/ITAddressDeviceSpecificEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddressDeviceSpecificEvent
 ---
 
 # ITAddressDeviceSpecificEvent interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITAddressDeviceSpecificEvent</b> exposes methods that allow an application to retrieve information about a device-specific event.
 
 For a code example that illustrates how to create this interface, see the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-and-address-device-specific-events">Phone and Address Device-specific Events</a> topic.
-
 
 ## -inheritance
 
@@ -119,5 +118,5 @@ Gets the third device-specific buffer.
 
 </td>
 </tr>
-</table> 
+</table>
 

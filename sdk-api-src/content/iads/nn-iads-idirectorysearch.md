@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: e8989795-8f72-476a-a69e-c0e8800289ab
 ms.date: 12/05/2018
 ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI],described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
-f1_keywords:
-- iads/IDirectorySearch
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-- Adsldp.dll
-- Adsldpc.dll
-api_name:
-- IDirectorySearch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectorySearch
+ - iads/IDirectorySearch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+ - Adsldp.dll
+ - Adsldpc.dll
+api_name:
+ - IDirectorySearch
 ---
 
 # IDirectorySearch interface
@@ -51,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectorySearch</b> interface is a pure COM interface that provides a low overhead method that non-Automation clients can use to perform queries in the underlying directory.
 
 Of the ADSI system-supplied providers, only the LDAP provider supports this interface.
-
 
 ## -inheritance
 
@@ -162,5 +161,5 @@ Sets options for conducting a search.
 
 </td>
 </tr>
-</table> 
+</table>
 

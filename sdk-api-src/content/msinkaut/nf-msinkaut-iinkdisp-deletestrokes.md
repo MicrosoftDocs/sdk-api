@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: cbc11006-a434-46f8-a78c-3b67e35ed32a
 ms.date: 12/05/2018
 ms.keywords: DeleteStrokes, DeleteStrokes method [Tablet PC], DeleteStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],DeleteStrokes method, IInkDisp.DeleteStrokes, IInkDisp::DeleteStrokes, cbc11006-a434-46f8-a78c-3b67e35ed32a, msinkaut/IInkDisp::DeleteStrokes, tablet.inkdisp_deletestrokes
-f1_keywords:
-- msinkaut/IInkDisp.DeleteStrokes
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkDisp.DeleteStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDisp::DeleteStrokes
+ - msinkaut/IInkDisp::DeleteStrokes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkDisp.DeleteStrokes
 ---
 
 # IInkDisp::DeleteStrokes
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Deletes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Strokes</a> collection of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Strokes [in, optional]
 
 Optional. Specifies the collection of strokes to delete from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -156,14 +146,8 @@ Unexpected parameter or property type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method deletes all of the strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object if no <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is passed in. To delete only one stroke at a time, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke">DeleteStroke</a> method.
 
@@ -173,13 +157,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">In
 <div> </div>
 <b>DeleteStrokes</b> can result in an error if called while the user is actively laying down ink.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke">DeleteStroke Method</a>
 
@@ -194,7 +172,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">In
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

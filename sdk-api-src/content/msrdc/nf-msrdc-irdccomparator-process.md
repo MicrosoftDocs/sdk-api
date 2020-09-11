@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: cc98a90c-ba82-4b92-a56c-07496a843089
 ms.date: 12/05/2018
 ms.keywords: IRdcComparator interface [Remote Differential Compression],Process method, IRdcComparator.Process, IRdcComparator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcComparator interface, fs.irdccomparator_process, msrdc/IRdcComparator::Process, rdc.irdccomparator_process
-f1_keywords:
-- msrdc/IRdcComparator.Process
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcComparator.Process
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcComparator::Process
+ - msrdc/IRdcComparator::Process
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcComparator.Process
 ---
 
 # IRdcComparator::Process
@@ -49,36 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Process</b> method 
     compares two signature streams (seed and source) and produces a needs list, which describes the chunks of file data needed to create 
     the target file. The seed signature file may be read multiple times, depending on the size of the 
     source signature file.
 
-
 ## -parameters
-
-
-
 
 ### -param endOfInput [in]
 
 Set to <b>TRUE</b> if the <i>inputBuffer</i> parameter contains all 
       remaining input.
 
-
 ### -param endOfOutput [out]
 
 Address of a <b>BOOL</b> that on successful completion is set to 
       <b>TRUE</b> if all output data has been generated.
-
 
 ### -param inputBuffer [in, out]
 
 Address of a <a href="/windows/win32/api/msrdc/ns-msrdc-rdcbufferpointer">RdcBufferPointer</a> structure containing 
       information about the input buffer. The <b>m_Used</b> member of this structure is used to 
       indicate how much input, if any, was processed during this call.
-
 
 ### -param outputBuffer [in, out]
 
@@ -90,7 +83,6 @@ Address of a <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedP
       <b>RdcNeed</b> structures in the array pointed to by the 
       <b>m_Data</b> member.
 
-
 ### -param rdc_ErrorCode [out]
 
 The address of a <a href="/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a> enumeration that is 
@@ -100,32 +92,18 @@ The address of a <a href="/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_E
       return value of the <b>Process</b> method contains the 
       specific error code.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 On successful return, iterate through each <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structure 
    returned in the array pointed to by the <b>m_Data</b> member of the 
    <i>outputBuffer</i> parameter, and copy the specified chunk of the source or seed data to the 
    target data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdccomparator">IRdcComparator</a>
 
@@ -140,7 +118,4 @@ On successful return, iterate through each <a href="/windows/win32/api/msrdc/ns-
 
 
 <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a>
- 
-
- 
 

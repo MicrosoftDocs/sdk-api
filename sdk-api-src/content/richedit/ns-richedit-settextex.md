@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\settextex.htm
 ms.date: 12/05/2018
 ms.keywords: SETTEXTEX, SETTEXTEX structure [Windows Controls], ST_DEFAULT, ST_KEEPUNDO, ST_NEWCHARS, ST_SELECTION, ST_UNICODE, _win32_SETTEXTEX_str, _win32_SETTEXTEX_str_cpp, controls.SETTEXTEX, controls._win32_SETTEXTEX_str, richedit/SETTEXTEX
-f1_keywords:
-- richedit/SETTEXTEX
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- SETTEXTEX
 targetos: Windows
 req.typenames: SETTEXTEX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _settextex
+ - richedit/_settextex
+ - SETTEXTEX
+ - richedit/SETTEXTEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - SETTEXTEX
 ---
 
 # SETTEXTEX structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the <a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a> message. 
-
+Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the <a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a> message.
 
 ## -struct-fields
-
-
-
 
 ### -field flags
 
@@ -122,23 +120,14 @@ The text is UTF-16
 </td>
 </tr>
 </table>
- 
-
 
 ### -field codepage
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The code page used to translate the text to Unicode. If <b>codepage</b> is 1200 (Unicode code page), no translation is done. If <b>codepage</b> is CP_ACP, the system code page is used. 
-
+The code page used to translate the text to Unicode. If <b>codepage</b> is 1200 (Unicode code page), no translation is done. If <b>codepage</b> is CP_ACP, the system code page is used.
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a>
- 
-
- 
 

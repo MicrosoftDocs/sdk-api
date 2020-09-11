@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 80d3f4b3-503b-4abb-826c-e5c09972ba2f
 ms.date: 12/05/2018
 ms.keywords: GCP_CLASSIN, GCP_DIACRITIC, GCP_DISPLAYZWG, GCP_GLYPHSHAPE, GCP_JUSTIFY, GCP_KASHIDA, GCP_LIGATE, GCP_MAXEXTENT, GCP_NEUTRALOVERRIDE, GCP_NUMERICOVERRIDE, GCP_NUMERICSLATIN, GCP_NUMERICSLOCAL, GCP_REORDER, GCP_SYMSWAPOFF, GCP_USEKERNING, GetCharacterPlacement, GetCharacterPlacement function [Windows GDI], GetCharacterPlacementA, GetCharacterPlacementW, _win32_GetCharacterPlacement, gdi.getcharacterplacement, wingdi/GetCharacterPlacement, wingdi/GetCharacterPlacementA, wingdi/GetCharacterPlacementW
-f1_keywords:
-- wingdi/GetCharacterPlacement
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetCharacterPlacement
-- GetCharacterPlacementA
-- GetCharacterPlacementW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCharacterPlacementW
+ - wingdi/GetCharacterPlacementW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetCharacterPlacement
+ - GetCharacterPlacementA
+ - GetCharacterPlacementW
 ---
 
 # GetCharacterPlacementW function
 
 
 ## -description
-
 
 The <b>GetCharacterPlacement</b> function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering. The type of information returned depends on the <i>dwFlags</i> parameter and is based on the currently selected font in the specified display context. The function copies the information to the specified <a href="/windows/desktop/api/wingdi/ns-wingdi-gcp_resultsa">GCP_RESULTS</a> structure or to one or more arrays specified by the structure.
 
@@ -62,21 +62,15 @@ It is recommended that an application use the <a href="/windows/desktop/api/wing
 
 The GCP_NODIACRITICS value is no longer defined and should not be used.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param lpString [in]
 
 A pointer to the character string to process. The string does not need to be zero-terminated, since <i>nCount</i> specifies the length of the string.
-
 
 ### -param nCount [in]
 
@@ -86,11 +80,9 @@ The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">lengt
 
 The maximum extent (in logical units) to which the string is processed. Characters that, if processed, would exceed this extent are ignored. Computations for any required ordering or glyph arrays apply only to the included characters. This parameter is used only if the GCP_MAXEXTENT value is specified in the <i>dwFlags</i> parameter. As the function processes the input string, each character and its extent is added to the output, extent, and other arrays only if the total extent has not yet exceeded the maximum. Once the limit is reached, processing will stop.
 
-
 ### -param lpResults [in, out]
 
 A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-gcp_resultsa">GCP_RESULTS</a> structure that receives the results of the function.
-
 
 ### -param dwFlags [in]
 
@@ -278,20 +270,13 @@ It is recommended that an application use the <a href="/windows/desktop/api/wing
 
 The GCP_NODIACRITICS value is no longer defined and should not be used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the  width and height of the string in logical units. The width is the low-order word and the height is the high-order word.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
 
 <b>GetCharacterPlacement</b> ensures that an application can correctly process text regardless of the international setting and type of fonts available. Applications use this function before using the <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function and in place of the <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a> function (and occasionally in place of the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidth32a">GetCharWidth32</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a> functions).
 
@@ -314,10 +299,7 @@ If the logical width is less than the width of the leading character in the inpu
 > [!NOTE]
 > The wingdi.h header defines GetCharacterPlacement as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
-
 ## -see-also
-
-
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
@@ -356,3 +338,4 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a>
+

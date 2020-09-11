@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: f2b1f43a-e86c-4ec9-a39f-9c5050f3e3c3
 ms.date: 12/05/2018
 ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEndpointProxy method, IWSDAsyncResult.GetEndpointProxy, IWSDAsyncResult::GetEndpointProxy, ncd.iwsdasyncresult_getendpointproxy, wsdclient/IWSDAsyncResult::GetEndpointProxy
-f1_keywords:
-- wsdclient/IWSDAsyncResult.GetEndpointProxy
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDAsyncResult.GetEndpointProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDAsyncResult::GetEndpointProxy
+ - wsdclient/IWSDAsyncResult::GetEndpointProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDAsyncResult.GetEndpointProxy
 ---
 
 # IWSDAsyncResult::GetEndpointProxy
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the endpoint proxy for the asynchronous operation.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEndpoint [out]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a> interface that implements an endpoint proxy.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,18 +95,8 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
- 
-
- 
 

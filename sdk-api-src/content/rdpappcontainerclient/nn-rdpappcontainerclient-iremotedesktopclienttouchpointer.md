@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 98c47e41-ecda-45cb-94e9-de51edc7af08
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services], IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientTouchPointer, termserv.iremotedesktopclienttouchpointer
-f1_keywords:
-- rdpappcontainerclient/IRemoteDesktopClientTouchPointer
-dev_langs:
-- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library: MsTscAx.dll
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsTscAx.dll
-api_name:
-- IRemoteDesktopClientTouchPointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRemoteDesktopClientTouchPointer
+ - rdpappcontainerclient/IRemoteDesktopClientTouchPointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsTscAx.dll
+api_name:
+ - IRemoteDesktopClientTouchPointer
 ---
 
 # IRemoteDesktopClientTouchPointer interface
 
 
 ## -description
-
-
 
 Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
 
@@ -119,16 +118,9 @@ Right button click and hold
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 57ac201e-0680-4856-ab05-9f8b49aecd62
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetShowWindow method, IExecuteCommand.SetShowWindow, IExecuteCommand::SetShowWindow, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, SetShowWindow, SetShowWindow method [Windows Shell], SetShowWindow method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetShowWindow, shell.IExecuteCommand_SetShowWindow, shobjidl_core/IExecuteCommand::SetShowWindow
-f1_keywords:
-- shobjidl_core/IExecuteCommand.SetShowWindow
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExecuteCommand.SetShowWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExecuteCommand::SetShowWindow
+ - shobjidl_core/IExecuteCommand::SetShowWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExecuteCommand.SetShowWindow
 ---
 
 # IExecuteCommand::SetShowWindow
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the specified window's visual state.
 
-
 ## -parameters
-
-
-
 
 ### -param nShow [in]
 
@@ -136,14 +132,9 @@ Displays a window in its most recent size and position. The active window remain
 
 Default state. Activates and displays a window. If the window is minimized or maximized, Windows restores it to its original size and position. An application should specify this flag when it displays the window for the first time.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 4DF613C7-CF82-47DB-9D6A-F820373534E6
 ms.date: 12/05/2018
 ms.keywords: RpcServerCompleteSecurityCallback, RpcServerCompleteSecurityCallback function [RPC], rpc.rpcservercompletesecuritycallback, rpcdce/RpcServerCompleteSecurityCallback
-f1_keywords:
-- rpcdce/RpcServerCompleteSecurityCallback
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerCompleteSecurityCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerCompleteSecurityCallback
+ - rpcdce/RpcServerCompleteSecurityCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerCompleteSecurityCallback
 ---
 
 # RpcServerCompleteSecurityCallback function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RpcServerCompleteSecurityCallback</b> function completes an asynchronous security callback. This function can cause the call either to be dispatched or fail.
-
 
 ## -parameters
 
-
-
-
 ### -param BindingHandle [in]
 
-The Server Call that this function dispatches or fails. 
-
+The Server Call that this function dispatches or fails.
 
 ### -param Status [in]
 
@@ -73,9 +68,5 @@ Specifies an RPC status. If this value is not <b>RPC_S_OK</b>, the Server Call i
 
 ## -returns
 
-
-
 This function returns RPC_STATUS.
-
-
 

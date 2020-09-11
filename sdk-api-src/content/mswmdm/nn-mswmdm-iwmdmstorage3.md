@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: b62ea18b-c692-464f-a009-727a2924f8b8
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage3, IWMDMStorage3 interface [windows Media Device Manager], IWMDMStorage3 interface [windows Media Device Manager],described, IWMDMStorage3Interface, mswmdm/IWMDMStorage3, wmdm.iwmdmstorage3
-f1_keywords:
-- mswmdm/IWMDMStorage3
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMStorage3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMStorage3
+ - mswmdm/IWMDMStorage3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMStorage3
 ---
 
 # IWMDMStorage3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDMStorage3</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2</a> by exposing metadata.
-
-
-
 
 ## -inheritance
 
@@ -107,13 +103,9 @@ Sets metadata on the storage object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
@@ -128,7 +120,4 @@ Sets metadata on the storage object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

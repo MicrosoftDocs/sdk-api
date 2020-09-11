@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::SetServerCertificate
 f1_keywords:
+ - IMFContentDecryptionModule::SetServerCertificate
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::SetServerCertificate
 dev_langs:
  - c++

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 08bbeabc-b589-41b2-b3f2-70b2390f11f0
 ms.date: 12/05/2018
 ms.keywords: '*PMOVE_FILE_DATA, MOVE_FILE_DATA, MOVE_FILE_DATA structure [Files], PMOVE_FILE_DATA, PMOVE_FILE_DATA structure pointer [Files], _win32_move_file_data_str, base.move_file_data_str, fs.move_file_data_str, winioctl/MOVE_FILE_DATA, winioctl/PMOVE_FILE_DATA'
-f1_keywords:
-- winioctl/MOVE_FILE_DATA
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- MOVE_FILE_DATA
 targetos: Windows
 req.typenames: MOVE_FILE_DATA, *PMOVE_FILE_DATA
 req.redist: 
+f1_keywords:
+ - PMOVE_FILE_DATA
+ - winioctl/PMOVE_FILE_DATA
+ - MOVE_FILE_DATA
+ - winioctl/MOVE_FILE_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - MOVE_FILE_DATA
 ---
 
 # MOVE_FILE_DATA structure
@@ -48,15 +51,10 @@ req.redist:
 
 ## -description
 
-
 Contains input data for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> 
     control code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FileHandle
 
@@ -70,25 +68,19 @@ If the file is encrypted, the handle must have the <b>FILE_READ_DATA</b>,
        <b>FILE_EXECUTE</b> access right. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -field StartingVcn
 
 A VCN (cluster number relative to the beginning of a file) of the first cluster to be moved.
-
 
 ### -field StartingLcn
 
 An LCN (cluster number on a volume) to which the VCN is to be moved.
 
-
 ### -field ClusterCount
 
 The count of clusters to be moved.
 
-
 ## -remarks
-
-
 
 To retrieve data to fill in this structure, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
@@ -107,13 +99,7 @@ The move delta is the number of bytes between the start of the source block and 
 
 For more information about shadow copies, see <a href="https://docs.microsoft.com/windows/desktop/VSS/about-the-volume-shadow-copy-service">Volume Shadow Copy Service</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmenting Files</a>
 
@@ -136,7 +122,4 @@ For more information about shadow copies, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>
- 
-
- 
 

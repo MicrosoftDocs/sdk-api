@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a0a0081b-9132-4dea-967b-1ee1d1fdfa13
 ms.date: 12/05/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointer, SetFilePointer function [Files], _win32_setfilepointer, base.setfilepointer, fileapi/SetFilePointer, fs.setfilepointer, winbase/SetFilePointer
-f1_keywords:
-- fileapi/SetFilePointer
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetFilePointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFilePointer
+ - fileapi/SetFilePointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetFilePointer
 ---
 
 # SetFilePointer function
@@ -56,18 +57,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the file pointer of the specified file.
 
 This function stores the file pointer in two <b>LONG</b> values. To work with file pointers
      that are larger than a single <b>LONG</b> value, it is easier to use the 
      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilepointerex">SetFilePointerEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -77,7 +73,6 @@ A handle to the file.
 The file handle must be created with the <b>GENERIC_READ</b> or 
        <b>GENERIC_WRITE</b> access right. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
-
 
 ### -param lDistanceToMove [in]
 
@@ -93,7 +88,6 @@ If <i>lpDistanceToMoveHigh</i> is <b>NULL</b>,
        <i>lDistanceToMove</i> moves the file pointer forward in the file, and a negative value 
        moves the file pointer back.
 
-
 ### -param lpDistanceToMoveHigh [in, out, optional]
 
 A pointer to the high order 32-bits of the signed 64-bit distance to move.
@@ -104,7 +98,6 @@ If you do not need the high order 32-bits, this pointer must be set to <b>NULL</
 When  not <b>NULL</b>, this parameter also receives the high order 
        <b>DWORD</b> of the new value of the file pointer. For more information, see the Remarks 
        section in this topic.
-
 
 ### -param dwMoveMethod [in]
 
@@ -152,12 +145,8 @@ The starting point is the current end-of-file position.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds and <i>lpDistanceToMoveHigh</i> is 
        <b>NULL</b>, the return value is the low-order <b>DWORD</b> of the new 
@@ -196,11 +185,7 @@ If <i>lpDistanceToMoveHigh</i> is <b>NULL</b> and the new file position
        Remarks section in this topic.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The file pointer that is identified by the value of the <i>hFile</i> parameter is not used 
     for overlapped read and write operations. 
@@ -434,12 +419,7 @@ For a code example of appending files, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
@@ -478,7 +458,4 @@ For a code example of appending files, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

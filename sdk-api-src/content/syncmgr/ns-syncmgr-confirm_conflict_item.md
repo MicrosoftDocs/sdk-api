@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3be4a8ec-eeab-4453-a2cb-18cadf39464a
 ms.date: 12/05/2018
 ms.keywords: CONFIRM_CONFLICT_ITEM, CONFIRM_CONFLICT_ITEM structure [Windows Shell], _shell_CONFIRM_CONFLICT_ITEM, shell.CONFIRM_CONFLICT_ITEM, syncmgr/CONFIRM_CONFLICT_ITEM
-f1_keywords:
-- syncmgr/CONFIRM_CONFLICT_ITEM
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Syncmgr.h
-api_name:
-- CONFIRM_CONFLICT_ITEM
 targetos: Windows
 req.typenames: CONFIRM_CONFLICT_ITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CONFIRM_CONFLICT_ITEM
+ - syncmgr/CONFIRM_CONFLICT_ITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Syncmgr.h
+api_name:
+ - CONFIRM_CONFLICT_ITEM
 ---
 
 # CONFIRM_CONFLICT_ITEM structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines conflict item structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pShellItem
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a> interface.
 
-
 ### -field pszOriginalName
 
 Type: <b>LPWSTR</b>
 
 A pointer to the original name. If set to <b>NULL</b> then IShellItem's display name will be used.
-
 
 ### -field pszAlternateName
 
@@ -78,20 +72,17 @@ Type: <b>LPWSTR</b>
 
 A pointer to the alternate name. If multiple items are kept, then item must be renamed to this name. User may or may not have an ability to change the name.
 
-
 ### -field pszLocationShort
 
 Type: <b>LPWSTR</b>
 
 A pointer to the short location.
 
-
 ### -field pszLocationFull
 
 Type: <b>LPWSTR</b>
 
 A pointer to the full location.
-
 
 ### -field nType
 

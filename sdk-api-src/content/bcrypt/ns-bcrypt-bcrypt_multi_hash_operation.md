@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: B0418A07-D2EE-4346-9971-676C8FB08FAA
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_HASH_OPERATION, BCRYPT_MULTI_HASH_OPERATION structure [Security], bcrypt/BCRYPT_MULTI_HASH_OPERATION, security.bcrypt_multi_hash_operation
-f1_keywords:
-- bcrypt/BCRYPT_MULTI_HASH_OPERATION
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- BCRYPT_MULTI_HASH_OPERATION
 targetos: Windows
 req.typenames: BCRYPT_MULTI_HASH_OPERATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BCRYPT_MULTI_HASH_OPERATION
+ - bcrypt/_BCRYPT_MULTI_HASH_OPERATION
+ - BCRYPT_MULTI_HASH_OPERATION
+ - bcrypt/BCRYPT_MULTI_HASH_OPERATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - BCRYPT_MULTI_HASH_OPERATION
 ---
 
 # BCRYPT_MULTI_HASH_OPERATION structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 A <b>BCRYPT_MULTI_HASH_OPERATION</b> structure defines a single operation in a multi-hash operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field iHash
 
 An index into the multi-object state array of the hash state on which this computation operates. The first element of the array corresponds to an <i>iHash</i> value of zero (0). Valid values are less than the value of the <i>nHashes</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
-
 
 ### -field hashOperation
 
@@ -71,21 +68,15 @@ If the value is <b>BCRYPT_HASH_OPERATION_HASH_DATA</b>, the operation performed 
 
 If the value is <b>BCRYPT_HASH_OPERATION_FINISH_HASH</b>, the operation performed is  equivalent to calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function on the hash object array element with <i>pbBuffer</i>/<i>cbBuffer</i> pointing to the output buffer that receives the result.
 
-
 ### -field pbBuffer
 
 The buffer on which the operation works.
-
 
 ### -field cbBuffer
 
 The buffer on which the operation works.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a>
 
@@ -96,7 +87,4 @@ The buffer on which the operation works.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>
- 
-
- 
 

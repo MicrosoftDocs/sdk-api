@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 20C46E2A-E79F-47B9-9D7A-74CD3AF03EF7
 ms.date: 12/05/2018
 ms.keywords: FhServiceClosePipe, FhServiceClosePipe function [Windows API], fhsvcctl/FhServiceClosePipe, winprog.fhserviceclosepipe
-f1_keywords:
-- fhsvcctl/FhServiceClosePipe
-dev_langs:
-- c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FhSvcCtl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FhSvcCtl.lib
-- FhSvcCtl.dll
-api_name:
-- FhServiceClosePipe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FhServiceClosePipe
+ - fhsvcctl/FhServiceClosePipe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FhSvcCtl.lib
+ - FhSvcCtl.dll
+api_name:
+ - FhServiceClosePipe
 ---
 
 # FhServiceClosePipe function
 
 
 ## -description
-
 
 Closes a communication channel to the File History Service opened with <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>.
 
@@ -58,39 +58,19 @@ Closes a communication channel to the File History Service opened with <a href="
 
 ## -parameters
 
-
-
-
 ### -param Pipe [in]
 
 The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
-
 ## -returns
-
-
 
 <b>S_OK</b> on success, or an unsuccessful <b>HRESULT</b> value on failure. Possible unsuccessful <b>HRESULT</b> values include values defined in the FhErrors.h header file.
 
-
-
-
 ## -remarks
-
-
 
 An application should call <b>FhServiceClosePipe</b> once for each communication channel handle it opens with <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>. Closing a communication channel handle multiple times is not supported and may lead to unpredictable behavior.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
- 
-
- 
 

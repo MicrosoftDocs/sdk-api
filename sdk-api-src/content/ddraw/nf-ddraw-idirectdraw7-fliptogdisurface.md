@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 495cace2-a315-4937-b0d9-9f77f5d95f66
 ms.date: 12/05/2018
 ms.keywords: FlipToGDISurface, FlipToGDISurface method [DirectDraw], FlipToGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],FlipToGDISurface method, IDirectDraw7.FlipToGDISurface, IDirectDraw7::FlipToGDISurface, ddraw/IDirectDraw7::FlipToGDISurface, directdraw.idirectdraw7_fliptogdisurface
-f1_keywords:
-- ddraw/IDirectDraw7.FlipToGDISurface
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDraw7.FlipToGDISurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDraw7::FlipToGDISurface
+ - ddraw/IDirectDraw7::FlipToGDISurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDraw7.FlipToGDISurface
 ---
 
 # IDirectDraw7::FlipToGDISurface
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Makes the surface that the GDI writes to the primary surface.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -76,11 +68,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_NOTFOUND</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 You can call  <b>FlipToGDISurface</b> at the end of a page-flipping application to ensure that the display memory that the GDI writes to is visible.
 
@@ -90,16 +78,7 @@ You can also use  <b>FlipToGDISurface</b> to make the GDI surface the primary su
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>FlipToGDISurface</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 323181ab-1dc2-4b2a-a91f-3eccd7968bcd
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithFile, IInitializeWithFile interface [Windows Shell], IInitializeWithFile interface [Windows Shell],described, propsys/IInitializeWithFile, shell.IInitializeWithFile, shell_IInitializeWithFile
-f1_keywords:
-- propsys/IInitializeWithFile
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IInitializeWithFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitializeWithFile
+ - propsys/IInitializeWithFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IInitializeWithFile
 ---
 
 # IInitializeWithFile interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method to initialize a handler, such as a property handler, thumbnail handler, or preview handler, with a file path.
-
 
 ## -inheritance
 
@@ -77,14 +76,9 @@ Initializes a handler with a file path.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Whenever possible, it is recommended that initialization be done through a stream using <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-iinitializewithstream">IInitializeWithStream</a>. Benefits of this include increased security and stability.
-
-
 

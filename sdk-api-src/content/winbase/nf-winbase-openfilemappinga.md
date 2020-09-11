@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4896144c-78fc-4d21-a302-d9ba66fb2f8a
 ms.date: 12/05/2018
 ms.keywords: OpenFileMapping, OpenFileMapping function, OpenFileMappingA, OpenFileMappingW, _win32_openfilemapping, base.openfilemapping, fs.openfilemapping, winbase/OpenFileMapping, winbase/OpenFileMappingA, winbase/OpenFileMappingW
-f1_keywords:
-- winbase/OpenFileMapping
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,34 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- OpenFileMapping
-- OpenFileMappingA
-- OpenFileMappingW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenFileMappingA
+ - winbase/OpenFileMappingA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - OpenFileMapping
+ - OpenFileMappingA
+ - OpenFileMappingW
 ---
 
 # OpenFileMappingA function
@@ -64,14 +65,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a named file mapping object.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDesiredAccess [in]
 
@@ -79,13 +75,11 @@ The access to the file mapping object. This access is checked against any securi
       file mapping object. For a list of values, see 
       <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
-
 ### -param bInheritHandle [in]
 
 If this parameter is <b>TRUE</b>, a process created by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can inherit the handle; 
       otherwise, the handle cannot be inherited.
-
 
 ### -param lpName [in]
 
@@ -100,22 +94,14 @@ The name of the file mapping object to be opened. If there is an open handle to 
       user to log on uses session 1, and so on. Kernel object names must follow the guidelines outlined for Terminal 
       Services so that applications can support multiple users.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to the specified file mapping object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The handle that <b>OpenFileMapping</b> returns can be used 
      with any function that requires a handle to a file mapping object.
@@ -196,12 +182,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
@@ -216,7 +197,4 @@ Memory Management Functions
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/sharing-files-and-memory">Sharing Files and Memory</a>
- 
-
- 
 

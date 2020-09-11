@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: F7768A87-3981-48E0-A72D-BEA14C189E6E
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], IUIAutomationDragPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationDragPattern, winauto.uiauto_iuiautomationdragpattern
-f1_keywords:
-- uiautomationclient/IUIAutomationDragPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationDragPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationDragPattern
+ - uiautomationclient/IUIAutomationDragPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationDragPattern
 ---
 
 # IUIAutomationDragPattern interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to information exposed by a UI Automation provider for an element that can be dragged as part of a drag-and-drop operation.
-
 
 ## -inheritance
 
@@ -193,29 +192,17 @@ Indicates whether the user has grabbed this element as part of a drag-and-drop o
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Microsoft UI Automation clients use this interface to access the dragging properties and functionality of a control or UI element that the user can drag-and-drop on a drop target.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/ui-automation-support-for-drag-and-drop">UI Automation Support for Drag-and-Drop</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 29e75f58-58f3-4b3f-a3ba-e3451d3a0cae
 ms.date: 12/05/2018
 ms.keywords: DVD_AudioDuringFFwdRew, DVD_CacheSizeInMB, DVD_DisableStillThrottle, DVD_EnableESOutput, DVD_EnableExtendedCopyProtectErrors, DVD_EnableLoggingEvents, DVD_EnableNonblockingAPIs, DVD_EnablePortableBookmarks, DVD_EnableStreaming, DVD_EnableTitleLength, DVD_HMSF_TimeCodeEvents, DVD_IncreaseOutputControl, DVD_MaxReadBurstInKB, DVD_NotifyParentalLevelChange, DVD_NotifyPositionChange, DVD_OPTION_FLAG, DVD_OPTION_FLAG , DVD_OPTION_FLAG enumeration [DirectShow], DVD_OPTION_FLAGEnumeration, DVD_ReadBurstPeriodInMS, DVD_ResetOnStop, dshow.dvd_option_flag, strmif/DVD_AudioDuringFFwdRew, strmif/DVD_CacheSizeInMB, strmif/DVD_DisableStillThrottle, strmif/DVD_EnableESOutput, strmif/DVD_EnableExtendedCopyProtectErrors, strmif/DVD_EnableLoggingEvents, strmif/DVD_EnableNonblockingAPIs, strmif/DVD_EnablePortableBookmarks, strmif/DVD_EnableStreaming, strmif/DVD_EnableTitleLength, strmif/DVD_HMSF_TimeCodeEvents, strmif/DVD_IncreaseOutputControl, strmif/DVD_MaxReadBurstInKB, strmif/DVD_NotifyParentalLevelChange, strmif/DVD_NotifyPositionChange, strmif/DVD_OPTION_FLAG, strmif/DVD_ReadBurstPeriodInMS, strmif/DVD_ResetOnStop
-f1_keywords:
-- strmif/DVD_OPTION_FLAG
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- DVD_OPTION_FLAG
 targetos: Windows
 req.typenames: DVD_OPTION_FLAG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_strmif_0000_0132_0003
+ - strmif/__MIDL___MIDL_itf_strmif_0000_0132_0003
+ - DVD_OPTION_FLAG
+ - strmif/DVD_OPTION_FLAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - DVD_OPTION_FLAG
 ---
 
 # DVD_OPTION_FLAG enumeration
@@ -49,17 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DVD_OPTION_FLAG</b> enumeration defines flags that control the behavior of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a>. To set any of these flags, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a>.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field DVD_ResetOnStop
 
@@ -88,7 +83,6 @@ The default value is <b>TRUE</b>.
 
 The default behavior is not always desirable, because the filter graph might be stopped unexpectedly. This can happen, for example, if the screen resolution changes, a screen saver starts, or the computer goes into suspended mode. In these situations, the user probably wants playback to restart from the same point. Typically, the application should set this flag to <b>FALSE</b> immediately before calling <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>. It should set the flag to <b>TRUE</b> before calling <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a> in response to an explicit user to command to stop playback.
 
-
 ### -field DVD_NotifyParentalLevelChange
 
 Specifies whether the DVD Navigator notifies the application when the parental level changes on the disc.
@@ -114,7 +108,6 @@ Specifies whether the DVD Navigator notifies the application when the parental l
 
 The default value <b>FALSE</b>.
 
-
 ### -field DVD_HMSF_TimeCodeEvents
 
 Specifies the format for timecode information.
@@ -139,7 +132,6 @@ Specifies the format for timecode information.
 
 
 For backward compatibility, the default value is [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) format is easier to use.
-
 
 ### -field DVD_AudioDuringFFwdRew
 
@@ -172,9 +164,7 @@ You can also enable audio during fast forward and rewind by creating the followi
 
 This has the same effect as setting the DVD_AudioDuringFFwdRew flag to <b>TRUE</b>.
 
-
 ### -field DVD_EnableNonblockingAPIs
-
 
 <div class="alert"><b>Note</b>  Requires Windows XP Service Pack 2 or later.
             </div>
@@ -187,9 +177,7 @@ If this flag is <b>TRUE</b>, those functions no longer block. Instead, if the DV
 
 This flag affects at least the following methods: <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-activateatposition">IDvdControl2::ActivateAtPosition</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectatposition">IDvdControl2::SelectAtPosition</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentlocation">IDvdInfo2::GetCurrentLocation</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getstate">IDvdInfo2::GetState</a>. This list may be expanded in the future.
 
-
 ### -field DVD_CacheSizeInMB
-
 
 <div class="alert"><b>Note</b>  Requires Windows Vista or later.</div>
 <div> </div>
@@ -201,9 +189,7 @@ If the application sets this flag to a large value (&gt; 50 MB), the DVD drive m
 
 You can also set the cache size by creating the following registry key: <code>HKLM\Software\Microsoft\DVDNavigator\CacheSizeInMB</code>. This registry key is intended for diagnostic purposes only. Applications should use the <b>DVD_CacheSizeInMB</b> flag, not the registry key.
 
-
 ### -field DVD_EnablePortableBookmarks
-
 
 <div class="alert"><b>Note</b>  Requires Windows Vista or later.
             </div>
@@ -231,9 +217,7 @@ You can also set the cache size by creating the following registry key: <code>HK
 
 The default value is <b>FALSE</b>.
 
-
 ### -field DVD_EnableExtendedCopyProtectErrors
-
 
 <div class="alert"><b>Note</b>  Requires Windows Vista or later.
             </div>
@@ -252,9 +236,7 @@ If this flag is <b>FALSE</b>, all copy protection errors are reported using the 
 
 For backward compatibility, the default value is <b>FALSE</b>.
 
-
 ### -field DVD_NotifyPositionChange
-
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.
             </div>
@@ -276,9 +258,7 @@ If this flag is <b>TRUE</b>, the following events are enabled:
 </ul>
 The default value for this flag is <b>FALSE</b>.
 
-
 ### -field DVD_IncreaseOutputControl
-
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.
             </div>
@@ -308,9 +288,7 @@ Bitwise <b>OR</b> of the following flags:
 
 The default value is zero. These flags are intended for purposes. The recommended value is zero.
 
-
 ### -field DVD_EnableStreaming
-
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.
             </div>
@@ -321,9 +299,7 @@ Enables or disables <i>streaming mode</i>. In streaming mode, bad blocks on the 
 
 The default value is <b>TRUE</b>.
 
-
 ### -field DVD_EnableESOutput
-
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.
             </div>
@@ -333,7 +309,6 @@ The default value is <b>TRUE</b>.
 Enables the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-dvd-navigator">DVD Navigator</a> to output elementary streams. For more information, see the media types listed in the topic <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-dvd-navigator">DVD Navigator Filter</a>.
 
 The default value is <b>FALSE</b>.
-
 
 ### -field DVD_EnableTitleLength
 
@@ -366,7 +341,6 @@ The default value is <b>FALSE</b>.
 
 The default value is <b>FALSE</b>.
 
-
 ### -field DVD_DisableStillThrottle
 
 If this flag is <b>TRUE</b>, it disables a call to <code>Sleep(1)</code> that the Navigator otherwise makes when displaying stills.
@@ -378,10 +352,7 @@ For backward compatibility, the default value for this flag is <b>FALSE</b>, but
             </div>
 <div> </div>
 
-
-
 ### -field DVD_EnableLoggingEvents
-
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.
             </div>
@@ -412,9 +383,7 @@ If this flag is <b>TRUE</b>, the following events are enabled:
 </ul>
 The default value for this flag is <b>FALSE</b>.
 
-
 ### -field DVD_MaxReadBurstInKB
-
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.
             </div>
@@ -425,9 +394,7 @@ The maximum amount of data that the <a href="https://docs.microsoft.com/windows/
 
 The default value is 128 KB.
 
-
 ### -field DVD_ReadBurstPeriodInMS
-
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.
             </div>
@@ -438,18 +405,11 @@ How often to perform burst reads into the cache, in milliseconds. For this flag,
 
 The default value is 250 milliseconds.
 
-
 ### -field DVD_RestartDisc
-
 
 ### -field DVD_EnableCC
 
-
-
-
 ## -remarks
-
-
 
 The following table lists the default values for the Boolean flags.
 
@@ -513,22 +473,12 @@ The following table lists the default values for the Boolean flags.
 <td><b>TRUE</b></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a>
- 
-
- 
 

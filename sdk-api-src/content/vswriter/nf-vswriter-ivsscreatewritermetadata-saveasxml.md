@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 0894912b-85e3-4a5b-bf1b-6bbfe8c9e820
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SaveAsXML method, IVssCreateWriterMetadata.SaveAsXML, IVssCreateWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_saveasxml, base.ivsscreatewritermetadata_saveasxml, vswriter/IVssCreateWriterMetadata::SaveAsXML
-f1_keywords:
-- vswriter/IVssCreateWriterMetadata.SaveAsXML
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateWriterMetadata.SaveAsXML
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateWriterMetadata::SaveAsXML
+ - vswriter/IVssCreateWriterMetadata::SaveAsXML
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateWriterMetadata.SaveAsXML
 ---
 
 # IVssCreateWriterMetadata::SaveAsXML
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SaveAsXML</b> method saves the Writer Metadata Document that contains a writer's state information to a specified string.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrXML [in]
 
 Pointer to a string to be used to store the Writer Metadata Document that contains a writer's state information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -136,18 +129,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
- 
-
- 
 

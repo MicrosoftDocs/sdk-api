@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: c388d972-07d9-4347-97d3-03a46a6bb50c
 ms.date: 12/05/2018
 ms.keywords: CurrentRatings, CurrentRatings method [Microsoft TV Technologies], CurrentRatings method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, IMSVidStreamBufferSource interface [Microsoft TV Technologies],CurrentRatings method, IMSVidStreamBufferSource.CurrentRatings, IMSVidStreamBufferSource::CurrentRatings, IMSVidStreamBufferSourceCurrentRatings, mstv.imsvidstreambuffersource_currentratings, segment/IMSVidStreamBufferSource::CurrentRatings
-f1_keywords:
-- segment/IMSVidStreamBufferSource.CurrentRatings
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSource.CurrentRatings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSource::CurrentRatings
+ - segment/IMSVidStreamBufferSource::CurrentRatings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSource.CurrentRatings
 ---
 
 # IMSVidStreamBufferSource::CurrentRatings
@@ -49,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CurrentRatings</b> method retrieves the current ratings information from the data source.
 
-
 ## -parameters
-
-
-
 
 ### -param pEnSystem [out]
 
 Pointer to a variable that receives the rating system, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration value.
 
-
 ### -param pEnRating [out]
 
 Receives the rating level, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration value.
-          
-
 
 ### -param pBfEnAttr [out]
 
 Pointer to a variable that receives the ratings attributes, as a bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -97,22 +87,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-components">TV Ratings Components</a>
- 
-
- 
 

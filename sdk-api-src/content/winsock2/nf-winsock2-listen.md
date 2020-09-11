@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 1233feeb-a8c1-49ac-ab34-82af224ecf00
 ms.date: 12/05/2018
 ms.keywords: _win32_listen_2, listen, listen function [Winsock], winsock.listen_2, winsock2/listen
-f1_keywords:
-- winsock2/listen
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- listen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - listen
+ - winsock2/listen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - listen
 ---
 
 # listen function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>listen</b> function places a socket in a state in which it is listening for an incoming connection.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a bound, unconnected socket.
-
 
 ### -param backlog [in]
 
@@ -70,10 +65,7 @@ The maximum length of the queue of pending connections. If set to <b>SOMAXCONN</
 
 <b>SOMAXCONN_HINT</b> is only supported by the Microsoft TCP/IP service provider. There is no standard provision to obtain the actual backlog value.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>listen</b> returns zero. Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code can be retrieved by calling 
@@ -200,14 +192,8 @@ The referenced socket is not of a type that supports the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To accept connections, a socket is first created with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function and bound to a local address with the 
@@ -330,13 +316,7 @@ The <i>backlog</i> parameter is limited (silently) to a reasonable value as dete
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
@@ -355,7 +335,4 @@ The <i>backlog</i> parameter is limited (silently) to a reasonable value as dete
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

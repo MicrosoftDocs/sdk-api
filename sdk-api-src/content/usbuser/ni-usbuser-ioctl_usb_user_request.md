@@ -8,10 +8,6 @@ tech.root: buses
 ms.assetid: 6aba5cf4-a9fa-4d10-a212-acc79e00fa9b
 ms.date: 12/05/2018
 ms.keywords: IOCTL_USB_USER_REQUEST, IOCTL_USB_USER_REQUEST control, IOCTL_USB_USER_REQUEST control code [Buses], buses.ioctl_usb_user_request, usbirp_7409a5c0-756e-45ea-b2f5-0b73d91c9225.xml, usbuser/IOCTL_USB_USER_REQUEST
-f1_keywords:
-- usbuser/IOCTL_USB_USER_REQUEST
-dev_langs:
-- c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbuser.h
-api_name:
-- IOCTL_USB_USER_REQUEST
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_USB_USER_REQUEST
+ - usbuser/IOCTL_USB_USER_REQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbuser.h
+api_name:
+ - IOCTL_USB_USER_REQUEST
 ---
 
 # IOCTL_USB_USER_REQUEST IOCTL
 
 
 ## -description
-
 
 The <b>IOCTL_USB_USER_REQUEST</b> I/O control request is available to both user-mode applications and kernel-mode drivers. 
 
@@ -167,56 +167,35 @@ Do not use this request.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a user request header structure (<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>) that defines the request. Following the header structure is a structure that holds the parameters of the request. For more information about the parameter structures that correspond to each request, see the description of each request.
-
 
 ### -input-buffer-length
 
 The size of a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure.
 
-
 ### -output-buffer
 
 A parameter structure immediately follows the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For some user requests, the parameter structure will contain output data when the request completes.
-
 
 ### -output-buffer-length
 
 The length of the parameter structure.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
 The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>
 
@@ -243,7 +222,4 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_unicode_name">USB_UNICODE_NAME</a>
- 
-
- 
 

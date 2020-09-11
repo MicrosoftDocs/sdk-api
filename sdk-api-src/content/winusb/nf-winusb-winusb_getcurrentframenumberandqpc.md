@@ -8,10 +8,6 @@ tech.root: buses
 ms.assetid: 9D94408F-C1EE-4940-8D33-8C32F5DE7DC4
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetCurrentFrameNumberAndQpc, WinUsb_GetCurrentFrameNumberAndQpc function [Buses], buses.winusb_getcurrentframenumberandqpc, winusb/WinUsb_GetCurrentFrameNumberAndQpc
-f1_keywords:
-- winusb/WinUsb_GetCurrentFrameNumberAndQpc
-dev_langs:
-- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winusb.dll
-api_name:
-- WinUsb_GetCurrentFrameNumberAndQpc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinUsb_GetCurrentFrameNumberAndQpc
+ - winusb/WinUsb_GetCurrentFrameNumberAndQpc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winusb.dll
+api_name:
+ - WinUsb_GetCurrentFrameNumberAndQpc
 ---
 
 # WinUsb_GetCurrentFrameNumberAndQpc function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinUsb_GetCurrentFrameNumberAndQpc</b> function retrieves the system query performance counter (QPC) value  synchronized with the  frame and microframe.
-
 
 ## -parameters
 
-
-
-
 ### -param InterfaceHandle [in]
 
-An opaque handle retrieved in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
-
+An opaque handle retrieved in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>.
 
 ### -param FrameQpcInfo [in]
 
@@ -69,10 +64,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 On output, the <b>QueryPerformanceCounterAtInputFrameOrMicroFrame</b> member  is set to the QPC value for that frame or microframe.
 
-
 ## -returns
-
-
 
 <b>WinUsb_GetCurrentFrameNumberAndQpc</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, this routine returns <b>FALSE</b>, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
 
@@ -98,15 +90,8 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>FrameQpcInfo<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
@@ -121,7 +106,4 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>FrameQpcInfo<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_starttrackingfortimesync">WinUsb_StartTrackingForTimeSync</a>
- 
-
- 
 

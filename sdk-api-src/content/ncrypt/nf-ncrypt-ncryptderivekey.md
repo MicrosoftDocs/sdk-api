@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, KDF_USE_SECRET_AS_HMAC_KEY_FLAG, NCryptDeriveKey, NCryptDeriveKey function [Security], ncrypt/NCryptDeriveKey, security.ncryptderivekey
-f1_keywords:
-- ncrypt/NCryptDeriveKey
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptDeriveKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptDeriveKey
+ - ncrypt/NCryptDeriveKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptDeriveKey
 ---
 
 # NCryptDeriveKey function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptDeriveKey</b> function derives a key from a secret agreement value. This function is intended to be used as part of a secret agreement procedure using persisted secret agreement keys. To derive key material by using a  persisted secret instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptkeyderivation">NCryptKeyDerivation</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hSharedSecret [in]
 
 The secret agreement handle to create the key from. This handle is obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsecretagreement">NCryptSecretAgreement</a> function.
-
 
 ### -param pwszKDF [in]
 
@@ -392,28 +387,23 @@ The call to the KDF is made as shown in the following pseudocode.
 
 
 
-#### 
-
+####
 
 ### -param pParameterList [in, optional]
 
 The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
 
-
 ### -param pbDerivedKey [out, optional]
 
 The address of a buffer that receives the key. The <i>cbDerivedKey</i> parameter contains the size of this buffer. If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>DWORD</b> pointed to by the <i>pcbResult</i> parameter.
-
 
 ### -param cbDerivedKey [in]
 
 The size, in bytes, of the <i>pbDerivedKey</i> buffer.
 
-
 ### -param pcbResult [out]
 
 A pointer to a <b>DWORD</b> that receives the number of bytes that were copied to the <i>pbDerivedKey</i> buffer. If the <i>pbDerivedKey</i> parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>DWORD</b> pointed to by this parameter.
-
 
 ### -param dwFlags [in]
 
@@ -435,12 +425,8 @@ The secret agreement value will also serve as the HMAC key. If this flag is spec
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -488,14 +474,8 @@ One or more parameters are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375370(v=vs.85)">BCryptBufferDesc</a> structure in the <i>pParameterList</i> parameter can contain more than one of the <b>KDF_SECRET_PREPEND</b> and <b>KDF_SECRET_APPEND</b> parameters. If more than one of these parameters is specified, the parameter values are concatenated in the order in which they are contained in the array before the KDF is called. For example, assume the following parameter values are specified.
 
@@ -532,16 +512,7 @@ Value: {0x01, 0x10, 0x11, 0x12}, length 4
 </code></pre>
 A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a>
- 
-
- 
 

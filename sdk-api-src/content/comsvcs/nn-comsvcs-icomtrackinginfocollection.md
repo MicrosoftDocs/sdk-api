@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7caa0fd3-a42c-43ea-849d-aa2c4ed1c628
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoCollection, IComTrackingInfoCollection interface [COM+], IComTrackingInfoCollection interface [COM+],described, _dtc_IComTrackingInfoCollection, comsvcs/IComTrackingInfoCollection, cos.icomtrackinginfocollection
-f1_keywords:
-- comsvcs/IComTrackingInfoCollection
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComTrackingInfoCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComTrackingInfoCollection
+ - comsvcs/IComTrackingInfoCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComTrackingInfoCollection
 ---
 
 # IComTrackingInfoCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a tracking information collection.
-
 
 ## -inheritance
 
@@ -95,20 +94,13 @@ Retrieves the type of a tracking information collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--tracking">COM+ Tracking</a>
- 
-
- 
 

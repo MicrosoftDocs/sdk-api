@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 060973b4-bf7d-4be2-b087-85a5b1bca905
 ms.date: 12/05/2018
 ms.keywords: 0332b528-6d94-2603-1e1b-65d4d541f94f, ID3D11View, ID3D11View interface [Direct3D 11], ID3D11View interface [Direct3D 11],described, d3d11/ID3D11View, direct3d11.id3d11view
-f1_keywords:
-- d3d11/ID3D11View
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11View
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11View
+ - d3d11/ID3D11View
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11View
 ---
 
 # ID3D11View interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A view interface specifies the parts of a resource the pipeline can access during rendering.
-
 
 ## -inheritance
 
@@ -78,12 +77,9 @@ Get the resource that is accessed through this view.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A view interface is the base interface for all views. There are four types of views; a depth-stencil view, a render-target view, a shader-resource view, and an unordered-access view.
 
@@ -100,19 +96,11 @@ All resources must be bound to the pipeline before they can be accessed.
 <li>To bind a shader resource, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetshaderresources">ID3D11DeviceContext::VSSetShaderResources</a>.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-interfaces">Resource Interfaces</a>
- 
-
- 
 

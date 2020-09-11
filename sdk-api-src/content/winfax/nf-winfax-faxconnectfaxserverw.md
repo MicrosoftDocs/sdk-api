@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3qya.htm
 ms.date: 12/05/2018
 ms.keywords: FaxConnectFaxServer, FaxConnectFaxServer function [Fax Service], FaxConnectFaxServerA, FaxConnectFaxServerW, _mfax_faxconnectfaxserver, fax._mfax_faxconnectfaxserver, winfax/FaxConnectFaxServer, winfax/FaxConnectFaxServerA, winfax/FaxConnectFaxServerW
-f1_keywords:
-- winfax/FaxConnectFaxServer
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxConnectFaxServer
-- FaxConnectFaxServerA
-- FaxConnectFaxServerW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxConnectFaxServerW
+ - winfax/FaxConnectFaxServerW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxConnectFaxServer
+ - FaxConnectFaxServerA
+ - FaxConnectFaxServerW
 ---
 
 # FaxConnectFaxServerW function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxConnectFaxServer</b> function connects a fax client application to the local fax server. The function returns a fax server handle that is required to call other fax client functions that facilitate job, device, configuration, and document management.
 
-
 ## -parameters
-
-
-
 
 ### -param MachineName [in, optional]
 
@@ -67,17 +63,13 @@ Type: <b>LPCTSTR</b>
 
 This pointer must be <b>NULL</b> (an empty string), so that the application connects to the fax server on the local computer.
 
-
 ### -param FaxHandle [out]
 
 Type: <b>LPHANDLE</b>
 
 Pointer to a variable that receives a fax server handle that is required on subsequent calls to other fax client functions. If the fax server returns a null handle, it indicates an error.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -124,14 +116,8 @@ The user under whose account the call was made does not have sufficient rights t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function can only be used only with a local server. Use of a remote server is enabled in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-about-the-fax-service-extended-com-api">Fax Service Extended COM API</a>. For more information see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-connect-client-vb">IFaxServer::Connect</a> method.
 
@@ -148,9 +134,6 @@ The fax client application must call the <a href="https://docs.microsoft.com/pre
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
 
@@ -160,7 +143,4 @@ The fax client application must call the <a href="https://docs.microsoft.com/pre
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a>
- 
-
- 
 

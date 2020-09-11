@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3dcreate9.htm
 ms.date: 12/05/2018
 ms.keywords: Direct3DCreate9Ex, Direct3DCreate9Ex function [Direct3D 9], d3bc9dd0-05d5-c0a2-6b7c-7e11497d0e97, d3d9/Direct3DCreate9Ex, direct3d9.direct3dcreate9ex
-f1_keywords:
-- d3d9/Direct3DCreate9Ex
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d9.lib
 req.dll: D3d9.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- d3d9.dll
-- Ext-MS-Win-DX-D3D9-L1-1-0.dll
-api_name:
-- Direct3DCreate9Ex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Direct3DCreate9Ex
+ - d3d9/Direct3DCreate9Ex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - d3d9.dll
+ - Ext-MS-Win-DX-D3D9-L1-1-0.dll
+api_name:
+ - Direct3DCreate9Ex
 ---
 
 # Direct3DCreate9Ex function
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a> object and returns an interface to it.
 
-
 ## -parameters
-
-
-
 
 ### -param SDKVersion [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The value of this parameter should be <b>D3D_SDK_VERSION</b>. See Remarks.
-
 
 ### -param arg2 [out]
 
@@ -73,10 +68,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-id
 Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a> interface, representing the
           created <b>IDirect3D9Ex</b> object. If the function fails, <b>NULL</b> is inserted here.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -88,11 +80,7 @@ Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></
 <li><b>S_OK</b> if the creation of the enumerator object is successful.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a> object is the first object that the application creates and the
         last object thta the application releases. Functions for enumerating and retrieving
@@ -232,15 +220,7 @@ Note that you may cast an <a href="https://docs.microsoft.com/windows/desktop/ap
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-functions">Direct3D Functions</a>
- 
-
- 
 

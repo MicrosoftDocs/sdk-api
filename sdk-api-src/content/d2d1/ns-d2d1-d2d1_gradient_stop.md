@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575
 ms.date: 12/05/2018
 ms.keywords: D2D1_GRADIENT_STOP, D2D1_GRADIENT_STOP structure [Direct2D], d2d1/D2D1_GRADIENT_STOP, direct2d.D2D1_GRADIENT_STOP
-f1_keywords:
-- d2d1/D2D1_GRADIENT_STOP
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_GRADIENT_STOP
 targetos: Windows
 req.typenames: D2D1_GRADIENT_STOP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_GRADIENT_STOP
+ - d2d1/D2D1_GRADIENT_STOP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_GRADIENT_STOP
 ---
 
 # D2D1_GRADIENT_STOP structure
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the position and color of a gradient stop. 
-
+Contains the position and color of a gradient stop.
 
 ## -struct-fields
-
-
-
 
 ### -field position
 
 Type: <b>FLOAT</b>
 
-A value that indicates the relative position of the gradient stop in the brush. This value must be in the [0.0f, 1.0f] range if the gradient stop is to be seen explicitly. 
-
+A value that indicates the relative position of the gradient stop in the brush. This value must be in the [0.0f, 1.0f] range if the gradient stop is to be seen explicitly.
 
 ### -field color
 
@@ -71,10 +66,7 @@ Type: <b><a href="/windows/win32/Direct2D/d2d1-color-f">D2D1_COLOR_F</a></b>
 
 The color of the gradient stop.
 
-
 ## -remarks
-
-
 
 Gradient stops can be specified in any order if they are at different positions. Two stops may share a position. In this case, the first stop specified is treated as the "low" stop (nearer 0.0f) and subsequent stops are treated as "higher" (nearer 1.0f). This behavior is useful if a caller wants an instant transition in the middle of a stop.
 
@@ -135,14 +127,7 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
@@ -169,7 +154,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>
- 
-
- 
 

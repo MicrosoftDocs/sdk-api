@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: dcc172f9-4fc3-46f4-a1db-0e75fceafb28
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult method, ITfCandidateList.SetResult, ITfCandidateList::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfCandidateList interface, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
-f1_keywords:
-- ctffunc/ITfCandidateList.SetResult
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tiptsf.dll
-api_name:
-- ITfCandidateList.SetResult
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateList::SetResult
+ - ctffunc/ITfCandidateList::SetResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tiptsf.dll
+api_name:
+ - ITfCandidateList.SetResult
 ---
 
 # ITfCandidateList::SetResult
@@ -53,22 +54,15 @@ Specifies the result of a reconversion operation for s specific candidate string
 
 ## -parameters
 
-
-
-
 ### -param nIndex [in]
 
 Specifies the zero-based index of the candidate string to set the result for. This parameter is ignored if <i>imcr</i> contains CAND_CANCELED.
-
 
 ### -param imcr [in]
 
 Contains one of the <a href="/windows/win32/api/ctffunc/ne-ctffunc-tfcandidateresult">TfCandidateResult</a> values that specifies the result of the reconversion operation.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -100,14 +94,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A typical reconversion operation would include the following operations.
 
@@ -119,12 +107,7 @@ A typical reconversion operation would include the following operations.
 <li>If the user cancels the dialog, <b>ITfCandidateList::SetResult</b> is called with an index of zero and CAND_CANCELED.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
 
@@ -132,7 +115,4 @@ A typical reconversion operation would include the following operations.
 
 <a href="/windows/win32/api/ctffunc/ne-ctffunc-tfcandidateresult">TfCandidateResult
       </a>
- 
-
- 
 

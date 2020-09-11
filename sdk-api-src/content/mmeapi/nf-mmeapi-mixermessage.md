@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 021669bb-144b-4107-955c-c4cc9cd53c00
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerMessage, mixerMessage, mixerMessage function [Windows Multimedia], mmeapi/mixerMessage, multimedia.mixermessage
-f1_keywords:
-- mmeapi/mixerMessage
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- mixerMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mixerMessage
+ - mmeapi/mixerMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - mixerMessage
 ---
 
 # mixerMessage function
@@ -51,41 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mixerMessage</b> function sends a custom mixer driver message directly to a mixer driver.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmx
 
 Identifier of the mixer that receives the message. You must cast the device ID to the <b>HMIXER</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
 
-
 ### -param uMsg
 
 Custom mixer driver message to send to the mixer driver. This message must be above or equal to the MXDM_USER constant.
-
 
 ### -param dwParam1
 
 Parameter associated with the message being sent.
 
-
 ### -param dwParam2
 
 Parameter associated with the message being sent.
 
-
 ## -returns
-
-
 
 Returns a value that is specific to the custom mixer driver message. Possible error values include the following.
 
@@ -139,14 +126,8 @@ The mixer device did not process the message.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 User-defined messages must be sent only to a mixer driver that supports the messages. The application should verify that the mixer driver is the driver that supports the message by retrieving the mixer capabilities and checking the <b>wMid</b>, <b>wPid</b>, <b>vDriverVersion</b>, and <b>szPname</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure.
 
@@ -236,20 +217,11 @@ When the DRVM_MAPPER_PREFERRED_FLAGS_PREFERREDONLY flag bit is set in the DWORD 
 
 The <i>xxx</i>Message functions accept this value in place of a valid device handle in order to allow an application to determine the default device ID without first having to open a device. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/accessing-the-preferred-device-id">Accessing the Preferred Device ID</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
- 
-
- 
 

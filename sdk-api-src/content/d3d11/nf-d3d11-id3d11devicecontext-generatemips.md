@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 43012c58-3b1a-4956-993f-4ff3f5ec7fce
 ms.date: 12/05/2018
 ms.keywords: 79d02fdb-42ae-9bb1-5d10-7110c77d29f9, GenerateMips, GenerateMips method [Direct3D 11], GenerateMips method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GenerateMips method, ID3D11DeviceContext.GenerateMips, ID3D11DeviceContext::GenerateMips, d3d11/ID3D11DeviceContext::GenerateMips, direct3d11.id3d11devicecontext_generatemips
-f1_keywords:
-- d3d11/ID3D11DeviceContext.GenerateMips
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.GenerateMips
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::GenerateMips
+ - d3d11/ID3D11DeviceContext::GenerateMips
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.GenerateMips
 ---
 
 # ID3D11DeviceContext::GenerateMips
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates mipmaps for the given shader resource.
 
-
 ## -parameters
-
-
-
 
 ### -param pShaderResourceView [in]
 
@@ -65,10 +61,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a> interface that represents the shader resource.
 
-
 ## -remarks
-
-
 
 You can call <b>GenerateMips</b> on any shader-resource view to generate the lower mipmap levels for the shader resource. <b>GenerateMips</b> uses the largest mipmap level of the view to recursively generate the lower levels of the mip and stops with the smallest level that is specified by the view. If the base resource wasn't created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_RENDER_TARGET</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_SHADER_RESOURCE</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_GENERATE_MIPS</a>, the call to <b>GenerateMips</b> has no effect.
 
@@ -142,20 +135,11 @@ DXGI_FORMAT_B5G5R5A1_UNORM (optional)
 
 For all other unsupported formats, <b>GenerateMips</b> will silently fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
 

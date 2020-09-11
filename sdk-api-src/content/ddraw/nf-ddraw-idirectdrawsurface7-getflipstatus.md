@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: e337bdde-bf63-414a-88a5-507478476667
 ms.date: 12/05/2018
 ms.keywords: DDGFS_CANFLIP, DDGFS_ISFLIPDONE, GetFlipStatus, GetFlipStatus method [DirectDraw], GetFlipStatus method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetFlipStatus method, IDirectDrawSurface7.GetFlipStatus, IDirectDrawSurface7::GetFlipStatus, ddraw/IDirectDrawSurface7::GetFlipStatus, directdraw.idirectdrawsurface7_getflipstatus
-f1_keywords:
-- ddraw/IDirectDrawSurface7.GetFlipStatus
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.GetFlipStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::GetFlipStatus
+ - ddraw/IDirectDrawSurface7::GetFlipStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.GetFlipStatus
 ---
 
 # IDirectDrawSurface7::GetFlipStatus
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves status about whether this surface has finished its flipping process.
 
-
 ## -parameters
-
-
-
-
-
 
 #### - dwFlags [in]
 
@@ -76,10 +70,7 @@ Inquires whether this surface can be flipped immediately, and returns DD_OK if t
 
 Inquires whether the flip has finished, and returns DD_OK if the last flip on this surface has completed.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -95,24 +86,11 @@ If it fails, the method can return DDERR_WASSTILLDRAWING if the surface has not 
 <li>DDERR_WASSTILLDRAWING</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetFlipStatus</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

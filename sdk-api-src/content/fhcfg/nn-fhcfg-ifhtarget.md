@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 5A73A81A-72A3-4794-86E5-9CA8FCA200C0
 ms.date: 12/05/2018
 ms.keywords: IFhTarget, IFhTarget interface [Windows API], IFhTarget interface [Windows API],described, fhcfg/IFhTarget, winprog.ifhtarget
-f1_keywords:
-- fhcfg/IFhTarget
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhTarget
+ - fhcfg/IFhTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhTarget
 ---
 
 # IFhTarget interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFhTarget</b> interface allows client applications to read numeric and string properties of a File History backup target.
 
 > [!NOTE] 
 > **IFhTarget** is deprecated and may be altered or unavailable in future releases.
-
 
 ## -inheritance
 
@@ -89,5 +88,5 @@ Retrieves a string property of the File History backup target that is represente
 
 </td>
 </tr>
-</table> 
+</table>
 

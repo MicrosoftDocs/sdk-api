@@ -8,10 +8,6 @@ tech.root: swdevice
 ms.assetid: 9519FD17-AB43-4C9E-BE77-9DFAC3263447
 ms.date: 12/05/2018
 ms.keywords: '*PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO structure pointer, SWDeviceCapabilitiesDriverRequired, SWDeviceCapabilitiesNoDisplayInUI, SWDeviceCapabilitiesNone, SWDeviceCapabilitiesRemovable, SWDeviceCapabilitiesSilentInstall, SW_DEVICE_CREATE_INFO, SW_DEVICE_CREATE_INFO structure, swdevice.sw_device_create_info, swdevicedef/PSW_DEVICE_CREATE_INFO, swdevicedef/SW_DEVICE_CREATE_INFO'
-f1_keywords:
-- swdevicedef/SW_DEVICE_CREATE_INFO
-dev_langs:
-- c++
 req.header: swdevicedef.h
 req.include-header: Swdevice.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Swdevicedef.h
-api_name:
-- SW_DEVICE_CREATE_INFO
 targetos: Windows
 req.typenames: SW_DEVICE_CREATE_INFO, *PSW_DEVICE_CREATE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SW_DEVICE_CREATE_INFO
+ - swdevicedef/_SW_DEVICE_CREATE_INFO
+ - PSW_DEVICE_CREATE_INFO
+ - swdevicedef/PSW_DEVICE_CREATE_INFO
+ - SW_DEVICE_CREATE_INFO
+ - swdevicedef/SW_DEVICE_CREATE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Swdevicedef.h
+api_name:
+ - SW_DEVICE_CREATE_INFO
 ---
 
 # SW_DEVICE_CREATE_INFO structure
@@ -49,39 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes info that PnP uses to create the software device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size in bytes of this structure. Use it as a version field.  Initialize it to sizeof(SW_DEVICE_CREATE_INFO).
 
-
 ### -field pszInstanceId
 
 A string that represents the instance ID portion of the device instance ID. This value is used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryInstanceID</b>.  Because all software devices are considered "UniqueId" devices, this string must be a unique name for all devices on this software device enumerator.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">Instance IDs</a>.
-
 
 ### -field pszzHardwareIds
 
 A list of strings for the hardware IDs for the software device. This value is used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryHardwareIDs</b>.  If a client expects a driver or device metadata to bind to the device, the client specifies hardware IDs.
 
-
 ### -field pszzCompatibleIds
 
 A list of strings for the compatible IDs for the software device. This value is used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryCompatibleIDs</b>.  If a client expects a class driver to load, the client specifies compatible IDs that match the class driver.  If a driver isn't needed, we recommend to specify a compatible ID to classify the type of software device.  In addition to the compatible IDs specified in this member, SWD\Generic and possibly SWD\GenericRaw will always be added as the least specific compatible IDs.
 
-
 ### -field pContainerId
 
-A value that is used to control the base container ID for the software device.  This value will be used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryContainerIDs</b>.  For typical situations, we recommend to set this member to <b>NULL</b> and use the <b>SWDeviceCapabilitiesRemovable</b> flag to control whether the device inherits the parent's container ID or if PnP assigns a new random container ID.  If the client needs to explicitly control the container ID, specify a <b>GUID</b> in the variable that this member points to. 
-
+A value that is used to control the base container ID for the software device.  This value will be used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryContainerIDs</b>.  For typical situations, we recommend to set this member to <b>NULL</b> and use the <b>SWDeviceCapabilitiesRemovable</b> flag to control whether the device inherits the parent's container ID or if PnP assigns a new random container ID.  If the client needs to explicitly control the container ID, specify a <b>GUID</b> in the variable that this member points to.
 
 ### -field CapabilityFlags
 
@@ -154,8 +149,6 @@ When this bit is specified, the driver owns creating interfaces for the device, 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pszDeviceDescription
 
@@ -179,23 +172,11 @@ A string that contains the text that is displayed for the device location in the
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the security information associated with the software device. If this member is <b>NULL</b>, the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-i-o-manager">I/O Manager</a> assigns the default security descriptor to the device.  If a custom security descriptor is needed, specify a self-relative security descriptor.
 
-
 ## -remarks
-
-
 
 You can only specify this info at creation time, and you can't later call the Software Device API to modify this info, by setting properties, for example.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>
- 
-
- 
 

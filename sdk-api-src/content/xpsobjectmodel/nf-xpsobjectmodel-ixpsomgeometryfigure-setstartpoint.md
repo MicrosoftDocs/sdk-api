@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: d9885c3d-06a0-4d25-81fc-cf0ef466a797
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMGeometryFigure.SetStartPoint, IXpsOMGeometryFigure::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.SetStartPoint
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.SetStartPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::SetStartPoint
+ - xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.SetStartPoint
 ---
 
 # IXpsOMGeometryFigure::SetStartPoint
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the starting point of the figure.
 
-
 ## -parameters
-
-
-
 
 ### -param startPoint [in]
 
 The coordinates of the starting point of the figure.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -108,15 +101,8 @@ One of the fields in  the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjec
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
@@ -131,7 +117,4 @@ One of the fields in  the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjec
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
- 
-
- 
 

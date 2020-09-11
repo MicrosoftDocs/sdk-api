@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: a7511ac6-04cb-407b-90aa-3382c5160cb6
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_ENUM_ALL, CLUSTER_ENUM_GROUP, CLUSTER_ENUM_INTERNAL_NETWORK, CLUSTER_ENUM_NETINTERFACE, CLUSTER_ENUM_NETWORK, CLUSTER_ENUM_NODE, CLUSTER_ENUM_RESOURCE, CLUSTER_ENUM_RESTYPE, CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, ClusterEnum, ClusterEnum function [Failover Cluster], PCLUSAPI_CLUSTER_ENUM, PCLUSAPI_CLUSTER_ENUM function [Failover Cluster], _wolf_clusterenum, clusapi/ClusterEnum, clusapi/PCLUSAPI_CLUSTER_ENUM, mscs.clusterenum
-f1_keywords:
-- clusapi/ClusterEnum
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- ClusterEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterEnum
+ - clusapi/ClusterEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - ClusterEnum
 ---
 
 # ClusterEnum function
@@ -53,29 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> in a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, returning the name of one object with each 
     call. The <b>PCLUSAPI_CLUSTER_ENUM</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnum [in]
 
 A cluster enumeration handle returned by the 
        <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a> function.
 
-
 ### -param dwIndex [in]
 
 The index used to identify the next entry to be enumerated. This parameter should be zero for the first call 
        to <b>ClusterEnum</b> and then incremented for subsequent 
        calls.
-
 
 ### -param lpdwType [out]
 
@@ -149,11 +143,9 @@ Enumerates the networks used by the cluster for internal communication. The netw
 
 Enumerates all <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a>.
 
-
 ### -param lpszName [out]
 
 A pointer to a null-terminated Unicode string containing the name of the returned object.
-
 
 ### -param lpcchName [in, out]
 
@@ -162,10 +154,7 @@ A pointer to the size of the <i>lpszName</i> buffer as a count of characters. On
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -215,14 +204,8 @@ More data is available. This value is returned if the buffer pointed to by
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ClusterEnum</b> function is typically used to iterate 
      through a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> of one 
@@ -250,12 +233,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustercloseenum">ClusterCloseEnum</a>
 
@@ -266,7 +244,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusternetworkpriorityorder">SetClusterNetworkPriorityOrder</a>
- 
-
- 
 

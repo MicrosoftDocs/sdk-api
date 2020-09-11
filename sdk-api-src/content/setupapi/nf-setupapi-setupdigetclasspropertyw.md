@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: b90473fe-eb8c-463a-971c-422c108dec1d
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassProperty, SetupDiGetClassProperty function [Device and Driver Installation], SetupDiGetClassPropertyW, devinst.setupdigetclassproperty, di-rtns_0fff1c27-692b-488f-9cec-373e8f7b7484.xml, setupapi/SetupDiGetClassProperty
-f1_keywords:
-- setupapi/SetupDiGetClassProperty
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_Class_Property
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiGetClassProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetClassPropertyW
+ - setupapi/SetupDiGetClassPropertyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiGetClassProperty
 ---
 
 # SetupDiGetClassPropertyW function
@@ -50,44 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiGetClassProperty</b> function retrieves a device property that is set for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ClassGuid [in]
 
 A pointer to a GUID that identifies the device setup class or device interface class for which to retrieve a device property that is set for the device class. For information about specifying the class type, see the <i>Flags</i> parameter.
 
-
 ### -param PropertyKey [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the requested device class property.
-
 
 ### -param PropertyType [out]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device class property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base data type is modified, a property-data-type modifier.
 
-
 ### -param PropertyBuffer [out]
 
 A pointer to a buffer that receives the requested device class property. <b>SetupDiGetClassProperty</b> retrieves the requested property value only if the buffer is large enough to hold all the property value data. The pointer can be <b>NULL</b>. If the pointer is set to <b>NULL</b> and <i>RequiredSize</i> is supplied, <b>SetupDiGetClassProperty</b> returns the size of the device class property, in bytes, in *<i>RequiredSize</i>.
-
 
 ### -param PropertyBufferSize [in]
 
 The size, in bytes, of the <i>PropertyBuffer</i> buffer. If <i>PropertyBuffer</i> is set to <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
 
-
 ### -param RequiredSize [out, optional]
 
 A pointer to a DWORD-typed variable that receives either the size, in bytes, of the device class property if the device class property is retrieved or the required buffer size if the buffer is not large enough. This pointer can be set to <b>NULL</b>.
-
 
 ### -param Flags [in]
 
@@ -107,10 +97,7 @@ One of the following values, which specifies whether the class is a device setup
 
 <i>ClassGuid</i> specifies a device interface class. This flag cannot be used with DICLASSPROP_INSTALLER.
 
-
 ## -returns
-
-
 
 <b>SetupDiGetClassProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
@@ -255,14 +242,8 @@ The caller does not have Administrator privileges.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SetupDiGetClassProperty</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>.
 
@@ -276,13 +257,7 @@ To retrieve a device class property on a remote computer, call <a href="https://
 
 To set a device class property on a local computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyw">SetupDiSetClassProperty</a><b>,</b> and to set a device class property on a remote computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>
 
@@ -297,7 +272,4 @@ To set a device class property on a local computer, call <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>
- 
-
- 
 

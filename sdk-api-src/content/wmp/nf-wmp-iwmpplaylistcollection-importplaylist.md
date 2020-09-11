@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 421a1bd3-65c1-4d8f-be75-918b1cfa06d2
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],importPlaylist method, IWMPPlaylistCollection.importPlaylist, IWMPPlaylistCollection::importPlaylist, IWMPPlaylistCollectionimportPlaylist, importPlaylist, importPlaylist method [Windows Media Player], importPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_importplaylist, wmp/IWMPPlaylistCollection::importPlaylist
-f1_keywords:
-- wmp/IWMPPlaylistCollection.importPlaylist
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlaylistCollection.importPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylistCollection::importPlaylist
+ - wmp/IWMPPlaylistCollection::importPlaylist
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlaylistCollection.importPlaylist
 ---
 
 # IWMPPlaylistCollection::importPlaylist
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>importPlaylist</b> method adds a static playlist to the library.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pItem [in]
 
 Pointer to an <b>IWMPPlaylist</b> interface for the playlist that this method will add.
 
-
 ### -param ppImportedItem [out]
 
 Pointer to a pointer to an <b>IWMPPlaylist</b> interface for the added playlist.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -94,14 +83,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Playlists that do not contain any media items cannot be added to the library by using this method. To create an empty playlist in the library, use the <b>newPlaylist</b> method. You can then fill the resulting playlist with media items by using <b>IWMPPlaylist::appendItem</b> or <b>IWMPPlaylist::insertItem</b>.
 
@@ -109,13 +92,7 @@ If you pass this method an auto playlist, the query is executed once and the res
 
 Before calling this method, you must have read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
@@ -134,7 +111,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-newplaylist">IWMPPlaylistCollection::newPlaylist</a>
- 
-
- 
 

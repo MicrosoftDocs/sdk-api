@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 53a70f66-3805-429e-8ef6-01b00b666b72
 ms.date: 12/05/2018
 ms.keywords: EnumCertViewAttribute, EnumCertViewAttribute method [Security], EnumCertViewAttribute method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewAttribute method, IEnumCERTVIEWROW.EnumCertViewAttribute, IEnumCERTVIEWROW::EnumCertViewAttribute, _certsrv_ienumcertviewrow_enumcertviewattribute, certview/IEnumCERTVIEWROW::EnumCertViewAttribute, security.ienumcertviewrow_enumcertviewattribute
-f1_keywords:
-- certview/IEnumCERTVIEWROW.EnumCertViewAttribute
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWROW.EnumCertViewAttribute
-- IEnumCERTVIEWROW.EnumCertViewAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWROW::EnumCertViewAttribute
+ - certview/IEnumCERTVIEWROW::EnumCertViewAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWROW.EnumCertViewAttribute
+ - IEnumCERTVIEWROW.EnumCertViewAttribute
 ---
 
 # IEnumCERTVIEWROW::EnumCertViewAttribute
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnumCertViewAttribute</b> method obtains an instance of an attribute-enumeration sequence for the current row of the row-enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -82,10 +78,7 @@ A <b>Long</b> value. Must be zero.
 
 A pointer to a pointer of <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewattribute">IEnumCERTVIEWATTRIBUTE</a> type. Upon successful completion of this method, <i>ppenum</i> is set to a pointer of <b>IEnumCERTVIEWATTRIBUTE</b> type.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -95,12 +88,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The returned value is an attribute-enumeration sequence object.
 
-
-
-
 ## -remarks
-
-
 
 The 
 attribute-enumeration sequence obtained by this call can be used to enumerate the attributes associated with the certificate in the current row. This enumeration can be accessed through the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewattribute">IEnumCERTVIEWATTRIBUTE</a> interface.
@@ -144,14 +132,7 @@ if (NULL != pEnumAttr)
     pEnumAttr->Release();
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewattribute">IEnumCERTVIEWATTRIBUTE</a>
 
@@ -170,7 +151,4 @@ if (NULL != pEnumAttr)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-skip">IEnumCERTVIEWROW::Skip</a>
- 
-
- 
 

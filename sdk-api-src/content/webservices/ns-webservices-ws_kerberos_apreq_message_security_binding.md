@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 03127248-f5cc-44da-9c3d-abf016dd6bb2
 ms.date: 12/05/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, wsw.ws_kerberos_apreq_message_security_binding
-f1_keywords:
-- webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
 targetos: Windows
 req.typenames: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
+ - webservices/_WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
+ - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
+ - webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
 ---
 
 # WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure
 
 
 ## -description
-
 
 The security binding subtype for specifying the use of the Kerberos
 AP_REQ ticket as a direct (i.e., without establishing a session)
@@ -70,19 +72,12 @@ With this security binding, the following security binding properties may be spe
 
 
 In Windows Vista and above on the client side, using this binding with HTTP will result in the message being sent using chunked transfer.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field binding
 
 The base type from which this security binding subtype and all other security binding subtypes derive.
-                
-
 
 ### -field bindingUsage
 
@@ -96,11 +91,9 @@ be attached to a message.
 
 To use this binding on HTTP without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>. This is not supported on the client or on TCP.
 
-
 ### -field clientCredential
 
 The Windows Integrated Authentication credential to be used to obtain
 the Kerberos ticket.  This field is required on the client side, but
 must be <b>NULL</b> on the server side.
-                
 

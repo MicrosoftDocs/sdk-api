@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 8ea2c112-0d57-4da6-89da-5afe57ff2346
 ms.date: 12/05/2018
 ms.keywords: 8ea2c112-0d57-4da6-89da-5afe57ff2346, ITextInputPanel interface [Tablet PC],Unadvise method, ITextInputPanel.Unadvise, ITextInputPanel::Unadvise, Unadvise, Unadvise method [Tablet PC], Unadvise method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::Unadvise, tablet.itextinputpanel_unadvise
-f1_keywords:
-- peninputpanel/ITextInputPanel.Unadvise
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::Unadvise
+ - peninputpanel/ITextInputPanel::Unadvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.Unadvise
 ---
 
 # ITextInputPanel::Unadvise
 
 
 ## -description
-
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
@@ -57,22 +57,13 @@ ms.custom: 19H1
 
 Terminates an advisory connection previously established through <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise">ITextInputPanel::Advise Method</a>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param EventSink [in]
 
 Reference to the sink object currently receiving event notifications from the Input Panel.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -104,22 +95,12 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise">ITextInputPanel::Advise Method</a>
- 
-
- 
 

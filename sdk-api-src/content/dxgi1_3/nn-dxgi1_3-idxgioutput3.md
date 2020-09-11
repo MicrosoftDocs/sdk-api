@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: A116286A-F948-49AA-9D3B-F104E3312920
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput3, IDXGIOutput3 interface [DXGI], IDXGIOutput3 interface [DXGI],described, direct3ddxgi.idxgioutput3, dxgi1_3/IDXGIOutput3
-f1_keywords:
-- dxgi1_3/IDXGIOutput3
-dev_langs:
-- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIOutput3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutput3
+ - dxgi1_3/IDXGIOutput3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIOutput3
 ---
 
 # IDXGIOutput3 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an adapter output (such as a monitor). The <b>IDXGIOutput3</b> interface exposes a method to check for overlay support.
-
 
 ## -inheritance
 
@@ -78,20 +77,13 @@ Checks for overlay support.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput2">IDXGIOutput2</a>
- 
-
- 
 

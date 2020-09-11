@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 2588f35e-388b-4491-a209-99d34b1d82df
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_LastPossibleStartOfLeadout method, IDiscFormat2RawCD.get_LastPossibleStartOfLeadout, IDiscFormat2RawCD::get_LastPossibleStartOfLeadout, get_LastPossibleStartOfLeadout, get_LastPossibleStartOfLeadout method [IMAPI], get_LastPossibleStartOfLeadout method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_lastpossiblestartofleadout, imapi2/IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.get_LastPossibleStartOfLeadout
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.get_LastPossibleStartOfLeadout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
+ - imapi2/IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.get_LastPossibleStartOfLeadout
 ---
 
 # IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the last possible starting position for the leadout area.  
-
+Retrieves the last possible starting position for the leadout area.
 
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Sector address of the starting position for the leadout area.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -101,18 +94,8 @@ Value: 0xC0AA0602
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
- 
-
- 
 

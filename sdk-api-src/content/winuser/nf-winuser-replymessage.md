@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\replymessage.htm
 ms.date: 12/05/2018
 ms.keywords: ReplyMessage, ReplyMessage function [Windows and Messages], _win32_ReplyMessage, _win32_replymessage_cpp, winmsg.replymessage, winui._win32_replymessage, winuser/ReplyMessage
-f1_keywords:
-- winuser/ReplyMessage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Message-l1-1-2.dll
-- Ext-MS-Win-NTUser-Message-L1-1-3.dll
-api_name:
-- ReplyMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReplyMessage
+ - winuser/ReplyMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - ReplyMessage
 ---
 
 # ReplyMessage function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replies to a message sent from another thread by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lResult [in]
 
@@ -66,23 +62,15 @@ Type: <b>LRESULT</b>
 
 The result of the message processing. The possible values are based on the message sent.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the calling thread was processing a message sent from another thread or process, the return value is nonzero.
 
-If the calling thread was not processing a message sent from another thread or process, the return value is zero. 
-
-
-
+If the calling thread was not processing a message sent from another thread or process, the return value is zero.
 
 ## -remarks
-
-
 
 By calling this function, the window procedure that receives the message allows the thread that called <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> to continue to run as though the thread receiving the message had returned control. The thread that calls the <b>ReplyMessage</b> function also continues to run. 
 
@@ -95,12 +83,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -119,7 +102,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
- 
-
- 
 

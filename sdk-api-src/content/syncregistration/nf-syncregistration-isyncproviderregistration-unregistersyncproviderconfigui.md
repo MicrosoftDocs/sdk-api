@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 14d0ab85-afd7-4615-8606-ec403a3dd453
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],UnregisterSyncProviderConfigUI method, ISyncProviderRegistration.UnregisterSyncProviderConfigUI, ISyncProviderRegistration::UnregisterSyncProviderConfigUI, UnregisterSyncProviderConfigUI, UnregisterSyncProviderConfigUI method [Windows Sync], UnregisterSyncProviderConfigUI method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::UnregisterSyncProviderConfigUI, winsync.isyncproviderregistration_unregistersyncproviderconfigui
-f1_keywords:
-- syncregistration/ISyncProviderRegistration.UnregisterSyncProviderConfigUI
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderRegistration.UnregisterSyncProviderConfigUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderRegistration::UnregisterSyncProviderConfigUI
+ - syncregistration/ISyncProviderRegistration::UnregisterSyncProviderConfigUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderRegistration.UnregisterSyncProviderConfigUI
 ---
 
 # ISyncProviderRegistration::UnregisterSyncProviderConfigUI
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters and removes the specified synchronization provider configuration UI from the registration store.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidInstanceId [in]
 
 The unique instance ID of the synchronization provider configuration UI.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -108,22 +101,12 @@ The CLSID and content type combination does not exist in the registration store 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration Structure</a>
- 
-
- 
 

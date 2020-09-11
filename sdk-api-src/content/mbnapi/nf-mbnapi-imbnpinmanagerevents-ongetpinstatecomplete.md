@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: e228073b-896a-4d2d-a8a5-f8fa7a52ffc2
 ms.date: 12/05/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinManagerEvents interface [Microsoft Broadband Networks],OnGetPinStateComplete method, IMbnPinManagerEvents.OnGetPinStateComplete, IMbnPinManagerEvents::OnGetPinStateComplete, OnGetPinStateComplete, OnGetPinStateComplete method [Microsoft Broadband Networks], OnGetPinStateComplete method [Microsoft Broadband Networks],IMbnPinManagerEvents interface, S_OK, mbn.imbnpinmanagerevents_ongetpinstatecomplete, mbnapi/IMbnPinManagerEvents::OnGetPinStateComplete
-f1_keywords:
-- mbnapi/IMbnPinManagerEvents.OnGetPinStateComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnPinManagerEvents.OnGetPinStateComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnPinManagerEvents::OnGetPinStateComplete
+ - mbnapi/IMbnPinManagerEvents::OnGetPinStateComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnPinManagerEvents.OnGetPinStateComplete
 ---
 
 # IMbnPinManagerEvents::OnGetPinStateComplete
@@ -54,16 +55,11 @@ ms.custom: 19H1
 
 Notification method called by the Mobile Broadband service to indicate the completion of an asynchronous operation triggered by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate">GetPinState</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pinManager [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a> interface that represents the Mobile Broadband device for which the operation was performed.
-
 
 ### -param pinInfo [in]
 
@@ -78,12 +74,9 @@ If <b>pinInfo.pinState</b> is set to <b>MBN_PIN_STATE_UNBLOCK</b> then the devic
 
 If <b>pinInfo.pinState</b> is set to <b>MBN_PIN_STATE_ENTER</b> or <b>MBN_PIN_STATE_UNBLOCK</b>, then <b>pinInfo.attemptsRemaining</b> contains the number of attempts remaining to enter a valid PIN or PIN unblock key (PUK). If the number of attempts remaining is unknown then <b>pinInfo.attemptsRemaining</b> is set to <b>MBN_ATTEMPTS_REMAINING_UNKNOWN</b>.
 
-
-
 ### -param requestID [in]
 
 The request ID assigned by the Mobile Broadband service to identify this operation.
-
 
 ### -param status [in]
 
@@ -137,35 +130,17 @@ The operation could not complete because a bad SIM was detected in the device.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
 
-
-
-
 ## -remarks
-
-
 
 This method is called by the Mobile Broadband service to notify an application of the  completion of an asynchronous operation triggered by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate">GetPinState</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>.    
 On successful completion, <i>pinInfo</i> contains information about PIN next expected by the device.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents">IMbnPinManagerEvents</a>
- 
-
- 
 

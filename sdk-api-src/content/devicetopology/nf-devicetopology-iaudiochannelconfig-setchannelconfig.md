@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: a63b92ab-8abf-4582-b408-6c3e94a6bd3c
 ms.date: 12/05/2018
 ms.keywords: IAudioChannelConfig interface [Core Audio],SetChannelConfig method, IAudioChannelConfig.SetChannelConfig, IAudioChannelConfig::SetChannelConfig, IAudioChannelConfigSetChannelConfig, SetChannelConfig, SetChannelConfig method [Core Audio], SetChannelConfig method [Core Audio],IAudioChannelConfig interface, coreaudio.iaudiochannelconfig_setchannelconfig, devicetopology/IAudioChannelConfig::SetChannelConfig
-f1_keywords:
-- devicetopology/IAudioChannelConfig.SetChannelConfig
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IAudioChannelConfig.SetChannelConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioChannelConfig::SetChannelConfig
+ - devicetopology/IAudioChannelConfig::SetChannelConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IAudioChannelConfig.SetChannelConfig
 ---
 
 # IAudioChannelConfig::SetChannelConfig
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetChannelConfig</b> method sets the channel-configuration mask in a channel-configuration control.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwConfig [in]
 
 The channel-configuration mask.
 
-
 ### -param pguidEventContext [in]
 
 Context value for the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolchangenotify-onnotify">IControlChangeNotify::OnNotify</a> method. This parameter points to an event-context GUID. If the <b>SetChannelConfig</b> call changes the state of the channel-configuration control, all clients that have registered <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interfaces with that control receive notifications. In its implementation of the <b>OnNotify</b> method, a client can inspect the event-context GUID to discover whether it or another client is the source of the control-change event. If the caller supplies a <b>NULL</b> pointer for this parameter, the client's notification method receives a <b>NULL</b> context pointer.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -94,31 +83,16 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For information about channel-configuration masks, see the discussion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property in the Windows DDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiochannelconfig-getchannelconfig">IAudioChannelConfig::GetChannelConfig</a>
- 
-
- 
 

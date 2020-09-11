@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: df212397-7ec9-4a42-bebb-61799b7ca78e
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateSet method, IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
-f1_keywords:
-- msopc/IOpcSigningOptions.GetCertificateSet
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSigningOptions.GetCertificateSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSigningOptions::GetCertificateSet
+ - msopc/IOpcSigningOptions::GetCertificateSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSigningOptions.GetCertificateSet
 ---
 
 # IOpcSigningOptions::GetCertificateSet
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateset">IOpcCertificateSet</a> interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param certificateSet [out, retval]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateset">IOpcCertificateSet</a> interface pointer.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,14 +90,8 @@ The <i>certificateSet</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method gets a set that provides methods enabling the addition and removal of certificates from a certificate chain that will be associated with the signature when it is generated.
 
@@ -117,13 +104,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -166,7 +147,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e3f6b37d-2c33-4b17-97b4-762bf55561c5
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
-f1_keywords:
-- authz/AuthzInitializeResourceManager
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-- Ext-MS-Win-authz-context-l1-1-0.dll
-api_name:
-- AuthzInitializeResourceManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - AuthzInitializeResourceManager
+ - authz/AuthzInitializeResourceManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+ - Ext-MS-Win-authz-context-l1-1-0.dll
+api_name:
+ - AuthzInitializeResourceManager
 ---
 
 # AuthzInitializeResourceManager function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AuthzInitializeResourceManager</b> function uses Authz to verify that clients have access to various resources.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -117,7 +113,6 @@ The resource manager ignores CAP IDs and does not evaluate centralized access po
 
 AUTHZ_RM_FLAG_NO_AUDIT and AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION can be bitwise-combined.
 
-
 ### -param pfnDynamicAccessCheck [in, optional]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> callback function that the resource manager calls each time it encounters a callback
@@ -125,42 +120,29 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/au
 <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a>.  This parameter can be <b>NULL</b> if no access check callback function is used.
 
-
 ### -param pfnComputeDynamicGroups [in, optional]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> callback function called by the resource manager during initialization of an <i>AuthzClientContext</i> handle. This parameter can be <b>NULL</b> if no callback function is used to compute dynamic groups.
-
 
 ### -param pfnFreeDynamicGroups [in, optional]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzfreegroupscallback">AuthzFreeGroupsCallback</a> callback function called by the resource manager to free <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) attribute arrays allocated by the compute dynamic groups callback. This parameter can be <b>NULL</b> if no callback function is used to compute dynamic groups.
 
-
 ### -param szResourceManagerName [in]
 
 A string that identifies the resource manager. This parameter can be <b>NULL</b> if the resource manager does not need a name.
-
 
 ### -param phAuthzResourceManager [out]
 
 A pointer to the returned resource manager handle. When you have finished using the handle, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreeresourcemanager">AuthzFreeResourceManager</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns a nonzero value. 
 
 If the function fails, it returns a zero value. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a>
 
@@ -175,7 +157,4 @@ If the function fails, it returns a zero value. To get extended error informatio
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
- 
-
- 
 

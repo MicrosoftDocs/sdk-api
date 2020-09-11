@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 29772c1f-1cc4-4ee7-8e1d-f1a6cbebf470
 ms.date: 12/05/2018
 ms.keywords: IVssWriterComponentsExt, IVssWriterComponentsExt interface [VSS], IVssWriterComponentsExt interface [VSS],described, _win32_ivsswritercomponentsext, base.ivsswritercomponentsext, vsbackup/IVssWriterComponentsExt
-f1_keywords:
-- vsbackup/IVssWriterComponentsExt
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWriterComponentsExt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWriterComponentsExt
+ - vsbackup/IVssWriterComponentsExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWriterComponentsExt
 ---
 
 # IVssWriterComponentsExt class
 
 
 ## -description
-
 
 The 
 <b>IVssWriterComponentsExt</b> interface is a C++ (not COM) interface used by requesters to access and modify the components of a writer involved in a backup.

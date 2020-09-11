@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: d57b0b2e-1181-45ed-b7fc-d002d14527cf
 ms.date: 12/05/2018
 ms.keywords: Complete, Complete method [BITS], Complete method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Complete method, IBackgroundCopyJob.Complete, IBackgroundCopyJob::Complete, _drz_ibackgroundcopyjob_complete, bits.ibackgroundcopyjob_complete, bits/IBackgroundCopyJob::Complete
-f1_keywords:
-- bits/IBackgroundCopyJob.Complete
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.Complete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::Complete
+ - bits/IBackgroundCopyJob::Complete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.Complete
 ---
 
 # IBackgroundCopyJob::Complete
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Ends the job and saves the transferred files on the client.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values. The method can also return errors related to renaming the temporary copies of the transferred files to their given names.
 
@@ -121,14 +113,8 @@ For uploads, the state of the job must be BG_JOB_STATE_TRANSFERRED.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Download files are not available until you call the 
 <b>Complete</b> method. Call the 
@@ -162,15 +148,9 @@ BITS does not guarantee the integrity of the transferred files against third-par
 
 The owner of the file is the user who made the call. For example, if an administrator completes someone else's job, the administrator—not the owner of the job—owns the file.
 
-<b>BITS 1.2 and earlier:  </b>The owner of the file is the owner of the job, regardless of who called the <b>Complete</b> method. 
-
-
-
+<b>BITS 1.2 and earlier:  </b>The owner of the file is the owner of the job, regardless of who called the <b>Complete</b> method.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Bits/completing-and-canceling-a-job">Completing and Canceling a Job</a>
 
@@ -185,7 +165,4 @@ The owner of the file is the user who made the call. For example, if an administ
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">IBackgroundCopyJob::GetState</a>
- 
-
- 
 

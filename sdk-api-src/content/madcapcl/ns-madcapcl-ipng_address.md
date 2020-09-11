@@ -8,10 +8,6 @@ tech.root: Madcap
 ms.assetid: c3dc76aa-d903-49be-a4a2-1f66cafff40a
 ms.date: 12/05/2018
 ms.keywords: '*PIPNG_ADDRESS, IPNG_ADDRESS, IPNG_ADDRESS union [MADCAP], PIPNG_ADDRESS, PIPNG_ADDRESS union pointer [MADCAP], _mdhcp_ipng_address, madcap.ipng_address, madcapcl/IPNG_ADDRESS, madcapcl/PIPNG_ADDRESS'
-f1_keywords:
-- madcapcl/IPNG_ADDRESS
-dev_langs:
-- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Madcapcl.h
-api_name:
-- IPNG_ADDRESS
 targetos: Windows
 req.typenames: IPNG_ADDRESS, *PIPNG_ADDRESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IPNG_ADDRESS
+ - madcapcl/_IPNG_ADDRESS
+ - PIPNG_ADDRESS
+ - madcapcl/PIPNG_ADDRESS
+ - IPNG_ADDRESS
+ - madcapcl/IPNG_ADDRESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Madcapcl.h
+api_name:
+ - IPNG_ADDRESS
 ---
 
 # IPNG_ADDRESS structure
@@ -49,30 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IPNG_ADDRESS</b> union provides Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6) addresses.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IpAddrV4
 
 Internet Protocol (IP) address, in version 4 format (IPv4).
 
-
 ### -field IpAddrV6
 
 Internet Protocol (IP) address, in version 6 format (IPv6).
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_client_uid">MCAST_CLIENT_UID</a>
 
@@ -119,7 +114,4 @@ Internet Protocol (IP) address, in version 6 format (IPv6).
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
- 
-
- 
 

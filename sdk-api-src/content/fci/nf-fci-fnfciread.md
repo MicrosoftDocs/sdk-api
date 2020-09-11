@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: dd4e97ff-efbc-462b-b954-bc3260fa1513
 ms.date: 12/05/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
-f1_keywords:
-- fci/FNFCIREAD
-dev_langs:
-- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fci.h
-api_name:
-- FNFCIREAD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FNFCIREAD
+ - fci/FNFCIREAD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fci.h
+api_name:
+ - FNFCIREAD
 ---
 
 # FNFCIREAD macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FNFCIREAD</b> macro provides the declaration for the application-defined callback function to read data from a file in an FCI context.
 
-
 ## -parameters
-
-
-
 
 ### -param fn
 
@@ -82,10 +78,7 @@ Pointer to the buffer that receives the data read from a file.
 
 Pointer to an application-defined value
 
-
 ## -remarks
-
-
 
 The function accepts parameters similar to<a href="https://msdn.microsoft.com/library/wyssk1bs(VS.80).aspx"> _read</a> with the addition to <i>err</i> and <i>pv</i>.
 
@@ -111,17 +104,7 @@ FNFCIREAD(fnFileRead)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
- 
-
- 
 

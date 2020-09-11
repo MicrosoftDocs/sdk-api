@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: aaa5175f-c110-4e76-9145-1c667ea169a1
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],LongName property, ICspAlgorithm.LongName, ICspAlgorithm.get_LongName, ICspAlgorithm::LongName, ICspAlgorithm::get_LongName, LongName property [Security], LongName property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::LongName, certenroll/ICspAlgorithm::get_LongName, get_LongName, security.icspalgorithm_longname_property
-f1_keywords:
-- certenroll/ICspAlgorithm.LongName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspAlgorithm.LongName
-- ICspAlgorithm.get_LongName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspAlgorithm::get_LongName
+ - certenroll/ICspAlgorithm::get_LongName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspAlgorithm.LongName
+ - ICspAlgorithm.get_LongName
 ---
 
 # ICspAlgorithm::get_LongName
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LongName</b> property retrieves the full name of the algorithm.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_name">Name</a> property retrieves a short algorithm name. Call the <b>LongName</b> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
 
@@ -115,18 +111,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certen
 <td>Diffie-Hellman Key Exchange Algorithm</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
- 
-
- 
 

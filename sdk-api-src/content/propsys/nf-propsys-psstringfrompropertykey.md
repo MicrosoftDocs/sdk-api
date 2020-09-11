@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 081f8e6d-9189-44f9-9b27-e85f4793da48
 ms.date: 12/05/2018
 ms.keywords: PSStringFromPropertyKey, PSStringFromPropertyKey function [Windows Properties], _shell_PSStringFromPropertyKey, properties.PSStringFromPropertyKey, propsys/PSStringFromPropertyKey, shell.PSStringFromPropertyKey
-f1_keywords:
-- propsys/PSStringFromPropertyKey
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSStringFromPropertyKey
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSStringFromPropertyKey
+ - propsys/PSStringFromPropertyKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSStringFromPropertyKey
 ---
 
 # PSStringFromPropertyKey function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a string that identifies a property from that property's key.
 
-
 ## -parameters
-
-
-
 
 ### -param pkey [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFPROPERTYKEY</b>
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies a property.
 
-
 ### -param psz [out]
 
 Type: <b>LPWSTR</b>
 
 Pointer to a buffer that receives the output string. The buffer should be large enough to contain PKEYSTR_MAX <b>WCHAR</b><b>s</b>.
-
 
 ### -param cch [in]
 
@@ -78,21 +72,13 @@ Type: <b>UINT</b>
 
 The length of the buffer pointed to by <i>psz</i>, in <b>WCHAR</b><b>s</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The string format retrieved is <code>"{propkey.fmtid} propkey.pid"</code>. For example, the output string for <code>PKEY_Title</code> is <code>"{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 2"</code>.
 
@@ -113,21 +99,11 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetnamefrompropertykey">PSGetNameFromPropertyKey</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertykeyfromstring">PSPropertyKeyFromString</a>
- 
-
- 
 

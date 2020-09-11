@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 373c076c-6329-4332-9f07-f18a01197659
 ms.date: 12/05/2018
 ms.keywords: 373c076c-6329-4332-9f07-f18a01197659, IMFDesiredSample, IMFDesiredSample interface [Media Foundation], IMFDesiredSample interface [Media Foundation],described, evr/IMFDesiredSample, mf.imfdesiredsample
-f1_keywords:
-- evr/IMFDesiredSample
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFDesiredSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDesiredSample
+ - evr/IMFDesiredSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFDesiredSample
 ---
 
 # IMFDesiredSample interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the presenter for the enhanced video renderer (EVR) to request a specific frame from the video mixer.
 
 The sample objects created by the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nc-evr-mfcreatevideosamplefromsurface">MFCreateVideoSampleFromSurface</a> function implement this interface. To retrieve a pointer to this interface, call <b>QueryInterface</b> on the sample.
-
 
 ## -inheritance
 
@@ -98,20 +97,13 @@ Called by the presenter to set the time and duration of the sample that it reque
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

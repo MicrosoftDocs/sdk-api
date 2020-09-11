@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: e4928371-a172-4cc8-968b-12ae2ee2e0c6
 ms.date: 12/05/2018
 ms.keywords: WsCloseChannel, WsCloseChannel function [Web Services for Windows], webservices/WsCloseChannel, wsw.wsclosechannel
-f1_keywords:
-- webservices/WsCloseChannel
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCloseChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCloseChannel
+ - webservices/WsCloseChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCloseChannel
 ---
 
 # WsCloseChannel function
@@ -49,39 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Closes a specified <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">channel</a>. 
-
-
-
+Closes a specified <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">channel</a>.
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> structure representing the channel to close.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure containing information for invoking the function asynchronously.  Pass a <b>NULL</b> 
                  value to call the function synchronously.
 
-
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  where additional error information is stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -215,14 +201,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you open a channel or successfully accept a channel, you must close it when it is no longer needed. After a channel has been closed, the associated resources can safely be  freed.
 
@@ -241,7 +221,4 @@ This operation is allowed only if the channel is in WS_CHANNEL_STATE_OPEN or WS_
 Closing a channel automatically disassociates any messages that are in the
                 process of being read or written. Therefore, it is not necessary to call 
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabandonmessage">WsAbandonMessage</a> before calling <b>WsCloseChannel</b>).
-            
-
-
 

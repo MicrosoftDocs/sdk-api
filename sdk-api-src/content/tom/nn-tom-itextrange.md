@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], ITextRange interface [Windows Controls],described, _win32_ITextRange, _win32_ITextRange_cpp, controls.ITextRange, controls._win32_ITextRange, tom/ITextRange
-f1_keywords:
-- tom/ITextRange
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange
+ - tom/ITextRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange
 ---
 
 # ITextRange interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextRange</b> objects are powerful editing and data-binding tools that allow a program to select text in a story and then examine or change that text.
-
 
 ## -inheritance
 
@@ -532,12 +531,9 @@ Moves the range ends to the start of the first overlapping <i>Unit</i> in the ra
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Multiple text ranges can be active and work cooperatively on the same story and evolve with the story. For example, if one text range deletes specified text before another text range, the latter tracks the change. In this sense, text ranges are similar to Microsoft Word bookmarks, which also track editing changes. However, bookmarks cannot edit text, while text ranges can. In addition, ranges let you manipulate text without changing the selection or Clipboard, both of which are valuable to end users. The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a> interface inherits from <b>ITextRange</b> and adds some UI-oriented methods and properties as described in the section on <b>ITextSelection</b>.
 
@@ -686,13 +682,7 @@ Applications typically do not implement the <b>ITextRange</b> interface. Microso
 
 Applications can retrieve an <b>ITextRange</b> pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-range">Range</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -707,7 +697,4 @@ Applications can retrieve an <b>ITextRange</b> pointer by calling the <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/using-the-text-object-model">Using The Text Object Model</a>
- 
-
- 
 

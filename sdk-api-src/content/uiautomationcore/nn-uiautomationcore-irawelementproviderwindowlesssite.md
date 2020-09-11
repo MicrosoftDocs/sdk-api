@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: E6BE069B-C639-4578-9E5F-8CFE1267A847
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderWindowlessSite, IRawElementProviderWindowlessSite interface [Windows Accessibility], IRawElementProviderWindowlessSite interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderWindowlessSite, winauto.uiauto_IRawElementProviderWindowlessSite
-f1_keywords:
-- uiautomationcore/IRawElementProviderWindowlessSite
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IRawElementProviderWindowlessSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderWindowlessSite
+ - uiautomationcore/IRawElementProviderWindowlessSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IRawElementProviderWindowlessSite
 ---
 
 # IRawElementProviderWindowlessSite interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A Microsoft ActiveX control site implements this interface to enable a Microsoft UI Automation-enabled ActiveX control to express its accessibility.   This interface enables the control container to provide an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> pointer for the parent or siblings of the windowless ActiveX control, and to provide a runtime ID that is unique to the control site.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Retrieves a UI Automation runtime ID that is unique to the windowless ActiveX co
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessiblewindowlesssite">IAccessibleWindowlessSite</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: DBAFE260-0AC6-4801-8590-DE058667C9A6
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingService, IAccessibilityDockingService interface [COM], IAccessibilityDockingService interface [COM],described, com.iaccessibilitydockingservice, shobjidl/IAccessibilityDockingService
-f1_keywords:
-- shobjidl/IAccessibilityDockingService
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl.h
-api_name:
-- IAccessibilityDockingService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibilityDockingService
+ - shobjidl/IAccessibilityDockingService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl.h
+api_name:
+ - IAccessibilityDockingService
 ---
 
 # IAccessibilityDockingService interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Docks an application window to the bottom of a monitor when a Windows Store app is visible and not snapped, or when the launcher is visible.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Undocks the specified window handle if it is currently docked.
 
 </td>
 </tr>
-</table> 
+</table>
 

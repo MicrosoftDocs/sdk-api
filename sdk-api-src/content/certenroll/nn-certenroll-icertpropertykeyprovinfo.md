@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1c35c2f0-8e79-4031-bae2-2be081f3c8dd
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyKeyProvInfo, ICertPropertyKeyProvInfo interface [Security], ICertPropertyKeyProvInfo interface [Security],described, certenroll/ICertPropertyKeyProvInfo, security.icertpropertykeyprovinfo
-f1_keywords:
-- certenroll/ICertPropertyKeyProvInfo
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertPropertyKeyProvInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyKeyProvInfo
+ - certenroll/ICertPropertyKeyProvInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertPropertyKeyProvInfo
 ---
 
 # ICertPropertyKeyProvInfo interface
 
 
 ## -description
-
 
 The <b>ICertPropertyKeyProvInfo</b> interface represents a certificate property that contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The key information is contained in an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object.
 
@@ -58,8 +58,6 @@ When a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart
 
  Use this property whenever you need to retrieve the private key to perform a cryptographic operation.<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_KEY_PROV_INFO_PROP_ID.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -105,20 +103,13 @@ Retrieves the private key associated with the certificate.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
- 
-
- 
 

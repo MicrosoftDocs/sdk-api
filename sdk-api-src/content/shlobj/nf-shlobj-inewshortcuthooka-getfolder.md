@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2b743242-3ebe-46cb-a084-575228cb314b
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetFolder method, INewShortcutHook::GetFolder, INewShortcutHookA, INewShortcutHookA.GetFolder, INewShortcutHookA::GetFolder, INewShortcutHookW, INewShortcutHookW::GetFolder, _win32_INewShortcutHook_GetFolder, shell.INewShortcutHook_GetFolder, shlobj/INewShortcutHook::GetFolder
-f1_keywords:
-- shlobj/INewShortcutHook.GetFolder
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INewShortcutHook.GetFolder
-- INewShortcutHookA::GetFolder
-- INewShortcutHookW::GetFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INewShortcutHookA::GetFolder
+ - shlobj/INewShortcutHookA::GetFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INewShortcutHook.GetFolder
+ - INewShortcutHookA::GetFolder
+ - INewShortcutHookW::GetFolder
 ---
 
 # INewShortcutHookA::GetFolder
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the folder name for the shortcut object.
 
-
 ## -parameters
-
-
-
 
 ### -param pszFolder [out]
 
@@ -66,21 +62,15 @@ Type: <b>PTSTR</b>
 
 The address of a character buffer that receives the folder name.
 
-
 ### -param cchFolder
 
 Type: <b>int</b>
 
 The size of the buffer at <i>pszFolder</i>, in characters.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, S_FALSE if no folder has been assigned, or an standard error code otherwise.
-
-
 

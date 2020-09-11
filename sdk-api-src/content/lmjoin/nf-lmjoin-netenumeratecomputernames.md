@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: c657ae33-404e-4c36-a956-5fbcfa540be7
 ms.date: 12/05/2018
 ms.keywords: NetAllComputerNames, NetAlternateComputerNames, NetComputerNameTypeMax, NetEnumerateComputerNames, NetEnumerateComputerNames function [Network Management], NetPrimaryComputerName, lmjoin/NetEnumerateComputerNames, netmgmt.netenumeratecomputernames
-f1_keywords:
-- lmjoin/NetEnumerateComputerNames
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetEnumerateComputerNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetEnumerateComputerNames
+ - lmjoin/NetEnumerateComputerNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetEnumerateComputerNames
 ---
 
 # NetEnumerateComputerNames function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetEnumerateComputerNames</b> function enumerates names for the specified computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Server [in, optional]
 
 A pointer to a constant string that specifies the name of the computer on which to execute this function. If this parameter is <b>NULL</b>, the local computer is used.
-
 
 ### -param NameType [in]
 
@@ -114,19 +109,15 @@ Indicates the end of the range that specifies the possible values for the type o
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved [in]
 
 Reserved for future use.   This parameter should be <b>NULL</b>.
 
-
 ### -param EntryCount [out]
 
 A pointer to a DWORD value that returns the number of names returned
 in the buffer pointed to by the <i>ComputerNames</i> parameter if the function succeeds.
-
 
 ### -param ComputerNames [out]
 
@@ -135,11 +126,7 @@ A pointer to an array of pointers to names.  If the function call is successful,
 When the application no longer needs this array, this buffer should be freed by
         calling <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -229,14 +216,8 @@ The remote procedure call protocol sequence is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NetEnumerateComputerNames</b> function is supported on Windows Vista and later.  
 
@@ -244,13 +225,7 @@ The <b>NetEnumerateComputerNames</b> function is used to request the names a com
 
 The <b>NetEnumerateComputerNames</b> function requires that the caller is a member of the Administrators local group on the target computer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
 
@@ -277,7 +252,4 @@ The <b>NetEnumerateComputerNames</b> function requires that the caller is a memb
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
- 
-
- 
 

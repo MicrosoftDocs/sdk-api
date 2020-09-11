@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 7fd3f595-4897-481f-972e-04cf1a4c6046
 ms.date: 12/05/2018
 ms.keywords: ClearHwndProps, ClearHwndProps method [Windows Accessibility], ClearHwndProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHwndProps method, IAccPropServices.ClearHwndProps, IAccPropServices::ClearHwndProps, _msaa_IAccPropServices_ClearHwndProps, msaa.iaccpropservices_iaccpropservices__clearhwndprops, oleacc/IAccPropServices::ClearHwndProps, winauto.iaccpropservices_iaccpropservices__clearhwndprops
-f1_keywords:
-- oleacc/IAccPropServices.ClearHwndProps
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccPropServices.ClearHwndProps
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ms.custom: 19H1
+f1_keywords:
+ - IAccPropServices::ClearHwndProps
+ - oleacc/IAccPropServices::ClearHwndProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccPropServices.ClearHwndProps
 ---
 
 # IAccPropServices::ClearHwndProps
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method wraps <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropvalue">SetPropValue</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>, and provides a convenient entry point for callers who are annotating <b>HWND</b>-based accessible elements.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Identifies the accessible element that is to be annotated. This replaces the identity string.
 
-
 ### -param idObject [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Identifies the accessible element that is to be annotated. This replaces the identity string.
-
 
 ### -param idChild [in]
 
@@ -78,13 +72,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Identifies the accessible element that is to be annotated. This replaces the identity string.
 
-
 ### -param paProps [in]
 
 Type: <b>const MSAAPROPID*</b>
 
 Specifies an array of properties that is to be reset. These properties will revert to the default behavior that they displayed before they were annotated.
-
 
 ### -param cProps [in]
 
@@ -92,10 +84,7 @@ Type: <b>int</b>
 
 Specifies the number of properties in the <i>paProps</i> array.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -107,24 +96,13 @@ May return other error codes under exceptional error conditions such as low memo
 
 For descriptions of return values, see the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropvalue">SetPropValue</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a> method.
 
-
-
-
 ## -remarks
-
-
 
 By using this method, the caller does not have to obtain an identity string; it can specify the <i>hwnd</i>, <i>idObject</i>, and <i>idChild</i> parameters directly.
 
 Additionally, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">SetHwndPropStr</a> takes a regular Unicode string as a parameter; the caller does not need to specially allocate a <b>BSTR</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>
 
@@ -143,7 +121,4 @@ Additionally, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">SetHwndPropStr</a>
- 
-
- 
 

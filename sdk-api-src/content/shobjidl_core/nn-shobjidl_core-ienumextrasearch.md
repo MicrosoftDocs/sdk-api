@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 63b71cd2-483b-482f-b3f4-6d5c937e7708
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch, IEnumExtraSearch interface [Windows Shell], IEnumExtraSearch interface [Windows Shell],described, _win32_IEnumExtraSearch, shell.IEnumExtraSearch, shobjidl_core/IEnumExtraSearch
-f1_keywords:
-- shobjidl_core/IEnumExtraSearch
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IEnumExtraSearch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumExtraSearch
+ - shobjidl_core/IEnumExtraSearch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IEnumExtraSearch
 ---
 
 # IEnumExtraSearch interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A standard OLE enumerator used by a client to determine the available search objects for a folder.
-
 
 ## -inheritance
 
@@ -104,18 +103,13 @@ Skip a specified number of objects.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Implement <b>IEnumExtraSearch</b> if your namespace extension supports one or more search objects.
 
 You do not call this interface directly. An <b>IEnumExtraSearch</b> interface is requested by a client only after it has determined that the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> interface is exposed. Clients retrieve a pointer to this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-enumsearches">IShellFolder2::EnumSearches</a>.
 
 <b>IEnumExtraSearch</b> implements <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and the standard OLE enumeration methods.
-
-
 

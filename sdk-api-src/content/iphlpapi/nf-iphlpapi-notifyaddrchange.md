@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 22ac3b5b-452c-454b-8fbd-47a873675c6c
 ms.date: 12/05/2018
 ms.keywords: NotifyAddrChange, NotifyAddrChange function [IP Helper], _iphlp_notifyaddrchange, iphlp.notifyaddrchange, iphlpapi/NotifyAddrChange
-f1_keywords:
-- iphlpapi/NotifyAddrChange
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- NotifyAddrChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NotifyAddrChange
+ - iphlpapi/NotifyAddrChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - NotifyAddrChange
 ---
 
 # NotifyAddrChange function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>NotifyAddrChange</b> function causes a notification to be sent to the caller whenever a change occurs in the table that maps IPv4 addresses to interfaces.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle [out]
 
@@ -71,10 +67,7 @@ A pointer to a <b>HANDLE</b> variable that receives a file handle for use in a s
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  notifies the caller of any changes in the table that maps IP addresses to interfaces.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR if the caller specifies <b>NULL</b> for the <i>Handle</i> and <i>overlapped</i> parameters. If the caller specifies non-<b>NULL</b> parameters, the return value for success is ERROR_IO_PENDING.
 
@@ -132,14 +125,8 @@ This error is returned on versions of Windows where this function is not support
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  
 <b>NotifyAddrChange</b> function may be called in two ways:<ul>
@@ -216,14 +203,7 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify">CancelIPChangeNotify</a>
 
@@ -254,7 +234,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
- 
-
- 
 

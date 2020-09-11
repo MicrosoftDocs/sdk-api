@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setbitmapmargin.htm
 ms.date: 12/05/2018
 ms.keywords: Header_SetBitmapMargin, Header_SetBitmapMargin macro [Windows Controls], _win32_Header_SetBitmapMargin, _win32_Header_SetBitmapMargin_cpp, commctrl/Header_SetBitmapMargin, controls.Header_SetBitmapMargin, controls._win32_Header_SetBitmapMargin
-f1_keywords:
-- commctrl/Header_SetBitmapMargin
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Header_SetBitmapMargin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Header_SetBitmapMargin
+ - commctrl/Header_SetBitmapMargin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Header_SetBitmapMargin
 ---
 
 # Header_SetBitmapMargin macro
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setbitmapmargin">HDM_SETBITMAPMARGIN</a> message explicitly. 
-
+Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setbitmapmargin">HDM_SETBITMAPMARGIN</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a header control. 
-
+A handle to a header control.
 
 ### -param iWidth
 
 Type: <b>int</b>
 
-The width, specified in pixels, of the margin that surrounds a bitmap within an existing header control. 
-
+The width, specified in pixels, of the margin that surrounds a bitmap within an existing header control.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-header_getbitmapmargin">Header_GetBitmapMargin</a>
- 
-
- 
 

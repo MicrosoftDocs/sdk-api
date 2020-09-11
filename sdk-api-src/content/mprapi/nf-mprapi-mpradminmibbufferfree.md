@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: cee21427-42bc-45df-ad95-c8aa81041776
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBBufferFree, MprAdminMIBBufferFree function [RAS], _mpr_mpradminmibbufferfree, mprapi/MprAdminMIBBufferFree, rras.mpradminmibbufferfree
-f1_keywords:
-- mprapi/MprAdminMIBBufferFree
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminMIBBufferFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminMIBBufferFree
+ - mprapi/MprAdminMIBBufferFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminMIBBufferFree
 ---
 
 # MprAdminMIBBufferFree function
 
 
 ## -description
-
 
 The 
 <b>MprAdminMIBBufferFree</b> function frees buffers returned by the following functions:
@@ -66,17 +66,11 @@ The
 
 ## -parameters
 
-
-
-
 ### -param pBuffer [in]
 
 Pointer to a memory buffer to free.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -104,14 +98,7 @@ The <i>pBuffer</i> parameter is <b>NULL</b>.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentryget">MprAdminMIBEntryGet</a>
 
@@ -130,7 +117,4 @@ The <i>pBuffer</i> parameter is <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
- 
-
- 
 

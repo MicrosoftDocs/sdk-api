@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: cf8ec90c-07bb-4f60-93c9-4cee3fb5a056
 ms.date: 12/05/2018
 ms.keywords: GetViewStatus, GetViewStatus method [COM], GetViewStatus method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetViewStatus method, IViewObjectEx.GetViewStatus, IViewObjectEx::GetViewStatus, _ole_iviewobjectex_getviewstatus, com.iviewobjectex_getviewstatus, ocidl/IViewObjectEx::GetViewStatus
-f1_keywords:
-- ocidl/IViewObjectEx.GetViewStatus
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IViewObjectEx.GetViewStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewObjectEx::GetViewStatus
+ - ocidl/IViewObjectEx::GetViewStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IViewObjectEx.GetViewStatus
 ---
 
 # IViewObjectEx::GetViewStatus
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the opacity of the object, and what drawing aspects are supported.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwStatus [out]
 
 A pointer to the view status. This information is returned as a combination of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS</a> enumeration values.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success.
 
-
-
-
 ## -remarks
-
-
 
 In order to optimize the drawing process, the container needs to be able to determine whether an object is opaque and whether it has a solid background. It is not necessary to redraw objects that are entirely covered by a completely opaque object. Other operations, such as scrolling for example, can also be highly optimized if an object is opaque and has a solid background.
 
@@ -88,13 +76,7 @@ If a given drawing aspect is not supported, all <a href="https://docs.microsoft.
 
 Which drawing aspects are supported is independent of whether the object is opaque, partially transparent, or totally transparent. In particular, a transparent object that does not support DVASPECT_TRANSPARENT should be drawn correctly during the back to front pass using DVASPECT_CONTENT. However, this is likely to result in more flicker.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iadvisesinkex-onviewstatuschange">IAdviseSinkEx::OnViewStatusChange</a>
 
@@ -105,7 +87,4 @@ Which drawing aspects are supported is independent of whether the object is opaq
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS</a>
- 
-
- 
 

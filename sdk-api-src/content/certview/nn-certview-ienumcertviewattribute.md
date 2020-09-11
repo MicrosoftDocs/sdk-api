@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: fc1eb29d-27d9-4331-b588-dc0632b3db6a
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security], IEnumCERTVIEWATTRIBUTE interface [Security],described, _certsrv_ienumcertviewattribute, certview/IEnumCERTVIEWATTRIBUTE, security.ienumcertviewattribute
-f1_keywords:
-- certview/IEnumCERTVIEWATTRIBUTE
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWATTRIBUTE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWATTRIBUTE
+ - certview/IEnumCERTVIEWATTRIBUTE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWATTRIBUTE
 ---
 
 # IEnumCERTVIEWATTRIBUTE interface
 
 
 ## -description
-
 
 The <b>IEnumCERTVIEWATTRIBUTE</b> interface represents an attribute-enumeration sequence that contains the   certificate attributes for the current row of the row-enumeration sequence.
 
@@ -63,7 +63,6 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview
 <b>IEnumCERTVIEWATTRIBUTE</b> is defined in Certview.h. When you create your program, however, use Certsrv.h as the include file. Certadm.dll provides the <b>IEnumCERTVIEWATTRIBUTE</b> interface. The type information for this interface is also in Certadml.dll, which is shipped with the Platform Software Development Kit (SDK).
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -122,20 +121,13 @@ Moves to the beginning of the attribute-enumeration sequence.</p> (Inherited fro
 <td align="left" width="63%">
 Skips a specified number of attributes in the attribute-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWATTRIBUTE</b><b>IEnumCETVIEWATTRIBUTE</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewattribute">IEnumCERTVIEWROW::EnumCertViewAttribute</a>
- 
-
- 
 

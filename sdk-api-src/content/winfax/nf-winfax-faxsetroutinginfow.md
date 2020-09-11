@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_66i7.htm
 ms.date: 12/05/2018
 ms.keywords: FaxSetRoutingInfo, FaxSetRoutingInfo function [Fax Service], FaxSetRoutingInfoA, FaxSetRoutingInfoW, _mfax_faxsetroutinginfo, fax._mfax_faxsetroutinginfo, winfax/FaxSetRoutingInfo, winfax/FaxSetRoutingInfoA, winfax/FaxSetRoutingInfoW
-f1_keywords:
-- winfax/FaxSetRoutingInfo
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxSetRoutingInfo
-- FaxSetRoutingInfoA
-- FaxSetRoutingInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxSetRoutingInfoW
+ - winfax/FaxSetRoutingInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxSetRoutingInfo
+ - FaxSetRoutingInfoA
+ - FaxSetRoutingInfoW
 ---
 
 # FaxSetRoutingInfoW function
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 A fax management application calls the <b>FaxSetRoutingInfo</b> function to modify the routing information for a fax routing method that is associated with a specific fax device.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxPortHandle [in]
 
 Type: <b>HANDLE</b>
 
 Specifies a fax port handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function.
-
 
 ### -param RoutingGuid [in]
 
@@ -78,13 +73,11 @@ Pointer to a constant null-terminated character string that specifies the GUID t
 
 For information about fax routing methods, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">About the Fax Routing Extension API</a>. For information about the relationship between routing methods and GUIDs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-routing-methods">Fax Routing Methods</a>.
 
-
 ### -param RoutingInfoBuffer [in]
 
 Type: <b>const BYTE*</b>
 
 Pointer to a buffer that contains the fax routing information. The routing data is typically provided by the fax service administration application, a MMC snap-in component.
-
 
 ### -param RoutingInfoBufferSize [in]
 
@@ -92,10 +85,7 @@ Type: <b>DWORD</b>
 
 Pointer to a <b>DWORD</b> variable that contains the size of the buffer, in bytes, pointed to by the <i>RoutingInfoBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -142,14 +132,8 @@ The <i>RoutingGuid</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The fax service administration application, an MMC snap-in component that manages the specified fax routing method, typically calls the <b>FaxSetRoutingInfo</b> function. This is because the format of the routing data is unavailable to the fax client application. The routing data is relevant only to the exported fax routing method and the method's administration application.
 
@@ -167,9 +151,6 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 > The winfax.h header defines FaxSetRoutingInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>
 
@@ -200,7 +181,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetglobalroutinginfoa">FaxSetGlobalRoutingInfo</a>
- 
-
- 
 

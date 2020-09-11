@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 39ba411f-675f-4dad-be4f-6beffbd3b53c
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Height method, IVideoWindow.put_Height, IVideoWindow::put_Height, IVideoWindowput_Height, control/IVideoWindow::put_Height, dshow.ivideowindow_put_height, put_Height, put_Height method [DirectShow], put_Height method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.put_Height
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.put_Height
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::put_Height
+ - control/IVideoWindow::put_Height
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.put_Height
 ---
 
 # IVideoWindow::put_Height
@@ -50,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_Height</code> method sets the height of the video window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Height [in]
 
 The height, in pixels.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -113,15 +102,8 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -132,7 +114,4 @@ The video renderer filter is not connected.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_height">IVideoWindow::get_Height</a>
- 
-
- 
 

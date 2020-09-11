@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 67ed4017-9cd2-4694-9853-c07bd4f81e0a
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Next method, IEnumTerminalClass.Next, IEnumTerminalClass::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_next, tapi3.ienumterminalclass_next, tapi3if/IEnumTerminalClass::Next
-f1_keywords:
-- tapi3if/IEnumTerminalClass.Next
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumTerminalClass.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTerminalClass::Next
+ - tapi3if/IEnumTerminalClass::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumTerminalClass.Next
 ---
 
 # IEnumTerminalClass::Next
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Next</b> method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Number of elements requested.
 
-
 ### -param pElements [out]
 
 Pointer to list of elements returned.
-
 
 ### -param pceltFetched [out]
 
 Pointer to number of elements actually supplied. May be <b>NULL</b> if <i>celt</i> is one.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -130,18 +121,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
 

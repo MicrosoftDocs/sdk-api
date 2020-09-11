@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 91335658-8efb-4945-9862-f72e78d749d6
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations, IADsFileServiceOperations interface [ADSI], IADsFileServiceOperations interface [ADSI],described, _ds_iadsfileserviceoperations, adsi.iadsfileserviceoperations, iads/IADsFileServiceOperations
-f1_keywords:
-- iads/IADsFileServiceOperations
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsFileServiceOperations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsFileServiceOperations
+ - iads/IADsFileServiceOperations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsFileServiceOperations
 ---
 
 # IADsFileServiceOperations interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsFileServiceOperations</b> interface is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>. It extends the functionality, as exposed in the  <b>IADsServiceOperations</b> interface, for managing the file service across a network. Specifically, it serves to maintain and manage open resources and active sessions of the file service.
-
 
 ## -inheritance
 
@@ -315,12 +314,9 @@ Gets the status of the service.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To bind to a file service operations object, use the ADsPath string that identifies the "LanmanServer" service on the host computer, as shown in the following code example.
 
@@ -351,13 +347,7 @@ Next
 
 For more information about active sessions and open resources, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -384,7 +374,4 @@ For more information about active sessions and open resources, see  <a href="htt
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

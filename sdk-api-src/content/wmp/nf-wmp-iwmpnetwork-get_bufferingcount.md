@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 9ba9be8d-9b2b-4620-8572-317555d51bdf
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingCount method, IWMPNetwork.get_bufferingCount, IWMPNetwork::get_bufferingCount, IWMPNetworkget_bufferingCount, get_bufferingCount, get_bufferingCount method [Windows Media Player], get_bufferingCount method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingcount, wmp/IWMPNetwork::get_bufferingCount
-f1_keywords:
-- wmp/IWMPNetwork.get_bufferingCount
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_bufferingCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_bufferingCount
+ - wmp/IWMPNetwork::get_bufferingCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_bufferingCount
 ---
 
 # IWMPNetwork::get_bufferingCount
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_bufferingCount</b> method retrieves the number of times buffering occurred during playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plBufferingCount [out]
 
 Pointer to a <b>long</b> containing the buffering count.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,33 +79,18 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each time playback is stopped and restarted, the value retrieved from this method is zero. It is not reset if playback is paused.
 
 Buffering only applies to streaming content. This method retrieves valid information only during run time when the URL for playback is set by using the <b>IWMPCore::put_URL</b> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
 ms.date: 12/05/2018
 ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORMAT_MESSAGE_FROM_HMODULE, FORMAT_MESSAGE_FROM_STRING, FORMAT_MESSAGE_FROM_SYSTEM, FORMAT_MESSAGE_IGNORE_INSERTS, FORMAT_MESSAGE_MAX_WIDTH_MASK, FormatMessage, FormatMessage function, FormatMessageA, FormatMessageW, _win32_formatmessage, base.formatmessage, winbase/FormatMessage, winbase/FormatMessageA, winbase/FormatMessageW
-f1_keywords:
-- winbase/FormatMessage
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- FormatMessage
-- FormatMessageA
-- FormatMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FormatMessage
+ - winbase/FormatMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - FormatMessage
+ - FormatMessageA
+ - FormatMessageW
 ---
 
 # FormatMessage function
 
 
 ## -description
-
 
 Formats a message string. The function requires a message definition as input. The message 
     definition can come from a buffer passed into the function. It can come from a message table resource in an 
@@ -66,11 +66,7 @@ Formats a message string. The function requires a message definition as input. T
     identifier and a language identifier. The function copies the formatted message text to an output buffer, 
     processing any embedded insert sequences if requested.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -237,7 +233,6 @@ If the low-order byte is a nonzero value other than
       a string delimited by white space across a line break. The function stores hard-coded line breaks in the message 
       definition text into the output buffer. Hard-coded line breaks are coded with the %n escape sequence.
 
-
 ### -param lpSource [in, optional]
 
 The location of the message definition. The type of this parameter depends upon the settings in the 
@@ -277,12 +272,10 @@ Pointer to a string that consists of unformatted message text. It will be scanne
 If neither of these flags is set in <i>dwFlags</i>, then 
        <i>lpSource</i> is ignored.
 
-
 ### -param dwMessageId [in]
 
 The message identifier for the requested message. This parameter is ignored if 
       <i>dwFlags</i> includes <b>FORMAT_MESSAGE_FROM_STRING</b>.
-
 
 ### -param dwLanguageId [in]
 
@@ -309,7 +302,6 @@ If <b>FormatMessage</b> does not locate a message for any
        of the preceding <b>LANGIDs</b>, it returns any language message string that is present. 
        If that fails, it returns <b>ERROR_RESOURCE_LANG_NOT_FOUND</b>.
 
-
 ### -param lpBuffer [out]
 
 A pointer to a buffer that receives the null-terminated string that specifies the formatted message. If 
@@ -320,7 +312,6 @@ A pointer to a buffer that receives the null-terminated string that specifies th
 
 This buffer cannot be larger than 64K bytes.
 
-
 ### -param nSize [in]
 
 If the <b>FORMAT_MESSAGE_ALLOCATE_BUFFER</b> flag is not set, this parameter specifies 
@@ -329,7 +320,6 @@ If the <b>FORMAT_MESSAGE_ALLOCATE_BUFFER</b> flag is not set, this parameter spe
        <b>TCHARs</b> to allocate for an output buffer.
 
 The output buffer cannot be larger than 64K bytes.
-
 
 ### -param Arguments [in, optional]
 
@@ -352,10 +342,7 @@ If you do not have a pointer of type
        flag and pass a pointer to an array of <b>DWORD_PTR</b> values; those values are input to 
        the message formatted as the insert values. Each insert must have a corresponding element in the array.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of <b>TCHARs</b> stored in the 
        output buffer, excluding the terminating null character.
@@ -363,12 +350,7 @@ If the function succeeds, the return value is the number of <b>TCHARs</b> stored
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Within the message text, several escape sequences are supported for dynamically formatting the message. These 
     escape sequences and their meanings are shown in the following tables. All escape sequences start with the percent 
@@ -597,14 +579,7 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
@@ -615,7 +590,4 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
 
 
 Message Tables
- 
-
- 
 

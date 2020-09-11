@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\custdraw\structures\nmcustomdraw.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMCUSTOMDRAW, CDDS_ITEM, CDDS_ITEMPOSTERASE, CDDS_ITEMPOSTPAINT, CDDS_ITEMPREERASE, CDDS_ITEMPREPAINT, CDDS_POSTERASE, CDDS_POSTPAINT, CDDS_PREERASE, CDDS_PREPAINT, CDDS_SUBITEM, CDIS_CHECKED, CDIS_DEFAULT, CDIS_DISABLED, CDIS_DROPHILITED, CDIS_FOCUS, CDIS_GRAYED, CDIS_HOT, CDIS_INDETERMINATE, CDIS_MARKED, CDIS_NEARHOT, CDIS_OTHERSIDEHOT, CDIS_SELECTED, CDIS_SHOWKEYBOARDCUES, Global Values:, Item-specific Values:, LPNMCUSTOMDRAW, LPNMCUSTOMDRAW structure pointer [Windows Controls], NMCUSTOMDRAW, NMCUSTOMDRAW structure [Windows Controls], _win32_NMCUSTOMDRAW, _win32_NMCUSTOMDRAW_cpp, commctrl/LPNMCUSTOMDRAW, commctrl/NMCUSTOMDRAW, controls.NMCUSTOMDRAW, controls._win32_NMCUSTOMDRAW'
-f1_keywords:
-- commctrl/NMCUSTOMDRAW
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMCUSTOMDRAW
 targetos: Windows
 req.typenames: NMCUSTOMDRAW, *LPNMCUSTOMDRAW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMCUSTOMDRAWINFO
+ - commctrl/tagNMCUSTOMDRAWINFO
+ - LPNMCUSTOMDRAW
+ - commctrl/LPNMCUSTOMDRAW
+ - NMCUSTOMDRAW
+ - commctrl/NMCUSTOMDRAW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMCUSTOMDRAW
 ---
 
 # NMCUSTOMDRAW structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information specific to an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw">NM_CUSTOMDRAW</a> notification code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code. 
-
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
 
 ### -field dwDrawStage
 
@@ -196,29 +195,24 @@ Flag combined with CDDS_ITEMPREPAINT or CDDS_ITEMPOSTPAINT if a subitem is being
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hdc
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-A handle to the control's device context. Use this HDC to perform any GDI functions. 
-
+A handle to the control's device context. Use this HDC to perform any GDI functions.
 
 ### -field rc
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that describes the bounding rectangle of the area being drawn. This member is initialized only by the CDDS_ITEMPREPAINT notification. <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> This member is also initialized by the CDDS_PREPAINT notification. 
-
+The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that describes the bounding rectangle of the area being drawn. This member is initialized only by the CDDS_ITEMPREPAINT notification. <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> This member is also initialized by the CDDS_PREPAINT notification.
 
 ### -field dwItemSpec
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
-The item number. What is contained in this member will depend on the type of control that is sending the notification. See the <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw">NM_CUSTOMDRAW</a> notification reference for the specific control to determine what, if anything, is contained in this member. 
-
+The item number. What is contained in this member will depend on the type of control that is sending the notification. See the <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw">NM_CUSTOMDRAW</a> notification reference for the specific control to determine what, if anything, is contained in this member.
 
 ### -field uItemState
 
@@ -370,21 +364,14 @@ The item is currently the drop target of a drag-and-drop operation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lItemlParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Application-defined item data. 
-
+Application-defined item data.
 
 ## -remarks
 
-
-
 The value your application returns depends on the current drawing stage. The <b>dwDrawStage</b> member of the associated <b>NMCUSTOMDRAW</b> structure holds a value that specifies the drawing stage. When the <b>dwDrawStage</b> member equals CDDS_PREPAINT and CDDS_PREERASE, some controls send the CDDS_PREERASE message first and expect the return value to indicate which subsequent messages will be sent. For a code sample that illustrates states and drawing stages, see <a href="https://docs.microsoft.com/windows/desktop/Controls/custom-draw">Customizing a Control's Appearance Using Custom Draw</a>.
-
-
 

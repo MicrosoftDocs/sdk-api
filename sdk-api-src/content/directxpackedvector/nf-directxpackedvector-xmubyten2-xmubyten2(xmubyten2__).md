@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/06/2019
 ms.keywords: XMUBYTEN2, XMUBYTEN2 constructor [DirectX Math Support APIs], XMUBYTEN2 constructor [DirectX Math Support APIs],XMUBYTEN2 structure, XMUBYTEN2 structure [DirectX Math Support APIs],XMUBYTEN2 constructor, XMUBYTEN2.XMUBYTEN2, XMUBYTEN2.XMUBYTEN2(), XMUBYTEN2.XMUBYTEN2(XMUBYTEN2 &&), XMUBYTEN2::XMUBYTEN2, XMUBYTEN2::XMUBYTEN2(XMUBYTEN2 &&), dxmath.xmubyten2_ctor_1
-f1_keywords:
-- directxpackedvector/XMUBYTEN2.XMUBYTEN2
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUBYTEN2.XMUBYTEN2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUBYTEN2::XMUBYTEN2
+ - directxpackedvector/XMUBYTEN2::XMUBYTEN2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUBYTEN2.XMUBYTEN2
 ---
 
 # XMUBYTEN2::XMUBYTEN2(XMUBYTEN2 &&)
+
 
 ## -description
 
@@ -67,3 +69,4 @@ A value.
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten2-ctor">XMUBYTEN2 Constructors</a>
+

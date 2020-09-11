@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 99a8b0f3-977f-44cd-a224-0819d7513c90
 ms.date: 12/05/2018
 ms.keywords: WSAResetEvent, WSAResetEvent function [Winsock], _win32_wsaresetevent_2, winsock.wsaresetevent_2, winsock2/WSAResetEvent
-f1_keywords:
-- winsock2/WSAResetEvent
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAResetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAResetEvent
+ - winsock2/WSAResetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAResetEvent
 ---
 
 # WSAResetEvent function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAResetEvent</b> function resets the state of the specified event object to nonsignaled.
 
-
 ## -parameters
-
-
-
 
 ### -param hEvent [in]
 
 A handle that identifies an open event object handle.
 
-
 ## -returns
-
-
 
 If the 
 <b>WSAResetEvent</b> function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call 
@@ -123,14 +116,8 @@ The <i>hEvent</i> parameter is not a valid event object handle.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAResetEvent</b> function is used to set the state of the event object to nonsignaled.
@@ -141,13 +128,7 @@ The proper way to reset the state of an event object used with the <a href="http
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacloseevent">WSACloseEvent</a>
 
@@ -174,7 +155,4 @@ The proper way to reset the state of an event object used with the <a href="http
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: swdevice
 ms.assetid: 3955FA66-EBE2-4710-A873-C5FC8B7DBE2E
 ms.date: 12/05/2018
 ms.keywords: SW_DEVICE_CREATE_CALLBACK, SW_DEVICE_CREATE_CALLBACK function, SW_DEVICE_CREATE_CALLBACK function pointer, swdevice.sw_device_create_callback, swdevice/SW_DEVICE_CREATE_CALLBACK
-f1_keywords:
-- swdevice/SW_DEVICE_CREATE_CALLBACK
-dev_langs:
-- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Swdevice.h
-api_name:
-- SW_DEVICE_CREATE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SW_DEVICE_CREATE_CALLBACK
+ - swdevice/SW_DEVICE_CREATE_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Swdevice.h
+api_name:
+ - SW_DEVICE_CREATE_CALLBACK
 ---
 
 # SW_DEVICE_CREATE_CALLBACK callback function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a device with backing in the registry and allows the caller to then make calls to Software Device API functions with the <i>hSwDevice</i> handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hSwDevice [in]
 
 The handle for the software device.
 
-
 ### -param CreateResult [in]
 
 An HRESULT that indicates if the enumeration of the software device was successful.
 
-
 ### -param pContext [in, optional]
 
-The context that was optionally supplied by the client app to <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>. 
-
+The context that was optionally supplied by the client app to <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>.
 
 ### -param pszDeviceInstanceId [in, optional]
 
 The device instance ID that PnP assigned to the device.
 
-
 ## -remarks
-
-
 
 The operating system calls the <b>SW_DEVICE_CREATE_CALLBACK</b> callback function after PnP enumerates the device.  After the callback function is called, the device has backing in the registry and calls to Software Device API functions can be made by using the <i>hSwDevice</i> handle.  You can also use other APIs that work with devices for the device that is created.  
 
@@ -95,16 +85,7 @@ In Windows 8, you can't call <a href="https://docs.microsoft.com/windows/deskto
 
 Always check the HRESULT that is passed to <i>CreateResult</i> to make sure PnP was able to enumerate the device.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>
- 
-
- 
 

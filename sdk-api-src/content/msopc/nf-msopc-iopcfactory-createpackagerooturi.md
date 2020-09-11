@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 5ec33743-d362-43d9-a66e-8223745b9664
 ms.date: 12/05/2018
 ms.keywords: CreatePackageRootUri, CreatePackageRootUri method [Open Packaging Conventions], CreatePackageRootUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackageRootUri method, IOpcFactory.CreatePackageRootUri, IOpcFactory::CreatePackageRootUri, msopc/IOpcFactory::CreatePackageRootUri, opc.iopcfactory_createpackagerooturi
-f1_keywords:
-- msopc/IOpcFactory.CreatePackageRootUri
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcFactory.CreatePackageRootUri
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcFactory::CreatePackageRootUri
+ - msopc/IOpcFactory::CreatePackageRootUri
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcFactory.CreatePackageRootUri
 ---
 
 # IOpcFactory::CreatePackageRootUri
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an OPC URI object that represents the root of  a package.
 
-
 ## -parameters
-
-
-
 
 ### -param rootUri [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a> interface of the OPC URI object that represents the URI of the root of a package.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,14 +90,8 @@ The <i>rootUri</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The URI of the root of a package is always represented as "/".
 
@@ -118,13 +105,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
@@ -159,7 +140,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

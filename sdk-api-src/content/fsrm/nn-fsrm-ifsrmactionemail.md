@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 6eb6d82e-018d-4977-ad60-fce296c16e83
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail, IFsrmActionEmail interface [File Server Resource Manager], IFsrmActionEmail interface [File Server Resource Manager],described, fs.ifsrmactionemail, fsrm.ifsrmactionemail, fsrm/IFsrmActionEmail
-f1_keywords:
-- fsrm/IFsrmActionEmail
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmActionEmail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmActionEmail
+ - fsrm/IFsrmActionEmail
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmActionEmail
 ---
 
 # IFsrmActionEmail interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -75,22 +75,13 @@ To create an email action, call one of the following methods and specify
 For file management jobs, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactionemail2">IFsrmActionEmail2</a> 
     interface.
 
-
 ## -remarks
-
-
 
 You must set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactionemail-get_mailto">MailTo</a> and 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactionemail-get_messagetext">MessageText</a> properties; the other 
     properties are optional.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -121,7 +112,4 @@ You must set the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 196c839a-5b8f-4ff6-b6cf-3483db275e8b
 ms.date: 12/05/2018
 ms.keywords: FindConsumer, FindConsumer method [Windows Management Instrumentation], FindConsumer method [Windows Management Instrumentation],IWbemEventConsumerProvider interface, IWbemEventConsumerProvider interface [Windows Management Instrumentation],FindConsumer method, IWbemEventConsumerProvider.FindConsumer, IWbemEventConsumerProvider::FindConsumer, _hmm_iwbemeventconsumerprovider_findconsumer, wbemprov/IWbemEventConsumerProvider::FindConsumer, wmi.iwbemeventconsumerprovider_findconsumer
-f1_keywords:
-- wbemprov/IWbemEventConsumerProvider.FindConsumer
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemEventConsumerProvider.FindConsumer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemEventConsumerProvider::FindConsumer
+ - wbemprov/IWbemEventConsumerProvider::FindConsumer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemEventConsumerProvider.FindConsumer
 ---
 
 # IWbemEventConsumerProvider::FindConsumer
@@ -49,41 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FindConsumer</b> function locates and returns sink objects to which WMI can send events. WMI passes in a pointer to a logical consumer object, then 
 <b>FindConsumer</b> locates the physical consumer associated with the logical consumer. Finally, 
 <b>FindConsumer</b> returns to WMI a pointer to the sink belonging to the physical consumer. WMI calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the sink and begins to deliver the appropriate events to the sink. WMI releases the sink after a configurable period of time with no deliveries. If necessary, WMI can call 
 <b>FindConsumer</b> again to load the sink again.
 
-
 ## -parameters
-
-
-
 
 ### -param pLogicalConsumer [in]
 
 Pointer to the logical consumer object to which the event objects are to be delivered.
 
-
 ### -param ppConsumer [out]
 
 Returns an event object sink to Windows Management. Windows Management calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> for this pointer and deliver the events associated with the logical consumer to this sink. Eventually, after a suitable time-out, Windows Management calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> for the pointer.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 Windows Management delivers events in the form of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> to logical consumers registered within the schema. A consumer provider implements 
@@ -173,14 +160,7 @@ HRESULT MyEventConsumerClass::FindConsumer(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventconsumerprovider">IWbemEventConsumerProvider</a>
 
@@ -191,7 +171,4 @@ HRESULT MyEventConsumerClass::FindConsumer(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-events-for-the-duration-of-your-application">Receiving Events for the Duration of your Application</a>
- 
-
- 
 

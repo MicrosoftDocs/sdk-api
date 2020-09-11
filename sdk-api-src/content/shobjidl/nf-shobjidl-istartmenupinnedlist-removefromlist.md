@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8c725c4b-4de6-433b-a647-3c13674084f2
 ms.date: 12/05/2018
 ms.keywords: IStartMenuPinnedList interface [Windows Shell],RemoveFromList method, IStartMenuPinnedList.RemoveFromList, IStartMenuPinnedList::RemoveFromList, RemoveFromList, RemoveFromList method [Windows Shell], RemoveFromList method [Windows Shell],IStartMenuPinnedList interface, _shell_IStartMenuPinnedList_RemoveFromList, shell.IStartMenuPinnedList_RemoveFromList, shobjidl/IStartMenuPinnedList::RemoveFromList
-f1_keywords:
-- shobjidl/IStartMenuPinnedList.RemoveFromList
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IStartMenuPinnedList.RemoveFromList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStartMenuPinnedList::RemoveFromList
+ - shobjidl/IStartMenuPinnedList::RemoveFromList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IStartMenuPinnedList.RemoveFromList
 ---
 
 # IStartMenuPinnedList::RemoveFromList
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>Windows Vista</b>: Removes an item from the <b>Start</b> menu pinned list, which is the list in the upper left position of the <b>Start</b> menu.
 
 <b>Windows 7</b>: Removes an item from the <b>Start</b> menu pinned list and unpins the item from the taskbar.
 
 <b>Windows 8</b>: Unpins the item from the taskbar but does not remove the item from the Start screen. Items cannot be programmatically removed from Start; they can only be unpinned by the user or removed as part of a program's uninstallation.
 
-
 ## -parameters
-
-
-
 
 ### -param pitem [in]
 
@@ -68,10 +64,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the item to unpin.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -81,11 +74,7 @@ Type: <b>HRESULT</b>
 <li>Returns a standard error code otherwise.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 Because an application cannot know if any of its installed shortcuts have been pinned, this method should be called on any application shortcut being removed from the system. This includes shortcuts placed on the desktop during installation and those added to the <b>Start</b> menu's <b>All Programs</b> list.
 
@@ -140,7 +129,4 @@ if (SUCCEEDED(hr))
 
 CoUnitialize();
 ```
-
-
-
 

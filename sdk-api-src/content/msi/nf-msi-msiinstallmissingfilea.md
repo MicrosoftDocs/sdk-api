@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 289ce1e2-64ac-4222-9d0d-52c8fdd4f9c3
 ms.date: 12/05/2018
 ms.keywords: MsiInstallMissingFile, MsiInstallMissingFile function, MsiInstallMissingFileA, MsiInstallMissingFileW, _msi_msiinstallmissingfile, msi/MsiInstallMissingFile, msi/MsiInstallMissingFileA, msi/MsiInstallMissingFileW, setup.msiinstallmissingfile
-f1_keywords:
-- msi/MsiInstallMissingFile
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiInstallMissingFile
-- MsiInstallMissingFileA
-- MsiInstallMissingFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiInstallMissingFileA
+ - msi/MsiInstallMissingFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiInstallMissingFile
+ - MsiInstallMissingFileA
+ - MsiInstallMissingFileW
 ---
 
 # MsiInstallMissingFileA function
@@ -51,29 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiInstallMissingFile</b> function installs files that are unexpectedly missing.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that owns the file to be installed.
 
-
 ### -param szFile [in]
 
 Specifies the file to be installed.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -174,12 +166,7 @@ The product code is unrecognized.
 For more information about error messages, see 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiInstallMissingFile</b> function obtains the component that the file belongs to from the file table. Then, the product feature that requires the least additional disk space is installed.
@@ -193,15 +180,9 @@ The
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
 

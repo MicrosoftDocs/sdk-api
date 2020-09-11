@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 839190b4-fd29-4a94-8838-d84adfdd9668
 ms.date: 12/05/2018
 ms.keywords: IEnumPins, IEnumPins interface [DirectShow], IEnumPins interface [DirectShow],described, IEnumPinsInterface, dshow.ienumpins, strmif/IEnumPins
-f1_keywords:
-- strmif/IEnumPins
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEnumPins
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumPins
+ - strmif/IEnumPins
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEnumPins
 ---
 
 # IEnumPins interface
 
 
 ## -description
-
-
 
 Enumerates pins on a filter.
 
@@ -59,9 +58,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iba
 The filter graph manager uses this interface when it connects filters. Applications can use it to retrieve pins on a filter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-objects-in-a-filter-graph">Enumerating Objects in a Filter Graph</a>.
 
 If the number of pins on the filter changes, some methods on this interface return VFW_E_ENUM_OUT_OF_SYNC. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method to resynchronize the enumerator.
-
-
-
 
 ## -inheritance
 
@@ -114,5 +110,5 @@ Skips over a specified number of pins.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: hid
+f1_keywords:
+ - dinput
+ - dinput/dinput
 ---
 
 # Dinput.h header
 
 
 ## -description
-
 
 This header is used by Human Interface Devices Reference. For more information, see:
 

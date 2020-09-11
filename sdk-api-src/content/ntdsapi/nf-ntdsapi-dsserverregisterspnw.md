@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: d95dfa55-f978-4d8d-a63d-cd1339769c79
 ms.date: 12/05/2018
 ms.keywords: DS_SPN_ADD_SPN_OP, DS_SPN_DELETE_SPN_OP, DS_SPN_REPLACE_SPN_OP, DsServerRegisterSpn, DsServerRegisterSpn function [Active Directory], DsServerRegisterSpnA, DsServerRegisterSpnW, _glines_dsserverregisterspn, ad.dsserverregisterspn, ntdsapi/DsServerRegisterSpn, ntdsapi/DsServerRegisterSpnA, ntdsapi/DsServerRegisterSpnW
-f1_keywords:
-- ntdsapi/DsServerRegisterSpn
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsServerRegisterSpn
-- DsServerRegisterSpnA
-- DsServerRegisterSpnW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsServerRegisterSpnW
+ - ntdsapi/DsServerRegisterSpnW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsServerRegisterSpn
+ - DsServerRegisterSpnA
+ - DsServerRegisterSpnW
 ---
 
 # DsServerRegisterSpnW function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsServerRegisterSpn</b> function composes two SPNs for a host-based service. The names are based on the DNS and NetBIOS names of the local computer. The function modifies the <b>servicePrincipalName</b> attribute of either a specified account or of the account associated with the calling thread. The function either registers or unregisters the SPNs.
 
 A host-based service is a service instance that provides services identified with its host computer, as distinguished from a replicable service where clients have no preference which host computer a service instance runs on.
 
-
 ## -parameters
-
-
-
 
 ### -param Operation [in]
 
@@ -84,11 +80,9 @@ Deletes the specified SPNs from the account.
 
 Removes all SPNs currently registered on the user or computer account and replaces them with the new SPNs.
 
-
 ### -param ServiceClass [in]
 
 Pointer to a constant null-terminated string specifying the class of the service. This parameter may be any string unique to that service; either the protocol name (for example, ldap) or the string form of a GUID will work.
-
 
 ### -param UserObjectDN [in, optional]
 
@@ -109,19 +103,11 @@ Deletes the specified SPNs from the account.
 
 Removes all SPNs currently registered on the user or computer account and replaces them with the new SPNs.
 
-
 ## -returns
-
-
 
 If the function successfully registers one or more SPNs, it returns <b>ERROR_SUCCESS</b>. Modification is performed permissively, so that adding a value that already exists does not return an error.
 
-
-
-
 ## -remarks
-
-
 
 The two SPNs composed by the <b>DsServerRegisterSpn</b> function have the following format:
 
@@ -144,9 +130,6 @@ In most cases, the <b>DsServerRegisterSpn</b> caller must have domain administra
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
@@ -156,7 +139,4 @@ In most cases, the <b>DsServerRegisterSpn</b> caller must have domain administra
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
 ms.date: 05/03/2020
 ms.keywords: CreateMutex, CreateMutex function, CreateMutexA, CreateMutexW, _win32_createmutex, base.createmutex, synchapi/CreateMutex, synchapi/CreateMutexA, synchapi/CreateMutexW, winbase/CreateMutex, winbase/CreateMutexA, winbase/CreateMutexW
-f1_keywords:
-- synchapi/CreateMutex
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CreateMutex
-- CreateMutexA
-- CreateMutexW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateMutexA
+ - synchapi/CreateMutexA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CreateMutex
+ - CreateMutexA
+ - CreateMutexW
 ---
 
 # CreateMutexA function
@@ -57,16 +58,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a named or unnamed mutex object.
 
 To specify an access mask for the object, use the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexexa">CreateMutexEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpMutexAttributes [in, optional]
 
@@ -78,11 +74,9 @@ A pointer to a
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new mutex. If <i>lpMutexAttributes</i> is <b>NULL</b>, the mutex gets a default security descriptor. The ACLs in the default security descriptor for a mutex come from the primary or impersonation token of the creator. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ### -param bInitialOwner [in]
 
 If this value is <b>TRUE</b> and the caller created the mutex, the calling thread obtains initial ownership of the mutex object. Otherwise, the calling thread does not obtain ownership of the mutex. To determine if the caller created the mutex, see the Return Values section.
-
 
 ### -param lpName [in, optional]
 
@@ -103,10 +97,7 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 
 The object can be created in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the newly created mutex object.
 
@@ -115,8 +106,6 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, and the [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns **ERROR_ALREADY_EXISTS**.
 
 ## -remarks
-
-
 
 The handle returned by 
 <b>CreateMutex</b> has the <b>MUTEX_ALL_ACCESS</b> access right; it can be used in any function that requires a handle to a mutex object, provided that the caller has been granted access. If a mutex is created from a service or a thread that is impersonating a different user, you can either apply a security descriptor to the mutex when you create it, or change the default security descriptor for the creating process by changing its  default DACL. For more information, see 
@@ -158,9 +147,6 @@ See <a href="https://docs.microsoft.com/windows/desktop/Sync/using-mutex-objects
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -198,7 +184,4 @@ See <a href="https://docs.microsoft.com/windows/desktop/Sync/using-mutex-objects
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 857111cc-f590-4383-994c-a72402f8a4aa
 ms.date: 12/05/2018
 ms.keywords: CreateCounter, CreateCounter method [Direct3D 11], CreateCounter method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateCounter method, ID3D11Device.CreateCounter, ID3D11Device::CreateCounter, ac3cd491-a912-ddaf-0f13-ac5555a100ca, d3d11/ID3D11Device::CreateCounter, direct3d11.id3d11device_createcounter
-f1_keywords:
-- d3d11/ID3D11Device.CreateCounter
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device.CreateCounter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device::CreateCounter
+ - d3d11/ID3D11Device::CreateCounter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device.CreateCounter
 ---
 
 # ID3D11Device::CreateCounter
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Create a counter object for measuring GPU performance.
 
-
 ## -parameters
-
-
-
 
 ### -param pCounterDesc [in]
 
@@ -65,17 +61,13 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-
 
 Pointer to a counter description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>).
 
-
 ### -param ppCounter [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11counter">ID3D11Counter</a>**</b>
 
 Address of a pointer to a counter (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11counter">ID3D11Counter</a>).
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -87,16 +79,7 @@ DXGI_ERROR_NONEXCLUSIVE indicates that another device object is currently using 
 
 E_INVALIDARG is returned whenever an out-of-range well-known or device-dependent counter is requested, or when the simulataneously active counters have been exhausted.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
- 
-
- 
 

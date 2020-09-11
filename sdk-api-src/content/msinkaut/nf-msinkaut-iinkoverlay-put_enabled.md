@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: c376bf02-ddef-45e5-b041-b7f4b437bb27
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],Enabled property, IInkOverlay.Enabled, IInkOverlay.put_Enabled, IInkOverlay::Enabled, IInkOverlay::get_Enabled, IInkOverlay::put_Enabled, InkOverlay.get_Enabled, InkOverlay.put_Enabled, msinkaut/IInkOverlay::Enabled, msinkaut/IInkOverlay::get_Enabled, msinkaut/IInkOverlay::put_Enabled, put_Enabled, tablet.inkoverlay_enabled
-f1_keywords:
-- msinkaut/IInkOverlay.Enabled
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkOverlay.Enabled
-- IInkOverlay.get_Enabled
-- IInkOverlay.put_Enabled
-- InkOverlay.get_Enabled
-- InkOverlay.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay::put_Enabled
+ - msinkaut/IInkOverlay::put_Enabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkOverlay.Enabled
+ - IInkOverlay.get_Enabled
+ - IInkOverlay.put_Enabled
+ - InkOverlay.get_Enabled
+ - InkOverlay.put_Enabled
 ---
 
 # IInkOverlay::put_Enabled
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets a value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object collects pen input (in-air packets, cursor in range events, and so on).
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If an enabled object's window input rectangle (set in the constructor or with the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle">SetWindowInputRectangle</a> method) of an enabled object overlaps the window input rectangle of another enabled object, the E_INK_OVERLAPPING_INPUT_RECT error is returned. Overlap can occur without an error as long as only one of the input rectangles is enabled at any known time.
 
@@ -114,12 +109,7 @@ Methods
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_attachmode">AttachMode Property</a>
 
@@ -170,7 +160,4 @@ Methods
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd Property</a>
- 
-
- 
 

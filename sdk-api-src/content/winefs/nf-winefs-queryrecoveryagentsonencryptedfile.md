@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2f8d0673-3c87-46a4-b7d5-3888d20bd9b8
 ms.date: 12/05/2018
 ms.keywords: QueryRecoveryAgentsOnEncryptedFile, QueryRecoveryAgentsOnEncryptedFile function [Files], _win32_queryrecoveryagentsonencryptedfile, base.queryrecoveryagentsonencryptedfile, fs.queryrecoveryagentsonencryptedfile, winefs/QueryRecoveryAgentsOnEncryptedFile
-f1_keywords:
-- winefs/QueryRecoveryAgentsOnEncryptedFile
-dev_langs:
-- c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
-api_name:
-- QueryRecoveryAgentsOnEncryptedFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryRecoveryAgentsOnEncryptedFile
+ - winefs/QueryRecoveryAgentsOnEncryptedFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+api_name:
+ - QueryRecoveryAgentsOnEncryptedFile
 ---
 
 # QueryRecoveryAgentsOnEncryptedFile function
@@ -50,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of recovery agents for the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 The name of the file.
-
 
 ### -param pRecoveryAgents [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a> structure that receives a list of recovery agents.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is a system error code. For a complete list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 When the list of recovery agents is no longer needed, free it by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-freeencryptioncertificatehashlist">FreeEncryptionCertificateHashList</a> function.
@@ -151,13 +138,7 @@ No
 
 SMB 3.0 does not support EFS on shares with continuous availability capability.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>
 
@@ -172,7 +153,4 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-freeencryptioncertificatehashlist">FreeEncryptionCertificateHashList</a>
- 
-
- 
 

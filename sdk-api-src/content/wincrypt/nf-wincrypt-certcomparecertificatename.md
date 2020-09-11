@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6249429d-0cb2-4209-9580-87185d44b967
 ms.date: 12/05/2018
 ms.keywords: CertCompareCertificateName, CertCompareCertificateName function [Security], _crypto2_certcomparecertificatename, security.certcomparecertificatename, wincrypt/CertCompareCertificateName
-f1_keywords:
-- wincrypt/CertCompareCertificateName
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertCompareCertificateName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertCompareCertificateName
+ - wincrypt/CertCompareCertificateName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertCompareCertificateName
 ---
 
 # CertCompareCertificateName function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertCompareCertificateName</b> function compares two certificate 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structures to determine whether they are identical. The <b>CERT_NAME_BLOB</b> structures are used for the subject and the issuer of certificates.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -70,34 +66,22 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pCertName1 [in]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> for the first name in the comparison. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>.
 
-
 ### -param pCertName2 [in]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> for the second name in the comparison.
 
-
 ## -returns
-
-
 
 If the names are identical and the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a>
 
@@ -108,7 +92,4 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

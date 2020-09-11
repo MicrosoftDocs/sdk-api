@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: d8c302aa-9c57-41f8-ad22-d8fdd1158c3c
 ms.date: 12/05/2018
 ms.keywords: '*LPDDBLTBATCH, DDBLTBATCH, DDBLTBATCH structure [DirectDraw], DDBLT_ALPHADEST, DDBLT_ALPHADESTCONSTOVERRIDE, DDBLT_ALPHADESTNEG, DDBLT_ALPHADESTSURFACEOVERRIDE, DDBLT_ALPHAEDGEBLEND, DDBLT_ALPHASRC, DDBLT_ALPHASRCCONSTOVERRIDE, DDBLT_ALPHASRCNEG, DDBLT_ALPHASRCSURFACEOVERRIDE, DDBLT_ASYNC, DDBLT_COLORFILL, DDBLT_DDFX, DDBLT_DDROPS, DDBLT_KEYDEST, DDBLT_KEYDESTOVERRIDE, DDBLT_KEYSRC, DDBLT_KEYSRCOVERRIDE, DDBLT_ROP, DDBLT_ROTATIONANGLE, DDBLT_ZBUFFER, DDBLT_ZBUFFERDESTCONSTOVERRIDE, DDBLT_ZBUFFERDESTOVERRIDE, DDBLT_ZBUFFERSRCCONSTOVERRIDE, DDBLT_ZBUFFERSRCOVERRIDE, LPDDBLTBATCH, LPDDBLTBATCH structure pointer [DirectDraw], ddraw/DDBLTBATCH, ddraw/LPDDBLTBATCH, directdraw.ddbltbatch'
-f1_keywords:
-- ddraw/DDBLTBATCH
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ddraw.h
-api_name:
-- DDBLTBATCH
 targetos: Windows
 req.typenames: DDBLTBATCH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDBLTBATCH
+ - ddraw/_DDBLTBATCH
+ - DDBLTBATCH
+ - ddraw/DDBLTBATCH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ddraw.h
+api_name:
+ - DDBLTBATCH
 ---
 
 # DDBLTBATCH structure
@@ -49,31 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DDBLTBATCH structure passes bit block transfer (bitblt) operations to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a> method.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lprDest
 
 Address of a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that defines the destination for the bitblt.
 
-
 ### -field lpDDSSrc
 
 Address of a DirectDrawSurface object to be the source of the bitblt.
 
-
 ### -field lprSrc
 
 Address of a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that defines the source rectangle of the bitblt.
-
 
 ### -field dwFlags
 
@@ -222,7 +215,6 @@ Performs a z-buffered bitblt, using the <b>dwZSrcConst</b> and <b>dwZBufferOpCod
 #### DDBLT_ZBUFFERSRCOVERRIDE
 
 Performs a z-buffered bitblt, using the <b>lpDDSZBufferSrc</b> and <b>dwZBufferOpCode</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure as the z-buffer and z-buffer opcode, respectively, for the source.
-
 
 ### -field lpDDBltFx
 

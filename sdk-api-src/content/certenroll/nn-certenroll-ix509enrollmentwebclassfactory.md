@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f779c197-8467-481a-abf5-d3fd3ac90ba7
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentWebClassFactory, IX509EnrollmentWebClassFactory interface [Security], IX509EnrollmentWebClassFactory interface [Security],described, certenroll/IX509EnrollmentWebClassFactory, security.ix509enrollmentwebclassfactory
-f1_keywords:
-- certenroll/IX509EnrollmentWebClassFactory
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509EnrollmentWebClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentWebClassFactory
+ - certenroll/IX509EnrollmentWebClassFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509EnrollmentWebClassFactory
 ---
 
 # IX509EnrollmentWebClassFactory interface
 
 
 ## -description
-
 
 The <b>IX509EnrollmentWebClassFactory</b> interface can be used to create any of the following objects on a webpage. These objects cannot be created directly inside a script. Only the <b>IX509EnrollmentWebClassFactory</b> can be directly created. You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentwebclassfactory-createobject">CreateObject</a> method for each of the following:<ul>
 <li>
@@ -116,7 +116,6 @@ The <b>IX509EnrollmentWebClassFactory</b> interface can be used to create any of
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentwebclassfactory-createobject">CreateObject</a> method suppresses most of the dialog boxes that Internet Explorer displays in zones with limited trust.
 
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentWebClassFactory</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EnrollmentWebClassFactory</b> also has these types of members:
@@ -141,20 +140,13 @@ Can be used to create an object from a webpage.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

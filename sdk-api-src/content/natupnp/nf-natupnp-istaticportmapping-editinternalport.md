@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 8a43d828-327a-42be-8b8e-f3d669727fd7
 ms.date: 12/05/2018
 ms.keywords: EditInternalPort, EditInternalPort method [ICS/ICF], EditInternalPort method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalPort method, IStaticPortMapping.EditInternalPort, IStaticPortMapping::EditInternalPort, _ics_istaticportmapping_editinternalport, ics.istaticportmapping_editinternalport, natupnp/IStaticPortMapping::EditInternalPort
-f1_keywords:
-- natupnp/IStaticPortMapping.EditInternalPort
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMapping.EditInternalPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMapping::EditInternalPort
+ - natupnp/IStaticPortMapping::EditInternalPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMapping.EditInternalPort
 ---
 
 # IStaticPortMapping::EditInternalPort
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EditInternalPort</b> method sets the internal port for this port mapping.
 
-
 ## -parameters
-
-
-
 
 ### -param lInternalPort [in]
 
 Specifies the new internal port for this port mapping.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -166,15 +159,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
@@ -189,7 +175,4 @@ The method failed for unknown reasons.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
 

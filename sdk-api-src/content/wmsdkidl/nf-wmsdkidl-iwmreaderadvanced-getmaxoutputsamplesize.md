@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: ad21ab6e-c7af-4293-8920-05db62b9f7ef
 ms.date: 12/05/2018
 ms.keywords: GetMaxOutputSampleSize, GetMaxOutputSampleSize method [windows Media Format], GetMaxOutputSampleSize method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetMaxOutputSampleSize method, IWMReaderAdvanced.GetMaxOutputSampleSize, IWMReaderAdvanced::GetMaxOutputSampleSize, IWMReaderAdvancedGetMaxOutputSampleSize, wmformat.iwmreaderadvanced_getmaxoutputsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxOutputSampleSize
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced.GetMaxOutputSampleSize
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced.GetMaxOutputSampleSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced::GetMaxOutputSampleSize
+ - wmsdkidl/IWMReaderAdvanced::GetMaxOutputSampleSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced.GetMaxOutputSampleSize
 ---
 
 # IWMReaderAdvanced::GetMaxOutputSampleSize
@@ -52,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetMaxOutputSampleSize</b> method retrieves the maximum buffer size to be allocated for output samples for a specified media stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutput [in]
 
 <b>DWORD</b> specifying the output media stream.
 
-
 ### -param pcbMax [out]
 
 Pointer to the maximum buffer size to be allocated.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,15 +108,8 @@ No file has been opened for the sample.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
@@ -138,7 +120,4 @@ No file has been opened for the sample.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxstreamsamplesize">IWMReaderAdvanced::GetMaxStreamSampleSize</a>
- 
-
- 
 

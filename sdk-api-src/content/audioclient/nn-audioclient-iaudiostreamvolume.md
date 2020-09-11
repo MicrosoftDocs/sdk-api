@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 92cc127b-77ac-4fc7-ac3c-319e5d6368d3
 ms.date: 12/05/2018
 ms.keywords: IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], IAudioStreamVolume interface [Core Audio],described, audioclient/IAudioStreamVolume, coreaudio.iaudiostreamvolume
-f1_keywords:
-- audioclient/IAudioStreamVolume
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioStreamVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioStreamVolume
+ - audioclient/IAudioStreamVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioStreamVolume
 ---
 
 # IAudioStreamVolume interface
 
 
 ## -description
-
-
 
 The <b>IAudioStreamVolume</b> interface enables a client to control and monitor the volume levels for all of the channels in an audio stream. The client obtains a reference to the <b>IAudioStreamVolume</b> interface on a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioStreamVolume.
 
@@ -66,9 +65,6 @@ Each of the four volume-level factors in the preceding list is a value in the ra
 When releasing an <b>IAudioStreamVolume</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <b>IAudioClient::GetService</b> that created the object.
 
 The <b>IAudioStreamVolume</b> interface controls the channel volumes in a shared-mode audio stream. This interface does not work with exclusive-mode streams. For information about volume controls for exclusive-mode streams, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpointvolume-api">EndpointVolume API</a>.
-
-
-
 
 ## -inheritance
 
@@ -130,13 +126,9 @@ Sets the volume level for the specified channel in the audio stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -155,7 +147,4 @@ Sets the volume level for the specified channel in the audio stream.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: a5f34088-13b9-4269-a3ca-777e0bb9b655
 ms.date: 12/05/2018
 ms.keywords: '*PWSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH enumeration [Windows API], WSC_SECURITY_PROVIDER_HEALTH,*PWSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH,*PWSC_SECURITY_PROVIDER_HEALTH enumeration [Windows API], WSC_SECURITY_PROVIDER_HEALTH_GOOD, WSC_SECURITY_PROVIDER_HEALTH_NOTMONITORED, WSC_SECURITY_PROVIDER_HEALTH_POOR, WSC_SECURITY_PROVIDER_HEALTH_SNOOZE, winprog.wsc_security_provider_health, wscapi/WSC_SECURITY_PROVIDER_HEALTH, wscapi/WSC_SECURITY_PROVIDER_HEALTH_GOOD, wscapi/WSC_SECURITY_PROVIDER_HEALTH_NOTMONITORED, wscapi/WSC_SECURITY_PROVIDER_HEALTH_POOR, wscapi/WSC_SECURITY_PROVIDER_HEALTH_SNOOZE'
-f1_keywords:
-- wscapi/WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
-dev_langs:
-- c++
 req.header: wscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wscapi.h
-api_name:
-- WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
 targetos: Windows
 req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSC_SECURITY_PROVIDER_HEALTH
+ - wscapi/_WSC_SECURITY_PROVIDER_HEALTH
+ - PWSC_SECURITY_PROVIDER_HEALTH
+ - wscapi/PWSC_SECURITY_PROVIDER_HEALTH
+ - WSC_SECURITY_PROVIDER_HEALTH
+ - wscapi/WSC_SECURITY_PROVIDER_HEALTH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wscapi.h
+api_name:
+ - WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
 ---
 
 # WSC_SECURITY_PROVIDER_HEALTH enumeration
@@ -49,42 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the possible states for any service monitored by Windows Security Center (WSC).
 
-
 ## -enum-fields
-
-
-
 
 ### -field WSC_SECURITY_PROVIDER_HEALTH_GOOD
 
 The status of the security provider category is good and does not need user attention.
 
-
 ### -field WSC_SECURITY_PROVIDER_HEALTH_NOTMONITORED
 
 The status of the security provider category is not monitored by WSC.
-
 
 ### -field WSC_SECURITY_PROVIDER_HEALTH_POOR
 
 The status of the security provider category is poor and the computer may be at risk.
 
-
 ### -field WSC_SECURITY_PROVIDER_HEALTH_SNOOZE
 
 The security provider category is in snooze state. Snooze indicates that WSC is not actively protecting the computer.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a>
- 
-
- 
 

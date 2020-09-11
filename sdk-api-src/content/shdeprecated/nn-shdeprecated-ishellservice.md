@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0b845907-a879-4f87-a6f5-8cc86dfe03ff
 ms.date: 12/05/2018
 ms.keywords: IShellService, IShellService interface [Windows Shell], IShellService interface [Windows Shell],described, shdeprecated/IShellService, shell.IShellService, zone_IShellService
-f1_keywords:
-- shdeprecated/IShellService
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IShellService
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IShellService
+ - shdeprecated/IShellService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IShellService
 ---
 
 # IShellService interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. <b>IShellService</b> Exposes one method that declares ownership when a service component implementing a certain interface is shared among multiple clients, such as Windows Internet Explorer and Windows Explorer.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Deprecated. Declares an owner reference to the service object.
 
 </td>
 </tr>
-</table> 
+</table>
 

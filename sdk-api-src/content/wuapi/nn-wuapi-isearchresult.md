@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: f38c5b0f-8010-4db1-802c-5005c332188b
 ms.date: 12/05/2018
 ms.keywords: ISearchResult, ISearchResult interface [Windows Update Agent], ISearchResult interface [Windows Update Agent],described, wua.isearchresult, wuapi/ISearchResult
-f1_keywords:
-- wuapi/ISearchResult
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISearchResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchResult
+ - wuapi/ISearchResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISearchResult
 ---
 
 # ISearchResult interface
 
 
 ## -description
-
 
 Represents the result of a search.
 

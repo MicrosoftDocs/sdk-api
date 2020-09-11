@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 0fd6d1d4-daa6-4be3-8749-be98cd7c0288
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk, IVdsDisk interface [VDS], IVdsDisk interface [VDS],described, base.ivdsdisk, vds/IVdsDisk
-f1_keywords:
-- vds/IVdsDisk
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsDisk
+ - vds/IVdsDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsDisk
 ---
 
 # IVdsDisk interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query and configure basic and dynamic disks.
-
 
 ## -inheritance
 
@@ -134,13 +133,9 @@ Sets the flags of a disk.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">Disk Object</a>
 
@@ -155,7 +150,4 @@ Sets the flags of a disk.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara, ITextPara interface [Windows Controls], ITextPara interface [Windows Controls],described, _win32_ITextPara, _win32_ITextPara_cpp, controls.ITextPara, controls._win32_ITextPara, tom/ITextPara
-f1_keywords:
-- tom/ITextPara
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara
+ - tom/ITextPara
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara
 ---
 
 # ITextPara interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> and <b>ITextPara</b>.
-
 
 ## -inheritance
 
@@ -503,12 +502,9 @@ Controls the suppression of widows and orphans.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> and <b>ITextPara</b> interfaces encapsulate the functionality of the Microsoft Word Format <b>Font</b> and <b>Paragraph</b> dialog boxes, respectively. Both interfaces include a duplicate (<b>Value</b>) property that can return a duplicate of the attributes in a range object or transfer a set of attributes to a range. As such, they act like programmable format painters. For example, you could transfer all attributes from range r1 to range r2 except for making r2 bold and the font size 12 points by using the following subroutine.
 
@@ -542,12 +538,7 @@ The <b>ITextPara</b> interface encapsulates the Word Paragraph dialog box. All m
 <li>Style WidowControl</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -562,7 +553,4 @@ The <b>ITextPara</b> interface encapsulates the Word Paragraph dialog box. All m
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/using-the-text-object-model">Using The Text Object Model</a>
- 
-
- 
 

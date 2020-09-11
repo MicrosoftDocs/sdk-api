@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 659D79E3-2E7C-4431-B724-7AC2978BD9BC
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionDevice2 interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice2 interface [DirectComposition],CreateVirtualSurface method, IDCompositionDevice2.CreateVirtualSurface, IDCompositionDevice2::CreateVirtualSurface, dcomp/IDCompositionDevice2::CreateVirtualSurface, directcomp.idcompositiondevice2_createvirtualsurface
-f1_keywords:
-- dcomp/IDCompositionDevice2.CreateVirtualSurface
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionDevice2.CreateVirtualSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionDevice2::CreateVirtualSurface
+ - dcomp/IDCompositionDevice2::CreateVirtualSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionDevice2.CreateVirtualSurface
 ---
 
 # IDCompositionDevice2::CreateVirtualSurface
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
         Creates a sparsely populated surface that can be associated with one or more visuals for composition.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param initialWidth [in]
 
@@ -66,20 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The width of the surface, in pixels. The maximum width is 16,777,216 pixels.
 
-
 ### -param initialHeight [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The height of the surface, in pixels. The maximum height is 16,777,216 pixels.
 
-
 ### -param pixelFormat [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
 The pixel format of the surface.
-
 
 ### -param alphaMode [in]
 
@@ -124,8 +115,6 @@ The alpha channel should be ignored and the bitmap should be rendered opaquely.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param virtualSurface [out]
 
@@ -133,21 +122,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-
 
 The newly created surface object. This parameter must not be NULL.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 A Microsoft DirectComposition sparse surface is a logical object that behaves like a rectangular array of pixels that can be associated with a visual for composition. The surface is not necessarily backed by any physical video or system memory for every one of its pixels. The application can realize or virtualize parts of the logical surface at different times.
 
@@ -164,22 +145,13 @@ DirectComposition surfaces support the following pixel formats:
 <li><b>DXGI_FORMAT_R8G8B8A8_UNORM</b></li>
 <li><b>DXGI_FORMAT_R16G16B16A16_FLOAT</b></li>
 </ul>
-This method fails if <i>initialWidth</i> or <i>initialHeight</i> exceeds 16,777,216 pixels. 
-
-
-
+This method fails if <i>initialWidth</i> or <i>initialHeight</i> exceeds 16,777,216 pixels.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createsurface">IDCompositionDevice::CreateSurface</a>
- 
-
- 
 

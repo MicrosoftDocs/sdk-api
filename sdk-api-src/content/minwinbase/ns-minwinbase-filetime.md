@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 9baf8a0e-59e3-4fbd-9616-2ec9161520d1
 ms.date: 12/05/2018
 ms.keywords: '*LPFILETIME, *PFILETIME, FILETIME, FILETIME structure, PFILETIME, PFILETIME structure pointer, _FILETIME, _win32_filetime_str, base.filetime_str, minwinbase/FILETIME, minwinbase/PFILETIME'
-f1_keywords:
-- minwinbase/FILETIME
-dev_langs:
-- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- minwinbase.h
-api_name:
-- FILETIME
 targetos: Windows
 req.typenames: FILETIME, *PFILETIME, *LPFILETIME
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILETIME
+ - minwinbase/_FILETIME
+ - PFILETIME
+ - minwinbase/PFILETIME
+ - FILETIME
+ - minwinbase/FILETIME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minwinbase.h
+api_name:
+ - FILETIME
 ---
 
 # FILETIME structure
@@ -49,28 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwLowDateTime
 
 The low-order part of the file time.
 
-
 ### -field dwHighDateTime
 
 The high-order part of the file time.
 
-
 ## -remarks
-
-
 
 To convert a 
 <b>FILETIME</b> structure into a time that is easy to display to a user, use the 
@@ -96,12 +92,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-comparefiletime">CompareFileTime</a>
 
@@ -120,7 +111,4 @@ For an example, see
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>
- 
-
- 
 

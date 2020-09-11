@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: f5052470-487d-4f47-8d42-70538a4a45a8
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResource, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging], IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresource, xpsobjectmodel/IXpsOMSignatureBlockResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMSignatureBlockResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMSignatureBlockResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMSignatureBlockResource
+ - xpsobjectmodel/IXpsOMSignatureBlockResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMSignatureBlockResource
 ---
 
 # IXpsOMSignatureBlockResource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides an IStream interface to a signature block resource.
-
 
 ## -inheritance
 
@@ -96,13 +95,9 @@ Sets the read-only stream to be associated with this resource.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createsignatureblockresource">IXpsOMObjectFactory::CreateSignatureBlockResource</a>
 
@@ -117,7 +112,4 @@ Sets the read-only stream to be associated with this resource.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

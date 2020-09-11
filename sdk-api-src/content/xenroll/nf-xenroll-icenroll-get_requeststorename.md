@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],RequestStoreName property, ICEnroll interface [Security],RequestStoreName property, ICEnroll.RequestStoreName, ICEnroll.get_RequestStoreName, ICEnroll2 interface [Security],RequestStoreName property, ICEnroll2.RequestStoreName, ICEnroll2::get_RequestStoreName, ICEnroll2::put_RequestStoreName, ICEnroll3 interface [Security],RequestStoreName property, ICEnroll3.RequestStoreName, ICEnroll3::get_RequestStoreName, ICEnroll3::put_RequestStoreName, ICEnroll4 interface [Security],RequestStoreName property, ICEnroll4.RequestStoreName, ICEnroll4::RequestStoreName, ICEnroll4::get_RequestStoreName, ICEnroll4::put_RequestStoreName, ICEnroll::get_RequestStoreName, ICEnroll::put_RequestStoreName, RequestStoreName property [Security], RequestStoreName property [Security],CEnroll object, RequestStoreName property [Security],ICEnroll interface, RequestStoreName property [Security],ICEnroll2 interface, RequestStoreName property [Security],ICEnroll3 interface, RequestStoreName property [Security],ICEnroll4 interface, get_RequestStoreName, security.icenroll4_requeststorename, xenroll/ICEnroll2::RequestStoreName, xenroll/ICEnroll2::get_RequestStoreName, xenroll/ICEnroll2::put_RequestStoreName, xenroll/ICEnroll3::RequestStoreName, xenroll/ICEnroll3::get_RequestStoreName, xenroll/ICEnroll3::put_RequestStoreName, xenroll/ICEnroll4::RequestStoreName, xenroll/ICEnroll4::get_RequestStoreName, xenroll/ICEnroll4::put_RequestStoreName, xenroll/ICEnroll::RequestStoreName, xenroll/ICEnroll::get_RequestStoreName, xenroll/ICEnroll::put_RequestStoreName
-f1_keywords:
-- xenroll/ICEnroll4.RequestStoreName
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.RequestStoreName
-- ICEnroll4.get_RequestStoreName
-- ICEnroll4.put_RequestStoreName
-- ICEnroll3.RequestStoreName
-- ICEnroll3.get_RequestStoreName
-- ICEnroll3.put_RequestStoreName
-- ICEnroll2.RequestStoreName
-- ICEnroll2.get_RequestStoreName
-- ICEnroll2.put_RequestStoreName
-- ICEnroll.RequestStoreName
-- ICEnroll.get_RequestStoreName
-- ICEnroll.put_RequestStoreName
-- CEnroll.RequestStoreName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::get_RequestStoreName
+ - xenroll/ICEnroll::get_RequestStoreName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.RequestStoreName
+ - ICEnroll4.get_RequestStoreName
+ - ICEnroll4.put_RequestStoreName
+ - ICEnroll3.RequestStoreName
+ - ICEnroll3.get_RequestStoreName
+ - ICEnroll3.put_RequestStoreName
+ - ICEnroll2.RequestStoreName
+ - ICEnroll2.get_RequestStoreName
+ - ICEnroll2.put_RequestStoreName
+ - ICEnroll.RequestStoreName
+ - ICEnroll.get_RequestStoreName
+ - ICEnroll.put_RequestStoreName
+ - CEnroll.RequestStoreName
 ---
 
 # ICEnroll::get_RequestStoreName
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -74,13 +74,9 @@ This property was first defined in the <a href="https://docs.microsoft.com/windo
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Typically, modification of the <b>RequestStoreName</b> property is  performed only in advanced applications. Changing this value is not recommended for most applications.
 
@@ -133,7 +129,4 @@ if ( FAILED ( hr ) )
 else
     printf( "RequestStoreName was set to : %ws\n", bstrNewName );
 ```
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 2608985f-56aa-4223-b76d-85ebe3b080fb
 ms.date: 12/05/2018
 ms.keywords: WSDAllocateLinkedMemory, WSDAllocateLinkedMemory function, ncd.wsdallocatelinkedmemory_func, wsdutil/WSDAllocateLinkedMemory
-f1_keywords:
-- wsdutil/WSDAllocateLinkedMemory
-dev_langs:
-- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDAllocateLinkedMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDAllocateLinkedMemory
+ - wsdutil/WSDAllocateLinkedMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDAllocateLinkedMemory
 ---
 
 # WSDAllocateLinkedMemory function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates a linked memory block.
 
-
 ## -parameters
-
-
-
 
 ### -param pParent
 
  Pointer to the parent memory block.
 
-
 ### -param cbSize
 
 Size of the memory block to be allocated.
 
-
 ## -returns
-
-
 
 Pointer to the newly allocated memory block.
 
-
-
-
 ## -remarks
-
-
 
 The memory 
 block allocated by <b>WSDAllocateLinkedMemory</b> is linked to a parent memory block and is freed when 
@@ -87,6 +74,4 @@ the parent memory block is freed.
 
  If <i>pParent</i> is <b>NULL</b> the allocated memory block must be explicitly freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
-
-
 

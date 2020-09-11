@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 4d6ba1d8-b046-450b-a3f9-4810faba5b77
 ms.date: 12/05/2018
 ms.keywords: IWMVideoMediaProps, IWMVideoMediaProps interface [windows Media Format], IWMVideoMediaProps interface [windows Media Format],described, IWMVideoMediaPropsInterface, wmformat.iwmvideomediaprops, wmsdkidl/IWMVideoMediaProps
-f1_keywords:
-- wmsdkidl/IWMVideoMediaProps
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-api_name:
-- IWMVideoMediaProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMVideoMediaProps
+ - wmsdkidl/IWMVideoMediaProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+api_name:
+ - IWMVideoMediaProps
 ---
 
 # IWMVideoMediaProps interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 With this interface, the application can specify additional video-specific parameters not available on the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a> interface.
 
 To get access to the methods of this interface, call <b>QueryInterface</b> on a stream configuration object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>).
-
-
-
 
 ## -inheritance
 
@@ -148,20 +144,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </td>
 <td>IID_IWMStreamConfig3</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

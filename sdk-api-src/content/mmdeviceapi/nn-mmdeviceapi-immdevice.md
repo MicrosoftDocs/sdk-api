@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 12b05e7e-81b2-49fd-bb9f-d5ad3315c580
 ms.date: 12/05/2018
 ms.keywords: IMMDevice, IMMDevice interface [Core Audio], IMMDevice interface [Core Audio],described, coreaudio.immdevice, mmdeviceapi/IMMDevice
-f1_keywords:
-- mmdeviceapi/IMMDevice
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMDevice
+ - mmdeviceapi/IMMDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMDevice
 ---
 
 # IMMDevice interface
 
 
 ## -description
-
-
 
 The <b>IMMDevice</b> interface encapsulates the generic features of a multimedia device resource. In the current implementation of the MMDevice API, the only type of device resource that an <b>IMMDevice</b> interface can represent is an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint device</a>.
 
@@ -83,8 +82,6 @@ For code examples that use the <b>IMMDevice</b> interface, see the following top
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles-for-legacy-windows-multimedia-applications">Device Roles for Legacy Windows Multimedia Applications</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -137,13 +134,9 @@ Gets an interface to the device's property store.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -170,7 +163,4 @@ Gets an interface to the device's property store.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>
- 
-
- 
 

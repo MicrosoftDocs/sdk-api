@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 980c7920-a25e-4e05-a742-77178a7f000a
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi.wlansetprofilelist, wlanapi/WlanSetProfileList
-f1_keywords:
-- wlanapi/WlanSetProfileList
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanSetProfileList
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanSetProfileList
+ - wlanapi/WlanSetProfileList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanSetProfileList
 ---
 
 # WlanSetProfileList function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanSetProfileList</b> function sets the preference order of profiles for a given interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
-
 ### -param pInterfaceGuid [in]
 
 The GUID of the interface.
 
-
 ### -param dwItems [in]
 
 The number of profiles in the <i>strProfileNames</i> parameter.
-
 
 ### -param strProfileNames [in]
 
@@ -79,15 +72,11 @@ The names of the profiles in the desired order. Profile names are case-sensitive
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The supplied names must match the profile names derived automatically from the SSID of the network. For infrastructure network profiles, the SSID must be supplied for the profile name. For ad hoc network profiles, the supplied name must be the SSID of the ad hoc network followed by <code>-adhoc</code>.
 
-
 ### -param pReserved
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -164,14 +153,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WlanSetProfileList</b> function sets the preference order of wireless LAN profiles for a given wireless interface.
 
@@ -179,15 +162,9 @@ The profiles in the list must be a one-to-one match with the current profiles re
 
 All wireless LAN functions require an interface GUID for the wireless interface when performing profile operations. When a wireless interface is removed, its state is cleared from Wireless LAN Service (WLANSVC)  and no profile operations are possible.
 
-The <b>WlanSetProfileList</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example). 
-
-
-
+The <b>WlanSetProfileList</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
@@ -198,7 +175,4 @@ The <b>WlanSetProfileList</b> function can fail with <b>ERROR_INVALID_PARAMETER<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>
- 
-
- 
 

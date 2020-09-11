@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: c9e2f353-d5d4-47a2-8398-5cbd9d499fb7
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], IVdsSubSystemImportTarget interface [VDS],described, base.ivdssubsystemimporttarget, vds/IVdsSubSystemImportTarget
-f1_keywords:
-- vds/IVdsSubSystemImportTarget
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsSubSystemImportTarget
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsSubSystemImportTarget
+ - vds/IVdsSubSystemImportTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsSubSystemImportTarget
 ---
 
 # IVdsSubSystemImportTarget interface
@@ -50,12 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query and configure the default VSS import target for the 
    subsystem.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Returns the VSS import target for the computer for this subsystem.</p> (Inherite
 <td align="left" width="63%">
 Sets the VSS import target for the computer for this subsystem.</p> (Inherited from <b>IVdsSubSystemImportTarget</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ca24930d-bd1e-4c12-8246-1e505a98944a
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHostApp, IMFPMPHostApp interface [Media Foundation], IMFPMPHostApp interface [Media Foundation],described, mf.imfpmphostapp, mfidl/IMFPMPHostApp
-f1_keywords:
-- mfidl/IMFPMPHostApp
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFPMPHostApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMPHostApp
+ - mfidl/IMFPMPHostApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFPMPHostApp
 ---
 
 # IMFPMPHostApp interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a media source to create a <a href="https://docs.microsoft.com/windows/desktop/WinRT/reference">Windows Runtime</a> object in the <a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a> (PMP) process.
-        
-
 
 ## -inheritance
 
@@ -96,13 +94,9 @@ Decrements the lock count on the PMP process.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
@@ -113,7 +107,4 @@ Decrements the lock count on the PMP process.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
- 
-
- 
 

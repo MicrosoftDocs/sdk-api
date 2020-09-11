@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: b6817676-affb-4bb3-adba-e24e0b75ad10
 ms.date: 12/05/2018
 ms.keywords: IWICColorContext, IWICColorContext interface [Windows Imaging Component], IWICColorContext interface [Windows Imaging Component],described, _wic_codec_iwiccolorcontext, wic._wic_codec_iwiccolorcontext, wincodec/IWICColorContext
-f1_keywords:
-- wincodec/IWICColorContext
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICColorContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICColorContext
+ - wincodec/IWICColorContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICColorContext
 ---
 
 # IWICColorContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for color management.
-
 
 ## -inheritance
 
@@ -122,16 +121,11 @@ Initializes the color context from a memory block.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A Color Context is an abstraction for a color profile. The profile can either be loaded from a file (like "sRGB Color Space Profile.icm"), read from a memory buffer, or can be defined by an EXIF color space. The system color profile directory can be obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>.
 
 Once a color context has been initialized, it cannot be re-initialized.
-
-
 

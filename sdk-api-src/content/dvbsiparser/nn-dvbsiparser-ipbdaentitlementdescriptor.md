@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 2fe666fa-ebc4-4a47-87ce-085f357ce186
 ms.date: 12/05/2018
 ms.keywords: IPBDAEntitlementDescriptor, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies], IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAEntitlementDescriptor, mstv.ipbdaentitlementdescriptor
-f1_keywords:
-- dvbsiparser/IPBDAEntitlementDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IPBDAEntitlementDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPBDAEntitlementDescriptor
+ - dvbsiparser/IPBDAEntitlementDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IPBDAEntitlementDescriptor
 ---
 
 # IPBDAEntitlementDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that retrieve data from the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Gets the entitlement token from the entitlement descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

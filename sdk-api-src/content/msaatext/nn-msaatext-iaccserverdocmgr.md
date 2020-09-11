@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: a69d46b1-26d2-4121-b89a-42c53343d426
 ms.date: 12/05/2018
 ms.keywords: IAccServerDocMgr, IAccServerDocMgr interface [Windows Accessibility], IAccServerDocMgr interface [Windows Accessibility],described, msaa.iaccserverdocmgr, msaatext/IAccServerDocMgr, winauto.iaccserverdocmgr
-f1_keywords:
-- msaatext/IAccServerDocMgr
-dev_langs:
-- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msaatext.h
-api_name:
-- IAccServerDocMgr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccServerDocMgr
+ - msaatext/IAccServerDocMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msaatext.h
+api_name:
+ - IAccServerDocMgr
 ---
 
 # IAccServerDocMgr interface
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
 <a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
-Exposes methods that make documents accessible to client applications. 
-
-
-
+Exposes methods that make documents accessible to client applications.
 
 ## -inheritance
 
@@ -101,5 +98,5 @@ Notifies the Microsoft Active Accessibility run time that a document is no longe
 
 </td>
 </tr>
-</table> 
+</table>
 

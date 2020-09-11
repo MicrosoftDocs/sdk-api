@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors\pen_34brush_width.htm
 ms.date: 12/05/2018
 ms.keywords: Pen, Pen class [GDI+],Pen constructor, Pen constructor [GDI+], Pen constructor [GDI+],Pen class, Pen.Pen, Pen.Pen(IN const Brush,IN REAL), Pen.Pen(const Brush*,REAL), Pen::Pen, Pen::Pen(IN const Brush,IN REAL), _gdiplus_CLASS_Pen_Pen_brush_width_, gdiplus._gdiplus_CLASS_Pen_Pen_brush_width_
-f1_keywords:
-- gdipluspen/Pen.Pen
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Pen.Pen
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Pen::Pen
+ - gdipluspen/Pen::Pen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Pen.Pen
 ---
 
 # Pen::Pen(IN const Brush,IN REAL)
@@ -50,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object that uses the attributes of a brush and a real number to set the width of this <b>Pen</b> object.
 
-
 ## -parameters
-
-
-
 
 ### -param brush [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>*</b>
 
-Pointer to a brush to base this pen on. 
-
+Pointer to a brush to base this pen on.
 
 ### -param width [in]
 
 Type: <b>REAL</b>
 
-Optional. Real number that specifies the width of this pen's stroke. The default value is 1.0. 
-
+Optional. Real number that specifies the width of this pen's stroke. The default value is 1.0.
 
 ## -remarks
-
-
 
 If you pass the address of a pen to one of the draw methods of a 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, the width of the pen's stroke is dependent on the unit of measure specified in the 
@@ -95,14 +87,7 @@ SolidBrush sBrush(Color(255,255,0,0));
 Pen pen(&sBrush, 4.0f);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>
 
@@ -117,7 +102,4 @@ Pen pen(&sBrush, 4.0f);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>
- 
-
- 
 

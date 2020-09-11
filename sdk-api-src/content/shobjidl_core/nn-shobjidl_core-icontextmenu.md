@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee
 ms.date: 12/05/2018
 ms.keywords: IContextMenu, IContextMenu interface [Windows Shell], IContextMenu interface [Windows Shell],described, _win32_IContextMenu, _win32_icontextmenu_cpp, shell.IContextMenu, shobjidl_core/IContextMenu
-f1_keywords:
-- shobjidl_core/IContextMenu
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenu
+ - shobjidl_core/IContextMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IContextMenu
 ---
 
 # IContextMenu interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that either create or merge a shortcut menu associated with a Shell object.
-
 
 ## -inheritance
 
@@ -95,12 +94,9 @@ Adds commands to a shortcut menu.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Implement <b>IContextMenu</b> in the following situations.
@@ -121,5 +117,4 @@ Shell extension handlers that export this interface must also export <a href="ht
 
 <div class="alert"><b>Note</b>  <b>Windows Vista and later:</b> Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
-
 

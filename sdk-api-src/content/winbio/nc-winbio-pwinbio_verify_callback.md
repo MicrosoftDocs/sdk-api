@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: CD847827-D50F-41C2-81F7-B5ED316E7ABD
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_VERIFY_CALLBACK, PWINBIO_VERIFY_CALLBACK callback, PWINBIO_VERIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_verify_callback, winbio/PWINBIO_VERIFY_CALLBACK
-f1_keywords:
-- winbio/PWINBIO_VERIFY_CALLBACK
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio.h
-api_name:
-- PWINBIO_VERIFY_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWINBIO_VERIFY_CALLBACK
+ - winbio/PWINBIO_VERIFY_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio.h
+api_name:
+ - PWINBIO_VERIFY_CALLBACK
 ---
 
 # PWINBIO_VERIFY_CALLBACK callback function
 
 
 ## -description
-
 
 Called by the Windows Biometric Framework to return results from the   asynchronous  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioverifywithcallback">WinBioVerifyWithCallback</a> function.  The client application must implement this function.
 
@@ -62,41 +62,29 @@ Called by the Windows Biometric Framework to return results from the   asynchron
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param VerifyCallbackContext [in, optional]
 
 Pointer to a buffer defined by the application and passed to the <i>VerifyCallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioverifywithcallback">WinBioVerifyWithCallback</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
 
-
 ### -param OperationStatus [in]
 
 Error code returned by the capture operation.
-
 
 ### -param UnitId [in]
 
 Biometric unit ID number.
 
-
 ### -param Match [in]
 
 A Boolean value that specifies whether the captured sample matched the user identity specified by the <i>Identity</i> parameter.
-
 
 ### -param RejectDetail [in]
 
 Additional information about the failure, if any, to perform the operation. For more information,  see Remarks.
 
-
 ## -remarks
-
-
 
 Currently, the Windows Biometric Framework supports only fingerprint readers. Therefore, if an operation fails and returns additional information in a <b>WINBIO_REJECT_DETAIL</b> constant, it will be one of the following values:<ul>
 <li>WINBIO_FP_TOO_HIGH</li>
@@ -335,7 +323,4 @@ e_Exit:
 
 
 ```
-
-
-
 

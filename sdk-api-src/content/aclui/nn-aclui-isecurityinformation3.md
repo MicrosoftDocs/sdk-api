@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e6cf92da-ebd2-4960-9df1-7124745df616
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation3, ISecurityInformation3 interface [Security], ISecurityInformation3 interface [Security],described, aclui/ISecurityInformation3, security.isecurityinformation3
-f1_keywords:
-- aclui/ISecurityInformation3
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- ISecurityInformation3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityInformation3
+ - aclui/ISecurityInformation3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - ISecurityInformation3
 ---
 
 # ISecurityInformation3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISecurityInformation3</b> interface provides methods necessary for displaying an elevated access control editor when a user clicks the <b>Edit</b> button on an access control editor page that displays an image of a shield on that <b>Edit</b> button. The image of a shield is displayed on the <b>Edit</b> button when the access control editor is launched by a process with a token that lacks permission to save changes to the object being edited.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Opens an access control editor when a user clicks the <b>Edit</b> button on an a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
@@ -103,7 +98,4 @@ Opens an access control editor when a user clicks the <b>Edit</b> button on an a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
- 
-
- 
 

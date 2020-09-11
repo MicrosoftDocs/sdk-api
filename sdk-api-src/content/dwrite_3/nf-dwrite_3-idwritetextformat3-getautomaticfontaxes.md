@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","GetAutomati
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetAutomaticFontAxes method, IDWriteTextFormat3.GetAutomaticFontAxes, IDWriteTextFormat3::GetAutomaticFontAxes, GetAutomaticFontAxes, GetAutomaticFontAxes method [Direct Write], GetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getautomaticfontaxes, dwrite_3/IDWriteTextFormat3::GetAutomaticFontAxes
-f1_keywords:
-- dwrite_3/IDWriteTextFormat3.GetAutomaticFontAxes
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteTextFormat3::GetAutomaticFontAxes
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteTextFormat3::GetAutomaticFontAxes
+ - dwrite_3/IDWriteTextFormat3::GetAutomaticFontAxes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteTextFormat3::GetAutomaticFontAxes
 ---
 
 ## -description
@@ -56,3 +57,4 @@ Automatic axis options.
 ## -remarks
 
 ## -see-also
+

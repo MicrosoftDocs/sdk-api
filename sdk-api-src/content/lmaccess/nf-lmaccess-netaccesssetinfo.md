@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 9daf70e0-2402-4823-9e17-4702bbb3aa3d
 ms.date: 12/05/2018
 ms.keywords: 1, NetAccessSetInfo, NetAccessSetInfo function [Network Management], _win32_netaccesssetinfo, lmaccess/NetAccessSetInfo, netmgmt.netaccesssetinfo
-f1_keywords:
-- lmaccess/NetAccessSetInfo
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetAccessSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetAccessSetInfo
+ - lmaccess/NetAccessSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetAccessSetInfo
 ---
 
 # NetAccessSetInfo function
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>.]
 
 Not supported.
 
  The <b>NetAccessSetInfo</b> function changes the access control list (ACL) for a resource.
 
-
 ## -parameters
-
-
-
 
 ### -param servername
 
 TBD
 
-
 ### -param resource
 
 Pointer to a string that contains the name of the network resource to modify.
-
 
 ### -param level
 
@@ -93,13 +87,10 @@ The <i>pbBuffer</i> parameter points to an
 </td>
 </tr>
 </table>
- 
-
 
 ### -param buf
 
 Pointer to the buffer that contains the access information structure. The format of this data depends on the value of the <i>sLevel</i> parameter.
-
 
 ### -param parm_err
 
@@ -122,35 +113,18 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 
 This parameter must be equal to <b>PARMNUM_ALL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function requires Admin privilege to successfully execute on a computer that has local security enabled.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>
- 
-
- 
 

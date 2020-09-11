@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 9ae40cf5-7ecf-4399-b196-ae58fe55afdb
 ms.date: 12/05/2018
 ms.keywords: FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING, FWPM_TUNNEL_FLAG_POINT_TO_POINT, FwpmIPsecTunnelAdd1, FwpmIpsecTunnelAdd1, FwpmIpsecTunnelAdd1 function [Filtering], fwp.fwpmipsectunneladd1, fwpmu/FwpmIpsecTunnelAdd1
-f1_keywords:
-- fwpmu/FwpmIpsecTunnelAdd1
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmIpsecTunnelAdd1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmIPsecTunnelAdd1
+ - fwpmu/FwpmIPsecTunnelAdd1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmIpsecTunnelAdd1
 ---
 
 # FwpmIPsecTunnelAdd1 function
@@ -49,21 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmIPsecTunnelAdd1</b> function adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.
 <div class="alert"><b>Note</b>  <b>FwpmIPsecTunnelAdd1</b> is the specific implementation of FwpmIPsecTunnelAdd used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmipsectunneladd0">FwpmIPsecTunnelAdd0</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmipsectunneladd2">FwpmIPsecTunnelAdd2</a> is available.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
 Type: <b>HANDLE</b>
 
 A handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
-
 
 ### -param flags [in]
 
@@ -97,8 +93,6 @@ Enables virtual interface-based IPsec tunnel mode.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param mainModePolicy [in, optional]
 
@@ -106,13 +100,11 @@ Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fw
 
 The Main Mode policy for the IPsec tunnel.
 
-
 ### -param tunnelPolicy [in]
 
 Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)*</b>
 
 The Quick Mode policy for the IPsec tunnel.
-
 
 ### -param numFilterConditions [in]
 
@@ -120,13 +112,11 @@ Type: <b>UINT32</b>
 
 Number of filter conditions present in the <i>filterConditions</i> parameter.
 
-
 ### -param filterConditions [in]
 
 Type: <b>const FWPM_FILTER_CONDITION0*</b>
 
 Array of filter conditions that describe the traffic which should be tunneled by IPsec.
-
 
 ### -param keyModKey [in, optional]
 
@@ -136,17 +126,13 @@ Pointer to a GUID that uniquely identifies the keying module key.
 
 If the caller supplies this parameter, only that keying module will be used for the tunnel. Otherwise, the default keying policy applies.
 
-
 ### -param sd [in, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a></b>
 
 The security information associated with the IPsec tunnel.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -205,32 +191,17 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function cannot be called from within a read-only transaction. It will fail
 with <b>FWP_E_INCOMPATIBLE_TXN</b>.  See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
 
 
 [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)
- 
-
- 
 

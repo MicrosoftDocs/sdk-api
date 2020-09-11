@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6c89a3ee-7d69-4cde-b1e5-b566fa1c2ca3
 ms.date: 12/05/2018
 ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], IESFileExpiryDateEvent interface [Microsoft TV Technologies],described, mstv.iesfileexpirydateevent, tuner/IESFileExpiryDateEvent
-f1_keywords:
-- tuner/IESFileExpiryDateEvent
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESFileExpiryDateEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESFileExpiryDateEvent
+ - tuner/IESFileExpiryDateEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESFileExpiryDateEvent
 ---
 
 # IESFileExpiryDateEvent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets information from a  <b>FileExpiryDate</b> event. A Protected Broadcast Driver Architecture (PBDA) media transform device (MTD) fires a <b>FileExpiryDate</b> event when it receives a new license for protected content that contains a new expiry date for that content. 
-
+Gets information from a  <b>FileExpiryDate</b> event. A Protected Broadcast Driver Architecture (PBDA) media transform device (MTD) fires a <b>FileExpiryDate</b> event when it receives a new license for protected content that contains a new expiry date for that content.
 
 ## -inheritance
 
@@ -128,14 +127,9 @@ Indicates whether the event includes an entitlement token.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESFileExpiryDateEvent)</code>.
-
-
 

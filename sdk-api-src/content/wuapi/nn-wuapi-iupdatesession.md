@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 00b84246-b5f2-48c2-a0ab-eaaa1ec80262
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], IUpdateSession interface [Windows Update Agent],described, wua.iupdatesession, wuapi/IUpdateSession
-f1_keywords:
-- wuapi/IUpdateSession
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSession
+ - wuapi/IUpdateSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSession
 ---
 
 # IUpdateSession interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation. 
-
+Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation.
 
 ## -inheritance
 
@@ -152,14 +151,9 @@ Gets and sets the proxy settings that are used to access the server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 You can create an instance of this interface by using the UpdateSession coclass. Use the Microsoft.Update.Session program identifier to create the object.
-
-
 

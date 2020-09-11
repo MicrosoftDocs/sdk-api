@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 968EE95D-D1FC-42D7-B533-99062C26B4C3
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [App packaging and management], GetStringValue method [App packaging and management],IAppxManifestApplication interface, IAppxManifestApplication interface [App packaging and management],GetStringValue method, IAppxManifestApplication.GetStringValue, IAppxManifestApplication::GetStringValue, appxpackaging/IAppxManifestApplication::GetStringValue, appxpkg.iappxmanifestapplication_getstringvalue
-f1_keywords:
-- appxpackaging/IAppxManifestApplication.GetStringValue
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestApplication.GetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestApplication::GetStringValue
+ - appxpackaging/IAppxManifestApplication::GetStringValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestApplication.GetStringValue
 ---
 
 # IAppxManifestApplication::GetStringValue
+
 
 ## -description
 
@@ -114,3 +116,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication">IAppxManifestApplication</a>
+

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9d3ce528-fb28-4e2e-bf7f-7d84c697fcb6
 ms.date: 12/05/2018
 ms.keywords: GetTrusteeName, GetTrusteeName function [Security], GetTrusteeNameA, GetTrusteeNameW, _win32_gettrusteename, aclapi/GetTrusteeName, aclapi/GetTrusteeNameA, aclapi/GetTrusteeNameW, security.gettrusteename
-f1_keywords:
-- aclapi/GetTrusteeName
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- GetTrusteeName
-- GetTrusteeNameA
-- GetTrusteeNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTrusteeNameA
+ - aclapi/GetTrusteeNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - GetTrusteeName
+ - GetTrusteeNameA
+ - GetTrusteeNameW
 ---
 
 # GetTrusteeNameA function
@@ -51,35 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetTrusteeName</b> function retrieves the trustee name from the specified <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param pTrustee [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
-
 ## -returns
-
-
 
 If the <b>TrusteeForm</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure is TRUSTEE_IS_NAME, the return value is the pointer assigned to the <b>ptstrName</b> member of the structure.
 
 If the <b>TrusteeForm</b> member is TRUSTEE_IS_SID, the return value is <b>NULL</b>. The function does not look up the name associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetTrusteeName</b> function does not allocate any memory.
 
@@ -91,9 +79,6 @@ The <b>GetTrusteeName</b> function does not allocate any memory.
 > The aclapi.h header defines GetTrusteeName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
@@ -108,7 +93,4 @@ The <b>GetTrusteeName</b> function does not allocate any memory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
- 
-
- 
 

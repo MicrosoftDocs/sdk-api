@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: AC1D5FD6-EFF1-410F-95C7-B13EACBED5D1
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],ReadNextItem method, ISpatialAudioMetadataReader.ReadNextItem, ISpatialAudioMetadataReader::ReadNextItem, ReadNextItem, ReadNextItem method [Core Audio], ReadNextItem method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_readnextitem, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItem
-f1_keywords:
-- spatialaudiometadata/ISpatialAudioMetadataReader.ReadNextItem
-dev_langs:
-- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SpatialAudioMetadata.h
-api_name:
-- ISpatialAudioMetadataReader.ReadNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioMetadataReader::ReadNextItem
+ - spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SpatialAudioMetadata.h
+api_name:
+ - ISpatialAudioMetadataReader.ReadNextItem
 ---
 
 # ISpatialAudioMetadataReader::ReadNextItem
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of commands and the sample offset for the metadata item being read.
 
-
 ## -parameters
-
-
-
 
 ### -param commandCount [out]
 
 Receives the number of command/value pairs in the metadata item being read.
 
-
 ### -param frameOffset [out]
 
 Gets the frame offset associated with the metadata item being read.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -113,14 +105,8 @@ One of the provided pointers is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling <b>ReadNextItem</b>, you must open the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a> for reading by calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-open">Open</a> after the object is created and after <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/ispatialaudiometadatawriter-close">Close</a> has been called. You must also call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798194(v=vs.85)">ReadItemCountInFrames</a> before calling <b>ReadNextItem</b>.
 
@@ -128,16 +114,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata
 
 The process for reading commands and the associated values is recursive. After each call to <b>ReadItemCountInFrames</b>, call <b>ReadNextItem</b> to get the number of commands in the next item. After every call to <b>ReadNextItem</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatareader-readnextitemcommand">ReadNextItemCommand</a> to read each command for the  item. Repeat this process until the entire frame range of the <b>ISpatialAudioMetadataItems</b> has been read.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a>
- 
-
- 
 

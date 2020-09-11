@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 0ef9f437-a15b-4f6c-ac76-4c31a23e8792
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceGetCredentialsEx, MprAdminInterfaceGetCredentialsEx function [RAS], _mpr_mpradmininterfacegetcredentialsex, mprapi/MprAdminInterfaceGetCredentialsEx, rras.mpradmininterfacegetcredentialsex
-f1_keywords:
-- mprapi/MprAdminInterfaceGetCredentialsEx
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceGetCredentialsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceGetCredentialsEx
+ - mprapi/MprAdminInterfaceGetCredentialsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceGetCredentialsEx
 ---
 
 # MprAdminInterfaceGetCredentialsEx function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>MprAdminInterfaceGetCredentialsEx</b> function to retrieve extended credentials information for the specified interface. Use this function to retrieve credentials information used for Extensible Authentication Protocols (EAPs).
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to a router. This handle is obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hInterface [in]
 
 Handle to the interface. This handle is obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
-
 
 ### -param dwLevel [in]
 
@@ -93,8 +87,7 @@ A DWORD value that describes the format in which the information is returned in 
 </table>
  
 
-A value of 1 indicates the information is a pre-shared key for the interface, which is in an encrypted format. 
-
+A value of 1 indicates the information is a pre-shared key for the interface, which is in an encrypted format.
 
 ### -param lplpbBuffer [out]
 
@@ -103,10 +96,7 @@ On successful completion, a pointer to a
 					Free the memory occupied by this structure with 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -173,15 +163,8 @@ The <i>dwLevel</i> value is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_0">MPR_CREDENTIALSEX_0</a>
 
@@ -204,7 +187,4 @@ The <i>dwLevel</i> value is invalid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
- 
-
- 
 

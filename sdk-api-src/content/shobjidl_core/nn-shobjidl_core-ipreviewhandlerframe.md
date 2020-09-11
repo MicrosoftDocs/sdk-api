@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 4e1316e5-f736-4a9b-887b-ddc48a615c42
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerFrame, IPreviewHandlerFrame interface [Windows Shell], IPreviewHandlerFrame interface [Windows Shell],described, _shell_IPreviewHandlerFrame, shell.IPreviewHandlerFrame, shobjidl_core/IPreviewHandlerFrame
-f1_keywords:
-- shobjidl_core/IPreviewHandlerFrame
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IPreviewHandlerFrame
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
 ms.custom: 19H1
+f1_keywords:
+ - IPreviewHandlerFrame
+ - shobjidl_core/IPreviewHandlerFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IPreviewHandlerFrame
 ---
 
 # IPreviewHandlerFrame interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables preview handlers to pass keyboard shortcuts to the host. This interface retrieves a list of keyboard shortcuts and directs the host to handle a keyboard shortcut.
-
 
 ## -inheritance
 
@@ -86,14 +85,9 @@ Directs the host to handle an keyboard shortcut passed from the preview handler.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This is an interface that preview handlers use to communicate keyboard shortcuts to the host. Preview handlers obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the pointer passed as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>. Preview handlers do not need to implement this interface.
-
-
 

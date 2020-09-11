@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 7F86FA67-C13B-49EE-8D17-9F54E5060A85
 ms.date: 12/05/2018
 ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDDENUMCALLBACK, LPDDENUMCALLBACK callback, LPDDENUMCALLBACKA, LPDDENUMCALLBACKW, ddraw/DDEnumCallback, directdraw.ddenumcallback
-f1_keywords:
-- ddraw/DDEnumCallback
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ddraw.h
-api_name:
-- DDEnumCallback
-- lpddenumcallbackw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPDDENUMCALLBACKW
+ - ddraw/LPDDENUMCALLBACKW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ddraw.h
+api_name:
+ - DDEnumCallback
+ - lpddenumcallbackw
 ---
 
 # LPDDENUMCALLBACKW callback function
@@ -50,34 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>DDEnumCallback</i> function is an application-defined callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawenumeratew">DirectDrawEnumerate</a> function.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param *
-
 
 ### -param Arg1
 
-
 ### -param Arg2
 
-
 ### -param Arg3
-
-
-
-
-
-
-
 
 #### - lpContext [in]
 
@@ -98,23 +82,13 @@ Address of a string that contains the driver name.
 
 A pointer to the unique identifier of the DirectDraw object.
 
-
 ## -returns
-
-
 
 The callback function returns nonzero to continue the enumeration.
 
 It returns zero to stop the enumeration.
 
-
-
-
-
-
 ## -remarks
-
-
 
 You can use the LPDDENUMCALLBACK data type to declare a variable that can contain a pointer to this callback function.
 

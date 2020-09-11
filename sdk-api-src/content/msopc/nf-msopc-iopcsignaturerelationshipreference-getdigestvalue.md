@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 3c1f3e73-45fc-4325-bc7a-db9241385c4e
 ms.date: 12/05/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignatureRelationshipReference.GetDigestValue, IOpcSignatureRelationshipReference::GetDigestValue, msopc/IOpcSignatureRelationshipReference::GetDigestValue, opc.iopcsignaturerelationshipreference_getdigestvalue
-f1_keywords:
-- msopc/IOpcSignatureRelationshipReference.GetDigestValue
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureRelationshipReference.GetDigestValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureRelationshipReference::GetDigestValue
+ - msopc/IOpcSignatureRelationshipReference::GetDigestValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureRelationshipReference.GetDigestValue
 ---
 
 # IOpcSignatureRelationshipReference::GetDigestValue
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the digest value calculated for the selected relationships when they are signed.
 
-
 ## -parameters
-
-
-
 
 ### -param digestValue [out]
 
 A pointer to a buffer that contains the digest value calculated using the specified digest method; the method is applied to the relationship markup of the selected relationships when they are signed.
-
 
 ### -param count [out]
 
@@ -69,10 +64,7 @@ The size of the <i>digestValue</i> buffer.
 
 If the selected relationships have not been signed yet, <i>count</i> is 0.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,14 +96,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method allocates memory used by the buffer returned in <i>digestValue</i>.  If the method succeeds, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory.
 
@@ -122,13 +108,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -167,7 +147,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

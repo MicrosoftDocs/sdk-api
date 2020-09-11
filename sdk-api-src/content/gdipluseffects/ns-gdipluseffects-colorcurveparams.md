@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorcurveparams.htm
 ms.date: 12/05/2018
 ms.keywords: ColorCurveParams, ColorCurveParams structure [GDI+], _gdiplus_STRUC_ColorCurveParams, gdiplus._gdiplus_STRUC_ColorCurveParams, gdipluseffects/ColorCurveParams
-f1_keywords:
-- gdipluseffects/ColorCurveParams
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdipluseffects.h
-api_name:
-- ColorCurveParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - ColorCurveParams
+ - gdipluseffects/ColorCurveParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdipluseffects.h
+api_name:
+ - ColorCurveParams
 ---
 
 # ColorCurveParams structure
 
 
 ## -description
-
 
 A <b>ColorCurveParams</b> structure contains members that specify an adjustment to the colors of a bitmap.
 
@@ -62,22 +62,17 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gd
 
 ## -struct-fields
 
-
-
-
 ### -field adjustment
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curveadjustments">CurveAdjustments</a></b>
 
 Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curveadjustments">CurveAdjustments</a> enumeration that specifies the adjustment to be applied.
 
-
 ### -field channel
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curvechannel">CurveChannel</a></b>
 
 Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curvechannel">CurveChannel</a> enumeration that specifies the color channel to which the adjustment applies.
-
 
 ### -field adjustValue
 

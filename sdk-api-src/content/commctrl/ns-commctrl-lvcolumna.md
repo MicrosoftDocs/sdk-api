@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvcolumn.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPLVCOLUMNA, LPLVCOLUMN, LPLVCOLUMN structure pointer [Windows Controls], LVCFMT_BITMAP_ON_RIGHT, LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_FIXED_RATIO, LVCFMT_FIXED_WIDTH, LVCFMT_IMAGE, LVCFMT_JUSTIFYMASK, LVCFMT_LEFT, LVCFMT_NO_DPI_SCALE, LVCFMT_RIGHT, LVCFMT_SPLITBUTTON, LVCF_DEFAULTWIDTH, LVCF_FMT, LVCF_IDEALWIDTH, LVCF_IMAGE, LVCF_MINWIDTH, LVCF_ORDER, LVCF_SUBITEM, LVCF_TEXT, LVCF_WIDTH, LVCOLUMN, LVCOLUMN structure [Windows Controls], LVCOLUMNA, LVCOLUMNW, _win32_LVCOLUMN, _win32_LVCOLUMN_cpp, commctrl/LPLVCOLUMN, commctrl/LVCOLUMN, commctrl/LVCOLUMNA, commctrl/LVCOLUMNW, controls.LVCOLUMN, controls._win32_LVCOLUMN'
-f1_keywords:
-- commctrl/LVCOLUMN
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVCOLUMN
-- LVCOLUMNA
-- LVCOLUMNW
 targetos: Windows
 req.typenames: LVCOLUMNA, *LPLVCOLUMNA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVCOLUMNA
+ - commctrl/tagLVCOLUMNA
+ - LPLVCOLUMNA
+ - commctrl/LPLVCOLUMNA
+ - LVCOLUMNA
+ - commctrl/LVCOLUMNA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVCOLUMN
+ - LVCOLUMNA
+ - LVCOLUMNW
 ---
 
 # LVCOLUMNA structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a column in report view. This structure is used both for creating and manipulating columns. This structure supersedes the LV_COLUMN structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mask
 
@@ -167,8 +167,6 @@ The <b>iSubItem</b> member is valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fmt
 
@@ -299,15 +297,12 @@ A bitmask used to select those bits of <b>fmt</b> that control field justificati
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cx
 
 Type: <b>int</b>
 
-Width of the column, in pixels. 
-
+Width of the column, in pixels.
 
 ### -field pszText
 
@@ -315,20 +310,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 If column information is being set, this member is the address of a null-terminated string that contains the column header text. If the structure is receiving information about a column, this member specifies the address of the buffer that receives the column header text.
 
-
 ### -field cchTextMax
 
 Type: <b>int</b>
 
 Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszText</b> member. If the structure is not receiving information about a column, this member is ignored.
 
-
 ### -field iSubItem
 
 Type: <b>int</b>
 
 Index of subitem associated with the column.
-
 
 ### -field iImage
 
@@ -337,7 +329,6 @@ Type: <b>int</b>
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Zero-based index of an image within the image list. The specified image will appear within the column.
 
-
 ### -field iOrder
 
 Type: <b>int</b>
@@ -345,13 +336,11 @@ Type: <b>int</b>
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Zero-based column offset. Column offset is in left-to-right order. For example, zero indicates the leftmost column.
 
-
 ### -field cxMin
 
 Type: <b>int</b>
 
 <b>Windows Vista</b>. Minimum width of the column in pixels.
-
 
 ### -field cxDefault
 
@@ -359,17 +348,13 @@ Type: <b>int</b>
 
 <b>Windows Vista</b>. Application-defined value typically used to store the default width of the column. This member is ignored by the list-view control.
 
-
 ### -field cxIdeal
 
 Type: <b>int</b>
 
 <b>Windows Vista</b>. Read-only. The ideal width of the column in pixels, as the column may currently be autosized to a lesser width.
 
-
 ## -remarks
-
-
 
 If a column is added to a list-view control with index 0 (the leftmost column), it is always LVCFMT_LEFT. Setting other flags on column 0 does not override that alignment. Therefore if you keep inserting columns with index 0, the text in all columns are left-aligned. If you want the first column to be right-aligned or centered you can make a dummy column, then insert one or more columns with index 1 or higher and specify the alignment you require. Finally delete the dummy column.
 
@@ -381,9 +366,6 @@ If a column is added to a list-view control with index 0 (the leftmost column), 
 > The commctrl.h header defines LVCOLUMN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-deletecolumn">LVM_DELETECOLUMN</a>
 
@@ -402,7 +384,4 @@ If a column is added to a list-view control with index 0 (the leftmost column), 
 
 
 <b>Reference</b>
- 
-
- 
 

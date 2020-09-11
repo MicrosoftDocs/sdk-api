@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6b15a2ba-2e68-4c66-910d-20dd0f0581c2
 ms.date: 12/05/2018
 ms.keywords: GetAllowUnTrustedCA, GetAllowUnTrustedCA method [Security], GetAllowUnTrustedCA method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetAllowUnTrustedCA method, IX509EnrollmentPolicyServer.GetAllowUnTrustedCA, IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, certenroll/IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, security.ix509enrollmentpolicyserver_getallowuntrustedca
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.GetAllowUnTrustedCA
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.GetAllowUnTrustedCA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
+ - certenroll/IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.GetAllowUnTrustedCA
 ---
 
 # IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAllowUnTrustedCA</b> method retrieves a value that specifies whether to allow an untrusted certification authority certificate. This value is set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-initialize">Initialize</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
 Pointer to a Boolean value that specifies whether to allow the certificate.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -88,18 +81,8 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

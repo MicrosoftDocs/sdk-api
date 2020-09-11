@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 073c0307-b1cc-443b-890f-bccc0dbd5cf2
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Reset method, IEnumTfLangBarItems.Reset, IEnumTfLangBarItems::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_reset_ref, ctfutb/IEnumTfLangBarItems::Reset, tsf.ienumtflangbaritems_reset
-f1_keywords:
-- ctfutb/IEnumTfLangBarItems.Reset
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfLangBarItems.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfLangBarItems::Reset
+ - ctfutb/IEnumTfLangBarItems::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfLangBarItems.Reset
 ---
 
 # IEnumTfLangBarItems::Reset
@@ -53,14 +54,7 @@ Resets the enumerator object by moving the current position to the beginning of 
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,7 +75,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 3b47abab-0a33-405f-a765-307ab800bad6
 ms.date: 12/05/2018
 ms.keywords: IChangeUnitException, IChangeUnitException interface [Windows Sync], IChangeUnitException interface [Windows Sync],described, winsync.ichangeunitexception, winsync/IChangeUnitException
-f1_keywords:
-- winsync/IChangeUnitException
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeUnitException
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeUnitException
+ - winsync/IChangeUnitException
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeUnitException
 ---
 
 # IChangeUnitException interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a change unit to exclude from a knowledge object.
-
 
 ## -inheritance
 
@@ -99,16 +98,9 @@ Gets the item ID for the item that contains the change unit that is associated w
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

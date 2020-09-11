@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: f5cb889e-75db-416e-9754-a96f65dad6ed
 ms.date: 12/05/2018
 ms.keywords: AutoRedraw property [Tablet PC], AutoRedraw property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],AutoRedraw property, IInkCollector.AutoRedraw, IInkCollector.put_AutoRedraw, IInkCollector::AutoRedraw, IInkCollector::get_AutoRedraw, IInkCollector::put_AutoRedraw, InkCollector.get_AutoRedraw, InkCollector.put_AutoRedraw, f5cb889e-75db-416e-9754-a96f65dad6ed, get_AutoRedraw, msinkaut/IInkCollector::AutoRedraw, msinkaut/IInkCollector::get_AutoRedraw, msinkaut/IInkCollector::put_AutoRedraw, put_AutoRedraw, tablet.inkcollector_autoredraw
-f1_keywords:
-- msinkaut/IInkCollector.AutoRedraw
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCollector.AutoRedraw
-- IInkCollector.get_AutoRedraw
-- IInkCollector.put_AutoRedraw
-- InkCollector.get_AutoRedraw
-- InkCollector.put_AutoRedraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCollector::put_AutoRedraw
+ - msinkaut/IInkCollector::put_AutoRedraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCollector.AutoRedraw
+ - IInkCollector.get_AutoRedraw
+ - IInkCollector.put_AutoRedraw
+ - InkCollector.get_AutoRedraw
+ - InkCollector.put_AutoRedraw
 ---
 
 # IInkCollector::put_AutoRedraw
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets a value that specifies whether an ink collector repaints the ink when the window is invalidated.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If <b>VARIANT_TRUE</b>, the ink collector repaints the ink when the window is invalidated. For example, if you minimize the window and then restore it, the ink is automatically redrawn. If <b>VARIANT_FALSE</b>, the ink collector does not repaint the ink when the window is invalidated. For example, if you minimize the window and then restore it, the ink disappears from the screen.
 
@@ -112,15 +107,8 @@ InkPicture controls inherited Invalidated and Paint events.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-draw">Draw Method</a>
 
@@ -139,7 +127,4 @@ InkPicture controls inherited Invalidated and Paint events.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
- 
-
- 
 

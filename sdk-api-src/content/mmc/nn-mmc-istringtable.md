@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 3b4cfc92-4f50-4b62-bb2c-77c8e0e003da
 ms.date: 12/05/2018
 ms.keywords: IStringTable, IStringTable interface [MMC], IStringTable interface [MMC],described, _slate_istringtable, mmc.istringtable, mmc/IStringTable
-f1_keywords:
-- mmc/IStringTable
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IStringTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStringTable
+ - mmc/IStringTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IStringTable
 ---
 
 # IStringTable interface
 
 
 ## -description
-
 
 The 
 <b>IStringTable</b> interface is introduced in MMC 1.1.
@@ -58,7 +58,6 @@ The
 
 The 
 <b>IStringTable</b> interface allows strings to be saved in the console file. Be aware that this interface is designed to work with specialized localization tools. Snap-ins without access to these localization tools will not benefit from using this interface.
-
 
 ## -inheritance
 
@@ -138,5 +137,5 @@ Retrieves the length of a string from the snap-in string table.
 
 </td>
 </tr>
-</table> 
+</table>
 

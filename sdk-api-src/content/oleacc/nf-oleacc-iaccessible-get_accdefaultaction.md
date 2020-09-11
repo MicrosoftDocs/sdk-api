@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 1261ff7c-7822-47c1-ac39-536b5ea09f31
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDefaultAction method, IAccessible.get_accDefaultAction, IAccessible::get_accDefaultAction, _msaa_IAccessible_get_accDefaultAction, get_accDefaultAction, get_accDefaultAction method [Windows Accessibility], get_accDefaultAction method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdefaultaction, oleacc/IAccessible::get_accDefaultAction, winauto.iaccessible_iaccessible__get_accdefaultaction
-f1_keywords:
-- oleacc/IAccessible.get_accDefaultAction
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accDefaultAction
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accDefaultAction
+ - oleacc/IAccessible::get_accDefaultAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accDefaultAction
 ---
 
 # IAccessible::get_accDefaultAction
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accDefaultAction</b> method retrieves a string that indicates the object's default action. Not all objects have a default action.
 
-
 ## -parameters
-
-
-
 
 ### -param varChild [in]
 
@@ -64,17 +60,13 @@ Type: <b>VARIANT</b>
 
 Specifies whether the retrieved default action is performed by the object or of one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-
 ### -param pszDefaultAction [out, retval]
 
 Type: <b>BSTR*</b>
 
 Address of a <b>BSTR</b> that receives a localized string that describes the default action for the specified object; if this object has no default action, the value is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -121,14 +113,8 @@ The specified object does not support this property.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The retrieved string describes the action that is performed on an object, not what the object does as a result. For example, a toolbar button that prints a document has a default action of "Press" rather than "Prints the current document."
 
@@ -167,14 +153,7 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accDefaultAction(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/defaultaction-property">DefaultAction Property</a>
 
@@ -189,7 +168,4 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accDefaultAction(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
 

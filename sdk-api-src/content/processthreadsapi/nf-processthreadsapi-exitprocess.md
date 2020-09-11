@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: c26dbf15-62e8-4892-b7c5-2e6c085e4cd5
 ms.date: 12/05/2018
 ms.keywords: ExitProcess, ExitProcess function, _win32_exitprocess, base.exitprocess, processthreadsapi/ExitProcess, winbase/ExitProcess
-f1_keywords:
-- processthreadsapi/ExitProcess
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- ExitProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExitProcess
+ - processthreadsapi/ExitProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - ExitProcess
 ---
 
 # ExitProcess function
@@ -56,23 +57,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Ends the calling process and all its threads.
 
-
 ## -parameters
-
-
-
 
 ### -param uExitCode [in]
 
 The exit code for the process and all threads.
 
-
 ## -remarks
-
-
 
 Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a> function to retrieve the process's exit value. Use the 
@@ -110,12 +103,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
@@ -158,7 +146,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/terminating-a-process">Terminating a Process</a>
- 
-
- 
 

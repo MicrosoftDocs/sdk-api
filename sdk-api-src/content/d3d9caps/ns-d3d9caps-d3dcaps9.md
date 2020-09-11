@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\d3dcaps9.htm
 ms.date: 12/05/2018
 ms.keywords: D3DCAPS9, D3DCAPS9 structure [Direct3D 9], D3DCAPS_OVERLAY, D3DCAPS_READ_SCANLINE, D3DCURSORCAPS_COLOR, D3DCURSORCAPS_LOWRES, D3DDEVCAPS_CANBLTSYSTONONLOCAL, D3DDEVCAPS_CANRENDERAFTERFLIP, D3DDEVCAPS_DRAWPRIMITIVES2, D3DDEVCAPS_DRAWPRIMITIVES2EX, D3DDEVCAPS_DRAWPRIMTLVERTEX, D3DDEVCAPS_EXECUTESYSTEMMEMORY, D3DDEVCAPS_EXECUTEVIDEOMEMORY, D3DDEVCAPS_HWRASTERIZATION, D3DDEVCAPS_HWTRANSFORMANDLIGHT, D3DDEVCAPS_NPATCHES, D3DDEVCAPS_PUREDEVICE, D3DDEVCAPS_QUINTICRTPATCHES, D3DDEVCAPS_RTPATCHES, D3DDEVCAPS_RTPATCHHANDLEZERO, D3DDEVCAPS_SEPARATETEXTUREMEMORIES, D3DDEVCAPS_TEXTURENONLOCALVIDMEM, D3DDEVCAPS_TEXTURESYSTEMMEMORY, D3DDEVCAPS_TEXTUREVIDEOMEMORY, D3DDEVCAPS_TLVERTEXSYSTEMMEMORY, D3DDEVCAPS_TLVERTEXVIDEOMEMORY, D3DFVFCAPS_DONOTSTRIPELEMENTS, D3DFVFCAPS_PSIZE, D3DFVFCAPS_TEXCOORDCOUNTMASK, D3DLINECAPS_ALPHACMP, D3DLINECAPS_ANTIALIAS, D3DLINECAPS_BLEND, D3DLINECAPS_FOG, D3DLINECAPS_TEXTURE, D3DLINECAPS_ZTEST, D3DPBLENDCAPS_BLENDFACTOR, D3DPBLENDCAPS_BOTHINVSRCALPHA, D3DPBLENDCAPS_BOTHSRCALPHA, D3DPBLENDCAPS_DESTALPHA, D3DPBLENDCAPS_DESTCOLOR, D3DPBLENDCAPS_INVDESTALPHA, D3DPBLENDCAPS_INVDESTCOLOR, D3DPBLENDCAPS_INVSRCALPHA, D3DPBLENDCAPS_INVSRCCOLOR, D3DPBLENDCAPS_INVSRCCOLOR2, D3DPBLENDCAPS_ONE, D3DPBLENDCAPS_SRCALPHA, D3DPBLENDCAPS_SRCALPHASAT, D3DPBLENDCAPS_SRCCOLOR, D3DPBLENDCAPS_SRCCOLOR2, D3DPBLENDCAPS_ZERO, D3DPCMPCAPS_ALWAYS, D3DPCMPCAPS_EQUAL, D3DPCMPCAPS_GREATER, D3DPCMPCAPS_GREATEREQUAL, D3DPCMPCAPS_LESS, D3DPCMPCAPS_LESSEQUAL, D3DPCMPCAPS_NEVER, D3DPCMPCAPS_NOTEQUAL, D3DPRASTERCAPS_ANISOTROPY, D3DPRASTERCAPS_COLORPERSPECTIVE, D3DPRASTERCAPS_DEPTHBIAS, D3DPRASTERCAPS_DITHER, D3DPRASTERCAPS_FOGRANGE, D3DPRASTERCAPS_FOGTABLE, D3DPRASTERCAPS_FOGVERTEX, D3DPRASTERCAPS_MIPMAPLODBIAS, D3DPRASTERCAPS_MULTISAMPLE_TOGGLE, D3DPRASTERCAPS_SCISSORTEST, D3DPRASTERCAPS_SLOPESCALEDEPTHBIAS, D3DPRASTERCAPS_WBUFFER, D3DPRASTERCAPS_WFOG, D3DPRASTERCAPS_ZBUFFERLESSHSR, D3DPRASTERCAPS_ZFOG, D3DPRASTERCAPS_ZTEST, D3DPRESENT_INTERVAL_FOUR, D3DPRESENT_INTERVAL_IMMEDIATE, D3DPRESENT_INTERVAL_ONE, D3DPRESENT_INTERVAL_THREE, D3DPRESENT_INTERVAL_TWO, D3DPSHADECAPS_ALPHAGOURAUDBLEND, D3DPSHADECAPS_COLORGOURAUDRGB, D3DPSHADECAPS_FOGGOURAUD, D3DPSHADECAPS_SPECULARGOURAUDRGB, D3DPTADDRESSCAPS_BORDER, D3DPTADDRESSCAPS_CLAMP, D3DPTADDRESSCAPS_INDEPENDENTUV, D3DPTADDRESSCAPS_MIRROR, D3DPTADDRESSCAPS_MIRRORONCE, D3DPTADDRESSCAPS_WRAP, D3DPTEXTURECAPS_ALPHA, D3DPTEXTURECAPS_ALPHAPALETTE, D3DPTEXTURECAPS_CUBEMAP, D3DPTEXTURECAPS_CUBEMAP_POW2, D3DPTEXTURECAPS_MIPCUBEMAP, D3DPTEXTURECAPS_MIPMAP, D3DPTEXTURECAPS_MIPVOLUMEMAP, D3DPTEXTURECAPS_NONPOW2CONDITIONAL, D3DPTEXTURECAPS_NOPROJECTEDBUMPENV, D3DPTEXTURECAPS_PERSPECTIVE, D3DPTEXTURECAPS_POW2, D3DPTEXTURECAPS_PROJECTED, D3DPTEXTURECAPS_SQUAREONLY, D3DPTEXTURECAPS_TEXREPEATNOTSCALEDBYSIZE, D3DPTEXTURECAPS_VOLUMEMAP, D3DPTEXTURECAPS_VOLUMEMAP_POW2, D3DTEXOPCAPS_ADD, D3DTEXOPCAPS_ADDSIGNED, D3DTEXOPCAPS_ADDSIGNED2X, D3DTEXOPCAPS_ADDSMOOTH, D3DTEXOPCAPS_BLENDCURRENTALPHA, D3DTEXOPCAPS_BLENDDIFFUSEALPHA, D3DTEXOPCAPS_BLENDFACTORALPHA, D3DTEXOPCAPS_BLENDTEXTUREALPHA, D3DTEXOPCAPS_BLENDTEXTUREALPHAPM, D3DTEXOPCAPS_BUMPENVMAP, D3DTEXOPCAPS_BUMPENVMAPLUMINANCE, D3DTEXOPCAPS_DISABLE, D3DTEXOPCAPS_DOTPRODUCT3, D3DTEXOPCAPS_LERP, D3DTEXOPCAPS_MODULATE, D3DTEXOPCAPS_MODULATE2X, D3DTEXOPCAPS_MODULATE4X, D3DTEXOPCAPS_MODULATEALPHA_ADDCOLOR, D3DTEXOPCAPS_MODULATECOLOR_ADDALPHA, D3DTEXOPCAPS_MODULATEINVALPHA_ADDCOLOR, D3DTEXOPCAPS_MODULATEINVCOLOR_ADDALPHA, D3DTEXOPCAPS_MULTIPLYADD, D3DTEXOPCAPS_PREMODULATE, D3DTEXOPCAPS_SELECTARG1, D3DTEXOPCAPS_SELECTARG2, D3DTEXOPCAPS_SUBTRACT, LPD3DCAPS9, LPD3DCAPS9 structure pointer [Direct3D 9], d3d9caps/D3DCAPS9, d3d9caps/LPD3DCAPS9, db3b1673-997b-eff2-6075-5f0c1df419dc, direct3d9.d3dcaps9
-f1_keywords:
-- d3d9caps/D3DCAPS9
-dev_langs:
-- c++
 req.header: d3d9caps.h
 req.include-header: 
 req.target-type: Windows
@@ -29,34 +25,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D9Caps.h
-api_name:
-- D3DCAPS9
 targetos: Windows
 req.typenames: D3DCAPS9
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _D3DCAPS9
+ - d3d9caps/_D3DCAPS9
+ - D3DCAPS9
+ - d3d9caps/D3DCAPS9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D9Caps.h
+api_name:
+ - D3DCAPS9
 ---
-
-# D3DCAPS9 structure
-
 
 ## -description
 
-
 Represents the capabilities of the hardware exposed through the Direct3D object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DeviceType
 
@@ -64,22 +59,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtyp
 
 Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type, which identifies what type of resources are used for processing vertices.
 
-
 ### -field AdapterOrdinal
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Adapter on which this Direct3D device was created. This ordinal is valid only to pass to methods of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> interface that created this Direct3D device. The <b>IDirect3D9</b> interface can always be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a>. 
-
+Adapter on which this Direct3D device was created. This ordinal is valid only to pass to methods of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> interface that created this Direct3D device. The <b>IDirect3D9</b> interface can always be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a>.
 
 ### -field Caps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-
 The following driver-specific capability.
-
-
 
 <table>
 <tr>
@@ -122,8 +112,6 @@ This flag is available in Direct3D 9Ex only.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Caps2
 
@@ -131,13 +119,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Driver-specific capabilities identified in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcaps2">D3DCAPS2</a>.
 
-
 ### -field Caps3
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Driver-specific capabilities identified in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcaps3">D3DCAPS3</a>.
-
 
 ### -field PresentationIntervals
 
@@ -204,8 +190,6 @@ The driver supports a presentation swap interval of every fourth screen refresh.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CursorCaps
 
@@ -242,8 +226,6 @@ A full-color cursor is supported in hardware. Specifically, this flag indicates 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DevCaps
 
@@ -460,15 +442,12 @@ Device can use buffers from video memory for transformed and lit vertices.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PrimitiveMiscCaps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Miscellaneous driver primitive capabilities. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpmisccaps">D3DPMISCCAPS</a>.
-
 
 ### -field RasterCaps
 
@@ -647,8 +626,6 @@ Device can perform z-test operations. This effectively renders a primitive and i
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ZCmpCaps
 
@@ -745,8 +722,6 @@ Pass the z-test if the new z does not equal the current z.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SrcBlendCaps
 
@@ -953,22 +928,18 @@ Blend factor is (0, 0, 0, 0).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DestBlendCaps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Destination-blending capabilities. This member can be the same capabilities that are defined for the SrcBlendCaps member. 
-
+Destination-blending capabilities. This member can be the same capabilities that are defined for the SrcBlendCaps member.
 
 ### -field AlphaCmpCaps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Alpha-test comparison capabilities. This member can include the same capability flags defined for the ZCmpCaps member. If this member contains only the D3DPCMPCAPS_ALWAYS capability or only the D3DPCMPCAPS_NEVER capability, the driver does not support alpha tests. Otherwise, the flags identify the individual comparisons that are supported for alpha testing. 
-
+Alpha-test comparison capabilities. This member can include the same capability flags defined for the ZCmpCaps member. If this member contains only the D3DPCMPCAPS_ALWAYS capability or only the D3DPCMPCAPS_NEVER capability, the driver does not support alpha tests. Otherwise, the flags identify the individual comparisons that are supported for alpha testing.
 
 ### -field ShadeCaps
 
@@ -1029,8 +1000,6 @@ Device supports Gouraud shading of specular highlights.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TextureCaps
 
@@ -1224,8 +1193,6 @@ Device requires that volume texture maps have dimensions specified as powers of 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TextureFilterCaps
 
@@ -1233,20 +1200,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Texture-filtering capabilities for a texture. Per-stage filtering capabilities reflect which filtering modes are supported for texture stages when performing multiple-texture blending. This member can be any combination of the per-stage texture-filtering flags defined in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS</a>.
 
-
 ### -field CubeTextureFilterCaps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Texture-filtering capabilities for a cube texture. Per-stage filtering capabilities reflect which filtering modes are supported for texture stages when performing multiple-texture blending. This member can be any combination of the per-stage texture-filtering flags defined in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS</a>. 
-
+Texture-filtering capabilities for a cube texture. Per-stage filtering capabilities reflect which filtering modes are supported for texture stages when performing multiple-texture blending. This member can be any combination of the per-stage texture-filtering flags defined in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS</a>.
 
 ### -field VolumeTextureFilterCaps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Texture-filtering capabilities for a volume texture. Per-stage filtering capabilities reflect which filtering modes are supported for texture stages when performing multiple-texture blending. This member can be any combination of the per-stage texture-filtering flags defined in <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS</a>.
-
 
 ### -field TextureAddressCaps
 
@@ -1323,15 +1287,12 @@ Device can wrap textures to addresses.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field VolumeTextureAddressCaps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Texture-addressing capabilities for a volume texture. This member can be one or more of the flags defined for the TextureAddressCaps member. 
-
+Texture-addressing capabilities for a volume texture. This member can be one or more of the flags defined for the TextureAddressCaps member.
 
 ### -field LineCaps
 
@@ -1408,29 +1369,24 @@ Supports z-buffer comparisons.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MaxTextureWidth
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum texture width for this device. 
-
+Maximum texture width for this device.
 
 ### -field MaxTextureHeight
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum texture height for this device. 
-
+Maximum texture height for this device.
 
 ### -field MaxVolumeExtent
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum value for any of the three dimensions (width, height, and depth) of a volume texture. 
-
+Maximum value for any of the three dimensions (width, height, and depth) of a volume texture.
 
 ### -field MaxTextureRepeat
 
@@ -1444,62 +1400,53 @@ Less desirably, on some hardware D3DPTEXTURECAPS_TEXREPEATNOTSCALEDBYSIZE is not
 
 For example, assume that MaxTextureRepeat is equal to 32k and the size of the texture is 4k. If the hardware sets D3DPTEXTURECAPS_TEXREPEATNOTSCALEDBYSIZE, then the number of times a texture can be wrapped is equal to MaxTextureRepeat, which is 32k in this example. Otherwise, the number of times a texture can be wrapped is equal to MaxTextureRepeat divided by texture size, which is 32k/4k in this example.
 
-
 ### -field MaxTextureAspectRatio
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum texture aspect ratio supported by the hardware, typically a power of 2. 
-
+Maximum texture aspect ratio supported by the hardware, typically a power of 2.
 
 ### -field MaxAnisotropy
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum valid value for the D3DSAMP_MAXANISOTROPY texture-stage state. 
-
+Maximum valid value for the D3DSAMP_MAXANISOTROPY texture-stage state.
 
 ### -field MaxVertexW
 
 Type: <b>float</b>
 
-Maximum W-based depth value that the device supports. 
-
+Maximum W-based depth value that the device supports.
 
 ### -field GuardBandLeft
 
 Type: <b>float</b>
 
-Screen-space coordinate of the guard-band clipping region. Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped. 
-
+Screen-space coordinate of the guard-band clipping region. Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped.
 
 ### -field GuardBandTop
 
 Type: <b>float</b>
 
-Screen-space coordinate of the guard-band clipping region. Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped. 
-
+Screen-space coordinate of the guard-band clipping region. Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped.
 
 ### -field GuardBandRight
 
 Type: <b>float</b>
 
-Screen-space coordinate of the guard-band clipping region. Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped. 
-
+Screen-space coordinate of the guard-band clipping region. Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped.
 
 ### -field GuardBandBottom
 
 Type: <b>float</b>
 
-Screen-space coordinate of the guard-band clipping region. Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped. 
-
+Screen-space coordinate of the guard-band clipping region. Coordinates inside this rectangle but outside the viewport rectangle are automatically clipped.
 
 ### -field ExtentsAdjust
 
 Type: <b>float</b>
 
 Number of pixels to adjust the extents rectangle outward to accommodate antialiasing kernels.
-
 
 ### -field StencilCaps
 
@@ -1508,7 +1455,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Flags specifying supported stencil-buffer operations. Stencil operations are assumed to be valid for all three stencil-buffer operation render states (D3DRS_STENCILFAIL, D3DRS_STENCILPASS, and D3DRS_STENCILZFAIL).
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dstencilcaps">D3DSTENCILCAPS</a>.
-
 
 ### -field FVFCaps
 
@@ -1555,8 +1501,6 @@ Masks the low WORD of FVFCaps. These bits, cast to the WORD data type, describe 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TextureOpCaps
 
@@ -1833,15 +1777,12 @@ The D3DTOP_SUBTRACT texture-blending operation is supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MaxTextureBlendStages
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum number of texture-blending stages supported in the fixed function pipeline. This value is the number of blenders available. In the programmable pixel pipeline, this corresponds to the number of unique texture registers used by pixel shader instructions. 
-
+Maximum number of texture-blending stages supported in the fixed function pipeline. This value is the number of blenders available. In the programmable pixel pipeline, this corresponds to the number of unique texture registers used by pixel shader instructions.
 
 ### -field MaxSimultaneousTextures
 
@@ -1851,34 +1792,29 @@ Maximum number of textures that can be simultaneously bound to the fixed-functio
 
 This value has no meaning in the programmable pipeline where the number of sampler stages is determined by each pixel shader version. Each pixel shader version also determines the number of texture declaration instructions. See <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-ps">Pixel Shaders</a>.
 
-
 ### -field VertexProcessingCaps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Vertex processing capabilities. For a given physical device, this capability might vary across Direct3D devices depending on the parameters supplied to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvtxpcaps">D3DVTXPCAPS</a>.
 
-
 ### -field MaxActiveLights
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum number of lights that can be active simultaneously. For a given physical device, this capability might vary across Direct3D devices depending on the parameters supplied to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>. 
-
+Maximum number of lights that can be active simultaneously. For a given physical device, this capability might vary across Direct3D devices depending on the parameters supplied to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>.
 
 ### -field MaxUserClipPlanes
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum number of user-defined clipping planes supported. This member can be 0. For a given physical device, this capability may vary across Direct3D devices depending on the parameters supplied to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>. 
-
+Maximum number of user-defined clipping planes supported. This member can be 0. For a given physical device, this capability may vary across Direct3D devices depending on the parameters supplied to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>.
 
 ### -field MaxVertexBlendMatrices
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum number of matrices that this device can apply when performing multimatrix vertex blending. For a given physical device, this capability may vary across Direct3D devices depending on the parameters supplied to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>. 
-
+Maximum number of matrices that this device can apply when performing multimatrix vertex blending. For a given physical device, this capability may vary across Direct3D devices depending on the parameters supplied to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>.
 
 ### -field MaxVertexBlendMatrixIndex
 
@@ -1892,13 +1828,11 @@ When software vertex processing is used, 256 matrices could be used for indexed 
 
 For a given physical device, this capability may vary across Direct3D devices depending on the parameters supplied to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>.
 
-
 ### -field MaxPointSize
 
 Type: <b>float</b>
 
-Maximum size of a point primitive. If set to 1.0f then device does not support point size control. The range is greater than or equal to 1.0f. 
-
+Maximum size of a point primitive. If set to 1.0f then device does not support point size control. The range is greater than or equal to 1.0f.
 
 ### -field MaxPrimitiveCount
 
@@ -1916,22 +1850,19 @@ Maximum number of primitives for each <a href="https://docs.microsoft.com/window
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum size of indices supported for hardware vertex processing. It is possible to create 32-bit index buffers; however, you will not be able to render with the index buffer unless this value is greater than 0x0000FFFF. 
-
+Maximum size of indices supported for hardware vertex processing. It is possible to create 32-bit index buffers; however, you will not be able to render with the index buffer unless this value is greater than 0x0000FFFF.
 
 ### -field MaxStreams
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum number of concurrent data streams for <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsource">SetStreamSource</a>. The valid range is 1 to 16. Note that if this value is 0, then the driver is not a Direct3D 9 driver. 
-
+Maximum number of concurrent data streams for <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsource">SetStreamSource</a>. The valid range is 1 to 16. Note that if this value is 0, then the driver is not a Direct3D 9 driver.
 
 ### -field MaxStreamStride
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Maximum stride for <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsource">SetStreamSource</a>. 
-
+Maximum stride for <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsource">SetStreamSource</a>.
 
 ### -field VertexShaderVersion
 
@@ -1939,13 +1870,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Two numbers that represent the vertex shader main and sub versions. For more information about the instructions supported for each vertex shader version, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-vs-instructions-vs-1-1">Version 1_x</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-vs-instructions-vs-2-0">Version 2_0</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-vs-instructions-vs-2-x">Version 2_0 Extended</a>, or <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-vs-instructions-vs-3-0">Version 3_0</a>.
 
-
 ### -field MaxVertexShaderConst
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The number of vertex shader <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-vs-registers">Vertex Shader Registers</a> that are reserved for constants.
-
 
 ### -field PixelShaderVersion
 
@@ -1953,13 +1882,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Two numbers that represent the pixel shader main and sub versions. For more information about the instructions supported for each pixel shader version, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-ps-instructions-ps-1-x">Version 1_x</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-ps-instructions-ps-2-0">Version 2_0</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-ps-instructions-ps-2-x">Version 2_0 Extended</a>, or <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-ps-instructions-ps-3-0">Version 3_0</a>.
 
-
 ### -field PixelShader1xMaxValue
 
 Type: <b>float</b>
 
 Maximum value of pixel shader arithmetic component. This value indicates the internal range of values supported for pixel color blending operations. Within the range that they report to, implementations must allow data to pass through pixel processing unmodified (unclamped). Normally, the value of this member is an absolute value. For example, a 1.0 indicates that the range is -1.0 to 1, and an 8.0 indicates that the range is -8.0 to 8.0. The value must be &gt;= 1.0 for any hardware that supports pixel shaders.
-
 
 ### -field DevCaps2
 
@@ -1967,17 +1894,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Device driver capabilities for adaptive tessellation. For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2</a>
 
-
-
 ### -field MaxNpatchTessellationLevel
 
- 
-
+TBD
 
 ### -field Reserved5
 
- 
-
+TBD
 
 ### -field MasterAdapterOrdinal
 
@@ -1987,13 +1910,11 @@ This number indicates which device is the master for this subordinate. This numb
 
 For multihead support, one head will be denoted the master head, and all other heads on the same card will be denoted subordinate heads. If more than one multihead adapter is present in a system, the master and its subordinates from one multihead adapter are called a group.
 
-
 ### -field AdapterOrdinalInGroup
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-This number indicates the order in which heads are referenced by the API. The value for the master adapter is always 0. These values do not correspond to the adapter ordinals. They apply only to heads within a group. 
-
+This number indicates the order in which heads are referenced by the API. The value for the master adapter is always 0. These values do not correspond to the adapter ordinals. They apply only to heads within a group.
 
 ### -field NumberOfAdaptersInGroup
 
@@ -2001,20 +1922,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of adapters in this adapter group (only if master). This will be 1 for conventional adapters. The value will be greater than 1 for the master adapter of a  multihead card. The value will be 0 for a subordinate adapter of a multihead card. Each card can have at most one master, but may have many subordinates.
 
-
 ### -field DeclTypes
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A combination of one or more data types contained in a vertex declaration. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddtcaps">D3DDTCAPS</a>.
 
-
 ### -field NumSimultaneousRTs
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Number of simultaneous render targets. This number must be at least one.
-
 
 ### -field StretchRectFilterCaps
 
@@ -2048,13 +1966,11 @@ Combination of constants that describe the operations supported by <a href="http
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype">D3DTEXTUREFILTERTYPE</a> and <b>D3DTEXTUREFILTERTYPE</b>.
 
-
 ### -field VS20Caps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dvshadercaps2_0">D3DVSHADERCAPS2_0</a></b>
 
 Device supports vertex shader version 2_0 extended capability. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dvshadercaps2_0">D3DVSHADERCAPS2_0</a>.
-
 
 ### -field PS20Caps
 
@@ -2062,13 +1978,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d
 
 Device supports pixel shader version 2_0 extended capability. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0">D3DPSHADERCAPS2_0</a>.
 
-
 ### -field VertexTextureFilterCaps
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Device supports vertex shader texture filter capability. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS</a>.
-
 
 ### -field MaxVShaderInstructionsExecuted
 
@@ -2076,13 +1990,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Maximum number of vertex shader instructions that can be run when using flow control. The maximum number of instructions that can be programmed is MaxVertexShader30InstructionSlots.
 
-
 ### -field MaxPShaderInstructionsExecuted
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Maximum number of pixel shader instructions that can be run when using flow control. The maximum number of instructions that can be programmed is MaxPixelShader30InstructionSlots.
-
 
 ### -field MaxVertexShader30InstructionSlots
 
@@ -2090,31 +2002,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Maximum number of vertex shader instruction slots supported. The maximum value that can be set on this cap is 32768. Devices that support vs_3_0 are required to support at least 512 instruction slots.
 
-
 ### -field MaxPixelShader30InstructionSlots
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Maximum number of pixel shader instruction slots supported. The maximum value that can be set on this cap is 32768. Devices that support ps_3_0 are required to support at least 512 instruction slots.
 
-
-#### - Reserved2
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
-
-Reserved.
-
-
-#### - Reserved3
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
-
-Reserved.
-
-
 ## -remarks
-
-
 
 The MaxTextureBlendStages and MaxSimultaneousTextures members might seem similar, but they contain different information. The MaxTextureBlendStages member contains the total number of texture-blending stages supported by the current device, and the MaxSimultaneousTextures member describes how many of those stages can have textures bound to them by using the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture">SetTexture</a> method.
 
@@ -2132,19 +2026,11 @@ The following flags concerning mipmapped textures are not supported in Direct3D 
 <li>D3DPTFILTERCAPS_NEAREST</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-structures">Direct3D Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdevicecaps">GetDeviceCaps</a>
- 
-
- 
 

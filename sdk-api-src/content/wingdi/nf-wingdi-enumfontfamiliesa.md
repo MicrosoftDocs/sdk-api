@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 4960afbb-eeba-4030-ac89-d1ff077bb2f3
 ms.date: 12/05/2018
 ms.keywords: EnumFontFamilies, EnumFontFamilies function [Windows GDI], EnumFontFamiliesA, EnumFontFamiliesW, _win32_EnumFontFamilies, gdi.enumfontfamilies, wingdi/EnumFontFamilies, wingdi/EnumFontFamiliesA, wingdi/EnumFontFamiliesW
-f1_keywords:
-- wingdi/EnumFontFamilies
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Font-l1-1-0.dll
-- Ext-MS-Win-GDI-Font-l1-1-1.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- EnumFontFamilies
-- EnumFontFamiliesA
-- EnumFontFamiliesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumFontFamiliesA
+ - wingdi/EnumFontFamiliesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Font-l1-1-0.dll
+ - Ext-MS-Win-GDI-Font-l1-1-1.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - EnumFontFamilies
+ - EnumFontFamiliesA
+ - EnumFontFamiliesW
 ---
 
 # EnumFontFamiliesA function
@@ -57,47 +58,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnumFontFamilies</b> function enumerates the fonts in a specified font family that are available on a specified device.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> function.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hdc [in]
 
 A handle to the device context from which to enumerate the fonts.
-
 
 ### -param lpLogfont [in]
 
 A pointer to a null-terminated string that specifies the family name of the desired fonts. If <i>lpszFamily</i> is <b>NULL</b>, <b>EnumFontFamilies</b> selects and enumerates one font of each available type family.
 
-
 ### -param lpProc [in]
 
 A pointer to the application defined callback function. For information, see <a href="https://docs.microsoft.com/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>.
-
 
 ### -param lParam [in]
 
 A pointer to application-supplied data. The data is passed to the callback function along with the font information.
 
-
 ## -returns
-
-
 
 The return value is the last value returned by the callback function. Its meaning is implementation specific.
 
-
-
-
 ## -remarks
-
-
 
 For each font having the typeface name specified by the <i>lpszFamily</i> parameter, the <b>EnumFontFamilies</b> function retrieves information about that font and passes it to the function pointed to by the <i>lpEnumFontFamProc</i> parameter. The application defined callback function can process the font information as desired. Enumeration continues until there are no more fonts or the callback function returns zero.
 
@@ -120,9 +106,6 @@ For examples, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enumer
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>
 
 
@@ -140,7 +123,4 @@ For examples, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enumer
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
- 
-
- 
 

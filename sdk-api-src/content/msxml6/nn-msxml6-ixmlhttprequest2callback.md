@@ -8,10 +8,6 @@ tech.root: ixhr2
 ms.assetid: AA4B3F4C-6E28-458B-BE25-6CCE8865FC71
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], IXMLHTTPRequest2Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest2callback, msxml6/IXMLHTTPRequest2Callback
-f1_keywords:
-- msxml6/IXMLHTTPRequest2Callback
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msxml6.h
-api_name:
-- IXMLHTTPRequest2Callback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLHTTPRequest2Callback
+ - msxml6/IXMLHTTPRequest2Callback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msxml6.h
+api_name:
+ - IXMLHTTPRequest2Callback
 ---
 
 # IXMLHTTPRequest2Callback interface
@@ -49,11 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines callbacks that notify an application with an outstanding <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>  request of events that affect HTTP request and response processing. <div class="alert"><b>Note</b>  This interface is supported on Windows Phone 8.1. </div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -115,24 +113,15 @@ Occurs when a client has received a complete response from the server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Methods on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> interface are asynchronous, so applications must pass an <b>IXMLHTTPRequest2Callback</b> object as a parameter in calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">Open</a> method on the <b>IXMLHTTPRequest2</b> interface to receive callback notifications. 
 
 The <b>IXMLHTTPRequest2Callback</b> interface is extended by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
@@ -147,7 +136,4 @@ The <b>IXMLHTTPRequest2Callback</b> interface is extended by the <a href="https:
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">Open</a>
- 
-
- 
 

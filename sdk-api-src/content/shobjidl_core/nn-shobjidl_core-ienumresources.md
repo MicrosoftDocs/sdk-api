@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 28c645cf-8c69-49d7-a95f-ced6467ad682
 ms.date: 12/05/2018
 ms.keywords: IEnumResources, IEnumResources interface [Windows Shell], IEnumResources interface [Windows Shell],described, _shell_IEnumResources, shell.IEnumResources, shobjidl_core/IEnumResources
-f1_keywords:
-- shobjidl_core/IEnumResources
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IEnumResources
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumResources
+ - shobjidl_core/IEnumResources
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IEnumResources
 ---
 
 # IEnumResources interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes resource enumeration methods.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Skips a specified number of resources.
 
 </td>
 </tr>
-</table> 
+</table>
 

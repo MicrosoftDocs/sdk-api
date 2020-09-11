@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: fff3df30-cb29-4da3-97bc-dba5fbba1db5
 ms.date: 12/05/2018
 ms.keywords: DrvAlphaBlend, DrvAlphaBlend function [Display Devices], ddifncs_fc2d104a-d161-4f43-af15-ad088b5a2d3f.xml, display.drvalphablend, winddi/DrvAlphaBlend
-f1_keywords:
-- winddi/DrvAlphaBlend
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvAlphaBlend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvAlphaBlend
+ - winddi/DrvAlphaBlend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvAlphaBlend
 ---
 
 # DrvAlphaBlend function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvAlphaBlend</b> function provides bit-block transfer capabilities with <a href="https://docs.microsoft.com/windows-hardware/drivers/">alpha blending</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param psoDest [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the surface on which to draw.
 
-
 ### -param psoSrc [in]
 
 Pointer to a SURFOBJ structure that identifies the source surface.
 
-
 ### -param pco [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure. The CLIPOBJ_<i>Xxx</i> service routines are provided to enumerate the <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved. However, unlike <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>, <b>DrvAlphaBlend</b> might be called with a single rectangle in order to prevent round-off errors in clipping the output.
-
 
 ### -param pxlo [in, optional]
 
@@ -81,7 +74,6 @@ If the source surface is palette-managed, its colors are represented by indices 
 
 The situation is more complicated when, for example, the source is RGB but the destination is palette-managed. In this case, the closest match to each source RGB value must be found in the destination palette. The driver can call the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_ixlate">XLATEOBJ_iXlate</a> service routine to perform this matching operation.
 
-
 ### -param prclDest [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the blend.
@@ -89,7 +81,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-w
 The driver should be careful to do proper clipping when writing the pixels because the specified rectangle might overhang the destination surface.
 
 <b>DrvAlphaBlend</b> is never called with an empty destination rectangle.
-
 
 ### -param prclSrc [in]
 
@@ -100,7 +91,6 @@ The source rectangle will never exceed the bounds of the source surface, and so 
 <b>DrvAlphaBlend</b> is never called with an empty source rectangle.
 
 The mapping is defined by <i>prclSrc</i> and <i>prclDest</i>. The points specified in <i>prclDest</i> and <i>prclSrc</i> lie on integer coordinates, which correspond to pixel centers. A rectangle defined by two such points is considered to be a geometric rectangle with two vertices whose coordinates are the given points, but with 0.5 subtracted from each coordinate. (POINTL structures are shorthand notation for specifying these fractional coordinate vertices.)
-
 
 ### -param pBlendObj [in]
 
@@ -122,19 +112,11 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-w
 
 The source surface can be assumed to be in a premultiplied alpha 32bpp "BGRA" format; that is, the surface type is BMF_32BPP and the palette type is BI_RGB. The alpha component is an integer in the range of [0,255], where 0 is completely transparent and 255 is completely opaque.
 
-
 ## -returns
-
-
 
 <b>DrvAlphaBlend</b> returns <b>TRUE</b> upon success. Otherwise, it reports an error and returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The driver can support a bit-block transfer with alpha blending between the following surfaces:
 
@@ -252,13 +234,7 @@ result = (temp + (temp >> 8)) >> 8;
 
 The driver hooks <b>DrvAlphaBlend</b> by setting the HOOK_ALPHABLEND flag when it calls <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. If the driver has hooked <b>DrvAlphaBlend</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by punting the data in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engalphablend">EngAlphaBlend</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
 
@@ -301,7 +277,4 @@ The driver hooks <b>DrvAlphaBlend</b> by setting the HOOK_ALPHABLEND flag when i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engtransparentblt">EngTransparentBlt</a>
- 
-
- 
 

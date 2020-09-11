@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 08e90a50-a6ac-4405-ba90-a862b78efaf8
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeDuckNotification, IAudioVolumeDuckNotification interface [Core Audio], IAudioVolumeDuckNotification interface [Core Audio],described, audiopolicy/ IAudioVolumeDuckNotification, coreaudio.iaudiovolumeducknotification
-f1_keywords:
-- audiopolicy/IAudioVolumeDuckNotification
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AudioPolicy.h
-api_name:
-- IAudioVolumeDuckNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioVolumeDuckNotification
+ - audiopolicy/IAudioVolumeDuckNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AudioPolicy.h
+api_name:
+ - IAudioVolumeDuckNotification
 ---
 
 # IAudioVolumeDuckNotification interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioVolumeDuckNotification</b> interface is used to by the system to send notifications about stream attenuation changes.Stream Attenuation, or ducking, is a feature introduced in Windows 7, where the system adjusts the volume of a non-communication stream when a new communication stream is opened. For more information about this feature, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/stream-attenuation">Default Ducking Experience</a>.
-
-
-
 
 ## -inheritance
 
@@ -88,12 +85,9 @@ Sends a notification about a pending system unducking event.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
     If an application needs to opt out of the system attenuation experience provided by the system, it must call <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-setduckingpreference">IAudioSessionControl2::SetDuckingPreference</a> and specify that preference. 
 
@@ -185,21 +179,11 @@ public:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
- 
-
- 
 

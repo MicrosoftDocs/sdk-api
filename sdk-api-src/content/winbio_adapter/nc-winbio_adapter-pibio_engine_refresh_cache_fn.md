@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: AD0A3BBC-3948-402A-AC3A-96BAF00A164C
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterRefreshCache, EngineAdapterRefreshCache callback function [Windows Biometric Framework API], PIBIO_ENGINE_REFRESH_CACHE_FN, PIBIO_ENGINE_REFRESH_CACHE_FN callback, secbiomet.engineadapterrefreshcache, winbio_adapter/EngineAdapterRefreshCache
-f1_keywords:
-- winbio_adapter/EngineAdapterRefreshCache
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterRefreshCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_REFRESH_CACHE_FN
+ - winbio_adapter/PIBIO_ENGINE_REFRESH_CACHE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterRefreshCache
 ---
 
 # PIBIO_ENGINE_REFRESH_CACHE_FN callback function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to notify the Engine Adapter that it should discard any cached templates that it may be keeping in memory.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-
 ## -returns
-
-
 
 The function will return one of the following <b>HRESULT</b> values. 
 
@@ -97,14 +90,8 @@ This value is returned in all other cases.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An Engine Adapter that maintains a private in-memory cache of templates (e.g., for performance reasons) should discard the contents of its cache when it receives this method call. The call indicates that the cache contents are no longer valid. Depending on the Engine Adapter’s cache policy, the adapter may also choose to reload its cache at this time from the template database.
 
@@ -128,7 +115,4 @@ Deleting one or more existing templates from the database.
 
 </li>
 </ul>
-
-
-
 

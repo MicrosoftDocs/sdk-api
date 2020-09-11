@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2b990a1d-8913-49bc-920f-253b38871eb6
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback function [Security], security.pfn_crypt_extract_encoded_signature_parameters_func, wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
-f1_keywords:
-- wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wincrypt.h
-api_name:
-- PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
+ - wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wincrypt.h
+api_name:
+ - PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
 ---
 
 # PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 If a signature contains encoded parameters, the <b>PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC</b> callback function is called to decode and return the hash algorithm identifier and optionally the signature parameters.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -69,8 +65,6 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pSignatureAlgorithm [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the signature <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and its optional encoded parameters.
@@ -80,20 +74,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 A pointer to an address for the decoded and allocated signature parameters data structure. Returning the decoded buffer is optional.
 
-
 ### -param *ppwszCNGHashAlgid [out]
 
 A pointer to an address for the allocated Unicode string that represents the CNG hash algorithm identifier extracted from the encoded signature parameters. If this function returns <b>TRUE</b>, a non-<b>NULL</b> pointer must be returned.
-
 
 ### -param ppvDecodedSignPara [out, optional]
 
 A pointer to an address for the decoded and allocated signature parameters data structure. Returning the decoded buffer is optional.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
@@ -101,12 +90,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 If this callback function does not support the signature algorithm, it must return <b>FALSE</b> and call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with <b>ERROR_NOT_SUPPORTED</b>.
 
-
-
-
 ## -remarks
-
-
 
 Memory for the <i>ppvDecodedSignPara</i> and <i>ppwszCNGHashAlgid</i> parameters must be allocated by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> function.
 
@@ -122,7 +106,4 @@ You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/crypto
 <td>"CryptDllExtractEncodedSignatureParameters"</td>
 </tr>
 </table>
- 
-
-
 

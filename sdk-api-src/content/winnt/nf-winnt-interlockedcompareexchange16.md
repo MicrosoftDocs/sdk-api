@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 5bf2e0d7-1b64-4622-8b6f-4ac903027064
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange16, InterlockedCompareExchange16 function, base.interlockedcompareexchange16, winnt/InterlockedCompareExchange16
-f1_keywords:
-- winnt/InterlockedCompareExchange16
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedCompareExchange16
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedCompareExchange16
+ - winnt/InterlockedCompareExchange16
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedCompareExchange16
 ---
 
 # InterlockedCompareExchange16 function
 
 
 ## -description
-
 
 Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 16-bit values and exchanges with another 16-bit value based on the outcome of the comparison.
 
@@ -58,39 +58,25 @@ To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows
 
 To operate on 128-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange128">InterlockedCompareExchange128</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Destination [in, out]
 
  A pointer to the destination value.
 
-
 ### -param ExChange [in]
 
 The exchange value.
-
 
 ### -param Comperand [in]
 
 The value to compare to <i>Destination</i>.
 
-
 ## -returns
-
-
 
 The function returns the initial value of the <i>Destination</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 The 
 function compares the <i>Destination</i> value with the <i>Comparand</i> value. If the <i>Destination</i> value is equal to the <i>Comparand</i> value, the <i>Exchange</i> value is stored in the address specified by <i>Destination</i>. Otherwise, no operation is performed.
@@ -106,12 +92,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -186,7 +167,4 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7bc410f8-3a39-478d-bc4d-adcd976f305b
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],NoteChangeTime method, IRunningObjectTable.NoteChangeTime, IRunningObjectTable::NoteChangeTime, NoteChangeTime, NoteChangeTime method [COM], NoteChangeTime method [COM],IRunningObjectTable interface, _com_irunningobjecttable_notechangetime, com.irunningobjecttable_notechangetime, objidl/IRunningObjectTable::NoteChangeTime
-f1_keywords:
-- objidl/IRunningObjectTable.NoteChangeTime
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IRunningObjectTable.NoteChangeTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRunningObjectTable::NoteChangeTime
+ - objidl/IRunningObjectTable::NoteChangeTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IRunningObjectTable.NoteChangeTime
 ---
 
 # IRunningObjectTable::NoteChangeTime
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Records the time that a running object was last modified. The object must have previously been registered with the running object table (ROT). This method stores the time of last change in the ROT.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRegister [in]
 
 The identifier of the ROT entry of the changed object. This value was previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>.
 
-
 ### -param pfiletime [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure containing the object's last change time.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 The time recorded by this method can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-gettimeoflastchange">IRunningObjectTable::GetTimeOfLastChange</a>.
 
@@ -92,23 +79,13 @@ The most common type of moniker provider is a compound-document link source. Thi
 
 
 
-When an object is first registered in the ROT, the ROT records its last change time as the value returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-gettimeoflastchange">IMoniker::GetTimeOfLastChange</a> on the moniker being registered. 
-
-
-
-
+When an object is first registered in the ROT, the ROT records its last change time as the value returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-gettimeoflastchange">IMoniker::GetTimeOfLastChange</a> on the moniker being registered.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-gettimeoflastchange">IMoniker::GetTimeOfLastChange</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
- 
-
- 
 

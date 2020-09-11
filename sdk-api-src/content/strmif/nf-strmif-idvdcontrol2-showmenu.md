@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ShowMenu method, IDvdControl2.ShowMenu, IDvdControl2::ShowMenu, IDvdControl2ShowMenu, ShowMenu, ShowMenu method [DirectShow], ShowMenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_showmenu, strmif/IDvdControl2::ShowMenu
-f1_keywords:
-- strmif/IDvdControl2.ShowMenu
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.ShowMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::ShowMenu
+ - strmif/IDvdControl2::ShowMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.ShowMenu
 ---
 
 # IDvdControl2::ShowMenu
@@ -50,34 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ShowMenu</code> method displays the specified menu, if available.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param MenuID [in]
 
 A <a href="/windows/win32/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumeration value that specifies the menu to display.
 
-
 ### -param dwFlags [in]
 
 Bitwise OR of one or more flags from the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
-
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
+
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -142,14 +132,8 @@ UOP control prohibits the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Video Manager Menu (VMGM) should be accessible from the Title or the Video Title Set domains. The Video Title Set menus (VTSMs) might only be accessible through the VMGM. Any submenus under each VTSM (for chapters, angles, and audio and subpicture streams) are only accessible through that VTSM.
 
@@ -169,13 +153,8 @@ The following table shows the Annex J command name to which this method name cor
 <td>All.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
 
 <a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -190,3 +169,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
+

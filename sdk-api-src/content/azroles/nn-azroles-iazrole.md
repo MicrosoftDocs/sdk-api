@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2934d783-b379-486c-80e7-e7650b89dc1a
 ms.date: 12/05/2018
 ms.keywords: IAzRole, IAzRole interface [Security], IAzRole interface [Security],described, azroles/IAzRole, security.iazrole
-f1_keywords:
-- azroles/IAzRole
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzRole
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzRole
+ - azroles/IAzRole
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzRole
 ---
 
 # IAzRole interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzRole</b> interface defines the set of operations that can be performed by a set of users within a scope.
-
 
 ## -inheritance
 
@@ -356,5 +355,5 @@ Retrieves a value that indicates whether the role can be modified by the  user c
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f948f7dd-987d-4c2d-b650-62081133c3f4
 ms.date: 12/05/2018
 ms.keywords: SHCreateStreamOnFileEx, SHCreateStreamOnFileEx function [Windows Shell], _shell_SHCreateStreamOnFileEx, shell.SHCreateStreamOnFileEx, shlwapi/SHCreateStreamOnFileEx
-f1_keywords:
-- shlwapi/SHCreateStreamOnFileEx
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
-- ShCore.dll
-- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
-- API-MS-Win-ShCore-stream-l1-1-0.dll
-api_name:
-- SHCreateStreamOnFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHCreateStreamOnFileEx
+ - shlwapi/SHCreateStreamOnFileEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+ - ShCore.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+ - API-MS-Win-ShCore-stream-l1-1-0.dll
+api_name:
+ - SHCreateStreamOnFileEx
 ---
 
 # SHCreateStreamOnFileEx function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens or creates a file and retrieves a stream to read or write to that file.
 
-
 ## -parameters
-
-
-
 
 ### -param pszFile [in]
 
@@ -68,13 +64,11 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a null-terminated string that specifies the file name.
 
-
 ### -param grfMode [in]
 
 Type: <b>DWORD</b>
 
 One or more <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
-
 
 ### -param dwAttributes [in]
 
@@ -82,13 +76,11 @@ Type: <b>DWORD</b>
 
 One or more flag values that specify file attributes in the case that a new file is created. For a complete list of possible values, see the <i>dwFlagsAndAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
-
 ### -param fCreate [in]
 
 Type: <b>BOOL</b>
 
 A <b>BOOL</b> value that helps specify, in conjunction with <i>grfMode</i>, how existing files should be treated when creating the stream. See Remarks for details.
-
 
 ### -param pstmTemplate [in, optional]
 
@@ -96,28 +88,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objid
 
 Reserved.
 
-
 ### -param ppstm [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
 Receives an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer for the stream associated with the file.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SHCreateStreamOnFileEx</b> function extends the semantics of the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> flags and produces the same effect as calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
@@ -169,7 +152,4 @@ The <i>grfMode</i> and <i>fCreate</i> parameters work together to specify how th
 <td>The file is created.</td>
 </tr>
 </table>
- 
-
-
 

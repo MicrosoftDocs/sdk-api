@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 1264d4bc-dd45-41e7-9f95-c6e9aebd4d22
 ms.date: 12/05/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetAlternateLocationMapping method, IVssExamineWriterMetadata.GetAlternateLocationMapping, IVssExamineWriterMetadata::GetAlternateLocationMapping, _win32_ivssexaminewritermetadata_getalternatelocationmapping, base.ivssexaminewritermetadata_getalternatelocationmapping, vsbackup/IVssExamineWriterMetadata::GetAlternateLocationMapping
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadata.GetAlternateLocationMapping
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadata.GetAlternateLocationMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadata::GetAlternateLocationMapping
+ - vsbackup/IVssExamineWriterMetadata::GetAlternateLocationMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadata.GetAlternateLocationMapping
 ---
 
 # IVssExamineWriterMetadata::GetAlternateLocationMapping
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAlternateLocationMapping</b> method obtains a specific alternate location mapping of a file set.
 
-
 ## -parameters
-
-
-
 
 ### -param iMapping [in]
 
@@ -66,16 +62,12 @@ Index of a particular mapping. The value of this parameter is an integer from 0
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of alternate location mappings associated with a given writer. The value of <i>n</i> is returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a>.
 
-
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the alternate location mapping information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -156,14 +148,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The value returned by <b>IVssExamineWriterMetadata::GetAlternateLocationMapping</b> should not be confused with that returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">IVssComponent::GetAlternateLocationMapping</a>.
@@ -194,13 +180,7 @@ An alternate location mapping is used only during a restore operation and should
 The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">IVssBackupComponents::AddAlternativeLocationMapping</a>
 
@@ -219,7 +199,4 @@ The caller is responsible for calling <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
- 
-
- 
 

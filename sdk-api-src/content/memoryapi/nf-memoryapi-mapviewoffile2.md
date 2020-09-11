@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: D97138F0-2FB3-488A-91AC-A654B22FE9AD
 ms.date: 12/05/2018
 ms.keywords: MapViewOfFile2, MapViewOfFile2 function, base.mapviewoffile2, winbase/MapViewOfFile2
-f1_keywords:
-- memoryapi/MapViewOfFile2
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- MapViewOfFile2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapViewOfFile2
+ - memoryapi/MapViewOfFile2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - MapViewOfFile2
 ---
 
 # MapViewOfFile2 function
@@ -49,33 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maps a view of a file or a pagefile-backed section into the address
     space of the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param FileMappingHandle [in]
 
 A <b>HANDLE</b> to a section that is to be mapped
                         into the address space of the specified process.
 
-
 ### -param ProcessHandle [in]
 
 A <b>HANDLE</b> to a process into which the section
                     will be mapped. The handle must have the <b>PROCESS_VM_OPERATION</b> access mask.
 
-
 ### -param Offset [in]
 
 The offset from the beginning of the section.
              This must be 64k aligned.
-
 
 ### -param BaseAddress [in, optional]
 
@@ -84,12 +77,10 @@ The desired base address of the view.
                   If this parameter is <b>NULL</b>, the system picks the base
                   address.
 
-
 ### -param ViewSize [in]
 
 The number of bytes to map. A value of zero (0)
                specifies that the entire section is to be mapped.
-
 
 ### -param AllocationType [in]
 
@@ -108,28 +99,16 @@ For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the
        <i>PageProtection</i> parameter has no effect, and should be set to any valid value such as 
        <b>PAGE_READONLY</b>.
 
-
 ## -returns
-
-
 
 Returns the base address of the mapped view, if successful. Otherwise, returns <b>NULL</b> and extended error status is available
            using <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffilenuma2">MapViewOfFileNuma2</a>
- 
-
- 
 

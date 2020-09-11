@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1AFDB11F-1AD4-4B84-82EF-C0CE86D744C1
 ms.date: 12/05/2018
 ms.keywords: ClusPartitionEx, ClusPartitionEx object [Failover Cluster], ClusPartitionEx object [Failover Cluster],described, ISClusPartitionEx, msclus/ClusPartitionEx, mscs.cluspartitionex
-f1_keywords:
-- msclus/ClusPartitionEx
-dev_langs:
-- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library: MsClus.tlb
 req.lib: 
 req.dll: MsClus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsClus.dll
-api_name:
-- ClusPartitionEx
-- ISClusPartitionEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISClusPartitionEx
+ - msclus/ISClusPartitionEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsClus.dll
+api_name:
+ - ClusPartitionEx
+ - ISClusPartitionEx
 ---
 
 # ISClusPartitionEx interface
 
 
 ## -description
-
 
 Provides extended information about a partition on a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource.
 <ul>
@@ -141,20 +141,13 @@ Gets the volume <b>GUID</b> of the partition.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msclus/nn-msclus-iscluspartitionex">ClusPartition</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/disk-management-objects">Disk Management Objects</a>
- 
-
- 
 

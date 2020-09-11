@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrange.htm
 ms.date: 12/05/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+], CharacterRange class [GDI+],described, _gdiplus_CLASS_CharacterRange_Class, gdiplus._gdiplus_CLASS_CharacterRange_Class, gdiplustypes/CharacterRange
-f1_keywords:
-- gdiplustypes/CharacterRange
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdiplustypes.h
-api_name:
-- CharacterRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CharacterRange
+ - gdiplustypes/CharacterRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdiplustypes.h
+api_name:
+ - CharacterRange
 ---
 
 # CharacterRange class
 
 
 ## -description
-
 
 A <a href="https://docs.microsoft.com/previous-versions/ms536266(v=vs.85)">CharacterRange</a> object specifies a range of character positions within a string.
 
@@ -96,17 +96,12 @@ The [CharacterRange::operator=](/windows/win32/api/gdiplustypes/nf-gdiplustypes-
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A character range is a range of character positions within a string of text. The area of the display that is occupied by a group of characters that are specified by the character range is the bounding region. A character range is set by 
 				<b>StringFormat::SetMeasurableCharacterRanges</b>. The number of ranges that are currently set can be determined by calling 
 				<b>StringFormat::GetMeasurableCharacterRangeCount</b>. This number is also the number of regions expected to be obtained by the 
 				<b>MeasureCharacterRanges</b> method.
-
-
 

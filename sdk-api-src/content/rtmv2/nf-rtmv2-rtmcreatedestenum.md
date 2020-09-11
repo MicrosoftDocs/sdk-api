@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 6efea7b4-dd44-4b08-999d-62e7f660ed64
 ms.date: 12/05/2018
 ms.keywords: RTM_ENUM_ALL_DESTS, RTM_ENUM_NEXT, RTM_ENUM_OWN_DESTS, RTM_ENUM_RANGE, RTM_ENUM_START, RTM_VIEW_MASK_ANY, RTM_VIEW_MASK_MCAST, RTM_VIEW_MASK_UCAST, RtmCreateDestEnum, RtmCreateDestEnum function [RAS], _rtmv2ref_rtmcreatedestenum, rras.rtmcreatedestenum, rtmv2/RtmCreateDestEnum
-f1_keywords:
-- rtmv2/RtmCreateDestEnum
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmCreateDestEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmCreateDestEnum
+ - rtmv2/RtmCreateDestEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmCreateDestEnum
 ---
 
 # RtmCreateDestEnum function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmCreateDestEnum</b> function starts an enumeration of the destinations in the routing table. A client can enumerate destinations for one or more views, or for all views.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
 
 ### -param TargetViews [in]
 
@@ -107,8 +102,6 @@ Return destinations from the multicast view.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EnumFlags [in]
 
@@ -180,14 +173,11 @@ Enumerate destinations starting at 0/0. Specify <b>NULL</b> for <i>NetAddress</i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param NetAddress [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a> structure that contains the starting address of the enumeration. Specify <b>NULL</b> if <i>EnumFlags</i> contains RTM_ENUM_START.
-
 
 ### -param ProtocolId [in]
 
@@ -198,7 +188,6 @@ Specifies the protocol identifier used to determine the best route information r
 
 
 Specify RTM_BEST_PROTOCOL to return a route regardless of which protocol owns it. Specify RTM_THIS_PROTOCOL to return the best route for the calling protocol.
-
 
 ### -param RtmEnumHandle [out]
 
@@ -212,10 +201,7 @@ On output, <i>RtmEnumHandle</i> receives a pointer to a handle to the enumeratio
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasedests">RtmReleaseDests</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -260,14 +246,8 @@ One or more of the specified views is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>EnumFlags</i> contains RTM_ENUM_RANGE, use <i>NetAddress</i> to specify the range of the routing table to enumerate. For example, if a client sets <i>NetAddress</i> to 10/8, destinations in the range 10.0.0.0/8 to 10.255.255.255/32 are returned.
 
@@ -277,13 +257,7 @@ When the enumeration handle is no longer required, release it by calling
 For sample code using this function, see 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/enumerate-all-destinations">Enumerate All Destinations</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
 
@@ -298,7 +272,4 @@ For sample code using this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasedests">RtmReleaseDests</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e1c60001-0a0c-4ff9-bb17-fef3e47b16a6
 ms.date: 12/05/2018
 ms.keywords: GetDiscardControlPartName, GetDiscardControlPartName method [XPS Documents and Packaging], GetDiscardControlPartName method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetDiscardControlPartName method, IXpsOMPackage.GetDiscardControlPartName, IXpsOMPackage::GetDiscardControlPartName, xps.ixpsompackage_getdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::GetDiscardControlPartName
-f1_keywords:
-- xpsobjectmodel/IXpsOMPackage.GetDiscardControlPartName
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPackage.GetDiscardControlPartName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackage::GetDiscardControlPartName
+ - xpsobjectmodel/IXpsOMPackage::GetDiscardControlPartName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPackage.GetDiscardControlPartName
 ---
 
 # IXpsOMPackage::GetDiscardControlPartName
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the name of the discard control part in the XPS package.
 
-
 ## -parameters
-
-
-
 
 ### -param discardControlPartUri [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the name of the discard control part in the XPS package. If a discard control part has not been set, a <b>NULL</b> pointer is returned.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,15 +90,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 
@@ -120,7 +106,4 @@ The method succeeded.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

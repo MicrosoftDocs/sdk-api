@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b922154d-0d57-4473-b331-c0082d9e5db5
 ms.date: 12/05/2018
 ms.keywords: GetAlgorithmOid, GetAlgorithmOid method [Security], GetAlgorithmOid method [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],GetAlgorithmOid method, ICspAlgorithm.GetAlgorithmOid, ICspAlgorithm::GetAlgorithmOid, certenroll/ICspAlgorithm::GetAlgorithmOid, security.icspalgorithm_getalgorithmoid_method
-f1_keywords:
-- certenroll/ICspAlgorithm.GetAlgorithmOid
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspAlgorithm.GetAlgorithmOid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspAlgorithm::GetAlgorithmOid
+ - certenroll/ICspAlgorithm::GetAlgorithmOid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspAlgorithm.GetAlgorithmOid
 ---
 
 # ICspAlgorithm::GetAlgorithmOid
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAlgorithmOid</b> method retrieves the  algorithm object identifier (OID). This method is web enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param Length [in]
 
@@ -72,8 +68,6 @@ A <b>LONG</b> variable that identifies the required key size of the symmetric en
 
  If you specify zero for the <i>Length</i> parameter and <b>AlgorithmFlagsNone</b> (0x00000000) for the  <i>AlgFlags</i> parameter, the OID associated with the default algorithm is retrieved. For the Microsoft Software KSP and the Microsoft Smart Card KSP, the default AES algorithm is szOID_NIST_AES128_CBC (2.16.840.1.101.3.4.1.2).<div class="alert"><b>Note</b>  This parameter must be zero for any algorithm other than a symmetric encryption algorithm.</div>
 <div> </div>
-
-
 
 ### -param AlgFlags [in]
 
@@ -95,16 +89,11 @@ Specifying <b>AlgorithmFlagsWrap</b> causes this method to search for algorithms
  If you specify zero for the <i>Length</i> parameter and <b>AlgorithmFlagsNone</b> (0x00000000) for the  <i>AlgFlags</i> parameter, the OID associated with the default algorithm is retrieved. For the Microsoft Software KSP and the Microsoft Smart Card KSP, the default AES algorithm is szOID_NIST_AES128_CBC (2.16.840.1.101.3.4.1.2).<div class="alert"><b>Note</b>  This parameter must be zero for any algorithm other than a symmetric encryption algorithm.</div>
 <div> </div>
 
-
-
 ### -param ppValue [out]
 
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the algorithm OID.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -140,27 +129,12 @@ The CSP information has not been initialized. For more information, see the <a h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromname">InitializeFromName</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromtype">InitializeFromType</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface before calling <b>GetAlgorithmOid</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
- 
-
- 
 

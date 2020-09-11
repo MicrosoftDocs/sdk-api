@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: F87C85EF-9750-4345-9EF6-A30CF3CE0055
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_COS_OPERATOR_DESC, DML_ELEMENT_WISE_COS_OPERATOR_DESC structure, direct3d12.dml_element_wise_cos_operator_desc, directml/DML_ELEMENT_WISE_COS_OPERATOR_DESC
-f1_keywords:
-- directml/DML_ELEMENT_WISE_COS_OPERATOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_ELEMENT_WISE_COS_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_ELEMENT_WISE_COS_OPERATOR_DESC
+ - directml/DML_ELEMENT_WISE_COS_OPERATOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_ELEMENT_WISE_COS_OPERATOR_DESC
 ---
 
 # DML_ELEMENT_WISE_COS_OPERATOR_DESC structure
@@ -72,3 +73,4 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 Type: **const [DML_SCALE_BIAS](/windows/desktop/api/directml/ns-directml-dml_scale_bias)\***
 
 An optional pointer to a constant [DML_SCALE_BIAS](/windows/desktop/api/directml/ns-directml-dml_scale_bias) containing scale and bias to apply to the input. If present, this has the effect of applying the function g(x) = x * scale + bias to each element before this topic's operator is applied.
+

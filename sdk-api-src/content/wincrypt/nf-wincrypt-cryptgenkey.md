@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b65dd856-2dfa-4cda-9b2f-b32f3c291470
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CALG_DH_EPHEM, CALG_DH_SF, CRYPT_ARCHIVABLE, CRYPT_CREATE_IV, CRYPT_CREATE_SALT, CRYPT_DATA_KEY, CRYPT_EXPORTABLE, CRYPT_FORCE_KEY_PROTECTION_HIGH, CRYPT_INITIATOR, CRYPT_KEK, CRYPT_NO_SALT, CRYPT_ONLINE, CRYPT_PREGEN, CRYPT_RECIPIENT, CRYPT_SF, CRYPT_SGCKEY, CRYPT_USER_PROTECTED, CRYPT_VOLATILE, CryptGenKey, CryptGenKey function [Security], _crypto2_cryptgenkey, security.cryptgenkey, wincrypt/CryptGenKey
-f1_keywords:
-- wincrypt/CryptGenKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptGenKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGenKey
+ - wincrypt/CryptGenKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptGenKey
 ---
 
 # CryptGenKey function
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGenKey</b> function generates a random cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a>. A handle to the key or key pair is returned in <i>phKey</i>. This handle can then be used as needed with any CryptoAPI function that requires a key handle.
 
 The calling application must specify the algorithm when calling this function. Because this algorithm type is kept bundled with the key, the application does not need to specify the algorithm later when the actual cryptographic operations are performed.
 
-
 ## -parameters
-
-
-
 
 ### -param hProv [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) created by a call to 
 					<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
-
 
 ### -param Algid [in]
 
@@ -528,17 +523,12 @@ This flag is not used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phKey [out]
 
 Address to which the function copies the handle of the newly generated key. When you have finished  using the key, delete  the handle to the key by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> function.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 
@@ -630,14 +620,8 @@ The provider could not perform the action because the context was acquired as si
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If keys are generated for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block ciphers</a>, the key, by default, is set up in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher block chaining</a> (CBC) mode with an initialization vector of zero. This <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher mode</a> provides a good default method for bulk encrypting data. To change these parameters, use the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> function.
@@ -690,14 +674,7 @@ if (!CryptDestroyKey(hKey))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
@@ -728,7 +705,4 @@ if (!CryptDestroyKey(hKey))
 
 
 <a href="https://docs.microsoft.com/previous-versions/aa388149(v=vs.85)">Threading Issues with Cryptographic Service Providers</a>
- 
-
- 
 

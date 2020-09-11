@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 7ad507dd-62aa-47c2-a792-750b36d48243
 ms.date: 12/05/2018
 ms.keywords: NCT_BRIDGE, NCT_DIRECT_CONNECT, NCT_INBOUND, NCT_INTERNET, NCT_LAN, NCT_PHONE, NCT_TUNNEL, NETCON_TYPE, NETCON_TYPE enumeration [ICS/ICF], _ics_netcon_type, ics.netcon_type, netcon/NCT_BRIDGE, netcon/NCT_DIRECT_CONNECT, netcon/NCT_INBOUND, netcon/NCT_INTERNET, netcon/NCT_LAN, netcon/NCT_PHONE, netcon/NCT_TUNNEL, netcon/NETCON_TYPE
-f1_keywords:
-- netcon/NETCON_TYPE
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- NetCon.h
-api_name:
-- NETCON_TYPE
 targetos: Windows
 req.typenames: NETCON_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNETCON_TYPE
+ - netcon/tagNETCON_TYPE
+ - NETCON_TYPE
+ - netcon/NETCON_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - NetCon.h
+api_name:
+ - NETCON_TYPE
 ---
 
 # NETCON_TYPE enumeration
@@ -49,57 +52,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>NETCON_TYPE</b> type enumerates the various kinds of network connections.
 
-
 ## -enum-fields
-
-
-
 
 ### -field NCT_DIRECT_CONNECT
 
 Direct serial connection through a serial port.
 
-
 ### -field NCT_INBOUND
 
 Another computer dials in to the local computer through this connection.
-
 
 ### -field NCT_INTERNET
 
 The connection is to the public Internet.
 
-
 ### -field NCT_LAN
 
 The connection is to a local area network (LAN).
-
 
 ### -field NCT_PHONE
 
 The connection is a dial-up connection over a phone line.
 
-
 ### -field NCT_TUNNEL
 
 The connection is a virtual private network (VPN) connection.
-
 
 ### -field NCT_BRIDGE
 
 The connection is a bridged connection.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a>
 
@@ -114,7 +102,4 @@ The connection is a bridged connection.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a>
- 
-
- 
 

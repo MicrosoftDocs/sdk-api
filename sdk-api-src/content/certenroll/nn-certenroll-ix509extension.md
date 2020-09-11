@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f04e3f63-c826-4401-a1c8-b2614e0dc374
 ms.date: 12/05/2018
 ms.keywords: IX509Extension, IX509Extension interface [Security], IX509Extension interface [Security],described, certenroll/IX509Extension, security.ix509extension
-f1_keywords:
-- certenroll/IX509Extension
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Extension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Extension
+ - certenroll/IX509Extension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Extension
 ---
 
 # IX509Extension interface
 
 
 ## -description
-
 
 The <b>IX509Extension</b> interface can be used to define an extension for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. Certificate extensions provide information about key usage, certificate policies and constraints, alternative name forms, and more. An extension consists of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), a Boolean value that identifies whether the extension is critical, and a byte array that contains the extension value as shown by the following <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) syntax.
 <pre class="syntax" xml:space="preserve"><code>
@@ -198,7 +198,6 @@ Finally, you can use the <b>IX509Extension</b> interface to define private exten
 
 Extensions are added to the <b>Attributes</b> structure of a PKCS #10 request and to the <b>TaggedAttributes</b> structure of a CMC request. To add extensions to either request format, you must first add them to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
 
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Extension</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509Extension</b> also has these types of members:
@@ -271,13 +270,9 @@ Retrieves a byte array that contains the extension value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
@@ -296,7 +291,4 @@ Retrieves a byte array that contains the extension value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a>
- 
-
- 
 

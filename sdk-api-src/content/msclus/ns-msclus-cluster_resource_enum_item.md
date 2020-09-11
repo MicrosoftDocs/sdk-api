@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: B8369B29-F72A-4642-93CB-23F04E680663
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSTER_RESOURCE_ENUM_ITEM, CLUSTER_RESOURCE_ENUM_ITEM, CLUSTER_RESOURCE_ENUM_ITEM structure [Failover Cluster], PCLUSTER_RESOURCE_ENUM_ITEM, PCLUSTER_RESOURCE_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_RESOURCE_ENUM_ITEM, _CLUSTER_RESOURCE_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_RESOURCE_ENUM_ITEM, clusapi/PCLUSTER_RESOURCE_ENUM_ITEM, clusapi/_CLUSTER_RESOURCE_ENUM_ITEM, msclus/CLUSTER_RESOURCE_ENUM_ITEM, msclus/PCLUSTER_RESOURCE_ENUM_ITEM, msclus/_CLUSTER_RESOURCE_ENUM_ITEM, mscs.cluster_resource_enum_item'
-f1_keywords:
-- msclus/CLUSTER_RESOURCE_ENUM_ITEM
-dev_langs:
-- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusApi.h
-- MsClus.h
-api_name:
-- CLUSTER_RESOURCE_ENUM_ITEM
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_ENUM_ITEM, *PCLUSTER_RESOURCE_ENUM_ITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUSTER_RESOURCE_ENUM_ITEM
+ - msclus/_CLUSTER_RESOURCE_ENUM_ITEM
+ - PCLUSTER_RESOURCE_ENUM_ITEM
+ - msclus/PCLUSTER_RESOURCE_ENUM_ITEM
+ - CLUSTER_RESOURCE_ENUM_ITEM
+ - msclus/CLUSTER_RESOURCE_ENUM_ITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusApi.h
+ - MsClus.h
+api_name:
+ - CLUSTER_RESOURCE_ENUM_ITEM
 ---
 
 # CLUSTER_RESOURCE_ENUM_ITEM structure
@@ -50,74 +55,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the properties of a cluster resource. This structure is used to enumerate cluster resources in the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a> function.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwVersion
-
- 
-
 
 ### -field cbId
 
- 
-
-
 ### -field lpszId
-
- 
-
 
 ### -field cbName
 
 The size, in bytes, of the <b>IpszName</b> field.
 
-
 ### -field lpszName
 
 The name of the cluster resource.
-
 
 ### -field cbOwnerGroupName
 
 The size, in bytes, of the <b>IpszOwnerNode</b> field.
 
-
 ### -field lpszOwnerGroupName
 
 The name of the cluster resource that  hosts the group.
-
 
 ### -field cbOwnerGroupId
 
 The size, in bytes, of the <b>lpszOwnerGroupId</b> field.
 
-
 ### -field lpszOwnerGroupId
 
 The group ID of the cluster group for the resource.
-
 
 ### -field cbProperties
 
 The size, in bytes, of the <b>pProperties</b> field.
 
-
 ### -field pProperties
 
 A pointer to a list of names of common properties.
 
-
 ### -field cbRoProperties
 
 The size, in bytes, of the <b>pRoProperties</b> field.
-
 
 ### -field pRoProperties
 
@@ -135,18 +117,11 @@ The size, in bytes, of the <b>lpszId</b> field.
 
 The ID of the cluster resource.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
- 
-
- 
 

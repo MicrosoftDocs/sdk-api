@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: a7358d0d-6d5a-4845-a212-d278a8d2b7fe
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumAgentHandler interface, IEnumAgentHandler interface [TAPI 2.2],Clone method, IEnumAgentHandler.Clone, IEnumAgentHandler::Clone, _tapi3_ienumagenthandler_clone, tapi3.ienumagenthandler_clone, tapi3cc/IEnumAgentHandler::Clone
-f1_keywords:
-- tapi3cc/IEnumAgentHandler.Clone
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumAgentHandler.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumAgentHandler::Clone
+ - tapi3cc/IEnumAgentHandler::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumAgentHandler.Clone
 ---
 
 # IEnumAgentHandler::Clone
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Clone</b> method creates another enumerator that contains the same enumeration state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to new 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler">IEnumAgentHandler</a> interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,29 +114,14 @@ Failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 TAPI calls the <b>AddRef</b> method on the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler">IEnumAgentHandler</a> interface returned by <b>IEnumAgentHandler::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumAgentHandler</b> interface to free resources associated with it.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler">IEnumAgentHandler</a>
- 
-
- 
 

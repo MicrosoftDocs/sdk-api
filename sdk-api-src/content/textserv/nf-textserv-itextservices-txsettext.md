@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettext.htm
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxSetText method, ITextServices.TxSetText, ITextServices::TxSetText, TxSetText, TxSetText method [Windows Controls], TxSetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxSetText, _win32_ITextServices_TxSetText_cpp, controls.ITextServices_TxSetText, controls._win32_ITextServices_TxSetText, textserv/ITextServices::TxSetText
-f1_keywords:
-- textserv/ITextServices.TxSetText
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextServices.TxSetText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextServices::TxSetText
+ - textserv/ITextServices::TxSetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextServices.TxSetText
 ---
 
 # ITextServices::TxSetText
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets all of the text in the control.
 
-
 ## -parameters
-
-
-
 
 ### -param pszText [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
-The string which will replace the current text. 
-
+The string which will replace the current text.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -92,14 +85,8 @@ Text could not be updated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method should be used with care; it essentially reinitializes the text services object with some new data. Any previous data and formatting information will be lost, including undo information.
 
@@ -109,13 +96,7 @@ This method does <i>not</i> support <b>Undo</b>.
 
 Two alternate approaches to setting text are <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -146,7 +127,4 @@ Two alternate approaches to setting text are <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

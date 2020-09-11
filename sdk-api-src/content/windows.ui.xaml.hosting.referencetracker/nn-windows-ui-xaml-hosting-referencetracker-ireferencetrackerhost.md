@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: b17fe8ae-be79-4281-a313-517505017401
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], IReferenceTrackerHost interface [Windows Runtime],described, windows/IReferenceTrackerHost, winrt.ireferencetrackerhost
-f1_keywords:
-- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost
-dev_langs:
-- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.ui.xaml.hosting.referencetracker.h
-api_name:
-- IReferenceTrackerHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReferenceTrackerHost
+ - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.ui.xaml.hosting.referencetracker.h
+api_name:
+ - IReferenceTrackerHost
 ---
 
 # IReferenceTrackerHost interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines an interface that provides the global services used by the garbage collection (GC) system used by the XAML framework.
-
 
 ## -inheritance
 
@@ -125,14 +124,9 @@ Informs the host of reduced memory allocations since the last notification.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An implementation of this interface must be registered with the XAML framework by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-setreferencetrackerhost">IReferenceTrackerManager::SetReferenceTrackerHost</a> method.
-
-
 

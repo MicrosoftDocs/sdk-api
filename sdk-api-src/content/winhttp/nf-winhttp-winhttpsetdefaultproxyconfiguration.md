@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
-f1_keywords:
-- winhttp/WinHttpSetDefaultProxyConfiguration
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpSetDefaultProxyConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpSetDefaultProxyConfiguration
+ - winhttp/WinHttpSetDefaultProxyConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpSetDefaultProxyConfiguration
 ---
 
 ## -description
@@ -142,3 +143,4 @@ delete [] proxyInfo.lpszProxyBypass;
 [WinHTTP versions](/windows/desktop/winhttp/winhttp-versions)
 
 [WinHttpGetDefaultProxyConfiguration](/windows/desktop/api/winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration)
+

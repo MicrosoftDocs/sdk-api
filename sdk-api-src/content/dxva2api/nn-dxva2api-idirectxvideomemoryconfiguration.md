@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: cc2a6180-9698-460a-9a0d-1ee9e15f197f
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], IDirectXVideoMemoryConfiguration interface [Media Foundation],described, cc2a6180-9698-460a-9a0d-1ee9e15f197f, dxva2api/IDirectXVideoMemoryConfiguration, mf.idirectxvideomemoryconfiguration
-f1_keywords:
-- dxva2api/IDirectXVideoMemoryConfiguration
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxva2api.h
-api_name:
-- IDirectXVideoMemoryConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectXVideoMemoryConfiguration
+ - dxva2api/IDirectXVideoMemoryConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxva2api.h
+api_name:
+ - IDirectXVideoMemoryConfiguration
 ---
 
 # IDirectXVideoMemoryConfiguration interface
 
 
 ## -description
-
 
 Sets the type of video memory for uncompressed video surfaces. This interface is used by video decoders and transforms.
 
@@ -57,7 +57,6 @@ The DirectShow enhanced video renderer (EVR) filter exposes this interface as a 
 A video decoder can use this interface to enumerate the EVR filter's preferred surface types and then select the surface type. The decoder should then create surfaces of that type to hold the results of the decoding operation.
 
 This interface does not define a way to clear the surface type. In the case of DirectShow, disconnecting two filters invalidates the surface type.
-
 
 ## -inheritance
 
@@ -92,20 +91,13 @@ Sets the video surface type.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>
- 
-
- 
 

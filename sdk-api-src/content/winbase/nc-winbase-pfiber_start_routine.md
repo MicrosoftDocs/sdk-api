@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 368d98f3-1ecd-47a0-98cc-0636f055ae41
 ms.date: 12/05/2018
 ms.keywords: LPFIBER_START_ROUTINE, PFIBER_START_ROUTINE, PFIBER_START_ROUTINE callback, PFIBER_START_ROUTINE callback function, _win32_fiberproc, base.fiberproc, winbase/PFIBER_START_ROUTINE
-f1_keywords:
-- winbase/PFIBER_START_ROUTINE
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinBase.h
-api_name:
-- PFIBER_START_ROUTINE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFIBER_START_ROUTINE
+ - winbase/PFIBER_START_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinBase.h
+api_name:
+ - PFIBER_START_ROUTINE
 ---
 
 # PFIBER_START_ROUTINE callback function
@@ -49,36 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined function used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function. It serves as the starting address for a fiber. The <b>LPFIBER_START_ROUTINE</b> type defines a pointer to this callback function. 
 <b>FiberProc</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
 
-
-
-
 ### -param lpFiberParameter
-
-
-
-
-
-
-
 
 #### - lpParameter [in]
 
 The fiber data passed using the <i>lpParameter</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a>
 
@@ -89,7 +74,4 @@ The fiber data passed using the <i>lpParameter</i> parameter of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
- 
-
- 
 

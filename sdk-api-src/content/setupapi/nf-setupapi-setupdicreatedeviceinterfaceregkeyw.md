@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 1be942a1-428d-4cc4-bc9f-9f21243c3d21
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDeviceInterfaceRegKey, SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation], SetupDiCreateDeviceInterfaceRegKeyA, SetupDiCreateDeviceInterfaceRegKeyW, devinst.setupdicreatedeviceinterfaceregkey, di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml, setupapi/SetupDiCreateDeviceInterfaceRegKey
-f1_keywords:
-- setupapi/SetupDiCreateDeviceInterfaceRegKey
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiCreateDeviceInterfaceRegKey - SetupDiCreateDeviceInterfaceRegKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiCreateDeviceInterfaceRegKeyW
+ - setupapi/SetupDiCreateDeviceInterfaceRegKeyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiCreateDeviceInterfaceRegKey - SetupDiCreateDeviceInterfaceRegKeyW
 ---
 
 # SetupDiCreateDeviceInterfaceRegKeyW function
@@ -50,57 +51,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiCreateDeviceInterfaceRegKey</b> function creates a registry key for storing information about a device interface and returns a handle to the key.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the interface for which to create a registry key. The device information set must not contain remote elements.
 
-
 ### -param DeviceInterfaceData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i>. This pointer is possibly returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>.
-
 
 ### -param Reserved
 
 Reserved. Must be zero.
 
-
 ### -param samDesired [in]
 
-The registry security access that the caller requests for the key that is being created. For information about registry security access values of type REGSAM, see the Microsoft Windows SDK documentation. 
-
+The registry security access that the caller requests for the key that is being created. For information about registry security access values of type REGSAM, see the Microsoft Windows SDK documentation.
 
 ### -param InfHandle [in, optional]
 
 The handle to an open INF file that contains a <i>DDInstall</i> section to be executed for the newly-created key. This parameter is optional and can be <b>NULL</b>. If this parameter is not <b>NULL</b>, <i>InfSectionName</i> must be specified as well.
 
-
 ### -param InfSectionName [in, optional]
 
 A pointer to the name of an INF <i>DDInstall</i> section in the INF file that is specified by <i>InfHandle</i>. This section is executed for the newly created key. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <i>InfHandle</i> must be specified as well.
 
-
 ## -returns
-
-
 
 If <b>SetupDiCreateDeviceInterfaceRegKey</b> succeeds, the function returns a handle to the requested registry key in which interface information can be stored and retrieved. If <b>SetupDiCreateDeviceInterfaceRegKey</b> fails, the function returns INVALID_HANDLE_VALUE. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> to get extended error information.
 
-
-
-
 ## -remarks
-
-
 
 The caller of this function must be a member of the Administrators group.
 
@@ -121,9 +104,6 @@ The device information set specified by <i>DeviceInfoSet</i> must only contain e
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>
 
 
@@ -133,7 +113,4 @@ The device information set specified by <i>DeviceInfoSet</i> must only contain e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfaceregkey">SetupDiOpenDeviceInterfaceRegKey</a>
- 
-
- 
 

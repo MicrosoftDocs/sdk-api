@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: ccc7f87a-dea3-4a1e-a181-86928e23bd35
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],SendCommand method, IPortableDevice.SendCommand, IPortableDevice::SendCommand, IPortableDeviceSendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::SendCommand, wpdsdk.iportabledevice_sendcommand
-f1_keywords:
-- portabledeviceapi/IPortableDevice.SendCommand
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDevice.SendCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDevice::SendCommand
+ - portabledeviceapi/IPortableDevice::SendCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDevice.SendCommand
 ---
 
 # IPortableDevice::SendCommand
@@ -50,21 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SendCommand</b> method sends a command to the device and retrieves the results synchronously.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Currently not used; specify zero.
-          
-
 
 ### -param pParameters [in]
 
@@ -85,18 +78,12 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iporta
 <td>The PID of the command to send. For example, to reset a device, you would send <b>WPD_COMMAND_COMMON_RESET_DEVICE.pid</b>.</td>
 </tr>
 </table>
- 
-
 
 ### -param ppResults [out]
 
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that indicates the results of the command results, including success or failure, and any command values returned by the device. The caller must release this interface when it is done with it. The retrieved values vary by command; see the appropriate command documentation in <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/commands">Commands</a> to learn what values are returned by each command call.
-          
-
 
 ## -returns
-
-
 
 The returned value indicates success or failure to send a command and return a result from the driver; it does not indicate whether the driver supports the command or if it encountered some error in processing the command. (For more information, see Remarks.) These errors are returned in the <b>HRESULT</b> values of the <i>ppResults</i> parameter. The possible <b>HRESULT</b> values returned by this method include, but are not limited to, those in the following table.
           
@@ -129,14 +116,8 @@ At least one of the arguments was a NULL pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is used to send a command directly to the driver. A command is a <b>PROPERTYKEY</b> that is sent to the driver to indicate the expected action, along with a list of required parameters. Each command has a list of required and optional parameters and results that must be packaged with the command for the driver to perform the requested action. A list of commands defined by Windows Portable Devices, with the required parameters and return values, is given in <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/commands">Commands</a>.
       
@@ -228,17 +209,7 @@ void ResetDevice(IPortableDevice* pDevice)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
- 
-
- 
 

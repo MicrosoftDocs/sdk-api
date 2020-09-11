@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7551e374-8745-405b-9879-d35a92d661ea
 ms.date: 12/05/2018
 ms.keywords: FinishInitialization, FinishInitialization method [Media Foundation], FinishInitialization method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],FinishInitialization method, IOPMVideoOutput.FinishInitialization, IOPMVideoOutput::FinishInitialization, mf.iopmvideooutput_iopmvideooutput__finishinitialization, opmapi/IOPMVideoOutput::FinishInitialization
-f1_keywords:
-- opmapi/IOPMVideoOutput.FinishInitialization
-dev_langs:
-- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- opmapi.h
-api_name:
-- IOPMVideoOutput.FinishInitialization
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOPMVideoOutput::FinishInitialization
+ - opmapi/IOPMVideoOutput::FinishInitialization
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - opmapi.h
+api_name:
+ - IOPMVideoOutput.FinishInitialization
 ---
 
 # IOPMVideoOutput::FinishInitialization
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Completes the initialization sequence for an Output Protection Manager (OPM) session.
 
-
 ## -parameters
-
-
-
 
 ### -param pParameters [in]
 
 Pointer to an <a href="/windows/win32/api/ksopmapi/ns-ksopmapi-opm_encrypted_initialization_parameters">OPM_ENCRYPTED_INITIALIZATION_PARAMETERS</a> structure. Initialize this structure as described in the Remarks session.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT. </b>Possible values include, but are not limited to, those in the following table.
 
@@ -108,14 +101,8 @@ The encrypted parameters in <i>pParameters</i> are incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is equivalent to the <b>IAMCertifiedOutputProtection::SessionSequenceStart</b> method in Certified Output Protection Protocol (COPP).
 
@@ -131,20 +118,11 @@ Encrypt this number with RAEAS-OAEP, encryption using the display driver's publi
 
 The application must use cryptographically secure random numbers. The <b>CryptGenRandom</b> function is recommended, although not required.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
- 
-
- 
 

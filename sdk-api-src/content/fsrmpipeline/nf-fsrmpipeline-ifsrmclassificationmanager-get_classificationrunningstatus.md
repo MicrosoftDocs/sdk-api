@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: f0a10671-9383-4935-b773-31f047732e27
 ms.date: 12/05/2018
 ms.keywords: ClassificationRunningStatus property [File Server Resource Manager], ClassificationRunningStatus property [File Server Resource Manager],FsrmClassificationManager class, ClassificationRunningStatus property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationRunningStatus property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager.ClassificationRunningStatus, IFsrmClassificationManager.get_ClassificationRunningStatus, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager2.ClassificationRunningStatus, IFsrmClassificationManager2::get_ClassificationRunningStatus, IFsrmClassificationManager::ClassificationRunningStatus, IFsrmClassificationManager::get_ClassificationRunningStatus, fs.ifsrmclassificationmanager_classificationrunningstatus, fsrm.ifsrmclassificationmanager_classificationrunningstatus, fsrmpipeline/IFsrmClassificationManager2::ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager::ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager::get_ClassificationRunningStatus, get_ClassificationRunningStatus
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager.ClassificationRunningStatus
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager.ClassificationRunningStatus
-- IFsrmClassificationManager.get_ClassificationRunningStatus
-- IFsrmClassificationManager2.ClassificationRunningStatus
-- IFsrmClassificationManager2.get_ClassificationRunningStatus
-- FsrmClassificationManager.ClassificationRunningStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager::get_ClassificationRunningStatus
+ - fsrmpipeline/IFsrmClassificationManager::get_ClassificationRunningStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager.ClassificationRunningStatus
+ - IFsrmClassificationManager.get_ClassificationRunningStatus
+ - IFsrmClassificationManager2.ClassificationRunningStatus
+ - IFsrmClassificationManager2.get_ClassificationRunningStatus
+ - FsrmClassificationManager.ClassificationRunningStatus
 ---
 
 # IFsrmClassificationManager::get_ClassificationRunningStatus
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -62,24 +62,14 @@ The running status of the classification.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Used regardless of whether classification was scheduled (using the Task Scheduler) or run on demand (using 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-runclassification">IFsrmClassificationManager::RunClassification</a>).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
 
@@ -106,7 +96,4 @@ Used regardless of whether classification was scheduled (using the Task Schedule
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
 

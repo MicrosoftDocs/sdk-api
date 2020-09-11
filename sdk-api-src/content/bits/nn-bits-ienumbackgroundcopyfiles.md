@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 831998ba-601c-43c4-ba27-faff741f8eb4
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS], IEnumBackgroundCopyFiles interface [BITS],described, _drz_ienumbackgroundcopyfiles, bits.ienumbackgroundcopyfiles, bits/IEnumBackgroundCopyFiles
-f1_keywords:
-- bits/IEnumBackgroundCopyFiles
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IEnumBackgroundCopyFiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBackgroundCopyFiles
+ - bits/IEnumBackgroundCopyFiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IEnumBackgroundCopyFiles
 ---
 
 # IEnumBackgroundCopyFiles interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>IEnumBackgroundCopyFiles</b> interface to enumerate the files that a job contains. To get an 
 <b>IEnumBackgroundCopyFiles</b> interface pointer, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a> method.
-
 
 ## -inheritance
 
@@ -116,20 +115,13 @@ Skips a specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
- 
-
- 
 

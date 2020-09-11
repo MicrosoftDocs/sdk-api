@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e2cdff59-1339-4d00-9bbc-e34e773da1c2
 ms.date: 12/05/2018
 ms.keywords: GetPossibleActions, GetPossibleActions method [Windows Shell], GetPossibleActions method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetPossibleActions method, IShellApp.GetPossibleActions, IShellApp::GetPossibleActions, inet_IShellApp_GetPossibleActions, shappmgr/IShellApp::GetPossibleActions, shell.IShellApp_GetPossibleActions
-f1_keywords:
-- shappmgr/IShellApp.GetPossibleActions
-dev_langs:
-- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellApp.GetPossibleActions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellApp::GetPossibleActions
+ - shappmgr/IShellApp::GetPossibleActions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellApp.GetPossibleActions
 ---
 
 # IShellApp::GetPossibleActions
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a bitmask of management actions allowed for an application.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwActions [out]
 
@@ -64,31 +60,17 @@ Type: <b>DWORD*</b>
 
 A pointer to a variable of type <b>DWORD</b> that returns the bitmask of supported actions. The bit flags are described in <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ne-shappmgr-appactionflags">APPACTIONFLAGS</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Of the set of <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ne-shappmgr-appactionflags">APPACTIONFLAGS</a> bitmasks, Add/Remove Programs only recognizes APPACTION_INSTALL and APPACTION_ADDLATER.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
@@ -99,7 +81,4 @@ Of the set of <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/n
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
- 
-
- 
 

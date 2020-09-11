@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: aa7513d4-9341-4ddf-ac82-54eb0c6eb5f4
 ms.date: 12/05/2018
 ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [windows Media Format], IAMWMBufferPass interface [windows Media Format],described, IAMWMBufferPassInterface, dshowasf/IAMWMBufferPass, wmformat.iamwmbufferpass
-f1_keywords:
-- dshowasf/IAMWMBufferPass
-dev_langs:
-- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dshowasf.h
-api_name:
-- IAMWMBufferPass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMWMBufferPass
+ - dshowasf/IAMWMBufferPass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dshowasf.h
+api_name:
+ - IAMWMBufferPass
 ---
 
 # IAMWMBufferPass interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAMWMBufferPass</b> interface is implemented on the output pins of the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-asf-reader-filter">WM ASF Reader</a> and the input pins of the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-asf-writer-filter">WM ASF Writer</a>. Applications use it to give the pin a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798277(v=vs.85)">IAMWMBufferPassCallback</a> interface on an application-defined object that gets and sets properties and data unit extensions on individual samples in a stream. One common use for this interface is to force key-frame insertion in a variable bit rate video stream during file writing. To do this, you must set the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">cleanpoint</a> property on individual <b>INSSBuffer3</b> samples.
-
-
-
 
 ## -inheritance
 
@@ -80,16 +76,9 @@ Used by applications to provide the WM ASF Writer or <a href="https://docs.micro
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/directshow-qasf-reference">DirectShow QASF Reference</a>
- 
-
- 
 

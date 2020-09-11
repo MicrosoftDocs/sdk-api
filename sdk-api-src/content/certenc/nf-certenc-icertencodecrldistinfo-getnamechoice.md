@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeCRLDistInfo object, GetNameChoice method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameChoice method, ICertEncodeCRLDistInfo.GetNameChoice, ICertEncodeCRLDistInfo::GetNameChoice, _certsrv_icertencodecrldistinfo_getnamechoice, certenc/ICertEncodeCRLDistInfo::GetNameChoice, security.icertencodecrldistinfo_getnamechoice
-f1_keywords:
-- certenc/ICertEncodeCRLDistInfo.GetNameChoice
-dev_langs:
-- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenc.dll
-api_name:
-- ICertEncodeCRLDistInfo.GetNameChoice
-- CCertEncodeCRLDistInfo.GetNameChoice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertEncodeCRLDistInfo::GetNameChoice
+ - certenc/ICertEncodeCRLDistInfo::GetNameChoice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenc.dll
+api_name:
+ - ICertEncodeCRLDistInfo.GetNameChoice
+ - CCertEncodeCRLDistInfo.GetNameChoice
 ---
 
 # ICertEncodeCRLDistInfo::GetNameChoice
@@ -50,33 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNameChoice</b> method returns the name choice at a specified index of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution information point.
 
-
 ## -parameters
-
-
-
 
 ### -param DistPointIndex [in]
 
 Specifies the index of the distribution point for which to get a name choice. The first value is at index zero.
 
-
 ### -param NameIndex [in]
 
 Specifies the index of the name choice entry to get. The first value is at index zero.
-
 
 ### -param pNameChoice [out]
 
 A pointer to a <b>Long</b> that represents the name choice.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -136,22 +127,12 @@ The name is a registered <a href="https://docs.microsoft.com/windows/desktop/Sec
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-setnameentry">ICertEncodeCRLDistInfo::SetNameEntry</a>
- 
-
- 
 

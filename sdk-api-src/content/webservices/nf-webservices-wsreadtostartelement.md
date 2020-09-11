@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 919a3836-6a26-4d47-b123-24856b20566d
 ms.date: 12/05/2018
 ms.keywords: WsReadToStartElement, WsReadToStartElement function [Web Services for Windows], webservices/WsReadToStartElement, wsw.wsreadtostartelement
-f1_keywords:
-- webservices/WsReadToStartElement
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReadToStartElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReadToStartElement
+ - webservices/WsReadToStartElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReadToStartElement
 ---
 
 # WsReadToStartElement function
@@ -49,34 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Advances the reader to the next start element skipping whitespace and comments if necessary.  Optionally, 
         it may also verify the localName and namespace of the element.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param reader [in]
 
 The reader which is to read to the start element.
-        
-
 
 ### -param localName [in, optional]
 
 The localName name that the element should be.  If <b>NULL</b>, any localName is permitted.
-        
-
 
 ### -param ns [in, optional]
 
 The namespace that the element should be.  If <b>NULL</b>, any namespace is permitted.
-        
-
 
 ### -param found
 
@@ -84,16 +73,11 @@ If specified then this will indicate whether an element is found and the localNa
           If not specified, and an element is not found or the localName and namespace don't match, then it will return 
           <b>WS_E_INVALID_FORMAT</b>. (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-        
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -125,14 +109,8 @@ A quota was exceeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Consider the following XML:
       
@@ -195,7 +173,4 @@ If <b>WsReadToStartElement</b> indicates an element has been found, then <a href
       
 
 This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
-      
-
-
 

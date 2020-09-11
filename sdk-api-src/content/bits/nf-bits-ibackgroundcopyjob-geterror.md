@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 2ad4c913-2d1e-4490-968c-960178a57e3b
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetError method, IBackgroundCopyJob.GetError, IBackgroundCopyJob::GetError, _drz_ibackgroundcopyjob_geterror, bits.ibackgroundcopyjob_geterror, bits/IBackgroundCopyJob::GetError
-f1_keywords:
-- bits/IBackgroundCopyJob.GetError
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.GetError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::GetError
+ - bits/IBackgroundCopyJob::GetError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.GetError
 ---
 
 # IBackgroundCopyJob::GetError
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the error interface after an error occurs.
 
 BITS generates an error object when the state of the job is 
 <a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE_ERROR</a> or BG_JOB_STATE_TRANSIENT_ERROR. The service does not create an error object when a call to an <b>IBackgroundCopyXXXX</b> interface method fails. The error object is available until BITS begins transferring data (the state of the job changes to BG_JOB_STATE_TRANSFERRING) for the job or until your application exits.
 
-
 ## -parameters
-
-
-
 
 ### -param ppError [out]
 
 Error interface that provides the error code, a description of the error, and the context in which the error occurred. This parameter also  identifies the file being transferred at the time the error occurred. Release <i>ppError</i> when done.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -100,14 +93,8 @@ The error interface is available only after an error occurs (BG_JOB_STATE_ERROR 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The job is placed in an error state on fatal errors or after the 
 no-progress-timeout  period expires for transient errors (this period is retrieved from the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">GetNoProgressTimeout</a> method). Use one of the following options to determine if the job is in error:
@@ -147,12 +134,7 @@ See the example code in the
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-joberror">IBackgroundCopyCallback::JobError</a>
 
@@ -163,7 +145,4 @@ See the example code in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">IBackgroundCopyJob::GetState</a>
- 
-
- 
 

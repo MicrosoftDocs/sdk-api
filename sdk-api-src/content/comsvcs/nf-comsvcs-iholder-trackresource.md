@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 8c87727a-fefd-4ef6-964c-3379d22178c2
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],TrackResource method, IHolder.TrackResource, IHolder::TrackResource, TrackResource, TrackResource method [COM+], TrackResource method [COM+],IHolder interface, _dtc_IHolder_TrackResource, comsvcs/IHolder::TrackResource, cos.iholder_trackresource
-f1_keywords:
-- comsvcs/IHolder.TrackResource
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder.TrackResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder::TrackResource
+ - comsvcs/IHolder::TrackResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder.TrackResource
 ---
 
 # IHolder::TrackResource
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Tracks the resource.
 
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__IHolder0003 [in]
 
 The handle of the resource to be tracked. The Resource Dispenser has already created this resource before calling <b>TrackResource</b>.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -108,14 +101,8 @@ The method failed. The resource has not been tracked. The likely cause is that t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some resources are not kept in inventory; they are always manufactured on demand. The Holder is used only as a mechanism to automatically free the resources left at the end of an object's lifetime.
 
@@ -132,12 +119,7 @@ This resource is eventually destroyed after both of the following are true:
 <li>The transaction that the resource was enlisted in (if any) is done.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
@@ -148,7 +130,4 @@ This resource is eventually destroyed after both of the following are true:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
- 
-
- 
 

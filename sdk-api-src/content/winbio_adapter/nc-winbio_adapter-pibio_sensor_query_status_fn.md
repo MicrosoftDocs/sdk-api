@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 88c22183-5bc8-4ac9-9048-72ee7a861b76
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_QUERY_STATUS_FN, PIBIO_SENSOR_QUERY_STATUS_FN callback, SensorAdapterQueryStatus, SensorAdapterQueryStatus callback function [Windows Biometric Framework API], secbiomet.sensoradapterquerystatus, winbio_adapter/SensorAdapterQueryStatus
-f1_keywords:
-- winbio_adapter/SensorAdapterQueryStatus
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- SensorAdapterQueryStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_SENSOR_QUERY_STATUS_FN
+ - winbio_adapter/PIBIO_SENSOR_QUERY_STATUS_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - SensorAdapterQueryStatus
 ---
 
 # PIBIO_SENSOR_QUERY_STATUS_FN callback function
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to retrieve information about the current status of the sensor device.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-
-
 ### -param Status [out]
 
 Pointer to a WINBIO_SENSOR_STATUS value that receives the status information.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -103,18 +94,8 @@ The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
 

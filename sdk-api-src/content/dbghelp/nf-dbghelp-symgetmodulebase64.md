@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 964d0fdb-d982-4509-8c49-0ad0a3491226
 ms.date: 12/05/2018
 ms.keywords: SymGetModuleBase, SymGetModuleBase function, SymGetModuleBase64, SymGetModuleBase64 function, _win32_symgetmodulebase64, base.symgetmodulebase64, dbghelp/SymGetModuleBase, dbghelp/SymGetModuleBase64
-f1_keywords:
-- dbghelp/SymGetModuleBase64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,70 +25,51 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymGetModuleBase64
-- SymGetModuleBase
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymGetModuleBase64
+ - dbghelp/SymGetModuleBase64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymGetModuleBase64
+ - SymGetModuleBase
 ---
-
-# SymGetModuleBase64 function
-
 
 ## -description
 
-
 Retrieves the base address of the module that contains the specified address.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
-
-### -param qwAddr
-
-TBD
-
-
-
-
-#### - dwAddr [in]
+### -param qwAddr [in]
 
 The virtual address that is contained in one of the modules loaded by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero virtual address. The value is the base address of the module containing the address specified by the <i>dwAddr</i> parameter.
 
 If the function fails, the return value is zero. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The module table is searched for a module that contains <i>dwAddr</i>. The module is located based on the load address and size of each module.
 
@@ -115,14 +92,7 @@ SymGetModuleBase(
 #endif
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -133,7 +103,4 @@ SymGetModuleBase(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 37753a31-0ef8-4fb9-b542-a91ae47ed417
 ms.date: 12/05/2018
 ms.keywords: GPMGPOLinksCollection, IGPMGPOLinksCollection, IGPMGPOLinksCollection interface [GPMC], IGPMGPOLinksCollection interface [GPMC],described, _win32_igpmgpolinkscollection, gpmc.igpmgpolinkscollection, gpmgmt/IGPMGPOLinksCollection
-f1_keywords:
-- gpmgmt/IGPMGPOLinksCollection
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMGPOLinksCollection
-- IGPMGPOLinksCollection.Count
-- IGPMGPOLinksCollection.get_Count
-- IGPMGPOLinksCollection.Item
-- IGPMGPOLinksCollection.get_Item
-- GPMGPOLinksCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMGPOLinksCollection
+ - gpmgmt/IGPMGPOLinksCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMGPOLinksCollection
+ - IGPMGPOLinksCollection.Count
+ - IGPMGPOLinksCollection.get_Count
+ - IGPMGPOLinksCollection.Item
+ - IGPMGPOLinksCollection.get_Item
+ - GPMGPOLinksCollection
 ---
 
 # IGPMGPOLinksCollection interface
@@ -54,10 +55,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMGPOLinksCollection</b> interface contains methods that enable applications to access a collection of GPO links when using the Group Policy Management (GPMC) interfaces.
-
 
 ## -inheritance
 
@@ -111,13 +110,9 @@ A specific GPO link from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -128,7 +123,4 @@ A specific GPO link from the collection.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a>
- 
-
- 
 

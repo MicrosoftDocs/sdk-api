@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: cf4dea10-552d-4730-a452-9302ef3761ff
 ms.date: 12/05/2018
 ms.keywords: FlushIpNetTable, FlushIpNetTable function [IP Helper], _iphlp_flushipnettable, iphlp.flushipnettable, iphlpapi/FlushIpNetTable
-f1_keywords:
-- iphlpapi/FlushIpNetTable
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- FlushIpNetTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FlushIpNetTable
+ - iphlpapi/FlushIpNetTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - FlushIpNetTable
 ---
 
 # FlushIpNetTable function
@@ -49,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FlushIpNetTable</b> function deletes all ARP entries for the specified interface from the ARP table on the local computer.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param dwIfIndex [in]
 
 The index of the interface for which to delete all ARP entries.
 
-
 ## -returns
-
-
 
 The function returns <b>NO_ERROR</b> (zero) if the function is successful. 
 
@@ -124,14 +116,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To retrieve the ARP table, call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a> function. 
 
@@ -142,12 +128,7 @@ On Windows Vista and later, the <b>FlushIpNetTable</b> function can only be cal
 <div class="alert"><b>Note</b>  This function executes a privileged operation. For this function to execute successfully, the caller must be logged on as a member of the Administrators group or the NetworkConfigurationOperators group.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
 
@@ -170,7 +151,4 @@ On Windows Vista and later, the <b>FlushIpNetTable</b> function can only be cal
 
 
 <a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
- 
-
- 
 

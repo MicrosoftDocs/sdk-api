@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 14f45bdc-2271-459d-b165-c860c8fc3e0b
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IBasicVideo interface [DirectShow],described, IBasicVideoInterface, control/IBasicVideo, dshow.ibasicvideo
-f1_keywords:
-- control/IBasicVideo
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicVideo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicVideo
+ - control/IBasicVideo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicVideo
 ---
 
 # IBasicVideo interface
 
 
 ## -description
-
-
 
 The <code>IBasicVideo</code> interface sets video properties such as the destination and source rectangles. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter and Video Mixing Renderer filters implement this interface, but the interface is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
 
@@ -66,9 +65,6 @@ In other words, the video renderer crops the image to the source rectangle, and 
 Properties set on the Video Renderer persist between successive connections and disconnections.
 
 <b>Error codes</b>: If the video renderer filter is not connected to another filter, all methods return the error code VFW_E_NOT_CONNECTED. For the Filter Graph Manager's implementation, if the graph does not contain a video renderer filter, all methods return E_NOINTERFACE. Note that the Filter Graph Manager exposes the interface even when the graph does not contain a video renderer, so an application can query for the interface before it builds the graph.
-
-
-
 
 ## -inheritance
 
@@ -373,16 +369,9 @@ Sets the source rectangle.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 00176446-517B-40B8-AF9A-D61B5B033AE1
 ms.date: 12/05/2018
 ms.keywords: ntohd, ntohd function [Winsock], winsock.ntohd, winsock2/ntohd
-f1_keywords:
-- winsock2/ntohd
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsock2.h
-api_name:
-- ntohd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ntohd
+ - winsock2/ntohd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsock2.h
+api_name:
+ - ntohd
 ---
 
 # ntohd function
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ntohd</b> inline function converts an <b>unsigned __int64</b> from TCP/IP network order to host byte order (which is little-endian on Intel processors) and returns a  <b>double</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param Value
 
 An <b>unsigned __int64</b> number in TCP/IP network byte order.
 
-
 ## -returns
-
-
 
 The 
 <b>ntohd</b> function returns the value supplied in the <i>value</i> parameter with the byte order reversed. If  <i>value</i> is already in host byte order, then this function will reverse it. It is up to the application to determine if the byte order must be reversed.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>ntohd</b> inline function takes an <b>unsigned __int64</b> that contains number in TCP/IP network byte order (the AF_INET or AF_INET6 address family) and returns a <b>double</b>  that contains a number in host byte order. 
@@ -91,13 +79,7 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
@@ -160,7 +142,4 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
- 
-
- 
 

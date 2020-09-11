@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: 7ec649d2-9fd7-4c07-ad64-f3bc4acfc40d
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition], IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],described, IPhotoAcquireDeviceSelectionDialogInterface, photoacquire/IPhotoAcquireDeviceSelectionDialog, picacq.iphotoacquiredeviceselectiondialog
-f1_keywords:
-- photoacquire/IPhotoAcquireDeviceSelectionDialog
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- photoacquire.h
-api_name:
-- IPhotoAcquireDeviceSelectionDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireDeviceSelectionDialog
+ - photoacquire/IPhotoAcquireDeviceSelectionDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - photoacquire.h
+api_name:
+ - IPhotoAcquireDeviceSelectionDialog
 ---
 
 # IPhotoAcquireDeviceSelectionDialog interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Provides a dialog box for selecting the device to acquire images from.
-
-
-
 
 ## -inheritance
 
@@ -98,16 +94,9 @@ Sets the title of the device selection dialog box.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
- 
-
- 
 

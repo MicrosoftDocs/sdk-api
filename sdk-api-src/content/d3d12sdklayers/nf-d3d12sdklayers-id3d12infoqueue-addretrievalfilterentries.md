@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 66430A0A-0279-4D2D-A34D-D49C7940DB87
 ms.date: 12/05/2018
 ms.keywords: AddRetrievalFilterEntries, AddRetrievalFilterEntries method, AddRetrievalFilterEntries method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddRetrievalFilterEntries method, ID3D12InfoQueue.AddRetrievalFilterEntries, ID3D12InfoQueue::AddRetrievalFilterEntries, d3d12sdklayers/ID3D12InfoQueue::AddRetrievalFilterEntries, direct3d12.id3d12infoqueue_addretrievalfilterentries
-f1_keywords:
-- d3d12sdklayers/ID3D12InfoQueue.AddRetrievalFilterEntries
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12sdklayers.h
-api_name:
-- ID3D12InfoQueue.AddRetrievalFilterEntries
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12InfoQueue::AddRetrievalFilterEntries
+ - d3d12sdklayers/ID3D12InfoQueue::AddRetrievalFilterEntries
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12sdklayers.h
+api_name:
+ - ID3D12InfoQueue.AddRetrievalFilterEntries
 ---
 
 # ID3D12InfoQueue::AddRetrievalFilterEntries
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Add storage filters to the top of the retrieval-filter stack.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pFilter [in]
 
@@ -66,24 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/
 
 Array of retrieval filters.
 
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>. 
-          
-
-
-
+This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
 ## -remarks
-
-
 
 The following code example shows how to use this method:
 
@@ -114,15 +97,7 @@ hr = infoQueue-&gt;AddRetrievalFilterEntries( &amp;filter );
  
 </code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>
- 
-
- 
 

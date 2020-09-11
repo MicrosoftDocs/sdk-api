@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 219fc899-84ee-474f-9f86-6ebf9c721810
 ms.date: 12/05/2018
 ms.keywords: SetResourceManagerCompletionPort, SetResourceManagerCompletionPort function [Files], fs.setresourcemanagercompletionport, ktmw32/SetResourceManagerCompletionPort
-f1_keywords:
-- ktmw32/SetResourceManagerCompletionPort
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ktmw32.dll
-api_name:
-- SetResourceManagerCompletionPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetResourceManagerCompletionPort
+ - ktmw32/SetResourceManagerCompletionPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ktmw32.dll
+api_name:
+ - SetResourceManagerCompletionPort
 ---
 
 # SetResourceManagerCompletionPort function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates the specified I/O completion port with the specified resource manager (RM). This port receives all notifications for the RM.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceManagerHandle [in]
 
 A handle to the resource manager.
 
-
 ### -param IoCompletionPortHandle [in]
 
 A handle to the I/O completion port.
-
 
 ### -param CompletionKey [in]
 
 The user-defined identifier. Typically, it is used to associate the receive notification with a specific resource manager.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -83,24 +74,13 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 The following list identifies the possible error codes:
 
-
-
-
 ## -remarks
-
-
 
 This function must be used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanagerasync">GetNotificationResourceManagerAsync</a> function, which provides the buffers that KTM uses to deliver notifications asynchronously. These functions provide a different way to receive notifications from KTM. You can use these two functions instead of the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanager">GetNotificationResourceManager</a> function.
 
 This function must be called before calling <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanagerasync">GetNotificationResourceManagerAsync</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanager">GetNotificationResourceManager</a>
 
@@ -111,7 +91,4 @@ This function must be called before calling <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
- 
-
- 
 

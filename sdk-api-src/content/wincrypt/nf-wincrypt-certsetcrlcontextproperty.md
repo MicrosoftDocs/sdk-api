@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7e4a0a39-ce55-4171-9b66-31c1c28d895f
 ms.date: 12/05/2018
 ms.keywords: CERT_ACCESS_STATE_PROP_ID, CERT_ARCHIVED_PROP_ID, CERT_AUTO_ENROLL_PROP_ID, CERT_CTL_USAGE_PROP_ID, CERT_DESCRIPTION_PROP_ID, CERT_ENHKEY_USAGE_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_ISSUER_CHAIN_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID, CERT_ISSUER_CHAIN_SIGN_HASH_CNG_ALG_PROP_ID, CERT_ISSUER_PUB_KEY_BIT_LENGTH_PROP_ID, CERT_KEY_CONTEXT_PROP_ID, CERT_KEY_IDENTIFIER_PROP_ID, CERT_KEY_PROV_HANDLE_PROP_ID, CERT_KEY_PROV_INFO_PROP_ID, CERT_KEY_SPEC_PROP_ID, CERT_MD5_HASH_PROP_ID, CERT_NEXT_UPDATE_LOCATION_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_SHA1_HASH_PROP_ID, CERT_SIGNATURE_HASH_PROP_ID, CERT_SIGN_HASH_CNG_ALG_PROP_ID, CertSetCRLContextProperty, CertSetCRLContextProperty function [Security], _crypto2_certsetcrlcontextproperty, security.certsetcrlcontextproperty, wincrypt/CertSetCRLContextProperty
-f1_keywords:
-- wincrypt/CertSetCRLContextProperty
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertSetCRLContextProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSetCRLContextProperty
+ - wincrypt/CertSetCRLContextProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertSetCRLContextProperty
 ---
 
 # CertSetCRLContextProperty function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSetCRLContextProperty</b> function sets an extended property for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context.
 
-
 ## -parameters
-
-
-
 
 ### -param pCrlContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure.
-
 
 ### -param dwPropId [in]
 
@@ -424,7 +419,6 @@ The user can define additional <i>dwPropId</i> types by using <b>DWORD</b> value
 
 For all the other property identifiers, <i>pvData</i> points to an encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
-
 ### -param dwFlags [in]
 
 CERT_STORE_NO_CRYPT_RELEASE_FLAG can be set for the CERT_KEY_PROV_HANDLE_PROP_ID or CERT_KEY_CONTEXT_PROP_ID <i>dwPropId</i> properties. 
@@ -435,7 +429,6 @@ CERT_STORE_NO_CRYPT_RELEASE_FLAG can be set for the CERT_KEY_PROV_HANDLE_PROP_ID
 If the CERT_SET_PROPERTY_IGNORE_PERSIST_ERROR_FLAG value is set, any provider-write errors are ignored and the cached context's properties are always set.
 
 If the CERT_SET_PROPERTY_INHIBIT_PERSIST_FLAG is set, any property set is not persisted.
-
 
 ### -param pvData [in]
 
@@ -448,8 +441,6 @@ A pointer to a data type that is determined by the value passed in <i>dwPropId</
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -473,14 +464,8 @@ The property is not valid. The identifier specified was greater than 0x0000FFFF,
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a property already exists, its old value is replaced.
 
@@ -492,12 +477,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a>
 
@@ -552,7 +532,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 1789b25a-e9a0-42a3-97c2-077e902a2f41
 ms.date: 12/05/2018
 ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAuthenticationLevelDefault, WbemAuthenticationLevelEnum, WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation], WbemAuthenticationLevelNone, WbemAuthenticationLevelPkt, WbemAuthenticationLevelPktIntegrity, WbemAuthenticationLevelPktPrivacy, _hmm_wbemauthenticationlevelenum, wbemdisp/WbemAuthenticationLevelCall, wbemdisp/WbemAuthenticationLevelConnect, wbemdisp/WbemAuthenticationLevelDefault, wbemdisp/WbemAuthenticationLevelEnum, wbemdisp/WbemAuthenticationLevelNone, wbemdisp/WbemAuthenticationLevelPkt, wbemdisp/WbemAuthenticationLevelPktIntegrity, wbemdisp/WbemAuthenticationLevelPktPrivacy, wmi.wbemauthenticationlevelenum
-f1_keywords:
-- wbemdisp/WbemAuthenticationLevelEnum
-dev_langs:
-- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wbemdisp.h
-api_name:
-- WbemAuthenticationLevelEnum
 targetos: Windows
 req.typenames: WbemAuthenticationLevelEnum
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WbemAuthenticationLevelEnum
+ - wbemdisp/WbemAuthenticationLevelEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wbemdisp.h
+api_name:
+ - WbemAuthenticationLevelEnum
 ---
 
 # WbemAuthenticationLevelEnum enumeration
 
 
 ## -description
-
 
 The 
 <b>WbemAuthenticationLevelEnum</b> constants define the security authentication levels. These constants are used with 
@@ -99,31 +99,19 @@ For more information, see
 
 ## -enum-fields
 
-
-
-
 ### -field wbemAuthenticationLevelDefault
-
 
 ### -field wbemAuthenticationLevelNone
 
-
 ### -field wbemAuthenticationLevelConnect
-
 
 ### -field wbemAuthenticationLevelCall
 
-
 ### -field wbemAuthenticationLevelPkt
-
 
 ### -field wbemAuthenticationLevelPktIntegrity
 
-
 ### -field wbemAuthenticationLevelPktPrivacy
-
-
-
 
 ### -field WbemAuthenticationLevelCall
 
@@ -131,13 +119,11 @@ Short name: Call
 
 Authenticates only at the beginning of each call when the server receives the request.
 
-
 ### -field WbemAuthenticationLevelConnect
 
 Short name: Connect
 
 Authenticates the credentials of the client only when the client establishes a relationship with the server.
-
 
 ### -field WbemAuthenticationLevelDefault
 
@@ -145,13 +131,11 @@ Short name: Default
 
 WMI uses the default Windows Authentication setting.
 
-
 ### -field WbemAuthenticationLevelNone
 
 Short name: None
 
 Uses no authentication.
-
 
 ### -field WbemAuthenticationLevelPkt
 
@@ -159,13 +143,11 @@ Short name: Pkt
 
 Authenticates that all data received is from the expected client.
 
-
 ### -field WbemAuthenticationLevelPktIntegrity
 
 Short name: PktIntegrity
 
 Authenticates and verifies that none of the data transferred between client and server has been modified.
-
 
 ### -field WbemAuthenticationLevelPktPrivacy
 
@@ -173,11 +155,7 @@ Short name: PktPrivacy
 
 Authenticates all previous impersonation levels and encrypts the argument value of each remote procedure call.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/constructing-a-moniker-string">Constructing a Moniker String</a>
 
@@ -196,7 +174,4 @@ Authenticates all previous impersonation levels and encrypts the argument value 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript">Setting the Default Process Security Level Using VBScript</a>
- 
-
- 
 

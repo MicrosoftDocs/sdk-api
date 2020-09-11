@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: a9bc52dc-47f9-4b20-b98d-0287464a89e5
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContext, IMbnConnectionContext interface [Microsoft Broadband Networks], IMbnConnectionContext interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontext, mbnapi/IMbnConnectionContext
-f1_keywords:
-- mbnapi/IMbnConnectionContext
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionContext
+ - mbnapi/IMbnConnectionContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionContext
 ---
 
 # IMbnConnectionContext interface
@@ -55,7 +56,6 @@ ms.custom: 19H1
 Manages connection contexts.
 
 A connection context is an abstraction of a specific set of network configuration parameters for setting up a virtual circuit or flow on top of the physical Mobile Broadband connection.
-
 
 ## -inheritance
 
@@ -90,14 +90,9 @@ Adds or updates a provisioned context.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.
-
-
 

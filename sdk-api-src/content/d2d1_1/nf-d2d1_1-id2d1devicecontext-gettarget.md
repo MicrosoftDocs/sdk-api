@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: a70307db-863a-4c59-a327-fb71a5d58f84
 ms.date: 12/05/2018
 ms.keywords: GetTarget, GetTarget method [Direct2D], GetTarget method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetTarget method, ID2D1DeviceContext.GetTarget, ID2D1DeviceContext::GetTarget, d2d1_1/ID2D1DeviceContext::GetTarget, direct2d.id2d1devicecontext_gettarget
-f1_keywords:
-- d2d1_1/ID2D1DeviceContext.GetTarget
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DeviceContext.GetTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DeviceContext::GetTarget
+ - d2d1_1/ID2D1DeviceContext::GetTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DeviceContext.GetTarget
 ---
 
 # ID2D1DeviceContext::GetTarget
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the target currently associated with the device context.
 
-
 ## -parameters
-
-
-
 
 ### -param image [out, optional]
 
@@ -64,10 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id
 
 When this method returns, contains the address of a pointer to the target currently associated with the device context.
 
-
 ## -remarks
-
-
 
 If a target is not associated with the device context, <i>target</i> will contain <b>NULL</b> when the methods returns.
 
@@ -125,13 +118,7 @@ Calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn
 
 Although the target can be a command list, it cannot be any other type of image. It cannot be the output image of an effect.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
 
@@ -146,7 +133,4 @@ Although the target can be a command list, it cannot be any other type of image.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget">ID2D1DeviceContext::SetTarget</a>
- 
-
- 
 

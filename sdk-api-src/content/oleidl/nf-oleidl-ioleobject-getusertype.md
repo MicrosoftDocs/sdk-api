@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 8ffffa01-d118-4955-84d1-a4659ba9ddc9
 ms.date: 12/05/2018
 ms.keywords: GetUserType, GetUserType method [COM], GetUserType method [COM],IOleObject interface, IOleObject interface [COM],GetUserType method, IOleObject.GetUserType, IOleObject::GetUserType, _ole_ioleobject_getusertype, com.ioleobject_getusertype, oleidl/IOleObject::GetUserType
-f1_keywords:
-- oleidl/IOleObject.GetUserType
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.GetUserType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::GetUserType
+ - oleidl/IOleObject::GetUserType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.GetUserType
 ---
 
 # IOleObject::GetUserType
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user-type name of an object for display in user-interface elements such as menus, list boxes, and dialog boxes.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFormOfType [in]
 
 The form of the user-type name to be presented to users. Possible values are obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-userclasstype">USERCLASSTYPE</a> enumeration.
 
-
 ### -param pszUserType [out]
 
 Address of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-calpolestr">LPOLESTR</a> pointer variable that receives a pointer to the user type string. The caller must free <i>pszUserType</i> using the current <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> instance. If an error occurs, the implementation must set <i>pszUserType</i> to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -91,14 +83,8 @@ Delegate to the default handler's implementation using the registry to provide t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Containers call <b>IOleObject::GetUserType</b> in order to represent embedded objects in list boxes, menus, and dialog boxes by their normal, user-recognizable names. Examples include "Word Document," "Excel Chart," and "Paintbrush Object." The information returned by <b>IOleObject::GetUserType</b> is the user-readable equivalent of the binary class identifier returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getuserclassid">IOleObject::GetUserClassID</a>.
 
@@ -113,13 +99,7 @@ You can use the implementation provided by the default handler by returning OLE_
 
 You can call the OLE helper function <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a> to return the appropriate user type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
@@ -142,7 +122,4 @@ You can call the OLE helper function <a href="https://docs.microsoft.com/windows
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-userclasstype">USERCLASSTYPE</a>
- 
-
- 
 

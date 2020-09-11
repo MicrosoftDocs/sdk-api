@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
 ms.date: 12/05/2018
 ms.keywords: CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW
-f1_keywords:
-- synchapi/CreateEventEx
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CreateEventEx
-- CreateEventExA
-- CreateEventExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateEventExA
+ - synchapi/CreateEventExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CreateEventEx
+ - CreateEventExA
+ - CreateEventExW
 ---
 
 # CreateEventExA function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a named or unnamed event object and returns a handle to the object.
 
-
 ## -parameters
-
-
-
 
 ### -param lpEventAttributes [in, optional]
 
@@ -75,8 +71,6 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
        <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors">security descriptor</a> for the new 
        event. If <i>lpEventAttributes</i> is <b>NULL</b>, the event gets a default security descriptor. 
        The ACLs in the default security descriptor for an event come from the primary or impersonation token of the creator.
-     
-
 
 ### -param lpName [in, optional]
 
@@ -96,7 +90,6 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
         for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
-
 
 ### -param dwFlags [in]
 
@@ -134,18 +127,13 @@ If this flag is not specified, the system automatically resets the event after r
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwDesiredAccess [in]
 
 The access mask for the event object. For a list of access rights, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the event object. If the named event object existed 
        before the function call, the function returns a handle to the existing object and 
@@ -155,14 +143,8 @@ If the function succeeds, the return value is a handle to the event object. If t
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-     
-
-
-
 
 ## -remarks
-
-
 
 Any thread of the calling process can specify the event-object handle in a call to one of the 
     <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>. The single-object wait functions return 
@@ -214,9 +196,6 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -230,7 +209,4 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

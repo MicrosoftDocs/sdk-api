@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 095172ac-9e08-4797-b9da-41a4e5a61315
 ms.date: 12/05/2018
 ms.keywords: DoDragDrop, DoDragDrop function [COM], _ole_DoDragDrop, com.dodragdrop, ole2/DoDragDrop
-f1_keywords:
-- ole2/DoDragDrop
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- DoDragDrop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DoDragDrop
+ - ole2/DoDragDrop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - DoDragDrop
 ---
 
 # DoDragDrop function
 
 
 ## -description
-
 
 Carries out an OLE drag and drop operation.
 
@@ -59,32 +59,23 @@ Carries out an OLE drag and drop operation.
 
 ## -parameters
 
-
-
-
 ### -param pDataObj [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on a data object that contains the data being dragged.
-
 
 ### -param pDropSource [in]
 
 Pointer to an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a> interface, which is used to communicate with the source during the drag operation.
 
-
 ### -param dwOKEffects [in]
 
 Effects the source allows in the OLE drag-and-drop operation. Most significant is whether it permits a move. The <i>dwOKEffect</i> and <i>pdwEffect</i> parameters obtain values from the <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> enumeration. For a list of values, see <b>DROPEFFECT</b>.
-
 
 ### -param pdwEffect [out]
 
  Pointer to a value that indicates how the OLE drag-and-drop operation affected the source data. The <i>pdwEffect</i> parameter is set only if the operation is not canceled.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -127,14 +118,8 @@ Unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are developing an application that can act as a data source for an OLE drag-and-drop operation, you must call <b>DoDragDrop</b> when you detect that the user has started an OLE drag-and-drop operation.
 
@@ -205,16 +190,7 @@ To support touch or pen input, do not call <b>DoDragDrop</b> from your touch han
 
 The application can identify synthesized messages by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> function. For more information about using <b>GetMessageExtraInfo</b> to distinguish between mouse input and Windows Touch input,  see <a href="https://docs.microsoft.com/windows/desktop/wintouch/troubleshooting-applications">Troubleshooting Applications</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0C6D6217-3A97-40B5-A7FB-B9D49C5FBC7C
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgCredentials_SSIProviderA, PSecPkgCredentials_SSIProvider, PSecPkgCredentials_SSIProvider structure pointer [Security], SecPkgCredentials_SSIProvider, SecPkgCredentials_SSIProvider structure [Security], SecPkgCredentials_SSIProviderA, SecPkgCredentials_SSIProviderW, security.secpkgcredentials_ssiprovider, sspi/PSecPkgCredentials_SSIProvider, sspi/SecPkgCredentials_SSIProvider, sspi/SecPkgCredentials_SSIProviderA, sspi/SecPkgCredentials_SSIProviderW'
-f1_keywords:
-- sspi/SecPkgCredentials_SSIProvider
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SecPkgCredentials_SSIProvider
-- SecPkgCredentials_SSIProviderA
-- SecPkgCredentials_SSIProviderW
 targetos: Windows
 req.typenames: SecPkgCredentials_SSIProviderA, *PSecPkgCredentials_SSIProviderA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgCredentials_SSIProviderA
+ - sspi/_SecPkgCredentials_SSIProviderA
+ - PSecPkgCredentials_SSIProviderA
+ - sspi/PSecPkgCredentials_SSIProviderA
+ - SecPkgCredentials_SSIProviderA
+ - sspi/SecPkgCredentials_SSIProviderA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SecPkgCredentials_SSIProvider
+ - SecPkgCredentials_SSIProviderA
+ - SecPkgCredentials_SSIProviderW
 ---
 
 # SecPkgCredentials_SSIProviderA structure
@@ -51,25 +56,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SecPkgCredentials_SSIProvider</b> structure holds the SSI provider information associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function uses this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sProviderName
 
 Pointer to a null-terminated string that contains the name of the provider represented by the credential.
 
-
 ### -field ProviderInfoLength
 
 Length of the provider information.
-
 
 ### -field ProviderInfo
 

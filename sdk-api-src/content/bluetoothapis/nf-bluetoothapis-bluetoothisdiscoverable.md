@@ -8,10 +8,6 @@ tech.root: bluetooth
 ms.assetid: 33d34e36-dc17-4029-91bd-53ece5a93b4b
 ms.date: 12/05/2018
 ms.keywords: BluetoothIsDiscoverable, BluetoothIsDiscoverable function [Bluetooth], bluetooth.bluetoothisdiscoverable, bluetoothapis/BluetoothIsDiscoverable
-f1_keywords:
-- bluetoothapis/BluetoothIsDiscoverable
-dev_langs:
-- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bthprops.dll
-- BluetoothAPIs.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothIsDiscoverable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothIsDiscoverable
+ - bluetoothapis/BluetoothIsDiscoverable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bthprops.dll
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothIsDiscoverable
 ---
 
 # BluetoothIsDiscoverable function
@@ -51,33 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothIsDiscoverable</b> function determines whether a Bluetooth radio or radios is discoverable.
 
-
 ## -parameters
-
-
-
 
 ### -param hRadio
 
 Valid local radio handle, or <b>NULL</b>. If <b>NULL</b>, discovery is determined for all local radios; if any radio is discoverable, the function call succeeds.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if at least one Bluetooth radio is discoverable. Returns <b>FALSE</b> if no Bluetooth radios are discoverable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatedevice">BluetoothAuthenticateDevice</a>
 
@@ -108,7 +95,4 @@ Returns <b>TRUE</b> if at least one Bluetooth radio is discoverable. Returns <b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothunregisterauthentication">BluetoothUnregisterAuthentication</a>
- 
-
- 
 

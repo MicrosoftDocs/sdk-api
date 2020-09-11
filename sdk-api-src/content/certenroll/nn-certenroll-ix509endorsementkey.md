@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
-f1_keywords:
-- certenroll/IX509EndorsementKey
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.dll
-api_name:
-- IX509EndorsementKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EndorsementKey
+ - certenroll/IX509EndorsementKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.dll
+api_name:
+ - IX509EndorsementKey
 ---
 
 # IX509EndorsementKey interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 X.509 Endorsement Key Interface
-
 
 ## -inheritance
 
@@ -188,5 +187,5 @@ The name of the encryption provider. The default is the Microsoft Platform Crypt
 
 </td>
 </tr>
-</table> 
+</table>
 

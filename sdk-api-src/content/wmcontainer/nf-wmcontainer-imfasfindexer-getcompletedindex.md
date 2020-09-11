@@ -8,10 +8,6 @@ tech.root: medfound
 ms.assetid: aca721e8-e610-4022-a3da-8ff5a5943e3e
 ms.date: 12/05/2018
 ms.keywords: GetCompletedIndex, GetCompletedIndex method [Media Foundation], GetCompletedIndex method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetCompletedIndex method, IMFASFIndexer.GetCompletedIndex, IMFASFIndexer::GetCompletedIndex, aca721e8-e610-4022-a3da-8ff5a5943e3e, mf.imfasfindexer_getcompletedindex, wmcontainer/IMFASFIndexer::GetCompletedIndex
-f1_keywords:
-- wmcontainer/IMFASFIndexer.GetCompletedIndex
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFIndexer.GetCompletedIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFIndexer::GetCompletedIndex
+ - wmcontainer/IMFASFIndexer::GetCompletedIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFIndexer.GetCompletedIndex
 ---
 
 # IMFASFIndexer::GetCompletedIndex
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the completed index from the ASF indexer object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIIndexBuffer [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of a media buffer that receives the index data.
 
-
 ### -param cbOffsetWithinIndex [in]
 
 The offset of the data to be retrieved, in bytes from the start of the index data. Set to 0 for the first call. If subsequent calls are needed (the buffer is not large enough to hold the entire index), set to the byte following the last one retrieved.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -106,14 +95,8 @@ The index was not committed before attempting to get the completed index. For mo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method uses as much of the buffer as possible, and updates the length of the buffer appropriately.
 
@@ -190,14 +173,7 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
@@ -208,7 +184,4 @@ done:
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757932(v=vs.85)">Using the Indexer to Write a New Index</a>
- 
-
- 
 

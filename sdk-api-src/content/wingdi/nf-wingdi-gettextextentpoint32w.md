@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 530280ee-dfd8-4905-9b72-6c19efcff133
 ms.date: 12/05/2018
 ms.keywords: GetTextExtentPoint32, GetTextExtentPoint32 function [Windows GDI], GetTextExtentPoint32A, GetTextExtentPoint32W, _win32_GetTextExtentPoint32, gdi.gettextextentpoint32, wingdi/GetTextExtentPoint32, wingdi/GetTextExtentPoint32A, wingdi/GetTextExtentPoint32W
-f1_keywords:
-- wingdi/GetTextExtentPoint32
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Font-l1-1-1.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetTextExtentPoint32
-- GetTextExtentPoint32A
-- GetTextExtentPoint32W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTextExtentPoint32W
+ - wingdi/GetTextExtentPoint32W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Font-l1-1-1.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetTextExtentPoint32
+ - GetTextExtentPoint32A
+ - GetTextExtentPoint32W
 ---
 
 # GetTextExtentPoint32W function
@@ -56,49 +57,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetTextExtentPoint32</b> function computes the width and height of the specified string of text.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param lpString [in]
 
 A pointer to a buffer that specifies the text string. The string does not need to be null-terminated, because the <i>c</i> parameter specifies the length of the string.
-
 
 ### -param c [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>.
 
-
 ### -param psizl [out]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetTextExtentPoint32</b> function uses the currently selected font to compute the dimensions of the string. The width and height, in logical units, are computed without considering any clipping.
 
@@ -131,9 +116,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
 
@@ -155,7 +137,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextjustification">SetTextJustification</a>
- 
-
- 
 

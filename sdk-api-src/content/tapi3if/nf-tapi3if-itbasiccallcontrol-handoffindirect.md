@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 02579638-fafd-4c4a-91a3-460d7ebf6917
 ms.date: 12/05/2018
 ms.keywords: HandoffIndirect, HandoffIndirect method [TAPI 2.2], HandoffIndirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffIndirect method, ITBasicCallControl.HandoffIndirect, ITBasicCallControl::HandoffIndirect, _tapi3_itbasiccallcontrol_handoffindirect, tapi3.itbasiccallcontrol_handoffindirect, tapi3if/ITBasicCallControl::HandoffIndirect
-f1_keywords:
-- tapi3if/ITBasicCallControl.HandoffIndirect
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicCallControl.HandoffIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicCallControl::HandoffIndirect
+ - tapi3if/ITBasicCallControl::HandoffIndirect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicCallControl.HandoffIndirect
 ---
 
 # ITBasicCallControl::HandoffIndirect
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HandoffIndirect</b> method hands off the call to another application based on the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> of the call. If multiple applications have registered as able to handle the types involved, TAPI will hand off to the highest-priority application, which is usually the one that registered first.
 
 This indicates that the application no longer requires ownership of the call.
 
-
 ## -parameters
-
-
-
 
 ### -param lMediaType [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> to transfer to.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,14 +105,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some service providers do not support this operation while streaming is active. The application may need to call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
@@ -131,13 +117,7 @@ Some service providers do not support this operation while streaming is active. 
 If TAPI fails to hand off the call, TAPI will call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect">Disconnect</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
@@ -156,7 +136,4 @@ If TAPI fails to hand off the call, TAPI will call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
- 
-
- 
 

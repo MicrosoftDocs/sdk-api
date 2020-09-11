@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 4efcb399-03af-4312-9f1d-6bc38f356cac
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_ACCT_CREATE, NETSETUP_AMBIGUOUS_DC, NETSETUP_DEFER_SPN_SET, NETSETUP_DOMAIN_JOIN_IF_JOINED, NETSETUP_DONT_CONTROL_SERVICES, NETSETUP_FORCE_SPN_SET, NETSETUP_IGNORE_UNSUPPORTED_FLAGS, NETSETUP_JOIN_DC_ACCOUNT, NETSETUP_JOIN_DOMAIN, NETSETUP_JOIN_READONLY, NETSETUP_JOIN_UNSECURE, NETSETUP_JOIN_WITH_NEW_NAME, NETSETUP_MACHINE_PWD_PASSED, NETSETUP_NO_ACCT_REUSE, NETSETUP_NO_NETLOGON_CACHE, NETSETUP_SET_MACHINE_NAME, NETSETUP_WIN9X_UPGRADE, NetJoinDomain, NetJoinDomain function [Network Management], _win32_netjoindomain, lmjoin/NetJoinDomain, netmgmt.netjoindomain
-f1_keywords:
-- lmjoin/NetJoinDomain
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetJoinDomain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetJoinDomain
+ - lmjoin/NetJoinDomain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetJoinDomain
 ---
 
 # NetJoinDomain function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetJoinDomain</b> function joins a computer to a workgroup or domain.
 
-
 ## -parameters
-
-
-
 
 ### -param lpServer [in]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the computer on which to execute the domain join operation. If this parameter is <b>NULL</b>, the local computer is used.
-
 
 ### -param lpDomain [in]
 
@@ -73,16 +68,13 @@ A pointer to a constant null-terminated character string that specifies the name
 
 Optionally, you can specify the preferred domain controller to perform the join operation. In this instance, the string must be of the form  <i>DomainName\MachineName</i>,  where <i>DomainName</i>  is the name of the domain to join, and <i>MachineName</i> is the name of the domain controller to perform the join.
 
-
 ### -param lpMachineAccountOU [in]
 
 Optionally specifies the pointer to a constant null-terminated character string that contains the RFC 1779 format name of the organizational unit (OU) for the computer account. If you specify this parameter, the string must contain a full path, for example, OU=testOU,DC=domain,DC=Domain,DC=com. Otherwise, this parameter must be <b>NULL</b>.
 
-
 ### -param lpAccount [in]
 
 A pointer to a constant null-terminated character string that specifies the account name to use when connecting to the domain controller. The string must specify either a domain NetBIOS name and user account (for example, <i>REDMOND\user</i>) or the user principal name (UPN) of the user in the form of an Internet-style login name (for example, "someone@example.com"). If this parameter is <b>NULL</b>, the caller's context is used.
-
 
 ### -param lpPassword [in]
 
@@ -92,7 +84,6 @@ If the <i>lpAccount</i> parameter specifies an account name, this parameter must
 
 
 You can specify a local machine account password rather than a user password for unsecured joins. For more information, see the description of the NETSETUP_MACHINE_PWD_PASSED flag described in the <i>fJoinOptions</i> parameter.
-
 
 ### -param fJoinOptions [in]
 
@@ -329,12 +320,8 @@ If this bit is set, unrecognized flags
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -446,14 +433,8 @@ The remote procedure call protocol sequence is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Joining (and unjoining) a computer to a domain or workgroup can be performed only by a member of the Administrators local group on the target computer. Note that the domain administrator can set additional requirements for joining the domain using delegation and assignment of privileges.
 
@@ -473,13 +454,7 @@ A system reboot is required after calling the <b>NetJoinDomain</b> function for 
 <b>NetJoinDomain</b> fails unless you defer the update of the two properties until the rename operation by specifying the NETSETUP_DEFER_SPN_SET flag in the <i>fJoinOptions</i> parameter when you call 
 <b>NetJoinDomain</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
 
@@ -536,7 +511,4 @@ A system reboot is required after calling the <b>NetJoinDomain</b> function for 
 
 
 <a href="https://technet.microsoft.com/library/cc753470(WS.10).aspx">Password Replication Policy Administration</a>
- 
-
- 
 

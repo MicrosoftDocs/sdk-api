@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 9dd56891-5f2f-4b0e-9f70-fd75cb9bbd43
 ms.date: 12/05/2018
 ms.keywords: IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], IWbemConfigureRefresher interface [Windows Management Instrumentation],described, _hmm_iwbemconfigurerefresher, wbemcli/IWbemConfigureRefresher, wmi.iwbemconfigurerefresher
-f1_keywords:
-- wbemcli/IWbemConfigureRefresher
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemuuid.lib
-- Wbemuuid.dll
-api_name:
-- IWbemConfigureRefresher
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemConfigureRefresher
+ - wbemcli/IWbemConfigureRefresher
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemuuid.lib
+ - Wbemuuid.dll
+api_name:
+ - IWbemConfigureRefresher
 ---
 
 # IWbemConfigureRefresher interface
 
 
 ## -description
-
 
 The 
 <b>IWbemConfigureRefresher</b> interface is used by client code to add enumerators, objects, and nested refreshers into a refresher.
@@ -58,7 +58,6 @@ Users and providers should never implement this interface. The implementation pr
 
 By providing a native implementation of this interface, WMI allows client code to easily configure refreshers. You can access the 
 <b>IWbemConfigureRefresher</b> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
-
 
 ## -inheritance
 
@@ -124,13 +123,9 @@ Removes an object, enumerator, or nested refresher from a refresher.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-performance-data-in-c--">Accessing Performance Data in C++</a>
 
@@ -149,7 +144,4 @@ Removes an object, enumerator, or nested refresher from a refresher.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
- 
-
- 
 

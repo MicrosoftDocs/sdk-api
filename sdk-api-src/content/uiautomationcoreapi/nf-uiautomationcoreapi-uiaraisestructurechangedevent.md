@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 29137b40-4758-4c73-9596-8cb375b8d362
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseStructureChangedEvent, UiaRaiseStructureChangedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseStructureChangedEventFunction, uiauto_UiaRaiseStructureChangedEventFunction, uiautomationcoreapi/UiaRaiseStructureChangedEvent, winauto.uiauto_UiaRaiseStructureChangedEventFunction
-f1_keywords:
-- uiautomationcoreapi/UiaRaiseStructureChangedEvent
-dev_langs:
-- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Uiautomationcore.dll
-- Ext-MS-Win-uiacore-l1-1-0.dll
-- Ext-MS-Win-UIaCore-l1-1-1.dll
-- Ext-MS-Win-UIaCore-l1-1-2.dll
-- Ext-MS-Win-UiaCore-L1-1-3.dll
-api_name:
-- UiaRaiseStructureChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UiaRaiseStructureChangedEvent
+ - uiautomationcoreapi/UiaRaiseStructureChangedEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Uiautomationcore.dll
+ - Ext-MS-Win-uiacore-l1-1-0.dll
+ - Ext-MS-Win-UIaCore-l1-1-1.dll
+ - Ext-MS-Win-UIaCore-l1-1-2.dll
+ - Ext-MS-Win-UiaCore-L1-1-3.dll
+api_name:
+ - UiaRaiseStructureChangedEvent
 ---
 
 # UiaRaiseStructureChangedEvent function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by a provider to notify the Microsoft UI Automation core that the tree structure has changed.
 
-
 ## -parameters
-
-
-
 
 ### -param pProvider [in]
 
@@ -68,13 +64,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcor
 
 The provider node where the tree change occurred.
 
-
 ### -param structureChangeType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-structurechangetype">StructureChangeType</a></b>
 
 The type of change that occurred in the tree.
-
 
 ### -param pRuntimeId [in]
 
@@ -93,24 +87,14 @@ Type: <b>int</b>
 
 Length of the array of integers.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 An example of a change in the tree structure is child elements being added to or removed from a list box, 
                 or being expanded or collapsed in a tree view.
-
-
 

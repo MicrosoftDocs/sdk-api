@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 89c2fc2c-bf14-4a42-b7ab-12988433b275
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionReport interface [File Server Resource Manager],MailTo property, IFsrmActionReport.MailTo, IFsrmActionReport.get_MailTo, IFsrmActionReport::MailTo, IFsrmActionReport::get_MailTo, IFsrmActionReport::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_mailto, fsrm.ifsrmactionreport_mailto, fsrm/IFsrmActionReport::MailTo, fsrm/IFsrmActionReport::get_MailTo, fsrm/IFsrmActionReport::put_MailTo, get_MailTo
-f1_keywords:
-- fsrm/IFsrmActionReport.MailTo
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmActionReport.MailTo
-- IFsrmActionReport.get_MailTo
-- IFsrmActionReport.put_MailTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmActionReport::get_MailTo
+ - fsrm/IFsrmActionReport::get_MailTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmActionReport.MailTo
+ - IFsrmActionReport.get_MailTo
+ - IFsrmActionReport.put_MailTo
 ---
 
 # IFsrmActionReport::get_MailTo
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -63,13 +63,9 @@ Retrieves or sets the email address to which the reports are sent.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The email message contains the reports as attachments. It is possible that the mail server may reject the 
     message if the server limits attachment sizes. The 
@@ -88,12 +84,7 @@ For an example, see <a href="https://docs.microsoft.com/previous-versions/window
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactionreport">IFsrmActionReport</a>
 
@@ -108,7 +99,4 @@ For an example, see <a href="https://docs.microsoft.com/previous-versions/window
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
- 
-
- 
 

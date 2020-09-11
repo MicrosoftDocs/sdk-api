@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 527A7FF7-749D-4178-A397-5C538F6031F8
 ms.date: 12/05/2018
 ms.keywords: RoInitialize, RoInitialize function [Windows Runtime], WinRTInitialize, roapi/RoInitialize, roapi/WinRTInitialize, winrt.roinitialize, winrt.winrtinitialize
-f1_keywords:
-- roapi/RoInitialize
-dev_langs:
-- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- roapi.h
-- API-MS-Win-Core-WinRT-l1-1-0.dll
-- ComBase.dll
-api_name:
-- RoInitialize
-- WinRTInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoInitialize
+ - roapi/RoInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - roapi.h
+ - API-MS-Win-Core-WinRT-l1-1-0.dll
+ - ComBase.dll
+api_name:
+ - RoInitialize
+ - WinRTInitialize
 ---
 
 # RoInitialize function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the Windows Runtime on the current thread with the specified concurrency model.
 
-
 ## -parameters
-
-
-
 
 ### -param initType [in]
 
@@ -67,10 +63,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/roapi/ne-roapi-
 
 The concurrency model for the thread. The default is <b>RO_INIT_MULTITHREADED</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -115,26 +108,14 @@ A previous call to <a href="https://docs.microsoft.com/windows/desktop/api/roapi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the <b>RoInitialize</b> function to initialize a thread in the Windows Runtime. All threads that activate and interact with Windows Runtime objects must be initialized prior to calling into the Windows Runtime. 
 
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rouninitialize">RoUninitialize</a> function to close the Windows Runtime on the current thread. Each successful call to <b>RoInitialize</b>, including those that return <b>S_FALSE</b>, must be balanced by a corresponding call to <b>RoUninitialize</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
@@ -145,7 +126,4 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rouninitialize">RoUninitialize</a>
- 
-
- 
 

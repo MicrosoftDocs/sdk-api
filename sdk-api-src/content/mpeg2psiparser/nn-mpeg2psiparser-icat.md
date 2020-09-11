@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 00da2af8-0f1a-467a-b310-8b8c7e564013
 ms.date: 12/05/2018
 ms.keywords: ICAT, ICAT interface [Microsoft TV Technologies], ICAT interface [Microsoft TV Technologies],described, ICATInterface, mpeg2psiparser/ICAT, mstv.icat
-f1_keywords:
-- mpeg2psiparser/ICAT
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mpeg2psiparser.h
-api_name:
-- ICAT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICAT
+ - mpeg2psiparser/ICAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mpeg2psiparser.h
+api_name:
+ - ICAT
 ---
 
 # ICAT interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>ICAT</b> interface enables the client to get data from a conditional access table (CAT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getcat">IAtscPsipParser::GetCAT</a> method returns a pointer to this interface.
-
-
-
 
 ## -inheritance
 
@@ -155,16 +151,9 @@ Registers the client to be notified when the table becomes current.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

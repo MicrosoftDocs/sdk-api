@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: b2a106b4-067b-42ad-97ab-b5c0f07e5204
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromWicBitmap, CreateBitmapFromWicBitmap method [Direct2D], CreateBitmapFromWicBitmap method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateBitmapFromWicBitmap method, ID2D1RenderTarget.CreateBitmapFromWicBitmap, ID2D1RenderTarget.CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap), ID2D1RenderTarget::CreateBitmapFromWicBitmap, ID2D1RenderTarget::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap), d2d1/ID2D1RenderTarget::CreateBitmapFromWicBitmap, direct2d.ID2D1RenderTarget_CreateBitmapFromWicBitmap_ptr_IWICBitmapSource_ptr_ptr_ID2D1Bitmap
-f1_keywords:
-- d2d1/ID2D1RenderTarget.CreateBitmapFromWicBitmap
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.CreateBitmapFromWicBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::CreateBitmapFromWicBitmap
+ - d2d1/ID2D1RenderTarget::CreateBitmapFromWicBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.CreateBitmapFromWicBitmap
 ---
 
 ## -description
@@ -85,3 +86,4 @@ For examples, see <a href="/windows/win32/Direct2D/how-to-load-a-direct2d-bitmap
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
+

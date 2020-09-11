@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8f8051d3-b1b6-418b-8a53-0ddc82a20bb3
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetSelectedForRestore method, IVssBackupComponents.SetSelectedForRestore, IVssBackupComponents::SetSelectedForRestore, SetSelectedForRestore, SetSelectedForRestore method [VSS], SetSelectedForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setselectedforrestore, base.ivssbackupcomponents_setselectedforrestore, vsbackup/IVssBackupComponents::SetSelectedForRestore
-f1_keywords:
-- vsbackup/IVssBackupComponents.SetSelectedForRestore
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SetSelectedForRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SetSelectedForRestore
+ - vsbackup/IVssBackupComponents::SetSelectedForRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SetSelectedForRestore
 ---
 
 # IVssBackupComponents::SetSelectedForRestore
@@ -50,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetSelectedForRestore</b> 
     method indicates whether the specified selectable component is selected for restoration.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Writer identifier.
 
-
 ### -param ct [in]
 
 Type of the component. See <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> 
       for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -83,7 +77,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the name of the component. 
@@ -93,16 +86,12 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
       to the backup set using 
       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
-
 ### -param bSelectedForRestore [in]
 
 If the value of this parameter is <b>true</b>, the selected component has been selected for restoration. If the 
      value is <b>false</b>, the selected component has not been selected for restoration.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -196,14 +185,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SetSelectedForRestore</b> has 
     meaning only for restores taking place in component mode.
@@ -223,13 +206,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 This method must be called before 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -244,7 +221,4 @@ This method must be called before
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

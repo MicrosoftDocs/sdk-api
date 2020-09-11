@@ -28,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- wlanapi.dll
+ - wlanapi.dll
 api_name:
  - WlanGetSupportedDeviceServices
 f1_keywords:
+ - WlanGetSupportedDeviceServices
  - wlanapi/WlanGetSupportedDeviceServices
 dev_langs:
  - c++
@@ -67,10 +68,11 @@ A pointer to storage for a pointer to receive the returned list of device servic
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If the function succeeds, the return value is **ERROR_SUCCESS**. If the function fails with **ERROR_ACCESS_DENIED**, then the caller doesn't have sufficient permissions to perform this operation. The caller needs to either have admin privilege, or needs to be a UMDF driver. 
+If the function succeeds, the return value is **ERROR_SUCCESS**. If the function fails with **ERROR_ACCESS_DENIED**, then the caller doesn't have sufficient permissions to perform this operation. The caller needs to either have admin privilege, or needs to be a UMDF driver.
 
 ## -remarks
 
 If the call succeeds, then the **WlanGetSupportedDeviceServices** function allocates memory for the device services **GUID** list that's returned in a buffer pointed to by the *ppDevSvcGuidList* parameter. When you no longer need the buffer pointed to by *ppDevSvcGuidList*, you should release the memory used for it by calling the [WlanFreeMemory](/windows/win32/api/wlanapi/nf-wlanapi-wlanfreememory) function.
 
 ## -see-also
+

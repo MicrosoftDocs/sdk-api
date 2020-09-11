@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 48add326-7182-426a-b7b6-d56f4bfcfb2b
 ms.date: 12/05/2018
 ms.keywords: NPGetResourceParent, NPGetResourceParent function [Security], _mnp_npgetresourceparent, npapi/NPGetResourceParent, security.npgetresourceparent
-f1_keywords:
-- npapi/NPGetResourceParent
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPGetResourceParent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPGetResourceParent
+ - npapi/NPGetResourceParent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPGetResourceParent
 ---
 
 # NPGetResourceParent function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the parent of a specified network resource in the browse hierarchy. This function is typically called for resources that were returned by the same provider from prior calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetresourceinformation">NPGetResourceInformation</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpNetResource [in]
 
@@ -78,7 +74,6 @@ The <b>dwType</b> field is filled in if the calling program knows its value. Oth
 
 All other fields in the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> are ignored and are not initialized.
 
-
 ### -param lpBuffer [out]
 
 Pointer to a buffer to receive the result, which is a single <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure representing the parent resource. The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> fields are returned; all other fields are set to <b>NULL</b>. 
@@ -91,15 +86,11 @@ The output <b>lpRemoteName</b> should be in the same format as that returned fro
 
 The RESOURCEUSAGE_CONNECTABLE bit in the returned <b>dwUsage</b> field does not necessarily indicate that the resource can currently be connected to, only that the resource is connectable when it is available on the network.
 
-
 ### -param lpBufferSize [in, out]
 
 Pointer to a location that specifies the size, in bytes, of the buffer pointed to by the <i>lpBuffer</i> parameter. If the buffer is too small for the result, the function places the required buffer size at this location and returns the error WN_MORE_DATA.
 
-
 ## -returns
-
-
 
 If the function succeeds, it should return WN_SUCCESS. Otherwise, it should return an error code, which may be one of the following.
 
@@ -164,7 +155,4 @@ The caller has been authenticated to the network, but does not have sufficient p
 </td>
 </tr>
 </table>
- 
-
-
 

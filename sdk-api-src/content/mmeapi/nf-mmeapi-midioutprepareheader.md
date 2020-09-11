@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 3e457f08-a885-48f8-97c1-ba1baef97759
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutPrepareHeader, midiOutPrepareHeader, midiOutPrepareHeader function [Windows Multimedia], mmeapi/midiOutPrepareHeader, multimedia.midioutprepareheader
-f1_keywords:
-- mmeapi/midiOutPrepareHeader
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiOutPrepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiOutPrepareHeader
+ - mmeapi/midiOutPrepareHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiOutPrepareHeader
 ---
 
 # midiOutPrepareHeader function
@@ -51,23 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiOutPrepareHeader</b> function prepares a MIDI system-exclusive or stream buffer for output.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmo
 
 Handle to the MIDI output device. To get the device handle, call <a href="https://docs.microsoft.com/previous-versions/dd798476(v=vs.85)">midiOutOpen</a>. This parameter can also be the handle of a MIDI stream cast to a <b>HMIDIOUT</b> type.
-          
-
 
 ### -param pmh
 
@@ -76,16 +67,11 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs
 
 Before calling the function, set the <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure. The <b>dwFlags</b> member must be set to zero.
 
-
 ### -param cbmh
 
 Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
-          
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -128,14 +114,8 @@ The system is unable to allocate or lock memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before you pass a MIDI data block to a device driver, you must prepare the buffer by passing it to the <b>midiOutPrepareHeader</b> function. After the header has been prepared, do not modify the buffer. After the driver is done using the buffer, call the <a href="https://docs.microsoft.com/previous-versions/dd798482(v=vs.85)">midiOutUnprepareHeader</a> function.
 
@@ -145,15 +125,8 @@ A stream buffer cannot be larger than 64K.
       
 
 Preparing a header that has already been prepared has no effect, and the function returns MMSYSERR_NOERROR.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/allocating-and-preparing-midi-data-blocks">Allocating and Preparing MIDI Data Blocks</a>
 
@@ -164,7 +137,4 @@ Preparing a header that has already been prepared has no effect, and the functio
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd798482(v=vs.85)">midiOutUnprepareHeader</a>
- 
-
- 
 

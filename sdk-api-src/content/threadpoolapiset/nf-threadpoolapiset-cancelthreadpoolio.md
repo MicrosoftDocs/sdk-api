@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
 ms.date: 12/05/2018
 ms.keywords: CancelThreadpoolIo, CancelThreadpoolIo function, base.cancelthreadpoolio, threadpoolapiset/CancelThreadpoolIo, winbase/CancelThreadpoolIo
-f1_keywords:
-- threadpoolapiset/CancelThreadpoolIo
-dev_langs:
-- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-threadpool-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CancelThreadpoolIo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CancelThreadpoolIo
+ - threadpoolapiset/CancelThreadpoolIo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-threadpool-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CancelThreadpoolIo
 ---
 
 # CancelThreadpoolIo function
@@ -54,22 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cancels the notification from the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-startthreadpoolio">StartThreadpoolIo</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param pio [in, out]
 
 A pointer to a <b>TP_IO</b> structure that defines the I/O completion object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio">CreateThreadpoolIo</a> function returns this pointer.
 
 ## -remarks
-
-
 
 To prevent memory leaks, you must call the <b>CancelThreadpoolIo</b> function for either of the following scenarios:
 
@@ -79,13 +73,7 @@ To prevent memory leaks, you must call the <b>CancelThreadpoolIo</b> function fo
 </ul>
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolio">CloseThreadpoolIo</a>
 
@@ -104,7 +92,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpooliocallbacks">WaitForThreadpoolIoCallbacks</a>
- 
-
- 
 

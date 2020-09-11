@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0be0e945-4048-4748-a9fd-15d08fb7ff3e
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_Flags, PSecPkgContext_Flags, PSecPkgContext_Flags structure pointer [Security], SecPkgContext_Flags, SecPkgContext_Flags structure [Security], security.secpkgcontext_flags, sspi/PSecPkgContext_Flags, sspi/SecPkgContext_Flags'
-f1_keywords:
-- sspi/SecPkgContext_Flags
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SecPkgContext_Flags
 targetos: Windows
 req.typenames: SecPkgContext_Flags, *PSecPkgContext_Flags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_Flags
+ - sspi/_SecPkgContext_Flags
+ - PSecPkgContext_Flags
+ - sspi/PSecPkgContext_Flags
+ - SecPkgContext_Flags
+ - sspi/SecPkgContext_Flags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SecPkgContext_Flags
 ---
 
 # SecPkgContext_Flags structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SecPkgContext_Flags</b> structure contains information about the flags in the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 

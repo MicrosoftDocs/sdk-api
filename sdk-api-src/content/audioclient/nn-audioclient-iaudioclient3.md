@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: E8EFE682-E1BC-4D0D-A60E-DD257D6E5894
 ms.date: 12/05/2018
 ms.keywords: IAudioClient3, IAudioClient3 interface [Core Audio], IAudioClient3 interface [Core Audio],described, audioclient/IAudioClient3, coreaudio.iaudioclient3
-f1_keywords:
-- audioclient/IAudioClient3
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioclient.h
-api_name:
-- IAudioClient3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient3
+ - audioclient/IAudioClient3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioclient.h
+api_name:
+ - IAudioClient3
 ---
 
 # IAudioClient3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioClient3</b> interface is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
-
 
 ## -inheritance
 
@@ -95,20 +94,13 @@ Initializes a shared stream with the specified periodicity.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
- 
-
- 
 

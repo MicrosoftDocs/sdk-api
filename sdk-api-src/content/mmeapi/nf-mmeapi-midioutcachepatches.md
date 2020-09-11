@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 58d0c73b-46a4-498d-bcef-f5b8aaf52392
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutCachePatches, midiOutCachePatches, midiOutCachePatches function [Windows Multimedia], mmeapi/midiOutCachePatches, multimedia.midioutcachepatches
-f1_keywords:
-- mmeapi/midiOutCachePatches
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiOutCachePatches
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiOutCachePatches
+ - mmeapi/midiOutCachePatches
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiOutCachePatches
 ---
 
 # midiOutCachePatches function
@@ -51,32 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiOutCachePatches</b> function requests that an internal MIDI synthesizer device preload and cache a specified set of patches.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmo
 
 Handle to the opened MIDI output device. This device must be an internal MIDI synthesizer. This parameter can also be the handle of a MIDI stream, cast to <b>HMIDIOUT</b>.
 
-
 ### -param uBank
 
 Bank of patches that should be used. This parameter should be set to zero to cache the default patch bank.
 
-
 ### -param pwpa
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array indicating the patches to be cached or uncached.
-
 
 ### -param fuCache
 
@@ -106,12 +96,8 @@ Options for the cache operation. It can be one of the following flags.
 <td>Uncaches the specified patches and clears the PATCHARRAY array.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -176,14 +162,8 @@ The specified device does not support patch caching.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some synthesizers are not capable of keeping all patches loaded simultaneously and must load data from disk when they receive MIDI program change messages. Caching patches ensures that the specified patches are immediately available.
 
@@ -191,16 +171,7 @@ Each element of the <a href="https://docs.microsoft.com/windows/desktop/Multimed
 
 This function applies only to internal MIDI synthesizer devices. Not all internal synthesizers support patch caching. To see if a device supports patch caching, use the MIDICAPS_CACHE flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure filled by the <a href="https://docs.microsoft.com/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
 

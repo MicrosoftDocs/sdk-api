@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 3029868e-0b27-4ce9-90b2-22d8e1961a1f
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferMediaSeeking2, IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies], IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],described, IStreamBufferMediaSeeking2Interface, mstv.istreambuffermediaseeking2, sbe/IStreamBufferMediaSeeking2
-f1_keywords:
-- sbe/IStreamBufferMediaSeeking2
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferMediaSeeking2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferMediaSeeking2
+ - sbe/IStreamBufferMediaSeeking2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferMediaSeeking2
 ---
 
 # IStreamBufferMediaSeeking2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IStreamBufferMediaSeeking2</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter. It provides a method to control the frame rate during fast-forward play ("trick mode").
-
-
-
 
 ## -inheritance
 
@@ -80,29 +76,17 @@ Sets playback rate, and sets the frame rate for trick mode.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IStreamBufferMediaSeeking2)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffermediaseeking">IStreamBufferMediaSeeking</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
- 
-
- 
 

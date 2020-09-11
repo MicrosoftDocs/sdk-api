@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformvectorsmethods.htm
 ms.date: 12/05/2018
 ms.keywords: Matrix.TransformVectors, Matrix::TransformVectors, TransformVectors, TransformVectors methods [GDI+], _gdiplus_CLASS_Matrix_TransformVectors_Methods, gdiplus._gdiplus_CLASS_Matrix_TransformVectors_Methods, gdiplusmatrix/TransformVectors
-f1_keywords:
-- gdiplusmatrix/Matrix.TransformVectors
-dev_langs:
-- c++
 req.header: gdiplusmatrix.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusmatrix.h
-api_name:
-- Matrix.TransformVectors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Matrix::TransformVectors
+ - gdiplusmatrix/Matrix::TransformVectors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusmatrix.h
+api_name:
+ - Matrix.TransformVectors
 ---
 
 # Matrix::TransformVectors
 
 
 ## -description
-
 
 <span>This topic lists the TransformVectors methods of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> class. For a complete list of methods for the <b>Matrix</b> class, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-matrix-methods">Matrix Methods</a>. 
 </span><h3>Overload list</h3><table>

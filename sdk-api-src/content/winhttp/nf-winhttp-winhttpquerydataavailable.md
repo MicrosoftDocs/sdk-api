@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
-f1_keywords:
-- winhttp/WinHttpQueryDataAvailable
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpQueryDataAvailable
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpQueryDataAvailable
+ - winhttp/WinHttpQueryDataAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpQueryDataAvailable
 ---
 
 # WinHttpQueryDataAvailable function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpQueryDataAvailable</b> function returns the amount of data, in bytes, available to be read with 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
@@ -65,15 +61,11 @@ A valid
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>. <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> must have been called for this handle and have completed before <b>WinHttpQueryDataAvailable</b> is called.
 
-
 ### -param lpdwNumberOfBytesAvailable [out]
 
 A pointer to an unsigned long integer variable that receives the number of available bytes. When WinHTTP is used in asynchronous mode, always set this parameter to <b>NULL</b> and retrieve data in the callback function; not doing so can cause a memory fault.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get extended error data, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -161,14 +153,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function can operate either synchronously or asynchronously.  If it returns <b>FALSE</b>, it failed and you can call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information. If it returns <b>TRUE</b>, use the WINHTTP_CALLBACK_STATUS_DATA_AVAILABLE completion to determine whether this function was successful and the value of the parameters.  The WINHTTP_CALLBACK_STATUS_REQUEST_ERROR completion indicates that the operation completed asynchronously, but failed.
@@ -297,14 +283,7 @@ The following example shows how to use secure transaction semantics to download 
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -335,7 +314,4 @@ The following example shows how to use secure transaction semantics to download 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>
- 
-
- 
 

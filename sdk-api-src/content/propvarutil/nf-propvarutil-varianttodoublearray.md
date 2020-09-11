@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 6830c2e2-d19a-45d5-af15-debfb08548bc
 ms.date: 12/05/2018
 ms.keywords: VariantToDoubleArray, VariantToDoubleArray function [Windows Properties], _shell_VariantToDoubleArray, properties.VariantToDoubleArray, propvarutil/VariantToDoubleArray, shell.VariantToDoubleArray
-f1_keywords:
-- propvarutil/VariantToDoubleArray
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- VariantToDoubleArray
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - VariantToDoubleArray
+ - propvarutil/VariantToDoubleArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - VariantToDoubleArray
 ---
 
 # VariantToDoubleArray function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts an array of <b>DOUBLE</b> values from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param var [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
-
 ### -param prgn [out]
 
 Type: <b>DOUBLE*</b>
 
 Pointer to a buffer that contains <i>crgn</i> <b>DOUBLE</b> values. When this function returns, the buffer has been initialized with *<i>pcElem</i> <b>DOUBLE</b> elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
 
 ### -param crgn [in]
 
@@ -78,17 +72,13 @@ Type: <b>ULONG</b>
 
 The number of elements in the buffer pointed to by <i>prgn</i>.
 
-
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
 When this function returns, contains the count of <b>DOUBLE</b> elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -122,14 +112,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-varia
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold an array that consists of a fixed number of <b>DOUBLE</b> values.
 
@@ -165,14 +149,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdoublearray">InitVariantFromDoubleArray</a>
 
@@ -191,7 +168,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearrayalloc">VariantToDoubleArrayAlloc</a>
- 
-
- 
 

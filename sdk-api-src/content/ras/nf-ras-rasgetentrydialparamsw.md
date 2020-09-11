@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa
 ms.date: 12/05/2018
 ms.keywords: RasGetEntryDialParams, RasGetEntryDialParams function [RAS], RasGetEntryDialParamsA, RasGetEntryDialParamsW, _ras_rasgetentrydialparams, ras/RasGetEntryDialParams, ras/RasGetEntryDialParamsA, ras/RasGetEntryDialParamsW, rras.rasgetentrydialparams
-f1_keywords:
-- ras/RasGetEntryDialParams
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasGetEntryDialParams
-- RasGetEntryDialParamsA
-- RasGetEntryDialParamsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetEntryDialParamsW
+ - ras/RasGetEntryDialParamsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasGetEntryDialParams
+ - RasGetEntryDialParamsA
+ - RasGetEntryDialParamsW
 ---
 
 # RasGetEntryDialParamsW function
@@ -53,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetEntryDialParams</b> function retrieves the connection information saved by the last successful call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrydialparamsa">RasSetEntryDialParams</a> function for a specified phone-book entry.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -73,7 +69,6 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
-
 
 ### -param arg2 [in, out]
 
@@ -101,7 +96,6 @@ The <b>szPassword</b> member of the <a href="https://docs.microsoft.com/previous
 
 <b>Windows NT and Windows Me/98/95:  </b>Secure password feature not supported.
 
-
 ### -param arg3 [out]
 
 Pointer to a flag that indicates whether the function retrieved the password associated with the user name for the phone-book entry. The <i>lpfPassword</i> parameter is <b>TRUE</b> if the system has saved a password for the specified entry. If the system has no password saved for this entry, <i>lpfPassword</i> is <b>FALSE</b>. 
@@ -112,10 +106,7 @@ Pointer to a flag that indicates whether the function retrieved the password ass
 <b>Windows NT and Windows Me/98/95:  </b>The function sets this flag to <b>TRUE</b> if the user's password was returned in the <b>szPassword</b> member of the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure pointed to by <i>lprasdialparams</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -160,15 +151,8 @@ The phone-book entry does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a>
 
@@ -195,9 +179,6 @@ The phone-book entry does not exist.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 
 ## -remarks
 

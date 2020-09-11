@@ -26,6 +26,7 @@ api_location:
 api_name:
  - DebugEventLevel
 f1_keywords:
+ - DebugEventLevel
  - gdiplusinit/DebugEventLevel
 dev_langs:
  - c++
@@ -48,3 +49,4 @@ Specifies the *warning* debug event level.
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discountrateend.htm
 ms.date: 12/05/2018
 ms.keywords: DiscountRateEnd property [Fax Service], DiscountRateEnd property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],DiscountRateEnd property, IFaxConfiguration.DiscountRateEnd, IFaxConfiguration.get_DiscountRateEnd, IFaxConfiguration::DiscountRateEnd, IFaxConfiguration::get_DiscountRateEnd, IFaxConfiguration::put_DiscountRateEnd, _mfax_IFaxConfiguration_DiscountRateEnd, fax._mfax_IFaxConfiguration_DiscountRateEnd, faxcomex/IFaxConfiguration::DiscountRateEnd, faxcomex/IFaxConfiguration::get_DiscountRateEnd, faxcomex/IFaxConfiguration::put_DiscountRateEnd, get_DiscountRateEnd
-f1_keywords:
-- faxcomex/IFaxConfiguration.DiscountRateEnd
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxConfiguration.DiscountRateEnd
-- IFaxConfiguration.get_DiscountRateEnd
-- IFaxConfiguration.put_DiscountRateEnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxConfiguration::get_DiscountRateEnd
+ - faxcomex/IFaxConfiguration::get_DiscountRateEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxConfiguration.DiscountRateEnd
+ - IFaxConfiguration.get_DiscountRateEnd
+ - IFaxConfiguration.put_DiscountRateEnd
 ---
 
 # IFaxConfiguration::get_DiscountRateEnd
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves a value that indicates the time at which the discount rate period ends.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
- 
-
- 
 

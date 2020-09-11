@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 0e6e81f1-ec7b-42ba-8706-a352349fa6ab
 ms.date: 12/05/2018
 ms.keywords: TCI_SRCCHARSET, TCI_SRCCODEPAGE, TCI_SRCFONTSIG, TCI_SRCLOCALE, TranslateCharsetInfo, TranslateCharsetInfo function [Internationalization for Windows Applications], _win32_TranslateCharsetInfo, intl.translatecharsetinfo, wingdi/TranslateCharsetInfo
-f1_keywords:
-- wingdi/TranslateCharsetInfo
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Font-l1-1-0.dll
-- Ext-MS-Win-GDI-Font-l1-1-1.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- TranslateCharsetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TranslateCharsetInfo
+ - wingdi/TranslateCharsetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Font-l1-1-0.dll
+ - Ext-MS-Win-GDI-Font-l1-1-1.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - TranslateCharsetInfo
 ---
 
 # TranslateCharsetInfo function
@@ -54,24 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates character set information and sets all members of a destination structure to appropriate values.
 
-
 ## -parameters
-
-
-
 
 ### -param lpSrc [in, out]
 
 Pointer to the <b>fsCsb</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> structure if <i>dwFlags</i> is set to TCI_SRCFONTSIG. Otherwise, this parameter is set to a DWORD value indicating the source.
 
-
 ### -param lpCs [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-charsetinfo">CHARSETINFO</a> structure that receives the translated character set information.
-
 
 ### -param dwFlags [in]
 
@@ -125,22 +119,12 @@ If the TCI_SRCFONTSIG value is given, the <i>lpSrc</i> parameter must be the add
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-charsetinfo">CHARSETINFO</a>
 
@@ -155,7 +139,4 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
- 
-
- 
 

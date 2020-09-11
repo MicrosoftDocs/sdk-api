@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 136662bd-b970-4ff3-8ae5-c5e3097ee00d
 ms.date: 12/05/2018
 ms.keywords: INSTALLMESSAGE_ACTIONDATA, INSTALLMESSAGE_ACTIONSTART, INSTALLMESSAGE_COMMONDATA, INSTALLMESSAGE_ERROR, INSTALLMESSAGE_FATALEXIT, INSTALLMESSAGE_FILESINUSE, INSTALLMESSAGE_INFO, INSTALLMESSAGE_OUTOFDISKSPACE, INSTALLMESSAGE_PROGRESS, INSTALLMESSAGE_RESOLVESOURCE, INSTALLMESSAGE_RMFILESINUSE, INSTALLMESSAGE_USER, INSTALLMESSAGE_WARNING, MsiProcessMessage, MsiProcessMessage function, _msi_msiprocessmessage, msiquery/MsiProcessMessage, setup.msiprocessmessage
-f1_keywords:
-- msiquery/MsiProcessMessage
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiProcessMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiProcessMessage
+ - msiquery/MsiProcessMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiProcessMessage
 ---
 
 # MsiProcessMessage function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiProcessMessage</b> function sends an error record to the installer for processing.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
 Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
 
 ### -param eMessageType [in]
 
@@ -214,26 +209,16 @@ To disable the Cancel button set [1] to 2 and [2] to 0
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hRecord [in]
 
 Handle to a record containing message format and data.
 
-
 ## -returns
-
-
 
 This function returns int.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiProcessMessage</b> function performs any enabled logging operations and defers execution. You can selectively enable logging for various message types.
@@ -398,20 +383,11 @@ For more information on sending messages with
 <b>MsiProcessMessage</b>, see the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/sending-messages-to-windows-installer-using-msiprocessmessage">Sending Messages to Windows Installer Using MsiProcessMessage</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Action Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/sending-messages-to-windows-installer-using-msiprocessmessage">Sending Messages to Windows Installer Using MsiProcessMessage</a>
- 
-
- 
 

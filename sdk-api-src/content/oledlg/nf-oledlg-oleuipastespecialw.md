@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
 ms.date: 12/05/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
-f1_keywords:
-- oledlg/OleUIPasteSpecial
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIPasteSpecial
-- OleUIPasteSpecialA
-- OleUIPasteSpecialW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIPasteSpecialW
+ - oledlg/OleUIPasteSpecialW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIPasteSpecial
+ - OleUIPasteSpecialA
+ - OleUIPasteSpecialW
 ---
 
 # OleUIPasteSpecialW function
@@ -51,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Paste Special</b> dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1 [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -419,14 +411,8 @@ The <b>lpSrcDataObj</b> member is incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The design of the <b>Paste Special</b> dialog box assumes that if you are willing to permit a user to link to an object, you are also willing to permit the user to embed that object. For this reason, if any of the OLEUIPASTE_LINKTYPE flags associated with the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a> enumeration are set, then the OLEUIPASTE_PASTE flag must also be set in order for the data formats to appear in the <b>Paste Special</b> dialog box.
 
@@ -462,11 +448,5 @@ void FreeHmetafilepict(HMETAFILEPICT hmfp)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a>
- 
-
- 
 

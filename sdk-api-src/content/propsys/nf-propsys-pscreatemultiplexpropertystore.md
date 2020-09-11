@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 4a6b5a10-5ef2-42c7-bf3b-dfa743be252f
 ms.date: 12/05/2018
 ms.keywords: PSCreateMultiplexPropertyStore, PSCreateMultiplexPropertyStore function [Windows Properties], _shell_PSCreateMultiplexPropertyStore, properties.PSCreateMultiplexPropertyStore, propsys/PSCreateMultiplexPropertyStore, shell.PSCreateMultiplexPropertyStore
-f1_keywords:
-- propsys/PSCreateMultiplexPropertyStore
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSCreateMultiplexPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSCreateMultiplexPropertyStore
+ - propsys/PSCreateMultiplexPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSCreateMultiplexPropertyStore
 ---
 
 # PSCreateMultiplexPropertyStore function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a read-only property store that contains multiple property stores, each of which must support either <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param prgpunkStores [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 Address of a pointer to an array of property stores that implement either <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>.
 
-
 ### -param cStores [in]
 
 Type: <b>DWORD</b>
 
 The number of elements in the array referenced in <i>prgpunkStores</i>.
-
 
 ### -param riid [in]
 
@@ -78,28 +72,19 @@ Type: <b>REFIID</b>
 
 Reference to the requested IID.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function creates a Component Object Model (COM) object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-inamedpropertystore">INamedPropertyStore</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider">IObjectProvider</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a>. The multiplex property store object aggregates the properties exposed from multiple property stores.
 
@@ -175,21 +160,11 @@ HRESULT CMyFactory::GetPropertyStore(__in GETPROPERTYSTOREFLAGS flags,
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorefactory">IPropertyStoreFactory</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatedelayedmultiplexpropertystore">PSCreateDelayedMultiplexPropertyStore</a>
- 
-
- 
 

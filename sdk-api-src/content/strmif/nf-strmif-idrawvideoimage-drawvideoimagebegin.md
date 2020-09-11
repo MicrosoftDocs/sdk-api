@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: a39125b3-15b1-428d-aa64-c1b2bccf616a
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageBegin, DrawVideoImageBegin method [DirectShow], DrawVideoImageBegin method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageBegin method, IDrawVideoImage.DrawVideoImageBegin, IDrawVideoImage::DrawVideoImageBegin, IDrawVideoImageDrawVideoImageBegin, dshow.idrawvideoimage_drawvideoimagebegin, strmif/IDrawVideoImage::DrawVideoImageBegin
-f1_keywords:
-- strmif/IDrawVideoImage.DrawVideoImageBegin
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IDrawVideoImage.DrawVideoImageBegin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDrawVideoImage::DrawVideoImageBegin
+ - strmif/IDrawVideoImage::DrawVideoImageBegin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IDrawVideoImage.DrawVideoImageBegin
 ---
 
 # IDrawVideoImage::DrawVideoImageBegin
@@ -49,25 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface has been deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>DrawVideoImageBegin</code> method turns off DirectDraw in preparation for a call to the <b>DrawVideoImageDraw</b> method.
 
-
-
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,22 +77,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idrawvideoimage">IDrawVideoImage Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimagedraw">IDrawVideoImage::DrawVideoImageDraw</a>
- 
-
- 
 

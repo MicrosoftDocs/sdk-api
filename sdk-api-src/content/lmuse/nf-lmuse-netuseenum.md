@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: fb527f85-baea-48e8-b837-967870834ec5
 ms.date: 12/05/2018
 ms.keywords: NetUseEnum, NetUseEnum function [Network Management], _win32_netuseenum, lmuse/NetUseEnum, netmgmt.netuseenum
-f1_keywords:
-- lmuse/NetUseEnum
-dev_langs:
-- c++
 req.header: lmuse.h
 req.include-header: Lm.h, Lmcons.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUseEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUseEnum
+ - lmuse/NetUseEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUseEnum
 ---
 
 # NetUseEnum function
 
 
 ## -description
-
 
 The
 				<b>NetUseEnum</b> function lists all current connections between the local computer and resources on remote servers.
@@ -57,18 +57,13 @@ You can also use the
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> functions to enumerate network resources or connections.
 
-
 ## -parameters
-
-
-
 
 ### -param UncServerName [in]
 
 The UNC name of the computer on which to execute this function. If this is parameter is <b>NULL</b>, then the local computer is used. If the <i>UncServerName</i> parameter specified is a remote computer, then the remote computer must support remote RPC calls using the legacy Remote Access Protocol mechanism.  
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
-
 
 ### -param LevelFlags [in]
 
@@ -118,14 +113,11 @@ Specifies information about the connection between a local device and a shared r
 </td>
 </tr>
 </table>
- 
-
 
 ### -param BufPtr [out]
 
 A pointer to the buffer that receives the information structures. The format of this data depends on the value of the <i>Level</i> parameter. This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function when the information is no longer needed. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
-
 
 ### -param PreferedMaximumSize [in]
 
@@ -133,25 +125,19 @@ The preferred maximum length, in bytes, of the data to return. If <b>MAX_PREFERR
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ### -param EntriesRead [out]
 
 A pointer to a value that receives the count of elements actually enumerated.
-
 
 ### -param TotalEntries [out]
 
 A pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. Note that applications should consider this value only as a hint.
 
-
 ### -param ResumeHandle [in, out]
 
 A pointer to a value that contains a resume handle which is used to continue the search. The handle should be zero on the first call and left unchanged for subsequent calls. If <i>ResumeHandle</i> is <b>NULL</b>, then no resume handle is stored.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -209,14 +195,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 No special group membership is required to call the 
 <b>NetUseEnum</b> function. This function cannot be executed on a remote server except in cases of downlevel compatibility using the legacy Remote Access Protocol.
@@ -226,15 +206,7 @@ To retrieve information about one network connection, you can call the
 
 This function applies only to the Server Message Block (LAN Manager Workstation) client. The <b>NetUseEnum</b> function does not support Distributed File System (DFS) shares. To enumerate shares using a different network provider (WebDAV or a DFS share, for example), use the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum">WNetCloseEnum</a> functions.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
 
@@ -275,7 +247,4 @@ This function applies only to the Server Message Block (LAN Manager Workstation)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a>
- 
-
- 
 

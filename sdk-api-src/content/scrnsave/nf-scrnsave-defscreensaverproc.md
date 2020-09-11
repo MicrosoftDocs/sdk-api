@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: eda5c4d4-0484-4c81-a699-5fedea0bd1c2
 ms.date: 12/05/2018
 ms.keywords: DefScreenSaverProc, DefScreenSaverProc function [Windows Shell], _win32_DefScreenSaverProc, scrnsave/DefScreenSaverProc, shell.DefScreenSaverProc
-f1_keywords:
-- scrnsave/DefScreenSaverProc
-dev_langs:
-- c++
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Scrnsave.lib
 req.dll: None
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- None
-api_name:
-- DefScreenSaverProc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DefScreenSaverProc
+ - scrnsave/DefScreenSaverProc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - None
+api_name:
+ - DefScreenSaverProc
 ---
 
 # DefScreenSaverProc function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides default processing for any messages that a screen saver application does not process.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd
 
 Type: <b>HWND</b>
 
 The identifier of the screen saver window.
-
 
 ### -param msg
 
@@ -73,13 +68,11 @@ The message to be processed. The <b>DefScreenSaverProc</b> function responds to 
 
 If a screen saver application must perform a different action in response to any of these messages, the application's <a href="https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc">ScreenSaverProc</a> window procedure should process the message.
 
-
 ### -param wParam
 
 Type: <b>WPARAM</b>
 
 Additional message-specific information.
-
 
 ### -param lParam
 
@@ -87,21 +80,13 @@ Type: <b>LPARAM</b>
 
 Additional message-specific information.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
 The return value specifies the result of the message processing and depends on the message sent.
 
-
-
-
 ## -remarks
-
-
 
 A screen saver application's <a href="https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc">ScreenSaverProc</a> window procedure should use <b>DefScreenSaverProc</b> instead of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to provide default message processing. The <b>DefScreenSaverProc</b> function passes any messages that do not affect screen saver operation to <b>DefWindowProc</b>.
 
@@ -143,7 +128,4 @@ The following table describes how the <b>DefScreenSaverProc</b> processes a vari
 <td>Returns <b>FALSE</b> if the <i>wParam</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> is either <b>SC_CLOSE</b> or <b>SC_SCREENSAVE</b>.</td>
 </tr>
 </table>
- 
-
-
 

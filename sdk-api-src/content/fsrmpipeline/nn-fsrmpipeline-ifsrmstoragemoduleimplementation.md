@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 8540f1f4-8ed1-4e4d-b940-3e232eb8c2d6
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleImplementation, IFsrmStorageModuleImplementation interface [File Server Resource Manager], IFsrmStorageModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmstoragemoduleimplementation, fsrm.ifsrmstoragemoduleimplementation, fsrm/IFsrmStorageModuleImplementation
-f1_keywords:
-- fsrmpipeline/IFsrmStorageModuleImplementation
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmStorageModuleImplementation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmStorageModuleImplementation
+ - fsrmpipeline/IFsrmStorageModuleImplementation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmStorageModuleImplementation
 ---
 
 # IFsrmStorageModuleImplementation interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Storage modules implement this interface.
-
 
 ## -inheritance
 
@@ -113,20 +112,13 @@ Specifies the property definitions FSRM recognizes.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a>
- 
-
- 
 

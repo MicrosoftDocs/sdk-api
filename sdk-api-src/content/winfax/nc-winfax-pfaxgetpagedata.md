@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3ko1.htm
 ms.date: 12/05/2018
 ms.keywords: FaxGetPageDataA, FaxGetPageDataW, PFAXGETPAGEDATA, PFAXGETPAGEDATA callback, PFAXGETPAGEDATA callback function [Fax Service], _mfax_faxgetpagedata, fax._mfax_faxgetpagedata, winfax/FaxGetPageDataA, winfax/FaxGetPageDataW, winfax/PFAXGETPAGEDATA
-f1_keywords:
-- winfax/PFAXGETPAGEDATA
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winfax.h
-api_name:
-- PFAXGETPAGEDATA
-- FaxGetPageDataA
-- FaxGetPageDataW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFAXGETPAGEDATA
+ - winfax/PFAXGETPAGEDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winfax.h
+api_name:
+ - PFAXGETPAGEDATA
+ - FaxGetPageDataA
+ - FaxGetPageDataW
 ---
 
 # PFAXGETPAGEDATA callback function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxGetPageData</b> function returns to a fax client application the first page of data for a fax job. The fax job must be an outbound job, but it can be queued or active. The function returns data in the Tagged Image File Format Class F (TIFF Class F) format.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
@@ -66,13 +62,11 @@ Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
 
-
 ### -param JobId [in]
 
 Type: <b>DWORD</b>
 
 Specifies a unique number that identifies the fax job associated with the page of data.
-
 
 ### -param *Buffer [out]
 
@@ -80,13 +74,11 @@ Type: <b>LPBYTE*</b>
 
 Pointer to the address of a buffer to receive the first page of data in the fax document. For information about memory allocation, see the following Remarks section.
 
-
 ### -param BufferSize [out]
 
 Type: <b>LPDWORD</b>
 
 Pointer to a <b>DWORD</b> variable to receive the size of the buffer, in bytes, pointed to by the <i>Buffer</i> parameter.
-
 
 ### -param ImageWidth [out]
 
@@ -94,17 +86,13 @@ Type: <b>LPDWORD</b>
 
 Pointer to a <b>DWORD</b> variable to receive the width, in pixels, of the fax image.
 
-
 ### -param ImageHeight [out]
 
 Type: <b>LPDWORD</b>
 
 Pointer to a <b>DWORD</b> variable to receive the height, in pixels, of the fax image.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -162,14 +150,8 @@ An invalid-data error occurred. For example, the fax job identified by the <i>Jo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A fax client application can call the <b>FaxGetPageData</b> function for administrative purposes, to display a thumbnail sketch of the fax documents in the fax queue.
 
@@ -179,13 +161,7 @@ The <b>FaxGetPageData</b> function allocates the memory required for the <i>Buff
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-displaying-documents-in-the-fax-job-queue">Displaying Documents in the Fax Job Queue</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
@@ -208,7 +184,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a>
- 
-
- 
 

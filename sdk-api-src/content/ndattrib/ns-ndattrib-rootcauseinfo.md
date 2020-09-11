@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 01d02658-ae12-4465-94fc-7a966dcdd8fb
 ms.date: 12/05/2018
 ms.keywords: '*PRootCauseInfo, RCF_ISCONFIRMED, RCF_ISLEAF, RCF_ISTHIRDPARTY, RootCauseInfo, RootCauseInfo structure [NDF], ndattrib/RootCauseInfo, ndf.rootcauseinfo'
-f1_keywords:
-- ndattrib/RootCauseInfo
-dev_langs:
-- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndattrib.h
-api_name:
-- RootCauseInfo
 targetos: Windows
 req.typenames: RootCauseInfo, *PRootCauseInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRootCauseInfo
+ - ndattrib/tagRootCauseInfo
+ - PRootCauseInfo
+ - ndattrib/PRootCauseInfo
+ - RootCauseInfo
+ - ndattrib/RootCauseInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndattrib.h
+api_name:
+ - RootCauseInfo
 ---
 
 # RootCauseInfo structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains detailed information about the root cause of an incident.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pwszDescription
 
@@ -64,13 +64,11 @@ Type: <b>LPWSTR</b>
 
 A string that describes the problem that caused the incident.
 
-
 ### -field rootCauseID
 
 Type: <b>GUID</b>
 
 The GUID that corresponds to the problem identified.
-
 
 ### -field rootCauseFlags
 
@@ -117,15 +115,12 @@ The root cause comes from a third-party helper class extension rather than a nat
 </td>
 </tr>
 </table>
- 
-
 
 ### -field networkInterfaceID
 
 Type: <b>GUID</b>
 
-GUID of the network interface on which the problem occurred. If the problem is not interface-specific, this value is zero (0).  
-
+GUID of the network interface on which the problem occurred. If the problem is not interface-specific, this value is zero (0).
 
 ### -field pRepairs
 
@@ -133,18 +128,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-nda
 
 The repairs that are available to try and fix the problem.
 
-
 ### -field repairCount
 
 Type: <b>USHORT</b>
 
-The number of repairs available. 
-
+The number of repairs available.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NDF/copyrootcauseinfo">CopyRootCauseInfo</a>
 
@@ -159,7 +149,4 @@ The number of repairs available.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-repairinfoex">RepairInfoEx</a>
- 
-
- 
 

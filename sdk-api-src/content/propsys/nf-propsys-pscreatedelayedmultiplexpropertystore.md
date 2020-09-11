@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 8b264d7e-6124-4724-8d23-605101705893
 ms.date: 12/05/2018
 ms.keywords: PSCreateDelayedMultiplexPropertyStore, PSCreateDelayedMultiplexPropertyStore function [Windows Properties], _shell_PSCreateDelayedMultiplexPropertyStore, properties.PSCreateDelayedMultiplexPropertyStore, propsys/PSCreateDelayedMultiplexPropertyStore, shell.PSCreateDelayedMultiplexPropertyStore
-f1_keywords:
-- propsys/PSCreateDelayedMultiplexPropertyStore
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSCreateDelayedMultiplexPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSCreateDelayedMultiplexPropertyStore
+ - propsys/PSCreateDelayedMultiplexPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSCreateDelayedMultiplexPropertyStore
 ---
 
 # PSCreateDelayedMultiplexPropertyStore function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a read-only, delayed-binding property store that contains multiple property stores.
 
-
 ## -parameters
-
-
-
 
 ### -param flags
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-prop
 
 One or more <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a> values. These values specify details of the created property store object.
 
-
 ### -param pdpsf
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-idelayedpropertystorefactory">IDelayedPropertyStoreFactory</a>*</b>
 
 Interface pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-idelayedpropertystorefactory">IDelayedPropertyStoreFactory</a>.
-
 
 ### -param rgStoreIds [in]
 
@@ -78,13 +72,11 @@ Type: <b>const DWORD*</b>
 
 Pointer to an array of property store IDs. This array does not need to be initialized.
 
-
 ### -param cStores [in]
 
 Type: <b>DWORD</b>
 
 The number of elements in the array pointed to by <i>rgStoreIds</i>.
-
 
 ### -param riid [in]
 
@@ -92,28 +84,19 @@ Type: <b>REFIID</b>
 
 Reference to the requested IID of the interface that will represent the created property store.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function creates a Component Object Model (COM) object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, 
  <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-inamedpropertystore">INamedPropertyStore</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider">IObjectProvider</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a>.
@@ -217,21 +200,11 @@ HRESULT CMyFactory::GetDelayedPropertyStore(GETPROPERTYSTOREFLAGS flags,
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorefactory">IPropertyStoreFactory</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatemultiplexpropertystore">PSCreateMultiplexPropertyStore</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: buses
 ms.assetid: 9b3b7d11-a91c-4905-b639-d9843f05d65e
 ms.date: 12/05/2018
 ms.keywords: IOCTL_USB_DIAGNOSTIC_MODE_ON, IOCTL_USB_DIAGNOSTIC_MODE_ON control, IOCTL_USB_DIAGNOSTIC_MODE_ON control code [Buses], buses.ioctl_usb_diagnostic_mode_on, usbirp_c1493559-ce0a-4b79-8c7b-5fff2f3c83b3.xml, usbuser/IOCTL_USB_DIAGNOSTIC_MODE_ON
-f1_keywords:
-- usbuser/IOCTL_USB_DIAGNOSTIC_MODE_ON
-dev_langs:
-- c++
 req.header: usbuser.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbuser.h
-api_name:
-- IOCTL_USB_DIAGNOSTIC_MODE_ON
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_USB_DIAGNOSTIC_MODE_ON
+ - usbuser/IOCTL_USB_DIAGNOSTIC_MODE_ON
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbuser.h
+api_name:
+ - IOCTL_USB_DIAGNOSTIC_MODE_ON
 ---
 
 # IOCTL_USB_DIAGNOSTIC_MODE_ON IOCTL
@@ -49,81 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IOCTL_USB_DIAGNOSTIC_MODE_ON</b> I/O control has been deprecated. Do not use.
-
-
-
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
-
 

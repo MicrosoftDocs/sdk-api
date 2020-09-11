@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: d45d1e73-eace-4611-a4a4-28706a19766c
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],Show method, IMathInputControl.Show, IMathInputControl::Show, Show, Show method [Tablet PC], Show method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::Show, tablet.imathinputcontrol_show
-f1_keywords:
-- micaut/IMathInputControl.Show
-dev_langs:
-- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- micaut.h
-api_name:
-- IMathInputControl.Show
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMathInputControl::Show
+ - micaut/IMathInputControl::Show
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - micaut.h
+api_name:
+ - IMathInputControl.Show
 ---
 
 # IMathInputControl::Show
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shows the control.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Shows the Math Input Control if it is not visible. If the control is already visible, puts the control on top of the z-order stack.
 If <a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a> is not called, <b>Show</b> will display the control at the top-left corner of the screen ((0, 0) in screen cooridnates). 
@@ -91,14 +78,7 @@ The control's width and height will be at their minimum.
     
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/creating-a-math-input-control">Creating a Math Input Control</a>
 
@@ -113,7 +93,4 @@ The control's width and height will be at their minimum.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
- 
-
- 
 

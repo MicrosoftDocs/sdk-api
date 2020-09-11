@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: a2d1758a-4a7e-40fd-84c7-a25bc36ab538
 ms.date: 12/05/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection class [Windows Management Instrumentation], TRefPointerCollection class [Windows Management Instrumentation],described, _hmm_trefpointercollection, refptrco/TRefPointerCollection, wmi.trefpointercollection
-f1_keywords:
-- refptrco/TRefPointerCollection
-dev_langs:
-- c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- TRefPointerCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TRefPointerCollection
+ - refptrco/TRefPointerCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - TRefPointerCollection
 ---
 
 # TRefPointerCollection class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>TRefPointerCollection</b> 
     class is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -136,14 +136,9 @@ Constructs a new <b>TRefPointerCollection</b> object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for this class is <b>TRefPointerCollection::~TRefPointerCollection</b>.
-
-
 

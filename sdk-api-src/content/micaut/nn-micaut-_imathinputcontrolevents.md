@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e055ab45-53a8-4795-aff6-72987faad5ef
 ms.date: 12/05/2018
 ms.keywords: _IMathInputControlEvents, _IMathInputControlEvents interface [Tablet PC], _IMathInputControlEvents interface [Tablet PC],described, micaut/_IMathInputControlEvents, tablet._imathinputcontrolevents
-f1_keywords:
-- micaut/_IMathInputControlEvents
-dev_langs:
-- c++
 req.header: micaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- micaut.h
-api_name:
-- _IMathInputControlEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IMathInputControlEvents
+ - micaut/_IMathInputControlEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - micaut.h
+api_name:
+ - _IMathInputControlEvents
 ---
 
 # _IMathInputControlEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>_IMathInputControlEvents</b> interface exposes the math input control event handlers.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Notifies the event handler when the buttons and background of the control requir
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.operator = (const XMFLOAT4)
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMFLOAT4.operator =, Use DirectX::::XMFLOAT4::operator =, XMFLOAT4 structure [DirectX Math Support APIs],operator = method, XMFLOAT4.operator =, XMFLOAT4.operator-assign(XMFLOAT4 &&), XMFLOAT4.operator=, XMFLOAT4::operator-assign(XMFLOAT4 &&), XMFLOAT4::operator=, dxmath.xmfloat4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT4 structure, operator=
-f1_keywords:
-- directxmath/XMFLOAT4.operator =
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT4.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - XMFLOAT4::operator=
+ - directxmath/XMFLOAT4::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT4.operator =
 ---
 
 # XMFLOAT4::operator-assign(XMFLOAT4 &&)
+
 
 ## -description
 
@@ -68,3 +70,4 @@ The current instance of <code>XMFLOAT4</code> whose vector component data has be
 <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a>
 
 <a href="https://msdn.microsoft.com/edbc8450-b5a2-476a-bbe8-b66676552607">XMFLOAT4 Operators</a>
+

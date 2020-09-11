@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: c8b94285-1b01-451b-9803-cc1bacb015ff
 ms.date: 12/05/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData
-f1_keywords:
-- winhttp/WinHttpWriteData
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpWriteData
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpWriteData
+ - winhttp/WinHttpWriteData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpWriteData
 ---
 
 # WinHttpWriteData function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpWriteData</b> function writes request data to an HTTP server.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
@@ -64,26 +60,20 @@ Valid
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>. Wait until <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a> has completed before calling  this function.
 
-
 ### -param lpBuffer [in]
 
 Pointer to a buffer that contains the data to be sent to the server. Be sure that this buffer remains valid until after <b>WinHttpWriteData</b> completes.
 
-
 ### -param dwNumberOfBytesToWrite [in]
 
 Unsigned long integer value that contains the number of bytes to be written to the file.
-
 
 ### -param lpdwNumberOfBytesWritten [out]
 
 Pointer to an unsigned long integer variable that receives the number of bytes written to the buffer. The 
 <b>WinHttpWriteData</b> function sets this value to zero before doing any work or error checking.  When using WinHTTP asynchronously, this parameter must be set to <b>NULL</b> and retrieve the information in the callback function. Not doing so can cause a memory fault.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are:
@@ -171,14 +161,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is  used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function can operate either synchronously or asynchronously.  If this function returns <b>FALSE</b>, you can call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information. If this function returns <b>TRUE</b>, use the WINHTTP_CALLBACK_STATUS_WRITE_COMPLETE completion to determine whether this function was successful and the value of the parameters.  The WINHTTP_CALLBACK_STATUS_REQUEST_ERROR completion indicates that the operation completed asynchronously, but failed.
@@ -272,14 +256,7 @@ This example shows code that  writes data to an HTTP server.  The server name su
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -298,7 +275,4 @@ This example shows code that  writes data to an HTTP server.  The server name su
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
- 
-
- 
 

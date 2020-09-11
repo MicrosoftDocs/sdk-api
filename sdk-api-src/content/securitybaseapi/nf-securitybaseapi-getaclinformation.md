@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 23ef6abd-03e9-439e-ba05-629c8d61cd66
 ms.date: 12/05/2018
 ms.keywords: GetAclInformation, GetAclInformation function [Security], _win32_getaclinformation, security.getaclinformation, securitybaseapi/GetAclInformation
-f1_keywords:
-- securitybaseapi/GetAclInformation
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- GetAclInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAclInformation
+ - securitybaseapi/GetAclInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - GetAclInformation
 ---
 
 # GetAclInformation function
@@ -56,30 +57,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAclInformation</b> function retrieves information about an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
-
 ## -parameters
-
-
-
 
 ### -param pAcl [in]
 
 A pointer to an 
 ACL. The function retrieves information about this ACL. If a null value is passed, the function causes an access violation.
 
-
 ### -param pAclInformation [out]
 
 A pointer to a buffer to receive the requested information. The structure that is placed into the buffer depends on the information class requested in the <i>dwAclInformationClass</i> parameter.
 
-
 ### -param nAclInformationLength [in]
 
 The size, in bytes, of the buffer pointed to by the <i>pAclInformation</i> parameter.
-
 
 ### -param dwAclInformationClass [in]
 
@@ -95,21 +88,13 @@ A value of the
 
 ## -returns
 
-
-
 If the function succeeds, the function returns nonzero.
       
 
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-acl_information_class">ACL_INFORMATION_CLASS</a>
 
@@ -144,7 +129,4 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation">SetAclInformation</a>
- 
-
- 
 

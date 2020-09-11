@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1e5ad753-bc35-4a98-83d8-82ffccbbe3ed
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAndActivateButton method, IDvdControl2.SelectAndActivateButton, IDvdControl2::SelectAndActivateButton, IDvdControl2SelectAndActivateButton, SelectAndActivateButton, SelectAndActivateButton method [DirectShow], SelectAndActivateButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectandactivatebutton, strmif/IDvdControl2::SelectAndActivateButton
-f1_keywords:
-- strmif/IDvdControl2.SelectAndActivateButton
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectAndActivateButton
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectAndActivateButton
+ - strmif/IDvdControl2::SelectAndActivateButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectAndActivateButton
 ---
 
 # IDvdControl2::SelectAndActivateButton
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectAndActivateButton</code> method selects and activates the specified menu button.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulButton [in]
 
 Value from 1 through 36 that specifies the button to select and activate.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -123,14 +113,8 @@ UOP control prohibits the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table shows the Annex J command name to which this method name corresponds, and the domains in which this method is valid.
 
@@ -152,15 +136,8 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -175,7 +152,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
- 
-
- 
 

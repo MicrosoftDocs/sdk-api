@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 473e4172-b57a-4fc6-9bb2-e916ac3c9a2f
 ms.date: 12/05/2018
 ms.keywords: GlobalMemoryStatus, GlobalMemoryStatus function, _win32_globalmemorystatus, base.globalmemorystatus, winbase/GlobalMemoryStatus
-f1_keywords:
-- winbase/GlobalMemoryStatus
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- GlobalMemoryStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GlobalMemoryStatus
+ - winbase/GlobalMemoryStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - GlobalMemoryStatus
 ---
 
 # GlobalMemoryStatus function
@@ -57,17 +58,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>GlobalMemoryStatus</b> can return incorrect information. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function instead.]
 
 Retrieves information about the system's current usage of both physical and virtual memory.
 
-
 ## -parameters
-
-
-
 
 ### -param lpBuffer [out]
 
@@ -75,10 +71,7 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-memorystatus">MEMORYSTATUS</a> structure. The 
 <b>GlobalMemoryStatus</b> function stores information about current memory availability into this structure.
 
-
 ## -remarks
-
-
 
 On computers with more than 4 GB of memory, the 
 <b>GlobalMemoryStatus</b> function can return incorrect information, reporting a value of –1 to indicate an overflow. For this reason, applications should use the 
@@ -93,13 +86,7 @@ On Intel x86 computers with more than 2 GB and less than 4 GB of memory, the
 The information returned by the 
 <b>GlobalMemoryStatus</b> function is volatile. There is no guarantee that two sequential calls to this function will return the same information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>
 
@@ -118,7 +105,4 @@ The information returned by the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-address-space-and-physical-storage">Virtual Address Space and Physical Storage</a>
- 
-
- 
 

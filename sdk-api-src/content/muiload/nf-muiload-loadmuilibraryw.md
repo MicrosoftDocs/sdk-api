@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 277067d8-c38d-4e79-9c1a-4e4af1987228
 ms.date: 12/05/2018
 ms.keywords: LoadMUILibrary, LoadMUILibrary function [Internationalization for Windows Applications], LoadMUILibraryA, LoadMUILibraryW, MUI_LANGUAGE_EXACT, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_LoadMUILibrary, intl.loadmuilibrary, muiload/LoadMUILibrary, muiload/LoadMUILibraryA, muiload/LoadMUILibraryW
-f1_keywords:
-- muiload/LoadMUILibrary
-dev_langs:
-- c++
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Muiload.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Muiload.lib
-api_name:
-- LoadMUILibrary
-- LoadMUILibraryA
-- LoadMUILibraryW
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in the Windows SDK for Windows 7 which can be run on Windows 2000 Professional, Windows 2000 Server, Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7.
 ms.custom: 19H1
+f1_keywords:
+ - LoadMUILibraryW
+ - muiload/LoadMUILibraryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Muiload.lib
+api_name:
+ - LoadMUILibrary
+ - LoadMUILibraryA
+ - LoadMUILibraryW
 ---
 
 # LoadMUILibraryW function
@@ -51,19 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file.
 <div class="alert"><b>Note</b>  To ensure that the DLL is unloaded correctly, your applications should match each call to <b>LoadMUILibrary</b> with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary">FreeMUILibrary</a>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pszFullModuleName [in]
 
 Pointer to a null-terminated string specifying the name of an LN file.
-
 
 ### -param dwLangConvention [in]
 
@@ -116,8 +112,6 @@ If resources for the identified language are not found in the resource files, ch
 </td>
 </tr>
 </table>
- 
-
 
 ### -param LangID [in]
 
@@ -144,18 +138,11 @@ Language identifier for the user interface resources on a pre-Windows Vista ope
 
 ## -returns
 
-
-
 Returns a handle to the appropriate language-specific resource file if successful.
 
 This function returns <b>NULL</b> if it fails. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function allows applications developed using the Win32 MUI resource technology to determine correctly the language-specific resource file to load on pre-Windows Vista operating systems. Applications using this function do not specifically have to be built on Windows Vista, but they do have to link statically with the MUILoad library provided in the Microsoft Windows SDK for Windows Vista. This function requires the executable and language-specific resource files to be stored using standard conventions. See <a href="https://docs.microsoft.com/windows/desktop/Intl/application-deployment">Application Deployment</a> for further information about file placement.
 
@@ -185,9 +172,6 @@ The state of the language identifier in the <i>LangID</i> parameter affects reso
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary">FreeMUILibrary</a>
 
 
@@ -197,7 +181,4 @@ The state of the language identifier in the <i>LangID</i> parameter affects reso
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
- 
-
- 
 

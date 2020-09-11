@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 057608eb-7209-4714-bf02-660a13d59016
 ms.date: 12/05/2018
 ms.keywords: SetDCPenColor, SetDCPenColor function [Windows GDI], _win32_SetDCPenColor, gdi.setdcpencolor, wingdi/SetDCPenColor
-f1_keywords:
-- wingdi/SetDCPenColor
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SetDCPenColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDCPenColor
+ - wingdi/SetDCPenColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SetDCPenColor
 ---
 
 # SetDCPenColor function
@@ -51,37 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>SetDCPenColor</b> function sets the current device context (DC) pen color to the specified color value. If the device cannot represent the specified color value, the color is set to the nearest physical color.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the DC.
 
-
 ### -param color [in]
 
 The new pen color.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the previous DC pen color as a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value. If the function fails, the return value is CLR_INVALID.
 
-
-
-
 ## -remarks
-
-
 
 The function returns the previous DC_PEN color, even if the stock pen DC_PEN is not selected in the DC; however, this will not be used in drawing operations until the stock DC_PEN is selected in the DC.
 
@@ -96,12 +83,7 @@ For an example of setting colors, see <a href="https://docs.microsoft.com/window
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
@@ -117,7 +99,4 @@ For an example of setting colors, see <a href="https://docs.microsoft.com/window
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdcpencolor">GetDCPenColor
       </a>
- 
-
- 
 

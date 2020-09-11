@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: dee4224e-bc94-42aa-95b9-226f13fd51ae
 ms.date: 12/05/2018
 ms.keywords: ValidateLog, ValidateLog function [Files], clfsw32/ValidateLog, fs.validatelogrestore
-f1_keywords:
-- clfsw32/ValidateLog
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- ValidateLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ValidateLog
+ - clfsw32/ValidateLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - ValidateLog
 ---
 
 # ValidateLog function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Validates the consistency of   the log metadata and data before log archive and after log restore.
 
-
 ## -parameters
-
-
-
 
 ### -param pszLogFileName [in]
 
@@ -72,18 +68,15 @@ The  name is specified when creating the log  by using  <a href="https://docs.mi
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
 
-
 ### -param psaLogFile [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
 
 This parameter can be <b>NULL</b>.
 
-
 ### -param pinfoBuffer [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a> structure that receives log metadata. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a> structure that receives log metadata.
 
 ### -param pcbBuffer [in, out]
 
@@ -91,10 +84,7 @@ A pointer to a variable that, on input, specifies the size of the <i>pinfoBuffer
 
 On output, it receives the amount of information that is copied to the buffer, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -104,13 +94,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The following list identifies the  possible error codes:
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a>
 
@@ -121,7 +105,4 @@ The following list identifies the  possible error codes:
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
- 
-
- 
 

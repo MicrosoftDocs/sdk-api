@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 408291ca-66fe-4f4a-8f6e-3a1b60eb2d15
 ms.date: 12/05/2018
 ms.keywords: WINBIO_EVENT_FP_UNCLAIMED, WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY, WinBioRegisterEventMonitor, WinBioRegisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbioregistereventmonitor, winbio/WinBioRegisterEventMonitor
-f1_keywords:
-- winbio/WinBioRegisterEventMonitor
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioRegisterEventMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioRegisterEventMonitor
+ - winbio/WinBioRegisterEventMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioRegisterEventMonitor
 ---
 
 # WinBioRegisterEventMonitor function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinBioRegisterEventMonitor</b> function Registers a callback function to receive event notifications from the service provider associated with an open session.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies the open biometric session. Open the session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>.
-
 
 ### -param EventMask [in]
 
@@ -78,20 +73,15 @@ A value that specifies the types of events to monitor. Only the fingerprint prov
 
 ###### )
 
-
 ### -param EventCallback [in]
 
 Address of a callback function that receives the event notifications sent by the Windows Biometric Framework. You must define this function.
-
 
 ### -param EventCallbackContext [in]
 
 An optional application-defined value that is returned in the <i>pvContext</i> parameter of the callback function. This value can contain any data that the custom callback function is designed to handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -156,14 +146,8 @@ The service provider does not support event notification.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is only valid for sessions connected to a System sensor pool.
 
@@ -365,21 +349,11 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiounregistereventmonitor">WinBioUnregisterEventMonitor</a>
- 
-
- 
 

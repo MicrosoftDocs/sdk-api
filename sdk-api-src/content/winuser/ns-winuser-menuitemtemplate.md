@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuitemtemplate.htm
 ms.date: 12/05/2018
 ms.keywords: '*PMENUITEMTEMPLATE, MENUITEMTEMPLATE, MENUITEMTEMPLATE structure [Menus and Other Resources], MF_CHECKED, MF_GRAYED, MF_HELP, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, PMENUITEMTEMPLATE, PMENUITEMTEMPLATE structure pointer [Menus and Other Resources], _win32_MENUITEMTEMPLATE_str, _win32_menuitemtemplate_str_cpp, menurc.menuitemtemplate, winui._win32_menuitemtemplate_str, winuser/MENUITEMTEMPLATE, winuser/PMENUITEMTEMPLATE'
-f1_keywords:
-- winuser/MENUITEMTEMPLATE
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MENUITEMTEMPLATE
 targetos: Windows
 req.typenames: MENUITEMTEMPLATE, *PMENUITEMTEMPLATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PMENUITEMTEMPLATE
+ - winuser/PMENUITEMTEMPLATE
+ - MENUITEMTEMPLATE
+ - winuser/MENUITEMTEMPLATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MENUITEMTEMPLATE
 ---
 
 # MENUITEMTEMPLATE structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines a menu item in a menu template. 
-
+Defines a menu item in a menu template.
 
 ## -struct-fields
-
-
-
 
 ### -field mtOption
 
@@ -147,28 +145,21 @@ Indicates that the item is one that opens a drop-down menu or submenu.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field mtID
 
 Type: <b>WORD</b>
 
 The menu item identifier of a command item; a command item sends a command message to its owner window. The <b>MENUITEMTEMPLATE</b> structure for an item that opens a drop-down menu or submenu does not contain the 
-					<b>mtID</b> member. 
-
+					<b>mtID</b> member.
 
 ### -field mtString
 
 Type: <b>WCHAR[1]</b>
 
-The menu item. 
-
+The menu item.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -187,7 +178,4 @@ The menu item.
 
 
 <b>Reference</b>
- 
-
- 
 

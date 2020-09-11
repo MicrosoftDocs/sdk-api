@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: c2ba04ea-0f98-4513-b8f8-658056a493e6
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_SZ_VALUE, PRESUTIL_GET_SZ_VALUE function [Failover Cluster], ResUtilGetSzValue, ResUtilGetSzValue function [Failover Cluster], _wolf_resutilgetszvalue, mscs.resutilgetszvalue, resapi/PRESUTIL_GET_SZ_VALUE, resapi/ResUtilGetSzValue
-f1_keywords:
-- resapi/ResUtilGetSzValue
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilGetSzValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetSzValue
+ - resapi/ResUtilGetSzValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilGetSzValue
 ---
 
 # ResUtilGetSzValue function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a string value from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hkeyClusterKey [in]
 
 Key identifying the location of the value in the cluster database.
 
-
 ### -param pszValueName [in]
 
 A null-terminated Unicode string containing the name of the value to retrieve.
 
-
 ## -returns
-
-
 
 If the operation succeeds, 
 the function returns a pointer to a buffer containing the string value.
@@ -78,24 +70,13 @@ the function returns a pointer to a buffer containing the string value.
 If the operation fails, 
 the function returns <b>NULL</b>. For more information, call the function  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The  <b>ResUtilGetSzValue</b> utility function allocates the necessary memory for the string parameter value before calling the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a> to access the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>. When you are finished with this memory, you must call the function  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release it.
 
 <b>ResUtilGetSzValue</b> also supports expandable and multiple string formats.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
 
@@ -114,7 +95,4 @@ The  <b>ResUtilGetSzValue</b> utility function allocates the necessary memory fo
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszvalue">ResUtilGetMultiSzValue</a>
- 
-
- 
 

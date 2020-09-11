@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawcurvemethods\drawcurve_65penpen_pointfpoints_intcount_intoffset.htm
 ms.date: 12/05/2018
 ms.keywords: DrawCurve, DrawCurve method [GDI+], DrawCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawCurve method, Graphics.DrawCurve, Graphics.DrawCurve(IN const Pen,IN const PointF,IN INT,IN INT,IN INT,IN REAL), Graphics.DrawCurve(const Pen*,const PointF*,INT,INT,INT,REAL), Graphics::DrawCurve, Graphics::DrawCurve(IN const Pen,IN const PointF,IN INT,IN INT,IN INT,IN REAL), _gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_INT_count_INT_offset_INT_numberOfSegments_RE, gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_INT_count_INT_offset_INT_numberOfSegments_RE
-f1_keywords:
-- gdiplusgraphics/Graphics.DrawCurve
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.DrawCurve
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::DrawCurve
+ - gdiplusgraphics/Graphics::DrawCurve
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.DrawCurve
 ---
 
 # Graphics::DrawCurve(IN const Pen,IN const PointF,IN INT,IN INT,IN INT,IN REAL)
@@ -50,63 +51,50 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::DrawCurve</b> method draws a cardinal spline.
 
-
 ## -parameters
-
-
-
 
 ### -param pen [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>*</b>
 
-Pointer to a pen that is used to draw the cardinal spline. 
-
+Pointer to a pen that is used to draw the cardinal spline.
 
 ### -param points [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>*</b>
 
 Pointer to an array of 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects that specify the coordinates that the cardinal spline passes through. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects that specify the coordinates that the cardinal spline passes through.
 
 ### -param count [in]
 
 Type: <b>INT</b>
 
 Integer that specifies the number of elements in the 
-					<i>points</i> array. 
-
+					<i>points</i> array.
 
 ### -param offset [in]
 
 Type: <b>INT</b>
 
 Integer that specifies the element in the 
-					<i>points</i> array that specifies the point at which the cardinal spline begins. 
-
+					<i>points</i> array that specifies the point at which the cardinal spline begins.
 
 ### -param numberOfSegments [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the number of segments in the cardinal spline. 
-
+Integer that specifies the number of segments in the cardinal spline.
 
 ### -param tension [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies how tightly the curve bends through the coordinates of the cardinal spline. 
-
+Real number that specifies how tightly the curve bends through the coordinates of the cardinal spline.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -116,12 +104,7 @@ If the method succeeds, it returns Ok, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 A segment is defined as a curve that connects two consecutive points in the cardinal spline. The ending point of each segment is the starting point for the next. The 
 				<i>numberOfSegments</i> parameter must not be greater than the 
@@ -173,14 +156,7 @@ VOID Example_DrawCurve5(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-cardinal-splines-about">Cardinal Splines</a>
 
@@ -203,7 +179,4 @@ VOID Example_DrawCurve5(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
- 
-
- 
 

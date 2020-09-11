@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 8e3671b0-49f5-4d8b-b2ab-51a976316191
 ms.date: 12/05/2018
 ms.keywords: CachedAriaRole property [Windows Accessibility], CachedAriaRole property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAriaRole property, IUIAutomationElement.CachedAriaRole, IUIAutomationElement.get_CachedAriaRole, IUIAutomationElement::CachedAriaRole, IUIAutomationElement::get_CachedAriaRole, get_CachedAriaRole, uiauto.uiauto_IUIAutomationElement_CachedAriaRole, uiauto_IUIAutomationElement_CachedAriaRole, uiautomationclient/IUIAutomationElement::CachedAriaRole, uiautomationclient/IUIAutomationElement::get_CachedAriaRole, winauto.uiauto_IUIAutomationElement_CachedAriaRole
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.CachedAriaRole
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.CachedAriaRole
-- IUIAutomationElement.get_CachedAriaRole
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::get_CachedAriaRole
+ - uiautomationclient/IUIAutomationElement::get_CachedAriaRole
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.CachedAriaRole
+ - IUIAutomationElement.get_CachedAriaRole
 ---
 
 # IUIAutomationElement::get_CachedAriaRole
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cached Accessible Rich Internet Applications (ARIA) role of the element.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
@@ -93,7 +88,4 @@ This property is read-only.
 
 
 <a href="https://www.w3.org/WAI/intro/aria">WAI-ARIA Overview</a>
- 
-
- 
 

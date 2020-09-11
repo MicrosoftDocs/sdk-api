@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: a07bacbd-3d45-4733-a506-3c54ec10b634
 ms.date: 12/05/2018
 ms.keywords: GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetBorderColor method, IMFPMediaPlayer.GetBorderColor, IMFPMediaPlayer::GetBorderColor, mf.imfpmediaplayer_getbordercolor, mfplay/IMFPMediaPlayer::GetBorderColor
-f1_keywords:
-- mfplay/IMFPMediaPlayer.GetBorderColor
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.GetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::GetBorderColor
+ - mfplay/IMFPMediaPlayer::GetBorderColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.GetBorderColor
 ---
 
 # IMFPMediaPlayer::GetBorderColor
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Gets the current color of the video border. The border color is used to letterbox the video.
 
-
 ## -parameters
-
-
-
 
 ### -param pClr [out]
 
 Receives the border color as a <b>COLORREF</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,22 +105,12 @@ The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-m
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

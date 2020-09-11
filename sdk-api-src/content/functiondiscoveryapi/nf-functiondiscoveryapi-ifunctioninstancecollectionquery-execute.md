@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: b924d066-87d7-499b-b006-a10e219e11fd
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,Execute method, IFunctionInstanceCollectionQuery.Execute, IFunctionInstanceCollectionQuery::Execute, functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute, ncd.ifunctioninstancecollectionquery_execute_method
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceCollectionQuery.Execute
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceCollectionQuery.Execute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceCollectionQuery::Execute
+ - functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceCollectionQuery.Execute
 ---
 
 # IFunctionInstanceCollectionQuery::Execute
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Performs the query defined by <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery">IFunctionDiscovery::CreateInstanceCollectionQuery</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ppIFunctionInstanceCollection [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a> interface pointer that receives the requested function instance collection.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -125,12 +118,7 @@ When <b>Execute</b> returns <b>S_OK</b>, <i>ppIFunctionInstanceCollection</i> co
 
 When <b>Execute</b> returns <b>E_PENDING</b>, the result set will be returned asynchronously through the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface provided to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery">CreateInstanceCollectionQuery</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>.  <i>ppIFunctionInstanceCollection</i> may be <b>NULL</b> or may contain a partial result set.  The enumeration is complete once the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onevent">OnEvent</a> method of  <b>IFunctionDiscoveryNotification</b> is called with <b>FD_EVENTID_SEARCHCOMPLETE</b>.  After the <b>FD_EVENTID_SEARCHCOMPLETE</b> event is received, additional notifications are updates to the results.
 
-
-
-
 ## -remarks
-
-
 
 This method must be must be invoked by the client program before any data can be retrieved from the query object. When called, this method performs the following: 
 
@@ -144,20 +132,11 @@ This method must be must be invoked by the client program before any data can be
 </ol>
 Function Discovery network providers only return function instances through the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.  They return no function instances directly when this method is invoked. Instead, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancequery-execute">Execute</a> simply initiates an entirely asynchronous retrieval operation and returns <b>E_PENDING</b> to indicate that the results will be returned asynchronously.   Notifications must be used to retrieve function instances from Function Discovery network providers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a>
- 
-
- 
 

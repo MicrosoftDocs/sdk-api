@@ -6,10 +6,6 @@ tech.root: fs
 helpviewer_keywords: ["TxfSetThreadMiniVersionForCreate"]
 ms.date: 4/26/2019
 ms.keywords: TxfSetThreadMiniVersionForCreate
-f1_keywords:
-- TxfSetThreadMiniVersionForCreate
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,15 +26,20 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - TxfSetThreadMiniVersionForCreate
+ - txfw32/TxfSetThreadMiniVersionForCreate
+dev_langs:
+ - c++
 topic_type:
-- apiref
-- kbSyntax
+ - apiref
+ - kbSyntax
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- TxfW32.dll
+ - TxfW32.dll
 api_name:
-- TxfSetThreadMiniVersionForCreate
+ - TxfSetThreadMiniVersionForCreate
 ---
 
 ## -description

@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 4dfed9d7-e51b-425c-9f27-014229c140be
 ms.date: 12/05/2018
 ms.keywords: FWPM_FILTER_CONDITION0, FWPM_FILTER_CONDITION0 structure [Filtering], fwp.fwpm_filter_condition0_struct, fwpmtypes/FWPM_FILTER_CONDITION0
-f1_keywords:
-- fwpmtypes/FWPM_FILTER_CONDITION0
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_FILTER_CONDITION0
 targetos: Windows
 req.typenames: FWPM_FILTER_CONDITION0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_FILTER_CONDITION0_
+ - fwpmtypes/FWPM_FILTER_CONDITION0_
+ - FWPM_FILTER_CONDITION0
+ - fwpmtypes/FWPM_FILTER_CONDITION0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_FILTER_CONDITION0
 ---
 
 # FWPM_FILTER_CONDITION0 structure
@@ -49,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_FILTER_CONDITION0</b> structure expresses a filter condition that must be true for the action to be taken.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fieldKey
 
 GUID of the field to be tested.
 
-
 ### -field matchType
 
 A [FWP_MATCH_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_match_type) value that specifies the type of match to be performed.
-
 
 ### -field conditionValue
 
 A [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0) structure that contains the value to match the field against.
 
-
 ## -remarks
-
-
 
 Field GUIDs are
    only unique within a layer, so both the field GUID and the layer GUID are required to uniquely identify a
@@ -150,14 +143,7 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)
 
@@ -168,7 +154,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: controls
 ms.assetid: 1b909caf-2d69-42b9-8d60-5d89a0286f59
 ms.date: 12/05/2018
 ms.keywords: POINTER_DEVICE_INFO, POINTER_DEVICE_INFO structure, input_pointerdevice.pointer_device_info, tagPOINTER_DEVICE_INFO, unifiedinputstack.pointer_device_info, winuser/POINTER_DEVICE_INFO
-f1_keywords:
-- winuser/POINTER_DEVICE_INFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- POINTER_DEVICE_INFO
 targetos: Windows
 req.typenames: POINTER_DEVICE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagPOINTER_DEVICE_INFO
+ - winuser/tagPOINTER_DEVICE_INFO
+ - POINTER_DEVICE_INFO
+ - winuser/POINTER_DEVICE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - POINTER_DEVICE_INFO
 ---
 
 # POINTER_DEVICE_INFO structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a pointer device. An array of these structures is returned  from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevices">GetPointerDevices</a> function. A single structure is returned from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevice">GetPointerDevice</a> function. 
-
+Contains information about a pointer device. An array of these structures is returned  from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevices">GetPointerDevices</a> function. A single structure is returned from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevice">GetPointerDevice</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field displayOrientation
 
@@ -69,39 +67,27 @@ Contains information about a pointer device. An array of these structures is ret
 
 The handle to the pointer device.
 
-
 ### -field pointerDeviceType
 
 The device type.
-
 
 ### -field monitor
 
 The HMONITOR for the display that the device is mapped to. This is not necessarily the monitor that the pointer device is physically connected to.
 
-
 ### -field startingCursorId
 
 The lowest ID that's assigned to the device.
-
 
 ### -field maxActiveContacts
 
 The number of supported simultaneous contacts.
 
-
 ### -field productString
 
 The string that identifies the product.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
- 
-
- 
 

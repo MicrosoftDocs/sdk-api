@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 01aee262-95c0-4065-8f8c-e21db66f2a8c
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISessionProperties interface [RDP],Property property, IRDPSRAPISessionProperties.Property, IRDPSRAPISessionProperties.put_Property, IRDPSRAPISessionProperties::Property, IRDPSRAPISessionProperties::get_Property, IRDPSRAPISessionProperties::put_Property, Property property [RDP], Property property [RDP],IRDPSRAPISessionProperties interface, Property property [RDP],RDPSRAPISessionProperties object, RDPSRAPISessionProperties object [RDP],Property property, put_Property, rdp.irdpsrapisessionproperties_property, rdpencomapi/IRDPSRAPISessionProperties::Property, rdpencomapi/IRDPSRAPISessionProperties::get_Property, rdpencomapi/IRDPSRAPISessionProperties::put_Property
-f1_keywords:
-- rdpencomapi/IRDPSRAPISessionProperties.Property
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPISessionProperties.Property
-- IRDPSRAPISessionProperties.get_Property
-- IRDPSRAPISessionProperties.put_Property
-- RDPSRAPISessionProperties.Property
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPISessionProperties::put_Property
+ - rdpencomapi/IRDPSRAPISessionProperties::put_Property
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPISessionProperties.Property
+ - IRDPSRAPISessionProperties.get_Property
+ - IRDPSRAPISessionProperties.put_Property
+ - RDPSRAPISessionProperties.Property
 ---
 
 # IRDPSRAPISessionProperties::put_Property
@@ -52,18 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or gets a named session property.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You can set and get the following properties. The property names are case-sensitive.
 
@@ -291,18 +287,8 @@ This property is valid for the sharer side only.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisessionproperties">IRDPSRAPISessionProperties</a>
- 
-
- 
 

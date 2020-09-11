@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1F630AFF-3C73-461C-AE41-D597F6FF42D8
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings2, IApplicationDesignModeSettings2 interface [Windows Shell], IApplicationDesignModeSettings2 interface [Windows Shell],described, shell.IApplicationDesignModeSettings2, shobjidl_core/IApplicationDesignModeSettings2
-f1_keywords:
-- shobjidl_core/IApplicationDesignModeSettings2
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Twinapi.lib
 req.dll: Twinapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- twinapi.dll
-api_name:
-- IApplicationDesignModeSettings2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationDesignModeSettings2
+ - shobjidl_core/IApplicationDesignModeSettings2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - twinapi.dll
+api_name:
+ - IApplicationDesignModeSettings2
 ---
 
 # IApplicationDesignModeSettings2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables development tool applications to dynamically control system and user states, such as native display resolution, device scale factor, and application view layout, reported to Windows Store apps for the purpose of testing Windows Store apps running in design mode for a wide range of form factors without the need for the actual hardware. Also enables testing of changes in normally user-controlled state to test Windows Store apps under a variety of scenarios.
-
 
 ## -inheritance
 
@@ -131,12 +130,9 @@ Sets the orientation of the emulated display for the design mode window.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is acquired by cocreating CLSID_ApplicationDesignModeSettings. It is an extension of the original <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a> interface.
 
@@ -220,17 +216,7 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>
- 
-
- 
 

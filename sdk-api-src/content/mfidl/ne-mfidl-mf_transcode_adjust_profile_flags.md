@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 65d7350f-a9d9-43c0-b3b6-c6169a727b4e
 ms.date: 12/05/2018
 ms.keywords: MF_TRANSCODE_ADJUST_PROFILE_DEFAULT, MF_TRANSCODE_ADJUST_PROFILE_FLAGS, MF_TRANSCODE_ADJUST_PROFILE_FLAGS enumeration [Media Foundation], MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES, mf.mf_transcode_adjust_profile_flags, mfidl/MF_TRANSCODE_ADJUST_PROFILE_DEFAULT, mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS, mfidl/MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES
-f1_keywords:
-- mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 targetos: Windows
 req.typenames: MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+ - mfidl/_MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+ - MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+ - mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 ---
 
 # MF_TRANSCODE_ADJUST_PROFILE_FLAGS enumeration
@@ -49,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the profile flags that are set in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-adjust-profile">MF_TRANSCODE_ADJUST_PROFILE</a> attribute.
 
 These flags are checked by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodetopology">MFCreateTranscodeTopology</a> during topology building. Based on these flags, <b>MFCreateTranscodeTopology</b> adjusts the  transcode profile by modifying the configuration settings for the streams according to the input requirements of the encoder used in the topology. 
 
 For more information about the stream settings that an application can specify, see <a href="https://docs.microsoft.com/windows/desktop/medfound/fast-transcode-objects">Using the Transcode API</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MF_TRANSCODE_ADJUST_PROFILE_DEFAULT
 
-Media Foundation uses the application-specified settings for audio and video streams. If the required settings are not provided by the application, the topology is created but the encoding session fails. For the video stream, the frame rate and the interlace mode settings are modified. For more information, see Remarks. 
- 
-
+Media Foundation uses the application-specified settings for audio and video streams. If the required settings are not provided by the application, the topology is created but the encoding session fails. For the video stream, the frame rate and the interlace mode settings are modified. For more information, see Remarks.
 
 ### -field MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES
 
 For both audio and video streams, the missing stream settings are filled by copying the input source attributes. This flag ensures the transcoded output file is the closest match to the input file.
 
-
 ## -remarks
-
-
 
 If the <b>MF_TRANSCODE_ADJUST_PROFILE_DEFAULT</b> flag is specified, the following changes are made for the video stream:
 
@@ -122,22 +115,13 @@ The <b>MF_TRANSCODE_ADJUST_PROFILE_DEFAULT</b> flag must be accompanied with the
 
 Use the <b>MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES</b> flag when you want to transcode the file by using the input stream attributes. The input source stream attributes are copied to the output media type before the MFT node is inserted in the topology. If you set additional stream attributes, this flag does not overwrite the set values. Only the missing attributes are filled with the input source's attribute values. This flag is useful in remux scenario where you want to generate the output file in the same format as the input source. If you want to perform format conversion, make sure you set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-subtype-attribute">MF_MT_SUBTYPE</a>  attribute for the stream to specify the encoder that topology builder must use. The transform node is added in the topology unless <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-donot-insert-encoder">MF_TRANSCODE_DONOT_INSERT_ENCODER</a> is set. In this case, and the content is not encoded. Instead, if permitted by the container, the content is embedded in the specified container. 
 
-For example, assume that your input source is an MP3 file.  You set the container to be <b>MFTranscodeContainerType_ASF</b>, you do not set any stream attributes, and you set the <b>MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES</b> flag. In this case, the generated output file is an ASF file (.wma)  containing MP3 media data. Note that if you use this flag, certain input stream attributes and the container type might not be compatible. 
-
-
-
+For example, assume that your input source is an MP3 file.  You set the container to be <b>MFTranscodeContainerType_ASF</b>, you do not set any stream attributes, and you set the <b>MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES</b> flag. In this case, the generated output file is an ASF file (.wma)  containing MP3 media data. Note that if you use this flag, certain input stream attributes and the container type might not be compatible.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/transcode-api">Transcode API</a>
- 
-
- 
 

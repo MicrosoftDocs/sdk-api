@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 6a9dd862-754a-48e3-8be5-d1fbd1d38f2b
 ms.date: 12/05/2018
 ms.keywords: CreateErrorInfo, CreateErrorInfo function [Automation], _oa96_CreateErrorInfo, automat.createerrorinfo, oleauto/CreateErrorInfo
-f1_keywords:
-- oleauto/CreateErrorInfo
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-- API-MS-Win-Downlevel-OLE32-l1-1-1.dll
-- ComBase.dll
-api_name:
-- CreateErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateErrorInfo
+ - oleauto/CreateErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+ - API-MS-Win-Downlevel-OLE32-l1-1-1.dll
+ - ComBase.dll
+api_name:
+ - CreateErrorInfo
 ---
 
 # CreateErrorInfo function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of a generic error object.
 
-
 ## -parameters
-
-
-
 
 ### -param pperrinfo [out]
 
 A system-implemented generic error object.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -100,27 +93,12 @@ Could not create the error object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function returns a pointer to a generic error object, which you can use with <b>QueryInterface</b> on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a> to set its contents. You can then pass the resulting object to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>. The generic error object implements both <b>ICreateErrorInfo</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/error-handling-api-functions">Error-Handling API Functions</a>
- 
-
- 
 

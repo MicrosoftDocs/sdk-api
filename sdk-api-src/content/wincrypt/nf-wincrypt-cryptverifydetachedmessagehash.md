@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b529b9e2-9798-4548-a44f-c330524a3e6b
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyDetachedMessageHash, CryptVerifyDetachedMessageHash function [Security], _crypto2_cryptverifydetachedmessagehash, security.cryptverifydetachedmessagehash, wincrypt/CryptVerifyDetachedMessageHash
-f1_keywords:
-- wincrypt/CryptVerifyDetachedMessageHash
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptVerifyDetachedMessageHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifyDetachedMessageHash
+ - wincrypt/CryptVerifyDetachedMessageHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptVerifyDetachedMessageHash
 ---
 
 # CryptVerifyDetachedMessageHash function
@@ -49,46 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptVerifyDetachedMessageHash</b> function verifies a detached <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pHashPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_hash_message_para">CRYPT_HASH_MESSAGE_PARA</a> structure containing the hash parameters.
 
-
 ### -param pbDetachedHashBlob [in]
 
 A pointer to the encoded, detached hash.
-
 
 ### -param cbDetachedHashBlob [in]
 
 The size, in bytes, of the detached hash.
 
-
 ### -param cToBeHashed [in]
 
 Number of elements in the <i>rgpbToBeHashed</i> and <i>rgcbToBeHashed</i> arrays.
-
 
 ### -param rgpbToBeHashed [in]
 
 Array of pointers to content buffers to be hashed.
 
-
 ### -param rgcbToBeHashed [in]
 
 Array of sizes, in bytes, for the content buffers pointed to by the elements of the <i>rgcbToBeHashed</i> array.
-					
-
 
 ### -param pbComputedHash [out]
 
@@ -99,7 +88,6 @@ A pointer to a buffer to receive the computed hash.
 
 This parameter can be <b>NULL</b> if the newly created hash is not needed for additional processing, or to set the size of the hash for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbComputedHash [in, out]
 
@@ -112,8 +100,6 @@ A pointer to a <b>DWORD</b> specifying the size, in bytes, of the <i>pbComputedH
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -175,19 +161,11 @@ If the buffer specified by the <i>pbComputedHash</i> parameter is not large enou
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagehash">CryptVerifyMessageHash</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

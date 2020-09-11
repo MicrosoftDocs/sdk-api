@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 8bde633b-b04a-4a21-82ce-f5aab1d32d95
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Next method, IEnumWbemClassObject.Next, IEnumWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next
-f1_keywords:
-- wbemcli/IEnumWbemClassObject.Next
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-api_name:
-- IEnumWbemClassObject.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWbemClassObject::Next
+ - wbemcli/IEnumWbemClassObject::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+api_name:
+ - IEnumWbemClassObject.Next
 ---
 
 # IEnumWbemClassObject::Next
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the <b>IEnumWbemClassObject::Next</b> method to 
     get one or more objects starting at the current position in an enumeration. This method advances the current 
     position in the enumeration by <i>uCount</i> objects, so that subsequent calls return the 
     subsequent objects.
 
-
 ## -parameters
-
-
-
 
 ### -param lTimeout [in]
 
@@ -68,11 +64,9 @@ Specifies the maximum amount of time in milliseconds that the call blocks before
       you use the value 0 (<b>WBEM_NO_WAIT</b>), the call returns immediately, whether any objects 
       are available or not.
 
-
 ### -param uCount [in]
 
 Number of requested objects.
-
 
 ### -param apObjects [out]
 
@@ -81,7 +75,6 @@ Pointer to enough storage to hold the number of
       <i>uCount</i>. This storage must be supplied by the caller. This parameter cannot be 
       <b>NULL</b>. The caller must call <b>Release</b> on each of the received 
       interface pointers when they are no longer needed.
-
 
 ### -param puReturned [out]
 
@@ -101,18 +94,11 @@ Pointer to a <b>ULONG</b> that receives the number of objects returned. This num
 
 ## -returns
 
-
-
 The <b>Next</b> method returns an <b>HRESULT</b> indicating 
       the status of the method call. The following list lists the value contained within an 
       <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 You may see COM-specific error codes returned if network problems cause you to lose the remote connection to Windows Management. On error, you can call the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> to obtain more error information.
 
@@ -161,21 +147,11 @@ HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/enumerating-wmi">Enumerating WMI</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a>
- 
-
- 
 

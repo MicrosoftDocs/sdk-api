@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: c513ea28-937a-4594-9a50-0c7999f435ce
 ms.date: 12/05/2018
 ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacity method, IXpsOMVisual.GetOpacity, IXpsOMVisual::GetOpacity, xps.ixpsomvisual_getopacity, xpsobjectmodel/IXpsOMVisual::GetOpacity
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisual.GetOpacity
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisual.GetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisual::GetOpacity
+ - xpsobjectmodel/IXpsOMVisual::GetOpacity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisual.GetOpacity
 ---
 
 # IXpsOMVisual::GetOpacity
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the opacity value of this visual.
 
-
 ## -parameters
-
-
-
 
 ### -param opacity [out, retval]
 
 The opacity value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,15 +90,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
@@ -116,7 +102,4 @@ The method succeeded.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

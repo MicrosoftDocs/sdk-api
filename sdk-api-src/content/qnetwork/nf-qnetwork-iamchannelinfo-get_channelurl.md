@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 27e1a315-db95-4f24-94b6-b10023e61e7a
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ChannelURL method, IAMChannelInfo.get_ChannelURL, IAMChannelInfo::get_ChannelURL, IAMChannelInfoget_ChannelURL, dshow.iamchannelinfo_get_channelurl, get_ChannelURL, get_ChannelURL method [DirectShow], get_ChannelURL method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ChannelURL
-f1_keywords:
-- qnetwork/IAMChannelInfo.get_ChannelURL
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMChannelInfo.get_ChannelURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMChannelInfo::get_ChannelURL
+ - qnetwork/IAMChannelInfo::get_ChannelURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMChannelInfo.get_ChannelURL
 ---
 
 # IAMChannelInfo::get_ChannelURL
@@ -49,48 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_ChannelURL</code> method retrieves the channel URL.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrChannelURL [out]
 
 Pointer to a variable that receives the URL.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamchannelinfo">IAMChannelInfo Interface</a>
- 
-
- 
 

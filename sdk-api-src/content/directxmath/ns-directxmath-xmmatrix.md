@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMMATRIX
 ms.date: 12/05/2018
 ms.keywords: XMMATRIX, XMMATRIX structure [DirectX Math Support APIs], directxmath/XMMATRIX, dxmath.xmmatrix
-f1_keywords:
-- directxmath/XMMATRIX
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectXMath.h
-api_name:
-- XMMATRIX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMMATRIX
+ - directxmath/XMMATRIX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMMATRIX
 ---
 
 # XMMATRIX structure
 
 
 ## -description
-
 
 Describes a 4*4 matrix aligned on a 16-byte boundary that maps to four hardware vector registers.
 
@@ -62,159 +62,89 @@ For a list of additional functionality such as constructors and operators that a
 
 ## -struct-fields
 
-
-
-
 ### -field _11
-
- 
-
 
 ### -field _12
 
- 
-
-
 ### -field _13
-
- 
-
 
 ### -field _14
 
- 
-
-
 ### -field _21
-
- 
-
 
 ### -field _22
 
- 
-
-
 ### -field _23
-
- 
-
 
 ### -field _24
 
- 
-
-
 ### -field _31
-
- 
-
 
 ### -field _32
 
- 
-
-
 ### -field _33
-
- 
-
 
 ### -field _34
 
- 
-
-
 ### -field _41
-
- 
-
 
 ### -field _42
 
- 
-
-
 ### -field _43
-
- 
-
 
 ### -field _44
 
- 
-
-
 ### -field m
-
- 
-
 
 ### -field r
 
 Array of four vectors, representing the rows of the matrix.
 
-
 ### -field operator=
 
-TBD 
-
+TBD
 
 ### -field XMMATRIX
 
-TBD 
-
+TBD
 
 ### -field operator()
 
-TBD 
-
+TBD
 
 ### -field operator+=
 
-TBD 
-
+TBD
 
 ### -field operator-=
 
-TBD 
-
+TBD
 
 ### -field operator*=
 
-TBD 
-
+TBD
 
 ### -field operator/=
 
-TBD 
-
+TBD
 
 ### -field operator+
 
-TBD 
-
+TBD
 
 ### -field operator-
 
-TBD 
-
+TBD
 
 ### -field operator*
 
-TBD 
-
+TBD
 
 ### -field operator/
 
-TBD 
-
-
-
+TBD
 
 ## -remarks
-
-
 
 In the DirectXMath.h header file, the system uses an alias to the <code>XMMATRIX</code> object, specifically <b>CXMMATRIX</b>.
    The header uses the alias to comply with the optimal in-line calling conventions of different compilers. For most
@@ -257,13 +187,7 @@ DirectXMath defines <b>XMMATRIX</b> as a fully opaque type. To access individual
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
@@ -274,7 +198,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmmatrix-extensions">XMMATRIX Extensions</a>
- 
-
- 
 

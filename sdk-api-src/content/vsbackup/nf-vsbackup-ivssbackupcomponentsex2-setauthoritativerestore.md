@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3725a282-2df8-4a0a-a1bf-a73c2b259cbf
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetAuthoritativeRestore method, IVssBackupComponentsEx2.SetAuthoritativeRestore, IVssBackupComponentsEx2::SetAuthoritativeRestore, SetAuthoritativeRestore, SetAuthoritativeRestore method, SetAuthoritativeRestore method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setauthoritativerestore, vsbackup/IVssBackupComponentsEx2::SetAuthoritativeRestore
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx2.SetAuthoritativeRestore
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponentsEx2.SetAuthoritativeRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx2::SetAuthoritativeRestore
+ - vsbackup/IVssBackupComponentsEx2::SetAuthoritativeRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponentsEx2.SetAuthoritativeRestore
 ---
 
 # IVssBackupComponentsEx2::SetAuthoritativeRestore
@@ -50,25 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks the restore of a component as authoritative for a replicated data store.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 The globally unique identifier (GUID) of the writer class.
 
-
 ### -param ct [in]
 
 The type of the component. See the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> 
       enumeration for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -82,7 +76,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 A <b>null</b>-terminated wide character string containing the name of the component. 
@@ -92,17 +85,13 @@ The string cannot be <b>NULL</b> and should contain the same component name as t
       to the backup set using 
       the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a> method.
 
-
 ### -param bAuth [in]
 
 Set this variable to <b>true</b> to indicate that the restore of the component is authoritative, or <b>false</b> otherwise.
 
 The default value is <b>false</b>.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -181,14 +170,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetAuthoritativeRestore</b> method can only be called during a restore operation.
 
@@ -198,13 +181,7 @@ For more
       information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/setting-vss-restore-options">Setting VSS Restore 
       Options</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions">IVssBackupComponents::SetRestoreOptions</a>
 
@@ -219,7 +196,4 @@ For more
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 92A6E9BA-0B68-4890-90EE-16F4B0929340
 ms.date: 12/05/2019
 ms.keywords: IUIAutomation6 interface [Windows Accessibility],RemoveActiveTextPositionChangedEventHandler method, IUIAutomation6.RemoveActiveTextPositionChangedEventHandler, IUIAutomation6::RemoveActiveTextPositionChangedEventHandler, RemoveActiveTextPositionChangedEventHandler, RemoveActiveTextPositionChangedEventHandler method [Windows Accessibility], RemoveActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomation6 interface, uiautomationclient/IUIAutomation6::RemoveActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomation6_RemoveActiveTextPositionChangedEventHandler
-f1_keywords:
-- uiautomationclient/IUIAutomation6.RemoveActiveTextPositionChangedEventHandler
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation6.RemoveActiveTextPositionChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - IUIAutomation6::RemoveActiveTextPositionChangedEventHandler
+ - uiautomationclient/IUIAutomation6::RemoveActiveTextPositionChangedEventHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation6.RemoveActiveTextPositionChangedEventHandler
 ---
 
 # IUIAutomation6::RemoveActiveTextPositionChangedEventHandler
+
 
 ## -description
 
@@ -91,3 +93,4 @@ It is possible for an event to be delivered to an event handler after the handle
 ## -see-also
 
 [IUIAutomation6::AddActiveTextPositionChangedEventHandler](nf-uiautomationclient-iuiautomation6-addactivetextpositionchangedeventhandler.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
+

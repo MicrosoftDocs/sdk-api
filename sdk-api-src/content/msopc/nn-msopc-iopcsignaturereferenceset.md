@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 7955ac86-de6e-4911-a107-a1617c14e685
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureReferenceSet, IOpcSignatureReferenceSet interface [Open Packaging Conventions], IOpcSignatureReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureReferenceSet, opc.iopcsignaturereferenceset
-f1_keywords:
-- msopc/IOpcSignatureReferenceSet
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureReferenceSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureReferenceSet
+ - msopc/IOpcSignatureReferenceSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureReferenceSet
 ---
 
 # IOpcSignatureReferenceSet interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An unordered set of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereference">IOpcSignatureReference</a> interface pointers that represent references to XML elements  to be signed.  An XML element to be signed can be either an application-specific <b>Object</b> element or a child element.
-
 
 ## -inheritance
 
@@ -99,12 +98,9 @@ Gets an enumerator of <a href="https://docs.microsoft.com/previous-versions/wind
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturereferenceset-create">Create</a> method creates a reference to an application-specific <b>Object</b> element or a child of an application-specific <b>Object</b> that is signed when the signature is generated. <b>Create</b> does not create the reference to the package-specific <b>Object</b> element to be signed; that reference is created automatically when the signature is generated.
 
@@ -121,13 +117,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -174,7 +164,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

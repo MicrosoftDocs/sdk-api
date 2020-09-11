@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: aeaee0d8-7abf-4549-b184-326ab130fcb7
 ms.date: 12/05/2018
 ms.keywords: SNodeID, SNodeID structure [MMC], _slate_snodeid, mmc.snodeid, mmc/SNodeID
-f1_keywords:
-- mmc/SNodeID
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmc.h
-api_name:
-- SNodeID
 targetos: Windows
 req.typenames: SNodeID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SNodeID
+ - mmc/_SNodeID
+ - SNodeID
+ - mmc/SNodeID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - SNodeID
 ---
 
 # SNodeID structure
 
 
 ## -description
-
 
 The 
 <b>SNodeID</b> structure is introduced in MMC 1.1, and is replaced by the 
@@ -61,11 +63,7 @@ The
 The 
 <b>SNodeID</b> structure contains an array of bytes that represent the node ID.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cBytes
 
@@ -73,15 +71,11 @@ The count of bytes in the <b>id</b> array.
 
 The snap-in can also specify that a scope item should not be re-expanded when the console is reopened. To do this, set the <b>cBytes</b> member to 0 (zero) and return <b>S_OK</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> method. Be aware that this setting not only keeps the selected item from being persisted but also prevents its parent item from automatically expanding when the console file is reopened.
 
-
 ### -field id
 
 The bytes that contains the node ID of the scope item.
 
-
 ## -remarks
-
-
 
 Your snap-in should support the <b>CCF_NODEID</b> clipboard format in its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> method if any of its enumerated items has a volatile display name (such as the current computer name) or if any enumerated items should not be restored when the console file is reopened.
 
@@ -89,16 +83,7 @@ For details on using the
 <b>SNodeID</b> structure and <b>CCF_NODEID</b> clipboard format, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-nodeid">CCF_NODEID</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-nodeid">CCF_NODEID</a>
- 
-
- 
 

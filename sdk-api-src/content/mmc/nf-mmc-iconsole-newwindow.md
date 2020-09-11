@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 78496DA1-1C8F-4C63-83E1-45FC0BC80779
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],NewWindow method, IConsole.NewWindow, IConsole::NewWindow, MMC_NW_OPTION_CUSTOMTITLE, MMC_NW_OPTION_NONE, MMC_NW_OPTION_NOPERSIST, MMC_NW_OPTION_NOSCOPEPANE, MMC_NW_OPTION_NOTOOLBARS, MMC_NW_OPTION_SHORTTITLE, NewWindow, NewWindow method [MMC], NewWindow method [MMC],IConsole interface, mmc.iconsole_newwindow, mmc/IConsole::NewWindow
-f1_keywords:
-- mmc/IConsole.NewWindow
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsole.NewWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsole::NewWindow
+ - mmc/IConsole::NewWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsole.NewWindow
 ---
 
 # IConsole::NewWindow
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new multiple-document interface (MDI) child window rooted at the specified scope item.
 
-
 ## -parameters
-
-
-
 
 ### -param hScopeItem [in]
 
 The scope item that forms the root of the new window.
-
 
 ### -param lOptions [in]
 
@@ -106,23 +101,11 @@ Use the custom title provided by the snap-in. Title bar text contains the displa
 
 Do not save the new window to the .msc file.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
- 
-
- 
 

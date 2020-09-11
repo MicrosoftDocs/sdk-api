@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: f77cdf86-0f97-4a89-b565-95b46fa7d65b
 ms.date: 12/05/2018
 ms.keywords: '*LPSYSTEMTIME, *PSYSTEMTIME, PSYSTEMTIME, PSYSTEMTIME structure pointer, SYSTEMTIME, SYSTEMTIME structure, _SYSTEMTIME, _win32_systemtime_str, base.systemtime_str, minwinbase/PSYSTEMTIME, minwinbase/SYSTEMTIME'
-f1_keywords:
-- minwinbase/SYSTEMTIME
-dev_langs:
-- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- minwinbase.h
-api_name:
-- SYSTEMTIME
 targetos: Windows
 req.typenames: SYSTEMTIME, *PSYSTEMTIME, *LPSYSTEMTIME
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SYSTEMTIME
+ - minwinbase/_SYSTEMTIME
+ - PSYSTEMTIME
+ - minwinbase/PSYSTEMTIME
+ - SYSTEMTIME
+ - minwinbase/SYSTEMTIME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minwinbase.h
+api_name:
+ - SYSTEMTIME
 ---
 
 # SYSTEMTIME structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a date and time, using individual members for the month, day, year, weekday, hour, minute, second, and millisecond. The time is either in coordinated universal time (UTC) or local time, depending on the function that is being called.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wYear
 
  The year. The valid values for this member are 1601 through 30827.
-
 
 ### -field wMonth
 
@@ -205,8 +204,6 @@ December
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wDayOfWeek
 
@@ -295,33 +292,26 @@ Saturday
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wDay
 
 The day of the month. The valid values for this member are 1 through 31.
 
-
 ### -field wHour
 
 The hour. The valid values for this member are 0 through 23.
-
 
 ### -field wMinute
 
 The minute. The valid values for this member are 0 through 59.
 
-
 ### -field wSecond
 
 The second. The valid values for this member are 0 through 59.
 
-
 ### -field wMilliseconds
 
 The millisecond. The valid values for this member are 0 through 999.
-
 
 ## -remarks
 
@@ -374,12 +364,7 @@ The system time is: 19:34
  The local time is: 12:34
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
@@ -410,7 +395,4 @@ The system time is: 19:34
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>
- 
-
- 
 

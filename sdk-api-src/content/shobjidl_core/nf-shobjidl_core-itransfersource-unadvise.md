@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 4f71134e-dfbf-40e7-b72b-c4913c876689
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],Unadvise method, ITransferSource.Unadvise, ITransferSource::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],ITransferSource interface, _shell_ITransferSource_Unadvise, shell.ITransferSource_Unadvise, shobjidl_core/ITransferSource::Unadvise
-f1_keywords:
-- shobjidl_core/ITransferSource.Unadvise
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferSource.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferSource::Unadvise
+ - shobjidl_core/ITransferSource::Unadvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferSource.Unadvise
 ---
 
 # ITransferSource::Unadvise
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Terminates an advisory connection.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCookie [in]
 
@@ -64,10 +60,7 @@ Type: <b>DWORD</b>
 
 The connection token previously returned from method <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-advise">ITransferSource::Advise</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -101,16 +94,8 @@ The value in dwCookie does not represent a valid connection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Terminates an advisory connection previously established through  method <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-advise">ITransferSource::Advise</a>. The <i>dwCookie</i> parameter identifies the connection to terminate.
-
-
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextselected.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetNextSelected, TreeView_GetNextSelected macro [Windows Controls], _shell_TreeView_GetNextSelected, _shell_TreeView_GetNextSelected_cpp, commctrl/TreeView_GetNextSelected, controls.TreeView_GetNextSelected, controls._shell_TreeView_GetNextSelected
-f1_keywords:
-- commctrl/TreeView_GetNextSelected
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TreeView_GetNextSelected
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TreeView_GetNextSelected
+ - commctrl/TreeView_GetNextSelected
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TreeView_GetNextSelected
 ---
 
 # TreeView_GetNextSelected macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the tree-view item that bears the <b>TVGN_NEXTSELECTED</b> relationship to a specified tree item.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
@@ -64,30 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the tree-view control.
 
-
 ### -param hitem
 
 Type: <b>HTREEITEM*</b>
 
 Specifies the tree item by handle.
 
-
 ## -remarks
-
-
 
 Used to find the next selected item when there are multiple items selected.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a>
- 
-
- 
 

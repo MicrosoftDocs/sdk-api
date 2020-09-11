@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 6F8A0A9B-CF05-47F9-8486-10DFE720E0DD
 ms.date: 12/05/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],IsRegisteredForContentPrefetch method, IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch, IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch method [Web Services for Windows], IsRegisteredForContentPrefetch method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, wsw.icontentprefetchertasktrigger_isregisteredforcontentprefetch
-f1_keywords:
-- icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
-dev_langs:
-- c++
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IContentPrefetcherTaskTrigger.h
-api_name:
-- IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
+ - icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IContentPrefetcherTaskTrigger.h
+api_name:
+ - IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 ---
 
 # IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates if an app package has registered for the content prefetch background task.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFullName [in]
 
 The package ID.
 
-
 ### -param isRegistered [out]
 
 True if the app package has registered for the content prefetch background task; otherwise, false.
 
-
 ## -returns
-
-
 
 Returns S_OK on success. Other possible values include:
 
@@ -92,18 +84,8 @@ The method call was not made at the required Medium Integrity Level (Medium IL).
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/icontentprefetchertasktrigger/nn-icontentprefetchertasktrigger-icontentprefetchertasktrigger">IContentPrefetcherTaskTrigger</a>
- 
-
- 
 

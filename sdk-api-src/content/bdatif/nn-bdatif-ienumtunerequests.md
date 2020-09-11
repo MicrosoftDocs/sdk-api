@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 5ad872be-4408-4069-80db-ae73b2127b91
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests, IEnumTuneRequests interface [Microsoft TV Technologies], IEnumTuneRequests interface [Microsoft TV Technologies],described, IEnumTuneRequestsInterface, bdatif/IEnumTuneRequests, mstv.ienumtunerequests
-f1_keywords:
-- bdatif/IEnumTuneRequests
-dev_langs:
-- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdatif.h
-api_name:
-- IEnumTuneRequests
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTuneRequests
+ - bdatif/IEnumTuneRequests
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdatif.h
+api_name:
+ - IEnumTuneRequests
 ---
 
 # IEnumTuneRequests interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IEnumTuneRequests</b> interface provides access to a collection of tune requests returned from a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedata-getservices">IGuideData::GetServices</a>. This collection of tune requests represents all the services available in the tuning space.
-
-
-
 
 ## -inheritance
 
@@ -107,25 +103,13 @@ Skips the specified number of items.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IEnumTuneRequests)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

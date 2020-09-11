@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateVolumeMeter(IUnknown@,UINT32)
 ms.date: 12/05/2018
 ms.keywords: XAudio2CreateVolumeMeter, XAudio2CreateVolumeMeter function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createvolumemeter, xaudio2fx/XAudio2CreateVolumeMeter
-f1_keywords:
-- xaudio2fx/XAudio2CreateVolumeMeter
-dev_langs:
-- c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Xaudio2.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- xaudio2.lib
-- xaudio2.dll
-api_name:
-- XAudio2CreateVolumeMeter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XAudio2CreateVolumeMeter
+ - xaudio2fx/XAudio2CreateVolumeMeter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - xaudio2.lib
+ - xaudio2.dll
+api_name:
+ - XAudio2CreateVolumeMeter
 ---
 
 # XAudio2CreateVolumeMeter function
@@ -50,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new volume meter audio processing object (APO) and returns a pointer to it.
 
-
 ## -parameters
-
-
-
 
 ### -param ppApo [in, out]
 
 Contains the created volume meter APO.
 
-
 ### -param DEFAULT [in]
 
 Flags that specify the behavior of the APO. The value of this parameter must be 0.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 For information on creating new effects for use with XAudio2, see the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>.
 
@@ -139,13 +126,7 @@ __inline HRESULT XAudio2CreateVolumeMeter(_Outptr_ IUnknown** ppApo, UINT32 /*Fl
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
 
@@ -160,7 +141,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
- 
-
- 
 

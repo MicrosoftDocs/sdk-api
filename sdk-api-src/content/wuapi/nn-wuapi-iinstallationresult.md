@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 453945d7-11a3-4237-b1c8-928194be558d
 ms.date: 12/05/2018
 ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], IInstallationResult interface [Windows Update Agent],described, wua.iinstallationresult, wuapi/IInstallationResult
-f1_keywords:
-- wuapi/IInstallationResult
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationResult
+ - wuapi/IInstallationResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationResult
 ---
 
 # IInstallationResult interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the result of an installation or uninstallation.
-
 
 ## -inheritance
 
@@ -134,5 +133,5 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-o
 
 </td>
 </tr>
-</table> 
+</table>
 

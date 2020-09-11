@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: ee3bb3c8-4d7d-424b-abc9-db7307793794
 ms.date: 12/05/2018
 ms.keywords: DesiredAngularDeceleration property [Windows Touch], DesiredAngularDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredAngularDeceleration property, IInertiaProcessor.DesiredAngularDeceleration, IInertiaProcessor.put_DesiredAngularDeceleration, IInertiaProcessor::DesiredAngularDeceleration, IInertiaProcessor::get_DesiredAngularDeceleration, IInertiaProcessor::put_DesiredAngularDeceleration, manipulations/IInertiaProcessor::DesiredAngularDeceleration, manipulations/IInertiaProcessor::get_DesiredAngularDeceleration, manipulations/IInertiaProcessor::put_DesiredAngularDeceleration, put_DesiredAngularDeceleration, wintouch.iinertiaprocessor_desiredangulardeceleration
-f1_keywords:
-- manipulations/IInertiaProcessor.DesiredAngularDeceleration
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- IInertiaProcessor.DesiredAngularDeceleration
-- IInertiaProcessor.get_DesiredAngularDeceleration
-- IInertiaProcessor.put_DesiredAngularDeceleration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInertiaProcessor::put_DesiredAngularDeceleration
+ - manipulations/IInertiaProcessor::put_DesiredAngularDeceleration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - IInertiaProcessor.DesiredAngularDeceleration
+ - IInertiaProcessor.get_DesiredAngularDeceleration
+ - IInertiaProcessor.put_DesiredAngularDeceleration
 ---
 
 # IInertiaProcessor::put_DesiredAngularDeceleration
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DesiredAngularDeceleration</b> property specifies the desired rate that the target object will stop spinning in radians per  msec squared.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 <b>DesiredAngularDeceleration</b> and <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredrotation">DesiredRotation</a> are mutually exclusive.  If one is set, the other should be NaN.
 		
@@ -72,13 +68,7 @@ If inertia processing has already started, setting <b>DesiredAngularDeceleration
 
 Call this function to set the initial state of inertia. You would call this function most likely during the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredrotation">DesiredRotation</a>
 
@@ -101,7 +91,4 @@ Call this function to set the initial state of inertia. You would call this func
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
- 
-
- 
 

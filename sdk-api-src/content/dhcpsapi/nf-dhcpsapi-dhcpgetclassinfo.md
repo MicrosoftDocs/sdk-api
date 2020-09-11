@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: c38a593f-60f0-41c7-83a8-bbec9b79dfac
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClassInfo, DhcpGetClassInfo function [DHCP], dhcp.dhcpgetclassinfo, dhcpsapi/DhcpGetClassInfo
-f1_keywords:
-- dhcpsapi/DhcpGetClassInfo
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetClassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetClassInfo
+ - dhcpsapi/DhcpGetClassInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetClassInfo
 ---
 
 # DhcpGetClassInfo function
@@ -49,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpGetClassInfo</b> function returns the user or vendor class information configured on a specific DHCP server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param ReservedMustBeZero [in]
 
 Reserved. This parameter must be set to 0.
 
-
 ### -param PartialClassInfo [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info">DHCP_CLASS_INFO</a> structure that contains data provided by the caller for the following members, with all other fields initialized. 
 
@@ -80,9 +73,7 @@ Reserved. This parameter must be set to 0.
 </ul>
 These fields must not be null.
 
-
 ### -param FilledClassInfo [out]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info">DHCP_CLASS_INFO</a> structure returned after lookup that contains the complete class information.
 
@@ -92,8 +83,6 @@ These fields must not be null.
 <div> </div>
 
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -136,31 +125,16 @@ A class name could not be found that matches the provided information.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A DHCP class is a specific category of client, defined either by the vendor or by a user. An example of a vendor-defined class would be all Windows 8 clients, with Microsoft as the vendor. A user-defined class consists of those clients with specific attributes selected by a user or administrator, such as all laptops or clients that support wireless connections.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info">DHCP_CLASS_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateclass">DhcpCreateClass</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: lwef
 ms.assetid: ba3797c2-f82c-4721-b72d-8552683a10d2
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], IEmptyVolumeCache interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCache, emptyvc/IEmptyVolumeCache, lwef.iemptyvolumecache, shell.iemptyvolumecache
-f1_keywords:
-- emptyvc/IEmptyVolumeCache
-dev_langs:
-- c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IEmptyVolumeCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEmptyVolumeCache
+ - emptyvc/IEmptyVolumeCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IEmptyVolumeCache
 ---
 
 # IEmptyVolumeCache interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by the disk cleanup manager to communicate with a disk cleanup handler. Exposes methods that enable the manager to request information from a handler, and notify it of events such as the start of a scan or purge.
-
 
 ## -inheritance
 
@@ -113,25 +112,13 @@ Notifies the handler to display its UI.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface must be implemented by disk cleanup handlers running on Windows 98. Handlers running on Windows 2000 should also expose <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache2">IEmptyVolumeCache2</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecachecallback">IEmptyVolumeCacheCallBack</a>
- 
-
- 
 

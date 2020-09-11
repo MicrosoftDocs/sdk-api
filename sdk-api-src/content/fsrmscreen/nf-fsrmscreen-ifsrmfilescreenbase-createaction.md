@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 1d627e07-fa8c-4c22-acba-c08767b8ebaa
 ms.date: 12/05/2018
 ms.keywords: CreateAction, CreateAction method [File Server Resource Manager], CreateAction method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],CreateAction method, IFsrmFileScreenBase.CreateAction, IFsrmFileScreenBase::CreateAction, fs.ifsrmfilescreenbase_createaction, fsrm.ifsrmfilescreenbase_createaction, fsrmscreen/IFsrmFileScreenBase::CreateAction
-f1_keywords:
-- fsrmscreen/IFsrmFileScreenBase.CreateAction
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreenBase.CreateAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreenBase::CreateAction
+ - fsrmscreen/IFsrmFileScreenBase::CreateAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreenBase.CreateAction
 ---
 
 # IFsrmFileScreenBase::CreateAction
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an action for this file screen object. The action is triggered when a file 
     violates the file screen.
 
-
 ## -parameters
-
-
-
 
 ### -param actionType [in]
 
 The type of action to create. For possible values, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a> enumeration.
-
 
 ### -param action [out]
 
@@ -72,19 +67,11 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsr
       <b>FsrmActionType_Command</b>, query <i>action</i> for the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactioncommand">IFsrmActionCommand</a> interface.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 You can specify up to four unique actions for each file screen.
 
@@ -98,15 +85,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
- 
-
- 
 

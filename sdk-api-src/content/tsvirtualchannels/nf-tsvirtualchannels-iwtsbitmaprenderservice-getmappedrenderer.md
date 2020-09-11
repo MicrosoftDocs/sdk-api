@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 1a5f8ddb-eaf6-4138-8bb7-4d513aff88b5
 ms.date: 12/05/2018
 ms.keywords: GetMappedRenderer, GetMappedRenderer method [Remote Desktop Services], GetMappedRenderer method [Remote Desktop Services],IWTSBitmapRenderService interface, IWTSBitmapRenderService interface [Remote Desktop Services],GetMappedRenderer method, IWTSBitmapRenderService.GetMappedRenderer, IWTSBitmapRenderService::GetMappedRenderer, termserv.iwtsbitmaprenderservice_getmappedrenderer, tsvirtualchannels/IWTSBitmapRenderService::GetMappedRenderer
-f1_keywords:
-- tsvirtualchannels/IWTSBitmapRenderService.GetMappedRenderer
-dev_langs:
-- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tsvirtualchannels.h
-api_name:
-- IWTSBitmapRenderService.GetMappedRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSBitmapRenderService::GetMappedRenderer
+ - tsvirtualchannels/IWTSBitmapRenderService::GetMappedRenderer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tsvirtualchannels.h
+api_name:
+ - IWTSBitmapRenderService.GetMappedRenderer
 ---
 
 # IWTSBitmapRenderService::GetMappedRenderer
@@ -49,46 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the bitmap rendering object used to render media on the server.
 
-
 ## -parameters
-
-
-
 
 ### -param mappingId [in]
 
 A 64-bit number that uniquely identifies the render mapping.
 
-
 ### -param pMappedRendererCallback [in]
 
 The address of the caller's <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderercallback">IWTSBitmapRendererCallback</a> interface.
-
 
 ### -param ppMappedRenderer [out]
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderer">IWTSBitmapRenderer</a> interface pointer that receives the bitmap renderer. When you have finished using pointer, release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release()</a> method.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderservice">IWTSBitmapRenderService</a>
- 
-
- 
 

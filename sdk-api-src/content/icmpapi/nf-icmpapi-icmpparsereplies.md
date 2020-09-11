@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: ec7c2a5f-5406-4350-b795-6e72fe25f62d
 ms.date: 12/05/2018
 ms.keywords: IcmpParseReplies, IcmpParseReplies function [IP Helper], _iphlp_icmpparsereplies, icmpapi/IcmpParseReplies, iphlp.icmpparsereplies
-f1_keywords:
-- icmpapi/IcmpParseReplies
-dev_langs:
-- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-- Icmp.dll
-api_name:
-- IcmpParseReplies
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IcmpParseReplies
+ - icmpapi/IcmpParseReplies
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+ - Icmp.dll
+api_name:
+ - IcmpParseReplies
 ---
 
 # IcmpParseReplies function
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IcmpParseReplies</b> function parses the reply buffer provided and returns the number of ICMP echo request responses found.
 
-
 ## -parameters
-
-
-
 
 ### -param ReplyBuffer [in]
 
@@ -68,26 +64,17 @@ The buffer passed to
 
 On a 64-bit plaform, this buffer is rewritten to hold an array of <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply32">ICMP_ECHO_REPLY32</a> structures, its type is <b>PICMP_ECHO_REPLY32</b>.
 
-
 ### -param ReplySize [in]
 
 The size, in bytes, of the buffer pointed to by the <i>ReplyBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 The 
 <b>IcmpParseReplies</b> function returns the number of ICMP responses found on success. The function returns zero on error. Call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for additional error information.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IcmpParseReplies</b> function should not be used on a reply buffer previously passed to 
 <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho">IcmpSendEcho</a>. The 
@@ -98,13 +85,7 @@ The <b>IcmpParseReplies</b> function is exported from the <i>Icmp.dll</i> on Win
 
 Note that the include directive for <i>Iphlpapi.h</i> header file must be placed before the <i>Icmpapi.h</i> header file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
@@ -147,7 +128,4 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2ex">IcmpSendEcho2Ex</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial
-f1_keywords:
-- ras/RasDial
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasDial
-- RasDialA
-- RasDialW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasDialW
+ - ras/RasDialW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasDial
+ - RasDialA
+ - RasDialW
 ---
 
 # RasDialW function
@@ -53,32 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasDial</b> function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structure that specifies a set of 
-<b>RasDial</b> extended features to enable. Set this parameter to <b>NULL</b> if there is not a need to enable these features.  
-
-
-
-					
-
+<b>RasDial</b> extended features to enable. Set this parameter to <b>NULL</b> if there is not a need to enable these features.
 
 ### -param arg2 [in]
 
-Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
-					
-
+Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 ### -param arg3 [in]
 
@@ -95,7 +84,6 @@ The caller must set the
 If the <b>szPhoneNumber</b> member of the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure is an empty string, 
 <b>RasDial</b> uses the phone number stored in the phone-book entry.
-
 
 ### -param arg4 [in]
 
@@ -142,8 +130,6 @@ The <i>lpvNotifier</i> parameter points to a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param arg5 [in]
 
@@ -178,28 +164,19 @@ If <i>lpvNotifier</i> is not <b>NULL</b>, notifications to the window or callbac
 The callback notifications are made in the context of a thread captured during the initial call to 
 <b>RasDial</b>.
 
-
 ### -param arg6 [out]
 
 Pointer to a variable of type <b>HRASCONN</b>. Set the <b>HRASCONN</b> variable to <b>NULL</b> before calling 
 <b>RasDial</b>. If 
 <b>RasDial</b> succeeds, it stores a handle to the RAS connection into <i>*lphRasConn</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and a handle to the RAS connection is returned in the variable pointed to by <i>lphRasConn</i>.
 
 If the function fails, the return value is from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 Errors that occur after the immediate return can be detected by 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>. Data is available until an application calls 
@@ -269,9 +246,6 @@ To specify that
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>
 
 
@@ -321,7 +295,4 @@ To specify that
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/wm-rasdialevent">WM_RASDIALEVENT</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: d60bb748-3c61-466d-9c17-df7bc4904994
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], ITfInputProcessorProfileMgr interface [Text Services Framework],described, _tsf_itfinputprocessorprofilemgr_ref, msctf/ITfInputProcessorProfileMgr, tsf.itfinputprocessorprofilemgr
-f1_keywords:
-- msctf/ITfInputProcessorProfileMgr
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.h
-api_name:
-- ITfInputProcessorProfileMgr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfileMgr
+ - msctf/ITfInputProcessorProfileMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.h
+api_name:
+ - ITfInputProcessorProfileMgr
 ---
 
 # ITfInputProcessorProfileMgr interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfInputProcessorProfileMgr</b> interface is implemented by the TSF manager and used by an application or text service to manipulate the language profile of one or more text services.
-
 
 ## -inheritance
 
@@ -140,12 +139,9 @@ Unregisters the text service and associated profiles.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Unlike <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>, ITfInputProcessorProfileMgr
  can manage both keyboard layout and text services seamlessly. In Windows Vista, it is recommended to use this interface instead of using the following methods:
@@ -161,15 +157,7 @@ Unlike <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-it
 <li>ITfInputProcessorProfiles::EnumLanguageProfiles</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
- 
-
- 
 

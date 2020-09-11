@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_term_expansion.htm
 ms.date: 12/05/2018
 ms.keywords: SEARCH_TERM_EXPANSION, SEARCH_TERM_EXPANSION enumeration [search], SEARCH_TERM_NO_EXPANSION, SEARCH_TERM_PREFIX_ALL, SEARCH_TERM_STEM_ALL, _search_SEARCH_TERM_EXPANSION, search._search_SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_NO_EXPANSION, searchapi/SEARCH_TERM_PREFIX_ALL, searchapi/SEARCH_TERM_STEM_ALL
-f1_keywords:
-- searchapi/SEARCH_TERM_EXPANSION
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Searchapi.h
-api_name:
-- SEARCH_TERM_EXPANSION
 targetos: Windows
 req.typenames: SEARCH_TERM_EXPANSION
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - _SEARCH_TERM_EXPANSION
+ - searchapi/_SEARCH_TERM_EXPANSION
+ - SEARCH_TERM_EXPANSION
+ - searchapi/SEARCH_TERM_EXPANSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Searchapi.h
+api_name:
+ - SEARCH_TERM_EXPANSION
 ---
 
 # SEARCH_TERM_EXPANSION enumeration
@@ -49,35 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates wildcard options on search terms. Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querytermexpansion">ISearchQueryHelper::get_QueryTermExpansion</a> and <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querytermexpansion">ISearchQueryHelper::put_QueryTermExpansion</a> methods.
 
-
 ## -enum-fields
-
-
-
 
 ### -field SEARCH_TERM_NO_EXPANSION
 
 No expansion is applied to search terms.
 
-
 ### -field SEARCH_TERM_PREFIX_ALL
 
 All search terms are expanded.
-
 
 ### -field SEARCH_TERM_STEM_ALL
 
 Stem expansion is applied to all terms.
 
-
 ## -remarks
 
-
-
 While the <b>SEARCH_TERM_EXPANSION</b> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> interface.
-
-
 

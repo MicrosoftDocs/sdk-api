@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 497d0331-c88d-4381-8990-94227a9b9659
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, IWSDDeviceHost interface,described, ncd.iwsddevicehost, wsdhost/IWSDDeviceHost
-f1_keywords:
-- wsdhost/IWSDDeviceHost
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost
+ - wsdhost/IWSDDeviceHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost
 ---
 
 # IWSDDeviceHost interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a DPWS-compliant device . The device host will announce its presence on the network using the WS-Discovery protocol. The device host will also automatically respond to discovery queries and metadata requests.
 
 The caller can register user-implemented services with the device host. These services will be exposed in the device metadata and the services will be available over the network. Messages bound for these services will be automatically dispatched into the service object.
 
 Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehostadvanced">WSDCreateDeviceHostAdvanced</a> to create an object that exposes this interface.
-
 
 ## -inheritance
 
@@ -181,13 +180,9 @@ Terminates the host and releases any attached services.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
-
 
 After retrieving this interface, the application would then:
 
@@ -208,18 +203,7 @@ After retrieving this interface, the application would then:
 
 An <b>IWSDDeviceHost</b> object can provide an object for a service on demand (using a notification callback) when calling the host receives a request message directed at that service.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WsdApi/overview-of-the-wsdapi-interfaces">Overview of the WSDAPI Interfaces</a>
- 
-
- 
 

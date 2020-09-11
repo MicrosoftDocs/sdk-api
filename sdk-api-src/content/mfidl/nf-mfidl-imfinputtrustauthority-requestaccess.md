@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8f2f7f65-7000-4404-8678-ba36c5c97c80
 ms.date: 12/05/2018
 ms.keywords: 8f2f7f65-7000-4404-8678-ba36c5c97c80, IMFInputTrustAuthority interface [Media Foundation],RequestAccess method, IMFInputTrustAuthority.RequestAccess, IMFInputTrustAuthority::RequestAccess, RequestAccess, RequestAccess method [Media Foundation], RequestAccess method [Media Foundation],IMFInputTrustAuthority interface, mf.imfinputtrustauthority_requestaccess, mfidl/IMFInputTrustAuthority::RequestAccess
-f1_keywords:
-- mfidl/IMFInputTrustAuthority.RequestAccess
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFInputTrustAuthority.RequestAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFInputTrustAuthority::RequestAccess
+ - mfidl/IMFInputTrustAuthority::RequestAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFInputTrustAuthority.RequestAccess
 ---
 
 # IMFInputTrustAuthority::RequestAccess
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Requests permission to perform a specified action on the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Action [in]
 
 The requested action, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
 
-
 ### -param ppContentEnablerActivate [out]
 
 Receives the value <b>NULL</b> or a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. The <b>IMFActivate</b> interface is used to create a content enabler object. The caller must release the interface. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -117,14 +106,8 @@ The user must obtain a license.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method verifies whether the user has permission to perform a specified action on the stream. The ITA does any work needed to verify the user's right to perform the action, such as checking licenses.
 
@@ -168,16 +151,7 @@ The Media Session will not allow the action unless this method returns S_OK. How
 
 A stream can go to multiple outputs, so this method might be called multiple times with different actions, once for every output.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
- 
-
- 
 

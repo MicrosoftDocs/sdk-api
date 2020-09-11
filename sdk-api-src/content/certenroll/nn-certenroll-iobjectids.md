@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f376a33e-005b-4810-9a26-b642236ff7af
 ms.date: 12/05/2018
 ms.keywords: IObjectIds, IObjectIds interface [Security], IObjectIds interface [Security],described, certenroll/IObjectIds, security.iobjectids
-f1_keywords:
-- certenroll/IObjectIds
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IObjectIds
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectIds
+ - certenroll/IObjectIds
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IObjectIds
 ---
 
 # IObjectIds interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IObjectIds</b> interface defines methods and properties that enable you to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> objects.
-
 
 ## -inheritance
 
@@ -154,13 +153,9 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -171,7 +166,4 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>
- 
-
- 
 

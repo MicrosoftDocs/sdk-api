@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 07166023-2945-49d5-9d2d-8cac12053ed9
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveKey method, IWbemPathKeyList.RemoveKey, IWbemPathKeyList::RemoveKey, RemoveKey, RemoveKey method [Windows Management Instrumentation], RemoveKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removekey, wmi.iwbempathkeylist_removekey, wmiutils/IWbemPathKeyList::RemoveKey
-f1_keywords:
-- wmiutils/IWbemPathKeyList.RemoveKey
-dev_langs:
-- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiutils.dll
-api_name:
-- IWbemPathKeyList.RemoveKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemPathKeyList::RemoveKey
+ - wmiutils/IWbemPathKeyList::RemoveKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiutils.dll
+api_name:
+ - IWbemPathKeyList.RemoveKey
 ---
 
 # IWbemPathKeyList::RemoveKey
@@ -49,39 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemPathKeyList::RemoveKey</b> method removes the key that matches the <i>wszName</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param wszName [in, out]
 
 Name of the key to be removed.
 
-
 ### -param uFlags [in]
 
 Reserved. Must be 0 (zero).
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
 
@@ -92,7 +78,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-removeallkeys">IWbemPathKeyList::RemoveAllKeys</a>
- 
-
- 
 

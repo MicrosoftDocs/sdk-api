@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2f966d39-8d7c-41e7-bf6a-5a30170b100d
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_AUTHORITY_KEY_ID_INFO, CERT_AUTHORITY_KEY_ID_INFO, CERT_AUTHORITY_KEY_ID_INFO structure [Security], PCERT_AUTHORITY_KEY_ID_INFO, PCERT_AUTHORITY_KEY_ID_INFO structure pointer [Security], _crypto2_cert_authority_key_id_info, security.cert_authority_key_id_info, wincrypt/CERT_AUTHORITY_KEY_ID_INFO, wincrypt/PCERT_AUTHORITY_KEY_ID_INFO'
-f1_keywords:
-- wincrypt/CERT_AUTHORITY_KEY_ID_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_AUTHORITY_KEY_ID_INFO
 targetos: Windows
 req.typenames: CERT_AUTHORITY_KEY_ID_INFO, *PCERT_AUTHORITY_KEY_ID_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_AUTHORITY_KEY_ID_INFO
+ - wincrypt/_CERT_AUTHORITY_KEY_ID_INFO
+ - PCERT_AUTHORITY_KEY_ID_INFO
+ - wincrypt/PCERT_AUTHORITY_KEY_ID_INFO
+ - CERT_AUTHORITY_KEY_ID_INFO
+ - wincrypt/CERT_AUTHORITY_KEY_ID_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_AUTHORITY_KEY_ID_INFO
 ---
 
 # CERT_AUTHORITY_KEY_ID_INFO structure
 
 
 ## -description
-
 
 The <b>CERT_AUTHORITY_KEY_ID_INFO</b> structure identifies the key used to sign a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL). This structure differentiates among distinct keys used by the same <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> as, for example, keys changed when an update occurs.
 
@@ -60,35 +64,22 @@ The key can be identified by an explicit key identifier, by giving a certificate
 
 An instance of this structure can be used as input to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> to create an appropriate <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field KeyId
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains a unique identifier of a public key.
 
-
 ### -field CertIssuer
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure that contains the encoded distinguished name of the certification authority that issued the certificate.
-
 
 ### -field CertSerialNumber
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the serial number of the certificate associated with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> used to sign this certificate. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winsensors
 ms.assetid: 89145856-96c7-48c2-988c-b410ab20aed4
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method, GetData method,ISensor interface, ISensor interface,GetData method, ISensor.GetData, ISensor::GetData, sensorsapi/ISensor::GetData, winsensors_com_ref.isensor_getdata
-f1_keywords:
-- sensorsapi/ISensor.GetData
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::GetData
+ - sensorsapi/ISensor::GetData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.GetData
 ---
 
 # ISensor::GetData
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the most recent sensor data report.
 
-
 ## -parameters
-
-
-
 
 ### -param ppDataReport [out]
 
 Address of an <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a> pointer that receives the pointer to the most recent sensor data report.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,14 +112,8 @@ NULL was passed in for ppDataReport.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For location sensors, you can retrieve data only from sensors for which the user has granted permission.
 
@@ -139,12 +126,7 @@ For an example of how to retrieve sensor data, see <a href="https://docs.microso
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
@@ -159,7 +141,4 @@ For an example of how to retrieve sensor data, see <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>
- 
-
- 
 

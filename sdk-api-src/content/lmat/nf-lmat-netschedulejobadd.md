@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 813d13ba-abe1-4b14-88c7-87ba88a42a3b
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobAdd, NetScheduleJobAdd function [Network Management], _win32_netschedulejobadd, lmat/NetScheduleJobAdd, netmgmt.netschedulejobadd
-f1_keywords:
-- lmat/NetScheduleJobAdd
-dev_langs:
-- c++
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetScheduleJobAdd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetScheduleJobAdd
+ - lmat/NetScheduleJobAdd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetScheduleJobAdd
 ---
 
 # NetScheduleJobAdd function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>NetScheduleJobAdd</b> is no longer available for use as of Windows 8. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
 
 ]
 
 The
 				<b>NetScheduleJobAdd</b> function submits a job to run at a specified future time and date. This function requires that the schedule service be started on  the computer to which the job is submitted.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param Servername [in, optional]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
 
 ### -param Buffer [in]
 
@@ -75,27 +69,18 @@ A pointer to an
 <a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a> structure describing the job to submit. For more information about scheduling jobs using different job properties, see the following Remarks section and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ### -param JobId [out]
 
 A pointer that receives a job identifier for the newly submitted job. This entry is valid only if the function returns successfully.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 Normally only members of the local Administrators group on the computer where the schedule job is being added can successfully execute this function. If the server name passed in the string pointed to by the <i>Servername</i> parameter is a remote server, then only members of the local Administrators group on the  remote server can successfully execute this function. 
 
@@ -162,15 +147,9 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info
 
 On Windows 2000, the earlier AT service and the Task Scheduler were combined. The Task Scheduler service was only accurate to the minute.  Therefore, the <b>NetScheduleJobAdd</b> function only uses hours and minutes specified in the <b>JobTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a> structure when a job is scheduled to run. 
 
-Starting with   Windows Vista, the precision for the Task Scheduler was increased to the second. Therefore, the <b>NetScheduleJobAdd</b> function uses only the hours, minutes, and seconds specified in the <b>JobTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a> structure when a job is scheduled to run. 
-
-
-
+Starting with   Windows Vista, the precision for the Task Scheduler was increased to the second. Therefore, the <b>NetScheduleJobAdd</b> function uses only the hours, minutes, and seconds specified in the <b>JobTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a> structure when a job is scheduled to run.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a>
 
@@ -200,7 +179,4 @@ Starting with   Windows Vista, the precision for the Task Scheduler was increas
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/schedule-functions">Schedule
 		  Functions</a>
- 
-
- 
 

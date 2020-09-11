@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx
-f1_keywords:
-- vswriter/IVssComponentEx
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponentEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponentEx
+ - vswriter/IVssComponentEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponentEx
 ---
 
 # IVssComponentEx class
 
 
 ## -description
-
 
 Defines additional methods for examining  and modifying information about components contained in a requester's Backup 
     Components Document.
@@ -60,7 +60,6 @@ To obtain an instance of the <b>IVssComponentEx</b>
    interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface, and pass 
    the <b>IID_IVssComponentEx</b> constant as the interface identifier (IID) parameter.
-
 
 ## -inheritance
 
@@ -140,16 +139,9 @@ Sets a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">Prepa
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
 

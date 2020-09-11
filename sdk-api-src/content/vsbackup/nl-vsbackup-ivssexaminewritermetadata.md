@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: b3aa04d9-7299-4e3a-b092-d07f2de6eefe
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadata, IVssExamineWriterMetadata interface [VSS], IVssExamineWriterMetadata interface [VSS],described, _win32_ivssexaminewritermetadata, base.ivssexaminewritermetadata, vsbackup/IVssExamineWriterMetadata
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadata
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadata
+ - vsbackup/IVssExamineWriterMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadata
 ---
 
 # IVssExamineWriterMetadata class
 
 
 ## -description
-
 
 The 
 <b>IVssExamineWriterMetadata</b> interface is a C++ (not COM) interface that allows a requester to examine the metadata of a specific writer instance. This metadata may come from a currently executing (live) writer, or it may have been stored as an XML document.
@@ -61,7 +61,6 @@ An
 Metadata obtained from a stored XML document can be examined by an instance of 
 <b>IVssExamineWriterMetadata</b> obtained by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-createvssexaminewritermetadata">CreateVssExamineWriterMetadata</a>.
-
 
 ## -inheritance
 
@@ -177,16 +176,9 @@ Converts the specified string of writer metadata into a string that can be saved
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
- 
-
- 
 

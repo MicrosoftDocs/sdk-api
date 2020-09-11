@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture3d_desc.htm
 ms.date: 12/05/2018
 ms.keywords: CD3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC structure [Direct3D 10], abbd74e0-643f-c06c-689d-08361a07731d, d3d10/D3D10_TEXTURE3D_DESC, direct3d10.d3d10_texture3d_desc
-f1_keywords:
-- d3d10/D3D10_TEXTURE3D_DESC
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D10.h
-api_name:
-- D3D10_TEXTURE3D_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CD3D10_TEXTURE3D_DESC
+ - d3d10/CD3D10_TEXTURE3D_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D10.h
+api_name:
+ - D3D10_TEXTURE3D_DESC
 ---
 
 ## -description
@@ -93,3 +94,4 @@ The device restricts the size of subsampled, block compressed (see <a href="http
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource structures</a>
+

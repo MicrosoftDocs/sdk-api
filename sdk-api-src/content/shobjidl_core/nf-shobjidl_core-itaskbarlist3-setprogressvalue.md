@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 98646a68-d505-4d9b-b0f9-efda3da77005
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetProgressValue method, ITaskbarList3.SetProgressValue, ITaskbarList3::SetProgressValue, SetProgressValue, SetProgressValue method [Windows Shell], SetProgressValue method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetProgressValue, shell.ITaskbarList3_SetProgressValue, shobjidl_core/ITaskbarList3::SetProgressValue
-f1_keywords:
-- shobjidl_core/ITaskbarList3.SetProgressValue
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Explorerframe.dll
-api_name:
-- ITaskbarList3.SetProgressValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskbarList3::SetProgressValue
+ - shobjidl_core/ITaskbarList3::SetProgressValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Explorerframe.dll
+api_name:
+ - ITaskbarList3.SetProgressValue
 ---
 
 # ITaskbarList3::SetProgressValue
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays or updates a progress bar hosted in a taskbar button to show the specific percentage completed of the full operation.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,13 +60,11 @@ Type: <b>HWND</b>
 
 The handle of the window whose associated taskbar button is being used as a progress indicator.
 
-
 ### -param ullCompleted [in]
 
 Type: <b>ULONGLONG</b>
 
 An application-defined value that indicates the proportion of the operation that has been completed at the time the method is called.
-
 
 ### -param ullTotal [in]
 
@@ -78,21 +72,13 @@ Type: <b>ULONGLONG</b>
 
 An application-defined value that specifies the value <i>ullCompleted</i> will have when the operation is complete.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Determinate_Progress_Bar_Lifecycle"></a><a id="determinate_progress_bar_lifecycle"></a><a id="DETERMINATE_PROGRESS_BAR_LIFECYCLE"></a>Determinate Progress Bar Lifecycle</h3>
 An application first calls <b>SetProgressValue</b> to begin the display of a determinate progress bar, and then calls it again as needed to update the bar as the progress changes. When progress is complete, the application must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressstate">SetProgressState</a> with the TBPF_NOPROGRESS flag to dismiss the progress bar.
@@ -177,14 +163,7 @@ HRESULT CMyApp::ShowProgressInTaskbar(HWND hwnd, __in ITaskbarList3 *pTL)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
 
@@ -203,7 +182,4 @@ HRESULT CMyApp::ShowProgressInTaskbar(HWND hwnd, __in ITaskbarList3 *pTL)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

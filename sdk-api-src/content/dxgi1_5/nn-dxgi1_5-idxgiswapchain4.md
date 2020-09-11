@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: F24AF5B3-AEEF-433E-A597-4A588B9B1D2B
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain4, IDXGISwapChain4 interface [DXGI], IDXGISwapChain4 interface [DXGI],described, direct3ddxgi.idxgiswapchain4, dxgi1_5/IDXGISwapChain4
-f1_keywords:
-- dxgi1_5/IDXGISwapChain4
-dev_langs:
-- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dxgi1_5.lib
 req.dll: Dxgi1_5.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxgi1_5.dll
-api_name:
-- IDXGISwapChain4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISwapChain4
+ - dxgi1_5/IDXGISwapChain4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxgi1_5.dll
+api_name:
+ - IDXGISwapChain4
 ---
 
 # IDXGISwapChain4 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface exposes a single method for setting video metadata.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ This method sets High Dynamic Range (HDR) and Wide Color Gamut (WCG)  header met
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiswapchain3">IDXGISwapChain3</a>
- 
-
- 
 

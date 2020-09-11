@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: FC66E794-EF13-47BB-A704-735924363310
 ms.date: 12/05/2018
 ms.keywords: PerfAddCounters, PerfAddCounters function [Perf], perf.perfaddcounters, perflib/PerfAddCounters
-f1_keywords:
-- perflib/PerfAddCounters
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- AdvAPI32.dll
-api_name:
-- PerfAddCounters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PerfAddCounters
+ - perflib/PerfAddCounters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - AdvAPI32.dll
+api_name:
+ - PerfAddCounters
 ---
 
 # PerfAddCounters function
@@ -49,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds performance counter specifications to the specified query.
 
-
-
 ## -parameters
-
-
-
 
 ### -param hQuery [in]
 
 A handle to the query to which you want to add performance counter specifications.
 
-
 ### -param pCounters [in, out]
 
 A pointer to the performance counter specifications that you want to add.
-
 
 ### -param cbCounters
 
 The size of the buffer that the <i>pCounters</i> parameter specifies, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
-
-
 
 The <i>pCounters</i> parameter should point to a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
 <b>PERF_COUNTER_IDENTIFIER</b> structure, optionally followed by a null-terminated
@@ -124,22 +109,13 @@ For each <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perf
 </ul>
 <b>PerfAddCounters</b> attempts to add one counter specification to the query for
 each <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> block, and updates the <b>Status</b> member of the <b>PERF_COUNTER_IDENTIFIER</b> structure in each
-block with the result of the attempt. 
-
-
-
+block with the result of the attempt.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdeletecounters">PerfDeleteCounters</a>
- 
-
- 
 

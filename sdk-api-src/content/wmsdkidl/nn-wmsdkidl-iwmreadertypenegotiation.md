@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 289ca857-5421-47f8-927e-6ca4204a31f9
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTypeNegotiation, IWMReaderTypeNegotiation interface [windows Media Format], IWMReaderTypeNegotiation interface [windows Media Format],described, IWMReaderTypeNegotiationInterface, wmformat.iwmreadertypenegotiation, wmsdkidl/IWMReaderTypeNegotiation
-f1_keywords:
-- wmsdkidl/IWMReaderTypeNegotiation
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMReaderTypeNegotiation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderTypeNegotiation
+ - wmsdkidl/IWMReaderTypeNegotiation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMReaderTypeNegotiation
 ---
 
 # IWMReaderTypeNegotiation interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMReaderTypeNegotiation</b> interface provides a single method that can be used to test certain changes to the output properties of a stream.
 
 An <b>IWMReaderTypeNegotiation</b> interface exists for every reader object. You can obtain a pointer to an instance of this interface by calling the <b>QueryInterface</b> method of any other interface of the reader object.
-
-
-
 
 ## -inheritance
 
@@ -86,12 +82,7 @@ Determines whether certain changes to the properties of an output are possible.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
@@ -102,7 +93,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: stream
 ms.assetid: C41EC25A-98EF-4C35-9E5A-954C80B29DA6
 ms.date: 12/05/2018
 ms.keywords: HistogramHeader, HistogramHeader structure [Streaming Media Devices], mfapi/HistogramHeader, stream.histogramheader
-f1_keywords:
-- mfapi/HistogramHeader
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfapi.h
-api_name:
-- HistogramHeader
 targetos: Windows
 req.typenames: HistogramHeader
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagHistogramHeader
+ - mfapi/tagHistogramHeader
+ - HistogramHeader
+ - mfapi/HistogramHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfapi.h
+api_name:
+ - HistogramHeader
 ---
 
 # HistogramHeader structure
@@ -49,43 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HistogramHeader</b>  structure describes the blob format for <b>MF_CAPTURE_METADATA_HISTOGRAM</b>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Size of this header + (<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramdataheader">HistogramDataHeader</a> + histogram data following) * number of channels available.
 
-
 ### -field Bins
 
 Number of bins in the histogram.
-
 
 ### -field FourCC
 
 Color space that the histogram is collected from
 
-
 ### -field ChannelMasks
 
 Masks of the color channels that the histogram is collected for.
-
 
 ### -field Grid
 
 Grid that the histogram is collected from.
 
-
 ## -remarks
-
-
 
 The <b>MF_CAPTURE_METADATA_HISTOGRAM</b> attribute contains a  histogram when a preview frame is captured.
 
@@ -111,13 +102,7 @@ Histogram data is an array of <b>ULONG</b> with each entry representing the numb
 For Windows 10, if <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-histogram">KSPROPERTY_CAMERACONTROL_EXTENDED_HISTOGRAM</a> is supported, at minimum a full frame histogram with Y channel must be provided which should be the first histogram in the histogram blob.
 Note that <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramblobheader">HistogramBlobHeader</a>, <b>HistogramHeader</b>, <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramdataheader">HistogramDataHeader</a> and Histogram data only describe the blob format for the <b>MF_CAPTURE_METADATA_HISTOGRAM</b> attribute.  The metadata item structure for the histogram (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagkscamera_metadata_itemheader">KSCAMERA_METADATA_ITEMHEADER</a> + all histogram metadata payload) is up to driver and must be 8-byte aligned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramblobheader">HistogramBlobHeader</a>
 
@@ -128,7 +113,4 @@ Note that <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramgrid">HistogramGrid</a>
- 
-
- 
 

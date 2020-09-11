@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getdatetimepickerinfo.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetDateTimePickerInfo, DateTime_GetDateTimePickerInfo macro [Windows Controls], _shell_DateTime_GetDateTimePickerInfo, _shell_DateTime_GetDateTimePickerInfo_cpp, commctrl/DateTime_GetDateTimePickerInfo, controls.DateTime_GetDateTimePickerInfo, controls._shell_DateTime_GetDateTimePickerInfo
-f1_keywords:
-- commctrl/DateTime_GetDateTimePickerInfo
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_GetDateTimePickerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_GetDateTimePickerInfo
+ - commctrl/DateTime_GetDateTimePickerInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_GetDateTimePickerInfo
 ---
 
 # DateTime_GetDateTimePickerInfo macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information for a specified date and time picker (DTP) control.
 
-
 ## -parameters
-
-
-
 
 ### -param hdp [in]
 
@@ -64,10 +60,10 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the DTP control.
 
-
 ### -param pdtpi [in, out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a>*</b>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a>
 <b>cbSize</b>
+

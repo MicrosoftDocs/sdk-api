@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getrightindent.htm
 ms.date: 12/05/2018
 ms.keywords: GetRightIndent, GetRightIndent method [Windows Controls], GetRightIndent method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetRightIndent method, ITextPara.GetRightIndent, ITextPara::GetRightIndent, _win32_ITextPara_GetRightIndent, _win32_ITextPara_GetRightIndent_cpp, controls.ITextPara_GetRightIndent, controls._win32_ITextPara_GetRightIndent, tom/ITextPara::GetRightIndent
-f1_keywords:
-- tom/ITextPara.GetRightIndent
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetRightIndent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetRightIndent
+ - tom/ITextPara::GetRightIndent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetRightIndent
 ---
 
 # ITextPara::GetRightIndent
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the size of the right margin indent of a paragraph. 
-
+Retrieves the size of the right margin indent of a paragraph.
 
 ## -parameters
-
-
-
 
 ### -param pValue
 
 Type: <b>float*</b>
 
-The right indentation, in floating-point points. 
-
+The right indentation, in floating-point points.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -112,15 +105,8 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -139,7 +125,4 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

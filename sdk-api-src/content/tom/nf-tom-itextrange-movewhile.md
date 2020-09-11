@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movewhile.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveWhile method, ITextRange.MoveWhile, ITextRange::MoveWhile, MoveWhile, MoveWhile method [Windows Controls], MoveWhile method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveWhile, _win32_ITextRange_MoveWhile_cpp, controls.ITextRange_MoveWhile, controls._win32_ITextRange_MoveWhile, tom/ITextRange::MoveWhile
-f1_keywords:
-- tom/ITextRange.MoveWhile
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.MoveWhile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::MoveWhile
+ - tom/ITextRange::MoveWhile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.MoveWhile
 ---
 
 # ITextRange::MoveWhile
@@ -49,39 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts at a specified end of a range and searches while the characters belong to the set specified by <i>Cset</i> and while the number of characters is less than or equal to <i>Count</i>. The range is collapsed to an insertion point when a non-matching character is found.
 
-
 ## -parameters
-
-
-
 
 ### -param Cset
 
 Type: <b>VARIANT*</b>
 
-The character set to use in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">Character Match Sets</a>. 
-
+The character set to use in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">Character Match Sets</a>.
 
 ### -param Count
 
 Type: <b>long</b>
 
-Maximum number of characters to move past. The default value is <b>tomForward</b>, which searches to the end of the story. If <i>Count</i> is less than zero, the search starts at the start position and goes backward — toward the beginning of the story. If <i>Count</i> is greater than zero, the search starts at the end position and goes forward — toward the end of the story. 
-
+Maximum number of characters to move past. The default value is <b>tomForward</b>, which searches to the end of the story. If <i>Count</i> is less than zero, the search starts at the start position and goes backward — toward the beginning of the story. If <i>Count</i> is greater than zero, the search starts at the end position and goes forward — toward the end of the story.
 
 ### -param pDelta
 
 Type: <b>long*</b>
 
-The actual count of characters end is moved. This parameter can be null. 
-
+The actual count of characters end is moved. This parameter can be null.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -115,14 +106,8 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The motion described by <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">ITextRange::MoveUntil</a> is logical rather than geometric. That is, motion is toward the end or toward the start of a story. Depending on the language, moving to the end of the story could be moving left or moving right. 
 
@@ -174,14 +159,7 @@ r.FindEnd <, tomStart     // Back up to start of end tag
                            
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -212,7 +190,4 @@ r.FindEnd <, tomStart     // Back up to start of end tag
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

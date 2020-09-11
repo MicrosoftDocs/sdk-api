@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 8A3D1E4E-ED56-47F8-9281-7A8DD82B4DFC
 ms.date: 12/05/2018
 ms.keywords: ID3D11RefTrackingOptions, ID3D11RefTrackingOptions interface [Direct3D 11], ID3D11RefTrackingOptions interface [Direct3D 11],described, d3d11sdklayers/ID3D11RefTrackingOptions, direct3d11.id3d11reftrackingoptions
-f1_keywords:
-- d3d11sdklayers/ID3D11RefTrackingOptions
-dev_langs:
-- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3DCompiler.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCompiler.lib
-- D3DCompiler.dll
-api_name:
-- ID3D11RefTrackingOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11RefTrackingOptions
+ - d3d11sdklayers/ID3D11RefTrackingOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCompiler.lib
+ - D3DCompiler.dll
+api_name:
+ - ID3D11RefTrackingOptions
 ---
 
 # ID3D11RefTrackingOptions interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The tracking interface sets reference tracking options.
-
 
 ## -inheritance
 
@@ -78,29 +77,17 @@ Sets GPU debug reference tracking options.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 These APIs require the Windows Software Development Kit (SDK) for Windows 8.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>
- 
-
- 
 

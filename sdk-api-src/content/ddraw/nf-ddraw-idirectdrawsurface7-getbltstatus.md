@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 1f446300-065b-47c1-9778-fb4a5b2ea4bd
 ms.date: 12/05/2018
 ms.keywords: DDGBS_CANBLT, DDGBS_ISBLTDONE, GetBltStatus, GetBltStatus method [DirectDraw], GetBltStatus method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetBltStatus method, IDirectDrawSurface7.GetBltStatus, IDirectDrawSurface7::GetBltStatus, ddraw/IDirectDrawSurface7::GetBltStatus, directdraw.idirectdrawsurface7_getbltstatus
-f1_keywords:
-- ddraw/IDirectDrawSurface7.GetBltStatus
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.GetBltStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::GetBltStatus
+ - ddraw/IDirectDrawSurface7::GetBltStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.GetBltStatus
 ---
 
 # IDirectDrawSurface7::GetBltStatus
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains status about a bit block transfer (bitblt) operation.
 
-
 ## -parameters
-
-
-
-
-
 
 #### - dwFlags [in]
 
@@ -76,10 +70,7 @@ Inquires whether a bitblt that involves this surface can occur immediately, and 
 
 Inquires whether the bitblt is done, and returns DD_OK if the last bitblt on this surface has completed.
 
-
 ## -returns
-
-
 
 If the method succeeds, a bitbltter is present, and the return value is DD_OK.
 
@@ -95,24 +86,11 @@ If it fails, the method returns DDERR_WASSTILLDRAWING if the bitbltter is busy, 
 <li>DDERR_WASSTILLDRAWING</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetBltStatus</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

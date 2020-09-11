@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_addpage.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_AddPage, PropSheet_AddPage macro [Windows Controls], _win32_PropSheet_AddPage, _win32_PropSheet_AddPage_cpp, controls.PropSheet_AddPage, controls._win32_PropSheet_AddPage, prsht/PropSheet_AddPage
-f1_keywords:
-- prsht/PropSheet_AddPage
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PropSheet_AddPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropSheet_AddPage
+ - prsht/PropSheet_AddPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheet_AddPage
 ---
 
 # PropSheet_AddPage macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a new page to the end of an existing property sheet. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hDlg
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the property sheet.
 
-
 ### -param hpage
 
 Type: <b>HPROPSHEETPAGE</b>
 
 Handle to the page to add. The page must have been created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function.
 
-
 ## -remarks
-
-
 
 The new page should be no larger than the largest page currently in the property sheet because the property sheet is not resized to fit the new page.
 
@@ -101,6 +93,4 @@ A number of messages and one function call occur while the property sheet is man
 </li>
 </ul>
 If you need to modify a property sheet page while you are handling one of these messages or while <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nc-prsht-lpfnpspcallbacka">PropSheetPageProc</a> is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
-
-
 

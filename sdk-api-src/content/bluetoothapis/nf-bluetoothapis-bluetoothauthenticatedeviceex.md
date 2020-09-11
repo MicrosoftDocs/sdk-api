@@ -8,10 +8,6 @@ tech.root: bluetooth
 ms.assetid: 948bf14c-9661-4fe9-b082-009afd867baf
 ms.date: 12/05/2018
 ms.keywords: BluetoothAuthenticateDeviceEx, BluetoothAuthenticateDeviceEx function [Bluetooth], bluetooth.bluetoothauthenticatedeviceex, bluetoothapis/BluetoothAuthenticateDeviceEx
-f1_keywords:
-- bluetoothapis/BluetoothAuthenticateDeviceEx
-dev_langs:
-- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bthprops.dll
-api_name:
-- BluetoothAuthenticateDeviceEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothAuthenticateDeviceEx
+ - bluetoothapis/BluetoothAuthenticateDeviceEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bthprops.dll
+api_name:
+ - BluetoothAuthenticateDeviceEx
 ---
 
 # BluetoothAuthenticateDeviceEx function
@@ -49,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothAuthenticateDeviceEx</b> function sends an authentication request to a remote Bluetooth device. Additionally, this function allows for out-of-band data to be passed into the function call for the device being authenticated.
 <div class="alert"><b>Note</b>  This API is supported in Windows Vista SP2 and Windows 7.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hwndParentIn [in, optional]
 
 The window to parent the authentication wizard. If <b>NULL</b>, the 
 wizard will be parented off the desktop.
-
 
 ### -param hRadioIn [in, optional]
 
@@ -70,11 +66,9 @@ A valid local radio handle or <b>NULL</b>. If <b>NULL</b>, then all radios will
           be tried. If any of the radios succeed, then the call will
 succeed.
 
-
 ### -param pbtdiInout [in, out]
 
 A pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure describing the device          being authenticated.
-
 
 ### -param pbtOobData [in, optional]
 
@@ -89,10 +83,7 @@ If not <b>NULL</b>, no UI is displayed.
 
 An <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>value that specifies the protection required for authentication.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS upon successful completion; returns the following error codes upon failure:
 
@@ -135,14 +126,8 @@ The device in pbtdi is already been marked as authenticated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure specified by <i>pbtdilInOut</i> must contain the address of a device to authenticate.  If the value of <i>pbtOobData</i> is not <b>NULL</b>, an attempt  will be made to authenticate the remote device with the provided out-of-band data.
 
@@ -191,17 +176,7 @@ HRESULT WINAPI AuthenticateService(){
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatedevice">BluetoothAuthenticateDevice</a>
- 
-
- 
 

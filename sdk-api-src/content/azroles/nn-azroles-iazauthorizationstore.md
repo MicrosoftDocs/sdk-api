@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f848cca6-3838-46bc-b1f4-d6eab5096046
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security],described, azroles/IAzAuthorizationStore, security.azauthorizationstore
-f1_keywords:
-- azroles/IAzAuthorizationStore
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzAuthorizationStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore
+ - azroles/IAzAuthorizationStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzAuthorizationStore
 ---
 
 # IAzAuthorizationStore interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AzAuthorizationStore</b> object defines the container that is the root of the authorization policy store.
-
 
 ## -inheritance
 
@@ -592,12 +591,9 @@ Retrieves a value that indicates whether the object can be modified by the user 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>AzAuthorizationStore</b> object is named according to the URL passed to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method. The object has no name within  the policy store.
 
@@ -605,5 +601,4 @@ The application must ensure that the user context from which the <a href="https:
 
 <div class="alert"><b>Note</b>  If an XML store is used over a network, the traffic is not automatically encrypted. IPsec can be used to encrypt the authorization information in transit.</div>
 <div> </div>
-
 

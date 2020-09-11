@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3277d175-ab0b-43ce-965f-f8087d0124e4
 ms.date: 12/05/2018
 ms.keywords: UnlockServiceDatabase, UnlockServiceDatabase function, _win32_unlockservicedatabase, base.unlockservicedatabase, winsvc/UnlockServiceDatabase
-f1_keywords:
-- winsvc/UnlockServiceDatabase
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- UnlockServiceDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnlockServiceDatabase
+ - winsvc/UnlockServiceDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - UnlockServiceDatabase
 ---
 
 # UnlockServiceDatabase function
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function has no effect as of Windows Vista.]
 
 Unlocks a service control manager database by releasing the specified lock.
 
-
 ## -parameters
-
-
-
 
 ### -param ScLock [in]
 
 The lock, which is obtained from a previous call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -94,15 +87,8 @@ The specified lock is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a>
 
@@ -117,7 +103,4 @@ The specified lock is invalid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
- 
-
- 
 

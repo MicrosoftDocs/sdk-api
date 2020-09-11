@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\ienumwiaitem.htm
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem, IEnumWiaItem interface [WIA], IEnumWiaItem interface [WIA],described, _wia_IEnumWiaItem, wia._wia_IEnumWiaItem, wia_xp/IEnumWiaItem
-f1_keywords:
-- wia_xp/IEnumWiaItem
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaguid.lib
-- Wiaguid.dll
-api_name:
-- IEnumWiaItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWiaItem
+ - wia_xp/IEnumWiaItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaguid.lib
+ - Wiaguid.dll
+api_name:
+ - IEnumWiaItem
 ---
 
 # IEnumWiaItem interface
 
 
 ## -description
-
 
 The <b>IEnumWiaItem</b> interface is used by applications to enumerate <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects in the tree's current folder. The Windows Image Acquisition (WIA) run-time system represents every WIA hardware device to applications as a hierarchical tree of <b>IWiaItem</b> objects.
 
@@ -115,12 +115,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ien
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IEnumWiaItem</b> interface is a specific implementation for WIA of the standard Component Object Model (COM) enumeration interface. For details, see <a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>.
 
@@ -152,15 +149,8 @@ The <b>IEnumWiaItem</b> interface, like all COM interfaces, inherits the <a href
 <td>Decrements reference count.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -183,7 +173,4 @@ The <b>IEnumWiaItem</b> interface, like all COM interfaces, inherits the <a href
 
 
 <b>Reference</b>
- 
-
- 
 

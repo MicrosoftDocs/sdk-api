@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitem.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_SetItem, TabCtrl_SetItem macro [Windows Controls], _win32_TabCtrl_SetItem, _win32_TabCtrl_SetItem_cpp, commctrl/TabCtrl_SetItem, controls.TabCtrl_SetItem, controls._win32_TabCtrl_SetItem
-f1_keywords:
-- commctrl/TabCtrl_SetItem
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TabCtrl_SetItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TabCtrl_SetItem
+ - commctrl/TabCtrl_SetItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TabCtrl_SetItem
 ---
 
 # TabCtrl_SetItem macro
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets some or all of a tab's attributes. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setitem">TCM_SETITEM</a> message explicitly. 
-
+Sets some or all of a tab's attributes. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setitem">TCM_SETITEM</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the tab control. 
-
+Handle to the tab control.
 
 ### -param iItem
 
 Type: <b>int</b>
 
-Index of the item. 
-
+Index of the item.
 
 ### -param pitem
 

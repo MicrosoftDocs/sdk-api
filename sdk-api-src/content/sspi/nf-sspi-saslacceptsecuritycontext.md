@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 39ef6522-ff70-4066-a34d-f2af2174f6ee
 ms.date: 12/05/2018
 ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, SaslAcceptSecurityContext function [Security], security.saslacceptsecuritycontext, sspi/SaslAcceptSecurityContext
-f1_keywords:
-- sspi/SaslAcceptSecurityContext
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- SaslAcceptSecurityContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaslAcceptSecurityContext
+ - sspi/SaslAcceptSecurityContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - SaslAcceptSecurityContext
 ---
 
 # SaslAcceptSecurityContext function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaslAcceptSecurityContext</b> function wraps a standard call to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Support Provider Interface</a> <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function and includes creation of SASL server cookies.
 
-
 ## -parameters
-
-
-
 
 ### -param phCredential [in]
 
 A handle to the server's credentials. The server calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function with the INBOUND flag set to retrieve this handle.
 
-
 ### -param phContext [in, optional]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CtxtHandle</a> structure. On the first call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a>, this pointer is <b>NULL</b>. On subsequent calls, <i>phContext</i> is the handle to the partially formed context that was returned in the <i>phNewContext</i> parameter by the first call.
-
 
 ### -param pInput [in]
 
@@ -77,7 +71,6 @@ Pointer to a
 the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function that contains the input buffer descriptor.
 
 SASL requires a single buffer of type <b>SECBUFFER_TOKEN</b>. The buffer is empty for the first call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function and contains the challenge response received from the client for the second call.
-
 
 ### -param fContextReq [in]
 
@@ -111,24 +104,19 @@ Use Digest for HTTP. Omit this flag to use Digest as an SASL mechanism.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param TargetDataRep [in]
 
 Indicates the data representation, such as byte ordering, on the target. This value can be either SECURITY_NATIVE_DREP or SECURITY_NETWORK_DREP.
 
-
 ### -param phNewContext [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CtxtHandle</a> structure. On the first call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a>, this pointer receives the new context handle. On subsequent calls, <i>phNewContext</i> can be the same as the handle specified in the <i>phContext</i> parameter.
-
 
 ### -param pOutput [in, out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains the output buffer descriptor. This buffer is sent to the client for input into additional calls to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a>. An output buffer may be generated even if the function returns SEC_E_OK. Any buffer generated must be sent back to the client application.
-
 
 ### -param pfContextAttr [out]
 
@@ -136,7 +124,6 @@ Pointer to a variable that receives a set of bit flags indicating the attributes
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/context-requirements">Context Requirements</a>. Flags used for this parameter are prefixed with ASC_RET, such as ASC_RET_DELEGATE.
 
 Do not check for security-related attributes until the final function call returns successfully. Attribute flags not related to security, such as the ASC_RET_ALLOCATED_MEMORY flag, can be checked before the final return.
-
 
 ### -param ptsExpiry [out, optional]
 
@@ -149,8 +136,6 @@ Pointer to a <b>TimeStamp</b> structure that receives the expiration time of the
 <div> </div>
 
 ## -returns
-
-
 
 If the call is completed successfully, this function returns SEC_E_OK. The following table shows some possible failure return values.
 
@@ -193,16 +178,8 @@ No Token buffer is located in the <i>pOutput</i> parameter, or the message faile
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The final call of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function that returns SEC_E_OK is identified.  If a return token is produced, SASL processing is suspended for one round trip back to the client to allow the final  token to be processed. After the  exchange is completed, SEC_E_CONTINUE_NEEDED is returned to the application with an additional SASL server cookie encrypted with SSPI message functions. The initial server cookie indicates if INTEGRITY and PRIVACY are supported.  This initial server cookie is processed by the client, and the client returns a client cookie to indicate which services the client requests.  The client cookie is then decrypted by the server and the final services are determined for the following message traffic.
-
-
 

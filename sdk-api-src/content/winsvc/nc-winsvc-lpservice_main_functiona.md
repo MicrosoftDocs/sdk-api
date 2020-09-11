@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d7f3235e-91bd-4107-a30c-4a8f9a6c731e
 ms.date: 12/05/2018
 ms.keywords: LPSERVICE_MAIN_FUNCTION, LPSERVICE_MAIN_FUNCTION callback, LPSERVICE_MAIN_FUNCTION callback function, LPSERVICE_MAIN_FUNCTIONA, LPSERVICE_MAIN_FUNCTIONW, ServiceMain, _win32_servicemain, base.servicemain, winsvc/LPSERVICE_MAIN_FUNCTION, winsvc/LPSERVICE_MAIN_FUNCTIONA, winsvc/LPSERVICE_MAIN_FUNCTIONW
-f1_keywords:
-- winsvc/LPSERVICE_MAIN_FUNCTION
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winsvc.h
-api_name:
-- LPSERVICE_MAIN_FUNCTION
-- LPSERVICE_MAIN_FUNCTIONA
-- LPSERVICE_MAIN_FUNCTIONW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPSERVICE_MAIN_FUNCTIONA
+ - winsvc/LPSERVICE_MAIN_FUNCTIONA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winsvc.h
+api_name:
+ - LPSERVICE_MAIN_FUNCTION
+ - LPSERVICE_MAIN_FUNCTIONA
+ - LPSERVICE_MAIN_FUNCTIONW
 ---
 
 # LPSERVICE_MAIN_FUNCTIONA callback function
@@ -51,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The entry point for a service.
 
 The <b>LPSERVICE_MAIN_FUNCTION</b> type defines a pointer to this callback function. 
 <b>ServiceMain</b> is a placeholder for an application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param dwNumServicesArgs [in]
 
@@ -74,10 +70,7 @@ The null-terminated argument strings passed to the service by the call to the
 
 If the user starts a manual service using the Services snap-in from the Control Panel, the strings for the <i>lpServiceArgVectors</i> parameter come from the properties dialog box for the service (from the Services snap-in, right-click the service entry, click <b>Properties</b>, and enter the parameters in <b>Start parameters</b>.)
 
-
 ## -remarks
-
-
 
 A service program can start one or more services. A service process has a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a> structure for each service that it can start. The structure specifies the service name and a pointer to the 
@@ -116,14 +109,7 @@ For an example, see
 
 [!NOTE] The winsvc.h header defines LPSERVICE_MAIN_FUNCTION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see Conventions for Function Prototypes.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
 
@@ -154,8 +140,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a>
- 
-
- 
- 
 

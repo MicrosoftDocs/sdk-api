@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 83ef0f0a-ae60-474d-a9e7-7c83a73f6255
 ms.date: 12/05/2018
 ms.keywords: IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media Foundation], IMFReadWriteClassFactory interface [Media Foundation],described, mf.imfreadwriteclassfactory, mfreadwrite/IMFReadWriteClassFactory
-f1_keywords:
-- mfreadwrite/IMFReadWriteClassFactory
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFReadWriteClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFReadWriteClassFactory
+ - mfreadwrite/IMFReadWriteClassFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFReadWriteClassFactory
 ---
 
 # IMFReadWriteClassFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of either the sink writer or the source reader.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Creates an instance of the sink writer or source reader, given a URL.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a pointer to this interface, call the <b>CoCreateInstance</b> function. The CLSID is <b>CLSID_MFReadWriteClassFactory</b>. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> function before using  the interface.
 
@@ -118,13 +114,7 @@ Internally, these functions use the <b>IMFReadWriteClassFactory</b> interface.
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
@@ -135,7 +125,4 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

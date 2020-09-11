@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: d3ffe19b-2c9b-4c7b-82c1-f9b846546212
 ms.date: 12/05/2018
 ms.keywords: FWP_VALUE0, FWP_VALUE0 structure [Filtering], fwp.fwp_value0_struct, fwptypes/FWP_VALUE0
-f1_keywords:
-- fwptypes/FWP_VALUE0
-dev_langs:
-- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwptypes.h
-api_name:
-- FWP_VALUE0
 targetos: Windows
 req.typenames: FWP_VALUE0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWP_VALUE0_
+ - fwptypes/FWP_VALUE0_
+ - FWP_VALUE0
+ - fwptypes/FWP_VALUE0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwptypes.h
+api_name:
+ - FWP_VALUE0
 ---
 
 # FWP_VALUE0 structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWP_VALUE0</b> structure defines a data value that can be one of a number of different data types.
 
-
 ## -struct-fields
-
-
-
 
 ### -field type
 
@@ -64,96 +62,41 @@ The type of data for this value.
 
 See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type) for more information.
 
-
 ### -field uint8
-
- 
-
 
 ### -field uint16
 
- 
-
-
 ### -field uint32
-
- 
-
 
 ### -field uint64
 
- 
-
-
 ### -field int8
-
- 
-
 
 ### -field int16
 
- 
-
-
 ### -field int32
-
- 
-
 
 ### -field int64
 
- 
-
-
 ### -field float32
-
- 
-
 
 ### -field double64
 
- 
-
-
 ### -field byteArray16
-
- 
-
 
 ### -field byteBlob
 
- 
-
-
 ### -field sid
-
- 
-
 
 ### -field sd
 
- 
-
-
 ### -field tokenInformation
-
- 
-
 
 ### -field tokenAccessInformation
 
- 
-
-
 ### -field unicodeString
 
- 
-
-
 ### -field byteArray6
-
- 
-
 
 ### -field bitmapArray64
 
@@ -310,10 +253,7 @@ case(FWP_BYTE_ARRAY6_TYPE)
 
 Reserved.
 
-
 ## -remarks
-
-
 
 This is primarily used to supply incoming values to the
 filter engine.
@@ -322,13 +262,7 @@ When IP addresses are stored in FWP_UINT32 format or when IP port is stored in F
 
 <b>FWP_VALUE0</b> is a specific implementation of FWP_VALUE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
@@ -343,7 +277,4 @@ When IP addresses are stored in FWP_UINT32 format or when IP port is stored in F
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
 

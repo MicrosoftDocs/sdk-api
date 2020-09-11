@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 941c9eb3-a5b8-42b7-bb9f-732eaf1faa24
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],ReverseFind method, CHString.ReverseFind, CHString::ReverseFind, ReverseFind, ReverseFind method [Windows Management Instrumentation], ReverseFind method [Windows Management Instrumentation],CHString interface, _hmm_chstring_reversefind, chstring/CHString::ReverseFind, wmi.chstring_reversefind
-f1_keywords:
-- chstring/CHString.ReverseFind
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.ReverseFind
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::ReverseFind
+ - chstring/CHString::ReverseFind
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.ReverseFind
 ---
 
 # CHString::ReverseFind
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,30 +59,17 @@ ms.custom: 19H1
 
 The <b>ReverseFind</b> method searches a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string for the last match of a substring. This method is similar to the runtime function, wcsrchr.
 
-
 ## -parameters
-
-
-
 
 ### -param ch
 
 The character that the method searches for.
 
-
 ## -returns
-
-
 
 Returns the zero-based index of the last character in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string that matches the requested character. If the character is not found, the method returns a value of -1.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
@@ -93,7 +80,4 @@ Returns the zero-based index of the last character in the <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">CHString::FindOneOf</a>
- 
-
- 
 

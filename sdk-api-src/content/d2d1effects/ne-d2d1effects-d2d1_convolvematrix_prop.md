@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: B6ACCA00-8127-4F4B-BF3B-9789943C0BB1
 ms.date: 12/05/2018
 ms.keywords: D2D1_CONVOLVEMATRIX_PROP, D2D1_CONVOLVEMATRIX_PROP enumeration [Direct2D], D2D1_CONVOLVEMATRIX_PROP_BIAS, D2D1_CONVOLVEMATRIX_PROP_BORDER_MODE, D2D1_CONVOLVEMATRIX_PROP_CLAMP_OUTPUT, D2D1_CONVOLVEMATRIX_PROP_DIVISOR, D2D1_CONVOLVEMATRIX_PROP_KERNEL_MATRIX, D2D1_CONVOLVEMATRIX_PROP_KERNEL_OFFSET, D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_X, D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_Y, D2D1_CONVOLVEMATRIX_PROP_KERNEL_UNIT_LENGTH, D2D1_CONVOLVEMATRIX_PROP_PRESERVE_ALPHA, D2D1_CONVOLVEMATRIX_PROP_SCALE_MODE, d2d1effects/D2D1_CONVOLVEMATRIX_PROP, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_BIAS, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_BORDER_MODE, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_DIVISOR, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_MATRIX, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_OFFSET, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_X, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_Y, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_PRESERVE_ALPHA, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_SCALE_MODE, direct2d.d2d1_convolvematrix_prop
-f1_keywords:
-- d2d1effects/D2D1_CONVOLVEMATRIX_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_CONVOLVEMATRIX_PROP
 targetos: Windows
 req.typenames: D2D1_CONVOLVEMATRIX_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_CONVOLVEMATRIX_PROP
+ - d2d1effects/D2D1_CONVOLVEMATRIX_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_CONVOLVEMATRIX_PROP
 ---
 
 # D2D1_CONVOLVEMATRIX_PROP enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/convolve-matrix">Convolve matrix effect</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_CONVOLVEMATRIX_PROP_KERNEL_UNIT_LENGTH
 
@@ -68,7 +64,6 @@ The type is FLOAT.
 
 The default value is 1.0f.
 
-
 ### -field D2D1_CONVOLVEMATRIX_PROP_SCALE_MODE
 
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
@@ -77,7 +72,6 @@ The interpolation mode the effect uses to scale the image to the corresponding k
 The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_scale_mode">D2D1_CONVOLVEMATRIX_SCALE_MODE</a>.
 
 The default value is D2D1_CONVOLVEMATRIX_SCALE_MODE_LINEAR.
-
 
 ### -field D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_X
 
@@ -88,7 +82,6 @@ The type is UINT32.
 
 The default value is 3.
 
-
 ### -field D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_Y
 
 The height of the kernel matrix. The units are specified in kernel units. 
@@ -97,7 +90,6 @@ The height of the kernel matrix. The units are specified in kernel units.
 The type is UINT32.
 
 The default value is 3.
-
 
 ### -field D2D1_CONVOLVEMATRIX_PROP_KERNEL_MATRIX
 
@@ -111,7 +103,6 @@ The type is FLOAT[].
 
 The default value is {0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f}.
 
-
 ### -field D2D1_CONVOLVEMATRIX_PROP_DIVISOR
 
 The kernel matrix is applied to a pixel and then the result is divided by this value. 
@@ -123,7 +114,6 @@ The type is FLOAT.
 
 The default value is 1.0f.
 
-
 ### -field D2D1_CONVOLVEMATRIX_PROP_BIAS
 
 The effect applies the kernel matrix, the divisor, and then the bias is added to the result. The bias is unbounded and unitless. 
@@ -132,7 +122,6 @@ The effect applies the kernel matrix, the divisor, and then the bias is added to
 The type is FLOAT.
 
 The default value is 0.0f.
-
 
 ### -field D2D1_CONVOLVEMATRIX_PROP_KERNEL_OFFSET
 
@@ -144,7 +133,6 @@ With some offsets and kernel sizes, the convolution kernel’s samples won't lan
 The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
 
 The default value is {0.0f, 0.0f}.
-
 
 ### -field D2D1_CONVOLVEMATRIX_PROP_PRESERVE_ALPHA
 
@@ -159,7 +147,6 @@ The type is BOOL.
 
 The default value is FALSE.
 
-
 ### -field D2D1_CONVOLVEMATRIX_PROP_BORDER_MODE
 
 The mode used to calculate the border of the image, soft or hard.
@@ -168,7 +155,6 @@ The mode used to calculate the border of the image, soft or hard.
 The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
-
 
 ### -field D2D1_CONVOLVEMATRIX_PROP_CLAMP_OUTPUT
 
@@ -182,8 +168,5 @@ The type is BOOL.
 
 The default value is FALSE.
 
-
 ### -field D2D1_CONVOLVEMATRIX_PROP_FORCE_DWORD
-
-
 

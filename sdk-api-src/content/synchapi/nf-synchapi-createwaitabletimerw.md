@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 41c915c4-424d-43dd-89d9-a6b4fbee701c
 ms.date: 12/05/2018
 ms.keywords: CreateWaitableTimer, CreateWaitableTimer function, CreateWaitableTimerA, CreateWaitableTimerW, _win32_createwaitabletimer, base.createwaitabletimer, synchapi/CreateWaitableTimer, synchapi/CreateWaitableTimerA, synchapi/CreateWaitableTimerW
-f1_keywords:
-- synchapi/CreateWaitableTimer
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Synch-L1-2-1.dll
-- Kernel32Legacy.dll
-- KernelBase.dll
-api_name:
-- CreateWaitableTimer
-- CreateWaitableTimerA
-- CreateWaitableTimerW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateWaitableTimerW
+ - synchapi/CreateWaitableTimerW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Synch-L1-2-1.dll
+ - Kernel32Legacy.dll
+ - KernelBase.dll
+api_name:
+ - CreateWaitableTimer
+ - CreateWaitableTimerA
+ - CreateWaitableTimerW
 ---
 
 # CreateWaitableTimerW function
@@ -55,16 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a waitable timer object.
 
 To specify an access mask for the object, use the [CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw) function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpTimerAttributes [in, optional]
 
@@ -73,11 +69,9 @@ A pointer to a
 
 If <i>lpTimerAttributes</i> is <b>NULL</b>, the timer object gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a timer come from the primary or impersonation token of the creator.
 
-
 ### -param bManualReset [in]
 
 If this parameter is <b>TRUE</b>, the timer is a manual-reset notification timer. Otherwise, the timer is a synchronization timer.
-
 
 ### -param lpTimerName [in, optional]
 
@@ -96,22 +90,14 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 
 The object can be created in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the timer object. If the named timer object exists before the function call, the function returns a handle to the existing object and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The handle returned by 
 <b>CreateWaitableTimer</b> is created with the <b>TIMER_ALL_ACCESS</b> access right; it can be used in any function that requires a handle to a timer object, provided that the caller has been granted access. If a timer is created from a service or thread that is impersonating a different user, you can either apply a security descriptor to the timer when you create it, or change the default security descriptor for the creating process by changing its default DACL. For more information, see 
@@ -146,12 +132,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-cancelwaitabletimer">CancelWaitableTimer</a>
 
@@ -198,7 +179,4 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>
- 
-
- 
 

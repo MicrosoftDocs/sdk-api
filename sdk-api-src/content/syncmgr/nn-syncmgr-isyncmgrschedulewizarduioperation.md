@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: dcbe22fb-624f-4784-b1c3-5c463d6502a3
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperation interface [Windows Shell], ISyncMgrScheduleWizardUIOperation interface [Windows Shell],described, _shell_ISyncMgrScheduleWizardUIOperation, shell.ISyncMgrScheduleWizardUIOperation, syncmgr/ISyncMgrScheduleWizardUIOperation
-f1_keywords:
-- syncmgr/ISyncMgrScheduleWizardUIOperation
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrScheduleWizardUIOperation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrScheduleWizardUIOperation
+ - syncmgr/ISyncMgrScheduleWizardUIOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrScheduleWizardUIOperation
 ---
 
 # ISyncMgrScheduleWizardUIOperation interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that allows a handler to display the sync schedule wizard for the handler.
-
 
 ## -inheritance
 
@@ -77,15 +76,9 @@ Initializes the sync schedule wizard.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The wizard can be invoked by CoCreating CLSID_SyncMgrScheduleWizard, which is typically done when Sync Center calls <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">ISyncMgrHandler::GetObject</a>, specifying SYNCMGR_OBJECTID_ShowSchedule for the object ID.
-      
-
-
 

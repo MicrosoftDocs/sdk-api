@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 34de407c-54f0-4be9-a383-4bf1baa63eef
 ms.date: 12/05/2018
 ms.keywords: SHRemoveFolderPathFromLibrary, SHRemoveFolderPathFromLibrary function [Windows Shell], _shell_SHRemoveFolderPathFromLibrary, shell.SHRemoveFolderPathFromLibrary, shobjidl_core/SHRemoveFolderPathFromLibrary
-f1_keywords:
-- shobjidl_core/SHRemoveFolderPathFromLibrary
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- SHRemoveFolderPathFromLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHRemoveFolderPathFromLibrary
+ - shobjidl_core/SHRemoveFolderPathFromLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - SHRemoveFolderPathFromLibrary
 ---
 
 # SHRemoveFolderPathFromLibrary function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a folder from a library.
 
-
 ## -parameters
-
-
-
 
 ### -param plib [in]
 
@@ -64,38 +60,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a> object from which to remove the folder.
 
-
 ### -param pszFolderPath [in]
 
 Type: <b>PCWSTR</b>
 
 The path of the folder to remove.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This is an inline helper function that wraps the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-removefolder">IShellLibrary::RemoveFolder</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
@@ -130,7 +111,4 @@ This is an inline helper function that wraps the <a href="https://docs.microsoft
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromparsingname">SHLoadLibraryFromParsingName</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 714c6b0e-3885-4026-8a83-06b37cc97d7c
 ms.date: 12/05/2018
 ms.keywords: IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], IMPEG2StreamIdMap interface [DirectShow],described, IMPEG2StreamIdMapInterface, dshow.impeg2streamidmap, strmif/IMPEG2StreamIdMap
-f1_keywords:
-- strmif/IMPEG2StreamIdMap
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMPEG2StreamIdMap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMPEG2StreamIdMap
+ - strmif/IMPEG2StreamIdMap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMPEG2StreamIdMap
 ---
 
 # IMPEG2StreamIdMap interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This interface is implemented on each output pin of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter (Demux) and is used in program stream mode only. It is called by applications or other filters to associate the pin with a specified Stream ID and to inform the pin whether substream filtering is required on the stream. This interface is not exposed when the filter is playing back a file (pull-mode).
 
 For transport streams, use the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap</a> interface.
-
-
-
 
 ## -inheritance
 
@@ -101,5 +97,5 @@ Unmaps the Stream ID mapping created in a previous call to <b>MapStreamId</b>.
 
 </td>
 </tr>
-</table> 
+</table>
 

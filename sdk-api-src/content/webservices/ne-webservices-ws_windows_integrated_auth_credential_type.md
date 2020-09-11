@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 50fc723a-8c32-443d-b3ce-cd660f5ab18b
 ms.date: 12/05/2018
 ms.keywords: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration [Web Services for Windows], webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, wsw.ws_windows_integrated_auth_credential_type
-f1_keywords:
-- webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 targetos: Windows
 req.typenames: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+ - webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 ---
 
 # WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration
@@ -49,31 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The type of the Windows Integrated Authentication credential, used as
 a selector for subtypes of <a href="/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
 Type id for the Windows credential <a href="/windows/win32/api/webservices/ns-webservices-ws_string_windows_integrated_auth_credential">WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
-                
-
 
 ### -field WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
 Type id for the Windows credential <a href="/windows/win32/api/webservices/ns-webservices-ws_default_windows_integrated_auth_credential">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
-                
-
 
 ### -field WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
 Type id for the Windows credential <a href="/windows/win32/api/webservices/ns-webservices-ws_opaque_windows_integrated_auth_credential">WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
-                
 

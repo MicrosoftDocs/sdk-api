@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 3c852e72-2fdc-4fd0-b523-f5601154da2a
 ms.date: 12/05/2018
 ms.keywords: IHolder, IHolder interface [COM+], IHolder interface [COM+],described, _dtc_IHolder_Interface, comsvcs/IHolder, cos.iholder
-f1_keywords:
-- comsvcs/IHolder
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder
+ - comsvcs/IHolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder
 ---
 
 # IHolder interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates or frees resources for an installed Resource Dispenser. The Dispenser Manager exposes a different <b>IHolder</b> interface to each installed Resource Dispenser.
-
 
 ## -inheritance
 
@@ -140,20 +139,13 @@ Stops tracking a resource (string version).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
- 
-
- 
 

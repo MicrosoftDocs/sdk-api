@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: edf1590c-14a2-4887-a2df-20b5b4cb89a6
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],SetSignatureOriginPartName method, IOpcDigitalSignatureManager.SetSignatureOriginPartName, IOpcDigitalSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName, SetSignatureOriginPartName method [Open Packaging Conventions], SetSignatureOriginPartName method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::SetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_setsignatureoriginpartname
-f1_keywords:
-- msopc/IOpcDigitalSignatureManager.SetSignatureOriginPartName
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcDigitalSignatureManager.SetSignatureOriginPartName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcDigitalSignatureManager::SetSignatureOriginPartName
+ - msopc/IOpcDigitalSignatureManager::SetSignatureOriginPartName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcDigitalSignatureManager.SetSignatureOriginPartName
 ---
 
 # IOpcDigitalSignatureManager::SetSignatureOriginPartName
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the part name of the Digital Signature Origin part to the name represented by a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param signatureOriginPartName [in]
 
 A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface pointer that represents the desired part name for the Digital Signature Origin part.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -110,14 +103,8 @@ A part with the specified part name already exists in the current package.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the Digital Signature Origin part exists or if the part name that is in the <i>signatureOriginPartName</i> parameter is being used for another part, this method will fail.
 
@@ -128,13 +115,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -177,7 +158,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

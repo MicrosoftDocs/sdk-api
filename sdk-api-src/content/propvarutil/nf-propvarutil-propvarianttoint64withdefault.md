@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 6a051235-3e32-40d3-a17e-efc571592dae
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt64WithDefault, PropVariantToInt64WithDefault function [Windows Properties], properties.PropVariantToInt64WithDefault, propvarutil/PropVariantToInt64WithDefault, shell.PropVariantToInt64WithDefault, shell_PropVariantToInt64WithDefault
-f1_keywords:
-- propvarutil/PropVariantToInt64WithDefault
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToInt64WithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToInt64WithDefault
+ - propvarutil/PropVariantToInt64WithDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToInt64WithDefault
 ---
 
 # PropVariantToInt64WithDefault function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts the <b>Int64</b> property value of a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. If no value exists, then specified default value is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param propvarIn [in]
 
@@ -64,28 +60,19 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param llDefault [in]
 
 Type: <b>LONGLONG</b>
 
 Specifies a default property value, for use where no value currently exists.
 
-
 ## -returns
-
-
 
 Type: <b>LONGLONG</b>
 
 Returns the extracted <b>LONGLONG</b> value, or default.
 
-
-
-
 ## -remarks
-
-
 
 This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a <b>LONGLONG</b> value and would like to use a default value if it does not. For instance, an application obtaining values from a property store can use this to safely extract the <b>LONGLONG</b> value for Int64 properties.
 
@@ -105,14 +92,7 @@ LONGLONG llValue = PropVariantToInt64WithDefault(propvar, -1);
 // llValue is valid
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint64">InitPropVariantFromInt64</a>
 
@@ -127,7 +107,4 @@ LONGLONG llValue = PropVariantToInt64WithDefault(propvar, -1);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint64">VariantToInt64</a>
- 
-
- 
 

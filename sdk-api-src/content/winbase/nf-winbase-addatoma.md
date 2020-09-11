@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\addatom.htm
 ms.date: 12/05/2018
 ms.keywords: AddAtom, AddAtom function [Data Exchange], AddAtomA, AddAtomW, _win32_AddAtom, _win32_addatom_cpp, dataxchg.addatom, winbase/AddAtom, winbase/AddAtomA, winbase/AddAtomW, winui._win32_addatom
-f1_keywords:
-- winbase/AddAtom
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-atoms-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- AddAtom
-- AddAtomA
-- AddAtomW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddAtomA
+ - winbase/AddAtomA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-atoms-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - AddAtom
+ - AddAtomA
+ - AddAtomW
 ---
 
 # AddAtomA function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds a character string to the local atom table and returns a unique value (an atom) identifying the string. 
-
+Adds a character string to the local atom table and returns a unique value (an atom) identifying the string.
 
 ## -parameters
-
-
-
 
 ### -param lpString [in]
 
@@ -69,12 +65,9 @@ Type: <b>LPCTSTR</b>
 
 The null-terminated string to be added. The string can have a maximum size of 255 bytes. Strings differing only in case are considered identical. The case of the first string added is preserved and returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getatomnamea">GetAtomName</a> function. 
 
-Alternatively, you can use an integer atom that has been converted using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a> macro. See the Remarks for more information. 
-
+Alternatively, you can use an integer atom that has been converted using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a> macro. See the Remarks for more information.
 
 ## -returns
-
-
 
 Type: <b>ATOM</b>
 
@@ -82,12 +75,7 @@ If the function succeeds, the return value is the newly created atom.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>AddAtom</b> function stores no more than one copy of a given string in the atom table. If the string is already in the table, the function returns the existing atom and, in the case of a string atom, increments the string's reference count. 
 
@@ -106,9 +94,6 @@ If
 > The winbase.h header defines AddAtom as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deleteatom">DeleteAtom</a>
 
@@ -143,7 +128,4 @@ If
 
 
 <b>Reference</b>
- 
-
- 
 

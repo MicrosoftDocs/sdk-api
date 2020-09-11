@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a5282277-85f5-494e-b994-efbf1116b519
 ms.date: 12/05/2018
 ms.keywords: NSTCFC_DELAY_REGISTER_NOTIFY, NSTCFC_NONE, NSTCFC_PINNEDITEMFILTERING, NSTCFOLDERCAPABILITIES, NSTCFOLDERCAPABILITIES enumeration [Windows Shell], _shell_NSTCFOLDERCAPABILITIES, shell.NSTCFOLDERCAPABILITIES, shobjidl_core/NSTCFC_DELAY_REGISTER_NOTIFY, shobjidl_core/NSTCFC_NONE, shobjidl_core/NSTCFC_PINNEDITEMFILTERING, shobjidl_core/NSTCFOLDERCAPABILITIES
-f1_keywords:
-- shobjidl_core/NSTCFOLDERCAPABILITIES
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- NSTCFOLDERCAPABILITIES
 targetos: Windows
 req.typenames: NSTCFOLDERCAPABILITIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NSTCFOLDERCAPABILITIES
+ - shobjidl_core/NSTCFOLDERCAPABILITIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - NSTCFOLDERCAPABILITIES
 ---
 
 # NSTCFOLDERCAPABILITIES enumeration
@@ -49,46 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the state of a tree item. These values are used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities">INameSpaceTreeControlFolderCapabilities</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field NSTCFC_NONE
 
 The property does not exist. Filtering is not supported.
 
-
 ### -field NSTCFC_PINNEDITEMFILTERING
 
 Property exists. Supports filtering based on the value specified in <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a>.
-
 
 ### -field NSTCFC_DELAY_REGISTER_NOTIFY
 
 Delays registration for change notifications until the tree is expanded in the navigation pane.
 
-
 ## -remarks
-
-
 
 The <b>NSTCFOLDERCAPABILITIES</b> type is defined in Shobjidl.h beginning in Windows 7.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrolfoldercapabilities-getfoldercapabilities">INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities</a>
- 
-
- 
 

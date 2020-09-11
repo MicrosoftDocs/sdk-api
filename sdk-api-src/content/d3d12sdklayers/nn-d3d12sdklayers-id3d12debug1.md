@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 3D69D0CA-5D45-49EA-BCF0-5B0ABB916261
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug1, ID3D12Debug1 interface, ID3D12Debug1 interface,described, d3d12sdklayers/ID3D12Debug1, direct3d12.id3d12debug1
-f1_keywords:
-- d3d12sdklayers/ID3D12Debug1
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12sdklayers.h
-api_name:
-- ID3D12Debug1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Debug1
+ - d3d12sdklayers/ID3D12Debug1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12sdklayers.h
+api_name:
+ - ID3D12Debug1
 ---
 
 # ID3D12Debug1 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds GPU-Based Validation and Dependent Command Queue Synchronization to the debug layer.
-
 
 ## -inheritance
 
@@ -95,22 +94,13 @@ Enables or disables dependent command queue synchronization when using a D3D12 d
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is currently in Preview mode.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
 
@@ -121,7 +111,4 @@ This interface is currently in Preview mode.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/using-d3d12-debug-layer-gpu-based-validation">Using D3D12 Debug Layer GPU-Based Validation</a>
- 
-
- 
 

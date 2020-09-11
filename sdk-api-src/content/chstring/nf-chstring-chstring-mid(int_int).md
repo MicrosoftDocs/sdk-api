@@ -7,10 +7,6 @@ helpviewer_keywords: ["CHString::Mid"]
 ms.assetid: f79f7b70-0587-4d5d-8a18-c61bd3c69212
 ms.date: 01/30/19
 ms.keywords: CHString::Mid
-f1_keywords:
-- chstring/CHString::Mid
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CHString::Mid
+ - chstring/CHString::Mid
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- CHString::Mid
+ - CHString::Mid
 ---
 
 # CHString::Mid
+
 
 ## -description
 
@@ -87,3 +89,4 @@ assert( s.Mid( 2, 3 ) == L"cde" );
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-left">CHString::Left</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>
+

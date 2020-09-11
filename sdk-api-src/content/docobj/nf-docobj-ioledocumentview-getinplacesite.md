@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d48cd54c-11b3-4acd-a13a-75a612f1761a
 ms.date: 12/05/2018
 ms.keywords: GetInPlaceSite, GetInPlaceSite method [COM], GetInPlaceSite method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetInPlaceSite method, IOleDocumentView.GetInPlaceSite, IOleDocumentView::GetInPlaceSite, _ole_ioledocumentview_getinplacesite, com.ioledocumentview_getinplacesite, docobj/IOleDocumentView::GetInPlaceSite
-f1_keywords:
-- docobj/IOleDocumentView.GetInPlaceSite
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.GetInPlaceSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::GetInPlaceSite
+ - docobj/IOleDocumentView::GetInPlaceSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.GetInPlaceSite
 ---
 
 # IOleDocumentView::GetInPlaceSite
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the view site associated with this view object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppIPSite [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer variable that receives the interface pointer to the document's view site.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible values include:
 
@@ -86,24 +79,12 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>IOleDocumentView::GetInPlaceSite</b> obtains the most recent <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer passed by <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>, or <b>NULL</b> if <b>IOleDocumentView::SetInPlaceSite</b> has not yet been called. If this pointer is not <b>NULL</b>, this method will call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the pointer. The caller is responsible for releasing it. A document view must implement this method completely; E_NOTIMPL is not an acceptable return value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
@@ -114,7 +95,4 @@ The operation failed.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
- 
-
- 
 

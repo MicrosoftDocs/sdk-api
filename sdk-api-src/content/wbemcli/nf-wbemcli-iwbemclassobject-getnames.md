@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: fc75fb17-52a2-40dd-b333-fcd01cae1430
 ms.date: 12/05/2018
 ms.keywords: GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetNames method, IWbemClassObject.GetNames, IWbemClassObject::GetNames, _hmm_iwbemclassobject_getnames, wbemcli/IWbemClassObject::GetNames, wmi.iwbemclassobject_getnames
-f1_keywords:
-- wbemcli/IWbemClassObject.GetNames
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CIMWin32.dll
-- Esscli.dll
-- Fastprox.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Krnlprov.dll
-- Ncprov.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wmipiprt.dll
-api_name:
-- IWbemClassObject.GetNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemClassObject::GetNames
+ - wbemcli/IWbemClassObject::GetNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CIMWin32.dll
+ - Esscli.dll
+ - Fastprox.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Krnlprov.dll
+ - Ncprov.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wmipiprt.dll
+api_name:
+ - IWbemClassObject.GetNames
 ---
 
 # IWbemClassObject::GetNames
@@ -58,51 +59,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWbemClassObject::GetNames</b> method 
    retrieves the names of the properties in the object. Furthermore, depending on user-supplied 
    selection criteria, it can retrieve all or a subset of the properties. These properties can then be accessed by 
    using <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-get">IWbemClassObject::Get</a> for each name. This 
    method can also return <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">system properties</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param wszQualifierName [in]
 
 A parameter that can be <b>NULL</b>. If not <b>NULL</b>, it must point to a valid <b>LPCWSTR</b> specifying a qualifier name which operates as part of a filter. This is handled as read-only. For more information, see Remarks.
 
-
 ### -param lFlags [in]
 
 For more information, see Remarks.
-
 
 ### -param pQualifierVal [in]
 
 A parameter that can be <b>NULL</b>. If not <b>NULL</b>, it must point to a valid <b>VARIANT</b> structure initialized to a filter value. This <b>VARIANT</b> is handled as read-only by the method. Thus, the caller must call <b>VariantClear</b> on it, if required. For more information, see Remarks.
 
-
 ### -param pNames [out]
 
 A parameter that cannot be <b>NULL</b>, but on entry this parameter must point to <b>NULL</b>. A new <b>SAFEARRAY</b> structure is always allocated, and the pointer is set to point to it. The returned array can have 0 elements, but is always allocated when <b>WBEM_S_NO_ERROR</b> returns. On error, a new <b>SAFEARRAY</b> structure is not returned.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The names returned are controlled by a combination of flags and parameters. For example, all names of all 
      properties can be specified, or only the key properties can be specified, and so on. The primary filter is 
@@ -183,13 +168,7 @@ For more information about using <b>SAFEARRAY</b> structures of
     <b>BSTR</b> values, see 
     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
@@ -208,7 +187,4 @@ For more information about using <b>SAFEARRAY</b> structures of
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
- 
-
- 
 

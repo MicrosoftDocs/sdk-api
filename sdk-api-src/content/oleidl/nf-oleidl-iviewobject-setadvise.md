@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 64712679-8454-41fa-9497-f0ab97240a51
 ms.date: 12/05/2018
 ms.keywords: ADVF_ONLYONCE, ADVF_PRIMEFIRST, IViewObject interface [COM],SetAdvise method, IViewObject.SetAdvise, IViewObject::SetAdvise, SetAdvise, SetAdvise method [COM], SetAdvise method [COM],IViewObject interface, _ole_iviewobject_setadvise, com.iviewobject_setadvise, oleidl/IViewObject::SetAdvise
-f1_keywords:
-- oleidl/IViewObject.SetAdvise
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IViewObject.SetAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewObject::SetAdvise
+ - oleidl/IViewObject::SetAdvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IViewObject.SetAdvise
 ---
 
 # IViewObject::SetAdvise
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Establishes a connection between the view object and an advise sink so that the advise sink can be notified about changes in the object's view.
 
-
 ## -parameters
-
-
-
 
 ### -param aspects [in]
 
 View for which the advisory connection is being set up. Valid values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>. See the <b>DVASPECT</b> enumeration for more information.
-
 
 ### -param advf [in]
 
@@ -102,10 +97,7 @@ Causes an initial notification to be sent regardless of whether data has changed
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface on the advisory sink that is to be informed of changes. A <b>NULL</b> value deletes any existing advisory connection.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -159,14 +151,8 @@ Insufficient memory available for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A container application that is requesting a draw operation on a view object can also register with the <b>IViewObject::SetAdvise</b> method to be notified when the presentation of the view object changes. To find out about when an object's underlying data changes, you must call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> separately.
 
@@ -176,13 +162,7 @@ If the view object changes, a call is made to the appropriate advise sink throug
 
 At any time, a given view object can support only one advisory connection. Therefore, when <b>IViewObject::SetAdvise</b> is called and the view object is already holding on to an advise sink pointer, OLE releases the existing pointer before the new one is registered.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a>
 
@@ -197,7 +177,4 @@ At any time, a given view object can support only one advisory connection. There
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-getadvise">IViewObject::GetAdvise</a>
- 
-
- 
 

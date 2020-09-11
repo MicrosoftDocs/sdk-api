@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 96776d2a-27b7-490a-b3a8-04782ec34f91
 ms.date: 12/05/2018
 ms.keywords: GetDefaultAudioEndpoint, GetDefaultAudioEndpoint method [Core Audio], GetDefaultAudioEndpoint method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDefaultAudioEndpoint method, IMMDeviceEnumerator.GetDefaultAudioEndpoint, IMMDeviceEnumerator::GetDefaultAudioEndpoint, IMMDeviceEnumeratorGetDefaultAudioEndpoint, coreaudio.immdeviceenumerator_getdefaultaudioendpoint, mmdeviceapi/IMMDeviceEnumerator::GetDefaultAudioEndpoint
-f1_keywords:
-- mmdeviceapi/IMMDeviceEnumerator.GetDefaultAudioEndpoint
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMDeviceEnumerator.GetDefaultAudioEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMDeviceEnumerator::GetDefaultAudioEndpoint
+ - mmdeviceapi/IMMDeviceEnumerator::GetDefaultAudioEndpoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMDeviceEnumerator.GetDefaultAudioEndpoint
 ---
 
 # IMMDeviceEnumerator::GetDefaultAudioEndpoint
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDefaultAudioEndpoint</b> method retrieves the default audio endpoint for the specified data-flow direction and role.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dataFlow [in]
 
@@ -70,7 +63,6 @@ eRender
 eCapture
 
 The data-flow direction for a rendering device is eRender. The data-flow direction for a capture device is eCapture.
-
 
 ### -param role [in]
 
@@ -84,15 +76,11 @@ eCommunications
 
 For more information, see Remarks.
 
-
 ### -param ppEndpoint [out]
 
 Pointer to a pointer variable into which the method writes the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface of the endpoint object for the default audio endpoint device. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetDefaultAudioEndpoint</b> call fails,  <i>*ppDevice</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -146,14 +134,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Note</b>
 
@@ -187,19 +169,11 @@ For code examples that call the <b>GetDefaultAudioEndpoint</b> method, see the f
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
- 
-
- 
 

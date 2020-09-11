@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: eac7c7c2-87f0-4af1-bf2f-f4fef5ddd92e
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw, INameSpaceTreeControlCustomDraw interface [Windows Shell], INameSpaceTreeControlCustomDraw interface [Windows Shell],described, _shell_INameSpaceTreeControlCustomDraw, shell.INameSpaceTreeControlCustomDraw, shobjidl/INameSpaceTreeControlCustomDraw
-f1_keywords:
-- shobjidl/INameSpaceTreeControlCustomDraw
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- INameSpaceTreeControlCustomDraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControlCustomDraw
+ - shobjidl/INameSpaceTreeControlCustomDraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - INameSpaceTreeControlCustomDraw
 ---
 
 # INameSpaceTreeControlCustomDraw interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that enable the user to draw a custom namespace tree control and its items.
-
 
 ## -inheritance
 
@@ -104,16 +103,9 @@ Called before the namespace tree control is drawn.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>
- 
-
- 
 

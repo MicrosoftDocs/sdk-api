@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 4c60a3f8-48ec-4686-9e27-692f88cd1c55
 ms.date: 12/05/2018
 ms.keywords: IHandlerActivationHost, IHandlerActivationHost interface [Windows Shell], IHandlerActivationHost interface [Windows Shell],described, shell.IHandlerActivationHost, shobjidl_core/IHandlerActivationHost
-f1_keywords:
-- shobjidl_core/IHandlerActivationHost
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IHandlerActivationHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHandlerActivationHost
+ - shobjidl_core/IHandlerActivationHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IHandlerActivationHost
 ---
 
 # IHandlerActivationHost interface
@@ -78,7 +79,7 @@ The <b>IHandlerActivationHost</b> interface has these methods.
 </td>
 <td align="left" width="63%">Notifies a client of <a href="/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> that a process is about to created, giving that client the opportunity to display UI confirming that or reject it by returning a specific error code.</td>
 </tr>
-</table> 
+</table>
 
 ## -remarks
 

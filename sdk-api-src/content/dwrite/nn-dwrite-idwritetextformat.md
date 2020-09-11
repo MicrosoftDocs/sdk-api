@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 64b2cac3-c4cb-4213-b808-7b279d296939
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat, IDWriteTextFormat interface [Direct Write], IDWriteTextFormat interface [Direct Write],described, directwrite.IDWriteTextFormat, dwrite/IDWriteTextFormat
-f1_keywords:
-- dwrite/IDWriteTextFormat
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextFormat
+ - dwrite/IDWriteTextFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat
 ---
 
 # IDWriteTextFormat interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDWriteTextFormat</b> interface describes the font and paragraph properties used to format text, and it describes locale information.
-        
-
 
 ## -inheritance
 
@@ -294,12 +292,9 @@ Sets the alignment of text in a paragraph, relative to the leading and trailing 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a reference to the <b>IDWriteTextFormat</b> interface, the application must call the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextformat">IDWriteFactory::CreateTextFormat</a> method as shown in the following code.
 
@@ -338,6 +333,4 @@ This object may not be thread-safe, and it may carry the state of text format ch
 
 <h3><a id="DirectWrite_and_Direct2D"></a><a id="directwrite_and_direct2d"></a><a id="DIRECTWRITE_AND_DIRECT2D"></a>DirectWrite and Direct2D</h3>
 To draw simple text with a single format, <a href="/windows/win32/Direct2D/direct2d-portal">Direct2D</a> provides the  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)">ID2D1RenderTarget::DrawText</a> method, which draws a string using the format information provided by an <b>IDWriteTextFormat</b> object.
-
-
 

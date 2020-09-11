@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelresult.htm
 ms.date: 12/05/2018
 ms.keywords: MAKELRESULT, MAKELRESULT macro [Windows and Messages], _win32_MAKELRESULT, _win32_makelresult_cpp, winmsg.makelresult, winui._win32_makelresult, winuser/MAKELRESULT
-f1_keywords:
-- winuser/MAKELRESULT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MAKELRESULT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAKELRESULT
+ - winuser/MAKELRESULT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MAKELRESULT
 ---
 
 # MAKELRESULT macro
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a value for use as a return value from a window procedure. The macro concatenates the specified values. 
-
+Creates a value for use as a return value from a window procedure. The macro concatenates the specified values.
 
 ## -parameters
 
-
-
-
 ### -param l
 
-The low-order word of the new value. 
-
+The low-order word of the new value.
 
 ### -param h
 
-The high-order word of the new value. 
-
+The high-order word of the new value.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -94,7 +85,4 @@ The high-order word of the new value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
- 
-
- 
 

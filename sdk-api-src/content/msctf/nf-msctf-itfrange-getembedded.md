@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: ff8c4f60-76d5-422d-9d23-584e8eb5f1a1
 ms.date: 12/05/2018
 ms.keywords: Caller-defined, GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetEmbedded method, ITfRange.GetEmbedded, ITfRange::GetEmbedded, _tsf_itfrange_getembedded_ref, msctf/ITfRange::GetEmbedded, tsf.itfrange_getembedded
-f1_keywords:
-- msctf/ITfRange.GetEmbedded
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.GetEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::GetEmbedded
+ - msctf/ITfRange::GetEmbedded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.GetEmbedded
 ---
 
 # ITfRange::GetEmbedded
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRange::GetEmbedded</b> method obtains content that corresponds to a <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED</a> character in the text stream. The start anchor of the range of text is positioned just before the character of interest.
 
-
 ## -parameters
-
-
-
 
 ### -param ec [in]
 
 Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
 
 ### -param rguidService [in]
 
@@ -113,22 +108,16 @@ Text services and context owners can define custom GUIDs.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param riid [in]
 
 UUID of the interface of the requested object.
 
-
 ### -param ppunk [out]
 
 Pointer to the object. It can be cast to match <i>riid</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -215,24 +204,12 @@ The content cannot be returned to match <i>rguidService</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 While the obtained object might not support certain interfaces, it is likely that the object will support those interfaces associated with embedded documents or controls such as <b>IOleObject</b>, <b>IDataObject</b>, <b>IViewObject</b>, <b>IPersistStorage</b>, <b>IOleCache</b>, or <b>IDispatch</b>. The caller must use <b>QueryInterface</b> to probe for any interesting interface. If the method succeeds but <i>riid</i> is <b>NULL</b>, the application indicates the presence of an embedded object but does not expose the object itself. Text processors can still benefit from a notification about the potential word break.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessible-objects">Accessible Objects</a>
 
@@ -266,7 +243,4 @@ While the obtained object might not support certain interfaces, it is likely tha
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
- 
-
- 
 

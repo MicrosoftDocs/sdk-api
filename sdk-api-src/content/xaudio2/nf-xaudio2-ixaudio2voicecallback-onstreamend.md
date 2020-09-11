@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnStreamEnd
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnStreamEnd method, IXAudio2VoiceCallback.OnStreamEnd, IXAudio2VoiceCallback::OnStreamEnd, OnStreamEnd, OnStreamEnd method [XAudio2 Audio Mixing APIs], OnStreamEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onstreamend, xaudio2/IXAudio2VoiceCallback::OnStreamEnd
-f1_keywords:
-- xaudio2/IXAudio2VoiceCallback.OnStreamEnd
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.h
-api_name:
-- IXAudio2VoiceCallback.OnStreamEnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2VoiceCallback::OnStreamEnd
+ - xaudio2/IXAudio2VoiceCallback::OnStreamEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.h
+api_name:
+ - IXAudio2VoiceCallback.OnStreamEnd
 ---
 
 # IXAudio2VoiceCallback::OnStreamEnd
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when the voice has just finished playing a contiguous audio stream.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 <b>OnStreamEnd</b> is triggered when XAudio2 processes an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer">XAUDIO2_BUFFER</a> with the XAUDIO2_END_OF_STREAM flag set. See the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer">IXAudio2SourceVoice::SubmitSourceBuffer</a> method for more information.
 
@@ -85,13 +77,7 @@ For information about <a href="https://docs.microsoft.com/windows/desktop/api/xa
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--use-source-voice-callbacks">How to: Use Source Voice Callbacks</a>
 
@@ -102,7 +88,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>
- 
-
- 
 

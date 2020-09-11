@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4fa1bd7a-c675-4588-8753-2614be444c9c
 ms.date: 12/05/2018
 ms.keywords: VDSBusType1394, VDSBusTypeAta, VDSBusTypeAtapi, VDSBusTypeFibre, VDSBusTypeFileBackedVirtual, VDSBusTypeMax, VDSBusTypeMaxReserved, VDSBusTypeMmc, VDSBusTypeRAID, VDSBusTypeSas, VDSBusTypeSata, VDSBusTypeScsi, VDSBusTypeSd, VDSBusTypeSsa, VDSBusTypeUnknown, VDSBusTypeUsb, VDSBusTypeiScsi, VDS_STORAGE_BUS_TYPE, VDS_STORAGE_BUS_TYPE enumeration [VDS], base.vds_storage_bus_type, vdslun/VDSBusType1394, vdslun/VDSBusTypeAta, vdslun/VDSBusTypeAtapi, vdslun/VDSBusTypeFibre, vdslun/VDSBusTypeFileBackedVirtual, vdslun/VDSBusTypeMax, vdslun/VDSBusTypeMaxReserved, vdslun/VDSBusTypeMmc, vdslun/VDSBusTypeRAID, vdslun/VDSBusTypeSas, vdslun/VDSBusTypeSata, vdslun/VDSBusTypeScsi, vdslun/VDSBusTypeSd, vdslun/VDSBusTypeSsa, vdslun/VDSBusTypeUnknown, vdslun/VDSBusTypeUsb, vdslun/VDSBusTypeiScsi, vdslun/VDS_STORAGE_BUS_TYPE
-f1_keywords:
-- vdslun/VDS_STORAGE_BUS_TYPE
-dev_langs:
-- c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VdsLun.h
-api_name:
-- VDS_STORAGE_BUS_TYPE
 targetos: Windows
 req.typenames: VDS_STORAGE_BUS_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_STORAGE_BUS_TYPE
+ - vdslun/_VDS_STORAGE_BUS_TYPE
+ - VDS_STORAGE_BUS_TYPE
+ - vdslun/VDS_STORAGE_BUS_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VdsLun.h
+api_name:
+ - VDS_STORAGE_BUS_TYPE
 ---
 
 # VDS_STORAGE_BUS_TYPE enumeration
@@ -49,77 +52,60 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the set of valid bus types of a storage device.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VDSBusTypeUnknown
 
 This value is reserved.
 
-
 ### -field VDSBusTypeScsi
 
 The storage bus type is SCSI.
-
 
 ### -field VDSBusTypeAtapi
 
 The storage bus type is ATAPI.
 
-
 ### -field VDSBusTypeAta
 
 The storage bus type is ATA.
-
 
 ### -field VDSBusType1394
 
 The storage bus type is IEEE 1394.
 
-
 ### -field VDSBusTypeSsa
 
 The storage bus type is SSA.
-
 
 ### -field VDSBusTypeFibre
 
 The storage bus type is Fibre Channel.
 
-
 ### -field VDSBusTypeUsb
 
 The storage bus type is USB.
-
 
 ### -field VDSBusTypeRAID
 
 The storage bus type is RAID.
 
-
 ### -field VDSBusTypeiScsi
 
 The storage bus type is iSCSI.
-
 
 ### -field VDSBusTypeSas
 
 The storage bus type is Serial Attached SCSI (SAS).
 
-
 ### -field VDSBusTypeSata
 
 The storage bus type is SATA.
-
 
 ### -field VDSBusTypeSd
 
@@ -127,13 +113,11 @@ The storage bus type is Secure Digital (SD).
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-
 ### -field VDSBusTypeMmc
 
 The storage bus type is MultiMedia Card (MMC).
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
-
 
 ### -field VDSBusTypeMax
 
@@ -141,9 +125,7 @@ This value is reserved for system use.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-
 ### -field VDSBusTypeVirtual
-
 
 ### -field VDSBusTypeFileBackedVirtual
 
@@ -151,27 +133,19 @@ The storage bus type is file-backed virtual.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-
 ### -field VDSBusTypeSpaces
-
 
 ### -field VDSBusTypeNVMe
 
-
 ### -field VDSBusTypeScm
 
-
 ### -field VDSBusTypeUfs
-
 
 ### -field VDSBusTypeMaxReserved
 
 The maximum value of the storage bus type range.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop2">VDS_DRIVE_PROP2</a> structures include a <b>VDS_STORAGE_BUS_TYPE</b> value as a member to specify the bus type of a LUN, disk, or drive.
 
@@ -180,12 +154,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_STORAGE_BUS_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_STORAGE_BUS_TYPE</b> enumeration constant.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/aa510102.aspx">STORAGE_BUS_TYPE</a>
 
@@ -200,7 +169,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
- 
-
- 
 

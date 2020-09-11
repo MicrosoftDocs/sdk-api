@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: e704baf0-d403-4cf7-aa32-16677d9a8694
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder interface [IMAPI],OpenExclusive method, IDiscRecorder.OpenExclusive, IDiscRecorder::OpenExclusive, OpenExclusive, OpenExclusive method [IMAPI], OpenExclusive method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_openexclusive, base.idiscrecorder_openexclusive, imapi.idiscrecorder_openexclusive, imapi/IDiscRecorder::OpenExclusive
-f1_keywords:
-- imapi/IDiscRecorder.OpenExclusive
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscRecorder.OpenExclusive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder::OpenExclusive
+ - imapi/IDiscRecorder::OpenExclusive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscRecorder.OpenExclusive
 ---
 
 # IDiscRecorder::OpenExclusive
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a disc recorder for exclusive access.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
-
-
-
 ## -remarks
-
-
 
 This method blocks file system access to a recorder through applications such as Explorer. The recorder must be opened with this method before it is possible to use the following methods: 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-querymediatype">QueryMediaType</a>, 
@@ -90,16 +77,7 @@ Any time that
 <b>OpenExclusive</b> is called, it appears to the file system that the disc has been removed. When the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-close">Close</a> call is made, it appears to the file system that the media has reappeared. This may cause auto-run issues.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
- 
-
- 
 

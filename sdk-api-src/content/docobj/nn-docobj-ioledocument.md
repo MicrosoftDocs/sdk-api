@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7a15d6ef-900c-4a0b-8b85-60dc66ca03a3
 ms.date: 12/05/2018
 ms.keywords: IOleDocument, IOleDocument interface [COM], IOleDocument interface [COM],described, _ole_ioledocument, com.ioledocument, docobj/IOleDocument
-f1_keywords:
-- docobj/IOleDocument
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocument
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocument
+ - docobj/IOleDocument
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocument
 ---
 
 # IOleDocument interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a document object to communicate to containers its ability to create views of its data. This interface also enables a document object to enumerate its views and to provide containers with miscellaneous information about itself, such as whether it supports multiple views or complex rectangles.
-
 
 ## -inheritance
 
@@ -95,13 +94,9 @@ Retrieves status information about the document object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>
 
@@ -116,7 +111,4 @@ Retrieves status information about the document object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>
- 
-
- 
 

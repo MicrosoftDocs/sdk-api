@@ -8,10 +8,6 @@ tech.root: Nps
 ms.assetid: 265f034a-78be-4792-958e-80ad7a71d1a7
 ms.date: 12/05/2018
 ms.keywords: IAS, RemoteAccess, GetServiceSDO, GetServiceSDO method [Network Policy Server], GetServiceSDO method [Network Policy Server],ISdoMachine interface, GetServiceSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetServiceSDO method, ISdoMachine.GetServiceSDO, ISdoMachine::GetServiceSDO, SdoMachine object [Network Policy Server],GetServiceSDO method, _sdo_isdomachine_getservicesdo, nps.SDO_isdomachine_getservicesdo, sdo.isdomachine_getservicesdo, sdoias/ISdoMachine::GetServiceSDO
-f1_keywords:
-- sdoias/ISdoMachine.GetServiceSDO
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Iassdo.dll
-api_name:
-- ISdoMachine.GetServiceSDO
-- SdoMachine.GetServiceSDO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISdoMachine::GetServiceSDO
+ - sdoias/ISdoMachine::GetServiceSDO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Iassdo.dll
+api_name:
+ - ISdoMachine.GetServiceSDO
+ - SdoMachine.GetServiceSDO
 ---
 
 # ISdoMachine::GetServiceSDO
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetServiceSDO</b> method retrieves a 
     Server Data Object (SDO) for the specified service.
 
-
 ## -parameters
-
-
-
 
 ### -param eDataStore [in]
 
 Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasdatastore">IASDATASTORE</a> enumeration 
       type.
-
 
 ### -param bstrServiceName [in]
 
@@ -87,7 +82,6 @@ Network Policy Server
 
 Remote Access Server
 
-
 ### -param ppServiceSDO [out]
 
 Pointer to a pointer that points to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface 
@@ -96,21 +90,13 @@ Pointer to a pointer that points to an <a href="https://docs.microsoft.com/windo
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the 
       <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol">ISdoServiceControl</a> object.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is <b>S_OK</b>.
 
 If the method fails, the return value is one of the following error codes.
 
-
-
-
 ## -remarks
-
-
 
 Before calling this method, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a> method to attach to the SDO 
@@ -118,13 +104,7 @@ Before calling this method, use the
 
 None of the parameters for this method can be <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
 
@@ -135,7 +115,4 @@ None of the parameters for this method can be <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo">Retrieving a Service SDO</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: abcc84af-6067-4856-8618-fb66aff4255a
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], IWICBitmapSource interface [Windows Imaging Component],described, _wic_codec_iwicbitmapsource, wic._wic_codec_iwicbitmapsource, wincodec/IWICBitmapSource
-f1_keywords:
-- wincodec/IWICBitmapSource
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapSource
+ - wincodec/IWICBitmapSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapSource
 ---
 
 # IWICBitmapSource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that refers to a source from which pixels are retrieved, but cannot be written back to.
-
 
 ## -inheritance
 
@@ -113,27 +112,15 @@ Retrieves the pixel width and height of the bitmap.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface provides a common way of accessing and linking together bitmaps, decoders, format converters, and scalers. Components that implement this interface can be connected together in a graph to pull imaging data through.
 
 This interface defines only the notion of readability or being able to produce pixels. Modifying or writing to a bitmap is considered to be a specialization specific to bitmaps which have storage and is defined in the descendant interface <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5ee4f46c-762c-4acf-86ff-da7a93b5de05
 ms.date: 12/05/2018
 ms.keywords: 5ee4f46c-762c-4acf-86ff-da7a93b5de05, MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT, MFNET_CREDENTIAL_DONT_CACHE, MFNET_CREDENTIAL_SAVE, MFNetCredentialOptions, MFNetCredentialOptions enumeration [Media Foundation], mf.mfnetcredentialoptions, mfidl/MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT, mfidl/MFNET_CREDENTIAL_DONT_CACHE, mfidl/MFNET_CREDENTIAL_SAVE, mfidl/MFNetCredentialOptions
-f1_keywords:
-- mfidl/MFNetCredentialOptions
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MFNetCredentialOptions
 targetos: Windows
 req.typenames: MFNetCredentialOptions
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFNetCredentialOptions
+ - mfidl/_MFNetCredentialOptions
+ - MFNetCredentialOptions
+ - mfidl/MFNetCredentialOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MFNetCredentialOptions
 ---
 
 # MFNetCredentialOptions enumeration
@@ -49,27 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Describes options for the caching network credentials.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field MFNET_CREDENTIAL_SAVE
 
 Allow the credential cache object to save  credentials in persistant storage.
 
-
 ### -field MFNET_CREDENTIAL_DONT_CACHE
 
 Do not allow the credential cache object to cache the credentials in memory. This flag cannot be combined with the MFNET_CREDENTIAL_SAVE flag.
-
 
 ### -field MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT
 
@@ -79,11 +72,7 @@ The user allows credentials to be sent over the network in clear text.
 
 Do not set this flag without notifying the user that credentials might be sent in clear text.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-setuseroptions">IMFNetCredentialCache::SetUserOptions</a>
 
@@ -98,7 +87,4 @@ Do not set this flag without notifying the user that credentials might be sent i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
- 
-
- 
 

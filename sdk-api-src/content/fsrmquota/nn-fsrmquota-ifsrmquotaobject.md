@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 80c01faf-717e-4375-8772-c61f04a7d7f3
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], IFsrmQuotaObject interface [File Server Resource Manager],described, fs.ifsrmquotaobject, fsrm.ifsrmquotaobject, fsrm/IFsrmQuotaObject
-f1_keywords:
-- fsrmquota/IFsrmQuotaObject
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaObject
+ - fsrmquota/IFsrmQuotaObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaObject
 ---
 
 # IFsrmQuotaObject interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Base class for the quota and automatic quota interfaces.
-
 
 ## -inheritance
 
@@ -171,13 +170,9 @@ Retrieves the string form of the user's security identifier (SID) that is associ
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -188,7 +183,4 @@ Retrieves the string form of the user's security identifier (SID) that is associ
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

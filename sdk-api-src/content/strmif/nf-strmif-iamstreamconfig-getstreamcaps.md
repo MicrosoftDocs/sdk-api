@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9dd84847-2cae-42f2-a858-7106cd2ac075
 ms.date: 12/05/2018
 ms.keywords: GetStreamCaps, GetStreamCaps method [DirectShow], GetStreamCaps method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetStreamCaps method, IAMStreamConfig.GetStreamCaps, IAMStreamConfig::GetStreamCaps, IAMStreamConfigGetStreamCaps, dshow.iamstreamconfig_getstreamcaps, strmif/IAMStreamConfig::GetStreamCaps
-f1_keywords:
-- strmif/IAMStreamConfig.GetStreamCaps
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStreamConfig.GetStreamCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStreamConfig::GetStreamCaps
+ - strmif/IAMStreamConfig::GetStreamCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStreamConfig.GetStreamCaps
 ---
 
 # IAMStreamConfig::GetStreamCaps
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStreamCaps</b> method retrieves a set of format capabilities.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param iIndex [in]
 
-
 Specifies the format capability to retrieve, indexed from zero. To determine the number of capabilities that the pin supports, call the <a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">IAMStreamConfig::GetNumberOfCapabilities</a> method.
-
 
 ### -param ppmt [out]
 
 Address of a pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The method allocates the structure and fills it with a media type.
-
 
 ### -param pSCC [out]
 
 Pointer to a byte array allocated by the caller. For video, use the <a href="/windows/win32/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure (see Remarks). For audio, use the <a href="/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure. To determine the required size of the array, call the <b>GetNumberOfCapabilities</b> method. The size is returned in the <i>piSize</i> parameter.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -155,14 +143,8 @@ The input pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method returns two pieces of information:
 
@@ -225,15 +207,11 @@ delete [] pSCC;
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
 
 <a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
-
 

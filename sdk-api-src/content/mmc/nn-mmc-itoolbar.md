@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: cf9c9fe9-f58f-47f0-9051-86a514df0c6d
 ms.date: 12/05/2018
 ms.keywords: IToolbar, IToolbar interface [MMC], IToolbar interface [MMC],described, _slate_itoolbar, mmc.itoolbar, mmc/IToolbar
-f1_keywords:
-- mmc/IToolbar
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IToolbar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToolbar
+ - mmc/IToolbar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IToolbar
 ---
 
 # IToolbar interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IToolbar</b> interface is used to create new toolbars, to add items to them, to extend the toolbars, and to display the resultant new toolbars. Each toolbar is created on its own band within the control bar.
-
 
 ## -inheritance
 
@@ -123,5 +122,5 @@ Sets an attribute of a button.
 
 </td>
 </tr>
-</table> 
+</table>
 

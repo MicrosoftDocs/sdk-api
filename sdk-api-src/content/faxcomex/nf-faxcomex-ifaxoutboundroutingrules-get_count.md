@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qyc.htm
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutboundRoutingRules interface, IFaxOutboundRoutingRules interface [Fax Service],Count property, IFaxOutboundRoutingRules.Count, IFaxOutboundRoutingRules.get_Count, IFaxOutboundRoutingRules::Count, IFaxOutboundRoutingRules::get_Count, _mfax_faxoutboundroutingrules.count, fax._mfax_faxoutboundroutingrules_count, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_count_cpp, faxcomex/IFaxOutboundRoutingRules::Count, faxcomex/IFaxOutboundRoutingRules::get_Count, get_Count
-f1_keywords:
-- faxcomex/IFaxOutboundRoutingRules.Count
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutboundRoutingRules.Count
-- IFaxOutboundRoutingRules.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutboundRoutingRules::get_Count
+ - faxcomex/IFaxOutboundRoutingRules::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutboundRoutingRules.Count
+ - IFaxOutboundRoutingRules.get_Count
 ---
 
 # IFaxOutboundRoutingRules::get_Count
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxOutboundRoutingRules::get_Count</b> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> collection. This is the total number of outbound routing rules associated with the fax server.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a>
 
@@ -73,7 +68,4 @@ This property is read-only.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
- 
-
- 
 

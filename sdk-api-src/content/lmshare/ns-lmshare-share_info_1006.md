@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 645a8670-5661-4d6c-8d9e-67c1bbb0f1d7
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_1006, *PSHARE_INFO_1006, LPSHARE_INFO_1006, LPSHARE_INFO_1006 structure pointer [Files], PSHARE_INFO_1006, PSHARE_INFO_1006 structure pointer [Files], SHARE_INFO_1006, SHARE_INFO_1006 structure [Files], _win32_share_info_1006_str, fs.share_info_1006_str, lmshare/LPSHARE_INFO_1006, lmshare/PSHARE_INFO_1006, lmshare/SHARE_INFO_1006, netmgmt.share_info_1006_str'
-f1_keywords:
-- lmshare/SHARE_INFO_1006
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmshare.h
-api_name:
-- SHARE_INFO_1006
 targetos: Windows
 req.typenames: SHARE_INFO_1006, *PSHARE_INFO_1006, *LPSHARE_INFO_1006
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHARE_INFO_1006
+ - lmshare/_SHARE_INFO_1006
+ - PSHARE_INFO_1006
+ - lmshare/PSHARE_INFO_1006
+ - SHARE_INFO_1006
+ - lmshare/SHARE_INFO_1006
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmshare.h
+api_name:
+ - SHARE_INFO_1006
 ---
 
 # SHARE_INFO_1006 structure
@@ -49,24 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the maximum number of concurrent connections that the shared resource can accommodate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field shi1006_max_uses
 
 Specifies a DWORD value that indicates the maximum number of concurrent connections that the shared resource can accommodate. The number of connections is unlimited if the value specified in this member is –1.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
 
@@ -81,7 +77,4 @@ Specifies a DWORD value that indicates the maximum number of concurrent connecti
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
- 
-
- 
 

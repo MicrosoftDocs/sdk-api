@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3
 ms.date: 12/05/2018
 ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID, HP_HASHSIZE, HP_HASHVAL, _crypto2_cryptgethashparam, security.cryptgethashparam, wincrypt/CryptGetHashParam
-f1_keywords:
-- wincrypt/CryptGetHashParam
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptGetHashParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetHashParam
+ - wincrypt/CryptGetHashParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptGetHashParam
 ---
 
 # CryptGetHashParam function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetHashParam</b> function retrieves data that governs the operations of a hash object. The actual hash value can be retrieved by using this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 Handle of the hash object to be queried.
-
 
 ### -param dwParam [in]
 
@@ -128,7 +123,6 @@ A pointer to a buffer that receives the specified value data. The form of this d
 
 This parameter can be <b>NULL</b> to determine the memory size required.
 
-
 ### -param pdwDataLen [in, out]
 
 A pointer to a <b>DWORD</b> value specifying the size, in bytes, of the <i>pbData</i> buffer. When the function returns, the <b>DWORD</b> value contains the number of bytes stored in the buffer. 
@@ -143,10 +137,7 @@ If <i>pbData</i> is <b>NULL</b>, set the value of <i>pdwDataLen</i> to zero.
 
 Reserved for future use and must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -238,15 +229,8 @@ The CSP context that was specified when the hash was created cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
@@ -277,7 +261,4 @@ The CSP context that was specified when the hash was created cannot be found.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

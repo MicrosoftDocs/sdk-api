@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 039ae2e1-1dad-4a70-a054-bd95b0b500fb
 ms.date: 12/05/2018
 ms.keywords: IDvbShortEventDescriptor, IDvbShortEventDescriptor interface [Microsoft TV Technologies], IDvbShortEventDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbShortEventDescriptor, mstv.idvbshorteventdescriptor
-f1_keywords:
-- dvbsiparser/IDvbShortEventDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbShortEventDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbShortEventDescriptor
+ - dvbsiparser/IDvbShortEventDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbShortEventDescriptor
 ---
 
 # IDvbShortEventDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data  from a Digital Video Broadcast (DVB) short event descriptor. A short event descriptor appears as part of the DVB service information in the event information table (EIT) and service information table (SIT) and provides the name and a description of the event in text format.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Gets the text that describes the event in string format from a DVB short event d
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 87423ddb-7011-40ab-a449-eb43688efb26
 ms.date: 12/05/2018
 ms.keywords: A proprietary event GUID defined by the codec., CODECAPI_CHANGELISTS, ICodecAPI interface [DirectShow],RegisterForEvent method, ICodecAPI.RegisterForEvent, ICodecAPI::RegisterForEvent, ICodecAPIRegisterForEvent, One of the property GUIDs defined in codecapi.h. (See Codec API Properties.), RegisterForEvent, RegisterForEvent method [DirectShow], RegisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_registerforevent, strmif/ICodecAPI::RegisterForEvent
-f1_keywords:
-- strmif/ICodecAPI.RegisterForEvent
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICodecAPI.RegisterForEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICodecAPI::RegisterForEvent
+ - strmif/ICodecAPI::RegisterForEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICodecAPI.RegisterForEvent
 ---
 
 # ICodecAPI::RegisterForEvent
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>RegisterForEvent</b> method registers the application to receive events from the codec. 
-
-
-
+The <b>RegisterForEvent</b> method registers the application to receive events from the codec.
 
 ## -parameters
-
-
-
 
 ### -param Api [in]
 
@@ -103,18 +96,12 @@ Implementation dependent.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param userData [out]
 
 Pointer to caller-defined data. The application receives this pointer in the <i>lParam1</i> event parameter.
-          
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -146,14 +133,8 @@ Not implemented. The codec does not support event notification, or does not supp
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application receives an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-codecapi-event">EC_CODECAPI_EVENT</a> event notification whenever the encoder codec sends the event.  To get the event, uses the <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a> interface.
 
@@ -183,13 +164,7 @@ If the codec does not support the specified event, the method returns <b>E_NOTIM
 
 To disable notifications for an event, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-unregisterforevent">ICodecAPI::UnregisterForEvent</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
@@ -200,7 +175,4 @@ To disable notifications for an event, call <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
- 
-
- 
 

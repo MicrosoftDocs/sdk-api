@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: d1437581-8a2b-4e88-aa12-a16eb9f40125
 ms.date: 12/05/2018
 ms.keywords: ISendMethodEvents, ISendMethodEvents interface [COM+], ISendMethodEvents interface [COM+],described, _cos_ISendMethodEvents, comsvcs/ISendMethodEvents, cos.isendmethodevents
-f1_keywords:
-- comsvcs/ISendMethodEvents
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISendMethodEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISendMethodEvents
+ - comsvcs/ISendMethodEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISendMethodEvents
 ---
 
 # ISendMethodEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes an event class that notifies subscribers whenever a method on the object that implements it either is called or returns from a call. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Generated when a method called through a component interface returns control to 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To send method events to the COM+ tracker property, you need to obtain a handle to it and you need to obtain its GUID, which is defined as follows.
 
@@ -99,16 +95,7 @@ To send method events to the COM+ tracker property, you need to obtain a handle 
 </code></pre>
 To obtain a handle to the COM+ tracker property, call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icontext-getproperty">IContext::GetProperty</a> method with the <i>rGuid</i> argument set equal to this GUID.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
- 
-
- 
 

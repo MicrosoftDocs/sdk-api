@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 7d42167f-9af4-4aee-b641-a93ade1e3969
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDeviceInfo, SetupDiCreateDeviceInfo function [Device and Driver Installation], SetupDiCreateDeviceInfoA, SetupDiCreateDeviceInfoW, devinst.setupdicreatedeviceinfo, di-rtns_a4c64729-99b8-44d0-a404-1def9567bf33.xml, setupapi/SetupDiCreateDeviceInfo
-f1_keywords:
-- setupapi/SetupDiCreateDeviceInfo
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiCreateDeviceInfo - SetupDiCreateDeviceInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiCreateDeviceInfoW
+ - setupapi/SetupDiCreateDeviceInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiCreateDeviceInfo - SetupDiCreateDeviceInfoW
 ---
 
 # SetupDiCreateDeviceInfoW function
@@ -50,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiCreateDeviceInfo</b> function creates a new device information element and adds it as a new member to the specified device information set.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for the local computer.
 
-
 ### -param DeviceName [in]
 
 A pointer to a NULL-terminated string that supplies either a full <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> (for example, "Root\*PNP0500\0000") or a root-enumerated <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> without the enumerator prefix and instance identifier suffix (for example, "*PNP0500"). The root-enumerated device identifier can be used only if the DICD_GENERATE_ID flag is specified in the <i>CreationFlags</i> parameter.
 
-
 ### -param ClassGuid [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID for the device. If the device setup class of the device is not known, set *<i>ClassGuid</i> to a GUID_NULL structure. 
-
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID for the device. If the device setup class of the device is not known, set *<i>ClassGuid</i> to a GUID_NULL structure.
 
 ### -param DeviceDescription [in, optional]
 
 A pointer to a NULL-terminated string that supplies the text description of the device. This pointer is optional and can be <b>NULL</b>.
 
-
 ### -param hwndParent [in, optional]
 
 A handle to the top-level window to use for any user interface that is related to installing the device. This handle is optional and can be <b>NULL</b>.
-
 
 ### -param CreationFlags [in]
 
@@ -104,7 +95,6 @@ Call <b>SetupDiGetDeviceInstanceId</b> to retrieve the device instance ID that w
 
 If this flag is specified, the resulting device information element inherits the class driver list, if any, associated with the device information set. In addition, if there is a selected driver for the device information set, that same driver is selected for the new device information element.
 
-
 ### -param DeviceInfoData [out, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that receives the new device information element. This pointer is optional and can be <b>NULL</b>. If the structure is supplied, the caller must set the <b>cbSize</b> member of this structure to <b>sizeof(</b>SP_DEVINFO_DATA<b>)</b> before calling the function. For more information, see the following <b>Remarks</b> section. 
@@ -121,19 +111,11 @@ Call <b>SetupDiGetDeviceInstanceId</b> to retrieve the device instance ID that w
 
 If this flag is specified, the resulting device information element inherits the class driver list, if any, associated with the device information set. In addition, if there is a selected driver for the device information set, that same driver is selected for the new device information element.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The caller of this function must be a member of the Administrators group.
 
@@ -154,9 +136,6 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
 
 
@@ -170,7 +149,4 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinfoa">SetupDiOpenDeviceInfo</a>
- 
-
- 
 

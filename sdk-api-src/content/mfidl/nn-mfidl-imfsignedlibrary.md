@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 1170fd74-7da4-49a8-b095-dd1572db382d
 ms.date: 12/05/2018
 ms.keywords: IMFSignedLibrary, IMFSignedLibrary interface [Media Foundation], IMFSignedLibrary interface [Media Foundation],described, mf.imfsignedlibrary, mfidl/IMFSignedLibrary
-f1_keywords:
-- mfidl/IMFSignedLibrary
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFSignedLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSignedLibrary
+ - mfidl/IMFSignedLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFSignedLibrary
 ---
 
 # IMFSignedLibrary interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method that allows content protection systems to get the procedure address of a function in the signed library.  This method provides the same functionality as <b>GetProcAddress</b> which is not available to Windows Store apps.
-
 
 ## -inheritance
 
@@ -77,29 +76,17 @@ Gets the procedure address of the specified function in the signed library.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 See  <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfloadsignedlibrary">MFLoadSignedLibrary</a> for an example of how to create and use an <b>IMFSignedLibrary</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfloadsignedlibrary">MFLoadSignedLibrary</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

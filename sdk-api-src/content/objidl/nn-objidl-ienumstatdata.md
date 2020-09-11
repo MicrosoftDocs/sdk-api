@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 8e2f6655-4a09-4868-a909-18999104b3ff
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], IEnumSTATDATA interface [COM],described, _ole_ienumstatdata, com.ienumstatdata, objidl/IEnumSTATDATA
-f1_keywords:
-- objidl/IEnumSTATDATA
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IEnumSTATDATA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSTATDATA
+ - objidl/IEnumSTATDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IEnumSTATDATA
 ---
 
 # IEnumSTATDATA interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the advisory connection information for a data object.
-
 
 ## -inheritance
 
@@ -104,13 +103,9 @@ Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">IDataAdviseHolder::EnumAdvise</a>
 
@@ -125,7 +120,4 @@ Skips over the specified number of items in the enumeration sequence.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-enumcache">IOleCache::EnumCache</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 92c8c960-d548-4a44-8b10-b6180c974473
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapshotMgmt2 interface [Files],described, base.ivsssnapshotmgmt2, vsmgmt/IVssSnapshotMgmt2
-f1_keywords:
-- vsmgmt/IVssSnapshotMgmt2
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssSnapshotMgmt2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssSnapshotMgmt2
+ - vsmgmt/IVssSnapshotMgmt2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssSnapshotMgmt2
 ---
 
 # IVssSnapshotMgmt2 interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssSnapshotMgmt2</b> interface 
     provides a method to retrieve the minimum size of the shadow copy storage area.
-
 
 ## -inheritance
 
@@ -76,32 +75,20 @@ The <b>IVssSnapshotMgmt2</b> interface has these methods.
 <td align="left" width="63%">
 Returns the current minimum size of the shadow copy storage area.</p> (Inherited from <b>IVssSnapshotMgmt2</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To obtain an instance of the <b>IVssSnapshotMgmt2</b> 
    interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivsssnapshotmgmt">IVssSnapshotMgmt</a> interface, passing 
    <b>IID_IVssSnapshotMgmt2</b> as the <i>riid</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
- 
-
- 
 

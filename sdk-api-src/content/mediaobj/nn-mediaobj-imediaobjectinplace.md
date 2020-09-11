@@ -3,16 +3,11 @@ UID: NN:mediaobj.IMediaObjectInPlace
 title: IMediaObjectInPlace (mediaobj.h)
 description: The IMediaObjectInPlace interface provides methods for processing data in place. A Microsoft DirectX Media Object (DMO) can expose this interface if it meets the following conditions:\_
 helpviewer_keywords: ["IMediaObjectInPlace","IMediaObjectInPlace interface [DirectShow]","IMediaObjectInPlace interface [DirectShow]","described","IMediaObjectInPlaceInterface","dshow.imediaobjectinplace","mediaobj/IMediaObjectInPlace"]
-The IMediaObjectInPlace interface provides methods for processing data in place. A Microsoft DirectX Media Object (DMO) can expose this interface if it meets the following conditions:This interface provides an optimized way to process data. The application calls a single IMediaObjectInPlace::Process method instead of the IMediaObject::ProcessInput and IMediaObject::ProcessOutput methods. However, any DMO that implements this interface must also implement the IMediaObject interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
 old-location: dshow\imediaobjectinplace.htm
 tech.root: dshow
 ms.assetid: c2105141-6c5e-4edb-aa3b-3227ca223329
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IMediaObjectInPlace interface [DirectShow],described, IMediaObjectInPlaceInterface, dshow.imediaobjectinplace, mediaobj/IMediaObjectInPlace
-f1_keywords: 
- - "mediaobj/IMediaObjectInPlace"
-dev_langs:
- - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -30,6 +25,15 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - IMediaObjectInPlace
+ - mediaobj/IMediaObjectInPlace
+dev_langs:
+ - c++
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,18 +44,12 @@ api_location:
  - Dmoguids.dll
 api_name:
  - IMediaObjectInPlace
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # IMediaObjectInPlace interface
 
 
 ## -description
-
-
 
 The <code>IMediaObjectInPlace</code> interface provides methods for processing data in place. A Microsoft DirectX Media Object (DMO) can expose this interface if it meets the following conditions:
 
@@ -61,7 +59,6 @@ The <code>IMediaObjectInPlace</code> interface provides methods for processing d
 <li>Both streams use the same media type.</li>
 <li>The output is produced in place on the buffer; that is, without copying data.</li>
 </ul>This interface provides an optimized way to process data. The application calls a single <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-process">IMediaObjectInPlace::Process</a> method instead of the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a> methods. However, any DMO that implements this interface must also implement the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
-
 
 ## -inheritance
 
@@ -105,5 +102,5 @@ Processes a block of data.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: cc082911-5089-4335-93d2-1405ca390741
 ms.date: 12/05/2018
 ms.keywords: '*PGAMMARAMP, GAMMARAMP, GAMMARAMP structure [Display Devices], PGAMMARAMP, PGAMMARAMP structure pointer [Display Devices], display.gammaramp, grstrcts_fdf8b6b9-dfc1-4679-b461-58488eb5d9b4.xml, winddi/GAMMARAMP, winddi/PGAMMARAMP'
-f1_keywords:
-- winddi/GAMMARAMP
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- GAMMARAMP
 targetos: Windows
 req.typenames: GAMMARAMP, *PGAMMARAMP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _GAMMARAMP
+ - winddi/_GAMMARAMP
+ - PGAMMARAMP
+ - winddi/PGAMMARAMP
+ - GAMMARAMP
+ - winddi/GAMMARAMP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - GAMMARAMP
 ---
 
 # GAMMARAMP structure
@@ -49,37 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The GAMMARAMP structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmsetdevicegammaramp">DrvIcmSetDeviceGammaRamp</a> to set the hardware <a href="https://docs.microsoft.com/windows-hardware/drivers/">gamma ramp</a> of a particular display device. 
-
+The GAMMARAMP structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmsetdevicegammaramp">DrvIcmSetDeviceGammaRamp</a> to set the hardware <a href="https://docs.microsoft.com/windows-hardware/drivers/">gamma ramp</a> of a particular display device.
 
 ## -struct-fields
-
-
-
 
 ### -field Red
 
 Is the 256-entry ramp for the red color channel.
 
-
 ### -field Green
 
 Is the 256-entry ramp for the green color channel.
-
 
 ### -field Blue
 
 Is the 256-entry ramp for the blue color channel.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmsetdevicegammaramp">DrvIcmSetDeviceGammaRamp</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 9f8a0a49-49e4-47b9-93bf-ca32cc80e243
 ms.date: 12/05/2018
 ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterDevice method, IUPnPReregistrar.ReregisterDevice, IUPnPReregistrar::ReregisterDevice, ReregisterDevice, ReregisterDevice method [UPnP APIs], ReregisterDevice method [UPnP APIs],IUPnPReregistrar interface, _upnp_iupnpreregistrar_reregisterdevice, upnp.iupnpreregistrar_reregisterdevice, upnphost/IUPnPReregistrar::ReregisterDevice
-f1_keywords:
-- upnphost/IUPnPReregistrar.ReregisterDevice
-dev_langs:
-- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnphost.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnphost.dll
-api_name:
-- IUPnPReregistrar.ReregisterDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPReregistrar::ReregisterDevice
+ - upnphost/IUPnPReregistrar::ReregisterDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnphost.dll
+api_name:
+ - IUPnPReregistrar.ReregisterDevice
 ---
 
 # IUPnPReregistrar::ReregisterDevice
@@ -49,57 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ReregisterDevice</b> method re-registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrDeviceIdentifier [in]
 
 Specifies the device identifier of the device. Use the identifier returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">IUPnPRegistrar::RegisterDevice</a>.
 
-
 ### -param bstrXMLDesc [in]
 
 Specifies the XML device description template of the device to register.
-
 
 ### -param bstrProgIDDeviceControlClass [in]
 
 Specifies the ProgID of a device control object that implements the 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdevicecontrol">IUPnPDeviceControl</a> interface. This interface must be an in-process COM server (CLSCTX_INPROC_SERVER) and must be accessible to <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a>.
 
-
 ### -param bstrInitString [in]
 
 Identifies the initialization string specific to the device. This string is later passed to 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">IUPnPDeviceControl::Initialize</a>.
 
-
 ### -param bstrContainerId [in]
 
 Specifies a string that identifies the process group in which the device belongs. All devices with the same container ID are contained in the same process.
-
 
 ### -param bstrResourcePath [in]
 
 Specifies the location of the resource directory of the device. This resource directory contains the icon files and service descriptions that are specified in the device description template <i>bstrXMLDesc</i>. The resource directory may also contain the presentation files. However, this is optional.
 
-
 ### -param nLifeTime [in]
 
 Specifies the lifetime of the device announcement, in seconds. After the timeout expires, the announcements are refreshed. If you specify zero, the default value of 1800 (30 minutes) is used. The minimum allowable value is 900 (15 minutes); if you specify anything less than 900, an error is returned.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h, or one of the following UPnP-specific error codes.
 
@@ -197,14 +184,8 @@ A required element is missing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the identifier returned in <i>pbstrDeviceIdentifier</i> when invoking 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">IUPnPRegistrar::UnregisterDevice</a>.
@@ -220,21 +201,11 @@ Common errors that can occur when invoking this function include:
 <a href="https://docs.microsoft.com/windows/desktop/UPnP/creating-a-device-description">Creating a Device Description</a>).</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpreregistrar">IUPnPReregistrar</a>
- 
-
- 
 

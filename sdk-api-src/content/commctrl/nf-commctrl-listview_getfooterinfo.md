@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooterinfo.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetFooterInfo, ListView_GetFooterInfo macro [Windows Controls], _shell_ListView_GetFooterInfo, _shell_ListView_GetFooterInfo_cpp, commctrl/ListView_GetFooterInfo, controls.ListView_GetFooterInfo, controls._shell_ListView_GetFooterInfo
-f1_keywords:
-- commctrl/ListView_GetFooterInfo
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_GetFooterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_GetFooterInfo
+ - commctrl/ListView_GetFooterInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_GetFooterInfo
 ---
 
 # ListView_GetFooterInfo macro
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information on the footer of a specified list-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfooterinfo">LVM_GETFOOTERINFO</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
-
 
 ### -param plvfi [in, out]
 

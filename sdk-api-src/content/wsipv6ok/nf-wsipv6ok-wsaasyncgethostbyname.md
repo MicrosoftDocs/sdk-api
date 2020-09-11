@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
-f1_keywords:
-- wsipv6ok/WSAAsyncGetHostByName
-dev_langs:
-- c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAAsyncGetHostByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAsyncGetHostByName
+ - wsipv6ok/WSAAsyncGetHostByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAAsyncGetHostByName
 ---
 
 # WSAAsyncGetHostByName macro
 
 
 ## -description
-
 
 The 
 <b>WSAAsyncGetHostByName</b> function asynchronously retrieves host information that corresponds to a host name.
@@ -59,23 +59,17 @@ The
 
 ## -parameters
 
-
-
-
 ### -param a [in]
 
 Handle of the window that will receive a message when the asynchronous request completes.
-
 
 ### -param b [in]
 
 Message to be received when the asynchronous request completes.
 
-
 ### -param c [in]
 
 Pointer to the null-terminated name of the host.
-
 
 ### -param d [out]
 
@@ -85,15 +79,11 @@ Pointer to the data area to receive the
 <b>hostent</b> structure and all of the data referenced by members of the 
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
-
 ### -param e [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
 
-
 ## -remarks
-
-
 
 The 
 <b>WSAAsyncGetHostByName</b> function is an asynchronous version of 
@@ -131,13 +121,7 @@ The use of these macros will maximize the portability of the source code for the
 <b>WSAAsyncGetHostByName</b> is guaranteed to resolve the string returned by a successful call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-gethostname">gethostname</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest">WSACancelAsyncRequest</a>
 
@@ -164,7 +148,4 @@ The use of these macros will maximize the portability of the source code for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a>
- 
-
- 
 

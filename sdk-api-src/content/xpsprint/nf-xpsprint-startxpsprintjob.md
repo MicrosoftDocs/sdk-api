@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: d982ae2e-c68f-4197-b419-22a63e61db8a
 ms.date: 12/05/2018
 ms.keywords: StartXpsPrintJob, StartXpsPrintJob function [Windows GDI], gdi.startxpsprintjob, xpsprint/StartXpsPrintJob
-f1_keywords:
-- xpsprint/StartXpsPrintJob
-dev_langs:
-- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: XpsPrint.lib
 req.dll: XpsPrint.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- XpsPrint.dll
-api_name:
-- StartXpsPrintJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StartXpsPrintJob
+ - xpsprint/StartXpsPrintJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - XpsPrint.dll
+api_name:
+ - StartXpsPrintJob
 ---
 
 # StartXpsPrintJob function
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[StartXpsPrintJob is not supported and may be altered or unavailable in the future. ]
 
 Starts printing an XPS document stream to a printer.
 
-
 ## -parameters
-
-
-
 
 ### -param printerName [in]
 
 The name of the printer with which this job will be associated.
 
-
 ### -param jobName [in]
 
 A user-specified  job name to be associated with this job.  If the job does not require a  separate, user-specified name, this parameter can be set to <b>NULL</b>.
 
-
 ### -param outputFileName [in]
 
 The  file name of the file or port into which the output of this job is to be redirected.  Setting this value will cause the output of the print job to be directed to the specified file or port. To send the print job to the printer that is specified by <i>printerName</i>, this parameter must be set to <b>NULL</b>.
-
 
 ### -param progressEvent [in]
 
@@ -96,13 +89,11 @@ The XPS Print API does not reset this event—that is the caller's responsibilit
 
 If no progress notification is required, this parameter can be set to <b>NULL</b>.
 
-
 ### -param completionEvent [in]
 
 An event handle that is signaled when the  print job finishes.  This event is guaranteed to be signaled exactly once per <b>StartXpsPrintJob</b> call.  The XPS Print API does not reset this event—that is the caller's responsibility.
 
 If no completion notification is required, this parameter can be set to <b>NULL</b>.
-
 
 ### -param printablePagesOn [in]
 
@@ -201,30 +192,23 @@ If <i>printablePagesOn</i> has more elements than there are pages in the package
 
 If the array has fewer elements than there are pages in the document, the value of the last array element of the array is applied to the remaining pages.  This rule makes it easier to specify a range that is open-ended or that gets only a few pages of a large  document printed.
 
-
 ### -param printablePagesOnCount [in]
 
 The number of elements in the array that is referenced by <i>printablePagesOn</i>.  If <i>printablePagesOn</i> is <b>NULL</b>, this parameter is ignored.
-
 
 ### -param xpsPrintJob [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a> interface that represents the print job that is created by <b>StartXpsPrintJob</b>.  To get the status of the print job or to cancel it, use the <b>IXpsPrintJob</b> interface. If an <b>IXpsPrintJob</b> is not required, this parameter can be set to <b>NULL</b>.
 
-
 ### -param documentStream [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a> interface into which the caller  writes the XPS document to be printed by this print job.
-
 
 ### -param printTicketStream [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a> interface that is  used by  the caller to write the job-level print ticket that will be associated with this job.  If this parameter is set to <b>NULL</b>, the print tickets (if any exist) from the XPS document that is written to <i>documentStream</i> will be used.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -268,14 +252,8 @@ Not enough memory to create a new <a href="https://docs.microsoft.com/windows/de
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>StartXpsPrintJob</b> is an asynchronous function, which can return before the print spooler creates or starts a print job.
 
@@ -297,12 +275,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
@@ -313,7 +286,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 96b61e84-0d31-494d-a922-cd3dcd5735b9
 ms.date: 12/05/2018
 ms.keywords: IShellView3, IShellView3 interface [Windows Shell], IShellView3 interface [Windows Shell],described, _shell_IShellView3, shell.IShellView3, shobjidl/IShellView3
-f1_keywords:
-- shobjidl/IShellView3
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IShellView3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellView3
+ - shobjidl/IShellView3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IShellView3
 ---
 
 # IShellView3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a> by providing a method to replace <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2">IShellView2::CreateViewWindow2</a>.
-
 
 ## -inheritance
 
@@ -77,14 +76,9 @@ Requests the creation of a new Shell view window. The view can be either the rig
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a> interfaces, from which it inherits.
-
-
 

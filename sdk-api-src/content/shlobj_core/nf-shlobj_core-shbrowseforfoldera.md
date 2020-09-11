@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c
 ms.date: 12/05/2018
 ms.keywords: SHBrowseForFolder, SHBrowseForFolder function [Windows Shell], SHBrowseForFolderA, SHBrowseForFolderW, _win32_SHBrowseForFolder, shell.SHBrowseForFolder, shlobj_core/SHBrowseForFolder, shlobj_core/SHBrowseForFolderA, shlobj_core/SHBrowseForFolderW
-f1_keywords:
-- shlobj_core/SHBrowseForFolder
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- shlwapi.dll
-- unicows.dll
-api_name:
-- SHBrowseForFolder
-- SHBrowseForFolderA
-- SHBrowseForFolderW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHBrowseForFolderA
+ - shlobj_core/SHBrowseForFolderA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - shlwapi.dll
+ - unicows.dll
+api_name:
+ - SHBrowseForFolder
+ - SHBrowseForFolderA
+ - SHBrowseForFolderW
 ---
 
 # SHBrowseForFolderA function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a dialog box that enables the user to select a Shell folder.
 
-
 ## -parameters
-
-
-
 
 ### -param lpbi [in]
 
@@ -68,11 +64,7 @@ Type: <b>LPBROWSEINFO</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-browseinfoa">BROWSEINFO</a> structure that contains information used to display the dialog box.
 
-
-
 ## -returns
-
-
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
@@ -82,12 +74,7 @@ Returns a PIDL that specifies the location of the selected folder relative to th
 
 It is possible that the PIDL returned is that of a folder shortcut rather than a folder. For a full discussion of this case, see the Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 For Windows Vista or later, it is recommended that you use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> with the FOS_PICKFOLDERS option rather than the SHBrowseForFolder function. This uses the Open Files dialog in pick folders mode and is the preferred implementation.
 
@@ -313,11 +300,5 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/open-and-save-as-dialog-boxes">Open and Save as Dialog Boxes</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 422b8bc2-0616-4f7f-9908-775940f8c1ab
 ms.date: 12/05/2018
 ms.keywords: MFAllocateWorkQueueEx, MFAllocateWorkQueueEx function [Media Foundation], MF_MULTITHREADED_WORKQUEUE, MF_STANDARD_WORKQUEUE, MF_WINDOW_WORKQUEUE, mf.mfallocateworkqueueex, mfapi/MFAllocateWorkQueueEx
-f1_keywords:
-- mfapi/MFAllocateWorkQueueEx
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFAllocateWorkQueueEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFAllocateWorkQueueEx
+ - mfapi/MFAllocateWorkQueueEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFAllocateWorkQueueEx
 ---
 
 # MFAllocateWorkQueueEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new work queue. This function extends the capabilities of the  <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function by making it possible to create a  work queue that has a message loop.
 
-
 ## -parameters
-
-
-
 
 ### -param WorkQueueType [in]
 
@@ -98,17 +94,12 @@ Create a work queue with a message loop. The thread that dispatches the work ite
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwWorkQueue [out]
 
 Receives an identifier for the work queue that was created.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -162,14 +153,8 @@ The application did not call <a href="https://docs.microsoft.com/windows/desktop
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you are done using the work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfunlockworkqueue">MFUnlockWorkQueue</a>.
 
@@ -177,13 +162,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfall
 
 This function is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem">MFPutWorkItem</a>
 
@@ -198,7 +177,4 @@ This function is available on Windows Vista if Platform Update Supplement for W
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
- 
-
- 
 

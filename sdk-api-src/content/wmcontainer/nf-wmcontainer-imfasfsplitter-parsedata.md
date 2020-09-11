@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 13457c17-ab35-47a3-8e83-00eef7686841
 ms.date: 12/05/2018
 ms.keywords: 13457c17-ab35-47a3-8e83-00eef7686841, IMFASFSplitter interface [Media Foundation],ParseData method, IMFASFSplitter.ParseData, IMFASFSplitter::ParseData, ParseData, ParseData method [Media Foundation], ParseData method [Media Foundation],IMFASFSplitter interface, mf.imfasfsplitter_parsedata, wmcontainer/IMFASFSplitter::ParseData
-f1_keywords:
-- wmcontainer/IMFASFSplitter.ParseData
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFSplitter.ParseData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFSplitter::ParseData
+ - wmcontainer/IMFASFSplitter::ParseData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFSplitter.ParseData
 ---
 
 # IMFASFSplitter::ParseData
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sends packetized Advanced Systems Format (ASF) data to the ASF splitter for processing.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIBuffer [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of a buffer object containing data to be parsed.
 
-
 ### -param cbBufferOffset [in]
 
 The offset into the data buffer where the splitter should begin parsing. This value is typically set to 0.
-
 
 ### -param cbLength [in]
 
 The length, in bytes, of the data to parse. This value is measured from the offset specified by <i>cbBufferOffset</i>. Set to 0 to process to the end of the buffer.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -137,14 +125,8 @@ The splitter cannot process more input at this time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After using this method to parse data, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getnextsample">IMFASFSplitter::GetNextSample</a> to retrieve parsed media samples.
 
@@ -154,20 +136,11 @@ If the method returns ME_E_NOTACCEPTING, call <a href="https://docs.microsoft.co
 
 The splitter might hold a reference count on the input buffer. Therefore, do not write over the valid data in the buffer after calling this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
- 
-
- 
 

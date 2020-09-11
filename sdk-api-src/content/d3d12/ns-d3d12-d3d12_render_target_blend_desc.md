@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 911158CF-5F4F-4211-8CC6-F73BDB697BC5
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_TARGET_BLEND_DESC, D3D12_RENDER_TARGET_BLEND_DESC structure, d3d12/D3D12_RENDER_TARGET_BLEND_DESC, direct3d12.d3d12_render_target_blend_desc
-f1_keywords:
-- d3d12/D3D12_RENDER_TARGET_BLEND_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_RENDER_TARGET_BLEND_DESC
 targetos: Windows
 req.typenames: D3D12_RENDER_TARGET_BLEND_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RENDER_TARGET_BLEND_DESC
+ - d3d12/D3D12_RENDER_TARGET_BLEND_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_RENDER_TARGET_BLEND_DESC
 ---
 
 ## -description
@@ -157,3 +158,4 @@ Here are the default values for blend state.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+

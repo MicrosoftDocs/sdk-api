@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: c96b49d8-12f3-4281-9f9f-6621769359f0
 ms.date: 12/05/2018
 ms.keywords: FSCTL_MARK_HANDLE, FSCTL_MARK_HANDLE control, FSCTL_MARK_HANDLE control code [Files], _win32_fsctl_mark_handle, base.fsctl_mark_handle, fs.fsctl_mark_handle, winioctl/FSCTL_MARK_HANDLE
-f1_keywords:
-- winioctl/FSCTL_MARK_HANDLE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_MARK_HANDLE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_MARK_HANDLE
+ - winioctl/FSCTL_MARK_HANDLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_MARK_HANDLE
 ---
 
 # FSCTL_MARK_HANDLE IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -118,7 +113,6 @@ Cluster Shared Volume File System (CsvFS) | Yes
 
 CsvFs always issues **USN_SOURCE_REPLICATION_MANAGEMENT** and **MARK_HANDLE_PROTECT_CLUSTERS** for the files eligible for direct IO.
 
-
 ## -see-also
 
 * [Change Journals](https://docs.microsoft.com/windows/desktop/FileIO/change-journals)
@@ -127,3 +121,4 @@ CsvFs always issues **USN_SOURCE_REPLICATION_MANAGEMENT** and **MARK_HANDLE_PROT
 * [MARK_HANDLE_INFO](ns-winioctl-mark_handle_info.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
 * [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+

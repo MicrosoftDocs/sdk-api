@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 017662f7-7974-4598-a729-19181ccdfbe0
 ms.date: 12/05/2018
 ms.keywords: MprConfigGetGuidName, MprConfigGetGuidName function [RAS], _mpr_mprconfiggetguidname, mprapi/MprConfigGetGuidName, rras.mprconfiggetguidname
-f1_keywords:
-- mprapi/MprConfigGetGuidName
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigGetGuidName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigGetGuidName
+ - mprapi/MprConfigGetGuidName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigGetGuidName
 ---
 
 # MprConfigGetGuidName function
@@ -49,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigGetGuidName</b> function returns the GUID name for an interface that corresponds to the specified friendly name.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
-
 ### -param pszFriendlyName [in]
 
 Pointer to a Unicode string that specifies the friendly name for the interface.
-
 
 ### -param pszBuffer [out]
 
 Pointer to a buffer that receives the GUID name for the interface.
 
-
 ### -param dwBufferSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pszBuffer</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -132,14 +122,7 @@ No GUID name was found that corresponds to the specified friendly name.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiggetfriendlyname">MprConfigGetFriendlyName</a>
 
@@ -154,7 +137,4 @@ No GUID name was found that corresponds to the specified friendly name.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
 ms.date: 12/05/2018
 ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDllDirectoryW, base.setdlldirectory, winbase/SetDllDirectory, winbase/SetDllDirectoryA, winbase/SetDllDirectoryW
-f1_keywords:
-- winbase/SetDllDirectory
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- SetDllDirectory
-- SetDllDirectoryA
-- SetDllDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDllDirectoryW
+ - winbase/SetDllDirectoryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - SetDllDirectory
+ - SetDllDirectoryA
+ - SetDllDirectoryW
 ---
 
 # SetDllDirectoryW function
@@ -58,35 +59,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a directory to the search path used to locate DLLs for the application.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPathName [in, optional]
 
 The directory to be added to the search path. If this parameter is an empty string (""), the call removes the current directory from the default DLL search order. If this parameter is NULL, the function restores the default search order.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SetDllDirectory</b> function affects all subsequent calls to the 
@@ -128,9 +116,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0502
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a>
 
 
@@ -156,7 +141,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0502
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>
- 
-
- 
 

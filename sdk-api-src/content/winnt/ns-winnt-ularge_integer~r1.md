@@ -3,10 +3,6 @@ UID: NS:winnt._ULARGE_INTEGER~r1
 title: ULARGE_INTEGER
 ms.date: 01/30/19
 ms.keywords: _ULARGE_INTEGER, ULARGE_INTEGER
-f1_keywords:
-- winnt/_ULARGE_INTEGER
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -23,15 +19,22 @@ req.target-type:
 req.typenames: ULARGE_INTEGER
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - _ULARGE_INTEGER
+ - winnt/_ULARGE_INTEGER
+ - ULARGE_INTEGER
+ - winnt/ULARGE_INTEGER
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- winnt.h
+ - winnt.h
 api_name:
-- _ULARGE_INTEGER
-- ULARGE_INTEGER
+ - _ULARGE_INTEGER
+ - ULARGE_INTEGER
 ---
 
 # ULARGE_INTEGER structure
@@ -42,7 +45,6 @@ api_name:
 Represents a 64-bit unsigned integer value.
 <div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://docs.microsoft.com/windows/desktop/Midl/--int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
 
-
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
@@ -51,11 +53,9 @@ Represents a 64-bit unsigned integer value.
 
 The low-order 32 bits.
 
-
 ### -field HighPart
 
 The high-order 32 bits.
-
 
 ### -field u
 
@@ -63,11 +63,9 @@ The high-order 32 bits.
 
 An unsigned 64-bit integer.
 
-
 ## -remarks
 
 The <b>ULARGE_INTEGER</b> structure is actually a union. If your compiler has built-in support for 64-bit integers, use the <b>QuadPart</b> member to store the 64-bit integer. Otherwise, use the <b>LowPart</b> and <b>HighPart</b> members to store the 64-bit integer.
-
 
 ## -see-also
 
@@ -76,3 +74,4 @@ The <b>ULARGE_INTEGER</b> structure is actually a union. If your compiler has bu
 <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
+

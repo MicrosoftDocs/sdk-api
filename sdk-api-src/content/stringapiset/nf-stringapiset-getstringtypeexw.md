@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: e0cd051f-6627-457a-9a83-d71de607f67f
 ms.date: 12/05/2018
 ms.keywords: GetStringTypeEx, GetStringTypeEx function [Internationalization for Windows Applications], GetStringTypeExA, GetStringTypeExW, _win32_GetStringTypeEx, _win32_GetStringTypeEx_cpp, intl.getstringtypeex, stringapiset/GetStringTypeEx, stringapiset/GetStringTypeExA, stringapiset/GetStringTypeExW, winui._win32_GetStringTypeEx
-f1_keywords:
-- stringapiset/GetStringTypeEx
-dev_langs:
-- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,36 +25,41 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Deprecated-APIs-Legacy-l1-1-0.dll
-- API-MS-Win-Core-String-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Deprecated-APIs-Legacy-l1-2-0.dll
-- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- GetStringTypeEx
-- GetStringTypeExA
-- GetStringTypeExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetStringTypeExW
+ - stringapiset/GetStringTypeExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Deprecated-APIs-Legacy-l1-1-0.dll
+ - API-MS-Win-Core-String-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Deprecated-APIs-Legacy-l1-2-0.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - GetStringTypeEx
+ - GetStringTypeExA
+ - GetStringTypeExW
 ---
 
 # GetStringTypeExW function
@@ -66,17 +67,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves character type information for the characters in the specified source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.
 <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeEx</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="https://docs.microsoft.com/windows/desktop/AppUIStart/sec-ui">Security Considerations: Windows User Interface</a>.</div><div> </div><div class="alert"><b>Note</b>  Unlike its close relatives <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea">GetStringTypeA</a> and <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a>, this function exhibits appropriate ANSI or Unicode behavior through the use of the #define UNICODE switch. This is the recommended function for character type retrieval.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Locale [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. This value uniquely defines the ANSI code page. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
 
@@ -103,31 +99,23 @@ Retrieves character type information for the characters in the specified source 
 </li>
 </ul>
 
-
-
 ### -param dwInfoType [in]
 
 Flags specifying the character type information to retrieve. For possible flag values, see the <i>dwInfoType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a>. For detailed information about the character type bits, see Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a>.
-
 
 ### -param lpSrcStr [in]
 
 Pointer to the string for which to retrieve the character types. The string is assumed to be null-terminated if <i>cchSrc</i> is set to any negative value.
 
-
 ### -param cchSrc [in]
 
 Size, in characters, of the string indicated by <i>lpSrcStr</i>. The size refers to bytes for the ANSI version of the function or wide characters for the Unicode version. If the size includes a terminating null character, the function retrieves character type information for that character. If the application sets the size to any negative integer, the source string is assumed to be null-terminated and the function calculates the size automatically with an additional character for the null termination.
-
 
 ### -param lpCharType [out]
 
 Pointer to an array of 16-bit values. The length of this array must be large enough to receive one 16-bit value for each character in the source string. If <i>cchSrc</i> is not a negative number, <i>lpCharType</i> should be an array of words with <i>cchSrc</i> elements. If <i>cchSrc</i> is set to a negative number, <i>lpCharType</i> is an array of words with <i>lpSrcStr</i> + 1 elements. When the function returns, this array contains one word corresponding to each character in the source string.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
@@ -136,11 +124,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <li><b>ERROR_INVALID_PARAMETER</b>. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 For an overview of the use of the string functions, see <a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>.
 
@@ -159,13 +143,7 @@ The values of the <i>lpSrcStr</i> and <i>lpCharType</i> parameters must not be t
 
 The <i>Locale</i> parameter is only used to perform string conversion to Unicode. It has nothing to do with the CTYPE* values supplied by the application. These values are solely determined by Unicode code points, and do not vary on a locale basis. For example, Greek letters are specified as C1_ALPHA for any value of <i>Locale</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a>
 
@@ -176,7 +154,4 @@ The <i>Locale</i> parameter is only used to perform string conversion to Unicode
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

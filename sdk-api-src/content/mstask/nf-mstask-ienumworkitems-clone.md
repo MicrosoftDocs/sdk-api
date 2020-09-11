@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: c42550df-33ad-49cc-ab89-5f952cce2a83
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Task Scheduler], Clone method [Task Scheduler],IEnumWorkItems interface, IEnumWorkItems interface [Task Scheduler],Clone method, IEnumWorkItems.Clone, IEnumWorkItems::Clone, _msb_ienumworkitems_clone, mstask/IEnumWorkItems::Clone, taskschd.ienumworkitems_clone
-f1_keywords:
-- mstask/IEnumWorkItems.Clone
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IEnumWorkItems.Clone
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWorkItems::Clone
+ - mstask/IEnumWorkItems::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IEnumWorkItems.Clone
 ---
 
 # IEnumWorkItems::Clone
 
 
 ## -description
-
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
@@ -57,21 +57,14 @@ ms.custom: 19H1
 Because the new object points to the same place in the enumeration sequence, a client can use the 
 <b>Clone</b> method to record a particular point in the enumeration sequence and return to that point later.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnumWorkItems [out]
 
 A pointer to a pointer to a new 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface. This pointer will point to the newly created enumeration. If the method fails, this parameter is undefined.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -125,25 +118,13 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface also provides methods for retrieving sets of tasks, skipping sets of tasks, and resetting the enumeration sequence.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a>
 
@@ -158,7 +139,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">IEnumWorkItems::Skip</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 7ae10343-c97e-4036-9fe6-b894394bb605
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseBatchNotifyPort, ClusterRegCloseBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCloseBatchNotifyPort, mscs.clusterregclosebatchnotifyport
-f1_keywords:
-- clusapi/ClusterRegCloseBatchNotifyPort
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterRegCloseBatchNotifyPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegCloseBatchNotifyPort
+ - clusapi/ClusterRegCloseBatchNotifyPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterRegCloseBatchNotifyPort
 ---
 
 # ClusterRegCloseBatchNotifyPort function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a subscription to a batch notification port created by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatchnotifyport">ClusterRegCreateBatchNotifyPort</a> 
     function.
 
-
 ## -parameters
-
-
-
 
 ### -param hBatchNotifyPort [in]
 
@@ -66,10 +62,7 @@ A handle to the batch notification port created earlier via the
        <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatchnotifyport">ClusterRegCreateBatchNotifyPort</a> 
        function.
 
-
 ## -returns
-
-
 
 The function returns one of the following 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
@@ -104,32 +97,17 @@ The handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT</b> type defines a pointer to this 
      function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatchnotifyport">ClusterRegCreateBatchNotifyPort</a>
- 
-
- 
 

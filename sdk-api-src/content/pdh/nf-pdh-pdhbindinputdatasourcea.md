@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: eaed9b28-eb09-4123-9317-5d3d50e2d77a
 ms.date: 12/05/2018
 ms.keywords: PdhBindInputDataSource, PdhBindInputDataSource function [Perf], PdhBindInputDataSourceA, PdhBindInputDataSourceW, _win32_pdhbindinputdatasource, base.pdhbindinputdatasource, pdh/PdhBindInputDataSource, pdh/PdhBindInputDataSourceA, pdh/PdhBindInputDataSourceW, perf.pdhbindinputdatasource
-f1_keywords:
-- pdh/PdhBindInputDataSource
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhBindInputDataSource
-- PdhBindInputDataSourceA
-- PdhBindInputDataSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhBindInputDataSourceA
+ - pdh/PdhBindInputDataSourceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhBindInputDataSource
+ - PdhBindInputDataSourceA
+ - PdhBindInputDataSourceW
 ---
 
 # PdhBindInputDataSourceA function
@@ -51,20 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Binds one or more binary log files together for reading log data.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param phDataSource [out]
 
 Handle to the bound data sources.
-
 
 ### -param LogFileNameList [in]
 
@@ -72,10 +66,7 @@ Handle to the bound data sources.
 
 If <b>NULL</b>, the source is a real-time data source.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if the function succeeds.
 						
@@ -84,12 +75,7 @@ If the function fails, the return value is a
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
 <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function is used with the PDH functions that require a handle to a data source. For a list of these functions, see See Also.
 
@@ -105,9 +91,6 @@ To close the bound log files, call the <a href="https://docs.microsoft.com/windo
 > The pdh.h header defines PdhBindInputDataSource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersha">PdhBrowseCountersH</a>
 
@@ -142,7 +125,4 @@ To close the bound log files, call the <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenqueryh">PdhOpenQueryH</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 2cd5d6d9-7bff-40f9-a088-d66e06ca147c
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutCacheDrumPatches, midiOutCacheDrumPatches, midiOutCacheDrumPatches function [Windows Multimedia], midiOutCacheDrumPatchesA, midiOutCacheDrumPatchesW, mmeapi/midiOutCacheDrumPatches, multimedia.midioutcachedrumpatches
-f1_keywords:
-- mmeapi/midiOutCacheDrumPatches
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiOutCacheDrumPatches
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiOutCacheDrumPatches
+ - mmeapi/midiOutCacheDrumPatches
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiOutCacheDrumPatches
 ---
 
 # midiOutCacheDrumPatches function
@@ -51,32 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiOutCacheDrumPatches</b> function requests that an internal MIDI synthesizer device preload and cache a specified set of key-based percussion patches.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmo
 
 Handle to the opened MIDI output device. This device should be an internal MIDI synthesizer. This parameter can also be the handle of a MIDI stream, cast to <b>HMIDIOUT</b>.
 
-
 ### -param uPatch
 
 Drum patch number that should be used. This parameter should be set to zero to cache the default drum patch.
 
-
 ### -param pwkya
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Multimedia/keyarray">KEYARRAY</a> array indicating the key numbers of the specified percussion patches to be cached or uncached.
-
 
 ### -param fuCache
 
@@ -106,12 +96,8 @@ Options for the cache operation. It can be one of the following flags.
 <td>Uncaches the specified patches and clears the KEYARRAY array.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -176,14 +162,8 @@ The specified device does not support patch caching.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some synthesizers are not capable of keeping all percussion patches loaded simultaneously. Caching patches ensures that the specified patches are available.
 
@@ -191,16 +171,7 @@ Each element of the <a href="https://docs.microsoft.com/windows/desktop/Multimed
 
 This function applies only to internal MIDI synthesizer devices. Not all internal synthesizers support patch caching. To see if a device supports patch caching, use the MIDICAPS_CACHE flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure filled by the <a href="https://docs.microsoft.com/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
 

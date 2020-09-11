@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8398e029-473e-488f-a861-c7ceae07e678
 ms.date: 12/05/2018
 ms.keywords: '*PSCHANNEL_CRED, PSCHANNEL_CRED, PSCHANNEL_CRED structure pointer [Security], SCHANNEL_CRED, SCHANNEL_CRED structure [Security], SCH_CRED_AUTO_CRED_VALIDATION, SCH_CRED_CACHE_ONLY_URL_RETRIEVAL_ON_CREATE, SCH_CRED_FORMAT_CERT_HASH, SCH_CRED_FORMAT_CERT_HASH_STORE, SCH_CRED_IGNORE_NO_REVOCATION_CHECK, SCH_CRED_IGNORE_REVOCATION_OFFLINE, SCH_CRED_MANUAL_CRED_VALIDATION, SCH_CRED_NO_DEFAULT_CREDS, SCH_CRED_NO_SERVERNAME_CHECK, SCH_CRED_NO_SYSTEM_MAPPER, SCH_CRED_REVOCATION_CHECK_CHAIN, SCH_CRED_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, SCH_CRED_REVOCATION_CHECK_END_CERT, SCH_CRED_USE_DEFAULT_CREDS, SCH_DISABLE_RECONNECTS, SCH_SEND_AUX_RECORD, SCH_SEND_ROOT_CERT, SCH_USE_PRESHAREDKEY_ONLY, SCH_USE_STRONG_CRYPTO, SP_PROT_DTLS1_0_CLIENT, SP_PROT_DTLS1_0_SERVER, SP_PROT_DTLS1_2_CLIENT, SP_PROT_DTLS1_2_SERVER, SP_PROT_DTLS1_X_CLIENT, SP_PROT_DTLS1_X_SERVER, SP_PROT_DTLS_CLIENT, SP_PROT_DTLS_SERVER, SP_PROT_PCT1_CLIENT, SP_PROT_PCT1_SERVER, SP_PROT_SSL2_CLIENT, SP_PROT_SSL2_SERVER, SP_PROT_SSL3_CLIENT, SP_PROT_SSL3_SERVER, SP_PROT_TLS1_0_CLIENT, SP_PROT_TLS1_0_SERVER, SP_PROT_TLS1_1_CLIENT, SP_PROT_TLS1_1_SERVER, SP_PROT_TLS1_2_CLIENT, SP_PROT_TLS1_2_SERVER, SP_PROT_TLS1_CLIENT, SP_PROT_TLS1_SERVER, _ssp_schannel_cred, schannel/PSCHANNEL_CRED, schannel/SCHANNEL_CRED, security.schannel_cred'
-f1_keywords:
-- schannel/SCHANNEL_CRED
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Schannel.h
-api_name:
-- SCHANNEL_CRED
 targetos: Windows
 req.typenames: SCHANNEL_CRED, *PSCHANNEL_CRED
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SCHANNEL_CRED
+ - schannel/_SCHANNEL_CRED
+ - PSCHANNEL_CRED
+ - schannel/PSCHANNEL_CRED
+ - SCHANNEL_CRED
+ - schannel/SCHANNEL_CRED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Schannel.h
+api_name:
+ - SCHANNEL_CRED
 ---
 
 # SCHANNEL_CRED structure
@@ -49,26 +54,20 @@ ms.custom: 19H1
 > [!NOTE]
 > The SCHANNEL_CRED structure is deprecated. Client applications should use <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> instead.
 
-## -description
 
+## -description
 
 The <b>SCHANNEL_CRED</b> structure contains the data for an Schannel credential.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
 Set to SCHANNEL_CRED_VERSION.
 
-
 ### -field cCreds
 
 The number of structures in the <b>paCred</b> array.
-
 
 ### -field paCred
 
@@ -77,31 +76,23 @@ An array of pointers to
 
 Client applications often pass in an empty list and either depend on Schannel to find an appropriate certificate or create a certificate later if needed.
 
-
 ### -field hRootStore
 
 Optional. Valid for server applications only. Handle to a certificate store that contains self-signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificates</a> for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs) trusted by the application. This member is used only by server-side applications that require client authentication.
-
 
 ### -field cMappers
 
 Reserved.
 
-
 ### -field aphMappers
 
 Reserved.
 
-
 ### -field _HMAPPER
-
- 
-
 
 ### -field cSupportedAlgs
 
 Number of algorithms in the <b>palgSupportedAlgs</b> array.
-
 
 ### -field palgSupportedAlgs
 
@@ -111,7 +102,6 @@ Optional. A pointer to an array of
 Currently, the algorithm identifiers <b>CALG_AES</b>,
 <b>CALG_AES_128</b>, and
 <b>CALG_AES_256</b>are not supported.
-
 
 ### -field grbitEnabledProtocols
 
@@ -403,15 +393,12 @@ Datagram Transport Layer Security all supported versions client side.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwMinimumCipherStrength
 
 Minimum bulk encryption cipher strength, in bits, allowed for connections.
 
 If this member is zero, Schannel uses the system default. If this member is –1, only the SSL3/TLS MAC–only cipher suites (also known as <b>NULL</b> cipher) are enabled.
-
 
 ### -field dwMaximumCipherStrength
 
@@ -421,11 +408,9 @@ If this member is zero, Schannel uses the system default.
 
 If this member is –1, only the SSL3/TLS MAC–only cipher suites (also known as <b>NULL</b> cipher) are enabled. In this case, <i>dwMinimumCipherStrength</i> must be set to –1.
 
-
 ### -field dwSessionLifespan
 
 The number of milliseconds that Schannel keeps the session in its session cache. After this time has passed, any new connections between the client and the server require a new Schannel  session. Set the value of this member to zero to use the default value of 36000000 milliseconds (ten hours).
-
 
 ### -field dwFlags
 
@@ -644,8 +629,6 @@ Instructs Schannel to select only PSK cipher suites and disable all other cipher
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCredFormat
 
@@ -681,12 +664,8 @@ The <b>paCred</b> member  of the <b>SCHANNEL_CRED</b> structure points to a <a h
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following certificate revocation flags are mutually exclusive.
 
@@ -711,16 +690,7 @@ To customize certificate revocation error reporting for Schannel, use the follow
 
 When Schannel checks the revocation status of a certificate chain, these flags instruct it to ignore any CRYPT_E_NO_REVOCATION_CHECK and CRYPT_E_REVOCATION_OFFLINE errors, respectively. These flags are ignored if no certificate revocation flag is set.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritycontexttoken">QuerySecurityContextToken</a>
- 
-
- 
 

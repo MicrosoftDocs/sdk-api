@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
 ms.date: 12/05/2018
 ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, LR_VGACOLOR, LoadImage, LoadImage function [Menus and Other Resources], LoadImageA, LoadImageW, _win32_LoadImage, _win32_loadimage_cpp, menurc.loadimage, winui._win32_loadimage, winuser/LoadImage, winuser/LoadImageA, winuser/LoadImageW
-f1_keywords:
-- winuser/LoadImage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
-- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
-- api-ms-win-ntuser-ie-gui-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-gui-l1-2-1.dll
-- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
-api_name:
-- LoadImage
-- LoadImageA
-- LoadImageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadImageA
+ - winuser/LoadImageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+ - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+ - api-ms-win-ntuser-ie-gui-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+api_name:
+ - LoadImage
+ - LoadImageA
+ - LoadImageW
 ---
 
 # LoadImageA function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads an icon, cursor, animated cursor, or bitmap.
 
-
 ## -parameters
-
-
-
 
 ### -param hInst [in, optional]
 
@@ -77,7 +73,6 @@ A handle to the module of either a DLL or executable (.exe) that contains the im
 To load an OEM image, set this parameter to <b>NULL</b>.
 
 To load a stand-alone resource (icon, cursor, or bitmap file)—for example, c:\myimage.bmp—set this parameter to <b>NULL</b>.
-
 
 ### -param name [in]
 
@@ -112,8 +107,6 @@ If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omi
 To pass these constants to the <b>LoadImage</b> function, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
 
 If the <i>fuLoad</i> parameter includes the <b>LR_LOADFROMFILE</b> value, <i>lpszName</i> is the name of the file that contains the  stand-alone resource (icon, cursor, or bitmap file). Therefore, set <i>hinst</i> to <b>NULL</b>.
-
-
 
 ### -param type [in]
 
@@ -160,8 +153,6 @@ Loads an icon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cx [in]
 
@@ -169,13 +160,11 @@ Type: <b>int</b>
 
 The width, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource width.
 
-
 ### -param cy [in]
 
 Type: <b>int</b>
 
 The height, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
-
 
 ### -param fuLoad [in]
 
@@ -309,12 +298,8 @@ Uses true VGA colors.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HANDLE</b>
 
@@ -322,12 +307,7 @@ If the function succeeds, the return value is the handle of the newly loaded ima
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
 
@@ -381,9 +361,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -417,7 +394,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
- 
-
- 
 

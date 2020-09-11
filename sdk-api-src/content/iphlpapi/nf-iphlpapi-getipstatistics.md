@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 15daaa34-2011-462a-9543-f8d7ccb9f6fd
 ms.date: 12/05/2018
 ms.keywords: GetIpStatistics, GetIpStatistics function [IP Helper], _iphlp_getipstatistics, iphlp.getipstatistics, iphlpapi/GetIpStatistics
-f1_keywords:
-- iphlpapi/GetIpStatistics
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpStatistics
+ - iphlpapi/GetIpStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpStatistics
 ---
 
 # GetIpStatistics function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpStatistics</b> function retrieves the IP statistics for the current computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Statistics [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a> structure that receives the IP statistics for the local computer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -103,14 +96,8 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>GetIpStatistics</b> function returns the statistics for IPv4 on the current computer.     On Windows XP and later, the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatisticsex">GetIpStatisticsEx</a> can be used to obtain the IP statistics for either IPv4 or IPv6.
@@ -209,14 +196,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-geticmpstatistics">GetIcmpStatistics</a>
 
@@ -243,7 +223,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a>
- 
-
- 
 

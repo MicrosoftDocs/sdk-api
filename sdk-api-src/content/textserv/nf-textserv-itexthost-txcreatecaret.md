@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txcreatecaret.htm
 ms.date: 12/05/2018
 ms.keywords: CARET_CUSTOM, CARET_ITALIC, CARET_NONE, CARET_NULL, CARET_ROTATE90, CARET_RTL, ITextHost interface [Windows Controls],TxCreateCaret method, ITextHost.TxCreateCaret, ITextHost::TxCreateCaret, TxCreateCaret, TxCreateCaret method [Windows Controls], TxCreateCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxCreateCaret, _win32_ITextHost_TxCreateCaret_cpp, controls.ITextHost_TxCreateCaret, controls._win32_ITextHost_TxCreateCaret, textserv/ITextHost::TxCreateCaret
-f1_keywords:
-- textserv/ITextHost.TxCreateCaret
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxCreateCaret
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxCreateCaret
+ - textserv/ITextHost::TxCreateCaret
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxCreateCaret
 ---
 
 # ITextHost::TxCreateCaret
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new shape for windowless rich edit control's caret.
 
-
 ## -parameters
-
-
-
 
 ### -param hbmp [in]
 
@@ -135,26 +131,20 @@ The caret moves right to left.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param xWidth [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-Caret width, in logical units. 
-
+Caret width, in logical units.
 
 ### -param yHeight [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-Caret height, in logical units. 
-
+Caret height, in logical units.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
@@ -162,22 +152,11 @@ Return <b>TRUE</b> if the method succeeds.
 
 Return <b>FALSE</b> if the method fails.
 
-
-
-
 ## -remarks
-
-
 
 This method is only valid when the control is in-place active; calls while the control is inactive may fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -196,7 +175,4 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

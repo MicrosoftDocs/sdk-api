@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 419d56db-42a6-4467-8ec5-7c7d2c5cdcf4
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],RemoveMetadataByName method, IWICMetadataQueryWriter.RemoveMetadataByName, IWICMetadataQueryWriter::RemoveMetadataByName, RemoveMetadataByName, RemoveMetadataByName method [Windows Imaging Component], RemoveMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_removemetadatabyname, wic._wic_codec_iwicmetadataquerywriter_removemetadatabyname, wincodec/IWICMetadataQueryWriter::RemoveMetadataByName
-f1_keywords:
-- wincodec/IWICMetadataQueryWriter.RemoveMetadataByName
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataQueryWriter.RemoveMetadataByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataQueryWriter::RemoveMetadataByName
+ - wincodec/IWICMetadataQueryWriter::RemoveMetadataByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataQueryWriter.RemoveMetadataByName
 ---
 
 # IWICMetadataQueryWriter::RemoveMetadataByName
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a metadata item from a specific location using a metadata query expression.
 
-
 ## -parameters
-
-
-
 
 ### -param wzName [in]
 
@@ -64,33 +60,19 @@ Type: <b>LPCWSTR</b>
 
 The name of the metadata item to remove.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>RemoveMetadataByName</b> uses metadata query expressions to remove metadata. For more information on the metadata query language, see the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.
 
 If the metadata item is a metadata block, it is removed from the metadata hierarchy.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -113,7 +95,4 @@ If the metadata item is a metadata block, it is removed from the metadata hierar
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
- 
-
- 
 

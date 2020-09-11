@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: c5a17642-5253-4d01-895a-09d00284f341
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl2, IWMDMStorageControl2 interface [windows Media Device Manager], IWMDMStorageControl2 interface [windows Media Device Manager],described, IWMDMStorageControl2Interface, mswmdm/IWMDMStorageControl2, wmdm.iwmdmstoragecontrol2
-f1_keywords:
-- mswmdm/IWMDMStorageControl2
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMStorageControl2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMStorageControl2
+ - mswmdm/IWMDMStorageControl2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMStorageControl2
 ---
 
 # IWMDMStorageControl2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDMStorageControl2</b> interface extends <b>IWMDMStorageControl</b> by making it possible to set the name of the destination file when inserting content into a storage.
-
-
-
 
 ## -inheritance
 
@@ -80,13 +76,9 @@ Puts content into/next to the storage on the device.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
 
@@ -97,7 +89,4 @@ Puts content into/next to the storage on the device.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setlinecap.htm
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetLineCap method, Pen.SetLineCap, Pen::SetLineCap, SetLineCap, SetLineCap method [GDI+], SetLineCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_, gdiplus._gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_
-f1_keywords:
-- gdipluspen/Pen.SetLineCap
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Pen.SetLineCap
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Pen::SetLineCap
+ - gdipluspen/Pen::SetLineCap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Pen.SetLineCap
 ---
 
 # Pen::SetLineCap
@@ -50,40 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Pen::SetLineCap</b> method sets the cap styles for the start, end, and dashes in a line drawn with this pen.
 
-
 ## -parameters
-
-
-
 
 ### -param startCap [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 
-Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the start cap of a line. 
-
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the start cap of a line.
 
 ### -param endCap [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 
-Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the end cap of a line. 
-
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the end cap of a line.
 
 ### -param dashCap [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashcap">DashCap</a></b>
 
 Element of the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashcap">DashCap</a> enumeration that specifies the start and end caps of the dashes in a dashed line. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-dashcap">DashCap</a> enumeration that specifies the start and end caps of the dashes in a dashed line.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -93,13 +84,7 @@ If the method succeeds, it returns <b>Ok</b>, which is an element of the
 If the method fails, it returns one of the other elements of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-drawing-a-line-with-line-caps-use">Drawing a Line with Line Caps</a>
 
@@ -134,7 +119,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
- 
-
- 
 

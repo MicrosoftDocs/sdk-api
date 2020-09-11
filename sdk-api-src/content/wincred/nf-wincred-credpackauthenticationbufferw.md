@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 48ffdd7a-1969-4f6a-bbc7-2826e21ea052
 ms.date: 12/05/2018
 ms.keywords: CRED_PACK_GENERIC_CREDENTIALS, CRED_PACK_ID_PROVIDER_CREDENTIALS, CRED_PACK_PROTECTED_CREDENTIALS, CRED_PACK_WOW_BUFFER, CredPackAuthenticationBuffer, CredPackAuthenticationBuffer function [Security], CredPackAuthenticationBufferA, CredPackAuthenticationBufferW, security.credpackauthenticationbuffer, wincred/CredPackAuthenticationBuffer, wincred/CredPackAuthenticationBufferA, wincred/CredPackAuthenticationBufferW
-f1_keywords:
-- wincred/CredPackAuthenticationBuffer
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Credui.dll
-- Ext-MS-Win-security-credui-l1-1-0.dll
-- Ext-MS-Win-security-credui-l1-1-1.dll
-- AnalogCredUI.dll
-api_name:
-- CredPackAuthenticationBuffer
-- CredPackAuthenticationBufferA
-- CredPackAuthenticationBufferW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredPackAuthenticationBufferW
+ - wincred/CredPackAuthenticationBufferW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-0.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
+api_name:
+ - CredPackAuthenticationBuffer
+ - CredPackAuthenticationBufferA
+ - CredPackAuthenticationBufferW
 ---
 
 # CredPackAuthenticationBufferW function
@@ -54,16 +55,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredPackAuthenticationBuffer</b> function converts a string user name and password into an authentication buffer.
 
 Beginning with Windows 8 and Windows Server 2012, the <b>CredPackAuthenticationBuffer</b> function converts an identity credential into an authentication buffer, which is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure. This buffer can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>, <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>, or other identity provider interfaces.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -117,8 +113,6 @@ Encrypts the credential in a CRED_GENERIC buffer.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszUserName [in]
 
@@ -132,7 +126,6 @@ For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart ca
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>Online identities are not supported.
 
-
 ### -param pszPassword [in]
 
 A pointer to a null-terminated string that specifies the password to be converted.
@@ -143,20 +136,15 @@ For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart ca
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>Online identities are not supported.
 
-
 ### -param pPackedCredentials [out]
 
 A pointer to an array of bytes that, on output, receives the packed authentication buffer. This parameter can be <b>NULL</b> to receive the required buffer size in the <i>pcbPackedCredentials</i> parameter.
-
 
 ### -param pcbPackedCredentials [in, out]
 
 A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>pPackedCredentials</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in bytes, of the  <i>pPackedCredentials</i> buffer.
 
-
 ## -returns
-
-
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
@@ -180,9 +168,6 @@ The buffer provided by <i>pPackedCredentials</i> is too small.
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -remarks
 

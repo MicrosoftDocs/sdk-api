@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
 ms.date: 12/05/2018
 ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
-f1_keywords:
-- wsmandisp/IWSManEnumerator
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManEnumerator
+ - wsmandisp/IWSManEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManEnumerator
 ---
 
 # IWSManEnumerator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a stream of results returned from  operations such as a WS-Management protocol <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">WS-Enumeration</a>:Enumerate operation.
-
 
 ## -inheritance
 
@@ -118,12 +117,9 @@ Gets an XML representation of additional error information.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The corresponding scripting object is <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumerator">Enumerator</a>.
 
@@ -131,16 +127,7 @@ To limit the number of items that are read, set the <a href="https://docs.micros
 
 Be aware that freeing the enumeration object clears pending enumeration requests.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
- 
-
- 
 

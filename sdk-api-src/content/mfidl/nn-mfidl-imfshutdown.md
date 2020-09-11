@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: c3052658-51bb-401b-8db9-3428868899d6
 ms.date: 12/05/2018
 ms.keywords: IMFShutdown, IMFShutdown interface [Media Foundation], IMFShutdown interface [Media Foundation],described, c3052658-51bb-401b-8db9-3428868899d6, mf.imfshutdown, mfidl/IMFShutdown
-f1_keywords:
-- mfidl/IMFShutdown
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFShutdown
+ - mfidl/IMFShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFShutdown
 ---
 
 # IMFShutdown interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposed by some Media Foundation objects that must be explicitly shut down.
-        
-
 
 ## -inheritance
 
@@ -90,12 +88,9 @@ Shuts down a Media Foundation object and releases all resources associated with 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The following types of object expose <b>IMFShutdown</b>:
 
@@ -125,22 +120,12 @@ This interface is not related to the <a href="https://docs.microsoft.com/windows
       
 
 Some Media Foundation interfaces define a <b>Shutdown</b> method, which serves the same purpose as <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> but is not directly related to it.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject">MFShutdownObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

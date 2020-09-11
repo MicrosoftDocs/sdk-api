@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 81DA1DD6-7D36-4848-ADCB-1F7B765B0A62
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],IsWindowedStereoEnabled method, IDXGIFactory2.IsWindowedStereoEnabled, IDXGIFactory2::IsWindowedStereoEnabled, IsWindowedStereoEnabled, IsWindowedStereoEnabled method [DXGI], IsWindowedStereoEnabled method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_iswindowedstereoenabled, dxgi1_2/IDXGIFactory2::IsWindowedStereoEnabled
-f1_keywords:
-- dxgi1_2/IDXGIFactory2.IsWindowedStereoEnabled
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIFactory2.IsWindowedStereoEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIFactory2::IsWindowedStereoEnabled
+ - dxgi1_2/IDXGIFactory2::IsWindowedStereoEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIFactory2.IsWindowedStereoEnabled
 ---
 
 ## -description
@@ -55,7 +56,7 @@ Determines whether to use stereo mode.
 
 Indicates whether to use stereo mode. <b>TRUE</b> indicates that you can use stereo mode; otherwise, <b>FALSE</b>.
 
-<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>IsWindowedStereoEnabled</b> always returns FALSE because stereoscopic 3D display behavior isn’t available with the Platform Update for Windows 7. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
+<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>IsWindowedStereoEnabled</b> always returns FALSE because stereoscopic 3D display behavior isn’t available with the Platform Update for Windows 7. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>.
 
 ## -remarks
 
@@ -72,3 +73,4 @@ The <a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tre
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
+

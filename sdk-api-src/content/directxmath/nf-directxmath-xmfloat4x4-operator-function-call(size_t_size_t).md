@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X4.operator ()(size_t,size_t)
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X4 structure [DirectX Math Support APIs],operator () method, XMFLOAT4X4.operator ()(size_t,size_t), XMFLOAT4X4.operator (size_t,size_t), XMFLOAT4X4.operator(), XMFLOAT4X4.operator-function-call(size_t,size_t), XMFLOAT4X4::operator(), XMFLOAT4X4::operator-function-call(size_t,size_t), dxmath.xmfloat4x4_operator_parens_1, operator () method [DirectX Math Support APIs], operator () method [DirectX Math Support APIs],XMFLOAT4X4 structure, operator()
-f1_keywords:
-- directxmath/XMFLOAT4X4.operator ()
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT4X4.operator ()
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - XMFLOAT4X4::operator()
+ - directxmath/XMFLOAT4X4::operator()
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT4X4.operator ()
 ---
 
 # XMFLOAT4X4::operator-function-call(size_t,size_t)
@@ -48,38 +49,25 @@ req.redist:
 
 ## -description
 
-
 Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X4</code> as specified by row and column
   arguments.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Row
 
 Row containing the matrix element of interest. Row specification is 0 based.
-
 
 ### -param Column
 
 Column containing the matrix element of interest. Column specification is 0 based.
 
-
 ## -returns
-
-
 
 A <code>reference</code> to the matrix element specified by the operator's <b>Row</b> and <b>Column</b> arguments.
 
-
-
-
 ## -remarks
-
-
 
 As a <code>reference</code> to the matrix element is returned, this operator can be used to update the value of an element
    of an instance of <code>XMFLOAT4X4</code>.
@@ -102,13 +90,7 @@ The following example:
 </table></span></div>
 will set the value of the <i>mat.m[2,3]</i> (or equivalently mat._34) to 42.0.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -119,7 +101,4 @@ will set the value of the <i>mat.m[2,3]</i> (or equivalently mat._34) to 42.0.
 
 
 <a href="https://msdn.microsoft.com/de367692-6974-4e54-9f1e-d8c56b3aa752">operator ()</a>
- 
-
- 
 

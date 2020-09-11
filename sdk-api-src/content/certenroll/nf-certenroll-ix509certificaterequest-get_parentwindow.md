@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 86e82a6c-7689-4bf3-8f64-e512040abd6a
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],ParentWindow property, IX509CertificateRequest.ParentWindow, IX509CertificateRequest.get_ParentWindow, IX509CertificateRequest::ParentWindow, IX509CertificateRequest::get_ParentWindow, IX509CertificateRequest::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::ParentWindow, certenroll/IX509CertificateRequest::get_ParentWindow, certenroll/IX509CertificateRequest::put_ParentWindow, get_ParentWindow, security.ix509certificaterequest_parentwindow_property
-f1_keywords:
-- certenroll/IX509CertificateRequest.ParentWindow
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequest.ParentWindow
-- IX509CertificateRequest.get_ParentWindow
-- IX509CertificateRequest.put_ParentWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequest::get_ParentWindow
+ - certenroll/IX509CertificateRequest::get_ParentWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequest.ParentWindow
+ - IX509CertificateRequest.get_ParentWindow
+ - IX509CertificateRequest.put_ParentWindow
 ---
 
 # IX509CertificateRequest::get_ParentWindow
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ParentWindow</b> property specifies and retrieves the ID of the window used by key-related user interface dialogs.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property value is used by key-related Certificate Enrollment Control modal dialogs that:<ul>
 <li>Direct a user to insert a smart card</li>
@@ -78,13 +74,7 @@ You can set this property before calling any initialization method or the <a hre
 
 For a PKCS #10 request, the property value is retrieved from and specified on the associated <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object if the key exists. For a PKCS #7 or CMC request the window ID is updated on the inner request and all signing certificates.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
@@ -107,7 +97,4 @@ For a PKCS #10 request, the property value is retrieved from and specified on th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
- 
-
- 
 

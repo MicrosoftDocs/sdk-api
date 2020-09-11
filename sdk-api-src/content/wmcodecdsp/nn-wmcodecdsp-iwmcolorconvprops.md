@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: c4a6b7c1-edc0-4030-ac47-895580ad294d
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], IWMColorConvProps interface [Media Foundation],described, codecapi.iwmcolorconvpropsinterface, mf.iwmcolorconvprops, mf.iwmcolorconvpropsinterface, wmcodecdsp/IWMColorConvProps
-f1_keywords:
-- wmcodecdsp/IWMColorConvProps
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMColorConvProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMColorConvProps
+ - wmcodecdsp/IWMColorConvProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMColorConvProps
 ---
 
 # IWMColorConvProps interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets properties on the color converter DSP.
-
-
-
 
 ## -inheritance
 
@@ -88,20 +85,13 @@ Specifies whether the input video stream is interlaced.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/colorconverter">Color Converter DSP</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 7c90625c-e6b5-475f-a9ea-0dfd27810f03
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprAddV4PolicyCondition, DhcpHlprAddV4PolicyCondition function [DHCP], dhcp.dhcphlpraddv4policycondition, dhcpsapi/DhcpHlprAddV4PolicyCondition
-f1_keywords:
-- dhcpsapi/DhcpHlprAddV4PolicyCondition
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpHlprAddV4PolicyCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpHlprAddV4PolicyCondition
+ - dhcpsapi/DhcpHlprAddV4PolicyCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpHlprAddV4PolicyCondition
 ---
 
 # DhcpHlprAddV4PolicyCondition function
@@ -49,72 +50,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpHlprAddV4PolicyCondition</b> function allocates, initializes, and adds a DHCP server policy condition to a DHCP server policy.
 
-
 ## -parameters
-
-
-
 
 ### -param Policy [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a> structure that contains the policy to modify.
 
-
 ### -param ParentExpr [in]
 
 Integer that specifies the expression index that corresponds to this constituent condition.
 
-
 ### -param Type [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_pol_attr_type">DHCP_POL_ATTR_TYPE</a> enumeration that specifies the attribute type for this condition.
 
-
 ### -param OptionID [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the unique option identifier for criteria based on DHCP options or sub-options.
 
-
 ### -param SubOptionID [in]
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the unique sub-option identifier for criteria based on DHCP sub-options.
-
 
 ### -param VendorName [in]
 
 A pointer to a null-terminated Unicode string that represents the vendor name.
 
-
 ### -param Operator [in]
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_pol_comparator">DHCP_POL_COMPARATOR</a> enumeration that specifies the comparison operator for the condition.
-
 
 ### -param Value
 
 Pointer to an array of bytes that contains the value to be used for the comparison.
 
-
 ### -param ValueLength [in]
 
 Integer that specifies the length of <b>Value</b>.
-
 
 ### -param ConditionIndex [out]
 
 Pointer to a <b>DWORD</b> that contains the newly created condition's index in the DHCP server policy.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -159,15 +139,8 @@ The parent expression specified does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcphlpraddv4policyexpr">DhcpHlprAddV4PolicyExpr</a>
 
@@ -202,7 +175,4 @@ The parent expression specified does not exist.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcphlprresetv4policyexpr">DhcpHlprResetV4PolicyExpr</a>
- 
-
- 
 

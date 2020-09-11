@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: add0ed43-d83f-4793-b1f6-ccad0f01854c
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], IWMPLibrary interface [Windows Media Player],described, IWMPLibraryInterface, wmp.iwmplibrary, wmp/IWMPLibrary
-f1_keywords:
-- wmp/IWMPLibrary
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPLibrary
+ - wmp/IWMPLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPLibrary
 ---
 
 # IWMPLibrary interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPLibrary</b> interface represents a library.
-
-
-
 
 ## -inheritance
 
@@ -107,20 +103,13 @@ Retrieves a value that indicates whether the supplied object is the same as the 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype">IWMPLibraryServices::getLibraryByType</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

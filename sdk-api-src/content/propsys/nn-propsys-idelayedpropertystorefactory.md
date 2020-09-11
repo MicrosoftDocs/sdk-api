@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 855c9f10-9f40-4c60-a669-551fa51133f5
 ms.date: 12/05/2018
 ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell],described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
-f1_keywords:
-- propsys/IDelayedPropertyStoreFactory
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IDelayedPropertyStoreFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDelayedPropertyStoreFactory
+ - propsys/IDelayedPropertyStoreFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IDelayedPropertyStoreFactory
 ---
 
 # IDelayedPropertyStoreFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method to create a specified <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object in circumstances where property access is potentially slow.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-props
 
 </td>
 </tr>
-</table> 
+</table>
 

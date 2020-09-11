@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: fb5cc2c3-ba86-401a-b51f-b28d1f5be58f
 ms.date: 12/05/2018
 ms.keywords: COM handler action [Task Scheduler],interface, IComHandlerAction, IComHandlerAction interface [Task Scheduler], IComHandlerAction interface [Task Scheduler],described, taskschd.icomhandleraction, taskschd/IComHandlerAction
-f1_keywords:
-- taskschd/IComHandlerAction
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IComHandlerAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComHandlerAction
+ - taskschd/IComHandlerAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IComHandlerAction
 ---
 
 # IComHandlerAction interface
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an action that fires a handler.
 
-
 ## -remarks
-
-
 
 COM handlers must implement the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskhandler">ITaskHandler</a> interface for the Task Scheduler to start and stop the handler. In turn, the COM handler uses the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus">ITaskHandlerStatus</a> interface to communicate the status back to the Task Scheduler.
 
 When reading or writing XML, a COM handler action is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-comhandler-actiongroup-element">ComHandler</a> element of the Task Scheduler schema.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
 
@@ -82,7 +73,4 @@ When reading or writing XML, a COM handler action is specified in the <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

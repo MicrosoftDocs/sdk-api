@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\getlaststatus.htm
 ms.date: 12/05/2018
 ms.keywords: Brush class [GDI+],GetLastStatus method, Brush.GetLastStatus, Brush::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Brush class, _gdiplus_CLASS_Brush_GetLastStatus_, gdiplus._gdiplus_CLASS_Brush_GetLastStatus_
-f1_keywords:
-- gdiplusbrush/Brush.GetLastStatus
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Brush.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Brush::GetLastStatus
+ - gdiplusbrush/Brush::GetLastStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Brush.GetLastStatus
 ---
 
 # Brush::GetLastStatus
@@ -50,21 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Brush::GetLastStatus</b> method returns a value that indicates the nature of this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object's most recent method failure.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -76,12 +68,7 @@ If no methods invoked on this
 If at least one method invoked on this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object has failed since the previous call to <b>Brush::GetLastStatus</b>, then <b>Brush::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
-
-
-
 ## -remarks
-
-
 
 You can call <b>Brush::GetLastStatus</b> immediately after constructing a 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object to determine whether the constructor succeeded.
@@ -115,14 +102,7 @@ VOID Example_GetLastStatus(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>
 
@@ -153,7 +133,4 @@ VOID Example_GetLastStatus(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
- 
-
- 
 

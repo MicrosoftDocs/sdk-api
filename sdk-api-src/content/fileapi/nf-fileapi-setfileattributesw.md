@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 3d5400c3-555f-44fc-9470-52a36d04d90b
 ms.date: 12/05/2018
 ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DEVICE, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_NOT_CONTENT_INDEXED, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, SetFileAttributes, SetFileAttributes function [Files], SetFileAttributesA, SetFileAttributesW, _win32_setfileattributes, base.setfileattributes, fileapi/SetFileAttributes, fileapi/SetFileAttributesA, fileapi/SetFileAttributesW, fs.setfileattributes, winbase/SetFileAttributes, winbase/SetFileAttributesA, winbase/SetFileAttributesW
-f1_keywords:
-- fileapi/SetFileAttributes
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetFileAttributes
-- SetFileAttributesA
-- SetFileAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileAttributesW
+ - fileapi/SetFileAttributesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetFileAttributes
+ - SetFileAttributesA
+ - SetFileAttributesW
 ---
 
 # SetFileAttributesW function
@@ -58,17 +59,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the attributes for a file or directory.
 
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfileattributestransacteda">SetFileAttributesTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -197,24 +193,15 @@ A file that is being used for temporary storage. File systems avoid writing data
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The following table describes how to set the attributes that cannot be set using 
     <b>SetFileAttributes</b>. For a complete list of all file 
@@ -395,9 +382,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
@@ -419,7 +403,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e2d6d3a7-070e-4343-abd7-b4b9f8dd6fbc
 ms.date: 12/05/2018
 ms.keywords: Handler, Handler callback, Handler callback function, LPHANDLER_FUNCTION, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, _win32_handler, base.handler, winsvc/Handler
-f1_keywords:
-- winsvc/Handler
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winsvc.h
-api_name:
-- Handler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPHANDLER_FUNCTION
+ - winsvc/LPHANDLER_FUNCTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winsvc.h
+api_name:
+ - Handler
 ---
 
 # LPHANDLER_FUNCTION callback function
 
 
 ## -description
-
 
 An application-defined callback function used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlera">RegisterServiceCtrlHandler</a> function. A service program can use it as the control handler function of a particular service.
@@ -60,20 +60,9 @@ This function has been superseded by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> control handler function used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> function. A service can use either control handler, but the new control handler supports user-defined context data and additional extended control codes.
 
-
 ## -parameters
 
-
-
-
 ### -param dwControl
-
-
-
-
-
-
-
 
 #### - fdwControl [in]
 
@@ -239,12 +228,8 @@ The service defines the action associated with the control code.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 When a service is started, its 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function should immediately call the 
@@ -277,12 +262,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
 
@@ -305,7 +285,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
- 
-
- 
 

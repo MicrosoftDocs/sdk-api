@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 113b3dc7-918e-427e-aa70-cf474b951c6d
 ms.date: 12/05/2018
 ms.keywords: 113b3dc7-918e-427e-aa70-cf474b951c6d, IMFMediaSource interface [Media Foundation],Pause method, IMFMediaSource.Pause, IMFMediaSource::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaSource interface, mf.imfmediasource_pause, mfidl/IMFMediaSource::Pause
-f1_keywords:
-- mfidl/IMFMediaSource.Pause
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSource.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSource::Pause
+ - mfidl/IMFMediaSource::Pause
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSource.Pause
 ---
 
 # IMFMediaSource::Pause
@@ -50,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Pauses all active streams in the media source.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -109,14 +98,8 @@ The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is asynchronous. When the operation completes, the media source sends and <a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcepaused">MESourcePaused</a> event, and every active stream sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreampaused">MEStreamPaused</a> event. If the method returns a failure code, no events are raised.
 
@@ -126,20 +109,11 @@ While the source is paused, calls to <a href="https://docs.microsoft.com/windows
 
 Not every media source can pause. If a media source can pause, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">IMFMediaSource::GetCharacteristics</a> method returns the MFMEDIASOURCE_CAN_PAUSE flag.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a22b9a75-6aa8-4b32-8d86-7fb21afd248f
 ms.date: 12/05/2018
 ms.keywords: GetFullResourceName, GetFullResourceName method [Security], GetFullResourceName method [Security],ISecurityInformation3 interface, ISecurityInformation3 interface [Security],GetFullResourceName method, ISecurityInformation3.GetFullResourceName, ISecurityInformation3::GetFullResourceName, aclui/ISecurityInformation3::GetFullResourceName, security.isecurityinformation3_getfullresourcename
-f1_keywords:
-- aclui/ISecurityInformation3.GetFullResourceName
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- ISecurityInformation3.GetFullResourceName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityInformation3::GetFullResourceName
+ - aclui/ISecurityInformation3::GetFullResourceName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - ISecurityInformation3.GetFullResourceName
 ---
 
 # ISecurityInformation3::GetFullResourceName
@@ -49,42 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetFullResourceName</b> method retrieves the full path and file name of the object associated with the access control editor that is displayed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor">OpenElevatedEditor</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszResourceName [out]
 
 The full path and file name of the object for which permissions are to be edited.
 
-
 ## -returns
-
-
 
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation3">ISecurityInformation3</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor">OpenElevatedEditor</a>
- 
-
- 
 

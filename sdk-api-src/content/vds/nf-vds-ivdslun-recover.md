@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 406da360-9aa8-42df-8918-da72b22ce3b5
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],Recover method, IVdsLun.Recover, IVdsLun::Recover, Recover, Recover method [VDS], Recover method [VDS],IVdsLun interface, base.ivdslun_recover, vds/IVdsLun::Recover, vdshwprv/IVdsLun::Recover
-f1_keywords:
-- vds/IVdsLun.Recover
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsLun.Recover
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLun::Recover
+ - vds/IVdsLun::Recover
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsLun.Recover
 ---
 
 # IVdsLun::Recover
@@ -50,17 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Starts a recovery operation 
    on a LUN.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
@@ -68,10 +64,7 @@ The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwp
       Callers must release the interface. Use this interface to cancel, wait for, or query the status of the 
       operation.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -147,26 +140,14 @@ This LUN is not fault tolerant; a recovery operation is not possible.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The recovery operation entails mirror resynchronization, parity regeneration, or substitution 
     of a spare drive for a failing drive. Most subsystems initiate recovery operations automatically. However, for 
     those that do not, this method provides a means by which to initiate recovery manually.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
@@ -181,7 +162,4 @@ The recovery operation entails mirror resynchronization, parity regeneration, or
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a>
- 
-
- 
 

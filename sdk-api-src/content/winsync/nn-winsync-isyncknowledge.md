@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: cfb08476-7b5d-4953-b723-5160330e57be
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ISyncKnowledge interface [Windows Sync],described, winsync.isyncknowledge, winsync/ISyncKnowledge
-f1_keywords:
-- winsync/ISyncKnowledge
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge
+ - winsync/ISyncKnowledge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge
 ---
 
 # ISyncKnowledge interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents knowledge that a replica has about its item store.
-
-
 
 ## -inheritance
 
@@ -309,22 +307,13 @@ Combines the specified knowledge with the current knowledge.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Be aware that there is no single representation of knowledge. Equivalent knowledge might be represented in different forms and return different values from knowledge inspection methods, such as <b>GetScopeVector</b>, <b>GetRangeExceptions</b>, <b>GetSingleItemExceptions</b>, <b>GetChangeUnitExceptions</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
 
@@ -343,7 +332,4 @@ Be aware that there is no single representation of knowledge. Equivalent knowled
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

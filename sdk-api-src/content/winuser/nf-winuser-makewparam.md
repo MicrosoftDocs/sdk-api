@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makewparam.htm
 ms.date: 12/05/2018
 ms.keywords: MAKEWPARAM, MAKEWPARAM macro [Windows and Messages], _win32_MAKEWPARAM, _win32_makewparam_cpp, winmsg.makewparam, winui._win32_makewparam, winuser/MAKEWPARAM
-f1_keywords:
-- winuser/MAKEWPARAM
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MAKEWPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAKEWPARAM
+ - winuser/MAKEWPARAM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MAKEWPARAM
 ---
 
 # MAKEWPARAM macro
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a value for use as a <i>wParam</i> parameter in a message. The macro concatenates the specified values.
 
-
 ## -parameters
-
-
-
 
 ### -param l
 
 The low-order word of the new value.
 
-
 ### -param h
 
 The high-order word of the new value.
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -94,7 +85,4 @@ The high-order word of the new value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
- 
-
- 
 

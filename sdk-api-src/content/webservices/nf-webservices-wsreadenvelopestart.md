@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: f2b20e6b-fac0-47b0-8ce9-ad06dc93f0e6
 ms.date: 12/05/2018
 ms.keywords: WsReadEnvelopeStart, WsReadEnvelopeStart function [Web Services for Windows], webservices/WsReadEnvelopeStart, wsw.wsreadenvelopestart
-f1_keywords:
-- webservices/WsReadEnvelopeStart
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReadEnvelopeStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReadEnvelopeStart
+ - webservices/WsReadEnvelopeStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReadEnvelopeStart
 ---
 
 # WsReadEnvelopeStart function
 
 
 ## -description
-
 
 Reads the headers of the message and prepare to read the body elements. 
             The operation reads the start of the next message from the Reader including the headers of
@@ -59,19 +59,11 @@ Reads the headers of the message and prepare to read the body elements.
                 using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param message [in]
 
 A pointer to the <b>Message</b> object to read.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
-                
-                
-
 
 ### -param reader [in]
 
@@ -83,8 +75,6 @@ A pointer to the Reader with the message to read.  The Message object uses the R
                 </div>
 <div> </div>
 
-
-
 ### -param doneCallback [in, optional]
 
 Identifies the callback function to initiate on success of the current operation once the message has
@@ -92,27 +82,18 @@ Identifies the callback function to initiate on success of the current operation
 </div>
 <div> </div>  The callback
                     can be used to discover whether the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> instance  is in use by this message.  If the current operation  fails the callback is not called.
-                    
-                
-
 
 ### -param doneCallbackState [in, optional]
 
 A pointer to user-defined state that can be passed
                     to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_message_done_callback">WS_MESSAGE_DONE_CALLBACK</a>.
                     This parameter may be <b>NULL</b> if the callback is not used.
-                
-
 
 ### -param error [in, optional]
 
 A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -166,14 +147,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The message must be in <b>WS_MESSAGE_STATE_EMPTY</b> state.  On success
                 the message state is set to <b>WS_MESSAGE_STATE_READING</b>. 
@@ -181,7 +156,4 @@ The message must be in <b>WS_MESSAGE_STATE_EMPTY</b> state.  On success
 To read an Element of the message body, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.  To read
                 directly from the XML Reader get the Reader with 
                 the <b>message property Id</b> set to  <b>WS_MESSAGE_PROPERTY_BODY_READER</b>.
-            
-
-
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: f771b318-5fd5-4c7f-a22b-6966aec5c0fa
 ms.date: 12/05/2018
 ms.keywords: IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbAudioComponentDescriptor, mstv.iisdbaudiocomponentdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbAudioComponentDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbAudioComponentDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbAudioComponentDescriptor
+ - dvbsiparser/IIsdbAudioComponentDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbAudioComponentDescriptor
 ---
 
 # IIsdbAudioComponentDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. The audio component descriptor appears in the ISDB service information as part of the event information table (EIT) and provides information about the audio.
-
 
 ## -inheritance
 
@@ -209,5 +208,5 @@ Gets the tag that identifies an ISDB audio component descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

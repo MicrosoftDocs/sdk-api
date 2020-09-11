@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1b6a3ac4-076a-4fca-909c-6063637248a8
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecordControl interface [Microsoft TV Technologies],Stop method, IStreamBufferRecordControl.Stop, IStreamBufferRecordControl::Stop, IStreamBufferRecordControlStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IStreamBufferRecordControl interface, mstv.istreambufferrecordcontrol_stop, sbe/IStreamBufferRecordControl::Stop
-f1_keywords:
-- sbe/IStreamBufferRecordControl.Stop
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferRecordControl.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferRecordControl::Stop
+ - sbe/IStreamBufferRecordControl::Stop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferRecordControl.Stop
 ---
 
 # IStreamBufferRecordControl::Stop
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Stop</b> method stops the recording and closes the file.
 
-
 ## -parameters
-
-
-
 
 ### -param rtStop [in]
 
@@ -66,10 +62,7 @@ For content recordings, the valid range is from 0 to 5 seconds (50000000), inclu
 
 For reference recordings, a negative time is valid if it falls within valid recorded content.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,31 +83,16 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The stop time must be greater than or equal to the start time.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordcontrol">IStreamBufferRecordControl Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-start">IStreamBufferRecordControl::Start</a>
- 
-
- 
 

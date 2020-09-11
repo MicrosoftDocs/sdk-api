@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: c19c6a4a-b783-47c2-8dfd-1ffe947278f0
 ms.date: 12/05/2018
 ms.keywords: ITextProvider interface [Windows Accessibility],RangeFromPoint method, ITextProvider.RangeFromPoint, ITextProvider::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility],ITextProvider interface, uiauto.uiauto_ITextProvider_RangeFromPoint, uiauto_ITextProvider_RangeFromPoint, uiautomationcore/ITextProvider::RangeFromPoint, winauto.uiauto_ITextProvider_RangeFromPoint
-f1_keywords:
-- uiautomationcore/ITextProvider.RangeFromPoint
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- ITextProvider.RangeFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextProvider::RangeFromPoint
+ - uiautomationcore/ITextProvider::RangeFromPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ITextProvider.RangeFromPoint
 ---
 
 # ITextProvider::RangeFromPoint
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns the degenerate (empty) text range nearest to the specified screen coordinates. 
-
+Returns the degenerate (empty) text range nearest to the specified screen coordinates.
 
 ## -parameters
-
-
-
 
 ### -param point [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiapoint">UiaPoint</a></b>
 
 The location in screen coordinates.
-
 
 ### -param pRetVal [out, retval]
 
@@ -72,21 +67,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcor
 Receives a pointer to the degenerate (empty) text range 
 				nearest the specified location. This parameter is passed uninitialized.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A text range that encloses a child object is returned if the screen coordinates are 
             within the coordinates of an image, hyperlink, or other embedded object. 
@@ -97,13 +84,7 @@ Because hidden text is not ignored by <b>ITextProvider::RangeFromPoint</b>, a de
 
 The property never returns <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -122,7 +103,4 @@ The property never returns <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

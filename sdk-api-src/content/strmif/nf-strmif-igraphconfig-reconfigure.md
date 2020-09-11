@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 924087c0-e3ad-437b-96e5-de39bbce2ea7
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconfigure method, IGraphConfig.Reconfigure, IGraphConfig::Reconfigure, IGraphConfigReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconfigure, strmif/IGraphConfig::Reconfigure
-f1_keywords:
-- strmif/IGraphConfig.Reconfigure
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphConfig.Reconfigure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphConfig::Reconfigure
+ - strmif/IGraphConfig::Reconfigure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphConfig.Reconfigure
 ---
 
 # IGraphConfig::Reconfigure
@@ -50,50 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Reconfigure</code> method locks the filter graph and calls a callback function in the application or filter to perform a dynamic reconfiguration.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCallback [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfigcallback">IGraphConfigCallback</a> callback interface on the application or filter.
 
-
 ### -param pvContext [in]
 
 Pointer to a variable of type <b>PVOID</b> that is passed to the callback routine.
-
 
 ### -param dwFlags [in]
 
 Application-defined flags that are passed to the callback routine.
 
-
 ### -param hAbortEvent [in]
 
 Handle to an event. If the caller is a filter calling on one of its data processing threads, this parameter should be a handle to an event that will be signaled when the filter is put into a stopped state. Otherwise, this parameter can be <b>NULL</b>. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful, or an error code otherwise. Possible errors include VFW_E_WRONG_STATE, if the method could not obtain a lock on the filter graph; whatever <b>HRESULT</b> was returned by the callback routine; or an error code indicating that the graph could not put the filters into a running state.
 
-
-
-
 ## -remarks
-
-
 
 This method is provided so that an application or filter can implement specialized dynamic graph building. In most cases, however, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method is adequate, and should be preferred because it handles most of the implementation details.
 
@@ -101,20 +83,11 @@ Before calling this method, block any streams as needed and push the data throug
 
 If a filter calls this method on one of its own data processing threads, it creates the potential for a deadlock. The method obtains a lock on the filter graph, which can block the filter from stopping on receiving a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-stop">IMediaFilter::Stop</a>. To prevent this situation, the method takes a handle to an event object provided by filter. The filter should signal the event if it receives a call to its <b>Stop</b> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
- 
-
- 
 

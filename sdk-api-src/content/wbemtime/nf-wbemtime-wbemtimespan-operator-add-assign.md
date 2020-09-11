@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: d531e7e0-7de2-41d0-bf1b-7c4ef43b3b46
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator+= method, WBEMTimeSpan.operator+=, WBEMTimeSpan.operator-add-assign, WBEMTimeSpan::operator+=, WBEMTimeSpan::operator-add-assign, _hmm_wbemtimespan_operator_plus_equal, operator+=, operator+= method [Windows Management Instrumentation], operator+= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator+=, wmi.wbemtimespan_operator_plus_equal
-f1_keywords:
-- wbemtime/WBEMTimeSpan.operator+=
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTimeSpan.operator+=
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTimeSpan::operator+=
+ - wbemtime/WBEMTimeSpan::operator+=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTimeSpan.operator+=
 ---
 
 # WBEMTimeSpan::operator-add-assign
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,11 +59,7 @@ ms.custom: 19H1
 
 The <b>WBEMTimeSpan</b> class add-and-assign operator  adds one time span to another. The operation create a new time span that contains the resulting time.
 
-
 ## -parameters
-
-
-
 
 ### -param uAdd [ref]
 

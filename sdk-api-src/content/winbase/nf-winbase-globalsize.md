@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9fd01460-d6fc-41f4-9e0c-209a3d1844c1
 ms.date: 12/05/2018
 ms.keywords: GlobalSize, GlobalSize function, _win32_globalsize, base.globalsize, winbase/GlobalSize
-f1_keywords:
-- winbase/GlobalSize
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GlobalSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GlobalSize
+ - winbase/GlobalSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GlobalSize
 ---
 
 # GlobalSize function
@@ -52,15 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current size of the specified global memory object, in bytes.
 <div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
 </div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hMem [in]
 
@@ -68,22 +65,14 @@ A handle to the global memory object. This handle is returned by either the
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the size of the specified global memory object, in bytes.
 
 If the specified handle is not valid or if the object has been discarded, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The size of a memory block may be larger than the size requested when the memory was allocated.
 
@@ -91,13 +80,7 @@ To verify that the specified object's memory block has not been discarded, use t
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a> function before calling 
 <b>GlobalSize</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
@@ -117,7 +100,4 @@ To verify that the specified object's memory block has not been discarded, use t
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
- 
-
- 
 

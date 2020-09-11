@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6825cca7-c3a5-46a8-9be5-851344629929
 ms.date: 12/05/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromObjectId method, ICryptAttribute.InitializeFromObjectId, ICryptAttribute::InitializeFromObjectId, InitializeFromObjectId, InitializeFromObjectId method [Security], InitializeFromObjectId method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromObjectId, security.icryptattribute_initializefromobjectid_method
-f1_keywords:
-- certenroll/ICryptAttribute.InitializeFromObjectId
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICryptAttribute.InitializeFromObjectId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICryptAttribute::InitializeFromObjectId
+ - certenroll/ICryptAttribute::InitializeFromObjectId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICryptAttribute.InitializeFromObjectId
 ---
 
 # ICryptAttribute::InitializeFromObjectId
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromObjectId</b> method initializes a cryptographic attribute by using an object identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param pObjectId [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that contains the object identifier of the attribute.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -89,24 +82,12 @@ The pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/certe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You must initialize the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromname">InitializeFromName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromvalue">InitializeFromValue</a> methods before using it in this method. 
-
-
-
+You must initialize the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromname">InitializeFromName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromvalue">InitializeFromValue</a> methods before using it in this method.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
@@ -121,7 +102,4 @@ You must initialize the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
 

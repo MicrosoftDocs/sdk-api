@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\insendmessageex.htm
 ms.date: 12/05/2018
 ms.keywords: InSendMessageEx, InSendMessageEx function [Windows and Messages], _win32_InSendMessageEx, _win32_insendmessageex_cpp, winmsg.insendmessageex, winui._win32_insendmessageex, winuser/InSendMessageEx
-f1_keywords:
-- winuser/InSendMessageEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-message-l1-1-0.dll
-- Ext-MS-Win-NTUser-message-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- Ext-MS-Win-NTUser-Message-l1-1-2.dll
-- Ext-MS-Win-NTUser-Message-L1-1-3.dll
-api_name:
-- InSendMessageEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InSendMessageEx
+ - winuser/InSendMessageEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-message-l1-1-0.dll
+ - Ext-MS-Win-NTUser-message-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - InSendMessageEx
 ---
 
 # InSendMessageEx function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process).
 
-
 ## -parameters
-
-
-
 
 ### -param lpReserved
 
@@ -71,10 +67,7 @@ Type: <b>LPVOID</b>
 
 Reserved; must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -134,26 +127,14 @@ The message was sent using the <a href="https://docs.microsoft.com/windows/deskt
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To determine if the sender is blocked, use the following test:
 
 <code>fBlocked = ( InSendMessageEx(NULL) &amp; (ISMEX_REPLIED|ISMEX_SEND) ) == ISMEX_SEND;</code>
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -180,7 +161,4 @@ To determine if the sender is blocked, use the following test:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
- 
-
- 
 

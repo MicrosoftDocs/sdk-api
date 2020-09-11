@@ -7,10 +7,6 @@ helpviewer_keywords: ["CHString::Format"]
 ms.assetid: 2187385b-8e30-4620-be1a-8c95c4d870b1
 ms.date: 05/13/2019
 ms.keywords: CHString::Format
-f1_keywords:
-- chstring/CHString::Format
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CHString::Format
+ - chstring/CHString::Format
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- CHString::Format
+ - CHString::Format
 ---
 
 # CHString::Format
+
 
 ## -description
 
@@ -95,3 +97,4 @@ A **NULL** character is appended to the end of the written characters.
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">CHString::GetBuffer</a>
+

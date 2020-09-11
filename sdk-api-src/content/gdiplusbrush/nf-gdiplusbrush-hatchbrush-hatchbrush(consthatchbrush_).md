@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrush_47hatchstyle_forecolor_backcolor.htm
 ms.date: 12/05/2018
 ms.keywords: HatchBrush, HatchBrush class [GDI+],HatchBrush constructor, HatchBrush constructor [GDI+], HatchBrush constructor [GDI+],HatchBrush class, HatchBrush.HatchBrush, HatchBrush.HatchBrush(const HatchBrush &), HatchBrush::HatchBrush, HatchBrush::HatchBrush(const HatchBrush &), _gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_, gdiplus._gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_
-f1_keywords:
-- gdiplusbrush/HatchBrush.HatchBrush
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- HatchBrush.HatchBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - HatchBrush::HatchBrush
+ - gdiplusbrush/HatchBrush::HatchBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - HatchBrush.HatchBrush
 ---
 
 # HatchBrush::HatchBrush(const HatchBrush &)
@@ -50,16 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <b>HatchBrush::HatchBrush</b> object based on a hatch style, a foreground color, and a background color.
 
-
 ## -parameters
-
-
-
-
-
 
 #### - backColor [in, ref]
 
@@ -79,13 +73,9 @@ Reference to a color to use for the hatch lines.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a></b>
 
-Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a> enumeration that specifies the pattern of hatch lines that will be used. 
-
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a> enumeration that specifies the pattern of hatch lines that will be used.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -104,7 +94,4 @@ Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusen
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
- 
-
- 
 

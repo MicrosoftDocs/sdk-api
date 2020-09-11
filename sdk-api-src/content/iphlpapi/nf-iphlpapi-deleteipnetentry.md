@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 0d338676-b66f-410c-8022-5576096954b4
 ms.date: 12/05/2018
 ms.keywords: DeleteIpNetEntry, DeleteIpNetEntry function [IP Helper], _iphlp_deleteipnetentry, iphlp.deleteipnetentry, iphlpapi/DeleteIpNetEntry
-f1_keywords:
-- iphlpapi/DeleteIpNetEntry
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- DeleteIpNetEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteIpNetEntry
+ - iphlpapi/DeleteIpNetEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - DeleteIpNetEntry
 ---
 
 # DeleteIpNetEntry function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DeleteIpNetEntry</b> function deletes an ARP entry from the ARP table on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pArpEntry [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> structure. The information in this structure specifies the entry to delete. The caller must specify values for at least the <b>dwIndex</b> and <b>dwAddr</b> members of this structure.
 
-
 ## -returns
-
-
 
 The function returns <b>NO_ERROR</b> (zero) if the function is successful. 
 
@@ -124,14 +117,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To retrieve the ARP table, call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a> function. 
 
@@ -144,12 +131,7 @@ The <b>DeleteIpNetEntry</b> function can also fail because of user account contr
 <div class="alert"><b>Note</b>  On Windows NT 4.0 and Windows 2000 and later, this function executes a privileged operation. For this function to execute successfully, the caller must be logged on as a member of the Administrators group or the NetworkConfigurationOperators group.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
 
@@ -176,7 +158,4 @@ The <b>DeleteIpNetEntry</b> function can also fail because of user account contr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a>
- 
-
- 
 

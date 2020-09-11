@@ -8,10 +8,6 @@ tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_CAPABILITIES
 ms.date: 12/05/2018
 ms.keywords: '*PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES structure pointer [XInput Game Controller APIs], XINPUT_CAPABILITIES, XINPUT_CAPABILITIES structure [XInput Game Controller APIs], xinput.xinput_capabilities, xinput/PXINPUT_CAPABILITIES, xinput/XINPUT_CAPABILITIES'
-f1_keywords:
-- xinput/XINPUT_CAPABILITIES
-dev_langs:
-- c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- XInput.h
-api_name:
-- XINPUT_CAPABILITIES
 targetos: Windows
 req.typenames: XINPUT_CAPABILITIES, *PXINPUT_CAPABILITIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _XINPUT_CAPABILITIES
+ - xinput/_XINPUT_CAPABILITIES
+ - PXINPUT_CAPABILITIES
+ - xinput/PXINPUT_CAPABILITIES
+ - XINPUT_CAPABILITIES
+ - xinput/XINPUT_CAPABILITIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - XInput.h
+api_name:
+ - XINPUT_CAPABILITIES
 ---
 
 # XINPUT_CAPABILITIES structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Describes the capabilities of a connected controller. The <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> function returns <b>XINPUT_CAPABILITIES</b>. 
-
+Describes the capabilities of a connected controller. The <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> function returns <b>XINPUT_CAPABILITIES</b>.
 
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -74,8 +74,6 @@ Describes the capabilities of a connected controller. The <a href="https://docs.
 <td>The device is a game controller. </td>
 </tr>
 </table>
- 
-
 
 ### -field SubType
 
@@ -116,25 +114,16 @@ Features of the controller.
 <td>Device lacks menu navigation buttons (START, BACK, DPAD).</td>
 </tr>
 </table>
- 
-
 
 ### -field Gamepad
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure that describes available controller features and control resolutions. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure that describes available controller features and control resolutions.
 
 ### -field Vibration
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_vibration">XINPUT_VIBRATION</a> structure that describes available vibration functionality and resolutions.
 
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a> returns <b>XINPUT_CAPABILITIES</b> to indicate the characteristics and available functionality of a specified controller.
 
@@ -151,15 +140,7 @@ The <i>SubType</i> member indicates the specific subtype of controller present. 
 
 Older XUSB Windows drivers report incomplete capabilities information, particularly for wireless devices. The latest XUSB Windows driver provides full support for wired and wireless devices, and more complete and accurate capabilties flags.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
 
@@ -174,7 +155,4 @@ Older XUSB Windows drivers report incomplete capabilities information, particula
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a>
- 
-
- 
 

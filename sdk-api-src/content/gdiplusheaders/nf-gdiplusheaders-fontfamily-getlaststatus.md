@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getlaststatus_12.htm
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GetLastStatus method, FontFamily.GetLastStatus, FontFamily::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetLastStatus_, gdiplus._gdiplus_CLASS_FontFamily_GetLastStatus_
-f1_keywords:
-- gdiplusheaders/FontFamily.GetLastStatus
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- FontFamily.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - FontFamily::GetLastStatus
+ - gdiplusheaders/FontFamily::GetLastStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - FontFamily.GetLastStatus
 ---
 
 # FontFamily::GetLastStatus
@@ -50,20 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FontFamily::GetLastStatus</b> method returns a value that indicates the nature of this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object's most recent method failure.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -73,12 +65,7 @@ If no methods invoked on this <a href="https://docs.microsoft.com/windows/deskto
 
 If at least one method invoked on this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object has failed since the previous call to <b>FontFamily::GetLastStatus</b>, then <b>FontFamily::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
-
-
-
 ## -remarks
-
-
 
 You can call <b>FontFamily::GetLastStatus</b> immediately after constructing a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object to determine whether the constructor succeeded.
 
@@ -115,14 +102,7 @@ VOID Example_GetLastStatus(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-font-families-and-fonts-use">Constructing Font Families and Fonts</a>
 
@@ -133,7 +113,4 @@ VOID Example_GetLastStatus(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: ae611265-4b0b-476e-afc5-23bb5a0cff26
 ms.date: 12/05/2018
 ms.keywords: ComputePointAtLength, ComputePointAtLength method [Direct2D], ComputePointAtLength method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputePointAtLength method, ID2D1Geometry.ComputePointAtLength, ID2D1Geometry.ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_POINT_2F,D2D1_POINT_2F), ID2D1Geometry::ComputePointAtLength, ID2D1Geometry::ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_POINT_2F,D2D1_POINT_2F), ID2D1Geometry::ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F,FLOAT,D2D1_POINT_2F,D2D1_POINT_2F), d2d1/ID2D1Geometry::ComputePointAtLength, direct2d.ID2D1Geometry_ComputePointAtLength_FLOAT_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D_POINT_2F_ptr_D2D_POINT_2F
-f1_keywords:
-- d2d1/ID2D1Geometry.ComputePointAtLength
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Geometry.ComputePointAtLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Geometry::ComputePointAtLength
+ - d2d1/ID2D1Geometry::ComputePointAtLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Geometry.ComputePointAtLength
 ---
 
 ## -description
@@ -89,3 +90,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
+

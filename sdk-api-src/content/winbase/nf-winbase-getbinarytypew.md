@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ec937372-ee99-4505-a5dd-7c111405cbc6
 ms.date: 12/05/2018
 ms.keywords: GetBinaryType, GetBinaryType function [Files], GetBinaryTypeA, GetBinaryTypeW, SCS_32BIT_BINARY, SCS_64BIT_BINARY, SCS_DOS_BINARY, SCS_OS216_BINARY, SCS_PIF_BINARY, SCS_POSIX_BINARY, SCS_WOW_BINARY, _win32_getbinarytype, base.getbinarytype, fs.getbinarytype, winbase/GetBinaryType, winbase/GetBinaryTypeA, winbase/GetBinaryTypeW
-f1_keywords:
-- winbase/GetBinaryType
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- GetBinaryType
-- GetBinaryTypeA
-- GetBinaryTypeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetBinaryTypeW
+ - winbase/GetBinaryTypeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - GetBinaryType
+ - GetBinaryTypeA
+ - GetBinaryTypeW
 ---
 
 # GetBinaryTypeW function
@@ -56,15 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable 
     file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpApplicationName [in]
 
@@ -74,7 +70,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
-
 
 ### -param lpBinaryType [out]
 
@@ -164,12 +159,8 @@ A 16-bit Windows-based application
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the file is executable, the return value is nonzero. The function sets the variable pointed to by 
        <i>lpBinaryType</i> to indicate the file's executable type.
@@ -178,12 +169,7 @@ If the file is not executable, or if the function fails, the return value is zer
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the file is a DLL, 
        the last error code is <b>ERROR_BAD_EXE_FORMAT</b>.
 
-
-
-
 ## -remarks
-
-
 
 As an alternative, you can obtain the same information by calling the 
     <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> function, passing the 
@@ -261,9 +247,6 @@ Yes
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
@@ -273,7 +256,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
- 
-
- 
 

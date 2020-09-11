@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 476b903d-7c87-4734-8a42-c8b75d292fb5
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure [NativeWIFI], nwifi.wlan_hosted_network_data_peer_state_change, wlanapi/PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE'
-f1_keywords:
-- wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wlanapi.h
-api_name:
-- WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, *PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
+ - wlanapi/_WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
+ - PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
+ - wlanapi/PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
+ - WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
+ - wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wlanapi.h
+api_name:
+ - WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
 ---
 
 # WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b> structure contains information about a network state change for a data peer on the wireless Hosted Network.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OldState
 
 The previous network state for a data peer on the wireless Hosted Network.
-
 
 ### -field NewState
 
@@ -69,27 +68,13 @@ The current network state for a data peer on the wireless Hosted Network.
 
 The reason for the network state change for the data peer.
 
-
 ### -field PeerStateChangeReason
-
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b> structure is an extension to native wireless APIs added to support the wireless Hosted Network on Windows 7 and  later.  
-
-
-
+The <b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b> structure is an extension to native wireless APIs added to support the wireless Hosted Network on Windows 7 and  later.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_peer_state">WLAN_HOSTED_NETWORK_PEER_STATE</a>
 
@@ -104,7 +89,4 @@ The <b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b> structure is an extension 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
- 
-
- 
 

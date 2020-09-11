@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: ee9e7e2d-caec-443c-937d-b8fc64130ad4
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],IsAccessAllowed method, IAccessControl.IsAccessAllowed, IAccessControl::IsAccessAllowed, IsAccessAllowed, IsAccessAllowed method [COM], IsAccessAllowed method [COM],IAccessControl interface, _com_iaccesscontrol_isaccessallowed, com.iaccesscontrol_isaccessallowed, iaccess/IAccessControl::IsAccessAllowed
-f1_keywords:
-- iaccess/IAccessControl.IsAccessAllowed
-dev_langs:
-- c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IAccess.h
-api_name:
-- IAccessControl.IsAccessAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessControl::IsAccessAllowed
+ - iaccess/IAccessControl::IsAccessAllowed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IAccess.h
+api_name:
+ - IAccessControl.IsAccessAllowed
 ---
 
 # IAccessControl::IsAccessAllowed
@@ -49,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the specified trustee has access rights to the object or property.
-
 
 ## -parameters
 
-
-
-
 ### -param pTrustee [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 ### -param lpProperty [in]
 
 The name of the property. If you are using the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this parameter must be <b>NULL</b>.
 
-
 ### -param AccessRights [in]
 
 The access rights on the object. If you are using the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this value must be either 0 or 1 (COM_RIGHTS_EXECUTE).
-
 
 ### -param pfAccessAllowed [out]
 
 Indicates whether access is allowed.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 In the system-supplied implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a> (CLSID_DCOMAccessControl), <b>IsAccessAllowed</b> can be called only during a distributed COM call, and the only valid trustee name is the name of the client.
 
@@ -449,18 +434,8 @@ The following permissions are specific to window objects.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
- 
-
- 
 

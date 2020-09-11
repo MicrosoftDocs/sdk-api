@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: A1CD62B4-A314-43B3-AD80-3EB3EDF63B3D
 ms.date: 12/05/2018
 ms.keywords: GetAppUserModelId, GetAppUserModelId method [App packaging and management], GetAppUserModelId method [App packaging and management],IAppxManifestApplication interface, IAppxManifestApplication interface [App packaging and management],GetAppUserModelId method, IAppxManifestApplication.GetAppUserModelId, IAppxManifestApplication::GetAppUserModelId, appxpackaging/IAppxManifestApplication::GetAppUserModelId, appxpkg.iappxmanifestapplication_getappusermodelid
-f1_keywords:
-- appxpackaging/IAppxManifestApplication.GetAppUserModelId
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestApplication.GetAppUserModelId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestApplication::GetAppUserModelId
+ - appxpackaging/IAppxManifestApplication::GetAppUserModelId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestApplication.GetAppUserModelId
 ---
 
 # IAppxManifestApplication::GetAppUserModelId
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the application user model identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param appUserModelId [out, retval]
 
@@ -64,31 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The user model identifier.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The caller must free the memory allocated for <i>appUserModelId</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs</a>
 
@@ -103,7 +85,4 @@ The caller must free the memory allocated for <i>appUserModelId</i> using the <a
 
 
 <b>Reference</b>
- 
-
- 
 

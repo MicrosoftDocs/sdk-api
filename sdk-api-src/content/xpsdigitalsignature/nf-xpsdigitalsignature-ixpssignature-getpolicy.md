@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 632e5e53-1677-4b55-9085-0def97531a5d
 ms.date: 12/05/2018
 ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetPolicy method, IXpsSignature.GetPolicy, IXpsSignature::GetPolicy, xps.ixpssignature_getpolicy, xpsdigitalsignature/IXpsSignature::GetPolicy
-f1_keywords:
-- xpsdigitalsignature/IXpsSignature.GetPolicy
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignature.GetPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignature::GetPolicy
+ - xpsdigitalsignature/IXpsSignature::GetPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignature.GetPolicy
 ---
 
 # IXpsSignature::GetPolicy
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
 
-
 ## -parameters
-
-
-
 
 ### -param policy [out, retval]
 
 The logical <b>OR</b> of the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> values that represent the signing policy.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372949(v=vs.85)">XPS Digital Signature API Errors</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -108,27 +101,15 @@ The interface is not connected to the signature manager.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The signing policy value that is returned in <i>policy</i> is determined by examining the signed parts and relationships in the document.
 
 This method deduces the signature policy by examining the list of signed parts and relationships.
     For example, the <b>XPS_SIGN_POLICY_DISCARD_CONTROL</b> flag is set if the discard-control relationship type from the XPS package root is signed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignature">IXpsSignature</a>
 
@@ -151,7 +132,4 @@ This method deduces the signature policy by examining the list of signed parts a
 
 
 <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
- 
-
- 
 

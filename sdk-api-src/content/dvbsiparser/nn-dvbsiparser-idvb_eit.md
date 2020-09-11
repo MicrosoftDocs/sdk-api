@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 86280e1e-09c3-45a4-bdfb-53eda8e5700e
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], IDVB_EIT interface [Microsoft TV Technologies],described, IDVB_EITInterface, dvbsiparser/IDVB_EIT, mstv.idvb_eit
-f1_keywords:
-- dvbsiparser/IDVB_EIT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_EIT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_EIT
+ - dvbsiparser/IDVB_EIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_EIT
 ---
 
 # IDVB_EIT interface
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -84,8 +83,7 @@ An EIT provides information about events in each service, such as the event name
 <td>0x60 – 0x6F</td>
 <td>Schedule EIT for another transport stream.</td>
 </tr>
-</table> 
-
+</table>
 
 ## -inheritance
 
@@ -291,16 +289,9 @@ Registers the client to be notified when the table becomes current.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

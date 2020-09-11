@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1d5f8eda-2b09-4627-8ae9-f43f38c3c26a
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph3, IFilterGraph3 interface [DirectShow], IFilterGraph3 interface [DirectShow],described, IFilterGraph3Interface, dshow.ifiltergraph3, strmif/IFilterGraph3
-f1_keywords:
-- strmif/IFilterGraph3
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFilterGraph3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilterGraph3
+ - strmif/IFilterGraph3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFilterGraph3
 ---
 
 # IFilterGraph3 interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IFilterGraph3</code> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2</a> interface, which contains methods for building filter graphs.
 
 The Filter Graph Manager implements this interface. Applications can use it when building graphs, to take advantage of the additional methods it provides.
-
-
-
 
 ## -inheritance
 
@@ -83,5 +79,5 @@ Sets a primary and secondary reference clock for the filter graph.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_95t0_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingMethod, IFaxInboundRoutingMethod interface [Fax Service], IFaxInboundRoutingMethod interface [Fax Service],described, _mfax_faxinboundroutingmethod_cpp, fax._mfax_faxinboundroutingmethod_cpp, faxcomex/IFaxInboundRoutingMethod
-f1_keywords:
-- faxcomex/IFaxInboundRoutingMethod
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxInboundRoutingMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxInboundRoutingMethod
+ - faxcomex/IFaxInboundRoutingMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxInboundRoutingMethod
 ---
 
 # IFaxInboundRoutingMethod interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxInboundRoutingMethod</b> interface defines a configuration object used by a fax client application to retrieve information about an individual fax inbound routing method on a connected fax server.
-
 
 ## -inheritance
 
@@ -191,14 +190,9 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A default implementation of <b>IFaxInboundRoutingMethod</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod">FaxInboundRoutingMethod</a> object.
-
-
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: cb5a7cd8-870c-4880-bb29-6e24a098c35e
 ms.date: 12/05/2018
 ms.keywords: SPQ_FLAG_ABORT_IF_UNSIGNED, SPQ_FLAG_BACKUP_AWARE, SetupGetFileQueueFlags, SetupGetFileQueueFlags function [Setup API], _setupapi_setupgetfilequeueflags, setup.setupgetfilequeueflags, setupapi/SetupGetFileQueueFlags
-f1_keywords:
-- setupapi/SetupGetFileQueueFlags
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupGetFileQueueFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupGetFileQueueFlags
+ - setupapi/SetupGetFileQueueFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupGetFileQueueFlags
 ---
 
 # SetupGetFileQueueFlags function
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupGetFileQueueFlags</b> function gets the flags from a setup file queue.
 
-
 ## -parameters
-
-
-
 
 ### -param FileQueue [in]
 
 Handle to an open setup file queue.
-
 
 ### -param Flags [out]
 
@@ -103,32 +98,19 @@ For internal use only.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
- 
-
- 
 

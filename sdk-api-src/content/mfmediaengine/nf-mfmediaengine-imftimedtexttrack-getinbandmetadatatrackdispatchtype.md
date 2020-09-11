@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: AEA4D160-6DBC-4829-95F3-F016F9709042
 ms.date: 12/05/2018
 ms.keywords: GetInBandMetadataTrackDispatchType, GetInBandMetadataTrackDispatchType method [Media Foundation], GetInBandMetadataTrackDispatchType method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetInBandMetadataTrackDispatchType method, IMFTimedTextTrack.GetInBandMetadataTrackDispatchType, IMFTimedTextTrack::GetInBandMetadataTrackDispatchType, mf.imftimedtexttrack_getinbandmetadatatrackdispatchtype, mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
-f1_keywords:
-- mfmediaengine/IMFTimedTextTrack.GetInBandMetadataTrackDispatchType
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextTrack.GetInBandMetadataTrackDispatchType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
+ - mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextTrack.GetInBandMetadataTrackDispatchType
 ---
 
 # IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the in-band metadata of the track.
 
-
 ## -parameters
-
-
-
 
 ### -param dispatchType [out]
 
@@ -64,25 +60,13 @@ Type: <b>LPCWSTR*</b>
 
 A pointer to a variable that receives the null-terminated wide-character string that contains the in-band metadata of the track.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
- 
-
- 
 

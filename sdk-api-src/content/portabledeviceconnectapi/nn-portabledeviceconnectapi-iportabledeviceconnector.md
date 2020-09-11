@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: c6eb1103-2395-431d-9130-1e1f2cc9ae96
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], IPortableDeviceConnector interface [Windows Portable Devices SDK],described, portabledeviceconnectapi/IPortableDeviceConnector, wpdsdk.iportabledeviceconnector
-f1_keywords:
-- portabledeviceconnectapi/IPortableDeviceConnector
-dev_langs:
-- c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portabledeviceconnectapi.h
-api_name:
-- IPortableDeviceConnector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceConnector
+ - portabledeviceconnectapi/IPortableDeviceConnector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portabledeviceconnectapi.h
+api_name:
+ - IPortableDeviceConnector
 ---
 
 # IPortableDeviceConnector interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPortableDeviceConnector</b> interface defines methods used for connection-management and property-retrieval for a paired MTP/Bluetooth device.
-
 
 ## -inheritance
 
@@ -122,5 +121,5 @@ Sets a property for the given MTP Bluetooth Bus Enumerator device.
 
 </td>
 </tr>
-</table> 
+</table>
 

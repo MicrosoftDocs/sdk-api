@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: c3cdc535-2c13-48c6-9ab1-88cc5e5119b5
 ms.date: 12/05/2018
 ms.keywords: IcmpSendEcho, IcmpSendEcho function [IP Helper], _iphlp_icmpsendecho, icmpapi/IcmpSendEcho, iphlp.icmpsendecho
-f1_keywords:
-- icmpapi/IcmpSendEcho
-dev_langs:
-- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-- Icmp.dll
-api_name:
-- IcmpSendEcho
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IcmpSendEcho
+ - icmpapi/IcmpSendEcho
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+ - Icmp.dll
+api_name:
+ - IcmpSendEcho
 ---
 
 # IcmpSendEcho function
@@ -50,35 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IcmpSendEcho</b> function sends an IPv4 ICMP echo request and returns any echo response replies. The call returns when the time-out has expired or the reply buffer is filled.
 
-
 ## -parameters
-
-
-
 
 ### -param IcmpHandle [in]
 
 The open handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpcreatefile">IcmpCreateFile</a> function.
 
-
 ### -param DestinationAddress [in]
 
 The IPv4 destination address of the echo request, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
-
 
 ### -param RequestData [in]
 
 A pointer to a buffer that contains data to send in the request.
 
-
 ### -param RequestSize [in]
 
 The size, in bytes, of the request data buffer pointed to by the <i>RequestData</i> parameter.
-
 
 ### -param RequestOptions [in, optional]
 
@@ -86,15 +78,11 @@ A pointer to the IP header options for the request, in the form of an <a href="h
 
 This parameter may be <b>NULL</b> if no IP header options need to be specified.
 
-
-
-
 ### -param ReplyBuffer [out]
 
 A buffer to hold any replies to the echo request. Upon return, the buffer contains an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a> structures followed by the options and data for the replies. The buffer should be large enough to hold at least one 
 <b>ICMP_ECHO_REPLY</b> structure plus <i>RequestSize</i> bytes of data.
-
 
 ### -param ReplySize [in]
 
@@ -103,16 +91,11 @@ The allocated size, in bytes,  of the reply buffer. The buffer should be large e
 
 This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message).
 
-
-
 ### -param Timeout [in]
 
 The time, in milliseconds, to wait for replies.
 
-
 ## -returns
-
-
 
 The 
 						<b>IcmpSendEcho</b> function returns the number of 
@@ -195,14 +178,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>IcmpSendEcho</b> function send an ICMP echo request to the specified address and returns the number of replies received and stored in <i>ReplyBuffer</i>.  The <b>IcmpSendEcho</b> function is a synchronous function and returns after waiting for the time specified in the <i>Timeout</i> parameter for a response. If the return value is zero, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
@@ -300,14 +277,7 @@ int __cdecl main(int argc, char **argv)  {
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
@@ -358,7 +328,4 @@ int __cdecl main(int argc, char **argv)  {
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2ex">IcmpSendEcho2Ex</a>
- 
-
- 
 

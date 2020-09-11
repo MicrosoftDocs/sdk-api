@@ -8,10 +8,6 @@ tech.root: audio
 ms.assetid: 275d9ad3-9dde-4cfb-a67f-24da3a0ad2ce
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Audio Devices], Close method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Close method, IDirectMusicSynth.Close, IDirectMusicSynth::Close, audio.idirectmusicsynth_close, audmp-routines_e0ff55d1-46e2-42a0-afe4-a4129e663ddd.xml, dmusics/IDirectMusicSynth::Close
-f1_keywords:
-- dmusics/IDirectMusicSynth.Close
-dev_langs:
-- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusics.h
-api_name:
-- IDirectMusicSynth.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectMusicSynth::Close
+ - dmusics/IDirectMusicSynth::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusics.h
+api_name:
+ - IDirectMusicSynth.Close
 ---
 
 # IDirectMusicSynth::Close
@@ -49,18 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>Close</code> method closes a DirectMusic "port", which is a DirectMusic term for a device that sends or receives music data.
-
 
 ## -parameters
 
-
-
-
 ## -returns
-
-
 
 <code>Close</code> returns S_OK if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
 
@@ -81,14 +75,8 @@ Indicates that the port was not open.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method closes a DirectMusic "port" that was previously opened by a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>.
 
@@ -96,16 +84,7 @@ When the DirectMusic "port" closes, it automatically releases all instruments an
 
 Avoid confusing the term DirectMusic "port" with a DMus port driver. A DirectMusic port corresponds to a render or capture pin on a DirectMusic filter. For more information about DirectMusic ports, see the description of the <b>IDirectMusicPort</b> interface in the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>
- 
-
- 
 

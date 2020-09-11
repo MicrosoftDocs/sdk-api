@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\fromstream_58stream_useembeddedcolormanagement.htm
 ms.date: 12/05/2018
 ms.keywords: FromStream, FromStream method [GDI+], FromStream method [GDI+],Image class, Image class [GDI+],FromStream method, Image.FromStream, Image::FromStream, _gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_
-f1_keywords:
-- gdiplusheaders/Image.FromStream
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Image.FromStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Image::FromStream
+ - gdiplusheaders/Image::FromStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Image.FromStream
 ---
 
 # Image::FromStream
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Image::FromStream</b> method creates a new 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object based on a stream.
 
-
 ## -parameters
-
-
-
 
 ### -param stream [in]
 
@@ -69,33 +65,23 @@ Pointer to an
 					IStream must include the 
 					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a>, 
 					<b>Read</b>, and 
-					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> methods. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> methods.
 
 ### -param useEmbeddedColorManagement [in]
 
 Type: <b>BOOL</b>
 
 Optional. Boolean value that specifies whether the new 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object applies color correction according to color management information that is embedded in the stream. Embedded information can include International Color Consortium (ICC) profiles, gamma values, and chromaticity information. <b>TRUE</b> specifies that color correction is enabled, and <b>FALSE</b> specifies that color correction is not enabled. The default value is <b>FALSE</b>. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object applies color correction according to color management information that is embedded in the stream. Embedded information can include International Color Consortium (ICC) profiles, gamma values, and chromaticity information. <b>TRUE</b> specifies that color correction is enabled, and <b>FALSE</b> specifies that color correction is not enabled. The default value is <b>FALSE</b>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>*</b>
 
 This method returns a pointer to the new 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. 
-
-
-
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
@@ -130,7 +116,4 @@ This method returns a pointer to the new
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 3a45e0c2-5392-456d-80c9-ebd17d056a85
 ms.date: 12/05/2018
 ms.keywords: ADS_AUTHENTICATION_ENUM, ADS_AUTHENTICATION_ENUM enumeration [ADSI], ADS_AUTH_RESERVED, ADS_FAST_BIND, ADS_NO_AUTHENTICATION, ADS_NO_REFERRAL_CHASING, ADS_PROMPT_CREDENTIALS, ADS_READONLY_SERVER, ADS_SECURE_AUTHENTICATION, ADS_SERVER_BIND, ADS_USE_DELEGATION, ADS_USE_ENCRYPTION, ADS_USE_SEALING, ADS_USE_SIGNING, ADS_USE_SSL, _ds_ads_authentication_enum, adsi.ads__authentication__enum, adsi.ads_authentication_enum, iads/ADS_AUTHENTICATION_ENUM, iads/ADS_AUTH_RESERVED, iads/ADS_FAST_BIND, iads/ADS_NO_AUTHENTICATION, iads/ADS_NO_REFERRAL_CHASING, iads/ADS_PROMPT_CREDENTIALS, iads/ADS_READONLY_SERVER, iads/ADS_SECURE_AUTHENTICATION, iads/ADS_SERVER_BIND, iads/ADS_USE_DELEGATION, iads/ADS_USE_ENCRYPTION, iads/ADS_USE_SEALING, iads/ADS_USE_SIGNING, iads/ADS_USE_SSL
-f1_keywords:
-- iads/ADS_AUTHENTICATION_ENUM
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iads.h
-api_name:
-- ADS_AUTHENTICATION_ENUM
 targetos: Windows
 req.typenames: ADS_AUTHENTICATION_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_ads_0000_0000_0018
+ - iads/__MIDL___MIDL_itf_ads_0000_0000_0018
+ - ADS_AUTHENTICATION_ENUM
+ - iads/ADS_AUTHENTICATION_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iads.h
+api_name:
+ - ADS_AUTHENTICATION_ENUM
 ---
 
 # ADS_AUTHENTICATION_ENUM enumeration
 
 
 ## -description
-
 
 The <b>ADS_AUTHENTICATION_ENUM</b> enumeration 
    specifies authentication options used in ADSI for binding to directory service objects. When 
@@ -58,11 +60,7 @@ The <b>ADS_AUTHENTICATION_ENUM</b> enumeration
    here apply to the providers supplied by Microsoft included with the ADSI SDK. For more information, see 
    <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI System Providers</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ADS_SECURE_AUTHENTICATION
 
@@ -71,7 +69,6 @@ Requests secure authentication. When this flag is set, the WinNT provider uses N
       the user name and password are <b>NULL</b>, ADSI binds to the object using the security 
       context of the calling thread, which is either the security context of the user account under which the 
       application is running or of the client user account that the calling thread represents.
-
 
 ### -field ADS_USE_ENCRYPTION
 
@@ -107,11 +104,9 @@ In Windows Server 2008, ADSI attempts to connect to either Read-Only DCs (RODCs
 For more information about programming for RODC compatibility, see the 
        <a href="https://technet.microsoft.com/library/cc755190(WS.10).aspx">Read-Only Domain Controllers Application Compatibility Guide</a>.
 
-
 ### -field ADS_PROMPT_CREDENTIALS
 
 This flag is not supported.
-
 
 ### -field ADS_NO_AUTHENTICATION
 
@@ -119,7 +114,6 @@ Request no authentication. The providers may attempt to bind the client, as an a
       target object. The WinNT provider does not support this flag. Active Directory establishes a connection between 
       the client and the targeted object, but will not perform authentication. Setting this flag amounts to requesting 
       an anonymous binding, which indicates all users as the security context.
-
 
 ### -field ADS_FAST_BIND
 
@@ -132,7 +126,6 @@ When this flag is set, ADSI will not attempt to query the <b>objectClass</b>
 
 This option is also useful for binding to non-Active Directory directory services, for example Exchange 5.5, 
        where the <b>objectClass</b> query would fail.
-
 
 ### -field ADS_USE_SIGNING
 
@@ -153,7 +146,6 @@ Encrypts data using Kerberos. The <b>ADS_SECURE_AUTHENTICATION</b> flag must als
 ### -field ADS_USE_DELEGATION
 
 Enables ADSI to delegate the user security context, which is necessary for moving objects across domains.
-
 
 ### -field ADS_SERVER_BIND
 
@@ -181,10 +173,7 @@ Specify this flag to turn referral chasing off for the life of the connection. H
 
 Reserved.
 
-
 ## -remarks
-
-
 
 The <b>ADS_SECURE_AUTHENTICATION</b> flag can be used in combination with other flags such 
     as <b>ADS_READONLY_SERVER</b>, <b>ADS_PROMPT_CREDENTIALS</b>, 
@@ -242,14 +231,7 @@ else
     {} // Object was retrieved, continue processing here.
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
@@ -268,7 +250,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a>
- 
-
- 
 

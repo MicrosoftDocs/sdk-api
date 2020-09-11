@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_ENUM_USN_DATA, FSCTL_ENUM_USN_DATA control, FSCTL_ENUM_USN_DATA control code [Files], _win32_fsctl_enum_usn_data, base.fsctl_enum_usn_data, fs.fsctl_enum_usn_data, winioctl/FSCTL_ENUM_USN_DATA
 ms.topic: ioctl
-f1_keywords:
-- winioctl/FSCTL_ENUM_USN_DATA
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +27,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_ENUM_USN_DATA
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_ENUM_USN_DATA
+ - winioctl/FSCTL_ENUM_USN_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_ENUM_USN_DATA
 ---
 
 # FSCTL_ENUM_USN_DATA IOCTL
 
 
 ## -description
-
 
 Enumerates  the update sequence number (USN) data between two specified boundaries to obtain master 
     file table (MFT) records.
@@ -77,66 +77,31 @@ DeviceIoControl( (HANDLE) hDevice,              // handle to volume
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -144,12 +109,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the 
     <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
@@ -222,15 +182,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -261,7 +214,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1ac4976b-7088-47ac-9689-58c143746f05
 ms.date: 12/05/2018
 ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], IMediaStreamFilter interface [DirectShow],described, IMediaStreamFilterInterface, amstream/IMediaStreamFilter, dshow.imediastreamfilter
-f1_keywords:
-- amstream/IMediaStreamFilter
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IMediaStreamFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaStreamFilter
+ - amstream/IMediaStreamFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IMediaStreamFilter
 ---
 
 # IMediaStreamFilter interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>IMediaStreamFilter</code> interface is supported by the Media Stream filter, which is used internally by the multimedia stream object. Applications should not use this interface.
-
-
-
 
 ## -inheritance
 
@@ -154,16 +150,9 @@ Causes the filter to block until a specified stream time.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>
- 
-
- 
 

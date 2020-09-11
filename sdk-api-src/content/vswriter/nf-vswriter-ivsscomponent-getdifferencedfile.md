@@ -1,17 +1,13 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDifferencedFile
 title: IVssComponent::GetDifferencedFile (vswriter.h)
-description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file�that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
+description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file�that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
 helpviewer_keywords: ["GetDifferencedFile","GetDifferencedFile method [VSS]","GetDifferencedFile method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetDifferencedFile method","IVssComponent.GetDifferencedFile","IVssComponent::GetDifferencedFile","_win32_ivsscomponent_getdifferencedfile","base.ivsscomponent_getdifferencedfile","vswriter/IVssComponent::GetDifferencedFile"]
 old-location: base\ivsscomponent_getdifferencedfile.htm
 tech.root: base
 ms.assetid: 285b2ac7-d09e-4ac5-bf5c-62c510544353
 ms.date: 12/05/2018
 ms.keywords: GetDifferencedFile, GetDifferencedFile method [VSS], GetDifferencedFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDifferencedFile method, IVssComponent.GetDifferencedFile, IVssComponent::GetDifferencedFile, _win32_ivsscomponent_getdifferencedfile, base.ivsscomponent_getdifferencedfile, vswriter/IVssComponent::GetDifferencedFile
-f1_keywords:
-- vswriter/IVssComponent.GetDifferencedFile
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetDifferencedFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetDifferencedFile
+ - vswriter/IVssComponent::GetDifferencedFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetDifferencedFile
 ---
 
 # IVssComponent::GetDifferencedFile
 
 
 ## -description
-
 
 The <b>GetDifferencedFile</b> method returns 
     information about a file set (a specified file or files) to participate in an incremental or differential backup 
@@ -58,11 +58,7 @@ The <b>GetDifferencedFile</b> method returns
 
 This method can be called by a requester or a writer during backup or restore operations.
 
-
 ## -parameters
-
-
-
 
 ### -param iDifferencedFile [in]
 
@@ -72,7 +68,6 @@ Index number of the differenced file to be examined. The value of this parameter
       <i>n</i> is returned by 
       <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>.
 
-
 ### -param pbstrPath [out]
 
 The address of a caller-allocated variable that receives a string containing the path to the differenced files.
@@ -81,11 +76,9 @@ The address of a caller-allocated variable that receives a string containing the
 Users of this method need to check to determine whether this path ends with a backslash 
        (\).
 
-
 ### -param pbstrFilespec [out]
 
 The address of a caller-allocated variable that receives a string containing the file specification of the differenced files.
-
 
 ### -param pbRecursive [out]
 
@@ -95,21 +88,16 @@ The address of a caller-allocated variable that receives a Boolean specifying wh
       differenced files during incremental or differential backups. If <b>FALSE</b>, only the root directory needs to be 
       searched.
 
-
 ### -param pbstrLsnString [out]
 
 Reserved for future use.
-
 
 ### -param pftLastModifyTime [out]
 
 The address of a caller-allocated variable that receives the writer specification of the time of last modification for the difference files, expressed as a 
       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -176,14 +164,8 @@ The XML document is not valid. Check the event log for details. For more
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>GetDifferencedFile</b> can be called by 
     a requester or a writer during backup or restore operations.
@@ -252,13 +234,7 @@ There is no method in the
     <b>GetDifferencedFilesByLastModifyTime</b>. If an alternate location mapping corresponds 
     to the new file, then that alternate location will be used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
@@ -273,7 +249,4 @@ There is no method in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
- 
-
- 
 

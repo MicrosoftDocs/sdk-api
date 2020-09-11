@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: fa348d46-bcd2-4009-89d6-11e738d4a82b
 ms.date: 12/05/2018
 ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdvise interface [Security],described, identityprovider/IIdentityAdvise, identitystore/IIdentityAdvise, security.iidentityadvise
-f1_keywords:
-- identityprovider/IIdentityAdvise
-dev_langs:
-- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IdentityProvider.h
-- Identitystore.h
-api_name:
-- IIdentityAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIdentityAdvise
+ - identityprovider/IIdentityAdvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IdentityProvider.h
+ - Identitystore.h
+api_name:
+ - IIdentityAdvise
 ---
 
 # IIdentityAdvise interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IIdentityAdvise</b> interface allows an identity provider to notify a calling application when an identity is updated.
-
 
 ## -inheritance
 
@@ -78,20 +77,13 @@ Is called by an identity provider to notify a calling application that an identi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">IIdentityProvider::Advise</a>
- 
-
- 
 

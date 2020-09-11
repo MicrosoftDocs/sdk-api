@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 7a022519-c112-42d4-b777-c3828439f7dd
 ms.date: 12/05/2018
 ms.keywords: GetResultString, GetResultString method [Windows Management Instrumentation], GetResultString method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultString method, IWbemCallResult.GetResultString, IWbemCallResult::GetResultString, _hmm_iwbemcallresult_getresultstring, wbemcli/IWbemCallResult::GetResultString, wmi.iwbemcallresult_getresultstring
-f1_keywords:
-- wbemcli/IWbemCallResult.GetResultString
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemcli.h
-api_name:
-- IWbemCallResult.GetResultString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemCallResult::GetResultString
+ - wbemcli/IWbemCallResult::GetResultString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemcli.h
+api_name:
+ - IWbemCallResult.GetResultString
 ---
 
 # IWbemCallResult::GetResultString
 
 
 ## -description
-
 
 The 
 <b>IWbemCallResult::GetResultString</b> method returns the assigned object path of an instance newly created by 
@@ -59,22 +59,15 @@ The
 
 ## -parameters
 
-
-
-
 ### -param lTimeout [in]
 
 Specifies the maximum time in milliseconds that this call blocks before returning. If you use the constant <b>WBEM_INFINITE</b> (0xFFFFFFFF), the call blocks until the object path is available. If you use 0, the call immediately returns either the object path or a status code.
-
 
 ### -param pstrResultString [out]
 
 Cannot be <b>NULL</b>. This parameter receives a pointer to the object path, which, in turn, leads to the newly created object. The returned string must be deallocated using the system call <i>SysFreeString</i>. On error, a new string is not returned.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
 
@@ -82,20 +75,11 @@ On error, you can call the COM function <b>GetErrorInfo</b> to obtain more error
 
 COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>
- 
-
- 
 

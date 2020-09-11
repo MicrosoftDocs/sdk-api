@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: fa34786c-af82-4b59-bf36-e9a95a2f913e
 ms.date: 12/05/2018
 ms.keywords: GetVolumePathName, GetVolumePathName function [Files], GetVolumePathNameA, GetVolumePathNameW, _win32_getvolumepathname, base.getvolumepathname, fileapi/GetVolumePathName, fileapi/GetVolumePathNameA, fileapi/GetVolumePathNameW, fs.getvolumepathname, winbase/GetVolumePathName, winbase/GetVolumePathNameA, winbase/GetVolumePathNameW
-f1_keywords:
-- winbase/GetVolumePathName
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- GetVolumePathName
-- GetVolumePathNameA
-- GetVolumePathNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetVolumePathNameA
+ - winbase/GetVolumePathNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - GetVolumePathName
+ - GetVolumePathNameA
+ - GetVolumePathNameW
 ---
 
 # GetVolumePathNameA function
@@ -60,14 +61,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the volume mount point where the specified path is mounted.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszFileName [in]
 
@@ -81,32 +77,22 @@ If you specify a relative directory or file name without a volume qualifier,
 If this parameter is an empty string, "", the function fails but the last error is set to 
        <b>ERROR_SUCCESS</b>.
 
-
 ### -param lpszVolumePathName [out]
 
 A pointer to a string that receives the volume mount point for the input path.
-
 
 ### -param cchBufferLength [in]
 
 The length of the output buffer, in <b>TCHARs</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If a specified path is passed, <b>GetVolumePathName</b> 
     returns the path to the volume mount point, which means that it returns the root of the volume where the end point 
@@ -321,12 +307,7 @@ For the following set of examples, the paths contain invalid trailing path eleme
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
@@ -349,7 +330,4 @@ For the following set of examples, the paths contain invalid trailing path eleme
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Volume Mount Points</a>
- 
-
- 
 

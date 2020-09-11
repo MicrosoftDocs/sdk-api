@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 8c67f31e-783e-4371-9f17-063f8ecfc069
 ms.date: 12/05/2018
 ms.keywords: ITTAPI2, ITTAPI2 interface [TAPI 2.2], ITTAPI2 interface [TAPI 2.2],described, _tapi3_ittapi2, tapi3.ittapi2, tapi3if/ITTAPI2
-f1_keywords:
-- tapi3if/ITTAPI2
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTAPI2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTAPI2
+ - tapi3if/ITTAPI2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTAPI2
 ---
 
 # ITTAPI2 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITTAPI2</b> interface derives from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a> interface. It adds additional methods on the TAPI object to support phone devices.
-
 
 ## -inheritance
 
@@ -97,20 +96,13 @@ Gets the collection of phone objects that are available.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
- 
-
- 
 

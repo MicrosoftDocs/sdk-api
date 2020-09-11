@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 7d34bc48-377c-4249-a26e-0802dee0b53c
 ms.date: 12/05/2018
 ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessFullEnumerationChangeBatch method, IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch, IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch method [Windows Sync], ProcessFullEnumerationChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, winsync.iknowledgesyncprovider_processfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
-f1_keywords:
-- winsync/IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
+ - winsync/IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
 ---
 
 # IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Processes a set of changes for a full enumeration by applying changes to the item store.
 
-
 ## -parameters
-
-
-
 
 ### -param resolutionPolicy [in]
 
 The conflict resolution policy to use when this method applies changes.
 
-
 ### -param pSourceChangeBatch [in]
 
 A batch of changes from the source provider to be applied locally.
-
 
 ### -param pUnkDataRetriever [in]
 
 An object that can be used to retrieve change data. It can be an <b>ISynchronousDataRetriever</b> object or a provider-specific object.
 
-
 ### -param pCallback [in]
 
 An object that receives event notifications during change application.
-
 
 ### -param pSyncSessionStatistics [in, out]
 
 Tracks change statistics. For a provider that uses custom change application, this object must be updated with the results of the change application.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -114,24 +103,12 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is called during forgotten knowledge recovery.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT RESOLUTION POLICY Enumeration</a>
 
@@ -142,7 +119,4 @@ This method is called during forgotten knowledge recovery.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_range">SYNC RANGE Structure</a>
- 
-
- 
 

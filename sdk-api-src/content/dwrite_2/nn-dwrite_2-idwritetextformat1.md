@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 15295A17-E542-4071-AE38-02014A1235D5
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1, IDWriteTextFormat1 interface [Direct Write], IDWriteTextFormat1 interface [Direct Write],described, directwrite.idwritetextformat1, dwrite_2/IDWriteTextFormat1
-f1_keywords:
-- dwrite_2/IDWriteTextFormat1
-dev_langs:
-- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextFormat1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextFormat1
+ - dwrite_2/IDWriteTextFormat1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat1
 ---
 
 # IDWriteTextFormat1 interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the font and paragraph properties used to format text, and it describes locale information.
         This interface has all the same methods as <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> and  adds the ability for you to apply an explicit orientation.
-
 
 ## -inheritance
 
@@ -142,16 +141,9 @@ Sets the orientation of a text format.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
- 
-
- 
 

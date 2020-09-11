@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 1f007a76-8499-4128-8525-0498ddeb7300
 ms.date: 12/05/2018
 ms.keywords: 1f007a76-8499-4128-8525-0498ddeb7300, ITextInputPanel interface [Tablet PC],SetInPlaceHoverTargetPosition method, ITextInputPanel.SetInPlaceHoverTargetPosition, ITextInputPanel::SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition method [Tablet PC], SetInPlaceHoverTargetPosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlaceHoverTargetPosition, tablet.itextinputpanel_setinplacehovertargetposition
-f1_keywords:
-- peninputpanel/ITextInputPanel.SetInPlaceHoverTargetPosition
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.SetInPlaceHoverTargetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::SetInPlaceHoverTargetPosition
+ - peninputpanel/ITextInputPanel::SetInPlaceHoverTargetPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.SetInPlaceHoverTargetPosition
 ---
 
 # ITextInputPanel::SetInPlaceHoverTargetPosition
 
 
 ## -description
-
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
@@ -57,27 +57,17 @@ ms.custom: 19H1
 
 Explicitly positions the Tablet PC Input Panel hover target in screen coordinates.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param xPosition
 
 The horizontal x-coordinate for the top left corner of the hover target, with no correction comb visible.
 
-
 ### -param yPosition
 
 The vertical y-coordinate for the top left corner of the hover target, with no correction comb visible.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,14 +99,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 There are no restrictions on where the hover target can be placed. The application is responsible for making sure the hover target stays on screen.
 
@@ -150,14 +134,7 @@ void CCOMTIPDlg::OnEnSetfocusEdit2()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
@@ -168,7 +145,4 @@ void CCOMTIPDlg::OnEnSetfocusEdit2()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility">ITextInputPanel::SetInPlaceVisibility Method</a>
- 
-
- 
 

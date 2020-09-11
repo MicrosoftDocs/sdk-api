@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: BFE58005-31DC-40A5-836C-9E2750DC03BD
 ms.date: 12/05/2018
 ms.keywords: CurrentAnnotationTypeId property [Windows Accessibility], CurrentAnnotationTypeId property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAnnotationTypeId property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeId, IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, get_CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeId
-f1_keywords:
-- uiautomationclient/IUIAutomationAnnotationPattern.CurrentAnnotationTypeId
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationAnnotationPattern.CurrentAnnotationTypeId
-- IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId
+ - uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationAnnotationPattern.CurrentAnnotationTypeId
+ - IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId
 ---
 
 # IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a value that identifies the annotation's type.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationannotationpattern">IUIAutomationAnnotationPattern</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 7D1C4ABD-38FA-48C4-80ED-C0AA312D45FE
 ms.date: 12/05/2018
 ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IUIAutomationObjectModelPattern interface, IUIAutomationObjectModelPattern interface [Windows Accessibility],GetUnderlyingObjectModel method, IUIAutomationObjectModelPattern.GetUnderlyingObjectModel, IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, winauto.uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel
-f1_keywords:
-- uiautomationclient/IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationObjectModelPattern::GetUnderlyingObjectModel
+ - uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
 ---
 
 # IUIAutomationObjectModelPattern::GetUnderlyingObjectModel
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an interface used to access the underlying object model of the provider.
 
-
 ## -parameters
-
-
-
 
 ### -param retVal [out, retval]
 
@@ -64,34 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 Receives an interface for accessing the underlying object model.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Client applications can use the object model to directly access the content of the control or application.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationobjectmodelpattern">IUIAutomationObjectModelPattern</a>
- 
-
- 
 

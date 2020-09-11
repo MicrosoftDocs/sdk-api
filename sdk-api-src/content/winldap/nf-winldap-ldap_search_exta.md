@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 25ba88f3-44f6-42b8-9d33-6e57f2484738
 ms.date: 12/05/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_ext, ldap.ldap__search__ext, ldap.ldap_search_ext, ldap_search_ext, ldap_search_ext function [LDAP], ldap_search_extA, ldap_search_extW, winldap/ldap_search_ext, winldap/ldap_search_extA, winldap/ldap_search_extW
-f1_keywords:
-- winldap/ldap_search_ext
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_search_ext
-- ldap_search_extA
-- ldap_search_extW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_search_extA
+ - winldap/ldap_search_extA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_search_ext
+ - ldap_search_extA
+ - ldap_search_extW
 ---
 
 # ldap_search_extA function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_search_ext</b> function searches the LDAP directory and returns a requested set of attributes for each matched entry.
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 The session handle.
 
-
 ### -param base [in]
 
 A pointer to a null-terminated string that contains the distinguished name of the entry at which to start the search.
-
 
 ### -param scope [in]
 
@@ -92,42 +86,34 @@ Search all entries in the first level below the base entry, excluding the base e
 
 Search the base entry and all entries in the tree below the base.
 
-
 ### -param filter [in]
 
 A pointer to a null-terminated string that specifies the search filter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/search-filter-syntax">Search Filter Syntax</a>.
 
-
 ### -param attrs [in]
 
 A null-terminated array of null-terminated strings that indicate which attributes to return for each matching entry. To retrieve all available attributes, pass <b>NULL</b>.
-
 
 ### -param attrsonly [in]
 
 A Boolean value that should be zero if both attribute types and values are to be returned, nonzero if only types are to be returned.
 
-
 ### -param ServerControls [in]
 
 A list of LDAP server controls.
-
 
 ### -param ClientControls [in]
 
 A list of client controls.
 
-
 ### -param TimeLimit [in]
 
 Specifies both the local search time-out value in seconds and the operation time limit sent to the server within the search request.
 
-
 ### -param SizeLimit [in]
 
 A limit on the number of entries to return from the search. A value of zero indicates no limit.
-
 
 ### -param MessageNumber [out]
 
@@ -148,22 +134,14 @@ Search all entries in the first level below the base entry, excluding the base e
 
 Search the base entry and all entries in the tree below the base.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ldap_search_ext</b> function initiates an asynchronous search operation. The parameters and effects of <b>ldap_search_ext</b> include those of 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>. The extended function includes additional parameters to support client and server controls and thread safety, and to specify size and time limits for each search operation.
@@ -185,13 +163,7 @@ The client sends the server a search request with the simple paged results contr
 
 Multithreading: Calls to <b>ldap_search_ext</b> are thread-safe.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/change-notifications-in-active-directory-domain-services">Change Notifications in Active Directory</a>
 
@@ -222,7 +194,4 @@ Multithreading: Calls to <b>ldap_search_ext</b> are thread-safe.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
- 
-
- 
 

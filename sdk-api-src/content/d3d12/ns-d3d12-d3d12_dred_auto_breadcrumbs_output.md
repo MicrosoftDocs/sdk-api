@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT","D3D12_DRED_AUTO_BREA
 tech.root: direct3d12
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT structure, d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, direct3d12.d3d12_dred_auto_breadcrumbs_output
-f1_keywords:
-- d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +23,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 targetos: Windows
 req.typenames: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
+ - d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 ---
 
 # D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT structure
+
 
 ## -description
 
@@ -58,3 +60,4 @@ A pointer to a constant [D3D12_AUTO_BREADCRUMB_NODE](ns-d3d12-d3d12_auto_breadcr
 
 * [Core structures](/windows/desktop/direct3d12/direct3d-12-structures)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

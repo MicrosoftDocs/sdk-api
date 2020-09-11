@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 602F46EF-014C-4219-9C1F-C1B4371EA456
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IAppVisibility interface, IAppVisibility interface [Windows Shell],Advise method, IAppVisibility.Advise, IAppVisibility::Advise, shell.IAppVisibility_Advise, shobjidl_core/IAppVisibility::Advise
-f1_keywords:
-- shobjidl_core/IAppVisibility.Advise
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IAppVisibility.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppVisibility::Advise
+ - shobjidl_core/IAppVisibility::Advise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IAppVisibility.Advise
 ---
 
 # IAppVisibility::Advise
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers an advise sink object to receive notification of changes to the display.
 
-
 ## -parameters
-
-
-
 
 ### -param pCallback [in]
 
 The client's advise sink that receives outgoing calls from the connection point.
 
-
 ### -param pdwCookie [out]
 
 A token that uniquely identifies this connection. Use this token to delete the connection by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-unadvise">Unadvise</a> method.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -91,22 +83,12 @@ This method can return one of these values.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>
- 
-
- 
 

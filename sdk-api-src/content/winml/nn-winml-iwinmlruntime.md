@@ -8,10 +8,6 @@ tech.root: MachineLearning
 ms.assetid: C2FD74A1-EE38-46B1-98A8-43557485F92E
 ms.date: 12/05/2018
 ms.keywords: IWinMLRuntime, IWinMLRuntime interface, IWinMLRuntime interface,described, MachineLearning.iwinmlruntime, winml/IWinMLRuntime
-f1_keywords:
-- winml/IWinMLRuntime
-dev_langs:
-- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winml.dll
-api_name:
-- IWinMLRuntime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWinMLRuntime
+ - winml/IWinMLRuntime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winml.dll
+api_name:
+ - IWinMLRuntime
 ---
 
 # IWinMLRuntime interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Represents the runtime to load and evaluate a WinML model.
-
 
 ## -inheritance
 
@@ -99,5 +98,5 @@ Loads a WinML model.
 
 </td>
 </tr>
-</table> 
+</table>
 

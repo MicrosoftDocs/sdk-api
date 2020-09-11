@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5b06552a-7b8d-4044-9c2c-994f67e9c36d
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RequestStoreTypeWStr property, IEnroll.RequestStoreTypeWStr, IEnroll.get_RequestStoreTypeWStr, IEnroll4 interface [Security],RequestStoreTypeWStr property, IEnroll4.RequestStoreTypeWStr, IEnroll4::get_RequestStoreTypeWStr, IEnroll4::put_RequestStoreTypeWStr, IEnroll::RequestStoreTypeWStr, IEnroll::get_RequestStoreTypeWStr, IEnroll::put_RequestStoreTypeWStr, RequestStoreTypeWStr property [Security], RequestStoreTypeWStr property [Security],IEnroll interface, RequestStoreTypeWStr property [Security],IEnroll4 interface, get_RequestStoreTypeWStr, put_RequestStoreTypeWStr, security.ienroll4_requeststoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll4::RequestStoreTypeWStr, xenroll/IEnroll4::get_RequestStoreTypeWStr, xenroll/IEnroll4::put_RequestStoreTypeWStr, xenroll/IEnroll::RequestStoreTypeWStr, xenroll/IEnroll::get_RequestStoreTypeWStr, xenroll/IEnroll::put_RequestStoreTypeWStr
-f1_keywords:
-- xenroll/IEnroll.RequestStoreTypeWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.RequestStoreTypeWStr
-- IEnroll.get_RequestStoreTypeWStr
-- IEnroll.put_RequestStoreTypeWStr
-- IEnroll4.RequestStoreTypeWStr
-- IEnroll4.get_RequestStoreTypeWStr
-- IEnroll4.put_RequestStoreTypeWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_RequestStoreTypeWStr
+ - xenroll/IEnroll::get_RequestStoreTypeWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.RequestStoreTypeWStr
+ - IEnroll.get_RequestStoreTypeWStr
+ - IEnroll.put_RequestStoreTypeWStr
+ - IEnroll4.RequestStoreTypeWStr
+ - IEnroll4.get_RequestStoreTypeWStr
+ - IEnroll4.put_RequestStoreTypeWStr
 ---
 
 # IEnroll::get_RequestStoreTypeWStr
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -70,13 +70,9 @@ Only system stores are supported. This property was first defined in the <a href
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Typically, modification of the <b>RequestStoreTypeWStr</b> property is  performed only in advanced applications.
 
@@ -98,21 +94,11 @@ Typically, modification of the <b>RequestStoreTypeWStr</b> property is  performe
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
- 
-
- 
 

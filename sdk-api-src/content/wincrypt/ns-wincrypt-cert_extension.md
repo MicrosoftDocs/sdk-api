@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 787a4df0-c0e3-46b9-a7e6-eb3bee3ed717
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_EXTENSION, CERT_EXTENSION, CERT_EXTENSION structure [Security], PCERT_EXTENSION, PCERT_EXTENSION structure pointer [Security], _crypto2_cert_extension, security.cert_extension, wincrypt/CERT_EXTENSION, wincrypt/PCERT_EXTENSION'
-f1_keywords:
-- wincrypt/CERT_EXTENSION
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_EXTENSION
 targetos: Windows
 req.typenames: CERT_EXTENSION, *PCERT_EXTENSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_EXTENSION
+ - wincrypt/_CERT_EXTENSION
+ - PCERT_EXTENSION
+ - wincrypt/PCERT_EXTENSION
+ - CERT_EXTENSION
+ - wincrypt/CERT_EXTENSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_EXTENSION
 ---
 
 # CERT_EXTENSION structure
@@ -49,36 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_EXTENSION</b> structure contains the extension information for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Revocation List</a> (CRL) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Trust List</a> (CTL).
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszObjId
 
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">Object identifier</a> (OID) that specifies the structure of the extension data contained in the <b>Value</b> member. For specifics on extension OIDs and their related structures, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-structures">X.509 Certificate Extension Structures</a>.
 
-
 ### -field fCritical
 
 If <b>TRUE</b>, any limitations specified by the extension in the <b>Value</b> member of this structure are imperative. If <b>FALSE</b>, limitations set by this extension can be ignored.
-
 
 ### -field Value
 
 A 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> structure that contains the encoded extension data. The <b>cbData</b> member of <b>Value</b> indicates the length in bytes of the <b>pbData</b> member. The <b>pbData</b> member byte string is the encoded extension.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extensions">CERT_EXTENSIONS</a>
 
@@ -109,7 +103,4 @@ A
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindextension">CertFindExtension</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: C3C1B611-714C-49DB-8034-9C9B7D6772E4
 ms.date: 12/05/2018
 ms.keywords: D3D12_HEAP_FLAGS, D3D12_HEAP_FLAGS enumeration, D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES, D3D12_HEAP_FLAG_ALLOW_DISPLAY, D3D12_HEAP_FLAG_ALLOW_ONLY_BUFFERS, D3D12_HEAP_FLAG_ALLOW_ONLY_NON_RT_DS_TEXTURES, D3D12_HEAP_FLAG_ALLOW_ONLY_RT_DS_TEXTURES, D3D12_HEAP_FLAG_ALLOW_WRITE_WATCH, D3D12_HEAP_FLAG_DENY_BUFFERS, D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES, D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES, D3D12_HEAP_FLAG_HARDWARE_PROTECTED, D3D12_HEAP_FLAG_NONE, D3D12_HEAP_FLAG_SHARED, D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER, d3d12/D3D12_HEAP_FLAGS, d3d12/D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES, d3d12/D3D12_HEAP_FLAG_ALLOW_DISPLAY, d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_BUFFERS, d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_NON_RT_DS_TEXTURES, d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_RT_DS_TEXTURES, d3d12/D3D12_HEAP_FLAG_ALLOW_WRITE_WATCH, d3d12/D3D12_HEAP_FLAG_DENY_BUFFERS, d3d12/D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES, d3d12/D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES, d3d12/D3D12_HEAP_FLAG_HARDWARE_PROTECTED, d3d12/D3D12_HEAP_FLAG_NONE, d3d12/D3D12_HEAP_FLAG_SHARED, d3d12/D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER, direct3d12.d3d12_heap_flags
-f1_keywords:
-- d3d12/D3D12_HEAP_FLAGS
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_HEAP_FLAGS
 targetos: Windows
 req.typenames: D3D12_HEAP_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_HEAP_FLAGS
+ - d3d12/D3D12_HEAP_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_HEAP_FLAGS
 ---
 
 ## -description
@@ -213,3 +214,4 @@ flags.</li>
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
+

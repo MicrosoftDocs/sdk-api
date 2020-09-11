@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: a6717ff9-41f9-4cbc-9493-b9d80a137571
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextAddInbound1, IPsecSaContextAddInbound1 function [Filtering], fwp.ipsecsacontextaddinbound1, fwpmu/IPsecSaContextAddInbound1
-f1_keywords:
-- fwpmu/IPsecSaContextAddInbound1
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- IPsecSaContextAddInbound1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPsecSaContextAddInbound1
+ - fwpmu/IPsecSaContextAddInbound1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - IPsecSaContextAddInbound1
 ---
 
 # IPsecSaContextAddInbound1 function
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPsecSaContextAddInbound1</b> function adds an inbound IPsec security association (SA) bundle to an existing SA context.
 <div class="alert"><b>Note</b>  <b>IPsecSaContextAddInbound1</b> is the specific implementation of IPsecSaContextAddInbound used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextaddinbound0">IPsecSaContextAddInbound0</a> is available.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +61,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param id [in]
 
 Type: <b>UINT64</b>
 
 Identifier for the existing IPsec SA context. This is the value returned in the <i>id</i> parameter by the call to  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate1">IPsecSaContextCreate1</a>.
-
 
 ### -param inboundBundle [in]
 
@@ -78,10 +73,7 @@ Type: [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectyp
 
 The inbound IPsec SA bundle to be added to the SA context.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -127,22 +119,12 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate1">IPsecSaContextCreate1</a>
- 
-
- 
 

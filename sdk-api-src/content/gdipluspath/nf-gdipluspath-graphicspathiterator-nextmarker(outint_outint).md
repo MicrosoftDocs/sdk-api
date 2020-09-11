@@ -7,10 +7,6 @@ helpviewer_keywords: ["GraphicsPathIterator::NextMarker"]
 ms.assetid: 42272823-7990-4c6e-bb47-4065f568d4bd
 ms.date: 05/13/2019
 ms.keywords: GraphicsPathIterator::NextMarker
-f1_keywords:
-- gdipluspath/GraphicsPathIterator::NextMarker
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - GraphicsPathIterator::NextMarker
+ - gdipluspath/GraphicsPathIterator::NextMarker
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- GraphicsPathIterator::NextMarker
+ - GraphicsPathIterator::NextMarker
 ---
 
 # GraphicsPathIterator::NextMarker
+
 
 ## -description
 
@@ -149,3 +151,4 @@ VOID NextMarkerExample2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextmarker(outconstgraphicspath)">GraphicsPathIterator::NextMarker Methods</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

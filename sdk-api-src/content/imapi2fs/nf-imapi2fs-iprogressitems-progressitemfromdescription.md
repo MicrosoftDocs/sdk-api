@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: c27e9f30-e3f1-4436-b33a-fa3130baf374
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromDescription method, IProgressItems.ProgressItemFromDescription, IProgressItems::ProgressItemFromDescription, ProgressItemFromDescription, ProgressItemFromDescription method [IMAPI], ProgressItemFromDescription method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromdescription, imapi2fs/IProgressItems::ProgressItemFromDescription
-f1_keywords:
-- imapi2fs/IProgressItems.ProgressItemFromDescription
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IProgressItems.ProgressItemFromDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressItems::ProgressItemFromDescription
+ - imapi2fs/IProgressItems::ProgressItemFromDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IProgressItems.ProgressItemFromDescription
 ---
 
 # IProgressItems::ProgressItemFromDescription
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a progress item based on the specified file name.
 
-
 ## -parameters
-
-
-
 
 ### -param description [in]
 
 String that contains the file name of the progress item to retrieve. The method returns the progress item if this string matches the value for item's description property.
 
-
 ### -param item [out]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interface of the progress item associated with the specified file name.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -132,15 +124,8 @@ Value: 0x80070057
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
 
@@ -155,7 +140,4 @@ Value: 0x80070057
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_item">IProgressItems::get_Item</a>
- 
-
- 
 

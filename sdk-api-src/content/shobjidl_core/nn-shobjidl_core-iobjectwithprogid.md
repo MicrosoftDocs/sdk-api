@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3b66ba49-ed39-464e-b15a-c72fdff7f5e5
 ms.date: 12/05/2018
 ms.keywords: IObjectWithProgID, IObjectWithProgID interface [Windows Shell], IObjectWithProgID interface [Windows Shell],described, _shell_IObjectWithProgID, shell.IObjectWithProgID, shobjidl_core/IObjectWithProgID
-f1_keywords:
-- shobjidl_core/IObjectWithProgID
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IObjectWithProgID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectWithProgID
+ - shobjidl_core/IObjectWithProgID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IObjectWithProgID
 ---
 
 # IObjectWithProgID interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide access to the ProgID associated with an object.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Sets the ProgID of an object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/fa-progids">Programmatic Identifiers</a>
- 
-
- 
 

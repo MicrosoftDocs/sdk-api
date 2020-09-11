@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 3c66052b-2b82-44aa-868d-5d5a4501c457
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], IWMPContentPartnerCallback interface [Windows Media Player],described, IWMPContentPartnerCallbackInterface, contentpartner/IWMPContentPartnerCallback, wmp.iwmpcontentpartnercallback
-f1_keywords:
-- contentpartner/IWMPContentPartnerCallback
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartnerCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartnerCallback
+ - contentpartner/IWMPContentPartnerCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartnerCallback
 ---
 
 # IWMPContentPartnerCallback interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>IWMPContentPartnerCallback</b> interface provides methods, implemented by Windows Media Player, that a content partner plug-in calls to integrate its catalog and services with the Windows Media Player user interface.
-
-
-
 
 ## -inheritance
 
@@ -190,16 +186,9 @@ Notifies Windows Media Player that the online store has finished processing a ca
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-1-online-stores">Reference for Type 1 Online Stores</a>
- 
-
- 
 

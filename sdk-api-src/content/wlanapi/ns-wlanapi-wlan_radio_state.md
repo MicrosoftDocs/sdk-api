@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 61551b46-785e-4353-910c-8ce23172b176
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_RADIO_STATE, PWLAN_RADIO_STATE, PWLAN_RADIO_STATE structure pointer [NativeWIFI], WLAN_RADIO_STATE, WLAN_RADIO_STATE structure [NativeWIFI], nwifi.wlan_radio_state, wlanapi/PWLAN_RADIO_STATE, wlanapi/WLAN_RADIO_STATE'
-f1_keywords:
-- wlanapi/WLAN_RADIO_STATE
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_RADIO_STATE
 targetos: Windows
 req.typenames: WLAN_RADIO_STATE, *PWLAN_RADIO_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_RADIO_STATE
+ - wlanapi/_WLAN_RADIO_STATE
+ - PWLAN_RADIO_STATE
+ - wlanapi/PWLAN_RADIO_STATE
+ - WLAN_RADIO_STATE
+ - wlanapi/WLAN_RADIO_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_RADIO_STATE
 ---
 
 # WLAN_RADIO_STATE structure
@@ -49,28 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_RADIO_STATE</b> structurespecifies the radio state on a list of physical layer (PHY) types.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumberOfPhys
 
 The number of valid PHY indices in the <b>PhyRadioState</b> member.
 
-
 ### -field PhyRadioState
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a> structures that specify the radio states of a number of PHY indices. Only the first <b>dwNumberOfPhys</b> entries in this array are valid.
 
-
 ## -remarks
-
-
 
 The <b>WLAN_RADIO_STATE</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function when the <i>OpCode</i> parameter is set to <b>wlan_intf_opcode_radio_state</b>. If the call is successful, the <i>ppData</i> parameter points to a <b>WLAN_RADIO_STATE</b> structure. 
 
@@ -264,14 +260,7 @@ return dwRetVal;
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
 
@@ -290,7 +279,4 @@ return dwRetVal;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a>
- 
-
- 
 

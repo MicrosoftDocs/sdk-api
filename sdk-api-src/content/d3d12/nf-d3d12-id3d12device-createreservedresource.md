@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 37E74129-1B5C-4997-A584-D7E9F92342EA
 ms.date: 12/05/2018
 ms.keywords: CreateReservedResource, CreateReservedResource method, CreateReservedResource method,ID3D12Device interface, ID3D12Device interface,CreateReservedResource method, ID3D12Device.CreateReservedResource, ID3D12Device::CreateReservedResource, d3d12/ID3D12Device::CreateReservedResource, direct3d12.id3d12device_createreservedresource
-f1_keywords:
-- d3d12/ID3D12Device.CreateReservedResource
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Device.CreateReservedResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device::CreateReservedResource
+ - d3d12/ID3D12Device::CreateReservedResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Device.CreateReservedResource
 ---
 
 ## -description
@@ -115,3 +116,4 @@ These resource types can only be created when the adapter supports tiled resourc
 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+

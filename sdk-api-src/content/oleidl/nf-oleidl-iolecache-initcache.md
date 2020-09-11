@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4b1f2fb6-636c-47dd-8f89-884f7b4f3977
 ms.date: 12/05/2018
 ms.keywords: IOleCache interface [COM],InitCache method, IOleCache.InitCache, IOleCache::InitCache, InitCache, InitCache method [COM], InitCache method [COM],IOleCache interface, _ole_iolecache_initcache, com.iolecache_initcache, oleidl/IOleCache::InitCache
-f1_keywords:
-- oleidl/IOleCache.InitCache
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleCache.InitCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleCache::InitCache
+ - oleidl/IOleCache::InitCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleCache.InitCache
 ---
 
 # IOleCache::InitCache
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Fills the cache as needed using the data provided by the specified data object.
 
-
 ## -parameters
-
-
-
 
 ### -param pDataObject [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object from which the cache is to be initialized.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -130,32 +123,16 @@ Only some of the existing caches were updated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>InitCache</b> is usually used when creating an object from a drag-and-drop operation or from a clipboard paste operation. It fills the cache as needed with presentation data from all the data formats provided by the data object provided on the clipboard or in the drag-and-drop operation. Helper functions like <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatelinkfromdata">OleCreateLinkFromData</a> call this method when needed. If a container does not use these helper functions to create compound document objects, it can use <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a> to set up the cache entries which are then filled by <b>InitCache</b>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>
- 
-
- 
 

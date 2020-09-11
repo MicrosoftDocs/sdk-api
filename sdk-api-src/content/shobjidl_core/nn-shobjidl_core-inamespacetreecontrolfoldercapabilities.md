@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2a5580f6-42cb-46c7-9507-a59d36b2cd91
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlFolderCapabilities, INameSpaceTreeControlFolderCapabilities interface [Windows Shell], INameSpaceTreeControlFolderCapabilities interface [Windows Shell],described, _shell_INameSpaceTreeControlFolderCapabilities, shell.INameSpaceTreeControlFolderCapabilities, shobjidl_core/INameSpaceTreeControlFolderCapabilities
-f1_keywords:
-- shobjidl_core/INameSpaceTreeControlFolderCapabilities
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- INameSpaceTreeControlFolderCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControlFolderCapabilities
+ - shobjidl_core/INameSpaceTreeControlFolderCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - INameSpaceTreeControlFolderCapabilities
 ---
 
 # INameSpaceTreeControlFolderCapabilities interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a single method that retrieves the status of a folder's <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> filtering support.
-
 
 ## -inheritance
 
@@ -77,16 +76,11 @@ Gets a folder's capability to be filtered through the <a href="https://docs.micr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The namespace tree control checks all the nodes it enumerates to see if they support filtering. This is done by retrieving the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> property for the shell folders that support this interface. Nodes that do not support this interface do not have filtering support and are shown by default.
 
 Use this interface to retrieve the filtering support status of a shell folder.
-
-
 

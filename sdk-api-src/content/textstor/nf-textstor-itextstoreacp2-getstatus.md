@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 6b767f85-0a92-467c-b358-3629582f0d43
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetStatus method, ITextStoreACP2.GetStatus, ITextStoreACP2::GetStatus, textstor/ITextStoreACP2::GetStatus, tsf.itextstoreacp2_getstatus
-f1_keywords:
-- textstor/ITextStoreACP2.GetStatus
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITextStoreACP2.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP2::GetStatus
+ - textstor/ITextStoreACP2::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITextStoreACP2.GetStatus
 ---
 
 # ITextStoreACP2::GetStatus
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the document status. The document status is returned through the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param pdcs [out]
 
 Receives the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure that contains the document status. Cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,15 +90,8 @@ The pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/texts
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
       </a>
@@ -122,7 +108,4 @@ The pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/texts
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a>
- 
-
- 
 

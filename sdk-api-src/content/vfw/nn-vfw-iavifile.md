@@ -3,16 +3,11 @@ UID: NN:vfw.IAVIFile
 title: IAVIFile (vfw.h)
 description: The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods:\_
 helpviewer_keywords: ["IAVIFile","IAVIFile interface [Windows Multimedia]","IAVIFile interface [Windows Multimedia]","described","_win32_IAVIFile","multimedia.iavifile","vfw/IAVIFile"]
-The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods: 
 old-location: multimedia\iavifile.htm
 tech.root: Multimedia
 ms.assetid: 401db941-cbf6-452b-84e2-605fafac8a6d
 ms.date: 12/05/2018
 ms.keywords: IAVIFile, IAVIFile interface [Windows Multimedia], IAVIFile interface [Windows Multimedia],described, _win32_IAVIFile, multimedia.iavifile, vfw/IAVIFile
-f1_keywords:
-- vfw/IAVIFile
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,20 +25,25 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vfw32.lib
-- Vfw32.dll
-api_name:
-- IAVIFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAVIFile
+ - vfw/IAVIFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vfw32.lib
+ - Vfw32.dll
+api_name:
+ - IAVIFile
 ---
 
 # IAVIFile interface
@@ -51,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAVIFile</b> interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses <a href="https://docs.microsoft.com/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="https://docs.microsoft.com/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, and <a href="https://docs.microsoft.com/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
-
-
-
 
 ## -inheritance
 
@@ -127,20 +122,13 @@ Writes file headers data, format data, or nonaudio and nonvideo data.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
- 
-
- 
 

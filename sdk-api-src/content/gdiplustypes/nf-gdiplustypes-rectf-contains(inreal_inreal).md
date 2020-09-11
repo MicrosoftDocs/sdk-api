@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods.htm
 ms.date: 12/05/2018
 ms.keywords: Contains, Contains methods [GDI+], RectF.Contains, RectF::Contains, _gdiplus_CLASS_RectF_Contains_Methods, gdiplus._gdiplus_CLASS_RectF_Contains_Methods, gdiplustypes/Contains
-f1_keywords:
-- gdiplustypes/RectF.Contains
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplustypes.h
-api_name:
-- RectF.Contains
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RectF::Contains
+ - gdiplustypes/RectF::Contains
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplustypes.h
+api_name:
+ - RectF.Contains
 ---
 
 # RectF::Contains
 
 
 ## -description
-
 
 <span>This topic lists the 
 			Contains methods of the 

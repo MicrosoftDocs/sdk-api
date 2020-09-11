@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: c3c2ff78-db1a-44df-a7af-15c4a6c4b22d
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],NonMembers property, IFsrmFileGroup.NonMembers, IFsrmFileGroup.put_NonMembers, IFsrmFileGroup::NonMembers, IFsrmFileGroup::get_NonMembers, IFsrmFileGroup::put_NonMembers, NonMembers property [File Server Resource Manager], NonMembers property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_nonmembers, fsrm.ifsrmfilegroup_nonmembers, fsrmscreen/IFsrmFileGroup::NonMembers, fsrmscreen/IFsrmFileGroup::get_NonMembers, fsrmscreen/IFsrmFileGroup::put_NonMembers, put_NonMembers
-f1_keywords:
-- fsrmscreen/IFsrmFileGroup.NonMembers
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileGroup.NonMembers
-- IFsrmFileGroup.get_NonMembers
-- IFsrmFileGroup.put_NonMembers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileGroup::put_NonMembers
+ - fsrmscreen/IFsrmFileGroup::put_NonMembers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileGroup.NonMembers
+ - IFsrmFileGroup.get_NonMembers
+ - IFsrmFileGroup.put_NonMembers
 ---
 
 # IFsrmFileGroup::put_NonMembers
 
 
 ## -description
-
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -61,13 +61,9 @@ Retrieves or sets the filename patterns that determine the files that are exclud
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 A filename pattern is a string expression that defines a set of filenames. The expression may contain the 
     following wildcard characters: "*" and "?". The "*" wildcard 
@@ -91,15 +87,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilegroup">IFsrmFileGroup</a>
- 
-
- 
 

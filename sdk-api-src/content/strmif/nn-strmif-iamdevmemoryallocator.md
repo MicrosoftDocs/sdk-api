@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: bab1e582-928a-408b-a9c5-8e9827e9928b
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], IAMDevMemoryAllocator interface [DirectShow],described, IAMDevMemoryAllocatorInterface, dshow.iamdevmemoryallocator, strmif/IAMDevMemoryAllocator
-f1_keywords:
-- strmif/IAMDevMemoryAllocator
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmif.h
-api_name:
-- IAMDevMemoryAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDevMemoryAllocator
+ - strmif/IAMDevMemoryAllocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmif.h
+api_name:
+ - IAMDevMemoryAllocator
 ---
 
 # IAMDevMemoryAllocator interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  This interface is no longer supported by the AVI Splitter.</div>
 <div> </div>
@@ -58,9 +57,6 @@ ms.custom: 19H1
 Implement this interface when your pin must support the creation of on-board memory allocators. Source filters that are aware of on-board memory and need to create their own allocators should query for this interface, request an amount of memory and then create an allocator (aggregating the device memory control object). Source filters that don't need to create their own allocator could just use the allocator of the downstream pin (which also aggregates the device memory control object). The hardware-based filter can confirm the usage of its on-board memory by calling methods on the aggregated allocator.
 
 Use this interface when applications need to control the memory of codecs with on-board memory.
-
-
-
 
 ## -inheritance
 
@@ -122,16 +118,9 @@ Retrieves information about the memory capabilities.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
- 
-
- 
 

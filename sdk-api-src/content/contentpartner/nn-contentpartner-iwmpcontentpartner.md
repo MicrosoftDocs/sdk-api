@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 2078ebd4-3570-4c39-9081-1b55d9e8286f
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], IWMPContentPartner interface [Windows Media Player],described, IWMPContentPartnerInterface, contentpartner/IWMPContentPartner, wmp.iwmpcontentpartner
-f1_keywords:
-- contentpartner/IWMPContentPartner
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner
+ - contentpartner/IWMPContentPartner
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner
 ---
 
 # IWMPContentPartner interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>IWMPContentPartner</b> interface provides methods that Windows Media Player calls to integrate its user interface with an online store's catalog and services. This interface is implemented by a content partner plug-in, which is provided by the online store.
-
-
-
 
 ## -inheritance
 
@@ -280,16 +276,9 @@ Initiates the process of verifying permission for Windows Media Player to perfor
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-1-online-stores">Reference for Type 1 Online Stores</a>
- 
-
- 
 

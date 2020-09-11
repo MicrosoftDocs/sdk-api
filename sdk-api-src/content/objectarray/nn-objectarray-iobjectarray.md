@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ab0bb213-dc9c-4853-98d7-668e7ca76583
 ms.date: 12/05/2018
 ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray interface [Windows Shell],described, _shell_IObjectArray, objectarray/IObjectArray, shell.IObjectArray
-f1_keywords:
-- objectarray/IObjectArray
-dev_langs:
-- c++
 req.header: objectarray.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IObjectArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectArray
+ - objectarray/IObjectArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IObjectArray
 ---
 
 # IObjectArray interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that enable clients to access items in a collection of objects that support <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>.
-
 
 ## -inheritance
 
@@ -86,18 +85,13 @@ Provides a count of the objects in the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Clients do not need to implement this interface.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Use this interface to access generic objects in an array.
-
-
 

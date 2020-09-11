@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verfindfile.htm
 ms.date: 12/05/2018
 ms.keywords: VFFF_ISSHAREDFILE, VerFindFile, VerFindFile function [Menus and Other Resources], VerFindFileA, VerFindFileW, _win32_VerFindFile, _win32_verfindfile_cpp, menurc.verfindfile, winui._win32_verfindfile, winver/VerFindFile, winver/VerFindFileA, winver/VerFindFileW
-f1_keywords:
-- winver/VerFindFile
-dev_langs:
-- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-core-version-l1-1-0.dll
-- API-MS-Win-Core-version-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-versionansi-l1-1-0.dll
-- API-MS-Win-DownLevel-version-l1-1-0.dll
-- API-MS-Win-Core-Versionansi-L1-1-1.dll
-- API-MS-Win-Core-Version-L1-1-1.dll
-api_name:
-- VerFindFile
-- VerFindFileA
-- VerFindFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VerFindFileA
+ - winver/VerFindFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-core-version-l1-1-0.dll
+ - API-MS-Win-Core-version-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-versionansi-l1-1-0.dll
+ - API-MS-Win-DownLevel-version-l1-1-0.dll
+ - API-MS-Win-Core-Versionansi-L1-1-1.dll
+ - API-MS-Win-Core-Version-L1-1-1.dll
+api_name:
+ - VerFindFile
+ - VerFindFileA
+ - VerFindFileW
 ---
 
 # VerFindFileA function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verinstallfilea">VerInstallFile</a> function. 
-
+Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verinstallfilea">VerInstallFile</a> function.
 
 ## -parameters
-
-
-
 
 ### -param uFlags [in]
 
@@ -89,36 +85,30 @@ The source file can be shared by multiple applications. An application can use t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szFileName [in]
 
 Type: <b>LPCTSTR</b>
 
-The name of the file to be installed. Include only the file name and extension, not a path. 
-
+The name of the file to be installed. Include only the file name and extension, not a path.
 
 ### -param szWinDir [in, optional]
 
 Type: <b>LPCTSTR</b>
 
-The directory in which Windows is running or will be run. This string is returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function. 
-
+The directory in which Windows is running or will be run. This string is returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function.
 
 ### -param szAppDir [in]
 
 Type: <b>LPCTSTR</b>
 
-The directory where the installation program is installing a set of related files. If the installation program is installing an application, this is the directory where the application will reside. This parameter also points to the application's current directory unless otherwise specified. 
-
+The directory where the installation program is installing a set of related files. If the installation program is installing an application, this is the directory where the application will reside. This parameter also points to the application's current directory unless otherwise specified.
 
 ### -param szCurDir [out]
 
 Type: <b>LPWSTR</b>
 
-A buffer that receives the path to a current version of the file being installed. The path is a zero-terminated string. If a current version is not installed, the buffer will contain a zero-length string. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required. 
-
+A buffer that receives the path to a current version of the file being installed. The path is a zero-terminated string. If a current version is not installed, the buffer will contain a zero-length string. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required.
 
 ### -param puCurDirLen [in, out]
 
@@ -132,13 +122,11 @@ When the function returns,
 					<i>szCurDir</i>, including the terminating null character. If the buffer is too small to contain all the data, 
 					<i>lpuCurDirLen</i> will be the size of the buffer required to hold the path.
 
-
 ### -param szDestDir [out]
 
 Type: <b>LPTSTR</b>
 
-A buffer that receives the path to the installation location recommended by <b>VerFindFile</b>. The path is a zero-terminated string. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required. 
-
+A buffer that receives the path to the installation location recommended by <b>VerFindFile</b>. The path is a zero-terminated string. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required.
 
 ### -param puDestDirLen [in, out]
 
@@ -152,10 +140,7 @@ When the function returns,
 					<i>szDestDir</i>, including the terminating null character. If the buffer is too small to contain all the data, 
 					<i>lpuDestDirLen</i> will be the size of the buffer needed to hold the path.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -203,14 +188,8 @@ At least one of the buffers was too small to contain the corresponding string. A
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function works on 16-, 32-, and 64-bit file images.
 
@@ -227,9 +206,6 @@ If the
 > The winver.h header defines VerFindFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -256,7 +232,4 @@ If the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
- 
-
- 
 

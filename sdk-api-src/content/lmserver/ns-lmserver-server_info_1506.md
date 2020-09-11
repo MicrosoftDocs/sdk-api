@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 3a18838b-2a47-4b78-9356-f20de8a87d2f
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_1506, *PSERVER_INFO_1506, LPSERVER_INFO_1506, LPSERVER_INFO_1506 structure pointer [Network Management], PSERVER_INFO_1506, PSERVER_INFO_1506 structure pointer [Network Management], SERVER_INFO_1506, SERVER_INFO_1506 structure [Network Management], _win32_server_info_1506_str, lmserver/LPSERVER_INFO_1506, lmserver/PSERVER_INFO_1506, lmserver/SERVER_INFO_1506, netmgmt.server_info_1506_str'
-f1_keywords:
-- lmserver/SERVER_INFO_1506
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmserver.h
-api_name:
-- SERVER_INFO_1506
 targetos: Windows
 req.typenames: SERVER_INFO_1506, *PSERVER_INFO_1506, *LPSERVER_INFO_1506
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVER_INFO_1506
+ - lmserver/_SERVER_INFO_1506
+ - PSERVER_INFO_1506
+ - lmserver/PSERVER_INFO_1506
+ - SERVER_INFO_1506
+ - lmserver/SERVER_INFO_1506
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmserver.h
+api_name:
+ - SERVER_INFO_1506
 ---
 
 # SERVER_INFO_1506 structure
@@ -49,25 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>SERVER_INFO_1506</b> structure contains information about the maximum number of work items the specified server can allocate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sv1506_maxworkitems
 
 Specifies the maximum number of receive buffers, or work items, the server can allocate. If this limit is reached, the transport protocol must initiate flow control at a significant cost to performance.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
@@ -82,7 +78,4 @@ Specifies the maximum number of receive buffers, or work items, the server can a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 70662e7e-7a81-4953-9814-e29b46422c5b
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingUnexport, RpcNsBindingUnexport function [RPC], RpcNsBindingUnexportA, RpcNsBindingUnexportW, _rpc_rpcnsbindingunexport, rpc.rpcnsbindingunexport, rpcnsi/RpcNsBindingUnexport, rpcnsi/RpcNsBindingUnexportA, rpcnsi/RpcNsBindingUnexportW
-f1_keywords:
-- rpcnsi/RpcNsBindingUnexport
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingUnexport
-- RpcNsBindingUnexportA
-- RpcNsBindingUnexportW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingUnexportA
+ - rpcnsi/RpcNsBindingUnexportA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingUnexport
+ - RpcNsBindingUnexportA
+ - RpcNsBindingUnexportW
 ---
 
 # RpcNsBindingUnexportA function
@@ -51,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingUnexport</b> function removes the binding handles for an interface and objects from an entry in the name-service database.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -70,25 +67,19 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to the entry name from which to remove binding handles and object UUIDs.
-
 
 ### -param IfSpec
 
 Interface specification for the binding handles to be removed from the name service database. A null parameter value indicates not to unexport any binding handles (only object UUIDs are to be unexported).
 
-
 ### -param ObjectUuidVec
 
 Pointer to a vector of object UUIDs that the server no longer wants to offer. The application constructs this vector. A null value indicates there are no object UUIDs to unexport (only binding handles are to be unexported).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -201,11 +192,7 @@ Not all objects unexported.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsBindingUnexport</b> function allows a server application to remove the binding handles and object UUIDs of resources from a name service database entry. A server application can unexport the specified interface and objects in a single call to 
@@ -248,15 +235,9 @@ Therefore, before you call this function, keep in mind how long you expect the s
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepunregister">RpcEpUnregister</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
- 
-
- 
 

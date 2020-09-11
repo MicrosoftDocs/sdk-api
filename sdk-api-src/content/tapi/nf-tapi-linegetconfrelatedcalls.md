@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 048bc4bc-511a-4666-a2ff-4fff5132ed2e
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetconfrelatedcalls, lineGetConfRelatedCalls, lineGetConfRelatedCalls function [TAPI 2.2], tapi/lineGetConfRelatedCalls, tapi2.linegetconfrelatedcalls
-f1_keywords:
-- tapi/lineGetConfRelatedCalls
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGetConfRelatedCalls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGetConfRelatedCalls
+ - tapi/lineGetConfRelatedCalls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGetConfRelatedCalls
 ---
 
 # lineGetConfRelatedCalls function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGetConfRelatedCalls</b> function returns a list of call handles that are part of the same conference call as the specified call. The specified call is either a conference call or a participant call in a conference call. New handles are generated for those calls for which the application does not already have handles, and the application is granted monitor privilege to those calls.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to a call. This is either a conference call or a participant call in a conference call. For a conference parent call, the call state of <i>hCall</i> can be any state. For a conference participant call, it must be in the <i>conferenced</i> state.
-
 
 ### -param lpCallList
 
@@ -79,18 +74,11 @@ Pointer to a variably sized data structure of type
 
 ## -returns
 
-
-
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOCONFERENCE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_STRUCTURETOOSMALL, LINEERR_NOMEM, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 The specified call can either be a conference call handle or a handle to a participant call. For example, a consultation call that has not yet been added to a conference call is not part of a conference. The first entry in the list that is returned is the conference call handle, the other handles are all the participant calls. The specified call is always one of the calls returned in the list. Calls in the list to which the application does not already have a call handle are assigned monitor privilege; privileges to calls for which the application already has handles are unchanged. The application can use 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a> to change the privilege of the call.
@@ -106,13 +94,7 @@ The application can invoke
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a> for each call in the list to determine the call's information and status, respectively.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
@@ -139,7 +121,4 @@ The application can invoke
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a>
- 
-
- 
 

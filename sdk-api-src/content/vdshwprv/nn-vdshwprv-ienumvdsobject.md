@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 08379071-b3cc-495a-bc8e-ad6cfacd432c
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject interface [VDS],described, base.ienumvdsobject, vds/IEnumVdsObject, vdshwprv/IEnumVdsObject
-f1_keywords:
-- vdshwprv/IEnumVdsObject
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IEnumVdsObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumVdsObject
+ - vdshwprv/IEnumVdsObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IEnumVdsObject
 ---
 
 # IEnumVdsObject interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Enumerates through a 
    set of VDS objects of a given type. Objects can be providers, subsystems, controllers, LUNs, LUN plexes, drives, 
    disk packs, disks, volumes, or volume plexes.
-
 
 ## -inheritance
 
@@ -109,13 +108,9 @@ Skips a specified number of objects in the enumeration.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/helper-objects">Helper Objects</a>
 
@@ -126,7 +121,4 @@ Skips a specified number of objects in the enumeration.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/working-with-enumeration-objects">Working with Enumeration Objects</a>
- 
-
- 
 

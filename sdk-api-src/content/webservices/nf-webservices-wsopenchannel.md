@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: a7226194-0974-4f3c-b92d-78a93e86eea5
 ms.date: 12/05/2018
 ms.keywords: WsOpenChannel, WsOpenChannel function [Web Services for Windows], webservices/WsOpenChannel, wsw.wsopenchannel
-f1_keywords:
-- webservices/WsOpenChannel
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsOpenChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsOpenChannel
+ - webservices/WsOpenChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsOpenChannel
 ---
 
 # WsOpenChannel function
@@ -49,40 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Open a channel to an endpoint.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 The channel to open.
 
-
 ### -param endpointAddress [in]
 
 The address of the endpoint.
-
 
 ### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -412,14 +400,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the open is successful, then the channel must be closed using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a>before it can be freed.
             
@@ -438,7 +420,4 @@ The endpoint address and it's contents are not required after the
 
 Whether any IO actually happens during this call will depend on the
                 type of channel and its settings.
-            
-
-
 

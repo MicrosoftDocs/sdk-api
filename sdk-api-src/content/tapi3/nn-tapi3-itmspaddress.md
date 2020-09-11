@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 246a0bcd-0dbb-4b77-a1cd-e6378eaff889
 ms.date: 12/05/2018
 ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ITMSPAddress interface [TAPI 2.2],described, _tapi3_itmspaddress, msp/ITMSPAddress, tapi3.itmspaddress
-f1_keywords:
-- tapi3/ITMSPAddress
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msp.h
-api_name:
-- ITMSPAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITMSPAddress
+ - tapi3/ITMSPAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msp.h
+api_name:
+ - ITMSPAddress
 ---
 
 # ITMSPAddress interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITMSPAddress</b> interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> on this interface to create the MSP object.
-
 
 ## -inheritance
 
@@ -124,13 +123,9 @@ Called when the call is being disconnected.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
@@ -149,7 +144,4 @@ Called when the call is being disconnected.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

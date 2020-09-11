@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug, ID3D12Debug interface, ID3D12Debug interface,described, d3d12sdklayers/ID3D12Debug, direct3d12.id3d12debug
-f1_keywords:
-- d3d12sdklayers/ID3D12Debug
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12sdklayers.h
-api_name:
-- ID3D12Debug
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Debug
+ - d3d12sdklayers/ID3D12Debug
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12sdklayers.h
+api_name:
+ - ID3D12Debug
 ---
 
 # ID3D12Debug interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An interface used to turn on the debug layer. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug-enabledebuglayer">EnableDebugLayer</a> for more information.
-
-
 
 ## -inheritance
 
@@ -79,31 +77,17 @@ Enables the debug layer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-This interface is obtained by querying it from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-d3d12getdebuginterface">D3D12GetDebugInterface</a>. 
-
- 
-
-
-
+This interface is obtained by querying it from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-d3d12getdebuginterface">D3D12GetDebugInterface</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

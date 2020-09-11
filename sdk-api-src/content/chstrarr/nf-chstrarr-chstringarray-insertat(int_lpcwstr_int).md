@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 1d6355bc-7df2-4aa3-8e47-0239d726ed7d
 ms.date: 12/05/2018
 ms.keywords: CHStringArray.InsertAt, CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
-f1_keywords:
-- chstrarr/CHStringArray::InsertAt
-dev_langs:
-- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHStringArray::InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHStringArray::InsertAt
+ - chstrarr/CHStringArray::InsertAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHStringArray::InsertAt
 ---
 
 # CHStringArray::InsertAt
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -84,14 +84,7 @@ Inserts all the elements of another <a href="https://docs.microsoft.com/windows/
 
 ## -parameters
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
- 
-
- 
 

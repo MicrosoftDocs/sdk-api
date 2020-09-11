@@ -34,6 +34,7 @@ api_location:
 api_name:
  - MFCreateEncryptedMediaExtensionsStoreActivate
 f1_keywords:
+ - MFCreateEncryptedMediaExtensionsStoreActivate
  - mfcontentdecryptionmodule/MFCreateEncryptedMediaExtensionsStoreActivate
 dev_langs:
  - c++
@@ -48,7 +49,6 @@ This function creates an object that implements [IMFActivate](/windows/win32/api
 ### -param pmpHost
 
 An [IMFPMPHostApp](/windows/win32/api/mfidl/nn-mfidl-imfpmphostapp) with the necessary information to create the **IMFActivate** for this app package.
-
 
 ### -param objectStream
 

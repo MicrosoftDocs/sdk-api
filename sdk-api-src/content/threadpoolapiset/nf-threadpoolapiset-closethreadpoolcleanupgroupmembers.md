@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMembers function, base.closethreadpoolcleanupgroupmembers, threadpoolapiset/CloseThreadpoolCleanupGroupMembers, winbase/CloseThreadpoolCleanupGroupMembers
-f1_keywords:
-- threadpoolapiset/CloseThreadpoolCleanupGroupMembers
-dev_langs:
-- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-threadpool-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CloseThreadpoolCleanupGroupMembers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CloseThreadpoolCleanupGroupMembers
+ - threadpoolapiset/CloseThreadpoolCleanupGroupMembers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-threadpool-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CloseThreadpoolCleanupGroupMembers
 ---
 
 # CloseThreadpoolCleanupGroupMembers function
@@ -54,33 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases the members of the specified cleanup group, waits for all callback functions to complete, and optionally cancels any outstanding callback functions.
 
-
 ## -parameters
-
-
-
 
 ### -param ptpcg [in, out]
 
 A pointer to a <b>TP_CLEANUP_GROUP</b> structure that defines the cleanup group. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup">CreateThreadpoolCleanupGroup</a> function returns this pointer.
 
-
 ### -param fCancelPendingCallbacks [in]
 
 If this parameter is TRUE, the function cancels outstanding callbacks that have not yet started. If this parameter is FALSE, the function waits for outstanding callback functions to complete.
-
 
 ### -param pvCleanupContext [in, out, optional]
 
 The application-defined data to pass to the application's cleanup group callback function. You can specify the callback function when you call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadpoolcallbackcleanupgroup">SetThreadpoolCallbackCleanupGroup</a>.
 
-
 ## -remarks
-
-
 
 The <b>CloseThreadpoolCleanupGroupMembers</b> function simplifies cleanup of thread pool callback objects by releasing, in a single operation, all work objects, wait objects, and timer objects that are members of the cleanup group. An object becomes a member of a cleanup group when the object is created with the threadpool callback environment that was specified when the cleanup group was created. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup">CreateThreadpoolCleanupGroup</a>.
 
@@ -106,12 +97,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroup">CloseThreadpoolCleanupGroup</a>
 
@@ -126,7 +112,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
- 
-
- 
 

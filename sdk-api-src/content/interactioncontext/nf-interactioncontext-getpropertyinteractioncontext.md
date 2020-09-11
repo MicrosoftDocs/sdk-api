@@ -8,10 +8,6 @@ tech.root: input_intcontext
 ms.assetid: c54a3632-aa7a-416b-b9ed-5ad552403985
 ms.date: 12/05/2018
 ms.keywords: GetPropertyInteractionContext, GetPropertyInteractionContext function, INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_OFF, INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_ON, INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_HIMETRIC, INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_SCREEN, INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_OFF, INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_ON, input_intcontext.getpropertyinteractioncontext, interactioncontext.getpropertyinteractioncontext, interactioncontext/GetPropertyInteractionContext
-f1_keywords:
-- interactioncontext/GetPropertyInteractionContext
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ninput.dll
-- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
-- IE_Shims.dll
-api_name:
-- GetPropertyInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPropertyInteractionContext
+ - interactioncontext/GetPropertyInteractionContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ninput.dll
+ - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+ - IE_Shims.dll
+api_name:
+ - GetPropertyInteractionContext
 ---
 
 # GetPropertyInteractionContext function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object properties.
-
 
 ## -parameters
 
-
-
-
 ### -param interactionContext [in]
 
-Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object. 
-
+Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ### -param contextProperty [in]
 
 One of the constants identified by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY</a>.
-
 
 ### -param value [out]
 
@@ -168,24 +162,14 @@ Pointer filtering is enabled (only pointers specified through <a href="https://d
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If this function succeeds, it returns S_OK.
  
 Otherwise, it returns an HRESULT error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
@@ -196,7 +180,4 @@ Otherwise, it returns an HRESULT error code.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>
- 
-
- 
 

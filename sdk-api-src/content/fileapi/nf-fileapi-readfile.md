@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 4ad4580d-c002-44a4-a5f6-757e83ed8732
 ms.date: 12/05/2018
 ms.keywords: ReadFile, ReadFile function [Files], _win32_readfile, base.readfile, fileapi/ReadFile, fs.readfile, winbase/ReadFile
-f1_keywords:
-- fileapi/ReadFile
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- ReadFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadFile
+ - fileapi/ReadFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - ReadFile
 ---
 
 # ReadFile function
@@ -56,18 +57,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads data from the specified file or input/output (I/O) device. Reads occur at the position specified 
     by the file pointer if supported by the device.
 
 This function is designed for both synchronous and asynchronous operations. For a similar function designed 
     solely for asynchronous operation, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -84,7 +80,6 @@ For asynchronous read operations, <i>hFile</i> can be any handle that is opened 
        <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or 
        <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> function.
 
-
 ### -param lpBuffer [out]
 
 A pointer to the buffer that receives the data read from a file or device.
@@ -92,11 +87,9 @@ A pointer to the buffer that receives the data read from a file or device.
 This buffer must remain valid for the duration of the read operation. The caller must not use this buffer 
        until the read operation is completed.
 
-
 ### -param nNumberOfBytesToRead [in]
 
 The maximum number of bytes to be read.
-
 
 ### -param lpNumberOfBytesRead [out, optional]
 
@@ -109,7 +102,6 @@ This parameter can be <b>NULL</b> only when the <i>lpOverlapped</i>
        parameter is not <b>NULL</b>.
 
 For more information, see the Remarks section.
-
 
 ### -param lpOverlapped [in, out, optional]
 
@@ -133,10 +125,7 @@ For more information about different combinations of <i>lpOverlapped</i> and
        <b>FILE_FLAG_OVERLAPPED</b>, see the Remarks section and the 
        <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -148,13 +137,7 @@ If the function fails, or is completing asynchronously, the return value is zero
         completion asynchronously. For more information, see Remarks.</div>
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The <b>ReadFile</b> function returns when one of the following 
      conditions occur:
@@ -410,12 +393,7 @@ For a code example that shows you how to test for end-of-file, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
@@ -470,7 +448,4 @@ For a code example that shows you how to test for end-of-file, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

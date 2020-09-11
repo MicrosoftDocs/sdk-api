@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d0bff3d8-63f1-4a4e-851f-177040af6bd2
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgInfoW, PSecPkgInfo, PSecPkgInfo structure pointer [Security], SECPKG_CALLFLAGS_APPCONTAINER, SECPKG_CALLFLAGS_AUTHCAPABLE, SECPKG_CALLFLAGS_FORCE_SUPPLIED, SECPKG_FLAG_ACCEPT_WIN32_NAME, SECPKG_FLAG_APPCONTAINER_CHECKS, SECPKG_FLAG_APPCONTAINER_PASSTHROUGH, SECPKG_FLAG_ASCII_BUFFERS, SECPKG_FLAG_CLIENT_ONLY, SECPKG_FLAG_CONNECTION, SECPKG_FLAG_DATAGRAM, SECPKG_FLAG_DELEGATION, SECPKG_FLAG_EXTENDED_ERROR, SECPKG_FLAG_FRAGMENT, SECPKG_FLAG_GSS_COMPATIBLE, SECPKG_FLAG_IMPERSONATION, SECPKG_FLAG_INTEGRITY, SECPKG_FLAG_LOGON, SECPKG_FLAG_MULTI_REQUIRED, SECPKG_FLAG_MUTUAL_AUTH, SECPKG_FLAG_NEGOTIABLE, SECPKG_FLAG_NEGOTIABLE2, SECPKG_FLAG_NEGO_EXTENDER, SECPKG_FLAG_PRIVACY, SECPKG_FLAG_READONLY_WITH_CHECKSUM, SECPKG_FLAG_RESTRICTED_TOKENS, SECPKG_FLAG_STREAM, SECPKG_FLAG_TOKEN_ONLY, SecPkgInfo, SecPkgInfo structure [Security], SecPkgInfoA, SecPkgInfoW, _ssp_secpkginfo, security.secpkginfo, sspi/PSecPkgInfo, sspi/SecPkgInfo, sspi/SecPkgInfoA, sspi/SecPkgInfoW'
-f1_keywords:
-- sspi/SecPkgInfo
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SecPkgInfo
-- SecPkgInfoA
-- SecPkgInfoW
 targetos: Windows
 req.typenames: SecPkgInfoW, *PSecPkgInfoW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgInfoW
+ - sspi/_SecPkgInfoW
+ - PSecPkgInfoW
+ - sspi/PSecPkgInfoW
+ - SecPkgInfoW
+ - sspi/SecPkgInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SecPkgInfo
+ - SecPkgInfoA
+ - SecPkgInfoW
 ---
 
 # SecPkgInfoW structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SecPkgInfo</b> structure provides general information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>, such as its name and capabilities.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fCapabilities
 
@@ -382,59 +382,38 @@ The caller can only use supplied credentials.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wVersion
 
 Specifies the version of the package protocol. Must be 1.
 
-
 ### -field wRPCID
 
 Specifies a DCE RPC identifier, if appropriate. If the package does not implement one of the DCE registered security systems, the reserved value SECPKG_ID_NONE is used.
-
 
 ### -field cbMaxToken
 
 Specifies the maximum size, in bytes, of the token.
 
-
 ### -field Name
 
 Pointer to a null-terminated string that contains the name of the security package.
 
-
 ### -field Name.string
-
- 
-
 
 ### -field Comment
 
 Pointer to a null-terminated string. This can be any additional string passed back by the package.
 
-
 ### -field Comment.string
 
- 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: fef3eb72-74ba-49cd-b992-292405d29917
 ms.date: 12/05/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutInstanceAsync method, IWbemServices.PutInstanceAsync, IWbemServices::PutInstanceAsync, PutInstanceAsync, PutInstanceAsync method [Windows Management Instrumentation], PutInstanceAsync method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putinstanceasync, wbemcli/IWbemServices::PutInstanceAsync, wmi.iwbemservices_putinstanceasync
-f1_keywords:
-- wbemcli/IWbemServices.PutInstanceAsync
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,33 +25,38 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-- Esscli.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Ntevt.dll
-- Stdprov.dll
-- Viewprov.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wbemsvc.dll
-- Wmipicmp.dll
-- Wmidcprv.dll
-- Wmipjobj.dll
-- Wmiprvsd.dll
-api_name:
-- IWbemServices.PutInstanceAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemServices::PutInstanceAsync
+ - wbemcli/IWbemServices::PutInstanceAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+ - Esscli.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Ntevt.dll
+ - Stdprov.dll
+ - Viewprov.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wbemsvc.dll
+ - Wmipicmp.dll
+ - Wmidcprv.dll
+ - Wmipjobj.dll
+ - Wmiprvsd.dll
+api_name:
+ - IWbemServices.PutInstanceAsync
 ---
 
 # IWbemServices::PutInstanceAsync
@@ -63,23 +64,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWbemServices::PutInstanceAsync</b> 
    method asynchronously creates or updates an instance of an existing class. Update confirmation or error reporting 
    is provided through the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> interface 
    implemented by the caller.
 
-
 ## -parameters
-
-
-
 
 ### -param pInst [in]
 
 Pointer to the instance to be written to the WMI repository. The caller cannot make assumptions about the 
     reference count at the completion of this call.
-
 
 ### -param lFlags [in]
 
@@ -128,13 +123,11 @@ If this flag is set, WMI does not store any qualifiers with the
         <b>Amended</b> flavor. If this flag is not set, it is assumed that this object is 
         not localized, and all qualifiers are stored with this instance.
 
-
 ### -param pCtx [in]
 
 Pointer describing if the client is requesting a partial-instance update or full-instance update. A partial-instance update modifies a subset of the properties of the instance. In contrast, a full-instance update modifies all of the properties. If <b>NULL</b>, this parameter indicates that the caller application is requesting a full-instance update. Otherwise, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object required by the dynamic class provider that is producing the class instances. For more information about this parameter, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
-
 
 ### -param pResponseHandler [in]
 
@@ -145,10 +138,7 @@ Pointer to the caller's implementation of
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <b>AddRef</b> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information about how to make asynchronous calls, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
@@ -158,12 +148,7 @@ Note that if
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to Windows Management.
 
-
-
-
 ## -remarks
-
-
 
 Clients that call 
 <b>PutInstanceAsync</b> must always expect the results of the call to be reported using their 
@@ -285,14 +270,7 @@ HRESULT CStdProvider::PutInstanceAsync(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
@@ -307,7 +285,4 @@ HRESULT CStdProvider::PutInstanceAsync(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
- 
-
- 
 

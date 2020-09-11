@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: d8f7fae4-4d91-4f91-9018-c4bcdb4d6c65
 ms.date: 12/05/2018
 ms.keywords: RpcSmFree, RpcSmFree function [RPC], _rpc_rpcsmfree, rpc.rpcsmfree, rpcndr/RpcSmFree
-f1_keywords:
-- rpcndr/RpcSmFree
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcSmFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcSmFree
+ - rpcndr/RpcSmFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcSmFree
 ---
 
 # RpcSmFree function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcSmFree</b> function releases memory allocated by 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param NodeToFree
 
@@ -66,10 +62,7 @@ Pointer to memory allocated by
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>.
 
-
 ## -returns
-
-
 
 The function 
 <b>RpcSmFree</b> returns the following value.
@@ -97,11 +90,7 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Applications use 
 <b>RpcSmFree</b> to free memory allocated by 
@@ -120,13 +109,7 @@ Note that the handle of the thread calling
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> to pass handles from thread to thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
@@ -141,7 +124,4 @@ Note that the handle of the thread calling
 
 
 <a href="https://msdn.microsoft.com/">midl_user_allocate</a>
- 
-
- 
 

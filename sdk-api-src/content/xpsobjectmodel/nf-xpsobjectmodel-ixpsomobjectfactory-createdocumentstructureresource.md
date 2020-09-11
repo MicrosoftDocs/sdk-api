@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: ce41c5fb-033d-4140-b7aa-4f28676f0ae6
 ms.date: 12/05/2018
 ms.keywords: CreateDocumentStructureResource, CreateDocumentStructureResource method [XPS Documents and Packaging], CreateDocumentStructureResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentStructureResource method, IXpsOMObjectFactory.CreateDocumentStructureResource, IXpsOMObjectFactory::CreateDocumentStructureResource, xps.ixpsomobjectfactory_createdocumentstructureresource, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentStructureResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMObjectFactory.CreateDocumentStructureResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMObjectFactory.CreateDocumentStructureResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMObjectFactory::CreateDocumentStructureResource
+ - xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentStructureResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMObjectFactory.CreateDocumentStructureResource
 ---
 
 # IXpsOMObjectFactory::CreateDocumentStructureResource
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource">IXpsOMDocumentStructureResource</a> interface, which provides access to the document structure resource stream.
 
-
 ## -parameters
-
-
-
 
 ### -param acquiredStream [in]
 
@@ -69,15 +65,11 @@ The read-only <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name to be assigned to this resource. This parameter must not be <b>NULL</b>.
 
-
 ### -param documentStructureResource [out, retval]
 
 A pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource">IXpsOMDocumentStructureResource</a> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -109,14 +101,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The DocumentStructure part of an XPS document contains the document outline, which, with the StoryFragments parts, defines the reading order of every element that appears in the fixed pages of the document. This interface enables a program to read the XML contents of the DocumentStructure  part and also to replace the XML contents of the DocumentStructure part.
 
@@ -126,13 +112,7 @@ The  StoryFragments parts contain content structure markup that defines the stor
 
 The content of the DocumentStructure and StoryFragments parts is described in the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 
@@ -155,7 +135,4 @@ The content of the DocumentStructure and StoryFragments parts is described in th
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

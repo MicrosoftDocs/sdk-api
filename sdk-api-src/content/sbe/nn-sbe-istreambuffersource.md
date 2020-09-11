@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1e407f85-820a-4d17-926d-0c00e1e453e2
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSource, IStreamBufferSource interface [Microsoft TV Technologies], IStreamBufferSource interface [Microsoft TV Technologies],described, IStreamBufferSourceInterface, mstv.istreambuffersource, sbe/IStreamBufferSource
-f1_keywords:
-- sbe/IStreamBufferSource
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferSource
+ - sbe/IStreamBufferSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferSource
 ---
 
 # IStreamBufferSource interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IStreamBufferSource</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter. Use this interface to play live content from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink-filter">Stream Buffer Sink</a> filter.
-
-
-
 
 ## -inheritance
 
@@ -80,29 +76,17 @@ Sets a pointer to the Stream Buffer Sink filter, so that the source filter can s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IStreamBufferSource)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/using-the-stream-buffer-engine">Using the Stream Buffer Engine</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: ca495768-8f84-489b-8590-3ab7d031f0be
 ms.date: 12/05/2018
 ms.keywords: Files property [PLA], Files property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],Files property, IConfigurationDataCollector.Files, IConfigurationDataCollector.get_Files, IConfigurationDataCollector::Files, IConfigurationDataCollector::get_Files, IConfigurationDataCollector::put_Files, base.iconfigurationdatacollector_files, get_Files, pla.iconfigurationdatacollector_files, pla/IConfigurationDataCollector::Files, pla/IConfigurationDataCollector::get_Files, pla/IConfigurationDataCollector::put_Files
-f1_keywords:
-- pla/IConfigurationDataCollector.Files
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IConfigurationDataCollector.Files
-- IConfigurationDataCollector.get_Files
-- IConfigurationDataCollector.put_Files
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConfigurationDataCollector::get_Files
+ - pla/IConfigurationDataCollector::get_Files
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IConfigurationDataCollector.Files
+ - IConfigurationDataCollector.get_Files
+ - IConfigurationDataCollector.put_Files
 ---
 
 # IConfigurationDataCollector::get_Files
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the files to collect.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You can  use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxcount">IConfigurationDataCollector::FileMaxCount</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxrecursivedepth">IConfigurationDataCollector::FileMaxRecursiveDepth</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxtotalsize">IConfigurationDataCollector::FileMaxTotalSize</a> properties to limit the number of files that PLA collects.
 
@@ -102,12 +98,7 @@ z.txt
 m.txt
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
 
@@ -122,7 +113,4 @@ m.txt
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxtotalsize">IConfigurationDataCollector::FileMaxTotalSize</a>
- 
-
- 
 

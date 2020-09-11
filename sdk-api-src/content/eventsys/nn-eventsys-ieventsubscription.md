@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: ce3f9f7e-3d0a-445f-b3db-671ee595aedf
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription, IEventSubscription interface [COM+], IEventSubscription interface [COM+],described, _cos_IEventSubscription, cos.ieventsubscription, eventsys/IEventSubscription
-f1_keywords:
-- eventsys/IEventSubscription
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSubscription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSubscription
+ - eventsys/IEventSubscription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSubscription
 ---
 
 # IEventSubscription interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies information about the relationship between an event subscriber and an event to which it is subscribing.
 It is used by publisher filters.
-
 
 ## -inheritance
 
@@ -358,5 +357,5 @@ A displayable name for the subscription object.
 
 </td>
 </tr>
-</table> 
+</table>
 

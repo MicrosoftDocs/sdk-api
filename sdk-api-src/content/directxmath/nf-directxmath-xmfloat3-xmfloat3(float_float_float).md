@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.#ctor(float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3, XMFLOAT3 constructor [DirectX Math Support APIs], XMFLOAT3 constructor [DirectX Math Support APIs],XMFLOAT3 structure, XMFLOAT3 structure [DirectX Math Support APIs],XMFLOAT3 constructor, XMFLOAT3.XMFLOAT3, XMFLOAT3.XMFLOAT3(float,float,float), XMFLOAT3::XMFLOAT3, XMFLOAT3::XMFLOAT3(float,float,float), dxmath.xmfloat3_ctor_2
-f1_keywords:
-- directxmath/XMFLOAT3.XMFLOAT3
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT3.XMFLOAT3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3::XMFLOAT3
+ - directxmath/XMFLOAT3::XMFLOAT3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT3.XMFLOAT3
 ---
 
 # XMFLOAT3::XMFLOAT3(float,float,float)
 
 
 ## -description
-
 
 Initializes a new instance of <code>XMFLOAT3</code> from three <code>float</code> arguments.
 
@@ -57,33 +57,22 @@ This constructor initializes a new instance of <a href="https://docs.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param _x
 
 Value to be stored in the x-component (the <b>x</b> member) of the new instance of
 	    <code>XMFLOAT3</code>.
-	
-
 
 ### -param _y
 
 Value to be stored in the y-component (the <b>y</b> member) of the new instance of
 	    <code>XMFLOAT3</code>.
-	
-
 
 ### -param _z
 
 Value to be stored in the z-component (the <b>z</b> member) of the new instance of
 	    <code>XMFLOAT3</code>.
-	
-
 
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of this constructor:
 
@@ -97,14 +86,7 @@ The following pseudocode demonstrates the operation of this constructor:
     
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -115,7 +97,4 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat3-xmfloat3(constfloat)">XMFLOAT3 Constructors</a>
- 
-
- 
 

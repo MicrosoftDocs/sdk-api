@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 2DB9ECEC-8199-4157-8854-26A21B88E58A
 ms.date: 12/05/2018
 ms.keywords: IAudioClient3 interface [Core Audio],InitializeSharedAudioStream method, IAudioClient3.InitializeSharedAudioStream, IAudioClient3::InitializeSharedAudioStream, InitializeSharedAudioStream, InitializeSharedAudioStream method [Core Audio], InitializeSharedAudioStream method [Core Audio],IAudioClient3 interface, audioclient/IAudioClient3::InitializeSharedAudioStream, coreaudio.iaudioclient3_initializesharedaudiostream
-f1_keywords:
-- audioclient/IAudioClient3.InitializeSharedAudioStream
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioclient.h
-api_name:
-- IAudioClient3.InitializeSharedAudioStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient3::InitializeSharedAudioStream
+ - audioclient/IAudioClient3::InitializeSharedAudioStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioclient.h
+api_name:
+ - IAudioClient3.InitializeSharedAudioStream
 ---
 
 # IAudioClient3::InitializeSharedAudioStream
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a shared stream with the specified periodicity.
 
-
 ## -parameters
-
-
-
 
 ### -param StreamFlags [in]
 
@@ -68,13 +64,11 @@ Flags to control creation of the stream. The client should set this parameter to
 - AUDCLNT_STREAMFLAGS_AUTOCONVERTPCM
 - AUDCLNT_STREAMFLAGS_SRC_DEFAULT_QUALITY
 
-
 ### -param PeriodInFrames [in]
 
 Type: <b>UINT32</b>
 
 Periodicity requested by the client. This value must  be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod">IAudioClient3::GetSharedModeEnginePeriod</a>.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value returned in <i>pMaxPeriodInFrames</i>.
-
 
 ### -param pFormat [in]
 
@@ -82,17 +76,13 @@ Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd757713(v=
 
 Pointer to a format descriptor. This parameter must point to a valid format descriptor of type <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> or <b></b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>. For more information, see the Remarks section for <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
-
 ### -param AudioSessionGuid [in, optional]
 
 Type: <b>LPCGUID</b>
 
 Pointer to a session GUID. This parameter points to a GUID value that identifies the audio session that the stream belongs to. If the GUID identifies a session that has been previously opened, the method adds the stream to that session. If the GUID does not identify an existing session, the method opens a new session and adds the stream to that session. The stream remains a member of the same session for its lifetime. Setting this parameter to <b>NULL</b> is equivalent to passing a pointer to a GUID_NULL value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -263,14 +253,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Unlike <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>, this method does not allow you to specify a  buffer size. The buffer size is computed based on the periodicity requested with the <i>PeriodInFrames</i> parameter. It is the client app's responsibility
     to ensure that audio samples are transferred in and out of the buffer in a timely manner. 
@@ -291,13 +275,7 @@ Allowed values for the <i>PeriodInFrames</i> parameter to <b>InitializeSharedAud
 
 They would NOT include 4 (which is smaller than the minimum allowed value) or 98 (which is not a multiple of the fundamental) or 1000 (which is larger than the maximum allowed value).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a>
 
@@ -308,7 +286,4 @@ They would NOT include 4 (which is smaller than the minimum allowed value) or 98
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
- 
-
- 
 

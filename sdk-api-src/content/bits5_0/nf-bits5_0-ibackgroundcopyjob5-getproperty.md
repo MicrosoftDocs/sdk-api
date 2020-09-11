@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 567C21C7-C689-4A13-9DCA-D45766CB5150
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [BITS], GetProperty method [BITS],IBackgroundCopyJob5 interface, IBackgroundCopyJob5 interface [BITS],GetProperty method, IBackgroundCopyJob5.GetProperty, IBackgroundCopyJob5::GetProperty, bits.ibackgroundcopyjob5_getproperty, bits5_0/IBackgroundCopyJob5::GetProperty
-f1_keywords:
-- bits5_0/IBackgroundCopyJob5.GetProperty
-dev_langs:
-- c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyJob5.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob5::GetProperty
+ - bits5_0/IBackgroundCopyJob5::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyJob5.GetProperty
 ---
 
 # IBackgroundCopyJob5::GetProperty
@@ -50,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 A generic method for getting BITS job properties.
 
-
 ## -parameters
-
-
-
 
 ### -param PropertyId [in]
 
 The ID of the property that is being obtained specified as a <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enum value.
 
-
 ### -param PropertyValue [out]
 
 The property value returned as a BITS_JOB_PROPERTY_VALUE union.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -92,22 +84,12 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyjob5">IBackgroundCopyJob5</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyjob5-setproperty">IBackgroundCopyJob5::SetProperty</a>
- 
-
- 
 

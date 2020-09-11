@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 323dc627-3867-4170-b278-0bce46077729
 ms.date: 12/05/2018
 ms.keywords: ICallFactory, ICallFactory interface [COM], ICallFactory interface [COM],described, _com_icallfactory, com.icallfactory, objidlbase/ICallFactory
-f1_keywords:
-- objidl/ICallFactory
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- ICallFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallFactory
+ - objidl/ICallFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - ICallFactory
 ---
 
 # ICallFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a call object for processing calls to the methods of an asynchronous interface.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Creates an instance of the call object that corresponds to a specified asynchron
 
 </td>
 </tr>
-</table> 
+</table>
 

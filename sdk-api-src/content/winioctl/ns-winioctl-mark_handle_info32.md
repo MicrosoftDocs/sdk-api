@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8ef16cfd-7adc-469f-8bf6-9fd45366cded
 ms.date: 12/05/2018
 ms.keywords: '*PMARK_HANDLE_INFO32, MARK_HANDLE_INFO32, MARK_HANDLE_INFO32 structure [Files], MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Files], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, fs.mark_handle_info32, winioctl/MARK_HANDLE_INFO32, winioctl/PMARK_HANDLE_INFO32'
-f1_keywords:
-- winioctl/MARK_HANDLE_INFO32
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- MARK_HANDLE_INFO32
 targetos: Windows
 req.typenames: MARK_HANDLE_INFO32, *PMARK_HANDLE_INFO32
 req.redist: 
+f1_keywords:
+ - PMARK_HANDLE_INFO32
+ - winioctl/PMARK_HANDLE_INFO32
+ - MARK_HANDLE_INFO32
+ - winioctl/MARK_HANDLE_INFO32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - MARK_HANDLE_INFO32
 ---
 
 # MARK_HANDLE_INFO32 structure
@@ -48,23 +51,15 @@ req.redist:
 
 ## -description
 
-
 Contains information that is used to mark a specified file or directory, and its update sequence 
     number (USN) change journal record with data about changes. This is only defined for 64-bit code and exists to 
     interpret <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structures sent by 32-bit 
     code. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> 
     control code.
 
-
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field UsnSourceInfo
 
@@ -133,11 +128,8 @@ For example, the file replication service sets this flag when it creates or upda
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CopyNumber
-
 
 ### -field VolumeHandle
 
@@ -148,7 +140,6 @@ This handle is required to check the privileges for this operation.
 
 The caller must have the <b>SE_MANAGE_VOLUME_NAME</b> privilege. For more information, 
         see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a>.
-
 
 ### -field HandleInfo
 
@@ -220,5 +211,4 @@ The file previously marked for real-time read behavior using the
 </td>
 </tr>
 </table>
- 
 

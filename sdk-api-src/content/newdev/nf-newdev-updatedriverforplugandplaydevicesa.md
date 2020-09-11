@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateDriverForPlugAndPlayDevices, UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation], UpdateDriverForPlugAndPlayDevicesA, UpdateDriverForPlugAndPlayDevicesW, devinst.updatedriverforplugandplaydevices, di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml, newdev/UpdateDriverForPlugAndPlayDevices
 ms.topic: function
-f1_keywords:
-- newdev/UpdateDriverForPlugAndPlayDevices
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -29,21 +27,24 @@ req.type-library:
 req.lib: Newdev.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Newdev.lib
-- Newdev.dll
-api_name:
-- UpdateDriverForPlugAndPlayDevices
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UpdateDriverForPlugAndPlayDevicesA
+ - newdev/UpdateDriverForPlugAndPlayDevicesA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Newdev.lib
+ - Newdev.dll
+api_name:
+ - UpdateDriverForPlugAndPlayDevices
 ---
 
 # UpdateDriverForPlugAndPlayDevicesA function
@@ -51,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Given an INF file and a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a>, the <b>UpdateDriverForPlugAndPlayDevices</b> function installs updated drivers for devices that match the hardware ID. 
-
+Given an INF file and a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a>, the <b>UpdateDriverForPlugAndPlayDevices</b> function installs updated drivers for devices that match the hardware ID.
 
 ## -parameters
-
-
-
 
 ### -param hwndParent [in, optional]
 
 A handle to the top-level window to use for any UI related to installing devices.
 
-
 ### -param HardwareId [in]
 
-A pointer to a NULL-terminated string that supplies the hardware identifier to match existing devices on the computer. The maximum length of a NULL-terminated hardware identifier is MAX_DEVICE_ID_LEN. For more information about hardware identifiers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>. 
-
+A pointer to a NULL-terminated string that supplies the hardware identifier to match existing devices on the computer. The maximum length of a NULL-terminated hardware identifier is MAX_DEVICE_ID_LEN. For more information about hardware identifiers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 ### -param FullInfPath [in]
 
 A pointer to a NULL-terminated string that supplies the full path file name of an INF file. The files should be on the distribution media or in a vendor-created directory, not in a system location such as <i>%SystemRoot%\inf</i>. <b>UpdateDriverForPlugAndPlayDevices</b> copies driver files to the appropriate system locations if the installation is successful.
-
 
 ### -param InstallFlags [in]
 
@@ -105,7 +98,6 @@ If this flag is set, the function will return <b>FALSE</b> when any attempt to d
 <div> </div>
 The <i>InstallFlags</i> parameter is typically zero.
 
-
 ### -param bRebootRequired [out, optional]
 
 A pointer to a BOOL-typed variable that indicates whether a restart is required and who should prompt for it. This pointer is optional and can be <b>NULL</b>. 
@@ -114,10 +106,7 @@ If the pointer is <b>NULL</b>, <b>UpdateDriverForPlugAndPlayDevices</b> prompts 
 
 For more information, see the following <b>Remarks</b> section.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if a device was upgraded to the specified driver.
 
@@ -185,14 +174,8 @@ The function found a match for the <i>HardwareId</i> value, but the specified dr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>UpdateDriverForPlugAndPlayDevices</b> scans the devices on the system and attempts to install the drivers specified by <i>FullInfPath</i> for any devices that match the specified <i>HardwareId</i> value. 
 
@@ -221,6 +204,4 @@ The application is a class installer, which should set DI_NEEDREBOOT in <a href=
 If the application must call <b>UpdateDriverForPlugAndPlayDevices</b> several times, it should save any <b>TRUE</b> restart status value received and then prompt for a restart after the final call has returned.
 
 If the function returns ERROR_IN_WOW64 in a 32-bit application, the application is executing on a 64-bit system, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
-
-
 

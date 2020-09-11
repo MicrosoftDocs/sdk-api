@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 531b4a4a-a251-4ab4-b00a-754783a51283
 ms.date: 12/05/2018
 ms.keywords: TlsSetValue, TlsSetValue function, _win32_tlssetvalue, base.tlssetvalue, processthreadsapi/TlsSetValue, winbase/TlsSetValue
-f1_keywords:
-- processthreadsapi/TlsSetValue
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: KernelBase.dll on Windows Phone 8.1; Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- KernelBase.dll
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- TlsSetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TlsSetValue
+ - processthreadsapi/TlsSetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - TlsSetValue
 ---
 
 # TlsSetValue function
@@ -56,41 +57,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stores a value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTlsIndex [in]
 
 The TLS index that was allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> 
       function.
 
-
 ### -param lpTlsValue [in, optional]
 
 The value to be stored in the calling thread's TLS slot for the index.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>Windows Phone 8.1:</b> This function is supported for Windows Phone Store apps on Windows Phone 8.1 and later. When a Windows Phone Store app calls this function, it is replaced with an inline call to <b>FlsSetValue</b>. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a> for function documentation.
 
@@ -114,12 +101,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
@@ -138,7 +120,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>
- 
-
- 
 

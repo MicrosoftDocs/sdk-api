@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributesEx, GetFileAttributesEx function [Files], GetFileAttributesExA, GetFileAttributesExW, GetFileExInfoStandard, _win32_getfileattributesex, base.getfileattributesex, fileapi/GetFileAttributesEx, fileapi/GetFileAttributesExA, fileapi/GetFileAttributesExW, fs.getfileattributesex, winbase/GetFileAttributesEx, winbase/GetFileAttributesExA, winbase/GetFileAttributesExW
-f1_keywords:
-- fileapi/GetFileAttributesEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFileAttributesEx
-- GetFileAttributesExA
-- GetFileAttributesExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileAttributesExA
+ - fileapi/GetFileAttributesExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFileAttributesEx
+ - GetFileAttributesExA
+ - GetFileAttributesExW
 ---
 
 # GetFileAttributesExA function
@@ -58,17 +59,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves attributes for a specified file or directory.
 
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -107,8 +103,6 @@ The <i>lpFileInformation</i> parameter is a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpFileInformation [out]
 
@@ -117,22 +111,14 @@ A pointer to a buffer that receives the attribute information.
 The type of attribute information that is stored into this buffer is determined by the value of 
        <i>fInfoLevelId</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function retrieves file 
     system attribute information. <b>GetFileAttributesEx</b> 
@@ -228,9 +214,6 @@ If a file is open for modification in a transaction, no other thread can open th
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
@@ -252,7 +235,4 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
- 
-
- 
 

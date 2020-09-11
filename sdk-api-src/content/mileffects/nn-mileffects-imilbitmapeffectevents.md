@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\imilbitmapeffectevents.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectEvents, IMILBitmapEffectEvents interface [WPF Bitmap Effects], IMILBitmapEffectEvents interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectevents, mileffects/IMILBitmapEffectEvents, wibe._wibe_imilbitmapeffectevents
-f1_keywords:
-- mileffects/IMILBitmapEffectEvents
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mileffects.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.dll
-api_name:
-- IMILBitmapEffectEvents
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectEvents
+ - mileffects/IMILBitmapEffectEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.dll
+api_name:
+ - IMILBitmapEffectEvents
 ---
 
 # IMILBitmapEffectEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that define an effect event.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Notifies an <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 </td>
 </tr>
-</table> 
+</table>
 

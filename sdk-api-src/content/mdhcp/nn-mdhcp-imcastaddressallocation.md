@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 359e67bb-9a5b-4caa-8d3b-eb0739b0828f
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], IMcastAddressAllocation interface [TAPI 2.2],described, _tapi3_imcastaddressallocation, mdhcp/IMcastAddressAllocation, tapi3.imcastaddressallocation
-f1_keywords:
-- mdhcp/IMcastAddressAllocation
-dev_langs:
-- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mdhcp.dll
-api_name:
-- IMcastAddressAllocation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMcastAddressAllocation
+ - mdhcp/IMcastAddressAllocation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mdhcp.dll
+api_name:
+ - IMcastAddressAllocation
 ---
 
 # IMcastAddressAllocation interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 <b>IMcastAddressAllocation</b> is the main interface for multicast address allocation. An application calls the COM 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function on this interface to create the multicast client interface object.
-
 
 ## -inheritance
 
@@ -137,12 +136,9 @@ Obtains a new lease for one or more multicast addresses.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The multicast COM interfaces allow access to the network's facility for allocating, renewing, and releasing leases on multicast addresses. They encapsulate a set of function and data structure definitions. The COM interfaces free the programmer from the burden of understanding and manipulating these data structures. Moreover, because TAPI 3 itself is COM-based, these interfaces make multicast address allocation accessible in a way that is consistent with the other facilities provided by TAPI 3. Applications written using Visual Basic, Java, or scripting languages must use these COM interfaces—they cannot normally access the Windows API directly.
 
@@ -152,13 +148,7 @@ Multicast address allocation is currently the subject of an IETF working group. 
 
 This component currently supports only IP version 4 addresses.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -169,7 +159,4 @@ This component currently supports only IP version 4 addresses.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
- 
-
- 
 

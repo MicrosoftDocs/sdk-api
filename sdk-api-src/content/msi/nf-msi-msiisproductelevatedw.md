@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 1bf6616c-3d5a-45c9-ab69-c0bb41b3e067
 ms.date: 12/05/2018
 ms.keywords: MsiIsProductElevated, MsiIsProductElevated function, MsiIsProductElevatedA, MsiIsProductElevatedW, _msi_msiisproductelevated, msi/MsiIsProductElevated, msi/MsiIsProductElevatedA, msi/MsiIsProductElevatedW, setup.msiisproductelevated
-f1_keywords:
-- msi/MsiIsProductElevated
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiIsProductElevated
-- MsiIsProductElevatedA
-- MsiIsProductElevatedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiIsProductElevatedW
+ - msi/MsiIsProductElevatedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiIsProductElevated
+ - MsiIsProductElevatedA
+ - MsiIsProductElevatedW
 ---
 
 # MsiIsProductElevatedW function
 
 
 ## -description
-
 
 The <b>MsiIsProductElevated</b> function returns whether or not the product is managed. Only applications that require elevated privileges for installation and being installed through advertisement are considered managed, which means that an application installed per-machine is always considered managed. 
 
@@ -59,11 +59,7 @@ An application that is installed  per-user is only considered managed if it is a
 
 <b>MsiIsProductElevated</b> verifies that the local system owns the product registry data. The function does not refer to account policies such as <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
@@ -71,17 +67,13 @@ The full product code GUID of the product.
 
 This parameter is required and cannot be <b>NULL</b> or empty.
 
-
 ### -param pfElevated [out]
 
 A pointer to a BOOL for the result. 
 
 This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS, and <i>pfElevated</i> is set to <b>TRUE</b> if the product is a managed application.
 
@@ -148,24 +140,14 @@ The function is not available for a specific platform.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installing-a-package-with-elevated-privileges-for-a-non-admin">Installing a Package with Elevated Privileges for a Non-Admin</a>
- 
-
- 
 
 ## -remarks
 

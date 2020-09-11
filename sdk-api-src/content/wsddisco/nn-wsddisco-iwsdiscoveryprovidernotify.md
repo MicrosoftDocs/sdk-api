@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: e186f721-14d9-4d9b-942a-1c05ada2bee6
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,described, ncd.iwsdiscoveryprovidernotify, wsddisco/IWSDiscoveryProviderNotify
-f1_keywords:
-- wsddisco/IWSDiscoveryProviderNotify
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryProviderNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryProviderNotify
+ - wsddisco/IWSDiscoveryProviderNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryProviderNotify
 ---
 
 # IWSDiscoveryProviderNotify interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Is implemented by the client program to receive callback notifications from <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Called to indicate a user initiated search has failed.
 
 </td>
 </tr>
-</table> 
+</table>
 

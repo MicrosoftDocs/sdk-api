@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_PROTECTED_RESOURCE_SESSION_DESC","D3D12_PROTECTED_R
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: D3D12_PROTECTED_RESOURCE_SESSION_DESC, D3D12_PROTECTED_RESOURCE_SESSION_DESC structure, d3d12/D3D12_PROTECTED_RESOURCE_SESSION_DESC, direct3d12.d3d12_protected_resource_session_desc
-f1_keywords:
-- d3d12/D3D12_PROTECTED_RESOURCE_SESSION_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +23,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_PROTECTED_RESOURCE_SESSION_DESC
 targetos: Windows
 req.typenames: D3D12_PROTECTED_RESOURCE_SESSION_DESC
 req.redist: 
+f1_keywords:
+ - D3D12_PROTECTED_RESOURCE_SESSION_DESC
+ - d3d12/D3D12_PROTECTED_RESOURCE_SESSION_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_PROTECTED_RESOURCE_SESSION_DESC
 ---
 
 ## -description
@@ -62,3 +63,4 @@ Flags.
 ## -remarks
 
 ## -see-also
+

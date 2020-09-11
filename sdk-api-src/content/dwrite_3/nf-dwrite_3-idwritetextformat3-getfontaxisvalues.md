@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","GetFontAxis
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetFontAxisValues method, IDWriteTextFormat3.GetFontAxisValues, IDWriteTextFormat3::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getfontaxisvalues, dwrite_3/IDWriteTextFormat3::GetFontAxisValues
-f1_keywords:
-- dwrite_3/IDWriteTextFormat3.GetFontAxisValues
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteTextFormat3::GetFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteTextFormat3::GetFontAxisValues
+ - dwrite_3/IDWriteTextFormat3::GetFontAxisValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteTextFormat3::GetFontAxisValues
 ---
 
 ## -description
@@ -70,3 +71,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

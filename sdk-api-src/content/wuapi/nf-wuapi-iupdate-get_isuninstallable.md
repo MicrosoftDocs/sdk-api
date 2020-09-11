@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 0f67461b-3df9-45e9-95b3-d7f46fa11162
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsUninstallable property, IUpdate.IsUninstallable, IUpdate.get_IsUninstallable, IUpdate::IsUninstallable, IUpdate::get_IsUninstallable, IsUninstallable property [Windows Update Agent], IsUninstallable property [Windows Update Agent],IUpdate interface, get_IsUninstallable, wua.iupdate_isuninstallable, wuapi/IUpdate::IsUninstallable, wuapi/IUpdate::get_IsUninstallable
-f1_keywords:
-- wuapi/IUpdate.IsUninstallable
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.IsUninstallable
-- IUpdate.get_IsUninstallable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_IsUninstallable
+ - wuapi/IUpdate::get_IsUninstallable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.IsUninstallable
+ - IUpdate.get_IsUninstallable
 ---
 
 # IUpdate::get_IsUninstallable
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether a user can uninstall the update from a computer.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
 

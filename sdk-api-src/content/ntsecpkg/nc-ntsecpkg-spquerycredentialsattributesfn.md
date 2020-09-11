@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e9174a42-3ccd-4c9a-bf80-fba062df4459
 ms.date: 12/05/2018
 ms.keywords: SECPKG_ATTR_CIPHER_STRENGTHS, SECPKG_ATTR_SUPPORTED_ALGS, SECPKG_ATTR_SUPPORTED_PROTOCOLS, SECPKG_CRED_ATTR_NAMES, SpQueryCredentialsAttributes, SpQueryCredentialsAttributes callback function [Security], SpQueryCredentialsAttributesFn, SpQueryCredentialsAttributesFn callback, _ssp_spquerycredentialsattributes, ntsecpkg/SpQueryCredentialsAttributes, security.spquerycredentialsattributes
-f1_keywords:
-- ntsecpkg/SpQueryCredentialsAttributes
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpQueryCredentialsAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpQueryCredentialsAttributesFn
+ - ntsecpkg/SpQueryCredentialsAttributesFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpQueryCredentialsAttributes
 ---
 
 # SpQueryCredentialsAttributesFn callback function
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SpQueryCredentialsAttributes</b> function retrieves the attributes for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credential</a>.
 
 The <b>SpQueryCredentialsAttributes</b> function is the dispatch function for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param CredentialHandle [in]
 
 A handle to the credential to query.
-
 
 ### -param CredentialAttribute [in]
 
@@ -122,8 +117,6 @@ The protocols supported with a particular credential.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [out]
 
@@ -131,10 +124,7 @@ Pointer to a buffer that receives the requested attributes. Allocate memory for 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function, so that caller can free it by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS.
 
@@ -168,14 +158,8 @@ The credential handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 SSP/APs must implement the <b>SpQueryCredentialsAttributes</b> function; however, the actual name given to the implementation is up to the developer.
 
@@ -183,20 +167,11 @@ A pointer to the <b>SpQueryCredentialsAttributes</b> function is available in th
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
- 
-
- 
 

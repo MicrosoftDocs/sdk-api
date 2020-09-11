@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
 ms.date: 12/05/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
-f1_keywords:
-- fdi/FNSEEK
-dev_langs:
-- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fdi.h
-api_name:
-- FNSEEK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FNSEEK
+ - fdi/FNSEEK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fdi.h
+api_name:
+ - FNSEEK
 ---
 
 # FNSEEK macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FNSEEK</b> macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FDI context.
 
-
 ## -parameters
-
-
-
 
 ### -param fn [in]
 
@@ -72,10 +68,7 @@ The number of bytes to move the file pointer.
 
 The starting point for the file pointer move.
 
-
 ## -remarks
-
-
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/ms235323(VS.80).aspx">_lseek</a>.
 
@@ -91,17 +84,7 @@ FNSEEK(fnFileSeek)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
- 
-
- 
 

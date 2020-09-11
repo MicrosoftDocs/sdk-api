@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 84a1b903-a836-4d8e-bde7-609f7f875d8f
 ms.date: 12/05/2018
 ms.keywords: EnvironmentName property [Remote Desktop Services], EnvironmentName property [Remote Desktop Services],ITsSbTarget interface, EnvironmentName property [Remote Desktop Services],ITsSbTargetEx interface, ITsSbTarget interface [Remote Desktop Services],EnvironmentName property, ITsSbTarget.EnvironmentName, ITsSbTarget.get_EnvironmentName, ITsSbTarget::EnvironmentName, ITsSbTarget::get_EnvironmentName, ITsSbTarget::put_EnvironmentName, ITsSbTargetEx interface [Remote Desktop Services],EnvironmentName property, ITsSbTargetEx.EnvironmentName, ITsSbTargetEx::get_EnvironmentName, ITsSbTargetEx::put_EnvironmentName, get_EnvironmentName, sbtsv/ITsSbTarget::EnvironmentName, sbtsv/ITsSbTarget::get_EnvironmentName, sbtsv/ITsSbTarget::put_EnvironmentName, sbtsv/ITsSbTargetEx::EnvironmentName, sbtsv/ITsSbTargetEx::get_EnvironmentName, sbtsv/ITsSbTargetEx::put_EnvironmentName, termserv.itssbtarget_environmentname
-f1_keywords:
-- sbtsv/ITsSbTarget.EnvironmentName
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbTarget.EnvironmentName
-- ITsSbTarget.get_EnvironmentName
-- ITsSbTarget.put_EnvironmentName
-- ITsSbTargetEx.EnvironmentName
-- ITsSbTargetEx.get_EnvironmentName
-- ITsSbTargetEx.put_EnvironmentName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbTarget::get_EnvironmentName
+ - sbtsv/ITsSbTarget::get_EnvironmentName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbTarget.EnvironmentName
+ - ITsSbTarget.get_EnvironmentName
+ - ITsSbTarget.put_EnvironmentName
+ - ITsSbTargetEx.EnvironmentName
+ - ITsSbTargetEx.get_EnvironmentName
+ - ITsSbTargetEx.put_EnvironmentName
 ---
 
 # ITsSbTarget::get_EnvironmentName
@@ -54,26 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
  Retrieves or specifies the name of the environment associated with the target.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
- 
-
- 
 

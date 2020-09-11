@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetFontAxi
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisRanges method, IDWriteFontResource.GetFontAxisRanges, IDWriteFontResource::GetFontAxisRanges, GetFontAxisRanges, GetFontAxisRanges method [Direct Write], GetFontAxisRanges method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisranges, dwrite_3/IDWriteFontResource::GetFontAxisRanges
-f1_keywords:
-- dwrite_3/IDWriteFontResource.GetFontAxisRanges
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::GetFontAxisRanges
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::GetFontAxisRanges
+ - dwrite_3/IDWriteFontResource::GetFontAxisRanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::GetFontAxisRanges
 ---
 
 ## -description
@@ -76,3 +77,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 A non-varying axis has an empty range (*minValue* == *maxValue*).
 
 ## -see-also
+

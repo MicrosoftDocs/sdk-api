@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ec0e2a88-13c0-42f3-ba7d-8ebff1234b86
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],View method, IMSVidCtl.View, IMSVidCtl::View, IMSVidCtlView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
-f1_keywords:
-- msvidctl/IMSVidCtl.View
-dev_langs:
-- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msvidctl.h
-api_name:
-- IMSVidCtl.View
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidCtl::View
+ - msvidctl/IMSVidCtl::View
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msvidctl.h
+api_name:
+ - IMSVidCtl.View
 ---
 
 # IMSVidCtl::View
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>View</b> method configures the Video Control to view an input source, which can be a tune request, a DVD, or a media file.
 
-
 ## -parameters
-
-
-
 
 ### -param v [in]
 
@@ -66,20 +62,11 @@ Pointer to the input source as a <b>VARIANT</b> type. This parameter must be one
 <li>The name of a media file.</li>
 </ul>
 
-
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 If the Video Control already has an active input device, this method configures the device for the specified input. Otherwise, this method locates an input device that can handle the input and activates it.
 
@@ -123,14 +110,7 @@ hr = pVidControl->View(&varFileName);
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvd-applications-in-visual-basic--video-control">DVD Applications in Visual Basic (Video Control)</a>
 
@@ -141,7 +121,4 @@ hr = pVidControl->View(&varFileName);
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputsavailable">IMSVidCtl::get_InputsAvailable</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 172c59ee-9e06-4169-aaa7-2624e3fcf015
 ms.date: 12/05/2018
 ms.keywords: CertCreateCTLContext, CertCreateCTLContext function [Security], _crypto2_certcreatectlcontext, security.certcreatectlcontext, wincrypt/CertCreateCTLContext
-f1_keywords:
-- wincrypt/CertCreateCTLContext
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertCreateCTLContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertCreateCTLContext
+ - wincrypt/CertCreateCTLContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertCreateCTLContext
 ---
 
 # CertCreateCTLContext function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertCreateCTLContext</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context from an encoded CTL. The created context is not persisted to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. The function makes a copy of the encoded CTL within the created context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMsgAndCertEncodingType [in]
 
@@ -69,21 +65,15 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pbCtlEncoded [in]
 
 A pointer to a buffer containing the encoded CTL from which the context is to be created.
-
 
 ### -param cbCtlEncoded [in]
 
 The size, in bytes, of the <i>pbCtlEncoded</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to a read-only 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>.
@@ -113,12 +103,7 @@ Invalid certificate encoding type. Only PKCS_7_ASN_ENCODING and X509_ASN_ENCODIN
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> must be freed by calling 
@@ -127,13 +112,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty">CertSetCTLContextProperty</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty">CertGetCTLContextProperty</a> can be called to store and read properties for the CTL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
@@ -164,7 +143,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
- 
-
- 
 

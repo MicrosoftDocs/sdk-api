@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 59619571-0ab7-42a4-ad25-c420ec9667a3
 ms.date: 12/05/2018
 ms.keywords: IWMDMProgress2, IWMDMProgress2 interface [windows Media Device Manager], IWMDMProgress2 interface [windows Media Device Manager],described, IWMDMProgress2Interface, mswmdm/IWMDMProgress2, wmdm.iwmdmprogress2
-f1_keywords:
-- mswmdm/IWMDMProgress2
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMProgress2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMProgress2
+ - mswmdm/IWMDMProgress2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMProgress2
 ---
 
 # IWMDMProgress2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The optional, application-implemented <b>IWMDMProgress2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-end">IWMDMProgress::End</a> method by providing a status indicator.
-
-
-
 
 ## -inheritance
 
@@ -80,13 +76,9 @@ Extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
@@ -101,7 +93,4 @@ Extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

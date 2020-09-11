@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 05681526-2232-4341-859d-6773f7a58431
 ms.date: 12/05/2018
 ms.keywords: IADsExtension, IADsExtension interface [ADSI], IADsExtension interface [ADSI],described, _ds_iadsextension, adsi.iadsextension, iads/IADsExtension
-f1_keywords:
-- iads/IADsExtension
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsExtension
+ - iads/IADsExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsExtension
 ---
 
 # IADsExtension interface
 
 
 ## -description
-
 
 The <b>IADsExtension</b> interface forms the basis of the ADSI 
     application extension model. It enables an independent software vendor (ISV) to add application-specific 
@@ -118,5 +118,5 @@ Invokes methods of the extended object.
 
 </td>
 </tr>
-</table> 
+</table>
 

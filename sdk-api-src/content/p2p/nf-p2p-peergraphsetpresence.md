@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: f9d34fb0-4834-4fcf-ab44-e16c8114a3f4
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetPresence, PeerGraphSetPresence function [Peer Networking], p2p.peergraphsetpresence, p2p/PeerGraphSetPresence
-f1_keywords:
-- p2p/PeerGraphSetPresence
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphSetPresence
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphSetPresence
+ - p2p/PeerGraphSetPresence
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphSetPresence
 ---
 
 # PeerGraphSetPresence function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphSetPresence</b> function explicitly turns on or off the publication of presence records for a specific  node. This function can override the presence settings in the peer graph properties. Calling this function enables nodes to be enumerated with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumnodes">PeerGraphEnumNodes</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to a peer graph.
-
 
 ### -param fPresent [in]
 
@@ -71,8 +66,6 @@ Specify <b>TRUE</b> to force the Peer Graphing Infrastructure to publish a prese
 <div> </div>
 
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -115,27 +108,12 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If presence information has not been explicitly published by the peer graph,  the nodes are not visible when a peer graph is enumerated.  
-
-
-
+If presence information has not been explicitly published by the peer graph,  the nodes are not visible when a peer graph is enumerated.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumnodes">PeerGraphEnumNodes</a>
- 
-
- 
 

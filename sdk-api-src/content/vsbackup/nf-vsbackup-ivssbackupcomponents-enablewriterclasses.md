@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 27dae374-f3c4-44a5-a0d7-3edb647f0593
 ms.date: 12/05/2018
 ms.keywords: EnableWriterClasses, EnableWriterClasses method [VSS], EnableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],EnableWriterClasses method, IVssBackupComponents.EnableWriterClasses, IVssBackupComponents::EnableWriterClasses, _win32_ivssbackupcomponents_enablewriterclasses, base.ivssbackupcomponents_enablewriterclasses, vsbackup/IVssBackupComponents::EnableWriterClasses
-f1_keywords:
-- vsbackup/IVssBackupComponents.EnableWriterClasses
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.EnableWriterClasses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::EnableWriterClasses
+ - vsbackup/IVssBackupComponents::EnableWriterClasses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.EnableWriterClasses
 ---
 
 # IVssBackupComponents::EnableWriterClasses
@@ -50,29 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EnableWriterClasses</b> method enables the specified writers to receive all events.
 
-
 ## -parameters
-
-
-
 
 ### -param rgWriterClassId [in]
 
 An array containing one or more writer class identifiers.
 
-
 ### -param cClassId [in]
 
 The number of entries in the <i>rgWriterClassId</i> array.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -140,14 +132,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <b>EnableWriterClasses</b> method and the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses">IVssBackupComponents::DisableWriterClasses</a> method are never called, all writer classes are enabled.
 
@@ -159,13 +145,7 @@ If you call <b>EnableWriterClasses</b> one or more times and then call <a href="
 
 If you call <b>EnableWriterClasses</b>, you must do so before calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> method. If you call <b>GatherWriterMetadata</b> first and then call <b>EnableWriterClasses</b>, the call to <b>EnableWriterClasses</b> has no effect.  If you need to call <b>GatherWriterMetadata</b> first, to determine which writer classes to enable, you must call it from a different instance of the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -176,7 +156,4 @@ If you call <b>EnableWriterClasses</b>, you must do so before calling the <a hre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">IVssBackupComponents::DisableWriterInstances</a>
- 
-
- 
 

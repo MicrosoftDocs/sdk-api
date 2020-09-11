@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 87ef9425-5dab-442b-a487-3a4789005411
 ms.date: 12/05/2018
 ms.keywords: SetupCancelTemporarySourceList, SetupCancelTemporarySourceList function [Setup API], _setupapi_setupcanceltemporarysourcelist, setup.setupcanceltemporarysourcelist, setupapi/SetupCancelTemporarySourceList
-f1_keywords:
-- setupapi/SetupCancelTemporarySourceList
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupCancelTemporarySourceList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupCancelTemporarySourceList
+ - setupapi/SetupCancelTemporarySourceList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupCancelTemporarySourceList
 ---
 
 # SetupCancelTemporarySourceList function
@@ -49,34 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupCancelTemporarySourceList</b> function cancels any temporary list and no-browse behavior and reestablishes standard list behavior.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If a temporary list was in effect, the return value is a nonzero value. Otherwise, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -87,7 +73,4 @@ If a temporary list was in effect, the return value is a nonzero value. Otherwis
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetsourcelista">SetupSetSourceList</a>
- 
-
- 
 

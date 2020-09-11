@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 9a13e7a0-f2e2-466b-98f5-38d5972fa391
 ms.date: 12/05/2018
 ms.keywords: OleInitialize, OleInitialize function [COM], _ole_OleInitialize, com.oleinitialize, ole2/OleInitialize
-f1_keywords:
-- ole2/OleInitialize
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-COM-OLE32-l1-1-0.dll
-- Ext-MS-Win-COM-OLE32-l1-1-1.dll
-- Ext-MS-Win-COM-OLE32-l1-1-2.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- OleInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleInitialize
+ - ole2/OleInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-0.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-1.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-2.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - OleInitialize
 ---
 
 # OleInitialize function
@@ -54,25 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes the COM library on the current apartment, identifies the concurrency model as single-thread apartment (STA), and enables additional functionality described in the Remarks section below. Applications must initialize the COM library before they can call COM library functions other than <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a> and memory allocation functions. 
-
-
-
+Initializes the COM library on the current apartment, identifies the concurrency model as single-thread apartment (STA), and enables additional functionality described in the Remarks section below. Applications must initialize the COM library before they can call COM library functions other than <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a> and memory allocation functions.
 
 ## -parameters
-
-
-
 
 ### -param pvReserved [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -115,14 +106,8 @@ A previous call to <a href="https://docs.microsoft.com/windows/desktop/api/comba
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Applications that use the following functionality must call <b>OleInitialize</b> before calling any other function in the COM library: 
 
@@ -144,13 +129,7 @@ Typically, the COM library is initialized on an apartment only once. Subsequent 
 
 Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <b>OleInitialize</b> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a> from the <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
@@ -161,7 +140,4 @@ Because there is no way to control the order in which in-process servers are loa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a>
- 
-
- 
 

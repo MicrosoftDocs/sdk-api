@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05
 ms.date: 12/05/2018
 ms.keywords: IResultData2, IResultData2 interface [MMC], IResultData2 interface [MMC],described, _slate_iresultdata2, mmc.iresultdata2, mmc/IResultData2
-f1_keywords:
-- mmc/IResultData2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IResultData2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultData2
+ - mmc/IResultData2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IResultData2
 ---
 
 # IResultData2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IResultData2</b> interface supersedes the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a> interface. The 
 <b>IResultData2</b> interface contains the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata2-renameresultitem">IResultData2::RenameResultItem</a> method, which allows a result node to programmatically be put in rename mode.
-
 
 ## -inheritance
 
@@ -186,5 +185,5 @@ Sorts all result items.</p> (Inherited from IResultData)</td>
 <td align="left" width="63%">
 Redraws an item in the result pane after it has been changed.</p> (Inherited from IResultData)</td>
 </tr>
-</table> 
+</table>
 

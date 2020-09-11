@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 2b64a14f-ad55-46df-a7a6-7f05fcb2c875
 ms.date: 12/05/2018
 ms.keywords: ScriptGetFontAlternateGlyphs, ScriptGetFontAlternateGlyphs function [Internationalization for Windows Applications], _win32_ScriptGetFontAlternateGlyphs, intl.scriptgetfontalternateglyphs, usp10/ScriptGetFontAlternateGlyphs
-f1_keywords:
-- usp10/ScriptGetFontAlternateGlyphs
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Usp10.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptGetFontAlternateGlyphs
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - ScriptGetFontAlternateGlyphs
+ - usp10/ScriptGetFontAlternateGlyphs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptGetFontAlternateGlyphs
 ---
 
 # ScriptGetFontAlternateGlyphs function
@@ -52,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of alternate glyphs for a specified character that can be accessed through a specified OpenType feature.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in, optional]
 
 Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
 
-
 ### -param psc [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure defining the script cache.
-
 
 ### -param psa [in, optional]
 
@@ -77,31 +71,25 @@ Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_
 
 Alternatively, the application can set this parameter to <b>NULL</b> to receive unfiltered results.
 
-
 ### -param tagScript [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the script tag associated with alternate glyphs.
-
 
 ### -param tagLangSys [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the language tag associated with alternate glyphs.
 
-
 ### -param tagFeature [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the feature tag associated with alternate glyphs.
-
 
 ### -param wGlyphId [in]
 
 The identifier of the original glyph mapped from the character map table.
 
-
 ### -param cMaxAlternates [in]
 
 Length of the array specified by <i>pAlternateGlyphs</i>.
-
 
 ### -param pAlternateGlyphs [out]
 
@@ -109,26 +97,17 @@ Pointer to buffer in which this function retrieves an array of glyph identifiers
 
 When the user chooses an alternate form from the user interface, the alternate glyph is applied to the corresponding character and the rendering is reformatted.
 
-
 ### -param pcAlternates [out]
 
 Pointer to the number of elements in the array specified by <i>pAlternateGlyphs</i>.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. The application can test the return value with the <b>SUCCEEDED</b> and <b>FAILED</b> macros.
 
 If the number of alternate glyphs exceeds the value of <i>cMaxAlternates</i>, the function fails with E_OUTOFMEMORY. The application can try calling again with larger buffers.
 
-
-
-
 ## -remarks
-
-
 
 When using alternate glyphs, the application first reshapes the original glyph without applying any feature tag, then selects an alternate. The original glyph is established as the base glyph. If another alternate is required, the original glyph provides information to match with the corresponding alternates list.
 
@@ -141,12 +120,7 @@ For shaping fonts with Uniscribe, <a href="https://docs.microsoft.com/windows/de
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>
 
@@ -181,7 +155,4 @@ For shaping fonts with Uniscribe, <a href="https://docs.microsoft.com/windows/de
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 1af3ff6d-bc9f-44ad-9981-124ac1961298
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_23, *PUSER_INFO_23, LPUSER_INFO_23, LPUSER_INFO_23 structure pointer [Network Management], PUSER_INFO_23, PUSER_INFO_23 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_23, USER_INFO_23 structure [Network Management], _win32_user_info_23_str, lmaccess/LPUSER_INFO_23, lmaccess/PUSER_INFO_23, lmaccess/USER_INFO_23, netmgmt.user_info_23_str'
-f1_keywords:
-- lmaccess/USER_INFO_23
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- USER_INFO_23
 targetos: Windows
 req.typenames: USER_INFO_23, *PUSER_INFO_23, *LPUSER_INFO_23
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USER_INFO_23
+ - lmaccess/_USER_INFO_23
+ - PUSER_INFO_23
+ - lmaccess/PUSER_INFO_23
+ - USER_INFO_23
+ - lmaccess/USER_INFO_23
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - USER_INFO_23
 ---
 
 # USER_INFO_23 structure
 
 
 ## -description
-
 
 The
 				<b>USER_INFO_23</b> structure contains information about a user account, including the account name, the user's full name, a comment associated with the account, and the user's security identifier (SID).
@@ -62,9 +66,6 @@ the <b>USER_INFO_23</b> structure instead of the
 
 ## -struct-fields
 
-
-
-
 ### -field usri23_name
 
 Type: <b>LPWSTR</b>
@@ -72,20 +73,17 @@ Type: <b>LPWSTR</b>
 A pointer to a Unicode string that specifies the name of the user account. Calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function ignore this member.
 
-
 ### -field usri23_full_name
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains the full name of the user. This string can be a null string, or it can have any number of characters before the terminating null character.
 
-
 ### -field usri23_comment
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains a comment associated with the user account. This string can be a null string, or it can have any number of characters before the terminating null character.
-
 
 ### -field usri23_flags
 
@@ -317,8 +315,6 @@ This is a permit to trust account for a domain that trusts other domains.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri23_user_sid
 
@@ -329,11 +325,7 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
 
@@ -364,7 +356,4 @@ A pointer to a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

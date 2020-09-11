@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e540b816-64e1-4c78-9020-2b221e813acc
 ms.date: 12/05/2018
 ms.keywords: CryptDecryptMessage, CryptDecryptMessage function [Security], _crypto2_cryptdecryptmessage, security.cryptdecryptmessage, wincrypt/CryptDecryptMessage
-f1_keywords:
-- wincrypt/CryptDecryptMessage
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptDecryptMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptDecryptMessage
+ - wincrypt/CryptDecryptMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptDecryptMessage
 ---
 
 # CryptDecryptMessage function
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptDecryptMessage</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">decodes</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">decrypts</a> a message.
 
-
 ## -parameters
-
-
-
 
 ### -param pDecryptPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_decrypt_message_para">CRYPT_DECRYPT_MESSAGE_PARA</a> structure that contains decryption parameters.
 
-
 ### -param pbEncryptedBlob [in]
 
 A pointer to a buffer that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encoded</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encrypted</a> message to be decrypted.
 
-
 ### -param cbEncryptedBlob [in]
 
 The size, in bytes, of the encoded and encrypted message.
-
 
 ### -param pbDecrypted [out, optional]
 
@@ -83,7 +76,6 @@ A pointer to a buffer that receives the decrypted message.
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. A decrypted message will not be returned if this parameter is <b>NULL</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbDecrypted [in, out, optional]
 
@@ -98,10 +90,7 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that corresponds to the private <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange key</a> needed to decrypt the message. To indicate that the function should not return the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt, set this parameter to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
@@ -180,12 +169,7 @@ No certificate was found having a <a href="https://docs.microsoft.com/windows/de
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 When <b>NULL</b> is passed for <i>pbDecrypted</i>, and <i>pcbDecrypted</i> is not <b>NULL</b>, <b>NULL</b> is returned for the address passed in <i>ppXchgCert</i>; otherwise, a pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> is returned. For a successfully decrypted message, this pointer to a <b>CERT_CONTEXT</b> points to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt the message. It must be freed by calling 
@@ -199,19 +183,11 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

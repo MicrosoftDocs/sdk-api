@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 98052f26-7956-4973-ab86-428e7a355937
 ms.date: 12/05/2018
 ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], ITocEntryList interface [Media Foundation],described, codecapi.itocentrylist, mf.itocentrylist, wmcodecdsp/ITocEntryList
-f1_keywords:
-- wmcodecdsp/ITocEntryList
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocEntryList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocEntryList
+ - wmcodecdsp/ITocEntryList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocEntryList
 ---
 
 # ITocEntryList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITocEntryList</b> interface represents a list of entries in a table of contents. It provides methods for adding entries to, and removing entries from the list.
-
 
 ## -inheritance
 
@@ -113,20 +112,13 @@ Removes an entry, specified by an index, from the list.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
- 
-
- 
 

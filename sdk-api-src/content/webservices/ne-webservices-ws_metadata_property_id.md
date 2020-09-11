@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: d3baa961-4701-4f2f-9263-5ac0266f6056
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_PROPERTY_HEAP_PROPERTIES, WS_METADATA_PROPERTY_HEAP_REQUESTED_SIZE, WS_METADATA_PROPERTY_HOST_NAMES, WS_METADATA_PROPERTY_ID, WS_METADATA_PROPERTY_ID enumeration [Web Services for Windows], WS_METADATA_PROPERTY_MAX_DOCUMENTS, WS_METADATA_PROPERTY_POLICY_PROPERTIES, WS_METADATA_PROPERTY_STATE, WS_METADATA_PROPERTY_VERIFY_HOST_NAMES, webservices/WS_METADATA_PROPERTY_HEAP_PROPERTIES, webservices/WS_METADATA_PROPERTY_HEAP_REQUESTED_SIZE, webservices/WS_METADATA_PROPERTY_HOST_NAMES, webservices/WS_METADATA_PROPERTY_ID, webservices/WS_METADATA_PROPERTY_MAX_DOCUMENTS, webservices/WS_METADATA_PROPERTY_POLICY_PROPERTIES, webservices/WS_METADATA_PROPERTY_STATE, webservices/WS_METADATA_PROPERTY_VERIFY_HOST_NAMES, wsw.ws_metadata_property_id
-f1_keywords:
-- webservices/WS_METADATA_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_METADATA_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_METADATA_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_METADATA_PROPERTY_ID
+ - webservices/WS_METADATA_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_METADATA_PROPERTY_ID
 ---
 
 # WS_METADATA_PROPERTY_ID enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Each metadata property is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a>, is identified by an ID, and has an associated value.  If a property is not specified when the metadata is created,
                 then its default value is used.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_METADATA_PROPERTY_STATE
 
@@ -66,8 +61,6 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                 
 
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> structure contains  the current <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_state">WS_METADATA_STATE</a> of the metadata object.
-                
-
 
 ### -field WS_METADATA_PROPERTY_HEAP_PROPERTIES
 
@@ -105,8 +98,6 @@ The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_policy_property_id">WS_POLICY_PROPERTY_ID</a> for more information on the
                     set of properties that may be specified here.
-                
-
 
 ### -field WS_METADATA_PROPERTY_HEAP_REQUESTED_SIZE
 
@@ -115,7 +106,6 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
 
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> is a <b>SIZE_T</b> specifying the number of bytes allocated from the heap associated with the
                     metadata object.
-
 
 ### -field WS_METADATA_PROPERTY_MAX_DOCUMENTS
 
@@ -127,8 +117,6 @@ The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/
                 
 
 The default value is 32.
-                
-
 
 ### -field WS_METADATA_PROPERTY_HOST_NAMES
 
@@ -146,8 +134,6 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webse
                 
 
 If the property is not specified, then the list of host names is empty.
-                
-
 
 ### -field WS_METADATA_PROPERTY_VERIFY_HOST_NAMES
 
@@ -166,5 +152,4 @@ The default value is <b>TRUE</b>.
 
 Setting this value to <b>FALSE</b> may cause an application to use
                     an address returned from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmissingmetadatadocumentaddress">WsGetMissingMetadataDocumentAddress</a>that is from a host that it is not willing to accept metadata from.
-                
 

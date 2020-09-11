@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 6A19F429-D7B2-4A71-8904-31BFA1FD10C6
 ms.date: 12/05/2018
 ms.keywords: ClearUnorderedAccessViewFloat, ClearUnorderedAccessViewFloat method, ClearUnorderedAccessViewFloat method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewFloat method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat, ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewfloat
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat
+ - d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
 ---
 
 ## -description
@@ -108,3 +109,4 @@ The debug layer issues an error if the subresources referenced by the view aren'
 ## -see-also
 
 [ID3D12GraphicsCommandList interface](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist)
+

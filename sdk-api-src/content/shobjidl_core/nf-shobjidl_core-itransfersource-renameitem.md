@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 793eba59-6d21-4c7b-8fdb-bb7658fc410e
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],RenameItem method, ITransferSource.RenameItem, ITransferSource::RenameItem, RenameItem, RenameItem method [Windows Shell], RenameItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RenameItem, shell.ITransferSource_RenameItem, shobjidl_core/ITransferSource::RenameItem
-f1_keywords:
-- shobjidl_core/ITransferSource.RenameItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferSource.RenameItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferSource::RenameItem
+ - shobjidl_core/ITransferSource::RenameItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferSource.RenameItem
 ---
 
 # ITransferSource::RenameItem
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the name of an item, returning the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> with the new name.
 
-
 ## -parameters
-
-
-
 
 ### -param psiSource [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object to be renamed.
 
-
 ### -param pszNewName [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a null-terminated, Unicode string containing the new name.
-
 
 ### -param flags [in]
 
@@ -78,17 +72,13 @@ Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_so
 
 Flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
-
 ### -param ppsiNewDest [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
 
 When this method returns, contains the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -199,7 +189,4 @@ Operation requires elevated privileges.
 </td>
 </tr>
 </table>
- 
-
-
 

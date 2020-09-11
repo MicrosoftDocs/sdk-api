@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat.htm
 ms.date: 12/05/2018
 ms.keywords: CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_ITALIC, CFE_PROTECTED, CFE_STRIKEOUT, CFE_UNDERLINE, CFM_ALL, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_EFFECTS, CFM_FACE, CFM_ITALIC, CFM_OFFSET, CFM_PROTECTED, CFM_SIZE, CFM_STRIKEOUT, CFM_UNDERLINE., CHARFORMAT, CHARFORMAT structure [Windows Controls], CHARFORMATA, CHARFORMATW, _win32_CHARFORMAT_str, _win32_CHARFORMAT_str_cpp, controls.CHARFORMAT, controls._win32_CHARFORMAT_str, richedit/CHARFORMAT, richedit/CHARFORMATA, richedit/CHARFORMATW
-f1_keywords:
-- richedit/CHARFORMAT
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- CHARFORMAT
-- CHARFORMATA
-- CHARFORMATW
 targetos: Windows
 req.typenames: CHARFORMATW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _charformatw
+ - richedit/_charformatw
+ - CHARFORMATW
+ - richedit/CHARFORMATW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - CHARFORMAT
+ - CHARFORMATA
+ - CHARFORMATW
 ---
 
 # CHARFORMATW structure
@@ -51,24 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about character formatting in a rich edit control.
         
 
-<b>Rich Edit 2.0:</b> The <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
-
+<b>Rich Edit 2.0:</b> The <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Size in bytes of the specified structure. This member must be set before passing the structure to the rich edit control. 
-
+Size in bytes of the specified structure. This member must be set before passing the structure to the rich edit control.
 
 ### -field dwMask
 
@@ -202,8 +199,6 @@ The CFE_UNDERLINE value of the <b>dwEffects</b> member is valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwEffects
 
@@ -287,29 +282,24 @@ Characters are protected; an attempt to modify them will cause an <a href="https
 </td>
 </tr>
 </table>
- 
-
 
 ### -field yHeight
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-Character height, in twips (1/1440 of an inch or 1/20 of a printer's point). 
-
+Character height, in twips (1/1440 of an inch or 1/20 of a printer's point).
 
 ### -field yOffset
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-Character offset, in twips, from the baseline. If the value of this member is positive, the character is a superscript; if it is negative, the character is a subscript. 
-
+Character offset, in twips, from the baseline. If the value of this member is positive, the character is a superscript; if it is negative, the character is a subscript.
 
 ### -field crTextColor
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-Text color. This member is ignored if the CFE_AUTOCOLOR character effect is specified. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro. 
-
+Text color. This member is ignored if the CFE_AUTOCOLOR character effect is specified. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -field bCharSet
 
@@ -317,26 +307,21 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Character set value. The 
 					<b>bCharSet</b> member can be one of the values specified for the 
-					<b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. Microsoft Rich Edit 3.0 may override this value if it is invalid for the target characters. 
-
+					<b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. Microsoft Rich Edit 3.0 may override this value if it is invalid for the target characters.
 
 ### -field bPitchAndFamily
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. 
-
+Font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 ### -field szFaceName
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a>[LF_FACESIZE]</b>
 
-Null-terminated character array specifying the font name. 
-
+Null-terminated character array specifying the font name.
 
 ## -remarks
-
-
 
 To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> but do not set the corresponding value in <b>dwEffects</b>. For example, to turn off italics, set CFM_ITALIC but do not set CFE_ITALIC.
 
@@ -348,9 +333,6 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 > The richedit.h header defines CHARFORMAT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
 
@@ -369,7 +351,4 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 <b>Reference</b>
- 
-
- 
 

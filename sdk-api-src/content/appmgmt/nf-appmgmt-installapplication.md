@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: 5b2e1d82-a421-42af-9e1b-391ae9d4813e
 ms.date: 12/05/2018
 ms.keywords: InstallApplication, InstallApplication function [Group Policy], appmgmt/InstallApplication, policy.installapplication
-f1_keywords:
-- appmgmt/InstallApplication
-dev_langs:
-- c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- ext-ms-win-advapi32-msi-l1-1-0.dll
-api_name:
-- InstallApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InstallApplication
+ - appmgmt/InstallApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - ext-ms-win-advapi32-msi-l1-1-0.dll
+api_name:
+ - InstallApplication
 ---
 
 # InstallApplication function
@@ -50,33 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InstallApplication</b> function can install applications  that have been deployed to target users that belong to a domain. The security context of the user that is calling <b>InstallApplication</b> must be that of a domain user logged onto a computer in a domain that trusts the target user's domain. Group Policy must be successfully applied when the target user logs on.
 
-
 ## -parameters
-
-
-
 
 ### -param pInstallInfo [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a> structure that specifies the application to install.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, the function returns one of the system error codes. For a complete list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 The <b>InstallApplication</b> function can only install applications that have been deployed by using  Group Policy. A domain administrator can deploy applications to  target users by using  the  user configuration section of Group Policy Objects (GPO). The target user must belong to the target domain and the GPO must apply to this  user in the target  domain. The <b>InstallApplication</b> function installs applications according to standard Group Policy inheritance rules.  If the same application is deployed in multiple GPOs, the function installs the version of the application deployed in the highest precedence GPO.  After an application has been  installed for a user, it is not visible to other users on the computer. This is standard for applications that are deployed through user group policy.
 
@@ -95,13 +83,7 @@ Remove applications using software installation settings (.zap files) by calling
 
 For information about using installation applications other than  the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal">Windows Installer</a> see article 231747, "How to Publish non-MSI Programs with .zap Files," in the Microsoft Knowledge Base.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
@@ -130,7 +112,4 @@ For information about using installation applications other than  the <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>
- 
-
- 
 

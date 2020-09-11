@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 5b389660-f74d-48ae-a16b-5822661f0015
 ms.date: 12/05/2018
 ms.keywords: GetEnumeratorForType, GetEnumeratorForType method [Open Packaging Conventions], GetEnumeratorForType method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetEnumeratorForType method, IOpcRelationshipSet.GetEnumeratorForType, IOpcRelationshipSet::GetEnumeratorForType, msopc/IOpcRelationshipSet::GetEnumeratorForType, opc.iopcrelationshipset_getenumeratorfortype
-f1_keywords:
-- msopc/IOpcRelationshipSet.GetEnumeratorForType
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationshipSet.GetEnumeratorForType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationshipSet::GetEnumeratorForType
+ - msopc/IOpcRelationshipSet::GetEnumeratorForType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationshipSet.GetEnumeratorForType
 ---
 
 # IOpcRelationshipSet::GetEnumeratorForType
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
             Gets an enumerator of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointers in the set that point to representations of relationships  that have a specified relationship type.
 
-
 ## -parameters
-
-
-
 
 ### -param relationshipType [in]
 
 The relationship type used to identify <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointers to be enumerated.
 
-
 ### -param relationshipEnumerator [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipenumerator">IOpcRelationshipEnumerator</a> interface of the  enumerator of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface pointers in the set that point to representations of relationships  that have a specified relationship type.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -124,14 +116,8 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For information about forming the part name for the target of a relationship, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> topic.
 
@@ -146,13 +132,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -195,7 +175,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
- 
-
- 
 

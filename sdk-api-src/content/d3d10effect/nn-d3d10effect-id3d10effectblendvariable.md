@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable.htm
 ms.date: 12/05/2018
 ms.keywords: 5dc3aa3a-6996-e7d4-76dc-917fe69d9260, ID3D10EffectBlendVariable, ID3D10EffectBlendVariable interface [Direct3D 10], ID3D10EffectBlendVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectBlendVariable, direct3d10.id3d10effectblendvariable
-f1_keywords:
-- d3d10effect/ID3D10EffectBlendVariable
-dev_langs:
-- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10EffectBlendVariable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10EffectBlendVariable
+ - d3d10effect/ID3D10EffectBlendVariable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10EffectBlendVariable
 ---
 
 # ID3D10EffectBlendVariable interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The blend-variable interface accesses blend state.
-
 
 ## -inheritance
 
@@ -87,32 +86,20 @@ Get a pointer to a blend-state interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An <b>ID3D10EffectBlendVariable Interface</b> is created when an effect is read into memory.
 
 Effect variables are saved in memory in the backing store; when a technique is applied, the values in the backing store are copied to the device. You
  can use either of these methods to return state. For examples, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-effects-set-state">Two Ways to Get the State in an Effect Variable</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>
- 
-
- 
 

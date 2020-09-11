@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 3d1ded3c-fdeb-4e02-92ee-d0986711c335
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetOutputFormat method, IAMLine21Decoder.GetOutputFormat, IAMLine21Decoder::GetOutputFormat, IAMLine21DecoderGetOutputFormat, dshow.iamline21decoder_getoutputformat, il21dec/IAMLine21Decoder::GetOutputFormat
-f1_keywords:
-- il21dec/IAMLine21Decoder.GetOutputFormat
-dev_langs:
-- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMLine21Decoder.GetOutputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMLine21Decoder::GetOutputFormat
+ - il21dec/IAMLine21Decoder::GetOutputFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMLine21Decoder.GetOutputFormat
 ---
 
 # IAMLine21Decoder::GetOutputFormat
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetOutputFormat</code> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter's output format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpbmih
 
 Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -112,22 +102,12 @@ The output format has not been set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
- 
-
- 
 

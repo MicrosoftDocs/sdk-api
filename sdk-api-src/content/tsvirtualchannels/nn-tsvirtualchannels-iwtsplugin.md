@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: e34caf2c-1eb6-40eb-9407-20ed4fde9cdb
 ms.date: 12/05/2018
 ms.keywords: IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], IWTSPlugin interface [Remote Desktop Services],described, termserv.iwtsplugin, tsvirtualchannels/IWTSPlugin
-f1_keywords:
-- tsvirtualchannels/IWTSPlugin
-dev_langs:
-- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TsVirtualChannels.h
-api_name:
-- IWTSPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSPlugin
+ - tsvirtualchannels/IWTSPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TsVirtualChannels.h
+api_name:
+ - IWTSPlugin
 ---
 
 # IWTSPlugin interface
 
 
 ## -description
-
 
 Allows for the Remote Desktop Connection (RDC) client plug-in to be loaded by the Remote Desktop Connection (RDC) client. The interface is implemented by the plug-in, and is obtained by and managed by the RDC client.
 
@@ -57,7 +57,6 @@ The RDC client obtains an instance of this interface by either instantiating the
 As a COM object, the plug-in must be implemented in a free-threading model. Because the <b>IWTSPlugin</b> methods are implemented by the plug-in, the plug-in must be aware that the call may arrive on different threads. The calls will always arrive serially, so it is impossible to have any two calls that are executed in parallel.
 
 Implementation should not block these calls because this may block other incoming connections or data on existing connections.
-
 
 ## -inheritance
 
@@ -110,5 +109,5 @@ Notifies the plug-in that the Remote Desktop Connection (RDC) client has termina
 
 </td>
 </tr>
-</table> 
+</table>
 

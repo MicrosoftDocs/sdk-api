@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 0e45e5ea-9f38-4a96-be44-8ee123492aa9
 ms.date: 12/05/2018
 ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies], IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],described, bdaiface/IBDA_ISDBConditionalAccess, mstv.ibda_isdbconditionalaccess
-f1_keywords:
-- bdaiface/IBDA_ISDBConditionalAccess
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_ISDBConditionalAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_ISDBConditionalAccess
+ - bdaiface/IBDA_ISDBConditionalAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_ISDBConditionalAccess
 ---
 
 # IBDA_ISDBConditionalAccess interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends conditional access system (CAS) commands for Integrated Services Digital Broadcasting (ISDB).
 
 For more information, refer to ARIB STD-B25, <i>Conditional Access System Specifications for Digital Broadcasting</i>. (This resource may not be available in some languages 
 
 and countries.)
-
 
 ## -inheritance
 
@@ -81,14 +80,9 @@ Sends a CAS command.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_ISDBConditionalAccess)</code>.
-
-
 

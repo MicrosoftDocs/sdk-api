@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 8337376e-5de6-4d6d-9f95-49b83d438168
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],put_Balance method, ITBasicAudioTerminal.put_Balance, ITBasicAudioTerminal::put_Balance, _tapi3_itbasicaudioterminal_put_balance, put_Balance, put_Balance method [TAPI 2.2], put_Balance method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_put_balance, tapi3if/ITBasicAudioTerminal::put_Balance
-f1_keywords:
-- tapi3if/ITBasicAudioTerminal.put_Balance
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicAudioTerminal.put_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicAudioTerminal::put_Balance
+ - tapi3if/ITBasicAudioTerminal::put_Balance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicAudioTerminal.put_Balance
 ---
 
 # ITBasicAudioTerminal::put_Balance
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>put_Balance</b> method sets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 
-
 ## -parameters
-
-
-
 
 ### -param lBalance [in]
 
 Balance.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,24 +102,12 @@ Terminal's balance methods are not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The balance property is a value between –10,000 and 10,000. A value of –10,000 indicates that the right speaker has been disabled and only the left speaker is receiving an audio signal. A value of 0 indicates that both speakers are receiving equivalent audio signals. A value of 10,000 indicates that the left speaker has been disabled and only the right speaker is receiving an audio signal.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal">ITBasicAudioTerminal</a>
 
@@ -137,7 +118,4 @@ The balance property is a value between –10,000 and 10,000. A value of –10,0
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-get_balance">get_Balance</a>
- 
-
- 
 

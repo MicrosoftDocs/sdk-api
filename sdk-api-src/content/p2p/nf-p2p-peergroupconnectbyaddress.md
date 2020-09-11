@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 44885110-fcb1-402a-86c6-1229b087165b
 ms.date: 12/05/2018
 ms.keywords: PeerGroupConnectByAddress, PeerGroupConnectByAddress function [Peer Networking], p2p.peergroupconnectbyaddress, p2p/PeerGroupConnectByAddress
-f1_keywords:
-- p2p/PeerGroupConnectByAddress
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerGroupConnectByAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGroupConnectByAddress
+ - p2p/PeerGroupConnectByAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerGroupConnectByAddress
 ---
 
 # PeerGroupConnectByAddress function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGroupConnectByAddress</b> function  attempts to connect to the peer group that other peers with known IPv6 addresses are participating in. After this function is  called successfully, a peer can communicate with other members of the peer group.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 Handle to the peer group  to which a peer intends to connect. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>,<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrouppasswordjoin">PeerGroupPasswordJoin</a> function. This parameter is required.
 
-
 ### -param cAddresses [in]
 
 The total number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structures pointed to by <i>pAddresses</i>.
-
 
 ### -param pAddresses [in]
 
 Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structures that specify the endpoints of peers participating in the group.
 
-
 ## -returns
-
-
 
 Returns S_OK if the operation succeeds. Otherwise, the function returns  the following value.
 
@@ -100,22 +91,11 @@ The handle to the peer group is invalid.
 
 Cryptography-specific errors may be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 If  a time-out value for PeerGroupConnectByAddress is not provided in the application, encountering a failure will cause the application to hang.  A time-out value  of 30 seconds is recommended.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
@@ -130,7 +110,4 @@ If  a time-out value for PeerGroupConnectByAddress is not provided in the applic
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrouppasswordjoin">PeerGroupPasswordJoin</a>
- 
-
- 
 

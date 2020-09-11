@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 69296ec5-5811-4f0f-ae9c-cabca3e66158
 ms.date: 12/05/2018
 ms.keywords: 69296ec5-5811-4f0f-ae9c-cabca3e66158, GetAllLanguages, GetAllLanguages method [Media Foundation], GetAllLanguages method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetAllLanguages method, IMFMetadata.GetAllLanguages, IMFMetadata::GetAllLanguages, mf.imfmetadata_getalllanguages, mfidl/IMFMetadata::GetAllLanguages
-f1_keywords:
-- mfidl/IMFMetadata.GetAllLanguages
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMetadata.GetAllLanguages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMetadata::GetAllLanguages
+ - mfidl/IMFMetadata::GetAllLanguages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMetadata.GetAllLanguages
 ---
 
 # IMFMetadata::GetAllLanguages
@@ -50,35 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of the languages in which metadata is available.
 
-
 ## -parameters
-
-
-
 
 ### -param ppvLanguages [out]
 
 A pointer to a <b>PROPVARIANT</b> that receives the list of languages. The list is returned as an array of null-terminated wide-character strings. Each string in the array is an RFC 1766-compliant language tag. 
 
 The returned <b>PROPVARIANT</b> type is VT_VECTOR | VT_LPWSTR. The list might be empty, if no language tags are present. The caller must free the <b>PROPVARIANT</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>.
-          
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 For more information about language tags, see RFC 1766, "Tags for the Identification of Languages".
       
@@ -118,21 +105,11 @@ HRESULT DisplayLanguageList(IMFMetadata *pMetadata)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
- 
-
- 
 

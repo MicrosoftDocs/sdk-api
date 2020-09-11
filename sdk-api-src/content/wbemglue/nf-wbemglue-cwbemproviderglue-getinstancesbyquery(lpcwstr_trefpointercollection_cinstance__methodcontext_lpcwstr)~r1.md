@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: cf086577-8964-4b6b-8863-78b53f73397e
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancesByQuery method, CWbemProviderGlue.GetInstancesByQuery, CWbemProviderGlue::GetInstancesByQuery, GetInstancesByQuery, GetInstancesByQuery method [Windows Management Instrumentation], GetInstancesByQuery method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancesbyquery, wbemglue/CWbemProviderGlue::GetInstancesByQuery, wmi.cwbemproviderglue_getinstancesbyquery
-f1_keywords:
-- wbemglue/CWbemProviderGlue.GetInstancesByQuery
-dev_langs:
-- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CWbemProviderGlue.GetInstancesByQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CWbemProviderGlue::GetInstancesByQuery
+ - wbemglue/CWbemProviderGlue::GetInstancesByQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CWbemProviderGlue.GetInstancesByQuery
 ---
 
 # CWbemProviderGlue::GetInstancesByQuery
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,48 +59,31 @@ ms.custom: 19H1
 
 The <b>GetInstancesByQuery</b> method retrieves a list of instances that match a particular query.
 
-
 ## -parameters
-
-
-
 
 ### -param query
 
 Query to be executed.
 
-
 ### -param pList
 
 Linked list of instances that match the query specified by <i>Query</i>.
-
 
 ### -param pMethodContext
 
 Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
-
 ### -param pszNamespace
 
 Pointer to the namespace that contains the instances. If <b>NULL</b>, the default namespace, root<b>\</b>cimv2, is used.
 
-
 ## -returns
-
-
 
 The method returns <b>WBEM_S_NO_ERROR</b> if the operation was successful, <b>WBEM_E_FAILED</b> if the operation failed, or any other <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetInstancesByQuery</b> method allows framework providers to access data from other providers without having to make a WMI API call. Framework providers pass a query to <b>GetInstancesByQuery</b>, which returns the appropriate instances.
 
 For performance reasons, when calling this function, specify only the properties you need (for example, specify "SELECT <i>name</i>" instead of "SELECT *").
-
-
 

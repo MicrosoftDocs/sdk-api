@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: cbde3bcf-8242-49dc-9ac0-a4b078ea526e
 ms.date: 12/05/2018
 ms.keywords: IWCWizard97Callback, IWCWizard97Callback interface [Failover Cluster], IWCWizard97Callback interface [Failover Cluster],described, _wolf_iwcwizard97callback, cluadmex/IWCWizard97Callback, mscs.iwcwizard97callback
-f1_keywords:
-- cluadmex/IWCWizard97Callback
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWCWizard97Callback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCWizard97Callback
+ - cluadmex/IWCWizard97Callback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWCWizard97Callback
 ---
 
 # IWCWizard97Callback interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is available for use in the operating systems specified in the Requirements 
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IWCWizard97Callback</b> interface is called by a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extension to add a 
     Wizard97 property page to a Wizard97 wizard, such as the Cluster Application Wizard.
-
 
 ## -inheritance
 
@@ -92,12 +91,9 @@ Enables or disables the <b>Next</b> or <b>Finish</b> button on a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use the piCallback pointer that you receive when Cluster Administrator calls your 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">IWEExtendWizard97::CreateWizard97Pages</a> 
@@ -106,13 +102,7 @@ Use the piCallback pointer that you receive when Cluster Administrator calls you
 
 To add non-Wizard97 pages use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcwizardcallback">IWCWizardCallback</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-callback-interfaces">Failover Cluster Administrator Callback Interfaces</a>
 
@@ -123,7 +113,4 @@ To add non-Wizard97 pages use <a href="https://docs.microsoft.com/previous-versi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">IWEExtendWizard97::CreateWizard97Pages</a>
- 
-
- 
 

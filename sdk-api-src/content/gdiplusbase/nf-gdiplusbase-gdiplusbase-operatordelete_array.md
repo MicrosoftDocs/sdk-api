@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatordelete[].htm
 ms.date: 12/5/2018
 ms.keywords: GdiplusBase class [GDI+],operator delete[] method, GdiplusBase.operator delete[], GdiplusBase::operator delete[], _gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_, operator delete[], operator delete[] method [GDI+], operator delete[] method [GDI+],GdiplusBase class
-f1_keywords:
-- GdiplusBase.operator delete[]
-dev_langs:
-- c++
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.lib
-- Gdiplus.dll
-api_name:
-- GdiplusBase.operator delete[]
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
+f1_keywords:
+ - GdiplusBase::operator delete[]
+ - gdiplusbase/GdiplusBase::operator delete[]
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.lib
+ - Gdiplus.dll
+api_name:
+ - GdiplusBase.operator delete[]
 ---
 
 # GdiplusBase::operator delete[]
@@ -50,30 +51,20 @@ req.product: GDI+ 1.0
 
 ## -description
 
-
 The 
 		xref rid="_gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_" qualify="0"/&gt; 
 		method deallocates memory for an array of Windows GDI+ 
 		objects.
 
-
 ## -parameters
-
-
-
 
 ### -param in_pVoid [in]
 
 Type: <b>void*</b>
 
-Pointer to the array of objects to be deallocated. 
-
+Pointer to the array of objects to be deallocated.
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
 

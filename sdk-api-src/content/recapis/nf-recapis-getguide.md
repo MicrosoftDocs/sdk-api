@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: b86d6266-cce3-4f84-80b6-7d136172b3ca
 ms.date: 12/05/2018
 ms.keywords: GetGuide, GetGuide function [Tablet PC], b86d6266-cce3-4f84-80b6-7d136172b3ca, recapis/GetGuide, tablet.getguide
-f1_keywords:
-- recapis/GetGuide
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- GetGuide
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetGuide
+ - recapis/GetGuide
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - GetGuide
 ---
 
 # GetGuide function
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the guide used for boxed, lined, or freeform input.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrc
 
 The handle to the recognizer context.
 
-
 ### -param pGuide
 
 A guide used for boxed, lined, or freeform input. For guide details, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE</a> structure.
-
 
 ### -param piIndex
 
 Index value of the first box or line in the context.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -143,22 +131,12 @@ One of the parameters is an invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE Structure</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide Function</a>
- 
-
- 
 

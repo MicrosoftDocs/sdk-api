@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 5fc37251-938b-4581-bb54-816749b17001
 ms.date: 12/05/2018
 ms.keywords: ITfStatusSink, ITfStatusSink interface [Text Services Framework], ITfStatusSink interface [Text Services Framework],described, _tsf_itfstatussink_ref, msctf/ITfStatusSink, tsf.itfstatussink
-f1_keywords:
-- msctf/ITfStatusSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITfStatusSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfStatusSink
+ - msctf/ITfStatusSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITfStatusSink
 ---
 
 # ITfStatusSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfStatusSink</b> interface supports changes to the global document status. This advise sink is installed by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfStatusSink. A text service can optionally implement this interface.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Receives a notification when one of the dynamic flags of the TF_STATUS structure
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
@@ -101,7 +96,4 @@ Receives a notification when one of the dynamic flags of the TF_STATUS structure
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS
       </a>
- 
-
- 
 

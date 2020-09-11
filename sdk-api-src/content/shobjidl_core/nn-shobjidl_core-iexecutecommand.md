@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a3432f1a-dd33-4e0d-8b26-1312bb5151f7
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand, IExecuteCommand interface [Windows Shell], IExecuteCommand interface [Windows Shell],described, _shell_IExecuteCommand, shell.IExecuteCommand, shobjidl_core/IExecuteCommand
-f1_keywords:
-- shobjidl_core/IExecuteCommand
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExecuteCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExecuteCommand
+ - shobjidl_core/IExecuteCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExecuteCommand
 ---
 
 # IExecuteCommand interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that set a given state or parameter related to the command verb, as well as a method to invoke that verb.
-
 
 ## -inheritance
 
@@ -131,12 +130,9 @@ Sets the specified window's visual state.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Implement this interface when you choose it as your method to invoke the verb to perform an action on selected items. The items are passed as a Shell item array through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithselection-setselection">IObjectWithSelection::SetSelection</a>, so the object must also implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection">IObjectWithSelection</a>.
@@ -145,6 +141,4 @@ Implement this interface when you choose it as your method to invoke the verb to
 Do not call the methods of <b>IExecuteCommand</b> directly. Windows Explorer calls your <b>IExecuteCommand</b> methods when the user wants to perform an action on the items.
 
 Note that, apart from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-execute">Execute</a>, the methods of this interface pass system information to the handler. The system itself calls these methods, setting the parameters appropriately based on system settings and conditions.
-
-
 

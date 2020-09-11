@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 2ba4b971-467c-47a6-8c4d-8e41b7874c80
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpGetThreadOptions, DhcpGetThreadOptions function [DHCP], dhcp.dhcpgetthreadoptions, dhcpsapi/DhcpGetThreadOptions
-f1_keywords:
-- dhcpsapi/DhcpGetThreadOptions
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetThreadOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetThreadOptions
+ - dhcpsapi/DhcpGetThreadOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetThreadOptions
 ---
 
 # DhcpGetThreadOptions function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options as set by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>. 
-
+The <b>DhcpGetThreadOptions</b> function  retrieves the current thread options as set by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>.
 
 ## -parameters
-
-
-
 
 ### -param pFlags [out]
 
@@ -89,30 +85,16 @@ Do not access the directory service while the DHCP thread is executing. After th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved [out]
 
 Reserved. This parameter must be set to null.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetthreadoptions">DhcpSetThreadOptions</a>
- 
-
- 
 

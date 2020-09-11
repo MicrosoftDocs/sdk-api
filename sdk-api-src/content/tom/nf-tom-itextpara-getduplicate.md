@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetduplicate.htm
 ms.date: 12/05/2018
 ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetDuplicate method, ITextPara.GetDuplicate, ITextPara::GetDuplicate, _win32_ITextPara_GetDuplicate, _win32_ITextPara_GetDuplicate_cpp, controls.ITextPara_GetDuplicate, controls._win32_ITextPara_GetDuplicate, tom/ITextPara::GetDuplicate
-f1_keywords:
-- tom/ITextPara.GetDuplicate
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetDuplicate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetDuplicate
+ - tom/ITextPara::GetDuplicate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetDuplicate
 ---
 
 # ITextPara::GetDuplicate
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppPara
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>**</b>
 
-The duplicate <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object. 
-
+The duplicate <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -123,15 +116,8 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -150,7 +136,4 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

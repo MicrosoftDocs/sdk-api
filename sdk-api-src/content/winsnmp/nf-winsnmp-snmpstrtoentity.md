@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: d0a8e389-ba5b-45f4-9682-1fbe456daaed
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStrToEntity, SnmpStrToEntity function [SNMP], _snmp_snmpstrtoentity, snmp.snmpstrtoentity, winsnmp/SnmpStrToEntity
-f1_keywords:
-- winsnmp/SnmpStrToEntity
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpStrToEntity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpStrToEntity
+ - winsnmp/SnmpStrToEntity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpStrToEntity
 ---
 
 # SnmpStrToEntity function
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpStrToEntity</b> function returns a handle to information about an SNMP management entity that is specific to the Microsoft WinSNMP implementation.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
 Handle to the WinSNMP session.
-
 
 ### -param string [in]
 
@@ -109,12 +104,8 @@ The implementation interprets the <i>string</i> parameter as a literal SNMP tran
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the SNMP management entity of interest.
 
@@ -184,14 +175,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The current setting of the entity and context translation mode determines the manner in which 
 <b>SnmpStrToEntity</b> interprets the input string that identifies the management entity of interest. For additional information, see 
@@ -215,13 +200,7 @@ The implementation returns the current entity and context translation mode in th
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function. A WinSNMP application can change the setting of the entity and context translation mode with a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsettranslatemode">SnmpSetTranslateMode</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpdecodemsg">SnmpDecodeMsg</a>
 
@@ -261,7 +240,4 @@ The implementation returns the current entity and context translation mode in th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

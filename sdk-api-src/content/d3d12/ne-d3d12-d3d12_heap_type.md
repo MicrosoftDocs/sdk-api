@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4
 ms.date: 12/05/2018
 ms.keywords: D3D12_HEAP_TYPE, D3D12_HEAP_TYPE enumeration, D3D12_HEAP_TYPE_CUSTOM, D3D12_HEAP_TYPE_DEFAULT, D3D12_HEAP_TYPE_READBACK, D3D12_HEAP_TYPE_UPLOAD, d3d12/D3D12_HEAP_TYPE, d3d12/D3D12_HEAP_TYPE_CUSTOM, d3d12/D3D12_HEAP_TYPE_DEFAULT, d3d12/D3D12_HEAP_TYPE_READBACK, d3d12/D3D12_HEAP_TYPE_UPLOAD, direct3d12.d3d12_heap_type
-f1_keywords:
-- d3d12/D3D12_HEAP_TYPE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_HEAP_TYPE
 targetos: Windows
 req.typenames: D3D12_HEAP_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_HEAP_TYPE
+ - d3d12/D3D12_HEAP_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_HEAP_TYPE
 ---
 
 # D3D12_HEAP_TYPE enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the type of heap.
           When resident, heaps reside in a particular physical memory pool with certain CPU cache properties.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D3D12_HEAP_TYPE_DEFAULT
 
@@ -66,8 +61,6 @@ Specifies the default heap.
             This heap type experiences the most bandwidth for the GPU, but cannot provide CPU access.
             The GPU can read and write to the memory from this pool, and resource transition barriers may be changed.
             The majority of heaps and resources are expected to be located here, and are typically populated through resources in upload heaps.
-          
-
 
 ### -field D3D12_HEAP_TYPE_UPLOAD
 
@@ -110,8 +103,6 @@ Specifies a heap used for reading back.
             
 
 Resources in this heap must be created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE</a>_COPY_DEST, and cannot be changed away from this.
-            
-
 
 ### -field D3D12_HEAP_TYPE_CUSTOM
 
@@ -122,12 +113,8 @@ Specifies a custom heap.
             <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>_ARCHITECTURE, 
             <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture">D3D12_FEATURE_DATA_ARCHITECTURE</a>, and 
             <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a>.
-          
-
 
 ## -remarks
-
-
 
 This enum is used by the following API items:
         
@@ -173,15 +160,9 @@ Note that textures (unlike buffers) can't be heap type UPLOAD or READBACK.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
- 
-
- 
 

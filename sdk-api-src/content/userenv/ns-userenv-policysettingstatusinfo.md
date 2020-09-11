@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: f86dbd35-9180-43f1-ad66-7dba31e1fc89
 ms.date: 12/05/2018
 ms.keywords: '*LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO structure pointer [Group Policy], POLICYSETTINGSTATUSINFO, POLICYSETTINGSTATUSINFO structure [Group Policy], RSOPApplied, RSOPFailed, RSOPIgnored, RSOPSubsettingFailed, RSOPUnspecified, _win32_policysettingstatusinfo_str, policy.policysettingstatusinfo_str, userenv/LPPOLICYSETTINGSTATUSINFO, userenv/POLICYSETTINGSTATUSINFO'
-f1_keywords:
-- userenv/POLICYSETTINGSTATUSINFO
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Userenv.h
-api_name:
-- POLICYSETTINGSTATUSINFO
 targetos: Windows
 req.typenames: POLICYSETTINGSTATUSINFO, *LPPOLICYSETTINGSTATUSINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _POLICYSETTINGSTATUSINFO
+ - userenv/_POLICYSETTINGSTATUSINFO
+ - LPPOLICYSETTINGSTATUSINFO
+ - userenv/LPPOLICYSETTINGSTATUSINFO
+ - POLICYSETTINGSTATUSINFO
+ - userenv/POLICYSETTINGSTATUSINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Userenv.h
+api_name:
+ - POLICYSETTINGSTATUSINFO
 ---
 
 # POLICYSETTINGSTATUSINFO structure
@@ -49,41 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>POLICYSETTINGSTATUSINFO</b> structure provides information about a policy-setting event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field szKey
 
 This member is optional. If it is <b>NULL</b>, the system generates a value.
 
-
 ### -field szEventSource
 
 Pointer to a string specifying the name of the source (application, service, driver, subsystem) that generated the log entry.
-
 
 ### -field szEventLogName
 
 Pointer to a string specifying the name of the event log.
 
-
 ### -field dwEventID
 
 Specifies the event log message ID.
-
 
 ### -field dwErrorCode
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> that indicates an error that occurred during the application of the policy setting.
-
 
 ### -field status
 
@@ -119,17 +114,12 @@ Application of the policy setting failed. Details about the failure are indicate
 
 The policy setting was applied successfully, but an error occurred while attempting to apply the child setting.
 
-
 ### -field timeLogged
 
 Specifies a 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that indicates the time at which the source generated the event.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
@@ -140,7 +130,4 @@ Specifies a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopsetpolicysettingstatus">RSoPSetPolicySettingStatus</a>
- 
-
- 
 

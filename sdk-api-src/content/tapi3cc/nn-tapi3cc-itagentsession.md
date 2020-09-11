@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: b0db0834-7b9b-4a72-9cc6-6cba31ed1275
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], ITAgentSession interface [TAPI 2.2],described, _tapi3_itagentsession, tapi3.itagentsession, tapi3cc/ITAgentSession
-f1_keywords:
-- tapi3cc/ITAgentSession
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentSession
+ - tapi3cc/ITAgentSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentSession
 ---
 
 # ITAgentSession interface
 
 
 ## -description
-
 
 An agent session represents an association between an agent, group, and address. The methods of 
 <b>ITAgentSession</b> allow an application to retrieve a variety of statistics. The following methods create the 
@@ -71,7 +71,6 @@ See
 
 Note to TAPI 2.1 programmers: Many of the methods in this interface are COM wrappers for 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a>.
-
 
 ## -inheritance
 
@@ -246,20 +245,13 @@ Sets the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0ckz.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus, IFaxStatus interface [Fax Service], IFaxStatus interface [Fax Service],described, _mfax_ifaxstatus, fax._mfax_ifaxstatus, faxcom/IFaxStatus
-f1_keywords:
-- faxcom/IFaxStatus
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxStatus
+ - faxcom/IFaxStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxStatus
 ---
 
 # IFaxStatus interface
 
 
 ## -description
-
 
 The <b>FaxStatus</b> dual interface is used by a fax client application to retrieve status information for a specific port on a connected fax server. The <b>IFaxStatus</b> interface includes the following interface methods:
 <ul>
@@ -62,9 +62,6 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 
 You can use the FaxStatus object to provide real-time status information about a parent FaxPort object. Some data is available at all times for an active fax port; other data is relative to sending or receiving a fax and is only available at those times.
-
-		
-
 
 ## -inheritance
 
@@ -403,12 +400,9 @@ Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desk
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 You should not implement this interface. The Microsoft standard implementation provides complete functionality.
@@ -435,12 +429,7 @@ A client application should not call the <a href="https://docs.microsoft.com/win
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object to allow the object to deallocate itself. Also call IUnknown::Release once for each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object, and again to destroy both the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a> and the parent <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a> interface pointers. </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -451,7 +440,4 @@ A client application should not call the <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 98a656c7-714b-4b59-9289-e78dee795eaa
 ms.date: 12/05/2018
 ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [XPS Documents and Packaging], GetCustomObjectEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCustomObjectEnumerator method, IXpsSignature.GetCustomObjectEnumerator, IXpsSignature::GetCustomObjectEnumerator, xps.ixpssignature_getcustomobjectenumerator, xpsdigitalsignature/IXpsSignature::GetCustomObjectEnumerator
-f1_keywords:
-- xpsdigitalsignature/IXpsSignature.GetCustomObjectEnumerator
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignature.GetCustomObjectEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignature::GetCustomObjectEnumerator
+ - xpsdigitalsignature/IXpsSignature::GetCustomObjectEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignature.GetCustomObjectEnumerator
 ---
 
 # IXpsSignature::GetCustomObjectEnumerator
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectenumerator">IOpcSignatureCustomObjectEnumerator</a> interface, which enumerates the custom objects of the signature.
 
-
 ## -parameters
-
-
-
 
 ### -param customObjectEnumerator [out, retval]
 
 A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectset">IOpcSignatureCustomObjectSet</a> interface, which  enumerates the custom objects of the signature.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372949(v=vs.85)">XPS Digital Signature API Errors</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -108,15 +101,8 @@ The interface is not associated with the signature manager.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignature">IOpcDigitalSignature</a>
 
@@ -143,7 +129,4 @@ The interface is not associated with the signature manager.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

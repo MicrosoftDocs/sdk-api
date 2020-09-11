@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: 53B40C34-EB1F-445B-B1B3-B539C2FADECE
 ms.date: 12/05/2018
 ms.keywords: CfReleaseTransferKey, CfReleaseTransferKey function, cfapi/CfReleaseTransferKey, cloudApi.cfreleasetransferkey
-f1_keywords:
-- cfapi/CfReleaseTransferKey
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CldApi.dll
-api_name:
-- CfReleaseTransferKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CfReleaseTransferKey
+ - cfapi/CfReleaseTransferKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CldApi.dll
+api_name:
+ - CfReleaseTransferKey
 ---
 
 # CfReleaseTransferKey function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases a transfer key obtained by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfgettransferkey">CfGetTransferKey</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param FileHandle [in]
 
 The file handle of the placeholder.
 
-
 ### -param TransferKey [in]
 
 An opaque handle to the placeholder.
-
 
 ## -returns
 

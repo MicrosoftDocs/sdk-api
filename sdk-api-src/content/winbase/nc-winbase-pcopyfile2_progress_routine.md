@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d14b5f5b-c353-49e8-82bb-a695a3ec76fd
 ms.date: 12/05/2018
 ms.keywords: CopyFile2ProgressRoutine, CopyFile2ProgressRoutine callback function [Files], PCOPYFILE2_PROGRESS_ROUTINE, PCOPYFILE2_PROGRESS_ROUTINE callback, fs.copyfile2progressroutine, winbase/CopyFile2ProgressRoutine, winbase/PCOPYFILE2_PROGRESS_ROUTINE
-f1_keywords:
-- winbase/CopyFile2ProgressRoutine
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinBase.h
-api_name:
-- CopyFile2ProgressRoutine
-- PCOPYFILE2_PROGRESS_ROUTINE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PCOPYFILE2_PROGRESS_ROUTINE
+ - winbase/PCOPYFILE2_PROGRESS_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinBase.h
+api_name:
+ - CopyFile2ProgressRoutine
+ - PCOPYFILE2_PROGRESS_ROUTINE
 ---
 
 # PCOPYFILE2_PROGRESS_ROUTINE callback function
 
 
 ## -description
-
 
 An application-defined callback function used with the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function. It is called when a portion of 
@@ -58,16 +58,11 @@ An application-defined callback function used with the
     <b>CopyFile2ProgressRoutine</b> is a placeholder for the 
     application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param *pMessage [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_message">COPYFILE2_MESSAGE</a> structure.
-
 
 ### -param pvCallbackContext [in, optional]
 
@@ -75,10 +70,7 @@ Copy of value passed in the <b>pvCallbackContext</b> member of the
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> structure 
       passed to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a>.
 
-
 ## -returns
-
-
 
 Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-copyfile2_message_action">COPYFILE2_MESSAGE_ACTION</a> 
       enumeration indicating what action should be taken.
@@ -166,14 +158,8 @@ Pause the copy operation. In most cases the <a href="https://docs.microsoft.com/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>COPYFILE2_CALLBACK_STREAM_FINISHED</b> message is the last message for a paused 
     copy. If <b>COPYFILE2_PROGRESS_PAUSE</b> is returned in response to a 
@@ -242,7 +228,4 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
 

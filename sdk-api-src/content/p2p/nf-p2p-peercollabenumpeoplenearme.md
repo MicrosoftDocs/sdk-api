@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 4dc53f43-e662-4696-bc16-42b124f3358f
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumPeopleNearMe, PeerCollabEnumPeopleNearMe function [Peer Networking], p2p.peercollabenumpeoplenearme, p2p/PeerCollabEnumPeopleNearMe
-f1_keywords:
-- p2p/PeerCollabEnumPeopleNearMe
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabEnumPeopleNearMe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabEnumPeopleNearMe
+ - p2p/PeerCollabEnumPeopleNearMe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabEnumPeopleNearMe
 ---
 
 # PeerCollabEnumPeopleNearMe function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabEnumPeopleNearMe</b> function returns a handle to an enumerated set that contains all of the peer collaboration network "people near me" endpoints currently available on the subnet of the calling peer.
-
 
 ## -parameters
 
-
-
-
 ### -param phPeerEnum [out]
 
-Pointer to a handle of an enumerated set that contains all of the peer collaboration network "people near me" endpoints currently available on the subnet of the calling peer. 
-
+Pointer to a handle of an enumerated set that contains all of the peer collaboration network "people near me" endpoints currently available on the subnet of the calling peer.
 
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -119,24 +112,12 @@ The operation requires the user to be signed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To obtain the individual peer "people near me" contacts, pass the returned handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>. An array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_people_near_me">PEER_PEOPLE_NEAR_ME</a> structures are returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_people_near_me">PEER_PEOPLE_NEAR_ME</a>
 
@@ -147,7 +128,4 @@ To obtain the individual peer "people near me" contacts, pass the returned handl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignin</a>
- 
-
- 
 

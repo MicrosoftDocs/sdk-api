@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 29b0e27c-4999-4e92-bd8b-bba74920bccc
 ms.date: 12/05/2018
 ms.keywords: RegSetValueEx, RegSetValueEx function, RegSetValueExA, RegSetValueExW, _win32_regsetvalueex, base.regsetvalueex, winreg/RegSetValueEx, winreg/RegSetValueExA, winreg/RegSetValueExW
-f1_keywords:
-- winreg/RegSetValueEx
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,31 +25,37 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-api_name:
-- RegSetValueEx
-- RegSetValueExA
-- RegSetValueExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegSetValueExW
+ - winreg/RegSetValueExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+api_name:
+ - RegSetValueEx
+ - RegSetValueExA
+ - RegSetValueExW
 ---
 
 # RegSetValueExW function
+
 
 ## -description
 
@@ -150,3 +152,4 @@ Consider using the <a href="https://docs.microsoft.com/windows/desktop/api/winre
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
+

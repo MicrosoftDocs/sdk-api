@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6dc96e7b-34e5-4366-8804-d40f111d77c2
 ms.date: 12/05/2018
 ms.keywords: GetPartitionProperties, GetPartitionProperties method [VDS], GetPartitionProperties method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],GetPartitionProperties method, IVdsAdvancedDisk.GetPartitionProperties, IVdsAdvancedDisk::GetPartitionProperties, base.ivdsadvanceddisk_getpartitionproperties, vds/IVdsAdvancedDisk::GetPartitionProperties
-f1_keywords:
-- vds/IVdsAdvancedDisk.GetPartitionProperties
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vds.h
-api_name:
-- IVdsAdvancedDisk.GetPartitionProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsAdvancedDisk::GetPartitionProperties
+ - vds/IVdsAdvancedDisk::GetPartitionProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vds.h
+api_name:
+ - IVdsAdvancedDisk.GetPartitionProperties
 ---
 
 # IVdsAdvancedDisk::GetPartitionProperties
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of the partition identified by the partition offset.
 
-
 ## -parameters
-
-
-
 
 ### -param ullOffset [in]
 
 The partition offset.
 
-
 ### -param pPartitionProp [out]
 
 The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a>structure allocated and passed in by the caller.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -105,24 +97,12 @@ The partition does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method returns information for all partition types.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">Disk Object</a>
 
@@ -133,7 +113,4 @@ This method returns information for all partition types.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a>
- 
-
- 
 

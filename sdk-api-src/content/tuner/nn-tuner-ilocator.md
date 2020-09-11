@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1d6c18f0-e7f1-4a1c-9edb-e4b66297becf
 ms.date: 12/05/2018
 ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], ILocator interface [Microsoft TV Technologies],described, ILocatorInterface, mstv.ilocator, tuner/ILocator
-f1_keywords:
-- tuner/ILocator
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- ILocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocator
+ - tuner/ILocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - ILocator
 ---
 
 # ILocator interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ILocator</b> interface is implemented (through derived interfaces such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator</a>) on Locator objects that contain tuning information about the tuning space. This base interface is never used directly, but only through the derived interfaces that are specific for a given network type.
 
  Locator objects can be created dynamically by Guide Store Loaders that have the necessary information about the tuning space, or a default locator for a tuning space can be installed by the third party who installs the tuning space. In any case, applications never create or examine locators except in certain testing or debugging scenarios. All Locator objects also support <b>IPersistPropertyBag</b>.
-
-
-
 
 ## -inheritance
 
@@ -208,29 +204,17 @@ Sets the QPSK symbol rate.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ILocator)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

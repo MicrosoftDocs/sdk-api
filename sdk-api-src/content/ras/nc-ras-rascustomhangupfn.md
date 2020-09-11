@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 56410af3-7b23-4536-998d-88d78d45585d
 ms.date: 12/05/2018
 ms.keywords: RasCustomHangUp, RasCustomHangUp callback function [RAS], RasCustomHangUpFn, RasCustomHangUpFn callback, _ras_rascustomhangup, ras/RasCustomHangUp, rras.rascustomhangup
-f1_keywords:
-- ras/RasCustomHangUp
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ras.h
-api_name:
-- RasCustomHangUp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasCustomHangUpFn
+ - ras/RasCustomHangUpFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ras.h
+api_name:
+ - RasCustomHangUp
 ---
 
 # RasCustomHangUpFn callback function
@@ -49,47 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasCustomHangUp</b> function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom connection hang-up routines.
 
-
 ## -parameters
-
-
-
 
 ### -param hRasConn
 
 Handle to the RAS connection to hang up.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value should be <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value should be a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 RAS  calls this entry point from 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>, if the <b>szCustomDialDll</b> member of the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure for the entry being dialed specifies a custom-dialing DLL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
 
@@ -120,7 +102,4 @@ RAS  calls this entry point from
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

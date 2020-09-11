@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bbf8cff4-b1b2-480e-8c30-eb34166db143
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ICspAlgorithms interface [Security],described, certenroll/ICspAlgorithms, security.icspalgorithms
-f1_keywords:
-- certenroll/ICspAlgorithms
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspAlgorithms
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspAlgorithms
+ - certenroll/ICspAlgorithms
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspAlgorithms
 ---
 
 # ICspAlgorithms interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ICspAlgorithms</b> interface defines the following methods and properties that manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">ICspAlgorithm</a> objects.
-
 
 ## -inheritance
 
@@ -171,20 +170,13 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

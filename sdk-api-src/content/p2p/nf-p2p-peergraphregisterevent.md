@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 3ed963ba-0b9d-4de8-a610-b07cf49ed27f
 ms.date: 12/05/2018
 ms.keywords: PeerGraphRegisterEvent, PeerGraphRegisterEvent function [Peer Networking], p2p.peergraphregisterevent, p2p/PeerGraphRegisterEvent
-f1_keywords:
-- p2p/PeerGraphRegisterEvent
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphRegisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphRegisterEvent
+ - p2p/PeerGraphRegisterEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphRegisterEvent
 ---
 
 # PeerGraphRegisterEvent function
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphRegisterEvent</b> function registers a peer's request to be  notified of changes associated with a peer graph and event type.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to the peer graph.
 
-
 ### -param hEvent [in]
 
 Handle created by <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">CreateEvent</a> that the application is signaled on  when an event is triggered.  When an application is signaled, it must call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgeteventdata">PeerGraphGetEventData</a> to retrieve events until PEER_S_NO_EVENT_DATA returned.
-
 
 ### -param cEventRegistrations [in]
 
 Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration">PEER_GRAPH_EVENT_REGISTRATION</a> structures in <i>pEventRegistrations</i>.
 
-
 ### -param pEventRegistrations [in]
 
 Points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration">PEER_GRAPH_EVENT_REGISTRATION</a> structures that specify what events the application requests notifications for.
-
 
 ### -param phPeerEvent [out]
 
 Receives a <b>HPEEREVENT</b> handle. This handle must be used when calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphunregisterevent">PeerGraphUnregisterEvent</a> to stop receiving  notifications.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is S_OK. Otherwise, it  returns one of the following values.
 
@@ -139,15 +128,8 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration">PEER_GRAPH_EVENT_REGISTRATION</a>
 
@@ -158,7 +140,4 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphunregisterevent">PeerGraphUnregisterEvent</a>
- 
-
- 
 

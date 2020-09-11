@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: cfc42384-581c-4358-84a9-91028c89bbd8
 ms.date: 12/05/2018
 ms.keywords: DrvQueryGlyphAttrs, DrvQueryGlyphAttrs callback, DrvQueryGlyphAttrs callback function [Display Devices], PFN_DrvQueryGlyphAttrs, ddifncs_9040dac6-091f-4400-99e2-ce91dd952494.xml, display.drvqueryglyphattrs, winddi/DrvQueryGlyphAttrs
-f1_keywords:
-- winddi/DrvQueryGlyphAttrs
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winddi.h
-api_name:
-- DrvQueryGlyphAttrs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_DrvQueryGlyphAttrs
+ - winddi/PFN_DrvQueryGlyphAttrs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winddi.h
+api_name:
+ - DrvQueryGlyphAttrs
 ---
 
 # PFN_DrvQueryGlyphAttrs callback function
@@ -49,26 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvQueryGlyphAttrs</b> function returns information about a font's glyphs.
-
 
 ## -parameters
 
-
-
-
 ### -param *
 
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - iMode [in]
 
@@ -97,19 +85,11 @@ The function returns an array indicating which glyphs of a vertical font must be
 
 GDI-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure identifying the font for which attributes are being requested.
 
-
 ## -returns
-
-
 
 <b>DrvQueryGlyphAttrs</b> should return a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphattr">FD_GLYPHATTR</a> structure. If an error is encountered, such as an invalid input argument, or if the font described by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure is not a vertical font, the function should return <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>DrvQueryGlyphAttrs</b> function should be supplied by font drivers. Currently, the only attribute flag defined is FO_ATTR_MODE_ROTATE, meaning the function should indicate which glyphs of a vertical font must be rotated. (For vertical fonts, DBCS glyphs must be rotated.) This information is useful to printer drivers that support printers having built-in font rasterizers.
 
@@ -117,13 +97,7 @@ The function should return rotation information in the <a href="https://docs.mic
 
 GDI calls the appropriate font driver's <b>DrvQueryGlyphAttrs</b> function when a printer driver calls GDI's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pqueryglyphattrs">FONTOBJ_pQueryGlyphAttrs</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphattr">FD_GLYPHATTR</a>
 
@@ -134,7 +108,4 @@ GDI calls the appropriate font driver's <b>DrvQueryGlyphAttrs</b> function when 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pqueryglyphattrs">FONTOBJ_pQueryGlyphAttrs</a>
- 
-
- 
 

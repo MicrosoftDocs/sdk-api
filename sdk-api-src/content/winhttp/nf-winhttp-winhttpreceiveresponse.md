@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
 ms.date: 12/05/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
-f1_keywords:
-- winhttp/WinHttpReceiveResponse
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpReceiveResponse
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpReceiveResponse
+ - winhttp/WinHttpReceiveResponse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpReceiveResponse
 ---
 
 # WinHttpReceiveResponse function
@@ -49,31 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpReceiveResponse</b> function waits to receive the response to an HTTP request initiated by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>. When <b>WinHttpReceiveResponse</b> completes successfully, the status code and response headers have been received and are available for the application to inspect using <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryheaders">WinHttpQueryHeaders</a>. An application must call <b>WinHttpReceiveResponse</b> before it can use <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpquerydataavailable">WinHttpQueryDataAvailable</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a> to access the response entity body (if any).
-
 
 ## -parameters
 
-
-
-
 ### -param hRequest [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a> and sent by 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>.  Wait until <b>WinHttpSendRequest</b> has completed for this handle before calling  <b>WinHttpReceiveResponse</b>.
 
-
 ### -param lpReserved [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -318,14 +309,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function can operate either synchronously or asynchronously.  If this function returns <b>FALSE</b>, this function failed and you can call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information. If this function returns <b>TRUE</b>, the application should expect either the <b>WINHTTP_CALLBACK_STATUS_HEADERS_AVAILABLE</b> completion callback, indicating success, or the <b>WINHTTP_CALLBACK_STATUS_REQUEST_ERROR</b> completion callback, indicating that the operation completed asynchronously, but failed.
@@ -410,14 +395,7 @@ This example shows code that  writes data to an HTTP server.  The server name su
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -440,7 +418,4 @@ This example shows code that  writes data to an HTTP server.  The server name su
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>
- 
-
- 
 

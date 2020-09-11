@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 64F7B03C-DD29-4B23-9C8B-2D0390AD61B0
 ms.date: 12/05/2018
 ms.keywords: D2D1_SPOTDIFFUSE_PROP, D2D1_SPOTDIFFUSE_PROP enumeration [Direct2D], D2D1_SPOTDIFFUSE_PROP_COLOR, D2D1_SPOTDIFFUSE_PROP_DIFFUSE_CONSTANT, D2D1_SPOTDIFFUSE_PROP_FOCUS, D2D1_SPOTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, D2D1_SPOTDIFFUSE_PROP_LIGHT_POSITION, D2D1_SPOTDIFFUSE_PROP_LIMITING_CONE_ANGLE, D2D1_SPOTDIFFUSE_PROP_POINTS_AT, D2D1_SPOTDIFFUSE_PROP_SCALE_MODE, D2D1_SPOTDIFFUSE_PROP_SURFACE_SCALE, d2d1effects/D2D1_SPOTDIFFUSE_PROP, d2d1effects/D2D1_SPOTDIFFUSE_PROP_COLOR, d2d1effects/D2D1_SPOTDIFFUSE_PROP_DIFFUSE_CONSTANT, d2d1effects/D2D1_SPOTDIFFUSE_PROP_FOCUS, d2d1effects/D2D1_SPOTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_SPOTDIFFUSE_PROP_LIGHT_POSITION, d2d1effects/D2D1_SPOTDIFFUSE_PROP_LIMITING_CONE_ANGLE, d2d1effects/D2D1_SPOTDIFFUSE_PROP_POINTS_AT, d2d1effects/D2D1_SPOTDIFFUSE_PROP_SCALE_MODE, d2d1effects/D2D1_SPOTDIFFUSE_PROP_SURFACE_SCALE, direct2d.d2d1_spotdiffuse_prop
-f1_keywords:
-- d2d1effects/D2D1_SPOTDIFFUSE_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_SPOTDIFFUSE_PROP
 targetos: Windows
 req.typenames: D2D1_SPOTDIFFUSE_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_SPOTDIFFUSE_PROP
+ - d2d1effects/D2D1_SPOTDIFFUSE_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_SPOTDIFFUSE_PROP
 ---
 
 # D2D1_SPOTDIFFUSE_PROP enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/diffuse-lighting">Spot-diffuse lighting effect</a>.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_SPOTDIFFUSE_PROP_LIGHT_POSITION
 
@@ -69,7 +64,6 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-d
 
 The default value is {0.0f, 0.0f, 0.0f}.
 
-
 ### -field D2D1_SPOTDIFFUSE_PROP_POINTS_AT
 
 Where the spot light is focused. The property is exposed as a D2D1_VECTOR_3F with – (x, y, z). The units are in DIPs and the values are unbounded.
@@ -80,7 +74,6 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-d
 
 The default value is {0.0f, 0.0f, 0.0f}.
 
-
 ### -field D2D1_SPOTDIFFUSE_PROP_FOCUS
 
 The focus of the spot light. This property is unitless and is defined between 0 and 200.
@@ -89,7 +82,6 @@ The focus of the spot light. This property is unitless and is defined between 0 
 The type is FLOAT.
 
 The default value is 1.0f.
-
 
 ### -field D2D1_SPOTDIFFUSE_PROP_LIMITING_CONE_ANGLE
 
@@ -100,7 +92,6 @@ The type is FLOAT.
 
 The default value is 90.0f.
 
-
 ### -field D2D1_SPOTDIFFUSE_PROP_DIFFUSE_CONSTANT
 
 The ratio of diffuse reflection to amount of incoming light. This property must be between 0 and 10,000 and is unitless.
@@ -109,7 +100,6 @@ The ratio of diffuse reflection to amount of incoming light. This property must 
 The type is FLOAT.
 
 The default value is 1.0f.
-
 
 ### -field D2D1_SPOTDIFFUSE_PROP_SURFACE_SCALE
 
@@ -120,7 +110,6 @@ The type is FLOAT.
 
 The default value is 1.0f.
 
-
 ### -field D2D1_SPOTDIFFUSE_PROP_COLOR
 
 The color of the incoming light. This property is exposed as a Vector 3 – (R, G, B) and used to compute L<sub>R</sub>, L<sub>G</sub>, L<sub>B</sub>.
@@ -129,7 +118,6 @@ The color of the incoming light. This property is exposed as a Vector 3 – (R, 
 The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
 
 The default value is {1.0f, 1.0f, 1.0f}
-
 
 ### -field D2D1_SPOTDIFFUSE_PROP_KERNEL_UNIT_LENGTH
 
@@ -143,7 +131,6 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-d
 
 The default value is {1.0f, 1.0f}.
 
-
 ### -field D2D1_SPOTDIFFUSE_PROP_SCALE_MODE
 
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
@@ -154,8 +141,5 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/
 
 The default value is D2D1_SPOTDIFFUSE_SCALE_MODE_LINEAR.
 
-
 ### -field D2D1_SPOTDIFFUSE_PROP_FORCE_DWORD
-
-
 

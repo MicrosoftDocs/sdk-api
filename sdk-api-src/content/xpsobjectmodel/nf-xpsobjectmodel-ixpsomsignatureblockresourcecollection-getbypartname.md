@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 38e6d6d9-0f31-45e9-8a19-1aae02dfafd3
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMSignatureBlockResourceCollection.GetByPartName, IXpsOMSignatureBlockResourceCollection::GetByPartName, xps.ixpsomsignatureblockresourcecollection_getbypartname, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetByPartName
-f1_keywords:
-- xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.GetByPartName
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMSignatureBlockResourceCollection.GetByPartName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMSignatureBlockResourceCollection::GetByPartName
+ - xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetByPartName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMSignatureBlockResourceCollection.GetByPartName
 ---
 
 # IXpsOMSignatureBlockResourceCollection::GetByPartName
@@ -49,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresource">IXpsOMSignatureBlockResource</a> interface pointer from the collection by matching the interface's part name.
 
-
 ## -parameters
-
-
-
 
 ### -param partName [in]
 
 The part name of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresource">IXpsOMSignatureBlockResource</a> interface to be found in the collection.
 
-
 ### -param signatureBlockResource [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresource">IXpsOMSignatureBlockResource</a> interface whose part name matches <i>partName</i>. If a matching interface is not found in the collection, a <b>NULL</b> pointer is returned.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 
@@ -91,7 +77,4 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

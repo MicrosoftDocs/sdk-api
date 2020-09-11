@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: DB4DAD13-3CD7-4362-950B-6403328CB071
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device1, ID3D11Device1 interface [Direct3D 11], ID3D11Device1 interface [Direct3D 11],described, d3d11_1/ID3D11Device1, direct3d11.id3d11device1
-f1_keywords:
-- d3d11_1/ID3D11Device1
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device1
+ - d3d11_1/ID3D11Device1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device1
 ---
 
 # ID3D11Device1 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The device interface represents a virtual adapter; it is used to create resources. <b>ID3D11Device1</b> adds new methods to those in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>.
-
 
 ## -inheritance
 
@@ -133,20 +132,13 @@ Gives a device access to a shared resource that is referenced by name and that w
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
- 
-
- 
 

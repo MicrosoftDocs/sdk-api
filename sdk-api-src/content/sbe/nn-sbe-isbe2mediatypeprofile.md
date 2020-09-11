@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf
 ms.date: 12/05/2018
 ms.keywords: ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], ISBE2MediaTypeProfile interface [Microsoft TV Technologies],described, mstv.isbe2mediatypeprofile, sbe/ISBE2MediaTypeProfile
-f1_keywords:
-- sbe/ISBE2MediaTypeProfile
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.dll
-api_name:
-- ISBE2MediaTypeProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2MediaTypeProfile
+ - sbe/ISBE2MediaTypeProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.dll
+api_name:
+ - ISBE2MediaTypeProfile
 ---
 
 # ISBE2MediaTypeProfile interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements a media type profile. A <i>media type profile</i> describes a set of streams and their media types, which are used when output pins for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter are created to specify the media types supported by those pins. The Stream Buffer Source filter implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface, which you can use to set the media type profile for the filter. 
 
 To obtain a pointer to the <b>ISBE2MediaTypeProfile</b>  interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-getinitialprofile">ISBE2Crossbar::GetInitialProfile</a> method for the crossbar, and then use the value returned in the  <i>ppProfile</i> output parameter.
-
 
 ## -inheritance
 
@@ -106,14 +105,9 @@ Gets the number of streams in the profile.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ISBE2MediaTypeProfile)</code>.
-
-
 

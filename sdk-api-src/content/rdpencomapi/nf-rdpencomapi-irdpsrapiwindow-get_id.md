@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 4defca24-d9f0-4131-86c6-795d6b2e45de
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Id property, IRDPSRAPIWindow.Id, IRDPSRAPIWindow.get_Id, IRDPSRAPIWindow::Id, IRDPSRAPIWindow::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIWindow interface, Id property [RDP],RDPSRAPIWindow object, RDPSRAPIWindow object [RDP],Id property, get_Id, rdp.irdpsrapiwindow_id, rdpencomapi/IRDPSRAPIWindow::Id, rdpencomapi/IRDPSRAPIWindow::get_Id
-f1_keywords:
-- rdpencomapi/IRDPSRAPIWindow.Id
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIWindow.Id
-- IRDPSRAPIWindow.get_Id
-- RDPSRAPIWindow.Id
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIWindow::get_Id
+ - rdpencomapi/IRDPSRAPIWindow::get_Id
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIWindow.Id
+ - IRDPSRAPIWindow.get_Id
+ - RDPSRAPIWindow.Id
 ---
 
 # IRDPSRAPIWindow::get_Id
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the ID of a window. The ID is a <b>LONG</b> number that is automatically generated. It is not the window handle.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>
- 
-
- 
 

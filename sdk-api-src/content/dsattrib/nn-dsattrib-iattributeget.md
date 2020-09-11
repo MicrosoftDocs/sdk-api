@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 561267ac-8720-4aba-b812-784ab1e42114
 ms.date: 12/05/2018
 ms.keywords: IAttributeGet, IAttributeGet interface [Microsoft TV Technologies], IAttributeGet interface [Microsoft TV Technologies],described, IAttributeGetInterface, dsattrib/IAttributeGet, mstv.iattributeget
-f1_keywords:
-- dsattrib/IAttributeGet
-dev_langs:
-- c++
 req.header: dsattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dsattrib.h
-api_name:
-- IAttributeGet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAttributeGet
+ - dsattrib/IAttributeGet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dsattrib.h
+api_name:
+ - IAttributeGet
 ---
 
 # IAttributeGet interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IAttributeGet</b> interface gets key/value pairs from an object, where the key is a <b>GUID</b> and the value is any binary data.
-
-
-
 
 ## -inheritance
 
@@ -101,29 +97,17 @@ Returns the number of attributes on this object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IAttributeGet)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeset">IAttributeSet Interface</a>
- 
-
- 
 

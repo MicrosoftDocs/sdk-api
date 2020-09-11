@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: d937ea44-1ca3-49e0-913d-fb77888d05fc
 ms.date: 12/05/2018
 ms.keywords: IpReleaseAddress, IpReleaseAddress function [IP Helper], _iphlp_ipreleaseaddress, iphlp.ipreleaseaddress, iphlpapi/IpReleaseAddress
-f1_keywords:
-- iphlpapi/IpReleaseAddress
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- IpReleaseAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IpReleaseAddress
+ - iphlpapi/IpReleaseAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - IpReleaseAddress
 ---
 
 # IpReleaseAddress function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IpReleaseAddress</b> function releases an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP).
 
-
 ## -parameters
-
-
-
 
 ### -param AdapterInfo [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure that specifies the adapter associated with the IPv4 address to release.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -114,14 +107,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>IpReleaseAddress</b> function is specific to IPv4 and releases only an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP). The <b>Name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure pointed to by the <i>AdapterInfo</i> parameter is the only member used to determine the DHCP address to release. 
@@ -234,14 +221,7 @@ void __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a>
 
@@ -264,7 +244,4 @@ void __cdecl main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-iprenewaddress">IpRenewAddress</a>
- 
-
- 
 

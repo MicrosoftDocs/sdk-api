@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 3B91A70D-C635-46DF-871D-F1796D4E50E7
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain3, IDXGISwapChain3 interface [DXGI], IDXGISwapChain3 interface [DXGI],described, direct3ddxgi.idxgiswapchain3, dxgi1_4/IDXGISwapChain3
-f1_keywords:
-- dxgi1_4/IDXGISwapChain3
-dev_langs:
-- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGISwapChain3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISwapChain3
+ - dxgi1_4/IDXGISwapChain3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGISwapChain3
 ---
 
 # IDXGISwapChain3 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a> with methods to support getting the index of the swap chain's current back buffer and support for color space.
-
 
 ## -inheritance
 
@@ -107,20 +106,13 @@ Sets the color space used by the swap chain.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
- 
-
- 
 

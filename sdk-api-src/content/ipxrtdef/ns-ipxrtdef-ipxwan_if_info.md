@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: c28ef4c9-ba7d-429a-ba43-82bfc9c7c58b
 ms.date: 12/05/2018
 ms.keywords: '*PIPXWAN_IF_INFO, IPXWAN_IF_INFO, IPXWAN_IF_INFO structure [RAS], PIPXWAN_IF_INFO, PIPXWAN_IF_INFO structure pointer [RAS], _mpr_ipxwan_if_info, ipxrtdef/IPXWAN_IF_INFO, ipxrtdef/PIPXWAN_IF_INFO, rras.ipxwan_if_info'
-f1_keywords:
-- ipxrtdef/IPXWAN_IF_INFO
-dev_langs:
-- c++
 req.header: ipxrtdef.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipxrtdef.h
-api_name:
-- IPXWAN_IF_INFO
 targetos: Windows
 req.typenames: IPXWAN_IF_INFO, *PIPXWAN_IF_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IPXWAN_IF_INFO
+ - ipxrtdef/_IPXWAN_IF_INFO
+ - PIPXWAN_IF_INFO
+ - ipxrtdef/PIPXWAN_IF_INFO
+ - IPXWAN_IF_INFO
+ - ipxrtdef/IPXWAN_IF_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipxrtdef.h
+api_name:
+ - IPXWAN_IF_INFO
 ---
 
 # IPXWAN_IF_INFO structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IPXWAN_IF_INFO</b> structure stores the administrative state for an IPX WAN interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AdminState
 
@@ -74,18 +74,11 @@ ADMIN_STATE_ENABLED_ONLY_FOR_NETBIOS_STATIC_ROUTING
 
 ADMIN_STATE_ENABLED_ONLY_FOR_OPER_STATE_UP
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipxrtdef/ns-ipxrtdef-ipx_if_info">IPX_IF_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>
- 
-
- 
 

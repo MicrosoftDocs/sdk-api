@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c
 ms.date: 12/05/2018
 ms.keywords: IContextMenu3, IContextMenu3 interface [Windows Shell], IContextMenu3 interface [Windows Shell],described, _win32_IContextMenu3, shell.IContextMenu3, shobjidl_core/IContextMenu3
-f1_keywords:
-- shobjidl_core/IContextMenu3
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IContextMenu3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenu3
+ - shobjidl_core/IContextMenu3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IContextMenu3
 ---
 
 # IContextMenu3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that either create or merge a shortcut menu associated with a Shell object. Allows client objects to handle messages associated with owner-drawn menu items and extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2">IContextMenu2</a> by accepting a return value from that message handling.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Allows client objects of the <b>IContextMenu3</b> interface to handle messages a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2">IContextMenu2</a> interfaces, from which it inherits.
 
@@ -98,5 +94,4 @@ You do not call this interface directly. <b>IContextMenu3</b> is used by the ope
 
 <div class="alert"><b>Note</b>  <b>Windows Vista and later.</b> Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
-
 

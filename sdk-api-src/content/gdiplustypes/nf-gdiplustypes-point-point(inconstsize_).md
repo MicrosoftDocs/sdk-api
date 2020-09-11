@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_95size.htm
 ms.date: 12/05/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(IN const Size &), Point.Point(const Size&), Point::Point, Point::Point(IN const Size &), _gdiplus_CLASS_Point_Point_size_, gdiplus._gdiplus_CLASS_Point_Point_size_
-f1_keywords:
-- gdiplustypes/Point.Point
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Point.Point
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Point::Point
+ - gdiplustypes/Point::Point
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Point.Point
 ---
 
 # Point::Point(IN const Size &)
@@ -50,17 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object using a 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
-
 ## -parameters
-
-
-
 
 ### -param size [in, ref]
 
@@ -71,13 +67,9 @@ Reference to a
 					<b>Width</b> data member specifies the 
 					<b>X</b> data member of this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object, and whose 
 					<b>Height</b> data member specifies the 
-					<b>Y</b> data member of this <b>Point</b> object. 
-
+					<b>Y</b> data member of this <b>Point</b> object.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
@@ -88,7 +80,4 @@ Reference to a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
- 
-
- 
 

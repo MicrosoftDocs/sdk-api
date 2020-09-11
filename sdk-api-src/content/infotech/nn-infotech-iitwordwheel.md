@@ -8,10 +8,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelinterface.htm
 ms.date: 12/05/2018
 ms.keywords: IITWordWheel, IITWordWheel interface [HTML Help Workshop], IITWordWheel interface [HTML Help Workshop],described, htmlhelp.iitwordwheel, infotech/IITWordWheel, refIITWordWheelInterface
-f1_keywords:
-- infotech/IITWordWheel
-dev_langs:
-- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Infotech.h
-api_name:
-- IITWordWheel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IITWordWheel
+ - infotech/IITWordWheel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Infotech.h
+api_name:
+ - IITWordWheel
 ---
 
 # IITWordWheel interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to perform word wheel keyword lookups. The <b>Lookup</b> method offers several ways of performing a search: it returns either an exact match, or the closest approximation based on a given prefix.
-
 
 ## -inheritance
 
@@ -134,5 +133,5 @@ Opens a word wheel.
 
 </td>
 </tr>
-</table> 
+</table>
 

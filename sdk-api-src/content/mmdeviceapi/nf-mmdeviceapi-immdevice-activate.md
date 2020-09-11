@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 12e4a117-1fa3-49c8-949b-8973edf7e12e
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Core Audio], Activate method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],Activate method, IMMDevice.Activate, IMMDevice::Activate, IMMDeviceActivate, coreaudio.immdevice_activate, mmdeviceapi/IMMDevice::Activate
-f1_keywords:
-- mmdeviceapi/IMMDevice.Activate
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMDevice.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMDevice::Activate
+ - mmdeviceapi/IMMDevice::Activate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMDevice.Activate
 ---
 
 # IMMDevice::Activate
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Activate</b> method creates a COM object with the specified interface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param iid [in]
 
@@ -95,25 +88,19 @@ IID_ISpatialAudioMetadataClient
 
 For more information, see Remarks.
 
-
 ### -param dwClsCtx [in]
 
 The execution context in which the code that manages the newly created object will run. The caller can restrict the context by setting this parameter to the bitwise <b>OR</b> of one or more <b>CLSCTX</b> enumeration values. Alternatively, the client can avoid imposing any context restrictions by specifying CLSCTX_ALL. For more information about <b>CLSCTX</b>, see the Windows SDK documentation.
-
 
 ### -param pActivationParams [in]
 
 Set to <b>NULL</b> to activate an <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a>, <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume</a>, <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudiometerinformation">IAudioMeterInformation</a>, <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology</a> interface on an audio endpoint device. When activating an <b>IBaseFilter</b>, <b>IDirectSound</b>, <b>IDirectSound8</b>, <b>IDirectSoundCapture</b>, or <b>IDirectSoundCapture8</b> interface on the device, the caller can specify a pointer to a <b>PROPVARIANT</b> structure that contains stream-initialization information. For more information, see Remarks.
 
-
 ### -param ppInterface [out]
 
 Pointer to a pointer variable into which the method writes the address of the interface specified by parameter <i>iid</i>. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>Activate</b> call fails,  <i>*ppInterface</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -178,14 +165,8 @@ The user has removed either the audio endpoint device or the adapter device that
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method creates a COM object with an interface that is specified by the <i>iid</i> parameter. The method is similar to the Windows <b>CoCreateInstance</b> function, except that the caller does not supply a CLSID as a parameter. For more information about <b>CoCreateInstance</b>, see the Windows SDK documentation.
 
@@ -263,12 +244,7 @@ For code examples that call the <b>Activate</b> method, see the following topics
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
@@ -291,7 +267,4 @@ For code examples that call the <b>Activate</b> method, see the following topics
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
- 
-
- 
 

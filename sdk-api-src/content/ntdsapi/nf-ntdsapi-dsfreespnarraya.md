@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 1c229933-432d-4ded-be3b-3bd339a0abe4
 ms.date: 12/05/2018
 ms.keywords: DsFreeSpnArray, DsFreeSpnArray function [Active Directory], DsFreeSpnArrayA, DsFreeSpnArrayW, _glines_dsfreespnarray, ad.dsfreespnarray, ntdsapi/DsFreeSpnArray, ntdsapi/DsFreeSpnArrayA, ntdsapi/DsFreeSpnArrayW
-f1_keywords:
-- ntdsapi/DsFreeSpnArray
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsFreeSpnArray
-- DsFreeSpnArrayA
-- DsFreeSpnArrayW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsFreeSpnArrayA
+ - ntdsapi/DsFreeSpnArrayA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsFreeSpnArray
+ - DsFreeSpnArrayA
+ - DsFreeSpnArrayW
 ---
 
 # DsFreeSpnArrayA function
@@ -51,39 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsFreeSpnArray</b> function frees an array returned from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param cSpn [in]
 
 Specifies the number of elements contained in <i>rpszSpn</i>.
 
-
 ### -param rpszSpn [in]
 
 Pointer to an array returned from <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a>
- 
-
- 
 
 ## -remarks
 

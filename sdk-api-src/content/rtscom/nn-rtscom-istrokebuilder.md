@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8
 ms.date: 12/05/2018
 ms.keywords: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8, IStrokeBuilder, IStrokeBuilder interface [Tablet PC], IStrokeBuilder interface [Tablet PC],described, rtscom/IStrokeBuilder, tablet.istrokebuilder
-f1_keywords:
-- rtscom/IStrokeBuilder
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStrokeBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStrokeBuilder
+ - rtscom/IStrokeBuilder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStrokeBuilder
 ---
 
 # IStrokeBuilder interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Use interface to programmatically create strokes from packet data.
-
-
-
 
 ## -inheritance
 
@@ -132,12 +128,9 @@ Gets or sets the ink object that is associated with the <a href="https://docs.mi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>.
 
@@ -251,14 +244,7 @@ STDMETHODIMP CStrokeBuilderPlugin::Error(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
@@ -273,7 +259,4 @@ STDMETHODIMP CStrokeBuilderPlugin::Error(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>
- 
-
- 
 

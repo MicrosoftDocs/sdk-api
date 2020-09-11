@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: 17ef654a-d4a0-45ba-a49d-45add8e78b28
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_TYPE, EAP_METHOD_PROPERTY_VALUE_TYPE enumeration [EAPHost], eaphost.eap_method_property_value_type, eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE, eaptypes/empvtBool, eaptypes/empvtDword, eaptypes/empvtString, empvtBool, empvtDword, empvtString
-f1_keywords:
-- eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE
-dev_langs:
-- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EapTypes.h
-api_name:
-- EAP_METHOD_PROPERTY_VALUE_TYPE
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_VALUE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EAP_METHOD_PROPERTY_VALUE_TYPE
+ - eaptypes/_EAP_METHOD_PROPERTY_VALUE_TYPE
+ - EAP_METHOD_PROPERTY_VALUE_TYPE
+ - eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EapTypes.h
+api_name:
+ - EAP_METHOD_PROPERTY_VALUE_TYPE
 ---
 
 # EAP_METHOD_PROPERTY_VALUE_TYPE enumeration
@@ -49,39 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EAP_METHOD_PROPERTY_VALUE_TYPE</b> enumeration defines the set of possible data types for an EAP method property value.
 
-
 ## -enum-fields
-
-
-
 
 ### -field empvtBool
 
 The method property value is of type <b>BOOL</b>.
 
-
 ### -field empvtDword
 
 The method property value is of type <b>DWORD</b>.
-
 
 ### -field empvtString
 
 The method property value is a pointer to a value of type  <b>BYTE</b>.
 
-
 ### -field v1_enum
 
-
-
-
 ## -see-also
-
-
-
 
 [EAPHost Supplicant Enumerations](/windows/win32/eaphost/eap-host-supplicant-enumerations)
 
@@ -92,7 +81,4 @@ The method property value is a pointer to a value of type  <b>BYTE</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a>
- 
-
- 
 

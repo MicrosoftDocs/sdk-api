@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 97cfe347-f4ca-4512-a33a-4da4532c4290
 ms.date: 12/05/2018
 ms.keywords: DhcpSetOptionInfo, DhcpSetOptionInfo function [DHCP], dhcp.dhcpsetoptioninfo, dhcpsapi/DhcpSetOptionInfo
-f1_keywords:
-- dhcpsapi/DhcpSetOptionInfo
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpSetOptionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpSetOptionInfo
+ - dhcpsapi/DhcpSetOptionInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpSetOptionInfo
 ---
 
 # DhcpSetOptionInfo function
@@ -49,36 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpSetOptionInfo</b> function 
 
 modifies the option definition of the specified option for the default user class and vendor class at the default option level.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Pointer to a Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param OptionID [in]
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the code uniquely identifying a specific DHCP option.
-
 
 ### -param OptionInfo [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains  information on the option specified by <i>OptionID</i>.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -110,15 +100,8 @@ The specified option definition could not be found in the DHCP server database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a>
 
@@ -129,7 +112,4 @@ The specified option definition could not be found in the DHCP server database.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetoptioninfov5">DhcpSetOptionInfoV5</a>
- 
-
- 
 

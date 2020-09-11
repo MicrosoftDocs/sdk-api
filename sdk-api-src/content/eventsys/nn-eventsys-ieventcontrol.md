@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 8b2fba30-3ede-466f-ad3b-2de2175a088b
 ms.date: 12/05/2018
 ms.keywords: IEventControl, IEventControl interface [COM+], IEventControl interface [COM+],described, _cos_IEventControl, cos.ieventcontrol, eventsys/IEventControl
-f1_keywords:
-- eventsys/IEventControl
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Eventsys.h
-api_name:
-- IEventControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventControl
+ - eventsys/IEventControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Eventsys.h
+api_name:
+ - IEventControl
 ---
 
 # IEventControl interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the behavior of an event object, the object that fires an event to its subscribers.
 
 The <b>IEventControl</b> interface differs from the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a> interface in that it supports only one interface for the event object.
-
 
 ## -inheritance
 
@@ -123,5 +122,5 @@ Indicates whether subscribers can be activated in the publisher's process.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 8705ac1a-62ba-4239-aeb6-b35ac5f0dd18
 ms.date: 12/05/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
-f1_keywords:
-- webservices/WsAsyncExecute
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsAsyncExecute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsAsyncExecute
+ - webservices/WsAsyncExecute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsAsyncExecute
 ---
 
 # WsAsyncExecute function
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Helper function for implementing an <a href="https://docs.microsoft.com/windows/desktop/wsw/asynchronous-model">asynchronous</a> operation.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param asyncState [in]
 
@@ -67,51 +60,33 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webserv
                 for direct use.  The application must allocate  the <b>WS_ASYNC_STATE</b> structure and ensure that it 
                 is kept alive during the entire asynchronous operation.  The <b>WS_ASYNC_STATE</b> structure can be reused after an 
                 asynchronous operation has completed.
-            
-
 
 ### -param operation [in, optional]
 
 Represents the initial asynchronous operation to be performed.
-                
-
 
 ### -param callbackModel [in]
 
 Indicates whether the callback is being invoked long or short.
                 For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_CALLBACK_MODEL</a>
 
-
-
 ### -param callbackState [in]
 
 A void pointer to a user-defined value that is passed to each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_async_function">WS_ASYNC_FUNCTION</a>.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Pointer to information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
 
-
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-
 
 ## -returns
 
-
-
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
-
-
-
 ## -remarks
-
-
 
 For an understaning of how WWSAPI handles asynchronous operations, see the <a href="https://docs.microsoft.com/windows/desktop/wsw/asynchronous-model">Asynchronous Model</a> topic. 
 
@@ -125,7 +100,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webse
 
 The examples <a href="https://docs.microsoft.com/windows/desktop/wsw/asyncadd3explicitexample">AsyncAdd3ExplicitExample</a> and <a href="https://docs.microsoft.com/windows/desktop/wsw/asyncadd3implicitexample">AsyncAdd3ImplicitExample</a> demonstrate implementing
                 the same asynchronous function manually using <b>WsAsyncExecute</b>.
-            
-
-
 

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl::LockPayload
 f1_keywords:
+ - IMFExtendedCameraControl::LockPayload
  - mfidl/IMFExtendedCameraControl::LockPayload
 dev_langs:
  - c++
@@ -41,8 +42,7 @@ dev_langs:
 
 ## -description
 
-Locks the internal payload buffer contained in the capture device control to enable querying or changing the payload. 
-
+Locks the internal payload buffer contained in the capture device control to enable querying or changing the payload.
 
 ## -parameters
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
 ms.date: 12/05/2018
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
-f1_keywords:
-- processthreadsapi/TlsGetValue
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: KernelBase.dll on Windows Phone 8.1; Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- KernelBase.dll
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- TlsGetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TlsGetValue
+ - processthreadsapi/TlsGetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - TlsGetValue
 ---
 
 # TlsGetValue function
@@ -56,24 +57,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTlsIndex [in]
 
 The TLS index that was allocated by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the value stored in the calling thread's TLS slot associated with the specified index. If <i>dwTlsIndex</i> is a valid index allocated by a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a>, this function always succeeds.
 
@@ -86,12 +79,7 @@ Functions that return indications of failure call <a href="https://docs.microsof
 <b>TlsGetValue</b> function is an exception to this general rule. The 
 <b>TlsGetValue</b> function calls <b>SetLastError</b>to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
 
-
-
-
 ## -remarks
-
-
 
 <b>Windows Phone 8.1:</b> This function is supported for Windows Phone Store apps on Windows Phone 8.1 and later. When a Windows Phone Store app calls this function, it is replaced with an inline call to <b>FlsGetValue</b>. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> for function documentation.
 
@@ -115,12 +103,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
@@ -139,7 +122,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue">TlsSetValue</a>
- 
-
- 
 

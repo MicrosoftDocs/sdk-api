@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: fdb1a7db-20f6-4732-bb59-fc078387375d
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],Type property, IAlternativeName.Type, IAlternativeName.get_Type, IAlternativeName::Type, IAlternativeName::get_Type, Type property [Security], Type property [Security],IAlternativeName interface, certenroll/IAlternativeName::Type, certenroll/IAlternativeName::get_Type, get_Type, security.ialternativename_type_property
-f1_keywords:
-- certenroll/IAlternativeName.Type
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IAlternativeName.Type
-- IAlternativeName.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAlternativeName::get_Type
+ - certenroll/IAlternativeName::get_Type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IAlternativeName.Type
+ - IAlternativeName.get_Type
 ---
 
 # IAlternativeName::get_Type
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Type</b> property retrieves the alternative name type.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following values from the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration can be returned. The  <b>XCN_CERT_ALT_NAME_UNKNOWN</b> value is never returned.
 
@@ -107,18 +103,8 @@ The following values from the <a href="https://docs.microsoft.com/windows/deskto
 <td>The name is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: a69bb0d0-5afb-420f-a97c-071dc472e1d2
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetBackgroundColor method, IAMLine21Decoder.SetBackgroundColor, IAMLine21Decoder::SetBackgroundColor, IAMLine21DecoderSetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DirectShow], SetBackgroundColor method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setbackgroundcolor, il21dec/IAMLine21Decoder::SetBackgroundColor
-f1_keywords:
-- il21dec/IAMLine21Decoder.SetBackgroundColor
-dev_langs:
-- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMLine21Decoder.SetBackgroundColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMLine21Decoder::SetBackgroundColor
+ - il21dec/IAMLine21Decoder::SetBackgroundColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMLine21Decoder.SetBackgroundColor
 ---
 
 # IAMLine21Decoder::SetBackgroundColor
@@ -50,38 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetBackgroundColor</code> method sets the background color that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter uses for overlay. The default background color is magenta.
 
 
 
 Generally, applications should not call this method. The background color must match the overlay color key, which is defined by the downstream rendering filter.
 
-
 ## -parameters
-
-
-
 
 ### -param dwPhysColor
 
 Sets the background color as a pixel color value. The meaning of the pixel value is defined by the bit depth of the filter's current output format.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful, or an error code otherwise.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -92,7 +78,4 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getbackgroundcolor">IAMLine21Decoder::GetBackgroundColor</a>
- 
-
- 
 

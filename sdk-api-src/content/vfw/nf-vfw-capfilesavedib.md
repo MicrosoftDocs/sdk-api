@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: bab1c97d-e84e-43ff-9b66-79b903a610eb
 ms.date: 12/05/2018
 ms.keywords: _win32_capFileSaveDIB, capFileSaveDIB, capFileSaveDIB macro [Windows Multimedia], multimedia.capfilesavedib, vfw/capFileSaveDIB
-f1_keywords:
-- vfw/capFileSaveDIB
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- capFileSaveDIB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - capFileSaveDIB
+ - vfw/capFileSaveDIB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - capFileSaveDIB
 ---
 
 # capFileSaveDIB macro
@@ -49,48 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>capFileSaveDIB</b> macro copies the current frame to a DIB file. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-savedib">WM_CAP_FILE_SAVEDIB</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle to a capture window. 
-
+Handle to a capture window.
 
 ### -param szName
 
-Pointer to the null-terminated string that contains the name of the destination DIB file. 
-
+Pointer to the null-terminated string that contains the name of the destination DIB file.
 
 ## -remarks
 
-
-
 If the capture driver supplies frames in a compressed format, this call attempts to decompress the frame before writing the file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
- 
-
- 
 

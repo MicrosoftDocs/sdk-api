@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 7eea9fe0-80e7-43a9-a797-df12d4d809dc
 ms.date: 12/05/2018
 ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeException interface [Windows Sync],described, winsync.irangeexception, winsync/IRangeException
-f1_keywords:
-- winsync/IRangeException
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRangeException
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRangeException
+ - winsync/IRangeException
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRangeException
 ---
 
 # IRangeException interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an item ID range to exclude from a knowledge object.
-
-
 
 ## -inheritance
 
@@ -99,16 +97,9 @@ Gets the lower bound of the range of item IDs to exclude.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

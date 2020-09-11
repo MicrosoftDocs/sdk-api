@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 948a9012-b2ac-4bf0-8cae-690ea3ecdb2e
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],MyStoreType property, ICEnroll interface [Security],MyStoreType property, ICEnroll.MyStoreType, ICEnroll.put_MyStoreType, ICEnroll2 interface [Security],MyStoreType property, ICEnroll2.MyStoreType, ICEnroll2::get_MyStoreType, ICEnroll2::put_MyStoreType, ICEnroll3 interface [Security],MyStoreType property, ICEnroll3.MyStoreType, ICEnroll3::get_MyStoreType, ICEnroll3::put_MyStoreType, ICEnroll4 interface [Security],MyStoreType property, ICEnroll4.MyStoreType, ICEnroll4::MyStoreType, ICEnroll4::get_MyStoreType, ICEnroll4::put_MyStoreType, ICEnroll::get_MyStoreType, ICEnroll::put_MyStoreType, MyStoreType property [Security], MyStoreType property [Security],CEnroll object, MyStoreType property [Security],ICEnroll interface, MyStoreType property [Security],ICEnroll2 interface, MyStoreType property [Security],ICEnroll3 interface, MyStoreType property [Security],ICEnroll4 interface, put_MyStoreType, security.icenroll4_mystoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::MyStoreType, xenroll/ICEnroll2::get_MyStoreType, xenroll/ICEnroll2::put_MyStoreType, xenroll/ICEnroll3::MyStoreType, xenroll/ICEnroll3::get_MyStoreType, xenroll/ICEnroll3::put_MyStoreType, xenroll/ICEnroll4::MyStoreType, xenroll/ICEnroll4::get_MyStoreType, xenroll/ICEnroll4::put_MyStoreType, xenroll/ICEnroll::MyStoreType, xenroll/ICEnroll::get_MyStoreType, xenroll/ICEnroll::put_MyStoreType
-f1_keywords:
-- xenroll/ICEnroll4.MyStoreType
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.MyStoreType
-- ICEnroll4.get_MyStoreType
-- ICEnroll4.put_MyStoreType
-- ICEnroll3.MyStoreType
-- ICEnroll3.get_MyStoreType
-- ICEnroll3.put_MyStoreType
-- ICEnroll2.MyStoreType
-- ICEnroll2.get_MyStoreType
-- ICEnroll2.put_MyStoreType
-- ICEnroll.MyStoreType
-- ICEnroll.get_MyStoreType
-- ICEnroll.put_MyStoreType
-- CEnroll.MyStoreType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::put_MyStoreType
+ - xenroll/ICEnroll::put_MyStoreType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.MyStoreType
+ - ICEnroll4.get_MyStoreType
+ - ICEnroll4.put_MyStoreType
+ - ICEnroll3.MyStoreType
+ - ICEnroll3.get_MyStoreType
+ - ICEnroll3.put_MyStoreType
+ - ICEnroll2.MyStoreType
+ - ICEnroll2.get_MyStoreType
+ - ICEnroll2.put_MyStoreType
+ - ICEnroll.MyStoreType
+ - ICEnroll.get_MyStoreType
+ - ICEnroll.put_MyStoreType
+ - CEnroll.MyStoreType
 ---
 
 # ICEnroll::put_MyStoreType
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -71,14 +71,9 @@ The default value for this property is sz_CERT_STORE_PROV_SYSTEM. Only system st
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>MyStoreType</b> property affects the behavior of the following methods:
 
@@ -122,7 +117,4 @@ if ( FAILED ( hr ) )
 else
     printf( "MyStoreType was set to %ws\n", bstrNewType );
 ```
-
-
-
 

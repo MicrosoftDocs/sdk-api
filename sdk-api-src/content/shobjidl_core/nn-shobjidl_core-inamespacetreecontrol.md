@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2072cb3c-e540-4708-bfe8-33fff3a190bd
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl, INameSpaceTreeControl interface [Windows Shell], INameSpaceTreeControl interface [Windows Shell],described, _shell_INameSpaceTreeControl, shell.INameSpaceTreeControl, shobjidl_core/INameSpaceTreeControl
-f1_keywords:
-- shobjidl_core/INameSpaceTreeControl
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- INameSpaceTreeControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControl
+ - shobjidl_core/INameSpaceTreeControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - INameSpaceTreeControl
 ---
 
 # INameSpaceTreeControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods used to view and manipulate nodes in a tree of Shell items.
-
 
 ## -inheritance
 
@@ -239,14 +238,9 @@ Enables a client to unregister with the control.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To implement this interface use class ID CLSID_NameSpaceTreeControl.
-
-
 

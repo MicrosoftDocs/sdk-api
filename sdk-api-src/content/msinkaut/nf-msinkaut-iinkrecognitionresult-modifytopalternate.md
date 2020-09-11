@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 98edc5e9-2388-4f4e-a67f-029ee83be4cb
 ms.date: 12/05/2018
 ms.keywords: 98edc5e9-2388-4f4e-a67f-029ee83be4cb, IInkRecognitionResult interface [Tablet PC],ModifyTopAlternate method, IInkRecognitionResult.ModifyTopAlternate, IInkRecognitionResult::ModifyTopAlternate, ModifyTopAlternate, ModifyTopAlternate method [Tablet PC], ModifyTopAlternate method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::ModifyTopAlternate, tablet.iinkrecognitionresult_modifytopalternate
-f1_keywords:
-- msinkaut/IInkRecognitionResult.ModifyTopAlternate
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognitionResult.ModifyTopAlternate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognitionResult::ModifyTopAlternate
+ - msinkaut/IInkRecognitionResult::ModifyTopAlternate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognitionResult.ModifyTopAlternate
 ---
 
 # IInkRecognitionResult::ModifyTopAlternate
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Changes the top alternate of a recognition result by using the specified alternate.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Alternate [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> to use to modify the top alternate.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,14 +135,8 @@ Cannot allocate memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, the best result string of the recognition result corresponds to the <b>top alternate</b>. However, you can use this method to specify that alternates other than the top alternate are used in the result. When you choose an alternate other than the top alternate, you are essentially choosing a different path through the lattice of alternates that are associated with the results.
 
@@ -162,13 +146,7 @@ To retrieve the alternates that can be used to modify the recognition result, ca
 <div> </div>
 The alternate used in the function can be a word alternate in an entire sentence. For example, an alternate obtained by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)">AlternatesFromSelection</a> (0, 5) for "Hello World" only changes the "Hello" part of the word leaving the "World" part intact.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)">GetAlternatesFromSelection Method</a>
 
@@ -187,7 +165,4 @@ The alternate used in the function can be a word alternate in an entire sentence
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topstring">TopString Property</a>
- 
-
- 
 

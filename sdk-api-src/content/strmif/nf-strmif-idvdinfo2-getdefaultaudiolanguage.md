@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 89f93521-9df7-4162-bb66-2210cceebc75
 ms.date: 12/05/2018
 ms.keywords: GetDefaultAudioLanguage, GetDefaultAudioLanguage method [DirectShow], GetDefaultAudioLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultAudioLanguage method, IDvdInfo2.GetDefaultAudioLanguage, IDvdInfo2::GetDefaultAudioLanguage, IDvdInfo2GetDefaultAudioLanguage, dshow.idvdinfo2_getdefaultaudiolanguage, strmif/IDvdInfo2::GetDefaultAudioLanguage
-f1_keywords:
-- strmif/IDvdInfo2.GetDefaultAudioLanguage
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetDefaultAudioLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetDefaultAudioLanguage
+ - strmif/IDvdInfo2::GetDefaultAudioLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetDefaultAudioLanguage
 ---
 
 # IDvdInfo2::GetDefaultAudioLanguage
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDefaultAudioLanguage</code> method retrieves the default audio language.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pLanguage [out]
 
 Receives the default language information.
 
-
 ### -param pAudioExtension
 
 Pointer to a variable of type [DVD_AUDIO_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext) that receives a value indicating the default DVD audio language extension.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -139,15 +128,8 @@ DVD Navigator is not in a valid domain.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -158,7 +140,4 @@ DVD Navigator is not in a valid domain.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
 

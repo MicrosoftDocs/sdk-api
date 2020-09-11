@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_5ode.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevStartJob, FaxDevStartJob function [Fax Service], _mfax_faxdevstartjob, fax._mfax_faxdevstartjob, faxdev/FaxDevStartJob
-f1_keywords:
-- faxdev/FaxDevStartJob
-dev_langs:
-- c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- FaxDev.h
-api_name:
-- FaxDevStartJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxDevStartJob
+ - faxdev/FaxDevStartJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - FaxDev.h
+api_name:
+ - FaxDevStartJob
 ---
 
 # FaxDevStartJob function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The fax service calls the <b>FaxDevStartJob</b> function to initialize a new fax job. The fax service also calls <b>FaxDevStartJob</b> to signal the beginning of each fax operation to the fax service provider (FSP). Each FSP must export the <b>FaxDevStartJob</b> function.
 
-
 ## -parameters
-
-
-
 
 ### -param LineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HLINE</b>
 
 Specifies a handle to the open line device associated with the fax job.
 
-
 ### -param DeviceId [in]
 
 Type: <b>DWORD</b>
 
 Specifies the TAPI line device identifier associated with the fax job.
-
 
 ### -param FaxHandle [out]
 
@@ -78,13 +72,11 @@ Type: <b>PHANDLE</b>
 
 Pointer to a variable that receives a fax handle associated with the fax job. The FSP must set this handle to a meaningful value; this handle usually specifies a pointer to a block of memory with job-specific instance data.
 
-
 ### -param CompletionPortHandle [in]
 
 Type: <b>HANDLE</b>
 
 Specifies a handle to an I/O completion port. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>.
-
 
 ### -param CompletionKey [in]
 
@@ -92,10 +84,7 @@ Type: <b>ULONG_PTR</b>
 
 Specifies a completion key value. The fax service provider should pass this opaque value to the <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -103,12 +92,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FaxDevStartJob</b> function provides an opportunity for the fax service provider to perform call setup.
 
@@ -118,13 +102,7 @@ The FSP should create an I/O completion packet and call the <a href="https://doc
 
 The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> parameters to post completion packets for FSP status changes. This method of status notification optimizes performance because the fax service does not need to poll FSPs to obtain updated status information. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-a-completion-packet">Creating a Completion Packet</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a>
 
@@ -155,7 +133,4 @@ The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> para
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
- 
-
- 
 

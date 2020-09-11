@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: a5ca0776-bd1d-48a0-970a-39c8da69b394
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_INVALIDARG, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_SERVICE_NOT_ACTIVATED, HRESULT_FROM_WIN32(ERROR_INVALID_STATE), HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnSetRegisterModeComplete method, IMbnRegistrationEvents.OnSetRegisterModeComplete, IMbnRegistrationEvents::OnSetRegisterModeComplete, OnSetRegisterModeComplete, OnSetRegisterModeComplete method [Microsoft Broadband Networks], OnSetRegisterModeComplete method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, S_OK, mbn.imbnregistrationevents_onsetregistermodecomplete, mbnapi/IMbnRegistrationEvents::OnSetRegisterModeComplete
-f1_keywords:
-- mbnapi/IMbnRegistrationEvents.OnSetRegisterModeComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnRegistrationEvents.OnSetRegisterModeComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnRegistrationEvents::OnSetRegisterModeComplete
+ - mbnapi/IMbnRegistrationEvents::OnSetRegisterModeComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnRegistrationEvents.OnSetRegisterModeComplete
 ---
 
 # IMbnRegistrationEvents::OnSetRegisterModeComplete
@@ -54,22 +55,15 @@ ms.custom: 19H1
 
 Notification method called by the Mobile Broadband service to indicate that it has completed a set registration operation.
 
-
 ## -parameters
-
-
-
 
 ### -param newInterface [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface that represents the applicable device.  The handling application can use this interface to get the current registration state of the device. 
-
-
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface that represents the applicable device.  The handling application can use this interface to get the current registration state of the device.
 
 ### -param requestID [in]
 
 The request ID assigned by the Mobile Broadband service to track the set registration operation.
-
 
 ### -param status [in]
 
@@ -165,25 +159,12 @@ This occurs only when switching to manual registration mode. The switch is succe
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>
- 
-
- 
 

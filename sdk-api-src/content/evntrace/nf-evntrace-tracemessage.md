@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a
 ms.date: 12/05/2018
 ms.keywords: PVOID, TRACE_MESSAGE_COMPONENTID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SYSTEMINFO, TRACE_MESSAGE_TIMESTAMP, TraceMessage, TraceMessage function [ETW], _evt_tracemessage, base.tracemessage, etw.tracemessage, evntrace/TraceMessage, size_t
-f1_keywords:
-- evntrace/TraceMessage
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-eventing-classicprovider-l1-1-0.dll
-api_name:
-- TraceMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceMessage
+ - evntrace/TraceMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+api_name:
+ - TraceMessage
 ---
 
 # TraceMessage function
@@ -52,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>TraceMessage</b> function sends an informational message to an event tracing session. 
-
+<b>TraceMessage</b> function sends an informational message to an event tracing session.
 
 ## -parameters
-
-
-
 
 ### -param LoggerHandle [in]
 
 Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function in its <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> implementation.
-
 
 ### -param MessageFlags [in]
 
@@ -147,11 +142,9 @@ The information is included in the event data in the following order:
 
 Class GUID or component ID that identifies the message. Depends if <i>MessageFlags</i> contains the <b>TRACE_MESSAGE_COMPONENTID</b> or <b>TRACE_MESSAGE_GUID</b> flag.
 
-
 ### -param MessageNumber [in]
 
 Number that uniquely identifies each occurrence of the message. You must define the value specified for this parameter; the value should be meaningful to the application.
-
 
 ### -param arg5
 
@@ -192,10 +185,7 @@ Terminate the list using an argument pair consisting of a pointer to <b>NULL</b>
 
 The caller must ensure that the sum of the sizes of the arguments + 72 does not exceed the size of the event tracing session's buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 						
@@ -268,14 +258,8 @@ Data from a single event cannot span multiple buffers. A trace event is limited 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Providers call this function.
 
@@ -290,13 +274,7 @@ Consumers will have to use the <a href="https://docs.microsoft.com/windows/deskt
 
 Note that the members of the <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structures that correspond to the <i>MessageFlags</i> flags are set only if the corresponding flag is specified. For example, the <b>ThreadId</b> and <b>ProcessId</b> members of <b>EVENT_TRACE_HEADER</b> are populated only if you specify the TRACE_MESSAGE_SYSTEMINFO flag.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a>
 
@@ -307,7 +285,4 @@ Note that the members of the <a href="https://docs.microsoft.com/windows/desktop
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/tracemessageva">TraceMessageVa</a>
- 
-
- 
 

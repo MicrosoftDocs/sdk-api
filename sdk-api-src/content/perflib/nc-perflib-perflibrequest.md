@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 0f771ab7-af42-481b-b2da-20dcdf49b82b
 ms.date: 12/05/2018
 ms.keywords: ControlCallback, ControlCallback callback function [Perf], PERFLIBREQUEST, PERFLIBREQUEST callback, PERF_ADD_COUNTER, PERF_COLLECT_END, PERF_COLLECT_START, PERF_ENUM_INSTANCES, PERF_REMOVE_COUNTER, base.controlcallback_perflibv2, perf.controlcallback_perflibv2, perflib/ControlCallback
-f1_keywords:
-- perflib/ControlCallback
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Perflib.h
-api_name:
-- ControlCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PERFLIBREQUEST
+ - perflib/PERFLIBREQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Perflib.h
+api_name:
+ - ControlCallback
 ---
 
 # PERFLIBREQUEST callback function
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Providers can implement this function to receive notification when consumers perform certain actions, such as adding or removing counters from a query. 
 			PERFLIB calls the callback before the consumer's request completes.
 
 The <b>PERFLIBREQUEST</b> type defines a pointer to this callback function. The <b>ControlCallback</b> function is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestCode [in]
 
@@ -131,33 +127,22 @@ Providers can use this notification to release the update lock imposed by the co
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [in]
 
 The contents of the buffer depends on the request. For possible content, see the <i>RequestCode</i> parameter.
 
-
 ### -param BufferSize [in]
 
 Size, in bytes, of the <i>Buffer</i> parameter.
 
-
 ## -returns
-
-
 
 Return ERROR_SUCCESS if the callback succeeds. 
 
 If the callback fails, PERFLIB will return the error code to the consumer if the request is <b>PERF_ADD_COUNTER</b>, <b>PERF_ENUM_INSTANCES</b>, or <b>PERF_COLLECT_START</b>; otherwise, the error code is ignored.
 
-
-
-
 ## -remarks
-
-
 
 If the <b>callback</b> attribute of the <a href="https://docs.microsoft.com/previous-versions/aa373164(v=vs.85)">provider</a> element is "custom" or you used the <b>-NotificationCallback</b> argument when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, you must implement this function. You pass the name of your callback function to <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a>.
 
@@ -223,7 +208,4 @@ ULONG MyControlCallback(ULONG RequestCode, PVOID pBuffer, ULONG* pBufferSize)
 }
 
 ```
-
-
-
 

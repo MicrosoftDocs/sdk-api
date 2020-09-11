@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_commandtype.htm
 ms.date: 12/05/2018
 ms.keywords: UI_COMMANDTYPE, UI_COMMANDTYPE enumeration [Windows Ribbon], UI_COMMANDTYPE_ACTION, UI_COMMANDTYPE_ANCHOR, UI_COMMANDTYPE_BOOLEAN, UI_COMMANDTYPE_COLLECTION, UI_COMMANDTYPE_COLORANCHOR, UI_COMMANDTYPE_COLORCOLLECTION, UI_COMMANDTYPE_COMMANDCOLLECTION, UI_COMMANDTYPE_CONTEXT, UI_COMMANDTYPE_DECIMAL, UI_COMMANDTYPE_FONT, UI_COMMANDTYPE_GROUP, UI_COMMANDTYPE_RECENTITEMS, UI_COMMANDTYPE_UNKNOWN, scenicintent_UI_COMMANDTYPE, uiribbon/UI_COMMANDTYPE, uiribbon/UI_COMMANDTYPE_ACTION, uiribbon/UI_COMMANDTYPE_ANCHOR, uiribbon/UI_COMMANDTYPE_BOOLEAN, uiribbon/UI_COMMANDTYPE_COLLECTION, uiribbon/UI_COMMANDTYPE_COLORANCHOR, uiribbon/UI_COMMANDTYPE_COLORCOLLECTION, uiribbon/UI_COMMANDTYPE_COMMANDCOLLECTION, uiribbon/UI_COMMANDTYPE_CONTEXT, uiribbon/UI_COMMANDTYPE_DECIMAL, uiribbon/UI_COMMANDTYPE_FONT, uiribbon/UI_COMMANDTYPE_GROUP, uiribbon/UI_COMMANDTYPE_RECENTITEMS, uiribbon/UI_COMMANDTYPE_UNKNOWN, windowsribbon.windowsribbon_ui_commandtype
-f1_keywords:
-- uiribbon/UI_COMMANDTYPE
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uiribbon.h
-api_name:
-- UI_COMMANDTYPE
 targetos: Windows
 req.typenames: UI_COMMANDTYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UI_COMMANDTYPE
+ - uiribbon/UI_COMMANDTYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uiribbon.h
+api_name:
+ - UI_COMMANDTYPE
 ---
 
 # UI_COMMANDTYPE enumeration
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies values that identify the type of Command associated with a Ribbon control.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UI_COMMANDTYPE_UNKNOWN
 
 The type of command is not known.
 
-
 ### -field UI_COMMANDTYPE_GROUP
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-group">Group</a>
 
-
-
 ### -field UI_COMMANDTYPE_ACTION
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-button">Button</a>
 
@@ -79,10 +70,7 @@ The type of command is not known.
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-helpbutton">Help Button</a>
 
-
-
 ### -field UI_COMMANDTYPE_ANCHOR
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-applicationmenu">Application Menu</a>
 
@@ -98,17 +86,11 @@ The type of command is not known.
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-tab">Tab</a>
 
-
-
 ### -field UI_COMMANDTYPE_CONTEXT
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-tabgroup">Tab Group</a>
 
-
-
 ### -field UI_COMMANDTYPE_COLLECTION
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-combobox">Combo Box</a>
 
@@ -124,10 +106,7 @@ The type of command is not known.
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-splitbuttongallery">Split Button Gallery</a>
 
-
-
 ### -field UI_COMMANDTYPE_COMMANDCOLLECTION
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-dropdowngallery">Drop-Down Gallery</a>
 
@@ -143,17 +122,11 @@ The type of command is not known.
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-splitbuttongallery">Split Button Gallery</a>
 
-
-
 ### -field UI_COMMANDTYPE_DECIMAL
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-spinner">Spinner</a>
 
-
-
 ### -field UI_COMMANDTYPE_BOOLEAN
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-togglebutton">Toggle Button</a>
 
@@ -161,41 +134,23 @@ The type of command is not known.
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-checkbox">Check Box</a>
 
-
-
 ### -field UI_COMMANDTYPE_FONT
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-fontcontrol">Font Control</a>
 
-
-
 ### -field UI_COMMANDTYPE_RECENTITEMS
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-recentitems">Recent Items</a>
 
-
-
 ### -field UI_COMMANDTYPE_COLORANCHOR
 
-
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-dropdowncolorpicker">Drop-Down Color Picker</a>
-
-
 
 ### -field UI_COMMANDTYPE_COLORCOLLECTION
 
 This Command type is not supported by any framework controls.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
- 
-
- 
 

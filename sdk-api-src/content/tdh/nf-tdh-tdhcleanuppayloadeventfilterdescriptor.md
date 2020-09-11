@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: AA08AFD5-EC1A-44BF-9BCB-EEA69A959853
 ms.date: 12/05/2018
 ms.keywords: TdhCleanupPayloadEventFilterDescriptor, TdhCleanupPayloadEventFilterDescriptor function [ETW], etw.tdhcleanuppayloadeventfilterdescriptor, tdh/TdhCleanupPayloadEventFilterDescriptor
-f1_keywords:
-- tdh/TdhCleanupPayloadEventFilterDescriptor
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
-api_name:
-- TdhCleanupPayloadEventFilterDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhCleanupPayloadEventFilterDescriptor
+ - tdh/TdhCleanupPayloadEventFilterDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+api_name:
+ - TdhCleanupPayloadEventFilterDescriptor
 ---
 
 # TdhCleanupPayloadEventFilterDescriptor function
@@ -50,16 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TdhCleanupPayloadEventFilterDescriptor</b> function frees the aggregated structure of payload filters created using the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> function.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param EventFilterDescriptor [in, out]
 
@@ -67,10 +61,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov
 
 If the call is successful, allocated memory is released for the aggregated filters and the fields in the returned <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure are re-initialized
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
@@ -91,14 +82,8 @@ One or more of the parameters is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function to filter on specific content of the event in a logger session. 
 
@@ -113,12 +98,7 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
@@ -141,7 +121,4 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhdeletepayloadfilter">TdhDeletePayloadFilter</a>
- 
-
- 
 

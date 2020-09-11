@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 97495455-a576-4984-beb8-9282073e88c2
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI], IADsPrintQueueOperations interface [ADSI],described, _ds_iadsprintqueueoperations, adsi.iadsprintqueueoperations, iads/IADsPrintQueueOperations
-f1_keywords:
-- iads/IADsPrintQueueOperations
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPrintQueueOperations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPrintQueueOperations
+ - iads/IADsPrintQueueOperations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPrintQueueOperations
 ---
 
 # IADsPrintQueueOperations interface
 
 
 ## -description
-
 
 The <b>IADsPrintQueueOperations</b> interface is a 
     dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is used to 
@@ -298,20 +298,13 @@ Reports the current status of print queue service.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: e6fb0ed1-cdc1-4792-98cb-2acf27bce5ce
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistArray, IWMPPlaylistArray interface [Windows Media Player], IWMPPlaylistArray interface [Windows Media Player],described, IWMPPlaylistArrayInterface, wmp.iwmpplaylistarray, wmp/IWMPPlaylistArray
-f1_keywords:
-- wmp/IWMPPlaylistArray
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlaylistArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylistArray
+ - wmp/IWMPPlaylistArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlaylistArray
 ---
 
 # IWMPPlaylistArray interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlaylistArray</b> interface provides methods for accessing a collection of <b>IWMPPlaylist</b> interface pointers by index number.
-
-
-
 
 ## -inheritance
 
@@ -89,20 +85,13 @@ Retrieves a pointer to the <b>IWMPPlaylist</b> interface representing the playli
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

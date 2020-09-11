@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2af2ac00-0e91-4384-9ffa-3e100df218c1
 ms.date: 12/05/2018
 ms.keywords: SSPIPFC_CREDPROV_DO_NOT_SAVE, SSPIPFC_NO_CHECKBOX, SspiPromptForCredentials, SspiPromptForCredentials function [Security], SspiPromptForCredentialsA, SspiPromptForCredentialsW, security.sspipromptforcredentials, sspi/SspiPromptForCredentials, sspi/SspiPromptForCredentialsA, sspi/SspiPromptForCredentialsW
-f1_keywords:
-- sspi/SspiPromptForCredentials
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Credui.dll
-- Ext-MS-Win-security-credui-l1-1-0.dll
-- Ext-MS-Win-security-credui-l1-1-1.dll
-- AnalogCredUI.dll
-api_name:
-- SspiPromptForCredentials
-- SspiPromptForCredentialsA
-- SspiPromptForCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SspiPromptForCredentialsW
+ - sspi/SspiPromptForCredentialsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-0.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
+api_name:
+ - SspiPromptForCredentials
+ - SspiPromptForCredentialsA
+ - SspiPromptForCredentialsW
 ---
 
 # SspiPromptForCredentialsW function
@@ -54,19 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Support Provider Interface </a>(SSPI) application to prompt a user to enter credentials.
 
-
 ## -parameters
-
-
-
 
 ### -param pszTargetName [in]
 
 The name of the target to use.
-
 
 ### -param pUiInfo [in]
 
@@ -78,23 +73,19 @@ If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windo
 
 If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
 
-This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure. 
-
+This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure.
 
 ### -param dwAuthError [in]
 
 A Windows error code, defined in Winerror.h, that is displayed in the dialog box. If credentials previously collected were not valid, the caller uses this parameter to pass the error message from the API that collected the credentials (for example, Winlogon) to this function. The corresponding error message is formatted and displayed in the dialog box. Set the  value of this parameter to zero to display no error message.
 
-
 ### -param pszPackage [in]
 
 The name of the security package to use.
 
-
 ### -param pInputAuthIdentity [in]
 
 An identity structure that is used to populate credential fields in the dialog box. To leave the credential fields empty, set the value of this parameter to <b>NULL</b>.
-
 
 ### -param ppAuthIdentity [out]
 
@@ -102,13 +93,11 @@ An identity structure that represents the  credentials this function collects.
 
 When you have finished using this structure, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspifreeauthidentity">SspiFreeAuthIdentity</a> function.
 
-
 ### -param pfSave [in, out, optional]
 
 A pointer to a Boolean value that, on input, specifies whether the <b>Save</b> check box is selected in the dialog box that this function displays. On output, the value of this parameter specifies whether the <b>Save</b> check box was selected when the user clicked the <b>Submit</b> button in the dialog box. Set this parameter to <b>NULL</b> to ignore the <b>Save</b> check box.
 
 This parameter is ignored if the <b>CREDUIWIN_CHECKBOX</b> flag is not set in the <i>dwFlags</i> parameter.
-
 
 ### -param dwFlags [in]
 
@@ -144,18 +133,12 @@ The value signifies that password and smart card credential providers  will not 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-
-
 
 ## -remarks
 

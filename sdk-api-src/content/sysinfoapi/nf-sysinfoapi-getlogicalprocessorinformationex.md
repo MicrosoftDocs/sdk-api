@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: dfc4f444-4651-4a02-b8f6-f30d9278eae2
 ms.date: 12/05/2018
 ms.keywords: GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx function, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.getlogicalprocessorinformationex, sysinfoapi/GetLogicalProcessorInformationEx
-f1_keywords:
-- sysinfoapi/GetLogicalProcessorInformationEx
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetLogicalProcessorInformationEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLogicalProcessorInformationEx
+ - sysinfoapi/GetLogicalProcessorInformationEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetLogicalProcessorInformationEx
 ---
 
 # GetLogicalProcessorInformationEx function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the relationships of logical processors and related hardware.
 
-
 ## -parameters
-
-
-
 
 ### -param RelationshipType [in]
 
@@ -142,34 +138,23 @@ Retrieves information about logical processors for all relationship types (cache
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [out, optional]
 
 A pointer to a buffer that receives  an array of <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structures. If the function fails, the contents of this buffer are undefined.
 
-
 ### -param ReturnedLength [in, out]
 
 On input, specifies the length of the buffer pointed to by  <i>Buffer</i>, in bytes. If the buffer is large enough to contain all of the data, this function succeeds and <i>ReturnedLength</i> is set to the number of bytes returned. If the buffer is not large enough to contain all of the data, the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, and <i>ReturnedLength</i> is set to the buffer length required to contain all of the data. If the function fails with an error other than ERROR_INSUFFICIENT_BUFFER, the value of <i>ReturnedLength</i> is undefined.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is TRUE and at least one <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structure is written to the output buffer.
 
 If the function fails, the return value is FALSE. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
  If a 32-bit process running under WOW64 calls this function on a system with more than 64 processors, some of the processor affinity masks returned by the function may be incorrect. This is  because the high-order <b>DWORD</b> of the 64-bit <a href="https://msdn.microsoft.com/library/aa492494.aspx">KAFFINITY</a> structure that represents all 64 processors is "folded" into a 32-bit <a href="https://msdn.microsoft.com/library/aa492494.aspx">KAFFINITY</a> structure in the caller's buffer. As a result, the affinity masks for processors 32 through 63 are incorrectly represented as duplicates of the masks for processors 0 through 31. In addition, the sum of all per-group <b>ActiveProcessorCount</b> and <b>MaximumProcessorCount</b> values reported in <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a> structures may exclude some active logical processors.
 
@@ -177,16 +162,7 @@ When this function is called with a relationship type of <b>RelationProcessorCor
 
 To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
- 
-
- 
 

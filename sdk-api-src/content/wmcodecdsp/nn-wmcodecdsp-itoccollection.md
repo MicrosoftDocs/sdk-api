@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 10d6fc04-4444-4a47-911f-3d5bec548e28
 ms.date: 12/05/2018
 ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], ITocCollection interface [Media Foundation],described, codecapi.itoccollection, mf.itoccollection, wmcodecdsp/ITocCollection
-f1_keywords:
-- wmcodecdsp/ITocCollection
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocCollection
+ - wmcodecdsp/ITocCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocCollection
 ---
 
 # ITocCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITocCollection</b> represents a collection of tables of contents. It provides methods for adding, retrieving, and removing,  tables of contents from the collection.
-
 
 ## -inheritance
 
@@ -113,20 +112,13 @@ Retrieves the number of tables of contents in the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
- 
-
- 
 

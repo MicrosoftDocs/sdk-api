@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 0e40841a-e297-4c05-aefa-7131de9c6a97
 ms.date: 12/05/2018
 ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow],described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec
-f1_keywords:
-- strmif/IIPDVDec
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IIPDVDec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIPDVDec
+ - strmif/IIPDVDec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IIPDVDec
 ---
 
 # IIPDVDec interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IIPDVDec</code> interface provides methods for setting and retrieving properties on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filter.
-
-
-
 
 ## -inheritance
 
@@ -90,5 +86,5 @@ Sets the decoding resolution.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 5BF38EC7-7C04-455B-AFAA-CC2A78E54A4F
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management], IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],described, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator
-f1_keywords:
-- appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleManifestOptionalBundleInfoEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleManifestOptionalBundleInfoEnumerator
+ - appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleManifestOptionalBundleInfoEnumerator
 ---
 
 # IAppxBundleManifestOptionalBundleInfoEnumerator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the optional bundle information from a bundle.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Advances the position of the enumerator to the next set of optional bundle infor
 
 </td>
 </tr>
-</table> 
+</table>
 

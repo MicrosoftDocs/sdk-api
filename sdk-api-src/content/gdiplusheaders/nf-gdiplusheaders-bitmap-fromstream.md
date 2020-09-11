@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromstream.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],FromStream method, Bitmap.FromStream, Bitmap::FromStream, FromStream, FromStream method [GDI+], FromStream method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_
-f1_keywords:
-- gdiplusheaders/Bitmap.FromStream
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Bitmap.FromStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Bitmap::FromStream
+ - gdiplusheaders/Bitmap::FromStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Bitmap.FromStream
 ---
 
 # Bitmap::FromStream
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Bitmap::FromStream</b> method creates a 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object based on a stream.
 
-
 ## -parameters
-
-
-
 
 ### -param stream [in]
 
@@ -69,33 +65,23 @@ Pointer to an
 					IStream must include the 
 					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a>, 
 					<b>Read</b>, and 
-					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> methods. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> methods.
 
 ### -param useEmbeddedColorManagement [in]
 
 Type: <b>BOOL</b>
 
 Optional. <b>BOOL</b> value that specifies whether the new 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object applies color correction according to color management information that is embedded in the stream. Embedded information can include International Color Consortium (ICC) profiles, gamma values, and chromaticity information. <b>TRUE</b> specifies that color correction is enabled, and <b>FALSE</b> specifies that color correction is not enabled. The default value is <b>FALSE</b>. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object applies color correction according to color management information that is embedded in the stream. Embedded information can include International Color Consortium (ICC) profiles, gamma values, and chromaticity information. <b>TRUE</b> specifies that color correction is enabled, and <b>FALSE</b> specifies that color correction is not enabled. The default value is <b>FALSE</b>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>*</b>
 
 This method returns a pointer to the new 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
@@ -110,7 +96,4 @@ This method returns a pointer to the new
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
- 
-
- 
 

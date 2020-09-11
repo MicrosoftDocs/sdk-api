@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 0f93cc96-6e3b-4c03-aa5a-7a74d054a7ff
 ms.date: 12/05/2018
 ms.keywords: FindNextChangeNotification, FindNextChangeNotification function [Files], _win32_findnextchangenotification, base.findnextchangenotification, fileapi/FindNextChangeNotification, fs.findnextchangenotification, winbase/FindNextChangeNotification
-f1_keywords:
-- fileapi/FindNextChangeNotification
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- FindNextChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindNextChangeNotification
+ - fileapi/FindNextChangeNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - FindNextChangeNotification
 ---
 
 # FindNextChangeNotification function
@@ -56,36 +57,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests that the operating system signal a change notification handle the next time it detects an appropriate change.
 
-
 ## -parameters
-
-
-
 
 ### -param hChangeHandle [in]
 
 A handle to a change notification handle created by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 After the 
 <b>FindNextChangeNotification</b> function returns successfully, the application can wait for notification that a change has occurred by using the 
@@ -172,12 +160,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
@@ -188,7 +171,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>
- 
-
- 
 

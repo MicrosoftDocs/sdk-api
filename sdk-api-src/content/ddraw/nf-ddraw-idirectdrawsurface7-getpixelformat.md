@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 2c33c46b-6cd7-4ee7-976c-a81f9d92b379
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [DirectDraw], GetPixelFormat method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPixelFormat method, IDirectDrawSurface7.GetPixelFormat, IDirectDrawSurface7::GetPixelFormat, ddraw/IDirectDrawSurface7::GetPixelFormat, directdraw.idirectdrawsurface7_getpixelformat
-f1_keywords:
-- ddraw/IDirectDrawSurface7.GetPixelFormat
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.GetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::GetPixelFormat
+ - ddraw/IDirectDrawSurface7::GetPixelFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.GetPixelFormat
 ---
 
 # IDirectDrawSurface7::GetPixelFormat
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the color and pixel format of this surface.
 
-
 ## -parameters
-
-
-
-
-
 
 #### - lpDDPixelFormat [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddpixelformat">DDPIXELFORMAT</a> structure that receives a detailed description of the current pixel and color space format of this surface.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -81,24 +72,11 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDSURFACETYPE</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetPixelFormat</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

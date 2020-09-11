@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 6e16a90a-a876-471c-917b-a26229a9187a
 ms.date: 12/05/2018
 ms.keywords: '*PSP_DRVINFO_DETAIL_DATA_W, PSP_DRVINFO_DETAIL_DATA, PSP_DRVINFO_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA, SP_DRVINFO_DETAIL_DATA structure [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA_W, devinst.sp_drvinfo_detail_data, di-struct_74ef2af7-e982-4041-9c39-605ca316359c.xml, setupapi/PSP_DRVINFO_DETAIL_DATA, setupapi/SP_DRVINFO_DETAIL_DATA'
-f1_keywords:
-- setupapi/SP_DRVINFO_DETAIL_DATA
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- setupapi.h
-api_name:
-- SP_DRVINFO_DETAIL_DATA
-- sp_drvinfo_detail_data_w
 targetos: Windows
 req.typenames: SP_DRVINFO_DETAIL_DATA_W, *PSP_DRVINFO_DETAIL_DATA_W
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_DRVINFO_DETAIL_DATA_W
+ - setupapi/_SP_DRVINFO_DETAIL_DATA_W
+ - PSP_DRVINFO_DETAIL_DATA_W
+ - setupapi/PSP_DRVINFO_DETAIL_DATA_W
+ - SP_DRVINFO_DETAIL_DATA_W
+ - setupapi/SP_DRVINFO_DETAIL_DATA_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - setupapi.h
+api_name:
+ - SP_DRVINFO_DETAIL_DATA
+ - sp_drvinfo_detail_data_w
 ---
 
 # SP_DRVINFO_DETAIL_DATA_W structure
@@ -50,31 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 An SP_DRVINFO_DETAIL_DATA structure contains detailed information about a particular driver information structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of the SP_DRVINFO_DETAIL_DATA structure.
 
-
 ### -field InfDate
 
 Date of the INF file for this driver.
-
 
 ### -field CompatIDsOffset
 
 The offset, in characters, from the beginning of the <b>HardwareID</b> buffer where the CompatIDs list begins.
 
 This value can also be used to determine whether there is a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> that precedes the CompatIDs list. If this value is greater than 1, the first string in the <b>HardwareID</b> buffer is the hardware ID. If this value is less than or equal to 1, there is no hardware ID.
-
 
 ### -field CompatIDsLength
 
@@ -84,26 +81,21 @@ If <b>CompatIDsLength</b> is nonzero, the CompatIDs list contains one or more NU
 
 If <b>CompatIDsLength</b> is zero, the CompatIDs list is empty. In that case, there is no additional NULL character at the end of the list.
 
-
 ### -field Reserved
 
 Reserved. For internal use only.
-
 
 ### -field SectionName
 
 A NULL-terminated string that contains the name of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> for this driver. This must be the basic <i>DDInstall</i> section name, such as <b>InstallSec</b>, without any OS/architecture-specific extensions.
 
-
 ### -field InfFileName
 
 A NULL-terminated string that contains the full-qualified name of the INF file for this driver.
 
-
 ### -field DrvDescription
 
 A NULL-terminated string that describes the driver.
-
 
 ### -field HardwareID
 
@@ -115,10 +107,7 @@ If the hardware ID exists (that is, if <b>CompatIDsOffset</b> is greater than on
 
 If the CompatIDs list is not empty (that is, if <b>CompatIDsLength</b> is not zero), the CompatIDs list starts at offset <b>CompatIDsOffset</b> from the beginning of this buffer, and is terminated with an additional NULL character at the end of the list.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible IDs</a> for a device are specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models section</a> in the following order:
 
@@ -182,9 +171,6 @@ if (CompatIDsLength > 0)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">Compatible IDs</a>
 
 
@@ -202,7 +188,4 @@ if (CompatIDsLength > 0)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinfodetaila">SetupDiGetDriverInfoDetail</a>
- 
-
- 
 

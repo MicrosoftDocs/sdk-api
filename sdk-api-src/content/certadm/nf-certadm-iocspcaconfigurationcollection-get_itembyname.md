@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 78c2ce21-b7f9-48ec-b192-e4cd8be46cc6
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],ItemByName property, IOCSPCAConfigurationCollection.ItemByName, IOCSPCAConfigurationCollection.get_ItemByName, IOCSPCAConfigurationCollection::ItemByName, IOCSPCAConfigurationCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::ItemByName, certadm/IOCSPCAConfigurationCollection::get_ItemByName, get_ItemByName, security.iocspcaconfigurationcollection_itembyname_method
-f1_keywords:
-- certadm/IOCSPCAConfigurationCollection.ItemByName
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPCAConfigurationCollection.ItemByName
-- IOCSPCAConfigurationCollection.get_ItemByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPCAConfigurationCollection::get_ItemByName
+ - certadm/IOCSPCAConfigurationCollection::get_ItemByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPCAConfigurationCollection.ItemByName
+ - IOCSPCAConfigurationCollection.get_ItemByName
 ---
 
 # IOCSPCAConfigurationCollection::get_ItemByName
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ItemByName</b> property gets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration identified by name in the configuration set.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
- 
-
- 
 

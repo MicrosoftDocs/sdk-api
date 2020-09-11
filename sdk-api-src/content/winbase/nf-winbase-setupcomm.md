@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7b42fdad-5847-4036-957e-2f71ad982d9f
 ms.date: 12/05/2018
 ms.keywords: SetupComm, SetupComm function, _win32_setupcomm, base.setupcomm, winbase/SetupComm
-f1_keywords:
-- winbase/SetupComm
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-comm-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetupComm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupComm
+ - winbase/SetupComm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-comm-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetupComm
 ---
 
 # SetupComm function
@@ -53,46 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the communications parameters for a specified communications device.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the communications device. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
-
 ### -param dwInQueue [in]
 
 The recommended size of the device's internal input buffer, in bytes.
-
 
 ### -param dwOutQueue [in]
 
 The recommended size of the device's internal output buffer, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 After a process uses the 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to open a handle to a communications device, but before doing any I/O with the device, it can call 
@@ -102,13 +88,7 @@ The <i>dwInQueue</i> and <i>dwOutQueue</i> parameters specify the recommended si
 
 The device driver receives the recommended buffer sizes, but is free to use any input and output (I/O) buffering scheme, as long as it provides reasonable performance and data is not lost due to overrun (except under extreme circumstances). For example, the function can succeed even though the driver does not allocate a buffer, as long as some other portion of the system provides equivalent functionality.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
@@ -123,7 +103,4 @@ The device driver receives the recommended buffer sizes, but is free to use any 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
- 
-
- 
 

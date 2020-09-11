@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 16ef3bc1-1781-44f7-a997-ae9b1b3c405c
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],RepaintVideo method, IVMRWindowlessControl.RepaintVideo, IVMRWindowlessControl::RepaintVideo, IVMRWindowlessControlRepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_repaintvideo, strmif/IVMRWindowlessControl::RepaintVideo
-f1_keywords:
-- strmif/IVMRWindowlessControl.RepaintVideo
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRWindowlessControl.RepaintVideo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRWindowlessControl::RepaintVideo
+ - strmif/IVMRWindowlessControl::RepaintVideo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRWindowlessControl.RepaintVideo
 ---
 
 # IVMRWindowlessControl::RepaintVideo
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RepaintVideo</code> method repaints the current video frame.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Specifies the handle of the window in which the repainting should occur.
 
-
 ### -param hdc [in]
 
 Specifies the handle to the device context for the window.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
@@ -95,15 +84,8 @@ The VMR is not in windowless mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -114,7 +96,4 @@ The VMR is not in windowless mode.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

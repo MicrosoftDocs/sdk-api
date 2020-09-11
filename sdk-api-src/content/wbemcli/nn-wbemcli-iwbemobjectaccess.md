@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 1025ae50-870f-4d38-8e83-3c6b628315c6
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], IWbemObjectAccess interface [Windows Management Instrumentation],described, _hmm_iwbemobjectaccess, wbemcli/IWbemObjectAccess, wmi.iwbemobjectaccess
-f1_keywords:
-- wbemcli/IWbemObjectAccess
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Esscli.dll
-- Fastprox.dll
-- Wbemess.dll
-api_name:
-- IWbemObjectAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemObjectAccess
+ - wbemcli/IWbemObjectAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Esscli.dll
+ - Fastprox.dll
+ - Wbemess.dll
+api_name:
+ - IWbemObjectAccess
 ---
 
 # IWbemObjectAccess interface
 
 
 ## -description
-
 
 The 
 <b>IWbemObjectAccess</b> interface provides access to the methods and properties of an object.  An 
@@ -166,12 +166,9 @@ Writes 64 bits of property data.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The 
 <b>IWbemObjectAccess</b> methods that read and write data perform very little data validation. Because 
@@ -187,13 +184,7 @@ The
 <div> </div>
 Property handles are the same for all instances of a class. Therefore, it is only necessary to retrieve a handle one time.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-performance-data-in-c--">Accessing Performance Data in C++</a>
 
@@ -208,7 +199,4 @@ Property handles are the same for all instances of a class. Therefore, it is onl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a>
- 
-
- 
 

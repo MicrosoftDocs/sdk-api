@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: aad1d1f6-5415-443a-94d2-f4a4d9b68750
 ms.date: 12/05/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_INIT_FAILED, InitOnceComplete, InitOnceComplete function, base.initoncecomplete, synchapi/InitOnceComplete, winbase/InitOnceComplete
-f1_keywords:
-- synchapi/InitOnceComplete
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- InitOnceComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitOnceComplete
+ - synchapi/InitOnceComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - InitOnceComplete
 ---
 
 # InitOnceComplete function
@@ -54,19 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Completes one-time initialization started with the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncebegininitialize">InitOnceBeginInitialize</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpInitOnce [in, out]
 
 A pointer to the one-time initialization structure.
-
 
 ### -param dwFlags [in]
 
@@ -100,29 +95,19 @@ The initialization attempt failed. This flag may not be combined with <b>INIT_ON
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpContext [in, optional]
 
 A pointer to the data to be stored with the one-time initialization structure. This data is returned in the <i>lpContext</i> parameter passed to subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncebegininitialize">InitOnceBeginInitialize</a> function. If <i>lpContext</i> points to a value, the low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> of the value must be zero. If <i>lpContext</i>  points to a data structure, the data structure must be <b>DWORD</b>-aligned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
@@ -136,12 +121,7 @@ this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncebegininitialize">InitOnceBeginInitialize</a>
 
@@ -152,7 +132,4 @@ this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

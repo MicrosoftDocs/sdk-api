@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: cb322541-d8c0-4a2e-9ce5-453d19ac3fd1
 ms.date: 12/05/2018
 ms.keywords: CreateVssExamineWriterMetadata, CreateVssExamineWriterMetadata function [VSS], CreateVssExamineWriterMetadataInternal, _win32_createvssexaminewritermetadata, base.createvssexaminewritermetadata, vsbackup/CreateVssExamineWriterMetadata, vsbackup/CreateVssExamineWriterMetadataInternal
-f1_keywords:
-- vsbackup/CreateVssExamineWriterMetadata
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VssApi.dll
-api_name:
-- CreateVssExamineWriterMetadata
-- CreateVssExamineWriterMetadataInternal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateVssExamineWriterMetadata
+ - vsbackup/CreateVssExamineWriterMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VssApi.dll
+api_name:
+ - CreateVssExamineWriterMetadata
+ - CreateVssExamineWriterMetadataInternal
 ---
 
 # CreateVssExamineWriterMetadata function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateVssExamineWriterMetadata</b> 
     function creates an 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object. <div class="alert"><b>Note</b>  This function is exported as <b>CreateVssExamineWriterMetadataInternal</b>, but you should call <b>CreateVssExamineWriterMetadata</b>, not <b>CreateVssExamineWriterMetadataInternal</b>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param bstrXML [in]
 
 An XML string containing a Writer Metadata Document with which to initialize the returned 
       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object.
-
 
 ### -param ppMetadata [out]
 
@@ -75,10 +69,7 @@ A variable that receives an
       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> 
       interface pointer to the object.
 
-
 ## -returns
-
-
 
 The return values listed here are in addition to the normal COM HRESULTs that may be returned at any time 
        from the function.
@@ -161,14 +152,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To save a copy of a writer’s Writer Metadata Document into an XML string to pass in the <i>bstrXML</i> parameter, use the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml">IVssExamineWriterMetadata::SaveAsXML</a> method.
 
@@ -183,16 +168,7 @@ The calling application is responsible for calling <a href="https://docs.microso
     the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object when the object 
     is no longer needed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
- 
-
- 
 

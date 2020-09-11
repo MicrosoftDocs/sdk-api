@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: d9076a32-983e-48d4-b025-5fc770156df6
 ms.date: 12/05/2018
 ms.keywords: IEnumSubStream, IEnumSubStream interface [TAPI 2.2], IEnumSubStream interface [TAPI 2.2],described, _tapi3_ienumsubstream, tapi3.ienumsubstream, tapi3if/IEnumSubStream
-f1_keywords:
-- tapi3if/IEnumSubStream
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- IEnumSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSubStream
+ - tapi3if/IEnumSubStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - IEnumSubStream
 ---
 
 # IEnumSubStream interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IEnumSubStream</b> interface provides COM-standard enumeration methods for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a> interface. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-enumeratesubstreams">ITSubStreamControl::EnumerateSubStreams</a> method returns a pointer to 
 <b>IEnumSubStream</b>.
-
 
 ## -inheritance
 
@@ -108,20 +107,13 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: bb3e91c0-5399-4760-a12e-0a47f0fbd2f9
 ms.date: 12/05/2018
 ms.keywords: '*PDD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS structure [Display Devices], PDD_MISCELLANEOUS2CALLBACKS, PDD_MISCELLANEOUS2CALLBACKS structure pointer [Display Devices], ddrawint/DD_MISCELLANEOUS2CALLBACKS, ddrawint/PDD_MISCELLANEOUS2CALLBACKS, ddstrcts_61459de1-283c-4693-a27a-f5dc8bdc5a44.xml, display.dd_miscellaneous2callbacks'
-f1_keywords:
-- ddrawint/DD_MISCELLANEOUS2CALLBACKS
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_MISCELLANEOUS2CALLBACKS
 targetos: Windows
 req.typenames: DD_MISCELLANEOUS2CALLBACKS, *PDD_MISCELLANEOUS2CALLBACKS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_MISCELLANEOUS2CALLBACKS
+ - ddrawint/_DD_MISCELLANEOUS2CALLBACKS
+ - PDD_MISCELLANEOUS2CALLBACKS
+ - ddrawint/PDD_MISCELLANEOUS2CALLBACKS
+ - DD_MISCELLANEOUS2CALLBACKS
+ - ddrawint/DD_MISCELLANEOUS2CALLBACKS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_MISCELLANEOUS2CALLBACKS
 ---
 
 # DD_MISCELLANEOUS2CALLBACKS structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DD_MISCELLANEOUS2CALLBACKS structure is used to return the addresses of miscellaneous callback routines. These routines are new for Microsoft DirectX 7.0 and later and are exposed through <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> by responding to the GUID_Miscellaneous2Callbacks GUID.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size, in bytes, of this structure.
-
 
 ### -field dwFlags
 
@@ -74,32 +73,23 @@ Indicates which miscellaneous callback functions the driver implemented. For eve
 <dt>DDHAL_MISC2CB32_DESTROYDDLOCAL</dt>
 </dl>
 
-
-
 ### -field AlphaBlt
 
-Unused and must be set to <b>NULL</b>. 
-
+Unused and must be set to <b>NULL</b>.
 
 ### -field CreateSurfaceEx
 
-Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> implementation. This callback creates an association between a DirectDraw surface and a small integer handle. 
-
+Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> implementation. This callback creates an association between a DirectDraw surface and a small integer handle.
 
 ### -field GetDriverState
 
-Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverstate">D3dGetDriverState</a> implementation. 
-
+Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverstate">D3dGetDriverState</a> implementation.
 
 ### -field DestroyDDLocal
 
-Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_destroyddlocal">D3dDestroyDDLocal</a> implementation. Used to destroy the local copy of the device context. 
-
+Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_destroyddlocal">D3dDestroyDDLocal</a> implementation. Used to destroy the local copy of the device context.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
 
@@ -114,7 +104,4 @@ Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
- 
-
- 
 

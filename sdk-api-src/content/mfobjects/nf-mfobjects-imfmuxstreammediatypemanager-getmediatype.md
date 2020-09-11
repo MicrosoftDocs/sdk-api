@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: F8A65783-7FD8-46C2-87B0-BC540E1F187F
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetMediaType method, IMFMuxStreamMediaTypeManager.GetMediaType, IMFMuxStreamMediaTypeManager::GetMediaType, mf.imfmuxstreammediatypemanager_getmediatype, mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType
-f1_keywords:
-- mfobjects/IMFMuxStreamMediaTypeManager.GetMediaType
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFMuxStreamMediaTypeManager.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMuxStreamMediaTypeManager::GetMediaType
+ - mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFMuxStreamMediaTypeManager.GetMediaType
 ---
 
 # IMFMuxStreamMediaTypeManager::GetMediaType
@@ -52,28 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> of the substream with the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMuxStreamIndex [in]
 
 The index of the substream for which the media type is retrieved.
 
-
 ### -param ppMediaType [out]
 
 The media type of the substream with the specified index.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -130,18 +122,8 @@ The media type of the specified substream is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
- 
-
- 
 

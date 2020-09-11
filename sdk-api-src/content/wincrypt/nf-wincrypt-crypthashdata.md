@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ec1482a2-c2cb-4c5f-af9c-d493134413d6
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OWF_REPL_LM_HASH, CRYPT_USERDATA, CryptHashData, CryptHashData function [Security], _crypto2_crypthashdata, security.crypthashdata, wincrypt/CryptHashData
-f1_keywords:
-- wincrypt/CryptHashData
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptHashData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptHashData
+ - wincrypt/CryptHashData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptHashData
 ---
 
 # CryptHashData function
@@ -51,33 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashData</b> function adds data to a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>. This function and 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> can be called multiple times to compute the hash of long or discontinuous data streams.
 
 Before calling this function, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> must be called to create a handle of a hash object.
 
-
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 Handle of the hash object.
 
-
 ### -param pbData [in]
 
 A pointer to a buffer that contains the data to be added to the hash object.
 
-
 ### -param dwDataLen [in]
 
 Number of bytes of data to be added. This must be zero if the CRYPT_USERDATA flag is set.
-
 
 ### -param dwFlags [in]
 
@@ -111,12 +104,8 @@ All Microsoft Cryptographic Providers ignore this parameter. For any CSP that do
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -252,15 +241,8 @@ The CSP ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
@@ -275,7 +257,4 @@ The CSP ran out of memory during the operation.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

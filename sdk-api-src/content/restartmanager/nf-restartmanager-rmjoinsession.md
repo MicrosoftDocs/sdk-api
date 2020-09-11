@@ -8,10 +8,6 @@ tech.root: rstmgr
 ms.assetid: f9cb2d81-a2bc-4bb7-920a-1630354ea942
 ms.date: 12/05/2018
 ms.keywords: RmJoinSession, RmJoinSession function [Restart Mgr], restartmanager/RmJoinSession, rstmgr.rmjoinsession
-f1_keywords:
-- restartmanager/RmJoinSession
-dev_langs:
-- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rstrtmgr.dll
-api_name:
-- RmJoinSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RmJoinSession
+ - restartmanager/RmJoinSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rstrtmgr.dll
+api_name:
+ - RmJoinSession
 ---
 
 # RmJoinSession function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Joins a secondary installer to an existing Restart Manager session. This function must be called with a session key that can only be obtained from the primary installer that started the session. A valid session key is required to use any of the Restart Manager functions. After a secondary installer joins a session, it can call the  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function to register resources. 
-
+Joins a secondary installer to an existing Restart Manager session. This function must be called with a session key that can only be obtained from the primary installer that started the session. A valid session key is required to use any of the Restart Manager functions. After a secondary installer joins a session, it can call the  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function to register resources.
 
 ## -parameters
-
-
-
 
 ### -param pSessionHandle [out]
 
 A pointer to the handle of an existing Restart Manager Session.
 
-
 ### -param strSessionKey [in]
 
 A <b>null</b>-terminated string that contains the session key of an existing session.
 
-
 ## -returns
-
-
 
 This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
 
@@ -164,31 +156,16 @@ A Restart Manager operation could not complete because not enough memory was ava
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>RmJoinSession</b> function joins a secondary installer to an existing Restart Manager session. This is typically an installer that does not control the user interface and can run either in-process or out-of-process of the primary installer. Only the primary installer can call the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function and this is typically the application that controls the user interface or that controls the installation sequence of multiple patches in an update.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmendsession">RmEndSession</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a>
- 
-
- 
 

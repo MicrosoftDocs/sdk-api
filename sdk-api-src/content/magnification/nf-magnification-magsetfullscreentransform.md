@@ -7,10 +7,6 @@ tech.root: magapi
 ms.assetid: B02C2A37-6BA6-4DF8-92C1-748BF7B25B96
 ms.date: 12/05/2018
 ms.keywords: MagSetFullscreenTransform, MagSetFullscreenTransform function [Magnification API], magapi.magapi_magsetfullscreentransform, magnification/MagSetFullscreenTransform
-f1_keywords:
-- magnification/MagSetFullscreenTransform
-dev_langs:
-- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +24,28 @@ req.type-library:
 req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Magnification.dll
-api_name:
-- MagSetFullscreenTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MagSetFullscreenTransform
+ - magnification/MagSetFullscreenTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Magnification.dll
+api_name:
+ - MagSetFullscreenTransform
 ---
 
 # MagSetFullscreenTransform function
+
 
 ## -description
 
@@ -55,7 +57,7 @@ Changes the magnification settings for the full-screen magnifier.
 
 Type: **float**
 
-The new magnification factor for the full-screen magnifier.  The minimum value of this parameter is 1.0, and the maximum value is 4096.0. If this value is 1.0, the screen content is not magnified and no offsets are applied.  
+The new magnification factor for the full-screen magnifier.  The minimum value of this parameter is 1.0, and the maximum value is 4096.0. If this value is 1.0, the screen content is not magnified and no offsets are applied.
 
 ### -param xOffset [in]
 
@@ -174,3 +176,4 @@ BOOL SetFullscreenMagnification(BOOL fPositionRelativeToVirtualScreen)
 ## -see-also
 
 [MagGetFullscreenTransform](/windows/win32/api/magnification/nf-magnification-maggetfullscreentransform)
+

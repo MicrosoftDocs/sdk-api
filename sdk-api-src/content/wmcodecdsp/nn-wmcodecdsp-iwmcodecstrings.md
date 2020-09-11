@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 84b6223e-d42a-47b0-8553-2b4d69de2da3
 ms.date: 12/05/2018
 ms.keywords: IWMCodecStrings, IWMCodecStrings interface [Media Foundation], IWMCodecStrings interface [Media Foundation],described, codecapi.iwmcodecstringsinterface, mf.iwmcodecstringsinterface, wmcodecdsp/IWMCodecStrings
-f1_keywords:
-- wmcodecdsp/IWMCodecStrings
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMCodecStrings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecStrings
+ - wmcodecdsp/IWMCodecStrings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMCodecStrings
 ---
 
 # IWMCodecStrings interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves names and descriptive strings for codecs and formats.
 
 This interface is implemented by all of the codec encoder objects. You can retrieve a pointer to the <b>IWMCodecStrings</b> interface for any encoder by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>, This interface is not implemented on any of the decoder DMOs.
-
 
 ## -inheritance
 
@@ -88,16 +87,9 @@ Retrieves the name of a codec.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

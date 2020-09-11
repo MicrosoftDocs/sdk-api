@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: d600fd39-4e58-421c-81bf-1555f5745f5e
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetnumrings, lineSetNumRings, lineSetNumRings function [TAPI 2.2], tapi/lineSetNumRings, tapi2.linesetnumrings
-f1_keywords:
-- tapi/lineSetNumRings
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineSetNumRings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineSetNumRings
+ - tapi/lineSetNumRings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineSetNumRings
 ---
 
 # lineSetNumRings function
@@ -49,46 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineSetNumRings</b> function sets the number of rings that must occur before an incoming call is answered. This function can be used to implement a toll-saver-style function. It allows multiple independent applications to each register the number of rings. The function 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> returns the minimum number of rings requested. It can be used by the application that answers incoming calls to determine the number of rings it should wait before answering the call.
 
-
 ## -parameters
-
-
-
 
 ### -param hLine
 
 Handle to the open line device.
 
-
 ### -param dwAddressID
 
 Address on the line device. An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
-
 
 ### -param dwNumRings
 
 Number of rings before a call should be answered in order to honor the toll-saver requests from all applications.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALADDRESSID, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a> and 
@@ -106,12 +92,7 @@ If call classification is performed by TAPI by means of answering incoming calls
 <div class="alert"><b>Note</b>  This operation is purely informational and does not affect the state of any calls on the line device.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
@@ -130,7 +111,4 @@ If call classification is performed by TAPI by means of answering incoming calls
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>
- 
-
- 
 

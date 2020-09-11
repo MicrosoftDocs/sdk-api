@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: b01dc079-647c-4e58-a36b-0a665355afb7
 ms.date: 12/05/2018
 ms.keywords: ISurrogateService interface [COM],ProcessShutdown method, ISurrogateService.ProcessShutdown, ISurrogateService::ProcessShutdown, ProcessShutdown, ProcessShutdown method [COM], ProcessShutdown method [COM],ISurrogateService interface, _com_isurrogateservice_processshutdown, com.isurrogateservice_processshutdown, objidl/ISurrogateService::ProcessShutdown
-f1_keywords:
-- objidl/ISurrogateService.ProcessShutdown
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- ISurrogateService.ProcessShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISurrogateService::ProcessShutdown
+ - objidl/ISurrogateService::ProcessShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - ISurrogateService.ProcessShutdown
 ---
 
 # ISurrogateService::ProcessShutdown
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shuts down the process.
 
-
 ## -parameters
-
-
-
 
 ### -param shutdownType [in]
 
 The shutdown type, as described in Remarks.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, it is E_UNEXPECTED.
 
-
-
-
 ## -remarks
-
-
 
 The shutdown type is defined by the following enum.
 
@@ -84,12 +72,7 @@ The shutdown type is defined by the following enum.
 } ShutdownType;
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-cogetinterceptor">CoGetInterceptor</a>
 
@@ -112,7 +95,4 @@ The shutdown type is defined by the following enum.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>
- 
-
- 
 

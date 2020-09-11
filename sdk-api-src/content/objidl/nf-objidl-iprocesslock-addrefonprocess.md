@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7c82273f-7303-45c2-92e2-48ffab094756
 ms.date: 12/05/2018
 ms.keywords: AddRefOnProcess, AddRefOnProcess method [COM], AddRefOnProcess method [COM],IProcessLock interface, IProcessLock interface [COM],AddRefOnProcess method, IProcessLock.AddRefOnProcess, IProcessLock::AddRefOnProcess, _com_iprocesslock_addrefonprocess, com.iprocesslock_addrefonprocess, objidl/IProcessLock::AddRefOnProcess
-f1_keywords:
-- objidl/IProcessLock.AddRefOnProcess
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IProcessLock.AddRefOnProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProcessLock::AddRefOnProcess
+ - objidl/IProcessLock::AddRefOnProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IProcessLock.AddRefOnProcess
 ---
 
 # IProcessLock::AddRefOnProcess
@@ -49,33 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Increments the reference count of the process.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns the new reference count.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocesslock">IProcessLock</a>
- 
-
- 
 

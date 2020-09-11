@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: ebbba4d9-8e97-422d-b52f-67c417f295cc
 ms.date: 12/05/2018
 ms.keywords: VariantToDosDateTime, VariantToDosDateTime function [Windows Properties], _shell_VariantToDosDateTime, properties.VariantToDosDateTime, propvarutil/VariantToDosDateTime, shell.VariantToDosDateTime
-f1_keywords:
-- propvarutil/VariantToDosDateTime
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- VariantToDosDateTime
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - VariantToDosDateTime
+ - propvarutil/VariantToDosDateTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - VariantToDosDateTime
 ---
 
 # VariantToDosDateTime function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts a date and time value in Microsoft MS-DOS format from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param varIn [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
-
 ### -param pwDate [out]
 
 Type: <b>WORD*</b>
 
 When this function returns, contains the extracted <b>WORD</b> that represents a MS-DOS date.
-
 
 ### -param pwTime [out]
 
@@ -78,21 +72,13 @@ Type: <b>WORD*</b>
 
 When this function returns, contains the extracted contains the extracted <b>WORD</b> that represents a MS-DOS time.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold a datetime value.
 
@@ -124,14 +110,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdosdatetime">InitVariantFromDosDateTime</a>
 
@@ -146,7 +125,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttofiletime">VariantToFileTime</a>
- 
-
- 
 

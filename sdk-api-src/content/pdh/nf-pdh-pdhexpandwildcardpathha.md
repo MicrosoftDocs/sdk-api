@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1
 ms.date: 12/05/2018
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPathH, PdhExpandWildCardPathH function [Perf], PdhExpandWildCardPathHA, PdhExpandWildCardPathHW, _win32_pdhexpandwildcardpathh, base.pdhexpandwildcardpathh, pdh/PdhExpandWildCardPathH, pdh/PdhExpandWildCardPathHA, pdh/PdhExpandWildCardPathHW, perf.pdhexpandwildcardpathh
-f1_keywords:
-- pdh/PdhExpandWildCardPathH
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhExpandWildCardPathH
-- PdhExpandWildCardPathHA
-- PdhExpandWildCardPathHW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhExpandWildCardPathHA
+ - pdh/PdhExpandWildCardPathHA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhExpandWildCardPathH
+ - PdhExpandWildCardPathHA
+ - PdhExpandWildCardPathHW
 ---
 
 # PdhExpandWildCardPathHA function
@@ -51,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.
 
 This function is identical to 
 the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> function, except that it supports the use of handles to data sources.
 
-
 ## -parameters
-
-
-
 
 ### -param hDataSource [in]
 
 Handle to a data source returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function.
-
 
 ### -param szWildCardPath [in]
 
@@ -75,11 +70,9 @@ Handle to a data source returned by the
 
 If <i>hDataSource</i> is a real time data source, the function searches the computer specified in the path for matches. If the path does not specify a computer, the function searches the local computer.
 
-
 ### -param mszExpandedPathList [out]
 
 Caller-allocated buffer that receives a list of <b>null</b>-terminated counter paths that match the wildcard specification in the <i>szWildCardPath</i>. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if <i>pcchPathListLength</i> is zero.
-
 
 ### -param pcchPathListLength [in, out]
 
@@ -120,12 +113,8 @@ Do not expand the instance name if the path contains a wildcard character for pa
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -184,14 +173,8 @@ Unable to find the specified object on the computer or in the log file.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function twice, the first time to get the required buffer size (set <i>mszExpandedPathList</i> to <b>NULL</b> and <i>pcchPathListLength</i> to 0), and the second time to get the data.
 
@@ -243,9 +226,6 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
 
 
@@ -255,7 +235,4 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>
- 
-
- 
 

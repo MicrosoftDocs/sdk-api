@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 1c8c114a-b261-457c-b541-4648a8f38ee8
 ms.date: 12/05/2018
 ms.keywords: GetTextCharsetInfo, GetTextCharsetInfo function [Internationalization for Windows Applications], _win32_GetTextCharsetInfo, intl.gettextcharsetinfo, wingdi/GetTextCharsetInfo
-f1_keywords:
-- wingdi/GetTextCharsetInfo
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Font-l1-1-1.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- GetTextCharsetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTextCharsetInfo
+ - wingdi/GetTextCharsetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Font-l1-1-1.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - GetTextCharsetInfo
 ---
 
 # GetTextCharsetInfo function
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the character set of the font that is currently selected into a specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to a device context. The function obtains information about the font that is selected into this device context.
-
 
 ### -param lpSig [out, optional]
 
@@ -77,27 +72,17 @@ If a font other than TrueType is currently selected into the device context, the
 
 The <i>lpSig</i> parameter specifies <b>NULL</b> if the application does not require the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> information. In this case, the application can also call the       <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcharset">GetTextCharset</a> function, which is equivalent to calling       <b>GetTextCharsetInfo</b> with <i>lpSig</i> set to <b>NULL</b>.
 
-
 ### -param dwFlags [in]
 
 Reserved; must be set to 0.
 
-
 ## -returns
-
-
 
 If successful, returns a value identifying the character set of the font currently selected into the specified device context. The following character set identifiers are defined:
 
 If the function fails, the return value is DEFAULT_CHARSET.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
 
@@ -116,7 +101,4 @@ If the function fails, the return value is DEFAULT_CHARSET.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
- 
-
- 
 

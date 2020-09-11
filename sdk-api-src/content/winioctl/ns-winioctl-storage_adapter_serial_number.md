@@ -6,10 +6,6 @@ helpviewer_keywords: ["*PSTORAGE_ADAPTER_SERIAL_NUMBER","PSTORAGE_ADAPTER_SERIAL
 tech.root: fs
 ms.date: 08/19/2020
 ms.keywords: '*PSTORAGE_ADAPTER_SERIAL_NUMBER,PSTORAGE_ADAPTER_SERIAL_NUMBER,PSTORAGE_ADAPTER_SERIAL_NUMBER structure pointer [Files],STORAGE_ADAPTER_SERIAL_NUMBER,STORAGE_ADAPTER_SERIAL_NUMBER structure [Files],fs.storage_adapter_serial_number,winioctl/PSTORAGE_ADAPTER_SERIAL_NUMBER,winioctl/STORAGE_ADAPTER_SERIAL_NUMBER'
-f1_keywords:
-- winioctl/STORAGE_ADAPTER_SERIAL_NUMBER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,21 +23,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winioctl.h
-api_name:
-- STORAGE_ADAPTER_SERIAL_NUMBER
 targetos: Windows
 req.typenames: _STORAGE_ADAPTER_SERIAL_NUMBER, *P_STORAGE_ADAPTER_SERIAL_NUMBER
 req.redist: 
+f1_keywords:
+ - _STORAGE_ADAPTER_SERIAL_NUMBER
+ - winioctl/_STORAGE_ADAPTER_SERIAL_NUMBER
+ - PSTORAGE_ADAPTER_SERIAL_NUMBER
+ - winioctl/PSTORAGE_ADAPTER_SERIAL_NUMBER
+ - STORAGE_ADAPTER_SERIAL_NUMBER
+ - winioctl/STORAGE_ADAPTER_SERIAL_NUMBER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winioctl.h
+api_name:
+ - STORAGE_ADAPTER_SERIAL_NUMBER
 ---
 
 # _STORAGE_ADAPTER_SERIAL_NUMBER structure
+
 
 ## -description
 
@@ -60,3 +66,4 @@ The size of this structure.
 ### -field SerialNumber
 
 The serial number.
+

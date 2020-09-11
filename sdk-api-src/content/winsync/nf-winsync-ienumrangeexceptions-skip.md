@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 61907858-4089-4c12-865c-623a43132be3
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Skip method, IEnumRangeExceptions.Skip, IEnumRangeExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_skip, winsync/IEnumRangeExceptions::Skip
-f1_keywords:
-- winsync/IEnumRangeExceptions.Skip
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumRangeExceptions.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumRangeExceptions::Skip
+ - winsync/IEnumRangeExceptions::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumRangeExceptions.Skip
 ---
 
 # IEnumRangeExceptions::Skip
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Skips the specified number of range exceptions.
 
-
 ## -parameters
-
-
-
 
 ### -param cExceptions [in]
 
 The number of range exceptions to skip.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -105,18 +98,8 @@ The enumerator reaches the end of the list before it can skip <i>cExceptions</i>
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumrangeexceptions">IEnumRangeExceptions Interface</a>
- 
-
- 
 

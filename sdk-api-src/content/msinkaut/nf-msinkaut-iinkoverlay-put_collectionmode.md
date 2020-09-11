@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 3538213f-b9c3-474c-a847-40915c8961dd
 ms.date: 12/05/2018
 ms.keywords: CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],CollectionMode property, IInkOverlay.CollectionMode, IInkOverlay.put_CollectionMode, IInkOverlay::CollectionMode, IInkOverlay::get_CollectionMode, IInkOverlay::put_CollectionMode, InkOverlay.get_CollectionMode, InkOverlay.put_CollectionMode, msinkaut/IInkOverlay::CollectionMode, msinkaut/IInkOverlay::get_CollectionMode, msinkaut/IInkOverlay::put_CollectionMode, put_CollectionMode, tablet.inkoverlay_collectionmode
-f1_keywords:
-- msinkaut/IInkOverlay.CollectionMode
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkOverlay.CollectionMode
-- IInkOverlay.get_CollectionMode
-- IInkOverlay.put_CollectionMode
-- InkOverlay.get_CollectionMode
-- InkOverlay.put_CollectionMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay::put_CollectionMode
+ - msinkaut/IInkOverlay::put_CollectionMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkOverlay.CollectionMode
+ - IInkOverlay.get_CollectionMode
+ - IInkOverlay.put_CollectionMode
+ - InkOverlay.get_CollectionMode
+ - InkOverlay.put_CollectionMode
 ---
 
 # IInkOverlay::put_CollectionMode
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the collection mode that determines whether ink, gesture, or both are recognized as the user writes.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 For a list of the modes that you can use, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectionmode">InkCollectionMode</a> enumeration type. However, when using the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode</a> property on a system that has the Microsoft Windows? XP Tablet PC Edition Software Development Kit (SDK) installed but that doesn't have recognizer installed, the mode cannot be set to <b>GestureOnly</b> or <b>InkAndGesture</b>.
 
@@ -115,12 +110,7 @@ When <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkau
 <li>Set <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering">DynamicRendering</a> to <b>FALSE</b> to prevent the flow of ink while gesturing.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectingink">CollectingInk Property</a>
 
@@ -139,7 +129,4 @@ When <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkau
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
- 
-
- 
 

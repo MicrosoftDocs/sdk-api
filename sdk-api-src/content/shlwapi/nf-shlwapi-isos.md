@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc
 ms.date: 12/05/2018
 ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
-f1_keywords:
-- shlwapi/IsOS
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
-- ShCore.dll
-- API-MS-Win-ShCore-SysInfo-l1-1-0.dll
-api_name:
-- IsOS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsOS
+ - shlwapi/IsOS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+ - ShCore.dll
+ - API-MS-Win-ShCore-SysInfo-l1-1-0.dll
+api_name:
+ - IsOS
 ---
 
 # IsOS function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks for specified operating systems and operating system features.
 
-
 ## -parameters
-
-
-
 
 ### -param dwOS [in]
 
@@ -265,23 +261,14 @@ Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 <td>The program is running on Windows Appliance Server.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns a nonzero value if the specified operating system or operating system feature is detected, otherwise <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Values are not provided for Windows Vista and Windows 7. To determine whether either of those operating systems are present, use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>.
 
@@ -289,13 +276,7 @@ In Windows versions earlier than Windows Vista, <b>IsOS</b> was not exported by
 
 When referring to server products, "Windows Server" refers only to the Standard Edition server. If all server products are covered by a particular flag, it is called out explicitly in the table.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
@@ -306,7 +287,4 @@ When referring to server products, "Windows Server" refers only to the Standard 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
- 
-
- 
 

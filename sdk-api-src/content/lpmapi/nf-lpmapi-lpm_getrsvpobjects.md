@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 1ae417e9-3180-4fd4-90f6-6e91c12d523b
 ms.date: 12/05/2018
 ms.keywords: FlowDescCount, FlowDescList, LPM_GetRsvpObjects, LPM_GetRsvpObjects callback, LPM_GetRsvpObjects callback function [QOS], RsvpHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_getrsvpobjects, lpmapi/LPM_GetRsvpObjects, qos.lpm_getrsvpobjects
-f1_keywords:
-- lpmapi/LPM_GetRsvpObjects
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Lpmapi.h
-api_name:
-- LPM_GetRsvpObjects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPM_GetRsvpObjects
+ - lpmapi/LPM_GetRsvpObjects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Lpmapi.h
+api_name:
+ - LPM_GetRsvpObjects
 ---
 
 # LPM_GetRsvpObjects function
@@ -49,33 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <i>LPM_GetRsvpObjects</i> function allows the PCM to query LPMs for policy data. The data is forwarded by the PCM to the SBM for inclusion in RSVP refresh messages that require policy data. Results from the 
 <i>LPM_GetRsvpObjects</i> function can be returned synchronously or asynchronously. Asynchronous results are returned by calling the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> callback function.
 
-
 ## -parameters
-
-
-
 
 ### -param PcmReqHandle [in]
 
 Unique handle that distinguishes this request from all other requests. LPMs should use this <i>PcmReqHandle</i> when returning results asynchronously using the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> callback function.
 
-
 ### -param MaxPdSize [in]
 
 Maximum allowable size of the returned policy data.
 
-
 ### -param SendingIntfAddr [in]
 
 Pointer to the interface on which the RSVP message will be sent out. The sending interface IP address is supplied as the RSVP HOP object, which equates to PHOP for PATH messages and NHOP for RESV messages. The Logical Interface Handle is set to the SNMP Index. Note that interface index numbers can change with the addition and deletion of interfaces, due to the Plug and Play features of Windows 2000.
-
 
 ### -param pRsvpMsgObjs [in]
 
@@ -159,8 +152,6 @@ Array of flow descriptor pointers in the outgoing RSVP message. For PATH message
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pRsvpObjectsCount [out]
 
@@ -168,31 +159,21 @@ Pointer to the number of policy objects being returned. When an LPM is immediate
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>, supplied within the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function.
 
-
 ### -param pppRsvpObjects [out]
 
 Pointer to an array of policy data object pointers returned in response to the request. Note that the buffer containing the policy data objects, and this array of policy data object pointers, should be allocated using the memory allocation function 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>, supplied within the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function.
 
-
 ### -param Reserved [out]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 This function returns ULONG.
 
-
-
-
 ## -remarks
-
-
 
 If an LPM does not have policy data to return from the 
 <i>LPM_GetRsvpObjects</i> function call, it should synchronously return LPM_RESULT_READY, set <i>pppRsvpObjects</i> to <b>NULL</b>, and set <i>pRsvpObjectsCount</i> to zero. If a synchronous return is not possible, an LPM should return LPM_RESULT_DEFER, and return the result by calling the 
@@ -203,12 +184,7 @@ If any LPM returns LPV_DROP_MSG, the SBM will not send out an RSVP refresh messa
 <div class="alert"><b>Note</b>  The SBM will send out the RSVP refresh message even if some or all LPMs fail to return policy data objects in a timely fashion, even though such an outgoing RSVP message may not contain all policy data objects it should.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
 
@@ -223,7 +199,4 @@ If any LPM returns LPV_DROP_MSG, the SBM will not send out an RSVP refresh messa
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a>
- 
-
- 
 

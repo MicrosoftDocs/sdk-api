@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1e71f277-0296-4589-8099-dfae2a9dcfb0
 ms.date: 12/05/2018
 ms.keywords: IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEventGroupDescriptor, mstv.iisdbeventgroupdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbEventGroupDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbEventGroupDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbEventGroupDescriptor
+ - dvbsiparser/IIsdbEventGroupDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbEventGroupDescriptor
 ---
 
 # IIsdbEventGroupDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) event group descriptor. The event group  descriptor appears in the ISDB service information as part of the event information table (EIT) and describes a group of related events. 
-
+Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) event group descriptor. The event group  descriptor appears in the ISDB service information as part of the event information table (EIT) and describes a group of related events.
 
 ## -inheritance
 
@@ -131,5 +130,5 @@ Gets the body length of  an ISDB event group descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

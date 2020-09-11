@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ec422312-bbc2-4b66-b2cd-1a9eebd1eee1
 ms.date: 12/05/2018
 ms.keywords: IMediaFilter interface [DirectShow],Run method, IMediaFilter.Run, IMediaFilter::Run, IMediaFilterRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaFilter interface, dshow.imediafilter_run, strmif/IMediaFilter::Run
-f1_keywords:
-- strmif/IMediaFilter.Run
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaFilter.Run
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaFilter::Run
+ - strmif/IMediaFilter::Run
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaFilter.Run
 ---
 
 # IMediaFilter::Run
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Run</code> method runs the filter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param tStart
 
 Reference time corresponding to stream time 0.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -101,14 +91,8 @@ Success. Transition is complete.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a filter is running, it can receive, process, and deliver samples. Source filters generate new samples, and renderer filters render them.
 
@@ -118,20 +102,11 @@ Stream time is calculated as the current reference time minus <i>tStart</i>. To 
 
 When an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a> method, the Filter Graph Manager calls <code>IMediaFilter::Run</code> on each filter. It sets the value of <i>tStart</i> slightly in the future, to account for graph latency.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
- 
-
- 
 

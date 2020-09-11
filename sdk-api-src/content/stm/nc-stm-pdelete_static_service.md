@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7
 ms.date: 12/05/2018
 ms.keywords: DeleteStaticService, DeleteStaticService callback function [RAS], PDELETE_STATIC_SERVICE, PDELETE_STATIC_SERVICE callback, _mpr_deletestaticservice, rras.deletestaticservice, stm/DeleteStaticService
-f1_keywords:
-- stm/DeleteStaticService
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Stm.h
-api_name:
-- DeleteStaticService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDELETE_STATIC_SERVICE
+ - stm/PDELETE_STATIC_SERVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Stm.h
+api_name:
+ - DeleteStaticService
 ---
 
 # PDELETE_STATIC_SERVICE callback function
@@ -49,39 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DeleteStaticService</b> function deletes a static service from the table.
 
-
 ## -parameters
-
-
-
 
 ### -param InterfaceIndex [in]
 
 Specifies a unique number that identifies the interface associated with the service intended for deletion.
 
-
 ### -param ServerEntry
-
-
-
-
-
-
-
 
 #### - ServiceEntry [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)">IPX_STATIC_SERVICE_INFO</a> structure that specifies the parameters of the static service intended for deletion.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -120,14 +105,7 @@ One of the  parameters is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_static_service">CreateStaticService</a>
 
@@ -142,7 +120,4 @@ One of the  parameters is invalid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
- 
-
- 
 

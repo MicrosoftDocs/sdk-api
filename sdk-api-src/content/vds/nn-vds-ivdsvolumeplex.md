@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 91970f8b-2b19-4054-8aa2-28e1ea74b3f6
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex, IVdsVolumePlex interface [VDS], IVdsVolumePlex interface [VDS],described, base.ivdsvolumeplex, vds/IVdsVolumePlex
-f1_keywords:
-- vds/IVdsVolumePlex
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVolumePlex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVolumePlex
+ - vds/IVdsVolumePlex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVolumePlex
 ---
 
 # IVdsVolumePlex interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for maintaining volume plexes.
-
 
 ## -inheritance
 
@@ -107,13 +106,9 @@ Repairs a fault-tolerant volume plex by moving bad members to good disks.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-queryplexes">IVdsVolume::QueryPlexes</a>
 
@@ -128,7 +123,4 @@ Repairs a fault-tolerant volume plex by moving bad members to good disks.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-plex-object">Volume Plex Object</a>
- 
-
- 
 

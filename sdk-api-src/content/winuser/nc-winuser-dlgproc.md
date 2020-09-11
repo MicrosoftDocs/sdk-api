@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogproc.htm
 ms.date: 12/05/2018
 ms.keywords: DLGPROC, DLGPROC callback, DLGPROC callback function [Dialog Boxes], _win32_DialogProc, _win32_dialogproc_cpp, dlgbox.dialogproc, winui._win32_dialogproc, winuser/DLGPROC
-f1_keywords:
-- winuser/DLGPROC
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winuser.h
-api_name:
-- DLGPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DLGPROC
+ - winuser/DLGPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winuser.h
+api_name:
+ - DLGPROC
 ---
 
 # DLGPROC callback function
@@ -49,33 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialoga">CreateDialog</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a> families of functions. It processes messages sent to a modal or modeless dialog box. The <b>DLGPROC</b> type defines a pointer to this callback function. <i>DialogProc</i> is a placeholder for the application-defined function name. 
-
+Application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialoga">CreateDialog</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a> families of functions. It processes messages sent to a modal or modeless dialog box. The <b>DLGPROC</b> type defines a pointer to this callback function. <i>DialogProc</i> is a placeholder for the application-defined function name.
 
 ## -parameters
-
-
-
 
 ### -param Arg1
 
 Type: <b>HWND</b>
 
-A handle to the dialog box. 
+A handle to the dialog box.
 
 ### -param Arg2
 
-
 Type: <b>UINT</b>
 
-The message. 
+The message.
 
 ### -param Arg3
 
 Type: <b>WPARAM</b>
 
-Additional message-specific information. 
+Additional message-specific information.
 
 ### -param Arg4
 
@@ -129,21 +124,11 @@ The following messages are exceptions to the general rules stated above. Consult
 </li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-You should use the dialog box procedure only if you use the dialog box class for the dialog box. This is the default class and is used when no explicit class is specified in the dialog box template. Although the dialog box procedure is similar to a window procedure, it must not call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to process unwanted messages. Unwanted messages are processed internally by the dialog box window procedure. 
-
-
-
+You should use the dialog box procedure only if you use the dialog box class for the dialog box. This is the default class and is used when no explicit class is specified in the dialog box template. Although the dialog box procedure is similar to a window procedure, it must not call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to process unwanted messages. Unwanted messages are processed internally by the dialog box window procedure.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -198,7 +183,4 @@ You should use the dialog box procedure only if you use the dialog box class for
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
- 
-
- 
 

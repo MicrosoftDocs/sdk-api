@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a5d73143-c1d6-43b3-a724-7e27c68a5ade
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_AES_WRAP_KEY_BLOB, BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_BLOB, BCRYPT_DSA_PUBLIC_BLOB, BCRYPT_ECCPRIVATE_BLOB, BCRYPT_ECCPUBLIC_BLOB, BCRYPT_KEY_DATA_BLOB, BCRYPT_OPAQUE_KEY_BLOB, BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, BCRYPT_RSAFULLPRIVATE_BLOB, BCRYPT_RSAPRIVATE_BLOB, BCRYPT_RSAPUBLIC_BLOB, BCryptExportKey, BCryptExportKey function [Security], LEGACY_DH_PRIVATE_BLOB, LEGACY_DH_PUBLIC_BLOB, LEGACY_DSA_PRIVATE_BLOB, LEGACY_DSA_PUBLIC_BLOB, LEGACY_DSA_V2_PRIVATE_BLOB, LEGACY_RSAPRIVATE_BLOB, LEGACY_RSAPUBLIC_BLOB, bcrypt/BCryptExportKey, security.bcryptexportkey_func
-f1_keywords:
-- bcrypt/BCryptExportKey
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptExportKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptExportKey
+ - bcrypt/BCryptExportKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptExportKey
 ---
 
 # BCryptExportKey function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptExportKey</b> function exports a key to a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that can be persisted for later use.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 The handle of the key to export.
-
 
 ### -param hExportKey [in]
 
@@ -71,7 +66,6 @@ The handle of the key with which to wrap the exported key. Use this parameter wh
 
 
 <b>Windows Server 2008 and Windows Vista:  </b>This parameter is not used and should be set to <b>NULL</b>.
-
 
 ### -param pszBlobType [in]
 
@@ -299,32 +293,24 @@ Export an RSA public key in a form that can be imported by using CryptoAPI.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbOutput [out]
 
 The address of a buffer that receives the key BLOB. The <i>cbOutput</i> parameter contains the size of this buffer. If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>ULONG</b> pointed to by the <i>pcbResult</i> parameter.
 
-
 ### -param cbOutput [in]
 
 Contains the size, in bytes, of the <i>pbOutput</i> buffer.
-
 
 ### -param pcbResult [out]
 
 A pointer to a <b>ULONG</b> that receives the number of bytes that were copied to the <i>pbOutput</i> buffer. If the <i>pbOutput</i> parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>ULONG</b> pointed to by this parameter.
 
-
 ### -param dwFlags [in]
 
 A set of flags that modify the behavior of this function. No flags are defined for this function.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -394,35 +380,18 @@ The specified BLOB type is not supported by the provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Depending on what processor modes a provider supports, <b>BCryptExportKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptExportKey</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkeypair">BCryptImportKeyPair</a>
- 
-
- 
 

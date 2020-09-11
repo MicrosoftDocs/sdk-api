@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: e7bcc306-4b44-4230-96aa-a4717bb1fb11
 ms.date: 12/05/2018
 ms.keywords: ALERT_OTHER_INFO, ALERT_OTHER_INFO macro [Network Management], _win32_alert_other_info, lmalert/ALERT_OTHER_INFO, netmgmt.alert_other_info
-f1_keywords:
-- lmalert/ALERT_OTHER_INFO
-dev_langs:
-- c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmalert.h
-api_name:
-- ALERT_OTHER_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ALERT_OTHER_INFO
+ - lmalert/ALERT_OTHER_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmalert.h
+api_name:
+ - ALERT_OTHER_INFO
 ---
 
 # ALERT_OTHER_INFO macro
 
 
 ## -description
-
 
 The 
 				<b>ALERT_OTHER_INFO</b> macro returns a pointer to the alert-specific data in an alert message. The data follows a 
@@ -57,11 +57,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or a 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param x
 
@@ -69,10 +65,7 @@ Pointer to a
 <b>STD_ALERT</b> structure that was specified in a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> function.
 
-
 ## -remarks
-
-
 
 The 
 <b>ALERT_OTHER_INFO</b> macro is defined as follows:
@@ -92,13 +85,7 @@ See
 <b>ALERT_OTHER_INFO</b> macro to retrieve a pointer to the 
 <b>ADMIN_OTHER_INFO</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
@@ -135,7 +122,4 @@ See
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
- 
-
- 
 

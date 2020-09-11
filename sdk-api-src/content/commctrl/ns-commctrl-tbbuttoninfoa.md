@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbuttoninfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTBBUTTONINFOA, LPTBBUTTONINFO, LPTBBUTTONINFO structure pointer [Windows Controls], TBBUTTONINFO, TBBUTTONINFO structure [Windows Controls], TBBUTTONINFOA, TBBUTTONINFOW, TBIF_BYINDEX, TBIF_COMMAND, TBIF_IMAGE, TBIF_LPARAM, TBIF_SIZE, TBIF_STATE, TBIF_STYLE, TBIF_TEXT, _win32_TBBUTTONINFO, _win32_TBBUTTONINFO_cpp, commctrl/LPTBBUTTONINFO, commctrl/TBBUTTONINFO, commctrl/TBBUTTONINFOA, commctrl/TBBUTTONINFOW, controls.TBBUTTONINFO, controls._win32_TBBUTTONINFO'
-f1_keywords:
-- commctrl/TBBUTTONINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TBBUTTONINFO
-- TBBUTTONINFOA
-- TBBUTTONINFOW
 targetos: Windows
 req.typenames: TBBUTTONINFOA, *LPTBBUTTONINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPTBBUTTONINFOA
+ - commctrl/LPTBBUTTONINFOA
+ - TBBUTTONINFOA
+ - commctrl/TBBUTTONINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TBBUTTONINFO
+ - TBBUTTONINFOA
+ - TBBUTTONINFOW
 ---
 
 # TBBUTTONINFOA structure
@@ -51,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains or receives information for a specific button in a toolbar.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the structure, in bytes. This member must be filled in prior to sending the associated message.
-
 
 ### -field dwMask
 
@@ -160,15 +157,12 @@ The <b>pszText</b> member contains valid information or is being requested.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field idCommand
 
 Type: <b>int</b>
 
 Command identifier of the button.
-
 
 ### -field iImage
 
@@ -180,13 +174,11 @@ Image index of the button. Set this member to I_IMAGECALLBACK, and the toolbar w
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
 
-
 ### -field fsState
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 State flags of the button. This can be one or more of the values listed in  <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-button-states">Toolbar Button States</a>.
-
 
 ### -field fsStyle
 
@@ -194,13 +186,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Style flags of the button. This can be one or more of the values listed in <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-control-and-button-styles">Toolbar Control and Button Styles</a>.
 
-
 ### -field cx
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Width of the button, in pixels.
-
 
 ### -field lParam
 
@@ -208,13 +198,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Application-defined value associated with the button.
 
-
 ### -field pszText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a character buffer that contains or receives the button text.
-
 
 ### -field cchText
 

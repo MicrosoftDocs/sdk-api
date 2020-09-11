@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7034b866-346e-4a3b-b81b-72816d95b1d6
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoA, _win32_getaddrinfo_2, getaddrinfo, getaddrinfo function [Winsock], winsock.getaddrinfo_2, ws2tcpip/getaddrinfo
-f1_keywords:
-- ws2tcpip/getaddrinfo
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getaddrinfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getaddrinfo
+ - ws2tcpip/getaddrinfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getaddrinfo
 ---
 
 # getaddrinfo function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getaddrinfo</b> function provides protocol-independent translation from an ANSI host name to an address.
 
-
 ## -parameters
-
-
-
 
 ### -param pNodeName [in, optional]
 
 A pointer to a <b>NULL</b>-terminated ANSI string that contains a host (node) name or a numeric host address string. For the Internet protocol, the numeric host address string is a dotted-decimal IPv4 address or an IPv6 hex address.
-
 
 ### -param pServiceName [in, optional]
 
@@ -71,7 +66,6 @@ A pointer to a <b>NULL</b>-terminated ANSI string that contains either a service
 A service name is a string alias for a port number. For example, “http” is an alias for port 80 defined by the Internet Engineering Task Force (IETF) as the default port used by web servers for the HTTP protocol. Possible values for the <i>pServiceName</i> parameter when a port number is not specified are listed in the following file: 
 
 <code>%WINDIR%\system32\drivers\etc\services</code>
-
 
 ### -param pHints [in, optional]
 
@@ -82,16 +76,12 @@ The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> m
 
 See the Remarks for more details.
 
-
 ### -param ppResult [out]
 
 A pointer to a linked list of one or more 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structures that contains response information about the host.
 
-
 ## -returns
-
-
 
 Success returns zero. Failure returns a nonzero Windows Sockets error code, as found in the 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
@@ -275,14 +265,8 @@ The specified class was not found. The <i>pServiceName</i> parameter is not supp
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>getaddrinfo</b> function is the ANSI version of a function that provides protocol-independent translation from host name to address. The Unicode version of this function is <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>. Developers are encouraged to use the <b>GetAddrInfoW</b> Unicode function rather than the <b>getaddrinfo</b> ANSI function.
 
@@ -923,13 +907,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
@@ -1004,7 +982,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

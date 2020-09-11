@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacebefore.htm
 ms.date: 12/05/2018
 ms.keywords: GetSpaceBefore, GetSpaceBefore method [Windows Controls], GetSpaceBefore method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetSpaceBefore method, ITextPara.GetSpaceBefore, ITextPara::GetSpaceBefore, _win32_ITextPara_GetSpaceBefore, _win32_ITextPara_GetSpaceBefore_cpp, controls.ITextPara_GetSpaceBefore, controls._win32_ITextPara_GetSpaceBefore, tom/ITextPara::GetSpaceBefore
-f1_keywords:
-- tom/ITextPara.GetSpaceBefore
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetSpaceBefore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetSpaceBefore
+ - tom/ITextPara::GetSpaceBefore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetSpaceBefore
 ---
 
 # ITextPara::GetSpaceBefore
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the amount of vertical space above a paragraph. 
-
+Retrieves the amount of vertical space above a paragraph.
 
 ## -parameters
-
-
-
 
 ### -param pValue
 
 Type: <b>float*</b>
 
-The space-before value, in floating-point points. 
-
+The space-before value, in floating-point points.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -112,15 +105,8 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -147,7 +133,4 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

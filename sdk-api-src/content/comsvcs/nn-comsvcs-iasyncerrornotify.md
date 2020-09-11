@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 870ab43a-c675-499b-a1e3-1f48176768c0
 ms.date: 12/05/2018
 ms.keywords: IAsyncErrorNotify, IAsyncErrorNotify interface [COM+], IAsyncErrorNotify interface [COM+],described, _cos_IAsyncErrorNotify, comsvcs/IAsyncErrorNotify, cos.iasyncerrornotify
-f1_keywords:
-- comsvcs/IAsyncErrorNotify
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IAsyncErrorNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAsyncErrorNotify
+ - comsvcs/IAsyncErrorNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IAsyncErrorNotify
 ---
 
 # IAsyncErrorNotify interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to implement error trapping on the asynchronous batch work that is submitted through the activity created by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>.
-
-
 
 ## -inheritance
 
@@ -78,13 +76,9 @@ Called by COM+ when an error occurs in your asynchronous batch work.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>
 
@@ -95,7 +89,4 @@ Called by COM+ when an error occurs in your asynchronous batch work.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicecall">IServiceCall</a>
- 
-
- 
 

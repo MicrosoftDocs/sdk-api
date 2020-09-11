@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: f4fcfe31-49ce-434c-a6e4-cf60e0a435e6
 ms.date: 12/05/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation],TRefPointerCollection method, TRefPointerCollection method [Windows Management Instrumentation], TRefPointerCollection method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection.TRefPointerCollection, TRefPointerCollection::TRefPointerCollection, _hmm_trefpointercollection_trefpointercollection, refptrco/TRefPointerCollection::TRefPointerCollection, wmi.trefpointercollection_trefpointercollection
-f1_keywords:
-- refptrco/TRefPointerCollection.TRefPointerCollection
-dev_langs:
-- c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- TRefPointerCollection.TRefPointerCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TRefPointerCollection::TRefPointerCollection
+ - refptrco/TRefPointerCollection::TRefPointerCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - TRefPointerCollection.TRefPointerCollection
 ---
 
 # TRefPointerCollection::TRefPointerCollection
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,16 +59,9 @@ ms.custom: 19H1
 
 This constructor initializes a new <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> object.
 
-
 ## -parameters
-
-
-
-
-
 
 #### - trpc [ref]
 
 Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> object.
-
 

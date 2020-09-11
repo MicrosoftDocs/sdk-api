@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0e06cd0b-b95b-4853-b883-53146be084f0
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation, ITForwardInformation interface [TAPI 2.2], ITForwardInformation interface [TAPI 2.2],described, _tapi3_itforwardinformation, tapi3.itforwardinformation, tapi3if/ITForwardInformation
-f1_keywords:
-- tapi3if/ITForwardInformation
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITForwardInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITForwardInformation
+ - tapi3if/ITForwardInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITForwardInformation
 ---
 
 # ITForwardInformation interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITForwardInformation</b> interface provides methods for setup and implementation of call forwarding. The forward information object is created by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>. A pointer to an existing forward information object can be retrieved using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>.
-
 
 ## -inheritance
 
@@ -134,13 +133,9 @@ Sets the forwarding mode.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -163,7 +158,4 @@ Sets the forwarding mode.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
 

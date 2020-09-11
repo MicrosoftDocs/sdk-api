@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a432fd66-0f80-4fb8-9778-38b240dd6369
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin interface [Security],DenyRequest method, DenyRequest, DenyRequest method [Security], DenyRequest method [Security],CCertAdmin interface, DenyRequest method [Security],ICertAdmin interface, DenyRequest method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],DenyRequest method, ICertAdmin.DenyRequest, ICertAdmin2 interface [Security],DenyRequest method, ICertAdmin2::DenyRequest, ICertAdmin::DenyRequest, certadm/ICertAdmin2::DenyRequest, certadm/ICertAdmin::DenyRequest, security.icertadmin2_denyrequest
-f1_keywords:
-- certadm/ICertAdmin2.DenyRequest
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.DenyRequest
-- ICertAdmin.DenyRequest
-- CCertAdmin.DenyRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin::DenyRequest
+ - certadm/ICertAdmin::DenyRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.DenyRequest
+ - ICertAdmin.DenyRequest
+ - CCertAdmin.DenyRequest
 ---
 
 # ICertAdmin::DenyRequest
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DenyRequest</b> method denies a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> that is pending. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 For this method to succeed, the certificate request must be pending.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -73,10 +69,7 @@ Represents a valid configuration string for the <a href="https://docs.microsoft.
 
 Specifies the ID of the pending request to be denied.
 
-
 ## -remarks
-
-
 
 Administration tasks use DCOM. Code that calls this interface method as defined in an earlier version of Certadm.h will run on Windows-based servers as long as the client and the server are both running the same Windows operating system.
 
@@ -157,14 +150,7 @@ error:
     CoUninitialize(); 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
@@ -179,7 +165,4 @@ error:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
- 
-
- 
 

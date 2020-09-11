@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: c7e05f63-b2cf-4a99-8e0f-bc7ec00463cf
 ms.date: 12/05/2018
 ms.keywords: IATSCComponentType, IATSCComponentType interface [Microsoft TV Technologies], IATSCComponentType interface [Microsoft TV Technologies],described, IATSCComponentTypeInterface, mstv.iatsccomponenttype, tuner/IATSCComponentType
-f1_keywords:
-- tuner/IATSCComponentType
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IATSCComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSCComponentType
+ - tuner/IATSCComponentType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IATSCComponentType
 ---
 
 # IATSCComponentType interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IATSCComponentType</b> interface represents a component type for a component in an ATSC broadcast. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsccomponenttype-object">ATSCComponentType</a> object exposes this interface. Use this interface to determine if an audio stream is in AC-3 format.
-
-
-
 
 ## -inheritance
 
@@ -89,29 +85,17 @@ Specifies whether an audio component is in AC-3 format.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IATSCComponentType)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

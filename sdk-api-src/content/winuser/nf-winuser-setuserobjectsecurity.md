@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 219e41b8-9ac7-4747-a585-b6b9df6a1c9c
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetUserObjectSecurity, SetUserObjectSecurity function [Security], _win32_setuserobjectsecurity, security.setuserobjectsecurity, winuser/SetUserObjectSecurity
-f1_keywords:
-- winuser/SetUserObjectSecurity
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- SetUserObjectSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetUserObjectSecurity
+ - winuser/SetUserObjectSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - SetUserObjectSecurity
 ---
 
 # SetUserObjectSecurity function
@@ -56,19 +57,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetUserObjectSecurity</b> function sets the security of a user object. This can be, for example, a window or a DDE conversation.
 
-
 ## -parameters
-
-
-
 
 ### -param hObj [in]
 
 A handle to a user object for which security information is set.
-
 
 ### -param pSIRequested [in]
 
@@ -133,8 +128,6 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sys
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pSID [in]
 
@@ -144,24 +137,16 @@ A pointer to a
 
 
 
-This buffer must be aligned on a 4-byte boundary.  
-
+This buffer must be aligned on a 4-byte boundary.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SetUserObjectSecurity</b> function applies changes specified in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> to the security descriptor assigned to a user object. The security descriptor of the object must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> form. If necessary, this function allocates additional memory to increase the size of the security descriptor.
 
@@ -172,12 +157,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>
 
@@ -208,7 +188,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a>
- 
-
- 
 

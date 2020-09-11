@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65
 ms.date: 12/05/2018
 ms.keywords: GetFormatInfo, GetFormatInfo method [Windows Imaging Component], GetFormatInfo method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetFormatInfo method, IWICDdsFrameDecode.GetFormatInfo, IWICDdsFrameDecode::GetFormatInfo, wic.iwicddsframedecode_getformatinfo, wincodec/IWICDdsFrameDecode::GetFormatInfo
-f1_keywords:
-- wincodec/IWICDdsFrameDecode.GetFormatInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICDdsFrameDecode.GetFormatInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICDdsFrameDecode::GetFormatInfo
+ - wincodec/IWICDdsFrameDecode::GetFormatInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICDdsFrameDecode.GetFormatInfo
 ---
 
 # IWICDdsFrameDecode::GetFormatInfo
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about the format in which the DDS image is stored.
 
-
 ## -parameters
-
-
-
 
 ### -param pFormatInfo [out]
 
@@ -64,31 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-win
 
 Information about the DDS format.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This information can be used for allocating memory or constructing Direct3D or Direct2D resources, for example by using <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createtexture2d">ID3D11Device::CreateTexture2D</a> or <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1devicecontext-createbitmap-overload">ID2D1DeviceContext::CreateBitmap</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createbitmap">CreateBitmap</a>
 
@@ -103,7 +85,4 @@ This information can be used for allocating memory or constructing Direct3D or D
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsformatinfo">WICDdsFormatInfo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d44fb8d8-2b64-4268-8603-7784e2c5f2d5
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 2, NetSessionGetInfo, NetSessionGetInfo function [Files], _win32_netsessiongetinfo, fs.netsessiongetinfo, lmshare/NetSessionGetInfo, netmgmt.netsessiongetinfo
-f1_keywords:
-- lmshare/NetSessionGetInfo
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetSessionGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetSessionGetInfo
+ - lmshare/NetSessionGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetSessionGetInfo
 ---
 
 # NetSessionGetInfo function
@@ -49,34 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a session established between a particular server and workstation.
-
 
 ## -parameters
 
-
-
-
 ### -param servername [in]
 
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param UncClientName [in]
 
 Pointer to a string that specifies the name of the computer session for which information is to be returned. This parameter is required and cannot be <b>NULL</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>.
 
-
 ### -param username [in]
 
 Pointer to a string that specifies the name of the user whose session information is to be returned. This parameter is required and cannot be <b>NULL</b>.
-
 
 ### -param level [in]
 
@@ -150,8 +139,6 @@ The <i>bufptr</i> parameter points to a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -165,10 +152,7 @@ Pointer to the buffer that receives the data. The format of this data depends on
 This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
@@ -257,14 +241,8 @@ The user name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators or Server Operators local group can successfully execute the 
 <b>NetSessionGetInfo</b> function at level 1 or level 2. No special group membership is required for level 0 or level 10 calls.
@@ -361,14 +339,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiondel">NetSessionDel</a>
 
@@ -406,7 +377,4 @@ int wmain(int argc, wchar_t *argv[])
 
 <a href="https://docs.microsoft.com/windows/desktop/NetShare/session-functions">Session
 		  Functions</a>
- 
-
- 
 

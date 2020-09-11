@@ -26,6 +26,7 @@ api_location:
 api_name:
  - MF_MEDIAKEYSESSION_TYPE
 f1_keywords:
+ - MF_MEDIAKEYSESSION_TYPE
  - mfidl/MF_MEDIAKEYSESSION_TYPE
 dev_langs:
  - c++
@@ -58,6 +59,8 @@ A record of license usage.
 Pass a member of this enumeration into [IMFContentDecryptionModule::CreateSession](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession)
 
 ## -see-also
+
 - IMFContentDecryptionModuleSession](/windows/win32/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession)
 
 - [IMFContentDecryptionModule::CreateSession](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession)
+

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\isclipempty.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsClipEmpty method, Graphics.IsClipEmpty, Graphics::IsClipEmpty, IsClipEmpty, IsClipEmpty method [GDI+], IsClipEmpty method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsClipEmpty_, gdiplus._gdiplus_CLASS_Graphics_IsClipEmpty_
-f1_keywords:
-- gdiplusgraphics/Graphics.IsClipEmpty
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.IsClipEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::IsClipEmpty
+ - gdiplusgraphics/Graphics::IsClipEmpty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.IsClipEmpty
 ---
 
 # Graphics::IsClipEmpty
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::IsClipEmpty</b> method determines whether the clipping region of this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object is empty.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the clipping region of a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object is empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the clipping region of a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object is empty, there is no area left in which to draw. Consequently, nothing will be drawn when the clipping region is empty.
 
@@ -99,14 +86,7 @@ VOID Example_IsClipEmpty(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-clipping-about">Clipping</a>
 
@@ -141,7 +121,4 @@ VOID Example_IsClipEmpty(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstgraphicspath_incombinemode)">SetClip Methods</a>
- 
-
- 
 

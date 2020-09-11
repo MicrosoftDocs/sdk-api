@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 41928d0a-e485-4542-860c-5ffd260d3cb8
 ms.date: 12/05/2018
 ms.keywords: 41928d0a-e485-4542-860c-5ffd260d3cb8, ICM_GestureOnly, ICM_InkAndGesture, ICM_InkOnly, InkCollectionMode, InkCollectionMode enumeration [Tablet PC], msinkaut/ICM_GestureOnly, msinkaut/ICM_InkAndGesture, msinkaut/ICM_InkOnly, msinkaut/InkCollectionMode, tablet.inkcollectionmode
-f1_keywords:
-- msinkaut/InkCollectionMode
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkCollectionMode
 targetos: Windows
 req.typenames: InkCollectionMode
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkCollectionMode
+ - msinkaut/InkCollectionMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkCollectionMode
 ---
 
 # InkCollectionMode enumeration
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Defines values that determine whether ink, gestures, or ink and gestures are recognized as the user writes.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field ICM_InkOnly
 
 Collects only ink, creating a stroke.
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event interest is set to <b>FALSE</b>, meaning that gestures are not collected (all other event interests remain as they were).
-
 
 ### -field ICM_GestureOnly
 
@@ -76,17 +68,13 @@ All stroke-related and packet-related events do not fire from the <a href="https
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event interest is set to <b>TRUE</b>, meaning that gestures are collected (all other event interests remain as they were).
 
-
 ### -field ICM_InkAndGesture
 
 Accepts only single-stroke gestures. The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event fires first, giving the user the ability to say <i>Cancel</i> = <b>TRUE</b> or <b>FALSE</b>. The default is <b>TRUE</b>, except when <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">NoGesture</a> is the primary gesture, <i>Cancel</i> defaults to <b>FALSE</b>. If <b>TRUE</b>, the ink is a gesture and is deleted. If <b>FALSE</b>, the gesture is ink and a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a> event fires.
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event interest is set to <b>TRUE</b> (all other event interests are kept as they were).
 
-
 ## -remarks
-
-
 
 If a user attempts a right-click and moves the pen when in InkOnly or InkAndGesture mode, ink flows from the pen tip. When handling the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a> event, you should erase the ink that flowed as a result of the pen movement.
 
@@ -157,13 +145,7 @@ Typical scenarios for each mode follow.
 </ul>
 Unwanted behavior might occur when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode</a> property is set to InkAndGesture and the interest of an object or control in a known gesture is set (by calling the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus</a> method). If a user draws ink that resembles a gesture that is in the recognizer's list of recognition alternates, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event fires and ink disappears, even if the gesture is not the top alternate. To prevent the ink from disappearing and cancel collection of the gesture, set <i>Cancel</i> to <b>TRUE</b> if the event is one to which you do not want the recognizer to respond.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode Property [InkCollector Class]</a>
 
@@ -186,7 +168,4 @@ Unwanted behavior might occur when the <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke Event</a>
- 
-
- 
 

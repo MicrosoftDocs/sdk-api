@@ -30,6 +30,7 @@ api_location:
 api_name:
  - GdiplusStartupInputEx
 f1_keywords:
+ - GdiplusStartupInputEx
  - gdiplusinit/GdiplusStartupInputEx
 dev_langs:
  - c++
@@ -50,3 +51,4 @@ See [**GdiplusStartupParams**](/windows/win32/api/gdiplusinit/ne-gdiplusinit-gdi
 ## -remarks
 
 ## -see-also
+

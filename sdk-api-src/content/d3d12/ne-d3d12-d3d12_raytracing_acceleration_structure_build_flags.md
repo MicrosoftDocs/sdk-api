@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 6DCDCD03-A6B8-49EB-93CE-98391F65F08C
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS enumeration, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_MINIMIZE_MEMORY, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_NONE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_TRACE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_MINIMIZE_MEMORY, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_NONE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_TRACE, direct3d12.d3d12_raytracing_acceleration_structure_build_flags
-f1_keywords:
-- d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS
+ - d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS
 ---
 
 # D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS enumeration
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies flags for the build of a raytracing acceleration structure. Use a value from this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs">D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS</a> structure that provides input to the acceleration structure build operation.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_NONE
 
 No options specified for the acceleration structure build.
-
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE
 
 Build the acceleration structure such that it supports future updates (via the flag <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE</b>) instead of the app having to entirely rebuild the structure.  This option may result in increased memory consumption, build times, and lower raytracing performance.  Future updates, however, should be faster than building the equivalent acceleration structure from scratch.
 
 This flag can only be set on an initial acceleration structure build, or on an update where the source acceleration structure specified <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE</b>.  In other words, after an acceleration structure was been built without <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE</b>, no other acceleration structures can be created from it via updates.
-
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION
 
@@ -98,13 +92,11 @@ Construct a high quality acceleration structure that maximizes raytracing perfor
 
 This flag is recommended for static geometry in particular.  It is compatible with all other flags except for <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD</b>.
 
-
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD
 
 Construct a lower quality acceleration structure, trading raytracing performance for build speed.  Typically, the implementation will take 1/2 to 1/3 the build time than default setting, with a sacrifice in tracing performance.
 
 This flag is compatible with all other flags except for <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD</b>.
-
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_MINIMIZE_MEMORY
 
@@ -113,7 +105,6 @@ Minimize the amount of scratch memory used during the acceleration structure bui
 The impact of using this flag for a build is reflected in the result of calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a> before doing the build to retrieve memory requirements for the build.
 
 This flag is compatible with all other flags.
-
 
 ### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE
 

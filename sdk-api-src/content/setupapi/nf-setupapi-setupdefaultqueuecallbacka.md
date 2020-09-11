@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: e03f43b9-fe34-4340-86f3-c353df6c6db0
 ms.date: 12/05/2018
 ms.keywords: SPFILENOTIFY_COPYERROR, SPFILENOTIFY_DELETEERROR, SPFILENOTIFY_ENDCOPY, SPFILENOTIFY_ENDDELETE, SPFILENOTIFY_ENDQUEUE, SPFILENOTIFY_ENDRENAME, SPFILENOTIFY_ENDSUBQUEUE, SPFILENOTIFY_LANGMISMATCH, SPFILENOTIFY_NEEDMEDIA, SPFILENOTIFY_RENAMEERROR, SPFILENOTIFY_STARTCOPY, SPFILENOTIFY_STARTDELETE, SPFILENOTIFY_STARTQUEUE, SPFILENOTIFY_STARTRENAME, SPFILENOTIFY_STARTSUBQUEUE, SPFILENOTIFY_TARGETEXISTS, SPFILENOTIFY_TARGETNEWER, SetupDefaultQueueCallback, SetupDefaultQueueCallback function [Setup API], SetupDefaultQueueCallbackA, SetupDefaultQueueCallbackW, _setupapi_setupdefaultqueuecallback, setup.setupdefaultqueuecallback, setupapi/SetupDefaultQueueCallback, setupapi/SetupDefaultQueueCallbackA, setupapi/SetupDefaultQueueCallbackW
-f1_keywords:
-- setupapi/SetupDefaultQueueCallback
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupDefaultQueueCallback
-- SetupDefaultQueueCallbackA
-- SetupDefaultQueueCallbackW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDefaultQueueCallbackA
+ - setupapi/SetupDefaultQueueCallbackA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupDefaultQueueCallback
+ - SetupDefaultQueueCallbackA
+ - SetupDefaultQueueCallbackW
 ---
 
 # SetupDefaultQueueCallbackA function
@@ -52,25 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupDefaultQueueCallback</b> function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 Pointer to the context initialized by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a> functions.
-
 
 ### -param Notification [in]
 
@@ -254,22 +249,16 @@ Existing target file is newer than source.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Param1 [in]
 
 Additional message information. The content of this parameter depends on the value of the <i>Notification</i> parameter.
 
-
 ### -param Param2 [in]
 
 Additional message information. The content of this parameter depends on the value of the <i>Notification</i> parameter.
 
-
 ## -returns
-
-
 
 Returns an unsigned integer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> that can be the one of the values shown in the following table.
@@ -340,12 +329,7 @@ Gets a new path for the operation.
 To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SetupDefaultQueueCallback</b> function is usually only called explicitly by a custom queue callback routine. The custom callback handles a subset of the queue commit notifications and calls the 
@@ -363,9 +347,6 @@ For more information see,
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
@@ -375,7 +356,4 @@ For more information see,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: bbb5e36a-d13d-448e-8686-d14ee99b1ccb
 ms.date: 12/05/2018
 ms.keywords: ID2D1LinearGradientBrush, ID2D1LinearGradientBrush interface [Direct2D], ID2D1LinearGradientBrush interface [Direct2D],described, d2d1/ID2D1LinearGradientBrush, direct2d.ID2D1LinearGradientBrush
-f1_keywords:
-- d2d1/ID2D1LinearGradientBrush
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1LinearGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1LinearGradientBrush
+ - d2d1/ID2D1LinearGradientBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1LinearGradientBrush
 ---
 
 # ID2D1LinearGradientBrush interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Paints an area with a linear gradient. 
-
+Paints an area with a linear gradient.
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Sets the starting coordinates of the linear gradient in the brush's coordinate s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An <b>ID2D1LinearGradientBrush</b> paints an area with a linear gradient along a line between the brush start point and end   point. The gradient, defined by the brush <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>, is extruded perpendicular to this line, and then transformed by a brush transform (if specified).  
 
@@ -132,16 +128,7 @@ To create a linear gradient brush, use the <a href="/windows/win32/api/d2d1/nf-d
 
 A linear gradient brush is a device-dependent resource: your application should create linear gradient brushes after it initializes the render target with which the brushes will be used, and recreate the brushes whenever the render target needs recreated. (For more information about resources, see <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 90768da1-592a-49ec-99b0-56f463c322e8
 ms.date: 12/05/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTotalTitleTime method, IDvdInfo2.GetTotalTitleTime, IDvdInfo2::GetTotalTitleTime, IDvdInfo2GetTotalTitleTime, dshow.idvdinfo2_gettotaltitletime, strmif/IDvdInfo2::GetTotalTitleTime
-f1_keywords:
-- strmif/IDvdInfo2.GetTotalTitleTime
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetTotalTitleTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetTotalTitleTime
+ - strmif/IDvdInfo2::GetTotalTitleTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetTotalTitleTime
 ---
 
 # IDvdInfo2::GetTotalTitleTime
@@ -50,33 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetTotalTitleTime</code> method retrieves the total playback time for the current title.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pTotalTime [out]
 
 Pointer to a [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that receives the total time in hours, minutes, seconds, and frames.
-          
-
 
 ### -param ulTimeCodeFlags [out]
 
 Receives a [DVD_TIMECODE_FLAGS](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags) value indicating the frame rate at which the disc was authored to play. Specify <b>NULL</b> if you don't want to receive the timecode information.
-          
-
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -130,26 +117,14 @@ The title is not a one sequential video title, so the timing information might n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The total title time is the time required to play the title sequentially, not counting any stills, pauses, and so on.
 
 This method is for use only with <i>one sequential video titles</i>, which are titles such as movies in which each chapter automatically branches to the next chapter so that the entire title plays continuously without stopping. <i>Nonsequential video titles</i> are titles whose chapters do not automatically play one after another. Because of variations in how DVD authors encode time information on nonsequential video titles, do not use this method to determine the total time for such titles.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -160,7 +135,4 @@ This method is for use only with <i>one sequential video titles</i>, which are t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
 

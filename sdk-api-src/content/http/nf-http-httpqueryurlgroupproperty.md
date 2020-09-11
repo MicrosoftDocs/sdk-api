@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: f3e8fde0-5a78-46aa-8c6c-cea957d12356
 ms.date: 12/05/2018
 ms.keywords: HttpQueryUrlGroupProperty, HttpQueryUrlGroupProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryurlgroupproperty, http/HttpQueryUrlGroupProperty
-f1_keywords:
-- http/HttpQueryUrlGroupProperty
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpQueryUrlGroupProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpQueryUrlGroupProperty
+ - http/HttpQueryUrlGroupProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpQueryUrlGroupProperty
 ---
 
 # HttpQueryUrlGroupProperty function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpQueryUrlGroupProperty</b> function queries a property on the specified URL Group.
 
-
 ## -parameters
-
-
-
 
 ### -param UrlGroupId [in]
 
 The ID of the URL Group for which the property setting is returned.
-
 
 ### -param Property [in]
 
@@ -123,8 +118,6 @@ Queries the channel binding token (CBT) properties.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyInformation [out]
 
@@ -166,15 +159,10 @@ A pointer to the buffer that receives the property information.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param PropertyInformationLength [in]
 
 The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
 
 ### -param ReturnLength [out, optional]
 
@@ -182,10 +170,7 @@ The size, in bytes, returned in the  <i>pPropertyInformation</i> buffer.
 
 If the output buffer is too small, the call fails with a return value of <b>ERROR_MORE_DATA</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length of the buffer required for the call to succeed.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>.
 
@@ -227,24 +212,12 @@ The size, in bytes, of the buffer pointed to by the  <i>pPropertyInformation</i>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Querying the <b>HttpServerLoggingProperty</b> is not supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
@@ -267,7 +240,4 @@ Querying the <b>HttpServerLoggingProperty</b> is not supported.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
- 
-
- 
 

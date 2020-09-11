@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 7692637e-963a-4e0a-8a04-e05a6d01c417
 ms.date: 12/05/2018
 ms.keywords: '*LPGCP_RESULTSA, GCPCLASS_ARABIC, GCPCLASS_HEBREW, GCPCLASS_LATIN, GCPCLASS_LATINNUMBER, GCPCLASS_LATINNUMERICSEPARATOR, GCPCLASS_LATINNUMERICTERMINATOR, GCPCLASS_LOCALNUMBER, GCPCLASS_NEUTRAL, GCPCLASS_NUMERICSEPARATOR, GCPCLASS_POSTBOUNDLTR, GCPCLASS_POSTBOUNDRTL, GCPCLASS_PREBOUNDLTR, GCPCLASS_PREBOUNDRTL, GCP_RESULTS, GCP_RESULTS structure [Windows GDI], GCP_RESULTSA, GCP_RESULTSW, LPGCP_RESULTS, LPGCP_RESULTS structure pointer [Windows GDI], _win32_GCP_RESULTS_str, gdi.gcp_results, wingdi/GCP_RESULTS, wingdi/GCP_RESULTSA, wingdi/GCP_RESULTSW, wingdi/LPGCP_RESULTS'
-f1_keywords:
-- wingdi/GCP_RESULTS
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- GCP_RESULTS
-- GCP_RESULTSA
-- GCP_RESULTSW
 targetos: Windows
 req.typenames: GCP_RESULTSA, *LPGCP_RESULTSA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagGCP_RESULTSA
+ - wingdi/tagGCP_RESULTSA
+ - LPGCP_RESULTSA
+ - wingdi/LPGCP_RESULTSA
+ - GCP_RESULTSA
+ - wingdi/GCP_RESULTSA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - GCP_RESULTS
+ - GCP_RESULTSA
+ - GCP_RESULTSW
 ---
 
 # GCP_RESULTSA structure
@@ -51,34 +56,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GCP_RESULTS</b> structure contains information about characters in a string. This structure receives the results of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function. For some languages, the first element in the arrays may contain more, language-dependent information.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lStructSize
 
 The size, in bytes, of the structure.
 
-
 ### -field lpOutString
 
 A pointer to the buffer that receives the output string or is <b>NULL</b> if the output string is not needed. The output string is a version of the original string that is in the order that will be displayed on a specified device. Typically the output string is identical to the original string, but may be different if the string needs reordering and the GCP_REORDER flag is set or if the original string exceeds the maximum extent and the GCP_MAXEXTENT flag is set.
-
 
 ### -field lpOrder
 
 A pointer to the array that receives ordering indexes or is <b>NULL</b> if the ordering indexes are not needed. However, its meaning depends on the other elements of <b>GCP_RESULTS</b>. If glyph indexes are to be returned, the indexes are for the <b>lpGlyphs</b> array; if glyphs indexes are not returned and <b>lpOrder</b> is requested, the indexes are for <b>lpOutString</b>. For example, in the latter case the value of <b>lpOrder</b>[i] is the position of <b>lpString</b>[i] in the output string lpOutString.
 
 This is typically used when <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> returns the GCP_REORDER flag, which indicates that the original string needs reordering. For example, in Hebrew, in which the text runs from right to left, the <b>lpOrder</b> array gives the exact locations of each element in the original string.
-
 
 ### -field lpDx
 
@@ -268,7 +262,6 @@ To force the layout of a character to be carried out in a specific way, preset t
 
 If <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> does not return GCP_REORDER for the current font, only the GCPCLASS_LATIN value is meaningful.
 
-
 ### -field lpGlyphs
 
 A pointer to the array that receives the values identifying the glyphs used for rendering the string or is <b>NULL</b> if glyph rendering is not needed. The number of glyphs in the array may be less than the number of characters in the original string if the string contains ligated glyphs. Also if reordering is required, the order of the glyphs may not be sequential.
@@ -281,20 +274,15 @@ When GCP_LIGATE is used, you can limit the number of characters that will be lig
 
 For languages such as Arabic, where <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> returns the GCP_GLYPHSHAPE flag, the glyphs for a character will be different depending on whether the character is at the beginning, middle, or end of a word. Typically, the first character in the input string will also be the first character in a word, and the last character in the input string will be treated as the last character in a word. However, if the displayed string is a subset of the complete string, such as when displaying a section of scrolled text, this may not be true. In these cases, it is desirable to force the first or last characters to be shaped as not being initial or final forms. To do this, again, the first location in the <b>lpGlyphs</b> array is used by performing an OR operation of the ligation value above with the values GCPGLYPH_LINKBEFORE and/or GCPGLYPH_LINKAFTER. For example, a value of GCPGLYPH_LINKBEFORE | 2 means that two-character ligatures are the maximum required, and the first character in the string should be treated as if it is in the middle of a word.
 
-
 ### -field nGlyphs
 
 On input, this member must be set to the size of the arrays pointed to by the array pointer members. On output, this is set to the number of glyphs filled in, in the output arrays. If glyph substitution is not required (that is, each input character maps to exactly one glyph), this member is the same as it is on input.
-
 
 ### -field nMaxFit
 
 The number of characters that fit within the extents specified by the <i>nMaxExtent</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function. If the GCP_MAXEXTENT or GCP_JUSTIFY value is set, this value may be less than the number of characters in the original string. This member is set regardless of whether the GCP_MAXEXTENT or GCP_JUSTIFY value is specified. Unlike <b>nGlyphs</b>, which specifies the number of output glyphs, <b>nMaxFit</b> refers to the number of characters from the input string. For Latin SBCS languages, this will be the same.
 
-
 ## -remarks
-
-
 
 Whether the <b>lpGlyphs</b>, <b>lpOutString</b>, or neither is required depends on the results of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> call.
 
@@ -313,9 +301,6 @@ In the case of languages such as Thai or Arabic, in which <a href="https://docs.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
 
@@ -333,7 +318,4 @@ In the case of languages such as Thai or Arabic, in which <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a>
- 
-
- 
 

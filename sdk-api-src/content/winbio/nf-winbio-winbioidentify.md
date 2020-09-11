@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: aaa9b4cd-81d4-4fee-a40a-5563997c42e8
 ms.date: 12/05/2018
 ms.keywords: WinBioIdentify, WinBioIdentify function [Windows Biometric Framework API], secbiomet.winbioidentify, winbio/WinBioIdentify
-f1_keywords:
-- winbio/WinBioIdentify
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioIdentify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioIdentify
+ - winbio/WinBioIdentify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioIdentify
 ---
 
 # WinBioIdentify function
@@ -53,34 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Captures a biometric sample and determines whether it matches an existing biometric template. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>.
 
-
 ### -param UnitId [out, optional]
 
 A pointer to a <b>ULONG</b> value that specifies the biometric unit used to perform the identification.
-
 
 ### -param Identity [out, optional]
 
 Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that receives the GUID or SID of the user providing the biometric sample.
 
-
 ### -param SubFactor [out, optional]
 
 Pointer to a <b>WINBIO_BIOMETRIC_SUBTYPE</b> value that receives the sub-factor associated with the biometric sample. See the Remarks section for more details.
-
 
 ### -param RejectDetail [out, optional]
 
@@ -100,8 +92,6 @@ A pointer to a <b>ULONG</b> value that contains additional information about the
 </ul>
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -166,14 +156,8 @@ The biometric sample does not match any saved in the database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The value returned in the <i>SubFactor</i> parameter specifies the sub-factor associated with the biometric sample. The Windows Biometric Framework (WBF) currently supports only fingerprint capture and uses the following constants to represent sub-type information.
 
@@ -353,17 +337,7 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentifywithcallback">WinBioIdentifyWithCallback</a>
- 
-
- 
 

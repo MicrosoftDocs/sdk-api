@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: CA459E57-90D5-44F6-A896-4E1C2FA0DC57
 ms.date: 12/5/2018
 ms.keywords: GetRestrictedErrorInfo, GetRestrictedErrorInfo function [Windows Runtime], roerrorapi/GetRestrictedErrorInfo, winrt.getrestrictederrorinfo
-f1_keywords:
-- roerrorapi/GetRestrictedErrorInfo
-dev_langs:
-- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Combase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- combase.dll
-- API-MS-Win-Core-Winrt-error-l1-1-0.dll
-- API-MS-Win-Core-Winrt-error-l1-1-1.dll
-api_name:
-- GetRestrictedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - GetRestrictedErrorInfo
+ - roerrorapi/GetRestrictedErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - combase.dll
+ - API-MS-Win-Core-Winrt-error-l1-1-0.dll
+ - API-MS-Win-Core-Winrt-error-l1-1-1.dll
+api_name:
+ - GetRestrictedErrorInfo
 ---
 
 # GetRestrictedErrorInfo function
@@ -50,23 +51,15 @@ req.redist:
 
 ## -description
 
-
 Gets the restricted error information object set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a> in the current logical thread.
 
-
 ## -parameters
-
-
-
 
 ### -param ppRestrictedErrorInfo [out]
 
 The restricted error info object associated with the current thread.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -98,14 +91,8 @@ There is no restricted error object associated with the current thread. Any othe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call the <b>GetRestrictedErrorInfo</b>  function to get the most recently set <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> object on the current thread in a Windows Store app.
 
@@ -117,13 +104,7 @@ The <b>GetRestrictedErrorInfo</b> retrieves the error object from the current th
 
 Calling the <b>GetRestrictedErrorInfo</b>  function fails if <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> isn't the system implementation. To create an <b>IRestrictedErrorInfo</b> object, call  the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">OriginateError</a>, <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">TransformError</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext">RoCaptureErrorContext</a> functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>
 
@@ -146,7 +127,4 @@ Calling the <b>GetRestrictedErrorInfo</b>  function fails if <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo">SetRestrictedErrorInfo</a>
- 
-
- 
 

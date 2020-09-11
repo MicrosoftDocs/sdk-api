@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5e4d8cae-1096-491f-9a04-92b7e9c020bb
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCertificateContextToStore, CertAddCertificateContextToStore function [Security], _crypto2_certaddcertificatecontexttostore, security.certaddcertificatecontexttostore, wincrypt/CertAddCertificateContextToStore
-f1_keywords:
-- wincrypt/CertAddCertificateContextToStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertAddCertificateContextToStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertAddCertificateContextToStore
+ - wincrypt/CertAddCertificateContextToStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertAddCertificateContextToStore
 ---
 
 # CertAddCertificateContextToStore function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertAddCertificateContextToStore</b> function adds a certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of a certificate store.
 
-
 ### -param pCertContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure to be added to the store.
-
 
 ### -param dwAddDisposition [in]
 
@@ -176,8 +170,6 @@ If a matching certificate or a link to a matching certificate does not exist, a 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppStoreContext [out, optional]
 
@@ -189,10 +181,7 @@ A pointer to a pointer to the copy to be made of the certificate that was added 
 The <i>ppStoreContext</i> parameter can be <b>NULL</b>, indicating that the calling application does not require a copy of the added certificate. If a copy is made, it must be freed by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -233,12 +222,7 @@ Errors from the called functions,
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>, can be propagated to this function.
 
-
-
-
 ## -remarks
-
-
 
 The certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> is not duplicated using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>. Instead, the function creates a new copy of the context and adds it to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">store</a>.
 
@@ -250,12 +234,7 @@ To remove the certificate context from the certificate store, use the  <a href="
 To access a specific certificate you must iterate across the certificates in the store.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a>
 
@@ -266,7 +245,4 @@ To access a specific certificate you must iterate across the certificates in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a5beba30-f32b-4d57-8a54-7d9096459c50
 ms.date: 12/05/2018
 ms.keywords: CryptHashCertificate, CryptHashCertificate function [Security], _crypto2_crypthashcertificate, security.crypthashcertificate, wincrypt/CryptHashCertificate
-f1_keywords:
-- wincrypt/CryptHashCertificate
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptHashCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptHashCertificate
+ - wincrypt/CryptHashCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptHashCertificate
 ---
 
 # CryptHashCertificate function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashCertificate</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashes</a> the entire encoded content of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> including its signature.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptProv [in]
 
@@ -69,30 +65,23 @@ This parameter's data type is <b>HCRYPTPROV</b>.
 
 Unless there is a strong reason for passing in a specific CSP in <i>hCryptProv</i>, zero is passed in. Passing in zero causes the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) provider to be acquired before doing hash, signature verification, or recipient encryption operations.
 
-
-
-
 ### -param Algid [in]
 
 An 
 						<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> structure that specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash algorithm</a> to use. If <i>Algid</i> is zero, the default hash algorithm, SHA1, is used.
-
 
 ### -param dwFlags [in]
 
 Value to be passed to the hash API. For details, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>.
 
-
 ### -param pbEncoded [in]
 
 Address of the encoded content to be hashed.
 
-
 ### -param cbEncoded [in]
 
 The size, in bytes, of the encoded content.
-
 
 ### -param pbComputedHash [out]
 
@@ -103,7 +92,6 @@ A pointer to a buffer to receive the computed hash.
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbComputedHash [in, out]
 
@@ -117,8 +105,6 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 
 ## -returns
 
-
-
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
@@ -130,12 +116,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> might be propagated to this function.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashpublickeyinfo">CryptHashPublicKeyInfo</a>
 
@@ -146,7 +127,4 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

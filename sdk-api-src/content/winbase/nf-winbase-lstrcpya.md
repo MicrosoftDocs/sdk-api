@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpy.htm
 ms.date: 12/05/2018
 ms.keywords: _win32_lstrcpy, _win32_lstrcpy_cpp, lstrcpy, lstrcpy function [Menus and Other Resources], lstrcpyA, lstrcpyW, menurc.lstrcpy, winbase/lstrcpy, winbase/lstrcpyA, winbase/lstrcpyW, winui._win32_lstrcpy
-f1_keywords:
-- winbase/lstrcpy
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- lstrcpy
-- lstrcpyA
-- lstrcpyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lstrcpyA
+ - winbase/lstrcpyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - lstrcpy
+ - lstrcpyA
+ - lstrcpyW
 ---
 
 # lstrcpyA function
@@ -55,14 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies a string to a buffer.
 <div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a> instead. See Remarks.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpString1 [out]
 
@@ -71,8 +68,7 @@ Type: <b>LPTSTR</b>
 A buffer to receive the contents of the string pointed to by the 
 					<i>lpString2</i> parameter. 
 					The buffer must be large enough to contain the string, including the 
-					terminating null character. 
-
+					terminating null character.
 
 ### -param lpString2 [in]
 
@@ -80,10 +76,7 @@ Type: <b>LPTSTR</b>
 
 The null-terminated string to be copied.
 
-
 ## -returns
-
-
 
 Type: <b>LPTSTR</b>
 
@@ -92,12 +85,7 @@ If the function succeeds, the return value is a pointer to the buffer.
 If the function fails, the return value is <b>NULL</b> 
                     and <i>lpString1</i> may not be null-terminated.
 
-
-
-
 ## -remarks
-
-
 
 With a double-byte character set (DBCS) version of the system, this function can be used 
 			to copy a DBCS string. 
@@ -136,9 +124,6 @@ Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/n
 > The winbase.h header defines lstrcpy as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -193,7 +178,4 @@ Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/n
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
- 
-
- 
 

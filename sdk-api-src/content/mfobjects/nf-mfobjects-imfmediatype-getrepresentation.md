@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2135ff86-a3b6-4e1c-a9de-867f4828f008
 ms.date: 12/05/2018
 ms.keywords: 2135ff86-a3b6-4e1c-a9de-867f4828f008, AM_MEDIA_TYPE_REPRESENTATION, FORMAT_MFVideoFormat, FORMAT_VideoInfo, FORMAT_VideoInfo2, GetRepresentation, GetRepresentation method [Media Foundation], GetRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetRepresentation method, IMFMediaType.GetRepresentation, IMFMediaType::GetRepresentation, mf.imfmediatype_getrepresentation, mfobjects/IMFMediaType::GetRepresentation
-f1_keywords:
-- mfobjects/IMFMediaType.GetRepresentation
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaType.GetRepresentation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaType::GetRepresentation
+ - mfobjects/IMFMediaType::GetRepresentation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaType.GetRepresentation
 ---
 
 # IMFMediaType::GetRepresentation
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves an alternative representation of the media type. Currently only the DirectShow <b>AM_MEDIA_TYPE</b> structure is supported.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidRepresentation [in]
 
@@ -117,18 +110,12 @@ Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with a <b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppvRepresentation [out]
 
 Receives a pointer to a structure that contains the representation. The method allocates the memory for the structure. The caller must release the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-freerepresentation">IMFMediaType::FreeRepresentation</a>.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -186,14 +173,8 @@ The media type does not support the requested representation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you request a specific format structure in the <i>guidRepresentation</i> parameter, such as <b>VIDEOINFOHEADER</b>, you might lose some of the format information.
       
@@ -208,12 +189,7 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
@@ -224,7 +200,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
- 
-
- 
 

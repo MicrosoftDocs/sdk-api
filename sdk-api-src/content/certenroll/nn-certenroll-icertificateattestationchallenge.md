@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3b8d3104-5824-4801-9b74-59307e650662
 ms.date: 12/05/2018
 ms.keywords: ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], ICertificateAttestationChallenge interface [Security],described, certenroll/ICertificateAttestationChallenge, security.icertificateattestationchallenge
-f1_keywords:
-- certenroll/ICertificateAttestationChallenge
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.dll
-api_name:
-- ICertificateAttestationChallenge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateAttestationChallenge
+ - certenroll/ICertificateAttestationChallenge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.dll
+api_name:
+ - ICertificateAttestationChallenge
 ---
 
 # ICertificateAttestationChallenge interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows applications to decrypt a key attestation challenge received from a server.
-
 
 ## -inheritance
 
@@ -111,14 +110,9 @@ Gets the request ID from the <a href="https://docs.microsoft.com/windows/desktop
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 If the challenge is successfully decrypted, the decrypted secret needs to be sent back to the server so that an attested end entity certificate can be issued.
-
-
 

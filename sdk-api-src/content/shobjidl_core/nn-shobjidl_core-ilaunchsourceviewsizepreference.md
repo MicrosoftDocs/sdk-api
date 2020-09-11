@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 94436BC1-658E-4D33-866D-9C05282291A8
 ms.date: 12/05/2018
 ms.keywords: ILaunchSourceViewSizePreference, ILaunchSourceViewSizePreference interface [Windows Shell], ILaunchSourceViewSizePreference interface [Windows Shell],described, shell.ILaunchSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference
-f1_keywords:
-- shobjidl_core/ILaunchSourceViewSizePreference
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ILaunchSourceViewSizePreference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILaunchSourceViewSizePreference
+ - shobjidl_core/ILaunchSourceViewSizePreference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ILaunchSourceViewSizePreference
 ---
 
 # ILaunchSourceViewSizePreference interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for retrieving information about the source application.
-
 
 ## -inheritance
 
@@ -86,30 +85,18 @@ Retrieves the position of the source application window.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
 --&gt;
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetviewsizepreference">ILaunchTargetViewSizePreference</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

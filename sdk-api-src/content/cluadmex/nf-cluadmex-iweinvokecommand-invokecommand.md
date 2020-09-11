@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
 ms.date: 12/05/2018
 ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method, IWEInvokeCommand.InvokeCommand, IWEInvokeCommand::InvokeCommand, InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster],IWEInvokeCommand interface, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
-f1_keywords:
-- cluadmex/IWEInvokeCommand.InvokeCommand
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWEInvokeCommand.InvokeCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWEInvokeCommand::InvokeCommand
+ - cluadmex/IWEInvokeCommand::InvokeCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWEInvokeCommand.InvokeCommand
 ---
 
 # IWEInvokeCommand::InvokeCommand
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
 Allows you to implement procedures that execute when users select your context menu items.
 
-
 ## -parameters
-
-
-
 
 ### -param nCommandID [in]
 
@@ -68,9 +64,7 @@ Identifier of the menu item containing the command to perform. The identifier re
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwccontextmenucallback-addextensionmenuitem">IWCContextMenuCallback::AddExtensionMenuItem</a> 
        method.
 
-
 ### -param piData [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information associated with the 
        command identified by <i>nCommandID</i>. By calling the 
@@ -111,8 +105,6 @@ Depending on the type of <a href="https://docs.microsoft.com/previous-versions/w
 
 ## -returns
 
-
-
 Returns one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
 
@@ -146,26 +138,14 @@ The operation is not implemented by this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To create context menu items and add them to Failover Cluster Administrator, use the 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a> 
      method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterdatainfo">IGetClusterDataInfo</a>
 
@@ -208,7 +188,4 @@ To create context menu items and add them to Failover Cluster Administrator, use
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweinvokecommand">IWEInvokeCommand</a>
- 
-
- 
 

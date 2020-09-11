@@ -7,12 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: mixedreality
 archived: true
+f1_keywords:
+ - spatialinteractionmanagerinterop
+ - spatialinteractionmanagerinterop/spatialinteractionmanagerinterop
 ---
 
 # Spatialinteractionmanagerinterop.h header
 
+
 ## -description
 
 This header is used by Windows Mixed Reality. For more information, see [Windows Mixed Reality](../_mixedreality/index.md).
-
 

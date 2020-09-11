@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: f11386a6-2b80-4a2b-b859-fb399d7392e8
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprIsV4PolicyValid, DhcpHlprIsV4PolicyValid function [DHCP], dhcp.dhcphlprisv4policyvalid, dhcpsapi/DhcpHlprIsV4PolicyValid
-f1_keywords:
-- dhcpsapi/DhcpHlprIsV4PolicyValid
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpHlprIsV4PolicyValid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpHlprIsV4PolicyValid
+ - dhcpsapi/DhcpHlprIsV4PolicyValid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpHlprIsV4PolicyValid
 ---
 
 # DhcpHlprIsV4PolicyValid function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpHlprIsV4PolicyValid</b> function verifies a DHCP server policy.
 
-
 ## -parameters
-
-
-
 
 ### -param pPolicy [in]
 
 Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a> structure that contains the policy to verify.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -132,14 +125,8 @@ The specified policy range is not contained within the IP address range of the s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The API performs the following validations on the policy structure.
    
@@ -153,12 +140,7 @@ The API performs the following validations on the policy structure.
 <li>For all expressions, the parent expression index must be set to 0.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcphlpraddv4policycondition">DhcpHlprAddV4PolicyCondition</a>
 
@@ -193,7 +175,4 @@ The API performs the following validations on the policy structure.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcphlprresetv4policyexpr">DhcpHlprResetV4PolicyExpr</a>
- 
-
- 
 

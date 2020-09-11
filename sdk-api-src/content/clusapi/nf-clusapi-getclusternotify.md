@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 9f650e2e-0651-4d1c-9314-b83f4f805f04
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_CHANGE_CLUSTER_PROPERTY, CLUSTER_CHANGE_CLUSTER_RECONNECT, CLUSTER_CHANGE_CLUSTER_STATE, CLUSTER_CHANGE_GROUP_ADDED, CLUSTER_CHANGE_GROUP_DELETED, CLUSTER_CHANGE_GROUP_PROPERTY, CLUSTER_CHANGE_GROUP_STATE, CLUSTER_CHANGE_HANDLE_CLOSE, CLUSTER_CHANGE_NETINTERFACE_ADDED, CLUSTER_CHANGE_NETINTERFACE_DELETED, CLUSTER_CHANGE_NETINTERFACE_PROPERTY, CLUSTER_CHANGE_NETINTERFACE_STATE, CLUSTER_CHANGE_NETWORK_ADDED, CLUSTER_CHANGE_NETWORK_DELETED, CLUSTER_CHANGE_NETWORK_PROPERTY, CLUSTER_CHANGE_NETWORK_STATE, CLUSTER_CHANGE_NODE_ADDED, CLUSTER_CHANGE_NODE_DELETED, CLUSTER_CHANGE_NODE_PROPERTY, CLUSTER_CHANGE_NODE_STATE, CLUSTER_CHANGE_QUORUM_STATE, CLUSTER_CHANGE_REGISTRY_ATTRIBUTES, CLUSTER_CHANGE_REGISTRY_NAME, CLUSTER_CHANGE_REGISTRY_SUBTREE, CLUSTER_CHANGE_REGISTRY_VALUE, CLUSTER_CHANGE_RESOURCE_ADDED, CLUSTER_CHANGE_RESOURCE_DELETED, CLUSTER_CHANGE_RESOURCE_PROPERTY, CLUSTER_CHANGE_RESOURCE_STATE, CLUSTER_CHANGE_RESOURCE_TYPE_ADDED, CLUSTER_CHANGE_RESOURCE_TYPE_DELETED, CLUSTER_CHANGE_RESOURCE_TYPE_PROPERTY, GetClusterNotify, GetClusterNotify function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NOTIFY, PCLUSAPI_GET_CLUSTER_NOTIFY function [Failover Cluster], _wolf_getclusternotify, clusapi/GetClusterNotify, clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY, mscs.getclusternotify
-f1_keywords:
-- clusapi/GetClusterNotify
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- GetClusterNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClusterNotify
+ - clusapi/GetClusterNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - GetClusterNotify
 ---
 
 # GetClusterNotify function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns information 
     relating to the next notification event that is  stored for a notification port. The <b>PCLUSAPI_GET_CLUSTER_NOTIFY</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hChange [in]
 
 The handle to a notification port that is created with the 
        <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyport">CreateClusterNotifyPort</a> function.
 
-
 ### -param lpdwNotifyKey [out]
 
 A  pointer to the notification key for the port that is  identified by the  <i>hChange</i> parameter.
-
 
 ### -param lpdwFilterType [out]
 
@@ -308,7 +302,6 @@ The queue receives a notification when the
          <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties">properties</a> of a resource type 
          change.
 
-
 ### -param lpszName [out]
 
 A pointer to a null-terminated Unicode string containing the name of the 
@@ -444,7 +437,6 @@ Name of new <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 Name of the deleted resource type.
 
-
 ### -param lpcchName [in, out]
 
 A pointer to the size of the <i>lpszName</i> buffer as a count of characters. On input, 
@@ -452,15 +444,11 @@ A pointer to the size of the <i>lpszName</i> buffer as a count of characters. On
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
 
-
 ### -param dwMilliseconds [in, optional]
 
 Optional time-out value that specifies how long the caller is willing to wait for the notification.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -513,14 +501,8 @@ The buffer pointed to by the  <i>lpszName</i>   parameter is not big enough to h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Note that the <i>lpcchName</i> parameter refers to a count of characters and not a count of 
      bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. 
@@ -537,12 +519,7 @@ See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_change">CLUSTER_CHANGE</a>
 
@@ -561,7 +538,4 @@ See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify">RegisterClusterNotify</a>
- 
-
- 
 

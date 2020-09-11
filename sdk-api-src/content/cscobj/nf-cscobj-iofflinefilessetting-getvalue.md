@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 39560ca6-62d7-467b-bc52-1dd769e7e860
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Offline Files], GetValue method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetValue method, IOfflineFilesSetting.GetValue, IOfflineFilesSetting::GetValue, cscobj/IOfflineFilesSetting::GetValue, of.iofflinefilessetting_getvalue
-f1_keywords:
-- cscobj/IOfflineFilesSetting.GetValue
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesSetting.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesSetting::GetValue
+ - cscobj/IOfflineFilesSetting::GetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesSetting.GetValue
 ---
 
 # IOfflineFilesSetting::GetValue
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of a particular Offline Files setting.
 
-
 ## -parameters
-
-
-
 
 ### -param pvarValue [out]
 
@@ -65,24 +61,15 @@ Receives the value associated with the setting.  This value is determined based 
 
 The method initializes the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> prior to storing the setting value in it.
 
-
 ### -param pbSetByPolicy [out]
 
 Receives <b>TRUE</b> if the value was set by policy, <b>FALSE</b> if the value was determined by preference or default.
 
-
 ## -returns
-
-
 
 <b>S_OK</b> if the value query is successful or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The value returned in the <i>pvarValue</i> parameter is determined as follows:
 
@@ -97,16 +84,7 @@ The primary intent of the <i>pbSetByPolicy</i> parameter is to allow the caller 
 
 It is important to note that policy cannot be set through the Offline Files API.  Policy can be set only through the Group Policy mechanism.  The Offline Files API only supports querying policy values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>
- 
-
- 
 

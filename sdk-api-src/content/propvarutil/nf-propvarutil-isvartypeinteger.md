@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 3e183355-8e71-4f6d-a348-c9dde9aa5953
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeInteger, IsVarTypeInteger function [Windows Properties], _shell_IsVarTypeInteger, properties.IsVarTypeInteger, propvarutil/IsVarTypeInteger, shell.IsVarTypeInteger
-f1_keywords:
-- propvarutil/IsVarTypeInteger
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Propvarutil.h
-api_name:
-- IsVarTypeInteger
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IsVarTypeInteger
+ - propvarutil/IsVarTypeInteger
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Propvarutil.h
+api_name:
+ - IsVarTypeInteger
 ---
 
 # IsVarTypeInteger function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns whether a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is an integer.
 
-
 ## -parameters
-
-
-
 
 ### -param vt [in]
 
@@ -64,23 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/l
 
 Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> being queried.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is an integer.
 
-
-
-
 ## -remarks
 
-
-
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
-
-
 

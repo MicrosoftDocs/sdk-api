@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 88b162d9-003c-42ce-8f82-91ee1aa9e32e
 ms.date: 12/05/2018
 ms.keywords: '*PTC_GEN_FLOW, PTC_GEN_FLOW, PTC_GEN_FLOW structure pointer [QOS], TC_GEN_FLOW, TC_GEN_FLOW structure [QOS], _gqos_tc_gen_flow, qos.tc_gen_flow, traffic/PTC_GEN_FLOW, traffic/TC_GEN_FLOW'
-f1_keywords:
-- traffic/TC_GEN_FLOW
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Traffic.h
-api_name:
-- TC_GEN_FLOW
 targetos: Windows
 req.typenames: TC_GEN_FLOW, *PTC_GEN_FLOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TC_GEN_FLOW
+ - traffic/_TC_GEN_FLOW
+ - PTC_GEN_FLOW
+ - traffic/PTC_GEN_FLOW
+ - TC_GEN_FLOW
+ - traffic/TC_GEN_FLOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Traffic.h
+api_name:
+ - TC_GEN_FLOW
 ---
 
 # TC_GEN_FLOW structure
@@ -49,32 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TC_GEN_FLOW</b> structure creates a generic flow for use with the traffic control interface. The flow is customized through the members of this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SendingFlowspec
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the sending direction of the flow.
-
 
 ### -field ReceivingFlowspec
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the receiving direction of the flow.
-
 
 ### -field TcObjectsLength
 
 Length of <b>TcObjects</b>, in bytes.
-
 
 ### -field TcObjects
 
@@ -104,13 +99,8 @@ Buffer that contains an array of traffic control objects specific to the given f
 
 
 QOS_OBJECT_END_OF_LIST
-						
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
@@ -133,7 +123,4 @@ QOS_OBJECT_END_OF_LIST
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
- 
-
- 
 

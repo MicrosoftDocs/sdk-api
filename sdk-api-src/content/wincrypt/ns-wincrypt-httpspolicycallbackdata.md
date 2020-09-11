@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3422693a-3fad-4ed8-9fab-d9a185476123
 ms.date: 12/05/2018
 ms.keywords: '*PHTTPSPolicyCallbackData, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHTYPE_CLIENT, AUTHTYPE_SERVER, HTTPSPolicyCallbackData, HTTPSPolicyCallbackData structure [Security], PHTTPSPolicyCallbackData, PHTTPSPolicyCallbackData structure pointer [Security], PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, PSSL_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], SECURITY_FLAG_IGNORE_CERT_CN_INVALID, SECURITY_FLAG_IGNORE_CERT_DATE_INVALID, SECURITY_FLAG_IGNORE_REVOCATION, SECURITY_FLAG_IGNORE_UNKNOWN_CA, SECURITY_FLAG_IGNORE_WRONG_USAGE, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, SSL_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], security.ssl_extra_cert_chain_policy_para, wincrypt/PHTTPSPolicyCallbackData, wincrypt/PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/SSL_EXTRA_CERT_CHAIN_POLICY_PARA'
-f1_keywords:
-- wincrypt/HTTPSPolicyCallbackData
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- HTTPSPolicyCallbackData
 targetos: Windows
 req.typenames: HTTPSPolicyCallbackData, *PHTTPSPolicyCallbackData, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTPSPolicyCallbackData
+ - wincrypt/_HTTPSPolicyCallbackData
+ - PHTTPSPolicyCallbackData
+ - wincrypt/PHTTPSPolicyCallbackData
+ - HTTPSPolicyCallbackData
+ - wincrypt/HTTPSPolicyCallbackData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - HTTPSPolicyCallbackData
 ---
 
 # HTTPSPolicyCallbackData structure
@@ -49,29 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SSL_EXTRA_CERT_CHAIN_POLICY_PARA</b> structure, also identified by the name <b>HTTPSPolicyCallbackData</b>,  holds policy information used in the verification of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure Sockets Layer</a> (SSL) client/server certificate chains. 
-
+The <b>SSL_EXTRA_CERT_CHAIN_POLICY_PARA</b> structure, also identified by the name <b>HTTPSPolicyCallbackData</b>,  holds policy information used in the verification of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure Sockets Layer</a> (SSL) client/server certificate chains.
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.cbStruct
 
 <b>DWORD</b> value that specifies the number of bytes in this structure.
 
-
 ### -field DUMMYUNIONNAME.cbSize
 
 <b>DWORD</b> value that specifies the size, in bytes,  of this structure.
-
 
 ### -field dwAuthType
 
@@ -105,8 +100,6 @@ The server is being authenticated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fdwChecks
 
@@ -173,8 +166,6 @@ Ignore errors associated with an expired certificate.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwszServerName
 

@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\imilbitmapeffectgroup.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectGroup, IMILBitmapEffectGroup interface [WPF Bitmap Effects], IMILBitmapEffectGroup interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectgroup, mileffects/IMILBitmapEffectGroup, wibe._wibe_imilbitmapeffectgroup
-f1_keywords:
-- mileffects/IMILBitmapEffectGroup
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.h
-api_name:
-- IMILBitmapEffectGroup
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectGroup
+ - mileffects/IMILBitmapEffectGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.h
+api_name:
+ - IMILBitmapEffectGroup
 ---
 
 # IMILBitmapEffectGroup interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods used to access a group of effects.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Retrieves the output connector for an effect at the given index.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: ccd162e4-84be-4ed5-a583-c9bd195f503b
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRawNotificationCallback, IWICDevelopRawNotificationCallback interface [Windows Imaging Component], IWICDevelopRawNotificationCallback interface [Windows Imaging Component],described, _wic_codec_iwicdeveloprawnotificationcallback, wic._wic_codec_iwicdeveloprawnotificationcallback, wincodec/IWICDevelopRawNotificationCallback
-f1_keywords:
-- wincodec/IWICDevelopRawNotificationCallback
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICDevelopRawNotificationCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICDevelopRawNotificationCallback
+ - wincodec/IWICDevelopRawNotificationCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICDevelopRawNotificationCallback
 ---
 
 # IWICDevelopRawNotificationCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a callback method for raw image change nofications.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ An application-defined callback method used for raw image parameter change notif
 
 </td>
 </tr>
-</table> 
+</table>
 

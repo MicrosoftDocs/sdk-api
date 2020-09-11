@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 66acb84e-8e0f-4ff1-abc4-b32f782ce9f3
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Microsoft Broadband Networks], Connect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Connect method, IMbnConnection.Connect, IMbnConnection::Connect, mbn.imbnconnection_connect, mbnapi/IMbnConnection::Connect
-f1_keywords:
-- mbnapi/IMbnConnection.Connect
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnection.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnection::Connect
+ - mbnapi/IMbnConnection::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnection.Connect
 ---
 
 # IMbnConnection::Connect
@@ -54,30 +55,21 @@ ms.custom: 19H1
 
 Establishes a data connection.
 
-
 ## -parameters
-
-
-
 
 ### -param connectionMode [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode">MBN_CONNECTION_MODE</a> value that specifies the mode of the connection.
 
-
 ### -param strProfile [in]
 
 Contains the profile designator.
-
 
 ### -param requestID [out]
 
 A pointer to a unique request ID returned by the Mobile Broadband service to identify this asynchronous request.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -153,14 +145,8 @@ There is already an active Mobile Broadband context.  Multiple active contexts a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">Connect</a> method is used to activate a connection context for the device. The Mobile Broadband service currently supports at most one active context. Activation of the context will also result in L2 connection also being established. Similarly, deactivation of a context will result in disconnection of the physical data connection to the mobile network.
 
@@ -174,16 +160,7 @@ This is an asynchronous operation that will return immediately. If this method r
 
 Windows 8 and later versions of Windows: A Windows Store app may use <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">Connect</a> with only the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode">MBN_CONNECTION_MODE_TMP_PROFILE</a><i>connectionMode</i> and the <i>strProfile</i> parameter set to an XML representation of the profile. This implies that the connection is of a temporary nature and not saved for future use by the system.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 61e94e50-9e12-4a2c-a6c7-64a9181f80b8
 ms.date: 12/05/2018
 ms.keywords: IExplorerCommand, IExplorerCommand interface [Windows Shell], IExplorerCommand interface [Windows Shell],described, _shell_IExplorerCommand, shell.IExplorerCommand, shobjidl_core/IExplorerCommand
-f1_keywords:
-- shobjidl_core/IExplorerCommand
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExplorerCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExplorerCommand
+ - shobjidl_core/IExplorerCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExplorerCommand
 ---
 
 # IExplorerCommand interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that get the command appearance, enumerate subcommands, or invoke the command.
-
 
 ## -inheritance
 
@@ -140,14 +139,9 @@ Invokes a Windows Explorer command.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 None of the methods of this interface should communicate with network resources. These methods are called on the UI thread, so communication with network resources could cause the UI to stop responding.
-
-
 

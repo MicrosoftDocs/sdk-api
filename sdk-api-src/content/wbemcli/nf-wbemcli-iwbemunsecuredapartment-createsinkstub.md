@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 546ae2f8-c208-4846-a3ba-e124aefe619d
 ms.date: 12/05/2018
 ms.keywords: CreateSinkStub, CreateSinkStub method [Windows Management Instrumentation], CreateSinkStub method [Windows Management Instrumentation],IWbemUnsecuredApartment interface, IWbemUnsecuredApartment interface [Windows Management Instrumentation],CreateSinkStub method, IWbemUnsecuredApartment.CreateSinkStub, IWbemUnsecuredApartment::CreateSinkStub, WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, wbemcli/IWbemUnsecuredApartment::CreateSinkStub, wmi.iwbemunsecuredapartment_createsinkstub
-f1_keywords:
-- wbemcli/IWbemUnsecuredApartment.CreateSinkStub
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Unsecapp.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Unsecapp.exe
-api_name:
-- IWbemUnsecuredApartment.CreateSinkStub
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemUnsecuredApartment::CreateSinkStub
+ - wbemcli/IWbemUnsecuredApartment::CreateSinkStub
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Unsecapp.exe
+api_name:
+ - IWbemUnsecuredApartment.CreateSinkStub
 ---
 
 # IWbemUnsecuredApartment::CreateSinkStub
 
 
 ## -description
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">CreateSinkStub</a> method is 
     similar to the 
@@ -75,17 +75,12 @@ An access check means that Unsecapp.exe only allows the  account of the computer
     then Unsecapp.exe reads the registry key value to determine whether to authenticate 
     callbacks.
 
-
 ## -parameters
-
-
-
 
 ### -param pSink [in]
 
 Pointer to the client's in-process implementation of 
       <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
-
 
 ### -param dwFlags [in]
 
@@ -120,11 +115,9 @@ Unsecapp.exe authenticates callbacks regardless of the setting of the registry k
 Unsecapp.exe does not authenticate callbacks regardless of the setting of the 
         registry key <b>UnsecAppAccessControlDefault</b>.
 
-
 ### -param wszReserved
 
 Reserved.
-
 
 ### -param ppStub [out]
 
@@ -135,10 +128,7 @@ Receives a pointer to a substitute object to be used in asynchronous
       <b>IID_WbemObjectSink</b> before using this object in asynchronous 
       <b>IWbemServices</b> calls.
 
-
 ## -returns
-
-
 
 This method returns standard COM error codes for 
        <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. It returns 
@@ -148,24 +138,13 @@ This method returns standard COM error codes for
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to 
        Windows Management.
 
-
-
-
 ## -remarks
-
-
 
 This method is provided to improve the security of asynchronous calls 
     from client applications. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">IUnsecuredApartment::CreateObjectStub</a>
 
@@ -184,7 +163,4 @@ This method is provided to improve the security of asynchronous calls
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0df4f18b-3b0f-498e-90a5-74d686af83e0
 ms.date: 12/05/2018
 ms.keywords: CertGetStoreProperty, CertGetStoreProperty function [Security], _crypto2_certgetstoreproperty, security.certgetstoreproperty, wincrypt/CertGetStoreProperty
-f1_keywords:
-- wincrypt/CertGetStoreProperty
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetStoreProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetStoreProperty
+ - wincrypt/CertGetStoreProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetStoreProperty
 ---
 
 # CertGetStoreProperty function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertGetStoreProperty</b> function retrieves a store property.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 A handle of an open <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
-
 
 ### -param dwPropId [in]
 
 Indicates one of a range of store properties. There is one predefined store property, CERT_STORE_LOCALIZED_NAME_PROP_ID, the localized name of the store.
 
 User defined properties must be outside the current range of values for predefined context properties. Currently, user defined <i>dwPropId</i> values begin at 4,096.
-
 
 ### -param pvData [out]
 
@@ -77,15 +71,11 @@ A pointer to a buffer that receives the data as determined by <i>dwPropId</i>. F
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-
 ### -param pcbData [in, out]
 
 A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>pvData</i> buffer. When the function returns, the <b>DWORD</b> value contains the number of bytes stored in the buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
@@ -94,12 +84,7 @@ If the function fails, it returns zero.
 If the store property is found, the function returns nonzero, <i>pvData</i> points to the property, and <i>pcbData</i> points to the length of the string. If the store property is not found, the function returns zero and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns CRYPT_E_NOT_FOUND.
 
-
-
-
 ## -remarks
-
-
 
 Store property identifiers are properties applicable to an entire store. They are not properties on an individual <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context. Currently, no store properties are persisted.
 
@@ -179,21 +164,11 @@ if (pvData)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetstoreproperty">CertSetStoreProperty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
- 
-
- 
 

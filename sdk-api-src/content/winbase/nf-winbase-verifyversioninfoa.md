@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 791bc6bf-f486-4110-b6ea-30a0935040b2
 ms.date: 12/05/2018
 ms.keywords: VER_BUILDNUMBER, VER_MAJORVERSION, VER_MINORVERSION, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerifyVersionInfo, VerifyVersionInfo function, VerifyVersionInfoA, VerifyVersionInfoW, _win32_verifyversioninfo, base.verifyversioninfo, winbase/VerifyVersionInfo, winbase/VerifyVersionInfoA, winbase/VerifyVersionInfoW
-f1_keywords:
-- winbase/VerifyVersionInfo
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- VerifyVersionInfo
-- VerifyVersionInfoA
-- VerifyVersionInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VerifyVersionInfoA
+ - winbase/VerifyVersionInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - VerifyVersionInfo
+ - VerifyVersionInfoA
+ - VerifyVersionInfoW
 ---
 
 # VerifyVersionInfoA function
@@ -57,16 +58,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares a set of operating system version requirements to the corresponding values for the currently running version of the system.This function is subject to manifest-based behavior.  For more information, see the Remarks section.
 
 **Note:** This function has been deprecated for Windows 10. See [targeting your applications for Windows](https://docs.microsoft.com/windows/win32/sysinfo/targeting-your-application-at-windows-8-1) for more information.
 
-
 ## -parameters
-
-
-
 
 ### -param lpVersionInformation [in]
 
@@ -77,7 +73,6 @@ A pointer to an
 
 
 You must set the <b>dwOSVersionInfoSize</b> member of this structure to <code>sizeof(OSVERSIONINFOEX)</code>. You must also specify valid data for the members indicated by <i>dwTypeMask</i>. The function ignores structure members for which the corresponding <i>dwTypeMask</i> bit is not set.
-
 
 ### -param dwTypeMask [in]
 
@@ -180,8 +175,6 @@ If you are testing the major version, you must also test the minor version and t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwlConditionMask [in]
 
@@ -190,10 +183,7 @@ The type of comparison to be used for each <b>lpVersionInfo</b> member being com
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-ver_set_condition">VER_SET_CONDITION</a> macro once for each 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> member being compared.
 
-
 ## -returns
-
-
 
 If the currently running operating system satisfies the specified requirements, the return value is a nonzero value.
 
@@ -202,12 +192,7 @@ If the current system does not satisfy the requirements, the return value is zer
 
 If the function fails, the return value is zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns an error code other than ERROR_OLD_WIN_VERSION.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>VerifyVersionInfo</b> function retrieves version information about the currently running operating system and compares it to the valid members of the <b>lpVersionInfo</b> structure. This enables you to easily determine the presence of a required set of operating system version conditions. It is preferable to use 
@@ -257,9 +242,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a>
 
 
@@ -281,7 +263,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-versetconditionmask">VerSetConditionMask</a>
- 
-
- 
 

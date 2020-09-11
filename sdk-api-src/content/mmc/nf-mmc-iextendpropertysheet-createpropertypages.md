@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 8B99EC8D-AFE1-4944-AF61-BFE93C0AF7DE
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyPages, CreatePropertyPages method [MMC], CreatePropertyPages method [MMC],IExtendPropertySheet interface, IExtendPropertySheet interface [MMC],CreatePropertyPages method, IExtendPropertySheet.CreatePropertyPages, IExtendPropertySheet::CreatePropertyPages, mmc.iextendpropertysheet_createpropertypages, mmc/IExtendPropertySheet::CreatePropertyPages
-f1_keywords:
-- mmc/IExtendPropertySheet.CreatePropertyPages
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IExtendPropertySheet.CreatePropertyPages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExtendPropertySheet::CreatePropertyPages
+ - mmc/IExtendPropertySheet::CreatePropertyPages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IExtendPropertySheet.CreatePropertyPages
 ---
 
 # IExtendPropertySheet::CreatePropertyPages
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds pages to a property sheet.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProvider [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetcallback">IPropertySheetCallback</a> interface.
-
 
 ### -param handle [in]
 
@@ -75,25 +70,16 @@ For snap-ins that use the
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a> interface directly, MMC creates the handle when the snap-in calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addprimarypages">IPropertySheetProvider::AddPrimaryPages</a> and specifies its bCreateHandle to be <b>TRUE</b>.
 
-
 ### -param lpIDataObject [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the object that contains context information about the scope or result item.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 The IPropertySheetCallback interface is passed to the snap-in during a call to this method. The lifetime of this interface is under the control of MMC. As such, the pointer lpIDataObject is valid only during the lifetime of the immediate call to this method. Caching the lpIDataObject pointer value outside of the callback is not recommended.
 
@@ -106,13 +92,7 @@ MMCFreeNotifyHandle. If the snap-in returns an error code, then MMC immediately 
 MMCFreeNotifyHandle should be called, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-mmcfreenotifyhandle">MMCFreeNotifyHandle</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>
 
@@ -127,7 +107,4 @@ MMCFreeNotifyHandle should be called, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-mmcfreenotifyhandle">MMCFreeNotifyHandle</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: E4448DC6-9014-41FB-B14B-2C6FB4E4D13D
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PANOSE_XHEIGHT, DWRITE_PANOSE_XHEIGHT enumeration [Direct Write], DWRITE_PANOSE_XHEIGHT_ANY, DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE, DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL, DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD, DWRITE_PANOSE_XHEIGHT_CONSTANT_STD, DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE, DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL, DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD, DWRITE_PANOSE_XHEIGHT_DUCKING_STD, DWRITE_PANOSE_XHEIGHT_NO_FIT, directwrite.dwrite_panose_xheight, dwrite_1/DWRITE_PANOSE_XHEIGHT, dwrite_1/DWRITE_PANOSE_XHEIGHT_ANY, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_STD, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_STD, dwrite_1/DWRITE_PANOSE_XHEIGHT_NO_FIT
-f1_keywords:
-- dwrite_1/DWRITE_PANOSE_XHEIGHT
-dev_langs:
-- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dwrite_1.h
-api_name:
-- DWRITE_PANOSE_XHEIGHT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWRITE_PANOSE_XHEIGHT
+ - dwrite_1/DWRITE_PANOSE_XHEIGHT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dwrite_1.h
+api_name:
+ - DWRITE_PANOSE_XHEIGHT
 ---
 
 # DWRITE_PANOSE_XHEIGHT enumeration
@@ -49,72 +50,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DWRITE_PANOSE_XHEIGHT</b> enumeration contains values that specify info about the relative size of lowercase letters and the treatment of diacritic marks (xheight).
 
-
 ## -enum-fields
-
-
-
 
 ### -field DWRITE_PANOSE_XHEIGHT_ANY
 
 Any xheight.
 
-
 ### -field DWRITE_PANOSE_XHEIGHT_NO_FIT
 
 No fit xheight.
-
 
 ### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL
 
 Constant small xheight.
 
-
 ### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD
 
 Constant standard xheight.
-
 
 ### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE
 
 Constant large xheight.
 
-
 ### -field DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL
 
 Ducking small xheight.
-
 
 ### -field DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD
 
 Ducking standard xheight.
 
-
 ### -field DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE
 
 Ducking large xheight.
-
 
 ### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_STD
 
 Constant standard xheight.
 
-
 ### -field DWRITE_PANOSE_XHEIGHT_DUCKING_STD
 
 Ducking standard xheight.
 
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a>
- 
-
- 
 

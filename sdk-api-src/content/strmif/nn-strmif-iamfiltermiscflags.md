@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f9f3eaf9-4afa-412f-aa8f-b75e787cfecb
 ms.date: 12/05/2018
 ms.keywords: IAMFilterMiscFlags, IAMFilterMiscFlags interface [DirectShow], IAMFilterMiscFlags interface [DirectShow],described, IAMFilterMiscFlagsInterface, dshow.iamfiltermiscflags, strmif/IAMFilterMiscFlags
-f1_keywords:
-- strmif/IAMFilterMiscFlags
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMFilterMiscFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMFilterMiscFlags
+ - strmif/IAMFilterMiscFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMFilterMiscFlags
 ---
 
 # IAMFilterMiscFlags interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMFilterMiscFlags</code> interface queries whether a filter is a source filter or a renderer. Source and renderer filters should implement this interface.
 
 Applications do not use this interface. The Filter Graph Manager uses this interface to determine how many <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> events it will receive when playback completes.
-
-
-
 
 ## -inheritance
 
@@ -83,16 +79,9 @@ Returns the filter's type, either source or renderer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

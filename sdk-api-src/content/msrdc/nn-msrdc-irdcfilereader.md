@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 9684efca-37fd-45ce-a24e-d5276b8ea6af
 ms.date: 12/05/2018
 ms.keywords: IRdcFileReader, IRdcFileReader interface [Remote Differential Compression], IRdcFileReader interface [Remote Differential Compression],described, fs.irdcfilereader, msrdc/IRdcFileReader, rdc.irdcfilereader
-f1_keywords:
-- msrdc/IRdcFileReader
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcFileReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcFileReader
+ - msrdc/IRdcFileReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcFileReader
 ---
 
 # IRdcFileReader interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IRdcFileReader</b> interface is used to provide the 
     equivalent of a file handle, because the data being synchronized may not exist as a file on disk.
-
 
 ## -inheritance
 
@@ -92,13 +91,9 @@ Returns the
 Reads the specified amount 
     of data starting at the specified position.</p> (Inherited from <b>IRdcFileReader</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createcomparator">IRdcLibrary::CreateComparator</a>
 
@@ -113,7 +108,4 @@ Reads the specified amount
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
- 
-
- 
 

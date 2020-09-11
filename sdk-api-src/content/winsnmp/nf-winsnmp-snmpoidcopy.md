@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: ab121160-1c4f-41c0-a738-2e7605780ed2
 ms.date: 12/05/2018
 ms.keywords: SnmpOidCopy, SnmpOidCopy function [SNMP], _snmp_snmpoidcopy, snmp.snmpoidcopy, winsnmp/SnmpOidCopy
-f1_keywords:
-- winsnmp/SnmpOidCopy
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpOidCopy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpOidCopy
+ - winsnmp/SnmpOidCopy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpOidCopy
 ---
 
 # SnmpOidCopy function
@@ -49,33 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpOidCopy</b> function copies an SNMP object identifier, allocating any necessary memory for the copy.
 
-
 ## -parameters
-
-
-
 
 ### -param srcOID [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure to copy.
 
-
 ### -param dstOID [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure to receive a copy of the object identifier specified by the <i>srcOID</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of subidentifiers in the copied object identifier. This number is also the value of the <b>len</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure pointed to by the <i>dstOID</i> parameter.
@@ -135,14 +127,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 On input, the 
 <b>SnmpOidCopy</b> function ignores the members of the 
@@ -155,13 +141,7 @@ The WinSNMP application must call the
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/freeing-winsnmp-descriptors">Freeing WinSNMP Descriptors</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
 
@@ -177,7 +157,4 @@ The WinSNMP application must call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b1ddbf7e-edf3-48fb-8983-ae39cb7bb4b0
 ms.date: 12/05/2018
 ms.keywords: IDropTargetHelper, IDropTargetHelper interface [Windows Shell], IDropTargetHelper interface [Windows Shell],described, _win32_IDropTargetHelper, shell.IDropTargetHelper, shobjidl_core/IDropTargetHelper
-f1_keywords:
-- shobjidl_core/IDropTargetHelper
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDropTargetHelper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDropTargetHelper
+ - shobjidl_core/IDropTargetHelper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDropTargetHelper
 ---
 
 # IDropTargetHelper interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow drop targets to display a drag image while the image is over the target window.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Notifies the drag-image manager to show or hide the drag image.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is exposed by the Shell's drag-image manager. It is not implemented by applications.
 
@@ -133,19 +129,11 @@ For further discussion of Shell drag-and-drop operations, see <a href="https://d
 <div class="alert"><b>Note</b>   Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/dataobject">Shell Data Object</a>
- 
-
- 
 

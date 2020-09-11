@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_VIDEO_DECODE_TIER","D3D12_VIDEO_DECODE_TIER",""]
 tech.root: mf
 ms.assetid: a7e84f4d-3aa0-4986-a1da-747bbbd6c889
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_VIDEO_DECODE_TIER
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_DECODE_TIER, D3D12_VIDEO_DECODE_TIER,
 req.header: d3d12video.h
 req.include-header: 
@@ -22,23 +18,28 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_TIER
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_DECODE_TIER
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_DECODE_TIER
+ - d3d12video/D3D12_VIDEO_DECODE_TIER
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_DECODE_TIER
 ---
 
 # D3D12_VIDEO_DECODE_TIER enumeration
 
+
 ## -description
 
 Specifies the decoding tier of a hardware video decoder, which determines the required format of application-defined textures and buffers.
-
 
 ## -enum-fields
 
@@ -56,8 +57,7 @@ If the decoder hardware requires a unique memory layout that is not supported fo
 - All slices for a given frame must be placed in order and must be contiguous, i.e. there must be no gaps between slices.  Slice control buffers must specify offset and size parameters that meet this requirement.  
 - The first slice must begin on a 128 Byte boundary.  The offset set in the <a href="ns-d3d12video-d3d12_video_decode_compressed_bitstream.md">D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM</a> structure must be a multiple of 128 Bytes.
 - Decoding is supported from buffers allocated with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_memory_pool">D3D12_MEMORY_POOL_L0</a>. This is always system memory, but still a D3D12 buffer.
-- Decoding is supported from buffers allocated with D3D12_MEMORY_POOL_L1, the default pool, including those allocated with D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE. 
-
+- Decoding is supported from buffers allocated with D3D12_MEMORY_POOL_L1, the default pool, including those allocated with D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE.
 
 ### -field D3D12_VIDEO_DECODE_TIER_2 
 
@@ -73,12 +73,13 @@ These requirements are identical to the tier 1 requirements.
 - The first slice must begin on a 128 Byte boundary.  The offset set in the <a href="ns-d3d12video-d3d12_video_decode_compressed_bitstream.md">D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM</a> structure must be a multiple of 128 Bytes.
 - Decoding is supported from buffers allocated with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_memory_pool">D3D12_MEMORY_POOL_L0</a>. This is always system memory, but still a D3D12 buffer.
 - Decoding is supported from buffers allocated with D3D12_MEMORY_POOL_L1, the default pool, including those allocated with D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE. 
-- 
+-
+
 ### -field D3D12_VIDEO_DECODE_TIER_3 
 
 This field is reserved.
 
-
 ## -remarks
 
 ## -see-also
+

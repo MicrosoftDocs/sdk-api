@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: E6F3751A-54FF-44EC-90EB-4B0732ABFF01
 ms.date: 12/05/2018
 ms.keywords: CreateInt32, CreateInt32 method [Windows Runtime], CreateInt32 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt32 method, IPropertyValueStatics.CreateInt32, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt32, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt32, winrt.ipropertyvaluefactory_createint32, winrt.ipropertyvaluestatics_createint32
-f1_keywords:
-- windows.foundation/IPropertyValueStatics.CreateInt32
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValueStatics.CreateInt32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValueStatics::CreateInt32
+ - windows.foundation/IPropertyValueStatics::CreateInt32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValueStatics.CreateInt32
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object that contains  the specified signed 32-bit integer value.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
@@ -64,17 +60,13 @@ Type: <b>INT32</b>
 
 The signed 32-bit integer value to store.
 
-
 ### -param propertyValue [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
 A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -119,31 +111,16 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <b>CreateInt32</b> method to  store a value in an <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint32">GetInt32</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint32">IPropertyValue::GetInt32</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
- 
-
- 
 

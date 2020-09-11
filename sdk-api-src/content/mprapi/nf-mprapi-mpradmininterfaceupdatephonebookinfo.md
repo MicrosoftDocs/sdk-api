@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: fa337886-6fae-4e38-a59a-e26036c80d39
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceUpdatePhonebookInfo, MprAdminInterfaceUpdatePhonebookInfo function [RAS], _mpr_mpradmininterfaceupdatephonebookinfo, mprapi/MprAdminInterfaceUpdatePhonebookInfo, rras.mpradmininterfaceupdatephonebookinfo
-f1_keywords:
-- mprapi/MprAdminInterfaceUpdatePhonebookInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceUpdatePhonebookInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceUpdatePhonebookInfo
+ - mprapi/MprAdminInterfaceUpdatePhonebookInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceUpdatePhonebookInfo
 ---
 
 # MprAdminInterfaceUpdatePhonebookInfo function
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminInterfaceUpdatePhonebookInfo</b> function forces the router to pick up changes made on a specified demand-dial interface. Call this function after changes are made to a phone-book entry for a demand-dial interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to the router on which to execute this call. Obtain the handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
-
 ### -param hInterface [in]
 
 Handle to a demand-dial interface. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -179,14 +171,7 @@ Use
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -205,7 +190,4 @@ Use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

@@ -27,54 +27,70 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPIOCTL
+ - LPWSPIOCTL
+f1_keywords:
+ - LPWSPIOCTL
+ - ws2spi/LPWSPIOCTL
 ---
 
 ## -description
+
 The **LPWSPIoctl** function controls the mode of a socket.
 
 ## -parameters
 
 ### -param s [in]
+
 A descriptor identifying a socket.
 
 ### -param dwIoControlCode [in]
+
 The control code of the operation to perform.
 
 ### -param lpvInBuffer [in]
+
 A pointer to the input buffer.
 
 ### -param cbInBuffer [in]
+
 The size, in bytes, of the input buffer.
 
 ### -param lpvOutBuffer [out]
+
 A pointer to the output buffer.
 
 ### -param cbOutBuffer [in]
+
 The size, in bytes, of the output buffer.
 
 ### -param lpcbBytesReturned [out]
+
 A pointer to actual number of bytes of output.
 
 ### -param lpOverlapped [in]
+
 A pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">WSAOverlapped</a></b> structure (ignored for non-overlapped sockets).
 
 ### -param lpCompletionRoutine [in]
+
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets). See Remarks.
 
 ### -param lpThreadId [in]
+
 A pointer to a <b><a href="/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced **WSATHREADID** structure (not the pointer) until after the **WPUQueueApc** function returns.
 
 ### -param lpErrno [in]
+
 A pointer to the error code.
 
 ## -returns
+
 If no error occurs and the operation has completed immediately, **LPWSPIoctl** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code WSA_IO_PENDING indicates that an overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
 
 | Error code                                                                                                                                          | Meaning                                                                                                                                                                                                        |
@@ -86,8 +102,10 @@ If no error occurs and the operation has completed immediately, **LPWSPIoctl** r
 | <dl> <dt>[WSAENETDOWN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown)           | The network subsystem has failed.<br/>                                                                                                                                                                   |
 | <dl> <dt>[WSAENOTSOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)           | The descriptor <i>s</i> is not a socket.<br/>                                                                                                                                                                 |
 | <dl> <dt>[WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)       | The specified IOCTL command cannot be realized. For example, the flow specifications specified in **SIO_SET_QOS** cannot be satisfied.<br/>                                                            |
-| <dl> <dt>[WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock)     | The socket is marked as nonblocking and the requested operation would block.<br/>         
+| <dl> <dt>[WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock)     | The socket is marked as nonblocking and the requested operation would block.<br/>
+
 ## -remarks
+
 This routine is used to set or retrieve operating parameters associated with the socket, the transport protocol, or the communications subsystem. If both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are **NULL**, the socket in this function will be treated as a nonoverlapped socket.
 
 For non-overlapped sockets, <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> parameters are ignored and this function can block if socket <i>s</i> is in blocking mode. Note that if socket <i>s</i> is in nonblocking mode, this function can return [WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock) if the specified operation cannot be finished immediately. In this case, the Windows Sockets SPI client may change the socket to blocking mode and reissue the request or wait for the corresponding network event (such as FD_ROUTING_INTERFACE_CHANGE or FD_ADDRESS_LIST_CHANGE in case of **SIO_ROUTING_INTERFACE_CHANGE** or **SIO_ADDRESS_LIST_CHANGE**) using Windows message (through **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** or event (using [**LPWSPEventSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect)) based notification mechanism.
@@ -699,3 +717,4 @@ The IOCTL codes with T == 0 are a subset of the IOCTL codes used in Berkeley soc
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
+

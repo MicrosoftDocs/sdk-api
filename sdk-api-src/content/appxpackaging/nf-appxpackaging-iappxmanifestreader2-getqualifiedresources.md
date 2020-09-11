@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: C712DA82-CA4F-4C5B-A391-3B40D5EE61C4
 ms.date: 12/05/2018
 ms.keywords: GetQualifiedResources, GetQualifiedResources method [App packaging and management], GetQualifiedResources method [App packaging and management],IAppxManifestReader2 interface, IAppxManifestReader2 interface [App packaging and management],GetQualifiedResources method, IAppxManifestReader2.GetQualifiedResources, IAppxManifestReader2::GetQualifiedResources, appxpackaging/IAppxManifestReader2::GetQualifiedResources, appxpkg.iappxmanifestreader2_getqualifiedresources
-f1_keywords:
-- appxpackaging/IAppxManifestReader2.GetQualifiedResources
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestReader2.GetQualifiedResources
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestReader2::GetQualifiedResources
+ - appxpackaging/IAppxManifestReader2::GetQualifiedResources
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestReader2.GetQualifiedResources
 ---
 
 # IAppxManifestReader2::GetQualifiedResources
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an enumerator that iterates through the qualified resources that are defined in the manifest.
 
-
 ## -parameters
-
-
-
 
 ### -param resources [out, retval]
 
@@ -64,36 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dn280306(v=vs.85)
 
 The enumerator that iterates through the qualified resources.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. 
-
-
-
+If the method succeeds, it returns <b>S_OK</b>.
 
 ## -remarks
-
-
 
 Resources are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-resources">Resources</a> element in the manifest.
 
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>resources</i> object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader2">IAppxManifestReader2</a>
- 
-
- 
 

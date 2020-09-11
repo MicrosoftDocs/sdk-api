@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: a5cd14df-8e64-4f34-801c-9901c7d215f9
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderState, IWPCProviderState interface, IWPCProviderState interface,described, parcon.iwpcproviderstate, wpcapi/IWPCProviderState
-f1_keywords:
-- wpcapi/IWPCProviderState
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCProviderState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCProviderState
+ - wpcapi/IWPCProviderState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCProviderState
 ---
 
 # IWPCProviderState interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes provider state methods that are implemented by third parties.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Notifies the third-party application that it has been selected as the new curren
 
 </td>
 </tr>
-</table> 
+</table>
 

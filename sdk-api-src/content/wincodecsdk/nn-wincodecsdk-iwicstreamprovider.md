@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: fdcaf668-a5c3-4852-8bc9-5535f0756592
 ms.date: 12/05/2018
 ms.keywords: IWICStreamProvider, IWICStreamProvider interface [Windows Imaging Component], IWICStreamProvider interface [Windows Imaging Component],described, _wic_codec_iwicstreamprovider, wic._wic_codec_iwicstreamprovider, wincodecsdk/IWICStreamProvider
-f1_keywords:
-- wincodecsdk/IWICStreamProvider
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICStreamProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICStreamProvider
+ - wincodecsdk/IWICStreamProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICStreamProvider
 ---
 
 # IWICStreamProvider interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for a stream provider.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Informs the component that the content of the stream it's holding onto may have 
 
 </td>
 </tr>
-</table> 
+</table>
 

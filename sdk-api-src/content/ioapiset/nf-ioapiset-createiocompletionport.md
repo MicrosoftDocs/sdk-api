@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 40cb47fc-7b15-47f6-bee2-2611d4686053
 ms.date: 12/05/2018
 ms.keywords: CreateIoCompletionPort, CreateIoCompletionPort function [Files], _win32_createiocompletionport, base.createiocompletionport, fs.createiocompletionport, ioapiset/CreateIoCompletionPort, winbase/CreateIoCompletionPort
-f1_keywords:
-- ioapiset/CreateIoCompletionPort
-dev_langs:
-- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-io-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-io-l1-1-1.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-api_name:
-- CreateIoCompletionPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateIoCompletionPort
+ - ioapiset/CreateIoCompletionPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+api_name:
+ - CreateIoCompletionPort
 ---
 
 # CreateIoCompletionPort function
 
 
 ## -description
-
 
 Creates an input/output (I/O) completion port and associates it with a specified file handle, or creates an I/O completion port that is not yet associated with a file handle, allowing association at a later time.
 
@@ -63,9 +63,6 @@ Associating an instance of an opened file handle with an I/O completion port all
 </div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param FileHandle [in]
 
@@ -78,7 +75,6 @@ If a handle is provided, it has to have been opened for overlapped I/O completio
 
 If <b>INVALID_HANDLE_VALUE</b> is specified, the function creates an I/O completion port without associating it with a file handle. In this case, the <i>ExistingCompletionPort</i> parameter must be <b>NULL</b> and the <i>CompletionKey</i> parameter is ignored.
 
-
 ### -param ExistingCompletionPort [in, optional]
 
 A handle to an existing I/O completion port or <b>NULL</b>.
@@ -87,11 +83,9 @@ If this parameter specifies an existing I/O completion port, the function associ
 
 If this parameter is <b>NULL</b>, the function creates a new I/O completion port and, if the <i>FileHandle</i> parameter is valid, associates it with the new I/O completion port. Otherwise no file handle association occurs. The function returns the handle to the new I/O completion port if successful.
 
-
 ### -param CompletionKey [in]
 
 The per-handle user-defined completion key that is included in every I/O completion packet for the specified file handle. For more information, see the Remarks section.
-
 
 ### -param NumberOfConcurrentThreads [in]
 
@@ -99,10 +93,7 @@ The maximum number of threads that the operating system can allow to concurrentl
 
 If this parameter is zero, the system allows as many concurrently running threads as there are processors in the system.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the handle to an I/O completion port:
 
@@ -123,12 +114,7 @@ If the <i>FileHandle</i> parameter was a valid handle, that file handle is now a
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 The I/O system can be instructed to send I/O completion notification packets to I/O completion ports, where they are queued. The 
 <b>CreateIoCompletionPort</b> function provides this functionality.
@@ -220,15 +206,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>
 
@@ -284,7 +263,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

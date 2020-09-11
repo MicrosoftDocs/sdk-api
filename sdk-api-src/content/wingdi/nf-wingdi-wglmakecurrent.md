@@ -8,10 +8,6 @@ tech.root: OpenGL
 ms.assetid: a1d3cbc9-2587-4f49-9d7d-749cf9a3ecfe
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglMakeCurrent, opengl.wglmakecurrent, wglMakeCurrent, wglMakeCurrent function [OpenGL], wingdi/wglMakeCurrent
-f1_keywords:
-- wingdi/wglMakeCurrent
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- opengl32.dll
-api_name:
-- wglMakeCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - wglMakeCurrent
+ - wingdi/wglMakeCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - opengl32.dll
+api_name:
+ - wglMakeCurrent
 ---
 
 # wglMakeCurrent function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>wglMakeCurrent</b> function makes a specified OpenGL rendering context the calling thread's current rendering context. All subsequent OpenGL calls made by the thread are drawn on the device identified by <i>hdc</i>. You can also use <b>wglMakeCurrent</b> to change the calling thread's current rendering context so it's no longer current.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1
 
 Handle to a device context. Subsequent OpenGL calls made by the calling thread are drawn on the device identified by <i>hdc</i>.
-
 
 ### -param arg2
 
@@ -69,19 +64,11 @@ Handle to an OpenGL rendering context that the function sets as the calling thre
 
 If <i>hglrc</i> is <b>NULL</b>, the function makes the calling thread's current rendering context no longer current, and releases the device context that is used by the rendering context. In this case, <i>hdc</i> is ignored.
 
-
 ## -returns
-
-
 
 When the <b>wglMakeCurrent</b> function succeeds, the return value is <b>TRUE</b>; otherwise the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <i>hdc</i> parameter must refer to a drawing surface supported by OpenGL. It need not be the same <i>hdc</i> that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext">wglCreateContext</a> when <i>hglrc</i> was created, but it must be on the same device and have the same pixel format. GDI transformation and clipping in <i>hdc</i> are not supported by the rendering context. The current rendering context uses the <i>hdc</i> device context until the rendering context is no longer current.
 
@@ -95,13 +82,7 @@ An application can perform multithread drawing by making different rendering con
 
 If an error occurs, the <b>wglMakeCurrent</b> function makes the thread's current rendering context not current before returning.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
@@ -124,7 +105,4 @@ If an error occurs, the <b>wglMakeCurrent</b> function makes the thread's curren
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentdc">wglGetCurrentDC</a>
- 
-
- 
 

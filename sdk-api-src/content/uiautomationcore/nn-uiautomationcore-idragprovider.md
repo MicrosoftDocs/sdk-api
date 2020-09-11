@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: FAC4A56D-17BC-42E6-A03E-EE45D717DE37
 ms.date: 12/05/2018
 ms.keywords: IDragProvider, IDragProvider interface [Windows Accessibility], IDragProvider interface [Windows Accessibility],described, uiautomationcore/IDragProvider, winauto.uiauto_idragprovider
-f1_keywords:
-- uiautomationcore/IDragProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IDragProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDragProvider
+ - uiautomationcore/IDragProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IDragProvider
 ---
 
 # IDragProvider interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a Microsoft UI Automation element to describe itself as an element that can be dragged as part of a drag-and-drop operation.
-
 
 ## -inheritance
 
@@ -134,29 +133,17 @@ Indicates whether the element has been grabbed as part of a drag-and-drop operat
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A provider can implement <b>IDragProvider</b> only on the element being dragged, or it can use an intermediary drag object that implements <b>IDragProvider</b>, in addition to the <b>IDragProvider</b> implementation on the individual element.  The intermediary is responsible for firing all events, which enables the provider to support dragging multiple elements at once, and to describe the multi-element drag operation with a single set of drag properties and events.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider">IDropTargetProvider</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/ui-automation-support-for-drag-and-drop">UI Automation Support for Drag-and-Drop</a>
- 
-
- 
 

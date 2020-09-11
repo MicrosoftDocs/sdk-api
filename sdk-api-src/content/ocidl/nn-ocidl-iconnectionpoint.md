@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: ef5a917c-b57f-4000-8daa-86fdbfb47579
 ms.date: 12/05/2018
 ms.keywords: IConnectionPoint, IConnectionPoint interface [COM], IConnectionPoint interface [COM],described, _com_iconnectionpoint, com.iconnectionpoint, ocidl/IConnectionPoint
-f1_keywords:
-- ocidl/IConnectionPoint
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IConnectionPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConnectionPoint
+ - ocidl/IConnectionPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IConnectionPoint
 ---
 
 # IConnectionPoint interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Supports connection points for connectable objects.
-
-
 
 ## -inheritance
 
@@ -114,12 +112,9 @@ Terminates an advisory connection previously established between a connection po
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Connectable objects support the following features: 
 
@@ -136,12 +131,7 @@ Connectable objects support the following features:
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a>
 
@@ -152,7 +142,4 @@ Connectable objects support the following features:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
- 
-
- 
 

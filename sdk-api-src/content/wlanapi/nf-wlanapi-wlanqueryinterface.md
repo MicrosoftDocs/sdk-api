@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: e20eb9a3-5824-48ee-b13e-b0252bbf495e
 ms.date: 12/05/2018
 ms.keywords: WlanQueryInterface, WlanQueryInterface function [NativeWIFI], nwifi.wlanqueryinterface, wlanapi/WlanQueryInterface
-f1_keywords:
-- wlanapi/WlanQueryInterface
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wlanapi.dll
-- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
-api_name:
-- WlanQueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanQueryInterface
+ - wlanapi/WlanQueryInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wlanapi.dll
+ - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+ - WlanQueryInterface
 ---
 
 # WlanQueryInterface function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanQueryInterface</b> function queries various parameters of a specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
-
 ### -param pInterfaceGuid [in]
 
 The GUID of the interface to be queried.
-
 
 ### -param OpCode [in]
 
@@ -165,16 +159,13 @@ A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_intf_opcode_autoconf_enabled</b>, <b>wlan_intf_opcode_bss_type</b>, <b>wlan_intf_opcode_interface_state</b>, and  <b>wlan_intf_opcode_current_connection</b> constants are valid.
 
-
 ### -param pReserved
 
 Reserved for future use. Must be set to <b>NULL</b>.
 
-
 ### -param pdwDataSize [out]
 
 The size of the <i>ppData</i> parameter, in bytes.
-
 
 ### -param ppData [out]
 
@@ -185,23 +176,15 @@ Pointer to the memory location that contains the queried value of the parameter 
 
 ### -param pWlanOpcodeValueType [out, optional]
 
-If passed a non-<b>NULL</b> value, points to a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the type of opcode returned. This parameter may be <b>NULL</b>. 
-
+If passed a non-<b>NULL</b> value, points to a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the type of opcode returned. This parameter may be <b>NULL</b>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value may be one of the following return codes.
 
-
-
-
 ## -remarks
-
-
 
 The caller is responsible for using <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> to free the memory allocated for <i>ppData</i>.
 
@@ -573,14 +556,7 @@ int wmain()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a>
 
@@ -631,7 +607,4 @@ int wmain()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a>
- 
-
- 
 

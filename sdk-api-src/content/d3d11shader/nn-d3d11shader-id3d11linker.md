@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 08967A5F-AAAE-4352-A8A9-C7B1ED16EF25
 ms.date: 12/05/2018
 ms.keywords: ID3D11Linker, ID3D11Linker interface [Direct3D 11], ID3D11Linker interface [Direct3D 11],described, d3d11shader/ID3D11Linker, direct3d11.id3d11linker
-f1_keywords:
-- d3d11shader/ID3D11Linker
-dev_langs:
-- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCompiler_47.dll
-api_name:
-- ID3D11Linker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Linker
+ - d3d11shader/ID3D11Linker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCompiler_47.dll
+api_name:
+ - ID3D11Linker
 ---
 
 # ID3D11Linker interface
@@ -49,12 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A linker interface is used to link a shader module. <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -99,12 +97,9 @@ Adds an instance of a library module to be used for linking.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a linker interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcreatelinker">D3DCreateLinker</a>.
       
@@ -113,19 +108,11 @@ To get a linker interface, call <a href="https://docs.microsoft.com/windows/desk
       </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
- 
-
- 
 

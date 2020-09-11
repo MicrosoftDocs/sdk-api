@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: e426cae9-8c39-44cf-bd48-3b385fdfbdf7
 ms.date: 12/05/2018
 ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], INetFwServiceRestriction interface [ICS/ICF],described, ics.inetfwservicerestriction, netfw/INetFwServiceRestriction
-f1_keywords:
-- netfw/INetFwServiceRestriction
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwServiceRestriction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwServiceRestriction
+ - netfw/INetFwServiceRestriction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwServiceRestriction
 ---
 
 # INetFwServiceRestriction interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetFwServiceRestriction</b> interface provides access to the Windows Service Hardening networking rules.
-
 
 ## -inheritance
 
@@ -115,29 +114,17 @@ Retrieves the collection of Windows Service Hardening network rules
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 When adding rules, note that there may be a small time lag before the newly-added rule is applied.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

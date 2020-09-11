@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoDecoder1::GetProtectedResourceSession
 f1_keywords:
+ - ID3D12VideoDecoder1::GetProtectedResourceSession
  - d3d12video/ID3D12VideoDecoder1::GetProtectedResourceSession
 dev_langs:
  - c++

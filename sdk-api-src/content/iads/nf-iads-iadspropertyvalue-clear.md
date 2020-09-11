@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 1662f507-6e1c-4f44-a40d-0eccd8091c51
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [ADSI], Clear method [ADSI],IADsPropertyValue interface, IADsPropertyValue interface [ADSI],Clear method, IADsPropertyValue.Clear, IADsPropertyValue::Clear, _ds_iadspropertyvalue_clear, adsi.iadspropertyvalue__clear, adsi.iadspropertyvalue_clear, iads/IADsPropertyValue::Clear
-f1_keywords:
-- iads/IADsPropertyValue.Clear
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPropertyValue.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPropertyValue::Clear
+ - iads/IADsPropertyValue::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPropertyValue.Clear
 ---
 
 # IADsPropertyValue::Clear
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsPropertyValue::Clear</b> method clears the current values of the property value object.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 None
 
@@ -202,14 +189,7 @@ Cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -220,7 +200,4 @@ Cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">IADsPropertyValue Property Methods</a>
- 
-
- 
 

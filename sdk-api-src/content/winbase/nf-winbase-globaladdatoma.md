@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globaladdatom.htm
 ms.date: 12/05/2018
 ms.keywords: GlobalAddAtom, GlobalAddAtom function [Data Exchange], GlobalAddAtomA, GlobalAddAtomW, _win32_GlobalAddAtom, _win32_globaladdatom_cpp, dataxchg.globaladdatom, winbase/GlobalAddAtom, winbase/GlobalAddAtomA, winbase/GlobalAddAtomW, winui._win32_globaladdatom
-f1_keywords:
-- winbase/GlobalAddAtom
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-atoms-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GlobalAddAtom
-- GlobalAddAtomA
-- GlobalAddAtomW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GlobalAddAtomA
+ - winbase/GlobalAddAtomA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-atoms-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GlobalAddAtom
+ - GlobalAddAtomA
+ - GlobalAddAtomW
 ---
 
 # GlobalAddAtomA function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds a character string to the global atom table and returns a unique value (an atom) identifying the string. 
-
+Adds a character string to the global atom table and returns a unique value (an atom) identifying the string.
 
 ## -parameters
-
-
-
 
 ### -param lpString [in]
 
@@ -69,25 +65,17 @@ Type: <b>LPCTSTR</b>
 
 The null-terminated string to be added. The string can have a maximum size of 255 bytes. Strings that differ only in case are considered identical. The case of the first string of this name added to the table is preserved and returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalgetatomnamea">GlobalGetAtomName</a> function.
 
-Alternatively, you can use an integer atom that has been converted using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a> macro. See the Remarks for more information. 
-
+Alternatively, you can use an integer atom that has been converted using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a> macro. See the Remarks for more information.
 
 ## -returns
-
-
 
 Type: <b>ATOM</b>
 
 If the function succeeds, the return value is the newly created atom.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If the string already exists in the global atom table, the atom for the existing string is returned and the atom's reference count is incremented. 
 
@@ -110,9 +98,6 @@ If
 > The winbase.h header defines GlobalAddAtom as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addatomw">AddAtom</a>
 
@@ -147,7 +132,4 @@ If
 
 
 <b>Reference</b>
- 
-
- 
 

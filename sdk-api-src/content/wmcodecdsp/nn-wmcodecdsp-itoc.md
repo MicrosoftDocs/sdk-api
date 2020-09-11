@@ -1,19 +1,13 @@
 ---
 UID: NN:wmcodecdsp.IToc
 title: IToc (wmcodecdsp.h)
-
 description: The IToc interface represents an individual table of contents. It provides methods for adding entries to, and removing entries from the table of contents.
 helpviewer_keywords: ["IToc","IToc interface [Media Foundation]","IToc interface [Media Foundation]","described","codecapi.itoc","mf.itoc","wmcodecdsp/IToc"]
 old-location: mf\itoc.htm
 tech.root: mf
 ms.assetid: b12d38c7-b80e-4ca8-9ac5-a116100911d0
-
 ms.date: 12/05/2018
 ms.keywords: IToc, IToc interface [Media Foundation], IToc interface [Media Foundation],described, codecapi.itoc, mf.itoc, wmcodecdsp/IToc
-f1_keywords: 
- - "wmcodecdsp/IToc"
-dev_langs:
- - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -31,6 +25,15 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - IToc
+ - wmcodecdsp/IToc
+dev_langs:
+ - c++
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +43,6 @@ api_location:
  - wmvdspa.dll
 api_name:
  - IToc
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # IToc interface
@@ -51,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IToc</b> interface represents an individual table of contents. It provides methods for adding  entries to, and removing entries from the table of contents.
-
-
-
 
 ## -inheritance
 
@@ -171,20 +166,13 @@ Associates a descriptor with the table of contents.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
- 
-
- 
 

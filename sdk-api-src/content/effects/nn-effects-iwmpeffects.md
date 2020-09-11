@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba
 ms.date: 12/05/2018
 ms.keywords: EffectsInterface, IWMPEffects, IWMPEffects interface [Windows Media Player], IWMPEffects interface [Windows Media Player],described, effects/IWMPEffects, wmp.iwmpeffects
-f1_keywords:
-- effects/IWMPEffects
-dev_langs:
-- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- effects.h
-api_name:
-- IWMPEffects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEffects
+ - effects/IWMPEffects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - effects.h
+api_name:
+ - IWMPEffects
 ---
 
 # IWMPEffects interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The IWMPEffects interface.
-
 
 ## -inheritance
 
@@ -167,16 +166,13 @@ Sets the current preset by number.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/custom-visualization-programming-reference">Custom Visualization Programming Reference</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
+

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3f75f4d7-5bb3-4fc4-aefa-32e52d1ab85e
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_MaySaveChanges method, IBrowserService2._MaySaveChanges, IBrowserService2::_MaySaveChanges, _MaySaveChanges, _MaySaveChanges method [Windows Shell], _MaySaveChanges method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_MaySaveChanges, shell.IBrowserService2__MaySaveChanges, zone_IBrowserService2__MaySaveChanges
-f1_keywords:
-- shdeprecated/IBrowserService2._MaySaveChanges
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._MaySaveChanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_MaySaveChanges
+ - shdeprecated/IBrowserService2::_MaySaveChanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._MaySaveChanges
 ---
 
 # IBrowserService2::_MaySaveChanges
@@ -50,24 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Enables the base class to check whether the browser view needs to save changes before closing.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

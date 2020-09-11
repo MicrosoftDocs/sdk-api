@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c95afa36-879b-4fd5-bf92-0b9b93c708ef
 ms.date: 12/05/2018
 ms.keywords: GetAudioLanguage, GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioLanguage method, IDvdInfo2.GetAudioLanguage, IDvdInfo2::GetAudioLanguage, IDvdInfo2GetAudioLanguage, dshow.idvdinfo2_getaudiolanguage, strmif/IDvdInfo2::GetAudioLanguage
-f1_keywords:
-- strmif/IDvdInfo2.GetAudioLanguage
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetAudioLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetAudioLanguage
+ - strmif/IDvdInfo2::GetAudioLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetAudioLanguage
 ---
 
 # IDvdInfo2::GetAudioLanguage
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetAudioLanguage</code> method retrieves the language of the specified audio stream within the current title.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulStream [in]
 
 Audio stream number for the language being retrieved.
 
-
 ### -param pLanguage [out]
 
 Receives the language information.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -139,14 +128,8 @@ DVD Navigator is not in a valid domain.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method does not return languages for menus. It sets the value pointed to by <i>pLanguage</i> to zero if the stream contains an unknown language. Call the <b>GetLocaleInfo</b> function to create a human-readable string name from <i>pLanguage</i>:
 
@@ -175,12 +158,7 @@ if (SUCCEEDED(hr))
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -191,7 +169,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
 

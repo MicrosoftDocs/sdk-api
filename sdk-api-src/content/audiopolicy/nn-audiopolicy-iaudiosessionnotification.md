@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 69222168-87d7-4f5a-93b1-6d91263a54bd
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], IAudioSessionNotification interface [Core Audio],described, audiopolicy/IAudioSessionNotification, coreaudio.iaudiosessionnotification
-f1_keywords:
-- audiopolicy/IAudioSessionNotification
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audiopolicy.h
-api_name:
-- IAudioSessionNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionNotification
+ - audiopolicy/IAudioSessionNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audiopolicy.h
+api_name:
+ - IAudioSessionNotification
 ---
 
 # IAudioSessionNotification interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioSessionNotification</b> interface provides  notification when an audio session is created.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Notifies the registered processes that the audio session has been created.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Unlike the other WASAPI interfaces, which are implemented by the WASAPI system component, the <b>IAudioSessionNotification</b> interface is implemented by the application. To receive event notifications, the application passes to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registersessionnotification">IAudioSessionManager2::RegisterSessionNotification</a> method a pointer to its <b>IAudioSessionNotification</b> implementation .
 
@@ -172,17 +168,7 @@ public:
 };
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
- 
-
- 
 

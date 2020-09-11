@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 2f4e1ddc-7991-4091-9889-fdd2d75e702f
 ms.date: 12/05/2018
 ms.keywords: '*PMPRAPI_OBJECT_HEADER, MPRAPI_MPR_SERVER_OBJECT_REVISION_1, MPRAPI_MPR_SERVER_SET_CONFIG_OBJECT_REVISION_1, MPRAPI_OBJECT_HEADER, MPRAPI_OBJECT_HEADER structure [RAS], MPRAPI_RAS_CONNECTION_OBJECT_REVISION_1, PMPRAPI_OBJECT_HEADER, PMPRAPI_OBJECT_HEADER structure pointer [RAS], mprapi/MPRAPI_OBJECT_HEADER, mprapi/PMPRAPI_OBJECT_HEADER, rras.mprapi_object_header'
-f1_keywords:
-- mprapi/MPRAPI_OBJECT_HEADER
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- MPRAPI_OBJECT_HEADER
 targetos: Windows
 req.typenames: MPRAPI_OBJECT_HEADER, *PMPRAPI_OBJECT_HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MPRAPI_OBJECT_HEADER
+ - mprapi/_MPRAPI_OBJECT_HEADER
+ - PMPRAPI_OBJECT_HEADER
+ - mprapi/PMPRAPI_OBJECT_HEADER
+ - MPRAPI_OBJECT_HEADER
+ - mprapi/MPRAPI_OBJECT_HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - MPRAPI_OBJECT_HEADER
 ---
 
 # MPRAPI_OBJECT_HEADER structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The [RAS_UPDATE_CONNECTION](https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection), <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenumex">MprAdminConnectionEnumEx</a> method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field revision
 
@@ -115,30 +115,15 @@ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/
 
 The size, in bytes,  of the structure based on <b>type</b> and <b>revision</b>.
 
-
 ### -field type
-
- 
-
 
 ### -field size
 
- 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
- 
-
- 
 

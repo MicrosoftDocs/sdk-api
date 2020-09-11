@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 927865ff-f3c4-4863-913e-cfffb7bbdbb2
 ms.date: 12/05/2018
 ms.keywords: AddDirectedTarget, AddDirectedTarget method [VSS], AddDirectedTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDirectedTarget method, IVssComponent.AddDirectedTarget, IVssComponent::AddDirectedTarget, _win32_ivsscomponent_adddirectedtarget, base.ivsscomponent_adddirectedtarget, vswriter/IVssComponent::AddDirectedTarget
-f1_keywords:
-- vswriter/IVssComponent.AddDirectedTarget
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.AddDirectedTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::AddDirectedTarget
+ - vswriter/IVssComponent::AddDirectedTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.AddDirectedTarget
 ---
 
 # IVssComponent::AddDirectedTarget
 
 
 ## -description
-
 
 The 
 <b>AddDirectedTarget</b> method allows a writer to indicate at restore time that when a file is to be restored, it (the source file) should be remapped. The file can be restored to a new restore location and/or ranges of its data restored to different offsets within the restore location.
@@ -59,21 +59,15 @@ This method can be called by a writer only during a restore operation.
 This method cannot be called while handling a 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>) or <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>) event.
 
-
 ## -parameters
-
-
-
 
 ### -param wszSourcePath [in]
 
 Null-terminated wide character string containing the path to the directory at restore time containing the file to be restored (the source file). This path should match or be beneath the path of a file set already in the component (or one of its subcomponents if the component defines a component set).
 
-
 ### -param wszSourceFilename [in]
 
 Null-terminated wide character string containing the name of the file (at backup time) that will be remapped at restore time (the source file). The name of the file (<i>wszSourceFilename</i>) cannot contain wildcard characters (* or ?) and must be consistent with the file specification of a file set containing the source path (<i>wszSourcePath</i>).
-
 
 ### -param wszSourceRangeList [in]
 
@@ -84,16 +78,13 @@ A null-terminated wide character string containing a comma-separated list of fil
 
 The number and length of the source file support ranges must match the number and size of destination file support ranges.
 
-
 ### -param wszDestinationPath [in]
 
 Null-terminated wide character string containing the path to which source file data will be remapped at restore time.
 
-
 ### -param wszDestinationFilename [in]
 
 Null-terminated wide character string containing the name of the file to which source file data will be remapped at restore time. The name of the file (<i>wszDestinationFilename</i>) cannot contain wildcard characters (* or ?).
-
 
 ### -param wszDestinationRangeList [in]
 
@@ -104,10 +95,7 @@ A null-terminated wide character string containing a comma-separated list of fil
 
 The number and length of the destination file support ranges must match the number and size of source file support ranges.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -161,14 +149,8 @@ This method was not called by a writer or, if called by a writer, it either was 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only a writer can call 
 <b>AddDirectedTarget</b>, and only during restore operations.
@@ -192,13 +174,7 @@ Partial files may be added as directed targets, if the partial file ranges to be
 In this case, the requester retrieves the directed target information by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">IVssComponent::GetDirectedTarget</a> method and uses that to implement the remapping of the backed-up data during restore.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
@@ -209,7 +185,4 @@ In this case, the requester retrieves the directed target information by calling
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>
- 
-
- 
 

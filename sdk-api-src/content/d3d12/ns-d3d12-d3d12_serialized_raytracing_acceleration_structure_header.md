@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 229AF9C0-DB24-4C11-A87D-15746B1544E7
 ms.date: 12/05/2018
 ms.keywords: D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER structure, PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER structure pointer, d3d12/D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, d3d12/PD3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER, direct3d12.d3d12_serialized_raytracing_acceleration_structure_header
-f1_keywords:
-- d3d12/D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
 targetos: Windows
 req.typenames: D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
+ - d3d12/D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER
 ---
 
 # D3D12_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER structure
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the header for a serialized raytracing acceleration structure.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DriverMatchingIdentifier
 
-The driver-matching identifier. 
-
+The driver-matching identifier.
 
 ### -field SerializedSizeInBytesIncludingHeader
 
 The size of serialized data.
 
-
 ### -field DeserializedSizeInBytes
 
 Size of the memory that will be consumed when the acceleration structure is deserialized.  This value is less than or equal to the size of the original acceleration structure before it was serialized.
-
 
 ### -field NumBottomLevelAccelerationStructurePointersAfterHeader
 

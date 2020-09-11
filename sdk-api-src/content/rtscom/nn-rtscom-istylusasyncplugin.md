@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: bf961d70-2576-493b-a34d-c7c72b6c0234
 ms.date: 12/05/2018
 ms.keywords: IStylusAsyncPlugin, IStylusAsyncPlugin interface [Tablet PC], IStylusAsyncPlugin interface [Tablet PC],described, bf961d70-2576-493b-a34d-c7c72b6c0234, rtscom/IStylusAsyncPlugin, tablet.istylusasyncplugin
-f1_keywords:
-- rtscom/IStylusAsyncPlugin
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStylusAsyncPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStylusAsyncPlugin
+ - rtscom/IStylusAsyncPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStylusAsyncPlugin
 ---
 
 # IStylusAsyncPlugin interface
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Represents an asynchronous plug-in that can be added to the asynchronous plug-in collection of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
-
-
-
 ## -remarks
-
-
 
 This is the asynchronous version of <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>.
 
@@ -66,13 +60,7 @@ This plug-in receives notifications of <a href="https://docs.microsoft.com/windo
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> is an example of a plug-in that implements the <b>IStylusAsyncPlugin</b> interface in order to respond in a timely fashion to the stylus. In some circumstances, such as when large numbers of gestures are subscribed to, the response time in the gesture recognizer becomes excessively slow. To avoid this problem, the <b>GestureRecognizer Class</b> implements the <b>IStylusAsyncPlugin</b> interface so that it can be called asynchronously.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
@@ -91,7 +79,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>
- 
-
- 
 

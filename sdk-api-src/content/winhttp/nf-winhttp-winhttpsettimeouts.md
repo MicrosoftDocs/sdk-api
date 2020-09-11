@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: e31fee78-44bd-41cd-a181-bb3c0418b469
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts
-f1_keywords:
-- winhttp/WinHttpSetTimeouts
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpSetTimeouts
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpSetTimeouts
+ - winhttp/WinHttpSetTimeouts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpSetTimeouts
 ---
 
 # WinHttpSetTimeouts function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpSetTimeouts</b> function sets time-outs involved with HTTP transactions.
 
-
 ## -parameters
-
-
-
 
 ### -param hInternet [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>.
 
 ### -param nResolveTimeout [in]
 
@@ -70,27 +65,21 @@ A value of type integer that specifies the time-out value, in milliseconds, to u
 
 <b>Windows Vista and Windows XP:  </b>If DNS timeout is specified using NAME_RESOLUTION_TIMEOUT, there is an overhead of one thread per request.
 
-
 ### -param nConnectTimeout [in]
 
 A value of type integer that specifies the time-out value, in milliseconds, to use for server connection requests. If a connection request takes longer than this time-out value, the request is canceled. The initial value is 60,000 (60 seconds).
 
 TCP/IP can time out while setting up the socket during the three leg SYN/ACK exchange, regardless of the value of this parameter.
 
-
 ### -param nSendTimeout [in]
 
 A value of type integer that specifies the time-out value, in milliseconds, to use for sending requests. If sending a request takes longer than this time-out value, the send is canceled. The initial value is 30,000 (30 seconds).
-
 
 ### -param nReceiveTimeout [in]
 
 A value of type integer that specifies the time-out value, in milliseconds, to receive a response to a request. If a response takes longer than this time-out value, the request is canceled. The initial value is 30,000 (30 seconds).
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -156,14 +145,8 @@ One or more of the timeout parameters has a negative value other than -1.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -205,14 +188,7 @@ This example shows how to set new time-out values using
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -235,7 +211,4 @@ This example shows how to set new time-out values using
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
- 
-
- 
 

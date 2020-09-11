@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: D3C5E48A-A062-430A-A196-CAC621F346FC
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory4, IDWriteFactory4 interface [Direct Write], IDWriteFactory4 interface [Direct Write],described, directwrite.idwritefactory4, dwrite_3/IDWriteFactory4
-f1_keywords:
-- dwrite_3/IDWriteFactory4
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFactory4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFactory4
+ - dwrite_3/IDWriteFactory4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory4
 ---
 
 # IDWriteFactory4 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The root factory interface for all DirectWrite objects.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Translates a glyph run to a sequence of color glyph runs, which can be rendered 
 
 </td>
 </tr>
-</table> 
+</table>
 

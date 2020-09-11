@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 11390693-0ab3-4f8b-9209-bc0bceb98032
 ms.date: 12/05/2018
 ms.keywords: WNetConnectionDialog1, WNetConnectionDialog1 function [Windows Networking (WNet)], WNetConnectionDialog1A, WNetConnectionDialog1W, _win32_wnetconnectiondialog1, winnetwk/WNetConnectionDialog1, winnetwk/WNetConnectionDialog1A, winnetwk/WNetConnectionDialog1W, wnet.wnetconnectiondialog1
-f1_keywords:
-- winnetwk/WNetConnectionDialog1
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-- API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
-api_name:
-- WNetConnectionDialog1
-- WNetConnectionDialog1A
-- WNetConnectionDialog1W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetConnectionDialog1A
+ - winnetwk/WNetConnectionDialog1A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+ - API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
+api_name:
+ - WNetConnectionDialog1
+ - WNetConnectionDialog1A
+ - WNetConnectionDialog1W
 ---
 
 # WNetConnectionDialog1A function
@@ -52,26 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetConnectionDialog1</b> function brings up a general browsing dialog for connecting to network resources. The function requires a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-connectdlgstructa">CONNECTDLGSTRUCT</a> to establish the dialog box parameters.
 
-
 ## -parameters
-
-
-
 
 ### -param lpConnDlgStruct [in, out]
 
 Pointer to a 
 <b>CONNECTDLGSTRUCT</b> structure. The structure establishes the browsing dialog parameters.
 
-
 ## -returns
-
-
 
 If the user cancels the dialog box, the function returns –1. If the function is successful, it returns NO_ERROR. Also, if the call is successful, the <b>dwDevNum</b> member of the 
 <b>CONNECTDLGSTRUCT</b> structure contains the number of the connected device.
@@ -168,15 +161,8 @@ A network-specific error occurred. Call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-connectdlgstructa">CONNECTDLGSTRUCT</a>
 
@@ -201,9 +187,6 @@ A network-specific error occurred. Call
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 
 ## -remarks
 

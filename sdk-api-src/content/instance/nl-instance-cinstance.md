@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: aed29340-eb64-437d-b7e8-4f0e49c8288a
 ms.date: 12/05/2018
 ms.keywords: CInstance, CInstance class [Windows Management Instrumentation], CInstance class [Windows Management Instrumentation],described, _hmm_cinstance, instance/CInstance, wmi.cinstance
-f1_keywords:
-- instance/CInstance
-dev_langs:
-- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CInstance
+ - instance/CInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CInstance
 ---
 
 # CInstance class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>CInstance</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -381,12 +381,9 @@ Sets a <b>WORD</b> property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The destructor for this class is <b>CInstance::~CInstance</b>.
 
@@ -538,7 +535,4 @@ WCHAR
 </td>
 </tr>
 </table>
- 
-
-
 

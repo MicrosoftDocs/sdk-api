@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetextent.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetExtent method, ITextHost.TxGetExtent, ITextHost::TxGetExtent, TxGetExtent, TxGetExtent method [Windows Controls], TxGetExtent method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetExtent, _win32_ITextHost_TxGetExtent_cpp, controls.ITextHost_TxGetExtent, controls._win32_ITextHost_TxGetExtent, textserv/ITextHost::TxGetExtent
-f1_keywords:
-- textserv/ITextHost.TxGetExtent
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxGetExtent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxGetExtent
+ - textserv/ITextHost::TxGetExtent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxGetExtent
 ---
 
 # ITextHost::TxGetExtent
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests the native size of the control in HIMETRIC.
 
-
 ## -parameters
-
-
-
 
 ### -param lpExtent
 
 Type: <b>LPSIZEL</b>
 
-The size of the control in HIMETRIC, that is, where the unit is .01 millimeter. 
-
+The size of the control in HIMETRIC, that is, where the unit is .01 millimeter.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -92,14 +85,8 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is used by the text services object to implement zooming. The text services object derives the zoom factor from the ratio between the himetric and device pixel extent of the client rectangle. Each HIMETRIC unit corresponds to 0.01 millimeter.
 
@@ -107,13 +94,7 @@ This method is used by the text services object to implement zooming. The text s
 
 If the vertical and horizontal zoom factors are not the same, the text services object can ignore the horizontal zoom factor and assume it is the same as the vertical one.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -132,7 +113,4 @@ If the vertical and horizontal zoom factors are not the same, the text services 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

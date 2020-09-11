@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: eeb1842f-fd9e-4edf-9db8-7b4e91760e9b
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_OVERWRITE_KEY_FLAG, NCryptCreatePersistedKey, NCryptCreatePersistedKey function [Security], ncrypt/NCryptCreatePersistedKey, security.ncryptcreatepersistedkey_func
-f1_keywords:
-- ncrypt/NCryptCreatePersistedKey
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptCreatePersistedKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptCreatePersistedKey
+ - ncrypt/NCryptCreatePersistedKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptCreatePersistedKey
 ---
 
 # NCryptCreatePersistedKey function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptCreatePersistedKey</b> function creates a new key and stores it in the specified key storage provider. After you create a key by using this function, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsetproperty">NCryptSetProperty</a> function to set its properties; however, the key cannot be used until the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function is called.
 
-
 ## -parameters
-
-
-
 
 ### -param hProvider [in]
 
 The handle of the key storage provider to create the key in. This handle is obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
-
 ### -param phKey [out]
 
 The address of an <b>NCRYPT_KEY_HANDLE</b> variable that receives the handle of the key. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
-
 
 ### -param pszAlgId [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic algorithm to create the key. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
 
-
 ### -param pszKeyName [in, optional]
 
 A pointer to a null-terminated Unicode string that contains the name of the key. If this parameter is <b>NULL</b>, this function will create an ephemeral key that is not persisted.
-
 
 ### -param dwLegacyKeySpec [in]
 
@@ -119,8 +111,6 @@ The key is none of the above types.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -152,12 +142,8 @@ If a key already exists in the container with the specified name, the existing k
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -238,33 +224,18 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are creating an RSA key pair, you can also have the key stored in legacy storage so that it can be used with the CryptoAPI by passing the <b>NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG</b> flag to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function when the key is finalized.
 
 A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptdeletekey">NCryptDeleteKey</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a>
- 
-
- 
 

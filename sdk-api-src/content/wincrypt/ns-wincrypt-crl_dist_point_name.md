@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f47283c3-34f5-4611-b041-456d28d85dbe
 ms.date: 12/05/2018
 ms.keywords: '*PCRL_DIST_POINT_NAME, CRL_DIST_POINT_FULL_NAME, CRL_DIST_POINT_ISSUER_RDN_NAME, CRL_DIST_POINT_NAME, CRL_DIST_POINT_NAME structure [Security], CRL_DIST_POINT_NO_NAME, PCRL_DIST_POINT_NAME, PCRL_DIST_POINT_NAME structure pointer [Security], _crypto2_crl_dist_point_name, security.crl_dist_point_name, wincrypt/CRL_DIST_POINT_NAME, wincrypt/PCRL_DIST_POINT_NAME'
-f1_keywords:
-- wincrypt/CRL_DIST_POINT_NAME
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRL_DIST_POINT_NAME
 targetos: Windows
 req.typenames: CRL_DIST_POINT_NAME, *PCRL_DIST_POINT_NAME
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRL_DIST_POINT_NAME
+ - wincrypt/_CRL_DIST_POINT_NAME
+ - PCRL_DIST_POINT_NAME
+ - wincrypt/PCRL_DIST_POINT_NAME
+ - CRL_DIST_POINT_NAME
+ - wincrypt/CRL_DIST_POINT_NAME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRL_DIST_POINT_NAME
 ---
 
 # CRL_DIST_POINT_NAME structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRL_DIST_POINT_NAME</b> structure identifies a location from which the CRL can be obtained. When <b>CRL_DIST_POINT_NAME</b> is used, different forms of the CRL distribution point name appear in the <b>FullName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. An application need not be able to process all of the name forms in the structure. It can use a distribution point if at least one name form can be processed.
 
 If no name forms for a distribution point can be processed, an application can still use the certificate, provided requisite revocation information can be obtained from another source such as a distribution point of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA's) directory entry.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwDistPointNameChoice
 
@@ -105,31 +105,19 @@ Currently not implemented.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.FullName
 
 A
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure containing an array of alternative names specifying the CRL distribution point in one of several different forms. One of the most common uses a URL in the form "http://…" to specify the location of the CRL.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a>
- 
-
- 
 

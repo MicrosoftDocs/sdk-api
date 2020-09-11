@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e9c0053f-263f-4d7b-9356-bc33af989dbe
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security],described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
-f1_keywords:
-- certenc/ICertEncodeCRLDistInfo
-dev_langs:
-- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenc.dll
-api_name:
-- ICertEncodeCRLDistInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertEncodeCRLDistInfo
+ - certenc/ICertEncodeCRLDistInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenc.dll
+api_name:
+ - ICertEncodeCRLDistInfo
 ---
 
 # ICertEncodeCRLDistInfo interface
 
 
 ## -description
-
 
 The <b>ICertEncodeCRLDistInfo</b> interface provides methods for handling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution information arrays used in certificate extensions.
 
@@ -58,7 +58,6 @@ The <b>ICertEncodeCRLDistInfo</b> interface provides methods for handling <a hre
 <b>ICertEncodeCRLDistInfo</b> is defined in Certenc.h. When you create your program, however, use Certsrv.h as the include file. Certenc.dll provides the <b>ICertEncodeCRLDistInfo</b> interface. The type information for this interface is also in Certencl.dll, which is shipped with the Platform Software Development Kit (SDK).
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -156,5 +155,5 @@ Sets the name and name choice at a specified index of a distribution point in a 
 
 </td>
 </tr>
-</table> 
+</table>
 

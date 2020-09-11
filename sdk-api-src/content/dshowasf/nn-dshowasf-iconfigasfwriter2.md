@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fd931a95-3678-46de-8f17-9e7c27087398
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], IConfigAsfWriter2 interface [DirectShow],described, IConfigAsfWriter2Interface, dshow.iconfigasfwriter2, dshowasf/IConfigAsfWriter2
-f1_keywords:
-- dshowasf/IConfigAsfWriter2
-dev_langs:
-- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dshowasf.h
-api_name:
-- IConfigAsfWriter2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConfigAsfWriter2
+ - dshowasf/IConfigAsfWriter2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dshowasf.h
+api_name:
+ - IConfigAsfWriter2
 ---
 
 # IConfigAsfWriter2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IConfigAsfWriter2</code> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a> interface, which configures the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. The <code>IConfigAsfWriter2</code> interface provides additional methods to support the capabilities introduced in the Windows Media Format 9 Series SDK, such as two-pass encoding and support for interlaced output.
-
-
-
 
 ## -inheritance
 
@@ -107,20 +103,13 @@ Retrieves the stream number associated with the specified input pin.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a>
- 
-
- 
 

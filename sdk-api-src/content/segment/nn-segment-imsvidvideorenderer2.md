@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: caaa2cf1-15be-47dc-82db-06915a55ba03
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2, IMSVidVideoRenderer2 interface [Microsoft TV Technologies], IMSVidVideoRenderer2 interface [Microsoft TV Technologies],described, IMSVidVideoRenderer2Interface, mstv.imsvidvideorenderer2, segment/IMSVidVideoRenderer2
-f1_keywords:
-- segment/IMSVidVideoRenderer2
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidVideoRenderer2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidVideoRenderer2
+ - segment/IMSVidVideoRenderer2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidVideoRenderer2
 ---
 
 # IMSVidVideoRenderer2 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMSVidVideoRenderer2</b> interface represents a video renderer device. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object exposes this interface.
 
 This interface provides access to the Video Mixing Renderer (VMR) filter. It inherits the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface and adds support for custom allocator-presenters.
-
-
-
 
 ## -inheritance
 
@@ -136,22 +132,13 @@ Specifies an allocator-presenter for the VMR as an <b>IUnknown</b> pointer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidVideoRenderer2)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>
 
@@ -162,7 +149,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
 

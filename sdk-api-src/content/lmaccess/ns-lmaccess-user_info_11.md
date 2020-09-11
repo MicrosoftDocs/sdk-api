@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 718e7143-a6df-4912-954c-cc63bb490044
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_11, *PUSER_INFO_11, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_11, LPUSER_INFO_11 structure pointer [Network Management], PUSER_INFO_11, PUSER_INFO_11 structure pointer [Network Management], USER_INFO_11, USER_INFO_11 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _win32_user_info_11_str, lmaccess/LPUSER_INFO_11, lmaccess/PUSER_INFO_11, lmaccess/USER_INFO_11, netmgmt.user_info_11_str'
-f1_keywords:
-- lmaccess/USER_INFO_11
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- USER_INFO_11
 targetos: Windows
 req.typenames: USER_INFO_11, *PUSER_INFO_11, *LPUSER_INFO_11
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USER_INFO_11
+ - lmaccess/_USER_INFO_11
+ - PUSER_INFO_11
+ - lmaccess/PUSER_INFO_11
+ - USER_INFO_11
+ - lmaccess/USER_INFO_11
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - USER_INFO_11
 ---
 
 # USER_INFO_11 structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USER_INFO_11</b> structure contains information about a user account, including the account name, privilege level, the path to the user's home directory, and other user-related network statistics.
 
-
 ## -struct-fields
-
-
-
 
 ### -field usri11_name
 
@@ -66,13 +66,11 @@ Type: <b>LPWSTR</b>
 A pointer to a Unicode character that specifies the name of the user account. Calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function ignore this member. For more information, see the following Remarks section.
 
-
 ### -field usri11_comment
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains a comment associated with the user account. This string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character.
-
 
 ### -field usri11_usr_comment
 
@@ -80,13 +78,11 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains a user comment. This string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character.
 
-
 ### -field usri11_full_name
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains the full name of the user. This string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character.
-
 
 ### -field usri11_priv
 
@@ -137,8 +133,6 @@ Administrator
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri11_auth_flags
 
@@ -215,8 +209,6 @@ The accounts operator privilege is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri11_password_age
 
@@ -226,20 +218,17 @@ The number of seconds that have elapsed since the <b>usri11_password</b> member 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
 
-
 ### -field usri11_home_dir
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string specifying the path of the home directory for the user specified in the <b>usri11_name</b> member. The string can be <b>NULL</b>.
 
-
 ### -field usri11_parms
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that is reserved for use by applications. This string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character. Microsoft products use this member to store user configuration information. Do not modify this information.
-
 
 ### -field usri11_last_logon
 
@@ -253,7 +242,6 @@ The date and time when the last logon occurred. This value is stored as the numb
 
 
 This member is maintained separately on each backup domain controller (BDC) in the domain. To obtain an accurate value, you must query each BDC in the domain. The last logon occurred at the time indicated by the largest retrieved value.
-
 
 ### -field usri11_last_logoff
 
@@ -270,7 +258,6 @@ The date and time when the last logoff occurred. This value is stored as the num
 
 This member is maintained separately on each backup domain controller (BDC) in the domain. To obtain an accurate value, you must query each BDC in the domain. The last logoff occurred at the time indicated by the largest retrieved value.
 
-
 ### -field usri11_bad_pw_count
 
 Type: <b>DWORD</b>
@@ -284,7 +271,6 @@ The number of times the user tried to log on to this account using an incorrect 
 
 This member is replicated from the primary domain controller (PDC); it is also maintained on each backup domain controller (BDC) in the domain. To obtain an accurate value, you must query each BDC in the domain. The number of times the user tried to log on using an incorrect password is the largest value retrieved.
 
-
 ### -field usri11_num_logons
 
 Type: <b>DWORD</b>
@@ -297,7 +283,6 @@ The number of times the user has logged on successfully to this account. A value
 
 
 This member is maintained separately on each backup domain controller (BDC) in the domain. To obtain an accurate value, you must query each BDC in the domain. The number of times the user logged on successfully is the sum of the retrieved values.
-
 
 ### -field usri11_logon_server
 
@@ -314,13 +299,11 @@ For Windows servers,
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
 
-
 ### -field usri11_country_code
 
 Type: <b>DWORD</b>
 
 The country/region code for the user's language of choice.
-
 
 ### -field usri11_workstations
 
@@ -328,13 +311,11 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains the names of workstations from which the user can log on. As many as eight workstations can be specified; the names must be separated by commas. A <b>NULL</b> string indicates that there is no restriction. To disable logons from all workstations to this account, set the UF_ACCOUNTDISABLE value in the <b>usri11_flags</b> member.
 
-
 ### -field usri11_max_storage
 
 Type: <b>DWORD</b>
 
 The maximum amount of disk space the user can use. Specify USER_MAXSTORAGE_UNLIMITED to use all available disk space.
-
 
 ### -field usri11_units_per_week
 
@@ -351,7 +332,6 @@ This member must be UNITS_PER_WEEK for LAN Manager 2.0. This element is ignored 
 
 For service applications, the units must be one of the following values: SAM_DAYS_PER_WEEK, SAM_HOURS_PER_WEEK, or SAM_MINUTES_PER_WEEK.
 
-
 ### -field usri11_logon_hours
 
 Type: <b>PBYTE</b>
@@ -367,27 +347,17 @@ Specify a <b>NULL</b> pointer in this member when calling the
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> function to indicate no time restriction. Specify a <b>NULL</b> pointer when calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function to indicate that no change is to be made to the times during which the user can log on.
 
-
 ### -field usri11_code_page
 
 Type: <b>DWORD</b>
 
 The code page for the user's language of choice.
 
-
 ## -remarks
-
-
 
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
 
@@ -418,7 +388,4 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

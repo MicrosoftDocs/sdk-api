@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 152067bb-3896-43ef-a882-12a159f92cc7
 ms.date: 12/05/2018
 ms.keywords: GetCurrentHwProfile, GetCurrentHwProfile function, GetCurrentHwProfileA, GetCurrentHwProfileW, _win32_getcurrenthwprofile, base.getcurrenthwprofile, winbase/GetCurrentHwProfile, winbase/GetCurrentHwProfileA, winbase/GetCurrentHwProfileW
-f1_keywords:
-- winbase/GetCurrentHwProfile
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-hwprof-l1-1-0.dll
-api_name:
-- GetCurrentHwProfile
-- GetCurrentHwProfileA
-- GetCurrentHwProfileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentHwProfileW
+ - winbase/GetCurrentHwProfileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-hwprof-l1-1-0.dll
+api_name:
+ - GetCurrentHwProfile
+ - GetCurrentHwProfileA
+ - GetCurrentHwProfileW
 ---
 
 # GetCurrentHwProfileW function
@@ -52,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the current hardware profile for the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param lpHwProfileInfo [out]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-hw_profile_infoa">HW_PROFILE_INFO</a> structure that receives information about the current hardware profile.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>GetCurrentHwProfile</b> function retrieves the display name and globally unique identifier (GUID) string for the hardware profile. The function also retrieves the reported docking state for portable computers with docking stations.
@@ -130,9 +118,6 @@ void main(void)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-configchanged">DBT_CONFIGCHANGED</a>
 
 
@@ -143,7 +128,4 @@ void main(void)
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
- 
-
- 
 

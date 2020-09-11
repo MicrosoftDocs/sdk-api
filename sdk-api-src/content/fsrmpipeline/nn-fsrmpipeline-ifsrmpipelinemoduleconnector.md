@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 7debbe8c-b687-42e1-b9b7-1b5f6f16a159
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], IFsrmPipelineModuleConnector interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleconnector, fsrm.ifsrmpipelinemoduleconnector, fsrmpipeline/IFsrmPipelineModuleConnector
-f1_keywords:
-- fsrmpipeline/IFsrmPipelineModuleConnector
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPipelineModuleConnector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPipelineModuleConnector
+ - fsrmpipeline/IFsrmPipelineModuleConnector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPipelineModuleConnector
 ---
 
 # IFsrmPipelineModuleConnector interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates the communication channel between FSRM and your pipeline module implementation.
 
 Your pipeline module implementation must create this interface and To create this interface, call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileManagementJobManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileManagementJobManager)</code> as the interface identifier.
-
 
 ## -inheritance
 
@@ -155,12 +154,9 @@ The name of the module.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Your 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload">IFsrmPipelineModuleImplementation::OnLoad</a> 
@@ -178,20 +174,11 @@ After the instance has been created,
 For more information on how to create and bind an instance, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/initializing-and-binding-a-pipeline-module">Initializing and Binding a Pipeline Module</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmpipelinemoduleconnector">FsrmPipelineModuleConnector</a>
- 
-
- 
 

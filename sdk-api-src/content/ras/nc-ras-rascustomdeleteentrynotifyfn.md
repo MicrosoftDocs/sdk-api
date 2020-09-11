@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: bbdaff05-ec86-461a-b466-8f69cb9cba5a
 ms.date: 12/05/2018
 ms.keywords: RCD_AllUsers, RCD_Eap, RCD_Logon, RCD_SingleUser, RasCustomDeleteEntryNotify, RasCustomDeleteEntryNotify callback function [RAS], RasCustomDeleteEntryNotifyFn, RasCustomDeleteEntryNotifyFn callback, _ras_rascustomdeleteentrynotify, ras/RasCustomDeleteEntryNotify, rras.rascustomdeleteentrynotify
-f1_keywords:
-- ras/RasCustomDeleteEntryNotify
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ras.h
-api_name:
-- RasCustomDeleteEntryNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasCustomDeleteEntryNotifyFn
+ - ras/RasCustomDeleteEntryNotifyFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ras.h
+api_name:
+ - RasCustomDeleteEntryNotify
 ---
 
 # RasCustomDeleteEntryNotifyFn callback function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <i>RasCustomDeleteEntryNotify</i> function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszPhonebook [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
-
 ### -param lpszEntry [in]
 
 Pointer to a <b>null</b>-terminated string that contains the name of the phone-book entry to dial.
-
 
 ### -param dwFlags [in]
 
@@ -95,20 +89,11 @@ Specifies one or more of the following flags:
 
 #### RCD_Logon (0x00000004)
 
-
 ## -returns
-
-
 
 This function should return value <b>ERROR_SUCCESS</b> if successful.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
 
@@ -139,7 +124,4 @@ This function should return value <b>ERROR_SUCCESS</b> if successful.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

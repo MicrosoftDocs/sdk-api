@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 88b123d8-86aa-40ae-8777-1b33cfbb953a
 ms.date: 12/05/2018
 ms.keywords: EnumItemsInCategory, EnumItemsInCategory method [Text Services Framework], EnumItemsInCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumItemsInCategory method, ITfCategoryMgr.EnumItemsInCategory, ITfCategoryMgr::EnumItemsInCategory, _tsf_itfcategorymgr_enumitemsincategory_ref, msctf/ITfCategoryMgr::EnumItemsInCategory, tsf.itfcategorymgr_enumitemsincategory
-f1_keywords:
-- msctf/ITfCategoryMgr.EnumItemsInCategory
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.EnumItemsInCategory
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::EnumItemsInCategory
+ - msctf/ITfCategoryMgr::EnumItemsInCategory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.EnumItemsInCategory
 ---
 
 # ITfCategoryMgr::EnumItemsInCategory
+
 
 ## -description
 
@@ -118,3 +120,4 @@ There is insufficient memory to perform the operation.
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::EnumCategoriesInItem](nf-msctf-itfcategorymgr-enumcategoriesinitem.md), [ITfCategoryMgr::RegisterCategory](nf-msctf-itfcategorymgr-registercategory.md)
+

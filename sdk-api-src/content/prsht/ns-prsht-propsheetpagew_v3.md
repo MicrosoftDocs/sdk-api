@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPPROPSHEETPAGEW_V3, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure pointer [Windows Controls], PROPSHEETPAGE, PROPSHEETPAGE structure [Windows Controls], PROPSHEETPAGEA, PROPSHEETPAGEW, PROPSHEETPAGEW_LATEST, PROPSHEETPAGEW_V3, PSP_DEFAULT, PSP_DLGINDIRECT, PSP_HASHELP, PSP_HIDEHEADER, PSP_PREMATURE, PSP_RTLREADING, PSP_USECALLBACK, PSP_USEFUSIONCONTEXT, PSP_USEHEADERSUBTITLE, PSP_USEHEADERTITLE, PSP_USEHICON, PSP_USEICONID, PSP_USEREFPARENT, PSP_USETITLE, _win32_PROPSHEETPAGE_str, _win32_PROPSHEETPAGE_str_cpp, controls.PROPSHEETPAGE, controls._win32_PROPSHEETPAGE_str, prsht/LPPROPSHEETPAGE, prsht/PROPSHEETPAGE, prsht/PROPSHEETPAGEA, prsht/PROPSHEETPAGEW'
-f1_keywords:
-- prsht/PROPSHEETPAGE
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PROPSHEETPAGE
-- PROPSHEETPAGEA
-- PROPSHEETPAGEW
 targetos: Windows
 req.typenames: PROPSHEETPAGEW_V3, *LPPROPSHEETPAGEW_V3
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROPSHEETPAGEW_V3
+ - prsht/_PROPSHEETPAGEW_V3
+ - LPPROPSHEETPAGEW_V3
+ - prsht/LPPROPSHEETPAGEW_V3
+ - PROPSHEETPAGEW_V3
+ - prsht/PROPSHEETPAGEW_V3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PROPSHEETPAGE
+ - PROPSHEETPAGEA
+ - PROPSHEETPAGEW
 ---
 
 # PROPSHEETPAGEW_V3 structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a page in a property sheet.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszHeaderTitle
 
@@ -340,12 +340,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Title of the property sheet dialog box. This title overrides the title specified in the dialog box template. This member can specify either the identifier of a string resource or the address of a string that specifies the title. To use this member, you must set the PSP_USETITLE flag in the <b>dwFlags</b> member.
 
-
 ## -remarks
 
-
-
 Comctl32.dll version 6 and later are not redistributable. To use Comctl32.dll version 6 or later, specify the .dll file in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
-
 

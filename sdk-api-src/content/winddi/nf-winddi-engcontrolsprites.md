@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 8de02019-6f58-4adc-9589-fdfbf4a062aa
 ms.date: 12/05/2018
 ms.keywords: EngControlSprites, EngControlSprites function [Display Devices], display.engcontrolsprites, gdifncs_b7312326-43ba-4c8b-bb23-db2ecf2d6f6e.xml, winddi/EngControlSprites
-f1_keywords:
-- winddi/EngControlSprites
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngControlSprites
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngControlSprites
+ - winddi/EngControlSprites
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngControlSprites
 ---
 
 # EngControlSprites function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngControlSprites</b> function tears down or redraws sprites on the specified <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> area.
 
-
 ## -parameters
-
-
-
 
 ### -param pwo
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure on which the sprites are being built or torn down.
-
 
 ### -param fl
 
@@ -81,19 +76,11 @@ Requests that GDI tear down and remove the sprite effect of any sprite that over
 
 Requests that GDI redraw, restoring any sprites that overlap the WNDOBJ area. GDI redraws directly to the screen by making calls to <i>DrvCopyBits</i>.
 
-
 ## -returns
-
-
 
 <b>EngControlSprites</b> returns <b>TRUE</b> upon successfully completing the requested operation; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The invocation of ECS_TEARDOWN may be persistent. For example, the driver can call <b>EngControlSprites</b> once with ECS_TEARDOWN as soon as it has created the WNDOBJ, and no sprites will ever be drawn on top of the window.
 
@@ -105,20 +92,11 @@ ECS_TEARDOWN will never cause a WOC_SPRITE_NO_OVERLAP message to be sent, and li
 
 <b>EngControlSprites</b> can be called even if no sprites currently overlap the WNDOBJ area.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>
- 
-
- 
 

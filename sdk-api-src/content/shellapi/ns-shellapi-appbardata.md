@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: cf86fe15-4beb-49b7-b73e-2ad61cedc3f8
 ms.date: 12/05/2018
 ms.keywords: '*PAPPBARDATA, ABE_BOTTOM, ABE_LEFT, ABE_RIGHT, ABE_TOP, APPBARDATA, APPBARDATA structure [Windows Shell], PAPPBARDATA, PAPPBARDATA structure pointer [Windows Shell], _win32_APPBARDATA, shell.APPBARDATA, shellapi/APPBARDATA, shellapi/PAPPBARDATA'
-f1_keywords:
-- shellapi/APPBARDATA
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shellapi.h
-api_name:
-- APPBARDATA
 targetos: Windows
 req.typenames: APPBARDATA, *PAPPBARDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AppBarData
+ - shellapi/_AppBarData
+ - PAPPBARDATA
+ - shellapi/PAPPBARDATA
+ - APPBARDATA
+ - shellapi/APPBARDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shellapi.h
+api_name:
+ - APPBARDATA
 ---
 
 # APPBARDATA structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a system appbar message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
@@ -64,20 +64,17 @@ Type: <b>DWORD</b>
 
 The size of the structure, in bytes.
 
-
 ### -field hWnd
 
 Type: <b>HWND</b>
 
 The handle to the appbar window. Not all messages use this member. See the individual message page to see if you need to provide an <b>hWind</b> value.
 
-
 ### -field uCallbackMessage
 
 Type: <b>UINT</b>
 
 An application-defined message identifier. The application uses the specified identifier for notification messages that it sends to the appbar identified by the <b>hWnd</b> member. This member is used when sending the <a href="https://docs.microsoft.com/windows/desktop/shell/abm-new">ABM_NEW</a> message.
-
 
 ### -field uEdge
 
@@ -132,7 +129,6 @@ Right edge.
 #### ABE_TOP
 
 Top edge.
-
 
 ### -field rc
 

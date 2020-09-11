@@ -8,10 +8,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 20AD2DC4-388E-458E-AA44-8B2F3464FD6C
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService3, IVisualTreeService3 interface, IVisualTreeService3 interface,described, xaml_diagnostics.ivisualtreeservice3, xamlom/IVisualTreeService3
-f1_keywords:
-- xamlom/IVisualTreeService3
-dev_langs:
-- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xamlom.h
-api_name:
-- IVisualTreeService3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVisualTreeService3
+ - xamlom/IVisualTreeService3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xamlom.h
+api_name:
+ - IVisualTreeService3
 ---
 
 # IVisualTreeService3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents additional capabilities of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a> object.
-
 
 ## -inheritance
 
@@ -104,16 +103,9 @@ Resolves a resource for an element in the tree and applies the resource to the p
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>
- 
-
- 
 

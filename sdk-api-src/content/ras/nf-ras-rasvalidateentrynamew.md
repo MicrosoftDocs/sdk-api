@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560
 ms.date: 12/05/2018
 ms.keywords: RasValidateEntryName, RasValidateEntryName function [RAS], RasValidateEntryNameA, RasValidateEntryNameW, \, _ras_rasvalidateentryname, ras/RasValidateEntryName, ras/RasValidateEntryNameA, ras/RasValidateEntryNameW, rras.rasvalidateentryname
-f1_keywords:
-- ras/RasValidateEntryName
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasValidateEntryName
-- RasValidateEntryNameA
-- RasValidateEntryNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasValidateEntryNameW
+ - ras/RasValidateEntryNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasValidateEntryName
+ - RasValidateEntryNameA
+ - RasValidateEntryNameW
 ---
 
 # RasValidateEntryNameW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasValidateEntryName</b> function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -69,7 +65,6 @@ A pointer to a null-terminated string that specifies the full path and file name
 
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
-
 
 ### -param arg2 [in]
 
@@ -170,10 +165,7 @@ colon
 
 <b>Windows 2000 or later:  </b>The entry name cannot begin with a period (".").
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -218,14 +210,8 @@ The format of the specified entry name is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following sample code validates the phone-book entry specified by the variable <i>lpszEntry</i>.
 
@@ -271,9 +257,6 @@ DWORD __cdecl wmain(){
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
 
 
@@ -287,7 +270,4 @@ DWORD __cdecl wmain(){
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

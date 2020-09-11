@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 641a10fe-8e8c-4225-b05e-b09dfb5f2fee
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], IKsTopologyInfo interface [DirectShow],described, IKsTopologyInfoInterface, dshow.ikstopologyinfo, vidcap/IKsTopologyInfo
-f1_keywords:
-- vidcap/IKsTopologyInfo
-dev_langs:
-- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vidcap.h
-api_name:
-- IKsTopologyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKsTopologyInfo
+ - vidcap/IKsTopologyInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vidcap.h
+api_name:
+ - IKsTopologyInfo
 ---
 
 # IKsTopologyInfo interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IKsTopologyInfo</code> interface enumerates the nodes in a stream class driver. The KsProxy filter exposes this interface. Applications can use this interface to examine the internal topology of a kernel-mode filter.
-
-
-
 
 ## -inheritance
 
@@ -143,12 +139,9 @@ Returns the number of nodes in the filter.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 In the Windows Driver Model, a kernel-streaming (KS) filter contains one or more <i>nodes</i>. Each node encapsulates a processing task that is applied to the stream. Nodes have inputs and outputs, which connect either to other nodes in the filter, or else to the filter's pins. In this way, the nodes resemble a miniature "filter graph" inside the filter, which may contain several possible data paths. Applications can use the <code>IKsTopologyInfo</code> interface to get information about the nodes and the node connections.
 
@@ -158,16 +151,7 @@ Some devices also support the <a href="https://docs.microsoft.com/windows/deskto
 
 Include Vidcap.h from the Windows SDK or from the DirectX 9.0 SDK Update (Summer 2004) or later.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-usb-dv-video-devices">Working with USB DV Video Devices</a>
- 
-
- 
 

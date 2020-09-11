@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 49f0f944-49e7-4836-bf56-0fef07f39191
 ms.date: 12/05/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasGetAutodialParam, RasGetAutodialParam function [RAS], RasGetAutodialParamA, RasGetAutodialParamW, _ras_rasgetautodialparam, ras/RasGetAutodialParam, ras/RasGetAutodialParamA, ras/RasGetAutodialParamW, rras.rasgetautodialparam
-f1_keywords:
-- ras/RasGetAutodialParam
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasGetAutodialParam
-- RasGetAutodialParamA
-- RasGetAutodialParamW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetAutodialParamW
+ - ras/RasGetAutodialParamW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasGetAutodialParam
+ - RasGetAutodialParamA
+ - RasGetAutodialParamW
 ---
 
 # RasGetAutodialParamW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetAutodialParam</b> function retrieves the value of an AutoDial parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -124,13 +120,10 @@ The <i>lpvValue</i> parameter points to a <b>DWORD</b> value that indicates a ti
 </td>
 </tr>
 </table>
- 
-
 
 ### -param arg2 [out]
 
 Pointer to a buffer that receives the value for the specified parameter.
-
 
 ### -param arg3 [in, out]
 
@@ -143,10 +136,7 @@ On input, set this value to indicate the size, in bytes, of the <i>lpvValue</i> 
 
 On output, this value indicates the actual size of the value written to the buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -180,15 +170,8 @@ The size specified by the <i>lpdwcbValue</i> is too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a>
 
@@ -203,9 +186,6 @@ The size specified by the <i>lpdwcbValue</i> is too small.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 
 ## -remarks
 

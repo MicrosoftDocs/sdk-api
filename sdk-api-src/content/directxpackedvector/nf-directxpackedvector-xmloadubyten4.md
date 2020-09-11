@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByteN4(const XMUBYTEN4)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByteN4, XMLoadUByteN4, XMLoadUByteN4 method [DirectX Math Support APIs], dxmath.xmloadubyten4
-f1_keywords:
-- directxpackedvector/XMLoadUByteN4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- directxpackedvector.h
-api_name:
-- XMLoadUByteN4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMLoadUByteN4
+ - directxpackedvector/XMLoadUByteN4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - directxpackedvector.h
+api_name:
+ - XMLoadUByteN4
 ---
 
 # XMLoadUByteN4 function
@@ -49,33 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads an <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a> into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pSource [in]
 
 Address of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a> structure to load. This parameter must point to cached
         memory.
 
-
 ## -returns
-
-
 
 Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of the function.
 
@@ -95,16 +83,7 @@ return vectorOut;
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 513341d7-bed8-469c-a067-ee71dc8860f9
 ms.date: 12/05/2018
 ms.keywords: BeginPaint, BeginPaint function [Windows GDI], _win32_BeginPaint, gdi.beginpaint, winuser/BeginPaint
-f1_keywords:
-- winuser/BeginPaint
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
-- ext-ms-win-ntuser-draw-l1-1-2.dll
-api_name:
-- BeginPaint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BeginPaint
+ - winuser/BeginPaint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+api_name:
+ - BeginPaint
 ---
 
 # BeginPaint function
@@ -52,39 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BeginPaint</b> function prepares the specified window for painting and fills a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure with information about the painting.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Handle to the window to be repainted.
 
-
 ### -param lpPaint [out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure that will receive painting information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the handle to a display device context for the specified window.
 
 If the function fails, the return value is <b>NULL</b>, indicating that no display device context is available.
 
-
-
-
 ## -remarks
-
-
 
 The <b>BeginPaint</b> function automatically sets the clipping region of the device context to exclude any area outside the update region. The update region is set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a> function and by the system after sizing, moving, creating, scrolling, or any other operation that affects the client area. If the update region is marked for erasing, <b>BeginPaint</b> sends a <b>WM_ERASEBKGND</b> message to the window.
 
@@ -104,12 +91,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-endpaint">EndPaint</a>
 
@@ -140,7 +122,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a>
- 
-
- 
 

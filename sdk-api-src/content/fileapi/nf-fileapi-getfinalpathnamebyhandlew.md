@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 02783ba9-a8d7-482f-a8b1-7cac934cf476
 ms.date: 12/05/2018
 ms.keywords: FILE_NAME_NORMALIZED, FILE_NAME_OPENED, GetFinalPathNameByHandle, GetFinalPathNameByHandle function [Files], GetFinalPathNameByHandleA, GetFinalPathNameByHandleW, VOLUME_NAME_DOS, VOLUME_NAME_GUID, VOLUME_NAME_NONE, VOLUME_NAME_NT, fileapi/GetFinalPathNameByHandle, fileapi/GetFinalPathNameByHandleA, fileapi/GetFinalPathNameByHandleW, fs.getfinalpathnamebyhandle, fs.getfinalpathnamebyhandlew, winbase/GetFinalPathNameByHandle, winbase/GetFinalPathNameByHandleA, winbase/GetFinalPathNameByHandleW
-f1_keywords:
-- fileapi/GetFinalPathNameByHandle
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFinalPathNameByHandle
-- GetFinalPathNameByHandleA
-- GetFinalPathNameByHandleW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFinalPathNameByHandleW
+ - fileapi/GetFinalPathNameByHandleW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFinalPathNameByHandle
+ - GetFinalPathNameByHandleA
+ - GetFinalPathNameByHandleW
 ---
 
 # GetFinalPathNameByHandleW function
@@ -58,32 +59,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the final path for the specified file.
 
 For more information about file and path names, see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to a file or directory.
 
-
 ### -param lpszFilePath [out]
 
 A pointer to a buffer that receives the path of <i>hFile</i>.
 
-
 ### -param cchFilePath [in]
 
 The size of <i>lpszFilePath</i>, in <b>TCHAR</b>s. This value must include a <b>NULL</b> termination character.
-
 
 ### -param dwFlags [in]
 
@@ -171,12 +164,8 @@ Return the path with the volume device path.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the length of the string received by 
        <i>lpszFilePath</i>, in <b>TCHAR</b>s. This value does not include the 
@@ -239,14 +228,8 @@ Invalid flags were specified for <i>dwFlags</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Server Message Block (SMB) Protocol does not support queries for normalized paths. Consequently, when you call this function passing the handle of a file opened using SMB, and with the FILE_NAME_NORMALIZED flag, the function splits the path into its components and tries to query for the normalized name of each of those components in turn. If the user lacks access permission to any one of those components, then the function call fails with ERROR_ACCESS_DENIED.
 
@@ -381,11 +364,5 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
 

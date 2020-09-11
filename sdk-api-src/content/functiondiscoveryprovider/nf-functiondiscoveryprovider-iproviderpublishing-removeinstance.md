@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 7b4f6122-944e-4fe9-be95-dd09ae1542f1
 ms.date: 12/05/2018
 ms.keywords: IProviderPublishing interface,RemoveInstance method, IProviderPublishing.RemoveInstance, IProviderPublishing::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IProviderPublishing interface, functiondiscoveryprovider/IProviderPublishing::RemoveInstance, ncd.iproviderpublishing_removeinstance_method
-f1_keywords:
-- functiondiscoveryprovider/IProviderPublishing.RemoveInstance
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IProviderPublishing.RemoveInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderPublishing::RemoveInstance
+ - functiondiscoveryprovider/IProviderPublishing::RemoveInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IProviderPublishing.RemoveInstance
 ---
 
 # IProviderPublishing::RemoveInstance
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Deletes an existing function instance.
 
-
 ## -parameters
-
-
-
 
 ### -param enumVisibilityFlags [in]
 
 A <a href="/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-systemvisibilityflags">SystemVisibilityFlags</a> enumeration value which specifies the visibility of the function instance which the provider is about to delete.  It is up to the provider whether or not to honor this setting, however the current user visibility can be used to allow processes running in a non-Administrator security context to still be able to remove function instances.
 
-
 ### -param pszSubCategory [in]
 
 The subcategory string of the function instance.
-
 
 ### -param pszProviderInstanceIdentity [in]
 
 The provider instance identifier.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -120,18 +111,8 @@ The <i>pSiteInfo</i>, <i>pszSubCategory</i>, or <i>pszProviderInstanceIdentity</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpublishing">IProviderPublishing</a>
- 
-
- 
 

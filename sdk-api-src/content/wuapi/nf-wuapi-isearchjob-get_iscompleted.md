@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 32bb990d-89ce-4aca-8a9f-28cbd991e506
 ms.date: 12/05/2018
 ms.keywords: ISearchJob interface [Windows Update Agent],IsCompleted property, ISearchJob.IsCompleted, ISearchJob.get_IsCompleted, ISearchJob::IsCompleted, ISearchJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],ISearchJob interface, get_IsCompleted, wua.isearchjob_iscompleted, wuapi/ISearchJob::IsCompleted, wuapi/ISearchJob::get_IsCompleted
-f1_keywords:
-- wuapi/ISearchJob.IsCompleted
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISearchJob.IsCompleted
-- ISearchJob.get_IsCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchJob::get_IsCompleted
+ - wuapi/ISearchJob::get_IsCompleted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISearchJob.IsCompleted
+ - ISearchJob.get_IsCompleted
 ---
 
 # ISearchJob::get_IsCompleted
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether the call to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearch.BeginSearch</a> method is completely processed.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
- 
-
- 
 

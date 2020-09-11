@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: efbb6238-e9e3-4603-896a-75fcff2bb362
 ms.date: 12/05/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IMsmMerge interface, IMsmMerge interface,CloseDatabase method, IMsmMerge.CloseDatabase, IMsmMerge::CloseDatabase, _msi_closedatabase_function, mergemod/IMsmMerge::CloseDatabase, setup.imsmmerge_closedatabase
-f1_keywords:
-- mergemod/IMsmMerge.CloseDatabase
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmMerge.CloseDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmMerge::CloseDatabase
+ - mergemod/IMsmMerge::CloseDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmMerge.CloseDatabase
 ---
 
 # IMsmMerge::CloseDatabase
 
 
 ## -description
-
 
 The 
 <b>CloseDatabase</b> method closes the currently open Windows Installer database. For more information, see the 
@@ -57,20 +57,13 @@ The
 
 <b>IMsmMerge2::CloseDatabase</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::CloseDatabase</b>      All Mergemod.dll versions.
 
-
 ## -parameters
-
-
-
 
 ### -param Commit
 
 <b>TRUE</b> if changes should be saved, <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 The <b>CloseDatabase</b> function returns the following values.
 
@@ -126,27 +119,12 @@ Unable to save database. This error is not generated if <i>bCommit</i> is <b>FAL
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function closes the currently open database. Closing a database clears all dependency information but does not affect any errors that have not been retrieved.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
 

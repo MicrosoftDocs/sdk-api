@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: c6bd9c50-b0a5-4d5e-b554-1c4caa6d8e00
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetTextAntialiasMode method, ID2D1CommandSink.SetTextAntialiasMode, ID2D1CommandSink::SetTextAntialiasMode, SetTextAntialiasMode, SetTextAntialiasMode method [Direct2D], SetTextAntialiasMode method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetTextAntialiasMode, direct2d.id2d1commandsink_settextantialiasmode
-f1_keywords:
-- d2d1_1/ID2D1CommandSink.SetTextAntialiasMode
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1CommandSink.SetTextAntialiasMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1CommandSink::SetTextAntialiasMode
+ - d2d1_1/ID2D1CommandSink::SetTextAntialiasMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1CommandSink.SetTextAntialiasMode
 ---
 
 # ID2D1CommandSink::SetTextAntialiasMode
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates the new default antialiasing mode for text.
 
-
 ## -parameters
-
-
-
 
 ### -param textAntialiasMode
 
@@ -64,23 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2
 
 The antialiasing mode for the text.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code. 
-
-
-
-
+If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
 
@@ -91,7 +77,4 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">ID2D1RenderTarget::SetTextAntialiasMode</a>
- 
-
- 
 

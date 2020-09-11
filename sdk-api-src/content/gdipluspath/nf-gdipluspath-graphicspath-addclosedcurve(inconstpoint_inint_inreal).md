@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddclosedcurvemethods\addclosedcurve_5pointpoints_intcount_realtension.htm
 ms.date: 12/05/2018
 ms.keywords: AddClosedCurve, AddClosedCurve method [GDI+], AddClosedCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddClosedCurve method, GraphicsPath.AddClosedCurve, GraphicsPath.AddClosedCurve(IN const Point,IN INT,IN REAL), GraphicsPath.AddClosedCurve(const Point*,INT,REAL), GraphicsPath::AddClosedCurve, GraphicsPath::AddClosedCurve(IN const Point,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddClosedCurve_Point_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_GraphicsPath_AddClosedCurve_Point_points_INT_count_REAL_tension_
-f1_keywords:
-- gdipluspath/GraphicsPath.AddClosedCurve
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPath.AddClosedCurve
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPath::AddClosedCurve
+ - gdipluspath/GraphicsPath::AddClosedCurve
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPath.AddClosedCurve
 ---
 
 # GraphicsPath::AddClosedCurve(IN const Point,IN INT,IN REAL)
@@ -50,40 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphicsPath::AddClosedCurve</b> method adds a closed cardinal spline to this path.
 
-
 ## -parameters
-
-
-
 
 ### -param points [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>*</b>
 
-Pointer to an array of points that define the cardinal spline. The cardinal spline is a curve that passes through each point in the array. 
-
+Pointer to an array of points that define the cardinal spline. The cardinal spline is a curve that passes through each point in the array.
 
 ### -param count [in]
 
 Type: <b>INT</b>
 
 Integer that specifies the number of elements in the
-					<i>points</i> array. 
-
+					<i>points</i> array.
 
 ### -param tension [in]
 
 Type: <b>REAL</b>
 
-Nonnegative real number that controls the length of the curve and how the curve bends. A value of 0 specifies that the spline is a sequence of straight lines. As the value increases, the curve becomes fuller. 
-
+Nonnegative real number that controls the length of the curve and how the curve bends. A value of 0 specifies that the spline is a sequence of straight lines. As the value increases, the curve becomes fuller.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -91,12 +82,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 You should keep a copy of the <i>points</i> array if those points will be needed later. The <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object does not store the points passed to the <b>GraphicsPath::AddClosedCurve</b> method; instead, it converts the cardinal spline to a sequence of Bézier splines and stores the points that define those Bézier splines. You cannot retrieve the original array of points from the <b>GraphicsPath</b> object.
 
@@ -127,14 +113,7 @@ VOID Example_AddClosedCurve(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-addbezier(inconstpoint__inconstpoint__inconstpoint__inconstpoint_)">AddBezier Methods</a>
 
@@ -181,7 +160,4 @@ VOID Example_AddClosedCurve(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
- 
-
- 
 

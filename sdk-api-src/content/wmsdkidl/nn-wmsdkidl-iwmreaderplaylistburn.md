@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: a0e1a4f3-4226-44a2-b38e-e5512fda2048
 ms.date: 12/05/2018
 ms.keywords: IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], IWMReaderPlaylistBurn interface [windows Media Format],described, IWMReaderPlaylistBurnInterface, wmformat.iwmreaderplaylistburn, wmsdkidl/IWMReaderPlaylistBurn
-f1_keywords:
-- wmsdkidl/IWMReaderPlaylistBurn
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMReaderPlaylistBurn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderPlaylistBurn
+ - wmsdkidl/IWMReaderPlaylistBurn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMReaderPlaylistBurn
 ---
 
 # IWMReaderPlaylistBurn interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMReaderPlaylistBurn</b> interface verifies that the files in a playlist can be copied to CD, in the order in which they are specified. If any of the files in the list are DRM-protected, the licenses are checked. DRM version 10 licenses track the number of times files are copied to CD as part of a playlist. The methods of this interface are intended to support applications that copy entire playlists to compact disc.
 
 An <b>IWMReaderPlaylistBurn</b> interface exists for every instance of the reader object or synchronous reader object. You can get a pointer to the <b>IWMReaderPlaylistBurn</b> interface by calling the <b>QueryInterface</b> method of any other interface on one of those objects.
-
-
-
 
 ## -inheritance
 
@@ -109,16 +105,9 @@ Starts the playlist file check.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

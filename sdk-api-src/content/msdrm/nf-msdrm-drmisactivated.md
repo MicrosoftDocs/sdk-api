@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: f6c7bc7f-e9e8-4fc4-b30f-31bc0f5f46aa
 ms.date: 12/05/2018
 ms.keywords: DRMIsActivated, DRMIsActivated function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, msdrm/DRMIsActivated, rm.drmisactivated
-f1_keywords:
-- msdrm/DRMIsActivated
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMIsActivated
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMIsActivated
+ - msdrm/DRMIsActivated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMIsActivated
 ---
 
 # DRMIsActivated function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,16 +61,11 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMIsActivated</b> function indicates whether the current user or machine is activated.
 
-
 ## -parameters
-
-
-
 
 ### -param hClient [in]
 
 A handle to a client session created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function.
-
 
 ### -param uFlags [in]
 
@@ -94,38 +89,23 @@ The current user is being queried for activation status.
 
 The current user is considered activated if the certificate store of the current user has a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> issued to the specified group ID.
 
-
 ### -param pActServInfo [in]
 
 This parameter is reserved and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 You can call <b>DRMIsActivated</b> to determine the current state of computer or user activation before calling any function that requires prior activation. If <b>DRMIsActivated</b> fails, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmactivate">DRMActivate</a>.
 
 This function internally uses information contained in the client session. If the user ID associated with the client session does not match the ID of the logged–on user, this function will fail. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
@@ -140,7 +120,4 @@ This function internally uses information contained in the client session. If th
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmactivate">DRMActivate</a>
- 
-
- 
 

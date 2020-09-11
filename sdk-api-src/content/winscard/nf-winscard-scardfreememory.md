@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d41d3891-671b-4129-8034-b251af983830
 ms.date: 12/05/2018
 ms.keywords: SCardFreeMemory, SCardFreeMemory function [Security], _smart_scardfreememory, security.scardfreememory, winscard/SCardFreeMemory
-f1_keywords:
-- winscard/SCardFreeMemory
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-wlan-scard-l1-1-0.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardFreeMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardFreeMemory
+ - winscard/SCardFreeMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-wlan-scard-l1-1-0.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardFreeMemory
 ---
 
 # SCardFreeMemory function
@@ -51,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardFreeMemory</b> function releases memory that has been returned from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager</a> using the SCARD_AUTOALLOCATE length designator.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a> returned from <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>, or <b>NULL</b> if the creating function also specified <b>NULL</b> for its <i>hContext</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-query-functions">Smart Card Database Query Functions</a>.
-					
-
 
 ### -param pvMem [in]
 
 Memory block to be released.
 
-
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -107,15 +98,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
@@ -138,7 +122,4 @@ An error code. For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a>
- 
-
- 
 

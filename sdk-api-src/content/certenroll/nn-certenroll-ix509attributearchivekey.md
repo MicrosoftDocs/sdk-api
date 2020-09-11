@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b42111e9-e39e-4192-9aba-47403fb627dc
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], IX509AttributeArchiveKey interface [Security],described, certenroll/IX509AttributeArchiveKey, security.ix509attributearchivekey
-f1_keywords:
-- certenroll/IX509AttributeArchiveKey
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509AttributeArchiveKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509AttributeArchiveKey
+ - certenroll/IX509AttributeArchiveKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509AttributeArchiveKey
 ---
 
 # IX509AttributeArchiveKey interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509AttributeArchiveKey</b> interface represents an attribute that contains an encrypted  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to be archived by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>. The key is attached as an unauthenticated attribute to the primary signature of a CMC request. The hash of the encrypted key is encoded as an authenticated attribute in the CMC request. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekeyhash">IX509AttributeArchiveKeyHash</a> interface.
-
 
 ## -inheritance
 
@@ -130,13 +129,9 @@ Retrieves an integer that contains the encryption strength of the symmetric algo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -147,7 +142,4 @@ Retrieves an integer that contains the encryption strength of the symmetric algo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
 

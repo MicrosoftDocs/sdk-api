@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 32c15a03-6683-4b22-b374-a15784696368
 ms.date: 12/05/2018
 ms.keywords: IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], IISDB_NBIT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_NBIT, mstv.iisdb_nbit
-f1_keywords:
-- dvbsiparser/IISDB_NBIT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_NBIT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_NBIT
+ - dvbsiparser/IISDB_NBIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_NBIT
 ---
 
 # IISDB_NBIT interface
 
 
 ## -description
-
 
 Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
   The NBIT describes the programs included in a multiplexed transport stream for an ISDB broadcast.
@@ -61,8 +61,6 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
-
-
 
 ## -inheritance
 
@@ -216,5 +214,5 @@ Initializes an object that supports this interface.
 
 </td>
 </tr>
-</table> 
+</table>
 

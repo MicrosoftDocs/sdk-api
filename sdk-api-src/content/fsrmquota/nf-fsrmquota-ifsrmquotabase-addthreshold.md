@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 9571e169-01a3-4b72-bc84-2f9b2609a6e2
 ms.date: 12/05/2018
 ms.keywords: AddThreshold, AddThreshold method [File Server Resource Manager], AddThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],AddThreshold method, IFsrmQuotaBase.AddThreshold, IFsrmQuotaBase::AddThreshold, fs.ifsrmquotabase_addthreshold, fsrm.ifsrmquotabase_addthreshold, fsrmquota/IFsrmQuotaBase::AddThreshold
-f1_keywords:
-- fsrmquota/IFsrmQuotaBase.AddThreshold
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaBase.AddThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaBase::AddThreshold
+ - fsrmquota/IFsrmQuotaBase::AddThreshold
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaBase.AddThreshold
 ---
 
 # IFsrmQuotaBase::AddThreshold
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Adds a threshold to the quota object.
 
-
 ## -parameters
-
-
-
 
 ### -param threshold [in]
 
@@ -68,19 +64,11 @@ The threshold to add to the quota object. The threshold is expressed as a percen
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotalimit">quota limit</a>. The value must be from 1 through 
       250, inclusively.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 You can specify up to 16 unique thresholds for a quota.
 
@@ -96,19 +84,11 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotabase">IFsrmQuotaBase</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

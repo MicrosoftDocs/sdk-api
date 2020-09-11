@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 4f84586f-7384-4dd7-99ce-325fb609daae
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudioNotification, IAMTVAudioNotification interface [DirectShow], IAMTVAudioNotification interface [DirectShow],described, IAMTVAudioNotificationInterface, dshow.iamtvaudionotification, strmif/IAMTVAudioNotification
-f1_keywords:
-- strmif/IAMTVAudioNotification
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmif.h
-api_name:
-- IAMTVAudioNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTVAudioNotification
+ - strmif/IAMTVAudioNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmif.h
+api_name:
+ - IAMTVAudioNotification
 ---
 
 # IAMTVAudioNotification interface
@@ -49,12 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This callback interface has been deprecated, because the TV Audio filter does not implement the callback mechanism.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -80,16 +77,9 @@ Handles events from a TV tuner card controlled by the <a href="https://docs.micr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
- 
-
- 
 

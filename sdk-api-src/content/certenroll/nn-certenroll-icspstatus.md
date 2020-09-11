@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 30cc43c8-6ef3-49ad-8cff-9a5b7389ff68
 ms.date: 12/05/2018
 ms.keywords: ICspStatus, ICspStatus interface [Security], ICspStatus interface [Security],described, certenroll/ICspStatus, security.icspstatus
-f1_keywords:
-- certenroll/ICspStatus
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspStatus
+ - certenroll/ICspStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspStatus
 ---
 
 # ICspStatus interface
 
 
 ## -description
-
 
 An <b>ICspStatus</b> object contains information about a  cryptographic provider/algorithm pair. The object is primarily used by the Certificate Enrollment Control to enable a user to select which cryptographic providers and algorithms to use when creating a certificate request. It can be retrieved, either alone or in an  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection, by calling the following properties or methods:<table>
 <tr>
@@ -126,8 +126,6 @@ You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenro
 <li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_selected">Selected</a> property specifies or retrieves a value that indicates whether the status of a specific item is monitored during the enrollment process.</li>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_status">Status</a> property identifies the status of the enrollment process.</li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -227,13 +225,9 @@ Specifies or retrieves the  position of the <b>ICspStatus</b> object in the <a h
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -244,7 +238,4 @@ Specifies or retrieves the  position of the <b>ICspStatus</b> object in the <a h
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e3ef6d65-ca6b-4587-bb21-3d3803a3432a
 ms.date: 12/05/2018
 ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], ITextInputPanelEventSink interface [Tablet PC],described, e3ef6d65-ca6b-4587-bb21-3d3803a3432a, peninputpanel/ITextInputPanelEventSink, tablet.itextinputpaneleventsink
-f1_keywords:
-- peninputpanel/ITextInputPanelEventSink
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanelEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanelEventSink
+ - peninputpanel/ITextInputPanelEventSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanelEventSink
 ---
 
 # ITextInputPanelEventSink interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Defines methods that handle the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a> events.
-
-
-
 
 ## -inheritance
 
@@ -179,25 +175,13 @@ Occurs when the Tablet PC Input Panel is about to insert text into the control w
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This element is declared in Peninputpanel.h.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
- 
-
- 
 

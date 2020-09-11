@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: dc6789a7-09a5-467a-b2e4-16acfa25b5f6
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_STORE_PROV_INFO, CERT_STORE_PROV_CLOSE_FUNC, CERT_STORE_PROV_CONTROL_FUNC, CERT_STORE_PROV_DELETED_FLAG, CERT_STORE_PROV_DELETE_CERT_FUNC, CERT_STORE_PROV_DELETE_CRL_FUNC, CERT_STORE_PROV_DELETE_CTL_FUNC, CERT_STORE_PROV_EXTERNAL_FLAG, CERT_STORE_PROV_FIND_CERT_FUNC, CERT_STORE_PROV_FIND_CRL_FUNC, CERT_STORE_PROV_FIND_CTL_FUNC, CERT_STORE_PROV_FREE_FIND_CERT_FUNC, CERT_STORE_PROV_FREE_FIND_CRL_FUNC, CERT_STORE_PROV_FREE_FIND_CTL_FUNC, CERT_STORE_PROV_GET_CERT_PROPERTY_FUNC, CERT_STORE_PROV_GET_CRL_PROPERTY_FUNC, CERT_STORE_PROV_GET_CTL_PROPERTY_FUNC, CERT_STORE_PROV_INFO, CERT_STORE_PROV_INFO structure [Security], CERT_STORE_PROV_LM_SYSTEM_STORE_FLAG, CERT_STORE_PROV_NO_PERSIST_FLAG, CERT_STORE_PROV_READ_CERT_FUNC, CERT_STORE_PROV_READ_CRL_FUNC, CERT_STORE_PROV_READ_CTL_FUNC, CERT_STORE_PROV_SET_CERT_PROPERTY_FUNC, CERT_STORE_PROV_SET_CRL_PROPERTY_FUNC, CERT_STORE_PROV_SET_CTL_PROPERTY_FUNC, CERT_STORE_PROV_SYSTEM_STORE_FLAG, CERT_STORE_PROV_WRITE_CERT_FUNC, CERT_STORE_PROV_WRITE_CRL_FUNC, CERT_STORE_PROV_WRITE_CTL_FUNC, PCERT_STORE_PROV_INFO, PCERT_STORE_PROV_INFO structure pointer [Security], _crypto2_cert_store_prov_info, security.cert_store_prov_info, wincrypt/CERT_STORE_PROV_INFO, wincrypt/PCERT_STORE_PROV_INFO'
-f1_keywords:
-- wincrypt/CERT_STORE_PROV_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_STORE_PROV_INFO
 targetos: Windows
 req.typenames: CERT_STORE_PROV_INFO, *PCERT_STORE_PROV_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_STORE_PROV_INFO
+ - wincrypt/_CERT_STORE_PROV_INFO
+ - PCERT_STORE_PROV_INFO
+ - wincrypt/PCERT_STORE_PROV_INFO
+ - CERT_STORE_PROV_INFO
+ - wincrypt/CERT_STORE_PROV_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_STORE_PROV_INFO
 ---
 
 # CERT_STORE_PROV_INFO structure
@@ -49,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_STORE_PROV_INFO</b> structure contains information returned by the installed 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>  function when a store is opened by using the  
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function.
 
 When opening a store, the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>  function sets all fields in the <b>CERT_STORE_PROV_INFO</b> structure to zero except <b>cbSize</b>, which is set to the size of <b>CERT_STORE_PROV_INFO</b>. The structure is updated by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a> installable function. If there are no additional callback functions to be called, then <b>cStoreProvFunc</b> remains zero upon return.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Contains the size, in bytes, of this structure.
 
-
 ### -field cStoreProvFunc
 
 Contains the number of elements in the <b>rgpvStoreProvFunc</b> array. This count must include any <b>NULL</b> values that are used in indexes prior to the last callback function implemented. For example, if only one callback function is implemented, but it is at index 2 (<b>CERT_STORE_PROV_WRITE_CERT_FUNC</b>), with <b>NULL</b> for indexes 0 and 1, then the number 3 should be passed for this parameter.
-
 
 ### -field rgpvStoreProvFunc
 
@@ -381,13 +379,10 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hStoreProv
 
 A 32-bit, application-defined value that is the first parameter passed to all callbacks. An application can specify the contents of this member as desired. Typically, this is a pointer to data that is specific to the application, such as provider state information for each store opened.
-
 
 ### -field dwStoreProvFlags
 
@@ -454,8 +449,6 @@ The provider persists contexts to a LocalMachine system store.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hStoreProvFuncAddr2
 

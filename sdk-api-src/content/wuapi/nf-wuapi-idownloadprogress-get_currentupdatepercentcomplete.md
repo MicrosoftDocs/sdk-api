@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 7dad425f-721a-4c4a-938b-d4de51f38dee
 ms.date: 12/05/2018
 ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdatePercentComplete property, IDownloadProgress.CurrentUpdatePercentComplete, IDownloadProgress.get_CurrentUpdatePercentComplete, IDownloadProgress::CurrentUpdatePercentComplete, IDownloadProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete, wua.idownloadprogress_currentupdatepercentcomplete, wuapi/IDownloadProgress::CurrentUpdatePercentComplete, wuapi/IDownloadProgress::get_CurrentUpdatePercentComplete
-f1_keywords:
-- wuapi/IDownloadProgress.CurrentUpdatePercentComplete
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadProgress.CurrentUpdatePercentComplete
-- IDownloadProgress.get_CurrentUpdatePercentComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadProgress::get_CurrentUpdatePercentComplete
+ - wuapi/IDownloadProgress::get_CurrentUpdatePercentComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadProgress.CurrentUpdatePercentComplete
+ - IDownloadProgress.get_CurrentUpdatePercentComplete
 ---
 
 # IDownloadProgress::get_CurrentUpdatePercentComplete
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an estimate of the percentage of the current update that has been downloaded.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>
- 
-
- 
 

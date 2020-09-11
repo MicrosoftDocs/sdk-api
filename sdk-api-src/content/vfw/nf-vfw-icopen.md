@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 2637b6ef-2324-40db-99e4-773fcb6fdbf6
 ms.date: 12/05/2018
 ms.keywords: ICOpen, ICOpen function [Windows Multimedia], _win32_ICOpen, multimedia.icopen, vfw/ICOpen
-f1_keywords:
-- vfw/ICOpen
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- ICOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOpen
+ - vfw/ICOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - ICOpen
 ---
 
 # ICOpen function
@@ -49,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICOpen</b> function opens a compressor or decompressor.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fccType
 
 Four-character code indicating the type of compressor or decompressor to open. For video streams, the value of this parameter is "VIDC".
 
-
 ### -param fccHandler
 
 Preferred handler of the specified type. Typically, the handler type is stored in the stream header in an AVI file.
-
 
 ### -param wMode
 
@@ -107,29 +98,16 @@ Flag defining the use of the compressor or decompressor. The following values ar
 <td>Queries the compressor or decompressor for information.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns a handle to a compressor or decompressor if successful or zero otherwise.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
 

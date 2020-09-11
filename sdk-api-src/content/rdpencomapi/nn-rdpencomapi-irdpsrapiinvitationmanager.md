@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 300940ef-e8a6-4dd9-a078-d4325e20ae91
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], IRDPSRAPIInvitationManager interface [RDP],described, rdp.irdpsrapiinvitationmanager, rdpencomapi/IRDPSRAPIInvitationManager
-f1_keywords:
-- rdpencomapi/IRDPSRAPIInvitationManager
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIInvitationManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIInvitationManager
+ - rdpencomapi/IRDPSRAPIInvitationManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIInvitationManager
 ---
 
 # IRDPSRAPIInvitationManager interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages invitation objects.
 
 Applications obtain access to this object using <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_invitations">IRDPSRAPISharingSession::get_Invitations</a>
 
 
 This interface provides access to the <b>RDPSRAPIInvitationManager</b> object.
-
 
 ## -inheritance
 
@@ -139,20 +138,13 @@ An item in the invitation collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
- 
-
- 
 

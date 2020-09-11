@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 3a528e92-37ac-4108-b52a-557a90da4a47
 ms.date: 12/05/2018
 ms.keywords: IPlaybackControl, IPlaybackControl interface [COM+], IPlaybackControl interface [COM+],described, _cos_IPlaybackControl, comsvcs/IPlaybackControl, cos.iplaybackcontrol
-f1_keywords:
-- comsvcs/IPlaybackControl
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IPlaybackControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPlaybackControl
+ - comsvcs/IPlaybackControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IPlaybackControl
 ---
 
 # IPlaybackControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables participation in the abnormal handling of server-side playback errors and client-side failures of the Message Queuing delivery mechanism. 
-
+Enables participation in the abnormal handling of server-side playback errors and client-side failures of the Message Queuing delivery mechanism.
 
 ## -inheritance
 
@@ -86,20 +85,13 @@ Informs the server-side Exception_CLSID implementation that all attempts to play
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--queued-components">COM+ Queued Components</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imessagemover">IMessageMover</a>
- 
-
- 
 

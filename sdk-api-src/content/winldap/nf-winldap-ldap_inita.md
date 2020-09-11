@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: c0aa5a9e-ed46-42fb-9c02-728afea51505
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_init, ldap.ldap__init, ldap.ldap_init, ldap_init, ldap_init function [LDAP], ldap_initA, ldap_initW, winldap/ldap_init, winldap/ldap_initA, winldap/ldap_initW
-f1_keywords:
-- winldap/ldap_init
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_init
-- ldap_initA
-- ldap_initW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_initA
+ - winldap/ldap_initA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_init
+ - ldap_initA
+ - ldap_initW
 ---
 
 # ldap_initA function
@@ -51,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_init</b> function initializes a session with an LDAP server.
 
-
 ## -parameters
-
-
-
 
 ### -param HostName [in]
 
 A pointer to a null-terminated string that contains a domain name, or a space-separated list of host names or dotted strings that represent the IP address of hosts running an LDAP server to which to connect. Each host name in the list can include an optional port number which is separated from the host itself with a colon (:). For more information about the use of the <b>LDAP_OPT_AREC_EXCLUSIVE</b> option when connecting to Active Directory servers, see the Remarks section.
 
-
 ### -param PortNumber [in]
 
 Contains the TCP port number to which to connect. Set to <b>LDAP_PORT</b> to obtain the default port, 389. This parameter is ignored if a host name includes a port number.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a session handle, in the form of a pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> data structure. The session handle must be freed with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> when it is no longer required.
@@ -80,12 +72,7 @@ If the function succeeds, it returns a session handle, in the form of a pointer 
 If the function fails, it returns <b>NULL</b>. Use 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a> to retrieve the error code.
 
-
-
-
 ## -remarks
-
-
 
 Call <b>ldap_init</b> to create a connection block to an LDAP server. Unlike 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_open">ldap_open</a>, a call to <b>ldap_init</b> does not open the connection. You can call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_connect">ldap_connect</a> explicitly to have the library contact the server. This is useful when you want to specify a local timeout in which case you would call 
@@ -116,12 +103,7 @@ Multithreading: A call to <b>ldap_init</b> is thread safe.
 <div class="alert"><b>Note</b>  <b>ldap_init</b> is the preferred method of initializing an LDAP session. The use of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_open">ldap_open</a> is heavily deprecated by the current LDAP RFC because it precludes the use of setting any session options.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
@@ -144,7 +126,4 @@ Multithreading: A call to <b>ldap_init</b> is thread safe.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
- 
-
- 
 

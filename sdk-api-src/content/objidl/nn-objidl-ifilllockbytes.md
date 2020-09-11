@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a
 ms.date: 12/05/2018
 ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFillLockBytes interface [Structured Storage],described, _stg_ifilllockbytes, objidl/IFillLockBytes, stg.ifilllockbytes
-f1_keywords:
-- objidl/IFillLockBytes
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IFillLockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFillLockBytes
+ - objidl/IFillLockBytes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IFillLockBytes
 ---
 
 # IFillLockBytes interface
 
 
 ## -description
-
 
 The 
 <b>IFillLockBytes</b> interface enables downloading code to write data asynchronously to a structured storage byte array. When the downloading code has new data available, it calls 
@@ -57,7 +57,6 @@ The
 <b>IFillLockBytes</b>. If the application attempts to access data that has not already been downloaded through a call to 
 <b>IFillLockBytes</b>, then 
 <b>ILockBytes</b> returns a new error, E_PENDING.
-
 
 ## -inheritance
 
@@ -110,13 +109,9 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774966(v=vs.85)">BINDINFO</a>
 
@@ -143,7 +138,4 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
- 
-
- 
 

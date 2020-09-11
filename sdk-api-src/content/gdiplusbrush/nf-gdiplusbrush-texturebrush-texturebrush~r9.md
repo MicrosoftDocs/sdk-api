@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush~r9, TextureBrush::TextureBrush, TextureBrush::TextureBrush~r9, _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
-f1_keywords:
-- gdiplusbrush/TextureBrush.TextureBrush
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusbrush.h
-api_name:
-- TextureBrush.TextureBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TextureBrush::TextureBrush
+ - gdiplusbrush/TextureBrush::TextureBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusbrush.h
+api_name:
+ - TextureBrush.TextureBrush
 ---
 
 # TextureBrush::TextureBrush~r9
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> class. For a complete class listing, see <b>TextureBrush Class</b>. 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7E25B3C8-8C73-4808-B460-DFC408A2482F
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code, base.ioctl_pwm_controller_set_desired_period, pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
-f1_keywords:
-- pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
-dev_langs:
-- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pwm.h
-api_name:
-- IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
+ - pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pwm.h
+api_name:
+ - IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 ---
 
 # IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD IOCTL
@@ -49,55 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Sets the output signal period of a Pulse Width Modulation (PWM) controller to a suggested value. 
-
-
-
+Sets the output signal period of a Pulse Width Modulation (PWM) controller to a suggested value.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
 
-
 ### -input-buffer-length
 
 The size of the input buffer, in bytes.
 
-
 ### -output-buffer
 
- A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.  
-
+ A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.
 
 ### -output-buffer-length
 
 The size of the output buffer, in bytes.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
@@ -109,10 +88,7 @@ If the operation fails or is pending,
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -257,18 +233,8 @@ For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
- 
-
- 
 

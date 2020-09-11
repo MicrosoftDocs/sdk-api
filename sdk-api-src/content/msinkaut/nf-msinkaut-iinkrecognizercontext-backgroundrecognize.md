@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: d3fc8117-4acd-474a-aec0-cb421230ef94
 ms.date: 12/05/2018
 ms.keywords: BackgroundRecognize, BackgroundRecognize method [Tablet PC], BackgroundRecognize method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],BackgroundRecognize method, IInkRecognizerContext.BackgroundRecognize, IInkRecognizerContext::BackgroundRecognize, d3fc8117-4acd-474a-aec0-cb421230ef94, msinkaut/IInkRecognizerContext::BackgroundRecognize, tablet.inkrecognizercontext_backgroundrecognize
-f1_keywords:
-- msinkaut/IInkRecognizerContext.BackgroundRecognize
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerContext.BackgroundRecognize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerContext::BackgroundRecognize
+ - msinkaut/IInkRecognizerContext::BackgroundRecognize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerContext.BackgroundRecognize
 ---
 
 # IInkRecognizerContext::BackgroundRecognize
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Causes the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to recognize the associated strokes collection and fire a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-recognition">Recognition</a> event when recognition is complete.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param CustomData [in, optional]
 
@@ -68,10 +61,7 @@ Specifies any application-defined data that is available to the application in t
 
 For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -125,14 +115,8 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method specifies that ink recognition is performed asynchronously. To recognize ink synchronously, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize">Recognize</a> method.
 
@@ -140,13 +124,7 @@ This method recognizes only the best result string. Alternates are not created. 
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-recognition">Recognition</a> event is not raised if the recognizer does not recognize anything.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates Method</a>
 
@@ -165,7 +143,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercont
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
- 
-
- 
 

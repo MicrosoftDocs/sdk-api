@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 24fbb34d-4a5e-4a00-85fc-9659a31dc650
 ms.date: 12/05/2018
 ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], IWMPCore interface [Windows Media Player],described, IWMPCoreInterface, wmp.iwmpcore, wmp/IWMPCore
-f1_keywords:
-- wmp/IWMPCore
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPCore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCore
+ - wmp/IWMPCore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPCore
 ---
 
 # IWMPCore interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPCore</b> interface is the root interface for the Windows Media Player control. It can be used to retrieve pointers to other interfaces supported by the control and to access some basic features.
-
-
-
 
 ## -inheritance
 
@@ -260,13 +256,9 @@ Specifies the name of the clip to play.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection">IWMPCdromCollection Interface</a>
 
@@ -325,7 +317,4 @@ Specifies the name of the clip to play.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpplaystate">WMPPlayState</a>
- 
-
- 
 

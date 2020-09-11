@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessCommandList::Close","Close","ID3D12Vide
 tech.root: mf
 ms.assetid: 2d8a7a37-32b4-4fb0-b8db-d8460624aa63
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList::Close
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessCommandList::Close, Close, ID3D12VideoProcessCommandList.Close, ID3D12VideoProcessCommandList::Close, ID3D12VideoProcessCommandList.Close
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessCommandList::Close
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList::Close
+ - d3d12video/ID3D12VideoProcessCommandList::Close
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessCommandList::Close
 ---
 
 # ID3D12VideoProcessCommandList::Close
@@ -48,7 +49,6 @@ targetos: Windows
 Indicates that recording to the command list has finished.
 
 ## -parameters
-
 
 ## -returns
 
@@ -75,3 +75,4 @@ The runtime will validate that the command list has not previously been closed. 
 For an example of creating a command list, see [ID3D12GraphicsCommandList::Close method](https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)
 
 ## -see-also
+

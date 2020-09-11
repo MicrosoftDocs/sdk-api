@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 97ed9cc0-5f69-4ecb-98c7-c58130b91d7c
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStreamSink method, IMFPMediaItem.SetStreamSink, IMFPMediaItem::SetStreamSink, SetStreamSink, SetStreamSink method [Media Foundation], SetStreamSink method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstreamsink, mfplay/IMFPMediaItem::SetStreamSink
-f1_keywords:
-- mfplay/IMFPMediaItem.SetStreamSink
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaItem.SetStreamSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaItem::SetStreamSink
+ - mfplay/IMFPMediaItem::SetStreamSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaItem.SetStreamSink
 ---
 
 # IMFPMediaItem::SetStreamSink
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Sets a media sink for the media item. A <i>media sink</i> is an object that consumes the data from one or more streams.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
 Zero-based index of a stream on the media source. The media sink will receive the data from this stream.
-
 
 ### -param pMediaSink [in]
 
@@ -81,16 +74,9 @@ Zero-based index of a stream on the media source. The media sink will receive th
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 By default, the MFPlay player object renders audio streams to the <a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a> (SAR) and video streams to the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR). You can use the <b>SetStreamSink</b> method to provide a different media sink for an audio or video stream; or to support other stream types besides audio and video. You can also use it to configure the SAR or EVR before they are used.
 
@@ -101,13 +87,7 @@ To reset the media item to use the default media sink, set <i>pMediaSink</i> to 
 <h3><a id="Remote_Playback_Optimizations"></a><a id="remote_playback_optimizations"></a><a id="REMOTE_PLAYBACK_OPTIMIZATIONS"></a>Remote Playback Optimizations</h3>
 If the application is running over Remote Desktop, and you call this method with a non-NULL value for an audio or video stream, MFPlay disables remote playback optimizations. This remark applies only to audio and video streams. It does not apply to streams that contain some other data type, such as text.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
 
@@ -118,7 +98,4 @@ If the application is running over Remote Desktop, and you call this method with
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ef9bb148-0b4e-4c13-b69d-3e63a5592e4a
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], ICredentialProviderCredential interface [Windows Shell],described, credentialprovider/ICredentialProviderCredential, shell.ICredentialProviderCredential, shell_ICredentialProviderCredential
-f1_keywords:
-- credentialprovider/ICredentialProviderCredential
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- ICredentialProviderCredential
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderCredential
+ - credentialprovider/ICredentialProviderCredential
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - ICredentialProviderCredential
 ---
 
 # ICredentialProviderCredential interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that enable the handling of a credential.
-
 
 ## -inheritance
 
@@ -222,12 +221,9 @@ Used by the Logon UI or Credential UI to advise the credential that event callba
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 <b>ICredentialProviderCredential</b> is implemented by outside parties providing a Logon UI or Credential UI  prompting for user credentials. Enumeration of user tiles cannot be done without an implementation of this interface.
@@ -243,19 +239,11 @@ Credential providers handle extremely sensitive user secrets in order to complet
 <li>Securely discard secrets if they are not used for their intended purpose within an expected amount of time.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider">ICredentialProvider</a>
- 
-
- 
 

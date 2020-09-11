@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a57aa702-40a2-4880-80db-6c4f43c3e7ea
 ms.date: 12/05/2018
 ms.keywords: '*PSERVICE_TRIGGER, DOMAIN_JOIN_GUID, DOMAIN_LEAVE_GUID, FIREWALL_PORT_CLOSE_GUID, FIREWALL_PORT_OPEN_GUID, MACHINE_POLICY_PRESENT_GUID, NAMED_PIPE_EVENT_GUID, NETWORK_MANAGER_FIRST_IP_ADDRESS_ARRIVAL_GUID, NETWORK_MANAGER_LAST_IP_ADDRESS_REMOVAL_GUID, PSERVICE_TRIGGER, PSERVICE_TRIGGER structure pointer, RPC_INTERFACE_EVENT_GUID, SERVICE_TRIGGER, SERVICE_TRIGGER structure, SERVICE_TRIGGER_ACTION_SERVICE_START, SERVICE_TRIGGER_ACTION_SERVICE_STOP, SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_INTERFACE_ARRIVAL, SERVICE_TRIGGER_TYPE_DOMAIN_JOIN, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, SERVICE_TRIGGER_TYPE_GROUP_POLICY, SERVICE_TRIGGER_TYPE_IP_ADDRESS_AVAILABILITY, SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT, USER_POLICY_PRESENT_GUID, base.service_trigger, winsvc/PSERVICE_TRIGGER, winsvc/SERVICE_TRIGGER'
-f1_keywords:
-- winsvc/SERVICE_TRIGGER
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsvc.h
-api_name:
-- SERVICE_TRIGGER
 targetos: Windows
 req.typenames: SERVICE_TRIGGER, *PSERVICE_TRIGGER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_TRIGGER
+ - winsvc/_SERVICE_TRIGGER
+ - PSERVICE_TRIGGER
+ - winsvc/PSERVICE_TRIGGER
+ - SERVICE_TRIGGER
+ - winsvc/SERVICE_TRIGGER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsvc.h
+api_name:
+ - SERVICE_TRIGGER
 ---
 
 # SERVICE_TRIGGER structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a service trigger event. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_info">SERVICE_TRIGGER_INFO</a> structure. 
-
+Represents a service trigger event. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_info">SERVICE_TRIGGER_INFO</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field dwTriggerType
 
@@ -181,8 +181,6 @@ The <b>dwAction</b> member must be SERVICE_TRIGGER_ACTION_SERVICE_START.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwAction
 
@@ -216,8 +214,6 @@ Stop the service when the specified trigger event occurs.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pTriggerSubtype
 
@@ -357,8 +353,6 @@ The event is triggered when the user policy has changed. The <b>dwTriggerType</b
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cDataItems
 
@@ -366,56 +360,29 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-
 
 This member is valid only if the <b>dwDataType</b> member is SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT.
 
-
 ### -field cDataItems.range
-
- 
-
 
 ### -field cDataItems.range.0
 
- 
-
-
 ### -field cDataItems.range.64
-
- 
-
 
 ### -field pDataItems
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures that contain trigger-specific data. 
-
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures that contain trigger-specific data.
 
 ### -field pDataItems.size_is
 
- 
-
-
 ### -field pDataItems.size_is.cDataItems
 
- 
-
-
-
-
 ## -remarks
-
-
 
 On a system that is joined to a domain, security policy settings may prevent the BFE service and its dependent services from being stopped or cause them to restart automatically. In this case, it is necessary to disable the services and then re-enable them after the event is registered. To do this programmatically, store each service's original start type, change the service start type to SERVICE_DISABLED, register the event, and then restore the service's original start type. For information about changing a service's start type, see <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>. 
 
 To disable the services using the SC command-line tool, use the  command <b>sc config bfe start= disabled</b>  to disable the BFE service and its dependent services, then use the command <b>net stop bfe /Y</b>  to stop them.  To re-enable the services, use the command <b>sc config bfe start= auto</b>. For more information about the SC command-line tool, see <a href="https://docs.microsoft.com/windows/desktop/Services/controlling-a-service-using-sc">Controlling a Service Using SC</a>.
 
-If it is not possible to disable the services, it may be necessary to restart the system after installing the service that is registering the event. In this case, do not disable the BFE service and its dependent services before restarting the system, because the system may not work correctly if these services remain disabled. 
-
-
-
+If it is not possible to disable the services, it may be necessary to restart the system after installing the service that is registering the event. In this case, do not disable the BFE service and its dependent services before restarting the system, because the system may not work correctly if these services remain disabled.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
@@ -434,7 +401,4 @@ If it is not possible to disable the services, it may be necessary to restart th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
- 
-
- 
 

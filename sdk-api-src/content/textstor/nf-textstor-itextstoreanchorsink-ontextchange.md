@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 4bdf12bc-c15e-4bdb-8bc0-53172e9c943e
 ms.date: 12/05/2018
 ms.keywords: 0, ITextStoreAnchorSink interface [Text Services Framework],OnTextChange method, ITextStoreAnchorSink.OnTextChange, ITextStoreAnchorSink::OnTextChange, OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework],ITextStoreAnchorSink interface, TS_TC_CORRECTION, _tsf_itextstoreanchorsink_ontextchange_ref, textstor/ITextStoreAnchorSink::OnTextChange, tsf.itextstoreanchorsink_ontextchange
-f1_keywords:
-- textstor/ITextStoreAnchorSink.OnTextChange
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchorSink.OnTextChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchorSink::OnTextChange
+ - textstor/ITextStoreAnchorSink::OnTextChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchorSink.OnTextChange
 ---
 
 # ITextStoreAnchorSink::OnTextChange
@@ -52,9 +53,6 @@ ms.custom: 19H1
 Called when text in the text stream changes.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -86,22 +84,16 @@ The text is a transform (correction) of existing content, and any special text m
 </td>
 </tr>
 </table>
- 
-
 
 ### -param paStart [in]
 
 Pointer to an anchor located at the start of the changed text.
 
-
 ### -param paEnd [in]
 
 Pointer to an anchor located at the end of the changed text.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -166,26 +158,14 @@ The TSF manager holds a lock on the document. This typically indicates that the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is called only when the application modifies its own text, not when a client modifies text with one of the <b>ITextStoreAnchor</b> methods, such as <b>ITextStoreAnchor::SetText</b> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection</a>.
 
 When calling this method, the application must be able to grant a <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">document lock</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
 
@@ -212,7 +192,4 @@ When calling this method, the application must be able to grant a <a href="https
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
       </a>
- 
-
- 
 

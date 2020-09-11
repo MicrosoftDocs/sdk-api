@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 05842fa7-0438-4237-962f-055dc338368c
 ms.date: 12/05/2018
 ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdiscard, minwinbase/LocalDiscard
-f1_keywords:
-- minwinbase/LocalDiscard
-dev_langs:
-- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- minwinbase.h
-api_name:
-- LocalDiscard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LocalDiscard
+ - minwinbase/LocalDiscard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minwinbase.h
+api_name:
+ - LocalDiscard
 ---
 
 # LocalDiscard macro
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Discards the specified local memory object. The lock count of the memory object must be zero.
 <div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param h [in]
 
@@ -64,22 +61,13 @@ A handle to the local memory object. This handle is returned by either the
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
 
-
 ## -remarks
-
-
 
 Although 
 <b>LocalDiscard</b> discards the object's memory block, the handle to the object remains valid. A process can subsequently pass the handle to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function to allocate another local memory object identified by the same handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
@@ -95,7 +83,4 @@ Although
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
- 
-
- 
 

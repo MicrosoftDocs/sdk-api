@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: a5e570ad-63d3-4c8f-8569-63aa3645f866
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMStorage.SendOpaqueCommand, IWMDMStorage::SendOpaqueCommand, IWMDMStorageSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMStorage interface, mswmdm/IWMDMStorage::SendOpaqueCommand, wmdm.iwmdmstorage_sendopaquecommand
-f1_keywords:
-- mswmdm/IWMDMStorage.SendOpaqueCommand
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMStorage.SendOpaqueCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMStorage::SendOpaqueCommand
+ - mswmdm/IWMDMStorage::SendOpaqueCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMStorage.SendOpaqueCommand
 ---
 
 # IWMDMStorage::SendOpaqueCommand
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SendOpaqueCommand</b> method sends a command to the storage through Windows Media Device Manager, without processing it.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCommand [in, out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing the command to execute. Data can be passed two ways—from the application to the device, and from the device back to the application when the call finishes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -80,12 +70,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method is intended for storage media commands that do not affect the operation of Windows Media Device Manager and should be passed through unchanged.
 
@@ -175,17 +160,7 @@ The following C++ code calls <b>SendOpaqueCommand</b> to perform a simple custom
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
- 
-
- 
 

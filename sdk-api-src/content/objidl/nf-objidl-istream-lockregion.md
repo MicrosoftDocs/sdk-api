@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: f2606833-05ed-4bd0-a762-7b8172fb14c8
 ms.date: 12/05/2018
 ms.keywords: IStream interface [Structured Storage],LockRegion method, IStream.LockRegion, IStream::LockRegion, LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage],IStream interface, _stg_istream_lockregion, objidl/IStream::LockRegion, stg.istream_lockregion
-f1_keywords:
-- objidl/IStream.LockRegion
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IStream.LockRegion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStream::LockRegion
+ - objidl/IStream::LockRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IStream.LockRegion
 ---
 
 # IStream::LockRegion
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LockRegion</b> method restricts access to a specified range of bytes in the stream. Supporting this functionality is optional since some file systems do not provide it.
 
-
 ## -parameters
-
-
-
 
 ### -param libOffset [in]
 
 Integer that specifies the byte offset for the beginning of the range.
 
-
 ### -param cb [in]
 
 Integer that specifies the length of the range, in bytes, to be restricted.
-
 
 ### -param dwLockType [in]
 
 Specifies the restrictions being requested on accessing the range.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 The byte range of the stream can be extended.  Locking an extended range for the stream is useful as a method of communication between different instances of the stream without changing data that is actually part of the stream.
 
@@ -103,13 +89,7 @@ The <b>LockRegion</b> method has no effect in the compound file implementation, 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Support for this method is optional for implementations of stream objects since it may not be supported by the underlying file system. The type of locking supported is also optional. The STG_E_INVALIDFUNCTION error is returned if the requested type of locking is not supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
@@ -120,7 +100,4 @@ Support for this method is optional for implementations of stream objects since 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
- 
-
- 
 

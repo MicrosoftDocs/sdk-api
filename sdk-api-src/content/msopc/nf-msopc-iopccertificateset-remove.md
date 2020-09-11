@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 15046223-f8a0-4810-b6e0-e75aca44d5a9
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateSet interface [Open Packaging Conventions],Remove method, IOpcCertificateSet.Remove, IOpcCertificateSet::Remove, Remove, Remove method [Open Packaging Conventions], Remove method [Open Packaging Conventions],IOpcCertificateSet interface, msopc/IOpcCertificateSet::Remove, opc.iopccertificateset_remove
-f1_keywords:
-- msopc/IOpcCertificateSet.Remove
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcCertificateSet.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcCertificateSet::Remove
+ - msopc/IOpcCertificateSet::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcCertificateSet.Remove
 ---
 
 # IOpcCertificateSet::Remove
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a specified certificate from the set.
 
-
 ## -parameters
-
-
-
 
 ### -param certificate [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to be removed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,15 +90,8 @@ The <i>certificate</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certificates">Certificates</a>
 
@@ -148,7 +134,4 @@ The <i>certificate</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
- 
-
- 
 

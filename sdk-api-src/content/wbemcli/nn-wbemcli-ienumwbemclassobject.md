@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 142ea48d-d47b-4b7b-ab84-049a54955488
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], IEnumWbemClassObject interface [Windows Management Instrumentation],described, _hmm_ienumwbemclassobject, wbemcli/IEnumWbemClassObject, wmi.ienumwbemclassobject
-f1_keywords:
-- wbemcli/IEnumWbemClassObject
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-api_name:
-- IEnumWbemClassObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWbemClassObject
+ - wbemcli/IEnumWbemClassObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+api_name:
+ - IEnumWbemClassObject
 ---
 
 # IEnumWbemClassObject interface
 
 
 ## -description
-
 
 The 
 <b>IEnumWbemClassObject</b> interface is used to enumerate <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-c">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
@@ -72,7 +72,6 @@ An object of type
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">Next</a> method. You can reset an enumeration back to the beginning by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a> method.
-
 
 ## -inheritance
 
@@ -136,12 +135,9 @@ Causes the enumeration to skip ahead so that future calls to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IEnumWbemClassObject</b> is the object returned from a WMI query, and is used to enumerate through the returned values. For more information on how to use this class, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-wmi">Querying WMI</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/enumerating-wmi">Enumerating WMI</a>.
 
@@ -216,14 +212,7 @@ void ExecQuerySync(IWbemServices *pSvc)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for
     WMI</a>
@@ -231,7 +220,4 @@ void ExecQuerySync(IWbemServices *pSvc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/enumerating-wmi">Enumerating WMI</a>
- 
-
- 
 

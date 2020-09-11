@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 16c1a911-43cb-4c18-9e29-12a69b715e6a
 ms.date: 12/05/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],AddContent method, IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
-f1_keywords:
-- directmanipulation/IDirectManipulationCompositor.AddContent
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationCompositor.AddContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationCompositor::AddContent
+ - directmanipulation/IDirectManipulationCompositor::AddContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationCompositor.AddContent
 ---
 
 # IDirectManipulationCompositor::AddContent
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Associates content (owned by the caller) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals. 
-
+Associates content (owned by the caller) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 
 ## -parameters
-
-
-
 
 ### -param content [in]
 
 The content to add to the composition tree.
 
-<i>content</i> is placed  between <i>parentVisual</i> and <i>childVisual</i> in the composition tree. 
-
+<i>content</i> is placed  between <i>parentVisual</i> and <i>childVisual</i> in the composition tree.
 
 ### -param device [in, optional]
 
@@ -78,26 +73,17 @@ The parent visuals in the composition tree of the content being added.
 
 <i>parentVisual</i> must also be a parent of <i>childVisual</i> in the composition tree.
 
-
 ### -param childVisual [in]
 
 The child visuals in the composition tree of the content being added.
 
 <i>parentVisual</i> must also be a parent of <i>childVisual</i> in the composition tree.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method inserts a small visual tree (owned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> device) between the <i>parentVisual</i> and the <i>childVisual</i>. Transforms can then be applied to the inserted content.  
 
@@ -121,15 +107,7 @@ If the application uses a custom implementation of <a href="https://docs.microso
 <li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> can be NULL, depending on the compositor. </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 2d2a78a2-fca6-4f54-9c75-3406a3c8d492
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHost2, WSDCreateDeviceHost2 function, ncd.wsdcreatedevicehost2, wsdhost/WSDCreateDeviceHost2
-f1_keywords:
-- wsdhost/WSDCreateDeviceHost2
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateDeviceHost2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateDeviceHost2
+ - wsdhost/WSDCreateDeviceHost2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateDeviceHost2
 ---
 
 # WSDCreateDeviceHost2 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a device host that can support signed messages and returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pszLocalId [in]
 
@@ -93,25 +89,19 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsd
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
-
 ### -param pConfigParams [in]
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
-
 
 ### -param dwConfigParamCount [in]
 
 The total number of structures passed in <i>pConfigParams</i>.
 
-
 ### -param ppDeviceHost [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object that you use to expose the WSD-specific device semantics associated with a server that responds to incoming requests.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -165,18 +155,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>WSDCreateDeviceHost2</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">IWSDDeviceHost::Init</a> method, which initializes an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object.
-
-
-
-
 

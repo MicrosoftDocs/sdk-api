@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: e280008b-b41e-43e3-9f16-6fe1f88e10ea
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Windows Controls], Append method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Append method, ITextStrings.Append, ITextStrings::Append, controls.itextstrings_append, tom/ITextStrings::Append
-f1_keywords:
-- tom/ITextStrings.Append
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextStrings.Append
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStrings::Append
+ - tom/ITextStrings::Append
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextStrings.Append
 ---
 
 # ITextStrings::Append
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Appends a string to the string at the specified index in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pRange [in]
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itex
 
 The string to append.
 
-
 ### -param iString [in]
 
 Type: <b>long</b>
 
 The string index.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -108,27 +100,12 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The index is relative to the top of the collection, so if  <i>iString</i> is equal to 0 the string is inserted at the top. If <i>iString</i> is equal to  –1, it is inserted below the top string, and so on.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
- 
-
- 
 

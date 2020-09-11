@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 606b0a42-d1d1-4196-911f-5b095bf56c4e
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager, IAudioSessionManager interface [Core Audio], IAudioSessionManager interface [Core Audio],described, audiopolicy/IAudioSessionManager, coreaudio.iaudiosessionmanager
-f1_keywords:
-- audiopolicy/IAudioSessionManager
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionManager
+ - audiopolicy/IAudioSessionManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionManager
 ---
 
 # IAudioSessionManager interface
 
 
 ## -description
-
-
 
 The <b>IAudioSessionManager</b> interface enables a client to access the session controls and volume controls for both cross-process and process-specific audio sessions. The client obtains a reference to an <b>IAudioSessionManager</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to <b>REFIID</b> IID_IAudioSessionManager.
 
@@ -60,9 +59,6 @@ In Windows Vista, the higher-level APIs that use WASAPI include Media Foundation
 When a client creates an audio stream through a higher-level API, that API typically adds the stream to the default audio session for the client's process (the session that is identified by the session GUID value, GUID_NULL), but the same API might not provide a means for the client to access the controls for that session. In that case, the client can access the controls through the <b>IAudioSessionManager</b> interface.
 
 For a code example that uses the <b>IAudioSessionManager</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
-
-
-
 
 ## -inheritance
 
@@ -97,13 +93,9 @@ Retrieves a simple audio volume control.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -114,7 +106,4 @@ Retrieves a simple audio volume control.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

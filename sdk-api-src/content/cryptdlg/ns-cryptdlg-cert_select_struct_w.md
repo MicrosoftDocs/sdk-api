@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 49184872-d636-4e55-8e32-0f38b49b5c21
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_SELECT_STRUCT_W, CERT_SELECT_STRUCT, CERT_SELECT_STRUCT structure [Security], CERT_SELECT_STRUCT_A, CERT_SELECT_STRUCT_W, CSS_ALLOWMULTISELECT, CSS_ENABLEHOOK, CSS_ENABLETEMPLATE, CSS_ENABLETEMPLATEHANDLE, CSS_HIDE_PROPERTIES, CSS_SHOW_HELP, PCERT_SELECT_STRUCT, PCERT_SELECT_STRUCT structure pointer [Security], cryptdlg/CERT_SELECT_STRUCT, cryptdlg/CERT_SELECT_STRUCT_A, cryptdlg/CERT_SELECT_STRUCT_W, cryptdlg/PCERT_SELECT_STRUCT, security.cert_select_struct, security.cert_select_struct_w'
-f1_keywords:
-- cryptdlg/CERT_SELECT_STRUCT
-dev_langs:
-- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CryptDlg.h
-api_name:
-- CERT_SELECT_STRUCT
-- CERT_SELECT_STRUCT_A
-- CERT_SELECT_STRUCT_W
 targetos: Windows
 req.typenames: CERT_SELECT_STRUCT_W, *PCERT_SELECT_STRUCT_W
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCSSW
+ - cryptdlg/tagCSSW
+ - PCERT_SELECT_STRUCT_W
+ - cryptdlg/PCERT_SELECT_STRUCT_W
+ - CERT_SELECT_STRUCT_W
+ - cryptdlg/CERT_SELECT_STRUCT_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CryptDlg.h
+api_name:
+ - CERT_SELECT_STRUCT
+ - CERT_SELECT_STRUCT_A
+ - CERT_SELECT_STRUCT_W
 ---
 
 # CERT_SELECT_STRUCT_W structure
@@ -51,34 +56,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_SELECT_STRUCT</b> structure 
     contains criteria upon  which to select certificates that are presented in a certificate selection 
     dialog box.  This structure is used in the 
     <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> 
     function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size, in bytes, of this structure.
-
 
 ### -field hwndParent
 
 A handle to the parent window of any dialog boxes that 
       <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> generates.
 
-
 ### -field hInstance
 
 A handle to the module whose executable file contains the dialog box template.
-
 
 ### -field pTemplateName
 
@@ -97,7 +94,6 @@ If the <b>CSS_ENABLETEMPLATEHANDLE</b> flag is set in <b>dwFlags</b>,
        dialog box template. If the  specifies a resource identifier, its high-order word must be zero and its 
        low-order word must contain the identifier. One way to create this integer value is to use the 
        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.
-
 
 ### -field dwFlags
 
@@ -174,30 +170,24 @@ Cause the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cr
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szTitle
 
 A pointer to a string that contains the text for the title of the dialog box.
 
-
 ### -field cCertStore
 
 The number of elements in <b>arrayCertStore</b> array.
-
 
 ### -field arrayCertStore
 
 A pointer to the array of certificate stores that the dialog box enumerates and displays the certificates 
       from. The <b>cCertStore</b> member contains the number of elements in this array.
 
-
 ### -field szPurposeOid
 
 A pointer to a string representation of an object identifier (OID) for an enhanced key usage (EKU). If an 
       OID is provided, only certificates that include this EKU will be displayed.
-
 
 ### -field cCertContext
 
@@ -205,7 +195,6 @@ The number of elements in the <b>arrayCertContext</b> array. After the
       <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function returns, 
       this member contains the number of certificates that were selected by the user. Currently, only one certificate 
       can be selected by the user.
-
 
 ### -field arrayCertContext
 
@@ -227,13 +216,11 @@ After the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cr
       returns, this array contains the certificates that were selected by the user. Currently, only one certificate 
       can be selected by the user.
 
-
 ### -field lCustData
 
 A pointer to an array of byte values that hold custom data that is passed through to the filter procedure 
       referenced by <b>pfnFilter</b>. This custom data is not used by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function.
-
 
 ### -field pfnHook
 
@@ -241,24 +228,20 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nc-cryptdlg-p
       callback function. This function is called before messages are processed by the dialog box. For more 
       information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>.
 
-
 ### -field pfnFilter
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nc-cryptdlg-pfncmfilterproc">PFNCMFILTERPROC</a> function pointer to the 
       filter callback function. This is called to determine which certificates will be displayed by the dialog 
       box.
 
-
 ### -field szHelpFileName
 
 A pointer to a null-terminated string that contains the full path to the Help file.
-
 
 ### -field dwHelpId
 
 The context identifier for the topic. For more information, see  
       <a href="https://msdn.microsoft.com/library/ms644702.aspx">WinHelp</a>.
-
 
 ### -field hprov
 
@@ -266,16 +249,9 @@ A handle to the
       <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-service-providers">Cryptographic Service Provider</a> (CSP) 
       to use for certificate verification.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a>
- 
-
- 
 
 ## -remarks
 

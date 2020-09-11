@@ -8,10 +8,6 @@ tech.root: Backup
 ms.assetid: 2043249b-b4ff-4bdd-9e6e-13c432a183cb
 ms.date: 12/05/2018
 ms.keywords: SET_TAPE_DRIVE_INFORMATION, SET_TAPE_MEDIA_INFORMATION, SetTapeParameters, SetTapeParameters function [Backup], _win32_settapeparameters, backup.settapeparameters, base.settapeparameters, winbase/SetTapeParameters
-f1_keywords:
-- winbase/SetTapeParameters
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- SetTapeParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetTapeParameters
+ - winbase/SetTapeParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - SetTapeParameters
 ---
 
 # SetTapeParameters function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetTapeParameters</b> function either specifies the block size of a tape or configures the tape device.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the device for which to set configuration information. This handle is created by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
 
 ### -param dwOperation [in]
 
@@ -99,8 +94,6 @@ Sets the tape-specific information specified by the <i>lpTapeInformation</i> par
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpTapeInformation [in]
 
@@ -113,10 +106,7 @@ Pointer to a structure that contains the information to set. If the <i>dwOperati
 If <i>dwOperation</i> is SET_TAPE_DRIVE_INFORMATION, <i>lpTapeInformation</i> points to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a> structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -308,15 +298,8 @@ The media is write protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
 
@@ -327,7 +310,4 @@ The media is write protected.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
- 
-
- 
 

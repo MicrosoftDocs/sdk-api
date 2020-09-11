@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 56bde3d9-f4f7-449d-a080-5215dda940a0
 ms.date: 12/05/2018
 ms.keywords: AddNonMemberName, AddNonMemberName method [Security], AddNonMemberName method [Security],AzApplicationGroup object, AddNonMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMemberName method, IAzApplicationGroup interface [Security],AddNonMemberName method, IAzApplicationGroup.AddNonMemberName, IAzApplicationGroup::AddNonMemberName, azroles/IAzApplicationGroup::AddNonMemberName, security.iazapplicationgroup_addnonmembername
-f1_keywords:
-- azroles/IAzApplicationGroup.AddNonMemberName
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplicationGroup.AddNonMemberName
-- AzApplicationGroup.AddNonMemberName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroup::AddNonMemberName
+ - azroles/IAzApplicationGroup::AddNonMemberName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplicationGroup.AddNonMemberName
+ - AzApplicationGroup.AddNonMemberName
 ---
 
 # IAzApplicationGroup::AddNonMemberName
@@ -50,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddNonMemberName</b> method adds the specified account name to the list of  accounts that are refused membership in the application group.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrProp [in]
 
 String that contains the SID to add to the list of accounts that are refused membership in the application group. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
 
-
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -remarks
-
-
 
 The application group will never have an  account added using this method as a member, even if that account is specified directly or indirectly by the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_members">Members</a> property.
 
@@ -80,6 +72,4 @@ Denying membership to an account in an application group does not prevent that a
 To view the list of account names of  accounts that are refused membership in this application group, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembersname">NonMembersName</a> property.
 
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
-
-
 

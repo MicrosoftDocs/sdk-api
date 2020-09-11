@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemepartdefined.htm
 ms.date: 12/05/2018
 ms.keywords: IsThemePartDefined, IsThemePartDefined function [Windows Controls], controls.IsThemePartDefined, controls.inet_IsThemePartDefined, inet_IsThemePartDefined, inet_IsThemePartDefined_cpp, uxtheme/IsThemePartDefined
-f1_keywords:
-- uxtheme/IsThemePartDefined
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
-- xamlpalwp.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-api_name:
-- IsThemePartDefined
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsThemePartDefined
+ - uxtheme/IsThemePartDefined
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+ - xamlpalwp.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+api_name:
+ - IsThemePartDefined
 ---
 
 # IsThemePartDefined function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves whether a visual style has defined parameters for the specified part and state.
 
-
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
@@ -67,24 +63,19 @@ Type: <b>HTHEME</b>
 
 Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
-
 ### -param iPartId [in]
 
 Type: <b>int</b>
 
 Value of type <b>int</b> that specifies the part. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
-
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Currently unused. The value should be 0. 
-
+Currently unused. The value should be 0.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
@@ -118,7 +109,4 @@ The theme does not have defined parameters for the specified <i>iPartId</i> and 
 </td>
 </tr>
 </table>
- 
-
-
 

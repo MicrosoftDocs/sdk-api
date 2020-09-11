@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 5d645353-7c87-4f8a-b7fd-149675a94743
 ms.date: 12/05/2018
 ms.keywords: GetIpForwardTable, GetIpForwardTable function [IP Helper], _iphlp_getipforwardtable, iphlp.getipforwardtable, iphlpapi/GetIpForwardTable
-f1_keywords:
-- iphlpapi/GetIpForwardTable
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpForwardTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpForwardTable
+ - iphlpapi/GetIpForwardTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpForwardTable
 ---
 
 # GetIpForwardTable function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpForwardTable</b> function retrieves the IPv4 routing table.
 
-
 ## -parameters
-
-
-
 
 ### -param pIpForwardTable [out]
 
 A pointer to a buffer that receives the IPv4 routing table as a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardtable">MIB_IPFORWARDTABLE</a> structure.
-
 
 ### -param pdwSize [in, out]
 
@@ -73,7 +68,6 @@ On input, specifies the size in bytes  of the buffer pointed to by the <i>pIpFor
 
 
 On output, if the buffer is not large enough to hold the returned routing table, the function sets this parameter equal to the required buffer size in bytes.
-
 
 ### -param bOrder [in]
 
@@ -87,11 +81,7 @@ A Boolean value that specifies whether the returned table should be sorted. If t
 <li>Next-hop address</li>
 </ol>
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b> (zero).
 
@@ -160,14 +150,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  <b>dwForwardProto</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure specifies the protocol or routing mechanism that generated the route. See 
@@ -371,14 +355,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a>
 
@@ -413,7 +390,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a>
- 
-
- 
 

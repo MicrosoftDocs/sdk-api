@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 6b7aa5e7-7981-41c4-bb47-30b3d0d54bc1
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Show method, IRDPSRAPIWindow.Show, IRDPSRAPIWindow::Show, Show, Show method [RDP], Show method [RDP],IRDPSRAPIWindow interface, rdp.irdpsrapiwindow_show, rdpencomapi/IRDPSRAPIWindow::Show
-f1_keywords:
-- rdpencomapi/IRDPSRAPIWindow.Show
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIWindow.Show
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIWindow::Show
+ - rdpencomapi/IRDPSRAPIWindow::Show
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIWindow.Show
 ---
 
 # IRDPSRAPIWindow::Show
@@ -49,33 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Brings the current window to the foreground.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return value is an error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy interface [Security],SetCertificateProperty method, ICertServerPolicy.SetCertificateProperty, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty, SetCertificateProperty method [Security], SetCertificateProperty method [Security],CCertServerPolicy object, SetCertificateProperty method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
-f1_keywords:
-- certif/ICertServerPolicy.SetCertificateProperty
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerPolicy.SetCertificateProperty
-- CCertServerPolicy.SetCertificateProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerPolicy::SetCertificateProperty
+ - certif/ICertServerPolicy::SetCertificateProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerPolicy.SetCertificateProperty
+ - CCertServerPolicy.SetCertificateProperty
 ---
 
 # ICertServerPolicy::SetCertificateProperty
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the <b>SetCertificateProperty</b> method to set a property associated with a certificate.
 
-
 ## -parameters
-
-
-
 
 ### -param strPropertyName [in]
 
@@ -156,8 +152,6 @@ Tells the CA to convert the FQDN 1779 name of the requester to the requester 			
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyType [in]
 
@@ -209,29 +203,19 @@ Binary data.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [in]
 
 Specifies the value to set the property to.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 You must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> prior to using this method.
@@ -296,14 +280,7 @@ if (FAILED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateproperty">ICertServerExit::GetCertificateProperty</a>
 
@@ -318,7 +295,4 @@ if (FAILED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
- 
-
- 
 

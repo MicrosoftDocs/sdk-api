@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\delete.htm
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Windows Controls], Delete method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Delete method, ITextRange.Delete, ITextRange::Delete, _win32_ITextRange_Delete, _win32_ITextRange_Delete_cpp, controls.ITextRange_Delete, controls._win32_ITextRange_Delete, tom/ITextRange::Delete
-f1_keywords:
-- tom/ITextRange.Delete
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::Delete
+ - tom/ITextRange::Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.Delete
 ---
 
 # ITextRange::Delete
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed. 
-
+Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed.
 
 ## -parameters
-
-
-
 
 ### -param Unit
 
 Type: <b>long</b>
 
 Unit to use. 
-					<i>Unit</i> can be <i>tomCharacter</i> (the default value) or <i>tomWord</i>. 
-
+					<i>Unit</i> can be <i>tomCharacter</i> (the default value) or <i>tomWord</i>.
 
 ### -param Count
 
@@ -78,7 +73,6 @@ Number of
 					<i>Count</i> is less than zero, it acts as if the BACKSPACE key was pressed 
 					<i>Count</i> times. The default value is 1. For more information, see the Remarks.
 
-
 ### -param pDelta
 
 Type: <b>long*</b>
@@ -86,12 +80,9 @@ Type: <b>long*</b>
 The count of units deleted. It can be null. The
 					<i>pDelta</i> parameter is set equal to the number of 
 					<i>Unit</i>s deleted. Deleting the text in a nondegenerate range counts as one 
-					<i>Unit</i>. 
-
+					<i>Unit</i>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -126,14 +117,8 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If 
 				<i>Count</i> = zero, this method deletes the text in the range, that is, it deletes nothing if the range is only an insertion point. 
@@ -165,12 +150,7 @@ Deleting the end-of-paragraph mark (CR) results in the special behavior of the M
 <li>If you delete the whole paragraph (from the beginning through the CR), you delete the CR as well (unless it is the final CR in the file). </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -185,7 +165,4 @@ Deleting the end-of-paragraph mark (CR) results in the special behavior of the M
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

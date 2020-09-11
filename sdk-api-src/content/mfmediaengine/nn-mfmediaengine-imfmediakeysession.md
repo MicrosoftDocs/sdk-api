@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 07f97bc9-9da2-4655-9ab9-5e17abc57d6d
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySession, IMFMediaKeySession interface [Media Foundation], IMFMediaKeySession interface [Media Foundation],described, mf.imfmediakeysession, mfmediaengine/IMFMediaKeySession
-f1_keywords:
-- mfmediaengine/IMFMediaKeySession
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaKeySession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaKeySession
+ - mfmediaengine/IMFMediaKeySession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaKeySession
 ---
 
 # IMFMediaKeySession interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a session with the Digital Rights Management (DRM) key system.
-
 
 ## -inheritance
 
@@ -113,16 +112,9 @@ Passes in a key value with any associated data required by the Content Decryptio
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

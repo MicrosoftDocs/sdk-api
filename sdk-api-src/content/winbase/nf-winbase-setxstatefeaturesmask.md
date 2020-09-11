@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 64ADEA8A-DE78-437E-AE68-A68E7214C5FD
 ms.date: 12/05/2018
 ms.keywords: SetXStateFeaturesMask, SetXStateFeaturesMask function, base.setxstatefeaturesmask, winbase/SetXStateFeaturesMask
-f1_keywords:
-- winbase/SetXStateFeaturesMask
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Xstate-l2-1-0.dll
-- KernelBase.dll
-api_name:
-- SetXStateFeaturesMask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetXStateFeaturesMask
+ - winbase/SetXStateFeaturesMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Xstate-l2-1-0.dll
+ - KernelBase.dll
+api_name:
+ - SetXStateFeaturesMask
 ---
 
 # SetXStateFeaturesMask function
@@ -51,41 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the mask of XState features set within a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that has been 
       initialized with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a>.
 
-
 ### -param FeatureMask [in]
 
 A mask of XState features to set in the specified 
       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
-
 ## -returns
-
-
 
 This function returns <b>TRUE</b> if successful, otherwise 
       <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SetXStateFeaturesMask</b> function sets the 
      mask of valid features in the specified context. Before calling 
@@ -108,15 +95,7 @@ The <b>SetXStateFeaturesMask</b> function sets the
        <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
@@ -143,7 +122,4 @@ The <b>SetXStateFeaturesMask</b> function sets the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
- 
-
- 
 

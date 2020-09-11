@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0ac4a809-05f8-46d7-8e79-9d4e88b487f4
 ms.date: 12/05/2018
 ms.keywords: COINIT, COINIT enumeration [COM], COINIT_APARTMENTTHREADED, COINIT_DISABLE_OLE1DDE, COINIT_MULTITHREADED, COINIT_SPEED_OVER_MEMORY, _com_COINIT, com.coinit, objbase/COINIT, objbase/COINIT_APARTMENTTHREADED, objbase/COINIT_DISABLE_OLE1DDE, objbase/COINIT_MULTITHREADED, objbase/COINIT_SPEED_OVER_MEMORY
-f1_keywords:
-- objbase/COINIT
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Objbase.h
-api_name:
-- COINIT
 targetos: Windows
 req.typenames: COINIT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCOINIT
+ - objbase/tagCOINIT
+ - COINIT
+ - objbase/COINIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Objbase.h
+api_name:
+ - COINIT
 ---
 
 # COINIT enumeration
@@ -49,39 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the concurrency model used for incoming calls to objects created by this thread. This concurrency model can be either apartment-threaded or multithreaded.
 
-
-
 ## -enum-fields
-
-
-
 
 ### -field COINIT_APARTMENTTHREADED
 
 Initializes the thread for apartment-threaded object concurrency (see Remarks).
 
-
 ### -field COINIT_MULTITHREADED
 
 Initializes the thread for multithreaded object concurrency (see Remarks).
-
 
 ### -field COINIT_DISABLE_OLE1DDE
 
 Disables DDE for OLE1 support.
 
-
 ### -field COINIT_SPEED_OVER_MEMORY
 
 Increase memory usage in an attempt to increase performance.
 
-
 ## -remarks
-
-
 
 When a thread is initialized through a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, you choose whether to initialize it as apartment-threaded or multithreaded by designating one of the members of <b>COINIT</b> as its second parameter. This designates how incoming calls to any object created by that thread are handled, that is, the object's concurrency.
 
@@ -95,14 +86,7 @@ Multi-threading (also called free-threading) allows calls to methods of objects 
 <div class="alert"><b>Note</b>  The multi-threaded apartment is intended for use by non-GUI threads. Threads in multi-threaded apartments should not perform UI actions. This is because UI threads require a message pump, and COM does not pump messages for threads in a multi-threaded apartment.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
@@ -117,7 +101,4 @@ Multi-threading (also called free-threading) allows calls to methods of objects 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments">Processes, Threads, and Apartments</a>
- 
-
- 
 

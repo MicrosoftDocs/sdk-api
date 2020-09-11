@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 53b57879-7533-4e92-a179-d6786052ad46
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionV5, DhcpRemoveOptionV5 function [DHCP], dhcp.dhcpremoveoptionv5, dhcpsapi/DhcpRemoveOptionV5
-f1_keywords:
-- dhcpsapi/DhcpRemoveOptionV5
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpRemoveOptionV5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpRemoveOptionV5
+ - dhcpsapi/DhcpRemoveOptionV5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpRemoveOptionV5
 ---
 
 # DhcpRemoveOptionV5 function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpRemoveOptionV5</b> function removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server.  This extends the functionality in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremoveoption">DhcpRemoveOption</a> with support for specific class and vendor names.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
-
 
 ### -param Flags [in]
 
@@ -95,28 +90,20 @@ This flag should be set if the option is removed for a specific vendor class..
 </td>
 </tr>
 </table>
- 
-
 
 ### -param OptionID [in]
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for the option  to remove.
-
 
 ### -param ClassName [in]
 
 Unicode string that specifies the DHCP  class name of the option. This parameter is optional.
 
-
 ### -param VendorName [in]
 
 Unicode string that specifies the vendor of the option. This parameter is optional, and should be <b>NULL</b> when <i>Flags</i> is not set to DHCP_FLAGS_OPTION_IS_VENDOR.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -170,18 +157,8 @@ The supplied class name is either unknown or incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateoptionv5">DhcpCreateOptionV5</a>
- 
-
- 
 

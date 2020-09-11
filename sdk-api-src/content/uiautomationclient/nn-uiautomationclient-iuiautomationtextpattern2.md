@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: E7160CDD-9A83-42F9-9F7B-8A8C13849E20
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern2, IUIAutomationTextPattern2 interface [Windows Accessibility], IUIAutomationTextPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextPattern2, winauto.uiauto_iuiautomationtextpattern2
-f1_keywords:
-- uiautomationclient/IUIAutomationTextPattern2
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationTextPattern2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTextPattern2
+ - uiautomationclient/IUIAutomationTextPattern2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationTextPattern2
 ---
 
 # IUIAutomationTextPattern2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a> interface. 
-
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a> interface.
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Retrieves a text range containing the text that is the target of the annotation 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
 
@@ -107,7 +102,4 @@ Retrieves a text range containing the text that is the target of the annotation 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithtextbasedcontrols">Working with Text-based Controls</a>
- 
-
- 
 

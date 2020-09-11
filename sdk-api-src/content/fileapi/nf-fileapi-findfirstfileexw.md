@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9f40e98f-153f-4b65-afd9-06742684c100
 ms.date: 12/05/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FIND_FIRST_EX_LARGE_FETCH, FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY, FindFirstFileEx, FindFirstFileEx function [Files], FindFirstFileExA, FindFirstFileExW, _win32_findfirstfileex, base.findfirstfileex, fileapi/FindFirstFileEx, fileapi/FindFirstFileExA, fileapi/FindFirstFileExW, fs.findfirstfileex, winbase/FindFirstFileEx, winbase/FindFirstFileExA, winbase/FindFirstFileExW
-f1_keywords:
-- fileapi/FindFirstFileEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- FindFirstFileEx
-- FindFirstFileExA
-- FindFirstFileExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstFileExW
+ - fileapi/FindFirstFileExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - FindFirstFileEx
+ - FindFirstFileExA
+ - FindFirstFileExW
 ---
 
 # FindFirstFileExW function
 
 
 ## -description
-
 
 Searches a directory for a file or subdirectory with a name and attributes that match those 
     specified.
@@ -68,11 +68,7 @@ For the most basic version of this function, see
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -101,7 +97,6 @@ The information level of the returned data.
 This parameter is one of the 
        <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-findex_info_levels">FINDEX_INFO_LEVELS</a> enumeration values.
 
-
 ### -param lpFindFileData [out]
 
 A pointer to the buffer that receives the file data.
@@ -109,7 +104,6 @@ A pointer to the buffer that receives the file data.
 
 The pointer type is determined by the level of information that is specified in the 
        <i>fInfoLevelId</i> parameter.
-
 
 ### -param fSearchOp [in]
 
@@ -119,7 +113,6 @@ The type of filtering to perform that is different from wildcard matching.
 This parameter is one of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-findex_search_ops">FINDEX_SEARCH_OPS</a> 
        enumeration values.
 
-
 ### -param lpSearchFilter
 
 A pointer to the search criteria if the specified <i>fSearchOp</i> needs structured 
@@ -128,7 +121,6 @@ A pointer to the search criteria if the specified <i>fSearchOp</i> needs structu
 
 At this time, none of the supported <i>fSearchOp</i> values require extended search 
        information. Therefore, this pointer must be <b>NULL</b>.
-
 
 ### -param dwAdditionalFlags [in]
 
@@ -175,12 +167,8 @@ Limits the results to files that are physically on disk. This flag is only relev
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a search handle used in a subsequent call to 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> or 
@@ -194,12 +182,7 @@ If the function fails or fails to locate files from the search string in the
        indeterminate. To get extended error information, call the 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FindFirstFileEx</b> function opens a search handle 
     and returns information about the first file that the file system finds with a name that matches the specified 
@@ -411,9 +394,6 @@ void _tmain(int argc, TCHAR *argv[])
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-findex_info_levels">FINDEX_INFO_LEVELS</a>
 
 
@@ -459,7 +439,4 @@ void _tmain(int argc, TCHAR *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
- 
-
- 
 

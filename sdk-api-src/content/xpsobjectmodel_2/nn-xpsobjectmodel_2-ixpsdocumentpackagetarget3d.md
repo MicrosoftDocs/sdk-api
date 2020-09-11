@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 7273235D-EB74-4FB2-B471-FCFF71741BF6
 ms.date: 12/05/2018
 ms.keywords: IXpsDocumentPackageTarget3D, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging], IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],described, xps.ixpsdocumentpackagetarget3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D
-f1_keywords:
-- xpsobjectmodel_2/IXpsDocumentPackageTarget3D
-dev_langs:
-- c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XpsObjectModel_2.h
-api_name:
-- IXpsDocumentPackageTarget3D
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsDocumentPackageTarget3D
+ - xpsobjectmodel_2/IXpsDocumentPackageTarget3D
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XpsObjectModel_2.h
+api_name:
+ - IXpsDocumentPackageTarget3D
 ---
 
 # IXpsDocumentPackageTarget3D interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for sending 3D content to XPS for printing.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Gets a new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmode
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsdocumentpackagetarget">IXpsDocumentPackageTarget</a>
 
@@ -107,7 +102,4 @@ Gets a new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmode
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/apps/dn263137(v=win.10)">Supporting 3D printing</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 24d6e8a0-d910-46f9-8172-dfcb68c4f364
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Play method, IMFPMediaPlayer.Play, IMFPMediaPlayer::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_play, mfplay/IMFPMediaPlayer::Play
-f1_keywords:
-- mfplay/IMFPMediaPlayer.Play
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.Play
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::Play
+ - mfplay/IMFPMediaPlayer::Play
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.Play
 ---
 
 # IMFPMediaPlayer::Play
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Starts playback.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,31 +90,16 @@ The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-m
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method completes asynchronously.  When the operation completes, the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback method is invoked. The event type is <b>MFP_EVENT_TYPE_PLAY</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

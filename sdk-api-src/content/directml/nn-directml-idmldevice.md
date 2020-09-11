@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: C6E13DEF-1FE1-416E-9917-ECE20FBCA401
 ms.date: 12/5/2018
 ms.keywords: IDMLDevice, IDMLDevice interface, IDMLDevice interface,described, direct3d12.idmldevice, directml/IDMLDevice
-f1_keywords:
-- directml/IDMLDevice
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.h
-api_name:
-- IDMLDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLDevice
+ - directml/IDMLDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.h
+api_name:
+ - IDMLDevice
 ---
 
 # IDMLDevice interface
+
 
 ## -description
 
@@ -59,4 +61,6 @@ A DirectML device is always associated with exactly one underlying Direct3D 12 d
 This object is thread-safe.
 
 ## -see-also
+
 [IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject)
+

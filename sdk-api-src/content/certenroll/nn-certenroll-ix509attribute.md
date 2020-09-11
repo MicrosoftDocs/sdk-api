@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 20965768-2c6b-488a-ab7c-5e0f6f28ac9b
 ms.date: 12/05/2018
 ms.keywords: IX509Attribute, IX509Attribute interface [Security], IX509Attribute interface [Security],described, certenroll/IX509Attribute, security.ix509attribute
-f1_keywords:
-- certenroll/IX509Attribute
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Attribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Attribute
+ - certenroll/IX509Attribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Attribute
 ---
 
 # IX509Attribute interface
 
 
 ## -description
-
 
 The <b>IX509Attribute</b> interface can be used to represent an attribute in a PKCS #7, PKCS #10, or CMC certificate request. For more information, see the following topics:<ul>
 <li>
@@ -136,10 +136,6 @@ Attribute ::= SEQUENCE
 <td>Represents an attribute that contains the certificate being renewed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -inheritance
 
@@ -197,13 +193,9 @@ Retrieves the attribute value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -222,7 +214,4 @@ Retrieves the attribute value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
 

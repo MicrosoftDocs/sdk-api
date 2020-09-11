@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: e0321447-b89a-4f4e-929e-eb6db76f7283
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS structure pointer [NativeWIFI], WLAN_CONNECTION_PARAMETERS, WLAN_CONNECTION_PARAMETERS structure [NativeWIFI], nwifi.wlan_connection_parameters, wlanapi/PWLAN_CONNECTION_PARAMETERS, wlanapi/WLAN_CONNECTION_PARAMETERS'
-f1_keywords:
-- wlanapi/WLAN_CONNECTION_PARAMETERS
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_CONNECTION_PARAMETERS
 targetos: Windows
 req.typenames: WLAN_CONNECTION_PARAMETERS, *PWLAN_CONNECTION_PARAMETERS
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_CONNECTION_PARAMETERS
+ - wlanapi/_WLAN_CONNECTION_PARAMETERS
+ - PWLAN_CONNECTION_PARAMETERS
+ - wlanapi/PWLAN_CONNECTION_PARAMETERS
+ - WLAN_CONNECTION_PARAMETERS
+ - wlanapi/WLAN_CONNECTION_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_CONNECTION_PARAMETERS
 ---
 
 # WLAN_CONNECTION_PARAMETERS structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_CONNECTION_PARAMETERS</b> structure specifies the parameters used when using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wlanConnectionMode
 
@@ -64,11 +64,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wla
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_connection_mode_profile</b>  value is supported.
 
-
 ### -field strProfile.string
-
- 
-
 
 ### -field strProfile
 
@@ -78,11 +74,9 @@ If  <b>wlanConnectionMode</b> is set to <b>wlan_connection_mode_profile</b>, the
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The profile must meet the compatibility criteria described in <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wireless-profile-compatibility">Wireless Profile Compatibility</a>.
 
-
 ### -field pDot11Ssid
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that specifies the SSID of the network to connect to.  This parameter is optional. When set to <b>NULL</b>, all SSIDs in the profile will be tried.  This parameter must not be <b>NULL</b> if <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_connection_mode">WLAN_CONNECTION_MODE</a> is set to <b>wlan_connection_mode_discovery_secure</b> or <b>wlan_connection_mode_discovery_unsecure</b>.
-
 
 ### -field pDesiredBssidList
 
@@ -90,11 +84,9 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot1
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This member must be <b>NULL</b>.
 
-
 ### -field dot11BssType
 
 A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> value that indicates the BSS type of the network.  If a profile is provided, this BSS type must be the same as the one in the profile.
-
 
 ### -field dwFlags
 
@@ -156,14 +148,7 @@ discovery profile will be persisted and attempt to overwrite an existing profile
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This member must be set to 0.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a>
- 
-
- 
 

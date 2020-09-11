@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 3f9afe1b-20f4-45fa-a63b-25b7a0c597af
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapCoordinate method, IDirectManipulationPrimaryContent.SetSnapCoordinate, IDirectManipulationPrimaryContent::SetSnapCoordinate, SetSnapCoordinate, SetSnapCoordinate method [Direct Manipulation], SetSnapCoordinate method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnapcoordinate, directmanipulation/IDirectManipulationPrimaryContent::SetSnapCoordinate
-f1_keywords:
-- directmanipulation/IDirectManipulationPrimaryContent.SetSnapCoordinate
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationPrimaryContent.SetSnapCoordinate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationPrimaryContent::SetSnapCoordinate
+ - directmanipulation/IDirectManipulationPrimaryContent::SetSnapCoordinate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationPrimaryContent.SetSnapCoordinate
 ---
 
 # IDirectManipulationPrimaryContent::SetSnapCoordinate
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-    Specifies the coordinate system for snap points or snap intervals. 
-
+    Specifies the coordinate system for snap points or snap intervals.
 
 ## -parameters
 
-
-
-
 ### -param motion [in]
 
-One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_motion_types">DIRECTMANIPULATION_MOTION_TYPES</a>. 
-
+One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_motion_types">DIRECTMANIPULATION_MOTION_TYPES</a>.
 
 ### -param coordinate [in]
 
@@ -71,36 +66,21 @@ If <i>motion</i> is set to translation (<b>DIRECTMANIPULATION_MOTION_TRANSLATEX<
 
 If <i>motion</i> is set to <b>DIRECTMANIPULATION_MOTION_ZOOM</b>, only <b>DIRECTMANIPULATION_COORDINATE_ORIGIN</b> of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_coordinate">DIRECTMANIPULATION_SNAPPOINT_COORDINATE</a> is valid (<i>origin</i> must be set to 0.0f).
 
-
 ### -param origin [in]
 
 The initial, or starting, snap point. All snap points are relative to this one. Only used when  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_coordinate">DIRECTMANIPULATION_COORDINATE_ORIGIN</a> is set. 
 
 If <i>motion</i> is set to <b>DIRECTMANIPULATION_MOTION_ZOOM</b>, then <i>origin</i> must be set to 0.0f.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-The origin is relative to the content boundaries. If no boundary has been set (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect">SetContentRect</a> is never called) the default boundaries are (-<a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>). 
-
-
-
+The origin is relative to the content boundaries. If no boundary has been set (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect">SetContentRect</a> is never called) the default boundaries are (-<a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>, <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationprimarycontent">IDirectManipulationPrimaryContent</a>
 
@@ -111,7 +91,4 @@ The origin is relative to the content boundaries. If no boundary has been set (<
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnappoints">SetSnapPoints</a>
- 
-
- 
 

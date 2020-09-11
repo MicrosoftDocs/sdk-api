@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 5209d4a1-e05b-453e-8896-2dc71f0b9af0
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo, ITCallInfo interface [TAPI 2.2], ITCallInfo interface [TAPI 2.2],described, _tapi3_itcallinfo, tapi3.itcallinfo, tapi3if/ITCallInfo
-f1_keywords:
-- tapi3if/ITCallInfo
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallInfo
+ - tapi3if/ITCallInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallInfo
 ---
 
 # ITCallInfo interface
 
 
 ## -description
-
 
 The 
 <b>ITCallInfo</b> interface gets and sets a variety of information concerning a 
@@ -65,7 +65,6 @@ The
 For a table showing the relationships between TAPI 2 functions and  
 <b>ITCallInfo</b> methods, see 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-x-to-tapi-3-x-cross-reference">TAPI 2.x to TAPI 3.x Cross-Reference</a>.
-
 
 ## -inheritance
 
@@ -207,13 +206,9 @@ Sets call information items that require a buffer, such as user-user information
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
@@ -240,7 +235,4 @@ Sets call information items that require a buffer, such as user-user information
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>
- 
-
- 
 

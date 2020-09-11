@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 9b15d628-87aa-4e20-b9c3-fb29a79683cb
 ms.date: 12/05/2018
 ms.keywords: ITfConfigureSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework], ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],described, _tsf_itfconfiguresystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed
-f1_keywords:
-- msctf/ITfConfigureSystemKeystrokeFeed
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfConfigureSystemKeystrokeFeed
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfConfigureSystemKeystrokeFeed
+ - msctf/ITfConfigureSystemKeystrokeFeed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfConfigureSystemKeystrokeFeed
 ---
 
 # ITfConfigureSystemKeystrokeFeed interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfConfigureSystemKeystrokeFeed</b> interface is implemented by the TSF manager to enable and disable the processing of keystrokes. This interface is obtained by calling the TSF manager's <b>ITfThreadMgr::QueryInterface</b> with IID_ITfConfigureSystemKeystrokeFeed.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Enables the TSF manager to process keystrokes after being disabled by DisableSys
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
@@ -100,7 +95,4 @@ Enables the TSF manager to process keystrokes after being disabled by DisableSys
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: b941c5c8-39b4-4a5d-93e9-acbde7177d44
 ms.date: 12/05/2018
 ms.keywords: FSCTL_EXTEND_VOLUME, FSCTL_EXTEND_VOLUME control, FSCTL_EXTEND_VOLUME control code [Files], base.fsctl_extend_volume, fs.fsctl_extend_volume, winioctl/FSCTL_EXTEND_VOLUME
-f1_keywords:
-- winioctl/FSCTL_EXTEND_VOLUME
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_EXTEND_VOLUME
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_EXTEND_VOLUME
+ - winioctl/FSCTL_EXTEND_VOLUME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_EXTEND_VOLUME
 ---
 
 # FSCTL_EXTEND_VOLUME IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -113,7 +108,6 @@ SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -121,3 +115,4 @@ Resilient File System (ReFS) | Yes
 * [FSCTL_SHRINK_VOLUME](ni-winioctl-fsctl_shrink_volume.md)
 * [IOCTL_DISK_GROW_PARTITION](ni-winioctl-ioctl_disk_grow_partition.md)
 * [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+

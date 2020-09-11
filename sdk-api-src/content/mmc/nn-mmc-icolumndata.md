@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: fb2b8863-c476-4997-915d-329cf66fd945
 ms.date: 12/05/2018
 ms.keywords: IColumnData, IColumnData interface [MMC], IColumnData interface [MMC],described, _slate_icolumndata, mmc.icolumndata, mmc/IColumnData
-f1_keywords:
-- mmc/IColumnData
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IColumnData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IColumnData
+ - mmc/IColumnData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IColumnData
 ---
 
 # IColumnData interface
 
 
 ## -description
-
 
 The 
 <b>IColumnData</b> interface is introduced in MMC 1.2.
@@ -74,7 +74,6 @@ For more information about column customization, see
 The 
 <b>IColumnData</b> interface can be queried from the IConsole passed into 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a> during the component creation.
-
 
 ## -inheritance
 
@@ -127,20 +126,13 @@ Sets the sorting direction for columns in a column set.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>
- 
-
- 
 

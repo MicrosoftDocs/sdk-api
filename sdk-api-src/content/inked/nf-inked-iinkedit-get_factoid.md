@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9
 ms.date: 12/05/2018
 ms.keywords: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9, Factoid property [Tablet PC], Factoid property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Factoid property, IInkEdit.Factoid, IInkEdit.get_Factoid, IInkEdit::Factoid, IInkEdit::get_Factoid, IInkEdit::put_Factoid, InkEdit.get_Factoid, InkEdit.put_Factoid, get_Factoid, inked/IInkEdit::Factoid, inked/IInkEdit::get_Factoid, inked/IInkEdit::put_Factoid, put_Factoid, tablet.inkedit_factoid
-f1_keywords:
-- inked/IInkEdit.Factoid
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkEd.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkEd.dll
-- InkEd.dll.dll
-api_name:
-- IInkEdit.Factoid
-- IInkEdit.get_Factoid
-- IInkEdit.put_Factoid
-- InkEdit.get_Factoid
-- InkEdit.put_Factoid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkEdit::get_Factoid
+ - inked/IInkEdit::get_Factoid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkEd.dll
+ - InkEd.dll.dll
+api_name:
+ - IInkEdit.Factoid
+ - IInkEdit.get_Factoid
+ - IInkEdit.put_Factoid
+ - InkEdit.get_Factoid
+ - InkEdit.put_Factoid
 ---
 
 # IInkEdit::get_Factoid
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid</a> constant that a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object uses to constrain its search for the recognition result.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property should only be changed if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
 
@@ -82,13 +77,7 @@ This property takes or returns a string parameter and not a class object of the 
 <div> </div>
 For more information about factoids and how to use them, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-context-to-improve-accuracy">Using Context to Improve Accuracy</a>. For a list of supported factoids, see <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
 
@@ -99,7 +88,4 @@ For more information about factoids and how to use them, see <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
- 
-
- 
 

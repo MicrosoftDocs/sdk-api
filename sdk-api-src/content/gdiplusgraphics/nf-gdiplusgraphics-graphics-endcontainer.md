@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\endcontainer.htm
 ms.date: 12/05/2018
 ms.keywords: EndContainer, EndContainer method [GDI+], EndContainer method [GDI+],Graphics class, Graphics class [GDI+],EndContainer method, Graphics.EndContainer, Graphics::EndContainer, _gdiplus_CLASS_Graphics_EndContainer_state_, gdiplus._gdiplus_CLASS_Graphics_EndContainer_state_
-f1_keywords:
-- gdiplusgraphics/Graphics.EndContainer
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.EndContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::EndContainer
+ - gdiplusgraphics/Graphics::EndContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.EndContainer
 ---
 
 # Graphics::EndContainer
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::EndContainer</b> method closes a graphics container that was previously opened by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param state [in]
 
 Type: <b>GraphicsContainer</b>
 
-Value (previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>) that identifies the container to be closed. 
-
+Value (previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>) that identifies the container to be closed.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -78,12 +71,7 @@ If the method succeeds, it returns <b>Ok</b>, which is an element of the
 If the method fails, it returns one of the other elements of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 When you call the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method of a 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object, an information block that holds the state of the 
@@ -138,14 +126,7 @@ VOID Example_EndContainer(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
@@ -168,7 +149,4 @@ VOID Example_EndContainer(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>
- 
-
- 
 

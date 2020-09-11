@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getrawinputdeviceinfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetRawInputDeviceInfo, GetRawInputDeviceInfo function [Keyboard and Mouse Input], GetRawInputDeviceInfoA, GetRawInputDeviceInfoW, RIDI_DEVICEINFO, RIDI_DEVICENAME, RIDI_PREPARSEDDATA, _win32_GetRawInputDeviceInfo, _win32_getrawinputdeviceinfo_cpp, inputdev.getrawinputdeviceinfo, winui._win32_getrawinputdeviceinfo, winuser/GetRawInputDeviceInfo, winuser/GetRawInputDeviceInfoA, winuser/GetRawInputDeviceInfoW
-f1_keywords:
-- winuser/GetRawInputDeviceInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,35 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
-- MinUser.dll
-api_name:
-- GetRawInputDeviceInfo
-- GetRawInputDeviceInfoA
-- GetRawInputDeviceInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetRawInputDeviceInfoA
+ - winuser/GetRawInputDeviceInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
+ - MinUser.dll
+api_name:
+ - GetRawInputDeviceInfo
+ - GetRawInputDeviceInfoA
+ - GetRawInputDeviceInfoW
 ---
 
 # GetRawInputDeviceInfoA function
+
 
 ## -description
 
@@ -63,7 +65,7 @@ Retrieves information about the raw input device.
 
 Type: <b>HANDLE</b>
 
-A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> or from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>. 
+A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> or from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>.
 
 ### -param uiCommand [in]
 
@@ -115,13 +117,13 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 
 Type: <b>LPVOID</b>
 
-A pointer to a buffer that contains the information specified by <i>uiCommand</i>. If <i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>. 
+A pointer to a buffer that contains the information specified by <i>uiCommand</i>. If <i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>.
 
 ### -param pcbSize [in, out]
 
 Type: <b>PUINT</b>
 
-The size, in bytes, of the data in <i>pData</i>. 
+The size, in bytes, of the data in <i>pData</i>.
 
 ## -returns
 
@@ -161,3 +163,4 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-e
 
 > [!NOTE]
 > The winuser.h header defines GetRawInputDeviceInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

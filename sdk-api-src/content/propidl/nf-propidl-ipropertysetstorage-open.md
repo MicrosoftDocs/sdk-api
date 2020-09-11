@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
 ms.date: 12/05/2018
 ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
-f1_keywords:
-- propidl/IPropertySetStorage.Open
-dev_langs:
-- c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IPropertySetStorage.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySetStorage::Open
+ - propidl/IPropertySetStorage::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IPropertySetStorage.Open
 ---
 
 # IPropertySetStorage::Open
@@ -49,44 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Open</b> method opens a property set contained in the property set storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param rfmtid [in]
 
 The format identifier (FMTID) of the property set to be opened. For more information about well-known and predefined FMTIDs in the Platform SDK, see 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/predefined-property-set-format-identifiers">Predefined Property Set Format Identifiers</a>.
 
-
 ### -param grfMode [in]
 
 The access mode in which the newly created property set is to be opened. These flags are taken from <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>. Flags that may be used and their meanings in the context of this method are described in the following Remarks section.
-
 
 ### -param ppprstg [out]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> pointer variable that receives the interface pointer to the requested property storage subobject.
 
-
 ## -returns
-
-
 
 This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
-
-
-
 ## -remarks
-
-
 
 The mode in which the property set is to be opened is specified in the parameter <i>grfMode</i>. These flags are taken from <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>, but, for this method, legal values and their meanings are as follows (only certain combinations of these flag values are legal).
 
@@ -141,13 +127,7 @@ This method is subject to the constraints of the underlying <a href="https://doc
 <a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>, <b>IPropertySetStorage::Open</b> is subject to constraints that apply to the caller-specified 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
@@ -170,7 +150,4 @@ This method is subject to the constraints of the underlying <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
- 
-
- 
 

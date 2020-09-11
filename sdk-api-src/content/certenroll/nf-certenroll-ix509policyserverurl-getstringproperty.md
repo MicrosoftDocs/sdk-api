@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1a163774-2e32-48f7-9aa1-cbfa0ec7a943
 ms.date: 12/05/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Security], GetStringProperty method [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],GetStringProperty method, IX509PolicyServerUrl.GetStringProperty, IX509PolicyServerUrl::GetStringProperty, PsFriendlyName, PsPolicyID, certenroll/IX509PolicyServerUrl::GetStringProperty, security.ix509policyserverurl_getstringproperty
-f1_keywords:
-- certenroll/IX509PolicyServerUrl.GetStringProperty
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509PolicyServerUrl.GetStringProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PolicyServerUrl::GetStringProperty
+ - certenroll/IX509PolicyServerUrl::GetStringProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509PolicyServerUrl.GetStringProperty
 ---
 
 # IX509PolicyServerUrl::GetStringProperty
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetStringProperty</b> method retrieves the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
 
-
 ## -parameters
-
-
-
 
 ### -param propertyId [in]
 
@@ -88,17 +84,12 @@ Retrieve a display name for the policy server.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppValue [out, retval]
 
 Pointer to a <b>BSTR</b> variable that receives the property value.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -143,18 +134,8 @@ Memory could not be allocated for the return value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
- 
-
- 
 

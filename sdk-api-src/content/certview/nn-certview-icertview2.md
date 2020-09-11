@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c29f1db3-0cdf-463e-a202-47fbba8e1c81
 ms.date: 12/05/2018
 ms.keywords: ICertView2, ICertView2 interface [Security], ICertView2 interface [Security],described, _certsrv_icertview2, certview/ICertView2, security.icertview2
-f1_keywords:
-- certview/ICertView2
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertView2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertView2
+ - certview/ICertView2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertView2
 ---
 
 # ICertView2 interface
 
 
 ## -description
-
 
 The <b>ICertView2</b> interface is one of two interfaces that allow properly authorized clients to create a customized or complete view of the Certificate Services database.
 
@@ -69,7 +69,6 @@ In C++, the <b>ICertView2</b> interface is instantiated through a call to the CO
 The <b>ICertView2</b> interface is defined in Certview.h. When you create your program, however, use Certsrv.h as the include file. Certadm.dll provides the <b>ICertView2</b> interface. The type information for this interface is also in Certadml.dll, which is shipped with the Platform Software Development Kit (SDK).
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -159,5 +158,5 @@ Specifies the maximum the number of columns for the result set of a customized v
 <td align="left" width="63%">
 Specifies which Certificate Services database table is used for subsequent calls to  the methods of the <b>ICertView2</b> interface.</p> (Inherited from <b>ICertView2</b><b>CCertView</b>)</td>
 </tr>
-</table> 
+</table>
 

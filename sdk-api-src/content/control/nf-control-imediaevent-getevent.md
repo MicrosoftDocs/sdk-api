@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: d7cbbf6d-c741-416f-b8dd-d9ca012d309a
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [DirectShow], GetEvent method [DirectShow],IMediaEvent interface, GetEvent method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],GetEvent method, IMediaEvent.GetEvent, IMediaEvent::GetEvent, IMediaEventEx interface [DirectShow],GetEvent method, IMediaEventEx::GetEvent, IMediaEventGetEvent, control/IMediaEvent::GetEvent, control/IMediaEventEx::GetEvent, dshow.imediaevent_getevent
-f1_keywords:
-- control/IMediaEvent.GetEvent
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaEvent.GetEvent
-- IMediaEventEx.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaEvent::GetEvent
+ - control/IMediaEvent::GetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaEvent.GetEvent
+ - IMediaEventEx.GetEvent
 ---
 
 # IMediaEvent::GetEvent
@@ -51,41 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetEvent</code> method retrieves the next event notification from the event queue.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lEventCode [out]
 
 Pointer to a variable that receives the event code.
 
-
 ### -param lParam1 [out]
 
 Pointer to a variable that receives the first event parameter.
-
 
 ### -param lParam2 [out]
 
 Pointer to a variable that receives the second event parameter.
 
-
 ### -param msTimeout [in]
 
 Time-out interval, in milliseconds. Use INFINITE to block until there is an event.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -117,14 +104,8 @@ Timeout expired.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If no event is on the queue, this method waits up to <i>msTimeout</i> milliseconds for an event to arrive. Avoid using a time-out interval of INFINITE, because threads cannot process any messages while waiting in <code>GetEvent</code>. If you call <code>GetEvent</code> from the same thread that processes Windows messages, specify only small wait times, in order to remain responsive to user input.
 
@@ -134,13 +115,7 @@ For a list of notification codes and event parameter values, see <a href="https:
 
 Because this method removes the event from the filter graph event queue, there is no way for multiple clients to monitor events from the same graph.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -151,7 +126,4 @@ Because this method removes the event from the filter graph event queue, there i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a>
- 
-
- 
 

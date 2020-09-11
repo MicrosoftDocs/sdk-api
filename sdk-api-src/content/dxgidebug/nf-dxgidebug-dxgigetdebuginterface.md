@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 7702B842-6808-4CA9-A5B4-B1A1DC2479A7
 ms.date: 12/05/2018
 ms.keywords: DXGIGetDebugInterface, DXGIGetDebugInterface function [DXGI], direct3ddxgi.dxgigetdebuginterface, dxgidebug/DXGIGetDebugInterface
-f1_keywords:
-- dxgidebug/DXGIGetDebugInterface
-dev_langs:
-- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dxgidebug.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dxgidebug.dll
-api_name:
-- DXGIGetDebugInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXGIGetDebugInterface
+ - dxgidebug/DXGIGetDebugInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dxgidebug.dll
+api_name:
+ - DXGIGetDebugInterface
 ---
 
 # DXGIGetDebugInterface function
@@ -49,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a debugging interface.
 
-
 ## -parameters
-
-
-
 
 ### -param riid
 
 The globally unique identifier (GUID) of the requested interface type.
 
-
 ### -param ppDebug
 
 A pointer to a buffer that receives a pointer to the debugging interface.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
-
-
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a> are debugging interfaces.
 
@@ -91,19 +77,11 @@ To access <b>DXGIGetDebugInterface</b>, call the <a href="https://docs.microsoft
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-functions">DXGI Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>
- 
-
- 
 

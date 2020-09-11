@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 967CA2AC-A36A-4875-9882-6EF4748EC92C
 ms.date: 12/05/2018
 ms.keywords: GetTrackId, GetTrackId method [Media Foundation], GetTrackId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetTrackId method, IMFTimedTextCue.GetTrackId, IMFTimedTextCue::GetTrackId, mf.imftimedtextcue_gettrackid, mfmediaengine/IMFTimedTextCue::GetTrackId
-f1_keywords:
-- mfmediaengine/IMFTimedTextCue.GetTrackId
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextCue.GetTrackId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextCue::GetTrackId
+ - mfmediaengine/IMFTimedTextCue::GetTrackId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextCue.GetTrackId
 ---
 
 # IMFTimedTextCue::GetTrackId
@@ -49,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the identifier of the timed-text cue.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
 Returns the identifier of the timed-text cue.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>
- 
-
- 
 

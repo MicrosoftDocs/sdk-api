@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 38970fc0-ec4c-4068-a146-83edaa040c8c
 ms.date: 12/05/2018
 ms.keywords: 38970fc0-ec4c-4068-a146-83edaa040c8c, GetTablet, GetTablet method [Tablet PC], GetTablet method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTablet method, IRealTimeStylus.GetTablet, IRealTimeStylus::GetTablet, rtscom/IRealTimeStylus::GetTablet, tablet.irealtimestylus_gettablet
-f1_keywords:
-- rtscom/IRealTimeStylus.GetTablet
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.GetTablet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::GetTablet
+ - rtscom/IRealTimeStylus::GetTablet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.GetTablet
 ---
 
 # IRealTimeStylus::GetTablet
@@ -49,35 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object to the caller.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppiSingleTablet [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object.
 
-
 ## -returns
-
-
 
 For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method returns, <i>ppiSingleTablet</i> will contain <b>NULL</b> when the RealTimeStylus is receiving data from more that one tablet. For instance, when the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setalltabletsmode">IRealTimeStylus::SetAllTabletsMode Method</a> is called with a value of <b>TRUE</b> on a machine with a digitizer and mouse.
 
@@ -110,14 +95,7 @@ if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
 
@@ -128,7 +106,4 @@ if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
 
 
 <b>RealTimeStylus Class</b>
- 
-
- 
 

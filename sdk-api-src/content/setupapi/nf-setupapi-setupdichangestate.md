@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 204c1366-1817-4cd1-a1fd-a4ad3e79b7cc
 ms.date: 12/05/2018
 ms.keywords: SetupDiChangeState, SetupDiChangeState function [Device and Driver Installation], devinst.setupdichangestate, di-rtns_0749286d-9e78-4e2a-8bbf-483d698753ba.xml, setupapi/SetupDiChangeState
-f1_keywords:
-- setupapi/SetupDiChangeState
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupDiChangeState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiChangeState
+ - setupapi/SetupDiChangeState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupDiChangeState
 ---
 
 # SetupDiChangeState function
@@ -50,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiChangeState</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a> installation request. 
-
+The <b>SetupDiChangeState</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a> installation request.
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for the local computer. This set contains a device information element that represents the device whose state is to be changed. 
-
+A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for the local computer. This set contains a device information element that represents the device whose state is to be changed.
 
 ### -param DeviceInfoData [in, out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetupDiChangeState</b> changes the state of an installed device.
 
@@ -100,15 +87,9 @@ This function does the following:
 
 Callers of this function should not specify DICS_STOP or DICS_START in the SP_PROPCHANGE_PARAMS. Use DICS_PROPCHANGE to stop and restart a device to cause changes in the device's configuration to take effect.
 
-If DI_DONOTCALLCONFIGMG is set for a device, you should not call <b>SetupDiChangeState</b> for the device but should instead set the DI_NEEDREBOOT flag. 
-
-
-
+If DI_DONOTCALLCONFIGMG is set for a device, you should not call <b>SetupDiChangeState</b> for the device but should instead set the DI_NEEDREBOOT flag.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a>
 
@@ -119,7 +100,4 @@ If DI_DONOTCALLCONFIGMG is set for a device, you should not call <b>SetupDiChang
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
- 
-
- 
 

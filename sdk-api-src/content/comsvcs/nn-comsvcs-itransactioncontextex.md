@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: cdf3a74f-cdef-4721-9c0d-90af724c24ba
 ms.date: 12/05/2018
 ms.keywords: ITransactionContextEx, ITransactionContextEx interface [COM+], ITransactionContextEx interface [COM+],described, _cos_ITransactionContextEx_Interface, comsvcs/ITransactionContextEx, cos.itransactioncontextex
-f1_keywords:
-- comsvcs/ITransactionContextEx
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionContextEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionContextEx
+ - comsvcs/ITransactionContextEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionContextEx
 ---
 
 # ITransactionContextEx interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides basic methods for a generic transactional object that begins a transaction. By calling the methods of this interface, you can compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a> and <b>ITransactionContextEx</b> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
-
 
 ## -inheritance
 
@@ -98,12 +97,9 @@ Creates a COM object that can execute within the scope of the transaction that w
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Using the transaction context object to control a transaction limits the reuse of the business logic driving the transaction and should be used sparingly.
 
@@ -117,12 +113,7 @@ You obtain a reference to the <a href="https://docs.microsoft.com/windows/deskto
        (void**)&amp;m_pTransactionContext);
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/configuring-transactions">Configuring Transactions</a>
 
@@ -133,7 +124,4 @@ You obtain a reference to the <a href="https://docs.microsoft.com/windows/deskto
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/transactioncontextex">TransactionContextEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetrequest, lineGetRequest, lineGetRequest function [TAPI 2.2], lineGetRequestA, lineGetRequestW, tapi/lineGetRequest, tapi/lineGetRequestA, tapi/lineGetRequestW, tapi2.linegetrequest
-f1_keywords:
-- tapi/lineGetRequest
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGetRequest
-- lineGetRequestA
-- lineGetRequestW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGetRequestW
+ - tapi/lineGetRequestW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGetRequest
+ - lineGetRequestA
+ - lineGetRequestW
 ---
 
 # lineGetRequestW function
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGetRequest</b> function retrieves the next by-proxy request for the specified request mode.
 
-
 ## -parameters
-
-
-
 
 ### -param hLineApp
 
 The application usage handle for the line portion of TAPI.
 
-
 ### -param dwRequestMode
 
 A type of request to be obtained. Be aware that <i>dwRequestMode</i> can only have one bit set. This parameter uses one and only one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linerequestmode--constants">LINEREQUESTMODE_ Constants</a>.
-
 
 ### -param lpRequestBuffer
 
@@ -81,21 +75,13 @@ If <i>dwRequestMode</i> is LINEREQUESTMODE_MAKECALL, interpret the content of th
 
 LINEREQUESTMODE_MEDIACALL is obsolete.  For more information, see tapiRequestMediaCall.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 <b>LINEERR_INVALAPPHANDLE</b>, <b>LINEERR_NOTREGISTERED</b>, <b>LINEERR_INVALPOINTER</b>, <b>LINEERR_OPERATIONFAILED</b>, <b>LINEERR_INVALREQUESTMODE</b>, <b>LINEERR_RESOURCEUNAVAIL</b>, <b>LINEERR_NOMEM</b>, <b>LINEERR_UNINITIALIZED</b>, <b>LINEERR_NOREQUEST</b>.
 
-
-
-
 ## -remarks
-
-
 
 A telephony-enabled application can request that a call be placed on its behalf by invoking 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>. These requests are queued by TAPI and the highest priority application that has registered to handle the request is sent a 
@@ -122,9 +108,6 @@ The subsequent LINE_REQUEST should not be ignored because it is not repeated by 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
@@ -142,7 +125,4 @@ The subsequent LINE_REQUEST should not be ignored because it is not repeated by 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>
- 
-
- 
 

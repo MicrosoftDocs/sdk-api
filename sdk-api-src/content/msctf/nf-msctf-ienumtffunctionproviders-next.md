@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: c9938eb0-c084-4663-9aef-584c987a08a7
 ms.date: 12/05/2018
 ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Next method, IEnumTfFunctionProviders.Next, IEnumTfFunctionProviders::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_next_ref, msctf/IEnumTfFunctionProviders::Next, tsf.ienumtffunctionproviders_next
-f1_keywords:
-- msctf/IEnumTfFunctionProviders.Next
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfFunctionProviders.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfFunctionProviders::Next
+ - msctf/IEnumTfFunctionProviders::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfFunctionProviders.Next
 ---
 
 # IEnumTfFunctionProviders::Next
+
 
 ## -description
 
@@ -56,20 +58,15 @@ Obtains, from the current position, the specified number of elements in the enum
 
 Specifies the number of elements to obtain.
 
-
 ### -param ppCmdobj [out]
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
-
 
 ### -param pcFetch [out]
 
 Pointer to a ULONG value that receives the number of elements obtained. This value can be less than the number of items requested. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,3 +113,4 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfFunctionProviders interface](nn-msctf-ienumtffunctionproviders.md), [ITfFunctionProvider interface](nn-msctf-itffunctionprovider.md)
+

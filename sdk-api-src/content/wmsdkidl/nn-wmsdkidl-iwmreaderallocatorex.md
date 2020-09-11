@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: be727c7b-b252-44db-825b-5c683e551fd2
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAllocatorEx, IWMReaderAllocatorEx interface [windows Media Format], IWMReaderAllocatorEx interface [windows Media Format],described, IWMReaderAllocatorExInterface, wmformat.iwmreaderallocatorex, wmsdkidl/IWMReaderAllocatorEx
-f1_keywords:
-- wmsdkidl/IWMReaderAllocatorEx
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMReaderAllocatorEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAllocatorEx
+ - wmsdkidl/IWMReaderAllocatorEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMReaderAllocatorEx
 ---
 
 # IWMReaderAllocatorEx interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMReaderAllocatorEx</b> interface provides expanded alternatives to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-allocateforoutput">AllocateForOutput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-allocateforstream">AllocateForStream</a> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced</a> interface. This interface is implemented by the application, which passes this interface pointer to the synchronous reader object by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setallocateforstream">IWMSyncReader2::SetAllocateForStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setallocateforoutput">SetAllocateForOutput</a>.
-
-
-
 
 ## -inheritance
 
@@ -89,13 +85,9 @@ Allocates a buffer for samples delivered to the <a href="https://docs.microsoft.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/allocating-buffers-for-file-reading">Allocating Buffers for File Reading</a>
 
@@ -114,7 +106,4 @@ Allocates a buffer for samples delivered to the <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
- 
-
- 
 

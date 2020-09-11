@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 0a83b257-e88f-4870-924c-56ddc325f17f
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSample, IDirectDrawMediaSample interface [DirectShow], IDirectDrawMediaSample interface [DirectShow],described, IDirectDrawMediaSampleInterface, amstream/IDirectDrawMediaSample, dshow.idirectdrawmediasample
-f1_keywords:
-- amstream/IDirectDrawMediaSample
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDirectDrawMediaSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawMediaSample
+ - amstream/IDirectDrawMediaSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDirectDrawMediaSample
 ---
 
 # IDirectDrawMediaSample interface
 
 
 ## -description
-
-
 
 The <code>IDirectDrawMediaSample</code> interface provides access to DirectDraw surfaces allocated by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter.
 
@@ -59,9 +58,6 @@ The allocator for the Overlay Mixer filter creates samples that expose this inte
 Samples that support this interface also support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
 
 The Overlay Mixer's allocator exposes the <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator">IDirectDrawMediaSampleAllocator</a>.
-
-
-
 
 ## -inheritance
 
@@ -96,5 +92,5 @@ Locks the surface that the sample represents.
 
 </td>
 </tr>
-</table> 
+</table>
 

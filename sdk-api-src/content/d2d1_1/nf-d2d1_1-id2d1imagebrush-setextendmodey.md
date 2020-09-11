@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 8c71dff4-f682-4649-8e29-41bcd4b911a6
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetExtendModeY method, ID2D1ImageBrush.SetExtendModeY, ID2D1ImageBrush::SetExtendModeY, SetExtendModeY, SetExtendModeY method [Direct2D], SetExtendModeY method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetExtendModeY, direct2d.id2d1imagebrush_setextendmodey
-f1_keywords:
-- d2d1_1/ID2D1ImageBrush.SetExtendModeY
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1ImageBrush.SetExtendModeY
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1ImageBrush::SetExtendModeY
+ - d2d1_1/ID2D1ImageBrush::SetExtendModeY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1ImageBrush.SetExtendModeY
 ---
 
 # ID2D1ImageBrush::SetExtendModeY
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the extend mode on the y-axis.
 
-
 ## -parameters
-
-
-
 
 ### -param extendModeY
 
@@ -64,14 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2
 
 The extend mode on the y-axis of the image.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1imagebrush">ID2D1ImageBrush</a>
- 
-
- 
 

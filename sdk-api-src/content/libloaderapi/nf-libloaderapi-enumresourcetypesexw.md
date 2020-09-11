@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypesex.htm
 ms.date: 12/05/2018
 ms.keywords: EnumResourceTypesEx, EnumResourceTypesEx function [Menus and Other Resources], EnumResourceTypesExA, EnumResourceTypesExW, RESOURCE_ENUM_LN, RESOURCE_ENUM_MUI, RESOURCE_ENUM_VALIDATE, _win32_EnumResourceTypesEx, _win32_enumresourcetypesex_cpp, libloaderapi/EnumResourceTypesEx, libloaderapi/EnumResourceTypesExA, libloaderapi/EnumResourceTypesExW, menurc.enumresourcetypesex, winui._win32_enumresourcetypesex
-f1_keywords:
-- libloaderapi/EnumResourceTypesEx
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
-- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-api_name:
-- EnumResourceTypesEx
-- EnumResourceTypesExA
-- EnumResourceTypesExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumResourceTypesExW
+ - libloaderapi/EnumResourceTypesExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+api_name:
+ - EnumResourceTypesEx
+ - EnumResourceTypesExA
+ - EnumResourceTypesExW
 ---
 
 # EnumResourceTypesExW function
@@ -59,18 +60,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates resource types associated with a specified binary module. The search can include both a <a href="https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management">language-neutral Portable Executable</a> file (LN file) and its associated .mui files. Alternately, it can be limited to a single binary module of any type, or to the .mui files associated with a single LN file. The search can also be limited to a single associated .mui file that contains resources for a specific language.
 
       
 
 For each resource type found, <b>EnumResourceTypesEx</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing the resource type it finds, as well as the various other parameters that were passed to <b>EnumResourceTypesEx</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param hModule [in, optional]
 
@@ -80,20 +76,17 @@ The handle to a module to be searched. Typically this is an LN file, and if flag
 
 If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the module used to create the current process.
 
-
 ### -param lpEnumFunc [in]
 
 Type: <b>ENUMRESTYPEPROC</b>
 
 A pointer to the callback function to be called for each enumerated resource type. For more information, see <a href="https://msdn.microsoft.com/98f957a8-18c7-46f3-989c-b2a019dff33f">EnumResTypeProc</a>.
 
-
 ### -param lParam [in]
 
 Type: <b>LONG_PTR</b>
 
 An application-defined value passed to the callback function.
-
 
 ### -param dwFlags [in]
 
@@ -140,8 +133,6 @@ Performs extra validation on the resource section and its reference in the PE he
 </td>
 </tr>
 </table>
- 
-
 
 ### -param LangId [in]
 
@@ -149,21 +140,13 @@ Type: <b>LANGID</b>
 
 The language used to filter the search in the MUI module. This parameter is used only when the <b>RESOURCE_ENUM_MUI</b> flag is set in <i>dwFlags</i>. If zero is specified, then all .mui files that match current language preferences are included in the search, following the usual Resource Loader strategy (see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>). If a nonzero <i>LangId</i> is specified, then the only .mui file searched will be the one matching the specified <i>LangId</i>.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>EnumResourceTypesEx</b> function continues to enumerate resource types until the callback function returns <b>FALSE</b> or all resource types have been enumerated.
 
@@ -190,9 +173,6 @@ For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -218,7 +198,4 @@ For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: d133f1e1-cbeb-403d-b247-9f495cb6f0f7
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], IWMPDVD interface [Windows Media Player],described, IWMPDVDInterface, wmp.iwmpdvd, wmp/IWMPDVD
-f1_keywords:
-- wmp/IWMPDVD
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPDVD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPDVD
+ - wmp/IWMPDVD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPDVD
 ---
 
 # IWMPDVD interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPDVD</b> interface provides methods for working with DVDs.
-
-
-
 
 ## -inheritance
 
@@ -142,16 +138,9 @@ Retrieve a pointer to an <b>IWMPDVD</b> interface with the following method.
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore2-get_dvd">get_dvd</a>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

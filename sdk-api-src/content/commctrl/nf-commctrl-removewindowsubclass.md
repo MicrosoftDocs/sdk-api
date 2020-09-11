@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a
 ms.date: 12/05/2018
 ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell], commctrl/RemoveWindowSubclass, inet_RemoveWindowSubclass, shell.RemoveWindowSubclass
-f1_keywords:
-- commctrl/RemoveWindowSubclass
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 5.8 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- RemoveWindowSubclass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveWindowSubclass
+ - commctrl/RemoveWindowSubclass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - RemoveWindowSubclass
 ---
 
 # RemoveWindowSubclass function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a subclass callback from a window.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -64,13 +60,11 @@ Type: <b>HWND</b>
 
 The handle of the window being subclassed.
 
-
 ### -param pfnSubclass [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a></b>
 
-A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback. For the callback function prototype, see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a>.  
-
+A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback. For the callback function prototype, see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a>.
 
 ### -param uIdSubclass [in]
 
@@ -78,21 +72,13 @@ Type: <b>UINT_PTR</b>
 
 The <b>UINT_PTR</b> subclass ID. This ID and the callback pointer uniquely identify this subclass callback. Note: On 64-bit versions of Windows this is a 64-bit value.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if the subclass callback was successfully removed; otherwise, <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Subclass callbacks are identified by their combination of the callback address and the subclass ID defined by the calling process.
 
@@ -103,12 +89,7 @@ No reference counting is performed for the callback; it may repeatedly call <a h
 <div class="alert"><b>Warning</b>  You cannot use the subclassing helper functions to subclass a window across threads.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc">DefSubclassProc</a>
 
@@ -119,7 +100,4 @@ No reference counting is performed for the callback; it may repeatedly call <a h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>
- 
-
- 
 

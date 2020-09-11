@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 5e8c1cfd-50f3-431c-aedb-6e57d1368695
 ms.date: 12/05/2018
 ms.keywords: GetFrame, GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetFrame method, IWICBitmapDecoder.GetFrame, IWICBitmapDecoder::GetFrame, _wic_codec_iwicbitmapdecoder_getframe, wic._wic_codec_iwicbitmapdecoder_getframe, wincodec/IWICBitmapDecoder::GetFrame
-f1_keywords:
-- wincodec/IWICBitmapDecoder.GetFrame
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapDecoder.GetFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapDecoder::GetFrame
+ - wincodec/IWICBitmapDecoder::GetFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapDecoder.GetFrame
 ---
 
 # IWICBitmapDecoder::GetFrame
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified frame of the image.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
@@ -64,21 +60,15 @@ Type: <b>UINT</b>
 
 The particular frame to retrieve.
 
-
 ### -param ppIBitmapFrame [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>**</b>
 
 A pointer that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

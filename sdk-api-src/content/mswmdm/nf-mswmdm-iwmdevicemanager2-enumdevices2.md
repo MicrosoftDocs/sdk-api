@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: b5015263-23f2-466f-a89f-26c14f7a2263
 ms.date: 12/05/2018
 ms.keywords: EnumDevices2, EnumDevices2 method [windows Media Device Manager], EnumDevices2 method [windows Media Device Manager],IWMDeviceManager2 interface, IWMDeviceManager2 interface [windows Media Device Manager],EnumDevices2 method, IWMDeviceManager2.EnumDevices2, IWMDeviceManager2::EnumDevices2, IWMDeviceManager2EnumDevices2, mswmdm/IWMDeviceManager2::EnumDevices2, wmdm.iwmdevicemanager2_enumdevices2
-f1_keywords:
-- mswmdm/IWMDeviceManager2.EnumDevices2
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDeviceManager2.EnumDevices2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDeviceManager2::EnumDevices2
+ - mswmdm/IWMDeviceManager2::EnumDevices2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDeviceManager2.EnumDevices2
 ---
 
 # IWMDeviceManager2::EnumDevices2
@@ -50,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EnumDevices2</b> method retrieves an enumeration interface that is used to enumerate portable devices connected to the computer.
 
 
 
 Microsoft strongly recommends that applications use the <b>EnumDevices2</b> method instead of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">IWMDeviceManager::EnumDevices</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnumDevice [out]
 
 Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice</a> interface. The caller is responsible for calling <b>Release</b> on the retrieved interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -82,12 +74,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method returns an enumerator that takes advantage of the Plug and Play (PnP) system for a faster enumeration and lower memory use. For PnP-complaint service providers, it loads in memory only those service providers that have a device currently connected to the computer, and requests only those service providers to create device objects.
 
@@ -131,14 +118,7 @@ if (hr == S_OK)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/enumerating-devices">Enumerating Devices</a>
 
@@ -149,7 +129,4 @@ if (hr == S_OK)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
- 
-
- 
 

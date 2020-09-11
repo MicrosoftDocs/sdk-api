@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 94dee6cc-a142-4180-a562-14f4ded16884
 ms.date: 12/05/2018
 ms.keywords: IQueryContinue, IQueryContinue interface [Windows Shell], IQueryContinue interface [Windows Shell],described, inet_IQueryContinue, shell.IQueryContinue, shobjidl_core/IQueryContinue
-f1_keywords:
-- shobjidl_core/IQueryContinue
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IQueryContinue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueryContinue
+ - shobjidl_core/IQueryContinue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IQueryContinue
 ---
 
 # IQueryContinue interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation. Clients of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification">IUserNotification</a>, for example, must pass an implementation of <b>IQueryContinue</b> to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show">IUserNotification::Show</a> method.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Returns S_OK if the operation associated with the current instance of this inter
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification">IUserNotification</a>
- 
-
- 
 

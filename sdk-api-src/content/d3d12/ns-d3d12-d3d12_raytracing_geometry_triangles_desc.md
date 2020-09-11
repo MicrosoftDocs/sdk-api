@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 21F4FE2C-FE1B-4520-BEE7-5058467B54D1
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC structure, PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC structure pointer, d3d12/D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, d3d12/PD3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC, direct3d12.d3d12_raytracing_geometry_triangles_desc
-f1_keywords:
-- d3d12/D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC
+ - d3d12/D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC
 ---
 
 # D3D12_RAYTRACING_GEOMETRY_TRIANGLES_DESC structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a set of triangles used as raytracing geometry. The geometry pointed to by this struct are always in triangle list form, indexed or non-indexed. Triangle strips are not supported.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Transform3x4
 
@@ -66,7 +62,6 @@ If <i>Transform3x4</i> is NULL the vertices will not be transformed. Using <i>Tr
 
 
 The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  The address must be aligned to 16 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_TRANSFORM3X4_BYTE_ALIGNMENT</a>.
-
 
 ### -field IndexFormat
 
@@ -95,18 +90,15 @@ Format of the vertices in <i>VertexBuffer</i>.  Must be one of the following:
 
 Number of indices in <i>IndexBuffer</i>.  Must be 0 if <i>IndexBuffer</i> is NULL.
 
-
 ### -field VertexCount
 
 Number of vertices in <i>VertexBuffer</i>.
-
 
 ### -field IndexBuffer
 
 Array of vertex indices.  If NULL, triangles are non-indexed.  Just as with graphics, the address must be aligned to the size of <i>IndexFormat</i>.
 
 The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</a>.  Note that if an app wants to share index buffer inputs between graphics input assembler and raytracing acceleration structure build input, it can always put a resource into a combination of read states simultaneously, e.g. <b>D3D12_RESOURCE_STATE_INDEX_BUFFER</b> | <b>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</b>.
-
 
 ### -field VertexBuffer
 

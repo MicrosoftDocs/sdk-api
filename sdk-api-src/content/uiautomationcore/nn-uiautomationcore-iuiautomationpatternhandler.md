@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 6d0edd8e-3fd4-47d6-ab53-582eb81f38bd
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPatternHandler, IUIAutomationPatternHandler interface [Windows Accessibility], IUIAutomationPatternHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPatternHandler, uiauto_IUIAutomationPatternHandler, uiautomationcore/IUIAutomationPatternHandler, winauto.uiauto_IUIAutomationPatternHandler
-f1_keywords:
-- uiautomationcore/IUIAutomationPatternHandler
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationPatternHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationPatternHandler
+ - uiautomationcore/IUIAutomationPatternHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationPatternHandler
 ---
 
 # IUIAutomationPatternHandler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a client API wrapper object and to unmarshal property and method requests to an actual provider instance. The PatternHandler object is stateless, so this can be implemented by a singleton.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Dispatches a method or property getter to a custom <i>control pattern</i> provid
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
 

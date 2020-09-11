@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ae850eea-c283-4500-baa0-e26641576852
 ms.date: 12/05/2018
 ms.keywords: IVMRAspectRatioControl9, IVMRAspectRatioControl9 interface [DirectShow], IVMRAspectRatioControl9 interface [DirectShow],described, IVMRAspectRatioControl9Interface, dshow.ivmraspectratiocontrol9, vmr9/IVMRAspectRatioControl9
-f1_keywords:
-- vmr9/IVMRAspectRatioControl9
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRAspectRatioControl9
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRAspectRatioControl9
+ - vmr9/IVMRAspectRatioControl9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRAspectRatioControl9
 ---
 
 # IVMRAspectRatioControl9 interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IVMRAspectRatioControl9</code> interface controls whether the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video. This interface is available when the VMR is operating in either windowed or windowless modes. In windowless mode, the same functionality is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a> interface.
-
-
-
 
 ## -inheritance
 
@@ -90,16 +86,9 @@ Specifies whether the VMR will preserve the aspect ratio of the source video.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

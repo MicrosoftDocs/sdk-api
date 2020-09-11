@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 8691a641-fc06-451c-9988-234e01dc02df
 ms.date: 12/05/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],RevokeDocument method, IAccServerDocMgr.RevokeDocument, IAccServerDocMgr::RevokeDocument, RevokeDocument, RevokeDocument method [Windows Accessibility], RevokeDocument method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_RevokeDocument, msaa.iaccserverdocmgr_iaccserverdocmgr__revokedocument, msaatext/IAccServerDocMgr::RevokeDocument, winauto.iaccserverdocmgr_iaccserverdocmgr__revokedocument
-f1_keywords:
-- msaatext/IAccServerDocMgr.RevokeDocument
-dev_langs:
-- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Msaatext.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msaatext.dll
-api_name:
-- IAccServerDocMgr.RevokeDocument
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ms.custom: 19H1
+f1_keywords:
+ - IAccServerDocMgr::RevokeDocument
+ - msaatext/IAccServerDocMgr::RevokeDocument
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msaatext.dll
+api_name:
+ - IAccServerDocMgr.RevokeDocument
 ---
 
 # IAccServerDocMgr::RevokeDocument
 
 
 ## -description
-
 
 Server applications call the <b>IAccServerDocMgr::RevokeDocument</b> method to notify the Microsoft Active Accessibility run time that a document is no longer available. Calling <b>RevokeDocument</b> removes it from the store so that clients cannot see the document.
 <div class="alert"><b>Note</b>  Active Accessibility Text Services is deprecated. Please see     
@@ -57,23 +57,15 @@ Server applications call the <b>IAccServerDocMgr::RevokeDocument</b> method to n
 
 ## -parameters
 
-
-
-
 ### -param punk [in]
 
 Type: <b>IUnknown*</b>
 
 An interface pointer to the document being revoked.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
-
-
 

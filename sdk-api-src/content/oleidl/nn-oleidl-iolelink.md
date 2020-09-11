@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4a34a90d-df1b-4bbf-8365-9d741c18ff74
 ms.date: 12/05/2018
 ms.keywords: IOleLink, IOleLink interface [COM], IOleLink interface [COM],described, _ole_iolelink, com.iolelink, oleidl/IOleLink
-f1_keywords:
-- oleidl/IOleLink
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleLink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleLink
+ - oleidl/IOleLink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleLink
 ---
 
 # IOleLink interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a linked object to provide its container with functions pertaining to linking. The most important of these functions is binding to the link source, that is, activating the connection to the document that stores the linked object's native data. <b>IOleLink</b> also defines functions for managing information about the linked object, such as the location of the link source and the cached presentation data for the linked object.
 
 A container application can distinguish between embedded objects and linked objects by querying for <b>IOleLink</b>; only linked objects implement <b>IOleLink</b>.
-
 
 ## -inheritance
 
@@ -169,13 +168,9 @@ Updates the compound document's cached data for a linked object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
@@ -186,7 +181,4 @@ Updates the compound document's cached data for a linked object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
- 
-
- 
 

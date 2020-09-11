@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDirectory, GetCurrentDirectory function [Files], GetCurrentDirectoryA, GetCurrentDirectoryW, _win32_getcurrentdirectory, base.getcurrentdirectory, fs.getcurrentdirectory, winbase/GetCurrentDirectory, winbase/GetCurrentDirectoryA, winbase/GetCurrentDirectoryW
-f1_keywords:
-- winbase/GetCurrentDirectory
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetCurrentDirectory
-- GetCurrentDirectoryA
-- GetCurrentDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentDirectory
+ - winbase/GetCurrentDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetCurrentDirectory
+ - GetCurrentDirectoryA
+ - GetCurrentDirectoryW
 ---
 
 # GetCurrentDirectory function
@@ -56,20 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current directory for the current process.
 
-
 ## -parameters
-
-
-
 
 ### -param nBufferLength [in]
 
 The length of the buffer for the current directory string, in <b>TCHARs</b>. The 
       buffer length must include room for a terminating null character.
-
 
 ### -param lpBuffer [out]
 
@@ -79,10 +74,7 @@ A pointer to the buffer that receives the current directory string. This null-te
 To determine the required buffer size, set this parameter to <b>NULL</b> and the 
        <i>nBufferLength</i> parameter to 0.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the number of characters that are written to the buffer, 
        not including the terminating null character.
@@ -93,12 +85,7 @@ If the function fails, the return value is zero. To get extended error informati
 If the buffer that is pointed to by <i>lpBuffer</i> is not large enough, the return value 
        specifies the required size of the buffer, in characters, including the null-terminating character.
 
-
-
-
 ## -remarks
-
-
 
 Each process has a single current directory that consists of two parts:
 
@@ -181,12 +168,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
 
@@ -209,7 +191,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a>
- 
-
- 
 

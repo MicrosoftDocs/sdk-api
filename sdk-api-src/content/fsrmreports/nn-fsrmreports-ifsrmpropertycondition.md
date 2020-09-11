@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 5c50b86b-f166-459e-92ce-63faa374c407
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyCondition, IFsrmPropertyCondition interface [File Server Resource Manager], IFsrmPropertyCondition interface [File Server Resource Manager],described, fs.ifsrmpropertycondition, fsrm.ifsrmpropertycondition, fsrm/IFsrmPropertyCondition
-f1_keywords:
-- fsrmreports/IFsrmPropertyCondition
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyCondition
+ - fsrmreports/IFsrmPropertyCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyCondition
 ---
 
 # IFsrmPropertyCondition interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a property condition that the file management job uses to determine if the file is expired.
 
 To create this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createpropertycondition">IFsrmFileManagementJob::CreatePropertyCondition</a>   method.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_propertyconditions">IFsrmFileManagementJob.PropertyConditions</a> property contains a collection of these interfaces.
-
 
 ## -inheritance
 
@@ -138,14 +137,9 @@ The property condition's value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the [Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value) property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
-
-
 

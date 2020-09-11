@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], IWMPSettings interface [Windows Media Player],described, IWMPSettingsInterface, wmp.iwmpsettings, wmp/IWMPSettings
-f1_keywords:
-- wmp/IWMPSettings
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings
+ - wmp/IWMPSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPSettings
 ---
 
 # IWMPSettings interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPSettings</b> interface provides methods that get or set the values of Windows Media Player settings.
-
-
-
 
 ## -inheritance
 
@@ -295,16 +291,9 @@ Retrieve a pointer to an <b>IWMPSettings</b> interface with the following method
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_settings">get_settings</a>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

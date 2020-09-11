@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: abf7617e-1194-4303-a214-23fbaf20eccf
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],InitializeFromInnerRequestTemplateName method, IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName, IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName, InitializeFromInnerRequestTemplateName, InitializeFromInnerRequestTemplateName method [Security], InitializeFromInnerRequestTemplateName method [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName, security.ix509certificaterequestcmc_initializefrominnerrequesttemplatename
-f1_keywords:
-- certenroll/IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName
+ - certenroll/IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName
 ---
 
 # IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromInnerRequestTemplateName</b> method initializes the certificate request from an inner request  object and a template.
 
-
 ## -parameters
-
-
-
 
 ### -param pInnerRequest [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface that represents the inner request object. This can be a PKCS #10 or  a CMC request.
 
-
 ### -param strTemplateName [in]
 
 A <b>BSTR</b> variable that contains the Common Name (CN) of the template as it appears in Active Directory or the dotted decimal <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -106,14 +98,8 @@ The request object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By specifying a template, you can add information to the outer request object that may not be contained in the inner request. For example, if the inner request does not contain the necessary extensions, you can supply a template that does.
 
@@ -130,17 +116,7 @@ The <b>InitializeFromInnerRequestTemplateName</b> method:<ul>
 <li>Sets the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionstrength">EncryptionStrength</a> property if possible.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
- 
-
- 
 

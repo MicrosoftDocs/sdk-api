@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
-f1_keywords:
-- wuapi/IUpdateSearcher.Search
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher.Search
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher::Search
+ - wuapi/IUpdateSearcher::Search
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher.Search
 ---
 
 # IUpdateSearcher::Search
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a synchronous search for updates. The search uses the search options that are currently configured.
 
-
 ## -parameters
-
-
-
 
 ### -param criteria [in]
 
 A string that specifies the search criteria.
-
 
 ### -param retval [out]
 
@@ -73,8 +68,6 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearc
 </ul>
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -119,14 +112,8 @@ There is an invalid search criteria.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The string that is used for the <i>criteria</i> parameter must match the custom search language for the <b>Search</b> method.  The string consists of criteria that are evaluated to determine the updates to return.
 
@@ -314,15 +301,7 @@ To find all the hidden updates (by using the  <a href="https://docs.microsoft.co
 
 <pre class="syntax" xml:space="preserve"><code> ( IsHidden = 1 )</code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass.htm
 ms.date: 12/05/2018
 ms.keywords: 5cb1e1c5-e0ab-9620-8166-f4d77be0bd73, ID3D10EffectPass, ID3D10EffectPass interface [Direct3D 10], ID3D10EffectPass interface [Direct3D 10],described, d3d10effect/ID3D10EffectPass, direct3d10.id3d10effectpass
-f1_keywords:
-- d3d10effect/ID3D10EffectPass
-dev_langs:
-- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10EffectPass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10EffectPass
+ - d3d10effect/ID3D10EffectPass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10EffectPass
 ---
 
 # ID3D10EffectPass interface
 
 
 ## -description
-
 
 A pass interface encapsulates state assignments within a technique.
 
@@ -143,8 +143,7 @@ Test a pass to see if it contains valid syntax.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -members
 
@@ -253,27 +252,13 @@ Get a vertex-shader description.
 
 Test a pass to see if it contains valid syntax.
 
- 
-
-
 ## -remarks
-
-
 
 A pass is a block of code that sets render-state objects and shaders. A pass is declared within a technique; the syntax for a technique is shown in <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-effect-technique-syntax">Effect Technique Syntax (Direct3D 10)</a>.
 
 To get an effect-pass interface, call a method like <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getpassbyname">ID3D10EffectTechnique::GetPassByName</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
- 
-
- 
 

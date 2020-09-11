@@ -7,10 +7,6 @@ tech.root: shell
 ms.assetid: 4a8fd0ed-4a9a-47c7-a0ab-87cf82f507cb
 ms.date: 01/30/19
 ms.keywords: IFileViewerW::PrintTo
-f1_keywords:
-- shlobj/IFileViewerW::PrintTo
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,14 +27,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - IFileViewerW::PrintTo
+ - shlobj/IFileViewerW::PrintTo
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- shlobj.h
+ - shlobj.h
 api_name:
-- IFileViewerW::PrintTo
+ - IFileViewerW::PrintTo
 ---
 
 ## -description

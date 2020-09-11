@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: e0019d0d-1495-4a0e-a7d9-7772046a4a26
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, IFunctionDiscoveryProvider interface,described, functiondiscoveryprovider/IFunctionDiscoveryProvider, ncd.ifunctiondiscoveryprovider
-f1_keywords:
-- functiondiscoveryprovider/IFunctionDiscoveryProvider
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IFunctionDiscoveryProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscoveryProvider
+ - functiondiscoveryprovider/IFunctionDiscoveryProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IFunctionDiscoveryProvider
 ---
 
 # IFunctionDiscoveryProvider interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
@@ -59,7 +59,6 @@ You should only implement and use this interface if you are writing a discovery 
 If you are writing a client program that discovers and queries devices, use the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a> interface instead.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-provider-sample">Function Discovery Provider Sample</a> implements the <b>IFunctionDiscoveryProvider</b> interface.
-
 
 ## -inheritance
 
@@ -148,20 +147,13 @@ Retrieves a collection of function instances that meet the specified constraints
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-provider-sample">Function Discovery Provider Sample</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/using-function-discovery-providers">Using Function Discovery Providers</a>
- 
-
- 
 

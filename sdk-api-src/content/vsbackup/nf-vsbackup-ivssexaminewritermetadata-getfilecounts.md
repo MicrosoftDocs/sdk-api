@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7c1f1e9d-3154-4e03-a7dd-69b9f505dbb2
 ms.date: 12/05/2018
 ms.keywords: GetFileCounts, GetFileCounts method [VSS], GetFileCounts method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetFileCounts method, IVssExamineWriterMetadata.GetFileCounts, IVssExamineWriterMetadata::GetFileCounts, _win32_ivssexaminewritermetadata_getfilecounts, base.ivssexaminewritermetadata_getfilecounts, vsbackup/IVssExamineWriterMetadata::GetFileCounts
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadata.GetFileCounts
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadata.GetFileCounts
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadata::GetFileCounts
+ - vsbackup/IVssExamineWriterMetadata::GetFileCounts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadata.GetFileCounts
 ---
 
 # IVssExamineWriterMetadata::GetFileCounts
@@ -50,34 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetFileCounts</b> method obtains excluded files and the number of components that a writer manages.
 
-
 ## -parameters
-
-
-
 
 ### -param pcIncludeFiles [out]
 
 Reserved for system use.
 
-
 ### -param pcExcludeFiles [out]
 
 The address of a caller-allocated variable that receives the number of file sets that are explicitly excluded from the backup.
-
 
 ### -param pcComponents [out]
 
 The address of a caller-allocated variable that receives the total number of components that are managed by the current writer.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -146,15 +137,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
 
@@ -165,7 +149,4 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile">IVssExamineWriterMetadata::GetExcludeFile</a>
- 
-
- 
 

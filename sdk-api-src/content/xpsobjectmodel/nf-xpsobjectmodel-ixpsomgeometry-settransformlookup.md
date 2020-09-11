@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 98623f23-eb34-4140-8179-46786ab18fb0
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMGeometry.SetTransformLookup, IXpsOMGeometry::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_settransformlookup, xpsobjectmodel/IXpsOMGeometry::SetTransformLookup
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometry.SetTransformLookup
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometry.SetTransformLookup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometry::SetTransformLookup
+ - xpsobjectmodel/IXpsOMGeometry::SetTransformLookup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometry.SetTransformLookup
 ---
 
 # IXpsOMGeometry::SetTransformLookup
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the lookup key name of a shared matrix transform in a resource dictionary.
 
-
 ## -parameters
-
-
-
 
 ### -param lookup [in]
 
 The key name of the shared matrix transform in the resource dictionary.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -119,14 +112,8 @@ No object could be found with a key name that matches the value passed in <i>loo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After you call <b>SetTransformLookup</b>, the local transform is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometry-gettransformlocal">GetTransformLocal</a> returns a <b>NULL</b> pointer in the <i>transform</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
@@ -197,15 +184,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a>
 
@@ -216,7 +196,4 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

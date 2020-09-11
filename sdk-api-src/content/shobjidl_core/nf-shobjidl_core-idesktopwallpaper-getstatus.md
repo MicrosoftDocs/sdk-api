@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 19F2776E-0B5F-45c9-962A-08BFC0273066
 ms.date: 12/05/2018
 ms.keywords: DSS_DISABLED_BY_REMOTE_SESSION, DSS_ENABLED, DSS_SLIDESHOW, GetStatus, GetStatus method [Windows Shell], GetStatus method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetStatus method, IDesktopWallpaper.GetStatus, IDesktopWallpaper::GetStatus, shell.IDesktopWallpaper_GetStatus, shobjidl_core/IDesktopWallpaper::GetStatus
-f1_keywords:
-- shobjidl_core/IDesktopWallpaper.GetStatus
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDesktopWallpaper.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDesktopWallpaper::GetStatus
+ - shobjidl_core/IDesktopWallpaper::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDesktopWallpaper.GetStatus
 ---
 
 # IDesktopWallpaper::GetStatus
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current status of the slideshow.
 
-
 ## -parameters
-
-
-
 
 ### -param state [out]
 
@@ -80,23 +76,11 @@ A slideshow is currently configured.
 
 A remote session has temporarily disabled the slideshow.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
- 
-
- 
 

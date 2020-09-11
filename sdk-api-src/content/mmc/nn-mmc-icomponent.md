@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 65eaa5ef-182b-4fec-bb3d-a308ac9dc660
 ms.date: 12/05/2018
 ms.keywords: IComponent, IComponent interface [MMC], IComponent interface [MMC],described, _slate_icomponent, mmc.icomponent, mmc/IComponent
-f1_keywords:
-- mmc/IComponent
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IComponent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponent
+ - mmc/IComponent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IComponent
 ---
 
 # IComponent interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IComponent</b> interface enables MMC to communicate with snap-ins. Similar to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface, 
 <b>IComponent</b> is typically implemented at the view level and is closely associated with items being displayed in the result pane.
-
 
 ## -inheritance
 
@@ -136,5 +135,5 @@ Returns a data object that can be used to retrieve context information for the s
 
 </td>
 </tr>
-</table> 
+</table>
 

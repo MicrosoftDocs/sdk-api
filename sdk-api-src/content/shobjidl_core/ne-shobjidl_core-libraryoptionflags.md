@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 205c40ff-a4dc-4a57-b51a-1e230fc170dd
 ms.date: 12/05/2018
 ms.keywords: LIBRARYOPTIONFLAGS, LIBRARYOPTIONFLAGS enumeration [Windows Shell], LOF_DEFAULT, LOF_MASK_ALL, LOF_PINNEDTONAVPANE, _shell_LIBRARYOPTIONFLAGS, shell.LIBRARYOPTIONFLAGS, shobjidl_core/LIBRARYOPTIONFLAGS, shobjidl_core/LOF_DEFAULT, shobjidl_core/LOF_MASK_ALL, shobjidl_core/LOF_PINNEDTONAVPANE
-f1_keywords:
-- shobjidl_core/LIBRARYOPTIONFLAGS
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- LIBRARYOPTIONFLAGS
 targetos: Windows
 req.typenames: LIBRARYOPTIONFLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LIBRARYOPTIONFLAGS
+ - shobjidl_core/LIBRARYOPTIONFLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - LIBRARYOPTIONFLAGS
 ---
 
 # LIBRARYOPTIONFLAGS enumeration
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the library options.
 
-
 ## -enum-fields
-
-
-
 
 ### -field LOF_DEFAULT
 
 No library options are set.
 
-
 ### -field LOF_PINNEDTONAVPANE
 
 Pin the library to the navigation pane.
-
 
 ### -field LOF_MASK_ALL
 
 All valid library options flags.
 
-
 ## -remarks
-
-
 
 <h3><a id="Used_By"></a><a id="used_by"></a><a id="USED_BY"></a>Used By</h3>
 <ul>
@@ -87,15 +78,7 @@ All valid library options flags.
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
- 
-
- 
 

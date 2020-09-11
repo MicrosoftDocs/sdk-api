@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 697018c4-7cce-480a-b078-993cdac32bf5
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSuspend, IOfflineFilesSuspend interface [Offline Files], IOfflineFilesSuspend interface [Offline Files],described, cscobj/IOfflineFilesSuspend, of.iofflinefilessuspend
-f1_keywords:
-- cscobj/IOfflineFilesSuspend
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesSuspend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesSuspend
+ - cscobj/IOfflineFilesSuspend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesSuspend
 ---
 
 # IOfflineFilesSuspend interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Suspends or releases a share root or directory tree in the Offline Files cache. A suspended tree is always offline and is never synchronized automatically by the Offline Files service.  It may, however, be synchronized by the user through Windows Explorer, through Sync Center, or by code calling the Offline Files API.
-
 
 ## -inheritance
 
@@ -78,16 +77,9 @@ Suspend or release a share root or directory tree.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

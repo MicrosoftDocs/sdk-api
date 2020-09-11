@@ -8,10 +8,6 @@ tech.root: SMI
 ms.assetid: 0bbfd39a-0292-4d8e-ae31-f45aebd326a7
 ms.date: 12/05/2018
 ms.keywords: ISettingsResult, ISettingsResult interface [SMI], ISettingsResult interface [SMI],described, smi.isettingsresult, wcmconfig/ISettingsResult
-f1_keywords:
-- wcmconfig/ISettingsResult
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsResult
+ - wcmconfig/ISettingsResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsResult
 ---
 
 # ISettingsResult interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the code and description for errors and warnings returned by various operations.
-
 
 ## -inheritance
 
@@ -122,5 +121,5 @@ Returns the file or path where the error has occurred.
 
 </td>
 </tr>
-</table> 
+</table>
 

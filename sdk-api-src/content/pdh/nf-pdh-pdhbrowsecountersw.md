@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 4e9e4b20-a573-4f6d-97e8-63bcc675032b
 ms.date: 12/05/2018
 ms.keywords: PdhBrowseCounters, PdhBrowseCounters function [Perf], PdhBrowseCountersA, PdhBrowseCountersW, _win32_pdhbrowsecounters, base.pdhbrowsecounters, pdh/PdhBrowseCounters, pdh/PdhBrowseCountersA, pdh/PdhBrowseCountersW, perf.pdhbrowsecounters
-f1_keywords:
-- pdh/PdhBrowseCounters
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhBrowseCounters
-- PdhBrowseCountersA
-- PdhBrowseCountersW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhBrowseCountersW
+ - pdh/PdhBrowseCountersW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhBrowseCounters
+ - PdhBrowseCountersA
+ - PdhBrowseCountersW
 ---
 
 # PdhBrowseCountersW function
@@ -51,28 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a  <b>Browse Counters</b> dialog box that the user can use to select one or more counters that they want to add to the query.
 			
 
 To use handles to data sources, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersha">PdhBrowseCountersH</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param pBrowseDlgData [in]
 
 A 
 <a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure that specifies the behavior of the dialog box.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -81,12 +74,7 @@ If the function fails, the return value is a
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
 <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 Note that the dialog
    box can return PDH_DIALOG_CANCELLED if <b>bSingleCounterPerDialog</b>is <b>FALSE</b> and the user clicks the  <b>Close</b> button, so your error handling would have to account for this.
@@ -109,9 +97,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nc-pdh-counterpathcallback">CounterPathCallBack</a>
 
 
@@ -121,7 +106,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersha">PdhBrowseCountersH</a>
- 
-
- 
 

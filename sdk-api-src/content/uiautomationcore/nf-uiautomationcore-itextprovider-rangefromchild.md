@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: b55ae687-44e1-499f-8341-0bbf960529fd
 ms.date: 12/05/2018
 ms.keywords: ITextProvider interface [Windows Accessibility],RangeFromChild method, ITextProvider.RangeFromChild, ITextProvider::RangeFromChild, RangeFromChild, RangeFromChild method [Windows Accessibility], RangeFromChild method [Windows Accessibility],ITextProvider interface, uiauto.uiauto_ITextProvider_RangeFromChild, uiauto_ITextProvider_RangeFromChild, uiautomationcore/ITextProvider::RangeFromChild, winauto.uiauto_ITextProvider_RangeFromChild
-f1_keywords:
-- uiautomationcore/ITextProvider.RangeFromChild
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- ITextProvider.RangeFromChild
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextProvider::RangeFromChild
+ - uiautomationcore/ITextProvider::RangeFromChild
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ITextProvider.RangeFromChild
 ---
 
 # ITextProvider::RangeFromChild
+
 
 ## -description
 
@@ -127,3 +129,4 @@ Each element retrieved with [ITextRangeProvider::GetChildren](nf-uiautomationcor
 ## -see-also
 
 [ITextProvider](nn-uiautomationcore-itextprovider.md), [ITextRangeProvider](nn-uiautomationcore-itextrangeprovider.md), [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md), [ITextRangeProvider::GetChildren](nf-uiautomationcore-itextrangeprovider-getchildren.md), [UI Automation Providers Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview)
+

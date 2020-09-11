@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: AB2A4D0B-CDE0-462C-BF52-3F78D0093526
 ms.date: 12/05/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IMFVideoSampleAllocatorEx, IID_IUnknown, MFCreateVideoSampleAllocatorEx, MFCreateVideoSampleAllocatorEx function [Media Foundation], mf.mfcreatevideosampleallocatorex, mfapi/MFCreateVideoSampleAllocatorEx
-f1_keywords:
-- mfapi/MFCreateVideoSampleAllocatorEx
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFCreateVideoSampleAllocatorEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateVideoSampleAllocatorEx
+ - mfapi/MFCreateVideoSampleAllocatorEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFCreateVideoSampleAllocatorEx
 ---
 
 # MFCreateVideoSampleAllocatorEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an object that allocates video samples that are compatible with Microsoft DirectX Graphics Infrastructure (DXGI).
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
@@ -108,39 +104,20 @@ Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfi
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppSampleAllocator [out]
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function creates an allocator for DXGI video surfaces. The buffers created by this allocator expose the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a> interface. To create an allocator for Microsoft Direct3D 9 video surfaces, call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nc-evr-mfcreatevideosampleallocator">MFCreateVideoSampleAllocator</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

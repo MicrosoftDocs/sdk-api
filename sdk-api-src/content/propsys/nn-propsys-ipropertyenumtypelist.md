@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 5df237a8-6468-43ee-870c-11b39e5e9dd9
 ms.date: 12/05/2018
 ms.keywords: IPropertyEnumTypeList, IPropertyEnumTypeList interface [Windows Properties], IPropertyEnumTypeList interface [Windows Properties],described, properties.IPropertyEnumTypeList, propsys/IPropertyEnumTypeList, shell.IPropertyEnumTypeList, shell_IPropertyEnumTypeList
-f1_keywords:
-- propsys/IPropertyEnumTypeList
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyEnumTypeList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyEnumTypeList
+ - propsys/IPropertyEnumTypeList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyEnumTypeList
 ---
 
 # IPropertyEnumTypeList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that enumerate the possible values for a property.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Gets the number of elements in the list.
 
 </td>
 </tr>
-</table> 
+</table>
 

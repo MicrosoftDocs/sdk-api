@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 04814179-2555-4ba5-a08c-bff776c03ca3
 ms.date: 12/05/2018
 ms.keywords: Bind, Bind method [Automation], Bind method [Automation],ITypeComp interface, ITypeComp interface [Automation],Bind method, ITypeComp.Bind, ITypeComp::Bind, _oa96_ITypeComp_Bind, automat.itypecomp_bind, oaidl/ITypeComp::Bind
-f1_keywords:
-- oaidl/ITypeComp.Bind
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeComp.Bind
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeComp::Bind
+ - oaidl/ITypeComp::Bind
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeComp.Bind
 ---
 
 # ITypeComp::Bind
@@ -49,56 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maps a name to a member of a type, or binds global variables and functions contained in a type library.
 
-
 ## -parameters
-
-
-
 
 ### -param szName [in]
 
 The name to be bound.
 
-
 ### -param lHashVal [in]
 
 The hash value for the name computed by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-lhashvalofnamesys">LHashValOfNameSys</a>.
-
-
-
 
 ### -param wFlags [in]
 
 One or more of the flags defined in the INVOKEKIND enumeration. Specifies whether the name was referenced as a method or a property. When binding to a variable, specify the flag INVOKE_PROPERTYGET. Specify zero to bind to any type of member.
 
-
-
-
 ### -param ppTInfo [out]
 
 If a FUNCDESC or VARDESC was returned, then <i>ppTInfo</i> points to a pointer to the type description that contains the item to which it is bound.
-
-
-
 
 ### -param pDescKind [out]
 
 Indicates whether the name bound to is a VARDESC, FUNCDESC, or TYPECOMP. If there was no match, DESCKIND_NONE.
 
-
-
-
 ### -param pBindPtr [out]
 
 The bound-to VARDESC, FUNCDESC, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -144,14 +124,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use <b>Bind</b> for binding to the variables and methods of a type, or for binding to the global variables and methods in a type library. The returned DESCKIND pointer <i>pDescKind</i> indicates whether the name was bound to a VARDESC, a FUNCDESC, or to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> instance. The returned <i>pBindPtr</i> points to the VARDESC, FUNCDESC, or <b>ITypeComp</b>.
 
@@ -181,15 +155,7 @@ The caller should use the returned <a href="https://docs.microsoft.com/previous-
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a>
- 
-
- 
 

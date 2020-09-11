@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 184adc09-8b48-4a2e-bbd9-ec6bd9085c32
 ms.date: 12/05/2018
 ms.keywords: IDisplayHelp interface [MMC],ShowTopic method, IDisplayHelp.ShowTopic, IDisplayHelp::ShowTopic, ShowTopic, ShowTopic method [MMC], ShowTopic method [MMC],IDisplayHelp interface, _slate_idisplayhelp_showtopic, mmc.idisplayhelp_showtopic, mmc/IDisplayHelp::ShowTopic
-f1_keywords:
-- mmc/IDisplayHelp.ShowTopic
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IDisplayHelp.ShowTopic
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDisplayHelp::ShowTopic
+ - mmc/IDisplayHelp::ShowTopic
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IDisplayHelp.ShowTopic
 ---
 
 # IDisplayHelp::ShowTopic
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDisplayHelp::ShowTopic</b> method displays the specified HTML Help topic in the merged MMC HTML Help file.
 
-
 ## -parameters
-
-
-
 
 ### -param pszHelpTopic [in]
 
@@ -91,19 +87,11 @@ mysnapin.chm::/help01.htm
 
 Support for numeric IDs for topics is not included in versions 1.2 and earlier.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 MMC versions 1.0 and 1.1 required that <i>pszHelpTopic</i> be allocated with the COM API function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and that MMC would then free the string. This violated the COM rules for allocation of in-parameters, which require that they be both allocated and freed by the caller (the snap-in). In MMC 1.2 and MMC 2.0, it is no longer required that <i>pszHelpTopic</i> be allocated with <b>CoTaskMemAlloc</b>. The caller is free to use whatever memory management it desires. If the caller chooses to use <b>CoTaskMemAlloc</b>, it is also responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the string.
 
@@ -124,19 +112,11 @@ If the snap-in handles the <a href="https://docs.microsoft.com/previous-versions
 <li>It can return <b>S_FALSE</b> to the notification. MMC then displays the Help collection file with the default MMC topic selected.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-mmcpropertyhelp">MMCPropertyHelp</a>
- 
-
- 
 

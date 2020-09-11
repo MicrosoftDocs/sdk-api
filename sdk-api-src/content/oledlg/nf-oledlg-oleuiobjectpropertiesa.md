@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 591f6056-2e5f-4e58-8806-9a0093de2463
 ms.date: 12/05/2018
 ms.keywords: OleUIObjectProperties, OleUIObjectProperties function [COM], OleUIObjectPropertiesA, OleUIObjectPropertiesW, _ole_OleUIObjectProperties, com.oleuiobjectproperties, oledlg/OleUIObjectProperties, oledlg/OleUIObjectPropertiesA, oledlg/OleUIObjectPropertiesW
-f1_keywords:
-- oledlg/OleUIObjectProperties
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIObjectProperties
-- OleUIObjectPropertiesA
-- OleUIObjectPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIObjectPropertiesA
+ - oledlg/OleUIObjectPropertiesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIObjectProperties
+ - OleUIObjectPropertiesA
+ - OleUIObjectPropertiesW
 ---
 
 # OleUIObjectPropertiesA function
@@ -51,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the <b>Object Properties</b> dialog box, which displays <b>General</b>, <b>View</b>, and <b>Link</b> information about an object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1 [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -588,14 +578,8 @@ The <i>lpLinkInfo</i> value is <b>NULL</b> or the calling process doesn't have r
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>OleUIObjectProperties</b> is passed an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure, which supplies the information needed to fill in the <b>General</b>, <b>View</b>, and <b>Link</b> tabs of the <b>Object Properties</b> dialog box.
 
@@ -607,9 +591,6 @@ The <i>lpLinkInfo</i> value is <b>NULL</b> or the calling process doesn't have r
 > The oledlg.h header defines OleUIObjectProperties as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkinfoa">IOleUILinkInfo</a>
 
@@ -632,7 +613,4 @@ The <i>lpLinkInfo</i> value is <b>NULL</b> or the calling process doesn't have r
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>
- 
-
- 
 

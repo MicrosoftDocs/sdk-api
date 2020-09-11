@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
 ms.date: 12/05/2018
 ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], IRunningTask interface [Task Scheduler],described, taskschd.irunningtask, taskschd/IRunningTask
-f1_keywords:
-- taskschd/IRunningTask
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRunningTask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRunningTask
+ - taskschd/IRunningTask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRunningTask
 ---
 
 # IRunningTask interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods to get information from and control a running task.
-
 
 ## -inheritance
 
@@ -191,13 +190,9 @@ Gets the state of the running task.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run">IRegisteredTask::Run</a>
 
@@ -216,7 +211,4 @@ Gets the state of the running task.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

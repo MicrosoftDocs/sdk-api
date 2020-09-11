@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cf30f635-4918-4911-9db0-df90d26a2f1a
 ms.date: 12/05/2018
 ms.keywords: BCryptResolveProviders, BCryptResolveProviders function [Security], CRYPT_ALL_FUNCTIONS, CRYPT_ALL_PROVIDERS, CRYPT_KM, CRYPT_MM, CRYPT_UM, bcrypt/BCryptResolveProviders, security.bcryptresolveproviders
-f1_keywords:
-- bcrypt/BCryptResolveProviders
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptResolveProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptResolveProviders
+ - bcrypt/BCryptResolveProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptResolveProviders
 ---
 
 # BCryptResolveProviders function
@@ -49,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptResolveProviders</b> function obtains a collection of all of the providers that meet the specified criteria.
 
-
 ## -parameters
-
-
-
 
 ### -param pszContext [in, optional]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context for which to obtain the providers.  If this is set to <b>NULL</b> or to an empty string, the default context is assumed.
 
-
 ### -param dwInterface [in, optional]
 
 The identifier of an interface that the provider must support. This must be one of the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-interface-identifiers">CNG Interface Identifiers</a>. If the <i>pszFunction</i> parameter is not <b>NULL</b> or an empty string, you can set <i>dwInterface</i> to zero to force the function to infer the interface.
 
-
 ### -param pszFunction [in, optional]
 
 A pointer to a null-terminated Unicode string that contains the algorithm or function identifier that the provider must support. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.  If <i>dwInterface</i> is set to a nonzero value, then <i>pszFunction</i> can be <b>NULL</b> to include all algorithms and functions.
-
-
 
 ### -param pszProvider [in, optional]
 
 A pointer to a null-terminated Unicode string that contains the name of the provider to retrieve. If this parameter is <b>NULL</b>, then all providers will be included.
 
 This parameter allows you to specify a specific provider to retrieve in the event that more than one provider meets the other criteria.
-
 
 ### -param dwMode [in]
 
@@ -121,8 +112,6 @@ Retrieve both user mode and kernel mode providers.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -161,13 +150,10 @@ This function will retrieve all of the providers that meet the specified criteri
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbBuffer [in, out]
 
 A pointer to a <b>DWORD</b> value that, on entry, contains the size, in bytes, of the buffer pointed to by the <i>ppBuffer</i> parameter. On exit, this value receives either the number of bytes copied to the buffer or the required size, in bytes, of the buffer.
-
 
 ### -param ppBuffer [in, out]
 
@@ -179,10 +165,7 @@ If this parameter is the address of a <b>NULL</b> pointer, this function will al
 
 If this parameter is the address of a non-<b>NULL</b> pointer, this function will copy the provider information into this buffer. The <i>pcbBuffer</i> parameter must contain the size, in bytes, of the entire buffer. If the buffer is not large enough to hold all of the provider information, this function will return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -241,16 +224,8 @@ No provider could be found that meets all of the specified criteria.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>BCryptResolveProviders</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>.
-
-
 

@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: EDA29173-84B5-4D2F-90B0-546EEEC49539
 ms.date: 12/05/2018
 ms.keywords: IXAPOHrtfParameters, IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs], IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],described, hrtfapoapi/IXAPOHrtfParameters, xaudio2.ixapohrtfparameters
-f1_keywords:
-- hrtfapoapi/IXAPOHrtfParameters
-dev_langs:
-- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: HrtfApo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- HrtfApo.dll
-api_name:
-- IXAPOHrtfParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAPOHrtfParameters
+ - hrtfapoapi/IXAPOHrtfParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - HrtfApo.dll
+api_name:
+ - IXAPOHrtfParameters
 ---
 
 # IXAPOHrtfParameters interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The interface used to set parameters that control how head-related transfer function (HRTF) is applied to a sound.
-
 
 ## -inheritance
 
@@ -104,25 +103,13 @@ Sets the position of the sound relative to the listener.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Create instances of the XAPO interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-createhrtfapo">CreateHrtfApo</a> function.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">Interfaces</a>
- 
-
- 
 

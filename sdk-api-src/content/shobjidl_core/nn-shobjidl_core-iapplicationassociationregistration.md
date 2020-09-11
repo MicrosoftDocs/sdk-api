@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 015a3be4-2e74-4a2b-8c02-54dcbf0ecacd
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistration, IApplicationAssociationRegistration interface [Windows Shell], IApplicationAssociationRegistration interface [Windows Shell],described, _shell_IApplicationAssociationRegistration, shell.IApplicationAssociationRegistration, shobjidl_core/IApplicationAssociationRegistration
-f1_keywords:
-- shobjidl_core/IApplicationAssociationRegistration
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IApplicationAssociationRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationAssociationRegistration
+ - shobjidl_core/IApplicationAssociationRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IApplicationAssociationRegistration
 ---
 
 # IApplicationAssociationRegistration interface
 
 
 ## -description
-
 
 Exposes methods that query and set default applications for specific file <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype">Association Type</a>, and protocols at a specific <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel">Association Level</a>.
 
@@ -125,25 +125,13 @@ Sets an application as the default for all of the registered associations of any
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Because <b>IApplicationAssociationRegistration</b> is only supported for Windows Vista and Windows 7, applications that support earlier operating systems must use their preexisting code in relation to defaults when running under those operating systems. Those applications should include a check for the operating system version to account for this.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
- 
-
- 
 

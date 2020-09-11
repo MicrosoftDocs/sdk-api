@@ -8,10 +8,6 @@ tech.root: wes
 ms.assetid: 935a787c-fd71-492d-a803-80cb2c9019ea
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_CALLBACK, EVT_SUBSCRIBE_CALLBACK callback, EVT_SUBSCRIBE_CALLBACK callback function [EventLog], wes.evt_subscribe_callback, winevt/EVT_SUBSCRIBE_CALLBACK
-f1_keywords:
-- winevt/EVT_SUBSCRIBE_CALLBACK
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinEvt.h
-api_name:
-- EVT_SUBSCRIBE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EVT_SUBSCRIBE_CALLBACK
+ - winevt/EVT_SUBSCRIBE_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinEvt.h
+api_name:
+ - EVT_SUBSCRIBE_CALLBACK
 ---
 
 # EVT_SUBSCRIBE_CALLBACK callback function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implement this callback if you call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> function to receive events that match your query. The service calls your callback when events that match your query criteria are raised.
 
-
 ## -parameters
-
-
-
 
 ### -param Action
 
 Determines whether the <i>Event</i> parameter contains an event or an error code. For possible notify action values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_subscribe_notify_action">EVT_SUBSCRIBE_NOTIFY_ACTION</a> enumeration.
 
-
 ### -param UserContext
 
 The context that the subscriber passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> function.
-
 
 ### -param Event
 
@@ -76,19 +70,11 @@ Do not call <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-wi
 
 If the <i>Action</i> parameter is EvtSubscribeActionError, cast <i>Event</i> to a DWORD to access the Win32 error code.
 
-
 ## -returns
-
-
 
 The service ignores the return code that you return.
 
-
-
-
 ## -remarks
-
-
 
 This callback will block other events from being delivered to your callback, so keep your implementation as short as possible.
 
@@ -105,15 +91,7 @@ For an example that implements <b>EVT_SUBSCRIBE_CALLBACK</b> callback function, 
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a>
- 
-
- 
 

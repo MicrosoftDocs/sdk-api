@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iaddrbook\iaddrbook.htm
 ms.date: 12/05/2018
 ms.keywords: IAddrBook, IAddrBook interface [Windows Address Book], IAddrBook interface [Windows Address Book],described, _wab_IAddrBook, wab._wab_IAddrBook, wabiab/IAddrBook
-f1_keywords:
-- wabiab/IAddrBook
-dev_langs:
-- c++
 req.header: wabiab.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IAddrBook
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IAddrBook
+ - wabiab/IAddrBook
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IAddrBook
 ---
 
 # IAddrBook interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This interface supports access to the Windows Address Book (WAB) and includes operations such as displaying common dialog boxes, opening containers, messaging users (contacts) and distribution lists (groups) in the address book, and performing name resolution.
-
 
 ## -inheritance
 
@@ -338,5 +337,5 @@ Unregisters the caller from the WAB
 
 </td>
 </tr>
-</table> 
+</table>
 

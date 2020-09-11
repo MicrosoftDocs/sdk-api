@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 12c02092-f2d5-4477-92a7-ae075b8a243a
 ms.date: 12/05/2018
 ms.keywords: REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, WNetGetUniversalName, WNetGetUniversalName function [Windows Networking (WNet)], WNetGetUniversalNameA, WNetGetUniversalNameW, _win32_wnetgetuniversalname, winnetwk/WNetGetUniversalName, winnetwk/WNetGetUniversalNameA, winnetwk/WNetGetUniversalNameW, wnet.wnetgetuniversalname
-f1_keywords:
-- winnetwk/WNetGetUniversalName
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetGetUniversalName
-- WNetGetUniversalNameA
-- WNetGetUniversalNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetGetUniversalNameA
+ - winnetwk/WNetGetUniversalNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetUniversalName
+ - WNetGetUniversalNameA
+ - WNetGetUniversalNameW
 ---
 
 # WNetGetUniversalNameA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetGetUniversalName</b> function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
 
-
 ## -parameters
-
-
-
 
 ### -param lpLocalPath [in]
 
@@ -69,7 +65,6 @@ A pointer to a constant null-terminated string that is a drive-based path for a 
 
 
 For example, if drive H has been mapped to a network drive share, and the network       resource of interest is a file named Sample.doc in the directory \Win32\Examples on that share, the drive-based path is H:\Win32\Examples\Sample.doc.
-
 
 ### -param dwInfoLevel [in]
 
@@ -111,11 +106,9 @@ The
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> structure points to a UNC name string and two additional connection information strings. For more information, see the following Remarks section.
 
-
 ### -param lpBuffer [out]
 
 A pointer to a buffer that receives the structure specified by the <i>dwInfoLevel</i> parameter.
-
 
 ### -param lpBufferSize [in, out]
 
@@ -123,10 +116,7 @@ A pointer to a variable that specifies the size, in bytes, of the buffer pointed
 
 If the function succeeds, it sets the variable pointed to by <i>lpBufferSize</i> to the number of bytes stored in the buffer. If the function fails because the buffer is too small, this location receives the required buffer size, and the function returns ERROR_MORE_DATA.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -228,14 +218,8 @@ The device specified by the <i>lpLocalPath</i> parameter is not redirected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A universal form of a local drive-based path identifies a network resource in an unambiguous, computer-independent manner. The name can then be passed to processes on other computers, allowing those processes to obtain access to the resource.
 
@@ -345,9 +329,6 @@ int wmain(int argc, wchar_t * argv[])
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WNet/determining-the-location-of-a-share">Determining the Location of a Share</a>
 
 
@@ -371,7 +352,4 @@ int wmain(int argc, wchar_t * argv[])
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

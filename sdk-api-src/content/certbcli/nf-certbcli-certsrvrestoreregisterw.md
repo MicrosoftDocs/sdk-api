@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegister, CertSrvRestoreRegister function [Security], CertSrvRestoreRegisterW, FNCERTSRVRESTOREREGISTERW, FNCERTSRVRESTOREREGISTERW function [Security], _certsrv_certsrvrestoreregister, certbcli/CertSrvRestoreRegister, certbcli/CertSrvRestoreRegisterW, certbcli/FNCERTSRVRESTOREREGISTERW, security.certsrvrestoreregister
-f1_keywords:
-- certbcli/CertSrvRestoreRegister
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvRestoreRegister
-- CertSrvRestoreRegisterW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvRestoreRegisterW
+ - certbcli/CertSrvRestoreRegisterW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvRestoreRegister
+ - CertSrvRestoreRegisterW
 ---
 
 # CertSrvRestoreRegisterW function
@@ -50,30 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvRestoreRegister</b> function registers a Certificate Services restore.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to the Certificate Services restore context. This handle is obtained by calling 
 the <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestorepreparew">CertSrvRestorePrepare</a> function.
 
-
 ### -param pwszCheckPointFilePath [in]
 
 A pointer to a null-terminated Unicode string that contains the restore path for the check point file. Pass <b>NULL</b> for this parameter if it is not needed.
 
-
 ### -param pwszLogPath [in]
 
 A pointer to a null-terminated Unicode string that contains the current log file directory. Pass <b>NULL</b> for this parameter if it is not needed.
-
 
 ### -param rgrstmap [in]
 
@@ -82,39 +75,27 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli
 
 If you are performing an incremental restoration, pass <b>NULL</b> for this parameter.
 
-
 ### -param crstmap [in]
 
 The number of elements in the <i>rgrstmap</i> array. Pass zero for this parameter if you are performing an incremental restoration.
-
 
 ### -param pwszBackupLogPath [in]
 
 A pointer to a null-terminated Unicode string that contains the path for the backup log directory. Pass <b>NULL</b> for this parameter if it is not needed.
 
-
 ### -param genLow [in]
 
 The lowest log number that was restored in this restore session. Log files are in the form of edbXXXXX.log, where XXXXX is a five hexadecimal digit value. For example, edb00001.log is the first log file created by the internal database. For purposes of this function, a value of one in <i>genLow</i> corresponds to the log file edb00001.log.
-
 
 ### -param genHigh [in]
 
 The highest log number that was restored in this restore session.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
-
-
-
 ## -remarks
-
-
 
 Use this function to register a restore operation. All subsequent restore operations will be interlocked. The restore target will be prevented from starting (or successfully executing another call to <b>CertSrvRestoreRegister</b>) until 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreregistercomplete">CertSrvRestoreRegisterComplete</a> is called.
@@ -163,14 +144,7 @@ if (S_OK != hr)
 // ...
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreregistercomplete">CertSrvRestoreRegisterComplete</a>
 
@@ -181,7 +155,4 @@ if (S_OK != hr)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: b0fb95ff-106d-4269-a696-d39f87fbd745
 ms.date: 12/05/2018
 ms.keywords: IsValidLocale, IsValidLocale function [Internationalization for Windows Applications], LCID_INSTALLED, LCID_SUPPORTED, _win32_IsValidLocale, intl.isvalidlocale, winnls/IsValidLocale
-f1_keywords:
-- winnls/IsValidLocale
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- IsValidLocale
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsValidLocale
+ - winnls/IsValidLocale
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - IsValidLocale
 ---
 
 # IsValidLocale function
@@ -56,19 +57,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IsValidLocale</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlocalename">IsValidLocaleName</a> to determine the validity of a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>.]
 
 Determines if the specified locale is installed or supported on the operating system. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/locales-and-languages">Locales and Languages</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param Locale [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> of the locale to validate. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
@@ -142,21 +137,12 @@ Do not use. Instead, use LCID_INSTALLED.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns a nonzero value if the locale identifier passes the specified validity test. The function returns 0 if it does not succeed.
 
-
-
-
 ## -remarks
-
-
 
 If the LCID_INSTALLED flag is specified and this function returns a nonzero value, the locale identifier is both supported and installed on the operating system. Having an identifier installed implies that the full level of language support is available for the indicated locale. Full support includes code page translation tables, keyboard layouts, fonts, and sorting and locale data.
 
@@ -164,13 +150,7 @@ If LCID_SUPPORTED is specified and this function returns 0, the locale identifie
 
 This function can handle data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoa">GetLocaleInfo</a>
 
@@ -185,7 +165,4 @@ This function can handle data from <a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

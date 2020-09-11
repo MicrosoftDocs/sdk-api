@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 1302377f-08db-413a-9f6c-ab9c974cf760
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Plugin property, ITsSbTaskInfo.Plugin, ITsSbTaskInfo.get_Plugin, ITsSbTaskInfo::Plugin, ITsSbTaskInfo::get_Plugin, Plugin property [Remote Desktop Services], Plugin property [Remote Desktop Services],ITsSbTaskInfo interface, get_Plugin, sbtsv/ITsSbTaskInfo::Plugin, sbtsv/ITsSbTaskInfo::get_Plugin, termserv.itssbtaskinfo_plugin
-f1_keywords:
-- sbtsv/ITsSbTaskInfo.Plugin
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbTaskInfo.Plugin
-- ITsSbTaskInfo.get_Plugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbTaskInfo::get_Plugin
+ - sbtsv/ITsSbTaskInfo::get_Plugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbTaskInfo.Plugin
+ - ITsSbTaskInfo.get_Plugin
 ---
 
 # ITsSbTaskInfo::get_Plugin
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the display name of the task agent.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a>
- 
-
- 
 

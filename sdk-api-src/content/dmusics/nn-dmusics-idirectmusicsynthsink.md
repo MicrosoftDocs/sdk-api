@@ -8,10 +8,6 @@ tech.root: audio
 ms.assetid: 11944933-cd95-4979-82b2-2c3875b221b3
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], IDirectMusicSynthSink interface [Audio Devices],described, audio.idirectmusicsynthsink, audmp-routines_9b9d541e-f841-40e1-8962-d93ec6650465.xml, dmusics/IDirectMusicSynthSink
-f1_keywords:
-- dmusics/IDirectMusicSynthSink
-dev_langs:
-- c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusics.h
-api_name:
-- IDirectMusicSynthSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectMusicSynthSink
+ - dmusics/IDirectMusicSynthSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusics.h
+api_name:
+ - IDirectMusicSynthSink
 ---
 
 # IDirectMusicSynthSink interface
 
 
 ## -description
-
 
 The <code>IDirectMusicSynthSink</code> interface is now largely obsolete and is supported only by versions of DirectMusic before DirectX 8. This interface represents a streaming wave device that pulls audio from the DirectMusic software synthesizer. By separating the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth">IDirectMusicSynth</a> from that of <code>IDirectMusicSynthSink</code>, a DirectMusic application can take the output of any synthesizer and feed it to an audio device of its choosing. <code>IDirectMusicSynthSink</code> inherits from the <b>IUnknown</b> interface.
 
@@ -105,3 +105,4 @@ In addition to the methods that <code>IDirectMusicSynthSink</code> inherits from
 
 </dd>
 </dl>
+

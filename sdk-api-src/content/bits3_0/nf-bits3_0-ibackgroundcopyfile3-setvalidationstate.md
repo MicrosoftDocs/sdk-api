@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: c032ce32-07a4-4ab2-ae57-f9d526d1371a
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile3 interface [BITS],SetValidationState method, IBackgroundCopyFile3.SetValidationState, IBackgroundCopyFile3::SetValidationState, SetValidationState, SetValidationState method [BITS], SetValidationState method [BITS],IBackgroundCopyFile3 interface, bits.ibackgroundcopyfile3_setvalidationstate, bits3_0/IBackgroundCopyFile3::SetValidationState
-f1_keywords:
-- bits3_0/IBackgroundCopyFile3.SetValidationState
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyFile3.SetValidationState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile3::SetValidationState
+ - bits3_0/IBackgroundCopyFile3::SetValidationState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyFile3.SetValidationState
 ---
 
 # IBackgroundCopyFile3::SetValidationState
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the validation state of this file.
 
-
 ## -parameters
-
-
-
 
 ### -param state [in]
 
 Set to <b>TRUE</b> if the file content is valid, otherwise, <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -109,14 +102,8 @@ The cached record associated with this file has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you set the validation state to <b>FALSE</b> and the file was downloaded from the origin server, the job moves to the error state with an error code of BG_E_VALIDATION_FAILED and the file progress is set to zero. You can then call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a> method to download the file again. 
 
@@ -130,13 +117,7 @@ Calling the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits
 
 If you validate a file in the cache and then call <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a>  to disable caching (or peer caching is disable through Group Policy), the file remains in the cache. If you disable caching before validating the file, BITS removes the file from the cache.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyfile3">IBackgroundCopyFile3</a>
 
@@ -147,7 +128,4 @@ If you validate a file in the cache and then call <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-isfilevalidated">IBitsPeerCacheRecord::IsFileValidated</a>
- 
-
- 
 

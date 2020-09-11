@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: eb2a561d-2723-45dc-98a6-ecf11101016b
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectSet, opc.iopcsignaturecustomobjectset
-f1_keywords:
-- msopc/IOpcSignatureCustomObjectSet
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureCustomObjectSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureCustomObjectSet
+ - msopc/IOpcSignatureCustomObjectSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureCustomObjectSet
 ---
 
 # IOpcSignatureCustomObjectSet interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An unordered set of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobject">IOpcSignatureCustomObject</a> interface pointers that contain the XML markup of application-specific <b>Object</b> elements.
-
 
 ## -inheritance
 
@@ -98,12 +97,9 @@ Gets an enumerator of <a href="https://docs.microsoft.com/previous-versions/wind
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobject">IOpcSignatureCustomObject</a> interface pointer provides access to the XML markup of the <b>Object</b> element it represents. To access the XML markup of the  <b>Object</b> element, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturecustomobject-getxml">IOpcSignatureCustomObject::GetXml</a> method.
 
@@ -120,13 +116,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -169,7 +159,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

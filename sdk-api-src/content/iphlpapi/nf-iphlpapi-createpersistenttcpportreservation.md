@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 19DAF828-B0E4-49E2-843D-7350C8083C45
 ms.date: 12/05/2018
 ms.keywords: CreatePersistentTcpPortReservation, CreatePersistentTcpPortReservation function [IP Helper], iphlp.createpersistenttcpportreservation, iphlpapi/CreatePersistentTcpPortReservation
-f1_keywords:
-- iphlpapi/CreatePersistentTcpPortReservation
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- CreatePersistentTcpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreatePersistentTcpPortReservation
+ - iphlpapi/CreatePersistentTcpPortReservation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - CreatePersistentTcpPortReservation
 ---
 
 # CreatePersistentTcpPortReservation function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreatePersistentTcpPortReservation</b> function creates a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param StartPort [in]
 
-The starting TCP port number in network byte order. 
-
+The starting TCP port number in network byte order.
 
 ### -param NumberOfPorts [in]
 
 The number of TCP port numbers to reserve.
 
-
 ### -param Token [out]
 
 A pointer to a port reservation token that is returned if the function succeeds.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -135,14 +126,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CreatePersistentTcpPortReservation</b> function is defined on Windows Vista and later. 
 
@@ -335,14 +320,7 @@ int wmain(int argc, WCHAR ** argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>
 
@@ -381,7 +359,4 @@ int wmain(int argc, WCHAR ** argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
- 
-
- 
 

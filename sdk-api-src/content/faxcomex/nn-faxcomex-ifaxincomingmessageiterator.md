@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9zg2_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessageIterator, IFaxIncomingMessageIterator interface [Fax Service], IFaxIncomingMessageIterator interface [Fax Service],described, _mfax_faxincomingmessageiterator_cpp, fax._mfax_faxincomingmessageiterator_cpp, faxcomex/IFaxIncomingMessageIterator
-f1_keywords:
-- faxcomex/IFaxIncomingMessageIterator
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxIncomingMessageIterator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxIncomingMessageIterator
+ - faxcomex/IFaxIncomingMessageIterator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxIncomingMessageIterator
 ---
 
 # IFaxIncomingMessageIterator interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxIncomingMessageIterator</b> interface is used by a fax client application to move through the archive of inbound fax messages that the fax service has successfully received. Because the <b>IFaxIncomingMessageIterator</b> interface is a forward iterator, you can only move forward through the archive from beginning to end, and you can access only one fax message (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage">IFaxIncomingMessage</a> object) at a time.
 
 The <b>IFaxIncomingMessageIterator</b> interface is accessed through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a> interface.
-
 
 ## -inheritance
 
@@ -145,22 +144,13 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fa
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create a <b>FaxIncomingMessageIterator</b> object in C++, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingarchive-getmessages-vb">IFaxIncomingArchive::GetMessages</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator">FaxIncomingMessageIterator</a>
 
@@ -171,7 +161,4 @@ To create a <b>FaxIncomingMessageIterator</b> object in C++, call the <a href="h
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a>
- 
-
- 
 

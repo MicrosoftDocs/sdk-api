@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 786F1299-A9E2-4B2C-A6AE-F88E6BF022DC
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],TimeSeek method, IMFByteStreamTimeSeek.TimeSeek, IMFByteStreamTimeSeek::TimeSeek, TimeSeek, TimeSeek method [Media Foundation], TimeSeek method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_timeseek, mfidl/IMFByteStreamTimeSeek::TimeSeek
-f1_keywords:
-- mfidl/IMFByteStreamTimeSeek.TimeSeek
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFByteStreamTimeSeek.TimeSeek
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamTimeSeek::TimeSeek
+ - mfidl/IMFByteStreamTimeSeek::TimeSeek
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFByteStreamTimeSeek.TimeSeek
 ---
 
 # IMFByteStreamTimeSeek::TimeSeek
@@ -49,45 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Seeks to a new position in the byte stream.
 
-
 ## -parameters
-
-
-
 
 ### -param qwTimePosition
 
 The new position, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If the byte stream reads from a server, it might cache the seek request until the next read request. Therefore, the byte stream might not send a request to the server immediately.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamtimeseek">IMFByteStreamTimeSeek</a>
- 
-
- 
 

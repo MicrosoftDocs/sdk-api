@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: c11f13f5-f0a8-45f8-83c2-372df670ef1f
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],hWnd property, IInkPicture.get_hWnd, IInkPicture.hWnd, IInkPicture::get_hWnd, IInkPicture::hWnd, IInkPicture::put_hWnd, InkPicture.get_hWnd, InkPicture.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::get_hWnd, msinkaut/IInkPicture::hWnd, msinkaut/IInkPicture::put_hWnd, put_hWnd, tablet.inkpicture_hwnd
-f1_keywords:
-- msinkaut/IInkPicture.hWnd
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkPicture.hWnd
-- IInkPicture.get_hWnd
-- IInkPicture.put_hWnd
-- InkPicture.get_hWnd
-- InkPicture.put_hWnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkPicture::get_hWnd
+ - msinkaut/IInkPicture::get_hWnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkPicture.hWnd
+ - IInkPicture.get_hWnd
+ - IInkPicture.put_hWnd
+ - InkPicture.get_hWnd
+ - InkPicture.put_hWnd
 ---
 
 # IInkPicture::get_hWnd
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the handle value of the window on which ink is drawn.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If two or more windows exist, this property allows you to specify which window collects ink.
 
@@ -76,13 +71,7 @@ If two or more windows exist, this property allows you to specify which window c
 <div> </div>
 In Automation, this property is called <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd Property</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
 
@@ -97,7 +86,4 @@ In Automation, this property is called <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
- 
-
- 
 

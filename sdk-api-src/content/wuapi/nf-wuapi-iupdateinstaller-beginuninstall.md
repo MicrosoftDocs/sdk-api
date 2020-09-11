@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 6ff82120-aa8f-4daf-b9f9-e0129fad0a24
 ms.date: 12/05/2018
 ms.keywords: BeginUninstall, BeginUninstall method [Windows Update Agent], BeginUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginUninstall method, IUpdateInstaller.BeginUninstall, IUpdateInstaller::BeginUninstall, wua.iupdateinstaller_beginuninstall, wuapi/IUpdateInstaller::BeginUninstall
-f1_keywords:
-- wuapi/IUpdateInstaller.BeginUninstall
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateInstaller.BeginUninstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateInstaller::BeginUninstall
+ - wuapi/IUpdateInstaller::BeginUninstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateInstaller.BeginUninstall
 ---
 
 # IUpdateInstaller::BeginUninstall
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts an asynchronous uninstallation of the updates.
 
-
 ## -parameters
-
-
-
 
 ### -param onProgressChanged [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogresschangedcallback">IInstallationProgressChangedCallback</a> interface that is called periodically for uninstallation progress changes before before the uninstallation is complete.
 
-
 ### -param onCompleted [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationcompletedcallback">IInstallationCompletedCallback</a> interface that is called when an installation operation is complete.
-
 
 ### -param state [in]
 
 The caller-specific state that the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-get_asyncstate">AsyncState</a> property <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a> interface returns.
 
-
 ### -param retval [out]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a> interface that  contains the properties and methods that are available to an asynchronous uninstall operation that was initiated.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values and other COM or Windows 
 
@@ -127,14 +117,8 @@ Windows Update Agent (WUA) does not have updates in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
   If you call this method from a scripting language, set the <i>onProgressChanged</i> parameter to the identifier of  an Automation object with a dispatch identifier (DSIPID) of zero (0) that implements the callback routine. Do the same thing for the <i>onCompleted</i> parameter.
 
@@ -142,17 +126,7 @@ This method returns WU_E_NO_UPDATE if the <a href="https://docs.microsoft.com/wi
 
 When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
- 
-
- 
 

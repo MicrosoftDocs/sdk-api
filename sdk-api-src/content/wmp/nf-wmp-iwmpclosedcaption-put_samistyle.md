@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 8f9a4f6e-4596-4c4a-ade7-5b7e1b82b229
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIStyle method, IWMPClosedCaption.put_SAMIStyle, IWMPClosedCaption::put_SAMIStyle, IWMPClosedCaptionput_SAMIStyle, put_SAMIStyle, put_SAMIStyle method [Windows Media Player], put_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samistyle, wmp/IWMPClosedCaption::put_SAMIStyle
-f1_keywords:
-- wmp/IWMPClosedCaption.put_SAMIStyle
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPClosedCaption.put_SAMIStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPClosedCaption::put_SAMIStyle
+ - wmp/IWMPClosedCaption::put_SAMIStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPClosedCaption.put_SAMIStyle
 ---
 
 # IWMPClosedCaption::put_SAMIStyle
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_SAMIStyle</b> method specifies the closed captioning style.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrSAMIStyle [in]
 
 <b>BSTR</b> containing the SAMI style.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A SAMI file can contain several format style definitions. SAMI styles are defined between the &lt;STYLE&gt; and &lt;/STYLE&gt; tags in the SAMI file. A style is defined with a text string preceded by a # character. For example, the following code specifies text formatting to be used for a style.
 
@@ -115,13 +99,7 @@ If no SAMI style is specified, the first style defined in the SAMI file is used 
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
 
@@ -132,7 +110,4 @@ If no SAMI style is specified, the first style defined in the SAMI file is used 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samistyle">IWMPClosedCaption::get_SAMIStyle</a>
- 
-
- 
 

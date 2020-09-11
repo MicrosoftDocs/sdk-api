@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: b034c00e-50f1-46af-aebc-0cb968c0b737
 ms.date: 12/05/2018
 ms.keywords: PdhGetCounterTimeBase, PdhGetCounterTimeBase function [Perf], _win32_pdhgetcountertimebase, base.pdhgetcountertimebase, pdh/PdhGetCounterTimeBase, perf.pdhgetcountertimebase
-f1_keywords:
-- pdh/PdhGetCounterTimeBase
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhGetCounterTimeBase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhGetCounterTimeBase
+ - pdh/PdhGetCounterTimeBase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhGetCounterTimeBase
 ---
 
 # PdhGetCounterTimeBase function
@@ -49,30 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the time base of the specified counter.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hCounter [in]
 
 Handle to the counter. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
-
 ### -param pTimeBase [out]
 
 Time base that specifies the number of performance values a counter samples per second.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -109,14 +100,8 @@ The counter handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you use 
 			the 
@@ -124,18 +109,9 @@ If you use
 <b>PdhGetCounterTimeBase</b> function to retrieve the time base.
 		
 
-Each counter that returns time-based performance data has a time base defined for it. The time base of a counter is the number of times a counter samples data per second. 
-
-
-
+Each counter that returns time-based performance data has a time base defined for it. The time base of a counter is the number of times a counter samples data per second.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhformatfromrawvalue">PdhFormatFromRawValue</a>
- 
-
- 
 

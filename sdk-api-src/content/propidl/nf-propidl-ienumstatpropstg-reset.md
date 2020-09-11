@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: e742e3ee-6261-4d6d-85ca-8df770aa58ad
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Reset method, IEnumSTATPROPSTG.Reset, IEnumSTATPROPSTG::Reset, Reset, Reset method [Structured Storage], Reset method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Reset, stg.ienumstatpropstg_reset
-f1_keywords:
-- propidl/IEnumSTATPROPSTG.Reset
-dev_langs:
-- c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IEnumSTATPROPSTG.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSTATPROPSTG::Reset
+ - propidl/IEnumSTATPROPSTG::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IEnumSTATPROPSTG.Reset
 ---
 
 # IEnumSTATPROPSTG::Reset
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure array.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method supports the S_OK return value.
 
@@ -83,7 +75,4 @@ The enumeration sequence was successfully reset to the beginning of the enumerat
 </td>
 </tr>
 </table>
- 
-
-
 

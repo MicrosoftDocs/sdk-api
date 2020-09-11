@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postthreadmessage.htm
 ms.date: 12/05/2018
 ms.keywords: PostThreadMessage, PostThreadMessage function [Windows and Messages], PostThreadMessageA, PostThreadMessageW, _win32_PostThreadMessage, _win32_postthreadmessage_cpp, winmsg.postthreadmessage, winui._win32_postthreadmessage, winuser/PostThreadMessage, winuser/PostThreadMessageA, winuser/PostThreadMessageW
-f1_keywords:
-- winuser/PostThreadMessage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-message-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-message-l1-1-0.dll
-- Ext-MS-Win-NTUser-message-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- Ext-MS-Win-NTUser-Message-l1-1-2.dll
-- Ext-MS-Win-NTUser-Message-L1-1-3.dll
-api_name:
-- PostThreadMessage
-- PostThreadMessageA
-- PostThreadMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PostThreadMessageW
+ - winuser/PostThreadMessageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-message-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-message-l1-1-0.dll
+ - Ext-MS-Win-NTUser-message-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - PostThreadMessage
+ - PostThreadMessageA
+ - PostThreadMessageW
 ---
 
 # PostThreadMessageW function
@@ -60,14 +61,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message.
 
-
 ## -parameters
-
-
-
 
 ### -param idThread [in]
 
@@ -83,13 +79,11 @@ Message posting is subject to UIPI. The thread of a process can post messages on
 
  This thread must either belong to the same desktop as the calling thread or to a process with the same LUID. Otherwise, the function fails and returns <b>ERROR_INVALID_THREAD_ID</b>.
 
-
 ### -param Msg [in]
 
 Type: <b>UINT</b>
 
 The type of message to be posted.
-
 
 ### -param wParam [in]
 
@@ -97,30 +91,21 @@ Type: <b>WPARAM</b>
 
 Additional message-specific information.
 
-
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
 Additional message-specific information.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> returns <b>ERROR_INVALID_THREAD_ID</b> if <i>idThread</i> is not a valid thread identifier, or if the thread specified by <i>idThread</i> does not have a message queue. <b>GetLastError</b> returns <b>ERROR_NOT_ENOUGH_QUOTA</b> when the message limit is hit. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> returns <b>ERROR_INVALID_THREAD_ID</b> if <i>idThread</i> is not a valid thread identifier, or if the thread specified by <i>idThread</i> does not have a message queue. <b>GetLastError</b> returns <b>ERROR_NOT_ENOUGH_QUOTA</b> when the message limit is hit.
 
 ## -remarks
-
-
 
  When a message is blocked by UIPI the last error, retrieved with <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, is set to 5 (access denied).
 
@@ -178,9 +163,6 @@ The minimum acceptable value is 4000.
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -226,7 +208,4 @@ The minimum acceptable value is 4000.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>
- 
-
- 
 

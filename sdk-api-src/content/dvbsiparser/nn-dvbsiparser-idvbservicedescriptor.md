@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 7024259f-3dcf-46e0-9984-d5924c9e5b54
 ms.date: 12/05/2018
 ms.keywords: IDvbServiceDescriptor, IDvbServiceDescriptor interface [Microsoft TV Technologies], IDvbServiceDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbServiceDescriptor, mstv.idvbservicedescriptor
-f1_keywords:
-- dvbsiparser/IDvbServiceDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbServiceDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbServiceDescriptor
+ - dvbsiparser/IDvbServiceDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbServiceDescriptor
 ---
 
 # IDvbServiceDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from a Digital Video Broadcast (DVB) service descriptor.  The service  descriptor  appears in the DVB service information as part of the  service description table (SDT) or selection information table (SIT). It describes the service type and provides the names of the service provider and the service in text form.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Gets the identifying tag from a DVB service descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

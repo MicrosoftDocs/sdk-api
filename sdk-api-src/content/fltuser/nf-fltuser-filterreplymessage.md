@@ -8,10 +8,6 @@ tech.root: ifsk
 ms.assetid: e0a0033c-2ea8-4e5b-bcae-680247ea6157
 ms.date: 12/05/2018
 ms.keywords: FilterReplyMessage, FilterReplyMessage function [Installable File System Drivers], FltWin32ApiRef_f89f529e-8396-4f15-ae63-6497c92aab1a.xml, fltuser/FilterReplyMessage, ifsk.filterreplymessage
-f1_keywords:
-- fltuser/FilterReplyMessage
-dev_langs:
-- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltLib.dll
-api_name:
-- FilterReplyMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FilterReplyMessage
+ - fltuser/FilterReplyMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltLib.dll
+api_name:
+ - FilterReplyMessage
 ---
 
 # FilterReplyMessage function
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FilterReplyMessage</b> function replies to a message from a kernel-mode minifilter. 
-
+The <b>FilterReplyMessage</b> function replies to a message from a kernel-mode minifilter.
 
 ## -parameters
 
-
-
-
 ### -param hPort [in]
 
-Communication port handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>. This parameter is required and cannot be <b>NULL</b>. 
-
+Communication port handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param lpReplyBuffer [in]
 
-A pointer to a caller-allocated buffer containing the reply to be sent to the minifilter. The reply must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_reply_header">FILTER_REPLY_HEADER</a> structure, but otherwise, its format is caller-defined. This parameter is required and cannot be <b>NULL</b>. 
-
+A pointer to a caller-allocated buffer containing the reply to be sent to the minifilter. The reply must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_reply_header">FILTER_REPLY_HEADER</a> structure, but otherwise, its format is caller-defined. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param dwReplyBufferSize [in]
 
 Size, in bytes, of the buffer that the <i>lpReplyBuffer</i> parameter points to. See the Remarks section.
 
-
 ## -returns
 
-
-
-<b>FilterReplyMessage</b> returns S_OK if successful. Otherwise, it returns an error value. 
-
-
-
+<b>FilterReplyMessage</b> returns S_OK if successful. Otherwise, it returns an error value.
 
 ## -remarks
-
-
 
 A user-mode application calls the <b>FilterReplyMessage</b> function to reply to a message received from a kernel-mode minifilter. 
 
@@ -113,12 +99,7 @@ typedef struct _REPLY_STRUCT
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_reply_header">FILTER_REPLY_HEADER</a>
 
@@ -137,7 +118,4 @@ typedef struct _REPLY_STRUCT
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>
- 
-
- 
 

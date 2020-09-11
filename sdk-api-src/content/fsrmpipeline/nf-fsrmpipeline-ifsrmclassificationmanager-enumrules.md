@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 2f67527c-cde3-4907-9e61-4d9e18b18859
 ms.date: 12/05/2018
 ms.keywords: EnumRules, EnumRules method [File Server Resource Manager], EnumRules method [File Server Resource Manager],FsrmClassificationManager class, EnumRules method [File Server Resource Manager],IFsrmClassificationManager interface, EnumRules method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumRules method, IFsrmClassificationManager interface [File Server Resource Manager],EnumRules method, IFsrmClassificationManager.EnumRules, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumRules method, IFsrmClassificationManager2::EnumRules, IFsrmClassificationManager::EnumRules, fs.ifsrmclassificationmanager_enumrules, fsrm.ifsrmclassificationmanager_enumrules, fsrmpipeline/IFsrmClassificationManager2::EnumRules, fsrmpipeline/IFsrmClassificationManager::EnumRules
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager.EnumRules
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager.EnumRules
-- IFsrmClassificationManager2.EnumRules
-- FsrmClassificationManager.EnumRules
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager::EnumRules
+ - fsrmpipeline/IFsrmClassificationManager::EnumRules
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager.EnumRules
+ - IFsrmClassificationManager2.EnumRules
+ - FsrmClassificationManager.EnumRules
 ---
 
 # IFsrmClassificationManager::EnumRules
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a> class.]
 
 Enumerates the rules of the specified type.
 
-
 ## -parameters
-
-
-
 
 ### -param ruleType [in]
 
@@ -97,20 +93,11 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsr
 The collection contains only committed rules; the collection will not contain newly created rules that have 
        not been committed.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
 
@@ -133,7 +120,4 @@ The method returns the following return values.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
 

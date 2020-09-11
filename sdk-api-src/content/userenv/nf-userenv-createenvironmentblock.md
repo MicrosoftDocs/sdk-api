@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: bda8879d-d33a-48f4-8b08-e3a279126a07
 ms.date: 12/05/2018
 ms.keywords: CreateEnvironmentBlock, CreateEnvironmentBlock function [Windows Shell], _shell_CreateEnvironmentBlock, shell.CreateEnvironmentBlock, userenv/CreateEnvironmentBlock
-f1_keywords:
-- userenv/CreateEnvironmentBlock
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- CreateEnvironmentBlock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateEnvironmentBlock
+ - userenv/CreateEnvironmentBlock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - CreateEnvironmentBlock
 ---
 
 # CreateEnvironmentBlock function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the environment variables for the specified user. This block can then be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpEnvironment [out]
 
 Type: <b>LPVOID*</b>
 
 When this function returns, receives a pointer to the new environment block. The environment block is an array of null-terminated Unicode strings. The list ends with two nulls (\0\0).
-
 
 ### -param hToken [in, optional]
 
@@ -77,28 +72,19 @@ Token for the user, returned from the
 
 If this parameter is <b>NULL</b>, the returned environment block contains system variables only.
 
-
 ### -param bInherit [in]
 
 Type: <b>BOOL</b>
 
 Specifies whether to inherit from the current process' environment. If this value is <b>TRUE</b>, the process inherits the current process' environment. If this value is <b>FALSE</b>, the process does not inherit the current process' environment.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To free the buffer when you have finished with the environment block, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-destroyenvironmentblock">DestroyEnvironmentBlock</a> function.
@@ -109,13 +95,7 @@ If the environment block is passed to
 User-specific environment variables such as %USERPROFILE% are set only when the user's profile is loaded. To load a user's profile, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
 
@@ -134,7 +114,4 @@ User-specific environment variables such as %USERPROFILE% are set only when the 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 1466cd90-8eab-4c5c-bb77-c75d35fe586b
 ms.date: 12/05/2018
 ms.keywords: WICRawCapabilitiesInfo, WICRawCapabilitiesInfo structure [Windows Imaging Component], _wic_codec_wicrawcapabilitiesinfo, wic._wic_codec_wicrawcapabilitiesinfo, wincodec/WICRawCapabilitiesInfo
-f1_keywords:
-- wincodec/WICRawCapabilitiesInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincodec.h
-api_name:
-- WICRawCapabilitiesInfo
 targetos: Windows
 req.typenames: WICRawCapabilitiesInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICRawCapabilitiesInfo
+ - wincodec/WICRawCapabilitiesInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincodec.h
+api_name:
+ - WICRawCapabilitiesInfo
 ---
 
 # WICRawCapabilitiesInfo structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines raw codec capabilites.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
@@ -64,13 +60,11 @@ Type: <b>UINT</b>
 
 Size of the <b>WICRawCapabilitiesInfo</b> structure.
 
-
 ### -field CodecMajorVersion
 
 Type: <b>UINT</b>
 
 The codec's major version.
-
 
 ### -field CodecMinorVersion
 
@@ -78,13 +72,11 @@ Type: <b>UINT</b>
 
 The codec's minor version.
 
-
 ### -field ExposureCompensationSupport
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a></b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of exposure compensation support.
-
 
 ### -field ContrastSupport
 
@@ -92,13 +84,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-win
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of contrast support.
 
-
 ### -field RGBWhitePointSupport
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a></b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of RGB white point support.
-
 
 ### -field NamedWhitePointSupport
 
@@ -106,13 +96,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-win
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicnamedwhitepoint">WICNamedWhitePoint</a> support.
 
-
 ### -field NamedWhitePointSupportMask
 
 Type: <b>UINT</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicnamedwhitepoint">WICNamedWhitePoint</a> mask.
-
 
 ### -field KelvinWhitePointSupport
 
@@ -120,13 +108,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-win
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of kelvin white point support.
 
-
 ### -field GammaSupport
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a></b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of gamma support.
-
 
 ### -field TintSupport
 
@@ -134,13 +120,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-win
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of tint support.
 
-
 ### -field SaturationSupport
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a></b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of saturation support.
-
 
 ### -field SharpnessSupport
 
@@ -148,13 +132,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-win
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of sharpness support.
 
-
 ### -field NoiseReductionSupport
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a></b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of noise reduction support.
-
 
 ### -field DestinationColorProfileSupport
 
@@ -162,20 +144,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-win
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of destination color profile support.
 
-
 ### -field ToneCurveSupport
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a></b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawcapabilities">WICRawCapabilities</a> of tone curve support.
 
-
 ### -field RotationSupport
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrotationcapabilities">WICRawRotationCapabilities</a></b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrotationcapabilities">WICRawRotationCapabilities</a> of rotation support.
-
 
 ### -field RenderModeSupport
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: bed6eb41-3086-4af7-8c75-651da9dba3b2
 ms.date: 12/05/2018
 ms.keywords: IAutoComplete, IAutoComplete interface [Windows Shell], IAutoComplete interface [Windows Shell],described, _win32_IAutoComplete, shell.IAutoComplete, shldisp/IAutoComplete
-f1_keywords:
-- shldisp/IAutoComplete
-dev_langs:
-- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IAutoComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutoComplete
+ - shldisp/IAutoComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IAutoComplete
 ---
 
 # IAutoComplete interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposed by the autocomplete object (CLSID_AutoComplete). This interface allows applications to initialize, enable, and disable the object.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Initializes the autocomplete object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Autocompletion expands strings that have been partially entered in an <a href="https://docs.microsoft.com/windows/desktop/Controls/edit-controls">edit control</a> into complete strings. For example, when a user starts to type a URL in the Address edit control that is embedded in the Windows Internet Explorer toolbar, autocompletion expands the string into one or more complete URLs that are consistent with the existing partial string. A partial URL string such as "mic" might be expanded to "http://www.microsoft.com" or "http://www.microsoft.com/windows". Autocompletion is typically used with edit controls or with controls that have an embedded edit control such as the <a href="https://docs.microsoft.com/windows/desktop/Controls/comboboxex-control-reference">comboboxex control</a>.
 
@@ -122,13 +118,7 @@ To implement autocompletion for an edit control using the autocomplete object, d
 </ol>
 Autocompletion is enabled by default. Applications need only to call <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete-enable">IAutoComplete::Enable</a> to disable autocompletion or to reenable it if it has been disabled.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist">IACList</a>
 
@@ -147,7 +137,4 @@ Autocompletion is enabled by default. Applications need only to call <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr">IObjMgr</a>
- 
-
- 
 

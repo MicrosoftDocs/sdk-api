@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 52274d37-baed-4ab9-8019-123ae7c5b0fc
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogEnd, RasSecurityDialogEnd callback, RasSecurityDialogEnd callback function [RAS], _ras_rassecuritydialogend, rasshost/RasSecurityDialogEnd, rras.rassecuritydialogend
-f1_keywords:
-- rasshost/RasSecurityDialogEnd
-dev_langs:
-- c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Rasshost.h
-api_name:
-- RasSecurityDialogEnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSecurityDialogEnd
+ - rasshost/RasSecurityDialogEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Rasshost.h
+api_name:
+ - RasSecurityDialogEnd
 ---
 
 # RasSecurityDialogEnd function
 
 
 ## -description
-
 
 The 
 <b>RasSecurityDialogEnd</b> function is a third-party RAS security DLL entry point that the RAS server calls to terminate an authentication transaction.
@@ -59,18 +59,12 @@ The
 
 ## -parameters
 
-
-
-
 ### -param hPort [in]
 
 Specifies the port handle that the RAS server passed to the security DLL in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> call for this authentication transaction.
 
-
 ## -returns
-
-
 
 If the security DLL returns <b>NO_ERROR</b>, the RAS server does not terminate the authentication transaction. In this case, the security DLL must later call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> function when it is ready to terminate.
@@ -78,12 +72,7 @@ If the security DLL returns <b>NO_ERROR</b>, the RAS server does not terminate t
 If the security DLL returns a nonzero error code, the RAS server terminates the authentication transaction. In this case, the security DLL does not need to make another 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> call. Return an error code defined in Winerror.h or Raserror.h, such as <b>ERROR_PORT_DISCONNECTED</b>.
 
-
-
-
 ## -remarks
-
-
 
 When a security DLL has finished authenticating the remote user, it calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> function. The RAS server then performs a cleanup sequence that includes a call to the DLL's 
@@ -100,13 +89,7 @@ For both normal and abnormal termination, the
 <b>RasSecurityDialogEnd</b> function returns NO_ERROR to delay the termination. If it does so, it must later call 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> when it is ready to terminate.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-server-administration-functions">RAS Server Administration Functions</a>
 
@@ -121,7 +104,4 @@ For both normal and abnormal termination, the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
- 
-
- 
 

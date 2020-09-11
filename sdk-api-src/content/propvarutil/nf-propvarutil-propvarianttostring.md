@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: d545dc12-a780-4d95-8660-13b3f65725f9
 ms.date: 12/05/2018
 ms.keywords: PropVariantToString, PropVariantToString function [Windows Properties], properties.PropVariantToString, propvarutil/PropVariantToString, shell.PropVariantToString, shell_PropVariantToString
-f1_keywords:
-- propvarutil/PropVariantToString
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToString
+ - propvarutil/PropVariantToString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToString
 ---
 
 # PropVariantToString function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts a string value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param propvar [in]
 
@@ -64,24 +60,19 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param psz [out]
 
 Type: <b>PWSTR</b>
 
-Points to a string buffer. When this function returns, the buffer is initialized with a <b>NULL</b> terminated Unicode string value. 
-
+Points to a string buffer. When this function returns, the buffer is initialized with a <b>NULL</b> terminated Unicode string value.
 
 ### -param cch [in]
 
 Type: <b>UINT</b>
 
-Size of the buffer pointed to by <i>psz</i>, in characters. 
-
+Size of the buffer pointed to by <i>psz</i>, in characters.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -126,14 +117,8 @@ The extraction failed for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a string value. For instance, an application obtaining values from a property store can use this to safely extract a string value for string properties.
 
@@ -200,14 +185,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstring">InitPropVariantFromString</a>
 
@@ -234,7 +212,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostring">VariantToString</a>
- 
-
- 
 

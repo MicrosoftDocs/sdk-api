@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 725e4e75-c328-40bc-a594-20a295a487c6
 ms.date: 07/22/2019
 ms.keywords: LCMAP_BYTEREV, LCMAP_FULLWIDTH, LCMAP_HALFWIDTH, LCMAP_HIRAGANA, LCMAP_KATAKANA, LCMAP_LINGUISTIC_CASING, LCMAP_LOWERCASE, LCMAP_SIMPLIFIED_CHINESE, LCMAP_SORTKEY, LCMAP_TITLECASE, LCMAP_TRADITIONAL_CHINESE, LCMAP_UPPERCASE, LCMapStringEx, LCMapStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_LCMapStringEx, intl.lcmapstringex, winnls/LCMapStringEx
-f1_keywords:
-- winnls/LCMapStringEx
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- LCMapStringEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LCMapStringEx
+ - winnls/LCMapStringEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - LCMapStringEx
 ---
 
 # LCMapStringEx function
@@ -56,16 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 For a locale specified by name, maps an input character string to another using a specified transformation, or generates a sort key for the input string.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpLocaleName [in, optional]
 
@@ -230,13 +225,10 @@ Treat punctuation the same as symbols.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpSrcStr [in]
 
 Pointer to a source string that the function maps or uses for sort key generation. This string cannot have a size of 0.
-
 
 ### -param cchSrc [in]
 
@@ -245,7 +237,6 @@ Size, in characters, of the source string indicated by <i>lpSrcStr</i>. The size
 The application can set this parameter to any negative value to specify that the source string is null-terminated. In this case, if <b>LCMapStringEx</b> is being used in its string-mapping mode, the function calculates the string length itself, and null-terminates the mapped string indicated by <i>lpDestStr</i>.
 
 The application cannot set this parameter to 0.
-
 
 ### -param lpDestStr [out, optional]
 
@@ -319,3 +310,4 @@ Another way for your application to use <a href="https://docs.microsoft.com/wind
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

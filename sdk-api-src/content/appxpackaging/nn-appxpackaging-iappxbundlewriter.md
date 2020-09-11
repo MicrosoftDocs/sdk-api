@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 5762E634-CBA6-496C-A771-CA5718E7E6AD
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter, IAppxBundleWriter interface [App packaging and management], IAppxBundleWriter interface [App packaging and management],described, appxpackaging/IAppxBundleWriter, appxpkg.iappxbundlewriter
-f1_keywords:
-- appxpackaging/IAppxBundleWriter
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleWriter
+ - appxpackaging/IAppxBundleWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleWriter
 ---
 
 # IAppxBundleWriter interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a write-only object model for bundle packages.
-
 
 ## -inheritance
 
@@ -86,16 +85,11 @@ Finalizes the bundle package by writing footprint files at the end of the packag
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlefactory-createbundlewriter">CreateBundleWriter</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a> interface to retrieve the <b>IAppxBundleWriter</b> object. 
 
 You can add only app packages to the writer.  The writer automatically generates footprint files, such as, the bundle’s manifest and block map.
-
-
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: ed70c16d-98d2-4d84-b5cd-1e5decc5b7bd
 ms.date: 12/05/2018
 ms.keywords: ClusterRegEnumKey, ClusterRegEnumKey function [Failover Cluster], _wolf_clusterregenumkey, clusapi/ClusterRegEnumKey, mscs.clusterregenumkey
-f1_keywords:
-- clusapi/ClusterRegEnumKey
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- ClusterRegEnumKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegEnumKey
+ - clusapi/ClusterRegEnumKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - ClusterRegEnumKey
 ---
 
 # ClusterRegEnumKey function
@@ -52,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the subkeys of an open 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 <b>HKEY</b> specifying a currently open key.
-
 
 ### -param dwIndex [in]
 
@@ -77,12 +72,10 @@ Because subkeys are not ordered, any new subkey has an arbitrary index. This mea
        <b>ClusterRegEnumKey</b> may return subkeys in any 
        order.
 
-
 ### -param lpszName [out]
 
 Pointer to a buffer that receives the name of the subkey, including the null-terminating character. The 
        function copies only the name of the subkey, not the full key hierarchy, to the buffer.
-
 
 ### -param lpcchName [in, out]
 
@@ -91,15 +84,11 @@ Pointer to the size of the <i>lpszName</i> buffer as a count of characters. On i
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
 
-
 ### -param lpftLastWriteTime [out, optional]
 
 Pointer to the last time the enumerated subkey was modified.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -158,14 +147,8 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ClusterRegEnumKey</b> function retrieves 
      information about one subkey each time it is called.
@@ -176,20 +159,11 @@ Because <b>ClusterRegEnumKey</b> enumerates keys from
      <b>ClusterRegEnumKey</b> fails if the node is not part of 
      a cluster.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: c71868ab-e05d-4e6a-b157-4474afc8f61f
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelName method, IUPnPDevice.get_ModelName, IUPnPDevice::get_ModelName, _upnp_iupnpdevice_modelname, get_ModelName, get_ModelName method [UPnP APIs], get_ModelName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelname, upnp/IUPnPDevice::get_ModelName
-f1_keywords:
-- upnp/IUPnPDevice.get_ModelName
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPDevice.get_ModelName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPDevice::get_ModelName
+ - upnp/IUPnPDevice::get_ModelName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPDevice.get_ModelName
 ---
 
 # IUPnPDevice::get_ModelName
@@ -49,34 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ModelName</b> property specifies a human-readable form of the model name of the device.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstr [out]
 
 Receives a reference to a string that contains the model name. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
-
 ## -returns
-
-
 
 For C++: If this property's "get" method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
@@ -87,7 +74,4 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl">IUPnPDevice::ModelURL</a>
- 
-
- 
 

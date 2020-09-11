@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 8e2053a9-d7b6-4bf7-b915-4c3871a46b37
 ms.date: 12/05/2018
 ms.keywords: '*LPLOGBRUSH32, *NPLOGBRUSH32, *PLOGBRUSH32, LOGBRUSH32, LOGBRUSH32 structure [Windows GDI], PLOGBRUSH32, PLOGBRUSH32 structure pointer [Windows GDI], _win32_LOGBRUSH32_str, gdi.logbrush32, wingdi/LOGBRUSH32, wingdi/PLOGBRUSH32'
-f1_keywords:
-- wingdi/LOGBRUSH32
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- LOGBRUSH32
 targetos: Windows
 req.typenames: LOGBRUSH32, *PLOGBRUSH32, *NPLOGBRUSH32, *LPLOGBRUSH32
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLOGBRUSH32
+ - wingdi/tagLOGBRUSH32
+ - PLOGBRUSH32
+ - wingdi/PLOGBRUSH32
+ - LOGBRUSH32
+ - wingdi/LOGBRUSH32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - LOGBRUSH32
 ---
 
 # LOGBRUSH32 structure
@@ -49,17 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>LOGBRUSH32</b> structure defines the style, color, and pattern of a physical brush. It is similar to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>, but it is used to maintain compatibility between 32-bit platforms and 64-bit platforms when we record the metafile record on one platform and then play it on another. Thus, it is only used in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatebrushindirect">EMRCREATEBRUSHINDIRECT</a>. If the code will only be on one platform, <b>LOGBRUSH</b> is sufficient.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lbStyle
 
@@ -107,8 +104,6 @@ The brush style. The <b>lbStyle</b> member must be one of the following styles.
 <td>Solid brush.</td>
 </tr>
 </table>
- 
-
 
 ### -field lbColor
 
@@ -133,7 +128,6 @@ If <b>lbStyle</b> is BS_DIBPATTERN or BS_DIBPATTERNPT, the low-order word of <b>
  
 
 If <b>lbStyle</b> is BS_HATCHED or BS_SOLID, <b>lbColor</b> is a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value. To create a <b>COLORREF</b> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
-
 
 ### -field lbHatch
 
@@ -181,22 +175,13 @@ If <b>lbStyle</b> is BS_PATTERN, <b>lbHatch</b> is a handle to the bitmap that d
 
 If <b>lbStyle</b> is BS_SOLID or BS_HOLLOW, <b>lbHatch</b> is ignored.
 
-
 ## -remarks
-
-
 
 Although <b>lbColor</b> controls the foreground color of a hatch brush, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a> functions control the background color.
 
 Brushes can be created from bitmaps or DIBs larger than 8 by 8 pixels.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
@@ -235,7 +220,4 @@ Brushes can be created from bitmaps or DIBs larger than 8 by 8 pixels.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 3b16eefb-89af-408b-a84c-c8ab958b4cc7
 ms.date: 12/05/2018
 ms.keywords: GPMGPO object [GPMC],Import method, IGPMGPO interface [GPMC],Import method, IGPMGPO.Import, IGPMGPO::Import, Import, Import method [GPMC], Import method [GPMC],GPMGPO object, Import method [GPMC],IGPMGPO interface, _win32_igpmgpo_import, gpmc.igpmgpo_import, gpmgmt/IGPMGPO::Import
-f1_keywords:
-- gpmgmt/IGPMGPO.Import
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMGPO.Import
-- GPMGPO.Import
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMGPO::Import
+ - gpmgmt/IGPMGPO::Import
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMGPO.Import
+ - GPMGPO.Import
 ---
 
 # IGPMGPO::Import
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Imports the policy settings from the specified 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object. An import operation transfers the policy settings from a backed-up GPO in the file system to a GPO in the Active Directory. The operation erases any previous policy settings in the destination GPO. The source GPO can be any backed-up GPO in the file system and the destination GPO must be an existing GPO in the Active Directory.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
@@ -77,28 +73,23 @@ Map the Security principal and UNC path from the migration table if specified. I
 
 Map the security principals and UNC paths using the information specified in the migration table only. If a setting is found that cannot be mapped through the migration table, the method fails and returns an error code.
 
-
 ### -param pIGPMBackup [in]
 
 Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object from which settings should be imported.
 
-
 ### -param pvarMigrationTable [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmigrationtable">IGPMMigrationTable</a> to use for mapping.  This parameter can be <b>NULL</b>.
-
 
 ### -param pvarGPMProgress [in, optional]
 
 Specifies a pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasyncprogress">IGPMAsyncProgress</a> interface that allows the client to receive status notifications about the progress of the import operation. This parameter must be <b>NULL</b> if the client should not receive asynchronous notifications.
 
-
 ### -param pvarGPMCancel [out, optional]
 
 Receives a pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasynccancel">IGPMAsyncCancel</a> interface that the client can use to cancel the import operation. This parameter is not returned if <i>pvarGPMProgress</i> is <b>NULL</b>.
-
 
 ### -param ppIGPMResult [out]
 
@@ -118,10 +109,7 @@ Path of a file that contains the migration table to use for mapping.
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object from which settings should be imported.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -132,12 +120,7 @@ Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/w
 <h3>VB</h3>
 Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">GPMResult</a> object.
 
-
-
-
 ## -remarks
-
-
 
 An import operation only transfers policy settings. It erases any existing settings in the GPO. An import does not modify the GPO ID or the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">ACLs</a> on the destination GPO, nor does it modify any links that point to the destination GPO or to an associated WMI filter.
 
@@ -151,13 +134,7 @@ Note that you must check the code returned by the
 For more information about security groups, see 
 <a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
@@ -172,7 +149,4 @@ For more information about security groups, see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
- 
-
- 
 

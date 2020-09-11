@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: ad1c3075-21d9-409f-9677-fbf6d0c50313
 ms.date: 12/05/2018
 ms.keywords: IDownloadCompletedCallback, IDownloadCompletedCallback interface [Windows Update Agent], IDownloadCompletedCallback interface [Windows Update Agent],described, wua.idownloadcompletedcallback, wuapi/IDownloadCompletedCallback
-f1_keywords:
-- wuapi/IDownloadCompletedCallback
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadCompletedCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadCompletedCallback
+ - wuapi/IDownloadCompletedCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadCompletedCallback
 ---
 
 # IDownloadCompletedCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the callback that is used when an asynchronous download is completed.   This interface is implemented by programmers who call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader::BeginDownload</a> method.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Notifies the caller that the download is complete.
 
 </td>
 </tr>
-</table> 
+</table>
 

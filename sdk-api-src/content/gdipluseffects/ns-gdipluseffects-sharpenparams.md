@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\sharpenparams.htm
 ms.date: 12/05/2018
 ms.keywords: SharpenParams, SharpenParams structure [GDI+], _gdiplus_STRUC_SharpenParams, gdiplus._gdiplus_STRUC_SharpenParams, gdipluseffects/SharpenParams
-f1_keywords:
-- gdipluseffects/SharpenParams
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdipluseffects.h
-api_name:
-- SharpenParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - SharpenParams
+ - gdipluseffects/SharpenParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdipluseffects.h
+api_name:
+ - SharpenParams
 ---
 
 # SharpenParams structure
 
 
 ## -description
-
 
 The <b>SharpenParams</b> structure contains members that specify the nature of a sharpening adjustment to a bitmap.
 
@@ -62,15 +62,11 @@ You can adjust the sharpness of a bitmap by following these steps.
 
 ## -struct-fields
 
-
-
-
 ### -field radius
 
 Type: <b>REAL</b>
 
 Real number that specifies the sharpening radius (the radius of the convolution kernel) in pixels. The radius must be in the range 0 through 255. As the radius increases, more surrounding pixels are involved in calculating the new value of a given pixel.
-
 
 ### -field amount
 

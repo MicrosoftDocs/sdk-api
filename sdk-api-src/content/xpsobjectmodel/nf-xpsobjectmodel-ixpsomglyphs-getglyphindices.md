@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 6698ae0b-3525-4612-8234-8ba4dd2870a0
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [XPS Documents and Packaging], GetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndices method, IXpsOMGlyphs.GetGlyphIndices, IXpsOMGlyphs::GetGlyphIndices, xps.ixpsomglyphs_getglyphindices, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndices
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphs.GetGlyphIndices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphs::GetGlyphIndices
+ - xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphs.GetGlyphIndices
 ---
 
 # IXpsOMGlyphs::GetGlyphIndices
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
 
-
 ## -parameters
-
-
-
 
 ### -param indexCount [in, out]
 
 The number of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that will fit in  the array that is referenced by <i>glyphIndices</i>. When the method returns, <i>indexCount</i>  will contain the number of <b>XPS_GLYPH_INDEX</b> structures that are returned in the array referenced by <i>glyphIndices</i>.
 
-
 ### -param glyphIndices [in, out]
 
 The address of an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that receive the glyph indices.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -113,27 +105,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindexcount">GetGlyphIndexCount</a> gets the number of elements in the glyph index array.
 
 The glyph indices override the default <b>cmap</b> mapping from the <b>UnicodeString</b> to the glyph index. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure also contains advance width as well as vertical and horizontal offset information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindexcount">GetGlyphIndexCount</a>
 
@@ -152,7 +131,4 @@ The glyph indices override the default <b>cmap</b> mapping from the <b>UnicodeSt
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a>
- 
-
- 
 

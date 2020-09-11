@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: b91a770d-8118-4a7e-adb5-36f6d59ea484
 ms.date: 12/05/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Description property, IFsrmReport.Description, IFsrmReport.get_Description, IFsrmReport::Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, get_Description
-f1_keywords:
-- fsrmreports/IFsrmReport.Description
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReport.Description
-- IFsrmReport.get_Description
-- IFsrmReport.put_Description
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReport::get_Description
+ - fsrmreports/IFsrmReport::get_Description
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReport.Description
+ - IFsrmReport.get_Description
+ - IFsrmReport.put_Description
 ---
 
 # IFsrmReport::get_Description
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the description of the report.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The description is used in the report.
 
@@ -74,15 +70,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
- 
-
- 
 

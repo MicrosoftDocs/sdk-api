@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 981648e4-0cb1-4d7a-bd3b-50e1b9a7282c
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], IWMPSyncDevice interface [Windows Media Player],described, IWMPSyncDeviceInterface, wmp.iwmpsyncdevice, wmp/IWMPSyncDevice
-f1_keywords:
-- wmp/IWMPSyncDevice
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPSyncDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice
+ - wmp/IWMPSyncDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPSyncDevice
 ---
 
 # IWMPSyncDevice interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPSyncDevice</b> interface represents a device to which Windows Media Player 10 or later can copy digital media files. It provides methods used to specify and retrieve properties for the device and to manage the relationship between Windows Media Player and the device.
 
 To use this interface, you must create a remoted instance of the Windows Media Player 10 or later control.
-
-
-
 
 ## -inheritance
 
@@ -221,20 +217,11 @@ Ends synchronization.
 
 Retrieve a pointer to <b>IWMPSyncDevice</b> by calling  <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-getdevice">IWMPSyncServices::getDevice</a>.
 
-	
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
 

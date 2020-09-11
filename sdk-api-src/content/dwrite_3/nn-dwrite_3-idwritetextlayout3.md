@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: a7741740-9524-caf0-650b-56808abcf328
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout3, IDWriteTextLayout3 interface [Direct Write], IDWriteTextLayout3 interface [Direct Write],described, directwrite.idwritetextlayout3, dwrite_3/IDWriteTextLayout3
-f1_keywords:
-- dwrite_3/IDWriteTextLayout3
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextLayout3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextLayout3
+ - dwrite_3/IDWriteTextLayout3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout3
 ---
 
 # IDWriteTextLayout3 interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a block of text after it has been fully analyzed and formatted.
-        
-
 
 ## -inheritance
 
@@ -108,16 +106,9 @@ Set line spacing.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
- 
-
- 
 

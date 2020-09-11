@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: a7de2da3-21ea-42fa-9474-f33252838632
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6AddressToStringEx, RtlIpv6AddressToStringEx function [IP Helper], RtlIpv6AddressToStringExW, ip2string/RtlIpv6AddressToStringEx, ip2string/RtlIpv6AddressToStringExW, iphlp.rtlipv6addresstostringex
-f1_keywords:
-- ip2string/RtlIpv6AddressToStringEx
-dev_langs:
-- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlIpv6AddressToStringEx
-- RtlIpv6AddressToStringEx
-- RtlIpv6AddressToStringExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlIpv6AddressToStringExW
+ - ip2string/RtlIpv6AddressToStringExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlIpv6AddressToStringEx
+ - RtlIpv6AddressToStringEx
+ - RtlIpv6AddressToStringExW
 ---
 
 # RtlIpv6AddressToStringExW function
@@ -51,48 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtlIpv6AddressToStringEx</b> function  converts an IPv6 address, scope ID, and port number to a string.
 
-
-
 ## -parameters
-
-
-
 
 ### -param Address [in]
 
 The IPv6 address in network byte order.
 
-
 ### -param ScopeId [in]
 
 The scope ID of the IPv6 address in network byte order. This parameter is optional.
-
 
 ### -param Port [in]
 
 The port number in network byte order format. This parameter is optional.
 
-
 ### -param AddressString [out]
 
 A pointer to the buffer to receive the <b>NULL</b>-terminated string representation of the IP address, scope ID, and port. This buffer should be large enough to hold at least INET6_ADDRSTRLEN characters. The INET6_ADDRSTRLEN value is defined in the <i>Ws2ipdef.h</i> header file.
-
 
 ### -param AddressStringLength [in, out]
 
 On input, the number of characters that fit in the buffer pointed to by the <i>AddressString</i> parameter, including the NULL terminator.
         On output, this parameter contains the number of characters actually written
         to the buffer pointed to by the <i>AddressString</i> parameter.
-        
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>STATUS_SUCCESS</b>.
 
@@ -127,14 +114,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RtlIpv6AddressToStringEx</b> function is used to convert an IPv6 address, scope ID, and port number to the string representation of the IPv6 address in Internet format followed by a string representation of the scope ID followed by a string representation of the port. The scope ID and port number are optional parameters. 
 
@@ -162,13 +143,7 @@ The <b>IN6_ADDR</b> structure is defined in the <i>In6addr.h</i> header file.
 
 An import library containing the <b>RtlIpv6AddressToStringEx</b> function is not included in the Microsoft Windows Software Development Kit (SDK) released for Windows Vista. The <b>RtlIpv6AddressToStringEx</b> function is included in the <i>Ntdll.lib</i> import library included in the Windows Driver Kit (WDK). An application could also use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to retrieve the function pointer from the <i>Ntdll.dll</i> and call this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
 
@@ -223,7 +198,4 @@ An import library containing the <b>RtlIpv6AddressToStringEx</b> function is not
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
- 
-
- 
 

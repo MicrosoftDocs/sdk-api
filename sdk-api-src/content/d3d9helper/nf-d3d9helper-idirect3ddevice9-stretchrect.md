@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__stretchrect.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],StretchRect method, IDirect3DDevice9.StretchRect, IDirect3DDevice9::StretchRect, StretchRect, StretchRect method [Direct3D 9], StretchRect method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::StretchRect, direct3d9.idirect3ddevice9__stretchrect, fef1baf8-c226-1e9b-4d7e-3fad08fc1652
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.StretchRect
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.StretchRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::StretchRect
+ - d3d9helper/IDirect3DDevice9::StretchRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.StretchRect
 ---
 
 # IDirect3DDevice9::StretchRect
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copy the contents of the source rectangle to the destination rectangle. The source rectangle can be stretched and filtered by the copy. This function is often used to change the aspect ratio of a video stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pSourceSurface [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d
 
 Pointer to the source surface. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>.
 
-
 ### -param pSourceRect [in]
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 Pointer to the source rectangle. A <b>NULL</b> for this parameter causes the entire source surface to be used.
-
 
 ### -param pDestSurface [in]
 
@@ -79,13 +73,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d
 
 Pointer to the destination surface. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>.
 
-
 ### -param pDestRect [in]
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 Pointer to the destination rectangle. A <b>NULL</b> for this parameter causes the entire destination surface to be used.
-
 
 ### -param Filter [in]
 
@@ -93,22 +85,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtextur
 
 Filter type. Allowable values are D3DTEXF_NONE, D3DTEXF_POINT, or D3DTEXF_LINEAR. For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype">D3DTEXTUREFILTERTYPE</a>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
      D3DERR_INVALIDCALL.
 
-
-
-
 ## -remarks
-
-
 
 StretchRect Restrictions
 
@@ -384,15 +368,8 @@ There are many restrictions as to which surface combinations are valid for Stret
 <td>No</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
@@ -403,7 +380,4 @@ There are many restrictions as to which surface combinations are valid for Stret
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene">IDirect3DDevice9::EndScene</a>
- 
-
- 
 

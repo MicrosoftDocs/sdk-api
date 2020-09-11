@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 7148dd13-e5de-4adb-89e7-3f02a463c2d1
 ms.date: 12/05/2018
 ms.keywords: IWMClientConnections2, IWMClientConnections2 interface [windows Media Format], IWMClientConnections2 interface [windows Media Format],described, IWMClientConnections2Interface, wmformat.iwmclientconnections2, wmsdkidl/IWMClientConnections2
-f1_keywords:
-- wmsdkidl/IWMClientConnections2
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMClientConnections2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMClientConnections2
+ - wmsdkidl/IWMClientConnections2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMClientConnections2
 ---
 
 # IWMClientConnections2 interface
 
 
 ## -description
-
-
 
 The <b>IWMClientConnections2</b> interface retrieves advanced client information.
 
@@ -88,10 +87,6 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <td>IID_IWMWriterSink</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -inheritance
 
@@ -117,20 +112,13 @@ Retrieves detailed information about a client attached to a writer network sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

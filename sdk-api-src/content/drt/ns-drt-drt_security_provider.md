@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 1eedfff3-d561-462e-bad0-45e7bc46fb1a
 ms.date: 12/05/2018
 ms.keywords: '*PDRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER structure [Peer Networking], PDRT_SECURITY_PROVIDER, PDRT_SECURITY_PROVIDER structure pointer [Peer Networking], drt/DRT_SECURITY_PROVIDER, drt/PDRT_SECURITY_PROVIDER, p2p.drt_security_provider'
-f1_keywords:
-- drt/DRT_SECURITY_PROVIDER
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Drt.h
-api_name:
-- DRT_SECURITY_PROVIDER
 targetos: Windows
 req.typenames: DRT_SECURITY_PROVIDER, *PDRT_SECURITY_PROVIDER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - drt_security_provider_tag
+ - drt/drt_security_provider_tag
+ - PDRT_SECURITY_PROVIDER
+ - drt/PDRT_SECURITY_PROVIDER
+ - DRT_SECURITY_PROVIDER
+ - drt/DRT_SECURITY_PROVIDER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Drt.h
+api_name:
+ - DRT_SECURITY_PROVIDER
 ---
 
 # DRT_SECURITY_PROVIDER structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DRT_SECURITY_PROVIDER</b> structure defines the DRT interface that must be implemented by a security provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pvContext
 
 This member is specified by the application when passing the <b>DRT_SECURITY_PROVIDER</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a> function.
 
 The DRT treats it as an opaque pointer, and passes it as the first parameter to the functions referenced by this structure. An application will use this as a pointer to the security provider state or to the object that implements the security provider functionality.
-
 
 ### -field Attach
 
@@ -75,7 +74,6 @@ Increments the count of references for the Security Provider with a set of DRTs.
 
 Pointer to the value held by the <b>pvContext</b> member of <b>DRT_SECURITY_PROVIDER</b>.
 
-
 ### -field Detach
 
 Decrements the count of references for the Security Provider with a set of DRTs.
@@ -85,7 +83,6 @@ Decrements the count of references for the Security Provider with a set of DRTs.
 #### pvContext
 
 Pointer to the value held by the <b>pvContext</b> member of <b>DRT_SECURITY_PROVIDER</b>.
-
 
 ### -field RegisterKey
 
@@ -109,7 +106,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-dr
 
 Pointer to the context data created by an application and passed to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function.
 
-
 ### -field UnregisterKey
 
 Called to deregister a key with the Security Provider.
@@ -131,7 +127,6 @@ Pointer to the key to which the payload is registered.
 #### pvKeyContext
 
 Pointer to the context data created by the application and passed to <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>.
-
 
 ### -field ValidateAndUnpackPayload
 
@@ -303,7 +298,6 @@ Pointer to the application data payload received in the Authority message. After
 
 Pointer to the cert chain to send in the Authority message. <b>pCertChain.pb</b> is allocated by the security provider.
 
-
 ### -field FreeData
 
 Called to release resources previously allocated for a security provider function.
@@ -319,7 +313,6 @@ Pointer to the value held by the <b>pvContext</b> member of <b>DRT_SECURITY_PROV
 #### pv
 
 Specifies what  data to free.
-
 
 ### -field EncryptData
 
@@ -361,7 +354,6 @@ Contains the encrypted content upon completion of the function.
 
 Contains the encrypted session key that can be decrypted by the recipient of the message and used to decrypted the protected fields.
 
-
 ### -field DecryptData
 
 Called when the DRT receives a message containing encrypted data. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
@@ -396,7 +388,6 @@ Contains the size of <i>pData</i> buffer.
 
 Contains the decrypted data upon completion of the function.
 
-
 ### -field GetSerializedCredential
 
 Called when the DRT must provide a credential used to authorize the local node. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
@@ -413,7 +404,6 @@ Pointer to the value held by the <b>pvContext</b> member of <b>DRT_SECURITY_PROV
 
 Contains the serialized credential upon completion of the function.
 
-
 ### -field ValidateRemoteCredential
 
 Called when the DRT must validate a credential provided by a peer node.
@@ -429,7 +419,6 @@ Pointer to the value held by the <b>pvContext</b> member of <b>DRT_SECURITY_PROV
 #### pRemoteCredential
 
 Contains the serialized credential provided by the peer node.
-
 
 ### -field SignData
 
@@ -464,7 +453,6 @@ Upon completion of this function, contains an index that can be used to select f
 #### pSignature
 
 Upon completion of this function, contains the signature data.
-
 
 ### -field VerifyData
 
@@ -506,11 +494,7 @@ Contains an index that may be used to select from multiple credentials provided 
 
 Contains the signature to be verified.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>
 
@@ -521,7 +505,4 @@ Contains the signature to be verified.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 29616175-7195-430e-a85b-99b50e276e7f
 ms.date: 12/05/2018
 ms.keywords: CAStoreName property [Security], CAStoreName property [Security],CEnroll object, CAStoreName property [Security],ICEnroll interface, CAStoreName property [Security],ICEnroll2 interface, CAStoreName property [Security],ICEnroll3 interface, CAStoreName property [Security],ICEnroll4 interface, CEnroll object [Security],CAStoreName property, ICEnroll interface [Security],CAStoreName property, ICEnroll.CAStoreName, ICEnroll.put_CAStoreName, ICEnroll2 interface [Security],CAStoreName property, ICEnroll2.CAStoreName, ICEnroll2::get_CAStoreName, ICEnroll2::put_CAStoreName, ICEnroll3 interface [Security],CAStoreName property, ICEnroll3.CAStoreName, ICEnroll3::get_CAStoreName, ICEnroll3::put_CAStoreName, ICEnroll4 interface [Security],CAStoreName property, ICEnroll4.CAStoreName, ICEnroll4::CAStoreName, ICEnroll4::get_CAStoreName, ICEnroll4::put_CAStoreName, ICEnroll::get_CAStoreName, ICEnroll::put_CAStoreName, put_CAStoreName, security.icenroll4_castorename, xenroll/ICEnroll2::CAStoreName, xenroll/ICEnroll2::get_CAStoreName, xenroll/ICEnroll2::put_CAStoreName, xenroll/ICEnroll3::CAStoreName, xenroll/ICEnroll3::get_CAStoreName, xenroll/ICEnroll3::put_CAStoreName, xenroll/ICEnroll4::CAStoreName, xenroll/ICEnroll4::get_CAStoreName, xenroll/ICEnroll4::put_CAStoreName, xenroll/ICEnroll::CAStoreName, xenroll/ICEnroll::get_CAStoreName, xenroll/ICEnroll::put_CAStoreName
-f1_keywords:
-- xenroll/ICEnroll4.CAStoreName
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.CAStoreName
-- ICEnroll4.get_CAStoreName
-- ICEnroll4.put_CAStoreName
-- ICEnroll3.CAStoreName
-- ICEnroll3.get_CAStoreName
-- ICEnroll3.put_CAStoreName
-- ICEnroll2.CAStoreName
-- ICEnroll2.get_CAStoreName
-- ICEnroll2.put_CAStoreName
-- ICEnroll.CAStoreName
-- ICEnroll.get_CAStoreName
-- ICEnroll.put_CAStoreName
-- CEnroll.CAStoreName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::put_CAStoreName
+ - xenroll/ICEnroll::put_CAStoreName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.CAStoreName
+ - ICEnroll4.get_CAStoreName
+ - ICEnroll4.put_CAStoreName
+ - ICEnroll3.CAStoreName
+ - ICEnroll3.get_CAStoreName
+ - ICEnroll3.put_CAStoreName
+ - ICEnroll2.CAStoreName
+ - ICEnroll2.get_CAStoreName
+ - ICEnroll2.put_CAStoreName
+ - ICEnroll.CAStoreName
+ - ICEnroll.get_CAStoreName
+ - ICEnroll.put_CAStoreName
+ - CEnroll.CAStoreName
 ---
 
 # ICEnroll::put_CAStoreName
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -70,14 +70,9 @@ The default value for this property is "CA". This property was first defined in 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>CAStoreName</b> property affects the behavior of the following methods:
 
@@ -121,7 +116,4 @@ if ( FAILED ( hr ) )
 else
     printf( "CAStoreName was set to : %ws\n", bstrNewName );
 ```
-
-
-
 

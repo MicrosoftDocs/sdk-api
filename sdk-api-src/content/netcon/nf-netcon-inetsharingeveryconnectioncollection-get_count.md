@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: c387ab2c-7edd-4975-a735-d555dd7191cf
 ms.date: 12/05/2018
 ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get_Count method, INetSharingEveryConnectionCollection.get_Count, INetSharingEveryConnectionCollection::get_Count, _ics_inetsharingeveryconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get_count, netcon/INetSharingEveryConnectionCollection::get_Count
-f1_keywords:
-- netcon/INetSharingEveryConnectionCollection.get_Count
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingEveryConnectionCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingEveryConnectionCollection::get_Count
+ - netcon/INetSharingEveryConnectionCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingEveryConnectionCollection.get_Count
 ---
 
 # INetSharingEveryConnectionCollection::get_Count
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The <b>get__Count</b> method retrieves the number of items in the connections collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Pointer to a long variable that, on successful return, receives the number of items in the connections collection.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -167,15 +160,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingeveryconnectioncollection">INetSharingEveryConnectionCollection</a>
 
@@ -186,7 +172,4 @@ The method failed for unknown reasons.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
 

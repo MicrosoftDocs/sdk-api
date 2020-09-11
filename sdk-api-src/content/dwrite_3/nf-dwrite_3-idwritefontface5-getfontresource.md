@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontFace5 interface [Direct Write]","GetFontResour
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontResource method, IDWriteFontFace5.GetFontResource, IDWriteFontFace5::GetFontResource, GetFontResource, GetFontResource method [Direct Write], GetFontResource method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontresource, dwrite_3/IDWriteFontFace5::GetFontResource
-f1_keywords:
-- dwrite_3/IDWriteFontFace5.GetFontResource
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontFace5::GetFontResource
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontFace5::GetFontResource
+ - dwrite_3/IDWriteFontFace5::GetFontResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontFace5::GetFontResource
 ---
 
 ## -description
@@ -64,3 +65,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 20E469FE-100B-489F-956A-347716FA8A12
 ms.date: 12/05/2018
 ms.keywords: RoActivateInstance, RoActivateInstance function [Windows Runtime], WinRTActivateInstance, roapi/RoActivateInstance, roapi/WinRTActivateInstance, winrt.roactivateinstance, winrt.winrtactivateinstance
-f1_keywords:
-- roapi/RoActivateInstance
-dev_langs:
-- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- roapi.h
-- API-MS-Win-Core-WinRT-l1-1-0.dll
-- ComBase.dll
-api_name:
-- RoActivateInstance
-- WinRTActivateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoActivateInstance
+ - roapi/RoActivateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - roapi.h
+ - API-MS-Win-Core-WinRT-l1-1-0.dll
+ - ComBase.dll
+api_name:
+ - RoActivateInstance
+ - WinRTActivateInstance
 ---
 
 # RoActivateInstance function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Activates the specified Windows Runtime class.
 
-
 ## -parameters
-
-
-
 
 ### -param activatableClassId [in]
 
@@ -67,17 +63,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTR
 
 The class identifier that is associated with the activatable runtime class.
 
-
 ### -param instance [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
 A pointer to the activated instance of the runtime class.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -155,24 +147,12 @@ Failed to create an instance of the class.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <b>RoActivateInstance</b> function to activate a Windows Runtime class. The <b>RoActivateInstance</b> function connects to the activation factory that is associated with the specified activatable class identifier, creates an instance by calling the zero-argument constructor on the class, and releases the activation factory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
@@ -187,7 +167,4 @@ Use the <b>RoActivateInstance</b> function to activate a Windows Runtime class. 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>
- 
-
- 
 

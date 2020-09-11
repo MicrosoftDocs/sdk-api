@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: df9f54cd-b2de-4107-a1c5-d5a07045851e
 ms.date: 12/05/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFile, MapViewOfFile function, _win32_mapviewoffile, base.mapviewoffile, fs.mapviewoffile, winbase/MapViewOfFile
-f1_keywords:
-- memoryapi/MapViewOfFile
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- MapViewOfFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapViewOfFile
+ - memoryapi/MapViewOfFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - MapViewOfFile
 ---
 
 # MapViewOfFile function
@@ -57,25 +58,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maps a view of a file mapping into the address space of a calling process.
 
 To specify a suggested base address for the view, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a> function. However, this practice is 
     not recommended.
 
-
 ## -parameters
-
-
-
 
 ### -param hFileMappingObject [in]
 
 A handle to a file mapping object. The 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a> and 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a> functions return this handle.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -209,11 +204,9 @@ For file mapping objects created with the <b>SEC_IMAGE</b> attribute, the
 For more information  about access to file mapping objects, see 
        <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
-
 ### -param dwFileOffsetHigh [in]
 
 A high-order <b>DWORD</b> of the file offset where the view begins.
-
 
 ### -param dwFileOffsetLow [in]
 
@@ -224,29 +217,20 @@ A low-order <b>DWORD</b> of the file offset where the view is to begin. The comb
        <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function, which fills in the members of 
        a <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure.
 
-
 ### -param dwNumberOfBytesToMap [in]
 
 The number of bytes of a file mapping to map to the view. All bytes must be within the maximum size specified 
        by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>. If this parameter is 0 
        (zero), the mapping extends from the specified offset to the end of the file mapping.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the starting address of the mapped view.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Mapping a file makes the specified portion of a file visible in the address space of the calling process.
 
@@ -382,12 +366,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
@@ -422,7 +401,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
- 
-
- 
 

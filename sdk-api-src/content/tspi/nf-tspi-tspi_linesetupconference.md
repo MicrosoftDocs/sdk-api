@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 71b9720b-54dc-44a7-9fad-38dcd9f57ab3
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetupConference, TSPI_lineSetupConference function [TAPI 2.2], _tspi_tspi_linesetupconference, tspi.tspi_linesetupconference, tspi/TSPI_lineSetupConference
-f1_keywords:
-- tspi/TSPI_lineSetupConference
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineSetupConference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineSetupConference
+ - tspi/TSPI_lineSetupConference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineSetupConference
 ---
 
 # TSPI_lineSetupConference function
@@ -49,82 +50,61 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineSetupConference</b> function sets up a conference call for the addition of the third party.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequestID
 
 The identifier of the asynchronous request.
 
-
 ### -param hdCall
 
 The handle to the initial call that identifies the first party of a conference call. In some environments, a call must exist in order to start a conference call. In other telephony environments, no call initially exists and <i>hdCall</i> is left <b>NULL</b>. The call state of <i>hdCall</i> can be <i>connected</i>.
-
 
 ### -param hdLine
 
 The handle to the line device on which to originate the conference call if <i>hdCall</i> is <b>NULL</b>. The <i>hdLine</i> parameter is ignored if <i>hdCall</i> is non-<b>NULL</b>. The service provider reports which model it supports through the <b>setupConfNull</b> flag of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> data structure.
 
-
 ### -param htConfCall
 
 The TAPI handle to the new conference call. The service provider must save this and use it in all subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> procedure reporting events on the new call.
-
 
 ### -param lphdConfCall
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/hdrvline">HDRVCALL</a> representing the service provider's identifier for the newly created conference call. The service provider must fill this location with its handle for the new call before this procedure returns. This handle is ignored by TAPI if the function results in an error. The call state of <i>hdConfCall</i> is not applicable.
 
-
 ### -param htConsultCall
 
 The TAPI handle to the consultation call. When setting up a call for the addition of a new party, a new temporary call (consultation call) is automatically allocated. The service provider must save the <i>htConsultCall</i> and use it in all subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> procedure reporting events on the new consultation call.
-
 
 ### -param lphdConsultCall
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/hdrvline">HDRVCALL</a> representing the service provider's identifier for a call. When setting up a call for the addition of a new party, a new temporary call (consultation call) is automatically allocated. The service provider must fill this location with its handle for the new consultation call before this procedure returns. This handle is ignored by TAPI if the function results in an error. The call state of <i>hdConsultCall</i> is not applicable.
 
-
 ### -param dwNumParties
 
 The expected number of parties in the conference call. The service provider is free to do with this number as it pleases. For example, the service provider can ignore it, or use it as a hint to allocate the right size conference bridge inside the switch. TAPI does not validate this parameter when this function is called.
-
 
 ### -param lpCallParams
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter is set to <b>NULL</b> if no special call setup parameters are desired and the service provider uses default parameters.
 
-
 ## -returns
-
-
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_INVALADDRESSMODE, LINEERR_INVALLINEHANDLE, LINEERR_INVALBEARERMODE, LINEERR_INVALCALLSTATE, LINEERR_INVALCALLPARAMS, LINEERR_CALLUNAVAIL, LINEERR_INVALLINESTATE, LINEERR_CONFERENCEFULL, LINEERR_INVALMEDIAMODE, LINEERR_NOMEM, LINEERR_INVALRATE, LINEERR_OPERATIONUNAVAIL, LINEERR_INUSE, LINEERR_OPERATIONFAILED, LINEERR_RATEUNAVAIL, LINEERR_RESOURCEUNAVAIL, LINEERR_USERUSERINFOTOOBIG, LINEERR_BEARERMODEUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 The service provider returns LINEERR_INVALLINEHANDLE if the specified line handle for the line containing the conference call is invalid. This error can also indicate that the telephony environment requires an initial line to set up a conference but a non-<b>NULL</b> call handle was supplied instead.
 
@@ -153,13 +133,7 @@ This function differs from the corresponding TAPI function in that it follows th
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> message reports success. In other words, it must not issue any 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> messages for the new call or include it in call counts in messages or status data structures for the line.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
@@ -202,7 +176,4 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineswaphold">TSPI_lineSwapHold</a>
- 
-
- 
 

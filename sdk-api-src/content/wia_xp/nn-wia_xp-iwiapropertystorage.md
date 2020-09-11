@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\iwiapropertystorage.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], IWiaPropertyStorage interface [WIA],described, _wia_IWiaPropertyStorage, wia._wia_IWiaPropertyStorage, wia_xp/IWiaPropertyStorage
-f1_keywords:
-- wia_xp/IWiaPropertyStorage
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaPropertyStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaPropertyStorage
+ - wia_xp/IWiaPropertyStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaPropertyStorage
 ---
 
 # IWiaPropertyStorage interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaPropertyStorage</b> interface is used to access information about the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> object's properties. Applications must query an item to obtain its <b>IWiaPropertyStorage</b> interface.
-
 
 ## -inheritance
 
@@ -104,12 +103,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IWiaPropertyStorage</b> interface includes several methods that are very similar to the following methods from the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface. The descriptions and remarks for the IPropertyStorage version of these methods applies to the <b>IWiaPropertyStorage</b> as well. 
 
@@ -222,18 +218,8 @@ The <b>IWiaPropertyStorage</b> interface, like all Component Object Model (COM) 
 <td>Decrements reference count.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
- 
-
- 
 

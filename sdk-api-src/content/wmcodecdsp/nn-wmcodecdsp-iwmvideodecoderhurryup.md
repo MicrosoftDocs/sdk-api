@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5e33be5f-5ce8-4f4f-94db-4be2dfcaeec0
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Foundation], IWMVideoDecoderHurryup interface [Media Foundation],described, codecapi.iwmvideodecoderhurryupinterface, mf.iwmvideodecoderhurryup, mf.iwmvideodecoderhurryupinterface, wmcodecdsp/IWMVideoDecoderHurryup
-f1_keywords:
-- wmcodecdsp/IWMVideoDecoderHurryup
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMVideoDecoderHurryup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMVideoDecoderHurryup
+ - wmcodecdsp/IWMVideoDecoderHurryup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMVideoDecoderHurryup
 ---
 
 # IWMVideoDecoderHurryup interface
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Controls the speed of the video decoder.
 
 
 
 This interface is implemented by the video decoder objects. You can obtain a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderhurryup">IWMVideoDecoderHurryup</a> by calling the <b>QueryInterface</b> method of any other interface of the decoder, such as <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
-
-
 
 ## -inheritance
 
@@ -92,16 +89,9 @@ Sets the speed mode of the video decoder.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

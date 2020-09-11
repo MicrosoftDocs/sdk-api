@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: F3A66B9F-0C95-4CFA-AA44-A50891545E31
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Direct2D], GetDescription method [Direct2D],ID2D1DrawingStateBlock1 interface, ID2D1DrawingStateBlock1 interface [Direct2D],GetDescription method, ID2D1DrawingStateBlock1.GetDescription, ID2D1DrawingStateBlock1::GetDescription, d2d1_1/ID2D1DrawingStateBlock1::GetDescription, direct2d.id2d1drawingstateblock1_getdescription1
-f1_keywords:
-- d2d1_1/ID2D1DrawingStateBlock1.GetDescription
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DrawingStateBlock1.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DrawingStateBlock1::GetDescription
+ - d2d1_1/ID2D1DrawingStateBlock1::GetDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DrawingStateBlock1.GetDescription
 ---
 
 # ID2D1DrawingStateBlock1::GetDescription
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the antialiasing mode, transform, tags, primitive blend, and unit mode portion of the drawing state.
 
-
 ## -parameters
-
-
-
 
 ### -param stateDescription [out]
 
@@ -64,14 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_
 
 When this method returns, contains the antialiasing mode, transform, tags, primitive blend, and unit mode portion of the drawing state. You must allocate storage for this parameter.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1drawingstateblock1">ID2D1DrawingStateBlock1</a>
- 
-
- 
 

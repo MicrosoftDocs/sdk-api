@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 72201600-4bbb-4346-a13f-927e8463b6ec
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ILayoutStorage interface [Structured Storage],described, _stg_ilayoutstorage, objidl/ILayoutStorage, stg.ilayoutstorage
-f1_keywords:
-- objidl/ILayoutStorage
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- ILayoutStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILayoutStorage
+ - objidl/ILayoutStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - ILayoutStorage
 ---
 
 # ILayoutStorage interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ILayoutStorage</b> interface enables an application to optimize the layout of its compound files for efficient downloading across a slow link. The goal is to enable a browser or other application to download data in the order in which it will actually be required.
 
 To optimize a compound file, an application  calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-copyto">CopyTo</a>  to layout a docfile, thus improving performance in most scenarios.
-
 
 ## -inheritance
 
@@ -99,5 +98,5 @@ Provides explicit layout instructions.</p> (Inherited from <b>ILayoutStorage</b>
 <td align="left" width="63%">
 Rewrites file using layout information.</p> (Inherited from <b>ILayoutStorage</b>)</td>
 </tr>
-</table> 
+</table>
 

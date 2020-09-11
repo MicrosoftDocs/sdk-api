@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9a176312-0312-4cc1-baf5-949b346d983e
 ms.date: 12/05/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_ZERO_MEMORY, HeapAlloc, HeapAlloc function, _win32_heapalloc, base.heapalloc, heapapi/HeapAlloc, winbase/HeapAlloc
-f1_keywords:
-- heapapi/HeapAlloc
-dev_langs:
-- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-heap-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-heap-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- vertdll.dll
-api_name:
-- HeapAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HeapAlloc
+ - heapapi/HeapAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - vertdll.dll
+api_name:
+ - HeapAlloc
 ---
 
 # HeapAlloc function
@@ -55,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates a block of memory from a heap. The allocated memory is not movable.
 
-
 ## -parameters
-
-
-
 
 ### -param hHeap [in]
 
 A handle to the heap from which the memory will be allocated. This handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
-
 
 ### -param dwFlags [in]
 
@@ -126,8 +121,6 @@ The allocated memory will be initialized to zero. Otherwise, the memory is not i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwBytes [in]
 
@@ -135,10 +128,7 @@ The number of bytes to be allocated.
 
 If the heap specified by the <i>hHeap</i> parameter is a "non-growable" heap, <i>dwBytes</i> must be less than 0x7FFF8. You create a non-growable heap by calling the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function with a nonzero value.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the allocated memory block.
 
@@ -164,12 +154,7 @@ If the function fails and you have specified <b>HEAP_GENERATE_EXCEPTIONS</b>, th
 
 If the function fails, it does not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>. An application cannot call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
-
-
-
 ## -remarks
-
-
 
 If 
 the <b>HeapAlloc</b> function succeeds, it allocates at least the amount of memory requested. 
@@ -202,12 +187,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
@@ -223,7 +203,4 @@ For an example, see
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6b341b5a-88f2-4221-812d-b2997829aa4c
 ms.date: 12/05/2018
 ms.keywords: AddPolicyServer, AddPolicyServer method [Security], AddPolicyServer method [Security],IX509EnrollmentHelper interface, IX509EnrollmentHelper interface [Security],AddPolicyServer method, IX509EnrollmentHelper.AddPolicyServer, IX509EnrollmentHelper::AddPolicyServer, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentHelper::AddPolicyServer, security.ix509enrollmenthelper_addpolicyserver
-f1_keywords:
-- certenroll/IX509EnrollmentHelper.AddPolicyServer
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentHelper.AddPolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentHelper::AddPolicyServer
+ - certenroll/IX509EnrollmentHelper::AddPolicyServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentHelper.AddPolicyServer
 ---
 
 # IX509EnrollmentHelper::AddPolicyServer
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddPolicyServer</b> method registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache. This method is web enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param strEnrollmentPolicyServerURI [in]
 
 A <b>BSTR</b> that contains the certificate enrollment policy server URL.
 
-
 ### -param strEnrollmentPolicyID [in]
 
 A <b>BSTR</b> that contains the certificate enrollment policy server ID. The ID can be any string. It is set by the administrator who installs the CEP server.
-
 
 ### -param EnrollmentPolicyServerFlags [in]
 
@@ -98,8 +92,6 @@ Specifies that the certificate of the issuing CA need not be trusted by the clie
 </td>
 </tr>
 </table>
- 
-
 
 ### -param authFlags [in]
 
@@ -151,22 +143,16 @@ Client authentication certificate installed on the local computer and used by th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strCredential [in]
 
 A <b>BSTR</b> that contains the credential.
 
-
 ### -param strPassword [in]
 
 A <b>BSTR</b> that contains a clear text password.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -200,14 +186,8 @@ The <i>strPassword</i>, <i>strCredential</i>, or <i>strEnrollmentServerURI</i> p
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>strCredential</i> and <i>strPassword</i> arguments change depending on the value specified in the <i>authFlags</i> argument as shown in the following table.
 
@@ -238,18 +218,8 @@ The <i>strCredential</i> and <i>strPassword</i> arguments change depending on th
 <td><b>NULL</b></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>
- 
-
- 
 

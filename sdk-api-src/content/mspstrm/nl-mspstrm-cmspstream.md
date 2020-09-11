@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 776ca663-faa2-4534-8873-4e20ed79530c
 ms.date: 12/05/2018
 ms.keywords: CMSPStream, CMSPStream class [TAPI 2.2], CMSPStream class [TAPI 2.2],described, _tapi3_cmspstream, mspstrm/CMSPStream, tapi3.cmspstream
-f1_keywords:
-- mspstrm/CMSPStream
-dev_langs:
-- c++
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mspstrm.h
-api_name:
-- CMSPStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CMSPStream
+ - mspstrm/CMSPStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mspstrm.h
+api_name:
+ - CMSPStream
 ---
 
 # CMSPStream class
 
 
 ## -description
-
 
 The 
 <b>CMSPStream</b> class exposes methods that allow an application to start, pause, or stop a substream, and to select or unselect terminals. Defined in MSPstrm.h.

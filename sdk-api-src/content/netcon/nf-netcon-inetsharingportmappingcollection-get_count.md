@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 40a697e8-aac4-4656-9c86-d11b5cdcb9e2
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get_Count method, INetSharingPortMappingCollection.get_Count, INetSharingPortMappingCollection::get_Count, _ics_inetsharingportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPortMappingCollection interface, ics.inetsharingportmappingcollection_get_count, netcon/INetSharingPortMappingCollection::get_Count
-f1_keywords:
-- netcon/INetSharingPortMappingCollection.get_Count
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingPortMappingCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingPortMappingCollection::get_Count
+ - netcon/INetSharingPortMappingCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingPortMappingCollection.get_Count
 ---
 
 # INetSharingPortMappingCollection::get_Count
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The <b>get__Count</b> method retrieves the number of items in the port mapping collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Pointer to a long variable that, on successful return, receives the number of items in the port mapping collection.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -167,15 +160,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmappingcollection">INetSharingPortMappingCollection</a>
 
@@ -186,7 +172,4 @@ The method failed for unknown reasons.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
 

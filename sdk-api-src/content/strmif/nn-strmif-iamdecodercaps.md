@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 3951200b-5a81-4832-9dae-021a76c1ab20
 ms.date: 12/05/2018
 ms.keywords: IAMDecoderCaps, IAMDecoderCaps interface [DirectShow], IAMDecoderCaps interface [DirectShow],described, IAMDecoderCapsInterface, dshow.iamdecodercaps, strmif/IAMDecoderCaps
-f1_keywords:
-- strmif/IAMDecoderCaps
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMDecoderCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDecoderCaps
+ - strmif/IAMDecoderCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMDecoderCaps
 ---
 
 # IAMDecoderCaps interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMDecoderCaps</code> interface returns capabilities information from an MPEG decoder filter. The capabilities reported through this interface include whether the decoder supports the Video Mixing Renderer filter and whether it supports DirectX Video Acceleration.
 
 Some DirectShow components, such as the DVD Graph Builder, use this interface to determine the correct filter graph to build. Applications might use this interface to query the decoder's capabilities.
-
-
-
 
 ## -inheritance
 
@@ -83,16 +79,9 @@ Queries the decoder for its capabilities.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

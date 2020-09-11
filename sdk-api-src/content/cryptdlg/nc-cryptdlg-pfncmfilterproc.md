@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f870a8a7-c504-491a-b9ac-045766e46348
 ms.date: 12/05/2018
 ms.keywords: PFNCMFILTERPROC, PFNCMFILTERPROC callback, PFNCMFILTERPROC callback function [Security], cryptdlg/PFNCMFILTERPROC, security.pfncmfilterproc
-f1_keywords:
-- cryptdlg/PFNCMFILTERPROC
-dev_langs:
-- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- CryptDlg.h
-api_name:
-- PFNCMFILTERPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNCMFILTERPROC
+ - cryptdlg/PFNCMFILTERPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - CryptDlg.h
+api_name:
+ - PFNCMFILTERPROC
 ---
 
 ## -description
@@ -75,3 +76,4 @@ The first **DWORD** parameter is *dwFlags*. The second is *lCustData*&mdash;the 
 <a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a>
+

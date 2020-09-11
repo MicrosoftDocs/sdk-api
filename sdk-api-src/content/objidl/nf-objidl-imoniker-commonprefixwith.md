@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: ef2a3191-7b7c-4e51-ab55-cf601f444561
 ms.date: 12/05/2018
 ms.keywords: CommonPrefixWith, CommonPrefixWith method [COM], CommonPrefixWith method [COM],IMoniker interface, IMoniker interface [COM],CommonPrefixWith method, IMoniker.CommonPrefixWith, IMoniker::CommonPrefixWith, _com_imoniker_commonprefixwith, com.imoniker_commonprefixwith, objidl/IMoniker::CommonPrefixWith
-f1_keywords:
-- objidl/IMoniker.CommonPrefixWith
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.CommonPrefixWith
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::CommonPrefixWith
+ - objidl/IMoniker::CommonPrefixWith
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.CommonPrefixWith
 ---
 
 # IMoniker::CommonPrefixWith
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new moniker based on the prefix that this moniker has in common with the specified moniker.
 
-
 ## -parameters
-
-
-
 
 ### -param pmkOther [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on another moniker to be compared with this one to determine whether there is a common prefix.
 
-
 ### -param ppmkPrefix [out]
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the moniker that is the common prefix of this moniker and pmkOther. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the resulting moniker; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs or if there is no common prefix, the implementation should set *<i>ppmkPrefix</i> to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY, as well as the following values.
 
@@ -146,14 +138,8 @@ This method was called on a relative moniker. It is not meaningful to take the c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>CommonPrefixWith</b> creates a new moniker that consists of the common prefixes of the moniker on this moniker object and another moniker. For example, if one moniker represents the path "c:\projects\secret\art\pict1.bmp" and another moniker represents the path "c:\projects\secret\docs\chap1.txt", the common prefix of these two monikers would be a moniker representing the path "c:\projects\secret".
 
@@ -248,22 +234,12 @@ This method returns E_NOTIMPL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a>
- 
-
- 
 

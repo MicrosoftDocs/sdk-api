@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirect.htm
 ms.date: 12/05/2018
 ms.keywords: DialogBoxIndirect, DialogBoxIndirect function [Dialog Boxes], DialogBoxIndirectA, DialogBoxIndirectW, _win32_DialogBoxIndirect, _win32_dialogboxindirect_cpp, dlgbox.dialogboxindirect, winui._win32_dialogboxindirect, winuser/DialogBoxIndirect, winuser/DialogBoxIndirectA, winuser/DialogBoxIndirectW
-f1_keywords:
-- winuser/DialogBoxIndirect
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DialogBoxIndirect
-- DialogBoxIndirectA
-- DialogBoxIndirectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DialogBoxIndirectW
+ - winuser/DialogBoxIndirectW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DialogBoxIndirect
+ - DialogBoxIndirectA
+ - DialogBoxIndirectW
 ---
 
 # DialogBoxIndirectW macro
@@ -51,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a modal dialog box from a dialog box template in memory. <b>DialogBoxIndirect</b> does not return control until the specified callback function terminates the modal dialog box by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog">EndDialog</a> function.
 
 <b>DialogBoxIndirect</b> is implemented as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstance [in, optional]
 
 Type: <b>HINSTANCE</b>
 
-A handle to the module that creates the dialog box. 
-
+A handle to the module that creates the dialog box.
 
 ### -param lpTemplate [in]
 
@@ -78,26 +73,21 @@ The template that <b>DialogBoxIndirect</b> uses to create the dialog box. A dial
 
 In a standard template for a dialog box, the header is a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgtemplate">DLGTEMPLATE</a> structure followed by additional variable-length arrays. The data for each control consists of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a> structure followed by additional variable-length arrays. 
 
-In an extended template for a dialog box, the header uses the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex">DLGTEMPLATEEX</a> format and the control definitions use the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgitemtemplateex">DLGITEMTEMPLATEEX</a> format. 
-
+In an extended template for a dialog box, the header uses the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex">DLGTEMPLATEEX</a> format and the control definitions use the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgitemtemplateex">DLGITEMTEMPLATEEX</a> format.
 
 ### -param hWndParent [in, optional]
 
 Type: <b>HWND</b>
 
-A handle to the window that owns the dialog box. 
-
+A handle to the window that owns the dialog box.
 
 ### -param lpDialogFunc [in, optional]
 
 Type: <b>DLGPROC</b>
 
-A pointer to the dialog box procedure. For more information about the dialog box procedure, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>. 
-
+A pointer to the dialog box procedure. For more information about the dialog box procedure, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>.
 
 ## -remarks
-
-
 
 The <b>DialogBoxIndirect</b> macro uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function to create the dialog box. <b>DialogBoxIndirect</b> then sends a <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message to the dialog box procedure. If the template specifies the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/about-dialog-boxes">DS_SETFONT</a> or DS_SHELLFONT style, the function also sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a> message to the dialog box procedure. The function displays the dialog box (regardless of whether the template specifies the <b>WS_VISIBLE</b> style), disables the owner window, and starts its own message loop to retrieve and dispatch messages for the dialog box. 
 
@@ -123,9 +113,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 > The winuser.h header defines DialogBoxIndirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -192,7 +179,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
- 
-
- 
 

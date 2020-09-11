@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD
 ms.date: 12/05/2018
 ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgileReference interface [Windows Runtime],described, objidl/IAgileReference, winrt.iagilereference
-f1_keywords:
-- objidl/IAgileReference
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidl.h
-api_name:
-- IAgileReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAgileReference
+ - objidl/IAgileReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidl.h
+api_name:
+ - IAgileReference
 ---
 
 # IAgileReference interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables retrieving an agile reference to an object.
-
 
 ## -inheritance
 
@@ -77,29 +76,17 @@ Gets the interface ID of an agile reference to an object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function to create an agile reference to an object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
- 
-
- 
 

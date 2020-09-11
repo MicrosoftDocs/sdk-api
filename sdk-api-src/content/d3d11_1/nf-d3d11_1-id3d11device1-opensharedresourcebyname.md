@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 5A7575E4-382E-4A2F-AFE8-2E5850526E75
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device1 interface [Direct3D 11],OpenSharedResourceByName method, ID3D11Device1.OpenSharedResourceByName, ID3D11Device1::OpenSharedResourceByName, OpenSharedResourceByName, OpenSharedResourceByName method [Direct3D 11], OpenSharedResourceByName method [Direct3D 11],ID3D11Device1 interface, d3d11_1/ID3D11Device1::OpenSharedResourceByName, direct3d11.id3d11device1_opensharedresourcebyname
-f1_keywords:
-- d3d11_1/ID3D11Device1.OpenSharedResourceByName
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device1.OpenSharedResourceByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device1::OpenSharedResourceByName
+ - d3d11_1/ID3D11Device1::OpenSharedResourceByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device1.OpenSharedResourceByName
 ---
 
 # ID3D11Device1::OpenSharedResourceByName
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gives a device access to a shared resource that is referenced by name and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
 The name of the resource to open. This parameter cannot be <b>NULL</b>.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -74,31 +69,21 @@ The requested access rights to the resource.  In addition to the <a href="https:
 </ul>
 You can combine values by using a bitwise <b>OR</b> operation.
 
-
 ### -param returnedInterface [in]
 
 The globally unique identifier (GUID) for the resource interface. For more info, see Remarks.
-
 
 ### -param ppResource [out]
 
 A pointer to a variable that receives a pointer to the interface for the shared resource object to access.
 
-
 ## -returns
-
-
 
 This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>. This method also returns E_ACCESSDENIED if the permissions to access the resource aren't valid.
 
-<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>OpenSharedResourceByName</b> fails with E_NOTIMPL because NTHANDLES are used. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
-
-
-
+<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>OpenSharedResourceByName</b> fails with E_NOTIMPL because NTHANDLES are used. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>.
 
 ## -remarks
-
-
 
 The behavior of <b>OpenSharedResourceByName</b> is similar to the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresource1">ID3D11Device1::OpenSharedResource1</a> method; each call to <b>OpenSharedResourceByName</b> to access a resource creates a new resource object.  In other words, if you call <b>OpenSharedResourceByName</b> twice and pass the same resource name to <i>lpName</i>, you receive two resource  objects with different <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers.
 
@@ -123,15 +108,7 @@ pDevice-&gt;OpenSharedResourceByName(
          (void**)&amp;pTexture2D);
 </code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
- 
-
- 
 

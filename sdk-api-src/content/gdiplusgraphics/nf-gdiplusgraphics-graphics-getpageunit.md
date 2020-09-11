@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpageunit.htm
 ms.date: 12/05/2018
 ms.keywords: GetPageUnit, GetPageUnit method [GDI+], GetPageUnit method [GDI+],Graphics class, Graphics class [GDI+],GetPageUnit method, Graphics.GetPageUnit, Graphics::GetPageUnit, _gdiplus_CLASS_Graphics_GetPageUnit_, gdiplus._gdiplus_CLASS_Graphics_GetPageUnit_
-f1_keywords:
-- gdiplusgraphics/Graphics.GetPageUnit
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.GetPageUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::GetPageUnit
+ - gdiplusgraphics/Graphics::GetPageUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.GetPageUnit
 ---
 
 # Graphics::GetPageUnit
@@ -50,34 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::GetPageUnit</b> method gets the unit of measure currently set for this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
 
 This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration that indicates the unit of measure currently set for this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
@@ -108,7 +94,4 @@ This method returns an element of the <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>
- 
-
- 
 

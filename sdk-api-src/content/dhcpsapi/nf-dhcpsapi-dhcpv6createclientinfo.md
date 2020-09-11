@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 5d49ab90-3c40-4577-8e7e-36d1370d8de9
 ms.date: 12/05/2018
 ms.keywords: DhcpV6CreateClientInfo, DhcpV6CreateClientInfo function [DHCP], dhcp.dhcpv6createclientinfo, dhcpsapi/DhcpV6CreateClientInfo
-f1_keywords:
-- dhcpsapi/DhcpV6CreateClientInfo
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpV6CreateClientInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpV6CreateClientInfo
+ - dhcpsapi/DhcpV6CreateClientInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpV6CreateClientInfo
 ---
 
 # DhcpV6CreateClientInfo function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpV6CreateClientInfo</b> function  creates a DHCPv6 client lease record in the DHCP server database.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in, optional]
 
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
-
 ### -param ClientInfo [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v6">DHCP_CLIENT_INFO_V6</a> structure that contains the DHCP client lease record information. The <b>ClientIpAddress</b>, <b>ClientDUID</b> and <b>IAID</b> fields of this structure are required, all others are optional.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -126,22 +118,12 @@ The provided DHCP client record already exists in the DHCP server database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4createclientinfo">DhcpV4CreateClientInfo</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getclientinfo">DhcpV4GetClientInfo</a>
- 
-
- 
 

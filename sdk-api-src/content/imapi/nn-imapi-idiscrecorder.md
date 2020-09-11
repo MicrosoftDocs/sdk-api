@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: fc861cbb-a14e-499e-8b80-f5912e4f6076
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI],described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
-f1_keywords:
-- imapi/IDiscRecorder
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscRecorder
-- IDiscRecorder.Init
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder
+ - imapi/IDiscRecorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscRecorder
+ - IDiscRecorder.Init
 ---
 
 # IDiscRecorder interface
 
 
 ## -description
-
 
 The 
 <b>IDiscRecorder</b> interface enables access to a single disc recorder device, labeled the active disc recorder. An IMAPI object such as <b>MSDiscMasterObj</b> maintains an active disc recorder.
@@ -58,7 +58,6 @@ An
 <b>IDiscRecorder</b> object represents a single hardware device, but there can be multiple instances of 
 <b>IDiscRecorder</b> all referencing the same hardware device. In this case, use 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-openexclusive">OpenExclusive</a> to access that device.
-
 
 ## -inheritance
 
@@ -214,17 +213,12 @@ Sets properties for the recorder.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 All 
 <b>IDiscRecorder</b> interfaces may be used on an 
 <b>IDiscRecorder</b> object even if the disc recorder is not the active disc recorder. The IMAPI client does not have to call 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscrecorder">IDiscMaster::SetActiveDiscRecorder</a> first.
-
-
 

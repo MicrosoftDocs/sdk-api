@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: c29aa79e-b978-4318-a8e1-5a321cd66327
 ms.date: 12/05/2018
 ms.keywords: D2D1_FIGURE_BEGIN, D2D1_FIGURE_BEGIN enumeration [Direct2D], D2D1_FIGURE_BEGIN_FILLED, D2D1_FIGURE_BEGIN_HOLLOW, d2d1/D2D1_FIGURE_BEGIN, d2d1/D2D1_FIGURE_BEGIN_FILLED, d2d1/D2D1_FIGURE_BEGIN_HOLLOW, direct2d.D2D1_FIGURE_BEGIN
-f1_keywords:
-- d2d1/D2D1_FIGURE_BEGIN
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_FIGURE_BEGIN
 targetos: Windows
 req.typenames: D2D1_FIGURE_BEGIN
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_FIGURE_BEGIN
+ - d2d1/D2D1_FIGURE_BEGIN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_FIGURE_BEGIN
 ---
 
 # D2D1_FIGURE_BEGIN enumeration
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicates whether a specific <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> figure is filled or hollow. 
-
+Indicates whether a specific <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> figure is filled or hollow.
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_FIGURE_BEGIN_FILLED
 
 Indicates the figure will be filled by the FillGeometry (<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1commandsink-fillgeometry">ID2D1CommandSink::FillGeometry</a> 
           or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>) method.
-
 
 ### -field D2D1_FIGURE_BEGIN_HOLLOW
 
@@ -71,16 +66,9 @@ Indicates the figure will not be filled by the FillGeometry (<a href="/windows/w
           Moreover, the bounds of a hollow figure are zero. 
           D2D1_FIGURE_BEGIN_HOLLOW should be used for stroking, or for other geometry operations.
 
-
 ### -field D2D1_FIGURE_BEGIN_FORCE_DWORD
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
 
@@ -91,7 +79,4 @@ Indicates the figure will not be filled by the FillGeometry (<a href="/windows/w
 
 
 <a href="/windows/win32/Direct2D/path-geometries-overview">Path Geometries Overview</a>
- 
-
- 
 

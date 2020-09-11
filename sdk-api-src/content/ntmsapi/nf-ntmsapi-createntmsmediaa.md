@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a44c51c3-13d7-490e-9b6f-4d4c82d5a8f8
 ms.date: 12/05/2018
 ms.keywords: CreateNtmsMedia, CreateNtmsMedia function [Files], CreateNtmsMediaA, CreateNtmsMediaW, NTMS_ERROR_ON_DUPLICATE, _zaw_createntmsmedia, base.createntmsmedia, fs.createntmsmedia, ntmsapi/CreateNtmsMedia, ntmsapi/CreateNtmsMediaA, ntmsapi/CreateNtmsMediaW
-f1_keywords:
-- ntmsapi/CreateNtmsMedia
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- CreateNtmsMedia
-- CreateNtmsMediaA
-- CreateNtmsMediaW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateNtmsMediaA
+ - ntmsapi/CreateNtmsMediaA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - CreateNtmsMedia
+ - CreateNtmsMediaA
+ - CreateNtmsMediaW
 ---
 
 # CreateNtmsMediaA function
@@ -51,35 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>CreateNtmsMedia</b> function creates a PMID and side (or sides) for a new piece of offline media. The media is placed in the media pool specified for <i>lpPhysicalMedia</i>.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
-
 ### -param lpMedia [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that contains information about the medium to create. For a description of the applicable members, see Remarks.
 
-
 ### -param lpList [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that specifies array of sides associated with the medium. For a description of the applicable members, see Remarks.
-
 
 ### -param dwOptions [in]
 
@@ -114,12 +107,8 @@ Returns an error and does not create the medium if a medium with the specified O
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -252,14 +241,8 @@ The function executed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>lpMedia</i> parameter must point to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure, whose <b>dwType</b> parameter is NTMS_PHYSICAL_MEDIA. The following is a list of members and descriptions for the 
@@ -528,11 +511,5 @@ RSM updates this member when it mounts the newly-imported medium for the first t
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d35d155c-fb81-4d7e-b5c9-82ac5af4b79e
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionCertificatePolicies, IX509ExtensionCertificatePolicies interface [Security], IX509ExtensionCertificatePolicies interface [Security],described, certenroll/IX509ExtensionCertificatePolicies, security.ix509extensioncertificatepolicies
-f1_keywords:
-- certenroll/IX509ExtensionCertificatePolicies
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionCertificatePolicies
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionCertificatePolicies
+ - certenroll/IX509ExtensionCertificatePolicies
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionCertificatePolicies
 ---
 
 # IX509ExtensionCertificatePolicies interface
 
 
 ## -description
-
 
 The <b>IX509ExtensionCertificatePolicies</b> interface enables you to specify a collection of policy information terms, each of which consists of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and optional policy qualifiers. A single policy term is defined by an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a> object. The following syntax shows the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
 <pre class="syntax" xml:space="preserve"><code>
@@ -166,7 +166,6 @@ This extension is supported on Windows Server 2003 and later  certification aut
 
 To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
 
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionCertificatePolicies</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionCertificatePolicies</b> also has these types of members:
@@ -220,13 +219,9 @@ Retrieves a collection of certificate policies.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
@@ -237,7 +232,4 @@ Retrieves a collection of certificate policies.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: ff451481-3e9d-4add-94e2-846d67002a38
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPFORWARDROW, MIB_IPFORWARDROW, MIB_IPFORWARDROW structure [MIB], MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, MIB_IPROUTE_TYPE_DIRECT, MIB_IPROUTE_TYPE_INDIRECT, MIB_IPROUTE_TYPE_INVALID, MIB_IPROUTE_TYPE_OTHER, PMIB_IPFORWARDROW, PMIB_IPFORWARDROW structure pointer [MIB], _mpr_mib_ipforwardrow, ipmib/MIB_IPFORWARDROW, ipmib/PMIB_IPFORWARDROW, iprtrmib/MIB_IPFORWARDROW, iprtrmib/PMIB_IPFORWARDROW, mib.mib_ipforwardrow, rras.mib_ipforwardrow'
-f1_keywords:
-- ipmib/MIB_IPFORWARDROW
-dev_langs:
-- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipmib.h
-- Iprtrmib.h
-api_name:
-- MIB_IPFORWARDROW
 targetos: Windows
 req.typenames: MIB_IPFORWARDROW, *PMIB_IPFORWARDROW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IPFORWARDROW
+ - ipmib/_MIB_IPFORWARDROW
+ - PMIB_IPFORWARDROW
+ - ipmib/PMIB_IPFORWARDROW
+ - MIB_IPFORWARDROW
+ - ipmib/MIB_IPFORWARDROW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_IPFORWARDROW
 ---
 
 # MIB_IPFORWARDROW structure
@@ -50,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MIB_IPFORWARDROW</b> structure contains information that describes an IPv4 network route. 
-
+<b>MIB_IPFORWARDROW</b> structure contains information that describes an IPv4 network route.
 
 ## -struct-fields
-
-
-
 
 ### -field dwForwardDest
 
@@ -68,7 +68,6 @@ The destination IPv4 address of the route. An
                 entry  with  a IPv4 address of 0.0.0.0 is considered a
                 default route.
 This member cannot be set to a multicast (class D) IPv4 address.
-
 
 ### -field dwForwardMask
 
@@ -80,7 +79,6 @@ The IPv4 subnet mask to use with the
 
 The <b>dwForwardMask</b> value should be applied to the destination  IPv4 address (logical and operation) before a comparison with the  value  in  the  <b>dwForwardDest</b> member.
 
-
 ### -field dwForwardPolicy
 
 Type: <b>DWORD</b>
@@ -90,13 +88,11 @@ The set of conditions that would cause the selection of a multi-path route (the 
 RFC 1354. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>.
 
-
 ### -field dwForwardNextHop
 
 Type: <b>DWORD</b>
 
 For remote routes, the IPv4 address of the next system en route. Otherwise, this member should be an IPv4 address of 0.0.0.0.
-
 
 ### -field dwForwardIfIndex
 
@@ -104,7 +100,6 @@ Type: <b>DWORD</b>
 
 The index of the local interface through  which  the next hop of this
                 route should be reached.
-
 
 ### -field dwForwardType
 
@@ -171,13 +166,8 @@ The remote route where the next hop is not the final destination (a remote desti
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ForwardType
-
- 
-
 
 ### -field dwForwardProto
 
@@ -389,21 +379,15 @@ A Windows specific entry added as a static route from the routing user interface
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ForwardProto
-
- 
-
 
 ### -field dwForwardAge
 
 Type: <b>DWORD</b>
 
 The number of seconds  since  the  route  was
-                added or modified in the network routing table. 
-
+                added or modified in the network routing table.
 
 ### -field dwForwardNextHopAS
 
@@ -412,7 +396,6 @@ Type: <b>DWORD</b>
 The autonomous system number of the next hop. When  this  member is  unknown  or not relevant to the
                 protocol or routing mechanism specified in <b>dwForwardProto</b>, this value  should be set to zero. This value is documented in 
 RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
-
 
 ### -field dwForwardMetric1
 
@@ -424,7 +407,6 @@ The primary routing metric value for this route. The  semantics of this metric a
 in 
 RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
-
 ### -field dwForwardMetric2
 
 Type: <b>DWORD</b>
@@ -433,7 +415,6 @@ An alternate  routing metric value for this route. The  semantics of this metric
                 the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
                 used, its value should be set to -1. This value is documented in 
 RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
-
 
 ### -field dwForwardMetric3
 
@@ -444,7 +425,6 @@ An alternate  routing metric value for this route. The  semantics of this metric
                 used, its value should be set to -1. This value is documented in 
 RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
-
 ### -field dwForwardMetric4
 
 Type: <b>DWORD</b>
@@ -453,7 +433,6 @@ An alternate  routing metric value for this route. The  semantics of this metric
                 the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
                 used, its value should be set to -1. This value is documented in 
 RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
-
 
 ### -field dwForwardMetric5
 
@@ -464,10 +443,7 @@ An alternate  routing metric value for this route. The  semantics of this metric
                 used, its value should be set to -1. This value is documented in 
 RFC 1354. For more information, see <a href="https://www.ietf.org/rfc/rfc1354.txt">http://www.ietf.org/rfc/rfc1354.txt</a>
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a> function enumerates the IPv4 route entries on a local system and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardtable">MIB_IPFORWARDTABLE</a> structure that contains an array of <b>MIB_IPFORWARDROW</b> structure entries. 
 
@@ -507,12 +483,7 @@ To view an example that retrieves the <a href="https://docs.microsoft.com/window
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a>
 
@@ -543,7 +514,4 @@ To view an example that retrieves the <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a>
- 
-
- 
 

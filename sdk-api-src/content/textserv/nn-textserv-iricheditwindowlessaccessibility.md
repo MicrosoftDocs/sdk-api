@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: E58E9577-4004-4627-A0D6-CF8166C0C43F
 ms.date: 12/05/2018
 ms.keywords: IRicheditWindowlessAccessibility, IRicheditWindowlessAccessibility interface [Windows Controls], IRicheditWindowlessAccessibility interface [Windows Controls],described, controls.iricheditwindowlessaccessibility, textserv/IRicheditWindowlessAccessibility
-f1_keywords:
-- textserv/IRicheditWindowlessAccessibility
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- IRicheditWindowlessAccessibility
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRicheditWindowlessAccessibility
+ - textserv/IRicheditWindowlessAccessibility
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - IRicheditWindowlessAccessibility
 ---
 
 # IRicheditWindowlessAccessibility interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the host container of a windowless rich edit control to obtain the Microsoft UI Automation provider for the parent of the control.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Obtains a UI Automation provider object for the parent of a windowless rich edit
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiainformation">IRichEditUiaInformation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiaoverrides">IRichEditUiaOverrides</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 479aede8-e9e3-42c2-9081-94c150c7f274
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer function, _win32_interlockedexchangepointer, base.interlockedexchangepointer, winnt/InterlockedExchangePointer
-f1_keywords:
-- winnt/InterlockedExchangePointer
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedExchangePointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedExchangePointer
+ - winnt/InterlockedExchangePointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedExchangePointer
 ---
 
 # InterlockedExchangePointer function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Atomically exchanges a pair of addresses.
-
 
 ## -parameters
 
-
-
-
 ### -param Target [in, out]
 
-A pointer to the address to exchange. The function sets the  address pointed to by the <i>Target</i> parameter (<code>*Target</code>) to the address that is the value of the <i>Value</i> parameter, and returns the prior value of the <i>Target</i> parameter. 
-
+A pointer to the address to exchange. The function sets the  address pointed to by the <i>Target</i> parameter (<code>*Target</code>) to the address that is the value of the <i>Value</i> parameter, and returns the prior value of the <i>Target</i> parameter.
 
 ### -param Value [in]
 
 The address to be exchanged with the address pointed to by the <i>Target</i> parameter (<code>*Target</code>).
 
-
 ## -returns
-
-
 
 The function returns the initial address pointed to by the <i>Target</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 This function copies the address passed as the second parameter to the first and returns the original address of the first.
 
@@ -96,12 +83,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -168,7 +150,4 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

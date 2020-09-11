@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1af7b178-3226-43c3-bfbe-08738f9ef851
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security],described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver
-f1_keywords:
-- certenroll/ICertPropertyEnrollmentPolicyServer
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertPropertyEnrollmentPolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyEnrollmentPolicyServer
+ - certenroll/ICertPropertyEnrollmentPolicyServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertPropertyEnrollmentPolicyServer
 ---
 
 # ICertPropertyEnrollmentPolicyServer interface
 
 
 ## -description
-
 
 The <b>ICertPropertyEnrollmentPolicyServer</b> interface represents an external certificate property that contains information about a certificate enrollment policy (CEP) server and a certificate enrollment server (CES).  A CEP server is a web service that retrieves policy information. A CES is a web service that targets a specific certification authority to support certificate enrollment.
 
@@ -159,20 +159,13 @@ Initializes an <b>ICertPropertyEnrollmentPolicyServer</b> object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

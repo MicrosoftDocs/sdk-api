@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: fec0c8c2-b17f-49a0-9c97-260c98e71604
 ms.date: 12/05/2018
 ms.keywords: IADsLocality, IADsLocality interface [ADSI], IADsLocality interface [ADSI],described, _ds_iadslocality, adsi.iadslocality, iads/IADsLocality
-f1_keywords:
-- iads/IADsLocality
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsLocality
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsLocality
+ - iads/IADsLocality
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsLocality
 ---
 
 # IADsLocality interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsLocality</b> interface is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent the geographical location, or region, of a directory entity. This interface is one of several that provide support for directory services to organize accounts by country/region, locality (state/city/region), organization (company), or organizational unit (department). This interface manages locality, the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadso">IADsO</a> interface manages organization, and the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsou">IADsOU</a> interface manages the organization unit.
    
 
 When a directory service provides hierarchical groupings of directory entries by country/region, locality, organization, or organization unit, you can use this and the related interfaces to expand the directory tree accordingly. In this case, the <b>IADsLocality</b> interface is implemented by a locality object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interface.
-
 
 ## -inheritance
 
@@ -303,13 +302,9 @@ Gets and sets any other information relevant to this region.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -328,7 +323,4 @@ Gets and sets any other information relevant to this region.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

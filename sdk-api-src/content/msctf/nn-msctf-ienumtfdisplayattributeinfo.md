@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: b222deb8-22dd-44c3-9ecc-0fb379682796
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDisplayAttributeInfo, IEnumTfDisplayAttributeInfo interface [Text Services Framework], IEnumTfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_ienumtfdisplayattributeinfo_ref, msctf/IEnumTfDisplayAttributeInfo, tsf.ienumtfdisplayattributeinfo
-f1_keywords:
-- msctf/IEnumTfDisplayAttributeInfo
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfDisplayAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfDisplayAttributeInfo
+ - msctf/IEnumTfDisplayAttributeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfDisplayAttributeInfo
 ---
 
 # IEnumTfDisplayAttributeInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnumTfDisplayAttributeInfo</b> interface is implemented by the TSF manager to provide an enumeration of display attribute information objects.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Moves the current position forward in the enumeration sequence by the specified 
 
 </td>
 </tr>
-</table> 
+</table>
 

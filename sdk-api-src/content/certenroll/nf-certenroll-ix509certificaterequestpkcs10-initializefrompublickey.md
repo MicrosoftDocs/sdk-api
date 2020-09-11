@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7b7e00dc-649b-4bcb-a9b6-5745b33ea48b
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromPublicKey method, IX509CertificateRequestPkcs10.InitializeFromPublicKey, IX509CertificateRequestPkcs10::InitializeFromPublicKey, InitializeFromPublicKey, InitializeFromPublicKey method [Security], InitializeFromPublicKey method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromPublicKey, security.ix509certificaterequestpkcs10_initializefrompublickey_method
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10.InitializeFromPublicKey
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10.InitializeFromPublicKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10::InitializeFromPublicKey
+ - certenroll/IX509CertificateRequestPkcs10::InitializeFromPublicKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10.InitializeFromPublicKey
 ---
 
 # IX509CertificateRequestPkcs10::InitializeFromPublicKey
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromPublicKey</b> method initializes a null-signed certificate request by using an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a> object and, optionally, a template.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
 
-
 ### -param pPublicKey [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a> interface that represents the public key.
-
 
 ### -param strTemplateName [in, optional]
 
 A  <b>BSTR</b> variable that contains the Common Name (CN) of the template as it appears in Active Directory or the dotted decimal <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>. This is an optional parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -99,14 +90,8 @@ The certificate request object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you specify a template, the <b>InitializeFromPublicKey</b> method performs the following actions:<ul>
 <li>Adds the extensions specified in the optional template, if any, to the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection.</li>
@@ -123,16 +108,7 @@ Whether you specify a template or not, if the <a href="https://docs.microsoft.co
 
 The method does not create a private key. The use of this method implies that the request is null-signed. Therefore, the method sets the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_nullsigned">NullSigned</a> property on the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
 

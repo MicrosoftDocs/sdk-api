@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: E56E13D5-A41D-41F4-8E63-55664F6A8E28
 ms.date: 12/05/2018
 ms.keywords: CreateSpellCheckProvider, CreateSpellCheckProvider method [Internationalization for Windows Applications], CreateSpellCheckProvider method [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, ISpellCheckProviderFactory interface [Internationalization for Windows Applications],CreateSpellCheckProvider method, ISpellCheckProviderFactory.CreateSpellCheckProvider, ISpellCheckProviderFactory::CreateSpellCheckProvider, intl.ispellcheckproviderfactory_createspellcheckprovider, spellcheckprovider/ISpellCheckProviderFactory::CreateSpellCheckProvider
-f1_keywords:
-- spellcheckprovider/ISpellCheckProviderFactory.CreateSpellCheckProvider
-dev_langs:
-- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheckprovider.h
-api_name:
-- ISpellCheckProviderFactory.CreateSpellCheckProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellCheckProviderFactory::CreateSpellCheckProvider
+ - spellcheckprovider/ISpellCheckProviderFactory::CreateSpellCheckProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheckprovider.h
+api_name:
+ - ISpellCheckProviderFactory.CreateSpellCheckProvider
 ---
 
 # ISpellCheckProviderFactory::CreateSpellCheckProvider
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a spell checker (implemented by a spell check provider) that supports the specified language. This interface is not used directly by clients, but by the Spell Checking API.
 
-
 ## -parameters
-
-
-
 
 ### -param languageTag [in]
 
 A <a href="http://tools.ietf.org/html/bcp47">BCP47</a> language tag that identifies the language for the requested spell checker.
 
-
 ### -param value [out, retval]
 
 The created spell checker.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,25 +105,12 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">ISpellCheckProviderFactory::IsSupported</a> can be called to determine if <i>languageTag</i> is supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="http://tools.ietf.org/html/bcp47">BCP47 Tags for Identifying Languages</a>
 
@@ -146,7 +125,4 @@ Successful.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">ISpellCheckProviderFactory::IsSupported</a>
- 
-
- 
 

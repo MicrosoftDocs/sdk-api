@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 7942aa81-ada7-4e9c-a261-f257f8f890b7
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], IWMProfile3 interface [windows Media Format],described, IWMProfile3Interface, wmformat.iwmprofile3, wmsdkidl/IWMProfile3
-f1_keywords:
-- wmsdkidl/IWMProfile3
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMProfile3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile3
+ - wmsdkidl/IWMProfile3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMProfile3
 ---
 
 # IWMProfile3 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMProfile3</b> interface provides enhanced features for profiles. This includes the ability to create two new types of objects: bandwidth sharing objects and stream prioritization objects.
 
 An <b>IWMProfile3</b> interface is created for each profile object created. You can retrieve a pointer to an <b>IWMProfile3</b> interface by calling the <b>QueryInterface</b> method of any other interface of the profile. You can also access <b>IWMProfile3</b> from a reader or synchronous reader object by calling the <b>QueryInterface</b> method of an existing interface in the object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>.
-
-
-
 
 ## -inheritance
 
@@ -187,12 +183,7 @@ Assigns a stream prioritization object to the profile.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/bandwidth-sharing-object">Bandwidth Sharing Object</a>
 
@@ -219,7 +210,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/stream-prioritization-object">Stream Prioritization Object</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: acb51bc5-43e2-4657-96eb-8e3d3e82e018
 ms.date: 12/05/2018
 ms.keywords: '*LPWINHTTP_PROXY_INFO, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_PROXY_INFO, WINHTTP_PROXY_INFO structure [HTTP], WINHTTP_PROXY_INFOW, http.internet_proxy_info, winhttp/WINHTTP_PROXY_INFO, winhttp_internet_proxy_info_structure'
-f1_keywords:
-- winhttp/WINHTTP_PROXY_INFO
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winhttp.h
-api_name:
-- WINHTTP_PROXY_INFO
 targetos: Windows
 req.typenames: WINHTTP_PROXY_INFO, *LPWINHTTP_PROXY_INFO
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - LPWINHTTP_PROXY_INFO
+ - winhttp/LPWINHTTP_PROXY_INFO
+ - WINHTTP_PROXY_INFO
+ - winhttp/WINHTTP_PROXY_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winhttp.h
+api_name:
+ - WINHTTP_PROXY_INFO
 ---
 
 ## -description
@@ -123,3 +126,4 @@ The proxy bypass list contains one or more server names separated by semicolons 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
+

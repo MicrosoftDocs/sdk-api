@@ -7,10 +7,6 @@ old-location: dshow\avistreamheader.htm
 tech.root: dshow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.date: 12/05/2018
-f1_keywords:
-- avifmt/AVISTREAMHEADER
-dev_langs:
-- c++
 req.header: avifmt.h
 req.include-header: Aviriff.h
 req.target-type: Windows
@@ -28,25 +24,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avifmt.h
-api_name:
-- AVISTREAMHEADER
 targetos: Windows
 req.typenames: AVIStreamHeader
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamHeader
+ - avifmt/AVIStreamHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avifmt.h
+api_name:
+ - AVISTREAMHEADER
 ---
 
 ## -description
 
 The <b>AVISTREAMHEADER</b> structure contains information about one stream in an AVI file.
-        
+
 ## -struct-fields
 
 ### -field fccType
@@ -190,3 +191,4 @@ The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equival
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

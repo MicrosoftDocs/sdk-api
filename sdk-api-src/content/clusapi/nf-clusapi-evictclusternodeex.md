@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 7f7ba010-265e-40d5-a429-a776d164fa07
 ms.date: 12/05/2018
 ms.keywords: EvictClusterNodeEx, EvictClusterNodeEx function [Failover Cluster], PCLUSAPI_EVICT_CLUSTER_NODE_EX, PCLUSAPI_EVICT_CLUSTER_NODE_EX function [Failover Cluster], _wolf_evictclusternodeex, clusapi/EvictClusterNodeEx, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE_EX, mscs.evictclusternodeex
-f1_keywords:
-- clusapi/EvictClusterNodeEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- EvictClusterNodeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvictClusterNodeEx
+ - clusapi/EvictClusterNodeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - EvictClusterNodeEx
 ---
 
 # EvictClusterNodeEx function
@@ -49,36 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Evicts a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> from the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and initiates cleanup operations on the node. The <b>PCLUSAPI_EVICT_CLUSTER_NODE_EX</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hNode [in]
 
 Handle to the node to remove from the cluster.
-
 
 ### -param dwTimeOut [in]
 
 Specifies the number of milliseconds for the function to wait for cleanup operations to occur. The function 
       will return when the cleanup is complete or when the specified time elapses, whichever is sooner.
 
-
 ### -param phrCleanupStatus [out]
 
 Pointer to an <b>HRESULT</b>   that describes the results of the cleanup operation.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -102,22 +93,12 @@ The node was evicted but the cleanup operation returned a value other than S_OK.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-evictclusternode">EvictClusterNode</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
- 
-
- 
 

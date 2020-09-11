@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: ee3be44c-8693-4e81-91cb-976854ad599a
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromUI1, VarUI4FromUI1 function [Automation], _oa96_VarUI4FromUI1, automat.varui4fromui1, oleauto/VarUI4FromUI1
-f1_keywords:
-- oleauto/VarUI4FromUI1
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI4FromUI1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI4FromUI1
+ - oleauto/VarUI4FromUI1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI4FromUI1
 ---
 
 # VarUI4FromUI1 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an unsigned char value to an unsigned long value.
 
-
 ## -parameters
-
-
-
 
 ### -param bIn [in]
 
 The value to convert.
 
-
 ### -param pulOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

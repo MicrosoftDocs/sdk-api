@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 94d5c8ee-2d61-42af-9a22-cc0df423b245
 ms.date: 12/05/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecQuery method, Provider.ExecQuery, Provider::ExecQuery, _hmm_provider_execquery, provider/Provider::ExecQuery, wmi.provider_execquery
-f1_keywords:
-- provider/Provider.ExecQuery
-dev_langs:
-- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- Provider.ExecQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Provider::ExecQuery
+ - provider/Provider::ExecQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - Provider.ExecQuery
 ---
 
 # Provider::ExecQuery
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,21 +59,15 @@ ms.custom: 19H1
 
 The <b>ExecQuery</b> method is called by WMI to process a WMI Query Language (WQL) query.
 
-
 ## -parameters
-
-
-
 
 ### -param pMethodContext
 
 Pointer to the context object for this call. This value contains any <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> properties specified by the client. Also, this pointer must be used as a parameter to any calls back into WMI.
 
-
 ### -param cQuery [ref]
 
 Pointer to a query that has already been parsed by the provider framework.
-
 
 ### -param lFlags
 
@@ -92,16 +86,9 @@ The following flags are handled by (and filtered out) by WMI:
 
 ## -returns
 
-
-
 The default framework provider implementation of this method returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b> to the calling method. The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a> method lists the common return values, although you can choose to return any COM return code.
 
-
-
-
 ## -remarks
-
-
 
 WMI often calls <b>ExecQuery</b> in response to a client call to <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a>, where the client passes in either a list of selected properties or a WHERE clause. WMI can also call <b>ExecQuery</b> if the client query contains an "ASSOCIATORS OF" or "REFERENCES OF" statement describing your class. If your implementation of <b>ExecQuery</b> returns <b>WBEM_E_NOT_SUPPORTED</b>, the client relies on WMI to handle the query.
 
@@ -140,5 +127,4 @@ These methods allow the endpoints to skip populating  resource-intensive or unne
 </li>
 <li>Make sure any association endpoint classes support per-property <b>Get</b> methods. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/supporting-partial-instance-operations">Supporting Partial-Instance Operations</a>. For more information about the query parameter, see <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a>.</li>
 </ul>
-
 

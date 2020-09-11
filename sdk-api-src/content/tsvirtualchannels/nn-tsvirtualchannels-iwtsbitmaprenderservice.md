@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 5ddc6ad8-1006-473e-b0f4-a5829045219a
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRenderService, IWTSBitmapRenderService interface [Remote Desktop Services], IWTSBitmapRenderService interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderservice, tsvirtualchannels/IWTSBitmapRenderService
-f1_keywords:
-- tsvirtualchannels/IWTSBitmapRenderService
-dev_langs:
-- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tsvirtualchannels.h
-api_name:
-- IWTSBitmapRenderService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSBitmapRenderService
+ - tsvirtualchannels/IWTSBitmapRenderService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tsvirtualchannels.h
+api_name:
+ - IWTSBitmapRenderService
 ---
 
 # IWTSBitmapRenderService interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This service is used to create a visual mapping on the client corresponding to a mapped window on the server. The server-side mapped window is set using the <a href="https://docs.microsoft.com/windows/desktop/api/wtshintapi/nf-wtshintapi-wtssetrenderhint">WTSSetRenderHint</a> API.
 
 This interface is implemented by the Remote Desktop Connection (RDC) client. You obtain an instance of this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice">IWTSPluginServiceProvider::GetService</a> method, passing <b>RDCLIENT_BITMAP_RENDER_SERVICE</b>.
-
 
 ## -inheritance
 
@@ -79,20 +78,13 @@ Obtains the bitmap rendering object used to render media on the server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice">IWTSPluginServiceProvider::GetService</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtshintapi/nf-wtshintapi-wtssetrenderhint">WTSSetRenderHint</a>
- 
-
- 
 

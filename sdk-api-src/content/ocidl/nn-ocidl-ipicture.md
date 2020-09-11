@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 42e3cd0e-2413-494a-8be8-2952089e02d2
 ms.date: 12/05/2018
 ms.keywords: IPicture, IPicture interface [COM], IPicture interface [COM],described, _ctrl_ipicture, com.ipicture, ocidl/IPicture
-f1_keywords:
-- ocidl/IPicture
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPicture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPicture
+ - ocidl/IPicture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPicture
 ---
 
 # IPicture interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages a picture object and its properties. Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <b>IPicture</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>, the latter being derived from <b>IDispatch</b> to provide access to the picture's properties through Automation. A picture object is created with <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>.
 
 The picture object also supports the outgoing interface <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a>, so a client can determine when picture properties change. Because the picture object supports at least one outgoing interface, it also implements <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> and its associated interfaces for this purpose.
 
 The picture object also supports <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> so that it can save and load itself from an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. An object that uses a picture object internally would normally save and load the picture as part of the object's own persistence handling. The function <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a> simplifies the creation of a picture object based on stream contents.
-
 
 ## -inheritance
 
@@ -198,12 +197,9 @@ Sets the current palette of the picture.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Each property in the <b>IPicture</b> interface includes a <b>get_PropertyName</b> method if the property supports read access and a <b>put_PropertyName</b> method if the property supports write access.
 
@@ -279,16 +275,7 @@ Picture objects provide a language-neutral abstraction for bitmaps, icons, and m
 
 The OLE-provided picture object implements the complete semantics of the <b>IPicture</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a> interfaces.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicturedisp">IPictureDisp</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: cbed0e90-8950-46f6-acaa-5e6daf814dd0
 ms.date: 12/05/2018
 ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetBuffered method, IMFSourceBuffer.GetBuffered, IMFSourceBuffer::GetBuffered, mf.imfsourcebuffer_getbuffered, mfmediaengine/IMFSourceBuffer::GetBuffered
-f1_keywords:
-- mfmediaengine/IMFSourceBuffer.GetBuffered
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBuffer.GetBuffered
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBuffer::GetBuffered
+ - mfmediaengine/IMFSourceBuffer::GetBuffered
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBuffer.GetBuffered
 ---
 
 # IMFSourceBuffer::GetBuffered
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the buffered time range.
 
-
 ## -parameters
-
-
-
 
 ### -param ppBuffered [out]
 
 The buffered time range.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
- 
-
- 
 

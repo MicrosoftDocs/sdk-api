@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvitem.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTVITEMA, I_CHILDRENAUTO, I_CHILDRENCALLBACK, LPTVITEM, LPTVITEM structure pointer [Windows Controls], TVIF_CHILDREN, TVIF_DI_SETITEM, TVIF_HANDLE, TVIF_IMAGE, TVIF_PARAM, TVIF_SELECTEDIMAGE, TVIF_STATE, TVIF_TEXT, TVITEM, TVITEM structure [Windows Controls], TVITEMA, TVITEMW, _win32_TVITEM, _win32_TVITEM_cpp, commctrl/LPTVITEM, commctrl/TVITEM, commctrl/TVITEMA, commctrl/TVITEMW, controls.TVITEM, controls._win32_TVITEM, one, zero'
-f1_keywords:
-- commctrl/TVITEM
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TVITEM
-- TVITEMA
-- TVITEMW
 targetos: Windows
 req.typenames: TVITEMA, *LPTVITEMA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTVITEMA
+ - commctrl/tagTVITEMA
+ - LPTVITEMA
+ - commctrl/LPTVITEMA
+ - TVITEMA
+ - commctrl/TVITEMA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TVITEM
+ - TVITEMA
+ - TVITEMW
 ---
 
 # TVITEMA structure
@@ -51,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies or receives attributes of a tree-view item. This structure is identical to the 
 			<b>TV_ITEM</b> structure, but it has been renamed to follow current naming conventions. New applications should use this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mask
 
@@ -162,15 +162,12 @@ The
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hItem
 
 Type: <b>HTREEITEM</b>
 
 Handle to the item.
-
 
 ### -field state
 
@@ -197,7 +194,6 @@ A state image is displayed next to an item's icon to indicate an application-def
 To set the state image index, use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextostateimagemask">INDEXTOSTATEIMAGEMASK</a>. This macro takes an index and sets bits 12 through 15 appropriately. To indicate that the item has no state image, set the index to zero. This convention means that image zero in the state image list cannot be used as a state image. To isolate bits 12 through 15 of the 
 						<b>state</b> member, use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_STATEIMAGEMASK</a> mask.
 
-
 ### -field stateMask
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
@@ -207,8 +203,7 @@ Bits of the
 					<b>stateMask</b> member to indicate the bits to be returned in the 
 					<b>state</b> member. If you are setting an item's state, set the bits of the 
 					<b>stateMask</b> member to indicate the bits of the 
-					<b>state</b> member that you want to set. To set or retrieve an item's overlay image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_OVERLAYMASK</a> bits. To set or retrieve an item's state image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_STATEIMAGEMASK</a> bits. 
-
+					<b>state</b> member that you want to set. To set or retrieve an item's overlay image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_OVERLAYMASK</a> bits. To set or retrieve an item's state image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_STATEIMAGEMASK</a> bits.
 
 ### -field pszText
 
@@ -216,14 +211,12 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Pointer to a null-terminated string that contains the item text if the structure specifies item attributes. If this member is the LPSTR_TEXTCALLBACK value, the parent window is responsible for storing the name. In this case, the tree-view control sends the parent window a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-getdispinfo">TVN_GETDISPINFO</a> notification code when it needs the item text for displaying, sorting, or editing and a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-setdispinfo">TVN_SETDISPINFO</a> notification code when the item text changes. If the structure is receiving item attributes, this member is the address of the buffer that receives the item text. Note that although the tree-view control allows any length string to be stored as item text, only the first 260 characters are displayed.
 
-
 ### -field cchTextMax
 
 Type: <b>int</b>
 
 Size of the buffer pointed to by the 
-					<b>pszText</b> member, in characters. If this structure is being used to set item attributes, this member is ignored. 
-
+					<b>pszText</b> member, in characters. If this structure is being used to set item attributes, this member is ignored.
 
 ### -field iImage
 
@@ -231,13 +224,11 @@ Type: <b>int</b>
 
 Index in the tree-view control's image list of the icon image to use when the item is in the nonselected state. If this member is the I_IMAGECALLBACK value, the parent window is responsible for storing the index. In this case, the tree-view control sends the parent a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-getdispinfo">TVN_GETDISPINFO</a> notification code to retrieve the index when it needs to display the image.
 
-
 ### -field iSelectedImage
 
 Type: <b>int</b>
 
 Index in the tree-view control's image list of the icon image to use when the item is in the selected state. If this member is the I_IMAGECALLBACK value, the parent window is responsible for storing the index. In this case, the tree-view control sends the parent a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-getdispinfo">TVN_GETDISPINFO</a> notification code to retrieve the index when it needs to display the image.
-
 
 ### -field cChildren
 
@@ -304,14 +295,12 @@ If the tree-view control has the <a href="https://docs.microsoft.com/windows/des
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-A value to associate with the item. 
+A value to associate with the item.
 
 ## -remarks
 

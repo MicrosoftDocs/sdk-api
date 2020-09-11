@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 2267d29f-c3b2-4bc8-b4cb-6272a7ebae1a
 ms.date: 12/05/2018
 ms.keywords: IReferenceTracker, IReferenceTracker interface [Windows Runtime], IReferenceTracker interface [Windows Runtime],described, windows/IReferenceTracker, winrt.ireferencetracker
-f1_keywords:
-- windows.ui.xaml.hosting.referencetracker/IReferenceTracker
-dev_langs:
-- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.ui.xaml.hosting.referencetracker.h
-api_name:
-- IReferenceTracker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReferenceTracker
+ - windows.ui.xaml.hosting.referencetracker/IReferenceTracker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.ui.xaml.hosting.referencetracker.h
+api_name:
+ - IReferenceTracker
 ---
 
 # IReferenceTracker interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the interface implemented by the XAML framework for managing XAML object references.
-
 
 ## -inheritance
 
@@ -132,14 +131,9 @@ Indicates each time that a tracker source calls <b>IUnknown::Release</b> on the 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is implemented by most XAML framework objects. It is not defined as <b>agile</b>, nor does it marshal across apartments. Use it only from within the apartment of the XAML object that implements it.
-
-
 

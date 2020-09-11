@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: abbce425-9185-4235-8d8e-28be591be8e5
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media Player], IWMPPlayerServices2 interface [Windows Media Player],described, IWMPPlayerServices2Interface, wmp.iwmpplayerservices2, wmp/IWMPPlayerServices2
-f1_keywords:
-- wmp/IWMPPlayerServices2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlayerServices2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayerServices2
+ - wmp/IWMPPlayerServices2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlayerServices2
 ---
 
 # IWMPPlayerServices2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlayerServices2</b> interface provides a method used by the host of a remoted Windows Media Player control to manipulate the full mode of the Player. In addition to the methods inherited from <b>IWMPPlayerServices</b>, the <b>IWMPPlayerServices2</b> interface exposes the following methods.
-
-
-
 
 ## -inheritance
 
@@ -83,13 +79,8 @@ Specifies a priority level for general background processing tasks.
 </table> 
 
 Retrieve a pointer to an <b>IWMPPlayerServices2</b> interface by calling the COM <b>CoCreateInstance</b> method.
-	
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices">IWMPPlayerServices Interface</a>
 
@@ -104,7 +95,4 @@ Retrieve a pointer to an <b>IWMPPlayerServices2</b> interface by calling the COM
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
 

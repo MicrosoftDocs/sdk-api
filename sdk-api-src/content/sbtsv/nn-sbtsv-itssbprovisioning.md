@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 136c1538-be4f-4b1c-b74f-8914a51f774a
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], ITsSbProvisioning interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioning, termserv.itssbprovisioning
-f1_keywords:
-- sbtsv/ITsSbProvisioning
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbProvisioning
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbProvisioning
+ - sbtsv/ITsSbProvisioning
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbProvisioning
 ---
 
 # ITsSbProvisioning interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that create and maintain virtual machines.
-
 
 ## -inheritance
 
@@ -104,20 +103,13 @@ Patches a virtual machine asynchronously.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: fae858ae-19e5-453d-b9ef-1da7ea706e49
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Services], ITsSbOrchestration interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestration, termserv.itssborchestration
-f1_keywords:
-- sbtsv/ITsSbOrchestration
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbOrchestration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbOrchestration
+ - sbtsv/ITsSbOrchestration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbOrchestration
 ---
 
 # ITsSbOrchestration interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to ensure that the target is ready before a client is redirected to it.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Prepares the target for a client connection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

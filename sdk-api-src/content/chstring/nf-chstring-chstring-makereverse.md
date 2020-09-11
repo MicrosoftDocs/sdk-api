@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 129792cf-e442-4491-b921-273363809210
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],MakeReverse method, CHString.MakeReverse, CHString::MakeReverse, MakeReverse, MakeReverse method [Windows Management Instrumentation], MakeReverse method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makereverse, chstring/CHString::MakeReverse, wmi.chstring_makereverse
-f1_keywords:
-- chstring/CHString.MakeReverse
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.MakeReverse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::MakeReverse
+ - chstring/CHString::MakeReverse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.MakeReverse
 ---
 
 # CHString::MakeReverse
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,19 +59,9 @@ ms.custom: 19H1
 
 The <b>MakeReverse</b> method reverses the order of the characters in a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
 

@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 7B517246-410C-49B6-9DEE-30E066D8F5C6
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_CAPTURE_CALLBACK, PWINBIO_CAPTURE_CALLBACK function, PWINBIO_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_capture_callback, winbio/PWINBIO_CAPTURE_CALLBACK
-f1_keywords:
-- winbio/PWINBIO_CAPTURE_CALLBACK
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio.h
-api_name:
-- PWINBIO_CAPTURE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWINBIO_CAPTURE_CALLBACK
+ - winbio/PWINBIO_CAPTURE_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio.h
+api_name:
+ - PWINBIO_CAPTURE_CALLBACK
 ---
 
 # PWINBIO_CAPTURE_CALLBACK callback function
 
 
 ## -description
-
 
 Called by the Windows Biometric Framework to return results from the   asynchronous <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a> function. The client application must implement this function.
 
@@ -62,46 +62,33 @@ Called by the Windows Biometric Framework to return results from the   asynchron
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param CaptureCallbackContext [in, optional]
 
 Pointer to a buffer defined by the application and passed to the <i>CaptureCallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
 
-
 ### -param OperationStatus [in]
 
 Error code returned by the capture operation.
-
 
 ### -param UnitId [in]
 
 Biometric unit ID number.
 
-
 ### -param Sample [in]
 
 Pointer to the sample data.
-
 
 ### -param SampleSize [in]
 
 Size, in bytes, of the sample data pointed to by the <i>Sample</i> parameter.
 
-
 ### -param RejectDetail [in]
 
 Additional information about the failure, if any, to perform the operation. For more information,  see Remarks.
 
-
 ## -remarks
-
-
 
 Currently, the Windows Biometric Framework supports only fingerprint readers. Therefore, if an operation fails and returns additional information in a <b>WINBIO_REJECT_DETAIL</b> constant, it will be one of the following values:<ul>
 <li>WINBIO_FP_TOO_HIGH</li>
@@ -252,21 +239,11 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-reject-detail-constants">WINBIO_REJECT_DETAIL Constants</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesamplewithcallback">WinBioCaptureSampleWithCallback</a>
- 
-
- 
 

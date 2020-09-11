@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_MOTION_ESTIMATOR_DESC
 f1_keywords:
+ - D3D12_VIDEO_MOTION_ESTIMATOR_DESC
  - d3d12video/D3D12_VIDEO_MOTION_ESTIMATOR_DESC
 dev_langs:
  - c++

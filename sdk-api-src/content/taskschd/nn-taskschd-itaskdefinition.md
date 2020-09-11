@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 3787ed9b-9fd0-473b-9034-ade97dc330d9
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition, ITaskDefinition interface [Task Scheduler], ITaskDefinition interface [Task Scheduler],described, taskschd.itaskdefinition, taskschd/ITaskDefinition
-f1_keywords:
-- taskschd/ITaskDefinition
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskDefinition
+ - taskschd/ITaskDefinition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskDefinition
 ---
 
 # ITaskDefinition interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines all the components of a task, such as the task settings, triggers, actions, and registration information.
 
-
 ## -remarks
-
-
 
 When reading or writing your own XML for a task, a task definition is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-task-element">Task</a> element of the Task Scheduler schema.
 
@@ -66,12 +63,7 @@ For more information and example code for this interface, see <a href="https://d
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_definition">Definition Property of IRegisteredTask</a>
 
@@ -106,7 +98,4 @@ For more information and example code for this interface, see <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
- 
-
- 
 

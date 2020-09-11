@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 29b6f72a-ae81-4292-a023-a4bab16ae143
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent, ITraceEvent interface [ETW], ITraceEvent interface [ETW],described, etw.ievent, relogger/ITraceEvent
-f1_keywords:
-- relogger/ITraceEvent
-dev_langs:
-- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Relogger.h
-api_name:
-- ITraceEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceEvent
+ - relogger/ITraceEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Relogger.h
+api_name:
+ - ITraceEvent
 ---
 
 # ITraceEvent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITraceEvent</b> interface  provides access to data relating to a specific event.
-
 
 ## -inheritance
 
@@ -176,29 +175,17 @@ Sets the elapsed execution time for user-mode instructions.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is not supported on Windows 7 for the IA64 architecture.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
- 
-
- 
 

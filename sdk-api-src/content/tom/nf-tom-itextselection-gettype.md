@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettype.htm
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Controls], GetType method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],GetType method, ITextSelection.GetType, ITextSelection::GetType, _win32_ITextSelection_GetType, _win32_ITextSelection_GetType_cpp, controls.ITextSelection_GetType, controls._win32_ITextSelection_GetType, tom/ITextSelection::GetType
-f1_keywords:
-- tom/ITextSelection.GetType
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextSelection.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextSelection::GetType
+ - tom/ITextSelection::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextSelection.GetType
 ---
 
 # ITextSelection::GetType
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the type of text selection.
 
-
 ## -parameters
-
-
-
 
 ### -param pType
 
@@ -117,24 +113,14 @@ The selection type. The method returns <i>pType</i> with one of the values in th
 <td>Shape.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>StdMETHODIMP</b>
 
 The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If <i>pType</i> is null, the method fails and it returns E_INVALIDARG.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -149,7 +135,4 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

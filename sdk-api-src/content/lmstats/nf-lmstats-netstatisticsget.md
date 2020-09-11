@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d0e51d8a-2f54-42ca-9759-0da82c1f0f55
 ms.date: 12/05/2018
 ms.keywords: 0, NetStatisticsGet, NetStatisticsGet function [Files], _win32_netstatisticsget, fs.netstatisticsget, lmstats/NetStatisticsGet, netmgmt.netstatisticsget
-f1_keywords:
-- lmstats/NetStatisticsGet
-dev_langs:
-- c++
 req.header: lmstats.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetStatisticsGet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetStatisticsGet
+ - lmstats/NetStatisticsGet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetStatisticsGet
 ---
 
 # NetStatisticsGet function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves operating statistics for a service. Currently, only the workstation and server services are supported.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerName [in]
 
 Pointer to a string that specifies the DNS or NetBIOS name of the server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param Service [in]
 
 Pointer to a string that specifies the name of the service about which to get the statistics. Only the values <b>SERVICE_SERVER</b> and <b>SERVICE_WORKSTATION</b> are currently allowed.
-
 
 ### -param Level [in]
 
@@ -92,13 +86,10 @@ Return statistics about a workstation or a server. The <i>bufptr</i> parameter p
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Options [in]
 
 This parameter must be zero.
-
 
 ### -param Buffer [out]
 
@@ -107,33 +98,19 @@ Pointer to the buffer that receives the data. The format of this data depends on
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 No special group membership is required to obtain workstation statistics. Only members of the Administrators or Server Operators local group can successfully execute the 
 <b>NetStatisticsGet</b> function on a remote server.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
@@ -159,7 +136,4 @@ No special group membership is required to obtain workstation statistics. Only m
 
 <a href="https://docs.microsoft.com/windows/desktop/NetShare/statistics-functions">Statistics
 		  Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 1518ab95-1f0a-4f28-b2ae-e75bb4d19790
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interface,described, base.ivdsstoragepool, vds/IVdsStoragePool, vdshwprv/IVdsStoragePool
-f1_keywords:
-- vds/IVdsStoragePool
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsStoragePool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsStoragePool
+ - vds/IVdsStoragePool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsStoragePool
 ---
 
 # IVdsStoragePool interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query information and enumerate related objects for a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>.
-
 
 ## -inheritance
 
@@ -125,16 +124,9 @@ Returns an array of the drive extents that are used by a storage pool.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdshwproviderstoragepools">IVdsHwProviderStoragePools</a>
- 
-
- 
 

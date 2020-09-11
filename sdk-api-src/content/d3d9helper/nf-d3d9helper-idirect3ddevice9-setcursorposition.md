@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setcursorposition.htm
 ms.date: 12/05/2018
 ms.keywords: 40c9d24c-baf1-aaaf-5f7b-a462b05b36b5, D3DCURSOR_IMMEDIATE_UPDATE, IDirect3DDevice9 interface [Direct3D 9],SetCursorPosition method, IDirect3DDevice9.SetCursorPosition, IDirect3DDevice9::SetCursorPosition, SetCursorPosition, SetCursorPosition method [Direct3D 9], SetCursorPosition method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetCursorPosition, direct3d9.idirect3ddevice9__setcursorposition
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.SetCursorPosition
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.SetCursorPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::SetCursorPosition
+ - d3d9helper/IDirect3DDevice9::SetCursorPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.SetCursorPosition
 ---
 
 # IDirect3DDevice9::SetCursorPosition
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the cursor position and update options.
 
-
 ## -parameters
-
-
-
 
 ### -param X [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-The new X-position of the cursor in virtual desktop coordinates. See Remarks. 
-
+The new X-position of the cursor in virtual desktop coordinates. See Remarks.
 
 ### -param Y [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-The new Y-position of the cursor in virtual desktop coordinates. See Remarks. 
-
+The new Y-position of the cursor in virtual desktop coordinates. See Remarks.
 
 ### -param Flags [in]
 
@@ -100,24 +94,14 @@ If this flag is specified, the system guarantees that the cursor will be updated
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 When running in full-screen mode, screen space coordinates are the back buffer coordinates appropriately scaled to the current display mode. When running in windowed mode, screen space coordinates are the desktop coordinates. The cursor image is drawn at the specified position minus the hotspot-offset specified by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcursorproperties">SetCursorProperties</a> method.
 
 If the cursor has been hidden by <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor">ShowCursor</a>, the cursor is not drawn.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
@@ -128,7 +112,4 @@ If the cursor has been hidden by <a href="https://docs.microsoft.com/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor">ShowCursor</a>
- 
-
- 
 

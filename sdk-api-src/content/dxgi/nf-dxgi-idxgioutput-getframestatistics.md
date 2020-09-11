@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getframestatistics.htm
 ms.date: 12/05/2018
 ms.keywords: 2986a9cc-4b09-8622-8d30-17f06409df3a, GetFrameStatistics, GetFrameStatistics method [DXGI], GetFrameStatistics method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetFrameStatistics method, IDXGIOutput.GetFrameStatistics, IDXGIOutput::GetFrameStatistics, direct3ddxgi.idxgioutput_getframestatistics, dxgi/IDXGIOutput::GetFrameStatistics
-f1_keywords:
-- dxgi/IDXGIOutput.GetFrameStatistics
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIOutput.GetFrameStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutput::GetFrameStatistics
+ - dxgi/IDXGIOutput::GetFrameStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIOutput.GetFrameStatistics
 ---
 
 # IDXGIOutput::GetFrameStatistics
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets statistics about recently rendered frames.
 
-
 ## -parameters
-
-
-
 
 ### -param pStats [out]
 
@@ -65,21 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dx
 
 A pointer to frame statistics (see <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_frame_statistics">DXGI_FRAME_STATISTICS</a>).
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this function succeeds, it returns S_OK. Otherwise, it might return <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a>.
 
-
-
-
 ## -remarks
-
-
 
 This API is similar to <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getframestatistics">IDXGISwapChain::GetFrameStatistics</a>.
 
@@ -87,17 +75,7 @@ This API is similar to <a href="https://docs.microsoft.com/windows/desktop/api/d
 <div class="alert"><b>Note</b>  Calling this method is only supported while in full-screen mode.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
- 
-
- 
 

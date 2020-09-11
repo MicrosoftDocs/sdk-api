@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: cc504f6c-00d7-4f9d-9688-1c29b5066ce6
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], IFsrmClassificationManager interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager, fsrm.ifsrmclassificationmanager, fsrmpipeline/IFsrmClassificationManager
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager
+ - fsrmpipeline/IFsrmClassificationManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager
 ---
 
 # IFsrmClassificationManager interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -62,7 +62,6 @@ To get this interface, call the
     <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmClassificationManager</b> as the class identifier and 
     <code>__uuidof(IFsrmClassificationManager)</code> as the interface identifier.
-
 
 ## -inheritance
 
@@ -344,12 +343,9 @@ The types of logging to perform when running the classification rules.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To create this object from a script, use the "Fsrm.FsrmClassificationManager" program 
     identifier.
@@ -395,12 +391,7 @@ For examples in C# and PowerShell see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -415,7 +406,4 @@ For examples in C# and PowerShell see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
 

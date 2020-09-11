@@ -1,17 +1,13 @@
 ---
 UID: NF:lpmapi.LPM_AdmitRsvpMsg
 title: LPM_AdmitRsvpMsg function (lpmapi.h)
-description: The LPM_AdmitRsvpMsg function is called by the PCM to pass RSVP messages to the LPM for policy based�admission control decisions.
+description: The LPM_AdmitRsvpMsg function is called by the PCM to pass RSVP messages to the LPM for policy based�admission control decisions.
 helpviewer_keywords: ["ErrorSpec","FlowDescList","FlowDescListCount","LPM_AdmitRsvpMsg","LPM_AdmitRsvpMsg callback","LPM_AdmitRsvpMsg callback function [QOS]","LpmPriorityValue","PolicyDataCount","PolicyDataObjects","PolicyErrorCode","PolicyErrorValue","RsvpFromHop","RsvpMsgType","RsvpScope","RsvpSession","RsvpStyle","_gqos_lpm_admitrsvpmsg","lpmapi/LPM_AdmitRsvpMsg","qos.lpm_admitrsvpmsg"]
 old-location: qos\lpm_admitrsvpmsg.htm
 tech.root: QOS
 ms.assetid: 0bf84c25-312c-4b4a-8bb1-e8f00711dbe3
 ms.date: 12/05/2018
 ms.keywords: ErrorSpec, FlowDescList, FlowDescListCount, LPM_AdmitRsvpMsg, LPM_AdmitRsvpMsg callback, LPM_AdmitRsvpMsg callback function [QOS], LpmPriorityValue, PolicyDataCount, PolicyDataObjects, PolicyErrorCode, PolicyErrorValue, RsvpFromHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_admitrsvpmsg, lpmapi/LPM_AdmitRsvpMsg, qos.lpm_admitrsvpmsg
-f1_keywords:
-- lpmapi/LPM_AdmitRsvpMsg
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Lpmapi.h
-api_name:
-- LPM_AdmitRsvpMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPM_AdmitRsvpMsg
+ - lpmapi/LPM_AdmitRsvpMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Lpmapi.h
+api_name:
+ - LPM_AdmitRsvpMsg
 ---
 
 # LPM_AdmitRsvpMsg function
@@ -49,33 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <i>LPM_AdmitRsvpMsg</i> function is called by the PCM to pass RSVP messages to the LPM for policy based–admission control decisions. Results from calling 
 <i>LPM_AdmitRsvpMsg</i> can be passed back to the PCM either synchronously or asynchronously by setting the return value appropriately. Asynchronous results should be returned by calling the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param PcmReqHandle [in]
 
 Unique handle that identifies this request from all other requests. LPMs must pass this handle to the PCM when returning results asynchronously for an individual request by calling 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>. The <i>PcmReqHandle</i> parameter becomes invalid once results are returned, requiring each request to get its own unique <i>PcmReqHandle</i> from the PCM.
 
-
 ### -param pRecvdIntf [in]
 
 Pointer to the interface on which the message was received. The received interface IP address is supplied as the RSVP HOP object, and the Logical Interface Handle is set to the SNMP Index. Note that interface index numbers can change with the addition and deletion of interfaces, due to the Plug and Play features of Windows 2000.
 
-
 ### -param pRsvpMsgObjs [in]
 
 Objects received from RSVP. The SBM unpacks received RSVP messages into individual objects and converts the contents of such RSVP objects into host order, and supplies them in the <b>RSVP_MSG_OBJS</b> structure, which is defined in Lpmapi.h. The following objects are supplied.
-
 
 ### -param RcvdRsvpMsgLength [in]
 
@@ -187,13 +180,10 @@ Pointer to the received RSVP ERROR_SPEC object.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param RcvdRsvpMsg [in]
 
 RSVP message, in network order.
-
 
 ### -param pulPcmActionFlags [out]
 
@@ -201,7 +191,6 @@ Flags used to specify an action requested of the PCM. The LPM can currently set 
 
 
 Note that LPMs do not need to set this flag when a new PATH message is being accepted; SBMs automatically send the new PATH message toward receivers.
-
 
 ### -param pPolicyDecisions [out]
 
@@ -252,35 +241,20 @@ Pointer to a policy error value. If the request is being rejected synchronously,
 
 Since an LPM's return POLICY_DECISION is an array, an LPM can accept a subset of flows in <i>FlowDescList</i> and reject the rest of them, if appropriate. For example, since FF style RESV messages can contain multiple flows, when an LPM rejects some flows and accepts others, the SBM generates a separate RESVERR message for each rejected flow; before sending the RESVERR message, PCM calls each LPM to supply policy data objects for each outgoing RESVERR message.
 
-
 ### -param Reserved [out]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 This function returns ULONG.
 
-
-
-
 ## -remarks
-
-
 
 The Subnet Bandwidth Manager (SBM) forwards RSVP PATH, RESV, PATHERR, RESVERR, PATH_TEAR, and RESV_TEAR messages to the PCM. If a request passes LPM policy–based admission (in which case the success status is passed up through the PCM to the SBM), the SBM performs resource based–admission control as part of its RSVP processing; if resource based–admission control fails, the SBM will instruct the PCM to instruct each LPM to delete its state through the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_commitresv">LPM_CommitResv</a> function. In such circumstances, the SBM (and not the LPMs) will create the requisite RSVP error message.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
 
@@ -291,7 +265,4 @@ The Subnet Bandwidth Manager (SBM) forwards RSVP PATH, RESV, PATHERR, RESVERR, P
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a>
- 
-
- 
 

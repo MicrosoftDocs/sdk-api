@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: C65CD072-C00E-409B-B508-C12CE4ACE73F
 ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateSurface method, IDCompositionSurfaceFactory.CreateSurface, IDCompositionSurfaceFactory::CreateSurface, dcomp/IDCompositionSurfaceFactory::CreateSurface, directcomp.idcompositionsurfacefactory_createsurface
-f1_keywords:
-- dcomp/IDCompositionSurfaceFactory.CreateSurface
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionSurfaceFactory.CreateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionSurfaceFactory::CreateSurface
+ - dcomp/IDCompositionSurfaceFactory::CreateSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionSurfaceFactory.CreateSurface
 ---
 
 # IDCompositionSurfaceFactory::CreateSurface
@@ -49,56 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a surface object that can be associated with one or more visuals for composition.
 
-
 ## -parameters
-
-
-
 
 ### -param width [in]
 
 The width of the surface, in pixels.
 
-
 ### -param height [in]
 
 The height of the surface, in pixels.
-
-
 
 ### -param pixelFormat [in]
 
 The pixel format of the surface.
 
-
-
 ### -param alphaMode [in]
 
 The format of the alpha channel, if an alpha channel is included in the pixel format. This can be one of DXGI_ALPHA_MODE_PREMULTIPLIED or DXGI_ALPHA_MODE_IGNORE. It can also be DXGI_ALPHA_MODE_UNSPECIFIED, which is interpreted as DXGI_ALPHA_MODE_IGNORE.
-
-
 
 ### -param surface [out]
 
 The newly created surface object. This parameter must not be NULL.
 
-
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 A Microsoft DirectComposition surface is a rectangular array of pixels that can be associated with a visual for composition. 
 
@@ -123,12 +103,7 @@ DirectComposition surfaces support the following pixel formats:
 <li>DXGI_FORMAT_R16G16B16A16_FLOAT</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createsurface">IDCompositionDevice2::CreateSurface</a>
 
@@ -143,7 +118,4 @@ DirectComposition surfaces support the following pixel formats:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurfacefactory-createvirtualsurface">IDCompositionSurfaceFactory::CreateVirtualSurface</a>
- 
-
- 
 

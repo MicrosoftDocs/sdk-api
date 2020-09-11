@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 5fa1344f-d8c4-40d1-99df-3c493673ad87
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], ITfKeyEventSink interface [Text Services Framework],described, _tsf_itfkeyeventsink_ref, msctf/ITfKeyEventSink, tsf.itfkeyeventsink
-f1_keywords:
-- msctf/ITfKeyEventSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfKeyEventSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfKeyEventSink
+ - msctf/ITfKeyEventSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfKeyEventSink
 ---
 
 # ITfKeyEventSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfKeyEventSink</b> interface is implemented by a text service to receive keyboard and focus event notifications. To install this event sink, call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink</a>.
-
 
 ## -inheritance
 
@@ -122,13 +121,9 @@ Called to determine if a text service will handle a key up event.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink
       </a>
@@ -136,7 +131,4 @@ Called to determine if a text service will handle a key up event.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

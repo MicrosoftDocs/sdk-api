@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinesmethods\drawlines.htm
 ms.date: 12/05/2018
 ms.keywords: DrawLines, DrawLines method [GDI+], DrawLines method [GDI+],Graphics class, Graphics class [GDI+],DrawLines method, Graphics.DrawLines, Graphics.DrawLines(IN const Pen,IN const Point,IN INT), Graphics.DrawLines(const Pen*,const Point*,INT), Graphics::DrawLines, Graphics::DrawLines(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawLines_Pen_pen_Point_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawLines_Pen_pen_Point_points_INT_count_
-f1_keywords:
-- gdiplusgraphics/Graphics.DrawLines
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.DrawLines
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::DrawLines
+ - gdiplusgraphics/Graphics::DrawLines
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.DrawLines
 ---
 
 # Graphics::DrawLines(IN const Pen,IN const Point,IN INT)
@@ -50,40 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::DrawLines</b> method draws a sequence of connected lines.
 
-
 ## -parameters
-
-
-
 
 ### -param pen [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>*</b>
 
-Pointer to a pen that is used to draw the lines. 
-
+Pointer to a pen that is used to draw the lines.
 
 ### -param points [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>*</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects that specify the starting and ending points of the lines. 
-
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects that specify the starting and ending points of the lines.
 
 ### -param count [in]
 
 Type: <b>INT</b>
 
 Integer that specifies the number of elements in the 
-					<i>points</i> array. 
-
+					<i>points</i> array.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -93,12 +84,7 @@ If the method succeeds, it returns Ok, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<b>Status</b> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 Each line requires a starting point and an ending point. The ending point of each line is the starting point for the next. 
 
@@ -134,14 +120,7 @@ VOID Example_DrawLines(HDC hdc)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inconstpointf__inconstpointf_)">DrawLine Methods</a>
 
@@ -160,7 +139,4 @@ VOID Example_DrawLines(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
 

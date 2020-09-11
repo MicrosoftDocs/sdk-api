@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: daa4594f-e59e-4f05-8183-677bee4ea446
 ms.date: 12/05/2018
 ms.keywords: '*LPSTD_ALERT, *PSTD_ALERT, ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, LPSTD_ALERT, LPSTD_ALERT structure pointer [Network Management], PSTD_ALERT, PSTD_ALERT structure pointer [Network Management], STD_ALERT, STD_ALERT structure [Network Management], _win32_std_alert_str, lmalert/LPSTD_ALERT, lmalert/PSTD_ALERT, lmalert/STD_ALERT, netmgmt.std_alert_str'
-f1_keywords:
-- lmalert/STD_ALERT
-dev_langs:
-- c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmalert.h
-api_name:
-- STD_ALERT
 targetos: Windows
 req.typenames: STD_ALERT, *PSTD_ALERT, *LPSTD_ALERT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _STD_ALERT
+ - lmalert/_STD_ALERT
+ - PSTD_ALERT
+ - lmalert/PSTD_ALERT
+ - STD_ALERT
+ - lmalert/STD_ALERT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmalert.h
+api_name:
+ - STD_ALERT
 ---
 
 # STD_ALERT structure
@@ -49,24 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>STD_ALERT</b> structure contains the time and date when a significant event occurred. The structure also contains an alert class and the name of the application that is raising the alert message. You must specify the 
 <b>STD_ALERT</b> structure when you send an alert message using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field alrt_timestamp
 
 Type: <b>DWORD</b>
 
 The time and date of the event. This value is stored as the number of seconds that have elapsed since 00:00:00, January 1, 1970, GMT.
-
 
 ### -field alrt_eventname
 
@@ -132,8 +131,6 @@ An application or resource was used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field alrt_servicename
 
@@ -141,10 +138,7 @@ Type: <b>WCHAR[SNLEN + 1]</b>
 
 A Unicode string indicating the service application that is raising the alert message.
 
-
 ## -remarks
-
-
 
 The 
 <b>STD_ALERT</b> structure must be followed by one 
@@ -158,13 +152,7 @@ See
 <b>STD_ALERT</b> structure and an 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
@@ -195,7 +183,4 @@ See
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
- 
-
- 
 

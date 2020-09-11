@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 6760729a-1d59-430e-8412-1257977af169
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_1010, *PUSER_INFO_1010, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_1010, LPUSER_INFO_1010 structure pointer [Network Management], PUSER_INFO_1010, PUSER_INFO_1010 structure pointer [Network Management], USER_INFO_1010, USER_INFO_1010 structure [Network Management], _win32_user_info_1010_str, lmaccess/LPUSER_INFO_1010, lmaccess/PUSER_INFO_1010, lmaccess/USER_INFO_1010, netmgmt.user_info_1010_str'
-f1_keywords:
-- lmaccess/USER_INFO_1010
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- USER_INFO_1010
 targetos: Windows
 req.typenames: USER_INFO_1010, *PUSER_INFO_1010, *LPUSER_INFO_1010
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USER_INFO_1010
+ - lmaccess/_USER_INFO_1010
+ - PUSER_INFO_1010
+ - lmaccess/PUSER_INFO_1010
+ - USER_INFO_1010
+ - lmaccess/USER_INFO_1010
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - USER_INFO_1010
 ---
 
 # USER_INFO_1010 structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USER_INFO_1010</b> structure contains a set of bit flags defining the operator privileges assigned to a user network account. This information level is valid only when you call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field usri1010_auth_flags
 
@@ -116,22 +116,12 @@ The accounts operator privilege is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
  For more information about controlling access to securable objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>, <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">Securable Objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
@@ -146,7 +136,4 @@ The accounts operator privilege is enabled.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

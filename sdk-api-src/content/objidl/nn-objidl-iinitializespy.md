@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 9cf1a3fa-dbc6-4760-a9e9-ef237737acfb
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], IInitializeSpy interface [COM],described, _com_iinitializespy, com.iinitializespy, objidl/IInitializeSpy
-f1_keywords:
-- objidl/IInitializeSpy
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IInitializeSpy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitializeSpy
+ - objidl/IInitializeSpy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IInitializeSpy
 ---
 
 # IInitializeSpy interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs initialization or cleanup when entering or exiting a COM apartment.
- 
-
 
 ## -inheritance
 
@@ -105,16 +103,9 @@ Performs cleanup steps required before calling the <a href="https://docs.microso
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregisterinitializespy">CoRegisterInitializeSpy</a>
- 
-
- 
 

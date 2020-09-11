@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 7ac19065-571e-45f5-934f-35ddbf225262
 ms.date: 12/05/2018
 ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC],described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
-f1_keywords:
-- gpmgmt/IGPMPermission
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMPermission
-- GPMPermission
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMPermission
+ - gpmgmt/IGPMPermission
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMPermission
+ - GPMPermission
 ---
 
 # IGPMPermission interface
@@ -50,15 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMPermission</b> interface contains methods to retrieve permission-related properties when using the GPMC. The <b>GPMPermission</b> object represents the pairing of a trustee (such as a user or security group) and a policy-related permission that applies to a single object; for example, to a GPO or a WMI filter. To create a <b>GPMPermission</b> object, call the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a> method.
 
-
 ## -remarks
-
-
 
 The interface divides the policy-related permissions into categories. The following table lists the categories, permissions included in the categories, and the object to which they can be applied, as  defined in the GPMPermissionType.
 
@@ -324,13 +321,7 @@ For more information about predefined policy-related permissions, see
 For more information about security groups, see 
 <a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -345,7 +336,4 @@ For more information about security groups, see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
- 
-
- 
 

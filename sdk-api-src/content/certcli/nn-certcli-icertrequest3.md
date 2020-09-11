@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 01de2ac0-4844-41a6-acef-e3e83b350393
 ms.date: 12/05/2018
 ms.keywords: ICertRequest3, ICertRequest3 interface [Security], ICertRequest3 interface [Security],described, certcli/ICertRequest3, security.icertrequest3
-f1_keywords:
-- certcli/ICertRequest3
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest3
+ - certcli/ICertRequest3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3
 ---
 
 # ICertRequest3 interface
 
 
 ## -description
-
 
 The <b>ICertRequest3</b> interface is one of three interfaces that  provide communications between a client or intermediary application and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a>.
 
@@ -67,7 +67,6 @@ Client and intermediary applications can call the  <b>ICertRequest3</b> methods 
 <b>ICertRequest3</b> is defined in Certcli.h. When you create your program, however, use Certsrv.h as the include file. Certcli.dll provides the <b>ICertRequest3</b> interface. The type information for this interface is also in Certcli.dll, which is shipped with the Platform Software Development Kit (SDK).
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -234,13 +233,9 @@ Submits a request to the Certificate Services server.</p> (Inherited from <a hre
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest2">CCertRequest</a>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
 
@@ -251,7 +246,4 @@ Submits a request to the Certificate Services server.</p> (Inherited from <a hre
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

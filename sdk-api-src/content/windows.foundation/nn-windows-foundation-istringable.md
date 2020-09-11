@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 1D67D073-57E8-4562-8586-CAF2619995D7
 ms.date: 12/05/2018
 ms.keywords: IStringable, IStringable interface [Windows Runtime], IStringable interface [Windows Runtime],described, windows/IStringable, winrt.istringable
-f1_keywords:
-- windows.foundation/IStringable
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.foundation.h
-api_name:
-- IStringable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStringable
+ - windows.foundation/IStringable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.foundation.h
+api_name:
+ - IStringable
 ---
 
 # IStringable interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides a way to represent the current object as a string. 
-
+Provides a way to represent the current object as a string.
 
 ## -inheritance
 
@@ -77,31 +76,18 @@ Gets a string that represents the current object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Important</b>  Managed types should not implement the <b>IStringable</b> interface. For more info, see <a href="https://msdn.microsoft.com/library/system.object.tostring.aspx">Object.ToString Method</a>.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

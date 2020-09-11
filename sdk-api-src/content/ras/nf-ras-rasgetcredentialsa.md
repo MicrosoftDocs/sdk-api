@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7
 ms.date: 12/05/2018
 ms.keywords: RasGetCredentials, RasGetCredentials function [RAS], RasGetCredentialsA, RasGetCredentialsW, _ras_rasgetcredentials, ras/RasGetCredentials, ras/RasGetCredentialsA, ras/RasGetCredentialsW, rras.rasgetcredentials
-f1_keywords:
-- ras/RasGetCredentials
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasGetCredentials
-- RasGetCredentialsA
-- RasGetCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetCredentialsA
+ - ras/RasGetCredentialsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasGetCredentials
+ - RasGetCredentialsA
+ - RasGetCredentialsW
 ---
 
 # RasGetCredentialsA function
@@ -53,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetCredentials</b> function retrieves the user credentials associated with a specified RAS phone-book entry.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
-
 ### -param arg2 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the name of a phone-book entry.
-
 
 ### -param arg3 [in, out]
 
@@ -83,10 +77,7 @@ Pointer to the
 
 On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a>), and set the <b>dwMask</b> member to indicate the credential information to retrieve. When the function returns, <b>dwMask</b> indicates the members that were successfully retrieved.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -143,14 +134,8 @@ The <b>dwSize</b> member of the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>RasGetCredentials</b> function retrieves the credentials of the last user in order to connect using the specified phone-book entry, or the credentials subsequently specified in a call to the 
@@ -316,9 +301,6 @@ DWORD __cdecl wmain(){
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a>
 
 
@@ -336,7 +318,4 @@ DWORD __cdecl wmain(){
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

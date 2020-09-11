@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: af0a1b49-54c3-453f-bd6a-70b63d625acb
 ms.date: 12/05/2018
 ms.keywords: Apply, Apply method [COM], Apply method [COM],IPropertyPage interface, IPropertyPage interface [COM],Apply method, IPropertyPage.Apply, IPropertyPage::Apply, _ctrl_ipropertypage_apply, com.ipropertypage_apply, ocidl/IPropertyPage::Apply
-f1_keywords:
-- ocidl/IPropertyPage.Apply
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPropertyPage.Apply
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyPage::Apply
+ - ocidl/IPropertyPage::Apply
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPropertyPage.Apply
 ---
 
 # IPropertyPage::Apply
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applies the current values to the underlying objects associated with the property page as previously passed to 
     <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return the standard return values <b>E_OUTOFMEMORY</b> and 
       <b>E_UNEXPECTED</b>, as well as the following values.
@@ -97,14 +89,8 @@ Changes were applied, but the property page cannot determine if its state is cur
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The objects to be changed are provided through a previous call to 
      <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>. By calling 
@@ -120,16 +106,7 @@ After applying its values, the property page should determine if its state is no
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 E_NOTIMPL is not a valid return value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
- 
-
- 
 

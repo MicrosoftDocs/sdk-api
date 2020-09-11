@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: c463debc-341b-4491-8543-70623bf717d0
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],MarginX property, IInkPicture.MarginX, IInkPicture.put_MarginX, IInkPicture::MarginX, IInkPicture::get_MarginX, IInkPicture::put_MarginX, InkPicture.get_MarginX, InkPicture.put_MarginX, MarginX property [Tablet PC], MarginX property [Tablet PC],IInkPicture interface, get_MarginX, msinkaut/IInkPicture::MarginX, msinkaut/IInkPicture::get_MarginX, msinkaut/IInkPicture::put_MarginX, put_MarginX, tablet.inkpicture_marginx
-f1_keywords:
-- msinkaut/IInkPicture.MarginX
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,32 +25,35 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkPicture.MarginX
-- IInkPicture.get_MarginX
-- IInkPicture.put_MarginX
-- InkPicture.get_MarginX
-- InkPicture.put_MarginX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkPicture::put_MarginX
+ - msinkaut/IInkPicture::put_MarginX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkPicture.MarginX
+ - IInkPicture.get_MarginX
+ - IInkPicture.put_MarginX
+ - InkPicture.get_MarginX
+ - InkPicture.put_MarginX
 ---
 
 # IInkPicture::put_MarginX
 
 
 ## -description
-
-
 
 Gets or sets the x-axis margin around the window rectangle, in screen coordinates.
 
@@ -64,13 +63,9 @@ This margin provides a buffer around the edge of the ink window.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property is most commonly used with nonintegrated tablet devices-the buffer gives users a margin of error when writing on a device that may not map 1 to 1 with the screen.
 
@@ -81,12 +76,7 @@ The margin is effective only within the application's window. If the pen is appl
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> object, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object, or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control must be disabled before setting this property. To disable the <b>InkCollector</b> or <b>InkOverlay</b> object, set the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled">Enabled</a> property to <b>FALSE</b>. To disable inking in the <b>InkOverlay</b> control, set the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled">InkEnabled</a> property to <b>FALSE</b>. You can then set the <b>MarginX</b> property, and re-enable the object or control by setting the <b>Enabled</b> property (or <b>InkEnabled</b> property) to <b>TRUE</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled">Enabled Property</a>
 
@@ -105,7 +95,4 @@ The margin is effective only within the application's window. If the pen is appl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy">MarginY Property</a>
- 
-
- 
 

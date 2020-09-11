@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia], mmioOpenA, mmioOpenW, mmsystem/mmioOpen, mmsystem/mmioOpenA, mmsystem/mmioOpenW, multimedia.mmioopen
-f1_keywords:
-- mmiscapi/mmioOpen
-dev_langs:
-- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-misc-l1-1-0.dll
-- winmmbase.dll
-- API-MS-Win-mm-misc-l1-1-1.dll
-api_name:
-- mmioOpen
-- mmioOpenA
-- mmioOpenW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mmioOpenA
+ - mmiscapi/mmioOpenA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-misc-l1-1-0.dll
+ - winmmbase.dll
+ - API-MS-Win-mm-misc-l1-1-1.dll
+api_name:
+ - mmioOpen
+ - mmioOpenA
+ - mmioOpenW
 ---
 
 # mmioOpenA function
@@ -54,19 +55,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mmioOpen</b> function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists. The file can be a standard file, a memory file, or an element of a custom storage system. The handle returned by <a href="https://docs.microsoft.com/windows/desktop/Multimedia/opening-a-file-with-mmioopen">mmioOpen</a> is not a standard file handle; do not use it with any file I/O functions other than multimedia file I/O functions.
 
 <div class="alert"><b>Note</b>  This function is deprecated. Applications should call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> to create or open files.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param pszFileName
 
@@ -81,11 +75,9 @@ The file name should not be longer than 128 characters, including the terminatin
 
 When opening a memory file, set <i>szFilename</i> to <b>NULL</b>.
 
-
 ### -param pmmioinfo
 
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure containing extra parameters used by <b>mmioOpen</b>. Unless you are opening a memory file, specifying the size of a buffer for buffered I/O, or specifying an uninstalled I/O procedure to open a file, this parameter should be <b>NULL</b>. If this parameter is not <b>NULL</b>, all unused members of the <b>MMIOINFO</b> structure it references must be set to zero, including the reserved members.
-
 
 ### -param fdwOpen
 
@@ -181,15 +173,7 @@ Creates a fully qualified file name from the path specified in <i>szFilename</i>
 </tr>
 </table>
 
-
-
-
-
-
-
 ## -remarks
-
-
 
 If <i>lpmmioinfo</i> points to an <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure, initialize the members of the structure as follows. All unused members must be set to zero, including reserved members.
 

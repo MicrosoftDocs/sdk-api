@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 62027f7b-9ecc-4631-b755-2302e0bb49c0
 ms.date: 12/05/2018
 ms.keywords: QOSEnumerateFlows, QOSEnumerateFlows function [QOS], qos.qosenumerateflows, qos2/QOSEnumerateFlows
-f1_keywords:
-- qos2/QOSEnumerateFlows
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSEnumerateFlows
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSEnumerateFlows
+ - qos2/QOSEnumerateFlows
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSEnumerateFlows
 ---
 
 # QOSEnumerateFlows function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOSEnumerateFlows</b> function enumerates all existing flows.
 
-
 ## -parameters
-
-
-
 
 ### -param QOSHandle [in]
 
 Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
-
 
 ### -param Size [in, out]
 
@@ -71,15 +66,11 @@ On function return, if successful, this parameter will specify the number of byt
 
 If this call fails with <b>ERROR_INSUFFICIENT_BUFFER</b>, this parameter will indicate the minimum required <i>Buffer</i> size in order to successfully complete this operation.
 
-
 ### -param Buffer [out]
 
 Pointer to an array of <b>QOS_FlowId</b> flow identifiers. A <b>QOS_FlowId</b> is an unsigned 32-bit integer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -168,14 +159,8 @@ The indicated device requires reinitialization due to hardware errors. The appli
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Successfully calling this function requires administrative privileges
 
@@ -185,16 +170,7 @@ This function has call-twice semantics. First call to get the <i>Buffer</i> size
 
 Flows from another process cannot be modified.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
 

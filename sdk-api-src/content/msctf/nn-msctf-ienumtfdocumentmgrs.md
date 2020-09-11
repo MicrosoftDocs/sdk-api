@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 5b276752-715b-4426-ad37-8658bae4c1a6
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDocumentMgrs, IEnumTfDocumentMgrs interface [Text Services Framework], IEnumTfDocumentMgrs interface [Text Services Framework],described, _tsf_ienumtfdocumentmgrs_ref, msctf/IEnumTfDocumentMgrs, tsf.ienumtfdocumentmgrs
-f1_keywords:
-- msctf/IEnumTfDocumentMgrs
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfDocumentMgrs
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfDocumentMgrs
+ - msctf/IEnumTfDocumentMgrs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfDocumentMgrs
 ---
 
 # IEnumTfDocumentMgrs interface
+
 
 ## -description
 
@@ -101,5 +103,5 @@ Moves the current position forward in the enumeration sequence by the specified 
 
 </td>
 </tr>
-</table> 
+</table>
 

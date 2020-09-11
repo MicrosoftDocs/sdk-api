@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getunderline.htm
 ms.date: 12/05/2018
 ms.keywords: GetUnderline, GetUnderline method [Windows Controls], GetUnderline method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetUnderline method, ITextFont.GetUnderline, ITextFont::GetUnderline, _win32_ITextFont_GetUnderline, _win32_ITextFont_GetUnderline_cpp, controls.ITextFont_GetUnderline, controls._win32_ITextFont_GetUnderline, tom/ITextFont::GetUnderline, tomDash, tomDashDot, tomDashDotDot, tomDotted, tomDouble, tomDoubleWave, tomHair, tomHeavyWave, tomLongDash, tomNone, tomSingle, tomThick, tomThickDash, tomThickDashDot, tomThickDashDotDot, tomThickDotted, tomThickLongDash, tomWave, tomWords
-f1_keywords:
-- tom/ITextFont.GetUnderline
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.GetUnderline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::GetUnderline
+ - tom/ITextFont::GetUnderline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.GetUnderline
 ---
 
 # ITextFont::GetUnderline
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the
 
 			type of underlining for the characters in a range.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -201,10 +197,7 @@ The type of underlining. It can be one of the following values.
 
 #### tomThickLongDash
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -238,15 +231,8 @@ The font object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -265,7 +251,4 @@ The font object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 46cda78a-7c1d-42e0-abff-3be9c13925f5
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],ModifyThreshold method, IFsrmQuotaBase.ModifyThreshold, IFsrmQuotaBase::ModifyThreshold, ModifyThreshold, ModifyThreshold method [File Server Resource Manager], ModifyThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_modifythreshold, fsrm.ifsrmquotabase_modifythreshold, fsrmquota/IFsrmQuotaBase::ModifyThreshold
-f1_keywords:
-- fsrmquota/IFsrmQuotaBase.ModifyThreshold
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaBase.ModifyThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaBase::ModifyThreshold
+ - fsrmquota/IFsrmQuotaBase::ModifyThreshold
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaBase.ModifyThreshold
 ---
 
 # IFsrmQuotaBase::ModifyThreshold
@@ -49,49 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Changes  the threshold value.
 
-
 ## -parameters
-
-
-
 
 ### -param threshold [in]
 
 The previous threshold value.
 
-
 ### -param newThreshold [in]
 
 The new threshold value.  The value must be from 1 through 250, inclusively.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotabase">IFsrmQuotaBase</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

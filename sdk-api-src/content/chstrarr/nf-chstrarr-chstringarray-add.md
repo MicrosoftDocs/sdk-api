@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: f5a0b8e6-b40a-4dc7-bf36-ec629e2899db
 ms.date: 12/05/2018
 ms.keywords: ?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Add method, CHStringArray.Add, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add
-f1_keywords:
-- chstrarr/CHStringArray.Add
-dev_langs:
-- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHStringArray.Add
-- ?Add@CHStringArray@@QAEHPBG@Z
-- ?Add@CHStringArray@@QEAAHPEBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHStringArray::Add
+ - chstrarr/CHStringArray::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHStringArray.Add
+ - ?Add@CHStringArray@@QAEHPBG@Z
+ - ?Add@CHStringArray@@QEAAHPEBG@Z
 ---
 
 # CHStringArray::Add
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -62,30 +62,18 @@ ms.custom: 19H1
 The <b>Add</b> method adds a new element to the end of an 
     array, increasing the array by one.
 
-
 ## -parameters
-
-
-
 
 ### -param newElement
 
 The element to be added to the array.
 
-
 ## -returns
-
-
 
 If the <b>Add</b> method is successful, it returns the 
        index of the added element.
 
-
-
-
 ## -remarks
-
-
 
 If <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">SetSize</a> has been used with an nGrowBy value 
     greater than 1, then extra memory can be allocated. However, the upper bound increases by only one.
@@ -105,14 +93,7 @@ The following code example shows the use of
     array.Add( s );           // Element 1
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
@@ -123,7 +104,4 @@ The following code example shows the use of
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-copy">CHStringArray::Copy</a>
- 
-
- 
 

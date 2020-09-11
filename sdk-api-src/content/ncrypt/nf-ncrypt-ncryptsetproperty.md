@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ad1148aa-5f64-4867-9e17-6b41cc0c20b7
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, LABEL_SECURITY_INFORMATION, NCRYPT_PERSIST_FLAG, NCRYPT_PERSIST_ONLY_FLAG, NCRYPT_SILENT_FLAG, NCryptSetProperty, NCryptSetProperty function [Security], OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, ncrypt/NCryptSetProperty, security.ncryptsetproperty_func
-f1_keywords:
-- ncrypt/NCryptSetProperty
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptSetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptSetProperty
+ - ncrypt/NCryptSetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptSetProperty
 ---
 
 # NCryptSetProperty function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptSetProperty</b> function sets the value for a named property for a CNG key storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param hObject [in]
 
 The handle of the key storage object to set the property for.
 
-
 ### -param pszProperty [in]
 
 A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">Key Storage Property Identifiers</a> or a custom property identifier.
-
 
 ### -param pbInput [in]
 
 The address of a buffer that contains the new property value. The <i>cbInput</i> parameter contains the size of this buffer.
 
-
 ### -param cbInput [in]
 
 The size, in bytes, of the <i>pbInput</i> buffer.
-
 
 ### -param dwFlags [in]
 
@@ -181,12 +173,8 @@ Set the mandatory label access control entry in the SACL of the object. Use the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -267,16 +255,8 @@ The specified property is not supported for the object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
 

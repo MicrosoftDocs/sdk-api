@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9
 ms.date: 12/05/2018
 ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], ISimpleCommandCreator interface [search],described, indexsrv/ISimpleCommandCreator, search.isimplecommandcreator
-f1_keywords:
-- indexsrv/ISimpleCommandCreator
-dev_langs:
-- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- indexsrv.h
-api_name:
-- ISimpleCommandCreator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISimpleCommandCreator
+ - indexsrv/ISimpleCommandCreator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - indexsrv.h
+api_name:
+ - ISimpleCommandCreator
 ---
 
 # ISimpleCommandCreator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains methods for interacting with the file catalog.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Validates the catalog location.
 
 </td>
 </tr>
-</table> 
+</table>
 

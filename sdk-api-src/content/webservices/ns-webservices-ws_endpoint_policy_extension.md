@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 8bcb2466-fb07-4a15-82a2-87fc7f0f3d92
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_POLICY_EXTENSION, WS_ENDPOINT_POLICY_EXTENSION structure [Web Services for Windows], webservices/WS_ENDPOINT_POLICY_EXTENSION, wsw.ws_endpoint_policy_extension
-f1_keywords:
-- webservices/WS_ENDPOINT_POLICY_EXTENSION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_ENDPOINT_POLICY_EXTENSION
 targetos: Windows
 req.typenames: WS_ENDPOINT_POLICY_EXTENSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_ENDPOINT_POLICY_EXTENSION
+ - webservices/_WS_ENDPOINT_POLICY_EXTENSION
+ - WS_ENDPOINT_POLICY_EXTENSION
+ - webservices/WS_ENDPOINT_POLICY_EXTENSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENDPOINT_POLICY_EXTENSION
 ---
 
 # WS_ENDPOINT_POLICY_EXTENSION structure
@@ -49,51 +52,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 This structure is used to specify an endpoint policy extension.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field policyExtension
 
 The base policy extension that this policy extension derives from.
-                
-
 
 ### -field assertionName
 
 Name of the assertion to be retrieved as an extension.
-                
-
 
 ### -field assertionNs
 
 Namespace of the assertion to be retrieved as an extension.
-                
-
 
 ### -field out
 
 When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     fields of this structure will be filled out as follows:
-                
-
 
 ### -field out.assertionValue
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL. 
-
-
-
+When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL.
 
 ## -remarks
-
-
 
 This extension can be used to specify a custom assertion or an assertion that is
               supported by this library so that the application can
@@ -111,5 +95,4 @@ The following assertions are not allowed as policy extension because they might 
 &lt;wsa10p:UsingAddressing.../&gt;
 &lt;binp:BinaryEncoding.../&gt;
 &lt;mtomp:OptimizedMimeSerialization.../&gt;</code></pre>
-
 

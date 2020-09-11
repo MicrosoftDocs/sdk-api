@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c0d5a8cb-d382-4d7a-8d09-2dd153c03294
 ms.date: 12/05/2018
 ms.keywords: IPublishedApp interface [Windows Shell],Unschedule method, IPublishedApp.Unschedule, IPublishedApp::Unschedule, Unschedule, Unschedule method [Windows Shell], Unschedule method [Windows Shell],IPublishedApp interface, inet_IPublishedApp_Unschedule, shappmgr/IPublishedApp::Unschedule, shell.IPublishedApp_Unschedule
-f1_keywords:
-- shappmgr/IPublishedApp.Unschedule
-dev_langs:
-- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shappmgr.h
-api_name:
-- IPublishedApp.Unschedule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPublishedApp::Unschedule
+ - shappmgr/IPublishedApp::Unschedule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shappmgr.h
+api_name:
+ - IPublishedApp.Unschedule
 ---
 
 # IPublishedApp::Unschedule
@@ -49,31 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cancels the installation of an application published by an application publisher.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is called in each of the following circumstances. 
 				
@@ -83,12 +70,7 @@ This method is called in each of the following circumstances.
 <li>The user has selected an installation time later than either the expiration time or the assigned time as specified in the published application information. In these circumstances, implementations are expected to cancel any scheduled installation for the application.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
@@ -103,7 +85,4 @@ This method is called in each of the following circumstances.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
- 
-
- 
 

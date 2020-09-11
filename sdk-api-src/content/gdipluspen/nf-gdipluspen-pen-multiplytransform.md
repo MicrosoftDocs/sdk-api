@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\multiplytransform_75matrix_order.htm
 ms.date: 12/05/2018
 ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],Pen class, Pen class [GDI+],MultiplyTransform method, Pen.MultiplyTransform, Pen::MultiplyTransform, _gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_
-f1_keywords:
-- gdipluspen/Pen.MultiplyTransform
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Pen.MultiplyTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Pen::MultiplyTransform
+ - gdipluspen/Pen::MultiplyTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Pen.MultiplyTransform
 ---
 
 # Pen::MultiplyTransform
@@ -50,34 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Pen::MultiplyTransform</b> method updates the world transformation matrix of this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object with the product of itself and another matrix.
 
-
 ## -parameters
-
-
-
 
 ### -param matrix [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that is multiplied with the world transformation matrix of this 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ### -param order [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a></b>
 
-Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a> enumeration that specifies the order of the multiplication. <b>MatrixOrderPrepend</b> specifies that the passed matrix is on the left, and <b>MatrixOrderAppend</b> specifies that the passed matrix is on the right. The default value is <b>MatrixOrderPrepend</b>. 
-
+Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-matrixorder">MatrixOrder</a> enumeration that specifies the order of the multiplication. <b>MatrixOrderPrepend</b> specifies that the passed matrix is on the left, and <b>MatrixOrderAppend</b> specifies that the passed matrix is on the right. The default value is <b>MatrixOrderPrepend</b>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -87,13 +79,7 @@ If the method succeeds, it returns <b>Ok</b>, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-coordinate-systems-and-transformations-about">Coordinate Systems and Transformations</a>
 
@@ -132,7 +118,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

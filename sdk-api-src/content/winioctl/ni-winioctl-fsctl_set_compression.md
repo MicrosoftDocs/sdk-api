@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: e6fb29ed-f4f4-4507-8312-d771ffb00256
 ms.date: 12/05/2018
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, FSCTL_SET_COMPRESSION, FSCTL_SET_COMPRESSION control, FSCTL_SET_COMPRESSION control code [Files], _win32_fsctl_set_compression, all other values, base.fsctl_set_compression, fs.fsctl_set_compression, winioctl/FSCTL_SET_COMPRESSION
-f1_keywords:
-- winioctl/FSCTL_SET_COMPRESSION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_SET_COMPRESSION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_SET_COMPRESSION
+ - winioctl/FSCTL_SET_COMPRESSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_SET_COMPRESSION
 ---
 
 # FSCTL_SET_COMPRESSION IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -130,7 +126,6 @@ You cannot change the compression state of a file  opened with
 For more information about transactions, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
@@ -139,3 +134,4 @@ For more information about transactions, see
 * [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
 * [GetFileAttributes](../fileapi/nf-fileapi-getfileattributesa.md)
 * [Transactional NTFS](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal)
+

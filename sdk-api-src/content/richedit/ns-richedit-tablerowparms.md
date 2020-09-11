@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 8b538d72-1210-4344-b673-592ef9a8cc85
 ms.date: 12/05/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], controls.tablerowparms, richedit/TABLEROWPARMS
-f1_keywords:
-- richedit/TABLEROWPARMS
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- TABLEROWPARMS
 targetos: Windows
 req.typenames: TABLEROWPARMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _tableRowParms
+ - richedit/_tableRowParms
+ - TABLEROWPARMS
+ - richedit/TABLEROWPARMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - TABLEROWPARMS
 ---
 
 # TABLEROWPARMS structure
@@ -49,13 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-Defines the attributes of rows in a table. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the Rich Text Format (RTF) Specification. 
-
+Defines the attributes of rows in a table. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the Rich Text Format (RTF) Specification.
 
 ## -struct-fields
-
-
-
 
 ### -field cbRow
 
@@ -63,13 +62,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The count of bytes in this structure.
 
-
 ### -field cbCell
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The count of bytes in <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-tablecellparms">TABLECELLPARMS</a>.
-
 
 ### -field cCell
 
@@ -77,13 +74,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The count of cells in a row, up to the maximum specified by MAX_TABLE_CELLS.
 
-
 ### -field cRow
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The count of rows.
-
 
 ### -field dxCellMargin
 
@@ -91,57 +86,35 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The size of the left and right margins in a cell (\trgaph).
 
-
 ### -field dxIndent
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The amount of left indentation, or right indentation if the <b>fRTL</b> member is <b>TRUE</b> (similar to \trleft).
 
-
 ### -field dyHeight
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-The height of a row (\trrh). 
-
+The height of a row (\trrh).
 
 ### -field nAlignment
 
- 
-
-
 ### -field fRTL
-
- 
-
 
 ### -field fKeep
 
- 
-
-
 ### -field fKeepFollow
-
- 
-
 
 ### -field fWrap
 
- 
-
-
 ### -field fIdentCells
-
- 
-
 
 ### -field cpStartRow
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-The character position that indicates where to insert table. A value of –1 indicates the character position of the selection. 
-
+The character position that indicates where to insert table. A value of –1 indicates the character position of the selection.
 
 ### -field bTableLevel
 
@@ -149,13 +122,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The table nesting level (<a href="https://docs.microsoft.com/windows/desktop/Controls/em-gettableparms">EM_GETTABLEPARMS</a> only).
 
-
 ### -field iCell
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 The index of the cell to insert or delete (<a href="https://docs.microsoft.com/windows/desktop/Controls/em-settableparms">EM_SETTABLEPARMS</a> only).
-
 
 ### -field fIdentCells:1
 
@@ -163,13 +134,11 @@ Type: <b>DWORD</b>
 
  Indent cells.
 
-
 ### -field fKeep:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Keep rows together (\trkeep).
-
 
 ### -field fKeepFollow:1
 
@@ -177,20 +146,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Keep the row on the same page as the following row (\trkeepfollow).
 
-
 ### -field fRTL:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Display cells in right-to-left order (\rtlrow).
 
-
 ### -field fWrap:1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Wrap text to the right or left, depending on <b>bAlignment</b>(see \tdfrmtxtLeftN and \tdfrmtxtRightN).
-
 
 ### -field nAlignment:3
 
@@ -237,20 +203,12 @@ The rows are aligned with the right margin.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/em-inserttable">EM_INSERTTABLE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-tablecellparms">TABLECELLPARMS</a>
- 
-
- 
 

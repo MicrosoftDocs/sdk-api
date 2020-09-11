@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControl, DeviceIoControl function, _win32_deviceiocontrol, base.deviceiocontrol, ioapiset/DeviceIoControl
 ms.topic: function
-f1_keywords:
-- ioapiset/DeviceIoControl
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +27,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-io-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-io-l1-1-1.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-api_name:
-- DeviceIoControl
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeviceIoControl
+ - ioapiset/DeviceIoControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+api_name:
+ - DeviceIoControl
 ---
 
 # DeviceIoControl function
@@ -55,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a control code directly to a specified device driver, causing the corresponding device to 
     perform the corresponding operation.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
@@ -71,7 +67,6 @@ A handle to the device on which the operation is to be performed. The device is 
       directory, file, or stream. To retrieve a device handle, use the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. For more information, see 
       Remarks.
-
 
 ### -param dwIoControlCode [in]
 
@@ -82,7 +77,6 @@ For a list of the control codes, see Remarks. The documentation for each control
        for the <i>lpInBuffer</i>, <i>nInBufferSize</i>, 
        <i>lpOutBuffer</i>, and <i>nOutBufferSize</i> parameters.
 
-
 ### -param lpInBuffer [in, optional]
 
 A pointer to the input buffer that contains the data required to perform the operation. The format of this 
@@ -91,11 +85,9 @@ A pointer to the input buffer that contains the data required to perform the ope
 This parameter can be <b>NULL</b> if <i>dwIoControlCode</i> specifies 
        an operation that does not require input data.
 
-
 ### -param nInBufferSize [in]
 
 The size of the input buffer, in bytes.
-
 
 ### -param lpOutBuffer [out, optional]
 
@@ -105,11 +97,9 @@ A pointer to the output buffer that is to receive the data returned by the opera
 This parameter can be <b>NULL</b> if <i>dwIoControlCode</i> specifies 
        an operation that does not return data.
 
-
 ### -param nOutBufferSize [in]
 
 The size of the output buffer, in bytes.
-
 
 ### -param lpBytesReturned [out, optional]
 
@@ -143,7 +133,6 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
        bytes returned by calling 
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>.
 
-
 ### -param lpOverlapped [in, out, optional]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
@@ -162,22 +151,14 @@ For overlapped operations,
        object is signaled when the operation has been completed. Otherwise, the function does not return until the 
        operation has been completed or an error occurs.
 
-
 ## -returns
-
-
 
 If the operation completes successfully, the return value is nonzero.
 
 If the operation fails or is pending, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To retrieve a handle to the device, you must call the 
      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function with either the name of a device or 
@@ -238,12 +219,7 @@ For an example that uses <b>DeviceIoControl</b>, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
@@ -266,7 +242,4 @@ For an example that uses <b>DeviceIoControl</b>, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
- 
-
- 
 

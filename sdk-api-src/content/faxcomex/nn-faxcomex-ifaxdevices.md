@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1eib_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDevices, IFaxDevices interface [Fax Service], IFaxDevices interface [Fax Service],described, _mfax_faxdevices_cpp, fax._mfax_faxdevices_cpp, faxcomex/IFaxDevices
-f1_keywords:
-- faxcomex/IFaxDevices
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxDevices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDevices
+ - faxcomex/IFaxDevices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxDevices
 ---
 
 # IFaxDevices interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxDevices</b> interface defines a collection used by a fax client application to manage fax devices, where each device is represented by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object.
-
 
 ## -inheritance
 
@@ -120,14 +119,9 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A default implementation of <b>IFaxDevices</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> object.
-
-
 

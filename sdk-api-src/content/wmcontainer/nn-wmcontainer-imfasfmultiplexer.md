@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: bdb549b5-425b-4f77-b413-723ceb7acd11
 ms.date: 12/05/2018
 ms.keywords: IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], IMFASFMultiplexer interface [Media Foundation],described, bdb549b5-425b-4f77-b413-723ceb7acd11, mf.imfasfmultiplexer, wmcontainer/IMFASFMultiplexer
-f1_keywords:
-- wmcontainer/IMFASFMultiplexer
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFMultiplexer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFMultiplexer
+ - wmcontainer/IMFASFMultiplexer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFMultiplexer
 ---
 
 # IMFASFMultiplexer interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods to create Advanced Systems Format (ASF) data packets. The methods of this interface process input samples into the packets that make up an ASF data section. The ASF multiplexer exposes this interface. To create the ASF multiplexer, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmultiplexer">MFCreateASFMultiplexer</a>.
-
 
 ## -inheritance
 
@@ -150,20 +149,13 @@ Sets the maximum time by which samples from various streams can be out of synchr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-multiplexer">ASF Multiplexer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

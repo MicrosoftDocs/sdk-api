@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 493BB3CF-044D-4E83-9FF7-BD2039358501
 ms.date: 12/05/2018
 ms.keywords: AddTransformForStream, AddTransformForStream method [Media Foundation], AddTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],AddTransformForStream method, IMFSourceReaderEx.AddTransformForStream, IMFSourceReaderEx::AddTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_addtransformforstream, mfreadwrite/IMFSourceReaderEx::AddTransformForStream
-f1_keywords:
-- mfreadwrite/IMFSourceReaderEx.AddTransformForStream
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReaderEx.AddTransformForStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReaderEx::AddTransformForStream
+ - mfreadwrite/IMFSourceReaderEx::AddTransformForStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReaderEx.AddTransformForStream
 ---
 
 # IMFSourceReaderEx::AddTransformForStream
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a transform, such as an audio or video effect, to a stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -101,8 +97,6 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pTransformOrActivate [in]
 
@@ -114,8 +108,6 @@ A pointer to one of the following:
 </ul>
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -169,14 +161,8 @@ The <i>dwStreamIndex</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method attempts to add the transform at the end of the current processing chain. 
 
@@ -196,20 +182,11 @@ In asynchronous mode, the method also fails if a sample request is pending. In t
 
 You can add a transform at any time during streaming. However, the method does not flush or drain the pipeline before inserting the transform. Therefore, if data is already in the pipeline, the next sample is not guaranteed to have the transform applied.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 8f69556f-b96e-49b5-bc40-242768ebe767
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag2, IFsrmPropertyBag2 interface [File Server Resource Manager], IFsrmPropertyBag2 interface [File Server Resource Manager],described, fs.ifsrmpropertybag2, fsrm.ifsrmpropertybag2, fsrmpipeline/IFsrmPropertyBag2
-f1_keywords:
-- fsrmpipeline/IFsrmPropertyBag2
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyBag2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyBag2
+ - fsrmpipeline/IFsrmPropertyBag2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyBag2
 ---
 
 # IFsrmPropertyBag2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 IFsrmPropertyBag2 Interface
-
 
 ## -inheritance
 
@@ -394,16 +393,9 @@ The name of the volume on which the file exists.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 137395f1-b0cf-4bd0-9d3b-a21122eb8b57
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia method, IDiscFormat2RawCD.WriteMedia, IDiscFormat2RawCD::WriteMedia, WriteMedia, WriteMedia method [IMAPI], WriteMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_writemedia, imapi2/IDiscFormat2RawCD::WriteMedia
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.WriteMedia
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.WriteMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::WriteMedia
+ - imapi2/IDiscFormat2RawCD::WriteMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.WriteMedia
 ---
 
 # IDiscFormat2RawCD::WriteMedia
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes a DAO-96 raw image to the blank media using MSF 95:00:00 as the starting address.
 
-
 ## -parameters
-
-
-
 
 ### -param data [in]
 
 An <b>IStream</b> interface of the data stream to write.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -439,14 +432,8 @@ Value: 0xC0AA0002
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">IDiscFormat2RawCD::put_Recorder</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia">IDiscFormat2RawCD::PrepareMedia</a> methods.
 
@@ -476,20 +463,11 @@ The DAO-96 standard allows writing of any type of data to CD media. One common u
 
 DAO-96 also supports variations in the subcode content, such as CD+G and CD-Text.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a>
- 
-
- 
 

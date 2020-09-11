@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 6a46c1df-b274-415e-b842-fc1adf6fa206
 ms.date: 12/05/2018
 ms.keywords: GetIfTable, GetIfTable function [IP Helper], _iphlp_getiftable, iphlp.getiftable, iphlpapi/GetIfTable
-f1_keywords:
-- iphlpapi/GetIfTable
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIfTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIfTable
+ - iphlpapi/GetIfTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIfTable
 ---
 
 # GetIfTable function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIfTable</b> function retrieves the MIB-II interface table.
 
-
 ## -parameters
-
-
-
 
 ### -param pIfTable [out]
 
 A pointer to a buffer that receives the interface table as a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a> structure.
-
 
 ### -param pdwSize [in, out]
 
@@ -71,15 +66,11 @@ On input, specifies the size in bytes of the buffer pointed to by the <i>pIfTabl
 
 On output, if the buffer is not large enough to hold the returned interface table, the function sets this parameter equal to the required buffer size in bytes.
 
-
 ### -param bOrder [in]
 
 A Boolean value that specifies whether the returned interface table should be sorted in ascending order by interface index. If this parameter is <b>TRUE</b>, the table is sorted.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -137,14 +128,8 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  
 <b>GetIfTable</b> function enumerates physical interfaces on a local system and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>structure. The physical interfaces include the software loopback interface. 
@@ -313,14 +298,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getifentry">GetIfEntry</a>
 
@@ -359,7 +337,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
- 
-
- 
 

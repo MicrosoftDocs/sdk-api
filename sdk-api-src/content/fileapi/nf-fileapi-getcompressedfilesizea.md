@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: cca91080-2270-4996-8693-933c585ff168
 ms.date: 12/05/2018
 ms.keywords: GetCompressedFileSize, GetCompressedFileSize function [Files], GetCompressedFileSizeA, GetCompressedFileSizeW, _win32_getcompressedfilesize, base.getcompressedfilesize, fileapi/GetCompressedFileSize, fileapi/GetCompressedFileSizeA, fileapi/GetCompressedFileSizeW, fs.getcompressedfilesize
-f1_keywords:
-- fileapi/GetCompressedFileSize
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h, Fileapi.h, Windows.h, WinBase.h, Fileapi.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetCompressedFileSize
-- GetCompressedFileSizeA
-- GetCompressedFileSizeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCompressedFileSizeA
+ - fileapi/GetCompressedFileSizeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetCompressedFileSize
+ - GetCompressedFileSizeA
+ - GetCompressedFileSizeW
 ---
 
 # GetCompressedFileSizeA function
@@ -56,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the actual number of bytes of disk storage used to store a specified file. If the file is located on a volume that supports compression and the file is compressed, the value obtained is the compressed size of the specified file. If the file is located on a volume that supports sparse files and the file is a sparse file, the value obtained is the sparse size of the specified file.
 
 To perform this operation as a transacted operation, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcompressedfilesizetransacteda">GetCompressedFileSizeTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -93,10 +89,7 @@ The high-order <b>DWORD</b> of the compressed file size. The function's return v
 
 This parameter can be <b>NULL</b> if the high-order <b>DWORD</b> of the compressed file size is not needed. Files less than 4 gigabytes in size do not need the high-order <b>DWORD</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the low-order <b>DWORD</b> of the actual number of bytes of disk storage used to store the specified file, and if <i>lpFileSizeHigh</i> is non-<b>NULL</b>, the function puts the high-order <b>DWORD</b> of that actual value into the <b>DWORD</b> pointed to by that parameter. This is the compressed file size for compressed files, the actual file size for noncompressed files.
 
@@ -105,12 +98,7 @@ If the function fails, and <i>lpFileSizeHigh</i> is <b>NULL</b>, the return valu
 
 If the return value is <b>INVALID_FILE_SIZE</b> and <i>lpFileSizeHigh</i> is non-<b>NULL</b>, an application must call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine whether the function has succeeded (value is <b>NO_ERROR</b>) or failed (value is other than <b>NO_ERROR</b>).
 
-
-
-
 ## -remarks
-
-
 
 An application can determine whether a volume is compressed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>, then checking the status of the <b>FS_VOL_IS_COMPRESSED</b> flag in the <b>DWORD</b> value pointed to by that function's <i>lpFileSystemFlags</i> parameter.
@@ -189,9 +177,6 @@ Yes
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
@@ -213,7 +198,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
- 
-
- 
 

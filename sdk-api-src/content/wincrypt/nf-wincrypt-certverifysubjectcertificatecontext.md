@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 063b19cf-d3b3-4ec3-bfd3-9406eecd3e10
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_REVOCATION_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertVerifySubjectCertificateContext, CertVerifySubjectCertificateContext function [Security], _crypto2_certverifysubjectcertificatecontext, security.certverifysubjectcertificatecontext, wincrypt/CertVerifySubjectCertificateContext
-f1_keywords:
-- wincrypt/CertVerifySubjectCertificateContext
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertVerifySubjectCertificateContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertVerifySubjectCertificateContext
+ - wincrypt/CertVerifySubjectCertificateContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertVerifySubjectCertificateContext
 ---
 
 # CertVerifySubjectCertificateContext function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertVerifySubjectCertificateContext</b> function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of this function.
 
-
 ## -parameters
-
-
-
 
 ### -param pSubject [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure containing the subject's certificate.
 
-
 ### -param pIssuer [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> containing the issuer's certificate. When checking just CERT_STORE_TIME_VALIDITY_FLAG, <i>pIssuer</i> can be <b>NULL</b>.
-
 
 ### -param pdwFlags [in, out]
 
@@ -116,10 +110,7 @@ If an enabled verification check succeeds, its flag is set to zero. If it fails,
 
 If CERT_STORE_REVOCATION_FLAG was enabled and the issuer does not have a CRL in the store, then CERT_STORE_NO_CRL_FLAG is set in addition to CERT_STORE_REVOCATION_FLAG.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -147,14 +138,8 @@ An unsupported bit was set in <i>pdwFlags</i>. Any combination of CERT_STORE_SIG
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The hexadecimal value of the flags can be combined using bitwise-<b>OR</b> operations to enable multiple verifications. For example, to enable both signature and time validity, the value
 
@@ -162,13 +147,7 @@ The hexadecimal value of the flags can be combined using bitwise-<b>OR</b> opera
 </code></pre>
 is placed in the <i>pdwFlags</i> <b>DWORD</b> value as an input parameter. If CERT_STORE_SIGNATURE_FLAG verification succeeds, but CERT_STORE_TIME_VALIDITY_FLAG verification fails, <i>pdwFlags</i> is set to CERT_STORE_TIME_VALIDITY_FLAG when the function returns.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
@@ -179,7 +158,4 @@ is placed in the <i>pdwFlags</i> <b>DWORD</b> value as an input parameter. If CE
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
 

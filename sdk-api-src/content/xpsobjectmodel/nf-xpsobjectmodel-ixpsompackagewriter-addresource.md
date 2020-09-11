@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: eb81efb8-f3cd-448d-ab60-34acf13db4cd
 ms.date: 12/05/2018
 ms.keywords: AddResource, AddResource method [XPS Documents and Packaging], AddResource method [XPS Documents and Packaging],IXpsOMPackageWriter interface, AddResource method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],AddResource method, IXpsOMPackageWriter.AddResource, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddResource method, IXpsOMPackageWriter3D::AddResource, IXpsOMPackageWriter::AddResource, xps.ixpsompackagewriter_addresource, xpsobjectmodel/IXpsOMPackageWriter3D::AddResource, xpsobjectmodel/IXpsOMPackageWriter::AddResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMPackageWriter.AddResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPackageWriter.AddResource
-- IXpsOMPackageWriter3D.AddResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackageWriter::AddResource
+ - xpsobjectmodel/IXpsOMPackageWriter::AddResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPackageWriter.AddResource
+ - IXpsOMPackageWriter3D.AddResource
 ---
 
 # IXpsOMPackageWriter::AddResource
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new part resource in the package.
 
-
 ## -parameters
-
-
-
 
 ### -param resource [in]
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a> interface of the part resource that will be added as a new part in the package. See Remarks for the types of resources that may be passed in this parameter.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -115,12 +108,7 @@ A severe error occurred and the contents of the XPS OM might be unrecoverable. S
 
 This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method creates a new part in the document package that corresponds to <i>resource</i>, adds the contents of  <i>resource</i> to the new part, and then closes the new  part.
 
@@ -145,13 +133,7 @@ This method returns an error if <i>resource</i> contains one of the following:<u
 
 This method returns an error when <i>resource</i> references a resource that has the same name as  a resource that  has already been added to the stream or for which there is no existing relationship.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
 
@@ -178,7 +160,4 @@ This method returns an error when <i>resource</i> references a resource that has
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

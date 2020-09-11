@@ -8,10 +8,6 @@ tech.root: VStor
 ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
 ms.date: 08/19/2020
 ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
-f1_keywords:
-- virtdisk/OpenVirtualDisk
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VirtDisk.dll
-api_name:
-- OpenVirtualDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenVirtualDisk
+ - virtdisk/OpenVirtualDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VirtDisk.dll
+api_name:
+ - OpenVirtualDisk
 ---
 
 # OpenVirtualDisk function
@@ -49,37 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
 
-
 ## -parameters
-
-
-
 
 ### -param VirtualStorageType [in]
 
 A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> 
      structure.
 
-
 ### -param Path [in]
 
 A pointer to a valid path to the virtual disk image to open.
-
 
 ### -param VirtualDiskAccessMask [in]
 
 A valid value of the 
      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
 
-
 ### -param Flags [in]
 
 A valid combination of values of the 
      <a href="/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
-
 
 ### -param Parameters [in, optional]
 
@@ -87,15 +79,11 @@ An optional pointer to a valid
      <a href="/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
      be <b>NULL</b>.
 
-
 ### -param Handle [out]
 
 A pointer to the handle object that represents the open virtual disk.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b> (0) and the 
       <i>Handle</i> parameter contains a valid pointer to the new virtual disk object.
@@ -104,12 +92,7 @@ If the function fails, the return value is an error code and the value of the <i
       parameter is undefined. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 To prevent an open request failure when attempting to open a handle to a permanently attached virtual disk, 
     the following requirements apply: 
@@ -153,13 +136,7 @@ When an application is finished using the object handle returned in the <i>Handl
 CD and DVD image files (ISO) are not supported before Windows 8 and 
     Windows Server 2012.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
@@ -170,7 +147,4 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
- 
-
- 
 

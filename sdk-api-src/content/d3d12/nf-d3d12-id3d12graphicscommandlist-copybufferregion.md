@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 46F89B85-EDAA-4095-B6C6-4CC47F972F09
 ms.date: 12/05/2018
 ms.keywords: CopyBufferRegion, CopyBufferRegion method, CopyBufferRegion method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyBufferRegion method, ID3D12GraphicsCommandList.CopyBufferRegion, ID3D12GraphicsCommandList::CopyBufferRegion, d3d12/ID3D12GraphicsCommandList::CopyBufferRegion, direct3d12.id3d12graphicscommandlist_copybufferregion
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.CopyBufferRegion
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.CopyBufferRegion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::CopyBufferRegion
+ - d3d12/ID3D12GraphicsCommandList::CopyBufferRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.CopyBufferRegion
 ---
 
 # ID3D12GraphicsCommandList::CopyBufferRegion
@@ -49,59 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies a region of a buffer from one resource to another.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pDstBuffer [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
 Specifies the destination <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
-          
-
 
 ### -param DstOffset
 
 Type: <b>UINT64</b>
 
 Specifies a UINT64 offset (in bytes) into the destination resource.
-          
-
 
 ### -param pSrcBuffer [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
 Specifies the source  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
-          
-
 
 ### -param SrcOffset
 
 Type: <b>UINT64</b>
 
 Specifies a UINT64 offset (in bytes) into the source resource, to start the copy from.
-          
-
 
 ### -param NumBytes
 
 Type: <b>UINT64</b>
 
 Specifies the number of bytes to copy.
-          
-
 
 ## -remarks
-
-
 
 Consider using the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource">CopyResource</a> method when copying an entire resource, and use this method for copying regions of a resource.
         
@@ -181,19 +164,11 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">CopyTextureRegion</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

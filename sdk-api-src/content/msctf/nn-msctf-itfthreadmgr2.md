@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: B80A0DBA-349A-450D-BD9D-14BD36308590
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], ITfThreadMgr2 interface [Text Services Framework],described, msctf/ITfThreadMgr2, tsf.itfthreadmgr2
-f1_keywords:
-- msctf/ITfThreadMgr2
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2
+ - msctf/ITfThreadMgr2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2
 ---
 
 # ITfThreadMgr2 interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfThreadMgr2</b> defines the primary object implemented by the TSF manager. <b>ITfThreadMgr2</b> is used by applications and text services to activate and deactivate text services, create document managers, and maintain the document context focus.
-
-
-
 
 ## -inheritance
 
@@ -196,16 +193,9 @@ Suspends handling keystrokes.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

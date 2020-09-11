@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 8ad0f4f6-902c-490e-b26e-7499dd99fc95
 ms.date: 12/05/2018
 ms.keywords: QueryTrace, QueryTrace function [ETW], QueryTraceA, QueryTraceW, _evt_querytrace, base.querytrace, etw.querytrace, evntrace/QueryTrace, evntrace/QueryTraceA, evntrace/QueryTraceW
-f1_keywords:
-- evntrace/QueryTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-eventing-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- QueryTrace
-- QueryTraceA
-- QueryTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryTraceW
+ - evntrace/QueryTraceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-eventing-Legacy-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - QueryTrace
+ - QueryTraceA
+ - QueryTraceW
 ---
 
 # QueryTraceW function
 
 
 ## -description
-
 
 The 
 <b>QueryTrace</b> function retrieves the property settings and session statistics for the specified event tracing session. 
@@ -61,25 +61,18 @@ The
 The 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
 
-
 ## -parameters
-
-
-
 
 ### -param TraceHandle
 
 Handle to the event tracing session for whose properties and statistics you want to query, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
-
 ### -param InstanceName
-
 
 Pointer to a null-terminated string that specifies the name of the event tracing session whose properties and statistics you want to query, or <b>NULL</b>. You must specify <i>SessionName</i> if <i>SessionHandle</i> is <b>NULL</b>.
 
 To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOGGER_NAME</b>.
-
 
 ### -param Properties
 
@@ -95,11 +88,7 @@ On output, the structure members contain the property settings and session stati
 
 <b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>QueryTrace</b> for  system wide private loggers. You will need to pass in the new <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 						
@@ -170,14 +159,8 @@ The given session is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Controllers call this function.
 
@@ -193,15 +176,9 @@ To update the property settings and session statistics for an event tracing sess
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/queryalltraces">QueryAllTraces</a>
- 
-
- 
 

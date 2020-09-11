@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 801d1924-c75c-47b5-99fe-9d97ea8dfee1
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],Create method, IOpcRelationshipSelectorSet.Create, IOpcRelationshipSelectorSet::Create, msopc/IOpcRelationshipSelectorSet::Create, opc.iopcrelationshipselectorset_create
-f1_keywords:
-- msopc/IOpcRelationshipSelectorSet.Create
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationshipSelectorSet.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationshipSelectorSet::Create
+ - msopc/IOpcRelationshipSelectorSet::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationshipSelectorSet.Create
 ---
 
 # IOpcRelationshipSelectorSet::Create
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a> interface pointer to represent how a subset of relationships are selected to be signed, and adds the new pointer to the set.
 
-
 ## -parameters
-
-
-
 
 ### -param selector [in]
 
 A value that describes how to interpret the  string that is passed in <i>selectionCriterion</i>.
 
-
 ### -param selectionCriterion [in]
 
 A string that is interpreted to yield a criterion.
-
 
 ### -param relationshipSelector [out, retval]
 
@@ -74,10 +68,7 @@ A new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/
 
 This parameter can be <b>NULL</b> if a pointer to the  new interface is not needed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -120,14 +111,8 @@ The <i>partUri</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the methods of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a> interface pointers in the set to select relationships for signing.
 
@@ -140,13 +125,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -189,7 +168,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

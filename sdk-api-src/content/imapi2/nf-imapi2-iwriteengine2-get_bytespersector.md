@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: ee48368c-e9bc-4ac7-97cf-a2bdc2a05d22
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_BytesPerSector method, IWriteEngine2.get_BytesPerSector, IWriteEngine2::get_BytesPerSector, get_BytesPerSector, get_BytesPerSector method [IMAPI], get_BytesPerSector method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_bytespersector, imapi2/IWriteEngine2::get_BytesPerSector
-f1_keywords:
-- imapi2/IWriteEngine2.get_BytesPerSector
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2.get_BytesPerSector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2::get_BytesPerSector
+ - imapi2/IWriteEngine2::get_BytesPerSector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2.get_BytesPerSector
 ---
 
 # IWriteEngine2::get_BytesPerSector
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the number of bytes to use for each sector during writing. The returned value indicates what the value previously set with <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_bytespersector">IWriteEngine2::put_BytesPerSector</a>, and does not return a current bytes per sector value for media. 
-
+Retrieves the number of bytes to use for each sector during writing. The returned value indicates what the value previously set with <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_bytespersector">IWriteEngine2::put_BytesPerSector</a>, and does not return a current bytes per sector value for media.
 
 ## -parameters
-
-
-
 
 ### -param value [out]
 
@@ -67,8 +63,6 @@ Number of bytes to use for each sector during writing.
 <div> </div>
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -91,15 +85,8 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
 
@@ -122,7 +109,4 @@ Value: 0x80004003
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond">IWriteEngine2::put_StartingSectorsPerSecond</a>
- 
-
- 
 

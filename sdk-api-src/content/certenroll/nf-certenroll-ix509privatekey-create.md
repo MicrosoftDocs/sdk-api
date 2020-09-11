@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e8c6564a-6009-437e-9b83-3711e43a7374
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Create method, IX509PrivateKey.Create, IX509PrivateKey::Create, certenroll/IX509PrivateKey::Create, security.ix509privatekey_create_method
-f1_keywords:
-- certenroll/IX509PrivateKey.Create
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey::Create
+ - certenroll/IX509PrivateKey::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey.Create
 ---
 
 # IX509PrivateKey::Create
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Create</b> method creates an asymmetric  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -98,14 +90,8 @@ The key already exists.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you do not set the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspstatus">CspStatus</a>, the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providername">ProviderName</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a> properties, this method uses the default provider, key size, and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a> values  when creating the key. On a new operating system installation, for example,  Microsoft Enhanced Cryptographic Provider v1.0 is the default provider.
 
@@ -177,17 +163,7 @@ You cannot set the following properties after calling the <b>Create</b> or <a hr
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
 

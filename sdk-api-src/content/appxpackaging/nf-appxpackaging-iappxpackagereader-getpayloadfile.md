@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 83E6931D-405C-4A93-BE70-F505D484CB7F
 ms.date: 12/05/2018
 ms.keywords: GetPayloadFile, GetPayloadFile method [App packaging and management], GetPayloadFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetPayloadFile method, IAppxPackageReader.GetPayloadFile, IAppxPackageReader::GetPayloadFile, appxpackaging/IAppxPackageReader::GetPayloadFile, appxpkg.iappxpackagereader_getpayloadfile
-f1_keywords:
-- appxpackaging/IAppxPackageReader.GetPayloadFile
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxPackageReader.GetPayloadFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxPackageReader::GetPayloadFile
+ - appxpackaging/IAppxPackageReader::GetPayloadFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxPackageReader.GetPayloadFile
 ---
 
 # IAppxPackageReader::GetPayloadFile
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a payload file from the package.
 
-
 ## -parameters
-
-
-
 
 ### -param fileName [in]
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The name of the payload file to be retrieved.
 
-
 ### -param file [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
 
 The file object that corresponds to <i>fileName</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -97,24 +89,12 @@ There is no payload file with the specified file name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The specified <i>fileName</i> must include the path relative to the package root directory. 
-
-
-
+The specified <i>fileName</i> must include the path relative to the package root directory.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
 
@@ -129,7 +109,4 @@ The specified <i>fileName</i> must include the path relative to the package root
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getpayloadfiles">IAppxPackageReader::GetPayloadFiles</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 28366df3-c414-45ff-bb15-c5483f11de85
 ms.date: 12/05/2018
 ms.keywords: 28366df3-c414-45ff-bb15-c5483f11de85, IMFTransform interface [Media Foundation],ProcessEvent method, IMFTransform.ProcessEvent, IMFTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Media Foundation], ProcessEvent method [Media Foundation],IMFTransform interface, mf.imftransform_processevent, mftransform/IMFTransform::ProcessEvent
-f1_keywords:
-- mftransform/IMFTransform.ProcessEvent
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTransform.ProcessEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTransform::ProcessEvent
+ - mftransform/IMFTransform::ProcessEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTransform.ProcessEvent
 ---
 
 # IMFTransform::ProcessEvent
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends an event to an input stream on this Media Foundation transform (MFT).
-        
-
 
 ## -parameters
-
-
-
 
 ### -param dwInputStreamID [in]
 
 Input stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
-          
-
 
 ### -param pEvent [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of an event object.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -145,14 +134,8 @@ The pipeline should not propagate the event.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An MFT can handle sending the event downstream, or it can let the pipeline do this, as indicated by the return value:
       
@@ -176,20 +159,11 @@ If an MFT does not hold back samples and does not need to examine any events, it
 
 If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessEvent</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
 

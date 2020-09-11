@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 29bc5eb3-2e4b-4ca1-8b0a-9b43d2723e56
 ms.date: 12/05/2018
 ms.keywords: BeepAlarm, BlinkLight, Ping, SpinDown, SpinUp, VDS_MAINTENANCE_OPERATION, VDS_MAINTENANCE_OPERATION enumeration [VDS], base.vds_maintenance_operation, vds/BeepAlarm, vds/BlinkLight, vds/Ping, vds/SpinDown, vds/SpinUp, vds/VDS_MAINTENANCE_OPERATION, vdshwprv/BeepAlarm, vdshwprv/BlinkLight, vdshwprv/Ping, vdshwprv/SpinDown, vdshwprv/SpinUp, vdshwprv/VDS_MAINTENANCE_OPERATION
-f1_keywords:
-- vds/VDS_MAINTENANCE_OPERATION
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_MAINTENANCE_OPERATION
 targetos: Windows
 req.typenames: VDS_MAINTENANCE_OPERATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_MAINTENANCE_OPERATION
+ - vds/_VDS_MAINTENANCE_OPERATION
+ - VDS_MAINTENANCE_OPERATION
+ - vds/VDS_MAINTENANCE_OPERATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_MAINTENANCE_OPERATION
 ---
 
 # VDS_MAINTENANCE_OPERATION enumeration
@@ -50,57 +53,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid subsystem maintenance operations.
 
-
 ## -enum-fields
-
-
-
 
 ### -field BlinkLight
 
 Blinks a light on a drive.
 
-
 ### -field BeepAlarm
 
 Beeps an alarm on a drive.
-
 
 ### -field SpinDown
 
 Slows the spinning of a drive such that the drive enters an idle state. Typically used for the purpose of saving power.
 
-
 ### -field SpinUp
 
 Starts the spinning of a drive in preparation for data reads.
-
 
 ### -field Ping
 
 Pings a drive.
 
-
 ## -remarks
-
-
 
 The  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-startmaintenance">IVdsMaintenance::StartMaintenance</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">IVdsMaintenance::StopMaintenance</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">IVdsMaintenance::PulseMaintenance</a> methods pass a <b>VDS_MAINTENANCE_OPERATION</b> value as an argument to specify operation details.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_MAINTENANCE_OPERATION</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_MAINTENANCE_OPERATION</b> enumeration constant.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">IVdsMaintenance::PulseMaintenance</a>
 
@@ -115,7 +101,4 @@ The  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwpr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
- 
-
- 
 

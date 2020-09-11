@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3e5ec923-0597-4cf4-8973-17c83481c7f4
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFolderChange method, IFileDialogEvents.OnFolderChange, IFileDialogEvents::OnFolderChange, OnFolderChange, OnFolderChange method [Windows Shell], OnFolderChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFolderChange, shell_IFileDialogEvents_OnFolderChange, shobjidl_core/IFileDialogEvents::OnFolderChange
-f1_keywords:
-- shobjidl_core/IFileDialogEvents.OnFolderChange
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileDialogEvents.OnFolderChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileDialogEvents::OnFolderChange
+ - shobjidl_core/IFileDialogEvents::OnFolderChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileDialogEvents.OnFolderChange
 ---
 
 # IFileDialogEvents::OnFolderChange
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when the user navigates to a new folder.
 
-
 ## -parameters
-
-
-
 
 ### -param pfd [in]
 
@@ -64,31 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to the interface that represents the dialog.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>IFileDialogEvents::OnFolderChange</b> is called when the dialog is opened.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getfolder">IFileDialog::GetFolder</a>
 
@@ -99,7 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onfolderchanging">IFileDialogEvents::OnFolderChanging</a>
- 
-
- 
 

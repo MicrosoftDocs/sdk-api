@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5283f3be-7451-4896-82a5-bcfe63db9344
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_EXPORT_KEY_AGREE, PFN_CMSG_EXPORT_KEY_AGREE callback, PFN_CMSG_EXPORT_KEY_AGREE callback function [Security], security.pfn_cmsg_export_key_agree, wincrypt/PFN_CMSG_EXPORT_KEY_AGREE
-f1_keywords:
-- wincrypt/PFN_CMSG_EXPORT_KEY_AGREE
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wincrypt.h
-api_name:
-- PFN_CMSG_EXPORT_KEY_AGREE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_CMSG_EXPORT_KEY_AGREE
+ - wincrypt/PFN_CMSG_EXPORT_KEY_AGREE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wincrypt.h
+api_name:
+ - PFN_CMSG_EXPORT_KEY_AGREE
 ---
 
 # PFN_CMSG_EXPORT_KEY_AGREE callback function
@@ -49,56 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PFN_CMSG_EXPORT_KEY_AGREE</b> callback function encrypts and exports the content encryption key for a key agreement recipient of an enveloped message. <b>PFN_CMSG_EXPORT_KEY_AGREE</b> can be installed by using a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CryptoAPI</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This function is called by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function when its <i>dwMsgType</i> parameter is set to <b>CMSG_ENVELOPED</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param pContentEncryptInfo [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure that contains the content encryption key.
 
-
 ### -param pKeyAgreeEncodeInfo [in]
 
 A pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_key_agree_recipient_encode_info">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
-
 
 ### -param pKeyAgreeEncryptInfo [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree_encrypt_info">CMSG_KEY_AGREE_ENCRYPT_INFO</a> structure that contains the encrypted content encryption key.
 
-
 ### -param dwFlags [in]
 
 This value is not used. Set it to zero.
-
 
 ### -param *pvReserved
 
 This parameter is reserved and must be NULL.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
-
-
 ## -remarks
-
-
 
 For each recipient key, the <b>PFN_CMSG_EXPORT_KEY_AGREE</b> function must update the   <b>EncryptedKey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree_key_encrypt_info">CMSG_KEY_AGREE_KEY_ENCRYPT_INFO</a> structure referred to by the <b>rgpKeyAgreeKeyEncryptInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree_encrypt_info">CMSG_KEY_AGREE_ENCRYPT_INFO</a> structure pointed to by the <i>pKeyAgreeEncryptInfo</i> parameter. This function must use the <b>pfnAlloc</b> and <b>pfnFree</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure pointed to by the <i>pContentEncryptInfo</i> parameter to manage memory for any values that it updates.
 
@@ -127,7 +109,4 @@ You must define different callback functions for CAPI1 keys and Cryptography API
 <td>"CryptMsgDllCNGExportKeyAgree"</td>
 </tr>
 </table>
- 
-
-
 

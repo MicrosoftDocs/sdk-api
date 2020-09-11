@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1d7f1a8b-bbc4-43ae-b8e6-410561087204
 ms.date: 12/05/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetVideoPosition method, IVMRWindowlessControl.GetVideoPosition, IVMRWindowlessControl::GetVideoPosition, IVMRWindowlessControlGetVideoPosition, dshow.ivmrwindowlesscontrol_getvideoposition, strmif/IVMRWindowlessControl::GetVideoPosition
-f1_keywords:
-- strmif/IVMRWindowlessControl.GetVideoPosition
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRWindowlessControl.GetVideoPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRWindowlessControl::GetVideoPosition
+ - strmif/IVMRWindowlessControl::GetVideoPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRWindowlessControl.GetVideoPosition
 ---
 
 # IVMRWindowlessControl::GetVideoPosition
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetVideoPosition</code> method retrieves the current source and destination rectangles used to display the video.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpSRCRect [out]
 
 Pointer that receives the current source rectangle.
 
-
 ### -param lpDSTRect [out]
 
 Pointer that receives the current destination rectangle.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
@@ -95,15 +84,8 @@ The VMR is not in windowless mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -118,7 +100,4 @@ The VMR is not in windowless mode.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

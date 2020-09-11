@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 4da401cf-3606-4ae1-ae6f-37eb3dea6426
 ms.date: 12/05/2018
 ms.keywords: SetLogFileSizeWithPolicy, SetLogFileSizeWithPolicy function [Files], clfsmgmtw32/SetLogFileSizeWithPolicy, fs.setlogfilesizewithpolicy
-f1_keywords:
-- clfsmgmtw32/SetLogFileSizeWithPolicy
-dev_langs:
-- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- SetLogFileSizeWithPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetLogFileSizeWithPolicy
+ - clfsmgmtw32/SetLogFileSizeWithPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - SetLogFileSizeWithPolicy
 ---
 
 # SetLogFileSizeWithPolicy function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds or deletes containers from a log based on the state of the installed policies. 
-
+Adds or deletes containers from a log based on the state of the installed policies.
 
 ## -parameters
-
-
-
 
 ### -param hLog [in]
 
 A handle to a log.
-
 
 ### -param pDesiredSize [in]
 
@@ -138,29 +133,19 @@ If a maximum size policy is installed, the log expands to the maximum number of 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pResultingSize [out]
 
 A pointer to a valid ULONGLONG data variable, receives the number of containers in the resized log upon success.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 Containers are  created using the same security attributes as   the .blf file and are created within the context of the application, not the context of the owner of the .blf file. For more information about .blf files, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>. If containers are deleted, they are deleted using the security context of the calling application.
 
@@ -171,12 +156,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>
 
@@ -187,7 +167,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e301c76d-cacd-441a-b925-754b07e4bfa9
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertRegisterPhysicalStore, CertRegisterPhysicalStore function [Security], _crypto2_certregisterphysicalstore, security.certregisterphysicalstore, wincrypt/CertRegisterPhysicalStore
-f1_keywords:
-- wincrypt/CertRegisterPhysicalStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertRegisterPhysicalStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertRegisterPhysicalStore
+ - wincrypt/CertRegisterPhysicalStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertRegisterPhysicalStore
 ---
 
 # CertRegisterPhysicalStore function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertRegisterPhysicalStore</b> function adds a physical store to a registry system store collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pvSystemStore [in]
 
 The system store collection to which the physical store is added. This parameter points either to a <b>null</b>-terminated Unicode string or to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure. For information about using the structure and on adding a ServiceName or ComputerName before the system store name string, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregistersystemstore">CertRegisterSystemStore</a>.
-
 
 ### -param dwFlags [in]
 
@@ -102,40 +97,27 @@ The function fails if the physical store already exists in the store location.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwszStoreName [in]
 
 A pointer to a Unicode string that names the physical store to be added to the system store collection. To remove a physical store from the system store collection, call the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certunregisterphysicalstore">CertUnregisterPhysicalStore</a> function.
-
 
 ### -param pStoreInfo [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_physical_store_info">CERT_PHYSICAL_STORE_INFO</a> structure that provides basic information about the physical store.
 
-
 ### -param pvReserved [in]
 
 Reserved for future use and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_physical_store_info">CERT_PHYSICAL_STORE_INFO</a>
 
@@ -162,7 +144,4 @@ If the function fails, it returns zero.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
- 
-
- 
 

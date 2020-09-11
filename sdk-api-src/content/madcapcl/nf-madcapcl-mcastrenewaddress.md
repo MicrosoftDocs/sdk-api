@@ -8,10 +8,6 @@ tech.root: Madcap
 ms.assetid: d1d26edb-f372-4d6d-a6e2-a8eeafadedc0
 ms.date: 12/05/2018
 ms.keywords: McastRenewAddress, McastRenewAddress function [MADCAP], _mdhcp_mcastrenewaddress, madcap.mcastrenewaddress, madcapcl/McastRenewAddress
-f1_keywords:
-- madcapcl/McastRenewAddress
-dev_langs:
-- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpcsvc.dll
-api_name:
-- McastRenewAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - McastRenewAddress
+ - madcapcl/McastRenewAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpcsvc.dll
+api_name:
+ - McastRenewAddress
 ---
 
 # McastRenewAddress function
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>McastRenewAddress</b> function renews one or more multicast addresses from a MADCAP server.
 
-
 ## -parameters
-
-
-
 
 ### -param AddrFamily [in]
 
 Designates the address family. Use AF_INET for Internet Protocol version 4 (IPv4), and AF_INET6 for Internet Protocol version 6 (IPv6).
 
-
 ### -param pRequestID [in]
 
 Unique identifier used when the address or addresses were initially obtained.
-
 
 ### -param pRenewRequest [in]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_request">MCAST_LEASE_REQUEST</a> structure containing multicast renew–request parameters.
-
 
 ### -param pRenewResponse [in, out]
 
@@ -81,21 +74,12 @@ Pointer to a buffer containing response parameters for the multicast address–r
 <a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_response">MCAST_LEASE_RESPONSE</a> structure. The caller is responsible for allocating sufficient buffer space for the <b>pAddrBuf</b> member of the 
 <b>MCAST_LEASE_RESPONSE</b> structure to hold the requested number of addresses; the caller is also responsible for setting the pointer to that buffer.
 
-
 ## -returns
-
-
 
 The 
 <b>McastRenewAddress</b> function returns the status of the operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a>
 
@@ -142,7 +126,4 @@ The
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
- 
-
- 
 

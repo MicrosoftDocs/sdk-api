@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
-f1_keywords:
-- mfplay/IMFPMediaPlayer.InsertEffect
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.InsertEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::InsertEffect
+ - mfplay/IMFPMediaPlayer::InsertEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.InsertEffect
 ---
 
 # IMFPMediaPlayer::InsertEffect
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Applies an audio or video effect to playback.
 
-
 ## -parameters
-
-
-
 
 ### -param pEffect [in]
 
@@ -102,12 +97,8 @@ If the MFPlay player object cannot add the effect, a playback error occurs.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -139,14 +130,8 @@ This effect was already added.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The object specified in the <i>pEffect</i> parameter can implement either a video effect or an audio effect. The effect is applied to any media items set after the method is called. It is not applied to the current media item. 
 
@@ -192,14 +177,7 @@ HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-add-audio-or-video-effects">How to Add Audio or Video Effects</a>
 
@@ -210,7 +188,4 @@ HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

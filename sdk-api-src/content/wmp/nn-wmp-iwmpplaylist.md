@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], IWMPPlaylist interface [Windows Media Player],described, IWMPPlaylistInterface, wmp.iwmpplaylist, wmp/IWMPPlaylist
-f1_keywords:
-- wmp/IWMPPlaylist
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylist
+ - wmp/IWMPPlaylist
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlaylist
 ---
 
 # IWMPPlaylist interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlaylist</b> interface provides methods for manipulating lists of media items.
-
-
-
 
 ## -inheritance
 
@@ -197,16 +193,9 @@ Specifies the value of an attribute of the current playlist.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

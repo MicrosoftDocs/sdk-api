@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 74d0c373-e9b1-4d9c-bdb6-caa743938e32
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], IEnumSyncMgrEvents interface [Windows Shell],described, _shell_IEnumSyncMgrEvents, shell.IEnumSyncMgrEvents, syncmgr/IEnumSyncMgrEvents
-f1_keywords:
-- syncmgr/IEnumSyncMgrEvents
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- IEnumSyncMgrEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncMgrEvents
+ - syncmgr/IEnumSyncMgrEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - IEnumSyncMgrEvents
 ---
 
 # IEnumSyncMgrEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes sync event enumeration methods.
-
 
 ## -inheritance
 
@@ -104,14 +103,9 @@ Skips forward the specified number of events in the enumeration.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An event store returns a pointer to an <b>IEnumSyncMgrEvents</b> interface from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgreventstore-geteventenumerator">ISyncMgrEventStore::GetEventEnumerator</a>.
-
-
 

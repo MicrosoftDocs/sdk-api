@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: e2e7cc95-e41b-4270-8650-30a1c12a0057
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListClearMediaDisk, MsiSourceListClearMediaDisk function, MsiSourceListClearMediaDiskA, MsiSourceListClearMediaDiskW, NULL, User SID, msi/MsiSourceListClearMediaDisk, msi/MsiSourceListClearMediaDiskA, msi/MsiSourceListClearMediaDiskW, setup.msisourcelistclearmediadisks
-f1_keywords:
-- msi/MsiSourceListClearMediaDisk
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSourceListClearMediaDisk
-- MsiSourceListClearMediaDiskA
-- MsiSourceListClearMediaDiskW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListClearMediaDiskA
+ - msi/MsiSourceListClearMediaDiskA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSourceListClearMediaDisk
+ - MsiSourceListClearMediaDiskA
+ - MsiSourceListClearMediaDiskW
 ---
 
 # MsiSourceListClearMediaDiskA function
@@ -51,21 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
- The <b>MsiSourceListClearMediaDisk</b> function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context.   
-			
-		
-
+ The <b>MsiSourceListClearMediaDisk</b> function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context.
 
 ## -parameters
-
-
-
 
 ### -param szProductCodeOrPatchCode [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
-
 
 ### -param szUserSid [in, optional]
 
@@ -145,8 +138,6 @@ The product or patch instance exists in the per-machine context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOptions [in]
 
@@ -182,17 +173,12 @@ The <i>dwOptions</i> value specifies the meaning of <i>szProductCodeOrPatchCode<
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwDiskId [in]
 
-This parameter provides the ID of the disk being removed.  
-
+This parameter provides the ID of the disk being removed.
 
 ## -returns
-
-
 
 The <b>MsiSourceListClearMediaDisk</b> function returns the following values.
 
@@ -290,14 +276,8 @@ Unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Administrators can modify the installation  of   a product or patch   instance that exists  under the machine context or under their own per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under any user's per-user-managed context.  Administrators cannot modify another user's installation of a product or patch instance  that exists  under that other user's per-user-unmanaged context. 
 
@@ -312,15 +292,9 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
 

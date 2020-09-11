@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 58e378b7-863a-46d4-91cb-904ed4e892a3
 ms.date: 12/05/2018
 ms.keywords: '*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL structure [Display Devices], ddrawint/DD_DIRECTDRAW_LOCAL, ddstrcts_2df3e80e-6d5d-4d81-9ae8-d92b7c7c74eb.xml, display.dd_directdraw_local'
-f1_keywords:
-- ddrawint/DD_DIRECTDRAW_LOCAL
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_DIRECTDRAW_LOCAL
 targetos: Windows
 req.typenames: '*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_DIRECTDRAW_LOCAL
+ - ddrawint/_DD_DIRECTDRAW_LOCAL
+ - PDD_DIRECTDRAW_LOCAL
+ - ddrawint/PDD_DIRECTDRAW_LOCAL
+ - DD_DIRECTDRAW_LOCAL
+ - ddrawint/DD_DIRECTDRAW_LOCAL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_DIRECTDRAW_LOCAL
 ---
 
 # DD_DIRECTDRAW_LOCAL structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DD_DIRECTDRAW_LOCAL structure contains driver information that is relevant to the current DirectDraw process only.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lpGbl
 

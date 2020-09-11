@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: fe6b8766-4f63-4a6c-b7dd-39a304679185
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IMDSPEnumDevice interface, IMDSPEnumDevice interface [windows Media Device Manager],Clone method, IMDSPEnumDevice.Clone, IMDSPEnumDevice::Clone, IMDSPEnumDeviceClone, mswmdm/IMDSPEnumDevice::Clone, wmdm.imdspenumdevice_clone
-f1_keywords:
-- mswmdm/IMDSPEnumDevice.Clone
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPEnumDevice.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPEnumDevice::Clone
+ - mswmdm/IMDSPEnumDevice::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPEnumDevice.Clone
 ---
 
 # IMDSPEnumDevice::Clone
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Clone</b> method creates another enumerator that contains the same enumeration state as the current one.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppEnumDevice [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspenumdevice">IMDSPEnumDevice</a> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -80,27 +70,13 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 Using this function, a client can record a particular point in the enumeration sequence, and then return to that point later. The new enumerator supports the same interface as the original one.
 
 This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspenumdevice">IMDSPEnumDevice Interface</a>
- 
-
- 
 

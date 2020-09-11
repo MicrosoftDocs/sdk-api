@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 4ED7419E-3435-4F12-B293-1FDC24F40D63
 ms.date: 12/05/2018
 ms.keywords: BITS_JOB_PROPERTY_DYNAMIC_CONTENT, BITS_JOB_PROPERTY_HIGH_PERFORMANCE, BITS_JOB_PROPERTY_ID, BITS_JOB_PROPERTY_ID enumeration [BITS], BITS_JOB_PROPERTY_ID_COST_FLAGS, BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE, BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS, BITS_JOB_PROPERTY_NOTIFICATION_CLSID, BITS_JOB_PROPERTY_ON_DEMAND_MODE, BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS, bits.bits_job_property_id, bits5_0/BITS_JOB_PROPERTY_DYNAMIC_CONTENT, bits5_0/BITS_JOB_PROPERTY_HIGH_PERFORMANCE, bits5_0/BITS_JOB_PROPERTY_ID, bits5_0/BITS_JOB_PROPERTY_ID_COST_FLAGS, bits5_0/BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE, bits5_0/BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS, bits5_0/BITS_JOB_PROPERTY_NOTIFICATION_CLSID, bits5_0/BITS_JOB_PROPERTY_ON_DEMAND_MODE, bits5_0/BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS
-f1_keywords:
-- bits5_0/BITS_JOB_PROPERTY_ID
-dev_langs:
-- c++
 req.header: bits5_0.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bits5_0.h
-api_name:
-- BITS_JOB_PROPERTY_ID
 targetos: Windows
 req.typenames: BITS_JOB_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BITS_JOB_PROPERTY_ID
+ - bits5_0/BITS_JOB_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bits5_0.h
+api_name:
+ - BITS_JOB_PROPERTY_ID
 ---
 
 # BITS_JOB_PROPERTY_ID enumeration
+
 
 ## -description
 
@@ -64,7 +66,7 @@ This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>'s <b>DWORD</b> field.
 
 The ID that is used to <a href="https://docs.microsoft.com/windows/desktop/Bits/registering-a-com-callback">register a COM callback</a> by CLSID to receive notifications about the progress and completion of a BITS job. The CLSID must refer to a class associated with a registered out-of-process COM server. It may also be set to <b>GUID_NULL</b> to clear a previously set notification CLSID. 
 
-This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>CLsID</b> field. 
+This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>CLsID</b> field.
 
 ### -field BITS_JOB_PROPERTY_DYNAMIC_CONTENT
 
@@ -116,3 +118,4 @@ The requirements for a <b>BITS_JOB_PROPERTY_ON_DEMAND_MODE</b> job is that the t
 * <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy">BITS_JOB_TRANSFER_POLICY</a>
 * <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyjob5-getproperty">IBackgroundCopyJob5::GetProperty</a>
 * <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyjob5-setproperty">IBackgroundCopyJob5::SetProperty</a>
+

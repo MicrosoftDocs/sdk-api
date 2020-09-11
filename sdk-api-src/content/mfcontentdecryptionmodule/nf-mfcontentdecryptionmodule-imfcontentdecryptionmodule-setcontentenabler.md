@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::SetContentEnabler
 f1_keywords:
+ - IMFContentDecryptionModule::SetContentEnabler
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::SetContentEnabler
 dev_langs:
  - c++
@@ -42,8 +43,6 @@ dev_langs:
 ## -description
 
 Allows the caller to specify the [IMFContentEnabler](/windows/win32/api/mfidl/nn-mfidl-imfcontentenabler) interface that shall be used by the Content Decryption Module (CDM).
-    
-
 
 ## -parameters
 
@@ -58,7 +57,6 @@ An [IMFAsyncResult](/windows/win32/api/mfobjects/nn-mfobjects-imfasyncresult) th
 ## -returns
 
 Returns S_OK on success.
-
 
 ## -remarks
 

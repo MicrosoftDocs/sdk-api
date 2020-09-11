@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e99a84a2-c23e-4251-8062-dd286ccc29b7
 ms.date: 12/05/2018
 ms.keywords: CryptSetKeyParam, CryptSetKeyParam function [Security], KP_ALGID, KP_CERTIFICATE, KP_CMS_DH_KEY_INFO, KP_EFFECTIVE_KEYLEN, KP_G, KP_HIGHEST_VERSION, KP_IV, KP_KEYVAL, KP_MODE, KP_MODE_BITS, KP_OAEP_PARAMS, KP_P, KP_PADDING, KP_PERMISSIONS, KP_PUB_PARAMS, KP_Q, KP_SALT, KP_SALT_EX, KP_X, _crypto2_cryptsetkeyparam, security.cryptsetkeyparam, wincrypt/CryptSetKeyParam
-f1_keywords:
-- wincrypt/CryptSetKeyParam
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptSetKeyParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSetKeyParam
+ - wincrypt/CryptSetKeyParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptSetKeyParam
 ---
 
 # CryptSetKeyParam function
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetKeyParam</b> function customizes various aspects of a session key's operations. The values set by this function are not persisted to memory and can only be used with in a single session.
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a> does not permit setting values for key exchange or signature keys; however, custom providers can define values that can be set for its keys.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 A handle to the key for which values are to be set.
-
 
 ### -param dwParam [in]
 
@@ -387,16 +382,12 @@ Note that the following values are not used:
 
 A pointer to a buffer initialized with the value to be set before calling <b>CryptSetKeyParam</b>. The form of this data varies depending on the value of <i>dwParam</i>.
 
-
 ### -param dwFlags [in]
 
 Used only when <i>dwParam</i> is KP_ALGID. The <i>dwFlags</i> parameter is used to pass in flag values for the enabled key. The <i>dwFlags</i> parameter can hold values such as the key size and the other flag values allowed when generating the same type of key with <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>. For information about allowable flag values, see 
 <b>CryptGenKey</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -499,14 +490,8 @@ Some CSPs have hard-coded P, Q, and G values. If this is the case, then using KP
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the KP_Q, KP_P, or KP_X parameters are set on a PREGEN Diffie-Hellman or DSS key, the key lengths must be compatible with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key length</a> set using the upper 16 bits of the <i>dwFlags</i> parameter when the key was created using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>. If no key length was set in <b>CryptGenKey</b>, the default key length was used. This will create an error if a nondefault key length is used to set P, Q, or X.
 
@@ -520,12 +505,7 @@ For more code that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
@@ -544,7 +524,4 @@ For more code that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
- 
-
- 
 

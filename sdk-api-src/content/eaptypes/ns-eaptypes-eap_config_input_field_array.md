@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: e8a2e934-1ded-4159-8cd8-7aeb75ce743a
 ms.date: 12/05/2018
 ms.keywords: '*PEAP_CONFIG_INPUT_FIELD_ARRAY, EAP_CONFIG_INPUT_FIELD_ARRAY, EAP_CONFIG_INPUT_FIELD_ARRAY structure [EAPHost], EAP_CREDENTIAL_VERSION, EAP_CRED_LOGON_REQ, EAP_CRED_LOGON_RESP, EAP_CRED_REQ, EAP_CRED_RESP, PEAP_CONFIG_INPUT_FIELD_ARRAY, PEAP_CONFIG_INPUT_FIELD_ARRAY structure pointer [EAPHost], eaphost.eap_config_input_field_array, eaptypes/EAP_CONFIG_INPUT_FIELD_ARRAY, eaptypes/PEAP_CONFIG_INPUT_FIELD_ARRAY'
-f1_keywords:
-- eaptypes/EAP_CONFIG_INPUT_FIELD_ARRAY
-dev_langs:
-- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- eaptypes.h
-api_name:
-- EAP_CONFIG_INPUT_FIELD_ARRAY
 targetos: Windows
 req.typenames: EAP_CONFIG_INPUT_FIELD_ARRAY, *PEAP_CONFIG_INPUT_FIELD_ARRAY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EAP_CONFIG_INPUT_FIELD_ARRAY
+ - eaptypes/_EAP_CONFIG_INPUT_FIELD_ARRAY
+ - PEAP_CONFIG_INPUT_FIELD_ARRAY
+ - eaptypes/PEAP_CONFIG_INPUT_FIELD_ARRAY
+ - EAP_CONFIG_INPUT_FIELD_ARRAY
+ - eaptypes/EAP_CONFIG_INPUT_FIELD_ARRAY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - eaptypes.h
+api_name:
+ - EAP_CONFIG_INPUT_FIELD_ARRAY
 ---
 
 # EAP_CONFIG_INPUT_FIELD_ARRAY structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure contains a set of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures that collectively contain the user input field data obtained from the user.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
@@ -79,23 +79,14 @@ The version of the EAP credentials supplied by the user.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwNumberOfFields
 
  The total number of elements in the array specified by  <b>pFields</b>.
 
-
 ### -field pFields.size_is
 
- 
-
-
 ### -field pFields.size_is.dwNumberOfFields
-
- 
-
 
 ### -field pFields
 
@@ -106,27 +97,15 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 The size, in bytes, of the array pointed to by <b>pFields</b>.
 
-
 ## -remarks
-
-
 
 The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure can be employed to support Single-Sign-On (SSO).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>
 
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
- 
-
- 
 

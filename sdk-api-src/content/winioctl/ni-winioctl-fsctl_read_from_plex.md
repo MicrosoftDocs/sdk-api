@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f2cddd4d-cb58-484c-9a85-274b88ec4ece
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_FROM_PLEX, FSCTL_READ_FROM_PLEX control, FSCTL_READ_FROM_PLEX control code [Files], _win32_fsctl_read_from_plex, base.fsctl_read_from_plex, fs.fsctl_read_from_plex, winioctl/FSCTL_READ_FROM_PLEX
-f1_keywords:
-- winioctl/FSCTL_READ_FROM_PLEX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_READ_FROM_PLEX
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_READ_FROM_PLEX
+ - winioctl/FSCTL_READ_FROM_PLEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_READ_FROM_PLEX
 ---
 
 # FSCTL_READ_FROM_PLEX IOCTL
+
 
 ## -description
 
@@ -66,21 +68,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -89,7 +85,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -102,9 +97,9 @@ SMB 3.0 Transparent Failover (TFO) | No
 SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | No
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [PLEX_READ_DATA_REQUEST](ns-winioctl-plex_read_data_request.md)
 * [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+

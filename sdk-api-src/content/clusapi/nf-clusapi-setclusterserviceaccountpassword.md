@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD function [Failover Cluster], SetClusterServiceAccountPassword, SetClusterServiceAccountPassword function [Failover Cluster], _wolf_setclusterserviceaccountpassword, clusapi/PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, clusapi/SetClusterServiceAccountPassword, mscs.setclusterserviceaccountpassword
-f1_keywords:
-- clusapi/SetClusterServiceAccountPassword
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- SetClusterServiceAccountPassword
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetClusterServiceAccountPassword
+ - clusapi/SetClusterServiceAccountPassword
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - SetClusterServiceAccountPassword
 ---
 
 # SetClusterServiceAccountPassword function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems specified in the 
     Requirements section. Support for this function was removed in Windows Server 2008 and this function does 
@@ -57,22 +57,16 @@ ms.custom: 19H1
 Changes the password for the Cluster service user account on all available cluster 
     nodes. The <b>PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszClusterName [in]
 
 <b>NULL</b>-terminated Unicode string specifying the name of the cluster.
 
-
 ### -param lpszNewPassword [in]
 
 <b>NULL</b>-terminated Unicode string specifying the new password for the Cluster service 
        user account.
-
 
 ### -param dwFlags [in, optional]
 
@@ -94,7 +88,6 @@ Causes the
          <b>ClusterNodePaused</b> states (see 
          <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a>) will not be updated.
 
-
 ### -param lpReturnStatusBuffer [out]
 
 Pointer to an output buffer that receives an array of 
@@ -106,7 +99,6 @@ Pointer to an output buffer that receives an array of
        update will be performed; the function will set <i>lpcbReturnStatusBufferSize</i> to the 
        required buffer size and return <b>ERROR_SUCCESS</b>.
 
-
 ### -param lpcbReturnStatusBufferSize [in, out]
 
 On input, pointer to a value specifying the size (in bytes) of the output buffer. On output, pointer to a 
@@ -114,10 +106,7 @@ On input, pointer to a value specifying the size (in bytes) of the output buffer
        <i>lpReturnStatusBuffer</i> is <b>NULL</b>. This parameter cannot be 
        <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
@@ -158,14 +147,8 @@ The output buffer pointed to by <i>lpReturnStatusBuffer</i> was not large enough
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, the 
      <b>SetClusterServiceAccountPassword</b> 
@@ -185,13 +168,7 @@ Do not call
      <b>SetClusterServiceAccountPassword</b> 
      from a resource DLL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc512182(v=vs.85)">CLUSTER_SET_PASSWORD_FLAGS</a>
 
@@ -202,7 +179,4 @@ Do not call
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
- 
-
- 
 

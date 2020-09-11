@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: E4F99A11-4ED5-44CB-BE16-CBB558412ED4
 ms.date: 12/05/2018
 ms.keywords: IBasicDevice, IBasicDevice interface [Media Streaming API], IBasicDevice interface [Media Streaming API],described, mediastreaming.ibasicdevice, windows/IBasicDevice
-f1_keywords:
-- windows.media.streaming/IBasicDevice
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IBasicDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicDevice
+ - windows.media.streaming/IBasicDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IBasicDevice
 ---
 
 # IBasicDevice interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates the methods and events  needed to model a DLNA Device.
-
 
 ## -inheritance
 
@@ -248,16 +247,9 @@ Retrieves the device’s unique device name (UDN).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

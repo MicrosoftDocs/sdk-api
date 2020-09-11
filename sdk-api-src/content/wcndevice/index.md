@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wcn
+f1_keywords:
+ - wcndevice
+ - wcndevice/wcndevice
 ---
 
 # Wcndevice.h header
 
 
 ## -description
-
 
 This header is used by Windows Connect Now. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: e184ef8e-9ec6-4d84-a3d0-850298262b81
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, ClusterNodeEnum, ClusterNodeEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_ENUM, PCLUSAPI_CLUSTER_NODE_ENUM function [Failover Cluster], _wolf_clusternodeenum, clusapi/ClusterNodeEnum, clusapi/PCLUSAPI_CLUSTER_NODE_ENUM, mscs.clusternodeenum
-f1_keywords:
-- clusapi/ClusterNodeEnum
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterNodeEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterNodeEnum
+ - clusapi/ClusterNodeEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterNodeEnum
 ---
 
 # ClusterNodeEnum function
@@ -49,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> or 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">groups</a> installed on a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>, returning the name of each with each call. The <b>PCLUSAPI_CLUSTER_NODE_ENUM</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hNodeEnum [in]
 
 Handle to an existing enumeration object originally returned by the 
        <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a> function.
 
-
 ### -param dwIndex [in]
 
 Index used to identify the next entry to be enumerated. This parameter should be zero for the first call to 
        <b>ClusterNodeEnum</b> and then incremented for subsequent 
        calls.
-
 
 ### -param lpdwType [out]
 
@@ -94,11 +88,9 @@ The object is a cluster group.
 <b>Windows Server 2008:  </b>The <b>CLUSTER_NODE_ENUM_GROUPS</b> value is not supported before 
           Windows Server 2008 R2.
 
-
 ### -param lpszName [out]
 
 Pointer to a null-terminated Unicode string containing the name of the returned object.
-
 
 ### -param lpcchName [in, out]
 
@@ -107,10 +99,7 @@ Pointer to the size of the <i>lpszName</i> buffer as a count of characters. On i
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -160,14 +149,8 @@ More data is available. This value is returned if the buffer pointed to by
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To use <b>ClusterNodeEnum</b>, applications first open a 
      node enumeration handle by calling 
@@ -187,12 +170,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodecloseenum">ClusterNodeCloseEnum</a>
 
@@ -203,7 +181,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
- 
-
- 
 

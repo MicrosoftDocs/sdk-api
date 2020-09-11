@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 8973cf5a-bbce-43c2-b418-2807842d43c0
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windows GDI], IPrintAsyncNotifyChannel interface [Windows GDI],described, _win32_IPrintAsyncNotifyChannel, gdi.iprintasyncnotifychannel, prnasnot/IPrintAsyncNotifyChannel
-f1_keywords:
-- prnasnot/IPrintAsyncNotifyChannel
-dev_langs:
-- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prnasnot.h
-api_name:
-- IPrintAsyncNotifyChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintAsyncNotifyChannel
+ - prnasnot/IPrintAsyncNotifyChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prnasnot.h
+api_name:
+ - IPrintAsyncNotifyChannel
 ---
 
 # IPrintAsyncNotifyChannel interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a communication channel that  components that are hosted by the print spooler use to send notifications to applications. If the channel is bidirectional, applications can use the same channel to send responses back to the component.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Sends a notification from a Print Spooler-hosted component to one or more listen
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Objects implementing this interface are created by the Print Spooler in response to a call of <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel</a> by a Print Spooler-hosted component.
 
@@ -109,19 +105,11 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iu
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
 

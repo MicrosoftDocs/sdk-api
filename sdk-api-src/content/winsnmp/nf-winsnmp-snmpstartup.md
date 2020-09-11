@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartup, SnmpStartup function [SNMP], _snmp_snmpstartup, snmp.snmpstartup, winsnmp/SnmpStartup
-f1_keywords:
-- winsnmp/SnmpStartup
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpStartup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpStartup
+ - winsnmp/SnmpStartup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpStartup
 ---
 
 # SnmpStartup function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -60,24 +60,18 @@ The
 
 ## -parameters
 
-
-
-
 ### -param nMajorVersion [out]
 
 Pointer to an unsigned long integer variable to receive the major version number of the WinSNMP API that the implementation supports. For example, to indicate that the implementation supports WinSNMP version 2.0, the function returns a value of 2.
-
 
 ### -param nMinorVersion [out]
 
 Pointer to an unsigned long integer variable to receive the minor version number of the WinSNMP API that the implementation supports. For example, to indicate that the implementation supports WinSNMP version 2.0, the function returns a value of 0.
 
-
 ### -param nLevel [out]
 
 Pointer to an unsigned long integer variable to receive the highest level of SNMP communications the implementation supports. Upon successful return, this parameter contains a value of 2. For a description of level 2 support, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/levels-of-snmp-support">Levels of SNMP Support</a>.
-
 
 ### -param nTranslateMode [out]
 
@@ -128,7 +122,6 @@ The implementation interprets SNMP entity parameters as SNMP transport addresses
 For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
 
-
 ### -param nRetransmitMode [out]
 
 Pointer to an unsigned long integer variable to receive the default retransmission mode in effect for the implementation. This parameter can be one of the following values. 
@@ -166,10 +159,7 @@ The implementation is executing the retransmission policy of the WinSNMP applica
 For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/about-retransmission">About Retransmission</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS, and the parameters contain appropriate values, as indicated in the preceding parameter descriptions.
 
@@ -217,14 +207,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WinSNMP application must call the 
 <b>SnmpStartup</b> function successfully at least once, before it calls any other WinSNMP function. If a WinSNMP application does call another WinSNMP function, before it successfully calls 
@@ -248,13 +232,7 @@ For additional information, see
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/levels-of-snmp-support">Levels of SNMP Support</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/about-snmp-versions">About SNMP Versions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
 
@@ -274,7 +252,4 @@ For additional information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

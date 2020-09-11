@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 1eb6f075-a8bf-4c03-96ee-460728317955
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accLocation method, IAccessible.accLocation, IAccessible::accLocation, _msaa_IAccessible_accLocation, accLocation, accLocation method [Windows Accessibility], accLocation method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acclocation, oleacc/IAccessible::accLocation, winauto.iaccessible_iaccessible__acclocation
-f1_keywords:
-- oleacc/IAccessible.accLocation
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.accLocation
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::accLocation
+ - oleacc/IAccessible::accLocation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.accLocation
 ---
 
 # IAccessible::accLocation
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::accLocation</b> method retrieves the specified object's current screen location. All visual objects must support this method. Sound objects do not support this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pxLeft [out]
 
@@ -64,13 +60,11 @@ Type: <b>long*</b>
 
 Address, in physical screen coordinates, of the variable that receives the x-coordinate of the upper-left boundary of the object's location.
 
-
 ### -param pyTop [out]
 
 Type: <b>long*</b>
 
 Address, in physical screen coordinates, of the variable that receives the y-coordinate of the upper-left boundary of the object's location.
-
 
 ### -param pcxWidth [out]
 
@@ -78,13 +72,11 @@ Type: <b>long*</b>
 
 Address, in pixels, of the variable that receives the object's width.
 
-
 ### -param pcyHeight [out]
 
 Type: <b>long*</b>
 
 Address, in pixels, of the variable that receives the object's height.
-
 
 ### -param varChild [in]
 
@@ -92,10 +84,7 @@ Type: <b>VARIANT</b>
 
 Specifies whether the location that the server returns should be that of the object or that of one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -131,14 +120,8 @@ An argument is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method retrieves the object's bounding rectangle. If the object has a non-rectangular shape, then this method returns the smallest rectangle that completely encompasses the entire object region. For non-rectangular objects, the coordinates of the object's bounding rectangle could fail if tested with <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acchittest">IAccessible::accHitTest</a>. Examples of such non-rectangular objects are list view items in large-icon mode where a single item has a rectangle for the icon and another rectangle for the text of the icon. Because <b>accLocation</b> returns a bounding rectangle, not all points in that rectangle will be within the actual bounds of the object. Some points within the bounding rectangle may not be on the object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-through-hit-testing-and-screen-location">Navigation Through Hit Testing and Screen Location</a>.
 
@@ -195,14 +178,7 @@ HRESULT STDMETHODCALLTYPE AccServer::accLocation(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/active-accessibility-and-windows-vista-screen-scaling">Active Accessibility and Windows Vista Screen Scaling</a>
 
@@ -221,7 +197,4 @@ HRESULT STDMETHODCALLTYPE AccServer::accLocation(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
 

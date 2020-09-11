@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: c3e2db46-bef0-4c79-91b5-97ca5a86c6ba
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], IWMPCdromRip interface [Windows Media Player],described, IWMPCdromRipInterface, wmp.iwmpcdromrip, wmp/IWMPCdromRip
-f1_keywords:
-- wmp/IWMPCdromRip
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPCdromRip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCdromRip
+ - wmp/IWMPCdromRip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPCdromRip
 ---
 
 # IWMPCdromRip interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPCdromRip</b> interface provides methods to manage copying, or <i>ripping</i>, tracks from an audio CD.
 
 Ripping a CD by using the <b>IWMPCdromRip</b> interface has the same effect as ripping music by using the Windows Media Player user interface. Ripped content is automatically added to the library according to the user's preferences. For more information about user preferences for CD ripping, see "Ripping music from CDs" in Windows Media Player Help.
-
-
-
 
 ## -inheritance
 
@@ -109,20 +105,13 @@ Stops the CD ripping process.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
- 
-
- 
 

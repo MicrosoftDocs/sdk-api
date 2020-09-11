@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da
 ms.date: 12/05/2018
 ms.keywords: CryptSetHashParam, CryptSetHashParam function [Security], HP_HASHVAL., HP_HMAC_INFO., _crypto2_cryptsethashparam, security.cryptsethashparam, wincrypt/CryptSetHashParam
-f1_keywords:
-- wincrypt/CryptSetHashParam
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptSetHashParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSetHashParam
+ - wincrypt/CryptSetHashParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptSetHashParam
 ---
 
 # CryptSetHashParam function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetHashParam</b> function customizes the operations of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>, including setting up initial hash contents and selecting a specific hashing algorithm.
 
-
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 A handle to the hash object on which to set parameters.
-
 
 ### -param dwParam [in]
 
@@ -108,15 +103,11 @@ Some <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptog
 
 A value data buffer. Place the value data in this buffer before calling <b>CryptSetHashParam</b>. The form of this data varies, depending on the value number.
 
-
 ### -param dwFlags [in]
 
 This parameter is reserved for future use and must be set to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
@@ -219,14 +210,8 @@ The function failed in some unexpected way.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Occasionally, a hash value that has been generated elsewhere must be signed. This can be done by using the following sequence of operations:
 
@@ -240,12 +225,7 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
@@ -272,7 +252,4 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

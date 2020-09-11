@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalid.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCALID, MonthCal_GetCALID macro [Windows Controls], _shell_MonthCal_GetCALID, _shell_MonthCal_GetCALID_cpp, commctrl/MonthCal_GetCALID, controls.MonthCal_GetCALID, controls._shell_MonthCal_GetCALID
-f1_keywords:
-- commctrl/MonthCal_GetCALID
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MonthCal_GetCALID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonthCal_GetCALID
+ - commctrl/MonthCal_GetCALID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MonthCal_GetCALID
 ---
 
 # MonthCal_GetCALID macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current calendar ID for the given calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getcalid">MCM_GETCALID</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hmc
 

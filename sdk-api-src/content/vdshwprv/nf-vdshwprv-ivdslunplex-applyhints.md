@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 66299644-4b70-4cd3-ae99-4d4084c3c3c5
 ms.date: 12/05/2018
 ms.keywords: ApplyHints, ApplyHints method [VDS], ApplyHints method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],ApplyHints method, IVdsLunPlex.ApplyHints, IVdsLunPlex::ApplyHints, base.ivdslunplex_applyhints, vds/IVdsLunPlex::ApplyHints, vdshwprv/IVdsLunPlex::ApplyHints
-f1_keywords:
-- vdshwprv/IVdsLunPlex.ApplyHints
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsLunPlex.ApplyHints
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLunPlex::ApplyHints
+ - vdshwprv/IVdsLunPlex::ApplyHints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsLunPlex.ApplyHints
 ---
 
 # IVdsLunPlex::ApplyHints
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Applies a new set of hints to the LUN plex. Hints applied to a plex affect neither the LUN nor its other plexes.
 
-
 ## -parameters
-
-
-
 
 ### -param pHints [in]
 
 Pointer to the hints to be applied to the LUN plex. See the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure. Only fields relevant to a LUN plex are expected to be set; irrelevant fields are ignored.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -138,24 +131,12 @@ This operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryhints">IVdsLunPlex::QueryHints</a> method to get the current hints for the LUN plex.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
@@ -174,7 +155,4 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdsh
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
- 
-
- 
 

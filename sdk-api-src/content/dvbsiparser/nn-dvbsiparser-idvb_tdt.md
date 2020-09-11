@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 15fed2d3-fcc8-4992-9dff-4cd5f617e55b
 ms.date: 12/05/2018
 ms.keywords: IDVB_TDT, IDVB_TDT interface [Microsoft TV Technologies], IDVB_TDT interface [Microsoft TV Technologies],described, IDVB_TDTInterface, dvbsiparser/IDVB_TDT, mstv.idvb_tdt
-f1_keywords:
-- dvbsiparser/IDVB_TDT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_TDT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_TDT
+ - dvbsiparser/IDVB_TDT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_TDT
 ---
 
 # IDVB_TDT interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IDVB_TDT</b> interface enables the client to get information from a time and date table (TDT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-gettdt">IDvbSiParser::GetTDT</a> method returns a pointer to this interface. The TDT provides the current time and date, in Universal Time Coordinated (UTC) format.
-
-
-
 
 ## -inheritance
 
@@ -92,16 +88,9 @@ Initializes the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

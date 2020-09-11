@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 40ca058c-04e1-4358-b330-360a094a8791
 ms.date: 12/05/2018
 ms.keywords: WS_XML_NODE_POSITION, WS_XML_NODE_POSITION structure [Web Services for Windows], webservices/WS_XML_NODE_POSITION, wsw.ws_xml_node_position
-f1_keywords:
-- webservices/WS_XML_NODE_POSITION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_NODE_POSITION
 targetos: Windows
 req.typenames: WS_XML_NODE_POSITION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_XML_NODE_POSITION
+ - webservices/_WS_XML_NODE_POSITION
+ - WS_XML_NODE_POSITION
+ - webservices/WS_XML_NODE_POSITION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_NODE_POSITION
 ---
 
 # WS_XML_NODE_POSITION structure
 
 
 ## -description
-
 
 Represents a position within an XML buffer.  The current position within
          a reader or writer may be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or
@@ -63,22 +65,14 @@ Using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-web
 
 Positions may be used as long as the containing XML buffer is valid.  Using a position 
         after its corresponding buffer has been deleted will exhibit undefined behavior.
-      
-
 
 ## -struct-fields
-
-
-
 
 ### -field buffer
 
 The xml buffer to which the position refers.
-        
-
 
 ### -field node
 
 An internal handle to the node.
-        
 

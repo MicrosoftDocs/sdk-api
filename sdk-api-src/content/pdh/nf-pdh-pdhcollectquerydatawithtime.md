@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 2c47c690-0748-4ed4-a138-894d45c72581
 ms.date: 12/05/2018
 ms.keywords: PdhCollectQueryDataWithTime, PdhCollectQueryDataWithTime function [Perf], base.pdhcollectquerydatawithtime, pdh/PdhCollectQueryDataWithTime, perf.pdhcollectquerydatawithtime
-f1_keywords:
-- pdh/PdhCollectQueryDataWithTime
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhCollectQueryDataWithTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhCollectQueryDataWithTime
+ - pdh/PdhCollectQueryDataWithTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhCollectQueryDataWithTime
 ---
 
 # PdhCollectQueryDataWithTime function
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hQuery [in, out]
 
 Handle of the query for which you want to collect data. The <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function returns this handle.
 
-
 ### -param pllTimeStamp [out]
 
 Time stamp when the first counter value in the query was retrieved. The time is specified as FILETIME.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS. Otherwise, the function returns a 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
@@ -112,14 +103,8 @@ The query does not currently have any counters.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this function when you want to collect counter data for the counters in the query. PDH stores the raw counter values for the current and previous collection. 
 
@@ -131,13 +116,7 @@ When
 the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcountervalue">PdhGetFormattedCounterValue</a> function for each of the counter instances of interest to determine whether they exist.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcollectquerydata">PdhCollectQueryData</a>
 
@@ -152,7 +131,4 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetraw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
- 
-
- 
 

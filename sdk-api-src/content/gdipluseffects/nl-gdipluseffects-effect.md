@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effect.htm
 ms.date: 12/05/2018
 ms.keywords: Effect, Effect class [GDI+], Effect class [GDI+],described, _gdiplus_CLASS_Effect_Class, gdiplus._gdiplus_CLASS_Effect_Class, gdipluseffects/Effect
-f1_keywords:
-- gdipluseffects/Effect
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdipluseffects.h
-api_name:
-- Effect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Effect
+ - gdipluseffects/Effect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdipluseffects.h
+api_name:
+ - Effect
 ---
 
 # Effect class
 
 
 ## -description
-
 
 The <b>Effect</b> class serves as a base class for eleven classes that you can use to apply effects and adjustments to bitmaps. The following classes descend from <b>Effect</b>.
 <ul>
@@ -149,5 +149,5 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gd
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_destroy.htm
 ms.date: 12/05/2018
 ms.keywords: ImageList_Destroy, ImageList_Destroy function [Windows Controls], _win32_ImageList_Destroy, _win32_ImageList_Destroy_cpp, commctrl/ImageList_Destroy, controls.ImageList_Destroy, controls._win32_ImageList_Destroy
-f1_keywords:
-- commctrl/ImageList_Destroy
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-- Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
-api_name:
-- ImageList_Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImageList_Destroy
+ - commctrl/ImageList_Destroy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+ - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+api_name:
+ - ImageList_Destroy
 ---
 
 # ImageList_Destroy function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Destroys an image list.
 
-
 ## -parameters
-
-
-
 
 ### -param himl [in, optional]
 
@@ -65,14 +61,9 @@ Type: <b>HIMAGELIST</b>
 
 A handle to the image list to destroy.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
-
-
 

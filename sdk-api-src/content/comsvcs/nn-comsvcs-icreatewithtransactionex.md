@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 39b455d3-d3d2-46ae-a45e-b036c18e45bc
 ms.date: 12/05/2018
 ms.keywords: ICreateWithTransactionEx, ICreateWithTransactionEx interface [COM+], ICreateWithTransactionEx interface [COM+],described, _dtc_ICreateWithTransactionEx_Interface, comsvcs/ICreateWithTransactionEx, cos.icreatewithtransactionex
-f1_keywords:
-- comsvcs/ICreateWithTransactionEx
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICreateWithTransactionEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateWithTransactionEx
+ - comsvcs/ICreateWithTransactionEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICreateWithTransactionEx
 ---
 
 # ICreateWithTransactionEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an object that is enlisted within a manual transaction.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Creates a COM+ object that executes within the scope of a manual transaction spe
 
 </td>
 </tr>
-</table> 
+</table>
 

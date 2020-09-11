@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 45f10ed0-b3ce-41f5-b2d9-9166bff2abec
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase2, ISyncChangeBatchBase2 interface [Windows Sync], ISyncChangeBatchBase2 interface [Windows Sync],described, winsync.isyncchangebatchbase2, winsync/ISyncChangeBatchBase2
-f1_keywords:
-- winsync/ISyncChangeBatchBase2
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase2
+ - winsync/ISyncChangeBatchBase2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase2
 ---
 
 # ISyncChangeBatchBase2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents additional capabilities of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a> object.
-
 
 ## -inheritance
 
@@ -77,23 +76,13 @@ Serializes the change batch object data to a byte array based on the specified v
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An <b>ISyncChangeBatchBase2</b> object can be obtained by passing <b>IID_ISyncChangeBatchBase2</b> to the <b>QueryInterface</b> method of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a> object.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsyncchanges">IEnumSyncChanges Interface</a>
 
@@ -124,7 +113,4 @@ An <b>ISyncChangeBatchBase2</b> object can be obtained by passing <b>IID_ISyncCh
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

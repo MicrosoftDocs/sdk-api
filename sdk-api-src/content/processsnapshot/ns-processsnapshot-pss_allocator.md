@@ -8,10 +8,6 @@ tech.root: proc_snap
 ms.assetid: 54225F76-9A2E-4CB3-A3B5-9F9DB5551D53
 ms.date: 12/05/2018
 ms.keywords: PSS_ALLOCATOR, PSS_ALLOCATOR structure, proc_snap.pss_allocator, processsnapshot/PSS_ALLOCATOR
-f1_keywords:
-- processsnapshot/PSS_ALLOCATOR
-dev_langs:
-- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- processsnapshot.h
-api_name:
-- PSS_ALLOCATOR
 targetos: Windows
 req.typenames: PSS_ALLOCATOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSS_ALLOCATOR
+ - processsnapshot/PSS_ALLOCATOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - processsnapshot.h
+api_name:
+ - PSS_ALLOCATOR
 ---
 
 # PSS_ALLOCATOR structure
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies custom functions which the Process Snapshotting functions use to allocate and free the internal walk marker structures.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Context
 
 An arbitrary pointer-sized value that the Process Snapshotting functions pass to <b>AllocRoutine</b> and <b>FreeRoutine</b>.
-
 
 ### -field AllocRoutine
 
@@ -79,7 +74,6 @@ The context value, as passed in <b>PSS_ALLOCATOR</b>.
 
 Number of bytes to allocate.
 
-
 ### -field FreeRoutine
 
 A pointer to a WINAPI-calling convention function taking two parameters. It deallocates a block of memory that <b>AllocRoutine</b> allocated.
@@ -96,10 +90,7 @@ The context value, as passed in <b>PSS_ALLOCATOR</b>.
 
 The address of a block of memory that <b>AllocRoutine</b> allocated.
 
-
 ## -remarks
-
-
 
 To use custom memory allocation functions, pass this structure to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkercreate">PssWalkMarkerCreate</a>. Otherwise, the Process Snapshotting functions use  the default process heap.
 
@@ -109,16 +100,7 @@ The <b>PSS_ALLOCATOR</b> structure that provides the custom functions should rem
 
 The custom functions are called from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkercreate">PssWalkMarkerCreate</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkerfree">PssWalkMarkerFree</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> using the same thread that calls <b>PssWalkMarkerCreate</b>, <b>PssWalkMarkerFree</b> and <b>PssWalkSnapshot</b>. Therefore the custom functions need not be multi-threaded.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
- 
-
- 
 

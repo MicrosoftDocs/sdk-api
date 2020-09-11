@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 900f4b4d-c34d-4994-b8eb-b3f15e54f29a
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_TIMEOUT_LIMIT_INFO, *PHTTP_TIMEOUT_LIMIT_INFO structure [HTTP], HTTP_TIMEOUT_LIMIT_INFO, HTTP_TIMEOUT_LIMIT_INFO structure [HTTP], http.http_timeout_limit_info, http/*PHTTP_TIMEOUT_LIMIT_INFO, http/HTTP_TIMEOUT_LIMIT_INFO'
-f1_keywords:
-- http/HTTP_TIMEOUT_LIMIT_INFO
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_TIMEOUT_LIMIT_INFO
 targetos: Windows
 req.typenames: HTTP_TIMEOUT_LIMIT_INFO, *PHTTP_TIMEOUT_LIMIT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_TIMEOUT_LIMIT_INFO
+ - http/_HTTP_TIMEOUT_LIMIT_INFO
+ - PHTTP_TIMEOUT_LIMIT_INFO
+ - http/PHTTP_TIMEOUT_LIMIT_INFO
+ - HTTP_TIMEOUT_LIMIT_INFO
+ - http/HTTP_TIMEOUT_LIMIT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_TIMEOUT_LIMIT_INFO
 ---
 
 # HTTP_TIMEOUT_LIMIT_INFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HTTP_TIMEOUT_LIMIT_INFO</b> structure defines the application-specific connection timeout limits.
 
 This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerTimeoutsProperty</a> on a URL Group, server session,  or request queue.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies whether the property is present.
-
 
 ### -field EntityBody
 
@@ -71,18 +70,15 @@ The time, in seconds, allowed for the request entity body to arrive.
 
  The HTTP Server API turns on this timer when the request has an entity body. The timer expiration is initially set to the configured value. When the  HTTP Server API receives additional data indications on the request, it resets the timer to give the connection another interval.
 
-
 ### -field DrainEntityBody
 
 The time, in seconds, allowed for the HTTP Server API to drain the entity body on a Keep-Alive connection.
 
 On a Keep-Alive connection, after the application has sent a response for a request and before the request entity body has completely arrived, the HTTP Server API starts draining the remainder of the entity body to reach another potentially pipelined request from the client. If the time to drain the remaining entity body exceeds the allowed period the connection is timed out.
 
-
 ### -field RequestQueue
 
 The time, in seconds, allowed  for the request to remain in the request queue before the application picks it up.
-
 
 ### -field IdleConnection
 
@@ -90,13 +86,11 @@ The time, in seconds, allowed for an idle connection.
 
 This timeout is only enforced after the first request on the connection is routed to the application. For more information, see the Remarks section.
 
-
 ### -field HeaderWait
 
 The time, in seconds, allowed for the HTTP Server API to  parse the request header.
 
 This timeout is only enforced after the first request on the connection is routed to the application. For more information, see the Remarks section.
-
 
 ### -field MinSendRate
 
@@ -104,10 +98,7 @@ The minimum send rate, in bytes-per-second, for the response. The default respon
 
 To disable this timer, set <b>MinSendRate</b> to <b>MAXULONG</b>.
 
-
 ## -remarks
-
-
 
 This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>, and  <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a> functions to set or query the connection timeouts. The following table lists the default timeouts.
 
@@ -165,13 +156,7 @@ Setting a timeout on a server session affects all the URL Groups under the serve
 
 Setting a timeout to zero on a server session causes the HTTP Server API to revert to the default value for that timer. For timers set on a URL Group, the server session timeout is used if present, otherwise the HTTP Server API default is used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
@@ -202,7 +187,4 @@ Setting a timeout to zero on a server session causes the HTTP Server API to reve
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
- 
-
- 
 

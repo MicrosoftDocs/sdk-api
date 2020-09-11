@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: fc49614d-fdd7-433a-a942-f442edf1c69f
 ms.date: 12/05/2018
 ms.keywords: IDataRetrieverCallback, IDataRetrieverCallback interface [Windows Sync], IDataRetrieverCallback interface [Windows Sync],described, winsync.idataretrievercallback, winsync/IDataRetrieverCallback
-f1_keywords:
-- winsync/IDataRetrieverCallback
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IDataRetrieverCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataRetrieverCallback
+ - winsync/IDataRetrieverCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IDataRetrieverCallback
 ---
 
 # IDataRetrieverCallback interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents methods that an <b>IAsynchronousDataRetriever</b> object can call to indicate that processing has been completed on an <b>IAsynchronousDataRetriever</b> method.
-
-
 
 ## -inheritance
 
@@ -90,16 +88,9 @@ Indicates that an <b>IAsynchronousDataRetriever</b> method failed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

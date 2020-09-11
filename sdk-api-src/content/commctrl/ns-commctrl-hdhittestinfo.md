@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdhittestinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPHDHITTESTINFO, HDHITTESTINFO, HDHITTESTINFO structure [Windows Controls], HHT_ABOVE, HHT_BELOW, HHT_NOWHERE, HHT_ONDIVIDER, HHT_ONDIVOPEN, HHT_ONDROPDOWN, HHT_ONFILTER, HHT_ONFILTERBUTTON, HHT_ONHEADER, HHT_ONITEMSTATEICON, HHT_ONOVERFLOW, HHT_TOLEFT, HHT_TORIGHT, LPHDHITTESTINFO, LPHDHITTESTINFO structure pointer [Windows Controls], _win32_HDHITTESTINFO, _win32_HDHITTESTINFO_cpp, commctrl/HDHITTESTINFO, commctrl/LPHDHITTESTINFO, controls.HDHITTESTINFO, controls._win32_HDHITTESTINFO'
-f1_keywords:
-- commctrl/HDHITTESTINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- HDHITTESTINFO
 targetos: Windows
 req.typenames: HDHITTESTINFO, *LPHDHITTESTINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HD_HITTESTINFO
+ - commctrl/_HD_HITTESTINFO
+ - LPHDHITTESTINFO
+ - commctrl/LPHDHITTESTINFO
+ - HDHITTESTINFO
+ - commctrl/HDHITTESTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - HDHITTESTINFO
 ---
 
 # HDHITTESTINFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a hit test. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-hittest">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure. 
-
+Contains information about a hit test. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-hittest">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field pt
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the point to be hit test, in client coordinates. 
-
+A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the point to be hit test, in client coordinates.
 
 ### -field flags
 
@@ -212,8 +211,6 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iItem
 

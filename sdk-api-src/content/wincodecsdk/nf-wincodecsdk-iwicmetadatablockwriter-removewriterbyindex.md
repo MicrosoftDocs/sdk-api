@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 030c5b0e-5db7-40ae-889c-2e1335d2c50b
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],RemoveWriterByIndex method, IWICMetadataBlockWriter.RemoveWriterByIndex, IWICMetadataBlockWriter::RemoveWriterByIndex, RemoveWriterByIndex, RemoveWriterByIndex method [Windows Imaging Component], RemoveWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_removewriterbyindex, wic._wic_codec_iwicmetadatablockwriter_removewriterbyindex, wincodecsdk/IWICMetadataBlockWriter::RemoveWriterByIndex
-f1_keywords:
-- wincodecsdk/IWICMetadataBlockWriter.RemoveWriterByIndex
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataBlockWriter.RemoveWriterByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataBlockWriter::RemoveWriterByIndex
+ - wincodecsdk/IWICMetadataBlockWriter::RemoveWriterByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataBlockWriter.RemoveWriterByIndex
 ---
 
 # IWICMetadataBlockWriter::RemoveWriterByIndex
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the metadata writer from the specified index location.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
@@ -64,31 +60,17 @@ Type: <b>UINT</b>
 
 The index of the metadata writer to remove.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
  After removing a metadata writer, remaining metadata writers can be expected to move up to occupy the vacated location. Indexes for remaining metadata items as well as the count will change.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -115,7 +97,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
- 
-
- 
 

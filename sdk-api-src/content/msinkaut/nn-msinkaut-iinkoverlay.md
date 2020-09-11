@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: ACE11946-113B-42EE-A3F1-0036B1DF8141
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC], IInkOverlay interface [Tablet PC],described, msinkaut/IInkOverlay, tablet.iinkoverlay
-f1_keywords:
-- msinkaut/IInkOverlay
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay
+ - msinkaut/IInkOverlay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkOverlay
 ---
 
 # IInkOverlay interface
@@ -788,7 +789,7 @@ Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -remarks
 
@@ -797,3 +798,4 @@ Creating the InkOverlay control behind a transparent control (such as a GroupBox
 ## -see-also
 
 [IInkCollector interface](nn-msinkaut-iinkcollector.md), [IInkOverlay interface](nn-msinkaut-iinkoverlay.md), [InkOverlay class](/windows/win32/tablet/inkoverlay-class)
+

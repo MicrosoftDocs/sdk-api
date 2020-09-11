@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46
 ms.date: 12/05/2018
 ms.keywords: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46, CreateNamedPropertyStore, CreateNamedPropertyStore function [Media Foundation], mf.createnamedpropertystore, mfidl/CreateNamedPropertyStore
-f1_keywords:
-- mfidl/CreateNamedPropertyStore
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- CreateNamedPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateNamedPropertyStore
+ - mfidl/CreateNamedPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - CreateNamedPropertyStore
 ---
 
 # CreateNamedPropertyStore function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Instead, applications should use the <b>PSCreateMemoryPropertyStore</b> function to create named property stores.]
 
 Creates an empty property store to hold name/value pairs.
 
-
 ## -parameters
-
-
-
 
 ### -param ppStore [out]
 
 Receives a pointer to the <b>INamedPropertyStore</b> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,18 +81,8 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

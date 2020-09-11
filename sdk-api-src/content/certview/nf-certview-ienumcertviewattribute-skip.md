@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Skip method, IEnumCERTVIEWATTRIBUTE object [Security],Skip method, IEnumCERTVIEWATTRIBUTE.Skip, IEnumCERTVIEWATTRIBUTE::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWATTRIBUTE interface, Skip method [Security],IEnumCERTVIEWATTRIBUTE object, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWATTRIBUTE::Skip, security.ienumcertviewattribute_skip
-f1_keywords:
-- certview/IEnumCERTVIEWATTRIBUTE.Skip
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWATTRIBUTE.Skip
-- IEnumCERTVIEWATTRIBUTE.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWATTRIBUTE::Skip
+ - certview/IEnumCERTVIEWATTRIBUTE::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWATTRIBUTE.Skip
+ - IEnumCERTVIEWATTRIBUTE.Skip
 ---
 
 # IEnumCERTVIEWATTRIBUTE::Skip
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Skip</b> method skips a specified number of attributes in the attribute-enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 The number of attributes to skip. A positive value for the <i>celt</i> parameter  causes the attribute-enumeration sequence to skip forward in the sequence. A negative value for the <i>celt</i> parameter causes the attribute-enumeration sequence to skip backward in the sequence.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
@@ -75,12 +68,7 @@ A return value of E_INVALIDARG indicates that a negative value for the <i>celt</
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Upon successful completion of this method, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-next">IEnumCERTVIEWATTRIBUTE::Next</a> method to reference the current attribute in the attribute-enumeration sequence.  The attribute name and value can be accessed through the 
@@ -122,14 +110,7 @@ if (S_OK == hr)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewattribute">IEnumCERTVIEWATTRIBUTE</a>
 
@@ -140,7 +121,4 @@ if (S_OK == hr)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-next">IEnumCERTVIEWATTRIBUTE:Next</a>
- 
-
- 
 

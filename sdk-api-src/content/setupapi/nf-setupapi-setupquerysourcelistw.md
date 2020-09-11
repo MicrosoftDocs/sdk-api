@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 8d1de1d5-5b82-45ae-b29c-4f9a93d28c6e
 ms.date: 12/05/2018
 ms.keywords: SetupQuerySourceList, SetupQuerySourceList function [Setup API], SetupQuerySourceListA, SetupQuerySourceListW, _setupapi_setupquerysourcelist, setup.setupquerysourcelist, setupapi/SetupQuerySourceList, setupapi/SetupQuerySourceListA, setupapi/SetupQuerySourceListW
-f1_keywords:
-- setupapi/SetupQuerySourceList
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupQuerySourceList
-- SetupQuerySourceListA
-- SetupQuerySourceListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupQuerySourceListW
+ - setupapi/SetupQuerySourceListW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupQuerySourceList
+ - SetupQuerySourceListA
+ - SetupQuerySourceListW
 ---
 
 # SetupQuerySourceListW function
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupQuerySourceList</b> function queries the current list of installation sources. The list is built from the system and user-specific lists, and potentially overridden by a temporary list (see 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetsourcelista">SetupSetSourceList</a>).
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -96,12 +92,10 @@ Query the per-user list.
 
 Normally, all paths are stripped of a platform-specific component if it is the final component. For example, a path stored in the registry as f:\x86 is returned as f:\. If this flag is specified, the platform-specific component is not stripped.
 
-
 ### -param List [in, out]
 
 Pointer to a variable in which this function returns a pointer to an array of sources. Use a null-terminated string. The caller must free this array with a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfreesourcelista">SetupFreeSourceList</a>.
-
 
 ### -param Count [in, out]
 
@@ -122,23 +116,14 @@ Query the system list.
 
 Query the per-user list.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -149,9 +134,6 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetsourcelista">SetupSetSourceList</a>
- 
-
- 
 
 ## -remarks
 

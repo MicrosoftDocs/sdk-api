@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 98c63646-6617-46b6-8c3e-82d1c4d0adb6
 ms.date: 12/05/2018
 ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreateFromFile, com.olecreatefromfile, ole/OleCreateFromFile
-f1_keywords:
-- ole/OleCreateFromFile
-dev_langs:
-- c++
 req.header: ole.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- OleCreateFromFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleCreateFromFile
+ - ole/OleCreateFromFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - OleCreateFromFile
 ---
 
 # OleCreateFromFile function
@@ -49,56 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an embedded object from the contents of a named file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param arg1
 
 TBD
 
-
 ### -param arg2
 
 TBD
-
 
 ### -param arg3
 
 TBD
 
-
 ### -param arg4
 
 TBD
-
 
 ### -param arg5
 
 TBD
 
-
 ### -param arg6
 
 TBD
-
 
 ### -param arg7
 
 TBD
 
-
 ### -param arg8
 
 TBD
-
 
 ### -param arg9
 
@@ -146,10 +132,7 @@ Value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/a
 
 Reference to the identifier of the interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface ID of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>).
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -225,29 +208,14 @@ Invalid <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>OleCreateFromFile</b> function creates a new embedded object from the contents of a named file. If the ProgID in the registration database contains the PackageOnFileDrop key, it creates a package. If not, the function calls the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-getclassfile">GetClassFile</a> function to get the CLSID associated with the <i>lpszFileName</i> parameter, and then creates an OLE 2-embedded object associated with that CLSID. The <i>rclsid</i> parameter of <b>OleCreateFromFile</b> will always be ignored, and should be set to CLSID_NULL.
 
 As for other OleCreateXxx functions, the newly created object is not shown to the user for editing, which requires a <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">DoVerb</a> operation. It is used to implement insert file operations.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-getclassfile">GetClassFile</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 941c1702-2ef2-4afe-933c-78ed9ee8690b
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],IsProfileLocked method, IStreamBufferSink.IsProfileLocked, IStreamBufferSink::IsProfileLocked, IStreamBufferSinkIsProfileLocked, IsProfileLocked, IsProfileLocked method [Microsoft TV Technologies], IsProfileLocked method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_isprofilelocked, sbe/IStreamBufferSink::IsProfileLocked
-f1_keywords:
-- sbe/IStreamBufferSink.IsProfileLocked
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferSink.IsProfileLocked
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferSink::IsProfileLocked
+ - sbe/IStreamBufferSink::IsProfileLocked
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferSink.IsProfileLocked
 ---
 
 # IStreamBufferSink::IsProfileLocked
 
 
 ## -description
-
-
 
 This topic applies only to Windows XP Service Pack 1 or later.
         
@@ -58,17 +57,9 @@ This topic applies only to Windows XP Service Pack 1 or later.
 
 The <b>IsProfileLocked</b> method queries whether the Stream Buffer Sink filter's profile is locked.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -111,27 +102,12 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When the filter's profile is locked, the number of streams and their media types are fixed. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a>
- 
-
- 
 

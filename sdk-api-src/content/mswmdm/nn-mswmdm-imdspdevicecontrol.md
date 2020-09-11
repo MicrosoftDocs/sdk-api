@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: a196edef-f670-4c1f-92bd-172a75f3f420
 ms.date: 12/05/2018
 ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], IMDSPDeviceControl interface [windows Media Device Manager],described, IMDSPDeviceControlInterface, mswmdm/IMDSPDeviceControl, wmdm.imdspdevicecontrol
-f1_keywords:
-- mswmdm/IMDSPDeviceControl
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IMDSPDeviceControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPDeviceControl
+ - mswmdm/IMDSPDeviceControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IMDSPDeviceControl
 ---
 
 # IMDSPDeviceControl interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMDSPDeviceControl</b> interface provides methods for controlling devices. After this interface is acquired from a specific instance of the <b>IMDSPDevice</b> interface, the control methods are used for remote control of streaming audio play, record, pause, stop, and seek operations on that device. Implementing this interface is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 The <b>IMDSPDeviceControl</b> interface methods support several modes of audio control, depending on the context in which they are used. That context is defined by the <b>Seek</b> method. The <b>GetCapabilities</b> method is used to determine what kinds of operations can be performed by the device.
-
-
-
 
 ## -inheritance
 
@@ -145,16 +141,9 @@ Stops the current playback or record operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
- 
-
- 
 

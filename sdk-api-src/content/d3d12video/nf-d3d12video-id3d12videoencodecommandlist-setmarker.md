@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::SetMarker
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::SetMarker
  - d3d12video/ID3D12VideoEncodeCommandList::SetMarker
 dev_langs:
  - c++

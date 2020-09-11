@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 08bdead0-290a-4b23-8118-5f1f941e439f
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ, XLATEOBJ structure [Display Devices], display.xlateobj, grstrcts_36b2a277-ceee-4ee5-9dd6-55088df73d85.xml, winddi/XLATEOBJ
-f1_keywords:
-- winddi/XLATEOBJ
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- XLATEOBJ
 targetos: Windows
 req.typenames: XLATEOBJ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _XLATEOBJ
+ - winddi/_XLATEOBJ
+ - XLATEOBJ
+ - winddi/XLATEOBJ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - XLATEOBJ
 ---
 
 # XLATEOBJ structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The XLATEOBJ structure is used to translate color indexes from one palette to another.
 
-
 ## -struct-fields
-
-
-
 
 ### -field iUniq
 
 A cache identifier that enables the driver to recognize an XLATEOBJ structure that it has previously cached. If this member is zero, the driver should not cache the XLATEOBJ structure.
-
 
 ### -field flXlate
 
@@ -133,44 +130,30 @@ Source indices are usable as target indices.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iSrcType
 
 Is obsolete. Use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_cgetpalette">XLATEOBJ_cGetPalette</a> to query the source format.
 
-
 ### -field iDstType
 
 Is obsolete. Use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_cgetpalette">XLATEOBJ_cGetPalette</a> to query the destination format.
-
 
 ### -field cEntries
 
 Specifies the number of entries in the array pointed to by the <b>pulXlate</b> member. Indexing into <b>pulXlate</b> with a value greater than <b>cEntries</b> results in a memory access violation.
 
-
 ### -field pulXlate
 
 Pointer to an array of translation entries.
 
-
 ## -remarks
-
-
 
 The destination palette always belongs to the destination surface of some drawing operation. The source palette is an application-selected palette or a palette from another surface.
 
 The XLATEOBJ structure is used to translate color indices that refer to the source palette to indices for the destination palette. The resulting index identifies a color that matches the source color as closely as possible.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>
 
@@ -185,7 +168,4 @@ The XLATEOBJ structure is used to translate color indices that refer to the sour
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xlateobj_pivector">XLATEOBJ_piVector</a>
- 
-
- 
 

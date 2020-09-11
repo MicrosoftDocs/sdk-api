@@ -8,10 +8,6 @@ tech.root: NetVista
 ms.assetid: af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a
 ms.date: 12/05/2018
 ms.keywords: '*LPSOCKADDR, *PSOCKADDR, PSOCKADDR, PSOCKADDR structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR, SOCKADDR structure [Network Drivers Starting with Windows Vista], netvista.sockaddr, ws2def/PSOCKADDR, ws2def/SOCKADDR, wskref_4198a308-7f9c-4c7c-ba32-8f11e65e2349.xml'
-f1_keywords:
-- ws2def/SOCKADDR
-dev_langs:
-- c++
 req.header: ws2def.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ws2def.h
-api_name:
-- SOCKADDR
 targetos: Windows
 req.typenames: SOCKADDR, *PSOCKADDR, *LPSOCKADDR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - sockaddr
+ - ws2def/sockaddr
+ - PSOCKADDR
+ - ws2def/PSOCKADDR
+ - SOCKADDR
+ - ws2def/SOCKADDR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ws2def.h
+api_name:
+ - SOCKADDR
 ---
 
 # SOCKADDR structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The SOCKADDR structure is a generic structure that specifies a transport address.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sa_family
 
@@ -64,15 +64,11 @@ The address family for the transport address. For more information about support
      families, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
-
 ### -field sa_data
 
 An array of 14 bytes that contains the transport address data.
 
-
 ## -remarks
-
-
 
 The SOCKADDR structure is large enough to contain a transport address for most address families. For a
     structure that is guaranteed to be large enough to contain a transport address for all possible address
@@ -83,13 +79,7 @@ A WSK application typically does not access the
     <b>sa_data</b> member directly. Instead, a pointer to a SOCKADDR structure is normally cast to a pointer
     to the specific SOCKADDR structure type that corresponds to a particular address family.
 
-
-
-
 ## -see-also
-
-
-
 
 [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
 
@@ -136,7 +126,4 @@ A WSK application typically does not access the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: d3730a37-933b-4705-b787-4b8bb728a278
 ms.date: 12/05/2018
 ms.keywords: IObjPool, IObjPool interface [COM+], IObjPool interface [COM+],described, _cos_IObjPool, comsvcs/IObjPool, cos.iobjpool
-f1_keywords:
-- comsvcs/IObjPool
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjPool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjPool
+ - comsvcs/IObjPool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjPool
 ---
 
 # IObjPool interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the key to each object in the transaction resource pool.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Destroys the pooled object when the transaction ends.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproperty">ITransactionProperty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>
- 
-
- 
 

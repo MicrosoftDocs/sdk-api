@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1b384ecf-aa56-476d-b347-b5438ab069fe
 ms.date: 12/05/2018
 ms.keywords: IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbMultilingualServiceNameDescriptor, mstv.idvbmultilingualservicenamedescriptor
-f1_keywords:
-- dvbsiparser/IDvbMultilingualServiceNameDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbMultilingualServiceNameDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbMultilingualServiceNameDescriptor
+ - dvbsiparser/IDvbMultilingualServiceNameDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbMultilingualServiceNameDescriptor
 ---
 
 # IDvbMultilingualServiceNameDescriptor interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from a Digital Video Broadcast (DVB) multilingual service name descriptor. A multilingual service name descriptor provides the names of the service provider and service in text
 form in one or more languages.
-
 
 ## -inheritance
 
@@ -123,5 +122,5 @@ Gets the tag that identifies a DVB multilingual service name descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

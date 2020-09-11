@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 4c5f86a5-7867-4d5a-a255-5c0c57c7fe0a
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqIf, RpcServerInqIf function [RPC], _rpc_rpcserverinqif, rpc.rpcserverinqif, rpcdce/RpcServerInqIf
-f1_keywords:
-- rpcdce/RpcServerInqIf
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerInqIf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerInqIf
+ - rpcdce/RpcServerInqIf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerInqIf
 ---
 
 # RpcServerInqIf function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerInqIf</b> function returns the manager entry-point vector (EPV) registered for an interface.
 
-
 ## -parameters
-
-
-
 
 ### -param IfSpec
 
 Interface whose manager EPV is returned.
-
 
 ### -param MgrTypeUuid
 
@@ -73,15 +68,11 @@ Pointer to the manager type UUID whose manager EPV is returned.
 
 Specifying a parameter value of <b>NULL</b> (or a nil UUID) signifies to return the manager EPV registered with <i>IfSpec</i> and the nil manager type UUID.
 
-
 ### -param MgrEpv
 
 Returns a pointer to the manager EPV for the requested interface.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -128,25 +119,12 @@ The manager type is unknown.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server application calls the 
 <b>RpcServerInqIf</b> function to determine the manager EPV for a registered interface and manager type UUID.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>
- 
-
- 
 

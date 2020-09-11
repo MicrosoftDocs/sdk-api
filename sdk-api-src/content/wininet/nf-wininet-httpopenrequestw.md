@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: caaff8e8-7db9-4d6d-8ba2-d8d19475173a
 ms.date: 12/05/2018
 ms.keywords: HTTP/1.0, HTTP/1.1, HttpOpenRequest, HttpOpenRequest function [WinINet], HttpOpenRequestA, HttpOpenRequestW, _inet_httpopenrequest_function, wininet.httpopenrequest, wininet/HttpOpenRequest, wininet/HttpOpenRequestA, wininet/HttpOpenRequestW
-f1_keywords:
-- wininet/HttpOpenRequest
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- HttpOpenRequest
-- HttpOpenRequestA
-- HttpOpenRequestW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpOpenRequestW
+ - wininet/HttpOpenRequestW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - HttpOpenRequest
+ - HttpOpenRequestA
+ - HttpOpenRequestW
 ---
 
 # HttpOpenRequestW function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an HTTP request handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hConnect [in]
 
 A handle to an HTTP session returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
 
-
 ### -param lpszVerb [in]
 
 A pointer to a <b>null</b>-terminated string that contains the HTTP verb to use in the request. If this parameter is <b>NULL</b>, the function uses GET as the HTTP verb.
 
-
 ### -param lpszObjectName [in]
 
 A pointer to a <b>null</b>-terminated string that contains the name of the target object of the specified HTTP verb. This is generally a file name, an executable module, or a search specifier.
-
 
 ### -param lpszVersion [in]
 
@@ -108,13 +101,10 @@ HTTP version 1.1
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszReferrer [in]
 
 A pointer to a <b>null</b>-terminated string that specifies the URL of the document from which the URL in the request (<i>lpszObjectName</i>) was obtained. If this parameter is <b>NULL</b>, no referrer is specified.
-
 
 ### -param lplpszAcceptTypes [in]
 
@@ -125,7 +115,6 @@ A pointer to a <b>null</b>-terminated array of strings that indicates media type
  Failing to properly terminate the array with a NULL pointer will cause a crash.
 
 If this parameter is <b>NULL</b>, no types are accepted by the client. Servers generally interpret a lack of accept types to indicate that the client accepts only documents of type "text/*" (that is, only text documents—no pictures or other binary files). <!--For more information and  a list of valid media types, see  ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/media-types. -->
-
 
 ### -param dwFlags [in]
 
@@ -327,27 +316,17 @@ Uses secure transaction semantics. This translates to using Secure Sockets Layer
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwContext [in]
 
   A pointer to a variable that contains the application-defined value that associates this operation with any application data.
 
-
 ## -returns
-
-
 
 Returns an HTTP request handle if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>HttpOpenRequest</b> function creates a new HTTP request handle and stores the specified parameters in that handle. An HTTP request handle holds a request to be sent to an HTTP server and contains all RFC822/MIME/HTTP headers to be sent as part of the request.
 
@@ -377,15 +356,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

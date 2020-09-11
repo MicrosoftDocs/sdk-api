@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 47ccc16c-b061-489b-b534-5b5929c5d010
 ms.date: 12/05/2018
 ms.keywords: SetupDiDestroyClassImageList, SetupDiDestroyClassImageList function [Device and Driver Installation], devinst.setupdidestroyclassimagelist, di-rtns_15428f4d-4785-460b-9da1-746cf2c69159.xml, setupapi/SetupDiDestroyClassImageList
-f1_keywords:
-- setupapi/SetupDiDestroyClassImageList
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupDiDestroyClassImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiDestroyClassImageList
+ - setupapi/SetupDiDestroyClassImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupDiDestroyClassImageList
 ---
 
 # SetupDiDestroyClassImageList function
@@ -49,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiDestroyClassImageList</b> function destroys a class image list that was built by a call to <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelist">SetupDiGetClassImageList</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelistexa">SetupDiGetClassImageListEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ClassImageListData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classimagelist_data">SP_CLASSIMAGELIST_DATA</a> structure that contains the class image list to destroy.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelist">SetupDiGetClassImageList</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelistexa">SetupDiGetClassImageListEx</a>
- 
-
- 
 

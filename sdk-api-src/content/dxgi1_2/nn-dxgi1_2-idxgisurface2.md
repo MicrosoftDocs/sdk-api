@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: EBBB2EE1-C5EA-4F98-AA8B-BCAA8C188F26
 ms.date: 12/05/2018
 ms.keywords: IDXGISurface2, IDXGISurface2 interface [DXGI], IDXGISurface2 interface [DXGI],described, direct3ddxgi.idxgisurface2, dxgi1_2/IDXGISurface2
-f1_keywords:
-- dxgi1_2/IDXGISurface2
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGISurface2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISurface2
+ - dxgi1_2/IDXGISurface2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGISurface2
 ---
 
 # IDXGISurface2 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDXGISurface2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface1">IDXGISurface1</a> interface by adding support for subresource surfaces and getting a handle to a shared resource.
-
 
 ## -inheritance
 
@@ -78,12 +77,9 @@ Gets the parent resource and subresource index that support a subresource surfac
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An image-data object is a 2D section of memory, commonly called a surface. To get the surface from an output, call <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getdisplaysurfacedata">IDXGIOutput::GetDisplaySurfaceData</a>. Then, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> object that <b>IDXGIOutput::GetDisplaySurfaceData</b> returns to retrieve the <b>IDXGISurface2</b> interface.
 
@@ -93,20 +89,11 @@ The runtime automatically creates an <b>IDXGISurface2</b> interface when it crea
 
 You can call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiresource1-createsubresourcesurface">IDXGIResource1::CreateSubresourceSurface</a> method to create an <b>IDXGISurface2</b> interface that refers to one subresource of a stereo resource.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface1">IDXGISurface1</a>
- 
-
- 
 

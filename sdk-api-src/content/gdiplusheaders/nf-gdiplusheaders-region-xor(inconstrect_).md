@@ -7,10 +7,6 @@ helpviewer_keywords: ["Region::Xor"]
 ms.assetid: 06a4b045-996c-4f99-8bce-ec42ea09c170
 ms.date: 05/20/2019
 ms.keywords: Region::Xor
-f1_keywords:
-- gdiplusheaders/Region::Xor
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Region::Xor
+ - gdiplusheaders/Region::Xor
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Region::Xor
+ - Region::Xor
 ---
 
 # Region::Xor(Rect&)
+
 
 ## -description
 
@@ -103,3 +105,4 @@ VOID Example_XorRect(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

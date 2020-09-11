@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 987aea1d-912a-4691-987f-181c1ef1a8a9
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSink, IWbemObjectSink interface [Windows Management Instrumentation], IWbemObjectSink interface [Windows Management Instrumentation],described, _hmm_iwbemobjectsink, wbemcli/IWbemObjectSink, wmi.iwbemobjectsink
-f1_keywords:
-- wbemcli/IWbemObjectSink
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-api_name:
-- IWbemObjectSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemObjectSink
+ - wbemcli/IWbemObjectSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+api_name:
+ - IWbemObjectSink
 ---
 
 # IWbemObjectSink interface
 
 
 ## -description
-
 
 The 
 <b>IWbemObjectSink</b> interface creates a sink interface that can receive all types of notifications within the WMI programming model. Clients must implement this interface to receive both the results of the 
@@ -96,12 +96,9 @@ Called by sources  to indicate the end of a notification sequence, or to send ot
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 When implementing an event subscription sink (<b>IWbemObjectSink</b> or <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemeventsink">IWbemEventSink</a>), do  not call into WMI from within the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a>methods on the sink object.  For example, calling <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">IWbemServices::CancelAsyncCall</a> to cancel the sink  from within an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a> can interfere with the WMI state. To cancel an event subscription, set a flag and call <b>IWbemServices::CancelAsyncCall</b> from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
 
@@ -208,12 +205,7 @@ HRESULT QuerySink::SetStatus(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
@@ -228,7 +220,4 @@ HRESULT QuerySink::SetStatus(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
- 
-
- 
 

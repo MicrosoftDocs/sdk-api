@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 08F95AD6-B559-4652-A496-84777BF0189D
 ms.date: 12/05/2018
 ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],get_ThreadingType method, IDllServerActivatableClassRegistration.get_ThreadingType, IDllServerActivatableClassRegistration::get_ThreadingType, activationregistration/IDllServerActivatableClassRegistration::get_ThreadingType, get_ThreadingType, get_ThreadingType method [Windows Runtime], get_ThreadingType method [Windows Runtime],IDllServerActivatableClassRegistration interface, winrt.idllserveractivatableclassregistration_threadingtype
-f1_keywords:
-- activationregistration/IDllServerActivatableClassRegistration.get_ThreadingType
-dev_langs:
-- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- activationregistration.h
-api_name:
-- IDllServerActivatableClassRegistration.get_ThreadingType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDllServerActivatableClassRegistration::get_ThreadingType
+ - activationregistration/IDllServerActivatableClassRegistration::get_ThreadingType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - activationregistration.h
+api_name:
+ - IDllServerActivatableClassRegistration.get_ThreadingType
 ---
 
 # IDllServerActivatableClassRegistration::get_ThreadingType
@@ -49,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the apartment threading model for activating the in-process server.
 
-
 ## -parameters
-
-
-
 
 ### -param threadingType [out, retval]
 
 The apartment threading model for the in-process server.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration">IDllServerActivatableClassRegistration</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/ne-activationregistration-threadingtype">ThreadingType</a>
- 
-
- 
 

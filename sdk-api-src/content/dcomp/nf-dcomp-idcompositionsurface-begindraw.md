@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 0D7E90A1-90E4-44BE-A4DA-8DA300C81A35
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method [DirectComposition], BeginDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],BeginDraw method, IDCompositionSurface.BeginDraw, IDCompositionSurface::BeginDraw, dcomp/IDCompositionSurface::BeginDraw, directcomp.idcompositionsurface_begindraw
-f1_keywords:
-- dcomp/IDCompositionSurface.BeginDraw
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionSurface.BeginDraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionSurface::BeginDraw
+ - dcomp/IDCompositionSurface::BeginDraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionSurface.BeginDraw
 ---
 
 # IDCompositionSurface::BeginDraw
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates drawing on this Microsoft DirectComposition surface object. The update rectangle must be within the boundaries of the surface; otherwise, this method fails.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param updateRect [in, optional]
 
@@ -66,13 +60,11 @@ Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b
 
 The rectangle to be updated. If this parameter is NULL, the entire bitmap is updated.
 
-
 ### -param iid [in]
 
 Type: <b>REFIID</b>
 
 The identifier of the interface to retrieve.
-
 
 ### -param updateObject [out]
 
@@ -89,21 +81,13 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)
 
 The offset into the surface where the application should draw updated content. This offset will reference the upper left corner of the update rectangle.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. 
-
-
-
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method enables an application to incrementally update the contents of a DirectComposition surface object. The application must use the following sequence:
 
@@ -145,20 +129,11 @@ The retrieved surface rectangle does not contain the previous contents of the bi
 
 Only one DirectComposition surface can be updated at a time. An application must suspend drawing on one surface before beginning or resuming to draw on another surface. If the application calls <b>BeginDraw</b> twice, either for the same surface or for another surface belonging to the same DirectComposition device, without an intervening call to <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a>, the second call fails. If the application calls <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-commit">IDCompositionDevice2::Commit</a> without calling <b>EndDraw</b>, the update remains pending. The update takes effect only after the application calls <b>EndDraw</b> and then  calls the <b>IDCompositionDevice2::Commit</b>  method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a>
- 
-
- 
 

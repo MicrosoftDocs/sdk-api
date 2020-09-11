@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 2d124541-c954-4031-95cd-68a96c8e0a77
 ms.date: 12/05/2018
 ms.keywords: MprInfoBlockRemove, MprInfoBlockRemove function [RAS], _mpr_mprinfoblockremove, mprapi/MprInfoBlockRemove, rras.mprinfoblockremove
-f1_keywords:
-- mprapi/MprInfoBlockRemove
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprInfoBlockRemove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprInfoBlockRemove
+ - mprapi/MprInfoBlockRemove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprInfoBlockRemove
 ---
 
 # MprInfoBlockRemove function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprInfoBlockRemove</b> function creates a new header that is identical to an existing header with a specified block removed.
 
-
 ## -parameters
-
-
-
 
 ### -param lpHeader [in]
 
 Pointer to the header from which the block should be removed.
-
 
 ### -param dwInfoType [in]
 
@@ -70,15 +65,11 @@ Specifies the type of block to be removed. The types available depend on the tra
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-information-types-for-router-information-blocks">IPX</a>.
 
-
 ### -param lplpNewHeader [out]
 
 Pointer to a pointer variable that receives the new header.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -125,25 +116,13 @@ The call failed. Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After removing an information block, obtain the new size of the information header by call 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockquerysize">MprInfoBlockQuerySize</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -158,7 +137,4 @@ After removing an information block, obtain the new size of the information head
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockquerysize">MprInfoBlockQuerySize</a>
- 
-
- 
 

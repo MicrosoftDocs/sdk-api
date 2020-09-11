@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: D46CE3FF-31E2-32CE-FD38-680064E1765D
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation3, IUIAutomation3 interface [Windows Accessibility], IUIAutomation3 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation3, winauto.uiauto_IUIAutomation3
-f1_keywords:
-- uiautomationclient/IUIAutomation3
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomation3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation3
+ - uiautomationclient/IUIAutomation3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomation3
 ---
 
 # IUIAutomation3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation2">IUIAutomation2</a> interface to expose additional methods for controlling Microsoft UI Automation functionality.
-
 
 ## -inheritance
 
@@ -88,20 +87,13 @@ Removes a programmatic text-edit event handler.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation2">IUIAutomation2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
- 
-
- 
 

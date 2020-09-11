@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 8c5de7ac-f51c-42f2-9068-8e9ede86ad97
 ms.date: 12/05/2018
 ms.keywords: CreatePart, CreatePart method [Open Packaging Conventions], CreatePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],CreatePart method, IOpcPartSet.CreatePart, IOpcPartSet::CreatePart, msopc/IOpcPartSet::CreatePart, opc.iopcpartset_createpart
-f1_keywords:
-- msopc/IOpcPartSet.CreatePart
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcPartSet.CreatePart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcPartSet::CreatePart
+ - msopc/IOpcPartSet::CreatePart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcPartSet.CreatePart
 ---
 
 # IOpcPartSet::CreatePart
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a part object that represents a part and adds a pointer to the object's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface to the set.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
@@ -64,16 +60,13 @@ A pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/
 
 To create  a part URI object (which implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface) to represent the part name of the part, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">IOpcFactory::CreatePartUri</a> method.
 
-
 ### -param contentType [in]
 
 The media type of part content.
 
-
 ### -param compressionOptions [in]
 
 A value that describes the way to compress the part content of the part.
-
 
 ### -param part [out, retval]
 
@@ -81,10 +74,7 @@ A pointer to the new <a href="https://docs.microsoft.com/previous-versions/windo
 
 This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -187,14 +177,8 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a part object is created and a pointer to it is added to the set, the part it represents is serialized when the package is serialized.
 
@@ -213,13 +197,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -270,7 +248,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

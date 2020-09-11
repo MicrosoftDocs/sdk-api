@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DIndexBuffer9, IDirect3DIndexBuffer9 interface [Direct3D 9], IDirect3DIndexBuffer9 interface [Direct3D 9],described, bb9d32d9-1059-d4c2-6c8c-e4d5a1170082, d3d9helper/IDirect3DIndexBuffer9, direct3d9.idirect3dindexbuffer9
-f1_keywords:
-- d3d9/IDirect3DIndexBuffer9
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d9.lib
-- d3d9.dll
-api_name:
-- IDirect3DIndexBuffer9
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DIndexBuffer9
+ - d3d9/IDirect3DIndexBuffer9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d9.lib
+ - d3d9.dll
+api_name:
+ - IDirect3DIndexBuffer9
 ---
 
 # IDirect3DIndexBuffer9 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications use the methods of the IDirect3DIndexBuffer9 interface to manipulate an index buffer resource.
-
 
 ## -inheritance
 
@@ -96,12 +95,9 @@ Unlocks index data.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IDirect3DIndexBuffer9</b> interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createindexbuffer">IDirect3DDevice9::CreateIndexBuffer</a> method.
 
@@ -118,14 +114,7 @@ typedef struct IDirect3DIndexBuffer9 *LPDIRECT3DINDEXBUFFER9, *PDIRECT3DINDEXBUF
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
@@ -140,7 +129,4 @@ typedef struct IDirect3DIndexBuffer9 *LPDIRECT3DINDEXBUFFER9, *PDIRECT3DINDEXBUF
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/index-buffers">Index Buffers (Direct3D 9)</a>
- 
-
- 
 

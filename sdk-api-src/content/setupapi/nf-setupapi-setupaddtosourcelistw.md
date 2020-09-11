@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: c1da3f9b-12ea-49f3-a5ca-45a63a56becd
 ms.date: 12/05/2018
 ms.keywords: SetupAddToSourceList, SetupAddToSourceList function [Setup API], SetupAddToSourceListA, SetupAddToSourceListW, _setupapi_setupaddtosourcelist, setup.setupaddtosourcelist, setupapi/SetupAddToSourceList, setupapi/SetupAddToSourceListA, setupapi/SetupAddToSourceListW
-f1_keywords:
-- setupapi/SetupAddToSourceList
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupAddToSourceList
-- SetupAddToSourceListA
-- SetupAddToSourceListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupAddToSourceListW
+ - setupapi/SetupAddToSourceListW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupAddToSourceList
+ - SetupAddToSourceListA
+ - SetupAddToSourceListW
 ---
 
 # SetupAddToSourceListW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
@@ -59,11 +59,7 @@ The
 
 A caller of this function is required have administrative privileges, otherwise the function fails.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -102,7 +98,6 @@ If the caller is an administrator, the source is added to the per-system list; i
 
 Add the source to the end of the list. If this flag is not specified, the source is added to the beginning of the list.
 
-
 ### -param Source [in]
 
 Pointer to the source to be added to the list. You should use a null-terminated string. 
@@ -127,23 +122,14 @@ Add the source to the per-system list. The caller must be an administrator.
 
 Add the source to the per-user list.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -158,9 +144,6 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetsourcelista">SetupSetSourceList</a>
- 
-
- 
 
 ## -remarks
 

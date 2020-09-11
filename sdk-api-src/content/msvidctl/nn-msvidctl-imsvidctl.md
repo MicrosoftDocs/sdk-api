@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], IMSVidCtl interface [Microsoft TV Technologies],described, IMSVidCtlInterface, mstv.imsvidctl, msvidctl/IMSVidCtl
-f1_keywords:
-- msvidctl/IMSVidCtl
-dev_langs:
-- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msvidctl.h
-api_name:
-- IMSVidCtl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidCtl
+ - msvidctl/IMSVidCtl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msvidctl.h
+api_name:
+ - IMSVidCtl
 ---
 
 # IMSVidCtl interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMSVidCtl</b> interface is the main interface for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee663618(v=vs.85)">Video Control</a>. It contains methods to enumerate available devices and features, and to select which features and devices will be active. It also contains methods to build, stop, start, and pause the filter graph.
-
-
-
 
 ## -inheritance
 
@@ -458,22 +454,13 @@ Finds another input device for viewing the specified item.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidCtl)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -484,7 +471,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 2ce40bc7-754a-4f69-9348-75603e2257a4
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], IOpcSignatureReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureReference, opc.iopcsignaturereference
-f1_keywords:
-- msopc/IOpcSignatureReference
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureReference
+ - msopc/IOpcSignatureReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureReference
 ---
 
 # IOpcSignatureReference interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a reference to XML markup that has been or will be signed. This referenced XML markup is serialized in the signature markup when a signature is generated.
-
 
 ## -inheritance
 
@@ -127,12 +126,9 @@ Gets the URI of the referenced XML element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To create 
 				an <b>IOpcSignatureReference</b> interface pointer, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturereferenceset-create">IOpcSignatureReferenceSet::Create</a> method. <b>IOpcSignatureReferenceSet::Create</b> does not create the reference to the package-specific <b>Object</b> element; that reference is created automatically when the signature is generated.
@@ -206,14 +202,7 @@ The following signature markup shows a serialized reference to a signed, child e
 </Signature>
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -268,7 +257,4 @@ The following signature markup shows a serialized reference to a signed, child e
 
 
 <b>Reference</b>
- 
-
- 
 

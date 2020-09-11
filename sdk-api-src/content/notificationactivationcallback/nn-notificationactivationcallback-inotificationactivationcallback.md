@@ -8,10 +8,6 @@ tech.root: win32_tile_badge_notif
 ms.assetid: 9DB90C47-6FFA-44CA-8D33-709DD8CDDA29
 ms.date: 12/05/2018
 ms.keywords: INotificationActivationCallback, INotificationActivationCallback interface, INotificationActivationCallback interface,described, notificationactivationcallback/INotificationActivationCallback, win32_tile_badge_notif.inotificationactivationcallback
-f1_keywords:
-- notificationactivationcallback/INotificationActivationCallback
-dev_langs:
-- c++
 req.header: notificationactivationcallback.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- NotificationActivationCallback.h
-api_name:
-- INotificationActivationCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INotificationActivationCallback
+ - notificationactivationcallback/INotificationActivationCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - NotificationActivationCallback.h
+api_name:
+ - INotificationActivationCallback
 ---
 
 # INotificationActivationCallback interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Receives notification messages when an app is triggered through a toast from the action center.
-
 
 ## -inheritance
 
@@ -79,16 +78,9 @@ Called when a user interacts with a toast in the action center.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/win32_tile_badge_notif/respond-to-toast-activations">Respond to toast activations</a>
- 
-
- 
 

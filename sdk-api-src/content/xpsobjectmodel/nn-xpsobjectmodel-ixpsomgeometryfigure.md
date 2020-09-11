@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e76a14ce-cfc3-4a50-855e-f5779b9fc261
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], IXpsOMGeometryFigure interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigure, xpsobjectmodel/IXpsOMGeometryFigure
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure
+ - xpsobjectmodel/IXpsOMGeometryFigure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure
 ---
 
 # IXpsOMGeometryFigure interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes one portion of the path or clipping region that is specified by an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface.
-
 
 ## -inheritance
 
@@ -205,12 +204,9 @@ Sets the starting point of the figure.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IXpsOMGeometryFigure</b> corresponds to the <b>PathFigure</b> element in XPS markup.
 
@@ -253,14 +249,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a>
 
@@ -279,7 +268,4 @@ else
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a>
- 
-
- 
 

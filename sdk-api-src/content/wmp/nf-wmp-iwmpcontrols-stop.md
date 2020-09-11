@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 97ab009d-5ad9-4049-a212-1ef95941f951
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],stop method, IWMPControls.stop, IWMPControls::stop, IWMPControlsstop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_stop, wmp/IWMPControls::stop
-f1_keywords:
-- wmp/IWMPControls.stop
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls.stop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls::stop
+ - wmp/IWMPControls::stop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls.stop
 ---
 
 # IWMPControls::stop
@@ -49,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>stop</b> method stops playback of the media item.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,26 +75,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method causes Windows Media Player to release any system resources it is using, such as the audio device. The current media item, however, is not released.
 
 When Windows Media Player is stopped, the current playback point in the media item is reset to the beginning of the item. Subsequently calling <b>IWMPControls::play</b> will start playback from the beginning of the media item. To halt a play operation without changing the current position, use the <b>IWMPControls::pause</b> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
@@ -124,7 +101,4 @@ When Windows Media Player is stopped, the current playback point in the media it
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-previous">IWMPControls::previous</a>
- 
-
- 
 

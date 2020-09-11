@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 89a06b1d-1b72-46ca-91cd-bb63ea0cbff7
 ms.date: 12/05/2018
 ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], IEnumPublishedApps interface [Windows Shell],described, inet_IEnumPublishedApps, shappmgr/IEnumPublishedApps, shell.IEnumPublishedApps
-f1_keywords:
-- shappmgr/IEnumPublishedApps
-dev_langs:
-- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shappmgr.h
-api_name:
-- IEnumPublishedApps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumPublishedApps
+ - shappmgr/IEnumPublishedApps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shappmgr.h
+api_name:
+ - IEnumPublishedApps
 ---
 
 # IEnumPublishedApps interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes methods that enumerate published applications to Add/Remove Programs in the Control Panel. The object exposing this interface is requested through <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-enumapps">IAppPublisher::EnumApps</a>.  
-		
-
+Exposes methods that enumerate published applications to Add/Remove Programs in the Control Panel. The object exposing this interface is requested through <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-enumapps">IAppPublisher::EnumApps</a>.
 
 ## -inheritance
 
@@ -89,29 +87,17 @@ Resets the enumeration of <a href="https://docs.microsoft.com/windows/desktop/ap
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To publish applications to Add/Remove Programs in the Control Panel, you must support <b>IEnumPublishedApps</b>, <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
- 
-
- 
 

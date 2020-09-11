@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettext.htm
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetText method, ITextRange.GetText, ITextRange::GetText, _win32_ITextRange_GetText, _win32_ITextRange_GetText_cpp, controls.ITextRange_GetText, controls._win32_ITextRange_GetText, tom/ITextRange::GetText
-f1_keywords:
-- tom/ITextRange.GetText
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.GetText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::GetText
+ - tom/ITextRange::GetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.GetText
 ---
 
 # ITextRange::GetText
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the plain text in this range. The Text property is the default property of the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstr
 
 Type: <b>BSTR*</b>
 
-The text. 
-
+The text.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -101,14 +94,8 @@ Insufficient memory to hold the text.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ITextRange::GetText</b> method returns the plain text in the range. The Text property is the default property for <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>; this is, it is automatically invoked for a range, as  in the following Microsoft Visual Basic for Applications (VBA) example.
 
@@ -130,13 +117,7 @@ The ranges can be in different stories or even in different applications. Howeve
 
 The text returned by the Text property is given in Unicode. The end-of-paragraph mark may be given by 0x2029 (the Unicode Paragraph Separator), or by carriage return/line feed (CR/LF) (0xd, 0xa), or by a carriage return alone, depending on the original file. Microsoft Word uses a carriage return alone, unless it reads another choice in from a file, the clipboard, or an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>. The placeholder for an embedded object is given by the special character, <b>WCH_EMBEDDING</b>, which has the Unicode value 0xFFFC.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -163,7 +144,4 @@ The text returned by the Text property is given in Unicode. The end-of-paragraph
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

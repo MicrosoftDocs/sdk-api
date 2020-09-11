@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 048B2922-3B77-4F2D-9437-0FA54F94C67E
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadSession, IMFHttpDownloadSession interface [Media Foundation], IMFHttpDownloadSession interface [Media Foundation],described, mf.imfhttpdownloadsession, mfidl/IMFHttpDownloadSession
-f1_keywords:
-- mfidl/IMFHttpDownloadSession
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFHttpDownloadSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFHttpDownloadSession
+ - mfidl/IMFHttpDownloadSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFHttpDownloadSession
 ---
 
 # IMFHttpDownloadSession interface
@@ -52,9 +53,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation. Applications provide the <b>IMFHttpDownloadSession</b> interface to Media Foundation through the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsessionprovider-createhttpdownloadsession">CreateHttpDownloadSession</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsessionprovider">IMFHttpDownloadSessionProvider</a> interface. Microsoft Media Foundation uses this interface to perform a “streaming”, or “progressive”, download of a resource identified by a HTTP or HTTPS URL. Multiple HTTP requests may be sent to download the resource. The <b>IMFHttpDownloadSession</b> interface is used to create these individual HTTP requests.
-
 
 ## -inheritance
 
@@ -98,5 +97,5 @@ Called  by Microsoft Media Foundation to specify parameters common to all reques
 
 </td>
 </tr>
-</table> 
+</table>
 

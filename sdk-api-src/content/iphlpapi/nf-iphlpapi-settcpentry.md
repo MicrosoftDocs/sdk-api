@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 5916f66d-3c85-406d-b6f9-6c1c84161be4
 ms.date: 12/05/2018
 ms.keywords: SetTcpEntry, SetTcpEntry function [IP Helper], _iphlp_settcpentry, iphlp.settcpentry, iphlpapi/SetTcpEntry
-f1_keywords:
-- iphlpapi/SetTcpEntry
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- SetTcpEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetTcpEntry
+ - iphlpapi/SetTcpEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - SetTcpEntry
 ---
 
 # SetTcpEntry function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetTcpEntry</b> function sets the state of a TCP connection.
 
-
 ## -parameters
-
-
-
 
 ### -param pTcpRow [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structure. This structure specifies information to identify the TCP connection to modify. It also specifies the new state for the TCP connection. The caller must specify values for all the members in this structure.
 
-
 ## -returns
-
-
 
 The function returns <b>NO_ERROR</b> (zero) if the function is successful. 
 
@@ -135,14 +128,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Currently, the only state to which a TCP connection can be set is MIB_TCP_STATE_DELETE_TCB.
 
@@ -150,15 +137,7 @@ On Windows Vista and later, the <b>SetTcpEntry</b> function can only be called 
 
 The <b>SetTcpEntry</b> function can also fail because of user account control (UAC) on Windows Vista and later. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
@@ -169,7 +148,4 @@ The <b>SetTcpEntry</b> function can also fail because of user account control (U
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a>
- 
-
- 
 

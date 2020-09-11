@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 19099DC9-EA14-41C5-A9DF-5EBB12696C79
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement, ID2D1SvgElement interface [Direct2D], ID2D1SvgElement interface [Direct2D],described, d2d1svg/ID2D1SvgElement, direct2d.id2d1svgelement
-f1_keywords:
-- d2d1svg/ID2D1SvgElement
-dev_langs:
-- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Direct2d.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- direct2d.dll
-api_name:
-- ID2D1SvgElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1SvgElement
+ - d2d1svg/ID2D1SvgElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - direct2d.dll
+api_name:
+ - ID2D1SvgElement
 ---
 
 # ID2D1SvgElement interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Interface for all SVG elements.
-
 
 ## -inheritance
 
@@ -302,5 +301,5 @@ Sets the value of a text content element.
 
 </td>
 </tr>
-</table> 
+</table>
 

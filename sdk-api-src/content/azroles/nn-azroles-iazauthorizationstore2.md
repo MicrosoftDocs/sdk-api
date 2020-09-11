@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8b3901a9-003f-4346-a0c7-34a1ed730949
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore2, IAzAuthorizationStore2 interface [Security], IAzAuthorizationStore2 interface [Security],described, azroles/IAzAuthorizationStore2, security.iazauthorizationstore2
-f1_keywords:
-- azroles/IAzAuthorizationStore2
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzAuthorizationStore2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore2
+ - azroles/IAzAuthorizationStore2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzAuthorizationStore2
 ---
 
 # IAzAuthorizationStore2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzAuthorizationStore2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object and implements methods to create and open <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> objects.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Opens the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azr
 
 </td>
 </tr>
-</table> 
+</table>
 

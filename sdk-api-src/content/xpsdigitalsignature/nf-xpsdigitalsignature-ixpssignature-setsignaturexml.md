@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 3ba32f16-2e11-479c-bc3c-0982e90b883d
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],SetSignatureXml method, IXpsSignature.SetSignatureXml, IXpsSignature::SetSignatureXml, SetSignatureXml, SetSignatureXml method [XPS Documents and Packaging], SetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_setsignaturexml, xpsdigitalsignature/IXpsSignature::SetSignatureXml
-f1_keywords:
-- xpsdigitalsignature/IXpsSignature.SetSignatureXml
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignature.SetSignatureXml
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignature::SetSignatureXml
+ - xpsdigitalsignature/IXpsSignature::SetSignatureXml
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignature.SetSignatureXml
 ---
 
 # IXpsSignature::SetSignatureXml
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the XML markup of the digital signature.
 
-
 ## -parameters
-
-
-
 
 ### -param signatureXml [in]
 
 The XML markup of the digital signature.
 
-
 ### -param count [in]
 
 The size, in bytes, of the buffer referenced by <i>signatureXml</i>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372949(v=vs.85)">XPS Digital Signature API Errors</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -113,14 +105,8 @@ The interface is not connected to the signature manager.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, the application must check that the signature markup is valid. If the signature markup is not valid, this method will fail and the content of the signature part will not be changed.
 
@@ -129,12 +115,7 @@ Before calling this method, the application must check that the signature markup
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignature">IOpcDigitalSignature</a>
 
@@ -157,7 +138,4 @@ Before calling this method, the application must check that the signature markup
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

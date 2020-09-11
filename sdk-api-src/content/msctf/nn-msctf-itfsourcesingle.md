@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 01e60ede-b871-4b38-b2ee-24f79c5b3e80
 ms.date: 12/05/2018
 ms.keywords: ITfSourceSingle, ITfSourceSingle interface [Text Services Framework], ITfSourceSingle interface [Text Services Framework],described, _tsf_itfsourcesingle_ref, msctf/ITfSourceSingle, tsf.itfsourcesingle
-f1_keywords:
-- msctf/ITfSourceSingle
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfSourceSingle
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSourceSingle
+ - msctf/ITfSourceSingle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfSourceSingle
 ---
 
 # ITfSourceSingle interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfSourceSingle</b> interface is implemented by the TSF manager. It is used by applications and text services to install and remove various advise sinks. This interface differs from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> in that advise sinks installed with <b>ITfSourceSingle</b> only support one advise sink at a time whereas advise sinks installed with <b>ITfSource</b> support multiple simultaneous advise sinks.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Uninstalls an advise sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The TSF manager has different implementations of <b>ITfSourceSingle</b>, depending upon how the <b>ITfSourceSingle</b> interface is obtained. The difference in the implementations is the types of advise sinks that can be installed with the interface. The different implementations can be obtained from the following objects.
 
@@ -149,14 +145,7 @@ if(SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
@@ -174,7 +163,4 @@ if(SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

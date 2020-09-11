@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f8316587-f279-419a-a35d-194df3fc8383
 ms.date: 12/05/2018
 ms.keywords: '*LPPHONEBUTTONINFO, LPPHONEBUTTONINFO, LPPHONEBUTTONINFO structure pointer [TAPI 2.2], PHONEBUTTONINFO, PHONEBUTTONINFO structure [TAPI 2.2], _tapi2_phonebuttoninfo_str, tapi/LPPHONEBUTTONINFO, tapi/PHONEBUTTONINFO, tapi2.phonebuttoninfo_str'
-f1_keywords:
-- tapi/PHONEBUTTONINFO
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tapi.h
-api_name:
-- PHONEBUTTONINFO
 targetos: Windows
 req.typenames: PHONEBUTTONINFO, *LPPHONEBUTTONINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - phonebuttoninfo_tag
+ - tapi/phonebuttoninfo_tag
+ - LPPHONEBUTTONINFO
+ - tapi/LPPHONEBUTTONINFO
+ - PHONEBUTTONINFO
+ - tapi/PHONEBUTTONINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tapi.h
+api_name:
+ - PHONEBUTTONINFO
 ---
 
 # PHONEBUTTONINFO structure
@@ -49,62 +54,48 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PHONEBUTTONINFO</b> structure contains information about a button on a phone device. This structure is used by multiple TAPI and TSPI functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwTotalSize
 
 Total size allocated to this data structure, in bytes.
 
-
 ### -field dwNeededSize
 
 Size for this data structure that is needed to hold all the returned information, in bytes.
 
-
 ### -field dwUsedSize
 
 Size of the portion of this data structure that contains useful information, in bytes.
-
 
 ### -field dwButtonMode
 
 Mode or general usage class of the button. This member uses one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonmode--constants">PHONEBUTTONMODE_ Constants</a>.
 
-
 ### -field dwButtonFunction
 
 Function assigned to the button. This member uses one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_ Constants</a>.
 
-
 ### -field dwButtonTextSize
 
 Size of the descriptive text for the button, in bytes.
-
 
 ### -field dwButtonTextOffset
 
 Offset from the beginning of this structure to the variably sized field containing descriptive text for this button. The format of this information is as specified in the <b>dwStringFormat</b> member of the phone's device capabilities. The size of the field is specified by <b>dwButtonTextSize</b>.
 
-
 ### -field dwDevSpecificSize
 
 Size of the device-specific field, in bytes. If the device-specific field is a pointer to a string, the size must include the <b>null</b> terminator.
 
-
 ### -field dwDevSpecificOffset
 
 Offset from the beginning of the structure to the variably sized device-specific field. The size of the field is specified by <b>dwDevSpecificSize</b>.
-
 
 ### -field dwButtonState
 
@@ -113,10 +104,7 @@ For the
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonstate--constants">PHONEBUTTONSTATE_ Constants</a>. This field is ignored by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonesetbuttoninfo">phoneSetButtonInfo</a> function.
 
-
 ## -remarks
-
-
 
 Device-specific extensions should use the DevSpecific (<b>dwDevSpecificSize</b> and <b>dwDevSpecificOffset</b>) variably sized area of this data structure.
 
@@ -129,13 +117,7 @@ New service providers (which support the new API version) must examine the API v
 
 New applications must be cognizant of the API version negotiated, and not examine the contents of fields in the fixed portion beyond the original end of the fixed portion of the structure for the negotiated API version.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetbuttoninfo">TSPI_phoneGetButtonInfo</a>
 
@@ -154,7 +136,4 @@ New applications must be cognizant of the API version negotiated, and not examin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonesetbuttoninfo">phoneSetButtonInfo</a>
- 
-
- 
 

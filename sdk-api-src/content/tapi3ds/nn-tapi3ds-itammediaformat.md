@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 82728afe-5743-4b45-86e6-32df021a2a5f
 ms.date: 12/05/2018
 ms.keywords: ITAMMediaFormat, ITAMMediaFormat interface [TAPI 2.2], ITAMMediaFormat interface [TAPI 2.2],described, _tapi3_itammediaformat, tapi3.itammediaformat, tapi3ds/ITAMMediaFormat
-f1_keywords:
-- tapi3ds/ITAMMediaFormat
-dev_langs:
-- c++
 req.header: tapi3ds.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAMMediaFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAMMediaFormat
+ - tapi3ds/ITAMMediaFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAMMediaFormat
 ---
 
 # ITAMMediaFormat interface
 
 
 ## -description
-
 
 The 
 <b>ITAMMediaFormat</b> interface sets and gets DirectShow media format. The format is described using the 
@@ -60,7 +60,6 @@ The
 On addresses where a variety of formats are supported (such as Wave MSP addresses, which are used on most modems and voice boards), this media format must be set or the terminal will not be able to connect.
 
 For other addresses, such as those implemented over IP, the format may be fixed/predetermined. In that case, a call to set format will fail if the format is not the same as the predetermined format.
-
 
 ## -inheritance
 
@@ -95,16 +94,9 @@ Sets the media format.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
 

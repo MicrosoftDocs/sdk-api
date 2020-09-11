@@ -8,10 +8,6 @@ tech.root: winlocation
 ms.assetid: ba8c66cb-be94-4649-ada9-620ed3b35516
 ms.date: 12/05/2018
 ms.keywords: ICivicAddressReport, ICivicAddressReport interface [WinLocation], ICivicAddressReport interface [WinLocation],described, locationapi/ICivicAddressReport, winlocation.icivicaddressreport
-f1_keywords:
-- locationapi/ICivicAddressReport
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ICivicAddressReport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICivicAddressReport
+ - locationapi/ICivicAddressReport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ICivicAddressReport
 ---
 
 # ICivicAddressReport interface
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 <b>ICivicAddressReport</b> represents a location report that contains information in the form of a street address.
-    
-   
-
 
 ## -inheritance
 
@@ -136,14 +133,9 @@ Retrieves the state or province name.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Note that any property value can be <b>NULL</b> if the value is not available.
-
-
 

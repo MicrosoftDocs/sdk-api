@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 133529fb-e02a-41a2-83df-646cbc01dbe9
 ms.date: 12/05/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], IEnroll4 interface [Security],described, security.ienroll4, xenroll/IEnroll4
-f1_keywords:
-- xenroll/IEnroll4
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll4
+ - xenroll/IEnroll4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll4
 ---
 
 # IEnroll4 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>IEnroll4</b> interface represents the Certificate Enrollment Control and is used primarily to generate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate requests</a>.
-
 
 ## -inheritance
 
@@ -1598,20 +1597,13 @@ Sets or retrieves a Boolean value that controls whether the certificate is writt
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
- 
-
- 
 

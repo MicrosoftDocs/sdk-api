@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2e48b096-e23a-4106-bfaf-f089d2291fba
 ms.date: 12/05/2018
 ms.keywords: ICertPolicy2, ICertPolicy2 interface [Security], ICertPolicy2 interface [Security],described, _certsrv_icertpolicy2, certpol/ICertPolicy2, security.icertpolicy2
-f1_keywords:
-- certpol/ICertPolicy2
-dev_langs:
-- c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certidl.lib
-- Certidl.dll
-api_name:
-- ICertPolicy2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPolicy2
+ - certpol/ICertPolicy2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certidl.lib
+ - Certidl.dll
+api_name:
+ - ICertPolicy2
 ---
 
 # ICertPolicy2 interface
 
 
 ## -description
-
 
 The <b>ICertPolicy2</b> interface is one of two interfaces that   provide communications between the Certificate Services server engine and the policy module.
 <div class="alert"><b>Note</b>  The policy module can communicate with the Certificate Services server engine by using the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a> interface.</div><div> </div>The Certificate Services server engine calls the <b>ICertPolicy2</b> methods to perform the following tasks:<ul>
@@ -61,7 +61,6 @@ The <b>ICertPolicy2</b> interface is one of two interfaces that   provide commun
 
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Called by the server engine before the server is terminated.</p> (Inherited from
 <td align="left" width="63%">
 Notifies the policy module that a new request has entered the system.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a><b>CCertPolicy</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Implementers of <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a> should also implement 
 <a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>. Additionally, the ProgID for a class implementing <b>ICertPolicy</b> must conform to a naming convention. Specifically, the ProgID must be of the form:
@@ -161,6 +157,4 @@ Implementers of <a href="https://docs.microsoft.com/windows/desktop/api/certpol/
 <b>"</b><i>MyApp</i><b>"</b>
 
 Where <i>MyApp</i> is a specifier that identifies the application; further, the class implementing <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a> must be named <b>"Policy"</b>.
-
-
 

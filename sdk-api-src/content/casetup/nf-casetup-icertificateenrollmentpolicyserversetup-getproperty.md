@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 52AD50BB-4146-44FC-BA32-9FC46FFE32E4
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],GetProperty method, ICertificateEnrollmentPolicyServerSetup.GetProperty, ICertificateEnrollmentPolicyServerSetup::GetProperty, casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty, security.icertificateenrollmentpolicyserversetup_getproperty
-f1_keywords:
-- casetup/ICertificateEnrollmentPolicyServerSetup.GetProperty
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentPolicyServerSetup.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentPolicyServerSetup::GetProperty
+ - casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentPolicyServerSetup.GetProperty
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::GetProperty
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetProperty</b> method retrieves a <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 
-
 ## -parameters
-
-
-
 
 ### -param propertyId [in]
 
@@ -101,8 +97,6 @@ Contains the CEP service URL. If the  <b>GetProperty</b> method returns successf
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pPropertyValue [out]
 
@@ -123,10 +117,7 @@ If you specify <b>ENUM_CEPSETUPPROP_URL</b> in the <i>propertyId</i> parameter, 
 
 If you specify <b>ENUM_CEPSETUPPROP_KEYBASED_RENEWAL</b> in the <i>propertyId</i> parameter, you must set the <i>pPropertyValue</i> parameter to the <b>VT_BOOL</b> subtype that  indicates  whether to set up the Enrollment Policy Server in a mode that returns policies for KeyBasedRenewal templates only.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -169,15 +160,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>
 
@@ -188,7 +172,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-setproperty">SetProperty</a>
- 
-
- 
 

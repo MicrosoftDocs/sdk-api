@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 1d327da0-d0b3-4fcf-9773-ff5ea1eeea1c
 ms.date: 12/05/2018
 ms.keywords: ChooseImageDefaultsForMediaType, ChooseImageDefaultsForMediaType method [IMAPI], ChooseImageDefaultsForMediaType method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaultsForMediaType method, IFileSystemImage.ChooseImageDefaultsForMediaType, IFileSystemImage::ChooseImageDefaultsForMediaType, imapi.ifilesystemimage_chooseimagedefaultsformediatype, imapi2fs/IFileSystemImage::ChooseImageDefaultsForMediaType
-f1_keywords:
-- imapi2fs/IFileSystemImage.ChooseImageDefaultsForMediaType
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.ChooseImageDefaultsForMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::ChooseImageDefaultsForMediaType
+ - imapi2fs/IFileSystemImage::ChooseImageDefaultsForMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.ChooseImageDefaultsForMediaType
 ---
 
 # IFileSystemImage::ChooseImageDefaultsForMediaType
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the default file system types and the image size based on the specified media type. 
-
+Sets the default file system types and the image size based on the specified media type.
 
 ## -parameters
-
-
-
 
 ### -param value [in]
 
 Identifies the physical media type that will receive the burn image. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -101,18 +94,8 @@ Value: 0xC0AAB121
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 21A4BB42-1D78-48A9-A037-64A3508A9957
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingActivity, TraceLoggingActivity interface,TraceLoggingActivity method, TraceLoggingActivity method, TraceLoggingActivity method,TraceLoggingActivity interface, TraceLoggingActivity.TraceLoggingActivity, TraceLoggingActivity::TraceLoggingActivity, tracelogging.traceloggingactivity_traceloggingactivity, traceloggingactivity/TraceLoggingActivity::TraceLoggingActivity
-f1_keywords:
-- traceloggingactivity/TraceLoggingActivity.TraceLoggingActivity
-dev_langs:
-- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- traceloggingactivity.h
-api_name:
-- TraceLoggingActivity.TraceLoggingActivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingActivity::TraceLoggingActivity
+ - traceloggingactivity/TraceLoggingActivity::TraceLoggingActivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - traceloggingactivity.h
+api_name:
+ - TraceLoggingActivity.TraceLoggingActivity
 ---
 
 # TraceLoggingActivity::TraceLoggingActivity
@@ -53,17 +54,9 @@ Creates a new TraceLoggingActivity object.
 
 <b>TraceLoggingActivity</b> is a class template.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  <p class="note"><b>TraceLoggingActivity</b> is a class template.
 
@@ -80,6 +73,5 @@ Creates a new TraceLoggingActivity object.
 </div>
 <div> </div>
 
-
-
 ## -see-also
+

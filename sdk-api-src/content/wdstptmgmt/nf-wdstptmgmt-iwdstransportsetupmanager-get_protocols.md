@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 554364cf-c3ee-46ce-a483-c3304b608595
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Protocols property, IWdsTransportSetupManager.Protocols, IWdsTransportSetupManager.get_Protocols, IWdsTransportSetupManager::Protocols, IWdsTransportSetupManager::get_Protocols, Protocols property [Windows Deployment Services], Protocols property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Protocols, wds.iwdstransportsetupmanager_protocols, wdstptmgmt/IWdsTransportSetupManager::Protocols, wdstptmgmt/IWdsTransportSetupManager::get_Protocols
-f1_keywords:
-- wdstptmgmt/IWdsTransportSetupManager.Protocols
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportSetupManager.Protocols
-- IWdsTransportSetupManager.get_Protocols
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportSetupManager::get_Protocols
+ - wdstptmgmt/IWdsTransportSetupManager::get_Protocols
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportSetupManager.Protocols
+ - IWdsTransportSetupManager.get_Protocols
 ---
 
 # IWdsTransportSetupManager::get_Protocols
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives a value that indicates which transport protocols are supported by the WDS server. 
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a>
 
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_protocol_flags">WDSTRANSPORT_PROTOCOL_FLAGS</a>
- 
-
- 
 

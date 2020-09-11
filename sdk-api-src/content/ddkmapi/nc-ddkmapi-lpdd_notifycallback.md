@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: ee581d7b-c3b8-47e5-bae8-348b22ea0f95
 ms.date: 12/05/2018
 ms.keywords: LPDD_NOTIFYCALLBACK, LPDD_NOTIFYCALLBACK callback, NotifyCallback, NotifyCallback callback function [Display Devices], ddfncs_89344672-ba6d-42b3-a03e-dd832316d9c9.xml, ddkmapi/NotifyCallback, display.notifycallback
-f1_keywords:
-- ddkmapi/NotifyCallback
-dev_langs:
-- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddkmapi.h
-api_name:
-- NotifyCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPDD_NOTIFYCALLBACK
+ - ddkmapi/LPDD_NOTIFYCALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddkmapi.h
+api_name:
+ - NotifyCallback
 ---
 
 # LPDD_NOTIFYCALLBACK callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The<i> NotifyCallback</i> callback function performs operations related to an event that occurred.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags
 
@@ -223,46 +219,28 @@ unused
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pContext
 
 Contains a value that the caller passed in a call to the <b>DxApi</b> function along with a specific function identifier. For more information about function identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>.
 
-
 ### -param dwParam1
 
-Handle to the object related to the event that caused the callback to be called. 
-
+Handle to the object related to the event that caused the callback to be called.
 
 ### -param dwParam2
 
 Unused.
 
-
 ## -returns
-
-
 
 <i>NotifyCallback</i> returns zero.
 
-
-
-
 ## -remarks
-
-
 
 A video capture driver supplies a <i>NotifyCallback</i> callback function to the DirectDraw runtime when the video capture driver calls the runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/notify-callback-functions-in-a-video-capture-driver">Notify Callback Functions in a Video Capture Driver</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopendirectdrawin">DDOPENDIRECTDRAWIN</a>
 
@@ -321,7 +299,4 @@ A video capture driver supplies a <i>NotifyCallback</i> callback function to the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
- 
-
- 
 

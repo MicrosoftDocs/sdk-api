@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 417F9267-6055-489C-AF26-BEF5E17CB8B4
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamUpdate, NCryptStreamUpdate function [Security], ncryptprotect/NCryptStreamUpdate, security.ncryptstreamupdate
-f1_keywords:
-- ncryptprotect/NCryptStreamUpdate
-dev_langs:
-- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NCrypt.dll
-api_name:
-- NCryptStreamUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptStreamUpdate
+ - ncryptprotect/NCryptStreamUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NCrypt.dll
+api_name:
+ - NCryptStreamUpdate
 ---
 
 # NCryptStreamUpdate function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptStreamUpdate</b> function encrypts and decrypts blocks of data.
 
-
 ## -parameters
-
-
-
 
 ### -param hStream [in]
 
 Handle to the stream object created by calling <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>.
 
-
 ### -param pbData [in]
 
 Pointer to the byte array to be processed.
-
 
 ### -param cbData
 
 Number of bytes in the binary array specified by the <i>pbData</i> parameter.
 
-
 ### -param fFinal
 
 A Boolean value that specifies whether the last block of data has been processed.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function. Possible return codes include, but are not limited to, the following.
 
@@ -134,14 +124,8 @@ There was insufficient memory available to process the content.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a> to open a stream before calling <b>NCryptStreamUpdate</b>
 
@@ -202,14 +186,7 @@ CleanUp:
     }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
@@ -224,7 +201,4 @@ CleanUp:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b
 ms.date: 12/05/2018
 ms.keywords: COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileEx, CopyFileEx function [Files], CopyFileExA, CopyFileExW, _win32_copyfileex, base.copyfileex, fs.copyfileex, winbase/CopyFileEx, winbase/CopyFileExA, winbase/CopyFileExW
-f1_keywords:
-- winbase/CopyFileEx
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- CopyFileEx
-- CopyFileExA
-- CopyFileExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CopyFileExW
+ - winbase/CopyFileExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - CopyFileEx
+ - CopyFileExA
+ - CopyFileExW
 ---
 
 # CopyFileExW function
@@ -58,18 +59,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies an existing file to a new file, notifying the application of its progress through a callback 
     function.
 
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpExistingFileName [in]
 
@@ -87,7 +83,6 @@ If <i>lpExistingFileName</i> does not exist, the
       <b>CopyFileEx</b> function fails, and the 
       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
       <b>ERROR_FILE_NOT_FOUND</b>.
-
 
 ### -param lpNewFileName [in]
 
@@ -109,18 +104,15 @@ The address of a callback function of type <b>LPPROGRESS_ROUTINE</b> that is cal
       more information on the progress callback function, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a> function.
 
-
 ### -param lpData [in, optional]
 
 The argument to be passed to the callback function. This parameter can be 
       <b>NULL</b>.
 
-
 ### -param pbCancel [in, optional]
 
 If this flag is set to <b>TRUE</b> during the copy operation, the operation is canceled. 
       Otherwise, the copy operation will continue to completion.
-
 
 ### -param dwCopyFlags [in]
 
@@ -210,12 +202,8 @@ Progress of the copy is tracked in the target file in case the copy fails. The f
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -234,12 +222,7 @@ If <i>lpProgressRoutine</i> returns <b>PROGRESS_STOP</b> due to the
        <b>ERROR_REQUEST_ABORTED</b>. In this case, the partially copied destination file is left 
        intact.
 
-
-
-
 ## -remarks
-
-
 
 This function preserves extended attributes, OLE structured storage, NTFS file system alternate data streams, 
      security resource attributes, and file attributes.
@@ -365,9 +348,6 @@ Yes
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a>
 
 
@@ -405,7 +385,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>
- 
-
- 
 

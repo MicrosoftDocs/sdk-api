@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7c0311df-0995-4100-babb-481fa3f7dd71
 ms.date: 12/05/2018
 ms.keywords: CREATE_PARTITION_PARAMETERS, CREATE_PARTITION_PARAMETERS structure [VDS], GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED, PARTITION_ENTRY_UNUSED_GUID, PARTITION_EXTENDED, PARTITION_FAT32, PARTITION_FAT32_XINT13, PARTITION_FAT_12, PARTITION_FAT_16, PARTITION_HUGE, PARTITION_IFS, PARTITION_LDM, PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_NTFT, PARTITION_OS2BOOTMGR, PARTITION_PREP, PARTITION_SYSTEM_GUID, PARTITION_UNIX, PARTITION_XENIX_1, PARTITION_XENIX_2, PARTITION_XINT13, PARTITION_XINT13_EXTENDED, base.create_partition_parameters, vds/CREATE_PARTITION_PARAMETERS
-f1_keywords:
-- vds/CREATE_PARTITION_PARAMETERS
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-api_name:
-- CREATE_PARTITION_PARAMETERS
 targetos: Windows
 req.typenames: CREATE_PARTITION_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREATE_PARTITION_PARAMETERS
+ - vds/_CREATE_PARTITION_PARAMETERS
+ - CREATE_PARTITION_PARAMETERS
+ - vds/CREATE_PARTITION_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+api_name:
+ - CREATE_PARTITION_PARAMETERS
 ---
 
 # CREATE_PARTITION_PARAMETERS structure
@@ -49,28 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the partition parameters of a partition style.
 
-
 ## -struct-fields
 
-
-
-
 ### -field style
-
 
 ### -field MbrPartInfo
 
 Parameters for a Master Boot Record (MBR) disk. Used if <b>style</b> is 
        <b>VDS_PST_MBR</b>.
 
-
 ### -field MbrPartInfo.partitionType
-
 
 Indicates the system-defined MBR partition type. Possible values are as follows:
 
@@ -273,20 +268,16 @@ Specifies an NTFT partition. This value is used in combination (that is, bitwise
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MbrPartInfo.bootIndicator
 
 If <b>TRUE</b>, the partition is active and can be booted; otherwise the partition 
         cannot be used to boot the system.
 
-
 ### -field GptPartInfo
 
 Parameters for a GUID Partition Table (GPT) disk. Used if <b>style</b> is 
        <b>VDS_PST_GPT</b>.
-
 
 ### -field GptPartInfo.partitionType
 
@@ -394,16 +385,12 @@ This attribute can be set for basic and dynamic disks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field GptPartInfo.partitionId
 
 If ID of the partition. If set to GUID_NULL (0) on creation, a unique value will be generated.
 
-
 ### -field GptPartInfo.attributes
-
 
 Attributes of the partition. This can be one or more of the following values:
 
@@ -506,29 +493,18 @@ Do not set this attribute for dynamic disks. Setting it can cause I/O errors and
 </td>
 </tr>
 </table>
- 
-
 
 ### -field GptPartInfo.name
 
 Null-terminated Unicode string that specifies the name of the partition.
 
-
 ## -remarks
-
-
 
 The 
     <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a> 
     method passes this structure as an argument to specify a set of parameters.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a>
 
@@ -539,7 +515,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
- 
-
- 
 

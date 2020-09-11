@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 38A17092-E545-4018-9D16-2C0406234D62
 ms.date: 12/05/2018
 ms.keywords: DeleteDictionary, DeleteDictionary method [Internationalization for Windows Applications], DeleteDictionary method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],DeleteDictionary method, IImePlugInDictDictionaryList.DeleteDictionary, IImePlugInDictDictionaryList::DeleteDictionary, intl.iimeplugindictdictionarylist_deletedictionary, msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
-f1_keywords:
-- msimeapi/IImePlugInDictDictionaryList.DeleteDictionary
-dev_langs:
-- c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msimeapi.h
-api_name:
-- IImePlugInDictDictionaryList.DeleteDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImePlugInDictDictionaryList::DeleteDictionary
+ - msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msimeapi.h
+api_name:
+ - IImePlugInDictDictionaryList.DeleteDictionary
 ---
 
 # IImePlugInDictDictionaryList::DeleteDictionary
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes a dictionary from the IME's plug-in dictionary list.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrDictionaryGUID [in]
 
 The dictionary ID (<b>GUID</b>) of the dictionary to be removed from the list.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,18 +101,8 @@ Other errors.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist">IImePlugInDictDictionaryList</a>
- 
-
- 
 

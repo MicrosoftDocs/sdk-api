@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1313cd9a-757d-4716-abac-027cff9fee03
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],SetMoniker method, IOleObject.SetMoniker, IOleObject::SetMoniker, SetMoniker, SetMoniker method [COM], SetMoniker method [COM],IOleObject interface, _ole_ioleobject_setmoniker, com.ioleobject_setmoniker, oleidl/IOleObject::SetMoniker
-f1_keywords:
-- oleidl/IOleObject.SetMoniker
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.SetMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::SetMoniker
+ - oleidl/IOleObject::SetMoniker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.SetMoniker
 ---
 
 # IOleObject::SetMoniker
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies an object of its container's moniker, the object's own moniker relative to the container, or the object's full moniker.
 
-
 ## -parameters
-
-
-
 
 ### -param dwWhichMoniker [in]
 
 The moniker is passed in <i>pmk</i>. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK</a>.
 
-
 ### -param pmk [in]
 
 Pointer to where to return the moniker.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -91,14 +83,8 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A container that supports links to embedded objects must be able to inform an embedded object when its moniker has changed. Otherwise, subsequent attempts by link clients to bind to the object will fail. The <b>IOleObject::SetMoniker</b> method provides one way for a container to communicate this information.
 
@@ -112,13 +98,7 @@ A container calls <b>IOleObject::SetMoniker</b> when the container has been rena
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Upon receiving a call to <b>IOleObject::SetMoniker</b>, an object should register its full moniker in the running object table and send <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a> notification to all advise sinks that exist for the object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createitemmoniker">CreateItemMoniker</a>
 
@@ -137,7 +117,4 @@ Upon receiving a call to <b>IOleObject::SetMoniker</b>, an object should registe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmoniker">IOleObject::GetMoniker</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: e37ebff7-b44e-469d-81ab-7a6bd1a0c822
 ms.date: 12/05/2018
 ms.keywords: WaitForSingleObject, WaitForSingleObject function, _win32_waitforsingleobject, base.waitforsingleobject, synchapi/WaitForSingleObject, winbase/WaitForSingleObject
-f1_keywords:
-- synchapi/WaitForSingleObject
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- WaitForSingleObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WaitForSingleObject
+ - synchapi/WaitForSingleObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - WaitForSingleObject
 ---
 
 # WaitForSingleObject function
@@ -55,18 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits until the specified object is in the signaled state or the time-out interval elapses.
 
 To enter an alertable wait state, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a> function. To wait for multiple objects, use 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects">WaitForMultipleObjects</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hHandle [in]
 
@@ -80,7 +76,6 @@ If this handle is closed while the wait is still pending, the function's behavio
 The handle must have the <b>SYNCHRONIZE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
-
 ### -param dwMilliseconds [in]
 
 The time-out interval, in milliseconds. If a nonzero value is specified, the function waits until the object is signaled or the interval elapses. If <i>dwMilliseconds</i> is zero, the function does not enter a wait state if the object is not signaled; it always returns immediately. If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function will return only when the object is signaled.
@@ -89,10 +84,7 @@ The time-out interval, in milliseconds. If a nonzero value is specified, the fun
 
 <b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not keep counting down while the computer is asleep.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value indicates the event that caused the function to return. It can be one of the following values.
 
@@ -153,14 +145,8 @@ The function has failed. To get extended error information, call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WaitForSingleObject</b> function checks the current state of the specified object. If the object's state is nonsignaled, the calling thread enters the wait state until the object is signaled or the time-out interval elapses.
@@ -194,19 +180,11 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>
- 
-
- 
 

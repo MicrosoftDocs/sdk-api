@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a
 ms.date: 12/05/2018
 ms.keywords: MFDeserializeAttributesFromStream, MFDeserializeAttributesFromStream function [Media Foundation], cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a, mf.mfdeserializeattributesfromstream, mfobjects/MFDeserializeAttributesFromStream
-f1_keywords:
-- mfobjects/MFDeserializeAttributesFromStream
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFDeserializeAttributesFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFDeserializeAttributesFromStream
+ - mfobjects/MFDeserializeAttributesFromStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFDeserializeAttributesFromStream
 ---
 
 # MFDeserializeAttributesFromStream function
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Loads attributes from a stream into an attribute store.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pAttr
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
-
 ### -param dwOptions
 
 Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_serialize_options">MF_ATTRIBUTE_SERIALIZE_OPTIONS</a> enumeration.
-
 
 ### -param pStm
 
 Pointer to the <b>IStream</b> interface of the stream from which to read the attributes.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,14 +87,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this function to deserialize an attribute store that was serialized with the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a> function.
 
@@ -124,13 +106,7 @@ Otherwise, the function calls <b>CoUnmarshalInterface</b> to deserialize a proxy
 </ul>
 This function deletes any attributes that were previously stored in <i>pAttr</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
@@ -145,7 +121,4 @@ This function deletes any attributes that were previously stored in <i>pAttr</i>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

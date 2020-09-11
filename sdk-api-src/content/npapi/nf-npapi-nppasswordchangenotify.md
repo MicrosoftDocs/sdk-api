@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
 ms.date: 12/05/2018
 ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security], SvcCtl, WN_NT_PASSWORD_CHANGED, WN_VALID_LOGON_ACCOUNT, WinSta_0, _mnp_nppasswordchangenotify, npapi/NPPasswordChangeNotify, security.nppasswordchangenotify
-f1_keywords:
-- npapi/NPPasswordChangeNotify
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPPasswordChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPPasswordChangeNotify
+ - npapi/NPPasswordChangeNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPPasswordChangeNotify
 ---
 
 # NPPasswordChangeNotify function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 MPR calls this function to notify the credential manager of a password change event. The <b>NPPasswordChangeNotify</b> function is implemented by a credential manager DLL.
 
-
 ## -parameters
-
-
-
 
 ### -param lpAuthentInfoType [in]
 
@@ -74,8 +70,6 @@ Kerberos:Interactive
 
 ```
 
-
-
 ### -param lpAuthentInfo [in]
 
 Pointer to an structure that contains the new credentials. 
@@ -86,7 +80,6 @@ Pointer to an structure that contains the new credentials.
 When Microsoft is the primary authenticator (that is, when <i>lpAuthentifoType</i> is "MSV1_0:Interactive" or "Kerberos:Interactive"), the structure used is 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
-
 
 ### -param lpPreviousAuthentInfoType [in]
 
@@ -103,8 +96,6 @@ MSV1_0:Interactive
 
 ```
 
-
-
 ### -param lpPreviousAuthentInfo [in]
 
 Pointer to a structure that contains the credentials used before the authentication information change. Prior information is provided if the user was forced to change the password (or other authentication information) before logging on. If the user was not forced to change authentication information, this pointer is <b>NULL</b>. The values expected here are the same as those in <i>lpAuthentInfo</i>. 
@@ -115,7 +106,6 @@ Pointer to a structure that contains the credentials used before the authenticat
 When Microsoft is the primary authenticator, the structure used is 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
-
 
 ### -param lpStationName [in]
 
@@ -152,8 +142,6 @@ Indicates that this is a logon initiated by the service controller. <i>StationHa
 </td>
 </tr>
 </table>
- 
-
 
 ### -param StationHandle [in]
 
@@ -190,8 +178,6 @@ Random data. Do not use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwChangeInfo [in]
 
@@ -228,12 +214,8 @@ Some authentication information changes will only affect connections made in unt
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns WN_SUCCESS.
 
@@ -279,26 +261,14 @@ The credential manager is still initializing and is not ready to be called.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  <b>NPPasswordChangeNotify</b> function is implemented by credential managers to receive notifications when authentication information changes.
 
 <b>Windows Server 2003 and Windows XP:  </b><b>NPPasswordChangeNotify</b> is called on a computer a user is logging into if the password has been changed somewhere else. Note that this behavior is not supported beginning with Windows Vista and Windows Server 2008.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a>
 
@@ -309,7 +279,4 @@ The  <b>NPPasswordChangeNotify</b> function is implemented by credential manager
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f45d71e5-d125-477b-8fdf-f719a6c20101
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultMenuLanguage method, IDvdControl2.SelectDefaultMenuLanguage, IDvdControl2::SelectDefaultMenuLanguage, IDvdControl2SelectDefaultMenuLanguage, SelectDefaultMenuLanguage, SelectDefaultMenuLanguage method [DirectShow], SelectDefaultMenuLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultmenulanguage, strmif/IDvdControl2::SelectDefaultMenuLanguage
-f1_keywords:
-- strmif/IDvdControl2.SelectDefaultMenuLanguage
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectDefaultMenuLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectDefaultMenuLanguage
+ - strmif/IDvdControl2::SelectDefaultMenuLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectDefaultMenuLanguage
 ---
 
 # IDvdControl2::SelectDefaultMenuLanguage
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectDefaultMenuLanguage</code> method sets the default language for all menus and menu buttons.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Language
 
 Variable of type LCID that specifies the default language.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -112,14 +102,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method selects the default text language to use for menus when the disc is played. For example, if <i>Language</i> is specified as 0x409 for U.S. English, the DVD Navigator tries to show U.S. English text in menus. If the default menu language is not found on a disc, the DVD Navigator selects the closest match.
 
@@ -137,15 +121,8 @@ The following table shows the Annex J command name to which this method name cor
 <td>DVD_DOMAIN_Stop</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -156,7 +133,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
 

@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: c900fce9-4462-4429-a5a1-9f0d1e73c681
 ms.date: 12/05/2018
 ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],FormatForDisplay method, IPropertyDescription.FormatForDisplay, IPropertyDescription::FormatForDisplay, properties.IPropertyDescription_FormatForDisplay, propsys/IPropertyDescription::FormatForDisplay, shell.IPropertyDescription_FormatForDisplay, shell_IPropertyDescription_FormatForDisplay
-f1_keywords:
-- propsys/IPropertyDescription.FormatForDisplay
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyDescription.FormatForDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyDescription::FormatForDisplay
+ - propsys/IPropertyDescription::FormatForDisplay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyDescription.FormatForDisplay
 ---
 
 # IPropertyDescription::FormatForDisplay
@@ -48,14 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a formatted, Unicode string representation of a property value.
 
-
 ## -parameters
-
-
-
 
 ### -param propvar [in]
 
@@ -63,13 +59,11 @@ Type: <b>REFPROPVARIANT</b>
 
 A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the property.
 
-
 ### -param pdfFlags [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a></b>
 
 One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> flags, which are either bitwise or multiple values, that indicate the property string format.
-
 
 ### -param ppszDisplay [out]
 
@@ -97,10 +91,7 @@ Type: <b>LPWSTR*</b>
 
 When this method returns, contains the formatted value as a <b>null</b>-terminated, Unicode string. The calling application must allocate memory for the buffer, and use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the string specified by <i>pszText</i> when it is no longer needed.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -156,14 +147,8 @@ The copy operation failed due to insufficient space. The destination buffer is m
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must initialize Component Object Model (COM) with <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-formatfordisplay">IPropertyDescription::FormatForDisplay</a>.
 
@@ -284,22 +269,12 @@ For example, "f/5.6".
 <td>For example, "LITWARE05 (this computer)" or "testbox07".</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
- 
-
- 
 

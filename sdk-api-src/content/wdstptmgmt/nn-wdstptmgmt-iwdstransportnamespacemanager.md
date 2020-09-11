@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: de5fc470-af9f-4f9f-bc17-a347dc702e36
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceManager, IWdsTransportNamespaceManager interface [Windows Deployment Services], IWdsTransportNamespaceManager interface [Windows Deployment Services],described, wds.iwdstransportnamespacemanager, wdstptmgmt/IWdsTransportNamespaceManager
-f1_keywords:
-- wdstptmgmt/IWdsTransportNamespaceManager
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportNamespaceManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportNamespaceManager
+ - wdstptmgmt/IWdsTransportNamespaceManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportNamespaceManager
 ---
 
 # IWdsTransportNamespaceManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages namespaces on a WDS transport server.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Retrieves a collection of namespace objects that represent namespaces on the ser
 
 </td>
 </tr>
-</table> 
+</table>
 

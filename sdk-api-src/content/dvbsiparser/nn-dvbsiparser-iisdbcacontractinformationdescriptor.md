@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d877a625-d683-4472-98de-f24c165c753a
 ms.date: 12/05/2018
 ms.keywords: IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAContractInformationDescriptor, mstv.iisdbcacontractinformationdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbCAContractInformationDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbCAContractInformationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbCAContractInformationDescriptor
+ - dvbsiparser/IIsdbCAContractInformationDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbCAContractInformationDescriptor
 ---
 
 # IIsdbCAContractInformationDescriptor interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access  (CA) contract information descriptor. The conditional access contract information  descriptor appears in the ISDB Service Information as part of the event information iable (EIT) or service description table (SDT). The <b>IIsdbaCAContractInformationDescriptor</b> Interface is used to check whether a program scheduled
-for broadcast is a flator tiered-type service or event, or a pay-per-view event, and to check whether the program can be reserved for viewing or recording in advance. 
-
+for broadcast is a flator tiered-type service or event, or a pay-per-view event, and to check whether the program can be reserved for viewing or recording in advance.
 
 ## -inheritance
 
@@ -150,5 +149,5 @@ Gets the tag that identifies a conditional access contract information descripto
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d03b2f9d-560d-4357-9388-ed287f4cc8db
 ms.date: 12/05/2018
 ms.keywords: ISBE2GlobalEvent2, ISBE2GlobalEvent2 interface [Microsoft TV Technologies], ISBE2GlobalEvent2 interface [Microsoft TV Technologies],described, mstv.isbe2globalevent2, sbe/ISBE2GlobalEvent2
-f1_keywords:
-- sbe/ISBE2GlobalEvent2
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.h
-api_name:
-- ISBE2GlobalEvent2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2GlobalEvent2
+ - sbe/ISBE2GlobalEvent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.h
+api_name:
+ - ISBE2GlobalEvent2
 ---
 
 # ISBE2GlobalEvent2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Offers  access to global spanning events and their data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filters.  A <i>global spanning event</i> contains state information that applies to all the streams in a pipeline. This interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2globalevent">ISBE2GlobalEvent</a> interface.
-
 
 ## -inheritance
 
@@ -79,14 +78,9 @@ Gets an global spanning event and its data from a <a href="https://docs.microsof
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ISBE2GlobalEvent2)</code>.
-
-
 

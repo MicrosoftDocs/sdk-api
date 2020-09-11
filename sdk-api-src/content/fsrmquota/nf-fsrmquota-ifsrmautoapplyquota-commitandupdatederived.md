@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: f988b78d-214a-4f4f-81d4-d7f59fecb02a
 ms.date: 12/05/2018
 ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmAutoApplyQuota.CommitAndUpdateDerived, IFsrmAutoApplyQuota::CommitAndUpdateDerived, fs.ifsrmautoapplyquota_commitandupdatederived, fsrm.ifsrmautoapplyquota_commitandupdatederived, fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived
-f1_keywords:
-- fsrmquota/IFsrmAutoApplyQuota.CommitAndUpdateDerived
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmAutoApplyQuota.CommitAndUpdateDerived
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmAutoApplyQuota::CommitAndUpdateDerived
+ - fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmAutoApplyQuota.CommitAndUpdateDerived
 ---
 
 # IFsrmAutoApplyQuota::CommitAndUpdateDerived
@@ -49,30 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a> class.]
 
 Saves the quota and then applies any changes to the derived quotas.
 
-
 ## -parameters
-
-
-
 
 ### -param commitOptions [in]
 
 The options for saving the quota. For possible values, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
 
-
 ### -param applyOptions [in]
 
 The options used to choose the derived quotas to which the changes are applied. For possible values, see 
       the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmtemplateapplyoptions">FsrmTemplateApplyOptions</a> enumeration.
-
 
 ### -param derivedObjectsResult [out]
 
@@ -80,19 +74,11 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsr
       that you use to determine the list of derived objects that were updated and whether the update was 
       successful.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 In this context, a derived quota is any quota that is  applied to  a subdirectory of the automatic quota 
     directory. For example, if you create an automatic quota for <i>c:\folder1</i> and if 
@@ -121,19 +107,11 @@ For an example, see <a href="https://docs.microsoft.com/previous-versions/window
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmautoapplyquota">IFsrmAutoApplyQuota</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a>
- 
-
- 
 

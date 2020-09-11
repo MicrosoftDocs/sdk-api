@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 34992c64-9956-4b23-a979-df7f678405b5
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],Flush method, IMFSourceReader.Flush, IMFSourceReader::Flush, MF_SOURCE_READER_ALL_STREAMS, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_flush, mfreadwrite/IMFSourceReader::Flush
-f1_keywords:
-- mfreadwrite/IMFSourceReader.Flush
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReader.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReader::Flush
+ - mfreadwrite/IMFSourceReader::Flush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReader.Flush
 ---
 
 # IMFSourceReader::Flush
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Flushes one or more streams.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -112,21 +108,12 @@ All streams.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Flush</b> method discards all queued samples and cancels all pending sample requests.
 
@@ -142,20 +129,11 @@ In asynchronous mode, the application's <a href="https://docs.microsoft.com/wind
 <div> </div>
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
- 
-
- 
 

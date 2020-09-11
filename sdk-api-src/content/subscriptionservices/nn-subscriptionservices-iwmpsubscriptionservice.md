@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: cb9d0f20-d5ca-4db9-adcc-0a803f97f196
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService, IWMPSubscriptionService interface [Windows Media Player], IWMPSubscriptionService interface [Windows Media Player],described, IWMPSubscriptionServiceInterface, subscriptionservices/IWMPSubscriptionService, wmp.iwmpsubscriptionservice
-f1_keywords:
-- subscriptionservices/IWMPSubscriptionService
-dev_langs:
-- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- subscriptionservices.h
-api_name:
-- IWMPSubscriptionService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSubscriptionService
+ - subscriptionservices/IWMPSubscriptionService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - subscriptionservices.h
+api_name:
+ - IWMPSubscriptionService
 ---
 
 # IWMPSubscriptionService interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>IWMPSubscriptionService</b> interface provides methods to augment digital rights management (DRM) and initiate background processes when Windows Media Player opens premium content. These methods are implemented by the online store and called by Windows Media Player 9 Series or later.
-
-
-
 
 ## -inheritance
 
@@ -109,16 +105,9 @@ Initiates background processing tasks.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>
- 
-
- 
 

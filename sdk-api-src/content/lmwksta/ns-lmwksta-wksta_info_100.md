@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: c705dadd-cf55-44d9-bf36-09e078112479
 ms.date: 12/05/2018
 ms.keywords: '*LPWKSTA_INFO_100, *PWKSTA_INFO_100, LPWKSTA_INFO_100, LPWKSTA_INFO_100 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_100, PWKSTA_INFO_100 structure pointer [Network Management], WKSTA_INFO_100, WKSTA_INFO_100 structure [Network Management], _win32_wksta_info_100_str, lmwksta/LPWKSTA_INFO_100, lmwksta/PWKSTA_INFO_100, lmwksta/WKSTA_INFO_100, netmgmt.wksta_info_100_str'
-f1_keywords:
-- lmwksta/WKSTA_INFO_100
-dev_langs:
-- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmwksta.h
-api_name:
-- WKSTA_INFO_100
 targetos: Windows
 req.typenames: WKSTA_INFO_100, *PWKSTA_INFO_100, *LPWKSTA_INFO_100
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WKSTA_INFO_100
+ - lmwksta/_WKSTA_INFO_100
+ - PWKSTA_INFO_100
+ - lmwksta/PWKSTA_INFO_100
+ - WKSTA_INFO_100
+ - lmwksta/WKSTA_INFO_100
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmwksta.h
+api_name:
+ - WKSTA_INFO_100
 ---
 
 # WKSTA_INFO_100 structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WKSTA_INFO_100</b> structure contains information about a workstation environment, including platform-specific information, the names of the domain and the local computer, and information concerning the operating system.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wki100_platform_id
 
@@ -129,8 +129,6 @@ The VMS platform.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wki100_computername
 
@@ -140,7 +138,6 @@ A pointer to a string specifying the name of the local computer.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field wki100_langroup
 
 Type: <b>LMSTR</b>
@@ -149,13 +146,11 @@ A pointer to a string specifying the name of the domain to which the computer be
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field wki100_ver_major
 
 Type: <b>DWORD</b>
 
 The major version number of the operating system running on the computer.
-
 
 ### -field wki100_ver_minor
 
@@ -163,11 +158,7 @@ Type: <b>DWORD</b>
 
 The minor version number of the operating system running on the computer.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstagetinfo">NetWkstaGetInfo</a>
 
@@ -186,7 +177,4 @@ The minor version number of the operating system running on the computer.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
- 
-
- 
 

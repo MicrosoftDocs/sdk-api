@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c30a8b33-7783-4987-aa65-ccba476ea937
 ms.date: 12/05/2018
 ms.keywords: IXMLGraphBuilder, IXMLGraphBuilder interface [DirectShow], IXMLGraphBuilder interface [DirectShow],described, IXMLGraphBuilderInterface, amxmlgraphbuilder/IXMLGraphBuilder, dshow.ixmlgraphbuilder
-f1_keywords:
-- amxmlgraphbuilder/IXMLGraphBuilder
-dev_langs:
-- c++
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amxmlgraphbuilder.h
-api_name:
-- IXMLGraphBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLGraphBuilder
+ - amxmlgraphbuilder/IXMLGraphBuilder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amxmlgraphbuilder.h
+api_name:
+ - IXMLGraphBuilder
 ---
 
 # IXMLGraphBuilder interface
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IXMLGraphBuilder</b>  interface is used to persist a DirectShow filter graph using an XML file format.
 
 <div class="alert"><b>Note</b>  Support for this interface was removed in Windows 7. New applications should not use this interface.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -100,12 +97,9 @@ Saves a filter graph to an XML element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
  To get a pointer to this interface, call <b>CoCreateInstance</b> with the class identifier CLSID_XMLGraphBuilder.
 
@@ -120,6 +114,4 @@ The recommended way to save and load a filter graph is to use the GraphEdit file
 </li>
 </ul>
 Generally, you should persist a filter graph only for testing purposes and not for production. There is no consistently reliable way to reload a filter graph from a file, because the user's hardware and software configurations can change between sessions. Therefore, except for testing, an application should always build a filter graph programmatically.
-
-
 

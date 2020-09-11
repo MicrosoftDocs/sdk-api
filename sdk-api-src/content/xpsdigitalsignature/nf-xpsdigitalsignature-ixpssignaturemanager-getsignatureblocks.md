@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 6f7ba22f-7c3b-47bf-8cb5-2e4e4a548dc2
 ms.date: 12/05/2018
 ms.keywords: GetSignatureBlocks, GetSignatureBlocks method [XPS Documents and Packaging], GetSignatureBlocks method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureBlocks method, IXpsSignatureManager.GetSignatureBlocks, IXpsSignatureManager::GetSignatureBlocks, xps.ixpssignaturemanager_getsignatureblocks, xpsdigitalsignature/IXpsSignatureManager::GetSignatureBlocks
-f1_keywords:
-- xpsdigitalsignature/IXpsSignatureManager.GetSignatureBlocks
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignatureManager.GetSignatureBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignatureManager::GetSignatureBlocks
+ - xpsdigitalsignature/IXpsSignatureManager::GetSignatureBlocks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignatureManager.GetSignatureBlocks
 ---
 
 # IXpsSignatureManager::GetSignatureBlocks
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblockcollection">IXpsSignatureBlockCollection</a> interface that contains a collection of signature blocks.
 
-
 ## -parameters
-
-
-
 
 ### -param signatureBlocks [out, retval]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblockcollection">IXpsSignatureBlockCollection</a> interface that contains a collection of signature blocks.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372949(v=vs.85)">XPS Digital Signature API Errors</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -108,15 +101,8 @@ An XPS package has not yet been opened in the signature manager.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblockcollection">IXpsSignatureBlockCollection</a>
 
@@ -135,7 +121,4 @@ An XPS package has not yet been opened in the signature manager.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 76B5349E-EA51-422D-81BC-A93B85FBCF90
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnCurrentCellularClassChange method, IMbnMultiCarrierEvents.OnCurrentCellularClassChange, IMbnMultiCarrierEvents::OnCurrentCellularClassChange, OnCurrentCellularClassChange, OnCurrentCellularClassChange method [Microsoft Broadband Networks], OnCurrentCellularClassChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oncurrentcellularclasschange, mbnapi/IMbnMultiCarrierEvents::OnCurrentCellularClassChange
-f1_keywords:
-- mbnapi/IMbnMultiCarrierEvents.OnCurrentCellularClassChange
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnMultiCarrierEvents.OnCurrentCellularClassChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnMultiCarrierEvents::OnCurrentCellularClassChange
+ - mbnapi/IMbnMultiCarrierEvents::OnCurrentCellularClassChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnMultiCarrierEvents.OnCurrentCellularClassChange
 ---
 
 # IMbnMultiCarrierEvents::OnCurrentCellularClassChange
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 This notification method is called by the Mobile Broadband service to indicate the completion of a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getcurrentcellularclass">GetCurrentCellularClass</a> operation.
 
-
 ## -parameters
-
-
-
 
 ### -param mbnInterface [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> object that represents the Mobile Broadband device <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getcurrentcellularclass">GetCurrentCellularClass</a> operation.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -88,18 +82,8 @@ The operation  was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0f0ded09-7a7c-40bb-8198-b9f5058827d4
 ms.date: 12/05/2018
 ms.keywords: CreateBindCtx, CreateBindCtx function [COM], _com_CreateBindCtx, com.createbindctx, objbase/CreateBindCtx
-f1_keywords:
-- objbase/CreateBindCtx
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-OLE32-IE-l1-1-0.dll
-- ole32_wp.dll
-- Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
-api_name:
-- CreateBindCtx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateBindCtx
+ - objbase/CreateBindCtx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-OLE32-IE-l1-1-0.dll
+ - ole32_wp.dll
+ - Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
+api_name:
+ - CreateBindCtx
 ---
 
 # CreateBindCtx function
@@ -52,37 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a pointer to an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> (a bind context object). This object stores information about a particular moniker-binding operation.
 
-
 ## -parameters
-
-
-
 
 ### -param reserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ### -param ppbc [out]
 
 Address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>* pointer variable that receives the interface pointer to the new bind context object. When the function is successful, the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the bind context. A <b>NULL</b> value for the bind context indicates that an error occurred.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_OUTOFMEMORY and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 <b>CreateBindCtx</b> is most commonly used in the process of binding a moniker (locating and getting a pointer to an interface by identifying it through a moniker), as in the following steps:
 
@@ -120,13 +107,7 @@ grfMode = STGM_READWRITE
 dwTickCountDeadline = 0</code></pre>
 You can call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-setbindoptions">IBindCtx::SetBindOptions</a> method to modify these default values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
 
@@ -137,7 +118,4 @@ You can call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
- 
-
- 
 

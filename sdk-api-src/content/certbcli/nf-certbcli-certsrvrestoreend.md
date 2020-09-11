@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
-f1_keywords:
-- certbcli/CertSrvRestoreEnd
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvRestoreEnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvRestoreEnd
+ - certbcli/CertSrvRestoreEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvRestoreEnd
 ---
 
 # CertSrvRestoreEnd function
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvRestoreEnd</b> function ends a Certificate Services restore session.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to a Certificate Services backup context.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
-
-
-
 ## -remarks
-
-
 
 When a restore session is complete, terminate the session by calling <b>CertSrvRestoreEnd</b>. For every successful call to <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestorepreparew">CertSrvRestorePrepare</a>, there should be a call to <b>CertSrvRestoreEnd</b>.
 
@@ -112,21 +100,11 @@ if (FAILED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestorepreparew">CertSrvRestorePrepare</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
 

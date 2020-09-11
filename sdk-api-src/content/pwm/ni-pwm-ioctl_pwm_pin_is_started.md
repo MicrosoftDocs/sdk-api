@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3C03AF3B-B40D-4909-89B1-BDF783154C28
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
-f1_keywords:
-- pwm/IOCTL_PWM_PIN_IS_STARTED
-dev_langs:
-- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pwm.h
-api_name:
-- IOCTL_PWM_PIN_IS_STARTED
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_PWM_PIN_IS_STARTED
+ - pwm/IOCTL_PWM_PIN_IS_STARTED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pwm.h
+api_name:
+ - IOCTL_PWM_PIN_IS_STARTED
 ---
 
 # IOCTL_PWM_PIN_IS_STARTED IOCTL
@@ -49,55 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the state of signal generation for a pin or channel. Each pin has a state of started or stopped as a  <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-is-started-output">PWM_PIN_IS_STARTED_OUTPUT</a> structure.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Not used with this operation; set to NULL.
 
-
 ### -input-buffer-length
 
 Not used with this operation; set to zero.
-
 
 ### -output-buffer
 
 A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-is-started-output">PWM_PIN_IS_STARTED_OUTPUT</a> structure. This represents the state of the pin or channel. A value of True indicates that it is started, while a value of False indicates that it is stopped.
 
-
 ### -output-buffer-length
 
 The size of the output buffer, in bytes.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
@@ -109,10 +88,7 @@ If the operation fails or is pending,
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -259,18 +235,9 @@ For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/a
 </table>
  
 
-By default, a pin is started when opened and returns to stopped state when it is closed or released. 
-
-
-
+By default, a pin is started when opened and returns to stopped state when it is closed or released.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: d0feee2a-96f6-4c86-aaf8-f49d05616fc9
 ms.date: 12/05/2018
 ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], IUpdate interface [Windows Update Agent],described, wua.iupdate, wuapi/IUpdate
-f1_keywords:
-- wuapi/IUpdate
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate
+ - wuapi/IUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate
 ---
 
 # IUpdate interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the properties and methods that are available to an update.
-
 
 ## -inheritance
 
@@ -767,14 +766,9 @@ Gets an interface that contains the uninstallation steps for  the update.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 If the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_bundledupdates">BundledUpdates</a> property contains an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>, some properties and methods of the update may only be available on the bundled updates, for example, <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_downloadcontents">DownloadContents</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-copyfromcache">CopyFromCache</a>.
-
-
 

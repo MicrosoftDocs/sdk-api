@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: a3489f95-e790-481a-af6e-f30527dc476c
 ms.date: 12/05/2018
 ms.keywords: PSCreateAdapterFromPropertyStore, PSCreateAdapterFromPropertyStore function [Windows Properties], _shell_PSCreateAdapterFromPropertyStore, properties.PSCreateAdapterFromPropertyStore, propsys/PSCreateAdapterFromPropertyStore, shell.PSCreateAdapterFromPropertyStore
-f1_keywords:
-- propsys/PSCreateAdapterFromPropertyStore
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-- Ext-MS-Win-shell-propsys-l1-1-0.dll
-api_name:
-- PSCreateAdapterFromPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSCreateAdapterFromPropertyStore
+ - propsys/PSCreateAdapterFromPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+ - Ext-MS-Win-shell-propsys-l1-1-0.dll
+api_name:
+ - PSCreateAdapterFromPropertyStore
 ---
 
 # PSCreateAdapterFromPropertyStore function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an adapter from an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pps [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-prop
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object that represents the property store.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 Reference to an IID.
-
 
 ### -param ppv [out]
 
@@ -79,21 +73,13 @@ Type: <b>void**</b>
 
 When this function returns, contains the interface pointer requested in <i>riid</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The adapter object implements <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider">IObjectProvider</a>.
 
@@ -123,14 +109,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
 
@@ -141,7 +120,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatepropertystorefrompropertysetstorage">PSCreatePropertyStoreFromPropertySetStorage</a>
- 
-
- 
 

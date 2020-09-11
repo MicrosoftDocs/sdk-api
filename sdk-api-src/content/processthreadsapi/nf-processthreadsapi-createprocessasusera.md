@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
-f1_keywords:
-- processthreadsapi/CreateProcessAsUser
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,31 +25,36 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Processsecurity-l1-1-0.dll
-- Kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-Processthreads-l1-1-0.dll
-- API-MS-Win-Core-Processthreads-l1-1-1.dll
-- API-MS-Win-Core-Processthreads-l1-1-2.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- CreateProcessAsUser
-- CreateProcessAsUserA
-- CreateProcessAsUserW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateProcessAsUserA
+ - processthreadsapi/CreateProcessAsUserA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Processsecurity-l1-1-0.dll
+ - Kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Processthreads-l1-1-0.dll
+ - API-MS-Win-Core-Processthreads-l1-1-1.dll
+ - API-MS-Win-Core-Processthreads-l1-1-2.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - CreateProcessAsUser
+ - CreateProcessAsUserA
+ - CreateProcessAsUserW
 ---
 
 # CreateProcessAsUserA function
@@ -61,17 +62,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.
 
 Typically, the process that calls the 
 <b>CreateProcessAsUser</b> function must have the <b>SE_INCREASE_QUOTA_NAME</b> privilege and may require the <b>SE_ASSIGNPRIMARYTOKEN_NAME</b> privilege if the token is  not assignable. If this function fails with <b>ERROR_PRIVILEGE_NOT_HELD</b> (1314), use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprocesswithlogonw">CreateProcessWithLogonW</a> function instead. <b>CreateProcessWithLogonW</b> requires no special privileges, but the specified user account must be allowed to log on interactively. Generally, it is best to use <b>CreateProcessWithLogonW</b> to create a process with alternate credentials.
 
-
 ## -parameters
-
-
-
 
 ### -param hToken [in, optional]
 
@@ -92,7 +88,6 @@ If <i>hToken</i> is a restricted version of the caller's primary token, the <b>S
 <b>Terminal Services:  </b>The process is run in the session specified in the token. By default, this is the same session that called <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>. To change the session, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a> function.
 
-
 ### -param lpApplicationName [in, optional]
 
 The name of the module to be executed. This module can be a Windows-based application. It can be some other type of module (for example, MS-DOS or OS/2) if the appropriate subsystem is available on the local computer. 
@@ -111,7 +106,6 @@ The <i>lpApplicationName</i> parameter can be <b>NULL</b>. In that case, the mod
 If the executable module is a 16-bit application, <i>lpApplicationName</i> should be <b>NULL</b>, and the string pointed to by <i>lpCommandLine</i> should specify the executable module as well as its arguments. By default, all 16-bit Windows-based applications created by 
 <b>CreateProcessAsUser</b> are run in a separate VDM (equivalent to <b>CREATE_SEPARATE_WOW_VDM</b> in 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>).
-
 
 ### -param lpCommandLine [in, out, optional]
 
@@ -137,17 +131,14 @@ If <i>lpApplicationName</i> is <b>NULL</b>, the first white space–delimited to
 </ol>
 The system adds a null character to the command line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
 
-
 ### -param lpProcessAttributes [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new process object and determines whether child processes can inherit the returned handle to the process. If <i>lpProcessAttributes</i> is <b>NULL</b> or <b>lpSecurityDescriptor</b> is <b>NULL</b>, the process gets a default security descriptor and the handle cannot be inherited. The default security descriptor is that of the user referenced in the <i>hToken</i> parameter. This security descriptor may not allow access for the caller, in which case the process may not be opened again after it is run. The process handle is valid and will continue to have full access rights.
 
-
 ### -param lpThreadAttributes [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread object and determines whether child processes can inherit the returned handle to the thread. If <i>lpThreadAttributes</i> is <b>NULL</b> or <b>lpSecurityDescriptor</b> is <b>NULL</b>, the thread gets a default security descriptor and the handle cannot be inherited. The default security descriptor is that of the user referenced in the <i>hToken</i> parameter. This security descriptor may not allow access for the caller.
-
 
 ### -param bInheritHandles [in]
 
@@ -157,7 +148,6 @@ For additional discussion of inheritable handles, see Remarks.
 <b>Terminal Services:  </b>You cannot inherit handles across sessions. Additionally, if this parameter is <b>TRUE</b>, you must create the process in the same session as the caller.
 
 <b>Protected Process Light (PPL) processes:  </b>The generic handle inheritance is blocked when a PPL process creates a non-PPL process since PROCESS_DUP_HANDLE is not allowed from a non-PPL process to a PPL process. See <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>
-
 
 ### -param dwCreationFlags [in]
 
@@ -169,7 +159,6 @@ The flags that control the priority class and the creation of the process. For a
 
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to <b>NORMAL_PRIORITY_CLASS</b> unless the priority class of the creating process is <b>IDLE_PRIORITY_CLASS</b> or <b>BELOW_NORMAL_PRIORITY_CLASS</b>. In this case, the child process receives the default priority class of the calling process.
-
 
 ### -param lpEnvironment [in, optional]
 
@@ -197,13 +186,11 @@ Note that an ANSI environment block is terminated by two zero bytes: one for the
 To retrieve a copy of the environment block for a given user, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a> function.
 
-
 ### -param lpCurrentDirectory [in, optional]
 
 The full path to the current directory for the process. The string can also specify a UNC path. 
 
 If this parameter is NULL, the new process will have the same current drive and directory as the calling process. (This feature is provided primarily for shells that need to start an application and specify its initial drive and working directory.)
-
 
 ### -param lpStartupInfo [in]
 
@@ -234,24 +221,16 @@ Handles in
 <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-Note that the function returns before the process has finished initialization. If a required DLL cannot be located or fails to initialize, the process is terminated. To get the termination status of a process, call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a>. 
-
-
-
+Note that the function returns before the process has finished initialization. If a required DLL cannot be located or fails to initialize, the process is terminated. To get the termination status of a process, call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a>.
 
 ## -remarks
-
-
 
 <b>CreateProcessAsUser</b> must be able to open the primary token of the calling process with the <b>TOKEN_DUPLICATE</b> and <b>TOKEN_IMPERSONATE</b> access rights.
 
@@ -330,9 +309,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -406,7 +382,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fd7b8ce0-3c67-48fb-8e7e-521a6b438676
 ms.date: 12/05/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_ENSURE_TRAILING_SLASH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchCanonicalizeEx, PathCchCanonicalizeEx function [Windows Shell], pathcch/PathCchCanonicalizeEx, shell.PathCchCanonicalizeEx
-f1_keywords:
-- pathcch/PathCchCanonicalizeEx
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchCanonicalizeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchCanonicalizeEx
+ - pathcch/PathCchCanonicalizeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchCanonicalizeEx
 ---
 
 # PathCchCanonicalizeEx function
+
 
 ## -description
 
@@ -247,9 +249,7 @@ The following examples show the effect of these strings.
 </tr>
 </table>
 
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>
-
 

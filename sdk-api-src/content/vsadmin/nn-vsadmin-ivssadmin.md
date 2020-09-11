@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6128d627-380b-4fef-b58a-caf8f149f526
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin, IVssAdmin interface [VSS], IVssAdmin interface [VSS],described, base.ivssadmin, vsadmin/IVssAdmin
-f1_keywords:
-- vsadmin/IVssAdmin
-dev_langs:
-- c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsAdmin.h
-api_name:
-- IVssAdmin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssAdmin
+ - vsadmin/IVssAdmin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsAdmin.h
+api_name:
+ - IVssAdmin
 ---
 
 # IVssAdmin interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssAdmin</b> interface manages providers registered 
    with VSS.
-
 
 ## -inheritance
 
@@ -105,16 +104,9 @@ Unregisters an existing provider.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
- 
-
- 
 

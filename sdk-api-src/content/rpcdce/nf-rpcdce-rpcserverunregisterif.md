@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: bcaf4a0d-8a0d-4016-ab6e-9e1a0fd65d4b
 ms.date: 12/05/2018
 ms.keywords: RpcServerUnregisterIf, RpcServerUnregisterIf function [RPC], _rpc_rpcserverunregisterif, rpc.rpcserverunregisterif, rpcdce/RpcServerUnregisterIf
-f1_keywords:
-- rpcdce/RpcServerUnregisterIf
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerUnregisterIf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerUnregisterIf
+ - rpcdce/RpcServerUnregisterIf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerUnregisterIf
 ---
 
 # RpcServerUnregisterIf function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerUnregisterIf</b> function removes an interface from the RPC run-time library registry.
 
-
 ## -parameters
-
-
-
 
 ### -param IfSpec
 
@@ -67,7 +63,6 @@ Interface to remove from the registry.
 
 
 Specify a <b>null</b> value to remove all interfaces previously registered with the type UUID value specified in the <i>MgrTypeUuid</i> parameter.
-
 
 ### -param MgrTypeUuid
 
@@ -82,7 +77,6 @@ Specify a <b>null</b> value to remove the interface specified in the <i>IfSpec</
 
 Specify a nil UUID to remove the MIDL-generated default manager EPV from the registry. In this case, all manager EPVs registered with a non-nil type UUID remain registered.
 
-
 ### -param WaitForCallsToComplete
 
 Flag that indicates whether to remove the interface from the registry immediately or to wait until all current calls are complete. 
@@ -92,10 +86,7 @@ Flag that indicates whether to remove the interface from the registry immediatel
 
 Specify a value of zero to disregard calls in progress and remove the interface from the registry immediately. Specify any nonzero value to wait until all active calls complete.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -142,11 +133,7 @@ The interface is unknown.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server calls 
 <b>RpcServerUnregisterIf</b> to remove the association between an interface and a manager EPV. To specify the manager EPV to remove in the <i>MgrTypeUuid</i> parameter, provide the type UUID value that was specified in a call to 
@@ -194,12 +181,7 @@ The following table summarizes the behavior of
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a> for more details.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-mgr-epv">RPC_MGR_EPV</a>
 
@@ -222,7 +204,4 @@ The following table summarizes the behavior of
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverunregisterifex">RpcServerUnregisterIfEx</a>
- 
-
- 
 

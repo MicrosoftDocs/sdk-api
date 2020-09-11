@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 4f4ec7d9-da77-4d34-89aa-a73250c0e610
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage1, IXpsOMPage1 interface [XPS Documents and Packaging], IXpsOMPage1 interface [XPS Documents and Packaging],described, xps.ixpsompage1, xpsobjectmodel_1/IXpsOMPage1
-f1_keywords:
-- xpsobjectmodel_1/IXpsOMPage1
-dev_langs:
-- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- none
-- none.dll
-api_name:
-- IXpsOMPage1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage1
+ - xpsobjectmodel_1/IXpsOMPage1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - none
+ - none.dll
+api_name:
+ - IXpsOMPage1
 ---
 
 # IXpsOMPage1 interface
 
 
 ## -description
-
 
 Inherits from IXpsOMPage. 
 
@@ -58,7 +58,6 @@ Provides support for:
 Detecting the type of XPS FixedPage markup which this page was loaded from.
 
 Serializing page objects to markup of the requested type - MSXPS or OpenXps.
-
 
 ## -inheritance
 
@@ -84,28 +83,16 @@ Gets the type of FixedPage markup that was used to initialize this page. This me
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="Additional_References"></a><a id="additional_references"></a><a id="ADDITIONAL_REFERENCES"></a>Additional References</h3>
 The base interface is defined and documented in Windows 7 SDK.
 
 http://msdn.microsoft.com/en-us/library/dd372635(v=VS.85).aspx
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
- 
-
- 
 

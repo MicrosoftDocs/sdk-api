@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: d92785a2-e04c-4968-b515-019205180915
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],QueryStateVariable method, IUPnPService.QueryStateVariable, IUPnPService::QueryStateVariable, QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
-f1_keywords:
-- upnp/IUPnPService.QueryStateVariable
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPService.QueryStateVariable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPService::QueryStateVariable
+ - upnp/IUPnPService::QueryStateVariable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPService.QueryStateVariable
 ---
 
 # IUPnPService::QueryStateVariable
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>QueryStateVariable</b> method returns the value of the specified service's state variable.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrVariableName [in]
 
 Specifies the state variable for which to return a value.
-
 
 ### -param pValue [out]
 
@@ -72,12 +67,8 @@ Receives a reference to the value of the variable specified by <i>bstrVariableNa
 
 
 To free this parameter, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
-						
-
 
 ## -returns
-
-
 
 If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns either one of the COM error codes defined in WinError.h or one of the UPnP-specific return values listed in the following table. Some of these values indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.
 
@@ -154,14 +145,8 @@ The variable is evented, but the UPnP software cannot return a value because it 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The UPnP Forum discourages use of this method. If possible, use a service-specific action, if one has been provided.
 
@@ -177,19 +162,11 @@ If an application invokes this method for a service that does not use events, an
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 42117632-61aa-4f83-abe1-c08f40cf3f0a
 ms.date: 12/05/2018
 ms.keywords: SetFirmwareEnvironmentVariable, SetFirmwareEnvironmentVariable function, SetFirmwareEnvironmentVariableA, SetFirmwareEnvironmentVariableW, base.setfirmwareenvironmentvariable, winbase/SetFirmwareEnvironmentVariable, winbase/SetFirmwareEnvironmentVariableA, winbase/SetFirmwareEnvironmentVariableW
-f1_keywords:
-- winbase/SetFirmwareEnvironmentVariable
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-firmware-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- SetFirmwareEnvironmentVariable
-- SetFirmwareEnvironmentVariableA
-- SetFirmwareEnvironmentVariableW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFirmwareEnvironmentVariableW
+ - winbase/SetFirmwareEnvironmentVariableW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-firmware-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - SetFirmwareEnvironmentVariable
+ - SetFirmwareEnvironmentVariableA
+ - SetFirmwareEnvironmentVariableW
 ---
 
 # SetFirmwareEnvironmentVariableW function
@@ -54,50 +55,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the value of the specified firmware environment variable.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
 The name of the firmware environment variable. The pointer must not be <b>NULL</b>.
 
-
 ### -param lpGuid [in]
 
 The GUID that represents the namespace of the firmware environment variable. The GUID must be a string in the format  "{<i>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</i>}". If the system does not support GUID-based namespaces, this parameter is ignored.
-
 
 ### -param pValue [in]
 
 A pointer to the new value for the  firmware environment variable.
 
-
 ### -param nSize [in]
 
 The size of the <i>pBuffer</i> buffer, in bytes. If this parameter is zero, the firmware environment variable is deleted.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include ERROR_INVALID_FUNCTION.
 
-
-
-
 ## -remarks
-
-
 
 Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>for details.
 
@@ -120,9 +105,6 @@ Firmware variables are not supported on a legacy BIOS-based system. The <b>SetFi
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>
 
 
@@ -137,7 +119,4 @@ Firmware variables are not supported on a legacy BIOS-based system. The <b>SetFi
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
- 
-
- 
 

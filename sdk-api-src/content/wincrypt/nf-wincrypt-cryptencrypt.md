@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 697c4960-552b-4c3a-95cf-4632af56945b
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OAEP, CryptEncrypt, CryptEncrypt function [Security], _crypto2_cryptencrypt, security.cryptencrypt, wincrypt/CryptEncrypt
-f1_keywords:
-- wincrypt/CryptEncrypt
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptEncrypt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptEncrypt
+ - wincrypt/CryptEncrypt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptEncrypt
 ---
 
 # CryptEncrypt function
 
 
 ## -description
-
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptEncrypt</b> function encrypts data. The algorithm used to encrypt the data is designated by the key held by the CSP module and is referenced by the <i>hKey</i> parameter.
 
@@ -60,12 +60,7 @@ Important changes to support <a href="https://docs.microsoft.com/windows/desktop
 <div class="alert"><b>Important</b>  The <b>CryptEncrypt</b> function is not guaranteed to be thread safe and may return incorrect results if invoked simultaneously by multiple callers.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -74,7 +69,6 @@ A handle to the encryption key. An application obtains this handle by using eith
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> function.
 
 The key specifies the encryption algorithm used.
-
 
 ### -param hHash [in]
 
@@ -87,11 +81,9 @@ Before calling <b>CryptEncrypt</b>, the application must obtain a handle to the 
 
 If no hash is to be done, this parameter must be <b>NULL</b>.
 
-
 ### -param Final [in]
 
 A Boolean value that specifies whether this is the last section in a series being encrypted. <i>Final</i> is set to <b>TRUE</b> for the last or only block and to <b>FALSE</b> if there are more blocks to be encrypted. For more information, see  Remarks.
-
 
 ### -param dwFlags [in]
 
@@ -113,8 +105,6 @@ Use Optimal Asymmetric Encryption Padding (OAEP)  (PKCS #1 version 2). This flag
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbData [in, out]
 
@@ -123,7 +113,6 @@ A pointer to a buffer that contains the plaintext to be encrypted.  The plaintex
 The <i>pdwDataLen</i> parameter points to a variable that contains the length, in bytes, of the plaintext. The <i>dwBufLen</i> parameter contains the total size, in bytes, of this buffer.
 
 If this parameter contains <b>NULL</b>, this function will calculate the required size for the ciphertext and place that in the value pointed to by the <i>pdwDataLen</i> parameter.
-
 
 ### -param pdwDataLen [in, out]
 
@@ -136,7 +125,6 @@ If <i>pbData</i> is <b>NULL</b>, no error is returned, and the function stores t
 
 When a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block cipher</a> is used, this data length must be a multiple of the block size unless this is the final section of data to be encrypted and the <i>Final</i> parameter is <b>TRUE</b>.
 
-
 ### -param dwBufLen [in]
 
 Specifies the total size, in bytes, of the input <i>pbData</i> buffer.
@@ -145,10 +133,7 @@ Note that, depending on the algorithm used, the encrypted text can be larger tha
 
 As a rule, if a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">stream cipher</a> is used, the ciphertext is the same size as the plaintext. If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block cipher</a> is used, the ciphertext is up to a block length larger than the plaintext.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 						
@@ -307,15 +292,8 @@ The CSP ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 If a large amount of data is to be encrypted, it can be done in sections by calling <b>CryptEncrypt</b> repeatedly. The <i>Final</i> parameter must be set to <b>TRUE</b> on the last call to <b>CryptEncrypt</b>, so that the encryption engine can properly finish the encryption process. The following extra actions are performed when <i>Final</i> is <b>TRUE</b>:
 
@@ -360,12 +338,7 @@ For examples that use this function, see  <a href="https://docs.microsoft.com/wi
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
@@ -400,7 +373,4 @@ For examples that use this function, see  <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Encryption and Decryption Functions</a>
- 
-
- 
 

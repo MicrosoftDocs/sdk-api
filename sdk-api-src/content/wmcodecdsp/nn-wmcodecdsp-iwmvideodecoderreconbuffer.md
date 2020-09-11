@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: e2a4600e-3d55-42f1-804c-8dc5bdf5daec
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderReconBuffer, IWMVideoDecoderReconBuffer interface [Media Foundation], IWMVideoDecoderReconBuffer interface [Media Foundation],described, codecapi.iwmvideodecoderreconbufferinterface, mf.iwmvideodecoderreconbuffer, mf.iwmvideodecoderreconbufferinterface, wmcodecdsp/IWMVideoDecoderReconBuffer
-f1_keywords:
-- wmcodecdsp/IWMVideoDecoderReconBuffer
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMVideoDecoderReconBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMVideoDecoderReconBuffer
+ - wmcodecdsp/IWMVideoDecoderReconBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMVideoDecoderReconBuffer
 ---
 
 # IWMVideoDecoderReconBuffer interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is obsolete and should not be used.</div>
 <div> </div>
 Manages reconstructed video frames.
-
-
-
 
 ## -inheritance
 
@@ -100,16 +96,9 @@ Restores the current reconstructed video frame. This method is obsolete and shou
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

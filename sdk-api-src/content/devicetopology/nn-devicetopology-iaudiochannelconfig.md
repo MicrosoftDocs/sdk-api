@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47
 ms.date: 12/05/2018
 ms.keywords: IAudioChannelConfig, IAudioChannelConfig interface [Core Audio], IAudioChannelConfig interface [Core Audio],described, coreaudio.iaudiochannelconfig, devicetopology/IAudioChannelConfig
-f1_keywords:
-- devicetopology/IAudioChannelConfig
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IAudioChannelConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioChannelConfig
+ - devicetopology/IAudioChannelConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IAudioChannelConfig
 ---
 
 # IAudioChannelConfig interface
 
 
 ## -description
-
-
 
 The <b>IAudioChannelConfig</b> interface provides access to a hardware channel-configuration control. The client obtains a reference to the <b>IAudioChannelConfig</b> interface of a subunit by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IAudioChannelConfig. The call to IPart::Activate succeeds only if the subunit supports the <b>IAudioChannelConfig</b> interface. Only a subunit object that represents a hardware channel-configuration control will support this interface.
 
@@ -60,9 +59,6 @@ A client of the <b>IAudioChannelConfig</b> interface programs a hardware channel
 <li>The white paper titled "Audio Driver Support for Home Theater Speaker Configurations" at the <a href="https://www.microsoft.com/whdc/device/audio/default.mspx">Audio Device Technologies for Windows</a> website.</li>
 </ul>
 Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioChannelConfig</b> interface provides convenient access to the KSPROPERTY_AUDIO_CHANNEL_CONFIG property of a subunit that has a subtype GUID value of KSNODETYPE_3D_EFFECTS, KSNODETYPE_DAC, KSNODETYPE_VOLUME, or KSNODETYPE_PROLOGIC_DECODER. To obtain the subtype GUID of a subunit, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
-
-
-
 
 ## -inheritance
 
@@ -97,13 +93,9 @@ Sets the channel-configuration mask in a channel-configuration control.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -114,7 +106,4 @@ Sets the channel-configuration mask in a channel-configuration control.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 6998f0c6-adc9-481f-b9fb-75f9c9f5caaf
 ms.date: 12/05/2018
 ms.keywords: SD_BOTH, SD_RECEIVE, SD_SEND, _win32_shutdown_2, shutdown, shutdown function [Winsock], winsock.shutdown_2, winsock/shutdown
-f1_keywords:
-- winsock2/shutdown
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Webhost.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-- wsock32.dll
-api_name:
-- shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - shutdown
+ - winsock2/shutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+ - wsock32.dll
+api_name:
+ - shutdown
 ---
 
 # shutdown function
@@ -50,20 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>shutdown</b> function disables sends or receives on a socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a socket.
-
 
 ### -param how [in]
 
@@ -108,12 +103,8 @@ Shutdown both send and receive operations.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If no error occurs, 
 <b>shutdown</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -218,14 +209,8 @@ A successful
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>shutdown</b> function is used on all types of sockets to disable reception, transmission, or both.
@@ -305,13 +290,7 @@ There are important issues associated with connection teardown when using Asynch
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>
 
@@ -350,7 +329,4 @@ There are important issues associated with connection teardown when using Asynch
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4F509D34-23C3-4034-8D89-0A2E0651F235
 ms.date: 12/05/2018
 ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
-f1_keywords:
-- mfidl/IMFSensorDevice.GetDeviceAttributes
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorDevice.GetDeviceAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorDevice::GetDeviceAttributes
+ - mfidl/IMFSensorDevice::GetDeviceAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorDevice.GetDeviceAttributes
 ---
 
 # IMFSensorDevice::GetDeviceAttributes
@@ -52,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the sensor group. 
-
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the sensor group.
 
 ## -parameters
-
-
-
 
 ### -param ppAttributes [out]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface representing the internal attribute store of the sensor device.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -113,27 +106,12 @@ The sensor device has not been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The object returned is a copy of the internal attribute store and so changes made to the returned attributes have no effect on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8edb99d3-5860-4d78-a750-1df34cdfc313
 ms.date: 12/05/2018
 ms.keywords: IQueryAssociations, IQueryAssociations interface [Windows Shell], IQueryAssociations interface [Windows Shell],described, _win32_IQueryAssociations, shell.IQueryAssociations, shlwapi/IQueryAssociations
-f1_keywords:
-- shlwapi/IQueryAssociations
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IQueryAssociations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueryAssociations
+ - shlwapi/IQueryAssociations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IQueryAssociations
 ---
 
 # IQueryAssociations interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that simplify the process of retrieving information stored in the registry in association with defining a file type or protocol and associating it with an application.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Initializes the <b>IQueryAssociations</b> interface and sets the root key to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 This interface is exposed by the Shell or by namespace extensions to simplify handling file and protocol associations. You should not implement this interface.
@@ -134,13 +130,7 @@ To use this interface, you must first retrieve a pointer to it. Typically, you r
 
 The <b>IQueryAssociations</b> interface is useful if you need to repeatedly query the registry for information. Once the interface is initialized, the overhead of calling the various methods is relatively small. There are also several related functions, listed in the See Also section, that allow you to retrieve the same information from the registry with a single function call. While they are simpler to use, they cause the overhead of creating and initializing <b>IQueryAssociations</b> each time they are called. Because of this, they are best suited for single use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocquerykeya">AssocQueryKey</a>
 
@@ -151,7 +141,4 @@ The <b>IQueryAssociations</b> interface is useful if you need to repeatedly quer
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocquerystringbykeya">AssocQueryStringByKey</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_67m11_m12_m21_m22_dx_dy.htm
 ms.date: 12/05/2018
 ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Matrix.Matrix(REAL,REAL,REAL,REAL,REAL,REAL), Matrix::Matrix, Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_, gdiplus._gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_
-f1_keywords:
-- gdiplusmatrix/Matrix.Matrix
-dev_langs:
-- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Matrix.Matrix
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Matrix::Matrix
+ - gdiplusmatrix/Matrix::Matrix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Matrix.Matrix
 ---
 
 # Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
@@ -50,61 +51,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and initializes a <b>Matrix::Matrix</b> object based on six numbers that define an affine transformation.
 
-
 ## -parameters
-
-
-
 
 ### -param m11 [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the first row, first column. 
-
+Real number that specifies the element in the first row, first column.
 
 ### -param m12 [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the first row, second column. 
-
+Real number that specifies the element in the first row, second column.
 
 ### -param m21 [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the second row, first column. 
-
+Real number that specifies the element in the second row, first column.
 
 ### -param m22 [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the second row, second column. 
-
+Real number that specifies the element in the second row, second column.
 
 ### -param dx [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the third row, first column. 
-
+Real number that specifies the element in the third row, first column.
 
 ### -param dy [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the third row, second column. 
-
+Real number that specifies the element in the third row, second column.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-global-and-local-transformations-about">Global and Local Transformations</a>
 
@@ -123,7 +110,4 @@ Real number that specifies the element in the third row, second column.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

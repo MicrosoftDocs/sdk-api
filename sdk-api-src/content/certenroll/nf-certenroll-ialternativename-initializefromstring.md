@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7b5f7dd3-00dc-474b-8920-45a3acded209
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],InitializeFromString method, IAlternativeName.InitializeFromString, IAlternativeName::InitializeFromString, InitializeFromString, InitializeFromString method [Security], InitializeFromString method [Security],IAlternativeName interface, XCN_CERT_ALT_NAME_DNS_NAME, XCN_CERT_ALT_NAME_REGISTERED_ID, XCN_CERT_ALT_NAME_RFC822_NAME, XCN_CERT_ALT_NAME_URL, XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, certenroll/IAlternativeName::InitializeFromString, security.ialternativename_initializefromstring_method
-f1_keywords:
-- certenroll/IAlternativeName.InitializeFromString
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IAlternativeName.InitializeFromString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAlternativeName::InitializeFromString
+ - certenroll/IAlternativeName::InitializeFromString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IAlternativeName.InitializeFromString
 ---
 
 # IAlternativeName::InitializeFromString
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromString</b> method initializes the object from a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).
 
-
 ## -parameters
-
-
-
 
 ### -param Type [in]
 
@@ -123,28 +119,18 @@ The name is a UPN.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strValue [in]
 
 A <b>BSTR</b> variable that contains the name.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 If you use this method to specify a UPN, the UPN is associated with the XCN_OID_NT_PRINCIPAL_NAME (1.3.6.1.4.1.311.20.2.3) OID and is <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_rawdata">RawData</a> property to retrieve the encoded byte array. You can retrieve the OID by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_objectid">ObjectId</a> property.
 
@@ -180,13 +166,7 @@ If you use this method to specify any of the following name types, the method re
 
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromothername">InitializeFromOtherName</a> method to specify an OID and a corresponding name string, and you can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromrawdata">InitializeFromRawData</a> method to specify a GUID, IP address, or X.500 directory name.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
 
@@ -197,7 +177,4 @@ You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionalternativenames">IX509ExtensionAlternativeNames</a>
- 
-
- 
 

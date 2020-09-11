@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5
 ms.date: 12/05/2018
 ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Security],described, _certsrv_icertexit, certexit/ICertExit, security.icertexit
-f1_keywords:
-- certexit/ICertExit
-dev_langs:
-- c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certexit.h
-api_name:
-- ICertExit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertExit
+ - certexit/ICertExit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certexit.h
+api_name:
+ - ICertExit
 ---
 
 # ICertExit interface
 
 
 ## -description
-
 
 The <b>ICertExit</b> interface  provides communications between  the Certificate Services server and an exit module.
 <div class="alert"><b>Note</b>  The exit module can communicate with the Certificate Services server by using the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> interface.</div><div> </div>The Certificate Services server calls the <b>ICertExit</b> methods to perform the following tasks:<ul>
@@ -61,7 +61,6 @@ The <b>ICertExit</b> interface  provides communications between  the Certificate
 <b>ICertExit</b> is defined in Certexit.h. When you create your program, however, use Certsrv.h as the include file.
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -102,12 +101,9 @@ Called by the server engine when it initializes itself.</p> (Inherited from <b>I
 Called by the server engine to notify an exit module that an event has occurred.</p> (Inherited from <b>ICertExit</b><a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
 <a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">CCertExit2</a>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Implementers of <b>ICertExit</b> should also implement 
 <a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>. Additionally, the ProgID for a class implementing <b>ICertExit</b> must conform to a naming convention. Specifically, the ProgID must be of the form:
@@ -157,20 +153,11 @@ Implementers of <b>ICertExit</b> in Visual Basic Scripting Edition must name the
 
 Where <i>MyApp</i> is a specifier that identifies the application; further, the class implementing <b>ICertExit</b> must be named <b>"Exit"</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

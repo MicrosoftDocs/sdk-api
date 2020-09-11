@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f4fdde49-0867-4967-b975-f43bd9f6adc4
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [TAPI 2.2], GetID method [TAPI 2.2],ITLegacyAddressMediaControl interface, ITLegacyAddressMediaControl interface [TAPI 2.2],GetID method, ITLegacyAddressMediaControl.GetID, ITLegacyAddressMediaControl::GetID, _tapi3_itlegacyaddressmediacontrol_getid, tapi3.itlegacyaddressmediacontrol_getid, tapi3if/ITLegacyAddressMediaControl::GetID
-f1_keywords:
-- tapi3if/ITLegacyAddressMediaControl.GetID
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyAddressMediaControl.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyAddressMediaControl::GetID
+ - tapi3if/ITLegacyAddressMediaControl::GetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyAddressMediaControl.GetID
 ---
 
 # ITLegacyAddressMediaControl::GetID
@@ -49,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetID</b> method returns a device identifier for the specified device class associated with the current address.
 
 This method is intended for C/C++ applications only. There is no corresponding method available for Visual Basic and scripting applications.
 
-
 ## -parameters
-
-
-
 
 ### -param pDeviceClass [in]
 
 Pointer to <b>BSTR</b> containing 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-device-classes">TAPI device class</a> for which configuration information is needed.
 
-
 ### -param pdwSize [out]
 
 Length of device identifier returned.
-
 
 ### -param ppDeviceID [out]
 
 Device identifier.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,14 +113,8 @@ The <i>pdwSize</i> or <i>ppDeviceID</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a> prior to calling this method.
@@ -143,14 +128,7 @@ The application must call the
 
 <b>TAPI 2.1 Cross-References:  </b><a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-getdevconfig">GetDevConfig</a>
 
@@ -165,7 +143,4 @@ The application must call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-setdevconfig">SetDevConfig</a>
- 
-
- 
 

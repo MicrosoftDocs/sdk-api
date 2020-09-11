@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: d6a303b4-5540-45d3-b3c2-9b98b58a90bb
 ms.date: 12/05/2018
 ms.keywords: CurrentProviderDescription property [Windows Accessibility], CurrentProviderDescription property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentProviderDescription property, IUIAutomationElement.CurrentProviderDescription, IUIAutomationElement.get_CurrentProviderDescription, IUIAutomationElement::CurrentProviderDescription, IUIAutomationElement::get_CurrentProviderDescription, get_CurrentProviderDescription, uiauto.uiauto_IUIAutomationElement_CurrentProviderDescription, uiauto_IUIAutomationElement_CurrentProviderDescription, uiautomationclient/IUIAutomationElement::CurrentProviderDescription, uiautomationclient/IUIAutomationElement::get_CurrentProviderDescription, winauto.uiauto_IUIAutomationElement_CurrentProviderDescription
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.CurrentProviderDescription
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.CurrentProviderDescription
-- IUIAutomationElement.get_CurrentProviderDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::get_CurrentProviderDescription
+ - uiautomationclient/IUIAutomationElement::get_CurrentProviderDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.CurrentProviderDescription
+ - IUIAutomationElement.get_CurrentProviderDescription
 ---
 
 # IUIAutomationElement::get_CurrentProviderDescription
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a description of the provider for this element.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
@@ -77,7 +72,4 @@ This property is read-only.
 
 
 <b>Reference</b>
- 
-
- 
 

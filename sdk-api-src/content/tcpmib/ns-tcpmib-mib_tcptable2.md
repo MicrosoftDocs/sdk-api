@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: e07de994-0bd5-4d18-9012-8ff191dd6939
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCPTABLE2, MIB_TCPTABLE2, MIB_TCPTABLE2 structure [MIB], PMIB_TCPTABLE2, PMIB_TCPTABLE2 structure pointer [MIB], mib.mib_tcptable2, tcpmib/MIB_TCPTABLE2, tcpmib/PMIB_TCPTABLE2'
-f1_keywords:
-- tcpmib/MIB_TCPTABLE2
-dev_langs:
-- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpmib.h
-api_name:
-- MIB_TCPTABLE2
 targetos: Windows
 req.typenames: MIB_TCPTABLE2, *PMIB_TCPTABLE2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_TCPTABLE2
+ - tcpmib/_MIB_TCPTABLE2
+ - PMIB_TCPTABLE2
+ - tcpmib/PMIB_TCPTABLE2
+ - MIB_TCPTABLE2
+ - tcpmib/MIB_TCPTABLE2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpmib.h
+api_name:
+ - MIB_TCPTABLE2
 ---
 
 # MIB_TCPTABLE2 structure
@@ -49,30 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_TCPTABLE2</b> structure contains a table of IPv4 TCP connections on the local computer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumEntries
 
 The number of entries in the table.
-
 
 ### -field table
 
 A pointer to a table of TCP connections implemented as an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow2">MIB_TCPROW2</a> structures.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable2">GetTcpTable2</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <b>MIB_TCPTABLE2</b> structure. An array of <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow2">MIB_TCPROW2</a> structures are contained in the <b>MIB_TCPTABLE2</b> structure. 
 
@@ -237,14 +233,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
 
@@ -287,7 +276,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 313508e5-a9b2-42b8-bb2f-d191944d0939
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], IATSCTuningSpace interface [Microsoft TV Technologies],described, IATSCTuningSpaceInterface, mstv.iatsctuningspace, tuner/IATSCTuningSpace
-f1_keywords:
-- tuner/IATSCTuningSpace
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IATSCTuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSCTuningSpace
+ - tuner/IATSCTuningSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IATSCTuningSpace
 ---
 
 # IATSCTuningSpace interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IATSCTuningSpace</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsctuningspace-object">ATSCTuningSpace</a> objects, which represent any tuning space with an ATSC network type. Microsoft provides a default ATSC tuning space with Windows XP, and also with DirectX 9.0. Third parties such as cable providers may install a custom tuning space using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer</a> interface. An ATSCTuningSpace object creates tune requests that expose <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatscchanneltunerequest">IATSCChannelTuneRequest</a>.
-
-
-
 
 ## -inheritance
 
@@ -143,12 +139,9 @@ Sets the lowest physical channel number ever allowed for this tuning space.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If the minimum and maximum channels are set, and the user specifies a channel that is greater than the maximum, the tuner automatically wraps around to the minimum value.
 
@@ -156,20 +149,11 @@ To set the minimum and maximum major channel, call <a href="https://docs.microso
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IATSCTuningSpace)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

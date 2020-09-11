@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 7ecf585c-ff3b-4f89-8a7d-e2de66650ab4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElementArray, IUIAutomationElementArray interface [Windows Accessibility], IUIAutomationElementArray interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationElementArray, uiauto_IUIAutomationElementArray, uiautomationclient/IUIAutomationElementArray, winauto.uiauto_IUIAutomationElementArray
-f1_keywords:
-- uiautomationclient/IUIAutomationElementArray
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationElementArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElementArray
+ - uiautomationclient/IUIAutomationElementArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationElementArray
 ---
 
 # IUIAutomationElementArray interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a collection of UI Automation elements.
-
 
 ## -inheritance
 
@@ -102,16 +101,9 @@ Retrieves the number of elements in the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: fdc5a2f5-c44a-4cb3-b206-a598bd60024b
 ms.date: 12/05/2018
 ms.keywords: MsiOpenProduct, MsiOpenProduct function, MsiOpenProductA, MsiOpenProductW, _msi_msiopenproduct, msi/MsiOpenProduct, msi/MsiOpenProductA, msi/MsiOpenProductW, setup.msiopenproduct
-f1_keywords:
-- msi/MsiOpenProduct
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiOpenProduct
-- MsiOpenProductA
-- MsiOpenProductW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiOpenProductA
+ - msi/MsiOpenProductA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiOpenProduct
+ - MsiOpenProductA
+ - MsiOpenProductW
 ---
 
 # MsiOpenProductA function
 
 
 ## -description
-
 
 The 
 <b>MsiOpenProduct</b> function opens a product for use with the functions that access the product database. The 
@@ -60,22 +60,15 @@ The
 
 ## -parameters
 
-
-
-
 ### -param szProduct [in]
 
 Specifies the product code of the product to be opened.
-
 
 ### -param hProduct [out]
 
 Pointer to a variable that receives the product handle.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -154,19 +147,9 @@ The product code was unrecognized.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
- 
-
- 
 
 ## -remarks
 

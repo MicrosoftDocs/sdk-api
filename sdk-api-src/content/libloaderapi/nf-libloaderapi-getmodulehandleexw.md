@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 951c7e6e-1d6d-4393-a675-d2b353c53b87
 ms.date: 12/05/2018
 ms.keywords: GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, GET_MODULE_HANDLE_EX_FLAG_PIN, GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT, GetModuleHandleEx, GetModuleHandleEx function, GetModuleHandleExA, GetModuleHandleExW, _win32_getmodulehandleex, base.getmodulehandleex, libloaderapi/GetModuleHandleEx, libloaderapi/GetModuleHandleExA, libloaderapi/GetModuleHandleExW, winbase/GetModuleHandleEx, winbase/GetModuleHandleExA, winbase/GetModuleHandleExW
-f1_keywords:
-- libloaderapi/GetModuleHandleEx
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
-- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-- vertdll.dll
-api_name:
-- GetModuleHandleEx
-- GetModuleHandleExA
-- GetModuleHandleExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetModuleHandleExW
+ - libloaderapi/GetModuleHandleExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+ - vertdll.dll
+api_name:
+ - GetModuleHandleEx
+ - GetModuleHandleExA
+ - GetModuleHandleExW
 ---
 
 # GetModuleHandleExW function
@@ -60,14 +61,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a module handle for the specified module and increments the module's reference count unless GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT is specified. The module must have been loaded by the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -103,7 +99,6 @@ The reference count for the module is not incremented. This option is equivalent
 
 This option cannot be used with GET_MODULE_HANDLE_EX_FLAG_PIN.
 
-
 ### -param lpModuleName [in, optional]
 
 The name of the loaded module (either a .dll or .exe file), or an address in the module (if <i>dwFlags</i> is GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS). 
@@ -114,7 +109,6 @@ The name of the loaded module (either a .dll or .exe file), or an address in the
 For a module name, if the file name extension is omitted, the default library extension .dll is appended. The file name string can include a trailing point character (.) to indicate that the module name has no extension. The string does not have to specify a path. When specifying a path, be sure to use backslashes (\), not forward slashes (/). The name is compared (case independently) to the names of modules currently mapped into the address space of the calling process.
 
 If this parameter is NULL, the function returns a handle to the file used to create the calling process (.exe file).
-
 
 ### -param phModule [out]
 
@@ -149,22 +143,14 @@ The reference count for the module is not incremented. This option is equivalent
 
 This option cannot be used with GET_MODULE_HANDLE_EX_FLAG_PIN.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The handle returned is not global or inheritable. It cannot be duplicated or used by another process.
 
@@ -187,9 +173,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0501
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
 
 
@@ -207,7 +190,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0501
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 53b7c4fd-a3bc-4e15-b2f6-380cae8ab2f6
 ms.date: 12/05/2018
 ms.keywords: 53b7c4fd-a3bc-4e15-b2f6-380cae8ab2f6, IMFASFStreamConfig interface [Media Foundation],SetMediaType method, IMFASFStreamConfig.SetMediaType, IMFASFStreamConfig::SetMediaType, SetMediaType, SetMediaType method [Media Foundation], SetMediaType method [Media Foundation],IMFASFStreamConfig interface, mf.imfasfstreamconfig_setmediatype, wmcontainer/IMFASFStreamConfig::SetMediaType
-f1_keywords:
-- wmcontainer/IMFASFStreamConfig.SetMediaType
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFStreamConfig.SetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFStreamConfig::SetMediaType
+ - wmcontainer/IMFASFStreamConfig::SetMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFStreamConfig.SetMediaType
 ---
 
 # IMFASFStreamConfig::SetMediaType
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the media type for the Advanced Systems Format (ASF) stream configuration object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIMediaType [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a configured media type object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,24 +80,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Some validation of the media type is performed by this method. However, a media type can be successfully set, but cause an error when the stream is added to the profile.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
 
@@ -118,7 +96,4 @@ Some validation of the media type is performed by this method. However, a media 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\gettransform_34matrix.htm
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetTransform method, LinearGradientBrush.GetTransform, LinearGradientBrush::GetTransform, _gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_
-f1_keywords:
-- gdiplusbrush/LinearGradientBrush.GetTransform
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- LinearGradientBrush.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - LinearGradientBrush::GetTransform
+ - gdiplusbrush/LinearGradientBrush::GetTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - LinearGradientBrush.GetTransform
 ---
 
 # LinearGradientBrush::GetTransform
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>LinearGradientBrush::GetTransform</b> method gets the transformation matrix of this linear gradient brush. 
-
+The <b>LinearGradientBrush::GetTransform</b> method gets the transformation matrix of this linear gradient brush.
 
 ## -parameters
-
-
-
 
 ### -param matrix [out]
 
 Type: <b>Matrix*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that receives the transformation matrix. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that receives the transformation matrix.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -78,12 +71,7 @@ If the method succeeds, it returns Ok, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 A 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object maintains a transformation matrix that can store any affine transformation. When you use a linear gradient brush to fill an area, GDI+ transforms the brush's boundary lines according to the brush's transformation matrix and then fills the area. The transformed boundaries exist only during rendering; the boundaries stored in the 
@@ -127,14 +115,7 @@ VOID Example_GetTransform(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -169,7 +150,4 @@ VOID Example_GetTransform(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

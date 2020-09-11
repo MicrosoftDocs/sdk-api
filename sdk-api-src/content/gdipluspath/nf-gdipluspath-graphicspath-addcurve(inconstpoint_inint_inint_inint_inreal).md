@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddcurvemethods\addcurve_5pointpoints_intcount_intoffset_intnumbe.htm
 ms.date: 12/05/2018
 ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddCurve method, GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const Point,IN INT,IN INT,IN INT,IN REAL), GraphicsPath.AddCurve(const Point*,INT,INT,INT,REAL), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const Point,IN INT,IN INT,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_INT_offset_INT_numberOfSegments_REAL_ten, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_INT_offset_INT_numberOfSegments_REAL_ten
-f1_keywords:
-- gdipluspath/GraphicsPath.AddCurve
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPath.AddCurve
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPath::AddCurve
+ - gdipluspath/GraphicsPath::AddCurve
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPath.AddCurve
 ---
 
 # GraphicsPath::AddCurve(IN const Point,IN INT,IN INT,IN INT,IN REAL)
@@ -50,53 +51,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphicsPath::AddCurve</b> method adds a cardinal spline to the current figure of this path.
 
-
 ## -parameters
-
-
-
 
 ### -param points [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>*</b>
 
-Pointer to an array of points that define the cardinal spline. The cardinal spline is a curve that passes through a subset (specified by the <i>offset</i> and <i>numberOfSegments</i> parameters) of the points in the array. 
-
+Pointer to an array of points that define the cardinal spline. The cardinal spline is a curve that passes through a subset (specified by the <i>offset</i> and <i>numberOfSegments</i> parameters) of the points in the array.
 
 ### -param count [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the number of elements in the <i>points</i> array. 
-
+Integer that specifies the number of elements in the <i>points</i> array.
 
 ### -param offset [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the index of the array element that is used as the first point of the cardinal spline. 
-
+Integer that specifies the index of the array element that is used as the first point of the cardinal spline.
 
 ### -param numberOfSegments [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the number of segments in the cardinal spline. Segments are the curves that connect consecutive points in the array. 
-
+Integer that specifies the number of segments in the cardinal spline. Segments are the curves that connect consecutive points in the array.
 
 ### -param tension [in]
 
 Type: <b>REAL</b>
 
-Nonnegative real number that controls the length of the curve and how the curve bends. A value of 0 specifies that the spline is a sequence of straight line segments. As the value increases, the curve becomes fuller. 
-
+Nonnegative real number that controls the length of the curve and how the curve bends. A value of 0 specifies that the spline is a sequence of straight line segments. As the value increases, the curve becomes fuller.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -104,12 +93,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 You should keep a copy of the <i>points</i> array if those points will be needed later. The <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object does not store the points passed to the <b>AddClosedCurve</b> method; instead, it converts the cardinal spline to a sequence of Bézier splines and stores the points that define those Bézier splines. You cannot retrieve the original array of points from the 
 				<b>GraphicsPath</b> object.
@@ -151,14 +135,7 @@ VOID AddCurveExample2(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-addbezier(inconstpoint__inconstpoint__inconstpoint__inconstpoint_)">AddBezier Methods</a>
 
@@ -205,7 +182,4 @@ VOID AddCurveExample2(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
- 
-
- 
 

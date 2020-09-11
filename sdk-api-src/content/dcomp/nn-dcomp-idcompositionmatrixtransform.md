@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 150e33f2-3d76-44a8-b2fe-5a2b4a532c3c
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform, IDCompositionMatrixTransform interface [DirectComposition], IDCompositionMatrixTransform interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform, directcomp.idcompositionmatrixtransform
-f1_keywords:
-- dcomp/IDCompositionMatrixTransform
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionMatrixTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionMatrixTransform
+ - dcomp/IDCompositionMatrixTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionMatrixTransform
 ---
 
 # IDCompositionMatrixTransform interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an arbitrary affine 2D transformation defined by a 3-by-2 matrix.
-
-
-
 
 ## -inheritance
 
@@ -87,20 +84,13 @@ Changes all values of the matrix of this 2D transform.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
- 
-
- 
 

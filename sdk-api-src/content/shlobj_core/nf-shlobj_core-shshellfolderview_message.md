@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f5722a4f-d830-4c31-9275-13e800408681
 ms.date: 12/05/2018
 ms.keywords: SHShellFolderView_Message, SHShellFolderView_Message function [Windows Shell], _win32_SHShellFolderView_Message, shell.SHShellFolderView_Message, shlobj_core/SHShellFolderView_Message
-f1_keywords:
-- shlobj_core/SHShellFolderView_Message
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHShellFolderView_Message
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHShellFolderView_Message
+ - shlobj_core/SHShellFolderView_Message
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHShellFolderView_Message
 ---
 
 # SHShellFolderView_Message function
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHShellFolderView_Message</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Sends a message to the shell's default <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> implementation (DefView).
 
-
 ## -parameters
-
-
-
 
 ### -param hwndMain [in]
 
 Type: <b>HWND</b>
 
 A handle to the window that receives the message.
-
 
 ### -param uMsg
 
@@ -129,8 +124,6 @@ The message to send. The following is a list of possible messages.
 <td>Updates an object by passing a pointer to an array of two PIDLs.</td>
 </tr>
 </table>
- 
-
 
 ### -param lParam
 
@@ -138,25 +131,13 @@ Type: <b>LPARAM</b>
 
 Contents of this value depend on the message passed in <i>uMsg</i>. See individual message topics for more information.
 
-
 ## -returns
-
-
 
 Type: <b>LRESULT</b>
 
 The return value depends on the message passed in <i>uMsg</i>. See individual message topics for more information.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: f78526b4-977a-4dde-8a2f-7ae0a1c5c7f9
 ms.date: 12/05/2018
 ms.keywords: ApplyViewState, ApplyViewState method [COM], ApplyViewState method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],ApplyViewState method, IOleDocumentView.ApplyViewState, IOleDocumentView::ApplyViewState, _ole_ioledocumentview_applyviewstate, com.ioledocumentview_applyviewstate, docobj/IOleDocumentView::ApplyViewState
-f1_keywords:
-- docobj/IOleDocumentView.ApplyViewState
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.ApplyViewState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::ApplyViewState
+ - docobj/IOleDocumentView::ApplyViewState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.ApplyViewState
 ---
 
 # IOleDocumentView::ApplyViewState
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a view with view state previously saved in call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pstm [in]
 
 A pointer to a stream containing data from which the view should initialize itself.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -97,24 +90,12 @@ This view has no meaningful state to load. This error should be rare because mos
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Typically, this function is called after an existing view has been created in the container but before that view has been displayed. It is the responsibility of the view to validate the data in the view stream; the container does not attempt to interpret the view's state data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-createview">IOleDocument::CreateView</a>
 
@@ -125,7 +106,4 @@ Typically, this function is called after an existing view has been created in th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>
- 
-
- 
 

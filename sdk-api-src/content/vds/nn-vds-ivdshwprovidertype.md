@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 24bd634e-96e1-4f2a-a70b-3aae734c75f9
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderType, IVdsHwProviderType interface [VDS], IVdsHwProviderType interface [VDS],described, base.ivdshwprovidertype, vds/IVdsHwProviderType, vdshwprv/IVdsHwProviderType
-f1_keywords:
-- vds/IVdsHwProviderType
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsHwProviderType
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsHwProviderType
+ - vds/IVdsHwProviderType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsHwProviderType
 ---
 
 # IVdsHwProviderType interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to retrieve the type of hardware provider.
-
 
 ## -inheritance
 
@@ -78,20 +77,13 @@ The <b>IVdsHwProviderType</b> interface has these methods.
 <td align="left" width="63%">
 Retrieves the type of the hardware provider.</p> (Inherited from <b>IVdsHwProviderType</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/provider-object">Provider Object</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

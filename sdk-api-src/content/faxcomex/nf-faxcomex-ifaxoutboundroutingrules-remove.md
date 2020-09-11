@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7bs5.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],Remove method, IFaxOutboundRoutingRules.Remove, IFaxOutboundRoutingRules::Remove, Remove, Remove method [Fax Service], Remove method [Fax Service],IFaxOutboundRoutingRules interface, _mfax_faxoutboundroutingrules.remove, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_remove_cpp, fax._mfax_faxoutboundroutingrules_remove, faxcomex/IFaxOutboundRoutingRules::Remove
-f1_keywords:
-- faxcomex/IFaxOutboundRoutingRules.Remove
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutboundRoutingRules.Remove
-- IFaxOutboundRoutingRules.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutboundRoutingRules::Remove
+ - faxcomex/IFaxOutboundRoutingRules::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutboundRoutingRules.Remove
+ - IFaxOutboundRoutingRules.Remove
 ---
 
 # IFaxOutboundRoutingRules::Remove
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxOutboundRoutingRules::Remove</b> method removes an outbound routing rule (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> collection using the routing rule's index.
 
-
 ## -parameters
-
-
-
 
 ### -param lIndex
 
@@ -65,33 +61,19 @@ Type: <b>long</b>
 
 A <b>long</b> value that specifies the index of the outbound routing rule to remove from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of rules returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-count-vb">IFaxOutboundRoutingRules::get_Count</a> method.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The default outbound routing rule cannot be removed.
 
 To use this method, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farMANAGE_CONFIG</a> access right.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a>
 
@@ -102,7 +84,4 @@ To use this method, a user must have the <a href="https://docs.microsoft.com/pre
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
- 
-
- 
 

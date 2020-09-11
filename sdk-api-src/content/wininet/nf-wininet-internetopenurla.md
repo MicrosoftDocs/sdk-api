@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 73f969c3-3fa7-43f5-88c5-ba78e59a8d1c
 ms.date: 12/05/2018
 ms.keywords: InternetOpenUrl, InternetOpenUrl function [WinINet], InternetOpenUrlA, InternetOpenUrlW, _inet_internetopenurl_function, wininet.internetopenurl, wininet/InternetOpenUrl, wininet/InternetOpenUrlA, wininet/InternetOpenUrlW
-f1_keywords:
-- wininet/InternetOpenUrl
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetOpenUrl
-- InternetOpenUrlA
-- InternetOpenUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetOpenUrlA
+ - wininet/InternetOpenUrlA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetOpenUrl
+ - InternetOpenUrlA
+ - InternetOpenUrlW
 ---
 
 # InternetOpenUrlA function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a resource specified by a complete FTP or HTTP URL.
 
-
 ## -parameters
-
-
-
 
 ### -param hInternet [in]
 
 The handle to the current Internet session. The handle must have been returned by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a>.
 
-
 ### -param lpszUrl [in]
 
 A pointer to a <b>null</b>-terminated string variable that specifies the URL to begin reading. Only URLs beginning with ftp:, http:, or https: are supported.
-
 
 ### -param lpszHeaders [in]
 
@@ -77,13 +71,11 @@ A pointer to a <b>null</b>-terminated string  that specifies the headers to be s
 <i>lpszHeaders</i> parameter in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> function.
 
-
 ### -param dwHeadersLength [in]
 
 The size of the additional headers, in <b>TCHARs</b>. If this parameter is -1L and 
 <i>lpszHeaders</i> is not <b>NULL</b>, 
 <i>lpszHeaders</i> is assumed to be zero-terminated (ASCIIZ) and the length is calculated.
-
 
 ### -param dwFlags [in]
 
@@ -312,28 +304,18 @@ Uses secure transaction semantics. This translates to using Secure Sockets Layer
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwContext [in]
 
 A pointer to a variable that specifies the application-defined value that is passed, along with the returned handle, to any callback functions.
 
-
 ## -returns
-
-
 
 Returns a valid handle to the URL if the connection is successfully established, or <b>NULL</b> if the connection fails. To retrieve a specific error message, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. To determine why access to the service was denied, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a>.
 
-
-
-
 ## -remarks
-
-
 
 Call 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcanonicalizeurla">InternetCanonicalizeUrl</a> first if the URL being used contains a relative URL and a base URL separated by blank spaces.
@@ -367,15 +349,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

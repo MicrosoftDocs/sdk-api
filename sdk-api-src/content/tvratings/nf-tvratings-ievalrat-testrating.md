@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 26144496-200c-49b8-9f5e-23a39fea20bc
 ms.date: 12/05/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],TestRating method, IEvalRat.TestRating, IEvalRat::TestRating, IEvalRatTestRating, TestRating, TestRating method [Microsoft TV Technologies], TestRating method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_testrating, tvratings/IEvalRat::TestRating
-f1_keywords:
-- tvratings/IEvalRat.TestRating
-dev_langs:
-- c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tvratings.h
-api_name:
-- IEvalRat.TestRating
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEvalRat::TestRating
+ - tvratings/IEvalRat::TestRating
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tvratings.h
+api_name:
+ - IEvalRat.TestRating
 ---
 
 # IEvalRat::TestRating
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TestRating</b> method determines whether a program with the specified rating should be blocked.
 
-
 ## -parameters
-
-
-
 
 ### -param enShowSystem [in]
 
 Specifies the rating system, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
 
-
 ### -param enShowLevel [in]
 
 Specifies the rating level, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
-
 
 ### -param lbfEnShowAttributes [in]
 
 Bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. The flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -118,14 +109,8 @@ This program is allowed and should not be blocked.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application sets viewing permissions through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockedratingattributes">IEvalRat::put_BlockedRatingAttributes</a> method. Whenever the Decrypter/Detagger filter receives a new rating in a program, it calls <b>TestRating</b> to determine whether to block the program. If <b>TestRating</b> returns S_OK, the rating is restricted under the current set of viewing permissions, and the Decrypter/Tagger filter blocks the program.
 
@@ -157,17 +142,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>
- 
-
- 
 

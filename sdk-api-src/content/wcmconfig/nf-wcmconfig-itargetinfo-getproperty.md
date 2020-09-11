@@ -8,10 +8,6 @@ tech.root: SMI
 ms.assetid: f4366d23-e2dd-4561-af79-870212631ebf
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [SMI], GetProperty method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetProperty method, ITargetInfo.GetProperty, ITargetInfo::GetProperty, smi.itargetinfo_getproperty, wcmconfig/ITargetInfo::GetProperty
-f1_keywords:
-- wcmconfig/ITargetInfo.GetProperty
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ITargetInfo.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITargetInfo::GetProperty
+ - wcmconfig/ITargetInfo::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ITargetInfo.GetProperty
 ---
 
 # ITargetInfo::GetProperty
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a property value for the offline installation location.
 
-
 ## -parameters
-
-
-
 
 ### -param Offline [in]
 
 <b>True</b> if the installation location is offline.
 
-
 ### -param Property [in]
 
 The name of the property.
-
 
 ### -param Value [out]
 
 The value of the property.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,18 +109,8 @@ Indicates that there are insufficient resources to return information to the use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
- 
-
- 
 

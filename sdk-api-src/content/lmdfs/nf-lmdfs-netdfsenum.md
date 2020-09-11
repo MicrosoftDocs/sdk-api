@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: c05a8d78-41f4-4c19-a25e-ef4885869584
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 200, 3, 300, 4, 5, 6, 8, 9, NetDfsEnum, NetDfsEnum function [Distributed File System], _win32_netdfsenum, dfs.netdfsenum, fs.netdfsenum, lmdfs/NetDfsEnum, netmgmt.netdfsenum
-f1_keywords:
-- lmdfs/NetDfsEnum
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetDfsEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetDfsEnum
+ - lmdfs/NetDfsEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetDfsEnum
 ---
 
 # NetDfsEnum function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the Distributed File System (DFS) namespaces hosted on a server or DFS links of a namespace hosted by 
     a server.
 
-
 ## -parameters
-
-
-
 
 ### -param DfsName [in]
 
@@ -94,7 +90,6 @@ where <i>DomainName</i> is the name of the domain that hosts the domain-based DF
        <i>link_path</i> is a DFS link.
 
 You can precede the string with backslashes (\\), but they are not required. This parameter is required.
-
 
 ### -param Level [in]
 
@@ -182,7 +177,6 @@ Return the stand-alone and domain-based DFS namespaces hosted by a server. The
         <i>Buffer</i> parameter points to an array of 
         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_300">DFS_INFO_300</a> structures.
 
-
 ### -param PrefMaxLen [in]
 
 Specifies the number of bytes that should be returned by this function in the information structure buffer. 
@@ -190,26 +184,20 @@ Specifies the number of bytes that should be returned by this function in the in
       For more information, see the following Remarks section. This parameter is ignored if you specify level 200 or 
       level 300.
 
-
 ### -param Buffer [out]
 
 Pointer to a buffer that receives the requested information structures. The format of this data depends on the value of the <i>Level</i> parameter. This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
-
 ### -param EntriesRead [out]
 
 Pointer to a value that receives the actual number of entries returned in the response.
-
 
 ### -param ResumeHandle [in, out]
 
 Pointer to a value that contains a handle to be used for continuing an enumeration when more data is available than can be returned in a single call to this function. The handle should be zero on the first call and left unchanged for subsequent calls.  For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
@@ -218,12 +206,7 @@ If no more entries are available to be enumerated, the return value is <b>ERROR_
 If the function fails, the return value is a system error code. For a list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 No special group membership is required for using the 
 <b>NetDfsEnum</b> function.
@@ -325,14 +308,7 @@ void wmain(int argc, wchar_t *argv[ ])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_1">DFS_INFO_1</a>
 
@@ -385,7 +361,4 @@ void wmain(int argc, wchar_t *argv[ ])
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
     Overview</a>
- 
-
- 
 

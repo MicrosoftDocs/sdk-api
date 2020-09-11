@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ae52e81e-4de1-480c-82bf-c9629064970c
 ms.date: 12/05/2018
 ms.keywords: IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], IATSC_ETT interface [Microsoft TV Technologies],described, IATSC_ETTInterface, atscpsipparser/IATSC_ETT, mstv.iatsc_ett
-f1_keywords:
-- atscpsipparser/IATSC_ETT
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_ETT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_ETT
+ - atscpsipparser/IATSC_ETT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_ETT
 ---
 
 # IATSC_ETT interface
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IATSC_ETT</b> interface enables the client to get information from an extended text table (ETT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getett">IAtscPsipParser::GetETT</a> method returns a pointer to this interface.
 
 An ETT provides text descriptions for events or virtual channels. Each ETT contains a single extended text message (ETM) stream. The ETM stream might contain descriptions for multiple languages.
-
-
-
 
 ## -inheritance
 
@@ -121,16 +117,9 @@ Initializes the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

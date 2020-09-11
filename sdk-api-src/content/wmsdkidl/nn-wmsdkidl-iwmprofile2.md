@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 34e30edb-3247-4eaa-9a63-6d94c9e37c0b
 ms.date: 12/05/2018
 ms.keywords: IWMProfile2, IWMProfile2 interface [windows Media Format], IWMProfile2 interface [windows Media Format],described, IWMProfile2Interface, wmformat.iwmprofile2, wmsdkidl/IWMProfile2
-f1_keywords:
-- wmsdkidl/IWMProfile2
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMProfile2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile2
+ - wmsdkidl/IWMProfile2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMProfile2
 ---
 
 # IWMProfile2 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMProfile2</b> interface exposes the globally unique identifier for a system profile. System profiles have associated identifiers, but custom profiles do not.
 
 As with <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a>, <b>IWMProfile2</b> is included in profile objects as well as in reader and synchronous reader objects. To obtain a pointer to an <b>IWMProfile2</b> interface, call the <b>QueryInterface</b> method of any interface in one of these objects. For more information, see <b>IWMProfile Interface</b>.
-
-
-
 
 ## -inheritance
 
@@ -86,12 +82,7 @@ Retrieves the globally unique identifier of the profile.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
@@ -110,7 +101,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/working-with-profiles">Working with Profiles</a>
- 
-
- 
 

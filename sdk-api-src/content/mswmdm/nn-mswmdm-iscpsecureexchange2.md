@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 815fd9b9-2186-40e2-8d72-e6bf91fd45c9
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange2, ISCPSecureExchange2 interface [windows Media Device Manager], ISCPSecureExchange2 interface [windows Media Device Manager],described, ISCPSecureExchange2Interface, mswmdm/ISCPSecureExchange2, wmdm.iscpsecureexchange2
-f1_keywords:
-- mswmdm/ISCPSecureExchange2
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- ISCPSecureExchange2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCPSecureExchange2
+ - mswmdm/ISCPSecureExchange2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - ISCPSecureExchange2
 ---
 
 # ISCPSecureExchange2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ISCPSecureExchange2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a> by providing a new version of the <b>TransferContainerData</b> method. <b>TransferContainerData2</b> accepts a progress callback on which the secure content provider can send progress notifications for any of the steps it needs to carry out.
-
-
-
 
 ## -inheritance
 
@@ -80,13 +76,9 @@ Transfers container file data to the secure content provider.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
 
@@ -97,7 +89,4 @@ Transfers container file data to the secure content provider.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
- 
-
- 
 

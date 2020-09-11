@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmpi.htm
 ms.date: 12/05/2018
 ms.keywords: _win32_lstrcmpi, _win32_lstrcmpi_cpp, lstrcmpi, lstrcmpi function [Menus and Other Resources], lstrcmpiA, lstrcmpiW, menurc.lstrcmpi, winbase/lstrcmpi, winbase/lstrcmpiA, winbase/lstrcmpiW, winui._win32_lstrcmpi
-f1_keywords:
-- winbase/lstrcmpi
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- lstrcmpi
-- lstrcmpiA
-- lstrcmpiW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lstrcmpiA
+ - winbase/lstrcmpiA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - lstrcmpi
+ - lstrcmpiA
+ - lstrcmpiW
 ---
 
 # lstrcmpiA function
@@ -59,16 +60,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares two character strings. The comparison is not case-sensitive.
 
 To perform a comparison that is case-sensitive, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpString1 [in]
 
@@ -76,17 +72,13 @@ Type: <b>LPCTSTR</b>
 
 The first null-terminated string to be compared.
 
-
 ### -param lpString2 [in]
 
 Type: <b>LPCTSTR</b>
 
 The second null-terminated string to be compared.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -96,12 +88,7 @@ If the string pointed to by
 						<i>lpString1</i> is greater than the string pointed to by 
 						<i>lpString2</i>, the return value is positive. If the strings are equal, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>lstrcmpi</b> function compares two strings by checking the first characters against each other, the second characters against each other, and so on until it finds an inequality or reaches the ends of the strings. 
 
@@ -128,9 +115,6 @@ choice of comparison functions.
 > The winbase.h header defines lstrcmpi as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
@@ -173,7 +157,4 @@ choice of comparison functions.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
- 
-
- 
 

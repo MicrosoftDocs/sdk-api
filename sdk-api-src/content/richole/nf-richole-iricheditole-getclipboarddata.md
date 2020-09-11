@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetclipboarddata.htm
 ms.date: 12/05/2018
 ms.keywords: GetClipboardData, GetClipboardData method [Windows Controls], GetClipboardData method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetClipboardData method, IRichEditOle.GetClipboardData, IRichEditOle::GetClipboardData, _win32_IRichEditOle_GetClipboardData, _win32_IRichEditOle_GetClipboardData_cpp, controls.IRichEditOle_GetClipboardData, controls._win32_IRichEditOle_GetClipboardData, richole/IRichEditOle::GetClipboardData
-f1_keywords:
-- richole/IRichEditOle.GetClipboardData
-dev_langs:
-- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- IRichEditOle.GetClipboardData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRichEditOle::GetClipboardData
+ - richole/IRichEditOle::GetClipboardData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - IRichEditOle.GetClipboardData
 ---
 
 # IRichEditOle::GetClipboardData
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a clipboard object for a range in an edit control.
 
-
 ## -parameters
-
-
-
 
 ### -param lpchrg
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
 
-The range for which to create the clipboard object. 
-
+The range for which to create the clipboard object.
 
 ### -param reco
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Unused.
-
 
 ### -param lplpdataobj
 
@@ -79,10 +73,7 @@ Type: <b>LPDATAOBJECT*</b>
 The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface of the clipboard object representing the range specified in the 
 					<i>lpchrg</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -116,15 +107,8 @@ There was not enough memory to do the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
@@ -135,7 +119,4 @@ There was not enough memory to do the operation.
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 005460db-0919-46eb-b057-37c5b6042243
 ms.date: 12/05/2018
 ms.keywords: G$, L$, LsaRetrievePrivateData, LsaRetrievePrivateData function [Security], M$, _lsa_lsaretrieveprivatedata, ntsecapi/LsaRetrievePrivateData, security.lsaretrieveprivatedata
-f1_keywords:
-- ntsecapi/LsaRetrievePrivateData
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-lsapolicy-l1-1-0.dll
-- sechost.dll
-- API-MS-Win-Security-LSAPolicy-L1-1-1.dll
-api_name:
-- LsaRetrievePrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaRetrievePrivateData
+ - ntsecapi/LsaRetrievePrivateData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-lsapolicy-l1-1-0.dll
+ - sechost.dll
+ - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+api_name:
+ - LsaRetrievePrivateData
 ---
 
 # LsaRetrievePrivateData function
@@ -52,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Do not use the LSA private data functions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> functions.  
-
+Do not use the LSA private data functions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> functions.
 
 ## -parameters
-
-
-
 
 ### -param PolicyHandle [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle must have the POLICY_GET_PRIVATE_INFORMATION access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
-
 
 ### -param KeyName [in]
 
@@ -118,7 +113,6 @@ For computer objects.
 If you are not creating one of these specialized types, you do not need to specify a key name prefix. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/private-data-object">Private Data Object</a>.
 
-
 ### -param PrivateData [out]
 
 Pointer to a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the private data.
@@ -126,10 +120,7 @@ Pointer to a variable that receives a pointer to an <a href="https://docs.micros
 When you no longer need the information, pass the returned pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns STATUS_SUCCESS.
 
@@ -159,22 +150,11 @@ No private data is stored under the name specified by the <i>KeyName</i> paramet
 You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> value to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 You must run this process "As Administrator" or the call fails with ERROR_ACCESS_DENIED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
 
@@ -185,7 +165,4 @@ You must run this process "As Administrator" or the call fails with ERROR_ACCESS
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsastoreprivatedata">LsaStorePrivateData</a>
- 
-
- 
 

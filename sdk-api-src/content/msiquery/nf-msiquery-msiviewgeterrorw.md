@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: a59ab850-204b-40b7-bf24-d6a2d7ae82f4
 ms.date: 12/05/2018
 ms.keywords: MsiViewGetError, MsiViewGetError function, MsiViewGetErrorA, MsiViewGetErrorW, _msi_msiviewgeterror, msiquery/MsiViewGetError, msiquery/MsiViewGetErrorA, msiquery/MsiViewGetErrorW, setup.msiviewgeterror
-f1_keywords:
-- msiquery/MsiViewGetError
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiViewGetError
-- MsiViewGetErrorA
-- MsiViewGetErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiViewGetErrorW
+ - msiquery/MsiViewGetErrorW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiViewGetError
+ - MsiViewGetErrorA
+ - MsiViewGetErrorW
 ---
 
 # MsiViewGetErrorW function
@@ -51,35 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiViewGetError</b> function returns the error that occurred in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewmodify">MsiViewModify</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hView [in]
 
 Handle to the view.
 
-
 ### -param szColumnNameBuffer [out]
 
 Pointer to the buffer that receives the null-terminated column name. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szColumnName</i>. You can get the size of the buffer by passing in an empty string (for example ""). The function then returns MSIDBERROR_MOREDATA and <i>pcchBuf</i> contains the required buffer size in TCHARs, not including the terminating null character. On return of MSIDBERROR_NOERROR, <i>pcchBuf</i> contains the number of TCHARs written to the buffer, not including the terminating null character. This parameter is an empty string if there are no errors.
-
 
 ### -param pcchBuf [in, out]
 
 Pointer to the variable that specifies the size, in TCHARs, of the buffer pointed to by the variable <i>szColumnNameBuffer</i>. When the function returns MSIDBERROR_NOERROR, this variable contains the size of the data copied to <i>szColumnNameBuffer</i>, not including the terminating null character. If <i>szColumnNameBuffer</i> is not large enough, the function returns MSIDBERROR_MOREDATA and stores the required size, not including the terminating null character, in the variable pointed to by <i>pcchBuf</i>.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -463,12 +454,7 @@ An invalid localization attribute was supplied. (Primary keys cannot be localize
 
 Note that in low memory situations, this function can raise a STATUS_NO_MEMORY exception.
 
-
-
-
 ## -remarks
-
-
 
 You should only call the 
 <b>MsiViewGetError</b> function when 
@@ -487,15 +473,9 @@ Once MSIDBERROR_NOERROR is returned, no more validation errors remain. The MSIDB
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
- 
-
- 
 

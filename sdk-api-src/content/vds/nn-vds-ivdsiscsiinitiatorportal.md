@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ae64cc73-4f36-4846-a1c0-f329de6299ee
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], IVdsIscsiInitiatorPortal interface [VDS],described, base.ivdsiscsiinitiatorportal, vds/IVdsIscsiInitiatorPortal
-f1_keywords:
-- vds/IVdsIscsiInitiatorPortal
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsIscsiInitiatorPortal
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsIscsiInitiatorPortal
+ - vds/IVdsIscsiInitiatorPortal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsIscsiInitiatorPortal
 ---
 
 # IVdsIscsiInitiatorPortal interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query and interact with iSCSI initiator portals on the local system.
-
 
 ## -inheritance
 
@@ -106,16 +105,9 @@ This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiInitiato
 <td align="left" width="63%">
 This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiInitiatorPortal</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleAccess::GetKeySystem
 f1_keywords:
+ - IMFContentDecryptionModuleAccess::GetKeySystem
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleAccess::GetKeySystem
 dev_langs:
  - c++

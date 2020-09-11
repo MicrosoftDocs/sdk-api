@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: adb2d6f7-592c-403d-92c0-6b99e2180a6b
 ms.date: 12/05/2018
 ms.keywords: GetDatabaseFile, GetDatabaseFile method [VSS], GetDatabaseFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseFile method, IVssWMComponent.GetDatabaseFile, IVssWMComponent::GetDatabaseFile, _win32_ivsswmcomponent_getdatabasefile, base.ivsswmcomponent_getdatabasefile, vsbackup/IVssWMComponent::GetDatabaseFile
-f1_keywords:
-- vsbackup/IVssWMComponent.GetDatabaseFile
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWMComponent.GetDatabaseFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWMComponent::GetDatabaseFile
+ - vsbackup/IVssWMComponent::GetDatabaseFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWMComponent.GetDatabaseFile
 ---
 
 # IVssWMComponent::GetDatabaseFile
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetDatabaseFile</b> method obtains an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing information about the specified database backup component file.
 
-
 ## -parameters
-
-
-
 
 ### -param iDBFile [in]
 
@@ -67,16 +63,12 @@ Offset between 0 and <i>n</i>-1, where <i>n</i> is the number of database files 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> object returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getcomponentinfo">IVssWMComponent::GetComponentInfo</a>.
 
-
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the returned file descriptor information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -157,32 +149,17 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release system resources held by the returned 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswmcomponent">IVssWMComponent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
- 
-
- 
 

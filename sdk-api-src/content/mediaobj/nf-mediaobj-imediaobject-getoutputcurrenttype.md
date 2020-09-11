@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f5ebcf96-d008-448e-852b-39bdf1f39c4b
 ms.date: 12/05/2018
 ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [DirectShow], GetOutputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputCurrentType method, IMediaObject.GetOutputCurrentType, IMediaObject::GetOutputCurrentType, IMediaObjectGetOutputCurrentType, dshow.imediaobject_getoutputcurrenttype, mediaobj/IMediaObject::GetOutputCurrentType
-f1_keywords:
-- mediaobj/IMediaObject.GetOutputCurrentType
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaObject.GetOutputCurrentType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaObject::GetOutputCurrentType
+ - mediaobj/IMediaObject::GetOutputCurrentType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaObject.GetOutputCurrentType
 ---
 
 # IMediaObject::GetOutputCurrentType
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetOutputCurrentType</code> method retrieves the media type that was set for an output stream, if any.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputStreamIndex
 
 Zero-based index of an output stream on the DMO.
 
-
 ### -param pmt [out]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure allocated by the caller. The method fills the structure with the media type.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -128,29 +117,14 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller must set the media type for the stream before calling this method. To set the media type, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype">IMediaObject::SetOutputType</a> method.
 
 If the method succeeds, call <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-mofreemediatype">MoFreeMediaType</a> to free the format block.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
- 
-
- 
 

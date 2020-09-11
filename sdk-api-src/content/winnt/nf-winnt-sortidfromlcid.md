@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 78da443e-ad92-4e2f-aebe-c0aed880b8b6
 ms.date: 12/05/2018
 ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Windows Applications], _win32_SORTIDFROMLCID, intl.sortidfromlcid, winnt/SORTIDFROMLCID
-f1_keywords:
-- winnt/SORTIDFROMLCID
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- SORTIDFROMLCID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SORTIDFROMLCID
+ - winnt/SORTIDFROMLCID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - SORTIDFROMLCID
 ---
 
 # SORTIDFROMLCID macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a <a href="https://docs.microsoft.com/windows/desktop/Intl/sort-order-identifiers">sort order identifier</a> from a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lcid
 
@@ -89,9 +85,6 @@ Locale identifier. You can use the <a href="https://docs.microsoft.com/windows/d
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
@@ -113,7 +106,4 @@ Locale identifier. You can use the <a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sublangid">SUBLANGID</a>
- 
-
- 
 

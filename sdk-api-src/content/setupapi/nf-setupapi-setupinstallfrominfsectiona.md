@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
 ms.date: 12/05/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
-f1_keywords:
-- setupapi/SetupInstallFromInfSection
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupInstallFromInfSection
-- SetupInstallFromInfSectionA
-- SetupInstallFromInfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupInstallFromInfSectionA
+ - setupapi/SetupInstallFromInfSectionA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupInstallFromInfSection
+ - SetupInstallFromInfSectionA
+ - SetupInstallFromInfSectionW
 ---
 
 # SetupInstallFromInfSectionA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the 
     Requirements section. It may be altered or unavailable in subsequent versions. SetupAPI should no longer be used 
@@ -65,11 +65,7 @@ The <b>SetupInstallFromInfSection</b> function carries out all the directives in
 If the registry or file is modified, the caller of this function is required have privileges to write into the 
     system or target directory.
 
-
 ## -parameters
-
-
-
 
 ### -param Owner
 
@@ -77,16 +73,13 @@ Optional pointer to the window handle to the window that owns any dialog boxes t
       installation, such as for disk prompting or file copying. If <i>Owner</i> is not specified, 
       these dialog boxes become top-level windows.
 
-
 ### -param InfHandle
 
 Handle to the INF file that contains the section to be processed.
 
-
 ### -param SectionName
 
 Name of the <b>Install</b> section in the INF file to process.
-
 
 ### -param Flags
 
@@ -170,7 +163,6 @@ To send a notification to the callback routine when unregistering a file, includ
          SPINST_REGISTERCALLBACKAWARE plus SPINST_UNREGSVR in the <i>Flags</i>. The caller must 
          also specify the <i>MsgHandler</i> parameter.
 
-
 ### -param RelativeKeyRoot
 
 Optional parameter that must be specified if <i>Flags</i> includes SPINST_REGISTRY or 
@@ -178,13 +170,11 @@ Optional parameter that must be specified if <i>Flags</i> includes SPINST_REGIST
       Note that this parameter is ignored if <b>SetupInstallFromInfSection</b> is called 
       with the optional <i>DeviceInfoSet</i> and <i>DeviceInfoData</i> set.
 
-
 ### -param SourceRootPath
 
 Source root for file copies. An example would be A:\ or \\pegasus\win\install. If 
       <i>Flags</i> includes SPINST_FILES, and <i>SourceRootPath</i> is NULL, 
       the system provides a default root path.
-
 
 ### -param CopyFlags
 
@@ -320,7 +310,6 @@ Examine each file being copied to see if its version resources (or time stamps f
 If the user tries to skip a file, warn them that skipping a file may affect the installation. (Used for 
          system-critical files.)
 
-
 ### -param MsgHandler
 
 Pointer to the callback routine. The callback routine must be in the format of 
@@ -342,7 +331,6 @@ This parameter is optional only if the <i>Flags</i> parameter does not include
         is sent to the callback routine once each time a file is registered or unregistered using the 
         <b>RegisterDlls</b> INF directive on Windows 2000.
 
-
 ### -param Context
 
 Value to be passed to the callback function when the file queue built by this routine internally is 
@@ -352,13 +340,11 @@ Value to be passed to the callback function when the file queue built by this ro
       does not include SPINST_FIlLES. This parameter must be specified if <i>Flags</i> includes 
       SPINST_FIlLES.
 
-
 ### -param DeviceInfoSet
 
 Optional pointer to a handle to a device information set. For more information about 
       the Device Installer setup functions, see the DDK 
       <i>Programmer's Guide</i>.
-
 
 ### -param DeviceInfoData
 
@@ -367,22 +353,14 @@ Optional pointer to a pointer to the <b>SP_DEVINFO_DATA</b>
       <i>DeviceInfoSet.</i> For more information about the Device Installer setup functions, see 
       the DDK <i>Programmer's Guide</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If a UNC directory is specified as the target directory of a file copy operation, you must ensure it exists 
     before you call <b>SetupInstallFromInfSection</b>. The setup functions do not check for 
@@ -399,9 +377,6 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 > The setupapi.h header defines SetupInstallFromInfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -420,7 +395,4 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>
- 
-
- 
 

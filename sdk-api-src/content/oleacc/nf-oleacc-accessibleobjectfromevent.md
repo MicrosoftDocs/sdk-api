@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: d453c163-3918-4a1c-9636-16816227a295
 ms.date: 12/05/2018
 ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
-f1_keywords:
-- oleacc/AccessibleObjectFromEvent
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Oleacc.dll
-api_name:
-- AccessibleObjectFromEvent
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - AccessibleObjectFromEvent
+ - oleacc/AccessibleObjectFromEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Oleacc.dll
+api_name:
+ - AccessibleObjectFromEvent
 ---
 
 # AccessibleObjectFromEvent function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the address of the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface for the object that generated the event that is currently being processed by the client's event hook function.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Specifies the window handle of the window that generated the event. This value must be the window handle that is sent to the event hook function.
 
-
 ### -param dwId [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the object ID of the object that generated the event. This value must be the object ID that is sent to the event hook function.
-
 
 ### -param dwChildId [in]
 
@@ -78,13 +72,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Specifies whether the event was triggered by an object or one of its child elements. If the object triggered the event, <i>dwChildID</i> is CHILDID_SELF. If a child element triggered the event, <i>dwChildID</i> is the element's child ID. This value must be the child ID that is sent to the event hook function.
 
-
 ### -param ppacc [out]
 
 Type: <b>IAccessible**</b>
 
 Address of a pointer variable that receives the address of an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface. The interface is either for the object that generated the event, or for the parent of the element that generated the event.
-
 
 ### -param pvarChild [out]
 
@@ -92,10 +84,7 @@ Type: <b>VARIANT*</b>
 
 Address of a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a> that specifies the child ID that can be used to access information about the UI element.
 
-
 ## -returns
-
-
 
 Type: <b>STDAPI</b>
 
@@ -120,14 +109,8 @@ An argument is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Clients call this function within an event hook function to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer to either the object that generated the event or to the parent of the element that generated the event. The parameters sent to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-wineventproc">WinEventProc</a> callback function must be used for this function's <i>hwnd</i>, <i>dwObjectID</i>, and <i>dwChildID</i> parameters.
 
@@ -164,14 +147,7 @@ void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd,
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfrompoint">AccessibleObjectFromPoint</a>
 
@@ -190,7 +166,4 @@ void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-wineventproc">WinEventProc</a>
- 
-
- 
 

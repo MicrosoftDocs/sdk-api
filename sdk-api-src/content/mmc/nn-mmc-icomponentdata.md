@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 60900b8d-59cc-4c1d-86b7-b902ba89216d
 ms.date: 12/05/2018
 ms.keywords: IComponentData, IComponentData interface [MMC], IComponentData interface [MMC],described, _slate_icomponentdata, mmc.icomponentdata, mmc/IComponentData
-f1_keywords:
-- mmc/IComponentData
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IComponentData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentData
+ - mmc/IComponentData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IComponentData
 ---
 
 # IComponentData interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IComponentData</b> interface enables MMC to communicate with snap-ins. Similar to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface, 
 <b>IComponentData</b> is typically implemented at the document level and is closely associated with items (folders) being displayed in the scope pane.
-
 
 ## -inheritance
 
@@ -137,5 +136,5 @@ Returns a data object that can be used to retrieve context information for the s
 
 </td>
 </tr>
-</table> 
+</table>
 

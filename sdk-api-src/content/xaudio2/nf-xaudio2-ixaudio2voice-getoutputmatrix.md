@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetOutputMatrix(IXAudio2Voice,UINT32,UINT32,float@)
 ms.date: 12/05/2018
 ms.keywords: GetOutputMatrix, GetOutputMatrix method [XAudio2 Audio Mixing APIs], GetOutputMatrix method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetOutputMatrix method, IXAudio2Voice.GetOutputMatrix, IXAudio2Voice::GetOutputMatrix, xaudio2.ixaudio2voice_interface_getoutputmatrix, xaudio2/IXAudio2Voice::GetOutputMatrix
-f1_keywords:
-- xaudio2/IXAudio2Voice.GetOutputMatrix
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.h
-api_name:
-- IXAudio2Voice.GetOutputMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2Voice::GetOutputMatrix
+ - xaudio2/IXAudio2Voice::GetOutputMatrix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.h
+api_name:
+ - IXAudio2Voice.GetOutputMatrix
 ---
 
 # IXAudio2Voice::GetOutputMatrix
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
 
-
 ## -parameters
-
-
-
 
 ### -param pDestinationVoice [in]
 
@@ -69,29 +65,19 @@ Pointer specifying the destination <a href="https://docs.microsoft.com/windows/d
 
 Confirms the output channel count of the voice. This is the number of channels that are produced by the last effect in the chain.
 
-
 ### -param DestinationChannels [in]
 
 Confirms the input channel count of the destination voice.
-
 
 ### -param pLevelMatrix [out]
 
 Array of [<i>SourceChannels</i> * <i>DestinationChannels</i>] volume levels sent to the destination voice. The level sent from source channel S to destination channel D is returned in the form <i>pLevelMatrix</i>[<i>DestinationChannels</i> × S + D]. See Remarks for more information on volume levels.
 
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 This method applies only to source and submix voices, because mastering voices write directly to the device with no matrix mixing.
 
@@ -108,16 +94,7 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksm
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
- 
-
- 
 

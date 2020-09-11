@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\isdlgbuttonchecked.htm
 ms.date: 12/05/2018
 ms.keywords: IsDlgButtonChecked, IsDlgButtonChecked function [Windows Controls], _win32_IsDlgButtonChecked, _win32_IsDlgButtonChecked_cpp, controls.IsDlgButtonChecked, controls._win32_IsDlgButtonChecked, winuser/IsDlgButtonChecked
-f1_keywords:
-- winuser/IsDlgButtonChecked
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
-- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
-- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
-api_name:
-- IsDlgButtonChecked
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsDlgButtonChecked
+ - winuser/IsDlgButtonChecked
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+ - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+api_name:
+ - IsDlgButtonChecked
 ---
 
 # IsDlgButtonChecked function
@@ -52,32 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IsDlgButtonChecked</b> function determines whether a button control is checked or whether a three-state button control is checked, unchecked, or indeterminate. 
-
+The <b>IsDlgButtonChecked</b> function determines whether a button control is checked or whether a three-state button control is checked, unchecked, or indeterminate.
 
 ## -parameters
-
-
-
 
 ### -param hDlg [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the dialog box that contains the button control. 
-
+A handle to the dialog box that contains the button control.
 
 ### -param nIDButton [in]
 
 Type: <b>int</b>
 
-The identifier of the button control. 
-
+The identifier of the button control.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
@@ -123,14 +115,8 @@ The button is not checked.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>IsDlgButtonChecked</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-getcheck">BM_GETCHECK</a> message to the specified button control. 
 
@@ -141,15 +127,7 @@ For an example, see the section titled "Creating a Modeless Dialog Box" in <a hr
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-checkdlgbutton">CheckDlgButton</a>
- 
-
- 
 

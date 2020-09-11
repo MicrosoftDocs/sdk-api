@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents2, IWMPEvents2 interface [Windows Media Player], IWMPEvents2 interface [Windows Media Player],described, IWMPEvents2Interface, wmp.iwmpevents2_interface, wmp/IWMPEvents2
-f1_keywords:
-- wmp/IWMPEvents2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPEvents2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEvents2
+ - wmp/IWMPEvents2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPEvents2
 ---
 
 # IWMPEvents2 interface
 
 
 ## -description
-
-
 
 The <b>IWMPEvents2</b> interface provides events originating from the Windows Media Player 10 or later control to which an embedding program can respond. The events exposed by <b>IWMPEvents2</b> are also exposed by the <b>_WMPOCXEvents</b> interface.
 
@@ -101,13 +100,9 @@ In addition to the methods inherited from <b>IWMPEvents</b>, the <b>IWMPEvents2<
 </td>
 <td>Occurs when the synchronization state of a device changes.</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/handling-events-in-c">Handling Events in C++</a>
 
@@ -130,7 +125,4 @@ In addition to the methods inherited from <b>IWMPEvents</b>, the <b>IWMPEvents2<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>
- 
-
- 
 

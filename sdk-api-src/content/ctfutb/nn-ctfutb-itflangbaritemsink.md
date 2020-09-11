@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1734a011-1ee8-4afd-ace8-334eeaf14518
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemSink, ITfLangBarItemSink interface [Text Services Framework], ITfLangBarItemSink interface [Text Services Framework],described, _tsf_itflangbaritemsink_ref, ctfutb/ITfLangBarItemSink, tsf.itflangbaritemsink
-f1_keywords:
-- ctfutb/ITfLangBarItemSink
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemSink
+ - ctfutb/ITfLangBarItemSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemSink
 ---
 
 # ITfLangBarItemSink interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfLangBarItemSink</b> interface is implemented by the language bar and used by a language bar item provider to notify the language bar of changes to a language bar item.
 
 The language bar item provider obtains an instance of this interface when the language bar calls the provider's <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with identifier IID_ITfLangBarItemSink.
-
 
 ## -inheritance
 
@@ -79,13 +78,9 @@ Notifies the language bar of a change in a language bar item.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
@@ -93,7 +88,4 @@ Notifies the language bar of a change in a language bar item.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

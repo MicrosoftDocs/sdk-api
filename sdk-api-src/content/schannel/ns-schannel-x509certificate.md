@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5a337f78-e5de-4ea2-9c15-1056d9e9e38c
 ms.date: 12/05/2018
 ms.keywords: '*PX509Certificate, PX509Certificate, PX509Certificate structure pointer [Security], X509Certificate, X509Certificate structure [Security], schannel/PX509Certificate, schannel/X509Certificate, security.x509certificate'
-f1_keywords:
-- schannel/X509Certificate
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Schannel.h
-api_name:
-- X509Certificate
 targetos: Windows
 req.typenames: X509Certificate, *PX509Certificate
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _X509Certificate
+ - schannel/_X509Certificate
+ - PX509Certificate
+ - schannel/PX509Certificate
+ - X509Certificate
+ - schannel/X509Certificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Schannel.h
+api_name:
+ - X509Certificate
 ---
 
 # X509Certificate structure
@@ -49,49 +54,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>X509Certificate</b> structure represents an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The X.509 version number.
 
-
 ### -field SerialNumber
 
 The serial number of the certificate.
-
 
 ### -field SignatureAlgorithm
 
 The ID of the algorithm used to create the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a> for the certificate.
 
-
 ### -field ValidFrom
 
 The beginning of the period of validity for the certificate.
-
 
 ### -field ValidUntil
 
 The end of the period of validity for the certificate.
 
-
 ### -field pszIssuer
 
 A pointer to a string that specifies the issuer of the certificate.
 
-
 ### -field pszSubject
 
 A pointer to a string that specifies the subject of the certificate.
-
 
 ### -field pPublicKey
 

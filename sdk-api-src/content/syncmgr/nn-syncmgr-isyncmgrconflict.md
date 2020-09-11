@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a5806a83-b470-4617-961d-b768160afc48
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflict, ISyncMgrConflict interface [Windows Shell], ISyncMgrConflict interface [Windows Shell],described, _shell_ISyncMgrConflict, shell.ISyncMgrConflict, syncmgr/ISyncMgrConflict
-f1_keywords:
-- syncmgr/ISyncMgrConflict
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrConflict
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrConflict
+ - syncmgr/ISyncMgrConflict
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrConflict
 ---
 
 # ISyncMgrConflict interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide information about a conflict retrieved from a conflict store, and allows the conflict to be resolved.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Resolves the conflict using its own sync handler, controls UI.
 
 </td>
 </tr>
-</table> 
+</table>
 

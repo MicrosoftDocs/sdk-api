@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: afcdad8d-687e-4a1f-99d8-5d8be13825fa
 ms.date: 12/05/2018
 ms.keywords: INTERNET_DEFAULT_HTTPS_PORT, INTERNET_DEFAULT_HTTP_PORT, INTERNET_DEFAULT_PORT, WinHttpConnect, WinHttpConnect function [WinHTTP], http.winhttpconnect, winhttp.winhttpconnect, winhttp/WinHttpConnect
-f1_keywords:
-- winhttp/WinHttpConnect
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpConnect
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpConnect
+ - winhttp/WinHttpConnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpConnect
 ---
 
 # WinHttpConnect function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpConnect</b> function specifies the initial target server of an HTTP request and returns an <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> connection handle to an HTTP session for that initial target.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Valid 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> WinHTTP session handle returned by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>.
 
 ### -param pswzServerName [in]
 
 Pointer to a <b>null</b>-terminated string that contains the host name of an HTTP server. Alternately, the string can contain the IP address of the site in ASCII, for example, 10.0.1.45.
 Note that WinHttp does not accept international host names without converting them first to <a href="https://msdn.microsoft.com/library/bb250505(VS.85).aspx">Punycode</a>. For more information, see <a href="https://msdn.microsoft.com/library/dd318142(VS.85).aspx">Handling Internationalized Domain Names (IDNs)</a>.
-
 
 ### -param nServerPort [in]
 
@@ -113,17 +107,12 @@ Uses port 80 for HTTP and port 443 for Secure Hypertext Transfer Protocol (HTTPS
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 Returns a valid connection handle to the HTTP session if the connection is successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -211,14 +200,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -326,14 +309,7 @@ The following example shows how to use secure transaction semantics to download 
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -352,7 +328,4 @@ The following example shows how to use secure transaction semantics to download 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
- 
-
- 
 

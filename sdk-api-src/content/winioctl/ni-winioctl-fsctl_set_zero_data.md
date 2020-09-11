@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ee32f836-682e-4c26-b7d6-82e3b7b234f9
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_ZERO_DATA, FSCTL_SET_ZERO_DATA control, FSCTL_SET_ZERO_DATA control code [Files], _win32_fsctl_set_zero_data, base.fsctl_set_zero_data, fs.fsctl_set_zero_data, winioctl/FSCTL_SET_ZERO_DATA
-f1_keywords:
-- winioctl/FSCTL_SET_ZERO_DATA
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_SET_ZERO_DATA
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_SET_ZERO_DATA
+ - winioctl/FSCTL_SET_ZERO_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_SET_ZERO_DATA
 ---
 
 # FSCTL_SET_ZERO_DATA IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -113,7 +108,6 @@ SMB 3.0 with Scale-out File Shares (SO) | Yes
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
@@ -122,3 +116,4 @@ Resilient File System (ReFS) | Yes
 * [FSCTL_SET_SPARSE](ni-winioctl-fsctl_set_sparse.md)
 * [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
 * [Sparse Files](https://docs.microsoft.com/windows/desktop/FileIO/sparse-files)
+

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 445513a8-5785-4822-bb2e-ec9b7665ac7a
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_GetMetadata, RESPONSEBODY_GetMetadata structure, ncd.responsebody_getmetadata_struct, wsdtypes/RESPONSEBODY_GetMetadata
-f1_keywords:
-- wsdtypes/RESPONSEBODY_GetMetadata
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdTypes.h
-api_name:
-- RESPONSEBODY_GetMetadata
 targetos: Windows
 req.typenames: RESPONSEBODY_GetMetadata
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RESPONSEBODY_GetMetadata
+ - wsdtypes/RESPONSEBODY_GetMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdTypes.h
+api_name:
+ - RESPONSEBODY_GetMetadata
 ---
 
 # RESPONSEBODY_GetMetadata structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a WS-MetadataExchange GetMetadata response message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Metadata
 

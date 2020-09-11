@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
-f1_keywords:
-- p2p/PeerGraphGetRecord
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphGetRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphGetRecord
+ - p2p/PeerGraphGetRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphGetRecord
 ---
 
 # PeerGraphGetRecord function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphGetRecord</b> function retrieves a specific record based on the specified record ID. The returned record should be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to the peer graph.
 
-
 ### -param pRecordId [in]
 
 Pointer to record ID to retrieve.
-
 
 ### -param ppRecord [out]
 
 Receives the requested record. When this structure is no longer required, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is S_OK. Otherwise, it  returns one of the following values.
 
@@ -140,22 +131,12 @@ The specified record was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8f051923-2798-43e9-8e8d-95eec5f618aa
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],OpenItem method, ITransferSource.OpenItem, ITransferSource::OpenItem, OpenItem, OpenItem method [Windows Shell], OpenItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_OpenItem, shell.ITransferSource_OpenItem, shobjidl_core/ITransferSource::OpenItem
-f1_keywords:
-- shobjidl_core/ITransferSource.OpenItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferSource.OpenItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferSource::OpenItem
+ - shobjidl_core/ITransferSource::OpenItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferSource.OpenItem
 ---
 
 # ITransferSource::OpenItem
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens the item for copying. Returns an object that can be enumerated for resources (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a>).
 
-
 ## -parameters
-
-
-
 
 ### -param psi [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be opened.
 
-
 ### -param flags [in]
 
 Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
 The flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
-
 
 ### -param riid [out]
 
@@ -78,17 +72,13 @@ Type: <b>REFIID</b>
 
 A reference to the IID (the interface ID or GUID) of the interface to return in <i>ppv</i>.  This should be an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a> or an interface derived from <b>IShellItemResources</b>.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 When this method returns, contains the address of a pointer to the interface specified by <i>riid</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -199,7 +189,4 @@ Operation requires elevated privileges.
 </td>
 </tr>
 </table>
- 
-
-
 

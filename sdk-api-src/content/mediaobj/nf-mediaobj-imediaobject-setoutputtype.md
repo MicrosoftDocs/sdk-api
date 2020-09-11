@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1dda3c55-d37b-4e04-9509-0e5197d6b019
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],SetOutputType method, IMediaObject.SetOutputType, IMediaObject::SetOutputType, IMediaObjectSetOutputType, SetOutputType, SetOutputType method [DirectShow], SetOutputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setoutputtype, mediaobj/IMediaObject::SetOutputType
-f1_keywords:
-- mediaobj/IMediaObject.SetOutputType
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaObject.SetOutputType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaObject::SetOutputType
+ - mediaobj/IMediaObject::SetOutputType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaObject.SetOutputType
 ---
 
 # IMediaObject::SetOutputType
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetOutputType</code> method sets the media type on an output stream, or tests whether a media type is acceptable.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputStreamIndex
 
 Zero-based index of an output stream on the DMO.
 
-
 ### -param pmt [in]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure that specifies the media type.
-
 
 ### -param dwFlags
 
 Bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_set_type_flags">DMO_SET_TYPE_FLAGS</a> enumeration.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -133,14 +121,8 @@ Media type was set successfully, or is acceptable
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this method to test, set, or clear the media type on an output stream:
 
@@ -151,16 +133,7 @@ Call this method to test, set, or clear the media type on an output stream:
 </ul>
 The media types that are currently set on other streams can affect whether the media type is acceptable.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
- 
-
- 
 

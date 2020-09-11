@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9df94089-137a-4540-9f46-119408b362ba
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_OPLOCK, FSCTL_REQUEST_OPLOCK control, FSCTL_REQUEST_OPLOCK control code [Files], fs.fsctl_request_oplock, winioctl/FSCTL_REQUEST_OPLOCK
-f1_keywords:
-- winioctl/FSCTL_REQUEST_OPLOCK
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_REQUEST_OPLOCK
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_REQUEST_OPLOCK
+ - winioctl/FSCTL_REQUEST_OPLOCK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_REQUEST_OPLOCK
 ---
 
 # FSCTL_REQUEST_OPLOCK IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -92,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -141,3 +135,4 @@ An RH oplock on a directory breaks to R when the directory itself is renamed or 
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
 * [Oplock Semantics](https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics)
 * [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: baac4c50-7aba-4bdc-93ad-57f22c55ea4b
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferMediaSeeking, IStreamBufferMediaSeeking interface [Microsoft TV Technologies], IStreamBufferMediaSeeking interface [Microsoft TV Technologies],described, IStreamBufferMediaSeekingInterface, mstv.istreambuffermediaseeking, sbe/IStreamBufferMediaSeeking
-f1_keywords:
-- sbe/IStreamBufferMediaSeeking
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferMediaSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferMediaSeeking
+ - sbe/IStreamBufferMediaSeeking
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferMediaSeeking
 ---
 
 # IStreamBufferMediaSeeking interface
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IStreamBufferMediaSeeking</b> interface controls seeking in a stream buffer source graph. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter exposes this interface.
 
 The methods in this interface have exactly the same names and parameters as those in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> interface. To seek within a stream buffer file, use this interface directly on the source filter instead of calling <b>IMediaSeeking</b> methods on the filter graph.
 
-
 ## -remarks
-
-
 
 When the Stream Buffer Source plays a recording created by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/recording-object">Recording</a> object or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object, it can seek anywhere within the file. When it plays a live stream from the Stream Buffer Sink, it can seek anywhere within the sink filter's buffer. This might include recorded content or temporary backing files. Transitions across files are seamless.
 
@@ -133,13 +130,7 @@ The <b>IStreamBufferMediaSeeking</b> version of <b>SetRate</b> may also fail if 
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IStreamBufferMediaSeeking)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/buffering-in-the-stream-buffer-engine">Buffering in the Stream Buffer Engine</a>
 
@@ -150,7 +141,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
- 
-
- 
 

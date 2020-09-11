@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1
 ms.date: 12/05/2018
 ms.keywords: _win32_recvfrom_2, recvfrom, recvfrom function [Winsock], winsock.recvfrom_2, winsock/recvfrom
-f1_keywords:
-- winsock2/recvfrom
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- recvfrom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - recvfrom
+ - winsock2/recvfrom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - recvfrom
 ---
 
 # recvfrom function
@@ -49,50 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>recvfrom</b> function receives a datagram and stores the source address.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a bound socket.
 
-
 ### -param buf [out]
 
 A buffer for the incoming data.
-
 
 ### -param len [in]
 
 The length, in bytes, of the buffer pointed to by the <i>buf</i> parameter.
 
-
 ### -param flags [in]
 
 A set of options that modify the behavior of the function call beyond the options specified for the associated socket. See the Remarks below for more details.
-
 
 ### -param from [out]
 
 An optional pointer to a buffer in a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that will hold the source address upon return.
 
-
 ### -param fromlen [in, out, optional]
 
 An optional pointer to the size, in bytes, of the buffer pointed to by the <i>from</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>recvfrom</b> returns the number of bytes received. If the connection has been gracefully closed, the return value is zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -275,14 +263,8 @@ The virtual circuit was reset by the remote side executing a hard or abortive cl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>recvfrom</b> function reads incoming data on both connected and unconnected sockets and captures the address from which the data was sent. This function is typically used with connectionless sockets. The local address of the socket must be known. For server applications, this is usually done explicitly through 
@@ -431,13 +413,7 @@ int main()
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
@@ -468,7 +444,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

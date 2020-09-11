@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 56a7f9e1-810b-4a42-aa4d-691f4304f5ef
 ms.date: 12/05/2018
 ms.keywords: LoadTypeLibEx, LoadTypeLibEx function [Automation], _oa96_LoadTypeLibEx, automat.loadtypelibex, oleauto/LoadTypeLibEx
-f1_keywords:
-- oleauto/LoadTypeLibEx
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- LoadTypeLibEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadTypeLibEx
+ - oleauto/LoadTypeLibEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - LoadTypeLibEx
 ---
 
 # LoadTypeLibEx function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Loads a type library and (optionally) registers it in the system registry.   
-
+Loads a type library and (optionally) registers it in the system registry.
 
 ## -parameters
-
-
-
 
 ### -param szFile
 
 The type library file.
 
-
 ### -param regkind
 
 Identifies the kind of registration to perform for the type library based on the following flags: DEFAULT, REGISTER and NONE. REGKIND_DEFAULT simply calls LoadTypeLib and registration occurs based on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib">LoadTypeLib</a> registration rules. REGKIND_NONE calls <b>LoadTypeLib</b> without the registration process enabled. REGKIND_REGISTER calls <b>LoadTypeLib</b> followed by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a>, which registers the type library. To unregister the type library, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-unregistertypelib">UnRegisterTypeLib</a>.
-
 
 ### -param pptlib
 
 The type library.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -171,17 +162,8 @@ The type library or DLL could not be loaded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Enables programmers to specify whether or not the type library should be loaded.
-
-
-
 

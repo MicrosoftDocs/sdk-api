@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 7cf1ff4f-bd45-4ead-a005-e0f38aed9039
 ms.date: 12/05/2018
 ms.keywords: IEnumTASK, IEnumTASK interface [MMC], IEnumTASK interface [MMC],described, _slate_ienumtask, mmc.ienumtask, mmc/IEnumTASK
-f1_keywords:
-- mmc/IEnumTASK
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IEnumTASK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTASK
+ - mmc/IEnumTASK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IEnumTASK
 ---
 
 # IEnumTASK interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IEnumTASK</b> interface is introduced in MMC 1.1.
 
 The 
 <b>IEnumTASK</b> interface enables a snap-in component to enumerate the tasks to add to a taskpad.
-
 
 ## -inheritance
 
@@ -110,5 +109,5 @@ Not used by MMC. Skips the specified number of tasks.
 
 </td>
 </tr>
-</table> 
+</table>
 

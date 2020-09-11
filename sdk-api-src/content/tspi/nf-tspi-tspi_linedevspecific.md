@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 16510976-6fa6-4e48-837a-98f94d4e1342
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDevSpecific, TSPI_lineDevSpecific function [TAPI 2.2], _tspi_tspi_linedevspecific, tspi.tspi_linedevspecific, tspi/TSPI_lineDevSpecific
-f1_keywords:
-- tspi/TSPI_lineDevSpecific
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineDevSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineDevSpecific
+ - tspi/TSPI_lineDevSpecific
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineDevSpecific
 ---
 
 # TSPI_lineDevSpecific function
@@ -49,61 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineDevSpecific</b> function is used as a general extension mechanism to enable service providers to provide access to features not described in other operations. The meanings of the extensions are device-specific, and to take advantage of these extensions the application must be fully aware of them.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequestID
 
 The identifier of the asynchronous request.
 
-
 ### -param hdLine
 
 The service provider's handle to the line to be operated on.
-
 
 ### -param dwAddressID
 
 The address on the specified line to be operated on. An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
 
-
 ### -param hdCall
 
 The service provider's handle to the call to be operated on. This field may have the value <b>NULL</b>. The call state of <i>hdCall</i> is device specific.
-
 
 ### -param lpParams
 
 A pointer to a memory area used to hold a parameter block. The format of this parameter block is device specific.
 
-
 ### -param dwSize
 
-The size in bytes of the parameter block area. If the <i>lpParams</i> parameter is a pointer to a string, the size must include the <b>null</b> terminator. 
-
+The size in bytes of the parameter block area. If the <i>lpParams</i> parameter is a pointer to a string, the size must include the <b>null</b> terminator.
 
 ## -returns
-
-
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESSID, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 Additional return values are device specific.
 
@@ -121,13 +104,7 @@ A service provider can provide access to device-specific functions by defining p
 <div> </div>
 This operation is part of the Extended Telephony services. It only provides access to a device-specific feature without defining its meaning. This operation is only available if the application has successfully negotiated and selected a device-specific extension version.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
@@ -138,7 +115,4 @@ This operation is part of the Extended Telephony services. It only provides acce
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a>
- 
-
- 
 

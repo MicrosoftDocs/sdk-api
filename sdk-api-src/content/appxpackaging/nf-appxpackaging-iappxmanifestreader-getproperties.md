@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: E507BA9D-D2CA-4B28-BD13-B820B666B4C6
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [App packaging and management], GetProperties method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetProperties method, IAppxManifestReader.GetProperties, IAppxManifestReader::GetProperties, appxpackaging/IAppxManifestReader::GetProperties, appxpkg.iappxmanifestreader_getproperties
-f1_keywords:
-- appxpackaging/IAppxManifestReader.GetProperties
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestReader.GetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestReader::GetProperties
+ - appxpackaging/IAppxManifestReader::GetProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestReader.GetProperties
 ---
 
 # IAppxManifestReader::GetProperties
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the properties of the package as defined in the manifest. 
-
+Gets the properties of the package as defined in the manifest.
 
 ## -parameters
-
-
-
 
 ### -param packageProperties [out, retval]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/n
 
 Properties of the package as described by the manifest.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. 
-
-
-
+If the method succeeds, it returns <b>S_OK</b>.
 
 ## -remarks
-
-
 
 Properties are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-properties">Properties</a> element in the manifest.
 
@@ -89,15 +77,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
- 
-
- 
 

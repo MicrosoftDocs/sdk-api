@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 15a4e80d-2186-4683-a05f-405ca75044e5
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA structure [Display Devices], PDD_GETDRIVERINFODATA, PDD_GETDRIVERINFODATA structure pointer [Display Devices], ddrawint/DD_GETDRIVERINFODATA, ddrawint/PDD_GETDRIVERINFODATA, ddstrcts_1c0cf063-699e-497d-8554-db34185a1668.xml, display.dd_getdriverinfodata'
-f1_keywords:
-- ddrawint/DD_GETDRIVERINFODATA
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_GETDRIVERINFODATA
 targetos: Windows
 req.typenames: '*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_GETDRIVERINFODATA
+ - ddrawint/_DD_GETDRIVERINFODATA
+ - PDD_GETDRIVERINFODATA
+ - ddrawint/PDD_GETDRIVERINFODATA
+ - DD_GETDRIVERINFODATA
+ - ddrawint/DD_GETDRIVERINFODATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_GETDRIVERINFODATA
 ---
 
 # DD_GETDRIVERINFODATA structure
@@ -49,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DD_GETDRIVERINFODATA structure is used to pass data to and from the <i>DdGetDriverInfo</i> callback routine.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dhpdev
 
 Handle to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/display/pdev-negotiation">PDEV</a>. Microsoft Windows 2000 and later only.
 
-
 ### -field dwSize
 
 Specifies the size in bytes of this DD_GETDRIVERINFODATA structure.
 
-
 ### -field dwFlags
 
 Currently unused and is set to zero.
-
 
 ### -field guidInfo
 
@@ -283,45 +280,28 @@ Queries the pixel formats supported by the depth buffer. If the driver supports 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwExpectedSize
 
 Specifies the number of bytes of data that DirectDraw expects the driver to pass back in the buffer to which <b>lpvData</b> points.
 
-
 ### -field lpvData
 
-Points to a DirectDraw-allocated buffer into which the driver copies the requested data. This buffer is typically <b>dwExpectedSize</b> bytes in size. The driver must not write more than <b>dwExpectedSize</b> bytes of data in it. The driver specifies the number of bytes that it writes to this buffer in the <b>dwActualSize</b> member. 
-
+Points to a DirectDraw-allocated buffer into which the driver copies the requested data. This buffer is typically <b>dwExpectedSize</b> bytes in size. The driver must not write more than <b>dwExpectedSize</b> bytes of data in it. The driver specifies the number of bytes that it writes to this buffer in the <b>dwActualSize</b> member.
 
 ### -field dwActualSize
 
-Specifies the location in which the driver returns the number of bytes of data it writes in <b>lpvData</b>. 
-
+Specifies the location in which the driver returns the number of bytes of data it writes in <b>lpvData</b>.
 
 ### -field ddRVal
 
 Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
-
 ## -remarks
-
-
 
 The data structure passed to the driver for a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> call has minor differences between Windows 98/Me and Windows 2000 and later. On Windows 2000 and later the data structure is called DD_GETDRIVERINFODATA and on Windows 98/Me the data structure is called DDHAL_GETDRIVERINFODATA. Both data structures include a field for driver specific context information. On Windows 2000 and later, DD_GETDRIVERINFODATA includes a field <b>dhpdev</b> that stores the DHPDEV of the driver being called. Only on Windows 98/Me, DDHAL_GETDRIVERINFODATA includes a field <b>dwContext</b> that is copied for the driver reserved <b>dwReserved3</b> field of the DirectDraw global object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
- 
-
- 
 

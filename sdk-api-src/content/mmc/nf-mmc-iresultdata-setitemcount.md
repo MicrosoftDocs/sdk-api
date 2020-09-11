@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: d2105b19-3c91-4a5f-9dfa-c330d4733c67
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],SetItemCount method, IResultData.SetItemCount, IResultData2 interface [MMC],SetItemCount method, IResultData2::SetItemCount, IResultData::SetItemCount, MMCLV_UPDATE_NOINVALIDATEALL, MMCLV_UPDATE_NOSCROLL, SetItemCount, SetItemCount method [MMC], SetItemCount method [MMC],IResultData interface, SetItemCount method [MMC],IResultData2 interface, _slate_iresultdata_setitemcount, mmc.iresultdata_setitemcount, mmc/IResultData2::SetItemCount, mmc/IResultData::SetItemCount
-f1_keywords:
-- mmc/IResultData.SetItemCount
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IResultData.SetItemCount
-- IResultData2.SetItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultData::SetItemCount
+ - mmc/IResultData::SetItemCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IResultData.SetItemCount
+ - IResultData2.SetItemCount
 ---
 
 # IResultData::SetItemCount
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IResultData::SetItemCount</b> method sets the number of items in a virtual list.
 
-
 ## -parameters
-
-
-
 
 ### -param nItemCount [in]
 
 The number of items that the control will contain.
-
 
 ### -param dwOptions [in]
 
@@ -80,19 +75,11 @@ Only repaint items added or removed at the bottom of the result pane. Set this f
 
 Do not adjust the scroll bar on changed item count.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 The primary purpose of the 
 SetItemCount method is to populate virtual lists. Because items are not actually added to a virtual list, this is the way to notify the list how many virtual items exist.
@@ -104,13 +91,7 @@ The MMCLV_UPDATE_NOINVALIDATEALL flag should be used in cases where you are only
 SetItemCount can be called for nonvirtual lists as well, but for a different purpose. When called for a nonvirtual list, 
 SetItemCount preallocates memory for the specified number of items. When adding a large number of items, this improves performance by reducing the number of memory allocation calls the list must do.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
@@ -121,7 +102,4 @@ SetItemCount preallocates memory for the specified number of items. When adding 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 96DEA181-8506-4FCC-85E0-A2EF79BA6C6D
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], IStorageProviderHandler interface [Windows Shell],described, shell.istorageproviderhandler, storageprovider/IStorageProviderHandler
-f1_keywords:
-- storageprovider/IStorageProviderHandler
-dev_langs:
-- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- storageprovider.h
-api_name:
-- IStorageProviderHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStorageProviderHandler
+ - storageprovider/IStorageProviderHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - storageprovider.h
+api_name:
+ - IStorageProviderHandler
 ---
 
 # IStorageProviderHandler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with a specific file or folder.
-
 
 ## -inheritance
 
@@ -95,16 +94,12 @@ Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/stor
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Caution</b>  <p class="note">You should only implement this interface if you have a specific need to do so.  
 
 </div>
 <div> </div>
-
 

@@ -8,10 +8,6 @@ tech.root: psapi
 ms.assetid: 12990e8d-6097-4502-824e-db6c3f76c715
 ms.date: 12/05/2018
 ms.keywords: GetProcessMemoryInfo, GetProcessMemoryInfo function [PSAPI], K32GetProcessMemoryInfo, _win32_getprocessmemoryinfo, base.getprocessmemoryinfo, psapi.getprocessmemoryinfo, psapi/GetProcessMemoryInfo, psapi/K32GetProcessMemoryInfo
-f1_keywords:
-- psapi/GetProcessMemoryInfo
-dev_langs:
-- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Psapi.dll
-- Psapi.dll
-- API-MS-Win-Core-PsAPI-L1-1-0.dll
-- KernelBase.dll
-api_name:
-- GetProcessMemoryInfo
-- K32GetProcessMemoryInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProcessMemoryInfo
+ - psapi/GetProcessMemoryInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Psapi.dll
+ - Psapi.dll
+ - API-MS-Win-Core-PsAPI-L1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - GetProcessMemoryInfo
+ - K32GetProcessMemoryInfo
 ---
 
 # GetProcessMemoryInfo function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the memory usage of the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param Process [in]
 
@@ -69,34 +65,24 @@ A handle to the process. The handle must have the **PROCESS_QUERY_INFORMATION** 
 
 **Windows Server 2003 and Windows XP:  **The handle must have the **PROCESS_QUERY_INFORMATION** and **PROCESS_VM_READ** access rights.
 
-
 ### -param ppsmemCounters [out]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-process_memory_counters">PROCESS_MEMORY_COUNTERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-process_memory_counters_ex">PROCESS_MEMORY_COUNTERS_EX</a> structure that receives information about the memory usage of the process.
-
 
 ### -param cb [in]
 
 The size of the 
 <i>ppsmemCounters</i> structure, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -123,12 +109,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
@@ -151,7 +132,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/psapi/process-memory-usage-information">Process Memory Usage Information</a>
- 
-
- 
 

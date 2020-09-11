@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: b6ff1b1f-fd0e-4cfb-9030-67e27e8578f6
 ms.date: 12/05/2018
 ms.keywords: RtmGetLessSpecificDestination, RtmGetLessSpecificDestination function [RAS], _rtmv2ref_rtmgetlessspecificdestination, rras.rtmgetlessspecificdestination, rtmv2/RtmGetLessSpecificDestination
-f1_keywords:
-- rtmv2/RtmGetLessSpecificDestination
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetLessSpecificDestination
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetLessSpecificDestination
+ - rtmv2/RtmGetLessSpecificDestination
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetLessSpecificDestination
 ---
 
 # RtmGetLessSpecificDestination function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetLessSpecificDestination</b> function searches the routing table for a destination with the next-best-match (longest) prefix, given a destination prefix. The requested destination information is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param DestHandle [in]
 
 Handle to the destination.
-
 
 ### -param ProtocolId [in]
 
@@ -79,11 +73,9 @@ Specifies the protocol identifier. The <i>ProtocolID</i> is not part of the sear
 
 Specify RTM_BEST_PROTOCOL to return a route regardless of which protocol owns it. Specify RTM_THIS_PROTOCOL to return the best route for the calling protocol.
 
-
 ### -param TargetViews [in]
 
 Specifies the views from which to return information. If the client specifies RTM_VIEW_MASK_ANY, destination information is returned from all views; however, no view-specific information is returned.
-
 
 ### -param DestInfo [out]
 
@@ -95,10 +87,7 @@ On input, <i>DestInfo</i> is a pointer to an
 
 On output, <i>DestInfo</i> is filled with the requested destination information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -137,13 +126,7 @@ The next best destination cannot be found.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The <i>DestInfo</i> parameter is a variable-sized 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a> structure. If the client specifies more than one view using <i>TargetViews</i>, the size of <i>DestInfo</i> increases for each view. Use the 
@@ -171,13 +154,7 @@ One common use for the
 For sample code using this function, see 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/search-for-routes-using-rtmgetmostspecificdestination-and-rtmgetlessspecificdestination">Search for Routes Using a Prefix Tree</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a>
 
@@ -196,7 +173,4 @@ For sample code using this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmisbestroute">RtmIsBestRoute</a>
- 
-
- 
 

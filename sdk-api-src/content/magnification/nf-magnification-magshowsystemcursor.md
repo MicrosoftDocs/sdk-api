@@ -7,10 +7,6 @@ tech.root: magapi
 ms.assetid: 0C4D92D8-9B06-4592-A0FF-8AE4378E5641
 ms.date: 12/05/2018
 ms.keywords: MagShowSystemCursor, MagShowSystemCursor function [Magnification API], magapi.magapi_magshowsystemcursor, magnification/MagShowSystemCursor
-f1_keywords:
-- magnification/MagShowSystemCursor
-dev_langs:
-- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Magnification.dll
-api_name:
-- MagShowSystemCursor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MagShowSystemCursor
+ - magnification/MagShowSystemCursor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Magnification.dll
+api_name:
+ - MagShowSystemCursor
 ---
 
 # MagShowSystemCursor function
@@ -48,14 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shows or hides the system cursor.
 
-
 ## -parameters
-
-
-
 
 ### -param fShowCursor [in]
 
@@ -63,21 +59,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 TRUE to show the system cursor, or FALSE to hide it.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function does not associate a reference count with the visibility state of the system cursor. Instead, the specified visibility state takes effect immediately, regardless of any previous calls to <b>MagShowSystemCursor</b>.
 
@@ -107,7 +95,4 @@ BOOL ShowSystemCursor(BOOL fShow)
 }
 
 ```
-
-
-
 

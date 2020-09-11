@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 03343d85-c0db-436d-bedc-c001b1886173
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceQuery, IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,described, functiondiscoveryapi/IFunctionInstanceQuery, ncd.ifunctioninstancequery
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceQuery
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceQuery
+ - functiondiscoveryapi/IFunctionInstanceQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceQuery
 ---
 
 # IFunctionInstanceQuery interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 This interface implements the asynchronous query for a function instance based on category and subcategory. A pointer to this interface is returned when the query is created by the client program.
-
 
 ## -inheritance
 
@@ -79,25 +78,13 @@ Performs the query defined by <a href="https://docs.microsoft.com/windows/deskto
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancequery-execute">Execute</a> method must be invoked by the client program before any data can be retrieved from the query object.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
- 
-
- 
 

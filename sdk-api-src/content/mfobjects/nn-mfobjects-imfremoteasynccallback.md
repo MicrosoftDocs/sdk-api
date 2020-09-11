@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 57be21cf-b381-436a-bc7e-3fdc01cc2515
 ms.date: 12/05/2018
 ms.keywords: 57be21cf-b381-436a-bc7e-3fdc01cc2515, IMFRemoteAsyncCallback, IMFRemoteAsyncCallback interface [Media Foundation], IMFRemoteAsyncCallback interface [Media Foundation],described, mf.imfremoteasynccallback, mfobjects/IMFRemoteAsyncCallback
-f1_keywords:
-- mfobjects/IMFRemoteAsyncCallback
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.h
-api_name:
-- IMFRemoteAsyncCallback
-- IMFRemoteAsyncCallback.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFRemoteAsyncCallback
+ - mfobjects/IMFRemoteAsyncCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.h
+api_name:
+ - IMFRemoteAsyncCallback
+ - IMFRemoteAsyncCallback.Invoke
 ---
 
 # IMFRemoteAsyncCallback interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Used by the Microsoft Media Foundation proxy/stub DLL to marshal certain asynchronous method calls across process boundaries.
 
 Applications do not use or implement this interface.
-
-
-
 
 ## -inheritance
 
@@ -81,16 +77,9 @@ Not used by applications.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

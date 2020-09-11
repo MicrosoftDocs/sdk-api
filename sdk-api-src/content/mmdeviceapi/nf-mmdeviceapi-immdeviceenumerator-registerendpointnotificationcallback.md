@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 2c524f64-0b35-4433-9768-582dcb580a74
 ms.date: 12/05/2018
 ms.keywords: IMMDeviceEnumerator interface [Core Audio],RegisterEndpointNotificationCallback method, IMMDeviceEnumerator.RegisterEndpointNotificationCallback, IMMDeviceEnumerator::RegisterEndpointNotificationCallback, IMMDeviceEnumeratorRegisterEndpointNotificationCal, RegisterEndpointNotificationCallback, RegisterEndpointNotificationCallback method [Core Audio], RegisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_registerendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback
-f1_keywords:
-- mmdeviceapi/IMMDeviceEnumerator.RegisterEndpointNotificationCallback
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMDeviceEnumerator.RegisterEndpointNotificationCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMDeviceEnumerator::RegisterEndpointNotificationCallback
+ - mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMDeviceEnumerator.RegisterEndpointNotificationCallback
 ---
 
 # IMMDeviceEnumerator::RegisterEndpointNotificationCallback
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>RegisterEndpointNotificationCallback</b> method registers a client's notification callback interface.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pClient [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient</a> interface that the client is registering for notification callbacks. 
-
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient</a> interface that the client is registering for notification callbacks.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -100,14 +90,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method registers an IMMNotificationClient interface to be called by the system when the roles, state, existence, or properties of an endpoint device change. The caller implements the IMMNotificationClient interface.
 
@@ -119,14 +103,7 @@ The client must ensure that the <a href="https://docs.microsoft.com/windows/desk
 
 For more information about the <b>AddRef</b> and <b>Release</b> methods, see the discussion of the <b>IUnknown</b> interface in the Windows SDK documentation.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
 
@@ -137,7 +114,4 @@ For more information about the <b>AddRef</b> and <b>Release</b> methods, see the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
- 
-
- 
 

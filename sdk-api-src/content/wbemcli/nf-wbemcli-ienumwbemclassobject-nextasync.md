@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 1ff82982-a2d7-4618-8488-9e4b7628012d
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],NextAsync method, IEnumWbemClassObject.NextAsync, IEnumWbemClassObject::NextAsync, NextAsync, NextAsync method [Windows Management Instrumentation], NextAsync method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_nextasync, wbemcli/IEnumWbemClassObject::NextAsync, wmi.ienumwbemclassobject_nextasync
-f1_keywords:
-- wbemcli/IEnumWbemClassObject.NextAsync
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-api_name:
-- IEnumWbemClassObject.NextAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWbemClassObject::NextAsync
+ - wbemcli/IEnumWbemClassObject::NextAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+api_name:
+ - IEnumWbemClassObject.NextAsync
 ---
 
 # IEnumWbemClassObject::NextAsync
@@ -49,41 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the <b>NextAsync</b> method when a controlled asynchronous retrieval of objects to a sink is required. Normal asynchronous retrieval, such as a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">IWbemServices::ExecQueryAsync</a>, results in uncontrolled delivery of objects to the caller's implementation of 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>. This method is helpful for cases where a component controls object delivery.
 
-
 ## -parameters
-
-
-
 
 ### -param uCount [in]
 
 Number of objects being requested.
-
 
 ### -param pSink [in]
 
 Sink to receive the objects. The sink must be implemented by the caller. As each batch of objects is requested, they are delivered to the <i>pSink</i> parameter of the 
       <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a> method followed by a final call to the <i>pSink</i>parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> method. If the sink is going to be used to deliver objects, this method returns <b>WBEM_S_NO_ERROR</b>, even if the number of objects to be delivered is less than requested. However, if there are no more objects remaining, then the <i>pSink</i> parameter is ignored (no calls to the <i>pSink</i>parameter of <b>SetStatus</b> are made). Instead, this method returns <b>WBEM_S_FALSE</b>.
 
-
 ## -returns
-
-
 
 The 
 <b>NextAsync</b> method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 A call to the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> provides more information about the error. COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 
@@ -106,6 +93,4 @@ If there are no available objects, <a href="https://docs.microsoft.com/windows/d
 Because the callback might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 For more information about using methods semisynchronously, see <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
-
-
 

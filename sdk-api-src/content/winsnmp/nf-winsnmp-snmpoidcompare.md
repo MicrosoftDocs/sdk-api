@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: aa13abb3-c16d-4b12-a3b8-9c3c727199e0
 ms.date: 12/05/2018
 ms.keywords: Equal to 0, Greater than 0, Less than 0, SnmpOidCompare, SnmpOidCompare function [SNMP], _snmp_snmpoidcompare, snmp.snmpoidcompare, winsnmp/SnmpOidCompare
-f1_keywords:
-- winsnmp/SnmpOidCompare
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpOidCompare
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpOidCompare
+ - winsnmp/SnmpOidCompare
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpOidCompare
 ---
 
 # SnmpOidCompare function
@@ -49,34 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpOidCompare</b> function lexicographically compares two SNMP object identifiers, up to the length specified by the <i>maxlen</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param xOID [in]
 
 Pointer to the first 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> object identifier to compare. The length of the object identifier can be zero.
 
-
 ### -param yOID [in]
 
 Pointer to the second 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> object identifier to compare. The length of the object identifier can be zero.
 
-
 ### -param maxlen [in]
 
 If not equal to zero, specifies the number of subidentifiers to compare. This parameter must be less than MAXOBJIDSIZE: 128 subidentifiers, the maximum number of components in an object identifier. For additional information, see the following Remarks section.
-
 
 ### -param result [out]
 
@@ -124,10 +117,7 @@ Pointer to an integer variable to receive the result of the comparison. The vari
 
 For additional comparison conditions, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
@@ -197,14 +187,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WinSNMP application can call the 
 <b>SnmpOidCompare</b> function to determine whether two object identifiers have common prefixes.
@@ -226,12 +210,7 @@ The value of the <i>result</i> parameter will indicate that <i>xOID</i> equals <
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structures are equal, but less than the <i>maxlen</i> parameter.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
@@ -243,7 +222,4 @@ The value of the <i>result</i> parameter will indicate that <i>xOID</i> equals <
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>
- 
-
- 
 

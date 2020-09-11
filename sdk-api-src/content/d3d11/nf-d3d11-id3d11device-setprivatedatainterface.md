@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 65b4461d-bfbb-4de1-84f8-6294fde12980
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device interface [Direct3D 11],SetPrivateDataInterface method, ID3D11Device.SetPrivateDataInterface, ID3D11Device::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 11], SetPrivateDataInterface method [Direct3D 11],ID3D11Device interface, c27aaa23-b80d-2dcf-0f00-1b62c5fb3acb, d3d11/ID3D11Device::SetPrivateDataInterface, direct3d11.id3d11device_setprivatedatainterface
-f1_keywords:
-- d3d11/ID3D11Device.SetPrivateDataInterface
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device.SetPrivateDataInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device::SetPrivateDataInterface
+ - d3d11/ID3D11Device::SetPrivateDataInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device.SetPrivateDataInterface
 ---
 
 # ID3D11Device::SetPrivateDataInterface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
 
-
 ## -parameters
-
-
-
 
 ### -param guid [in]
 
@@ -65,32 +61,19 @@ Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut
 
 Guid associated with the interface.
 
-
 ### -param pData [in, optional]
 
 Type: <b>const IUnknown*</b>
 
 Pointer to an IUnknown-derived interface to be associated with the device child.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 4EA79D44-7C26-4B65-81A1-394E1E540F34
 ms.date: 12/05/2018
 ms.keywords: IAppxFactory, IAppxFactory interface [App packaging and management], IAppxFactory interface [App packaging and management],described, appxpackaging/IAppxFactory, appxpkg.iappxfactory
-f1_keywords:
-- appxpackaging/IAppxFactory
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxFactory
+ - appxpackaging/IAppxFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxFactory
 ---
 
 # IAppxFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates objects for reading and writing app packages.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Creates a read-only block map object model from contents provided by an <a href=
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IAppxFactory</b> interface provides factory methods to create readers and writers of app packages as well as methods to create readers for block maps and manifests outside of a package.
 
@@ -140,12 +136,7 @@ For examples, see:
 </ul>
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
 
@@ -160,7 +151,4 @@ For examples, see:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>
- 
-
- 
 

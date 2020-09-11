@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 579f80af-38e0-4d3a-9307-5aa5e3fd6770
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantVectorFromPropVariant, InitPropVariantVectorFromPropVariant function [Windows Properties], properties.InitPropVariantVectorFromPropVariant, propvarutil/InitPropVariantVectorFromPropVariant, shell.InitPropVariantVectorFromPropVariant, shell_InitPropVariantVectorFromPropVariant
-f1_keywords:
-- propvarutil/InitPropVariantVectorFromPropVariant
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- InitPropVariantVectorFromPropVariant
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitPropVariantVectorFromPropVariant
+ - propvarutil/InitPropVariantVectorFromPropVariant
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - InitPropVariantVectorFromPropVariant
 ---
 
 # InitPropVariantVectorFromPropVariant function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a vector element in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure with a value stored in another <b>PROPVARIANT</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param propvarSingle [in]
 
@@ -64,28 +60,19 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains a single value.
 
-
 ### -param ppropvarVector [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function is used to convert a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains a single value into a vector value.
 
@@ -136,14 +123,7 @@ if (PropVariantGetElementCount(propvarSource) == 1)
     }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringasvector">InitPropVariantFromStringAsVector</a>
 
@@ -154,7 +134,4 @@ if (PropVariantGetElementCount(propvarSource) == 1)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelementcount">PropVariantGetElementCount</a>
- 
-
- 
 

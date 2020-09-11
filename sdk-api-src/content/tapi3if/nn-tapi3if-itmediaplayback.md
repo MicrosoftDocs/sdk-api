@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 66b43721-f902-4a0e-8cbb-418438617f47
 ms.date: 12/05/2018
 ms.keywords: ITMediaPlayback, ITMediaPlayback interface [TAPI 2.2], ITMediaPlayback interface [TAPI 2.2],described, _tapi3_itmediaplayback, tapi3.itmediaplayback, tapi3if/ITMediaPlayback
-f1_keywords:
-- tapi3if/ITMediaPlayback
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITMediaPlayback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITMediaPlayback
+ - tapi3if/ITMediaPlayback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITMediaPlayback
 ---
 
 # ITMediaPlayback interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITMediaPlayback</b> interface provides playback-specific methods that allow an application to set and get the list of files to play. This interface is created by calling <b>QueryInterface</b> on 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
-
 
 ## -inheritance
 
@@ -88,20 +87,13 @@ Sets the list of files to play.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord">ITMediaRecord</a>
- 
-
- 
 

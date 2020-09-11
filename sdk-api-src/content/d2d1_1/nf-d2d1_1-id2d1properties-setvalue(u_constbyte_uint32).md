@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: F0351C64-03CC-42D5-9622-F92C1054632C
 ms.date: 12/05/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(U,const BYTE,UINT32,), ID2D1Properties::SetValue, ID2D1Properties::SetValue(U,const BYTE*,UINT32), ID2D1Properties::SetValue(U,const BYTE,UINT32,), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue3
-f1_keywords:
-- d2d1_1/ID2D1Properties.SetValue
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Properties.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Properties::SetValue
+ - d2d1_1/ID2D1Properties::SetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Properties.SetValue
 ---
 
 # ID2D1Properties::SetValue(U,const BYTE,UINT32)
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the corresponding  property by index. This is a template overload. See Remarks.
 
-
 ## -parameters
-
-
-
 
 ### -param index
 
 The index of the property to set.
 
-
 ### -param data [in]
 
 The data to set.
-
 
 ### -param dataSize
 
 The number of bytes in the data to set.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,13 +102,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </table>
 �
 
-
-
-
 ## -remarks
-
-
-
 
 <pre class="syntax">template&lt;typename U&gt;
     HRESULT SetValue(
@@ -127,14 +112,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
         );
 </pre>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property">D2D1_PROPERTY</a>
 

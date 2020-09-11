@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c2f2b59f-2522-4f13-8861-fb4e2d9d406c
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetBump method, IAMExtTransport.SetBump, IAMExtTransport::SetBump, IAMExtTransportSetBump, SetBump, SetBump method [DirectShow], SetBump method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setbump, strmif/IAMExtTransport::SetBump
-f1_keywords:
-- strmif/IAMExtTransport.SetBump
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.SetBump
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::SetBump
+ - strmif/IAMExtTransport::SetBump
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.SetBump
 ---
 
 # IAMExtTransport::SetBump
@@ -50,42 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetBump</code> method temporarily changes the playback, for synchronization of multiple external devices.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param Speed [in]
 
 Specifies the temporary speed (a multiple of normal speed) as a <b>long</b> integer.
 
-
 ### -param Duration [in]
 
 Specifies the duration of a bump as a <b>long</b> integer. The duration is given in the current time format; see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportbasicparameters">IAMExtTransport::SetTransportBasicParameters</a> for more information.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
 
-
-
-
 ## -remarks
-
-
 
 This method causes a temporary speed variation of the transport. The transport operates at the new speed until the specified duration elapses. Then it returns to its previous speed.
 
@@ -93,13 +79,7 @@ This method causes a temporary speed variation of the transport. The transport o
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -110,7 +90,4 @@ This method causes a temporary speed variation of the transport. The transport o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-getbump">IAMExtTransport::GetBump</a>
- 
-
- 
 

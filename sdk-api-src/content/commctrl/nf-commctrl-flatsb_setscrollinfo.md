@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollinfo.htm
 ms.date: 12/05/2018
 ms.keywords: FlatSB_SetScrollInfo, FlatSB_SetScrollInfo function [Windows Controls], SB_HORZ, SB_VERT, SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, _win32_FlatSB_SetScrollInfo, _win32_FlatSB_SetScrollInfo_cpp, commctrl/FlatSB_SetScrollInfo, controls.FlatSB_SetScrollInfo, controls._win32_FlatSB_SetScrollInfo
-f1_keywords:
-- commctrl/FlatSB_SetScrollInfo
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- FlatSB_SetScrollInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FlatSB_SetScrollInfo
+ - commctrl/FlatSB_SetScrollInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - FlatSB_SetScrollInfo
 ---
 
 # FlatSB_SetScrollInfo function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function. 
-
+Sets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function.
 
 ## -parameters
-
-
-
 
 ### -param arg1
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>. 
-
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>.
 
 ### -param code
 
@@ -97,8 +92,6 @@ Sets the information for the vertical scroll bar.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param psi
 
@@ -167,32 +160,21 @@ A combination of SIF_PAGE, SIF_POS, and SIF_RANGE.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fRedraw
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Specifies whether the scroll bar should be redrawn immediately to reflect the change. If this parameter is <b>TRUE</b>, the scroll bar is redrawn; if it is <b>FALSE</b>, the scroll bar is not redrawn. 
-
+Specifies whether the scroll bar should be redrawn immediately to reflect the change. If this parameter is <b>TRUE</b>, the scroll bar is redrawn; if it is <b>FALSE</b>, the scroll bar is not redrawn.
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
 Returns the current scroll position. If the call to <b>FlatSB_SetScrollInfo</b> changes the scroll position, then the previous position is returned.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Flat scroll bar functions are implemented in Comctl32.dll versions 4.71 through 5.82. Comctl32.dll versions 6.00 and higher do not support flat scroll bars.</div>
 <div> </div>
-
 

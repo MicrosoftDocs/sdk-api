@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5E64C24D-D6EC-419B-9DC8-309EBCE0077E
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], IMFCapturePreviewSink interface [Media Foundation],described, mf.imfcapturepreviewsink, mfcaptureengine/IMFCapturePreviewSink
-f1_keywords:
-- mfcaptureengine/IMFCapturePreviewSink
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCapturePreviewSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCapturePreviewSink
+ - mfcaptureengine/IMFCapturePreviewSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCapturePreviewSink
 ---
 
 # IMFCapturePreviewSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the preview sink. The preview sink enables the application to preview audio and video from the camera.
-
 
 ## -inheritance
 
@@ -149,29 +148,17 @@ Updates the video frame.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To start preview, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startpreview">IMFCaptureEngine::StartPreview</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

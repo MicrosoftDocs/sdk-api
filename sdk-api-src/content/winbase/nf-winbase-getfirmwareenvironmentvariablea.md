@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba
 ms.date: 12/05/2018
 ms.keywords: GetFirmwareEnvironmentVariable, GetFirmwareEnvironmentVariable function, GetFirmwareEnvironmentVariableA, GetFirmwareEnvironmentVariableW, base.getfirmwareenvironmentvariable, winbase/GetFirmwareEnvironmentVariable, winbase/GetFirmwareEnvironmentVariableA, winbase/GetFirmwareEnvironmentVariableW
-f1_keywords:
-- winbase/GetFirmwareEnvironmentVariable
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-firmware-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GetFirmwareEnvironmentVariable
-- GetFirmwareEnvironmentVariableA
-- GetFirmwareEnvironmentVariableW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFirmwareEnvironmentVariableA
+ - winbase/GetFirmwareEnvironmentVariableA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-firmware-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GetFirmwareEnvironmentVariable
+ - GetFirmwareEnvironmentVariableA
+ - GetFirmwareEnvironmentVariableW
 ---
 
 # GetFirmwareEnvironmentVariableA function
@@ -54,50 +55,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of the specified firmware environment variable.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
 The name of the firmware environment variable. The pointer must not be <b>NULL</b>.
 
-
 ### -param lpGuid [in]
 
-The GUID that represents the namespace of the firmware environment variable. The GUID must be  a string in the format  "{<i>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</i>}" where 'x' represents a hexadecimal value. 
-
+The GUID that represents the namespace of the firmware environment variable. The GUID must be  a string in the format  "{<i>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</i>}" where 'x' represents a hexadecimal value.
 
 ### -param pBuffer [out]
 
 A pointer to a buffer that receives the value of the specified firmware environment variable.
 
-
 ### -param nSize [in]
 
 The size of the <i>pBuffer</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of bytes stored in the <i>pBuffer</i> buffer.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include ERROR_INVALID_FUNCTION.
 
-
-
-
 ## -remarks
-
-
 
 Starting with Windows 10, version 1803, Universal Windows apps can read and write Unified Extensible Firmware Interface (UEFI) firmware variables. See <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>for details.
 
@@ -123,9 +108,6 @@ If you are creating a backup application, you can use this function to save all 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>
 
 
@@ -140,7 +122,4 @@ If you are creating a backup application, you can use this function to save all 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
- 
-
- 
 

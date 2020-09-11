@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 52E76A8D-E7E2-46F5-BBCC-B7C74F1B1122
 ms.date: 12/05/2018
 ms.keywords: IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], IWICDdsFrameDecode interface [Windows Imaging Component],described, wic.iwicddsframedecode, wincodec/IWICDdsFrameDecode
-f1_keywords:
-- wincodec/IWICDdsFrameDecode
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICDdsFrameDecode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICDdsFrameDecode
+ - wincodec/IWICDdsFrameDecode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICDdsFrameDecode
 ---
 
 # IWICDdsFrameDecode interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to a single frame of DDS image data in its native <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> form, as well as information about the image data.
-
 
 ## -inheritance
 
@@ -95,14 +94,9 @@ Gets the width and height, in blocks, of the DDS image.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is implemented by the WIC DDS codec. To obtain this interface, create an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a> using the DDS codec and QueryInterface for IID_IWICDdsFrameDecode.
-
-
 

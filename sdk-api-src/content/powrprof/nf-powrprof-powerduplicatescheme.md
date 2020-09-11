@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e58dee69-309c-4b52-bf28-f54b300801b9
 ms.date: 12/05/2018
 ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerduplicatescheme, powrprof/PowerDuplicateScheme
-f1_keywords:
-- powrprof/PowerDuplicateScheme
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerDuplicateScheme
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerDuplicateScheme
+ - powrprof/PowerDuplicateScheme
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerDuplicateScheme
 ---
 
 # PowerDuplicateScheme function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Duplicates an existing power scheme.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SourceSchemeGuid [in]
 
 The identifier of the power scheme that is to be duplicated.
-
 
 ### -param DestinationSchemeGuid [in]
 
@@ -75,10 +69,7 @@ The address of a pointer to a <b>GUID</b>. If the pointer contains
       <b>GUID</b> and puts the address of this memory in the pointer. The caller can free this 
       memory using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
@@ -127,18 +118,8 @@ The <i>DestinationSchemeGuid</i> parameter refers to an existing power scheme.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
 

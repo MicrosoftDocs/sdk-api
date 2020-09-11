@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 6fc443c8-da97-4196-a9ed-179a4e583849
 ms.date: 12/05/2018
 ms.keywords: CreateDC, CreateDC function [Windows GDI], CreateDCA, CreateDCW, _win32_CreateDC, gdi.createdc, wingdi/CreateDC, wingdi/CreateDCA, wingdi/CreateDCW
-f1_keywords:
-- wingdi/CreateDC
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
-- Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
-- ext-ms-win-gdi-dc-create-l1-1-2.dll
-- GDI32Full.dll
-api_name:
-- CreateDC
-- CreateDCA
-- CreateDCW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDCW
+ - wingdi/CreateDCW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
+ - Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
+ - ext-ms-win-gdi-dc-create-l1-1-2.dll
+ - GDI32Full.dll
+api_name:
+ - CreateDC
+ - CreateDCA
+ - CreateDCW
 ---
 
 # CreateDCW function
@@ -55,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateDC</b> function creates a device context (DC) for a device using the specified name.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszDriver
 
 A pointer to a null-terminated character string that specifies either DISPLAY or the name of a specific display device. For printing, we recommend that you pass <b>NULL</b> to <i>lpszDriver</i> because GDI ignores <i>lpszDriver</i> for printer devices.
-
 
 ### -param pwszDevice [in]
 
@@ -79,11 +74,9 @@ If <i>lpszDriver</i> is DISPLAY or the device name of a specific display device,
 
 If there are multiple monitors on the system, calling <code>CreateDC(TEXT("DISPLAY"),NULL,NULL,NULL)</code> will create a DC covering all the monitors.
 
-
 ### -param pszPort
 
 This parameter is ignored and should be set to <b>NULL</b>. It is provided only for compatibility with 16-bit Windows.
-
 
 ### -param pdm [in]
 
@@ -91,21 +84,13 @@ A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a
 
 If <i>lpszDriver</i> is DISPLAY, <i>pdm</i> must be <b>NULL</b>; GDI then uses the display device's current <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the handle to a DC for the specified device.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Note that the handle to the DC can only be used by a single thread at any one time.
 
@@ -135,9 +120,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capt
 > The wingdi.h header defines CreateDC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
@@ -172,7 +154,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
- 
-
- 
 

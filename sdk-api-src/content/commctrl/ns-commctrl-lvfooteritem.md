@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooteritem.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPLVFOOTERITEM, LPLVFOOTERITEM, LPLVFOOTERITEM structure pointer [Windows Controls], LVFIF_STATE, LVFIF_TEXT, LVFIS_FOCUSED, LVFOOTERITEM, LVFOOTERITEM structure [Windows Controls], _shell_LVFOOTERITEM, _shell_LVFOOTERITEM_cpp, commctrl/LPLVFOOTERITEM, commctrl/LVFOOTERITEM, controls.LVFOOTERITEM, controls._shell_LVFOOTERITEM'
-f1_keywords:
-- commctrl/LVFOOTERITEM
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVFOOTERITEM
 targetos: Windows
 req.typenames: LVFOOTERITEM, *LPLVFOOTERITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVFOOTERITEM
+ - commctrl/tagLVFOOTERITEM
+ - LPLVFOOTERITEM
+ - commctrl/LPLVFOOTERITEM
+ - LVFOOTERITEM
+ - commctrl/LVFOOTERITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVFOOTERITEM
 ---
 
 # LVFOOTERITEM structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information on a footer item.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mask
 
@@ -90,8 +90,6 @@ The <b>state</b> member is valid input from the caller or is requested and thus 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iItem
 
@@ -99,20 +97,17 @@ Type: <b>int</b>
 
 The index of the item.
 
-
 ### -field pszText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer. The calling process is responsible for allocating the buffer.
 
-
 ### -field cchTextMax
 
 Type: <b>int</b>
 
 The number of <b>WCHAR</b><b>s</b> in the buffer pointed to by <b>pszText</b>,  including the terminating <b>NULL</b>.
-
 
 ### -field state
 
@@ -136,8 +131,6 @@ Bit indicating focus state. Set if the item is in focus, otherwise cleared.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field stateMask
 
@@ -161,14 +154,8 @@ The LVFIS_FOCUSED bit of member <b>state</b> is valid. For example, setting this
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getfooteritem">ListView_GetFooterItem</a> macro and the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfooteritem">LVM_GETFOOTERITEM</a> message.
-
-
 

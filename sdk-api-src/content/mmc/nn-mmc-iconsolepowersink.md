@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: dd23c6dc-9219-4d13-b237-13405a2fcb5a
 ms.date: 12/05/2018
 ms.keywords: IConsolePowerSink, IConsolePowerSink interface [MMC], IConsolePowerSink interface [MMC],described, _slate_iconsolepowersink, mmc.iconsolepowersink, mmc/IConsolePowerSink
-f1_keywords:
-- mmc/IConsolePowerSink
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IConsolePowerSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsolePowerSink
+ - mmc/IConsolePowerSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IConsolePowerSink
 ---
 
 # IConsolePowerSink interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IConsolePowerSink</b> interface monitors and responds to power management messages.
-
 
 ## -inheritance
 
@@ -79,12 +78,9 @@ WM_POWERBROADCAST messages.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To receive power management notifications, your snap-in must use the <a href="https://msdn.microsoft.com/library/26k10xyy.aspx">AtlAdvise</a> function to associate an instance of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a> interface with your implementation of the 
@@ -120,17 +116,7 @@ hr = AtlUnadvise(m_ipConsolePower,
                  m_dwCookie);
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 00a533fa-2a91-46e8-9754-af162a5e59ec
 ms.date: 12/05/2018
 ms.keywords: AddFilter, AddFilter method [Windows Sync], AddFilter method [Windows Sync],ISupportFilteredSync interface, ISupportFilteredSync interface [Windows Sync],AddFilter method, ISupportFilteredSync.AddFilter, ISupportFilteredSync::AddFilter, winsync.isupportfilteredsync_addfilter, winsync/ISupportFilteredSync::AddFilter
-f1_keywords:
-- winsync/ISupportFilteredSync.AddFilter
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISupportFilteredSync.AddFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISupportFilteredSync::AddFilter
+ - winsync/ISupportFilteredSync::AddFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISupportFilteredSync.AddFilter
 ---
 
 # ISupportFilteredSync::AddFilter
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the filter that is used for change enumeration by the source provider, when implemented by a derived class.
 
-
 ## -parameters
-
-
-
 
 ### -param pFilter [in]
 
 The filter that is used for change enumeration by the source provider.
 
-
 ### -param filteringType [in]
 
 A <a href="/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -110,14 +102,8 @@ When the type of filter that is specified by <i>pFilter</i> is not supported.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Filter negotiation is achieved by using the following steps:
 
@@ -133,12 +119,7 @@ When a filter has been successfully negotiated, the source provider uses it to d
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE Enumeration</a>
 
@@ -153,7 +134,4 @@ When a filter has been successfully negotiated, the source provider uses it to d
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isupportfilteredsync">ISupportFilteredSync Interface</a>
- 
-
- 
 

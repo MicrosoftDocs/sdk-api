@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_459h.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],ScheduleTime property, IFaxDocument.ScheduleTime, IFaxDocument.get_ScheduleTime, IFaxDocument.put_ScheduleTime, IFaxDocument::ScheduleTime, IFaxDocument::get_ScheduleTime, IFaxDocument::put_ScheduleTime, ScheduleTime property [Fax Service], ScheduleTime property [Fax Service],IFaxDocument interface, _mfax_faxdocument.scheduletime, fax._mfax_faxdocument_cpp_mfax_faxdocument_scheduletime_cpp, fax._mfax_faxdocument_scheduletime, faxcomex/IFaxDocument::ScheduleTime, faxcomex/IFaxDocument::get_ScheduleTime, faxcomex/IFaxDocument::put_ScheduleTime, put_ScheduleTime
-f1_keywords:
-- faxcomex/IFaxDocument.ScheduleTime
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxDocument.ScheduleTime
-- IFaxDocument.get_ScheduleTime
-- IFaxDocument.put_ScheduleTime
-- IFaxDocument.get_ScheduleTime
-- IFaxDocument.put_ScheduleTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDocument::put_ScheduleTime
+ - faxcomex/IFaxDocument::put_ScheduleTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxDocument.ScheduleTime
+ - IFaxDocument.get_ScheduleTime
+ - IFaxDocument.put_ScheduleTime
+ - IFaxDocument.get_ScheduleTime
+ - IFaxDocument.put_ScheduleTime
 ---
 
 # IFaxDocument::put_ScheduleTime
@@ -53,18 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxDocument::get_ScheduleTime</b> property indicates the time to submit the fax for processing to the fax service.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If the time specified has passed, the fax service sends the fax as soon as a device is available. By default, <b>IFaxDocument::get_ScheduleTime</b> is set to zero, meaning that no time is specified.
 
@@ -73,12 +69,7 @@ Note that the fax service ignores this parameter unless you set the <a href="htt
 <div class="alert"><b>Note</b>  The value of the <b>IFaxDocument::get_ScheduleTime</b> property must include the date and time for submitting the fax.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
@@ -89,7 +80,4 @@ Note that the fax service ignores this parameter unless you set the <a href="htt
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
- 
-
- 
 

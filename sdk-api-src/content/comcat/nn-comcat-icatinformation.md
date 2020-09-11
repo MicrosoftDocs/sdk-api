@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0
 ms.date: 12/05/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
-f1_keywords:
-- comcat/ICatInformation
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- ICatInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatInformation
+ - comcat/ICatInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - ICatInformation
 ---
 
 # ICatInformation interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains information about the categories implemented or required by a certain class, as well as information about the categories registered on the specified computer.
-
-
 
 ## -inheritance
 
@@ -123,16 +121,9 @@ Determines whether a class implements one or more categories.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
- 
-
- 
 

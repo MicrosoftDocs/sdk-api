@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 363c987c-7d6c-4efe-988a-1b288f9b4d3c
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], IVssExamineWriterMetadataEx interface [VSS],described, base.ivssexaminewritermetadataex, vsbackup/IVssExamineWriterMetadataEx
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadataEx
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsBackup.h
-api_name:
-- IVssExamineWriterMetadataEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadataEx
+ - vsbackup/IVssExamineWriterMetadataEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsBackup.h
+api_name:
+ - IVssExamineWriterMetadataEx
 ---
 
 # IVssExamineWriterMetadataEx class
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssExamineWriterMetadataEx</b> interface is a C++ (not COM) interface that provides a method to retrieve the writer instance name and other basic information for a specific writer instance.
 
 To obtain an instance of the <b>IVssExamineWriterMetadataEx</b> 
    interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface, passing 
    <b>IID_IVssExamineWriterMetadataEx</b> as the interface identifier (IID) parameter.
-
 
 ## -inheritance
 
@@ -82,16 +81,9 @@ Obtains the writer instance name and other basic information about a specific wr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
- 
-
- 
 

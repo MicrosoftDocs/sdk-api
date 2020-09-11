@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 3880aad3-8a6f-43e6-8420-25c4d1b9a71a
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],LayOut method, ICreateTypeInfo.LayOut, ICreateTypeInfo::LayOut, LayOut, LayOut method [Automation], LayOut method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_LayOut, automat.icreatetypeinfo_layout, oaidl/ICreateTypeInfo::LayOut
-f1_keywords:
-- oaidl/ICreateTypeInfo.LayOut
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.LayOut
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::LayOut
+ - oaidl/ICreateTypeInfo::LayOut
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.LayOut
 ---
 
 # ICreateTypeInfo::LayOut
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -203,14 +195,8 @@ Type mismatch.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>LayOut</b> also assigns member ID numbers to the functions and variables, unless the TYPEKIND of the class is TKIND_DISPATCH. Call <b>LayOut</b> after all members of the type information are defined, and before the type library is saved.
 
@@ -222,15 +208,7 @@ Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oa
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
 

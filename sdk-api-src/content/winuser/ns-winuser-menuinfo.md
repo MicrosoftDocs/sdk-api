@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPMENUINFO, LPMENUINFO, LPMENUINFO structure pointer [Menus and Other Resources], MENUINFO, MENUINFO structure [Menus and Other Resources], MIM_APPLYTOSUBMENUS, MIM_BACKGROUND, MIM_HELPID, MIM_MAXHEIGHT, MIM_MENUDATA, MIM_STYLE, MNS_AUTODISMISS, MNS_CHECKORBMP, MNS_DRAGDROP, MNS_MODELESS, MNS_NOCHECK, MNS_NOTIFYBYPOS, _win32_MENUINFO_str, _win32_menuinfo_str_cpp, const *LPCMENUINFO, const *LPCMENUINFO structure [Menus and Other Resources], menurc.menuinfo, winui._win32_menuinfo_str, winuser/LPMENUINFO, winuser/MENUINFO, winuser/const *LPCMENUINFO'
-f1_keywords:
-- winuser/MENUINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MENUINFO
 targetos: Windows
 req.typenames: MENUINFO, *LPMENUINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMENUINFO
+ - winuser/tagMENUINFO
+ - LPMENUINFO
+ - winuser/LPMENUINFO
+ - MENUINFO
+ - winuser/MENUINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MENUINFO
 ---
 
 # MENUINFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a menu.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
-The size of the structure, in bytes. The caller must set this member to <code>sizeof(MENUINFO)</code>. 
-
+The size of the structure, in bytes. The caller must set this member to <code>sizeof(MENUINFO)</code>.
 
 ### -field fMask
 
@@ -148,8 +147,6 @@ Retrieves or sets the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwStyle
 
@@ -229,22 +226,18 @@ Menu owner receives a <a href="https://docs.microsoft.com/windows/desktop/menurc
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cyMax
 
 Type: <b>UINT</b>
 
-The maximum height of the menu in pixels. When the menu items exceed the space available, scroll bars are automatically used. The default (0) is the screen height. 
-
+The maximum height of the menu in pixels. When the menu items exceed the space available, scroll bars are automatically used. The default (0) is the screen height.
 
 ### -field hbrBack
 
 Type: <b>HBRUSH</b>
 
-A handle to the brush to be used for the menu's background. 
-
+A handle to the brush to be used for the menu's background.
 
 ### -field dwContextHelpID
 
@@ -252,8 +245,7 @@ Type: <b>DWORD</b>
 
 The context help identifier. This is the same value used in 
 					the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenucontexthelpid">GetMenuContextHelpId</a> and 
-					<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenucontexthelpid">SetMenuContextHelpId</a> functions. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenucontexthelpid">SetMenuContextHelpId</a> functions.
 
 ### -field dwMenuData
 
@@ -261,14 +253,7 @@ Type: <b>ULONG_PTR</b>
 
 An application-defined value.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus Overview</a>
- 
-
- 
 

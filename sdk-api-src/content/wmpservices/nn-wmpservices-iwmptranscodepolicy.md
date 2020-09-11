@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: b7dbd25f-6865-44fa-9d46-e77de393ce13
 ms.date: 12/05/2018
 ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
-f1_keywords:
-- wmpservices/IWMPTranscodePolicy
-dev_langs:
-- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmpservices.h
-api_name:
-- IWMPTranscodePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPTranscodePolicy
+ - wmpservices/IWMPTranscodePolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmpservices.h
+api_name:
+ - IWMPTranscodePolicy
 ---
 
 # IWMPTranscodePolicy interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPTranscodePolicy</b> interface provides a method implemented by DirectShow source filters to manage changing the format of digital media files.
-
-
-
 
 ## -inheritance
 
@@ -83,16 +79,8 @@ Retrieves a value specifying whether Windows Media Player is permitted to change
 </table> 
 
 To retrieve a pointer to the <b>IWMPTranscodePolicy</b> interface, Windows Media Player calls the <b>QueryInterface</b> method of the DirectShow source filter.
-	
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

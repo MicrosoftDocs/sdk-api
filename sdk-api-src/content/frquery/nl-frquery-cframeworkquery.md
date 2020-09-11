@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 60a7d83c-cfea-41fa-8d97-321127d33c43
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery
-f1_keywords:
-- frquery/CFrameworkQuery
-dev_langs:
-- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CFrameworkQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CFrameworkQuery
+ - frquery/CFrameworkQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CFrameworkQuery
 ---
 
 # CFrameworkQuery class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>CFrameworkQuery</b> class is 
     part of the WMI Provider Framework and is now considered in final state, and no further development, enhancements, 
@@ -141,14 +141,9 @@ Indicates whether only the key properties are required.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for this class is <b>CFrameworkQuery::~CFrameworkQuery</b>.
-
-
 

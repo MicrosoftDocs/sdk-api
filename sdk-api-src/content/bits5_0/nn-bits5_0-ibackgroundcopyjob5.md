@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 97481F9D-1F7B-473A-B288-A52E527478A0
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], IBackgroundCopyJob5 interface [BITS],described, bits.bits5_functions, bits.ibackgroundcopyjob5, bits5_0/IBackgroundCopyJob5
-f1_keywords:
-- bits5_0/IBackgroundCopyJob5
-dev_langs:
-- c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: Bitsprx7.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bitsprx7.dll
-api_name:
-- IBackgroundCopyJob5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob5
+ - bits5_0/IBackgroundCopyJob5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bitsprx7.dll
+api_name:
+ - IBackgroundCopyJob5
 ---
 
 # IBackgroundCopyJob5 interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to query or set several optional behaviors of a job.
 
 To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method using 
     <code>__uuidof(IBackgroundCopyJob5)</code> as the interface identifier.
-
 
 ## -inheritance
 
@@ -89,13 +88,9 @@ A generic method for setting BITS job properties.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
@@ -110,7 +105,4 @@ A generic method for setting BITS job properties.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>
- 
-
- 
 

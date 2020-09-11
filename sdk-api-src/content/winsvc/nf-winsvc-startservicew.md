@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f185a878-e1c3-4fe5-8ec9-c5296d27f985
 ms.date: 12/05/2018
 ms.keywords: StartService, StartService function, StartServiceA, StartServiceW, _win32_startservice, base.startservice, winsvc/StartService, winsvc/StartServiceA, winsvc/StartServiceW
-f1_keywords:
-- winsvc/StartService
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- StartService
-- StartServiceA
-- StartServiceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StartServiceW
+ - winsvc/StartServiceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - StartService
+ - StartServiceA
+ - StartServiceW
 ---
 
 # StartServiceW function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts a service.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -72,11 +68,9 @@ A handle to the service. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function, and it must have the SERVICE_START access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-
 ### -param dwNumServiceArgs [in]
 
 The number of strings in the <i>lpServiceArgVectors</i> array. If <i>lpServiceArgVectors</i> is NULL, this parameter can be zero.
-
 
 ### -param lpServiceArgVectors [in, optional]
 
@@ -84,10 +78,7 @@ The null-terminated strings to be passed to the <a href="https://docs.microsoft.
 
 Driver services do not receive these arguments.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -236,14 +227,8 @@ The process for the service was started, but it did not call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a driver service is started, the 
 <b>StartService</b> function does not return until the device driver has finished initializing.
@@ -287,9 +272,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
 
 
@@ -323,7 +305,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
- 
-
- 
 

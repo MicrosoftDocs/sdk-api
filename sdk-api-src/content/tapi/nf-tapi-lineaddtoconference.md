@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: fbbaea96-727c-46b9-91d1-31d3f89d8ad8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineaddtoconference, lineAddToConference, lineAddToConference function [TAPI 2.2], tapi/lineAddToConference, tapi2.lineaddtoconference
-f1_keywords:
-- tapi/lineAddToConference
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineAddToConference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineAddToConference
+ - tapi/lineAddToConference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineAddToConference
 ---
 
 # lineAddToConference function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineAddToConference</b> function adds the call specified by <i>hConsultCall</i> to the conference call specified by <i>hConfCall</i>.
 
-
 ## -parameters
-
-
-
 
 ### -param hConfCall
 
 Handle to the conference call. The application must be an owner of this call. Any monitoring (media, tones, digits) on a conference call applies only to the <i>hConfCall</i>, not to the individual participating calls. Call state of <i>hConfCall</i> must be <i>onHoldPendingConference</i> or <i>onHold</i>.
-
 
 ### -param hConsultCall
 
@@ -71,22 +66,14 @@ Handle to the call to be added to the conference call. The application must be a
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetupconference">lineSetupConference</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineprepareaddtoconference">linePrepareAddToConference</a>. The call state of <i>hConsultCall</i> must be <i>connected</i>, <i>onHold</i>, <i>proceeding</i>, or <i>ringback</i>. Many PBXs allow calls to be added to conferences before they are actually answered.
 
-
 ## -returns
-
-
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds, or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_CONFERENCEFULL, LINEERR_NOTOWNER, LINEERR_INVALCONFCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 If LINEERR_INVALCALLHANDLE is returned, the specified call handle for the added call is invalid; <i>hConsultCall</i> is a parent of another conference or already a participant in a conference; <i>hConsultCall</i> cannot be added for other reasons (such as, it must have been established using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetupconference">lineSetupConference</a> or 
@@ -114,13 +101,7 @@ The conference call is established either by
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> and be on (hard) hold. The application can examine the <b>dwAddrCapFlags</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> structure to determine the permitted operations.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/conference-ovr">Conference overview</a>
 
@@ -159,7 +140,4 @@ The conference call is established either by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetupconference">lineSetupConference</a>
- 
-
- 
 

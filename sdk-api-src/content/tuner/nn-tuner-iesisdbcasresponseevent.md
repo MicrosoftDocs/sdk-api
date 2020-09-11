@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 141c6798-5dca-495e-bdbe-f07e457a3d8a
 ms.date: 12/05/2018
 ms.keywords: IESIsdbCasResponseEvent, IESIsdbCasResponseEvent interface [DirectShow], IESIsdbCasResponseEvent interface [DirectShow],described, mstv.iesisdbcasresponseevent, tuner/IESIsdbCasResponseEvent
-f1_keywords:
-- tuner/IESIsdbCasResponseEvent
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESIsdbCasResponseEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESIsdbCasResponseEvent
+ - tuner/IESIsdbCasResponseEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESIsdbCasResponseEvent
 ---
 
 # IESIsdbCasResponseEvent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get information from a Protected Broadcast Driver Architecture (PBDA) <b>IsdbCasResponse</b> event. An Integrated Services Digital Broadcasting (ISDB) PBDA media transform device (MTD) fires an <b>IsdbCasResponse</b> event after a media sink device (MSD)  calls the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_isdbconditionalaccess-setisdbcasrequest">IBDA_ISDBConditionalAccess::SetIsdbCasRequest</a> method to indicate communication with a conditional access system (CAS) card. The MTD fires the <b>IsdbCasResponse</b> event to signal that response data is available.
-
 
 ## -inheritance
 
@@ -104,14 +103,9 @@ Gets the status code from the response.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESIsdbCasResponseEvent)</code>.
-
-
 

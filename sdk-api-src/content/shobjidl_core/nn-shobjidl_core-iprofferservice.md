@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 91aa5f9a-c276-4822-93e1-9cd2c48ddd9f
 ms.date: 12/05/2018
 ms.keywords: IProfferService, IProfferService interface [Windows Shell], IProfferService interface [Windows Shell],described, inet_IProfferService, shell.IProfferService, shobjidl_core/IProfferService
-f1_keywords:
-- shobjidl_core/IProfferService
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IProfferService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProfferService
+ - shobjidl_core/IProfferService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IProfferService
 ---
 
 # IProfferService interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a general mechanism for objects to offer services to other objects on the same host.
-
 
 ## -inheritance
 
@@ -87,26 +86,13 @@ Makes a service unavailable that had previously been available to other objects 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Objects that expose a service first call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on their host for this interface, then execute <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iprofferservice-profferservice">IProfferService::ProfferService</a>.
-			
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a>
- 
-
- 
 

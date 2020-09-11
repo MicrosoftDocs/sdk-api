@@ -27,27 +27,34 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPEVENTSELECT
+ - LPWSPEVENTSELECT
+f1_keywords:
+ - LPWSPEVENTSELECT
+ - ws2spi/LPWSPEVENTSELECT
 ---
 
 ## -description
+
 The **LPWSPEventSelect** function specifies an event object to be associated with the supplied set of network events.
 
 ## -parameters
 
 ### -param s [in]
+
 A descriptor identifying the socket.
 
 ### -param hEventObject [in]
+
 The handle identifying the event object to be associated with the supplied set of network events.
 
 ### -param lNetworkEvents [in]
+
 A bitmask that specifies the combination of network events in which the Windows Sockets SPI client has interest. Constructed by using the bitwise OR operator with any of these values.
 
 <table>
@@ -188,9 +195,11 @@ Issues notification of local address list changes for the socket's address famil
 </table>
 
 ### -param lpErrno [out]
+
 A pointer to the error code. See the **Return value** section for more info.
 
 ## -returns
+
 The return value is zero if the Windows Sockets SPI client's specification of the network events and the associated event object was successful. Otherwise, the value **SOCKET_ERROR** is returned, and a specific error number is available in *lpErrno*.
 
 <table>
@@ -245,6 +254,7 @@ The descriptor is not a socket.
 </table>
 
 ## -remarks
+
 This function is used to specify an event object, *hEventObject*, to be associated with the selected network events, *lNetworkEvents*. The socket for which an event object is specified is identified by *s*. The event object is set when any of the nominated network events occur.
 
 **LPWSPEventSelect** operates very similarly to **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)**, the difference being in the actions taken when a nominated network event occurs. Whereas **WSPAsyncSelect** causes a Windows Sockets SPI client-specified Windows message to be posted, **LPWSPEventSelect** sets the associated event object and records the occurrence of this event in an internal network event record. A Windows Sockets SPI client can use **[LPWSPEnumNetworkEvents](/windows/win32/api/ws2spi/nc-ws2spi-lpwspenumnetworkevents)** to retrieve the contents of the internal network event record, and thus determine which of the nominated network events have occurred.
@@ -331,3 +341,4 @@ The FD_ADDRESS_LIST_CHANGE network event is recorded when the list of addresses 
 ## -see-also
 
 [LPWSPEnumNetworkEvents](/windows/win32/api/ws2spi/nc-ws2spi-lpwspenumnetworkevents)
+

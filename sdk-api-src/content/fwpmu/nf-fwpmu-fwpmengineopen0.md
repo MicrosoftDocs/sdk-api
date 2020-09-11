@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 5165f219-f3e0-4e84-915b-75912aab02b7
 ms.date: 12/05/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Filtering], fwp.fwpmengineopen0_func, fwpmu/FwpmEngineOpen0
-f1_keywords:
-- fwpmu/FwpmEngineOpen0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmEngineOpen0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmEngineOpen0
+ - fwpmu/FwpmEngineOpen0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmEngineOpen0
 ---
 
 # FwpmEngineOpen0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmEngineOpen0</b> function  opens a session to the filter engine.
 
-
 ## -parameters
-
-
-
 
 ### -param serverName [in, optional]
 
@@ -64,13 +60,11 @@ Type: <b>const wchar_t*</b>
 
 This value must be <b>NULL</b>.
 
-
 ### -param authnService [in]
 
 Type: <b>UINT32</b>
 
 Specifies the authentication service to use. Allowed services are RPC_C_AUTHN_WINNT and RPC_C_AUTHN_DEFAULT.
-
 
 ### -param authIdentity [in, optional]
 
@@ -78,24 +72,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdc
 
 The authentication and authorization credentials for accessing the filter engine. This pointer is optional and can be <b>NULL</b>. If this pointer is <b>NULL</b>, the calling thread's credentials are used.
 
-
 ### -param session [in, optional]
 
 Type: [FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)*</b>
 
-Session-specific parameters for the session being opened. This pointer is optional and can be <b>NULL</b>. 
-
+Session-specific parameters for the session being opened. This pointer is optional and can be <b>NULL</b>.
 
 ### -param engineHandle [out]
 
 Type: <b>HANDLE*</b>
 
-Handle for the open session to the filter engine. 
-
+Handle for the open session to the filter engine.
 
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -153,14 +142,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A user application must call <b>FwpmEngineOpen0</b> to obtain a handle for open session to the filter engine before adding or removing any filter objects. A handle for an open session to the filter engine is also required for most of the other Windows Filtering Platform management functions.
 
@@ -204,14 +187,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-service-constants">Authentication-Service Constants</a>
 
@@ -230,7 +206,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_W</a>
- 
-
- 
 

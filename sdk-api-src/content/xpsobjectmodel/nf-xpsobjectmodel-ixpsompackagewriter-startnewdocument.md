@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: da5fdbcd-ff3c-403a-a565-1590908cf333
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter interface [XPS Documents and Packaging],StartNewDocument method, IXpsOMPackageWriter.StartNewDocument, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],StartNewDocument method, IXpsOMPackageWriter3D::StartNewDocument, IXpsOMPackageWriter::StartNewDocument, StartNewDocument, StartNewDocument method [XPS Documents and Packaging], StartNewDocument method [XPS Documents and Packaging],IXpsOMPackageWriter interface, StartNewDocument method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, xps.ixpsompackagewriter_startnewdocument, xpsobjectmodel/IXpsOMPackageWriter3D::StartNewDocument, xpsobjectmodel/IXpsOMPackageWriter::StartNewDocument
-f1_keywords:
-- xpsobjectmodel/IXpsOMPackageWriter.StartNewDocument
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPackageWriter.StartNewDocument
-- IXpsOMPackageWriter3D.StartNewDocument
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackageWriter::StartNewDocument
+ - xpsobjectmodel/IXpsOMPackageWriter::StartNewDocument
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPackageWriter.StartNewDocument
+ - IXpsOMPackageWriter3D.StartNewDocument
 ---
 
 # IXpsOMPackageWriter::StartNewDocument
@@ -50,34 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
 
-
 ## -parameters
-
-
-
 
 ### -param documentPartName [in]
 
 A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name of the new document.
 
-
 ### -param documentPrintTicket [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface that contains the document-level print ticket.  If there is no document-level print ticket for this package, this parameter can be set to <b>NULL</b>. See also Remarks.
-
 
 ### -param documentStructure [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource">IXpsOMDocumentStructureResource</a> interface that contains the initial document structure resource, if the resource is available; if it is not available, this parameter can be set to <b>NULL</b>.
 
-
 ### -param signatureBlockResources [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresourcecollection">IXpsOMSignatureBlockResourceCollection</a> interface that contains a collection of digital signatures to be attached to the document. If there are no digital signatures to be attached, this parameter can be set to <b>NULL</b>.
-
 
 ### -param restrictedFonts [in]
 
@@ -85,10 +77,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjec
 
 If the document does not contain any  restricted fonts, this parameter can be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -135,12 +124,7 @@ The restricted font collection passed in <i>restrictedFonts</i> contains an unre
 
 This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method must be called before <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">AddPage</a> can be called to write the contents of an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a> interface.
 
@@ -153,14 +137,7 @@ If <i>documentPrintTicket</i> contains a <b>NULL</b> pointer and the package wri
 <div class="alert"><b>Note</b>  Creating a new document in the package  does not automatically create a thumbnail for the XPS document. To create a thumbnail of the XPS document, use the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomthumbnailgenerator">IXpsOMThumbnailGenerator</a> interface.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 
@@ -199,7 +176,4 @@ If <i>documentPrintTicket</i> contains a <b>NULL</b> pointer and the package wri
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

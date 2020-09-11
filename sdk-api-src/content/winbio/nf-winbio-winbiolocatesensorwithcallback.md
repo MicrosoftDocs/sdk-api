@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: d94db51b-67da-477a-82e6-c92da756f017
 ms.date: 12/05/2018
 ms.keywords: WinBioLocateSensorWithCallback, WinBioLocateSensorWithCallback function [Windows Biometric Framework API], secbiomet.winbiolocatesensorwithcallback, winbio/WinBioLocateSensorWithCallback
-f1_keywords:
-- winbio/WinBioLocateSensorWithCallback
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- WinBioExt.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioLocateSensorWithCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioLocateSensorWithCallback
+ - winbio/WinBioLocateSensorWithCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - WinBioExt.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioLocateSensorWithCallback
 ---
 
 # WinBioLocateSensorWithCallback function
 
 
 ## -description
-
 
 Asynchronously retrieves the ID number of the biometric unit selected interactively by a user. The function returns immediately to the caller, processes on a separate thread, and reports the selected biometric unit by calling an application-defined callback function.
 
@@ -67,31 +67,21 @@ Asynchronously retrieves the ID number of the biometric unit selected interactiv
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.
 
-
 ### -param LocateCallback [in]
 
 Address of a callback function that will be called by the <b>WinBioLocateSensorWithCallback</b> function when sensor location succeeds or fails. You must create the callback.
-
 
 ### -param LocateCallbackContext [in, optional]
 
 Address of an application-defined data structure that is passed to the callback function in its <i>LocateCallbackContext</i> parameter. This structure can contain any data that the custom callback function is designed to handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -123,14 +113,8 @@ The address specified by the <i>LocateCallback</i> parameter cannot be <b>NULL</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use this function on systems with multiple sensors to determine which sensor is preferred for enrollment by the user. No identification information is returned by this function. It is provided only to indicate user sensor selection.
 
@@ -276,17 +260,7 @@ VOID CALLBACK LocateSensorCallback(
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiolocatesensor">WinBioLocateSensor</a>
- 
-
- 
 

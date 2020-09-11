@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f01bfcec-7031-4283-a847-0d59929e4ee5
 ms.date: 12/05/2018
 ms.keywords: CCertManageModule object [Security],GetProperty method, Copyright, Description, File Version, GetProperty, GetProperty method [Security], GetProperty method [Security],CCertManageModule object, GetProperty method [Security],ICertManageModule interface, ICertManageModule interface [Security],GetProperty method, ICertManageModule.GetProperty, ICertManageModule::GetProperty, Name, Product Version, _certsrv_icertmanagemodule_getproperty, certmod/ICertManageModule::GetProperty, security.icertmanagemodule_getproperty
-f1_keywords:
-- certmod/ICertManageModule.GetProperty
-dev_langs:
-- c++
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certidl.lib
-- Certidl.dll
-api_name:
-- ICertManageModule.GetProperty
-- CCertManageModule.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertManageModule::GetProperty
+ - certmod/ICertManageModule::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certidl.lib
+ - Certidl.dll
+api_name:
+ - ICertManageModule.GetProperty
+ - CCertManageModule.GetProperty
 ---
 
 # ICertManageModule::GetProperty
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetProperty</b> method retrieves a module's property value.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
 Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
-
 
 ### -param strStorageLocation [in]
 
@@ -83,7 +78,6 @@ A registry key that denotes the storage location in the <b>HKEY_LOCAL_MACHINE</b
 
 The <i>CAName</i> is the name of the certification authority's configuration string, <i>PolicyOrExitModules</i> will be either "Policy" or "Exit" (depending on whether a Policy or Exit module applies to this implementation of <b>ICertManageModule</b>), and <i>MyModule.PolicyOrExit</i> is the application-specific identifier for the module. Note that <i>CAName</i> is the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized name</a> for the certification authority. For information about the sanitized name, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig::GetConfig</a>. The use of this storage location is for future use.
-
 
 ### -param strPropertyName [in]
 
@@ -150,22 +144,16 @@ Version of the module.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
 This parameter is reserved and must be set to zero.
 
-
 ### -param pvarProperty [out, retval]
 
 A pointer to a <b>VARIANT</b> that is the retrieved value for the property specified by <i>strPropertyName</i>.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -175,12 +163,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is a <b>Variant</b> that represents the value of the property named <i>strPropertyName</i>.
 
-
-
-
 ## -remarks
-
-
 
 Implementing <b>ICertManageModule</b> allows the Certificate Services Manager to retrieve the module's properties by calling <b>GetProperty</b>. The properties can then be displayed in Certificate Services Manager property pages for Policy and Exit Modules. The Certificate Services Manager will pass the location referenced by <i>strStorageLocation</i> to this module, and in future versions the implementation of this method can then use this location as needed. The following example does not use <i>strStorageLocation</i> but instead, maintains the property values in memory.
 
@@ -254,14 +237,7 @@ HRESULT CCertManagePolicyModule::GetProperty(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>CCertManageModule</b>
 
@@ -276,7 +252,4 @@ HRESULT CCertManagePolicyModule::GetProperty(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-setproperty">ICertManageModule::SetProperty</a>
- 
-
- 
 

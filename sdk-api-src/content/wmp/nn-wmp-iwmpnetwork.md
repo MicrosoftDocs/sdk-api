@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 074a4bc2-3d9f-4007-b6c8-91ea92a87b67
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], IWMPNetwork interface [Windows Media Player],described, IWMPNetworkInterface, wmp.iwmpnetwork, wmp/IWMPNetwork
-f1_keywords:
-- wmp/IWMPNetwork
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork
+ - wmp/IWMPNetwork
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPNetwork
 ---
 
 # IWMPNetwork interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPNetwork</b> interface provides methods relating to the network connection used by Windows Media Player.
-
-
-
 
 ## -inheritance
 
@@ -340,16 +336,9 @@ Retrieve a pointer to an <b>IWMPNetwork</b> interface with the following method.
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_network">get_network</a>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

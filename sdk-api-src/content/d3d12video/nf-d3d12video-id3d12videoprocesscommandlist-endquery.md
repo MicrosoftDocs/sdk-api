@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessCommandList::EndQuery","EndQuery","ID3D
 tech.root: mf
 ms.assetid: e90086c6-2044-444c-a655-d1f3aea002b4
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList::EndQuery
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessCommandList::EndQuery, EndQuery, ID3D12VideoProcessCommandList.EndQuery, ID3D12VideoProcessCommandList::EndQuery, ID3D12VideoProcessCommandList.EndQuery
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessCommandList::EndQuery
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList::EndQuery
+ - d3d12video/ID3D12VideoProcessCommandList::EndQuery
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessCommandList::EndQuery
 ---
 
 # ID3D12VideoProcessCommandList::EndQuery
@@ -64,3 +65,4 @@ The index of the query within the query heap.
 ## -remarks
 
 ## -see-also
+

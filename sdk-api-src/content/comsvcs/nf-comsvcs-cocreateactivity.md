@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 3009eb4f-e3f3-497b-ba05-5b750d8a40d0
 ms.date: 12/05/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity
-f1_keywords:
-- comsvcs/CoCreateActivity
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComSvcs.dll
-api_name:
-- CoCreateActivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoCreateActivity
+ - comsvcs/CoCreateActivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComSvcs.dll
+api_name:
+ - CoCreateActivity
 ---
 
 # CoCreateActivity function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an activity to do synchronous or asynchronous batch work that can use COM+ services without needing to create a COM+ component.
 
-
 ## -parameters
-
-
-
 
 ### -param pIUnknown [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object, created from the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> class, that contains the configuration information for the services to be used within the activity created by <b>CoCreateActivity</b>.
 
-
 ### -param riid [in]
 
 The ID of the interface to be returned through the <i>ppObj</i> parameter. This parameter should always be IID_IServiceActivity so that a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iserviceactivity">IServiceActivity</a> is returned.
-
 
 ### -param ppObj [out]
 
 A pointer to the interface  of an activity object. The activity object is automatically created by the call to <b>CoCreateActivity</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_FAIL, as well as the following values.
 
@@ -140,14 +131,8 @@ The caller does not have access permissions for the COM+ partition.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>CoCreateActivity</b> creates an activity object that is used to submit batch work to the COM+ system. The context associated with the activity is completely determined by the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object that is passed through the <i>pIUnknown</i> parameter.
 
@@ -157,13 +142,7 @@ The batch work that is submitted through <b>CoCreateActivity</b> can be either s
 
 <b>CoCreateActivity</b> returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iserviceactivity">IServiceActivity</a> interface of the object that is created by the call to <b>CoCreateActivity</b>. By using the methods of <b>IServiceActivity</b>, you determine whether the batch work is done synchronously or asynchronously. The batch work itself is implemented through the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicecall">IServiceCall</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--services-without-components">COM+ Services Without Components</a>
 
@@ -186,7 +165,4 @@ The batch work that is submitted through <b>CoCreateActivity</b> can be either s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicecall">IServiceCall</a>
- 
-
- 
 

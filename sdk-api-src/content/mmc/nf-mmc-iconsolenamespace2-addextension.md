@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 6057b8dd-d794-43a3-998b-689aafa28b9d
 ms.date: 12/05/2018
 ms.keywords: AddExtension, AddExtension method [MMC], AddExtension method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],AddExtension method, IConsoleNameSpace2.AddExtension, IConsoleNameSpace2::AddExtension, _slate_iconsolenamespace2_addextension, mmc.iconsolenamespace2_addextension, mmc/IConsoleNameSpace2::AddExtension
-f1_keywords:
-- mmc/IConsoleNameSpace2.AddExtension
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsoleNameSpace2.AddExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsoleNameSpace2::AddExtension
+ - mmc/IConsoleNameSpace2::AddExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsoleNameSpace2.AddExtension
 ---
 
 # IConsoleNameSpace2::AddExtension
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IConsoleNameSpace2::AddExtension</b> method enables the snap-in to add an extension snap-in that dynamically extends the namespace of a selected item.
 
-
 ## -parameters
-
-
-
 
 ### -param hItem [in]
 
 A handle to the item to extend with the snap-in specified by <i>lpClsid</i>.
 
-
 ### -param lpClsid [in]
 
 A pointer to the <b>CLSID</b> of the snap-in that will extend the namespace of the item specified by <i>hItem</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 When a snap-in calls the 
 AddExtension method, the namespace extension specified by lpClsid extends only the specific instance of the item specified by hItem. Other items of that type are not affected: Calling 
@@ -120,17 +107,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
- 
-
- 
 

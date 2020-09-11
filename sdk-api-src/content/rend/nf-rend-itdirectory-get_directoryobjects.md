@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: dd768103-4dfc-4be2-accf-38e33959102d
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryObjects method, ITDirectory.get_DirectoryObjects, ITDirectory::get_DirectoryObjects, _tapi3_itdirectory_get_directoryobjects, get_DirectoryObjects, get_DirectoryObjects method [TAPI 2.2], get_DirectoryObjects method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryObjects, tapi3.itdirectory_get_directoryobjects
-f1_keywords:
-- rend/ITDirectory.get_DirectoryObjects
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITDirectory.get_DirectoryObjects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDirectory::get_DirectoryObjects
+ - rend/ITDirectory::get_DirectoryObjects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITDirectory.get_DirectoryObjects
 ---
 
 # ITDirectory::get_DirectoryObjects
 
 
 ## -description
-
 
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
@@ -57,22 +57,16 @@ The
 <b>get_DirectoryObjects</b> method gets the collection of objects in a given directory that matches certain criteria. This method performs the same function as 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-enumeratedirectoryobjects">EnumerateDirectoryObjects</a> but is used by Visual Basic and other scripting languages.
 
-
 ## -parameters
-
-
-
 
 ### -param DirectoryObjectType [in]
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a> criteria for object desired.
 
-
 ### -param pName [in]
 
 Pointer to a <b>BSTR</b> containing the full or partial name of the object. The "*" wildcard is supported.
-
 
 ### -param pVariant [out]
 
@@ -80,10 +74,7 @@ Pointer to a <b>VARIANT</b> that receives an
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> objects in the server that match the description.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -127,14 +118,8 @@ This method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application must use 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
@@ -144,13 +129,7 @@ TAPI calls the <b>AddRef</b> method on the
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> interface returned by <b>ITDirectory::get_DirectoryObjects</b>. The application must call <b>Release</b> on the 
 <b>ITDirectoryObject</b> interface to free resources associated with it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>
 
@@ -165,7 +144,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
- 
-
- 
 

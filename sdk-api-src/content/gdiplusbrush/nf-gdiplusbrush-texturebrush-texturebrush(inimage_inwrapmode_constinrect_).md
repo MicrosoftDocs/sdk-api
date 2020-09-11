@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_9imageimage_wrapmodewrapmode_rectampdstr.htm
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN WrapMode,const IN Rect &), TextureBrush.TextureBrush(Image*,WrapMode,const Rect&), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN WrapMode,const IN Rect &), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_Rect_dstRect_, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_Rect_dstRect_
-f1_keywords:
-- gdiplusbrush/TextureBrush.TextureBrush
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- TextureBrush.TextureBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - TextureBrush::TextureBrush
+ - gdiplusbrush/TextureBrush::TextureBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - TextureBrush.TextureBrush
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN WrapMode,const IN Rect &)
@@ -50,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param image [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that contains the bitmap of the image to use. 
-
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that contains the bitmap of the image to use.
 
 ### -param wrapMode [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a></b>
 
-Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a> enumeration that specifies how repeated copies of an image are used to tile an area when it is painted with this texture brush. 
-
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a> enumeration that specifies how repeated copies of an image are used to tile an area when it is painted with this texture brush.
 
 ### -param dstRect [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a></b>
 
-Reference to a rectangle that defines the size of this texture brush and the portion of the image to be used by this texture brush. If the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object is created from a metafile, the brush uses the entire image, which is scaled to fit the size of the brush. 
-
+Reference to a rectangle that defines the size of this texture brush and the portion of the image to be used by this texture brush. If the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object is created from a metafile, the brush uses the entire image, which is scaled to fit the size of the brush.
 
 ## -remarks
-
-
 
 The width and height of a texture brush are defined by the width and height of the 
 				<i>dstRect</i> rectangle. A texture brush is always oriented at (0, 0). The upper-left point, width, and height of the rectangle specify the starting point, width, and height of the portion of the image to be used by a texture brush.
@@ -107,13 +98,7 @@ If the dimensions of the
 <h3><a id="How_this_constructor_uses_the_wrap_mode"></a><a id="how_this_constructor_uses_the_wrap_mode"></a><a id="HOW_THIS_CONSTRUCTOR_USES_THE_WRAP_MODE"></a>How this constructor uses the wrap mode</h3>
 An area that extends beyond the boundaries of the brush is tiled with repeated copies of the brush. A texture brush may have alternate tiles flipped in a certain direction, as specified by the wrap mode. Flipping has the effect of reversing the brush's image.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -144,7 +129,4 @@ An area that extends beyond the boundaries of the brush is tiled with repeated c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a>
- 
-
- 
 

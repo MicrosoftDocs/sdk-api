@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: c0f5c9c1-d421-4977-aa26-1b8b7406802d
 ms.date: 12/05/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpGetServerBindingInfo, DhcpGetServerBindingInfo function [DHCP], dhcp.dhcpgetserverbindinginfo, dhcpsapi/DhcpGetServerBindingInfo
-f1_keywords:
-- dhcpsapi/DhcpGetServerBindingInfo
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetServerBindingInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetServerBindingInfo
+ - dhcpsapi/DhcpGetServerBindingInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetServerBindingInfo
 ---
 
 # DhcpGetServerBindingInfo function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpGetServerBindingInfo</b> function returns endpoint bindings set on the DHCP server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
-
 
 ### -param Flags [in]
 
@@ -84,8 +79,6 @@ Returns unmodifiable endpoints only.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param BindElementsInfo [out]
 
@@ -98,33 +91,17 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns
 
 ## -returns
 
-
-
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
-
-
-
 
 ## -remarks
 
-
-
 This function requires network byte ordering for all <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> values in parameter structures.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bind_element_array">DHCP_BIND_ELEMENT_ARRAY</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetserverbindinginfo">DhcpSetServerBindingInfo</a>
- 
-
- 
 

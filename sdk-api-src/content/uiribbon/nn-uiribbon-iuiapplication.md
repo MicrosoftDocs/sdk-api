@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\iuiapplication.htm
 ms.date: 12/05/2018
 ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], IUIApplication interface [Windows Ribbon],described, scenicintent_IUIApplication, uiribbon/IUIApplication, windowsribbon.windowsribbon_iuiapplication
-f1_keywords:
-- uiribbon/IUIApplication
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Uiribbon.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiribbon.dll
-api_name:
-- IUIApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIApplication
+ - uiribbon/IUIApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiribbon.dll
+api_name:
+ - IUIApplication
 ---
 
 # IUIApplication interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IUIApplication</b> interface is implemented by the application and defines the callback entry-point methods for the Windows Ribbon framework.
-
 
 ## -inheritance
 
@@ -97,16 +96,9 @@ Called when the state of a  <a href="https://docs.microsoft.com/windows/desktop/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: FB3DD615-F08B-4cdb-A6EB-3458C474EBEE
 ms.date: 12/05/2018
 ms.keywords: IPropertyUI, IPropertyUI interface [Windows Properties], IPropertyUI interface [Windows Properties],described, _shell_IPropertyUI, properties.IPropertyUI, shell.IPropertyUI, shobjidl_core/IPropertyUI
-f1_keywords:
-- shobjidl_core/IPropertyUI
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IPropertyUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyUI
+ - shobjidl_core/IPropertyUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IPropertyUI
 ---
 
 # IPropertyUI interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Developers should use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Developers should use <a href="https://docs.microsoft.com/windows/desktop/api/pr
 
 </td>
 </tr>
-</table> 
+</table>
 

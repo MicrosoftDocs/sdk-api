@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setheadertitle.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_SetHeaderTitle, PropSheet_SetHeaderTitle macro [Windows Controls], _win32_PropSheet_SetHeaderTitle, _win32_PropSheet_SetHeaderTitle_cpp, controls.PropSheet_SetHeaderTitle, controls._win32_PropSheet_SetHeaderTitle, prsht/PropSheet_SetHeaderTitle
-f1_keywords:
-- prsht/PropSheet_SetHeaderTitle
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PropSheet_SetHeaderTitle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropSheet_SetHeaderTitle
+ - prsht/PropSheet_SetHeaderTitle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheet_SetHeaderTitle
 ---
 
 # PropSheet_SetHeaderTitle macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the title text for the header of a wizard's interior page. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setheadertitle">PSM_SETHEADERTITLE</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hDlg
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the wizard's window.
 
-
 ### -param index
 
 Type: <b>int</b>
 
 Zero-based index of the page.
-
 
 ### -param lpszText
 
@@ -78,12 +72,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 New header title.
 
-
 ## -remarks
 
-
-
 If you specify the current page, it will immediately be repainted to display the new title.
-
-
 

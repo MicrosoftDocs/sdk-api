@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375
 ms.date: 12/05/2018
 ms.keywords: GetNameInfoA, _win32_getnameinfo_2, getnameinfo, getnameinfo function [Winsock], winsock.getnameinfo_2, ws2tcpip/getnameinfo
-f1_keywords:
-- ws2tcpip/getnameinfo
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getnameinfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getnameinfo
+ - ws2tcpip/getnameinfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getnameinfo
 ---
 
 # getnameinfo function
@@ -49,56 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getnameinfo</b> function provides protocol-independent name resolution from an address to an ANSI host name and from a port number  to the ANSI service name.
 
-
 ## -parameters
-
-
-
 
 ### -param pSockaddr [in]
 
 A pointer to a socket address structure that contains the address and port number of the socket. For IPv4, the <i>sa</i> parameter points to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a> structure. For IPv6, the <i>sa</i> parameter points to a <b>sockaddr_in6</b> structure.
 
-
 ### -param SockaddrLength [in]
 
 The length, in bytes, of the structure pointed to by the <i>sa</i> parameter.
-
 
 ### -param pNodeBuffer [out]
 
 A pointer to  an ANSI string used to hold the host name. On success, the host name is returned as a Fully Qualified Domain Name (FQDN) by default. If the <i>host</i> parameter is <b>NULL</b>, this indicates the caller does not want to receive a host name string.
 
-
 ### -param NodeBufferSize [in]
 
-The length, in bytes, of the buffer pointed to by the <i>host</i> parameter. The caller must provide a buffer large enough to hold the host name, including the terminating <b>NULL</b> character. 
-
+The length, in bytes, of the buffer pointed to by the <i>host</i> parameter. The caller must provide a buffer large enough to hold the host name, including the terminating <b>NULL</b> character.
 
 ### -param pServiceBuffer [out]
 
 A pointer to  an ANSI string to hold the service name. On success, an ANSI string that represents the service name associated with the port number is returned. If the <i>serv</i> parameter is <b>NULL</b>, this indicates the caller does not want to receive a service name string.
 
-
 ### -param ServiceBufferSize [in]
 
 The length, in bytes, of the buffer pointed to by the <i>serv</i> parameter. The caller must provide a buffer large enough to hold the service name, including the terminating <b>NULL</b> character.
-
 
 ### -param Flags [in]
 
 A value used to customize processing of the 
 <b>getnameinfo</b> function. See the Remarks section.
 
-
 ## -returns
-
-
 
 On success,  <b>getnameinfo</b> returns zero. Any nonzero return value indicates failure and a specific error code can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -170,14 +157,8 @@ This error is returned if the <i>sa</i> parameter is <b>NULL</b> or the  <i>sale
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>getnameinfo</b> function is the ANSI version of a function that provides protocol-independent name resolution. The <b>getnameinfo</b> function is used to translate the contents of a socket address structure to a node name and/or a service name.
 
@@ -317,13 +298,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getnameinfow">GetNameInfoW</a>
 
@@ -350,7 +325,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

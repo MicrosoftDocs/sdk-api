@@ -3,10 +3,6 @@ UID: NF:heapapi.HeapSummary
 title: HeapSummary
 ms.date: 4/26/2019
 ms.keywords: HeapSummary
-f1_keywords:
-- HeapSummary
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,20 +23,24 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - HeapSummary
+ - heapapi/HeapSummary
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- api-ms-win-core-heap-l1-1-0.dll
+ - api-ms-win-core-heap-l1-1-0.dll
 api_name:
-- HeapSummary
+ - HeapSummary
 ---
 
 ## -description
 
 Summarizes the specified heap.
-
 
 ## -parameters
 

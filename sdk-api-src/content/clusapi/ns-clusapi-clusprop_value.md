@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_VALUE, CLUSPROP_VALUE, CLUSPROP_VALUE structure [Failover Cluster], PCLUSPROP_VALUE, PCLUSPROP_VALUE structure pointer [Failover Cluster], _wolf_clusprop_value, clusapi/CLUSPROP_VALUE, clusapi/PCLUSPROP_VALUE, mscs.clusprop_value'
-f1_keywords:
-- clusapi/CLUSPROP_VALUE
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_VALUE
 targetos: Windows
 req.typenames: CLUSPROP_VALUE, *PCLUSPROP_VALUE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_VALUE
+ - clusapi/CLUSPROP_VALUE
+ - PCLUSPROP_VALUE
+ - clusapi/PCLUSPROP_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_VALUE
 ---
 
 # CLUSPROP_VALUE structure
 
 
 ## -description
-
 
 Describes the syntax and 
     length of a data value used in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a>. The 
@@ -57,28 +59,19 @@ Describes the syntax and
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a> and 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Syntax
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a> union that describes a 
       value.
-
 
 ### -field cbLength
 
 Count of bytes in the data that follows this 
       <b>CLUSPROP_VALUE</b> structure.
 
-
 ## -remarks
-
-
 
 The <b>CLUSPROP_VALUE</b> structure is used to describe the 
      format, type, and length of a data value in the following structures:
@@ -137,12 +130,7 @@ The <b>CLUSPROP_VALUE</b> structure is used to describe the
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_binary">CLUSPROP_BINARY</a>
 
@@ -161,7 +149,4 @@ The <b>CLUSPROP_VALUE</b> structure is used to describe the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 017f0c40-023d-4b22-90ec-037122718830
 ms.date: 12/05/2018
 ms.keywords: CloseClusterGroupSet, CloseClusterGroupSet function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, PCLUSAPI_CLOSE_CLUSTER_GROUP_SET function [Failover Cluster], clusapi/CloseClusterGroupSet, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, mscs.closeclustergroupcollection
-f1_keywords:
-- clusapi/CloseClusterGroupSet
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- CloseClusterGroupSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CloseClusterGroupSet
+ - clusapi/CloseClusterGroupSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - CloseClusterGroupSet
 ---
 
 # CloseClusterGroupSet function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a groupset handle returned from <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroupset">OpenClusterGroupSet</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroupSet [in]
 
 The handle to close
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -95,7 +88,4 @@ The operation was not successful. For more information about the error, call the
 </td>
 </tr>
 </table>
- 
-
-
 

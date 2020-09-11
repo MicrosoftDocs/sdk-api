@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 65311cf0-f8d4-4d2c-bd4d-585ae5d921df
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationPriorityComparison, IUIAnimationPriorityComparison interface [Windows Animation], IUIAnimationPriorityComparison interface [Windows Animation],described, uianimation.iuianimationprioritycomparison, uianimation/IUIAnimationPriorityComparison
-f1_keywords:
-- uianimation/IUIAnimationPriorityComparison
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationPriorityComparison
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationPriorityComparison
+ - uianimation/IUIAnimationPriorityComparison
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationPriorityComparison
 ---
 
 # IUIAnimationPriorityComparison interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a method for priority comparison that the animation manager uses to resolve scheduling conflicts.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Determines the relative priority between a scheduled storyboard and a new storyb
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A single animation variable can be included in multiple storyboards, 
          but multiple storyboards cannot animate the same variable at the same time.
@@ -91,13 +87,7 @@ A single animation variable can be included in multiple storyboards,
          
          To determine which storyboard has priority, the animation manager can call <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison-haspriority">HasPriority</a> on one or more  priority comparison handlers provided by the application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-setcancelprioritycomparison">IUIAnimationManager::SetCancelPriorityComparison</a>
 
@@ -116,7 +106,4 @@ A single animation variable can be included in multiple storyboards,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

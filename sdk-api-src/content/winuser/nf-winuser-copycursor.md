@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\copycursor.htm
 ms.date: 12/05/2018
 ms.keywords: CopyCursor, CopyCursor function [Menus and Other Resources], _win32_CopyCursor, _win32_copycursor_cpp, menurc.copycursor, winui._win32_copycursor, winuser/CopyCursor
-f1_keywords:
-- winuser/CopyCursor
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- CopyCursor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CopyCursor
+ - winuser/CopyCursor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - CopyCursor
 ---
 
 # CopyCursor macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies the specified cursor.
 
-
 ## -parameters
-
-
-
 
 ### -param pcur [in]
 
@@ -64,10 +60,7 @@ Type: <b>HCURSOR</b>
 
 A handle to the cursor to be copied.
 
-
 ## -remarks
-
-
 
 <b>CopyCursor</b> enables an application or DLL to obtain the handle to a cursor shape owned by another module. Then if the other module is freed, the application is still able to use the cursor shape. 
 
@@ -79,12 +72,7 @@ Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the
 
 <pre class="syntax" xml:space="preserve"><code>#define CopyCursor(pcur) ((HCURSOR)CopyIcon((HICON)(pcur)))</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -119,7 +107,4 @@ Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
- 
-
- 
 

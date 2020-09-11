@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 121cc415-35eb-4c9b-a02d-c23be468d6bc
 ms.date: 12/05/2018
 ms.keywords: '*PIP_LOCAL_BINDING, IP_LOCAL_BINDING, IP_LOCAL_BINDING structure [RAS], PIP_LOCAL_BINDING, PIP_LOCAL_BINDING structure pointer [RAS], _mpr_ip_local_binding, routprot/IP_LOCAL_BINDING, routprot/PIP_LOCAL_BINDING, rras.ip_local_binding'
-f1_keywords:
-- routprot/IP_LOCAL_BINDING
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Routprot.h
-api_name:
-- IP_LOCAL_BINDING
 targetos: Windows
 req.typenames: IP_LOCAL_BINDING, *PIP_LOCAL_BINDING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IP_LOCAL_BINDING
+ - routprot/IP_LOCAL_BINDING
+ - PIP_LOCAL_BINDING
+ - routprot/PIP_LOCAL_BINDING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Routprot.h
+api_name:
+ - IP_LOCAL_BINDING
 ---
 
 # IP_LOCAL_BINDING structure
@@ -49,41 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IP_LOCAL_BINDING</b> structure contains IP address information for an adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Address
 
 Specifies an IP address for the adapter.
 
-
 ### -field Mask
 
 Specifies the subnet mask for the IP address.
 
-
 ## -remarks
-
-
 
 Since an adapter can have more than one IP address, the 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a> structure maintains an array of 
 <b>IP_LOCAL_BINDING</b> structures.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a>
 
@@ -94,7 +82,4 @@ Since an adapter can have more than one IP address, the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
- 
-
- 
 

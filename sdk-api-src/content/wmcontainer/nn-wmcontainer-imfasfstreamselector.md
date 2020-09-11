@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: d2e1fc15-2e12-4698-a4b1-ca8046d228de
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], IMFASFStreamSelector interface [Media Foundation],described, d2e1fc15-2e12-4698-a4b1-ca8046d228de, mf.imfasfstreamselector, wmcontainer/IMFASFStreamSelector
-f1_keywords:
-- wmcontainer/IMFASFStreamSelector
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFStreamSelector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFStreamSelector
+ - wmcontainer/IMFASFStreamSelector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFStreamSelector
 ---
 
 # IMFASFStreamSelector interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Selects streams in an Advanced Systems Format (ASF) file, based on the mutual exclusion information in the ASF header. The ASF stream selector object exposes this interface. To create the ASF stream selector, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamselector">MFCreateASFStreamSelector</a>.
-
 
 ## -inheritance
 
@@ -195,16 +194,9 @@ Sets options for the stream selector.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

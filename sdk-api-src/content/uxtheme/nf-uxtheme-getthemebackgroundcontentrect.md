@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundcontentrect.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeBackgroundContentRect, GetThemeBackgroundContentRect function [Windows Controls], controls.GetThemeBackgroundContentRect, controls.inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect_cpp, uxtheme/GetThemeBackgroundContentRect
-f1_keywords:
-- uxtheme/GetThemeBackgroundContentRect
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-- xamlpalwp.dll
-api_name:
-- GetThemeBackgroundContentRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeBackgroundContentRect
+ - uxtheme/GetThemeBackgroundContentRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+ - xamlpalwp.dll
+api_name:
+ - GetThemeBackgroundContentRect
 ---
 
 # GetThemeBackgroundContentRect function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the size of the content area for the background defined by the visual style.
 
-
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
@@ -66,13 +62,11 @@ Type: <b>HTHEME</b>
 
 Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
-
 ### -param hdc [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC to use when drawing. This parameter may be set to <b>NULL</b>.
-
 
 ### -param iPartId [in]
 
@@ -80,13 +74,11 @@ Type: <b>int</b>
 
 Value of type <b>int</b> that specifies the part that contains the content area. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
-
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
 Value of type <b>int</b> that specifies the state of the part that contains the content area. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
-
 
 ### -param pBoundingRect [in]
 
@@ -94,28 +86,19 @@ Type: <b>LPCRECT</b>
 
 Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the total background rectangle, in logical coordinates. This is the area inside the borders or margins.
 
-
 ### -param pContentRect [out]
 
 Type: <b>LPRECT</b>
 
 Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the content area background rectangle, in logical coordinates.  This rectangle is calculated to fit the content area.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A visual style can define a content area within each background image. This is the area where content such as text and icons can be placed without overwriting background borders.
 
@@ -132,14 +115,7 @@ bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemebackgroundextent">GetThemeBackgroundExtent</a>
 
@@ -150,7 +126,4 @@ bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
 
 
 <b>Reference</b>
- 
-
- 
 

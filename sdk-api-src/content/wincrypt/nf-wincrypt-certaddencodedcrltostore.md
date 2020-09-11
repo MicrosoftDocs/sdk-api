@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ec2361e6-a1e6-413a-828e-d543a09c88f8
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCRLToStore, CertAddEncodedCRLToStore function [Security], _crypto2_certaddencodedcrltostore, security.certaddencodedcrltostore, wincrypt/CertAddEncodedCRLToStore
-f1_keywords:
-- wincrypt/CertAddEncodedCRLToStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertAddEncodedCRLToStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertAddEncodedCRLToStore
+ - wincrypt/CertAddEncodedCRLToStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertAddEncodedCRLToStore
 ---
 
 # CertAddEncodedCRLToStore function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertAddEncodedCRLToStore</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context from an encoded CRL and adds it to the certificate store. The function makes a copy of the CRL context before adding it to the store.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of a certificate store.
-
 
 ### -param dwCertEncodingType [in]
 
@@ -74,17 +69,13 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pbCrlEncoded [in]
 
 A pointer to a buffer containing the encoded CRL to be added to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
-
 ### -param cbCrlEncoded [in]
 
 The size, in bytes, of the <i>pbCrlEncoded</i> buffer.
-
 
 ### -param dwAddDisposition [in]
 
@@ -175,8 +166,6 @@ If a matching CRL or a link to a matching CRL does not exist, a new CRL is added
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppCrlContext [out, optional]
 
@@ -184,10 +173,7 @@ A pointer to a pointer to the decoded
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. This is an optional parameter that can be <b>NULL</b>, indicating that the calling application does not require a copy of the new or existing CRL. If a copy is made, that context must be freed using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -227,13 +213,7 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrlcontexttostore">CertAddCRLContextToStore</a>
 
@@ -244,7 +224,4 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
- 
-
- 
 

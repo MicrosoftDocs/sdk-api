@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 74c8db81-f756-497f-a26e-7fb7563fc2c5
 ms.date: 12/05/2018
 ms.keywords: IWMVideoForceKeyFrame, IWMVideoForceKeyFrame interface [Media Foundation], IWMVideoForceKeyFrame interface [Media Foundation],described, codecapi.iwmvideoforcekeyframeinterface, mf.iwmvideoforcekeyframe, mf.iwmvideoforcekeyframeinterface, wmcodecdsp/IWMVideoForceKeyFrame
-f1_keywords:
-- wmcodecdsp/IWMVideoForceKeyFrame
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMVideoForceKeyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMVideoForceKeyFrame
+ - wmcodecdsp/IWMVideoForceKeyFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMVideoForceKeyFrame
 ---
 
 # IWMVideoForceKeyFrame interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Forces the encoder to encode the current frame as a key frame.
-
-
-
 
 ## -inheritance
 
@@ -79,16 +76,9 @@ Specifies that the current frame will be encoded as a key frame.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

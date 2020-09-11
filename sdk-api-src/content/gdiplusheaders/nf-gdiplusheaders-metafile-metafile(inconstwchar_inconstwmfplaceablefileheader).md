@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile constructors [GDI+], Metafile.Metafile, Metafile.Metafile(IN const WCHAR,IN const WmfPlaceableFileHeader), Metafile::Metafile, Metafile::Metafile(IN const WCHAR,IN const WmfPlaceableFileHeader), _gdiplus_CLASS_Metafile_Constructors, gdiplus._gdiplus_CLASS_Metafile_Constructors, gdiplusheaders/Metafile
-f1_keywords:
-- gdiplusheaders/Metafile.Metafile
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusheaders.h
-api_name:
-- Metafile.Metafile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Metafile::Metafile
+ - gdiplusheaders/Metafile::Metafile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusheaders.h
+api_name:
+ - Metafile.Metafile
 ---
 
 # Metafile::Metafile(IN const WCHAR,IN const WmfPlaceableFileHeader)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 		<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> class. For a complete class listing, see <b>Metafile Class</b>. 

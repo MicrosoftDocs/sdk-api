@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 3aaab669-1f80-41ee-8c29-6da613ebccff
 ms.date: 12/05/2018
 ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], IStringCollection interface [Windows Update Agent],described, wua.istringcollection, wuapi/IStringCollection
-f1_keywords:
-- wuapi/IStringCollection
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IStringCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStringCollection
+ - wuapi/IStringCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IStringCollection
 ---
 
 # IStringCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an ordered list of strings.
-
 
 ## -inheritance
 
@@ -186,14 +185,9 @@ Gets a Boolean value that indicates whether the collection is read-only.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface can be instantiated by using the StringCollection coclass. Use the Microsoft.Update.StringColl program identifier to create the object.
-
-
 

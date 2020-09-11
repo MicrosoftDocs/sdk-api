@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0885ef81-726d-41ca-be8c-b3ff2e02fc3c
 ms.date: 12/05/2018
 ms.keywords: ITCallStateEvent, ITCallStateEvent interface [TAPI 2.2], ITCallStateEvent interface [TAPI 2.2],described, _tapi3_itcallstateevent, tapi3.itcallstateevent, tapi3if/ITCallStateEvent
-f1_keywords:
-- tapi3if/ITCallStateEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallStateEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallStateEvent
+ - tapi3if/ITCallStateEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallStateEvent
 ---
 
 # ITCallStateEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITCallStateEvent</b> interface contains methods that retrieve the description of call state events. When the application's implementation of the 
@@ -113,13 +113,9 @@ Gets a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">CALL_STATE</a>
 
@@ -150,7 +146,4 @@ Gets a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

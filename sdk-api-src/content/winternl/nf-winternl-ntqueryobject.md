@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 08c801b5-a315-413e-adc5-576e6a740465
 ms.date: 12/05/2018
 ms.keywords: NtQueryObject, NtQueryObject function [Windows API], winprog.ntqueryobject, winternl/NtQueryObject
-f1_keywords:
-- winternl/NtQueryObject
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- NtQueryObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NtQueryObject
+ - winternl/NtQueryObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - NtQueryObject
 ---
 
 # NtQueryObject function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function may be changed or removed from Windows without further notice.]
 
 Retrieves various kinds of object information.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle [in, optional]
 
 The handle of the object for which information is being queried.
-
 
 ### -param ObjectInformationClass [in]
 
@@ -97,38 +92,26 @@ Returns a <b>PUBLIC_OBJECT_TYPE_INFORMATION</b> structure as shown in the follow
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ObjectInformation [out, optional]
 
 An optional pointer to a buffer where the requested information is to be returned. The size and structure of this information varies depending on the value of the <i>ObjectInformationClass</i> parameter.
 
-
 ### -param ObjectInformationLength [in]
 
 The size of the buffer pointed to by the <i>ObjectInformation</i> parameter, in bytes.
-
 
 ### -param ReturnLength [out, optional]
 
 An optional pointer to a location where the function writes the actual size of the information requested. If that size is less than or equal to the <i>ObjectInformationLength</i> parameter, the function copies the information into the <i>ObjectInformation</i> buffer; otherwise, it returns an NTSTATUS error code and returns in <i>ReturnLength</i> the size of the buffer required to receive the requested information.
 
-
 ## -returns
-
-
 
 Returns an NTSTATUS or error code.
 
 The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h header file available in the WDK, and are described in the WDK documentation.
 
-
-
-
 ## -remarks
-
-
 
 This function has no associated header file or import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to dynamically link to Ntdll.dll.
 
@@ -152,6 +135,4 @@ If the <i>ObjectInformationClass</i> parameter is <b>ObjectTypeInformation</b>, 
 } PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION;
 </code></pre>
 The only available member of this structure is the object-type name string (<b>TypeName</b>).
-
-
 

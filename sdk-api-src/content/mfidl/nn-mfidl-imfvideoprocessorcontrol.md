@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 6803B69E-CF84-45D5-804C-BD961BD5E13D
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], IMFVideoProcessorControl interface [Media Foundation],described, mf.imfvideoprocessorcontrol, mfidl/IMFVideoProcessorControl
-f1_keywords:
-- mfidl/IMFVideoProcessorControl
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFVideoProcessorControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoProcessorControl
+ - mfidl/IMFVideoProcessorControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFVideoProcessorControl
 ---
 
 # IMFVideoProcessorControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a>.
-
 
 ## -inheritance
 
@@ -122,25 +121,13 @@ Sets the source rectangle.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface controls how the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a> generates output frames.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4kqh_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingMethod interface [Fax Service],Priority property, IFaxInboundRoutingMethod.Priority, IFaxInboundRoutingMethod.put_Priority, IFaxInboundRoutingMethod::Priority, IFaxInboundRoutingMethod::get_Priority, IFaxInboundRoutingMethod::put_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxInboundRoutingMethod interface, _mfax_faxinboundroutingmethod.priority_cpp, fax._mfax_faxinboundroutingmethod_priority_cpp, faxcomex/IFaxInboundRoutingMethod::Priority, faxcomex/IFaxInboundRoutingMethod::get_Priority, faxcomex/IFaxInboundRoutingMethod::put_Priority, put_Priority
-f1_keywords:
-- faxcomex/IFaxInboundRoutingMethod.Priority
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxInboundRoutingMethod.Priority
-- IFaxInboundRoutingMethod.get_Priority
-- IFaxInboundRoutingMethod.put_Priority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxInboundRoutingMethod::put_Priority
+ - faxcomex/IFaxInboundRoutingMethod::put_Priority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxInboundRoutingMethod.Priority
+ - IFaxInboundRoutingMethod.get_Priority
+ - IFaxInboundRoutingMethod.put_Priority
 ---
 
 # IFaxInboundRoutingMethod::put_Priority
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod-priority">Priority</a> property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Valid values for this property are 1 through <i>n</i>, where 1 is the highest priority.
 
@@ -72,13 +68,7 @@ If you want a particular routing method to have the lowest possible priority, sp
 
 To read or to write to this property, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod">FaxInboundRoutingMethod</a>
 
@@ -89,7 +79,4 @@ To read or to write to this property, a user must have the <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
- 
-
- 
 

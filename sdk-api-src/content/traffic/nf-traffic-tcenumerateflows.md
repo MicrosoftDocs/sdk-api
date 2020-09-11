@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: eae90fae-a29a-4005-b8c6-a5e2c9a6c07f
 ms.date: 12/05/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
-f1_keywords:
-- traffic/TcEnumerateFlows
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcEnumerateFlows
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcEnumerateFlows
+ - traffic/TcEnumerateFlows
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcEnumerateFlows
 ---
 
 # TcEnumerateFlows function
 
 
 ## -description
-
 
 The 
 <b>TcEnumerateFlows</b> function enumerates installed flows and their associated filters on an interface.
@@ -61,17 +61,12 @@ The
 <b>TcEnumerateFlows</b> function fills the <i>Buffer</i> parameter with as many flow enumerations as the buffer can hold, then returns a handle in the pEnumToken parameter that internally bookmarks where the enumeration stopped. Subsequent calls to 
 <b>TcEnumerateFlows</b> must then pass the returned <i>pEnumToken</i> value to instruct traffic control where to resume flow enumeration information. When all flows have been enumerated, <i>pEnumToken</i> will be <b>NULL</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param IfcHandle [in]
 
 Handle associated with the interface on which flows are to be enumerated. This handle is obtained by a previous call to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
-
 
 ### -param pEnumHandle [in, out]
 
@@ -87,26 +82,20 @@ For input of the initial call to
 For output, <i>pEnumToken</i> is the refreshed enumeration token that must be used in the following call to 
 <b>TcEnumerateFlows</b>.
 
-
 ### -param pFlowCount [in, out]
 
 Pointer to the number of requested or returned flows. For input, this parameter designates the number of requested flows or it can be set to <b>0xFFFF</b> to request all flows. For output, <i>pFlowCount</i> returns the number of flows actually returned in <i>Buffer</i>.
 
-
 ### -param pBufSize [in, out]
 
 Pointer to the size of the client-provided buffer or the number of bytes used by traffic control. For input, points to the size of <i>Buffer</i>, in bytes. For output, points to the actual amount of buffer space, in bytes, written or needed with flow enumerations.
-
 
 ### -param Buffer [out]
 
 Pointer to the buffer containing flow enumerations. See 
 <a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-enumeration_buffer">ENUMERATION_BUFFER</a> for more information about flow enumerations.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -180,14 +169,8 @@ The enumeration token is no longer valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not request zero flows, or pass a buffer with a size equal to zero or pointer to a <b>NULL</b>.
 
@@ -200,19 +183,11 @@ To get the total number of flows for a given interface, call
 <b>TcEnumerateFlows</b> function requires administrative privilege.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a>
- 
-
- 
 

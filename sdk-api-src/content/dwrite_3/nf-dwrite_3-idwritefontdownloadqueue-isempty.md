@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 2f1f0d1c-0db8-c382-7879-92a889cfeb6b
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],IsEmpty method, IDWriteFontDownloadQueue.IsEmpty, IDWriteFontDownloadQueue::IsEmpty, IsEmpty, IsEmpty method [Direct Write], IsEmpty method [Direct Write],IDWriteFontDownloadQueue interface, directwrite.idwritefontdownloadqueue_isempty, dwrite_3/IDWriteFontDownloadQueue::IsEmpty
-f1_keywords:
-- dwrite_3/IDWriteFontDownloadQueue.IsEmpty
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontDownloadQueue.IsEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontDownloadQueue::IsEmpty
+ - dwrite_3/IDWriteFontDownloadQueue::IsEmpty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontDownloadQueue.IsEmpty
 ---
 
 # IDWriteFontDownloadQueue::IsEmpty
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the download queue is empty. Note that the queue does not    
     include requests that are already being downloaded. Calling <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>clears the queue.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 TRUE if the queue is empty, FALSE if there are requests pending for <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: e9981574-0058-420f-9627-6d5a1745a739
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetid, lineGetID, lineGetID function [TAPI 2.2], lineGetIDA, lineGetIDW, tapi/lineGetID, tapi/lineGetIDA, tapi/lineGetIDW, tapi2.linegetid
-f1_keywords:
-- tapi/lineGetID
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGetID
-- lineGetIDA
-- lineGetIDW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGetIDA
+ - tapi/lineGetIDA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGetID
+ - lineGetIDA
+ - lineGetIDW
 ---
 
 # lineGetIDA function
@@ -51,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGetID</b> function returns a device identifier for the specified device class associated with the selected line, address, or call.
 
-
 ## -parameters
-
-
-
 
 ### -param hLine
 
 Handle to an open line device.
 
-
 ### -param dwAddressID
 
 Address on the given open line device. An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
-
 
 ### -param hCall
 
 Handle to a call.
 
-
 ### -param dwSelect
 
 Specifies whether the requested device identifier is associated with the line, address or a single call. This parameter uses one and only one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ Constants</a>.
-
 
 ### -param lpDeviceID
 
@@ -99,21 +91,13 @@ Pointer to a memory location of type
 
 Pointer to a null-terminated string that specifies the device class of the device whose identifier is requested. Valid device class strings are those used in the SYSTEM.INI section to identify device classes.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALLINEHANDLE, LINEERR_NOMEM, LINEERR_INVALADDRESSID, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSELECT, LINEERR_INVALDEVICECLASS, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_STRUCTURETOOSMALL, LINEERR_NODEVICE, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>lineGetID</b> function can be used to retrieve a line-device identifier when given a line handle. This is useful after 
@@ -133,9 +117,6 @@ A vendor that defines a device-specific media mode also needs to define the corr
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
@@ -149,7 +130,4 @@ A vendor that defines a device-specific media mode also needs to define the corr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>
- 
-
- 
 

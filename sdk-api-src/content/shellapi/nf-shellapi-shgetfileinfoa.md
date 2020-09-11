@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d662bedf-4be0-4528-8121-e7923a42bc67
 ms.date: 12/05/2018
 ms.keywords: SHGFI_ADDOVERLAYS, SHGFI_ATTRIBUTES, SHGFI_ATTR_SPECIFIED, SHGFI_DISPLAYNAME, SHGFI_EXETYPE, SHGFI_ICON, SHGFI_ICONLOCATION, SHGFI_LARGEICON, SHGFI_LINKOVERLAY, SHGFI_OPENICON, SHGFI_OVERLAYINDEX, SHGFI_PIDL, SHGFI_SELECTED, SHGFI_SHELLICONSIZE, SHGFI_SMALLICON, SHGFI_SYSICONINDEX, SHGFI_TYPENAME, SHGFI_USEFILEATTRIBUTES, SHGetFileInfo, SHGetFileInfo function [Windows Shell], SHGetFileInfoA, SHGetFileInfoW, _win32_SHGetFileInfo, shell.SHGetFileInfo, shellapi/SHGetFileInfo, shellapi/SHGetFileInfoA, shellapi/SHGetFileInfoW
-f1_keywords:
-- shellapi/SHGetFileInfo
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-shell-shellfolders-l1-1-0.dll
-- KernelBase.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
-- Windows.Storage.dll
-api_name:
-- SHGetFileInfo
-- SHGetFileInfoA
-- SHGetFileInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetFileInfoA
+ - shellapi/SHGetFileInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-shell-shellfolders-l1-1-0.dll
+ - KernelBase.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - Windows.Storage.dll
+api_name:
+ - SHGetFileInfo
+ - SHGetFileInfoA
+ - SHGetFileInfoW
 ---
 
 # SHGetFileInfoA function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about an object in the file system, such as a file, folder, directory, or drive root.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
@@ -79,13 +75,11 @@ If the <i>uFlags</i> parameter includes the <b>SHGFI_USEFILEATTRIBUTES</b> flag,
 
 This string can use either short (the 8.3 form) or long file names.
 
-
 ### -param dwFileAttributes
 
 Type: <b>DWORD</b>
 
 A combination of one or more <a href="https://docs.microsoft.com/windows/desktop/FileIO/retrieving-and-changing-file-attributes">file attribute flags</a> (FILE_ATTRIBUTE_ values as defined in Winnt.h). If <i>uFlags</i> does not include the <b>SHGFI_USEFILEATTRIBUTES</b> flag, this parameter is ignored.
-
 
 ### -param psfi [in, out]
 
@@ -93,13 +87,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-she
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileinfoa">SHFILEINFO</a> structure to receive the file information.
 
-
 ### -param cbFileInfo
 
 Type: <b>UINT</b>
 
 The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileinfoa">SHFILEINFO</a> structure pointed to by the <i>psfi</i> parameter.
-
 
 ### -param uFlags
 
@@ -217,10 +209,7 @@ Retrieve the string that describes the file's type. The string is copied to the 
 
 Indicates that the function should not attempt to access the file specified by <i>pszPath</i>. Rather, it should act as if the file specified by <i>pszPath</i> exists with the file attributes passed in <i>dwFileAttributes</i>. This flag cannot be combined with the <b>SHGFI_ATTRIBUTES</b>, <b>SHGFI_EXETYPE</b>, or <b>SHGFI_PIDL</b> flags.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD_PTR</b>
 
@@ -282,14 +271,8 @@ Console application or .bat file
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function from a background thread. Failure to do so could cause the UI to stop responding.
 
@@ -339,11 +322,5 @@ ILFree(pidl);
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/fileiconinit">FileIconInit</a>
- 
-
- 
 

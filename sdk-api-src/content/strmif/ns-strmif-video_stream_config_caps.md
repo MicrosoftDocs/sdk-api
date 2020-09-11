@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c4e68065-79d0-4e2e-abe5-2e5b6a51bd40
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3 and higher, VIDEO_STREAM_CONFIG_CAPS, VIDEO_STREAM_CONFIG_CAPS structure [DirectShow], VIDEO_STREAM_CONFIG_CAPSStructure, dshow.video_stream_config_caps, strmif/VIDEO_STREAM_CONFIG_CAPS
-f1_keywords:
-- strmif/VIDEO_STREAM_CONFIG_CAPS
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- VIDEO_STREAM_CONFIG_CAPS
 targetos: Windows
 req.typenames: VIDEO_STREAM_CONFIG_CAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VIDEO_STREAM_CONFIG_CAPS
+ - strmif/_VIDEO_STREAM_CONFIG_CAPS
+ - VIDEO_STREAM_CONFIG_CAPS
+ - strmif/VIDEO_STREAM_CONFIG_CAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - VIDEO_STREAM_CONFIG_CAPS
 ---
 
 # VIDEO_STREAM_CONFIG_CAPS structure
 
 
 ## -description
-
 
 The <b>VIDEO_STREAM_CONFIG_CAPS</b> structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.
         
@@ -61,20 +63,13 @@ The <b>VIDEO_STREAM_CONFIG_CAPS</b> structure describes a range of video formats
 
 ## -struct-fields
 
-
-
-
 ### -field guid
 
 <b>GUID</b> that identifies the format type. For example, <b>FORMAT_VideoInfo</b> or <b>FORMAT_VideoInfo2</b>. For more information, see the <b>formattype</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
-          
-
 
 ### -field VideoStandard
 
 The analog video standard supported. The value is a bitwise combination of flags from the [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration type, or zero.
-          
-
 
 ### -field InputSize
 
@@ -242,20 +237,14 @@ Uses interpolation (&gt;2 taps)
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MinFrameInterval
 
 The minimum frame duration, in 100-nanosecond units. This value applies only to capture filters.
-          
-
 
 ### -field MaxFrameInterval
 
 The maximum frame duration, in 100-nanosecond units. This value applies only to capture filters.
-          
-
 
 ### -field MinBitsPerSecond
 
@@ -274,8 +263,6 @@ Maximum data rate this pin can produce.
 <div> </div>
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a> method returns this structure. An application can use this information to modify the output format on a video compression filter or video capture filter.
       
@@ -304,16 +291,7 @@ In a similar way, the <b>MinOutputSize</b>, <b>MaxOutputSize</b>, <b>OutputGranu
 
 For capture filters, the <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> members define the minimum and maximum duration of each frame, as given in the <b>AvgTimePerFrame</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure. The filter may not support every frame rate that falls between these two values. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">IAMStreamConfig::SetFormat</a> method will set the frame rate to the closest value that the filter supports. If <b>SetFormat</b> succeeds, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getformat">IAMStreamConfig::GetFormat</a> to determine the actual frame rate.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
 

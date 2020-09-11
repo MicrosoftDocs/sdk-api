@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 6fa2f206-1eea-4a25-91b3-bba0cde7f8ce
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Windows Media Player], Disconnect method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Disconnect method, IWMPEvents.Disconnect, IWMPEvents::Disconnect, IWMPEventsDisconnect, wmp.iwmpevents_iwmpevents__disconnect, wmp/IWMPEvents::Disconnect
-f1_keywords:
-- wmp/IWMPEvents.Disconnect
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPEvents.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEvents::Disconnect
+ - wmp/IWMPEvents::Disconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPEvents.Disconnect
 ---
 
 # IWMPEvents::Disconnect
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Disconnect</b> event is reserved for future use.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Result [in]
 
 Not supported.
 
-
 ## -remarks
-
-
 
 This event is reserved for future use.
 
 <b>Windows Media Player 10 Mobile: </b>This event is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
- 
-
- 
 

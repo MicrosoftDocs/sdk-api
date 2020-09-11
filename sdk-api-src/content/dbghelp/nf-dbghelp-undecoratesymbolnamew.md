@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: f52e8e3b-3113-4d8c-b44a-846c574cfbd8
 ms.date: 12/05/2018
 ms.keywords: UNDNAME_32_BIT_DECODE, UNDNAME_COMPLETE, UNDNAME_NAME_ONLY, UNDNAME_NO_ACCESS_SPECIFIERS, UNDNAME_NO_ALLOCATION_LANGUAGE, UNDNAME_NO_ALLOCATION_MODEL, UNDNAME_NO_ARGUMENTS, UNDNAME_NO_CV_THISTYPE, UNDNAME_NO_FUNCTION_RETURNS, UNDNAME_NO_LEADING_UNDERSCORES, UNDNAME_NO_MEMBER_TYPE, UNDNAME_NO_MS_KEYWORDS, UNDNAME_NO_MS_THISTYPE, UNDNAME_NO_RETURN_UDT_MODEL, UNDNAME_NO_SPECIAL_SYMS, UNDNAME_NO_THISTYPE, UNDNAME_NO_THROW_SIGNATURES, UnDecorateSymbolName, UnDecorateSymbolName function, UnDecorateSymbolNameW, _win32_undecoratesymbolname, base.undecoratesymbolname, dbghelp/UnDecorateSymbolName, dbghelp/UnDecorateSymbolNameW
-f1_keywords:
-- dbghelp/UnDecorateSymbolName
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- UnDecorateSymbolName
-- UnDecorateSymbolName
-- UnDecorateSymbolNameW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - UnDecorateSymbolNameW
+ - dbghelp/UnDecorateSymbolNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - UnDecorateSymbolName
+ - UnDecorateSymbolName
+ - UnDecorateSymbolNameW
 ---
 
 # UnDecorateSymbolNameW function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Undecorates the specified decorated C++ symbol name.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 The decorated C++ symbol name. This name can be identified by the first character of the name, which is 
       always a question mark (?).
 
-
 ### -param outputString [out]
 
 A pointer to a string buffer that receives the undecorated name.
 
-
 ### -param maxStringLength [in]
 
 The size of the <i>UnDecoratedName</i> buffer, in characters.
-
 
 ### -param flags [in]
 
@@ -277,12 +270,8 @@ Disable expansion of throw-signatures for functions and pointers to functions.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of characters in the 
        <i>UnDecoratedName</i> buffer, not including the NULL terminator.
@@ -293,12 +282,7 @@ If the function fails, the return value is zero. To retrieve extended error info
 If the function fails and returns zero, the content of the <i>UnDecoratedName</i> buffer 
        is undetermined.
 
-
-
-
 ## -remarks
-
-
 
 To use undecorated symbols, call the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> 
     function with the <b>SYMOPT_UNDNAME</b> option.
@@ -325,15 +309,9 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a>
- 
-
- 
 

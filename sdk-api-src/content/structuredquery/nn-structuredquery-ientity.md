@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\ientity.htm
 ms.date: 12/05/2018
 ms.keywords: IEntity, IEntity interface [search], IEntity interface [search],described, _search_IEntity, search._search_IEntity, structuredquery/IEntity
-f1_keywords:
-- structuredquery/IEntity
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- IEntity
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IEntity
+ - structuredquery/IEntity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - IEntity
 ---
 
 # IEntity interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for retrieving information about an entity type in the schema.
-        
-
 
 ## -inheritance
 
@@ -147,5 +145,5 @@ Retrieves an enumeration of <a href="https://docs.microsoft.com/windows/desktop/
 
 </td>
 </tr>
-</table> 
+</table>
 

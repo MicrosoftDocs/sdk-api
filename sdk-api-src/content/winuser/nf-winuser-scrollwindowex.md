@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrollwindowex.htm
 ms.date: 12/05/2018
 ms.keywords: SW_ERASE, SW_INVALIDATE, SW_SCROLLCHILDREN, SW_SMOOTHSCROLL, ScrollWindowEx, ScrollWindowEx function [Windows Controls], _win32_ScrollWindowEx, _win32_ScrollWindowEx_cpp, controls.ScrollWindowEx, controls._win32_ScrollWindowEx, winuser/ScrollWindowEx
-f1_keywords:
-- winuser/ScrollWindowEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- ScrollWindowEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ScrollWindowEx
+ - winuser/ScrollWindowEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - ScrollWindowEx
 ---
 
 # ScrollWindowEx function
@@ -55,64 +56,52 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ScrollWindowEx</b> function scrolls the contents of the specified window's client area. 
-
+The <b>ScrollWindowEx</b> function scrolls the contents of the specified window's client area.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the window where the client area is to be scrolled. 
-
+Handle to the window where the client area is to be scrolled.
 
 ### -param dx [in]
 
 Type: <b>int</b>
 
-Specifies the amount, in device units, of horizontal scrolling. This parameter must be a negative value to scroll to the left. 
-
+Specifies the amount, in device units, of horizontal scrolling. This parameter must be a negative value to scroll to the left.
 
 ### -param dy [in]
 
 Type: <b>int</b>
 
-Specifies the amount, in device units, of vertical scrolling. This parameter must be a negative value to scroll up. 
-
+Specifies the amount, in device units, of vertical scrolling. This parameter must be a negative value to scroll up.
 
 ### -param prcScroll [in]
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the portion of the client area to be scrolled. If this parameter is <b>NULL</b>, the entire client area is scrolled. 
-
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the portion of the client area to be scrolled. If this parameter is <b>NULL</b>, the entire client area is scrolled.
 
 ### -param prcClip [in]
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 Pointer to a 
-					<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the coordinates of the clipping rectangle. Only device bits within the clipping rectangle are affected. Bits scrolled from the outside of the rectangle to the inside are painted; bits scrolled from the inside of the rectangle to the outside are not painted. This parameter may be <b>NULL</b>. 
-
+					<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the coordinates of the clipping rectangle. Only device bits within the clipping rectangle are affected. Bits scrolled from the outside of the rectangle to the inside are painted; bits scrolled from the inside of the rectangle to the outside are not painted. This parameter may be <b>NULL</b>.
 
 ### -param hrgnUpdate [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRGN</a></b>
 
-Handle to the region that is modified to hold the region invalidated by scrolling. This parameter may be <b>NULL</b>. 
-
+Handle to the region that is modified to hold the region invalidated by scrolling. This parameter may be <b>NULL</b>.
 
 ### -param prcUpdate [out]
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the boundaries of the rectangle invalidated by scrolling. This parameter may be <b>NULL</b>. 
-
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the boundaries of the rectangle invalidated by scrolling. This parameter may be <b>NULL</b>.
 
 ### -param flags [in]
 
@@ -175,12 +164,8 @@ Scrolls using smooth scrolling. Use the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -188,12 +173,7 @@ If the function succeeds, the return value is SIMPLEREGION (rectangular invalida
 
 If the function fails, the return value is ERROR. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the SW_INVALIDATE and SW_ERASE flags are not specified, <b>ScrollWindowEx</b> does not invalidate the area that is scrolled from. If either of these flags is set, <b>ScrollWindowEx</b> invalidates this area. The area is not updated until the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> function, calls the  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-redrawwindow">RedrawWindow</a> function (specifying the RDW_UPDATENOW or RDW_ERASENOW flag), or retrieves the 
 				<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message from the application queue. 
@@ -220,12 +200,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-dptolp">DPtoLP</a>
 
@@ -252,7 +227,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 5ee18447-e55f-4d79-9d21-be7a619ea647
 ms.date: 12/05/2018
 ms.keywords: VER_AND, VER_BUILDNUMBER, VER_EQUAL, VER_GREATER, VER_GREATER_EQUAL, VER_LESS, VER_LESS_EQUAL, VER_MAJORVERSION, VER_MINORVERSION, VER_OR, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerSetConditionMask, VerSetConditionMask function, _win32_versetconditionmask, base.versetconditionmask, winnt/VerSetConditionMask
-f1_keywords:
-- winnt/VerSetConditionMask
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-- Ntdll.dll
-api_name:
-- VerSetConditionMask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VerSetConditionMask
+ - winnt/VerSetConditionMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+ - Ntdll.dll
+api_name:
+ - VerSetConditionMask
 ---
 
 # VerSetConditionMask function
@@ -57,15 +58,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This function is used to build the <i>dwlConditionMask</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param ConditionMask [in]
 
@@ -76,7 +72,6 @@ A value to be passed as the <i>dwlConditionMask</i> parameter of the
 
 
 Before the first call to <b>VerSetCondition</b>, initialize this variable to zero. For subsequent calls, pass in the variable used in the previous call.
-
 
 ### -param TypeMask [in]
 
@@ -178,8 +173,6 @@ wSuiteMask
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Condition [in]
 
@@ -284,21 +277,12 @@ At least one of the specified product suites must be present in the current syst
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The function returns the condition mask value.
 
-
-
-
 ## -remarks
-
-
 
 Call this function once for each bit set in the <i>dwTypeMask</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
@@ -311,12 +295,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
 
@@ -331,7 +310,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
- 
-
- 
 

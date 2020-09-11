@@ -8,10 +8,6 @@ tech.root: Nps
 ms.assetid: c416c0db-836a-4056-bcd7-819f10923446
 ms.date: 12/05/2018
 ms.keywords: GetUserSDO, GetUserSDO method [Network Policy Server], GetUserSDO method [Network Policy Server],ISdoMachine interface, GetUserSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetUserSDO method, ISdoMachine.GetUserSDO, ISdoMachine::GetUserSDO, SdoMachine object [Network Policy Server],GetUserSDO method, _sdo_isdomachine_getusersdo, nps.SDO_isdomachine_getusersdo, sdo.isdomachine_getusersdo, sdoias/ISdoMachine::GetUserSDO
-f1_keywords:
-- sdoias/ISdoMachine.GetUserSDO
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Iassdo.dll
-api_name:
-- ISdoMachine.GetUserSDO
-- SdoMachine.GetUserSDO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISdoMachine::GetUserSDO
+ - sdoias/ISdoMachine::GetUserSDO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Iassdo.dll
+api_name:
+ - ISdoMachine.GetUserSDO
+ - SdoMachine.GetUserSDO
 ---
 
 # ISdoMachine::GetUserSDO
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetUserSDO</b> method retrieves an interface 
     to the Server Data Object (SDO) for the specified user.
 
-
 ## -parameters
-
-
-
 
 ### -param eDataStore [in]
 
 Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasdatastore">IASDATASTORE</a> enumeration 
       type.
 
-
 ### -param bstrUserName [in]
 
 Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> that contains 
       the name of the user. The name can be in Lightweight Directory Access Protocol (LDAP) format, or in Security 
       Accounts Manager (SAM) format.
-
 
 ### -param ppUserSDO [out]
 
@@ -81,21 +75,13 @@ Pointer to a pointer that points to an <a href="https://docs.microsoft.com/windo
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface to an 
       <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a> object for the specified user.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is <b>S_OK</b>.
 
 If the method fails, the return value is one of the following error codes.
 
-
-
-
 ## -remarks
-
-
 
 Before calling this method, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a> method to attach to the SDO 
@@ -109,13 +95,7 @@ If the SDO computer has a directory, then the
 
 None of the parameters can be <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
 
@@ -130,7 +110,4 @@ None of the parameters can be <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-userproperties">USERPROPERTIES</a>
- 
-
- 
 

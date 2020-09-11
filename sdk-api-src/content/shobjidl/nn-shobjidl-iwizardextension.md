@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f2d69f18-73de-44c1-9543-909e509b1c4f
 ms.date: 12/05/2018
 ms.keywords: IWizardExtension, IWizardExtension interface [Windows Shell], IWizardExtension interface [Windows Shell],described, _shell_IWizardExtension, shell.IWizardExtension, shobjidl/IWizardExtension
-f1_keywords:
-- shobjidl/IWizardExtension
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IWizardExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWizardExtension
+ - shobjidl/IWizardExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IWizardExtension
 ---
 
 # IWizardExtension interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by wizards such as the Web Publishing Wizard and Online Print Ordering Wizard which host server-side content pages. This interface exposes methods to specify supported extension pages and to navigate into and out of those pages.
-
 
 ## -inheritance
 
@@ -95,16 +94,9 @@ Gets a handle to the final page of the wizard extension pages.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iwebwizardextension">IWebWizardExtension</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 2bbdc26a-5543-4de4-b347-2062be593c4b
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextDurationSink, ITfCleanupContextDurationSink interface [Text Services Framework], ITfCleanupContextDurationSink interface [Text Services Framework],described, _tsf_itfcleanupcontextdurationsink_ref, msctf/ITfCleanupContextDurationSink, tsf.itfcleanupcontextdurationsink
-f1_keywords:
-- msctf/ITfCleanupContextDurationSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Imekrcic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imekrcic.dll
-api_name:
-- ITfCleanupContextDurationSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCleanupContextDurationSink
+ - msctf/ITfCleanupContextDurationSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imekrcic.dll
+api_name:
+ - ITfCleanupContextDurationSink
 ---
 
 # ITfCleanupContextDurationSink interface
+
 
 ## -description
 
@@ -83,12 +85,9 @@ Called when a context cleanup operation is about to begin.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A context cleanup occurs when:
 
@@ -100,13 +99,7 @@ A context cleanup occurs when:
 </ul>
 A text service can use the notifications of this interface to prevent itself from performing any context initialization during the context cleanup operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink
       </a>
@@ -119,7 +112,4 @@ A text service can use the notifications of this interface to prevent itself fro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

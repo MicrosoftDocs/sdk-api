@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getnolinenumber.htm
 ms.date: 12/05/2018
 ms.keywords: GetNoLineNumber, GetNoLineNumber method [Windows Controls], GetNoLineNumber method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetNoLineNumber method, ITextPara.GetNoLineNumber, ITextPara::GetNoLineNumber, _win32_ITextPara_GetNoLineNumber, _win32_ITextPara_GetNoLineNumber_cpp, controls.ITextPara_GetNoLineNumber, controls._win32_ITextPara_GetNoLineNumber, tom/ITextPara::GetNoLineNumber
-f1_keywords:
-- tom/ITextPara.GetNoLineNumber
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetNoLineNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetNoLineNumber
+ - tom/ITextPara::GetNoLineNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetNoLineNumber
 ---
 
 # ITextPara::GetNoLineNumber
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether paragraph numbering is enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -83,12 +79,8 @@ A variable that is one of the following values:
 <td>The property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -133,24 +125,12 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Paragraph numbering is when the paragraphs of a range are numbered. The number appears on the first line of a paragraph.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -169,7 +149,4 @@ Paragraph numbering is when the paragraphs of a range are numbered. The number a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

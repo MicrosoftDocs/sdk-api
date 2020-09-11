@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 672ce465-357c-450c-83a2-3cbdb28e018c
 ms.date: 12/05/2018
 ms.keywords: '*PIPV6_MREQ, IP6_MREQ [Winsock], IPV6_MREQ, IPV6_MREQ structure [Winsock], PIPV6_MREQ, PIPV6_MREQ structure pointer [Winsock], ipv6_mreq, ipv6_mreq structure [Winsock], winsock.ipv6_mreq, ws2ipdef/PIPV6_MREQ, ws2ipdef/ipv6_mreq, ws2tcpip/PIPV6_MREQ, ws2tcpip/ipv6_mreq'
-f1_keywords:
-- ws2ipdef/IPV6_MREQ
-dev_langs:
-- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2ipdef.h
-- Ws2tcpip.h
-api_name:
-- IPV6_MREQ
 targetos: Windows
 req.typenames: IPV6_MREQ, *PIPV6_MREQ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ipv6_mreq
+ - ws2ipdef/ipv6_mreq
+ - PIPV6_MREQ
+ - ws2ipdef/PIPV6_MREQ
+ - IPV6_MREQ
+ - ws2ipdef/IPV6_MREQ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2ipdef.h
+ - Ws2tcpip.h
+api_name:
+ - IPV6_MREQ
 ---
 
 # IPV6_MREQ structure
@@ -50,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ipv6_mreq</b> structure provides multicast group information for IPv6 addresses.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ipv6mr_multiaddr
 
 The address of the IPv6 multicast group.
 
-
 ### -field ipv6mr_interface
 
-The interface index of the local interface on which the multicast group should be joined or dropped. If this member specifies an interface index of 0, the default multicast interface is used. 
-
+The interface index of the local interface on which the multicast group should be joined or dropped. If this member specifies an interface index of 0, the default multicast interface is used.
 
 ## -remarks
-
-
 
 The <b>ipv6_mreq</b> structure is used with IPv6 addresses. The <b>ipv6_mreq</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPV6_ADD_MEMBERSHIP</a>,  <b>IPV6_DROP_MEMBERSHIP</b>,  <b>IPV6_JOIN_GROUP</b>, and <b>IPV6_LEAVE_GROUP</b> socket options. The <b>IPV6_JOIN_GROUP</b> and <b>IPV6_ADD_MEMBERSHIP</b> socket options are defined to be the same. The <b>IPV6_LEAVE_GROUP</b> and <b>IPV6_DROP_MEMBERSHIP</b> socket options are defined to be the same. 
 
@@ -99,12 +95,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 <div class="alert"><b>Note</b>  The <b>PIP6_MREQ</b> derived structure is only defined on the Windows SDK released with Windows Vista and later. The <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structures and are the preferred socket options for multicast programming on Windows Vista and later.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a>
 
@@ -135,7 +126,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_mreq">ip_mreq</a>
- 
-
- 
 

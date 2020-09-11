@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 3eaf9903-ae20-47e7-b32c-943bf60e7bbd
 ms.date: 12/05/2018
 ms.keywords: FindFirstVolume, FindFirstVolume function [Files], FindFirstVolumeA, FindFirstVolumeW, _win32_findfirstvolume, base.findfirstvolume, fileapi/FindFirstVolume, fileapi/FindFirstVolumeA, fileapi/FindFirstVolumeW, fs.findfirstvolume, winbase/FindFirstVolume, winbase/FindFirstVolumeA, winbase/FindFirstVolumeW
-f1_keywords:
-- fileapi/FindFirstVolume
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- FindFirstVolume
-- FindFirstVolumeA
-- FindFirstVolumeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstVolumeW
+ - fileapi/FindFirstVolumeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - FindFirstVolume
+ - FindFirstVolumeA
+ - FindFirstVolumeW
 ---
 
 # FindFirstVolumeW function
@@ -60,30 +61,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name of a volume on a computer. <b>FindFirstVolume</b> is used to begin scanning the volumes of a computer.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszVolumeName [out]
 
 A pointer to a buffer that receives a null-terminated string that specifies a volume 
       <b>GUID</b> path for the first volume that is found.
 
-
 ### -param cchBufferLength [in]
 
 The length of the buffer to receive the volume <b>GUID</b> path, in 
       <b>TCHARs</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a search handle used in a subsequent call to the 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a> and 
@@ -93,12 +85,7 @@ If the function fails to find any volumes, the return value is the
        <b>INVALID_HANDLE_VALUE</b> error code. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FindFirstVolume</b> function opens a volume search handle and returns 
     information about the first volume found on a computer. After the search handle is established, you can use the 
@@ -180,12 +167,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>
 
@@ -200,7 +182,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
 

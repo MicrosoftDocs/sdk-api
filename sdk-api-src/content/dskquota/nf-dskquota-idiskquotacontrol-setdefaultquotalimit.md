@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2e4d8d04-dff2-477f-a5b2-8c8415cb3b52
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetDefaultQuotaLimit method, IDiskQuotaControl.SetDefaultQuotaLimit, IDiskQuotaControl::SetDefaultQuotaLimit, SetDefaultQuotaLimit, SetDefaultQuotaLimit method [Files], SetDefaultQuotaLimit method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setdefaultquotalimit, base.idiskquotacontrol_setdefaultquotalimit, dskquota/IDiskQuotaControl::SetDefaultQuotaLimit, fs.idiskquotacontrol_setdefaultquotalimit
-f1_keywords:
-- dskquota/IDiskQuotaControl.SetDefaultQuotaLimit
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.SetDefaultQuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::SetDefaultQuotaLimit
+ - dskquota/IDiskQuotaControl::SetDefaultQuotaLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.SetDefaultQuotaLimit
 ---
 
 # IDiskQuotaControl::SetDefaultQuotaLimit
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Modifies the default quota limit. This limit is applied automatically to new users of the volume.
 
-
 ## -parameters
-
-
-
 
 ### -param llLimit [in]
 
 The default quota limit, in bytes. If this value is -1, the user has an unlimited quota.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -141,15 +134,8 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
@@ -160,7 +146,4 @@ An unexpected exception occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
 

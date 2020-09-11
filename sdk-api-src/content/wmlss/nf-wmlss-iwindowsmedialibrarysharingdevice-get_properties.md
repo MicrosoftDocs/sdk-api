@@ -8,10 +8,6 @@ tech.root: WMLSS
 ms.assetid: 771c102e-fa23-44bb-aa93-95f7ae9f5e36
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],get_Properties method, IWindowsMediaLibrarySharingDevice.get_Properties, IWindowsMediaLibrarySharingDevice::get_Properties, get_Properties, get_Properties method [Windows Media Library Sharing Services], get_Properties method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceget_Properties, wmlss/IWindowsMediaLibrarySharingDevice::get_Properties
-f1_keywords:
-- wmlss/IWindowsMediaLibrarySharingDevice.get_Properties
-dev_langs:
-- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WMPMediaSharing.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMPMediaSharing.dll
-api_name:
-- IWindowsMediaLibrarySharingDevice.get_Properties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsMediaLibrarySharingDevice::get_Properties
+ - wmlss/IWindowsMediaLibrarySharingDevice::get_Properties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMPMediaSharing.dll
+api_name:
+ - IWindowsMediaLibrarySharingDevice.get_Properties
 ---
 
 # IWindowsMediaLibrarySharingDevice::get_Properties
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_Properties</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperties">IWindowsMediaLibrarySharingDeviceProperties</a> interface that represents the collection of all properties for the device.
 
-
 ## -parameters
-
-
-
 
 ### -param deviceProperties [out]
 
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperties">IWindowsMediaLibrarySharingDeviceProperties</a> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,7 +79,4 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
 

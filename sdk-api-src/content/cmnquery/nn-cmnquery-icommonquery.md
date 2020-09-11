@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 56d05afb-6e5e-41be-bc10-61192c1c1312
 ms.date: 12/05/2018
 ms.keywords: ICommonQuery, ICommonQuery interface [Active Directory], ICommonQuery interface [Active Directory],described, _glines_icommonquery, ad.icommonquery, cmnquery/ICommonQuery
-f1_keywords:
-- cmnquery/ICommonQuery
-dev_langs:
-- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dsquery.dll
-api_name:
-- ICommonQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICommonQuery
+ - cmnquery/ICommonQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dsquery.dll
+api_name:
+ - ICommonQuery
 ---
 
 # ICommonQuery interface
 
 
 ## -description
-
 
 The <b>ICommonQuery</b> interface is used to programmatically display the system-supplied directory service query dialog box.To create an  instance of this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_CommonQuery</b> class identifier as shown in the following code example.
 
@@ -62,8 +62,6 @@ hr = CoCreateInstance(CLSID_CommonQuery,
     IID_ICommonQuery,
     (LPVOID*)&pCommonQuery);
 ```
-
-
 
 ## -inheritance
 
@@ -89,17 +87,10 @@ Displays the directory service query dialog box.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active
     Directory Domain Services</a>
- 
-
- 
 

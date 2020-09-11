@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9da142fa-4765-4889-bd4c-d8167a16f86b
 ms.date: 12/05/2018
 ms.keywords: SHSetFolderPath, SHSetFolderPath function [Windows Shell], SHSetFolderPathA, SHSetFolderPathW, _win32_SHSetFolderPath, shell.SHSetFolderPath, shlobj_core/SHSetFolderPath, shlobj_core/SHSetFolderPathA, shlobj_core/SHSetFolderPathW
-f1_keywords:
-- shlobj_core/SHSetFolderPath
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
-- Windows.Storage.dll
-api_name:
-- SHSetFolderPath
-- SHSetFolderPathA
-- SHSetFolderPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHSetFolderPathA
+ - shlobj_core/SHSetFolderPathA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+ - Windows.Storage.dll
+api_name:
+ - SHSetFolderPath
+ - SHSetFolderPathA
+ - SHSetFolderPathW
 ---
 
 # SHSetFolderPathA function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Assigns a new path to a system folder identified by its CSIDL.
 
-
 ## -parameters
-
-
-
 
 ### -param csidl [in]
 
@@ -70,7 +66,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> val
 
 Add the <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_FLAG_DONT_UNEXPAND</a> value to the CSIDL to ensure that the string is written to the registry exactly as provided. If the <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_FLAG_DONT_UNEXPAND</a> flag is not included, portions of the path may be replaced by environment strings, such as %USERPROFILE%.
 
-
 ### -param hToken [in]
 
 Type: <b>HANDLE</b>
@@ -79,13 +74,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">a
 
 The calling application is responsible for correct impersonation when <i>hToken</i> is non-null. It must have appropriate security privileges for the particular user, including TOKEN_QUERY and TOKEN_IMPERSONATE, and the user's registry hive must be currently mounted. See <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> for further discussion of access control issues.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
 Reserved. Must be set to 0.
-
 
 ### -param pszPath [in]
 
@@ -93,10 +86,7 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of length MAX_PATH that contains the folder's new path. This value cannot be <b>NULL</b>, and the string cannot be of zero length.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -139,14 +129,8 @@ Several error conditions cause the return of this value, including the following
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  As of Windows Vista, this function is merely a wrapper for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>. The CSIDL value is translated to its associated <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> and <b>SHSetKnownFolderPath</b> is called. New applications should use the known folder system rather than the older CSIDL system, which is supported only for backward compatibility.</div>
 <div> </div>
@@ -163,11 +147,5 @@ It is recommended that the paths be expressed as Unicode strings because folder 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath">IKnownFolder::SetPath</a>
- 
-
- 
 

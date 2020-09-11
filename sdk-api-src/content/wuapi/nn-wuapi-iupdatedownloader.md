@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 8f9f3430-fc78-46cb-9dc8-b97e9d35d91c
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloader, IUpdateDownloader interface [Windows Update Agent], IUpdateDownloader interface [Windows Update Agent],described, wua.iupdatedownloader, wuapi/IUpdateDownloader
-f1_keywords:
-- wuapi/IUpdateDownloader
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateDownloader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateDownloader
+ - wuapi/IUpdateDownloader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateDownloader
 ---
 
 # IUpdateDownloader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Downloads updates from the server.
-
 
 ## -inheritance
 
@@ -168,25 +167,13 @@ Gets and sets an interface that contains a read-only collection of the updates t
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 You can create an instance of this interface by using the UpdateDownloader coclass. Use the Microsoft.Update.Downloader program identifier to create the object.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

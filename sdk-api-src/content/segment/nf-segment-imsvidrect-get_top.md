@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 3596141c-e359-4ea5-8d6a-9ec374c1f854
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Top method, IMSVidRect.get_Top, IMSVidRect::get_Top, IMSVidRectget_Top, get_Top, get_Top method [Microsoft TV Technologies], get_Top method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_top, segment/IMSVidRect::get_Top
-f1_keywords:
-- segment/IMSVidRect.get_Top
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidRect.get_Top
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidRect::get_Top
+ - segment/IMSVidRect::get_Top
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidRect.get_Top
 ---
 
 # IMSVidRect::get_Top
@@ -49,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_Top</b> method retrieves the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 
-
 ## -parameters
-
-
-
 
 ### -param TopVal [out]
 
 Pointer to a variable that receives the top y-coordinate, in pixels.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
 
@@ -86,7 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_top">IMSVidRect::put_Top</a>
- 
-
- 
 

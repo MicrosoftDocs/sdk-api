@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 6ec65e7c-fb67-4435-90cd-d17b8fbcbc84
 ms.date: 12/05/2018
 ms.keywords: GetCollectionByQuery, GetCollectionByQuery method [COM+], GetCollectionByQuery method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollectionByQuery method, ICOMAdminCatalog.GetCollectionByQuery, ICOMAdminCatalog::GetCollectionByQuery, _cos_ICOMAdminCatalog_GetCollectionByQuery, comadmin/ICOMAdminCatalog::GetCollectionByQuery, cos.icomadmincatalog_getcollectionbyquery
-f1_keywords:
-- comadmin/ICOMAdminCatalog.GetCollectionByQuery
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog.GetCollectionByQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog::GetCollectionByQuery
+ - comadmin/ICOMAdminCatalog::GetCollectionByQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog.GetCollectionByQuery
 ---
 
 # ICOMAdminCatalog::GetCollectionByQuery
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a collection on the COM+ catalog given the key property values for all of its parent items.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrCollName [in]
 
 The name of the collection to be retrieved.
 
-
 ### -param ppsaVarQuery [in]
 
 A reference to an array consisting of key property values for all parent items of the collection to be retrieved.
-
 
 ### -param ppCatalogCollection [out, retval]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the collection.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">ICatalogObject::Key</a> property value for an item is a GUID that serves to uniquely identify it in the COM+ catalog.
 
@@ -94,16 +80,7 @@ To get the <a href="https://docs.microsoft.com/windows/desktop/cossdk/errorinfo"
 
 For a complete list of available collections, see <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
- 
-
- 
 

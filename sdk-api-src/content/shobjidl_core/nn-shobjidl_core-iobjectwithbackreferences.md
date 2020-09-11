@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9ce0edc6-c2b1-4222-a12b-daf94efcb233
 ms.date: 12/05/2018
 ms.keywords: IObjectWithBackReferences, IObjectWithBackReferences interface [Windows Shell], IObjectWithBackReferences interface [Windows Shell],described, _shell_IObjectWithBackReferences, shell.IObjectWithBackReferences, shobjidl_core/IObjectWithBackReferences
-f1_keywords:
-- shobjidl_core/IObjectWithBackReferences
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IObjectWithBackReferences
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectWithBackReferences
+ - shobjidl_core/IObjectWithBackReferences
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IObjectWithBackReferences
 ---
 
 # IObjectWithBackReferences interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method for interacting with back references held by an object.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Removes all back references held by an object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 When an object contains forward references to child objects that have back references to the parent object, circular references can occur. To break this circle, the parent object needs to keep track of back references from child objects.
@@ -123,7 +119,4 @@ IObjectWithBackReferences : public IUnknown
 };
 
 ```
-
-
-
 

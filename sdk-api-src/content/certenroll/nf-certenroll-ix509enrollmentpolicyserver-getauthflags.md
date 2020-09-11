@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 29ecfb93-82ec-4d34-84ea-0a181e134b6a
 ms.date: 12/05/2018
 ms.keywords: GetAuthFlags, GetAuthFlags method [Security], GetAuthFlags method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetAuthFlags method, IX509EnrollmentPolicyServer.GetAuthFlags, IX509EnrollmentPolicyServer::GetAuthFlags, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::GetAuthFlags, security.ix509enrollmentpolicyserver_getauthflags
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.GetAuthFlags
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.GetAuthFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::GetAuthFlags
+ - certenroll/IX509EnrollmentPolicyServer::GetAuthFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.GetAuthFlags
 ---
 
 # IX509EnrollmentPolicyServer::GetAuthFlags
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAuthFlags</b> method retrieves a value that specifies the authentication type used by the client to authenticate itself to the certificate enrollment policy (CEP) server. This value is set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
@@ -108,12 +104,8 @@ Client authentication certificate installed on the local computer and used by th
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -136,18 +128,8 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

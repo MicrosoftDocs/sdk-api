@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 928b6937-41a3-4268-a3bc-14c9e04870e4
 ms.date: 12/05/2018
 ms.keywords: WSAEnumProtocols, WSAEnumProtocols function [Winsock], WSAEnumProtocolsA, WSAEnumProtocolsW, _win32_wsaenumprotocols_2, winsock.wsaenumprotocols_2, winsock2/WSAEnumProtocols, winsock2/WSAEnumProtocolsA, winsock2/WSAEnumProtocolsW
-f1_keywords:
-- winsock2/WSAEnumProtocols
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAEnumProtocols
-- WSAEnumProtocolsA
-- WSAEnumProtocolsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAEnumProtocolsW
+ - winsock2/WSAEnumProtocolsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAEnumProtocols
+ - WSAEnumProtocolsA
+ - WSAEnumProtocolsW
 ---
 
 # WSAEnumProtocolsW function
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAEnumProtocols</b> function retrieves information about available transport protocols.
 
-
 ## -parameters
-
-
-
 
 ### -param lpiProtocols [in]
 
 A <b>NULLl</b>-terminated array of iProtocol values. This parameter is optional; if <i>lpiProtocols</i> is <b>NULL</b>, information on all available protocols is returned. Otherwise, information is retrieved only for those protocols listed in the array.
 
-
 ### -param lpProtocolBuffer [out]
 
 A pointer to a buffer that is filled with 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures.
-
 
 ### -param lpdwBufferLength [in, out]
 
@@ -78,10 +72,7 @@ On input, number of bytes in the <i>lpProtocolBuffer</i> buffer passed to
 <b>WSAEnumProtocols</b>. On output, the minimum buffer size that can be passed to 
 <b>WSAEnumProtocols</b> to retrieve all the requested information. This routine has no ability to enumerate over multiple calls; the passed-in buffer must be large enough to hold all entries in order for the routine to succeed. This reduces the complexity of the API and should not pose a problem because the number of protocols loaded on a computer is typically small.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSAEnumProtocols</b> returns the number of protocols to be reported. Otherwise, a value of SOCKET_ERROR is returned and a specific error code can be retrieved by calling 
@@ -161,14 +152,8 @@ One or more of the <i>lpiProtocols</i>, <i>lpProtocolBuffer</i>, or <i>lpdwBuffe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAEnumProtocols</b> function is used to discover information about the collection of transport protocols installed on the local computer. Layered protocols are only usable by applications when installed in protocol chains. Information on layered protocols is not returned except for any dummy layered service providers (LSPs) installed with a chain length of zero in the  <i>lpProtocolBuffer</i>. 
@@ -376,9 +361,6 @@ int wmain()
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 
 
@@ -396,7 +378,4 @@ int wmain()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

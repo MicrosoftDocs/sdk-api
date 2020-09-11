@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: df1eee13-012a-47e6-a6de-8ddb8ecc6036
 ms.date: 12/05/2018
 ms.keywords: GetFileMUIInfo, GetFileMUIInfo function [Internationalization for Windows Applications], MUI_QUERY_CHECKSUM, MUI_QUERY_LANGUAGE_NAME, MUI_QUERY_RESOURCE_TYPES, MUI_QUERY_TYPE, _win32_GetFileMUIInfo, intl.getfilemuiinfo, winnls/GetFileMUIInfo
-f1_keywords:
-- winnls/GetFileMUIInfo
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetFileMUIInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileMUIInfo
+ - winnls/GetFileMUIInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetFileMUIInfo
 ---
 
 # GetFileMUIInfo function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves resource-related information about a file.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -120,13 +116,10 @@ Retrieve lists of resource types in the language-specific resource files and LN 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcwszFilePath [in]
 
 Pointer to a null-terminated string indicating the path to the file. Typically the file is either an LN file or a language-specific resource file. If it is not one of these types, the only significant value that the function retrieves is MUI_FILETYPE_NOT_LANGUAGE_NEUTRAL. The function only retrieves this value if the MUI_QUERY_RESOURCE_TYPES flag is set.
-
 
 ### -param pFileMUIInfo [in, out, optional]
 
@@ -148,16 +141,9 @@ Alternatively, the application can set this parameter to 0 if it sets <b>NULL</b
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 For the MUI_QUERY_LANGUAGE_NAME flag, this function retrieves an offset, in bytes, from the beginning of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> in the <b>dwLanguageNameOffset</b> member.
 
@@ -238,14 +224,7 @@ LPWSTR lpszLang = reinterpret_cast<LPWSTR>(&(pFileMUIInfo->abBuffer[ix]));
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a>
 
@@ -268,7 +247,4 @@ LPWSTR lpszLang = reinterpret_cast<LPWSTR>(&(pFileMUIInfo->abBuffer[ix]));
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a>
- 
-
- 
 

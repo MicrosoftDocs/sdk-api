@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods\inflate_61point.htm
 ms.date: 12/05/2018
 ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],RectF class, RectF class [GDI+],Inflate method, RectF.Inflate, RectF.Inflate(IN const PointF &), RectF.Inflate(const PointF&), RectF::Inflate, RectF::Inflate(IN const PointF &), _gdiplus_CLASS_RectF_Inflate_point_, gdiplus._gdiplus_CLASS_RectF_Inflate_point_
-f1_keywords:
-- gdiplustypes/RectF.Inflate
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- RectF.Inflate
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - RectF::Inflate
+ - gdiplustypes/RectF::Inflate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - RectF.Inflate
 ---
 
 # RectF::Inflate(IN const PointF &)
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RectF::Inflate</b> method expands the rectangle by the value of 
 			<i>point</i>.<b>X</b> on the left and right edges, and by the value of 
 			<i>point</i>.<b>Y</b> on the top and bottom edges.
 
-
 ## -parameters
-
-
-
 
 ### -param point [in]
 
@@ -67,13 +63,9 @@ Type: <b>const PointF&amp;</b>
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object whose 
 					<b>X</b> data member specifies the amount to expand the rectangle on the left and right edges, and whose 
-					<b>Y</b> data member specifies the amount to expand the rectangle on the top and bottom edges. 
-
+					<b>Y</b> data member specifies the amount to expand the rectangle on the top and bottom edges.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
@@ -92,7 +84,4 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusty
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
 

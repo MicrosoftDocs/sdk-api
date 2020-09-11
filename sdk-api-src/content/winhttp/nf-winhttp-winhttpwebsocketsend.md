@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 24b45561-2a6e-4513-b597-15dbc10f0664
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketSend, WinHttpWebSocketSend function [WinHTTP], http.winhttpwebsocketsend, winhttp/WinHttpWebSocketSend
-f1_keywords:
-- winhttp/WinHttpWebSocketSend
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpWebSocketSend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpWebSocketSend
+ - winhttp/WinHttpWebSocketSend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpWebSocketSend
 ---
 
 # WinHttpWebSocketSend function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpWebSocketSend</b> function sends data over a WebSocket connection.
 
-
 ## -parameters
-
-
-
 
 ### -param hWebSocket [in]
 
 Type: <b>HINTERNET</b>
 
 Handle to a websocket.
-
 
 ### -param eBufferType [in]
 
@@ -72,14 +67,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winh
 Type of buffer.<div class="alert"><b>Note</b>  Do not specify <b>WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a> to close the connection.</div>
 <div> </div>
 
-
-
 ### -param pvBuffer [in]
 
 Type: <b>PVOID</b>
 
 Pointer to a buffer containing the data to send. Can be <b>NULL</b> only if <i>dwBufferLength</i> is 0.
-
 
 ### -param dwBufferLength [in]
 
@@ -87,10 +79,7 @@ Type: <b>DWORD</b>
 
 Length of <i>pvBuffer</i>.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -124,18 +113,8 @@ A parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_buffer_type">WINHTTP_WEB_SOCKET_BUFFER_TYPE</a>
- 
-
- 
 

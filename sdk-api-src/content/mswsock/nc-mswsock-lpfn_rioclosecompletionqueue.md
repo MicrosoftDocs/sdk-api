@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: A5700ACD-3F4B-4AFF-8BA1-6AC59402E06C
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOCLOSECOMPLETIONQUEUE
-f1_keywords:
-- mswsock/LPFN_RIOCLOSECOMPLETIONQUEUE
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIOCLOSECOMPLETIONQUEUE
+ - mswsock/LPFN_RIOCLOSECOMPLETIONQUEUE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIOCLOSECOMPLETIONQUEUE
+ - LPFN_RIOCLOSECOMPLETIONQUEUE
 ---
 
 ## -description
@@ -49,7 +50,6 @@ The **RIOCloseCompletionQueue** function closes an existing completion queue use
 ## -parameters
 
 ### -param CQ
-
 
 A descriptor identifying an existing completion queue.
 

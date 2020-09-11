@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 8fa3f9ab-1749-43c8-b2a5-c481b1f94177
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineConditionalMediaDetection, TSPI_lineConditionalMediaDetection function [TAPI 2.2], _tspi_tspi_lineconditionalmediadetection, tspi.tspi_lineconditionalmediadetection, tspi/TSPI_lineConditionalMediaDetection
-f1_keywords:
-- tspi/TSPI_lineConditionalMediaDetection
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineConditionalMediaDetection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineConditionalMediaDetection
+ - tspi/TSPI_lineConditionalMediaDetection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineConditionalMediaDetection
 ---
 
 # TSPI_lineConditionalMediaDetection function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineConditionalMediaDetection</b> function is invoked by TAPI whenever a client application uses LINEMAPPER as the <i>dwDeviceID</i> in a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> function call to request that lines be scanned to find one that supports the desired media types and call parameters. TAPI scans based on the union of the desired media type and the other media types currently being monitored on the line, to give the service provider the opportunity to indicate if it cannot simultaneously monitor for all of the requested media types. If the service provider can monitor for the indicated set of media types and support the capabilities indicated in <i>lpCallParams</i>, it replies with a success indication. It leaves the active media monitoring modes for the line unchanged.
 
-
 ## -parameters
-
-
-
 
 ### -param hdLine
 
 The service provider's handle to the line on which media monitoring and parameter capabilities are to be set.
 
-
 ### -param dwMediaModes
 
 The media type(s) currently of interest to the calling application. This parameter uses one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ constants</a>.
-
 
 ### -param lpCallParams
 
@@ -93,21 +87,13 @@ A pointer to a structure of type
 
 If <b>dwAddressMode</b> is LINEADDRESSMODE_ADDRESSID, any address on the line is acceptable. If <b>dwAddressMode</b> is LINEADDRESSMODE_DIALABLEADDR, indicating that a specific originating address (phone number) is searched for, or if it is a provider-specific extension, then <b>dwOrigAddressSize/Offset</b> and the portion of the variable part they refer to are also relevant. If <b>dwAddressMode</b> is a provider-specific extension, additional information can be contained in the <b>dwDeviceSpecific</b> variably sized field. All other fields are irrelevant to the function.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NODRIVER, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_INVALMEDIAMODE, LINEERR_OPERATIONUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 A TAPI 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> function that specifies a device identifier of LINEMAPPER typically results in calling this procedure for multiple line devices to hunt for a suitable line, possibly also opening as-yet unopened lines. A success result indicates that the line is suitable for the calling application's requirements.
@@ -132,13 +118,7 @@ The service provider returns an error (for example, LINEERR_RESOURCEUNAVAIL) if,
 There is no directly corresponding function at the TAPI level. This procedure corresponds to the test implied for each individual line by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> procedure when it is called with the device identifier LINEMAPPER.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
@@ -149,7 +129,4 @@ There is no directly corresponding function at the TAPI level. This procedure co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a>
- 
-
- 
 

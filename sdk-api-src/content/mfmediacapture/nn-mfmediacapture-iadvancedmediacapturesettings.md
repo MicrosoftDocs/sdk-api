@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: f99669a1-5e6e-4e3b-8907-5fb537ecadfe
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCaptureSettings, IAdvancedMediaCaptureSettings interface [Media Foundation], IAdvancedMediaCaptureSettings interface [Media Foundation],described, mf.iadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCaptureSettings
-f1_keywords:
-- mfmediacapture/IAdvancedMediaCaptureSettings
-dev_langs:
-- c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mfmediacapture.h
-api_name:
-- IAdvancedMediaCaptureSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAdvancedMediaCaptureSettings
+ - mfmediacapture/IAdvancedMediaCaptureSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mfmediacapture.h
+api_name:
+ - IAdvancedMediaCaptureSettings
 ---
 
 # IAdvancedMediaCaptureSettings interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides settings for advanced media capture.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Gets the DirectX device manager.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

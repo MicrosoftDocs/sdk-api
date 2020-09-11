@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: ceae8c7d-80b5-4052-ac43-85f9802c209e
 ms.date: 12/05/2018
 ms.keywords: GetProfileSize, GetProfileSize method [Direct2D], GetProfileSize method [Direct2D],ID2D1ColorContext interface, ID2D1ColorContext interface [Direct2D],GetProfileSize method, ID2D1ColorContext.GetProfileSize, ID2D1ColorContext::GetProfileSize, d2d1_1/ID2D1ColorContext::GetProfileSize, direct2d.id2d1colorcontext_getprofilesize
-f1_keywords:
-- d2d1_1/ID2D1ColorContext.GetProfileSize
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1ColorContext.GetProfileSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1ColorContext::GetProfileSize
+ - d2d1_1/ID2D1ColorContext::GetProfileSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1ColorContext.GetProfileSize
 ---
 
 # ID2D1ColorContext::GetProfileSize
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the size of the color profile associated with the bitmap. 	
-
+Gets the size of the color profile associated with the bitmap.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>UINT32</b>
 
 This method returns the  size of the profile in bytes.
 
-
-
-
 ## -remarks
-
-
 
 This can be used to allocate a buffer to receive the color profile bytes associated with the context.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_space">D2D1_COLOR_SPACE</a>
 
@@ -98,7 +79,4 @@ This can be used to allocate a buffer to receive the color profile bytes associa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getprofile">ID2D1ColorContext::GetProfile</a>
- 
-
- 
 

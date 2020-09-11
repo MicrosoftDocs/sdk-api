@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: f385f63f-49b2-4eb7-8717-ad4cca1a2252
 ms.date: 12/05/2018
 ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsock.wsaaccept_2, winsock2/WSAAccept
-f1_keywords:
-- winsock2/WSAAccept
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAAccept
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAccept
+ - winsock2/WSAAccept
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAAccept
 ---
 
 ## -description
@@ -467,3 +468,4 @@ int main() {
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
+

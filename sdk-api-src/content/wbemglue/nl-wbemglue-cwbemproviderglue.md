@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 493027c2-e54d-4fad-9e33-98d1ceab8860
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue class [Windows Management Instrumentation], CWbemProviderGlue class [Windows Management Instrumentation],described, _hmm_cwbemproviderglue, wbemglue/CWbemProviderGlue, wmi.cwbemproviderglue
-f1_keywords:
-- wbemglue/CWbemProviderGlue
-dev_langs:
-- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CWbemProviderGlue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CWbemProviderGlue
+ - wbemglue/CWbemProviderGlue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CWbemProviderGlue
 ---
 
 # CWbemProviderGlue class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>CWbemProviderGlue</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -202,5 +202,5 @@ Sets the parameters of a status object which is used to supply more information 
 
 </td>
 </tr>
-</table> 
+</table>
 

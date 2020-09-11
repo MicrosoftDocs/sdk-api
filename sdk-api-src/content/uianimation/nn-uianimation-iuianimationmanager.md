@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 21f16c65-90aa-4b1f-93bc-8ee0488c6ded
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], IUIAnimationManager interface [Windows Animation],described, uianimation.iuianimationmanager, uianimation/IUIAnimationManager
-f1_keywords:
-- uianimation/IUIAnimationManager
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationManager
+ - uianimation/IUIAnimationManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationManager
 ---
 
 # IUIAnimationManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the animation manager, which provides a central interface for creating and managing animations.
-
 
 ## -inheritance
 
@@ -239,12 +238,9 @@ Updates the values of all animation variables.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IUIAnimationManager</b> defines a central control object for animations.
          
@@ -265,12 +261,7 @@ For an example that creates the animation manager object, see <a href="https://d
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a>
 
@@ -285,7 +276,4 @@ For an example that creates the animation manager object, see <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

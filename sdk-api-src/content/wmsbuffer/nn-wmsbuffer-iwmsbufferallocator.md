@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 021ced93-4b79-4821-a380-7fed43fd5391
 ms.date: 12/05/2018
 ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], IWMSBufferAllocator interface [windows Media Format],described, IWMSBufferAllocatorInterface, wmformat.iwmsbufferallocator, wmsbuffer/IWMSBufferAllocator
-f1_keywords:
-- wmsbuffer/IWMSBufferAllocator
-dev_langs:
-- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsbuffer.h
-api_name:
-- IWMSBufferAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSBufferAllocator
+ - wmsbuffer/IWMSBufferAllocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsbuffer.h
+api_name:
+ - IWMSBufferAllocator
 ---
 
 # IWMSBufferAllocator interface
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMSSBufferAllocator</b> interface provides methods for allocating a buffer. This method is implemented by the server object in Microsoft Windows Media Services 9 Series. For more information, see the Windows Media Services 9 Series SDK documentation.
 
 <div class="alert"><b>Note</b>  This interface is available only on Windows Server 2003, Enterprise Edition, and Windows Server 2003, Datacenter Edition.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -91,16 +88,9 @@ Initializes a buffer that can be used to perform page-aligned reads.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

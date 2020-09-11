@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: AF3F03F2-38B4-474A-8A66-86A93D776EA0
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetMaximumFrameLatency method, IDXGISwapChain2.SetMaximumFrameLatency, IDXGISwapChain2::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [DXGI], SetMaximumFrameLatency method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmaximumframelatency, dxgi1_3/IDXGISwapChain2::SetMaximumFrameLatency
-f1_keywords:
-- dxgi1_3/IDXGISwapChain2.SetMaximumFrameLatency
-dev_langs:
-- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxgi.lib
-- dxgi.dll
-api_name:
-- IDXGISwapChain2.SetMaximumFrameLatency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISwapChain2::SetMaximumFrameLatency
+ - dxgi1_3/IDXGISwapChain2::SetMaximumFrameLatency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxgi.lib
+ - dxgi.dll
+api_name:
+ - IDXGISwapChain2.SetMaximumFrameLatency
 ---
 
 # IDXGISwapChain2::SetMaximumFrameLatency
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the number of frames that the swap chain is allowed to queue for rendering.
 
-
 ## -parameters
-
-
-
 
 ### -param MaxLatency
 
 The maximum number of back buffer frames that will be queued for the swap chain. This value is 1 by default.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful; otherwise, DXGI_ERROR_DEVICE_REMOVED if the device was removed.
 
@@ -81,3 +74,4 @@ This method is only valid for use on swap chains created with <a href="https://d
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmaximumframelatency">GetMaximumFrameLatency</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
+

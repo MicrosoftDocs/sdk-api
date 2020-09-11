@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 00b8fe43-22d3-44fd-a1c4-cf3cd36873c6
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Commit method, ITransactionProxy.Commit, ITransactionProxy::Commit, comsvcs/ITransactionProxy::Commit, cos.itransactionproxy_commit
-f1_keywords:
-- comsvcs/ITransactionProxy.Commit
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionProxy.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionProxy::Commit
+ - comsvcs/ITransactionProxy::Commit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionProxy.Commit
 ---
 
 # ITransactionProxy::Commit
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Commits the transaction.
 
-
 ## -parameters
-
-
-
 
 ### -param guid [in]
 
 A GUID that identifies the transaction to commit.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -98,14 +91,8 @@ The transaction was aborted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling <b>ITransactionProxy::Commit</b> attempts to commit a transaction. However, the transaction aborts under the following conditions:
 
@@ -116,16 +103,7 @@ Calling <b>ITransactionProxy::Commit</b> attempts to commit a transaction. Howev
 </ul>
 When the method returns, whether the transaction commits or aborts, the transaction ends.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproxy">ITransactionProxy</a>
- 
-
- 
 

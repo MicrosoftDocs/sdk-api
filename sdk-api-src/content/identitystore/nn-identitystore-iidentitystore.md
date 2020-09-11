@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f7f0f103-411b-4fbd-9ed5-30c6ab2f0ab6
 ms.date: 12/05/2018
 ms.keywords: IIdentityStore, IIdentityStore interface [Security], IIdentityStore interface [Security],described, identitystore/IIdentityStore, security.iidentitystore
-f1_keywords:
-- identitystore/IIdentityStore
-dev_langs:
-- c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Identitystore.h
-api_name:
-- IIdentityStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIdentityStore
+ - identitystore/IIdentityStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Identitystore.h
+api_name:
+ - IIdentityStore
 ---
 
 # IIdentityStore interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IIdentityStore</b> interface
 provides methods to enumerate and manage identities and identity providers.
-
 
 ## -inheritance
 
@@ -123,16 +122,9 @@ Sets the current index of the identity enumeration to zero.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: b7182760-30c0-4c09-ae99-f656d868e150
 ms.date: 12/05/2018
 ms.keywords: RasGetAutodialAddress, RasGetAutodialAddress function [RAS], RasGetAutodialAddressA, RasGetAutodialAddressW, _ras_rasgetautodialaddress, ras/RasGetAutodialAddress, ras/RasGetAutodialAddressA, ras/RasGetAutodialAddressW, rras.rasgetautodialaddress
-f1_keywords:
-- ras/RasGetAutodialAddress
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasGetAutodialAddress
-- RasGetAutodialAddressA
-- RasGetAutodialAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetAutodialAddressA
+ - ras/RasGetAutodialAddressA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasGetAutodialAddress
+ - RasGetAutodialAddressA
+ - RasGetAutodialAddressW
 ---
 
 # RasGetAutodialAddressA function
@@ -53,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetAutodialAddress</b> function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -69,11 +65,9 @@ Pointer to a <b>null</b>-terminated string that specifies the address for which 
 
 If this parameter is <b>NULL</b>, the function retrieves the default Internet connection. The function returns the per-user default Internet connection if one is configured. Otherwise, the function returns the global default Internet connection. If no default Internet connections are configured, the function returns zero for the <i>lpdwcbAutoDialEntries</i> and <i>lpdwcAutoDialEntries</i> parameters.
 
-
 ### -param arg2 [in]
 
 Reserved; must be <b>NULL</b>.
-
 
 ### -param arg3 [in, out]
 
@@ -89,7 +83,6 @@ On input, set the <b>dwSize</b> member of the first
 If <i>lpAutoDialEntries</i> is <b>NULL</b>, 
 <b>RasGetAutodialAddress</b> sets the <i>lpdwcbAutoDialEntries</i> and <i>lpdwcAutoDialEntries</i> parameters to indicate the required buffer size, in bytes, and the number of AutoDial entries.
 
-
 ### -param arg4 [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer. 
@@ -99,15 +92,11 @@ Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lp
 
 On output, this variable receives the number of bytes returned, or the number of bytes required if the buffer is too small.
 
-
 ### -param arg5 [out]
 
 Pointer to a variable that receives the number of structure elements returned in the <i>lpAutoDialEntries</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -142,14 +131,8 @@ The <i>lpszAddress</i>, <i>lpdwcbAutoDialEntries</i>, or <i>lpdwcAutoDialEntries
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Remote Access Service (RAS) supports default Internet connections. RAS supports a default Internet connection that is global to the local computer, and in addition, supports a default Internet connection for each user.
 
@@ -196,9 +179,6 @@ This value is of type <b>REG_SZ</b>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a>
 
 
@@ -216,7 +196,4 @@ This value is of type <b>REG_SZ</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

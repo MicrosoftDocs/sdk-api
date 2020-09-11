@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 5747ce19-5004-4eea-abe9-dd00abac1b3b
 ms.date: 12/05/2018
 ms.keywords: HttpQueryInfo, HttpQueryInfo function [WinINet], HttpQueryInfoA, HttpQueryInfoW, _inet_httpqueryinfo_function, wininet.httpqueryinfo, wininet/HttpQueryInfo, wininet/HttpQueryInfoA, wininet/HttpQueryInfoW
-f1_keywords:
-- wininet/HttpQueryInfo
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- HttpQueryInfo
-- HttpQueryInfoA
-- HttpQueryInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpQueryInfoW
+ - wininet/HttpQueryInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - HttpQueryInfo
+ - HttpQueryInfoA
+ - HttpQueryInfoW
 ---
 
 # HttpQueryInfoW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves header information associated with an HTTP request.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
@@ -66,17 +62,14 @@ A handle returned by
 a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> function.
 
-
 ### -param dwInfoLevel [in]
 
 A combination of an attribute to be retrieved and flags that modify the request. For a list of possible attribute and modifier values, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/query-info-flags">Query Info Flags</a>.
 
-
 ### -param lpBuffer [in, out]
 
 A pointer to a buffer to receive the requested information. This parameter must not be <b>NULL</b>.
-
 
 ### -param lpdwBufferLength [in, out]
 
@@ -87,25 +80,16 @@ When the function returns successfully, this variable contains the number of byt
 When the function  
 					fails with an extended error code of <b>ERROR_INSUFFICIENT_BUFFER</b>, the variable pointed to by <i>lpdwBufferLength</i> contains on exit the size, in bytes, of a buffer large enough to receive the requested information. The calling application can then allocate a buffer of this size or larger, and call the function again.
 
-
 ### -param lpdwIndex [in, out]
 
 A pointer to a zero-based header index used to enumerate multiple headers with the same name. When calling the function, this parameter is the index of the specified header to return. When the function returns, this parameter is the index of the next header. If the next index cannot be found, <b>ERROR_HTTP_HEADER_NOT_FOUND</b> is returned.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 You can retrieve the following types of data from 
 <b>HttpQueryInfo</b>:<ul>
@@ -140,9 +124,6 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
 
 
@@ -152,7 +133,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

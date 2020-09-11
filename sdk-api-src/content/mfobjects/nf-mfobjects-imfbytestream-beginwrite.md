@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 078a8ffe-7b4f-487e-8655-fe5ea14ba306
 ms.date: 12/05/2018
 ms.keywords: 078a8ffe-7b4f-487e-8655-fe5ea14ba306, BeginWrite, BeginWrite method [Media Foundation], BeginWrite method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],BeginWrite method, IMFByteStream.BeginWrite, IMFByteStream::BeginWrite, mf.imfbytestream_beginwrite, mfobjects/IMFByteStream::BeginWrite
-f1_keywords:
-- mfobjects/IMFByteStream.BeginWrite
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFByteStream.BeginWrite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStream::BeginWrite
+ - mfobjects/IMFByteStream::BeginWrite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFByteStream.BeginWrite
 ---
 
 # IMFByteStream::BeginWrite
@@ -50,52 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Begins an asynchronous write operation to the stream.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pb [in]
 
 Pointer to a buffer containing the data to write.
-          
-
 
 ### -param cb [in]
 
 Size of the buffer in bytes.
-          
-
 
 ### -param pCallback [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
-          
-
 
 ### -param punkState [in]
 
 Pointer to the <b>IUnknown</b> interface of a state object, defined by the caller. This parameter can be <b>NULL</b>. You can use this object to hold state information. The object is returned to the caller when the callback is invoked.
-          
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 When all of the data has been written to the stream, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-endwrite">IMFByteStream::EndWrite</a> to complete the asynchronous request.
       
@@ -113,15 +93,7 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
- 
-
- 
 

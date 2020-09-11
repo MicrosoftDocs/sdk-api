@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 9ec087c9-d484-4763-a527-2ea5c1a0cf28
 ms.date: 12/05/2018
 ms.keywords: InternetOpen, InternetOpen function [WinINet], InternetOpenA, InternetOpenW, _inet_internetopen_function, wininet.internetopen, wininet/InternetOpen, wininet/InternetOpenA, wininet/InternetOpenW
-f1_keywords:
-- wininet/InternetOpen
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetOpen
-- InternetOpenA
-- InternetOpenW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetOpenW
+ - wininet/InternetOpenW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetOpen
+ - InternetOpenA
+ - InternetOpenW
 ---
 
 # InternetOpenW function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes an application's use of the WinINet functions.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszAgent [in]
 
 Pointer to a <b>null</b>-terminated string  that specifies the name of the application or entity calling the WinINet functions. This name is used as the user agent in the HTTP protocol.
-
 
 ### -param dwAccessType [in]
 
@@ -120,8 +115,6 @@ Passes requests to the proxy unless a proxy bypass list is supplied and the name
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszProxy [in]
 
@@ -134,7 +127,6 @@ Pointer to a <b>null</b>-terminated string  that specifies the name of the proxy
 <b>INTERNET_OPEN_TYPE_PROXY</b>, this parameter is ignored and should be <b>NULL</b>. For more information about listing proxy servers, see the 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Listing Proxy Servers</a> section of 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>.
-
 
 ### -param lpszProxyBypass [in]
 
@@ -150,7 +142,6 @@ By default, WinINet will bypass the proxy for requests that use the host names "
 If 
 <i>dwAccessType</i> is not set to 
 <b>INTERNET_OPEN_TYPE_PROXY</b>, this parameter is ignored and should be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -196,23 +187,14 @@ Identical to
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a valid handle that the application passes to subsequent WinINet functions. If 
 <b>InternetOpen</b> fails, it returns <b>NULL</b>. To retrieve a specific error message, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>InternetOpen</b> is the first WinINet function called by an application. It tells the Internet DLL to initialize internal data structures and prepare for future calls from the application. When the application finishes using the Internet functions, it should call 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> to free the handle and any associated resources.
@@ -239,15 +221,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

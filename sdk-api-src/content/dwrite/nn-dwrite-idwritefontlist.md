@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 00c41c5f-4405-45ff-98e5-03858dc3056f
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontList, IDWriteFontList interface [Direct Write], IDWriteFontList interface [Direct Write],described, directwrite.IDWriteFontList, dwrite/IDWriteFontList
-f1_keywords:
-- dwrite/IDWriteFontList
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontList
+ - dwrite/IDWriteFontList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontList
 ---
 
 # IDWriteFontList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Represents a list of fonts.
-
 
 ## -inheritance
 
@@ -96,5 +95,5 @@ The <b>IDWriteFontList</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
+</table>
 

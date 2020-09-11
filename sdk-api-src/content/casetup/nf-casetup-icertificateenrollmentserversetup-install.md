@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 35578035-1D09-48AD-B6F5-7314C989B519
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],Install method, ICertificateEnrollmentServerSetup.Install, ICertificateEnrollmentServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::Install, security.icertificateenrollmentserversetup_install
-f1_keywords:
-- casetup/ICertificateEnrollmentServerSetup.Install
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentServerSetup.Install
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentServerSetup::Install
+ - casetup/ICertificateEnrollmentServerSetup::Install
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentServerSetup.Install
 ---
 
 # ICertificateEnrollmentServerSetup::Install
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Install</b> method installs the Certificate Enrollment Web Service (CES) configured by the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -105,14 +97,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function performs the following actions:
 
@@ -178,15 +164,7 @@ Updates the security descriptor of the Deleted Objects container in Active Direc
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 2a46e79f-084e-4173-ad0f-211d3065d81a
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], IWMSyncReader interface [windows Media Format],described, IWMSyncReaderInterface, wmformat.iwmsyncreader, wmsdkidl/IWMSyncReader
-f1_keywords:
-- wmsdkidl/IWMSyncReader
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMSyncReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader
+ - wmsdkidl/IWMSyncReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMSyncReader
 ---
 
 # IWMSyncReader interface
 
 
 ## -description
-
-
 
 The <b>IWMSyncReader</b> interface provides the ability to read ASF files using synchronous calls. This is in contrast to many of the methods in <b>IWMReader</b>, which are called asynchronously.
 
@@ -60,9 +59,6 @@ In addition to enabling synchronous reading, the methods of <b>IWMSyncReader</b>
 Many of the methods in this interface are almost identical to corresponding methods in the asynchronous reader.
 
 Use of this interface, as well as the implementation of an <b>IStream</b> COM object that passes data to this object, is demonstrated in the WMSyncReader SDK sample.
-
-
-
 
 ## -inheritance
 
@@ -272,15 +268,7 @@ Sets the streams for which the reader will deliver samples.
 
 For information on which interfaces can be obtained by calling the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>.
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

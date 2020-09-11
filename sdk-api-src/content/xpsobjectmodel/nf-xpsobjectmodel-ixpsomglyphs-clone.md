@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 5c402f5a-1d7c-4d2d-87de-954ceba59b51
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],Clone method, IXpsOMGlyphs.Clone, IXpsOMGlyphs::Clone, xps.ixpsomglyphs_clone, xpsobjectmodel/IXpsOMGlyphs::Clone
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphs.Clone
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphs.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphs::Clone
+ - xpsobjectmodel/IXpsOMGlyphs::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphs.Clone
 ---
 
 # IXpsOMGlyphs::Clone
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Makes a deep copy of the interface.
 
-
 ## -parameters
-
-
-
 
 ### -param glyphs [out, retval]
 
 A pointer to the copy of the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -108,24 +101,12 @@ Not enough memory to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method does not update any of the resource pointers in the copy of the interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
 
@@ -136,7 +117,4 @@ This method does not update any of the resource pointers in the copy of the inte
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

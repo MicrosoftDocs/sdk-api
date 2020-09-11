@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f88ebef7-2796-4076-892f-28fac6e143de
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextSink, ITfCleanupContextSink interface [Text Services Framework], ITfCleanupContextSink interface [Text Services Framework],described, _tsf_itfcleanupcontextsink_ref, msctf/ITfCleanupContextSink, tsf.itfcleanupcontextsink
-f1_keywords:
-- msctf/ITfCleanupContextSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Imekrcic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imekrcic.dll
-api_name:
-- ITfCleanupContextSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCleanupContextSink
+ - msctf/ITfCleanupContextSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imekrcic.dll
+api_name:
+ - ITfCleanupContextSink
 ---
 
 # ITfCleanupContextSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfCleanupContextSink</b> interface is implemented by a text service to receive notifications when a context cleanup operation occurs. This notification sink is installed by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> with IID_ITfCleanupContextSink.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Called during a context cleanup operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A context cleanup occurs when:
 
@@ -93,12 +89,7 @@ A context cleanup occurs when:
             </a> is called while a context is still on the context stack.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink
       </a>
@@ -111,7 +102,4 @@ A context cleanup occurs when:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

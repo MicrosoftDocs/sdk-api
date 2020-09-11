@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: fd21a17b-1049-4dd9-a08b-da84699b8006
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetProxySettings method, IBackgroundCopyJob.SetProxySettings, IBackgroundCopyJob::SetProxySettings, SetProxySettings, SetProxySettings method [BITS], SetProxySettings method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setproxysettings, bits.ibackgroundcopyjob_setproxysettings, bits/IBackgroundCopyJob::SetProxySettings
-f1_keywords:
-- bits/IBackgroundCopyJob.SetProxySettings
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.SetProxySettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::SetProxySettings
+ - bits/IBackgroundCopyJob::SetProxySettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.SetProxySettings
 ---
 
 # IBackgroundCopyJob::SetProxySettings
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies which proxy to use to transfer files.
 
-
 ## -parameters
-
-
-
 
 ### -param ProxyUsage [in]
 
 Specifies whether to use the user's proxy settings, not to use a proxy, or to use application-specified proxy settings. The default is to use the user's proxy settings, <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>. For a list of proxy options, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
-
 
 ### -param ProxyList [in]
 
@@ -71,8 +66,6 @@ Null-terminated string that contains the proxies to use to transfer files. The l
  This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>, <b>BG_JOB_PROXY_USAGE_NO_PROXY</b>, or <b>BG_JOB_PROXY_USAGE_AUTODETECT</b>.
 
 The length of the proxy list is limited to 4,000 characters, not including the null terminator.
-					
-
 
 ### -param ProxyBypassList [in]
 
@@ -82,12 +75,8 @@ This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JO
 						
 
 The length of the proxy bypass list is limited to 4,000 characters, not including the null terminator.
-					
-
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -164,14 +153,8 @@ The <i>pProxyList</i> parameter cannot be <b>NULL</b> if <i>ProxyUsage</i> is <b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The proxy information you provide is validated at run time. If the proxy information is invalid, the job enters the <b>BG_JOB_STATE_ERROR</b> state with a <b>BG_E_INVALID_PROXY_INFO</b> error code.
 
@@ -192,20 +175,11 @@ You can list locally known host names or Internet Protocol (IP) addresses in the
 
 BITS uses the Internet Explorer proxy settings of the user if an application does not specify a proxy usage. This default behavior typically works if the application submits the job in the context of an interactive user but may not work if a service running as LocalSystem submits the job. You can specify Internet Explorer proxy settings for LocalSystem; however, it is difficult to detect these settings when problems occur.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getproxysettings">IBackgroundCopyJob::GetProxySettings</a>
- 
-
- 
 

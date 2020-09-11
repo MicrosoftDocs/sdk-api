@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: be686d56-c242-4228-ac8e-8f764ad29756
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], IDirectDrawSurface7 interface [DirectDraw],described, ddraw/IDirectDrawSurface7, directdraw.idirectdrawsurface7
-f1_keywords:
-- ddraw/IDirectDrawSurface7
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7
+ - ddraw/IDirectDrawSurface7
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7
 ---
 
 # IDirectDrawSurface7 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications use the methods of the <b>IDirectDrawSurface7</b> interface to create DirectDrawSurface objects and work with system-level variables. This section is a reference to the methods of this interface.
-
 
 ## -inheritance
 
@@ -492,12 +491,9 @@ Sets the z-order of an overlay.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The methods of the <b>IDirectDrawSurface7</b> interface can be organized into the following groups:<table>
 <tr>
@@ -657,7 +653,4 @@ typedef struct IDirectDrawSurface4    FAR *LPDIRECTDRAWSURFACE4;
 typedef struct IDirectDrawSurface7    FAR *LPDIRECTDRAWSURFACE7;
 
 ```
-
-
-
 

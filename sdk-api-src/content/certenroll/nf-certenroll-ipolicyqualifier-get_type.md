@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: eb48d2a0-c689-45b1-9f06-83df71987b4b
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier interface [Security],Type property, IPolicyQualifier.Type, IPolicyQualifier.get_Type, IPolicyQualifier::Type, IPolicyQualifier::get_Type, Type property [Security], Type property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Type, certenroll/IPolicyQualifier::get_Type, get_Type, security.ipolicyqualifier_type_property
-f1_keywords:
-- certenroll/IPolicyQualifier.Type
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IPolicyQualifier.Type
-- IPolicyQualifier.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPolicyQualifier::get_Type
+ - certenroll/IPolicyQualifier::get_Type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IPolicyQualifier.Type
+ - IPolicyQualifier.get_Type
 ---
 
 # IPolicyQualifier::get_Type
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Type</b> property retrieves the qualifier type.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You must call  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifier-initializeencode">InitializeEncode</a> to initialize the qualifier object before you can retrieve this property. The value retrieved is one of the following  values of the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-policyqualifiertype">PolicyQualifierType</a> enumeration.<table>
 <tr>
@@ -87,17 +83,7 @@ You can also retrieve the following properties for this object:<ul>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifier-get_rawdata">RawData</a> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded qualifier.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
- 
-
- 
 

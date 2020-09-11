@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 16f0ec7d-6c96-479f-8b8d-397f76d681aa
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationScrollItemPattern, IUIAutomationScrollItemPattern interface [Windows Accessibility], IUIAutomationScrollItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationScrollItemPattern, uiauto_IUIAutomationScrollItemPattern, uiautomationclient/IUIAutomationScrollItemPattern, winauto.uiauto_IUIAutomationScrollItemPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationScrollItemPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationScrollItemPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationScrollItemPattern
+ - uiautomationclient/IUIAutomationScrollItemPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationScrollItemPattern
 ---
 
 # IUIAutomationScrollItemPattern interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that enables an item in a scrollable view to be placed in a visible portion of the view.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Scrolls the content area of a container object to display the UI Automation elem
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
 

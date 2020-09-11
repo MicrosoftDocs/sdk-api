@@ -8,10 +8,6 @@ tech.root: hid
 ms.assetid: 773bf345-5bdd-4b05-b291-1e844bdb9cf0
 ms.date: 12/05/2018
 ms.keywords: '*LPDIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES structure [Human Input Devices], di_ref_c88696fe-68b4-4b0e-88dd-96be38e0bdd4.xml, dinputd/DIOBJECTATTRIBUTES, hid.diobjectattributes'
-f1_keywords:
-- dinputd/DIOBJECTATTRIBUTES
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dinputd.h
-api_name:
-- DIOBJECTATTRIBUTES
 targetos: Windows
 req.typenames: DIOBJECTATTRIBUTES, *LPDIOBJECTATTRIBUTES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DIOBJECTATTRIBUTES
+ - dinputd/DIOBJECTATTRIBUTES
+ - LPDIOBJECTATTRIBUTES
+ - dinputd/LPDIOBJECTATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dinputd.h
+api_name:
+ - DIOBJECTATTRIBUTES
 ---
 
 # DIOBJECTATTRIBUTES structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DIOBJECTATTRIBUTES structure describes the information contained in the "Attributes" value of the registry key for each "object" on a device. If the "Attributes" value is absent, then default attributes are used. 
-
+The DIOBJECTATTRIBUTES structure describes the information contained in the "Attributes" value of the registry key for each "object" on a device. If the "Attributes" value is absent, then default attributes are used.
 
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -110,15 +108,13 @@ Indicates the bits that are used to report aspect information. An object can rep
 
 #### DIDOI_POLLED
 
-Indicates that the object must be explicitly polled in order for data to be retrieved from it. If this flag is not set, then data for the object is interrupt-driven. 
-
+Indicates that the object must be explicitly polled in order for data to be retrieved from it. If this flag is not set, then data for the object is interrupt-driven.
 
 ### -field wUsagePage
 
-Specifies the HID usage page to associate with the object. 
-
+Specifies the HID usage page to associate with the object.
 
 ### -field wUsage
 
-Specifies the HID usage to associate with the object. 
+Specifies the HID usage to associate with the object.
 

@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 47c3c85e-15ca-4645-89c1-bbfd3bbd58e5
 ms.date: 12/05/2018
 ms.keywords: RaiseException, RaiseException function, _win32_raiseexception, base.raiseexception, errhandlingapi/RaiseException
-f1_keywords:
-- errhandlingapi/RaiseException
-dev_langs:
-- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-errorhandling-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-errorhandling-l1-1-1.dll
-- API-MS-Win-Core-errorhandling-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
-api_name:
-- RaiseException
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RaiseException
+ - errhandlingapi/RaiseException
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-errorhandling-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-errorhandling-l1-1-1.dll
+ - API-MS-Win-Core-errorhandling-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+api_name:
+ - RaiseException
 ---
 
 # RaiseException function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Raises an exception in the calling thread.
 
-
 ## -parameters
-
-
-
 
 ### -param dwExceptionCode [in]
 
@@ -75,34 +71,23 @@ An application-defined exception code of the exception being raised. The filter 
 
 Note that the system will clear bit 28 of <i>dwExceptionCode</i> before displaying a message This bit is a reserved exception bit, used by the system for its own purposes.
 
-
 ### -param dwExceptionFlags [in]
 
 The exception flags. This can be either zero to indicate a continuable exception, or EXCEPTION_NONCONTINUABLE to indicate a noncontinuable exception. Any attempt to continue execution after a noncontinuable exception causes the EXCEPTION_NONCONTINUABLE_EXCEPTION exception.
-
 
 ### -param nNumberOfArguments [in]
 
 The number of arguments in the <i>lpArguments</i> array. This value must not exceed EXCEPTION_MAXIMUM_PARAMETERS. This parameter is ignored if <i>lpArguments</i> is <b>NULL</b>.
 
-
 ### -param lpArguments [in]
 
 An array of arguments. This parameter can be <b>NULL</b>. These arguments can contain any application-defined data that needs to be passed to the filter expression of the exception handler.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>RaiseException</b> function enables a process to use structured exception handling to handle private, software-generated, application-defined exceptions.
@@ -128,12 +113,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>
 
@@ -156,7 +136,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>
- 
-
- 
 

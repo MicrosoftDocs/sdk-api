@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 32e246cd-50eb-4221-8166-a7cd8ed42d69
 ms.date: 12/05/2018
 ms.keywords: IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], IUPnPRemoteEndpointInfo interface [UPnP APIs],described, upnp.iupnpremoteendpointinfo, upnphost/IUPnPRemoteEndpointInfo
-f1_keywords:
-- upnphost/IUPnPRemoteEndpointInfo
-dev_langs:
-- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnphost.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnphost.dll
-api_name:
-- IUPnPRemoteEndpointInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPRemoteEndpointInfo
+ - upnphost/IUPnPRemoteEndpointInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnphost.dll
+api_name:
+ - IUPnPRemoteEndpointInfo
 ---
 
 # IUPnPRemoteEndpointInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IUPnPRemoteEndpointInfo</b> interface allows a hosted device to obtain information about a requester (that is,  a control point) and the request.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Gets a string that provides information about either a request or requester.
 
 </td>
 </tr>
-</table> 
+</table>
 

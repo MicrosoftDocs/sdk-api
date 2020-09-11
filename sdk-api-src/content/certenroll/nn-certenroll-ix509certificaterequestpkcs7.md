@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ae869557-6523-4387-835e-c9631898d864
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7, IX509CertificateRequestPkcs7 interface [Security], IX509CertificateRequestPkcs7 interface [Security],described, certenroll/IX509CertificateRequestPkcs7, security.ix509certificaterequestpkcs7
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs7
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs7
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs7
+ - certenroll/IX509CertificateRequestPkcs7
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs7
 ---
 
 # IX509CertificateRequestPkcs7 interface
 
 
 ## -description
-
 
 The <b>IX509CertificateRequestPkcs7</b> interface represents a  PKCS #7 certificate message syntax (CMS) object. PKCS #7 defines the format of messages sent to a certification or registration authority to request a public-key certificate.  The <b>IX509CertificateRequestPkcs7</b> interface can be confusing because its implementation does not perfectly mirror the way most security professionals think about the PKCS #7 standard. To avoid this confusion, keep the following points in mind:
 
@@ -182,20 +182,13 @@ Specifies or retrieves a  certificate used to sign the certificate request.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
- 
-
- 
 

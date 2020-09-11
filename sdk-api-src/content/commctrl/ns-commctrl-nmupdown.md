@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\nmupdown.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMUPDOWN, LPNMUPDOWN, LPNMUPDOWN structure pointer [Windows Controls], NMUPDOWN, NMUPDOWN structure [Windows Controls], _win32_NMUPDOWN, _win32_NMUPDOWN_cpp, commctrl/LPNMUPDOWN, commctrl/NMUPDOWN, controls.NMUPDOWN, controls._win32_NMUPDOWN'
-f1_keywords:
-- commctrl/NMUPDOWN
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMUPDOWN
 targetos: Windows
 req.typenames: NMUPDOWN, *LPNMUPDOWN
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NM_UPDOWN
+ - commctrl/_NM_UPDOWN
+ - LPNMUPDOWN
+ - commctrl/LPNMUPDOWN
+ - NMUPDOWN
+ - commctrl/NMUPDOWN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMUPDOWN
 ---
 
 # NMUPDOWN structure
@@ -49,42 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information specific to up-down control notification messages. It is identical to and replaces the 
-			<b>NM_UPDOWN</b> structure. 
-
+			<b>NM_UPDOWN</b> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field iPos
 
 Type: <b>int</b>
 
-Signed integer value that represents the up-down control's current position. 
-
+Signed integer value that represents the up-down control's current position.
 
 ### -field iDelta
 
 Type: <b>int</b>
 
-Signed integer value that represents the proposed change in the up-down control's position. 
-
+Signed integer value that represents the proposed change in the up-down control's position.
 
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -95,7 +89,4 @@ Signed integer value that represents the proposed change in the up-down control'
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
- 
-
- 
 

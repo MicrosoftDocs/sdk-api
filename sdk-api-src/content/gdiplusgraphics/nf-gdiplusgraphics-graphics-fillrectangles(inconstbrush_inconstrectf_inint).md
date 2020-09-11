@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::FillRectangles"]
 ms.assetid: 6624bdf9-20c4-42f3-a52e-62455ee1e573
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillRectangles
-f1_keywords:
-- gdiplusgraphics/Graphics::FillRectangles
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::FillRectangles
+ - gdiplusgraphics/Graphics::FillRectangles
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::FillRectangles
+ - Graphics::FillRectangles
 ---
 
 # FillRectangles(Brush*,RectF*,INT)
+
 
 ## -description
 
@@ -101,3 +103,4 @@ VOID Example_FillRectangles2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

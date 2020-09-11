@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: aa5e5d33-0fc8-46bc-b1e8-c2bd341f0b4f
 ms.date: 12/05/2018
 ms.keywords: GetMatchingVolume, GetMatchingVolume method [Enhanced Storage], GetMatchingVolume method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetMatchingVolume method, IEnhancedStorageACT.GetMatchingVolume, IEnhancedStorageACT::GetMatchingVolume, ehstorapi/IEnhancedStorageACT::GetMatchingVolume, enstor.ienhancedstorageact_getmatchingvolume
-f1_keywords:
-- ehstorapi/IEnhancedStorageACT.GetMatchingVolume
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageACT.GetMatchingVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageACT::GetMatchingVolume
+ - ehstorapi/IEnhancedStorageACT::GetMatchingVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageACT.GetMatchingVolume
 ---
 
 # IEnhancedStorageACT::GetMatchingVolume
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the volume associated with the Addressable Command Target (ACT).
-
 
 ## -parameters
 
-
-
-
 ### -param ppwszVolume [out]
 
-Pointer to a string that represents the volume associated with the ACT. 
-
+Pointer to a string that represents the volume associated with the ACT.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -86,18 +79,8 @@ The associated volume was successfully returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
- 
-
- 
 

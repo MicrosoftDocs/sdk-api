@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: eaa2da41-1ddf-42d3-b721-6649ad49acf1
 ms.date: 12/05/2018
 ms.keywords: '*PDSBROWSEINFOA, DSBI_CHECKBOXES, DSBI_DONTSIGNSEAL, DSBI_ENTIREDIRECTORY, DSBI_EXPANDONOPEN, DSBI_HASCREDENTIALS, DSBI_IGNORETREATASLEAF, DSBI_INCLUDEHIDDEN, DSBI_NOBUTTONS, DSBI_NOLINES, DSBI_NOLINESATROOT, DSBI_NOROOT, DSBI_RETURNOBJECTCLASS, DSBI_RETURN_FORMAT, DSBI_SIMPLEAUTHENTICATE, DSBROWSEINFO, DSBROWSEINFO structure [Active Directory], DSBROWSEINFOA, DSBROWSEINFOW, DSBROWSEINFOW structure [Active Directory], PDSBROWSEINFOW, PDSBROWSEINFOW structure pointer [Active Directory], _glines_dsbrowseinfo, ad.dsbrowseinfo, dsclient/DSBROWSEINFO, dsclient/DSBROWSEINFOA, dsclient/DSBROWSEINFOW, dsclient/PDSBROWSEINFOW'
-f1_keywords:
-- dsclient/DSBROWSEINFOW
-dev_langs:
-- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dsclient.h
-api_name:
-- DSBROWSEINFOW
-- DSBROWSEINFOA
-- DSBROWSEINFOW
 targetos: Windows
 req.typenames: DSBROWSEINFOA, *PDSBROWSEINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDSBROWSEINFOA
+ - dsclient/PDSBROWSEINFOA
+ - DSBROWSEINFOA
+ - dsclient/DSBROWSEINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dsclient.h
+api_name:
+ - DSBROWSEINFOW
+ - DSBROWSEINFOA
+ - DSBROWSEINFOW
 ---
 
 # DSBROWSEINFOA structure
@@ -51,50 +54,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DSBROWSEINFO</b> structure is used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function to supply and return data about the Active Directory container browser dialog box.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Contains the size, in bytes, of the <b>DSBROWSEINFO</b> structure. This is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function for versioning purposes.
 
-
 ### -field hwndOwner
 
 Handle of the window used as the parent of the container browser dialog box.
-
 
 ### -field pszCaption
 
 Pointer to a null-terminated string that contains the caption of the dialog box. If this member is <b>NULL</b>, a default caption is used.
 
-
 ### -field pszTitle
 
 Pointer to a null-terminated string that contains additional text to be displayed in the dialog box above the tree control. If this member is <b>NULL</b>, no additional text is displayed.
-
 
 ### -field pszRoot
 
 Pointer to a null-terminated Unicode string that contains the ADsPath of the container placed at the root of the dialog box. The user cannot navigate above this level using the dialog box.
 
-
 ### -field pszPath
 
 Pointer to a null-terminated Unicode string that receives the ADsPath of the container selected in the dialog. This string will always be null-terminated even if <b>cchPath</b> is not large enough to hold the entire path. If <b>dwFlags</b> contains the <b>DSBI_EXPANDONOPEN</b> flag, this member contains the ADsPath of the container that should be initially selected in the dialog box.
 
-
 ### -field cchPath
 
 Contains the size, in <b>WCHAR</b> characters, of the <b>pszPath</b> buffer.
-
 
 ### -field dwFlags
 
@@ -184,46 +175,35 @@ Indicates that the <b>pszObjectClass</b> and <b>cchObjectClass</b> are valid and
 
 Indicates that signing and sealing will not be used when communicating with the directory service.
 
-
 ### -field pfnCallback
 
 Pointer to an application-defined  <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback">BFFCallBack</a> callback function that receives notifications from the container browser dialog box. Set this member to <b>NULL</b> if it is not used.
-
 
 ### -field lParam
 
 Contains an application-defined 32-bit value passed as the <i>lpData</i> parameter in all calls to <b>pfnCallback</b>. This member is ignored if <b>pfnCallback</b> is <b>NULL</b>.
 
-
 ### -field dwReturnFormat
 
 Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> values that specifies the format that the ADSI path returned in <b>pszPath</b> will accept.
-
 
 ### -field pUserName
 
 Pointer to a Unicode string that contains the user name used for the credentials. This member is ignored if <b>dwFlags</b> does not have the <b>DSBI_HASCREDENTIALS</b> flag set. If this member is <b>NULL</b>, the currently logged on  user name is used.
 
-
 ### -field pPassword
 
 Pointer to a Unicode string that contains the password used for the credentials. This member is ignored if <b>dwFlags</b> does not have the <b>DSBI_HASCREDENTIALS</b> flag set. If this member is <b>NULL</b>, the password of the currently logged on user is used.
-
 
 ### -field pszObjectClass
 
 Pointer to a Unicode string buffer that receives the class string of the selected. This member is ignored if <b>dwFlags</b> does not have the <b>DSBI_RETURNOBJECTCLASS</b> flag set.
 
-
 ### -field cchObjectClass
 
 Contains the size, in <b>WCHAR</b> characters, of the <b>pszObjectClass</b> buffer.
 
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
@@ -238,9 +218,6 @@ Contains the size, in <b>WCHAR</b> characters, of the <b>pszObjectClass</b> buff
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a>
- 
-
- 
 
 ## -remarks
 

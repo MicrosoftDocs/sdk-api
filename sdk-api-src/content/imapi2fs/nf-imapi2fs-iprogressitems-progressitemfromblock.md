@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 2b37cf63-24be-42ff-a439-157703db9604
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromBlock method, IProgressItems.ProgressItemFromBlock, IProgressItems::ProgressItemFromBlock, ProgressItemFromBlock, ProgressItemFromBlock method [IMAPI], ProgressItemFromBlock method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromblock, imapi2fs/IProgressItems::ProgressItemFromBlock
-f1_keywords:
-- imapi2fs/IProgressItems.ProgressItemFromBlock
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IProgressItems.ProgressItemFromBlock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressItems::ProgressItemFromBlock
+ - imapi2fs/IProgressItems::ProgressItemFromBlock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IProgressItems.ProgressItemFromBlock
 ---
 
 # IProgressItems::ProgressItemFromBlock
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a progress item based on the specified block number.
 
-
 ## -parameters
-
-
-
 
 ### -param block [in]
 
 Block number of the progress item to retrieve. The method returns the progress item if the block number is in the first and last block range of the item.
 
-
 ### -param item [out]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interface associated with the specified block number.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -119,15 +111,8 @@ Value: 0x80070057
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
 
@@ -142,7 +127,4 @@ Value: 0x80070057
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_item">IProgressItems::get_Item</a>
- 
-
- 
 

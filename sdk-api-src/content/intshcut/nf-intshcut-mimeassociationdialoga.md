@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0f8ee95a-3f95-47ee-822b-740ba134cd3c
 ms.date: 12/05/2018
 ms.keywords: MIMEAssociationDialog, MIMEAssociationDialog function [Windows Shell], MIMEAssociationDialogA, MIMEAssociationDialogW, _win32_MIMEAssociationDialog, intshcut/MIMEAssociationDialog, intshcut/MIMEAssociationDialogA, intshcut/MIMEAssociationDialogW, shell.MIMEAssociationDialog
-f1_keywords:
-- intshcut/MIMEAssociationDialog
-dev_langs:
-- c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Url.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Url.dll
-api_name:
-- MIMEAssociationDialog
-- MIMEAssociationDialogA
-- MIMEAssociationDialogW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MIMEAssociationDialogA
+ - intshcut/MIMEAssociationDialogA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Url.dll
+api_name:
+ - MIMEAssociationDialog
+ - MIMEAssociationDialogA
+ - MIMEAssociationDialogW
 ---
 
 # MIMEAssociationDialogA function
@@ -51,21 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Runs the unregistered MIME content type dialog box.
 <div class="alert"><b>Note</b>  Windows XP Service Pack 2 (SP2) or later: This function is no longer supported.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hwndParent
 
 Type: <b>HWND</b>
 
 A handle to the parent window of any posted child windows.
-
 
 ### -param dwInFlags
 
@@ -77,13 +73,11 @@ An application is registered only if this flag is set and the user indicates tha
 
 Registration is impossible if the string at <i>pcszFile</i> does not contain an extension.
 
-
 ### -param pcszFile
 
 Type: <b>PCTSTR</b>
 
 The address of a null-terminated string that contains the name of the target file. This file must conform to the content type described by the <i>pcszMIMEContentType</i> parameter.
-
 
 ### -param pcszMIMEContentType
 
@@ -91,13 +85,11 @@ Type: <b>PCTSTR</b>
 
 The address of a null-terminated string that contains the unregistered content type.
 
-
 ### -param pszAppBuf [out]
 
 Type: <b>PTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the path of the application specified by the user.
-
 
 ### -param ucAppBufLen
 
@@ -105,10 +97,7 @@ Type: <b>UINT</b>
 
 Size of <i>pszAppBuf</i>, in characters.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -166,14 +155,8 @@ One of the input pointers is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function does not validate the syntax of the input content type string at <i>pcszMIMEContentType</i>. A successful return value does not indicate that the specified MIME content type is valid.
 

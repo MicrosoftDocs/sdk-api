@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a9bdaf16-1a6f-4a84-ab29-3d6df9003ff9
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardRemoveReaderFromGroup, SCardRemoveReaderFromGroup function [Security], SCardRemoveReaderFromGroupA, SCardRemoveReaderFromGroupW, _smart_scardremovereaderfromgroup, security.scardremovereaderfromgroup, winscard/SCardRemoveReaderFromGroup, winscard/SCardRemoveReaderFromGroupA, winscard/SCardRemoveReaderFromGroupW
-f1_keywords:
-- winscard/SCardRemoveReaderFromGroup
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardRemoveReaderFromGroup
-- SCardRemoveReaderFromGroupA
-- SCardRemoveReaderFromGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardRemoveReaderFromGroupA
+ - winscard/SCardRemoveReaderFromGroupA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardRemoveReaderFromGroup
+ - SCardRemoveReaderFromGroupA
+ - SCardRemoveReaderFromGroupW
 ---
 
 # SCardRemoveReaderFromGroupA function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardRemoveReaderFromGroup</b> function removes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> from an existing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader group</a>. This function has no effect on the reader.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
 
-
 ### -param szReaderName [in]
 
 Display name of the reader to be removed.
-
 
 ### -param szGroupName [in]
 
@@ -125,12 +119,8 @@ Unused legacy value. This is an internally managed group that cannot be modified
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -163,14 +153,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the last reader is removed from a group, the group is automatically forgotten.
 
@@ -209,9 +193,6 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardaddreadertogroupa">SCardAddReaderToGroup</a>
 
 
@@ -229,7 +210,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardforgetreadergroupa">SCardForgetReaderGroup</a>
- 
-
- 
 

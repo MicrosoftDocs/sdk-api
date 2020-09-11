@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4c331239-4222-4650-a0ed-6d605bf376cd
 ms.date: 12/05/2018
 ms.keywords: '*LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS structure pointer, SYSTEM_POWER_STATUS, SYSTEM_POWER_STATUS structure, _SYSTEM_POWER_STATUS, _win32_system_power_status_str, base.system_power_status_str, winbase/LPSYSTEM_POWER_STATUS, winbase/SYSTEM_POWER_STATUS'
-f1_keywords:
-- winbase/SYSTEM_POWER_STATUS
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbase.h
-api_name:
-- SYSTEM_POWER_STATUS
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATUS, *LPSYSTEM_POWER_STATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SYSTEM_POWER_STATUS
+ - winbase/_SYSTEM_POWER_STATUS
+ - LPSYSTEM_POWER_STATUS
+ - winbase/LPSYSTEM_POWER_STATUS
+ - SYSTEM_POWER_STATUS
+ - winbase/SYSTEM_POWER_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbase.h
+api_name:
+ - SYSTEM_POWER_STATUS
 ---
 
 # SYSTEM_POWER_STATUS structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the power status of the system.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ACLineStatus
 
@@ -103,8 +103,6 @@ Unknown status
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BatteryFlag
 
@@ -188,11 +186,9 @@ Unknown status—unable to read the battery flag information
 
 The value is zero if the battery is not being charged and the battery capacity is between low and high.
 
-
 ### -field BatteryLifePercent
 
 The percentage of full battery charge remaining. This member can be a value in the range 0 to 100, or 255 if status is unknown.
-
 
 ### -field SystemStatusFlag
 
@@ -232,30 +228,19 @@ Battery saver on. Save energy where  possible.
 <div> </div>
 For general information about battery saver, see <a href="https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver">battery saver (in the hardware component guidelines)</a>.
 
-
 ### -field BatteryLifeTime
 
 The number of seconds of battery life remaining, or –1 if remaining seconds are unknown or if the device is connected to AC power.
-
 
 ### -field BatteryFullLifeTime
 
 The number of seconds of battery life when at full charge, or –1 if full battery lifetime is unknown or if the device is connected to AC power.
 
-
 ## -remarks
-
-
 
 The system is only capable of estimating <b>BatteryFullLifeTime</b> based on calculations on <b>BatteryLifeTime</b> and <b>BatteryLifePercent</b>. Without smart battery subsystems, this value may not be accurate enough to be useful.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a>
 
@@ -266,7 +251,4 @@ The system is only capable of estimating <b>BatteryFullLifeTime</b> based on cal
 
 
 <a href="https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver">battery saver (in the hardware component guidelines)</a>
- 
-
- 
 

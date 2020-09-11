@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: d3bc558c-7327-400e-a436-35adae8fc302
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_escape_filter_element, ldap.ldap__escape__filter__element, ldap.ldap_escape_filter_element, ldap_escape_filter_element, ldap_escape_filter_element function [LDAP], ldap_escape_filter_elementA, ldap_escape_filter_elementW, winldap/ldap_escape_filter_element, winldap/ldap_escape_filter_elementA, winldap/ldap_escape_filter_elementW
-f1_keywords:
-- winldap/ldap_escape_filter_element
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_escape_filter_element
-- ldap_escape_filter_elementA
-- ldap_escape_filter_elementW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_escape_filter_elementW
+ - winldap/ldap_escape_filter_elementW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_escape_filter_element
+ - ldap_escape_filter_elementA
+ - ldap_escape_filter_elementW
 ---
 
 # ldap_escape_filter_elementW function
@@ -51,50 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_escape_filter_element</b> function converts a filter element to a null-terminated character  string that can be passed safely in a search filter.
 
-
 ## -parameters
-
-
-
 
 ### -param sourceFilterElement [in]
 
 A pointer to a null-terminated string that contains the filter element to convert.
 
-
 ### -param sourceLength [in]
 
 The length, in bytes, of the source filter element.
-
 
 ### -param destFilterElement [out]
 
 A pointer to a null-terminated character string.
 
-
 ### -param destLength [in]
 
 The length, in bytes, of the <i>destFilterElement</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. See 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ldap_escape_filter_element</b> function allows you to use raw binary data in search filters. For example, you can use this function to specify a certificate or a JPEG image as the attribute to match.
 
@@ -111,15 +96,9 @@ Call <b>ldap_escape_filter_element</b> with the <i>sourceFilterElement</i> param
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
- 
-
- 
 

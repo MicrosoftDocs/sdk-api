@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5003f0c4-41e9-4a14-b6a9-4f259c4af08b
 ms.date: 12/05/2018
 ms.keywords: OpenThreadToken, OpenThreadToken function [Security], _win32_openthreadtoken, processthreadsapi/OpenThreadToken, security.openthreadtoken
-f1_keywords:
-- processthreadsapi/OpenThreadToken
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Processsecurity-l1-1-0.dll
-- Kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-Processthreads-l1-1-0.dll
-- API-MS-Win-Core-Processthreads-l1-1-1.dll
-- API-MS-Win-Core-Processthreads-l1-1-2.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- OpenThreadToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenThreadToken
+ - processthreadsapi/OpenThreadToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Processsecurity-l1-1-0.dll
+ - Kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Processthreads-l1-1-0.dll
+ - API-MS-Win-Core-Processthreads-l1-1-1.dll
+ - API-MS-Win-Core-Processthreads-l1-1-2.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - OpenThreadToken
 ---
 
 # OpenThreadToken function
@@ -59,19 +60,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OpenThreadToken</b> function opens the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> associated with a thread.
 
-
 ## -parameters
-
-
-
 
 ### -param ThreadHandle [in]
 
 A handle to the thread whose access token is opened.
-
 
 ### -param DesiredAccess [in]
 
@@ -83,7 +78,6 @@ Specifies an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly"
 For a list of access rights for access tokens, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>.
 
-
 ### -param OpenAsSelf [in]
 
 TRUE if the access check is to be made against the  process-level <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
@@ -92,40 +86,25 @@ TRUE if the access check is to be made against the  process-level <a href="https
 
 The <i>OpenAsSelf</i> parameter allows the caller of this function to open the access token of a specified thread when the caller is impersonating a token at <b>SecurityIdentification</b> level. Without this parameter, the calling thread cannot open the access token on the specified thread because it is impossible to open executive-level objects by using the <b>SecurityIdentification</b> impersonation level.
 
-
 ### -param TokenHandle [out]
 
 A pointer to a variable that receives the handle to the newly opened access token.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the token has the anonymous impersonation level, the token will not be opened and <b>OpenThreadToken</b> sets  ERROR_CANT_OPEN_ANONYMOUS as the error.
 
-
-
-
 ## -remarks
-
-
 
 Tokens with the anonymous impersonation level cannot be opened.
 
 Close the access token handle returned through the <i>TokenHandle</i> parameter by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
@@ -172,7 +151,4 @@ Close the access token handle returned through the <i>TokenHandle</i> parameter 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a>
- 
-
- 
 

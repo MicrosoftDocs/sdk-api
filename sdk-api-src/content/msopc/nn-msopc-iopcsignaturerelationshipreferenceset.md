@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 89ea7243-54ee-487b-a58a-0721af9db8c3
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceSet, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceSet, opc.iopcsignaturerelationshipreferenceset
-f1_keywords:
-- msopc/IOpcSignatureRelationshipReferenceSet
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureRelationshipReferenceSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureRelationshipReferenceSet
+ - msopc/IOpcSignatureRelationshipReferenceSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureRelationshipReferenceSet
 ---
 
 # IOpcSignatureRelationshipReferenceSet interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An unordered set of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturerelationshipreference">IOpcSignatureRelationshipReference</a> interface pointers that represent references to Relationships parts that contain relationships to be signed.
-
 
 ## -inheritance
 
@@ -108,12 +107,9 @@ Gets an enumerator of <a href="https://docs.microsoft.com/previous-versions/wind
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
  To create an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturerelationshipreference">IOpcSignatureRelationshipReference</a> interface pointer that represents a reference to a Relationships part, call the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturerelationshipreferenceset-create">Create</a> method. This reference will indicate whether  all or a subset of the  relationships in the Relationships part will be signed when the signature is generated.
 
@@ -130,13 +126,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -187,7 +177,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

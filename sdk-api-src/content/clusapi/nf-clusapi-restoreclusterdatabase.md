@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
 ms.date: 12/05/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
-f1_keywords:
-- clusapi/RestoreClusterDatabase
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- RestoreClusterDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RestoreClusterDatabase
+ - clusapi/RestoreClusterDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - RestoreClusterDatabase
 ---
 
 # RestoreClusterDatabase function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems specified in the Requirements 
     section. Support for this function was removed in Windows Server 2008 and this function does nothing and returns 
@@ -60,18 +60,13 @@ Restores
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> from which the function is called. This node is called the 
     restoring node.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszPathName [in]
 
 Null-terminated Unicode string specifying the path to the backup file. Cluster configuration information is 
        contained in this location; this is sensitive data that should be protected. For example, this data can be 
        protected by using an access control list to restrict access to the location where the data is stored.
-
 
 ### -param bForce [in]
 
@@ -88,7 +83,6 @@ If <b>FALSE</b>, the restore operation will not be completed if either of the fo
 Setting <i>bForce</i> to <b>TRUE</b> causes the operation to proceed 
        regardless of these preceding circumstances; however, the operation may still fail for other reasons.
 
-
 ### -param lpszQuorumDriveLetter [in, optional]
 
 Optional. Identifies the drive letter of the quorum resource on which the 
@@ -103,8 +97,6 @@ Optional. Identifies the drive letter of the quorum resource on which the
 </ul>
 
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -146,14 +138,8 @@ The operation failed because the quorum disk described in the backup does not ma
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the restore operation is successful, the restoring node forms a 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> according to the configuration data in the 
@@ -291,17 +277,7 @@ int main( void )
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-backupclusterdatabase">BackupClusterDatabase</a>
- 
-
- 
 

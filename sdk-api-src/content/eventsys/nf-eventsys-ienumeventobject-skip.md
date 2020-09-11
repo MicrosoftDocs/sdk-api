@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7c830d29-8e66-4139-9445-d83dc7f7004f
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject interface [COM+],Skip method, IEnumEventObject.Skip, IEnumEventObject::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumEventObject interface, _cos_ienumeventobject_skip, cos.ienumeventobject_skip, eventsys/IEnumEventObject::Skip
-f1_keywords:
-- eventsys/IEnumEventObject.Skip
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- eventsys.h
-api_name:
-- IEnumEventObject.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumEventObject::Skip
+ - eventsys/IEnumEventObject::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - eventsys.h
+api_name:
+ - IEnumEventObject.Skip
 ---
 
 # IEnumEventObject::Skip
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Skips over the specified number of items in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param cSkipElem [in]
 
 The number of elements to be skipped.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -97,27 +90,12 @@ The number of elements skipped was not the same as the number requested.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Skip</b> may return S_FALSE if <i>cSkipElem</i> is greater than the remaining number of elements. In this case, <b>Skip</b> moves to the last element in the enumeration sequence.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
- 
-
- 
 

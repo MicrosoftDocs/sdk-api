@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 51c54f70-9067-4523-9108-89af731b9d55
 ms.date: 12/05/2018
 ms.keywords: WbemFlagEnum, WbemFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemflagenum, wbemFlagBidirectional, wbemFlagDontSendStatus, wbemFlagForwardOnly, wbemFlagNoErrorObject, wbemFlagReturnErrorObject, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wbemdisp/WbemFlagEnum, wbemdisp/wbemFlagBidirectional, wbemdisp/wbemFlagDontSendStatus, wbemdisp/wbemFlagForwardOnly, wbemdisp/wbemFlagNoErrorObject, wbemdisp/wbemFlagReturnErrorObject, wbemdisp/wbemFlagReturnImmediately, wbemdisp/wbemFlagReturnWhenComplete, wbemdisp/wbemFlagSendStatus, wbemdisp/wbemFlagUseAmendedQualifiers, wmi.wbemflagenum
-f1_keywords:
-- wbemdisp/WbemFlagEnum
-dev_langs:
-- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wbemdisp.h
-api_name:
-- WbemFlagEnum
 targetos: Windows
 req.typenames: WbemFlagEnum
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WbemFlagEnum
+ - wbemdisp/WbemFlagEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wbemdisp.h
+api_name:
+ - WbemFlagEnum
 ---
 
 # WbemFlagEnum enumeration
 
 
 ## -description
-
 
 The <b>WbemFlagEnum</b> enumeration defines constants 
     that are used by <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execquery">SWbemServices.ExecQuery</a>, 
@@ -61,26 +61,19 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
     (WSH) XML file format. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field wbemFlagReturnImmediately
 
 Causes the call to return immediately.
 
-
 ### -field wbemFlagReturnWhenComplete
 
 Causes this call to block until the call has completed.
 
-
 ### -field wbemFlagBidirectional
 
 Causes WMI to retain pointers to objects of the enumeration until the client releases the enumerator.
-
 
 ### -field wbemFlagForwardOnly
 
@@ -97,16 +90,13 @@ Forward-only enumerators are generally much faster and use less
       memory than conventional enumerators, but they do not allow calls to 
       <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-clone-">SWbemObject.Clone</a>.
 
-
 ### -field wbemFlagNoErrorObject
 
 This flag must not be set, and must be ignored on receipt.
 
-
 ### -field wbemFlagReturnErrorObject
 
 Causes asynchronous calls to return an error object in the event of an error.
-
 
 ### -field wbemFlagSendStatus
 
@@ -114,22 +104,17 @@ Causes asynchronous calls to send status updates to the
      <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsink-onprogress">SWbemSink.OnProgress</a> event handler for your object 
      sink.
 
-
 ### -field wbemFlagDontSendStatus
 
 Prevents asynchronous calls from sending status updates to the 
      <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsink-onprogress">SWbemSink.OnProgress</a> event handler for your object 
      sink.
 
-
 ### -field wbemFlagEnsureLocatable
-
 
 ### -field wbemFlagDirectRead
 
-
 ### -field wbemFlagSendOnlySelected
-
 
 ### -field wbemFlagUseAmendedQualifiers
 
@@ -137,22 +122,13 @@ Causes WMI to return class amendment data along with the base class definition. 
      amended qualifiers, see 
      <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/localizing-wmi-class-information">Localizing WMI Class Information</a>.
 
-
 ### -field wbemFlagGetDefault
-
 
 ### -field wbemFlagSpawnInstance
 
-
 ### -field wbemFlagUseCurrentTime
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
@@ -163,7 +139,4 @@ Causes WMI to return class amendment data along with the base class definition. 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10geometryshader.htm
 ms.date: 12/05/2018
 ms.keywords: 0dcf2957-f913-22f8-e1fe-0085a1e9dce8, ID3D10GeometryShader, ID3D10GeometryShader interface [Direct3D 10], ID3D10GeometryShader interface [Direct3D 10],described, d3d10/ID3D10GeometryShader, direct3d10.id3d10geometryshader
-f1_keywords:
-- d3d10/ID3D10GeometryShader
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10GeometryShader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10GeometryShader
+ - d3d10/ID3D10GeometryShader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10GeometryShader
 ---
 
 # ID3D10GeometryShader interface
@@ -50,13 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A geometry-shader interface manages an executable program (a geometry shader) that controls the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">geometry-shader stage</a>.
 
-
 ## -remarks
-
-
 
 The geometry-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in Direct3D 10 are implemented from a common set of features referred to as the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-common-core">common shader core</a>.
 
@@ -64,20 +61,11 @@ To create a geometry shader interface, call either <a href="https://docs.microso
 
 This interface is defined in D3D10.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>
- 
-
- 
 

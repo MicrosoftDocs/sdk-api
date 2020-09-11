@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6CCCD5CA-FF29-41D4-B687-E403CADABF84
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CSV_CONTROL, FSCTL_CSV_CONTROL control, FSCTL_CSV_CONTROL control code [Files], fs.fsctl_csv_control, winioctl/FSCTL_CSV_CONTROL
-f1_keywords:
-- winioctl/FSCTL_CSV_CONTROL
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_CSV_CONTROL
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_CSV_CONTROL
+ - winioctl/FSCTL_CSV_CONTROL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_CSV_CONTROL
 ---
 
 # FSCTL_CSV_CONTROL IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -see-also
 
@@ -102,3 +97,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 * [CSV_QUERY_REDIRECT_STATE](ns-winioctl-csv_query_redirect_state.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 ms.date: 12/05/2018
 ms.keywords: AcquireCredentialsHandle, AcquireCredentialsHandle (CredSSP), AcquireCredentialsHandle function [Security], AcquireCredentialsHandleA, AcquireCredentialsHandleW, SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, security.acquirecredentialshandle__credssp_, sspi/AcquireCredentialsHandle, sspi/AcquireCredentialsHandleA, sspi/AcquireCredentialsHandleW
-f1_keywords:
-- sspi/AcquireCredentialsHandle
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- AcquireCredentialsHandle
-- AcquireCredentialsHandleA
-- AcquireCredentialsHandleW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AcquireCredentialsHandleA
+ - sspi/AcquireCredentialsHandleA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - AcquireCredentialsHandle
+ - AcquireCredentialsHandleA
+ - AcquireCredentialsHandleW
 ---
 
 # AcquireCredentialsHandleA function
 
 
 ## -description
-
 
 The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to preexisting <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a>. This handle is required by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> and 
@@ -59,9 +59,6 @@ The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to pree
 <div class="alert"><b>Note</b>  This is not a "log on to the network" and does not imply gathering of credentials.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param pszPrincipal [in, optional]
 
@@ -76,7 +73,6 @@ A pointer to a null-terminated string that specifies the name of the <a href="ht
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a> function. After a context is established, 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (CredSSP)</a> can be called with <i>ulAttribute</i> set to <b>SECPKG_ATTR_PACKAGE_INFO</b> to return information on the security package in use.
-
 
 ### -param fCredentialUse [in]
 
@@ -110,42 +106,32 @@ Allow a local client credential to prepare an outgoing token.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvLogonId [in, optional]
 
 A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be <b>NULL</b>.
 
-
 ### -param pAuthData [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a> structure that specifies authentication data for both Schannel and Negotiate packages.
-
 
 ### -param pGetKeyFn [in, optional]
 
 Reserved. This parameter is not used and should be set to <b>NULL</b>.
 
-
 ### -param pvGetKeyArgument [in, optional]
 
 Reserved. This parameter must be set to <b>NULL</b>.
-
 
 ### -param phCredential [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CredHandle</a> structure that will receive the credential handle.
 
-
 ### -param ptsExpiry [out, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/timestamp">TimeStamp</a> structure that receives the time at which the returned credentials expire. The structure value received depends on the security package, which must specify the value in local time.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
@@ -223,14 +209,8 @@ The credentials supplied to the package were not recognized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>AcquireCredentialsHandle (CredSSP)</b> function returns a handle to the credentials of a principal, such as a user or client, as used by a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. The function can return the handle to either preexisting credentials or  newly created credentials and return it. This handle can be used in subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a> and 
@@ -258,9 +238,6 @@ When you have finished using the returned credentials, free the memory used by t
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a>
 
 
@@ -274,3 +251,4 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+

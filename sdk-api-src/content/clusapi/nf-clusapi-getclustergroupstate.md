@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17
 ms.date: 12/05/2018
 ms.keywords: GetClusterGroupState, GetClusterGroupState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_GROUP_STATE, PCLUSAPI_GET_CLUSTER_GROUP_STATE function [Failover Cluster], _wolf_getclustergroupstate, clusapi/GetClusterGroupState, clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE, mscs.getclustergroupstate
-f1_keywords:
-- clusapi/GetClusterGroupState
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- GetClusterGroupState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClusterGroupState
+ - clusapi/GetClusterGroupState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - GetClusterGroupState
 ---
 
 # GetClusterGroupState function
@@ -53,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the 
     current state of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>. The <b>PCLUSAPI_GET_CLUSTER_GROUP_STATE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 Handle to the group for which state information should be returned.
 
-
 ### -param lpszNodeName [out, optional]
 
 Pointer to a null-terminated Unicode string containing the name of the node that currently owns the group.
-
 
 ### -param lpcchNodeName [in, out, optional]
 
@@ -80,10 +74,7 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>GetClusterGroupState</b> returns the current 
        state of the group, which is represented by one of the following values.
@@ -171,14 +162,8 @@ At least one resource in the group is in a pending state. There are no failed re
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
@@ -191,13 +176,7 @@ Do not call <b>GetClusterGroupState</b> from any
      worker thread. For more information, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_group_state">CLUSTER_GROUP_STATE</a>
 
@@ -212,7 +191,4 @@ Do not call <b>GetClusterGroupState</b> from any
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
- 
-
- 
 

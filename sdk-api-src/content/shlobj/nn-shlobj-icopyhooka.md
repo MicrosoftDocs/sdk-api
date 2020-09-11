@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c3ffa682-250f-458b-8ad5-b25871b3901b
 ms.date: 01/30/19
 ms.keywords: ICopyHookA
-f1_keywords:
-- shlobj/ICopyHookA
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -26,21 +22,26 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.unicode-ansi: 
+f1_keywords:
+ - ICopyHookA
+ - shlobj/ICopyHookA
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- shlobj.h
+ - shlobj.h
 api_name:
-- ICopyHookA
+ - ICopyHookA
 ---
-
-## -inheritance
 
 ## -description
 
 Exposes a method that creates a *copy hook handler*. A copy hook handler is a Shell extension that determines if a Shell folder or printer object can be moved, copied, renamed, or deleted. The Shell calls the [ICopyHookA::CopyCallback](nf-shlobj-icopyhooka-copycallback.md) method prior to performing one of these operations.
+
+## -inheritance
 
 ## -remarks
 

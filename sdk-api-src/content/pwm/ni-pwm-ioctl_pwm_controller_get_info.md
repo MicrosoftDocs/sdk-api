@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: C198FCCA-E1C5-4B03-8F42-7EE1952DC055
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_INFO, IOCTL_PWM_CONTROLLER_GET_INFO control, IOCTL_PWM_CONTROLLER_GET_INFO control code, base.ioctl_pwm_controller_get_info, pwm/IOCTL_PWM_CONTROLLER_GET_INFO
-f1_keywords:
-- pwm/IOCTL_PWM_CONTROLLER_GET_INFO
-dev_langs:
-- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pwm.h
-api_name:
-- IOCTL_PWM_CONTROLLER_GET_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_PWM_CONTROLLER_GET_INFO
+ - pwm/IOCTL_PWM_CONTROLLER_GET_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pwm.h
+api_name:
+ - IOCTL_PWM_CONTROLLER_GET_INFO
 ---
 
 # IOCTL_PWM_CONTROLLER_GET_INFO IOCTL
@@ -49,55 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves information about a Pulse Width Modulation (PWM) controller. This information does not change after the controller is initialized. 
-
-
-
+Retrieves information about a Pulse Width Modulation (PWM) controller. This information does not change after the controller is initialized.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Not used with this operation; set to NULL.
 
-
 ### -input-buffer-length
 
 Not used with this operation; set to zero.
 
-
 ### -output-buffer
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. This represents the static information that characterizes a Pulse Width Modulation (PWM) controller.  
-
+A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. This represents the static information that characterizes a Pulse Width Modulation (PWM) controller.
 
 ### -output-buffer-length
 
 The size of the output buffer must be exactly equal to the size of the requested <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. Every newer PWM_CONTROLLER_INFO version has a byte size that is greater than that of the previous version.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
@@ -109,10 +88,7 @@ If the operation fails or is pending,
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -257,16 +233,7 @@ For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/a
 
 If the buffer size is less than the size of the lowest structure version, the request is completed by using a IOCTL completion status of STATUS_BUFFER_TOO_SMALL. Otherwise, the driver assumes the highest structure version that can fit into the supplied output buffer and completes the request successfully.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: b46139db-0473-4cd3-8f1b-d303f3430470
 ms.date: 12/05/2018
 ms.keywords: IInkCollector interface [Tablet PC],SetWindowInputRectangle method, IInkCollector.SetWindowInputRectangle, IInkCollector::SetWindowInputRectangle, SetWindowInputRectangle, SetWindowInputRectangle method [Tablet PC], SetWindowInputRectangle method [Tablet PC],IInkCollector interface, b46139db-0473-4cd3-8f1b-d303f3430470, msinkaut/IInkCollector::SetWindowInputRectangle, tablet.inkcollector_setwindowinputrectangle
-f1_keywords:
-- msinkaut/IInkCollector.SetWindowInputRectangle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCollector.SetWindowInputRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCollector::SetWindowInputRectangle
+ - msinkaut/IInkCollector::SetWindowInputRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCollector.SetWindowInputRectangle
 ---
 
 # IInkCollector::SetWindowInputRectangle
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the window rectangle, in pixels, within which ink is drawn.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param WindowInputRectangle [in]
 
 The rectangle, in window coordinates, on which ink is drawn.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,14 +135,8 @@ The window input rectangle overlaps with the window input rectangle of an enable
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The E_INK_OVERLAPPING_INPUT_RECT error is returned if the window input rectangle of an enabled ink collector (set with the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> property) overlaps the window input rectangle of another enabled ink collector.
 
@@ -169,12 +153,7 @@ You cannot pass in a rectangle where the value of the <a href="https://docs.micr
 <div class="alert"><b>Note</b>  Calling this method within certain message handlers can result in the underlying function being re-entered, causing unexpected results. Take care to avoid a reentrant call when handling any of the following messages: <b>WM_ACTIVATE</b>, <b>WM_ACTIVATEAPP</b>, <b>WM_NCACTIVATE</b>, <b>WM_PAINT</b>; <b>WM_SYSCOMMAND</b> if <i>wParam</i> is set to SC_HOTKEY or SC_TASKLIST; and <b>WM_SYSKEYDOWN</b> (when processing Alt+TAB or Alt+ESC key combinations). This is an issue with single-threaded apartment model applications.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
 
@@ -189,7 +168,4 @@ You cannot pass in a rectangle where the value of the <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
- 
-
- 
 

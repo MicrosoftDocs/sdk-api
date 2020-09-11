@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_UNLOCK_VOLUME, FSCTL_UNLOCK_VOLUME control, FSCTL_UNLOCK_VOLUME control code [Files], _win32_fsctl_unlock_volume, base.fsctl_unlock_volume, fs.fsctl_unlock_volume, winioctl/FSCTL_UNLOCK_VOLUME
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_UNLOCK_VOLUME"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,13 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+f1_keywords:
+ - FSCTL_UNLOCK_VOLUME
+ - winioctl/FSCTL_UNLOCK_VOLUME
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,17 +43,12 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_UNLOCK_VOLUME
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 # FSCTL_UNLOCK_VOLUME IOCTL
 
 
 ## -description
-
 
 Unlocks a volume.
 
@@ -71,66 +71,31 @@ To perform this operation, call the
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -138,12 +103,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 To lock a volume, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a> control code.
@@ -210,13 +170,7 @@ PNP notification is issued only on the node where the FSCTL was issued.
 
 After acquiring a lock on a CSV volume, you must close the handle used to lock that volume before opening a handle to the volume. Unlocking the volume by using <b>FSCTL_UNLOCK_VOLUME</b> is not sufficient.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -231,7 +185,4 @@ After acquiring a lock on a CSV volume, you must close the handle used to lock t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
 

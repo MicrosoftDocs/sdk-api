@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17
 ms.date: 12/05/2018
 ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxstatefeaturesmask, winbase/GetXStateFeaturesMask
-f1_keywords:
-- winbase/GetXStateFeaturesMask
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Xstate-l2-1-0.dll
-- KernelBase.dll
-- api-ms-win-core-xstate-l2-1-1.dll
-api_name:
-- GetXStateFeaturesMask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetXStateFeaturesMask
+ - winbase/GetXStateFeaturesMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Xstate-l2-1-0.dll
+ - KernelBase.dll
+ - api-ms-win-core-xstate-l2-1-1.dll
+api_name:
+ - GetXStateFeaturesMask
 ---
 
 # GetXStateFeaturesMask function
@@ -52,41 +53,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the mask of XState features set within a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a> structure that has been 
       initialized with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a>.
 
-
 ### -param FeatureMask [out]
 
 A pointer to a variable that receives the mask of XState features which are present in the specified 
       <b>CONTEXT</b> structure.
 
-
 ## -returns
-
-
 
 This function returns <b>TRUE</b> if successful, otherwise 
       <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetXStateFeaturesMask</b> function returns 
      the mask of valid features in the specified context.  If a 
@@ -127,15 +114,7 @@ The definition of XState features are processor vendor specific. Please refer to
        <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a>
 
@@ -158,7 +137,4 @@ The definition of XState features are processor vendor specific. Please refer to
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>
- 
-
- 
 

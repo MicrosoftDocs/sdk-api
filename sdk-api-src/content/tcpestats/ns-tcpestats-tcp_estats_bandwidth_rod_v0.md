@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 330d06a2-9966-4e2b-b1bd-44c0f1b9416d
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_BANDWIDTH_ROD_v0, PTCP_ESTATS_BANDWIDTH_ROD_v0, PTCP_ESTATS_BANDWIDTH_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_BANDWIDTH_ROD_v0, TCP_ESTATS_BANDWIDTH_ROD_v0 structure [IP Helper], iphlp.tcp_estats_bandwidth_rod_v0, tcpestats/PTCP_ESTATS_BANDWIDTH_ROD_v0, tcpestats/TCP_ESTATS_BANDWIDTH_ROD_v0'
-f1_keywords:
-- tcpestats/TCP_ESTATS_BANDWIDTH_ROD_v0
-dev_langs:
-- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpestats.h
-api_name:
-- TCP_ESTATS_BANDWIDTH_ROD_v0
 targetos: Windows
 req.typenames: TCP_ESTATS_BANDWIDTH_ROD_v0, *PTCP_ESTATS_BANDWIDTH_ROD_v0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TCP_ESTATS_BANDWIDTH_ROD_v0
+ - tcpestats/_TCP_ESTATS_BANDWIDTH_ROD_v0
+ - PTCP_ESTATS_BANDWIDTH_ROD_v0
+ - tcpestats/PTCP_ESTATS_BANDWIDTH_ROD_v0
+ - TCP_ESTATS_BANDWIDTH_ROD_v0
+ - tcpestats/TCP_ESTATS_BANDWIDTH_ROD_v0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpestats.h
+api_name:
+ - TCP_ESTATS_BANDWIDTH_ROD_v0
 ---
 
 # TCP_ESTATS_BANDWIDTH_ROD_v0 structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TCP_ESTATS_BANDWIDTH_ROD_v0</b> structure contains read-only dynamic information for extended TCP statistics on bandwidth estimation for a TCP connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OutboundBandwidth
 
@@ -64,13 +64,11 @@ Type: <b>ULONG64</b>
 
 The computed outbound bandwidth estimate, in bits per second, for the network path for the TCP connection.
 
-
 ### -field InboundBandwidth
 
 Type: <b>ULONG64</b>
 
 The computed inbound bandwidth estimate, in bits per second, for the network path for the TCP connection.
-
 
 ### -field OutboundInstability
 
@@ -78,13 +76,11 @@ Type: <b>ULONG64</b>
 
 A measure, in bits per second, of the instability of the outbound bandwidth estimate for the network path for the TCP connection.
 
-
 ### -field InboundInstability
 
 Type: <b>ULONG64</b>
 
 A measure, in bits per second, of the instability of the inbound bandwidth estimate for the network path for the TCP connection.
-
 
 ### -field OutboundBandwidthPeaked
 
@@ -92,17 +88,13 @@ Type: <b>BOOLEAN</b>
 
 A boolean value that indicates if the computed outbound bandwidth estimate for the network path for the TCP connection has reached its peak value.
 
-
 ### -field InboundBandwidthPeaked
 
 Type: <b>BOOLEAN</b>
 
 A boolean value that indicates if the computed inbound bandwidth estimate for the network path for the TCP connection has reached its peak value.
 
-
 ## -remarks
-
-
 
 The <b>TCP_ESTATS_BANDWIDTH_ROD_v0</b> structure is used as part of the TCP extended statistics feature available on Windows Vista and later. 
 
@@ -112,14 +104,7 @@ The <b>TCP_ESTATS_BANDWIDTH_ROD_v0</b> structure is retrieved by calls to  the <
 
 The members of this structure are not defined in the IETF RFC on the TCP Extended Statistics MIB. For more information on this RFC, see <a href="http://tools.ietf.org/html/rfc4898">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnetworkconnectionbandwidthestimates">GetIpNetworkConnectionBandwidthEstimates</a>
 
@@ -138,7 +123,4 @@ The members of this structure are not defined in the IETF RFC on the TCP Extende
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
- 
-
- 
 

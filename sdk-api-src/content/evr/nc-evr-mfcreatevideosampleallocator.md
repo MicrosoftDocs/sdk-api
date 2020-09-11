@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2d40a335-9948-40d9-b93f-18a6decf96c8
 ms.date: 12/05/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IUnknown, MFCreateVideoSampleAllocator, MFCreateVideoSampleAllocator callback, MFCreateVideoSampleAllocator callback function [Media Foundation], evr/MFCreateVideoSampleAllocator, mf.mfcreatevideosampleallocator
-f1_keywords:
-- evr/MFCreateVideoSampleAllocator
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- evr.h
-api_name:
-- MFCreateVideoSampleAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateVideoSampleAllocator
+ - evr/MFCreateVideoSampleAllocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - evr.h
+api_name:
+ - MFCreateVideoSampleAllocator
 ---
 
 # MFCreateVideoSampleAllocator callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an object that allocates video samples.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
@@ -98,30 +94,16 @@ Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfi
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppSampleAllocator [out]
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Functions</a>
- 
-
- 
 

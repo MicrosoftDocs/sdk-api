@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 6e686e6f-08b1-4a58-ac0f-30c48f70dd60
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase2 interface [Windows Sync],SerializeWithOptions method, ISyncChangeBatchBase2.SerializeWithOptions, ISyncChangeBatchBase2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncChangeBatchBase2 interface, winsync.isyncchangebatchbase2_serializewithoptions, winsync/ISyncChangeBatchBase2::SerializeWithOptions
-f1_keywords:
-- winsync/ISyncChangeBatchBase2.SerializeWithOptions
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase2.SerializeWithOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase2::SerializeWithOptions
+ - winsync/ISyncChangeBatchBase2::SerializeWithOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase2.SerializeWithOptions
 ---
 
 # ISyncChangeBatchBase2::SerializeWithOptions
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Serializes the change batch object data to a byte array, based on the specified version and serialization options.
 
-
 ## -parameters
-
-
-
 
 ### -param targetFormatVersion [in]
 
 The serialized change batch is compatible with this version.
 
-
 ### -param dwFlags [in]
 
 Reserved. Must be zero.
-
 
 ### -param pbBuffer [in, out]
 
 The serialized change batch object data is serialized to this buffer.
 
-
 ### -param pdwSerializedSize [in, out]
 
 The number of bytes in <i>pbBuffer</i>. Returns either the number of bytes that are required to serialize the change batch data when <i>pbBuffer</i> is too small, or the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -164,14 +154,8 @@ The value of <i>targetFormatVersion</i> is higher than the version of the object
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table describes the flags that specify information about an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo">ISyncFilterInfo</a> object.
 
@@ -193,15 +177,8 @@ The following table describes the flags that specify information about an <a hre
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
@@ -224,7 +201,4 @@ The following table describes the flags that specify information about an <a hre
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
- 
-
- 
 

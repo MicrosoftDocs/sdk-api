@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 0dba0384-eac7-456a-af9f-86eb944cdb2e
 ms.date: 12/05/2018
 ms.keywords: 0dba0384-eac7-456a-af9f-86eb944cdb2e, IMFContentProtectionManager, IMFContentProtectionManager interface [Media Foundation], IMFContentProtectionManager interface [Media Foundation],described, mf.imfcontentprotectionmanager, mfidl/IMFContentProtectionManager
-f1_keywords:
-- mfidl/IMFContentProtectionManager
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFContentProtectionManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFContentProtectionManager
+ - mfidl/IMFContentProtectionManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFContentProtectionManager
 ---
 
 # IMFContentProtectionManager interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables playback of protected content by providing the application with a pointer to a content enabler object.
 
 Applications that play protected content should implement this interface.
-
 
 ## -inheritance
 
@@ -107,12 +106,9 @@ Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A <i>content enabler</i> is an object that performs some action that is required to play a piece of protected content. For example, the action might be obtaining a DRM license. Content enablers expose the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a> interface, which defines a generic mechanism for content enabler. Content enablers are created inside the protected media path (PMP) process. However, they must be invoked from the application process. Therefore, the <b>IMFContentProtectionManager</b> interface provides a way for the PMP Media Session to notify the application.
 
@@ -140,16 +136,7 @@ If the content requires a content enabler, the application's <a href="https://do
 
 Many content enablers send machine-specific data to the network, which can have privacy implications. One of the purposes of the <b>IMFContentProtectionManager</b> interface is to give applications an opportunity to display information to the user and enable to user to opt in or out of the process.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

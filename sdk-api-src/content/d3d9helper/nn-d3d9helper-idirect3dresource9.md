@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DResource9, IDirect3DResource9 interface [Direct3D 9], IDirect3DResource9 interface [Direct3D 9],described, c545e88d-de95-aa8d-c5e1-4a5285f02095, d3d9helper/IDirect3DResource9, direct3d9.idirect3dresource9
-f1_keywords:
-- d3d9helper/IDirect3DResource9
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d9.lib
-- d3d9.dll
-api_name:
-- IDirect3DResource9
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DResource9
+ - d3d9helper/IDirect3DResource9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d9.lib
+ - d3d9.dll
+api_name:
+ - IDirect3DResource9
 ---
 
 # IDirect3DResource9 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications use the methods of the <b>IDirect3DResource9</b> interface to query and prepare resources.
-
 
 ## -inheritance
 
@@ -141,12 +140,9 @@ Associates data with the resource that is intended for use by the application, n
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To create a texture resource, you can call one of the following methods.
 
@@ -185,21 +181,11 @@ The LPDIRECT3DRESOURCE9 and PDIRECT3DRESOURCE9 types are defined as pointers to 
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/direct3d-resources">Direct3D Resources (Direct3D 9)</a>
- 
-
- 
 

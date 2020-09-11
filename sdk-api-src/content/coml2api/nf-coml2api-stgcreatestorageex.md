@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 6442977d-e980-419e-abe9-9d15dbb045c1
 ms.date: 12/05/2018
 ms.keywords: All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, StgCreateStorageEx function [Structured Storage], _stg_stgcreatestorageex, coml2api/StgCreateStorageEx, stg.stgcreatestorageex
-f1_keywords:
-- coml2api/StgCreateStorageEx
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-api_name:
-- StgCreateStorageEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StgCreateStorageEx
+ - coml2api/StgCreateStorageEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+api_name:
+ - StgCreateStorageEx
 ---
 
 # StgCreateStorageEx function
 
 
 ## -description
-
 
 The <b>StgCreateStorageEx</b> function
 			 creates a new storage object using a provided implementation for the 
@@ -62,11 +62,7 @@ Applications written for Windows 2000, Windows Server 2003 and Windows XP mus
 <b>StgCreateStorageEx</b> rather than 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a> to take advantage of the enhanced Windows 2000 and Windows XP  Structured Storage features.
 
-
 ## -parameters
-
-
-
 
 ### -param pwcsName [in]
 
@@ -77,17 +73,14 @@ A pointer to the path of the file to create. It is passed uninterpreted to the f
 
 <b>Windows 2000:  </b>Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, you cannot exceed the MAX_PATH limit by using the "\\?\" prefix.
 
-
 ### -param grfMode [in]
 
 A value that specifies the access mode to use when opening the new storage object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>. If the caller specifies transacted mode together with STGM_CREATE or STGM_CONVERT, the overwrite or conversion takes place when the commit operation is called for the root storage. If <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> is not called for the root storage object, previous contents of the file will be restored. STGM_CREATE and STGM_CONVERT cannot be combined with the STGM_NOSNAPSHOT flag, because a snapshot copy is required when a file is overwritten or converted in the transacted mode.
-
 
 ### -param stgfmt [in]
 
 A value that specifies the storage file format. For more information, see the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380330(v=vs.85)">STGFMT</a> enumeration.
-
 
 ### -param grfAttrs [in]
 
@@ -120,8 +113,6 @@ Must be 0.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pStgOptions [in]
 
@@ -129,13 +120,11 @@ The <i>pStgOptions</i> parameter is valid only if the <i>stgfmt</i> parameter is
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-stgoptions">STGOPTIONS</a> structure, which specifies features of the storage object, such as the sector size. This parameter may be <b>NULL</b>, which creates a storage object with a default sector size of 512 bytes. If non-<b>NULL</b>, the <b>ulSectorSize</b> member must be set to either 512 or 4096. If set to 4096, STGM_SIMPLE may not be specified in the <i>grfMode</i> parameter. The <b>usVersion</b> member must be set before calling 
 <b>StgCreateStorageEx</b>. For more information, see <b>STGOPTIONS</b>.
 
-
 ### -param pSecurityDescriptor [in]
 
 Enables the ACLs to be set when the file is created. If not <b>NULL</b>, needs to be a pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. See <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> for information on how to set ACLs on files.
 
 <b>Windows Server 2003, Windows 2000 Server, Windows XP and Windows 2000 Professional:  </b>Value must be <b>NULL</b>.
-
 
 ### -param riid [in]
 
@@ -143,26 +132,17 @@ A value that specifies the interface identifier (IID) of the interface pointer t
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface or the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
 
-
 ### -param ppObjectOpen [out]
 
 A pointer to an interface pointer variable that receives a pointer for an interface on the new storage object; contains <b>NULL</b> if operation failed.
 
-
 ## -returns
-
-
 
 This function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 When an application modifies its file, it usually creates a copy of the original. The <b>StgCreateStorageEx</b> function is one way for creating a copy. This function works indirectly with the Encrypting File System (EFS) duplication API. When you use this function, you will need to set the options for the file storage in the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-stgoptions">STGOPTIONS</a> structure.
 
@@ -209,13 +189,7 @@ You can also use
 <b>StgCreateStorageEx</b> to create a temporary compound file by passing a <b>NULL</b> value for the <i>pwcsName</i> parameter. However, these files are temporary only in the sense that they have a unique system-provided name – one that is probably meaningless to the user. The caller is responsible for deleting the temporary file when finished with it, unless STGM_DELETEONRELEASE was specified for the <i>grfMode</i> parameter. For more information on these flags, see 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -242,7 +216,4 @@ You can also use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>
- 
-
- 
 

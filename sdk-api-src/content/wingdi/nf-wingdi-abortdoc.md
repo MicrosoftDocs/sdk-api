@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 4ecc371c-34fa-4073-96fe-0de03b84d7e3
 ms.date: 12/05/2018
 ms.keywords: AbortDoc, AbortDoc function [Windows GDI], _win32_AbortDoc, gdi.abortdoc, wingdi/AbortDoc
-f1_keywords:
-- wingdi/AbortDoc
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
-api_name:
-- AbortDoc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AbortDoc
+ - wingdi/AbortDoc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+api_name:
+ - AbortDoc
 ---
 
 # AbortDoc function
@@ -50,34 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AbortDoc</b> function stops the current print job and erases everything drawn since the last call to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to the device context for the print job.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is greater than zero.
 
 If the function fails, the return value is SP_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
@@ -85,13 +73,7 @@ Applications should call the <b>AbortDoc</b> function to stop a print job if an 
 
 If Print Manager was used to start the print job, calling <b>AbortDoc</b> erases the entire spool job, so that the printer receives nothing. If Print Manager was not used to start the print job, the data may already have been sent to the printer. In this case, the printer driver resets the printer (when possible) and ends the print job.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a>
 
@@ -110,7 +92,4 @@ If Print Manager was used to start the print job, calling <b>AbortDoc</b> erases
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
- 
-
- 
 

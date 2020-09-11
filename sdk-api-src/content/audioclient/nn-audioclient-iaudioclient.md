@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 5088a3f1-5001-4ed9-a495-9e91df613ab0
 ms.date: 12/05/2018
 ms.keywords: IAudioClient, IAudioClient interface [Core Audio], IAudioClient interface [Core Audio],described, audioclient/IAudioClient, coreaudio.iaudioclient
-f1_keywords:
-- audioclient/IAudioClient
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient
+ - audioclient/IAudioClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient
 ---
 
 # IAudioClient interface
 
 
 ## -description
-
-
 
 The <b>IAudioClient</b> interface enables a client to create and initialize an audio stream between an audio application and the audio engine (for a shared-mode stream) or the hardware buffer of an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint device</a> (for an exclusive-mode stream). A client obtains a reference to an <b>IAudioClient</b> interface for an audio endpoint device by following these steps:<ol>
 <li>By using one of the techniques described in <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>, obtain a reference to the <b>IMMDevice</b> interface for an audio endpoint device.</li>
@@ -72,8 +71,6 @@ For code examples that use the <b>IAudioClient</b> interface, see the following 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/exclusive-mode-streams">Exclusive-Mode Streams</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -198,22 +195,14 @@ Stops the audio stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  In Windows 8, the first use of <b>IAudioClient</b> to access the audio device should be on the STA thread. Calls from an MTA thread may result in undefined behavior.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -224,7 +213,4 @@ Stops the audio stream.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

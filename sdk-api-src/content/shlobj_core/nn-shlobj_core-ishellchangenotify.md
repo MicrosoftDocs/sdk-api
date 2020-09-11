@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fc8d0bdd-0ca5-40e3-bdad-68ca1c64b08e
 ms.date: 12/05/2018
 ms.keywords: IShellChangeNotify, IShellChangeNotify interface [Windows Shell], IShellChangeNotify interface [Windows Shell],described, _win32_IShellChangeNotify, shell.IShellChangeNotify, shlobj_core/IShellChangeNotify
-f1_keywords:
-- shlobj_core/IShellChangeNotify
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellChangeNotify
+ - shlobj_core/IShellChangeNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellChangeNotify
 ---
 
 # IShellChangeNotify interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that notifies a Shell namespace extension when the ID of an item has changed.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Informs a namespace extension that an event has taken place that affects its ite
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IShellChangeNotify</b> is used to let a host of a component communicate the change notifications that it receives to the objects that it hosts. This is used in Windows Explorer to communicate change notifications to band objects.
 
@@ -91,6 +87,4 @@ This interface is implemented by all namespace extensions.
 You do not call this interface directly. <b>IShellChangeNotify</b> is used by the operating system only when it has confirmed that your application is aware of this interface.
 
 <b>IShellChangeNotify</b> implements <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> as well as the listed method.
-
-
 

@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::IsVisible"]
 ms.assetid: 81cadd52-1976-4328-85ca-e89aa5b649b5
 ms.date: 05/13/2019
 ms.keywords: Graphics::IsVisible
-f1_keywords:
-- gdiplusgraphics/Graphics::IsVisible
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::IsVisible
+ - gdiplusgraphics/Graphics::IsVisible
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::IsVisible
+ - Graphics::IsVisible
 ---
 
 # IsVisible(INT,INT)
+
 
 ## -description
 
@@ -94,3 +96,4 @@ VOID Example_IsVisible5(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisibleclipempty">Graphics::IsVisibleClipEmpty</a>
+

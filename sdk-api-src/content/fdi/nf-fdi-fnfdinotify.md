@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 7655ddb2-7cd4-4012-913c-9909fcea639a
 ms.date: 12/05/2018
 ms.keywords: FNFDINOTIFY, FNFDINOTIFY macro [Windows API], fdi/FNFDINOTIFY, fdintCABINET_INFO, fdintCLOSE_FILE_INFO, fdintCOPY_FILE, fdintENUMERATE, fdintNEXT_CABINET, fdintPARTIAL_FILE, winprog.fnfdinotify
-f1_keywords:
-- fdi/FNFDINOTIFY
-dev_langs:
-- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fdi.h
-api_name:
-- FNFDINOTIFY
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FNFDINOTIFY
+ - fdi/FNFDINOTIFY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fdi.h
+api_name:
+ - FNFDINOTIFY
 ---
 
 # FNFDINOTIFY macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FNFDINOTIFY</b> macro provides the declaration for the application-defined callback notification function to update the application on the status of the decoder.
 
-
 ## -parameters
-
-
-
 
 ### -param fn
 
@@ -206,18 +202,11 @@ Enumeration status.
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fdi/ns-fdi-fdinotification">FDINOTIFICATION</a> structure that contains notification information.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicopy">FDICopy</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fdi/ns-fdi-fdinotification">FDINOTIFICATION</a>
- 
-
- 
 

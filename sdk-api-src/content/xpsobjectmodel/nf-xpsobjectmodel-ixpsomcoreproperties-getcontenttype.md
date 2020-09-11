@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2a032cd7-90b3-427c-bbdf-2265f15c6f23
 ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [XPS Documents and Packaging], GetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentType method, IXpsOMCoreProperties.GetContentType, IXpsOMCoreProperties::GetContentType, xps.ixpsomcoreproperties_getcontenttype, xpsobjectmodel/IXpsOMCoreProperties::GetContentType
-f1_keywords:
-- xpsobjectmodel/IXpsOMCoreProperties.GetContentType
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCoreProperties.GetContentType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCoreProperties::GetContentType
+ - xpsobjectmodel/IXpsOMCoreProperties::GetContentType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCoreProperties.GetContentType
 ---
 
 # IXpsOMCoreProperties::GetContentType
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the <b>contentType</b> property.
 
-
 ## -parameters
-
-
-
 
 ### -param contentType [out, retval]
 
 The string that is read from the <b>contentType</b> property.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,27 +90,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>contentType</b> property stores the type of content that is being represented, and it is generally defined by a
 specific use and intended audience. Examples of <b>contentType</b> values include <b>Whitepaper</b>, <b>Security Bulletin</b>, and <b>Exam</b>.
 
 This method allocates the memory used by the string that is returned in <i>contentType</i>.  If <i>contentType</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
 
@@ -132,7 +113,4 @@ This method allocates the memory used by the string that is returned in <i>conte
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: b37c7e7d-80fd-4a42-a698-c20ffb2a5052
 ms.date: 12/05/2018
 ms.keywords: IEvalRat, IEvalRat interface [Microsoft TV Technologies], IEvalRat interface [Microsoft TV Technologies],described, IEvalRatInterface, mstv.ievalrat, tvratings/IEvalRat
-f1_keywords:
-- tvratings/IEvalRat
-dev_langs:
-- c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tvratings.h
-api_name:
-- IEvalRat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEvalRat
+ - tvratings/IEvalRat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tvratings.h
+api_name:
+ - IEvalRat
 ---
 
 # IEvalRat interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IEvalRat</b> interface is used to evaluate content ratings carried by a broadcast stream. This interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/evalrat-object">EvalRat</a> (ratings evaluator) object. The EvalRat object is implemented by third parties.
 
 The Encrypter/Tagger filter and the Decrypter/Detagger filter use this interface. Applications use the interfaces exposed by those filters, but typically do not use the <b>IEvalRat</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -127,29 +123,17 @@ Determines whether a program with the specified rating should be blocked.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IEvalRat)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
- 
-
- 
 

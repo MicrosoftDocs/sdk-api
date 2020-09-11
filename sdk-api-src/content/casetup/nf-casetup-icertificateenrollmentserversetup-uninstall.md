@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5C979627-7544-4466-9F92-224D48904DD3
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],UnInstall method, ICertificateEnrollmentServerSetup.UnInstall, ICertificateEnrollmentServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::UnInstall, security.icertificateenrollmentserversetup_uninstall
-f1_keywords:
-- casetup/ICertificateEnrollmentServerSetup.UnInstall
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentServerSetup.UnInstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentServerSetup::UnInstall
+ - casetup/ICertificateEnrollmentServerSetup::UnInstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentServerSetup.UnInstall
 ---
 
 ## -description
@@ -123,3 +124,4 @@ Attempts to update the security descriptor of the Deleted Objects container in A
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
+

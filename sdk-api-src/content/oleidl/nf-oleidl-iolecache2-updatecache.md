@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 67bb0bcf-981a-4b2f-8ab9-2afc0659b2db
 ms.date: 12/05/2018
 ms.keywords: IOleCache2 interface [COM],UpdateCache method, IOleCache2.UpdateCache, IOleCache2::UpdateCache, UPDFCACHE_ ALLBUTNODATACACHE, UPDFCACHE_ IFBLANKORONSAVECACHE, UPDFCACHE_ALL, UPDFCACHE_IFBLANK, UPDFCACHE_NODATACACHE, UPDFCACHE_NORMALCACHE, UPDFCACHE_ONLYIFBLANK, UPDFCACHE_ONSAVECACHE, UPDFCACHE_ONSTOPCACHE, UpdateCache, UpdateCache method [COM], UpdateCache method [COM],IOleCache2 interface, _ole_iolecache2_updatecache, com.iolecache2_updatecache, oleidl/IOleCache2::UpdateCache
-f1_keywords:
-- oleidl/IOleCache2.UpdateCache
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleCache2.UpdateCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleCache2::UpdateCache
+ - oleidl/IOleCache2::UpdateCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleCache2.UpdateCache
 ---
 
 # IOleCache2::UpdateCache
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the specified caches. This method is used when the application needs precise control over caching.
 
-
 ## -parameters
-
-
-
 
 ### -param pDataObject [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object from which the cache is updated. Object handlers and in-process servers typically pass a non-<b>NULL</b> value. A container application usually passes <b>NULL</b>, and the source is obtained from the currently running object.
-
 
 ### -param grfUpdf [in]
 
@@ -167,17 +162,12 @@ Updates all caches except those created with ADVF_NODATA in the call to <a href=
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -253,15 +243,8 @@ Some of the caches were updated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
@@ -276,7 +259,4 @@ Some of the caches were updated.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Nps
 ms.assetid: 45327428-1442-43f7-bf5b-0b6fcf06a246
 ms.date: 12/05/2018
 ms.keywords: EnumAttributes, EnumAttributes method [Network Policy Server], EnumAttributes method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],EnumAttributes method, ISdoDictionaryOld.EnumAttributes, ISdoDictionaryOld::EnumAttributes, _sdo_isdodictionaryold_enumattributes, nps.SDO_isdodictionaryold_enumattributes, sdo.isdodictionaryold_enumattributes, sdoias/ISdoDictionaryOld::EnumAttributes
-f1_keywords:
-- sdoias/ISdoDictionaryOld.EnumAttributes
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Iassdo.dll
-api_name:
-- ISdoDictionaryOld.EnumAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISdoDictionaryOld::EnumAttributes
+ - sdoias/ISdoDictionaryOld::EnumAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Iassdo.dll
+api_name:
+ - ISdoDictionaryOld.EnumAttributes
 ---
 
 # ISdoDictionaryOld::EnumAttributes
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EnumAttributes</b> method retrieves the values of the specified attributes.
 
-
 ## -parameters
-
-
-
 
 ### -param Id [in, out]
 
@@ -75,28 +71,19 @@ On output, pointer to a
        <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the IDs of 
        the enumerated attributes.
 
-
 ### -param pValues [out]
 
 Pointer to a 
       <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains 
       the values of the enumerated attributes.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is <b>S_OK</b>.
 
 If the method fails, the return value is one of the following error codes.
 
-
-
-
 ## -remarks
-
-
 
 The parameters must not be <b>NULL</b>.
 
@@ -104,16 +91,7 @@ If VT(Id) = VT_EMPTY then all the attributes are returned. Otherwise VT(Id) shou
 
 When the method returns, Id is a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of the Ids returned, and <i>pValues</i> is a <b>SAFEARRAY</b> of the values returned.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
- 
-
- 
 

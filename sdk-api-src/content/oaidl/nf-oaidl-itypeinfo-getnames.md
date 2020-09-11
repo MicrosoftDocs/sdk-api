@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: ff318d92-9624-48aa-a0f9-8b8826121753
 ms.date: 12/05/2018
 ms.keywords: GetNames, GetNames method [Automation], GetNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetNames method, ITypeInfo.GetNames, ITypeInfo::GetNames, _oa96_ITypeInfo_GetNames, automat.itypeinfo_getnames, oaidl/ITypeInfo::GetNames
-f1_keywords:
-- oaidl/ITypeInfo.GetNames
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.GetNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::GetNames
+ - oaidl/ITypeInfo::GetNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.GetNames
 ---
 
 # ITypeInfo::GetNames
@@ -49,40 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the variable with the specified member ID or the name of the property or method and the parameters that correspond to the specified function ID.
 
-
 ## -parameters
-
-
-
 
 ### -param memid [in]
 
 The ID of the member whose name (or names) is to be returned.
 
-
-
-
 ### -param rgBstrNames [out]
 
 The caller-allocated array. On return, each of the elements contains the name (or names) associated with the member.
-
 
 ### -param cMaxNames [in]
 
 The length of the passed-in <i>rgBstrNames</i> array.
 
-
 ### -param pcNames [out]
 
 The number of names in the <i>rgBstrNames</i> array.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -128,14 +116,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller must release the returned BSTR array.
 
@@ -151,17 +133,7 @@ For property put and put reference functions, the right side of the assignment i
 
 If the type description inherits from another type description, this function is recursive to the base type description, if necessary, to find the item with the requested member ID.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
 

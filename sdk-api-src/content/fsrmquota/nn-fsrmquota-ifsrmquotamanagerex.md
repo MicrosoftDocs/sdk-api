@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: aa665a9d-d053-49e4-82a7-d6ba27406a7c
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaManagerEx, IFsrmQuotaManagerEx interface [File Server Resource Manager], IFsrmQuotaManagerEx interface [File Server Resource Manager],described, fs.ifsrmquotamanagerex, fsrm.ifsrmquotamanagerex, fsrm/IFsrmQuotaManagerEx
-f1_keywords:
-- fsrmquota/IFsrmQuotaManagerEx
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaManagerEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaManagerEx
+ - fsrmquota/IFsrmQuotaManagerEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaManagerEx
 ---
 
 # IFsrmQuotaManagerEx interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Used to manage quotas, extended version.
-
 
 ## -inheritance
 
@@ -81,13 +80,9 @@ Retrieves a value that determines whether a specified path is subject to a quota
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -98,7 +93,4 @@ Retrieves a value that determines whether a specified path is subject to a quota
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

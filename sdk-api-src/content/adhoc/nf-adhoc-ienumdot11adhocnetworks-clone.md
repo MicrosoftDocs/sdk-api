@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 595829c6-ca87-4a69-8d09-a398b5cd9f34
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocNetworks interface, IEnumDot11AdHocNetworks interface [NativeWIFI],Clone method, IEnumDot11AdHocNetworks.Clone, IEnumDot11AdHocNetworks::Clone, adhoc/IEnumDot11AdHocNetworks::Clone, nwifi.ienumdot11adhocnetworks_clone
-f1_keywords:
-- adhoc/IEnumDot11AdHocNetworks.Clone
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IEnumDot11AdHocNetworks.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDot11AdHocNetworks::Clone
+ - adhoc/IEnumDot11AdHocNetworks::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IEnumDot11AdHocNetworks.Clone
 ---
 
 # IEnumDot11AdHocNetworks::Clone
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new enumeration interface.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-A pointer to a variable that, on successful return, points to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>interface.   
-
+A pointer to a variable that, on successful return, points to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>interface.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -141,18 +134,8 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>
- 
-
- 
 

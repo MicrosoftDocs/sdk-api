@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 13cdeae3-dece-42ae-8bff-037ee3e4cec4
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx2, CVssWriterEx2 class, CVssWriterEx2 class,described, base.cvsswriterex2, vswriter/CVssWriterEx2
-f1_keywords:
-- vswriter/CVssWriterEx2
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriterEx2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriterEx2
+ - vswriter/CVssWriterEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriterEx2
 ---
 
 # CVssWriterEx2 class
 
 
 ## -description
-
 
 The <b>CVssWriterEx2</b> class is an abstract base class that defines 
     the interface by which a writer synchronizes its state with VSS and other writers.
@@ -67,18 +67,11 @@ A writer can override any or all of  the virtual
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CVssWriterEx2</b> has these types of members:
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 5e358a14-9f39-4267-9a44-c8bf05b5dfbb
 ms.date: 12/05/2018
 ms.keywords: ArcTo, ArcTo function [Windows GDI], _win32_ArcTo, gdi.arcto, wingdi/ArcTo
-f1_keywords:
-- wingdi/ArcTo
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- ArcTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ArcTo
+ - wingdi/ArcTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - ArcTo
 ---
 
 # ArcTo function
@@ -51,74 +52,53 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ArcTo</b> function draws an elliptical arc.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context where drawing takes place.
 
-
 ### -param left [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the bounding rectangle.
-
 
 ### -param top [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the bounding rectangle.
 
-
 ### -param right [in]
 
 The x-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
-
 
 ### -param bottom [in]
 
 The y-coordinate, in logical units, of the lower-right corner of the bounding rectangle.
 
-
 ### -param xr1 [in]
 
 The x-coordinate, in logical units, of the endpoint of the radial defining the starting point of the arc.
-
 
 ### -param yr1 [in]
 
 The y-coordinate, in logical units, of the endpoint of the radial defining the starting point of the arc.
 
-
 ### -param xr2 [in]
 
 The x-coordinate, in logical units, of the endpoint of the radial defining the ending point of the arc.
-
 
 ### -param yr2 [in]
 
 The y-coordinate, in logical units, of the endpoint of the radial defining the ending point of the arc.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 <b>ArcTo</b> is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a> function, except that the current position is updated.
 
@@ -128,13 +108,7 @@ A line is drawn from the current position to the starting point of the arc. If n
 
 The arc is drawn using the current pen; it is not filled.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-anglearc">AngleArc</a>
 
@@ -153,7 +127,4 @@ The arc is drawn using the current pen; it is not filled.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>
- 
-
- 
 

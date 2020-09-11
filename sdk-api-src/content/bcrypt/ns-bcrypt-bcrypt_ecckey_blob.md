@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e60f6630-e4b0-4f35-a3cf-95dbcb007124
 ms.date: 12/05/2018
 ms.keywords: '*PBCRYPT_ECCKEY_BLOB, BCRYPT_ECCKEY_BLOB, BCRYPT_ECCKEY_BLOB structure [Security], BCRYPT_ECDH_PRIVATE_P256_MAGIC, BCRYPT_ECDH_PRIVATE_P384_MAGIC, BCRYPT_ECDH_PRIVATE_P521_MAGIC, BCRYPT_ECDH_PUBLIC_P256_MAGIC, BCRYPT_ECDH_PUBLIC_P384_MAGIC, BCRYPT_ECDH_PUBLIC_P521_MAGIC, BCRYPT_ECDSA_PRIVATE_P256_MAGIC, BCRYPT_ECDSA_PRIVATE_P384_MAGIC, BCRYPT_ECDSA_PRIVATE_P521_MAGIC, BCRYPT_ECDSA_PUBLIC_P256_MAGIC, BCRYPT_ECDSA_PUBLIC_P384_MAGIC, BCRYPT_ECDSA_PUBLIC_P521_MAGIC, PBCRYPT_ECCKEY_BLOB, PBCRYPT_ECCKEY_BLOB structure pointer [Security], bcrypt/BCRYPT_ECCKEY_BLOB, bcrypt/PBCRYPT_ECCKEY_BLOB, security.bcrypt_ecckey_blob'
-f1_keywords:
-- bcrypt/BCRYPT_ECCKEY_BLOB
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- BCRYPT_ECCKEY_BLOB
 targetos: Windows
 req.typenames: BCRYPT_ECCKEY_BLOB, *PBCRYPT_ECCKEY_BLOB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BCRYPT_ECCKEY_BLOB
+ - bcrypt/_BCRYPT_ECCKEY_BLOB
+ - PBCRYPT_ECCKEY_BLOB
+ - bcrypt/PBCRYPT_ECCKEY_BLOB
+ - BCRYPT_ECCKEY_BLOB
+ - bcrypt/BCRYPT_ECCKEY_BLOB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - BCRYPT_ECCKEY_BLOB
 ---
 
 ## -description
@@ -211,3 +216,4 @@ BYTE d[cbKey] // Big-endian.
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
+

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: c437cd19-0cf8-4fc9-b6fb-cb09cde9a82e
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingImportNext, RpcNsBindingImportNext function [RPC], _rpc_rpcnsbindingimportnext, rpc.rpcnsbindingimportnext, rpcnsi/RpcNsBindingImportNext
-f1_keywords:
-- rpcnsi/RpcNsBindingImportNext
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingImportNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingImportNext
+ - rpcnsi/RpcNsBindingImportNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingImportNext
 ---
 
 # RpcNsBindingImportNext function
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingImportNext</b> function looks up an interface (and optionally an object from a name-service database) and returns a binding handle of a compatible server, if found.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param ImportContext
 
 Name-service handle returned from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> function.
 
-
 ### -param Binding
 
 Returns a pointer to a client-compatible server binding handle for a server.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -119,11 +112,7 @@ The name service is unavailable.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsBindingImportNext</b> function returns one client-compatible server binding handle for a server that offers the interface and object UUID specified by the <i>IfSpec</i> and <i>ObjUuid</i> parameters in the 
@@ -169,13 +158,7 @@ The client is responsible for calling the
 <b>RpcNsBindingImportDone</b> before calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> to start a new search for compatible servers. Because the order of binding handles returned is different for each new search, the order in which binding handles are returned to an application can be different each time the application is run.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
 
@@ -206,7 +189,4 @@ The client is responsible for calling the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingselect">RpcNsBindingSelect</a>
- 
-
- 
 

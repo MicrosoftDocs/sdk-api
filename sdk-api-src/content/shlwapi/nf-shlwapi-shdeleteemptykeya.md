@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6a560bc3-f65e-4b7d-9fbc-b4f2971ce2a9
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHDeleteEmptyKey, SHDeleteEmptyKey function [Windows Shell], SHDeleteEmptyKeyA, SHDeleteEmptyKeyW, _win32_SHDeleteEmptyKey, shell.SHDeleteEmptyKey, shlwapi/SHDeleteEmptyKey, shlwapi/SHDeleteEmptyKeyA, shlwapi/SHDeleteEmptyKeyW
-f1_keywords:
-- shlwapi/SHDeleteEmptyKey
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
-- ShCore.dll
-- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
-- API-MS-Win-ShCore-Registry-l1-1-0.dll
-- API-MS-Win-ShCore-Registry-l1-1-1.dll
-api_name:
-- SHDeleteEmptyKey
-- SHDeleteEmptyKeyA
-- SHDeleteEmptyKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHDeleteEmptyKeyA
+ - shlwapi/SHDeleteEmptyKeyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+ - ShCore.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+ - API-MS-Win-ShCore-Registry-l1-1-0.dll
+ - API-MS-Win-ShCore-Registry-l1-1-1.dll
+api_name:
+ - SHDeleteEmptyKey
+ - SHDeleteEmptyKeyA
+ - SHDeleteEmptyKeyW
 ---
 
 # SHDeleteEmptyKeyA function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes an empty key.
 
-
 ## -parameters
-
-
-
 
 ### -param hkey [in]
 
@@ -107,28 +103,19 @@ A handle to an open registry key, or one of the following <a href="https://docs.
 
 #### HKEY_USERS
 
-
 ### -param pszSubKey [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 The address of a null-terminated string specifying the name of the key to delete.
 
-
 ## -returns
-
-
 
 Type: <b>LSTATUS</b>
 
 Returns <b>ERROR_SUCCESS</b> if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to retrieve a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 <b>SHDeleteEmptyKey</b> does not delete a key if it contains any subkeys or values. Use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shdeletekeya">SHDeleteKey</a> instead.
 

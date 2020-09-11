@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
 ms.date: 12/05/2018
 ms.keywords: '*PSP_DEVINSTALL_PARAMS_W, PSP_DEVINSTALL_PARAMS, PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DEVINSTALL_PARAMS, SP_DEVINSTALL_PARAMS structure [Device and Driver Installation], SP_DEVINSTALL_PARAMS_W, devinst.sp_devinstall_params, di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml, setupapi/PSP_DEVINSTALL_PARAMS, setupapi/SP_DEVINSTALL_PARAMS'
-f1_keywords:
-- setupapi/SP_DEVINSTALL_PARAMS
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- setupapi.h
-api_name:
-- SP_DEVINSTALL_PARAMS - sp_devinstall_params_w
 targetos: Windows
 req.typenames: SP_DEVINSTALL_PARAMS_W, *PSP_DEVINSTALL_PARAMS_W
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_DEVINSTALL_PARAMS_W
+ - setupapi/_SP_DEVINSTALL_PARAMS_W
+ - PSP_DEVINSTALL_PARAMS_W
+ - setupapi/PSP_DEVINSTALL_PARAMS_W
+ - SP_DEVINSTALL_PARAMS_W
+ - setupapi/SP_DEVINSTALL_PARAMS_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - setupapi.h
+api_name:
+ - SP_DEVINSTALL_PARAMS - sp_devinstall_params_w
 ---
 
 # SP_DEVINSTALL_PARAMS_W structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of the SP_DEVINSTALL_PARAMS structure.
-
 
 ### -field Flags
 
@@ -253,8 +252,7 @@ The following flags are obsolete:
 
 DI_NOSELECTICONS 
 
-DI_PROPS_NOCHANGEUSAGE 
-
+DI_PROPS_NOCHANGEUSAGE
 
 ### -field FlagsEx
 
@@ -404,23 +402,19 @@ The following flags are obsolete:
 
 DI_FLAGSEX_AUTOSELECTRANK0 
 
-DI_FLAGSEX_NOUIONQUERYREMOVE 
-
+DI_FLAGSEX_NOUIONQUERYREMOVE
 
 ### -field hwndParent
 
 Window handle that will own the user interface dialogs related to this device.
 
-
 ### -field InstallMsgHandler
 
 Callback used to handle events during file copying. An installer can use a callback, for example, to perform special processing when committing a file queue.
 
-
 ### -field InstallMsgHandlerContext
 
 Private data that is used by the <b>InstallMsgHandler</b> callback.
-
 
 ### -field FileQueue
 
@@ -430,16 +424,13 @@ If you associate a file queue with a device information set (<a href="https://do
 
 This queue is only used if the DI_NOVCP flag is set, indicating that file operations should be enqueued but not committed.
 
-
 ### -field ClassInstallReserved
 
-A pointer for class-installer data. Co-installers must not use this field. 
-
+A pointer for class-installer data. Co-installers must not use this field.
 
 ### -field Reserved
 
 Reserved. For internal use only.
-
 
 ### -field DriverPath
 
@@ -679,11 +670,7 @@ Set if the installation failed. If this flag is set, the <a href="https://docs.m
 
 Filter INF files on the device's setup class when building a list of compatible drivers. If a device's setup class is known, setting this flag reduces the time that is required to build a list of compatible drivers when searching INF files that are not precompiled. This flag is ignored if DI_COMPAT_FROM_CLASS is set.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfolist">SetupDiBuildClassInfoList</a>
 
@@ -710,9 +697,6 @@ Filter INF files on the device's setup class when building a list of compatible 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinstallparamsa">SetupDiSetDeviceInstallParams</a>
- 
-
- 
 
 ## -remarks
 

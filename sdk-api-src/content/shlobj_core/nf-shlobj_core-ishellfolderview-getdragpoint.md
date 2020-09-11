@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6ea29e97-41cb-4de7-8320-1d6389cfb6f6
 ms.date: 12/05/2018
 ms.keywords: GetDragPoint, GetDragPoint method [Windows Shell], GetDragPoint method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetDragPoint method, IShellFolderView.GetDragPoint, IShellFolderView::GetDragPoint, _shell_IShellFolderView_GetDragPoint, shell.IShellFolderView_GetDragPoint, shlobj_core/IShellFolderView::GetDragPoint
-f1_keywords:
-- shlobj_core/IShellFolderView.GetDragPoint
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shlobj_core.h
-api_name:
-- IShellFolderView.GetDragPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderView::GetDragPoint
+ - shlobj_core/IShellFolderView::GetDragPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shlobj_core.h
+api_name:
+ - IShellFolderView.GetDragPoint
 ---
 
 # IShellFolderView::GetDragPoint
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is available through Windows Vista. It might be altered or unavailable in subsequent versions of Windows.]
 
 Gets the point at which the current drag-and-drop operation was initiated.
 
-
 ## -parameters
-
-
-
 
 ### -param ppt [out]
 
@@ -66,14 +62,9 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)
 
 A pointer to a structure that, when this method returns successfully, receives the coordinates from which the current drag-and-drop operation was initiated.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if successful, <b>S_FALSE</b> if the view does not have a drag point, or an error value otherwise.
-
-
 

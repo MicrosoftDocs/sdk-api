@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
 ms.date: 12/05/2018
 ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, ProcessUserShadowStackPolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
-f1_keywords:
-- processthreadsapi/GetProcessMitigationPolicy
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- GetProcessMitigationPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - GetProcessMitigationPolicy
+ - processthreadsapi/GetProcessMitigationPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - GetProcessMitigationPolicy
 ---
 
 # GetProcessMitigationPolicy function
@@ -54,19 +55,13 @@ ms.custom: RS5, 19H1
 
 ## -description
 
-
 Retrieves mitigation policy settings for the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process. This handle must have the PROCESS_QUERY_INFORMATION access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
-
 
 ### -param MitigationPolicy [in]
 
@@ -238,8 +233,6 @@ The <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-w
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
@@ -267,26 +260,15 @@ If the <i>MitigationPolicy</i> parameter is <b>ProcessImageLoadPolicy</b>, this 
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessUserShadowStackPolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy">PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY</a> structure that receives the policy flags for user-mode Hardware-enforced Stack Protection.
 
-
 ### -param dwLength [in]
 
 The size of <i>lpBuffer</i>, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b>. To retrieve error values defined for this function, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
 
-
-
 To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0602. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
 

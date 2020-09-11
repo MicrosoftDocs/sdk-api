@@ -35,6 +35,7 @@ api_location:
 api_name:
  - MFCombineSamples
 f1_keywords:
+ - MFCombineSamples
  - mfapi/MFCombineSamples
 dev_langs:
  - c++

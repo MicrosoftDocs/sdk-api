@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
 ms.date: 12/05/2018
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
-f1_keywords:
-- tapi3cc/ITACDGroupEvent
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITACDGroupEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITACDGroupEvent
+ - tapi3cc/ITACDGroupEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITACDGroupEvent
 ---
 
 # ITACDGroupEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITACDGroupEvent</b> interface contains methods that retrieve the description of Automatic Call Distribution (ACD) group events. When the application's implementation of the 
@@ -97,13 +97,9 @@ Gets a pointer to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-acdgroup_event">ACDGROUP_EVENT</a>
 
@@ -126,7 +122,4 @@ Gets a pointer to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

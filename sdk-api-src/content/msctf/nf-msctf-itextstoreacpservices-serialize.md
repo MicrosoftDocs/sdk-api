@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 14be52d1-4f8c-4deb-aa92-470c3608c841
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Serialize method, ITextStoreACPServices.Serialize, ITextStoreACPServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_serialize_ref, msctf/ITextStoreACPServices::Serialize, tsf.itextstoreacpservices_serialize
-f1_keywords:
-- msctf/ITextStoreACPServices.Serialize
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACPServices.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACPServices::Serialize
+ - msctf/ITextStoreACPServices::Serialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACPServices.Serialize
 ---
 
 # ITextStoreACPServices::Serialize
+
 
 ## -description
 
@@ -130,3 +132,4 @@ When calling this method, the application must be able to grant a synchronous re
 ## -see-also
 
 [ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITextStoreACPServices::Unserialize](nf-msctf-itextstoreacpservices-unserialize.md), [ITfContext::EnumProperties](nf-msctf-itfcontext-enumproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfReadOnlyProperty::EnumRanges](nf-msctf-itfreadonlyproperty-enumranges.md), [TF_PERSISTENT_PROPERTY_HEADER_ACP structure](ns-msctf-tf_persistent_property_header_acp.md)
+

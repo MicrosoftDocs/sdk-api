@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 780bc94d-19b6-4cc8-b27f-9e38520b0afc
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLogicalThreadId, GetCurrentLogicalThreadId method [COM], GetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentLogicalThreadId method, IComThreadingInfo.GetCurrentLogicalThreadId, IComThreadingInfo::GetCurrentLogicalThreadId, _com_icomthreadinginfo_getcurrentlogicalthreadid, com.icomthreadinginfo_getcurrentlogicalthreadid, objidlbase/IComThreadingInfo::GetCurrentLogicalThreadId
-f1_keywords:
-- objidl/IComThreadingInfo.GetCurrentLogicalThreadId
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IComThreadingInfo.GetCurrentLogicalThreadId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComThreadingInfo::GetCurrentLogicalThreadId
+ - objidl/IComThreadingInfo::GetCurrentLogicalThreadId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IComThreadingInfo.GetCurrentLogicalThreadId
 ---
 
 # IComThreadingInfo::GetCurrentLogicalThreadId
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the GUID of the thread in which the caller is executing.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidLogicalThreadId [out]
 
 A pointer to the GUID of the caller's thread.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -97,18 +90,8 @@ The caller is not executing in an apartment.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>
- 
-
- 
 

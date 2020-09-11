@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: c1c07b78-16f6-4595-8de3-0c6591096496
 ms.date: 12/05/2018
 ms.keywords: GetServiceProxyById, GetServiceProxyById method, GetServiceProxyById method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyById method, IWSDDeviceProxy.GetServiceProxyById, IWSDDeviceProxy::GetServiceProxyById, ncd.iwsddeviceproxy_getserviceproxybyid_method, wsdclient/IWSDDeviceProxy::GetServiceProxyById
-f1_keywords:
-- wsdclient/IWSDDeviceProxy.GetServiceProxyById
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceProxy.GetServiceProxyById
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceProxy::GetServiceProxyById
+ - wsdclient/IWSDDeviceProxy::GetServiceProxyById
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceProxy.GetServiceProxyById
 ---
 
 # IWSDDeviceProxy::GetServiceProxyById
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a generic <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> service proxy by service ID. Service IDs can be obtained by examining the service host metadata.
 
-
 ## -parameters
-
-
-
 
 ### -param pszServiceId [in]
 
 The service ID.
 
-
 ### -param ppServiceProxy [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object for the specified service proxy.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -135,18 +127,8 @@ There is no endpoint associated with the service proxy.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
- 
-
- 
 

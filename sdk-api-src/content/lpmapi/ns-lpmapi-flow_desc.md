@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 11ecd7ac-13c4-4f55-9700-105153b4fead
 ms.date: 12/05/2018
 ms.keywords: FLOW_DESC, FLOW_DESC structure [QOS], lpmapi/FLOW_DESC, qos.flow_desc
-f1_keywords:
-- lpmapi/FLOW_DESC
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- FLOW_DESC
 targetos: Windows
 req.typenames: FLOW_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - flow_desc
+ - lpmapi/flow_desc
+ - FLOW_DESC
+ - lpmapi/FLOW_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - FLOW_DESC
 ---
 
 # FLOW_DESC structure
@@ -49,50 +52,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FLOW_DESC</b> structure contains flow descriptor information for RSVP.
 
-
 ## -struct-fields
-
-
-
 
 ### -field u1
 
 Union of Tspec and flowspec information.
 
-
 ### -field u1.stspec
 
 Sender Tspec, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a> structure.
-
 
 ### -field u1.isflow
 
 Integrated Services flowspec information, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-is_flowspec">IS_FLOWSPEC</a> structure.
 
-
 ### -field u2
 
 Union of sender and filterspec information.
-
 
 ### -field u2.stemp
 
 Sender template for the flow, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a> structure.
 
-
 ### -field u2.fspec
 
 Filter spec for the flow, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a>
 
@@ -103,7 +92,4 @@ Filter spec for the flow, expressed as a <a href="https://docs.microsoft.com/pre
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a>
- 
-
- 
 

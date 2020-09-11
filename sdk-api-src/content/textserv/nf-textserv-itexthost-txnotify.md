@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxnotify.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxNotify method, ITextHost.TxNotify, ITextHost::TxNotify, TxNotify, TxNotify method [Windows Controls], TxNotify method [Windows Controls],ITextHost interface, _win32_ITextHost_TxNotify, _win32_ITextHost_TxNotify_cpp, controls.ITextHost_TxNotify, controls._win32_ITextHost_TxNotify, textserv/ITextHost::TxNotify
-f1_keywords:
-- textserv/ITextHost.TxNotify
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxNotify
+ - textserv/ITextHost::TxNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxNotify
 ---
 
 # ITextHost::TxNotify
@@ -49,47 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-Notifies the text host of various events. 
-
+Notifies the text host of various events.
 
 ## -parameters
-
-
-
 
 ### -param iNotify [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Event to notify host of. One of the 
-					<b>EN_</b> notification codes. 
-
+					<b>EN_</b> notification codes.
 
 ### -param pv [in]
 
 Type: <b>void*</b>
 
 Extra data, dependent on 
-					<i>iNotify</i>. 
-
+					<i>iNotify</i>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK if the method succeeds. 
 
-Return S_FALSE if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>. 
-
-
-
+Return S_FALSE if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -remarks
-
-
 
 Note that there are two basic categories of events, 
 				<i>direct</i> and 
@@ -214,12 +201,7 @@ The following is a list of the notifications that may be sent.
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/Controls/en-msgfilter">EN_MSGFILTER</a> is not sent to <b>TxNotify</b>. To filter window messages, use <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txsendmessage">TxSendMessage</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -302,7 +284,4 @@ The following is a list of the notifications that may be sent.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

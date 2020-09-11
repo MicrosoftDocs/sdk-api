@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: B8FF907A-1448-43A4-B249-9D3D859D8F95
 ms.date: 12/05/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RtwqAllocateWorkQueue, RtwqAllocateWorkQueue function, base.rtwqallocateworkqueue, rtworkq/RtwqAllocateWorkQueue
-f1_keywords:
-- rtworkq/RtwqAllocateWorkQueue
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqAllocateWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqAllocateWorkQueue
+ - rtworkq/RtwqAllocateWorkQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqAllocateWorkQueue
 ---
 
 # RtwqAllocateWorkQueue function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new work queue.
 
-
 ## -parameters
-
-
-
 
 ### -param WorkQueueType [in]
 
@@ -98,19 +94,12 @@ Create a work queue with a message loop. The thread that dispatches the work ite
 </td>
 </tr>
 </table>
- 
-
 
 ### -param workQueueId [out]
 
 Receives an identifier for the work queue that was created.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

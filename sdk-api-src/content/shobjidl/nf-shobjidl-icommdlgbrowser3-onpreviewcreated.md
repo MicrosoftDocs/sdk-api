@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1506f553-e0b0-4d6b-9d63-15f3a2d38112
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnPreViewCreated method, ICommDlgBrowser3.OnPreViewCreated, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
-f1_keywords:
-- shobjidl/ICommDlgBrowser3.OnPreViewCreated
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- ICommDlgBrowser3.OnPreViewCreated
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICommDlgBrowser3::OnPreViewCreated
+ - shobjidl/ICommDlgBrowser3::OnPreViewCreated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - ICommDlgBrowser3.OnPreViewCreated
 ---
 
 # ICommDlgBrowser3::OnPreViewCreated
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called after a specified preview is created in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param ppshv [in]
 
@@ -64,14 +60,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface of the hosted view.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

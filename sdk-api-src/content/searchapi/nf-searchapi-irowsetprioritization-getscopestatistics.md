@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\getscopestatistics.htm
 ms.date: 12/05/2018
 ms.keywords: GetScopeStatistics, GetScopeStatistics method [search], GetScopeStatistics method [search],IRowsetPrioritization interface, IRowsetPrioritization interface [search],GetScopeStatistics method, IRowsetPrioritization.GetScopeStatistics, IRowsetPrioritization::GetScopeStatistics, _search_IRowsetPrioritization_GetScopeStatistics, search._search_IRowsetPrioritization_GetScopeStatistics, searchapi/IRowsetPrioritization::GetScopeStatistics
-f1_keywords:
-- searchapi/IRowsetPrioritization.GetScopeStatistics
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- IRowsetPrioritization.GetScopeStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRowsetPrioritization::GetScopeStatistics
+ - searchapi/IRowsetPrioritization::GetScopeStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - IRowsetPrioritization.GetScopeStatistics
 ---
 
 # IRowsetPrioritization::GetScopeStatistics
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information describing the scope specified by this query.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param indexedDocumentCount [out]
 
 Type: <b>DWORD*</b>
 
 The total number of documents currently indexed in the scope.
-        
-
 
 ### -param oustandingAddCount [out]
 
@@ -73,29 +66,19 @@ Type: <b>DWORD*</b>
 
 The total number of documents yet to be indexed in the scope. These documents are not yet included in <i>indexedDocumentCount</i>.
 
-
 ### -param oustandingModifyCount [out]
 
 Type: <b>DWORD*</b>
 
 The total number of documents indexed in the scope that need to be re-indexed. These documents are included in <i>indexedDocumentCount</i>.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Returns S_OK if successful, <b>HRESULT_FROM_WIN32(ERROR_PATH_NOT_FOUND)</b> if there are no indexed documents in the scope, or an error value otherwise.
 
@@ -104,9 +87,6 @@ The <b>GetScopeStatistics</b> event can be used to get the number of indexed ite
 Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -145,7 +125,4 @@ Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
- 
-
- 
 

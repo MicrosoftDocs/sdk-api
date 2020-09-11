@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 09aa1f67-c858-4bef-9a98-ce25ebcc1d4e
 ms.date: 12/05/2018
 ms.keywords: '*PGROUP_FILTER, GROUP_FILTER, GROUP_FILTER structure [Winsock], MCAST_EXCLUDE, MCAST_INCLUDE, PGROUP_FILTER, PGROUP_FILTER structure pointer [Winsock], winsock.group_filter, ws2ipdef/GROUP_FILTER, ws2ipdef/PGROUP_FILTER'
-f1_keywords:
-- ws2ipdef/GROUP_FILTER
-dev_langs:
-- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2ipdef.h
-api_name:
-- GROUP_FILTER
 targetos: Windows
 req.typenames: GROUP_FILTER, *PGROUP_FILTER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - group_filter
+ - ws2ipdef/group_filter
+ - PGROUP_FILTER
+ - ws2ipdef/PGROUP_FILTER
+ - GROUP_FILTER
+ - ws2ipdef/GROUP_FILTER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2ipdef.h
+api_name:
+ - GROUP_FILTER
 ---
 
 # GROUP_FILTER structure
@@ -49,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GROUP_FILTER</b> structure provides multicast filtering parameters for multicast IPv6 or IPv4 addresses.
-
 
 ## -struct-fields
 
-
-
-
 ### -field gf_interface
 
-The interface index of the local interface for the multicast group to filter. 
-
+The interface index of the local interface for the multicast group to filter.
 
 ### -field gf_group
 
 The multicast address group that should be filtered. This may be either an IPv6 or IPv4 multicast address.
-
 
 ### -field gf_fmode
 
@@ -102,22 +100,16 @@ The filter contains a list of IP addresses to exclude.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field gf_numsrc
 
-The number of multicast filter source address entries in the <b>gf_slist</b> member. 
-
+The number of multicast filter source address entries in the <b>gf_slist</b> member.
 
 ### -field gf_slist
 
 An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structures specifying the multicast source addresses to include or exclude. These IP addresses may be either IPv6 or IPv4 addresses, but they must be the same address family (IPv6 or IPv4) as the address specified in the <b>gf_group</b> member..
 
-
 ## -remarks
-
-
 
 The <b>GROUP_FILTER</b> structure is used with either IPv6 or IPv4 multicast addresses. The <b>GROUP_FILTER</b> structure is passed as an argument  for the <b>SIOCGMSFILTER</b> and <b>SIOCSMSFILTER</b> IOCTLs.  
 
@@ -131,13 +123,7 @@ The <b>GROUP_FILTER</b> structure and the Ioctls that use this structure are onl
 
 The <b>GROUP_FILTER</b> structure is defined in the <i>Ws2ipdef.h</i> header file which is automatically included in the <i>Ws2tcpip.h</i> header file. The <i>Ws2ipdef.h</i>  header files should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a>
 
@@ -176,7 +162,4 @@ The <b>GROUP_FILTER</b> structure is defined in the <i>Ws2ipdef.h</i> header fil
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ipv6_mreq">ipv6_mreq</a>
- 
-
- 
 

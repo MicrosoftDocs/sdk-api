@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 516b30ba-4f55-49b7-8085-d436bf4a94e1
 ms.date: 12/05/2018
 ms.keywords: IComponent, IComponent interface [Microsoft TV Technologies], IComponent interface [Microsoft TV Technologies],described, IComponentInterface, mstv.icomponent, tuner/IComponent
-f1_keywords:
-- tuner/IComponent
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IComponent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponent
+ - tuner/IComponent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IComponent
 ---
 
 # IComponent interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IComponent</b> interface a base class for all derived interfaces such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2component">IMPEG2Component</a> and it describes the general characteristics of a component, which is an elementary stream within the program stream. The derived interfaces describe the properties of a component that are specific to a given network type. Component objects are created and attached to the tune request by the BDA Transport Information Filter (TIF) after reception has begun. All component objects also support <b>IPersistPropertyBag</b>.
-
-
-
 
 ## -inheritance
 
@@ -152,29 +148,17 @@ Sets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ap
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IComponent)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

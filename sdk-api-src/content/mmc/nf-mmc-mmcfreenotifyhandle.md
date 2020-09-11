@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 92802835-4324-4678-be9c-51dc9ca27576
 ms.date: 12/05/2018
 ms.keywords: MMCFreeNotifyHandle, MMCFreeNotifyHandle callback, MMCFreeNotifyHandle callback function [MMC], _slate_mmcfreenotifyhandle, mmc.mmcfreenotifyhandle, mmc/MMCFreeNotifyHandle
-f1_keywords:
-- mmc/MMCFreeNotifyHandle
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mmc.h
-api_name:
-- MMCFreeNotifyHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MMCFreeNotifyHandle
+ - mmc/MMCFreeNotifyHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mmc.h
+api_name:
+ - MMCFreeNotifyHandle
 ---
 
 # MMCFreeNotifyHandle function
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 MMCFreeNotifyHandle function is called by a snap-in to free the handle to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a> notification message sent to the snap-in by MMC in response to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-mmcpropertychangenotify">MMCPropertyChangeNotify</a> call made by a property sheet.
 
-
 ## -parameters
-
-
-
 
 ### -param lNotifyHandle [in]
 
 A value that specifies a handle provided by the console during an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a> call.
 
-
 ## -returns
-
-
 
 This callback function can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 The handle to the notification is passed to the snap-in through a call to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a> method. If the snap-in returns a success code (S_OK, S_FALSE) from this method, then the snap-in must call 
@@ -115,12 +103,7 @@ CreatePropertyPages.</li>
 <i>MMCFreeNotifyHandle</i> in the snap-in's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a> notification handler is not recommended, because multiple pages may send notifications, or the same page could send multiple notifications (one each time the user clicks the <b>Apply</b> button).</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
@@ -131,7 +114,4 @@ CreatePropertyPages.</li>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-mmcpropertychangenotify">MMCPropertyChangeNotify</a>
- 
-
- 
 

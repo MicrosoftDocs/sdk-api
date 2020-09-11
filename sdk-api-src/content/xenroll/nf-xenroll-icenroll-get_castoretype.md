@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8b0b113d-4046-4b2b-8f3b-ad08bfe3d0ac
 ms.date: 12/05/2018
 ms.keywords: CAStoreType property [Security], CAStoreType property [Security],CEnroll object, CAStoreType property [Security],ICEnroll interface, CAStoreType property [Security],ICEnroll2 interface, CAStoreType property [Security],ICEnroll3 interface, CAStoreType property [Security],ICEnroll4 interface, CEnroll object [Security],CAStoreType property, ICEnroll interface [Security],CAStoreType property, ICEnroll.CAStoreType, ICEnroll.get_CAStoreType, ICEnroll2 interface [Security],CAStoreType property, ICEnroll2.CAStoreType, ICEnroll2::get_CAStoreType, ICEnroll2::put_CAStoreType, ICEnroll3 interface [Security],CAStoreType property, ICEnroll3.CAStoreType, ICEnroll3::get_CAStoreType, ICEnroll3::put_CAStoreType, ICEnroll4 interface [Security],CAStoreType property, ICEnroll4.CAStoreType, ICEnroll4::CAStoreType, ICEnroll4::get_CAStoreType, ICEnroll4::put_CAStoreType, ICEnroll::get_CAStoreType, ICEnroll::put_CAStoreType, get_CAStoreType, security.icenroll4_castoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::CAStoreType, xenroll/ICEnroll2::get_CAStoreType, xenroll/ICEnroll2::put_CAStoreType, xenroll/ICEnroll3::CAStoreType, xenroll/ICEnroll3::get_CAStoreType, xenroll/ICEnroll3::put_CAStoreType, xenroll/ICEnroll4::CAStoreType, xenroll/ICEnroll4::get_CAStoreType, xenroll/ICEnroll4::put_CAStoreType, xenroll/ICEnroll::CAStoreType, xenroll/ICEnroll::get_CAStoreType, xenroll/ICEnroll::put_CAStoreType
-f1_keywords:
-- xenroll/ICEnroll4.CAStoreType
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.CAStoreType
-- ICEnroll4.get_CAStoreType
-- ICEnroll4.put_CAStoreType
-- ICEnroll3.CAStoreType
-- ICEnroll3.get_CAStoreType
-- ICEnroll3.put_CAStoreType
-- ICEnroll2.CAStoreType
-- ICEnroll2.get_CAStoreType
-- ICEnroll2.put_CAStoreType
-- ICEnroll.CAStoreType
-- ICEnroll.get_CAStoreType
-- ICEnroll.put_CAStoreType
-- CEnroll.CAStoreType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::get_CAStoreType
+ - xenroll/ICEnroll::get_CAStoreType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.CAStoreType
+ - ICEnroll4.get_CAStoreType
+ - ICEnroll4.put_CAStoreType
+ - ICEnroll3.CAStoreType
+ - ICEnroll3.get_CAStoreType
+ - ICEnroll3.put_CAStoreType
+ - ICEnroll2.CAStoreType
+ - ICEnroll2.get_CAStoreType
+ - ICEnroll2.put_CAStoreType
+ - ICEnroll.CAStoreType
+ - ICEnroll.get_CAStoreType
+ - ICEnroll.put_CAStoreType
+ - CEnroll.CAStoreType
 ---
 
 # ICEnroll::get_CAStoreType
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -71,14 +71,9 @@ The default value for this property is  sz_CERT_STORE_PROV_SYSTEM. Only system s
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>CAStoreType</b> property affects the behavior of the following methods:
 
@@ -122,7 +117,4 @@ if ( FAILED ( hr ) )
 else
     printf( "CAStoreType was set to %ws\n", bstrNewType );
 ```
-
-
-
 

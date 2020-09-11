@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 77437b06-fb02-44b5-8642-b3de700853ef
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegettranslatecaps, lineGetTranslateCaps, lineGetTranslateCaps function [TAPI 2.2], lineGetTranslateCapsA, lineGetTranslateCapsW, tapi/lineGetTranslateCaps, tapi/lineGetTranslateCapsA, tapi/lineGetTranslateCapsW, tapi2.linegettranslatecaps
-f1_keywords:
-- tapi/lineGetTranslateCaps
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGetTranslateCaps
-- lineGetTranslateCapsA
-- lineGetTranslateCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGetTranslateCaps
+ - tapi/lineGetTranslateCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGetTranslateCaps
+ - lineGetTranslateCapsA
+ - lineGetTranslateCapsW
 ---
 
 # lineGetTranslateCaps function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGetTranslateCaps</b> function returns address translation capabilities.
 
-
 ## -parameters
-
-
-
 
 ### -param hLineApp
 
@@ -77,7 +73,6 @@ Handle returned by the
 Highest version of TAPI supported by the application (not necessarily the value negotiated by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a> on some particular line device).
 
-
 ### -param lpTranslateCaps
 
 Pointer to a location to which a 
@@ -93,19 +88,11 @@ Pointer to a location to which a
 
 ## -returns
 
-
-
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_OPERATIONFAILED, LINEERR_INVALAPPHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_STRUCTURETOOSMALL, LINEERR_NODRIVER.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
@@ -124,7 +111,4 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
- 
-
- 
 

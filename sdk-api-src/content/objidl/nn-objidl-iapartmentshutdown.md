@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 28EDAC77-5175-4AF7-A06C-B735336AAD9B
 ms.date: 12/05/2018
 ms.keywords: IApartmentShutdown, IApartmentShutdown interface [Windows Runtime], IApartmentShutdown interface [Windows Runtime],described, objidl/IApartmentShutdown, winrt.iapartmentshutdown
-f1_keywords:
-- objidl/IApartmentShutdown
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidl.h
-api_name:
-- IApartmentShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApartmentShutdown
+ - objidl/IApartmentShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidl.h
+api_name:
+ - IApartmentShutdown
 ---
 
 # IApartmentShutdown interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables registration of  an apartment shutdown notification handler.
-
 
 ## -inheritance
 
@@ -77,25 +76,13 @@ Called when a registered apartment is shut down.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Implement the <b>IApartmentShutdown</b> interface to use the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a> function.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a>
- 
-
- 
 

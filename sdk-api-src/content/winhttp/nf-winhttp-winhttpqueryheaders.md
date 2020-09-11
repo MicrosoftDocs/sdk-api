@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 9656ebad-78df-4d1c-94e9-6127d6bc4799
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryHeaders, WinHttpQueryHeaders function [WinHTTP], http.winhttpqueryheaders, winhttp.winhttpqueryheaders_function, winhttp/WinHttpQueryHeaders
-f1_keywords:
-- winhttp/WinHttpQueryHeaders
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpQueryHeaders
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpQueryHeaders
+ - winhttp/WinHttpQueryHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpQueryHeaders
 ---
 
 # WinHttpQueryHeaders function
@@ -49,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpQueryHeaders</b> function retrieves header information associated with an HTTP request.
-
 
 ## -parameters
 
-
-
-
 ### -param hRequest [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> request handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>. 
 WinHttpReceiveResponse must have been called for this handle and have completed before <b>WinHttpQueryHeaders</b> is called.
 
-
 ### -param dwInfoLevel [in]
 
 Value of type <b>DWORD</b> that specifies a combination of attribute and modifier flags listed on the 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/query-info-flags">Query Info Flags</a> page. These attribute and modifier flags indicate that the information is being requested and how it is to be formatted.
-
 
 ### -param pwszName [in, optional]
 
@@ -78,14 +71,12 @@ Pointer to a string that contains the header name. If the flag in
 <i>dwInfoLevel</i> is not 
 <b>WINHTTP_QUERY_CUSTOM</b>, set this parameter to WINHTTP_HEADER_NAME_BY_INDEX.
 
-
 ### -param lpBuffer [out]
 
 Pointer to the buffer that receives the information. Setting this parameter to WINHTTP_NO_OUTPUT_BUFFER causes this function to return <b>FALSE</b>.  Calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> then returns 
 <b>ERROR_INSUFFICIENT_BUFFER</b> and 
 <i>lpdwBufferLength</i> contains the number of bytes required to hold the requested information.
-
 
 ### -param lpdwBufferLength [in, out]
 
@@ -105,10 +96,7 @@ Pointer to a value of type <b>DWORD</b> that specifies the length of the data bu
 Pointer to a zero-based header index used to enumerate multiple headers with the same name. When calling the function, this parameter is the index of the specified header to return. When the function returns, this parameter is the index of the next header. If the next index cannot be found, 
 <b>ERROR_WINHTTP_HEADER_NOT_FOUND</b> is returned. Set this parameter to WINHTTP_NO_HEADER_INDEX to specify that only the first occurrence of a header should be returned.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -174,14 +162,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -300,14 +282,7 @@ The following example shows how to obtain an
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -334,7 +309,4 @@ Microsoft Windows HTTP Services (WinHTTP)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
- 
-
- 
 

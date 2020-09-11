@@ -33,6 +33,7 @@ api_location:
 api_name:
  - IsUserCetAvailableInEnvironment
 f1_keywords:
+ - IsUserCetAvailableInEnvironment
  - sysinfoapi/IsUserCetAvailableInEnvironment
 dev_langs:
  - c++
@@ -99,11 +100,9 @@ The virtualization-based security (VBS) basic enclave environment.
 </tr>
 </table>
 
-
 ## -returns
 
 TRUE if user-mode Hardware-enforced Stack Protection is available for the specified environment, FALSE otherwise.
-
 
 ## -remarks
 

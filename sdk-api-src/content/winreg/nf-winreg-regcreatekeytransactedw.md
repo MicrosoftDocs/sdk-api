@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
 ms.date: 12/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyTransacted, RegCreateKeyTransacted function, RegCreateKeyTransactedA, RegCreateKeyTransactedW, base.regcreatekeytransacted, winreg/RegCreateKeyTransacted, winreg/RegCreateKeyTransactedA, winreg/RegCreateKeyTransactedW
-f1_keywords:
-- winreg/RegCreateKeyTransacted
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-Registry-l2-2-0.dll
-api_name:
-- RegCreateKeyTransacted
-- RegCreateKeyTransactedA
-- RegCreateKeyTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegCreateKeyTransactedW
+ - winreg/RegCreateKeyTransactedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l2-2-0.dll
+api_name:
+ - RegCreateKeyTransacted
+ - RegCreateKeyTransactedA
+ - RegCreateKeyTransactedW
 ---
 
 # RegCreateKeyTransactedW function
@@ -54,16 +55,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates the specified registry key and associates it with a  transaction. If the key already exists, the function opens it. Note that key names are not case sensitive.
 
  Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -86,8 +82,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param lpSubKey [in]
 
 The name of a subkey that this function opens or creates. The subkey specified must be a subkey of the key identified by the <i>hKey</i> parameter; it can be up to 32 levels deep in the registry tree. For more information on key names, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/structure-of-the-registry">Structure of the Registry</a>.
@@ -96,16 +90,13 @@ If <i>lpSubKey</i> is a pointer to an empty string, <i>phkResult</i> receives a 
 
 This parameter cannot be <b>NULL</b>.
 
-
 ### -param Reserved
 
 This parameter is reserved and must be zero.
 
-
 ### -param lpClass [in, optional]
 
 The user-defined class of this key. This parameter may be ignored. This parameter can be <b>NULL</b>.
-
 
 ### -param dwOptions [in]
 
@@ -155,14 +146,11 @@ All keys created by the function are volatile. The information is stored in memo
 </td>
 </tr>
 </table>
- 
-
 
 ### -param samDesired [in]
 
 A mask that specifies the access rights for the key to be created. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
-
 
 ### -param lpSecurityAttributes [in, optional]
 
@@ -174,12 +162,10 @@ A pointer to a
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new key. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the key gets a default security descriptor. The ACLs in a default security descriptor for a key are inherited from its direct parent key.
 
-
 ### -param phkResult [out]
 
 A pointer to a variable that receives a handle to the opened or created key. If the key is not one of the predefined registry keys, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function after you have finished using the handle.
-
 
 ### -param lpdwDisposition [out, optional]
 
@@ -217,32 +203,22 @@ The key existed and was simply opened without being changed.
 
 If <i>lpdwDisposition</i> is <b>NULL</b>, no disposition information is returned.
 
-
 ### -param hTransaction [in]
 
 A handle to an active transaction. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
-
 
 ### -param pExtendedParemeter
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 When a key is created using this function, subsequent operations on the key are transacted. If a non-transacted operation is performed on the key before the transaction is committed, the transaction is rolled back. After a transaction is committed or rolled back, you must re-open the key using <b>RegCreateKeyTransacted</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> with an active transaction handle to make additional operations transacted. For more information about transactions, see <a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-portal">Kernel Transaction Manager</a>.
 
@@ -270,9 +246,6 @@ An application cannot create a key that is a direct child of <b>HKEY_USERS</b> o
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
@@ -298,7 +271,4 @@ An application cannot create a key that is a direct child of <b>HKEY_USERS</b> o
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
- 
-
- 
 

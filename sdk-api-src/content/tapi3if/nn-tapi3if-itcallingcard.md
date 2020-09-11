@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 09787cd2-56b5-4ed2-8783-f3c53ce2cc66
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard, ITCallingCard interface [TAPI 2.2], ITCallingCard interface [TAPI 2.2],described, _tapi3_itcallingcard, tapi3.itcallingcard, tapi3if/ITCallingCard
-f1_keywords:
-- tapi3if/ITCallingCard
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallingCard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallingCard
+ - tapi3if/ITCallingCard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallingCard
 ---
 
 # ITCallingCard interface
 
 
 ## -description
-
 
 The 
 <b>ITCallingCard</b> interface provides methods to retrieve information concerning telephony calling cards.
@@ -63,7 +63,6 @@ An
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> function returns a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure. The <b>dwCardListOffset</b> member of this structure points to a list of 
 <b>LINECARDENTRY</b> structures.
-
 
 ## -inheritance
 
@@ -143,13 +142,9 @@ Gets the dialing rules for calls within the same area code.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -172,7 +167,4 @@ Gets the dialing rules for calls within the same area code.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
- 
-
- 
 

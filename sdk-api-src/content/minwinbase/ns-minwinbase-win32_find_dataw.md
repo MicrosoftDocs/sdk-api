@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: eb700d84-0ba5-4af8-a619-2d2544560dbc
 ms.date: 12/05/2018
 ms.keywords: '*LPWIN32_FIND_DATAW, *PWIN32_FIND_DATAW, IO_REPARSE_TAG_CSV, IO_REPARSE_TAG_DEDUP, IO_REPARSE_TAG_DFS, IO_REPARSE_TAG_DFSR, IO_REPARSE_TAG_HSM, IO_REPARSE_TAG_HSM2, IO_REPARSE_TAG_MOUNT_POINT, IO_REPARSE_TAG_NFS, IO_REPARSE_TAG_SIS, IO_REPARSE_TAG_SYMLINK, IO_REPARSE_TAG_WIM, LPWIN32_FIND_DATA, LPWIN32_FIND_DATA structure pointer [Files], PWIN32_FIND_DATA, PWIN32_FIND_DATA structure pointer [Files], WIN32_FIND_DATA, WIN32_FIND_DATA structure [Files], WIN32_FIND_DATAA, WIN32_FIND_DATAW, _win32_win32_find_data_str, base.win32_find_data_str, fs.win32_find_data_str, minwinbase/LPWIN32_FIND_DATA, minwinbase/PWIN32_FIND_DATA, minwinbase/WIN32_FIND_DATA, minwinbase/WIN32_FIND_DATAA, minwinbase/WIN32_FIND_DATAW, winbase/LPWIN32_FIND_DATA, winbase/PWIN32_FIND_DATA, winbase/WIN32_FIND_DATA, winbase/WIN32_FIND_DATAA, winbase/WIN32_FIND_DATAW'
-f1_keywords:
-- minwinbase/WIN32_FIND_DATA
-dev_langs:
-- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- MinWinBase.h
-- WinBase.h
-api_name:
-- WIN32_FIND_DATA
-- WIN32_FIND_DATAA
-- WIN32_FIND_DATAW
 targetos: Windows
 req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WIN32_FIND_DATAW
+ - minwinbase/_WIN32_FIND_DATAW
+ - PWIN32_FIND_DATAW
+ - minwinbase/PWIN32_FIND_DATAW
+ - WIN32_FIND_DATAW
+ - minwinbase/WIN32_FIND_DATAW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - MinWinBase.h
+ - WinBase.h
+api_name:
+ - WIN32_FIND_DATA
+ - WIN32_FIND_DATAA
+ - WIN32_FIND_DATAW
 ---
 
 # WIN32_FIND_DATAW structure
@@ -52,17 +57,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the file  that is found by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>, or 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFileAttributes
 
@@ -74,14 +74,12 @@ For possible values and their descriptions, see
 The <b>FILE_ATTRIBUTE_SPARSE_FILE</b> attribute on the file is set if any of the streams 
        of the file have ever been sparse.
 
-
 ### -field ftCreationTime
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies when a file or 
        directory was created.
 
 If the underlying file system does not support creation time, this member is zero.
-
 
 ### -field ftLastAccessTime
 
@@ -96,7 +94,6 @@ For a directory, the structure specifies when the directory is created. If the u
 On the FAT file system, the specified date for both files and directories is correct, but the time of day is 
        always set to midnight.
 
-
 ### -field ftLastWriteTime
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
@@ -109,7 +106,6 @@ For a file, the structure specifies when the file was last written to, truncated
 For a directory, the structure specifies when the directory is created. If the underlying file system does 
        not support last write time, this member is zero.
 
-
 ### -field nFileSizeHigh
 
 The high-order <b>DWORD</b> value of the file size, in bytes.
@@ -119,11 +115,9 @@ This value is zero unless the file size is greater than <b>MAXDWORD</b>.
 The size of the file is equal to (<b>nFileSizeHigh</b> * 
        (<b>MAXDWORD</b>+1)) + <b>nFileSizeLow</b>.
 
-
 ### -field nFileSizeLow
 
 The low-order <b>DWORD</b> value of the file size, in bytes.
-
 
 ### -field dwReserved0
 
@@ -179,16 +173,13 @@ For more information see <a href="https://docs.microsoft.com/windows/desktop/Fil
 
 #### IO_REPARSE_TAG_WIM (0x80000008)
 
-
 ### -field dwReserved1
 
 Reserved for future use.
 
-
 ### -field cFileName
 
 The name of the file.
-
 
 ### -field cAlternateFileName
 
@@ -196,16 +187,9 @@ An alternative name for the file.
 
 This name is in the classic 8.3 file name format.
 
-
 ### -field dwFileType
 
- 
-
-
 ### -field dwCreatorType
-
- 
-
 
 ### -field wFinderFlags
 
@@ -246,10 +230,7 @@ This name is in the classic 8.3 file name format.
 
 ##### - dwReserved0.IO_REPARSE_TAG_WIM (0x80000008)
 
-
 ## -remarks
-
-
 
 If a file has a long file name, the complete name appears in the <b>cFileName</b> member, 
     and the 8.3 format truncated version of the name appears in the <b>cAlternateFileName</b> 
@@ -277,9 +258,6 @@ Not all file systems can record creation and last access times, and not all file
 > The minwinbase.h header defines WIN32_FIND_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
@@ -318,7 +296,4 @@ Not all file systems can record creation and last access times, and not all file
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
- 
-
- 
 

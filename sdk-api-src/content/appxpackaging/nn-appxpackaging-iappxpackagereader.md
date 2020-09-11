@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: D34D0909-BE2B-4182-8C3D-36A4E8DDC820
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageReader, IAppxPackageReader interface [App packaging and management], IAppxPackageReader interface [App packaging and management],described, appxpackaging/IAppxPackageReader, appxpkg.iappxpackagereader
-f1_keywords:
-- appxpackaging/IAppxPackageReader
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxPackageReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxPackageReader
+ - appxpackaging/IAppxPackageReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxPackageReader
 ---
 
 # IAppxPackageReader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a read-only object model for app packages.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Retrieves an enumerator that iterates through the payload files in the package.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IAppxPackageReader</b> interface provides the ability to access payload files from a package and to query metadata from footprint files. 
 
@@ -131,15 +127,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>
- 
-
- 
 

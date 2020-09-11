@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 6c1409c9-da73-4d21-bf56-07e9ab7b33a0
 ms.date: 12/05/2018
 ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], ITAgent interface [TAPI 2.2],described, _tapi3_itagent, tapi3.itagent, tapi3cc/ITAgent
-f1_keywords:
-- tapi3cc/ITAgent
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgent
+ - tapi3cc/ITAgent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgent
 ---
 
 # ITAgent interface
 
 
 ## -description
-
 
 Agents are the heart of a call center. They are responsible for receiving and processing incoming calls and, at times, making outgoing calls to customers or prospects. The following methods create the 
 <b>ITAgent</b> interface:
@@ -67,7 +67,6 @@ Agents are the heart of a call center. They are responsible for receiving and pr
 
 See 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a> for additional information.
-
 
 ## -inheritance
 
@@ -237,20 +236,13 @@ Sets the state of an agent session.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

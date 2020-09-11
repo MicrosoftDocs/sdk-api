@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: E46AF02B-324F-43A8-8C73-9FE1E8E771E9
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
-f1_keywords:
-- enclaveapi/IsEnclaveTypeSupported
-dev_langs:
-- c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-core-enclave-l1-1-0.dll
-- kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-Enclave-L1-1-0.dll
-api_name:
-- IsEnclaveTypeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsEnclaveTypeSupported
+ - enclaveapi/IsEnclaveTypeSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-core-enclave-l1-1-0.dll
+ - kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Enclave-L1-1-0.dll
+api_name:
+ - IsEnclaveTypeSupported
 ---
 
 # IsEnclaveTypeSupported function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves whether the specified type of enclave is supported.
 
-
 ## -parameters
-
-
-
 
 ### -param flEnclaveType [in]
 
@@ -93,12 +89,8 @@ A  virtualization-based security (VBS) enclave.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -121,7 +113,4 @@ An unsupported enclave type was specified.
 </td>
 </tr>
 </table>
- 
-
-
 

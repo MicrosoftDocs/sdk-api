@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getretrievalfilter.htm
 ms.date: 12/05/2018
 ms.keywords: 2b23a290-1dc3-6619-a573-ee54c7ce9984, GetRetrievalFilter, GetRetrievalFilter method [Direct3D 10], GetRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetRetrievalFilter method, ID3D10InfoQueue.GetRetrievalFilter, ID3D10InfoQueue::GetRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::GetRetrievalFilter, direct3d10.id3d10infoqueue_getretrievalfilter
-f1_keywords:
-- d3d10sdklayers/ID3D10InfoQueue.GetRetrievalFilter
-dev_langs:
-- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10SDKLayers.h
-api_name:
-- ID3D10InfoQueue.GetRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10InfoQueue::GetRetrievalFilter
+ - d3d10sdklayers/ID3D10InfoQueue::GetRetrievalFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10SDKLayers.h
+api_name:
+ - ID3D10InfoQueue.GetRetrievalFilter
 ---
 
 # ID3D10InfoQueue::GetRetrievalFilter
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Get the retrieval filter at the top of the retrieval-filter stack.
 
-
 ## -parameters
-
-
-
 
 ### -param pFilter [out]
 
@@ -64,32 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/
 
 Retrieval filter at the top of the retrieval-filter stack.
 
-
 ### -param pFilterByteLength [in, out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a>*</b>
 
 Size of the retrieval filter in bytes. If pFilter is <b>NULL</b>, the size of the retrieval filter will be output to this parameter.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>
- 
-
- 
 

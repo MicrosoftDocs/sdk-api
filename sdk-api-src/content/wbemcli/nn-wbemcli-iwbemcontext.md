@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 458bd455-6984-414b-a0b7-62887d9dad7c
 ms.date: 12/05/2018
 ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], IWbemContext interface [Windows Management Instrumentation],described, WbemContext, _hmm_iwbemcontext, wbemcli/IWbemContext, wmi.iwbemcontext
-f1_keywords:
-- wbemcli/IWbemContext
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Esscli.dll
-- Fastprox.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wmipjobj.dll
-api_name:
-- IWbemContext
-- WbemContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemContext
+ - wbemcli/IWbemContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Esscli.dll
+ - Fastprox.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wmipjobj.dll
+api_name:
+ - IWbemContext
+ - WbemContext
 ---
 
 # IWbemContext interface
@@ -57,12 +58,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemContext</b> interface is optionally used to communicate  additional context information to providers when submitting 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> calls to WMI. All primary calls in 
 <b>IWbemServices</b> take an optional parameter pointing to an object of this type.
-
 
 ## -inheritance
 
@@ -166,12 +165,9 @@ Sets a specific named context value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Often, dynamic providers require more information than is specified in the normal parameters of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> method. For example, to manipulate any WMI schema objects that it provides, a provider may need to know a Simple Network Management Protocol (SNMP) community name, or a Structured Query Language (SQL) database and table name. A client can add this information to an 
@@ -208,13 +204,7 @@ The client application calls <a href="https://docs.microsoft.com/windows/desktop
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-setvalue">SetValue</a> one or more times to set up context values for the provider. Finally, it submits the object to one of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> methods, which immediately calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the context object after the call has returned. The other methods are for use primarily by providers that receive the context object and have to extract information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
@@ -233,7 +223,4 @@ The client application calls <a href="https://docs.microsoft.com/windows/desktop
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>
- 
-
- 
 

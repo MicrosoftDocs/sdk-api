@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 9C06B976-9B60-43B6-B68B-255A6882912B
 ms.date: 12/05/2018
 ms.keywords: WinBioEnrollSelect, WinBioEnrollSelect function [Windows Biometric Framework API], secbiomet.winbioenrollselect, winbio/WinBioEnrollSelect
-f1_keywords:
-- winbio/WinBioEnrollSelect
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- winbio.dll
-- Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioEnrollSelect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioEnrollSelect
+ - winbio/WinBioEnrollSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - winbio.dll
+ - Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioEnrollSelect
 ---
 
 # WinBioEnrollSelect function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the individual  that you want to enroll when data that represents multiple individuals is present in the sample buffer. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
@@ -66,15 +62,11 @@ A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session. 
 
 For enrollment in facial recognition, use <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> with the <i>PoolType</i> parameter set to <b>WINBIO_POOL_SYSTEM</b> to get the handle.
 
-
 ### -param SelectorValue [in]
 
 A value that identifies that individual that you want to select for enrollment.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -117,14 +109,8 @@ The session handle does not correspond to a biometric session.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For enrollment in facial recognition, you can find the correct selector value in either of two ways:
 
@@ -142,13 +128,7 @@ If you do not call <b>WinBioEnrollSelect</b> for a biometric factor that require
 
 You can call <b>WinBioEnrollSelect</b> by using either a synchronous or asynchronous session handle. As with other calls to Windows Biometric Framework API functions, when you call <b>WinBioEnrollSelect</b>  with an asynchronous session handle, the return value indicates only that the function parameters were acceptable. The actual success or failure of the operation itself will be returned to your notification routine in a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a>
 
@@ -171,7 +151,4 @@ You can call <b>WinBioEnrollSelect</b> by using either a synchronous or asynchro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrolldiscard">WinBioEnrollDiscard</a>
- 
-
- 
 

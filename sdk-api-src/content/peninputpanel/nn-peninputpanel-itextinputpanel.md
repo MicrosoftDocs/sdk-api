@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 1e719900-db58-430d-9059-efb3f884f6f0
 ms.date: 12/05/2018
 ms.keywords: 1e719900-db58-430d-9059-efb3f884f6f0, ITextInputPanel, ITextInputPanel interface [Tablet PC], ITextInputPanel interface [Tablet PC],described, peninputpanel/ITextInputPanel, tablet.itextinputpanel
-f1_keywords:
-- peninputpanel/ITextInputPanel
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel
+ - peninputpanel/ITextInputPanel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel
 ---
 
 # ITextInputPanel interface
@@ -339,12 +340,9 @@ Gets or sets the preferred direction of the in-place Input Panel relative to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>ITextInputPanel Interface</b> gives application developers more control and information about Input Panel's state than <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel Class</a>. <b>ITextInputPanel Interface</b> replaces the <b>PenInputPanel Class</b> as the preferred mechanism for programmatically interacting with the Input Panel.
 
@@ -358,6 +356,4 @@ Gets or sets the preferred direction of the in-place Input Panel relative to the
 The <b>ITextInputPanel Interface</b> continues to provide nearly all of the programmatic capabilities of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel Class</a> thus superseding the <b>PenInputPanel Class</b>.
 
 This element is declared in Peninputpanel.h.
-
-
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: c0d8e61d-8703-407a-9610-9e9f29ab92a1
 ms.date: 12/05/2018
 ms.keywords: GetMarkerCount, GetMarkerCount method [windows Media Format], GetMarkerCount method [windows Media Format],IWMHeaderInfo interface, GetMarkerCount method [windows Media Format],IWMHeaderInfo2 interface, GetMarkerCount method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo.GetMarkerCount, IWMHeaderInfo2 interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo2::GetMarkerCount, IWMHeaderInfo3 interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo3::GetMarkerCount, IWMHeaderInfo::GetMarkerCount, IWMHeaderInfoGetMarkerCount, wmformat.iwmheaderinfo_getmarkercount, wmsdkidl/IWMHeaderInfo2::GetMarkerCount, wmsdkidl/IWMHeaderInfo3::GetMarkerCount, wmsdkidl/IWMHeaderInfo::GetMarkerCount
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo.GetMarkerCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMHeaderInfo.GetMarkerCount
-- IWMHeaderInfo2.GetMarkerCount
-- IWMHeaderInfo3.GetMarkerCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo::GetMarkerCount
+ - wmsdkidl/IWMHeaderInfo::GetMarkerCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMHeaderInfo.GetMarkerCount
+ - IWMHeaderInfo2.GetMarkerCount
+ - IWMHeaderInfo3.GetMarkerCount
 ---
 
 # IWMHeaderInfo::GetMarkerCount
@@ -55,26 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetMarkerCount</b> method returns the number of <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">markers</a> currently in the header section of the ASF file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcMarkers [out]
 
 Pointer to a count of markers.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -117,15 +107,8 @@ The method failed for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
@@ -144,7 +127,4 @@ The method failed for an unspecified reason.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/markers">Markers</a>
- 
-
- 
 

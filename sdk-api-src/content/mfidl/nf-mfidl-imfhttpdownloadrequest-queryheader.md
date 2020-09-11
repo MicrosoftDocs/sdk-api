@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: BFAE5257-0BE8-47F3-B3CD-490885E60065
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadRequest interface [Media Foundation],QueryHeader method, IMFHttpDownloadRequest.QueryHeader, IMFHttpDownloadRequest::QueryHeader, QueryHeader, QueryHeader method [Media Foundation], QueryHeader method [Media Foundation],IMFHttpDownloadRequest interface, mf.imfhttpdownloadrequest_queryheader, mfidl/IMFHttpDownloadRequest::QueryHeader
-f1_keywords:
-- mfidl/IMFHttpDownloadRequest.QueryHeader
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFHttpDownloadRequest.QueryHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFHttpDownloadRequest::QueryHeader
+ - mfidl/IMFHttpDownloadRequest::QueryHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFHttpDownloadRequest.QueryHeader
 ---
 
 # IMFHttpDownloadRequest::QueryHeader
@@ -52,33 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invoked by Microsoft Media Foundation to retrieve the values of specified HTTP headers from the response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param szHeaderName [in]
 
 The name of the HTTP header for which the value is being queried.
 
-
 ### -param dwIndex [in]
 
 The index number of the specified header, for the case where the response contains multiple headers with the same name. A value of 0 indicates that the value of the first header with the specified name is requested, 1 indicates that the second header is requested, and so on.
-
 
 ### -param ppszHeaderValue [out]
 
 Set to the value of the requested header, not including the carriage return or line feed characters. The memory for <i>ppszHeaderValue</i> must be allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and will be freed by Media Foundation with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -133,18 +124,8 @@ The <i>dwIndex</i> parameter value is out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
- 
-
- 
 

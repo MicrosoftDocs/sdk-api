@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 887a7394-9fe0-473a-825b-f095b01626c4
 ms.date: 12/05/2018
 ms.keywords: 887a7394-9fe0-473a-825b-f095b01626c4, IMF2DBuffer interface [Media Foundation],Lock2D method, IMF2DBuffer.Lock2D, IMF2DBuffer::Lock2D, Lock2D, Lock2D method [Media Foundation], Lock2D method [Media Foundation],IMF2DBuffer interface, mf.imf2dbuffer_lock2d, mfobjects/IMF2DBuffer::Lock2D
-f1_keywords:
-- mfobjects/IMF2DBuffer.Lock2D
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMF2DBuffer.Lock2D
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMF2DBuffer::Lock2D
+ - mfobjects/IMF2DBuffer::Lock2D
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMF2DBuffer.Lock2D
 ---
 
 # IMF2DBuffer::Lock2D
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gives the caller access to the memory in the buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppbScanline0 [out]
 
 Receives a pointer to the first byte of the top row of pixels in the image. The top row is defined as the top row when the image is presented to the viewer, and might not be the first row in memory.
 
-
 ### -param plPitch [out]
 
 Receives the surface stride, in bytes. The stride might be negative, indicating that the image is oriented from the bottom up in memory.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -117,14 +106,8 @@ The buffer cannot be locked at this time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>p</i> is a pointer to the first byte in a row of pixels, <i>p</i> + (*<i>plPitch</i>) points to the first byte in the next row of pixels. A buffer might contain padding after each row of pixels, so the stride might be wider than the width of the image in bytes. Do not access the memory that is reserved for padding bytes, because it might not be read-accessible or write-accessible. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/image-stride">Image Stride</a>.
 
@@ -136,13 +119,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjec
 
 When the underlying buffer is a Direct3D surface, the method fails if the surface is not lockable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
@@ -153,7 +130,4 @@ When the underlying buffer is a Direct3D surface, the method fails if the surfac
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
- 
-
- 
 

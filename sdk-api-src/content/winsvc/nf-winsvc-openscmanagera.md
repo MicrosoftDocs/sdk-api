@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a0237989-e5a7-4a3a-ab23-e2474a995341
 ms.date: 12/05/2018
 ms.keywords: OpenSCManager, OpenSCManager function, OpenSCManagerA, OpenSCManagerW, _win32_openscmanager, base.openscmanager, winsvc/OpenSCManager, winsvc/OpenSCManagerA, winsvc/OpenSCManagerW
-f1_keywords:
-- winsvc/OpenSCManager
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Service-management-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- OpenSCManager
-- OpenSCManagerA
-- OpenSCManagerW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenSCManagerA
+ - winsvc/OpenSCManagerA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Service-management-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - OpenSCManager
+ - OpenSCManagerA
+ - OpenSCManagerW
 ---
 
 # OpenSCManagerA function
@@ -57,24 +58,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Establishes a connection to the service control manager on the specified computer and opens the specified service control manager database.
 
-
 ## -parameters
-
-
-
 
 ### -param lpMachineName [in, optional]
 
 The name of the target computer. If the pointer is NULL or points to an empty string, the function connects to the service control manager on the local computer.
 
-
 ### -param lpDatabaseName [in, optional]
 
 The name of the service control manager database. This parameter should be set to SERVICES_ACTIVE_DATABASE. If it is NULL, the SERVICES_ACTIVE_DATABASE database is opened by default.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -88,10 +82,7 @@ Before granting the requested access rights, the system checks the access token 
 
 The SC_MANAGER_CONNECT access right is implicitly specified by calling this function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the specified service control manager database.
 
@@ -128,14 +119,8 @@ The specified database does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a process uses the 
 <b>OpenSCManager</b> function to open a handle to a service control manager database, the system performs a security check before granting the requested access. For more information, see 
@@ -166,9 +151,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a>
 
 
@@ -190,7 +172,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
- 
-
- 
 

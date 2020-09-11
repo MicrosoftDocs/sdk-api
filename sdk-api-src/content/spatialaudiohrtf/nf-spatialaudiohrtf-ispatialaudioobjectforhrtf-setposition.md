@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 4FB6852D-A793-43A1-A58F-E7DCFDB5BBDD
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetPosition method, ISpatialAudioObjectForHrtf.SetPosition, ISpatialAudioObjectForHrtf::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setposition, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetPosition
-f1_keywords:
-- spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetPosition
-dev_langs:
-- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudiohrtf.h
-api_name:
-- ISpatialAudioObjectForHrtf.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioObjectForHrtf::SetPosition
+ - spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudiohrtf.h
+api_name:
+ - ISpatialAudioObjectForHrtf.SetPosition
 ---
 
 # ISpatialAudioObjectForHrtf::SetPosition
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the position in 3D space, relative to the listener, from which the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> audio data will be rendered.
 
-
 ## -parameters
-
-
-
 
 ### -param x [in]
 
 The x position of the audio object, in meters, relative to the listener. Positive values are to the right of the listener and negative values are to the left.
 
-
 ### -param y [in]
 
 The y position of the audio object, in meters, relative to the listener. Positive values are above the listener and negative values are below.
-
 
 ### -param z [in]
 
 The z position of the audio object, in meters, relative to the listener. Positive values are behind the listener and negative values are in front.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -120,14 +111,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can only be called on a  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> that is of type <b>AudioObjectType_Dynamic</b>. Set the type of the audio object with the <i>type</i> parameter to the  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf-activatespatialaudioobjectforhrtf">ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf</a> method.
 
@@ -135,16 +120,7 @@ This method can only be called on a  <a href="https://docs.microsoft.com/windows
 
 If <b>SetPosition</b> is never called, the origin (x=0.0, y=0.0, z=0.0) is used as the default position. After <b>SetPosition</b> is called, the position that is set will be used for the audio object until the position is changed with another call to <b>SetPosition</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 84faf4b7-6bdc-4ecc-92c0-c27e36bbe912
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_SubscriptionEnd, RESPONSEBODY_SubscriptionEnd structure, http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryFailure, http://schemas.xmlsoap.org/ws/2004/08/eventing/SourceCancelling, http://schemas.xmlsoap.org/ws/2004/08/eventing/SourceShuttingDown, ncd.responsebody_subscriptionend, wsdtypes/RESPONSEBODY_SubscriptionEnd
-f1_keywords:
-- wsdtypes/RESPONSEBODY_SubscriptionEnd
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdTypes.h
-api_name:
-- RESPONSEBODY_SubscriptionEnd
 targetos: Windows
 req.typenames: RESPONSEBODY_SubscriptionEnd
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RESPONSEBODY_SubscriptionEnd
+ - wsdtypes/RESPONSEBODY_SubscriptionEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdTypes.h
+api_name:
+ - RESPONSEBODY_SubscriptionEnd
 ---
 
 # RESPONSEBODY_SubscriptionEnd structure
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a WS-Eventing SubscriptionEnd response message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SubscriptionManager
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that represents the endpoint reference of the subscription manager.
-
 
 ### -field Status
 
@@ -103,13 +98,10 @@ The event source ended the subscription because the delivery of notifications fa
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reason
 
-Reference to a  <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string">WSD_LOCALIZED_STRING</a> that contains a human-readable explanation of the reason the subscription ended. 
-
+Reference to a  <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string">WSD_LOCALIZED_STRING</a> that contains a human-readable explanation of the reason the subscription ended.
 
 ### -field Any
 

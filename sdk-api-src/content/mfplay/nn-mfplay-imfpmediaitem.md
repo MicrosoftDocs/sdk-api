@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
-f1_keywords:
-- mfplay/IMFPMediaItem
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaItem
+ - mfplay/IMFPMediaItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaItem
 ---
 
 # IMFPMediaItem interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
@@ -251,20 +250,13 @@ Sets an application-defined value that is stored in the media item.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

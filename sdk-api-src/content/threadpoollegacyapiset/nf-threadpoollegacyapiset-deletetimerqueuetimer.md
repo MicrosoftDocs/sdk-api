@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: d830fa1f-504a-4921-865c-34dbf0256720
 ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueueTimer, DeleteTimerQueueTimer function, _win32_deletetimerqueuetimer, base.deletetimerqueuetimer, threadpoollegacyapiset/DeleteTimerQueueTimer, winbase/DeleteTimerQueueTimer
-f1_keywords:
-- threadpoollegacyapiset/DeleteTimerQueueTimer
-dev_langs:
-- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- DeleteTimerQueueTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteTimerQueueTimer
+ - threadpoollegacyapiset/DeleteTimerQueueTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - DeleteTimerQueueTimer
 ---
 
 # DeleteTimerQueueTimer function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a timer from the timer queue and optionally waits for currently running timer callback functions to complete before deleting the timer.
 
-
 ## -parameters
-
-
-
 
 ### -param TimerQueue [in, optional]
 
@@ -73,12 +69,10 @@ A handle to the timer queue. This handle is returned by the
 
 If the timer was created using the default timer queue, this parameter should be <b>NULL</b>.
 
-
 ### -param Timer [in]
 
 A handle to the timer-queue timer. This handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a> function.
-
 
 ### -param CompletionEvent [in, optional]
 
@@ -91,22 +85,14 @@ If this parameter is <b>INVALID_HANDLE_VALUE</b>, the function waits for any run
 
 If this parameter is <b>NULL</b>, the function marks the timer for deletion and returns immediately. If the timer has already expired, the timer callback function will run to completion. However, there is no notification sent when the timer callback function has completed. Most callers should not use this option, and should wait for running timer callback functions to complete so they can perform any needed cleanup.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the error code is <b>ERROR_IO_PENDING</b>, it is not necessary to call this function again. For any other error, you should retry the call.
 
-
-
-
 ## -remarks
-
-
 
 This function cannot be called while the thread is using impersonation. The resulting behavior is undefined.
 
@@ -123,13 +109,7 @@ To cancel all timers in a timer queue, call the
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
 
@@ -148,7 +128,4 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/timer-queues">Timer Queues</a>
- 
-
- 
 

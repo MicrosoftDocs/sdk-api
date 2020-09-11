@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: 57e099eb-bf8d-4465-af4d-fcfc3eee3b5b
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], IPhotoAcquireItem interface [Picture Acquisition],described, IPhotoAcquireItemInterface, photoacquire/IPhotoAcquireItem, picacq.iphotoacquireitem
-f1_keywords:
-- photoacquire/IPhotoAcquireItem
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- photoacquire.h
-api_name:
-- IPhotoAcquireItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireItem
+ - photoacquire/IPhotoAcquireItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - photoacquire.h
+api_name:
+ - IPhotoAcquireItem
 ---
 
 # IPhotoAcquireItem interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IPhotoAcquireItem</code> interface provides methods for working with items as they are acquired from a device.
-
-
-
 
 ## -inheritance
 
@@ -152,16 +148,9 @@ Sets a property for an item.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
- 
-
- 
 

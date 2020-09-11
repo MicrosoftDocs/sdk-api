@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDEC4.#ctor(float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMUDEC4, XMUDEC4 constructor [DirectX Math Support APIs], XMUDEC4 constructor [DirectX Math Support APIs],XMUDEC4 structure, XMUDEC4 structure [DirectX Math Support APIs],XMUDEC4 constructor, XMUDEC4.XMUDEC4, XMUDEC4.XMUDEC4(float,float,float,float), XMUDEC4::XMUDEC4, XMUDEC4::XMUDEC4(float,float,float,float), dxmath.xmudec4_ctor_3
-f1_keywords:
-- directxpackedvector/XMUDEC4.XMUDEC4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUDEC4.XMUDEC4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUDEC4::XMUDEC4
+ - directxpackedvector/XMUDEC4::XMUDEC4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUDEC4.XMUDEC4
 ---
 
 # XMUDEC4::XMUDEC4(float,float,float,float)
 
 
 ## -description
-
 
 Initializes a new instance of <code>XMUDEC4</code> from four <code>float</code> arguments.
     
@@ -60,9 +60,6 @@ This constructor initializes a new instance of <a href="https://docs.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param _x
 
 Value of the x-coordinate of the vector, the <b>x</b> member of the new
@@ -70,8 +67,6 @@ Value of the x-coordinate of the vector, the <b>x</b> member of the new
 		
 
 The magnitude of this argument will be clamped to a range of [0.0, 1023.0].
-		
-
 
 ### -param _y
 
@@ -80,8 +75,6 @@ Value of the y-coordinate of the vector, the <b>y</b> member of the new
 		
 
 The magnitude of this argument will be clamped to a range of [0.0, 1023.0].
-		
-
 
 ### -param _z
 
@@ -90,8 +83,6 @@ Value of the z-coordinate of the vector, the <b>z</b> member of the new
 		
 
 The magnitude of this argument will be clamped to a range of [0.0, 1023.0].
-		
-
 
 ### -param _w
 
@@ -100,12 +91,8 @@ Value of the w-coordinate of the vector, the <b>w</b> member of the new
 		
 
 The magnitude of this argument will be clamped to a range of [0.0, 3.0].
-		
-
 
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of this constructor, which takes
 	    advantage of the <code>union</code> of the four components of the <code>XMUDEC4</code>vector with an instance of <code>uint32_t</code> in the definition of the structure:
@@ -128,14 +115,7 @@ The following pseudocode demonstrates the operation of this constructor, which t
       
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -146,7 +126,4 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmudec4-ctor">XMUDEC4 Constructors</a>
- 
-
- 
 

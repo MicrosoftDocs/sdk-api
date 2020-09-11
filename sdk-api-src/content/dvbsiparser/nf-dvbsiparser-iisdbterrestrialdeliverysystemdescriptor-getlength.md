@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 4c01c512-03b4-45f1-99e0-853aa42b79a8
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbTerrestrialDeliverySystemDescriptor.GetLength, IIsdbTerrestrialDeliverySystemDescriptor::GetLength, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetLength, mstv.iisdbterrestrialdeliverysystemdescriptor_getlength
-f1_keywords:
-- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetLength
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbTerrestrialDeliverySystemDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbTerrestrialDeliverySystemDescriptor::GetLength
+ - dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbTerrestrialDeliverySystemDescriptor.GetLength
 ---
 
 # IIsdbTerrestrialDeliverySystemDescriptor::GetLength
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the body length of  an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor, in bytes.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the descriptor length.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor">IIsdbTerrestrialDeliverySystemDescriptor</a>
- 
-
- 
 

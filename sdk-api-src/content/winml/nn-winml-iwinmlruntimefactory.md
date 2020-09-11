@@ -8,10 +8,6 @@ tech.root: MachineLearning
 ms.assetid: 7817A028-031C-49AA-A17A-4364DC0E78D0
 ms.date: 12/05/2018
 ms.keywords: IWinMLRuntimeFactory, IWinMLRuntimeFactory interface, IWinMLRuntimeFactory interface,described, MachineLearning.iwinmlruntimefactory, winml/IWinMLRuntimeFactory
-f1_keywords:
-- winml/IWinMLRuntimeFactory
-dev_langs:
-- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winml.dll
-api_name:
-- IWinMLRuntimeFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWinMLRuntimeFactory
+ - winml/IWinMLRuntimeFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winml.dll
+api_name:
+ - IWinMLRuntimeFactory
 ---
 
 # IWinMLRuntimeFactory interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Represents the factory that creates the WinML runtime for model loading and evaluation.
-
 
 ## -inheritance
 
@@ -81,5 +80,5 @@ Creates a WinML runtime.
 
 </td>
 </tr>
-</table> 
+</table>
 

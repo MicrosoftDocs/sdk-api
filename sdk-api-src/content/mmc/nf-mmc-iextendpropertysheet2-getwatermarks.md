@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: caecb35a-3f59-4a04-af46-862ded9685cf
 ms.date: 12/05/2018
 ms.keywords: GetWatermarks, GetWatermarks method [MMC], GetWatermarks method [MMC],IExtendPropertySheet2 interface, IExtendPropertySheet2 interface [MMC],GetWatermarks method, IExtendPropertySheet2.GetWatermarks, IExtendPropertySheet2::GetWatermarks, _slate_iextendpropertysheet2_getwatermarks, mmc.iextendpropertysheet2_getwatermarks, mmc/IExtendPropertySheet2::GetWatermarks
-f1_keywords:
-- mmc/IExtendPropertySheet2.GetWatermarks
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IExtendPropertySheet2.GetWatermarks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExtendPropertySheet2::GetWatermarks
+ - mmc/IExtendPropertySheet2::GetWatermarks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IExtendPropertySheet2.GetWatermarks
 ---
 
 # IExtendPropertySheet2::GetWatermarks
@@ -49,53 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IExtendPropertySheet2::GetWatermarks</b> method gets the watermark bitmap and header bitmap for wizard sheets implemented as Wizard 97-style wizards.
 
-
 ## -parameters
-
-
-
 
 ### -param lpIDataObject [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the object that contains context information about the scope or result item.
 
-
 ### -param lphWatermark [out]
 
 A pointer to the handle to a bitmap that serves as the watermark for Wizard 97 pages. If the handle to the bitmap is <b>NULL</b>, no watermark is displayed for the wizard. If this value is not <b>NULL</b>, then the snap-in, for compatibility, should manage the lifetime of the watermark resource. The snap-in is responsible for freeing the watermark resource.
-
 
 ### -param lphHeader [out]
 
 A pointer to the handle to a bitmap that serves as the header for Wizard 97 pages. If the handle to the bitmap is <b>NULL</b>, no bitmap will be displayed in the header for wizard pages. If this value is not <b>NULL</b>, then the snap-in, for compatibility, should manage the lifetime of the header resource. The snap-in is responsible for freeing the header resource.
 
-
 ### -param lphPalette [out]
 
 A pointer to the handle to a palette that should be used for the bitmaps specified by lphWatermark and lphHeader. The palette is <b>NULL</b> by default. If a palette is not returned, the palette is <b>NULL</b>. If this value is not <b>NULL</b>, then the snap-in, for compatibility, should manage the lifetime of the palette resource. The snap-in is responsible for freeing the palette resource.
-
 
 ### -param bStretch [out]
 
 A value that specifies whether the watermark and header bitmaps should be stretched — instead of tiled — to fit the background or header area of the property sheet. <b>TRUE</b> specifies that the watermark and header bitmaps should be stretched; <b>FALSE</b> specifies that the watermark and header bitmaps should maintain their size and be tiled. This parameter is <b>FALSE</b> by default. If a <i>bStretch</i> value is not returned, <i>bStretch</i> is <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 MMC calls this method only when:
 
@@ -125,15 +109,8 @@ To prevent distortion of the image, it is recommended that the watermark and hea
 <td>49w x 49h</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>
 
@@ -144,7 +121,4 @@ To prevent distortion of the image, it is recommended that the watermark and hea
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendpropertysheet2">IExtendPropertySheet2</a>
- 
-
- 
 

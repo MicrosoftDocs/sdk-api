@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 73d0f3a7-7afd-42c9-88db-911531c50137
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses, ICspStatuses interface [Security], ICspStatuses interface [Security],described, certenroll/ICspStatuses, security.icspstatuses
-f1_keywords:
-- certenroll/ICspStatuses
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspStatuses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspStatuses
+ - certenroll/ICspStatuses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspStatuses
 ---
 
 # ICspStatuses interface
 
 
 ## -description
-
 
 The <b>ICspStatuses</b> interface defines methods and properties that can be used to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> objects. The <b>ICspStatus</b> interface contains information about a  cryptographic provider/algorithm pair.   The collection object is created when you call the following properties and methods.<table>
 <tr>
@@ -86,10 +86,6 @@ The <b>ICspStatuses</b> interface defines methods and properties that can be use
 <td>Creates an <b>ICspStatuses</b> collection that contains all  provider/algorithm pairs consistent with the intended use of the private key as identified by the IX509PrivateKey object associated with the certificate request.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -inheritance
 
@@ -233,13 +229,9 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -250,7 +242,4 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

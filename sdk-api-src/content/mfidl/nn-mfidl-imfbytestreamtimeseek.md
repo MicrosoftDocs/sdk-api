@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: BD9EDFF7-46BA-4788-A44E-C69C4B0BEB50
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamTimeSeek, IMFByteStreamTimeSeek interface [Media Foundation], IMFByteStreamTimeSeek interface [Media Foundation],described, mf.imfbytestreamtimeseek, mfidl/IMFByteStreamTimeSeek
-f1_keywords:
-- mfidl/IMFByteStreamTimeSeek
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFByteStreamTimeSeek
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamTimeSeek
+ - mfidl/IMFByteStreamTimeSeek
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFByteStreamTimeSeek
 ---
 
 # IMFByteStreamTimeSeek interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Seeks a byte stream by time position.
-
 
 ## -inheritance
 
@@ -95,31 +94,19 @@ Seeks to a new position in the byte stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A byte stream can implement this interface if it supports time-based seeking. For example, a byte stream that reads data from a server  might implement the interface. Typically, a local file-based byte stream would not implement it.
 
 To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the byte stream object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

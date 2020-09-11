@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2d6fb244-5273-4530-bec4-e5451fe26f2e
 ms.date: 12/05/2018
 ms.keywords: CERT_VERIFY_CACHE_ONLY_BASED_REVOCATION, CERT_VERIFY_REV_ACCUMULATIVE_TIMEOUT_FLAG, CERT_VERIFY_REV_CHAIN_FLAG, CERT_VERIFY_REV_SERVER_OCSP_FLAG, CertVerifyRevocation, CertVerifyRevocation function [Security], _crypto2_certverifyrevocation, security.certverifyrevocation, wincrypt/CertVerifyRevocation
-f1_keywords:
-- wincrypt/CertVerifyRevocation
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertVerifyRevocation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertVerifyRevocation
+ - wincrypt/CertVerifyRevocation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertVerifyRevocation
 ---
 
 # CertVerifyRevocation function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertVerifyRevocation</b> function checks the revocation status of the certificates contained in the <i>rgpvContext</i> array. If a certificate in the list is found to be revoked, no further checking is done. This array can be a chain of certificates propagating upward from an end entity to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root authority</a>, but this nature of the list of certificates is not required or assumed.
 
-
 ## -parameters
-
-
-
 
 ### -param dwEncodingType [in]
 
 Specifies the encoding type used. Currently, only X509_ASN_ENCODING and PKCS_7_ASN_ENCODING are being used; however, additional encoding types may be added in the future. For either current encoding type, use X509_ASN_ENCODING | PKCS_7_ASN_ENCODING.
 
-
 ### -param dwRevType [in]
 
 Indicates the type of the context structure passed in <i>rgpvContext</i>. Currently only CERT_CONTEXT_REVOCATION_TYPE, the revocation of certificates, is defined.
 
-
 ### -param cContext [in]
 
 Count of elements in the <i>rgpvContext</i> array.
-
 
 ### -param rgpvContext [in]
 
@@ -82,7 +75,6 @@ When the <i>dwRevType</i> is CERT_CONTEXT_REVOCATION_TYPE, <i>rgpvContext</i> is
 
 
 For efficiency, the more contexts that are passed in at one time, the better.
-
 
 ### -param dwFlags [in]
 
@@ -134,14 +126,11 @@ When set, this function only uses <a href="https://docs.microsoft.com/windows/de
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pRevPara [in, optional]
 
 Optionally set to assist in finding the issuer. For details, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_para">CERT_REVOCATION_PARA</a> structure.
-
 
 ### -param pRevStatus [in, out]
 
@@ -151,10 +140,7 @@ Only the <b>cbSize</b> member of the
 If the function returns <b>FALSE</b>, this structure's members will contain error status information. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a>. For a description of how <i>pRevStatus</i> is updated when a revocation verification problem is encountered, see Remarks.
 
-
 ## -returns
-
-
 
 If the function successfully checks all of the contexts and none were revoked, the function returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b> and updates the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a> structure pointed to by <i>pRevStatus</i> as described in 
 <b>CERT_REVOCATION_STATUS</b>.
@@ -245,14 +231,8 @@ The context was good.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following example shows how <i>pRevStatus</i> is updated when a revocation verification problem is encountered:
 
@@ -264,13 +244,7 @@ If <i>rgpvContext</i>[2] is found to be revoked, the <b>dwIndex</b> member of <i
 
  In either case, both <i>rgpvContext</i>[0] and <i>rgpvContext</i>[1] are verified not to be revoked, <i>rgpvContext</i>[2] is the last array index checked, and <i>rgpvContext</i>[3] has not been checked at all.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
@@ -297,7 +271,4 @@ If <i>rgpvContext</i>[2] is found to be revoked, the <b>dwIndex</b> member of <i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

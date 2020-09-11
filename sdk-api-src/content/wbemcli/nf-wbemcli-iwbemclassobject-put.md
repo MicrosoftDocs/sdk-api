@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 7b67739f-5c67-447a-a1a5-fad9ce3e857a
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put method, IWbemClassObject.Put, IWbemClassObject::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
-f1_keywords:
-- wbemcli/IWbemClassObject.Put
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CIMWin32.dll
-- Esscli.dll
-- Fastprox.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Krnlprov.dll
-- Ncprov.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wmipiprt.dll
-api_name:
-- IWbemClassObject.Put
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemClassObject::Put
+ - wbemcli/IWbemClassObject::Put
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CIMWin32.dll
+ - Esscli.dll
+ - Fastprox.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Krnlprov.dll
+ - Ncprov.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wmipiprt.dll
+api_name:
+ - IWbemClassObject.Put
 ---
 
 # IWbemClassObject::Put
 
 
 ## -description
-
 
 The 
 <b>IWbemClassObject::Put</b> method sets a named property to a new value. This method always overwrites the current value with a new one. When 
@@ -68,26 +68,19 @@ The
 
 A user cannot create properties with names that begin or end with an underscore (_). This is reserved for system classes and properties.
 
-
 ## -parameters
-
-
-
 
 ### -param wszName [in]
 
 A parameter that must point to a valid property name. This parameter cannot be <b>NULL</b>.
 
-
 ### -param lFlags [in]
 
 Reserved. This parameter must be 0 (zero).
 
-
 ### -param pVal [in]
 
 A parameter that must point to a valid <b>VARIANT</b>, which becomes the new property value. If <i>pVal</i> is <b>NULL</b> or points to a <b>VARIANT</b> of type <b>VT_NULL</b>, the property is set to <b>NULL</b>, that is, no value.
-
 
 ### -param Type [in]
 
@@ -108,19 +101,11 @@ Use this parameter only when creating new properties in a CIM class definition a
 When using 
 <b>IWbemClassObject::Put</b> to assign empty array values to a property, you do not need to specify the exact VT type; you can assign a value to <i>pVal</i> that is a <b>VARIANT</b> with a variant type of <b>VT_ARRAY</b>|<b>VT_VARIANT</b>.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the values contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the property set by the 
 <b>IWbemClassObject::Put</b> method exists in the parent class, the default value of the property is changed unless the property type does not match the parent class type. If the property does not exist and it is not a type mismatch, the property is created.
@@ -202,14 +187,7 @@ pObj->Put(strClassProp, 0, &v, CIM_UINT64);
 VariantClear(&v);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 
@@ -228,7 +206,4 @@ VariantClear(&v);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 3a4d18db-ef6a-4a7f-a676-1bc952ecae50
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE structure pointer [Remote Desktop Services], PWTS_PROPERTY_VALUE, PWTS_PROPERTY_VALUE structure pointer [Remote Desktop Services], VALUE_TYPE_BINARY, VALUE_TYPE_GUID, VALUE_TYPE_STRING, VALUE_TYPE_ULONG, WRDS_PROPERTY_VALUE, WRDS_PROPERTY_VALUE structure [Remote Desktop Services], WTS_PROPERTY_VALUE, WTS_PROPERTY_VALUE structure [Remote Desktop Services], termserv.wts_property_value, wtsdefs/PWRDS_PROPERTY_VALUE, wtsdefs/PWTS_PROPERTY_VALUE, wtsdefs/WRDS_PROPERTY_VALUE, wtsdefs/WTS_PROPERTY_VALUE'
-f1_keywords:
-- wtsdefs/WTS_PROPERTY_VALUE
-dev_langs:
-- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wtsdefs.h
-api_name:
-- WTS_PROPERTY_VALUE
 targetos: Windows
 req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __WTS_PROPERTY_VALUE
+ - wtsdefs/__WTS_PROPERTY_VALUE
+ - PWTS_PROPERTY_VALUE
+ - wtsdefs/PWTS_PROPERTY_VALUE
+ - WTS_PROPERTY_VALUE
+ - wtsdefs/WTS_PROPERTY_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wtsdefs.h
+api_name:
+ - WTS_PROPERTY_VALUE
 ---
 
 # WTS_PROPERTY_VALUE structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a property value to retrieve from the protocol. The <b>WTS_PROPERTY_VALUE</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty">QueryProperty</a> method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -86,46 +86,37 @@ The value is contained in the <b>bVal</b> member.
 
 The value is contained in the <b>guidVal</b> member.
 
-
 ### -field u
 
 A union that contains the property value.
-
 
 ### -field u.ulVal
 
 The value is contained in an integer.
 
-
 ### -field u.strVal
 
 The value is contained in a string.
-
 
 ### -field u.strVal.size
 
 An integer that contains the size of the string pointed to by the <b>pstrVal</b> member.
 
-
 ### -field u.strVal.pstrVal
 
 A pointer to a string that contains the property value.
-
 
 ### -field u.bVal
 
 The value is contained in a byte array.
 
-
 ### -field u.bVal.size
 
 An integer that contains the size of the byte array pointed to by the <b>pbVal</b> member.
 
-
 ### -field u.bVal.pbVal
 
 A pointer to a byte array that contains the property value.
-
 
 ### -field u.guidVal
 

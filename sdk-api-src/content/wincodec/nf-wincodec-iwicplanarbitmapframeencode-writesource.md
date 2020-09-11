@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 220D9216-1053-48E1-B7FD-5E3E46001562
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],WriteSource method, IWICPlanarBitmapFrameEncode.WriteSource, IWICPlanarBitmapFrameEncode::WriteSource, WriteSource, WriteSource method [Windows Imaging Component], WriteSource method [Windows Imaging Component],IWICPlanarBitmapFrameEncode interface, wic.iwicplanarbitmapframeencode_writesource, wincodec/IWICPlanarBitmapFrameEncode::WriteSource
-f1_keywords:
-- wincodec/IWICPlanarBitmapFrameEncode.WriteSource
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICPlanarBitmapFrameEncode.WriteSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICPlanarBitmapFrameEncode::WriteSource
+ - wincodec/IWICPlanarBitmapFrameEncode::WriteSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICPlanarBitmapFrameEncode.WriteSource
 ---
 
 # IWICPlanarBitmapFrameEncode::WriteSource
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes lines from the source planes to the encoded format.
 
-
 ## -parameters
-
-
-
 
 ### -param ppPlanes [in]
 
@@ -64,24 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-win
 
 Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> that represent image planes.
 
-
 ### -param cPlanes
 
 Type: <b>UINT</b>
 
 The number of component planes specified by the planes parameter.
 
-
 ### -param prcSource
 
 Type: <b>WICRect*</b>
 
-The source rectangle of pixels to encode from the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> planes.  Null indicates the entire source.  The source rect width must match the width set through <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setsize">SetSize</a>. Repeated <b>WriteSource</b> calls can be made as long as the total accumulated source rect height is the same as set through <b>SetSize</b>.  
-
+The source rectangle of pixels to encode from the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> planes.  Null indicates the entire source.  The source rect width must match the width set through <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setsize">SetSize</a>. Repeated <b>WriteSource</b> calls can be made as long as the total accumulated source rect height is the same as set through <b>SetSize</b>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -91,13 +82,7 @@ If the planes and source rectangle do not meet the requirements, this method fai
 
 If the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> format does not meet the encoder requirements, this method fails with <b>WINCODEC_ERR_UNSUPPORTEDPIXELFORMAT</b>.
 
-
-
-
-
 ## -remarks
-
-
 
 Successive <b>WriteSource</b> calls are assumed sequentially add scanlines to the output image.  <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarformatconverter-initialize">IWICBitmapFrameEncode::Initialize</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setsize">IWICBitmapFrameEncode::SetSize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-setpixelformat">IWICBitmapFrameEncode::SetPixelFormat</a> must be called before this method or it will fail.
 
@@ -180,15 +165,8 @@ The supported pixel formats of the bitmap sources passed into this method are as
 <td>N/A</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-creating-encoder">Encoding Overview</a>
 
@@ -199,7 +177,4 @@ The supported pixel formats of the bitmap sources passed into this method are as
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapframeencode">IWICPlanarBitmapFrameEncode</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: b3cfe15a-1a0e-4c29-8840-032e56404400
 ms.date: 12/05/2018
 ms.keywords: PulseEvent, PulseEvent function, _win32_pulseevent, base.pulseevent, winbase/PulseEvent
-f1_keywords:
-- winbase/PulseEvent
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- PulseEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PulseEvent
+ - winbase/PulseEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - PulseEvent
 ---
 
 # PulseEvent function
@@ -60,14 +61,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the specified event object to the signaled state and then resets it to the nonsignaled state after releasing the appropriate number of waiting threads.
 <div class="alert"><b>Note</b>  This function is unreliable and should not be used. It exists mainly for backward compatibility. For more information, see Remarks.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hEvent [in]
 
@@ -81,22 +78,14 @@ A handle to the event object. The
 The handle must have the EVENT_MODIFY_STATE access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 A thread waiting on a synchronization object can be momentarily removed from the wait state  by a kernel-mode APC, and then returned to the wait state after the APC is complete.  If the call to  <b>PulseEvent</b> occurs during the time when the thread has been   removed from the wait state, the thread will not be released  because  <b>PulseEvent</b> releases only those threads that are waiting at the moment it is called.  Therefore,  <b>PulseEvent</b> is unreliable and should  not be  used by new applications.
 Instead, use <a href="https://docs.microsoft.com/windows/desktop/Sync/condition-variables">condition variables</a>.
@@ -114,13 +103,7 @@ Note that for a thread using the multiple-object
 
 Use extreme caution when using  [SignalObjectAndWait](/win32/api/synchapi/nf-synchapi-signalobjectandwait)  and <b>PulseEvent</b> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
@@ -143,7 +126,4 @@ Use extreme caution when using  [SignalObjectAndWait](/win32/api/synchapi/nf-syn
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

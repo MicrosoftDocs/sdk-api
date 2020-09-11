@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 75a5961f-2c61-4e10-a570-7ebfabb97367
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Next method, IWMDMEnumDevice.Next, IWMDMEnumDevice::Next, IWMDMEnumDeviceNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Next, wmdm.iwmdmenumdevice_next
-f1_keywords:
-- mswmdm/IWMDMEnumDevice.Next
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMEnumDevice.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMEnumDevice::Next
+ - mswmdm/IWMDMEnumDevice::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMEnumDevice.Next
 ---
 
 # IWMDMEnumDevice::Next
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Next</b> method returns a pointer to the next device, represented by an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a> interface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Number of devices requested.
 
-
 ### -param ppDevice [out]
 
 Pointer to caller-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a> interface pointers. The size of this array must be <b>IWMDMDevice</b> *[celt]. The caller must release these interfaces when done with them. To avoid allocating a whole array, simply pass in the address of a pointer to an <b>IWMDMDevice</b> interface, as shown in Remarks.
-
 
 ### -param pceltFetched [out]
 
 Pointer to a variable that receives the number of devices (interfaces) returned.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -90,12 +78,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The returned device interface(s) are based on a cached list of devices. If a Plug and Play device is attached or removed, the current enumerator will not reflect that, and therefore, <b>Next</b> will return devices based on the cached list. Applications should obtain a new enumerator object by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">IWMDeviceManager::EnumDevices</a> to get a refreshed list of devices.
 
@@ -141,14 +124,7 @@ while(pEnumDevice->Next(1, &pIWMDMDevice, &ulFetched) == S_OK)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/enumerating-devices">Enumerating Devices</a>
 
@@ -159,7 +135,4 @@ while(pEnumDevice->Next(1, &pIWMDMDevice, &ulFetched) == S_OK)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">IWMDeviceManager::EnumDevices</a>
- 
-
- 
 

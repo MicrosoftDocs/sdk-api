@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2edfc260-5bb6-475d-b8af-252e7c7a8552
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], IAMTimecodeDisplay interface [DirectShow],described, IAMTimecodeDisplayInterface, dshow.iamtimecodedisplay, strmif/IAMTimecodeDisplay
-f1_keywords:
-- strmif/IAMTimecodeDisplay
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTimecodeDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTimecodeDisplay
+ - strmif/IAMTimecodeDisplay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTimecodeDisplay
 ---
 
 # IAMTimecodeDisplay interface
 
 
 ## -description
-
-
 
 The <code>IAMTimecodeDisplay</code> interface controls an external SMPTE/MIDI timecode display device.
 
@@ -61,9 +60,6 @@ This interface is not intended for rendering in a DirectShow filter graph; it is
 <b>Hardware Requirements</b>
 
 See the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport</a> interface for hardware requirements.
-
-
-
 
 ## -inheritance
 
@@ -116,5 +112,5 @@ Enables or disables an external device's timecode character output generator.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 934CB757-495A-45DA-A942-1852D8E94934
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList3, ID3D12GraphicsCommandList3 interface, ID3D12GraphicsCommandList3 interface,described, d3d12/ID3D12GraphicsCommandList3, direct3d12.id3d12graphicscommandlist3
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList3
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList3
+ - d3d12/ID3D12GraphicsCommandList3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList3
 ---
 
 # ID3D12GraphicsCommandList3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates a list of graphics commands for rendering.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Specifies whether or not protected resources can be accessed by subsequent comma
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12GraphicsCommandList2</a>
- 
-
- 
 

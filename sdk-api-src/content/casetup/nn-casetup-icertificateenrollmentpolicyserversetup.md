@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8C9F33BA-5FCB-4B99-869C-FADDC37A326A
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], ICertificateEnrollmentPolicyServerSetup interface [Security],described, casetup/ICertificateEnrollmentPolicyServerSetup, security.icertificateenrollmentpolicyserversetup
-f1_keywords:
-- casetup/ICertificateEnrollmentPolicyServerSetup
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentPolicyServerSetup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentPolicyServerSetup
+ - casetup/ICertificateEnrollmentPolicyServerSetup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentPolicyServerSetup
 ---
 
 # ICertificateEnrollmentPolicyServerSetup interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ICertificateEnrollmentPolicyServerSetup</b> interface represents the Certificate Enrollment Policy (CEP) Web Service within Active Directory Certificate Services (ADCS). The service enables users and computers to obtain certificate enrollment policy information even when a  computer is not a member of the domain or if a domain-joined computer is temporarily outside the security boundary of the corporate network.
 
 A related interface, <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>, represents the Certificate Enrollment Web Service (CES) and enables users and computers to enroll for and renew certificates. CEP and CES work together to provide policy-based certificate enrollment.
-
 
 ## -inheritance
 
@@ -140,20 +139,13 @@ Retrieves a string that contains additional information about CEP setup failure.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_81stream.htm
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN IStream), Metafile.Metafile(IStream*), Metafile::Metafile, Metafile::Metafile(IN IStream), _gdiplus_CLASS_Metafile_Metafile_stream_, gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_
-f1_keywords:
-- gdiplusheaders/Metafile.Metafile
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Metafile.Metafile
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Metafile::Metafile
+ - gdiplusheaders/Metafile::Metafile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Metafile.Metafile
 ---
 
 # Metafile::Metafile(IN IStream)
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <b>Metafile::Metafile</b> object from an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface for playback.
 
-
 ## -parameters
-
-
-
 
 ### -param stream [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-Pointer to a COM <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that points to a data stream in a file. 
-
+Pointer to a COM <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that points to a data stream in a file.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
@@ -80,7 +72,4 @@ Pointer to a COM <a href="https://docs.microsoft.com/windows/desktop/api/objidl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
- 
-
- 
 

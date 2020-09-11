@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Start method, ISpatialAudioObjectRenderStreamBase.Start, ISpatialAudioObjectRenderStreamBase::Start, Start, Start method [Core Audio], Start method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_start, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Start
-f1_keywords:
-- spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Start
-dev_langs:
-- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudioclient.h
-api_name:
-- ISpatialAudioObjectRenderStreamBase.Start
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioObjectRenderStreamBase::Start
+ - spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Start
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudioclient.h
+api_name:
+ - ISpatialAudioObjectRenderStreamBase.Start
 ---
 
 # ISpatialAudioObjectRenderStreamBase::Start
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Starts the spatial audio stream.  
-
+Starts the spatial audio stream.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -138,14 +130,8 @@ The media associated with the spatial audio stream uses an unsupported format.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Starting the stream causes data flow between the endpoint buffer and the audio engine.  
     The first time this method is called, the stream's audio clock position will be at 0.  
@@ -154,20 +140,11 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/
 
 The stream must have been previously stopped with a call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop">Stop</a> or the method will fail and return SPTLAUDCLNT_E_STREAM_NOT_STOPPED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
 
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
- 
-
- 
 

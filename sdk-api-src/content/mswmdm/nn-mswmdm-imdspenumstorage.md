@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: fc2fed46-1f4d-4d53-a843-0f699b687a18
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], IMDSPEnumStorage interface [windows Media Device Manager],described, IMDSPEnumStorageInterface, mswmdm/IMDSPEnumStorage, wmdm.imdspenumstorage
-f1_keywords:
-- mswmdm/IMDSPEnumStorage
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IMDSPEnumStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPEnumStorage
+ - mswmdm/IMDSPEnumStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IMDSPEnumStorage
 ---
 
 # IMDSPEnumStorage interface
 
 
 ## -description
-
-
 
 The <b>IMDSPEnumStorage</b> interface is used to enumerate the storage media on a device. For more information on the standard implementation of enumeration interfaces, see the Microsoft COM documentation, available at the Microsoft Web site. The storage media on a device are organized in a hierarchical manner similar to disk drives on a computer.
 
@@ -64,9 +63,6 @@ The <b>Insert</b>, <b>Move</b>, and <b>Delete</b> methods of the <a href="https:
 If an application is going to display the order of content on a media device, the application programmer must take into account order changes that can occur as a result of <b>IWMDMStorageControl</b> operations. There are two ways to deal with this situation. One way is to simply re-enumerate whenever a change to content occurs. Another way is to maintain the order of <b>IWMDMStorage</b> objects programmatically.
 
 No matter how this issue is handled, it must be handled by the application if the order of files is important to the application.
-
-
-
 
 ## -inheritance
 
@@ -119,13 +115,9 @@ Skips over the next specified number of storage interface(s) in the enumeration 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-enumstorage">IMDSPDevice::EnumStorage</a>
 
@@ -148,7 +140,4 @@ Skips over the next specified number of storage interface(s) in the enumeration 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
- 
-
- 
 

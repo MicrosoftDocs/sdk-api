@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c1ef3d22-7c88-42b0-93a2-5d1b75c327ba
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary, IShellLibrary interface [Windows Shell], IShellLibrary interface [Windows Shell],described, _shell_IShellLibrary, shell.IShellLibrary, shobjidl_core/IShellLibrary
-f1_keywords:
-- shobjidl_core/IShellLibrary
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLibrary
+ - shobjidl_core/IShellLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellLibrary
 ---
 
 # IShellLibrary interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for creating and managing libraries.
-
 
 ## -inheritance
 
@@ -225,12 +224,9 @@ Sets the library options.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Custom implementations of <b>IShellLibrary</b> are not supported; client applications use the implementation provided by Shell32.dll.
@@ -340,17 +336,8 @@ The following enumerations support libraries.
 <td>Defines options for handling a name collision when saving a library.</td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758089(v=vs.85)">Guidance for Implementing In-Process Extensions</a>
 
@@ -361,7 +348,4 @@ The following enumerations support libraries.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f285fea5-4c08-4d30-8378-0b0aeeea8226
 ms.date: 12/05/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Queues method, ITACDGroup.get_Queues, ITACDGroup::get_Queues, _tapi3_itacdgroup_get_queues, get_Queues, get_Queues method [TAPI 2.2], get_Queues method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_queues, tapi3cc/ITACDGroup::get_Queues
-f1_keywords:
-- tapi3cc/ITACDGroup.get_Queues
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITACDGroup.get_Queues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITACDGroup::get_Queues
+ - tapi3cc/ITACDGroup::get_Queues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITACDGroup.get_Queues
 ---
 
 # ITACDGroup::get_Queues
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Queues</b> method creates a collection of queues associated with the current ACD group. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-enumeratequeues">EnumerateQueues</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param pVariant [out]
 
@@ -66,10 +62,7 @@ Pointer to <b>VARIANT</b> containing an
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a> interface pointers (queue objects).
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,26 +116,14 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 TAPI calls the <b>AddRef</b> method on the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a> interface returned by <b>ITACDGroup::get_Queues</b>. The application must call <b>Release</b> on the 
 <b>ITQueue</b> interface to free resources associated with it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-enumeratequeues">EnumerateQueues</a>
 
@@ -157,7 +138,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
- 
-
- 
 

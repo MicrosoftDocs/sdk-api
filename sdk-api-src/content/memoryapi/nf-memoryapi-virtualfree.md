@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d6f27be8-8929-4a4d-b52c-fa99044ca243
 ms.date: 12/05/2018
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFree, VirtualFree function, _win32_virtualfree, base.virtualfree, winbase/VirtualFree
-f1_keywords:
-- memoryapi/VirtualFree
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- VirtualFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualFree
+ - memoryapi/VirtualFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - VirtualFree
 ---
 
 # VirtualFree function
@@ -57,18 +58,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases, decommits, or releases and decommits a region of pages within the virtual address space of the calling process.
 
 To free memory allocated in another process by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpAddress [in]
 
@@ -79,7 +75,6 @@ A pointer to the base address of the region of pages to be freed.
 
 If the <i>dwFreeType</i> parameter is <b>MEM_RELEASE</b>, this parameter must be the base address returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function when the region of pages is reserved.
-
 
 ### -param dwSize [in]
 
@@ -94,7 +89,6 @@ If the <i>dwFreeType</i> parameter is <b>MEM_RELEASE</b>, this parameter must be
 If the <i>dwFreeType</i> parameter is <b>MEM_DECOMMIT</b>, the function decommits all memory pages that contain one or more bytes in the range from the <i>lpAddress</i> parameter to <code>(lpAddress+dwSize)</code>. This means, for example, that a 2-byte region of memory that straddles a page boundary causes both pages to be decommitted. If <i>lpAddress</i> is the base address returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> and <i>dwSize</i> is 0 (zero), the function decommits the entire region that is allocated by 
 <b>VirtualAlloc</b>. After that, the entire region is in the reserved state.
-
 
 ### -param dwFreeType [in]
 
@@ -178,19 +172,12 @@ To split a placeholder into two placeholders, specify <code>MEM_RELEASE | MEM_PR
 
 ## -returns
 
-
-
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Each page of memory in a process virtual address space has a 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/page-state">Page State</a>. The 
@@ -224,12 +211,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
@@ -241,7 +223,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
- 
-
- 
 

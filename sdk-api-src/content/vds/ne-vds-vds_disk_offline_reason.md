@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 45115cd5-52bb-4cb8-978b-208a2bc3c148
 ms.date: 12/05/2018
 ms.keywords: VDSDiskOfflineReasonCollision, VDSDiskOfflineReasonNone, VDSDiskOfflineReasonPolicy, VDSDiskOfflineReasonRedundantPath, VDSDiskOfflineReasonSnapshot, VDS_DISK_OFFLINE_REASON, VDS_DISK_OFFLINE_REASON enumeration, base.vds_disk_offline_reason, vds/VDSDiskOfflineReasonCollision, vds/VDSDiskOfflineReasonNone, vds/VDSDiskOfflineReasonPolicy, vds/VDSDiskOfflineReasonRedundantPath, vds/VDSDiskOfflineReasonSnapshot, vds/VDS_DISK_OFFLINE_REASON
-f1_keywords:
-- vds/VDS_DISK_OFFLINE_REASON
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-api_name:
-- VDS_DISK_OFFLINE_REASON
 targetos: Windows
 req.typenames: VDS_DISK_OFFLINE_REASON
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_DISK_OFFLINE_REASON
+ - vds/_VDS_DISK_OFFLINE_REASON
+ - VDS_DISK_OFFLINE_REASON
+ - vds/VDS_DISK_OFFLINE_REASON
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+api_name:
+ - VDS_DISK_OFFLINE_REASON
 ---
 
 # VDS_DISK_OFFLINE_REASON enumeration
@@ -49,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of reasons for a disk to be offline.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VDSDiskOfflineReasonNone
 
 The reason is unknown.
 
-
 ### -field VDSDiskOfflineReasonPolicy
 
 The disk is offline because of the current <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_san_policy">SAN policy</a>.
-
 
 ### -field VDSDiskOfflineReasonRedundantPath
 
 The disk is offline because it has a path that is the same as that of another device. This value is used when multipathing is physically enabled, but the MPIO software is not installed or is not functioning properly. (When the MPIO software is functioning properly, it exposes only one disk device.)
 
-
 ### -field VDSDiskOfflineReasonSnapshot
 
 The disk is offline because it contains a volume shadow copy volume. In this case, the disk is a clone of another disk that is online.
-
 
 ### -field VDSDiskOfflineReasonCollision
 
@@ -89,29 +83,15 @@ If it is a GPT disk, it is offline for one of the following reasons:<ul>
 <li>One of the partitions has the same partition GUID as another partition on the same disk.</li>
 </ul>
 
-
-
 ### -field VDSDiskOfflineReasonResourceExhaustion
-
 
 ### -field VDSDiskOfflineReasonWriteFailure
 
-
 ### -field VDSDiskOfflineReasonDIScan
-
 
 ### -field VDSDiskOfflineReasonLostDataPersistence
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
- 
-
- 
 

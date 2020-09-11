@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 3bcfab9f-fad8-4605-8780-0b7c2068fcdf
 ms.date: 12/05/2018
 ms.keywords: IPart, IPart interface [Core Audio], IPart interface [Core Audio],described, coreaudio.ipart, devicetopology/IPart
-f1_keywords:
-- devicetopology/IPart
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IPart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPart
+ - devicetopology/IPart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IPart
 ---
 
 # IPart interface
 
 
 ## -description
-
-
 
 The <b>IPart</b> interface represents a part (connector or subunit) of a device topology. A client obtains a reference to an <b>IPart</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a> or <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getpart">IPartsList::GetPart</a> method, or by calling the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector</a> or <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit</a> interface on a part object and setting the method's <i>iid</i> parameter to <b>REFIID</b> IID_IPart.
 
@@ -64,9 +63,6 @@ The <b>IPart</b> interface of a connector or subunit object represents the gener
 The <b>IPart</b> interface provides methods for getting the name, local ID, global ID, and part type of a connector or subunit. In addition, <b>IPart</b> can activate a control interface on a connector or subunit.
 
 For code examples that use the <b>IPart</b> interface, see the implementations of the GetHardwareDeviceTopology and SelectCaptureDevice functions in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
-
-
-
 
 ## -inheritance
 
@@ -200,13 +196,9 @@ Removes the registration of an <a href="https://docs.microsoft.com/windows/deskt
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -233,7 +225,4 @@ Removes the registration of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: dc1e124e-400a-4f1e-8e87-095b6a3341d4
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Initialize method, ICertPropertyRenewal.Initialize, ICertPropertyRenewal::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Initialize, security.icertpropertyrenewal_initialize_method
-f1_keywords:
-- certenroll/ICertPropertyRenewal.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertPropertyRenewal.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyRenewal::Initialize
+ - certenroll/ICertPropertyRenewal::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertPropertyRenewal.Initialize
 ---
 
 # ICertPropertyRenewal::Initialize
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method initializes the object from a SHA-1 hash of the new certificate.
 
-
 ## -parameters
-
-
-
 
 ### -param Encoding [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to the input string that contains the hash.
 
-
 ### -param strRenewalValue [in]
 
 A <b>BSTR</b> variable that contains the hash.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -94,29 +86,14 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Typically this property is initialized during the enrollment process. You can retrieve the certificate used during enrollment by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-get_certificate">Certificate</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> interface.
 
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-setvalueoncertificate">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyrenewal-get_renewal">Renewal</a> property to retrieve the hash.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a>
- 
-
- 
 

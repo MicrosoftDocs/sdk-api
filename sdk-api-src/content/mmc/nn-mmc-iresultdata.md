@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 58f8bcdb-b062-4048-92fc-eb652ce62c5b
 ms.date: 12/05/2018
 ms.keywords: IResultData, IResultData interface [MMC], IResultData interface [MMC],described, _slate_iresultdata, mmc.iresultdata, mmc/IResultData
-f1_keywords:
-- mmc/IResultData
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IResultData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultData
+ - mmc/IResultData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IResultData
 ---
 
 # IResultData interface
 
 
 ## -description
-
 
 The 
 <b>IResultData</b> interface enables a user to add, remove, find, and modify items associated with the result view pane. It also enables the manipulation of the view style of the result view pane.
@@ -58,7 +58,6 @@ The
 
 The 
 <b>IResultData</b> interface handles virtual (owner data) lists as well. Because of the nature of virtual lists, not all methods apply and some methods have limited functionality. These differences are detailed in the descriptions of individual methods. The primary difference in handling virtual lists it that because the console does not maintain any storage for virtual items, it does not provide item IDs. Instead virtual list items are identified by their list position (index).
-
 
 ## -inheritance
 
@@ -210,5 +209,5 @@ Redraws an item in the result pane after it has been changed.
 
 </td>
 </tr>
-</table> 
+</table>
 

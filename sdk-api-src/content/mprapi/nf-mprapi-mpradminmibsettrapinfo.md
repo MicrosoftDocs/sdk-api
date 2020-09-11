@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: fc223682-9dd9-4d3f-8cfb-ec7c438f68e7
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBSetTrapInfo, MprAdminMIBSetTrapInfo function [RAS], _mpr_mpradminmibsettrapinfo, mprapi/MprAdminMIBSetTrapInfo, rras.mpradminmibsettrapinfo
-f1_keywords:
-- mprapi/MprAdminMIBSetTrapInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminMIBSetTrapInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminMIBSetTrapInfo
+ - mprapi/MprAdminMIBSetTrapInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminMIBSetTrapInfo
 ---
 
 # MprAdminMIBSetTrapInfo function
@@ -49,45 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminMIBSetTrapInfo</b> function specifies a handle to an event that is signaled whenever a TRAP needs to be issued.
 
-
 ## -parameters
-
-
-
 
 ### -param dwProtocolId [in]
 
 Specifies a <b>DWORD</b> variable that contains the protocol family identifier.
 
-
 ### -param dwRoutingPid [in]
 
 Specifies a <b>DWORD</b> variable that contains the identifier of the routing protocol.
-
 
 ### -param hEvent [in]
 
 Handle to an event that is signaled when a trap needs to be issued.
 
-
 ### -param lpInData [in]
 
 Pointer to the input data.
-
 
 ### -param dwInDataSize [in]
 
 Specifies a <b>DWORD</b> variable that contains the size in bytes of the data pointed to by <i>lpInData</i>.
 
-
 ### -param lplpOutData [out]
 
 Receives the address of a pointer to the output data.
-
 
 ### -param lpOutDataSize [in, out]
 
@@ -98,10 +88,7 @@ On input, pointer to a <b>DWORD</b> variable.
 
 On output, receives the size, in bytes, of the data pointed to by <i>* lplpOutData</i>.
 
-
 ## -returns
-
-
 
 If the functions succeeds, the return value is NO_ERROR
 
@@ -146,15 +133,8 @@ Insufficient resources to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibgettrapinfo">MprAdminMIBGetTrapInfo</a>
 
@@ -169,7 +149,4 @@ Insufficient resources to complete the operation.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-and-protocol-constants">Transport and Protocol Constants</a>
- 
-
- 
 

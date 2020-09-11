@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: ef8d7ef7-fae4-4a20-80fb-18f5daa9b564
 ms.date: 12/05/2018
 ms.keywords: ContextInfo, ContextInfo interface [COM+], ContextInfo interface [COM+],described, _cos_ContextInfo, comsvcs/ContextInfo, cos.contextinfo
-f1_keywords:
-- comsvcs/ContextInfo
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ContextInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ContextInfo
+ - comsvcs/ContextInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ContextInfo
 ---
 
 # ContextInfo interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves transaction, activity, and context information on the current context object. Using the methods of this interface, you can retrieve relevant information contained within an object context.
 
 <b>ContextInfo</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a> provide the same functionality, but unlike <b>IObjectContextInfo</b>, <b>ContextInfo</b> is compatible with Automation.
 
 In COM+ 1.5, released with Windows XP, the <b>ContextInfo</b> interface is superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a> interface.
-
 
 ## -inheritance
 
@@ -118,13 +117,9 @@ Indicates whether the current object is executing in a transaction.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
@@ -139,7 +134,4 @@ Indicates whether the current object is executing in a transaction.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
- 
-
- 
 

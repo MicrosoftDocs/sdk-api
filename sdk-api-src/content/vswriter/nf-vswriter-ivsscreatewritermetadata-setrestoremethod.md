@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 0e04df40-49e4-4f23-b4d5-d6b602162935
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SetRestoreMethod method, IVssCreateWriterMetadata.SetRestoreMethod, IVssCreateWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method [VSS], SetRestoreMethod method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_setrestoremethod, base.ivsscreatewritermetadata_setrestoremethod, vswriter/IVssCreateWriterMetadata::SetRestoreMethod
-f1_keywords:
-- vswriter/IVssCreateWriterMetadata.SetRestoreMethod
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateWriterMetadata.SetRestoreMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateWriterMetadata::SetRestoreMethod
+ - vswriter/IVssCreateWriterMetadata::SetRestoreMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateWriterMetadata.SetRestoreMethod
 ---
 
 # IVssCreateWriterMetadata::SetRestoreMethod
@@ -50,21 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetRestoreMethod</b> method indicates how the writer's data is to be restored.
 
-
 ## -parameters
-
-
-
 
 ### -param method [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restoremethod_enum">VSS_RESTOREMETHOD_ENUM</a> value specifying the method that will be used in the restore operation.
-
 
 ### -param wszService [in]
 
@@ -75,28 +69,21 @@ A pointer to a wide character string containing the name of a service that must 
 
 If the value of <i>method</i> is not VSS_RME_STOP_RESTORE_START or VSS_RME_RESTORE_STOP_START, this argument is not used and should be set to <b>NULL</b>.
 
-
 ### -param wszUserProcedure [in]
 
 Reserved for future use. The value of this parameter should always be set to <b>NULL</b>.
 
-
 ### -param writerRestore [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_writerrestore_enum">VSS_WRITERRESTORE_ENUM</a> value specifying whether the writer will be involved in restoring its data.
 
 Express writers must set this parameter to <i>VSS_WRE_NEVER</i>.
 
-
 ### -param bRebootRequired [in]
 
 Boolean indicating whether a reboot will be required after the restore operation is complete.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -181,14 +168,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 There is a single restore method defined for a writer. If the restore method is not overridden, all of the writer's components will be restored using the same method.
 
@@ -219,13 +200,7 @@ For more information about restore methods, see <a href="https://docs.microsoft.
 
 If the restore method is VSS_RME_STOP_RESTORE_START or VSS_RME_RESTORE_STOP_START, then the correct name of the service must be provided as the <i>wszService</i> argument. For information on writer participation in stopping and restarting services during a restore operation, see <a href="https://docs.microsoft.com/windows/desktop/VSS/stopping-services-for-restore-by-requestors">Stopping Services for Restore by Requesters</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore">CVssWriter::OnPostRestore</a>
 
@@ -240,7 +215,4 @@ If the restore method is VSS_RME_STOP_RESTORE_START or VSS_RME_RESTORE_STOP_STAR
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a>
- 
-
- 
 

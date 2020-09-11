@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: AB1AE035-5874-4415-8B85-BDC0E2139416
 ms.date: 12/05/2018
 ms.keywords: RpcExceptionFilter, RpcExceptionFilter function [RPC], STATUS_ACCESS_VIOLATION, STATUS_ASSERTION_FAILURE, STATUS_BREAKPOINT, STATUS_DATATYPE_MISALIGNMENT, STATUS_GUARD_PAGE_VIOLATION, STATUS_HANDLE_NOT_CLOSABLE, STATUS_ILLEGAL_INSTRUCTION, STATUS_INSTRUCTION_MISALIGNMENT, STATUS_IN_PAGE_ERROR, STATUS_POSSIBLE_DEADLOCK, STATUS_PRIVILEGED_INSTRUCTION, STATUS_REG_NAT_CONSUMPTION, STATUS_STACK_BUFFER_OVERRUN, STATUS_STACK_OVERFLOW, rpc.rpcexceptionfilter, rpcdce/RpcExceptionFilter
-f1_keywords:
-- rpcdce/RpcExceptionFilter
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcExceptionFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcExceptionFilter
+ - rpcdce/RpcExceptionFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcExceptionFilter
 ---
 
 # RpcExceptionFilter function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RpcExceptionFilter</b> function is a default exception filter that determines whether an exception is fatal or non-fatal.<b>RpcExceptionFilter</b> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <a href="https://docs.microsoft.com/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ExceptionCode [in]
 
@@ -146,10 +142,7 @@ Value of an exception. Any of the following exception values will return <b>EXCE
 
 #### STATUS_REG_NAT_CONSUMPTION
 
-
 ## -returns
-
-
 
 A value that specifies whether the exception was fatal or non-fatal.
 
@@ -181,14 +174,8 @@ The exception is not fatal.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The recommended usage of <b>RpcExceptionFilter</b> is:
 
@@ -205,14 +192,7 @@ RpcExcept(RpcExceptionFilter(RpcExceptionCode()))
 RpcEndExcept
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/exception-handling">Exception Handling</a>
 
@@ -227,7 +207,4 @@ RpcEndExcept
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpctryexcept">RpcTryExcept</a>
- 
-
- 
 

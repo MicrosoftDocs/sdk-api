@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 935ec6b3-12e6-4458-b8a1-ffeb4159d957
 ms.date: 12/05/2018
 ms.keywords: IMFTimecodeTranslate, IMFTimecodeTranslate interface [Media Foundation], IMFTimecodeTranslate interface [Media Foundation],described, mf.imftimecodetranslate, mfidl/IMFTimecodeTranslate
-f1_keywords:
-- mfidl/IMFTimecodeTranslate
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFTimecodeTranslate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimecodeTranslate
+ - mfidl/IMFTimecodeTranslate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFTimecodeTranslate
 ---
 
 # IMFTimecodeTranslate interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts between Society of Motion Picture and Television Engineers (SMPTE) time codes and 100-nanosecond time units.
-
 
 ## -inheritance
 
@@ -104,31 +103,19 @@ Completes an asynchronous request to convert time in SMPTE time code to 100-nano
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If an object supports this interface, it must expose the interface as a service. To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MF_TIMECODE_SERVICE</b>.
 
 The Advanced Streaming Format (ASF) media source exposes this interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/service-interfaces">Service Interfaces</a>
- 
-
- 
 

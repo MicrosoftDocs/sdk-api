@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 9a833e94-d26b-4c94-bf2f-76ac6db3f8e9
 ms.date: 12/05/2018
 ms.keywords: EnumFileProperties, EnumFileProperties method [File Server Resource Manager], EnumFileProperties method [File Server Resource Manager],FsrmClassificationManager class, EnumFileProperties method [File Server Resource Manager],IFsrmClassificationManager interface, EnumFileProperties method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager interface [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager.EnumFileProperties, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager2::EnumFileProperties, IFsrmClassificationManager::EnumFileProperties, fs.ifsrmclassificationmanager_enumfileproperties, fsrm.ifsrmclassificationmanager_enumfileproperties, fsrmpipeline/IFsrmClassificationManager2::EnumFileProperties, fsrmpipeline/IFsrmClassificationManager::EnumFileProperties
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager.EnumFileProperties
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager.EnumFileProperties
-- IFsrmClassificationManager2.EnumFileProperties
-- FsrmClassificationManager.EnumFileProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager::EnumFileProperties
+ - fsrmpipeline/IFsrmClassificationManager::EnumFileProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager.EnumFileProperties
+ - IFsrmClassificationManager2.EnumFileProperties
+ - FsrmClassificationManager.EnumFileProperties
 ---
 
 # IFsrmClassificationManager::EnumFileProperties
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the properties of the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param filePath [in]
 
 The file that contains the properties that you want to enumerate. You must specify an absolute path to the 
       file. You cannot specify a file share.
 
-
 ### -param options [in]
 
 The option to use for enumerating the file's properties. For possible values, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmgetfilepropertyoptions">FsrmGetFilePropertyOptions</a> enumeration.
-
 
 ### -param fileProperties [out]
 
@@ -79,19 +73,11 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsr
       <b>VT_DISPATCH</b>. Query the <b>pdispVal</b> member of the variant for 
       the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmproperty">IFsrmProperty</a> interface.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 FSRM asks the specified storage modules (see the <i>options</i> parameter) to return all 
     the properties for the file for which they are responsible. For storage modules that embed the properties in the 
@@ -109,12 +95,7 @@ For examples in C# and PowerShell see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
 
@@ -141,7 +122,4 @@ For examples in C# and PowerShell see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
 

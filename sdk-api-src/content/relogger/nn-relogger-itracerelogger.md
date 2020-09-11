@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 08073b9a-5ae0-4e88-a502-647567418005
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], ITraceRelogger interface [ETW],described, etw.itracerelogger, relogger/ITraceRelogger
-f1_keywords:
-- relogger/ITraceRelogger
-dev_langs:
-- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Relogger.h
-api_name:
-- ITraceRelogger
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceRelogger
+ - relogger/ITraceRelogger
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Relogger.h
+api_name:
+ - ITraceRelogger
 ---
 
 # ITraceRelogger interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITraceRelogger</b>  interface provides access to the relogging functionality, allowing you to manipulate and relog events from an ETW trace stream.
-
 
 ## -inheritance
 
@@ -149,29 +148,17 @@ Indicates the file to which ETW should write the new, relogged trace.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is not supported on Windows 7 for the IA64 architecture.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>
- 
-
- 
 

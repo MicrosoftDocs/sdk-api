@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 958c9611-fd9c-4895-903b-145eacf76901
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsole2 interface, IConsole2 interface [MMC],Expand method, IConsole2.Expand, IConsole2::Expand, _slate_iconsole2_expand, mmc.iconsole2_expand, mmc/IConsole2::Expand
-f1_keywords:
-- mmc/IConsole2.Expand
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsole2.Expand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsole2::Expand
+ - mmc/IConsole2::Expand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsole2.Expand
 ---
 
 # IConsole2::Expand
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IConsole2::Expand</b> method enables the snap-in to expand or collapse an item in the scope pane.
 
-
 ## -parameters
-
-
-
 
 ### -param hItem [in]
 
 A handle to the item to expand.
 
-
 ### -param bExpand [in]
 
 A value that specifies whether to expand or collapse the item. <b>TRUE</b> expands the item. <b>FALSE</b> collapses the item.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IConsole2::Expand</b> method is the programmatic equivalent of the user clicking on the plus or minus sign to expand or collapse an item in the scope pane. That is, this method causes a visible expansion or collapse of an item in the scope pane. Be aware that this method does not change the selection in the scope pane and does not affect the result pane.
 
@@ -99,20 +86,11 @@ Therefore, the snap-in should only call this method on the
 To enumerate the child items of an item in the namespace without visibly expanding the item, the snap-in should use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace2-expand">IConsoleNameSpace2::Expand</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace2-expand">IConsoleNameSpace2::Expand</a>
- 
-
- 
 

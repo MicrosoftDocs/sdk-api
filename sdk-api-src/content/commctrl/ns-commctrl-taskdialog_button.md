@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstructures\taskdialog_button.htm
 ms.date: 12/05/2018
 ms.keywords: TASKDIALOG_BUTTON, TASKDIALOG_BUTTON structure [Windows Controls], _shell_TASKDIALOG_BUTTON, _shell_TASKDIALOG_BUTTON_cpp, commctrl/TASKDIALOG_BUTTON, controls.TASKDIALOG_BUTTON, controls._shell_TASKDIALOG_BUTTON
-f1_keywords:
-- commctrl/TASKDIALOG_BUTTON
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TASKDIALOG_BUTTON
 targetos: Windows
 req.typenames: TASKDIALOG_BUTTON
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TASKDIALOG_BUTTON
+ - commctrl/_TASKDIALOG_BUTTON
+ - TASKDIALOG_BUTTON
+ - commctrl/TASKDIALOG_BUTTON
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TASKDIALOG_BUTTON
 ---
 
 # TASKDIALOG_BUTTON structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TASKDIALOG_BUTTON</b> structure contains information used to display a button in a task dialog. The <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure uses this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field nButtonID
 
 Type: <b>int</b>
 
 Indicates the value to be returned when this button is selected.
-
 
 ### -field pszButtonText
 

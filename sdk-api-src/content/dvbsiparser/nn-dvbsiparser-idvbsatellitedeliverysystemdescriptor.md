@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 814becf0-c98a-4419-aca6-d9b22d273e97
 ms.date: 12/05/2018
 ms.keywords: IDvbSatelliteDeliverySystemDescriptor, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbSatelliteDeliverySystemDescriptorInterface, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor, mstv.idvbsatellitedeliverysystemdescriptor
-f1_keywords:
-- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSatelliteDeliverySystemDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSatelliteDeliverySystemDescriptor
+ - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSatelliteDeliverySystemDescriptor
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IDvbSatelliteDeliverySystemDescriptor</b> interface enables the client to get a satellite delivery system descriptor from a DVB stream. The satellite delivery system descriptor may be present in the network information table (NIT). For more information, refer to ETSI EN 300 468.
-
-
-
 
 ## -inheritance
 
@@ -155,12 +151,9 @@ Returns a flag that specifies whether the satellite is in the western or eastern
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To obtain a pointer to this interface, do the following:
 
@@ -170,15 +163,7 @@ To obtain a pointer to this interface, do the following:
 <li>Query the returned <b>IGenericDescriptor</b> pointer for the <b>IDvbSatelliteDeliverySystemDescriptor</b> interface.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

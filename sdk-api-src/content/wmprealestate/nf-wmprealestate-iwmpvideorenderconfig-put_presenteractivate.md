@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: a052aecc-b37f-4999-b484-80ee3e2392ba
 ms.date: 12/05/2018
 ms.keywords: IWMPVideoRenderConfig interface [Windows Media Player],put_presenterActivate method, IWMPVideoRenderConfig.put_presenterActivate, IWMPVideoRenderConfig::put_presenterActivate, IWMPVideoRenderConfigput_presenterActivate, put_presenterActivate, put_presenterActivate method [Windows Media Player], put_presenterActivate method [Windows Media Player],IWMPVideoRenderConfig interface, wmp.iwmpvideorenderconfig_put_presenteractivate, wmprealestate/IWMPVideoRenderConfig::put_presenterActivate
-f1_keywords:
-- wmprealestate/IWMPVideoRenderConfig.put_presenterActivate
-dev_langs:
-- c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPVideoRenderConfig.put_presenterActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPVideoRenderConfig::put_presenterActivate
+ - wmprealestate/IWMPVideoRenderConfig::put_presenterActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPVideoRenderConfig.put_presenterActivate
 ---
 
 # IWMPVideoRenderConfig::put_presenterActivate
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_presenterActivate</b> method provides Windows Media Player with an activation object for a custom video presenter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pActivate [in]
 
 A pointer to an <b>IMFActivate</b> interface that Windows Media Player or another Windows component will use to activate the custom video presenter.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In certain situations, Windows Media Player uses a video pipeline that includes the enhanced video renderer (EVR). The EVR is a system component that allows other components and applications to provide custom plug-ins that perform tasks like video mixing and video presenting.
 
@@ -108,16 +92,7 @@ The EVR, custom presenters, activation objects, and the <b>IMFActivate</b> inter
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpvideorenderconfig">IWMPVideoRenderConfig Interface</a>
- 
-
- 
 

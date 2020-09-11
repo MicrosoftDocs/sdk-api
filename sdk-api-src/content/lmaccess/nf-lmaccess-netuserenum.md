@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: b26ef3c0-934a-4840-8c06-4eaff5c9ff86
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 3, FILTER_INTERDOMAIN_TRUST_ACCOUNT, FILTER_NORMAL_ACCOUNT, FILTER_SERVER_TRUST_ACCOUNT, FILTER_TEMP_DUPLICATE_ACCOUNT, FILTER_WORKSTATION_TRUST_ACCOUNT, NetUserEnum, NetUserEnum function [Network Management], _win32_netuserenum, lmaccess/NetUserEnum, netmgmt.netuserenum
-f1_keywords:
-- lmaccess/NetUserEnum
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserEnum
+ - lmaccess/NetUserEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserEnum
 ---
 
 # NetUserEnum function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserEnum</b> function retrieves information about all user accounts on a server.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
 
 ### -param level [in]
 
@@ -154,8 +149,6 @@ Return the user's name and identifier and various account attributes. The <i>buf
 </td>
 </tr>
 </table>
- 
-
 
 ### -param filter [in]
 
@@ -221,8 +214,6 @@ Enumerates member server machine account data. This account type is associated w
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -230,18 +221,15 @@ A pointer to the buffer that receives the data. The format of this data depends 
 
 The buffer for this data is allocated by the system and the application must call the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function to free the allocated memory when the data returned is no longer needed. Note that you must free the buffer even if the <b>NetUserEnum</b> function fails with ERROR_MORE_DATA.
 
-
 ### -param prefmaxlen [in]
 
 The preferred maximum length, in bytes, of the returned data. If you specify MAX_PREFERRED_LENGTH, the <b>NetUserEnum</b> function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns ERROR_MORE_DATA. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ### -param entriesread [out]
 
 A pointer to a value that receives the count of elements actually enumerated.
-
 
 ### -param totalentries [out]
 
@@ -254,15 +242,11 @@ A pointer to a value that receives the total number of entries that could have b
 
 <b>LAN Manager:  </b>If the call is to a computer that is running LAN Manager 2.<i>x</i>, the <i>totalentries</i> parameter will always reflect the total number of entries in the database no matter where it is in the resume sequence.
 
-
 ### -param resume_handle [in, out]
 
 A pointer to a value that contains a resume handle which is used to continue an existing user search. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, then no resume handle is stored.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -329,14 +313,8 @@ More entries are available. Specify a large enough buffer to receive all entries
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The
 				<b>NetUserEnum</b> function retrieves information about all user accounts on a specified remote server or the local computer.
@@ -487,14 +465,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomains">LsaEnumerateTrustedDomains</a>
 
@@ -563,7 +534,4 @@ int wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

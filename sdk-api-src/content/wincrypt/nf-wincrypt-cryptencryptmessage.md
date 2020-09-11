@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 927f2e9a-96cf-4744-bd57-420b5034d28d
 ms.date: 12/05/2018
 ms.keywords: CryptEncryptMessage, CryptEncryptMessage function [Security], _crypto2_cryptencryptmessage, security.cryptencryptmessage, wincrypt/CryptEncryptMessage
-f1_keywords:
-- wincrypt/CryptEncryptMessage
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptEncryptMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptEncryptMessage
+ - wincrypt/CryptEncryptMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptEncryptMessage
 ---
 
 # CryptEncryptMessage function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptEncryptMessage</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encrypts</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encodes</a> a message.
 
-
 ## -parameters
-
-
-
 
 ### -param pEncryptPara [in]
 
@@ -65,27 +61,22 @@ A pointer to a
 
 The <b>CryptEncryptMessage</b> function does not support the SHA2 OIDs, <b>szOID_DH_SINGLE_PASS_STDDH_SHA256_KDF</b> and  <b>szOID_DH_SINGLE_PASS_STDDH_SHA384_KDF</b>.
 
-
 ### -param cRecipientCert [in]
 
 Number of elements in the <i>rgpRecipientCert</i> array.
-
 
 ### -param rgpRecipientCert [in]
 
 Array of pointers to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that contain the certificates of intended recipients of the message.
 
-
 ### -param pbToBeEncrypted [in]
 
 A pointer to a buffer that contains the message that is to be encrypted.
 
-
 ### -param cbToBeEncrypted [in]
 
 The size, in bytes, of the message that is to be encrypted.
-
 
 ### -param pbEncryptedBlob [out]
 
@@ -96,7 +87,6 @@ A pointer to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly"
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbEncryptedBlob [in, out]
 
@@ -109,8 +99,6 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
@@ -158,16 +146,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message 
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

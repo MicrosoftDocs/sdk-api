@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9a101e5b-a137-4e15-81b6-90e0fc14b887
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Skip method, IEnumCERTVIEWCOLUMN object [Security],Skip method, IEnumCERTVIEWCOLUMN.Skip, IEnumCERTVIEWCOLUMN::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWCOLUMN interface, Skip method [Security],IEnumCERTVIEWCOLUMN object, _certsrv_ienumcertviewcolumn_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewcolumn_skip
-f1_keywords:
-- certview/IEnumCERTVIEWCOLUMN.Skip
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWCOLUMN.Skip
-- IEnumCERTVIEWCOLUMN.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWCOLUMN::Skip
+ - certview/IEnumCERTVIEWCOLUMN::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWCOLUMN.Skip
+ - IEnumCERTVIEWCOLUMN.Skip
 ---
 
 # IEnumCERTVIEWCOLUMN::Skip
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Skip</b> method skips a specified number of columns in the column-enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 The number of columns to skip. A positive value for the <i>celt</i> parameter causes the column-enumeration sequence to skip forward in the enumeration sequence. A negative value causes column-enumeration to skip backward in the enumeration sequence.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
@@ -75,12 +68,7 @@ A return value of E_INVALIDARG indicates that a negative value in the   <i>celt<
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Upon successful completion of this function, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-next">IEnumCERTVIEWCOLUMN::Next</a> method to reference the current column in the column-enumeration sequence. After this second call is made, the information in the column can be obtained by calling one of the following methods:
@@ -125,14 +113,7 @@ if (S_OK == hr)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a>
 
@@ -143,7 +124,4 @@ if (S_OK == hr)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-next">IEnumCERTVIEWCOLUMN:Next</a>
- 
-
- 
 

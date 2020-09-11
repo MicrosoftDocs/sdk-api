@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 3B78FAD2-C4C1-4093-8314-8C079D01A4B8
 ms.date: 12/05/2018
 ms.keywords: D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE enumeration [Direct2D], D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_ANISOTROPIC, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_CUBIC, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_LINEAR, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_CUBIC, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_LINEAR, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_3dperspectivetransform_interpolation_mode
-f1_keywords:
-- d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
 targetos: Windows
 req.typenames: D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
+ - d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
 ---
 
 # D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE enumeration
@@ -49,43 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The interpolation mode the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/3d-perspective-transform">3D perspective transform effect</a> uses on the image.
           There are 5 scale modes that range in quality and speed.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_NEAREST_NEIGHBOR
 
 Samples the nearest single point and uses that. This mode uses less processing time, but outputs the lowest quality image.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_LINEAR
 
 Uses a four point sample and linear interpolation. This mode uses more processing time than the nearest neighbor mode, but outputs a higher quality image.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_CUBIC
 
-Uses a 16 sample cubic kernel for interpolation. This mode uses the most processing time, but outputs a higher quality image. 
-
+Uses a 16 sample cubic kernel for interpolation. This mode uses the most processing time, but outputs a higher quality image.
 
 ### -field D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR
 
 Uses 4 linear samples within a single pixel for good edge anti-aliasing. This mode is good for scaling down by small amounts on images with few pixels.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_ANISOTROPIC
 
 Uses anisotropic filtering to sample a pattern according to the transformed shape of the bitmap.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_FORCE_DWORD
-
-
 

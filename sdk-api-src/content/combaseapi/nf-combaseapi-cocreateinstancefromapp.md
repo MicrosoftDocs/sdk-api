@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1
 ms.date: 12/05/2018
 ms.keywords: CoCreateInstanceFromApp, CoCreateInstanceFromApp function [COM], com.cocreateinstancefromapp, combaseapi/CoCreateInstanceFromApp
-f1_keywords:
-- combaseapi/CoCreateInstanceFromApp
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Combase.lib
 req.dll: Combase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- combase.dll
-- API-MS-Win-Core-COM-l1-1-0.dll
-- API-MS-Win-Core-COM-l1-1-1.dll
-api_name:
-- CoCreateInstanceFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoCreateInstanceFromApp
+ - combaseapi/CoCreateInstanceFromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - combase.dll
+ - API-MS-Win-Core-COM-l1-1-0.dll
+ - API-MS-Win-Core-COM-l1-1-1.dll
+api_name:
+ - CoCreateInstanceFromApp
 ---
 
 # CoCreateInstanceFromApp function
@@ -51,48 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of a specific class on a specific computer from within an app container.
 
-
 ## -parameters
-
-
-
 
 ### -param Clsid [in]
 
 The CLSID of the object to be created.
 
-
 ### -param punkOuter [in, optional]
 
 If this parameter non-<b>NULL</b>, indicates the instance is being created as part of an aggregate, and <i>punkOuter</i> is to be used as the new instance's controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. Aggregation is currently not supported cross-process or cross-computer. When instantiating an object out of process, CLASS_E_NOAGGREGATION will be returned if <i>punkOuter</i> is non-<b>NULL</b>.
-
 
 ### -param dwClsCtx [in]
 
 A value from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration.
 
-
 ### -param reserved [in, optional]
 
 Reserved for future use.
-
 
 ### -param dwCount [in]
 
 The number of structures in <i>pResults</i>. This value must be greater than 0.
 
-
 ### -param pResults [in, out]
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> (<b>hr</b>).
 
-
 ## -returns
-
-
 
 This function can return the standard return value E_INVALIDARG, as well as the following values.
 
@@ -157,14 +145,8 @@ None of the interfaces requested in the <i>pResults</i> array were successfully 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CoCreateInstanceFromApp</b> function is the same as the  <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function, with the following differences.
 
@@ -175,21 +157,11 @@ The <b>CoCreateInstanceFromApp</b> function is the same as the  <a href="https:/
 <li>The <b>CoCreateInstanceFromApp</b> function is available to Windows Store apps. Desktop applications can call this function, but they have the same restrictions as Windows Store apps.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>
 
 
 
 <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/fusion/index">Fusion (Unmanaged API Reference)</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 80d1af3c-2d1a-4d19-aed6-8cb2d3e52535
 ms.date: 12/05/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, GetPropertyFlags, GetPropertyFlags method [Security], GetPropertyFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPropertyFlags method, ICertPropertyEnrollmentPolicyServer.GetPropertyFlags, ICertPropertyEnrollmentPolicyServer::GetPropertyFlags, certenroll/ICertPropertyEnrollmentPolicyServer::GetPropertyFlags, security.icertpropertyenrollmentpolicyserver_getpropertyflags
-f1_keywords:
-- certenroll/ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyEnrollmentPolicyServer::GetPropertyFlags
+ - certenroll/ICertPropertyEnrollmentPolicyServer::GetPropertyFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetPropertyFlags
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetPropertyFlags</b> method retrieves a value that specifies the default policy server URL. This value is set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
@@ -88,12 +84,8 @@ The policy server URL returned by <a href="https://docs.microsoft.com/windows/de
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -117,18 +109,8 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
- 
-
- 
 

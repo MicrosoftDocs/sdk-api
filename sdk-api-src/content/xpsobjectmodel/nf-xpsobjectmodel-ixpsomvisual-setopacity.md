@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2a29aee3-f11b-41e7-a871-3be3d5994409
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacity method, IXpsOMVisual.SetOpacity, IXpsOMVisual::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacity, xpsobjectmodel/IXpsOMVisual::SetOpacity
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisual.SetOpacity
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisual.SetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisual::SetOpacity
+ - xpsobjectmodel/IXpsOMVisual::SetOpacity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisual.SetOpacity
 ---
 
 # IXpsOMVisual::SetOpacity
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the opacity value of the visual.
 
-
 ## -parameters
-
-
-
 
 ### -param opacity [in]
 
@@ -64,10 +60,7 @@ The opacity value to be set for the visual.
 
 The range of allowed values for this parameter is 0.0  to 1.0; with 0.0 the visual is completely transparent, and with 1.0 it is completely opaque.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
           
@@ -101,15 +94,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
@@ -120,7 +106,4 @@ The method succeeded.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

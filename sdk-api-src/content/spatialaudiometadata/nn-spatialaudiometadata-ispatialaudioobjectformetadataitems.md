@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 4861D2AA-E685-4A72-BE98-6FEEB72ACF67
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForMetadataItems, ISpatialAudioObjectForMetadataItems interface [Core Audio], ISpatialAudioObjectForMetadataItems interface [Core Audio],described, coreaudio.ispatialaudioobjectformetadataitems, spatialaudiometadata/ISpatialAudioObjectForMetadataItems
-f1_keywords:
-- spatialaudiometadata/ISpatialAudioObjectForMetadataItems
-dev_langs:
-- c++
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudiometadata.h
-api_name:
-- ISpatialAudioObjectForMetadataItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioObjectForMetadataItems
+ - spatialaudiometadata/ISpatialAudioObjectForMetadataItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudiometadata.h
+api_name:
+ - ISpatialAudioObjectForMetadataItems
 ---
 
 # ISpatialAudioObjectForMetadataItems interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Used to write spatial audio metadata for applications that require multiple metadata items per buffer with frame-accurate placement.  The data written via this interface must adhere to the format defined by the metadata format specified in the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/ns-spatialaudiometadata-spatialaudioobjectrenderstreamformetadataactivationparams">SpatialAudioObjectRenderStreamForMetadataActivationParams</a> when the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata">ISpatialAudioObjectRenderStreamForMetadata</a> was created.
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
-
 
 ## -inheritance
 
@@ -97,25 +96,14 @@ Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sp
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
- 
-
- 
 

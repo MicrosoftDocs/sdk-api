@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: ef9fdd4f-6338-498e-bbed-5fc676fc53b3
 ms.date: 12/05/2018
 ms.keywords: ID2D1Brush interface [Direct2D],SetTransform method, ID2D1Brush.SetTransform, ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F), ID2D1Brush::SetTransform, ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F), ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F*), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1Brush interface, d2d1/ID2D1Brush::SetTransform, direct2d.ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F
-f1_keywords:
-- d2d1/ID2D1Brush.SetTransform
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Brush.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Brush::SetTransform
+ - d2d1/ID2D1Brush::SetTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Brush.SetTransform
 ---
 
 # ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)
@@ -49,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the transformation applied to the brush.
 
-
 ## -parameters
-
-
-
 
 ### -param transform [in]
 
 Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
-The transformation to apply to this brush. 
-
+The transformation to apply to this brush.
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 9318868a-29d8-4a5e-9579-c06a7c0fd78f
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR structure [ETW], EVENT_FILTER_TYPE_EVENT_ID, EVENT_FILTER_TYPE_EVENT_NAME, EVENT_FILTER_TYPE_EXECUTABLE_NAME, EVENT_FILTER_TYPE_NONE, EVENT_FILTER_TYPE_PACKAGE_APP_ID, EVENT_FILTER_TYPE_PACKAGE_ID, EVENT_FILTER_TYPE_PAYLOAD, EVENT_FILTER_TYPE_PID, EVENT_FILTER_TYPE_SCHEMATIZED, EVENT_FILTER_TYPE_STACKWALK, EVENT_FILTER_TYPE_STACKWALK_LEVEL_KW, EVENT_FILTER_TYPE_STACKWALK_NAME, EVENT_FILTER_TYPE_SYSTEM_FLAGS, EVENT_FILTER_TYPE_TRACEHANDLE, PEVENT_FILTER_DESCRIPTOR, PEVENT_FILTER_DESCRIPTOR structure pointer [ETW], _EVENT_FILTER_DESCRIPTOR, base.event_filter_descriptor, etw.event_filter_descriptor, evntprov/EVENT_FILTER_DESCRIPTOR, evntprov/PEVENT_FILTER_DESCRIPTOR'
-f1_keywords:
-- evntprov/EVENT_FILTER_DESCRIPTOR
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntprov.h
-api_name:
-- EVENT_FILTER_DESCRIPTOR
 targetos: Windows
 req.typenames: EVENT_FILTER_DESCRIPTOR, *PEVENT_FILTER_DESCRIPTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EVENT_FILTER_DESCRIPTOR
+ - evntprov/_EVENT_FILTER_DESCRIPTOR
+ - PEVENT_FILTER_DESCRIPTOR
+ - evntprov/PEVENT_FILTER_DESCRIPTOR
+ - EVENT_FILTER_DESCRIPTOR
+ - evntprov/EVENT_FILTER_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntprov.h
+api_name:
+ - EVENT_FILTER_DESCRIPTOR
 ---
 
 # EVENT_FILTER_DESCRIPTOR structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EVENT_FILTER_DESCRIPTOR</b> structure defines the filter data that a session passes to the provider's enable callback function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Ptr
 
@@ -70,13 +70,11 @@ If the <b>Type</b> member is set to  <b>EVENT_FILTER_TYPE_STACKWALK</b>, the <b>
 
 If the <b>Type</b> member is set to  <b>EVENT_FILTER_TYPE_SCHEMATIZED</b>, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_header">EVENT_FILTER_HEADER</a> structure for details on constructing the filter.
 
-
 ### -field Size
 
 The size of the data, in bytes. 
 
-The maximum data size limit varies based on the specified <b>Type</b> member (the type of the filter). The maximum data size, in bytes,  for many of the filter types is limited to <b>MAX_EVENT_FILTER_DATA_SIZE</b> defined in the <i>evntprov.h</i> header file to 1024.  
-
+The maximum data size limit varies based on the specified <b>Type</b> member (the type of the filter). The maximum data size, in bytes,  for many of the filter types is limited to <b>MAX_EVENT_FILTER_DATA_SIZE</b> defined in the <i>evntprov.h</i> header file to 1024.
 
 ### -field Type
 
@@ -310,24 +308,14 @@ If you choose to use this filter, you still must specify <b>EVENT_ENABLE_PROPERT
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The provider determines the layout of the data and its purpose.
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload, scope, and stack walk filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <b>EVENT_FILTER_DESCRIPTOR</b> structures to filter on specific conditions in a logger session. For more information on event payload filters, see the <b>EnableTraceEx2</b>, <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> functions and the <b>ENABLE_TRACE_PARAMETERS</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures. 
-
-
-
+On Windows 8.1,Windows Server 2012 R2, and later, event payload, scope, and stack walk filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <b>EVENT_FILTER_DESCRIPTOR</b> structures to filter on specific conditions in a logger session. For more information on event payload filters, see the <b>EnableTraceEx2</b>, <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> functions and the <b>ENABLE_TRACE_PARAMETERS</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WES/defining-filters">Defining Filters</a>
 
@@ -366,7 +354,4 @@ On Windows 8.1,Windows Server 2012 R2, and later, event payload, scope, and s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
- 
-
- 
 

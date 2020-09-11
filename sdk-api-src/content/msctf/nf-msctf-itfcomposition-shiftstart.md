@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 85a5121a-7be0-4703-a1d4-4de21dd98697
 ms.date: 12/05/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftStart method, ITfComposition.ShiftStart, ITfComposition::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftstart_ref, msctf/ITfComposition::ShiftStart, tsf.itfcomposition_shiftstart
-f1_keywords:
-- msctf/ITfComposition.ShiftStart
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfComposition.ShiftStart
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfComposition::ShiftStart
+ - msctf/ITfComposition::ShiftStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfComposition.ShiftStart
 ---
 
 # ITfComposition::ShiftStart
+
 
 ## -description
 
@@ -125,7 +127,7 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 </td>
 </tr>
 </table>
- 
+
 ## -remarks
 
 This method causes the GUID_PROP_COMPOSING property to be removed from any text removed from the composition. Likewise, the GUID_PROP_COMPOSING property will also be added to any text added to the composition.
@@ -133,3 +135,4 @@ This method causes the GUID_PROP_COMPOSING property to be removed from any text 
 ## -see-also
 
 [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfComposition::ShiftEnd](nf-msctf-itfcomposition-shiftend.md)
+

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 5077ad2a-89c1-43f7-a7e0-7bd8036147b6
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorLogRecords, ICrmMonitorLogRecords interface [COM+], ICrmMonitorLogRecords interface [COM+],described, _dtc_ICrmMonitorLogRecords_Interface, comsvcs/ICrmMonitorLogRecords, cos.icrmmonitorlogrecords
-f1_keywords:
-- comsvcs/ICrmMonitorLogRecords
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitorLogRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitorLogRecords
+ - comsvcs/ICrmMonitorLogRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitorLogRecords
 ---
 
 # ICrmMonitorLogRecords interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Monitors the individual log records maintained by a specific CRM clerk for a given transaction.
-
-
 
 ## -inheritance
 
@@ -114,16 +112,9 @@ Retrieves a structured log record given its numeric index.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
- 
-
- 
 

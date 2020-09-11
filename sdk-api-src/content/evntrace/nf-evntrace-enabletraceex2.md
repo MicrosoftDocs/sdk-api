@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 3aceffb6-614f-4cad-bbec-f181f0cbdbff
 ms.date: 12/05/2018
 ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, EnableTraceEx2, EnableTraceEx2 function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, etw.enabletraceex2, evntrace/EnableTraceEx2
-f1_keywords:
-- evntrace/EnableTraceEx2
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Controller-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- EnableTraceEx2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnableTraceEx2
+ - evntrace/EnableTraceEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Controller-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - EnableTraceEx2
 ---
 
 # EnableTraceEx2 function
@@ -53,29 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnableTraceEx2</b> function
     enables or disables the specified event trace provider.
 
 This function supersedes the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> 
     function.
 
-
 ## -parameters
-
-
-
 
 ### -param TraceHandle [in]
 
 A handle of the event tracing session to which you want to enable or disable the provider. The 
-      <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle. 
-
+      <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
 
 ### -param ProviderId [in]
 
 A GUID of the event trace provider that you want to enable or disable.
-
 
 ### -param ControlCode [in]
 
@@ -119,8 +113,6 @@ Requests that the provider log its state information. First you would enable the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Level [in]
 
@@ -191,8 +183,6 @@ Detailed trace events
 </td>
 </tr>
 </table>
- 
-
 
 ### -param MatchAnyKeyword [in]
 
@@ -200,25 +190,19 @@ A bitmask of keywords that determine the category of events that you want the pr
       provider writes the event if any of the event's keyword bits match any of the bits set in this mask. See 
       Remarks.
 
-
 ### -param MatchAllKeyword [in]
 
 This bitmask is optional. This mask further restricts the category of  events that you want the provider to write. If the event's keyword meets the <i>MatchAnyKeyword</i> condition, the provider will write the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <i>MatchAnyKeyword</i> is zero. See Remarks.
-
 
 ### -param Timeout [in]
 
 Set to zero to enable the trace asynchronously; this is the default. If the timeout value is zero, this function calls the provider's enable callback and returns immediately. To enable the trace synchronously, specify a timeout value, in milliseconds. If you specify a timeout value, this function calls the provider's enable callback and waits until the callback exits or the timeout expires. To wait forever, set to INFINITE.
 
-
 ### -param EnableParameters [in, optional]
 
 The trace parameters used to enable the provider. For details, see <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a>.
 
-
 ## -returns
-
-
 
 If the function is successful, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -299,14 +283,8 @@ Only users with administrative privileges, users in the <i>Performance Log Users
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event trace controllers call this function.
 
@@ -825,14 +803,7 @@ Exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
@@ -879,7 +850,4 @@ Exit:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>
- 
-
- 
 

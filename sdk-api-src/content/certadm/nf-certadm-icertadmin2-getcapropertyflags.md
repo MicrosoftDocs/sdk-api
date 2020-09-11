@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6f38bea1-e278-4085-b321-05f6765cc676
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin2 object [Security],GetCAPropertyFlags method, GetCAPropertyFlags, GetCAPropertyFlags method [Security], GetCAPropertyFlags method [Security],CCertAdmin2 object, GetCAPropertyFlags method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAPropertyFlags method, ICertAdmin2.GetCAPropertyFlags, ICertAdmin2::GetCAPropertyFlags, _certsrv_icertadmin2_getcapropertyflags, certadm/ICertAdmin2::GetCAPropertyFlags, security.icertadmin2_getcapropertyflags
-f1_keywords:
-- certadm/ICertAdmin2.GetCAPropertyFlags
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.GetCAPropertyFlags
-- CCertAdmin2.GetCAPropertyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2::GetCAPropertyFlags
+ - certadm/ICertAdmin2::GetCAPropertyFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.GetCAPropertyFlags
+ - CCertAdmin2.GetCAPropertyFlags
 ---
 
 # ICertAdmin2::GetCAPropertyFlags
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCAPropertyFlags</b> method retrieves the property flags for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) property. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 The property flags can be examined to determine the data type and to determine whether the property is indexed.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -73,15 +69,11 @@ Represents a valid configuration string for the CA in the form COMPUTERNAME\CANA
 Specifies the property identifier. For information about this parameter, see the table in 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.
 
-
 ### -param pPropFlags [out]
 
 A pointer to a value that represents the property flags.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was successful.
@@ -89,12 +81,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was 
 <h3>VB</h3>
 A <b>Long</b> representing the property flags.
 
-
-
-
 ## -remarks
-
-
 
 The <b>LONG</b> value retrieved by calling this method can be examined to determine the data type and the indexed status. To determine the data type and indexed status, use the PROPTYPE_MASK and PROPFLAGS_INDEXED values, respectively.
 
@@ -150,7 +137,4 @@ printf("Property %s indexed\n",
 
 SysFreeString(bstrCA);
 ```
-
-
-
 

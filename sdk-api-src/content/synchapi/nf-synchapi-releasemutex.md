@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
 ms.date: 12/05/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex
-f1_keywords:
-- synchapi/ReleaseMutex
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- ReleaseMutex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReleaseMutex
+ - synchapi/ReleaseMutex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - ReleaseMutex
 ---
 
 # ReleaseMutex function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases ownership of the specified mutex object.
 
-
 ## -parameters
-
-
-
 
 ### -param hMutex [in]
 
@@ -71,26 +67,14 @@ A handle to the mutex object. The
 
 <a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-openmutexw">OpenMutex</a> function returns this handle.
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>ReleaseMutex</b> function fails if the calling thread does not own the mutex object.
@@ -111,12 +95,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a>
 
@@ -127,7 +106,4 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

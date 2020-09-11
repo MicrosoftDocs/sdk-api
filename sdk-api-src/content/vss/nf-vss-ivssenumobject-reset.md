@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 98fc07b0-3efe-4ec3-bb70-64a8b8828162
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject interface [VSS],Reset method, IVssEnumObject.Reset, IVssEnumObject::Reset, Reset, Reset method [VSS], Reset method [VSS],IVssEnumObject interface, _win32_ivssenumobject_reset, base.ivssenumobject_reset, vss/IVssEnumObject::Reset
-f1_keywords:
-- vss/IVssEnumObject.Reset
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssEnumObject.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssEnumObject::Reset
+ - vss/IVssEnumObject::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssEnumObject.Reset
 ---
 
 # IVssEnumObject::Reset
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Reset</b> method resets the enumerator 
     so that <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a> starts at the first 
     enumerated object.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -97,22 +89,12 @@ There was an internal error in the enumerator.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a>
- 
-
- 
 

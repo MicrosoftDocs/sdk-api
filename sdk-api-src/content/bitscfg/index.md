@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: bits
+f1_keywords:
+ - bitscfg
+ - bitscfg/bitscfg
 ---
 
 # Bitscfg.h header
 
 
 ## -description
-
 
 This header is used by Background Intelligent Transfer Service. For more information, see:
 

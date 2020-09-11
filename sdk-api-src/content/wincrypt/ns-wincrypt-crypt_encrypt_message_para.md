@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c683c515-3061-48e3-a64a-2798bd1245b0
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA structure [Security], PCRYPT_ENCRYPT_MESSAGE_PARA, PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_encrypt_message_para, security.crypt_encrypt_message_para, wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA, wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA'
-f1_keywords:
-- wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_ENCRYPT_MESSAGE_PARA
 targetos: Windows
 req.typenames: CRYPT_ENCRYPT_MESSAGE_PARA, *PCRYPT_ENCRYPT_MESSAGE_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_ENCRYPT_MESSAGE_PARA
+ - wincrypt/_CRYPT_ENCRYPT_MESSAGE_PARA
+ - PCRYPT_ENCRYPT_MESSAGE_PARA
+ - wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA
+ - CRYPT_ENCRYPT_MESSAGE_PARA
+ - wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_ENCRYPT_MESSAGE_PARA
 ---
 
 # CRYPT_ENCRYPT_MESSAGE_PARA structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_ENCRYPT_MESSAGE_PARA</b> structure contains information used to encrypt messages.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
-
 
 ### -field dwMsgEncodingType
 
@@ -86,9 +85,6 @@ This member is not used and should be set to <b>NULL</b>.
 Unless there is a strong reason for passing in a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic provider</a> in <b>hCryptProv</b>, pass zero to use the default RSA or DSS provider.
 
 This member's data type is <b>HCRYPTPROV</b>.
-
-
-
 
 ### -field ContentEncryptionAlgorithm
 
@@ -116,7 +112,6 @@ A pointer to a
 
 If the <b>ContentEncryptionAlgorithm</b> member contains <b>szOID_RSA_RC4</b>, this member points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc4_aux_info">CMSG_RC4_AUX_INFO</a> structure  that specifies the number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">salt bytes</a> to be included.
 
-
 ### -field dwFlags
 
 Normally set to zero. However, if the encoded output is to be a CMSG_ENVELOPED <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> of an outer cryptographic message, such as a CMSG_SIGNED message, the CRYPT_MESSAGE_BARE_CONTENT_OUT_FLAG must be set. If it is not set, content will be encoded as an <i>inner content</i> type of CMSG_DATA.
@@ -125,16 +120,11 @@ CRYPT_MESSAGE_ENCAPSULATED_CONTENT_OUT_FLAG can be set to encapsulate non-data <
 
 CRYPT_MESSAGE_KEYID_RECIPIENT_FLAG can be set to identify recipients by their Key Identifier and not their Issuer and Serial Number.
 
-
 ### -field dwInnerContentType
 
 Normally set to zero. The <b>dwInnerContentType</b> member must be set to set the cryptographic message types if the input to be encrypted is the encoded output of another cryptographic message such as CMSG_SIGNED.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
@@ -145,7 +135,4 @@ Normally set to zero. The <b>dwInnerContentType</b> member must be set to set th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage">CryptSignAndEncryptMessage</a>
- 
-
- 
 

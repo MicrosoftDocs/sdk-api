@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: fa0295e6-473d-4304-9a7b-24584cade0a0
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], IMFSinkWriterCallback interface [Media Foundation],described, mf.imfsinkwritercallback, mfreadwrite/IMFSinkWriterCallback
-f1_keywords:
-- mfreadwrite/IMFSinkWriterCallback
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSinkWriterCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSinkWriterCallback
+ - mfreadwrite/IMFSinkWriterCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSinkWriterCallback
 ---
 
 # IMFSinkWriterCallback interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Callback interface for the Microsoft Media Foundation sink writer.
-
-
-
 
 ## -inheritance
 
@@ -88,12 +85,9 @@ Called when the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Set the callback pointer by setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-sink-writer-async-callback">MF_SINK_WRITER_ASYNC_CALLBACK</a> attribute when you first create the sink writer.
 
@@ -103,20 +97,11 @@ The callback methods can be called from any thread, so an object that implements
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
- 
-
- 
 

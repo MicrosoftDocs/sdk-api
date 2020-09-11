@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5d5x.htm
 ms.date: 12/05/2018
 ms.keywords: DocumentSize property [Fax Service], DocumentSize property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],DocumentSize property, IFaxStatus.DocumentSize, IFaxStatus.get_DocumentSize, IFaxStatus::DocumentSize, IFaxStatus::get_DocumentSize, _mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_documentsize_cpp, faxcom/IFaxStatus::DocumentSize, faxcom/IFaxStatus::get_DocumentSize, get_DocumentSize
-f1_keywords:
-- faxcom/IFaxStatus.DocumentSize
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxStatus.DocumentSize
-- IFaxStatus.get_DocumentSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxStatus::get_DocumentSize
+ - faxcom/IFaxStatus::get_DocumentSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxStatus.DocumentSize
+ - IFaxStatus.get_DocumentSize
 ---
 
 # IFaxStatus::get_DocumentSize
@@ -50,28 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <b>DocumentSize</b> property for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object of a parent <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object. The <b>DocumentSize</b> property is the size of the fax document associated with the active outbound job on a specific port.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 You can use the <b>DocumentSize</b> property of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object in conjunction with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxstatus-get-documentname-vb">DocumentName</a> property of the object to inform users about the size of outbound jobs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -94,7 +84,4 @@ You can use the <b>DocumentSize</b> property of a <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxstatus-get-documentname-vb">IFaxStatus::get_DocumentName</a>
- 
-
- 
 

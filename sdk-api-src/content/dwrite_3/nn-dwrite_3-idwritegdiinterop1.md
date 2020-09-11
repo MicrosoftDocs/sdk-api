@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: A69922D8-EF9F-4F46-91D3-F7F649CF4705
 ms.date: 12/05/2018
 ms.keywords: IDWriteGdiInterop1, IDWriteGdiInterop1 interface [Direct Write], IDWriteGdiInterop1 interface [Direct Write],described, directwrite.idwritegdiinterop1, dwrite_3/IDWriteGdiInterop1
-f1_keywords:
-- dwrite_3/IDWriteGdiInterop1
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteGdiInterop1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteGdiInterop1
+ - dwrite_3/IDWriteGdiInterop1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteGdiInterop1
 ---
 
 # IDWriteGdiInterop1 interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. 
         It is also used to create bitmap render target objects.
-
 
 ## -inheritance
 
@@ -96,16 +95,9 @@ Gets a list of matching fonts based on the specified LOGFONT values. Only fonts
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>
- 
-
- 
 

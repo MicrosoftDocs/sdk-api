@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 71E43B63-9C84-4E4B-A43D-92B958C8AAF5
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,Map method, ID3D12Resource.Map, ID3D12Resource::Map, Map, Map method, Map method,ID3D12Resource interface, d3d12/ID3D12Resource::Map, direct3d12.id3d12resource_map
-f1_keywords:
-- d3d12/ID3D12Resource.Map
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Resource.Map
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Resource::Map
+ - d3d12/ID3D12Resource::Map
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Resource.Map
 ---
 
 # ID3D12Resource::Map
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a CPU pointer to the specified subresource in the resource, but may not disclose the pointer value to applications. <b>Map</b> also invalidates the CPU cache, when necessary, so that CPU reads to this address reflect any modifications made by the GPU.
 
-
-
 ## -parameters
-
-
-
 
 ### -param Subresource
 
 Type: <b>UINT</b>
 
 Specifies the index number of the subresource.
-
 
 ### -param pReadRange [in, optional]
 
@@ -74,8 +68,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 
 This indicates the region the CPU might read, and the coordinates are subresource-relative. A null pointer indicates the entire subresource might be read by the CPU. It is valid to specify the CPU won't read any data by passing a range where <b>End</b> is less than or equal to <b>Begin</b>.
 
-
-
 ### -param ppData [out, optional]
 
 Type: <b><b>void</b>**</b>
@@ -84,22 +76,13 @@ A pointer to a memory block that receives a pointer to the resource data.
 
 A null pointer is valid and is useful to cache a CPU virtual address range for methods like <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">WriteToSubresource</a>. When <i>ppData</i> is not NULL, the pointer returned is never offset by any values in <i>pReadRange</i>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
-          
-
-
-
 
 ## -remarks
-
-
 
 <b>Map</b> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a> can be called by multiple threads safely. Nested <b>Map</b> calls are supported and are ref-counted. The first call to <b>Map</b> allocates a CPU virtual address range for the resource. The last call to <b>Unmap</b> deallocates the CPU virtual address range. The CPU virtual address is commonly returned to the application; but manipulating the contents of textures with unknown layouts precludes disclosing the CPU virtual address. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">WriteToSubresource</a> for more details. Applications cannot rely on the address being consistent, unless <b>Map</b> is persistently nested.
 
@@ -210,12 +193,7 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
 
@@ -226,7 +204,4 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 87fa2000-8dab-4f30-940a-14fb6699f616
 ms.date: 12/05/2018
 ms.keywords: '*PDMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER structure [DirectShow], DMO_OUTPUT_DATA_BUFFERStructure, PDMO_OUTPUT_DATA_BUFFER, PDMO_OUTPUT_DATA_BUFFER structure pointer [DirectShow], dshow.dmo_output_data_buffer, mediaobj/DMO_OUTPUT_DATA_BUFFER, mediaobj/PDMO_OUTPUT_DATA_BUFFER'
-f1_keywords:
-- mediaobj/DMO_OUTPUT_DATA_BUFFER
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mediaobj.h
-api_name:
-- DMO_OUTPUT_DATA_BUFFER
 targetos: Windows
 req.typenames: DMO_OUTPUT_DATA_BUFFER, *PDMO_OUTPUT_DATA_BUFFER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DMO_OUTPUT_DATA_BUFFER
+ - mediaobj/_DMO_OUTPUT_DATA_BUFFER
+ - PDMO_OUTPUT_DATA_BUFFER
+ - mediaobj/PDMO_OUTPUT_DATA_BUFFER
+ - DMO_OUTPUT_DATA_BUFFER
+ - mediaobj/DMO_OUTPUT_DATA_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mediaobj.h
+api_name:
+ - DMO_OUTPUT_DATA_BUFFER
 ---
 
 # DMO_OUTPUT_DATA_BUFFER structure
@@ -49,49 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>DMO_OUTPUT_DATA_BUFFER</code> structure describes an output buffer used by a Microsoft DirectX Media Object (DMO).
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field pBuffer
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer</a> interface of a buffer allocated by the application.
 
-
 ### -field dwStatus
 
 Status flags. After processing output, the DMO sets this member to a bitwise combination of zero or more <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_output_data_buffer_flags">DMO_OUTPUT_DATA_BUFFER_FLAGS</a> flags.
-
 
 ### -field rtTimestamp
 
 Time stamp that specifies the start time of the data in the buffer. If the buffer has a valid time stamp, the DMO sets this member and also sets the DMO_OUTPUT_DATA_BUFFERF_TIME flag in the <b>dwStatus</b> member. Otherwise, ignore this member.
 
-
 ### -field rtTimelength
 
 Reference time specifying the length of the data in the buffer. If the DMO sets this member to a valid value, it also sets the DMO_OUTPUT_DATA_BUFFERF_TIMELENGTH flag in the <b>dwStatus</b> member. Otherwise, ignore this member.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>
- 
-
- 
 

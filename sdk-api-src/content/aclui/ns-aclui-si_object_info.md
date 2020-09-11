@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bdfd0753-4727-4ca1-ac36-0a77db0a16c5
 ms.date: 12/05/2018
 ms.keywords: '*PSI_OBJECT_INFO, PSI_OBJECT_INFO, PSI_OBJECT_INFO structure pointer [Security], SI_ADVANCED, SI_AUDITS_ELEVATION_REQUIRED, SI_CONTAINER, SI_DISABLE_DENY_ACE, SI_EDIT_ALL, SI_EDIT_AUDITS, SI_EDIT_EFFECTIVE, SI_EDIT_OWNER, SI_EDIT_PERMS, SI_EDIT_PROPERTIES, SI_ENABLE_CENTRAL_POLICY, SI_ENABLE_EDIT_ATTRIBUTE_CONDITION, SI_MAY_WRITE, SI_NO_ACL_PROTECT, SI_NO_ADDITIONAL_PERMISSION, SI_NO_TREE_APPLY, SI_OBJECT_GUID, SI_OBJECT_INFO, SI_OBJECT_INFO structure [Security], SI_OWNER_ELEVATION_REQUIRED, SI_OWNER_READONLY, SI_OWNER_RECURSE, SI_PAGE_TITLE, SI_PERMS_ELEVATION_REQUIRED, SI_READONLY, SI_RESET, SI_RESET_DACL, SI_RESET_DACL_TREE, SI_RESET_OWNER, SI_RESET_SACL, SI_RESET_SACL_TREE, SI_SCOPE_ELEVATION_REQUIRED, SI_SERVER_IS_DC, SI_VIEW_ONLY, _win32_si_object_info_str, aclui/PSI_OBJECT_INFO, aclui/SI_OBJECT_INFO, security.si_object_info'
-f1_keywords:
-- aclui/SI_OBJECT_INFO
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Aclui.h
-api_name:
-- SI_OBJECT_INFO
 targetos: Windows
 req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SI_OBJECT_INFO
+ - aclui/_SI_OBJECT_INFO
+ - PSI_OBJECT_INFO
+ - aclui/PSI_OBJECT_INFO
+ - SI_OBJECT_INFO
+ - aclui/SI_OBJECT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Aclui.h
+api_name:
+ - SI_OBJECT_INFO
 ---
 
 # SI_OBJECT_INFO structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SI_OBJECT_INFO</b> structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method to specify information used to initialize the access control editor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -485,8 +485,6 @@ This flag cannot be combined with the <b>SI_READONLY</b> flag.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hInstance
 
@@ -494,32 +492,24 @@ Identifies a module that contains string resources to be used in the property sh
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a> methods can specify string resource identifiers for display names.
 
-
 ### -field pszServerName
 
 A pointer to a <b>null</b>-terminated, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string that names the computer on which to look up account names and SIDs. This value can be <b>NULL</b> to specify the local computer. The access control editor does not free this pointer.
-
 
 ### -field pszObjectName
 
 A pointer to a <b>null</b>-terminated, Unicode string that names the object being edited. This name appears in the title of the advanced security property sheet and any error message boxes displayed by the access control editor. The access control editor does not free this pointer.
 
-
 ### -field pszPageTitle
 
 A pointer to a <b>null</b>-terminated, Unicode string used as the title of the basic security property page. This member is ignored unless the SI_PAGE_TITLE flag is set in <b>dwFlags</b>. If the page title is not provided, a default title is used. The access control editor does not free this pointer.
-
 
 ### -field guidObjectType
 
 A 
 GUID for the object. This member is ignored unless the SI_OBJECT_GUID flag is set in <b>dwFlags</b>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
@@ -542,7 +532,4 @@ GUID for the object. This member is ignored unless the SI_OBJECT_GUID flag is se
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a>
- 
-
- 
 

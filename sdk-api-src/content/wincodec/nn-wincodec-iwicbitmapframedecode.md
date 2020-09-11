@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 1498b800-6449-440f-bed7-85891637e559
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameDecode, IWICBitmapFrameDecode interface [Windows Imaging Component], IWICBitmapFrameDecode interface [Windows Imaging Component],described, _wic_codec_iwicbitmapframedecode, wic._wic_codec_iwicbitmapframedecode, wincodec/IWICBitmapFrameDecode
-f1_keywords:
-- wincodec/IWICBitmapFrameDecode
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapFrameDecode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapFrameDecode
+ - wincodec/IWICBitmapFrameDecode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapFrameDecode
 ---
 
 # IWICBitmapFrameDecode interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods for decoding individual image frames of an encoded file.
-
 
 ## -inheritance
 
@@ -95,13 +94,9 @@ Retrieves a small preview of the frame, if supported by the codec.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
 
@@ -128,7 +123,4 @@ Retrieves a small preview of the frame, if supported by the codec.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgettext.htm
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetText method, ITextServices.TxGetText, ITextServices::TxGetText, TxGetText, TxGetText method [Windows Controls], TxGetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetText, _win32_ITextServices_TxGetText_cpp, controls.ITextServices_TxGetText, controls._win32_ITextServices_TxGetText, textserv/ITextServices::TxGetText
-f1_keywords:
-- textserv/ITextServices.TxGetText
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextServices.TxGetText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextServices::TxGetText
+ - textserv/ITextServices::TxGetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextServices.TxGetText
 ---
 
 # ITextServices::TxGetText
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns all of the Unicode plain text in the control as a <b>BSTR</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrText
 
 Type: <b>BSTR
           *</b>
 
-The Unicode plain text. 
-
+The Unicode plain text.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -104,14 +97,8 @@ Could not allocate memory for copy of the text.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The host (caller) takes ownership of the returned <b>BSTR</b>.
 
@@ -121,13 +108,7 @@ If there is no text in the control, the <b>BSTR</b> is allocated and 0x000D is r
 
 The returned text will <i>not</i> necessarily be null-terminated.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -154,7 +135,4 @@ The returned text will <i>not</i> necessarily be null-terminated.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

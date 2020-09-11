@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 3a200812-48d9-4202-987a-1400aa66191c
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],Save method, IPersistStorage.Save, IPersistStorage::Save, Save, Save method [COM], Save method [COM],IPersistStorage interface, _com_ipersiststorage_save, com.ipersiststorage_save, objidl/IPersistStorage::Save
-f1_keywords:
-- objidl/IPersistStorage.Save
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersistStorage.Save
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistStorage::Save
+ - objidl/IPersistStorage::Save
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersistStorage.Save
 ---
 
 # IPersistStorage::Save
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves an object, and any nested objects that it contains, into the specified storage object. The object enters NoScribble mode.
 
-
 ## -parameters
-
-
-
 
 ### -param pStgSave [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the storage into which the object is to be saved.
-
 
 ### -param fSameAsLoad [in]
 
@@ -71,10 +66,7 @@ This parameter is set to <b>FALSE</b> when performing a <b>Save As</b> or <b>Sav
 
 This parameter is set to <b>TRUE</b> to perform a full save in a low-memory situation or to perform a fast incremental save in which only the dirty components are saved.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -117,14 +109,8 @@ The object could not be saved due to errors other than a lack of disk space.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method saves an object, and any nested objects it contains, into the specified storage. It also places the object into NoScribble mode. Thus, the object cannot write to its storage until a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a> method returns the object to Normal mode.
 
@@ -146,20 +132,11 @@ Then, a container application performs any other operations necessary to complet
 
 If an embedded object passes the <b>IPersistStorage::Save</b> method to its nested objects, it must receive a call to its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a> method before calling this method for its nested objects.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
- 
-
- 
 

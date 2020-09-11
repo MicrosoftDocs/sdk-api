@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6e6547f9-44b2-4050-be90-ac8ede892adc
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnumCERTVIEWCOLUMN interface [Security],described, _certsrv_ienumcertviewcolumn, certview/IEnumCERTVIEWCOLUMN, security.ienumcertviewcolumn
-f1_keywords:
-- certview/IEnumCERTVIEWCOLUMN
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWCOLUMN
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWCOLUMN
+ - certview/IEnumCERTVIEWCOLUMN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWCOLUMN
 ---
 
 # IEnumCERTVIEWCOLUMN interface
 
 
 ## -description
-
 
 The <b>IEnumCERTVIEWCOLUMN</b> interface represents a column-enumeration sequence that contains the column data for the current row of the enumeration sequence.
 
@@ -62,7 +62,6 @@ The column-enumeration sequence is obtained by a call to the <a href="https://do
 <b>IEnumCERTVIEWCOLUMN</b> is defined in Certview.h. When you create your program, however, use Certsrv.h as the include file. Certadm.dll provides the <b>IEnumCERTVIEWCOLUMN</b> interface. The type information for this interface is also in Certadml.dll, which is shipped with the Platform Software Development Kit (SDK).
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -149,13 +148,9 @@ Moves to the beginning of  the column-enumeration sequence.</p> (Inherited from 
 <td align="left" width="63%">
 Skips a specified number of columns in the column-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWCOLUMN</b><b>IEnumCERTVIEWCOLUMN</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-enumcertviewcolumn">ICertView::EnumCertViewColumn</a>
 
@@ -166,7 +161,4 @@ Skips a specified number of columns in the column-enumeration sequence.</p> (Inh
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewcolumn">IEnumCERTVIEWROW::EnumCertViewColumn</a>
- 
-
- 
 

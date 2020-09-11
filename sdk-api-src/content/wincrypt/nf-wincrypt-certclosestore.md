@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a93fdd65-359e-4046-910d-347c3af01280
 ms.date: 12/05/2018
 ms.keywords: CERT_CLOSE_STORE_CHECK_FLAG, CERT_CLOSE_STORE_FORCE_FLAG, CertCloseStore, CertCloseStore function [Security], _crypto2_certclosestore, security.certclosestore, wincrypt/CertCloseStore
-f1_keywords:
-- wincrypt/CertCloseStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertCloseStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertCloseStore
+ - wincrypt/CertCloseStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertCloseStore
 ---
 
 # CertCloseStore function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertCloseStore</b> function closes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> handle and reduces the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> on the store. There needs to be a corresponding call to <b>CertCloseStore</b> for each successful call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatestore">CertDuplicateStore</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of the certificate store to be closed.
-
 
 ### -param dwFlags [in]
 
@@ -100,12 +95,8 @@ Forces the freeing of memory for all contexts associated with the store. This fl
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -119,12 +110,7 @@ If CERT_CLOSE_STORE_CHECK_FLAG is set and memory for one or more contexts associ
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is set to CRYPT_E_PENDING_CLOSE if memory for contexts associated with the store remains allocated. Any existing value returned by <b>GetLastError</b> is preserved unless CERT_CLOSE_STORE_CHECK_FLAG is set.
 
-
-
-
 ## -remarks
-
-
 
 While a certificate store is open, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">contexts</a> from that store can be retrieved or duplicated. When a <i>context</i> is retrieved or duplicated, its reference count is incremented. When a context is freed by passing it to a search or enumeration function as a previous context or by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>, 
@@ -140,13 +126,7 @@ The status of reference counts on contexts associated with a store can be checke
 
 If CERT_STORE_NO_CRYPT_RELEASE_FLAG was not set when the store was opened, closing a store releases its CSP handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatestore">CertDuplicateStore</a>
 
@@ -173,7 +153,4 @@ If CERT_STORE_NO_CRYPT_RELEASE_FLAG was not set when the store was opened, closi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: EE3591FD-4FE8-4F20-A4E2-52C896229571
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], IMFMediaEngineEx interface [Media Foundation],described, mf.imfmediaengineex, mfmediaengine/IMFMediaEngineEx
-f1_keywords:
-- mfmediaengine/IMFMediaEngineEx
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineEx
+ - mfmediaengine/IMFMediaEngineEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineEx
 ---
 
 # IMFMediaEngineEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> interface.
-
 
 ## -inheritance
 
@@ -407,22 +406,13 @@ Updates the source rectangle, destination rectangle, and border color for the vi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> interface contains methods that map to the HTML5 media elements. The <b>IMFMediaEngineEx</b> provides additional functionality that does not correspond directly to HTML5.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
 
@@ -433,7 +423,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfm
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

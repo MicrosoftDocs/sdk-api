@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0
 ms.date: 12/05/2018
 ms.keywords: MFNET_PROXYSETTINGS, MFNET_PROXYSETTINGS enumeration [Media Foundation], MFNET_PROXYSETTING_AUTO, MFNET_PROXYSETTING_BROWSER, MFNET_PROXYSETTING_MANUAL, MFNET_PROXYSETTING_NONE, b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0, mf.mfnet_proxysettings, mfidl/MFNET_PROXYSETTINGS, mfidl/MFNET_PROXYSETTING_AUTO, mfidl/MFNET_PROXYSETTING_BROWSER, mfidl/MFNET_PROXYSETTING_MANUAL, mfidl/MFNET_PROXYSETTING_NONE
-f1_keywords:
-- mfidl/MFNET_PROXYSETTINGS
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MFNET_PROXYSETTINGS
 targetos: Windows
 req.typenames: MFNET_PROXYSETTINGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFNET_PROXYSETTINGS
+ - mfidl/_MFNET_PROXYSETTINGS
+ - MFNET_PROXYSETTINGS
+ - mfidl/MFNET_PROXYSETTINGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MFNET_PROXYSETTINGS
 ---
 
 # MFNET_PROXYSETTINGS enumeration
@@ -49,20 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how the default proxy locator will specify the connection settings to a proxy server. The application must set these values in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxysettings-property">MFNETSOURCE_PROXYSETTINGS</a> property.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MFNET_PROXYSETTING_NONE
 
 The proxy locator bypasses all addresses.
-          
-
 
 ### -field MFNET_PROXYSETTING_MANUAL
 
@@ -86,19 +82,12 @@ The proxy locator uses manual settings. The application must set the following p
 ### -field MFNET_PROXYSETTING_AUTO
 
 The proxy locator automatically discovers proxy servers by using the WinInet auto-proxy detection mechanism.
-          
-
 
 ### -field MFNET_PROXYSETTING_BROWSER
 
 The proxy locator uses the proxy settings of the browser. By default, the proxy locator sets this value for HTTP.
-          
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator">MFCreateProxyLocator</a>
 
@@ -109,7 +98,4 @@ The proxy locator uses the proxy settings of the browser. By default, the proxy 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/proxy-support-for-network-sources">Proxy Support for Network Sources</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: bltooth
 ms.assetid: 974270EE-6319-45E3-BAB8-3A57665591EA
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetCharacteristics, BluetoothGATTGetCharacteristics function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristics, bluetoothleapis/BluetoothGATTGetCharacteristics
-f1_keywords:
-- bluetoothleapis/BluetoothGATTGetCharacteristics
-dev_langs:
-- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: BluetoothApis.lib
 req.dll: BluetoothApis.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- BluetoothApis.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothGATTGetCharacteristics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothGATTGetCharacteristics
+ - bluetoothleapis/BluetoothGATTGetCharacteristics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - BluetoothApis.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothGATTGetCharacteristics
 ---
 
 # BluetoothGATTGetCharacteristics function
@@ -50,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothGATTGetCharacteristics</b> function gets all the characteristics available for the specified service.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the Bluetooth device or service.
 
-
 ### -param Service [in, optional]
 
 Address of a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure containing the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
-
 
 ### -param CharacteristicsBufferCount [in]
 
 The number of elements allocated for the <i>CharacteristicsBuffer</i> parameter.
 
-
 ### -param CharacteristicsBuffer [out, optional]
 
 Pointer to buffer into which to return characteristics in a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure.
 
-
 ### -param CharacteristicsBufferActual [out]
 
 Pointer to buffer into which the actual number of characteristics were returned in the <i>CharacteristicsBuffer</i> parameter.
-
 
 ### -param Flags [in]
 
@@ -104,12 +95,8 @@ The client does not have specific GATT requirements (default).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns the following values:
 
@@ -203,14 +190,8 @@ The operation ran out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Returned characteristics are cached upon successful retrieval of characteristics from the device directly.  Unless a service-change event is received, the list of returned characteristics is not expected to change.
 
@@ -282,21 +263,11 @@ The parent service must be present in the
         }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>
- 
-
- 
 

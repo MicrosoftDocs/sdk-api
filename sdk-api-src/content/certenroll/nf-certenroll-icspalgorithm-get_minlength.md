@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1df00a2d-4004-4c5d-ab70-5d39ca517ebd
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],MinLength property, ICspAlgorithm.MinLength, ICspAlgorithm.get_MinLength, ICspAlgorithm::MinLength, ICspAlgorithm::get_MinLength, MinLength property [Security], MinLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MinLength, certenroll/ICspAlgorithm::get_MinLength, get_MinLength, security.icspalgorithm_minlength_property
-f1_keywords:
-- certenroll/ICspAlgorithm.MinLength
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspAlgorithm.MinLength
-- ICspAlgorithm.get_MinLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspAlgorithm::get_MinLength
+ - certenroll/ICspAlgorithm::get_MinLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspAlgorithm.MinLength
+ - ICspAlgorithm.get_MinLength
 ---
 
 # ICspAlgorithm::get_MinLength
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MinLength</b> property retrieves the minimum permitted length for a key. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_defaultlength">DefaultLength</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_incrementlength">IncrementLength</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_maxlength">MaxLength</a>, and <b>MinLength</b> properties can vary by algorithm and provider. The following table lists a few example maximum, minimum and default key sizes.<table>
 <tr>
@@ -168,20 +164,8 @@ Increment: 64
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 99834A2D-547B-4B04-8703-46B11E0BB812
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration, IActivatableClassRegistration interface [Windows Runtime], IActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IActivatableClassRegistration, winrt.iactivatableclassregistration
-f1_keywords:
-- activationregistration/IActivatableClassRegistration
-dev_langs:
-- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- activationregistration.h
-api_name:
-- IActivatableClassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActivatableClassRegistration
+ - activationregistration/IActivatableClassRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - activationregistration.h
+api_name:
+ - IActivatableClassRegistration
 ---
 
 # IActivatableClassRegistration interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables getting  the registration info for a class.
-
 
 ## -inheritance
 
@@ -113,13 +112,9 @@ Gets the deployment scope of the current activatable class.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration">IDllServerActivatableClassRegistration</a>
 
@@ -130,7 +125,4 @@ Gets the deployment scope of the current activatable class.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration">RoGetActivatableClassRegistration</a>
- 
-
- 
 

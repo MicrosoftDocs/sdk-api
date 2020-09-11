@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 931c2fa4-dad6-432d-8f07-bb04b646916b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff
-f1_keywords:
-- tapi/lineHandoff
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineHandoff
-- lineHandoffA
-- lineHandoffW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineHandoff
+ - tapi/lineHandoff
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineHandoff
+ - lineHandoffA
+ - lineHandoffW
 ---
 
 # lineHandoff function
@@ -51,46 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineHandoff</b> function gives ownership of the specified call to another application. The application can be either specified directly by its file name or indirectly as the highest priority application that handles calls of the specified media mode.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to the call to be handed off. The application must be an owner of the call. The call state of <i>hCall</i> can be any state.
 
-
 ### -param lpszFileName
 
 Pointer to a <b>null</b>-terminated string. If this pointer parameter is non-<b>NULL</b>, it contains the file name of the application that is the target of the handoff. If <b>NULL</b>, the handoff target is the highest priority application that has opened the line for owner privilege for the specified media mode. A valid file name does not include the path of the file.
-
 
 ### -param dwMediaMode
 
 Media mode used to identify the target for the indirect handoff. The <i>dwMediaMode</i> parameter indirectly identifies the target application that is to receive ownership of the call. This parameter is ignored if <i>lpszFileName</i> is not <b>NULL</b>. This parameter uses one and only one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALMEDIAMODE, LINEERR_TARGETNOTFOUND, LINEERR_INVALPOINTER, LINEERR_TARGETSELF, LINEERR_NOMEM, LINEERR_UNINITIALIZED, LINEERR_NOTOWNER.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>lineHandoff</b> function returns LINEERR_TARGETSELF if the calling application attempted an indirect handoff (that is, set the <i>lpszFileName</i> parameter to <b>NULL</b>) and TAPI determined that the application is itself the highest priority application for the given media mode. If LINEERR_TARGETNOTFOUND is returned, a target for the call handoff was not found. This can occur if the named application did not open the same line with the LINECALLPRIVILEGE_OWNER bit in the <i>dwPrivileges</i> parameter of 
@@ -129,13 +115,7 @@ If none of the media modes succeeded in making a determination, only the UNKNOWN
 <b>lineHandoff</b> fails if the application is the only remaining owner of the call. This informs the application that it should drop the call and deallocate its handle, in which case the call is abandoned. The privileges of the invoking application to the call are unchanged by this operation, but the application can change its privileges to a call with 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
@@ -166,7 +146,4 @@ If none of the media modes succeeded in making a determination, only the UNKNOWN
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a>
- 
-
- 
 

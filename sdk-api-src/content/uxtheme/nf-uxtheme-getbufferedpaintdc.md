@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintdc.htm
 ms.date: 12/05/2018
 ms.keywords: GetBufferedPaintDC, GetBufferedPaintDC function [Windows Controls], _shell_GetBufferedPaintDC, _shell_GetBufferedPaintDC_cpp, controls.GetBufferedPaintDC, controls._shell_GetBufferedPaintDC, uxtheme/GetBufferedPaintDC
-f1_keywords:
-- uxtheme/GetBufferedPaintDC
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- GetBufferedPaintDC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetBufferedPaintDC
+ - uxtheme/GetBufferedPaintDC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - GetBufferedPaintDC
 ---
 
 # GetBufferedPaintDC function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the paint device context (DC). This is the same value retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hBufferedPaint
 
@@ -64,14 +60,9 @@ Type: <b>HPAINTBUFFER</b>
 
 Handle of the buffered paint context, obtained through <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Handle of the requested DC. This is the same DC that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>. Returns <b>NULL</b> upon failure.
-
-
 

@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setcursor.htm
 ms.date: 12/05/2018
 ms.keywords: SetCursor, SetCursor function [Menus and Other Resources], _win32_SetCursor, _win32_setcursor_cpp, menurc.setcursor, winui._win32_setcursor, winuser/SetCursor
-f1_keywords:
-- winuser/SetCursor
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
-- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
-- api-ms-win-ntuser-ie-gui-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-gui-l1-2-1.dll
-- Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
-- MinUser.dll
-api_name:
-- SetCursor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetCursor
+ - winuser/SetCursor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+ - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+ - api-ms-win-ntuser-ie-gui-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
+ - MinUser.dll
+api_name:
+ - SetCursor
 ---
 
 # SetCursor function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the cursor shape. 
-
+Sets the cursor shape.
 
 ## -parameters
-
-
-
 
 ### -param hCursor [in, optional]
 
@@ -72,23 +68,15 @@ Type: <b>HCURSOR</b>
 
 A handle to the cursor. The cursor must have been created by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a> function or loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function. If this parameter is <b>NULL</b>, the cursor is removed from the screen.
 
-
 ## -returns
-
-
 
 Type: <b>HCURSOR</b>
 
 The return value is the handle to the previous cursor, if there was one. 
 
-If there was no previous cursor, the return value is <b>NULL</b>. 
-
-
-
+If there was no previous cursor, the return value is <b>NULL</b>.
 
 ## -remarks
-
-
 
 The cursor is set only if the new cursor is different from the previous cursor; otherwise, the function returns immediately. 
 
@@ -105,12 +93,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -153,7 +136,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
- 
-
- 
 

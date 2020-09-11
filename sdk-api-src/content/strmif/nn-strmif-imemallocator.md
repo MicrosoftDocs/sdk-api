@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 77a161c4-706c-4270-a343-9e16c03cd590
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow],described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator
-f1_keywords:
-- strmif/IMemAllocator
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMemAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMemAllocator
+ - strmif/IMemAllocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMemAllocator
 ---
 
 # IMemAllocator interface
 
 
 ## -description
-
-
 
 The <code>IMemAllocator</code> interface allocates media samples, for moving data between pins.
 
@@ -67,8 +66,6 @@ To use an allocator, perform the following steps:
 <li>When you are done with each sample, call the <b>IUnknown::Release</b> method on the sample. The sample is not deleted when its reference count reaches zero. Instead, the sample returns to the allocator's free list.</li>
 <li>When you are done using the allocator, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-decommit">IMemAllocator::Decommit</a> method to release the memory for the buffers.</li>
 </ol>
-
-
 
 ## -inheritance
 
@@ -139,5 +136,5 @@ Specifies the number of buffers to allocate and the size of each buffer.
 
 </td>
 </tr>
-</table> 
+</table>
 

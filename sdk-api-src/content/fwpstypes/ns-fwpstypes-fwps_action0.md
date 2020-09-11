@@ -8,10 +8,6 @@ tech.root: NetVista
 ms.assetid: 1b192efc-e685-48bf-bf61-1419ce03a77a
 ms.date: 12/05/2018
 ms.keywords: FWPS_ACTION0, FWPS_ACTION0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_ACTION0, netvista.fwps_action0, wfp_ref_3_struct_3_fwps_A-E_2621dcb1-3b0a-4e5a-8869-4d8b9f635f99.xml
-f1_keywords:
-- fwpstypes/FWPS_ACTION0
-dev_langs:
-- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpstypes.h
-api_name:
-- FWPS_ACTION0
 targetos: Windows
 req.typenames: FWPS_ACTION0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPS_ACTION0_
+ - fwpstypes/FWPS_ACTION0_
+ - FWPS_ACTION0
+ - fwpstypes/FWPS_ACTION0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpstypes.h
+api_name:
+ - FWPS_ACTION0
 ---
 
 # FWPS_ACTION0 structure
@@ -49,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPS_ACTION0</b> structure specifies the run-time action that the filter engine takes if all of
   the filter's filtering conditions are true.
 <div class="alert"><b>Note</b>  <b>FWPS_ACTION0</b> is a specific version of <b>FWPS_ACTION</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field type
 
@@ -151,7 +150,6 @@ Permit the data to be transmitted or received.
 
 Continue on to the next filter.
 
-
 ### -field calloutId
 
 The run-time identifier for the callout that the filter engine calls if all of the filter's
@@ -160,21 +158,12 @@ The run-time identifier for the callout that the filter engine calls if all of t
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> function to
      register the callout with the filter engine.
 
-
 ## -remarks
-
-
 
 An FWPS_ACTION0 structure is contained within an 
     [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0) structure.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)
 
@@ -193,7 +182,4 @@ An FWPS_ACTION0 structure is contained within an
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">notifyFn</a>
- 
-
- 
 

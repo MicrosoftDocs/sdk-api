@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 905fdf2c-a398-457e-80e9-aac124301f99
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMHeaderInfo interface, GetAttributeByIndex method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeByIndex method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo.GetAttributeByIndex, IWMHeaderInfo2 interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo2::GetAttributeByIndex, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo3::GetAttributeByIndex, IWMHeaderInfo::GetAttributeByIndex, IWMHeaderInfoGetAttributeByIndex, wmformat.iwmheaderinfo_getattributebyindex, wmsdkidl/IWMHeaderInfo2::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo::GetAttributeByIndex
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo.GetAttributeByIndex
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMHeaderInfo.GetAttributeByIndex
-- IWMHeaderInfo2.GetAttributeByIndex
-- IWMHeaderInfo3.GetAttributeByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo::GetAttributeByIndex
+ - wmsdkidl/IWMHeaderInfo::GetAttributeByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMHeaderInfo.GetAttributeByIndex
+ - IWMHeaderInfo2.GetAttributeByIndex
+ - IWMHeaderInfo3.GetAttributeByIndex
 ---
 
 # IWMHeaderInfo::GetAttributeByIndex
@@ -55,56 +56,39 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAttributeByIndex</b> method returns a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex">IWMHeaderInfo3::GetAttributeByIndexEx</a> and should not be used.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wIndex [in]
 
 <b>WORD</b> containing the index.
 
-
 ### -param pwStreamNum [in]
 
 Pointer to a <b>WORD</b> containing the stream number. Although this parameter is a pointer, the method will not change the value. For file-level attributes, use zero for the stream number.
-
 
 ### -param pwszName [out]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the name. Pass <b>NULL</b> to this parameter to retrieve the required length for the name. Attribute names are limited to 1024 wide characters.
 
-
 ### -param pcchNameLen [in, out]
 
 On input, a pointer to a variable containing the length of the <i>pwszName</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the actual length of the name, including the terminating <b>null</b> character.
-
 
 ### -param pType [out]
 
 Pointer to a variable containing one value from the <b>WMT_ATTR_DATATYPE</b> enumeration type.
 
-
 ### -param pValue [out]
 
 Pointer to a byte array containing the value. Pass <b>NULL</b> to this parameter to retrieve the required length for the value.
-
 
 ### -param pcbLength [in, out]
 
 On input, a pointer to a variable containing the length of the <i>pValue</i> array, in bytes. On output, if the method succeeds, the variable contains the actual number of bytes written to <i>pValue</i> by the method.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -191,14 +175,8 @@ There is no attribute at <i>wIndex</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should make two calls to <b>GetAttributeByIndex</b> for each attribute you want to retrieve. On the first call, pass <b>NULL</b> for <i>pwszName</i> and <i>pValue</i>. On return, the value pointed to by <i>pcchNameLen</i> is set to the number of wide characters, including the terminating <b>null</b> character, required to hold the attribute name, and the value pointed to by <i>pcbLength</i> is set to the number of bytes required to hold the attribute value. You can then create buffers of the appropriate size to receive <i>pwszName</i> and <i>pValue</i> and pass pointers to them on the second call.
 
@@ -208,13 +186,7 @@ For a list of all the predefined attributes, see <a href="https://docs.microsoft
 
 The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
 
@@ -237,7 +209,4 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
- 
-
- 
 

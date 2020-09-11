@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 065cccc3-778f-42c4-823a-354b08bbd1f1
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryWriter, IWICMetadataQueryWriter interface [Windows Imaging Component], IWICMetadataQueryWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadataquerywriter, wic._wic_codec_iwicmetadataquerywriter, wincodec/IWICMetadataQueryWriter
-f1_keywords:
-- wincodec/IWICMetadataQueryWriter
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataQueryWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataQueryWriter
+ - wincodec/IWICMetadataQueryWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataQueryWriter
 ---
 
 # IWICMetadataQueryWriter interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for setting or removing metadata blocks and items to an encoder or its image frames using a metadata query expression.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Sets a metadata item to a specific location.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A metadata query writer uses metadata query expressions to set or remove metadata. For more information on the metadata query language, see the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.
 
@@ -125,14 +121,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -155,7 +144,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
- 
-
- 
 

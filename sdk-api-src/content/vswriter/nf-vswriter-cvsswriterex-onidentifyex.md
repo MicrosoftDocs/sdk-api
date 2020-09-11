@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4cb3b8f6-f702-4fba-a3cc-af84897cfd82
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,OnIdentifyEx method, CVssWriterEx.OnIdentifyEx, CVssWriterEx::OnIdentifyEx, OnIdentifyEx, OnIdentifyEx method, OnIdentifyEx method,CVssWriterEx interface, base.cvsswriterex_onidentifyex, vswriter/CVssWriterEx::OnIdentifyEx
-f1_keywords:
-- vswriter/CVssWriterEx.OnIdentifyEx
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriterEx.OnIdentifyEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriterEx::OnIdentifyEx
+ - vswriter/CVssWriterEx::OnIdentifyEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriterEx.OnIdentifyEx
 ---
 
 # CVssWriterEx::OnIdentifyEx
@@ -50,28 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object.
 
 <b>OnIdentifyEx</b> is a virtual method. It is implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> base class, but can be overridden by derived classes.
 
-
 ## -parameters
-
-
-
 
 ### -param pMetadata [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object.
 
-
 ## -returns
-
-
 
 As implemented by the base class, 
 <b>OnIdentifyEx</b> always returns <b>true</b>.
@@ -81,12 +74,7 @@ Any other implementation of this method must return <b>true</b> except in the ca
 
   In all cases when a failure occurs, including nonfatal errors, the method should write a detailed entry to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
-
-
 
 The <b>OnIdentifyEx</b> method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> method, except that it returns an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> interface pointer instead of an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> interface pointer in the <i>pMetadata</i> parameter. A writer can override <b>OnIdentify</b> or <b>OnIdentifyEx</b>, but not both.
 
@@ -122,13 +110,7 @@ For more information about writer interactions with events, see
 The life cycle of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object that the <i>pMetadata</i> parameter points to is managed by the VSS infrastructure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
 
@@ -139,7 +121,4 @@ The life cycle of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a>
- 
-
- 
 

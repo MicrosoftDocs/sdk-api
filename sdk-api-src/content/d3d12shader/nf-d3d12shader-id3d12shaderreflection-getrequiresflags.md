@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: ABA7BB9E-AB1D-407A-BB16-97EE74318C1A
 ms.date: 12/05/2018
 ms.keywords: GetRequiresFlags, GetRequiresFlags method, GetRequiresFlags method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetRequiresFlags method, ID3D12ShaderReflection.GetRequiresFlags, ID3D12ShaderReflection::GetRequiresFlags, d3d12shader/ID3D12ShaderReflection::GetRequiresFlags, direct3d12.id3d12shaderreflection_getrequiresflags
-f1_keywords:
-- d3d12shader/ID3D12ShaderReflection.GetRequiresFlags
-dev_langs:
-- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12shader.h
-api_name:
-- ID3D12ShaderReflection.GetRequiresFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12ShaderReflection::GetRequiresFlags
+ - d3d12shader/ID3D12ShaderReflection::GetRequiresFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12shader.h
+api_name:
+ - ID3D12ShaderReflection.GetRequiresFlags
 ---
 
 # ID3D12ShaderReflection::GetRequiresFlags
@@ -49,21 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a group of flags that indicates the requirements of a shader.
-        
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>UINT64</b>
 
@@ -154,14 +145,8 @@ A value that contains a combination of one or more shader requirements #define f
                 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Here is how the D3D12Shader.h header defines the shader requirements flags:
         
@@ -185,21 +170,11 @@ Here is how the D3D12Shader.h header defines the shader requirements flags:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/checking-hardware-feature-support">Checking Hardware Feature Support</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 75528E11-D041-4192-833A-31679316DF76
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect, IDCompositionColorMatrixEffect interface [DirectComposition], IDCompositionColorMatrixEffect interface [DirectComposition],described, dcomp/IDCompositionColorMatrixEffect, directcomp.idcompositioncolormatrixeffect
-f1_keywords:
-- dcomp/IDCompositionColorMatrixEffect
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionColorMatrixEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionColorMatrixEffect
+ - dcomp/IDCompositionColorMatrixEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionColorMatrixEffect
 ---
 
 # IDCompositionColorMatrixEffect interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The color matrix effect alters the RGBA values of a bitmap.
-
 
 ## -inheritance
 
@@ -103,16 +102,9 @@ Sets the matrix used by the effect to multiply the RGBA values of the image.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
- 
-
- 
 

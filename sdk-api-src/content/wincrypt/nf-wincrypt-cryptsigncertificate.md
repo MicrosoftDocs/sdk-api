@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 27578149-e5c0-47e5-8309-0d0ed7075d13
 ms.date: 12/05/2018
 ms.keywords: CryptSignCertificate, CryptSignCertificate function [Security], _crypto2_cryptsigncertificate, security.cryptsigncertificate, wincrypt/CryptSignCertificate
-f1_keywords:
-- wincrypt/CryptSignCertificate
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSignCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSignCertificate
+ - wincrypt/CryptSignCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSignCertificate
 ---
 
 # CryptSignCertificate function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptSignCertificate</b> function signs the "to be signed" information in the encoded signed content.
 
-
 ## -parameters
-
-
-
 
 ### -param hBCryptKey [in]
 
 Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CSP</a> that does the signature. This handle must be an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle that has been created by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should always pass in the <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
 
-
 ### -param dwKeySpec [in]
 
 Identifies the private key to use from the provider's container. It can be AT_KEYEXCHANGE or AT_SIGNATURE. This parameter is ignored if an <b>NCRYPT_KEY_HANDLE</b> is used in the <i>hCryptProvOrNCryptKey</i> parameter.
-
 
 ### -param dwCertEncodingType [in]
 
@@ -86,11 +80,9 @@ Currently defined encoding types are:
 
 A pointer to the encoded content to be signed.
 
-
 ### -param cbEncodedToBeSigned [in]
 
 The size, in bytes, of the encoded content, <i>pbEncodedToBeSigned</i>.
-
 
 ### -param pSignatureAlgorithm [in]
 
@@ -106,11 +98,9 @@ A pointer to a
 </ul>
 If the signature algorithm is a hash algorithm, the signature contains only the un-encrypted hash octets. A private key is not used to encrypt the hash. <i>dwKeySpec</i> is not used and <i>hCryptProvOrNCryptKey</i> can be <b>NULL</b> if an appropriate default CSP can be used for hashing.
 
-
 ### -param pvHashAuxInfo [in]
 
 Not currently used. Must be <b>NULL</b>.
-
 
 ### -param pbSignature [out]
 
@@ -118,7 +108,6 @@ A pointer to a buffer to receive the signed <a href="https://docs.microsoft.com/
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbSignature [in, out]
 
@@ -128,8 +117,6 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -171,22 +158,12 @@ The signature algorithm's <a href="https://docs.microsoft.com/windows/desktop/Se
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencodecertificate">CryptSignAndEncodeCertificate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

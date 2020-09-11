@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
 ms.date: 12/05/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
-f1_keywords:
-- pdh/PdhConnectMachine
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhConnectMachine
-- PdhConnectMachineA
-- PdhConnectMachineW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhConnectMachineA
+ - pdh/PdhConnectMachineA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhConnectMachine
+ - PdhConnectMachineA
+ - PdhConnectMachineW
 ---
 
 # PdhConnectMachineA function
@@ -51,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Connects to the specified computer.
-		
-
-
-
 
 ## -parameters
-
-
-
 
 ### -param szMachineName [in]
 
 <b>Null</b>-terminated string that specifies the name of the computer to connect to. If <b>NULL</b>, PDH connects to the local computer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -107,14 +97,8 @@ Unable to allocate a dynamic memory block. Occurs when there is a serious memory
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Typically, applications do not call this function and instead the connection is made when the application adds the counter to the query.
 
@@ -129,11 +113,5 @@ However, you can use this function if you want to include more than the local co
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenummachinesa">PdhEnumMachines</a>
- 
-
- 
 

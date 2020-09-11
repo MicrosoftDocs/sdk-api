@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getembeddedobject.htm
 ms.date: 12/05/2018
 ms.keywords: GetEmbeddedObject, GetEmbeddedObject method [Windows Controls], GetEmbeddedObject method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetEmbeddedObject method, ITextRange.GetEmbeddedObject, ITextRange::GetEmbeddedObject, _win32_ITextRange_GetEmbeddedObject, _win32_ITextRange_GetEmbeddedObject_cpp, controls.ITextRange_GetEmbeddedObject, controls._win32_ITextRange_GetEmbeddedObject, tom/ITextRange::GetEmbeddedObject
-f1_keywords:
-- tom/ITextRange.GetEmbeddedObject
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.GetEmbeddedObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::GetEmbeddedObject
+ - tom/ITextRange::GetEmbeddedObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.GetEmbeddedObject
 ---
 
 # ITextRange::GetEmbeddedObject
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a pointer to the embedded object at the start of the specified range, that is, at <i>cpFirst</i>. The range must either be an insertion point or it must select only the embedded object. 
-
+Retrieves a pointer to the embedded object at the start of the specified range, that is, at <i>cpFirst</i>. The range must either be an insertion point or it must select only the embedded object.
 
 ## -parameters
-
-
-
 
 ### -param ppObject
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-The pointer to the object. 
-
+The pointer to the object.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -101,24 +94,12 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the start of this range does not have an embedded object or if the range selects more than a single object, <i>ppObject</i> is set equal to <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -133,7 +114,4 @@ If the start of this range does not have an embedded object or if the range sele
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

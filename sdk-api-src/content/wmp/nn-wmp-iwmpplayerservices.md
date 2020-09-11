@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], IWMPPlayerServices interface [Windows Media Player],described, IWMPPlayerServicesInterface, wmp.iwmpplayerservices, wmp/IWMPPlayerServices
-f1_keywords:
-- wmp/IWMPPlayerServices
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlayerServices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayerServices
+ - wmp/IWMPPlayerServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlayerServices
 ---
 
 # IWMPPlayerServices interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlayerServices</b> interface provides methods used by the host of a remoted Windows Media Player control to manipulate the full mode of the Player. These methods can only be used with C++.
-
-
-
 
 ## -inheritance
 
@@ -101,20 +97,12 @@ Displays the specified URL in the specified task pane of the full mode of Window
 </table> 
 
 Retrieve a pointer to an <b>IWMPPlayerServices</b> interface by calling the COM <b>CoCreateInstance</b> method.
-	
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
 

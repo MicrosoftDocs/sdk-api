@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12Device4 interface","CreateProtectedResourceSession 
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateProtectedResourceSession method, ID3D12Device4.CreateProtectedResourceSession, ID3D12Device4::CreateProtectedResourceSession, CreateProtectedResourceSession, CreateProtectedResourceSession method, CreateProtectedResourceSession method,ID3D12Device4 interface, direct3d12.id3d12device4_createprotectedresourcesession, d3d12/ID3D12Device4::CreateProtectedResourceSession
-f1_keywords:
-- d3d12/ID3D12Device4.CreateProtectedResourceSession
-dev_langs:
-- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.lib
-- d3d12.dll
-api_name:
-- ID3D12Device4::CreateProtectedResourceSession
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device4::CreateProtectedResourceSession
+ - d3d12/ID3D12Device4::CreateProtectedResourceSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.lib
+ - d3d12.dll
+api_name:
+ - ID3D12Device4::CreateProtectedResourceSession
 ---
 
 ## -description
@@ -75,3 +76,4 @@ A pointer to a memory block that receives an [ID3D12ProtectedResourceSession](/w
 ## -remarks
 
 ## -see-also
+

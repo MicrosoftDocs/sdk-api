@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4
 ms.date: 12/05/2018
 ms.keywords: IGetClusterNetworkInfo, IGetClusterNetworkInfo interface [Failover Cluster], IGetClusterNetworkInfo interface [Failover Cluster],described, _wolf_igetclusternetworkinfo, cluadmex/IGetClusterNetworkInfo, mscs.igetclusternetworkinfo
-f1_keywords:
-- cluadmex/IGetClusterNetworkInfo
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IGetClusterNetworkInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetClusterNetworkInfo
+ - cluadmex/IGetClusterNetworkInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IGetClusterNetworkInfo
 ---
 
 # IGetClusterNetworkInfo interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is available for use in the operating systems specified in the Requirements 
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IGetClusterNetworkInfo</b> interface is 
     called by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> 
     extension to retrieve information about a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>.
-
 
 ## -inheritance
 
@@ -82,12 +81,9 @@ Retrieves a handle to a network.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If the object being extended is not a network, queries for 
      <b>IGetClusterNetworkInfo</b> methods will fail. 
@@ -117,13 +113,7 @@ Failover Cluster Administrator passes in an <a href="https://docs.microsoft.com/
      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for one of the 
      <b>IGetClusterNetworkInfo</b> methods.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-information-interfaces">Failover Cluster Administrator Information Interfaces</a>
 
@@ -146,7 +136,4 @@ Failover Cluster Administrator passes in an <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
- 
-
- 
 

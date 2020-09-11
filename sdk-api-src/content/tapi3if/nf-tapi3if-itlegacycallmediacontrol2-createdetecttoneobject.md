@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 3f00391f-b63f-4fa7-82af-44584fbcd8a3
 ms.date: 12/05/2018
 ms.keywords: CreateDetectToneObject, CreateDetectToneObject method [TAPI 2.2], CreateDetectToneObject method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],CreateDetectToneObject method, ITLegacyCallMediaControl2.CreateDetectToneObject, ITLegacyCallMediaControl2::CreateDetectToneObject, _tapi3_itlegacycallmediacontrol2_createdetecttoneobject, tapi3.itlegacycallmediacontrol2_createdetecttoneobject, tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject
-f1_keywords:
-- tapi3if/ITLegacyCallMediaControl2.CreateDetectToneObject
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyCallMediaControl2.CreateDetectToneObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyCallMediaControl2::CreateDetectToneObject
+ - tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyCallMediaControl2.CreateDetectToneObject
 ---
 
 # ITLegacyCallMediaControl2::CreateDetectToneObject
 
 
 ## -description
-
 
 The 
 <b>CreateDetectToneObject</b> method creates a detect tone object to use with the 
@@ -57,21 +57,14 @@ The
 This method is intended for Visual Basic and scripting applications. C/C++ applications should use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttones">DetectTones</a> method instead.
 
-
 ## -parameters
-
-
-
 
 ### -param ppDetectTone [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a> interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -114,26 +107,14 @@ There is not enough memory to allocate the object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 TAPI calls the <b>AddRef</b> method on the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a> interface returned by <b>ITLegacyCallMediaControl2::CreateDetectToneObject</b>. The application must call the <b>Release</b> method on the 
 <b>ITDetectTone</b> interface to free resources associated with it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">DetectTonesByCollection</a>
 
@@ -144,7 +125,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
- 
-
- 
 

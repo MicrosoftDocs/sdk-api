@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: d086f12e-7352-4a0d-bfbe-ddab3b44d757
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetErrorString, MprAdminGetErrorString function [RAS], _mpr_mpradmingeterrorstring, mprapi/MprAdminGetErrorString, rras.mpradmingeterrorstring
-f1_keywords:
-- mprapi/MprAdminGetErrorString
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminGetErrorString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminGetErrorString
+ - mprapi/MprAdminGetErrorString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminGetErrorString
 ---
 
 # MprAdminGetErrorString function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminGetErrorString</b> function returns the string associated with a router error from Mprerror.h.
 
-
 ## -parameters
-
-
-
 
 ### -param dwError [in]
 
 Specifies the error code for a  router error.
-
 
 ### -param lplpwsErrorString [out]
 
 Pointer to an <b>LPWSTR</b> variable that points to the text associated with the <i>dwError</i> code on successful return. Free this memory by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -111,14 +103,7 @@ The error code in <i>dwError</i> is unknown.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
@@ -129,7 +114,4 @@ The error code in <i>dwError</i> is unknown.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: ED3D6CCD-BBF5-4CA6-BA59-F8B3FEE40DA1
 ms.date: 12/5/2018
 ms.keywords: IDMLBindingTable, IDMLBindingTable interface, IDMLBindingTable interface,described, direct3d12.idmlbindingtable, directml/IDMLBindingTable
-f1_keywords:
-- directml/IDMLBindingTable
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.h
-api_name:
-- IDMLBindingTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLBindingTable
+ - directml/IDMLBindingTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.h
+api_name:
+ - IDMLBindingTable
 ---
 
 # IDMLBindingTable interface
+
 
 ## -description
 
@@ -63,4 +65,6 @@ The binding table doesn't keep strong references on any resources bound using it
 This object is not thread safe—your application must not call methods on the binding table simultaneously from different threads without synchronization.
 
 ## -see-also
+
 [Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
+

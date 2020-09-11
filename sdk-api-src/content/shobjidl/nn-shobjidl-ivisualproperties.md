@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0f4921ad-18b4-447e-8e4b-0a40ce430137
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], IVisualProperties interface [Windows Shell],described, _shell_IVisualProperties, shell.IVisualProperties, shobjidl/IVisualProperties
-f1_keywords:
-- shobjidl/IVisualProperties
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IVisualProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVisualProperties
+ - shobjidl/IVisualProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IVisualProperties
 ---
 
 # IVisualProperties interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that set and get visual properties.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Provides a bitmap to use as a watermark.
 
 </td>
 </tr>
-</table> 
+</table>
 

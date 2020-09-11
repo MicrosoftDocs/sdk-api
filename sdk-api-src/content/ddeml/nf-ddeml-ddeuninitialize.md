@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeuninitialize.htm
 ms.date: 12/05/2018
 ms.keywords: DdeUninitialize, DdeUninitialize function [Data Exchange], _win32_DdeUninitialize, _win32_ddeuninitialize_cpp, dataxchg.ddeuninitialize, ddeml/DdeUninitialize, winui._win32_ddeuninitialize
-f1_keywords:
-- ddeml/DdeUninitialize
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DdeUninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdeUninitialize
+ - ddeml/DdeUninitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DdeUninitialize
 ---
 
 # DdeUninitialize function
@@ -49,48 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Frees all Dynamic Data Exchange Management Library (DDEML) resources associated with the calling application. 
-
+Frees all Dynamic Data Exchange Management Library (DDEML) resources associated with the calling application.
 
 ## -parameters
-
-
-
 
 ### -param idInst [in]
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
-
+The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. 
-
-
-
+If the function fails, the return value is zero.
 
 ## -remarks
 
-
-
-<b>DdeUninitialize</b> terminates any conversations currently open for the application. 
-
-
-
+<b>DdeUninitialize</b> terminates any conversations currently open for the application.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -113,7 +95,4 @@ If the function fails, the return value is zero.
 
 
 <b>Reference</b>
- 
-
- 
 

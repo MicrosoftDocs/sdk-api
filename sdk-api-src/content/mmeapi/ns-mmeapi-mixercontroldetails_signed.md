@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERCONTROLDETAILS_SIGNED, *PMIXERCONTROLDETAILS_SIGNED, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS'
-f1_keywords:
-- mmeapi/MIXERCONTROLDETAILS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIXERCONTROLDETAILS
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_SIGNED, *PMIXERCONTROLDETAILS_SIGNED, *LPMIXERCONTROLDETAILS_SIGNED
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tMIXERCONTROLDETAILS_SIGNED
+ - mmeapi/tMIXERCONTROLDETAILS_SIGNED
+ - PMIXERCONTROLDETAILS_SIGNED
+ - mmeapi/PMIXERCONTROLDETAILS_SIGNED
+ - MIXERCONTROLDETAILS_SIGNED
+ - mmeapi/MIXERCONTROLDETAILS_SIGNED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIXERCONTROLDETAILS
 ---
 
 # MIXERCONTROLDETAILS_SIGNED structure
@@ -49,26 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The MIXERCONTROLDETAILS_SIGNED structure retrieves and sets signed type control properties for an audio mixer control.
 
-
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lValue
 
  
 Signed integer value for a single item or channel. This value must be inclusively within the bounds given in the Bounds member of this structure for signed integer controls.
 
-### -remarks
+## -remarks
 
 The following standard control types use this structure for retrieving and setting properties:
 
@@ -94,12 +89,7 @@ MIXERCONTROL_CONTROLTYPE_QSOUNDPAN
 
 MIXERCONTROL_CONTROLTYPE_SLIDER
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
@@ -118,7 +108,4 @@ MIXERCONTROL_CONTROLTYPE_SLIDER
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
- 
-
- 
 

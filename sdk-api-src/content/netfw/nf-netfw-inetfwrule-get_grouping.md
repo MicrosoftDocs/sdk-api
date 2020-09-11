@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 325b0c1d-3988-44ed-931c-6eed835f8c50
 ms.date: 12/05/2018
 ms.keywords: Grouping property [ICS/ICF], Grouping property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Grouping property, INetFwRule.Grouping, INetFwRule.get_Grouping, INetFwRule::Grouping, INetFwRule::get_Grouping, INetFwRule::put_Grouping, get_Grouping, ics.inetfwrule_grouping, netfw/INetFwRule::Grouping, netfw/INetFwRule::get_Grouping, netfw/INetFwRule::put_Grouping
-f1_keywords:
-- netfw/INetFwRule.Grouping
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule.Grouping
-- INetFwRule.get_Grouping
-- INetFwRule.put_Grouping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule::get_Grouping
+ - netfw/INetFwRule::get_Grouping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule.Grouping
+ - INetFwRule.get_Grouping
+ - INetFwRule.put_Grouping
 ---
 
 # INetFwRule::get_Grouping
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the group to which an individual rule belongs.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property is optional.
 
@@ -72,16 +68,7 @@ Using the Grouping property is highly recommended, as it groups multiple rules i
 
 When indirect strings in the form of "h" are passed as parameters to the Windows Firewall with Advanced Security APIs, they should either be placed under the System32 Windows directory or specified by a full path.  Further, the file should have a secure access that permits the Local Service account read access to allow the Windows Firewall Service to read the strings.  To avoid non-privileged security principals from modifying the strings, the DLLs should only allow write access to the Administrator account.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
- 
-
- 
 

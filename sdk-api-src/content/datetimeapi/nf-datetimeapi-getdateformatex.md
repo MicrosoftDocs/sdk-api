@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 791fb386-3cc5-410e-bfce-52598fdb10c9
 ms.date: 12/05/2018
 ms.keywords: DATE_AUTOLAYOUT, DATE_LONGDATE, DATE_LTRREADING, DATE_MONTHDAY, DATE_RTLREADING, DATE_SHORTDATE, DATE_USE_ALT_CALENDAR, DATE_YEARMONTH, GetDateFormatEx, GetDateFormatEx function [Internationalization for Windows Applications], _win32_GetDateFormatEx, datetimeapi/GetDateFormatEx, intl.getdateformatex
-f1_keywords:
-- datetimeapi/GetDateFormatEx
-dev_langs:
-- c++
 req.header: datetimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-datetime-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-DateTime-L1-1-2.dll
-api_name:
-- GetDateFormatEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDateFormatEx
+ - datetimeapi/GetDateFormatEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-datetime-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-DateTime-L1-1-2.dll
+api_name:
+ - GetDateFormatEx
 ---
 
 # GetDateFormatEx function
@@ -54,18 +55,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Formats a date as a date string for a locale specified by name. The function formats either a specified date or the local system date.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata">GetDateFormat</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpLocaleName [in, optional]
 
@@ -179,11 +174,9 @@ Use the alternate calendar, if one exists, to format the date string. If this fl
 
 If  the application does not specify DATE_YEARMONTH, DATE_MONTHDAY, DATE_SHORTDATE, or DATE_LONGDATE, and <i>lpFormat</i> is set to <b>NULL</b>, DATE_SHORTDATE is the default.
 
-
 ### -param lpDate [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date information to format. The application can set this parameter to <b>NULL</b> if the function is to use the current local system date.
-
 
 ### -param lpFormat [in, optional]
 
@@ -193,25 +186,19 @@ For example, to get the date string "Wed, Aug 31 94", the application uses the p
 
 The function uses the specified locale only for information not specified in the format picture string, for example, the day and month names for the locale. The application can set this parameter to <b>NULL</b> to format the string according to the date format for the specified locale.
 
-
 ### -param lpDateStr [out, optional]
 
 Pointer to a buffer in which this function retrieves the formatted date string.
-
 
 ### -param cchDate [in]
 
 Size, in characters, of the <i>lpDateStr</i> buffer. The application can set this parameter to 0 to return the buffer size required to hold the formatted date string. In this case, the buffer indicated by <i>lpDateStr</i> is not used.
 
-
 ### -param lpCalendar [in, optional]
 
 Reserved; must set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns the number of characters written to the <i>lpDateStr</i> buffer if successful. If the <i>cchDate</i> parameter is set to 0, the function returns the number of characters required to hold the formatted date string, including the terminating null character.
 
@@ -223,11 +210,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change">Prepare your application for the Japanese era change</a> for more information.</div>
 <div> </div>
@@ -262,13 +245,7 @@ If the presence or absence of the day of the week in the long date format does n
 
 <b>Beginning in Windows 8: </b><b>GetDateFormatEx</b>  is declared in Datetimeapi.h. Before Windows 8, it was declared in Winnls.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/day--month--year--and-era-format-pictures">Day, Month, Year, and Era Format Pictures</a>
 
@@ -295,7 +272,4 @@ If the presence or absence of the day of the week in the long date format does n
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

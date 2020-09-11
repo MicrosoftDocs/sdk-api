@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f978d5d1-a597-4e49-9a2a-de23e99bf65e
 ms.date: 12/05/2018
 ms.keywords: FillFromObject, FillFromObject method [Windows Shell], FillFromObject method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],FillFromObject method, IExplorerBrowser.FillFromObject, IExplorerBrowser::FillFromObject, _shell_IExplorerBrowser_FillFromObject, shell.IExplorerBrowser_FillFromObject, shobjidl_core/IExplorerBrowser::FillFromObject
-f1_keywords:
-- shobjidl_core/IExplorerBrowser.FillFromObject
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExplorerBrowser.FillFromObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExplorerBrowser::FillFromObject
+ - shobjidl_core/IExplorerBrowser::FillFromObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExplorerBrowser.FillFromObject
 ---
 
 # IExplorerBrowser::FillFromObject
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a results folder and fills it with items.
 
-
 ## -parameters
-
-
-
 
 ### -param punk [in]
 
@@ -64,28 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 An interface pointer on the source object that will fill the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iresultsfolder">IResultsFolder</a>. This can be an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> or any object that can be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>.
 
-
 ### -param dwFlags [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EXPLORER_BROWSER_FILL_FLAGS</a></b>
 
 One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EXPLORER_BROWSER_FILL_FLAGS</a> values.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The object passed via interface pointer <i>punk</i> fills <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iresultsfolder">IResultsFolder</a>.
 
@@ -99,20 +86,11 @@ This method may be called more than once, with each successive call adding addit
 
 To manipulate items in the results folder directly, call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-getcurrentview">IExplorerBrowser::GetCurrentView</a> to get the view from ExplorerBrowser and then ask the view for results folder using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder">GetFolder</a>. Using the obtained results folder enables manipulation of the data in the folder with more flexibility than with the methods that <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> provides.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>
- 
-
- 
 

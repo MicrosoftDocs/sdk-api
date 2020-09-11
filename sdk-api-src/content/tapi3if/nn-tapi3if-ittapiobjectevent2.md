@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: ad4fc838-5a6c-4942-b5a0-ed00cea11ba8
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent2, ITTAPIObjectEvent2 interface [TAPI 2.2], ITTAPIObjectEvent2 interface [TAPI 2.2],described, _tapi3_ittapiobjectevent2, tapi3.ittapiobjectevent2, tapi3if/ITTAPIObjectEvent2
-f1_keywords:
-- tapi3if/ITTAPIObjectEvent2
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTAPIObjectEvent2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTAPIObjectEvent2
+ - tapi3if/ITTAPIObjectEvent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTAPIObjectEvent2
 ---
 
 # ITTAPIObjectEvent2 interface
 
 
 ## -description
-
 
 The 
 <b>ITTAPIObjectEvent2</b> interface is an extension of the 
@@ -89,20 +89,13 @@ Returns a pointer to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent">ITTAPIObjectEvent</a>
- 
-
- 
 

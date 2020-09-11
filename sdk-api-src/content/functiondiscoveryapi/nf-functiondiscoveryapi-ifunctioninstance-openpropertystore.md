@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 3e03567b-7bac-4bef-ae62-a040f0c33cfb
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstance interface,OpenPropertyStore method, IFunctionInstance.OpenPropertyStore, IFunctionInstance::OpenPropertyStore, OpenPropertyStore, OpenPropertyStore method, OpenPropertyStore method,IFunctionInstance interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryapi/IFunctionInstance::OpenPropertyStore, ncd.ifunctioninstance_openpropertystore_method
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstance.OpenPropertyStore
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstance.OpenPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstance::OpenPropertyStore
+ - functiondiscoveryapi/IFunctionInstance::OpenPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstance.OpenPropertyStore
 ---
 
 # IFunctionInstance::OpenPropertyStore
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Opens the property store for the function instance. The property store contains metadata about the function instance, such as its name, icon, installation date, and other information. 
-
+Opens the property store for the function instance. The property store contains metadata about the function instance, such as its name, icon, installation date, and other information.
 
 ## -parameters
-
-
-
 
 ### -param dwStgAccess [in]
 
@@ -82,15 +78,11 @@ The access mode to be assigned to the open stream.  For this method, the followi
 
 #### STGM_WRITE
 
-
 ### -param ppIPropertyStore [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface pointer.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -155,29 +147,14 @@ The method is unable to allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Only one property store per function instance can be open at a time. If <b>OpenPropertyStore</b> is called twice on the same function instance, both <i>ppIPropertyStore</i> pointers would point to the same property store. Furthermore, the access mode (as specified by the  <i>dwStgAccess</i> parameter) would be determined by the most recent <b>OpenPropertyStore</b> call. Applications should call <b>Release</b> to close a property store before opening another.
 
-It is possible that <b>OpenPropertyStore</b> will return a property store for a device that has been removed. In this case, the property keys in the store will be empty. This situation may occur if the device's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-glossary">devnode</a> was deleted but the property store associated with the device's function instance is still accessible. This situation occurs rarely. 
-
-
-
+It is possible that <b>OpenPropertyStore</b> will return a property store for a device that has been removed. In this case, the property keys in the store will be empty. This situation may occur if the device's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-glossary">devnode</a> was deleted but the property store associated with the device's function instance is still accessible. This situation occurs rarely.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>
- 
-
- 
 

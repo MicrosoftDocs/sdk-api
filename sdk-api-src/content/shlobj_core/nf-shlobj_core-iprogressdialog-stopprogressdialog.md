@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6a46ca72-b19d-4fd3-b783-2d182326deb4
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],StopProgressDialog method, IProgressDialog.StopProgressDialog, IProgressDialog::StopProgressDialog, StopProgressDialog, StopProgressDialog method [Windows Shell], StopProgressDialog method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_StopProgressDialog, shell.IProgressDialog_StopProgressDialog, shlobj_core/IProgressDialog::StopProgressDialog
-f1_keywords:
-- shlobj_core/IProgressDialog.StopProgressDialog
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IProgressDialog.StopProgressDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressDialog::StopProgressDialog
+ - shlobj_core/IProgressDialog::StopProgressDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IProgressDialog.StopProgressDialog
 ---
 
 # IProgressDialog::StopProgressDialog
@@ -49,32 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stops the progress dialog box and removes it from the screen.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
 
@@ -85,7 +71,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-startprogressdialog">IProgressDialog::StartProgressDialog</a>
- 
-
- 
 

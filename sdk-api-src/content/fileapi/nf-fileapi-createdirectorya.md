@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
 ms.date: 12/05/2018
 ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA, CreateDirectoryW, _win32_createdirectory, base.createdirectory, fileapi/CreateDirectory, fileapi/CreateDirectoryA, fileapi/CreateDirectoryW, fs.createdirectory, winbase/CreateDirectory, winbase/CreateDirectoryA, winbase/CreateDirectoryW
-f1_keywords:
-- fileapi/CreateDirectory
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CreateDirectory
-- CreateDirectoryA
-- CreateDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDirectoryA
+ - fileapi/CreateDirectoryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CreateDirectory
+ - CreateDirectoryA
+ - CreateDirectoryW
 ---
 
 # CreateDirectoryA function
 
 
 ## -description
-
 
 Creates a new directory. If the underlying file system supports security on files and 
     directories, the function applies a specified security descriptor to the new directory.
@@ -69,11 +69,7 @@ To perform this
     operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectorytransacteda">CreateDirectoryTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPathName [in]
 
@@ -99,10 +95,7 @@ The target file system must support security on files and directories for this p
        (This is indicated when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a> 
        returns <b>FS_PERSISTENT_ACLS</b>.)
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -139,14 +132,8 @@ One or more intermediate directories do not exist; this function will only creat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some file systems, such as the NTFS file system, support compression or encryption for individual files and 
     directories. On volumes formatted for such a file system, a new directory inherits the compression and encryption 
@@ -238,9 +225,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a>
 
 
@@ -270,7 +254,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
- 
-
- 
 

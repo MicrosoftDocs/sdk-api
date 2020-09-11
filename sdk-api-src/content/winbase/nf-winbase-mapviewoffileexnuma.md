@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 1e28c8db-112d-481d-b470-8ca618e125ce
 ms.date: 12/05/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileExNuma, MapViewOfFileExNuma function, NUMA_NO_PREFERRED_NODE, base.mapviewoffileexnuma, winbase/MapViewOfFileExNuma
-f1_keywords:
-- winbase/MapViewOfFileExNuma
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- MapViewOfFileExNuma
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapViewOfFileExNuma
+ - winbase/MapViewOfFileExNuma
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - MapViewOfFileExNuma
 ---
 
 # MapViewOfFileExNuma function
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maps a view of a file mapping into the address space of a calling process and specifies the NUMA node 
     for the physical memory.
 
-
 ## -parameters
-
-
-
 
 ### -param hFileMappingObject [in]
 
 A handle to a file mapping object. The 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappingnumaa">CreateFileMappingNuma</a> and 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a> functions return this handle.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -196,11 +191,9 @@ For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the
 For more information  about access to file mapping objects, see 
        <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
-
 ### -param dwFileOffsetHigh [in]
 
 The high-order <b>DWORD</b> of the file offset where the view is to begin.
-
 
 ### -param dwFileOffsetLow [in]
 
@@ -211,13 +204,11 @@ The low-order <b>DWORD</b> of the file offset where the view is to begin. The
       <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function, which fills in the members of 
       a <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure.
 
-
 ### -param dwNumberOfBytesToMap [in]
 
 The number of bytes of a file mapping to map to a view. All bytes must be within the maximum size specified 
       by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>. If this parameter is 0 
       (zero), the mapping extends from the specified offset to the end of the file mapping.
-
 
 ### -param lpBaseAddress [in, optional]
 
@@ -234,7 +225,6 @@ While it is possible to specify an address that is safe now (not used by the ope
        guarantee that the address will remain safe over time. Therefore, it is better to let the operating system 
        choose the address. In this case, you would not store pointers in the memory mapped file; you would store 
        offsets from the base of the file mapping so that the mapping can be used at any address.
-
 
 ### -param nndPreferred [in]
 
@@ -258,24 +248,15 @@ No NUMA node is preferred. This is the same as calling the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the starting address of the mapped view.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 Mapping a file makes the specified portion of the file visible in the address space of the calling 
     process.
@@ -396,15 +377,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappingnumaa">CreateFileMappingNuma</a>
 
@@ -451,7 +425,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 29b3e552-b717-4d10-9fa4-1386da3c5460
 ms.date: 12/05/2018
 ms.keywords: IEventSystem, IEventSystem interface [COM+], IEventSystem interface [COM+],described, _cos_IEventSystem, cos.ieventsystem, eventsys/IEventSystem
-f1_keywords:
-- eventsys/IEventSystem
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSystem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSystem
+ - eventsys/IEventSystem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSystem
 ---
 
 # IEventSystem interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the event data store.
-
 
 ## -inheritance
 
@@ -138,5 +137,5 @@ The CLSID of an event class object that notifies the caller of changes to the ev
 
 </td>
 </tr>
-</table> 
+</table>
 

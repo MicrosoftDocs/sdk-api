@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: EDEAD2C4-5695-4E63-9E9E-B09D75B60B7F
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaEngineClassFactory.CreateInstance, IMFMediaEngineClassFactory::CreateInstance, mf.imfmediaengineclassfactory_createinstance, mfmediaengine/IMFMediaEngineClassFactory::CreateInstance
-f1_keywords:
-- mfmediaengine/IMFMediaEngineClassFactory.CreateInstance
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineClassFactory.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineClassFactory::CreateInstance
+ - mfmediaengine/IMFMediaEngineClassFactory::CreateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineClassFactory.CreateInstance
 ---
 
 # IMFMediaEngineClassFactory::CreateInstance
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new instance of the Media Engine.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_createflags">MF_MEDIA_ENGINE_CREATEFLAGS</a> enumeration.
-
 
 ### -param pAttr [in]
 
@@ -69,15 +64,11 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjec
 
 This parameter  specifies configuration attributes for the Media Engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes">MFCreateAttributes</a> to create the attribute store. Then, set one or more attributes from the list of <a href="https://docs.microsoft.com/windows/desktop/medfound/media-engine-attributes">Media Engine Attributes</a>. For details, see Remarks.
 
-
 ### -param ppPlayer [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,14 +100,8 @@ A required attribute was missing from <i>pAttr</i>, or an invalid combination of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a>.
 
@@ -273,16 +258,7 @@ Any of the following:
 
 On the phone, the Media Engine only supports frame-server mode. Attempting to initialize the interface in either rendering mode or audio mode will fail.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactory">IMFMediaEngineClassFactory</a>
- 
-
- 
 

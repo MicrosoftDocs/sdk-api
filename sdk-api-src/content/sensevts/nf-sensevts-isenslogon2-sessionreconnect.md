@@ -8,10 +8,6 @@ tech.root: Sens
 ms.assetid: b789a75d-e842-40b4-9e8d-b9374b5ba6b0
 ms.date: 12/05/2018
 ms.keywords: ISensLogon2 interface [SENS],SessionReconnect method, ISensLogon2.SessionReconnect, ISensLogon2::SessionReconnect, SessionReconnect, SessionReconnect method [SENS], SessionReconnect method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionreconnect, sens.isenslogon2_sessionreconnect, sensevts/ISensLogon2::SessionReconnect, syncmgr.isenslogon2_sessionreconnect
-f1_keywords:
-- sensevts/ISensLogon2.SessionReconnect
-dev_langs:
-- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Sensevts.tlb
 req.lib: 
 req.dll: Sens.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sens.dll
-api_name:
-- ISensLogon2.SessionReconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensLogon2::SessionReconnect
+ - sensevts/ISensLogon2::SessionReconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sens.dll
+api_name:
+ - ISensLogon2.SessionReconnect
 ---
 
 # ISensLogon2::SessionReconnect
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The session was reconnected. The 
 <b>SessionReconnect</b> method is used when you reconnect to a Fast User Switching session or a Remote Desktop Connection. This is different from logging on to a new session.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrUserName [in]
 
 Name of the current user.
 
-
 ### -param dwSessionId [in]
 
 The session identifier of the session.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -92,24 +84,12 @@ Method returned successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 SENS calls this method to notify your application that the session was reconnected.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
@@ -124,7 +104,4 @@ SENS calls this method to notify your application that the session was reconnect
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
- 
-
- 
 

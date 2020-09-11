@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: aaf7d2f9-71d5-42bb-a96f-71124be40aa3
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardIntroduceReaderGroup, SCardIntroduceReaderGroup function [Security], SCardIntroduceReaderGroupA, SCardIntroduceReaderGroupW, _smart_scardintroducereadergroup, security.scardintroducereadergroup, winscard/SCardIntroduceReaderGroup, winscard/SCardIntroduceReaderGroupA, winscard/SCardIntroduceReaderGroupW
-f1_keywords:
-- winscard/SCardIntroduceReaderGroup
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardIntroduceReaderGroup
-- SCardIntroduceReaderGroupA
-- SCardIntroduceReaderGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardIntroduceReaderGroupA
+ - winscard/SCardIntroduceReaderGroupA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardIntroduceReaderGroup
+ - SCardIntroduceReaderGroupA
+ - SCardIntroduceReaderGroupW
 ---
 
 # SCardIntroduceReaderGroupA function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardIntroduceReaderGroup</b> function introduces a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader group</a> to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> subsystem. However, the reader group is not created until the group is specified when adding a reader to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card database</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 Supplies the handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
 the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. If this parameter is <b>NULL</b>, the scope of the resource manager is SCARD_SCOPE_SYSTEM.
-
 
 ### -param szGroupName [in]
 
@@ -120,12 +115,8 @@ Unused legacy value. This is an internally managed group that cannot be modified
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -158,14 +149,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SCardIntroduceReaderGroup</b> function is provided for PC/SC specification compatibility. Reader groups are not stored until a reader is added to the group.
 
@@ -202,9 +187,6 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardaddreadertogroupa">SCardAddReaderToGroup</a>
 
 
@@ -222,7 +204,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a>
- 
-
- 
 

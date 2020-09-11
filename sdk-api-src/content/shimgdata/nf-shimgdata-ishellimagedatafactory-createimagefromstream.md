@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 009c4b46-0f2c-43ee-84be-017bf12b28e5
 ms.date: 12/05/2018
 ms.keywords: CreateImageFromStream, CreateImageFromStream method [Windows Shell], CreateImageFromStream method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromStream method, IShellImageDataFactory.CreateImageFromStream, IShellImageDataFactory::CreateImageFromStream, _shell_IShellImageDataFactory_CreateImageFromStream, shell.IShellImageDataFactory_CreateImageFromStream, shimgdata/IShellImageDataFactory::CreateImageFromStream
-f1_keywords:
-- shimgdata/IShellImageDataFactory.CreateImageFromStream
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageDataFactory.CreateImageFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageDataFactory::CreateImageFromStream
+ - shimgdata/IShellImageDataFactory::CreateImageFromStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageDataFactory.CreateImageFromStream
 ---
 
 # IShellImageDataFactory::CreateImageFromStream
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface based on a given file stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pStream [in]
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objid
 
 A pointer to the image stream.
 
-
 ### -param ppshimg [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>**</b>
 
 The address of a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -119,16 +111,8 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If <i>pStream</i> is <b>NULL</b> or an invalid pointer, later calls to <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a> will cause an access violation.
-
-
 

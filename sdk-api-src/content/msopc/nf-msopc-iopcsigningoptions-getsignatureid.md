@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: b81b49de-aaee-4224-9f5c-554b51f10cfa
 ms.date: 12/05/2018
 ms.keywords: GetSignatureId, GetSignatureId method [Open Packaging Conventions], GetSignatureId method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureId method, IOpcSigningOptions.GetSignatureId, IOpcSigningOptions::GetSignatureId, msopc/IOpcSigningOptions::GetSignatureId, opc.iopcsigningoptions_getsignatureid
-f1_keywords:
-- msopc/IOpcSigningOptions.GetSignatureId
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSigningOptions.GetSignatureId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSigningOptions::GetSignatureId
+ - msopc/IOpcSigningOptions::GetSignatureId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSigningOptions.GetSignatureId
 ---
 
 # IOpcSigningOptions::GetSignatureId
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the value of the <b>Id</b> attribute from the <b>Signature</b> element.
 
-
 ## -parameters
-
-
-
 
 ### -param signatureId [out, retval]
 
 A pointer to the value of the <b>Id</b> attribute, or the empty string "" if there is no <b>Id</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,14 +90,8 @@ The <i>signatureId</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method allocates memory used by the string returned in <i>signatureId</i>.  If the method succeeds, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory.
 
@@ -121,13 +108,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -178,7 +159,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

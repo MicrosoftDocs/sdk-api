@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 21c91e85-8a49-4e74-9191-37aeb03b299e
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex interface [VDS],Repair method, IVdsVolumePlex.Repair, IVdsVolumePlex::Repair, Repair, Repair method [VDS], Repair method [VDS],IVdsVolumePlex interface, base.ivdsvolumeplex_repair, vds/IVdsVolumePlex::Repair
-f1_keywords:
-- vds/IVdsVolumePlex.Repair
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVolumePlex.Repair
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVolumePlex::Repair
+ - vds/IVdsVolumePlex::Repair
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVolumePlex.Repair
 ---
 
 # IVdsVolumePlex::Repair
@@ -50,17 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Repairs a fault-tolerant 
    volume plex by moving bad members to good disks.
 
-
 ## -parameters
-
-
-
 
 ### -param pInputDiskArray [in]
 
@@ -74,11 +70,9 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/v
 <b>Windows Server 2003:  </b>only volumes that are striped with parity (RAID-5) can be repaired with this method, and only one new disk can 
         be passed to this method at a time.
 
-
 ### -param lNumberOfDisks [in]
 
 The total number of disks in the volume.
-
 
 ### -param ppAsync [out]
 
@@ -90,10 +84,7 @@ If you call <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-
       must release the interfaces returned in the 
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -162,15 +153,8 @@ The volume is missing one or more members or is somehow incomplete.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
@@ -189,7 +173,4 @@ The volume is missing one or more members or is somehow incomplete.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a>
- 
-
- 
 

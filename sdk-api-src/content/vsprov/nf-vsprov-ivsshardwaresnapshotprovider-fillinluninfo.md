@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4e4e5942-5bc8-4b5e-a651-5bb354514994
 ms.date: 12/05/2018
 ms.keywords: FillInLunInfo, FillInLunInfo method [VSS], FillInLunInfo method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],FillInLunInfo method, IVssHardwareSnapshotProvider.FillInLunInfo, IVssHardwareSnapshotProvider::FillInLunInfo, base.ivsshardwaresnapshotprovider_fillinluninfo, vsprov/IVssHardwareSnapshotProvider::FillInLunInfo
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProvider.FillInLunInfo
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProvider.FillInLunInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProvider::FillInLunInfo
+ - vsprov/IVssHardwareSnapshotProvider::FillInLunInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProvider.FillInLunInfo
 ---
 
 # IVssHardwareSnapshotProvider::FillInLunInfo
 
 
 ## -description
-
 
 The 
    <b>FillInLunInfo</b> 
@@ -67,29 +67,21 @@ The
 
 ## -parameters
 
-
-
-
 ### -param wszDeviceName [in]
 
 Device corresponding to the shadow copy LUN.
-
 
 ### -param pLunInfo [in, out]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure for the 
       shadow copy LUN.
 
-
 ### -param pbIsSupported [out]
 
 The provider must return <b>TRUE</b> in the location pointed to by the 
       <i>pbIsSupported</i> parameter if the device is supported.
 
-
 ## -returns
-
-
 
 VSS  ignores this method's return value.
 
@@ -150,14 +142,8 @@ An unexpected provider error has occurred. The provider must report an event in 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 VSS calls the <b>FillInLunInfo</b> method for each <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure that the provider previously initialized in its <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a> method. VSS also calls the <b>FillInLunInfo</b> method for each new disk device that arrives in the system during the import process. 
 
@@ -181,13 +167,7 @@ If the <b>FillInLunInfo</b> method is
     return success. If the provider recognizes the LUN, it should set the <b>BOOL</b> value to 
     <b>TRUE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported">AreLunsSupported</a>
 
@@ -214,7 +194,4 @@ If the <b>FillInLunInfo</b> method is
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
- 
-
- 
 

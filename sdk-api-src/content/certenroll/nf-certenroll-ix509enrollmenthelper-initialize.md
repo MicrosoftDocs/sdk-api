@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 83cb603b-9396-4983-8707-12d1c5b8b234
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper interface [Security],Initialize method, IX509EnrollmentHelper.Initialize, IX509EnrollmentHelper::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentHelper interface, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize
-f1_keywords:
-- certenroll/IX509EnrollmentHelper.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentHelper.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentHelper::Initialize
+ - certenroll/IX509EnrollmentHelper::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentHelper.Initialize
 ---
 
 # IX509EnrollmentHelper::Initialize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
@@ -98,12 +94,8 @@ The certificate is being requested by an administrator acting on the behalf of a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -126,18 +118,8 @@ The object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>
- 
-
- 
 

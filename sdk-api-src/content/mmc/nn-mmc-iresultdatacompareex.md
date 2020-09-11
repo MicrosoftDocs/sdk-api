@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: e4b305e4-4649-42f4-86f4-3c12e5aa5337
 ms.date: 12/05/2018
 ms.keywords: IResultDataCompareEx, IResultDataCompareEx interface [MMC], IResultDataCompareEx interface [MMC],described, _slate_iresultdatacompareex, mmc.iresultdatacompareex, mmc/IResultDataCompareEx
-f1_keywords:
-- mmc/IResultDataCompareEx
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IResultDataCompareEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultDataCompareEx
+ - mmc/IResultDataCompareEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IResultDataCompareEx
 ---
 
 # IResultDataCompareEx interface
 
 
 ## -description
-
 
 The 
 <b>IResultDataCompareEx</b> interface is introduced in MMC 1.2.
@@ -60,7 +60,6 @@ The
 <b>IResultDataCompareEx</b> interface differs from the 
 <b>IResultDataCompareEx</b> interface. 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> allows primary snap-ins to compare only result items. Scope items from either the primary snap-in or any extensions are left unsorted at the top of the list.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Compares two result view items.
 
 </td>
 </tr>
-</table> 
+</table>
 

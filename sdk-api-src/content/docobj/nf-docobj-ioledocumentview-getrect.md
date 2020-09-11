@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 65d27354-c278-4d9e-b1b7-6fa3651a343d
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetRect method, IOleDocumentView.GetRect, IOleDocumentView::GetRect, _ole_ioledocumentview_getrect, com.ioledocumentview_getrect, docobj/IOleDocumentView::GetRect
-f1_keywords:
-- docobj/IOleDocumentView.GetRect
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.GetRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::GetRect
+ - docobj/IOleDocumentView::GetRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.GetRect
 ---
 
 # IOleDocumentView::GetRect
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the rectangular coordinates of the viewport in which the view is or will be activated.
 
-
 ## -parameters
-
-
-
 
 ### -param prcView [out]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to contain the coordinates of the current viewport set with <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrect">IOleDocumentView::SetRect</a>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -86,14 +79,8 @@ This view has not yet seen a call to <a href="https://docs.microsoft.com/windows
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For a single document interface (SDI) application, the viewport is the client area of the frame window minus the space allocated for toolbars, status bar, and such. For a multiple document interface (MDI) window, the viewport is the client area of the MDI document window minus any other frame-level user-interface elements.
 
@@ -101,14 +88,7 @@ The viewport coordinates obtained by this method are those set in the most recen
 
 A document view must implement this method completely; E_NOTIMPL is not an acceptable return value.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
@@ -119,7 +99,4 @@ A document view must implement this method completely; E_NOTIMPL is not an accep
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__lightenable.htm
 ms.date: 12/05/2018
 ms.keywords: 93cddc72-1451-3e41-6d33-7b1036dfc225, IDirect3DDevice9 interface [Direct3D 9],LightEnable method, IDirect3DDevice9.LightEnable, IDirect3DDevice9::LightEnable, LightEnable, LightEnable method [Direct3D 9], LightEnable method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::LightEnable, direct3d9.idirect3ddevice9__lightenable
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.LightEnable
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.LightEnable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::LightEnable
+ - d3d9helper/IDirect3DDevice9::LightEnable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.LightEnable
 ---
 
 # IDirect3DDevice9::LightEnable
@@ -50,43 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables a set of lighting parameters within a device.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Zero-based index of the set of lighting parameters that are the target of this method. 
-
+Zero-based index of the set of lighting parameters that are the target of this method.
 
 ### -param Enable [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Value that indicates if the set of lighting parameters are being enabled or disabled. Set this parameter to <b>TRUE</b> to enable lighting with the parameters at the specified index, or <b>FALSE</b> to disable it. 
-
+Value that indicates if the set of lighting parameters are being enabled or disabled. Set this parameter to <b>TRUE</b> to enable lighting with the parameters at the specified index, or <b>FALSE</b> to disable it.
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
-
-
-
 ## -remarks
-
-
 
 If a value for LightIndex is outside the range of the light property sets assigned within the device, the <b>IDirect3DDevice9::LightEnable</b> method creates a light source represented by a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure with the following properties and sets its enabled state to the value specified in bEnable.
 
@@ -174,15 +161,8 @@ If a value for LightIndex is outside the range of the light property sets assign
 <td>0</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
@@ -197,7 +177,4 @@ If a value for LightIndex is outside the range of the light property sets assign
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a>
- 
-
- 
 

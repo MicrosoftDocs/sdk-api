@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 7c0d24dc-cec2-4304-bfbc-096fa4d0e8d0
 ms.date: 12/05/2018
 ms.keywords: AutoCorrect, AutoCorrect method [Internationalization for Windows Applications], AutoCorrect method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],AutoCorrect method, ISpellChecker.AutoCorrect, ISpellChecker::AutoCorrect, intl.ispellchecker_autocorrect, spellcheck/ISpellChecker::AutoCorrect
-f1_keywords:
-- spellcheck/ISpellChecker.AutoCorrect
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- ISpellChecker.AutoCorrect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellChecker::AutoCorrect
+ - spellcheck/ISpellChecker::AutoCorrect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - ISpellChecker.AutoCorrect
 ---
 
 # ISpellChecker::AutoCorrect
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Causes occurrences of one word to be replaced by another.
 
-
 ## -parameters
-
-
-
 
 ### -param from [in]
 
 The incorrectly spelled word to be autocorrected.
 
-
 ### -param to [in]
 
 The correctly spelled word that should replace <i>from</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,18 +105,8 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
- 
-
- 
 

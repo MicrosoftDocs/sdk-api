@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8dad280a-1fe7-4a4b-9392-eee3aa9bcde9
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], ICertificationAuthorities interface [Security],described, certenroll/ICertificationAuthorities, security.icertificationauthorities
-f1_keywords:
-- certenroll/ICertificationAuthorities
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertificationAuthorities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificationAuthorities
+ - certenroll/ICertificationAuthorities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertificationAuthorities
 ---
 
 # ICertificationAuthorities interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The  <b>ICertificationAuthorities</b> interface defines the following methods and properties that manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> objects.
-
 
 ## -inheritance
 
@@ -185,20 +184,13 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

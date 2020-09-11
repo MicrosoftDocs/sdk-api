@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 09feff6e-fa74-4212-8345-09a11cc026c7
 ms.date: 12/05/2018
 ms.keywords: PeerDistGetOverlappedResult, PeerDistGetOverlappedResult function [Peer Networking], p2p.peerdistgetoverlappedresult, peerdist/PeerDistGetOverlappedResult
-f1_keywords:
-- peerdist/PeerDistGetOverlappedResult
-dev_langs:
-- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- peerdist.h
-api_name:
-- PeerDistGetOverlappedResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerDistGetOverlappedResult
+ - peerdist/PeerDistGetOverlappedResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - peerdist.h
+api_name:
+ - PeerDistGetOverlappedResult
 ---
 
 ## -description
@@ -56,7 +57,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
 
 ### -param lpNumberOfBytesTransferred [out]
 
-A pointer to a variable that receives the number of bytes that were actually transferred by a read or write operation. 
+A pointer to a variable that receives the number of bytes that were actually transferred by a read or write operation.
 
 ### -param bWait [in]
 
@@ -67,3 +68,4 @@ If this parameter is `true`, the function does not return until the operation ha
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 `true` if the operation has completed. `false` if the *bWait* argument is `false` and the operation is still pending.
+

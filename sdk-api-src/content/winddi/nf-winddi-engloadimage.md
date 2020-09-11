@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 03b1835a-5c4e-4f38-93b1-e557a2975be7
 ms.date: 12/05/2018
 ms.keywords: EngLoadImage, EngLoadImage function [Display Devices], display.engloadimage, gdifncs_8fb20a2d-c7ae-4d15-af65-219b44289130.xml, winddi/EngLoadImage
-f1_keywords:
-- winddi/EngLoadImage
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngLoadImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngLoadImage
+ - winddi/EngLoadImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngLoadImage
 ---
 
 # EngLoadImage macro
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngLoadImage</b> function loads the specified executable image into kernel-mode memory.
 
-
 ## -parameters
-
-
-
 
 ### -param filename [in]
 
 Pointer to a null-terminated string that names the file containing the executable image to be loaded.
 
-
 ## -remarks
-
-
 
 A driver can use <b>EngLoadImage</b> to map an executable image into kernel-mode memory. For example, a printer driver can call <b>EngLoadImage</b> to load a minidriver.
 
@@ -77,13 +70,7 @@ The file identified by <i>pwszDriver</i> must be located in the <i>%SystemRoot%\
 
 Drivers that need to load a module as data only should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a> instead of this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
 
@@ -94,7 +81,4 @@ Drivers that need to load a module as data only should call <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunloadimage">EngUnloadImage</a>
- 
-
- 
 

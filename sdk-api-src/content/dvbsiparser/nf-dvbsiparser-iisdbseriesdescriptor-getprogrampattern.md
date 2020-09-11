@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ba37c512-bbde-42ad-80fe-9d67f48299b6
 ms.date: 12/05/2018
 ms.keywords: GetProgramPattern, GetProgramPattern method [Microsoft TV Technologies], GetProgramPattern method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetProgramPattern method, IIsdbSeriesDescriptor.GetProgramPattern, IIsdbSeriesDescriptor::GetProgramPattern, dvbsiparser/IIsdbSeriesDescriptor::GetProgramPattern, mstv.iisdbseriesdescriptor_getprogrampattern
-f1_keywords:
-- dvbsiparser/IIsdbSeriesDescriptor.GetProgramPattern
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbSeriesDescriptor.GetProgramPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbSeriesDescriptor::GetProgramPattern
+ - dvbsiparser/IIsdbSeriesDescriptor::GetProgramPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbSeriesDescriptor.GetProgramPattern
 ---
 
 # IIsdbSeriesDescriptor::GetProgramPattern
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a code that indicates how often a series is programmed from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
@@ -156,25 +152,12 @@ Undefined.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbseriesdescriptor">IIsdbSeriesDescriptor</a>
- 
-
- 
 

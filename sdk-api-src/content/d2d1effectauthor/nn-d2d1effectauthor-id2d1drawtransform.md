@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 90C49A9A-9297-44E6-9AB8-01C6847CA3F8
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawTransform, ID2D1DrawTransform interface [Direct2D], ID2D1DrawTransform interface [Direct2D],described, d2d1effectauthor/ID2D1DrawTransform, direct2d.id2d1drawtransform
-f1_keywords:
-- d2d1effectauthor/ID2D1DrawTransform
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DrawTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DrawTransform
+ - d2d1effectauthor/ID2D1DrawTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DrawTransform
 ---
 
 # ID2D1DrawTransform interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A specialized implementation of the Shantzis calculations to a transform implemented on the GPU. These  calculations are described in the paper <a href="https://dl.acm.org/citation.cfm?id=192191">A model for efficient and flexible image computing</a>.
 
-The information required to specify a “Pass” in the rendering algorithm on a Pixel Shader is passed to the implementation through the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawtransform-setdrawinfo">SetDrawInfo</a> method. 
-
+The information required to specify a “Pass” in the rendering algorithm on a Pixel Shader is passed to the implementation through the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawtransform-setdrawinfo">SetDrawInfo</a> method.
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ The <b>ID2D1DrawTransform</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
+</table>
 

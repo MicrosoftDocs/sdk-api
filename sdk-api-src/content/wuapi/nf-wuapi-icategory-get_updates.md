@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: f611b2df-c77f-4df0-8d7d-c8ed18f0222a
 ms.date: 12/05/2018
 ms.keywords: ICategory interface [Windows Update Agent],Updates property, ICategory.Updates, ICategory.get_Updates, ICategory::Updates, ICategory::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],ICategory interface, get_Updates, wua.icategory_updates, wuapi/ICategory::Updates, wuapi/ICategory::get_Updates
-f1_keywords:
-- wuapi/ICategory.Updates
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ICategory.Updates
-- ICategory.get_Updates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICategory::get_Updates
+ - wuapi/ICategory::get_Updates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ICategory.Updates
+ - ICategory.get_Updates
 ---
 
 # ICategory::get_Updates
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an interface that contains a collection of updates that immediately belong to the category.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The returned updates are applicable to the computer. They may or may not be installed on that computer.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a>
- 
-
- 
 

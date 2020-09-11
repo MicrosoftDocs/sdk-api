@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 89ace750-ec32-46cb-8526-233f847ba9f4
 ms.date: 12/05/2018
 ms.keywords: SetPerTcp6ConnectionEStats, SetPerTcp6ConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, iphlp.setpertcp6connectionestats, iphlpapi/SetPerTcp6ConnectionEStats
-f1_keywords:
-- iphlpapi/SetPerTcp6ConnectionEStats
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- SetPerTcp6ConnectionEStats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetPerTcp6ConnectionEStats
+ - iphlpapi/SetPerTcp6ConnectionEStats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - SetPerTcp6ConnectionEStats
 ---
 
 # SetPerTcp6ConnectionEStats function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetPerTcp6ConnectionEStats</b> function sets a value in the read/write information for an IPv6 TCP connection. This function is used to enable or disable extended statistics for an IPv6 TCP connection.
 
-
 ## -parameters
-
-
-
 
 ### -param Row
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a> structure for an IPv6 TCP connection. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a> structure for an IPv6 TCP connection.
 
 ### -param EstatsType
 
@@ -172,32 +167,24 @@ When this value is specified, the buffer pointed to by the <i>Rw</i> parameter s
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Rw
 
-A pointer to a buffer that contains the read/write information to set. The buffer should contain a value from the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a> enumeration for each structure member that specifies how each member should be updated. 
-
+A pointer to a buffer that contains the read/write information to set. The buffer should contain a value from the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a> enumeration for each structure member that specifies how each member should be updated.
 
 ### -param RwVersion
 
 The version of the read/write information to be set. This parameter should be set to zero for Windows Vista, Windows Server 2008, and Windows 7.
 
-
 ### -param RwSize
 
 The size, in bytes, of the buffer pointed to by the <i>Rw</i> parameter.
-
 
 ### -param Offset
 
 The offset, in bytes, to the member in the structure pointed to by the <i>Rw</i> parameter to be set.  This parameter is currently unused and must be set to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -276,14 +263,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetPerTcp6ConnectionEStats</b> function is defined on Windows Vista and later. 
 
@@ -374,15 +355,7 @@ For information on extended TCP statistics on an IPv4 connection, see the <a hre
 
 The <b>SetPerTcp6ConnectionEStats</b> function can only be called by a user logged on as a member of the Administrators group. If <b>SetPerTcp6ConnectionEStats</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. This function can also fail because of user account control (UAC) on Windows Vista and Windows Server 2008. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
@@ -445,7 +418,4 @@ The <b>SetPerTcp6ConnectionEStats</b> function can only be called by a user logg
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
- 
-
- 
 

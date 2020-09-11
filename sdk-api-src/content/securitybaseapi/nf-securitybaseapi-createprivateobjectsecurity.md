@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5f4832b6-5cf5-4050-9e20-56674f2e2cb1
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateObjectSecurity, CreatePrivateObjectSecurity function [Security], _win32_createprivateobjectsecurity, security.createprivateobjectsecurity, securitybaseapi/CreatePrivateObjectSecurity
-f1_keywords:
-- securitybaseapi/CreatePrivateObjectSecurity
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- CreatePrivateObjectSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreatePrivateObjectSecurity
+ - securitybaseapi/CreatePrivateObjectSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - CreatePrivateObjectSecurity
 ---
 
 # CreatePrivateObjectSecurity function
@@ -56,38 +57,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreatePrivateObjectSecurity</b> function allocates and initializes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> for a new private object. A protected server calls this function when it creates a new private object.
 
 To specify the object type GUID of the new object or control how <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) are inherited, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param ParentDescriptor [in, optional]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for the parent directory in which a new object is being created. If there is no parent directory, this parameter can be <b>NULL</b>.
 
-
 ### -param CreatorDescriptor [in, optional]
 
 A pointer to a security descriptor provided by the creator of the object. If the object's creator does not explicitly pass security information for the new object, this parameter is intended to be <b>NULL</b>.
-
 
 ### -param NewDescriptor [out]
 
 A pointer to a variable that receives a pointer to the newly allocated self-relative security descriptor. The caller must call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a> function to free this security descriptor.
 
-
 ### -param IsDirectoryObject [in]
 
 Specifies whether the new object is a container. A value of <b>TRUE</b> indicates the object contains other objects, such as a directory.
-
 
 ### -param Token [in, optional]
 
@@ -113,10 +105,7 @@ If all of the following conditions are true, then the handle must be opened for 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
       
@@ -124,23 +113,12 @@ If the function succeeds, the function returns nonzero.
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) is specified in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> specified by the <i>CreatorDescriptor</i> parameter, the <i>Token</i> parameter must have the SE_SECURITY_NAME privilege enabled. The <b>CreatePrivateObjectSecurity</b> function checks this privilege and may generate audits during the process.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
@@ -183,7 +161,4 @@ If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 97121e6c-af5c-4da8-ad28-24b961c105d2
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncInitializeHandle, RpcAsyncInitializeHandle function [RPC], _rpc_rpcasyncinitializehandle, rpc.rpcasyncinitializehandle, rpcasync/RpcAsyncInitializeHandle
-f1_keywords:
-- rpcasync/RpcAsyncInitializeHandle
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcAsyncInitializeHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcAsyncInitializeHandle
+ - rpcasync/RpcAsyncInitializeHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcAsyncInitializeHandle
 ---
 
 # RpcAsyncInitializeHandle function
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The client calls the 
 <b>RpcAsyncInitializeHandle</b> function to initialize the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure to be used to make an asynchronous call.
 
-
 ## -parameters
-
-
-
 
 ### -param pAsync
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information.
 
-
 ### -param Size
 
 Size of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -121,11 +113,7 @@ The size is either too small or too large.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The client creates a new 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure and a pointer to that structure and calls 
@@ -142,12 +130,7 @@ The client should not attempt to alter the <b>Size</b>, <b>Signature</b>, <b>Loc
 <b>RPC_ASYNC_STATE</b> structure is ready for immediate re-use subsequent to a completed asynchronous call.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc">Asynchronous RPC</a>
 
@@ -178,7 +161,4 @@ The client should not attempt to alter the <b>Size</b>, <b>Signature</b>, <b>Loc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcservertestcancel">RpcServerTestCancel</a>
- 
-
- 
 

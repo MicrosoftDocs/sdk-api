@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: EAADE4DE-4255-4E70-A498-0EB786818D27
 ms.date: 12/05/2018
 ms.keywords: CurrentCurrentSelectedItem property [Windows Accessibility], CurrentCurrentSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentCurrentSelectedItem property, IUIAutomationSelectionPattern2.CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2::CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem, get_CurrentCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentCurrentSelectedItem
-f1_keywords:
-- uiautomationclient/IUIAutomationSelectionPattern2.CurrentCurrentSelectedItem
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationSelectionPattern2.CurrentCurrentSelectedItem
-- IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem
+ - uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationSelectionPattern2.CurrentCurrentSelectedItem
+ - IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem
 ---
 
 # IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> object representing the currently selected item.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern2">IUIAutomationSelectionPattern2</a>
- 
-
- 
 

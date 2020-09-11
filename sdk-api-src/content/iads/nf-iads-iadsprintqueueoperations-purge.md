@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: d3af8fab-83fc-46e2-b924-9a4c5a362970
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],Purge method, IADsPrintQueueOperations.Purge, IADsPrintQueueOperations::Purge, Purge, Purge method [ADSI], Purge method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_purge, adsi.iadsprintqueueoperations__purge, adsi.iadsprintqueueoperations_purge, iads/IADsPrintQueueOperations::Purge
-f1_keywords:
-- iads/IADsPrintQueueOperations.Purge
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPrintQueueOperations.Purge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPrintQueueOperations::Purge
+ - iads/IADsPrintQueueOperations::Purge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPrintQueueOperations.Purge
 ---
 
 # IADsPrintQueueOperations::Purge
@@ -49,33 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsPrintQueueOperations::Purge</b> method clears the print queue of all print jobs without processing them.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method supports the standard return values. For more information about other return values, see the  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
- 
-
- 
 

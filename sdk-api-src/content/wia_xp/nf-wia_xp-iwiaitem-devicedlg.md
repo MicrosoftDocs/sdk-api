@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicedlg.htm
 ms.date: 12/05/2018
 ms.keywords: DeviceDlg, DeviceDlg method [WIA], DeviceDlg method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceDlg method, IWiaItem.DeviceDlg, IWiaItem::DeviceDlg, _wia_IWiaItem_DeviceDlg, wia._wia_IWiaItem_DeviceDlg, wia_xp/IWiaItem::DeviceDlg
-f1_keywords:
-- wia_xp/IWiaItem.DeviceDlg
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaItem.DeviceDlg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaItem::DeviceDlg
+ - wia_xp/IWiaItem::DeviceDlg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaItem.DeviceDlg
 ---
 
 # IWiaItem::DeviceDlg
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaItem::DeviceDlg</b> method is used by applications to display a dialog box to the user to prepare for image acquisition.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 Type: <b>HWND</b>
 
 Handle of the parent window of the dialog box.
-
 
 ### -param lFlags [in]
 
@@ -92,8 +87,6 @@ Specifies a set of flags that control the dialog box's operation. Can be set to 
 <td>Use the system UI, if available, rather than the vendor-supplied UI. If the system UI is not available, the vendor UI is used. If neither UI is available, the function returns E_NOTIMPL.</td>
 </tr>
 </table>
- 
-
 
 ### -param lIntent [in]
 
@@ -113,28 +106,19 @@ Type: <b>LONG*</b>
 
 Receives the number of items in the array indicated by the <i>ppIWiaItem</i> parameter.
 
-
 ### -param ppIWiaItem [out]
 
 Type: <b>IWiaItem***</b>
 
-Receives the address of an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interfaces. 
-
+Receives the address of an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interfaces.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method displays a dialog box to the user that an application uses to gather all the information required for image acquisition. For instance, this dialog box enables the user to select images to download from a camera. When using a scanner, it is also used to specify image scan properties such as brightness and contrast.
 
@@ -143,6 +127,4 @@ After this method returns, the application can use the <a href="https://docs.mic
 Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for each element in the array of interface pointers they receive through the <i>ppIWiaItem</i> parameter. Applications must also free the array using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 It is recommended that applications make device and image selection available through a menu item named <b>From scanner or camera</b> on the <b>File</b> menu.
-
-
 

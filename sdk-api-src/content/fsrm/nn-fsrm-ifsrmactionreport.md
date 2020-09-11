@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: efff4cec-6985-40aa-a74e-bb2afdeb2a0a
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionReport, IFsrmActionReport interface [File Server Resource Manager], IFsrmActionReport interface [File Server Resource Manager],described, fs.ifsrmactionreport, fsrm.ifsrmactionreport, fsrm/IFsrmActionReport
-f1_keywords:
-- fsrm/IFsrmActionReport
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmActionReport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmActionReport
+ - fsrm/IFsrmActionReport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmActionReport
 ---
 
 # IFsrmActionReport interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -72,10 +72,7 @@ To create a report action, call one of the following methods and specify
     this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method 
     and specify <b>IID_IFsrmActionReport</b> as the interface identifier.
 
-
 ## -remarks
-
-
 
 You must set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactionreport-get_reporttypes">ReportTypes</a> property; 
     the other property is optional.
@@ -87,12 +84,7 @@ For an example, see <a href="https://docs.microsoft.com/previous-versions/window
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -123,7 +115,4 @@ For an example, see <a href="https://docs.microsoft.com/previous-versions/window
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
- 
-
- 
 

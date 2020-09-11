@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 96cc0e45-ddd5-4ab0-9243-5f2046e48f78
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], IAzBizRuleInterfaces interface [Security],described, azroles/IAzBizRuleInterfaces, security.iazbizruleinterfaces
-f1_keywords:
-- azroles/IAzBizRuleInterfaces
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzBizRuleInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzBizRuleInterfaces
+ - azroles/IAzBizRuleInterfaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzBizRuleInterfaces
 ---
 
 # IAzBizRuleInterfaces interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzBizRuleInterfaces</b> interface provides methods and properties used to manage a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts.
-
 
 ## -inheritance
 
@@ -138,5 +137,5 @@ The number of interfaces in the list of interfaces available to BizRule scripts.
 
 </td>
 </tr>
-</table> 
+</table>
 

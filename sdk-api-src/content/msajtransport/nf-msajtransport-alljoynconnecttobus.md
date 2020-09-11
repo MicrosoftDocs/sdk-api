@@ -8,10 +8,6 @@ tech.root: AllJoyn
 ms.assetid: B1929CE6-3707-4660-92CA-E267B1E5B9CC
 ms.date: 12/05/2018
 ms.keywords: AllJoynConnectToBus, AllJoynConnectToBus function [AllJoyn API], alljoyn.alljoynconnecttobus, msajtransport/AllJoynConnectToBus
-f1_keywords:
-- msajtransport/AllJoynConnectToBus
-dev_langs:
-- c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: MSAJApi.lib
 req.dll: MSAJApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- MSAJApi.dll
-api_name:
-- AllJoynConnectToBus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AllJoynConnectToBus
+ - msajtransport/AllJoynConnectToBus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - MSAJApi.dll
+api_name:
+ - AllJoynConnectToBus
 ---
 
 # AllJoynConnectToBus function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens the AllJoyn Router Node Service named pipe, and sets it to <b>PIPE_NOWAIT</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param connectionSpec [in, optional]
 
 Optional parameter to pass connection spec for future use.
 
-
 ## -returns
-
-
 
 The client side handle.
 
@@ -86,7 +79,4 @@ An error occurred.  Call <a href="https://docs.microsoft.com/windows/desktop/api
 </td>
 </tr>
 </table>
- 
-
-
 

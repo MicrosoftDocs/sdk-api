@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 3AFB7F70-08F3-4861-B341-9D503FE59244
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_IDENTIFY_CALLBACK, PWINBIO_IDENTIFY_CALLBACK callback, PWINBIO_IDENTIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_identify_callback, winbio/PWINBIO_IDENTIFY_CALLBACK
-f1_keywords:
-- winbio/PWINBIO_IDENTIFY_CALLBACK
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio.h
-api_name:
-- PWINBIO_IDENTIFY_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWINBIO_IDENTIFY_CALLBACK
+ - winbio/PWINBIO_IDENTIFY_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio.h
+api_name:
+ - PWINBIO_IDENTIFY_CALLBACK
 ---
 
 # PWINBIO_IDENTIFY_CALLBACK callback function
 
 
 ## -description
-
 
 The <b>PWINBIO_IDENTIFY_CALLBACK</b> function is called by the Windows Biometric Framework to return results from the   asynchronous  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentifywithcallback">WinBioIdentifyWithCallback</a> function. The client application must implement this function.
 
@@ -62,46 +62,33 @@ The <b>PWINBIO_IDENTIFY_CALLBACK</b> function is called by the Windows Biometric
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param IdentifyCallbackContext [in, optional]
 
 Pointer to a buffer defined by the application and passed to the <i>IdentifyCallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentifywithcallback">WinBioIdentifyWithCallback</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
 
-
 ### -param OperationStatus [in]
 
 Error code returned by the capture operation.
-
 
 ### -param UnitId [in]
 
 Biometric unit ID number.
 
-
 ### -param *Identity [in]
 
 A  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that receives the GUID or SID of the user providing the biometric sample.
-
 
 ### -param SubFactor [in]
 
 A <b>WINBIO_BIOMETRIC_SUBTYPE</b> value that receives the sub-factor associated with the biometric sample. See the Remarks section for more details.
 
-
 ### -param RejectDetail [in]
 
 Additional information about the failure, if any, to perform the operation. For more information,  see Remarks.
 
-
 ## -remarks
-
-
 
 Currently, the Windows Biometric Framework supports only fingerprint readers. Therefore, if an operation fails and returns additional information in a <b>WINBIO_REJECT_DETAIL</b> constant, it will be one of the following values:<ul>
 <li>WINBIO_FP_TOO_HIGH</li>
@@ -302,7 +289,4 @@ VOID CALLBACK IdentifyCallback(
 
 
 ```
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: eb680a9c-aad8-44b5-8c20-af15c1fd8930
 ms.date: 12/05/2018
 ms.keywords: BlockDeleteStaticServices, BlockDeleteStaticServices callback function [RAS], PBLOCK_DELETE_STATIC_SERVICES, PBLOCK_DELETE_STATIC_SERVICES callback, _mpr_blockdeletestaticservices, rras.blockdeletestaticservices, stm/BlockDeleteStaticServices
-f1_keywords:
-- stm/BlockDeleteStaticServices
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Stm.h
-api_name:
-- BlockDeleteStaticServices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PBLOCK_DELETE_STATIC_SERVICES
+ - stm/PBLOCK_DELETE_STATIC_SERVICES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Stm.h
+api_name:
+ - BlockDeleteStaticServices
 ---
 
 # PBLOCK_DELETE_STATIC_SERVICES callback function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>BlockDeleteStaticServices</b> function deletes all static services associated with a specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param InterfaceIndex [in]
 
 Specifies the unique number that identifies the interface associated with the services to be deleted.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -105,14 +98,7 @@ The parameter is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pblock_convert_services_to_static">BlockConvertServicesToStatic</a>
 
@@ -123,7 +109,4 @@ The parameter is invalid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
- 
-
- 
 

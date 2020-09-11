@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 377fed60-7c04-41c1-bc3d-6567d7d8c389
 ms.date: 12/05/2018
 ms.keywords: GetKeyLenEx, GetKeyLenEx method [Security], GetKeyLenEx method [Security],IEnroll4 interface, IEnroll4 interface [Security],GetKeyLenEx method, IEnroll4.GetKeyLenEx, IEnroll4::GetKeyLenEx, XEKL_KEYSIZE_INC, XEKL_KEYSIZE_MAX, XEKL_KEYSIZE_MIN, XEKL_KEYSPEC_KEYX, XEKL_KEYSPEC_SIG, security.ienroll4_getkeylenex, xenroll/IEnroll4::GetKeyLenEx
-f1_keywords:
-- xenroll/IEnroll4.GetKeyLenEx
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll4.GetKeyLenEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll4::GetKeyLenEx
+ - xenroll/IEnroll4::GetKeyLenEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll4.GetKeyLenEx
 ---
 
 # IEnroll4::GetKeyLenEx
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>GetKeyLenEx</b> method retrieves size information for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange keys</a>. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 The values retrieved by this method are dependent upon the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lSizeSpec [in]
 
@@ -102,8 +98,6 @@ Size of key increment. For more information, see Remarks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lKeySpec [in]
 
@@ -135,33 +129,19 @@ Signature key
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwKeySize [out]
 
 A pointer to <b>LONG</b> that receives the key size information, in bits.
 
-
 ## -remarks
-
-
 
 If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> does not support this method, an error is returned.
 
 For additional details on the XEKL_KEYSIZE_INC value, see PP_SIG_KEYSIZE_INC usage in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> reference page.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
- 
-
- 
 

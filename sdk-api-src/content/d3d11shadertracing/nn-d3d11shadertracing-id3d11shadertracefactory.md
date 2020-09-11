@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 0B90EA4B-0176-49DC-8A57-4D847552EFA3
 ms.date: 12/05/2018
 ms.keywords: ID3D11ShaderTraceFactory, ID3D11ShaderTraceFactory interface [Direct3D 11], ID3D11ShaderTraceFactory interface [Direct3D 11],described, d3d11shadertracing/ID3D11ShaderTraceFactory, direct3d11.id3d11shadertracefactory
-f1_keywords:
-- d3d11shadertracing/ID3D11ShaderTraceFactory
-dev_langs:
-- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11SDKLayers.dll
-- D3D11_1SDKLayers.dll
-- D3D11_2SDKLayers.dll
-api_name:
-- ID3D11ShaderTraceFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11ShaderTraceFactory
+ - d3d11shadertracing/ID3D11ShaderTraceFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11SDKLayers.dll
+ - D3D11_1SDKLayers.dll
+ - D3D11_2SDKLayers.dll
+api_name:
+ - ID3D11ShaderTraceFactory
 ---
 
 # ID3D11ShaderTraceFactory interface
@@ -51,9 +52,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An <b>ID3D11ShaderTraceFactory</b> interface implements a method for generating shader trace information objects.
-
 
 ## -inheritance
 
@@ -79,31 +78,19 @@ Creates a shader-trace interface for a shader-trace information object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 These APIs require the Windows Software Development Kit (SDK) for Windows 8.
 
-To retrieve an instance of <b>ID3D11ShaderTraceFactory</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> that you created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_DEBUGGABLE</a>. 
-
-
-
+To retrieve an instance of <b>ID3D11ShaderTraceFactory</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> that you created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_DEBUGGABLE</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
- 
-
- 
 

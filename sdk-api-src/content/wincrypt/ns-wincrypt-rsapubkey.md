@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 34b3d591-5d51-484b-accc-9a923d7492b9
 ms.date: 12/05/2018
 ms.keywords: RSAPUBKEY, RSAPUBKEY structure [Security], _crypto2_rsapubkey, security.rsapubkey, wincrypt/RSAPUBKEY
-f1_keywords:
-- wincrypt/RSAPUBKEY
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- RSAPUBKEY
 targetos: Windows
 req.typenames: RSAPUBKEY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RSAPUBKEY
+ - wincrypt/_RSAPUBKEY
+ - RSAPUBKEY
+ - wincrypt/RSAPUBKEY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - RSAPUBKEY
 ---
 
 # RSAPUBKEY structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RSAPUBKEY</b> structure contains information specific to the particular public key contained in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field magic
 
@@ -72,16 +70,11 @@ Set to RSA1 (0x31415352) for public keys and to RSA2 (0x32415352) for private ke
 
 Number of bits in the modulus. In practice, this must always be a multiple of eight.
 
-
 ### -field pubexp
 
 The public exponent.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)">DSSPUBKEY</a>
 
@@ -92,7 +85,4 @@ The public exponent.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>
- 
-
- 
 

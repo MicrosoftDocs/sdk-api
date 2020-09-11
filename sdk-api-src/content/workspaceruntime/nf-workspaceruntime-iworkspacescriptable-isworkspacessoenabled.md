@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 54608723-9a17-4bf2-a46d-8fed52378767
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],IsWorkspaceSSOEnabled method, IWorkspaceScriptable.IsWorkspaceSSOEnabled, IWorkspaceScriptable2 interface [Remote Desktop Services],IsWorkspaceSSOEnabled method, IWorkspaceScriptable2::IsWorkspaceSSOEnabled, IWorkspaceScriptable3 interface [Remote Desktop Services],IsWorkspaceSSOEnabled method, IWorkspaceScriptable3::IsWorkspaceSSOEnabled, IWorkspaceScriptable::IsWorkspaceSSOEnabled, IsWorkspaceSSOEnabled, IsWorkspaceSSOEnabled method [Remote Desktop Services], IsWorkspaceSSOEnabled method [Remote Desktop Services],IWorkspaceScriptable interface, IsWorkspaceSSOEnabled method [Remote Desktop Services],IWorkspaceScriptable2 interface, IsWorkspaceSSOEnabled method [Remote Desktop Services],IWorkspaceScriptable3 interface, IsWorkspaceSSOEnabled method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsWorkspaceSSOEnabled method, termserv.iworkspacescriptable_isworkspacessoenabled, workspaceruntime/IWorkspaceScriptable2::IsWorkspaceSSOEnabled, workspaceruntime/IWorkspaceScriptable3::IsWorkspaceSSOEnabled, workspaceruntime/IWorkspaceScriptable::IsWorkspaceSSOEnabled
-f1_keywords:
-- workspaceruntime/IWorkspaceScriptable.IsWorkspaceSSOEnabled
-dev_langs:
-- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library: Wksprt.exe
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wksprt.exe
-api_name:
-- IWorkspaceScriptable.IsWorkspaceSSOEnabled
-- IWorkspaceScriptable2.IsWorkspaceSSOEnabled
-- IWorkspaceScriptable3.IsWorkspaceSSOEnabled
-- Workspace.IsWorkspaceSSOEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceScriptable::IsWorkspaceSSOEnabled
+ - workspaceruntime/IWorkspaceScriptable::IsWorkspaceSSOEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wksprt.exe
+api_name:
+ - IWorkspaceScriptable.IsWorkspaceSSOEnabled
+ - IWorkspaceScriptable2.IsWorkspaceSSOEnabled
+ - IWorkspaceScriptable3.IsWorkspaceSSOEnabled
+ - Workspace.IsWorkspaceSSOEnabled
 ---
 
 # IWorkspaceScriptable::IsWorkspaceSSOEnabled
@@ -52,33 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether single sign on (SSO) is enabled for RemoteApp and Desktop Connection.
 
-
 ## -parameters
-
-
-
 
 ### -param pbSSOEnabled [out, retval]
 
 A pointer to a <b>VARIANT_BOOL</b> variable to receive  whether SSO is enabled. This value is <b>VARIANT_TRUE</b> if SSO is enabled; otherwise, <b>VARIANT_FALSE</b>.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable">IWorkspaceScriptable</a>
 
@@ -89,7 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
 ms.date: 12/05/2018
 ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredentialsA, RasSetCredentialsW, _ras_rassetcredentials, ras/RasSetCredentials, ras/RasSetCredentialsA, ras/RasSetCredentialsW, rras.rassetcredentials
-f1_keywords:
-- ras/RasSetCredentials
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasSetCredentials
-- RasSetCredentialsA
-- RasSetCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSetCredentialsW
+ - ras/RasSetCredentialsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasSetCredentials
+ - RasSetCredentialsA
+ - RasSetCredentialsW
 ---
 
 # RasSetCredentialsW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RasSetCredentials</b> function sets the 
     user credentials associated with a specified RAS phone-book entry.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -69,11 +65,9 @@ A pointer to a null-terminated string that specifies the full path and file name
       <b>User Preferences</b> property sheet of the 
       <b>Dial-Up Networking</b> dialog box.
 
-
 ### -param arg2 [in]
 
 A pointer to a null-terminated string that specifies the name of a phone-book entry.
-
 
 ### -param arg3 [in]
 
@@ -83,7 +77,6 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
       <b>dwSize</b> member of the structure to 
       <code>sizeof(RASCREDENTIALS)</code> and set the <b>dwMask</b> 
       member to indicate the credential information to be set.
-
 
 ### -param arg4 [in]
 
@@ -96,10 +89,7 @@ A value that specifies whether
       function sets the indicated credentials according to the contents of their corresponding 
       <b>RASCREDENTIALS</b> members.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -154,14 +144,8 @@ One of the following conditions occurred:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RasSetCredentials</b> function sets the user 
     credentials associated with a specified RAS phone-book entry. The credentials stored with a phone-book entry are 
@@ -223,9 +207,6 @@ To set a pre-shared key, use the <b>RASCM_PreSharedKey</b> flag in the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a>
 
 
@@ -247,7 +228,4 @@ To set a pre-shared key, use the <b>RASCM_PreSharedKey</b> flag in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

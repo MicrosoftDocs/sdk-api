@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 7b4d3f4e-bf30-45c6-8709-88b71b25d333
 ms.date: 12/05/2018
 ms.keywords: ITfUIElementMgr, ITfUIElementMgr interface [Text Services Framework], ITfUIElementMgr interface [Text Services Framework],described, _tsf_itfuielementmgr_ref, msctf/ITfUIElementMgr, tsf.itfuielementmgr
-f1_keywords:
-- msctf/ITfUIElementMgr
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.h
-api_name:
-- ITfUIElementMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElementMgr
+ - msctf/ITfUIElementMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.h
+api_name:
+ - ITfUIElementMgr
 ---
 
 # ITfUIElementMgr interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfUIElementMgr</b> interface is implemented by TSF manager and used by an application or a text service. An application and a text service can obtain this interface by ITfThreadMgr::QueryInterface with IID_ITfUIElementMgr.
-
 
 ## -inheritance
 
@@ -113,14 +112,9 @@ A text service calls this method when the element of UI must be updated.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A text service that supports UIElement must call <b>ITfUIElementMgr</b> whenever the UI is shown, updated or hidden. Then the application can control the visibility of the UI.
-
-
 

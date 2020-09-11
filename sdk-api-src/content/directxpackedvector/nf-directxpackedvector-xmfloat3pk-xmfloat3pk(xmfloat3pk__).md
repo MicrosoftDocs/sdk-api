@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.operator = (const XMFLOAT3SE)
 ms.date: 05/06/2019
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK &&), XMFLOAT3PK::XMFLOAT3PK, XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&), XMFLOAT3SE structure [DirectX Math Support APIs],operator = method, XMFLOAT3SE.operator =(const XMFLOAT3SE&), dxmath.xmfloat3se_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3SE structure
-f1_keywords:
-- directxpackedvector/XMFLOAT3SE.operator =
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMFLOAT3SE.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3PK::XMFLOAT3PK
+ - directxpackedvector/XMFLOAT3PK::XMFLOAT3PK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMFLOAT3SE.operator =
 ---
 
 # XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&)
+
 
 ## -description
 
@@ -69,3 +71,4 @@ The current instance of <code>XMFLOAT3SE</code> whose vector component data has 
 <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>
 
 <a href="https://msdn.microsoft.com/e3c74a38-65ab-48ac-931d-1fc66ec04d74">operator = </a>
+

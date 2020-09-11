@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 313ba824-b54a-4b3a-a669-49067c71798d
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_Recorder method, IDiscFormat2Data.get_Recorder, IDiscFormat2Data::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_recorder, imapi2/IDiscFormat2Data::get_Recorder
-f1_keywords:
-- imapi2/IDiscFormat2Data.get_Recorder
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.get_Recorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::get_Recorder
+ - imapi2/IDiscFormat2Data::get_Recorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.get_Recorder
 ---
 
 # IDiscFormat2Data::get_Recorder
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the recording device to use for the write operation.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device to use in the write operation.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -88,22 +81,12 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_recorder">IDiscFormat2Data::put_Recorder</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winsensors
 ms.assetid: 7dfe25d1-dc0e-4e97-8dad-ca66a829aa4c
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISensorEvents::OnEvent, OnEvent, OnEvent method, OnEvent method,ISensorEvents interface, sensorsapi/ISensorEvents::OnEvent, winsensors_com_ref.isensorevents_onevent
-f1_keywords:
-- sensorsapi/ISensorEvents.OnEvent
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorEvents.OnEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorEvents::OnEvent
+ - sensorsapi/ISensorEvents::OnEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorEvents.OnEvent
 ---
 
 # ISensorEvents::OnEvent
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides custom event notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param pSensor [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface that represents the sensor that raised the event.
 
-
 ### -param eventID [in]
 
 <b>REFGUID</b> that identifies the event.
-
 
 ### -param pEventData [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface that contains the event data.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback method receives custom event notifications. Custom events are defined by sensor providers. Platform-defined event IDs are defined in Sensors.h.
 
@@ -97,15 +83,7 @@ For an example of how to receive sensor events, see <a href="https://docs.micros
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>
- 
-
- 
 

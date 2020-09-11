@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 6ad5e2c0-d557-43cc-8ccf-a21160e262f8
 ms.date: 12/05/2018
 ms.keywords: WNetGetResourceParent, WNetGetResourceParent function [Windows Networking (WNet)], WNetGetResourceParentA, WNetGetResourceParentW, _win32_wnetgetresourceparent, dwType, lpProvider, lpRemoteName, winnetwk/WNetGetResourceParent, winnetwk/WNetGetResourceParentA, winnetwk/WNetGetResourceParentW, wnet.wnetgetresourceparent
-f1_keywords:
-- winnetwk/WNetGetResourceParent
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetGetResourceParent
-- WNetGetResourceParentA
-- WNetGetResourceParentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetGetResourceParentW
+ - winnetwk/WNetGetResourceParentW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetResourceParent
+ - WNetGetResourceParentA
+ - WNetGetResourceParentW
 ---
 
 # WNetGetResourceParentW function
 
 
 ## -description
-
 
 The
 				<b>WNetGetResourceParent</b> function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource.
@@ -60,11 +60,7 @@ Call the
 <b>WNetGetResourceParent</b> functions to move up the network hierarchy. Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> function to move down the hierarchy.
 
-
 ## -parameters
-
-
-
 
 ### -param lpNetResource [in]
 
@@ -120,7 +116,6 @@ This member should specify the network provider that owns the resource. This mem
 All other members of the 
 <b>NETRESOURCE</b> structure are ignored.
 
-
 ### -param lpBuffer [out]
 
 Pointer to a buffer to receive a single 
@@ -136,15 +131,11 @@ The <b>lpRemoteName</b> member points to the remote name for the parent resource
 
 The presence of the RESOURCEUSAGE_CONNECTABLE bit in the <b>dwUsage</b> member indicates that you can connect to the parent resource, but only when it is available on the network.
 
-
 ### -param lpcbBuffer [in, out]
 
 Pointer to a location that, on entry, specifies the size of the <i>lpBuffer</i> buffer, in bytes. If the buffer is too small to hold the result, this location receives the required buffer size, and the function returns ERROR_MORE_DATA.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -212,14 +203,8 @@ The caller does not have the necessary permissions to obtain the name of the par
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WNetGetResourceParent</b> function is typically used in conjunction with the 
@@ -249,9 +234,6 @@ An example of an inappropriate use of
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
 
 
@@ -275,7 +257,4 @@ An example of an inappropriate use of
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

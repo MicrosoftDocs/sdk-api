@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: A9881BE7-0434-40EF-9BD8-AB8EF4E31582
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetPalette method, ITextHost2.TxGetPalette, ITextHost2::TxGetPalette, TxGetPalette, TxGetPalette method [Windows Controls], TxGetPalette method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetpalette, textserv/ITextHost2::TxGetPalette
-f1_keywords:
-- textserv/ITextHost2.TxGetPalette
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost2.TxGetPalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost2::TxGetPalette
+ - textserv/ITextHost2::TxGetPalette
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost2.TxGetPalette
 ---
 
 # ITextHost2::TxGetPalette
@@ -49,39 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the color palette of the rich edit control.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HPALETTE</a></b>
 
 Returns the color palette, or <b>NULL</b> if the control uses the system default color palette.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setpalette">EM_SETPALETTE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
- 
-
- 
 

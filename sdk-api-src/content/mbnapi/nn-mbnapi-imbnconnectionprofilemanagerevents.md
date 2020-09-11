@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 08ec0bff-898f-4a54-b711-ceae80e7329d
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfileManagerEvents, IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks], IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofilemanagerevents, mbnapi/IMbnConnectionProfileManagerEvents
-f1_keywords:
-- mbnapi/IMbnConnectionProfileManagerEvents
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionProfileManagerEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionProfileManagerEvents
+ - mbnapi/IMbnConnectionProfileManagerEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionProfileManagerEvents
 ---
 
 # IMbnConnectionProfileManagerEvents interface
@@ -53,7 +54,6 @@ ms.custom: 19H1
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 This notification interface signals an application about the arrival and removal of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> interfaces in the system.
-
 
 ## -inheritance
 
@@ -88,12 +88,9 @@ A connection profile was removed from the system.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The following procedure describes how to register for notifications.
 
@@ -105,6 +102,4 @@ The following procedure describes how to register for notifications.
 Notifications can be terminated by calling <a href="https://msdn.microsoft.com/library/ms686608(VS.85).aspx">Unadvise</a> on the connection point returned in step 2.
 
 To view some code that registers for COM notifications, see the Client section of the <a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points">COM Connection Points</a> article.
-
-
 

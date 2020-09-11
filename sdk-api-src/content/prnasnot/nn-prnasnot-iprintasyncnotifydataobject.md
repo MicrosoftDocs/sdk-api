@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: fd0e1f30-c54e-418c-8081-664edebaad61
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyDataObject, IPrintAsyncNotifyDataObject interface [Windows GDI], IPrintAsyncNotifyDataObject interface [Windows GDI],described, _win32_IPrintAsyncNotifyDataObject, gdi.iprintasyncnotifydataobject, prnasnot/IPrintAsyncNotifyDataObject
-f1_keywords:
-- prnasnot/IPrintAsyncNotifyDataObject
-dev_langs:
-- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prnasnot.h
-api_name:
-- IPrintAsyncNotifyDataObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintAsyncNotifyDataObject
+ - prnasnot/IPrintAsyncNotifyDataObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prnasnot.h
+api_name:
+ - IPrintAsyncNotifyDataObject
 ---
 
 # IPrintAsyncNotifyDataObject interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Encapsulates the data sent in a notification channel. 
-
+Encapsulates the data sent in a notification channel.
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Enables a listening application to release the notification data after it has be
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Listening applications must call <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifydataobject-releasedata">ReleaseData</a> when they have finished consuming the notification data obtained with <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifydataobject-acquiredata">AcquireData</a>.
 
@@ -99,20 +95,11 @@ The <b>IPrintAsyncNotifyDataObject</b> interface must be implemented in a way th
 
 Listening applications can live within the Print Spooler's process as well as outside it. When the listener is outside of this process, it can access only the <b>IPrintAsyncNotifyDataObject</b> methods. Hence, if your <b>IPrintAsyncNotifyDataObject</b> also implements an interface of your own, be aware that your interface's methods are available only to listening applications within the Print Spooler's process.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
 

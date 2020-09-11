@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c5e823be-521d-4eb4-8836-fdd2cac6f15d
 ms.date: 12/05/2018
 ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions interface [COM],described, _com_iglobaloptions, com.iglobaloptions, objidlbase/IGlobalOptions
-f1_keywords:
-- objidl/IGlobalOptions
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IGlobalOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGlobalOptions
+ - objidl/IGlobalOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IGlobalOptions
 ---
 
 # IGlobalOptions interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets and queries global properties of the Component Object Model (COM) runtime.
-
-
 
 ## -inheritance
 
@@ -87,12 +85,9 @@ Sets the specified global property of the COM runtime.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The following global properties of the COM runtime can be set and queried with this interface.
 
@@ -236,15 +231,7 @@ All such applications should execute this code at startup.
     }
 </code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>
- 
-
- 
 

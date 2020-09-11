@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 625830b1-d99a-49cb-b072-303f076d4d3e
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_OPLOCK_LEVEL_1, FSCTL_REQUEST_OPLOCK_LEVEL_1 control, FSCTL_REQUEST_OPLOCK_LEVEL_1 control code [Files], _win32_fsctl_request_oplock_level_1, base.fsctl_request_oplock_level_1, fs.fsctl_request_oplock_level_1, winioctl/FSCTL_REQUEST_OPLOCK_LEVEL_1
-f1_keywords:
-- winioctl/FSCTL_REQUEST_OPLOCK_LEVEL_1
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_REQUEST_OPLOCK_LEVEL_1
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_REQUEST_OPLOCK_LEVEL_1
+ - winioctl/FSCTL_REQUEST_OPLOCK_LEVEL_1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_REQUEST_OPLOCK_LEVEL_1
 ---
 
 # FSCTL_REQUEST_OPLOCK_LEVEL_1 IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -121,7 +116,6 @@ SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -130,3 +124,4 @@ Resilient File System (ReFS) | Yes
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
 * [Oplock Semantics](https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics)
 * [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+

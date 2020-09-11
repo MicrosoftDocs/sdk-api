@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 6139ebb2-fad8-4394-9a5f-4753ca9fb143
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_StopTime method, IMediaPosition.get_StopTime, IMediaPosition::get_StopTime, IMediaPositionget_StopTime, control/IMediaPosition::get_StopTime, dshow.imediaposition_get_stoptime, get_StopTime, get_StopTime method [DirectShow], get_StopTime method [DirectShow],IMediaPosition interface
-f1_keywords:
-- control/IMediaPosition.get_StopTime
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPosition.get_StopTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPosition::get_StopTime
+ - control/IMediaPosition::get_StopTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPosition.get_StopTime
 ---
 
 # IMediaPosition::get_StopTime
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_StopTime</code> method retrieves the time at which the playback will stop, relative to the duration of the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pllTime [out]
 
 Pointer to a variable that receives the stop time, in seconds.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -112,31 +102,16 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The playback rate does not affect the value returned by this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
- 
-
- 
 

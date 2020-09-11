@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 798c2e49-04a5-4270-b584-41faf1519e4b
 ms.date: 12/05/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchCombineEx, PathCchCombineEx function [Windows Shell], pathcch/PathCchCombineEx, shell.PathCchCombineEx
-f1_keywords:
-- pathcch/PathCchCombineEx
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchCombineEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchCombineEx
+ - pathcch/PathCchCombineEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchCombineEx
 ---
 
 # PathCchCombineEx function
 
 
 ## -description
-
 
 Combines two path fragments into a single path. This function also canonicalizes any relative path elements, removing "." and ".." elements to simplify the final path.
 
@@ -62,29 +62,23 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 <div class="alert"><b>Note</b> This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> to prevent the possibility of a buffer overrun.</div>
 
-
 ## -parameters
-
 
 ### -param pszPathOut [out]
 
 A pointer to a buffer that, when this function returns successfully, receives the combined path string. This parameter can point to the same buffer as <i>pszPathIn</i> or <i>pszMore</i>.
 
-
 ### -param cchPathOut [in]
 
 The size of the buffer pointed to by <i>pszPathOut</i>, in characters.
-
 
 ### -param pszPathIn [in, optional]
 
 A pointer to the first path string. This value can be <b>NULL</b>.
 
-
 ### -param pszMore [in, optional]
 
 A pointer to the second path string. If this path begins with a single backslash, it is combined with only the root of the path pointed to by <i>pszPathIn</i>. If this path is fully qualfied, it is copied directly to the output buffer without being combined with the other path. This value can be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -161,7 +155,6 @@ Allow the construction of \\?\ paths longer than <b>MAX_PATH</b>. Note that <i>c
 </tr>
 </table>
 
-
 ## -returns
 
 This function returns an <b>HRESULT</b> code, including the following.
@@ -213,14 +206,11 @@ The size of one or both of the original paths exceeded <b>PATHCCH_MAX_CCH</b> .
 </tr>
 </table>
 
-
 ## -remarks
 
 If both <i>pszPathIn</i> and <i>pszMore</i> are <b>NULL</b> or point to empty strings, a single backslash is copied to the buffer pointed to by <i>pszPathOut</i>.
 
-
 ## -see-also
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>
 

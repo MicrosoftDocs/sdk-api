@@ -8,10 +8,6 @@ tech.root: battery
 ms.assetid: 0af685a5-f5c2-4448-b8b2-f5cd9ed77047
 ms.date: 12/05/2018
 ms.keywords: BatteryClassInitializeDevice, BatteryClassInitializeDevice routine [Battery Devices], bat-rtn_19921d6e-cd86-40ad-86e3-acfc01fd8a56.xml, batclass/BatteryClassInitializeDevice, battery.batteryclassinitializedevice
-f1_keywords:
-- batclass/BatteryClassInitializeDevice
-dev_langs:
-- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Battc.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Battc.lib
-- Battc.dll
-api_name:
-- BatteryClassInitializeDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BatteryClassInitializeDevice
+ - batclass/BatteryClassInitializeDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Battc.lib
+ - Battc.dll
+api_name:
+ - BatteryClassInitializeDevice
 ---
 
 # BatteryClassInitializeDevice function
@@ -50,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BatteryClassInitializeDevice</b> routine initializes a new battery device for the class driver.
 
-
 ## -parameters
-
-
-
 
 ### -param MiniportInfo [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/batclass/ns-batclass-battery_miniport_info">BATTERY_MINIPORT_INFO</a> structure.
 
-
 ### -param ClassData [out]
 
 Pointer to a location at which <b>BatteryClassInitializeDevice</b> returns a handle to be used in subsequent calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_battery/">BatteryMiniXxx</a> routines.
 
-
 ## -returns
-
-
 
 <b>BatteryClassInitializeDevice</b> returns STATUS_SUCCESS or, possibly, STATUS_INSUFFICIENT_RESOURCES if not enough memory is available to store the battery miniclass data.
 
-
-
-
 ## -remarks
-
-
 
 Battery miniclass drivers must call <b>BatteryClassInitializeDevice</b> to register each battery device and to pass data about the device and the miniclass driver to the battery class driver.
 
@@ -94,13 +81,7 @@ Miniclass drivers must use the <a href="https://docs.microsoft.com/windows/deskt
 
 If <b>BatteryClassInitializeDevice</b> successfully initializes the battery device, the caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassunload">BatteryClassUnload</a> function to free the resources for the battery device when it is no longer in use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassunload">BatteryClassUnload</a>
 
@@ -127,7 +108,4 @@ If <b>BatteryClassInitializeDevice</b> successfully initializes the battery devi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>
- 
-
- 
 

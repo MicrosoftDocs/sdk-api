@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 00143883-88f7-4b15-bdba-128ee255abf6
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OID, BCRYPT_OID structure [Security], bcrypt/BCRYPT_OID, security.bcrypt_oid
-f1_keywords:
-- bcrypt/BCRYPT_OID
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- BCRYPT_OID
 targetos: Windows
 req.typenames: BCRYPT_OID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BCRYPT_OID
+ - bcrypt/_BCRYPT_OID
+ - BCRYPT_OID
+ - bcrypt/BCRYPT_OID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - BCRYPT_OID
 ---
 
 # BCRYPT_OID structure
@@ -49,36 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCRYPT_OID</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DER</a>-encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). CNG uses  hash OIDs in functions that sign or verify data in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #1</a> format.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbOID
 
 The size, in bytes, of the <b>pbOID</b> buffer.
 
-
 ### -field pbOID
 
 The address of a buffer that contains the OID.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_HASH_OID_LIST</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oid_list">BCRYPT_OID_LIST</a>
- 
-
- 
 

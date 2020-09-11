@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 132c326e-053c-41be-b0fd-bea484fb0acd
 ms.date: 12/05/2018
 ms.keywords: CompareEquivalent, CompareEquivalent method [Microsoft TV Technologies], CompareEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareEquivalent method, IBDAComparable.CompareEquivalent, IBDAComparable::CompareEquivalent, IBDAComparableCompareEquivalent, mstv.ibdacomparable_compareequivalent, tuner/IBDAComparable::CompareEquivalent
-f1_keywords:
-- tuner/IBDAComparable.CompareEquivalent
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IBDAComparable.CompareEquivalent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDAComparable::CompareEquivalent
+ - tuner/IBDAComparable::CompareEquivalent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IBDAComparable.CompareEquivalent
 ---
 
 # IBDAComparable::CompareEquivalent
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div><div> </div>The <b>CompareEquivalent</b> method compares two objects to determine whether they contain equivalent tuning information.
 
-
 ## -parameters
-
-
-
 
 ### -param CompareTo [in]
 
 Pointer to the <b>IDispatch</b> interface of the object that is to be compared with the object that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable</a> interface.
 
-
 ### -param dwFlags [in]
 
 Specifies whether to alter the default equivalence comparison. Setting this parameter to 0 invokes the default behavior. Setting this parameter to the bitwise OR of one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-comp-flags">BDA_Comp_Flags</a> enumeration values overrides the default behavior.
-
 
 ### -param Result [out]
 
 Receives the result of the comparison. If the result is 0, the two objects are equivalent. If the result is nonzero, the two objects are not equivalent.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 This method compares two objects to determine whether they have equivalent tuning properties. The first object in the comparison is the object that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable</a> interface that the method is called on. The <i>CompareTo</i> parameter specifies the second object.
 
@@ -94,16 +80,7 @@ The tuning information is <i>equivalent</i> if the information in either object 
 
 For example, DirectShow implements the <b>IBDAComparable::CompareEquivalent</b> method for a tune-request object to include the tuning space in the default comparison but not to include the locator. Thus, two DVB tuning requests are equivalent if they both tune to the same DVB URL (with the same original network ID, transport stream ID, and service ID) regardless of whether they have the same modulation type.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
- 
-
- 
 

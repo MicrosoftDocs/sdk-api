@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3541c8bd-2712-458b-9153-1fffe6bf5688
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA enumeration pointer [VSS], VSS_BACKUP_SCHEMA, VSS_BACKUP_SCHEMA enumeration [VSS], VSS_BS_AUTHORITATIVE_RESTORE, VSS_BS_COPY, VSS_BS_DIFFERENTIAL, VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL, VSS_BS_INCREMENTAL, VSS_BS_INDEPENDENT_SYSTEM_STATE, VSS_BS_LAST_MODIFY, VSS_BS_LOG, VSS_BS_LSN, VSS_BS_RESTORE_RENAME, VSS_BS_ROLLFORWARD_RESTORE, VSS_BS_TIMESTAMPED, VSS_BS_UNDEFINED, VSS_BS_WRITER_SUPPORTS_NEW_TARGET, VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES, VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE, _win32_vss_backup_schema, base.vss_backup_schema, vss/PVSS_BACKUP_SCHEMA, vss/VSS_BACKUP_SCHEMA, vss/VSS_BS_AUTHORITATIVE_RESTORE, vss/VSS_BS_COPY, vss/VSS_BS_DIFFERENTIAL, vss/VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL, vss/VSS_BS_INCREMENTAL, vss/VSS_BS_INDEPENDENT_SYSTEM_STATE, vss/VSS_BS_LAST_MODIFY, vss/VSS_BS_LOG, vss/VSS_BS_LSN, vss/VSS_BS_RESTORE_RENAME, vss/VSS_BS_ROLLFORWARD_RESTORE, vss/VSS_BS_TIMESTAMPED, vss/VSS_BS_UNDEFINED, vss/VSS_BS_WRITER_SUPPORTS_NEW_TARGET, vss/VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES, vss/VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE'
-f1_keywords:
-- vss/VSS_BACKUP_SCHEMA
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vss.h
-api_name:
-- VSS_BACKUP_SCHEMA
 targetos: Windows
 req.typenames: VSS_BACKUP_SCHEMA, *PVSS_BACKUP_SCHEMA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VSS_BACKUP_SCHEMA
+ - vss/_VSS_BACKUP_SCHEMA
+ - PVSS_BACKUP_SCHEMA
+ - vss/PVSS_BACKUP_SCHEMA
+ - VSS_BACKUP_SCHEMA
+ - vss/VSS_BACKUP_SCHEMA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vss.h
+api_name:
+ - VSS_BACKUP_SCHEMA
 ---
 
 # VSS_BACKUP_SCHEMA enumeration
@@ -49,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VSS_BACKUP_SCHEMA</b> enumeration is used by 
     a writer to indicate the types of backup operations it can participate in. The supported kinds of 
     backup are expressed as a bit mask (or bitwise OR) of 
     <b>VSS_BACKUP_SCHEMA</b> values.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VSS_BS_UNDEFINED
 
@@ -67,7 +67,6 @@ The writer supports a simple full backup and restoration of entire files (as def
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value of 
       <b>VSS_BT_FULL</b>). This backup scheme can be used as the basis of an incremental or 
       differential backup. This is the default value.
-
 
 ### -field VSS_BS_DIFFERENTIAL
 
@@ -81,7 +80,6 @@ This setting does not preclude mixing of incremental and differential backups.
 
 This value is not supported for express writers.
 
-
 ### -field VSS_BS_INCREMENTAL
 
 The writer supports incremental backups (corresponding to the 
@@ -94,7 +92,6 @@ This setting does not preclude mixing of incremental and differential backups.
 
 This value is not supported for express writers.
 
-
 ### -field VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL
 
 The writer supports both differential and incremental backup schemas, but only exclusively: for example, 
@@ -103,7 +100,6 @@ The writer supports both differential and incremental backup schemas, but only e
       <b>VSS_BS_INCREMENTAL</b>).
 
 This value is not supported for express writers.
-
 
 ### -field VSS_BS_LOG
 
@@ -116,7 +112,6 @@ The writer supports backups that involve only the log files it manages (correspo
       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile">IVssWMComponent::GetDatabaseLogFile</a> 
       method.
 
-
 ### -field VSS_BS_COPY
 
 Similar to the default backup schema (<b>VSS_BT_UNDEFINED</b>), the writer supports 
@@ -124,7 +119,6 @@ Similar to the default backup schema (<b>VSS_BT_UNDEFINED</b>), the writer suppo
       (such as information as to when a file was last backed up) will not be updated either in the writer's own state 
       information or in the file system information. This type of backup cannot be used as the basis of an incremental 
       or differential backup.
-
 
 ### -field VSS_BS_TIMESTAMPED
 
@@ -142,7 +136,6 @@ A writer cannot support this schema if it does not support either differential o
        (<b>VSS_BS_DIFFERENTIAL</b> or <b>VSS_BS_INCREMENTAL</b>).
 
 This value is not supported for express writers.
-
 
 ### -field VSS_BS_LAST_MODIFY
 
@@ -164,11 +157,9 @@ A writer cannot support this schema if it does not support either incremental or
 
 This value is not supported for express writers.
 
-
 ### -field VSS_BS_LSN
 
 Reserved for system use.
-
 
 ### -field VSS_BS_WRITER_SUPPORTS_NEW_TARGET
 
@@ -179,7 +170,6 @@ The writer supports a requester changing the target for file restoration using
 
 This value is not supported for express writers.
 
-
 ### -field VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE
 
 The writer supports running multiple writer instances with the same class ID, and it supports a requester moving a component to a different writer instance at restore time using <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex">IVssBackupComponentsEx::SetSelectedForRestoreEx</a>.
@@ -189,13 +179,11 @@ This value is not supported for express writers.
 
 <b>Windows Server 2003:  </b>This value is not supported until Windows Server 2003 with SP1.
 
-
 ### -field VSS_BS_INDEPENDENT_SYSTEM_STATE
 
 The writer supports backing up data that is part of the system state, but that can also be backed up independently of the system state.
 
 <b>Windows Server 2003:  </b>This value is not supported until Windows Vista.
-
 
 ### -field VSS_BS_ROLLFORWARD_RESTORE
 
@@ -205,7 +193,6 @@ This value is not supported for express writers.
 
 <b>Windows Server 2003:  </b>This value is not supported until Windows Vista.
 
-
 ### -field VSS_BS_RESTORE_RENAME
 
 The writer supports a requester setting a restore name using <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename">IVssBackupComponentsEx2::SetRestoreName</a>.
@@ -213,7 +200,6 @@ The writer supports a requester setting a restore name using <a href="https://do
 This value is not supported for express writers.
 
 <b>Windows Server 2003:  </b>This value is not supported until Windows Vista.
-
 
 ### -field VSS_BS_AUTHORITATIVE_RESTORE
 
@@ -223,7 +209,6 @@ This value is not supported for express writers.
 
 <b>Windows Server 2003:  </b>This value is not supported until Windows Vista.
 
-
 ### -field VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES
 
 The writer supports multiple unsynchronized restore events.
@@ -232,10 +217,7 @@ This value is not supported for express writers.
 
 <b>Windows Vista and Windows Server 2003:  </b>This value is not supported until Windows Server 2008.
 
-
 ## -remarks
-
-
 
 Writer set their backup schemas with calls to 
     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a>.
@@ -256,13 +238,7 @@ A writer that does not support the backup schema corresponding to a requester's 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses">IVssBackupComponents::DisableWriterClasses</a> or 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">IVssBackupComponents::DisableWriterInstances</a>).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
 
@@ -309,7 +285,4 @@ A writer that does not support the backup schema corresponding to a requester's 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>
- 
-
- 
 

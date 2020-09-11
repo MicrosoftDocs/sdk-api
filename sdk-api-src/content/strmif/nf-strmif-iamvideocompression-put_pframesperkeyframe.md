@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: bf1dfc28-a6c7-4c0d-96ea-8cf417b13a10
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_PFramesPerKeyFrame method, IAMVideoCompression.put_PFramesPerKeyFrame, IAMVideoCompression::put_PFramesPerKeyFrame, IAMVideoCompressionput_PFramesPerKeyFrame, dshow.iamvideocompression_put_pframesperkeyframe, put_PFramesPerKeyFrame, put_PFramesPerKeyFrame method [DirectShow], put_PFramesPerKeyFrame method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_PFramesPerKeyFrame
-f1_keywords:
-- strmif/IAMVideoCompression.put_PFramesPerKeyFrame
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoCompression.put_PFramesPerKeyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoCompression::put_PFramesPerKeyFrame
+ - strmif/IAMVideoCompression::put_PFramesPerKeyFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoCompression.put_PFramesPerKeyFrame
 ---
 
 # IAMVideoCompression::put_PFramesPerKeyFrame
@@ -50,45 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_PFramesPerKeyFrame</code> method sets the rate of predicted (P) frames per key frame.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param PFramesPerKeyFrame [in]
 
 Specifies the number of P frames per key frame. If the value is negative, the filter will use the default rate.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 To determine if the filter supports this method, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-getinfo">IAMVideoCompression::GetInfo</a> method and check for the <b>CompressionCaps_CanBFrame</b> flag in the <i>pCapabilities</i> parameter. The <b>GetInfo</b> method also returns the default P-frame rate.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -99,7 +78,4 @@ To determine if the filter supports this method, call the <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_pframesperkeyframe">IAMVideoCompression::get_PFramesPerKeyFrame</a>
- 
-
- 
 

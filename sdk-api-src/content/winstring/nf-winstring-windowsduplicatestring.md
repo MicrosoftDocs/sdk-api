@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 65343F8A-ACD5-4BD2-83CD-DA9F71690DF3
 ms.date: 12/05/2018
 ms.keywords: WindowsDuplicateString, WindowsDuplicateString function [Windows Runtime], winrt.windowsduplicatestring, winstring/WindowsDuplicateString
-f1_keywords:
-- winstring/WindowsDuplicateString
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- winstring.h
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsDuplicateString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsDuplicateString
+ - winstring/WindowsDuplicateString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - winstring.h
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsDuplicateString
 ---
 
 ## -description
@@ -124,3 +125,4 @@ Each call to the <b>WindowsDuplicateString</b> function must be matched with a c
 <a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a>
 
 <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
+

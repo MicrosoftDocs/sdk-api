@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_35regiondata_size.htm
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const BYTE,IN INT), Region.Region(const BYTE*,INT), Region::Region, Region::Region(IN const BYTE,IN INT), _gdiplus_CLASS_Region_Region_regionData_size_, gdiplus._gdiplus_CLASS_Region_Region_regionData_size_
-f1_keywords:
-- gdiplusheaders/Region.Region
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.Region
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::Region
+ - gdiplusheaders/Region::Region
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.Region
 ---
 
 # Region::Region(IN const BYTE,IN INT)
@@ -50,27 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a region that is defined by data obtained from another region. 
-
+Creates a region that is defined by data obtained from another region.
 
 ## -parameters
-
-
-
 
 ### -param regionData [in]
 
 Type: <b>const BYTE*</b>
 
 Pointer to an array of bytes that specifies a region. The data contained in the bytes is obtained from another region by using the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdata">Region::GetData</a> method. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdata">Region::GetData</a> method.
 
 ### -param size [in]
 
 Type: <b>INT</b>
 
 Integer that specifies the number of bytes in the 
-					<i>regionData</i> array. 
+					<i>regionData</i> array.
 

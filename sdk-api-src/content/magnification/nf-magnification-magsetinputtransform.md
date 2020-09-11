@@ -7,10 +7,6 @@ tech.root: magapi
 ms.assetid: B42B59DB-9E21-4769-B605-014173514AEB
 ms.date: 12/05/2018
 ms.keywords: MagSetInputTransform, MagSetInputTransform function [Magnification API], magapi.magapi_magsetinputtransform, magnification/MagSetInputTransform
-f1_keywords:
-- magnification/MagSetInputTransform
-dev_langs:
-- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +24,28 @@ req.type-library:
 req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Magnification.dll
-api_name:
-- MagSetInputTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MagSetInputTransform
+ - magnification/MagSetInputTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Magnification.dll
+api_name:
+ - MagSetInputTransform
 ---
 
 # MagSetInputTransform function
+
 
 ## -description
 
@@ -55,7 +57,7 @@ Sets the current active input transformation for pen and touch input, represente
 
 Type: **[BOOL](/windows/win32/WinProg/windows-data-types)**
 
-TRUE to enable input transformation, or FALSE to disable it.  
+TRUE to enable input transformation, or FALSE to disable it.
 
 ### -param pRectSource [in]
 
@@ -127,3 +129,4 @@ BOOL SetInputTranform()
 ## -see-also
 
 [MagGetFullscreenTransform](/windows/win32/api/magnification/nf-magnification-maggetfullscreentransform)
+

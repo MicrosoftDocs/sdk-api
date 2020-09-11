@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: A0C0D01C-3A05-4498-9235-CBBF7D5D558F
 ms.date: 12/05/2018
 ms.keywords: EndSubscribeToEvents, EndSubscribeToEvents method [UPnP APIs], EndSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSubscribeToEvents method, IUPnPServiceAsync.EndSubscribeToEvents, IUPnPServiceAsync::EndSubscribeToEvents, upnp.iupnpserviceasync_endsubscribetoevents, upnp/IUPnPServiceAsync::EndSubscribeToEvents
-f1_keywords:
-- upnp/IUPnPServiceAsync.EndSubscribeToEvents
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServiceAsync.EndSubscribeToEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServiceAsync::EndSubscribeToEvents
+ - upnp/IUPnPServiceAsync::EndSubscribeToEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServiceAsync.EndSubscribeToEvents
 ---
 
 # IUPnPServiceAsync::EndSubscribeToEvents
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EndSubscribeToEvents</b> method retrieves the results of  a previous  <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a> operation.
 
-
 ## -parameters
-
-
-
 
 ### -param ullRequestID [in]
 
 A 64-bit <b>ULONG</b> value that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a> operation requested prior to this call.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success. Otherwise, the method returns a COM error code defined in <b>WinError.h</b> or one of the following values:
 
@@ -124,12 +117,7 @@ The remote operation failed due to an HTTP problem. To retrieve the HTTP error c
 <div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">BeginSubscribeToEvents</a>
 
@@ -140,7 +128,4 @@ The remote operation failed due to an HTTP problem. To retrieve the HTTP error c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 12486d28-eba2-4ef6-802e-be7155de6edd
 ms.date: 12/05/2018
 ms.keywords: 12486d28-eba2-4ef6-802e-be7155de6edd, IEC_STROKEINFO, IEC_STROKEINFO (Win32 Only), IEC_STROKEINFO (Win32 Only) structure [Tablet PC], inked/IEC_STROKEINFO, structure [Tablet PC], tablet.iec_strokeinfo__win32_only_
-f1_keywords:
-- inked/IEC_STROKEINFO
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- inked.h
-api_name:
-- IEC_STROKEINFO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEC_STROKEINFO
+ - inked/IEC_STROKEINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - inked.h
+api_name:
+ - IEC_STROKEINFO
 ---
 
 # IEC_STROKEINFO structure
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information about a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a> event.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field nmhdr
 
@@ -74,22 +67,15 @@ typedef struct tagNMHDR {
   } NMHDR;
 ```
 
-
-
 ### -field Cursor
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object that was used to create the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
-
 
 ### -field Stroke
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object that was created.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
@@ -104,7 +90,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: D7BE8108-EF18-49FC-8B14-CED45B6C682B
 ms.date: 12/05/2018
 ms.keywords: WFDOpenLegacySession, WFDOpenLegacySession function [NativeWIFI], nwifi.wfdopenlegacysession, wlanapi/WFDOpenLegacySession
-f1_keywords:
-- wlanapi/WFDOpenLegacySession
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WFDOpenLegacySession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WFDOpenLegacySession
+ - wlanapi/WFDOpenLegacySession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WFDOpenLegacySession
 ---
 
 # WFDOpenLegacySession function
@@ -49,42 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WFDOpenLegacySession</b> function  retrieves and applies a stored profile for a Wi-Fi Direct legacy device.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle
 
 A <b>HANDLE</b> to the Wi-Fi Direct service for this session. This parameter is retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdopenhandle">WFDOpenHandle</a> function.
 
-
 ### -param pLegacyMacAddress
 
 A pointer to Wi-Fi Direct device address of the legacy client device.
-
 
 ### -param phSessionHandle
 
 A pointer to a <b>HANDLE</b> to receive the handle to the Wi-Fi Direct service for this session.
 
-If the <b>WFDOpenLegacySession</b> function is successful, a handle to the Wi-Fi Direct service to use in this session is returned. 
-
+If the <b>WFDOpenLegacySession</b> function is successful, a handle to the Wi-Fi Direct service to use in this session is returned.
 
 ### -param pGuidSessionInterface
 
 A pointer to the GUID of the network interface for this session.
 
-If the <b>WFDOpenLegacySession</b> function is successful, a GUID of the network interface on which Wi-Fi Direct session is returned. 
-
+If the <b>WFDOpenLegacySession</b> function is successful, a GUID of the network interface on which Wi-Fi Direct session is returned.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -133,14 +123,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WFDOpenLegacySession</b> function is part of Wi-Fi Direct, a new feature in Windows 8 and Windows Server 2012. Wi-Fi Direct is based on the development of the Wi-Fi Peer-to-Peer Technical Specification v1.1 by the Wi-Fi Alliance (see <a href="https://www.wi-fi.org/featured-topics">Wi-Fi Alliance Published Specifications</a>). The goal of the Wi-Fi Peer-to-Peer Technical Specification is to provide a solution for Wi-Fi device-to-device connectivity without the need for either a Wireless Access Point (wireless AP) to setup the connection or the use of the existing Wi-Fi adhoc (IBSS) mechanism. 
 
@@ -152,13 +136,7 @@ The 	<b>WFDOpenLegacySession</b> function retrieves the stored legacy profile fo
 
 Once an application is done using the Wi-Fi Direct service, the application should call the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosesession">WFDCloseSession</a> function to close the session and call the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosehandle">WFDCloseHandle</a> function to signal to the Wi-Fi Direct service that the application is done using the service. This allows the  Wi-Fi Direct service  to release resources used by the application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdcancelopensession">WFDCancelOpenSession</a>
 
@@ -185,7 +163,4 @@ Once an application is done using the Wi-Fi Direct service, the application shou
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wfd_open_session_complete_callback">WFD_OPEN_SESSION_COMPLETE_CALLBACK</a>
- 
-
- 
 

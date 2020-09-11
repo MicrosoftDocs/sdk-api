@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0c5e9f73-8eec-48e0-a172-4d3d49e56071
 ms.date: 12/05/2018
 ms.keywords: GetMiscStatus, GetMiscStatus method [COM], GetMiscStatus method [COM],IOleObject interface, IOleObject interface [COM],GetMiscStatus method, IOleObject.GetMiscStatus, IOleObject::GetMiscStatus, _ole_ioleobject_getmiscstatus, com.ioleobject_getmiscstatus, oleidl/IOleObject::GetMiscStatus
-f1_keywords:
-- oleidl/IOleObject.GetMiscStatus
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.GetMiscStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::GetMiscStatus
+ - oleidl/IOleObject::GetMiscStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.GetMiscStatus
 ---
 
 # IOleObject::GetMiscStatus
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the status of an object at creation and loading.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAspect [in]
 
 The aspect of an object about which status information is being requested. The value is obtained from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>.
 
-
 ### -param pdwStatus [out]
 
 Pointer to where the status information is returned. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -113,14 +105,8 @@ Error accessing the registry.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A container normally calls <b>IOleObject::GetMiscStatus</b> when it creates or loads an object in order to determine how to display the object and what types of behaviors it supports.
 
@@ -138,13 +124,7 @@ The default value of <b>IOleObject::GetMiscStatus</b> is used if a subkey corres
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Implementation normally consists of delegating the call to the default handler.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
 
@@ -159,7 +139,4 @@ Implementation normally consists of delegating the call to the default handler.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 41f88abc-57d1-4f80-a099-d17e624ab8a6
 ms.date: 12/05/2018
 ms.keywords: FILTER_STATE, FILTER_STATE , FILTER_STATE enumeration [DirectShow], FILTER_STATEEnumeration, State_Paused, State_Running, State_Stopped, dshow.filter_state, strmif/FILTER_STATE, strmif/State_Paused, strmif/State_Running, strmif/State_Stopped
-f1_keywords:
-- strmif/FILTER_STATE
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- FILTER_STATE
 targetos: Windows
 req.typenames: FILTER_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FilterState
+ - strmif/_FilterState
+ - FILTER_STATE
+ - strmif/FILTER_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - FILTER_STATE
 ---
 
 # FILTER_STATE enumeration
@@ -49,37 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies a filter's state or the state of the filter graph.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field State_Stopped
 
 Stopped. The filter is not processing data.
 
-
 ### -field State_Paused
 
 Paused. The filter is processing data, but not rendering it.
-
 
 ### -field State_Running
 
 Running. The filter is processing and rendering data.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
@@ -94,7 +83,4 @@ Running. The filter is processing and rendering data.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-getstate">IMediaFilter::GetState</a>
- 
-
- 
 

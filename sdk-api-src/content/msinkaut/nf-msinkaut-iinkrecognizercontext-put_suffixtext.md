@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: f7fb1314-b5d5-4aa9-91d0-cbd649aded39
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],SuffixText property, IInkRecognizerContext.SuffixText, IInkRecognizerContext.put_SuffixText, IInkRecognizerContext::SuffixText, IInkRecognizerContext::get_SuffixText, IInkRecognizerContext::put_SuffixText, InkRecognizerContext.get_SuffixText, InkRecognizerContext.put_SuffixText, SuffixText property [Tablet PC], SuffixText property [Tablet PC],IInkRecognizerContext interface, f7fb1314-b5d5-4aa9-91d0-cbd649aded39, get_SuffixText, msinkaut/IInkRecognizerContext::SuffixText, msinkaut/IInkRecognizerContext::get_SuffixText, msinkaut/IInkRecognizerContext::put_SuffixText, put_SuffixText, tablet.inkrecognizercontext_suffixtext
-f1_keywords:
-- msinkaut/IInkRecognizerContext.SuffixText
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerContext.SuffixText
-- IInkRecognizerContext.get_SuffixText
-- IInkRecognizerContext.put_SuffixText
-- InkRecognizerContext.get_SuffixText
-- InkRecognizerContext.put_SuffixText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerContext::put_SuffixText
+ - msinkaut/IInkRecognizerContext::put_SuffixText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerContext.SuffixText
+ - IInkRecognizerContext.get_SuffixText
+ - IInkRecognizerContext.put_SuffixText
+ - InkRecognizerContext.get_SuffixText
+ - InkRecognizerContext.put_SuffixText
 ---
 
 # IInkRecognizerContext::put_SuffixText
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the characters that come after the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The suffix helps improve recognition results by supplying the recognizer with more context about the handwriting.
 
@@ -84,13 +79,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut
 
 If your application provides a correction interface when converting ink to text, the application may allow the user to select characters within a word and use the stylus to generate replacement characters. Your application can use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext">PrefixText</a> and <b>SuffixText</b> properties to improve recognition of the new ink.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
 
@@ -109,7 +98,4 @@ If your application provides a correction interface when converting ink to text,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Strokes Property</a>
- 
-
- 
 

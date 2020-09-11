@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 ms.date: 12/05/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest, IMFMediaStreamSourceSampleRequest interface [Media Foundation], IMFMediaStreamSourceSampleRequest interface [Media Foundation],described, mf.imfmediastreamsourcesamplerequest, mfidl/IMFMediaStreamSourceSampleRequest
-f1_keywords:
-- mfidl/IMFMediaStreamSourceSampleRequest
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFMediaStreamSourceSampleRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaStreamSourceSampleRequest
+ - mfidl/IMFMediaStreamSourceSampleRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFMediaStreamSourceSampleRequest
 ---
 
 # IMFMediaStreamSourceSampleRequest interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a request for a  sample from a MediaStreamSource. 
-
+Represents a request for a  sample from a MediaStreamSource.
 
 ## -inheritance
 
@@ -77,26 +76,14 @@ Sets the sample for the media stream source.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>MFMediaStreamSourceSampleRequest</b> is implemented by the
      <a href="https://docs.microsoft.com/uwp/api/windows.media.core.mediastreamsourcesamplerequest">Windows.Media.Core.MediaStreamSourceSampleRequest</a> runtime class.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

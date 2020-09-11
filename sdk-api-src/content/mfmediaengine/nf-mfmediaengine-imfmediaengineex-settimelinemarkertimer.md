@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2FD65E4A-C70A-4CB4-9038-3A8B791E251C
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetTimelineMarkerTimer method, IMFMediaEngineEx.SetTimelineMarkerTimer, IMFMediaEngineEx::SetTimelineMarkerTimer, SetTimelineMarkerTimer, SetTimelineMarkerTimer method [Media Foundation], SetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_settimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer
-f1_keywords:
-- mfmediaengine/IMFMediaEngineEx.SetTimelineMarkerTimer
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineEx.SetTimelineMarkerTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineEx::SetTimelineMarkerTimer
+ - mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineEx.SetTimelineMarkerTimer
 ---
 
 # IMFMediaEngineEx::SetTimelineMarkerTimer
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a presentation time when the Media Engine will send a marker event.
 
-
 ## -parameters
-
-
-
 
 ### -param timeToFire [in]
 
 The presentation time for the marker event, in seconds.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 When playback reaches the time specified by <i>timeToFire</i>, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVENT_TIMELINE_MARKER</b> event through the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginenotify-eventnotify">IMFMediaEngineNotify::EventNotify</a> method. Calling this method cancels any previous marker that is still pending. 
 
@@ -84,16 +72,7 @@ During  forward playback, set <i>timeToFire</i> to a value greater than the curr
 
 To cancel a marker, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-canceltimelinemarkertimer">IMFMediaEngineEx::CancelTimelineMarkerTimer</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
- 
-
- 
 

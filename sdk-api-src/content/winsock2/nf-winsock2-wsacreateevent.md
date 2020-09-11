@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: cff3bc31-f34c-4bb2-9004-5ec31d0a704a
 ms.date: 12/05/2018
 ms.keywords: WSACreateEvent, WSACreateEvent function [Winsock], _win32_wsacreateevent_2, winsock.wsacreateevent_2, winsock2/WSACreateEvent
-f1_keywords:
-- winsock2/WSACreateEvent
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSACreateEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSACreateEvent
+ - winsock2/WSACreateEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSACreateEvent
 ---
 
 # WSACreateEvent function
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSACreateEvent</b> function creates a new event object.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSACreateEvent</b> returns the handle of the event object. Otherwise, the return value is WSA_INVALID_EVENT. To get extended error information, call 
@@ -120,14 +112,8 @@ Not enough free memory available to create the event object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSACreateEvent</b> function creates a manual-reset event object with an initial state of nonsignaled. The handle of the event object returned cannot be inherited by child processes. 
@@ -141,13 +127,7 @@ Windows Sockets 2 event objects are system objects in Windows environments. Ther
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
@@ -202,7 +182,4 @@ Windows Sockets 2 event objects are system objects in Windows environments. Ther
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 80C41EAB-9B8F-4723-A4A7-A17F56FF5773
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSource method, IMFMediaEngine.SetSource, IMFMediaEngine::SetSource, SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsource, mfmediaengine/IMFMediaEngine::SetSource
-f1_keywords:
-- mfmediaengine/IMFMediaEngine.SetSource
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngine.SetSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngine::SetSource
+ - mfmediaengine/IMFMediaEngine::SetSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngine.SetSource
 ---
 
 # IMFMediaEngine::SetSource
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the URL of a media resource.
 
-
 ## -parameters
-
-
-
 
 ### -param pUrl [in]
 
 The URL of the media resource.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method corresponds to setting the <b>src</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5.
 
@@ -92,16 +80,7 @@ If the Media Engine is unable to load the URL, the Media Engine sends an <b>MF_M
 
 For more information about event handling in the Media Engine, see <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginenotify">IMFMediaEngineNotify</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
- 
-
- 
 

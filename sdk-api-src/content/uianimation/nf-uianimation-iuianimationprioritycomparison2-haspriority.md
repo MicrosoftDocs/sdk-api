@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: A448144F-37B2-46E5-AA0D-604CE3FDEAA4
 ms.date: 12/05/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison2 interface, IUIAnimationPriorityComparison2 interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison2.HasPriority, IUIAnimationPriorityComparison2::HasPriority, uianimation.iuianimationprioritycomparison2_haspriority, uianimation/IUIAnimationPriorityComparison2::HasPriority
-f1_keywords:
-- uianimation/IUIAnimationPriorityComparison2.HasPriority
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationPriorityComparison2.HasPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationPriorityComparison2::HasPriority
+ - uianimation/IUIAnimationPriorityComparison2::HasPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationPriorityComparison2.HasPriority
 ---
 
 # IUIAnimationPriorityComparison2::HasPriority
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the relative priority between a scheduled storyboard and a new storyboard.
 
-
 ## -parameters
-
-
-
 
 ### -param scheduledStoryboard [in]
 
 The currently scheduled storyboard.
 
-
 ### -param newStoryboard [in]
 
 The new storyboard that is interrupting the scheduled storyboard specified by <i>scheduledStoryboard</i>.
-
 
 ### -param priorityEffect [in]
 
  
 					The potential effect on <i>newStoryboard</i> if <i>scheduledStoryboard</i> has a higher priority.
 
-
 ## -returns
-
-
 
 Returns the following if successful; otherwise an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
@@ -108,14 +99,8 @@ Returns the following if successful; otherwise an <b>HRESULT</b> error code. See
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A single animation variable can be included in multiple storyboards, 
          but multiple storyboards cannot animate the same variable at the same time.
@@ -164,13 +149,7 @@ The <i>priorityEffect</i> parameter describes the possible effect on the new sto
 
 When <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT_DELAY</a> is passed to <b>HasPriority</b>, the animation manager has already determined that it can schedule the new storyboard to begin before its longest acceptable delay has elapsed, but it is in effect asking the application if the storyboard should begin even earlier.  In some scenarios, it might be best to reduce the latency of an animation by returning <b>S_OK</b>.  In others, it might be preferable to let scheduled animations complete whenever possible, in which case <b>HasPriority</b> should return <b>S_FALSE</b>.  <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b> is only passed to <b>HasPriority</b> when the animation manager is considering canceling or trimming a storyboard.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setcancelprioritycomparison">IUIAnimationManager2::SetCancelPriorityComparison</a>
 
@@ -193,7 +172,4 @@ When <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priorit
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT</a>
- 
-
- 
 

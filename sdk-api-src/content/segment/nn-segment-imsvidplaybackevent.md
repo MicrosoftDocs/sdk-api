@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 7347601e-e889-4a45-8b94-081678df68d9
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlaybackEvent, IMSVidPlaybackEvent interface [Microsoft TV Technologies], IMSVidPlaybackEvent interface [Microsoft TV Technologies],described, IMSVidPlaybackEventInterface, mstv.imsvidplaybackevent, segment/IMSVidPlaybackEvent
-f1_keywords:
-- segment/IMSVidPlaybackEvent
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidPlaybackEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidPlaybackEvent
+ - segment/IMSVidPlaybackEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidPlaybackEvent
 ---
 
 # IMSVidPlaybackEvent interface
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Windows XP or later.
         
 
 The <b>IMSVidPlaybackEvent</b> interface is used to receive events from playback devices, such as the file playback object and the stream buffer source object.
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection.
-
-
-
 
 ## -inheritance
 
@@ -85,22 +81,13 @@ Called when playback has reached the end of the source media.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidPlaybackEvent)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfileplaybackevent">IMSVidFilePlaybackEvent Interface</a>
 
@@ -111,7 +98,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
- 
-
- 
 

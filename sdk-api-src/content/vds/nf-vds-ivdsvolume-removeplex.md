@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 724f80e7-4656-4956-aaad-9f778329f139
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],RemovePlex method, IVdsVolume.RemovePlex, IVdsVolume::RemovePlex, RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS],IVdsVolume interface, base.ivdsvolume_removeplex, vds/IVdsVolume::RemovePlex
-f1_keywords:
-- vds/IVdsVolume.RemovePlex
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVolume.RemovePlex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVolume::RemovePlex
+ - vds/IVdsVolume::RemovePlex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVolume.RemovePlex
 ---
 
 # IVdsVolume::RemovePlex
@@ -50,22 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Removes one or more 
    specified plexes from the current volume, releasing the extents.
 
-
 ## -parameters
-
-
-
 
 ### -param plexId [in]
 
 The GUID of the plex to be removed.
-
 
 ### -param ppAsync [out]
 
@@ -73,10 +68,7 @@ The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwp
       initializes on return. Callers must release the interface. Use this pointer to cancel, wait for, or query the 
       status of the operation.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -121,14 +113,8 @@ The volume is not a mirror.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This operation cannot remove the last plex of a volume. Instead, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-delete">IVdsVolume::Delete</a> method to remove the last 
@@ -140,13 +126,7 @@ VDS does not dismount the volume when it removes a plex.
 Implementers must return a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface for 
      this method, regardless of whether the call initiates an asynchronous operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
@@ -157,7 +137,4 @@ Implementers must return a pointer to the <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-delete">IVdsVolume::Delete</a>
- 
-
- 
 

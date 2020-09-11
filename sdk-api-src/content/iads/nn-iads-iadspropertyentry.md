@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 6c398d05-ac12-4c9a-b61a-70cd795c991f
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyEntry, IADsPropertyEntry interface [ADSI], IADsPropertyEntry interface [ADSI],described, PropertyEntry, _ds_iadspropertyentry, adsi.iadspropertyentry, iads/IADsPropertyEntry
-f1_keywords:
-- iads/IADsPropertyEntry
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPropertyEntry
-- PropertyEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPropertyEntry
+ - iads/IADsPropertyEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPropertyEntry
+ - PropertyEntry
 ---
 
 # IADsPropertyEntry interface
 
 
 ## -description
-
 
 The <b>IADsPropertyEntry</b> interface is used to manage a property entry in the 
 property cache. A property entry holds a value (or values) of an attribute as defined in the schema. It is identified by the name of the corresponding attribute. A property entry object allows a user to specify how its values are to be manipulated. Examples of such operations include "update,"
@@ -59,11 +59,7 @@ Multiple property entries are managed by a property list. To access a property e
 
 Use the property methods of <b>IADsPropertyEntry</b> to examine and manipulate individual properties. Before calling the methods of this interface, you must call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs::GetInfoEx</a> explicitly to load the assigned property values of the object into the cache. After calling the methods of this interfaces, you must call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> to save the changes in the persistent store of the underlying directory.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
 
@@ -95,7 +91,4 @@ Use the property methods of <b>IADsPropertyEntry</b> to examine and manipulate i
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7295a55b-12c7-4ed0-a7a4-9ecee16afdec
 ms.date: 12/05/2018
 ms.keywords: CoCreateInstance, CoCreateInstance function [COM], _com_CoCreateInstance, com.cocreateinstance, combaseapi/CoCreateInstance
-f1_keywords:
-- combaseapi/CoCreateInstance
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoCreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoCreateInstance
+ - combaseapi/CoCreateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoCreateInstance
 ---
 
 # CoCreateInstance function
@@ -54,45 +55,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a single uninitialized object of the class associated with a specified CLSID.
 
 Call <b>CoCreateInstance</b> when you want to create only one object on the local system. To create a single object on a remote system, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. To create multiple objects based on a single CLSID, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 The CLSID associated with the data and code that will be used to create the object.
 
-
 ### -param pUnkOuter [in]
 
 If <b>NULL</b>, indicates that the object is not being created as part of an aggregate. If non-<b>NULL</b>, pointer to the aggregate object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface (the controlling <b>IUnknown</b>).
-
 
 ### -param dwClsContext [in]
 
 Context in which the code that manages the newly created object will run. The values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>.
 
-
 ### -param riid [in]
 
 A reference to the identifier of the interface to be used to communicate with the object.
-
 
 ### -param ppv [out]
 
 Address of pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppv</i> contains the requested interface pointer. Upon failure, *<i>ppv</i> contains <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -157,14 +146,8 @@ The <i>ppv</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CoCreateInstance</b> function provides a convenient shortcut by connecting to the class object associated with the specified CLSID, creating an uninitialized instance, and releasing the class object. As such, it encapsulates the following functionality:
 
@@ -176,13 +159,7 @@ It is convenient to use <b>CoCreateInstance</b> when you need to create only a s
 
 In the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration, you can specify the type of server used to manage the object. The constants can be CLSCTX_INPROC_SERVER, CLSCTX_INPROC_HANDLER, CLSCTX_LOCAL_SERVER, CLSCTX_REMOTE_SERVER or any combination of these values. The constant CLSCTX_ALL is defined as the combination of all four. For more information about the use of one or a combination of these constants, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>
 
@@ -197,7 +174,4 @@ In the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wty
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/instance-creation-helper-functions">Instance Creation Helper Functions</a>
- 
-
- 
 

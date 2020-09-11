@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 70bb60a1-6a56-43fd-9352-8ced34ddd174
 ms.date: 12/05/2018
 ms.keywords: RASPBDEVENT_AddEntry, RASPBDEVENT_DialEntry, RASPBDEVENT_EditEntry, RASPBDEVENT_EditGlobals, RASPBDEVENT_NoUser, RASPBDEVENT_NoUserEdit, RASPBDEVENT_RemoveEntry, RasPBDlgFunc, RasPBDlgFunc callback, RasPBDlgFunc callback function [RAS], RasPBDlgFuncA, RasPBDlgFuncW, _ras_raspbdlgfunc, rasdlg/RasPBDlgFunc, rasdlg/RasPBDlgFuncA, rasdlg/RasPBDlgFuncW, rras.raspbdlgfunc
-f1_keywords:
-- rasdlg/RasPBDlgFunc
-dev_langs:
-- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Rasdlg.h
-api_name:
-- RasPBDlgFunc
-- RasPBDlgFuncA
-- RasPBDlgFuncW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RASPBDLGFUNCW
+ - rasdlg/RASPBDLGFUNCW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Rasdlg.h
+api_name:
+ - RasPBDlgFunc
+ - RasPBDlgFuncA
+ - RasPBDlgFuncW
 ---
 
 # RASPBDLGFUNCW callback function
@@ -51,34 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasPBDlgFunc</b> function is an application-defined callback function that receives notifications of user activity while the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> dialog box is open.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
-
 ### -param Arg2
-
 
 ### -param Arg3
 
-
 ### -param Arg4
-
-
-
-
-
-
-
 
 #### - dwCallbackId [in]
 
@@ -190,11 +176,7 @@ Pointer to an additional buffer argument whose meaning depends on the event indi
 
 Pointer to an additional string argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a>
 
@@ -209,9 +191,6 @@ Pointer to an additional string argument whose meaning depends on the event indi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 
 ## -remarks
 

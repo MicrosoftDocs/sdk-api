@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wibe
+f1_keywords:
+ - mileffects
+ - mileffects/mileffects
 ---
 
 # Mileffects.h header
 
 
 ## -description
-
 
 This header is used by WPF Bitmap Effects. For more information, see:
 

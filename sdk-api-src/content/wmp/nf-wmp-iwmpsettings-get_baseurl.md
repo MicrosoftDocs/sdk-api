@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 2e4a2696-624f-4c6f-8947-2fe0b457332c
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_baseURL method, IWMPSettings.get_baseURL, IWMPSettings::get_baseURL, IWMPSettingsget_baseURL, get_baseURL, get_baseURL method [Windows Media Player], get_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_baseurl, wmp/IWMPSettings::get_baseURL
-f1_keywords:
-- wmp/IWMPSettings.get_baseURL
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSettings.get_baseURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings::get_baseURL
+ - wmp/IWMPSettings::get_baseURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSettings.get_baseURL
 ---
 
 # IWMPSettings::get_baseURL
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_baseURL</b> method retrieves the base URL used for relative path resolution with URL script commands that are embedded in digital media content.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrBaseURL [out]
 
 Pointer to a <b>BSTR</b> containing the base URL.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method retrieves the base HTTP URL that is passed as the command parameter by the <b>ScriptCommand</b> event. The base URL is concatenated with the relative URL as follows:
 
@@ -112,13 +96,7 @@ The Windows Media Player control does not support the use of two periods (..) in
 
 <b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>BSTR</b> containing an empty string.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-scriptcommand">IWMPEvents::ScriptCommand</a>
 
@@ -129,7 +107,4 @@ The Windows Media Player control does not support the use of two periods (..) in
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_baseurl">IWMPSettings::put_baseURL</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bdfc64dd-7446-4c44-997f-fa0086bfbb4f
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],GetCRL method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, GetCRL, GetCRL method [Security], GetCRL method [Security],CCertAdmin object, GetCRL method [Security],ICertAdmin interface, GetCRL method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetCRL method, ICertAdmin.GetCRL, ICertAdmin2 interface [Security],GetCRL method, ICertAdmin2::GetCRL, ICertAdmin::GetCRL, certadm/ICertAdmin2::GetCRL, certadm/ICertAdmin::GetCRL, security.icertadmin2_getcrl
-f1_keywords:
-- certadm/ICertAdmin2.GetCRL
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.GetCRL
-- ICertAdmin.GetCRL
-- CCertAdmin.GetCRL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin::GetCRL
+ - certadm/ICertAdmin::GetCRL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.GetCRL
+ - ICertAdmin.GetCRL
+ - CCertAdmin.GetCRL
 ---
 
 # ICertAdmin::GetCRL
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCRL</b> method retrieves the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) for the Certificate Services <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -107,8 +103,6 @@ Binary format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pstrCRL [out]
 
@@ -116,10 +110,7 @@ A pointer to a <b>BSTR</b> that receives the CRL.
 
 When using this method, create a variable of <b>BSTR</b> type, set the variable to <b>NULL</b>, and pass the address of this variable in the <i>pbstrCRL</i> parameter. When you have finished using the <b>BSTR</b> variable, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
@@ -144,14 +135,8 @@ The <i>strConfig</i> parameter cannot be <b>NULL</b> or no CRL has been found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Administration tasks use DCOM. Code that calls this interface method as defined in an earlier version of Certadm.h will run on Windows-based servers as long as the client and the server are both running the same Windows operating system.
 
@@ -231,14 +216,7 @@ error:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
@@ -253,7 +231,4 @@ error:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
- 
-
- 
 

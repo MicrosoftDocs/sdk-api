@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: c8ec81e6-7807-4a1e-9e0c-f5512bd605fa
 ms.date: 12/05/2018
 ms.keywords: GetDefaultDigestMethod, GetDefaultDigestMethod method [Open Packaging Conventions], GetDefaultDigestMethod method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetDefaultDigestMethod method, IOpcSigningOptions.GetDefaultDigestMethod, IOpcSigningOptions::GetDefaultDigestMethod, msopc/IOpcSigningOptions::GetDefaultDigestMethod, opc.iopcsigningoptions_getdefaultdigestmethod
-f1_keywords:
-- msopc/IOpcSigningOptions.GetDefaultDigestMethod
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSigningOptions.GetDefaultDigestMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSigningOptions::GetDefaultDigestMethod
+ - msopc/IOpcSigningOptions::GetDefaultDigestMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSigningOptions.GetDefaultDigestMethod
 ---
 
 # IOpcSigningOptions::GetDefaultDigestMethod
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the default digest method that will be used to compute digest values for objects to be signed.
 
-
 ## -parameters
-
-
-
 
 ### -param digestMethod [out, retval]
 
 A pointer to the default digest method, or the empty string "" if a default has not been set using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setdefaultdigestmethod">SetDefaultDigestMethod</a> method.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,14 +90,8 @@ The <i>digestMethod</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method allocates memory used by the string returned in <i>digestMethod</i>.  If the method succeeds, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory.
 
@@ -119,13 +106,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -168,7 +149,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

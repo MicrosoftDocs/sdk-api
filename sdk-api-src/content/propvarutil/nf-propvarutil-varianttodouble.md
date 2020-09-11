@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 7bd756c6-f02a-4cf4-9458-b3304e2da2db
 ms.date: 12/05/2018
 ms.keywords: VariantToDouble, VariantToDouble function [Windows Properties], _shell_VariantToDouble, properties.VariantToDouble, propvarutil/VariantToDouble, shell.VariantToDouble
-f1_keywords:
-- propvarutil/VariantToDouble
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- VariantToDouble
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - VariantToDouble
+ - propvarutil/VariantToDouble
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - VariantToDouble
 ---
 
 # VariantToDouble function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts a <b>DOUBLE</b> value from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure. If no value can be extracted, then a default value is assigned.
 
-
 ## -parameters
-
-
-
 
 ### -param varIn [in]
 
@@ -64,28 +60,19 @@ Type: <b>REFVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
-
 ### -param pdblRet [out]
 
 Type: <b>DOUBLE*</b>
 
 When this function returns, contains the extracted value if one exists; otherwise, 0.0.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold a <b>DOUBLE</b> value. For instance, an application that obtains values from a Shell folder can use this function to safely extract the value from one of the folder's properties whose value is stored as a <b>DOUBLE</b>.
 
@@ -117,14 +104,7 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdouble">InitVariantFromDouble</a>
 
@@ -139,7 +119,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearray">VariantToDoubleArray</a>
- 
-
- 
 

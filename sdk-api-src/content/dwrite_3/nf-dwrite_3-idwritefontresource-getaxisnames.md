@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisNam
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisNames method, IDWriteFontResource.GetAxisNames, IDWriteFontResource::GetAxisNames, GetAxisNames, GetAxisNames method [Direct Write], GetAxisNames method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisnames, dwrite_3/IDWriteFontResource::GetAxisNames
-f1_keywords:
-- dwrite_3/IDWriteFontResource.GetAxisNames
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::GetAxisNames
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::GetAxisNames
+ - dwrite_3/IDWriteFontResource::GetAxisNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::GetAxisNames
 ---
 
 ## -description
@@ -72,3 +73,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 The font author may not have supplied names for some font axes. The localized strings will be empty in that case.
 
 ## -see-also
+

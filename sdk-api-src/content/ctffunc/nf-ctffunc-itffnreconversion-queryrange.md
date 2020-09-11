@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 022d0ad7-5359-48df-b83b-2319eb1a84bf
 ms.date: 12/05/2018
 ms.keywords: ITfFnReconversion interface [Text Services Framework],QueryRange method, ITfFnReconversion.QueryRange, ITfFnReconversion::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnReconversion interface, _tsf_itffnreconversion_queryrange_ref, ctffunc/ITfFnReconversion::QueryRange, tsf.itffnreconversion_queryrange
-f1_keywords:
-- ctffunc/ITfFnReconversion.QueryRange
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfFnReconversion.QueryRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnReconversion::QueryRange
+ - ctffunc/ITfFnReconversion::QueryRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfFnReconversion.QueryRange
 ---
 
 # ITfFnReconversion::QueryRange
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfFnReconversion::QueryRange</b> method obtains the range of text that the reconversion applies to.
 
-
 ## -parameters
-
-
-
 
 ### -param pRange [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers all or part of the text to be reconverted.
-
 
 ### -param ppNewRange
 
@@ -71,15 +66,11 @@ When this method is implemented by a text service, this parameter is optional an
 
 When the TSF manager implementation of this method is called, this parameter is not optional and cannot be NULL.
 
-
 ### -param pfConvertable [out]
 
 Pointer to a <b>BOOL</b> value that receives zero if none of the text covered by <i>pRange</i> can be reconverted or nonzero otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,15 +113,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnreconversion">ITfFnReconversion</a>
 
@@ -138,7 +122,4 @@ A memory allocation failure occurred.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
- 
-
- 
 

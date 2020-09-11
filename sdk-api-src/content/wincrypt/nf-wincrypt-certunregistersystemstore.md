@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 958e4185-4c37-450c-abfc-91b95593227e
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterSystemStore, CertUnregisterSystemStore function [Security], _crypto2_certunregistersystemstore, security.certunregistersystemstore, wincrypt/CertUnregisterSystemStore
-f1_keywords:
-- wincrypt/CertUnregisterSystemStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertUnregisterSystemStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertUnregisterSystemStore
+ - wincrypt/CertUnregisterSystemStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertUnregisterSystemStore
 ---
 
 # CertUnregisterSystemStore function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertUnregisterSystemStore</b> function unregisters a specified system store.
 
-
 ## -parameters
-
-
-
 
 ### -param pvSystemStore [in]
 
 Identifies the system store to be unregistered. It points either to a null-terminated Unicode string or to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure. For information about using the structure and on appending a ServiceName or ComputerName to the end of the system store name string, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregistersystemstore">CertRegisterSystemStore</a>.
-
 
 ### -param dwFlags [in]
 
@@ -102,24 +97,14 @@ The system store is deleted after it has been unregistered.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a>
 
@@ -150,7 +135,4 @@ If the function fails, the return value is <b>FALSE</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
- 
-
- 
 

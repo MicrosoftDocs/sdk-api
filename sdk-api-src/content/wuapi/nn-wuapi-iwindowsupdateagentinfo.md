@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 46692b86-0fd9-4e48-9fb2-0ea3521b6bca
 ms.date: 12/05/2018
 ms.keywords: IWindowsUpdateAgentInfo, IWindowsUpdateAgentInfo interface [Windows Update Agent], IWindowsUpdateAgentInfo interface [Windows Update Agent],described, wua.iwindowsupdateagentinfo, wuapi/IWindowsUpdateAgentInfo
-f1_keywords:
-- wuapi/IWindowsUpdateAgentInfo
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsUpdateAgentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsUpdateAgentInfo
+ - wuapi/IWindowsUpdateAgentInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsUpdateAgentInfo
 ---
 
 # IWindowsUpdateAgentInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the version of Windows Update Agent (WUA).
-
 
 ## -inheritance
 
@@ -77,27 +76,15 @@ Retrieves version information for WUA.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IWindowsUpdateAgentInfo</b> interface  may require  you to update WUA. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 You can create an instance of this interface by using the WindowsUpdateAgentInfo coclass. Use the Microsoft.Update.AgentInfo program identifier to create the object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

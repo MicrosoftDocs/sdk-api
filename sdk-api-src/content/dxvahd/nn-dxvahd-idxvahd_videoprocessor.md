@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: cbfacff5-1cbb-4296-8242-c06b43fc95af
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor
-f1_keywords:
-- dxvahd/IDXVAHD_VideoProcessor
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxvahd.h
-api_name:
-- IDXVAHD_VideoProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXVAHD_VideoProcessor
+ - dxvahd/IDXVAHD_VideoProcessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxvahd.h
+api_name:
+ - IDXVAHD_VideoProcessor
 ---
 
 # IDXVAHD_VideoProcessor interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor. 
 
 To get a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">IDXVAHD_Device::CreateVideoProcessor</a> method.
-
 
 ## -inheritance
 
@@ -115,13 +114,9 @@ Performs a video processing blit on one or more input samples and writes the res
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -132,7 +127,4 @@ Performs a video processing blit on one or more input samples and writes the res
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

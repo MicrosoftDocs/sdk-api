@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8857e150-1746-4f3f-aaa8-db0f44787621
 ms.date: 12/05/2018
 ms.keywords: 8857e150-1746-4f3f-aaa8-db0f44787621, MFCreateAudioMediaType, MFCreateAudioMediaType function [Media Foundation], mf.mfcreateaudiomediatype, mfapi/MFCreateAudioMediaType
-f1_keywords:
-- mfapi/MFCreateAudioMediaType
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFCreateAudioMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateAudioMediaType
+ - mfapi/MFCreateAudioMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFCreateAudioMediaType
 ---
 
 # MFCreateAudioMediaType function
@@ -49,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future.]
 
 Creates an audio media type from a <b>WAVEFORMATEX</b> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param pAudioFormat [in]
 
 Pointer to a <b>WAVEFORMATEX</b> structure that describes the audio format.
 
-
 ### -param ppIAudioMediaType [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a> interface is deprecrated, so applications should avoid using this function. To create a media type from a <b>WAVEFORMATEX</b> structure, do the following:
       
@@ -102,12 +89,7 @@ This function is available on the following platforms if the Windows Media Forma
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/audio-media-types">Audio Media Types</a>
 
@@ -118,7 +100,4 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
- 
-
- 
 

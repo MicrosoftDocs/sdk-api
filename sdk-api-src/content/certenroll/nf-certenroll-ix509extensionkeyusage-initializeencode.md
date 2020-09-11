@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a4496125-862c-4ef0-93f3-a513eedeacd1
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],InitializeEncode method, IX509ExtensionKeyUsage.InitializeEncode, IX509ExtensionKeyUsage::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionKeyUsage interface, XCN_CERT_CRL_SIGN_KEY_USAGE, XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, XCN_CERT_DECIPHER_ONLY_KEY_USAGE, XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, XCN_CERT_KEY_AGREEMENT_KEY_USAGE, XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, XCN_CERT_NON_REPUDIATION_KEY_USAGE, XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, certenroll/IX509ExtensionKeyUsage::InitializeEncode, security.ix509extensionkeyusage_initializeencode_method
-f1_keywords:
-- certenroll/IX509ExtensionKeyUsage.InitializeEncode
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionKeyUsage.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionKeyUsage::InitializeEncode
+ - certenroll/IX509ExtensionKeyUsage::InitializeEncode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionKeyUsage.InitializeEncode
 ---
 
 # IX509ExtensionKeyUsage::InitializeEncode
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeEncode</b> method initializes the extension by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509keyusageflags">X509KeyUsageFlags</a> enumeration. This method is web enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param UsageFlags [in]
 
@@ -178,12 +174,8 @@ The key is used to decrypt data while performing key agreement. The <b>XCN_CERT_
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -206,14 +198,8 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must call either <b>InitializeEncode</b> or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionkeyusage-initializedecode">InitializeDecode</a> before you can use an  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionkeyusage">IX509ExtensionKeyUsage</a> object. The two methods complement each other. The <b>InitializeEncode</b> method enables you to construct a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) extension object from raw data, and the <b>InitializeDecode</b> method enables you to initialize the raw data from an encoded object.
 
@@ -223,17 +209,7 @@ You can retrieve the following properties for this extension:<ul>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionkeyusage-get_keyusage">KeyUsage</a> property retrieves the restrictions that identify the intended uses of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> (the raw extension data).</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionkeyusage">IX509ExtensionKeyUsage</a>
- 
-
- 
 

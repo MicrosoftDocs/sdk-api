@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: c6c8e510-190a-47ad-805c-b8d3fbee836d
 ms.date: 12/05/2018
 ms.keywords: '*PDSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO structure [Active Directory], ad.dsrole_operation_state_info, dsrole/DSROLE_OPERATION_STATE_INFO'
-f1_keywords:
-- dsrole/DSROLE_OPERATION_STATE_INFO
-dev_langs:
-- c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dsrole.h
-api_name:
-- DSROLE_OPERATION_STATE_INFO
 targetos: Windows
 req.typenames: DSROLE_OPERATION_STATE_INFO, *PDSROLE_OPERATION_STATE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DSROLE_OPERATION_STATE_INFO
+ - dsrole/_DSROLE_OPERATION_STATE_INFO
+ - PDSROLE_OPERATION_STATE_INFO
+ - dsrole/PDSROLE_OPERATION_STATE_INFO
+ - DSROLE_OPERATION_STATE_INFO
+ - dsrole/DSROLE_OPERATION_STATE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dsrole.h
+api_name:
+ - DSROLE_OPERATION_STATE_INFO
 ---
 
 # DSROLE_OPERATION_STATE_INFO structure
@@ -49,24 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DSROLE_OPERATION_STATE_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function to contain the operational state data for a computer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OperationState
 
 Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_operation_state">DSROLE_OPERATION_STATE</a> values that indicates the computer operational state.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_operation_state">DSROLE_OPERATION_STATE</a>
 
@@ -77,7 +73,4 @@ Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
- 
-
- 
 

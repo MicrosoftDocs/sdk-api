@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1de3d6c0-cdf8-48fa-b7ff-2dc75f6757fc
 ms.date: 12/05/2018
 ms.keywords: AddItemToSession, AddItemToSession method [Windows Shell], AddItemToSession method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],AddItemToSession method, ISyncMgrSyncCallback.AddItemToSession, ISyncMgrSyncCallback::AddItemToSession, _shell_ISyncMgrSyncCallback_AddItemToSession, shell.ISyncMgrSyncCallback_AddItemToSession, syncmgr/ISyncMgrSyncCallback::AddItemToSession
-f1_keywords:
-- syncmgr/ISyncMgrSyncCallback.AddItemToSession
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrSyncCallback.AddItemToSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSyncCallback::AddItemToSession
+ - syncmgr/ISyncMgrSyncCallback::AddItemToSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrSyncCallback.AddItemToSession
 ---
 
 # ISyncMgrSyncCallback::AddItemToSession
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a specified item to the set of items currently being synchronized.
 
-
 ## -parameters
-
-
-
 
 ### -param pszItemID [in]
 
@@ -64,21 +60,13 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a buffer containing the unique ID of the item to add. This string is of maximum length MAX_SYNCMGR_ID including the terminating <b>null</b> character.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if <i>pszItemID</i> is already part of the session.
 
-
-
-
 ## -remarks
-
-
 
 <b>ISyncMgrSyncCallback::AddItemToSession</b> is called by the sync handler.
 
@@ -123,7 +111,4 @@ HRESULT CMyDeviceHandler::Synchronize(...)
 }
 
 ```
-
-
-
 

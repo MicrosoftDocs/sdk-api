@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: c0346d5e-d4a2-4c72-90be-de5ff1681acd
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeProvider, ITfDisplayAttributeProvider interface [Text Services Framework], ITfDisplayAttributeProvider interface [Text Services Framework],described, _tsf_itfdisplayattributeprovider_ref, msctf/ITfDisplayAttributeProvider, tsf.itfdisplayattributeprovider
-f1_keywords:
-- msctf/ITfDisplayAttributeProvider
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Imjpcic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imjpcic.dll
-api_name:
-- ITfDisplayAttributeProvider
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfDisplayAttributeProvider
+ - msctf/ITfDisplayAttributeProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imjpcic.dll
+api_name:
+ - ITfDisplayAttributeProvider
 ---
 
 # ITfDisplayAttributeProvider interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfDisplayAttributeProvider</b> interface is implemented by a text service and is used by the TSF manager to enumerate and obtain individual display attribute information objects.
 
 The TSF manager obtains an instance of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the class identifier passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a> with GUID_TFCAT_DISPLAYATTRIBUTEPROVIDER and IID_ITfDisplayAttributeProvider. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TSF/providing-display-attributes">Providing Display Attributes</a>.
-
 
 ## -inheritance
 
@@ -88,13 +87,9 @@ Obtains a display attribute provider object for a particular display attribute.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
@@ -110,7 +105,4 @@ Obtains a display attribute provider object for a particular display attribute.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/providing-display-attributes">Providing Display Attributes</a>
- 
-
- 
 

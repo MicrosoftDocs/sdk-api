@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: f99774d4-575b-43a3-8887-e15acb0477fd
 ms.date: 12/05/2018
 ms.keywords: RegSetValue, RegSetValue function, RegSetValueA, RegSetValueW, _win32_regsetvalue, base.regsetvalue, winreg/RegSetValue, winreg/RegSetValueA, winreg/RegSetValueW
-f1_keywords:
-- winreg/RegSetValue
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-Registry-l2-2-0.dll
-api_name:
-- RegSetValue
-- RegSetValueA
-- RegSetValueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegSetValueA
+ - winreg/RegSetValueA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l2-2-0.dll
+api_name:
+ - RegSetValue
+ - RegSetValueA
+ - RegSetValueW
 ---
 
 # RegSetValueA function
@@ -54,15 +55,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the data for the default or unnamed value of a specified registry key. The data must be a text string.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -83,8 +80,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param lpSubKey [in, optional]
 
 The name of a subkey of the <i>hKey</i> parameter. The function sets the default value of the specified subkey. If <i>lpSubKey</i> does not exist, the function creates it.
@@ -96,38 +91,27 @@ If this parameter is <b>NULL</b> or points to an empty string, the function sets
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
-
 ### -param dwType [in]
 
 The type of information to be stored. This parameter must be the REG_SZ type. To store other data types, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a> function.
 
-
 ### -param lpData [in]
 
 The data to be stored. This parameter cannot be <b>NULL</b>.
-
 
 ### -param cbData [in]
 
 This parameter is ignored. The function calculates this value based on the size of the data in the <i>lpData</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 If the key specified by the <i>lpSubKey</i> parameter does not exist, the 
 <b>RegSetValue</b> function creates it.
@@ -142,9 +126,6 @@ If the ANSI version of this function is used (either by explicitly calling <b>Re
 > The winreg.h header defines RegSetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
@@ -171,7 +152,4 @@ If the ANSI version of this function is used (either by explicitly calling <b>Re
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 

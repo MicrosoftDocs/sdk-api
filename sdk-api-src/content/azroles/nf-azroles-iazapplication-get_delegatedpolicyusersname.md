@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ee18b86f-7ae2-4984-ac7a-3909eda647e3
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DelegatedPolicyUsersName property, DelegatedPolicyUsersName property [Security], DelegatedPolicyUsersName property [Security],AzApplication object, DelegatedPolicyUsersName property [Security],IAzApplication interface, IAzApplication interface [Security],DelegatedPolicyUsersName property, IAzApplication.DelegatedPolicyUsersName, IAzApplication.get_DelegatedPolicyUsersName, IAzApplication::DelegatedPolicyUsersName, IAzApplication::get_DelegatedPolicyUsersName, azroles/IAzApplication::DelegatedPolicyUsersName, azroles/IAzApplication::get_DelegatedPolicyUsersName, get_DelegatedPolicyUsersName, security.iazapplication_delegatedpolicyusersname
-f1_keywords:
-- azroles/IAzApplication.DelegatedPolicyUsersName
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication.DelegatedPolicyUsersName
-- IAzApplication.get_DelegatedPolicyUsersName
-- AzApplication.DelegatedPolicyUsersName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication::get_DelegatedPolicyUsersName
+ - azroles/IAzApplication::get_DelegatedPolicyUsersName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication.DelegatedPolicyUsersName
+ - IAzApplication.get_DelegatedPolicyUsersName
+ - AzApplication.DelegatedPolicyUsersName
 ---
 
 # IAzApplication::get_DelegatedPolicyUsersName
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DelegatedPolicyUsersName</b> property retrieves the account names of principals that act as delegated policy users.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object uses to administer the delegated object.
 
 <div class="alert"><b>Note</b>  Delegated policy users are not supported for XML stores.</div>
 <div> </div>
-In JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. 
-
-
+In JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object.
 

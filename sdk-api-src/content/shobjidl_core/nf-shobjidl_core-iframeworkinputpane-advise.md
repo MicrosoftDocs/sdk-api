@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: F05A097F-13A4-48ad-B660-5B2409BB6D61
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFrameworkInputPane interface, IFrameworkInputPane interface [Windows Shell],Advise method, IFrameworkInputPane.Advise, IFrameworkInputPane::Advise, shell.IFrameworkInputPane_Advise, shobjidl_core/IFrameworkInputPane::Advise
-f1_keywords:
-- shobjidl_core/IFrameworkInputPane.Advise
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFrameworkInputPane.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFrameworkInputPane::Advise
+ - shobjidl_core/IFrameworkInputPane::Advise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFrameworkInputPane.Advise
 ---
 
 # IFrameworkInputPane::Advise
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advisewithhwnd">AdviseWithHWND</a> in that it references its window through an object that implements <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icorewindow">ICoreWindow</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pWindow [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 A pointer to the window (an object that implements <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icorewindow">ICoreWindow</a>) for which the handler should listen for input pane events.
 
-
 ### -param pHandler [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpanehandler">IFrameworkInputPaneHandler</a>*</b>
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpanehandler">IFrameworkInputPaneHandler</a> interface pointer to the handler instance for this app.
-
 
 ### -param pdwCookie [out]
 
@@ -78,22 +72,13 @@ Type: <b>DWORD*</b>
 
 A pointer to a value that, when this method returns successfully, receives a cookie for that can be used later to unregister the handler through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-unadvise">Unadvise</a> method.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpane">IFrameworkInputPane</a>
 
@@ -104,7 +89,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-unadvise">IFrameworkInputPane::Unadvise</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 75f6ce68-237f-4228-adcf-f5ec929f49a7
 ms.date: 12/05/2018
 ms.keywords: EnumSyncMgrItems, EnumSyncMgrItems method [Windows Shell], EnumSyncMgrItems method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],EnumSyncMgrItems method, ISyncMgrSynchronize.EnumSyncMgrItems, ISyncMgrSynchronize::EnumSyncMgrItems, mobsync/ISyncMgrSynchronize::EnumSyncMgrItems, shell.syncmgr_isyncmgrsynchronize_enumsyncmgritems, syncmgr.isyncmgrsynchronize_enumsyncmgritems
-f1_keywords:
-- mobsync/ISyncMgrSynchronize.EnumSyncMgrItems
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrSynchronize.EnumSyncMgrItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSynchronize::EnumSyncMgrItems
+ - mobsync/ISyncMgrSynchronize::EnumSyncMgrItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrSynchronize.EnumSyncMgrItems
 ---
 
 # ISyncMgrSynchronize::EnumSyncMgrItems
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface for the items that are handled by a registered application.
 
-
 ## -parameters
-
-
-
 
 ### -param ppSyncMgrEnumItems [out]
 
@@ -66,10 +62,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobs
 The address of the variable that receives a pointer to a valid 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -103,32 +96,17 @@ The enumeration interface object is returned successfully, but some items are mi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The enumeration object that this method creates implements the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface, which is a standard enumeration interface that contains the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">Next</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-reset">Reset</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-clone">Clone</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-skip">Skip</a> methods.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
- 
-
- 
 

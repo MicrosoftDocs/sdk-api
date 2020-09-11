@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: dlgbox
+f1_keywords:
+ - commdlg
+ - commdlg/commdlg
 ---
 
 # Commdlg.h header
 
 
 ## -description
-
 
 This header is used by Dialog Boxes. For more information, see:
 

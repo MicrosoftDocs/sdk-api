@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 35cfc768-1f1d-4be9-8d56-c56c7440513e
 ms.date: 12/05/2018
 ms.keywords: '*LPINTERNET_PER_CONN_OPTIONA, INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_TIME, INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_URL, INTERNET_PER_CONN_AUTOCONFIG_RELOAD_DELAY_MINS, INTERNET_PER_CONN_AUTOCONFIG_SECONDARY_URL, INTERNET_PER_CONN_AUTOCONFIG_URL, INTERNET_PER_CONN_AUTODISCOVERY_FLAGS, INTERNET_PER_CONN_FLAGS, INTERNET_PER_CONN_FLAGS_UI, INTERNET_PER_CONN_OPTION, INTERNET_PER_CONN_OPTION structure [WinINet], INTERNET_PER_CONN_OPTIONA, INTERNET_PER_CONN_OPTIONW, INTERNET_PER_CONN_PROXY_BYPASS, INTERNET_PER_CONN_PROXY_SERVER, LPINTERNET_PER_CONN_OPTION, LPINTERNET_PER_CONN_OPTION structure pointer [WinINet], _inet_internet_per_conn_option_structure, wininet.internet_per_conn_option, wininet/INTERNET_PER_CONN_OPTION, wininet/INTERNET_PER_CONN_OPTIONA, wininet/INTERNET_PER_CONN_OPTIONW, wininet/LPINTERNET_PER_CONN_OPTION'
-f1_keywords:
-- wininet/INTERNET_PER_CONN_OPTION
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wininet.h
-api_name:
-- INTERNET_PER_CONN_OPTION
-- INTERNET_PER_CONN_OPTIONA
-- INTERNET_PER_CONN_OPTIONW
 targetos: Windows
 req.typenames: INTERNET_PER_CONN_OPTIONA, *LPINTERNET_PER_CONN_OPTIONA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPINTERNET_PER_CONN_OPTIONA
+ - wininet/LPINTERNET_PER_CONN_OPTIONA
+ - INTERNET_PER_CONN_OPTIONA
+ - wininet/INTERNET_PER_CONN_OPTIONA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wininet.h
+api_name:
+ - INTERNET_PER_CONN_OPTION
+ - INTERNET_PER_CONN_OPTIONA
+ - INTERNET_PER_CONN_OPTIONW
 ---
 
 # INTERNET_PER_CONN_OPTIONA structure
@@ -51,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the value of an option.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwOption
 
@@ -274,8 +272,6 @@ The connection automatically detects settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Value
 
@@ -301,27 +297,13 @@ Pointer to a string value.
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
-
 ### -field dwValue
-
- 
-
 
 ### -field pszValue
 
- 
-
-
 ### -field ftValue
 
- 
-
-
-
-
 ## -remarks
-
-
 
 In Internet Explorer 5, only the ANSI versions of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> and 
@@ -345,9 +327,6 @@ For queries that return strings,
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_per_conn_option_lista">INTERNET_PER_CONN_OPTION_LIST</a>
 
 
@@ -357,7 +336,4 @@ For queries that return strings,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
- 
-
- 
 

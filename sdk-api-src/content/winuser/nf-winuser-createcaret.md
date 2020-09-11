@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\createcaret.htm
 ms.date: 12/05/2018
 ms.keywords: CreateCaret, CreateCaret function [Menus and Other Resources], _win32_CreateCaret, _win32_createcaret_cpp, menurc.createcaret, winui._win32_createcaret, winuser/CreateCaret
-f1_keywords:
-- winuser/CreateCaret
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-caret-l1-1-0.dll
-- api-ms-win-ntuser-ie-caret-l1-1-0.dll
-- ie_stubs.dll
-api_name:
-- CreateCaret
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateCaret
+ - winuser/CreateCaret
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-caret-l1-1-0.dll
+ - api-ms-win-ntuser-ie-caret-l1-1-0.dll
+ - ie_stubs.dll
+api_name:
+ - CreateCaret
 ---
 
 # CreateCaret function
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new shape for the system caret and assigns ownership of the caret to the specified window. The caret shape can be a line, a block, or a bitmap.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window that owns the caret. 
-
+A handle to the window that owns the caret.
 
 ### -param hBitmap [in, optional]
 
@@ -76,24 +71,19 @@ A handle to the bitmap that defines the caret shape. If this parameter is <b>NUL
 
 If <i>hBitmap</i> is a bitmap handle, <b>CreateCaret</b> ignores the <i>nWidth</i> and <i>nHeight</i> parameters; the bitmap defines its own width and height.
 
-
 ### -param nWidth [in]
 
 Type: <b>int</b>
 
 The width of the caret, in logical units. If this parameter is zero, the width is set to the system-defined window border width. If <i>hBitmap</i> is a bitmap handle, <b>CreateCaret</b> ignores this parameter.
 
-
 ### -param nHeight [in]
 
 Type: <b>int</b>
 
-The height of the caret, in logical units. If this parameter is zero, the height is set to the system-defined window border height. If <i>hBitmap</i> is a bitmap handle, <b>CreateCaret</b> ignores this parameter. 
-
+The height of the caret, in logical units. If this parameter is zero, the height is set to the system-defined window border height. If <i>hBitmap</i> is a bitmap handle, <b>CreateCaret</b> ignores this parameter.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -102,12 +92,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <i>nWidth</i> and <i>nHeight</i> parameters specify the caret's width and height, in logical units; the exact width and height, in pixels, depend on the window's mapping mode. 
 
@@ -118,13 +103,7 @@ The system provides one caret per queue. A window should create a caret only whe
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The width and height parameters are interpreted as logical sizes in terms of the window in question. The calling thread is not taken into consideration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
 
@@ -167,7 +146,4 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a>
- 
-
- 
 

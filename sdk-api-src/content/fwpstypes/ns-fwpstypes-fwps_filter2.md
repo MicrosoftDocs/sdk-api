@@ -8,10 +8,6 @@ tech.root: NetVista
 ms.assetid: 2be2c82b-5b7c-4027-b2a1-f43d2b27b860
 ms.date: 12/05/2018
 ms.keywords: FWPS_FILTER2, FWPS_FILTER2 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER2, netvista.fwps_filter2
-f1_keywords:
-- fwpstypes/FWPS_FILTER2
-dev_langs:
-- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpstypes.h
-api_name:
-- FWPS_FILTER2
 targetos: Windows
 req.typenames: FWPS_FILTER2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPS_FILTER2_
+ - fwpstypes/FWPS_FILTER2_
+ - FWPS_FILTER2
+ - fwpstypes/FWPS_FILTER2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpstypes.h
+api_name:
+ - FWPS_FILTER2
 ---
 
 # FWPS_FILTER2 structure
@@ -49,21 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0) is available.</div>
 <div> </div>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field filterId
 
 A run-time identifier that identifies the filter in the filter engine.
-
 
 ### -field weight
 
@@ -78,13 +74,11 @@ An
      engine automatically assigns a weight to the filter based on how specific the filter tests the data
      compared to the other filters in the filter engine.
 
-
 ### -field subLayerWeight
 
 A value that specifies the importance of the filter's sublayer in relation to the other sublayers
      in the filter engine. Filters that are located in a sublayer with a higher 
      <b>subLayerWeight</b> value are invoked first.
-
 
 ### -field flags
 
@@ -127,8 +121,6 @@ This flag indicates to a callout's
 </td>
 </tr>
 </table>
- 
-
 
 ### -field numFilterConditions
 
@@ -137,7 +129,6 @@ The number of
      the array pointed to by the 
      <b>filterCondition</b> member. This member can be zero.
 
-
 ### -field filterCondition
 
 A pointer to an array of 
@@ -145,13 +136,11 @@ A pointer to an array of
      These structures define the run-time filtering conditions for the filter. If the 
      <b>numFilterConditions</b> member is zero, then this pointer will be NULL.
 
-
 ### -field action
 
 An 
      [FWPS_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0) structure that specifies the
      action that the filter should take if all of the filter's filtering conditions are true.
-
 
 ### -field context
 
@@ -164,17 +153,12 @@ A context value that is associated with the filter. A callout can set this membe
      driver-specific data or state information between calls by the filter engine to the callout driver's 
      <i>classifyFn2</i> callout function.
 
-
 ### -field providerContext
 
 A pointer to the provider context, which is formatted as a [FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2) structure. If the filter uses a callout, and the callout has the FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT flag set, this member will contain the provider context from the corresponding [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0) structure. Otherwise, this parameter is
-     NULL. 
-     
-
+     NULL.
 
 ## -remarks
-
-
 
 The filter engine passes a pointer to an <b>FWPS_FILTER2</b> structure to a callout's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a> and 
@@ -190,13 +174,7 @@ The
 This structure is essentially identical to the previous version, 
     [FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2) structure at the <b>providerContext</b> member.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)
 
@@ -231,7 +209,4 @@ This structure is essentially identical to the previous version,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a>
- 
-
- 
 

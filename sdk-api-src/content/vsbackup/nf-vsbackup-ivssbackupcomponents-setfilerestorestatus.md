@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 669d61cc-c586-4dcc-a936-5343a393d371
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetFileRestoreStatus method, IVssBackupComponents.SetFileRestoreStatus, IVssBackupComponents::SetFileRestoreStatus, SetFileRestoreStatus, SetFileRestoreStatus method [VSS], SetFileRestoreStatus method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setfilerestorestatus, base.ivssbackupcomponents_setfilerestorestatus, vsbackup/IVssBackupComponents::SetFileRestoreStatus
-f1_keywords:
-- vsbackup/IVssBackupComponents.SetFileRestoreStatus
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SetFileRestoreStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SetFileRestoreStatus
+ - vsbackup/IVssBackupComponents::SetFileRestoreStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SetFileRestoreStatus
 ---
 
 # IVssBackupComponents::SetFileRestoreStatus
@@ -50,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetFileRestoreStatus</b> method indicates whether some, all, or no files were successfully restored.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Writer identifier.
 
-
 ### -param ct [in]
 
 Type of the component. See 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -85,7 +79,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the name of the component. 
@@ -96,15 +89,11 @@ There are no restrictions on the characters that can appear in a non-<b>NULL</b>
 The string cannot be <b>NULL</b> and should contain the same component name as was used when the component was added to the backup set using 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
-
 ### -param status [in]
 
 If all of the files were restored, the value of this parameter is VSS_RS_ALL. If some of the files were restored, the value of this parameter is VSS_RS_FAILED. If none of the files were restored, the value of this parameter is VSS_RS_NONE.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -195,26 +184,14 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method should be called between calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">IVssBackupComponents::PostRestore</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -225,7 +202,4 @@ This method should be called between calls to
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
- 
-
- 
 

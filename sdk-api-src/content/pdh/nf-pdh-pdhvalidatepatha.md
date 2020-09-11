@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 9248e63c-2672-466f-85f5-46f26e31dc75
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePath, PdhValidatePath function [Perf], PdhValidatePathA, PdhValidatePathW, _win32_pdhvalidatepath, base.pdhvalidatepath, pdh/PdhValidatePath, pdh/PdhValidatePathA, pdh/PdhValidatePathW, perf.pdhvalidatepath
-f1_keywords:
-- pdh/PdhValidatePath
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhValidatePath
-- PdhValidatePathA
-- PdhValidatePathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhValidatePathA
+ - pdh/PdhValidatePathA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhValidatePath
+ - PdhValidatePathA
+ - PdhValidatePathW
 ---
 
 # PdhValidatePathA function
@@ -51,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Validates that the counter is present on the computer specified in the counter path.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param szFullPathBuffer [in]
 
 Null-terminated string that contains the counter path to validate. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -149,20 +141,10 @@ The function is unable to allocate a required temporary buffer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
- 
-
- 
 
 ## -remarks
 

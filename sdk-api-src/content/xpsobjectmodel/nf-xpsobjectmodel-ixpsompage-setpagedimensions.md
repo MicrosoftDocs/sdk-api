@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 4ae0a584-afa2-4288-82f8-c52c46de390f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetPageDimensions method, IXpsOMPage.SetPageDimensions, IXpsOMPage::SetPageDimensions, SetPageDimensions, SetPageDimensions method [XPS Documents and Packaging], SetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, pageDimensions.height, pageDimensions.width, xps.ixpsompage_setpagedimensions, xpsobjectmodel/IXpsOMPage::SetPageDimensions
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage.SetPageDimensions
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage.SetPageDimensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage::SetPageDimensions
+ - xpsobjectmodel/IXpsOMPage::SetPageDimensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage.SetPageDimensions
 ---
 
 # IXpsOMPage::SetPageDimensions
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets dimensions of the page.
 
-
 ## -parameters
-
-
-
 
 ### -param pageDimensions [in]
 
@@ -74,10 +70,7 @@ The  <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_
 
 ###### 0 ≤ value )
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -120,15 +113,8 @@ The page size specified in <i>pageDimensions</i> contains one or more  values th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
@@ -143,7 +129,4 @@ The page size specified in <i>pageDimensions</i> contains one or more  values th
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
- 
-
- 
 

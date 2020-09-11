@@ -8,10 +8,6 @@ tech.root: DirectShow
 ms.assetid: a5ea650c-42dd-405c-8ad9-6e48cf51353d
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [DirectShow], GetIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetIndex method, IAMStats.GetIndex, IAMStats::GetIndex, IAMStatsGetIndex, control/IAMStats::GetIndex, dshow.iamstats_getindex
-f1_keywords:
-- control/IAMStats.GetIndex
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStats.GetIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStats::GetIndex
+ - control/IAMStats::GetIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStats.GetIndex
 ---
 
 # IAMStats::GetIndex
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetIndex</code> method retrieves the index for a named statistic, or creates a new statistic.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param szName [in]
 
 Specifies the name of the statistic.
 
-
 ### -param lCreate [in]
 
 Specifies whether to create the statistic, if it is not defined already. If the value is <b>TRUE</b>, the method creates a new index for the statistic when it cannot find an existing entry with that name. If the value is <b>FALSE</b>, the method fails when the statistic does not already exist.
-
 
 ### -param plIndex [out]
 
 Receives the index.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -122,22 +110,12 @@ No match for this name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
- 
-
- 
 

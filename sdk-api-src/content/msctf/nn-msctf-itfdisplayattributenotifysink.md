@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: c21ff404-af42-488a-90f0-d3f02277c557
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interface [Text Services Framework], ITfDisplayAttributeNotifySink interface [Text Services Framework],described, _tsf_itfdisplayattributenotifysink_ref, msctf/ITfDisplayAttributeNotifySink, tsf.itfdisplayattributenotifysink
-f1_keywords:
-- msctf/ITfDisplayAttributeNotifySink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfDisplayAttributeNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfDisplayAttributeNotifySink
+ - msctf/ITfDisplayAttributeNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfDisplayAttributeNotifySink
 ---
 
 # ITfDisplayAttributeNotifySink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfDisplayAttributeNotifySink</b> interface is implemented by an application to receive a notification when display attribute information is updated. This advise sink is installed by calling the TSF manager's <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfDisplayAttributeNotifySink.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Called when display attribute information is updated.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
@@ -91,7 +86,4 @@ Called when display attribute information is updated.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

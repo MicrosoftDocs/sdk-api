@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3
 ms.date: 12/05/2018
 ms.keywords: VirtualQuery, VirtualQuery function, _win32_virtualquery, base.virtualquery, winbase/VirtualQuery
-f1_keywords:
-- memoryapi/VirtualQuery
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- VirtualQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualQuery
+ - memoryapi/VirtualQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - VirtualQuery
 ---
 
 # VirtualQuery function
@@ -57,17 +58,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a range of pages in the virtual address space of the calling process.
 
 To retrieve information about a range of pages in the address space of another process, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpAddress [in, optional]
 
@@ -76,32 +72,22 @@ A pointer to the base address of the region of pages to be queried. This value i
 
 If <i>lpAddress</i> specifies an address above the highest memory address accessible to the process, the function fails with <b>ERROR_INVALID_PARAMETER</b>.
 
-
 ### -param lpBuffer [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure in which information about the specified page range is returned.
 
-
 ### -param dwLength [in]
 
 The size of the buffer pointed to by the <i>lpBuffer</i> parameter, in bytes.
 
-
 ## -returns
-
-
 
 The return value is the actual number of bytes returned in the information buffer.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include <b>ERROR_INVALID_PARAMETER</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>VirtualQuery</b> provides information about a region of consecutive pages beginning at a specified address that share the following attributes:
 
@@ -118,13 +104,7 @@ If a shared copy-on-write page is modified, it becomes private to the process th
 This function reports on a region of pages in the memory of the calling process, and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a> function reports on a region of pages in the memory of a specified process.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
@@ -148,7 +128,4 @@ This function reports on a region of pages in the memory of the calling process,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a>
- 
-
- 
 

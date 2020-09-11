@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X4.#ctor
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X4, XMFLOAT4X4 constructor [DirectX Math Support APIs], XMFLOAT4X4 constructor [DirectX Math Support APIs],XMFLOAT4X4 structure, XMFLOAT4X4 structure [DirectX Math Support APIs],XMFLOAT4X4 constructor, XMFLOAT4X4.XMFLOAT4X4, XMFLOAT4X4.XMFLOAT4X4(), XMFLOAT4X4::XMFLOAT4X4, dxmath.xmfloat4x4_ctor_1
-f1_keywords:
-- directxmath/XMFLOAT4X4.XMFLOAT4X4
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT4X4.XMFLOAT4X4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT4X4::XMFLOAT4X4
+ - directxmath/XMFLOAT4X4::XMFLOAT4X4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT4X4.XMFLOAT4X4
 ---
 
 # XMFLOAT4X4::XMFLOAT4X4
 
 
 ## -description
-
 
 Default constructor for <code>XMFLOAT4X4</code>
 
@@ -59,25 +59,12 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 <code>XMFLOAT4X4()</code> constructs a new instance of the <code>XMFLOAT4X4</code> structure without
 	defining the value of any of its members.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -88,7 +75,4 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat4x4-ctor">XMFLOAT4X4 Constructors</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_present.htm
 ms.date: 12/05/2018
 ms.keywords: 5dfc8ba6-2dcd-cb78-b6d3-50ba63314d3c, IDXGISwapChain interface [DXGI],Present method, IDXGISwapChain.Present, IDXGISwapChain::Present, Present, Present method [DXGI], Present method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_present, dxgi/IDXGISwapChain::Present
-f1_keywords:
-- dxgi/IDXGISwapChain.Present
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGISwapChain.Present
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISwapChain::Present
+ - dxgi/IDXGISwapChain::Present
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGISwapChain.Present
 ---
 
 # IDXGISwapChain::Present
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Presents a rendered image to the user.
 
-
 ## -parameters
-
-
-
 
 ### -param SyncInterval
 
@@ -83,17 +79,13 @@ For an example that shows how sync-interval values affect a flip presentation qu
 
 If the update region straddles more than one output (each represented by <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>), <b>Present</b> performs the synchronization to the output that contains the largest sub-rectangle of the target window's client area.
 
-
 ### -param Flags
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An integer value that contains swap-chain presentation options. These options are defined by the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-present">DXGI_PRESENT</a> constants.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -102,11 +94,7 @@ Possible return values include: S_OK, DXGI_ERROR_DEVICE_RESET or DXGI_ERROR_DEVI
 <div class="alert"><b>Note</b>  The <b>Present</b> method can return either DXGI_ERROR_DEVICE_REMOVED or D3DDDIERR_DEVICEREMOVED if a video card has been physically removed from the computer, or a driver upgrade for the video card has occurred.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Starting with Direct3D 11.1, consider using <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a> because you can then use dirty rectangles and the scroll rectangle in the swap chain presentation and as such use less memory bandwidth and as a result less system power. For more info about using dirty rectangles and the scroll rectangle in swap chain presentation, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-2-presentation-improvements">Using dirty rectangles and the scroll rectangle in swap chain presentation</a>.
 
@@ -141,16 +129,7 @@ When you call <b>Present</b>, the runtime shows frame A for only 1 vertical blan
 <h3><a id="Variable_refresh_rate_displays"></a><a id="variable_refresh_rate_displays"></a><a id="VARIABLE_REFRESH_RATE_DISPLAYS"></a>Variable refresh rate displays</h3>
 It is a requirement of variable refresh rate displays that tearing is enabled. The <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport">CheckFeatureSupport</a> method can be used to determine if this feature is available, and to set the required flags refer to the descriptions of <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-present">DXGI_PRESENT_ALLOW_TEARING</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>, and the <b>Variable refresh rate displays/Vsync off</b> section of <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-5-improvements">DXGI 1.5 Improvements</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 9aa26d6c-aa86-4a23-a986-b8cb9057772a
 ms.date: 12/05/2018
 ms.keywords: IADsPathname, IADsPathname interface [ADSI], IADsPathname interface [ADSI],described, Pathname, _ds_iadspathname, adsi.iadspathname, iads/IADsPathname
-f1_keywords:
-- iads/IADsPathname
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPathname
-- Pathname
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPathname
+ - iads/IADsPathname
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPathname
+ - Pathname
 ---
 
 # IADsPathname interface
 
 
 ## -description
-
 
 The <b>IADsPathname</b> interface parses the X.500 and Windows path in ADSI.
 
@@ -85,7 +85,6 @@ Set path = CreateObject("Pathname")
 ```
 
 The <b>IADsPathname</b> interface uses two enumeration types:  <a href="/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>, and  <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>.
-
 
 ## -inheritance
 
@@ -208,13 +207,9 @@ Retrieves the mode for escaping a path.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
@@ -234,7 +229,4 @@ Retrieves the mode for escaping a path.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

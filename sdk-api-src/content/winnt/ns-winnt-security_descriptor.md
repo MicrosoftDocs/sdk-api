@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 653992aa-4e32-4187-b3ac-727e82bfe0b6
 ms.date: 12/05/2018
 ms.keywords: '*PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR structure pointer [Security], SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Security], _SECURITY_DESCRIPTOR, _win32_security_descriptor_str, security.security_descriptor, winnt/PISECURITY_DESCRIPTOR, winnt/SECURITY_DESCRIPTOR'
-f1_keywords:
-- winnt/SECURITY_DESCRIPTOR
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- SECURITY_DESCRIPTOR
 targetos: Windows
 req.typenames: SECURITY_DESCRIPTOR, *PISECURITY_DESCRIPTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SECURITY_DESCRIPTOR
+ - winnt/_SECURITY_DESCRIPTOR
+ - PISECURITY_DESCRIPTOR
+ - winnt/PISECURITY_DESCRIPTOR
+ - SECURITY_DESCRIPTOR
+ - winnt/SECURITY_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - SECURITY_DESCRIPTOR
 ---
 
 # SECURITY_DESCRIPTOR structure
@@ -49,18 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SECURITY_DESCRIPTOR</b> structure contains the security information associated with an object. Applications use this structure to set and query an object's security status.
 
 Because the internal format of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> can vary, we recommend that applications  not modify the <b>SECURITY_DESCRIPTOR</b> structure directly. For creating and manipulating a security descriptor, use the functions listed in See Also.
 
-
 ## -struct-fields
 
-
 ## -remarks
-
-
 
 A security descriptor includes information that specifies the following components of an object's security:
 
@@ -73,13 +73,7 @@ A security descriptor includes information that specifies the following componen
 </ul>
 Several functions that use the <b>SECURITY_DESCRIPTOR</b> structure require that this structure be aligned on a valid pointer boundary in memory. These boundaries vary depending on the type of processor used. Memory allocation functions such as <b>malloc</b> and <b>LocalAlloc</b> return properly aligned pointers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorcontrol">GetSecurityDescriptorControl</a>
 
@@ -134,7 +128,4 @@ Several functions that use the <b>SECURITY_DESCRIPTOR</b> structure require that
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a>
- 
-
- 
 

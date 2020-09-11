@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: dc4a6e6e-f968-4502-88d0-dc692341528d
 ms.date: 12/05/2018
 ms.keywords: PRESOURCE_TYPE_CONTROL_ROUTINE, PRESOURCE_TYPE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceTypeControl, ResourceTypeControl callback, ResourceTypeControl callback function [Failover Cluster], _wolf_resourcetypecontrol, mscs.resourcetypecontrol, resapi/PRESOURCE_TYPE_CONTROL_ROUTINE, resapi/ResourceTypeControl
-f1_keywords:
-- resapi/ResourceTypeControl
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- ResourceTypeControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PRESOURCE_TYPE_CONTROL_ROUTINE
+ - resapi/PRESOURCE_TYPE_CONTROL_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - ResourceTypeControl
 ---
 
 # PRESOURCE_TYPE_CONTROL_ROUTINE callback function
@@ -49,61 +50,46 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs an operation that applies to a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. The 
     <b>PRESOURCE_TYPE_CONTROL_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceTypeName [in]
 
 Type of resource to be affected by the operation.
 
-
 ### -param ControlCode [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">Control code</a> that represents the operation to be 
        performed. For a list of valid values for the <i>ControlCode</i> parameter, see 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-control-codes">Resource Type Control Codes</a>.
-
 
 ### -param InBuffer [in]
 
 Pointer to a buffer containing data to be used in the operation. <i>InBuffer</i> can be 
        <b>NULL</b> if the operation does not require data.
 
-
 ### -param InBufferSize [in]
 
 Size, in bytes, of the buffer pointed to by <i>InBuffer</i>.
-
 
 ### -param OutBuffer [out]
 
 Pointer to a buffer containing data resulting from the operation. <i>OutBuffer</i> can be 
        <b>NULL</b> if the operation returns no data.
 
-
 ### -param OutBufferSize [in]
 
 Size, in bytes, of the available space pointed to by <i>OutBuffer</i>.
-
 
 ### -param BytesReturned [out]
 
 Number of bytes in the buffer pointed to by <i>OutBuffer</i> that actually contain 
        data.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -130,14 +116,8 @@ The resource DLL requested that the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some control codes should be handled by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>, 
      while others should be left to the Resource Monitor. For effective implementation strategies of the 
@@ -151,15 +131,7 @@ See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Res
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
 

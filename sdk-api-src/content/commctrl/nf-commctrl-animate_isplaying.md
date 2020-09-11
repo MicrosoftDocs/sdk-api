@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_isplaying.htm
 ms.date: 12/05/2018
 ms.keywords: Animate_IsPlaying, Animate_IsPlaying macro [Windows Controls], _shell_Animate_IsPlaying, _shell_Animate_IsPlaying_cpp, commctrl/Animate_IsPlaying, controls.Animate_IsPlaying, controls._shell_Animate_IsPlaying
-f1_keywords:
-- commctrl/Animate_IsPlaying
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Animate_IsPlaying
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Animate_IsPlaying
+ - commctrl/Animate_IsPlaying
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Animate_IsPlaying
 ---
 
 # Animate_IsPlaying macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an <a href="https://docs.microsoft.com/windows/desktop/Controls/acm-isplaying">ACM_ISPLAYING</a> message.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 

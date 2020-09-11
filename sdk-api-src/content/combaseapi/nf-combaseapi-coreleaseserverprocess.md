@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: b28d41e2-4144-413d-9963-14f2d4dc8876
 ms.date: 12/05/2018
 ms.keywords: CoReleaseServerProcess, CoReleaseServerProcess function [COM], _com_CoReleaseServerProcess, com.coreleaseserverprocess, combaseapi/CoReleaseServerProcess
-f1_keywords:
-- combaseapi/CoReleaseServerProcess
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoReleaseServerProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoReleaseServerProcess
+ - combaseapi/CoReleaseServerProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoReleaseServerProcess
 ---
 
 # CoReleaseServerProcess function
@@ -53,31 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrements the global per-process reference count.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the server application should initiate its cleanup, the function returns 0; otherwise, the function returns a nonzero value.
 
-
-
-
 ## -remarks
-
-
 
 Servers can call <b>CoReleaseServerProcess</b> to decrement a global per-process reference count incremented through a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coaddrefserverprocess">CoAddRefServerProcess</a>.
 
@@ -89,13 +74,7 @@ The simplest way for a local server application to make use of these functions i
 
 If these APIs are used at all, they must be called in both the object instances and the <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nf-unknwnbase-iclassfactory-lockserver">LockServer</a> method, otherwise the server application may be shutdown prematurely. In-process Servers typically should not call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coaddrefserverprocess">CoAddRefServerProcess</a> or <b>CoReleaseServerProcess</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coaddrefserverprocess">CoAddRefServerProcess</a>
 
@@ -110,7 +89,4 @@ If these APIs are used at all, they must be called in both the object instances 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/out-of-process-server-implementation-helpers">Out-of-Process Server Implementation Helpers</a>
- 
-
- 
 

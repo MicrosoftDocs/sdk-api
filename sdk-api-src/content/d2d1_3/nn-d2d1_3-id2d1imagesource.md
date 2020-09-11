@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: a9ee20db-98cf-bc5f-96d8-232073810cc5
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageSource, ID2D1ImageSource interface [Direct2D], ID2D1ImageSource interface [Direct2D],described, d2d1_3/ID2D1ImageSource, direct2d.id2d1imagesource
-f1_keywords:
-- d2d1_3/ID2D1ImageSource
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1ImageSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1ImageSource
+ - d2d1_3/ID2D1ImageSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1ImageSource
 ---
 
 # ID2D1ImageSource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a producer of pixels that can fill an arbitrary 2D plane.
-
 
 ## -inheritance
 
@@ -87,13 +86,9 @@ Restores access to resources that were previously offered by calling <a href="ht
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic">I2D1DeviceContext2::CreateImageSourceFromWic</a>
 
@@ -108,7 +103,4 @@ Restores access to resources that were previously offered by calling <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>
- 
-
- 
 

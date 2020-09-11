@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e5e450b8-0b7b-4324-b453-5c020e74b1ee
 ms.date: 12/05/2018
 ms.keywords: GetTrusteeForm, GetTrusteeForm function [Security], GetTrusteeFormA, GetTrusteeFormW, _win32_gettrusteeform, aclapi/GetTrusteeForm, aclapi/GetTrusteeFormA, aclapi/GetTrusteeFormW, security.gettrusteeform
-f1_keywords:
-- aclapi/GetTrusteeForm
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- GetTrusteeForm
-- GetTrusteeFormA
-- GetTrusteeFormW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTrusteeFormW
+ - aclapi/GetTrusteeFormW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - GetTrusteeForm
+ - GetTrusteeFormA
+ - GetTrusteeFormW
 ---
 
 # GetTrusteeFormW function
@@ -51,36 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetTrusteeForm</b> function retrieves the trustee name from the specified <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. This value indicates whether the structure uses a name string or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to identify the trustee.
 
-
 ## -parameters
-
-
-
 
 ### -param pTrustee [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
-
 ## -returns
-
-
 
 The return value is one of the constants from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_form">TRUSTEE_FORM</a> enumeration.
-					
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
@@ -103,9 +89,6 @@ The return value is one of the constants from the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_form">TRUSTEE_FORM</a>
- 
-
- 
 
 ## -remarks
 

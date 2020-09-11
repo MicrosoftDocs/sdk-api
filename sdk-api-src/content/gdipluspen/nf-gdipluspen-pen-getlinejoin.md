@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getlinejoin.htm
 ms.date: 12/05/2018
 ms.keywords: GetLineJoin, GetLineJoin method [GDI+], GetLineJoin method [GDI+],Pen class, Pen class [GDI+],GetLineJoin method, Pen.GetLineJoin, Pen::GetLineJoin, _gdiplus_CLASS_Pen_GetLineJoin_, gdiplus._gdiplus_CLASS_Pen_GetLineJoin_
-f1_keywords:
-- gdipluspen/Pen.GetLineJoin
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Pen.GetLineJoin
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Pen::GetLineJoin
+ - gdipluspen/Pen::GetLineJoin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Pen.GetLineJoin
 ---
 
 # Pen::GetLineJoin
@@ -50,34 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Pen::GetLineJoin</b> method gets the line join style currently set for this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a></b>
 
 This method returns an element of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a> enumeration that indicates the style used at the point where line segments join.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-joining-lines-use">Joining Lines</a>
 
@@ -92,7 +78,4 @@ This method returns an element of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
- 
-
- 
 

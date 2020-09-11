@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 156948c9-d7b4-4491-bdb1-e1864a32caab
 ms.date: 12/05/2018
 ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback function [Files], PFE_EXPORT_FUNC, PFE_EXPORT_FUNC callback function [Files], base.exportcallback, fs.exportcallback, winbase/ExportCallback, winbase/PFE_EXPORT_FUNC
-f1_keywords:
-- winbase/ExportCallback
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinBase.h
-api_name:
-- ExportCallback
-- PFE_EXPORT_FUNC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFE_EXPORT_FUNC
+ - winbase/PFE_EXPORT_FUNC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinBase.h
+api_name:
+ - ExportCallback
+ - PFE_EXPORT_FUNC
 ---
 
 # PFE_EXPORT_FUNC callback function
 
 
 ## -description
-
 
 An application-defined callback function used with 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>. The system calls 
@@ -62,17 +62,12 @@ The <b>PFE_EXPORT_FUNC</b> type defines a pointer to the callback function.
     <b>ExportCallback</b> is a placeholder for the 
     application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param pbData [in]
 
 A pointer to a block of the encrypted file's data to be backed up. This block of data is allocated by the 
       system.
-
 
 ### -param pvCallbackContext [in, optional]
 
@@ -83,15 +78,11 @@ A pointer to an application-defined and allocated context block. The application
       contain any data the application needs, such as the handle to the file that contains the backup copy of the 
       encrypted file.
 
-
 ### -param ulLength [in]
 
 The size of the data pointed to by the <i>pbData</i> parameter, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, it must set the return value to <b>ERROR_SUCCESS</b>.
 
@@ -99,23 +90,12 @@ If the function fails, set the return value to a nonzero error code defined in W
        example, if this function fails because an API that it calls fails, you can set the return value to the value 
        returned by <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for the failed API.
 
-
-
-
 ## -remarks
-
-
 
 You can use the application-defined context block for internal tracking of information such as the file handle 
      and the current offset in the file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>
 
@@ -142,7 +122,4 @@ You can use the application-defined context block for internal tracking of infor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
- 
-
- 
 

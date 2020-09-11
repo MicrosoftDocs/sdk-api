@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileTransacted, MoveFileTransacted function [Files], MoveFileTransactedA, MoveFileTransactedW, fs.movefiletransacted, rename file [Files], winbase/MoveFileTransacted, winbase/MoveFileTransactedA, winbase/MoveFileTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/MoveFileTransacted"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - MoveFileTransactedW
+ - winbase/MoveFileTransactedW
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,18 +51,12 @@ api_name:
  - MoveFileTransacted
  - MoveFileTransactedA
  - MoveFileTransactedW
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # MoveFileTransactedW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -67,11 +67,7 @@ ms.custom: 19H1
 Moves an existing file or a directory, including its children, as a transacted 
     operation.
 
-
 ## -parameters
-
-
-
 
 ### -param lpExistingFileName [in]
 
@@ -81,7 +77,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
-
 
 ### -param lpNewFileName [in, optional]
 
@@ -93,7 +88,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
        "\\?\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-
 ### -param lpProgressRoutine [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a> callback 
@@ -101,13 +95,11 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/n
       useful if you provide a user interface that displays the progress of the operation. This parameter can be 
       <b>NULL</b>.
 
-
 ### -param lpData [in, optional]
 
 An argument to be passed to the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a> callback function. This 
       parameter can be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -203,18 +195,13 @@ This value has no effect if <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> is set.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -233,12 +220,7 @@ When moving a file across volumes, if <i>lpProgressRoutine</i> returns
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
        <b>ERROR_REQUEST_ABORTED</b>. The existing file is left intact.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>dwFlags</i> parameter specifies 
     <b>MOVEFILE_DELAY_UNTIL_REBOOT</b>, 
@@ -339,13 +321,7 @@ No
 
 SMB 3.0 does not support TxF.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a>
 
@@ -360,7 +336,4 @@ SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
 

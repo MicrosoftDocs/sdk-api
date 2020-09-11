@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 85da8225-31b8-4b4d-81f4-ad98871b8e31
 ms.date: 12/05/2018
 ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility], IToggleProvider interface [Windows Accessibility],described, uiauto.uiauto_IToggleProvider, uiauto_IToggleProvider, uiautomationcore/IToggleProvider, winauto.uiauto_IToggleProvider
-f1_keywords:
-- uiautomationcore/IToggleProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IToggleProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToggleProvider
+ - uiautomationcore/IToggleProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IToggleProvider
 ---
 
 # IToggleProvider interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to 
         controls that can cycle through a set of states and maintain a state after it is set.
-
 
 ## -inheritance
 
@@ -104,26 +103,13 @@ The toggle state of the control.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtoggle">Toggle</a> control pattern.
-			
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

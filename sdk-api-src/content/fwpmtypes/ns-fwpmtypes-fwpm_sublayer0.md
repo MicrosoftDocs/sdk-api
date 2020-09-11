@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: ce689b1d-1f5c-4dde-96cd-9001de3827aa
 ms.date: 12/05/2018
 ms.keywords: FWPM_SUBLAYER0, FWPM_SUBLAYER0 structure [Filtering], FWPM_SUBLAYER_FLAG_PERSISTENT, fwp.fwpm_sublayer0_struct, fwpmtypes/FWPM_SUBLAYER0
-f1_keywords:
-- fwpmtypes/FWPM_SUBLAYER0
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_SUBLAYER0
 targetos: Windows
 req.typenames: FWPM_SUBLAYER0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_SUBLAYER0_
+ - fwpmtypes/FWPM_SUBLAYER0_
+ - FWPM_SUBLAYER0
+ - fwpmtypes/FWPM_SUBLAYER0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_SUBLAYER0
 ---
 
 # FWPM_SUBLAYER0 structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_SUBLAYER0</b> structure stores the state associated with a sublayer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field subLayerKey
 
@@ -64,11 +62,9 @@ Uniquely identifies the sublayer. See <a href="https://docs.microsoft.com/window
 
 If the GUID is zero-initialized in the call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayeradd0">FwpmSubLayerAdd0</a>, the Base Filtering Engine (BFE) will generate one.
 
-
 ### -field displayData
 
 Allows sublayers to be annotated in human-readable form.   The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is required.
-
 
 ### -field flags
 
@@ -90,18 +86,14 @@ Causes sublayer to be persistent, surviving across BFE stop/start.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field providerKey
 
 Uniquely identifies the provider that manages this sublayer.
 
-
 ### -field providerData
 
 An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that contains optional provider-specific data that allows providers to store additional context info with the object.
-
 
 ### -field weight
 
@@ -109,23 +101,11 @@ Weight of the sublayer.
 
 Higher-weighted sublayers are invoked first.
 
-
 ## -remarks
-
-
 
 <b>FWPM_SUBLAYER0</b> is a specific implementation of FWPM_SUBLAYER. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
 

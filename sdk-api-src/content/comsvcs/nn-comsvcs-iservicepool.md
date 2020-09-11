@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2
 ms.date: 12/05/2018
 ms.keywords: IServicePool, IServicePool interface [COM+], IServicePool interface [COM+],described, _cos_IServicePool, comsvcs/IServicePool, cos.iservicepool
-f1_keywords:
-- comsvcs/IServicePool
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServicePool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServicePool
+ - comsvcs/IServicePool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServicePool
 ---
 
 # IServicePool interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to manage a COM+ object pool.
-
 
 ## -inheritance
 
@@ -97,16 +96,9 @@ Shuts down an object pool.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepoolconfig">IServicePoolConfig</a>
- 
-
- 
 

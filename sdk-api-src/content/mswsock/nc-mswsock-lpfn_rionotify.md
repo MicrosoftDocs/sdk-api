@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 02264DAC-A3A1-4F7D-9728-17BE7F10E859
 ms.date: 01/30/19
 ms.keywords: LPFN_RIONOTIFY
-f1_keywords:
-- mswsock/LPFN_RIONOTIFY
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIONOTIFY
+ - mswsock/LPFN_RIONOTIFY
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIONOTIFY
+ - LPFN_RIONOTIFY
 ---
 
 ## -description
@@ -61,7 +62,6 @@ If no error occurs, the **RIONotify** function returns **ERROR\_SUCCESS**. Other
 |---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2)**</dt> </dl>     | An invalid parameter was passed to the function. <br/> This error is returned if invalid completion queue is passed in the *CQ* parameter (**RIO\_INVALID\_CQ**, for example). This error can also be returned when an internal error occurs.<br/> |
 | <dl> <dt>**[WSAEALREADY](/windows/win32/winsock/windows-sockets-error-codes-2)**</dt> </dl> | An operation was attempted on a non-blocking socket that already had an operation in progress.<br/> This error is returned if a previous [**RIONotify**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify) request has not yet completed.<br/>                                        |
-
 
 ## -remarks
 

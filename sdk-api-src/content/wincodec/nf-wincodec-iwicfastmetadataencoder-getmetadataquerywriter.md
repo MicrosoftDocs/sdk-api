@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 1d8a0993-101a-4aa5-9e2f-c3f95b9d3d3f
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICFastMetadataEncoder interface, IWICFastMetadataEncoder interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICFastMetadataEncoder.GetMetadataQueryWriter, IWICFastMetadataEncoder::GetMetadataQueryWriter, _wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wic._wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wincodec/IWICFastMetadataEncoder::GetMetadataQueryWriter
-f1_keywords:
-- wincodec/IWICFastMetadataEncoder.GetMetadataQueryWriter
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICFastMetadataEncoder.GetMetadataQueryWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICFastMetadataEncoder::GetMetadataQueryWriter
+ - wincodec/IWICFastMetadataEncoder::GetMetadataQueryWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICFastMetadataEncoder.GetMetadataQueryWriter
 ---
 
 # IWICFastMetadataEncoder::GetMetadataQueryWriter
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a metadata query writer for fast metadata encoding.
 
-
 ## -parameters
-
-
-
 
 ### -param ppIMetadataQueryWriter [out]
 
@@ -64,22 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-win
 
 When this method returns, contains a pointer to the fast metadata encoder's metadata query writer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -98,7 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
- 
-
- 
 

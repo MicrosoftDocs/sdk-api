@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\imilbitmapeffects.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects, IMILBitmapEffects interface [WPF Bitmap Effects], IMILBitmapEffects interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffects, mileffects/IMILBitmapEffects, wibe._wibe_imilbitmapeffects
-f1_keywords:
-- mileffects/IMILBitmapEffects
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.h
-api_name:
-- IMILBitmapEffects
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffects
+ - mileffects/IMILBitmapEffects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.h
+api_name:
+ - IMILBitmapEffects
 ---
 
 # IMILBitmapEffects interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that define an enumeration of effects.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Retrieves the parent effect group of enumeration.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 730fa372-f620-4d21-99b9-3e7b79932792
 ms.date: 12/05/2018
 ms.keywords: _win32_getservbyname_2, getservbyname, getservbyname function [Winsock], winsock.getservbyname_2, winsock/getservbyname
-f1_keywords:
-- winsock/getservbyname
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getservbyname
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getservbyname
+ - winsock/getservbyname
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getservbyname
 ---
 
 # getservbyname function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getservbyname</b> function retrieves service information corresponding to a service name and protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 A pointer to a <b>null</b>-terminated service name.
-
 
 ### -param proto [in]
 
@@ -72,10 +67,7 @@ the <b>getservbyname</b> function returns the first service entry where <i>name<
 <b>servent</b> structure. Otherwise, 
 <b>getservbyname</b> matches both the <i>name</i> and the <i>proto</i>.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getservbyname</b> returns a pointer to the 
@@ -178,14 +170,8 @@ A blocking Windows Socket 1.1 call was canceled through
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>getservbyname</b> function returns a pointer to the 
@@ -198,13 +184,7 @@ The pointer that is returned points to the
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetservbyname">WSAAsyncGetServByName</a>
 
@@ -219,7 +199,4 @@ The pointer that is returned points to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getservbyport">getservbyport</a>
- 
-
- 
 

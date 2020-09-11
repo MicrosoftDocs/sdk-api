@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin.SetConfiguration, IOCSPAdmin::SetConfiguration, SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
-f1_keywords:
-- certadm/IOCSPAdmin.SetConfiguration
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPAdmin.SetConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPAdmin::SetConfiguration
+ - certadm/IOCSPAdmin::SetConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPAdmin.SetConfiguration
 ---
 
 # IOCSPAdmin::SetConfiguration
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetConfiguration</b> method updates a responder service  with configuration changes.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrServerName [in]
 
 A string that contains the responder-service name.
-
 
 ### -param bForce [in]
 
@@ -82,19 +77,12 @@ A string that contains the responder-service name.
 
 ## -returns
 
-
-
 <h3>VB</h3>
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The following table lists the effects of the <i>bForce</i> parameter value on the method call.
 
@@ -172,18 +160,8 @@ Return an error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
- 
-
- 
 

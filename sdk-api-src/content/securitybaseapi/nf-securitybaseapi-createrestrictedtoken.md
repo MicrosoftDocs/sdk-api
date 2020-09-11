@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e087f360-5d1d-4846-b3d6-214a426e5222
 ms.date: 12/05/2018
 ms.keywords: CreateRestrictedToken, CreateRestrictedToken function [Security], DISABLE_MAX_PRIVILEGE, LUA_TOKEN, SANDBOX_INERT, WRITE_RESTRICTED, _win32_createrestrictedtoken, security.createrestrictedtoken, securitybaseapi/CreateRestrictedToken
-f1_keywords:
-- securitybaseapi/CreateRestrictedToken
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- CreateRestrictedToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateRestrictedToken
+ - securitybaseapi/CreateRestrictedToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - CreateRestrictedToken
 ---
 
 # CreateRestrictedToken function
@@ -56,20 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateRestrictedToken</b> function creates a new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> that is a restricted version of an existing access token. The restricted token can have disabled <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs), deleted privileges, and a list of restricting SIDs. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/restricted-tokens">Restricted Tokens</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ExistingTokenHandle [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>. The token can also be a restricted token. The handle must have TOKEN_DUPLICATE access to the token.
-
 
 ### -param Flags [in]
 
@@ -139,13 +134,10 @@ The new token contains restricting SIDs that are considered only when evaluating
 </td>
 </tr>
 </table>
- 
-
 
 ### -param DisableSidCount [in]
 
 Specifies the number of entries in the <i>SidsToDisable</i> array.
-
 
 ### -param SidsToDisable [in, optional]
 
@@ -164,11 +156,9 @@ The function ignores the <b>Attributes</b> member of the <a href="https://docs.m
 
 This parameter can be <b>NULL</b> if no SIDs are to be disabled.
 
-
 ### -param DeletePrivilegeCount [in]
 
 Specifies the number of entries in the <i>PrivilegesToDelete</i> array.
-
 
 ### -param PrivilegesToDelete [in, optional]
 
@@ -186,11 +176,9 @@ This parameter can be <b>NULL</b> if you do not want to delete any privileges.
 
 If the calling program passes too many privileges in this array, <b>CreateRestrictedToken</b> returns ERROR_INVALID_PARAMETER.
 
-
 ### -param RestrictedSidCount [in]
 
 Specifies the number of entries in the <i>SidsToRestrict</i> array.
-
 
 ### -param SidsToRestrict [in, optional]
 
@@ -204,27 +192,18 @@ The <b>Attributes</b> member of the <a href="https://docs.microsoft.com/windows/
 
 This parameter can be <b>NULL</b> if you do not want to specify any restricting SIDs.
 
-
 ### -param NewTokenHandle [out]
 
 A pointer to a variable that receives a handle to the new restricted token. This handle has the same access rights as <i>ExistingTokenHandle</i>. The new token is the same type, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation</a>, as the existing token. The handle returned in <i>NewTokenHandle</i> can be duplicated.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CreateRestrictedToken</b> function can restrict the token in the following ways:
 
@@ -244,12 +223,7 @@ You can use the restricted token in the
 <div class="alert"><b>Caution</b>  Applications that use restricted tokens should run the restricted application on desktops other than the default desktop. This is necessary to prevent an attack by a restricted application, using <b>SendMessage</b> or <b>PostMessage</b>, to unrestricted applications on the default desktop. If necessary, switch between desktops for your application purposes.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
@@ -280,7 +254,4 @@ You can use the restricted token in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a>
- 
-
- 
 

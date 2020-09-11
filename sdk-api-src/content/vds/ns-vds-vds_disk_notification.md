@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ff0069ce-611f-4ad4-9b67-adb7dc0f7abc
 ms.date: 12/05/2018
 ms.keywords: VDS_DISK_NOTIFICATION, VDS_DISK_NOTIFICATION structure [VDS], VDS_NF_DISK_ARRIVE, VDS_NF_DISK_DEPART, VDS_NF_DISK_MODIFY, base.vds_disk_notification, vds/_VDS_DISK_NOTIFICATION, vdshwprv/_VDS_DISK_NOTIFICATION
-f1_keywords:
-- vds/VDS_DISK_NOTIFICATION
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_DISK_NOTIFICATION
 targetos: Windows
 req.typenames: VDS_DISK_NOTIFICATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_DISK_NOTIFICATION
+ - vds/_VDS_DISK_NOTIFICATION
+ - VDS_DISK_NOTIFICATION
+ - vds/VDS_DISK_NOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_DISK_NOTIFICATION
 ---
 
 # VDS_DISK_NOTIFICATION structure
@@ -50,17 +53,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the details of disk events.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulEvent
 
@@ -107,17 +105,12 @@ A member of the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field diskId
 
 The GUID of the disk object that triggered the event.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this 
     structure as a member.
@@ -129,13 +122,7 @@ An application can receive disk events by implementing the
 
 To get the disk object, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk3-getproperties2">IVdsDisk3::GetProperties2</a> method to get the disk properties.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a>
 
@@ -158,7 +145,4 @@ To get the disk object, use the <a href="https://docs.microsoft.com/windows/desk
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
- 
-
- 
 

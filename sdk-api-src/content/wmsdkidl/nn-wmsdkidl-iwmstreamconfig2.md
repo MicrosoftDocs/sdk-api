@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 3ce92541-6634-4418-a7ee-f9bcaf8f42ad
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], IWMStreamConfig2 interface [windows Media Format],described, IWMStreamConfig2Interface, wmformat.iwmstreamconfig2, wmsdkidl/IWMStreamConfig2
-f1_keywords:
-- wmsdkidl/IWMStreamConfig2
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMStreamConfig2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamConfig2
+ - wmsdkidl/IWMStreamConfig2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMStreamConfig2
 ---
 
 # IWMStreamConfig2 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMStreamConfig2</b> interface manages the data unit extensions associated with a stream.
 
 <b>IWMStreamConfig2</b> inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a>. To obtain a pointer to <b>IWMStreamConfig2</b>, call the <b>QueryInterface</b> method of the <b>IWMStreamConfig</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -263,13 +259,9 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps</a> (on video streams only)</td>
 <td>IID_IWMVideoMediaProps</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
 
@@ -280,7 +272,4 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

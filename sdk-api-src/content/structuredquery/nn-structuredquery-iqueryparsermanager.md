@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\iqueryparsermanager.htm
 ms.date: 12/05/2018
 ms.keywords: IQueryParserManager, IQueryParserManager interface [search], IQueryParserManager interface [search],described, _search_IQueryParserManager, search._search_IQueryParserManager, structuredquery/IQueryParserManager
-f1_keywords:
-- structuredquery/IQueryParserManager
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- IQueryParserManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IQueryParserManager
+ - structuredquery/IQueryParserManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - IQueryParserManager
 ---
 
 # IQueryParserManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods to create, initialize, and change options for an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> object.
-
 
 ## -inheritance
 
@@ -96,25 +95,13 @@ Changes a single option in this <b>IQueryParserManager</b> object. For example, 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/lwef/-search-2x-wds-aqsreference">Advanced Query Syntax</a>
- 
-
- 
 

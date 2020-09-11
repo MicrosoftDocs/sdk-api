@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5ae99416-c502-46f6-ba58-7385ce410e48
 ms.date: 12/05/2018
 ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_ICONASTERISK, MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_ICONSTOP, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_SERVICE_NOTIFICATION, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_YESNO, MB_YESNOCANCEL, PWLX_MESSAGE_BOX, PWLX_MESSAGE_BOX callback, WlxMessageBox, WlxMessageBox callback function [Security], _gina_wlxmessagebox, security.wlxmessagebox, winwlx/WlxMessageBox
-f1_keywords:
-- winwlx/WlxMessageBox
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winwlx.h
-api_name:
-- WlxMessageBox
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWLX_MESSAGE_BOX
+ - winwlx/PWLX_MESSAGE_BOX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winwlx.h
+api_name:
+ - WlxMessageBox
 ---
 
 # PWLX_MESSAGE_BOX callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxMessageBox function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -57,29 +57,22 @@ The <b>WlxMessageBox</b> function is called by <a href="https://docs.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param hWlx [in]
 
 Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> handle passed to GINA in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
-
 ### -param hwndOwner [in]
 
 Specifies the owner window of the message box to be created. If this parameter is <b>NULL</b>, the message box has no owner window.
-
 
 ### -param lpszText [in]
 
 Points to a null-terminated string that contains the message to be displayed.
 
-
 ### -param lpszTitle [in]
 
 Points to a null-terminated string used for the dialog box title. If this parameter is <b>NULL</b>, the default title Error is used.
-
 
 ### -param fuStyle [in]
 
@@ -319,12 +312,8 @@ The message box contains three command buttons: <b>Yes</b>, <b>No</b>, and <b>Ca
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function fails, or if there is not enough memory to create the message box, the return value is zero.
 
@@ -415,14 +404,8 @@ A  button was not selected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WlxMessageBox</b> function does not handle <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SAS</a> events, and is not suitable for security dialog boxes. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box">WlxDialogBox</a>, 
@@ -433,13 +416,7 @@ The <b>WlxMessageBox</b> function does not handle <a href="https://docs.microsof
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function, with the exception that this function also allows Winlogon to time out the dialog box. For more information, see 
 <b>MessageBox</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
 
@@ -462,7 +439,4 @@ The <b>WlxMessageBox</b> function does not handle <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
- 
-
- 
 

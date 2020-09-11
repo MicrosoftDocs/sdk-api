@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 5e40535d-62b2-4d16-a995-61c24aefb2e5
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourceNotificationEx, ITsSbResourceNotificationEx interface [Remote Desktop Services], ITsSbResourceNotificationEx interface [Remote Desktop Services],described, sbtsv/ITsSbResourceNotificationEx, termserv.itssbresourcenotificationex
-f1_keywords:
-- sbtsv/ITsSbResourceNotificationEx
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourceNotificationEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourceNotificationEx
+ - sbtsv/ITsSbResourceNotificationEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourceNotificationEx
 ---
 
 # ITsSbResourceNotificationEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects. Plug-ins can use these notifications in many ways. For example, they can implement load-balancing algorithms.
-
 
 ## -inheritance
 
@@ -95,20 +94,13 @@ Notifies registered plug-ins about state changes in a target object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

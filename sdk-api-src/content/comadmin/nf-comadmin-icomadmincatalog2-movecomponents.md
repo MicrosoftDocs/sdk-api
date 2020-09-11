@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 38cc4726-4b61-4f4b-9719-161297361f45
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],MoveComponents method, ICOMAdminCatalog2.MoveComponents, ICOMAdminCatalog2::MoveComponents, MoveComponents, MoveComponents method [COM+], MoveComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_MoveComponents, comadmin/ICOMAdminCatalog2::MoveComponents, cos.icomadmincatalog2_movecomponents
-f1_keywords:
-- comadmin/ICOMAdminCatalog2.MoveComponents
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog2.MoveComponents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog2::MoveComponents
+ - comadmin/ICOMAdminCatalog2::MoveComponents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog2.MoveComponents
 ---
 
 # ICOMAdminCatalog2::MoveComponents
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the specified components from one application to another.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrSourceApplicationIDOrName [in]
 
 The application ID or name of the source application.
 
-
 ### -param pVarCLSIDOrProgID [in]
 
 The components to be moved. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getcollectionbyquery2">GetCollectionByQuery2</a> method).
-
 
 ### -param bstrDestinationApplicationIDOrName [in]
 
 The application ID or name of the destination application.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -107,18 +98,8 @@ At least one of the named applications exists in multiple partitions. To avoid t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 092162af-5f88-4ce5-ac2f-89327f094804
 ms.date: 12/05/2018
 ms.keywords: IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], IDvbSiParser interface [Microsoft TV Technologies],described, IDvbSiParserInterface, dvbsiparser/IDvbSiParser, mstv.idvbsiparser
-f1_keywords:
-- dvbsiparser/IDvbSiParser
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSiParser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSiParser
+ - dvbsiparser/IDvbSiParser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSiParser
 ---
 
 # IDvbSiParser interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IDvbSiParser</b> retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.
-
-
-
 
 ## -inheritance
 
@@ -209,25 +205,13 @@ Initializes this object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To get a pointer to this interface, see the remarks for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser2">IDvbSiParser2</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

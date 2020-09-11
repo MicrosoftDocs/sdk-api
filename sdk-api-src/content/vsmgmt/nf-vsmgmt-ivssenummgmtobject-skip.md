@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ec53ac62-deb3-46f3-947a-1f6a4add4db2
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Skip method, IVssEnumMgmtObject.Skip, IVssEnumMgmtObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_skip, vsmgmt/IVssEnumMgmtObject::Skip
-f1_keywords:
-- vsmgmt/IVssEnumMgmtObject.Skip
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssEnumMgmtObject.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssEnumMgmtObject::Skip
+ - vsmgmt/IVssEnumMgmtObject::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssEnumMgmtObject.Skip
 ---
 
 # IVssEnumMgmtObject::Skip
@@ -49,37 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Skip</b> method skips the specified 
     number of objects.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Number of elements to be skipped in the list of enumerated objects.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
- 
-
- 
 

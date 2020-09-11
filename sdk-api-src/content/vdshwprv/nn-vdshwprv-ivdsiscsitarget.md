@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
-f1_keywords:
-- vdshwprv/IVdsIscsiTarget
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsIscsiTarget
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsIscsiTarget
+ - vdshwprv/IVdsIscsiTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsIscsiTarget
 ---
 
 # IVdsIscsiTarget interface
@@ -50,12 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides 
    methods for performing query and configuration operations on an iSCSI target.
-
 
 ## -inheritance
 
@@ -147,16 +146,9 @@ Sets the friendly name of the target.</p> (Inherited from <b>IVdsIscsiTarget</b>
 Sets the target CHAP secret used for CHAP authentication when the target authenticates the 
      initiator.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

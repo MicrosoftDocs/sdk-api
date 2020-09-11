@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: b5ef85d0-b54e-4831-87f1-ac6763179181
 ms.date: 12/05/2018
 ms.keywords: IOleCache, IOleCache interface [COM], IOleCache interface [COM],described, _ole_iolecache, com.iolecache, oleidl/IOleCache
-f1_keywords:
-- oleidl/IOleCache
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleCache
+ - oleidl/IOleCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleCache
 ---
 
 # IOleCache interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides control of the presentation data that gets cached inside of an object. Cached presentation data is available to the container of the object even when the server application is not running or is unavailable.
-
 
 ## -inheritance
 
@@ -113,13 +112,9 @@ Removes a cache connection created previously using <a href="https://docs.micros
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createdatacache">CreateDataCache</a>
 
@@ -130,7 +125,4 @@ Removes a cache connection created previously using <a href="https://docs.micros
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
- 
-
- 
 

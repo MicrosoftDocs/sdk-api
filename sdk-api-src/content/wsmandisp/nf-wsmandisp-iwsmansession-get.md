@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: f6393cfb-0787-4d30-8d02-be0996885f22
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Windows Remote Management], Get method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Get method, IWSManSession.Get, IWSManSession::Get, winrm.iwsmansession_get, wsmandisp/IWSManSession::Get
-f1_keywords:
-- wsmandisp/IWSManSession.Get
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManSession.Get
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManSession::Get
+ - wsmandisp/IWSManSession::Get
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManSession.Get
 ---
 
 # IWSManSession::Get
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the resource specified by the  <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">URI</a> and returns an XML representation of the current instance of the resource.
 
-
 ## -parameters
-
-
-
 
 ### -param resourceUri [in]
 
@@ -75,32 +71,19 @@ This parameter can contain one of the following:
 
 Reserved for future use. Must be set to 0.
 
-
 ### -param resource [out]
 
 A value that, upon success, is an XML representation of the resource.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-get">Session.Get</a>
- 
-
- 
 

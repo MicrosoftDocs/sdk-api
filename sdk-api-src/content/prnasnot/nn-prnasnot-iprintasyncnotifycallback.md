@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e2b021cd-1cfd-42b7-b6e4-7f8671b013f6
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyCallback, IPrintAsyncNotifyCallback interface [Windows GDI], IPrintAsyncNotifyCallback interface [Windows GDI],described, _win32_IPrintAsyncNotifyCallback, gdi.iprintasyncnotifycallback, prnasnot/IPrintAsyncNotifyCallback
-f1_keywords:
-- prnasnot/IPrintAsyncNotifyCallback
-dev_langs:
-- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prnasnot.h
-api_name:
-- IPrintAsyncNotifyCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintAsyncNotifyCallback
+ - prnasnot/IPrintAsyncNotifyCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prnasnot.h
+api_name:
+ - IPrintAsyncNotifyCallback
 ---
 
 # IPrintAsyncNotifyCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and manages a communication channel used by applications and components that are hosted by the print spooler.
-
 
 ## -inheritance
 
@@ -86,31 +85,19 @@ Used by a notification sender to alert a listener that a notification is availab
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 For an application to receive notifications from a Print Spooler-hosted component, it must provide an <b>IPrintAsyncNotifyCallback</b> object when it registers for notifications.
 
 A Print Spooler-hosted component that opens a bidirectional communication channel with a listening application must provide an <b>IPrintAsyncNotifyCallback</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
 

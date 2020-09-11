@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 049f1ea3-4d23-4b35-8b08-7256859aed45
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, NetQueryDisplayInformation, NetQueryDisplayInformation function [Network Management], _win32_netquerydisplayinformation, lmaccess/NetQueryDisplayInformation, netmgmt.netquerydisplayinformation
-f1_keywords:
-- lmaccess/NetQueryDisplayInformation
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetQueryDisplayInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetQueryDisplayInformation
+ - lmaccess/NetQueryDisplayInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetQueryDisplayInformation
 ---
 
 # NetQueryDisplayInformation function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 				<b>NetQueryDisplayInformation</b> function returns user account, computer, or group account information. Call this function to quickly enumerate account information for display in user interfaces.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerName [in]
 
 Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
 
 ### -param Level [in]
 
@@ -109,29 +104,23 @@ Return group account information. The <i>SortedBuffer</i> parameter points to an
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Index [in]
 
 Specifies the index of the first entry for which to retrieve information. Specify zero to retrieve account information beginning with the first display information entry. For more information, see the following Remarks section.
-
 
 ### -param EntriesRequested [in]
 
 Specifies the maximum number of entries for which to retrieve information. On Windows 2000 and later, each call to 
 <b>NetQueryDisplayInformation</b> returns a maximum of 100 objects.
 
-
 ### -param PreferredMaximumLength [in]
 
 Specifies the preferred maximum size, in bytes, of the system-allocated buffer returned in the <i>SortedBuffer</i> parameter. It is recommended that you set this parameter to MAX_PREFERRED_LENGTH.
 
-
 ### -param ReturnedEntryCount [out]
 
 Pointer to a value that receives the number of entries in the buffer returned in the <i>SortedBuffer</i> parameter. If this parameter is zero, there are no entries with an index as large as that specified. Entries may be returned when the function's return value is either NERR_Success or ERROR_MORE_DATA.
-
 
 ### -param SortedBuffer [out]
 
@@ -140,10 +129,7 @@ Pointer to a buffer that receives a pointer to a system-allocated buffer that sp
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -190,14 +176,8 @@ More entries are available. That is, the last entry returned in the <i>SortedBuf
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
@@ -311,14 +291,7 @@ void main( int argc, char *argv[ ] )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/get-functions">Get Functions</a>
 
@@ -363,7 +336,4 @@ void main( int argc, char *argv[ ] )
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
 

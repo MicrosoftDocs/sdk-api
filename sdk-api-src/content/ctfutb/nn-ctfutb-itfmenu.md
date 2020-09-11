@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 303115e1-8d52-4a0a-b05e-b5c92b8b3e2a
 ms.date: 12/05/2018
 ms.keywords: ITfMenu, ITfMenu interface [Text Services Framework], ITfMenu interface [Text Services Framework],described, _tsf_itfmenu_ref, ctfutb/ITfMenu, tsf.itfmenu
-f1_keywords:
-- ctfutb/ITfMenu
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfMenu
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMenu
+ - ctfutb/ITfMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfMenu
 ---
 
 # ITfMenu interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfMenu</b> interface is implemented by the language bar and used by a language bar button provider to add items to the menu that the language bar will display for the button.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Adds an item to the menu that the language bar will display for the button.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-initmenu">ITfLangBarItemBitmapButton::InitMenu
       </a>
@@ -101,7 +96,4 @@ Adds an item to the menu that the language bar will display for the button.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

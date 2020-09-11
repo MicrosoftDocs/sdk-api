@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: ab01420f-c401-463a-a695-4594c1f579d3
 ms.date: 12/05/2018
 ms.keywords: GetSignatureMethod, GetSignatureMethod method [XPS Documents and Packaging], GetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignatureMethod method, IXpsSigningOptions.GetSignatureMethod, IXpsSigningOptions::GetSignatureMethod, xps.ixpssigningoptions_getsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::GetSignatureMethod
-f1_keywords:
-- xpsdigitalsignature/IXpsSigningOptions.GetSignatureMethod
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSigningOptions.GetSignatureMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSigningOptions::GetSignatureMethod
+ - xpsdigitalsignature/IXpsSigningOptions::GetSignatureMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSigningOptions.GetSignatureMethod
 ---
 
 # IXpsSigningOptions::GetSignatureMethod
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the signature method.
 
-
 ## -parameters
-
-
-
 
 ### -param signatureMethod [out, retval]
 
@@ -64,19 +60,11 @@ The signature method that is expressed as a URI. If no signature method has been
 
 The following signature methods have been tested in Windows 7:
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A signature method must be set before signing.
 
@@ -84,13 +72,7 @@ When a new instance of this interface is returned by <a href="https://docs.micro
 
 This method allocates the memory used by the string that is returned in <i>signatureMethod</i>.  If <i>signatureMethod</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Cryptography Functions</a>
 
@@ -105,7 +87,4 @@ This method allocates the memory used by the string that is returned in <i>signa
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

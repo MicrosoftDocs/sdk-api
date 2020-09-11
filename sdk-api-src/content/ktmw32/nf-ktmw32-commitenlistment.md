@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d1e1043d-2db3-4f05-affc-2d32744baf10
 ms.date: 12/05/2018
 ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment
-f1_keywords:
-- ktmw32/CommitEnlistment
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: KtmW32.lib
 req.dll: KtmW32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- KtmW32.dll
-api_name:
-- CommitEnlistment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CommitEnlistment
+ - ktmw32/CommitEnlistment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - KtmW32.dll
+api_name:
+ - CommitEnlistment
 ---
 
 # CommitEnlistment function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Commits the transaction associated with this enlistment handle. This function is used by communication 
     resource managers (sometimes called superior transaction managers).
 
-
 ## -parameters
-
-
-
 
 ### -param EnlistmentHandle [in]
 
 A handle to the enlistment to commit.
-
 
 ### -param TmVirtualClock [in]
 
@@ -72,10 +67,7 @@ A pointer to the latest virtual clock value received for this enlistment. If you
 To change the virtual clock value, this value must be greater than the current value returned by a 
       subordinate TM.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -85,15 +77,7 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 The following list identifies the possible error codes:
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-commitcomplete">CommitComplete</a>
 
@@ -108,7 +92,4 @@ The following list identifies the possible error codes:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
- 
-
- 
 

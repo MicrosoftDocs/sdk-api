@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: af2bea36-d576-4144-8e21-3f89772465ed
 ms.date: 12/05/2018
 ms.keywords: NdrSimpleTypeMarshall, NdrSimpleTypeMarshall function [RPC], rpc.ndrsimpletypemarshall, rpcndr/NdrSimpleTypeMarshall
-f1_keywords:
-- rpcndr/NdrSimpleTypeMarshall
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RpcRT4.dll
-api_name:
-- NdrSimpleTypeMarshall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdrSimpleTypeMarshall
+ - rpcndr/NdrSimpleTypeMarshall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RpcRT4.dll
+api_name:
+ - NdrSimpleTypeMarshall
 ---
 
 # NdrSimpleTypeMarshall function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdrSimpleTypeMarshall</b> function marshalls a simple type.
 
-
 ## -parameters
-
-
-
 
 ### -param pStubMsg [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
-
 ### -param pMemory [in]
 
 Pointer to the simple type to be marshalled.
-
 
 ### -param FormatChar [in]
 
 Simple type format character.
 
-
 ## -returns
-
-
 
  If an error occurs, the function throws one of the following exception codes. 
 
@@ -93,7 +84,4 @@ Simple type format character.
 <td>An error occurred in RPC.</td>
 </tr>
 </table>
- 
-
-
 

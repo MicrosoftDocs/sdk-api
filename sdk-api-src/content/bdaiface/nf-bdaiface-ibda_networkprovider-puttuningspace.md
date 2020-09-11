@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 4541a675-875b-4a6c-8251-e13abdd46b38
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],PutTuningSpace method, IBDA_NetworkProvider.PutTuningSpace, IBDA_NetworkProvider::PutTuningSpace, IBDA_NetworkProviderPutTuningSpace, PutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::PutTuningSpace, mstv.ibda_networkprovider_puttuningspace
-f1_keywords:
-- bdaiface/IBDA_NetworkProvider.PutTuningSpace
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdaiface.h
-api_name:
-- IBDA_NetworkProvider.PutTuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_NetworkProvider::PutTuningSpace
+ - bdaiface/IBDA_NetworkProvider::PutTuningSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdaiface.h
+api_name:
+ - IBDA_NetworkProvider.PutTuningSpace
 ---
 
 # IBDA_NetworkProvider::PutTuningSpace
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>PutTuningSpace</b> method specifies the tuning space.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidTuningSpace [in]
 
 Specifies the tuning space.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -89,7 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_networkprovider">IBDA_NetworkProvider Interface</a>
- 
-
- 
 

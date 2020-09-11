@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectf.htm
 ms.date: 12/05/2018
 ms.keywords: RectF, RectF class [GDI+], RectF class [GDI+],described, _gdiplus_CLASS_RectF_Class, gdiplus._gdiplus_CLASS_RectF_Class, gdiplustypes/RectF
-f1_keywords:
-- gdiplustypes/RectF
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdiplustypes.h
-api_name:
-- RectF
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RectF
+ - gdiplustypes/RectF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdiplustypes.h
+api_name:
+ - RectF
 ---
 
 # RectF class
 
 
 ## -description
-
 
 A <b>RectF</b> object stores the upper-left corner, width, and height of a rectangle.
 
@@ -307,18 +307,13 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The upper-left corner of the rectangle is located at (
 				<i>x</i>, 
 				<i>y</i>). The size of the rectangle is measured by 
 				<i>width</i> and 
 				<i>height</i>. There are methods for high-level functionality, such as moving, resizing, and performing or testing interactions with other rectangles.
-
-
 

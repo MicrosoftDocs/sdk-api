@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 05e46df3-b6c8-4520-af11-21e1ff90fb9f
 ms.date: 12/05/2018
 ms.keywords: IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], IPerPropertyBrowsing interface [COM],described, _ctrl_iperpropertybrowsing, com.iperpropertybrowsing, ocidl/IPerPropertyBrowsing
-f1_keywords:
-- ocidl/IPerPropertyBrowsing
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPerPropertyBrowsing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPerPropertyBrowsing
+ - ocidl/IPerPropertyBrowsing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPerPropertyBrowsing
 ---
 
 # IPerPropertyBrowsing interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the information in the property pages offered by an object.
-
 
 ## -inheritance
 
@@ -104,13 +103,9 @@ Retrieves the CLSID of the property page associated with the specified property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
 
@@ -125,7 +120,4 @@ Retrieves the CLSID of the property page associated with the specified property.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPage</a>
- 
-
- 
 

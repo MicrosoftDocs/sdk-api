@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: d206ba15-a068-4579-bd6a-ab2444a723e0
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpSetRetransmitMode, SnmpSetRetransmitMode function [SNMP], _snmp_snmpsetretransmitmode, snmp.snmpsetretransmitmode, winsnmp/SnmpSetRetransmitMode
-f1_keywords:
-- winsnmp/SnmpSetRetransmitMode
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpSetRetransmitMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpSetRetransmitMode
+ - winsnmp/SnmpSetRetransmitMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpSetRetransmitMode
 ---
 
 # SnmpSetRetransmitMode function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpSetRetransmitMode</b> function enables a WinSNMP application to set the retransmission mode. The Microsoft WinSNMP implementation uses the new retransmission mode to govern transmission time-outs and retransmission attempts on subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param nRetransmitMode [in]
 
@@ -94,12 +90,8 @@ The implementation does not execute the WinSNMP application's retransmission pol
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
@@ -158,14 +150,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Typically a WinSNMP manager application, rather than an agent application, calls the 
 <b>SnmpSetRetransmitMode</b> function.
@@ -184,13 +170,7 @@ For additional information, see
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/about-retransmission">About Retransmission</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/managing-the-retransmission-policy">Managing the Retransmission Policy</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcancelmsg">SnmpCancelMsg</a>
 
@@ -222,7 +202,4 @@ For additional information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

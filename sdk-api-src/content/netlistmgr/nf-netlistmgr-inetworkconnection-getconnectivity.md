@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: 63fe54f7-c5e5-4dac-ad06-5ebfdb3a3419
 ms.date: 12/05/2018
 ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetConnectivity method, INetworkConnection.GetConnectivity, INetworkConnection::GetConnectivity, netlistmgr/INetworkConnection::GetConnectivity, nla.inetworkconnection_getconnectivity
-f1_keywords:
-- netlistmgr/INetworkConnection.GetConnectivity
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkConnection.GetConnectivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkConnection::GetConnectivity
+ - netlistmgr/INetworkConnection::GetConnectivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkConnection.GetConnectivity
 ---
 
 # INetworkConnection::GetConnectivity
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetConnectivity</b> method returns the connectivity state of the network connection.
 
-
 ## -parameters
-
-
-
 
 ### -param pConnectivity [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a> enumeration value that contains  a bitmask that specifies the connectivity of this network connection.
 
-
 ## -returns
-
-
 
 Returns S_OK if the method succeeds.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
- 
-
- 
 

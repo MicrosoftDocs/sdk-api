@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: debb3c57-b5d2-440b-acf2-b6d8e712849b
 ms.date: 12/05/2018
 ms.keywords: PeerEnumGroups, PeerEnumGroups function [Peer Networking], p2p.peerenumgroups, p2p/PeerEnumGroups
-f1_keywords:
-- p2p/PeerEnumGroups
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerEnumGroups
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerEnumGroups
+ - p2p/PeerEnumGroups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerEnumGroups
 ---
 
 # PeerEnumGroups function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerEnumGroups</b> function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.
 
-
 ## -parameters
-
-
-
 
 ### -param pwzIdentity [in]
 
 Specifies the peer identity to enumerate groups for.
 
-
 ### -param phPeerEnum [out]
 
  Receives a handle to the peer enumeration that contains the list of peer groups that the specified identity is a member of, with each item represented as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_name_pair">PEER_NAME_PAIR</a> structure. Pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to retrieve the items; when finished, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a> release the memory.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is S_OK. Otherwise, it  returns one of the following values.
 
@@ -113,14 +105,8 @@ The specified peer identity cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Once the application has obtained the enumeration handle, use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetitemcount">PeerGetItemCount</a> to enumerate the peer groups.
 
@@ -128,13 +114,7 @@ When enumerating peer groups, <a href="https://docs.microsoft.com/windows/deskto
 
 Call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a> to free the peer enumeration handle when it is no longer required.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_name_pair">PEER_NAME_PAIR</a>
 
@@ -149,7 +129,4 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerende
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxpropertybitschange.htm
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxPropertyBitsChange method, ITextServices.OnTxPropertyBitsChange, ITextServices::OnTxPropertyBitsChange, OnTxPropertyBitsChange, OnTxPropertyBitsChange method [Windows Controls], OnTxPropertyBitsChange method [Windows Controls],ITextServices interface, TXTBIT_ALLOWBEEP, TXTBIT_AUTOWORDSEL, TXTBIT_BACKSTYLECHANGE, TXTBIT_CHARFORMATCHANGE, TXTBIT_CLIENTRECTCHANGE, TXTBIT_D2DDWRITE, TXTBIT_D2DPIXELSNAPPED, TXTBIT_D2DSIMPLETYPOGRAPHY, TXTBIT_D2DSUBPIXELLINES, TXTBIT_DISABLEDRAG, TXTBIT_EXTENTCHANGE, TXTBIT_HIDESELECTION, TXTBIT_MAXLENGTHCHANGE, TXTBIT_MULTILINE, TXTBIT_NOTHREADREFCOUNT, TXTBIT_PARAFORMATCHANGE, TXTBIT_READONLY, TXTBIT_RICHTEXT, TXTBIT_SAVESELECTION, TXTBIT_SCROLLBARCHANGE, TXTBIT_SELBARCHANGE, TXTBIT_SHOWACCELERATOR, TXTBIT_SHOWPASSWORD, TXTBIT_USECURRENTBKG, TXTBIT_USEPASSWORD, TXTBIT_VERTICAL, TXTBIT_VIEWINSETCHANGE, TXTBIT_WORDWRAP, _win32_ITextServices_OnTxPropertyBitsChange, _win32_ITextServices_OnTxPropertyBitsChange_cpp, controls.ITextServices_OnTxPropertyBitsChange, controls._win32_ITextServices_OnTxPropertyBitsChange, textserv/ITextServices::OnTxPropertyBitsChange
-f1_keywords:
-- textserv/ITextServices.OnTxPropertyBitsChange
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextServices.OnTxPropertyBitsChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextServices::OnTxPropertyBitsChange
+ - textserv/ITextServices::OnTxPropertyBitsChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextServices.OnTxPropertyBitsChange
 ---
 
 # ITextServices::OnTxPropertyBitsChange
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets properties (represented by bits) for the control.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMask [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Bits representing properties to be changed. For the possible bit values, see the TXTBIT_* values list in <i>dwBits</i>. 
-
+Bits representing properties to be changed. For the possible bit values, see the TXTBIT_* values list in <i>dwBits</i>.
 
 ### -param dwBits [in]
 
@@ -374,12 +369,8 @@ If <b>TXTBIT_MULTILINE</b> is <b>FALSE</b>, this property has no effect.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -404,14 +395,8 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client rectangle is the rectangle that the text services object is responsible for painting and managing. The host relies on the text services object for painting that area. The text services object must not paint or invalidate areas outside of that rectangle. In addition, the host will forward mouse messages to the text services object when the cursor is over this rectangle. This rectangle is expressed in client coordinates of the containing window.
 
@@ -421,13 +406,7 @@ The backstyle is the style of the background of the client rectangle. It can be 
 
 The scroll bar property indicates changes to the scroll bar: which scroll bar is present, whether scroll bars are hidden or disabled when scrolling is impossible, and also if auto-scrolling is enabled when the insertion point gets off the client rectangle.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -470,7 +449,4 @@ The scroll bar property indicates changes to the scroll bar: which scroll bar is
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

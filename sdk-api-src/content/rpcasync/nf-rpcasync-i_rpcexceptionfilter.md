@@ -6,10 +6,6 @@ tech.root: rpc
 helpviewer_keywords: ["I_RpcExceptionFilter"]
 ms.date: 4/26/2019
 ms.keywords: I_RpcExceptionFilter
-f1_keywords:
-- I_RpcExceptionFilter
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,14 +26,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - I_RpcExceptionFilter
+ - rpcasync/I_RpcExceptionFilter
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- rpcrt4.dll
+ - rpcrt4.dll
 api_name:
-- I_RpcExceptionFilter
+ - I_RpcExceptionFilter
 ---
 
 ## -description

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: a3bd2b3c-0b0b-4d64-99cc-6093c773f71c
 ms.date: 12/05/2018
 ms.keywords: MFTEnum, MFTEnum function [Media Foundation], a3bd2b3c-0b0b-4d64-99cc-6093c773f71c, mf.mftenum, mfapi/MFTEnum
-f1_keywords:
-- mfapi/MFTEnum
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFTEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFTEnum
+ - mfapi/MFTEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFTEnum
 ---
 
 # MFTEnum function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates Media Foundation transforms (MFTs) in the registry.
         
 
 Starting in Windows 7, applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function instead.
 
-
 ## -parameters
-
-
-
 
 ### -param guidCategory [in]
 
 GUID that specifies the category of MFTs to enumerate. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
-          
-
 
 ### -param Flags [in]
 
 Reserved. Must be zero.
-          
-
 
 ### -param pInputType [in]
 
@@ -79,14 +71,12 @@ Pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_ty
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all input types are matched.
 
-
 ### -param pOutputType [in]
 
 Pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
 
 This parameter can be <b>NULL</b>.
           If <b>NULL</b>, all output types are matched.
-
 
 ### -param pAttributes [in]
 
@@ -100,27 +90,16 @@ Reserved. Set to <b>NULL</b>.
 ### -param ppclsidMFT [out]
 
 Receives a pointer to an array of CLSIDs. To create an MFT from this list, call <b>CoCreateInstance</b> with one of the CLSIDs. To get information about a particular MFT from its CLSID, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a>. The caller must free the memory for the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-          
-
 
 ### -param pcMFTs [out]
 
 Receives the number of elements in the <i>ppclsidMFT</i> array. The value can be zero.
-          
-
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function returns a list of all the MFTs in the specified category that match the search criteria given by the <i>pInputType</i>, <i>pOutputType</i>, and <i>pAttributes</i> parameters. Any of those parameters can be <b>NULL</b>.
       
@@ -230,14 +209,7 @@ HRESULT FindEncoder(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/adding-a-decoder-to-a-topology">Adding a Decoder to a Topology</a>
 
@@ -260,7 +232,4 @@ HRESULT FindEncoder(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/registering-and-enumerating-mfts">Registering and Enumerating MFTs</a>
- 
-
- 
 

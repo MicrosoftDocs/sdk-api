@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.DestroyVoice
 ms.date: 12/05/2018
 ms.keywords: DestroyVoice, DestroyVoice method [XAudio2 Audio Mixing APIs], DestroyVoice method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],DestroyVoice method, IXAudio2Voice.DestroyVoice, IXAudio2Voice::DestroyVoice, xaudio2.ixaudio2voice_interface_destroyvoice, xaudio2/IXAudio2Voice::DestroyVoice
-f1_keywords:
-- xaudio2/IXAudio2Voice.DestroyVoice
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.h
-api_name:
-- IXAudio2Voice.DestroyVoice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2Voice::DestroyVoice
+ - xaudio2/IXAudio2Voice::DestroyVoice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.h
+api_name:
+ - IXAudio2Voice.DestroyVoice
 ---
 
 # IXAudio2Voice::DestroyVoice
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Destroys the voice. If necessary, stops the voice and removes it from the XAudio2 graph.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 If any other voice is currently sending audio to this voice, the method fails.
 
@@ -91,16 +78,7 @@ It is invalid to call <b>DestroyVoice</b> from within a callback (that is, <a hr
 Windows 10 (XAudio2.9); 
             Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
- 
-
- 
 

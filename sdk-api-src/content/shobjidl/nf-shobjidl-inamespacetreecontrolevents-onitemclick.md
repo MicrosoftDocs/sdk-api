@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a595ffd0-edc6-4726-b7b2-ad1aed9e9701
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemClick method, INameSpaceTreeControlEvents.OnItemClick, INameSpaceTreeControlEvents::OnItemClick, NSTCECT_BUTTON, NSTCECT_DBLCLICK, NSTCECT_LBUTTON, NSTCECT_MBUTTON, NSTCECT_RBUTTON, NSTCEHT_NOWHERE, NSTCEHT_ONITEM, NSTCEHT_ONITEMBUTTON, NSTCEHT_ONITEMICON, NSTCEHT_ONITEMINDENT, NSTCEHT_ONITEMLABEL, NSTCEHT_ONITEMRIGHT, NSTCEHT_ONITEMSTATEICON, NSTCEHT_ONITEMTABBUTTON, OnItemClick, OnItemClick method [Windows Shell], OnItemClick method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemClick, shell.INameSpaceTreeControlEvents_OnItemClick, shobjidl/INameSpaceTreeControlEvents::OnItemClick
-f1_keywords:
-- shobjidl/INameSpaceTreeControlEvents.OnItemClick
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- INameSpaceTreeControlEvents.OnItemClick
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControlEvents::OnItemClick
+ - shobjidl/INameSpaceTreeControlEvents::OnItemClick
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - INameSpaceTreeControlEvents.OnItemClick
 ---
 
 # INameSpaceTreeControlEvents::OnItemClick
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when the user clicks a button on the mouse.
 
-
 ## -parameters
-
-
-
 
 ### -param psi [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that was clicked.
-
 
 ### -param nstceHitTest [in]
 
@@ -125,7 +120,6 @@ The click was on the item icon or the item label or the state icon of the <a hre
 
 The click was on the tab button of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
-
 ### -param nstceClickType [in]
 
 Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a></b>
@@ -162,38 +156,21 @@ A button was clicked.
 
 The click was a double click. If this value is present, it is added to one of the other values.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If this method fails, the event is processed by both <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> and TreeView. If it returns S_OK, then only <b>INameSpaceTreeControl</b> will process the event.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrolevents">INameSpaceTreeControlEvents</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
- 
-
- 
 

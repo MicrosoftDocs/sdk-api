@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 95ed42ed-04ff-482c-954c-a6c9dd9ccd4c
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RequestStoreFlags property, IEnroll.RequestStoreFlags, IEnroll.put_RequestStoreFlags, IEnroll::RequestStoreFlags, IEnroll::get_RequestStoreFlags, IEnroll::put_RequestStoreFlags, RequestStoreFlags property [Security], RequestStoreFlags property [Security],IEnroll interface, put_RequestStoreFlags, security.ienroll4_requeststoreflags, xenroll/IEnroll::RequestStoreFlags, xenroll/IEnroll::get_RequestStoreFlags, xenroll/IEnroll::put_RequestStoreFlags
-f1_keywords:
-- xenroll/IEnroll.RequestStoreFlags
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.RequestStoreFlags
-- IEnroll.get_RequestStoreFlags
-- IEnroll.put_RequestStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::put_RequestStoreFlags
+ - xenroll/IEnroll::put_RequestStoreFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.RequestStoreFlags
+ - IEnroll.get_RequestStoreFlags
+ - IEnroll.put_RequestStoreFlags
 ---
 
 # IEnroll::put_RequestStoreFlags
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -60,13 +60,9 @@ The <b>RequestStoreFlags</b> property sets or retrieves the registry location us
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <b>RequestStoreFlags</b> property value is passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> CryptoAPI function  by using its <i>dwFlags</i> parameter.
@@ -91,17 +87,7 @@ The <b>RequestStoreFlags</b> property should be set before using the following m
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

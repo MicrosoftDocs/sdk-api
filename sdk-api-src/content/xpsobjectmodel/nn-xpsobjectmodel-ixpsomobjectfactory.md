@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2444703e-4b89-4ef0-9ed7-aa937bc62e8c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], IXpsOMObjectFactory interface [XPS Documents and Packaging],described, xps.ixpsomobjectfactory, xpsobjectmodel/IXpsOMObjectFactory
-f1_keywords:
-- xpsobjectmodel/IXpsOMObjectFactory
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMObjectFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMObjectFactory
+ - xpsobjectmodel/IXpsOMObjectFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMObjectFactory
 ---
 
 # IXpsOMObjectFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates objects in    the XPS document object model.
-
 
 ## -inheritance
 
@@ -433,13 +432,9 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmode
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpsomfactory">IXpsDocumentPackageTarget::GetXpsOMFactory</a>
 
@@ -454,7 +449,4 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmode
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

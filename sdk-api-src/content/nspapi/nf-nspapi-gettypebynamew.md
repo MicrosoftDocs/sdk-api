@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e
 ms.date: 12/05/2018
 ms.keywords: GetTypeByName, GetTypeByName function [Winsock], GetTypeByNameA, GetTypeByNameW, _win32_gettypebyname_2, nspapi/GetTypeByName, nspapi/GetTypeByNameA, nspapi/GetTypeByNameW, winsock.gettypebyname_2
-f1_keywords:
-- nspapi/GetTypeByName
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- GetTypeByName
-- GetTypeByNameA
-- GetTypeByNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTypeByNameW
+ - nspapi/GetTypeByNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - GetTypeByName
+ - GetTypeByNameA
+ - GetTypeByNameW
 ---
 
 # GetTypeByNameW function
 
 
 ## -description
-
 
 The 
 <b>GetTypeByName</b> function retrieves a service type <b>GUID</b> for a network service specified by name.
@@ -61,17 +61,11 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpServiceName [in]
 
 A pointer to a zero-terminated string that uniquely represents the name of the service. For example, "MY SNA SERVER."
-
 
 ### -param lpServiceType [in, out]
 
@@ -79,10 +73,7 @@ A pointer to a variable to receive a globally unique identifier (<b>GUID</b>) th
 
 The <i>Svcguid.h</i> header file is not automatically included by the <i>Winsock2.h</i> header file.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is zero.
 
@@ -106,15 +97,8 @@ The specified service type is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getnamebytypea">GetNameByType</a>
 
@@ -125,9 +109,6 @@ The specified service type is unknown.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 
 ## -remarks
 

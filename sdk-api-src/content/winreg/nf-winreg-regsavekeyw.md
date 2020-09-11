@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: da80f40d-0099-4748-94ca-5d3b001e633e
 ms.date: 12/05/2018
 ms.keywords: RegSaveKey, RegSaveKey function, RegSaveKeyA, RegSaveKeyW, _win32_regsavekey, base.regsavekey, winreg/RegSaveKey, winreg/RegSaveKeyA, winreg/RegSaveKeyW
-f1_keywords:
-- winreg/RegSaveKey
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-Registry-l2-2-0.dll
-api_name:
-- RegSaveKey
-- RegSaveKeyA
-- RegSaveKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegSaveKeyW
+ - winreg/RegSaveKeyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l2-2-0.dll
+api_name:
+ - RegSaveKey
+ - RegSaveKeyA
+ - RegSaveKeyW
 ---
 
 # RegSaveKeyW function
@@ -54,18 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves the specified key and all of its subkeys and values to a new file, in the standard format.
 
 To specify the format for the saved key or hive, use the   <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsavekeyexa">RegSaveKeyEx</a> function.
 
  Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -82,8 +78,6 @@ This handle is returned by the
 <dd><b>HKEY_CURRENT_USER</b></dd>
 </dl>
 
-
-
 ### -param lpFile [in]
 
 The name of the file in which the specified key and subkeys are to be saved. If the file already exists, the function fails. 
@@ -93,16 +87,12 @@ The name of the file in which the specified key and subkeys are to be saved. If 
 
 If the string does not include a path, the file is created in the current directory of the calling process for a local key, or in the %systemroot%\system32 directory for a remote key. The new file has the archive attribute.
 
-
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new file. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the file gets a default security descriptor. The ACLs in a default security descriptor for a file are inherited from its parent directory.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -111,12 +101,7 @@ If the function fails, the return value is a nonzero error code defined in Winer
 
 If the file already exists, the function fails with the ERROR_ALREADY_EXISTS error.
 
-
-
-
 ## -remarks
-
-
 
 If <i>hKey</i> represents a key on a remote computer, the path described by <i>lpFile</i> is relative to the remote computer.
 
@@ -149,9 +134,6 @@ The calling process must have the SE_BACKUP_NAME privilege enabled. For more inf
 > The winreg.h header defines RegSaveKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
@@ -186,7 +168,4 @@ The calling process must have the SE_BACKUP_NAME privilege enabled. For more inf
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 633b6a11-09ba-48a7-a1ad-940846c65d79
 ms.date: 12/05/2018
 ms.keywords: WsAlloc, WsAlloc function [Web Services for Windows], webservices/WsAlloc, wsw.wsalloc
-f1_keywords:
-- webservices/WsAlloc
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsAlloc
+ - webservices/WsAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsAlloc
 ---
 
 # WsAlloc function
@@ -49,29 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Allocates a segment of memory from the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a>. 
-
-
-
+Allocates a segment of memory from the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a>.
 
 ## -parameters
-
-
-
 
 ### -param heap [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the heap from which to allocate the memory.
-                
-
 
 ### -param size [in]
 
 The number of bytes to allocate.  This value can be zero.
-                
-
 
 ### -param ptr
 
@@ -83,20 +72,13 @@ The returned pointer is aligned on an 8-byte boundary.
 
 
 
-Zero byte allocations will return a non-NULL pointer. 
-
-
-
+Zero byte allocations will return a non-NULL pointer.
 
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -129,17 +111,8 @@ Insufficent memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The memory returned by this function is not zero initialized and contains undefined values.
-                
-
-
 

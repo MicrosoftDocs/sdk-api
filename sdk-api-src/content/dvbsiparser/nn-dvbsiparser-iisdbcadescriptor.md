@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6683f3db-636b-42bb-a46d-c175a4324023
 ms.date: 12/05/2018
 ms.keywords: IIsdbCADescriptor, IIsdbCADescriptor interface [Microsoft TV Technologies], IIsdbCADescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCADescriptor, mstv.iisdbcadescriptor
-f1_keywords:
-- dvbsiparser/IIsdbCADescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbCADescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbCADescriptor
+ - dvbsiparser/IIsdbCADescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbCADescriptor
 ---
 
 # IIsdbCADescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Implements methods that get data from  an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) descriptor. The CA descriptor appears in the ISDB service information as part of the conditional access table (CAT) or program map table (PMT) and indicates the program identifiers (PIDs) of transport stream packets that contain entitlement control message (ECM) data or entitlement management message (EMM) data.
-
 
 ## -inheritance
 
@@ -122,5 +121,5 @@ Gets the tag that identifies an ISDB CA descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

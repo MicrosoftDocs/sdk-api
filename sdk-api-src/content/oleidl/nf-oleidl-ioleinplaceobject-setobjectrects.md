@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5ae2e44b-d2e2-4351-b4fa-8c37419a2bcb
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObject interface [COM],SetObjectRects method, IOleInPlaceObject.SetObjectRects, IOleInPlaceObject::SetObjectRects, SetObjectRects, SetObjectRects method [COM], SetObjectRects method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_setobjectrects, com.ioleinplaceobject_setobjectrects, oleidl/IOleInPlaceObject::SetObjectRects
-f1_keywords:
-- oleidl/IOleInPlaceObject.SetObjectRects
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceObject.SetObjectRects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceObject::SetObjectRects
+ - oleidl/IOleInPlaceObject::SetObjectRects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceObject.SetObjectRects
 ---
 
 # IOleInPlaceObject::SetObjectRects
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how much of the in-place object is to be visible.
 
-
 ## -parameters
-
-
-
 
 ### -param lprcPosRect [in]
 
 A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the position of the in-place object using the client coordinates of its parent window.
 
-
 ### -param lprcClipRect [in]
 
 A pointer to the outer rectangle containing the in-place object's position rectangle (<i>lprcPosRect</i>). This rectangle is relative to the client area of the object's parent window.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -113,14 +105,8 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 It is possible for <i>lprcClipRect</i> to change without <i>lprcPosRect</i> changing.
 
@@ -136,13 +122,7 @@ The object must size its in-place window to match the intersection of <i>lprcPos
 
 The object should compare its width and height with those provided by its container (conveyed through <i>lprcPosRect</i>). If the comparison does not result in a match, the container is applying scaling to the object. The object must then decide whether it should continue the in-place editing in the scale/zoom mode or deactivate.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>
 
@@ -157,7 +137,4 @@ The object should compare its width and height with those provided by its contai
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
- 
-
- 
 

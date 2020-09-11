@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 523ef50f-722a-48b9-a2ce-20786b7c79e1
 ms.date: 12/05/2018
 ms.keywords: EnumDateFormatsEx, EnumDateFormatsEx function [Internationalization for Windows Applications], EnumDateFormatsExA, EnumDateFormatsExW, _win32_EnumDateFormatsEx, intl.enumdateformatsex, winnls/EnumDateFormatsEx, winnls/EnumDateFormatsExA, winnls/EnumDateFormatsExW
-f1_keywords:
-- winnls/EnumDateFormatsEx
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- EnumDateFormatsEx
-- EnumDateFormatsExA
-- EnumDateFormatsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumDateFormatsExA
+ - winnls/EnumDateFormatsExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - EnumDateFormatsEx
+ - EnumDateFormatsExA
+ - EnumDateFormatsExW
 ---
 
 # EnumDateFormatsExA function
@@ -55,22 +56,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the long date, short date, or year/month formats that are available for a specified locale.
 <div class="alert"><b>Note</b>  Any application that runs only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsexex">EnumDateFormatsExEx</a> in preference to this function.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpDateFmtEnumProcEx [in]
 
 Pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317814(v=vs.85)">EnumDateFormatsProcEx</a>.
 
-
 ### -param Locale [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale for which to retrieve date format information. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create an identifier or use one of the following predefined values. 
 
@@ -103,10 +98,7 @@ Pointer to an application-defined callback function. For more information, see <
 
 Flag specifying date formats. For detailed definitions, see the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsexex">EnumDateFormatsExEx</a>.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
@@ -115,11 +107,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change">Prepare your application for the Japanese era change</a> for more information.</div>
 <div> </div>
@@ -142,9 +130,6 @@ The application should use <b>EnumDateFormatsEx</b> (instead of <a href="https:/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumdateformatsa">EnumDateFormats</a>
 
 
@@ -162,7 +147,4 @@ The application should use <b>EnumDateFormatsEx</b> (instead of <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

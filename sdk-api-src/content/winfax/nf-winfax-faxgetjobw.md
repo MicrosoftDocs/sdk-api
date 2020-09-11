@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jz6.htm
 ms.date: 12/05/2018
 ms.keywords: FaxGetJob, FaxGetJob function [Fax Service], FaxGetJobA, FaxGetJobW, _mfax_faxgetjob, fax._mfax_faxgetjob, winfax/FaxGetJob, winfax/FaxGetJobA, winfax/FaxGetJobW
-f1_keywords:
-- winfax/FaxGetJob
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxGetJob
-- FaxGetJobA
-- FaxGetJobW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxGetJobW
+ - winfax/FaxGetJobW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxGetJob
+ - FaxGetJobA
+ - FaxGetJobW
 ---
 
 # FaxGetJobW function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A fax client application calls the <b>FaxGetJob</b> function to retrieve detailed information for the specified queued or active fax job. The function returns the information in a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_entrya">FAX_JOB_ENTRY</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
@@ -67,13 +63,11 @@ Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
 
-
 ### -param JobId [in]
 
 Type: <b>DWORD</b>
 
 Specifies a unique number that identifies a queued or active fax job. The job can be an inbound or an outbound transmission.
-
 
 ### -param JobEntry [out]
 
@@ -81,10 +75,7 @@ Type: <b>PFAX_JOB_ENTRY*</b>
 
 Pointer to the address of a buffer to receive a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_entrya">FAX_JOB_ENTRY</a> structure. The data includes the job type and status, recipient and sender identification, scheduling and delivery settings, and the page count. For information about memory allocation, see the following Remarks section.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -131,14 +122,8 @@ An error occurred during memory allocation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>FaxGetJob</b> function retrieves information about an individual fax job. To retrieve information about all queued and active jobs on the fax server of interest, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumjobsa">FaxEnumJobs</a> function.
 
@@ -154,9 +139,6 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 > The winfax.h header defines FaxGetJob as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_entrya">FAX_JOB_ENTRY</a>
 
@@ -183,7 +165,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a>
- 
-
- 
 

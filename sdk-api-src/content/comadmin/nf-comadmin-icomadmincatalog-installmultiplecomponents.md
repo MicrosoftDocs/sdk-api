@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7206c93b-43ca-402f-9a55-930f872d4201
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleComponents method, ICOMAdminCatalog.InstallMultipleComponents, ICOMAdminCatalog::InstallMultipleComponents, InstallMultipleComponents, InstallMultipleComponents method [COM+], InstallMultipleComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleComponents, comadmin/ICOMAdminCatalog::InstallMultipleComponents, cos.icomadmincatalog_installmultiplecomponents
-f1_keywords:
-- comadmin/ICOMAdminCatalog.InstallMultipleComponents
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog.InstallMultipleComponents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog::InstallMultipleComponents
+ - comadmin/ICOMAdminCatalog::InstallMultipleComponents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog.InstallMultipleComponents
 ---
 
 # ICOMAdminCatalog::InstallMultipleComponents
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Installs components from multiple files into a COM+ application.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrApplIDOrName [in]
 
 The GUID or name of the application.
 
-
 ### -param ppsaVarFileNames [in]
 
 An array of the names of the DLL files that contains the components to be installed.
-
 
 ### -param ppsaVarCLSIDs [in]
 
 An array of CLSIDs for the components to be installed.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -107,18 +98,8 @@ Errors occurred while accessing one or more objects.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
- 
-
- 
 

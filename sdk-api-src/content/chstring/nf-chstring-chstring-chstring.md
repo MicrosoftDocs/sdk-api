@@ -7,10 +7,6 @@ helpviewer_keywords: ["CHString::CHString"]
 ms.assetid: cb7da79b-f808-4f2d-ac33-559fdc9a9978
 ms.date: 05/13/2019
 ms.keywords: CHString::CHString
-f1_keywords:
-- chstring/CHString::CHString
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CHString::CHString
+ - chstring/CHString::CHString
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- CHString::CHString
+ - CHString::CHString
 ---
 
 # CHString::CHString
+
 
 ## -description
 
@@ -79,3 +81,4 @@ CHString city = L"Philadelphia"; // NOT the assignment operator
 ```
 
 ## -see-also
+

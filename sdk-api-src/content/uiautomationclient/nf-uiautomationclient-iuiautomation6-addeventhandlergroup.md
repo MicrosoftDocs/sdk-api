@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 8F131A7C-BC03-4967-9ED8-624086DEA112
 ms.date: 12/05/2019
 ms.keywords: AddEventHandlerGroup, AddEventHandlerGroup method [Windows Accessibility], AddEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],AddEventHandlerGroup method, IUIAutomation6.AddEventHandlerGroup, IUIAutomation6::AddEventHandlerGroup, uiautomationclient/IUIAutomation6::AddEventHandlerGroup, winauto.uiauto_IUIAutomation6_AddEventHandlerGroup
-f1_keywords:
-- uiautomationclient/IUIAutomation6.AddEventHandlerGroup
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation6.AddEventHandlerGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - IUIAutomation6::AddEventHandlerGroup
+ - uiautomationclient/IUIAutomation6::AddEventHandlerGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation6.AddEventHandlerGroup
 ---
 
 # IUIAutomation6::AddEventHandlerGroup
+
 
 ## -description
 
@@ -76,3 +78,4 @@ It is possible for an event to be delivered to an event handler after the handle
 ## -see-also
 
 [IUIAutomation6::RemoveEventHandlerGroup](nf-uiautomationclient-iuiautomation6-removeeventhandlergroup.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
+

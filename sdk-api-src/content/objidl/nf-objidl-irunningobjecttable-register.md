@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 40f815b2-dfea-416c-aae1-7ba3a710ad91
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],Register method, IRunningObjectTable.Register, IRunningObjectTable::Register, ROTFLAGS_ALLOWANYCLIENT, ROTFLAGS_REGISTRATIONKEEPSALIVE, Register, Register method [COM], Register method [COM],IRunningObjectTable interface, _com_irunningobjecttable_register, com.irunningobjecttable_register, objidl/IRunningObjectTable::Register
-f1_keywords:
-- objidl/IRunningObjectTable.Register
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IRunningObjectTable.Register
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRunningObjectTable::Register
+ - objidl/IRunningObjectTable::Register
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IRunningObjectTable.Register
 ---
 
 # IRunningObjectTable::Register
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers an object and its identifying moniker in the running object table (ROT).
 
-
 ## -parameters
-
-
-
 
 ### -param grfFlags [in]
 
@@ -88,27 +84,20 @@ When set, any client can connect to the running object through its entry in the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param punkObject [in]
 
 A pointer to the object that is being registered as running.
 
-
 ### -param pmkObjectName [in]
 
 A pointer to the moniker that identifies <i>punkObject</i>.
-
 
 ### -param pdwRegister [out]
 
 An identifier for this ROT entry that can be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-revoke">IRunningObjectTable::Revoke</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-notechangetime">IRunningObjectTable::NoteChangeTime</a>. The caller cannot specify <b>NULL</b> for this parameter. If an error occurs, *<i>pdwRegister</i> is set to zero.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG and E_OUTOFMEMORY, as well as the following values.
 
@@ -140,14 +129,8 @@ The moniker/object pair was successfully registered, but that another object (po
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method registers a pointer to an object under a moniker that identifies the object. The moniker is used as the key when the table is searched with <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-getobject">IRunningObjectTable::GetObject</a>.
 
@@ -176,16 +159,7 @@ As of Windows Server 2003, if there are stale entries that remain in the ROT du
 
 The system's implementation of <b>Register</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a> on the <i>pmkObjectName</i> parameter to ensure that the moniker is fully reduced before registration. If an object is known by more than one fully reduced moniker, it should be registered under all such monikers.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
- 
-
- 
 

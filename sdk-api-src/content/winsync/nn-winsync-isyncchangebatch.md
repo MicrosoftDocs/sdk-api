@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 3bfd5cf2-ca73-490e-84a7-506c198b3d7c
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatch, ISyncChangeBatch interface [Windows Sync], ISyncChangeBatch interface [Windows Sync],described, winsync.isyncchangebatch, winsync/ISyncChangeBatch
-f1_keywords:
-- winsync/ISyncChangeBatch
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatch
+ - winsync/ISyncChangeBatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatch
 ---
 
 # ISyncChangeBatch interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents metadata for a set of changes.
-
-
 
 ## -inheritance
 
@@ -99,22 +97,13 @@ Closes a previously opened unordered group in the change batch.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Change batches are used by synchronization providers to communicate metadata for item changes from a source provider to a destination provider. The source provider enumerates changes and adds a specified number of them to a change batch. The change batch is then sent to the destination provider. The destination provider enumerates the changes in the change batch and applies them to its item store.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>
 
@@ -133,7 +122,4 @@ Change batches are used by synchronization providers to communicate metadata for
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

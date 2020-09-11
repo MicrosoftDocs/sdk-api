@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], ISmimeCapability interface [Security],described, certenroll/ISmimeCapability, security.ismimecapability
-f1_keywords:
-- certenroll/ISmimeCapability
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ISmimeCapability
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISmimeCapability
+ - certenroll/ISmimeCapability
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ISmimeCapability
 ---
 
 # ISmimeCapability interface
 
 
 ## -description
-
 
 A collection of <b>ISmimeCapability</b> objects represents an <b>SMIMECapabilities</b> extension that identifies the  decryption capabilities of an email recipient. The extension includes a collection of <b>ISmimeCapability</b> objects, each of which identifies a symmetric encryption algorithm supported by the client, and an optional bit length that indicates the relative strength of the algorithm. The following syntax shows the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a> interface.
 <pre class="syntax" xml:space="preserve"><code>
@@ -67,7 +67,6 @@ SMIMECapability ::= SEQUENCE
 </code></pre>The extension is used to report the decryption capabilities of an email recipient to an email sender. This enables the sender to choose the most secure algorithm supported by both parties.
 
 The optional bit length is used to identify the length of the encryption key used by algorithm. The key length is implicitly defined by the object identifier for the AES, DES, and 3DES algorithms, but it is variable for the RC2 and RC4 algorithms. If you specify a key length, it must be consistent with that supported by the cryptographic  providers used by the client. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>.
-
 
 ## -inheritance
 
@@ -125,13 +124,9 @@ Retrieves the object identifier of the symmetric encryption algorithm.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
@@ -154,7 +149,4 @@ Retrieves the object identifier of the symmetric encryption algorithm.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a>
- 
-
- 
 

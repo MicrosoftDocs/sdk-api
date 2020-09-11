@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setname.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetName method, ITextFont.SetName, ITextFont::SetName, SetName, SetName method [Windows Controls], SetName method [Windows Controls],ITextFont interface, _win32_ITextFont_SetName, _win32_ITextFont_SetName_cpp, controls.ITextFont_SetName, controls._win32_ITextFont_SetName, tom/ITextFont::SetName
-f1_keywords:
-- tom/ITextFont.SetName
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetName
+ - tom/ITextFont::SetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetName
 ---
 
 # ITextFont::SetName
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the font name.
 
-
 ## -parameters
-
-
-
 
 ### -param bstr [in]
 
 Type: <b>BSTR</b>
 
-The new font name. 
-
+The new font name.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -123,15 +116,8 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -150,7 +136,4 @@ Insufficient memory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

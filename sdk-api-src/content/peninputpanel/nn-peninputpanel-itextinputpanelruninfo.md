@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 9269a94f-c33f-4e25-bab8-be68e6ead63f
 ms.date: 12/05/2018
 ms.keywords: 9269a94f-c33f-4e25-bab8-be68e6ead63f, ITextInputPanelRunInfo, ITextInputPanelRunInfo interface [Tablet PC], ITextInputPanelRunInfo interface [Tablet PC],described, peninputpanel/ITextInputPanelRunInfo, tablet.itextinputpanelruninfo
-f1_keywords:
-- peninputpanel/ITextInputPanelRunInfo
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanelRunInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanelRunInfo
+ - peninputpanel/ITextInputPanelRunInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanelRunInfo
 ---
 
 # ITextInputPanelRunInfo interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Provides a method to determine if the Text Input Panel is currently running.
-
-
-
 
 ## -inheritance
 
@@ -80,29 +76,17 @@ Indicates if the Tablet PC Input Panel is running at the time the method is call
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This element is declared in Peninputpanel.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/programming-the-text-input-panel">Programming the Text Input Panel</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 1356deeb-ac4a-4877-95be-9df09f4b0210
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],OnBeginPainting method, IWTSProtocolLogonErrorRedirector.OnBeginPainting, IWTSProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWTSProtocolLogonErrorRedirector::OnBeginPainting
-f1_keywords:
-- wtsprotocol/IWTSProtocolLogonErrorRedirector.OnBeginPainting
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWTSProtocolLogonErrorRedirector.OnBeginPainting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolLogonErrorRedirector::OnBeginPainting
+ - wtsprotocol/IWTSProtocolLogonErrorRedirector::OnBeginPainting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWTSProtocolLogonErrorRedirector.OnBeginPainting
 ---
 
 # IWTSProtocolLogonErrorRedirector::OnBeginPainting
@@ -49,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWTSProtocolLogonErrorRedirector::OnBeginPainting</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-onbeginpainting">IWRdsProtocolLogonErrorRedirector::OnBeginPainting</a>.]
 
 Notifies the protocol that the logon user interface is ready to begin painting.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollogonerrorredirector">IWTSProtocolLogonErrorRedirector</a>
- 
-
- 
 

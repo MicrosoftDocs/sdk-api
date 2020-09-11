@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: ce6aef79-1faa-44ac-a096-f65d09458067
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], IWMPPlayer interface [Windows Media Player],described, IWMPPlayerInterface, wmp.iwmpplayer, wmp/IWMPPlayer
-f1_keywords:
-- wmp/IWMPPlayer
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlayer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer
+ - wmp/IWMPPlayer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlayer
 ---
 
 # IWMPPlayer interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlayer</b> interface provides methods for modifying the basic behavior of the Windows Media Player control user interface. These methods supplement the <b>IWMPCore</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -146,13 +142,8 @@ Specifies a value indicating which controls are shown in the user interface when
 </table> 
 
 Retrieve a pointer to an <b>IWMPPlayer</b> interface by calling the COM <b>CoCreateInstance</b> method.
-	
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
@@ -179,7 +170,4 @@ Retrieve a pointer to an <b>IWMPPlayer</b> interface by calling the COM <b>CoCre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

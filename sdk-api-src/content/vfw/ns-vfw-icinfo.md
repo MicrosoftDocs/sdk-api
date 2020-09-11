@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 5faf7022-6dc8-475c-8f5a-721bc5b6afee
 ms.date: 12/05/2018
 ms.keywords: ICINFO, ICINFO structure [Windows Multimedia], VIDCF_COMPRESSFRAMES, VIDCF_CRUNCH, VIDCF_DRAW, VIDCF_FASTTEMPORALC, VIDCF_FASTTEMPORALD, VIDCF_QUALITY, VIDCF_TEMPORAL, multimedia.icinfo_COLLISION204, multimedia.icinfo_struct, vfw/ICINFO
-f1_keywords:
-- vfw/ICINFO
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICINFO
 targetos: Windows
 req.typenames: ICINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICINFO
+ - vfw/ICINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICINFO
 ---
 
 # ICINFO structure
@@ -49,32 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICINFO</b> structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getinfo">ICM_GETINFO</a> message.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Size, in bytes, of the <b>ICINFO</b> structure.
 
-
 ### -field fccType
 
 Four-character code indicating the type of stream being compressed or decompressed. Specify "VIDC" for video streams.
 
-
 ### -field fccHandler
 
 A four-character code identifying a specific compressor.
-
 
 ### -field dwFlags
 
@@ -156,38 +146,28 @@ Driver supports inter-frame compression.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwVersion
 
 Version number of the driver.
 
-
 ### -field dwVersionICM
 
 Version of VCM supported by the driver. This member should be set to ICVERSION.
-
 
 ### -field szName
 
 Short version of the compressor name. The name in the null-terminated string should be suitable for use in list boxes.
 
-
 ### -field szDescription
 
 Long version of the compressor name.
-
 
 ### -field szDriver
 
 Name of the module containing VCM compression driver. Normally, a driver does not need to fill this out.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a>
 
@@ -202,7 +182,4 @@ Name of the module containing VCM compression driver. Normally, a driver does no
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
- 
-
- 
 

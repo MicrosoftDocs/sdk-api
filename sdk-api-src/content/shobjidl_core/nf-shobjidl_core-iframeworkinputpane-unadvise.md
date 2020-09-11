@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: E4187EC2-DD8F-4e3c-BD0C-B5AD4B02E943
 ms.date: 12/05/2018
 ms.keywords: IFrameworkInputPane interface [Windows Shell],Unadvise method, IFrameworkInputPane.Unadvise, IFrameworkInputPane::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFrameworkInputPane interface, shell.IFrameworkInputPane_Unadvise, shobjidl_core/IFrameworkInputPane::Unadvise
-f1_keywords:
-- shobjidl_core/IFrameworkInputPane.Unadvise
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFrameworkInputPane.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFrameworkInputPane::Unadvise
+ - shobjidl_core/IFrameworkInputPane::Unadvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFrameworkInputPane.Unadvise
 ---
 
 # IFrameworkInputPane::Unadvise
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters an app's input pane handler object so that it no longer receives notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCookie [in]
 
@@ -64,25 +60,13 @@ Type: <b>DWORD</b>
 
 A cookie that identifies the handler. This value was obtained when you registered the handler through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-advise">Advise</a> method.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpane">IFrameworkInputPane</a>
- 
-
- 
 

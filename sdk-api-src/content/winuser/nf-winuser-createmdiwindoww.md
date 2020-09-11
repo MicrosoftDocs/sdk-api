@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\createmdiwindow.htm
 ms.date: 12/05/2018
 ms.keywords: CreateMDIWindow, CreateMDIWindow function [Windows and Messages], CreateMDIWindowA, CreateMDIWindowW, WS_HSCROLL, WS_MAXIMIZE, WS_MINIMIZE, WS_VSCROLL, _win32_CreateMDIWindow, _win32_createmdiwindow_cpp, winmsg.createmdiwindow, winui._win32_createmdiwindow, winuser/CreateMDIWindow, winuser/CreateMDIWindowA, winuser/CreateMDIWindowW
-f1_keywords:
-- winuser/CreateMDIWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- CreateMDIWindow
-- CreateMDIWindowA
-- CreateMDIWindowW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateMDIWindowW
+ - winuser/CreateMDIWindowW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - CreateMDIWindow
+ - CreateMDIWindowA
+ - CreateMDIWindowW
 ---
 
 # CreateMDIWindowW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a multiple-document interface (MDI) child window. 
-
+Creates a multiple-document interface (MDI) child window.
 
 ## -parameters
-
-
-
 
 ### -param lpClassName [in]
 
@@ -66,13 +62,11 @@ Type: <b>LPCTSTR</b>
 
 The window class of the MDI child window. The class name must have been registered by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function.
 
-
 ### -param lpWindowName [in]
 
 Type: <b>LPCTSTR</b>
 
 The window name. The system displays the name in the title bar of the child window.
-
 
 ### -param dwStyle [in]
 
@@ -130,61 +124,50 @@ Creates an MDI child window that has a vertical scroll bar.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param X [in]
 
 Type: <b>int</b>
 
-The initial horizontal position, in client coordinates, of the MDI child window. If this parameter is <b>CW_USEDEFAULT</b> ((int)0x80000000), the MDI child window is assigned the default horizontal position. 
-
+The initial horizontal position, in client coordinates, of the MDI child window. If this parameter is <b>CW_USEDEFAULT</b> ((int)0x80000000), the MDI child window is assigned the default horizontal position.
 
 ### -param Y [in]
 
 Type: <b>int</b>
 
-The initial vertical position, in client coordinates, of the MDI child window. If this parameter is <b>CW_USEDEFAULT</b>, the MDI child window is assigned the default vertical position. 
-
+The initial vertical position, in client coordinates, of the MDI child window. If this parameter is <b>CW_USEDEFAULT</b>, the MDI child window is assigned the default vertical position.
 
 ### -param nWidth [in]
 
 Type: <b>int</b>
 
-The initial width, in device units, of the MDI child window. If this parameter is <b>CW_USEDEFAULT</b>, the MDI child window is assigned the default width. 
-
+The initial width, in device units, of the MDI child window. If this parameter is <b>CW_USEDEFAULT</b>, the MDI child window is assigned the default width.
 
 ### -param nHeight [in]
 
 Type: <b>int</b>
 
-The initial height, in device units, of the MDI child window. If this parameter is set to <b>CW_USEDEFAULT</b>, the MDI child window is assigned the default height. 
-
+The initial height, in device units, of the MDI child window. If this parameter is set to <b>CW_USEDEFAULT</b>, the MDI child window is assigned the default height.
 
 ### -param hWndParent [in, optional]
 
 Type: <b>HWND</b>
 
-A handle to the MDI client window that will be the parent of the new MDI child window. 
-
+A handle to the MDI client window that will be the parent of the new MDI child window.
 
 ### -param hInstance [in, optional]
 
 Type: <b>HINSTANCE</b>
 
-A handle to the instance of the application creating the MDI child window. 
-
+A handle to the instance of the application creating the MDI child window.
 
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
-An application-defined value. 
-
+An application-defined value.
 
 ## -returns
-
-
 
 Type: <b>HWND</b>
 
@@ -192,13 +175,7 @@ If the function succeeds, the return value is the handle to the created window.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -221,9 +198,6 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-mdicreate">WM_MDICREATE</a>
- 
-
- 
 
 ## -remarks
 

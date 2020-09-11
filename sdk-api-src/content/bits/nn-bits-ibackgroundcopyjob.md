@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 91dd1ae1-1740-4d95-a476-fc18aead1dc2
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], IBackgroundCopyJob interface [BITS],described, _drz_ibackgroundcopyjob, bits.ibackgroundcopyjob, bits/IBackgroundCopyJob
-f1_keywords:
-- bits/IBackgroundCopyJob
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob
+ - bits/IBackgroundCopyJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob
 ---
 
 # IBackgroundCopyJob interface
 
 
 ## -description
-
 
 Use the 
 <b>IBackgroundCopyJob</b> interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
@@ -57,7 +57,6 @@ To create a job, call the
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a> method. To get an 
 <b>IBackgroundCopyJob</b> interface pointer to an existing job, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a> method.
-
 
 ## -inheritance
 
@@ -364,13 +363,9 @@ Changes the ownership of the job to the current user.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
@@ -389,7 +384,4 @@ Changes the ownership of the job to the current user.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
- 
-
- 
 

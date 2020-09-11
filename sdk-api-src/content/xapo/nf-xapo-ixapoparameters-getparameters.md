@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.GetParameters(void@,UINT32)
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [XAudio2 Audio Mixing APIs], GetParameters method [XAudio2 Audio Mixing APIs],IXAPOParameters interface, IXAPOParameters interface [XAudio2 Audio Mixing APIs],GetParameters method, IXAPOParameters.GetParameters, IXAPOParameters::GetParameters, xapo/IXAPOParameters::GetParameters, xaudio2.ixapoparameters_interface_getparameters
-f1_keywords:
-- xapo/IXAPOParameters.GetParameters
-dev_langs:
-- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XAPO.h
-api_name:
-- IXAPOParameters.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAPOParameters::GetParameters
+ - xapo/IXAPOParameters::GetParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XAPO.h
+api_name:
+ - IXAPOParameters.GetParameters
 ---
 
 # IXAPOParameters::GetParameters
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current values for any effect-specific parameters.
 
-
 ## -parameters
-
-
-
 
 ### -param pParameters [in, out]
 
 Receives an effect-specific parameter block.
 
-
 ### -param ParameterByteSize [in]
 
 Size of pParameters, in bytes.
 
-
 ## -remarks
-
-
 
 The data in <i>pParameters</i> is completely effect-specific and determined by the implementation of the <b>IXAPOParameters::GetParameters</b> function. The data returned in <i>pParameters</i> can be used to provide information about the current state of the XAPO.
 
@@ -89,20 +81,11 @@ This method may block and should never be called from the realtime audio process
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">IXAudio2Voice::GetEffectParameters</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 7e7fc6d9-69eb-4457-be28-2b28b9eeeabb
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfCandidates interface, IEnumTfCandidates interface [Text Services Framework],Clone method, IEnumTfCandidates.Clone, IEnumTfCandidates::Clone, _tsf_ienumtfcandidates_clone_ref, ctffunc/IEnumTfCandidates::Clone, tsf.ienumtfcandidates_clone
-f1_keywords:
-- ctffunc/IEnumTfCandidates.Clone
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IEnumTfCandidates.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfCandidates::Clone
+ - ctffunc/IEnumTfCandidates::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IEnumTfCandidates.Clone
 ---
 
 # IEnumTfCandidates::Clone
@@ -53,17 +54,11 @@ Creates a copy of the enumerator object.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtfcandidates">IEnumTfCandidates</a> interface pointer that receives the new enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,19 +90,9 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtfcandidates">IEnumTfCandidates
       </a>
- 
-
- 
 

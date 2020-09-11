@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: bf7ca849-6025-4358-bf2d-629d80e06a04
 ms.date: 12/05/2018
 ms.keywords: ITransactionResourcePool, ITransactionResourcePool interface [COM+], ITransactionResourcePool interface [COM+],described, _cos_ITransactionResourcePool, comsvcs/ITransactionResourcePool, cos.itransactionresourcepool
-f1_keywords:
-- comsvcs/ITransactionResourcePool
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionResourcePool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionResourcePool
+ - comsvcs/ITransactionResourcePool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionResourcePool
 ---
 
 # ITransactionResourcePool interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maintains a list of pooled objects, keyed by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>, that are used until the transaction completes.
-
-
 
 ## -inheritance
 
@@ -89,20 +87,13 @@ Adds an object to the list of pooled objects.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproperty">ITransactionProperty</a>
- 
-
- 
 

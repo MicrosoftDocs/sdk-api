@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 499b63fd-e77b-4b90-9ee7-ff4b7b12c431
 ms.date: 12/05/2018
 ms.keywords: QueryServiceDynamicInformation, QueryServiceDynamicInformation function, SERVICE_DYNAMIC_INFORMATION_LEVEL_START_REASON, base.queryservicedynamicinformation, winsvc/QueryServiceDynamicInformation
-f1_keywords:
-- winsvc/QueryServiceDynamicInformation
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Service-Core-l1-1-1.dll
-- sechost.dll
-- API-Ms-Win-Service-Core-L1-1-2.dll
-api_name:
-- QueryServiceDynamicInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryServiceDynamicInformation
+ - winsvc/QueryServiceDynamicInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Service-Core-l1-1-1.dll
+ - sechost.dll
+ - API-Ms-Win-Service-Core-L1-1-2.dll
+api_name:
+ - QueryServiceDynamicInformation
 ---
 
 # QueryServiceDynamicInformation function
@@ -52,20 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves dynamic information related to the current service start.
 
-
 ## -parameters
-
-
-
 
 ### -param hServiceStatus [in]
 
 A service status handle provided by <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>
-
-
 
 ### -param dwInfoLevel [in]
 
@@ -87,29 +81,18 @@ Indicates a request for dynamic information related to the current service start
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppDynamicInfo
 
 A dynamic information buffer. If this parameter is valid, the callback function must free the          buffer after use with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is TRUE.
 
 If the function fails, the return value is FALSE. When this happens the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function should be called to retrieve the error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
 
@@ -144,7 +127,4 @@ If the function fails, the return value is FALSE. When this happens the <a href=
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
- 
-
- 
 

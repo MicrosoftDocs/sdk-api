@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 60d4f079-75ee-4aeb-9e7c-0b16d90da754
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl, ITAutomatedPhoneControl interface [TAPI 2.2], ITAutomatedPhoneControl interface [TAPI 2.2],described, _tapi3_itautomatedphonecontrol, tapi3.itautomatedphonecontrol, tapi3if/ITAutomatedPhoneControl
-f1_keywords:
-- tapi3if/ITAutomatedPhoneControl
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAutomatedPhoneControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAutomatedPhoneControl
+ - tapi3if/ITAutomatedPhoneControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAutomatedPhoneControl
 ---
 
 # ITAutomatedPhoneControl interface
 
 
 ## -description
-
 
 The 
 <b>ITAutomatedPhoneControl</b> is a fully OLE automatable and scriptable interface exposed by the TAPI phone object. When a phone device is opened with owner privilege, you can call the 
@@ -368,31 +368,19 @@ Removes the phone from the call.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An 
 <b>ITAutomatedPhoneControl</b> pointer becomes invalid when the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-close">ITPhone::Close</a> method is called.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
- 
-
- 
 

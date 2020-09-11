@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: de92d9cc-bc9d-4dc5-aa79-01f4d3050c35
 ms.date: 12/05/2018
 ms.keywords: AccessControlList, IADsAccessControlList, IADsAccessControlList interface [ADSI], IADsAccessControlList interface [ADSI],described, _ds_iadsaccesscontrollist, adsi.iadsaccesscontrollist, iads/IADsAccessControlList
-f1_keywords:
-- iads/IADsAccessControlList
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsAccessControlList
-- AccessControlList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsAccessControlList
+ - iads/IADsAccessControlList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsAccessControlList
+ - AccessControlList
 ---
 
 # IADsAccessControlList interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsAccessControlList</b> interface is a dual interface that manages individual access-control entries (ACEs).
-
 
 ## -inheritance
 
@@ -146,12 +145,9 @@ Gets or sets the ACL revision number.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An access-control list (ACL) is a collection of ACEs that can provide more specific access control to the same ADSI object for different clients. In general, different providers implement different access controls and therefore the behavior of the object is specific to the provider.  For more information, see  the provider documentation. For more information about Microsoft providers, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI System Providers</a>. Currently, only the LDAP provider supports access controls.
 
@@ -337,14 +333,7 @@ Cleanup:
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
@@ -359,7 +348,4 @@ Cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>
- 
-
- 
 

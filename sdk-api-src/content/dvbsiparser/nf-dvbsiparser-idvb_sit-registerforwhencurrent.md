@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: a60fa143-0e02-4af8-a64f-1fc92f8e0a3f
 ms.date: 12/05/2018
 ms.keywords: IDVB_SIT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_SIT.RegisterForWhenCurrent, IDVB_SIT::RegisterForWhenCurrent, IDVB_SITRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_SIT interface, dvbsiparser/IDVB_SIT::RegisterForWhenCurrent, mstv.idvb_sit_registerforwhencurrent
-f1_keywords:
-- dvbsiparser/IDVB_SIT.RegisterForWhenCurrent
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_SIT.RegisterForWhenCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_SIT::RegisterForWhenCurrent
+ - dvbsiparser/IDVB_SIT::RegisterForWhenCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_SIT.RegisterForWhenCurrent
 ---
 
 # IDVB_SIT::RegisterForWhenCurrent
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>RegisterForWhenCurrent</b> method registers the client to be notified when the table becomes current.
 
-
 ## -parameters
-
-
-
 
 ### -param hNextTableIsCurrent [in]
 
 Handle to an event created by the caller. The object signals the event when the table becomes current.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -125,27 +117,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to <i>next</i> tables. Otherwise, the method returns E_ACCESSDENIED.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sit">IDVB_SIT Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: e1aa6775-d1e5-4463-ae0f-32c0498881e1
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], IBackgroundCopyCallback interface [BITS],described, _drz_ibackgroundcopycallback, bits.ibackgroundcopycallback, bits/IBackgroundCopyCallback
-f1_keywords:
-- bits/IBackgroundCopyCallback
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.h
-api_name:
-- IBackgroundCopyCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyCallback
+ - bits/IBackgroundCopyCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.h
+api_name:
+ - IBackgroundCopyCallback
 ---
 
 # IBackgroundCopyCallback interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implement the 
 <b>IBackgroundCopyCallback</b> interface to 
 <a href="https://docs.microsoft.com/windows/desktop/Bits/registering-a-com-callback">receive notification</a> that a job is complete, has been modified, or is in error. Clients use this interface instead of  <a href="https://docs.microsoft.com/windows/desktop/Bits/polling-for-the-status-of-the-job">polling for the status of the job</a>.
-			
-			
-		
-
 
 ## -inheritance
 
@@ -100,12 +96,9 @@ Called when all of the files in the job have successfully transferred.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To receive notifications, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
@@ -329,14 +322,7 @@ HRESULT CNotifyInterface::JobModification(IBackgroundCopyJob* pJob, DWORD dwRese
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
@@ -347,7 +333,4 @@ HRESULT CNotifyInterface::JobModification(IBackgroundCopyJob* pJob, DWORD dwRese
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
- 
-
- 
 

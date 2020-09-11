@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4fc699ca-6ffb-4954-9b72-1b827d558563
 ms.date: 12/05/2018
 ms.keywords: DONT_RESOLVE_DLL_REFERENCES, LDR_IS_DATAFILE, LDR_IS_IMAGEMAPPING, LDR_IS_RESOURCE, LOAD_IGNORE_CODE_AUTHZ_LEVEL, LOAD_LIBRARY_AS_DATAFILE, LOAD_LIBRARY_AS_DATAFILE_EXCLUSIVE, LOAD_LIBRARY_AS_IMAGE_RESOURCE, LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS, LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR, LOAD_LIBRARY_SEARCH_SYSTEM32, LOAD_LIBRARY_SEARCH_USER_DIRS, LOAD_WITH_ALTERED_SEARCH_PATH, LoadLibraryEx, LoadLibraryEx function, LoadLibraryExA, LoadLibraryExW, _win32_loadlibraryex, base.loadlibraryex, libloaderapi/LoadLibraryEx, libloaderapi/LoadLibraryExA, libloaderapi/LoadLibraryExW, winbase/LoadLibraryEx, winbase/LoadLibraryExA, winbase/LoadLibraryExW
-f1_keywords:
-- libloaderapi/LoadLibraryEx
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
-- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-api_name:
-- LoadLibraryEx
-- LoadLibraryExA
-- LoadLibraryExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadLibraryExW
+ - libloaderapi/LoadLibraryExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+api_name:
+ - LoadLibraryEx
+ - LoadLibraryExA
+ - LoadLibraryExW
 ---
 
 # LoadLibraryExW function
@@ -59,15 +60,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the specified module into the address space of the calling process. The specified 
     module may cause other modules to be loaded.
 
-
 ## -parameters
-
-
-
 
 ### -param lpLibFileName [in]
 
@@ -101,11 +97,9 @@ If the string specifies a module name without a path and a module of the same na
 
 If the function cannot find the  module or one of its dependencies, the function fails.
 
-
 ### -param hFile
 
 This parameter is reserved for future use. It must be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -376,24 +370,15 @@ If this value is used, loading a DLL for execution from the current directory is
 </tr>
 
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the loaded module.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>LoadLibraryEx</b> function is very similar to the 
      <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function. The differences consist of a set of 
@@ -652,9 +637,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a>
 
 
@@ -716,7 +698,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
- 
-
- 
 

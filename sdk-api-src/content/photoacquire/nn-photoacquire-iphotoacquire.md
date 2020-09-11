@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: 94f41290-bbc4-4a2f-9787-831004bde3c7
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquire, IPhotoAcquire interface [Picture Acquisition], IPhotoAcquire interface [Picture Acquisition],described, IPhotoAcquireInterface, photoacquire/IPhotoAcquire, picacq.iphotoacquire
-f1_keywords:
-- photoacquire/IPhotoAcquire
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- photoacquire.h
-api_name:
-- IPhotoAcquire
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquire
+ - photoacquire/IPhotoAcquire
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - photoacquire.h
+api_name:
+ - IPhotoAcquire
 ---
 
 # IPhotoAcquire interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IPhotoAcquire</code> interface provides methods for acquiring photos from a device.
-
-
-
 
 ## -inheritance
 
@@ -98,16 +94,9 @@ Retrieves an enumeration of the acquired files.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
- 
-
- 
 

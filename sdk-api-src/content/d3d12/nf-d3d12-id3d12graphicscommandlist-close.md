@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: EA9F00AD-8506-4F3C-871E-A51ED69005BB
 ms.date: 12/05/2018
 ms.keywords: Close, Close method, Close method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,Close method, ID3D12GraphicsCommandList.Close, ID3D12GraphicsCommandList::Close, d3d12/ID3D12GraphicsCommandList::Close, direct3d12.id3d12graphicscommandlist_close
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.Close
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::Close
+ - d3d12/ID3D12GraphicsCommandList::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.Close
 ---
 
 # ID3D12GraphicsCommandList::Close
@@ -49,21 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates that recording to the command list has finished.
-        
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -79,14 +70,8 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following value
               </li>
 </ul>
 See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
-            
-
-
-
 
 ## -remarks
-
-
 
 The runtime will validate that the command list has not previously been closed.  If an error was encountered during recording, the error code is returned here.  The runtime won't call the close device driver interface (DDI) in this case.
       
@@ -282,15 +267,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

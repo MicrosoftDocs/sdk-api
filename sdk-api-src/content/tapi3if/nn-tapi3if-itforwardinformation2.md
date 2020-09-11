@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 25c99955-1a9d-49fa-9432-962e19296ad5
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2, ITForwardInformation2 interface [TAPI 2.2], ITForwardInformation2 interface [TAPI 2.2],described, _tapi3_itforwardinformation2, tapi3.itforwardinformation2, tapi3if/ITForwardInformation2
-f1_keywords:
-- tapi3if/ITForwardInformation2
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITForwardInformation2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITForwardInformation2
+ - tapi3if/ITForwardInformation2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITForwardInformation2
 ---
 
 # ITForwardInformation2 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITForwardInformation2</b> interface exposes methods that provide additional methods for the control of forwarding information. See 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> for the basic forwarding control methods.
-
 
 ## -inheritance
 
@@ -106,13 +105,9 @@ Sets the current forwarding mode, specified by caller address.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -135,7 +130,4 @@ Sets the current forwarding mode, specified by caller address.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
 

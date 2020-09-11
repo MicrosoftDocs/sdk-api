@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_5imageimage_wrapmodewrapmode_realdstx_re.htm
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL), TextureBrush.TextureBrush(Image*,WrapMode,REAL,REAL,REAL,REAL), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW
-f1_keywords:
-- gdiplusbrush/TextureBrush.TextureBrush
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- TextureBrush.TextureBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - TextureBrush::TextureBrush
+ - gdiplusbrush/TextureBrush::TextureBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - TextureBrush.TextureBrush
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL)
@@ -50,60 +51,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
 
-
 ## -parameters
-
-
-
 
 ### -param image [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that contains the bitmap of the image to use. 
-
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that contains the bitmap of the image to use.
 
 ### -param wrapMode [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a></b>
 
-Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a> enumeration that specifies how repeated copies of an image are used to tile an area when it is painted with this texture brush. 
-
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a> enumeration that specifies how repeated copies of an image are used to tile an area when it is painted with this texture brush.
 
 ### -param dstX [in]
 
 Type: <b>REAL</b>
 
-Leftmost coordinate of the image portion to be used by this brush. 
-
+Leftmost coordinate of the image portion to be used by this brush.
 
 ### -param dstY [in]
 
 Type: <b>REAL</b>
 
-Uppermost coordinate of the image portion to be used by this brush. 
-
+Uppermost coordinate of the image portion to be used by this brush.
 
 ### -param dstWidth [in]
 
 Type: <b>REAL</b>
 
-Width of the brush and width of the image portion to be used by the brush. 
-
+Width of the brush and width of the image portion to be used by the brush.
 
 ### -param dstHeight [in]
 
 Type: <b>REAL</b>
 
-Height of the brush and height of the image portion to be used by the brush. 
-
+Height of the brush and height of the image portion to be used by the brush.
 
 ## -remarks
-
-
 
 The 
 				<i>dstX</i>, 
@@ -132,6 +120,4 @@ Now suppose you create another <a href="https://docs.microsoft.com/windows/deskt
 <code>TextureBrush(&amp;someImage, WrapModeTile, 0, 0, 256, 512)</code>
 
 The brush will have width and height equal to 256 and 512, respectively. The brush will use the entire image instead of a portion of it because the rectangle specifies a starting pixel at coordinates (0, 0) and dimensions identical to those of the image.
-
-
 

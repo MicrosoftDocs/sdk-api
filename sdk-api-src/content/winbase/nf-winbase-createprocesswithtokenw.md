@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: b329866a-0c0d-4cb3-838c-36aac17c87ed
 ms.date: 12/05/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithTokenW, CreateProcessWithTokenW function, EXTENDED_STARTUPINFO_PRESENT, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, base.createprocesswithtokenw, winbase/CreateProcessWithTokenW
-f1_keywords:
-- winbase/CreateProcessWithTokenW
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- API-MS-Win-Security-Cpwl-L1-1-0.dll
-api_name:
-- CreateProcessWithTokenW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateProcessWithTokenW
+ - winbase/CreateProcessWithTokenW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-MS-Win-Security-Cpwl-L1-1-0.dll
+api_name:
+ - CreateProcessWithTokenW
 ---
 
 # CreateProcessWithTokenW function
@@ -51,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new process and its primary thread. The new process runs in the security context of the specified token. It can optionally load the user profile for the specified user.
 
 The process that calls <b>CreateProcessWithTokenW</b> must have the SE_IMPERSONATE_NAME privilege. If this function fails with ERROR_PRIVILEGE_NOT_HELD (1314), use the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprocesswithlogonw">CreateProcessWithLogonW</a> function instead. Typically, the process that calls  
 <b>CreateProcessAsUser</b>  must have the SE_INCREASE_QUOTA_NAME privilege and may require the SE_ASSIGNPRIMARYTOKEN_NAME privilege if the token is  not assignable.    <b>CreateProcessWithLogonW</b> requires no special privileges, but the specified user account must be allowed to log on interactively. Generally, it is best to use <b>CreateProcessWithLogonW</b> to create a process with alternate credentials.
 
-
 ## -parameters
-
-
-
 
 ### -param hToken [in]
 
@@ -77,7 +73,6 @@ To get a primary token that represents the specified user, call the
 
 <b>Terminal Services:  </b>The process is run in the session specified in the token. By default, this is the same session that called <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>. To change the session, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a> function.
-
 
 ### -param dwLogonFlags [in]
 
@@ -123,8 +118,6 @@ The system does not validate the specified credentials. Therefore, the process c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpApplicationName [in, optional]
 
@@ -142,7 +135,6 @@ The <i>lpApplicationName</i> parameter can be NULL. In that case, the module nam
 <b>c:\program files\sub dir\program.exe</b>
 <b>c:\program files\sub dir\program name.exe</b>
 If the executable module is a 16-bit application, <i>lpApplicationName</i> should be NULL, and the string pointed to by <i>lpCommandLine</i> should specify the executable module as well as its arguments.
-
 
 ### -param lpCommandLine [in, out, optional]
 
@@ -170,7 +162,6 @@ If <i>lpApplicationName</i> is NULL, the first white space–delimited token of 
 <li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/axe/shellexecute">ShellExecute</a> function.</li>
 </ol>
 The system adds a null character to the command line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
-
 
 ### -param dwCreationFlags [in]
 
@@ -290,7 +281,6 @@ The process is created with extended startup information; the <i>lpStartupInfo</
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to NORMAL_PRIORITY_CLASS unless the priority class of the creating process is IDLE_PRIORITY_CLASS or BELOW_NORMAL_PRIORITY_CLASS. In this case, the child process receives the default priority class of the calling process.
 
-
 ### -param lpEnvironment [in, optional]
 
 A pointer to an environment block for the new process. If this parameter is NULL, the new process uses an environment created from the profile of the user specified by <i>lpUsername</i>. 
@@ -311,13 +301,11 @@ An ANSI environment block is terminated by two zero bytes: one for the last stri
 To retrieve a copy of the environment block for a specific user, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a> function.
 
-
 ### -param lpCurrentDirectory [in, optional]
 
 The full path to the current directory for the process. The string can also specify a UNC path. 
 
 If this parameter is NULL, the new process will have the same current drive and directory as the calling process. (This feature is provided primarily for shells that need to start an application and specify its initial drive and working directory.)
-
 
 ### -param lpStartupInfo [in]
 
@@ -348,24 +336,16 @@ Handles in
 <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> must be closed with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function when they are no longer needed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-Note that the function returns before the process has finished initialization. If a required DLL cannot be located or fails to initialize, the process is terminated. To get the termination status of a process, call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a>. 
-
-
-
+Note that the function returns before the process has finished initialization. If a required DLL cannot be located or fails to initialize, the process is terminated. To get the termination status of a process, call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a>.
 
 ## -remarks
-
-
 
 By default, 
 <b>CreateProcessWithTokenW</b> does not load the specified user's profile into the <b>HKEY_USERS</b> registry key. This means that access to information in the  <b>HKEY_CURRENT_USER</b> registry key may not produce results consistent with a normal interactive logon. It is your responsibility to load the user's registry hive into <b>HKEY_USERS</b>  by either using LOGON_WITH_PROFILE, or by calling the 
@@ -410,12 +390,7 @@ To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do 
 <pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline = L"\"C:\\Program Files\\MyApp\"";
 	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -462,7 +437,4 @@ To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a>
- 
-
- 
 

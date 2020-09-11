@@ -8,10 +8,6 @@ tech.root: stream
 ms.assetid: 378A8E3F-8B1E-4C0B-9C30-FE78E1939422
 ms.date: 12/05/2018
 ms.keywords: GetStreamIDs, GetStreamIDs method [Streaming Media Devices], GetStreamIDs method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetStreamIDs method, IMFDeviceTransform.GetStreamIDs, IMFDeviceTransform::GetStreamIDs, mftransform/IMFDeviceTransform::GetStreamIDs, stream.imfdevicetransform_getstreamids
-f1_keywords:
-- mftransform/IMFDeviceTransform.GetStreamIDs
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mftransform.h
-api_name:
-- IMFDeviceTransform.GetStreamIDs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDeviceTransform::GetStreamIDs
+ - mftransform/IMFDeviceTransform::GetStreamIDs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mftransform.h
+api_name:
+ - IMFDeviceTransform.GetStreamIDs
 ---
 
 # IMFDeviceTransform::GetStreamIDs
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The  <b>GetStreamIDs</b> method gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
 
-
 ## -parameters
-
-
-
 
 ### -param dwInputIDArraySize [in]
 
 The number of elements in <i>pdwInputStreamIDs</i>
-
 
 ### -param pdwInputStreamIds [out]
 
@@ -69,20 +64,15 @@ The number of elements in <i>pdwInputStreamIDs</i>
 
 If the caller passes an array that is larger than the number of input streams, the MFT must not write values into the extra array entries.
 
-
 ### -param dwOutputIDArraySize [out]
 
 The number of elements in <i>pdwOutputStreamIDs</i>.
-
 
 ### -param pdwOutputStreamIds
 
 A pointer to an array allocated by the caller. The method fills the array with the output stream identifiers. The array size must be at least equal to the number of output streams. To get the number of output streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamcount">IMFDeviceTransform::GetStreamCount</a>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include but not limited to values given in the following table.
 
@@ -125,14 +115,8 @@ The buffer coming in does not  have enough space to fill in the stream IDs.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Stream identifiers are necessary because some MFTs can add or remove streams, so the index of a stream may not be unique. Therefore, <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a> methods that operate on streams take stream identifiers.
 
@@ -144,16 +128,7 @@ If the client adds an input stream, the client assigns the identifier, so the MF
 
 By convention, if an MFT has exactly one fixed input stream and one fixed output stream, it should assign the identifier 0 to both streams.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
- 
-
- 
 

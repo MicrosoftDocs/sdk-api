@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 32601f2e-ab91-4a65-bcf4-8e063e90fbb0
 ms.date: 12/05/2018
 ms.keywords: 32601f2e-ab91-4a65-bcf4-8e063e90fbb0, ContiguousCopyTo, ContiguousCopyTo method [Media Foundation], ContiguousCopyTo method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],ContiguousCopyTo method, IMF2DBuffer.ContiguousCopyTo, IMF2DBuffer::ContiguousCopyTo, mf.imf2dbuffer_contiguouscopyto, mfobjects/IMF2DBuffer::ContiguousCopyTo
-f1_keywords:
-- mfobjects/IMF2DBuffer.ContiguousCopyTo
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMF2DBuffer.ContiguousCopyTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMF2DBuffer::ContiguousCopyTo
+ - mfobjects/IMF2DBuffer::ContiguousCopyTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMF2DBuffer.ContiguousCopyTo
 ---
 
 # IMF2DBuffer::ContiguousCopyTo
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Copies this buffer into the caller's buffer, converting the data to contiguous format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbDestBuffer [out]
 
 Pointer to the destination buffer where the data will be copied. The caller allocates the buffer.
 
-
 ### -param cbDestBuffer [in]
 
 Size of the destination buffer, in bytes. To get the required size, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-getcontiguouslength">IMF2DBuffer::GetContiguousLength</a>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -106,24 +95,12 @@ Invalid size specified in <i>pbDestBuffer</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the original buffer is not contiguous, this method converts the contents into contiguous format during the copy. For a definition of contiguous as it applies to 2-D buffers, see the Remarks section in <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
@@ -134,7 +111,4 @@ If the original buffer is not contiguous, this method converts the contents into
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
- 
-
- 
 

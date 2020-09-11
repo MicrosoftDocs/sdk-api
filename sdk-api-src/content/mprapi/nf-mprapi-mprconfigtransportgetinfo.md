@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 84054313-f923-47d6-8019-c68a042d2d73
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportGetInfo, MprConfigTransportGetInfo function [RAS], _mpr_mprconfigtransportgetinfo, mprapi/MprConfigTransportGetInfo, rras.mprconfigtransportgetinfo
-f1_keywords:
-- mprapi/MprConfigTransportGetInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigTransportGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigTransportGetInfo
+ - mprapi/MprConfigTransportGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigTransportGetInfo
 ---
 
 # MprConfigTransportGetInfo function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigTransportGetInfo</b> function retrieves the configuration for the specified transport protocol from the router.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
-
 
 ### -param hRouterTransport [in]
 
@@ -71,7 +66,6 @@ Handle to the transport protocol configuration being retrieved. Obtain this hand
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportcreate">MprConfigTransportCreate</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportgethandle">MprConfigTransportGetHandle</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportenum">MprConfigTransportEnum</a>. Supported transport protocol types are listed on <a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>.
-
 
 ### -param ppGlobalInfo [in, out, optional]
 
@@ -86,7 +80,6 @@ On output, this pointer variable points to an information header that contains g
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not retrieve the global information.
 
-
 ### -param lpdwGlobalInfoSize [out, optional]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the size, in bytes, of the buffer returned through the <i>ppGlobalInfo</i> parameter. 
@@ -95,7 +88,6 @@ Pointer to a <b>DWORD</b> variable. This variable receives the size, in bytes, o
 
 
 This parameter is optional; the calling application may specify <b>NULL</b> for this parameter. However, if <i>ppGlobalInfo</i> is not <b>NULL</b>, this parameter cannot be <b>NULL</b>.
-
 
 ### -param ppClientInterfaceInfo [in, out, optional]
 
@@ -110,7 +102,6 @@ On output, this pointer points to an information header that contains default in
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not retrieve the interface information.
 
-
 ### -param lpdwClientInterfaceInfoSize [out, optional]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the size, in bytes, of the buffer returned through the <i>ppClientInterfaceInfo</i> parameter. 
@@ -119,7 +110,6 @@ Pointer to a <b>DWORD</b> variable. This variable receives the size, in bytes, o
 
 
 This parameter is optional; the calling application may specify <b>NULL</b> for this parameter. However, if <i>ppClientInterfaceInfo</i> is not <b>NULL</b>, this parameter cannot be <b>NULL</b>.
-
 
 ### -param lplpwsDLLPath [in, out, optional]
 
@@ -132,10 +122,7 @@ On output, the Unicode string receives the name of the router manager DLL for th
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not retrieve the name of the router manager DLL.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -201,24 +188,12 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the <i>pGlobalInfo</i>, <i>pClientInterfaceInfo</i>, and <i>lpwsDLLPath</i> parameters are all <b>NULL</b>, the function does nothing and returns a value of NO_ERROR.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -253,7 +228,4 @@ If the <i>pGlobalInfo</i>, <i>pClientInterfaceInfo</i>, and <i>lpwsDLLPath</i> p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

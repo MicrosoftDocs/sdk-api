@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\scrollintoview.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],ScrollIntoView method, ITextRange.ScrollIntoView, ITextRange::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Controls], ScrollIntoView method [Windows Controls],ITextRange interface, _win32_ITextRange_ScrollIntoView, _win32_ITextRange_ScrollIntoView_cpp, controls.ITextRange_ScrollIntoView, controls._win32_ITextRange_ScrollIntoView, tom/ITextRange::ScrollIntoView, tomEnd, tomNoUpScroll, tomNoVpScroll, tomStart
-f1_keywords:
-- tom/ITextRange.ScrollIntoView
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.ScrollIntoView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::ScrollIntoView
+ - tom/ITextRange::ScrollIntoView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.ScrollIntoView
 ---
 
 # ITextRange::ScrollIntoView
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Scrolls the specified range into view. 
-
+Scrolls the specified range into view.
 
 ## -parameters
-
-
-
 
 ### -param Value
 
@@ -104,24 +100,14 @@ Scrolls the start character position to appear on the top line. (Default value).
 <td width="60%"></td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns S_FALSE.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -136,7 +122,4 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

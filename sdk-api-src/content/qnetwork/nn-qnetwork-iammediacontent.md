@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], IAMMediaContent interface [DirectShow],described, IAMMediaContentInterface, dshow.iammediacontent, qnetwork/IAMMediaContent
-f1_keywords:
-- qnetwork/IAMMediaContent
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMMediaContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaContent
+ - qnetwork/IAMMediaContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMMediaContent
 ---
 
 # IAMMediaContent interface
@@ -49,16 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAMMediaContent</b> interface retrieves metadata from a stream. Applications can use this interface to retrieve information encoded into a stream, such as the author, title, and copyright. This interface is exposed by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-stream-splitter-filter">MPEG-1 Stream Splitter</a> filter.
 
 Depending on the stream type, a filter might support a subset of the methods on this interface. For example, the AVI Splitter retrieves the copyright, author name, and title from INFO chunks in the AVI file. The remaining methods return <b> E_NOTIMPL</b>.
 
 <div class="alert"><b>Note</b>  Windows Media Player does not use this interface to display metadata.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -192,12 +189,9 @@ Gets a URL for the watermark.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:
 
@@ -208,15 +202,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 <div class="alert"><b>Note</b>  Make sure that Initguid.h is included only once in your project. Otherwise, you will receive linker errors for duplicate GUID values.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

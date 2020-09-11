@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: DD87B97F-553A-4E36-A245-5ED15F33C62B
 ms.date: 12/05/2018
 ms.keywords: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE, D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE enumeration [Direct2D], D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS, D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE, d2d1effects_2/D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE, d2d1effects_2/D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS, d2d1effects_2/D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE, direct2d.d2d1_rgbtohue_output_color_space
-f1_keywords:
-- d2d1effects_2/D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
-dev_langs:
-- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects_2.h
-api_name:
-- D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
 targetos: Windows
 req.typenames: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
+ - d2d1effects_2/D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects_2.h
+api_name:
+ - D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
 ---
 
 # D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE enumeration
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Values for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop">D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>.
-
 
 ## -enum-fields
 
-
-
-
 ### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE
 
-The effect converts from RGB to Hue Saturation Value (HSV). 
-
+The effect converts from RGB to Hue Saturation Value (HSV).
 
 ### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS
 
-The effect converts from RGB to Hue Saturation Lightness (HSL). 
-
+The effect converts from RGB to Hue Saturation Lightness (HSL).
 
 ### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_FORCE_DWORD
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
 
@@ -87,7 +75,4 @@ The effect converts from RGB to Hue Saturation Lightness (HSL).
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: e3791756-3bd4-490b-983a-9687373d846b
 ms.date: 12/05/2018
 ms.keywords: NetUserChangePassword, NetUserChangePassword function [Network Management], _win32_netuserchangepassword, lmaccess/NetUserChangePassword, netmgmt.netuserchangepassword
-f1_keywords:
-- lmaccess/NetUserChangePassword
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserChangePassword
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserChangePassword
+ - lmaccess/NetUserChangePassword
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserChangePassword
 ---
 
 # NetUserChangePassword function
@@ -49,24 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 				<b>NetUserChangePassword</b> function changes a user's password for a specified network server or domain.
 
-
 ## -parameters
-
-
-
 
 ### -param domainname [in]
 
-A pointer to a constant string that specifies the DNS or NetBIOS name of a remote server or domain on which the function is to execute. If this parameter is <b>NULL</b>, the logon domain of the caller is used. 
-
-
-
-					
-
+A pointer to a constant string that specifies the DNS or NetBIOS name of a remote server or domain on which the function is to execute. If this parameter is <b>NULL</b>, the logon domain of the caller is used.
 
 ### -param username [in]
 
@@ -75,20 +66,15 @@ A pointer to a constant string that specifies a user name. The
 
 If this parameter is <b>NULL</b>, the logon name of the caller is used. For more information, see the following Remarks section.
 
-
 ### -param oldpassword [in]
 
 A pointer to a constant string that specifies the user's old password.
-
 
 ### -param newpassword [in]
 
 A pointer to a constant string that specifies the user's new password.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -166,14 +152,8 @@ The password is shorter than required. (The password could also be too long, be 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same result you can achieve by calling the network management user functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
@@ -253,14 +233,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
 
@@ -281,7 +254,4 @@ int wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 0d81a4ac-dd66-4648-9f3f-1f54aca84243
 ms.date: 12/05/2018
 ms.keywords: WaitForDebugEvent, WaitForDebugEvent function, _win32_waitfordebugevent, base.waitfordebugevent, debugapi/WaitForDebugEvent
-f1_keywords:
-- debugapi/WaitForDebugEvent
-dev_langs:
-- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-debug-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Debug-L1-1-2.dll
-api_name:
-- WaitForDebugEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WaitForDebugEvent
+ - debugapi/WaitForDebugEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-debug-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Debug-L1-1-2.dll
+api_name:
+ - WaitForDebugEvent
 ---
 
 # WaitForDebugEvent function
@@ -54,41 +55,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits for a debugging event to occur in a process being debugged.
 <div class="alert"><b>Important</b>  In the past, the operating system did not output Unicode strings via <b>OutputDebugStringW</b> and instead only output ASCII strings. To force <b>OutputDebugStringW</b> to correctly output Unicode strings, debuggers are required to call <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugeventex">WaitForDebugEventEx</a> to opt into the new behavior. On calling <b>WaitForDebugEventEx</b>, the operating system will know that the debugger supports Unicode and is specifically opting into receiving Unicode strings. </div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpDebugEvent [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a> structure that receives information about the debugging event.
 
-
 ### -param dwMilliseconds [in]
 
 The number of milliseconds to wait for a debugging event. If this parameter is zero, the function tests for a debugging event and returns immediately. If the parameter is INFINITE, the function does not return until a debugging event has occurred.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Only the thread that created the process being debugged can call 
 <b>WaitForDebugEvent</b>.
@@ -118,12 +106,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-continuedebugevent">ContinueDebugEvent</a>
 
@@ -150,7 +133,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a>
- 
-
- 
 

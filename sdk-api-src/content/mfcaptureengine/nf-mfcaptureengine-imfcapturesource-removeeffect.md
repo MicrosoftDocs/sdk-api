@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5FF2EF1C-1BF0-4CF7-95AB-1BB10025D66F
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource interface [Media Foundation],RemoveEffect method, IMFCaptureSource.RemoveEffect, IMFCaptureSource::RemoveEffect, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_removeeffect, mfcaptureengine/IMFCaptureSource::RemoveEffect
-f1_keywords:
-- mfcaptureengine/IMFCaptureSource.RemoveEffect
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSource.RemoveEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSource::RemoveEffect
+ - mfcaptureengine/IMFCaptureSource::RemoveEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSource.RemoveEffect
 ---
 
 # IMFCaptureSource::RemoveEffect
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes an effect from a capture stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSourceStreamIndex [in]
 
@@ -112,17 +108,12 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pUnknown [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the effect object. 
-
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the effect object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -165,27 +156,12 @@ The <i>dwSourceStreamIndex</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method removes an effect that was previously added using the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-addeffect">IMFCaptureSource::AddEffect</a> method.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
- 
-
- 
 

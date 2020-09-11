@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 615ca0be-44d3-4dc4-9dc1-c14e8b50e835
 ms.date: 12/05/2018
 ms.keywords: AVIStreamIsKeyFrame, AVIStreamIsKeyFrame macro [Windows Multimedia], _win32_AVIStreamIsKeyFrame, multimedia.avistreamiskeyframe, vfw/AVIStreamIsKeyFrame
-f1_keywords:
-- vfw/AVIStreamIsKeyFrame
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- AVIStreamIsKeyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamIsKeyFrame
+ - vfw/AVIStreamIsKeyFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - AVIStreamIsKeyFrame
 ---
 
 # AVIStreamIsKeyFrame macro
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIStreamIsKeyFrame</b> macro indicates whether a sample in a specified stream is a key frame.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pavi
 
-Handle to an open stream. 
-
+Handle to an open stream.
 
 ### -param l
 
-Position to search in the stream. 
-
+Position to search in the stream.
 
 ## -remarks
-
-
 
 The <b>AVIStreamIsKeyFrame</b> macro is defined as follows:
 
@@ -85,21 +74,11 @@ The <b>AVIStreamIsKeyFrame</b> macro is defined as follows:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>
- 
-
- 
 

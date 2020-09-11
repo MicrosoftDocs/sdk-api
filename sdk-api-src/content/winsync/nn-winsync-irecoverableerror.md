@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: a8b8a84a-6083-4696-bef1-46145a4d71c8
 ms.date: 12/05/2018
 ms.keywords: IRecoverableError, IRecoverableError interface [Windows Sync], IRecoverableError interface [Windows Sync],described, winsync.irecoverableerror, winsync/IRecoverableError
-f1_keywords:
-- winsync/IRecoverableError
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRecoverableError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecoverableError
+ - winsync/IRecoverableError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRecoverableError
 ---
 
 # IRecoverableError interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a recoverable error that occurred when an item was loaded or when an item was saved.
-
-
 
 ## -inheritance
 
@@ -119,16 +117,9 @@ Gets the stage in the synchronization session when the error occurred.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

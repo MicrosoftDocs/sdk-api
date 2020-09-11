@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 649f9a73-c70a-4524-b577-366ade969f2f
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], IWMHeaderInfo interface [windows Media Format],described, IWMHeaderInfoInterface, wmformat.iwmheaderinfo, wmsdkidl/IWMHeaderInfo
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMHeaderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo
+ - wmsdkidl/IWMHeaderInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMHeaderInfo
 ---
 
 # IWMHeaderInfo interface
 
 
 ## -description
-
-
 
 The <b>IWMHeaderInfo</b> interface sets and retrieves information in the header section of an ASF file. You can manipulate three types of header information by using the methods of this interface: metadata attributes, <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">markers</a>, and script commands.
 
@@ -62,9 +61,6 @@ Markers enable you to name specific locations in the file for easy access. Typic
 Script commands are name/value pairs containing information that your reading application will respond to programmatically. There are no script commands that are directly supported by the reader or the synchronous reader, but there are a few standard script commands supported by Windows Media Player. For more information about script commands, see the <a href="https://docs.microsoft.com/windows/desktop/wmformat/using-script-commands">Using Script Commands</a> section of this documentation.
 
 The <b>IWMHeaderInfo</b> interface is implemented by the metadata editor object, the writer object, the reader object, and the synchronous reader object. To obtain a pointer to an instance, call the <b>QueryInterface</b> method of any other interface in the desired object.
-
-
-
 
 ## -inheritance
 
@@ -193,11 +189,7 @@ Sets a descriptive attribute that is stored in the ASF file header.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
 
-
-
 ## -remarks
-
-
 
 Although the <b>IWMHeaderInfo</b> interface is accessible from four different objects, not all of the features are available in all cases. The following table summarizes the differences in implementation for the various objects.
 
@@ -227,13 +219,7 @@ Although the <b>IWMHeaderInfo</b> interface is accessible from four different ob
 
 For information about using the writer for metadata editing, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/to-edit-metadata-with-the-writer">To Edit Metadata with the Writer</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
 
@@ -264,7 +250,4 @@ For information about using the writer for metadata editing, see <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
- 
-
- 
 

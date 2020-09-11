@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcachedsize.htm
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetCachedSize method, ITextServices.TxGetCachedSize, ITextServices::TxGetCachedSize, TxGetCachedSize, TxGetCachedSize method [Windows Controls], TxGetCachedSize method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetCachedSize, _win32_ITextServices_TxGetCachedSize_cpp, controls.ITextServices_TxGetCachedSize, controls._win32_ITextServices_TxGetCachedSize, textserv/ITextServices::TxGetCachedSize
-f1_keywords:
-- textserv/ITextServices.TxGetCachedSize
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextServices.TxGetCachedSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextServices::TxGetCachedSize
+ - textserv/ITextServices::TxGetCachedSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextServices.TxGetCachedSize
 ---
 
 # ITextServices::TxGetCachedSize
@@ -49,53 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>, <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>, and so forth, although it is not guaranteed to be. 
-
+Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>, <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>, and so forth, although it is not guaranteed to be.
 
 ## -parameters
-
-
-
 
 ### -param pdwWidth [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
-The width, in client coordinates. 
-
+The width, in client coordinates.
 
 ### -param pdwHeight [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
-The height (in client coordinates). 
-
+The height (in client coordinates).
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, the return value is an <b>HRESULT</b> code.
 
-
-
-
 ## -remarks
-
-
 
 This method can free the host from the need to maintain the cached drawing size information and the need to keep in synchronization.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -118,7 +99,4 @@ This method can free the host from the need to maintain the cached drawing size 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

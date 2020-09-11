@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 00a06104-570f-4cd5-9520-bc73516ac7a5
 ms.date: 12/05/2018
 ms.keywords: WSCWriteNameSpaceOrder, WSCWriteNameSpaceOrder function [Winsock], sporder/WSCWriteNameSpaceOrder, winsock.wscwritenamespaceorder
-f1_keywords:
-- sporder/WSCWriteNameSpaceOrder
-dev_langs:
-- c++
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sporder.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCWriteNameSpaceOrder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCWriteNameSpaceOrder
+ - sporder/WSCWriteNameSpaceOrder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCWriteNameSpaceOrder
 ---
 
 # WSCWriteNameSpaceOrder function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSCWriteNameSpaceOrder</b> function changes the order of available Windows Sockets (Winsock) 2 namespace providers. The order of the namespace providers determines the priority of the namespace when enumerated or queried for name resolution.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 An array of <b>NSProviderId</b> elements as found in the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a>structure.  The order of the <b>NSProviderId</b> elements is the new
       priority ordering for the namespace providers.
 
-
 ### -param dwNumberOfEntries [in]
 
 The number of elements in the <b>NSProviderId</b> array.
 
-
 ## -returns
-
-
 
 The function returns <b>ERROR_SUCCESS</b> (zero) if the routine is successful. Otherwise, it returns a specific error code.
 
@@ -160,14 +152,8 @@ The function may return any registry error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Namespace providers are installed using the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace">WSCInstallNameSpace</a> function. The order in which namespace providers are initially installed governs the default order in which they are enumerated through 
  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>.  More importantly, this order also governs the order in which namespace providers are considered when a client requests name resolution. The order of namespace providers can be changed using the <b>WSCWriteNameSpaceOrder</b> function. On 64-bit platforms, the <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwritenamespaceorder32">WSCWriteNameSpaceOrder32</a> function is provided to allow 64-bit processes to change the order of namespace providers in the 32-bit namespace provider catalog. On 64-bit platforms, namespace providers are installed in the 32-bit namespace provider catalog using the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace32">WSCInstallNameSpace32</a> function. 
@@ -196,12 +182,7 @@ The following list describes scenarios in which the
 <li>Another process (or thread) is currently calling the function.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
 
@@ -228,7 +209,4 @@ The following list describes scenarios in which the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwritenamespaceorder32">WSCWriteNameSpaceOrder32</a>
- 
-
- 
 

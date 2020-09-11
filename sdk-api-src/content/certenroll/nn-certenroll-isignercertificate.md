@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 146a1925-4de6-492c-8014-612c65bd7270
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], ISignerCertificate interface [Security],described, certenroll/ISignerCertificate, security.isignercertificate
-f1_keywords:
-- certenroll/ISignerCertificate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ISignerCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISignerCertificate
+ - certenroll/ISignerCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ISignerCertificate
 ---
 
 # ISignerCertificate interface
 
 
 ## -description
-
 
 The <b>ISignerCertificate</b> interface represents a signing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that enables you to sign a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. When you initialize the interface, the Certificate Enrollment Control retrieves the signing certificate from the personal store and uses it to find an associated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. You can use the private key to sign a PKCS #7 or a CMC request but not a PKCS #10 request. PKCS #10 requests must be signed by using the private key associated with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> included in the request. Self-signed certificates can be signed by using the private key associated with the request or the private key associated with the signing certificate. This is summarized in the following table.<table>
 <tr>
@@ -129,7 +129,6 @@ SignerInfo ::= SEQUENCE
     unauthenticatedAttributes   [1] IMPLICIT Attributes OPTIONAL
 }
 </code></pre>Each <b>ISignerCertificate</b> object is associated with one <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that identifies the hashing and public key algorithms used. This object is created and initialized when the <b>ISignerCertificate</b> object is initialized.
-
 
 ## -inheritance
 
@@ -247,13 +246,9 @@ Specifies or retrieves a string that contains user interface text associated wit
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -264,7 +259,4 @@ Specifies or retrieves a string that contains user interface text associated wit
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificates">ISignerCertificates</a>
- 
-
- 
 

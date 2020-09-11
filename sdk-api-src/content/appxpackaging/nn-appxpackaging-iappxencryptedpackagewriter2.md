@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: C45364CE-9943-4677-856D-8761CF21EB36
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedPackageWriter2, IAppxEncryptedPackageWriter2 interface [App packaging and management], IAppxEncryptedPackageWriter2 interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter2, appxpkg.iappxencryptedpackagewriter2
-f1_keywords:
-- appxpackaging/IAppxEncryptedPackageWriter2
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxEncryptedPackageWriter2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxEncryptedPackageWriter2
+ - appxpackaging/IAppxEncryptedPackageWriter2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxEncryptedPackageWriter2
 ---
 
 # IAppxEncryptedPackageWriter2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a write-only object model for encrypted app packages.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Adds one or more payload files to an encrypted app package.
 
 </td>
 </tr>
-</table> 
+</table>
 

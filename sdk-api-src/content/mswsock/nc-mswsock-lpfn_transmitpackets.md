@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: c574d320-2a90-40bb-b34c-6023e80514e6
 ms.date: 12/05/2018
 ms.keywords: LPFN_TRANSMITPACKETS, LPFN_TRANSMITPACKETS callback, LPFN_TRANSMITPACKETS callback function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, _win32_transmitpackets_2, mswsock/LPFN_TRANSMITPACKETS, winsock.transmitpackets_2
-f1_keywords:
-- mswsock/LPFN_TRANSMITPACKETS
-dev_langs:
-- c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mswsock.h
-api_name:
-- LPFN_TRANSMITPACKETS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPFN_TRANSMITPACKETS
+ - mswsock/LPFN_TRANSMITPACKETS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mswsock.h
+api_name:
+ - LPFN_TRANSMITPACKETS
 ---
 
 # LPFN_TRANSMITPACKETS callback function
@@ -49,18 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TransmitPackets</b> function transmits in-memory data or file data over a connected socket. The 
 <b>TransmitPackets</b> function uses the operating system cache manager to retrieve file data, locking memory for the minimum time required to transmit and resulting in efficient, high-performance transmission.<div class="alert"><b>Note</b>  This function is a Microsoft-specific extension to the Windows Sockets specification.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hSocket
 
@@ -72,16 +67,13 @@ A handle to the connected socket to be used in the transmission. Although the so
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsajoinleaf">WSAJoinLeaf</a> function.
 
-
 ### -param lpPacketArray
 
 An array of type <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_packets_element">TRANSMIT_PACKETS_ELEMENT</a>, describing the data to be transmitted.
 
-
 ### -param nElementCount
 
 The number of elements in <i>lpPacketArray</i>.
-
 
 ### -param nSendSize
 
@@ -97,12 +89,10 @@ Setting <i>nSendSize</i> to 0xFFFFFFF enables the caller to control the size and
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_packets_element">TRANSMIT_PACKETS_ELEMENT</a> array pointed to in the <i>lpPacketArray</i> parameter. This capability is useful for message protocols that place limitations on the size of individual 
 <b>send</b> requests.
 
-
 ### -param lpOverlapped
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If the socket handle specified in the <i>hSocket</i> parameter has been opened as overlapped, use this parameter to achieve asynchronous (overlapped) I/O operation. Socket handles are opened as overlapped by default.
-
 
 ### -param dwFlags
 
@@ -183,12 +173,8 @@ Directs Winsock to use kernel
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the 
 <b>TransmitPackets</b> function succeeds, the return value is <b>TRUE</b>. Otherwise, the return value is <b>FALSE</b>. To get extended error information, call 
@@ -350,14 +336,8 @@ The I/O operation has been aborted because of either a thread exit or an applica
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>TransmitPackets</b> function is optimized according to the operating system on which it is used:
@@ -413,13 +393,7 @@ Use of the TF_USE_KERNEL_APC flag can deliver significant performance benefits. 
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>
 
@@ -478,7 +452,4 @@ Use of the TF_USE_KERNEL_APC flag can deliver significant performance benefits. 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 4d70906d-8005-4c4a-869e-16dd3e6fa3f2
 ms.date: 12/05/2018
 ms.keywords: EnumFontFamiliesEx, EnumFontFamiliesEx function [Windows GDI], EnumFontFamiliesExA, EnumFontFamiliesExW, _win32_EnumFontFamiliesEx, gdi.enumfontfamiliesex, wingdi/EnumFontFamiliesEx, wingdi/EnumFontFamiliesExA, wingdi/EnumFontFamiliesExW
-f1_keywords:
-- wingdi/EnumFontFamiliesEx
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Font-l1-1-0.dll
-- Ext-MS-Win-GDI-Font-l1-1-1.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- EnumFontFamiliesEx
-- EnumFontFamiliesExA
-- EnumFontFamiliesExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumFontFamiliesExA
+ - wingdi/EnumFontFamiliesExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Font-l1-1-0.dll
+ - Ext-MS-Win-GDI-Font-l1-1-1.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - EnumFontFamiliesEx
+ - EnumFontFamiliesExA
+ - EnumFontFamiliesExW
 ---
 
 # EnumFontFamiliesExA function
@@ -56,19 +57,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnumFontFamiliesEx</b> function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. <b>EnumFontFamiliesEx</b> enumerates fonts based on typeface name, character set, or both.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context from which to enumerate the fonts.
-
 
 ### -param lpLogfont [in]
 
@@ -92,36 +87,24 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns
 <td>Must be set to zero for all language versions of the operating system.</td>
 </tr>
 </table>
- 
-
 
 ### -param lpProc [in]
 
 A pointer to the application defined callback function. For more information, see the <a href="https://docs.microsoft.com/previous-versions/dd162618(v=vs.85)">EnumFontFamExProc</a> function.
 
-
 ### -param lParam [in]
 
 An application defined value. The function passes this value to the callback function along with font information.
-
 
 ### -param dwFlags
 
 This parameter is not used and must be zero.
 
-
 ## -returns
-
-
 
 The return value is the last value returned by the callback function. This value depends on which font families are available for the specified device.
 
-
-
-
 ## -remarks
-
-
 
 The <b>EnumFontFamiliesEx</b> function does not use tagged typeface names to identify character sets. Instead, it always passes the correct typeface name and a separate character set value to the callback function. The function enumerates fonts based on the values of the <b>lfCharSet</b> and <b>lfFaceName</b> members in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
@@ -241,9 +224,6 @@ When the graphics mode on the device context is set to GM_ADVANCED using the Set
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/dd162618(v=vs.85)">EnumFontFamExProc</a>
 
 
@@ -265,7 +245,4 @@ When the graphics mode on the device context is set to GM_ADVANCED using the Set
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
- 
-
- 
 

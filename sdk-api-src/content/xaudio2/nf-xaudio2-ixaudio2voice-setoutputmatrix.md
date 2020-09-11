@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetOutputMatrix(IXAudio2Voice,UINT32,UINT32,const float,UINT32)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetOutputMatrix method, IXAudio2Voice.SetOutputMatrix, IXAudio2Voice::SetOutputMatrix, SetOutputMatrix, SetOutputMatrix method [XAudio2 Audio Mixing APIs], SetOutputMatrix method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setoutputmatrix, xaudio2/IXAudio2Voice::SetOutputMatrix
-f1_keywords:
-- xaudio2/IXAudio2Voice.SetOutputMatrix
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.h
-api_name:
-- IXAudio2Voice.SetOutputMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2Voice::SetOutputMatrix
+ - xaudio2/IXAudio2Voice::SetOutputMatrix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.h
+api_name:
+ - IXAudio2Voice.SetOutputMatrix
 ---
 
 # IXAudio2Voice::SetOutputMatrix
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
 
-
 ## -parameters
-
-
-
 
 ### -param pDestinationVoice [in]
 
@@ -69,11 +65,9 @@ Pointer to a destination <a href="https://docs.microsoft.com/windows/desktop/api
 
 Confirms the output channel count of the voice. This is the number of channels that are produced by the last effect in the chain.
 
-
 ### -param DestinationChannels [in]
 
 Confirms the input channel count of the destination voice.
-
 
 ### -param pLevelMatrix [in]
 
@@ -127,31 +121,19 @@ For example, when rendering two-channel stereo input into 5.1 output that is wei
 <div> </div>
 See Remarks for more information on volume levels.
 
-
 ### -param X2DEFAULT
 
 TBD
-
-
-
 
 ### -param OperationSet [in]
 
 Identifies this call as part of a deferred batch. See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-operation-sets">XAudio2 Operation Sets</a> overview for more information.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful, an error code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of error codes.
 
-
-
-
 ## -remarks
-
-
 
 This method is valid only for source and submix voices, because mastering voices write directly to the device with no matrix mixing.
 
@@ -169,20 +151,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/xaudio2/x3daudio-overvie
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--change-voice-volume">How to: Change Voice Volume</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
- 
-
- 
 

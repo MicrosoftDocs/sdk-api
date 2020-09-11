@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 864E5CBB-8056-46B5-BF78-9A66EC861F8A
 ms.date: 12/05/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Terminate method, IImePadApplet.Terminate, IImePadApplet::Terminate, Terminate, Terminate method [Internationalization for Windows Applications], Terminate method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Terminate, intl.iimepadapplet_terminate
-f1_keywords:
-- imepad/IImePadApplet.Terminate
-dev_langs:
-- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Imepad.h
-api_name:
-- IImePadApplet.Terminate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImePadApplet::Terminate
+ - imepad/IImePadApplet::Terminate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Imepad.h
+api_name:
+ - IImePadApplet.Terminate
 ---
 
 # IImePadApplet::Terminate
@@ -49,33 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to terminate <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> when the IMEPad instance exits.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <b>S_OK</b> if successful, otherwise <b>E_FAIL</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
- 
-
- 
 

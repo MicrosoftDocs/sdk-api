@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: efe2f43b-fbcf-4b30-a6d4-31d563d321c5
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetContext method, CVssWriter.GetContext, CVssWriter::GetContext, GetContext, GetContext method [VSS], GetContext method [VSS],CVssWriter interface, _win32_cvsswriter_getcontext, base.cvsswriter_getcontext, vswriter/CVssWriter::GetContext
-f1_keywords:
-- vswriter/CVssWriter.GetContext
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::GetContext
+ - vswriter/CVssWriter::GetContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.GetContext
 ---
 
 # CVssWriter::GetContext
@@ -50,35 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetContext</b> information returns the current context for any ongoing or possible shadow copies.
 
 <b>GetContext</b> is a protected method implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns the context for any shadow copies involving the writer as a bit mask (or bitwise OR) of 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> values.
 
-
-
-
 ## -remarks
-
-
 
 The default context for a shadow copy is VSS_CTX_BACKUP.
 
@@ -93,13 +80,7 @@ Therefore, if a writer is participating in a shadow copy operation, a definitive
 <b>GetContext</b> is called prior to 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -122,7 +103,4 @@ Therefore, if a writer is participating in a shadow copy operation, a definitive
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
- 
-
- 
 

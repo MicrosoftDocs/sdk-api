@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e5a2a4d3-2488-4da2-aaab-c27461859d9f
 ms.date: 12/05/2018
 ms.keywords: IInitializeCommand, IInitializeCommand interface [Windows Shell], IInitializeCommand interface [Windows Shell],described, _shell_IInitializeCommand, shell.IInitializeCommand, shobjidl_core/IInitializeCommand
-f1_keywords:
-- shobjidl_core/IInitializeCommand
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IInitializeCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitializeCommand
+ - shobjidl_core/IInitializeCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IInitializeCommand
 ---
 
 # IInitializeCommand interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a single method used to initialize objects that implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate">IExplorerCommandState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a> or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> with the application-specified command name and its registered properties.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Initialize objects that share an implementation of <a href="https://docs.microso
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Implement <b>IInitializeCommand</b> in the following situations.
@@ -94,6 +90,4 @@ Implement <b>IInitializeCommand</b> in the following situations.
 </ul>
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Do not call the method of <b>IInitializeCommand</b> directly. Windows Explorer calls this method when a verb object that implements this interface is invoked.
-
-
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: fb8ec97d-b96c-4533-a83e-cb9a8b4adf51
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerInstall, TSPI_providerInstall function [TAPI 2.2], _tspi_tspi_providerinstall, tspi.tspi_providerinstall, tspi/TSPI_providerInstall
-f1_keywords:
-- tspi/TSPI_providerInstall
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_providerInstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_providerInstall
+ - tspi/TSPI_providerInstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_providerInstall
 ---
 
 # TSPI_providerInstall function
 
 
 ## -description
-
 
 The 
 <b>TSPI_providerInstall</b> function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement 
@@ -58,36 +58,23 @@ The
 <b>TSPI_providerInstall</b> function installs any additional "pieces" of the provider into the right directories (or at least verifying that they're there), sets up the provider's registry entries for its lines and phones, and creates any other entries necessary for the service provider. It is called from the Telephony Control Panel utility (supplied with Windows Telephony in versions 1.4 and earlier) when the 
 <b>Add</b> button is pressed.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndOwner
 
 The handle of the parent window in which the function can create any dialog box windows that are required during installation.
 
-
 ### -param dwPermanentProviderID
 
 The service provider's permanent provider identifier.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_OPERATIONFAILED, LINEERR_INIFILECORRUPT, LINEERR_NOMEM, LINEERR_INVALPARAM.
 
-
-
-
 ## -remarks
-
-
 
 This function completes the installation of other pieces required by the service provider after its entries in the [Providers] section in the registry have been made. If the service provider requires any additional privately-defined entries in the registry for proper operation, they must also be installed. A typical way to install this section with its entries is to call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerconfig">TSPI_providerConfig</a>.
@@ -102,13 +89,7 @@ The Telephony Control Panel utility supplied with Windows Telephony in versions 
 
 There is no corresponding function at the TAPI level. At that level, applications expect to have service providers already installed. Running applications are informed about dynamic reconfiguration through the LINEDEVSTATE_REINIT or PHONESTATE_REINIT value in the LINE_LINEDEVSTATE or PHONE_STATE message.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a>
 
@@ -131,7 +112,4 @@ There is no corresponding function at the TAPI level. At that level, application
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown">TSPI_providerShutdown</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5c17cae5-c68b-41a3-80ca-88d56be4ab74
 ms.date: 12/05/2018
 ms.keywords: AllPropertiesAreRequired, AllPropertiesAreRequired method [Windows Management Instrumentation], AllPropertiesAreRequired method [Windows Management Instrumentation],CFrameworkQuery interface, CFrameworkQuery interface [Windows Management Instrumentation],AllPropertiesAreRequired method, CFrameworkQuery.AllPropertiesAreRequired, CFrameworkQuery::AllPropertiesAreRequired, _hmm_cframeworkquery_allpropertiesarerequired, frquery/CFrameworkQuery::AllPropertiesAreRequired, wmi.cframeworkquery_allpropertiesarerequired
-f1_keywords:
-- frquery/CFrameworkQuery.AllPropertiesAreRequired
-dev_langs:
-- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CFrameworkQuery.AllPropertiesAreRequired
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CFrameworkQuery::AllPropertiesAreRequired
+ - frquery/CFrameworkQuery::AllPropertiesAreRequired
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CFrameworkQuery.AllPropertiesAreRequired
 ---
 
 # CFrameworkQuery::AllPropertiesAreRequired
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,19 +59,9 @@ ms.custom: 19H1
 
 The <b>AllPropertiesAreRequired</b> method indicates whether all of the properties for the instance are requested.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if all properties are required and <b>FALSE</b> if only a subset of the properties are required.
-
-
 

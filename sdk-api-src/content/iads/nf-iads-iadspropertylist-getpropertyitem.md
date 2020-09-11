@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 1de86caa-c14c-4dc0-bf56-5fa33279e30a
 ms.date: 12/05/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [ADSI], GetPropertyItem method [ADSI],IADsPropertyList interface, IADsPropertyList interface [ADSI],GetPropertyItem method, IADsPropertyList.GetPropertyItem, IADsPropertyList::GetPropertyItem, _ds_iadspropertylist_getpropertyitem, adsi.iadspropertylist__getpropertyitem, adsi.iadspropertylist_getpropertyitem, iads/IADsPropertyList::GetPropertyItem
-f1_keywords:
-- iads/IADsPropertyList.GetPropertyItem
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPropertyList.GetPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPropertyList::GetPropertyItem
+ - iads/IADsPropertyList::GetPropertyItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPropertyList.GetPropertyItem
 ---
 
 # IADsPropertyList::GetPropertyItem
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsPropertyList::GetPropertyItem</b> method retrieves the item that matches the name from the list.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrName [in]
 
 Contains the name of the requested property.
 
-
 ### -param lnADsType [in]
 
 Contains one of the <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> enumeration values that determines the data type to be used in interpreting the requested property. If the type is unknown, this parameter can be set to <b>ADSTYPE_UNKNOWN</b>. For schemaless servers, the user must specify the type.
-
 
 ### -param pVariant [in, out]
 
@@ -74,19 +68,11 @@ Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT
 
 Any memory allocated for this parameter must be released with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function when the data is no longer required.
 
-
 ## -returns
-
-
 
 This method supports the standard <b>HRESULT</b> return values, including <b>S_OK</b>. If the requested property item is not found, the method returns <b>ADS_PROPERTY_NOT_FOUND</b>. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The property of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a> object returned by this method that can be used will depend on the type specified in <i>lnADsType</i>. The following table maps the data type to the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> property.
 
@@ -334,14 +320,7 @@ if(pEntry)
     pEntry->Release();
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -364,7 +343,4 @@ if(pEntry)
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
- 
-
- 
 

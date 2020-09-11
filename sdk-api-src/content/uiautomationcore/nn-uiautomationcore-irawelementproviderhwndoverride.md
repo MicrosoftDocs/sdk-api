@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: c2aa8f29-afec-474f-8ee5-55285f06ddff
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderHwndOverride, IRawElementProviderHwndOverride interface [Windows Accessibility], IRawElementProviderHwndOverride interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderHwndOverride, uiauto_IRawElementProviderHwndOverride, uiautomationcore/IRawElementProviderHwndOverride, winauto.uiauto_IRawElementProviderHwndOverride
-f1_keywords:
-- uiautomationcore/IRawElementProviderHwndOverride
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IRawElementProviderHwndOverride
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderHwndOverride
+ - uiautomationcore/IRawElementProviderHwndOverride
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IRawElementProviderHwndOverride
 ---
 
 # IRawElementProviderHwndOverride interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that enables repositioning of window-based elements within the fragment's UI Automation 
 		tree.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Gets a UI Automation provider for the specified element.
 
 </td>
 </tr>
-</table> 
+</table>
 

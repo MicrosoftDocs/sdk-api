@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 264ae78d-cd72-49ff-b99b-2af637cc2917
 ms.date: 12/05/2018
 ms.keywords: IIsdbSIParameterDescriptor, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies], IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSIParameterDescriptor, mstv.iisdbsiparameterdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbSIParameterDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbSIParameterDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbSIParameterDescriptor
+ - dvbsiparser/IIsdbSIParameterDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbSIParameterDescriptor
 ---
 
 # IIsdbSIParameterDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) service information (SI) parameter descriptor. The SI parameter descriptor appears in the program map table (PMT) or network information table (NIT).
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Gets the time at which a parameter becomes valid from an ISDB SI parameter descr
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5c288b64-8630-42ca-9821-8e131f11f76d
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarSetImageList method, ITaskbarList3.ThumbBarSetImageList, ITaskbarList3::ThumbBarSetImageList, ThumbBarSetImageList, ThumbBarSetImageList method [Windows Shell], ThumbBarSetImageList method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarSetImageList, shell.ITaskbarList3_ThumbBarSetImageList, shobjidl_core/ITaskbarList3::ThumbBarSetImageList
-f1_keywords:
-- shobjidl_core/ITaskbarList3.ThumbBarSetImageList
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Explorerframe.dll
-api_name:
-- ITaskbarList3.ThumbBarSetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskbarList3::ThumbBarSetImageList
+ - shobjidl_core/ITaskbarList3::ThumbBarSetImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Explorerframe.dll
+api_name:
+ - ITaskbarList3.ThumbBarSetImageList
 ---
 
 # ITaskbarList3::ThumbBarSetImageList
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies an image list that contains button images for a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,28 +60,19 @@ Type: <b>HWND</b>
 
 The handle of the window whose thumbnail representation contains the toolbar to be updated. This handle must belong to the calling process.
 
-
 ### -param himl [in]
 
 Type: <b>HIMAGELIST</b>
 
 The handle of the image list that contains all button images to be used in the toolbar.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Applications must provide these button images:
                 
@@ -150,14 +137,7 @@ HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
 
@@ -180,7 +160,4 @@ HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

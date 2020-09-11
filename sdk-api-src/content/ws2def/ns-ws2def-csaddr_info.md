@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 9cad3586-e315-4f6f-9045-7c95502bb768
 ms.date: 12/05/2018
 ms.keywords: '*LPCSADDR_INFO, *PCSADDR_INFO, CSADDR_INFO, CSADDR_INFO structure [Winsock], IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _CSADDR_INFO, _win32_csaddr_info_2, winsock.csaddr_info_2, ws2def/CSADDR_INFO'
-f1_keywords:
-- ws2def/CSADDR_INFO
-dev_langs:
-- c++
 req.header: ws2def.h
 req.include-header: Nspapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ws2def.h
-api_name:
-- CSADDR_INFO
 targetos: Windows
 req.typenames: CSADDR_INFO, *PCSADDR_INFO, *LPCSADDR_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CSADDR_INFO
+ - ws2def/_CSADDR_INFO
+ - PCSADDR_INFO
+ - ws2def/PCSADDR_INFO
+ - CSADDR_INFO
+ - ws2def/CSADDR_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ws2def.h
+api_name:
+ - CSADDR_INFO
 ---
 
 # CSADDR_INFO structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CSADDR_INFO</b> structure contains Windows Sockets address information for a socket, network service, or namespace provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LocalAddr
 
@@ -70,7 +70,6 @@ In a client application, pass this address to the
 
 In a network service, pass this address to the 
 <b>bind</b> function so that the service is bound to the appropriate local address.
-
 
 ### -field RemoteAddr
 
@@ -86,8 +85,6 @@ There are several uses for this remote address:<ul>
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> function when you are communicating over a connectionless (datagram) protocol. If you are using a connectionless protocol, such as UDP, 
 <b>sendto</b> is typically the way you pass data to the remote system.</li>
 </ul>
-
-
 
 ### -field iSocketType
 
@@ -151,8 +148,6 @@ A sequenced packet stream socket. This socket type provides a pseudo-stream pack
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iProtocol
 
@@ -203,12 +198,8 @@ The PGM protocol for reliable multicast. This is a possible value when the addre
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a> function obtains Windows Sockets address information using 
@@ -216,13 +207,7 @@ The
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function called with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a> socket option retrieves a <b>CSADDR_INFO</b> structure for the specified socket.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
 
@@ -257,7 +242,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-g
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
- 
-
- 
 

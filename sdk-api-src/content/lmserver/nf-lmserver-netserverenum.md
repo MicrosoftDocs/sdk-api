@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 10012a87-805e-4817-9f09-9e5632b1fa09
 ms.date: 12/05/2018
 ms.keywords: 100, 101, NetServerEnum, NetServerEnum function [Network Management], SV_TYPE_AFP, SV_TYPE_ALL, SV_TYPE_ALTERNATE_XPORT, SV_TYPE_BACKUP_BROWSER, SV_TYPE_CLUSTER_NT, SV_TYPE_CLUSTER_VS_NT, SV_TYPE_DCE, SV_TYPE_DFS, SV_TYPE_DIALIN_SERVER, SV_TYPE_DOMAIN_BAKCTRL, SV_TYPE_DOMAIN_CTRL, SV_TYPE_DOMAIN_ENUM, SV_TYPE_DOMAIN_MASTER, SV_TYPE_DOMAIN_MEMBER, SV_TYPE_LOCAL_LIST_ONLY, SV_TYPE_MASTER_BROWSER, SV_TYPE_NOVELL, SV_TYPE_NT, SV_TYPE_POTENTIAL_BROWSER, SV_TYPE_PRINTQ_SERVER, SV_TYPE_SERVER, SV_TYPE_SERVER_MFPN, SV_TYPE_SERVER_NT, SV_TYPE_SERVER_OSF, SV_TYPE_SERVER_UNIX, SV_TYPE_SERVER_VMS, SV_TYPE_SQLSERVER, SV_TYPE_TERMINALSERVER, SV_TYPE_TIME_SOURCE, SV_TYPE_WFW, SV_TYPE_WINDOWS, SV_TYPE_WORKSTATION, SV_TYPE_XENIX_SERVER, _win32_netserverenum, lmserver/NetServerEnum, netmgmt.netserverenum
-f1_keywords:
-- lmserver/NetServerEnum
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-- browcli.dll
-- Ext-MS-Win-SMBShare-BrowserClient-L1-1-0.dll
-api_name:
-- NetServerEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetServerEnum
+ - lmserver/NetServerEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+ - browcli.dll
+ - Ext-MS-Win-SMBShare-BrowserClient-L1-1-0.dll
+api_name:
+ - NetServerEnum
 ---
 
 # NetServerEnum function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
-				<b>NetServerEnum</b> function lists all servers of the specified type that are visible in a domain. 
-
+				<b>NetServerEnum</b> function lists all servers of the specified type that are visible in a domain.
 
 ## -parameters
-
-
-
 
 ### -param servername [in, optional]
 
 Reserved; must be <b>NULL</b>.
-
 
 ### -param level [in]
 
@@ -100,14 +95,11 @@ Return server names, types, and associated data. The <i>bufptr</i> parameter poi
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
 A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
-
 
 ### -param prefmaxlen [in]
 
@@ -115,16 +107,13 @@ The preferred maximum length of returned data, in bytes. If you specify MAX_PREF
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ### -param entriesread [out]
 
 A pointer to a value that receives the count of elements actually enumerated.
 
-
 ### -param totalentries [out]
 
 A pointer to a value that receives the total number of visible servers and workstations on the network. Note that applications should consider this value only as a hint.
-
 
 ### -param servertype [in]
 
@@ -501,8 +490,6 @@ All servers. This is a convenience that will return all possible servers.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param domain [in, optional]
 
@@ -511,15 +498,11 @@ The <b>NetServerEnum</b> function does not support DNS-style names (for example,
 
 If this parameter is <b>NULL</b>, the primary domain is implied.
 
-
 ### -param resume_handle [in, out, optional]
 
 Reserved; must be set to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -639,14 +622,8 @@ The Workstation service has not been started. The local workstation service is u
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The
 				<b>NetServerEnum</b> function is used to list all servers of the specified type that are visible in a domain. For example, an application can call 
@@ -803,14 +780,7 @@ int wmain(int argc, wchar_t * argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a>
 
@@ -840,7 +810,4 @@ int wmain(int argc, wchar_t * argv[])
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server
 		  Functions</a>
- 
-
- 
 

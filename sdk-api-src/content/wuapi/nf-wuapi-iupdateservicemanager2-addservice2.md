@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 1584b92f-ba21-4b03-a1b4-540313eb7893
 ms.date: 12/05/2018
 ms.keywords: AddService2, AddService2 method [Windows Update Agent], AddService2 method [Windows Update Agent],IUpdateServiceManager2 interface, IUpdateServiceManager2 interface [Windows Update Agent],AddService2 method, IUpdateServiceManager2.AddService2, IUpdateServiceManager2::AddService2, wua.iupdateservicemanager2_addservice2_methods, wuapi/IUpdateServiceManager2::AddService2
-f1_keywords:
-- wuapi/IUpdateServiceManager2.AddService2
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceManager2.AddService2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceManager2::AddService2
+ - wuapi/IUpdateServiceManager2::AddService2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceManager2.AddService2
 ---
 
 # IUpdateServiceManager2::AddService2
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a service with Windows Update Agent (WUA) without requiring an authorization cabinet file (.cab). This method also  returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceRegistration</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param serviceID [in]
 
 An identifier for the service to be registered.
 
-
 ### -param flags [in]
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-addserviceflag">AddServiceFlag</a> values that are combined by using a bitwise OR operation. The resulting value specifies options for service registration. For more info, see Remarks. 
-
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-addserviceflag">AddServiceFlag</a> values that are combined by using a bitwise OR operation. The resulting value specifies options for service registration. For more info, see Remarks.
 
 ### -param authorizationCabPath [in]
 
 The path of the Microsoft signed local cabinet file (.cab) that has the information that is required for a service registration.  If empty, the update agent searches for the authorization cabinet file (.cab) during service registration when a network connection is available.
 
-
 ### -param retval [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a> interface that represents an added service.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -137,14 +127,8 @@ The state of Automatic Updates could not be changed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method may return <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/wua-networking-error-codes-">networking error codes</a> when the <b>asfAllowOnlineRegistration</b> flag is specified.
 
@@ -165,15 +149,7 @@ The update agent and <b>AddService2</b> behave in the following ways depending o
 <li>If you specify <b>asfRegisterServiceWithAU</b>, the change to the default Automatic Updates service doesn't occur (and isn't reflected in the Windows Update user interface) until the service registration succeeds. This means that if the registration succeeds immediately (because you specified <b>asfAllowPendingRegistration</b> or supplied  a cabinet file (.cab)), the Automatic Updates service change also occurs immediately. If the registration doesn't succeed until later (because you specified <b>asfAllowPendingRegistration</b>), the Automatic Updates service change doesn't occur unless the pending service registration eventually succeeds.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a>
- 
-
- 
 

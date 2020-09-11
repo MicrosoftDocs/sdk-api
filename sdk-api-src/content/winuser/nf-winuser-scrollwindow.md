@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrollwindow.htm
 ms.date: 12/05/2018
 ms.keywords: ScrollWindow, ScrollWindow function [Windows Controls], _win32_ScrollWindow, _win32_ScrollWindow_cpp, controls.ScrollWindow, controls._win32_ScrollWindow, winuser/ScrollWindow
-f1_keywords:
-- winuser/ScrollWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- ScrollWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ScrollWindow
+ - winuser/ScrollWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - ScrollWindow
 ---
 
 # ScrollWindow function
@@ -49,67 +50,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ScrollWindow</b> function scrolls the contents of the specified window's client area.  
 <div class="alert"><b>Note</b>  The <b>ScrollWindow</b> function is provided for backward compatibility. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrollwindowex">ScrollWindowEx</a> function.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hWnd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the window where the client area is to be scrolled. 
-
+Handle to the window where the client area is to be scrolled.
 
 ### -param XAmount [in]
 
 Type: <b>int</b>
 
-Specifies the amount, in device units, of horizontal scrolling. If the window being scrolled has the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_OWNDC</a> or <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_CLASSDC</a> style, then this parameter uses logical units rather than device units. This parameter must be a negative value to scroll the content of the window to the left. 
-
+Specifies the amount, in device units, of horizontal scrolling. If the window being scrolled has the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_OWNDC</a> or <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_CLASSDC</a> style, then this parameter uses logical units rather than device units. This parameter must be a negative value to scroll the content of the window to the left.
 
 ### -param YAmount [in]
 
 Type: <b>int</b>
 
-Specifies the amount, in device units, of vertical scrolling. If the window being scrolled has the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_OWNDC</a> or <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_CLASSDC</a> style, then this parameter uses logical units rather than device units. This parameter must be a negative value to scroll the content of the window up. 
-
+Specifies the amount, in device units, of vertical scrolling. If the window being scrolled has the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_OWNDC</a> or <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_CLASSDC</a> style, then this parameter uses logical units rather than device units. This parameter must be a negative value to scroll the content of the window up.
 
 ### -param lpRect [in]
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the portion of the client area to be scrolled. If this parameter is <b>NULL</b>, the entire client area is scrolled. 
-
+Pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the portion of the client area to be scrolled. If this parameter is <b>NULL</b>, the entire client area is scrolled.
 
 ### -param lpClipRect [in]
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 Pointer to the 
-					<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the clipping rectangle. Only device bits within the clipping rectangle are affected. Bits scrolled from the outside of the rectangle to the inside are painted; bits scrolled from the inside of the rectangle to the outside are not painted. 
-
+					<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the clipping rectangle. Only device bits within the clipping rectangle are affected. Bits scrolled from the outside of the rectangle to the inside are painted; bits scrolled from the inside of the rectangle to the outside are not painted.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If the caret is in the window being scrolled, <b>ScrollWindow</b> automatically hides the caret to prevent it from being erased and then restores the caret after the scrolling is finished. The caret position is adjusted accordingly. 
 
@@ -133,12 +118,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Other Resources</b>
 
@@ -161,7 +141,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>
- 
-
- 
 

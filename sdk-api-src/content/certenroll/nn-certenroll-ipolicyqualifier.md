@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3804e372-17bb-458d-8da5-85d760fe5e60
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier, IPolicyQualifier interface [Security], IPolicyQualifier interface [Security],described, certenroll/IPolicyQualifier, security.ipolicyqualifier
-f1_keywords:
-- certenroll/IPolicyQualifier
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IPolicyQualifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPolicyQualifier
+ - certenroll/IPolicyQualifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IPolicyQualifier
 ---
 
 # IPolicyQualifier interface
 
 
 ## -description
-
 
 The <b>IPolicyQualifier</b> interface represents a qualifier that can be associated with a certificate policy. The following syntax shows the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structures that define <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate policies</a> and their associated qualifiers. The value is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> with the policy object it qualifies.
 <pre class="syntax" xml:space="preserve"><code>
@@ -119,7 +119,6 @@ CpsURLs ::= SEQUENCE OF SEQUENCE
 
 
 Unless one user notice in the chain duplicates another, all notices in the certificate path should be displayed to the relying party. To minimize duplication, this qualifier should be present only in the end entity certificate and certification authority certificates issued to other organizations. The user notice has two optional fields, <b>noticeRef</b> and  <b>explicitText</b>, that are not supported. Policies and policy qualifiers are used in <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensioncertificatepolicies">IX509ExtensionCertificatePolicies</a> objects.
-
 
 ## -inheritance
 
@@ -201,13 +200,9 @@ Retrieves the qualifier type.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -222,7 +217,4 @@ Retrieves the qualifier type.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensioncertificatepolicies">IX509ExtensionCertificatePolicies</a>
- 
-
- 
 

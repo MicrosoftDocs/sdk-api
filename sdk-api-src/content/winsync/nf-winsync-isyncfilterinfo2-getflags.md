@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: cad60957-9d16-4564-b63e-be8e188caecc
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],ISyncFilterInfo2 interface, ISyncFilterInfo2 interface [Windows Sync],GetFlags method, ISyncFilterInfo2.GetFlags, ISyncFilterInfo2::GetFlags, winsync.isyncfilterinfo2_getflags, winsync/ISyncFilterInfo2::GetFlags
-f1_keywords:
-- winsync/ISyncFilterInfo2.GetFlags
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncFilterInfo2.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncFilterInfo2::GetFlags
+ - winsync/ISyncFilterInfo2::GetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncFilterInfo2.GetFlags
 ---
 
 # ISyncFilterInfo2::GetFlags
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the flags that specify additional information about the filter information object.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags [out]
 
 Gets the flags that specify additional information about the filter information object. This will be one of the <b>SYNC_FILTER_INFO_FLAG</b> values (See Remarks).
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -97,14 +90,8 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table describes the flags that specify information about an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo">ISyncFilterInfo</a> object.
 
@@ -126,15 +113,8 @@ The following table describes the flags that specify information about an <a hre
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>
 
@@ -145,7 +125,4 @@ The following table describes the flags that specify information about an <a hre
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo2">ISyncFilterInfo2 Interface</a>
- 
-
- 
 

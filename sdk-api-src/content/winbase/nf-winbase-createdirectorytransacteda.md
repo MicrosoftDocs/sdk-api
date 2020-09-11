@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryTransacted, CreateDirectoryTransacted function [Files], CreateDirectoryTransactedA, CreateDirectoryTransactedW, fs.createdirectorytransacted, winbase/CreateDirectoryTransacted, winbase/CreateDirectoryTransactedA, winbase/CreateDirectoryTransactedW
-f1_keywords:
-- winbase/CreateDirectoryTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,33 +25,37 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- CreateDirectoryTransacted
-- CreateDirectoryTransactedA
-- CreateDirectoryTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDirectoryTransactedA
+ - winbase/CreateDirectoryTransactedA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - CreateDirectoryTransacted
+ - CreateDirectoryTransactedA
+ - CreateDirectoryTransactedW
 ---
 
 # CreateDirectoryTransactedA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -68,11 +68,7 @@ Creates a new directory as a transacted operation, with the attributes of a spec
     applies a specified security descriptor to the new directory. The new directory retains the other attributes of 
     the specified template directory.
 
-
 ## -parameters
-
-
-
 
 ### -param lpTemplateDirectory [in, optional]
 
@@ -87,7 +83,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 The directory must reside on the local computer; otherwise, the function fails and the last error code is set 
        to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
-
 ### -param lpNewDirectory [in]
 
 The path of the directory to be created.
@@ -96,7 +91,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
-
 
 ### -param lpSecurityAttributes [in, optional]
 
@@ -112,16 +106,12 @@ The target file system must support security on files and directories for this p
        This is indicated when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a> 
        returns <b>FS_PERSISTENT_ACLS</b>.
 
-
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -169,14 +159,8 @@ One or more intermediate directories do not exist. This function only creates th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CreateDirectoryTransacted</b> function 
     allows you to create directories that inherit stream information from other directories. This function is useful, 
@@ -265,9 +249,6 @@ SMB 3.0 does not support TxF.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
 
 
@@ -289,7 +270,4 @@ SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
 

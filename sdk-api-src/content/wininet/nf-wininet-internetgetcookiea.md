@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 12c1ebab-3954-4995-9e1f-bf29699af396
 ms.date: 12/05/2018
 ms.keywords: InternetGetCookie, InternetGetCookie function [WinINet], InternetGetCookieA, InternetGetCookieW, _win32_internetgetcookie, wininet.internetgetcookie, wininet/InternetGetCookie, wininet/InternetGetCookieA, wininet/InternetGetCookieW
-f1_keywords:
-- wininet/InternetGetCookie
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetGetCookie
-- InternetGetCookieA
-- InternetGetCookieW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetGetCookieA
+ - wininet/InternetGetCookieA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetGetCookie
+ - InternetGetCookieA
+ - InternetGetCookieW
 ---
 
 # InternetGetCookieA function
@@ -51,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cookie for the specified URL.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrl [in]
 
 A pointer to a <b>null</b>-terminated string that specifies the URL for which cookies are to be retrieved.
 
-
 ### -param lpszCookieName [in]
 
 Not implemented.
 
-
 ### -param lpszCookieData [out]
 
 A pointer to a buffer that receives the cookie data. This parameter can be <b>NULL</b>.
-
 
 ### -param lpdwSize [in, out]
 
@@ -82,10 +75,7 @@ A pointer to a variable that specifies the size of the
 <i>lpszCookieData</i> buffer. If 
 <i>lpszCookieData</i> is <b>NULL</b>, this parameter receives a value that specifies the size of the buffer necessary to copy all the cookie data, expressed as a byte count.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
@@ -139,14 +129,8 @@ The <i>lpszUrl</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>InternetGetCookie</b> does not require a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a>. 
@@ -169,9 +153,6 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
 
 
@@ -193,7 +174,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

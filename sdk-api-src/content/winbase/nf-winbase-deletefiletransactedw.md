@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f
 ms.date: 12/05/2018
 ms.keywords: DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW
-f1_keywords:
-- winbase/DeleteFileTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,33 +25,37 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- DeleteFileTransacted
-- DeleteFileTransactedA
-- DeleteFileTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteFileTransactedW
+ - winbase/DeleteFileTransactedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - DeleteFileTransacted
+ - DeleteFileTransactedA
+ - DeleteFileTransactedW
 ---
 
 # DeleteFileTransactedW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -65,11 +65,7 @@ ms.custom: 19H1
 
 Deletes an existing file as a transacted operation.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -83,28 +79,19 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 The file must reside on the local computer; otherwise, the function fails and the last error code is set to 
        <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
-
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If an application attempts to delete a file that does not exist, the 
     <b>DeleteFileTransacted</b> function fails with 
@@ -217,9 +204,6 @@ SMB 3.0 does not support TxF.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -237,7 +221,4 @@ SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
 

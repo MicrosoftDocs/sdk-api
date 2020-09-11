@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: b59a6594-1109-4913-8a83-4888e56e71d0
 ms.date: 12/05/2018
 ms.keywords: IADsService, IADsService interface [ADSI], IADsService interface [ADSI],described, _ds_iadsservice, adsi.iadsservice, iads/IADsService
-f1_keywords:
-- iads/IADsService
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsService
+ - iads/IADsService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsService
 ---
 
 # IADsService interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsService</b> interface is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to maintain data about system services running on a host computer. Examples of such services include "FAX" for Microsoft Fax Service, "RemoteAccess" for Routing and RemoteAccess Service, and "seclogon" for Secondary Logon Service. Examples of the data about any system service include the path to the executable file on the host computer, the type of the service, other services or load group required to run a particular service, and others. <b>IADsService</b> exposes several properties to represent such data.
-
 
 ## -inheritance
 
@@ -428,12 +427,9 @@ Gets and sets the version data of this service.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The system services are published in the underlying directory. Some may be running, others may not. To verify the status or to operate on any of the services, use the properties and methods of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a> interface.
 
@@ -468,14 +464,7 @@ Cleanup:
 End Sub
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -498,7 +487,4 @@ End Sub
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
 ms.date: 12/05/2018
 ms.keywords: SetTraceCallback, SetTraceCallback function [ETW], _evt_settracecallback, base.settracecallback, etw.settracecallback, evntrace/SetTraceCallback
-f1_keywords:
-- evntrace/SetTraceCallback
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-eventing-Obsolete-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- SetTraceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetTraceCallback
+ - evntrace/SetTraceCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-eventing-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - SetTraceCallback
 ---
 
 # SetTraceCallback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Do not use this function; it may be unavailable in subsequent versions. Instead, filter 
     for the event trace class in your 
@@ -62,11 +62,7 @@ The <b>SetTraceCallback</b> function specifies an
     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> function to process events for 
     the specified event trace class.
 
-
 ## -parameters
-
-
-
 
 ### -param pGuid [in]
 
@@ -74,16 +70,12 @@ Pointer to the class GUID of an event trace class for which you want to receive 
       kernel provider class GUIDs, see 
       <a href="https://docs.microsoft.com/windows/desktop/ETW/nt-kernel-logger-constants">NT Kernel Logger Constants</a>.
 
-
 ### -param EventCallback [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> 
       function used to process events belonging to the event trace class.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
       
@@ -113,14 +105,8 @@ One of the following is true:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Consumers call this function.
 
@@ -136,13 +122,7 @@ You can use this function to receive events written using one of the
     consume events from a provider that used one of the 
     <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> functions to log events.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
 
@@ -153,7 +133,4 @@ You can use this function to receive events written using one of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/removetracecallback">RemoveTraceCallback</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 93feac90-8eb8-49d8-9841-d78a2645fbcb
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], IEnumBackgroundCopyJobs1 interface [BITS],described, bits.ienumbackgroundcopyjobs1, qmgr/IEnumBackgroundCopyJobs1
-f1_keywords:
-- qmgr/IEnumBackgroundCopyJobs1
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IEnumBackgroundCopyJobs1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBackgroundCopyJobs1
+ - qmgr/IEnumBackgroundCopyJobs1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IEnumBackgroundCopyJobs1
 ---
 
 # IEnumBackgroundCopyJobs1 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IEnumBackgroundCopyJobs1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>IEnumBackgroundCopyJobs1</b> interface to enumerate the list of jobs in a group. To get an <b>IEnumBackgroundCopyJobs1</b> interface pointer, call the <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-enumjobs">IBackgroundCopyGroup::EnumJobs</a> method.
-
 
 ## -inheritance
 
@@ -115,5 +114,5 @@ Skips a specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

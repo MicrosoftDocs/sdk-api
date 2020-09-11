@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6
 ms.date: 12/05/2018
 ms.keywords: GetPresentationClock, GetPresentationClock method [Media Foundation], GetPresentationClock method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetPresentationClock method, IMFMediaSink.GetPresentationClock, IMFMediaSink::GetPresentationClock, ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6, mf.imfmediasink_getpresentationclock, mfidl/IMFMediaSink::GetPresentationClock
-f1_keywords:
-- mfidl/IMFMediaSink.GetPresentationClock
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSink.GetPresentationClock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSink::GetPresentationClock
+ - mfidl/IMFMediaSink::GetPresentationClock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSink.GetPresentationClock
 ---
 
 # IMFMediaSink::GetPresentationClock
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets the presentation clock that was set on the media sink.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppPresentationClock [out]
 
 Receives a pointer to the presentation clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,22 +102,12 @@ The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
- 
-
- 
 

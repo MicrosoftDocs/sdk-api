@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 57935B52-27BE-47AF-8702-9DF91E1B515D
 ms.date: 12/05/2018
 ms.keywords: GetBalance, GetBalance method [Media Foundation], GetBalance method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetBalance method, IMFMediaEngineEx.GetBalance, IMFMediaEngineEx::GetBalance, mf.imfmediaengineex_getbalance, mfmediaengine/IMFMediaEngineEx::GetBalance
-f1_keywords:
-- mfmediaengine/IMFMediaEngineEx.GetBalance
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineEx.GetBalance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineEx::GetBalance
+ - mfmediaengine/IMFMediaEngineEx::GetBalance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineEx.GetBalance
 ---
 
 # IMFMediaEngineEx::GetBalance
@@ -49,22 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the audio balance.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns the balance. The value can be any number in the following range (inclusive).
 
@@ -104,18 +94,7 @@ The right channel is at full volume; the left channel is silent.
 
 If the value is zero, the left and right channels are at equal volumes. The default value is zero.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
- 
-
- 
 

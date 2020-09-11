@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_86hicon.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(HICON), Bitmap.Bitmap(IN HICON), Bitmap::Bitmap, Bitmap::Bitmap(IN HICON), _gdiplus_CLASS_Bitmap_Bitmap_hicon_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_hicon_
-f1_keywords:
-- gdiplusheaders/Bitmap.Bitmap
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Bitmap.Bitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Bitmap::Bitmap
+ - gdiplusheaders/Bitmap::Bitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Bitmap.Bitmap
 ---
 
 # Bitmap::Bitmap(IN HICON)
@@ -50,27 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a
 			<b> Bitmap</b> object based on an icon.
 
-
 ## -parameters
-
-
-
 
 ### -param hicon [in]
 
 Type: <b>HICON</b>
 
-Handle to a GDI icon. 
-
+Handle to a GDI icon.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
@@ -93,7 +85,4 @@ Handle to a GDI icon.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
- 
-
- 
 

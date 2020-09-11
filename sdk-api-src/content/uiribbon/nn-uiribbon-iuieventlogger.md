@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4
 ms.date: 12/05/2018
 ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon],described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
-f1_keywords:
-- uiribbon/IUIEventLogger
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Uiribbon.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiribbon.dll
-api_name:
-- IUIEventLogger
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIEventLogger
+ - uiribbon/IUIEventLogger
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiribbon.dll
+api_name:
+ - IUIEventLogger
 ---
 
 # IUIEventLogger interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IUIEventLogger</b> interface is implemented by the 
 				application and defines the ribbon events callback method.
-
 
 ## -inheritance
 
@@ -78,13 +77,9 @@ Receives notifications that a ribbon event has occurred.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuieventingmanager">IUIEventingManager</a>
 
@@ -95,7 +90,4 @@ Receives notifications that a ribbon event has occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-interfaces">Interfaces</a>
- 
-
- 
 

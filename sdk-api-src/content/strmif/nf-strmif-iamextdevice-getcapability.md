@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 4efed2b8-a62c-4a82-bc2d-c6d3a202263c
 ms.date: 12/05/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],GetCapability method, IAMExtDevice.GetCapability, IAMExtDevice::GetCapability, IAMExtDeviceGetCapability, dshow.iamextdevice_getcapability, strmif/IAMExtDevice::GetCapability
-f1_keywords:
-- strmif/IAMExtDevice.GetCapability
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtDevice.GetCapability
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtDevice::GetCapability
+ - strmif/IAMExtDevice::GetCapability
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtDevice.GetCapability
 ---
 
 # IAMExtDevice::GetCapability
@@ -50,45 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetCapability</code> method retrieves the capabilities of the external device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Capability [in]
 
 Specifies the capability to check. See Remarks for more information.
 
-
 ### -param pValue [out]
 
 Pointer to a variable that receives a <b>long</b> integer. See Remarks for more information.
-
 
 ### -param pdblValue [out]
 
 Pointer to a variable that receives a <b>double</b>. See Remarks for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <i>Capability</i> parameter is a flag that specifies which capability to check. The method returns the result either in the <i>pValue</i> parameter or in the <i>pdblValue</i> parameter, depending on the capability flag.
 
@@ -411,22 +394,12 @@ For MSDV only, the ED_DEVCAP_DEVICE_TYPE flag returns the device type. Possible 
 <td>Device has full VCR capabilities.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>
- 
-
- 
 

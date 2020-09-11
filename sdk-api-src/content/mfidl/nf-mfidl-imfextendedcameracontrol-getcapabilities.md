@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl::GetCapabilities
 f1_keywords:
+ - IMFExtendedCameraControl::GetCapabilities
  - mfidl/IMFExtendedCameraControl::GetCapabilities
 dev_langs:
  - c++

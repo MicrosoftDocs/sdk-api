@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 5826d5c3-885a-4001-aa89-0bc1c03b9338
 ms.date: 12/05/2018
 ms.keywords: EnumFileScreens, EnumFileScreens method [File Server Resource Manager], EnumFileScreens method [File Server Resource Manager],FsrmFileScreenManager class, EnumFileScreens method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],EnumFileScreens method, IFsrmFileScreenManager interface [File Server Resource Manager],EnumFileScreens method, IFsrmFileScreenManager.EnumFileScreens, IFsrmFileScreenManager::EnumFileScreens, fs.ifsrmfilescreenmanager_enumfilescreens, fsrm.ifsrmfilescreenmanager_enumfilescreens, fsrmscreen/IFsrmFileScreenManager::EnumFileScreens
-f1_keywords:
-- fsrmscreen/IFsrmFileScreenManager.EnumFileScreens
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreenManager.EnumFileScreens
-- FsrmFileScreenManager.EnumFileScreens
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreenManager::EnumFileScreens
+ - fsrmscreen/IFsrmFileScreenManager::EnumFileScreens
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreenManager.EnumFileScreens
+ - FsrmFileScreenManager.EnumFileScreens
 ---
 
 # IFsrmFileScreenManager::EnumFileScreens
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the file screens for the specified directory and its subdirectories.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
@@ -71,11 +67,9 @@ If the path does not end in "\*" or "\...", retrieve the file screen for the pat
 
 If path is null or empty, the method returns all file screens.
 
-
 ### -param options [in]
 
 The options to use when enumerating the file screens. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
-
 
 ### -param fileScreens [out]
 
@@ -87,27 +81,15 @@ The collection contains only committed file screens; the collection will not con
 
 The collection is empty if the path does not contain file screens.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilescreenmanager">FsrmFileScreenManager</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
- 
-
- 
 

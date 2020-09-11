@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 71c0a1de-5ea5-4496-b0e9-56d0cc8129a9
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], ISharedPropertyGroupManager interface [COM+],described, _cos_ISharedPropertyGroupManager, comsvcs/ISharedPropertyGroupManager, cos.isharedpropertygroupmanager
-f1_keywords:
-- comsvcs/ISharedPropertyGroupManager
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISharedPropertyGroupManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISharedPropertyGroupManager
+ - comsvcs/ISharedPropertyGroupManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISharedPropertyGroupManager
 ---
 
 # ISharedPropertyGroupManager interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to create shared property groups and to obtain access to existing shared property groups.
-
-
 
 ## -inheritance
 
@@ -96,20 +94,13 @@ Retrieves a reference to an existing shared property group.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
- 
-
- 
 

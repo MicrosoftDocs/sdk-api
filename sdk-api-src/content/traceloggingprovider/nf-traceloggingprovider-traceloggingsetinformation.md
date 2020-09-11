@@ -3,10 +3,6 @@ UID: NF:traceloggingprovider.TraceLoggingSetInformation
 title: TraceLoggingSetInformation
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingSetInformation
-f1_keywords:
-- TraceLoggingSetInformation
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - TraceLoggingSetInformation
+ - traceloggingprovider/TraceLoggingSetInformation
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- traceloggingprovider.h
+ - traceloggingprovider.h
 api_name:
-- TraceLoggingSetInformation
+ - TraceLoggingSetInformation
 ---
 
 ## -description
@@ -72,3 +73,4 @@ This function serves as a wrapper around the [**EventSetInformation**](/windows/
 To control the behavior of this function, use macros TLG\_EVENT\_SET\_INFORMATION and TLG\_HAVE\_EVENT\_SET\_INFORMATION.
 
 ## -see-also
+

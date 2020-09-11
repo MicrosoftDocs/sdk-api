@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a92117b8-9144-4480-b88a-b9ffe1026d63
 ms.date: 12/05/2018
 ms.keywords: CRYPT_GET_URL_FROM_AUTH_ATTRIBUTE, CRYPT_GET_URL_FROM_EXTENSION, CRYPT_GET_URL_FROM_PROPERTY, CRYPT_GET_URL_FROM_UNAUTH_ATTRIBUTE, CryptGetObjectUrl, CryptGetObjectUrl function [Security], URL_OID_CERTIFICATE_CRL_DIST_POINT, URL_OID_CERTIFICATE_CRL_DIST_POINT_AND_OCSP, URL_OID_CERTIFICATE_FRESHEST_CRL, URL_OID_CERTIFICATE_ISSUER, URL_OID_CERTIFICATE_OCSP, URL_OID_CERTIFICATE_OCSP_AND_CRL_DIST_POINT, URL_OID_CERTIFICATE_ONLY_OCSP, URL_OID_CRL_FRESHEST_CRL, URL_OID_CRL_ISSUER, URL_OID_CROSS_CERT_DIST_POINT, URL_OID_CROSS_CERT_SUBJECT_INFO_ACCESS, URL_OID_CTL_ISSUER, URL_OID_CTL_NEXT_UPDATE, _crypto2_cryptgetobjecturl, security.cryptgetobjecturl, wincrypt/CryptGetObjectUrl
-f1_keywords:
-- wincrypt/CryptGetObjectUrl
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Cryptnet.lib
 req.dll: Cryptnet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptnet.dll
-api_name:
-- CryptGetObjectUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetObjectUrl
+ - wincrypt/CryptGetObjectUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptnet.dll
+api_name:
+ - CryptGetObjectUrl
 ---
 
 # CryptGetObjectUrl function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptGetObjectUrl</b> function acquires the URL of the remote object from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 The function takes the object, decodes it, and provides a pointer to an array of URLs from the object. For example, from a certificate, a CRL distribution list of URLs would be in the array.
 
-
 ## -parameters
-
-
-
 
 ### -param pszUrlOid [in]
 
@@ -241,13 +237,10 @@ For the <i>pvPara</i> parameter: The PCCERT_CONTEXT of a certificate whose cross
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvPara [in]
 
 A structure determined by the value of <i>pszUrlOid</i>. For details, see the description for the <i>pszUrlOid</i> parameter.
-
 
 ### -param dwFlags [in]
 
@@ -299,8 +292,6 @@ Locates the URL from an authenticated attribute from the signer information data
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pUrlArray [out]
 
@@ -309,19 +300,15 @@ A pointer to a buffer to receive the data for the value entry. This parameter ca
 
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-					
-
 
 ### -param pcbUrlArray [in, out]
 
 A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer pointed to by the <i>pUrlArray</i> parameter. When the function returns, the <b>DWORD</b> contains the number of bytes stored in the buffer. This parameter can be <b>NULL</b> only if <i>pUrlArray</i> is <b>NULL</b>.
 
-
 ### -param pUrlInfo [out]
 
 An optional pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_url_info">CRYPT_URL_INFO</a> structure that receives the data for the value entry.
-
 
 ### -param pcbUrlInfo [in, out]
 
@@ -337,26 +324,14 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 
 Reserved for future use and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Remote Object Retrieval Functions</a>
- 
-
- 
 

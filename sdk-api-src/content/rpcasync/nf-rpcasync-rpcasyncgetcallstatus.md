@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: caa3add7-d07f-4d56-ad96-51dc67f66117
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncGetCallStatus, RpcAsyncGetCallStatus function [RPC], _rpc_rpcasyncgetcallstatus, rpc.rpcasyncgetcallstatus, rpcasync/RpcAsyncGetCallStatus
-f1_keywords:
-- rpcasync/RpcAsyncGetCallStatus
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcAsyncGetCallStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcAsyncGetCallStatus
+ - rpcasync/RpcAsyncGetCallStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcAsyncGetCallStatus
 ---
 
 # RpcAsyncGetCallStatus function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The client calls the 
 <b>RpcAsyncGetCallStatus</b> function to determine the current status of an asynchronous remote call.
 
-
 ## -parameters
-
-
-
 
 ### -param pAsync
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -126,21 +119,11 @@ The call failed. The client application must call
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 This client-side function returns the current status of the asynchronous call. Note that if the return value is anything other than RPC_S_ASYNC_CALL_PENDING the call is complete.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc">Asynchronous RPC</a>
 
@@ -171,7 +154,4 @@ This client-side function returns the current status of the asynchronous call. N
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcservertestcancel">RpcServerTestCancel</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d5b5883b-03d5-4a83-af2e-f4d22e26ee82
 ms.date: 12/05/2018
 ms.keywords: VssFreeSnapshotProperties, VssFreeSnapshotProperties function [VSS], VssFreeSnapshotPropertiesInternal, _win32_vssfreesnapshotproperties, base.vssfreesnapshotproperties, vsbackup/VssFreeSnapshotProperties, vsbackup/VssFreeSnapshotPropertiesInternal
-f1_keywords:
-- vsbackup/VssFreeSnapshotProperties
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VssApi.dll
-- Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
-api_name:
-- VssFreeSnapshotProperties
-- VssFreeSnapshotPropertiesInternal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VssFreeSnapshotPropertiesInternal
+ - vsbackup/VssFreeSnapshotPropertiesInternal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VssApi.dll
+ - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+api_name:
+ - VssFreeSnapshotProperties
+ - VssFreeSnapshotPropertiesInternal
 ---
 
 # VssFreeSnapshotPropertiesInternal function
 
 
 ## -description
-
 
 The <b>VssFreeSnapshotProperties</b> function is 
     used to free the contents of a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
@@ -66,19 +66,12 @@ This function can also be used to initialize a
 
 ## -parameters
 
-
-
-
 ### -param pProp [in]
 
 Pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
       object.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>
 
@@ -89,7 +82,4 @@ Pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vss/n
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
- 
-
- 
 

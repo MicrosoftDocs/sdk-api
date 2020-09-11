@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7d4790de-ebd6-4840-b532-7158b8d80db2
 ms.date: 12/05/2018
 ms.keywords: AuditQueryPerUserPolicy, AuditQueryPerUserPolicy function [Security], ntsecapi/AuditQueryPerUserPolicy, security.auditqueryperuserpolicy_func
-f1_keywords:
-- ntsecapi/AuditQueryPerUserPolicy
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-audit-l1-1-1.dll
-- sechost.dll
-api_name:
-- AuditQueryPerUserPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AuditQueryPerUserPolicy
+ - ntsecapi/AuditQueryPerUserPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-audit-l1-1-1.dll
+ - sechost.dll
+api_name:
+ - AuditQueryPerUserPolicy
 ---
 
 # AuditQueryPerUserPolicy function
@@ -51,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AuditQueryPerUserPolicy</b> function retrieves per-user audit policy in one or more audit-policy subcategories for the specified principal. 
-
+The <b>AuditQueryPerUserPolicy</b> function retrieves per-user audit policy in one or more audit-policy subcategories for the specified principal.
 
 ## -parameters
-
-
-
 
 ### -param pSid [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure associated with the principal for which to query  audit policy. Per-user policy for group SIDs is not currently supported.
 
-
 ### -param pSubCategoryGuids [in]
 
 A pointer to an array of <b>GUID</b> values that specify the subcategories for which to query audit policy. For a list of defined audit-policy subcategories, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/auditing-constants">Auditing Constants</a>.
 
-
 ### -param dwPolicyCount [in]
 
 The number of elements in each of the <i>pSubCategoryGuids</i> and <i>ppAuditPolicy</i> arrays.
-
 
 ### -param ppAuditPolicy [out]
 
@@ -81,10 +74,7 @@ A pointer to a single buffer that contains both an array of pointers to <a href=
 
 When you have finished using this buffer, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditfree">AuditFree</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
@@ -133,16 +123,8 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To successfully call this function, the caller must have <b>SeSecurityPrivilege</b> or have <b>AUDIT_QUERY_USER_POLICY</b> access on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>.
-
-
 

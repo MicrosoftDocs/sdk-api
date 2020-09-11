@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: aa5db8ac-4c29-43cf-a7ed-a870df9dfb82
 ms.date: 12/05/2018
 ms.keywords: IRpcOptions, IRpcOptions interface [COM], IRpcOptions interface [COM],described, _com_irpcoptions, com.irpcoptions, objidlbase/IRpcOptions
-f1_keywords:
-- objidlbase/IRpcOptions
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IRpcOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRpcOptions
+ - objidlbase/IRpcOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IRpcOptions
 ---
 
 # IRpcOptions interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables callers to set or query the values of various properties that control how COM handles remote procedure calls (RPC).
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Sets the value of an RPC binding option property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Using this interface, callers can set or query the COMBND_RPCTIMEOUT property, which controls how long your machine will attempt to establish RPC communications with another before failing. The property can have any one of the values enumerated in the following table.
 
@@ -122,7 +118,4 @@ Using this interface, callers can set or query the COMBND_RPCTIMEOUT property, w
 <td>Try to establish communications for the maximum time allowed by the protocol. This value favors reliability over performance.</td>
 </tr>
 </table>
- 
-
-
 

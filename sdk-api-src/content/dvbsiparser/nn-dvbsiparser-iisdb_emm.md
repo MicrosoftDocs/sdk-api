@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: a1389e7c-a3f1-4782-b811-5e09615b3e47
 ms.date: 12/05/2018
 ms.keywords: IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], IISDB_EMM interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_EMM, mstv.iisdb_emm
-f1_keywords:
-- dvbsiparser/IISDB_EMM
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_EMM
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_EMM
+ - dvbsiparser/IISDB_EMM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_EMM
 ---
 
 # IISDB_EMM interface
 
 
 ## -description
-
 
 Gets data from an Integrated Services Digital Broadcasting (ISDB)
   entitlement management message (EMM) table. An EMM table contains conditional access data, including contract
@@ -63,8 +63,6 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
-
-
 
 ## -inheritance
 
@@ -144,5 +142,5 @@ Initializes an object that implements this interface.
 
 </td>
 </tr>
-</table> 
+</table>
 

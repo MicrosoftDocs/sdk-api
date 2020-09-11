@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: E40517CE-3169-4F20-A572-EDBC8FEC2862
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrier, IMbnMultiCarrier interface [Microsoft Broadband Networks], IMbnMultiCarrier interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrier, mbnapi/IMbnMultiCarrier
-f1_keywords:
-- mbnapi/IMbnMultiCarrier
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnMultiCarrier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnMultiCarrier
+ - mbnapi/IMbnMultiCarrier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnMultiCarrier
 ---
 
 # IMbnMultiCarrier interface
@@ -53,7 +54,6 @@ ms.custom: 19H1
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 This interface exposes the multi-carrier functionality of a capable Mobile Broadband device.
-
 
 ## -inheritance
 
@@ -124,16 +124,9 @@ Updates the home provider for a multi-carrier device.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_ctrl_caps">MBN_CTRL_CAPS</a>
- 
-
- 
 

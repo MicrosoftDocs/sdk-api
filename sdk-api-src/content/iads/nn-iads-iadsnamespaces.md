@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: edac671e-9ab1-4211-9fd7-1a0b965196b4
 ms.date: 12/05/2018
 ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces interface [ADSI],described, _ds_iadsnamespaces, adsi.iadsnamespaces, iads/IADsNamespaces
-f1_keywords:
-- iads/IADsNamespaces
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsNamespaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsNamespaces
+ - iads/IADsNamespaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsNamespaces
 ---
 
 # IADsNamespaces interface
 
 
 ## -description
-
 
 The <b>IADsNamespaces</b> interface is implemented by the ADs provider and is used for managing namespace objects. A namespace object is a provider-specific top-level container and corresponds to the root node of a directory tree. The ADSI namespaces object serves as an entry point into the underlying directory and allows directory service administrators to enumerate the currently installed namespace objects.
 
@@ -70,11 +70,7 @@ hr = ADsGetObject(L"ADs:", IID_IADsNamespaces, (void**)&pNs);
 
 In addition to the <b>IADsNamespaces</b> interface, the ADSI namespaces object also implements the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interface.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>
 
@@ -89,7 +85,4 @@ In addition to the <b>IADsNamespaces</b> interface, the ADSI namespaces object a
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

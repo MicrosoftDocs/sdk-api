@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2e654bc1-293b-436b-bc33-8a8f269e9aee
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetSubpictureState method, IDvdControl2.SetSubpictureState, IDvdControl2::SetSubpictureState, IDvdControl2SetSubpictureState, SetSubpictureState, SetSubpictureState method [DirectShow], SetSubpictureState method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setsubpicturestate, strmif/IDvdControl2::SetSubpictureState
-f1_keywords:
-- strmif/IDvdControl2.SetSubpictureState
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SetSubpictureState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SetSubpictureState
+ - strmif/IDvdControl2::SetSubpictureState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SetSubpictureState
 ---
 
 # IDvdControl2::SetSubpictureState
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetSubpictureState</code> method turns the subpicture display on or off.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bState [in]
 
 Boolean value that specifies whether the subpicture display is on; <b>TRUE</b> sets subpicture display on for subsequent playback.
 
-
 ### -param dwFlags [in]
 
 Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
-
 
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -122,14 +110,8 @@ UOP control prohibits the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Subpicture streams are typically used in menus for button text and sometimes button graphics, and in video playback for subtitles, credits, or other overlaid graphics. Do not confuse subpictures with closed captions; the latter are encoded within the video stream. In general, this method is intended for controlling subpicture display over video while the DVD Navigator filter is playing video in the DVD Title domain.
 
@@ -156,15 +138,8 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -179,7 +154,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectsubpicturestream">SelectSubpictureStream</a>
- 
-
- 
 

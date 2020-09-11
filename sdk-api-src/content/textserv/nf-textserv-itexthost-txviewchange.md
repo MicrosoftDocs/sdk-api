@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txviewchange.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxViewChange method, ITextHost.TxViewChange, ITextHost::TxViewChange, TxViewChange, TxViewChange method [Windows Controls], TxViewChange method [Windows Controls],ITextHost interface, _win32_ITextHost_TxViewChange, _win32_ITextHost_TxViewChange_cpp, controls.ITextHost_TxViewChange, controls._win32_ITextHost_TxViewChange, textserv/ITextHost::TxViewChange
-f1_keywords:
-- textserv/ITextHost.TxViewChange
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxViewChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxViewChange
+ - textserv/ITextHost::TxViewChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxViewChange
 ---
 
 # ITextHost::TxViewChange
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates to the text host that the update region has changed.
 
-
 ## -parameters
-
-
-
 
 ### -param fUpdate [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Update flag. If <b>TRUE</b>, the text host calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>; otherwise it does nothing. See the Remarks section. 
-
+Update flag. If <b>TRUE</b>, the text host calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>; otherwise it does nothing. See the Remarks section.
 
 ## -remarks
-
-
 
 The text services object must call <b>TxViewChange</b> every time its visual representation has changed, even if the control is inactive. If the control is active, then text services must also make sure the control's window is updated. It can do this in a number of ways: 
 
@@ -78,13 +71,7 @@ The text services object must call <b>TxViewChange</b> every time its visual rep
 </ul>
 After the text services object has updated the active view, it can call <b>TxViewChange</b> and set <i>fUpdate</i> to <b>TRUE</b> along with the call. By passing <b>TRUE</b>, the text host calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> to make sure any unpainted areas of the active control are repainted.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -115,7 +102,4 @@ After the text services object has updated the active view, it can call <b>TxVie
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

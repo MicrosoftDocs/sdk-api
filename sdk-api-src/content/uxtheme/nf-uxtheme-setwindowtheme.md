@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowtheme.htm
 ms.date: 12/05/2018
 ms.keywords: SetWindowTheme, SetWindowTheme function [Windows Controls], controls.SetWindowTheme, controls.inet_SetWindowTheme, inet_SetWindowTheme, inet_SetWindowTheme_cpp, uxtheme/SetWindowTheme
-f1_keywords:
-- uxtheme/SetWindowTheme
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
-- xamlpalwp.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-api_name:
-- SetWindowTheme
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetWindowTheme
+ - uxtheme/SetWindowTheme
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+ - xamlpalwp.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+api_name:
+ - SetWindowTheme
 ---
 
 # SetWindowTheme function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Causes a window to use a different set of visual style information than its class normally uses.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -67,13 +63,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the window whose visual style information is to be changed.
 
-
 ### -param pszSubAppName [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 Pointer to a string that contains the application name to use in place of the calling application's name. If this parameter is <b>NULL</b>, the calling application's name is used.
-
 
 ### -param pszSubIdList [in]
 
@@ -81,21 +75,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Pointer to a string that contains a semicolon-separated list of CLSID names to use in place of the actual list passed by the window's class. If this parameter is <b>NULL</b>, the ID list from the calling class is used.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The theme manager retains the <i>pszSubAppName</i> and the <i>pszSubIdList</i> associations through the lifetime of the window, even if visual styles subsequently change. The window is sent a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-themechanged">WM_THEMECHANGED</a> message at the end of a <b>SetWindowTheme</b> call, so that the new visual style can be found and applied.
 
@@ -112,7 +98,4 @@ The following example code gives a list-view control the appearance of a Windows
 SetWindowTheme(hwndList, L"Explorer", NULL);
 
 ```
-
-
-
 

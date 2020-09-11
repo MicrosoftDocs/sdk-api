@@ -7,10 +7,6 @@ helpviewer_keywords: ["operator+="]
 ms.assetid: 2e3873c5-2871-49b5-ac2d-4da0d84aa169
 ms.date: 05/13/2019
 ms.keywords: operator+=
-f1_keywords:
-- directxmath/operator+=
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - operator+=
+ - directxmath/operator+=
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxmath.h
+ - directxmath.h
 api_name:
-- operator+=
+ - operator+=
 ---
 
 # XMVECTOR::operator +=
+
 
 ## -description
 
@@ -80,3 +82,4 @@ The following pseudocode demonstrates the operation of this operator:
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>
+

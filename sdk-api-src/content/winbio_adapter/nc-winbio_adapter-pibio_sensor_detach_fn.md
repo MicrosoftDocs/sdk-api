@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 58124c44-4343-44c1-84a2-c03455d68199
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_DETACH_FN, PIBIO_SENSOR_DETACH_FN callback, SensorAdapterDetach, SensorAdapterDetach callback function [Windows Biometric Framework API], secbiomet.sensoradapterdetach, winbio_adapter/SensorAdapterDetach
-f1_keywords:
-- winbio_adapter/SensorAdapterDetach
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- SensorAdapterDetach
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_SENSOR_DETACH_FN
+ - winbio_adapter/PIBIO_SENSOR_DETACH_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - SensorAdapterDetach
 ---
 
 # PIBIO_SENSOR_DETACH_FN callback function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework immediately before a sensor adapter is removed from the processing pipeline of the biometric unit. The purpose of this function is to release adapter specific resources attached to the pipeline.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -97,14 +90,8 @@ The <b>SensorContext</b> field of the <a href="https://docs.microsoft.com/window
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To prevent memory leaks, your implementation of the <i>SensorAdapterDetach</i> function must release the private <b>WINBIO_SENSOR_CONTEXT</b> structure pointed to by the  <b>SensorContext</b> member of the pipeline along with any other resources attached to the sensor context.
 
@@ -203,14 +190,7 @@ SensorAdapterDetach(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
@@ -221,7 +201,4 @@ SensorAdapterDetach(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a>
- 
-
- 
 

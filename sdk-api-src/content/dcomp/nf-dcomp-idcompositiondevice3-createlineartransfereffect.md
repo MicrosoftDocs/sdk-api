@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: C819B72A-ACE7-4201-9C4A-9D72E9E95FF7
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransferEffect, CreateLinearTransferEffect method [DirectComposition], CreateLinearTransferEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateLinearTransferEffect method, IDCompositionDevice3.CreateLinearTransferEffect, IDCompositionDevice3::CreateLinearTransferEffect, dcomp/IDCompositionDevice3::CreateLinearTransferEffect, directcomp.idcompositiondevice3_createlineartransfereffect
-f1_keywords:
-- dcomp/IDCompositionDevice3.CreateLinearTransferEffect
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dcomp.dll
-api_name:
-- IDCompositionDevice3.CreateLinearTransferEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionDevice3::CreateLinearTransferEffect
+ - dcomp/IDCompositionDevice3::CreateLinearTransferEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dcomp.dll
+api_name:
+ - IDCompositionDevice3.CreateLinearTransferEffect
 ---
 
 # IDCompositionDevice3::CreateLinearTransferEffect
@@ -49,42 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionlineartransfereffect">IDCompositionLinearTransferEffect</a>.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param linearTransferEffect [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionlineartransfereffect">IDCompositionLinearTransferEffect</a>**</b>
 
 Receives the created instance of <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionlineartransfereffect">IDCompositionLinearTransferEffect</a>.
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice3">IDCompositionDevice3</a>
- 
-
- 
 

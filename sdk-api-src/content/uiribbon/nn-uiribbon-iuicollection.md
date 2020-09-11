@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\iuicollection.htm
 ms.date: 12/05/2018
 ms.keywords: IUICollection, IUICollection interface [Windows Ribbon], IUICollection interface [Windows Ribbon],described, scenicintent_IUICollection, uiribbon/IUICollection, windowsribbon.windowsribbon_iuicollection
-f1_keywords:
-- uiribbon/IUICollection
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Uiribbon.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiribbon.dll
-api_name:
-- IUICollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUICollection
+ - uiribbon/IUICollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiribbon.dll
+api_name:
+ - IUICollection
 ---
 
 # IUICollection interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IUICollection</b> interface is implemented by the Ribbon framework. The <b>IUICollection</b> interface defines the 
 		methods for dynamically manipulating collection-based controls, such as the various Ribbon <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-controls-galleries">galleries</a> and the 
 		Quick Access Toolbar (QAT), at run time.
-
 
 ## -inheritance
 
@@ -133,20 +132,13 @@ Replaces an item at the specified index of the <b>IUICollection</b> with another
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollectionchangedevent">IUICollectionChangedEvent</a>
- 
-
- 
 

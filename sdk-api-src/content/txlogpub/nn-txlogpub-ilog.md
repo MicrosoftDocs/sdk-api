@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 93f2be99-0799-4047-ae4e-62f0e74d15c3
 ms.date: 12/05/2018
 ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_ilog, com.ilog, txlogpub/ILog
-f1_keywords:
-- txlogpub/ILog
-dev_langs:
-- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Txlogpub.h
-api_name:
-- ILog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILog
+ - txlogpub/ILog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Txlogpub.h
+api_name:
+ - ILog
 ---
 
 # ILog interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides generic low-level logging functionality.
 
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-portal">Common Log File System</a> (CLFS), provides functionality that is a superset of that provided by <b>ILog</b>.
-
 
 ## -inheritance
 
@@ -134,12 +133,9 @@ Throws away the specified prefix of the log, making it no longer retrievable.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 WAL is a technique used by certain applications, such as database management systems, to implement atomic and isolated transactions. This technique involves writing records of changes to the application's resources to a log before you make these changes. This way the changes can be reverted if they are required, for example if the transaction fails or is interrupted. In order for applications to provide transactions that are robust against interruptions such as system crash or power failure, the logging implementation must provide a method for forcing the log; that is, to make sure that previously written records are on disk before continuing.
 
@@ -184,16 +180,7 @@ The file based implementation of <b>ILog</b> additionally supports the <a href="
 
 This implementation uses a simple error control policy. If any one of the methods fails because of an error on the file-system level, which includes a disk full error, the log is pinned in an error state. This prevents clients from appending additional records to the file or reading potentially bad records. To continue to use the log file, you must create a new instance of the log.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ifilebasedloginit">IFileBasedLogInit</a>
- 
-
- 
 

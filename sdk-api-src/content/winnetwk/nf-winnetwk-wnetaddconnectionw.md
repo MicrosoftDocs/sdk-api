@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 9f2cf166-eb08-4498-8cda-79808776a452
 ms.date: 12/05/2018
 ms.keywords: WNetAddConnection, WNetAddConnection function [Windows Networking (WNet)], WNetAddConnectionA, WNetAddConnectionW, _win32_wnetaddconnection, winnetwk/WNetAddConnection, winnetwk/WNetAddConnectionA, winnetwk/WNetAddConnectionW, wnet.wnetaddconnection
-f1_keywords:
-- winnetwk/WNetAddConnection
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetAddConnection
-- WNetAddConnectionA
-- WNetAddConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetAddConnectionW
+ - winnetwk/WNetAddConnectionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetAddConnection
+ - WNetAddConnectionA
+ - WNetAddConnectionW
 ---
 
 # WNetAddConnectionW function
 
 
 ## -description
-
 
 The
 				<b>WNetAddConnection</b> function enables the calling application to connect a local device to a network resource. A successful connection is persistent, meaning that the system automatically restores the connection during subsequent logon operations.
@@ -60,13 +60,9 @@ The
 
 ## -parameters
 
-
-
-
 ### -param lpRemoteName [in]
 
 A pointer to a constant <b>null</b>-terminated string that specifies the network resource to connect to.
-
 
 ### -param lpPassword [in]
 
@@ -76,15 +72,11 @@ If this parameter is <b>NULL</b>, the default password is used. If the string is
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
 
-
 ### -param lpLocalName [in]
 
 A pointer to a constant <b>null</b>-terminated string that specifies the name of a local device to be redirected, such as "F:" or "LPT1". The string is treated in a case-insensitive manner. If the string is <b>NULL</b>, a connection to the network resource is made without redirecting the local device.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -230,14 +222,8 @@ The network is unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 On Windows Server 2003 and Windows XP, the WNet functions create and delete network drive letters in the MS-DOS device namespace associated with a logon session because MS-DOS devices are identified by AuthenticationID (a  
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
@@ -255,9 +241,6 @@ On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem c
 > The winnetwk.h header defines WNetAddConnection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
 
@@ -286,7 +269,4 @@ On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem c
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

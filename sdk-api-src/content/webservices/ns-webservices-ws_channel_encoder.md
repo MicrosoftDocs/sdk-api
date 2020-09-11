@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 94ff7082-5cc7-46f3-8eec-d38565bbdb23
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_ENCODER, WS_CHANNEL_ENCODER structure [Web Services for Windows], webservices/WS_CHANNEL_ENCODER, wsw.ws_channel_encoder
-f1_keywords:
-- webservices/WS_CHANNEL_ENCODER
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_CHANNEL_ENCODER
 targetos: Windows
 req.typenames: WS_CHANNEL_ENCODER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_CHANNEL_ENCODER
+ - webservices/_WS_CHANNEL_ENCODER
+ - WS_CHANNEL_ENCODER
+ - webservices/WS_CHANNEL_ENCODER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_CHANNEL_ENCODER
 ---
 
 # WS_CHANNEL_ENCODER structure
@@ -49,63 +52,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 A structure that is used to specify a set of callbacks
                 that can transform the content type and encoded bytes of a sent message.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field createContext
 
 A context that will be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
-                
-
 
 ### -field createEncoderCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a> callback that creates an instance of an encoder.
-                
-
 
 ### -field encoderGetContentTypeCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_encoder_get_content_type_callback">WS_ENCODER_GET_CONTENT_TYPE_CALLBACK</a> callback that is invoked when a message is to be encoded.
-                
-
 
 ### -field encoderStartCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_encoder_start_callback">WS_ENCODER_START_CALLBACK</a> callback that is invoked to start encoding a message.
-                
-
 
 ### -field encoderEncodeCallback
 
 A 
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_encoder_encode_callback">WS_ENCODER_ENCODE_CALLBACK</a> callback that is invoked to encode a message.
-                
-
 
 ### -field encoderEndCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_encoder_end_callback">WS_ENCODER_END_CALLBACK</a> callback that is invoked to at the end of encoding a message.
-                
-
 
 ### -field freeEncoderCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_free_encoder_callback">WS_FREE_ENCODER_CALLBACK</a> callback that frees an instance of an encoder.
-                
-
 
 ## -remarks
-
-
 
 A <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> may wish to compress, modify, or otherwise transform
                 the encoded bytes of a message before they are sent. A <b>WS_CHANNEL_ENCODER</b> 
@@ -137,7 +118,4 @@ When using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/n
 
 When the channel is finished using the encoder instance it will free it via the
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_free_encoder_callback">WS_FREE_ENCODER_CALLBACK</a>.
-            
-
-
 

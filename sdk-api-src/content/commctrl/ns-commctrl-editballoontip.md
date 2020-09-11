@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolstructures\editballoontip.htm
 ms.date: 12/05/2018
 ms.keywords: '*PEDITBALLOONTIP, EDITBALLOONTIP, EDITBALLOONTIP structure [Windows Controls], PEDITBALLOONTIP, PEDITBALLOONTIP structure pointer [Windows Controls], TTI_ERROR, TTI_ERROR_LARGE, TTI_INFO, TTI_INFO_LARGE, TTI_NONE, TTI_WARNING, TTI_WARNING_LARGE, _win32_EDITBALLOONTIP_str, _win32_EDITBALLOONTIP_str_cpp, commctrl/EDITBALLOONTIP, commctrl/PEDITBALLOONTIP, controls.EDITBALLOONTIP, controls._win32_EDITBALLOONTIP_str'
-f1_keywords:
-- commctrl/EDITBALLOONTIP
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- EDITBALLOONTIP
 targetos: Windows
 req.typenames: EDITBALLOONTIP, *PEDITBALLOONTIP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _tagEDITBALLOONTIP
+ - commctrl/_tagEDITBALLOONTIP
+ - PEDITBALLOONTIP
+ - commctrl/PEDITBALLOONTIP
+ - EDITBALLOONTIP
+ - commctrl/EDITBALLOONTIP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - EDITBALLOONTIP
 ---
 
 # EDITBALLOONTIP structure
@@ -49,35 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a balloon tip associated with a button control.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A <b>DWORD</b> that contains the size, in bytes, of the structure. 
-
+A <b>DWORD</b> that contains the size, in bytes, of the structure.
 
 ### -field pszTitle
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
-A pointer to a Unicode string that contains the title of the balloon tip. 
-
+A pointer to a Unicode string that contains the title of the balloon tip.
 
 ### -field pszText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
-A pointer to a Unicode string that contains the balloon tip text. 
-
+A pointer to a Unicode string that contains the balloon tip text.
 
 ### -field ttiIcon
 
@@ -161,13 +158,8 @@ Use the large error icon. This is assumed to be an HICON value.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -186,7 +178,4 @@ Use the large error icon. This is assumed to be an HICON value.
 
 
 <b>Reference</b>
- 
-
- 
 

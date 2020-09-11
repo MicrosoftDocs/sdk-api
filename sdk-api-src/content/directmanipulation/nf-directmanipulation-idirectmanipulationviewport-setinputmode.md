@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 2be1c8a1-a729-4851-b103-b108b9a96e2d
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetInputMode method, IDirectManipulationViewport.SetInputMode, IDirectManipulationViewport::SetInputMode, SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
-f1_keywords:
-- directmanipulation/IDirectManipulationViewport.SetInputMode
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationViewport.SetInputMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationViewport::SetInputMode
+ - directmanipulation/IDirectManipulationViewport::SetInputMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationViewport.SetInputMode
 ---
 
 # IDirectManipulationViewport::SetInputMode
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies if input is visible to the UI thread.
 
-
 ## -parameters
-
-
-
 
 ### -param mode [in]
 
 One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_input_mode">DIRECTMANIPULATION_INPUT_MODE</a>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC is the default mode for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a>. 
 
@@ -99,17 +87,7 @@ The following example shows how to use this method.
 HRESULT hr = pViewport->SetInputMode(DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC);
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 9812B5C9-6E3E-4CAB-827F-C59A98F07F91
 ms.date: 12/5/2018
 ms.keywords: BindPersistentResource, BindPersistentResource method, BindPersistentResource method,IDMLBindingTable interface, IDMLBindingTable interface,BindPersistentResource method, IDMLBindingTable.BindPersistentResource, IDMLBindingTable::BindPersistentResource, direct3d12.idmlbindingtable_bindpersistentresource, directml/IDMLBindingTable::BindPersistentResource
-f1_keywords:
-- directml/IDMLBindingTable.BindPersistentResource
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.dll
-api_name:
-- IDMLBindingTable.BindPersistentResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLBindingTable::BindPersistentResource
+ - directml/IDMLBindingTable::BindPersistentResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.dll
+api_name:
+ - IDMLBindingTable.BindPersistentResource
 ---
 
 # IDMLBindingTable::BindPersistentResource
+
 
 ## -description
 
@@ -75,3 +77,4 @@ An optional pointer to a [DML_BINDING_DESC](/windows/desktop/api/directml/ns-dir
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
 [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable)
+

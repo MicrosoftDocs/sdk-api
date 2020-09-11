@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6139e55f-9dda-42b5-bc9b-8d9bbfeaa619
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, base.heapfree, heapapi/HeapFree, winbase/HeapFree
-f1_keywords:
-- heapapi/HeapFree
-dev_langs:
-- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-heap-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-heap-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- vertdll.dll
-api_name:
-- HeapFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HeapFree
+ - heapapi/HeapFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - vertdll.dll
+api_name:
+ - HeapFree
 ---
 
 # HeapFree function
@@ -55,23 +56,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees a memory block allocated from a heap by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hHeap [in]
 
 A handle to the heap whose memory block is to be freed. This handle is returned by either the 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
-
 
 ### -param dwFlags [in]
 
@@ -101,8 +96,6 @@ Do not specify this value when accessing the process heap. The system may create
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpMem [in]
 
@@ -110,22 +103,14 @@ A pointer to the memory block to be freed. This pointer is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> function. If this pointer is <b>NULL</b>, the behavior is undefined.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. An application can call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
-
-
-
 ## -remarks
-
-
 
 You should not refer in any way to memory that has been freed by 
 <b>HeapFree</b>. After that memory is freed, any information that may have been in it is gone forever. If you require information, do not free memory containing the information. Function calls that return information about memory (such as 
@@ -145,12 +130,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/g
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
@@ -166,7 +146,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/g
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
- 
-
- 
 

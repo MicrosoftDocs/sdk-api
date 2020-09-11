@@ -7,10 +7,6 @@ helpviewer_keywords: ["Region::GetRegionScans"]
 ms.assetid: 0bfb4eed-80f8-4a98-a264-1f47c60f58b8
 ms.date: 05/20/2019
 ms.keywords: Region::GetRegionScans
-f1_keywords:
-- gdiplusheaders/Region::GetRegionScans
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Region::GetRegionScans
+ - gdiplusheaders/Region::GetRegionScans
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Region::GetRegionScans
+ - Region::GetRegionScans
 ---
 
 # Region::GetRegionScans(Matrix*,RectF*,INT*)
+
 
 ## -description
 
@@ -127,3 +129,4 @@ VOID Example_GetRegionScansRectF(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-hit-testing-with-a-region-use">Hit Testing with a Region</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>
+

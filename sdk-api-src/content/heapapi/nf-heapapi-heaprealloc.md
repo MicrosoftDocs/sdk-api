@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 21d711d9-3b16-4537-a830-1a2fa049a471
 ms.date: 12/05/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_REALLOC_IN_PLACE_ONLY, HEAP_ZERO_MEMORY, HeapReAlloc, HeapReAlloc function, _win32_heaprealloc, base.heaprealloc, heapapi/HeapReAlloc, winbase/HeapReAlloc
-f1_keywords:
-- heapapi/HeapReAlloc
-dev_langs:
-- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-heap-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-heap-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- HeapReAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HeapReAlloc
+ - heapapi/HeapReAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - HeapReAlloc
 ---
 
 # HeapReAlloc function
@@ -54,23 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reallocates a block of memory from a heap. This function enables you to resize a memory block and change other memory block properties. The allocated memory is not movable.
-   
-  
-
 
 ## -parameters
-
-
-
 
 ### -param hHeap [in]
 
 A handle to the heap from which the memory is to be reallocated. This handle is a returned by either the 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
-
 
 ### -param dwFlags [in]
 
@@ -135,15 +128,12 @@ If the reallocation request is for a larger size, the additional region of memor
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpMem [in]
 
 A pointer to the block of memory that the function reallocates. This pointer is returned by an earlier call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
 <b>HeapReAlloc</b> function.
-
 
 ### -param dwBytes [in]
 
@@ -152,10 +142,7 @@ The new size of the memory block, in bytes. A memory block's size can be increas
 If the heap specified by the <i>hHeap</i> parameter is a "non-growable" heap, <i>dwBytes</i> must be less than 0x7FFF8. You create a non-growable heap by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function with a nonzero value.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the reallocated memory block.
 
@@ -181,12 +168,7 @@ If the function fails and you have specified <b>HEAP_GENERATE_EXCEPTIONS</b>, th
 
 If the function fails, it does not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>. An application cannot call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
-
-
-
 ## -remarks
-
-
 
 If 
 <b>HeapReAlloc</b> succeeds, it allocates at least the amount of memory requested. 
@@ -208,12 +190,7 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 <li>The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
@@ -229,7 +206,4 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
- 
-
- 
 

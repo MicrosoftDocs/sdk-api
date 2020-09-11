@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2C1756A3-FF40-4FBF-860D-06BB415DB695
 ms.date: 12/05/2018
 ms.keywords: ICreateProcessInputs, ICreateProcessInputs interface [Windows Shell], ICreateProcessInputs interface [Windows Shell],described, shell.icreateprocessinputs, shobjidl_core/ICreateProcessInputs
-f1_keywords:
-- shobjidl_core/ICreateProcessInputs
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ICreateProcessInputs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateProcessInputs
+ - shobjidl_core/ICreateProcessInputs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ICreateProcessInputs
 ---
 
 # ICreateProcessInputs interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> interface to alter some parameters of the process that is being created.
-
 
 ## -inheritance
 
@@ -131,16 +130,11 @@ Sets the hot key for the application.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Applications do not implement this interface.
 
 A pointer to this interface is passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreatingprocess-oncreating">ICreatingProcess::OnCreating</a>.
-
-
 

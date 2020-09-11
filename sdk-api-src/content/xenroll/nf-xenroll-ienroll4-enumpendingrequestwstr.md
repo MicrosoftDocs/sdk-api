@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ae1ac12c-0332-4796-8269-a3b6f72b8bff
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],enumPendingRequestWStr method, IEnroll4.enumPendingRequestWStr, IEnroll4::enumPendingRequestWStr, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, enumPendingRequestWStr, enumPendingRequestWStr method [Security], enumPendingRequestWStr method [Security],IEnroll4 interface, security.ienroll4_enumpendingrequestwstr, xenroll/IEnroll4::enumPendingRequestWStr
-f1_keywords:
-- xenroll/IEnroll4.enumPendingRequestWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll4.enumPendingRequestWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll4::enumPendingRequestWStr
+ - xenroll/IEnroll4::enumPendingRequestWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll4.enumPendingRequestWStr
 ---
 
 # IEnroll4::enumPendingRequestWStr
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>enumPendingRequestWStr</b> method enumerates pending <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate requests</a> and retrieves a specified property from each.  This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param lIndex [in]
 
 Specifies the ordinal position of the pending request whose property will be retrieved. Specify zero for the first request.
-
 
 ### -param lDesiredProperty [in]
 
@@ -125,18 +120,12 @@ Certificate request ID.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppProperty [out]
 
 A pointer to a <b>VOID</b> that receives the value of the retrieved property.
-					
-
 
 ## -returns
-
-
 
  If the method succeeds, the method returns S_OK.
 
@@ -155,16 +144,7 @@ If the following values are specified for <i>lDesiredProperty</i>, this method r
 
 If you specify any other value for <i>lDesiredProperty</i>, this method returns E_INVALIDARG.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
- 
-
- 
 

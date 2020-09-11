@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
 ms.date: 12/05/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security],described, azroles/IAzApplications, security.iazapplications
-f1_keywords:
-- azroles/IAzApplications
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplications
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplications
+ - azroles/IAzApplications
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplications
 ---
 
 # IAzApplications interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzApplications</b> interface represents a collection of  
 <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects.
-
 
 ## -inheritance
 
@@ -153,5 +152,5 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn
 
 </td>
 </tr>
-</table> 
+</table>
 

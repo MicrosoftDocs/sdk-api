@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3
 ms.date: 12/05/2018
 ms.keywords: IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], IISDB_LDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_LDT, mstv.iisdb_ldt
-f1_keywords:
-- dvbsiparser/IISDB_LDT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_LDT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_LDT
+ - dvbsiparser/IISDB_LDT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_LDT
 ---
 
 # IISDB_LDT interface
 
 
 ## -description
-
 
 Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB)
   linked description table (LDT). An LDT contains data used to collect reference
@@ -62,8 +62,6 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
-
-
 
 ## -inheritance
 
@@ -186,5 +184,5 @@ Initializes the object by using captured table section data
 
 </td>
 </tr>
-</table> 
+</table>
 

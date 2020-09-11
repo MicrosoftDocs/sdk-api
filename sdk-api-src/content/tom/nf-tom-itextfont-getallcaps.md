@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getallcaps.htm
 ms.date: 12/05/2018
 ms.keywords: GetAllCaps, GetAllCaps method [Windows Controls], GetAllCaps method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetAllCaps method, ITextFont.GetAllCaps, ITextFont::GetAllCaps, _win32_ITextFont_GetAllCaps, _win32_ITextFont_GetAllCaps_cpp, controls.ITextFont_GetAllCaps, controls._win32_ITextFont_GetAllCaps, tom/ITextFont::GetAllCaps
-f1_keywords:
-- tom/ITextFont.GetAllCaps
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.GetAllCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::GetAllCaps
+ - tom/ITextFont::GetAllCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.GetAllCaps
 ---
 
 # ITextFont::GetAllCaps
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets whether the characters are all uppercase.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -82,12 +78,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 <td>The AllCaps property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -121,24 +113,12 @@ The font object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This property corresponds to the <b>CFE_ALLCAPS</b> effect described in the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a>
 
@@ -161,7 +141,4 @@ This property corresponds to the <b>CFE_ALLCAPS</b> effect described in the <a h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

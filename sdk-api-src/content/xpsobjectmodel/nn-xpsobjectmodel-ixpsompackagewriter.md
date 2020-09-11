@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: cbbcc8bf-6172-41c8-9d74-27e5635ec167
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter, IXpsOMPackageWriter interface [XPS Documents and Packaging], IXpsOMPackageWriter interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter, xpsobjectmodel/IXpsOMPackageWriter
-f1_keywords:
-- xpsobjectmodel/IXpsOMPackageWriter
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPackageWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackageWriter
+ - xpsobjectmodel/IXpsOMPackageWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPackageWriter
 ---
 
 # IXpsOMPackageWriter interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Incrementally writes the parts of an XPS document to  a package file.
-
 
 ## -inheritance
 
@@ -115,24 +114,15 @@ Opens and initializes a new FixedDocument in the FixedDocumentSequence of the pa
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Progressive writing enables an application to serialize  XPS document content and resources as they become available. It does not require the application to create all elements of the document before serialization.
 
 This interface writes the pages to the package sequentially, in the order that  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">AddPage</a> is called. The interface does not support page writing in a non-sequential order; thus it should only be used when page content is produced or is available for writing in the order it is to appear in the XPS document.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpsompackagewriter">IXpsDocumentPackageTarget::GetXpsOMPackageWriter</a>
 
@@ -155,7 +145,4 @@ This interface writes the pages to the package sequentially, in the order that  
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

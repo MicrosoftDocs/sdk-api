@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7dcd1726-650a-4bb5-ae12-48c6989e1692
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCQueueOpen method, IComQCEvents.OnQCQueueOpen, IComQCEvents::OnQCQueueOpen, OnQCQueueOpen, OnQCQueueOpen method [COM+], OnQCQueueOpen method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCQueueOpen, comsvcs/IComQCEvents::OnQCQueueOpen, cos.icomqcevents_onqcqueueopen
-f1_keywords:
-- comsvcs/IComQCEvents.OnQCQueueOpen
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComQCEvents.OnQCQueueOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComQCEvents::OnQCQueueOpen
+ - comsvcs/IComQCEvents::OnQCQueueOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComQCEvents.OnQCQueueOpen
 ---
 
 # IComQCEvents::OnQCQueueOpen
@@ -49,52 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generated when a queued components queue is opened. This method is used to generate the <i>QueueID</i> parameter.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pInfo [in]
 
 A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
-
 ### -param szQueue [in]
 
 The name of the queue.
-
 
 ### -param QueueID [in]
 
 The unique identifier for the queue.
 
-
 ### -param hr [in]
 
 The status from Message Queuing queue open.
 
-
 ## -returns
-
-
 
 The user verifies the return values from this method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomqcevents">IComQCEvents</a>
- 
-
- 
 

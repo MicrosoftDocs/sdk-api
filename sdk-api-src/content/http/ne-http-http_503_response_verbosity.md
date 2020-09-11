@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: e103bdf4-dc48-45ba-84dc-4161310ee3ff
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY enumeration [HTTP], HTTP_503_RESPONSE_VERBOSITY, HTTP_503_RESPONSE_VERBOSITY enumeration [HTTP], Http503ResponseVerbosityBasic, Http503ResponseVerbosityFull, Http503ResponseVerbosityLimited, http.http_503_response_verbosity, http/*PHTTP_503_RESPONSE_VERBOSITY, http/HTTP_503_RESPONSE_VERBOSITY, http/Http503ResponseVerbosityBasic, http/Http503ResponseVerbosityFull, http/Http503ResponseVerbosityLimited'
-f1_keywords:
-- http/HTTP_503_RESPONSE_VERBOSITY
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_503_RESPONSE_VERBOSITY
 targetos: Windows
 req.typenames: HTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_503_RESPONSE_VERBOSITY
+ - http/_HTTP_503_RESPONSE_VERBOSITY
+ - PHTTP_503_RESPONSE_VERBOSITY
+ - http/PHTTP_503_RESPONSE_VERBOSITY
+ - HTTP_503_RESPONSE_VERBOSITY
+ - http/HTTP_503_RESPONSE_VERBOSITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_503_RESPONSE_VERBOSITY
 ---
 
 # HTTP_503_RESPONSE_VERBOSITY enumeration
@@ -49,36 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HTTP_503_RESPONSE_VERBOSITY</b> enumeration defines the verbosity levels for a 503, service unavailable, error responses.
 
 This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServer503ResponseProperty</a> on a request queue.
 
-
 ## -enum-fields
-
-
-
 
 ### -field Http503ResponseVerbosityBasic
 
 A 503 response is not sent; the connection is reset.
     This is the default HTTP Server API behavior.
 
-
 ### -field Http503ResponseVerbosityLimited
 
 The HTTP Server API sends a 503 response with a "Service Unavailable" reason phrase.
-
 
 ### -field Http503ResponseVerbosityFull
 
 The HTTP Server API sends a 503 response with a detailed reason phrase.
 
-
 ## -remarks
-
-
 
 This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryrequestQueueProperty</a> to set and query the 503  response verbosity. The <i>pPropertyInformation</i> parameter points to a member of the <b>HTTP_503_RESPONSE_VERBOSITY</b> enumeration when the <i>Property</i> parameter is <b>HttpServer503VerbosityProperty</b>.
 
@@ -89,14 +84,7 @@ This enumeration defines the verbosity level for a request queue when sending 50
 <div class="alert"><b>Note</b>  Disclosing information about the state of the service to potentially unsafe clients may pose a security risk.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
@@ -111,7 +99,4 @@ This enumeration defines the verbosity level for a request queue when sending 50
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
- 
-
- 
 

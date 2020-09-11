@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 10091a24-6a50-4eb2-a518-b92a572daa6c
 ms.date: 12/05/2018
 ms.keywords: OleCreateFromDataEx, OleCreateFromDataEx function [COM], _ole_OleCreateFromDataEx, com.olecreatefromdataex, ole2/OleCreateFromDataEx
-f1_keywords:
-- ole2/OleCreateFromDataEx
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- OleCreateFromDataEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleCreateFromDataEx
+ - ole2/OleCreateFromDataEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - OleCreateFromDataEx
 ---
 
 # OleCreateFromDataEx function
@@ -49,79 +50,59 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentation or data, instead of the single format supported by <b>OleCreateFromData</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param pSrcDataObj [in]
 
 Pointer to the data transfer object holding the new data used to create the new object. (see <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>).
 
-
 ### -param riid [in]
 
 Reference to the identifier of the interface of the object to return.
-
 
 ### -param dwFlags [in]
 
 This parameter can be 0 or OLECREATE_LEAVERUNNING (0x00000001).
 
-
 ### -param renderopt [in]
 
-Value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> enumeration. 
-
+Value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> enumeration.
 
 ### -param cFormats [in]
 
 When <i>renderopt</i> is OLERENDER_FORMAT, indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures in the <i>rgFormatEtc</i> array, which must be at least one. In all other cases, this parameter must be zero.
 
-
 ### -param rgAdvf [in]
 
 When <i>renderopt</i> is OLERENDER_FORMAT, points to an array of <b>DWORD</b> elements, each of which is a combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a> enumeration. Each element of this array is passed in as the advf parameter to a call to either <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>, depending on whether <i>pAdviseSink</i> is <b>NULL</b> or non-<b>NULL</b> (see below). In all other cases, this parameter must be <b>NULL</b>.
-
 
 ### -param rgFormatEtc [in]
 
 When <i>renderopt</i> is OLERENDER_FORMAT, points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures. When <i>pAdviseSink</i> is <b>NULL</b>, each element of this array is passed as the <i>pFormatEtc</i> parameter to a call to the object's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>. This populates the data and presentation cache managed by the object's in-process handler (typically the default handler) with presentation or other cacheable data. When <i>pAdviseSink</i> is non-<b>NULL</b>, each element of this array is passed as the <i>pFormatEtc</i> parameter to a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>. This allows the caller (typically an OLE Container) to do its own caching or processing of data received from the object.
 
-
 ### -param lpAdviseSink [in]
 
 When renderopt is OLERENDER_FORMAT, may be either a valid <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> pointer, indicating custom caching or processing of data advises, or <b>NULL</b>, indicating default caching of data formats.
-
 
 ### -param rgdwConnection [out]
 
 Location to return the array of dwConnection values returned when the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface is registered for each advisory connection using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>, or <b>NULL</b> if the returned advisory connections are not needed. This parameter must be <b>NULL</b> if <i>pAdviseSink</i> is <b>NULL</b>.
 
-
 ### -param pClientSite [in]
 
 Pointer to the primary interface through which the object will request services from its container. This parameter may be <b>NULL</b>, in which case it is the caller's responsibility to establish the client site as soon as possible using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a>.
-
 
 ### -param pStg [in]
 
 Pointer to the storage to use for the object and any default data or presentation caching established for it.
 
-
 ### -param ppvObj [out]
 
 Address of output pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created object.
 
-
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -153,14 +134,8 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following call to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>:
 
@@ -179,13 +154,7 @@ Containers performing all their own data- or presentation-caching perform these 
 
 These new functions are for OLE Compound Documents. Using these functions, applications can avoid the repeated launching and initialization steps required by the current functions. They are targeted at OLE Compound Document container applications that use default data- and presentation-caching, and also at applications that provide their own caching and data transfer from the underlying <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> support.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a>
 
@@ -224,7 +193,4 @@ These new functions are for OLE Compound Documents. Using these functions, appli
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
- 
-
- 
 

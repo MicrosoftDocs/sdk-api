@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 345c66b9-fa8a-4adc-a929-39bddca6aeec
 ms.date: 12/05/2018
 ms.keywords: ISecurityObjectTypeInfo, ISecurityObjectTypeInfo interface [Security], ISecurityObjectTypeInfo interface [Security],described, aclui/ISecurityObjectTypeInfo, security.isecurityobjecttypeinfo
-f1_keywords:
-- aclui/ISecurityObjectTypeInfo
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- ISecurityObjectTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityObjectTypeInfo
+ - aclui/ISecurityObjectTypeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - ISecurityObjectTypeInfo
 ---
 
 # ISecurityObjectTypeInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISecurityObjectTypeInfo</b> interface provides a means of determining the source of inherited <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control lists</a> (DACLs) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control lists</a> (SACLs).  The access control editor uses this information to communicate the inheritance source to the client.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Returns the inheritance source for the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
- 
-
- 
 

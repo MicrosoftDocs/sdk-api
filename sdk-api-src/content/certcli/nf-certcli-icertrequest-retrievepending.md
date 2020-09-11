@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 07a9ac57-f90e-4c5c-b563-8aebbcf8f42e
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],RetrievePending method, ICertRequest interface [Security],RetrievePending method, ICertRequest.RetrievePending, ICertRequest2 interface [Security],RetrievePending method, ICertRequest2::RetrievePending, ICertRequest3 interface [Security],RetrievePending method, ICertRequest3::RetrievePending, ICertRequest::RetrievePending, RetrievePending, RetrievePending method [Security], RetrievePending method [Security],CCertRequest object, RetrievePending method [Security],ICertRequest interface, RetrievePending method [Security],ICertRequest2 interface, RetrievePending method [Security],ICertRequest3 interface, certcli/ICertRequest2::RetrievePending, certcli/ICertRequest3::RetrievePending, certcli/ICertRequest::RetrievePending, security.icertrequest2_retrievepending
-f1_keywords:
-- certcli/ICertRequest3.RetrievePending
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3.RetrievePending
-- ICertRequest2.RetrievePending
-- ICertRequest.RetrievePending
-- CCertRequest.RetrievePending
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest::RetrievePending
+ - certcli/ICertRequest::RetrievePending
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3.RetrievePending
+ - ICertRequest2.RetrievePending
+ - ICertRequest.RetrievePending
+ - CCertRequest.RetrievePending
 ---
 
 # ICertRequest::RetrievePending
 
 
 ## -description
-
 
 The <b>RetrievePending</b> method retrieves a certificate's disposition status from an earlier request that may have previously returned CR_DISP_INCOMPLETE or CR_DISP_UNDER_SUBMISSION.
 
@@ -60,16 +60,11 @@ If the resulting disposition status is CR_DISP_ISSUED, you can retrieve the issu
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getlaststatus">ICertRequest3::GetLastStatus</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getdispositionmessage">ICertRequest3::GetDispositionMessage</a>, or both methods for more information.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestId [in]
 
 The ID of the request that had previously returned CR_DISP_INCOMPLETE or CR_DISP_UNDER_SUBMISSION.
-
 
 ### -param strConfig [in]
 
@@ -78,15 +73,11 @@ Represents a valid configuration string for the Certificate Services server. The
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
 
-
 ### -param pDisposition [out, retval]
 
 A pointer to the request's disposition value.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -170,14 +161,8 @@ Request taken under submission
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A successful call to this method generates an EXITEVENT_CERTRETRIEVEPENDING event. An active exit module will receive notification of this event (by means of a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">ICertExit3::Notify</a>) if the exit module specified this event when calling 
@@ -214,14 +199,7 @@ if ( NULL != bstrCA )
     SysFreeString( bstrCA );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
@@ -240,7 +218,4 @@ if ( NULL != bstrCA )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
- 
-
- 
 

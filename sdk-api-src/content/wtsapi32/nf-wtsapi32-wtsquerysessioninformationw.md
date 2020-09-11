@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: d52345a4-0408-4ea9-ba71-349910143752
 ms.date: 12/05/2018
 ms.keywords: WTSQuerySessionInformation, WTSQuerySessionInformation function [Remote Desktop Services], WTSQuerySessionInformationA, WTSQuerySessionInformationW, _win32_wtsquerysessioninformation, termserv.wtsquerysessioninformation, wtsapi32/WTSQuerySessionInformation, wtsapi32/WTSQuerySessionInformationA, wtsapi32/WTSQuerySessionInformationW
-f1_keywords:
-- wtsapi32/WTSQuerySessionInformation
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
-api_name:
-- WTSQuerySessionInformation
-- WTSQuerySessionInformationA
-- WTSQuerySessionInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSQuerySessionInformationW
+ - wtsapi32/WTSQuerySessionInformationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+ - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+api_name:
+ - WTSQuerySessionInformation
+ - WTSQuerySessionInformationA
+ - WTSQuerySessionInformationW
 ---
 
 # WTSQuerySessionInformationW function
@@ -52,15 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server. It can be used 
     to query session information on local and remote RD Session Host servers.
 
-
 ## -parameters
-
-
-
 
 ### -param hServer [in]
 
@@ -68,7 +64,6 @@ A handle to an RD Session Host server. Specify a handle opened by the
       <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
       <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application 
       is running.
-
 
 ### -param SessionId [in]
 
@@ -86,13 +81,11 @@ To query information for another user's session, you must have Query Information
        Permissions</a>. To modify permissions on a session, use the Remote Desktop Services Configuration administrative 
        tool.
 
-
 ### -param WTSInfoClass [in]
 
 A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_info_class">WTS_INFO_CLASS</a> enumeration that indicates the type of 
     session information to retrieve in a call to the 
     <b>WTSQuerySessionInformation</b> function.
-
 
 ### -param ppBuffer [out]
 
@@ -101,28 +94,19 @@ A pointer to a variable that receives a pointer to the requested information. Th
       the returned buffer, call the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> 
       function.
 
-
 ### -param pBytesReturned [out]
 
 A pointer to a variable that receives the size, in bytes, of the data returned in 
       <i>ppBuffer</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To retrieve the session ID for the current session when Remote Desktop Services is running, call 
     <b>WTSQuerySessionInformation</b> and specify 
@@ -146,9 +130,6 @@ To determine whether your application is running on the physical console, you mu
 > The wtsapi32.h header defines WTSQuerySessionInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsconfiginfoa">WTSCONFIGINFO</a>
 
@@ -175,7 +156,4 @@ To determine whether your application is running on the physical console, you mu
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_address">WTS_SESSION_ADDRESS</a>
- 
-
- 
 

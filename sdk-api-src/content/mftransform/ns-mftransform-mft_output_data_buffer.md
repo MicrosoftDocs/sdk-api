@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3
 ms.date: 12/05/2018
 ms.keywords: '*PMFT_OUTPUT_DATA_BUFFER, 57623c8f-f7b6-4cb3-8d54-4ee516c706c3, MFT_OUTPUT_DATA_BUFFER, MFT_OUTPUT_DATA_BUFFER structure [Media Foundation], mf.mft_output_data_buffer, mftransform/MFT_OUTPUT_DATA_BUFFER'
-f1_keywords:
-- mftransform/MFT_OUTPUT_DATA_BUFFER
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mftransform.h
-api_name:
-- MFT_OUTPUT_DATA_BUFFER
 targetos: Windows
 req.typenames: MFT_OUTPUT_DATA_BUFFER, *PMFT_OUTPUT_DATA_BUFFER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFT_OUTPUT_DATA_BUFFER
+ - mftransform/_MFT_OUTPUT_DATA_BUFFER
+ - PMFT_OUTPUT_DATA_BUFFER
+ - mftransform/PMFT_OUTPUT_DATA_BUFFER
+ - MFT_OUTPUT_DATA_BUFFER
+ - mftransform/MFT_OUTPUT_DATA_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mftransform.h
+api_name:
+ - MFT_OUTPUT_DATA_BUFFER
 ---
 
 # MFT_OUTPUT_DATA_BUFFER structure
@@ -49,17 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information about an output buffer for a Media Foundation transform. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> method.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwStreamID
 
@@ -67,25 +64,19 @@ Output stream identifier. Before calling <a href="https://docs.microsoft.com/win
 
 Exception: If the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a> method returns E_NOTIMPL, the MFT ignores this member and uses the indexes of the <i>pOutputSamples</i> array in the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> method as the stream identifiers. In other words, it uses the first element in the array for stream 0, the second for stream 1, and so forth. It is recommended (but not required) that the caller set <b>dwStreamID</b> equal to the array index in this case.
 
-
 ### -field pSample
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface. Before calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, set this member equal to a valid <b>IMFSample</b> pointer or <b>NULL</b>. See Remarks for more information.
-
 
 ### -field dwStatus
 
 Before calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, set this member to zero. When the method returns, the MFT might set the member equal to a value from the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags">_MFT_OUTPUT_DATA_BUFFER_FLAGS</a> enumeration. Otherwise, the MFT leaves this member equal to zero.
 
-
 ### -field pEvents
 
 Before calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, set this member to <b>NULL</b>. On output, the MFT might set this member to a valid <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface pointer. The pointer represents a collecton that contains zero or more events. To get each event, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelement">IMFCollection::GetElement</a> and query the returned <b>IUnknown</b> pointer for the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface. When the <b>ProcessOutput</b> method returns, the caller is responsible for releasing the <b>IMFCollection</b> pointer if the pointer is not <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 You must provide an <b>MFT_OUTPUT_DATA_BUFFER</b> structure for each selected output stream.
 
@@ -145,13 +136,7 @@ Any other combinations are invalid and cause <a href="https://docs.microsoft.com
 
 Each call to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> can produce zero or more events and up to one sample per output stream.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a>
 
@@ -162,7 +147,4 @@ Each call to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
 

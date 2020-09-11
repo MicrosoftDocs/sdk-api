@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: db21ab80-ea2f-4f9e-a43c-0d202e235516
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetAlignment method, ICreateTypeInfo.SetAlignment, ICreateTypeInfo::SetAlignment, SetAlignment, SetAlignment method [Automation], SetAlignment method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetAlignment, automat.icreatetypeinfo_setalignment, oaidl/ICreateTypeInfo::SetAlignment
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetAlignment
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetAlignment
+ - oaidl/ICreateTypeInfo::SetAlignment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetAlignment
 ---
 
 # ICreateTypeInfo::SetAlignment
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the data alignment for an item of TYPEKIND=TKIND_RECORD.
 
-
 ## -parameters
-
-
-
 
 ### -param cbAlignment [in]
 
 Alignment method for the type. A value of 0 indicates alignment on the 64K boundary; 1 indicates no special alignment. For other values, n indicates alignment on byte <i>n</i>.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -136,28 +128,12 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The alignment is the minimum of the natural alignment (for example, byte data on byte boundaries, word data on word boundaries, and so on), and the alignment denoted by <i>cbAlignment</i>.
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
 

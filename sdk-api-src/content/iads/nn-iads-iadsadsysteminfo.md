@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb
 ms.date: 12/05/2018
 ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
-f1_keywords:
-- iads/IADsADSystemInfo
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsADSystemInfo
-- ADSystemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsADSystemInfo
+ - iads/IADsADSystemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsADSystemInfo
+ - ADSystemInfo
 ---
 
 # IADsADSystemInfo interface
 
 
 ## -description
-
 
 The <b>IADsADSystemInfo</b> interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
 
@@ -76,8 +76,6 @@ Or you can call the <b>CreateObject</b> function in a scripting environment, sup
 Dim adSys
 Set adSys = CreateObject("ADSystemInfo")
 ```
-
-
 
 ## -inheritance
 
@@ -283,13 +281,9 @@ Retrieves the Active Directory distinguished name of the current user, which is 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
@@ -300,7 +294,4 @@ Retrieves the Active Directory distinguished name of the current user, which is 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -17,6 +17,7 @@ req.target-min-winversvr: Windows Server, version 2004 (10.0; Build 19041)
 req.target-type: Windows
 req.typenames: 
 req.umdf-ver: 
+ms.custom: 20H1
 topic_type:
  - apiref
 api_type:
@@ -26,13 +27,14 @@ api_location:
 api_name:
  - PRJ_EXT_INFO_TYPE
 f1_keywords:
+ - PRJ_EXT_INFO_TYPE
  - projectedfslib/PRJ_EXT_INFO_TYPE
 dev_langs:
  - c++
-ms.custom: 20H1
 ---
 
 # PRJ_EXT_INFO_TYPE enumeration
+
 
 ## -description
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 28493e3a-ee5a-4331-b5b5-ba0bf2ee3370
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Core Audio], GetDisplayName method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetDisplayName method, IAudioSessionControl.GetDisplayName, IAudioSessionControl::GetDisplayName, IAudioSessionControlGetDisplayName, audiopolicy/IAudioSessionControl::GetDisplayName, coreaudio.iaudiosessioncontrol_getdisplayname
-f1_keywords:
-- audiopolicy/IAudioSessionControl.GetDisplayName
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionControl.GetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionControl::GetDisplayName
+ - audiopolicy/IAudioSessionControl::GetDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionControl.GetDisplayName
 ---
 
 # IAudioSessionControl::GetDisplayName
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDisplayName</b> method retrieves the display name for the audio session.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pRetVal [out]
 
 Pointer to a pointer variable into which the method writes the address of a null-terminated, wide-character string that contains the display name. The method allocates the storage for the string. The caller is responsible for freeing the storage, when it is no longer needed, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. For information about <b>CoTaskMemFree</b>, see the Windows SDK documentation.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -122,31 +112,16 @@ The Windows audio service is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the client has not called <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setdisplayname">IAudioSessionControl::SetDisplayName</a> to set the display name, the string will be empty. Rather than display an empty name string, the Sndvol program uses a default, automatically generated name to label the volume control for the audio session.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setdisplayname">IAudioSessionControl::SetDisplayName</a>
- 
-
- 
 

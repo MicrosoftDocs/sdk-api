@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7
 ms.date: 12/05/2018
 ms.keywords: CloseChannel, CloseChannel method [Windows GDI], CloseChannel method [Windows GDI],IPrintAsyncNotifyChannel interface, IPrintAsyncNotifyChannel interface [Windows GDI],CloseChannel method, IPrintAsyncNotifyChannel.CloseChannel, IPrintAsyncNotifyChannel::CloseChannel, _win32_IPrintAsyncNotifyChannel_CloseChannel, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel, prnasnot/IPrintAsyncNotifyChannel::CloseChannel
-f1_keywords:
-- prnasnot/IPrintAsyncNotifyChannel.CloseChannel
-dev_langs:
-- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Prnasnot.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prnasnot.dll
-api_name:
-- IPrintAsyncNotifyChannel.CloseChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintAsyncNotifyChannel::CloseChannel
+ - prnasnot/IPrintAsyncNotifyChannel::CloseChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prnasnot.dll
+api_name:
+ - IPrintAsyncNotifyChannel.CloseChannel
 ---
 
 # IPrintAsyncNotifyChannel::CloseChannel
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the channel.
 
-
 ## -parameters
-
-
-
 
 ### -param pData [in]
 
 Pointer to a notification that specifies why the channel closed. This pointer can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -194,13 +187,7 @@ if (SUCCEEDED(hr)) {
 
 ```
 
-
-
-
-
 ## -remarks
-
-
 
 <b>CloseChannel</b> can be called by either side of the communication channel—the component that is hosted by the print spooler or the listening application.
 
@@ -208,13 +195,7 @@ If an <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasn
 
 <b>CloseChannel</b> cannot be called immediately after the call to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
@@ -225,7 +206,4 @@ If an <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasn
 
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
 

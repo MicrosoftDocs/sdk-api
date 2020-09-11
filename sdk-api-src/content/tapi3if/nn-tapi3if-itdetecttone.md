@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: c03db3e2-3dc9-443f-8acf-66c06940e0b9
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], ITDetectTone interface [TAPI 2.2],described, _tapi3_itdetecttone, tapi3.itdetecttone, tapi3if/ITDetectTone
-f1_keywords:
-- tapi3if/ITDetectTone
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITDetectTone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDetectTone
+ - tapi3if/ITDetectTone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITDetectTone
 ---
 
 # ITDetectTone interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITDetectTone</b> interface exposes methods that allow an application to specify the tones and tone characteristics that should cause the TAPI Server to generate a tone event. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-createdetecttoneobject">ITLegacyCallMediaControl2::CreateDetectToneObject</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">ITLegacyCallMediaControl2::DetectTonesByCollection</a> methods create the 
 <b>ITDetectTone</b> interface.
-
 
 ## -inheritance
 
@@ -126,5 +125,5 @@ Sets the frequency of the tone for which the TAPI Server generates a tone event.
 
 </td>
 </tr>
-</table> 
+</table>
 

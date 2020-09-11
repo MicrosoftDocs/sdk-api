@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e
 ms.date: 12/05/2018
 ms.keywords: RasRenameEntry, RasRenameEntry function [RAS], RasRenameEntryA, RasRenameEntryW, _ras_rasrenameentry, ras/RasRenameEntry, ras/RasRenameEntryA, ras/RasRenameEntryW, rras.rasrenameentry
-f1_keywords:
-- ras/RasRenameEntry
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasRenameEntry
-- RasRenameEntryA
-- RasRenameEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasRenameEntryA
+ - ras/RasRenameEntryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasRenameEntry
+ - RasRenameEntryA
+ - RasRenameEntryW
 ---
 
 # RasRenameEntryA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasRenameEntry</b> function changes the name of an entry in a phone book.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -68,11 +64,9 @@ Pointer to a null-terminated string that specifies the full path and file name o
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-
 ### -param arg2 [in]
 
 Pointer to a null-terminated string that specifies an existing entry name.
-
 
 ### -param arg3 [in]
 
@@ -80,10 +74,7 @@ Pointer to a null-terminated string that specifies the new entry name. Before ca
 <b>RasRenameEntry</b>, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasvalidateentrynamea">RasValidateEntryName</a> function to validate the new entry name.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -139,14 +130,8 @@ The phone-book entry does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>RasRenameEntry</b> function allows entry names that would not be accepted by the dial-up networking user interface. The entry names specified in 
@@ -203,9 +188,6 @@ DWORD main (){
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasvalidateentrynamea">RasValidateEntryName</a>
 
 
@@ -215,7 +197,4 @@ DWORD main (){
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

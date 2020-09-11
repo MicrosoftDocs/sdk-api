@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],remove method, IWMPMediaCollection.remove, IWMPMediaCollection::remove, IWMPMediaCollectionremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_remove, wmp/IWMPMediaCollection::remove
-f1_keywords:
-- wmp/IWMPMediaCollection.remove
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPMediaCollection.remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMediaCollection::remove
+ - wmp/IWMPMediaCollection::remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPMediaCollection.remove
 ---
 
 # IWMPMediaCollection::remove
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>remove</b> method removes a specified item from the media collection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pItem [in]
 
 Pointer to an <b>IWMPMedia</b> interface that identifies the item to remove.
 
-
 ### -param varfDeleteFile [in]
 
 Specifies whether the method should remove the specified item.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -94,26 +83,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method deletes an item from the library. This method does not delete files from the user's computer.
 
 Before calling this method, you must have read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
 
@@ -124,7 +101,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-add">IWMPMediaCollection::add</a>
- 
-
- 
 

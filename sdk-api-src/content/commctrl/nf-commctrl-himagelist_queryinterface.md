@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\himagelist_queryinterface.htm
 ms.date: 12/05/2018
 ms.keywords: HIMAGELIST_QueryInterface, HIMAGELIST_QueryInterface function [Windows Controls], _shell_HIMAGELIST_QueryInterface, _shell_HIMAGELIST_QueryInterface_cpp, commctrl/HIMAGELIST_QueryInterface, controls.HIMAGELIST_QueryInterface, controls._shell_HIMAGELIST_QueryInterface
-f1_keywords:
-- commctrl/HIMAGELIST_QueryInterface
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- HIMAGELIST_QueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HIMAGELIST_QueryInterface
+ - commctrl/HIMAGELIST_QueryInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - HIMAGELIST_QueryInterface
 ---
 
 # HIMAGELIST_QueryInterface function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist2">IImageList2</a> object that corresponds to the image list's HIMAGELIST handle.
 
-
 ## -parameters
-
-
-
 
 ### -param himl [in]
 
@@ -64,29 +60,21 @@ Type: <b>HIMAGELIST</b>
 
 The handle to the image list.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 The identifier of the interface being requested. Normally IID_IImageList or IID_IImageList2.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 When this method returns, contains the address of the interface pointer requested in <i>riid</i>. If the object does not support the interface specified in <i>riid</i>, <i>ppv</i> is <b>NULL</b>.
-        
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

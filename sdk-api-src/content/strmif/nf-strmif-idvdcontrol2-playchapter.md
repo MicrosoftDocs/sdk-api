@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b624aa7e-ff88-417c-8536-4ac38e8ae1ca
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapter method, IDvdControl2.PlayChapter, IDvdControl2::PlayChapter, IDvdControl2PlayChapter, PlayChapter, PlayChapter method [DirectShow], PlayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapter, strmif/IDvdControl2::PlayChapter
-f1_keywords:
-- strmif/IDvdControl2.PlayChapter
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.PlayChapter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::PlayChapter
+ - strmif/IDvdControl2::PlayChapter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.PlayChapter
 ---
 
 # IDvdControl2::PlayChapter
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>PlayChapter</code> method starts playback from the specified chapter in the current title.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulChapter [in]
 
 Value that specifies the chapter in the current title where the DVD Navigator will start playback; this value must be from 1 through 999.
 
-
 ### -param dwFlags [in]
 
 Bitwise <b>OR</b> of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
-
 
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -122,14 +110,8 @@ Invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The DVD Navigator begins playback at the specified chapter and continues to the subsequent chapters. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchaptersautostop">IDvdControl2::PlayChaptersAutoStop</a> to play the current chapter only.
 
@@ -149,15 +131,8 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::PlayCha
 <td>DVD_DOMAIN_Title</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -172,7 +147,4 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::PlayCha
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
- 
-
- 
 

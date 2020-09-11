@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 532CE1FB-FDE0-491A-90D2-CC6F45DB7FDF
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserMarshal64, LPSAFEARRAY_UserMarshal64 function [Automation], automat.lpsafearray_usermarshal64, wia_xp/LPSAFEARRAY_UserMarshal64
-f1_keywords:
-- wia_xp/LPSAFEARRAY_UserMarshal64
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- LPSAFEARRAY_UserMarshal64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPSAFEARRAY_UserMarshal64
+ - wia_xp/LPSAFEARRAY_UserMarshal64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - LPSAFEARRAY_UserMarshal64
 ---
 
 # LPSAFEARRAY_UserMarshal64 function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Marshals data from the specified <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side. 
-
+Marshals data from the specified <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side.
 
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 The data used by RPC.
 
-
 ### -param arg2 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry. The function aligns the buffer pointer, marshals the data, and returns the new buffer position, which is the address of the first byte after the marshaled object.
-
 
 ### -param arg3 [in]
 
 The safe array that contains the data to marshal.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -125,7 +116,4 @@ The array could not be locked.
 </td>
 </tr>
 </table>
- 
-
-
 

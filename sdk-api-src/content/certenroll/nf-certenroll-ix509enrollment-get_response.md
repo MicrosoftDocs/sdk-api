@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4580d376-0dbb-4418-a542-b0a9710862c4
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],Response property, IX509Enrollment.Response, IX509Enrollment.get_Response, IX509Enrollment::Response, IX509Enrollment::get_Response, Response property [Security], Response property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Response, certenroll/IX509Enrollment::get_Response, get_Response, security.ix509enrollment_response_property
-f1_keywords:
-- certenroll/IX509Enrollment.Response
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Enrollment.Response
-- IX509Enrollment.get_Response
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Enrollment::get_Response
+ - certenroll/IX509Enrollment::get_Response
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Enrollment.Response
+ - IX509Enrollment.get_Response
 ---
 
 # IX509Enrollment::get_Response
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Response</b> property retrieves the certificate response returned from a certification authority. The response is contained in a byte array that is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard.  The DER-encoded byte array is represented by a string that is  either a pure binary sequence or Unicode encoded.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
- 
-
- 
 

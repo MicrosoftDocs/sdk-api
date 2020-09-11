@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\endropfiles.htm
 ms.date: 12/05/2018
 ms.keywords: ENDROPFILES, ENDROPFILES structure [Windows Controls], _win32_ENDROPFILES_str, _win32_ENDROPFILES_str_cpp, controls.ENDROPFILES, controls._win32_ENDROPFILES_str, richedit/ENDROPFILES
-f1_keywords:
-- richedit/ENDROPFILES
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- ENDROPFILES
 targetos: Windows
 req.typenames: ENDROPFILES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _endropfiles
+ - richedit/_endropfiles
+ - ENDROPFILES
+ - richedit/ENDROPFILES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - ENDROPFILES
 ---
 
 # ENDROPFILES structure
@@ -49,35 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information associated with an <a href="https://msdn.microsoft.com/fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3">EN_DROPFILES</a> notification code. A rich edit control sends this notification code when it receives a <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field nmhdr
 
 Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-Notification header. 
-
+Notification header.
 
 ### -field hDrop
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a></b>
 
-Handle to the dropped files list (same as with <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> ). This handle is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragfinish">DragFinish</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragqueryfilea">DragQueryFile</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragquerypoint">DragQueryPoint</a> functions. 
-
+Handle to the dropped files list (same as with <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> ). This handle is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragfinish">DragFinish</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragqueryfilea">DragQueryFile</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragquerypoint">DragQueryPoint</a> functions.
 
 ### -field cp
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-Character position at which the dropped files would be inserted. 
-
+Character position at which the dropped files would be inserted.
 
 ### -field fProtected
 

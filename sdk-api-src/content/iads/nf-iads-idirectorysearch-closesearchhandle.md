@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: a233c67b-4747-4417-bec8-86b27147863c
 ms.date: 12/05/2018
 ms.keywords: CloseSearchHandle, CloseSearchHandle method [ADSI], CloseSearchHandle method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],CloseSearchHandle method, IDirectorySearch.CloseSearchHandle, IDirectorySearch::CloseSearchHandle, _ds_idirectorysearch_closesearchhandle, adsi.idirectorysearch__closesearchhandle, adsi.idirectorysearch_closesearchhandle, iads/IDirectorySearch::CloseSearchHandle
-f1_keywords:
-- iads/IDirectorySearch.CloseSearchHandle
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-- Adsldp.dll
-- Adsldpc.dll
-api_name:
-- IDirectorySearch.CloseSearchHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectorySearch::CloseSearchHandle
+ - iads/IDirectorySearch::CloseSearchHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+ - Adsldp.dll
+ - Adsldpc.dll
+api_name:
+ - IDirectorySearch.CloseSearchHandle
 ---
 
 # IDirectorySearch::CloseSearchHandle
@@ -51,34 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectorySearch::CloseSearchHandle</b> method closes the handle to a search result and frees the associated memory.
 
-
 ## -parameters
-
-
-
 
 ### -param hSearchResult [in]
 
 Provides a handle to the search result to be closed.
 
-
 ## -returns
-
-
 
 This method returns the standard return values, as well as the following:
 
 For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The process that implements the <b>IDirectorySearch::CloseSearchHandle</b> method must also be responsible for freeing all memory allocated by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">IDirectorySearch::ExecuteSearch</a> method, including the search result and the search result handle.
 
@@ -99,14 +87,7 @@ if ( SUCCEEDED(hr) )
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -117,7 +98,4 @@ if ( SUCCEEDED(hr) )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">IDirectorySearch::ExecuteSearch</a>
- 
-
- 
 

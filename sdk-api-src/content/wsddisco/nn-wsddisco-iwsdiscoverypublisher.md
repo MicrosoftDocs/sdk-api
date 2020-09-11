@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 4fff1328-d315-4a26-b7d8-43a273133e08
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
-f1_keywords:
-- wsddisco/IWSDiscoveryPublisher
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryPublisher
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryPublisher
+ - wsddisco/IWSDiscoveryPublisher
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryPublisher
 ---
 
 # IWSDiscoveryPublisher interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for announcing hosts and managing incoming queries to hosts.
 
 To get this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoverypublisher">WSDCreateDiscoveryPublisher</a>.
-
 
 ## -inheritance
 
@@ -187,25 +186,13 @@ Removes support for a custom scope matching rule.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
  This interface represents the "server" or "host" side of <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WsdApi/overview-of-the-wsdapi-interfaces">Overview of the WSDAPI Interfaces</a>
- 
-
- 
 

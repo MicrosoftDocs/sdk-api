@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c9375b9d-c822-4322-ba6f-967792257672
 ms.date: 12/05/2018
 ms.keywords: DVASPECTINFO, DVASPECTINFO structure [COM], _ole_DVASPECTINFO, com.dvaspectinfo, ocidl/DVASPECTINFO
-f1_keywords:
-- ocidl/DVASPECTINFO
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OCIdl.h
-api_name:
-- DVASPECTINFO
 targetos: Windows
 req.typenames: DVASPECTINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagAspectInfo
+ - ocidl/tagAspectInfo
+ - DVASPECTINFO
+ - ocidl/DVASPECTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OCIdl.h
+api_name:
+ - DVASPECTINFO
 ---
 
 # DVASPECTINFO structure
@@ -49,37 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information that is used by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> method to optimize rendering of an inactive object by making more efficient use of the GDI.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cb
 
 The size of the structure, in bytes.
 
-
 ### -field dwFlags
 
 A value taken from the <a href="/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag">DVASPECTINFOFLAG</a> enumeration.
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag">DVASPECTINFOFLAG</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>
- 
-
- 
 

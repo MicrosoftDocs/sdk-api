@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 3ca27156-ed34-4cac-ba26-edded586272a
 ms.date: 12/05/2018
 ms.keywords: 3ca27156-ed34-4cac-ba26-edded586272a, CurrentInPlaceState property [Tablet PC], CurrentInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInPlaceState property, ITextInputPanel.CurrentInPlaceState, ITextInputPanel.get_CurrentInPlaceState, ITextInputPanel::CurrentInPlaceState, ITextInputPanel::get_CurrentInPlaceState, get_CurrentInPlaceState, peninputpanel/ITextInputPanel::CurrentInPlaceState, peninputpanel/ITextInputPanel::get_CurrentInPlaceState, tablet.itextinputpanel_currentinplacestate
-f1_keywords:
-- peninputpanel/ITextInputPanel.CurrentInPlaceState
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.CurrentInPlaceState
-- ITextInputPanel.get_CurrentInPlaceState
-- ITextInputPanel.get_CurrentInPlaceState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::get_CurrentInPlaceState
+ - peninputpanel/ITextInputPanel::get_CurrentInPlaceState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.CurrentInPlaceState
+ - ITextInputPanel.get_CurrentInPlaceState
+ - ITextInputPanel.get_CurrentInPlaceState
 ---
 
 # ITextInputPanel::get_CurrentInPlaceState
 
 
 ## -description
-
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
@@ -63,13 +63,9 @@ Gets the current in-place state as specified by the <a href="/windows/win32/api/
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 When the Tablet PC Input Panel is closed or hidden, the current in-place state is reset to the default state, unless the default state is <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">Auto</a>, in which case, the current in-place state is reset to <b>Hover</b>.
 
@@ -154,17 +150,7 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
- 
-
- 
 

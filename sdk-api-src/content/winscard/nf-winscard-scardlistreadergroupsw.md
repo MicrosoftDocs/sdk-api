@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: df01fa4b-8053-4d3a-ae2e-66eeb6583225
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardListReaderGroups, SCardListReaderGroups function [Security], SCardListReaderGroupsA, SCardListReaderGroupsW, _smart_scardlistreadergroups, security.scardlistreadergroups, winscard/SCardListReaderGroups, winscard/SCardListReaderGroupsA, winscard/SCardListReaderGroupsW
-f1_keywords:
-- winscard/SCardListReaderGroups
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardListReaderGroups
-- SCardListReaderGroupsA
-- SCardListReaderGroupsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardListReaderGroupsW
+ - winscard/SCardListReaderGroupsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardListReaderGroups
+ - SCardListReaderGroupsA
+ - SCardListReaderGroupsW
 ---
 
 # SCardListReaderGroupsW function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardListReaderGroups</b> function provides the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader groups</a> that have previously been introduced to the system.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a> for the query. The resource manager context can be set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. 
 
 If this parameter is set to <b>NULL</b>, the search for reader groups is not limited to any context.
-
 
 ### -param mszGroups [out]
 
@@ -121,18 +116,13 @@ Unused legacy value. This is an internally managed group that cannot be modified
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcchGroups [in, out]
 
 Length of the <i>mszGroups</i> buffer in characters, and receives the actual length of the multi-string structure, including all trailing <b>null</b> characters. If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>mszGroups</i> is converted to a pointer to a byte pointer, and receives the address of a block of memory containing the multi-string structure. This block of memory must be deallocated with 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>.
 
-
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -165,14 +155,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A group is returned only if it contains at least one <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>. This includes the group <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SCard$DefaultReaders</a>. The group <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SCard$AllReaders</a> cannot be returned, since it only exists implicitly.
 
@@ -228,9 +212,6 @@ else
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
@@ -252,7 +233,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a>
- 
-
- 
 

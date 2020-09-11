@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 763ce5a7-bbad-4dd8-a416-86a96f466510
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetLocalPath method, IAttachmentExecute.SetLocalPath, IAttachmentExecute::SetLocalPath, SetLocalPath, SetLocalPath method [Windows Shell], SetLocalPath method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetLocalPath, shell.IAttachmentExecute_SetLocalPath, shobjidl_core/IAttachmentExecute::SetLocalPath
-f1_keywords:
-- shobjidl_core/IAttachmentExecute.SetLocalPath
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdocvw.dll
-api_name:
-- IAttachmentExecute.SetLocalPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAttachmentExecute::SetLocalPath
+ - shobjidl_core/IAttachmentExecute::SetLocalPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdocvw.dll
+api_name:
+ - IAttachmentExecute.SetLocalPath
 ---
 
 # IAttachmentExecute::SetLocalPath
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets and stores the path to the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pszLocalPath [in]
 
@@ -64,21 +60,13 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a string that contains the local path where the attachment file is to be stored.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Calling <b>IAttachmentExecute::SetLocalPath</b> is required.
 
@@ -86,20 +74,11 @@ When the attachment is approved for execution by the user (either through policy
 
 <b>IAttachmentExecute::SetLocalPath</b> must be called before calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-execute">IAttachmentExecute::Execute</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a>
- 
-
- 
 

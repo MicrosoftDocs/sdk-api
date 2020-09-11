@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: a8a8ce1f-3420-457f-b02a-5dc3e9725a02
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipSet, GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetRelationshipSet method, IOpcPart.GetRelationshipSet, IOpcPart::GetRelationshipSet, msopc/IOpcPart::GetRelationshipSet, opc.iopcpart_getrelationshipset
-f1_keywords:
-- msopc/IOpcPart.GetRelationshipSet
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcPart.GetRelationshipSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcPart::GetRelationshipSet
+ - msopc/IOpcPart::GetRelationshipSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcPart.GetRelationshipSet
 ---
 
 # IOpcPart::GetRelationshipSet
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a relationship set object that represents the Relationships part that stores relationships that have the part as their source.
-
 
 ## -parameters
 
-
-
-
 ### -param relationshipSet [out, retval]
 
-A pointer to a relationship set object that represents the Relationships part  that stores all relationships that have the part as their source. 
-
+A pointer to a relationship set object that represents the Relationships part  that stores all relationships that have the part as their source.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,14 +112,8 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The definitive way to find a part of interest is by using a relationship type to find the relationship that has the part of interest as its target. The target's URI can then be resolved to a part name which is used to access the part.
 
@@ -141,13 +128,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -194,7 +175,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 37f173f3-514e-434b-8531-d308c6233a24
 ms.date: 12/05/2018
 ms.keywords: AddClusterResourceDependency, AddClusterResourceDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY function [Failover Cluster], _wolf_addclusterresourcedependency, clusapi/AddClusterResourceDependency, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, mscs.addclusterresourcedependency
-f1_keywords:
-- clusapi/AddClusterResourceDependency
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- AddClusterResourceDependency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddClusterResourceDependency
+ - clusapi/AddClusterResourceDependency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - AddClusterResourceDependency
 ---
 
 # AddClusterResourceDependency function
@@ -51,30 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> relationship between two 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a>. The <b>PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle to the dependent resource.
-
 
 ### -param hDependsOn [in]
 
 Handle to the resource that the resource identified by <i>hResource</i> should depend 
        on.
 
-
 ## -returns
-
-
 
 If the operation succeeds, it returns <b>ERROR_SUCCESS</b> (0).
 
@@ -161,14 +153,8 @@ The dependent resource is already online.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A dependency relationship created by the 
      <b>AddClusterResourceDependency</b> function 
@@ -197,13 +183,7 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-canresourcebedependent">CanResourceBeDependent</a>
 
@@ -218,7 +198,4 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-removeclusterresourcedependency">RemoveClusterResourceDependency</a>
- 
-
- 
 

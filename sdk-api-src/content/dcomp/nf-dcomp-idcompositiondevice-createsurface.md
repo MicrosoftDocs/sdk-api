@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 3B321BF8-A7A5-4E40-B548-D88CA45F6DAF
 ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionDevice interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice interface [DirectComposition],CreateSurface method, IDCompositionDevice.CreateSurface, IDCompositionDevice::CreateSurface, dcomp/IDCompositionDevice::CreateSurface, directcomp.idcompositiondevice_createsurface
-f1_keywords:
-- dcomp/IDCompositionDevice.CreateSurface
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionDevice.CreateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionDevice::CreateSurface
+ - dcomp/IDCompositionDevice::CreateSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionDevice.CreateSurface
 ---
 
 # IDCompositionDevice::CreateSurface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an updateable surface object that can be associated with one or more visuals for composition.
 
-
 ## -parameters
-
-
-
 
 ### -param width [in]
 
@@ -64,20 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The width of the surface, in pixels.
 
-
 ### -param height [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The height of the surface, in pixels.
 
-
 ### -param pixelFormat [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
 The pixel format of the surface.
-
 
 ### -param alphaMode [in]
 
@@ -122,8 +115,6 @@ The alpha channel should be ignored and the bitmap should be rendered opaquely.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param surface [out]
 
@@ -131,21 +122,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-
 
 The newly created surface object. This parameter must not be NULL.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 A Microsoft DirectComposition surface is a rectangular array of pixels that can be associated with a visual for composition. 
 
@@ -165,19 +148,11 @@ DirectComposition surfaces support the following pixel formats:
 <li><b>DXGI_FORMAT_R16G16B16A16_FLOAT</b></li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createvirtualsurface">IDCompositionDevice::CreateVirtualSurface</a>
- 
-
- 
 

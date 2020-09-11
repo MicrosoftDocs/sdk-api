@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 0bf786b5-efcd-4c58-835b-47e7adf9be63
 ms.date: 12/05/2018
 ms.keywords: ITfPreservedKeyNotifySink, ITfPreservedKeyNotifySink interface [Text Services Framework], ITfPreservedKeyNotifySink interface [Text Services Framework],described, _tsf_itfpreservedkeynotifysink_ref, msctf/ITfPreservedKeyNotifySink, tsf.itfpreservedkeynotifysink
-f1_keywords:
-- msctf/ITfPreservedKeyNotifySink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfPreservedKeyNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfPreservedKeyNotifySink
+ - msctf/ITfPreservedKeyNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfPreservedKeyNotifySink
 ---
 
 # ITfPreservedKeyNotifySink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfPreservedKeyNotifySink</b> interface is implemented by an application or TSF text service to receive notifications when keys are preserved, unpreserved, or when a preserved key description changes. This advise sink is installed by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfPreservedKeyNotifySink.
-
 
 ## -inheritance
 
@@ -77,22 +76,13 @@ Called when a key is preserved, unpreserved, or when a preserved key description
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Preserved keys are keyboard shortcuts that an application or TSF text service can register with the TSF manager.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-preservekey">ITfKeystrokeMgr::PreserveKey
       </a>
@@ -115,7 +105,4 @@ Preserved keys are keyboard shortcuts that an application or TSF text service ca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

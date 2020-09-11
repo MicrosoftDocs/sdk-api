@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 7355F5EB-BC23-42AE-A1F2-3E5582A3156E
 ms.date: 12/05/2018
 ms.keywords: D2D_MATRIX_4X4_F, D2D_MATRIX_4X4_F structure [Direct2D], dcommon/D2D_MATRIX_4X4_F, direct2d.d2d_matrix_4x4_f
-f1_keywords:
-- dcommon/D2D_MATRIX_4X4_F
-dev_langs:
-- c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dcommon.h
-api_name:
-- D2D_MATRIX_4X4_F
 targetos: Windows
 req.typenames: D2D_MATRIX_4X4_F
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D_MATRIX_4X4_F
+ - dcommon/D2D_MATRIX_4X4_F
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dcommon.h
+api_name:
+ - D2D_MATRIX_4X4_F
 ---
 
 # D2D_MATRIX_4X4_F structure
@@ -49,128 +50,67 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a 4-by-4 floating point matrix.
-
 
 ## -struct-fields
 
-
-
-
 ### -field _11
-
- 
-
 
 ### -field _12
 
- 
-
-
 ### -field _13
-
- 
-
 
 ### -field _14
 
- 
-
-
 ### -field _21
-
- 
-
 
 ### -field _22
 
- 
-
-
 ### -field _23
-
- 
-
 
 ### -field _24
 
- 
-
-
 ### -field _31
-
- 
-
 
 ### -field _32
 
- 
-
-
 ### -field _33
-
- 
-
 
 ### -field _34
 
- 
-
-
 ### -field _41
-
- 
-
 
 ### -field _42
 
- 
-
-
 ### -field _43
 
- 
-
-
 ### -field _44
-
- 
-
 
 ### -field m
 
 A 4-by-4 floating point array that describes the matrix.
 
-
 ### -field _11, _12, _13, _14
 
  The values in the first row and first, second, third, and fourth columns of the matrix.
-
 
 ### -field _21, _22, _23, _24
 
 The values in the second row  and first, second, third, and fourth columns of the matrix.
 
-
 ### -field _31, _32, _33, _34
 
 The values in the third row  and first, second, third, and fourth columns of the matrix.
-
 
 ### -field _41, _42, _43, _44
 
 The value in the fourth row  and first, second, third, and fourth columns of the matrix.
 
-
 ## -remarks
-
-
 
 The <b>D2D1_MATRIX_4X4_F</b> structure is type defined from a <b>D2D_MATRIX_4X4_F</b> structure in D2d1_1.h.
 
 <pre class="syntax" xml:space="preserve"><code>
 typedef D2D_MATRIX_4X4_F D2D1_MATRIX_4X4_F;
 </code></pre>
-
 

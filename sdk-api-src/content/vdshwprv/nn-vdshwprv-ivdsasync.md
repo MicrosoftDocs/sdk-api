@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7814b8ef-84b4-453e-b480-c32b67e5af93
 ms.date: 12/05/2018
 ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],described, base.ivdsasync, vds/IVdsAsync, vdshwprv/IVdsAsync
-f1_keywords:
-- vdshwprv/IVdsAsync
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsAsync
+ - vdshwprv/IVdsAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsAsync
 ---
 
 # IVdsAsync interface
@@ -50,14 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Manages asynchronous 
    operations. Methods that initiate asynchronous operations return a pointer to an 
    <b>IVdsAsync</b> interface, allowing the caller to optionally 
    cancel, wait for, or query the status of the asynchronous operation.
-
 
 ## -inheritance
 
@@ -101,13 +100,9 @@ Returns when the asynchronous operation has either finished successfully or fail
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/helper-objects">Helper Objects</a>
 
@@ -122,7 +117,4 @@ Returns when the asynchronous operation has either finished successfully or fail
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

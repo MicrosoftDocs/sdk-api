@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: a990544e-6600-44b1-91f2-8b88fa43ccaf
 ms.date: 12/05/2018
 ms.keywords: AcceptParentalLevelChange, AcceptParentalLevelChange method [DirectShow], AcceptParentalLevelChange method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],AcceptParentalLevelChange method, IDvdControl2.AcceptParentalLevelChange, IDvdControl2::AcceptParentalLevelChange, IDvdControl2AcceptParentalLevelChange, dshow.idvdcontrol2_acceptparentallevelchange, strmif/IDvdControl2::AcceptParentalLevelChange
-f1_keywords:
-- strmif/IDvdControl2.AcceptParentalLevelChange
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.AcceptParentalLevelChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::AcceptParentalLevelChange
+ - strmif/IDvdControl2::AcceptParentalLevelChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.AcceptParentalLevelChange
 ---
 
 # IDvdControl2::AcceptParentalLevelChange
@@ -50,35 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>AcceptParentalLevelChange</code> method accepts or rejects a request from the DVD Navigator to play content at a higher parental management level.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bAccept [in]
 
 Flag that indicates whether the application accepts the parental management level change. Specify <b>TRUE</b> to accept the change and play the higher-level content, or <b>FALSE</b> to reject the change.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful, or an error code otherwise.
 
-
-
-
 ## -remarks
-
-
 
 A temporary parental management level (PML) command is a marker on the DVD disc indicating that the content that follows has a PML higher than the level specified for the title as a whole. This marker also contains instructions on where to branch depending on whether the change is accepted or rejected. If you specify <b>FALSE</b>, the DVD Navigator follows the rejected branch on the disc. If you specify <b>TRUE</b>, the DVD Navigator follows the branch to the higher-level content.
 
@@ -98,15 +83,8 @@ The following table shows the Annex J command name to which this method name cor
 <td>All</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -121,7 +99,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
 

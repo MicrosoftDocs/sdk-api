@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclasslongptr.htm
 ms.date: 12/05/2018
 ms.keywords: GCLP_ HBRBACKGROUND, GCLP_HCURSOR, GCLP_HICON, GCLP_HICONSM, GCLP_HMODULE, GCLP_MENUNAME, GCLP_WNDPROC, GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_STYLE, SetClassLongPtr, SetClassLongPtr function [Windows and Messages], SetClassLongPtrA, SetClassLongPtrW, _win32_SetClassLongPtr, _win32_setclasslongptr_cpp, winmsg.setclasslongptr, winui._win32_setclasslongptr, winuser/SetClassLongPtr, winuser/SetClassLongPtrA, winuser/SetClassLongPtrW
-f1_keywords:
-- winuser/SetClassLongPtr
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-WindowClass-l1-1-2.dll
-api_name:
-- SetClassLongPtr
-- SetClassLongPtrA
-- SetClassLongPtrW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetClassLongPtrA
+ - winuser/SetClassLongPtrA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-WindowClass-l1-1-2.dll
+api_name:
+ - SetClassLongPtr
+ - SetClassLongPtrA
+ - SetClassLongPtrW
 ---
 
 # SetClassLongPtrA function
@@ -52,23 +53,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the specified value at the specified offset in the extra class memory or the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure for the class to which the specified window belongs. <div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit Windows, use <b>SetClassLongPtr</b>. When compiling for 32-bit Windows, <b>SetClassLongPtr</b> is defined as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a> function</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window and, indirectly, the class to which the window belongs. 
-
+A handle to the window and, indirectly, the class to which the window belongs.
 
 ### -param nIndex [in]
 
@@ -193,32 +187,22 @@ Replaces the pointer to the window procedure associated with the class.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwNewLong [in]
 
 Type: <b>LONG_PTR</b>
 
-The replacement value. 
-
+The replacement value.
 
 ## -returns
-
-
 
 Type: <b>ULONG_PTR</b>
 
 If the function succeeds, the return value is the previous value of the specified offset. If this was not previously set, the return value is zero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If you use the <b>SetClassLongPtr</b> function and the <b>GCLP_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> callback function. 
 
@@ -237,9 +221,6 @@ Use the <b>SetClassLongPtr</b> function with care. For example, it is possible t
 > The winuser.h header defines SetClassLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -270,7 +251,4 @@ Use the <b>SetClassLongPtr</b> function with care. For example, it is possible t
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
- 
-
- 
 

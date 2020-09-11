@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: bd2a49c1-8e18-4a14-a797-07f2b9c25812
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], ITraceDataProvider interface [PLA],described, base.itracedataprovider, pla.itracedataprovider, pla/ITraceDataProvider
-f1_keywords:
-- pla/ITraceDataProvider
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- ITraceDataProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceDataProvider
+ - pla/ITraceDataProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - ITraceDataProvider
 ---
 
 # ITraceDataProvider interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a trace provider to enable in the trace session.
 
 To get this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-createtracedataprovider">ITraceDataProviderCollection::CreateTraceDataProvider</a> method.
 
 You can also use XML to define the provider. For more information, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>.
-
 
 ## -inheritance
 
@@ -270,31 +269,19 @@ Retrieves the list of extended data that the provider provides.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If you want to retrieve only the display name or GUID of a specific provider or  retrieve only the list of processes registered as that provider, you can get this interface by calling the <b>CoCreateInstance</b> function and passing __uuidof(TraceDataProvider) as the class identifier and __uuidof(ITraceDataProvider) as the interface identifier. To create the object from a script for this purpose, use the Pla.TraceDataProvider program identifier. 
 
 Do not use the <b>CoCreateInstance</b> function if you are going to add the interface to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a> collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_tracedataproviders">ITraceDataCollector::TraceDataProviders</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
- 
-
- 
 

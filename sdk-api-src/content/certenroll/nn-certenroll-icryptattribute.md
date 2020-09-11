@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2aefde1b-0f77-4a88-8851-5bacd363900b
 ms.date: 12/05/2018
 ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], ICryptAttribute interface [Security],described, certenroll/ICryptAttribute, security.icryptattribute
-f1_keywords:
-- certenroll/ICryptAttribute
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICryptAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICryptAttribute
+ - certenroll/ICryptAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICryptAttribute
 ---
 
 # ICryptAttribute interface
 
 
 ## -description
-
 
 The <b>ICryptAttribute</b> interface represents a cryptographic attribute in a certificate request. A collection of these attributes is contained in the  <b>CertificateRequestInfo</b> structure of a  PKCS #10 request as shown by the following example syntax.
 <pre class="syntax" xml:space="preserve"><code>
@@ -92,8 +92,6 @@ AttributeSetValue ::= SET OF ANY
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributerenewalcertificate">IX509AttributeRenewalCertificate</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -160,13 +158,9 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
@@ -185,7 +179,4 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
 

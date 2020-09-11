@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12LifetimeOwner::LifetimeStateUpdated"]
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeOwner::LifetimeStateUpdated
-f1_keywords:
-- d3d12/ID3D12LifetimeOwner.LifetimeStateUpdated
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +23,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12LifetimeOwner::LifetimeStateUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12LifetimeOwner::LifetimeStateUpdated
+ - d3d12/ID3D12LifetimeOwner::LifetimeStateUpdated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12LifetimeOwner::LifetimeStateUpdated
 ---
 
 ## -description
@@ -56,3 +57,4 @@ The new state.
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7a6185cd-fae5-4ee6-b403-c7613b31e48a
 ms.date: 12/05/2018
 ms.keywords: CAType, CCertServerExit object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerExit object, GetCertificateProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateProperty method, ICertServerExit.GetCertificateProperty, ICertServerExit::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawCertificate, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, SanitizedCAName, SanitizedShortName, SerialNumber, _certsrv_icertserverexit_getcertificateproperty, certif/ICertServerExit::GetCertificateProperty, fUseDS, security.icertserverexit_getcertificateproperty
-f1_keywords:
-- certif/ICertServerExit.GetCertificateProperty
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerExit.GetCertificateProperty
-- CCertServerExit.GetCertificateProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerExit::GetCertificateProperty
+ - certif/ICertServerExit::GetCertificateProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerExit.GetCertificateProperty
+ - CCertServerExit.GetCertificateProperty
 ---
 
 # ICertServerExit::GetCertificateProperty
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCertificateProperty</b> method returns a named property from a certificate.
 
-
 ## -parameters
-
-
-
 
 ### -param strPropertyName [in]
 
@@ -395,8 +391,6 @@ Indicates whether the requester is authorized to request the certificate. This c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyType [in]
 
@@ -448,17 +442,12 @@ Binary data
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [out]
 
 A pointer to a <b>VARIANT</b> that will contain the property value. The returned value is encoded as a <b>BSTR</b>. Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysstringbytelen">SysStringByteLen</a> function to retrieve the length of the <b>BSTR</b>.  The binary <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> is stored as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a>  encoded X.509 certificate.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -468,12 +457,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is the requested property value.
 
-
-
-
 ## -remarks
-
-
 
 You must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> prior to using this method.
@@ -513,14 +497,7 @@ if (NULL != bstrPropName)
 VariantClear(&varProp);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
@@ -531,7 +508,4 @@ VariantClear(&varProp);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
- 
-
- 
 

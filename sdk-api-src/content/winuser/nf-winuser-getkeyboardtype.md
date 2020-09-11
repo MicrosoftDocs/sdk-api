@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: 39b9ba8b-0cab-465c-9a58-2b69eea7de76
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardType, GetKeyboardType function [Keyboard and Mouse Input], _win32_getkeyboardtype, base.getkeyboardtype, inputdev.getkeyboardtype, winui.getkeyboardtype, winuser/GetKeyboardType
-f1_keywords:
-- winuser/GetKeyboardType
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-1-0.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-1-1.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-1-2.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
-api_name:
-- GetKeyboardType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetKeyboardType
+ - winuser/GetKeyboardType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-1-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-1-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-1-2.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+api_name:
+ - GetKeyboardType
 ---
 
 # GetKeyboardType function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the current keyboard.
 
-
 ## -parameters
-
-
-
 
 ### -param nTypeFlag [in]
 
@@ -109,12 +105,8 @@ The number of function keys on the keyboard
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -123,12 +115,7 @@ If the function succeeds, the return value specifies the requested information.
 If the function fails and <i>nTypeFlag</i> is not one, the return value is zero; zero is a valid return value when <i>nTypeFlag</i> is one (keyboard subtype). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The type may be one of the following values.
 
@@ -294,16 +281,7 @@ Hardware dependent and specified by the OEM
 
 When a single USB keyboard is connected to the computer, this function returns the code 81.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input-functions">Keyboard Input Functions</a>
- 
-
- 
 

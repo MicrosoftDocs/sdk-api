@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4f70daf0-57f2-47d8-93ce-133e0b714388
 ms.date: 12/05/2018
 ms.keywords: BizRuleLanguage property [Security], BizRuleLanguage property [Security],IAzApplicationGroup2 interface, IAzApplicationGroup2 interface [Security],BizRuleLanguage property, IAzApplicationGroup2.BizRuleLanguage, IAzApplicationGroup2.get_BizRuleLanguage, IAzApplicationGroup2::BizRuleLanguage, IAzApplicationGroup2::get_BizRuleLanguage, IAzApplicationGroup2::put_BizRuleLanguage, azroles/IAzApplicationGroup2::BizRuleLanguage, azroles/IAzApplicationGroup2::get_BizRuleLanguage, azroles/IAzApplicationGroup2::put_BizRuleLanguage, get_BizRuleLanguage, security.iazapplicationgroup2_bizrulelanguage_method
-f1_keywords:
-- azroles/IAzApplicationGroup2.BizRuleLanguage
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.h
-api_name:
-- IAzApplicationGroup2.BizRuleLanguage
-- IAzApplicationGroup2.get_BizRuleLanguage
-- IAzApplicationGroup2.put_BizRuleLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroup2::get_BizRuleLanguage
+ - azroles/IAzApplicationGroup2::get_BizRuleLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.h
+api_name:
+ - IAzApplicationGroup2.BizRuleLanguage
+ - IAzApplicationGroup2.get_BizRuleLanguage
+ - IAzApplicationGroup2.put_BizRuleLanguage
 ---
 
 # IAzApplicationGroup2::get_BizRuleLanguage
@@ -51,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b> BizRuleLanguage</b> method gets or sets the programming language of the business rule script associated with this application group. The value of this property can be   either "VBScript" or "JScript".   
 
 This property is read/write.
-
 
 ## -parameters
 

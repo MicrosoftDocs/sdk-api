@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 0379f8f4-9761-4216-b4d5-5752b6dc33a5
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfPublishedName, SetupGetInfPublishedName function [Device and Driver Installation], SetupGetInfPublishedNameA, SetupGetInfPublishedNameW, devinst.setupgetinfpublishedname, setup-ref_c380d9fc-bc1c-4302-ba2b-b0bb7fde8d87.xml, setupapi/SetupGetInfPublishedName
-f1_keywords:
-- setupapi/SetupGetInfPublishedName
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupGetInfPublishedName
-- SetupGetInfPublishedNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupGetInfPublishedNameW
+ - setupapi/SetupGetInfPublishedNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupGetInfPublishedName
+ - SetupGetInfPublishedNameW
 ---
 
 # SetupGetInfPublishedNameW function
@@ -51,49 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-inf-files">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
-
 
 ## -parameters
 
-
-
-
 ### -param DriverStoreLocation [in]
 
-A pointer to a NULL-terminated string that contains the fully qualified file name (directory path and file name) of an INF file in the driver store. Alternatively, this parameter is a pointer to a NULL-terminated string that contains the name, and optionally the full directory path, of an INF file in the system INF file directory. For more information about how to specify the INF file, see the following <b>Remarks</b> section. 
-
+A pointer to a NULL-terminated string that contains the fully qualified file name (directory path and file name) of an INF file in the driver store. Alternatively, this parameter is a pointer to a NULL-terminated string that contains the name, and optionally the full directory path, of an INF file in the system INF file directory. For more information about how to specify the INF file, see the following <b>Remarks</b> section.
 
 ### -param ReturnBuffer [out]
 
 A pointer to the buffer in which <b>SetupGetInfPublishedName</b> returns a NULL-terminated string that contains the fully qualified file name of the specified INF file in the system INF directory. The maximum path size is MAX_PATH. This pointer can be set to <b>NULL</b>. For information about how to determine the required size of the return buffer, see the following <b>Remarks</b> section.
 
-
 ### -param ReturnBufferSize [in]
 
 The size, in characters, of the buffer supplied by <i>ReturnBuffer</i>.
 
-
 ### -param RequiredSize [out, optional]
 
-A pointer to a DWORD-typed variable that receives the size, in characters, of the <i>ReturnBuffer</i> buffer. This parameter is optional and can be set to <b>NULL</b>. 
-
+A pointer to a DWORD-typed variable that receives the size, in characters, of the <i>ReturnBuffer</i> buffer. This parameter is optional and can be set to <b>NULL</b>.
 
 ## -returns
 
-
-
 If <b>SetupGetInfPublishedName</b> succeeds, the function returns <b>TRUE</b>; otherwise, the function returns <b>FALSE</b>. To obtain extended error information, call <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a>.
 
-If the size, in characters, of the fully qualified file name of the requested INF file, including a null-terminator, is greater than <i>ReturnBufferSize</i>, the function will fail, and a call to <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. 
-
-
-
+If the size, in characters, of the fully qualified file name of the requested INF file, including a null-terminator, is greater than <i>ReturnBufferSize</i>, the function will fail, and a call to <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER.
 
 ## -remarks
-
-
 
 To determine the size of the return buffer that is required to contain the fully qualified file name of the specified INF file in the system INF directory, call <b>SetupGetInfPublishedName</b> and set <i>ReturnBuffer</i> to <b>NULL</b>, <i>ReturnBufferSize</i> to zero, and supply <i>RequiredSize</i>. <b>SetupGetInfPublishedName</b> will return the required buffer size in <i>RequiredSize</i>.
 
@@ -112,11 +97,5 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-set
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfdriverstorelocationa">SetupGetInfDriverStoreLocation</a>
- 
-
- 
 

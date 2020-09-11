@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e73bccb8-ca4d-4007-bdf3-1194ede5fdd1
 ms.date: 12/05/2018
 ms.keywords: PolicyServerUrlFlags, PolicyServerUrlFlags enumeration [Security], PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/PolicyServerUrlFlags, certenroll/PsfAllowUnTrustedCA, certenroll/PsfAutoEnrollmentEnabled, certenroll/PsfLocationGroupPolicy, certenroll/PsfLocationRegistry, certenroll/PsfNone, certenroll/PsfUseClientId, security.policyserverurlflags
-f1_keywords:
-- certenroll/PolicyServerUrlFlags
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Certenroll.h
-api_name:
-- PolicyServerUrlFlags
 targetos: Windows
 req.typenames: PolicyServerUrlFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PolicyServerUrlFlags
+ - certenroll/PolicyServerUrlFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Certenroll.h
+api_name:
+ - PolicyServerUrlFlags
 ---
 
 # PolicyServerUrlFlags enumeration
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PolicyServerUrlFlags</b> enumeration contains certificate enrollment policy (CEP) server flags. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PsfNone
 
 No flags are specified.
 
-
 ### -field PsfLocationGroupPolicy
 
 Policy information is specified in group policy by an administrator.
 
-
 ### -field PsfLocationRegistry
 
 Policy information is specified in the registry.
-
 
 ### -field PsfUseClientId
 
@@ -79,28 +72,19 @@ Specifies that certificate enrollments and renewals include client specific data
 
 This flag has been included to address privacy concerns that can arise during enrollment to servers that are managed by administrators other than those who manage the forest in which the user resides. By not setting this flag, you can prevent sending personal information to non-local administrators.
 
-
 ### -field PsfAutoEnrollmentEnabled
 
 Automatic certificate enrollment is enabled.
-
 
 ### -field PsfAllowUnTrustedCA
 
 Specifies that the certificate of the issuing CA need not be trusted by the client to install a certificate signed by the CA.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a>
- 
-
- 
 

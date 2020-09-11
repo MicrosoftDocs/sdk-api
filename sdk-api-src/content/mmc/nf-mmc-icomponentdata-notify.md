@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 8679396e-23d0-4418-987a-c72b1508e7b9
 ms.date: 12/05/2018
 ms.keywords: IComponentData interface [MMC],Notify method, IComponentData.Notify, IComponentData::Notify, Notify, Notify method [MMC], Notify method [MMC],IComponentData interface, _slate_icomponentdata_notify, mmc.icomponentdata_notify, mmc/IComponentData::Notify
-f1_keywords:
-- mmc/IComponentData.Notify
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IComponentData.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentData::Notify
+ - mmc/IComponentData::Notify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IComponentData.Notify
 ---
 
 # IComponentData::Notify
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IComponentData::Notify</b> method notifies the snap-in of actions performed by the user.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDataObject [in]
 
 A pointer to the data object of the currently selected item.
-
 
 ### -param event [in]
 
@@ -98,40 +93,23 @@ Identifies an action taken by a user. <b>IComponentData::Notify</b> can receive 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-rename">MMCN_RENAME</a>
 
-
-
 ### -param arg [in]
 
 Depends on the notification type.
-
 
 ### -param param [in]
 
 Depends on the notification type.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 For more information, see the individual notifications. The snap-in should return <b>S_FALSE</b> for any notification it does not handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
@@ -142,7 +120,4 @@ For more information, see the individual notifications. The snap-in should retur
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: a2853259-4fc5-47e7-a77e-0ea4024ee00c
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method, Configure method,IWPCProviderConfig interface, IWPCProviderConfig interface,Configure method, IWPCProviderConfig.Configure, IWPCProviderConfig::Configure, parcon.iwpcproviderconfig_configure, wpcapi/IWPCProviderConfig::Configure
-f1_keywords:
-- wpcapi/IWPCProviderConfig.Configure
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCProviderConfig.Configure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCProviderConfig::Configure
+ - wpcapi/IWPCProviderConfig::Configure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCProviderConfig.Configure
 ---
 
 # IWPCProviderConfig::Configure
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called for the current provider when you click a user tile in the Parental Controls Control Panel. This method allows for changes to the configuration.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 A handle to the parent window.
 
-
 ### -param bstrSID [in]
 
 A string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the user to configure.
 
-
 ## -returns
-
-
 
 If the method succeeds, the method returns <b>S_OK</b>.
 
@@ -93,18 +85,8 @@ Allows the provider to not handle the configuration user interface and instead t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderconfig">IWPCProviderConfig</a>
- 
-
- 
 

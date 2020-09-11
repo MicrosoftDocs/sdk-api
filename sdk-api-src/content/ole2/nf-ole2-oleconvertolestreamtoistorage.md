@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 8fed879c-5f97-4450-8259-da9643dd828c
 ms.date: 12/05/2018
 ms.keywords: OleConvertOLESTREAMToIStorage, OleConvertOLESTREAMToIStorage function [Structured Storage], _stg_oleconvertolestreamtoistorage, ole2/OleConvertOLESTREAMToIStorage, stg.oleconvertolestreamtoistorage
-f1_keywords:
-- ole2/OleConvertOLESTREAMToIStorage
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- OleConvertOLESTREAMToIStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleConvertOLESTREAMToIStorage
+ - ole2/OleConvertOLESTREAMToIStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - OleConvertOLESTREAMToIStorage
 ---
 
 # OleConvertOLESTREAMToIStorage function
@@ -49,45 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>OleConvertOLESTREAMToIStorage</b> function converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object without specifying presentation data.
 <div class="alert"><b>Note</b>  This is one of several compatibility functions.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpolestream [in]
 
 A pointer to a stream that contains the persistent representation of the object in the OLE 1 storage format.
-
 
 ### -param pstg [out]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the OLE 2 structured storage object.
 
-
 ### -param ptd [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure that specifies the target device for which the OLE 1 object is rendered.
 
-
 ## -returns
-
-
 
 This function supports the standard return value <b>E_INVALIDARG</b>, in addition to the following:
 
-
-
-
 ## -remarks
-
-
 
 This function converts an OLE 1 object to an OLE 2 structured storage object. Use this function to update OLE 1 objects to OLE 2 objects when a new version of the object application supports OLE 2.
 
@@ -129,12 +116,7 @@ hRes = OleLoad(pStgChild, &IID_IOleObject, pClientSite, ppvObj);
 <li>Repeat Step 3 until the file is completely read.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
 
@@ -161,7 +143,4 @@ hRes = OleLoad(pStgChild, &IID_IOleObject, pClientSite, ppvObj);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a>
- 
-
- 
 

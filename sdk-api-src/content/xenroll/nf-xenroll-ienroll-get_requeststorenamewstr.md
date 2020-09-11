@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4ad739c0-fcf7-435b-b427-96ecca1afab7
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RequestStoreNameWStr property, IEnroll.RequestStoreNameWStr, IEnroll.get_RequestStoreNameWStr, IEnroll4 interface [Security],RequestStoreNameWStr property, IEnroll4.RequestStoreNameWStr, IEnroll4::get_RequestStoreNameWStr, IEnroll4::put_RequestStoreNameWStr, IEnroll::RequestStoreNameWStr, IEnroll::get_RequestStoreNameWStr, IEnroll::put_RequestStoreNameWStr, RequestStoreNameWStr property [Security], RequestStoreNameWStr property [Security],IEnroll interface, RequestStoreNameWStr property [Security],IEnroll4 interface, get_RequestStoreNameWStr, put_RequestStoreNameWStr, security.ienroll4_requeststorenamewstr, xenroll/IEnroll4::RequestStoreNameWStr, xenroll/IEnroll4::get_RequestStoreNameWStr, xenroll/IEnroll4::put_RequestStoreNameWStr, xenroll/IEnroll::RequestStoreNameWStr, xenroll/IEnroll::get_RequestStoreNameWStr, xenroll/IEnroll::put_RequestStoreNameWStr
-f1_keywords:
-- xenroll/IEnroll.RequestStoreNameWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.RequestStoreNameWStr
-- IEnroll.get_RequestStoreNameWStr
-- IEnroll.put_RequestStoreNameWStr
-- IEnroll4.RequestStoreNameWStr
-- IEnroll4.get_RequestStoreNameWStr
-- IEnroll4.put_RequestStoreNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_RequestStoreNameWStr
+ - xenroll/IEnroll::get_RequestStoreNameWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.RequestStoreNameWStr
+ - IEnroll.get_RequestStoreNameWStr
+ - IEnroll.put_RequestStoreNameWStr
+ - IEnroll4.RequestStoreNameWStr
+ - IEnroll4.get_RequestStoreNameWStr
+ - IEnroll4.put_RequestStoreNameWStr
 ---
 
 # IEnroll::get_RequestStoreNameWStr
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -67,13 +67,9 @@ This property was first defined in the <a href="https://docs.microsoft.com/windo
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Typically, modification of the <b>RequestStoreNameWStr</b> property is  performed only in advanced applications. Changing this value is not recommended for most applications.
 
@@ -95,21 +91,11 @@ The <b>RequestStoreNameWStr</b> property affects the behavior of the following m
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
- 
-
- 
 

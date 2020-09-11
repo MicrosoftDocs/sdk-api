@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2c200aae-dbc5-487c-a3a4-e8dcf50bc0f9
 ms.date: 12/05/2018
 ms.keywords: GetQuotaLimitText, GetQuotaLimitText method [Files], GetQuotaLimitText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaLimitText method, IDiskQuotaUser.GetQuotaLimitText, IDiskQuotaUser::GetQuotaLimitText, _win32_idiskquotauser_getquotalimittext, base.idiskquotauser_getquotalimittext, dskquota/IDiskQuotaUser::GetQuotaLimitText, fs.idiskquotauser_getquotalimittext
-f1_keywords:
-- dskquota/IDiskQuotaUser.GetQuotaLimitText
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.GetQuotaLimitText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::GetQuotaLimitText
+ - dskquota/IDiskQuotaUser::GetQuotaLimitText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.GetQuotaLimitText
 ---
 
 # IDiskQuotaUser::GetQuotaLimitText
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user's quota limit for the volume. This limit is expressed as a text string, for example "10.5 MB". If the user has no quota limit, the string returned is "No Limit" (localized). If the destination buffer is too small, the string is truncated to fit the buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param pszText [out]
 
 The text string.
 
-
 ### -param cchText [in]
 
 The size of the buffer, in characters.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -157,15 +149,8 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
@@ -176,7 +161,4 @@ An unexpected exception occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
 

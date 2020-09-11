@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 9ba799a7-0088-4939-9665-ce96074c6448
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgrtraplisten, mgmtapi/SnmpMgrTrapListen, snmp.snmpmgrtraplisten
-f1_keywords:
-- mgmtapi/SnmpMgrTrapListen
-dev_langs:
-- c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mgmtapi.lib
 req.dll: Mgmtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mgmtapi.dll
-api_name:
-- SnmpMgrTrapListen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpMgrTrapListen
+ - mgmtapi/SnmpMgrTrapListen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mgmtapi.dll
+api_name:
+ - SnmpMgrTrapListen
 ---
 
 # SnmpMgrTrapListen function
@@ -49,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpMgrTrapListen</b> function registers the ability of an SNMP manager application to receive SNMP traps from the SNMP Trap Service. This function is an element of the SNMP Management API.
 
-
 ## -parameters
-
-
-
 
 ### -param phTrapAvailable [out]
 
 Pointer to an event handle to receive an indication that there are traps available, and that the application should call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrgettrap">SnmpMgrGetTrap</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -119,12 +112,7 @@ Indicates one or more errors occurred; traps are not accessible. The application
 
 This function may return other system errors as well.
 
-
-
-
 ## -remarks
-
-
 
 It is important to note that for users who are not administrators, the 
 <b>SnmpMgrTrapListen</b> function succeeds only if the SNMP trap service has been started.
@@ -143,13 +131,7 @@ The application can also poll the
 <b>SnmpMgrClose</b> from its 
 <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> entry-point function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
@@ -160,7 +142,4 @@ The application can also poll the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrgettrap">SnmpMgrGetTrap</a>
- 
-
- 
 

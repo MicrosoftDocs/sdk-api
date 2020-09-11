@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 90302283-BB0A-44A9-8CD2-591571EF74ED
 ms.date: 12/05/2018
 ms.keywords: GetMatrixTransform, GetMatrixTransform method [DXGI], GetMatrixTransform method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMatrixTransform method, IDXGISwapChain2.GetMatrixTransform, IDXGISwapChain2::GetMatrixTransform, direct3ddxgi.idxgiswapchain2_getmatrixtransform, dxgi1_3/IDXGISwapChain2::GetMatrixTransform
-f1_keywords:
-- dxgi1_3/IDXGISwapChain2.GetMatrixTransform
-dev_langs:
-- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxgi.lib
-- dxgi.dll
-api_name:
-- IDXGISwapChain2.GetMatrixTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISwapChain2::GetMatrixTransform
+ - dxgi1_3/IDXGISwapChain2::GetMatrixTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxgi.lib
+ - dxgi.dll
+api_name:
+ - IDXGISwapChain2.GetMatrixTransform
 ---
 
 ## -description
@@ -73,3 +74,4 @@ The transform matrix currently used for swap chain scaling and translation.
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmatrixtransform">SetMatrixTransform</a>
+

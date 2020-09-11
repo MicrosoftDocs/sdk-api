@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: be3ffa3f-b343-4e38-8b1e-aeccf35d92b8
 ms.date: 12/05/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, GetDIBits, GetDIBits function [Windows GDI], _win32_GetDIBits, gdi.getdibits, wingdi/GetDIBits
-f1_keywords:
-- wingdi/GetDIBits
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-0.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- GetDIBits
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDIBits
+ - wingdi/GetDIBits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-0.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - GetDIBits
 ---
 
 # GetDIBits function
@@ -54,44 +55,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDIBits</b> function retrieves the bits of the specified compatible bitmap and copies them into a buffer as a DIB using the specified format.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param hbm [in]
 
 A handle to the bitmap. This must be a compatible bitmap (DDB).
-
 
 ### -param start [in]
 
 The first scan line to retrieve.
 
-
 ### -param cLines [in]
 
 The number of scan lines to retrieve.
-
 
 ### -param lpvBits [out]
 
 A pointer to a buffer to receive the bitmap data. If this parameter is <b>NULL</b>, the function passes the dimensions and format of the bitmap to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure pointed to by the <i>lpbi</i> parameter.
 
-
 ### -param lpbmi [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that specifies the desired format for the DIB data.
-
 
 ### -param usage [in]
 
@@ -123,12 +113,8 @@ The color table should consist of literal red, green, blue (RGB) values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the <i>lpvBits</i> parameter is non-<b>NULL</b> and the function succeeds, the return value is the number of scan lines copied from the bitmap.
 
@@ -155,14 +141,8 @@ One or more of the input parameters is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the requested format for the DIB matches its internal format, the RGB values for the bitmap are copied. If the requested format doesn't match the internal format, a color table is synthesized. The following table describes the color table synthesized for each format.
 
@@ -209,12 +189,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capt
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a>
 
@@ -237,7 +212,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
- 
-
- 
 

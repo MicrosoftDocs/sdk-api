@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 56111cc0-94c8-47dc-a3bb-ffc5dae772fe
 ms.date: 12/05/2018
 ms.keywords: HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpSetRequestQueueProperty, HttpSetRequestQueueProperty function [HTTP], http.httpsetrequestqueueproperty, http/HttpSetRequestQueueProperty
-f1_keywords:
-- http/HttpSetRequestQueueProperty
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpSetRequestQueueProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpSetRequestQueueProperty
+ - http/HttpSetRequestQueueProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpSetRequestQueueProperty
 ---
 
 # HttpSetRequestQueueProperty function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpSetRequestQueueProperty</b> function sets a new property or modifies an existing property on the request queue identified by the specified handle.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
 The handle to the request queue on which the property is set. A request queue is created and its handle returned by a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
-
 
 ### -param Property [in]
 
@@ -105,8 +100,6 @@ Modifies or sets the  state of the request queue. The state must be either activ
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyInformation [in]
 
@@ -132,29 +125,20 @@ A pointer to the buffer that contains the property information.
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_503_response_verbosity">HTTP_503_RESPONSE_VERBOSITY</a> enumeration</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param PropertyInformationLength [in]
 
 The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
 
-
 ### -param Reserved1 [in]
 
 Reserved. Must be zero.
-
 
 ### -param Reserved2 [in]
 
 Reserved. Must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>.
 
@@ -196,15 +180,8 @@ The handle to the request queue is an HTTP version 1.0 handle. Property manageme
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
@@ -223,7 +200,4 @@ The handle to the request queue is an HTTP version 1.0 handle. Property manageme
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
- 
-
- 
 

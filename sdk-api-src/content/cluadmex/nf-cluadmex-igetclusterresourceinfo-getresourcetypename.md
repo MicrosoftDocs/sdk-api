@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: c7154163-0ab9-4766-99be-31457a0efc17
 ms.date: 12/05/2018
 ms.keywords: GetResourceTypeName, GetResourceTypeName method [Failover Cluster], GetResourceTypeName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceTypeName method, IGetClusterResourceInfo.GetResourceTypeName, IGetClusterResourceInfo::GetResourceTypeName, _wolf_igetclusterresourceinfo_getresourcetypename, cluadmex/IGetClusterResourceInfo::GetResourceTypeName, mscs.igetclusterresourceinfo_getresourcetypename
-f1_keywords:
-- cluadmex/IGetClusterResourceInfo.GetResourceTypeName
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IGetClusterResourceInfo.GetResourceTypeName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetClusterResourceInfo::GetResourceTypeName
+ - cluadmex/IGetClusterResourceInfo::GetResourceTypeName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IGetClusterResourceInfo.GetResourceTypeName
 ---
 
 # IGetClusterResourceInfo::GetResourceTypeName
@@ -49,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
 Returns the type of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lObjIndex [in]
 
 A number representing the zero-based index of the target resource. <i>lObjIndex</i> is 
        restricted to the number that can be retrieved by calling 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
-
 
 ### -param lpszResTypeName [out]
 
@@ -76,7 +71,6 @@ Pointer to the type of the resource associated with <i>lObjIndex</i>. The
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. Although declared as a 
        <b>BSTR</b>, this parameter is implemented as an <b>LPWSTR</b>.
 
-
 ### -param pcchResTypeName [in, out]
 
 On input, pointer to the count of characters in the buffer pointed to by the 
@@ -85,10 +79,7 @@ On input, pointer to the count of characters in the buffer pointed to by the
        name stored in the content of <i>lpResTypeName</i>, including the 
        <b>NULL</b>-terminating character.
 
-
 ## -returns
-
-
 
 If <b>GetResourceTypeName</b> 
        is not successful, it can return other <b>HRESULT</b> values.
@@ -138,22 +129,12 @@ The buffer pointed to by <i>lpResTypeName</i> is too small to hold the requested
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>
- 
-
- 
 

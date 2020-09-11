@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: f26eb44a-e0c4-418b-b849-d38d85ef236a
 ms.date: 12/05/2018
 ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQueryAsync method, IWbemServices.ExecNotificationQueryAsync, IWbemServices::ExecNotificationQueryAsync, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_execnotificationqueryasync, wbemcli/IWbemServices::ExecNotificationQueryAsync, wmi.iwbemservices_execnotificationqueryasync
-f1_keywords:
-- wbemcli/IWbemServices.ExecNotificationQueryAsync
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,33 +25,38 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-- Esscli.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Ntevt.dll
-- Stdprov.dll
-- Viewprov.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wbemsvc.dll
-- Wmipicmp.dll
-- Wmidcprv.dll
-- Wmipjobj.dll
-- Wmiprvsd.dll
-api_name:
-- IWbemServices.ExecNotificationQueryAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemServices::ExecNotificationQueryAsync
+ - wbemcli/IWbemServices::ExecNotificationQueryAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+ - Esscli.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Ntevt.dll
+ - Stdprov.dll
+ - Viewprov.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wbemsvc.dll
+ - Wmipicmp.dll
+ - Wmidcprv.dll
+ - Wmipjobj.dll
+ - Wmiprvsd.dll
+api_name:
+ - IWbemServices.ExecNotificationQueryAsync
 ---
 
 # IWbemServices::ExecNotificationQueryAsync
@@ -63,27 +64,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemServices::ExecNotificationQueryAsync</b> method performs the same task as 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationquery">IWbemServices::ExecNotificationQuery</a> except that events are supplied to the specified response handler until 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">CancelAsyncCall</a> is called to stop the event notification.
 
-
 ## -parameters
-
-
-
 
 ### -param strQueryLanguage [in]
 
 Valid <b>BSTR</b> that contains one of the query languages supported by Windows Management. This must be "WQL".
 
-
 ### -param strQuery [in]
 
 Valid <b>BSTR</b> that contains the text of the event-related query. This cannot be <b>NULL</b>. For more information on building WMI query strings, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a> and the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a> reference.
-
 
 ### -param lFlags [in]
 
@@ -96,13 +90,11 @@ This parameter can be the following value.
 This flag registers with Windows Management a request to receive intermediate status reports through the client's implementation of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
 
-
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider that is returning the requested events. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
-
 
 ### -param pResponseHandler [in]
 
@@ -115,10 +107,7 @@ Pointer to the caller's implementation of
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For a detailed explanation of this parameter, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
@@ -128,12 +117,7 @@ Other error codes are returned to the object sink specified by the <i>pResponseH
 
 COM-specific error codes also can be returned if network problems cause you to lose the remote connection to Windows Management.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
@@ -145,13 +129,7 @@ For more information about using methods semisynchronously, see <a href="https:/
 
 There are limits to the number of <b>AND</b> and <b>OR</b> keywords that can be used in WQL queries.  Large numbers of WQL keywords used in a complex query can cause WMI to return the <b>WBEM_E_QUOTA_VIOLATION</b> error code as an <b>HRESULT</b> value.  The limit of WQL keywords depends on how complex the query is.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
@@ -170,7 +148,4 @@ There are limits to the number of <b>AND</b> and <b>OR</b> keywords that can be 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-events-for-the-duration-of-your-application">Receiving Events for the Duration of your Application</a>
- 
-
- 
 

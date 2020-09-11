@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 8e73d2a9-c776-4661-81ab-84b7cf037cbd
 ms.date: 12/05/2018
 ms.keywords: WNetGetUser, WNetGetUser function [Windows Networking (WNet)], WNetGetUserA, WNetGetUserW, _win32_wnetgetuser, winnetwk/WNetGetUser, winnetwk/WNetGetUserA, winnetwk/WNetGetUserW, wnet.wnetgetuser
-f1_keywords:
-- winnetwk/WNetGetUser
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetGetUser
-- WNetGetUserA
-- WNetGetUserW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetGetUserA
+ - winnetwk/WNetGetUserA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetUser
+ - WNetGetUserA
+ - WNetGetUserW
 ---
 
 # WNetGetUserA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetGetUser</b> function retrieves the current default user name, or the user name used to establish a network connection.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
@@ -67,20 +63,15 @@ A pointer to a constant <b>null</b>-terminated string that specifies either the 
 
 If this parameter is <b>NULL</b> or the empty string, the system returns the name of the current user for the process.
 
-
 ### -param lpUserName [out]
 
 A pointer to a buffer that receives the <b>null</b>-terminated user name.
-
 
 ### -param lpnLength [in, out]
 
 A pointer to a variable that specifies the size of the <i>lpUserName</i> buffer, in characters. If the call fails because the buffer is not large enough, this variable contains the required buffer size.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -149,14 +140,8 @@ None of the providers recognize the local name as having a connection. However, 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WNetGetUser</b> function is not aware of shares on the Distributed File System (DFS). If the name specified by the <i>lpName</i> parameter is a local device  redirected to a DFS share or a remote resource that represents a DFS share, the <b>WNetGetUser</b> function fails with ERROR_NOT_CONNECTED.
 
@@ -225,9 +210,6 @@ int wmain(int argc, wchar_t * argv[])
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WNet/retrieving-the-user-name">Retrieving the User Name</a>
 
 
@@ -243,7 +225,4 @@ int wmain(int argc, wchar_t * argv[])
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

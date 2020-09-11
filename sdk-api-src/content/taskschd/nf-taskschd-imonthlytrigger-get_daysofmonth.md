@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 851668bf-1ee7-47e0-add6-95eb0387a56c
 ms.date: 12/05/2018
 ms.keywords: DaysOfMonth property [Task Scheduler], DaysOfMonth property [Task Scheduler],IMonthlyTrigger interface, IMonthlyTrigger interface [Task Scheduler],DaysOfMonth property, IMonthlyTrigger.DaysOfMonth, IMonthlyTrigger.get_DaysOfMonth, IMonthlyTrigger::DaysOfMonth, IMonthlyTrigger::get_DaysOfMonth, IMonthlyTrigger::put_DaysOfMonth, get_DaysOfMonth, taskschd.imonthlytrigger_daysofmonth, taskschd/IMonthlyTrigger::DaysOfMonth, taskschd/IMonthlyTrigger::get_DaysOfMonth, taskschd/IMonthlyTrigger::put_DaysOfMonth
-f1_keywords:
-- taskschd/IMonthlyTrigger.DaysOfMonth
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IMonthlyTrigger.DaysOfMonth
-- IMonthlyTrigger.get_DaysOfMonth
-- IMonthlyTrigger.put_DaysOfMonth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMonthlyTrigger::get_DaysOfMonth
+ - taskschd/IMonthlyTrigger::get_DaysOfMonth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IMonthlyTrigger.DaysOfMonth
+ - IMonthlyTrigger.get_DaysOfMonth
+ - IMonthlyTrigger.put_DaysOfMonth
 ---
 
 # IMonthlyTrigger::get_DaysOfMonth
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the days of the month during which the task runs.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 <table>
 <tr>
@@ -238,20 +233,11 @@ This property is read/write.
 
 When reading or writing your own XML for a task, the days of the month are specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-daysofmonth-monthlyscheduletype-element">DaysOfMonth</a> element of the Task Scheduler schema.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger">IMonthlyTrigger</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

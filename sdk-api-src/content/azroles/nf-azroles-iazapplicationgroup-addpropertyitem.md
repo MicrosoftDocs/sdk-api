@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7a7a11ad-42f9-4d3f-8d55-6e8b3e1bea7e
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzApplicationGroup object, AddPropertyItem method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddPropertyItem method, IAzApplicationGroup interface [Security],AddPropertyItem method, IAzApplicationGroup.AddPropertyItem, IAzApplicationGroup::AddPropertyItem, azroles/IAzApplicationGroup::AddPropertyItem, security.iazapplicationgroup_addpropertyitem
-f1_keywords:
-- azroles/IAzApplicationGroup.AddPropertyItem
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplicationGroup.AddPropertyItem
-- AzApplicationGroup.AddPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroup::AddPropertyItem
+ - azroles/IAzApplicationGroup::AddPropertyItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplicationGroup.AddPropertyItem
+ - AzApplicationGroup.AddPropertyItem
 ---
 
 # IAzApplicationGroup::AddPropertyItem
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddPropertyItem</b> method adds the specified entity to the specified list.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -129,24 +125,16 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varProp
 
 TBD
 
-
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -remarks
 
-
-
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
-
-
 

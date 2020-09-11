@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 00eca370-a2c6-4f5c-94a9-7d7e4334ccd5
 ms.date: 12/05/2018
 ms.keywords: CreatePropertySheetPages, CreatePropertySheetPages method [Failover Cluster], CreatePropertySheetPages method [Failover Cluster],IWEExtendPropertySheet interface, IWEExtendPropertySheet interface [Failover Cluster],CreatePropertySheetPages method, IWEExtendPropertySheet.CreatePropertySheetPages, IWEExtendPropertySheet::CreatePropertySheetPages, _wolf_iweextendpropertysheet_createpropertysheetpages, cluadmex/IWEExtendPropertySheet::CreatePropertySheetPages, mscs.iweextendpropertysheet_createpropertysheetpages
-f1_keywords:
-- cluadmex/IWEExtendPropertySheet.CreatePropertySheetPages
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWEExtendPropertySheet.CreatePropertySheetPages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWEExtendPropertySheet::CreatePropertySheetPages
+ - cluadmex/IWEExtendPropertySheet::CreatePropertySheetPages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWEExtendPropertySheet.CreatePropertySheetPages
 ---
 
 # IWEExtendPropertySheet::CreatePropertySheetPages
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates property pages for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster object</a> and 
     adds them to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> 
     property sheet.
 
-
 ## -parameters
 
-
-
-
 ### -param piData [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information relating to the new 
        property pages. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method with the 
@@ -105,10 +100,7 @@ Depending on the type of <a href="https://docs.microsoft.com/previous-versions/w
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcpropertysheetcallback">IWCPropertySheetCallback</a> 
        interface implementation for adding property pages to the Cluster Administrator property sheet.
 
-
 ## -returns
-
-
 
 Return one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
@@ -155,15 +147,8 @@ The extension does not support adding property pages.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> calls 
      an extension's 
@@ -197,12 +182,7 @@ To create the page, call the function
        method pointed to by <i>piCallback</i>.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterdatainfo">IGetClusterDataInfo</a>
 
@@ -245,7 +225,4 @@ To create the page, call the function
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendpropertysheet">IWEExtendPropertySheet</a>
- 
-
- 
 

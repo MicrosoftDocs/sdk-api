@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: aea20c9d-4042-426a-abdf-51ebddf017aa
 ms.date: 12/05/2018
 ms.keywords: MethodContext, MethodContext class [Windows Management Instrumentation], MethodContext class [Windows Management Instrumentation],described, methodco/MethodContext, wmi.methodcontext
-f1_keywords:
-- methodco/MethodContext
-dev_langs:
-- c++
 req.header: methodco.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MethodCo.h
-api_name:
-- MethodContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MethodContext
+ - methodco/MethodContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MethodCo.h
+api_name:
+ - MethodContext
 ---
 
 # MethodContext class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>MethodContext</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -85,25 +85,13 @@ Sets an internal pointer to <a href="https://docs.microsoft.com/windows/desktop/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for this class is <b>MethodContext::~MethodContext</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
- 
-
- 
 

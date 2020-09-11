@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 39e692a6-fb68-447f-bd28-8d216776157a
 ms.date: 12/05/2018
 ms.keywords: INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], INSNetSourceCreator interface [windows Media Format],described, INSNetSourceCreatorInterface, wmformat.insnetsourcecreator, wmnetsourcecreator/INSNetSourceCreator
-f1_keywords:
-- wmnetsourcecreator/INSNetSourceCreator
-dev_langs:
-- c++
 req.header: wmnetsourcecreator.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmnetsourcecreator.h
-api_name:
-- INSNetSourceCreator
-- INSNetSourceCreator.CreateNetSource
-- INSNetSourceCreator.GetNetSourceProperties
-- INSNetSourceCreator.GetNetSourceSharedNamespace
-- INSNetSourceCreator.GetNumProtocolsSupported
-- INSNetSourceCreator.GetProtocolName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INSNetSourceCreator
+ - wmnetsourcecreator/INSNetSourceCreator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmnetsourcecreator.h
+api_name:
+ - INSNetSourceCreator
+ - INSNetSourceCreator.CreateNetSource
+ - INSNetSourceCreator.GetNetSourceProperties
+ - INSNetSourceCreator.GetNetSourceSharedNamespace
+ - INSNetSourceCreator.GetNumProtocolsSupported
+ - INSNetSourceCreator.GetProtocolName
 ---
 
 # INSNetSourceCreator interface
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>INSNetSourceCreator</b> interface creates an administrative network source <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">plug-in</a>. You can use an administrative network source plug-in to cache passwords and to locate the appropriate proxy server to use for Internet operations.
 
 To get a pointer to the <b>INSNetSourceCreator</b> interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with <b>CLSID_ClientNetManager</b> as the <i>REFCLSID</i> parameter.
-
-
-
 
 ## -inheritance
 
@@ -140,16 +136,9 @@ Shuts down the network source creator.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

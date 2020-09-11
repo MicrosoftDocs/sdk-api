@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 258E16B2-B6E8-44BB-8073-B1BEDD4FA86A
 ms.date: 12/05/2018
 ms.keywords: FSCTL_USN_TRACK_MODIFIED_RANGES, FSCTL_USN_TRACK_MODIFIED_RANGES control, FSCTL_USN_TRACK_MODIFIED_RANGES control code [Files], fs.fsctl_usn_track_modified_ranges, winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES
-f1_keywords:
-- winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_USN_TRACK_MODIFIED_RANGES
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_USN_TRACK_MODIFIED_RANGES
+ - winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_USN_TRACK_MODIFIED_RANGES
 ---
 
 # FSCTL_USN_TRACK_MODIFIED_RANGES IOCTL
+
 
 ## -description
 
@@ -62,26 +64,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -90,7 +85,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -110,7 +104,7 @@ In the preceding string, X is the letter identifying the drive on which the volu
 
 where *X* is the drive letter of the volume.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+

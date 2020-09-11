@@ -7,10 +7,6 @@ helpviewer_keywords: ["operator>="]
 ms.assetid: 2f5c43c9-68d5-41f8-a672-ef26d02dadb6
 ms.date: 05/20/2019
 ms.keywords: operator>=
-f1_keywords:
-- chstring/operator>=
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - operator>=
+ - chstring/operator>=
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- operator>=
+ - operator>=
 ---
 
 # operator>=
+
 
 ## -description
 
@@ -68,6 +70,7 @@ If the strings meet the comparison condition, the operators return a nonzero val
 Otherwise, 0 is returned.
 
 ## -remarks
+
 #### Examples
 
 The following code example shows the use of a **CHString** Comparison Operator:
@@ -82,3 +85,4 @@ assert( s1 >= s2 );
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+

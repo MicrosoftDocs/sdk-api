@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f1c29688-3538-40ff-a1da-6211cc5dded7
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize, IFileDialogCustomize interface [Windows Shell], IFileDialogCustomize interface [Windows Shell],described, shell.IFileDialogCustomize, shell_IFileDialogCustomize, shobjidl_core/IFileDialogCustomize
-f1_keywords:
-- shobjidl_core/IFileDialogCustomize
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileDialogCustomize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileDialogCustomize
+ - shobjidl_core/IFileDialogCustomize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileDialogCustomize
 ---
 
 # IFileDialogCustomize interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow an application to add controls to a common file dialog.
-
 
 ## -inheritance
 
@@ -311,12 +310,9 @@ Declares a visual group in the dialog. Subsequent calls to any "add" method add 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 
@@ -327,6 +323,4 @@ Controls are added to the dialog before the dialog is shown. Their layout is imp
 Container controls are controls that can have items added to them. Container controls include combo boxes, menus, the drop-down list attached to the <b>Open</b> button, and any option button groups. The order that items appear in a container is the order in which they were added. There is no facility for reordering them. IDs are scoped to the parent control. Container controls, with the exception of menus, have a selected item.
 
 Items with a container control cannot be changed after they have been created, except for their enabled and visible states. However, they can be added and removed at any time. For example, if you needed to change the text of a menu, you would have to remove the current menu and add another with the correct text.
-
-
 

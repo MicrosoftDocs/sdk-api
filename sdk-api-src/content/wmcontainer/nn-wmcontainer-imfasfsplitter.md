@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602
 ms.date: 12/05/2018
 ms.keywords: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], IMFASFSplitter interface [Media Foundation],described, mf.imfasfsplitter, wmcontainer/IMFASFSplitter
-f1_keywords:
-- wmcontainer/IMFASFSplitter
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFSplitter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFSplitter
+ - wmcontainer/IMFASFSplitter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFSplitter
 ---
 
 # IMFASFSplitter interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods to read data from an Advanced Systems Format (ASF) file. The ASF splitter object exposes this interface. To create the ASF splitter, <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfsplitter">MFCreateASFSplitter</a>.
-
 
 ## -inheritance
 
@@ -150,29 +149,17 @@ Sets option flags on the ASF splitter.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The ASF splitter accepts ASF packets and extracts the samples for individual streams from them. As with the other ASF base components, the ASF splitter object must be initialized with data from an ASF ContentInfo object before use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

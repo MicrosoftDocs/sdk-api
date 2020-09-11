@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 77c1ef9a-9b76-433d-9654-fefb195a0f59
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChangeUnits, IEnumSyncChangeUnits interface [Windows Sync], IEnumSyncChangeUnits interface [Windows Sync],described, winsync.ienumsyncchangeunits, winsync/IEnumSyncChangeUnits
-f1_keywords:
-- winsync/IEnumSyncChangeUnits
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumSyncChangeUnits
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncChangeUnits
+ - winsync/IEnumSyncChangeUnits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumSyncChangeUnits
 ---
 
 # IEnumSyncChangeUnits interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates a list of change units.
-
-
 
 ## -inheritance
 
@@ -109,16 +107,9 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 927c449b-1d38-4449-a1fd-63fb82c0d660
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetDocString method, ICreateTypeInfo.SetDocString, ICreateTypeInfo::SetDocString, SetDocString, SetDocString method [Automation], SetDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetDocString, automat.icreatetypeinfo_setdocstring, oaidl/ICreateTypeInfo::SetDocString
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetDocString
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetDocString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetDocString
+ - oaidl/ICreateTypeInfo::SetDocString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetDocString
 ---
 
 # ICreateTypeInfo::SetDocString
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
  Sets the documentation string displayed by type browsers.
 
-
 ## -parameters
-
-
-
 
 ### -param pStrDoc [in]
 
 A brief description of the type description.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -135,18 +128,8 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
 

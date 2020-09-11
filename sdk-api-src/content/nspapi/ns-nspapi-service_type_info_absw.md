@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 9adf92b0-1268-48c1-91e4-d05ad696ff06
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, SERVICE_TYPE_INFO_ABS, SERVICE_TYPE_INFO_ABS structure [Winsock], SERVICE_TYPE_INFO_ABSA, SERVICE_TYPE_INFO_ABSW, _win32_service_type_info_abs_2, nspapi/SERVICE_TYPE_INFO_ABS, nspapi/SERVICE_TYPE_INFO_ABSA, nspapi/SERVICE_TYPE_INFO_ABSW, winsock.service_type_info_abs_2'
-f1_keywords:
-- nspapi/SERVICE_TYPE_INFO_ABS
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Nspapi.h
-api_name:
-- SERVICE_TYPE_INFO_ABS
-- SERVICE_TYPE_INFO_ABSA
-- SERVICE_TYPE_INFO_ABSW
 targetos: Windows
 req.typenames: SERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, *LPSERVICE_TYPE_INFO_ABSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_TYPE_INFO_ABSW
+ - nspapi/_SERVICE_TYPE_INFO_ABSW
+ - PSERVICE_TYPE_INFO_ABSW
+ - nspapi/PSERVICE_TYPE_INFO_ABSW
+ - SERVICE_TYPE_INFO_ABSW
+ - nspapi/SERVICE_TYPE_INFO_ABSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Nspapi.h
+api_name:
+ - SERVICE_TYPE_INFO_ABS
+ - SERVICE_TYPE_INFO_ABSA
+ - SERVICE_TYPE_INFO_ABSW
 ---
 
 # SERVICE_TYPE_INFO_ABSW structure
@@ -51,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SERVICE_TYPE_INFO_ABS</b> structure contains information about a network service type. Use <b>SERVICE_TYPE_INFO_ABS</b> to add a network service type to a namespace.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lpTypeName
 
@@ -67,12 +67,10 @@ Pointer to a zero-terminated string that is the name of the network service type
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-gettypebynamea">GetTypeByName</a> and 
 <b>GetNameByType</b> functions.
 
-
 ### -field dwValueCount
 
 Number of 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures in the <b>Values</b> member array that follows <b>dwValueCount</b>.
-
 
 ### -field Values
 
@@ -87,10 +85,7 @@ Each of these structures contains information about a service type value that th
 The information in these structures may be specific to a namespace. For example, if a network service uses the SAP namespace, but does not have a <b>GUID</b> that contains the SAP identifier (SAPID), it defines the SAPID in a 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structure.
 
-
 ## -remarks
-
-
 
 When you use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, the 
@@ -108,9 +103,6 @@ When you use the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
@@ -120,7 +112,4 @@ When you use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
- 
-
- 
 

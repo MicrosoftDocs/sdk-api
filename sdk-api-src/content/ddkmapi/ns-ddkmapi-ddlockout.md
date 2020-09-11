@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: b6046c49-828d-4b92-aab7-e872e1905929
 ms.date: 12/05/2018
 ms.keywords: '*LPDDLOCKOUT, DDLOCKOUT, DDLOCKOUT structure [Display Devices], LPDDLOCKOUT, LPDDLOCKOUT structure pointer [Display Devices], ddkmapi/DDLOCKOUT, ddkmapi/LPDDLOCKOUT, ddstrcts_7125d1f6-8fc5-460b-bc11-089053f77b83.xml, display.ddlockout'
-f1_keywords:
-- ddkmapi/DDLOCKOUT
-dev_langs:
-- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddkmapi.h
-api_name:
-- DDLOCKOUT
 targetos: Windows
 req.typenames: DDLOCKOUT, *LPDDLOCKOUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDLOCKOUT
+ - ddkmapi/_DDLOCKOUT
+ - LPDDLOCKOUT
+ - ddkmapi/LPDDLOCKOUT
+ - DDLOCKOUT
+ - ddkmapi/DDLOCKOUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddkmapi.h
+api_name:
+ - DDLOCKOUT
 ---
 
 # DDLOCKOUT structure
@@ -49,37 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDLOCKOUT structure contains a description of the surface. 
-
+The DDLOCKOUT structure contains a description of the surface.
 
 ## -struct-fields
-
-
-
 
 ### -field ddRVal
 
 Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550695(v=vs.85)">DD_DXAPI_LOCK</a> operations. A return code of DD_OK indicates success.
 
-
 ### -field dwSurfHeight
-
 
 ### -field dwSurfWidth
 
 Specify the dimensions of the surface, in pixels.
 
-
 ### -field lSurfPitch
 
 Specifies the distance, in bytes, to the start of the next line.
 
-
 ### -field lpSurface
 
 Points to the surface memory.
-
 
 ### -field SurfaceCaps
 
@@ -371,8 +366,6 @@ This surface is the z-buffer. The z-buffer contains information that cannot be d
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFormatFlags
 
@@ -574,60 +567,44 @@ The surface is in RGBZ format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFormatFourCC
 
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> code. For more information about FOURCC codes, see the DirectX SDK documentation.
 
-
 ### -field dwFormatBitCount
 
 Specifies the number of bits per pixel (4, 8, 16, 24, or 32) of the RGB or YUV data.
-
 
 ### -field dwRBitMask
 
 Specifies the mask for red bits.
 
-
 ### -field dwYBitMask
 
 Specifies the mask for Y bits.
-
 
 ### -field dwGBitMask
 
 Specifies the mask for green bits.
 
-
 ### -field dwUBitMask
 
 Specifies the mask for U bits.
-
 
 ### -field dwBBitMask
 
 Specifies the mask for blue bits.
 
-
 ### -field dwVBitMask
 
 Specifies the mask for V bits.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550695(v=vs.85)">DD_DXAPI_LOCK</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
- 
-
- 
 

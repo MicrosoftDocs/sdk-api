@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 2c390cbb-3bff-4850-9496-8991c112c233
 ms.date: 12/05/2018
 ms.keywords: CLRES_V1_FUNCTION_TABLE, CLRES_V1_FUNCTION_TABLE macro [Failover Cluster], _wolf_clres_v1_function_table, mscs.clres_v1_function_table, resapi/CLRES_V1_FUNCTION_TABLE
-f1_keywords:
-- resapi/CLRES_V1_FUNCTION_TABLE
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ResApi.h
-api_name:
-- CLRES_V1_FUNCTION_TABLE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLRES_V1_FUNCTION_TABLE
+ - resapi/CLRES_V1_FUNCTION_TABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ResApi.h
+api_name:
+ - CLRES_V1_FUNCTION_TABLE
 ---
 
 # CLRES_V1_FUNCTION_TABLE macro
@@ -49,55 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a 
     function table for version 1.0 of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param _Name
 
 Label for the function table.
 
-
 ### -param _Version
 
 Defines the exact version, such as <b>CLRES_VERSION_V1_00</b>.
-
 
 ### -param _Prefix
 
 Prefix to be appended to the front of each of the names of the entry points in the function table.
 
-
 ### -param _Arbitrate
 
 Name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a> entry point.
-
 
 ### -param _Release
 
 Name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-prelease_routine">Release</a> entry point.
 
-
 ### -param _ResControl
 
 Name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-presource_control_routine">ResourceControl</a> entry point.
-
 
 ### -param _ResTypeControl
 
 Name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-presource_type_control_routine">ResourceTypeControl</a> entry 
        point.
 
-
 ## -remarks
-
-
 
 The <b>CLRES_V1_FUNCTION_TABLE</b> macro creates a 
      function table for version 1.0 of the 
@@ -200,12 +187,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/d
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a>
 
@@ -228,7 +210,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/d
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-presource_type_control_routine">ResourceTypeControl</a>
- 
-
- 
 

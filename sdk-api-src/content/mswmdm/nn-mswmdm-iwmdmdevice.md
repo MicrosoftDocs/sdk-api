@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 44212da9-a38a-4ed5-86af-cf60b40bb54d
 ms.date: 12/05/2018
 ms.keywords: IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], IWMDMDevice interface [windows Media Device Manager],described, IWMDMDeviceInterface, mswmdm/IWMDMDevice, wmdm.iwmdmdevice
-f1_keywords:
-- mswmdm/IWMDMDevice
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDevice
+ - mswmdm/IWMDMDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMDevice
 ---
 
 # IWMDMDevice interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDMDevice</b> interface provides methods to examine and explore a single portable device. The interface can be used to get information about a device and enumerate its storages. <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2</a> extends the capabilities of this interface.
-
-
-
 
 ## -inheritance
 
@@ -170,13 +166,9 @@ Sends a device-specific command to the device through Windows Media Device Manag
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
 
@@ -187,7 +179,4 @@ Sends a device-specific command to the device through Windows Media Device Manag
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

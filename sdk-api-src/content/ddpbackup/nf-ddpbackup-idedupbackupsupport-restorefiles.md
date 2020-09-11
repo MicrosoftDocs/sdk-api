@@ -8,10 +8,6 @@ tech.root: dedup
 ms.assetid: CFBB0B59-2869-4A30-8F2F-A473372B1E68
 ms.date: 12/05/2018
 ms.keywords: DDP_E_FILE_CORRUPT, DDP_E_FILE_SYSTEM_CORRUPT, DDP_E_INVALID_DATA, DDP_E_JOB_COMPLETED_PARTIAL_SUCCESS, DDP_E_NOT_FOUND, DDP_E_PATH_NOT_FOUND, DDP_E_UNEXPECTED, DDP_E_VOLUME_DEDUP_DISABLED, DDP_E_VOLUME_UNSUPPORTED, IDedupBackupSupport interface [Data Deduplication API],RestoreFiles method, IDedupBackupSupport.RestoreFiles, IDedupBackupSupport::RestoreFiles, RestoreFiles, RestoreFiles method [Data Deduplication API], RestoreFiles method [Data Deduplication API],IDedupBackupSupport interface, S_FALSE, S_OK, ddpbackup/IDedupBackupSupport::RestoreFiles, dedup.idedupbackupsupport_restorefile, dedup.idedupbackupsupport_restorefiles
-f1_keywords:
-- ddpbackup/IDedupBackupSupport.RestoreFiles
-dev_langs:
-- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DdpBackup.h
-api_name:
-- IDedupBackupSupport.RestoreFiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDedupBackupSupport::RestoreFiles
+ - ddpbackup/IDedupBackupSupport::RestoreFiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DdpBackup.h
+api_name:
+ - IDedupBackupSupport.RestoreFiles
 ---
 
 # IDedupBackupSupport::RestoreFiles
 
 
 ## -description
-
 
 Reconstructs a set of files from a backup store that contains the fully optimized version of the files 
      (reparse points) and the Data Deduplication store.
@@ -71,30 +71,22 @@ After calling this method, applications can expect to receive two calls to
     <b>ReadBackupFile</b> that is directed 
     to a container file.
 
-
 ## -parameters
-
-
-
 
 ### -param NumberOfFiles [in]
 
 The number of files to restore. If this exceeds 10,000 then the method will fail with 
       <b>E_INVALIDARG</b> (0x80070057).
 
-
 ### -param FileFullPaths [in]
 
 For each file, this parameter contains the full path from the root directory of the volume to the reparse 
       point previously restored by the application.
 
-
 ### -param Store [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a> interface pointer 
       for the backup store. This parameter is required and cannot be <b>NULL</b>.
-
 
 ### -param Flags [in]
 
@@ -102,7 +94,6 @@ This parameter must be <b>DEDUP_RECONSTRUCT_UNOPTIMIZED</b> on input. For more
       information, see the 
       <a href="/windows/win32/api/ddpbackup/ne-ddpbackup-dedup_backup_support_param_type">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a> 
        enumeration.
-
 
 ### -param FileResults [out]
 
@@ -181,10 +172,7 @@ The specified volume type is not supported. Deduplication is supported on fixed,
 
 <b>Windows Server 2012:  </b>This value is not supported before Windows Server 2012 R2.
 
-
 ## -returns
-
-
 
 This method can return standard <b>HRESULT</b> values, such as 
        <b>S_OK</b>. It can also return converted 
@@ -198,25 +186,14 @@ This method can return standard <b>HRESULT</b> values, such as
 If no file was restored successfully, the result is the first file error encountered. This will be one of the 
        "DDP_E_<i>XXX</i>" error codes above.
 
-
-
-
 ## -remarks
-
-
 
 The <i>Store</i> parameter is required because the restore engine (implemented by Data 
     Deduplication) can read data from the backup media only by calling the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-readbackupfile">IDedupReadFileCallback::ReadBackupFile</a> 
     method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/ddpbackup/ne-ddpbackup-dedup_backup_support_param_type">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a>
 
@@ -227,7 +204,4 @@ The <i>Store</i> parameter is required because the restore engine (implemented b
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
- 
-
- 
 

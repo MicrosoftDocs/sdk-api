@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 3ac1a32d-89a2-45e4-9dcb-b2aea5195489
 ms.date: 12/05/2018
 ms.keywords: CPS_CANCEL, CPS_COMPLETE, CPS_CONVERT, CPS_REVERT, ImmNotifyIME, ImmNotifyIME function [Internationalization for Windows Applications], NI_CHANGECANDIDATELIST, NI_CLOSECANDIDATE, NI_COMPOSITIONSTR, NI_IMEMENUSELECTED, NI_OPENCANDIDATE, NI_SELECTCANDIDATESTR, NI_SETCANDIDATE_PAGESIZE, NI_SETCANDIDATE_PAGESTART, _win32_ImmNotifyIME, imm/ImmNotifyIME, intl.immnotifyime
-f1_keywords:
-- imm/ImmNotifyIME
-dev_langs:
-- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-- Ext-MS-Win-imm-l1-1-0.dll
-- ext-ms-win-imm-l1-1-1.dll
-api_name:
-- ImmNotifyIME
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmNotifyIME
+ - imm/ImmNotifyIME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+ - Ext-MS-Win-imm-l1-1-0.dll
+ - ext-ms-win-imm-l1-1-1.dll
+api_name:
+ - ImmNotifyIME
 ---
 
 # ImmNotifyIME function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the IME about changes to the status of the input context.
 
-
 ## -parameters
-
-
-
 
 ### -param HIMC [in]
 
 Handle to the input context.
-
 
 ### -param dwAction [in]
 
@@ -155,8 +150,6 @@ The application changes the page starting index of a candidate list. The <i>dwIn
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwIndex [in]
 
@@ -208,27 +201,16 @@ Cancel the current composition string and set the composition string to be the u
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwValue [in]
 
 Index of a candidate string. The application can set this parameter or ignore it, depending on the value of the <i>dwAction</i> parameter.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful, or 0 otherwise.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a>
 
@@ -243,7 +225,4 @@ Returns nonzero if successful, or 0 otherwise.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
 

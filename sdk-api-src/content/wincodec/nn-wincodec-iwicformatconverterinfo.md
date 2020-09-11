@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: e6e2bade-66c1-4994-89b9-68aa038bdc8c
 ms.date: 12/05/2018
 ms.keywords: IWICFormatConverterInfo, IWICFormatConverterInfo interface [Windows Imaging Component], IWICFormatConverterInfo interface [Windows Imaging Component],described, _wic_codec_iwicformatconverterinfo, wic._wic_codec_iwicformatconverterinfo, wincodec/IWICFormatConverterInfo
-f1_keywords:
-- wincodec/IWICFormatConverterInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICFormatConverterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICFormatConverterInfo
+ - wincodec/IWICFormatConverterInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICFormatConverterInfo
 ---
 
 # IWICFormatConverterInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide information about a pixel format converter.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Retrieves a list of GUIDs that signify which pixel formats the converter support
 
 </td>
 </tr>
-</table> 
+</table>
 

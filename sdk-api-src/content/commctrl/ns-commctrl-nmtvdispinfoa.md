@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvdispinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTVDISPINFOA, LPNMTVDISPINFO, LPNMTVDISPINFO structure pointer [Windows Controls], NMTVDISPINFO, NMTVDISPINFO structure [Windows Controls], NMTVDISPINFOA, NMTVDISPINFOW, TVIF_CHILDREN, TVIF_IMAGE, TVIF_SELECTEDIMAGE, TVIF_TEXT, _win32_NMTVDISPINFO, _win32_NMTVDISPINFO_cpp, commctrl/LPNMTVDISPINFO, commctrl/NMTVDISPINFO, commctrl/NMTVDISPINFOA, commctrl/NMTVDISPINFOW, controls.NMTVDISPINFO, controls._win32_NMTVDISPINFO'
-f1_keywords:
-- commctrl/NMTVDISPINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMTVDISPINFO
-- NMTVDISPINFOA
-- NMTVDISPINFOW
 targetos: Windows
 req.typenames: NMTVDISPINFOA, *LPNMTVDISPINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTVDISPINFOA
+ - commctrl/tagTVDISPINFOA
+ - LPNMTVDISPINFOA
+ - commctrl/LPNMTVDISPINFOA
+ - NMTVDISPINFOA
+ - commctrl/NMTVDISPINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMTVDISPINFO
+ - NMTVDISPINFOA
+ - NMTVDISPINFOW
 ---
 
 # NMTVDISPINFOA structure
@@ -51,23 +56,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains and receives display information for a tree-view item. This structure is identical to the 
-			<b>TV_DISPINFO</b> structure, but it has been renamed to follow current naming conventions. 
-
+			<b>TV_DISPINFO</b> structure, but it has been renamed to follow current naming conventions.
 
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification.
 
 ### -field item
 
@@ -129,13 +128,8 @@ The
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -146,9 +140,6 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: b58747bf-65db-4563-b09a-0b05d2cf62ea
 ms.date: 12/05/2018
 ms.keywords: MsiSourceListForceResolution, MsiSourceListForceResolution function, MsiSourceListForceResolutionA, MsiSourceListForceResolutionW, _msi_msisourcelistforceresolution, msi/MsiSourceListForceResolution, msi/MsiSourceListForceResolutionA, msi/MsiSourceListForceResolutionW, setup.msisourcelistforceresolution
-f1_keywords:
-- msi/MsiSourceListForceResolution
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSourceListForceResolution
-- MsiSourceListForceResolutionA
-- MsiSourceListForceResolutionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListForceResolutionW
+ - msi/MsiSourceListForceResolutionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSourceListForceResolution
+ - MsiSourceListForceResolutionA
+ - MsiSourceListForceResolutionW
 ---
 
 # MsiSourceListForceResolutionW function
@@ -51,38 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiSourceListForceResolution</b> function forces the installer to search the source list for a valid product source the next time a source is required. For example, when the installer performs an installation or reinstallation, or when it requires the path for a component that is set to run from source.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
  The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> of the product to modify.
 
-
 ### -param szUserName [in]
 
 The user name for a per-user installation. The user name should always be in the format of DOMAIN\USERNAME (or MACHINENAME\USERNAME for a local user). 
 
-An empty string or <b>NULL</b> for a per-machine installation. 
-
+An empty string or <b>NULL</b> for a per-machine installation.
 
 ### -param dwReserved [in]
 
-Reserved for future use. This value must be set to 0. 
-
-
+Reserved for future use. This value must be set to 0.
 
 ## -returns
-
-
 
 The <b>MsiSourceListForceResolution</b> function returns the following values.
 
@@ -180,14 +169,8 @@ The specified product is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An administrator can modify per-machine installations, their own per-user non-managed installations, and the per-user managed installations for any user. A non-administrator can only modify per-machine installations and their own (managed or non-managed) per-user installations.  
 
@@ -208,9 +191,6 @@ This function can  not modify a non-managed installation for any user besides th
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
@@ -224,7 +204,4 @@ This function can  not modify a non-managed installation for any user besides th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
- 
-
- 
 

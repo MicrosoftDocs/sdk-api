@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fdba8376-c878-4fc8-bedc-e73cfeef8b9b
 ms.date: 12/05/2018
 ms.keywords: CreateIShellImageData, CreateIShellImageData method [Windows Shell], CreateIShellImageData method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateIShellImageData method, IShellImageDataFactory.CreateIShellImageData, IShellImageDataFactory::CreateIShellImageData, _shell_IShellImageDataFactory_CreateIShellImageData, shell.IShellImageDataFactory_CreateIShellImageData, shimgdata/IShellImageDataFactory::CreateIShellImageData
-f1_keywords:
-- shimgdata/IShellImageDataFactory.CreateIShellImageData
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageDataFactory.CreateIShellImageData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageDataFactory::CreateIShellImageData
+ - shimgdata/IShellImageDataFactory::CreateIShellImageData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageDataFactory.CreateIShellImageData
 ---
 
 # IShellImageDataFactory::CreateIShellImageData
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param ppshimg [out]
 
@@ -64,10 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-sh
 
 The address of a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -112,7 +105,4 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
 

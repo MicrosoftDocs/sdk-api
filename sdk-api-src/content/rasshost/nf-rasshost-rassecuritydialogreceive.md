@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: ed5fcea6-6533-4c78-bd49-dfeaafd8192a
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogReceive, RasSecurityDialogReceive function [RAS], _ras_rassecuritydialogreceive, rasshost/RasSecurityDialogReceive, rras.rassecuritydialogreceive
-f1_keywords:
-- rasshost/RasSecurityDialogReceive
-dev_langs:
-- c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Rasman.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasman.dll
-api_name:
-- RasSecurityDialogReceive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSecurityDialogReceive
+ - rasshost/RasSecurityDialogReceive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasman.dll
+api_name:
+ - RasSecurityDialogReceive
 ---
 
 # RasSecurityDialogReceive function
 
 
 ## -description
-
 
 The 
 <b>RasSecurityDialogReceive</b> function starts an asynchronous operation that receives a remote user's response to a security challenge. The response is the input that the user typed in a terminal window on the remote computer. A third-party RAS security DLL calls this function as part of its authentication of the remote user.
@@ -64,25 +64,19 @@ To call this function, first call the
 
 ## -parameters
 
-
-
-
 ### -param hPort [in]
 
 Specifies the port handle that the RAS server passed to the security DLL in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> call for this authentication transaction.
-
 
 ### -param pBuffer [in]
 
 Pointer to the receive buffer that was passed to the security DLL in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> call. When the asynchronous receive operation has been completed successfully, this buffer specifies the response from the remote user.
 
-
 ### -param pBufferLength [in]
 
 Pointer to a <b>WORD</b> variable. This variable must specify the size, in bytes, of the <i>pBuffer</i> buffer. When the receive operation has been completed, the variable indicates the number of bytes returned in the <i>pBuffer</i> buffer.
-
 
 ### -param Timeout [in]
 
@@ -93,28 +87,19 @@ Specifies a time-out period, in seconds, after which the RAS server sets the <i>
 
 If this value is zero, there is no time-out period; that is, the RAS server does not signal the event object until the receive operation has been completed.
 
-
 ### -param hEvent [in]
 
 Specifies the handle of an event object created by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function. The RAS server sets the event object to the signaled state when the receive operation has been completed or when the time-out period has elapsed.
 
-
 ## -returns
-
-
 
 If the function is successful, the return value is PENDING (defined in Raserror.h). This indicates that the receive operation is in progress.
 
 If an error occurs, the return value is one of the error codes defined in Raserror.h or Winerror.h. 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> does not provide extended error information.
 
-
-
-
 ## -remarks
-
-
 
 After calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogsend">RasSecurityDialogSend</a> function to send a security challenge to the remote user, the security DLL must call the 
@@ -132,13 +117,7 @@ When a security DLL is authenticating a remote user, the connection operation on
 <b>RasSecurityDialogReceive</b> is the input that the remote user types in the terminal window. The RASCS_Interactive value is defined in the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
@@ -169,7 +148,4 @@ When a security DLL is authenticating a remote user, the connection operation on
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>
- 
-
- 
 

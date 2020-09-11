@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 96f34b51-3784-4bb7-ae40-067f8113ff39
 ms.date: 12/05/2018
 ms.keywords: QueueUserWorkItem, QueueUserWorkItem function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTELONGFUNCTION, WT_TRANSFER_IMPERSONATION, _win32_queueuserworkitem, base.queueuserworkitem, threadpoollegacyapiset/QueueUserWorkItem, winbase/QueueUserWorkItem
-f1_keywords:
-- threadpoollegacyapiset/QueueUserWorkItem
-dev_langs:
-- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- QueueUserWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueueUserWorkItem
+ - threadpoollegacyapiset/QueueUserWorkItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - QueueUserWorkItem
 ---
 
 # QueueUserWorkItem function
@@ -53,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queues a work item to a worker thread in the 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">thread pool</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param Function [in]
 
@@ -73,11 +69,9 @@ The return value of the callback function is not used.
 For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
 
-
 ### -param Context [in, optional]
 
 A single parameter value to be passed to the thread function.
-
 
 ### -param Flags [in]
 
@@ -158,24 +152,15 @@ Callback functions will use the current access token, whether it is a process or
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If a function in a DLL is queued to a worker thread, be sure that the function has completed execution before the DLL is unloaded.
 
@@ -188,13 +173,7 @@ Use this macro in the call to <b>QueueUserWorkItem</b> to specify the <i>Flags</
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
@@ -205,7 +184,4 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>
- 
-
- 
 

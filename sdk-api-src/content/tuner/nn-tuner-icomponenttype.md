@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: e83bbbbe-64a9-4ed3-9c32-925ca80c2c38
 ms.date: 12/05/2018
 ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], IComponentType interface [Microsoft TV Technologies],described, IComponentTypeInterface, mstv.icomponenttype, tuner/IComponentType
-f1_keywords:
-- tuner/IComponentType
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentType
+ - tuner/IComponentType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IComponentType
 ---
 
 # IComponentType interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IComponentType</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd693036(v=vs.85)">ComponentType</a> objects, and contains methods for setting and retrieving various properties for a Component. Every Component object has an associated ComponentType object that is set or retrieved with the <b>get_Type</b> and <b>put_Type</b> methods.
-
-
-
 
 ## -inheritance
 
@@ -224,29 +220,17 @@ Sets the DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/strm
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IComponentType)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

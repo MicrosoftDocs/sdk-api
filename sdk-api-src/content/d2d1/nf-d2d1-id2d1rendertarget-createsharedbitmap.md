@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: c6377dbd-ffd9-458b-9e03-5a832f095818
 ms.date: 12/05/2018
 ms.keywords: CreateSharedBitmap, CreateSharedBitmap method [Direct2D], CreateSharedBitmap method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateSharedBitmap method, ID2D1RenderTarget.CreateSharedBitmap, ID2D1RenderTarget::CreateSharedBitmap, d2d1/ID2D1RenderTarget::CreateSharedBitmap, direct2d.ID2D1RenderTarget_CreateSharedBitmap
-f1_keywords:
-- d2d1/ID2D1RenderTarget.CreateSharedBitmap
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.CreateSharedBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::CreateSharedBitmap
+ - d2d1/ID2D1RenderTarget::CreateSharedBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.CreateSharedBitmap
 ---
 
 # ID2D1RenderTarget::CreateSharedBitmap
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> whose data is shared with another resource.
 
-
 ## -parameters
-
-
-
 
 ### -param riid
 
@@ -64,13 +60,11 @@ Type: <b>REFIID</b>
 
 The interface ID of the object supplying the source data.
 
-
 ### -param data [in, out]
 
 Type: <b>void*</b>
 
 An <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>, <a href="/windows/win32/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>, or an <a href="/windows/win32/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a> that contains the data to share with the new <b>ID2D1Bitmap</b>. For more information, see the Remarks section.
-
 
 ### -param bitmapProperties [in, optional]
 
@@ -78,28 +72,19 @@ Type: <b><a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_bitmap_properties">D2D1_B
 
 The pixel format  and DPI of the bitmap to create . The <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> portion of the pixel format  must match the <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> of <i>data</i> or the method will fail, but the alpha modes don't have to match. To prevent a  mismatch, you can pass <b>NULL</b> or the value obtained from the <a href="/windows/win32/api/d2d1helper/nf-d2d1helper-pixelformat">D2D1::PixelFormat</a> helper function. The DPI settings do not have to match those of <i>data</i>. If both <i>dpiX</i> and <i>dpiY</i> are  0.0f, the DPI of the render target is used.
 
-
 ### -param bitmap [out]
 
 Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>**</b>
 
-When this method returns, contains the address of a pointer to the new bitmap. This parameter is passed uninitialized. 
-
+When this method returns, contains the address of a pointer to the new bitmap. This parameter is passed uninitialized.
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CreateSharedBitmap</b> method is useful for efficiently reusing bitmap data and can also be used to provide interoperability with Direct3D. 
 
@@ -122,13 +107,7 @@ An <a href="/windows/win32/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLo
 
 To use an <a href="/windows/win32/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a> with the <b>CreateSharedBitmap</b> method, the render target must use software rendering. To force a render target to use software rendering, set to <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_render_target_type">D2D1_RENDER_TARGET_TYPE_SOFTWARE</a>  the <b>type</b> field of the  <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a> structure that you use to create the render target. To check whether an existing render target uses software rendering, use the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-issupported(constd2d1_render_target_properties_)">IsSupported</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-and-direct3d-interoperation-overview">Direct2D and Direct3D Interoperability Overview</a>
 
@@ -151,7 +130,4 @@ To use an <a href="/windows/win32/api/wincodec/nn-wincodec-iwicbitmaplock">IWICB
 
 
 <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
- 
-
- 
 

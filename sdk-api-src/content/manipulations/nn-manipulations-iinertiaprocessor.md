@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: 8dc171eb-0c6e-41dd-b506-5f91ea703a53
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IInertiaProcessor interface [Windows Touch],described, manipulations/IInertiaProcessor, wintouch.iinertiaprocessor
-f1_keywords:
-- manipulations/IInertiaProcessor
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- IInertiaProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInertiaProcessor
+ - manipulations/IInertiaProcessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - IInertiaProcessor
 ---
 
 # IInertiaProcessor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The IInertiaProcessor interface handles calculations regarding object motion for Windows Touch.
-
 
 ## -inheritance
 
@@ -474,16 +473,9 @@ Specifies the initial movement of the target object on the vertical axis.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>
- 
-
- 
 

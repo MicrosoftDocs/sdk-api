@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: FE3B1BAB-2634-4BE0-91B7-F97041CB3655
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile6, IBackgroundCopyFile6 interface [BITS], IBackgroundCopyFile6 interface [BITS],described, bits.ibackgroundcopyfile6, bits10_1/IBackgroundCopyFile6
-f1_keywords:
-- bits10_1/IBackgroundCopyFile6
-dev_langs:
-- c++
 req.header: bits10_1.h
 req.include-header: Bits10_0.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bits10_1.h
-api_name:
-- IBackgroundCopyFile6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile6
+ - bits10_1/IBackgroundCopyFile6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bits10_1.h
+api_name:
+ - IBackgroundCopyFile6
 ---
 
 # IBackgroundCopyFile6 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to request file ranges for On Demand download jobs.
-
 
 ## -inheritance
 
@@ -95,23 +94,13 @@ Specifies a position to prioritize downloading missing data from.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To get an <b>IBackgroundCopyFile6</b> interface    pointer, call the <b>IBackgroundCopyFile::QueryInterface</b> method using "__uuidof(IBackgroundCopyFile6)" for the interface identifier.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
@@ -130,7 +119,4 @@ To get an <b>IBackgroundCopyFile6</b> interface    pointer, call the <b>IBackgro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>
- 
-
- 
 

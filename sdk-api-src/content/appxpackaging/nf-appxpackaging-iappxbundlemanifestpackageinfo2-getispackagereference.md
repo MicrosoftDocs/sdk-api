@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 0EAE15E9-5B23-43F4-B4C6-D75EC8D8F281
 ms.date: 12/05/2018
 ms.keywords: GetIsPackageReference, GetIsPackageReference method [App packaging and management], GetIsPackageReference method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsPackageReference method, IAppxBundleManifestPackageInfo2.GetIsPackageReference, IAppxBundleManifestPackageInfo2::GetIsPackageReference, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsPackageReference, appxpkg.iappxbundlemanifestpackageinfo2_getispackagereference
-f1_keywords:
-- appxpackaging/IAppxBundleManifestPackageInfo2.GetIsPackageReference
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleManifestPackageInfo2.GetIsPackageReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleManifestPackageInfo2::GetIsPackageReference
+ - appxpackaging/IAppxBundleManifestPackageInfo2::GetIsPackageReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleManifestPackageInfo2.GetIsPackageReference
 ---
 
 # IAppxBundleManifestPackageInfo2::GetIsPackageReference
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a package is stored inside an app bundle, or if it's a reference to a package.
 
-
 ## -parameters
-
-
-
 
 ### -param isPackageReference [out, retval]
 
 True if the package in the bundle is a reference to a package; False if the package in the bundle is stored inside the app bundle.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo2">IAppxBundleManifestPackageInfo2</a>
- 
-
- 
 

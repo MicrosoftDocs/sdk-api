@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: aec4a812-cf5d-4986-a776-29c366bb1771
 ms.date: 12/05/2018
 ms.keywords: ISearchJob, ISearchJob interface [Windows Update Agent], ISearchJob interface [Windows Update Agent],described, wua.isearchjob, wuapi/ISearchJob
-f1_keywords:
-- wuapi/ISearchJob
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISearchJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchJob
+ - wuapi/ISearchJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISearchJob
 ---
 
 # ISearchJob interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains properties and methods that are available to a search operation.
-
 
 ## -inheritance
 
@@ -127,5 +126,5 @@ Gets a Boolean value that indicates whether the call to the <a href="https://doc
 
 </td>
 </tr>
-</table> 
+</table>
 

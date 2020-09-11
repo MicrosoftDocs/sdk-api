@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 75041e85-0f3c-4996-9af2-d2969549393e
 ms.date: 12/05/2018
 ms.keywords: IUpdate2, IUpdate2 interface [Windows Update Agent], IUpdate2 interface [Windows Update Agent],described, wua.iupdate2, wuapi/IUpdate2
-f1_keywords:
-- wuapi/IUpdate2
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate2
+ - wuapi/IUpdate2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate2
 ---
 
 # IUpdate2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the  properties and methods that are available to an update.
-
 
 ## -inheritance
 
@@ -134,16 +133,9 @@ Gets a Boolean value that indicates whether a system restart is required on a co
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
 

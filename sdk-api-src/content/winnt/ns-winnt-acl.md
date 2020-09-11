@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9
 ms.date: 12/05/2018
 ms.keywords: '*PACL, ACL, ACL structure [Security], PACL, PACL structure pointer [Security], _ACL, _win32_acl_str, security.acl, winnt/ACL, winnt/PACL'
-f1_keywords:
-- winnt/ACL
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- ACL
 targetos: Windows
 req.typenames: ACL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ACL
+ - winnt/_ACL
+ - ACL
+ - winnt/ACL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - ACL
 ---
 
 # ACL structure
@@ -49,43 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ACL</b> structure is the header of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). A complete ACL consists of an <b>ACL</b> structure followed by an ordered list of zero or more  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
-
 ## -struct-fields
-
-
-
 
 ### -field AclRevision
 
 Specifies the revision level of the ACL. This value should be ACL_REVISION, unless the ACL contains an object-specific ACE, in which case this value must be ACL_REVISION_DS. All ACEs in an ACL must be at the same revision level.
 
-
 ### -field Sbz1
 
 Specifies a zero byte of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">padding</a> that aligns the <b>AclRevision</b> member on a 16-bit boundary.
-
 
 ### -field AclSize
 
 Specifies the size, in bytes, of the ACL. This value includes both the <b>ACL</b> structure and all the ACEs.
 
-
 ### -field AceCount
 
 Specifies the number of ACEs stored in the ACL.
-
 
 ### -field Sbz2
 
 Specifies two zero-bytes of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">padding</a> that align the <b>ACL</b> structure on a 32-bit boundary.
 
-
 ## -remarks
-
-
 
 An ACL includes a sequential list of zero or more ACEs. The individual ACEs in an ACL are numbered from 0 to <i>n</i>, where <i>n</i>+1 is the number of ACEs in the ACL. When editing an ACL, an application refers to an ACE within the ACL by the ACE's index.
 
@@ -105,13 +96,7 @@ Each <b>ACL</b> and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ
 
 The maximum size for an ACL, including its ACEs, is 64 KB.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addace">AddAce</a>
 
@@ -150,7 +135,4 @@ The maximum size for an ACL, including its ACEs, is 64 KB.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a>
- 
-
- 
 

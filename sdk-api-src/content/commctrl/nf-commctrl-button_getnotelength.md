@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnotelength.htm
 ms.date: 12/05/2018
 ms.keywords: Button_GetNoteLength, Button_GetNoteLength macro [Windows Controls], _shell_Button_GetNoteLength, _shell_Button_GetNoteLength_cpp, commctrl/Button_GetNoteLength, controls.Button_GetNoteLength, controls._shell_Button_GetNoteLength
-f1_keywords:
-- commctrl/Button_GetNoteLength
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Button_GetNoteLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Button_GetNoteLength
+ - commctrl/Button_GetNoteLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Button_GetNoteLength
 ---
 
 # Button_GetNoteLength macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getnotelength">BCM_GETNOTELENGTH</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,22 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the button control.
 
-
 ## -remarks
-
-
 
 Beginning with comctl32 DLL version 6.01, command link buttons may have a note. For information on DLL versions, see <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Common Control Versions</a>.
 
 The <b>Button_GetNoteLength</b> macro works only with the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_COMMANDLINK</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFCOMMANDLINK</a> button styles.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">Button Styles</a>
 
@@ -94,7 +81,4 @@ The <b>Button_GetNoteLength</b> macro works only with the <a href="https://docs.
 
 
 <b>Reference</b>
- 
-
- 
 

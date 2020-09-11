@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c8814a13-ac28-4583-927f-c787e0a25faf
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryContextFunctionProperty, BCryptQueryContextFunctionProperty function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryContextFunctionProperty, security.bcryptquerycontextfunctionproperty
-f1_keywords:
-- bcrypt/BCryptQueryContextFunctionProperty
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptQueryContextFunctionProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptQueryContextFunctionProperty
+ - bcrypt/BCryptQueryContextFunctionProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptQueryContextFunctionProperty
 ---
 
 # BCryptQueryContextFunctionProperty function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptQueryContextFunctionProperty</b> function obtains the value of a named property for a cryptographic function in an existing CNG context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -88,13 +84,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to obtain the function property from.
-
 
 ### -param dwInterface [in]
 
@@ -186,25 +179,20 @@ The function exists in the list of Schannel functions.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFunction [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic function to obtain the property for.
 
-
 ### -param pszProperty [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the property to obtain.
-
 
 ### -param pcbValue [in, out]
 
 The address of a <b>ULONG</b> variable that, on entry, contains the size, in bytes, of the buffer pointed to by <i>ppbValue</i>. If this size is not large enough to hold the property value, this function will fail with <b>STATUS_BUFFER_TOO_SMALL</b>.
 
 After this function returns, this variable contains the number of bytes that were copied to the <i>ppbValue</i> buffer.
-
 
 ### -param ppbValue [in, out]
 
@@ -214,10 +202,7 @@ If the value pointed to by this parameter is <b>NULL</b>, this function will all
 
 If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the variable pointed to by the <i>pcbValue</i> parameter and return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -287,16 +272,8 @@ The specified context, function, or property could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>BCryptQueryContextFunctionProperty</b> can be called only in user mode.
-
-
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: a72e780e-30e3-4feb-8f47-46b9f1714061
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetAttributeValue method, ITextRangeProvider.GetAttributeValue, ITextRangeProvider::GetAttributeValue, uiauto.uiauto_ITextRangeProvider_GetAttributeValue, uiauto_ITextRangeProvider_GetAttributeValue, uiautomationcore/ITextRangeProvider::GetAttributeValue, winauto.uiauto_ITextRangeProvider_GetAttributeValue
-f1_keywords:
-- uiautomationcore/ITextRangeProvider.GetAttributeValue
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- ITextRangeProvider.GetAttributeValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRangeProvider::GetAttributeValue
+ - uiautomationcore/ITextRangeProvider::GetAttributeValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ITextRangeProvider.GetAttributeValue
 ---
 
 # ITextRangeProvider::GetAttributeValue
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the value of the specified text attribute across the text range.  
-
+Retrieves the value of the specified text attribute across the text range.
 
 ## -parameters
-
-
-
 
 ### -param attributeId [in]
 
 Type: <b>TEXTATTRIBUTEID</b>
 
 The identifier of the text attribute. For a list of text attribute IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>.
-
 
 ### -param pRetVal [out, retval]
 
@@ -80,35 +75,19 @@ Receives one of the following.
 <li>The address of the value retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetreservedmixedattributevalue">UiaGetReservedMixedAttributeValue</a> function, if the value of the specified attribute varies over the text range.</li>
 <li>The address of the value retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetreservednotsupportedvalue">UiaGetReservedNotSupportedValue</a> function, if the specified attribute is not supported by the provider or the control. </li>
 </ul>
-This parameter is passed uninitialized. 
-                
-
+This parameter is passed uninitialized.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 The <b>GetAttributeValue</b> method should retrieve the attribute value regardless of whether the text is hidden or visible.
-            
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -127,7 +106,4 @@ The <b>GetAttributeValue</b> method should retrieve the attribute value regardle
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

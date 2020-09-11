@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 6dfd4c8b-0197-4c6d-a780-084b428805b2
 ms.date: 12/05/2018
 ms.keywords: SetupGetBinaryField, SetupGetBinaryField function [Setup API], _setupapi_setupgetbinaryfield, setup.setupgetbinaryfield, setupapi/SetupGetBinaryField
-f1_keywords:
-- setupapi/SetupGetBinaryField
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupGetBinaryField
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupGetBinaryField
+ - setupapi/SetupGetBinaryField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupGetBinaryField
 ---
 
 # SetupGetBinaryField function
@@ -49,48 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupGetBinaryField</b> function retrieves binary data from a line in an INF file section, from the specified field to the end of the line.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 INF context for the line.
 
-
 ### -param FieldIndex [in]
 
 The 1-based index of the starting field within the specified line from which the binary data should be retrieved. The binary data is built from each field, starting at this point to the end of the line. Each field corresponds to 1 byte and is in hexadecimal notation. A <i>FieldIndex</i> of zero is not valid with this function.
-
 
 ### -param ReturnBuffer [in, out]
 
 Optional pointer to a buffer that receives the binary data. You should ensure the destination buffer is the same size or larger than the source buffer. You can call the function once to get the required buffer size, allocate the necessary memory, and then call the function a second time to retrieve the data. Using this technique, you can avoid errors due to an insufficient buffer size. See the Remarks section.
 
-
-
 ### -param ReturnBufferSize [in]
 
-Size of the buffer pointed to by <i>ReturnBuffer</i>, in characters. This number includes the <b>null</b> terminator. 
-
+Size of the buffer pointed to by <i>ReturnBuffer</i>, in characters. This number includes the <b>null</b> terminator.
 
 ### -param RequiredSize [in, out]
 
-Optional pointer to a variable that receives the required size for the buffer pointed to <i>ReturnBuffer</i>, in characters. This number includes the <b>null</b> terminator. If the size needed is larger than the value specified by <i>ReturnBufferSize</i>, the function fails and a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. 
-
-
+Optional pointer to a variable that receives the required size for the buffer pointed to <i>ReturnBuffer</i>, in characters. This number includes the <b>null</b> terminator. If the size needed is larger than the value specified by <i>ReturnBufferSize</i>, the function fails and a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
@@ -101,12 +88,7 @@ If the function fails, the return value is zero. To get extended error informati
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INVALID_DATA if a field that 
 <b>SetupGetBinaryField</b> retrieves is not a valid hexadecimal number in the range 0-FF.
 
-
-
-
 ## -remarks
-
-
 
 If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>ReturnBufferSize</i> of zero, the function puts the buffer size needed to hold the specified data into the variable pointed to by <i>RequiredSize</i>. If the function succeeds in this, the return value is a nonzero value. Otherwise, the return value is zero and extended error information can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -124,13 +106,7 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 Thus, you can call the function once to get the required buffer size, allocate the necessary memory, and then call the function a second time to retrieve the data. Using this technique, you can avoid errors due to an insufficient buffer size.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -149,7 +125,4 @@ Thus, you can call the function once to get the required buffer size, allocate t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetstringfielda">SetupGetStringField</a>
- 
-
- 
 

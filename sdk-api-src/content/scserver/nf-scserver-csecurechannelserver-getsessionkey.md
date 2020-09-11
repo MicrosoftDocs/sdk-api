@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 1be09669-434e-4774-92bf-4ea470d6c4b9
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],GetSessionKey method, CSecureChannelServer.GetSessionKey, CSecureChannelServer::GetSessionKey, CSecureChannelServerGetSessionKey, GetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::GetSessionKey, wmdm.csecurechannelserver_getsessionkey
-f1_keywords:
-- scserver/CSecureChannelServer.GetSessionKey
-dev_langs:
-- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelServer.GetSessionKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelServer::GetSessionKey
+ - scserver/CSecureChannelServer::GetSessionKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelServer.GetSessionKey
 ---
 
 # CSecureChannelServer::GetSessionKey
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetSessionKey</b> method retrieves the current session key that is used for encryption and decryption. This method is published and available, but normally is used only by Windows Media Device Manager.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbSPSessionKey [out]
 
 Pointer to the first byte of a buffer containing the session key.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -100,22 +90,12 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
 <a href="/previous-versions/ms868519(v=msdn.10)">CSecureChannelServer::SetSessionKey</a>
- 
-
- 
 

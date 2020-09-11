@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 84d73e8c-f13c-4343-91de-57f9f8a0ad96
 ms.date: 12/05/2018
 ms.keywords: 7e7df363-d5a2-5b79-817f-3e1d6053d170, D3D11CreateDeviceAndSwapChain, D3D11CreateDeviceAndSwapChain function [Direct3D 11], d3d11/D3D11CreateDeviceAndSwapChain, direct3d11.d3d11createdeviceandswapchain
-f1_keywords:
-- d3d11/D3D11CreateDeviceAndSwapChain
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3D11.dll
-api_name:
-- D3D11CreateDeviceAndSwapChain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11CreateDeviceAndSwapChain
+ - d3d11/D3D11CreateDeviceAndSwapChain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3D11.dll
+api_name:
+ - D3D11CreateDeviceAndSwapChain
 ---
 
 # D3D11CreateDeviceAndSwapChain function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a device that represents the display adapter and a swap chain used for rendering.
 
-
 ## -parameters
-
-
-
 
 ### -param pAdapter [in, optional]
 
@@ -74,8 +70,6 @@ A pointer to the video adapter to use when creating a <a href="https://docs.micr
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type">D3D_DRIVER_TYPE</a></b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type">D3D_DRIVER_TYPE</a>, which represents the driver type to create.
-          
-
 
 ### -param Software
 
@@ -86,8 +80,6 @@ A handle to a DLL that implements a software rasterizer.
             calling <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>,
             <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> ,
             or <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>. The value should be non-<b>NULL</b>when <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type">D3D_DRIVER_TYPE</a> is <b>D3D_DRIVER_TYPE_SOFTWARE</b> and <b>NULL</b> otherwise.
-          
-
 
 ### -param Flags
 
@@ -95,8 +87,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The runtime <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">layers</a> to enable (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_FLAG</a>);
             values can be bitwise OR'd together.
-          
-
 
 ### -param pFeatureLevels [in, optional]
 
@@ -131,40 +121,30 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of elements in <i>pFeatureLevels</i>.
-          
-
 
 ### -param SDKVersion
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The SDK version; use <i>D3D11_SDK_VERSION</i>.
-          
-
 
 ### -param pSwapChainDesc [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc">DXGI_SWAP_CHAIN_DESC</a>*</b>
 
 A pointer to a swap chain description (see <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc">DXGI_SWAP_CHAIN_DESC</a>) that contains initialization parameters for the swap chain.
-          
-
 
 ### -param ppSwapChain [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>**</b>
 
 Returns the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a> object that represents the swap chain used for rendering.
-          
-
 
 ### -param ppDevice [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>**</b>
 
 Returns the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> object that represents the device created. If this parameter is  <b>NULL</b>, no ID3D11Device will be returned'.
-          
-
 
 ### -param pFeatureLevel [out, optional]
 
@@ -172,20 +152,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3
 
 Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a>, which represents the first element in an array of feature levels supported
             by the device. Supply <b>NULL</b> as an input if you don't need to determine which feature level is supported.
-          
-
 
 ### -param ppImmediateContext [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>**</b>
 
 Returns the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a> object that represents the device context. If this parameter is <b>NULL</b>, no ID3D11DeviceContext will be returned.
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -199,14 +173,8 @@ This method returns E_INVALIDARG if you set the <i>pAdapter</i> parameter to a n
           
 
 This method returns <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_SDK_COMPONENT_MISSING</a> if you specify <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_DEBUG</a> in <i>Flags</i> and the incorrect version of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">debug layer</a> is installed on your computer. Install the latest Windows SDK to get the correct version.
-          
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  If you call this method in a Session 0 process, it returns <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
         </div>
@@ -239,18 +207,8 @@ The function signature PFN_D3D11_CREATE_DEVICE_AND_SWAP_CHAIN is provided as a t
 <div> </div>
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-functions">Core Functions</a>
- 
-
- 
 

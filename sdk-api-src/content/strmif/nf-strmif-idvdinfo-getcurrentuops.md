@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: a6f48a32-c2bb-4924-9a05-469c7b79fc3e
 ms.date: 12/05/2018
 ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentUOPS method, IDvdInfo.GetCurrentUOPS, IDvdInfo::GetCurrentUOPS, IDvdInfoGetCurrentUOPS, dshow.idvdinfo_getcurrentuops, strmif/IDvdInfo::GetCurrentUOPS
-f1_keywords:
-- strmif/IDvdInfo.GetCurrentUOPS
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IDvdInfo.GetCurrentUOPS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo::GetCurrentUOPS
+ - strmif/IDvdInfo::GetCurrentUOPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IDvdInfo.GetCurrentUOPS
 ---
 
 # IDvdInfo::GetCurrentUOPS
@@ -49,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>
 Retrieves which <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl</a> methods are currently valid.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pUOP [out]
 
 Pointer to a <b>DWORD</b> value containing bits for all user operations (UOP). Each bit in the <b>DWORD</b> represents the state (valid or not valid) of a user operation. If the bit corresponding to a user operation is set, then that user operation is prohibited. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
@@ -124,14 +114,8 @@ Requested action cannot occur at this point in the movie due to the authoring of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
@@ -318,20 +302,11 @@ The value of <i>pUOP</i> is a bit field defined as follows.
 
 This method is useful because DVD titles can enable or disable individual user operations at almost any point during playback.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
- 
-
- 
 

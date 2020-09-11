@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 60661c23-3d6a-4b0c-9cc9-bf04ecea2425
 ms.date: 12/05/2018
 ms.keywords: RasInvokeEapUI, RasInvokeEapUI function [RAS], _ras_rasinvokeeapui, ras/RasInvokeEapUI, rras.rasinvokeeapui
-f1_keywords:
-- ras/RasInvokeEapUI
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasInvokeEapUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasInvokeEapUI
+ - ras/RasInvokeEapUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasInvokeEapUI
 ---
 
 # RasInvokeEapUI function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasInvokeEapUI</b> function displays a custom user interface to obtain Extensible Authentication Protocol (EAP) information from the user.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 Handle to the connection returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
 
-
 ### -param arg2 [in]
 
 Specifies the subentry returned in the callback.
-
 
 ### -param arg3 [in]
 
@@ -77,15 +71,11 @@ Pointer to the
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> when restarting from a paused state. Ensure that the <b>dwSize</b> member of the 
 <b>RASDIALEXTENSIONS</b> structure specifies the size of the structure. Obtain the size using sizeof(<b>RASDIALEXTENSIONS</b>). This parameter cannot be <b>NULL</b>.
 
-
 ### -param arg4 [in]
 
 Handle to the parent window to use when displaying the EAP user interface.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -132,15 +122,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a>
 
@@ -159,7 +142,4 @@ Use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

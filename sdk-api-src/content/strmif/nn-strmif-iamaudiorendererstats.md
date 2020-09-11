@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f5cca658-73ce-4f4d-8992-afb7824f4117
 ms.date: 12/05/2018
 ms.keywords: IAMAudioRendererStats, IAMAudioRendererStats interface [DirectShow], IAMAudioRendererStats interface [DirectShow],described, IAMAudioRendererStatsInterface, dshow.iamaudiorendererstats, strmif/IAMAudioRendererStats
-f1_keywords:
-- strmif/IAMAudioRendererStats
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAudioRendererStats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAudioRendererStats
+ - strmif/IAMAudioRendererStats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAudioRendererStats
 ---
 
 # IAMAudioRendererStats interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMAudioRendererStats</code> interface retrieves statistical performance information from an audio renderer filter.
 
 This interface is intended for use during development, to log performance data from the audio renderer. There is probably no reason for an application to use it in a retail build. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> filter both expose this interface.
 
 <b>Filter Developers</b>: It is not expected that other filters will implement this interface.
-
-
-
 
 ## -inheritance
 
@@ -85,16 +81,9 @@ Retrieves performance information from the filter.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

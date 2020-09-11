@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\callwindowproc.htm
 ms.date: 12/05/2018
 ms.keywords: CallWindowProc, CallWindowProc function [Windows and Messages], CallWindowProcA, CallWindowProcW, _win32_CallWindowProc, _win32_callwindowproc_cpp, winmsg.callwindowproc, winui._win32_callwindowproc, winuser/CallWindowProc, winuser/CallWindowProcA, winuser/CallWindowProcW
-f1_keywords:
-- winuser/CallWindowProc
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-api_name:
-- CallWindowProc
-- CallWindowProcA
-- CallWindowProcW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CallWindowProcW
+ - winuser/CallWindowProcW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+api_name:
+ - CallWindowProc
+ - CallWindowProcA
+ - CallWindowProcW
 ---
 
 # CallWindowProcW function
@@ -56,28 +57,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Passes message information to the specified window procedure.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPrevWndFunc [in]
 
 Type: <b>WNDPROC</b>
 
-The previous window procedure. If this value is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga">GetWindowLong</a> function with the <i>nIndex</i> parameter set to <b>GWL_WNDPROC</b> or <b>DWL_DLGPROC</b>, it is actually either the address of a window or dialog box procedure, or a special internal value meaningful only to <b>CallWindowProc</b>. 
-
+The previous window procedure. If this value is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga">GetWindowLong</a> function with the <i>nIndex</i> parameter set to <b>GWL_WNDPROC</b> or <b>DWL_DLGPROC</b>, it is actually either the address of a window or dialog box procedure, or a special internal value meaningful only to <b>CallWindowProc</b>.
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window procedure to receive the message. 
-
+A handle to the window procedure to receive the message.
 
 ### -param Msg [in]
 
@@ -85,35 +79,25 @@ Type: <b>UINT</b>
 
 The message.
 
-
 ### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
-Additional message-specific information. The contents of this parameter depend on the value of the <i>Msg</i> parameter. 
-
+Additional message-specific information. The contents of this parameter depend on the value of the <i>Msg</i> parameter.
 
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
-Additional message-specific information. The contents of this parameter depend on the value of the <i>Msg</i> parameter. 
-
+Additional message-specific information. The contents of this parameter depend on the value of the <i>Msg</i> parameter.
 
 ## -returns
 
-
-
 Type: <b>LRESULT</b>
 
-The return value specifies the result of the message processing and depends on the message sent. 
-
-
-
+The return value specifies the result of the message processing and depends on the message sent.
 
 ## -remarks
-
-
 
 Use the <b>CallWindowProc</b> function for window subclassing. Usually, all windows with the same class share one window procedure. A subclass is a window or set of windows with the same class whose messages are intercepted and processed by another window procedure (or procedures) before being passed to the window procedure of the class. 
 
@@ -154,9 +138,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -178,7 +159,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-procedures">Window Procedures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 469e6d61-85c6-4385-92be-df6addefe37f
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx interface [VSS],SetSelectedForRestoreEx method, IVssBackupComponentsEx.SetSelectedForRestoreEx, IVssBackupComponentsEx::SetSelectedForRestoreEx, SetSelectedForRestoreEx, SetSelectedForRestoreEx method [VSS], SetSelectedForRestoreEx method [VSS],IVssBackupComponentsEx interface, base.ivssbackupcomponentsex_setselectedforrestoreex, vsbackup/IVssBackupComponentsEx::SetSelectedForRestoreEx
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx.SetSelectedForRestoreEx
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponentsEx.SetSelectedForRestoreEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx::SetSelectedForRestoreEx
+ - vsbackup/IVssBackupComponentsEx::SetSelectedForRestoreEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponentsEx.SetSelectedForRestoreEx
 ---
 
 # IVssBackupComponentsEx::SetSelectedForRestoreEx
@@ -50,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
     <b>SetSelectedForRestoreEx</b> method indicates whether the specified selectable component is selected for restoration to a specified writer instance.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Globally unique identifier (GUID) of the writer class.
 
-
 ### -param ct [in]
 
 Type of the component. See <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> 
       for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -83,7 +77,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the name of the component. 
@@ -93,12 +86,10 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
       to the backup set using 
       the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a> method.
 
-
 ### -param bSelectedForRestore [in]
 
 If the value of this parameter is <b>true</b>, the selected component has been selected for restoration. If the 
      value is <b>false</b>, the selected component has not been selected for restoration.
-
 
 ### -param instanceId [in]
 
@@ -106,10 +97,7 @@ GUID of the writer instance.
 
 The default value for this parameter is GUID_NULL.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -203,14 +191,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SetSelectedForRestoreEx</b>, which moves a component to a different writer instance, can be called only for a writer that supports running multiple writer instances with the same class ID and supports a requester moving a component to a different writer instance at restore time. To determine whether a writer provides this support, call the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema">IVssExamineWriterMetadata::GetBackupSchema</a> method.
 
@@ -240,13 +222,7 @@ The <i>instanceId</i> parameter is used to specify that the component is to be r
 
 A writer's class identifier, instance identifier, and instance name can be found by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex">IVssExamineWriterMetadataEx::GetIdentityEx</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">IVssBackupComponents::SetSelectedForRestore</a>
 
@@ -261,7 +237,4 @@ A writer's class identifier, instance identifier, and instance name can be found
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex">IVssExamineWriterMetadataEx::GetIdentityEx</a>
- 
-
- 
 

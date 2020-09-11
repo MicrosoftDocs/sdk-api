@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: eebfe049-e30e-40e0-a3bd-85a4bc11582f
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],PutMethod method, IWbemClassObject.PutMethod, IWbemClassObject::PutMethod, PutMethod, PutMethod method [Windows Management Instrumentation], PutMethod method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_putmethod, wbemcli/IWbemClassObject::PutMethod, wmi.iwbemclassobject_putmethod
-f1_keywords:
-- wbemcli/IWbemClassObject.PutMethod
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CIMWin32.dll
-- Esscli.dll
-- Fastprox.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Krnlprov.dll
-- Ncprov.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wmipiprt.dll
-api_name:
-- IWbemClassObject.PutMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemClassObject::PutMethod
+ - wbemcli/IWbemClassObject::PutMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CIMWin32.dll
+ - Esscli.dll
+ - Fastprox.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Krnlprov.dll
+ - Ncprov.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wmipiprt.dll
+api_name:
+ - IWbemClassObject.PutMethod
 ---
 
 # IWbemClassObject::PutMethod
@@ -58,50 +59,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The  <b>IWbemClassObject::PutMethod</b> is used to create a method. This call is only supported if the current object is a CIM class definition. Method manipulation is not available from 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers that point to CIM instances.
 
 The user cannot create methods with names that begin or end with an underscore. This is reserved for system classes and properties.
 
-
 ## -parameters
-
-
-
 
 ### -param wszName [in]
 
 The method name that is  created.
 
-
 ### -param lFlags [in]
 
 Reserved. This parameter must be 0 (zero).
-
 
 ### -param pInSignature [in]
 
 A pointer to a copy of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a> system class that contains the in parameters for the method. This parameter is ignored if set to <b>NULL</b>.
 
-
 ### -param pOutSignature [in]
 
 A pointer to a copy of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a> system class that contains the out parameters for the object. This parameter is ignored if set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 For a method, the in and out parameters are described as properties in 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> objects.
@@ -134,12 +119,7 @@ Each property in a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--
 <div class="alert"><b>Note</b>  The caller must call <b>IWbemClassObject::Release</b> on the <i>pInSignature</i> and <i>pOutSignature</i> pointers when these objects are no longer required.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-method">Creating a Method</a>
 
@@ -150,7 +130,4 @@ Each property in a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethod">IWbemClassObject::GetMethod</a>
- 
-
- 
 

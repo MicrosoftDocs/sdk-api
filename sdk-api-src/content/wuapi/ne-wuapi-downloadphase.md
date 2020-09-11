@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: a7e930dd-1dfa-42cc-9761-d4252c9a92ae
 ms.date: 12/05/2018
 ms.keywords: DownloadPhase, DownloadPhase enumeration [Windows Update Agent], dphDownloading, dphInitializing, dphVerifying, wua.downloadphase, wuapi/DownloadPhase, wuapi/dphDownloading, wuapi/dphInitializing, wuapi/dphVerifying
-f1_keywords:
-- wuapi/DownloadPhase
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wuapi.h
-api_name:
-- DownloadPhase
 targetos: Windows
 req.typenames: DownloadPhase
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagDownloadPhase
+ - wuapi/tagDownloadPhase
+ - DownloadPhase
+ - wuapi/DownloadPhase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wuapi.h
+api_name:
+ - DownloadPhase
 ---
 
 # DownloadPhase enumeration
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the progress of the download of the current update that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadprogress-get_currentupdatedownloadphase">CurrentUpdateDownloadPhase</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field dphInitializing
 
 Initializing the download of the current update.
 
-
 ### -field dphDownloading
 
 Downloading the current update.
-
 
 ### -field dphVerifying
 

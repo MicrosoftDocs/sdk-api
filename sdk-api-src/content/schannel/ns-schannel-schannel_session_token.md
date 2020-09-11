@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3c8f5380-eead-4495-8dff-a9561a787930
 ms.date: 12/05/2018
 ms.keywords: PSCHANNEL_SESSION_TOKEN, PSCHANNEL_SESSION_TOKEN structure pointer [Security], SCHANNEL_SESSION_TOKEN, SCHANNEL_SESSION_TOKEN structure [Security], SSL_SESSION_DISABLE_RECONNECTS, SSL_SESSION_ENABLE_RECONNECTS, schannel/PSCHANNEL_SESSION_TOKEN, schannel/SCHANNEL_SESSION_TOKEN, security.schannel_session_token
-f1_keywords:
-- schannel/SCHANNEL_SESSION_TOKEN
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Schannel.h
-api_name:
-- SCHANNEL_SESSION_TOKEN
 targetos: Windows
 req.typenames: SCHANNEL_SESSION_TOKEN
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SCHANNEL_SESSION_TOKEN
+ - schannel/_SCHANNEL_SESSION_TOKEN
+ - SCHANNEL_SESSION_TOKEN
+ - schannel/SCHANNEL_SESSION_TOKEN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Schannel.h
+api_name:
+ - SCHANNEL_SESSION_TOKEN
 ---
 
 # SCHANNEL_SESSION_TOKEN structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether reconnections are enabled for an authentication session created by calling either the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Schannel)</a>  function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwTokenType
 
 Specifies the type of this structure. Set the value of this member to <b>SCHANNEL_SESSION</b>.
-
 
 ### -field dwFlags
 
@@ -95,16 +92,10 @@ Reconnections are disabled.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Add a session token to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 This API only applies to Session ID-based reconnects.
-
-
 

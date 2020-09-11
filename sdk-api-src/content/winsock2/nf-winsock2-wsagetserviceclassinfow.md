@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: e177bb7d-c7d3-43a4-a809-ab8212feea2e
 ms.date: 12/05/2018
 ms.keywords: WSAGetServiceClassInfo, WSAGetServiceClassInfo function [Winsock], WSAGetServiceClassInfoA, WSAGetServiceClassInfoW, _win32_wsagetserviceclassinfo_2, winsock.wsagetserviceclassinfo_2, winsock2/WSAGetServiceClassInfo, winsock2/WSAGetServiceClassInfoA, winsock2/WSAGetServiceClassInfoW
-f1_keywords:
-- winsock2/WSAGetServiceClassInfo
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAGetServiceClassInfo
-- WSAGetServiceClassInfoA
-- WSAGetServiceClassInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAGetServiceClassInfoW
+ - winsock2/WSAGetServiceClassInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAGetServiceClassInfo
+ - WSAGetServiceClassInfoA
+ - WSAGetServiceClassInfoW
 ---
 
 # WSAGetServiceClassInfoW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAGetServiceClassInfo</b> function retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a GUID that identifies a specific namespace provider.
 
-
 ### -param lpServiceClassId [in]
 
 A pointer to a GUID identifying the service class.
-
 
 ### -param lpdwBufSize [in, out]
 
@@ -78,15 +72,11 @@ On input, the number of bytes contained in the buffer pointed to by the <i>lpSer
 On output, if the function fails and the error is 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, this parameter specifies the minimum size, in bytes, of the buffer pointed to <i>lpServiceClassInfo</i> needed to retrieve the record.
 
-
 ### -param lpServiceClassInfo [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFO</a> structure that contains the service class information from the indicated namespace provider for the specified service class.
 
-
 ## -returns
-
-
 
 The return value is zero if the 
 <b>WSAGetServiceClassInfo</b> was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
@@ -187,14 +177,8 @@ The specified class was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAGetServiceClassInfo</b> function retrieves service class information from a namespace provider. The service class information retrieved from a particular namespace provider might not be the complete set of class information that was specified when the service class was installed. Individual namespace providers are only required to retain service class information that is applicable to the namespaces that they support. See the section 
@@ -208,9 +192,6 @@ The
 > The winsock2.h header defines WSAGetServiceClassInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/service-class-data-structures-in-the-spi-2">Service Class Data Structures</a>
 
@@ -233,7 +214,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

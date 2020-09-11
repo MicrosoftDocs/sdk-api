@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcelanguages.htm
 ms.date: 12/05/2018
 ms.keywords: EnumResourceLanguages, EnumResourceLanguages function [Menus and Other Resources], EnumResourceLanguagesA, EnumResourceLanguagesW, _win32_EnumResourceLanguages, _win32_enumresourcelanguages_cpp, menurc.enumresourcelanguages, winbase/EnumResourceLanguages, winbase/EnumResourceLanguagesA, winbase/EnumResourceLanguagesW, winui._win32_enumresourcelanguages
-f1_keywords:
-- winbase/EnumResourceLanguages
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- EnumResourceLanguages
-- EnumResourceLanguagesA
-- EnumResourceLanguagesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumResourceLanguagesW
+ - winbase/EnumResourceLanguagesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - EnumResourceLanguages
+ - EnumResourceLanguagesA
+ - EnumResourceLanguagesW
 ---
 
 # EnumResourceLanguagesW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates language-specific resources, of the specified type and name, associated with a binary module.
 
-
 ## -parameters
-
-
-
 
 ### -param hModule [in]
 
@@ -70,7 +66,6 @@ The handle to a module to be searched. Starting with Windows Vista, if this is 
 
 If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to the module used to create the current process.
 
-
 ### -param lpType [in]
 
 Type: <b>LPCTSTR</b>
@@ -79,42 +74,31 @@ The type of resource for which the language is being enumerated. Alternately, ra
 
 the Remarks section below.
 
-
 ### -param lpName [in]
 
 Type: <b>LPCTSTR</b>
 
 The name of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
-
 ### -param lpEnumFunc [in]
 
 Type: <b>ENUMRESLANGPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource language. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)">EnumResLangProc</a>. 
-
+A pointer to the callback function to be called for each enumerated resource language. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)">EnumResLangProc</a>.
 
 ### -param lParam [in]
 
 Type: <b>LONG_PTR</b>
 
-An application-defined value passed to the callback function. This parameter can be used in error checking. 
-
+An application-defined value passed to the callback function. This parameter can be used in error checking.
 
 ## -returns
 
-
-
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpType</i>) is <b>TRUE</b>, then <i>lpType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
 
@@ -151,9 +135,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -179,7 +160,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
- 
-
- 
 

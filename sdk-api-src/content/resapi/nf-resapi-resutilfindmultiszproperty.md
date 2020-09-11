@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 65209ca8-e293-40cc-ac8a-9643933e049f
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_MULTI_SZ_PROPERTY, PRESUTIL_FIND_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilFindMultiSzProperty, ResUtilFindMultiSzProperty function [Failover Cluster], _wolf_resutilfindmultiszproperty, mscs.resutilfindmultiszproperty, resapi/PRESUTIL_FIND_MULTI_SZ_PROPERTY, resapi/ResUtilFindMultiSzProperty
-f1_keywords:
-- resapi/ResUtilFindMultiSzProperty
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilFindMultiSzProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilFindMultiSzProperty
+ - resapi/ResUtilFindMultiSzProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilFindMultiSzProperty
 ---
 
 # ResUtilFindMultiSzProperty function
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates a multiple string property in a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>. The <b>PRESUTIL_FIND_MULTI_SZ_PROPERTY</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param pPropertyList [in]
 
 Pointer to the property list in which to locate the value.
 
-
 ### -param cbPropertyListSize [in]
 
 Size in bytes of the data included in <i>pPropertyList</i>.
-
 
 ### -param pszPropertyName [in]
 
 Pointer to a null-terminated Unicode string containing the name of the value to locate.
 
-
 ### -param pszPropertyValue [out]
 
 Pointer to a <b>WCHAR</b> pointer to a buffer (allocated by the function) containing a copy of the property value. You must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> (on *<i>pbPropertyValue</i>) to free the allocated memory. If no value is required, pass <b>NULL</b> for this parameter.
-
 
 ### -param pcbPropertyValueSize [out]
 
 Pointer to the size, in bytes, of the value returned. If no size is required, pass <b>NULL</b> for this parameter.
 
-
 ## -returns
-
-
 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -131,24 +120,12 @@ The specified property could not be located in the property list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If  <b>ResUtilFindMultiSzProperty</b> is successful, *<i>pbPropertyValue</i> points to a copy of the data stored in <i>pPropertyList</i>. Be sure to call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> on *<i>pbPropertyValue</i> to prevent memory leaks.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindbinaryproperty">ResUtilFindBinaryProperty</a>
 
@@ -171,7 +148,4 @@ If  <b>ResUtilFindMultiSzProperty</b> is successful, *<i>pbPropertyValue</i> poi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindszproperty">ResUtilFindSzProperty</a>
- 
-
- 
 

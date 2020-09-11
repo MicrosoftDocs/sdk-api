@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1a1a175f-a24e-4f83-92d3-ac6a24f5f486
 ms.date: 12/05/2018
 ms.keywords: ITfCompartment interface [Text Services Framework],SetValue method, ITfCompartment.SetValue, ITfCompartment::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfCompartment interface, _tsf_itfcompartment_setvalue_ref, msctf/ITfCompartment::SetValue, tsf.itfcompartment_setvalue
-f1_keywords:
-- msctf/ITfCompartment.SetValue
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCompartment.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompartment::SetValue
+ - msctf/ITfCompartment::SetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCompartment.SetValue
 ---
 
 # ITfCompartment::SetValue
+
 
 ## -description
 
@@ -118,3 +120,4 @@ The compartment was cleared by a call to <a href="https://docs.microsoft.com/win
 ## -see-also
 
 [ITfCompartment interface](nn-msctf-itfcompartment.md), [ITfCompartment::GetValue](nf-msctf-itfcompartment-getvalue.md), [ITfCompartmentMgr::ClearCompartment](nf-msctf-itfcompartmentmgr-clearcompartment.md), [VariantClear function](../oleauto/nf-oleauto-variantclear.md)
+

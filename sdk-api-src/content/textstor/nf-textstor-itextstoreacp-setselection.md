@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: e9151b63-2ca7-4995-a36b-b919ab2d491a
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],SetSelection method, ITextStoreACP.SetSelection, ITextStoreACP::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_setselection_ref, textstor/ITextStoreACP::SetSelection, tsf.itextstoreacp_setselection
-f1_keywords:
-- textstor/ITextStoreACP.SetSelection
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP.SetSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP::SetSelection
+ - textstor/ITextStoreACP::SetSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP.SetSelection
 ---
 
 # ITextStoreACP::SetSelection
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreACP::SetSelection</b> method selects text within the document. The application must have a read/write lock on the document before calling this method.
 
-
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 Specifies the number of text selections in <i>pSelection</i>.
-
 
 ### -param pSelection [in]
 
@@ -69,10 +64,7 @@ Specifies the style, start, and end character positions of the text selected thr
 
 When the start and end character positions are equal, the method places a caret at that character position. There can be only one caret at a time in the document.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -126,15 +118,8 @@ The caller does not have a read/write lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
@@ -147,7 +132,4 @@ The caller does not have a read/write lock.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
       </a>
- 
-
- 
 

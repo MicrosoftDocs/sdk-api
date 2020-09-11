@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageitemdata.htm
 ms.date: 12/05/2018
 ms.keywords: ImageItemData, ImageItemData class [GDI+], ImageItemData class [GDI+],described, _gdiplus_CLASS_ImageItemData_Class, gdiplus._gdiplus_CLASS_ImageItemData_Class, gdiplusimaging/ImageItemData
-f1_keywords:
-- gdiplusimaging/ImageItemData
-dev_langs:
-- c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.lib
-- Gdiplus.dll
-api_name:
-- ImageItemData
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - ImageItemData
+ - gdiplusimaging/ImageItemData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.lib
+ - Gdiplus.dll
+api_name:
+ - ImageItemData
 ---
 
 # ImageItemData class
@@ -51,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ImageItemData</b> class is used to store and retrieve custom image metadata. Windows GDI+ supports custom metadata for JPEG, PNG, and GIF image files.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">ImageItemData</b> has these types of members:
 
-
 ## -remarks
-
-
 
 To retrieve custom metadata from an image file, call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getitemdata">Image::GetItemData</a>. To store custom metadata in an image file, follow these steps:
 
@@ -105,7 +102,4 @@ encoderParameters.Parameter[0].Value = &itemData;
 Image image(L"River.jpg");
 image.Save(L"River2.jpg", &encoderClsid, &encoderParameters);
 ```
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d97e0257-c3b0-48d5-b801-594763be8178
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_UPDATE_PROPERTIES, IOCTL_DISK_UPDATE_PROPERTIES control, IOCTL_DISK_UPDATE_PROPERTIES control code [Files], _win32_ioctl_disk_update_properties, base.ioctl_disk_update_properties, fs.ioctl_disk_update_properties, winioctl/IOCTL_DISK_UPDATE_PROPERTIES
-f1_keywords:
-- winioctl/IOCTL_DISK_UPDATE_PROPERTIES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_UPDATE_PROPERTIES
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_UPDATE_PROPERTIES
+ - winioctl/IOCTL_DISK_UPDATE_PROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_UPDATE_PROPERTIES
 ---
 
 # IOCTL_DISK_UPDATE_PROPERTIES IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -92,7 +88,6 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 This operation is used in synchronizing the system view of the specified disk device when the partition table of the disk is directly modified. Be sure to perform this operation when you update the usable space for a disk so that the system will update its partition table.
@@ -101,8 +96,8 @@ You can update the properties of a live volume, and the volume can be open for s
 
 You do not need to lock a volume that you are updating, nor do you need to shut down other applications or services during the update operation.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+

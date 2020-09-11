@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 1deb9c84-1a5b-5dac-af0f-ae6b49a9c473
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetTransform method, IDCompositionVisual3.SetTransform, IDCompositionVisual3::SetTransform, IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F &), IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F&), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetTransform, directcomp.idcompositionvisual3_settransform_1
-f1_keywords:
-- dcomp/IDCompositionVisual3.SetTransform
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionVisual3.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionVisual3::SetTransform
+ - dcomp/IDCompositionVisual3::SetTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionVisual3.SetTransform
 ---
 
 # IDCompositionVisual3::SetTransform
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the Transform property of this visual to the specified 4-by-4 transform matrix.  
-
+Sets the Transform property of this visual to the specified 4-by-4 transform matrix.
 
 ## -parameters
-
-
-
 
 ### -param matrix [in, ref]
 
@@ -64,21 +60,13 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/n
 
 The 4-by-4 transform matrix that is used to modify  the coordinate system of this visual.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 Setting the Transform property transforms the coordinate system of the entire visual subtree that is rooted at this visual. If the Clip property of this visual is specified, the clip rectangle is also transformed.
 
@@ -86,13 +74,7 @@ Setting the Transform property transforms the coordinate system of the entire vi
 
 If the Transform property previously specified a transform object, the newly specified transform matrix replaces the transform object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionmatrixtransform">IDCompositionMatrixTransform</a>
 
@@ -131,7 +113,4 @@ If the Transform property previously specified a transform object, the newly spe
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449171(v=vs.85)">IDCompositionVisual::SetOffsetY</a>
- 
-
- 
 

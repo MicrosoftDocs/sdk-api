@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: c01d80eb-9156-4fbf-98ff-7f06b145e72f
 ms.date: 12/05/2018
 ms.keywords: AdviseItemSink, AdviseItemSink method [Text Services Framework], AdviseItemSink method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AdviseItemSink method, ITfLangBarItemMgr.AdviseItemSink, ITfLangBarItemMgr::AdviseItemSink, _tsf_itflangbaritemmgr_adviseitemsink_ref, ctfutb/ITfLangBarItemMgr::AdviseItemSink, tsf.itflangbaritemmgr_adviseitemsink
-f1_keywords:
-- ctfutb/ITfLangBarItemMgr.AdviseItemSink
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemMgr.AdviseItemSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemMgr::AdviseItemSink
+ - ctfutb/ITfLangBarItemMgr::AdviseItemSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemMgr.AdviseItemSink
 ---
 
 # ITfLangBarItemMgr::AdviseItemSink
@@ -53,27 +54,19 @@ Installs a language bar item event sink for a language bar item.
 
 ## -parameters
 
-
-
-
 ### -param punk [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemsink">ITfLangBarItemSink</a> object to install.
-
 
 ### -param pdwCookie [out]
 
 Pointer to a <b>DWORD</b> that receives an advise sink identification cookie. This cookie identifies the advise sink when it is removed with the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-unadviseitemsink">ITfLangBarItemMgr::UnadviseItemSink</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-unadviseitemssink">ITfLangBarItemMgr::UnadviseItemsSink</a> method.
 
-
 ### -param rguidItem [in]
 
 Contains the <b>GUID</b> that identifies the item to install the advise sink for. This is the item <b>GUID</b> that the item supplies in <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>. This can be a custom value or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-lang-bar-items">predefined language bar items</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -138,15 +131,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>
 
@@ -172,7 +158,4 @@ A memory allocation failure occurred.
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-lang-bar-items">Predefined language bar items
       </a>
- 
-
- 
 

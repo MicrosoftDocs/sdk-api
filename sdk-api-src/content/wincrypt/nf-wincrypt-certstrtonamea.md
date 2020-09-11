@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8bdfafa6-9833-4689-a155-dff09647ec8d
 ms.date: 12/05/2018
 ms.keywords: CERT_NAME_STR_COMMA_FLAG, CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CRYPT_E_INVALID_IA5_STRING, CRYPT_E_INVALID_NUMERIC_STRING, CRYPT_E_INVALID_PRINTABLE_STRING, CRYPT_E_INVALID_X500_STRING, CertStrToName, CertStrToName function [Security], CertStrToNameA, CertStrToNameW, X509_ASN_ENCODING, _crypto2_certstrtoname, security.certstrtoname, wincrypt/CertStrToName, wincrypt/CertStrToNameA, wincrypt/CertStrToNameW
-f1_keywords:
-- wincrypt/CertStrToName
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertStrToName
-- CertStrToNameA
-- CertStrToNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertStrToNameA
+ - wincrypt/CertStrToNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertStrToName
+ - CertStrToNameA
+ - CertStrToNameW
 ---
 
 # CertStrToNameA function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertStrToName</b> function converts a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> string to an encoded certificate name.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -86,8 +82,6 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszX500 [in]
 
@@ -95,7 +89,6 @@ A pointer to the null-terminated X.500 string to be converted. The format of thi
 
 This string is expected to be formatted the same as the output from 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> function.
-
 
 ### -param dwStrType [in]
 
@@ -291,13 +284,10 @@ If the string contains an email RDN value, and the email address  contains Unico
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvReserved [in, optional]
 
 Reserved for future use and must be <b>NULL</b>.
-
 
 ### -param pbEncoded [out]
 
@@ -309,13 +299,11 @@ The size of this buffer is specified in the <i>pcbEncoded</i> parameter.
 This parameter can be <b>NULL</b> to obtain the required size of the buffer for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-
 ### -param pcbEncoded [in, out]
 
 A pointer to a <b>DWORD</b> that, before calling the function, contains the size, in bytes, of the buffer pointed to by the <i>pbEncoded</i> parameter. When the function returns, the <b>DWORD</b> contains the number of bytes stored in the buffer.
 
 If <i>pbEncoded</i> is <b>NULL</b>, the <b>DWORD</b> receives the size, in bytes, required for the buffer.
-
 
 ### -param ppszError [out, optional]
 
@@ -356,10 +344,7 @@ This parameter is updated for the following error codes returned from <a href="h
 
 #### CRYPT_E_INVALID_IA5_STRING
 
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 						
@@ -367,12 +352,7 @@ Returns nonzero if successful or zero otherwise.
 For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The following table contains the supported X.500 keys, their corresponding object identifier string, string identifier (from Wincrypt.h), and value types.
 
@@ -681,9 +661,6 @@ For an example that uses this function, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
 
 
@@ -697,7 +674,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>
- 
-
- 
 

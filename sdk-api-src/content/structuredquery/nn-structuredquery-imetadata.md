@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\imetadata.htm
 ms.date: 12/05/2018
 ms.keywords: IMetaData, IMetaData interface [search], IMetaData interface [search],described, _search_IMetaData, search._search_IMetaData, structuredquery/IMetaData
-f1_keywords:
-- structuredquery/IMetaData
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- IMetaData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMetaData
+ - structuredquery/IMetaData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - IMetaData
 ---
 
 # IMetaData interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method for retrieving a key/value pair of strings from an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>, <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-irelationship">IRelationship</a> or <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ischemaprovider">ISchemaProvider</a> object.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Retrieves one key/value pair from the metadata of an <a href="https://docs.micro
 
 </td>
 </tr>
-</table> 
+</table>
 

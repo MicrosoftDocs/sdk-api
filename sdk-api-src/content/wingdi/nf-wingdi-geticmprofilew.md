@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 1e16771a-80c5-47bb-9c98-14169d4dd773
 ms.date: 12/05/2018
 ms.keywords: GetICMProfile, GetICMProfile function [Windows Color System], GetICMProfileA, GetICMProfileW, _color_GetICMProfile, wcs.geticmprofile, wingdi/GetICMProfile, wingdi/GetICMProfileA, wingdi/GetICMProfileW
-f1_keywords:
-- wingdi/GetICMProfile
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetICMProfile
-- GetICMProfileA
-- GetICMProfileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetICMProfileW
+ - wingdi/GetICMProfileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetICMProfile
+ - GetICMProfileA
+ - GetICMProfileW
 ---
 
 # GetICMProfileW function
@@ -53,44 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetICMProfile</b> function retrieves the file name of the current output color profile for a specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc
 
 Specifies a device context from which to retrieve the color profile.
 
-
 ### -param pBufSize
 
 Pointer to a <b>DWORD</b> that contains the size of the buffer pointed to by <i>lpszFilename</i>. For the ANSI version of this function, the size is in bytes. For the Unicode version, the size is in WCHARs. If this function is successful, on return this parameter contains the size of the buffer actually used. However, if the buffer is not large enough, this function returns <b>FALSE</b>. In this case, the <b>GetLastError()</b> function returns ERROR_INSUFFICIENT_BUFFER and the <b>DWORD</b> pointed to by this parameter contains the size needed for the <i>lpszFilename</i> buffer.
-
 
 ### -param pszFilename
 
 Points to the buffer that receives the path name of the profile.
 
-
 ## -returns
-
-
 
 If this function succeeds, the return value is <b>TRUE</b>. It also returns <b>TRUE</b> if the <i>lpszFilename</i> parameter is <b>NULL</b> and the size required for the buffer is copied into <i>lpcbName.</i>
 
 If this function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>GetICMProfile</b> obtains the file name of the current output profile regardless of whether or not color management is enabled for the device context.
 
@@ -111,9 +97,6 @@ If this function is called before any calls to the <b>SetICMProfile</b> function
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
@@ -127,7 +110,4 @@ If this function is called before any calls to the <b>SetICMProfile</b> function
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
- 
-
- 
 

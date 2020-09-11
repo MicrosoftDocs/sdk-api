@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: cf783b70-4d19-4006-ad0e-e1f883f00b0b
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAccelerator, IWMReaderAccelerator interface [windows Media Format], IWMReaderAccelerator interface [windows Media Format],described, IWMReaderAcceleratorInterface, wmformat.iwmreaderaccelerator, wmsdkidl/IWMReaderAccelerator
-f1_keywords:
-- wmsdkidl/IWMReaderAccelerator
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMReaderAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAccelerator
+ - wmsdkidl/IWMReaderAccelerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMReaderAccelerator
 ---
 
 # IWMReaderAccelerator interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMReaderAccelerator</b> interface is implemented on the reader object only when it is in decoding mode. It is called by a player or a player source filter to obtain interfaces from the decoder <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DMO</a>.
-
-
-
 
 ## -inheritance
 
@@ -93,15 +89,7 @@ Called by the source filter to pass in the negotiated media type.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
- 
-
- 
 

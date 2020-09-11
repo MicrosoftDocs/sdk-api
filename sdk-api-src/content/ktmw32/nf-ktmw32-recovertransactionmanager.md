@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6f217ebb-3423-41d3-acff-eb21838c9751
 ms.date: 12/05/2018
 ms.keywords: RecoverTransactionManager, RecoverTransactionManager function [Files], fs.recovertransactionmanager, ktmw32/RecoverTransactionManager
-f1_keywords:
-- ktmw32/RecoverTransactionManager
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ktmw32.dll
-api_name:
-- RecoverTransactionManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RecoverTransactionManager
+ - ktmw32/RecoverTransactionManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ktmw32.dll
+api_name:
+ - RecoverTransactionManager
 ---
 
 # RecoverTransactionManager function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Recovers a transaction manager's state from  its log file.
 
-
 ## -parameters
-
-
-
 
 ### -param TransactionManagerHandle [in]
 
 A handle to the transaction manager.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. 
 
@@ -76,29 +69,15 @@ If the function fails, the return value is zero (0). To get extended error infor
 
  The following list identifies the possible error codes:
 
-
-
-
 ## -remarks
-
-
 
 This function must be called after you call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransactionmanager">CreateTransactionManager</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransactionmanager">CreateTransactionManager</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
- 
-
- 
 

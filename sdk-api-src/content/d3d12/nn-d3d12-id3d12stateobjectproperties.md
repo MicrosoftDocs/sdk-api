@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 3971089A-2779-42FA-8FF9-6C7C8E39C7F9
 ms.date: 12/05/2018
 ms.keywords: ID3D12StateObjectProperties, ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,described, d3d12/ID3D12StateObjectProperties, direct3d12.id3d12stateobjectproperties
-f1_keywords:
-- d3d12/ID3D12StateObjectProperties
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12StateObjectProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12StateObjectProperties
+ - d3d12/ID3D12StateObjectProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12StateObjectProperties
 ---
 
 # ID3D12StateObjectProperties interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for getting and setting the properties of an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Set the current pipeline stack size.
 
 </td>
 </tr>
-</table> 
+</table>
 

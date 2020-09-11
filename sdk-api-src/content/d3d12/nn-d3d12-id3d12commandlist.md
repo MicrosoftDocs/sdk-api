@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 1E0359CC-0F53-4C82-9F1A-092F6F72EE20
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandList, ID3D12CommandList interface, ID3D12CommandList interface,described, d3d12/ID3D12CommandList, direct3d12.id3d12commandlist
-f1_keywords:
-- d3d12/ID3D12CommandList
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,32 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12CommandList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12CommandList
+ - d3d12/ID3D12CommandList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12CommandList
 ---
-
 
 # ID3D12CommandList interface
 
 
 ## -description
 
-
 An interface from which <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a> inherits. It represents an ordered set of commands that the GPU executes, while allowing for extension to support other command lists than just those for graphics (such as compute and copy).
-
 
 ## -inheritance
 
@@ -79,12 +77,9 @@ Gets the type of the command list, such as direct, bundle, compute, or copy.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandlist">ID3D12Device::CreateCommandList</a> to create a command list object.
       
@@ -162,12 +157,7 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
@@ -182,3 +172,4 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/setting-descriptor-heaps">Setting descriptor heaps</a>
+

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: ec5db6f9-93fa-4dbe-afdb-c039292b26e3
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPV5HEADER, *PBITMAPV5HEADER, BITMAPV5HEADER, BITMAPV5HEADER structure [Windows GDI], PBITMAPV5HEADER, PBITMAPV5HEADER structure pointer [Windows GDI], _win32_BITMAPV5HEADER_str, gdi.bitmapv5header, wingdi/BITMAPV5HEADER, wingdi/PBITMAPV5HEADER'
-f1_keywords:
-- wingdi/BITMAPV5HEADER
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- BITMAPV5HEADER
 targetos: Windows
 req.typenames: BITMAPV5HEADER, *LPBITMAPV5HEADER, *PBITMAPV5HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPBITMAPV5HEADER
+ - wingdi/LPBITMAPV5HEADER
+ - BITMAPV5HEADER
+ - wingdi/BITMAPV5HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - BITMAPV5HEADER
 ---
 
 # BITMAPV5HEADER structure
@@ -49,29 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field bV5Size
 
 The number of bytes required by the structure. Applications should use this member to determine which bitmap information header structure is being used.
-
 
 ### -field bV5Width
 
 The width of the bitmap, in pixels.
 
 If <b>bV5Compression</b> is BI_JPEG or BI_PNG, the <b>bV5Width</b> member specifies the width of the decompressed JPEG or PNG image in pixels.
-
 
 ### -field bV5Height
 
@@ -81,11 +74,9 @@ If <b>bV5Height</b> is negative, indicating a top-down DIB, <b>bV5Compression</b
 
 If <b>bV5Compression</b> is BI_JPEG or BI_PNG, the <b>bV5Height</b> member specifies the height of the decompressed JPEG or PNG image in pixels.
 
-
 ### -field bV5Planes
 
 The number of planes for the target device. This value must be set to 1.
-
 
 ### -field bV5BitCount
 
@@ -135,8 +126,6 @@ When the <b>bV5Compression</b> member is BI_BITFIELDS, bits set in each <b>DWORD
 </td>
 </tr>
 </table>
- 
-
 
 ### -field bV5Compression
 
@@ -172,8 +161,6 @@ Specifies that the bitmap is not compressed. The <b>bV5RedMask</b>, <b>bV5GreenM
 <td>Specifies that the image is compressed using the PNG file Interchange Format.</td>
 </tr>
 </table>
- 
-
 
 ### -field bV5SizeImage
 
@@ -181,16 +168,13 @@ The size, in bytes, of the image. This may be set to zero for BI_RGB bitmaps.
 
 If <b>bV5Compression</b> is BI_JPEG or BI_PNG, <b>bV5SizeImage</b> is the size of the JPEG or PNG image buffer.
 
-
 ### -field bV5XPelsPerMeter
 
 The horizontal resolution, in pixels-per-meter, of the target device for the bitmap. An application can use this value to select a bitmap from a resource group that best matches the characteristics of the current device.
 
-
 ### -field bV5YPelsPerMeter
 
 The vertical resolution, in pixels-per-meter, of the target device for the bitmap.
-
 
 ### -field bV5ClrUsed
 
@@ -198,31 +182,25 @@ The number of color indexes in the color table that are actually used by the bit
 
 If <b>bV5ClrUsed</b> is nonzero and <b>bV5BitCount</b> is less than 16, the <b>bV5ClrUsed</b> member specifies the actual number of colors the graphics engine or device driver accesses. If <b>bV5BitCount</b> is 16 or greater, the <b>bV5ClrUsed</b> member specifies the size of the color table used to optimize performance of the system color palettes. If <b>bV5BitCount</b> equals 16 or 32, the optimal color palette starts immediately following the <b>BITMAPV5HEADER</b>. If <b>bV5ClrUsed</b> is nonzero, the color table is used on palettized devices, and <b>bV5ClrUsed</b> specifies the number of entries.
 
-
 ### -field bV5ClrImportant
 
 The number of color indexes that are required for displaying the bitmap. If this value is zero, all colors are required.
-
 
 ### -field bV5RedMask
 
 Color mask that specifies the red component of each pixel, valid only if <b>bV5Compression</b> is set to BI_BITFIELDS.
 
-
 ### -field bV5GreenMask
 
 Color mask that specifies the green component of each pixel, valid only if <b>bV5Compression</b> is set to BI_BITFIELDS.
-
 
 ### -field bV5BlueMask
 
 Color mask that specifies the blue component of each pixel, valid only if <b>bV5Compression</b> is set to BI_BITFIELDS.
 
-
 ### -field bV5AlphaMask
 
 Color mask that specifies the alpha component of each pixel.
-
 
 ### -field bV5CSType
 
@@ -260,26 +238,21 @@ The following table specifies the values for <b>bV5CSType</b>.
 
 See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> structure for information that defines a logical color space.
 
-
 ### -field bV5Endpoints
 
 A <a href="/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a> structure that specifies the x, y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for the logical color space associated with the bitmap. This member is ignored unless the <b>bV5CSType</b> member specifies LCS_CALIBRATED_RGB.
-
 
 ### -field bV5GammaRed
 
 Toned response curve for red. Used if <b>bV5CSType</b> is set to LCS_CALIBRATED_RGB. Specify in unsigned fixed 16.16 format. The upper 16 bits are the unsigned integer value. The lower 16 bits are the fractional part.
 
-
 ### -field bV5GammaGreen
 
 Toned response curve for green. Used if <b>bV5CSType</b> is set to LCS_CALIBRATED_RGB. Specify in unsigned fixed 16.16 format. The upper 16 bits are the unsigned integer value. The lower 16 bits are the fractional part.
 
-
 ### -field bV5GammaBlue
 
 Toned response curve for blue. Used if <b>bV5CSType</b> is set to LCS_CALIBRATED_RGB. Specify in unsigned fixed 16.16 format. The upper 16 bits are the unsigned integer value. The lower 16 bits are the fractional part.
-
 
 ### -field bV5Intent
 
@@ -317,27 +290,20 @@ Rendering intent for bitmap. This can be one of the following values.
 <td>Maintains contrast. Used for photographs and natural images.</td>
 </tr>
 </table>
- 
-
 
 ### -field bV5ProfileData
 
 The offset, in bytes, from the beginning of the <b>BITMAPV5HEADER</b> structure to the start of the profile data. If the profile is embedded, profile data is the actual profile, and it is linked. (The profile data is the null-terminated file name of the profile.) This cannot be a Unicode string. It must be composed exclusively of characters from the Windows character set (code page 1252). These profile members are ignored unless the <b>bV5CSType</b> member specifies PROFILE_LINKED or PROFILE_EMBEDDED.
 
-
 ### -field bV5ProfileSize
 
 Size, in bytes, of embedded profile data.
-
 
 ### -field bV5Reserved
 
 This member has been reserved. Its value should be set to zero.
 
-
 ## -remarks
-
-
 
 If <b>bV5Height</b> is negative, indicating a top-down DIB, <b>bV5Compression</b> must be either BI_RGB or BI_BITFIELDS. Top-down DIBs cannot be compressed.
 
@@ -351,13 +317,7 @@ Applications should access the profile data only when <b>bV5Size</b> equals the 
 
 If a profile is linked, the path of the profile can be any fully qualified name (including a network path) that can be opened using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
@@ -392,7 +352,4 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 3d484e5d-bdc6-41f1-bd94-ab0c9e109222
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDefaultDeviceChanged method, IMMNotificationClient.OnDefaultDeviceChanged, IMMNotificationClient::OnDefaultDeviceChanged, IMMNotificationClientOnDefaultDeviceChanged, OnDefaultDeviceChanged, OnDefaultDeviceChanged method [Core Audio], OnDefaultDeviceChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondefaultdevicechanged, mmdeviceapi/IMMNotificationClient::OnDefaultDeviceChanged
-f1_keywords:
-- mmdeviceapi/IMMNotificationClient.OnDefaultDeviceChanged
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMNotificationClient.OnDefaultDeviceChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMNotificationClient::OnDefaultDeviceChanged
+ - mmdeviceapi/IMMNotificationClient::OnDefaultDeviceChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMNotificationClient.OnDefaultDeviceChanged
 ---
 
 # IMMNotificationClient::OnDefaultDeviceChanged
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>OnDefaultDeviceChanged</b> method notifies the client that the default audio endpoint device for a particular <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles">device role</a> has changed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param flow [in]
 
@@ -71,7 +64,6 @@ eCapture
 
 The data-flow direction for a rendering device is eRender. The data-flow direction for a capture device is eCapture.
 
-
 ### -param role [in]
 
 The <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">device role</a> of the audio endpoint device. This parameter is set to one of the following <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole</a> enumeration values:
@@ -82,24 +74,15 @@ eMultimedia
 
 eCommunications
 
-
 ### -param pwstrDefaultDeviceId [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call. If the user has removed or disabled the default device for a particular role, and no other device is available to assume that role, then <i>pwstrDefaultDevice</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 The three input parameters specify the data-flow direction, device role, and endpoint ID string of the new default audio endpoint device.
 
@@ -109,16 +92,7 @@ In a future version of Windows, the user interface might enable the user to assi
 
 For a code example that implements the <b>OnDefaultDeviceChanged</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-events">Device Events</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
- 
-
- 
 

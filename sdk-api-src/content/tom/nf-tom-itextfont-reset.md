@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontreset.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],Reset method, ITextFont.Reset, ITextFont::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextFont interface, _win32_ITextFont_Reset, _win32_ITextFont_Reset_cpp, controls.ITextFont_Reset, controls._win32_ITextFont_Reset, tom/ITextFont::Reset, tomApplyLater, tomApplyNow, tomApplyTmp, tomCacheParms, tomDefault, tomDisableSmartFont, tomEnableSmartFont, tomTrackParms, tomUndefined, tomUsePoints, tomUseTwips
-f1_keywords:
-- tom/ITextFont.Reset
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::Reset
+ - tom/ITextFont::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.Reset
 ---
 
 # ITextFont::Reset
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the character formatting to the specified values.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -180,12 +176,8 @@ Use twips for floating-point measurements.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -230,26 +222,14 @@ The font object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling 
 				<b>ITextFont::Reset</b> with <b>tomUndefined</b> sets all properties to undefined values. Thus, applying the font object to a range changes nothing. This applies to a font object that is obtained by the 
 				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getduplicate">ITextFont::GetDuplicate</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -268,7 +248,4 @@ Calling
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

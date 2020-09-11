@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: d278211a-e99c-429d-9752-45c305f52ed8
 ms.date: 12/05/2018
 ms.keywords: D2D1_LAYER_OPTIONS, D2D1_LAYER_OPTIONS enumeration [Direct2D], D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE, D2D1_LAYER_OPTIONS_NONE, d2d1/D2D1_LAYER_OPTIONS, d2d1/D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE, d2d1/D2D1_LAYER_OPTIONS_NONE, direct2d.D2D1_LAYER_OPTIONS
-f1_keywords:
-- d2d1/D2D1_LAYER_OPTIONS
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_LAYER_OPTIONS
 targetos: Windows
 req.typenames: D2D1_LAYER_OPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_LAYER_OPTIONS
+ - d2d1/D2D1_LAYER_OPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_LAYER_OPTIONS
 ---
 
 # D2D1_LAYER_OPTIONS enumeration
@@ -49,33 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies options that can be applied when a layer resource is applied to create a layer. 
 <div class="alert"><b>Note</b>  Starting in Windows 8, the <b>D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</b> option is no longer supported.  See <a href="/windows/win32/api/d2d1_1/ne-d2d1_1-d2d1_layer_options1">D2D1_LAYER_OPTIONS1</a> for Windows 8 layer options.</div><div> </div>
 
 ## -enum-fields
 
-
-
-
 ### -field D2D1_LAYER_OPTIONS_NONE
 
 The text in this layer does not use ClearType antialiasing.
 
-
 ### -field D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE
 
-The layer renders correctly for ClearType text. If the render target is set to ClearType, the  layer continues to render ClearType. If the render target is set to ClearType and this option is not specified, the render target will be set to render gray-scale until the layer is popped. The caller can override this default by calling <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> while within the layer. This flag is slightly slower than the default. 
-
+The layer renders correctly for ClearType text. If the render target is set to ClearType, the  layer continues to render ClearType. If the render target is set to ClearType and this option is not specified, the render target will be set to render gray-scale until the layer is popped. The caller can override this default by calling <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> while within the layer. This flag is slightly slower than the default.
 
 ### -field D2D1_LAYER_OPTIONS_FORCE_DWORD
 
-
-
-
 ## -remarks
-
-
 
 ClearType antialiasing must use the current contents of the render target to blend properly. When a pushed layer requests initializing for ClearType, Direct2D copies the current contents of the render target into the layer so that ClearType antialiasing can be performed. Rendering ClearType text into a transparent layer does not produce the desired results.
 
@@ -135,15 +125,7 @@ For additional examples, see the <a href="/windows/win32/Direct2D/direct2d-layer
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/Direct2D/direct2d-layers-overview">Layers Overview</a>
- 
-
- 
 

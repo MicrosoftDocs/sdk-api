@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 5b4a667a-b927-4278-9be2-2d7163568582
 ms.date: 12/05/2018
 ms.keywords: DesiredPacketDescription property [Tablet PC], DesiredPacketDescription property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DesiredPacketDescription property, IInkPicture.DesiredPacketDescription, IInkPicture.get_DesiredPacketDescription, IInkPicture::DesiredPacketDescription, IInkPicture::get_DesiredPacketDescription, IInkPicture::put_DesiredPacketDescription, InkPicture.get_DesiredPacketDescription, InkPicture.put_DesiredPacketDescription, get_DesiredPacketDescription, msinkaut/IInkPicture::DesiredPacketDescription, msinkaut/IInkPicture::get_DesiredPacketDescription, msinkaut/IInkPicture::put_DesiredPacketDescription, putDesiredPacketDescription, tablet.inkpicture_desiredpacketdescription
-f1_keywords:
-- msinkaut/IInkPicture.DesiredPacketDescription
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkPicture.DesiredPacketDescription
-- IInkPicture.get_DesiredPacketDescription
-- IInkPicture.put_DesiredPacketDescription
-- InkPicture.get_DesiredPacketDescription
-- InkPicture.put_DesiredPacketDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkPicture::get_DesiredPacketDescription
+ - msinkaut/IInkPicture::get_DesiredPacketDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkPicture.DesiredPacketDescription
+ - IInkPicture.get_DesiredPacketDescription
+ - IInkPicture.put_DesiredPacketDescription
+ - InkPicture.get_DesiredPacketDescription
+ - InkPicture.put_DesiredPacketDescription
 ---
 
 # IInkPicture::get_DesiredPacketDescription
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the desired packet description of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The description is an array of globally unique identifiers (GUIDs) from the <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> object.
 
@@ -80,13 +75,7 @@ When <b>DesiredPacketDescription</b> is set to something that includes <a href="
 
 Changes to this property do not affect incoming packet data until the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled">Enabled</a> property changes from <b>FALSE</b> to <b>TRUE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
@@ -101,7 +90,4 @@ Changes to this property do not affect incoming packet data until the <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
- 
-
- 
 

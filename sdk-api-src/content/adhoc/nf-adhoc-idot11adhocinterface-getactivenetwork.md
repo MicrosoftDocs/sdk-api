@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: aefe605a-720d-40da-8d0f-b1d5dd5b306e
 ms.date: 12/05/2018
 ms.keywords: GetActiveNetwork, GetActiveNetwork method [NativeWIFI], GetActiveNetwork method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetActiveNetwork method, IDot11AdHocInterface.GetActiveNetwork, IDot11AdHocInterface::GetActiveNetwork, adhoc/IDot11AdHocInterface::GetActiveNetwork, nwifi.idot11adhocinterface_getactivenetwork
-f1_keywords:
-- adhoc/IDot11AdHocInterface.GetActiveNetwork
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocInterface.GetActiveNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocInterface::GetActiveNetwork
+ - adhoc/IDot11AdHocInterface::GetActiveNetwork
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocInterface.GetActiveNetwork
 ---
 
 # IDot11AdHocInterface::GetActiveNetwork
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the network that is currently active on the interface.
 
-
 ## -parameters
-
-
-
 
 ### -param ppNetwork [out]
 
 A pointer to an IDot11AdHocNetwork object that represents the active network.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -130,22 +123,12 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getstatus">IDot11AdHocInterface::GetStatus</a>
- 
-
- 
 

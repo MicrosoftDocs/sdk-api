@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1iy6.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],RoutingInformation property, IFaxIncomingMessage.RoutingInformation, IFaxIncomingMessage.get_RoutingInformation, IFaxIncomingMessage::RoutingInformation, IFaxIncomingMessage::get_RoutingInformation, RoutingInformation property [Fax Service], RoutingInformation property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.routinginformation, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_routinginformation_cpp, fax._mfax_faxincomingmessage_routinginformation, faxcomex/IFaxIncomingMessage::RoutingInformation, faxcomex/IFaxIncomingMessage::get_RoutingInformation, get_RoutingInformation
-f1_keywords:
-- faxcomex/IFaxIncomingMessage.RoutingInformation
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxIncomingMessage.RoutingInformation
-- IFaxIncomingMessage.get_RoutingInformation
-- IFaxIncomingMessage.get_RoutingInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxIncomingMessage::get_RoutingInformation
+ - faxcomex/IFaxIncomingMessage::get_RoutingInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxIncomingMessage.RoutingInformation
+ - IFaxIncomingMessage.get_RoutingInformation
+ - IFaxIncomingMessage.get_RoutingInformation
 ---
 
 # IFaxIncomingMessage::get_RoutingInformation
@@ -51,28 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RoutingInformation</b> property is a null-terminated string that indicates inbound routing information for the fax message.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 For more information about routing information, see the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">RoutingInfo</a> member of the <b>FAX_DEV_STATUS</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
 
@@ -83,7 +73,4 @@ For more information about routing information, see the <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-archive">Visual Basic Example</a>
- 
-
- 
 

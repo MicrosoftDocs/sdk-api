@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 77AB4D22-55F2-4DF6-8E83-718BFB88841A
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAuthParameters, IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,described, ncd.iwsdhttpauthparameters, wsdbase/IWSDHttpAuthParameters
-f1_keywords:
-- wsdbase/IWSDHttpAuthParameters
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdbase.h
-api_name:
-- IWSDHttpAuthParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpAuthParameters
+ - wsdbase/IWSDHttpAuthParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdbase.h
+api_name:
+ - IWSDHttpAuthParameters
 ---
 
 # IWSDHttpAuthParameters interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to retrieve the access token or authorization scheme used during the authentication of a client.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Retrieves the client access token that can be used to either authenticate or imp
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

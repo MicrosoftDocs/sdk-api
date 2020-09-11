@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 20934FA5-2B4E-4FC4-B5B5-AFC4024ED2F8
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetDirectivity method, ISpatialAudioObjectForHrtf.SetDirectivity, ISpatialAudioObjectForHrtf::SetDirectivity, SetDirectivity, SetDirectivity method [Core Audio], SetDirectivity method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setdirectivity, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDirectivity
-f1_keywords:
-- spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetDirectivity
-dev_langs:
-- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudiohrtf.h
-api_name:
-- ISpatialAudioObjectForHrtf.SetDirectivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioObjectForHrtf::SetDirectivity
+ - spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDirectivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudiohrtf.h
+api_name:
+ - ISpatialAudioObjectForHrtf.SetDirectivity
 ---
 
 # ISpatialAudioObjectForHrtf::SetDirectivity
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the spatial audio directivity model for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param directivity
 
@@ -75,8 +71,6 @@ The spatial audio directivity model. This value can be one of the following stru
 </ul>
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -110,29 +104,14 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivity">SpatialAudioHrtfDirectivity</a> structure represents an omnidirectional model that can be linearly interpolated with a cardioid or cone model.
 
 If <b>SetDirectivity</b> is not called, the default type of <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfdirectivitytype">SpatialAudioHrtfDirectivity_OmniDirectional</a> is used with no interpolation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>
- 
-
- 
 

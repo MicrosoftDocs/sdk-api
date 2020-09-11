@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE structure [Security], PCRYPT_ATTRIBUTE, PCRYPT_ATTRIBUTE structure pointer [Security], _crypto2_crypt_attribute, security.crypt_attribute, wincrypt/CRYPT_ATTRIBUTE, wincrypt/PCRYPT_ATTRIBUTE'
-f1_keywords:
-- wincrypt/CRYPT_ATTRIBUTE
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_ATTRIBUTE
 targetos: Windows
 req.typenames: CRYPT_ATTRIBUTE, *PCRYPT_ATTRIBUTE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_ATTRIBUTE
+ - wincrypt/_CRYPT_ATTRIBUTE
+ - PCRYPT_ATTRIBUTE
+ - wincrypt/PCRYPT_ATTRIBUTE
+ - CRYPT_ATTRIBUTE
+ - wincrypt/CRYPT_ATTRIBUTE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_ATTRIBUTE
 ---
 
 # CRYPT_ATTRIBUTE structure
@@ -49,34 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_ATTRIBUTE</b> structure specifies an attribute that has one or more values.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszObjId
 
 An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that specifies the type of data contained in the <b>rgValue</b> array.
 
-
 ### -field cValue
 
 A <b>DWORD</b>  value that indicates the number of elements in the <b>rgValue</b> array.
-
 
 ### -field rgValue
 
 Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structures. The <b>cbData</b> member of the <b>CRYPT_INTEGER_BLOB</b> structure indicates the length of the <b>pbData</b> member. The <b>pbData</b> member contains the attribute information.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a>
 
@@ -103,7 +97,4 @@ Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindattribute">CertFindAttribute</a>
- 
-
- 
 

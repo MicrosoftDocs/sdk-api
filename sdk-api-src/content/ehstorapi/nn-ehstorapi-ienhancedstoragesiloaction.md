@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: 6deb7e22-f153-45fd-98ea-53a2e5692df7
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSiloAction, IEnhancedStorageSiloAction interface [Enhanced Storage], IEnhancedStorageSiloAction interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSiloAction, enstor.ienhancedstoragesiloaction
-f1_keywords:
-- ehstorapi/IEnhancedStorageSiloAction
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageSiloAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageSiloAction
+ - ehstorapi/IEnhancedStorageSiloAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageSiloAction
 ---
 
 # IEnhancedStorageSiloAction interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Use this interface as a point of access for actions involving IEEE 1667 silos.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Performs the action specified by an <b>IEnhancedStorageSiloAction</b> object.
 
 </td>
 </tr>
-</table> 
+</table>
 

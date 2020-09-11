@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: e603f68a-881c-468d-a3d3-738f43400e01
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], IMultiInterfaceEventControl interface [COM+],described, _cos_IMultiInterfaceEventControl, cos.imultiinterfaceeventcontrol, eventsys/IMultiInterfaceEventControl
-f1_keywords:
-- eventsys/IMultiInterfaceEventControl
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IMultiInterfaceEventControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiInterfaceEventControl
+ - eventsys/IMultiInterfaceEventControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IMultiInterfaceEventControl
 ---
 
 # IMultiInterfaceEventControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the behavior of an event object, the object that fires an event to its subscribers. The <b>IMultiInterfaceEventControl</b> interface differs from the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a> interface in that it supports multiple event interfaces for the event object.
-
 
 ## -inheritance
 
@@ -137,5 +136,5 @@ Indicates whether events can be delivered to two or more subscribers in parallel
 
 </td>
 </tr>
-</table> 
+</table>
 

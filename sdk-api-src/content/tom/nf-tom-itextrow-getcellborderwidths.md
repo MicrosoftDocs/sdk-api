@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: e0ab26ca-ffb6-4f75-846b-e267e4ad6572
 ms.date: 12/05/2018
 ms.keywords: GetCellBorderWidths, GetCellBorderWidths method [Windows Controls], GetCellBorderWidths method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellBorderWidths method, ITextRow.GetCellBorderWidths, ITextRow::GetCellBorderWidths, controls.itextrow_getcellborderwidths, tom/ITextRow::GetCellBorderWidths
-f1_keywords:
-- tom/ITextRow.GetCellBorderWidths
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRow.GetCellBorderWidths
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRow::GetCellBorderWidths
+ - tom/ITextRow::GetCellBorderWidths
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRow.GetCellBorderWidths
 ---
 
 # ITextRow::GetCellBorderWidths
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the border widths of the active cell.
 
-
 ## -parameters
-
-
-
 
 ### -param pduLeft [in]
 
@@ -64,13 +60,11 @@ Type: <b>long*</b>
 
 The active-cell left border width.
 
-
 ### -param pduTop [in]
 
 Type: <b>long*</b>
 
 The active-cell top border width.
-
 
 ### -param pduRight [in]
 
@@ -78,36 +72,23 @@ Type: <b>long*</b>
 
 The active-cell right border width.
 
-
 ### -param pduBottom [in]
 
 Type: <b>long*</b>
 
 The active-cell bottom border width.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-setcellborderwidths">ITextRow::SetCellBorderWidths</a>
- 
-
- 
 

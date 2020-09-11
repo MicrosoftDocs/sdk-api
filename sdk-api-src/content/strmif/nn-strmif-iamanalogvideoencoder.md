@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fb2927cf-c979-411f-a896-d010b684acf2
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], IAMAnalogVideoEncoder interface [DirectShow],described, IAMAnalogVideoEncoderInterface, dshow.iamanalogvideoencoder, strmif/IAMAnalogVideoEncoder
-f1_keywords:
-- strmif/IAMAnalogVideoEncoder
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmif.h
-api_name:
-- IAMAnalogVideoEncoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAnalogVideoEncoder
+ - strmif/IAMAnalogVideoEncoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmif.h
+api_name:
+ - IAMAnalogVideoEncoder
 ---
 
 # IAMAnalogVideoEncoder interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface has been deprecated.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  Microsoft does not provide an implementation of this interface. Third parties might implement it.</div>
 <div> </div>
-The <b>IAMAnalogVideoEncoder</b> interface might be implemented by a hardware video encoder in video capture operations when an application is streaming data to disk and sending it back out to videotape. 
-
-
-
+The <b>IAMAnalogVideoEncoder</b> interface might be implemented by a hardware video encoder in video capture operations when an application is streaming data to disk and sending it back out to videotape.
 
 ## -inheritance
 
@@ -138,16 +134,9 @@ Sets the encoder to a particular analog video standard.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
- 
-
- 
 

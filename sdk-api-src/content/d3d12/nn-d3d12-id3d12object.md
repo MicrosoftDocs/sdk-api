@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: D2B2BC74-E89D-4D3A-8808-6E4A94992769
 ms.date: 12/05/2018
 ms.keywords: ID3D12Object, ID3D12Object interface, ID3D12Object interface,described, d3d12/ID3D12Object, direct3d12.id3d12object
-f1_keywords:
-- d3d12/ID3D12Object
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Object
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Object
+ - d3d12/ID3D12Object
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Object
 ---
 
 # ID3D12Object interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An interface from which <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a> inherit from. It provides methods to associate private data and annotate object names.
-
 
 ## -inheritance
 
@@ -108,20 +107,13 @@ Associates an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

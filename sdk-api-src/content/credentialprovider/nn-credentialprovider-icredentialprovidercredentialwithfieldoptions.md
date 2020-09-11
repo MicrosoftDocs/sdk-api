@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 37C391D7-23C2-4053-BC7F-62F8AFD50DA3
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialWithFieldOptions, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell], ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialWithFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions
-f1_keywords:
-- credentialprovider/ICredentialProviderCredentialWithFieldOptions
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CredentialProvider.h
-api_name:
-- ICredentialProviderCredentialWithFieldOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderCredentialWithFieldOptions
+ - credentialprovider/ICredentialProviderCredentialWithFieldOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CredentialProvider.h
+api_name:
+ - ICredentialProviderCredentialWithFieldOptions
 ---
 
 # ICredentialProviderCredentialWithFieldOptions interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method that enables the credential provider framework to determine whether you've made a customization to a field's option in a logon or credential UI.
-
 
 ## -inheritance
 
@@ -77,26 +76,14 @@ Retrieves the current option set for a specified field in a logon or credential 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
 Implement this interface if your credential provider overrides the default field options through <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-setfieldoptions">ICredentialProviderCredentialEvents2::SetFieldOptions</a>. This enables the credential provider framework to determine the field options that you've specified .
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 8c978b27-fd1a-47b6-8a30-cfe6e4fbcf57
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME function [Failover Cluster], ResUtilGetResourceDependencyByName, ResUtilGetResourceDependencyByName function [Failover Cluster], _wolf_resutilgetresourcedependencybyname, mscs.resutilgetresourcedependencybyname, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME, resapi/ResUtilGetResourceDependencyByName
-f1_keywords:
-- resapi/ResUtilGetResourceDependencyByName
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilGetResourceDependencyByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetResourceDependencyByName
+ - resapi/ResUtilGetResourceDependencyByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilGetResourceDependencyByName
 ---
 
 # ResUtilGetResourceDependencyByName function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a> of a specified  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> in a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to a dependency of a specified type. The <b>PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 Handle to the cluster to which the resource belongs.
 
-
 ### -param hSelf [in]
 
 Handle to the dependent resource. This resource depends on one or more resources.
-
 
 ### -param lpszResourceType [in]
 
 NULL-terminated Unicode string specifying the resource type of the dependency to return.
 
-
 ### -param bRecurse [in]
 
 Determines the scope of the search. If <b>TRUE</b>, the function checks the entire dependency tree under the dependent resource. If <b>FALSE</b>, the function checks only the resources on which the dependent resource directly depends.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns a handle to one of the resources on which the resource specified by <i>hSelf</i> depends. The caller is responsible for closing the handle by calling  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>.
 
@@ -111,14 +101,8 @@ The operation was not successful. For more information, call the function  <a hr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  <b>ResUtilGetResourceDependencyByName</b>,  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>, and  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcenamedependency">ResUtilGetResourceNameDependency</a> functions are very similar in that they all provide access to dependencies of a particular resource type. The following list summarizes the differences between the functions.
 
@@ -197,14 +181,7 @@ HRESOURCE hResD = ResUtilGetResourceDependencyByName(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
 
@@ -227,7 +204,4 @@ HRESOURCE hResD = ResUtilGetResourceDependencyByName(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcenamedependency">ResUtilGetResourceNameDependency</a>
- 
-
- 
 

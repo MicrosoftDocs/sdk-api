@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 61d73501-91b1-4498-b1a3-17392360c700
 ms.date: 12/05/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
-f1_keywords:
-- wincrypt/CertGetSubjectCertificateFromStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetSubjectCertificateFromStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetSubjectCertificateFromStore
+ - wincrypt/CertGetSubjectCertificateFromStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetSubjectCertificateFromStore
 ---
 
 # CertGetSubjectCertificateFromStore function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertGetSubjectCertificateFromStore</b> function returns from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> a subject certificate context uniquely identified by its issuer and serial number.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 A handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
-
 
 ### -param dwCertEncodingType [in]
 
@@ -74,17 +69,12 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pCertId [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure. Only the <b>Issuer</b> and <b>SerialNumber</b> members are used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns a pointer to a read-only 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>. The <b>CERT_CONTEXT</b> must be freed by calling 
@@ -112,15 +102,8 @@ The subject certificate was not found in the store.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a> can be called to make a duplicate certificate.
 
@@ -253,12 +236,7 @@ if(hMsg)
 
 }</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>
 
@@ -273,7 +251,4 @@ if(hMsg)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
 

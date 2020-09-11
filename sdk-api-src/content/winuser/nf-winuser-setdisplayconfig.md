@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 9f649fa0-ffb2-44c6-9a66-049f888e3b04
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml, SetDisplayConfig, SetDisplayConfig function [Display Devices], display.setdisplayconfig, winuser/SetDisplayConfig
-f1_keywords:
-- winuser/SetDisplayConfig
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
-- MinUser.dll
-api_name:
-- SetDisplayConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDisplayConfig
+ - winuser/SetDisplayConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+ - MinUser.dll
+api_name:
+ - SetDisplayConfig
 ---
 
 # SetDisplayConfig function
@@ -51,34 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetDisplayConfig</b> function modifies the display topology, source, and target modes by exclusively enabling the specified paths in the current session.
 
-
 ## -parameters
-
-
-
 
 ### -param numPathArrayElements [in]
 
 Number of elements in <i>pathArray</i>.
 
-
 ### -param pathArray [in, optional]
 
-Array of all display paths that are to be set. Only the paths within this array that have the DISPLAYCONFIG_PATH_ACTIVE flag set in the <b>flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a> are set. This parameter can be <b>NULL</b>. The order in which active paths appear in this array determines the path priority. For more information about path priority order, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/path-priority-order">Path Priority Order</a>. 
-
+Array of all display paths that are to be set. Only the paths within this array that have the DISPLAYCONFIG_PATH_ACTIVE flag set in the <b>flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a> are set. This parameter can be <b>NULL</b>. The order in which active paths appear in this array determines the path priority. For more information about path priority order, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/path-priority-order">Path Priority Order</a>.
 
 ### -param numModeInfoArrayElements [in]
 
 Number of elements in <i>modeInfoArray</i>.
 
-
 ### -param modeInfoArray [in, optional]
 
-Array of display source and target mode information (<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>. 
-
+Array of display source and target mode information (<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>.
 
 ### -param flags [in]
 
@@ -218,10 +210,7 @@ SDC_TOPOLOGY_SUPPLIED cannot be used with any other SDC_TOPOLOGY_XXX flag. Becau
 </ul>
 SDC_TOPOLOGY_XXX flags can be used in combinations. For example, if SDC_TOPOLOGY_CLONE and SDC_TOPOLOGY_EXTEND are set, the API uses the most recent clone or extend topology, which every topology was set with most recently for the current connected monitors.
 
-
 ## -returns
-
-
 
 The function returns one of the following return codes.
 
@@ -297,14 +286,8 @@ The function could not find a workable solution for the source and target modes 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetDisplayConfig</b> function takes the active display paths with any specified source and target mode information and uses best mode logic to generate any missing source and target mode information. This function then sets the complete display path.
 
@@ -419,13 +402,7 @@ SDC_APPLY | SDC_TOPOLOGY_SUPPLIED | SDC_ALLOW_PATH_ORDER_CHANGES
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. All sizes in the DEVMODE structure are in terms of physical pixels, and are not related to the calling context.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>
 
@@ -444,7 +421,4 @@ This API does not participate in DPI virtualization. All sizes in the DEVMODE st
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a>
- 
-
- 
 

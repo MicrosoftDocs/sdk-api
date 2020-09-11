@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 1037919d-c8df-4d46-b3ce-62ee23c92145
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], IUIAutomationTextRange interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextRange, uiauto_IUIAutomationTextRange, uiautomationclient/IUIAutomationTextRange, winauto.uiauto_IUIAutomationTextRange
-f1_keywords:
-- uiautomationclient/IUIAutomationTextRange
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationTextRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTextRange
+ - uiautomationclient/IUIAutomationTextRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationTextRange
 ---
 
 # IUIAutomationTextRange interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to  a span of continuous text in a container that supports the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a> interface. Client applications can use the <b>IUIAutomationTextRange</b> interface to select, compare, and retrieve embedded objects from the text span. The interface uses two endpoints to delimit where the text span starts and ends. Disjoint spans of text are represented by an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrangearray">IUIAutomationTextRangeArray</a> interface.
-
 
 ## -inheritance
 
@@ -231,13 +230,9 @@ Selects the span of text that corresponds to this text range, and removes any pr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
 
@@ -248,7 +243,4 @@ Selects the span of text that corresponds to this text range, and removes any pr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-usingtextrangeobjects">Using Text Ranges</a>
- 
-
- 
 

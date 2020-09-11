@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8faff037-d815-48f8-8b59-d63f4ff4a746
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Files], _win32_ioctl_volume_get_volume_disk_extents, base.ioctl_volume_get_volume_disk_extents, fs.ioctl_volume_get_volume_disk_extents, winioctl/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
-f1_keywords:
-- winioctl/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+ - winioctl/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 ---
 
 # IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -92,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -105,9 +99,9 @@ SMB 3.0 Transparent Failover (TFO) | No
 SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [VOLUME_DISK_EXTENTS](ns-winioctl-volume_disk_extents.md)
 * [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+

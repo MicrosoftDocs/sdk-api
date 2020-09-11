@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 22550c17-003a-4f59-80f0-58fa3e286844
 ms.date: 12/05/2018
 ms.keywords: 1, 2, NetUseAdd, NetUseAdd function [Network Management], _win32_netuseadd, lmuse/NetUseAdd, netmgmt.netuseadd
-f1_keywords:
-- lmuse/NetUseAdd
-dev_langs:
-- c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUseAdd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUseAdd
+ - lmuse/NetUseAdd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUseAdd
 ---
 
 # NetUseAdd function
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUseAdd</b> function establishes a connection between the local computer and a remote server. You can specify a local drive letter or a printer device to connect. If you do not specify a local drive letter or printer device, the function authenticates the client with the server for future connections.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 The UNC name of the computer on which to execute this function. If this parameter is <b>NULL</b>, then the local computer is used. If the <i>UncServerName</i> parameter specified is a remote computer, then the remote computer must support remote RPC calls using the legacy Remote Access Protocol mechanism. 
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
-
 
 ### -param LevelFlags [in]
 
@@ -100,35 +95,24 @@ Specifies information about the connection between a local device and a shared r
 </td>
 </tr>
 </table>
- 
-
 
 ### -param buf [in]
 
 A pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>Level</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ### -param parm_err [out]
 
 A pointer to a value that receives the index of the first member of the information structure in error when the ERROR_INVALID_PARAMETER error is returned. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 You can also use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> functions to redirect a local device to a network resource.
@@ -179,15 +163,8 @@ If the
 <td>ui<i>*</i>_domainname</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netusedel">NetUseDel</a>
 
@@ -220,7 +197,4 @@ If the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
- 
-
- 
 

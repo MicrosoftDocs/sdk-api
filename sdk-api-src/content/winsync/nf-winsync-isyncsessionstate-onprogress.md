@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: a2983f9c-ed2d-47b4-bec7-b00dc4d75f3f
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],OnProgress method, ISyncSessionState.OnProgress, ISyncSessionState::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_onprogress, winsync/ISyncSessionState::OnProgress
-f1_keywords:
-- winsync/ISyncSessionState.OnProgress
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncSessionState.OnProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncSessionState::OnProgress
+ - winsync/ISyncSessionState::OnProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncSessionState.OnProgress
 ---
 
 # ISyncSessionState::OnProgress
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reports synchronization progress to the application.
 
-
 ## -parameters
-
-
-
 
 ### -param provider [in]
 
 The role of the provider that is sending this event.
 
-
 ### -param syncStage [in]
 
 The current stage of the synchronization session.
-
 
 ### -param dwCompletedWork [in]
 
 The amount of work that is currently completed in the session. This value is interpreted as being a part of <i>dwTotalWork</i>.
 
-
 ### -param dwTotalWork [in]
 
 The total work for the session.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -112,24 +102,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method can be used to report custom progress to the application. When a provider calls this method, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onprogress">ISyncCallback::OnProgress</a> event is raised.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
 
@@ -144,7 +122,4 @@ This method can be used to report custom progress to the application. When a pro
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_provider_role">SYNC_PROVIDER ROLE Enumeration</a>
- 
-
- 
 

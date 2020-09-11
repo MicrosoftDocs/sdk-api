@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 43b25a67-d9a8-4749-a654-c7310039c553
 ms.date: 12/05/2018
 ms.keywords: IActivateAudioInterfaceAsyncOperation, IActivateAudioInterfaceAsyncOperation interface [Core Audio], IActivateAudioInterfaceAsyncOperation interface [Core Audio],described, coreaudio.iactivateaudiointerfaceasyncoperation, mmdeviceapi/IActivateAudioInterfaceAsyncOperation
-f1_keywords:
-- mmdeviceapi/IActivateAudioInterfaceAsyncOperation
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmdevapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdevapi.dll
-api_name:
-- IActivateAudioInterfaceAsyncOperation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActivateAudioInterfaceAsyncOperation
+ - mmdeviceapi/IActivateAudioInterfaceAsyncOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdevapi.dll
+api_name:
+ - IActivateAudioInterfaceAsyncOperation
 ---
 
 # IActivateAudioInterfaceAsyncOperation interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an asynchronous operation activating a <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> interface and provides a method to retrieve the results of the activation.
-
 
 ## -inheritance
 
@@ -77,24 +76,14 @@ Gets the results of an asynchronous activation of a <a href="https://docs.micros
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>When to implement:</b>  
-Implemented by Windows and returned from the function <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a>. 
-
-
-
-
+Implemented by Windows and returned from the function <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a>
 
@@ -105,7 +94,4 @@ Implemented by Windows and returned from the function <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfacecompletionhandler">IActivateAudioInterfaceCompletionHandler</a>
- 
-
- 
 

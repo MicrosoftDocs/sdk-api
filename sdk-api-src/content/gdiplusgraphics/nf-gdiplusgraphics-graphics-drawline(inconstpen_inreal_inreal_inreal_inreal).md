@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawLine"]
 ms.assetid: b245ba2b-4b52-40fa-b6f3-adcd25775b94
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawLine
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawLine
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawLine
+ - gdiplusgraphics/Graphics::DrawLine
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawLine
+ - Graphics::DrawLine
 ---
 
 # DrawLine(Pen*,REAL,REAL,REAL,REAL)
+
 
 ## -description
 
@@ -111,3 +113,4 @@ VOID Example_DrawLine4(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

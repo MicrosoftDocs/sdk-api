@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 94DB835F-3D2A-4CC8-A1CF-10215E3D30D6
 ms.date: 12/05/2018
 ms.keywords: IMFContentDecryptorContext, IMFContentDecryptorContext interface [Media Foundation], IMFContentDecryptorContext interface [Media Foundation],described, mf.imfcontentdecryptorcontext, mfidl/IMFContentDecryptorContext
-f1_keywords:
-- mfidl/IMFContentDecryptorContext
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.dll
-api_name:
-- IMFContentDecryptorContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFContentDecryptorContext
+ - mfidl/IMFContentDecryptorContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.dll
+api_name:
+ - IMFContentDecryptorContext
 ---
 
 # IMFContentDecryptorContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a decryptor to manage hardware keys and decrypt hardware samples.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ The <b>IMFContentDecryptorContext</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

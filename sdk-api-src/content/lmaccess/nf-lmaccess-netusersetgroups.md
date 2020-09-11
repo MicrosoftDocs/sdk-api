@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 7042c43a-09d1-4179-8074-eb055dc279a6
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetUserSetGroups, NetUserSetGroups function [Network Management], _win32_netusersetgroups, lmaccess/NetUserSetGroups, netmgmt.netusersetgroups
-f1_keywords:
-- lmaccess/NetUserSetGroups
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserSetGroups
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserSetGroups
+ - lmaccess/NetUserSetGroups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserSetGroups
 ---
 
 # NetUserSetGroups function
@@ -49,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserSetGroups</b> function sets global group memberships for a specified user account.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param username [in]
 
 A pointer to a constant string that specifies the name of the user for which to set global group memberships. For more information, see the Remarks section.
-
 
 ### -param level [in]
 
@@ -107,23 +97,17 @@ The <i>buf</i> parameter points to an array of
 </td>
 </tr>
 </table>
- 
-
 
 ### -param buf [in]
 
 A pointer to the buffer that specifies the data. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ### -param num_entries [in]
 
 The number of entries contained in the array pointed to by the <i>buf</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -234,14 +218,8 @@ The user name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
@@ -316,14 +294,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_users_info_0">GROUP_USERS_INFO_0</a>
 
@@ -352,7 +323,4 @@ int wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

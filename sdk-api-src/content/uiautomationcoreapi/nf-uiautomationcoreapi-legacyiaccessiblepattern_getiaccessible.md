@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 4f05dae6-d315-457c-a496-fe915dd00265
 ms.date: 12/05/2018
 ms.keywords: LegacyIAccessiblePattern_GetIAccessible, LegacyIAccessiblePattern_GetIAccessible function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat, uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat, uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible, winauto.uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat
-f1_keywords:
-- uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible
-dev_langs:
-- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Uiautomationcore.dll
-api_name:
-- LegacyIAccessiblePattern_GetIAccessible
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LegacyIAccessiblePattern_GetIAccessible
+ - uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Uiautomationcore.dll
+api_name:
+ - LegacyIAccessiblePattern_GetIAccessible
 ---
 
 # LegacyIAccessiblePattern_GetIAccessible function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> object that corresponds to the UI Automation element.
 
-
 ## -parameters
-
-
-
 
 ### -param hobj [in]
 
@@ -64,21 +60,15 @@ Type: <b>HUIAPATTERNOBJECT</b>
 
 A control pattern object.
 
-
 ### -param pAccessible [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>**</b>
 
 The address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface for the accessible object.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
-
-
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 95acde54-2bdb-4a80-b078-d98945604c7e
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSampleRequirements, GetCurrentSampleRequirements method [DirectShow], GetCurrentSampleRequirements method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentSampleRequirements method, IDMOVideoOutputOptimizations.GetCurrentSampleRequirements, IDMOVideoOutputOptimizations::GetCurrentSampleRequirements, IDMOVideoOutputOptimizationsGetCurrentSampleRequirements, dshow.idmovideooutputoptimizations_getcurrentsamplerequirements, mediaobj/IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
-f1_keywords:
-- mediaobj/IDMOVideoOutputOptimizations.GetCurrentSampleRequirements
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IDMOVideoOutputOptimizations.GetCurrentSampleRequirements
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
+ - mediaobj/IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IDMOVideoOutputOptimizations.GetCurrentSampleRequirements
 ---
 
 # IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetCurrentSampleRequirements</code> method retrieves the optimization features required to process the next sample, given the features already agreed to by the application.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulOutputStreamIndex
 
 Zero-based index of an output stream on the DMO.
 
-
 ### -param pdwRequestedFeatures
 
 Pointer to a variable that receives the required features. The returned value is a bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_video_output_stream_flags">DMO_VIDEO_OUTPUT_STREAM_FLAGS</a> enumeration.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -117,14 +106,8 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-setoperationmode">IDMOVideoOutputOptimizations::SetOperationMode</a> method, it must provide all the features it has agreed to. However, the DMO might not require every feature on every sample. This method enables the DMO to waive an agreed-upon feature for one sample.
 
@@ -132,16 +115,7 @@ Before processing a sample, the application can call this method. If the DMO doe
 
 The DMO will return only the flags that were agreed to in the <b>SetOperationMode</b> method. In other words, you cannot dynamically enable new features with this method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-idmovideooutputoptimizations">IDMOVideoOutputOptimizations Interface</a>
- 
-
- 
 

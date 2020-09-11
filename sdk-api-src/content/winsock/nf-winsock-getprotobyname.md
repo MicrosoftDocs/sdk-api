@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 00669525-d477-4607-beaa-61ef5a8dbd4f
 ms.date: 12/05/2018
 ms.keywords: _win32_getprotobyname_2, getprotobyname, getprotobyname function [Winsock], winsock.getprotobyname_2, winsock/getprotobyname
-f1_keywords:
-- winsock/getprotobyname
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getprotobyname
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getprotobyname
+ - winsock/getprotobyname
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getprotobyname
 ---
 
 # getprotobyname function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getprotobyname</b> function retrieves the protocol information corresponding to a protocol name.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 Pointer to a null-terminated protocol name.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getprotobyname</b> returns a pointer to the 
@@ -180,14 +173,8 @@ A blocking Windows Socket 1.1 call was canceled through
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>getprotobyname</b> function returns a pointer to the 
@@ -199,13 +186,7 @@ The
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname">WSAAsyncGetProtoByName</a>
 
@@ -220,7 +201,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getprotobynumber">getprotobynumber</a>
- 
-
- 
 

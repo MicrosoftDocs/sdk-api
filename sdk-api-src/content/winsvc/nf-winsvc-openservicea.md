@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e0a42613-95ad-4d0f-a464-c6df33014064
 ms.date: 12/05/2018
 ms.keywords: OpenService, OpenService function, OpenServiceA, OpenServiceW, _win32_openservice, base.openservice, winsvc/OpenService, winsvc/OpenServiceA, winsvc/OpenServiceW
-f1_keywords:
-- winsvc/OpenService
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Service-management-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- OpenService
-- OpenServiceA
-- OpenServiceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenServiceA
+ - winsvc/OpenServiceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Service-management-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - OpenService
+ - OpenServiceA
+ - OpenServiceW
 ---
 
 # OpenServiceA function
@@ -57,27 +58,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an existing service.
 
-
 ## -parameters
-
-
-
 
 ### -param hSCManager [in]
 
 A handle to the service control manager database. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function returns this handle. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-
 ### -param lpServiceName [in]
 
 The name of the service to be opened. This is the name specified by the <i>lpServiceName</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function when the service object was created, not the service display name that is shown by user interface applications to identify the service. 
 
 The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\) are invalid service name characters.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -89,10 +83,7 @@ The access to the service. For a list of access rights, see
 
 Before granting the requested access, the system checks the access token of the calling process against the discretionary access-control list of the security descriptor associated with the service object.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the service.
 
@@ -151,14 +142,8 @@ The specified service does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The returned handle is only valid for the process that called 
 <b>OpenService</b>. It can be closed by calling the 
@@ -181,9 +166,6 @@ For an example, see
 > The winsvc.h header defines OpenService as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
 
@@ -242,7 +224,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
- 
-
- 
 

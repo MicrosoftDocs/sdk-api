@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: a70fc72e-0fbd-4ee7-ae87-780fdc942384
 ms.date: 12/05/2018
 ms.keywords: DhcpUndoRequestParams, DhcpUndoRequestParams function [DHCP], _dhcp_dhcpundorequestparams, dhcp.dhcpundorequestparams, dhcpcsdk/DhcpUndoRequestParams
-f1_keywords:
-- dhcpcsdk/DhcpUndoRequestParams
-dev_langs:
-- c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpcsvc.dll
-api_name:
-- DhcpUndoRequestParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpUndoRequestParams
+ - dhcpcsdk/DhcpUndoRequestParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpcsvc.dll
+api_name:
+ - DhcpUndoRequestParams
 ---
 
 # DhcpUndoRequestParams function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DhcpUndoRequestParams</b> function removes persistent requests previously made with a 
 <b>DhcpRequestParams</b> function call.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
 Reserved. Must be zero.
 
-
 ### -param Reserved [in]
 
 Reserved for future use. Must be set to <b>NULL</b>.
-
 
 ### -param AdapterName [in]
 
@@ -82,30 +76,16 @@ GUID of the adapter for which information is no longer required.  Must be under 
 Application identifier (ID) originally used to make a persistent request. This string must match the <i>RequestIdStr</i> parameter used in the 
 <b>DhcpRequestParams</b> function call that obtained the corresponding persistent request. Note that this must match the previous application identifier (ID) used, and must be a printable string with no special characters (commas, backslashes, colons, or other illegal characters may not be used).
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS upon successful completion. Otherwise, returns a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 Persistent requests are typically made by the setup or installer process associated with the application. When appropriate, the setup or installer process would likely make the 
 <b>DhcpUndoRequestParams</b> function call to cancel its associated persistent request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
@@ -116,3 +96,4 @@ Persistent requests are typically made by the setup or installer process associa
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcprequestparams">DhcpRequestParams</a>
+

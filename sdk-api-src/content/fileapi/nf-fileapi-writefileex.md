@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6995c4ee-ba91-41d5-b72d-19dc2eb95945
 ms.date: 12/05/2018
 ms.keywords: WriteFileEx, WriteFileEx function [Files], _win32_writefileex, base.writefileex, fileapi/WriteFileEx, fs.writefileex, winbase/WriteFileEx
-f1_keywords:
-- fileapi/WriteFileEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- WriteFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WriteFileEx
+ - fileapi/WriteFileEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - WriteFileEx
 ---
 
 # WriteFileEx function
@@ -56,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes data to the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when writing is completed or canceled and the calling thread is in an alertable wait state.
 
 To write data to a file or device synchronously, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -84,7 +80,6 @@ This handle also must have the <b>GENERIC_WRITE</b> access
       right. For more information on access rights, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param lpBuffer [in, optional]
 
 A pointer to the buffer containing the data to be written to the file or device.
@@ -92,7 +87,6 @@ A pointer to the buffer containing the data to be written to the file or device.
 
 This buffer must remain valid for the duration of the write operation. The caller must not use this buffer 
       until the write operation is completed.
-
 
 ### -param nNumberOfBytesToWrite [in]
 
@@ -103,7 +97,6 @@ A value of zero specifies a null write operation. The behavior of a null write o
        underlying file system.
 
 Pipe write operations across a network are limited to 65,535 bytes per write. For more information regarding  pipes, see the Remarks section.
-
 
 ### -param lpOverlapped [in, out]
 
@@ -136,17 +129,13 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwin
        the duration of the write operation. It should not be a variable that can go out of scope while the write 
        operation is pending completion.
 
-
 ### -param lpCompletionRoutine [in]
 
 A pointer to a completion routine to be called when the write operation has been completed and the calling 
       thread is in an alertable wait state. For more information about this completion routine, see 
       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -164,12 +153,7 @@ If the function succeeds and the file-writing operation finishes, but the callin
        call until the calling thread enters an alertable wait state. For more information about 
        alertable wait states and overlapped input/output operations, see <a href="https://docs.microsoft.com/windows/desktop/Sync/about-synchronization">About Synchronization</a>.
 
-
-
-
 ## -remarks
-
-
 
 When using <b>WriteFileEx</b> you should check 
     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> even when the function returns "success" to 
@@ -316,12 +300,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
@@ -380,7 +359,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

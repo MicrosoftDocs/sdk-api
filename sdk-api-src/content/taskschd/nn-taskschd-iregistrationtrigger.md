@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 0862f7ac-69d6-4271-8d39-c5bd7038a95e
 ms.date: 12/05/2018
 ms.keywords: IRegistrationTrigger, IRegistrationTrigger interface [Task Scheduler], IRegistrationTrigger interface [Task Scheduler],described, registration trigger [Task Scheduler],interface, taskschd.iregistrationtrigger, taskschd/IRegistrationTrigger
-f1_keywords:
-- taskschd/IRegistrationTrigger
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRegistrationTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegistrationTrigger
+ - taskschd/IRegistrationTrigger
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRegistrationTrigger
 ---
 
 # IRegistrationTrigger interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a trigger that starts a task when the task is registered or updated.
 
-
 ## -remarks
-
-
 
 When creating your own XML for a task, a registration trigger is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-registrationtrigger-triggergroup-element">RegistrationTrigger</a> element of the Task Scheduler schema.
 
@@ -68,12 +65,7 @@ For more information and a code example for this interface, see <a href="https:/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
@@ -92,7 +84,4 @@ For more information and a code example for this interface, see <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

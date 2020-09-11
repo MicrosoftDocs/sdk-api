@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: a910d04f-fe4d-4fc9-a518-abac864da6f3
 ms.date: 12/05/2018
 ms.keywords: DrawFocusRect, DrawFocusRect function [Windows GDI], _win32_DrawFocusRect, gdi.drawfocusrect, winuser/DrawFocusRect
-f1_keywords:
-- winuser/DrawFocusRect
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
-- ext-ms-win-ntuser-draw-l1-1-2.dll
-api_name:
-- DrawFocusRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawFocusRect
+ - winuser/DrawFocusRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+api_name:
+ - DrawFocusRect
 ---
 
 # DrawFocusRect function
@@ -52,39 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrawFocusRect</b> function draws a rectangle in the style used to indicate that the rectangle has the focus.
 
-
 ## -parameters
-
-
-
 
 ### -param hDC [in]
 
 A handle to the device context.
 
-
 ### -param lprc [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the logical coordinates of the rectangle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 <b>DrawFocusRect</b> works only in MM_TEXT mode.
 
@@ -101,12 +88,7 @@ For an example, see "Creating an Owner-Drawn List Box" in <a href="https://docs.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-framerect">FrameRect</a>
 
@@ -121,7 +103,4 @@ For an example, see "Creating an Owner-Drawn List Box" in <a href="https://docs.
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
- 
-
- 
 

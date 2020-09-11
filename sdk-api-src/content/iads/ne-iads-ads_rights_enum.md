@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: ade64dd8-e08c-4f68-b3bf-ccc252272a99
 ms.date: 12/05/2018
 ms.keywords: ADS_RIGHTS_ENUM, ADS_RIGHTS_ENUM enumeration [ADSI], ADS_RIGHT_ACCESS_SYSTEM_SECURITY, ADS_RIGHT_ACTRL_DS_LIST, ADS_RIGHT_DELETE, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_DELETE_CHILD, ADS_RIGHT_DS_DELETE_TREE, ADS_RIGHT_DS_LIST_OBJECT, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_GENERIC_ALL, ADS_RIGHT_GENERIC_EXECUTE, ADS_RIGHT_GENERIC_READ, ADS_RIGHT_GENERIC_WRITE, ADS_RIGHT_READ_CONTROL, ADS_RIGHT_SYNCHRONIZE, ADS_RIGHT_WRITE_DAC, ADS_RIGHT_WRITE_OWNER, _ds_ads_rights_enum, adsi.ads__rights__enum, adsi.ads_rights_enum, iads/ADS_RIGHTS_ENUM, iads/ADS_RIGHT_ACCESS_SYSTEM_SECURITY, iads/ADS_RIGHT_ACTRL_DS_LIST, iads/ADS_RIGHT_DELETE, iads/ADS_RIGHT_DS_CONTROL_ACCESS, iads/ADS_RIGHT_DS_CREATE_CHILD, iads/ADS_RIGHT_DS_DELETE_CHILD, iads/ADS_RIGHT_DS_DELETE_TREE, iads/ADS_RIGHT_DS_LIST_OBJECT, iads/ADS_RIGHT_DS_READ_PROP, iads/ADS_RIGHT_DS_SELF, iads/ADS_RIGHT_DS_WRITE_PROP, iads/ADS_RIGHT_GENERIC_ALL, iads/ADS_RIGHT_GENERIC_EXECUTE, iads/ADS_RIGHT_GENERIC_READ, iads/ADS_RIGHT_GENERIC_WRITE, iads/ADS_RIGHT_READ_CONTROL, iads/ADS_RIGHT_SYNCHRONIZE, iads/ADS_RIGHT_WRITE_DAC, iads/ADS_RIGHT_WRITE_OWNER
-f1_keywords:
-- iads/ADS_RIGHTS_ENUM
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iads.h
-api_name:
-- ADS_RIGHTS_ENUM
 targetos: Windows
 req.typenames: ADS_RIGHTS_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_ads_0001_0048_0001
+ - iads/__MIDL___MIDL_itf_ads_0001_0048_0001
+ - ADS_RIGHTS_ENUM
+ - iads/ADS_RIGHTS_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iads.h
+api_name:
+ - ADS_RIGHTS_ENUM
 ---
 
 # ADS_RIGHTS_ENUM enumeration
 
 
 ## -description
-
 
 The <b>ADS_RIGHTS_ENUM</b> enumeration specifies 
     access rights assigned to an Active Directory object. The 
@@ -61,110 +63,85 @@ For more information and a list of possible access right values for file or file
 For more information and a list of possible access right values for registry objects, see 
     <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ADS_RIGHT_DELETE
 
 The right to delete the object.
 
-
 ### -field ADS_RIGHT_READ_CONTROL
 
 The right to read data from the security descriptor of the object, not including the data in the SACL.
-
 
 ### -field ADS_RIGHT_WRITE_DAC
 
 The right to modify the discretionary access-control list (DACL) in the object security descriptor.
 
-
 ### -field ADS_RIGHT_WRITE_OWNER
 
 The right to assume ownership of the object. The user must be an object trustee. The user cannot transfer the ownership to other users.
-
 
 ### -field ADS_RIGHT_SYNCHRONIZE
 
 The right to use the object for synchronization. This enables a thread to wait until the object is in the signaled state.
 
-
 ### -field ADS_RIGHT_ACCESS_SYSTEM_SECURITY
 
 The right to get or set the SACL in the object security descriptor.
-
 
 ### -field ADS_RIGHT_GENERIC_READ
 
 The right to read permissions on this object, read all the properties on this object, list this object name when the parent container is listed, and list the contents of this object if it is a container.
 
-
 ### -field ADS_RIGHT_GENERIC_WRITE
 
 The right to read permissions on this object, write all the properties on this object, and perform all validated writes to this object.
-
 
 ### -field ADS_RIGHT_GENERIC_EXECUTE
 
 The right to read permissions on, and list the contents of,  a container object.
 
-
 ### -field ADS_RIGHT_GENERIC_ALL
 
 The right to create or delete child objects, delete a subtree, read and write properties, examine child objects and the object itself, add and remove the object from the directory, and read or write with an extended right.
-
 
 ### -field ADS_RIGHT_DS_CREATE_CHILD
 
 The right to create child objects of the object. The <b>ObjectType</b> member of an ACE can contain a <b>GUID</b> that identifies the type of child object whose creation is controlled. If <b>ObjectType</b> does not contain a <b>GUID</b>, the ACE controls the creation of all child object types.
 
-
 ### -field ADS_RIGHT_DS_DELETE_CHILD
 
 The right to delete child objects of the object. The <b>ObjectType</b> member of an ACE can contain a <b>GUID</b> that identifies a type of child object whose deletion is controlled. If <b>ObjectType</b> does not contain a <b>GUID</b>, the ACE controls the deletion of all child object types.
-
 
 ### -field ADS_RIGHT_ACTRL_DS_LIST
 
 The right to list child objects of this object. For more information about this right, see <a href="https://docs.microsoft.com/windows/desktop/AD/controlling-object-visibility">Controlling Object Visibility</a>.
 
-
 ### -field ADS_RIGHT_DS_SELF
 
 The right to perform an operation controlled by a validated write access right. The <b>ObjectType</b> member of an ACE can contain a <b>GUID</b> that identifies the validated write. If <b>ObjectType</b> does not contain a <b>GUID</b>, the ACE controls the rights to perform all valid write operations associated with the object.
-
 
 ### -field ADS_RIGHT_DS_READ_PROP
 
 The right to read properties of the object. The <b>ObjectType</b> member of an ACE can contain a <b>GUID</b> that identifies a property set or property. If <b>ObjectType</b> does not contain a <b>GUID</b>, the ACE controls the right to read all of the object properties.
 
-
 ### -field ADS_RIGHT_DS_WRITE_PROP
 
 The right to write properties of the object. The <b>ObjectType</b> member of an ACE can contain a <b>GUID</b> that identifies a property set or property. If <b>ObjectType</b> does not contain a <b>GUID</b>, the ACE controls the right to write all of the object properties.
-
 
 ### -field ADS_RIGHT_DS_DELETE_TREE
 
 The right to delete all child objects of this object, regardless of the permissions of the child objects.
 
-
 ### -field ADS_RIGHT_DS_LIST_OBJECT
 
 The right to list a particular object. If the user is not granted such a right, and the user does not have <b>ADS_RIGHT_ACTRL_DS_LIST</b> set on the object parent, the object is hidden from the user. This right is ignored if the third character of the <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-dsheuristics">dSHeuristics</a> property is '0' or not set. For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/controlling-object-visibility">Controlling Object Visibility</a>.
-
 
 ### -field ADS_RIGHT_DS_CONTROL_ACCESS
 
 The right to perform an operation controlled by an extended access right. The <b>ObjectType</b> member of an ACE can contain a <b>GUID</b> that identifies the extended right. If <b>ObjectType</b> does not contain a <b>GUID</b>, the ACE controls the right to perform all extended right operations associated with the object.
 
-
 ## -remarks
-
-
 
 To assign access rights to an object, set the <b>AccessMask</b> field of an
     access-control entry (ACE) to a combination of the constants defined in this enumeration. In addition to the 
@@ -198,13 +175,7 @@ The specific access rights granted by the four generic rights enumerations
     information about how to use the  Access Right and Access Masks, see 
     <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
@@ -231,7 +202,4 @@ The specific access rights granted by the four generic rights enumerations
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">IADsAccessControlEntry.AccessMask</a>
- 
-
- 
 

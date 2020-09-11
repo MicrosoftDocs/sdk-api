@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: eaf8ebf0-1b06-4a09-a842-83540245a117
 ms.date: 12/05/2018
 ms.keywords: .fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResourceEx, AddFontResourceEx function [Windows GDI], AddFontResourceExA, AddFontResourceExW, FR_NOT_ENUM, FR_PRIVATE, _win32_AddFontResourceEx, gdi.addfontresourceex, wingdi/AddFontResourceEx, wingdi/AddFontResourceExA, wingdi/AddFontResourceExW
-f1_keywords:
-- wingdi/AddFontResourceEx
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- AddFontResourceEx
-- AddFontResourceExA
-- AddFontResourceExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddFontResourceExW
+ - wingdi/AddFontResourceExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - AddFontResourceEx
+ - AddFontResourceExA
+ - AddFontResourceExW
 ---
 
 # AddFontResourceExW function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddFontResourceEx</b> function adds the font resource from the specified file to the system. Fonts added with the <b>AddFontResourceEx</b> function can be marked as private and not enumerable.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
@@ -166,7 +162,6 @@ Type 1 font metrics file. It is used with a .pfb file.
 
 To add a font whose information comes from several resource files, point <i>lpszFileName</i> to a string with the file names separated by a | --for example, abcxxxxx.pfm | abcxxxxx.pfb.
 
-
 ### -param fl [in]
 
 The characteristics of the font to be added to the system. This parameter can be one of the following values.
@@ -197,28 +192,18 @@ Specifies that no process, including the process that called the <b>AddFontResou
 </td>
 </tr>
 </table>
- 
-
 
 ### -param res [in]
 
 Reserved. Must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the number of fonts added.
 
 If the function fails, the return value is zero. No extended error information is available.
 
-
-
-
 ## -remarks
-
-
 
 This function allows a process to use fonts without allowing other processes access to the fonts.
 
@@ -237,9 +222,6 @@ A font listed in the registry and installed to a location other than the %windir
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
@@ -254,7 +236,4 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
- 
-
- 
 

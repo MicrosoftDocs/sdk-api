@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: a9267d2a-96ab-4518-8045-428ab74bd599
 ms.date: 12/05/2018
 ms.keywords: XFORMOBJ_bApplyXform, XFORMOBJ_bApplyXform function [Display Devices], display.xformobj_bapplyxform, gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml, winddi/XFORMOBJ_bApplyXform
-f1_keywords:
-- winddi/XFORMOBJ_bApplyXform
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- XFORMOBJ_bApplyXform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XFORMOBJ_bApplyXform
+ - winddi/XFORMOBJ_bApplyXform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - XFORMOBJ_bApplyXform
 ---
 
 # XFORMOBJ_bApplyXform function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>XFORMOBJ_bApplyXform</b> function applies the given transform or its inverse to the given array of points.
 
-
 ## -parameters
-
-
-
 
 ### -param pxo
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a> structure that defines the transform to be applied to the <i>pvIn</i> array.
-
 
 ### -param iMode [in]
 
@@ -113,40 +108,24 @@ Applies the transform to POINTL structures to get POINTL structures.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cPoints
 
 Specifies the count of points in <i>pvIn</i> to be transformed.
 
-
 ### -param pvIn
 
 Pointer to an array of input points. The format of the points is specified by the <i>iMode</i> parameter.
-
 
 ### -param pvOut
 
 Pointer to the buffer that is to receive the transformed points. The <i>iMode</i> parameter specifies the format of the points.
 
-
 ## -returns
-
-
 
 The return value is <b>TRUE</b> if all points were transformed without overflow. <b>FALSE</b> is returned if <i>pxo</i>, <i>pvIn</i>, or <i>pvOut</i> are <b>null</b>, or if overflow occurs during the transformation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a>
- 
-
- 
 

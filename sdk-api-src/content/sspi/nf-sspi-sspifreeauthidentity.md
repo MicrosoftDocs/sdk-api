@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6199f66e-7adb-4bb9-8e77-a735e31dd5f6
 ms.date: 12/05/2018
 ms.keywords: SspiFreeAuthIdentity, SspiFreeAuthIdentity function [Security], security.sspifreeauthidentity, sspi/SspiFreeAuthIdentity
-f1_keywords:
-- sspi/SspiFreeAuthIdentity
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- SspiCli.dll
-api_name:
-- SspiFreeAuthIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SspiFreeAuthIdentity
+ - sspi/SspiFreeAuthIdentity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - SspiCli.dll
+api_name:
+ - SspiFreeAuthIdentity
 ---
 
 # SspiFreeAuthIdentity function
@@ -49,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees the memory allocated for the specified identity structure.
 
-
 ## -parameters
-
-
-
 
 ### -param AuthData [in]
 
 The identity structure to free.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-
-
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 0d4d5157-cadf-4b63-aafc-ccb252cec2b4
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortColorControl, DdVideoPortColorControl callback function [Display Devices], PDD_VPORTCB_COLORCONTROL, PDD_VPORTCB_COLORCONTROL callback, ddfncs_42f1c569-d463-4c22-af43-fb4d829843ab.xml, ddrawint/DdVideoPortColorControl, display.ddvideoportcolorcontrol
-f1_keywords:
-- ddrawint/DdVideoPortColorControl
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdVideoPortColorControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_VPORTCB_COLORCONTROL
+ - ddrawint/PDD_VPORTCB_COLORCONTROL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdVideoPortColorControl
 ---
 
 # PDD_VPORTCB_COLORCONTROL callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DdVideoPortColorControl</b> callback function gets or sets the VPE object color controls.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpColorControl
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_vportcolordata">DD_VPORTCOLORDATA</a> structure that contains the information required for the driver to get the current VPE object color controls or to set new values.
 
-
 ## -returns
-
-
 
 <b>DdVideoPortColorControl</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 DirectDraw drivers that set the DDVPCAPS_COLORCONTROL flag in the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a> structure must implement <b>DdVideoPortColorControl</b>.
 
@@ -102,12 +83,7 @@ When <b>dwFlags</b> is DDRAWI_VPORTSETCOLOR, the driver should set the VPE objec
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a>
 
@@ -118,7 +94,4 @@ When <b>dwFlags</b> is DDRAWI_VPORTSETCOLOR, the driver should set the VPE objec
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_vportcolordata">DD_VPORTCOLORDATA</a>
- 
-
- 
 

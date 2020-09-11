@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 6A0100DE-DB63-475C-BF7D-3B2D436704A5
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect, IDCompositionTurbulenceEffect interface [DirectComposition], IDCompositionTurbulenceEffect interface [DirectComposition],described, dcomp/IDCompositionTurbulenceEffect, directcomp.idcompositionturbulenceeffect
-f1_keywords:
-- dcomp/IDCompositionTurbulenceEffect
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionTurbulenceEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionTurbulenceEffect
+ - dcomp/IDCompositionTurbulenceEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionTurbulenceEffect
 ---
 
 # IDCompositionTurbulenceEffect interface
@@ -49,11 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The turbulence effect is used to generate a bitmap based on the Perlin noise function.
           The turbulence effect has no input image.
-        
-
 
 ## -inheritance
 
@@ -133,16 +131,9 @@ Specifies whether stitching is on or off.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
- 
-
- 
 

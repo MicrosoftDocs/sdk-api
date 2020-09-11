@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 62730a6d-4dc8-4207-9818-ab95e6537854
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], ITextStoreAnchor interface [Text Services Framework],described, _tsf_itextstoreanchor_ref, textstor/ITextStoreAnchor, tsf.itextstoreanchor
-f1_keywords:
-- textstor/ITextStoreAnchor
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor
+ - textstor/ITextStoreAnchor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor
 ---
 
 # ITextStoreAnchor interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The ITextStoreAnchor interface is implemented by a <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a> client and is used by the TSF manager to manipulate text streams. <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges</a> of text within a stream are delimited by <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">anchor</a> objects. these anchor objects are exposed and manipulated by the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> interface.
 
 An application can obtain an instance of this interface with <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>. The interface ID is IID_ITextStoreAnchor.
 
 To use the application character position (ACP) model for text manipulation, use <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> instead.
-
 
 ## -inheritance
 
@@ -315,13 +314,9 @@ Called by an application to indicate that it no longer requires notifications fr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
@@ -347,7 +342,4 @@ Called by an application to indicate that it no longer requires notifications fr
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
- 
-
- 
 

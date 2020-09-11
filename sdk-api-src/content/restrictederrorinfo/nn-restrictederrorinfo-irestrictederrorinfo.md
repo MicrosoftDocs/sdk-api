@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 1af8d4bf-1217-44ca-b0dd-9a6feda16100
 ms.date: 12/05/2018
 ms.keywords: IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], IRestrictedErrorInfo interface [Windows Runtime],described, restrictederrorinfo/IRestrictedErrorInfo, winrt.irestrictederrorinfo
-f1_keywords:
-- restrictederrorinfo/IRestrictedErrorInfo
-dev_langs:
-- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RestrictedErrorInfo.h
-api_name:
-- IRestrictedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRestrictedErrorInfo
+ - restrictederrorinfo/IRestrictedErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RestrictedErrorInfo.h
+api_name:
+ - IRestrictedErrorInfo
 ---
 
 # IRestrictedErrorInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the details of an error, including restricted error information.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Returns a reference to restricted error information.
 
 </td>
 </tr>
-</table> 
+</table>
 

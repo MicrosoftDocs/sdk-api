@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabextinit\iwabextinit.htm
 ms.date: 12/05/2018
 ms.keywords: IWABExtInit, IWABExtInit interface [Windows Address Book], IWABExtInit interface [Windows Address Book],described, _wab_IWABExtInit, wab._wab_IWABExtInit, wabapi/IWABExtInit
-f1_keywords:
-- wabapi/IWABExtInit
-dev_langs:
-- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IWABExtInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IWABExtInit
+ - wabapi/IWABExtInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IWABExtInit
 ---
 
 # IWABExtInit interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This interface ndicates which Windows Address Book (WAB) object is being displayed (for example, a property sheet or context menu).
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Provides a WAB module with information about the object being displayed.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: BB10C732-1F42-417D-ADDE-55E870AD5FE9
 ms.date: 12/05/2018
 ms.keywords: DrawInstanced, DrawInstanced method, DrawInstanced method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DrawInstanced method, ID3D12GraphicsCommandList.DrawInstanced, ID3D12GraphicsCommandList::DrawInstanced, d3d12/ID3D12GraphicsCommandList::DrawInstanced, direct3d12.id3d12graphicscommandlist_drawinstanced
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.DrawInstanced
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.DrawInstanced
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::DrawInstanced
+ - d3d12/ID3D12GraphicsCommandList::DrawInstanced
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.DrawInstanced
 ---
 
 # ID3D12GraphicsCommandList::DrawInstanced
@@ -49,51 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draws non-indexed, instanced primitives.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param VertexCountPerInstance [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of vertices to draw.
-          
-
 
 ### -param InstanceCount [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of instances to draw.
-          
-
 
 ### -param StartVertexLocation [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index of the first vertex.
-          
-
 
 ### -param StartInstanceLocation [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value added to each index before reading per-instance data from a vertex buffer.
-          
-
 
 ## -remarks
-
-
 
 A draw API submits work to the rendering pipeline.
         
@@ -176,15 +161,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

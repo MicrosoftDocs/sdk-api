@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 607c5795-8168-4c6b-a2f3-65f31aea5cf5
 ms.date: 12/05/2018
 ms.keywords: '*PDOT11_NETWORK_LIST, DOT11_NETWORK_LIST, DOT11_NETWORK_LIST structure [NativeWIFI], PDOT11_NETWORK_LIST, PDOT11_NETWORK_LIST structure pointer [NativeWIFI], nwifi.dot11_network_list, wlanapi/DOT11_NETWORK_LIST, wlanapi/PDOT11_NETWORK_LIST'
-f1_keywords:
-- wlanapi/DOT11_NETWORK_LIST
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- DOT11_NETWORK_LIST
 targetos: Windows
 req.typenames: DOT11_NETWORK_LIST, *PDOT11_NETWORK_LIST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DOT11_NETWORK_LIST
+ - wlanapi/_DOT11_NETWORK_LIST
+ - PDOT11_NETWORK_LIST
+ - wlanapi/PDOT11_NETWORK_LIST
+ - DOT11_NETWORK_LIST
+ - wlanapi/DOT11_NETWORK_LIST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - DOT11_NETWORK_LIST
 ---
 
 # DOT11_NETWORK_LIST structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DOT11_NETWORK_LIST</b> structure contains a list of 802.11 wireless networks.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumberOfItems
 
 Contains the number of items in the <b>Network</b> member.
-
 
 ### -field dwIndex
 
@@ -71,31 +70,17 @@ This member is not used by the wireless service. Applications can use this membe
 
 <b>dwIndex</b> should always be initialized before use.
 
-
 ### -field Network.unique
-
- 
-
 
 ### -field Network.size_is
 
- 
-
-
 ### -field Network.size_is.dwNumberOfItems
-
- 
-
 
 ### -field Network
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network">DOT11_NETWORK</a> structures that contain 802.11 wireless network information.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network">DOT11_NETWORK</a>
 
@@ -106,7 +91,4 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>
- 
-
- 
 

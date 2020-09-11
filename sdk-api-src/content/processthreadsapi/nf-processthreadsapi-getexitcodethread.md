@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 67482c3d-b845-4c0f-8aa1-0e3cf8cb5127
 ms.date: 12/05/2018
 ms.keywords: GetExitCodeThread, GetExitCodeThread function, _win32_getexitcodethread, base.getexitcodethread, processthreadsapi/GetExitCodeThread, winbase/GetExitCodeThread
-f1_keywords:
-- processthreadsapi/GetExitCodeThread
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- GetExitCodeThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetExitCodeThread
+ - processthreadsapi/GetExitCodeThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - GetExitCodeThread
 ---
 
 # GetExitCodeThread function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the termination status of the specified thread.
 
-
 ## -parameters
-
-
-
 
 ### -param hThread [in]
 
@@ -74,27 +70,18 @@ The handle must have the <b>THREAD_QUERY_INFORMATION</b> or <b>THREAD_QUERY_LIMI
 
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the <b>THREAD_QUERY_INFORMATION</b> access right.
 
-
 ### -param lpExitCode [out]
 
 A pointer to a variable to receive the thread termination status. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function returns immediately. If the specified thread has not terminated and the function succeeds, the status returned is <b>STILL_ACTIVE</b>. If the thread has terminated and the function succeeds, the status returned is one of the following values:
 
@@ -111,13 +98,7 @@ This function returns immediately. If the specified thread has not terminated an
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
 
@@ -140,7 +121,4 @@ This function returns immediately. If the specified thread has not terminated an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/terminating-a-thread">Terminating a Thread</a>
- 
-
- 
 

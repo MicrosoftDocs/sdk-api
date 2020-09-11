@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: bcdd7ea9-66b2-40e9-89a1-0fec073ccd92
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerApplication, IWMPPlayerApplication interface [Windows Media Player], IWMPPlayerApplication interface [Windows Media Player],described, IWMPPlayerApplicationInterface, wmp.iwmpplayerapplication, wmp/IWMPPlayerApplication
-f1_keywords:
-- wmp/IWMPPlayerApplication
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlayerApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayerApplication
+ - wmp/IWMPPlayerApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlayerApplication
 ---
 
 # IWMPPlayerApplication interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlayerApplication</b> interface provides methods for switching between a remoted Windows Media Player control and the full mode of the Player. These methods can only be used with C++ programs that embed the control in remote mode.
-
-
-
 
 ## -inheritance
 
@@ -124,16 +120,9 @@ Retrieve a pointer to an <b>IWMPPlayerApplication</b> interface with the followi
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_playerapplication">get_playerApplication</a>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

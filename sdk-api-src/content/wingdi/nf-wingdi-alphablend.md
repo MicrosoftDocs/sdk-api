@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 4624aa31-7e19-4506-ac70-9b3c98a8215d
 ms.date: 12/05/2018
 ms.keywords: AlphaBlend, AlphaBlend function [Windows GDI], _win32_AlphaBlend, gdi.alphablend, wingdi/AlphaBlend
-f1_keywords:
-- wingdi/AlphaBlend
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Msimg32.lib
 req.dll: Msimg32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msimg32.dll
-- ext-ms-win-msimg-draw-l1-1-0.dll
-api_name:
-- AlphaBlend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AlphaBlend
+ - wingdi/AlphaBlend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msimg32.dll
+ - ext-ms-win-msimg-draw-l1-1-0.dll
+api_name:
+ - AlphaBlend
 ---
 
 # AlphaBlend function
@@ -50,84 +51,61 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AlphaBlend</b> function displays bitmaps that have transparent or semitransparent pixels.
 
-
 ## -parameters
-
-
-
 
 ### -param hdcDest [in]
 
 A handle to the destination device context.
 
-
 ### -param xoriginDest [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
 
 ### -param yoriginDest [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
-
 ### -param wDest [in]
 
 The width, in logical units, of the destination rectangle.
-
 
 ### -param hDest [in]
 
 The height, in logical units, of the destination rectangle.
 
-
 ### -param hdcSrc [in]
 
 A handle to the source device context.
-
 
 ### -param xoriginSrc [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
-
 ### -param yoriginSrc [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
-
 
 ### -param wSrc [in]
 
 The width, in logical units, of the source rectangle.
 
-
 ### -param hSrc [in]
 
 The height, in logical units, of the source rectangle.
-
 
 ### -param ftn [in]
 
 The alpha-blending function for source and destination bitmaps, a global alpha value to be applied to the entire source bitmap, and format information for the source bitmap. The source and destination blend functions are currently limited to AC_SRC_OVER. See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emralphablend">EMRALPHABLEND</a> structures.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the source rectangle and destination rectangle are not the same size, the source bitmap is stretched to match the destination rectangle. If the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a> function is used, the <i>iStretchMode</i> value is automatically converted to COLORONCOLOR for this function (that is, BLACKONWHITE, WHITEONBLACK, and HALFTONE are changed to COLORONCOLOR).
 
@@ -149,13 +127,7 @@ The source rectangle must lie completely within the source surface, otherwise an
 
 The <b>SourceConstantAlpha</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> specifies an alpha transparency value to be used on the entire source bitmap. The <b>SourceConstantAlpha</b> value is combined with any per-pixel alpha values. If <b>SourceConstantAlpha</b> is 0, it is assumed that the image is transparent. Set the <b>SourceConstantAlpha</b> value to 255 (which indicates that the image is opaque) when you only want to use per-pixel alpha values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a>
 
@@ -178,7 +150,4 @@ The <b>SourceConstantAlpha</b> member of <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: fe07fac0-b9f2-419e-a086-09bc73125c4e
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchange8, InterlockedExchange8 function, base.interlockedexchange8, winnt/InterlockedExchange8
-f1_keywords:
-- winnt/InterlockedExchange8
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedExchange8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedExchange8
+ - winnt/InterlockedExchange8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedExchange8
 ---
 
 # InterlockedExchange8 function
 
 
 ## -description
-
 
 Sets an 8-bit variable to the specified value as an atomic operation.
 
@@ -61,34 +61,21 @@ To operate on a 32-bit variable, use the <a href="/windows/win32/api/winbase/nf-
 
 To operate on a 64-bit variable, use the <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange64</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Target [in, out]
 
 A pointer to the value to be exchanged. The function sets this variable to <i>Value</i>, and returns its prior value.
 
-
 ### -param Value [in]
 
 The value to be exchanged with the value pointed to by <i>Target</i>.
 
-
 ## -returns
-
-
 
 The function returns the initial value of the <i>Target</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
@@ -99,12 +86,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -171,7 +153,4 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

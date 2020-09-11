@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e39d40fd-3d43-4cdc-b41a-07a87a11bfad
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], IX509EnrollmentPolicyServer interface [Security],described, certenroll/IX509EnrollmentPolicyServer, security.ix509enrollmentpolicyserver
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509EnrollmentPolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer
+ - certenroll/IX509EnrollmentPolicyServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509EnrollmentPolicyServer
 ---
 
 # IX509EnrollmentPolicyServer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509EnrollmentPolicyServer</b> interface represents a certificate enrollment policy (CEP) server.
-
 
 ## -inheritance
 
@@ -291,5 +290,5 @@ Specifies and retrieves an arbitrary  cost for contacting the certificate enroll
 
 </td>
 </tr>
-</table> 
+</table>
 

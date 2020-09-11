@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: d978f668-7726-44e4-a0b1-31390e8498c4
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_add, ldap.ldap__add, ldap.ldap_add, ldap_add, ldap_add function [LDAP], ldap_addA, ldap_addW, winldap/ldap_add, winldap/ldap_addA, winldap/ldap_addW
-f1_keywords:
-- winldap/ldap_add
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_add
-- ldap_addA
-- ldap_addW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_addW
+ - winldap/ldap_addW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_add
+ - ldap_addA
+ - ldap_addW
 ---
 
 # ldap_addW function
@@ -51,46 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_add</b> function initiates an asynchronous add operation to a directory tree. For an add operation to succeed, the parent of the entry added must exist, or the parent must be empty (equal to the distinguished name of the root).
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 The session handle.
 
-
 ### -param dn [in]
 
 A pointer to a null-terminated string that contains the distinguished name of the entry to add.
-
 
 ### -param attrs [in]
 
 An array of pointers to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a> structures. Each structure specifies a single attribute.
 
-
 ## -returns
-
-
 
 If the function succeeds, the message ID of the add operation is returned.
 
 If the function fails, it returns –1 and sets the session error parameters in the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> data structure. To retrieve the error data, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Before calling <b>ldap_add</b>, create an entry by specifying its attributes in 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a> structures. Set the <b>mod_op</b> member of each structure to LDAP_MOD_ADD, and set the <b>mod_type</b> and <b>mod_vals</b> members as appropriate for your entry.
@@ -119,9 +105,6 @@ Multithreading: Calls to <b>ldap_add</b> are thread-safe, provided that
 > The winldap.h header defines ldap_add as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
@@ -168,7 +151,4 @@ Multithreading: Calls to <b>ldap_add</b> are thread-safe, provided that
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
- 
-
- 
 

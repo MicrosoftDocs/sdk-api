@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\commdlgextendederror.htm
 ms.date: 12/05/2018
 ms.keywords: CommDlgExtendedError, CommDlgExtendedError function [Dialog Boxes], _win32_CommDlgExtendedError, _win32_commdlgextendederror_cpp, commdlg/CommDlgExtendedError, dlgbox.commdlgextendederror, winui._win32_commdlgextendederror
-f1_keywords:
-- commdlg/CommDlgExtendedError
-dev_langs:
-- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comdlg32.dll
-- ext-ms-win-shell-comdlg32-l1-1-0.dll
-- ext-ms-win-shell-comdlg32-l1-1-1.dll
-api_name:
-- CommDlgExtendedError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CommDlgExtendedError
+ - commdlg/CommDlgExtendedError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comdlg32.dll
+ - ext-ms-win-shell-comdlg32-l1-1-0.dll
+ - ext-ms-win-shell-comdlg32-l1-1-1.dll
+api_name:
+ - CommDlgExtendedError
 ---
 
 # CommDlgExtendedError function
@@ -51,20 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -498,15 +490,8 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1">CHOOSECOLOR</a>
 
@@ -585,7 +570,4 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-replacetexta">ReplaceText</a>
- 
-
- 
 

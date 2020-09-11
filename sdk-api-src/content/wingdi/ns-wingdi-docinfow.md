@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 329bf0d9-399b-4f64-a029-361ef7558aeb
 ms.date: 12/05/2018
 ms.keywords: '*LPDOCINFOW, DOCINFO, DOCINFO structure [Windows GDI], DOCINFOW, LPDOCINFO, LPDOCINFO structure pointer [Windows GDI], _win32_DOCINFO_str, gdi.docinfo, wingdi/DOCINFO, wingdi/LPDOCINFO'
-f1_keywords:
-- wingdi/DOCINFO
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- DOCINFO
 targetos: Windows
 req.typenames: DOCINFOW, *LPDOCINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DOCINFOW
+ - wingdi/_DOCINFOW
+ - LPDOCINFOW
+ - wingdi/LPDOCINFOW
+ - DOCINFOW
+ - wingdi/DOCINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - DOCINFO
 ---
 
 # DOCINFOW structure
@@ -49,37 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DOCINFO</b> structure contains the input and output file names and other information used by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a> function.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of the structure.
 
-
 ### -field lpszDocName
 
 Pointer to a null-terminated string that specifies the name of the document.
-
 
 ### -field lpszOutput
 
 Pointer to a null-terminated string that specifies the name of an output file. If this pointer is <b>NULL</b>, the output will be sent to the device identified by the device context handle that was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a> function.
 
-
 ### -field lpszDatatype
 
 Pointer to a null-terminated string that specifies the type of data used to record the print job. The legal values for this member can be found by calling <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumprintprocessordatatypes">EnumPrintProcessorDatatypes</a> and can include such values as raw, emf, or XPS_PASS. This member can be <b>NULL</b>. Note that the requested data type might be ignored.
-
 
 ### -field fwType
 
@@ -99,13 +92,8 @@ Specifies additional information about the print job. This member must be zero o
 <td>The application will use raster operations that involve reading from the destination surface.</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
 
@@ -116,9 +104,6 @@ Specifies additional information about the print job. This member must be zero o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
- 
-
- 
 
 ## -remarks
 

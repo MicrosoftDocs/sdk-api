@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: e70b4518-c9de-4426-b8e5-db80656699a9
 ms.date: 12/05/2018
 ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], IPerChannelDbLevel interface [Core Audio],described, coreaudio.iperchanneldblevel, devicetopology/IPerChannelDbLevel
-f1_keywords:
-- devicetopology/IPerChannelDbLevel
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IPerChannelDbLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPerChannelDbLevel
+ - devicetopology/IPerChannelDbLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IPerChannelDbLevel
 ---
 
 # IPerChannelDbLevel interface
 
 
 ## -description
-
-
 
 The <b>IPerChannelDbLevel</b> interface represents a generic subunit control interface that provides per-channel control over the volume level, in decibels, of an audio stream or of a frequency band in an audio stream. A positive volume level represents gain, and a negative value represents attenuation.
 
@@ -69,8 +68,6 @@ Clients do not call the methods in this interface directly. Instead, this interf
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel Interface</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -141,13 +138,9 @@ Sets all channels in the audio stream to the same uniform volume level, in decib
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -170,7 +163,4 @@ Sets all channels in the audio stream to the same uniform volume level, in decib
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\resettransform_27.htm
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],ResetTransform method, Pen.ResetTransform, Pen::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_ResetTransform_, gdiplus._gdiplus_CLASS_Pen_ResetTransform_
-f1_keywords:
-- gdipluspen/Pen.ResetTransform
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Pen.ResetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Pen::ResetTransform
+ - gdipluspen/Pen::ResetTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Pen.ResetTransform
 ---
 
 # Pen::ResetTransform
@@ -50,21 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Pen::ResetTransform</b> method sets the world transformation matrix of this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to the identity matrix.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -74,12 +66,7 @@ If the method succeeds, it returns <b>Ok</b>, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<b>Ok</b> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 The identity matrix represents a transformation that does nothing. If the world transformation matrix of a 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object is the identity matrix, then no world transformation is applied to items drawn using that 
@@ -113,14 +100,7 @@ VOID Example_ResetTrans(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-coordinate-systems-and-transformations-about">Coordinate Systems and Transformations</a>
 
@@ -155,7 +135,4 @@ VOID Example_ResetTrans(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

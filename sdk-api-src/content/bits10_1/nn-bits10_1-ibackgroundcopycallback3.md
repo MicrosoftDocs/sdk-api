@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 74712770-BB14-4B8A-8DA4-096CEB58D820
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback3, IBackgroundCopyCallback3 interface [BITS], IBackgroundCopyCallback3 interface [BITS],described, bits.ibackgroundcopycallback3, bits10_1/IBackgroundCopyCallback3
-f1_keywords:
-- bits10_1/IBackgroundCopyCallback3
-dev_langs:
-- c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyCallback3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyCallback3
+ - bits10_1/IBackgroundCopyCallback3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyCallback3
 ---
 
 # IBackgroundCopyCallback3 interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clients implement the <b>IBackgroundCopyCallback3</b> interface to receive notification that ranges of a file have completed downloading.
 
 Instead of polling for the download status of a file, clients use this interface.
 To receive notifications, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method.
 You must implement all methods of this interface and the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a> and <b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the file transferred callback, your <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file ranges   transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> or <b>IBackgroundCopyCallback2</b> instead.
-
 
 ## -inheritance
 
@@ -82,13 +81,9 @@ BITS calls your implementation of the <a href="https://docs.microsoft.com/window
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
 
@@ -103,7 +98,4 @@ BITS calls your implementation of the <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
- 
-
- 
 

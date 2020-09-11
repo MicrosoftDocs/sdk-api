@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 38e1ea6c-d07d-4075-b6f2-d563c4bce007
 ms.date: 12/05/2018
 ms.keywords: IAudioCaptureClient interface [Core Audio],ReleaseBuffer method, IAudioCaptureClient.ReleaseBuffer, IAudioCaptureClient::ReleaseBuffer, IAudioCaptureClientReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio],IAudioCaptureClient interface, audioclient/IAudioCaptureClient::ReleaseBuffer, coreaudio.iaudiocaptureclient_releasebuffer
-f1_keywords:
-- audioclient/IAudioCaptureClient.ReleaseBuffer
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioCaptureClient.ReleaseBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioCaptureClient::ReleaseBuffer
+ - audioclient/IAudioCaptureClient::ReleaseBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioCaptureClient.ReleaseBuffer
 ---
 
 # IAudioCaptureClient::ReleaseBuffer
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ReleaseBuffer</b> method releases the buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param NumFramesRead [in]
 
 The number of audio frames that the client read from the capture buffer. This parameter must be either equal to the number of frames in the previously acquired data packet or 0.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -122,14 +112,8 @@ The Windows audio service is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client should call this method when it finishes reading a data packet that it obtained previously by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> method.
 
@@ -143,20 +127,11 @@ Clients should avoid excessive delays between the <a href="https://docs.microsof
 
 For a code example that calls the <b>ReleaseBuffer</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a>
- 
-
- 
 

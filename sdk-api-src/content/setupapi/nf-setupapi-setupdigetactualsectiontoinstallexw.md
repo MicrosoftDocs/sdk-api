@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 0f05e3ec-09ea-4d9a-99c9-ddbc16753481
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualSectionToInstallEx, SetupDiGetActualSectionToInstallEx function [Device and Driver Installation], SetupDiGetActualSectionToInstallExA, SetupDiGetActualSectionToInstallExW, devinst.setupdigetactualsectiontoinstallex, di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml, setupapi/SetupDiGetActualSectionToInstallEx
-f1_keywords:
-- setupapi/SetupDiGetActualSectionToInstallEx
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiGetActualSectionToInstallEx
-- SetupDiGetActualSectionToInstallExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetActualSectionToInstallExW
+ - setupapi/SetupDiGetActualSectionToInstallExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiGetActualSectionToInstallEx
+ - SetupDiGetActualSectionToInstallExW
 ---
 
 # SetupDiGetActualSectionToInstallExW function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiGetActualSectionToInstallEx</b> function retrieves the name of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> that installs a device for a specified operating system and processor architecture. 
-
+The <b>SetupDiGetActualSectionToInstallEx</b> function retrieves the name of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> that installs a device for a specified operating system and processor architecture.
 
 ## -parameters
 
-
-
-
 ### -param InfHandle [in]
 
-A handle to the INF file that contains the <i>DDInstall</i> section. 
-
+A handle to the INF file that contains the <i>DDInstall</i> section.
 
 ### -param InfSectionName [in]
 
 A pointer to the <i>DDInstall</i> section name (as specified in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models section</a>). The maximum length of the section name, in characters, is 254.
-
 
 ### -param AlternatePlatformInfo [in, optional]
 
@@ -150,26 +144,21 @@ The alternative platform is an x64-based processor architecture.
 
 Set to zero.
 
-
 ### -param InfSectionWithExt [out, optional]
 
 A pointer to a character buffer to receive the <i>DDInstall</i> section name, its platform extension, and a NULL terminator. This is the decorated section name that should be used for installation.  If this parameter is <b>NULL</b>, the function returns <b>TRUE</b> and sets <i>RequiredSize</i> to the size, in characters, that is required to return the <i>DDInstall</i> section name, its platform extension, and a terminating NULL character.
 
-
 ### -param InfSectionWithExtSize [in]
 
-The size, in characters, of the buffer that is pointed to by the <i>InfSectionWithExt</i> parameter. The maximum length of a NULL-terminated INF section name, in characters, is MAX_INF_SECTION_NAME_LENGTH. 
-
+The size, in characters, of the buffer that is pointed to by the <i>InfSectionWithExt</i> parameter. The maximum length of a NULL-terminated INF section name, in characters, is MAX_INF_SECTION_NAME_LENGTH.
 
 ### -param RequiredSize [out, optional]
 
 A pointer to the variable that receives the size, in characters, that is required to return the <i>DDInstall</i> section name, the platform extension, and a terminating NULL character.
 
-
 ### -param Extension [out, optional]
 
 A pointer to a variable that receives a pointer to the '.' character that marks the start of the extension in the <i>InfSectionWithExt</i> buffer. If the <i>InfSectionWithExt</i> buffer is not supplied or is too small, this parameter is not set. Set this parameter to <b>NULL</b> if a pointer to the extension is not required.
-
 
 ### -param Reserved
 
@@ -243,19 +232,11 @@ Set to zero.
 
 Set to the size, in bytes, of an SP_ALTPLATFORM_INFO structure.
 
-
 ## -returns
-
-
 
 If the function is successful, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetupDiGetActualSectionToInstallEx</b> is an extended form of <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetactualsectiontoinstalla">SetupDiGetActualSectionToInstall</a>. These functions support the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation actions for a device. For information about these extensions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/creating-inf-files-for-multiple-platforms-and-operating-systems">Creating INF Files for Multiple Platforms and Operating Systems</a>.
 
@@ -285,9 +266,6 @@ If the function finds a match for the name, operating system, and processor arch
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a>
 
 
@@ -297,7 +275,4 @@ If the function finds a match for the name, operating system, and processor arch
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a>
- 
-
- 
 

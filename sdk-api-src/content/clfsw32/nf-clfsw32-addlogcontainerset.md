@@ -1,17 +1,13 @@
 ---
 UID: NF:clfsw32.AddLogContainerSet
 title: AddLogContainerSet function (clfsw32.h)
-description: Adds multiple log containers to the physical log that is associated with the log handle�if the calling process has access to the log handle.
+description: Adds multiple log containers to the physical log that is associated with the log handle�if the calling process has access to the log handle.
 helpviewer_keywords: ["AddLogContainerSet","AddLogContainerSet function [Files]","clfsw32/AddLogContainerSet","fs.addlogcontainerset"]
 old-location: fs\addlogcontainerset.htm
 tech.root: fs
 ms.assetid: b3dec3bd-3e39-42fa-8f73-71784b3d5be2
 ms.date: 12/05/2018
 ms.keywords: AddLogContainerSet, AddLogContainerSet function [Files], clfsw32/AddLogContainerSet, fs.addlogcontainerset
-f1_keywords:
-- clfsw32/AddLogContainerSet
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- AddLogContainerSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddLogContainerSet
+ - clfsw32/AddLogContainerSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - AddLogContainerSet
 ---
 
 # AddLogContainerSet function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds multiple log containers to the physical log  that is associated with the log handle—if the calling process has access to the log handle.  Adding containers allows a client to increase the size of a log.
 
-
 ## -parameters
-
-
-
 
 ### -param hLog [in]
 
@@ -64,13 +60,11 @@ The handle to an open log that is obtained from <a href="https://docs.microsoft.
 
 The file can be dedicated or multiplexed.
 
-
 ### -param cContainer [in]
 
 The number of containers  in the <i>rgwszContainerPath</i> array.  
 
 This value must be nonzero.  A log must have at least two containers before any I/O can be performed on it.
-
 
 ### -param pcbContainer [in, optional]
 
@@ -85,22 +79,17 @@ Log container sizes are multiples of the log region size  (512 KB).  When you ad
 
 Similarly,  if the log already has at least one container and the value of <i>*pcbContainer</i> is at least as large as the current container size, the function creates all containers with the current internal size and returns that size in <i>*pcbContainer</i>.
 
-
 ### -param rgwszContainerPath [in]
 
 An array of   <i>cContainer</i> path names for containers.  
 
 Each element in the array is a wide-character string that contains a valid path for the new container in the log volume.
 
-
 ### -param pReserved [in, out, optional]
 
 Reserved.  Set <i>Reserved</i> to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero, which indicates that all containers are added successfully to the log.
 
@@ -108,12 +97,7 @@ If the function fails, the return value is zero, which indicates that none of th
 
 The following list identifies the possible error codes:
 
-
-
-
 ## -remarks
-
-
 
 		The <b>AddLogContainerSet</b> function is not atomic.  If the operation 
 		is interrupted, for example, by an invalid path name, the call to 
@@ -125,13 +109,7 @@ Because <b>AddLogContainerSet</b> adds more than one container, it is  more
 
 Containers are created and opened in a noncompressed mode, and are initialized with 0 (zeros) when they are created.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainer">AddLogContainer</a>
 
@@ -142,7 +120,4 @@ Containers are created and opened in a noncompressed mode, and are initialized w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
- 
-
- 
 

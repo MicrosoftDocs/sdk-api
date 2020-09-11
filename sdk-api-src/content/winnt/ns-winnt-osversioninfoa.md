@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: a173df17-dad2-4330-aa66-4ff789fd7cc2
 ms.date: 12/05/2018
 ms.keywords: '*LPOSVERSIONINFOA, *POSVERSIONINFOA, OSVERSIONINFO, OSVERSIONINFO structure, OSVERSIONINFOA, OSVERSIONINFOW, VER_PLATFORM_WIN32_NT, _OSVERSIONINFOA, _OSVERSIONINFOW, _win32_osversioninfo_str, base.osversioninfo_str, winnt/OSVERSIONINFO, winnt/OSVERSIONINFOA, winnt/OSVERSIONINFOW'
-f1_keywords:
-- winnt/OSVERSIONINFO
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- OSVERSIONINFO
-- OSVERSIONINFOA
-- OSVERSIONINFOW
 targetos: Windows
 req.typenames: OSVERSIONINFOA, *POSVERSIONINFOA, *LPOSVERSIONINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OSVERSIONINFOA
+ - winnt/_OSVERSIONINFOA
+ - POSVERSIONINFOA
+ - winnt/POSVERSIONINFOA
+ - OSVERSIONINFOA
+ - winnt/OSVERSIONINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - OSVERSIONINFO
+ - OSVERSIONINFOA
+ - OSVERSIONINFOW
 ---
 
 # OSVERSIONINFOA structure
@@ -51,37 +56,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains operating system version information. The information includes major and minor version numbers, a build number, a platform identifier, and descriptive text about the operating system. This structure is used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> function.
 
 To obtain additional version information, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure with <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> instead.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwOSVersionInfoSize
 
 The size of this data structure, in bytes. Set this member to <code>sizeof(OSVERSIONINFO)</code>.
 
-
 ### -field dwMajorVersion
 
-The major version number of the operating system. For more information, see Remarks. 
-
+The major version number of the operating system. For more information, see Remarks.
 
 ### -field dwMinorVersion
 
-The minor version number of the operating system. For more information, see Remarks. 
-
+The minor version number of the operating system. For more information, see Remarks.
 
 ### -field dwBuildNumber
 
 The build number of the operating system.
-
 
 ### -field dwPlatformId
 
@@ -106,17 +102,12 @@ The operating system is Windows 7, Windows Server 2008, Windows Vista, Window
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szCSDVersion
 
 A null-terminated string, such as "Service Pack 3", that indicates the latest Service Pack installed on the system. If no Service Pack has been installed, the string is empty.
 
-
 ## -remarks
-
-
 
 Relying on version information is not the best way to test for a feature. Instead, refer to the documentation for the feature of interest. For more information on common techniques for feature detection, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>.
@@ -256,15 +247,9 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper APIs</a>
- 
-
- 
 

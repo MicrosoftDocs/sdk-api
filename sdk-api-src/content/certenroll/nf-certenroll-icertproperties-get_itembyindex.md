@@ -8,10 +8,6 @@ tech.root: seccertenroll
 ms.assetid: d0e92e8a-2153-440e-829f-3c9cda8c8de4
 ms.date: 12/05/2018
 ms.keywords: ICertProperties interface [Security],ItemByIndex property, ICertProperties.ItemByIndex, ICertProperties.get_ItemByIndex, ICertProperties::ItemByIndex, ICertProperties::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertProperties interface, certenroll/ICertProperties::ItemByIndex, certenroll/ICertProperties::get_ItemByIndex, get_ItemByIndex, security.icertproperties_itembyindex_property
-f1_keywords:
-- certenroll/ICertProperties.ItemByIndex
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertProperties.ItemByIndex
-- ICertProperties.get_ItemByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertProperties::get_ItemByIndex
+ - certenroll/ICertProperties::get_ItemByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertProperties.ItemByIndex
+ - ICertProperties.get_ItemByIndex
 ---
 
 # ICertProperties::get_ItemByIndex
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ItemByIndex</b> property retrieves a property from the collection by index number. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
- 
-
- 
 

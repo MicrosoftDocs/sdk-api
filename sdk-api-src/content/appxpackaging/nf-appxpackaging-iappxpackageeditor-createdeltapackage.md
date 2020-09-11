@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 40B41D47-674A-4842-8C6D-FBB661D12589
 ms.date: 12/05/2018
 ms.keywords: CreateDeltaPackage, CreateDeltaPackage method [App packaging and management], CreateDeltaPackage method [App packaging and management],IAppxPackageEditor interface, IAppxPackageEditor interface [App packaging and management],CreateDeltaPackage method, IAppxPackageEditor.CreateDeltaPackage, IAppxPackageEditor::CreateDeltaPackage, appxpackaging/IAppxPackageEditor::CreateDeltaPackage, appxpkg.iappxpackageeditor_createdeltapackage
-f1_keywords:
-- appxpackaging/IAppxPackageEditor.CreateDeltaPackage
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxPackageEditor.CreateDeltaPackage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxPackageEditor::CreateDeltaPackage
+ - appxpackaging/IAppxPackageEditor::CreateDeltaPackage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxPackageEditor.CreateDeltaPackage
 ---
 
 # IAppxPackageEditor::CreateDeltaPackage
@@ -49,46 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a delta package from the differences in the updated package and the baseline package.
 
-
 ## -parameters
-
-
-
 
 ### -param updatedPackageStream [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the updated app package.
 
-
 ### -param baselinePackageStream [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the baseline app package.
-
 
 ### -param deltaPackageStream [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the delta (difference) app package.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackageeditor">IAppxPackageEditor</a>
- 
-
- 
 

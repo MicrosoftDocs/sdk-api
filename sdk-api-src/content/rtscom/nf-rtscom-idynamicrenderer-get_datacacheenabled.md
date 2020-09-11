@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 1b2435ee-4682-4499-aa5c-35201ab2ba95
 ms.date: 12/05/2018
 ms.keywords: 1b2435ee-4682-4499-aa5c-35201ab2ba95, DataCacheEnabled property [Tablet PC], DataCacheEnabled property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DataCacheEnabled property, IDynamicRenderer.DataCacheEnabled, IDynamicRenderer.get_DataCacheEnabled, IDynamicRenderer.put_DataCacheEnabled, IDynamicRenderer::DataCacheEnabled, IDynamicRenderer::get_DataCacheEnabled, IDynamicRenderer::put_DataCacheEnabled, get_DataCacheEnabled, rtscom/IDynamicRenderer::DataCacheEnabled, rtscom/IDynamicRenderer::get_DataCacheEnabled, rtscom/IDynamicRenderer::put_DataCacheEnabled, tablet.idynamicrenderer_datacacheenabled
-f1_keywords:
-- rtscom/IDynamicRenderer.DataCacheEnabled
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IDynamicRenderer.DataCacheEnabled
-- IDynamicRenderer.get_DataCacheEnabled
-- IDynamicRenderer.put_DataCacheEnabled
-- IDynamicRenderer.get_DataCacheEnabled
-- IDynamicRenderer.put_DataCacheEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDynamicRenderer::get_DataCacheEnabled
+ - rtscom/IDynamicRenderer::get_DataCacheEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IDynamicRenderer.DataCacheEnabled
+ - IDynamicRenderer.get_DataCacheEnabled
+ - IDynamicRenderer.put_DataCacheEnabled
+ - IDynamicRenderer.get_DataCacheEnabled
+ - IDynamicRenderer.put_DataCacheEnabled
 ---
 
 # IDynamicRenderer::get_DataCacheEnabled
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets a value that indicates whether data caching is enabled for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Setting the <b>DataCacheEnabled</b> property to <b>TRUE</b> enables you to manage the situation where slow processes block the output queue. When the window is invalidated after strokes are drawn by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object, there may be a delay before the collected strokes are drawn. Place the strokes of the dynamic renderer in a cache and use the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-refresh">IDynamicRenderer::Refresh Method</a> method to redraw the strokes.
 
@@ -79,20 +74,11 @@ If this property is <b>TRUE</b>, you must call the <a href="https://docs.microso
 
 Setting this property to <b>FALSE</b> clears the cached data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a>
- 
-
- 
 

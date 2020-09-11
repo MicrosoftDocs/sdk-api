@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 1058f228-8b81-4590-b0af-08abe16a1510
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetVersion method, IXpsOMCoreProperties.SetVersion, IXpsOMCoreProperties::SetVersion, SetVersion, SetVersion method [XPS Documents and Packaging], SetVersion method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setversion, xpsobjectmodel/IXpsOMCoreProperties::SetVersion
-f1_keywords:
-- xpsobjectmodel/IXpsOMCoreProperties.SetVersion
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCoreProperties.SetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCoreProperties::SetVersion
+ - xpsobjectmodel/IXpsOMCoreProperties::SetVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCoreProperties.SetVersion
 ---
 
 # IXpsOMCoreProperties::SetVersion
@@ -49,42 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the <b>version</b> property.
 
-
 ## -parameters
-
-
-
 
 ### -param version [in]
 
 The string to be written to the <b>version</b> property. A <b>NULL</b> pointer clears the <b>version</b> property.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>version</b> property contains the version number of the resource.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
 
@@ -95,7 +77,4 @@ The <b>version</b> property contains the version number of the resource.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

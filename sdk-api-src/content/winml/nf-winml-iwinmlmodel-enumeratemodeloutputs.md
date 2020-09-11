@@ -8,10 +8,6 @@ tech.root: MachineLearning
 ms.assetid: F946AF8E-67BE-4F4B-9BE3-2142CE646B0B
 ms.date: 12/05/2018
 ms.keywords: EnumerateModelOutputs, EnumerateModelOutputs method, EnumerateModelOutputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelOutputs method, IWinMLModel.EnumerateModelOutputs, IWinMLModel::EnumerateModelOutputs, MachineLearning.iwinmlmodel_enumeratemodeloutputs, winml/IWinMLModel::EnumerateModelOutputs
-f1_keywords:
-- winml/IWinMLModel.EnumerateModelOutputs
-dev_langs:
-- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winml.dll
-api_name:
-- IWinMLModel.EnumerateModelOutputs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWinMLModel::EnumerateModelOutputs
+ - winml/IWinMLModel::EnumerateModelOutputs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winml.dll
+api_name:
+ - IWinMLModel.EnumerateModelOutputs
 ---
 
 # IWinMLModel::EnumerateModelOutputs
@@ -49,45 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Enumerates the WinML model outputs.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 Output index value.
 
-
 ### -param ppOutputDescriptor [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_variable_desc">WINML_VARIABLE_DESC</a> containing the model output description.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winml/nn-winml-iwinmlmodel">IWinMLModel</a>
- 
-
- 
 

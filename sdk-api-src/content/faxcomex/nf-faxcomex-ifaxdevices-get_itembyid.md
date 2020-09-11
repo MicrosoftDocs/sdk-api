@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gmc.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDevices interface [Fax Service],get_ItemById method, IFaxDevices.get_ItemById, IFaxDevices::get_ItemById, _mfax_faxdevices.itembyid, fax._mfax_faxdevices_itembyid, faxcomex/IFaxDevices::get_ItemById, get_ItemById, get_ItemById method [Fax Service], get_ItemById method [Fax Service],IFaxDevices interface
-f1_keywords:
-- faxcomex/IFaxDevices.get_ItemById
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FaxComex.h
-api_name:
-- IFaxDevices.get_ItemById
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDevices::get_ItemById
+ - faxcomex/IFaxDevices::get_ItemById
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FaxComex.h
+api_name:
+ - IFaxDevices.get_ItemById
 ---
 
 # IFaxDevices::get_ItemById
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxDevices::get_ItemById</b> method returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection, using its device ID.
 
-
 ## -parameters
-
-
-
 
 ### -param lId [in]
 
@@ -64,38 +60,23 @@ Type: <b>long</b>
 
 The unique ID of the device to retrieve.
 
-
 ### -param ppFaxDevice [out, retval]
 
 Type: <b>ppFaxDevice**</b>
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To retrieve an item from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection using the device's index, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices-item">Item</a> property.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a>
 
@@ -106,7 +87,4 @@ To retrieve an item from the <a href="https://docs.microsoft.com/previous-versio
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 65154EB1-ABE5-4C4F-8B09-08633D82FD62
 ms.date: 12/05/2018
 ms.keywords: IConsole, IConsole interface [MMC], IConsole interface [MMC],described, mmc.iconsole, mmc/IConsole
-f1_keywords:
-- mmc/IConsole
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsole
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsole
+ - mmc/IConsole
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsole
 ---
 
 # IConsole interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  This interface is obsolete, and only used in MMC 1.0.</div><div> </div>Enables communication with the console.
-
 
 ## -inheritance
 
@@ -172,13 +171,9 @@ Generates a notification to update views because of content change.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
 
@@ -193,7 +188,4 @@ Generates a notification to update views because of content change.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
- 
-
- 
 

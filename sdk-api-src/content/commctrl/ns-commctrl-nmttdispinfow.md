@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tooltiptext.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTTDISPINFOW, LPNMTTDISPINFO, LPNMTTDISPINFO structure pointer [Windows Controls], NMTTDISPINFO, NMTTDISPINFO structure [Windows Controls], NMTTDISPINFOA, NMTTDISPINFOW, TTF_DI_SETITEM, TTF_IDISHWND, TTF_RTLREADING, _win32_NMTTDISPINFO, _win32_NMTTDISPINFO_cpp, commctrl/LPNMTTDISPINFO, commctrl/NMTTDISPINFO, commctrl/NMTTDISPINFOA, commctrl/NMTTDISPINFOW, controls.NMTTDISPINFO, controls._win32_NMTTDISPINFO'
-f1_keywords:
-- commctrl/NMTTDISPINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMTTDISPINFO
-- NMTTDISPINFOA
-- NMTTDISPINFOW
 targetos: Windows
 req.typenames: NMTTDISPINFOW, *LPNMTTDISPINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMTTDISPINFOW
+ - commctrl/tagNMTTDISPINFOW
+ - LPNMTTDISPINFOW
+ - commctrl/LPNMTTDISPINFOW
+ - NMTTDISPINFOW
+ - commctrl/NMTTDISPINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMTTDISPINFO
+ - NMTTDISPINFOA
+ - NMTTDISPINFOW
 ---
 
 # NMTTDISPINFOW structure
@@ -51,44 +56,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information used in handling the <a href="https://docs.microsoft.com/windows/desktop/Controls/ttn-getdispinfo">TTN_GETDISPINFO</a> notification code. This structure supersedes the 
-			<b>TOOLTIPTEXT</b> structure. 
-
+			<b>TOOLTIPTEXT</b> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field lpszText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-Pointer to a null-terminated string that will be displayed as the tooltip text. If <b>hinst</b> specifies an instance handle, this member must be the identifier of a string resource. 
-
+Pointer to a null-terminated string that will be displayed as the tooltip text. If <b>hinst</b> specifies an instance handle, this member must be the identifier of a string resource.
 
 ### -field szText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a></b>
 
-Buffer that receives the tooltip text. An application can copy the text to this buffer instead of specifying a string address or string resource. For tooltip text that exceeds 80 <b>TCHAR</b><b>s</b>, see comments in the remarks section of this document. 
-
+Buffer that receives the tooltip text. An application can copy the text to this buffer instead of specifying a string address or string resource. For tooltip text that exceeds 80 <b>TCHAR</b><b>s</b>, see comments in the remarks section of this document.
 
 ### -field hinst
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
-Handle to the instance that contains a string resource to be used as the tooltip text. If <b>lpszText</b> is the address of the tooltip text string, this member must be <b>NULL</b>. 
-
+Handle to the instance that contains a string resource to be used as the tooltip text. If <b>lpszText</b> is the address of the tooltip text string, this member must be <b>NULL</b>.
 
 ### -field uFlags
 
@@ -135,20 +131,15 @@ Windows can be
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Application-defined data associated with the tool. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Application-defined data associated with the tool.
 
 ## -remarks
-
-
 
 You need to point the <b>lpszText</b>  array to your own private buffer when the text used in the tooltip exceeds 80 <b>TCHAR</b><b>s</b> in length. The system automatically strips the ampersand (&amp;) accelerator <b>TCHAR</b><b>s</b> from all strings passed to a tooltip control, unless the control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/tooltip-styles">TTS_NOPREFIX</a> style.
 

@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: b9d29a2a-f41b-4e20-b9ff-559dd39e1015
 ms.date: 12/05/2018
 ms.keywords: GetHomeProvider, GetHomeProvider method [Microsoft Broadband Networks], GetHomeProvider method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetHomeProvider method, IMbnInterface.GetHomeProvider, IMbnInterface::GetHomeProvider, mbn.imbninterface_gethomeprovider, mbnapi/IMbnInterface::GetHomeProvider
-f1_keywords:
-- mbnapi/IMbnInterface.GetHomeProvider
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterface.GetHomeProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterface::GetHomeProvider
+ - mbnapi/IMbnInterface::GetHomeProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterface.GetHomeProvider
 ---
 
 # IMbnInterface::GetHomeProvider
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 Gets the home provider.
 
-
 ## -parameters
-
-
-
 
 ### -param homeProvider [out, retval]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure that represents the home provider.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Upon completion, the calling application must free the memory allocated to the  <b>providerID</b> and <b>providerName</b> members of <b>MBN_PROVIDER</b> by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -143,14 +137,8 @@ Unable to read from the SIM or device memory.  For example, the SIM does not hav
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>GetHomeProvider</b> returns the home provider information for the device. The <b>dataClass</b> field of returned <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure should be ignored.
 
@@ -158,16 +146,7 @@ For the recoverable errors <b>E_MBN_PIN_REQUIRED</b>, <b>E_MBN_SIM_NOT_INSERTED<
 
 The registered <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onhomeprovideravailable">OnHomeProviderAvailable</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> can be either called when home provider information is available or the new query completed with error. Once this function returns success then this information will never change.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
- 
-
- 
 

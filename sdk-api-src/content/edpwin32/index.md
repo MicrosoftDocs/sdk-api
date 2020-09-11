@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: edp
 archived: true
+f1_keywords:
+ - edpwin32
+ - edpwin32/edpwin32
 ---
 
 # Edpwin32.h header
 
 
 ## -description
-
 
 This header is used by Windows Information Protection (WIP). For more information, see:
 

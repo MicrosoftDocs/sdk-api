@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 34403724-b883-4c03-8784-fe8f205d3da6
 ms.date: 12/05/2018
 ms.keywords: 34403724-b883-4c03-8784-fe8f205d3da6, IRO_Black, IRO_CopyPen, IRO_MaskNotPen, IRO_MaskPen, IRO_MaskPenNot, IRO_MergeNotPen, IRO_MergePen, IRO_MergePenNot, IRO_NoOperation, IRO_Not, IRO_NotCopyPen, IRO_NotMaskPen, IRO_NotMergePen, IRO_NotXOrPen, IRO_White, IRO_XOrPen, InkRasterOperation, InkRasterOperation enumeration [Tablet PC], msinkaut/IRO_Black, msinkaut/IRO_CopyPen, msinkaut/IRO_MaskNotPen, msinkaut/IRO_MaskPen, msinkaut/IRO_MaskPenNot, msinkaut/IRO_MergeNotPen, msinkaut/IRO_MergePen, msinkaut/IRO_MergePenNot, msinkaut/IRO_NoOperation, msinkaut/IRO_Not, msinkaut/IRO_NotCopyPen, msinkaut/IRO_NotMaskPen, msinkaut/IRO_NotMergePen, msinkaut/IRO_NotXOrPen, msinkaut/IRO_White, msinkaut/IRO_XOrPen, msinkaut/InkRasterOperation, tablet.inkrasteroperation
-f1_keywords:
-- msinkaut/InkRasterOperation
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkRasterOperation
 targetos: Windows
 req.typenames: InkRasterOperation
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkRasterOperation
+ - msinkaut/InkRasterOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkRasterOperation
 ---
 
 # InkRasterOperation enumeration
@@ -49,77 +50,57 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Defines values for performing raster operations on drawn ink.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field IRO_Black
 
  Black pen color.
 
-
 ### -field IRO_NotMergePen
 
 The  inverse of MergePen.
-
 
 ### -field IRO_MaskNotPen
 
  A combination of the colors that are common to the background color and the inverse of the pen.
 
-
 ### -field IRO_NotCopyPen
 
  The inverse of CopyPen.
-
 
 ### -field IRO_MaskPenNot
 
 A combination of the colors that are common to both the pen and the inverse of the display.
 
-
 ### -field IRO_Not
 
 The inverse of the display color.
-
 
 ### -field IRO_XOrPen
 
 A combination of the colors in the pen and in the display color, but not in both.
 
-
 ### -field IRO_NotMaskPen
 
 The inverse of MaskPen.
-
 
 ### -field IRO_MaskPen
 
 A combination of the colors that are common to both the pen and the display.
 
-
 ### -field IRO_NotXOrPen
 
 An inverse of XOrPen.
-
 
 ### -field IRO_NoOperation
 
 No operation; the output remains unchanged.
 
-
 ### -field IRO_MergeNotPen
 
 A combination of the display color and the inverse of the pen color.
-
 
 ### -field IRO_CopyPen
 
@@ -127,25 +108,19 @@ The pen color.
 
 This is the default value.
 
-
 ### -field IRO_MergePenNot
 
 A combination of the pen color and the inverse of the display color.
-
 
 ### -field IRO_MergePen
 
 A combination of the pen color and the display color.
 
-
 ### -field IRO_White
 
 A white pen color.
 
-
 ## -remarks
-
-
 
 Use these values to set the value for the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation">RasterOperation</a> drawing attribute. Any object with a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_drawingattributes">DrawingAttributes</a> property can have this value set.
 
@@ -153,20 +128,11 @@ Use these values to set the value for the <a href="https://docs.microsoft.com/wi
 <div> </div>
 When the <b>RasterOperation</b> value is set to anything other than CopyPen, all drawing attributes (anti-aliasing, smoothing, transparency, and pressure) are ignored.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation">RasterOperation Property</a>
- 
-
- 
 

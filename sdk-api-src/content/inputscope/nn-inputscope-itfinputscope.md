@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: b2a045dd-dc2c-489d-bcb9-80710faef9c2
 ms.date: 12/05/2018
 ms.keywords: ITfInputScope, ITfInputScope interface [Text Services Framework], ITfInputScope interface [Text Services Framework],described, _tsf_itfinputscope_ref, inputscope/ITfInputScope, tsf.ITfInputScope
-f1_keywords:
-- inputscope/ITfInputScope
-dev_langs:
-- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfInputScope
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputScope
+ - inputscope/ITfInputScope
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfInputScope
 ---
 
 # ITfInputScope interface
 
 
 ## -description
-
 
 The <b>ITfInputScope</b> interface is used by the text input processors to get the <a href="/windows/win32/api/inputscope/ne-inputscope-inputscope">InputScope</a> value that represents a document context associated with a window. The input scope provides rules to help speech and handwriting recognition. For instance, if a text box on a form is used to enter an address, the input scope for that text box can be set to recognize and accept only those characters that are valid for an address.
 
@@ -78,8 +78,6 @@ HRESULT GetInputScope(ITfContext *pic, ITfRange *pRange, TfEditCookie ec, ITfInu
 }
 
 ```
-
-
 
 ## -inheritance
 
@@ -141,12 +139,9 @@ Gets the custom XML string to be recognized.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To use this interface with window-less controls, an application has two options.
 
@@ -155,5 +150,4 @@ To use this interface with window-less controls, an application has two options.
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopes">SetInputScopes</a>  This is not recommended, but if the application is not TSF-aware, there is no other way to maintain the association between the input scope and the application. In this case, the application must call SetInputScopes whenever focus changes among window-less controls.</li>
 </ol>
-
 

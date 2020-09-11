@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 8CCF9135-308F-4BDC-A67F-1E3ED2ACF565
 ms.date: 12/05/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetFootprintFile method, IAppxPackageReader.GetFootprintFile, IAppxPackageReader::GetFootprintFile, appxpackaging/IAppxPackageReader::GetFootprintFile, appxpkg.iappxpackagereader_getfootprintfile
-f1_keywords:
-- appxpackaging/IAppxPackageReader.GetFootprintFile
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxPackageReader.GetFootprintFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxPackageReader::GetFootprintFile
+ - appxpackaging/IAppxPackageReader::GetFootprintFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxPackageReader.GetFootprintFile
 ---
 
 # IAppxPackageReader::GetFootprintFile
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a footprint file from the package.
 
-
 ## -parameters
-
-
-
 
 ### -param type [in]
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/n
 
 The type of footprint file to be retrieved.
 
-
 ### -param file [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
 
 The file object that corresponds to the footprint file of <i>type</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -111,15 +103,8 @@ The package does not contain a footprint file of the specified type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
 
@@ -134,7 +119,4 @@ The package does not contain a footprint file of the specified type.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getpayloadfiles">IAppxPackageReader::GetPayloadFiles</a>
- 
-
- 
 

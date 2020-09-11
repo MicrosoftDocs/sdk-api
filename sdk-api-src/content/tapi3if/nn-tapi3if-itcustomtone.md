@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f2c51048-93aa-4469-b00e-911e62b5702d
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], ITCustomTone interface [TAPI 2.2],described, _tapi3_itcustomtone, tapi3.itcustomtone, tapi3if/ITCustomTone
-f1_keywords:
-- tapi3if/ITCustomTone
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCustomTone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCustomTone
+ - tapi3if/ITCustomTone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCustomTone
 ---
 
 # ITCustomTone interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITCustomTone</b> interface exposes methods that allow detailed control over the custom tones that are available with some phone sets. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-createcustomtoneobject">ITLegacyCallMediaControl2::CreateCustomToneObject</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">ITLegacyCallMediaControl2::GenerateCustomTonesByCollection</a> methods create the 
 <b>ITCustomTone</b> interface.
-
 
 ## -inheritance
 
@@ -144,5 +143,5 @@ Sets the volume level at which to generate the tone.
 
 </td>
 </tr>
-</table> 
+</table>
 

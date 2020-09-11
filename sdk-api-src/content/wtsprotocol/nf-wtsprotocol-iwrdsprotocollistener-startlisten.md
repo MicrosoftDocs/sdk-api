@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: d3797411-2ac6-4d3c-8c90-5c566e6d8fa8
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StartListen method, IWRdsProtocolListener.StartListen, IWRdsProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWRdsProtocolListener interface, termserv.iwrdsprotocollistener_startlisten, wtsprotocol/IWRdsProtocolListener::StartListen
-f1_keywords:
-- wtsprotocol/IWRdsProtocolListener.StartListen
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolListener.StartListen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolListener::StartListen
+ - wtsprotocol/IWRdsProtocolListener::StartListen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolListener.StartListen
 ---
 
 # IWRdsProtocolListener::StartListen
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the protocol to start listening for client connection requests.
 
-
 ## -parameters
-
-
-
 
 ### -param pCallback [in]
 
@@ -69,21 +65,13 @@ Remote Desktop Services
 service about incoming connection requests. The protocol must add a reference to this object and release it when 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-stoplisten">StopListen</a> is called.
 
-
 ## -returns
-
-
 
 When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, 
 return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, 
 see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>StartListen</b> method is called when the Remote Desktop Services service starts.
 
@@ -93,15 +81,7 @@ The <b>StartListen</b> method is called when the Remote Desktop Services service
 <li>The Remote Desktop Services service calls <b>StartListen</b> on the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a> object.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a>
- 
-
- 
 

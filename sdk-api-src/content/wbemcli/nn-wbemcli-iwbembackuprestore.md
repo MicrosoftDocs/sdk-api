@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 27599145-417b-4ca8-8e25-5fffb2e7008c
 ms.date: 12/05/2018
 ms.keywords: IWbemBackupRestore, IWbemBackupRestore interface [Windows Management Instrumentation], IWbemBackupRestore interface [Windows Management Instrumentation],described, WbemBackupRestore, _hmm_iwbembackuprestore, wbemcli/IWbemBackupRestore, wmi.iwbembackuprestore
-f1_keywords:
-- wbemcli/IWbemBackupRestore
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemBackupRestore
-- WbemBackupRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemBackupRestore
+ - wbemcli/IWbemBackupRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemBackupRestore
+ - WbemBackupRestore
 ---
 
 # IWbemBackupRestore interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemBackupRestore</b> interface backs up and restores the contents of the WMI repository. The affected content of the repository is static data, such as the class definitions that are compiled into the repository when a MOF file is loaded. The dynamic data supplied through providers is not included.
-
 
 ## -inheritance
 
@@ -88,12 +87,9 @@ Restores the contents of the repository from a specified file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The default mode is the same as setting the force mode flag, which breaks all active connections. This results in remote procedure call (RPC) errors from any active COM connections to WMI until new connections are established.
 
@@ -103,17 +99,8 @@ There can be no active connections to the repository during a restore operation.
 <div> </div>
 For computers running Windows, any local user can make these calls,  but remote users must have the <b>WBEM_FULL_WRITE_REP</b> access right to the root namespace.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for
     WMI</a>
- 
-
- 
 

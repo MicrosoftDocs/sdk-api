@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 90928e6e-e11e-42ad-9b3e-d974642aca36
 ms.date: 12/05/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITfSource interface, IID_ITfActiveLanguageProfileNotifySink, IID_ITfDisplayAttributeNotifySink, IID_ITfKeyTraceEventSink, IID_ITfPreservedKeyNotifySink, IID_ITfThreadFocusSink, IID_ITfThreadMgrEventSink, ITfSource interface [Text Services Framework],AdviseSink method, ITfSource.AdviseSink, ITfSource::AdviseSink, _tsf_itfsource_advisesink_ref, msctf/ITfSource::AdviseSink, tsf.itfsource_advisesink
-f1_keywords:
-- msctf/ITfSource.AdviseSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfSource.AdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSource::AdviseSink
+ - msctf/ITfSource::AdviseSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfSource.AdviseSink
 ---
 
 # ITfSource::AdviseSink
@@ -52,9 +53,6 @@ ms.custom: 19H1
 Installs an advise sink.
 
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
@@ -130,22 +128,16 @@ Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msc
 </td>
 </tr>
 </table>
- 
-
 
 ### -param punk [in]
 
 The advise sink <b>IUnknown</b> pointer.
 
-
 ### -param pdwCookie [out]
 
 Address of a DWORD value that receives an identifying cookie. This value is used to uninstall the advise sink in a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">ITfSource::UnadviseSink</a>. Receives (DWORD)-1 if a failure occurs.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -221,15 +213,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink">ITfActiveLanguageProfileNotifySink
       </a>
@@ -336,7 +321,4 @@ ITfEditTransactionSink
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink
       </a>
- 
-
- 
 

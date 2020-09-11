@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 813bda93-08d5-456c-9bde-ce6dd53fb8bf
 ms.date: 12/05/2018
 ms.keywords: ISimilarityReportProgress, ISimilarityReportProgress interface [Remote Differential Compression], ISimilarityReportProgress interface [Remote Differential Compression],described, fs.isimilarityreportprogress, msrdc/ISimilarityReportProgress, rdc.isimilarityreportprogress
-f1_keywords:
-- msrdc/ISimilarityReportProgress
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- ISimilarityReportProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISimilarityReportProgress
+ - msrdc/ISimilarityReportProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - ISimilarityReportProgress
 ---
 
 # ISimilarityReportProgress interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a method for RDC to report the current completion percentage of a similarity operation.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Reports the current completion percentage of a similarity operation in progress.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

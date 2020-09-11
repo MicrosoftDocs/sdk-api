@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 8be6c74f-9290-48b4-ad66-8d7d7cc94174
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream, IMultiMediaStream interface [DirectShow], IMultiMediaStream interface [DirectShow],described, IMultiMediaStreamInterface, dshow.imultimediastream, mmstream/IMultiMediaStream
-f1_keywords:
-- mmstream/IMultiMediaStream
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IMultiMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiMediaStream
+ - mmstream/IMultiMediaStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IMultiMediaStream
 ---
 
 # IMultiMediaStream interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>IMultiMediaStream</code> interface is exposed by the AMMultimediaStream object. It contains methods for enumerating the media streams, retrieving information about them, and running and stopping them.
-
-
-
 
 ## -inheritance
 
@@ -154,16 +150,9 @@ Runs or stops the multimedia stream object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 739bf088-0f09-47c1-9b49-6c279395f15b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomlineargradientbrush, xpsobjectmodel/IXpsOMLinearGradientBrush
-f1_keywords:
-- xpsobjectmodel/IXpsOMLinearGradientBrush
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMLinearGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMLinearGradientBrush
+ - xpsobjectmodel/IXpsOMLinearGradientBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMLinearGradientBrush
 ---
 
 # IXpsOMLinearGradientBrush interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a linear gradient, which is the color gradient along a vector.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Sets the start point of the gradient.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 In the illustration that follows, the start and end points of a linear gradient are also the start and end points of the gradient path, which is the straight line that connects those points.
 
@@ -173,14 +169,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
 
@@ -203,7 +192,4 @@ else
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

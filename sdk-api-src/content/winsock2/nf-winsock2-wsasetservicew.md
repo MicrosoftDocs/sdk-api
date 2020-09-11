@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab
 ms.date: 12/05/2018
 ms.keywords: RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, WSASetService, WSASetService function [Winsock], WSASetServiceA, WSASetServiceW, _win32_wsasetservice_2, winsock.wsasetservice_2, winsock2/WSASetService, winsock2/WSASetServiceA, winsock2/WSASetServiceW
-f1_keywords:
-- winsock2/WSASetService
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSASetService
-- WSASetServiceA
-- WSASetServiceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSASetServiceW
+ - winsock2/WSASetServiceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSASetService
+ - WSASetServiceA
+ - WSASetServiceW
 ---
 
 # WSASetServiceW function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>WSASetService</b> function registers or removes from the registry a service instance within one or more namespaces. 
-
+<b>WSASetService</b> function registers or removes from the registry a service instance within one or more namespaces.
 
 ## -parameters
-
-
-
 
 ### -param lpqsRegInfo [in]
 
 A pointer to the service information for registration or deregistration.
-
 
 ### -param essoperation [in]
 
@@ -110,8 +105,6 @@ Delete the service from dynamic name and persistent spaces. For services represe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwControlFlags [in]
 
@@ -133,12 +126,8 @@ Controls scope of operation. When this flag is not set, service addresses are ma
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The return value for 
 <b>WSASetService</b> is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
@@ -195,14 +184,8 @@ There was insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WSASetService</b> function can be used to affect a specific namespace provider, all providers associated with a specific namespace, or all providers across all namespaces.
 
@@ -375,9 +358,6 @@ As illustrated in the following, the combination of the <b>dwNameSpace</b> and <
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsasetservice">Bluetooth and WSASetService</a>
 
 
@@ -395,7 +375,4 @@ As illustrated in the following, the combination of the <b>dwNameSpace</b> and <
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

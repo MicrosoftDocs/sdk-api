@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0ab234f2-a681-463f-8ba8-b23b05cf2626
 ms.date: 12/05/2018
 ms.keywords: CryptSignAndEncryptMessage, CryptSignAndEncryptMessage function [Security], _crypto2_cryptsignandencryptmessage, security.cryptsignandencryptmessage, wincrypt/CryptSignAndEncryptMessage
-f1_keywords:
-- wincrypt/CryptSignAndEncryptMessage
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSignAndEncryptMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSignAndEncryptMessage
+ - wincrypt/CryptSignAndEncryptMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSignAndEncryptMessage
 ---
 
 # CryptSignAndEncryptMessage function
@@ -49,48 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptSignAndEncryptMessage</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash. The result is the same as if the hash were first signed and then encrypted.
 
-
 ## -parameters
-
-
-
 
 ### -param pSignPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
 
-
 ### -param pEncryptPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure containing encryption parameters.
 
-
 ### -param cRecipientCert [in]
 
 Number of array elements in <i>rgpRecipientCert</i>.
-					
-
 
 ### -param rgpRecipientCert [in]
 
 Array of pointers to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. Each structure is the certificate of an intended recipients of the message.
 
-
 ### -param pbToBeSignedAndEncrypted [in]
 
 A pointer to a buffer containing the content to be signed and encrypted.
 
-
 ### -param cbToBeSignedAndEncrypted [in]
 
 The size, in bytes, of the <i>pbToBeSignedAndEncrypted</i> buffer.
-
 
 ### -param pbSignedAndEncryptedBlob [out]
 
@@ -101,7 +90,6 @@ A pointer to a buffer to receive the encrypted and encoded message.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbSignedAndEncryptedBlob [in, out]
 
@@ -114,8 +102,6 @@ A pointer to <b>DWORD</b> specifying the size, in bytes, of the buffer pointed t
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -151,12 +137,7 @@ If the buffer specified by the <i>pbSignedAndEncryptedBlob</i> parameter is not 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencryptmessage">CryptEncryptMessage</a> might be propagated to this function.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
@@ -167,7 +148,4 @@ If the buffer specified by the <i>pbSignedAndEncryptedBlob</i> parameter is not 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 45d34150-9e0b-4a76-a784-c81434ec73b8
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM], CreateInstance method [COM],IClassFactory interface, IClassFactory interface [COM],CreateInstance method, IClassFactory.CreateInstance, IClassFactory::CreateInstance, _com_iclassfactory_createinstance, com.iclassfactory_createinstance, unknwn/IClassFactory::CreateInstance
-f1_keywords:
-- unknwn/IClassFactory.CreateInstance
-dev_langs:
-- c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Unknwn.h
-api_name:
-- IClassFactory.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClassFactory::CreateInstance
+ - unknwn/IClassFactory::CreateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Unknwn.h
+api_name:
+ - IClassFactory.CreateInstance
 ---
 
 ## -description
@@ -52,7 +53,7 @@ Creates an uninitialized object.
 
 ### -param pUnkOuter [in]
 
-If the object is being created as part of an aggregate, specify a pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the aggregate. Otherwise, this parameter must be <b>NULL</b>. 
+If the object is being created as part of an aggregate, specify a pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the aggregate. Otherwise, this parameter must be <b>NULL</b>.
 
 ### -param riid [in]
 
@@ -133,3 +134,4 @@ To avoid returning an error, applications that support multiple classes with sin
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-corevokeclassobject">CoRevokeClassObject</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
+

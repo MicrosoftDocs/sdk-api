@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setcuebannertextfocused.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_SetCueBannerTextFocused, Edit_SetCueBannerTextFocused macro [Windows Controls], _shell_Edit_SetCueBannerTextFocused, _shell_Edit_SetCueBannerTextFocused_cpp, commctrl/Edit_SetCueBannerTextFocused, controls.Edit_SetCueBannerTextFocused, controls._shell_Edit_SetCueBannerTextFocused
-f1_keywords:
-- commctrl/Edit_SetCueBannerTextFocused
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Edit_SetCueBannerTextFocused
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Edit_SetCueBannerTextFocused
+ - commctrl/Edit_SetCueBannerTextFocused
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Edit_SetCueBannerTextFocused
 ---
 
 # Edit_SetCueBannerTextFocused macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the edit control.
 
-
 ### -param lpcwText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the text to set as the textual cue.
-
 
 ### -param fDrawFocused
 
@@ -78,20 +72,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Sets whether the cue text is drawn when the control has keyboard focus.
 
-
 ## -remarks
-
-
 
 An edit control that is used to begin a search may display "Enter search here" in gray text as a textual cue. <i>fDrawFocused</i> controls when the cue text disappears. If <i>fDrawFocused</i> is <b>FALSE</b>, then the cue text disappears when the edit control receives focus. If <i>fDrawFocused</i> is <b>TRUE</b>, then the cue text disappears when the user enters text into the edit control.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -110,7 +95,4 @@ An edit control that is used to begin a search may display "Enter search here" i
 
 
 <b>Reference</b>
- 
-
- 
 

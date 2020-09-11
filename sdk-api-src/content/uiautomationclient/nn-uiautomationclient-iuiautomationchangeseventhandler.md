@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 8DCF8826-B688-416C-9195-34E0290054AA
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationChangesEventHandler, IUIAutomationChangesEventHandler interface [Windows Accessibility], IUIAutomationChangesEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationChangesEventHandler, winauto.uiauto_IUIAutomationChangesEventHandler
-f1_keywords:
-- uiautomationclient/IUIAutomationChangesEventHandler
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationChangesEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationChangesEventHandler
+ - uiautomationclient/IUIAutomationChangesEventHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationChangesEventHandler
 ---
 
 # IUIAutomationChangesEventHandler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method to handle one or more Microsoft UI Automation change events.
-
 
 ## -inheritance
 
@@ -77,26 +76,13 @@ Handles one or more UI Automation change events.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is implemented by the application to handle events that it has subscribed to by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation4-addchangeseventhandler">AddChangesEventHandler</a>.
-			
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-eventhandlinginterfaces">Event Handling Interfaces for Clients</a>
- 
-
- 
 

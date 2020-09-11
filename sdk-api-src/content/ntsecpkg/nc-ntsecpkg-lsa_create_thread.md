@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: dc02abb9-ab05-4a7f-a125-15530619633b
 ms.date: 12/05/2018
 ms.keywords: CreateThread, CreateThread callback function [Security], LSA_CREATE_THREAD, LSA_CREATE_THREAD callback, _ssp_createthread, ntsecpkg/CreateThread, security.createthread
-f1_keywords:
-- ntsecpkg/CreateThread
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- CreateThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_CREATE_THREAD
+ - ntsecpkg/LSA_CREATE_THREAD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - CreateThread
 ---
 
 # LSA_CREATE_THREAD callback function
@@ -49,49 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateThread</b> function is a wrapper for the Windows 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a> function that should be used by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA). It creates a thread that the LSA can track, attaches debugging information to threads it starts, and provides special exception handling to protect the LSA process.
 
-
 ## -parameters
-
-
-
 
 ### -param SecurityAttributes [in]
 
 Pointer to a <b>SEC_ATTRS</b> structure that determines whether the returned handle can be inherited by child processes.
 
-
 ### -param StackSize [in]
 
 Specifies the initial commit size of the stack, in bytes.
-
 
 ### -param StartFunction [in]
 
 Pointer to the application-defined function of type <b>SEC_THREAD_START</b> to be executed by the thread.
 
-
 ### -param ThreadParameter [in]
 
 Pointer to a single parameter value passed to the thread.
-
 
 ### -param CreationFlags [in]
 
 Specifies flags that control the creation of the thread.
 
-
 ### -param ThreadId [out]
 
 Pointer to a variable that receives the thread identifier.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the new thread. When you have finished using the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 						
@@ -99,12 +87,7 @@ If the function succeeds, the return value is a handle to the new thread. When y
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 A pointer to the <b>CreateThread</b> function is available in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
@@ -113,13 +96,7 @@ A pointer to the <b>CreateThread</b> function is available in the
 For more information, see the Windows 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>
 
@@ -134,7 +111,4 @@ For more information, see the Windows
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
 

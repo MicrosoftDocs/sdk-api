@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 9ee40466-63e9-40c4-82bf-45f819d0ae58
 ms.date: 12/05/2018
 ms.keywords: RtmGetListEnumRoutes, RtmGetListEnumRoutes function [RAS], _rtmv2ref_rtmgetlistenumroutes, rras.rtmgetlistenumroutes, rtmv2/RtmGetListEnumRoutes
-f1_keywords:
-- rtmv2/RtmGetListEnumRoutes
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetListEnumRoutes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetListEnumRoutes
+ - rtmv2/RtmGetListEnumRoutes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetListEnumRoutes
 ---
 
 # RtmGetListEnumRoutes function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetListEnumRoutes</b> function enumerates a set of routes in a specified route list.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param EnumHandle [in]
 
 Handle to the route list to enumerate.
-
 
 ### -param NumRoutes [in, out]
 
@@ -78,7 +72,6 @@ On input, <i>NumRoutes</i> is a pointer to a <b>UINT</b> value that specifies th
 
 
 On output, <i>NumRoutes</i> receives the actual number of routes received by <i>RouteHandles</i>.
-
 
 ### -param RouteHandles [out]
 
@@ -90,10 +83,7 @@ On input, <i>DestInfo</i> is a pointer to an array of
 
 On output, <i>DestInfo</i> is filled with the requested destination information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -122,13 +112,7 @@ The value pointed to by <i>NumRoutes</i> is larger than the maximum number of ro
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 Call this function repeatedly to retrieve all routes.
 
@@ -137,20 +121,11 @@ There are no more routes to enumerate when the routing table manager returns zer
 For sample code using this function, see 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/use-a-client-specific-route-list">Use a Client-Specific Route List</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreateroutelistenum">RtmCreateRouteListEnum</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>
- 
-
- 
 

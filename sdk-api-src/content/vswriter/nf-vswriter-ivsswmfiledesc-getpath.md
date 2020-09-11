@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e646bf76-8779-4095-a022-2d69d5c3bead
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [VSS], GetPath method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetPath method, IVssWMFiledesc.GetPath, IVssWMFiledesc::GetPath, _win32_ivsswmfiledesc_getpath, base.ivsswmfiledesc_getpath, vswriter/IVssWMFiledesc::GetPath
-f1_keywords:
-- vswriter/IVssWMFiledesc.GetPath
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWMFiledesc.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWMFiledesc::GetPath
+ - vswriter/IVssWMFiledesc::GetPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWMFiledesc.GetPath
 ---
 
 # IVssWMFiledesc::GetPath
 
 
 ## -description
-
 
 The 
 <b>GetPath</b> method obtains the fully qualified directory path or the UNC path of the remote file share to obtain the list of files described in the current 
@@ -58,11 +58,7 @@ The
 A querying method used this path and a file specification to return the current 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrPath [out]
 
@@ -76,10 +72,7 @@ The path can be a long or short file name and can use the prefix "\\?\". For mor
 
 Users of this method need to check to determine whether this path ends with a backslash ("\").
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -148,29 +141,14 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
 The caller must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory held by the <i>pbstrPath</i> parameter.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 5828b073-48af-4118-9206-096b87c978e7
 ms.date: 12/05/2018
 ms.keywords: QueryThreadCycleTime, QueryThreadCycleTime function, base.querythreadcycletime, realtimeapiset/QueryThreadCycleTime, winbase/QueryThreadCycleTime
-f1_keywords:
-- realtimeapiset/QueryThreadCycleTime
-dev_langs:
-- c++
 req.header: realtimeapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-realtime-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-RealTime-l1-1-1.dll
-api_name:
-- QueryThreadCycleTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryThreadCycleTime
+ - realtimeapiset/QueryThreadCycleTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-realtime-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-RealTime-l1-1-1.dll
+api_name:
+ - QueryThreadCycleTime
 ---
 
 # QueryThreadCycleTime function
@@ -54,41 +55,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cycle time for the specified thread.
 
-
 ## -parameters
-
-
-
 
 ### -param ThreadHandle [in]
 
 A handle to the thread. The handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
-
 ### -param CycleTime [out]
 
 The number of CPU clock cycles used by the thread. This value includes cycles spent in both user mode and kernel mode.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To enumerate the threads of the process, use the <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32next">Thread32Next</a> functions. To get the thread handle for a thread identifier, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function.
@@ -97,20 +84,11 @@ Do not attempt to convert the CPU clock cycles returned by <b>QueryThreadCycleTi
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletime">QueryIdleProcessorCycleTime</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryprocesscycletime">QueryProcessCycleTime</a>
- 
-
- 
 

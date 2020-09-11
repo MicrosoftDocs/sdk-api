@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 39f2ec4d-131a-4a0a-9740-0d96aaea2dc7
 ms.date: 12/05/2018
 ms.keywords: NotifyRouteChange, NotifyRouteChange function [IP Helper], _iphlp_notifyroutechange, iphlp.notifyroutechange, iphlpapi/NotifyRouteChange
-f1_keywords:
-- iphlpapi/NotifyRouteChange
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- NotifyRouteChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NotifyRouteChange
+ - iphlpapi/NotifyRouteChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - NotifyRouteChange
 ---
 
 # NotifyRouteChange function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>NotifyRouteChange</b> function causes a notification to be sent to the caller whenever a change occurs in the IPv4 routing table.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle [out]
 
 A pointer to a <b>HANDLE</b> variable that receives a handle to use in asynchronous notification.
-
 
 ### -param overlapped [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  notifies the caller of any changes in the routing table.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR if the caller specifies <b>NULL</b> for the <i>Handle</i> and <i>overlapped</i> parameters. If the caller specifies non-<b>NULL</b> parameters, the return value for success is ERROR_IO_PENDING. If the function fails, use 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
@@ -128,14 +120,8 @@ This error is returned on versions of Windows where this function is not support
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  
 <b>NotifyRouteChange</b> function may be called in two ways:<ul>
@@ -217,14 +203,7 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify">CancelIPChangeNotify</a>
 
@@ -251,7 +230,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
- 
-
- 
 

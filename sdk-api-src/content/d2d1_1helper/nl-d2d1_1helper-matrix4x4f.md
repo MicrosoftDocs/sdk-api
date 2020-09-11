@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 113861DF-2E6D-4930-82DC-AA592882E21C
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F, Matrix4x4F class [Direct2D], Matrix4x4F class [Direct2D],described, d2d1_1helper/Matrix4x4F, direct2d.matrix4x4f
-f1_keywords:
-- d2d1_1helper/Matrix4x4F
-dev_langs:
-- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1_1helper.h
-api_name:
-- Matrix4x4F
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Matrix4x4F
+ - d2d1_1helper/Matrix4x4F
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1_1helper.h
+api_name:
+ - Matrix4x4F
 ---
 
 # Matrix4x4F class
 
 
 ## -description
-
 
 The <b>Matrix4x4F</b> class represents a 4-by-4 matrix and provides convenience methods for creating matrices.
 
@@ -195,8 +195,7 @@ Multiplies this matrix with the specified matrix and returns the result.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -members
 
@@ -367,6 +366,4 @@ Multiplies this matrix with the specified matrix and returns the result.
 </td>
 </tr>
 </table>Multiplies this matrix with the specified matrix and returns the result.
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
 ms.date: 12/05/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
-f1_keywords:
-- libloaderapi2/QueryOptionalDelayLoadedAPI
-dev_langs:
-- c++
 req.header: libloaderapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WindowsApp.lib
 req.dll: Api-ms-win-core-libraryloader-l1-1-1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-core-libraryloader-l1-1-1.dll
-- kernelbase.dll
-- api-ms-win-core-libraryloader-l2-1-0.dll
-- API-MS-Win-Core-LibraryLoader-Private-L1-1-0.dll
-api_name:
-- QueryOptionalDelayLoadedAPI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryOptionalDelayLoadedAPI
+ - libloaderapi2/QueryOptionalDelayLoadedAPI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-core-libraryloader-l1-1-1.dll
+ - kernelbase.dll
+ - api-ms-win-core-libraryloader-l2-1-0.dll
+ - API-MS-Win-Core-LibraryLoader-Private-L1-1-0.dll
+api_name:
+ - QueryOptionalDelayLoadedAPI
 ---
 
 # QueryOptionalDelayLoadedAPI function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines whether the specified function in a delay-loaded DLL is available on the system. 
-
+Determines whether the specified function in a delay-loaded DLL is available on the system.
 
 ## -parameters
-
-
-
 
 ### -param hParentModule [in]
 
 A handle to the calling module. Desktop applications can use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandleexa">GetModuleHandleEx</a> function to get this handle. Windows Store apps should set this parameter to <code>static_cast&lt;HMODULE&gt;(&amp;__ImageBase)</code>.
-
 
 ### -param lpDllName [in]
 
@@ -72,30 +67,20 @@ The file name of the delay-loaded DLL that exports the specified function. This 
 
 Windows Store apps should specify API sets, rather than monolithic DLLs. For example,   api-ms-win-core-memory-l1-1-1.dll, rather than kernel32.dll.
 
-
 ### -param lpProcName [in]
 
 The name of the function to query. This parameter is case-sensitive.
-
 
 ### -param Reserved
 
 This parameter is reserved and must be zero (0).
 
-
 ## -returns
-
-
 
 TRUE if the specified function is available on the system. If the specified function is not available on the system, this function returns FALSE. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 A delay-loaded DLL is statically linked but not actually loaded into memory until the running application references a symbol exported by that DLL. Applications often delay load DLLs that contain functions the application might call only rarely or not at all, because the DLL is only loaded when it is needed instead of being loaded at application startup like other statically linked DLLs. This helps improve application performance, especially during initialization. A delay-load DLL is specified at link time with the <a href="https://msdn.microsoft.com/library/yx9zd12s.aspx">/DELAYLOAD (Delay Load Import)</a> linker option. 
 
@@ -140,21 +125,11 @@ AreMonikersSupported ()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-loadpackagedlibrary">LoadPackagedLibrary</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Dlls/run-time-dynamic-linking">Run-Time Dynamic Linking</a>
- 
-
- 
 

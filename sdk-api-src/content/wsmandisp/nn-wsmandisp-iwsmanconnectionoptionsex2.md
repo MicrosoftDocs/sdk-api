@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 09159904-0160-411d-af54-f6aca94d4d7d
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2, IWSManConnectionOptionsEx2 interface [Windows Remote Management], IWSManConnectionOptionsEx2 interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex2, wsmandisp/IWSManConnectionOptionsEx2
-f1_keywords:
-- wsmandisp/IWSManConnectionOptionsEx2
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSManDisp.h
-api_name:
-- IWSManConnectionOptionsEx2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 ms.custom: 19H1
+f1_keywords:
+ - IWSManConnectionOptionsEx2
+ - wsmandisp/IWSManConnectionOptionsEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSManDisp.h
+api_name:
+ - IWSManConnectionOptionsEx2
 ---
 
 # IWSManConnectionOptionsEx2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWSManConnectionOptionsEx2</b> object is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a> method to provide the authentication mechanism, access type, and credentials to connect to a proxy server.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Sets the proxy information for the session.
 
 </td>
 </tr>
-</table> 
+</table>
 

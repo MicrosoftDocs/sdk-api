@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 772aa2c8-6dd1-480c-a008-58f30902cb80
 ms.date: 12/05/2018
 ms.keywords: SHGetPropertyStoreForWindow, SHGetPropertyStoreForWindow function [Windows Properties], _shell_SHGetPropertyStoreForWindow, properties.SHGetPropertyStoreForWindow, shell.SHGetPropertyStoreForWindow, shellapi/SHGetPropertyStoreForWindow
-f1_keywords:
-- shellapi/SHGetPropertyStoreForWindow
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- Ext-MS-Win-shell-shell32-l1-2-0.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- SHGetPropertyStoreForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetPropertyStoreForWindow
+ - shellapi/SHGetPropertyStoreForWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - Ext-MS-Win-shell-shell32-l1-2-0.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - SHGetPropertyStoreForWindow
 ---
 
 # SHGetPropertyStoreForWindow function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an object that represents a specific window's collection of properties, which allows those properties to be queried or set.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -67,13 +63,11 @@ Type: <b>HWND</b>
 
 A handle to the window whose properties are being retrieved.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 A reference to the IID of the property store object to retrieve through <i>ppv</i>. This is typically IID_IPropertyStore.
-
 
 ### -param ppv [out]
 
@@ -81,21 +75,13 @@ Type: <b>void**</b>
 
 When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 An application can use this function to obtain access to a window's property store so that it can set an explicit Application User Model ID (AppUserModelID) in the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-appusermodel-id">System.AppUserModel.ID</a> property.
 
@@ -121,15 +107,7 @@ Applications should also use this property store to set these relaunch propertie
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
- 
-
- 
 

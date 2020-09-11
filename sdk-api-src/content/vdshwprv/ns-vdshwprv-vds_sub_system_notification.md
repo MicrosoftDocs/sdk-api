@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 368e5b3d-11ba-400e-8dd0-929d45199dd9
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_SUB_SYSTEM_ARRIVE, VDS_NF_SUB_SYSTEM_DEPART, VDS_NF_SUB_SYSTEM_MODIFY, VDS_SUB_SYSTEM_NOTIFICATION, VDS_SUB_SYSTEM_NOTIFICATION structure [VDS], base.vds_sub_system_notification, vds/_VDS_SUB_SYSTEM_NOTIFICATION, vdshwprv/_VDS_SUB_SYSTEM_NOTIFICATION
-f1_keywords:
-- vdshwprv/VDS_SUB_SYSTEM_NOTIFICATION
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_SUB_SYSTEM_NOTIFICATION
 targetos: Windows
 req.typenames: VDS_SUB_SYSTEM_NOTIFICATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_SUB_SYSTEM_NOTIFICATION
+ - vdshwprv/_VDS_SUB_SYSTEM_NOTIFICATION
+ - VDS_SUB_SYSTEM_NOTIFICATION
+ - vdshwprv/VDS_SUB_SYSTEM_NOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_SUB_SYSTEM_NOTIFICATION
 ---
 
 # VDS_SUB_SYSTEM_NOTIFICATION structure
@@ -50,16 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the details of subsystem events.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulEvent
 
@@ -106,17 +104,12 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv
 </td>
 </tr>
 </table>
- 
-
 
 ### -field subSystemId
 
 The subsystem's GUID.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this 
     structure as a member.
@@ -128,13 +121,7 @@ An application can receive subsystem events by implementing the
 
 To get the subsystem object, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getproperties">IVdsSubSystem::GetProperties</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem2-getproperties2">IVdsSubSystem2::GetProperties2</a> methodto get the subsystem properties.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a>
 
@@ -153,7 +140,4 @@ To get the subsystem object, use the <a href="https://docs.microsoft.com/windows
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>
- 
-
- 
 

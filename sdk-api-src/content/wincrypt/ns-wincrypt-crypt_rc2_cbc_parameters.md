@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 58b1dc44-55ea-4c22-a115-dfeaee8a2297
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_RC2_CBC_PARAMETERS, CRYPT_RC2_128BIT_VERSION, CRYPT_RC2_40BIT_VERSION, CRYPT_RC2_56BIT_VERSION, CRYPT_RC2_64BIT_VERSION, CRYPT_RC2_CBC_PARAMETERS, CRYPT_RC2_CBC_PARAMETERS structure [Security], PCRYPT_RC2_CBC_PARAMETERS, PCRYPT_RC2_CBC_PARAMETERS structure pointer [Security], _crypto2_crypt_rc2_cbc_parameters, security.crypt_rc2_cbc_parameters, wincrypt/CRYPT_RC2_CBC_PARAMETERS, wincrypt/PCRYPT_RC2_CBC_PARAMETERS'
-f1_keywords:
-- wincrypt/CRYPT_RC2_CBC_PARAMETERS
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_RC2_CBC_PARAMETERS
 targetos: Windows
 req.typenames: CRYPT_RC2_CBC_PARAMETERS, *PCRYPT_RC2_CBC_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_RC2_CBC_PARAMETERS
+ - wincrypt/_CRYPT_RC2_CBC_PARAMETERS
+ - PCRYPT_RC2_CBC_PARAMETERS
+ - wincrypt/PCRYPT_RC2_CBC_PARAMETERS
+ - CRYPT_RC2_CBC_PARAMETERS
+ - wincrypt/CRYPT_RC2_CBC_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_RC2_CBC_PARAMETERS
 ---
 
 # CRYPT_RC2_CBC_PARAMETERS structure
@@ -49,18 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_RC2_CBC_PARAMETERS</b> structure contains information used with szOID_RSA_RC2CBC encryption. It is used in calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a>
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex">CryptDecodeObjectEx</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
@@ -121,13 +121,10 @@ Specifies the key length. Current usable key lengths are 40, 64, and 128 bits.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fIV
 
 Boolean specifying whether an 8-byte <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> (IV) is contained in <b>rgbIV[8]</b>. Set to <b>TRUE</b> when IV is present.
-
 
 ### -field rgbIV
 
@@ -146,9 +143,6 @@ Eight byte <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">i
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
 
 
@@ -162,7 +156,4 @@ Eight byte <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a>
- 
-
- 
 

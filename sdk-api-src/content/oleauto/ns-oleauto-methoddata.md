@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 85fd7121-3eed-4a83-9ba2-caa81fa1e048
 ms.date: 12/05/2018
 ms.keywords: '*LPMETHODDATA, DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, LPMETHODDATA, LPMETHODDATA structure pointer [Automation], METHODDATA, METHODDATA structure [Automation], _oa96_METHODDATA, automat.methoddata, oleauto/LPMETHODDATA, oleauto/METHODDATA'
-f1_keywords:
-- oleauto/METHODDATA
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OleAuto.h
-api_name:
-- METHODDATA
 targetos: Windows
 req.typenames: METHODDATA, *LPMETHODDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMETHODDATA
+ - oleauto/tagMETHODDATA
+ - LPMETHODDATA
+ - oleauto/LPMETHODDATA
+ - METHODDATA
+ - oleauto/METHODDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OleAuto.h
+api_name:
+ - METHODDATA
 ---
 
 # METHODDATA structure
@@ -49,47 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a method or property.
 
-
 ## -struct-fields
-
-
-
 
 ### -field szName
 
  The method name.
 
-
 ### -field ppdata
 
 An array of method parameters.
-
 
 ### -field dispid
 
  The ID of the method, as used in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
 
-
-
 ### -field iMeth
 
  The index of the method in the VTBL of the interface, starting with 0.
-
-
 
 ### -field cc
 
 The calling convention. The CDECL and Pascal calling conventions are supported by the dispatch interface creation functions, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>.
 
-
-
 ### -field cArgs
 
  The number of arguments.
-
 
 ### -field wFlags
 
@@ -145,8 +136,6 @@ The member is changed by a reference assignment, rather than a value assignment.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field vtReturn
 

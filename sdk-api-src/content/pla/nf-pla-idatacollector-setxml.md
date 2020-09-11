@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 12ed8697-caec-45d5-9ecf-658b3e4ca8ba
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],SetXml method, IDataCollector.SetXml, IDataCollector::SetXml, SetXml, SetXml method [PLA], SetXml method [PLA],IDataCollector interface, base.idatacollector_setxml, pla.idatacollector_setxml, pla/IDataCollector::SetXml
-f1_keywords:
-- pla/IDataCollector.SetXml
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollector.SetXml
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollector::SetXml
+ - pla/IDataCollector::SetXml
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollector.SetXml
 ---
 
 # IDataCollector::SetXml
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the property values of those properties included in the XML. 
-
+Sets the property values of those properties included in the XML.
 
 ## -parameters
-
-
-
 
 ### -param Xml [in]
 
 XML that contains the collector properties to set. For details on specifying the XML string, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>.
 
-
 ### -param Validation [out]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors.
 
-
 ## -returns
-
-
 
 Returns S_OK if the method call was successful. You must check the value map for errors. If the method returns S_OK	and there are no validation errors, then the collector was successfully initialized.
 
-
-
-
 ## -remarks
-
-
 
 If the XML syntax is valid, this API will return S_OK, even if one or more properties are not valid.  Those properties whose values are valid are set. Those properties whose values are not valid are set to their default value.
 
@@ -105,15 +92,8 @@ Typically, any errors that occur will be one of the following HRESULT values.
 <td>The property conflicts with another property, for example, both <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">LogAppend</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logcircular">LogCircular</a> are VARIANT_TRUE.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
 
@@ -124,7 +104,4 @@ Typically, any errors that occur will be one of the following HRESULT values.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setxml">IDataCollectorSet::SetXml</a>
- 
-
- 
 

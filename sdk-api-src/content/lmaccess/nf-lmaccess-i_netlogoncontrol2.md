@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: bf40ee60-3a13-4a4e-a0f4-ba7c9fc11097
 ms.date: 12/05/2018
 ms.keywords: I_NetLogonControl2, I_NetLogonControl2 function [Windows API], NETLOGON_CONTROL_CHANGE_PASSWORD, NETLOGON_CONTROL_FORCE_DNS_REG, NETLOGON_CONTROL_PDC_REPLICATE, NETLOGON_CONTROL_QUERY, NETLOGON_CONTROL_QUERY_DNS_REG, NETLOGON_CONTROL_REDISCOVER, NETLOGON_CONTROL_REPLICATE, NETLOGON_CONTROL_SYNCHRONIZE, NETLOGON_CONTROL_TC_QUERY, NETLOGON_CONTROL_TC_VERIFY, NETLOGON_INFO_1, NETLOGON_INFO_2, NETLOGON_INFO_3, NETLOGON_INFO_4, lmaccess/I_NetLogonControl2, winprog.i_netlogoncontrol2
-f1_keywords:
-- lmaccess/I_NetLogonControl2
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- I_NetLogonControl2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - I_NetLogonControl2
+ - lmaccess/I_NetLogonControl2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - I_NetLogonControl2
 ---
 
 # I_NetLogonControl2 function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>I_NetLogonControl2</b> function controls various aspects of the Netlogon service.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerName [in, optional]
 
 The name of the remote server.
-
 
 ### -param FunctionCode [in]
 
@@ -183,8 +178,6 @@ Issues a query requesting the status of DNS updates performed by the Netlogon se
 </td>
 </tr>
 </table>
- 
-
 
 ### -param QueryLevel [in]
 
@@ -206,11 +199,9 @@ Indicates what information should be returned from the Netlogon service. This va
 
 #### NETLOGON_INFO_4 (4)
 
-
 ### -param Data [in]
 
 Carries input data that depends on the value specified in the <i>FunctionCode</i> parameter. The NETLOGON_CONTROL_REDISCOVER and NETLOGON_CONTROL_TC_QUERY function codes specify the trusted domain name (the data type is <b>LPWSTR *</b>).
-
 
 ### -param Buffer [out]
 
@@ -218,10 +209,7 @@ Returns a pointer to a buffer that contains the requested information in the str
 
  The buffer must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
 
-
 ## -returns
-
-
 
 The method returns 0x00000000 (<b>NERR_Success</b>) on success; otherwise, it returns a nonzero error code defined in Lmerr.h or Winerror.h. NET_API_STATUS error codes begin with the value 0x00000834. For more information about network management error codes, see <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-error-codes">Network_Management_Error_Codes</a>. The following table describes possible return values.
 
@@ -376,24 +364,12 @@ The user name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function can be used to request that a BDC ensure that its copy of the SAM database is brought up-to-date. It can also be used to determine if a BDC currently has a secure channel open to the PDC.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-netlogon_info_1">NETLOGON_INFO_1</a>
 
@@ -408,7 +384,4 @@ This function can be used to request that a BDC ensure that its copy of the SAM 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-netlogon_info_4">NETLOGON_INFO_4</a>
- 
-
- 
 

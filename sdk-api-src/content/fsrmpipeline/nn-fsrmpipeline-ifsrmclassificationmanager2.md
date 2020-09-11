@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 6ff821e3-f0bd-4c66-8ced-edbbfbc8503b
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassificationManager2, IFsrmClassificationManager2 interface [File Server Resource Manager], IFsrmClassificationManager2 interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager2, fsrm.ifsrmclassificationmanager2, fsrmpipeline/IFsrmClassificationManager2
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager2
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager2
+ - fsrmpipeline/IFsrmClassificationManager2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager2
 ---
 
 # IFsrmClassificationManager2 interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -63,7 +63,6 @@ To get this interface, call the
     <b>CLSID_FsrmClassificationManager</b> as the class identifier and 
     <code>__uuidof(IFsrmClassificationManager2)</code> as the interface 
     identifier or use the use the "Fsrm.FsrmClassificationManager" program identifier.
-
 
 ## -inheritance
 
@@ -354,13 +353,9 @@ The types of logging to perform when running the classification rules.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -371,7 +366,4 @@ The types of logging to perform when running the classification rules.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
 

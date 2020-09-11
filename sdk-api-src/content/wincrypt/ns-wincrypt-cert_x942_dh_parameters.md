@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 833d8e36-af78-4daa-92c5-0cb37a31df2f
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_X942_DH_PARAMETERS, CERT_X942_DH_PARAMETERS, CERT_X942_DH_PARAMETERS structure [Security], PCERT_X942_DH_PARAMETERS, PCERT_X942_DH_PARAMETERS structure pointer [Security], _crypto2_cert_x942_dh_parameters, security.cert_x942_dh_parameters, wincrypt/CERT_X942_DH_PARAMETERS, wincrypt/PCERT_X942_DH_PARAMETERS'
-f1_keywords:
-- wincrypt/CERT_X942_DH_PARAMETERS
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_X942_DH_PARAMETERS
 targetos: Windows
 req.typenames: CERT_X942_DH_PARAMETERS, *PCERT_X942_DH_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_X942_DH_PARAMETERS
+ - wincrypt/_CERT_X942_DH_PARAMETERS
+ - PCERT_X942_DH_PARAMETERS
+ - wincrypt/PCERT_X942_DH_PARAMETERS
+ - CERT_X942_DH_PARAMETERS
+ - wincrypt/CERT_X942_DH_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_X942_DH_PARAMETERS
 ---
 
 # CERT_X942_DH_PARAMETERS structure
@@ -49,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_X942_DH_PARAMETERS</b> structure contains parameters associated with a Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field p
 
 Prime modulus P. The most significant bit of the most significant byte must always be set to 1.
 
-
 ### -field g
 
 Generator G. Must be the same length as <b>p</b> (must be padded with 0x00 bytes if it is less).
-
 
 ### -field q
 
@@ -77,11 +75,9 @@ Prime Q.
 
 A factor of p–1. The most significant bit of the most significant byte must be set to 1.
 
-
 ### -field j
 
 Optional subgroup factor.
-
 
 ### -field pValidationParams
 

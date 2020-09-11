@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 17fcde27-86be-4fe1-8cd2-a49cfe2b408f
 ms.date: 12/05/2018
 ms.keywords: BundledUpdates property [Windows Update Agent], BundledUpdates property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],BundledUpdates property, IUpdate.BundledUpdates, IUpdate.get_BundledUpdates, IUpdate::BundledUpdates, IUpdate::get_BundledUpdates, get_BundledUpdates, wua.iupdate_bundledupdates, wuapi/IUpdate::BundledUpdates, wuapi/IUpdate::get_BundledUpdates
-f1_keywords:
-- wuapi/IUpdate.BundledUpdates
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.BundledUpdates
-- IUpdate.get_BundledUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_BundledUpdates
+ - wuapi/IUpdate::get_BundledUpdates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.BundledUpdates
+ - IUpdate.get_BundledUpdates
 ---
 
 # IUpdate::get_BundledUpdates
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an interface that contains information about the ordered list of the bundled updates for the update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
 

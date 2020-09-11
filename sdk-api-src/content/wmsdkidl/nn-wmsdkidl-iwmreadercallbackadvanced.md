@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 9d18961a-5ea4-4f3e-b473-7399e155f800
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], IWMReaderCallbackAdvanced interface [windows Media Format],described, IWMReaderCallbackAdvancedInterface, wmformat.iwmreadercallbackadvanced, wmsdkidl/IWMReaderCallbackAdvanced
-f1_keywords:
-- wmsdkidl/IWMReaderCallbackAdvanced
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMReaderCallbackAdvanced
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderCallbackAdvanced
+ - wmsdkidl/IWMReaderCallbackAdvanced
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMReaderCallbackAdvanced
 ---
 
 # IWMReaderCallbackAdvanced interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMReaderCallback</b> interface is implemented by the application to handle data being read from a file.
-
-
-
 
 ## -inheritance
 
@@ -125,13 +121,9 @@ Notifies the application of the clock time the reader is working to. This is use
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
@@ -154,7 +146,4 @@ Notifies the application of the clock time the reader is working to. This is use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/reading-asf-files">Reading ASF Files</a>
- 
-
- 
 

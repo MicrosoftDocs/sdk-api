@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\setmarker.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],SetMarker method, GraphicsPath.SetMarker, GraphicsPath::SetMarker, SetMarker, SetMarker method [GDI+], SetMarker method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_SetMarker_, gdiplus._gdiplus_CLASS_GraphicsPath_SetMarker_
-f1_keywords:
-- gdipluspath/GraphicsPath.SetMarker
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPath.SetMarker
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPath::SetMarker
+ - gdipluspath/GraphicsPath::SetMarker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPath.SetMarker
 ---
 
 # GraphicsPath::SetMarker
@@ -50,20 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphicsPath::SetMarker</b> method designates the last point in this path as a marker point.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -71,12 +63,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points. Possible point types and flags are listed in the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pathpointtype">PathPointType</a> enumeration.
 
@@ -84,13 +71,7 @@ Each time you add a line, curve, or shape to a path, the point array and the typ
 
 Markers divide a path into sections. You can use a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a> object to draw selected sections of a path.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-clipping-with-a-region-use">Clipping with a Region</a>
 
@@ -133,7 +114,4 @@ Markers divide a path into sections. You can use a <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
- 
-
- 
 

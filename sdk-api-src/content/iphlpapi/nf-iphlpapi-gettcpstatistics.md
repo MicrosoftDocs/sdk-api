@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 841cdeaa-6284-4b39-a218-69937eca1982
 ms.date: 12/05/2018
 ms.keywords: GetTcpStatistics, GetTcpStatistics function [IP Helper], _iphlp_gettcpstatistics, iphlp.gettcpstatistics, iphlpapi/GetTcpStatistics
-f1_keywords:
-- iphlpapi/GetTcpStatistics
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetTcpStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTcpStatistics
+ - iphlpapi/GetTcpStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetTcpStatistics
 ---
 
 # GetTcpStatistics function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTcpStatistics</b> function retrieves the TCP statistics for the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Statistics [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcpstats_lh">MIB_TCPSTATS</a> structure that receives the TCP statistics for the local computer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -103,14 +96,8 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>GetTcpStatistics</b> function returns the TCP statistics for IPv4 on the current computer.     On Windows XP and later, the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex">GetTcpStatisticsEx</a> can be used to obtain the TCP statistics for either IPv4 or IPv6.
@@ -177,14 +164,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-geticmpstatistics">GetIcmpStatistics</a>
 
@@ -211,7 +191,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcpstats_lh">MIB_TCPSTATS</a>
- 
-
- 
 

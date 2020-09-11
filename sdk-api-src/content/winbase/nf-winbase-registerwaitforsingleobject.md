@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: d0cd8b28-6e20-449a-94dd-cca2be46b812
 ms.date: 12/05/2018
 ms.keywords: RegisterWaitForSingleObject, RegisterWaitForSingleObject function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTEINWAITTHREAD, WT_EXECUTELONGFUNCTION, WT_EXECUTEONLYONCE, WT_TRANSFER_IMPERSONATION, _win32_registerwaitforsingleobject, base.registerwaitforsingleobject, winbase/RegisterWaitForSingleObject
-f1_keywords:
-- winbase/RegisterWaitForSingleObject
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,34 +25,38 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- RegisterWaitForSingleObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterWaitForSingleObject
+ - winbase/RegisterWaitForSingleObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - RegisterWaitForSingleObject
 ---
 
 # RegisterWaitForSingleObject function
 
 
 ## -description
-
 
 Directs a wait thread in the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">thread pool</a> to wait on the object. The wait thread queues the specified callback function to the thread pool when one of the following occurs:
 <ul>
@@ -66,14 +66,10 @@ Directs a wait thread in the <a href="https://docs.microsoft.com/windows/desktop
 
 ## -parameters
 
-
-
-
 ### -param phNewWaitObject [out]
 
 A pointer to a variable that receives a wait handle on return. Note that a wait handle cannot be used in functions that require an object handle, such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
-
 
 ### -param hObject [in]
 
@@ -87,22 +83,18 @@ If this handle is closed while the wait is still pending, the function's behavio
 The handles must have the <b>SYNCHRONIZE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
-
 ### -param Callback [in]
 
 A pointer to the application-defined function of type <b>WAITORTIMERCALLBACK</b> to be executed when <i>hObject</i> is in the signaled state, or <i>dwMilliseconds</i> elapses. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>.
 
-
 ### -param Context [in, optional]
 
 A single value that is passed to the callback function.
 
-
 ### -param dwMilliseconds [in]
 
 The time-out interval, in milliseconds. The function returns if the interval elapses, even if the object's state is nonsignaled. If <i>dwMilliseconds</i> is zero, the function tests the object's state and returns immediately. If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function's time-out interval never elapses.
-
 
 ### -param dwFlags [in]
 
@@ -212,24 +204,15 @@ Callback functions will use the current access token, whether it is a process or
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call  
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 New wait threads are created automatically when required. The wait operation is performed by a wait thread from the thread pool. The callback routine is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses. If <i>dwFlags</i> is not <b>WT_EXECUTEONLYONCE</b>, the timer is reset every time the event is signaled or the time-out interval elapses.
 
@@ -271,13 +254,7 @@ The work item and all functions it calls must be thread-pool safe. Therefore, yo
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
@@ -300,7 +277,4 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 52219bbb-0a88-47b3-ac6c-ba54d15e8157
 ms.date: 12/05/2018
 ms.keywords: ?Left@CHString@@QBE?AV1@H@Z, ?Left@CHString@@QEBA?AV1@H@Z, CHString interface [Windows Management Instrumentation],Left method, CHString.Left, CHString::Left, Left, Left method [Windows Management Instrumentation], Left method [Windows Management Instrumentation],CHString interface, _hmm_chstring_left, chstring/CHString::Left, wmi.chstring_left
-f1_keywords:
-- chstring/CHString.Left
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.Left
-- ?Left@CHString@@QBE?AV1@H@Z
-- ?Left@CHString@@QEBA?AV1@H@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::Left
+ - chstring/CHString::Left
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.Left
+ - ?Left@CHString@@QBE?AV1@H@Z
+ - ?Left@CHString@@QEBA?AV1@H@Z
 ---
 
 # CHString::Left
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,32 +61,20 @@ ms.custom: 19H1
 
 The <b>Left</b> method extracts the first (that is, leftmost) <i>nCount</i> characters from a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string and returns a copy of the extracted substring. If <i>nCount</i> exceeds the string length, then the entire string is extracted.
 
-
 ## -parameters
-
-
-
 
 ### -param nCount
 
 The number of characters extracted from the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string.
 
-
 ## -returns
-
-
 
 Returns a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string containing a copy of the specified range of characters.
 
 <div class="alert"><b>Note</b>  The returned <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string may be empty.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
@@ -97,7 +85,4 @@ Returns a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">C
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>
- 
-
- 
 

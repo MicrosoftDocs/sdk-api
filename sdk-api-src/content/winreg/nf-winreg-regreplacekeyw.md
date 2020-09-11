@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: f968fa71-edc8-4f49-b9fa-1e89224df33b
 ms.date: 12/05/2018
 ms.keywords: RegReplaceKey, RegReplaceKey function, RegReplaceKeyA, RegReplaceKeyW, _win32_regreplacekey, base.regreplacekey, winreg/RegReplaceKey, winreg/RegReplaceKeyA, winreg/RegReplaceKeyW
-f1_keywords:
-- winreg/RegReplaceKey
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-Registry-l2-2-0.dll
-api_name:
-- RegReplaceKey
-- RegReplaceKeyA
-- RegReplaceKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegReplaceKeyW
+ - winreg/RegReplaceKeyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l2-2-0.dll
+api_name:
+ - RegReplaceKey
+ - RegReplaceKeyA
+ - RegReplaceKeyW
 ---
 
 # RegReplaceKeyW function
@@ -54,16 +55,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the file backing a registry key and all its subkeys with another file, so that when the system is next started, the key and subkeys will have the values stored in the new file.
 
  Applications that back up or restore system state including system files and registry hives should use the <a href="https://msdn.microsoft.com/library/aa384649(VS.85).aspx">Volume Shadow Copy Service</a> instead of the registry functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -94,33 +90,23 @@ If the specified subkey is not the root of a hive,
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
-
 ### -param lpNewFile [in]
 
 The name of the file with the registry information. This file is typically created by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsavekeya">RegSaveKey</a> function.
 
-
 ### -param lpOldFile [in]
 
 The name of the file that receives a backup copy of the registry information being replaced.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 There are two different registry hive file formats. Registry hives created on current operating systems typically cannot be loaded by earlier ones.
 
@@ -140,9 +126,6 @@ The calling process must have the SE_RESTORE_NAME and SE_BACKUP_NAME privileges 
 > The winreg.h header defines RegReplaceKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regconnectregistrya">RegConnectRegistry</a>
 
@@ -169,7 +152,4 @@ The calling process must have the SE_RESTORE_NAME and SE_BACKUP_NAME privileges 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 

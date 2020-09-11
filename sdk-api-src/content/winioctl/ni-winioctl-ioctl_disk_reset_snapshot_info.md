@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 522f469e-9630-4fa3-a157-7090c58a9856
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
-f1_keywords:
-- winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_RESET_SNAPSHOT_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_RESET_SNAPSHOT_INFO
+ - winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_RESET_SNAPSHOT_INFO
 ---
 
 # IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -93,7 +88,6 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 The disk whose handle is used when this IOCTL is issued might be in the offline state when the IOCTL is issued. If the disk is put in the offline state by using the disk management Microsoft Management Console (MMC) snap-in, the disk will have its read-only attribute set, which will cause this IOCTL to fail. However, if the disk partition utility (Diskpart.exe) is used to put the disk in the offline state, the read-only attribute for the disk is not set. For this reason, it is best to use the disk partition utility to put a disk in the offline state.
@@ -101,7 +95,7 @@ The disk whose handle is used when this IOCTL is issued might be in the offline 
 > [!NOTE]
 > One side effect of using this IOCTL is that Disk Management tools will now report an additional partition on GPT disks of the type "UNKNOWN." This 256KB partition is created by using the IOCTL and is the shadow copy partition that is used in the restore process. The partition is expected and can be ignored by system administrators.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+

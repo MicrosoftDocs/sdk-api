@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxparaformatchange.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],OnTxParaFormatChange method, ITextHost.OnTxParaFormatChange, ITextHost::OnTxParaFormatChange, OnTxParaFormatChange, OnTxParaFormatChange method [Windows Controls], OnTxParaFormatChange method [Windows Controls],ITextHost interface, _win32_ITextHost_OnTxParaFormatChange, _win32_ITextHost_OnTxParaFormatChange_cpp, controls.ITextHost_OnTxParaFormatChange, controls._win32_ITextHost_OnTxParaFormatChange, textserv/ITextHost::OnTxParaFormatChange
-f1_keywords:
-- textserv/ITextHost.OnTxParaFormatChange
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.OnTxParaFormatChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::OnTxParaFormatChange
+ - textserv/ITextHost::OnTxParaFormatChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.OnTxParaFormatChange
 ---
 
 # ITextHost::OnTxParaFormatChange
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the default paragraph format for the text host.
 
-
 ## -parameters
-
-
-
 
 ### -param pPF [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>*</b>
 
-The new default paragraph format. 
-
+The new default paragraph format.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -103,15 +96,8 @@ Unspecified error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -130,7 +116,4 @@ Unspecified error.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

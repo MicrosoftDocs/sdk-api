@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b5758086-93d1-49d6-b9ac-ba8927f3bd1e
 ms.date: 12/05/2018
 ms.keywords: KF_FLAG_DONT_UNEXPAND, SHSetKnownFolderPath, SHSetKnownFolderPath function [Windows Shell], _shell_SHSetKnownFolderPath, shell.SHSetKnownFolderPath, shlobj_core/SHSetKnownFolderPath
-f1_keywords:
-- shlobj_core/SHSetKnownFolderPath
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-shell-shellfolders-l1-1-0.dll
-- KernelBase.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
-- Windows.Storage.dll
-api_name:
-- SHSetKnownFolderPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHSetKnownFolderPath
+ - shlobj_core/SHSetKnownFolderPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-shell-shellfolders-l1-1-0.dll
+ - KernelBase.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - Windows.Storage.dll
+api_name:
+ - SHSetKnownFolderPath
 ---
 
 # SHSetKnownFolderPath function
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Redirects a known folder to a new location.
 
-
 ## -parameters
-
-
-
 
 ### -param rfid [in]
 
 Type: <b>REFKNOWNFOLDERID</b>
 
 A <b>GUID</b> that identifies the known folder.
-
 
 ### -param dwFlags [in]
 
@@ -82,7 +77,6 @@ Either 0 or the following value.
 
 If this flag is set, portions of the path referenced by <i>pszPath</i> may be represented by environment strings such as <code>%USERPROFILE%</code>.
 
-
 ### -param hToken [in]
 
 Type: <b>HANDLE</b>
@@ -95,17 +89,13 @@ The calling application is responsible for correct impersonation when <i>hToken<
 
 Assigning the <i>hToken</i> parameter a value of -1 indicates the Default User. This allows clients of <b>SHSetKnownFolderPath</b> to set folder locations (such as the <b>Desktop</b> folder) for the Default User. The Default User user profile is duplicated when any new user account is created, and includes special folders such as <b>Documents</b> and <b>Desktop</b>. Any items added to the Default User folder also appear in any new user account. Note that access to the Default User folders requires administrator privileges.
 
-
 ### -param pszPath [in]
 
 Type: <b>PCWSTR</b>
 
 A pointer to the folder's new path. This is a null-terminated Unicode string of length MAX_PATH. This path cannot be of zero length.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -128,14 +118,8 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function replaces <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetfolderpatha">SHSetFolderPath</a>. That older function is now simply a wrapper for <b>SHSetKnownFolderPath</b>.
 
@@ -147,13 +131,7 @@ This function cannot be called on folders of type <a href="https://docs.microsof
 
 To call this function on a folder of type <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY_COMMON</a>, the calling application must be running with elevated privileges.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>
 
@@ -176,7 +154,4 @@ To call this function on a folder of type <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>
- 
-
- 
 

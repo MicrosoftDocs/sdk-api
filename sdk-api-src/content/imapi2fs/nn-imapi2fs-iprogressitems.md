@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 40c28e67-8ff3-4330-90a1-7ebccb0023ad
 ms.date: 12/05/2018
 ms.keywords: IProgressItems, IProgressItems interface [IMAPI], IProgressItems interface [IMAPI],described, imapi.iprogressitems, imapi2fs/IProgressItems
-f1_keywords:
-- imapi2fs/IProgressItems
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IProgressItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressItems
+ - imapi2fs/IProgressItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IProgressItems
 ---
 
 # IProgressItems interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to enumerate the progress items in a result image. A progress item represents a segment of the result image.
 
 To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_progressitems">IFileSystemImageResult::get_ProgressItems</a> method.
-
 
 ## -inheritance
 
@@ -124,29 +123,17 @@ Retrieves a progress item based on the specified file name.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This is a <b>ProgressItems</b> object in script.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
- 
-
- 
 

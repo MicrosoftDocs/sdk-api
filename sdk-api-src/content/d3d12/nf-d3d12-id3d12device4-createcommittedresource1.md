@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12Device4 interface","CreateCommittedResource1 method
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateCommittedResource1 method, ID3D12Device4.CreateCommittedResource1, ID3D12Device4::CreateCommittedResource1, CreateCommittedResource1, CreateCommittedResource1 method, CreateCommittedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createcommittedresource1, d3d12/ID3D12Device4::CreateCommittedResource1
-f1_keywords:
-- d3d12/ID3D12Device4.CreateCommittedResource1
-dev_langs:
-- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.lib
-- d3d12.dll
-api_name:
-- ID3D12Device4::CreateCommittedResource1
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device4::CreateCommittedResource1
+ - d3d12/ID3D12Device4::CreateCommittedResource1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.lib
+ - d3d12.dll
+api_name:
+ - ID3D12Device4::CreateCommittedResource1
 ---
 
 ## -description
@@ -107,7 +108,7 @@ Type: **void\*\***
 
 An optional pointer to a memory block that receives the requested interface pointer to the created resource object.
 
-*ppvResource* can be `nullptr`, to enable capability testing. When *ppvResource* is `nullptr`, no object is created, and **S_FALSE** is returned when *pDesc* is valid. 
+*ppvResource* can be `nullptr`, to enable capability testing. When *ppvResource* is `nullptr`, no object is created, and **S_FALSE** is returned when *pDesc* is valid.
 
 ## -returns
 
@@ -132,3 +133,4 @@ The resource GPU VA mapping can't be changed. See [ID3D12CommandQueue::UpdateTil
 This method may be called by multiple threads concurrently.
 
 ## -see-also
+

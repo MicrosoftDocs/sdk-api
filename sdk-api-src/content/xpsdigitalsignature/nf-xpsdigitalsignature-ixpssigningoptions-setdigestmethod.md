@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: d9f72cc4-38b2-4a91-8813-183483d47986
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetDigestMethod method, IXpsSigningOptions.SetDigestMethod, IXpsSigningOptions::SetDigestMethod, SetDigestMethod, SetDigestMethod method [XPS Documents and Packaging], SetDigestMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setdigestmethod, xpsdigitalsignature/IXpsSigningOptions::SetDigestMethod
-f1_keywords:
-- xpsdigitalsignature/IXpsSigningOptions.SetDigestMethod
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSigningOptions.SetDigestMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSigningOptions::SetDigestMethod
+ - xpsdigitalsignature/IXpsSigningOptions::SetDigestMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSigningOptions.SetDigestMethod
 ---
 
 # IXpsSigningOptions::SetDigestMethod
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the URI of the digest method.
 
-
 ## -parameters
-
-
-
 
 ### -param digestMethod [in]
 
@@ -64,19 +60,11 @@ The URI of the digest method.
 
 This parameter must refer to the URI of a valid digest method. The following digest methods have been tested in Windows 7:
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The digest method must be set before signing.
 
@@ -87,13 +75,7 @@ Sets the string  that identifies the URI of the algorithm that is used to digest
 The signing certificate, signature method, 
     and digest method must be compatible with one another.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Cryptography Functions</a>
 
@@ -108,7 +90,4 @@ The signing certificate, signature method,
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

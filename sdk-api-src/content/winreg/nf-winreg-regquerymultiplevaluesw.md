@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
 ms.date: 12/05/2018
 ms.keywords: RegQueryMultipleValues, RegQueryMultipleValues function, RegQueryMultipleValuesA, RegQueryMultipleValuesW, _win32_regquerymultiplevalues, base.regquerymultiplevalues, winreg/RegQueryMultipleValues, winreg/RegQueryMultipleValuesA, winreg/RegQueryMultipleValuesW
-f1_keywords:
-- winreg/RegQueryMultipleValues
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-Registry-l2-2-0.dll
-api_name:
-- RegQueryMultipleValues
-- RegQueryMultipleValuesA
-- RegQueryMultipleValuesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegQueryMultipleValuesW
+ - winreg/RegQueryMultipleValuesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l2-2-0.dll
+api_name:
+ - RegQueryMultipleValues
+ - RegQueryMultipleValuesA
+ - RegQueryMultipleValuesW
 ---
 
 # RegQueryMultipleValuesW function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type and data for a list of value names associated with an open registry key.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -83,8 +79,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param val_list [out]
 
 A pointer to an array of 
@@ -95,11 +89,9 @@ A pointer to an array of
 
 If the function succeeds, each element of the array contains the information for the specified value.
 
-
 ### -param num_vals [in]
 
 The number of elements in the <i>val_list</i> array.
-
 
 ### -param lpValueBuf [out, optional]
 
@@ -110,15 +102,11 @@ A pointer to a buffer. If the function succeeds, the buffer receives the data fo
 
 If <i>lpValueBuf</i> is <b>NULL</b>, the value pointed to by the <i>ldwTotsize</i> parameter must be zero, in which case the function returns ERROR_MORE_DATA and <i>ldwTotsize</i> receives the required size of the buffer, in bytes.
 
-
 ### -param ldwTotsize [in, out, optional]
 
 A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpValueBuf</i> parameter, in bytes. If the function succeeds, <i>ldwTotsize</i> receives the number of bytes copied to the buffer. If the function fails because the buffer is too small, <i>ldwTotsize</i> receives the required size, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -164,14 +152,8 @@ The total size of the requested data (size of the <i>val_list</i> array + <i>ldw
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>RegQueryMultipleValues</b> function allows an application to query one or more values of a static or dynamic key. If the target key is a static key, the system provides all of the values in an atomic fashion. To prevent excessive serialization, the aggregate data returned by the function cannot exceed one megabyte.
@@ -189,9 +171,6 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
@@ -201,7 +180,4 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 [VALENT](/windows/win32/api/winreg/ns-winreg-valenta)
- 
-
- 
 

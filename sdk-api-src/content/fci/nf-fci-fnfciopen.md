@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 72cf50cb-c895-4953-9c4d-f8ddaa294f2a
 ms.date: 12/05/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
-f1_keywords:
-- fci/FNFCIOPEN
-dev_langs:
-- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fci.h
-api_name:
-- FNFCIOPEN
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FNFCIOPEN
+ - fci/FNFCIOPEN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fci.h
+api_name:
+ - FNFCIOPEN
 ---
 
 # FNFCIOPEN macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FNFCIOPEN</b> macro provides the declaration for the application-defined callback function to open a file in an FCI context.
 
-
 ## -parameters
-
-
-
 
 ### -param fn [in]
 
@@ -84,10 +80,7 @@ Specifies the permission mode.
 
 Pointer to an application-defined value.
 
-
 ## -remarks
-
-
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/z0kc8e3z(VS.71).aspx">_open</a>.
 
@@ -145,17 +138,7 @@ FNFCIOPEN(fnFileOpen)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: bc5165c2-791d-4549-a271-78728625b219
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl3, IWMDMStorageControl3 interface [windows Media Device Manager], IWMDMStorageControl3 interface [windows Media Device Manager],described, IWMDMStorageControl3Interface, mswmdm/IWMDMStorageControl3, wmdm.iwmdmstoragecontrol3
-f1_keywords:
-- mswmdm/IWMDMStorageControl3
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMStorageControl3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMStorageControl3
+ - mswmdm/IWMDMStorageControl3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMStorageControl3
 ---
 
 # IWMDMStorageControl3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDMStorageControl3</b> interface extends <b>IWMDMStorageControl2</b> by providing an <b>Insert</b> method that accepts an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> interface pointer.
-
-
-
 
 ## -inheritance
 
@@ -80,13 +76,9 @@ Puts content into/next to the storage. Extends <a href="https://docs.microsoft.c
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
 
@@ -97,7 +89,4 @@ Puts content into/next to the storage. Extends <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

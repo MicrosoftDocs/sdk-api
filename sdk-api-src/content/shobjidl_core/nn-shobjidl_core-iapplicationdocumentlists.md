@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1912d8fd-1724-4a4b-b74a-e05db12ffead
 ms.date: 12/05/2018
 ms.keywords: IApplicationDocumentLists, IApplicationDocumentLists interface [Windows Shell], IApplicationDocumentLists interface [Windows Shell],described, _shell_IApplicationDocumentLists, shell.IApplicationDocumentLists, shobjidl_core/IApplicationDocumentLists
-f1_keywords:
-- shobjidl_core/IApplicationDocumentLists
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IApplicationDocumentLists
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationDocumentLists
+ - shobjidl_core/IApplicationDocumentLists
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IApplicationDocumentLists
 ---
 
 # IApplicationDocumentLists interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow an application to retrieve the contents of the <b>Recent</b> or <b>Frequent</b> categories in a Jump List.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Specifies a unique AppUserModelID for the application whose destination lists ar
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided in Windows as CLSID_ApplicationDocumentLists. This interface is not implemented by third parties.
@@ -103,16 +99,7 @@ An application calls the methods of this interface when it wants to retrieve a J
 
 <b>IApplicationDocumentLists</b> is used only with the automatically generated <b>Recent</b> or <b>Frequent</b> categories. It cannot retrieve a list of items that the user has pinned to the Jump List. That list cannot be retrieved programmatically because it cannot be manipulated programmatically; it is strictly under the user's control. <b>IApplicationDocumentLists</b> also cannot access custom categories or the task list.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 96eb582a-4f32-4e13-ad01-8b5ffabab582
 ms.date: 12/05/2018
 ms.keywords: IHWEventHandler interface [Windows Shell],Initialize method, IHWEventHandler.Initialize, IHWEventHandler::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IHWEventHandler interface, inet_IHWEventHandler_Initialize, shell.IHWEventHandler_Initialize, shobjidl/IHWEventHandler::Initialize
-f1_keywords:
-- shobjidl/IHWEventHandler.Initialize
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shimgvw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shimgvw.dll
-api_name:
-- IHWEventHandler.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHWEventHandler::Initialize
+ - shobjidl/IHWEventHandler::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shimgvw.dll
+api_name:
+ - IHWEventHandler.Initialize
 ---
 
 # IHWEventHandler::Initialize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes an object that contains an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ihweventhandler">IHWEventHandler</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pszParams [in]
 
@@ -77,27 +73,15 @@ A pointer to a string buffer that contains the string from the following registr
                         <i>HandlerName</i>
                            <b>InitCmdLine</b> = string</pre>
 
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method receives the registry string stored in the InitCmdLine value under the
         
          <b>AutoPlayHandlers</b>&#92;<b>Handlers</b>&#92;<i>HandlerName</i>key. Applications that have registered with AutoPlay as event handlers place this string into the registry as part of the registration process.
-      
-
-
 

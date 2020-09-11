@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9818c67d-dfbe-4498-a744-d2efaa4bfb58
 ms.date: 12/05/2018
 ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], IReferenceClock interface [DirectShow],described, IReferenceClockInterface, dshow.ireferenceclock, strmif/IReferenceClock
-f1_keywords:
-- strmif/IReferenceClock
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IReferenceClock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReferenceClock
+ - strmif/IReferenceClock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IReferenceClock
 ---
 
 # IReferenceClock interface
 
 
 ## -description
-
-
 
 The <code>IReferenceClock</code> interface provides the reference time for the filter graph.
 
@@ -70,8 +69,6 @@ To increase the chances that a non-rendering filter will be selected by the Filt
 <li>Return (* pFlags) = 0 from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iampushsource-getpushsourceflags">IAMPushSource::GetPushSourceFlags</a>.</li>
 <li>You may return E_NOTIMPL from all other <b>IAMPushSource</b> methods.</li>
 </ol>
-
-
 
 ## -inheritance
 
@@ -124,5 +121,5 @@ Removes a pending advise request.
 
 </td>
 </tr>
-</table> 
+</table>
 

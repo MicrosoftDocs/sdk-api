@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 10cfdded-4184-4d34-9ccd-85446c13d497
 ms.date: 12/05/2018
 ms.keywords: '*PIP_PER_ADAPTER_INFO, *PIP_PER_ADAPTER_INFO_W2KSP1, IP_PER_ADAPTER_INFO, IP_PER_ADAPTER_INFO structure [IP Helper], IP_PER_ADAPTER_INFO_W2KSP1, PIP_PER_ADAPTER_INFO, PIP_PER_ADAPTER_INFO structure pointer [IP Helper], _iphlp_ip_per_adapter_info, iphlp.ip_per_adapter_info, iptypes/IP_PER_ADAPTER_INFO, iptypes/PIP_PER_ADAPTER_INFO'
-f1_keywords:
-- iptypes/IP_PER_ADAPTER_INFO
-dev_langs:
-- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iptypes.h
-api_name:
-- IP_PER_ADAPTER_INFO
 targetos: Windows
 req.typenames: IP_PER_ADAPTER_INFO_W2KSP1, *PIP_PER_ADAPTER_INFO_W2KSP1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IP_PER_ADAPTER_INFO_W2KSP1
+ - iptypes/_IP_PER_ADAPTER_INFO_W2KSP1
+ - PIP_PER_ADAPTER_INFO_W2KSP1
+ - iptypes/PIP_PER_ADAPTER_INFO_W2KSP1
+ - IP_PER_ADAPTER_INFO_W2KSP1
+ - iptypes/IP_PER_ADAPTER_INFO_W2KSP1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iptypes.h
+api_name:
+ - IP_PER_ADAPTER_INFO
 ---
 
 # IP_PER_ADAPTER_INFO_W2KSP1 structure
@@ -49,50 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IP_PER_ADAPTER_INFO</b> structure contains information specific to a particular adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AutoconfigEnabled
 
-Specifies whether IP address auto-configuration (APIPA) is enabled on this adapter. See Remarks. 
-
+Specifies whether IP address auto-configuration (APIPA) is enabled on this adapter. See Remarks.
 
 ### -field AutoconfigActive
 
 Specifies whether this adapter's IP address is currently auto-configured by APIPA.
 
-
 ### -field CurrentDnsServer
 
 Reserved. Use the <b>DnsServerList</b> member to obtain the DNS servers for the local computer.
-
 
 ### -field DnsServerList
 
 A linked list of 
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
 
-
 ## -remarks
-
-
 
 APIPA enables automatic IP address configuration on networks without DHCP servers, using the IANA-reserved Class B network 169.254.0.0, with a subnet mask of 255.255.0.0. Clients send ARP messages to ensure the selected address is not currently in use. Clients auto-configured in this fashion continue to poll for a valid DHCP server every five minutes, and if found, the DHCP server configuration overrides all auto-configuration settings.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getperadapterinfo">GetPerAdapterInfo</a>
 
@@ -107,7 +95,4 @@ APIPA enables automatic IP address configuration on networks without DHCP server
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
- 
-
- 
 

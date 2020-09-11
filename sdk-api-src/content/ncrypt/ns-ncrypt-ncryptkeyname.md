@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9d9ebbb7-c491-49b0-9686-e37085929271
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCryptKeyName, NCryptKeyName structure [Security], ncrypt/NCryptKeyName, security.ncryptkeyname_struct
-f1_keywords:
-- ncrypt/NCryptKeyName
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ncrypt.h
-api_name:
-- NCryptKeyName
 targetos: Windows
 req.typenames: NCryptKeyName
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptKeyName
+ - ncrypt/NCryptKeyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ncrypt.h
+api_name:
+ - NCryptKeyName
 ---
 
 # NCryptKeyName structure
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptKeyName</b> structure is used to contain information about a CNG key.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszName
 
 A pointer to a null-terminated Unicode string that contains the name of the key.
 
-
 ### -field pszAlgid
 
 A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic algorithm that the key was created with. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
-
 
 ### -field dwLegacyKeySpec
 
@@ -109,8 +103,6 @@ The key is none of the above types.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFlags
 
@@ -132,16 +124,8 @@ The key applies to the local computer. If this flag is not present, the key appl
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumkeys">NCryptEnumKeys</a>
- 
-
- 
 

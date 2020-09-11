@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 29d767cf-3261-4550-8b28-5d3950b8ded1
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchWithPrerequisite, ISyncChangeBatchWithPrerequisite interface [Windows Sync], ISyncChangeBatchWithPrerequisite interface [Windows Sync],described, winsync.isyncchangebatchwithprerequisite, winsync/ISyncChangeBatchWithPrerequisite
-f1_keywords:
-- winsync/ISyncChangeBatchWithPrerequisite
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchWithPrerequisite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchWithPrerequisite
+ - winsync/ISyncChangeBatchWithPrerequisite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchWithPrerequisite
 ---
 
 # ISyncChangeBatchWithPrerequisite interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents metadata about a change batch that is based on the prerequisite knowledge associated with the change batch.
-
 
 ## -inheritance
 
@@ -95,29 +94,17 @@ Sets the minimum knowledge that a destination provider is required to have to pr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An <b>ISyncChangeBatchWithPrerequisite</b> object can be obtained by passing <b>IID_ISyncChangeBatchWithPrerequisite</b> to the <b>QueryInterface</b> method of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

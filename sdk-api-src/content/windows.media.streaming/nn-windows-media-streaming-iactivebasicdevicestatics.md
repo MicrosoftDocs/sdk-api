@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: B4D8BAEF-AD30-4FEC-9527-583E88C8B4C7
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDeviceStatics, IActiveBasicDeviceStatics interface [Media Streaming API], IActiveBasicDeviceStatics interface [Media Streaming API],described, mediastreaming.iactivebasicdevicestatics, windows/IActiveBasicDeviceStatics
-f1_keywords:
-- windows.media.streaming/IActiveBasicDeviceStatics
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: PlayToDevice.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PlayToDevice.dll
-api_name:
-- IActiveBasicDeviceStatics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActiveBasicDeviceStatics
+ - windows.media.streaming/IActiveBasicDeviceStatics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PlayToDevice.dll
+api_name:
+ - IActiveBasicDeviceStatics
 ---
 
 # IActiveBasicDeviceStatics interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides static methods for creating <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice</a> objects.  
-
+Provides static methods for creating <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice</a> objects.
 
 ## -inheritance
 
@@ -104,13 +103,9 @@ Asynchronously gets a <a href="https://docs.microsoft.com/previous-versions/wind
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
 
@@ -129,7 +124,4 @@ Asynchronously gets a <a href="https://docs.microsoft.com/previous-versions/wind
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

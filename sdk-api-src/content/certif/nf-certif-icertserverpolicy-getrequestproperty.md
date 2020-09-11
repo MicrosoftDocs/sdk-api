@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4055008a-7034-47f3-bbae-c870165ab3ef
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestProperty method, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerPolicy object, GetRequestProperty method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestProperty method, ICertServerPolicy.GetRequestProperty, ICertServerPolicy::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, SubmittedWhen, _certsrv_icertserverpolicy_getrequestproperty, certif/ICertServerPolicy::GetRequestProperty, security.icertserverpolicy_getrequestproperty
-f1_keywords:
-- certif/ICertServerPolicy.GetRequestProperty
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerPolicy.GetRequestProperty
-- CCertServerPolicy.GetRequestProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerPolicy::GetRequestProperty
+ - certif/ICertServerPolicy::GetRequestProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerPolicy.GetRequestProperty
+ - CCertServerPolicy.GetRequestProperty
 ---
 
 # ICertServerPolicy::GetRequestProperty
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetRequestProperty</b> method retrieves a specific property from a request.
 
-
 ## -parameters
-
-
-
 
 ### -param strPropertyName [in]
 
@@ -146,9 +142,6 @@ The name of the requester in the form "<i>DomainName</i>&#92;<i>UserID</i>".
 
 <b>Note</b>  There are additional request properties that cannot be accessed by <b>GetRequestProperty</b> because they  are not set until after the policy module finishes processing the request.In addition, other properties may be set by a specific request type, request extensions, or by named attributes set in the header of a request.
 
-
-
-
 ### -param PropertyType [in]
 
 Specifies the property type. The <i>PropertyType</i> parameter  can be one of the following types.
@@ -199,17 +192,12 @@ Binary data.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [out]
 
 A pointer to the <b>VARIANT</b> that contains the request property type.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and  the <i>pvarPropertyValue</i> parameter contains the  request property.
@@ -219,12 +207,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is the request property.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is used as the current context.
@@ -287,14 +270,7 @@ if ( NULL != bstrPropName )
     SysFreeString( bstrPropName );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
@@ -305,7 +281,4 @@ if ( NULL != bstrPropName )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
- 
-
- 
 

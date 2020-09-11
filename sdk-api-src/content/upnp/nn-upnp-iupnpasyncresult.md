@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E
 ms.date: 12/05/2018
 ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
-f1_keywords:
-- upnp/IUPnPAsyncResult
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPAsyncResult
+ - upnp/IUPnPAsyncResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPAsyncResult
 ---
 
 # IUPnPAsyncResult interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPAsyncResult</a> interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Provides notification of a completed asynchronous I/O operation.
 
 </td>
 </tr>
-</table> 
+</table>
 

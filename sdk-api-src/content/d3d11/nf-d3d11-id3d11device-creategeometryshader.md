@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: fb9357d7-ac63-4515-9118-24a2d775e697
 ms.date: 12/05/2018
 ms.keywords: CreateGeometryShader, CreateGeometryShader method [Direct3D 11], CreateGeometryShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateGeometryShader method, ID3D11Device.CreateGeometryShader, ID3D11Device::CreateGeometryShader, c0fe27f5-e83c-fa7e-faca-a34ea90a0c53, d3d11/ID3D11Device::CreateGeometryShader, direct3d11.id3d11device_creategeometryshader
-f1_keywords:
-- d3d11/ID3D11Device.CreateGeometryShader
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device.CreateGeometryShader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device::CreateGeometryShader
+ - d3d11/ID3D11Device::CreateGeometryShader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device.CreateGeometryShader
 ---
 
 # ID3D11Device::CreateGeometryShader
@@ -50,22 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Create a geometry shader.
 
-
 ## -parameters
-
-
-
 
 ### -param pShaderBytecode [in]
 
 Type: <b>const void*</b>
 
-A pointer to the compiled shader. 
-        
-
+A pointer to the compiled shader.
 
 ### -param BytecodeLength [in]
 
@@ -73,13 +67,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Size of the compiled geometry shader.
 
-
 ### -param pClassLinkage [in, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>*</b>
 
 A pointer to a class linkage interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>); the value can be <b>NULL</b>.
-
 
 ### -param ppGeometryShader [out, optional]
 
@@ -88,21 +80,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 Address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11geometryshader">ID3D11GeometryShader</a> interface. If this is <b>NULL</b>, all other parameters will be validated, and if all
         parameters pass validation this API will return S_FALSE instead of S_OK.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 After it is created, the shader can be set to the device by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gssetshader">ID3D11DeviceContext::GSSetShader</a>.
 
@@ -168,17 +152,7 @@ pd3dDevice->CreateGeometryShader( pGeometryShaderBuffer->GetBufferPointer(),
           
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
- 
-
- 
 

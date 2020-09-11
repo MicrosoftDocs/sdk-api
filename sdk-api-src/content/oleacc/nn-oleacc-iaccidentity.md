@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 59fde1a5-42bd-40e0-8143-edd082b2b166
 ms.date: 12/05/2018
 ms.keywords: IAccIdentity, IAccIdentity interface [Windows Accessibility], IAccIdentity interface [Windows Accessibility],described, msaa.iaccidentity, oleacc/IAccIdentity, winauto.iaccidentity
-f1_keywords:
-- oleacc/IAccIdentity
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oleacc.h
-api_name:
-- IAccIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccIdentity
+ - oleacc/IAccIdentity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oleacc.h
+api_name:
+ - IAccIdentity
 ---
 
 # IAccIdentity interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that provides a unique identifier for an accessible element.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Retrieves a unique identifier for a user interface element.<a href="https://docs
 
 </td>
 </tr>
-</table> 
+</table>
 

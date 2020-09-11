@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\faxint_ifaxaccountoutgoingarchive.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountOutgoingArchive, IFaxAccountOutgoingArchive interface [Fax Service], IFaxAccountOutgoingArchive interface [Fax Service],described, _mfax_faxaccountoutgoingarchive_cpp, fax._mfax_faxaccountoutgoingarchive_cpp, faxcomex/IFaxAccountOutgoingArchive
-f1_keywords:
-- faxcomex/IFaxAccountOutgoingArchive
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxAccountOutgoingArchive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxAccountOutgoingArchive
+ - faxcomex/IFaxAccountOutgoingArchive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxAccountOutgoingArchive
 ---
 
 # IFaxAccountOutgoingArchive interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by a fax client application to access a specified fax account's archive of successfully sent outbound fax messages. Use this interface to retrieve messages and get the size of the archive.
 
 A default implementation of <b>IFaxAccountOutgoingArchive</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive">FaxAccountOutgoingArchive</a> object.
-
 
 ## -inheritance
 
@@ -138,20 +137,13 @@ Specifies the low-order 32-bit value of the size (in bytes) of the archive of ou
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive">FaxAccountOutgoingArchive</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

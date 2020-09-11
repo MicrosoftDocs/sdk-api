@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0
 ms.date: 12/05/2018
 ms.keywords: AbortSystemShutdown, AbortSystemShutdown function, AbortSystemShutdownA, AbortSystemShutdownW, _win32_abortsystemshutdown, base.abortsystemshutdown, winreg/AbortSystemShutdown, winreg/AbortSystemShutdownA, winreg/AbortSystemShutdownW
-f1_keywords:
-- winreg/AbortSystemShutdown
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-shutdown-l1-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-shutdown-l1-1-1.dll
-- API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
-- Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
-- API-MS-Win-Core-Shutdown-Ansi-L1-1-0.dll
-api_name:
-- AbortSystemShutdown
-- AbortSystemShutdownA
-- AbortSystemShutdownW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AbortSystemShutdownA
+ - winreg/AbortSystemShutdownA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-shutdown-l1-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-shutdown-l1-1-1.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
+ - Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
+ - API-MS-Win-Core-Shutdown-Ansi-L1-1-0.dll
+api_name:
+ - AbortSystemShutdown
+ - AbortSystemShutdownA
+ - AbortSystemShutdownW
 ---
 
 # AbortSystemShutdownA function
@@ -57,35 +58,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stops a system shutdown that has been initiated.
 
-
 ## -parameters
-
-
-
 
 ### -param lpMachineName [in, optional]
 
 The network name of the computer where the shutdown is to be stopped. If <i>lpMachineName</i> is <b>NULL</b> or an empty string, the function stops the shutdown on the local computer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdowna">InitiateSystemShutdown</a> and 
@@ -116,9 +104,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdowna">InitiateSystemShutdown</a>
 
 
@@ -129,7 +114,4 @@ For an example, see
 
 <a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown
     Functions</a>
- 
-
- 
 

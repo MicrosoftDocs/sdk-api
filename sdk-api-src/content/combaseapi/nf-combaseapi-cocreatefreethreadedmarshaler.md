@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: f97a2a39-7291-4a1d-b770-0a34f7f5b60f
 ms.date: 12/05/2018
 ms.keywords: CoCreateFreeThreadedMarshaler, CoCreateFreeThreadedMarshaler function [COM], _com_CoCreateFreeThreadedMarshaler, com.cocreatefreethreadedmarshaler, combaseapi/CoCreateFreeThreadedMarshaler
-f1_keywords:
-- combaseapi/CoCreateFreeThreadedMarshaler
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoCreateFreeThreadedMarshaler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoCreateFreeThreadedMarshaler
+ - combaseapi/CoCreateFreeThreadedMarshaler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoCreateFreeThreadedMarshaler
 ---
 
 # CoCreateFreeThreadedMarshaler function
@@ -54,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an aggregatable object capable of context-dependent marshaling.
 
-
 ## -parameters
-
-
-
 
 ### -param punkOuter [in]
 
 A pointer to the aggregating object's controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>.
 
-
 ### -param ppunkMarshal [out]
 
 Address of the pointer variable that receives the interface pointer to the aggregatable marshaler.
 
-
 ## -returns
-
-
 
 This function can return the standard return value E_OUTOFMEMORY, as well as the following value.
 
@@ -96,14 +88,8 @@ The marshaler was created.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CoCreateFreeThreadedMarshaler</b> function enables an object to efficiently marshal interface pointers between threads in the same process. If your objects do not support interthread marshaling, you have no need to call this function. It is intended for use by free-threaded DLL servers that must be accessed directly by all threads in a process, even those threads associated with single-threaded apartments. It custom-marshals the real memory pointer over into other apartments as a bogus "proxy" and thereby gives direct access to all callers, even if they are not free-threaded.
 
@@ -138,19 +124,11 @@ Great care should be exercised in using the <b>CoCreateFreeThreadedMarshaler</b>
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream">CoGetInterfaceAndReleaseStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream">CoMarshalInterThreadInterfaceInStream</a>
- 
-
- 
 

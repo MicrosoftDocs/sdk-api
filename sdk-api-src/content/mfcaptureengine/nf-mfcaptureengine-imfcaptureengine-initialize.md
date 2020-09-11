@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 23EC8B49-2F67-4FB8-AFFA-409823ACCF59
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],Initialize method, IMFCaptureEngine.Initialize, IMFCaptureEngine::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_initialize, mfcaptureengine/IMFCaptureEngine::Initialize
-f1_keywords:
-- mfcaptureengine/IMFCaptureEngine.Initialize
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureEngine.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureEngine::Initialize
+ - mfcaptureengine/IMFCaptureEngine::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureEngine.Initialize
 ---
 
 # IMFCaptureEngine::Initialize
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the capture engine.
 
-
 ## -parameters
-
-
-
 
 ### -param pEventCallback [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineoneventcallback">IMFCaptureEngineOnEventCallback</a> interface. The caller must implement this interface. The capture engine uses this interface to send asynchronous events to the caller.
-
 
 ### -param pAttributes [in, optional]
 
@@ -121,7 +116,6 @@ Otherwise, if <i>pAudioSource</i> is <b>NULL</b>, the capture engine selects the
 
 To override the default audio device, set <i>pAudioSource</i> to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer for the device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/audio-video-capture-in-media-foundation">Audio/Video Capture in Media Foundation</a>.
 
-
 ### -param pVideoSource [in, optional]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that specifies a video-capture device. This parameter can be <b>NULL</b>.
@@ -132,10 +126,7 @@ Otherwise, if <i>pVideoSource</i> is <b>NULL</b>, the capture engine enumerates 
 
 To override the default video device, set <i>pVideoSource</i> to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer for the device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/enumerating-video-capture-devices">Enumerating Video Capture Devices</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -189,29 +180,14 @@ An unsupported capture device is present on the system. This error will only be 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must call this method once before using the capture engine. Calling the method a second time returns <b>MF_E_INVALIDREQUEST</b>.
 
 This method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_ENGINE_INITIALIZED</b> event through the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">IMFCaptureEngineOnEventCallback::OnEvent</a> method. The operation can fail asynchronously after the method succeeds. If so, the error code is conveyed through the <b>OnEvent</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
- 
-
- 
 

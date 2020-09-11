@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9c533327-e4a0-4852-828c-622d190b7d1e
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_SOURCE, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Security], TOKEN_SOURCE, TOKEN_SOURCE structure [Security], _TOKEN_SOURCE, _win32_token_source_str, security.token_source, winnt/PTOKEN_SOURCE, winnt/TOKEN_SOURCE'
-f1_keywords:
-- winnt/TOKEN_SOURCE
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TOKEN_SOURCE
 targetos: Windows
 req.typenames: TOKEN_SOURCE, *PTOKEN_SOURCE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TOKEN_SOURCE
+ - winnt/_TOKEN_SOURCE
+ - PTOKEN_SOURCE
+ - winnt/PTOKEN_SOURCE
+ - TOKEN_SOURCE
+ - winnt/TOKEN_SOURCE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TOKEN_SOURCE
 ---
 
 # TOKEN_SOURCE structure
@@ -49,29 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TOKEN_SOURCE</b> structure identifies the source of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SourceName
 
 Specifies an 8-byte character string used to identify the source of an access token. This is used to distinguish between such sources as Session Manager, LAN Manager, and RPC Server. A string, rather than a constant, is used to identify the source so users and developers can make extensions to the system, such as by adding other networks, that act as the source of access tokens.
 
-
 ### -field SourceIdentifier
 
 Specifies a locally unique identifier (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LUID</a>) provided by the source component named by the <b>SourceName</b> member. This value aids the source component in relating context blocks, such as session-control structures, to the token. This value is typically, but not necessarily, an LUID.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
 
@@ -118,7 +113,4 @@ Specifies a locally unique identifier (<a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
- 
-
- 
 

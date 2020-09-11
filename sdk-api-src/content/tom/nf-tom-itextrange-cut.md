@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\cut.htm
 ms.date: 12/05/2018
 ms.keywords: Cut, Cut method [Windows Controls], Cut method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Cut method, ITextRange.Cut, ITextRange::Cut, _win32_ITextRange_Cut, _win32_ITextRange_Cut_cpp, controls.ITextRange_Cut, controls._win32_ITextRange_Cut, tom/ITextRange::Cut
-f1_keywords:
-- tom/ITextRange.Cut
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.Cut
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::Cut
+ - tom/ITextRange::Cut
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.Cut
 ---
 
 # ITextRange::Cut
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cuts the plain or rich text to a data object or to the Clipboard, depending on the 
-			<i>pVar</i> parameter. 
-
+			<i>pVar</i> parameter.
 
 ## -parameters
-
-
-
 
 ### -param pVar
 
@@ -73,12 +69,9 @@ The cut text.
 <li>pVar is not null </li>
 <li>pVar-&gt;ppunkVal is not null </li>
 </ul>
-Otherwise, the clipboard is used. 
-
+Otherwise, the clipboard is used.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -113,15 +106,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -136,7 +122,4 @@ Out of memory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

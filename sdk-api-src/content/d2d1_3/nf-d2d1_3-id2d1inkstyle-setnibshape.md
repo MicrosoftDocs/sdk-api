@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 460A037D-5315-4CAE-AB6B-5286B48551F1
 ms.date: 12/05/2018
 ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibShape method, ID2D1InkStyle.SetNibShape, ID2D1InkStyle::SetNibShape, SetNibShape, SetNibShape method [Direct2D], SetNibShape method [Direct2D],ID2D1InkStyle interface, d2d1_3/ID2D1InkStyle::SetNibShape, direct2d.id2d1inkstyle_setnibshape
-f1_keywords:
-- d2d1_3/ID2D1InkStyle.SetNibShape
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1_3.dll
-api_name:
-- ID2D1InkStyle.SetNibShape
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1InkStyle::SetNibShape
+ - d2d1_3/ID2D1InkStyle::SetNibShape
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1_3.dll
+api_name:
+ - ID2D1InkStyle.SetNibShape
 ---
 
 # ID2D1InkStyle::SetNibShape
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the pre-transform nib shape for this style.
 
-
 ## -parameters
-
-
-
 
 ### -param nibShape
 
@@ -64,14 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_
 
 The pre-transform nib shape to use in this style.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a>
- 
-
- 
 

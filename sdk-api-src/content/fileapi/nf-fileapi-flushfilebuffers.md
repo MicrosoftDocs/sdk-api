@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushFileBuffers, FlushFileBuffers function [Files], _win32_flushfilebuffers, base.flushfilebuffers, fileapi/FlushFileBuffers, fs.flushfilebuffers, winbase/FlushFileBuffers
 ms.topic: function
-f1_keywords: 
- - "fileapi/FlushFileBuffers"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - FlushFileBuffers
+ - fileapi/FlushFileBuffers
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,11 +51,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - FlushFileBuffers
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # FlushFileBuffers function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Flushes the buffers of a specified file and causes all buffered data to be written to a file.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -77,10 +73,7 @@ If <i>hFile</i> is a handle to a communications device, the function only flushe
 
 If <i>hFile</i> is a handle to the server end of a named pipe, the function does not return until the client has read all buffered data from the pipe.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -89,12 +82,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The function fails if <i>hFile</i> is a handle to the console output. That is because the console output is not buffered. The function returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Typically the 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> and 
@@ -178,12 +166,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -198,7 +181,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

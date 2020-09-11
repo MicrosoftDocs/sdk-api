@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f746a4d4-8649-43a1-ac9b-773402dfb6c7
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], IUserNotificationCallback interface [Windows Shell],described, _shell_IUserNotificationCallback, shell.IUserNotificationCallback, shobjidl/IUserNotificationCallback
-f1_keywords:
-- shobjidl/IUserNotificationCallback
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IUserNotificationCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserNotificationCallback
+ - shobjidl/IUserNotificationCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IUserNotificationCallback
 ---
 
 # IUserNotificationCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iusernotification2-show">IUserNotification2::Show</a>.
-
 
 ## -inheritance
 
@@ -97,5 +96,5 @@ Called when the user clicks the icon in the notification area. The applications 
 
 </td>
 </tr>
-</table> 
+</table>
 

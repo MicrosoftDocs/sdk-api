@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 137abd1b-997d-4003-9fef-8db56b273149
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], IEnumDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IEnumDot11AdHocSecuritySettings, nwifi.ienumdot11adhocsecuritysettings
-f1_keywords:
-- adhoc/IEnumDot11AdHocSecuritySettings
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IEnumDot11AdHocSecuritySettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDot11AdHocSecuritySettings
+ - adhoc/IEnumDot11AdHocSecuritySettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IEnumDot11AdHocSecuritySettings
 ---
 
 # IEnumDot11AdHocSecuritySettings interface
 
 
 ## -description
-
 
 This interface represents the collection of security settings associated with each visible wireless ad hoc network.  It is a standard enumerator.
 <div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>
@@ -104,5 +104,5 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

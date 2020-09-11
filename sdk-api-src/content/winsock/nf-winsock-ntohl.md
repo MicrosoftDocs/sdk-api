@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 04673bef-22c6-424f-a5ae-689fb648b54e
 ms.date: 12/05/2018
 ms.keywords: _win32_ntohl_2, ntohl, ntohl function [Winsock], winsock.ntohl_2, winsock/ntohl
-f1_keywords:
-- winsock/ntohl
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- ntohl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ntohl
+ - winsock/ntohl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - ntohl
 ---
 
 # ntohl function
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ntohl</b> function converts a <b>u_long</b> from TCP/IP network order to host byte order (which is little-endian on Intel processors).
 
-
 ## -parameters
-
-
-
 
 ### -param netlong [in]
 
 A 32-bit number in TCP/IP network byte order.
 
-
 ## -returns
-
-
 
 The 
 <b>ntohl</b> function returns the value supplied in the <i>netlong</i> parameter with the byte order reversed. If  <i>netlong</i> is already in host byte order, then this function will reverse it. It is up to the application to determine if the byte order must be reversed.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>ntohl</b> function takes a 32-bit number in TCP/IP network byte order (the AF_INET or AF_INET6 address family) and returns a 32-bit number in host byte order. 
@@ -89,13 +77,7 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
@@ -158,7 +140,4 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
- 
-
- 
 

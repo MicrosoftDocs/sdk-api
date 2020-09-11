@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\frhookproc.htm
 ms.date: 12/05/2018
 ms.keywords: FRHookProc, LPFRHOOKPROC, LPFRHOOKPROC callback, LPFRHOOKPROC callback function [Dialog Boxes], _win32_FRHookProc, _win32_frhookproc_cpp, commdlg/LPFRHOOKPROC, dlgbox.frhookproc, winui._win32_frhookproc
-f1_keywords:
-- commdlg/LPFRHOOKPROC
-dev_langs:
-- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Commdlg.h
-api_name:
-- LPFRHOOKPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPFRHOOKPROC
+ - commdlg/LPFRHOOKPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Commdlg.h
+api_name:
+ - LPFRHOOKPROC
 ---
 
 ## -description
@@ -127,7 +128,4 @@ You can subclass the standard controls of a common dialog box. However, the dial
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
- 
-
- 
 

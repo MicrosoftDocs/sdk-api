@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 90322fbc-e3de-4801-b10b-63ce538fc83f
 ms.date: 12/05/2018
 ms.keywords: 90322fbc-e3de-4801-b10b-63ce538fc83f, CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],CloneFrom method, IMFTopologyNode.CloneFrom, IMFTopologyNode::CloneFrom, mf.imftopologynode_clonefrom, mfidl/IMFTopologyNode::CloneFrom
-f1_keywords:
-- mfidl/IMFTopologyNode.CloneFrom
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopologyNode.CloneFrom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyNode::CloneFrom
+ - mfidl/IMFTopologyNode::CloneFrom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopologyNode.CloneFrom
 ---
 
 # IMFTopologyNode::CloneFrom
@@ -50,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies the data from another topology node into this node.
 
-
 ## -parameters
-
-
-
 
 ### -param pNode [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node to copy.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,14 +93,8 @@ The node types do not match.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The two nodes must have the same node type. To get the node type, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getnodetype">IMFTopologyNode::GetNodeType</a>.
       
@@ -117,22 +103,12 @@ This method copies the object pointer, preferred types, and attributes from <i>p
       
 
 The purpose of this method is to copy nodes from one topology to another. Do not use duplicate nodes within the same topology.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b64884ad-15c7-495e-8037-34daf68f8cf7
 ms.date: 12/05/2018
 ms.keywords: PathCchAppend, PathCchAppend function [Windows Shell], pathcch/PathCchAppend, shell.PathCchAppend
-f1_keywords:
-- pathcch/PathCchAppend
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchAppend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchAppend
+ - pathcch/PathCchAppend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchAppend
 ---
 
 # PathCchAppend function
@@ -59,23 +60,19 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 <div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathappenda">PathAppend</a> to prevent the possibility of a buffer overrun.</div>
 
-
 ## -parameters
 
 ### -param pszPath [in, out]
 
 A pointer to a buffer that, on entry, contains the original path. When this function returns successfully, the buffer contains the original path plus the appended path.
 
-
 ### -param cchPath [in]
 
 The size of the buffer pointed to by <i>pszPath</i>, in characters.
 
-
 ### -param pszMore [in, optional]
 
 A pointer to the path to append to the end of the path pointed to by <i>pszPath</i>. UNC paths and paths beginning with the "\\?\" sequence are accepted and recognized as fully-qualified paths. These paths replace the string pointed to by <i>pszPath</i> instead of being appended to it.
-
 
 ## -returns
 
@@ -117,12 +114,10 @@ The function could not allocate a buffer of the neccessary size.
 </td>
 </tr>
 </table>
- 
 
 ## -remarks
 
 This function inserts a backslash between the two strings, if one is not already present.
-
 
 ## -see-also
 

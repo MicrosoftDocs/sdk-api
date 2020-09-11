@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 5026F106-F5AA-4D03-BEFE-F1E8E880EF44
 ms.date: 12/05/2018
 ms.keywords: D2D1_POINTSPECULAR_PROP, D2D1_POINTSPECULAR_PROP enumeration [Direct2D], D2D1_POINTSPECULAR_PROP_COLOR, D2D1_POINTSPECULAR_PROP_KERNEL_UNIT_LENGTH, D2D1_POINTSPECULAR_PROP_LIGHT_POSITION, D2D1_POINTSPECULAR_PROP_SCALE_MODE, D2D1_POINTSPECULAR_PROP_SPECULAR_CONSTANT, D2D1_POINTSPECULAR_PROP_SPECULAR_EXPONENT, D2D1_POINTSPECULAR_PROP_SURFACE_SCALE, d2d1effects/D2D1_POINTSPECULAR_PROP, d2d1effects/D2D1_POINTSPECULAR_PROP_COLOR, d2d1effects/D2D1_POINTSPECULAR_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_POINTSPECULAR_PROP_LIGHT_POSITION, d2d1effects/D2D1_POINTSPECULAR_PROP_SCALE_MODE, d2d1effects/D2D1_POINTSPECULAR_PROP_SPECULAR_CONSTANT, d2d1effects/D2D1_POINTSPECULAR_PROP_SPECULAR_EXPONENT, d2d1effects/D2D1_POINTSPECULAR_PROP_SURFACE_SCALE, direct2d.d2d1_pointspecular_prop
-f1_keywords:
-- d2d1effects/D2D1_POINTSPECULAR_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_POINTSPECULAR_PROP
 targetos: Windows
 req.typenames: D2D1_POINTSPECULAR_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_POINTSPECULAR_PROP
+ - d2d1effects/D2D1_POINTSPECULAR_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_POINTSPECULAR_PROP
 ---
 
 # D2D1_POINTSPECULAR_PROP enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/point-specular">Point-specular lighting effect</a>.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_POINTSPECULAR_PROP_LIGHT_POSITION
 
@@ -68,7 +63,6 @@ The type is D2D1_VECTOR_3F.
 
 The default value is {0.0f, 0.0f, 0.0f}.
 
-
 ### -field D2D1_POINTSPECULAR_PROP_SPECULAR_EXPONENT
 
 The exponent for the specular term in the Phong lighting equation. A larger value corresponds to a more reflective surface. This value is unitless and must be between 1.0 and 128.
@@ -77,7 +71,6 @@ The exponent for the specular term in the Phong lighting equation. A larger valu
 The type is FLOAT.
 
 The default value is 1.0f.
-
 
 ### -field D2D1_POINTSPECULAR_PROP_SPECULAR_CONSTANT
 
@@ -88,7 +81,6 @@ The type is FLOAT.
 
 The default value is 1.0f.
 
-
 ### -field D2D1_POINTSPECULAR_PROP_SURFACE_SCALE
 
 The scale factor in the Z direction for generating a height map. The value is unitless and must be between 0 and 10,000.
@@ -98,7 +90,6 @@ The type is FLOAT.
 
 The default value is 1.0f.
 
-
 ### -field D2D1_POINTSPECULAR_PROP_COLOR
 
 The color of the incoming light. This property is exposed as a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a> – (R, G, B) and used to compute LR, LG, LB.
@@ -107,7 +98,6 @@ The color of the incoming light. This property is exposed as a <a href="https://
 The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a>.
 
 The default value is {1.0f, 1.0f, 1.0f}.
-
 
 ### -field D2D1_POINTSPECULAR_PROP_KERNEL_UNIT_LENGTH
 
@@ -120,7 +110,6 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-d
 
 The default value is {1.0f, 1.0f}.
 
-
 ### -field D2D1_POINTSPECULAR_PROP_SCALE_MODE
 
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
@@ -130,8 +119,5 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/
 
 The default value is D2D1_POINTSPECULAR_SCALE_MODE_LINEAR.
 
-
 ### -field D2D1_POINTSPECULAR_PROP_FORCE_DWORD
-
-
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 89e4e19b-47be-442e-8eb4-c867bb78f36a
 ms.date: 12/05/2018
 ms.keywords: GetNearestColor, GetNearestColor function [Windows GDI], _win32_GetNearestColor, gdi.getnearestcolor, wingdi/GetNearestColor
-f1_keywords:
-- wingdi/GetNearestColor
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetNearestColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNearestColor
+ - wingdi/GetNearestColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetNearestColor
 ---
 
 # GetNearestColor function
@@ -51,40 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNearestColor</b> function retrieves a color value identifying a color from the system palette that will be displayed when the specified color value is used.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param color [in]
 
 A color value that identifies a requested color. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value identifies a color from the system palette that corresponds to the given color value.
 
 If the function fails, the return value is CLR_INVALID.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
@@ -107,7 +93,4 @@ If the function fails, the return value is CLR_INVALID.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
- 
-
- 
 

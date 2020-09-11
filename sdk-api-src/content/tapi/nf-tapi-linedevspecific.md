@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 28f43b21-5118-465f-95b3-036aab16a049
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linedevspecific, lineDevSpecific, lineDevSpecific function [TAPI 2.2], tapi/lineDevSpecific, tapi2.linedevspecific
-f1_keywords:
-- tapi/lineDevSpecific
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineDevSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineDevSpecific
+ - tapi/lineDevSpecific
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineDevSpecific
 ---
 
 # lineDevSpecific function
@@ -49,44 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineDevSpecific</b> function enables service providers to provide access to features not offered by other TAPI functions. The meaning of the extensions are device specific, and taking advantage of these extensions requires the application to be fully aware of them.
 
-
 ## -parameters
-
-
-
 
 ### -param hLine
 
 Handle to a line device. This parameter is required.
 
-
 ### -param dwAddressID
 
 Address identifier on the given line device. An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
-
 
 ### -param hCall
 
 Handle to a call. This parameter is optional, but if it is specified, the call it represents must belong to the <i>hLine</i> line device. The call state of <i>hCall</i> is device specific.
 
-
 ### -param lpParams
 
 Pointer to a memory area used to hold a parameter block. The format of this parameter block is device specific and its contents are passed by TAPI to or from the service provider.
-
 
 ### -param dwSize
 
 Size of the parameter block area, in bytes.
 
-
 ## -returns
-
-
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds, or it is a negative error number if an error occurs. Possible return values are:
@@ -95,12 +84,7 @@ LINEERR_INVALADDRESSID, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLHANDLE, LINEE
 
 Additional return values are device specific.
 
-
-
-
 ## -remarks
-
-
 
 This operation is part of the Extended Telephony services. It provides access to a device-specific feature without defining its meaning. This operation is only available if the application has successfully negotiated a device-specific extension version.
 
@@ -112,12 +96,7 @@ A service provider can provide access to device-specific functions by defining p
 <div class="alert"><b>Caution</b>  TAPI will write the returned data to the buffer referenced by lParam when the LINE_REPLY message is returned. This means that the buffer must remain valid until the LINE_REPLY message is returned; otherwise, data corruption and exceptions may occur.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/extended-telephony-services-reference">Extended Telephony Services Reference</a>
 
@@ -132,7 +111,4 @@ A service provider can provide access to device-specific functions by defining p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
- 
-
- 
 

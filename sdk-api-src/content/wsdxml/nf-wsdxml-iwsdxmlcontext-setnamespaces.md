@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 94ec94d1-e0d8-42cb-993f-6da9c8df1a47
 ms.date: 12/05/2018
 ms.keywords: IWSDXMLContext interface,SetNamespaces method, IWSDXMLContext.SetNamespaces, IWSDXMLContext::SetNamespaces, SetNamespaces, SetNamespaces method, SetNamespaces method,IWSDXMLContext interface, ncd.iwsdxmlcontext_setnamespaces_method, wsdxml/IWSDXMLContext::SetNamespaces
-f1_keywords:
-- wsdxml/IWSDXMLContext.SetNamespaces
-dev_langs:
-- c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDXMLContext.SetNamespaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDXMLContext::SetNamespaces
+ - wsdxml/IWSDXMLContext::SetNamespaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDXMLContext.SetNamespaces
 ---
 
 # IWSDXMLContext::SetNamespaces
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates custom namespaces with the XML context object. 
 
 This method should only be called by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>, and should not be called directly by a WSDAPI client. Instead, the code generator will provide wrappers that access this method properly.
 
-
 ## -parameters
-
-
-
 
 ### -param pNamespaces [in]
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structures.
 
-
 ### -param wNamespacesCount [in]
 
 The number of namespaces in the <i>pNamespaces</i> array.
-
 
 ### -param bLayerNumber [in]
 
 The layer number associated with the <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated service code</a>.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -131,18 +122,8 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 816B0281-EC69-4EA1-AE32-6B3E178117DE
 ms.date: 08/26/2019
 ms.keywords: D3D12_RAYTRACING_INSTANCE_DESC, D3D12_RAYTRACING_INSTANCE_DESC structure, PD3D12_RAYTRACING_INSTANCE_DESC, PD3D12_RAYTRACING_INSTANCE_DESC structure pointer, d3d12/D3D12_RAYTRACING_INSTANCE_DESC, d3d12/PD3D12_RAYTRACING_INSTANCE_DESC, direct3d12.d3d12_raytracing_instance_desc
-f1_keywords:
-- d3d12/D3D12_RAYTRACING_INSTANCE_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_RAYTRACING_INSTANCE_DESC
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_INSTANCE_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RAYTRACING_INSTANCE_DESC
+ - d3d12/D3D12_RAYTRACING_INSTANCE_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_RAYTRACING_INSTANCE_DESC
 ---
 
 # D3D12_RAYTRACING_INSTANCE_DESC structure
+
 
 ## -description
 
@@ -77,7 +79,7 @@ An 8-bit mask assigned to the instance, which can be used to include/reject grou
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types) : 24**
 
-An arbitrary 24-bit value representing per-instance contribution to add into shader table indexing to select the hit group to use.  
+An arbitrary 24-bit value representing per-instance contribution to add into shader table indexing to select the hit group to use.
 
 ### -field Flags
 
@@ -91,8 +93,9 @@ Type: **[D3D12_GPU_VIRTUAL_ADDRESS](/windows/win32/direct3d12/d3d12_gpu_virtual_
 
 Address of the bottom-level acceleration structure that is being instanced. The address must be aligned to 256 bytes, defined as [D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT](/windows/win32/direct3d12/constants). Any existing acceleration structure passed in here would already have been required to be placed with such alignment.
 
-The memory pointed to must be in state [D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states). 
+The memory pointed to must be in state [D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
 
 ## -remarks
 
 This C++ struct definition is useful if you're generating instance data on the CPU first, then uploading to the GPU. But your application is also free to generate instance descriptions directly into GPU memory (from compute shaders, for instance) following the same layout.
+

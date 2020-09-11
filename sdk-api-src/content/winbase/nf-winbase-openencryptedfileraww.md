@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f792f38d-783e-4f39-a9d8-0c378d508d97
 ms.date: 12/05/2018
 ms.keywords: CREATE_FOR_DIR, CREATE_FOR_IMPORT, OVERWRITE_HIDDEN, OpenEncryptedFileRaw, OpenEncryptedFileRaw function [Files], OpenEncryptedFileRawA, OpenEncryptedFileRawW, base.openencryptedfileraw, fs.openencryptedfileraw, winbase/OpenEncryptedFileRaw, winbase/OpenEncryptedFileRawA, winbase/OpenEncryptedFileRawW
-f1_keywords:
-- winbase/OpenEncryptedFileRaw
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
-api_name:
-- OpenEncryptedFileRaw
-- OpenEncryptedFileRawA
-- OpenEncryptedFileRawW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenEncryptedFileRawW
+ - winbase/OpenEncryptedFileRawW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+api_name:
+ - OpenEncryptedFileRaw
+ - OpenEncryptedFileRawA
+ - OpenEncryptedFileRawW
 ---
 
 # OpenEncryptedFileRawW function
@@ -53,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an encrypted file in order to backup (export) or restore (import)
 the file.  This is one of a group of Encrypted File System (EFS) functions that is intended  to implement backup and restore functionality, while maintaining files in their encrypted state.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 The name of the file to be opened. The string must consist of characters from the Windows character set.
-
 
 ### -param ulFlags [in]
 
@@ -125,8 +120,6 @@ Overwrite a hidden file on import.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvContext [out]
 
@@ -135,10 +128,7 @@ The address of a  context
          <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>, or 
          <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.  Do not modify it.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -147,12 +137,7 @@ If the function fails, it returns a nonzero error code defined in
       <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a generic text description of
       the error.
 
-
-
-
 ## -remarks
-
-
 
 The caller must either have read or write access to the file, or it must have backup privilege <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> on the machine on which the files reside in order for the call to succeed.
 
@@ -243,9 +228,6 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
 
 
@@ -271,7 +253,4 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
- 
-
- 
 

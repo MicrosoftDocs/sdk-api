@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: DABA5955-1366-4CEE-ABDF-7CC0F3788A8E
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], IMFMuxStreamSampleManager interface [Media Foundation],described, mf.imfmuxstreamsamplemanager, mfobjects/IMFMuxStreamSampleManager
-f1_keywords:
-- mfobjects/IMFMuxStreamSampleManager
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFMuxStreamSampleManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMuxStreamSampleManager
+ - mfobjects/IMFMuxStreamSampleManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFMuxStreamSampleManager
 ---
 
 # IMFMuxStreamSampleManager interface
@@ -52,9 +53,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the ability to retrieve <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> objects for individual substreams within the output of a multiplexed media source.
-
 
 ## -inheritance
 
@@ -98,5 +97,5 @@ Gets the count of substreams managed by the multiplexed media source.
 
 </td>
 </tr>
-</table> 
+</table>
 

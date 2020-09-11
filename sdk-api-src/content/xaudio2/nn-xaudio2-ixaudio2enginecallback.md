@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback
 ms.date: 12/05/2018
 ms.keywords: IXAudio2EngineCallback, IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs], IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2enginecallback, xaudio2/IXAudio2EngineCallback
-f1_keywords:
-- xaudio2/IXAudio2EngineCallback
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Xaudio2.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.lib
-- xaudio2.dll
-api_name:
-- IXAudio2EngineCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2EngineCallback
+ - xaudio2/IXAudio2EngineCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.lib
+ - xaudio2.dll
+api_name:
+ - IXAudio2EngineCallback
 ---
 
 # IXAudio2EngineCallback interface
 
 
 ## -description
-
 
 The IXAudio2EngineCallback interface contains methods that notify the client when certain events happen in the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> engine.
 
@@ -92,8 +92,7 @@ Called by XAudio2 just before an audio processing pass begins.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -members
 
@@ -140,28 +139,16 @@ Called by XAudio2 just before an audio processing pass begins.
 
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>
- 
-
- 
 

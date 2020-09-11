@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txenablescrollbar.htm
 ms.date: 12/05/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, ITextHost interface [Windows Controls],TxEnableScrollBar method, ITextHost.TxEnableScrollBar, ITextHost::TxEnableScrollBar, SB_BOTH, SB_HORZ, SB_VERT, TxEnableScrollBar, TxEnableScrollBar method [Windows Controls], TxEnableScrollBar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxEnableScrollBar, _win32_ITextHost_TxEnableScrollBar_cpp, controls.ITextHost_TxEnableScrollBar, controls._win32_ITextHost_TxEnableScrollBar, textserv/ITextHost::TxEnableScrollBar
-f1_keywords:
-- textserv/ITextHost.TxEnableScrollBar
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxEnableScrollBar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxEnableScrollBar
+ - textserv/ITextHost::TxEnableScrollBar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxEnableScrollBar
 ---
 
 # ITextHost::TxEnableScrollBar
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables one or both scroll bar arrows in the text host window.
 
-
 ## -parameters
-
-
-
 
 ### -param fuSBFlags [in]
 
@@ -100,8 +96,6 @@ Affects the vertical scroll bar.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fuArrowflags [in]
 
@@ -195,12 +189,8 @@ Enables both arrows on a scroll bar.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
@@ -208,29 +198,15 @@ Return nonzero if the arrows are enabled or disabled as specified.
 
 Return zero if the arrows are already in the requested state or an error occurs.
 
-
-
-
 ## -remarks
-
-
 
 This method is only valid when the control is in-place active; calls while the control is inactive may fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
- 
-
- 
 

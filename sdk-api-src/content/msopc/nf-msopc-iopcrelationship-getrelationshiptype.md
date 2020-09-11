@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: da832c8e-99e1-452a-90eb-97580f00f003
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipType, GetRelationshipType method [Open Packaging Conventions], GetRelationshipType method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetRelationshipType method, IOpcRelationship.GetRelationshipType, IOpcRelationship::GetRelationshipType, msopc/IOpcRelationship::GetRelationshipType, opc.iopcrelationship_getrelationshiptype
-f1_keywords:
-- msopc/IOpcRelationship.GetRelationshipType
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationship.GetRelationshipType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationship::GetRelationshipType
+ - msopc/IOpcRelationship::GetRelationshipType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationship.GetRelationshipType
 ---
 
 # IOpcRelationship::GetRelationshipType
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the relationship type.
 
-
 ## -parameters
-
-
-
 
 ### -param relationshipType [out, retval]
 
@@ -64,10 +60,7 @@ Receives the relationship type, which is the qualified name of the relationship,
 
 For more information about relationship types see Remarks.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,14 +92,8 @@ The <i>relationshipType</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method allocates memory used by the string returned in <i>relationshipType</i>.  If the method succeeds, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory.
 
@@ -123,13 +110,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -176,7 +157,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
- 
-
- 
 

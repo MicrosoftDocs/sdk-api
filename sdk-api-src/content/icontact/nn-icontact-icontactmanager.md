@@ -8,10 +8,6 @@ tech.root: wincontacts
 ms.assetid: d0102659-488c-45db-931b-345013e21eed
 ms.date: 12/05/2018
 ms.keywords: IContactManager, IContactManager interface [Windows Contacts], IContactManager interface [Windows Contacts],described, _wincontacts_IContactManager, icontact/IContactManager, wincontacts._wincontacts_IContactManager
-f1_keywords:
-- icontact/IContactManager
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactManager
+ - icontact/IContactManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactManager
 ---
 
 # IContactManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Do not use. Used for retrieving a contact, based on a contact ID string. 
-
+Do not use. Used for retrieving a contact, based on a contact ID string.
 
 ## -inheritance
 
@@ -126,5 +125,5 @@ Sets the local user account concept of 'me' to specified user.
 
 </td>
 </tr>
-</table> 
+</table>
 

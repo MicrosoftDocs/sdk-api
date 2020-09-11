@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 450e65f9-cca0-42bd-b70b-baaf2e353812
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAuthorityKeyIdentifier interface [Security],InitializeEncode method, IX509ExtensionAuthorityKeyIdentifier.InitializeEncode, IX509ExtensionAuthorityKeyIdentifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionAuthorityKeyIdentifier interface, certenroll/IX509ExtensionAuthorityKeyIdentifier::InitializeEncode, security.ix509extensionauthoritykeyidentifier_initializeencode_method
-f1_keywords:
-- certenroll/IX509ExtensionAuthorityKeyIdentifier.InitializeEncode
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionAuthorityKeyIdentifier.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionAuthorityKeyIdentifier::InitializeEncode
+ - certenroll/IX509ExtensionAuthorityKeyIdentifier::InitializeEncode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionAuthorityKeyIdentifier.InitializeEncode
 ---
 
 # IX509ExtensionAuthorityKeyIdentifier::InitializeEncode
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeEncode</b> method initializes the extension from a byte array. The byte array is represented by a Unicode-encoded string.
 
-
 ## -parameters
-
-
-
 
 ### -param Encoding [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to the <i>strKeyIdentifier</i> value.
 
-
 ### -param strKeyIdentifier [in]
 
 A <b>BSTR</b> variable that contains the extension value.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -94,14 +86,8 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Typically, the input value should be a SHA-1 hash of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> contained in the signing certificate. The method associates the value with the XCN_OID_AUTHORITY_KEY_IDENTIFIER2 (2.5.29.35) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and encodes it by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER).
 
@@ -113,17 +99,7 @@ You must call either <b>InitializeEncode</b> or <a href="https://docs.microsoft.
 <li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionauthoritykeyidentifier-get_authoritykeyidentifier">AuthorityKeyIdentifier</a> property retrieves the raw data.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionauthoritykeyidentifier">IX509ExtensionAuthorityKeyIdentifier</a>
- 
-
- 
 

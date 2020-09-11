@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verinstallfile.htm
 ms.date: 12/05/2018
 ms.keywords: VIFF_DONTDELETEOLD, VIFF_FORCEINSTALL, VerInstallFile, VerInstallFile function [Menus and Other Resources], VerInstallFileA, VerInstallFileW, _win32_VerInstallFile, _win32_verinstallfile_cpp, menurc.verinstallfile, winui._win32_verinstallfile, winver/VerInstallFile, winver/VerInstallFileA, winver/VerInstallFileW
-f1_keywords:
-- winver/VerInstallFile
-dev_langs:
-- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-core-version-l1-1-0.dll
-- version.dll
-api_name:
-- VerInstallFile
-- VerInstallFileA
-- VerInstallFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VerInstallFileA
+ - winver/VerInstallFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-core-version-l1-1-0.dll
+ - version.dll
+api_name:
+ - VerInstallFile
+ - VerInstallFileA
+ - VerInstallFileW
 ---
 
 # VerInstallFileA function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Installs the specified file based on information returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verfindfilea">VerFindFile</a> function. <b>VerInstallFile</b> decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files. 
-
+Installs the specified file based on information returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verfindfilea">VerFindFile</a> function. <b>VerInstallFile</b> decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files.
 
 ## -parameters
-
-
-
 
 ### -param uFlags [in]
 
@@ -95,54 +91,46 @@ Installs the file without deleting the previously installed file, if the previou
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szSrcFileName [in]
 
 Type: <b>LPCTSTR</b>
 
 The name of the file to be installed. This is the filename in the directory pointed to by the 
-					<i>szSrcDir</i> parameter; the filename can include only the filename and extension, not a path. 
-
+					<i>szSrcDir</i> parameter; the filename can include only the filename and extension, not a path.
 
 ### -param szDestFileName [in]
 
 Type: <b>LPCTSTR</b>
 
 The name <b>VerInstallFile</b> will give the new file upon installation. This file name may be different from the filename in the 
-					<i>szSrcFileName</i> directory. The new name should include only the file name and extension, not a path. 
-
+					<i>szSrcFileName</i> directory. The new name should include only the file name and extension, not a path.
 
 ### -param szSrcDir [in]
 
 Type: <b>LPCTSTR</b>
 
-The name of the directory where the file can be found. 
-
+The name of the directory where the file can be found.
 
 ### -param szDestDir [in]
 
 Type: <b>LPCTSTR</b>
 
 The name of the directory where the file should be installed. <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verfindfilea">VerFindFile</a> returns this value in its 
-					<i>szDestDir</i> parameter. 
-
+					<i>szDestDir</i> parameter.
 
 ### -param szCurDir [in]
 
 Type: <b>LPCTSTR</b>
 
 The name of the directory where a preexisting version of this file can be found. <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verfindfilea">VerFindFile</a> returns this value in its 
-					<i>szCurDir</i> parameter. 
-
+					<i>szCurDir</i> parameter.
 
 ### -param szTmpFile [out]
 
 Type: <b>LPTSTR</b>
 
-The name of a temporary copy of the source file. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required, and should be empty on input. 
-
+The name of a temporary copy of the source file. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required, and should be empty on input.
 
 ### -param puTmpFileLen [in, out]
 
@@ -156,10 +144,7 @@ When the function returns,
 					<i>szTmpFile</i>, including the terminating null character. If the buffer is too small to contain all the data, 
 					<i>lpuTmpFileLen</i> will be the size of the buffer required to hold the data.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -423,14 +408,8 @@ The preexisting file is write-protected. This error can be overridden by calling
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function works on 16-, 32-, and 64-bit file images.
 
@@ -448,9 +427,6 @@ This function works on 16-, 32-, and 64-bit file images.
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -464,7 +440,4 @@ This function works on 16-, 32-, and 64-bit file images.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
- 
-
- 
 

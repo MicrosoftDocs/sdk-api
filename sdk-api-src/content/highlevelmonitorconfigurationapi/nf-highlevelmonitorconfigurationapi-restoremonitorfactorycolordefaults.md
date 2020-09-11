@@ -8,10 +8,6 @@ tech.root: Monitor
 ms.assetid: e5676134-ae4d-4db6-86fa-dbff0dd14a25
 ms.date: 12/05/2018
 ms.keywords: RestoreMonitorFactoryColorDefaults, RestoreMonitorFactoryColorDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults, monitor.restoremonitorfactorycolordefaults
-f1_keywords:
-- highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults
-dev_langs:
-- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,55 +25,46 @@ req.type-library:
 req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- dxva2.dll
-api_name:
-- RestoreMonitorFactoryColorDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RestoreMonitorFactoryColorDefaults
+ - highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - dxva2.dll
+api_name:
+ - RestoreMonitorFactoryColorDefaults
 ---
 
 # RestoreMonitorFactoryColorDefaults function
 
 [!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-## -description
 
+## -description
 
 Restores a monitor's color settings to their factory defaults.
 
-
 ## -parameters
-
-
-
 
 ### -param hMonitor [in]
 
 Handle to a physical monitor. To get the monitor handle, call <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
-          
-
 
 ## -returns
 
-
-
 If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-          
-
-
-
 
 ## -remarks
-
-
 
 This function potentially changes the current value of the monitor's brightness, contrast, color temperature, drive, and gain. The current value of each setting is changed to its factory default. The default settings depend on the manufacturer. This function can also change the range of supported values for each of these settings. The function does not enable any monitor settings that were disabled.
       
@@ -96,19 +83,11 @@ The following settings are not affected by this function:
 <li>Capabilities flags</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults">RestoreMonitorFactoryDefaults</a>
- 
-
- 
 

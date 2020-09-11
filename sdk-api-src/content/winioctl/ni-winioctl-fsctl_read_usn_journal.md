@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_USN_JOURNAL, FSCTL_READ_USN_JOURNAL control, FSCTL_READ_USN_JOURNAL control code [Files], _win32_fsctl_read_usn_journal, base.fsctl_read_usn_journal, fs.fsctl_read_usn_journal, winioctl/FSCTL_READ_USN_JOURNAL
 ms.topic: ioctl
-f1_keywords:
-- winioctl/FSCTL_READ_USN_JOURNAL
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +27,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_READ_USN_JOURNAL
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_READ_USN_JOURNAL
+ - winioctl/FSCTL_READ_USN_JOURNAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_READ_USN_JOURNAL
 ---
 
 # FSCTL_READ_USN_JOURNAL IOCTL
 
 
 ## -description
-
 
 Retrieves  the set of update sequence number (USN) change journal records between two specified USN 
     values.
@@ -73,66 +73,31 @@ DeviceIoControl( (HANDLE)       hDevice,         // handle to volume
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -140,12 +105,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the 
     <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
@@ -227,12 +187,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journals">Change Journals</a>
 
@@ -271,7 +226,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
 

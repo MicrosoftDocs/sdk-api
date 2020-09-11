@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: b7ab22fe-ed92-4213-9b66-2dd5526286fa
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DsReplicaGetInfo, DsReplicaGetInfo function [Active Directory], DsReplicaGetInfoW, _glines_dsreplicagetinfo, ad.dsreplicagetinfo, ntdsapi/DsReplicaGetInfo, ntdsapi/DsReplicaGetInfoW
-f1_keywords:
-- ntdsapi/DsReplicaGetInfo
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsReplicaGetInfo
-- DsReplicaGetInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsReplicaGetInfoW
+ - ntdsapi/DsReplicaGetInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsReplicaGetInfo
+ - DsReplicaGetInfoW
 ---
 
 # DsReplicaGetInfoW function
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsReplicaGetInfo</b> function retrieves replication state data from the directory service.
 
-
 ## -parameters
-
-
-
 
 ### -param hDS [in]
 
 Contains a directory service handle obtained from either the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
-
 
 ### -param InfoType [in]
 
@@ -108,7 +103,6 @@ Only the following values are supported for this function. If other data types a
 
 #### DS_REPL_INFO_PENDING_OPS
 
-
 ### -param pszObject [in, optional]
 
 Pointer to a constant null-terminated Unicode string that identifies the object to retrieve replication data for. The meaning of this parameter depends on the value of the <i>InfoType</i> parameter. The following are possible value codes.
@@ -149,11 +143,9 @@ Pointer to a constant null-terminated Unicode string that identifies the object 
 
 <i>pszObject</i> must be <b>NULL</b>.
 
-
 ### -param puuidForSourceDsaObjGuid [in, optional]
 
 Pointer to a <b>GUID</b> value that identifies a specific replication source. If this parameter is not <b>NULL</b> and the <i>InfoType</i> parameter contains <b>DS_REPL_INFO_NEIGHBORS</b>, only neighbor data for the source corresponding to the nTDSDSA object with the given <b>objectGuid</b> in the directory is returned. This parameter is ignored if <b>NULL</b> or if the <i>InfoType</i> parameter is anything other than <b>DS_REPL_INFO_NEIGHBORS</b>.
-
 
 ### -param ppInfo [out]
 
@@ -161,21 +153,12 @@ Address of a structure pointer that receives the requested data. The value of th
 
 The caller must free this memory when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicafreeinfo">DsReplicaFreeInfo</a>.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error otherwise.
       The following are possible error codes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repl_info_type">DS_REPL_INFO_TYPE</a>
 
@@ -198,7 +181,4 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error otherwise.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
- 
-
- 
 

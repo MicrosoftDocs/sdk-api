@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: e014624a-1ee1-4de3-ba59-cd090b3fa711
 ms.date: 12/05/2018
 ms.keywords: RASADFunc, RASADFunc callback, RASADFunc callback function [RAS], RASADFuncA, RASADFuncW, _ras_rasadfunc, ras/RASADFunc, ras/RASADFuncA, ras/RASADFuncW, rras.rasadfunc
-f1_keywords:
-- ras/RASADFunc
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ras.h
-api_name:
-- RASADFunc
-- RASADFuncA
-- RASADFuncW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RASADFUNCA
+ - ras/RASADFUNCA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ras.h
+api_name:
+ - RASADFunc
+ - RASADFuncA
+ - RASADFuncW
 ---
 
 # RASADFUNCA callback function
@@ -51,33 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RASADFunc</b> function is an application-defined callback function that is used to provide a customized user interface for autodialing.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
-
 ### -param Arg2
-
 
 ### -param Arg3
 
-
 ### -param Arg4
-
-
-
-
-
-
-
 
 #### - lpAutoDialParams [in]
 
@@ -104,21 +90,13 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 
 <b>Windows Me/98/95:  </b>This parameter is always <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-
 ## -returns
-
-
 
 If the application performs the dialing operation, return <b>TRUE</b>. Use the <i>lpdwRetCode</i> parameter to indicate the results of the dialing operation.
 
 If the application does not perform the dialing operation, return <b>FALSE</b>. In this case, the system uses the default user interface for dialing.
 
-
-
-
 ## -remarks
-
-
 
 When the system starts an AutoDial operation for a phone-book entry with a custom AutoDial handler, it calls the specified 
 <b>RASADFunc</b>. The 
@@ -148,9 +126,6 @@ The AutoDial DLL must provide both a <b>RASADFUNCA</b> (ANSI) and a <b>RASADFUNC
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
@@ -168,7 +143,4 @@ The AutoDial DLL must provide both a <b>RASADFUNCA</b> (ANSI) and a <b>RASADFUNC
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

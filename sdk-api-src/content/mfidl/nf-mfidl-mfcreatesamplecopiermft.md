@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4270c45e-4f20-4fcd-ad60-b205e334f692
 ms.date: 12/05/2018
 ms.keywords: MFCreateSampleCopierMFT, MFCreateSampleCopierMFT function [Media Foundation], mf.mfcreatesamplecopiermft, mfidl/MFCreateSampleCopierMFT
-f1_keywords:
-- mfidl/MFCreateSampleCopierMFT
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateSampleCopierMFT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateSampleCopierMFT
+ - mfidl/MFCreateSampleCopierMFT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateSampleCopierMFT
 ---
 
 # MFCreateSampleCopierMFT function
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of the sample copier transform.
 
-
 ## -parameters
-
-
-
 
 ### -param ppCopierMFT [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The sample copier is a Media Foundation transform (MFT) that copies data from input samples to output samples without modifying the data. The following data is copied from the sample:
 
@@ -98,16 +86,7 @@ In order for the media sink to receive data from the media source, the data must
 
 A specific example of such a media sink is the  <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR). The EVR allocates samples that contain Direct3D surface buffers, so it cannot receive video samples directly from a media source. Starting in Windows 7, the topology loader automatically handles this case by inserting the sample copier between the media source and the EVR.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

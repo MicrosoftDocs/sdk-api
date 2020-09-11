@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e1f1d68b-16c2-4d97-ae5f-091e5ec285c2
 ms.date: 12/05/2018
 ms.keywords: 702ec977-2d87-4d52-916e-423f1df03829, IInkStrokes interface [Tablet PC],ToString method, IInkStrokes.ToString, IInkStrokes::ToString, ToString, ToString method [Tablet PC], ToString method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::ToString, tablet.inkstrokes_tostring
-f1_keywords:
-- msinkaut/IInkStrokes.ToString
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokes.ToString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokes::ToString
+ - msinkaut/IInkStrokes::ToString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokes.ToString
 ---
 
 # IInkStrokes::ToString
@@ -50,17 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>ToString</b> is no longer available for use as of Windows Vista. Instead, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_string">String</a> property for the equivalent of this method for the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object.
 ]
 
 Has the default recognizer perform recognition on the collection of strokes and returns the top string of the top alternate of the recognition result.
 
-
 ## -parameters
-
-
-
 
 ### -param ToString [out, retval]
 
@@ -68,10 +64,7 @@ The top string of the <a href="https://docs.microsoft.com/windows/desktop/api/ms
 
 For more information about the <b>BSTR</b> data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -153,14 +146,8 @@ No recognizers are installed, the recognizers registry key is corrupted, or your
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>ToString</b> should not be used for handwriting recognition applications; it can be used for debugging purposes.
 
@@ -172,12 +159,7 @@ No recognizers are installed, the recognizers registry key is corrupted, or your
 <li>The default recognizer does not support free input.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
@@ -188,7 +170,4 @@ No recognizers are installed, the recognizers registry key is corrupted, or your
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

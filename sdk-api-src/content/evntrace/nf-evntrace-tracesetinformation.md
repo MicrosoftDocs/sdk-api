@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: f4cdbe32-6885-4844-add5-560961c3dd1d
 ms.date: 12/05/2018
 ms.keywords: TraceSetInformation, TraceSetInformation function [ETW], etw.tracesetinformation, evntrace/TraceSetInformation
-f1_keywords:
-- evntrace/TraceSetInformation
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Controller-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- TraceSetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceSetInformation
+ - evntrace/TraceSetInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Controller-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - TraceSetInformation
 ---
 
 # TraceSetInformation function
@@ -53,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TraceSetInformation</b> function 
     enables or disables event tracing session settings for  the specified information class.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A handle of the event tracing session that wants to capture the specified information. The 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle. 
-
+<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
 
 ### -param InformationClass [in]
 
 The information class to enable or disable. The information that the class captures is included in the 
       extended data section of the event. For a list of information classes that you can enable, see the 
       <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_INFO_CLASS</a> enumeration.
-
 
 ### -param TraceInformation [in]
 
@@ -84,15 +78,11 @@ A pointer to information class specific data; the information class determines t
       The structures specify the event GUIDs for which stack tracing is enabled. The array is limited to 256 
       elements.
 
-
 ### -param InformationLength [in]
 
-The size, in bytes, of the data in the <i>TraceInformation</i> buffer. 
-
+The size, in bytes, of the data in the <i>TraceInformation</i> buffer.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -150,14 +140,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this function after calling <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>.
 
@@ -185,20 +169,11 @@ Typically, on 64-bit computers, you cannot capture the kernel stack in certain c
 
 You should consider the cost of setting this registry value before doing so.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_INFO_CLASS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/tracequeryinformation">TraceQueryInformation</a>
- 
-
- 
 

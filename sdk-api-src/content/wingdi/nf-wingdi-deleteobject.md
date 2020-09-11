@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: cc679af0-6839-4c83-9c42-39d7ededda40
 ms.date: 12/05/2018
 ms.keywords: DeleteObject, DeleteObject function [Windows GDI], DeleteObjectW, _win32_DeleteObject, gdi.deleteobject, wingdi/DeleteObject, wingdi/DeleteObjectW
-f1_keywords:
-- wingdi/DeleteObject
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-RTCore-GDI-object-l1-1-0.dll
-- api-ms-win-gdi-ie-rgn-l1-1-0.dll
-- ie_shims.dll
-- ext-ms-win-gdi-dc-l1-1-0.dll
-api_name:
-- DeleteObject
-- DeleteObjectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteObject
+ - wingdi/DeleteObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-RTCore-GDI-object-l1-1-0.dll
+ - api-ms-win-gdi-ie-rgn-l1-1-0.dll
+ - ie_shims.dll
+ - ext-ms-win-gdi-dc-l1-1-0.dll
+api_name:
+ - DeleteObject
+ - DeleteObjectW
 ---
 
 # DeleteObject function
@@ -54,34 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeleteObject</b> function deletes a logical pen, brush, font, bitmap, region, or palette, freeing all system resources associated with the object. After the object is deleted, the specified handle is no longer valid.
 
-
 ## -parameters
-
-
-
 
 ### -param ho [in]
 
 A handle to a logical pen, brush, font, bitmap, region, or palette.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the specified handle is not valid or is currently selected into a DC, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 Do not delete a drawing object (pen or brush) while it is still selected into a DC.
 
@@ -94,12 +82,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/crea
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
@@ -110,7 +93,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/crea
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
- 
-
- 
 

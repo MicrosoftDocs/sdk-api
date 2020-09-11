@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d971c7be-f440-41ce-945d-4dbe51554e59
 ms.date: 12/05/2018
 ms.keywords: ICredentialProvider interface [Windows Shell],UnAdvise method, ICredentialProvider.UnAdvise, ICredentialProvider::UnAdvise, UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::UnAdvise, shell.ICredentialProvider_UnAdvise, shell_ICredentialProvider_UnAdvise
-f1_keywords:
-- credentialprovider/ICredentialProvider.UnAdvise
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- ICredentialProvider.UnAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProvider::UnAdvise
+ - credentialprovider/ICredentialProvider::UnAdvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - ICredentialProvider.UnAdvise
 ---
 
 # ICredentialProvider::UnAdvise
@@ -49,31 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by the Logon UI or Credential UI to advise the credential provider that event callbacks are no longer accepted.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method does not need to be implemented, and should return <b>E_NOTIMPL</b> if it does not. There might be no reason to call it, such as if the Logon UI or Credential UI never changes or updates.
 
@@ -84,19 +71,11 @@ If this method is called, it indicates that the <a href="https://docs.microsoft.
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider">ICredentialProvider</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-advise">ICredentialProvider::Advise</a>
- 
-
- 
 

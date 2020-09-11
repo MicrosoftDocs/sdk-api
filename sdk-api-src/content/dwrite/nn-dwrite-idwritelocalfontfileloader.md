@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: acb777c8-24c6-452e-8f58-8fb2ad8c0b6c
 ms.date: 12/05/2018
 ms.keywords: IDWriteLocalFontFileLoader, IDWriteLocalFontFileLoader interface [Direct Write], IDWriteLocalFontFileLoader interface [Direct Write],described, directwrite.idwritelocalfontfileloader, dwrite/IDWriteLocalFontFileLoader
-f1_keywords:
-- dwrite/IDWriteLocalFontFileLoader
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteLocalFontFileLoader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteLocalFontFileLoader
+ - dwrite/IDWriteLocalFontFileLoader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteLocalFontFileLoader
 ---
 
 # IDWriteLocalFontFileLoader interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 A built-in implementation of the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a> interface, that operates on local font files
 and exposes local font file information from the font file reference key. Font file references created using <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createfontfilereference">CreateFontFileReference</a> use this font file loader.
-
 
 ## -inheritance
 
@@ -96,5 +95,5 @@ Obtains the last write time of the file from the font file reference key.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 0423e888-39d1-45cb-9bcf-722240a31fbd
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], IAMExtDevice interface [DirectShow],described, IAMExtDeviceInterface, dshow.iamextdevice, strmif/IAMExtDevice
-f1_keywords:
-- strmif/IAMExtDevice
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtDevice
+ - strmif/IAMExtDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtDevice
 ---
 
 # IAMExtDevice interface
 
 
 ## -description
-
-
 
 The <b>IAMExtDevice</b> interface controls an external device, such as a DV camera or video tape recoder (VTR).
 
@@ -159,12 +158,9 @@ Sets the device's power mode.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The DV device drivers require some additional constants that are defined in the header file Xprtdefs.h.
 
@@ -173,16 +169,7 @@ For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/
 <h3><a id="Hardware_Requirements"></a><a id="hardware_requirements"></a><a id="HARDWARE_REQUIREMENTS"></a>Hardware Requirements</h3>
 To control an external VCR, certain hardware requirements are recommended. VCRs with an RS-422 serial interface require a special serial port card or an external RS-232-to-RS-422 adapter. In addition, for best performance, your computer should have a serial port card built with a 16550 high-performance UART (Universal Asynchronous Receiver/Transmitter) to sustain higher baud rates, such as 38.4 baud.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

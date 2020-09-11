@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 54a18567-e9d4-4b12-b486-cdd70d719184
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], IAsyncReader interface [DirectShow],described, IAsyncReaderInterface, dshow.iasyncreader, strmif/IAsyncReader
-f1_keywords:
-- strmif/IAsyncReader
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAsyncReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAsyncReader
+ - strmif/IAsyncReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAsyncReader
 ---
 
 # IAsyncReader interface
 
 
 ## -description
-
-
 
 The <code>IAsyncReader</code> interface performs an asynchronous data request on a filter.
 
@@ -71,8 +70,6 @@ For more information about using this interface, see the following topics:
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cpullpin">CPullPin Class</a>
 </li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -161,5 +158,5 @@ Blocks until the next sample is completed or the time-out occurs.
 
 </td>
 </tr>
-</table> 
+</table>
 

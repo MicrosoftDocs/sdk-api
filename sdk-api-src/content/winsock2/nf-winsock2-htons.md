@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 3dae2655-2b3c-41d9-9650-125ac393d64a
 ms.date: 12/05/2018
 ms.keywords: _win32_htons_2, htons, htons function [Winsock], winsock.htons_2, winsock/htons
-f1_keywords:
-- winsock2/htons
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- htons
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - htons
+ - winsock2/htons
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - htons
 ---
 
 # htons function
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>htons</b> function converts a <b>u_short</b> from host to TCP/IP network byte order (which is big-endian).
 
-
 ## -parameters
-
-
-
 
 ### -param hostshort [in]
 
 A 16-bit number in host byte order.
 
-
 ## -returns
-
-
 
 The 
 <b>htons</b> function returns the value in TCP/IP network byte order.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>htons</b> function takes a 16-bit number in host byte order and returns a 16-bit number in network byte order used in TCP/IP networks (the AF_INET or AF_INET6 address family). 
@@ -89,13 +77,7 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
@@ -162,7 +144,4 @@ call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
- 
-
- 
 

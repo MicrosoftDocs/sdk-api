@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 38bc30fa-3e4e-417a-9d04-931ba2451fa4
 ms.date: 12/05/2018
 ms.keywords: ITTerminal, ITTerminal interface [TAPI 2.2], ITTerminal interface [TAPI 2.2],described, _tapi3_itterminal, tapi3.itterminal, tapi3if/ITTerminal
-f1_keywords:
-- tapi3if/ITTerminal
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3if.h
-api_name:
-- ITTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTerminal
+ - tapi3if/ITTerminal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3if.h
+api_name:
+ - ITTerminal
 ---
 
 # ITTerminal interface
 
 
 ## -description
-
 
 The 
 <b>ITTerminal</b> interface is the base interface for a 
@@ -65,8 +65,6 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-next">IEnumTerminal::Next</a>
-
-
 
 ## -inheritance
 
@@ -142,13 +140,9 @@ Gets the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -159,7 +153,4 @@ Gets the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
- 
-
- 
 

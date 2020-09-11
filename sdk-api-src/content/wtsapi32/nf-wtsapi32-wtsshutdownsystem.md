@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 188df0d6-0e49-4608-bc70-83775584a1f2
 ms.date: 12/05/2018
 ms.keywords: WTSShutdownSystem, WTSShutdownSystem function [Remote Desktop Services], WTS_WSD_FASTREBOOT, WTS_WSD_LOGOFF, WTS_WSD_POWEROFF, WTS_WSD_REBOOT, WTS_WSD_SHUTDOWN, _win32_wtsshutdownsystem, termserv.wtsshutdownsystem, wtsapi32/WTSShutdownSystem
-f1_keywords:
-- wtsapi32/WTSShutdownSystem
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-api_name:
-- WTSShutdownSystem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSShutdownSystem
+ - wtsapi32/WTSShutdownSystem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+api_name:
+ - WTSShutdownSystem
 ---
 
 # WTSShutdownSystem function
@@ -49,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shuts down (and optionally restarts) the specified Remote Desktop Session Host (RD Session Host) server.
 
 To shut down or restart the system, the calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege enabled. For more information about security privileges, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">Authorization Constants</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hServer [in]
 
 Handle to an RD Session Host server. Specify a handle opened by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application is running.
-
 
 ### -param ShutdownFlag [in]
 
@@ -106,22 +101,14 @@ Shuts down the system on the RD Session Host server. This is equivalent to call
 
 This value is not supported currently.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 A system shutdown terminates all users and active programs. The following steps occur during shutdown.
 
@@ -139,16 +126,7 @@ A system shutdown terminates all users and active programs. The following steps 
 <div> </div>
 <b>Windows Server 2008 and Windows Vista:  </b>A call to <b>WTSShutdownSystem</b> does not work when Remote Connection Manager (RCM) is disabled. This is the case when the Remote Desktop Services service is stopped.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
- 
-
- 
 

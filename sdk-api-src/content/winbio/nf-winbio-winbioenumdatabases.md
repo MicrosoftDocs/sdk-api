@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 163c669d-765f-4f8d-83c4-ff8bd064e44d
 ms.date: 12/05/2018
 ms.keywords: WinBioEnumDatabases, WinBioEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioenumdatabases, winbio/WinBioEnumDatabases
-f1_keywords:
-- winbio/WinBioEnumDatabases
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioEnumDatabases
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioEnumDatabases
+ - winbio/WinBioEnumDatabases
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioEnumDatabases
 ---
 
 # WinBioEnumDatabases function
@@ -52,33 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates all registered databases that match a specified type.
 
-
 ## -parameters
-
-
-
 
 ### -param Factor [in]
 
 A bitmask of WINBIO_BIOMETRIC_TYPE flags that specifies the biometric unit types to be enumerated.  Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
 
-
 ### -param StorageSchemaArray [out]
 
 Address of a variable that receives a pointer to  an array of   <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-storage-schema">WINBIO_STORAGE_SCHEMA</a> structures that contain information about each database. If the function does not succeed, the pointer is set to <b>NULL</b>. If the function succeeds, you must pass the pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release memory allocated internally for the array.
-
 
 ### -param StorageCount [out]
 
 Pointer to a value that specifies the number of structures pointed to by the <i>StorageSchemaArray</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -121,14 +112,8 @@ The <i>StorageSchemaArray</i> and <i>StorageCount</i> parameters cannot be <b>NU
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported in the <i>Factor</i> parameter.
 
@@ -235,14 +220,7 @@ VOID DisplayGuid( __in PWINBIO_UUID Guid )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-storage-schema">WINBIO_STORAGE_SCHEMA</a>
 
@@ -257,7 +235,4 @@ VOID DisplayGuid( __in PWINBIO_UUID Guid )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumserviceproviders">WinBioEnumServiceProviders</a>
- 
-
- 
 

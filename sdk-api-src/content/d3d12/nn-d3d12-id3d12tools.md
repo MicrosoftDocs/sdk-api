@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: F192AC22-1FD9-496D-9943-99FB424DD214
 ms.date: 12/05/2018
 ms.keywords: ID3D12Tools, ID3D12Tools interface, ID3D12Tools interface,described, d3d12/ID3D12Tools, direct3d12.id3d12tools
-f1_keywords:
-- d3d12/ID3D12Tools
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Tools
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Tools
+ - d3d12/ID3D12Tools
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Tools
 ---
 
 # ID3D12Tools interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface is used to configure the runtime for tools such as PIX. Its not intended or supported for any other scenario.
-
 
 ## -inheritance
 
@@ -86,31 +85,19 @@ Determines whether shader instrumentation is enabled.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Do not use this interface in your application, its not intended or supported for any scenario other than to enable tooling such as PIX.
 
 Developer Mode must be enabled for this interface to respond.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

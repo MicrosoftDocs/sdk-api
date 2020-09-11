@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
 ms.date: 12/05/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
-f1_keywords:
-- sspi/ImportSecurityContext
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-- sspicli.dll
-api_name:
-- ImportSecurityContext
-- ImportSecurityContextA
-- ImportSecurityContextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImportSecurityContextW
+ - sspi/ImportSecurityContextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+ - sspicli.dll
+api_name:
+ - ImportSecurityContext
+ - ImportSecurityContextA
+ - ImportSecurityContextW
 ---
 
 # ImportSecurityContextW function
@@ -52,38 +53,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ImportSecurityContext</b> function imports a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The security context must have been exported to the process calling <b>ImportSecurityContext</b> by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPackage [in]
 
 A string that contains the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> to which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> was exported.
 
-
 ### -param pPackedContext [in]
 
 A pointer to a buffer that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> security context created by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>.
-
 
 ### -param Token [in, optional]
 
 A handle to the context's token.
 
-
 ### -param phContext [out]
 
 A handle of the new security context created from <i>pPackedContext</i>. When you have finished using the context, delete it by calling the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritycontext">DeleteSecurityContext</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns SEC_E_OK.
 
@@ -150,15 +140,8 @@ An error occurred that did not map to an SSPI error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>
 
@@ -169,9 +152,6 @@ An error occurred that did not map to an SSPI error code.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
- 
-
- 
 
 ## -remarks
 

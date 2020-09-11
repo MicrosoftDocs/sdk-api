@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 17c531cb-7e65-482a-b3de-494874c1dd92
 ms.date: 12/05/2018
 ms.keywords: '*LPDDPIXELFORMAT, DDPF_ALPHA, DDPF_ALPHAPIXELS, DDPF_ALPHAPREMULT, DDPF_BUMPDUDV, DDPF_BUMPLUMINANCE, DDPF_COMPRESSED, DDPF_D3DFORMAT, DDPF_FOURCC, DDPF_LUMINANCE, DDPF_PALETTEINDEXED1, DDPF_PALETTEINDEXED2, DDPF_PALETTEINDEXED4, DDPF_PALETTEINDEXED8, DDPF_PALETTEINDEXEDTO8, DDPF_RGB, DDPF_RGBTOYUV, DDPF_STENCILBUFFER, DDPF_YUV, DDPF_ZBUFFER, DDPF_ZPIXELS, DDPIXELFORMAT, DDPIXELFORMAT structure [DirectDraw], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [DirectDraw], ddraw/DDPIXELFORMAT, ddraw/LPDDPIXELFORMAT, directdraw.ddpixelformat'
-f1_keywords:
-- ddraw/DDPIXELFORMAT
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ddraw.h
-api_name:
-- DDPIXELFORMAT
 targetos: Windows
 req.typenames: DDPIXELFORMAT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDPIXELFORMAT
+ - ddraw/_DDPIXELFORMAT
+ - DDPIXELFORMAT
+ - ddraw/DDPIXELFORMAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ddraw.h
+api_name:
+ - DDPIXELFORMAT
 ---
 
 # DDPIXELFORMAT structure
 
 
 ## -description
-
 
 The <b>DDPIXELFORMAT</b> structure describes the pixel format of a DirectDrawSurface object for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpixelformat">IDirectDrawSurface7::GetPixelFormat</a> method.
 
@@ -57,13 +59,9 @@ The <b>DDPIXELFORMAT</b> structure describes the pixel format of a DirectDrawSur
 
 ## -struct-fields
 
-
-
-
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
-
 
 ### -field dwFlags
 
@@ -189,167 +187,71 @@ The pixel format describes a z-buffer surface.
 
 The surface contains z information in the pixels.
 
-
 ### -field dwFourCC
 
 A FourCC code.
 
-
 ### -field DUMMYUNIONNAMEN.dwRGBBitCount
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwYUVBitCount
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwZBufferBitDepth
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwAlphaBitDepth
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwLuminanceBitCount
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwBumpBitCount
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwPrivateFormatBitCount
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwRBitMask
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwYBitMask
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwStencilBitDepth
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwLuminanceBitMask
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwBumpDuBitMask
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwOperations
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwGBitMask
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwUBitMask
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwZBitMask
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwBumpDvBitMask
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.MultiSampleCaps
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.MultiSampleCaps.wFlipMSTypes
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.MultiSampleCaps.wBltMSTypes
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwBBitMask
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwVBitMask
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwStencilBitMask
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwBumpLuminanceBitMask
 
- 
-
-
 ### -field DUMMYUNIONNAMEN
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwRGBAlphaBitMask
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwYUVAlphaBitMask
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwLuminanceAlphaBitMask
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwRGBZBitMask
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwYUVZBitMask
 
- 
-
-
-
-
 ### -field DUMMYUNIONNAMEN(1)
-
-
 
 #### dwRGBBitCount
 
@@ -392,10 +294,7 @@ Total bump-map bits per pixel in a bump-map surface.
 
 Bits per pixel of private driver formats. Only valid in texture format list and if DDPF_D3DFORMAT is set.
 
-
 ### -field DUMMYUNIONNAMEN(2)
-
-
 
 #### dwRBitMask
 
@@ -432,10 +331,7 @@ Mask for bump-map U-delta bits.
 
 Flags that specify the operations that can be performed on surfaces with the DDPF_D3DFORMAT pixel format. The flags are defined in Ddrawi.h.
 
-
 ### -field DUMMYUNIONNAMEN(3)
-
-
 
 #### dwGBitMask
 
@@ -477,10 +373,7 @@ A 16-bit mask for full-screen (flip) mode multisampling.
 
 A 16-bit mask for windowed (bit-block transfer) mode multisampling.
 
-
 ### -field DUMMYUNIONNAMEN(4)
-
-
 
 #### dwBBitMask
 
@@ -504,10 +397,7 @@ Mask for stencil bits within each z-buffer pixel.
 
 Mask for luminance in a bump-map pixel.
 
-
 ### -field DUMMYUNIONNAMEN(5)
-
-
 
 #### dwRGBAlphaBitMask
 
@@ -537,10 +427,7 @@ RGB mask for the z channel.
 
 YUV mask for the z channel.
 
-
 ## -remarks
-
-
 
 The <b>dwAlphaBitDepth</b> member reflects the bit depth of an alpha-only pixel format (DDPF_ALPHA). For pixel formats that include the alpha component with color components (DDPF_ALPHAPIXELS), the alpha bit depth is obtained by counting the bits in the various mask members. The following code example returns the number of bits set in a given bitmask:
 
@@ -564,8 +451,4 @@ WORD GetNumberOfBits( DWORD dwMask )
 
 
 The unions in <b>DDPIXELFORMAT</b> have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the Ddraw.h header file.
-
-
-
-
 

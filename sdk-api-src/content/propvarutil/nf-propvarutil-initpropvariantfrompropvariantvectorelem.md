@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 4618e63a-8afa-45d4-b0b0-cd1dae064ba4
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromPropVariantVectorElem, InitPropVariantFromPropVariantVectorElem function [Windows Properties], properties.InitPropVariantFromPropVariantVectorElem, propvarutil/InitPropVariantFromPropVariantVectorElem, shell.InitPropVariantFromPropVariantVectorElem, shell_InitPropVariantFromPropVariantVectorElem
-f1_keywords:
-- propvarutil/InitPropVariantFromPropVariantVectorElem
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- InitPropVariantFromPropVariantVectorElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitPropVariantFromPropVariantVectorElem
+ - propvarutil/InitPropVariantFromPropVariantVectorElem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - InitPropVariantFromPropVariantVectorElem
 ---
 
 # InitPropVariantFromPropVariantVectorElem function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure based on a specified <b>PROPVARIANT</b> vector element.
 
-
 ## -parameters
-
-
-
 
 ### -param propvarIn [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFPROPVARIANT</b>
 
 The source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param iElem [in]
 
 Type: <b>ULONG</b>
 
 The index of the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure element.
-
 
 ### -param ppropvar [out]
 
@@ -78,21 +72,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-prop
 
 When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This helper function works for <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures of the following types:
 
@@ -151,17 +137,7 @@ for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelem">PropVariantGetElem</a>
- 
-
- 
 

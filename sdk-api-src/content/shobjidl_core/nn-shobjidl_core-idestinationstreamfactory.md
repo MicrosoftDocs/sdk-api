@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7cedf8eb-b4ef-4889-bd7b-a734e939e872
 ms.date: 12/05/2018
 ms.keywords: IDestinationStreamFactory, IDestinationStreamFactory interface [Windows Shell], IDestinationStreamFactory interface [Windows Shell],described, shell.IDestinationStreamFactory, shell_IDestinationStreamFactory, shobjidl_core/IDestinationStreamFactory
-f1_keywords:
-- shobjidl_core/IDestinationStreamFactory
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDestinationStreamFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDestinationStreamFactory
+ - shobjidl_core/IDestinationStreamFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDestinationStreamFactory
 ---
 
 # IDestinationStreamFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method for manually copying a stream or file before applying changes to properties.
-
 
 ## -inheritance
 
@@ -77,25 +76,13 @@ Gets an empty stream that receives the new version of the file being copied.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The default copy-on-write behavior provided by <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> causes the entire source stream to be duplicated during a write operation. This can be costly for large streams, especially when a large portion of the stream is to be changed. <b>IDestinationStreamFactory</b> provides an alternative for the property handler author, who can use it manually to ensure that property changes do not corrupt the stream in case of failure. To do this, the author marks the handler as NoTransactedMode in the handler's CoClass registry key, and queries the stream for this interface.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/properties/building-property-handlers-property-handlers">Initializing Property Handlers</a>
- 
-
- 
 

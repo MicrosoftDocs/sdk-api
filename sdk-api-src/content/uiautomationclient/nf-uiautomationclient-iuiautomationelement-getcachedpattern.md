@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: c71cab11-24c7-4e66-bcf2-f1abb1f37abb
 ms.date: 12/05/2018
 ms.keywords: GetCachedPattern, GetCachedPattern method [Windows Accessibility], GetCachedPattern method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPattern method, IUIAutomationElement.GetCachedPattern, IUIAutomationElement::GetCachedPattern, uiauto.uiauto_IUIAutomationElement_GetCachedPattern, uiauto_IUIAutomationElement_GetCachedPattern, uiautomationclient/IUIAutomationElement::GetCachedPattern, winauto.uiauto_IUIAutomationElement_GetCachedPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.GetCachedPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.GetCachedPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::GetCachedPattern
+ - uiautomationclient/IUIAutomationElement::GetCachedPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.GetCachedPattern
 ---
 
 # IUIAutomationElement::GetCachedPattern
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves from the cache the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the specified control pattern of this UI Automation element. 
-
+Retrieves from the cache the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the specified control pattern of this UI Automation element.
 
 ## -parameters
-
-
-
 
 ### -param patternId [in]
 
@@ -64,29 +60,19 @@ Type: <b>PATTERNID</b>
 
 The identifier of the control pattern. For a list of control pattern IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-controlpattern-ids">Control Pattern Identifiers</a>.
 
-
 ### -param patternObject [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -109,7 +95,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-controlpatternsoverview">UI Automation Control Patterns Overview</a>
- 
-
- 
 

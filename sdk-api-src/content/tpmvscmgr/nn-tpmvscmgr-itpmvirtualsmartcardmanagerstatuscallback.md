@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6CB62E42-16FD-453F-9566-B4DFCDAC7368
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback, ITpmVirtualSmartCardManagerStatusCallback interface [Security], ITpmVirtualSmartCardManagerStatusCallback interface [Security],described, security.itpmvirtualsmartcardmanagerstatuscallback, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback
-f1_keywords:
-- tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback
-dev_langs:
-- c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Vscmgr.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vscmgr.lib
-- Vscmgr.dll
-api_name:
-- ITpmVirtualSmartCardManagerStatusCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITpmVirtualSmartCardManagerStatusCallback
+ - tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vscmgr.lib
+ - Vscmgr.dll
+api_name:
+ - ITpmVirtualSmartCardManagerStatusCallback
 ---
 
 # ITpmVirtualSmartCardManagerStatusCallback interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the caller of the progress of the requested operation or any resulting errors.
-
 
 ## -inheritance
 
@@ -87,5 +86,5 @@ Reports the progress of the current operation.
 
 </td>
 </tr>
-</table> 
+</table>
 

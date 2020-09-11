@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 3c053888-be91-45e9-a5da-182f18e07710
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastSearchSuccessDate property, IAutomaticUpdatesResults.LastSearchSuccessDate, IAutomaticUpdatesResults.get_LastSearchSuccessDate, IAutomaticUpdatesResults::LastSearchSuccessDate, IAutomaticUpdatesResults::get_LastSearchSuccessDate, LastSearchSuccessDate property [Windows Update Agent], LastSearchSuccessDate property [Windows Update Agent],IAutomaticUpdatesResults interface, get_LastSearchSuccessDate, wua.iautomaticupdatesresults_lastsearchsuccessdate, wuapi/IAutomaticUpdatesResults::LastSearchSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate
-f1_keywords:
-- wuapi/IAutomaticUpdatesResults.LastSearchSuccessDate
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdatesResults.LastSearchSuccessDate
-- IAutomaticUpdatesResults.get_LastSearchSuccessDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdatesResults::get_LastSearchSuccessDate
+ - wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdatesResults.LastSearchSuccessDate
+ - IAutomaticUpdatesResults.get_LastSearchSuccessDate
 ---
 
 # IAutomaticUpdatesResults::get_LastSearchSuccessDate
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the last time and Coordinated Universal Time (UTC) date when AutomaticUpdates successfully searched for updates.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 Calls to <b>LastSearchSuccessDate</b> by public users do not update this property. Only the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">AutomaticUpdates</a> object will update this property.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatesresults">IAutomaticUpdatesResults</a>
- 
-
- 
 

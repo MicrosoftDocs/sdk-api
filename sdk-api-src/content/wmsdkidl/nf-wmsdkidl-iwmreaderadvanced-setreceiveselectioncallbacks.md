@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 8cb0bd59-2a46-4cdc-9a88-ee6a8f170f3c
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetReceiveSelectionCallbacks method, IWMReaderAdvanced.SetReceiveSelectionCallbacks, IWMReaderAdvanced::SetReceiveSelectionCallbacks, IWMReaderAdvancedSetReceiveSelectionCallbacks, SetReceiveSelectionCallbacks, SetReceiveSelectionCallbacks method [windows Media Format], SetReceiveSelectionCallbacks method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setreceiveselectioncallbacks, wmsdkidl/IWMReaderAdvanced::SetReceiveSelectionCallbacks
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced.SetReceiveSelectionCallbacks
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced.SetReceiveSelectionCallbacks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced::SetReceiveSelectionCallbacks
+ - wmsdkidl/IWMReaderAdvanced::SetReceiveSelectionCallbacks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced.SetReceiveSelectionCallbacks
 ---
 
 # IWMReaderAdvanced::SetReceiveSelectionCallbacks
@@ -52,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetReceiveSelectionCallbacks</b> method specifies whether stream selection notifications must be sent to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamselection">IWMReaderCallbackAdvanced::OnStreamSelection</a>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fGetCallbacks [in]
 
 Boolean value that is True if stream selections must generate callbacks.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -103,22 +93,12 @@ No callback interface has been specified.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceiveselectioncallbacks">IWMReaderAdvanced::GetReceiveSelectionCallbacks</a>
- 
-
- 
 

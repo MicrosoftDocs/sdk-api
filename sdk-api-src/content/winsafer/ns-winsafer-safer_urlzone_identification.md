@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8f165956-9ef0-469e-a71b-f9341a347e59
 ms.date: 12/05/2018
 ms.keywords: '*PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION structure pointer [Security], SAFER_URLZONE_IDENTIFICATION, SAFER_URLZONE_IDENTIFICATION structure [Security], URLZONE_INTERNET, URLZONE_INTRANET, URLZONE_LOCAL_MACHINE, URLZONE_TRUSTED, URLZONE_UNTRUSTED, _mnp_safer_urlzone_identification, security.safer_urlzone_identification, winsafer/PSAFER_URLZONE_IDENTIFICATION, winsafer/SAFER_URLZONE_IDENTIFICATION'
-f1_keywords:
-- winsafer/SAFER_URLZONE_IDENTIFICATION
-dev_langs:
-- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinSafer.h
-api_name:
-- SAFER_URLZONE_IDENTIFICATION
 targetos: Windows
 req.typenames: SAFER_URLZONE_IDENTIFICATION, *PSAFER_URLZONE_IDENTIFICATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SAFER_URLZONE_IDENTIFICATION
+ - winsafer/_SAFER_URLZONE_IDENTIFICATION
+ - PSAFER_URLZONE_IDENTIFICATION
+ - winsafer/PSAFER_URLZONE_IDENTIFICATION
+ - SAFER_URLZONE_IDENTIFICATION
+ - winsafer/SAFER_URLZONE_IDENTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinSafer.h
+api_name:
+ - SAFER_URLZONE_IDENTIFICATION
 ---
 
 # SAFER_URLZONE_IDENTIFICATION structure
@@ -49,19 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SAFER_URLZONE_IDENTIFICATION</b> structure represents a URL zone identification rule.
-
 
 ## -struct-fields
 
-
-
-
 ### -field header
-
- 
-
 
 ### -field UrlZoneId
 
@@ -123,13 +120,10 @@ An untrusted URL zone.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwSaferFlags
 
 Reserved for future use.
-
 
 ### -field Header
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0cd95e53-62d5-4318-961a-1136646fd222
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetupTransfer, TSPI_lineSetupTransfer function [TAPI 2.2], _tspi_tspi_linesetuptransfer, tspi.tspi_linesetuptransfer, tspi/TSPI_lineSetupTransfer
-f1_keywords:
-- tspi/TSPI_lineSetupTransfer
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineSetupTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineSetupTransfer
+ - tspi/TSPI_lineSetupTransfer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineSetupTransfer
 ---
 
 # TSPI_lineSetupTransfer function
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineSetupTransfer</b> function initiates a transfer of the call specified by <i>hdCall</i>. It establishes a consultation call, <i>lphdConsultCall</i>, on which the party can be dialed that can become the destination of the transfer.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequestID
 
 The identifier of the asynchronous request.
 
-
 ### -param hdCall
 
 The handle to the call to be transferred. The call state of <i>hdCall</i> can be <i>connected</i>.
-
 
 ### -param htConsultCall
 
 The TAPI handle to the new, temporary consultation call. The service provider must save this and use it in all subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> procedure reporting events on the new consultation call.
-
 
 ### -param lphdConsultCall
 
@@ -93,28 +86,19 @@ This transfer procedure may not be valid for some line devices. Instead of calli
 The <b>transferHeld</b> and <b>transferMake</b> flags in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> data structure report what model the service provider uses.
 
-
 ### -param lpCallParams
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter can be set to <b>NULL</b> if no special call setup parameters are desired (the service provider uses defaults).
 
-
 ## -returns
-
-
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_INVALBEARERMODE, LINEERR_INVALCALLSTATE, LINEERR_INVALRATE, LINEERR_CALLUNAVAIL, LINEERR_INVALCALLPARAMS, LINEERR_NOMEM, LINEERR_INVALLINESTATE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALMEDIAMODE, LINEERR_OPERATIONFAILED, LINEERR_INUSE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_BEARERMODEUNAVAIL, LINEERR_RATEUNAVAIL, LINEERR_INVALADDRESSMODE, LINEERR_USERUSERINFOTOOBIG.
 
-
-
-
 ## -remarks
-
-
 
 The service provider returns LINEERR_INVALCALLSTATE if the call to be transferred is not in a valid state.
 
@@ -137,13 +121,7 @@ This function differs from the corresponding TAPI function in that it follows th
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> message reports success. In other words, it must not issue any 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> messages for the new call or include it in call counts in messages or status data structures for the line.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
@@ -178,7 +156,4 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineunhold">TSPI_lineUnhold</a>
- 
-
- 
 

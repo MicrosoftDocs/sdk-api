@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowcaret.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxShowCaret method, ITextHost.TxShowCaret, ITextHost::TxShowCaret, TxShowCaret, TxShowCaret method [Windows Controls], TxShowCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxShowCaret, _win32_ITextHost_TxShowCaret_cpp, controls.ITextHost_TxShowCaret, controls._win32_ITextHost_TxShowCaret, textserv/ITextHost::TxShowCaret
-f1_keywords:
-- textserv/ITextHost.TxShowCaret
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxShowCaret
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxShowCaret
+ - textserv/ITextHost::TxShowCaret
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxShowCaret
 ---
 
 # ITextHost::TxShowCaret
@@ -49,48 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shows or hides the caret at the caret position in the text host window.
 
-
 ## -parameters
-
-
-
 
 ### -param fShow [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Flag. If <b>TRUE</b>, the caret is visible. If <b>FALSE</b>, the caret is hidden. 
-
+Flag. If <b>TRUE</b>, the caret is visible. If <b>FALSE</b>, the caret is hidden.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
-Return <b>FALSE</b> if the method fails. 
-
-
-
+Return <b>FALSE</b> if the method fails.
 
 ## -remarks
 
-
-
 This method is only valid when the control is in-place active; calls while the control is inactive may fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -113,7 +95,4 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

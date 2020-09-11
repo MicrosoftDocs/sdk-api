@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 97db420f-a6a5-4c87-9c7f-9733a1ce2b46
 ms.date: 12/05/2018
 ms.keywords: VMR9PresentationFlags, VMR9PresentationFlags , VMR9PresentationFlags enumeration [DirectShow], VMR9PresentationFlagsEnumeration, VMR9Sample_Discontinuity, VMR9Sample_Preroll, VMR9Sample_SyncPoint, VMR9Sample_TimeValid, dshow.vmr9presentationflags, enumeration [DirectShow], vmr9/VMR9PresentationFlags, vmr9/VMR9Sample_Discontinuity, vmr9/VMR9Sample_Preroll, vmr9/VMR9Sample_SyncPoint, vmr9/VMR9Sample_TimeValid
-f1_keywords:
-- vmr9/VMR9PresentationFlags
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vmr9.h
-api_name:
-- VMR9PresentationFlags
 targetos: Windows
 req.typenames: VMR9PresentationFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_vmr9_0000_0000_0002
+ - vmr9/__MIDL___MIDL_itf_vmr9_0000_0000_0002
+ - VMR9PresentationFlags
+ - vmr9/VMR9PresentationFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vmr9.h
+api_name:
+ - VMR9PresentationFlags
 ---
 
 # VMR9PresentationFlags enumeration
@@ -49,50 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>VMR9PresentationFlags</code> enumeration type contains flags that describe the status of a video sample. These flags are used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9presentationinfo">VMR9PresentationInfo</a> structure.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field VMR9Sample_SyncPoint
 
 Indicates that the sample is a sync point.
 
-
 ### -field VMR9Sample_Preroll
 
 Indicates that the sample is part of the preroll.
-
 
 ### -field VMR9Sample_Discontinuity
 
 Indicates that the sample is a discontinuity.
 
-
 ### -field VMR9Sample_TimeValid
 
 Indicates that the time stamp on the sample is valid.
 
-
 ### -field VMR9Sample_SrcDstRectsValid
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
- 
-
- 
 

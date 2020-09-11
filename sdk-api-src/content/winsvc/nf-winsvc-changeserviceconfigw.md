@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeServiceConfig, ChangeServiceConfig function, ChangeServiceConfigA, ChangeServiceConfigW, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_SYSTEM_START, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_changeserviceconfig, base.changeserviceconfig, winsvc/ChangeServiceConfig, winsvc/ChangeServiceConfigA, winsvc/ChangeServiceConfigW
 ms.topic: function
-f1_keywords: 
- - "winsvc/ChangeServiceConfig"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - ChangeServiceConfigW
+ - winsvc/ChangeServiceConfigW
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,11 +51,6 @@ api_name:
  - ChangeServiceConfig
  - ChangeServiceConfigA
  - ChangeServiceConfigW
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # ChangeServiceConfigW function
@@ -57,17 +58,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the configuration parameters of a service.
 
 To change the optional configuration parameters, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -75,7 +71,6 @@ A handle to the service. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function and must have the <b>SERVICE_CHANGE_CONFIG</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
-
 
 ### -param dwServiceType [in]
 
@@ -159,8 +154,6 @@ For more information, see
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwStartType [in]
 
@@ -228,8 +221,6 @@ A device driver started by the <b>IoInitSystem</b> function. This value is valid
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwErrorControl [in]
 
@@ -285,8 +276,6 @@ The startup program logs the error in the event log. If the last-known-good conf
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBinaryPathName [in, optional]
 
@@ -299,7 +288,6 @@ The path can also include arguments for an auto-start service. For example, "d:\
 
 If you specify a path on another computer, the share must be accessible by the computer account of the local computer because this is the security context used in the remote call. However, this requirement allows any potential vulnerabilities in the remote computer to affect the local computer. Therefore, it is best to use a local file.
 
-
 ### -param lpLoadOrderGroup [in, optional]
 
 The  name of the load ordering group of which this service is a member. Specify NULL if you are not changing the existing group. Specify an empty string if the service does not belong to a group. 
@@ -310,7 +298,6 @@ The  name of the load ordering group of which this service is a member. Specify 
 The startup program uses load ordering groups to load groups of services in a specified order with respect to the other groups. The list of load ordering groups is contained in the <b>ServiceGroupOrder</b> value of the following registry key:
 
 <b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control</b>
-
 
 ### -param lpdwTagId [out, optional]
 
@@ -325,7 +312,6 @@ You can use a tag for ordering service startup within a load ordering group by s
 
 Tags are only evaluated for driver services that have <b>SERVICE_BOOT_START</b> or <b>SERVICE_SYSTEM_START</b> start types.
 
-
 ### -param lpDependencies [in, optional]
 
 A pointer to a double null-terminated array of null-separated names of services or load ordering groups that the system must start before this service can be started. (Dependency on a group means that this service can run if at least one member of the group is running after an attempt to start all members of the group.) Specify NULL if you are not changing the existing dependencies. Specify an empty string if the service has no dependencies. 
@@ -334,7 +320,6 @@ A pointer to a double null-terminated array of null-separated names of services 
 
 
 You must prefix group names with SC_GROUP_IDENTIFIER so that they can be distinguished from a service name, because services and service groups share the same name space.
-
 
 ### -param lpServiceStartName [in, optional]
 
@@ -353,7 +338,6 @@ A service can be configured to use a managed account or a virtual  account. If t
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>Managed service accounts and virtual accounts are not supported until Windows 7 and Windows Server 2008 R2.
 
-
 ### -param lpPassword [in, optional]
 
 The password to the account name specified by the <i>lpServiceStartName</i> parameter. Specify <b>NULL</b> if you are not changing the existing password. Specify an empty string if the account has no password or if the service runs in the LocalService, NetworkService, or LocalSystem account. For more information, see 
@@ -365,7 +349,6 @@ The password to the account name specified by the <i>lpServiceStartName</i> para
 If the account name specified by the  <i>lpServiceStartName</i> parameter is the name of  a managed service account or virtual account name, the <i>lpPassword</i> parameter must be <b>NULL</b>. 
 
 Passwords are ignored for driver services.
-
 
 ### -param lpDisplayName [in, optional]
 
@@ -379,10 +362,7 @@ The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>pa
 
 <b>Windows Server 2003 and Windows XP:  </b>Localized strings are not supported until Windows Vista.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -474,14 +454,8 @@ The service has been marked for deletion.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>ChangeServiceConfig</b> function changes the configuration information for the specified service in the service control manager database. You can obtain the current configuration information by using the 
@@ -500,12 +474,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
@@ -544,7 +513,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
- 
-
- 
 

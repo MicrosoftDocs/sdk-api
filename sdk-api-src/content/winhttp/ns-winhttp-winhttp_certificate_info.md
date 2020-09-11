@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 72b0094b-ac9d-499f-8a75-6728be2826ea
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CERTIFICATE_INFO, WINHTTP_CERTIFICATE_INFO structure [HTTP], http.internet_certificate_info, winhttp/WINHTTP_CERTIFICATE_INFO, winhttp_internet_certificate_info_structure
-f1_keywords:
-- winhttp/WINHTTP_CERTIFICATE_INFO
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winhttp.h
-api_name:
-- WINHTTP_CERTIFICATE_INFO
 targetos: Windows
 req.typenames: WINHTTP_CERTIFICATE_INFO
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WINHTTP_CERTIFICATE_INFO
+ - winhttp/WINHTTP_CERTIFICATE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winhttp.h
+api_name:
+ - WINHTTP_CERTIFICATE_INFO
 ---
 
 ## -description
@@ -54,22 +55,20 @@ The <b>WINHTTP_CERTIFICATE_INFO</b> structure contains certificate information r
 ### -field ftExpiry
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date the certificate expires. 
-
+						<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date the certificate expires.
 
 ### -field ftStart
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date the certificate becomes valid. 
-
+						<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date the certificate becomes valid.
 
 ### -field lpszSubjectInfo
 
-A pointer to a buffer that contains the name of the organization, site, and server for which the certificate was issued. 
+A pointer to a buffer that contains the name of the organization, site, and server for which the certificate was issued.
 
 ### -field lpszIssuerInfo
 
-A pointer to a buffer that contains the name of the organization, site, and server that issued the certificate. 
+A pointer to a buffer that contains the name of the organization, site, and server that issued the certificate.
 
 ### -field lpszProtocolName
 
@@ -85,7 +84,7 @@ A pointer to a buffer that contains the name of the algorithm used to perform en
 
 ### -field dwKeySize
 
-The size, in bytes, of the key. 
+The size, in bytes, of the key.
 
 ## -remarks
 
@@ -109,3 +108,4 @@ Once the application no longer needs the returned <b>WINHTTP_CERTIFICATE_INFO</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption">WinHttpQueryOption</a>
+

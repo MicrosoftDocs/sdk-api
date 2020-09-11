@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 708a890e-4dc6-49c7-b857-cdb8504e7f7f
 ms.date: 12/05/2018
 ms.keywords: RtmDeleteNextHop, RtmDeleteNextHop function [RAS], _rtmv2ref_rtmdeletenexthop, rras.rtmdeletenexthop, rtmv2/RtmDeleteNextHop
-f1_keywords:
-- rtmv2/RtmDeleteNextHop
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmDeleteNextHop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmDeleteNextHop
+ - rtmv2/RtmDeleteNextHop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmDeleteNextHop
 ---
 
 # RtmDeleteNextHop function
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmDeleteNextHop</b> function deletes a next hop from the next-hop list.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param NextHopHandle [in]
 
 Handle to the next hop to delete. This parameter is optional and can be set to <b>NULL</b>; if it is <b>NULL</b>, the values in <i>NextHopInfo</i> are used to identify the next hop to delete.
-
 
 ### -param NextHopInfo [in]
 
 Pointer to a structure that contains information identifying the next hop to delete. This parameter is optional and can be set to <b>NULL</b>; if it is <b>NULL</b>, the handle in <i>NextHopHandle</i> is used to identify the next hop to delete.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -127,24 +118,12 @@ The specified next hop was not found.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 If a client specifies a <i>NextHopHandle</i>, the client should not subsequently release the handle using 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a>
 
@@ -159,7 +138,4 @@ If a client specifies a <i>NextHopHandle</i>, the client should not subsequently
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetnexthoppointer">RtmGetNextHopPointer</a>
- 
-
- 
 

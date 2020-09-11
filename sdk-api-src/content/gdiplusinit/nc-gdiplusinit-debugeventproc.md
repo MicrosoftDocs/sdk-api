@@ -34,6 +34,7 @@ api_location:
 api_name:
  - DebugEventProc
 f1_keywords:
+ - DebugEventProc
  - gdiplusinit/DebugEventProc
 dev_langs:
  - c++
@@ -56,3 +57,4 @@ A pointer to a narrow string containing the debug event message.
 ## -remarks
 
 ## -see-also
+

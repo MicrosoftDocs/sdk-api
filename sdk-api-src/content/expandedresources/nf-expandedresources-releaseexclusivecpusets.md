@@ -8,10 +8,6 @@ tech.root: gamemode
 ms.assetid: C30D28CF-1A35-4849-AEC4-74F971C5F9DF
 ms.date: 12/05/2018
 ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expandedresources/ReleaseExclusiveCpuSets, gamemode.releaseexclusivecpusets
-f1_keywords:
-- expandedresources/ReleaseExclusiveCpuSets
-dev_langs:
-- c++
 req.header: expandedresources.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowsapp.lib
 req.dll: Gamemode.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gamemode.dll
-api_name:
-- ReleaseExclusiveCpuSets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReleaseExclusiveCpuSets
+ - expandedresources/ReleaseExclusiveCpuSets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gamemode.dll
+api_name:
+ - ReleaseExclusiveCpuSets
 ---
 
 # ReleaseExclusiveCpuSets function
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opts out of CPU exclusivity, giving the app access to all cores, but at the cost of having to share them with other processes.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The result of the operation.
 
-
-
-
 ## -remarks
-
-
 
 You should call this function when you want to transition to shared mode (for example, if the app is running on a low-end device).
 
@@ -99,6 +86,4 @@ IgnorableNamespaces=" rescap">
 This capability is granted on a per-title basis; contact your account manager for more information. You can publish a UWP app with this capability to the Store if it targets desktop, but if it targets Xbox it will be rejected in certification.
 
 The app must be in the foreground and have focus before exclusive resources are granted.
-
-
 

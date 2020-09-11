@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 62103a25-cc1c-49d2-b822-d580bc79b645
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMBackupCollection object, Count property [GPMC],IGPMBackupCollection interface, GPMBackupCollection object [GPMC],Count property, IGPMBackupCollection interface [GPMC],Count property, IGPMBackupCollection.Count, IGPMBackupCollection.get_Count, IGPMBackupCollection::Count, IGPMBackupCollection::get_Count, _win32_igpmbackupcollection_get_count, get_Count, gpmc.igpmbackupcollection_get_count, gpmgmt/IGPMBackupCollection::Count, gpmgmt/IGPMBackupCollection::get_Count
-f1_keywords:
-- gpmgmt/IGPMBackupCollection.Count
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMBackupCollection.Count
-- IGPMBackupCollection.get_Count
-- GPMBackupCollection.Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMBackupCollection::get_Count
+ - gpmgmt/IGPMBackupCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMBackupCollection.Count
+ - IGPMBackupCollection.get_Count
+ - GPMBackupCollection.Count
 ---
 
 # IGPMBackupCollection::get_Count
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the number of 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> objects in the collection.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
@@ -75,7 +70,4 @@ This property is read-only.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>
- 
-
- 
 

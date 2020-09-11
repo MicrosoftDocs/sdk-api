@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 8f77b3bc-2e47-4966-8030-d05a626ee00a
 ms.date: 12/05/2018
 ms.keywords: ITfUIElementSink, ITfUIElementSink interface [Text Services Framework], ITfUIElementSink interface [Text Services Framework],described, _tsf_itfuielementsink_ref, msctf/ITfUIElementSink, tsf.itfuielementsink
-f1_keywords:
-- msctf/ITfUIElementSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.h
-api_name:
-- ITfUIElementSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElementSink
+ - msctf/ITfUIElementSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.h
+api_name:
+ - ITfUIElementSink
 ---
 
 # ITfUIElementSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfUIElementSink</b> interface is implemented by an application to receive notifications when the UI element is changed.
-
 
 ## -inheritance
 
@@ -95,14 +94,9 @@ This is called when the contents of the UIElement is updated.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To install this advise sink, obtain an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> object by calling <b>ITfUIElementMgr::QueryInterface</b> with IID_ ITfSource. Then call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ ITfUIElementSink.
-
-
 

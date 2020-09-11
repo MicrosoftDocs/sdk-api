@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 03411e7a-b097-4059-a198-3d412ae40e38
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageSignature, CryptVerifyMessageSignature function [Security], _crypto2_cryptverifymessagesignature, security.cryptverifymessagesignature, wincrypt/CryptVerifyMessageSignature
-f1_keywords:
-- wincrypt/CryptVerifyMessageSignature
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptVerifyMessageSignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifyMessageSignature
+ - wincrypt/CryptVerifyMessageSignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptVerifyMessageSignature
 ---
 
 # CryptVerifyMessageSignature function
@@ -49,37 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptVerifyMessageSignature</b> function verifies a signed message's signature.
 
 This function should not be used to verify the signature of a detached message. You should use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a> function to verify the signature of a detached message.
 
-
 ## -parameters
-
-
-
 
 ### -param pVerifyPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure that contains verification parameters.
 
-
 ### -param dwSignerIndex [in]
 
 The index of the desired signature. There can be more than one signature. <b>CryptVerifyMessageSignature</b> can be called repeatedly, incrementing <i>dwSignerIndex</i> each time. Set this parameter to zero for the first signer, or if there is only one signer. If the function returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns CRYPT_E_NO_SIGNER, the previous call processed the last signer of the message.
-
 
 ### -param pbSignedBlob [in]
 
 A pointer to a buffer that contains the signed message.
 
-
 ### -param cbSignedBlob [in]
 
 The size, in bytes, of the signed message buffer.
-
 
 ### -param pbDecoded [out]
 
@@ -90,7 +82,6 @@ A pointer to a buffer to receive the decoded message.
 
 This parameter can be <b>NULL</b> if the decoded message is not needed for additional processing or to set the size of the message for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbDecoded [in, out]
 
@@ -106,10 +97,7 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>p
 
 The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointer that receives the certificate of the signer. When you have finished using this structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function. This parameter can be <b>NULL</b> if the signer's certificate is not needed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero. This does not necessarily mean that the signature was verified. In the case of a detached message, the variable pointed to by <i>pcbDecoded</i> will contain zero. In this case, this function will return nonzero, but the signature is not verified. To verify the signature of a detached message, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a> function.
 
@@ -203,11 +191,7 @@ The message's signature was not verified.
 </div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 For a verified signer and message, <i>ppSignerCert</i> is updated with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> of the signer. It must be freed by calling 
@@ -223,12 +207,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>
 
@@ -239,7 +218,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

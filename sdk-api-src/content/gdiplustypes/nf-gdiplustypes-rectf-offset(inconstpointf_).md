@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods.htm
 ms.date: 12/05/2018
 ms.keywords: Offset, Offset methods [GDI+], RectF.Offset, RectF::Offset, _gdiplus_CLASS_RectF_Offset_Methods, gdiplus._gdiplus_CLASS_RectF_Offset_Methods, gdiplustypes/Offset
-f1_keywords:
-- gdiplustypes/RectF.Offset
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplustypes.h
-api_name:
-- RectF.Offset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RectF::Offset
+ - gdiplustypes/RectF::Offset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplustypes.h
+api_name:
+ - RectF.Offset
 ---
 
 # RectF::Offset
 
 
 ## -description
-
 
 <span>This topic lists the 
 			Offset methods of the 

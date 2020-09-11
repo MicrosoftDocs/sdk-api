@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: dc0a93e3-9f3c-40b2-86ee-98306038742a
 ms.date: 12/05/2018
 ms.keywords: MsiApplyMultiplePatches, MsiApplyMultiplePatches function, MsiApplyMultiplePatchesA, MsiApplyMultiplePatchesW, msi/MsiApplyMultiplePatches, msi/MsiApplyMultiplePatchesA, msi/MsiApplyMultiplePatchesW, setup.msiapplymultiplepatches
-f1_keywords:
-- msi/MsiApplyMultiplePatches
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiApplyMultiplePatches
-- MsiApplyMultiplePatchesA
-- MsiApplyMultiplePatchesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiApplyMultiplePatchesW
+ - msi/MsiApplyMultiplePatchesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiApplyMultiplePatches
+ - MsiApplyMultiplePatchesA
+ - MsiApplyMultiplePatchesW
 ---
 
 # MsiApplyMultiplePatchesW function
@@ -52,25 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiApplyMultiplePatches</b> function applies one or more patches to products eligible to receive the patches. 
    The <b>MsiApplyMultiplePatches</b> function sets the <a href="https://docs.microsoft.com/windows/desktop/Msi/patch">PATCH</a> property with a list of patches delimited by semicolons and invokes the patching of the target products. Other properties can be set using a properties list.
 
-
 ## -parameters
-
-
-
 
 ### -param szPatchPackages [in]
 
 A  semicolon-delimited list of the paths to patch files as a single string. For example: ""c:\sus\download\cache\Office\sp1.msp; c:\sus\download\cache\Office\QFE1.msp; c:\sus\download\cache\Office\QFEn.msp"   "
 
-
 ### -param szProductCode [in, optional]
 
 This parameter is the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product to be patched. The user or application calling <b>MsiApplyMultiplePatches</b> must have privileges to apply patches. When this parameter is <b>NULL</b>, the patches are applied to all eligible products. When this parameter is non-<b>NULL</b>, the patches are applied only to the specified product.
-
 
 ### -param szPropertiesList [in, optional]
 
@@ -82,8 +76,6 @@ A null-terminated string that specifies command–line property settings used du
 <div> </div>
 
 ## -returns
-
-
 
 The <b>MsiApplyMultiplePatches</b> function returns the following values.
 
@@ -181,15 +173,8 @@ Implies possible partial completion or that one or more transactions failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">About Properties</a>
 
@@ -212,9 +197,6 @@ Implies possible partial completion or that one or more transactions failed.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>
- 
-
- 
 
 ## -remarks
 

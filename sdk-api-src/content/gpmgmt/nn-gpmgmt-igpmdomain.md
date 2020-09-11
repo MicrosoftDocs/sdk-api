@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: c3639f07-7c8c-4440-ade4-b58abd2586d6
 ms.date: 12/05/2018
 ms.keywords: GPMDomain, IGPMDomain, IGPMDomain interface [GPMC], IGPMDomain interface [GPMC],described, _win32_igpmdomain, gpmc.igpmdomain, gpmgmt/IGPMDomain
-f1_keywords:
-- gpmgmt/IGPMDomain
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMDomain
-- GPMDomain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMDomain
+ - gpmgmt/IGPMDomain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMDomain
+ - GPMDomain
 ---
 
 # IGPMDomain interface
 
 
 ## -description
-
 
 The 
 <b>IGPMDomain</b> interface represents a specific domain and supports methods that allow you to perform the following tasks when you are using the Group Policy Management Console (GPMC) interfaces:
@@ -59,7 +59,6 @@ The
 <li>Create and query Windows Management Instrumentation (WMI) filters.</li>
 </ul>To create a <b>GPMDomain</b> object, call the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getdomain">IGPM::GetDomain</a> method.
-
 
 ## -inheritance
 
@@ -197,13 +196,9 @@ The full DNS name of the domain controller. This is the domain controller with w
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -238,7 +233,4 @@ The full DNS name of the domain controller. This is the domain controller with w
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
- 
-
- 
 

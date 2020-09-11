@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imagecodecinfo.htm
 ms.date: 12/05/2018
 ms.keywords: ImageCodecInfo, ImageCodecInfo class [GDI+], ImageCodecInfo class [GDI+],described, _gdiplus_CLASS_ImageCodecInfo_Class, gdiplus._gdiplus_CLASS_ImageCodecInfo_Class, gdiplusimaging/ImageCodecInfo
-f1_keywords:
-- gdiplusimaging/ImageCodecInfo
-dev_langs:
-- c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.lib
-- Gdiplus.dll
-api_name:
-- ImageCodecInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - ImageCodecInfo
+ - gdiplusimaging/ImageCodecInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.lib
+ - Gdiplus.dll
+api_name:
+ - ImageCodecInfo
 ---
 
 # ImageCodecInfo class
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 An <b>ImageCodecInfo</b> object stores information about an image codec (encoder/decoder). GDI+ provides several built-in image codecs. You can obtain information about those codecs by calling the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders">GetImageEncoders</a> function and the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoders">GetImageDecoders</a> function. Each of those functions returns an array of <b>ImageCodecInfo</b> objects, one for each available encoder or decoder.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">ImageCodecInfo</b> has these types of members:
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
 
@@ -85,7 +81,4 @@ An <b>ImageCodecInfo</b> object stores information about an image codec (encoder
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
- 
-
- 
 

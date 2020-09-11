@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0f763bd3-08b9-4804-8e52-2c8014428a45
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate interface [COM],SetContentExtent method, IQuickActivate.SetContentExtent, IQuickActivate::SetContentExtent, SetContentExtent, SetContentExtent method [COM], SetContentExtent method [COM],IQuickActivate interface, _ctrl_iquickactivate_setcontentextent, com.iquickactivate_setcontentextent, ocidl/IQuickActivate::SetContentExtent
-f1_keywords:
-- ocidl/IQuickActivate.SetContentExtent
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IQuickActivate.SetContentExtent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQuickActivate::SetContentExtent
+ - ocidl/IQuickActivate::SetContentExtent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IQuickActivate.SetContentExtent
 ---
 
 # IQuickActivate::SetContentExtent
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the content extent of a control.
 
-
 ## -parameters
-
-
-
 
 ### -param pSizel [in]
 
 The size of the content extent.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>
- 
-
- 
 

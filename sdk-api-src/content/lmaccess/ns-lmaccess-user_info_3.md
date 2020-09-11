@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 39ed05f5-165d-4cb8-98af-e4120a1634f6
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_3, *PUSER_INFO_3, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_3, LPUSER_INFO_3 structure pointer [Network Management], PUSER_INFO_3, PUSER_INFO_3 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_3, USER_INFO_3 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _win32_user_info_3_str, lmaccess/LPUSER_INFO_3, lmaccess/PUSER_INFO_3, lmaccess/USER_INFO_3, netmgmt.user_info_3_str'
-f1_keywords:
-- lmaccess/USER_INFO_3
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- USER_INFO_3
 targetos: Windows
 req.typenames: USER_INFO_3, *PUSER_INFO_3, *LPUSER_INFO_3
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USER_INFO_3
+ - lmaccess/_USER_INFO_3
+ - PUSER_INFO_3
+ - lmaccess/PUSER_INFO_3
+ - USER_INFO_3
+ - lmaccess/USER_INFO_3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - USER_INFO_3
 ---
 
 # USER_INFO_3 structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USER_INFO_3</b> structure contains information about a user account, including the account name, password data, privilege level, the path to the user's home directory, relative identifiers (RIDs), and other user-related network statistics.
 
-
 ## -struct-fields
-
-
-
 
 ### -field usri3_name
 
@@ -65,7 +65,6 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that specifies the name of the user account. For the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function, this member is ignored. For more information, see the following Remarks section.
-
 
 ### -field usri3_password
 
@@ -80,7 +79,6 @@ A pointer to a Unicode string that specifies the password for the user identifie
 
 By convention, the length of passwords is limited to LM20_PWLEN characters.
 
-
 ### -field usri3_password_age
 
 Type: <b>DWORD</b>
@@ -88,7 +86,6 @@ Type: <b>DWORD</b>
 The number of seconds that have elapsed since the <b>usri3_password</b> member was last changed. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
-
 
 ### -field usri3_priv
 
@@ -137,8 +134,6 @@ Administrator
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri3_home_dir
 
@@ -146,13 +141,11 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string specifying the path of the home directory of the user specified by the <b>usri3_name</b> member. The string can be <b>NULL</b>.
 
-
 ### -field usri3_comment
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains a comment to associate with the user account. The string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character.
-
 
 ### -field usri3_flags
 
@@ -384,15 +377,12 @@ This is a permit to trust account for a domain that trusts other domains.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri3_script_path
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string specifying the path for the user's logon script file. The script file can be a .CMD file, an .EXE file, or a .BAT file. The string can also be <b>NULL</b>.
-
 
 ### -field usri3_auth_flags
 
@@ -459,8 +449,6 @@ The accounts operator privilege is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri3_full_name
 
@@ -468,20 +456,17 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains the full name of the user. This string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character.
 
-
 ### -field usri3_usr_comment
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains a user comment. This string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character.
 
-
 ### -field usri3_parms
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that is reserved for use by applications. This string can be a <b>NULL</b> string, or it can have any number of characters before the terminating null character. Microsoft products use this member to store user configuration information. Do not modify this information.
-
 
 ### -field usri3_workstations
 
@@ -491,7 +476,6 @@ Type: <b>LPWSTR</b>
 > You should no longer use **usri3_workstations**. Instead, you can control sign-in access to workstations by configuring the User Rights Assignment settings (**Allow log on locally** and **Deny log on locally**, or **Allow log on through Remote Desktop Services** and **Deny log on through Remote Desktop Services**).
 
 A pointer to a Unicode string that contains the names of workstations from which the user can log on. As many as eight workstations can be specified; the names must be separated by commas. If you do not want to restrict the number of workstations, use a <b>NULL</b> string. To disable logons from all workstations to this account, set the UF_ACCOUNTDISABLE value in the <b>usri3_flags</b> member.
-
 
 ### -field usri3_last_logon
 
@@ -506,7 +490,6 @@ The date and time  when the last logon occurred. This value is stored as the num
 
 This member is maintained separately on each backup domain controller (BDC) in the domain. To obtain an accurate value, you must query each BDC in the domain. The last logon occurred at the time indicated by the largest retrieved value.
 
-
 ### -field usri3_last_logoff
 
 Type: <b>DWORD</b>
@@ -520,20 +503,17 @@ The date and time when the last logoff occurred. This value is stored as the num
 
 This member is maintained separately on each backup domain controller (BDC) in the domain. To obtain an accurate value, you must query each BDC in the domain. The last logoff occurred at the time indicated by the largest retrieved value.
 
-
 ### -field usri3_acct_expires
 
 Type: <b>DWORD</b>
 
 The date and time when the account expires. This value is stored as the number of seconds elapsed since 00:00:00, January 1, 1970, GMT. A value of TIMEQ_FOREVER indicates that the account never expires.
 
-
 ### -field usri3_max_storage
 
 Type: <b>DWORD</b>
 
 The maximum amount of disk space the user can use. Specify USER_MAXSTORAGE_UNLIMITED to use all available disk space.
-
 
 ### -field usri3_units_per_week
 
@@ -550,7 +530,6 @@ This value must be UNITS_PER_WEEK for LAN Manager 2.0. This element is ignored b
 
 For service applications, the units must be one of the following values: SAM_DAYS_PER_WEEK, SAM_HOURS_PER_WEEK, or SAM_MINUTES_PER_WEEK.
 
-
 ### -field usri3_logon_hours
 
 Type: <b>PBYTE</b>
@@ -566,7 +545,6 @@ Specify a <b>NULL</b> pointer in this member when calling the
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> function to indicate no time restriction. Specify a <b>NULL</b> pointer when calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function to indicate that no change is to be made to the times during which the user can log on.
 
-
 ### -field usri3_bad_pw_count
 
 Type: <b>DWORD</b>
@@ -579,7 +557,6 @@ The number of times the user tried to log on to the account using an incorrect p
 
 
 This member is replicated from the primary domain controller (PDC); it is also maintained on each backup domain controller (BDC) in the domain. To obtain an accurate value, you must query each BDC in the domain. The number of times the user tried to log on using an incorrect password is the largest value retrieved.
-
 
 ### -field usri3_num_logons
 
@@ -594,7 +571,6 @@ The number of times the user logged on successfully to this account. A value of 
 
 This member is maintained separately on each backup domain controller (BDC) in the domain. To obtain an accurate value, you must query each BDC in the domain. The number of times the user logged on successfully is the sum of the retrieved values.
 
-
 ### -field usri3_logon_server
 
 Type: <b>LPWSTR</b>
@@ -607,20 +583,17 @@ For Windows servers,
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
 
-
 ### -field usri3_country_code
 
 Type: <b>DWORD</b>
 
 The country/region code for the user's language of choice.
 
-
 ### -field usri3_code_page
 
 Type: <b>DWORD</b>
 
 The code page for the user's language of choice.
-
 
 ### -field usri3_user_id
 
@@ -631,7 +604,6 @@ The relative ID (RID) of the user. The RID is determined by the Security Account
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member. For more information about RIDs, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sid-components">SID Components</a>.
 
-
 ### -field usri3_primary_group_id
 
 Type: <b>DWORD</b>
@@ -641,20 +613,17 @@ The RID of the Primary Global Group for the user. When you call the
 <b>NetUserSetInfo</b>, this member must be the RID of a global group in which the user is enrolled. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids">Well-Known SIDs</a>.
 
-
 ### -field usri3_profile
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that specifies a path to the user's profile. This value can be a <b>NULL</b> string, a local absolute path, or a UNC path.
 
-
 ### -field usri3_home_dir_drive
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that specifies the drive letter assigned to the user's home directory for logon purposes.
-
 
 ### -field usri3_password_expired
 
@@ -674,10 +643,7 @@ When you call
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>, specify a nonzero value in this member to inform users that they must change their password at the next logon. To turn off this message, call 
 <b>NetUserSetInfo</b> and specify zero in this member. Note that you cannot specify zero to negate the expiration of a password that has already expired.
 
-
 ## -remarks
-
-
 
 The
 				<b>USER_INFO_3</b> structure can be used with the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>,
@@ -694,13 +660,7 @@ the <b>USER_INFO_4</b> structure instead of the
 			<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>, and
 			<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>functions on Windows XP and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
 
@@ -727,7 +687,4 @@ the <b>USER_INFO_4</b> structure instead of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

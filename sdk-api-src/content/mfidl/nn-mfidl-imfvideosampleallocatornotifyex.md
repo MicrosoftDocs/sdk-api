@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5B3EA486-A45F-4C7B-8E36-80C9C2FD64F2
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx, IMFVideoSampleAllocatorNotifyEx interface [Media Foundation], IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],described, mf.imfvideosampleallocatornotifyex, mfidl/IMFVideoSampleAllocatorNotifyEx
-f1_keywords:
-- mfidl/IMFVideoSampleAllocatorNotifyEx
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFVideoSampleAllocatorNotifyEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoSampleAllocatorNotifyEx
+ - mfidl/IMFVideoSampleAllocatorNotifyEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFVideoSampleAllocatorNotifyEx
 ---
 
 # IMFVideoSampleAllocatorNotifyEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The callback for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback">IMFVideoSampleAllocatorCallback</a> interface.
-
 
 ## -inheritance
 
@@ -86,20 +85,13 @@ Called when allocator samples are released for pruning by the allocator, or when
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatornotify">IMFVideoSampleAllocatorNotify</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

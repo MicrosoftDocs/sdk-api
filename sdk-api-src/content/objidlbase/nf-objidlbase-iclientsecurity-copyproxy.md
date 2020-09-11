@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4664351b-d43b-45dc-800e-574685afd0f6
 ms.date: 12/05/2018
 ms.keywords: CopyProxy, CopyProxy method [COM], CopyProxy method [COM],IClientSecurity interface, IClientSecurity interface [COM],CopyProxy method, IClientSecurity.CopyProxy, IClientSecurity::CopyProxy, _com_iclientsecurity_copyproxy, com.iclientsecurity_copyproxy, objidlbase/IClientSecurity::CopyProxy
-f1_keywords:
-- objidlbase/IClientSecurity.CopyProxy
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IClientSecurity.CopyProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClientSecurity::CopyProxy
+ - objidlbase/IClientSecurity::CopyProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IClientSecurity.CopyProxy
 ---
 
 # IClientSecurity::CopyProxy
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Makes a private copy of the proxy for the specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pProxy [in]
 
 A pointer to the interface whose proxy is to be copied. This parameter cannot be <b>NULL</b>.
 
-
 ### -param ppCopy [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer that receives the copy of the proxy. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -102,14 +94,8 @@ One or more arguments are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>CopyProxy</b> is called by the client to make a private copy of the proxy for the specified interface. The proxy copy has default values for the authentication information. Its authentication information can be changed through a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a> without affecting any other clients of the original proxy. The copy has one reference, and the caller of <b>CopyProxy</b> must ensure that the proxy copy gets freed.
 
@@ -121,21 +107,11 @@ Notice that anyone can query for a proxy and change security on it using <a href
 
 The helper function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocopyproxy">CoCopyProxy</a> encapsulates a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call for a pointer to IClientSecurity, a call to <b>CopyProxy</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> pointer, and the release of the <b>IClientSecurity</b> pointer.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocopyproxy">CoCopyProxy</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>
- 
-
- 
 

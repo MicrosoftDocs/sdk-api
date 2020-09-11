@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 6bae449b-eb75-4598-aacc-65567de67997
 ms.date: 12/05/2018
 ms.keywords: _ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf
-f1_keywords:
-- winber/ber_printf
-dev_langs:
-- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ber_printf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ber_printf
+ - winber/ber_printf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ber_printf
 ---
 
 # ber_printf function
@@ -49,43 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ber_printf</b> function is  used to encode a BER element and is similar to  sprintf_s. One important difference is that state data is stored in the <b>BerElement</b> argument so that multiple calls can be made to <b>ber_printf</b> to append to the end of the BER element. The <b>BerElement</b> argument passed to this function must be a pointer to a <b>BerElement</b> returned by 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_alloc_t">ber_alloc_t</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pBerElement [in, out]
 
 A pointer to the encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
-
 ### -param fmt [in]
 
 An encoding format string. For more information, see Remarks.
-
 
 ### -param arg3 [in]
 
 The values to be encoded as specified by the <i>fmt</i> argument.
 
-
 ## -returns
-
-
 
 If the function succeeds, a non-negative number is returned. If the function fails,  -1 is returned.
 
-
-
-
 ## -remarks
-
-
 
 The format string can contain format characters listed in the following table.
 
@@ -155,13 +141,7 @@ The format string can contain format characters listed in the following table.
 
 Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>) character later in the format string, or in the format string of a subsequent call to <b>ber_printf</b> for that specific <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>. The same applies to the left bracket ([) character and right bracket (]) characters.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
@@ -176,7 +156,4 @@ Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>
 
 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: c9e5d8a4-78a6-4449-9c11-c780e72ab925
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal, ITMultiTrackTerminal interface [TAPI 2.2], ITMultiTrackTerminal interface [TAPI 2.2],described, _tapi3_itmultitrackterminal, tapi3.itmultitrackterminal, tapi3if/ITMultiTrackTerminal
-f1_keywords:
-- tapi3if/ITMultiTrackTerminal
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITMultiTrackTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITMultiTrackTerminal
+ - tapi3if/ITMultiTrackTerminal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITMultiTrackTerminal
 ---
 
 # ITMultiTrackTerminal interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 This 
 <b>ITMultiTrackTerminal</b> interface is exposed on all multitrack terminals. The interface includes methods for enumerating, creating, and removing tracks. The 
 <b>ITMultiTrackTerminal</b> interface is created by calling <b>QueryInterface</b> on 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
-
 
 ## -inheritance
 
@@ -125,5 +124,5 @@ Removes the specified terminal from the collection of track terminals that belon
 
 </td>
 </tr>
-</table> 
+</table>
 

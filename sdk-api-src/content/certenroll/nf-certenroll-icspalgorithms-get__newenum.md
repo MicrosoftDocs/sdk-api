@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 23c23cbe-0d92-4a78-a505-5b2010ce2aca
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms interface [Security],_NewEnum property, ICspAlgorithms._NewEnum, ICspAlgorithms.get__NewEnum, ICspAlgorithms::_NewEnum, ICspAlgorithms::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::_NewEnum, certenroll/ICspAlgorithms::get__NewEnum, get__NewEnum, security.icspalgorithms__newenum_property
-f1_keywords:
-- certenroll/ICspAlgorithms._NewEnum
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspAlgorithms._NewEnum
-- ICspAlgorithms.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspAlgorithms::get__NewEnum
+ - certenroll/ICspAlgorithms::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspAlgorithms._NewEnum
+ - ICspAlgorithms.get__NewEnum
 ---
 
 # ICspAlgorithms::get__NewEnum
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>_NewEnum</b> property retrieves the enumerator for the collection.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">ICspAlgorithm</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithms">ICspAlgorithms</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a990d44d-2993-429f-b817-2a834105ecef
 ms.date: 12/05/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_CTRL_ADD_ATTR_CERT, CMSG_CTRL_ADD_CERT, CMSG_CTRL_ADD_CMS_SIGNER_INFO, CMSG_CTRL_ADD_CRL, CMSG_CTRL_ADD_SIGNER, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR, CMSG_CTRL_DECRYPT, CMSG_CTRL_DECRYPT,CMSG_CTRL_KEY_TRANS_DECRYPT,CMSG_CTRL_KEY_AGREE_DECRYPT,or CMSG_CTRL_MAIL_LIST_DECRYPT,and the streamed enveloped message is being decoded, CMSG_CTRL_DEL_ATTR_CERT, CMSG_CTRL_DEL_CERT, CMSG_CTRL_DEL_CRL, CMSG_CTRL_DEL_SIGNER, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR, CMSG_CTRL_ENABLE_STRONG_SIGNATURE, CMSG_CTRL_KEY_AGREE_DECRYPT, CMSG_CTRL_KEY_TRANS_DECRYPT, CMSG_CTRL_MAIL_LIST_DECRYPT, CMSG_CTRL_VERIFY_HASH, CMSG_CTRL_VERIFY_SIGNATURE, CMSG_CTRL_VERIFY_SIGNATURE_EX, CryptMsgControl, CryptMsgControl function [Security], _crypto2_cryptmsgcontrol, security.cryptmsgcontrol, wincrypt/CryptMsgControl
-f1_keywords:
-- wincrypt/CryptMsgControl
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptMsgControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptMsgControl
+ - wincrypt/CryptMsgControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptMsgControl
 ---
 
 # CryptMsgControl function
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptMsgControl</b> function performs a control operation after a message has been decoded by a final 
 call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a>  function. The control operations provided by this function are used for decryption, signature and hash verification, and the addition and deletion of certificates, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), signers, and unauthenticated attributes.
 
 Important changes that affect the handling of enveloped messages have been made to CryptoAPI to support <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability. For more information, see the Remarks for 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptMsg [in]
 
 A handle of a cryptographic message for which a control is to be applied.
-
 
 ### -param dwFlags [in]
 
@@ -97,7 +92,6 @@ The handle to the cryptographic provider is released on the final call to the  <
  
 
 If the <i>dwCtrlType</i> parameter does not specify a decrypt operation, set this value to zero.
-
 
 ### -param dwCtrlType [in]
 
@@ -331,8 +325,6 @@ A <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_verify_signature_ex
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvCtrlPara [in]
 
@@ -421,12 +413,8 @@ After a deletion is made, any other CRL indices in use for this message are no l
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -626,22 +614,12 @@ Not enough memory was available to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

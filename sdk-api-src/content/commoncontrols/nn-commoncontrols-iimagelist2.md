@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\iimagelist2.htm
 ms.date: 12/05/2018
 ms.keywords: IImageList2, IImageList2 interface [Windows Controls], IImageList2 interface [Windows Controls],described, _shell_IImageList2, _shell_IImageList2_cpp, commoncontrols/IImageList2, controls.IImageList2, controls._shell_IImageList2
-f1_keywords:
-- commoncontrols/IImageList2
-dev_langs:
-- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Commoncontrols.h
-api_name:
-- IImageList2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageList2
+ - commoncontrols/IImageList2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Commoncontrols.h
+api_name:
+ - IImageList2
 ---
 
 # IImageList2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a> by providing additional methods for manipulating and interacting with image lists.
-
 
 ## -inheritance
 
@@ -176,5 +175,5 @@ Sets the original size of a specified image.
 
 </td>
 </tr>
-</table> 
+</table>
 

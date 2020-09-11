@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: ad610b7a-9865-4feb-81d2-491f9f87ef3e
 ms.date: 12/05/2018
 ms.keywords: InitializeThreadpoolEnvironment, InitializeThreadpoolEnvironment function, base.initializethreadpoolenvironment, winbase/InitializeThreadpoolEnvironment
-f1_keywords:
-- winbase/InitializeThreadpoolEnvironment
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- InitializeThreadpoolEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeThreadpoolEnvironment
+ - winbase/InitializeThreadpoolEnvironment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - InitializeThreadpoolEnvironment
 ---
 
 # InitializeThreadpoolEnvironment function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a callback environment.
 
-
 ## -parameters
-
-
-
 
 ### -param pcbe [out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines a callback environment.
 
-
 ## -remarks
-
-
 
 By default, a callback executes in the default thread pool for the process. No cleanup group is associated with the callback environment, the caller is responsible for keeping the callback's DLL loaded while there are outstanding callbacks, and the callback is expected to run in a reasonable amount of time for the application. 
 
@@ -118,12 +111,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-destroythreadpoolenvironment">DestroyThreadpoolEnvironment</a>
 
@@ -146,7 +134,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 22309920-f32c-4639-8869-b915a337d86f
 ms.date: 12/05/2018
 ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
-f1_keywords:
-- vbinterf/IVBGetControl
-dev_langs:
-- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VbInterf.h
-api_name:
-- IVBGetControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVBGetControl
+ - vbinterf/IVBGetControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VbInterf.h
+api_name:
+ - IVBGetControl
 ---
 
 # IVBGetControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to all the controls on a Visual Basic container.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Enumerates the controls on the form.
 
 </td>
 </tr>
-</table> 
+</table>
 

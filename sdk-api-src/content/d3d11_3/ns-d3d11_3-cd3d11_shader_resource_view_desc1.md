@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 051F58C1-E3F3-4205-B834-7A14FEDFED2C
 ms.date: 12/05/2018
 ms.keywords: CD3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1, direct3d11.d3d11_shader_resource_view_desc1
-f1_keywords:
-- d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_3.h
-api_name:
-- D3D11_SHADER_RESOURCE_VIEW_DESC1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CD3D11_SHADER_RESOURCE_VIEW_DESC1
+ - d3d11_3/CD3D11_SHADER_RESOURCE_VIEW_DESC1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_3.h
+api_name:
+ - D3D11_SHADER_RESOURCE_VIEW_DESC1
 ---
 
 # CD3D11_SHADER_RESOURCE_VIEW_DESC1 structure
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a shader-resource view.
-
 
 ## -struct-fields
 
-
-
-
 ### -field CD3D11_SHADER_RESOURCE_VIEW_DESC1
 
-TBD 
-
+TBD
 
 ### -field ~CD3D11_SHADER_RESOURCE_VIEW_DESC1
 
-TBD 
-
+TBD
 
 ### -field operator const D3D11_SHADER_RESOURCE_VIEW_DESC1&
 
-TBD 
-
+TBD
 
 ### -field D3D11_SHADER_RESOURCE_VIEW_DESC1
 
@@ -144,10 +137,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_t
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476217(v=vs.85)">D3D11_SRV_DIMENSION</a>-typed value that  specifies the resource type of the view. This type is the same as the resource type of the underlying resource. This member also determines which _SRV to use in the union below.
 
-
 ## -remarks
-
-
 
 A view is a format-specific way to look at the data in a resource. The view determines what data to look at, and how it is cast when read.
 
@@ -155,16 +145,7 @@ When viewing a resource, the resource-view description must specify a typed form
 
 Create a shader-resource-view description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createshaderresourceview1">ID3D11Device3::CreateShaderResourceView1</a>. To view a shader-resource-view description, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11shaderresourceview1-getdesc1">ID3D11ShaderResourceView1::GetDesc1</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
- 
-
- 
 

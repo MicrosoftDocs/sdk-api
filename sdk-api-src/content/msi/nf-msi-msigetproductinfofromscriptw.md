@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: fe0bc709-b410-4a61-bea3-d11fc8f71883
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductInfoFromScript, MsiGetProductInfoFromScript function, MsiGetProductInfoFromScriptA, MsiGetProductInfoFromScriptW, _msi_msigetproductinfofromscript, msi/MsiGetProductInfoFromScript, msi/MsiGetProductInfoFromScriptA, msi/MsiGetProductInfoFromScriptW, setup.msigetproductinfofromscript
-f1_keywords:
-- msi/MsiGetProductInfoFromScript
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetProductInfoFromScript
-- MsiGetProductInfoFromScriptA
-- MsiGetProductInfoFromScriptW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetProductInfoFromScriptW
+ - msi/MsiGetProductInfoFromScriptW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetProductInfoFromScript
+ - MsiGetProductInfoFromScriptA
+ - MsiGetProductInfoFromScriptW
 ---
 
 # MsiGetProductInfoFromScriptW function
@@ -51,60 +52,45 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetProductInfoFromScript</b> function returns product information for a Windows Installer script file.
 
-
 ## -parameters
-
-
-
 
 ### -param szScriptFile [in]
 
 A null-terminated string specifying the full path to the script file. The script file is the advertise script that was created by calling <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproducta">MsiAdvertiseProduct</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproductexa">MsiAdvertiseProductEx</a>.
-
 
 ### -param lpProductBuf39 [out]
 
 Points to a buffer that receives the product code. The buffer must be 39 characters long. The first 38 characters are for the product code 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character.
 
-
 ### -param plgidLanguage [out]
 
 Points to a variable that receives the product language.
-
 
 ### -param pdwVersion [out]
 
 Points to a buffer that receives the product version.
 
-
 ### -param lpNameBuf [out]
 
 Points to a buffer that receives the product name. The buffer includes a terminating null character.
-
 
 ### -param pcchNameBuf [in, out]
 
 Points to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpNameBuf</i> parameter. This size should include the terminating null character. When the function returns, this variable contains the length of the string stored in the buffer. The count returned does not include the terminating null character. If the buffer is not large enough, the function returns ERROR_MORE_DATA, and the variable contains the size of the string in characters, without counting the null character.
 
-
 ### -param lpPackageBuf [out]
 
 Points to a buffer that receives the package name. The buffer includes the terminating null character.
-
 
 ### -param pcchPackageBuf [in, out]
 
 Points to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpPackageNameBuf</i> parameter. This size should include the terminating null character. When the function returns, this variable contains the length of the string stored in the buffer. The count returned does not include the terminating null character. If the buffer is not large enough, the function returns ERROR_MORE_DATA, and the variable contains the size of the string in characters, without counting the null character.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -167,9 +153,6 @@ This function is only available on Windows 2000 and Windows XP.
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -remarks
 

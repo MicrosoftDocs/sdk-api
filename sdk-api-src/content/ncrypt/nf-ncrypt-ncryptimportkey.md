@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ede0e7e0-cb2c-44c0-b724-58db3480b781
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptImportKey, NCryptImportKey function [Security], ncrypt/NCryptImportKey, security.ncryptimportkey_func
-f1_keywords:
-- ncrypt/NCryptImportKey
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptImportKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptImportKey
+ - ncrypt/NCryptImportKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptImportKey
 ---
 
 # NCryptImportKey function
@@ -49,49 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptImportKey</b> function imports a Cryptography API: Next Generation (CNG) key from a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hProvider [in]
 
 The handle of the key storage provider.
 
-
 ### -param hImportKey [in, optional]
 
 The handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic key</a> with which the key data within the imported <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> was encrypted. This must be a handle to the same key that was passed in the <i>hExportKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> function. If this parameter is <b>NULL</b>, the key BLOB is assumed to not be encrypted.
-
 
 ### -param pszBlobType [in]
 
 A null-terminated Unicode string that contains an identifier that specifies the format of the key BLOB. These formats are specific to a particular key storage provider. For the BLOB formats supported by Microsoft providers, see Remarks.
 
-
 ### -param pParameterList [in, optional]
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that points to an array of buffers that contain parameter information for the key.
-
 
 ### -param phKey [out]
 
 The address of an <b>NCRYPT_KEY_HANDLE</b> variable that receives the handle of the key. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
 
-
 ### -param pbData [in]
 
-The address of a buffer that contains the key BLOB to be imported. The <i>cbData</i> parameter contains the size of this buffer. 
-
+The address of a buffer that contains the key BLOB to be imported. The <i>cbData</i> parameter contains the size of this buffer.
 
 ### -param cbData [in]
 
 The size, in bytes, of the <i>pbData</i> buffer.
-
 
 ### -param dwFlags [in]
 
@@ -113,12 +102,8 @@ Requests that the key service provider (KSP) not display any user interface. If 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -199,14 +184,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
@@ -312,16 +291,7 @@ On Windows Server 2008 R2 and Windows 7, the Microsoft Smart Card Key Storage
 
 If the key container name is <b>NULL</b>, the Microsoft Smart Card KSP treats the key as ephemeral and imports it into the Microsoft Software KSP.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 0fb3a94d-8c8e-4d04-b9ca-56ad2e066aac
 ms.date: 12/05/2018
 ms.keywords: Authenticate, Authenticate method [Windows Media Player], Authenticate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Authenticate method, IWMPContentPartner.Authenticate, IWMPContentPartner::Authenticate, IWMPContentPartnerAuthenticate, contentpartner/IWMPContentPartner::Authenticate, wmp.iwmpcontentpartner_authenticate
-f1_keywords:
-- contentpartner/IWMPContentPartner.Authenticate
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.Authenticate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::Authenticate
+ - contentpartner/IWMPContentPartner::Authenticate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.Authenticate
 ---
 
 # IWMPContentPartner::Authenticate
@@ -49,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>Authenticate</b> method initiates an attempt to authenticate the user.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param userInfo [in]
 
 <b>BLOB</b> that contains encrypted user information.
 
-
 ### -param pwdInfo [in]
 
 <b>BLOB</b> that contains encrypted password information.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,14 +85,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Certain links on a discovery page have targets that should be displayed only after the user has been authenticated. The discovery page, Windows Media Player, and the online store's plug-in use the following steps to authenticate the user and display the target webpage:
 
@@ -117,16 +100,7 @@ Certain links on a discovery page have targets that should be displayed only aft
 </ol>
 To decrypt the information supplied in <i>userInfo</i> and <i>pwdInfo</i>, use the <b>CryptUnprotectData</b> function, which is documented in the Cryptography section of the Windows SDK. You must set the CRYPTPROTECT_UI_FORBIDDEN flag in the <i>dwFlags</i> parameter. Set the optional and reserved parameters to <b>NULL</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
- 
-
- 
 

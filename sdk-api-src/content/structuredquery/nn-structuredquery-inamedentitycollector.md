@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\inamedentitycollector.htm
 ms.date: 12/05/2018
 ms.keywords: INamedEntityCollector, INamedEntityCollector interface [search], INamedEntityCollector interface [search],described, _search_INamedEntityCollector, search._search_INamedEntityCollector, structuredquery/INamedEntityCollector
-f1_keywords:
-- structuredquery/INamedEntityCollector
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- INamedEntityCollector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - INamedEntityCollector
+ - structuredquery/INamedEntityCollector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - INamedEntityCollector
 ---
 
 # INamedEntityCollector interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method to accumulate named entities as identified by an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object. When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object that, in turn, invokes this interface to collect possible named entities in the input string.
-        
-
 
 ## -inheritance
 
@@ -79,5 +77,5 @@ Adds a single (potential) named entity to this <b>INamedEntityCollector</b> coll
 
 </td>
 </tr>
-</table> 
+</table>
 

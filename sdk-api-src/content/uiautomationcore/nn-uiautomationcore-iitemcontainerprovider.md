@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 403436f5-7540-455b-965e-e2e3b64ef7e0
 ms.date: 12/05/2018
 ms.keywords: IItemContainerProvider, IItemContainerProvider interface [Windows Accessibility], IItemContainerProvider interface [Windows Accessibility],described, uiauto.uiauto_IItemContainerProvider, uiauto_IItemContainerProvider, uiautomationcore/IItemContainerProvider, winauto.uiauto_IItemContainerProvider
-f1_keywords:
-- uiautomationcore/IItemContainerProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IItemContainerProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IItemContainerProvider
+ - uiautomationcore/IItemContainerProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IItemContainerProvider
 ---
 
 # IItemContainerProvider interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to controls that act as containers of other controls, such as a virtual list-view.
-        
-
 
 ## -inheritance
 
@@ -78,28 +76,16 @@ Retrieves an element within a containing element, based on a specified property 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingitemcontainer">ItemContainer</a> control pattern allows a container object to efficiently lookup an item by a 
 		specified automation element property, such as Name, AutomationId, or IsSelected state. While this control 
 		pattern is introduced with a view to being used by virtualized containers, it can be implemented by any container 
 		that provides name lookup, independently of whether that container uses virtualization.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

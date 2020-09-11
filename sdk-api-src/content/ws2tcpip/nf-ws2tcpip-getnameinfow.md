@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 5630a49a-c182-440c-ad54-6ff3ba4274c6
 ms.date: 12/05/2018
 ms.keywords: GetNameInfoW, GetNameInfoW function [Winsock], winsock.getnameinfow, ws2tcpip/GetNameInfoW
-f1_keywords:
-- ws2tcpip/GetNameInfoW
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- GetNameInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNameInfoW
+ - ws2tcpip/GetNameInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - GetNameInfoW
 ---
 
 # GetNameInfoW function
@@ -49,56 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetNameInfoW</b> function provides protocol-independent name resolution from an address to a Unicode host name and from a port number  to the Unicode service name.
 
-
 ## -parameters
-
-
-
 
 ### -param pSockaddr [in]
 
 A pointer to a socket address structure containing the IP address and port number of the socket. For IPv4, the <i>pSockaddr</i> parameter points to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a> structure. For IPv6, the <i>pSockaddr</i> parameter points to a <b>sockaddr_in6</b> structure.
 
-
 ### -param SockaddrLength [in]
 
 The length, in bytes, of the structure pointed to by the <i>pSockaddr</i> parameter.
-
 
 ### -param pNodeBuffer [out]
 
 A pointer to  a Unicode string to hold the host name. On success, a pointer to the Unicode host name is returned as a Fully Qualified Domain Name (FQDN) by default. If the <i>pNodeBuffer</i> parameter is <b>NULL</b>, this indicates the caller does not want to receive a host name string.
 
-
 ### -param NodeBufferSize [in]
 
-The number of <b>WCHAR</b> characters in the buffer pointed to by the <i>pNodeBuffer</i> parameter. The caller must provide a buffer large enough to hold the Unicode host name, including the terminating <b>NULL</b> character. 
-
+The number of <b>WCHAR</b> characters in the buffer pointed to by the <i>pNodeBuffer</i> parameter. The caller must provide a buffer large enough to hold the Unicode host name, including the terminating <b>NULL</b> character.
 
 ### -param pServiceBuffer [out]
 
 A pointer to  a Unicode string to hold the service name. On success, a pointer is returned to a Unicode string representing the service name associated with the port number. If the <i>pServiceBuffer</i> parameter is <b>NULL</b>, this indicates the caller does not want to receive a service name string.
 
-
 ### -param ServiceBufferSize [in]
 
-The number of <b>WCHAR</b> characters in the buffer pointed to by the <i>pServiceBuffer</i> parameter. The caller must provide a buffer large enough to hold the Unicode service name, including the terminating <b>NULL</b> character. 
-
+The number of <b>WCHAR</b> characters in the buffer pointed to by the <i>pServiceBuffer</i> parameter. The caller must provide a buffer large enough to hold the Unicode service name, including the terminating <b>NULL</b> character.
 
 ### -param Flags [in]
 
 A value used to customize processing of the 
 <b>GetNameInfoW</b> function. See the Remarks section.
 
-
 ## -returns
-
-
 
 On success,  <b>GetNameInfoW</b> returns zero. Any nonzero return value indicates failure and a specific error code can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -170,14 +157,8 @@ This error is returned if the <i>pSockaddr</i> parameter is <b>NULL</b> or the  
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetNameInfoW</b> function is the Unicode version of a function that provides protocol-independent name resolution. The <b>GetNameInfoW</b> function is used to translate the contents of a socket address structure to a node name and/or a service name.
 
@@ -322,9 +303,6 @@ int __cdecl main(int argc, char **argv)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
 
@@ -354,7 +332,4 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

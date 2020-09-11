@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetId method, IOpcRelationship.GetId, IOpcRelationship::GetId, msopc/IOpcRelationship::GetId, opc.iopcrelationship_getid
-f1_keywords:
-- msopc/IOpcRelationship.GetId
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationship.GetId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationship::GetId
+ - msopc/IOpcRelationship::GetId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationship.GetId
 ---
 
 # IOpcRelationship::GetId
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the unique identifier of the relationship.
 
-
 ## -parameters
-
-
-
 
 ### -param relationshipIdentifier [out, retval]
 
@@ -66,10 +62,7 @@ The identifier of a relationship is arbitrary and local to the package, and, the
 
 Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (http://www.w3.org/TR/xmlschema-2/#ID).
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,14 +94,8 @@ The <i>relationshipIdentifier</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The identifier of a relationship is not useful for finding relationships because it is arbitrary and local to the package.
 
@@ -127,13 +114,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -184,7 +165,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a>
- 
-
- 
 

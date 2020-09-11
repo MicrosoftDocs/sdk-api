@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 0f85e64f-b4a6-4982-8df5-88caa0a312f6
 ms.date: 12/05/2018
 ms.keywords: RpcBindingFree, RpcBindingFree function [RPC], _rpc_rpcbindingfree, rpc.rpcbindingfree, rpcdce/RpcBindingFree
-f1_keywords:
-- rpcdce/RpcBindingFree
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingFree
+ - rpcdce/RpcBindingFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingFree
 ---
 
 # RpcBindingFree function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingFree</b> function releases binding-handle resources.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Pointer to the server binding to be freed.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -113,11 +106,7 @@ This was the wrong kind of binding for the operation.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcBindingFree</b> function releases memory used by a server binding handle. Referenced binding information that was dynamically created during program execution is released as well. An application calls the 
@@ -151,12 +140,7 @@ If the operation successfully frees the binding, the <i>Binding</i> parameter re
 <b>RpcBindingFree</b> only in client applications, or in server applications for binding handles generated with RpcBindingServerFromClient.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcopy">RpcBindingCopy</a>
 
@@ -183,7 +167,4 @@ If the operation successfully frees the binding, the <i>Binding</i> parameter re
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinqbindings">RpcServerInqBindings</a>
- 
-
- 
 

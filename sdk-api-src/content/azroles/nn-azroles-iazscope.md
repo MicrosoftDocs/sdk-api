@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f7abe7cb-8827-46f6-85fe-99282582a3d4
 ms.date: 12/05/2018
 ms.keywords: IAzScope, IAzScope interface [Security], IAzScope interface [Security],described, azroles/IAzScope, security.iazscope
-f1_keywords:
-- azroles/IAzScope
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzScope
+ - azroles/IAzScope
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzScope
 ---
 
 # IAzScope interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzScope</b> interface defines a logical container of resources to which the application manages access. The scope name will be used in calls to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method to determine whether a user has the requested access to resources logically contained within the scope.
-
 
 ## -inheritance
 
@@ -483,5 +482,5 @@ Retrieves a value that indicates whether the scope can be modified by the  user 
 
 </td>
 </tr>
-</table> 
+</table>
 

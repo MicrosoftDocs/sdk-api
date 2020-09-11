@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\resettransform_64.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],ResetTransform method, LinearGradientBrush.ResetTransform, LinearGradientBrush::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_ResetTransform_, gdiplus._gdiplus_CLASS_LinearGradientBrush_ResetTransform_
-f1_keywords:
-- gdiplusbrush/LinearGradientBrush.ResetTransform
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- LinearGradientBrush.ResetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - LinearGradientBrush::ResetTransform
+ - gdiplusbrush/LinearGradientBrush::ResetTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - LinearGradientBrush.ResetTransform
 ---
 
 # LinearGradientBrush::ResetTransform
@@ -50,20 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LinearGradientBrush::ResetTransform</b> method resets the transformation matrix of this linear gradient brush to the identity matrix. This means that no transformation takes place.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -73,13 +65,7 @@ If the method succeeds, it returns OK, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -130,7 +116,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

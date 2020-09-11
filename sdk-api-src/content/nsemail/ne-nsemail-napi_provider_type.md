@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 0d845cc5-a84a-43fe-b9e7-d1a9153bae73
 ms.date: 12/05/2018
 ms.keywords: NAPI_PROVIDER_TYPE, NAPI_PROVIDER_TYPE enumeration [Winsock], ProviderType_Application, ProviderType_Service, nsemail/NAPI_PROVIDER_TYPE, nsemail/ProviderType_Application, nsemail/ProviderType_Service, winsock.napi_provider_type
-f1_keywords:
-- nsemail/NAPI_PROVIDER_TYPE
-dev_langs:
-- c++
 req.header: nsemail.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Nsemail.h
-api_name:
-- NAPI_PROVIDER_TYPE
 targetos: Windows
 req.typenames: NAPI_PROVIDER_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - napi_provider_type_tag
+ - nsemail/napi_provider_type_tag
+ - NAPI_PROVIDER_TYPE
+ - nsemail/NAPI_PROVIDER_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Nsemail.h
+api_name:
+ - NAPI_PROVIDER_TYPE
 ---
 
 # NAPI_PROVIDER_TYPE enumeration
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>NAPI_PROVIDER_TYPE</b> enumeration specifies the type of hosting expected for a namespace provider. 
-
+The <b>NAPI_PROVIDER_TYPE</b> enumeration specifies the type of hosting expected for a namespace provider.
 
 ## -enum-fields
-
-
-
 
 ### -field ProviderType_Application
 
@@ -64,15 +62,11 @@ The namespace provider is expected to be hosted by an application. There may be 
 
 There may also be multiple instances of the same namespace provider running at the same time on a local system as long as the following conditions are met. Only one instance of the same namespace provider application can be running in a single user session at the same time on the local system. The Windows Sockets infrastructure will select the particular target instance of  a namespace provider based on the identity of the client and the user session where it is running. Clients running as user <b>MyUser</b> in a user session will only be able to contact an instance of the same namespace provider running as <b>MyUser</b> in the same session.
 
-
 ### -field ProviderType_Service
 
 The namespace provider is expected to be hosted by a service. This hosting model is not currently supported.
 
-
 ## -remarks
-
-
 
 This enumeration is supported on Windows Vistaand later.
 
@@ -84,13 +78,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsc
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> functions are used to enumerate namespace providers for the NS_EMAIL namespace and retrieve the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure for  a provider.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a>
 
@@ -109,7 +97,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a>
- 
-
- 
 

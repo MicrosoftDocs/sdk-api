@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: EEEF5D71-22C4-4050-9088-8BAC554EB66E
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamMediaTypeManager.GetStreamCount, IMFMuxStreamMediaTypeManager::GetStreamCount, mf.imfmuxstreammediatypemanager_getstreamcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamCount
-f1_keywords:
-- mfobjects/IMFMuxStreamMediaTypeManager.GetStreamCount
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFMuxStreamMediaTypeManager.GetStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMuxStreamMediaTypeManager::GetStreamCount
+ - mfobjects/IMFMuxStreamMediaTypeManager::GetStreamCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFMuxStreamMediaTypeManager.GetStreamCount
 ---
 
 # IMFMuxStreamMediaTypeManager::GetStreamCount
@@ -52,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the count of substreams managed by the multiplexed media source.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwMuxStreamCount [out]
 
 The count of substreams managed by the multiplexed media source.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -103,18 +96,8 @@ Invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
- 
-
- 
 

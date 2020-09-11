@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcat.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchCat, StringCchCat function [Menus and Other Resources], StringCchCatA, StringCchCatW, _shell_StringCchCat, _shell_stringcchcat_cpp, menurc.stringcchcat, strsafe/StringCchCat, strsafe/StringCchCatA, strsafe/StringCchCatW, winui._shell_stringcchcat
-f1_keywords:
-- strsafe/StringCchCat
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCchCat
-- StringCchCatA
-- StringCchCatW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCchCatA
+ - strsafe/StringCchCatA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCchCat
+ - StringCchCatA
+ - StringCchCatW
 ---
 
 # StringCchCatA function
 
 
 ## -description
-
 
 Concatenates one  string to another string. The size of the destination buffer is provided to the function to ensure that <b>StringCchCat</b> does not write past the end of this buffer.
 
@@ -70,15 +70,11 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 ## -parameters
 
-
-
-
 ### -param pszDest [in, out]
 
 Type: <b>LPTSTR</b>
 
 The destination buffer, which contains the string to which <i>pszSrc</i> is to be concatenated, and that will receive the entire resultant string. The string at <i>pszSrc</i> is added to the end of the string at <i>pszDest</i>.
-
 
 ### -param cchDest [in]
 
@@ -86,17 +82,13 @@ Type: <b>size_t</b>
 
 The size of the destination buffer, in characters. This value must be greater than or equal the length of <i>pszSrc</i> plus the length of <i>pszDest</i> plus 1 to account for both strings and the terminating null character. The maximum number of characters allowed is <b>STRSAFE_MAX_CCH</b>.
 
-
 ### -param pszSrc [in]
 
 Type: <b>LPCTSTR</b>
 
 The source string that is to be concatenated to the end of <i>pszDest</i>. This string must be null-terminated.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -145,12 +137,7 @@ The concatenation operation failed due to insufficient buffer space. The destina
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 <b>StringCchCat</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCat</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
@@ -193,9 +180,6 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 ## -see-also
 
-
-
-
 <b>Reference</b>
 
 
@@ -209,7 +193,4 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatna">StringCchCatN</a>
- 
-
- 
 

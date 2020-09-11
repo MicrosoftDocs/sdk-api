@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: eb329a61-1c1a-49c6-9d5e-ccfc7fd8b10c
 ms.date: 12/05/2018
 ms.keywords: HLNF_ALLOW_AUTONAVIGATE, HLNF_CALLERUNTRUSTED, HLNF_DISABLEWINDOWRESTRICTIONS, HLNF_EXTERNALNAVIGATE, HLNF_NAVIGATINGBACK, HLNF_NAVIGATINGFORWARD, HLNF_NEWWINDOWSMANAGED, HLNF_TRUSTEDFORACTIVEX, HLNF_TRUSTFIRSTDOWNLOAD, HLNF_UNTRUSTEDFORDOWNLOAD, IBrowserService interface [Windows Shell],NavigateToPidl method, IBrowserService.NavigateToPidl, IBrowserService::NavigateToPidl, NavigateToPidl, NavigateToPidl method [Windows Shell], NavigateToPidl method [Windows Shell],IBrowserService interface, SHHLNF_NOAUTOSELECT, SHHLNF_WRITENOHISTORY, shdeprecated/IBrowserService::NavigateToPidl, shell.IBrowserService_NavigateToPidl, zone_IBrowserService_NavigateToPidl
-f1_keywords:
-- shdeprecated/IBrowserService.NavigateToPidl
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService.NavigateToPidl
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService::NavigateToPidl
+ - shdeprecated/IBrowserService::NavigateToPidl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService.NavigateToPidl
 ---
 
 # IBrowserService::NavigateToPidl
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Navigates the browser to the location indicated by a pointer to an item identifier list (PIDL).
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
 Type: <b>LPCITEMIDLIST</b>
 
 The PIDL of the location.
-
 
 ### -param grfHLNF [in]
 
@@ -140,29 +135,17 @@ The destination of the current navigation should not be placed into the browser'
 
 The destination of the current navigation should not be automatically selected from the browser's history record.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>
 
 
 
 <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_navigatetopidl">_NavigateToPidl</a>
- 
-
- 
 

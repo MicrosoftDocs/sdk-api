@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 6e77b793-a82e-4e23-8c8b-7aff79d69346
 ms.date: 12/05/2018
 ms.keywords: CreateUmsCompletionList, CreateUmsCompletionList function, base.createumscompletionlist, winbase/CreateUmsCompletionList
-f1_keywords:
-- winbase/CreateUmsCompletionList
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ums-l1-1-0.dll
-api_name:
-- CreateUmsCompletionList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateUmsCompletionList
+ - winbase/CreateUmsCompletionList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ums-l1-1-0.dll
+api_name:
+ - CreateUmsCompletionList
 ---
 
 # CreateUmsCompletionList function
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a user-mode scheduling (UMS) completion list.
 
-
 ## -parameters
-
-
-
 
 ### -param UmsCompletionList [out]
 
 A <b>PUMS_COMPLETION_LIST</b> variable. On output, this parameter receives a pointer 
       to an empty UMS completion list.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a nonzero value.
 
@@ -92,14 +85,8 @@ Not enough memory is available to create the completion list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A completion list is associated with a UMS scheduler thread when the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a> function is called to 
@@ -119,13 +106,7 @@ When a completion list is no longer needed, use the
      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deleteumscompletionlist">DeleteUmsCompletionList</a> to release the list. 
      The list must be empty before it can be released.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a>
 
@@ -136,7 +117,4 @@ When a completion list is no longer needed, use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getumscompletionlistevent">GetUmsCompletionListEvent</a>
- 
-
- 
 

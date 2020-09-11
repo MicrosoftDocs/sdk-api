@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetDefault
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetDefaultFontAxisValues method, IDWriteFontResource.GetDefaultFontAxisValues, IDWriteFontResource::GetDefaultFontAxisValues, GetDefaultFontAxisValues, GetDefaultFontAxisValues method [Direct Write], GetDefaultFontAxisValues method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getdefaultfontaxisvalues, dwrite_3/IDWriteFontResource::GetDefaultFontAxisValues
-f1_keywords:
-- dwrite_3/IDWriteFontResource.GetDefaultFontAxisValues
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::GetDefaultFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::GetDefaultFontAxisValues
+ - dwrite_3/IDWriteFontResource::GetDefaultFontAxisValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::GetDefaultFontAxisValues
 ---
 
 ## -description
@@ -76,3 +77,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 Different font resources may have different defaults. For OpenType 1.8 fonts, these values come from the STAT and fvar tables. For older fonts without a STAT table, weight-width-slant-italic are read from the OS/2 table.
 
 ## -see-also
+

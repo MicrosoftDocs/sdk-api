@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 98c40d57-ee71-40f8-9416-5b29adc30489
 ms.date: 12/05/2018
 ms.keywords: WS_XML_NODE, WS_XML_NODE structure [Web Services for Windows], webservices/WS_XML_NODE, wsw.ws_xml_node
-f1_keywords:
-- webservices/WS_XML_NODE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_NODE
 targetos: Windows
 req.typenames: WS_XML_NODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_XML_NODE
+ - webservices/_WS_XML_NODE
+ - WS_XML_NODE
+ - webservices/WS_XML_NODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_NODE
 ---
 
 # WS_XML_NODE structure
@@ -49,18 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The base type
-        for all the different kinds of XML nodes. An XML node is unit of data in XML.  
-
+        for all the different kinds of XML nodes. An XML node is unit of data in XML.
 
 ## -struct-fields
-
-
-
 
 ### -field nodeType
 
 Indicates the type of node this structure refers to.
-        
 

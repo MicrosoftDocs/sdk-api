@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 37dc1bc8-b3d9-4c84-8d37-89d50570d95c
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_Addresses method, IMcastLeaseInfo.get_Addresses, IMcastLeaseInfo::get_Addresses, _tapi3_imcastleaseinfo_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_Addresses, tapi3.imcastleaseinfo_get_addresses
-f1_keywords:
-- mdhcp/IMcastLeaseInfo.get_Addresses
-dev_langs:
-- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mdhcp.dll
-api_name:
-- IMcastLeaseInfo.get_Addresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMcastLeaseInfo::get_Addresses
+ - mdhcp/IMcastLeaseInfo::get_Addresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mdhcp.dll
+api_name:
+ - IMcastLeaseInfo.get_Addresses
 ---
 
 # IMcastLeaseInfo::get_Addresses
 
 
 ## -description
-
 
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
@@ -57,21 +57,14 @@ provides similar functionality.]
 <b>get_Addresses</b> method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for Visual Basic and other scripting languages; C++ programmers use 
 <a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-enumerateaddresses">EnumerateAddresses</a> instead.
 
-
 ## -parameters
-
-
-
 
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> receiving an 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of <b>BSTR</b> strings. Each string is an IP version 4 address in dotted quad notation (for example, 10.111.222.111).
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -114,14 +107,8 @@ Not enough memory to allocate the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each address is an IP version 4 address represented as a <b>BSTR</b> in dotted quad notation (for example, 10.111.222.111).
 
@@ -131,13 +118,7 @@ TAPI calls the <b>AddRef</b> method on the
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-enumerateaddresses">EnumerateAddresses</a>
 
@@ -148,7 +129,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
- 
-
- 
 

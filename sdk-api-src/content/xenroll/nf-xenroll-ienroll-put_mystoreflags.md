@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e545920a-0c39-49bb-90cc-87039d2e2cfd
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],MyStoreFlags property, IEnroll.MyStoreFlags, IEnroll.put_MyStoreFlags, IEnroll::MyStoreFlags, IEnroll::get_MyStoreFlags, IEnroll::put_MyStoreFlags, MyStoreFlags property [Security], MyStoreFlags property [Security],IEnroll interface, put_MyStoreFlags, security.ienroll4_mystoreflags, xenroll/IEnroll::MyStoreFlags, xenroll/IEnroll::get_MyStoreFlags, xenroll/IEnroll::put_MyStoreFlags
-f1_keywords:
-- xenroll/IEnroll.MyStoreFlags
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.MyStoreFlags
-- IEnroll.get_MyStoreFlags
-- IEnroll.put_MyStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::put_MyStoreFlags
+ - xenroll/IEnroll::put_MyStoreFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.MyStoreFlags
+ - IEnroll.get_MyStoreFlags
+ - IEnroll.put_MyStoreFlags
 ---
 
 # IEnroll::put_MyStoreFlags
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -60,13 +60,9 @@ The default value for  this property  is CERT_SYSTEM_STORE_CURRENT_USER. This pr
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <b>MyStoreFlags</b> property value is passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> CryptoAPI function by using its <i>dwFlags</i> parameter.
@@ -83,17 +79,7 @@ The <b>MyStoreFlags</b> property should be set before using the following method
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

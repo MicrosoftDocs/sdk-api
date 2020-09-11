@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 0a9e7906-2f81-4fda-b03d-86feb0755327
 ms.date: 12/05/2018
 ms.keywords: GetSystemPaletteUse, GetSystemPaletteUse function [Windows GDI], _win32_GetSystemPaletteUse, gdi.getsystempaletteuse, wingdi/GetSystemPaletteUse
-f1_keywords:
-- wingdi/GetSystemPaletteUse
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetSystemPaletteUse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSystemPaletteUse
+ - wingdi/GetSystemPaletteUse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetSystemPaletteUse
 ---
 
 # GetSystemPaletteUse function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSystemPaletteUse</b> function retrieves the current state of the system (physical) palette for the specified device context (DC).
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the current state of the system palette. This parameter can be one of the following values.
 
@@ -89,14 +82,8 @@ If the function succeeds, the return value is the current state of the system pa
 <td>The given device context is invalid or does not support a color palette.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, the system palette contains 20 static colors that are not changed when an application realizes its logical palette. An application can gain access to most of these colors by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setsystempaletteuse">SetSystemPaletteUse</a> function.
 
@@ -104,13 +91,7 @@ The device context identified by the <i>hdc</i> parameter must represent a devic
 
 An application can determine whether a device supports color palettes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
 
@@ -125,7 +106,4 @@ An application can determine whether a device supports color palettes by calling
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setsystempaletteuse">SetSystemPaletteUse</a>
- 
-
- 
 

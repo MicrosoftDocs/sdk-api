@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a
 ms.date: 12/05/2018
 ms.keywords: HttpCreateUrlGroup, HttpCreateUrlGroup function [HTTP], http.httpcreateurlgroup, http/HttpCreateUrlGroup
-f1_keywords:
-- http/HttpCreateUrlGroup
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpCreateUrlGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpCreateUrlGroup
+ - http/HttpCreateUrlGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpCreateUrlGroup
 ---
 
 # HttpCreateUrlGroup function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpCreateUrlGroup</b> function creates a URL Group  under the specified  server session.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerSessionId [in]
 
 The identifier of the server session under which the URL Group is created.
 
-
 ### -param pUrlGroupId [out]
 
 A pointer to the variable that receives the ID of the URL Group.
-
 
 ### -param Reserved [in]
 
 Reserved. Must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>
 
@@ -102,14 +93,8 @@ The <i>Reserved</i> parameter is non-zero.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 URL Groups are configuration containers for a set of URLs. They are created under the server session and inherit the configuration settings of the server session. When a configuration parameter is set on the URL Group, it overrides the configuration set on the server session. For more information about the setting configurations for the URL Group, see <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>.
 
@@ -133,13 +118,7 @@ When the URL group is no longer needed or before the application terminates it m
 
 The URL Group is created with the same version as the server session under which it is created.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
@@ -162,7 +141,4 @@ The URL Group is created with the same version as the server session under which
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
- 
-
- 
 

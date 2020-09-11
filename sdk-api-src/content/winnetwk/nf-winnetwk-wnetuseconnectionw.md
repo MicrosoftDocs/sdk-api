@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 80fa471d-074c-468f-b90f-1636081e1583
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_LOCALDRIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetUseConnection, WNetUseConnection function [Windows Networking (WNet)], WNetUseConnectionA, WNetUseConnectionW, _win32_wnetuseconnection, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetUseConnection, winnetwk/WNetUseConnectionA, winnetwk/WNetUseConnectionW, wnet.wnetuseconnection
-f1_keywords:
-- winnetwk/WNetUseConnection
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetUseConnection
-- WNetUseConnectionA
-- WNetUseConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetUseConnectionW
+ - winnetwk/WNetUseConnectionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetUseConnection
+ - WNetUseConnectionA
+ - WNetUseConnectionW
 ---
 
 # WNetUseConnectionW function
 
 
 ## -description
-
 
 The
 				<b>WNetUseConnection</b> function makes a connection to a network resource. The function can redirect a local device to a network resource.
@@ -60,16 +60,11 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> function. The main difference is that 
 <b>WNetUseConnection</b> can automatically select an unused local device to redirect to the network resource.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndOwner [in]
 
 Handle to a window that the provider of network resources can use as an owner window for dialog boxes. Use this parameter if you set the CONNECT_INTERACTIVE value in the <i>dwFlags</i> parameter.
-
 
 ### -param lpNetResource [in]
 
@@ -157,7 +152,6 @@ The
 <b>WNetUseConnection</b> function ignores the other members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. For more information, see the descriptions following for the <i>dwFlags</i> parameter.
 
-
 ### -param lpPassword [in]
 
 Pointer to a constant <b>null</b>-terminated string that specifies a password to be used in making the network connection. 
@@ -172,7 +166,6 @@ If <i>lpPassword</i> points to an empty string, the function does not use a pass
 
 If the connection fails because of an invalid password and the CONNECT_INTERACTIVE value is set in the <i>dwFlags</i> parameter, the function displays a dialog box asking the user to type the password.
 
-
 ### -param lpUserId [in]
 
 Pointer to a constant <b>null</b>-terminated string that specifies a user name for making the connection. 
@@ -186,7 +179,6 @@ The <i>lpUserID</i> parameter is specified when users want to connect to a netwo
 
 The user-name string represents a 
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. It may be specific to a network provider.
-
 
 ### -param dwFlags [in]
 
@@ -281,8 +273,6 @@ If this flag is set, and the operating system prompts for a credential, the cred
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpAccessName [out]
 
@@ -296,11 +286,9 @@ If this parameter is specified, and the <b>lpLocalName</b> member of the
 
 Otherwise, the name copied into the buffer is that of a remote resource. If specified, this buffer must be at least as large as the string pointed to by the <b>lpRemoteName</b> member.
 
-
 ### -param lpBufferSize [in, out]
 
 Pointer to a variable that specifies the size of the <i>lpAccessName</i> buffer, in characters. If the call fails because the buffer is not large enough, the function returns the required buffer size in this location. For more information, see the descriptions of the <i>lpAccessName</i> parameter and the ERROR_MORE_DATA error code in the Return Values section.
-
 
 ### -param lpResult [out]
 
@@ -324,12 +312,8 @@ If this flag is set, the connection was made using a local device redirection. I
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -509,14 +493,8 @@ The network is unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows Server 2003 and Windows XP:  </b>The WNet functions create and delete network drive letters in the MS-DOS device namespace associated with a logon session because MS-DOS devices are identified by AuthenticationID. (An AuthenticationID is the 
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
@@ -532,9 +510,6 @@ The network is unavailable.
 > The winnetwk.h header defines WNetUseConnection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
 
@@ -559,7 +534,4 @@ The network is unavailable.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona">WnetCancelConnection</a>
- 
-
- 
 

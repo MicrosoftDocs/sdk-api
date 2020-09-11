@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 622c769b-ede8-4bc2-ac54-98de47ae1fed
 ms.date: 12/05/2018
 ms.keywords: Icmp6SendEcho2, Icmp6SendEcho2 function [IP Helper], icmpapi/Icmp6SendEcho2, iphlp.icmp6sendecho2
-f1_keywords:
-- icmpapi/Icmp6SendEcho2
-dev_langs:
-- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- Icmp6SendEcho2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Icmp6SendEcho2
+ - icmpapi/Icmp6SendEcho2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - Icmp6SendEcho2
 ---
 
 # Icmp6SendEcho2 function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Icmp6SendEcho2</b> function sends an IPv6 ICMPv6 echo request and returns either immediately (if <i>Event</i> or <i>ApcRoutine</i> is non-<b>NULL</b>) or returns after the specified time-out. The <i>ReplyBuffer</i> contains the IPv6 ICMPv6 echo response, if any.
 
-
 ## -parameters
-
-
-
 
 ### -param IcmpHandle [in]
 
 The open handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6createfile">Icmp6CreateFile</a>.
-
 
 ### -param Event [in, optional]
 
@@ -70,7 +65,6 @@ An event to be signaled whenever an ICMPv6 response arrives. If this parameter i
 
 For more information on using events, see <a href="https://docs.microsoft.com/windows/desktop/Sync/event-objects">Event Objects</a>.
 
-
 ### -param ApcRoutine [in, optional]
 
 The routine that is called when the calling thread is in an alertable thread and  an ICMPv6 reply arrives. On Windows Vista and later, <b>PIO_APC_ROUTINE_DEFINED</b> must be defined to force the datatype for this parameter to <b>PIO_APC_ROUTINE</b> rather than <b>FARPROC</b>. 
@@ -78,31 +72,25 @@ The routine that is called when the calling thread is in an alertable thread and
 On Windows Server 2003 and Windows XP, 
    <b>PIO_APC_ROUTINE_DEFINED</b> must not be defined to force the datatype for this parameter to <b>FARPROC</b>.
 
-
 ### -param ApcContext [in, optional]
 
-An optional parameter passed to the callback routine specified in the  <i>ApcRoutine</i> parameter whenever an ICMPv6 response arrives or an error occurs. 
-
+An optional parameter passed to the callback routine specified in the  <i>ApcRoutine</i> parameter whenever an ICMPv6 response arrives or an error occurs.
 
 ### -param SourceAddress [in]
 
 The IPv6 source address on which to issue the echo request, in the form of a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
 
-
 ### -param DestinationAddress [in]
 
 The IPv6 destination address of the echo request, in the form of a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
-
 
 ### -param RequestData [in]
 
 A pointer to a buffer that contains data to send in the request.
 
-
 ### -param RequestSize [in]
 
 The size, in bytes, of the request data buffer pointed to by the <i>RequestData</i> parameter.
-
 
 ### -param RequestOptions [in, optional]
 
@@ -118,23 +106,16 @@ This parameter may be NULL if no IP header options need to be specified.
 A pointer to a buffer to hold replies to the request. Upon return, the buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-icmpv6_echo_reply_lh">ICMPV6_ECHO_REPLY</a> structure followed by the message body from the ICMPv6 echo response reply data. The buffer must be large enough to hold at least one 
 <b>ICMPV6_ECHO_REPLY</b> structure plus the number of bytes of data specified in the <i>RequestSize</i> parameter. This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message) plus space for an <b>IO_STATUS_BLOCK</b> structure.
 
-
-
 ### -param ReplySize [in]
 
 The size, in bytes,  of the reply buffer pointed to by the <i>ReplyBuffer</i> parameter. This buffer should be large enough to hold at least one 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-icmpv6_echo_reply_lh">ICMPV6_ECHO_REPLY</a> structure plus <i>RequestSize</i> bytes of data. This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message) plus space for an <b>IO_STATUS_BLOCK</b> structure.
 
-
-
 ### -param Timeout [in]
 
 The time, in milliseconds, to wait for replies. This parameter is only used if the <b>Icmp6SendEcho2</b> function is called synchronously. So this parameter is not used if either the <i>ApcRoutine</i> or <i>Event</i>parameter are not <b>NULL</b>.
 
-
 ## -returns
-
-
 
 When called synchronously, the <b>Icmp6SendEcho2</b> function returns the number of replies received and stored in <i>ReplyBuffer</i>. If the return value is zero, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
@@ -242,14 +223,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>Icmp6SendEcho2</b> function is called synchronously if the <i>ApcRoutine</i> or <i>Event</i> parameters are <b>NULL</b>. When called synchronously, the return value contains the number of replies received and stored in <i>ReplyBuffer</i> after waiting for the time specified in the <i>Timeout</i> parameter. If the return value is zero, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
@@ -363,13 +338,7 @@ For IPv4, use the <a href="https://docs.microsoft.com/windows/desktop/api/icmpap
 
 Note that the include directive for <i>Iphlpapi.h</i> header file must be placed before the <i>Icmpapi.h</i> header file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
@@ -432,7 +401,4 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: B2DE8E06-1571-4D50-9296-8EB4BB74D6BA
 ms.date: 12/05/2018
 ms.keywords: ID3D11AuthenticatedChannel, ID3D11AuthenticatedChannel interface [Media Foundation], ID3D11AuthenticatedChannel interface [Media Foundation],described, d3d11/ID3D11AuthenticatedChannel, mf.id3d11authenticatedchannel
-f1_keywords:
-- d3d11/ID3D11AuthenticatedChannel
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.h
-api_name:
-- ID3D11AuthenticatedChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11AuthenticatedChannel
+ - d3d11/ID3D11AuthenticatedChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.h
+api_name:
+ - ID3D11AuthenticatedChannel
 ---
 
 # ID3D11AuthenticatedChannel interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a communication channel with the graphics driver or the Microsoft Direct3D runtime.
-
-
-
 
 ## -inheritance
 
@@ -97,25 +94,13 @@ Gets a handle to the authenticated channel.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createauthenticatedchannel">ID3D11VideoDevice::CreateAuthenticatedChannel</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
- 
-
- 
 

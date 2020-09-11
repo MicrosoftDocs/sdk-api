@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 3FA5E266-A921-42A8-B880-AC8748180E1B
 ms.date: 12/05/2018
 ms.keywords: SetRelatedActivityId, SetRelatedActivityId method, SetRelatedActivityId method,TraceLoggingActivity interface, TraceLoggingActivity interface,SetRelatedActivityId method, TraceLoggingActivity.SetRelatedActivityId, TraceLoggingActivity.SetRelatedActivityId(const GUID), TraceLoggingActivity::SetRelatedActivityId, TraceLoggingActivity::SetRelatedActivityId(const GUID), tracelogging.traceloggingactivity_setrelatedactivityid, traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId
-f1_keywords:
-- traceloggingactivity/TraceLoggingActivity.SetRelatedActivityId
-dev_langs:
-- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- traceloggingactivity.h
-api_name:
-- TraceLoggingActivity.SetRelatedActivityId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingActivity::SetRelatedActivityId
+ - traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - traceloggingactivity.h
+api_name:
+ - TraceLoggingActivity.SetRelatedActivityId
 ---
 
 # TraceLoggingActivity::SetRelatedActivityId(const GUID)
@@ -49,27 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Uses the unique identifier of an activity to set the related activity for this <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param relatedActivityId [in]
 
 The unique identifier for the activity to associate with this activity.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
- 
-
- 
 

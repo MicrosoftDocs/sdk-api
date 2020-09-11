@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 29601ea6-9b68-4cdc-a7a1-b6a922524760
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFontTree, DrvQueryFontTree function [Display Devices], ddifncs_7f9eb5d2-dedd-4c72-8c12-0a382ea59ff4.xml, display.drvqueryfonttree, winddi/DrvQueryFontTree
-f1_keywords:
-- winddi/DrvQueryFontTree
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvQueryFontTree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvQueryFontTree
+ - winddi/DrvQueryFontTree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvQueryFontTree
 ---
 
 # DrvQueryFontTree function
 
 
 ## -description
-
 
 The <b>DrvQueryFontTree</b> function provides GDI with a pointer to a structure that defines one of the following:
 <ul>
@@ -64,23 +64,17 @@ A mapping of kerning pairs to kerning handles
 
 ## -parameters
 
-
-
-
 ### -param dhpdev
 
 Identifies a device by a handle to its <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>, returned from a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
-
 
 ### -param iFile
 
 Identifies the driver font file. This value is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
-
 ### -param iFace
 
 Specifies the one-based index of the driver font.
-
 
 ### -param iMode
 
@@ -114,38 +108,22 @@ The kerning pairs should be stored in increasing order. The primary key is the s
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pid
 
 Pointer to a memory location holding the address of a driver-defined value. GDI passes the contents of *<i>pid</i> to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a>, along with the returned pointer, when the FD_GLYPHSET structure or array of FD_KERNINGPAIR structures are no longer needed. Depending on how memory is managed in the driver, the driver-defined value can identify the structure, identify the way it was allocated, or do nothing at all.
 
-
 ## -returns
-
-
 
 The return value is a pointer to the requested structure if the function is successful. Otherwise, it is <b>NULL</b>, and an error code is logged.
 
-
-
-
 ## -remarks
-
-
 
 The returned structure must remain unmodified until GDI calls <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a> with the address of the structure.
 
 <b>DrvQueryFontTree</b> is required for font drivers and drivers that use device-specific fonts.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
 
@@ -180,7 +158,4 @@ The returned structure must remain unmodified until GDI calls <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
- 
-
- 
 

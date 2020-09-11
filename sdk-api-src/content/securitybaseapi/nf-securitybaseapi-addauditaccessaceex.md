@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ddd1d815-c4ce-4572-982c-139e17cda192
 ms.date: 12/05/2018
 ms.keywords: AddAuditAccessAceEx, AddAuditAccessAceEx function [Security], CONTAINER_INHERIT_ACE, FAILED_ACCESS_ACE_FLAG, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUCCESSFUL_ACCESS_ACE_FLAG, _win32_addauditaccessaceex, security.addauditaccessaceex, securitybaseapi/AddAuditAccessAceEx
-f1_keywords:
-- securitybaseapi/AddAuditAccessAceEx
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- AddAuditAccessAceEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddAuditAccessAceEx
+ - securitybaseapi/AddAuditAccessAceEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - AddAuditAccessAceEx
 ---
 
 # AddAuditAccessAceEx function
@@ -56,25 +57,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddAuditAccessAceEx</b> function adds a system-audit <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL).
 
-
 ## -parameters
-
-
-
 
 ### -param pAcl [in, out]
 
 A pointer to a SACL. The <b>AddAuditAccessAceEx</b> function adds a system-audit ACE to this SACL. The ACE is in the form of a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a> structure.
 
-
 ### -param dwAceRevision [in]
 
 Specifies the revision level of the SACL being modified. This value can be ACL_REVISION or ACL_REVISION_DS. Use ACL_REVISION_DS if the SACL contains object-specific ACEs.
-
 
 ### -param AceFlags [in]
 
@@ -156,34 +150,26 @@ If you set this flag or specify <b>TRUE</b> for the <i>bAuditSuccess</i> paramet
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwAccessMask [in]
 
 A set of bit flags that use the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format to specify the access rights that the new ACE audits for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
-
 ### -param pSid [in]
 
 A pointer to a 
 SID that identifies the user, group, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> for which the new ACE audits access.
 
-
 ### -param bAuditSuccess [in]
 
 Specifies whether successful uses of the specified access rights cause the system to generate an audit record in the security event log. If this flag is <b>TRUE</b> or if the <i>AceFlags</i> parameter specifies the SUCCESSFUL_ACCESS_ACE_FLAG flag, the system records successful access attempts; otherwise, it does not.
-
 
 ### -param bAuditFailure [in]
 
 Specifies whether failed attempts to use the specified access rights cause the system to generate an audit record in the security event log. If this flag is <b>TRUE</b> or if the <i>AceFlags</i> parameter specifies the FAILED_ACCESS_ACE_FLAG flag, the system records failed access attempts; otherwise, it does not.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -262,15 +248,8 @@ The ACE was successfully added.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
@@ -301,7 +280,4 @@ The ACE was successfully added.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
- 
-
- 
 

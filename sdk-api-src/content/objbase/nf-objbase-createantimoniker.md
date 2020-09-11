@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf
 ms.date: 12/05/2018
 ms.keywords: CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAntiMoniker, com.createantimoniker, objbase/CreateAntiMoniker
-f1_keywords:
-- objbase/CreateAntiMoniker
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- CreateAntiMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateAntiMoniker
+ - objbase/CreateAntiMoniker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - CreateAntiMoniker
 ---
 
 # CreateAntiMoniker function
@@ -49,35 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and returns a new anti-moniker.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppmk [out]
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the new anti-moniker. When successful, the function has called <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the anti-moniker and the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. When an error occurs, the anti-moniker pointer is <b>NULL</b>.
 
-
-
 ## -returns
-
-
 
 This function can return the standard return values E_OUTOFMEMORY and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 You would call this function only if you are writing your own moniker class (implementing the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface). If you are writing a new moniker class that has no internal structure, you can use <b>CreateAntiMoniker</b> in your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-inverse">IMoniker::Inverse</a> method, and then check for an anti-moniker in your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-composewith">IMoniker::ComposeWith</a>.
 
@@ -94,15 +79,7 @@ To remove the last piece of a composite moniker, you would do the following:
 </li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
 

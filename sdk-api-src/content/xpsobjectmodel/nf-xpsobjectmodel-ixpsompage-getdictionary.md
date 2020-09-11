@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e842c828-6e8c-4190-b845-8c8a26af1579
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionary method, IXpsOMPage.GetDictionary, IXpsOMPage::GetDictionary, xps.ixpsompage_getdictionary, xpsobjectmodel/IXpsOMPage::GetDictionary
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage.GetDictionary
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage.GetDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage::GetDictionary
+ - xpsobjectmodel/IXpsOMPage::GetDictionary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage.GetDictionary
 ---
 
 # IXpsOMPage::GetDictionary
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the resolved <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a> interface that is associated with this page.
 
-
 ## -parameters
-
-
-
 
 ### -param resourceDictionary [out, retval]
 
@@ -104,12 +100,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -165,14 +157,8 @@ No object could be found with a key name that matched the value passed in <i>loo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Whether the dictionary is local or is contained within a remote dictionary resource, this method returns an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a> interface pointer. <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdictionary-getowner">GetOwner</a> determines whether the dictionary  is remote.
 
@@ -180,13 +166,7 @@ If a page contains a remote dictionary, <b>GetDictionary</b> will deserialize th
 
 After loading and parsing the resource into the XPS OM, this method might return an error that applies to another resource. This occurs because all of the relationships are parsed when a resource is loaded.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a>
 
@@ -201,7 +181,4 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

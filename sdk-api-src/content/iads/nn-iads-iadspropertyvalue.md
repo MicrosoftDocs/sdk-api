@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 7cad4d04-80d4-4f9a-95b7-2f1809ddb8fb
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyValue, IADsPropertyValue interface [ADSI], IADsPropertyValue interface [ADSI],described, PropertyValue, _ds_iadspropertyvalue, adsi.iadspropertyvalue, iads/IADsPropertyValue
-f1_keywords:
-- iads/IADsPropertyValue
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPropertyValue
-- PropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPropertyValue
+ - iads/IADsPropertyValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPropertyValue
+ - PropertyValue
 ---
 
 # IADsPropertyValue interface
 
 
 ## -description
-
 
 The <b>IADsPropertyValue</b> interface is used to represent the value of an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> object in a predefined data type. This interface exposes several properties for obtaining data values in the corresponding data format.
 
@@ -58,7 +58,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyentry-p
 When obtaining values in a format not provided by one of the properties of this interface, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a> interface.
 
 Before calling the methods of this interfaces, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs.GetInfo</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs.GetInfoEx</a> explicitly to load the assigned values of the object into the cache, if the cache has not been initialized. After modifying the properties of this interface, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs.SetInfo</a> to save the changes to the persistent store of the underlying directory.
-
 
 ## -inheritance
 
@@ -285,13 +284,9 @@ Gets and sets a Coordinated Universal Time value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
 
@@ -318,7 +313,4 @@ Gets and sets a Coordinated Universal Time value.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

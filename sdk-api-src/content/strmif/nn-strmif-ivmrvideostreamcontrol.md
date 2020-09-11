@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b42fa81e-99d7-4051-b909-2189581825d0
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], IVMRVideoStreamControl interface [DirectShow],described, IVMRVideoStreamControlInterface, dshow.ivmrvideostreamcontrol, strmif/IVMRVideoStreamControl
-f1_keywords:
-- strmif/IVMRVideoStreamControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRVideoStreamControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRVideoStreamControl
+ - strmif/IVMRVideoStreamControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRVideoStreamControl
 ---
 
 # IVMRVideoStreamControl interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IVMRVideoStreamControl</code> interface is implemented on each input pin of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). The interface operates on the input stream represented by the pin. This interface is used by upstream filters (typically decoders) to get or set the active state of individual streams, or the source color key for the composited image. Applications in general should not use this interface.
 
 The VMR-9 input pins expose the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrvideostreamcontrol9">IVMRVideoStreamControl9</a> interface.
-
-
-
 
 ## -inheritance
 
@@ -110,16 +106,9 @@ Activates or inactivates an input stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

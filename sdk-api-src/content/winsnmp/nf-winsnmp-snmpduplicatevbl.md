@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: b6ca0167-43d7-4a85-b3ba-c2683ae27ff5
 ms.date: 12/05/2018
 ms.keywords: SnmpDuplicateVbl, SnmpDuplicateVbl function [SNMP], _snmp_snmpduplicatevbl, snmp.snmpduplicatevbl, winsnmp/SnmpDuplicateVbl
-f1_keywords:
-- winsnmp/SnmpDuplicateVbl
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpDuplicateVbl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpDuplicateVbl
+ - winsnmp/SnmpDuplicateVbl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpDuplicateVbl
 ---
 
 # SnmpDuplicateVbl function
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpDuplicateVbl</b> function copies a variable bindings list for the specified WinSNMP session. This function returns a handle to the copied variable bindings list and allocates any necessary memory for it.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
 Handle to the WinSNMP session.
 
-
 ### -param vbl [in]
 
 Handle to the variable bindings list to copy. The source variable bindings list can be empty.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to a new variable bindings list.
 
@@ -143,14 +135,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SnmpDuplicateVbl</b> function creates a new variable bindings list for the specified WinSNMP session. This function initializes the new list with a copy of the data in the source variable bindings list.
@@ -167,13 +153,7 @@ The WinSNMP application must release the resources associated with each variable
 <b>SnmpDuplicateVbl</b>. For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatevbl">SnmpCreateVbl</a>
 
@@ -189,7 +169,4 @@ The WinSNMP application must release the resources associated with each variable
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

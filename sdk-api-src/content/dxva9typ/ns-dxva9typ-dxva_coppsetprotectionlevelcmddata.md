@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 19810f8f-2d23-4b01-864d-86ac82d40fe0
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [DirectShow], DXVA_COPPSetProtectionLevelCmdDataStructure, _DXVA_COPPSetProtectionLevelCmdData, dshow.dxva_coppsetprotectionlevelcmddata, dxva9typ/DXVA_COPPSetProtectionLevelCmdData
-f1_keywords:
-- dxva9typ/DXVA_COPPSetProtectionLevelCmdData
-dev_langs:
-- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva9typ.h
-api_name:
-- DXVA_COPPSetProtectionLevelCmdData
 targetos: Windows
 req.typenames: DXVA_COPPSetProtectionLevelCmdData
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA_COPPSetProtectionLevelCmdData
+ - dxva9typ/_DXVA_COPPSetProtectionLevelCmdData
+ - DXVA_COPPSetProtectionLevelCmdData
+ - dxva9typ/DXVA_COPPSetProtectionLevelCmdData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva9typ.h
+api_name:
+ - DXVA_COPPSetProtectionLevelCmdData
 ---
 
 # DXVA_COPPSetProtectionLevelCmdData structure
@@ -49,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains data for the Set Protection Level command in Certified Output Protection Protocol (COPP).
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field ProtType
 
 Identifies the protection mechanism. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/copp-protection-type-flags">COPP Protection Type Flags</a>.
-
 
 ### -field ProtLevel
 
@@ -94,30 +88,20 @@ Specifies the protection level. The meaning of this value depends on the protect
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ExtendedInfoChangeMask
 
 Reserved. Must be zero.
 
-
 ### -field ExtendedInfoData
 
 Reserved. Must be zero.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
- 
-
- 
 

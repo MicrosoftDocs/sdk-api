@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: c4d500f3-a1c2-432c-9096-90f229bc7b7a
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerSetControlDetails, mixerSetControlDetails, mixerSetControlDetails function [Windows Multimedia], mmeapi/mixerSetControlDetails, multimedia.mixersetcontroldetails
-f1_keywords:
-- mmeapi/mixerSetControlDetails
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- mixerSetControlDetails
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mixerSetControlDetails
+ - mmeapi/mixerSetControlDetails
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - mixerSetControlDetails
 ---
 
 # mixerSetControlDetails function
@@ -51,27 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mixerSetControlDetails</b> function sets properties of a single control associated with an audio line.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmxobj
 
 Handle to the mixer device object for which properties are being set.
 
-
 ### -param pmxcd
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure. This structure is used to reference control detail structures that contain the desired state for the control.
-
 
 ### -param fdwDetails
 
@@ -137,12 +128,8 @@ Flags for setting properties for a control. The following values are defined.
 <td>The current value(s) for a control are set. The <b>paDetails</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure points to one or more mixer-control details structures of the appropriate class for the control.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -218,33 +205,18 @@ No mixer device is available for the object specified by <i>hmxobj</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 All members of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure must be initialized before calling <b>mixerSetControlDetails</b>.
 
 If an application needs to retrieve only the current state of a custom mixer control and not display a dialog box, then <a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a> can be used with the MIXER_GETCONTROLDETAILSF_VALUE flag.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
- 
-
- 
 

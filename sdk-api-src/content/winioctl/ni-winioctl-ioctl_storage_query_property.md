@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6755dcd4-e4a0-423f-9dcc-b9719c8e5c88
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Files], fs.ioctl_storage_query_property, winioctl/IOCTL_STORAGE_QUERY_PROPERTY
-f1_keywords:
-- winioctl/IOCTL_STORAGE_QUERY_PROPERTY
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_STORAGE_QUERY_PROPERTY
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_STORAGE_QUERY_PROPERTY
+ - winioctl/IOCTL_STORAGE_QUERY_PROPERTY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_STORAGE_QUERY_PROPERTY
 ---
 
 # IOCTL_STORAGE_QUERY_PROPERTY IOCTL
+
 
 ## -description
 
@@ -63,26 +65,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -92,14 +87,13 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 The optional output buffer returned through the *lpOutBuffer* parameter can be one of several structures depending on the value of the **PropertyId** member of the [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md) structure pointed to by the *lpInBuffer* parameter. These values are enumerated by the [STORAGE_PROPERTY_ID](ne-winioctl-storage_property_id.md) enumeration. If the **QueryType** member of the **STORAGE_PROPERTY_QUERY** is set to **PropertyExistsQuery** then no structure is returned.
-
 
 ## -see-also
 
 * [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
 * [STORAGE_DESCRIPTOR_HEADER](ns-winioctl-storage_descriptor_header.md)
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
+

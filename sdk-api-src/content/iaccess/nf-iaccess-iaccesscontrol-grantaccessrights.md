@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: f8ec6743-633b-4c79-afac-68eb20e07b2a
 ms.date: 12/05/2018
 ms.keywords: GrantAccessRights, GrantAccessRights method [COM], GrantAccessRights method [COM],IAccessControl interface, IAccessControl interface [COM],GrantAccessRights method, IAccessControl.GrantAccessRights, IAccessControl::GrantAccessRights, _com_iaccesscontrol_grantaccessrights, com.iaccesscontrol_grantaccessrights, iaccess/IAccessControl::GrantAccessRights
-f1_keywords:
-- iaccess/IAccessControl.GrantAccessRights
-dev_langs:
-- c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IAccess.h
-api_name:
-- IAccessControl.GrantAccessRights
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessControl::GrantAccessRights
+ - iaccess/IAccessControl::GrantAccessRights
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IAccess.h
+api_name:
+ - IAccessControl.GrantAccessRights
 ---
 
 # IAccessControl::GrantAccessRights
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Merges the new list of access rights with the existing access rights on the object.
 
-
 ## -parameters
-
-
-
 
 ### -param pAccessList [in]
 
 A pointer to the [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a) structure that contains an array of access lists for the object.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Merging the new access rights list with the existing access rights ensures that the object will have at least the indicated access rights. This merge process consists of adding the new denied access rights before the old denied access rights, and the new allowed access rights before the existing allowed rights. None of the existing rights are removed.
 
@@ -88,16 +76,7 @@ Following a merge, the access rights on an object are ordered as follows:
 </ol>
 The system-supplied implementation of [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a) structure be set to 1. In addition, the <b>lpProperty</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entrya">ACTRL_PROPERTY_ENTRYW</a> structure must be <b>NULL</b> to indicate that the access entry list applies to the object itself.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
- 
-
- 
 

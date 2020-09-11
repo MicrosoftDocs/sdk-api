@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f7c3d039-cffc-4ce0-8579-041ba849de6d
 ms.date: 12/05/2018
 ms.keywords: ITfMessagePump, ITfMessagePump interface [Text Services Framework], ITfMessagePump interface [Text Services Framework],described, _tsf_itfmessagepump_ref, msctf/ITfMessagePump, tsf.itfmessagepump
-f1_keywords:
-- msctf/ITfMessagePump
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfMessagePump
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMessagePump
+ - msctf/ITfMessagePump
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfMessagePump
 ---
 
 # ITfMessagePump interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfMessagePump</b> interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue. The methods of this interface are wrappers for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> functions. This interface enables the TSF manager to perform any necessary pre-message or post-message processing.
-
 
 ## -inheritance
 
@@ -104,12 +103,9 @@ Obtains a message from the message queue and returns if no message is obtained. 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If the application is Unicode, it should use the PeekMessageW and GetMessageW methods. Otherwise, the application should use the PeekMessageA and GetMessageA methods.
 
@@ -138,7 +134,4 @@ if(SUCCEEDED(hr))
 }
 
 ```
-
-
-
 

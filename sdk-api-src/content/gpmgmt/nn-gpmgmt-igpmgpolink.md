@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 290a53fb-8be0-477d-837c-46251b30e245
 ms.date: 12/05/2018
 ms.keywords: GPMGPOLink, IGPMGPOLink, IGPMGPOLink interface [GPMC], IGPMGPOLink interface [GPMC],described, _win32_igpmgpolink, gpmc.igpmgpolink, gpmgmt/IGPMGPOLink
-f1_keywords:
-- gpmgmt/IGPMGPOLink
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMGPOLink
-- GPMGPOLink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMGPOLink
+ - gpmgmt/IGPMGPOLink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMGPOLink
+ - GPMGPOLink
 ---
 
 # IGPMGPOLink interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMGPOLink</b> interface supports methods that allow you to remove a GPO link from the scope of management (SOM), and to set and retrieve various properties of GPO links, including enabling and enforcing links.
-
 
 ## -inheritance
 
@@ -160,13 +159,9 @@ Position of the GPO link in relation to other GPO links for the SOM.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -177,7 +172,4 @@ Position of the GPO link in relation to other GPO links for the SOM.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a>
- 
-
- 
 

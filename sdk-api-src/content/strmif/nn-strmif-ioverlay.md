@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2d49888a-7046-4779-9634-d181fa582584
 ms.date: 12/05/2018
 ms.keywords: IOverlay, IOverlay interface [DirectShow], IOverlay interface [DirectShow],described, IOverlayInterface, dshow.ioverlay, strmif/IOverlay
-f1_keywords:
-- strmif/IOverlay
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOverlay
+ - strmif/IOverlay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IOverlay
 ---
 
 # IOverlay interface
 
 
 ## -description
-
-
 
 The <code>IOverlay</code> interface provides information so that a filter can write directly to video memory while placing the video in the correct window position. It is implemented on the input pin of the video renderer and communicates with an upstream filter (typically a video decompressor) by calling that filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify</a> methods to notify it of changes to the video window.
 
@@ -65,9 +64,6 @@ This interface is implemented on the Microsoft® DirectShow® video renderer fil
 The window-based renderer in DirectShow supports both <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin</a> and <b>IOverlay</b> interfaces. These two interfaces are mutually exclusive. A filter chooses to use the <b>IOverlay</b> transport by providing a media type during connection that has a subtype of MEDIASUBTYPE_Overlay. After connection, it will be able to get and use successfully the <code>IOverlay</code> interface. If it connects with any other video formats (such as MEDIASUBTYPE_RGB8), trying to call through <code>IOverlay</code> returns VFW_E_NOT_OVERLAY_CONNECTION.
 
 Use the methods on this function from an upstream filter that must control video overlay properties and intends to handle the displaying of the video data itself. This typically is used by hardware video decoders that have an alternate connection to the video hardware.
-
-
-
 
 ## -inheritance
 
@@ -174,5 +170,5 @@ Terminates the advise link.
 
 </td>
 </tr>
-</table> 
+</table>
 

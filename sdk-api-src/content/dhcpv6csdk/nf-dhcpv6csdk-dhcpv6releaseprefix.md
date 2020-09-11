@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 252646db-f8d2-42d1-87af-2426dff2c72c
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6ReleasePrefix, Dhcpv6ReleasePrefix function [DHCP], dhcp.dhcpv6releaseprefix, dhcpv6csdk/Dhcpv6ReleasePrefix
-f1_keywords:
-- dhcpv6csdk/Dhcpv6ReleasePrefix
-dev_langs:
-- c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpcsvc6.lib
 req.dll: Dhcpcsvc6.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpcsvc6.dll
-api_name:
-- Dhcpv6ReleasePrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Dhcpv6ReleasePrefix
+ - dhcpv6csdk/Dhcpv6ReleasePrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpcsvc6.dll
+api_name:
+ - Dhcpv6ReleasePrefix
 ---
 
 # Dhcpv6ReleasePrefix function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6requestprefix">Dhcpv6ReleasePrefix</a> function releases  a prefix previously acquired with the <b>Dhcpv6RequestPrefix</b> function.
 
-
 ## -parameters
-
-
-
 
 ### -param adapterName [in]
 
 Name of the adapter on which the PD request must be sent.
-
 
 ### -param classId [in]
 
@@ -74,10 +69,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6CAPIPrefixLeaseInformation</a> structure that is used to release the prefix.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS upon successful completion.
 
@@ -115,14 +107,8 @@ The <i>AdapterName</i> is not in the correct format. It should be in this format
 </tr>
 
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Release messages sent as the result of the call to this function must  contain the following values for the <b>T1</b> and <b>T2</b> fields of the  <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6CAPIPrefixLeaseInformation</a> structure supplied in the <i>prefixleaseInfo</i> parameter:
 
@@ -131,3 +117,4 @@ Release messages sent as the result of the call to this function must  contain t
 <li><b>T2</b>: the rebind time of the prefix, in seconds specified as absolute time values.
 </li>
 </ul>
+

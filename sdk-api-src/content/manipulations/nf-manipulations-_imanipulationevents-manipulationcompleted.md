@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: 1284df32-f4e8-43b3-b825-9172ad39f0e6
 ms.date: 12/05/2018
 ms.keywords: ManipulationCompleted, ManipulationCompleted method [Windows Touch], ManipulationCompleted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationCompleted method, _IManipulationEvents.ManipulationCompleted, _IManipulationEvents::ManipulationCompleted, manipulations/_IManipulationEvents::ManipulationCompleted, wintouch._imanipulationevents_manipulationcompleted
-f1_keywords:
-- manipulations/_IManipulationEvents.ManipulationCompleted
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- _IManipulationEvents.ManipulationCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IManipulationEvents::ManipulationCompleted
+ - manipulations/_IManipulationEvents::ManipulationCompleted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - _IManipulationEvents.ManipulationCompleted
 ---
 
 # _IManipulationEvents::ManipulationCompleted
@@ -49,62 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles the event when manipulation or inertia finishes.
 
-
 ## -parameters
-
-
-
 
 ### -param x [in]
 
 The origin x-coordinate in user-defined coordinates.
 
-
 ### -param y [in]
 
 The origin y-coordinate in user-defined coordinates.
-
 
 ### -param cumulativeTranslationX [in]
 
 The total translation about the x-axis since the beginning of the manipulation in user-defined coordinates.
 
-
 ### -param cumulativeTranslationY [in]
 
 The total translation about the y-axis since the beginning of the manipulation in user-defined coordinates.
-
 
 ### -param cumulativeScale [in]
 
 The total scale change since the beginning of the manipulation as a percentage of the original size.
 
-
 ### -param cumulativeExpansion [in]
 
 The total expansion change since the beginning of the manipulation in user-defined coordinates.
-
 
 ### -param cumulativeRotation [in]
 
 The total rotation change since the beginning of the manipulation in radians.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT error code.
 
-
-
-
 ## -remarks
-
-
 
 Manipulation events are generated for both the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> and <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> interfaces.
     If you are using the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a> structure in calls to <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup">ProcessUp</a>, the coordinates will be in 
@@ -151,14 +133,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
     
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/adding-manipulation-support-in-unmanaged-code">Adding Manipulation Support to Unmanaged Code</a>
 
@@ -173,7 +148,4 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
 
 
 <a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
- 
-
- 
 

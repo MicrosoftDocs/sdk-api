@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 7a0aac99-8829-4720-a388-da88d015d596
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtEpEltInqDone, RpcMgmtEpEltInqDone function [RPC], _rpc_rpcmgmtepeltinqdone, rpc.rpcmgmtepeltinqdone, rpcdce/RpcMgmtEpEltInqDone
-f1_keywords:
-- rpcdce/RpcMgmtEpEltInqDone
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcMgmtEpEltInqDone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcMgmtEpEltInqDone
+ - rpcdce/RpcMgmtEpEltInqDone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcMgmtEpEltInqDone
 ---
 
 # RpcMgmtEpEltInqDone function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcMgmtEpEltInqDone</b> function deletes the inquiry context for viewing the elements in an endpoint map.
 
-
 ## -parameters
-
-
-
 
 ### -param InquiryContext
 
 Inquiry context to delete and returns the value <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -91,24 +84,14 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcMgmtEpEltInqDone</b> function deletes an inquiry context created by 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin">RpcMgmtEpEltInqBegin</a>. An application calls this function after viewing local endpoint-map elements using 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a>
 
@@ -119,7 +102,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqnext">RpcMgmtEpEltInqNext</a>
- 
-
- 
 

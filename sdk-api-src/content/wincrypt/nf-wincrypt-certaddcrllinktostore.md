@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2fde63ed-7522-4400-a16b-059a001e7c26
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_USE_EXISTING, CertAddCRLLinkToStore, CertAddCRLLinkToStore function [Security], _crypto2_certaddcrllinktostore, security.certaddcrllinktostore, wincrypt/CertAddCRLLinkToStore
-f1_keywords:
-- wincrypt/CertAddCRLLinkToStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertAddCRLLinkToStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertAddCRLLinkToStore
+ - wincrypt/CertAddCRLLinkToStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertAddCRLLinkToStore
 ---
 
 # CertAddCRLLinkToStore function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertAddCRLLinkToStore</b> function adds a link in a store to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context in a different store. Instead of creating and adding a duplicate of the CRL, this function adds a link to the original CRL context.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of a certificate store where the link is to be added.
 
-
 ### -param pCrlContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure to be linked.
-
 
 ### -param dwAddDisposition [in]
 
@@ -136,18 +130,13 @@ If a matching CRL or a link to a matching CRL exists, that existing link is used
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppStoreContext [out, optional]
 
 A pointer to a pointer of a copy of the link created. The <i>ppStoreContext</i> parameter can be <b>NULL</b> to indicate that a copy of the link is not needed. If a copy of the link is created, that copy must be freed using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -182,14 +171,8 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because the link provides access to an original CRL context, setting an extended property in the linked CRL context changes that extended property in the CRL's original location and in any other links to that CRL.
 
@@ -203,13 +186,7 @@ If links are used and
 
 To remove the CRL context link from the certificate store, use the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore">CertDeleteCRLFromStore</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctllinktostore">CertAddCTLLinkToStore</a>
 
@@ -240,7 +217,4 @@ To remove the CRL context link from the certificate store, use the  <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: ebdd2dcd-82c5-423f-a85d-04388f5078ec
 ms.date: 12/05/2018
 ms.keywords: EnumAudioEndpoints, EnumAudioEndpoints method [Core Audio], EnumAudioEndpoints method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],EnumAudioEndpoints method, IMMDeviceEnumerator.EnumAudioEndpoints, IMMDeviceEnumerator::EnumAudioEndpoints, IMMDeviceEnumeratorEnumAudioEndpoints, coreaudio.immdeviceenumerator_enumaudioendpoints, mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints
-f1_keywords:
-- mmdeviceapi/IMMDeviceEnumerator.EnumAudioEndpoints
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMDeviceEnumerator.EnumAudioEndpoints
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMDeviceEnumerator::EnumAudioEndpoints
+ - mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMDeviceEnumerator.EnumAudioEndpoints
 ---
 
 # IMMDeviceEnumerator::EnumAudioEndpoints
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EnumAudioEndpoints</b> method generates a collection of audio endpoint devices that meet the specified criteria.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dataFlow [in]
 
@@ -72,7 +65,6 @@ eCapture
 eAll
 
 If the caller specifies eAll, the method includes both rendering and capture endpoints in the collection.
-
 
 ### -param dwStateMask [in]
 
@@ -88,15 +80,11 @@ DEVICE_STATE_UNPLUGGED
 
 For example, if the caller sets the <i>dwStateMask</i> parameter to DEVICE_STATE_ACTIVE | DEVICE_STATE_UNPLUGGED, the method includes endpoints that are either active or unplugged from their jacks, but excludes endpoints that are on audio adapters that have been disabled or are not present. To include all endpoints, regardless of state, set <i>dwStateMask</i> = DEVICE_STATEMASK_ALL.
 
-
 ### -param ppDevices [out]
 
 Pointer to a pointer variable into which the method writes the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection</a> interface of the device-collection object. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>EnumAudioEndpoints</b> call fails,  <i>*ppDevices</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -139,14 +127,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For example, the following call enumerates all audio-rendering endpoint devices that are currently active (present and not disabled):
 
@@ -169,19 +151,11 @@ For a code example that calls the <b>EnumAudioEndpoints</b> method, see <a href=
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
- 
-
- 
 

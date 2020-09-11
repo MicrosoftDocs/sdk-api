@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4fc59ed0-ef54-4834-90d3-309d297543e6
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],ReplaceDisk method, IVdsPack.ReplaceDisk, IVdsPack::ReplaceDisk, ReplaceDisk, ReplaceDisk method [VDS], ReplaceDisk method [VDS],IVdsPack interface, base.ivdspack_replacedisk, vds/IVdsPack::ReplaceDisk
-f1_keywords:
-- vds/IVdsPack.ReplaceDisk
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsPack.ReplaceDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsPack::ReplaceDisk
+ - vds/IVdsPack::ReplaceDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsPack.ReplaceDisk
 ---
 
 # IVdsPack::ReplaceDisk
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 
 This method is reserved for future use.
 
-
 ## -parameters
-
-
-
 
 ### -param OldDiskId [in]
 
 The GUID of the old disk.
 
-
 ### -param NewDiskId [in]
 
 The GUID of the new disk.
-
 
 ### -param ppAsync [out]
 
@@ -79,10 +73,7 @@ The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwp
       which VDS initializes on return. Callers must release the interface. Use this interface to cancel, wait for, or 
       query the status of the operation.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -115,14 +106,8 @@ This method is not supported in this release.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Callers can use this method for media migration (replacing an old disk with a new disk) or when repairing a 
     fault-tolerant set with a missing or failed member—especially for those providers that do not implement hot sparing.
@@ -136,6 +121,4 @@ Implementers must return a pointer to the <a href="https://docs.microsoft.com/wi
     does not implement hot sparing, it must support the failed-member scenario: start synchronizing the exposed 
     fault-tolerant volume again after the caller invokes the 
     <b>ReplaceDisk</b> method.
-
-
 

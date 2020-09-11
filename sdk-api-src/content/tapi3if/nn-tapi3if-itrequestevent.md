@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 69f9b504-be01-4167-8002-32a8e86bab0f
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent, ITRequestEvent interface [TAPI 2.2], ITRequestEvent interface [TAPI 2.2],described, _tapi3_itrequestevent, tapi3.itrequestevent, tapi3if/ITRequestEvent
-f1_keywords:
-- tapi3if/ITRequestEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITRequestEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITRequestEvent
+ - tapi3if/ITRequestEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITRequestEvent
 ---
 
 # ITRequestEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITRequestEvent</b> interface contains methods that allow an application to receive and process 
@@ -130,13 +130,9 @@ Gets the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -155,7 +151,4 @@ Gets the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 526b91aa-a5b9-4ee9-873f-ca23c4633d21
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [RDP], Disconnect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Disconnect method, IRDPSRAPIViewer.Disconnect, IRDPSRAPIViewer::Disconnect, rdp.irdpsrapiviewer_disconnect, rdpencomapi/IRDPSRAPIViewer::Disconnect
-f1_keywords:
-- rdpencomapi/IRDPSRAPIViewer.Disconnect
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIViewer.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIViewer::Disconnect
+ - rdpencomapi/IRDPSRAPIViewer::Disconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIViewer.Disconnect
 ---
 
 # IRDPSRAPIViewer::Disconnect
@@ -49,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a> interface is no longer available for use for UWP applications as of Windows 10, version 1709. It is still supported for Desktop apps.]
 
 Initiates a disconnect of the viewer from the sharer.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return value is an error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>
- 
-
- 
 

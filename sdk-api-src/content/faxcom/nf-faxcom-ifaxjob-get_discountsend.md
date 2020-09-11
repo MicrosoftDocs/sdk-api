@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8h9g.htm
 ms.date: 12/05/2018
 ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],IFaxJob interface, IFaxJob interface [Fax Service],DiscountSend property, IFaxJob.DiscountSend, IFaxJob.get_DiscountSend, IFaxJob::DiscountSend, IFaxJob::get_DiscountSend, _mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_mfax_ifaxjob_get_discountsend_cpp, faxcom/IFaxJob::DiscountSend, faxcom/IFaxJob::get_DiscountSend, get_DiscountSend
-f1_keywords:
-- faxcom/IFaxJob.DiscountSend
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxJob.DiscountSend
-- IFaxJob.get_DiscountSend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxJob::get_DiscountSend
+ - faxcom/IFaxJob::get_DiscountSend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxJob.DiscountSend
+ - IFaxJob.get_DiscountSend
 ---
 
 # IFaxJob::get_DiscountSend
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxJob::get_DiscountSend</b> property is a Boolean value that indicates whether the fax server will transmit the fax job during the discount rate period. The discount period applies only to outgoing fax transmissions. 
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 To determine the period during which the discount rate applies, you can use the following IFaxServer properties. 
 
@@ -80,12 +76,7 @@ To determine the period during which the discount rate applies, you can use the 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -104,7 +95,4 @@ To determine the period during which the discount rate applies, you can use the 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-fax-jobs">Managing Fax Jobs</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7bqg.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],Refresh method, IFaxJob.Refresh, IFaxJob::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxJob interface, _mfax_ifaxjob_refresh, fax._mfax_ifaxjob_mfax_ifaxjob_refresh_cpp, fax._mfax_ifaxjob_refresh, faxcom/IFaxJob::Refresh
-f1_keywords:
-- faxcom/IFaxJob.Refresh
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxJob.Refresh
-- IFaxJob.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxJob::Refresh
+ - faxcom/IFaxJob::Refresh
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxJob.Refresh
+ - IFaxJob.Refresh
 ---
 
 # IFaxJob::Refresh
@@ -50,43 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxJob::Refresh</b> method updates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjob">FaxJob</a> object information for the associated fax job.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Call the <b>IFaxJob::Refresh</b> method to poll the fax service for new information about a specified fax job. After you successfully call <b>IFaxJob::Refresh</b>, you must call the appropriate <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjob">IFaxJob</a> interface method to retrieve new attribute values that are valid.
 
 It is recommended that you limit calls to this method because frequent calls to <b>IFaxJob::Refresh</b> can degrade system performance.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -101,7 +82,4 @@ It is recommended that you limit calls to this method because frequent calls to 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\appendmenu.htm
 ms.date: 12/05/2018
 ms.keywords: AppendMenu, AppendMenu function [Menus and Other Resources], AppendMenuA, AppendMenuW, MF_BITMAP, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _win32_AppendMenu, _win32_appendmenu_cpp, menurc.appendmenu, winui._win32_appendmenu, winuser/AppendMenu, winuser/AppendMenuA, winuser/AppendMenuW
-f1_keywords:
-- winuser/AppendMenu
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- AppendMenu
-- AppendMenuA
-- AppendMenuW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AppendMenuW
+ - winuser/AppendMenuW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - AppendMenu
+ - AppendMenuA
+ - AppendMenuW
 ---
 
 # AppendMenuW function
@@ -55,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Appends a new item to the end of the specified menu bar, drop-down menu, submenu, or shortcut menu. You can use this function to specify the content, appearance, and behavior of the menu item. 
-
+Appends a new item to the end of the specified menu bar, drop-down menu, submenu, or shortcut menu. You can use this function to specify the content, appearance, and behavior of the menu item.
 
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu bar, drop-down menu, submenu, or shortcut menu to be changed. 
-
+A handle to the menu bar, drop-down menu, submenu, or shortcut menu to be changed.
 
 ### -param uFlags [in]
 
@@ -215,15 +210,12 @@ Does not place a check mark next to the item (default). If the application suppl
 </td>
 </tr>
 </table>
- 
-
 
 ### -param uIDNewItem [in]
 
 Type: <b>UINT_PTR</b>
 
-The identifier of the new menu item or, if the <i>uFlags</i> parameter is set to <b>MF_POPUP</b>, a handle to the drop-down menu or submenu. 
-
+The identifier of the new menu item or, if the <i>uFlags</i> parameter is set to <b>MF_POPUP</b>, a handle to the drop-down menu or submenu.
 
 ### -param lpNewItem [in, optional]
 
@@ -270,23 +262,14 @@ Contains a pointer to a null-terminated string.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>BOOL</b>
 
-If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
@@ -314,9 +297,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 > The winuser.h header defines AppendMenu as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -363,7 +343,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
- 
-
- 
 

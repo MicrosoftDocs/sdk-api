@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 87407830-b34b-4d4e-a5cc-551f47cffb75
 ms.date: 12/05/2018
 ms.keywords: IProvideMultipleClassInfo, IProvideMultipleClassInfo interface [COM], IProvideMultipleClassInfo interface [COM],described, _com_iprovidemultipleclassinfo, com.iprovidemultipleclassinfo, ocidl/IProvideMultipleClassInfo
-f1_keywords:
-- ocidl/IProvideMultipleClassInfo
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IProvideMultipleClassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProvideMultipleClassInfo
+ - ocidl/IProvideMultipleClassInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IProvideMultipleClassInfo
 ---
 
 # IProvideMultipleClassInfo interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-An extension to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a> that makes it faster and easier to retrieve type information from a component that may have multiple coclasses that determine its behavior. 
-
-
+An extension to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a> that makes it faster and easier to retrieve type information from a component that may have multiple coclasses that determine its behavior.
 
 ## -inheritance
 
@@ -87,5 +85,5 @@ Retrieves the number of type information blocks that this object must provide.
 
 </td>
 </tr>
-</table> 
+</table>
 

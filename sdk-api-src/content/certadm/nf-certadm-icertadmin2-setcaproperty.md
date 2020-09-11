@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 29570a8f-41d4-4c6a-88d0-97d6aa9d0784
 ms.date: 12/05/2018
 ms.keywords: CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_TEMPLATES, ICertAdmin2 interface [Security],SetCAProperty method, ICertAdmin2.SetCAProperty, ICertAdmin2::SetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCAProperty, SetCAProperty method [Security], SetCAProperty method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCAProperty, security.icertadmin2_setcaproperty
-f1_keywords:
-- certadm/ICertAdmin2.SetCAProperty
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.SetCAProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2::SetCAProperty
+ - certadm/ICertAdmin2::SetCAProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.SetCAProperty
 ---
 
 # ICertAdmin2::SetCAProperty
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetCAProperty</b> method sets a property value for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
 String value that represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.<div class="alert"><b>Important</b>  <b>SetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
-
-
 
 ### -param PropId [in]
 
@@ -143,13 +137,10 @@ Data format: <b>String</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropIndex [in]
 
 If the <i>PropId</i> parameter is indexed, the zero-based index to use when retrieving the property value. If <i>PropId</i> is not indexed, this value is ignored.
-
 
 ### -param PropType [in]
 
@@ -201,8 +192,6 @@ Binary data.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [in]
 
@@ -225,28 +214,17 @@ A <b>Variant</b> that specifies the property value.
 
 ## -returns
 
-
-
 <h3>VB</h3>
 If the function is successful, the return value is S_OK.
 
  
 If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>
- 
-
- 
 

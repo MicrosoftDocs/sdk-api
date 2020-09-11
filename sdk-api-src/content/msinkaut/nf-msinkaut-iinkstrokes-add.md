@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86
 ms.date: 12/05/2018
 ms.keywords: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86, Add, Add method [Tablet PC], Add method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],Add method, IInkStrokes.Add, IInkStrokes::Add, msinkaut/IInkStrokes::Add, tablet.inkstrokes_add
-f1_keywords:
-- msinkaut/IInkStrokes.Add
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokes.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokes::Add
+ - msinkaut/IInkStrokes::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokes.Add
 ---
 
 # IInkStrokes::Add
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Adds an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection to an existing InkStrokes collection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param InkStroke [in]
 
  The stroke to add to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,26 +135,14 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">In
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The stroke must already exist within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, and cannot belong to another <b>InkDisp</b> object. Also, this method does not copy or otherwise alter the <b>InkDisp</b> object, but merely adds this stroke to the collection.</div>
 <div> </div>
 Use this method to add one stroke to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection. To add one collection of strokes to another, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes">AddStrokes</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes">AddStrokes Method</a>
 
@@ -179,7 +157,4 @@ Use this method to add one stroke to an <a href="https://docs.microsoft.com/prev
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

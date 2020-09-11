@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 51850105-b3b1-4758-acde-05ca2f3439f2
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], ITuningSpace interface [Microsoft TV Technologies],described, ITuningSpaceInterface, mstv.ituningspace, tuner/ITuningSpace
-f1_keywords:
-- tuner/ITuningSpace
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- ITuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITuningSpace
+ - tuner/ITuningSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - ITuningSpace
 ---
 
 # ITuningSpace interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ITuningSpace</b> interface provides the common functionality for all network-specific tuning spaces. Applications can obtain tuning spaces from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/systemtuningspaces-object">SystemTuningSpaces</a> collection. A tuning space generally exposes an interface that inherits <b>ITuningSpace</b>, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsctuningspace">IATSCTuningSpace</a>.
-
-
-
 
 ## -inheritance
 
@@ -242,25 +238,13 @@ Sets a unique name for the tuning space. Can be either a short name, or a GUID.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ITuningSpace)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

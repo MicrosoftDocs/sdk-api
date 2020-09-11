@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be
 ms.date: 12/05/2018
 ms.keywords: GetCodecInfoCount, GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecInfoCount method, IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
-f1_keywords:
-- wmsdkidl/IWMCodecInfo.GetCodecInfoCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMCodecInfo.GetCodecInfoCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecInfo::GetCodecInfoCount
+ - wmsdkidl/IWMCodecInfo::GetCodecInfoCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMCodecInfo.GetCodecInfoCount
 ---
 
 # IWMCodecInfo::GetCodecInfoCount
@@ -52,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetCodecInfoCount</b> method retrieves the number of supported codecs for a specified major type of digital media (audio or video).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidType [in]
 
@@ -84,17 +77,12 @@ The <b>GetCodecInfoCount</b> method retrieves the number of supported codecs for
 <td>Specifies an audio codec.</td>
 </tr>
 </table>
- 
-
 
 ### -param pcCodecs [out]
 
 Pointer to a count of supported codecs.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -137,26 +125,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method along with <b>GetCodecFormatCount</b> and <b>GetCodecFormat</b> to enumerate through the supported codecs for each media type, and the supported formats for each codec.
 
 The Windows Media Format SDK provides codecs only for audio and video. If you specify another major type, this method will return an error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo Interface</a>
 
@@ -167,7 +143,4 @@ The Windows Media Format SDK provides codecs only for audio and video. If you sp
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">IWMCodecInfo::GetCodecFormatCount</a>
- 
-
- 
 

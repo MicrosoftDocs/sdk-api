@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvbkimage.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPLVBKIMAGEA, LPLVBKIMAGE, LPLVBKIMAGE structure pointer [Windows Controls], LVBKIF_FLAG_ALPHABLEND, LVBKIF_FLAG_TILEOFFSET, LVBKIF_SOURCE_HBITMAP, LVBKIF_SOURCE_NONE, LVBKIF_SOURCE_URL, LVBKIF_STYLE_NORMAL, LVBKIF_STYLE_TILE, LVBKIF_TYPE_WATERMARK, LVBKIMAGE, LVBKIMAGE structure [Windows Controls], LVBKIMAGEA, LVBKIMAGEW, _win32_LVBKIMAGE, _win32_LVBKIMAGE_cpp, commctrl/LPLVBKIMAGE, commctrl/LVBKIMAGE, commctrl/LVBKIMAGEA, commctrl/LVBKIMAGEW, controls.LVBKIMAGE, controls._win32_LVBKIMAGE'
-f1_keywords:
-- commctrl/LVBKIMAGE
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVBKIMAGE
-- LVBKIMAGEA
-- LVBKIMAGEW
 targetos: Windows
 req.typenames: LVBKIMAGEA, *LPLVBKIMAGEA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVBKIMAGEA
+ - commctrl/tagLVBKIMAGEA
+ - LPLVBKIMAGEA
+ - commctrl/LPLVBKIMAGEA
+ - LVBKIMAGEA
+ - commctrl/LVBKIMAGEA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVBKIMAGE
+ - LVBKIMAGEA
+ - LVBKIMAGEW
 ---
 
 # LVBKIMAGEA structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the background image of a list-view control. This structure is used for both setting and retrieving background image information. 
-
+Contains information about the background image of a list-view control. This structure is used for both setting and retrieving background image information.
 
 ## -struct-fields
-
-
-
 
 ### -field ulFlags
 
@@ -152,8 +152,6 @@ Valid only when LVBKIF_TYPE_WATERMARK is also specified.  This flag indicates th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hbm
 
@@ -161,8 +159,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The handle of the background bitmap. This member is valid only if the 
 					<b>LVBKIF_SOURCE_HBITMAP</b> flag is set in 
-					<b>ulFlags</b>. 
-
+					<b>ulFlags</b>.
 
 ### -field pszImage
 
@@ -170,16 +167,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Address of a NULL-terminated string that contains the URL of the background image. This member is valid only if the 
 					<b>LVBKIF_SOURCE_URL</b> flag is set in 
-					<b>ulFlags</b>. This member must be initialized to point to the buffer that contains or receives the text before sending the message. 
-
+					<b>ulFlags</b>. This member must be initialized to point to the buffer that contains or receives the text before sending the message.
 
 ### -field cchImageMax
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the buffer at the address in 
-					<b>pszImage</b>. If information is being sent to the control, this member is ignored. 
-
+					<b>pszImage</b>. If information is being sent to the control, this member is ignored.
 
 ### -field xOffsetPercent
 
@@ -187,8 +182,7 @@ Type: <b>int</b>
 
 Percentage of the control's client area that the image should be offset horizontally. For example, at 0 percent, the image will be displayed against the left edge of the control's client area. At 50 percent, the image will be displayed horizontally centered in the control's client area. At 100 percent, the image will be displayed against the right edge of the control's client area. This member is valid only when 
 					<b>LVBKIF_STYLE_NORMAL</b> is specified in 
-					<b>ulFlags</b>. If both <b>LVBKIF_FLAG_TILEOFFSET</b> and <b>LVBKIF_STYLE_TILE</b> are specified in <b>ulFlags</b>, then the value specifies the pixel, not percentage offset, of the first tile. Otherwise, the value is ignored.  
-
+					<b>ulFlags</b>. If both <b>LVBKIF_FLAG_TILEOFFSET</b> and <b>LVBKIF_STYLE_TILE</b> are specified in <b>ulFlags</b>, then the value specifies the pixel, not percentage offset, of the first tile. Otherwise, the value is ignored.
 
 ### -field yOffsetPercent
 
@@ -196,12 +190,9 @@ Type: <b>int</b>
 
 Percentage of the control's client area that the image should be offset vertically. For example, at 0 percent, the image will be displayed against the top edge of the control's client area. At 50 percent, the image will be displayed vertically centered in the control's client area. At 100 percent, the image will be displayed against the bottom edge of the control's client area. This member is valid only when 
 					<b>LVBKIF_STYLE_NORMAL</b> is specified in 
-					<b>ulFlags</b>. If both <b>LVBKIF_FLAG_TILEOFFSET</b> and <b>LVBKIF_STYLE_TILE</b> are specified in <b>ulFlags</b>, then the value specifies the pixel, not percentage offset, of the first tile. Otherwise, the value is ignored.  
-
+					<b>ulFlags</b>. If both <b>LVBKIF_FLAG_TILEOFFSET</b> and <b>LVBKIF_STYLE_TILE</b> are specified in <b>ulFlags</b>, then the value specifies the pixel, not percentage offset, of the first tile. Otherwise, the value is ignored.
 
 ## -remarks
-
-
 
 This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getbkimage">LVM_GETBKIMAGE</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setbkimage">LVM_SETBKIMAGE</a> messages. 
 

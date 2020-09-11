@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 217d1f40-7f3f-49a0-b29e-e2da85ba47f1
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerRemove, TUISPI_providerRemove function [TAPI 2.2], _tspi_tuispi_providerremove, tspi.tuispi_providerremove, tspi/TUISPI_providerRemove
-f1_keywords:
-- tspi/TUISPI_providerRemove
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TUISPI_providerRemove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TUISPI_providerRemove
+ - tspi/TUISPI_providerRemove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TUISPI_providerRemove
 ---
 
 # TUISPI_providerRemove function
 
 
 ## -description
-
 
 The 
 <b>TUISPI_providerRemove</b> function asks the user to confirm elimination of the service provider. This function makes the 
@@ -58,41 +58,27 @@ It is the responsibility of the service provider to remove any registry entries 
 
 Implementation is optional.
 
-
 ## -parameters
-
-
-
 
 ### -param lpfnUIDLLCallback
 
 Pointer to a function the UI DLL can call to communicate with the service provider DLL to obtain information needed to display the dialog box.
 
-
 ### -param hwndOwner
 
 The handle of the parent window in which the function can create any dialog box windows required during the removal.
-
 
 ### -param dwPermanentProviderID
 
 The service provider's permanent provider identifier.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_OPERATIONFAILED, LINEERR_INIFILECORRUPT, LINEERR_NOMEM, LINEERR_INVALPARAM.
 
-
-
-
 ## -remarks
-
-
 
 This function must guarantee that any service provider's privately-defined information is removed from the registry if it returns success.
 
@@ -114,13 +100,7 @@ The corresponding function at the TAPI level is
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineremoveprovider">lineRemoveProvider</a>. At that level, applications expect to have service providers already installed; otherwise their lines and phones do not appear within the available sequence of device identifiers. The 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message informs applications that are running about dynamic reconfiguration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725220(v=vs.85)">LINE_CLOSE</a>
 
@@ -143,7 +123,4 @@ The corresponding function at the TAPI level is
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall">TUISPI_providerInstall</a>
- 
-
- 
 

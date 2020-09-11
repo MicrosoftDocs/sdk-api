@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 1792e40b-c363-4732-9613-301c3e6e4da7
 ms.date: 12/05/2018
 ms.keywords: RdcBufferPointer, RdcBufferPointer structure [Remote Differential Compression], fs.rdcbufferpointer, msrdc/RdcBufferPointer, rdc.rdcbufferpointer
-f1_keywords:
-- msrdc/RdcBufferPointer
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- MsRdc.h
-api_name:
-- RdcBufferPointer
 targetos: Windows
 req.typenames: RdcBufferPointer
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_msrdc_0000_0000_0005
+ - msrdc/__MIDL___MIDL_itf_msrdc_0000_0000_0005
+ - RdcBufferPointer
+ - msrdc/RdcBufferPointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - MsRdc.h
+api_name:
+ - RdcBufferPointer
 ---
 
 # RdcBufferPointer structure
@@ -49,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RdcBufferPointer</b> structure describes a 
     buffer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field m_Size
 
 Size, in bytes, of the buffer.
-
 
 ### -field m_Used
 
@@ -70,19 +67,11 @@ For input buffers, <a href="https://docs.microsoft.com/previous-versions/windows
       and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-process">IRdcGenerator::Process</a> will store here how 
       much (if any) of the buffer was used during processing.
 
-
 ### -field m_Data
 
 Pointer to the buffer.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
- 
-
- 
 

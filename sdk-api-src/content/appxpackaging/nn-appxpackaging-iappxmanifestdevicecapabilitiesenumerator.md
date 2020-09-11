@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 6A544E15-BB92-48C3-963D-789B04464277
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator, appxpkg.iappxmanifestdevicecapabilitiesenumerator
-f1_keywords:
-- appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestDeviceCapabilitiesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestDeviceCapabilitiesEnumerator
+ - appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestDeviceCapabilitiesEnumerator
 ---
 
 # IAppxManifestDeviceCapabilitiesEnumerator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enumerates the device  capabilities defined in the package manifest. 
-
+Enumerates the device  capabilities defined in the package manifest.
 
 ## -inheritance
 
@@ -95,12 +94,9 @@ Advances the position of the enumerator to the next device capability.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Device capabilities are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability">DeviceCapability</a> element in the package manifest.
 
@@ -129,17 +125,7 @@ for (deviceCapabilitiesEnumerator->GetHasCurrent(&hasCurrent); hasCurrent == tru
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getdevicecapabilities">IAppxManifestReader::GetDeviceCapabilities</a>
- 
-
- 
 

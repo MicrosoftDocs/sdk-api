@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 13c11105-b44d-46e0-ab73-c11fede1507b
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],PolicyAdministrators property, IAzScope interface [Security],PolicyAdministrators property, IAzScope.PolicyAdministrators, IAzScope.get_PolicyAdministrators, IAzScope::PolicyAdministrators, IAzScope::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzScope object, PolicyAdministrators property [Security],IAzScope interface, azroles/IAzScope::PolicyAdministrators, azroles/IAzScope::get_PolicyAdministrators, get_PolicyAdministrators, security.iazscope_policyadministrators
-f1_keywords:
-- azroles/IAzScope.PolicyAdministrators
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzScope.PolicyAdministrators
-- IAzScope.get_PolicyAdministrators
-- AzScope.PolicyAdministrators
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzScope::get_PolicyAdministrators
+ - azroles/IAzScope::get_PolicyAdministrators
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzScope.PolicyAdministrators
+ - IAzScope.get_PolicyAdministrators
+ - AzScope.PolicyAdministrators
 ---
 
 # IAzScope::get_PolicyAdministrators
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PolicyAdministrators</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs), in text form, of principals that act as policy administrators.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Policy administrators for an object can perform the following tasks:
 
@@ -75,7 +71,5 @@ Policy administrators for an object can perform the following tasks:
 <li>Delete child objects of the object</li>
 <li>Create child objects of the object</li>
 </ul>
-In JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. 
-
-
+In JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object.
 

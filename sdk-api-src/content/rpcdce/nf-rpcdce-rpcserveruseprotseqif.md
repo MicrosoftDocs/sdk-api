@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 41c1fa20-266a-4071-91b3-d0fd8196871b
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseProtseqIf, RpcServerUseProtseqIf function [RPC], RpcServerUseProtseqIfA, RpcServerUseProtseqIfW, _rpc_rpcserveruseprotseqif, rpc.rpcserveruseprotseqif, rpcdce/RpcServerUseProtseqIf, rpcdce/RpcServerUseProtseqIfA, rpcdce/RpcServerUseProtseqIfW
-f1_keywords:
-- rpcdce/RpcServerUseProtseqIf
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerUseProtseqIf
-- RpcServerUseProtseqIfA
-- RpcServerUseProtseqIfW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerUseProtseqIf
+ - rpcdce/RpcServerUseProtseqIf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerUseProtseqIf
+ - RpcServerUseProtseqIfA
+ - RpcServerUseProtseqIfW
 ---
 
 # RpcServerUseProtseqIf function
@@ -51,39 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerUseProtseqIf</b> function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls.
 
-
 ## -parameters
-
-
-
 
 ### -param Protseq
 
 Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
-
 ### -param MaxCalls
 
 Backlog queue length for the <b>ncacn_ip_tcp</b> protocol sequence. All other protocol sequences ignore this parameter. Use RPC_C_PROTSEQ_MAX_REQS_DEFAULT to specify the default value. See Remarks.
-
 
 ### -param IfSpec
 
 Interface containing endpoint information to use in creating a binding for the protocol sequence specified in the <i>Protseq</i> parameter.
 
-
 ### -param SecurityDescriptor
 
 Pointer to an optional parameter provided for the security subsystem. Used only for <b>ncacn_np</b> and <b>ncalrpc</b> protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -174,11 +164,7 @@ The security descriptor is invalid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server application calls 
 <b>RpcServerUseProtseqIf</b> to register one protocol sequence with the RPC run-time library. With each protocol-sequence registration, the routine includes the endpoint-address information provided in the IDL file.
@@ -204,12 +190,7 @@ For more information, see
 <b>RpcServerUseProtseqIf</b> includes a new, additional parameter, <i>SecurityDescriptor</i>, that does not appear in the DCE specification.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a>
 
@@ -256,7 +237,4 @@ For more information, see
 
 
 Writing a Secure RPC Client or Server
- 
-
- 
 

@@ -7,10 +7,6 @@ helpviewer_keywords: ["PathGradientBrush::GetRectangle"]
 ms.assetid: da6ff6c8-4be9-46fe-8509-5e72b2feab71
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::GetRectangle
-f1_keywords:
-- gdipluspath/PathGradientBrush::GetRectangle
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - PathGradientBrush::GetRectangle
+ - gdipluspath/PathGradientBrush::GetRectangle
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- PathGradientBrush::GetRectangle
+ - PathGradientBrush::GetRectangle
 ---
 
 # PathGradientBrush::GetRectangle
+
 
 ## -description
 
@@ -108,3 +110,4 @@ VOID Example_GetRect(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+

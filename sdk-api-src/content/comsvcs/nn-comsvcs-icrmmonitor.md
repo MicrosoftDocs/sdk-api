@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: ead5f782-8512-4387-b8f3-7be960f35bbe
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitor, ICrmMonitor interface [COM+], ICrmMonitor interface [COM+],described, _dtc_ICrmMonitor_Interface, comsvcs/ICrmMonitor, cos.icrmmonitor
-f1_keywords:
-- comsvcs/ICrmMonitor
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitor
+ - comsvcs/ICrmMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitor
 ---
 
 # ICrmMonitor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Captures a snapshot of the current state of the CRM and holds a specific CRM clerk.
-
 
 ## -inheritance
 
@@ -86,20 +85,13 @@ Retrieves a pointer on the specified clerk.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>
- 
-
- 
 

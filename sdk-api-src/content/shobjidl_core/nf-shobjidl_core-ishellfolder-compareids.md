@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 54d805cc-5396-4892-9347-cafc2d90779f
 ms.date: 12/05/2018
 ms.keywords: CompareIDs, CompareIDs method [Windows Shell], CompareIDs method [Windows Shell],IShellFolder interface, CompareIDs method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],CompareIDs method, IShellFolder.CompareIDs, IShellFolder2 interface [Windows Shell],CompareIDs method, IShellFolder2::CompareIDs, IShellFolder::CompareIDs, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _win32_IShellFolder_CompareIDs, shell.IShellFolder_CompareIDs, shobjidl_core/IShellFolder2::CompareIDs, shobjidl_core/IShellFolder::CompareIDs
-f1_keywords:
-- shobjidl_core/IShellFolder.CompareIDs
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellFolder.CompareIDs
-- IShellFolder2.CompareIDs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolder::CompareIDs
+ - shobjidl_core/IShellFolder::CompareIDs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellFolder.CompareIDs
+ - IShellFolder2.CompareIDs
 ---
 
 # IShellFolder::CompareIDs
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the relative order of two file objects or folders, given their item identifier lists.
 
-
 ## -parameters
-
-
-
 
 ### -param lParam [in]
 
@@ -87,13 +83,11 @@ The upper sixteen bits of <i>lParam</i> are used for flags that modify the sorti
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. When comparing by name, compare the system names but not the display names. When this flag is passed, the two items are compared by whatever criteria the Shell folder determines are most efficient, as long as it implements a consistent sort function. This flag is useful when comparing for equality or when the results of the sort are not displayed to the user. This flag cannot be combined with other flags.
 
-
 ### -param pidl1 [in]
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
 A pointer to the first item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
-
 
 ### -param pidl2 [in]
 
@@ -101,10 +95,7 @@ Type: <b>PCUIDLIST_RELATIVE</b>
 
 A pointer to the second item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -149,14 +140,8 @@ A return value of zero indicates that the two items are the same (pidl1 = pidl2)
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Note_to_Calling_Applications"></a><a id="note_to_calling_applications"></a><a id="NOTE_TO_CALLING_APPLICATIONS"></a>Note to Calling Applications</h3>
 Do not set the <b>SHCIDS_ALLFIELDS</b> flag in <i>lParam</i> if the folder object does not support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>. Doing so might have unpredictable results. If you use the <b>SHCIDS_ALLFIELDS</b> flag, the lower sixteen bits of <i>lParam</i> must be set to zero.
@@ -208,21 +193,11 @@ HRESULT CompareIDs(LPARAM lParam, PCUIDLIST_RELATIVE pidl1, PCUIDLIST_RELATIVE p
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
- 
-
- 
 

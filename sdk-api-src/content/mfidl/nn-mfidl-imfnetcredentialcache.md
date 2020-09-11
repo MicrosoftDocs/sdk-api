@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: d02e26e7-e99c-4be7-8495-830eff2f1554
 ms.date: 12/05/2018
 ms.keywords: IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], IMFNetCredentialCache interface [Media Foundation],described, d02e26e7-e99c-4be7-8495-830eff2f1554, mf.imfnetcredentialcache, mfidl/IMFNetCredentialCache
-f1_keywords:
-- mfidl/IMFNetCredentialCache
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFNetCredentialCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFNetCredentialCache
+ - mfidl/IMFNetCredentialCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFNetCredentialCache
 ---
 
 # IMFNetCredentialCache interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets credentials from the credential cache.
 
 This interface is implemented by the credential cache object. Applications that implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialmanager">IMFNetCredentialManager</a> interface can use this object to store the user's credentials. To create the credential cache object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatecredentialcache">MFCreateCredentialCache</a>.
-
 
 ## -inheritance
 
@@ -98,20 +97,13 @@ Specifies how user credentials are persisted.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
- 
-
- 
 

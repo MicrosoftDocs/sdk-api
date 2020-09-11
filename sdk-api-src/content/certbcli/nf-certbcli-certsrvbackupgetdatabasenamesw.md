@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5e62be79-693a-4543-8d83-262f00686c99
 ms.date: 12/05/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBackupGetDatabaseNames function [Security], CertSrvBackupGetDatabaseNamesW, _certsrv_certsrvbackupgetdatabasenames, certbcli/CertSrvBackupGetDatabaseNames, certbcli/CertSrvBackupGetDatabaseNamesW, security.certsrvbackupgetdatabasenames
-f1_keywords:
-- certbcli/CertSrvBackupGetDatabaseNames
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvBackupGetDatabaseNames
-- CertSrvBackupGetDatabaseNamesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvBackupGetDatabaseNamesW
+ - certbcli/CertSrvBackupGetDatabaseNamesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvBackupGetDatabaseNames
+ - CertSrvBackupGetDatabaseNamesW
 ---
 
 # CertSrvBackupGetDatabaseNamesW function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvBackupGetDatabaseNames</b> function retrieves the list of Certificate Services database file names that need to be backed up for the given backup context.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to a Certificate Services backup context.
-
 
 ### -param ppwszzAttachmentInformation [out]
 
@@ -93,24 +88,15 @@ Certificate Services database file name including path.
 
 You must free this allocated memory when done by calling <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>. Before calling this function, setting *<i>ppwszzAttachmentInformation</i> to <b>NULL</b> is optional.
 
-
 ### -param pcbSize [out]
 
 A pointer to the <b>DWORD</b> value that specifies the number of bytes in <i>ppwszzAttachmentInformation</i>.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
-
-
-
 ## -remarks
-
-
 
 This function's name in the Certadm.dll is <b>CertSrvBackupGetDatabaseNamesW</b>. You must use this form of the name when calling <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVBACKUPGETDATABASENAMESW</b> in the Certbcli.h header file.
 
@@ -167,14 +153,7 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>
 
@@ -185,7 +164,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
 

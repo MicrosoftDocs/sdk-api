@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6fa4b0ac-3c75-4cda-b20d-582a3e18fb28
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrUIOperation, ISyncMgrUIOperation interface [Windows Shell], ISyncMgrUIOperation interface [Windows Shell],described, _shell_ISyncMgrUIOperation, shell.ISyncMgrUIOperation, syncmgr/ISyncMgrUIOperation
-f1_keywords:
-- syncmgr/ISyncMgrUIOperation
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrUIOperation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrUIOperation
+ - syncmgr/ISyncMgrUIOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrUIOperation
 ---
 
 # ISyncMgrUIOperation interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method through which a sync handler or sync item can display a UI object when requested to do so by Sync Center.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Performs the actual display of UI for a handler or sync item when requested to d
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Handlers implement <b>ISyncMgrUIOperation</b> to provide UI for a particular action. Each separate action (browse, schedule, enable/disable, activate/deactivate, and delete) requires a separate implementation.
 
@@ -111,6 +107,4 @@ The following summarizes the steps Sync Center takes to instantiate and use this
 By implementing the UI as a separate interface, the display of the UI can be performed independently of synchronization. <b>ISyncMgrUIOperation</b> should be implemented on a different object than either <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a> or <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a>.
 
 If the user requests an action, then requests that same action again before the first has completed, the UI for the initial action is activated and brought to the foreground.
-
-
 

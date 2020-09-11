@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: e9e961ed-80a8-4694-a11d-f6cd323ec2ff
 ms.date: 12/05/2018
 ms.keywords: FILTERSPECV4, FILTERSPECV4_GPI, FILTERSPECV6, FILTERSPECV6_FLOW, FILTERSPECV6_GPI, FILTERSPEC_END, FilterType, FilterType enumeration [QOS], qos.filtertype, qossp/FILTERSPECV4, qossp/FILTERSPECV4_GPI, qossp/FILTERSPECV6, qossp/FILTERSPECV6_FLOW, qossp/FILTERSPECV6_GPI, qossp/FILTERSPEC_END, qossp/FilterType
-f1_keywords:
-- qossp/FilterType
-dev_langs:
-- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qossp.h
-api_name:
-- FilterType
 targetos: Windows
 req.typenames: FilterType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FilterType
+ - qossp/FilterType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qossp.h
+api_name:
+ - FilterType
 ---
 
 # FilterType enumeration
@@ -49,49 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FilterType</b> enumeration specifies the type of filter used for an RSVP FILTERSPEC.
 
-
 ## -enum-fields
-
-
-
 
 ### -field FILTERSPECV4
 
 Indicates an IPv4 FILTERSPEC.
 
-
 ### -field FILTERSPECV6
 
 Indicates an IPv6 FILTERSPEC.
-
 
 ### -field FILTERSPECV6_FLOW
 
 Indicates  IPv6 FILTERSPEC flow information.
 
-
 ### -field FILTERSPECV4_GPI
 
 Indicates  IPv4 FILTERSPEC general port identifier information.
-
 
 ### -field FILTERSPECV6_GPI
 
 Indicates  IPv6 FILTERSPEC general port identifier information.
 
-
 ### -field FILTERSPEC_END
 
 Indicates  the end of the FILTERSPEC information.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a>
 
@@ -110,7 +97,4 @@ Indicates  the end of the FILTERSPEC information.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a>
- 
-
- 
 

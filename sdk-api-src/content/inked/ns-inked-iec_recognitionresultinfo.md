@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: a17dd2e4-0649-4cfc-aab3-c032710480a1
 ms.date: 12/05/2018
 ms.keywords: IEC_RECOGNITIONRESULTINFO, IEC_RECOGNITIONRESULTINFO (Win32 Only), IEC_RECOGNITIONRESULTINFO (Win32 Only) structure [Tablet PC], a17dd2e4-0649-4cfc-aab3-c032710480a1, inked/IEC_RECOGNITIONRESULTINFO, tablet.iec_recognitionresultinfo__win32_only_
-f1_keywords:
-- inked/IEC_RECOGNITIONRESULTINFO
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- inked.h
-api_name:
-- IEC_RECOGNITIONRESULTINFO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEC_RECOGNITIONRESULTINFO
+ - inked/IEC_RECOGNITIONRESULTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - inked.h
+api_name:
+ - IEC_RECOGNITIONRESULTINFO
 ---
 
 # IEC_RECOGNITIONRESULTINFO structure
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information about an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult Interface</a> object.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field nmhdr
 
@@ -74,17 +67,11 @@ typedef struct tagNMHDR {
   } NMHDR;
 ```
 
-
-
 ### -field RecognitionResult
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a> object that contains recognition results.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult Interface</a>
 
@@ -99,7 +86,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globaldeleteatom.htm
 ms.date: 12/05/2018
 ms.keywords: GlobalDeleteAtom, GlobalDeleteAtom function [Data Exchange], _win32_GlobalDeleteAtom, _win32_globaldeleteatom_cpp, dataxchg.globaldeleteatom, winbase/GlobalDeleteAtom, winui._win32_globaldeleteatom
-f1_keywords:
-- winbase/GlobalDeleteAtom
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-atoms-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GlobalDeleteAtom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GlobalDeleteAtom
+ - winbase/GlobalDeleteAtom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-atoms-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GlobalDeleteAtom
 ---
 
 # GlobalDeleteAtom function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Decrements the reference count of a global string atom. If the atom's reference count reaches zero, <b>GlobalDeleteAtom</b> removes the string associated with the atom from the global atom table. 
-
+Decrements the reference count of a global string atom. If the atom's reference count reaches zero, <b>GlobalDeleteAtom</b> removes the string associated with the atom from the global atom table.
 
 ## -parameters
-
-
-
 
 ### -param nAtom [in]
 
@@ -67,10 +63,7 @@ Type: <b>ATOM</b>
 
 The atom and character string to be deleted.
 
-
 ## -returns
-
-
 
 Type: <b>ATOM</b>
 
@@ -78,12 +71,7 @@ The function always returns (<b>ATOM</b>) 0.
 
 To determine whether the function has failed, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with <b>ERROR_SUCCESS</b> before calling <b>GlobalDeleteAtom</b>, then call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the last error code is still <b>ERROR_SUCCESS</b>, <b>GlobalDeleteAtom</b> has succeeded.
 
-
-
-
 ## -remarks
-
-
 
 A string atom's reference count specifies the number of times the string has been added to the atom table. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a> function increments the reference count of a string that already exists in the global atom table each time it is called. 
 
@@ -98,12 +86,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addatomw">AddAtom</a>
 
@@ -130,7 +113,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: e86b3b75-319a-4817-bcb1-59580c855ef9
 ms.date: 12/05/2018
 ms.keywords: DdUpdateOverlay, DdUpdateOverlay callback function [Display Devices], PDD_SURFCB_UPDATEOVERLAY, PDD_SURFCB_UPDATEOVERLAY callback, ddfncs_aa6e3770-06c5-4be1-b934-2eb58f909f30.xml, ddrawint/DdUpdateOverlay, display.ddupdateoverlay
-f1_keywords:
-- ddrawint/DdUpdateOverlay
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdUpdateOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_SURFCB_UPDATEOVERLAY
+ - ddrawint/PDD_SURFCB_UPDATEOVERLAY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdUpdateOverlay
 ---
 
 # PDD_SURFCB_UPDATEOVERLAY callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DdUpdateOverlay</b> callback function repositions or modifies the visual attributes of an overlay surface.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpUpdateOverlay
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a> structure that contains the information required to update the overlay.
 
-
 ## -returns
-
-
 
 <b>DdUpdateOverlay</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 <b>DdUpdateOverlay</b> shows, hides, or repositions an overlay surface on the screen. It also sets attributes of the overlay surface, such as the stretch factor or type of color key to be used.
 
@@ -93,13 +74,7 @@ The driver/hardware must stretch or shrink the overlay accordingly when the rect
 
 Note that <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> is used for flipping between overlay surfaces, so performance for <b>DdUpdateOverlay</b> is not critical.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a>
 
@@ -114,7 +89,4 @@ Note that <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-dd
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setoverlayposition">DdSetOverlayPosition</a>
- 
-
- 
 

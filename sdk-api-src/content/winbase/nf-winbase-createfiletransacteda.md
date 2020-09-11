@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 0cbc081d-8787-409b-84bc-a6a28d8f83a0
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFileTransacted, CreateFileTransacted function [Files], CreateFileTransactedA, CreateFileTransactedW, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, TRUNCATE_EXISTING, TXFS_MINIVERSION_COMMITTED_VIEW, TXFS_MINIVERSION_DEFAULT_VIEW, TXFS_MINIVERSION_DIRTY_VIEW, fs.createfiletransacted, winbase/CreateFileTransacted, winbase/CreateFileTransactedA, winbase/CreateFileTransactedW
-f1_keywords:
-- winbase/CreateFileTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,37 +25,41 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- CreateFileTransacted
-- CreateFileTransactedA
-- CreateFileTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateFileTransactedA
+ - winbase/CreateFileTransactedA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - CreateFileTransacted
+ - CreateFileTransactedA
+ - CreateFileTransactedW
 ---
 
 # CreateFileTransactedA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -76,11 +76,7 @@ To perform this operation as a nontransacted
 
 For more information about transactions, see the Remarks section of this topic.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -99,7 +95,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more 
        information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-streams">File Streams</a>.
 
-
 ### -param dwDesiredAccess [in]
 
 The access to the object, which can be  summarized as read, write, both or neither (zero). The most commonly 
@@ -114,7 +109,6 @@ If this parameter is zero, the application can query  file, directory, or device
 You cannot request an access mode that conflicts with the sharing mode that is specified in an open request 
        that has an open handle. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
-
 
 ### -param dwShareMode [in]
 
@@ -200,8 +194,6 @@ If this flag is not specified, but the object has been opened for write access o
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpSecurityAttributes [in, optional]
 
@@ -231,7 +223,6 @@ If <b>lpSecurityDescriptor</b> member is <b>NULL</b>, the object
        <b>bInheritHandle</b> member.
 
 For more information, see the Remarks section of this topic.
-
 
 ### -param dwCreationDisposition [in]
 
@@ -332,8 +323,6 @@ The calling process must open the file with the <b>GENERIC_WRITE</b> bit set as 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -763,8 +752,6 @@ Impersonate a client at the impersonation level. This is the default behavior if
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hTemplateFile [in, optional]
 
@@ -778,12 +765,10 @@ When opening an existing file,
 
 When opening a new EFS-encrypted file, the file inherits the DACL from its parent directory.
 
-
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
        <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
-
 
 ### -param pusMiniVersion [in, optional]
 
@@ -834,17 +819,12 @@ Either the committed or dirty view of the file, depending on the context. A tran
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpExtendedParameter
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to the specified file, device, named pipe, or 
        mail slot.
@@ -852,12 +832,7 @@ If the function succeeds, the return value is an open handle to the specified fi
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
        error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 When using the handle returned by 
      <b>CreateFileTransacted</b>, use the transacted version 
@@ -1078,9 +1053,6 @@ For more information, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -1150,7 +1122,4 @@ For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

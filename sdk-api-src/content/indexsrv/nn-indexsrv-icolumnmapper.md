@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: CBC7EE6C-299D-4B9D-839A-0A2755CA8112
 ms.date: 12/05/2018
 ms.keywords: IColumnMapper, IColumnMapper interface [search], IColumnMapper interface [search],described, indexsrv/IColumnMapper, search.icolumnmapper
-f1_keywords:
-- indexsrv/IColumnMapper
-dev_langs:
-- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- indexsrv.h
-api_name:
-- IColumnMapper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IColumnMapper
+ - indexsrv/IColumnMapper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - indexsrv.h
+api_name:
+ - IColumnMapper
 ---
 
 # IColumnMapper interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves property information for file based queries.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Determines if the map is up to date.
 
 </td>
 </tr>
-</table> 
+</table>
 

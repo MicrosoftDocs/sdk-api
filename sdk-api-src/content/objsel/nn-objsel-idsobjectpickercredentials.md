@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory],described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
-f1_keywords:
-- objsel/IDsObjectPickerCredentials
-dev_langs:
-- c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Objsel.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Objsel.dll
-api_name:
-- IDsObjectPickerCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsObjectPickerCredentials
+ - objsel/IDsObjectPickerCredentials
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Objsel.dll
+api_name:
+ - IDsObjectPickerCredentials
 ---
 
 # IDsObjectPickerCredentials interface
 
 
 ## -description
-
 
 The <b>IDsObjectPickerCredentials</b> interface 
     allows you to override credentials for the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a> 
@@ -57,7 +57,6 @@ The <b>IDsObjectPickerCredentials</b> interface
 To obtain an instance of this interface, call 
     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with the 
     <b>IID_IDsObjectPickerCredentials</b> interface identifier as shown below.
-
 
 ## -members
 
@@ -77,6 +76,4 @@ Sets credentials to be used by the Object Picker.
 </td>
 </tr>
 </table>Sets credentials to be used by the Object Picker.
-
- 
 

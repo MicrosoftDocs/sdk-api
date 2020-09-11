@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
-f1_keywords:
-- mfidl/MFCreateTranscodeProfile
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateTranscodeProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateTranscodeProfile
+ - mfidl/MFCreateTranscodeProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateTranscodeProfile
 ---
 
 # MFCreateTranscodeProfile function
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an empty transcode profile object.
 
 The transcode profile stores configuration settings for the output file. These configuration settings are specified by the caller, and include audio and video stream properties, encoder settings, and  container settings. To set these properties, the caller must call the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> methods.
 
 The configured transcode profile is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodetopology">MFCreateTranscodeTopology</a> function.  The underlying topology builder uses these settings to build the transcode topology.
 
-
 ## -parameters
-
-
-
 
 ### -param ppTranscodeProfile [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> interface of the transcode profile object. Caller must release the interface.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>MFCreateTranscodeProfile</b> function creates an empty transcode profile. You must configure the transcode profile setting attributes that define the media types and the container properties. Use the following methods to configure the profile:
 
@@ -226,14 +214,7 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a>
 
@@ -248,7 +229,4 @@ done:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/transcode-api">Transcode API</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 56BC813F-A1C1-4E3D-BDC1-13A7D9888EA7
 ms.date: 12/05/2018
 ms.keywords: CM_Delete_Device_Interface_Key_ExW, CM_Delete_Device_Interface_Key_ExW function [Device and Driver Installation], cfgmgr32/CM_Delete_Device_Interface_Key_ExW, devinst.cm_delete_device_interface_key_exw
-f1_keywords:
-- cfgmgr32/CM_Delete_Device_Interface_Key_ExW
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Cfgmgr32.lib
-- Cfgmgr32.dll
-api_name:
-- CM_Delete_Device_Interface_Key_ExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Delete_Device_Interface_Key_ExW
+ - cfgmgr32/CM_Delete_Device_Interface_Key_ExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Cfgmgr32.lib
+ - Cfgmgr32.dll
+api_name:
+ - CM_Delete_Device_Interface_Key_ExW
 ---
 
 # CM_Delete_Device_Interface_Key_ExW function
@@ -50,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw">CM_Delete_Device_Interface_Key</a> instead.]
 
 The <b>CM_Delete_Device_Interface_Key_ExW</b> function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
 
-
 ## -parameters
-
-
-
 
 ### -param pszDeviceInterface [in]
 
 Pointer to a string that identifies the device interface instance of the registry subkey to delete.
 
-
 ### -param ulFlags [in]
 
 Reserved. Must be set to zero.
-
 
 ### -param hMachine [in, optional]
 
@@ -80,17 +74,9 @@ Caller-supplied machine handle, obtained from a previous call to <a href="https:
 
 ## -returns
 
-
-
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>
 
@@ -101,9 +87,6 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfaceregkey">SetupDiDeleteDeviceInterfaceRegKey</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: adaffc21-7df1-48ca-8e05-bdb09663a49b
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetCredentials method, IBackgroundCopyJob2.SetCredentials, IBackgroundCopyJob2::SetCredentials, SetCredentials, SetCredentials method [BITS], SetCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setcredentials, bits.ibackgroundcopyjob2_setcredentials, bits1_5/IBackgroundCopyJob2::SetCredentials
-f1_keywords:
-- bits1_5/IBackgroundCopyJob2.SetCredentials
-dev_langs:
-- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx2.dll
-api_name:
-- IBackgroundCopyJob2.SetCredentials
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob2::SetCredentials
+ - bits1_5/IBackgroundCopyJob2::SetCredentials
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx2.dll
+api_name:
+ - IBackgroundCopyJob2.SetCredentials
 ---
 
 # IBackgroundCopyJob2::SetCredentials
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the credentials to use for a proxy or remote server user authentication request.
 
-
 ## -parameters
-
-
-
 
 ### -param credentials [in]
 
 Identifies the target (proxy or server), authentication scheme, and the user's credentials to use for user authentication. For details, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials">BG_AUTH_CREDENTIALS</a> structure.
 
-
 ## -returns
-
-
 
 This method returns the following return values, as well as others.
 
@@ -142,14 +135,8 @@ The UserName and Password members of the <a href="https://docs.microsoft.com/win
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  BITS provides the credentials to a proxy or server in response to a request for user authentication. Set the credentials before the initial call to <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">Resume</a>. 
 
@@ -234,14 +221,7 @@ if (NO_ERROR == rc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Bits/authentication">Authentication</a>
 
@@ -252,7 +232,4 @@ if (NO_ERROR == rc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-removecredentials">IBackgroundCopyJob2::RemoveCredentials</a>
- 
-
- 
 

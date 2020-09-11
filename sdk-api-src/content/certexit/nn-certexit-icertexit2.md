@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a9d66aeb-b596-4d50-9c07-b760cdf4f8c0
 ms.date: 12/05/2018
 ms.keywords: ICertExit2, ICertExit2 interface [Security], ICertExit2 interface [Security],described, _certsrv_icertexit2, certexit/ICertExit2, security.icertexit2
-f1_keywords:
-- certexit/ICertExit2
-dev_langs:
-- c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certexit.h
-api_name:
-- ICertExit2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertExit2
+ - certexit/ICertExit2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certexit.h
+api_name:
+ - ICertExit2
 ---
 
 # ICertExit2 interface
 
 
 ## -description
-
 
 The <b>ICertExit2</b> interface is one of two interfaces that   provide communications between  the Certificate Services server and an exit module.
 <div class="alert"><b>Note</b>  The exit module can communicate with the Certificate Services server by using the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> interface.</div><div> </div>The Certificate Services server calls the <b>ICertExit2</b> methods to perform the following tasks:<ul>
@@ -62,7 +62,6 @@ The <b>ICertExit2</b> interface is one of two interfaces that   provide communic
 <b>ICertExit2</b> is defined in Certexit.h. When you create your program, however, use Certsrv.h as the include file.
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -107,5 +106,5 @@ Called by the server engine when it initializes itself.</p> (Inherited from <a h
 <td align="left" width="63%">
 Called by the server engine to notify an exit module that an event has occurred.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a><b>ICertExit2</b><b>CCertExit2</b>)</td>
 </tr>
-</table> 
+</table>
 

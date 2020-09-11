@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 6ea80ab2-718b-464e-a805-9910460931bb
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage, IWMDMEnumStorage interface [windows Media Device Manager], IWMDMEnumStorage interface [windows Media Device Manager],described, IWMDMEnumStorageInterface, mswmdm/IWMDMEnumStorage, wmdm.iwmdmenumstorage
-f1_keywords:
-- mswmdm/IWMDMEnumStorage
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMEnumStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMEnumStorage
+ - mswmdm/IWMDMEnumStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMEnumStorage
 ---
 
 # IWMDMEnumStorage interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDMEnumStorage</b> interface enumerates storages on a device. Obtain this interface the first time by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage">IWMDMDevice::EnumStorage</a> on a device, and afterward by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>. This interface only enumerates the immediate children of the parent storage that was used to obtain this interface. (If IWMDMDevice::EnumStorage was used, the parent storage is the device's root storage.)
-
-
-
 
 ## -inheritance
 
@@ -107,13 +103,9 @@ Skips over the specified number of storage devices or separate items of content 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/exploring-a-device">Exploring a Device</a>
 
@@ -124,7 +116,4 @@ Skips over the specified number of storage devices or separate items of content 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

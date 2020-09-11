@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: d6531e52-b58b-46ed-a47b-444cd98e1ec5
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer4, INSSBuffer4 interface [windows Media Format], INSSBuffer4 interface [windows Media Format],described, INSSBuffer4Interface, wmformat.inssbuffer4, wmsbuffer/INSSBuffer4
-f1_keywords:
-- wmsbuffer/INSSBuffer4
-dev_langs:
-- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsbuffer.h
-api_name:
-- INSSBuffer4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INSSBuffer4
+ - wmsbuffer/INSSBuffer4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsbuffer.h
+api_name:
+ - INSSBuffer4
 ---
 
 # INSSBuffer4 interface
 
 
 ## -description
-
-
 
 The <b>INSSBuffer4</b> interface provides methods to enumerate buffer properties. These methods are important when reading files that may have properties of which you are not aware.
 
@@ -82,10 +81,6 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <td>IID_INSSBuffer3</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -inheritance
 
@@ -120,13 +115,9 @@ Retrieves the total count of buffer properties associated with the sample.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
@@ -137,7 +128,4 @@ Retrieves the total count of buffer properties associated with the sample.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextsubpathmethods\nextsubpath.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextSubpath method, GraphicsPathIterator.NextSubpath, GraphicsPathIterator.NextSubpath(GraphicsPath*,BOOL*), GraphicsPathIterator.NextSubpath(OUT const GraphicsPath,OUT BOOL), GraphicsPathIterator::NextSubpath, GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL), NextSubpath, NextSubpath method [GDI+], NextSubpath method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_
-f1_keywords:
-- gdipluspath/GraphicsPathIterator.NextSubpath
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPathIterator.NextSubpath
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPathIterator::NextSubpath
+ - gdipluspath/GraphicsPathIterator::NextSubpath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPathIterator.NextSubpath
 ---
 
 # GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL)
@@ -50,43 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphicsPathIterator::NextSubpath</b> method gets the next figure (subpath) from this iterator's associated path.
 
-
 ## -parameters
-
-
-
 
 ### -param path [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved figure. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved figure.
 
 ### -param isClosed [out]
 
 Type: <b>BOOL*</b>
 
-Pointer to a <b>BOOL</b> that receives a value that indicates whether the retrieved figure is closed. If the figure is closed, the received value is <b>TRUE</b>; otherwise, the received value is <b>FALSE</b>. 
-
+Pointer to a <b>BOOL</b> that receives a value that indicates whether the retrieved figure is closed. If the figure is closed, the received value is <b>TRUE</b>; otherwise, the received value is <b>FALSE</b>.
 
 ## -returns
-
-
 
 Type: <b>INT</b>
 
 This method returns the number of data points in the retrieved figure. If there are no more figures to retrieve, this method returns 0.
 
-
-
-
 ## -remarks
-
-
 
 The first time you call the <b>GraphicsPathIterator::NextSubpath</b> method of an iterator, it gets the first figure (subpath) of that iterator's associated path. The second time, it gets the second figure, and so on. Each time you call <b>GraphicsPathIterator::NextSubpath</b>, it returns the number of data points in the retrieved figure. When there are no figures remaining, it returns 0.
 
@@ -140,14 +127,7 @@ VOID NextSubpathExample(HDC hdc)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
@@ -178,7 +158,4 @@ VOID NextSubpathExample(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: f870557e-0e01-4f5c-81be-c709e397e5fd
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback, ICameraUIControlEventCallback interface [Windows API], ICameraUIControlEventCallback interface [Windows API],described, camerauicontrol/ICameraUIControlEventCallback, winprog.icamerauicontroleventcallback
-f1_keywords:
-- camerauicontrol/ICameraUIControlEventCallback
-dev_langs:
-- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- camerauicontrol.h
-api_name:
-- ICameraUIControlEventCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICameraUIControlEventCallback
+ - camerauicontrol/ICameraUIControlEventCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - camerauicontrol.h
+api_name:
+ - ICameraUIControlEventCallback
 ---
 
 # ICameraUIControlEventCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Callback interface for receiving events from the camera user interface control.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Occurs when the camera UI control has completed being suspended.
 
 </td>
 </tr>
-</table> 
+</table>
 

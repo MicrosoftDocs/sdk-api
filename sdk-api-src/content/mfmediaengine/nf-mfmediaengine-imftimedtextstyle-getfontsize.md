@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: A640F042-80BE-4454-B974-F7D076E72737
 ms.date: 12/05/2018
 ms.keywords: GetFontSize, GetFontSize method [Media Foundation], GetFontSize method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontSize method, IMFTimedTextStyle.GetFontSize, IMFTimedTextStyle::GetFontSize, mf.imftimedtextstyle_getfontsize, mfmediaengine/IMFTimedTextStyle::GetFontSize
-f1_keywords:
-- mfmediaengine/IMFTimedTextStyle.GetFontSize
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextStyle.GetFontSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextStyle::GetFontSize
+ - mfmediaengine/IMFTimedTextStyle::GetFontSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextStyle.GetFontSize
 ---
 
 # IMFTimedTextStyle::GetFontSize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the font size  of the timed-text style.
 
-
 ## -parameters
-
-
-
 
 ### -param fontSize [out]
 
@@ -64,32 +60,19 @@ Type: <b>double*</b>
 
 A pointer to a variable that receives the font size  of the timed-text style.
 
-
 ### -param unitType [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_unit_type">MF_TIMED_TEXT_UNIT_TYPE</a>*</b>
 
 A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_unit_type">MF_TIMED_TEXT_UNIT_TYPE</a>-typed value that specifies the units in which the timed-text style is measured.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextstyle">IMFTimedTextStyle</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: B56F7A31-686A-4A8B-9388-E30718632AE9
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetName method, IAppxFile.GetName, IAppxFile::GetName, appxpackaging/IAppxFile::GetName, appxpkg.iappxfile_getname
-f1_keywords:
-- appxpackaging/IAppxFile.GetName
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxFile.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxFile::GetName
+ - appxpackaging/IAppxFile::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxFile.GetName
 ---
 
 # IAppxFile::GetName
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name of the file, including its path relative to the package root directory.
 
-
 ## -parameters
-
-
-
 
 ### -param fileName [out, retval]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A string that contains the name and relative path of the file.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The string returned in <i>fileName</i> is identical to the file name listed in the block map.
 
@@ -91,15 +79,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
- 
-
- 
 

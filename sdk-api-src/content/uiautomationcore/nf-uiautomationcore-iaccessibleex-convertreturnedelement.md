@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: eafda7ed-b18c-4d52-9d1c-a9d1a2d5dfd1
 ms.date: 12/05/2018
 ms.keywords: ConvertReturnedElement, ConvertReturnedElement method [Windows Accessibility], ConvertReturnedElement method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],ConvertReturnedElement method, IAccessibleEx.ConvertReturnedElement, IAccessibleEx::ConvertReturnedElement, uiauto.uiauto_IAccessibleEx_ConvertReturnedElement, uiauto_IAccessibleEx_ConvertReturnedElement, uiautomationcore/IAccessibleEx::ConvertReturnedElement, winauto.uiauto_IAccessibleEx_ConvertReturnedElement
-f1_keywords:
-- uiautomationcore/IAccessibleEx.ConvertReturnedElement
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IAccessibleEx.ConvertReturnedElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibleEx::ConvertReturnedElement
+ - uiautomationcore/IAccessibleEx::ConvertReturnedElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IAccessibleEx.ConvertReturnedElement
 ---
 
 # IAccessibleEx::ConvertReturnedElement
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface of an element returned as a property value.
 
-
 ## -parameters
-
-
-
 
 ### -param pIn [in]
 
@@ -64,41 +60,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcor
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interface that was retrieved as a property.
 
-
 ### -param ppRetValOut [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>**</b>
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>  interface of the element.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is implemented by the bridge between Microsoft UI Automation and Microsoft Active Accessibility. Most other implementations should return E_NOTIMPL after setting <i>ppRetValOut</i> to <b>NULL</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>
- 
-
- 
 

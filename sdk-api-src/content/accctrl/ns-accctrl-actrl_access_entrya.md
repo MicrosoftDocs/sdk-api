@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: bcb2ad72-7b00-4582-b05e-e00720a4db77
 ms.date: 12/05/2018
 ms.keywords: '*PACTRL_ACCESS_ENTRYA, ACTRL_ACCESS_ALLOWED, ACTRL_ACCESS_DENIED, ACTRL_ACCESS_ENTRY, ACTRL_ACCESS_ENTRY structure [COM], ACTRL_ACCESS_ENTRYA, ACTRL_ACCESS_ENTRYW, ACTRL_AUDIT_FAILURE, ACTRL_AUDIT_SUCCESS, ACTRL_CHANGE_ACCESS, ACTRL_CHANGE_OWNER, ACTRL_DELETE, ACTRL_READ_CONTROL, ACTRL_STD_RIGHTS_ALL, ACTRL_STD_RIGHT_REQUIRED, ACTRL_SYNCHRONIZE, ACTRL_SYSTEM_ACCESS, COM_RIGHTS_ACTIVATE_LOCAL, COM_RIGHTS_ACTIVATE_REMOTE, COM_RIGHTS_EXECUTE, COM_RIGHTS_EXECUTE_LOCAL, COM_RIGHTS_EXECUTE_REMOTE, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, PACTRL_ACCESS_ENTRY, PACTRL_ACCESS_ENTRY structure pointer [COM], SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, _ACTRL_ACCESS_ENTRYA, _ACTRL_ACCESS_ENTRYW, accctrl/ACTRL_ACCESS_ENTRY, accctrl/ACTRL_ACCESS_ENTRYA, accctrl/ACTRL_ACCESS_ENTRYW, accctrl/PACTRL_ACCESS_ENTRY, com.actrl_access_entry'
-f1_keywords:
-- accctrl/ACTRL_ACCESS_ENTRY
-dev_langs:
-- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- AccCtrl.h
-api_name:
-- ACTRL_ACCESS_ENTRY
-- ACTRL_ACCESS_ENTRYA
-- ACTRL_ACCESS_ENTRYW
 targetos: Windows
 req.typenames: ACTRL_ACCESS_ENTRYA, *PACTRL_ACCESS_ENTRYA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ACTRL_ACCESS_ENTRYA
+ - accctrl/_ACTRL_ACCESS_ENTRYA
+ - PACTRL_ACCESS_ENTRYA
+ - accctrl/PACTRL_ACCESS_ENTRYA
+ - ACTRL_ACCESS_ENTRYA
+ - accctrl/ACTRL_ACCESS_ENTRYA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - AccCtrl.h
+api_name:
+ - ACTRL_ACCESS_ENTRY
+ - ACTRL_ACCESS_ENTRYA
+ - ACTRL_ACCESS_ENTRYW
 ---
 
 # ACTRL_ACCESS_ENTRYA structure
@@ -51,20 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
  Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>.
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field Trustee
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that identifies the user, group, or program (such as a service) to which the access-control entry applies.
-
 
 ### -field fAccessFlags
 
@@ -120,8 +118,6 @@ The system generates audit messages for successful attempts to use the rights.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Access
 
@@ -209,11 +205,9 @@ If you are using this structure with the COM implementation of <a href="https://
 
 #### COM_RIGHTS_ACTIVATE_REMOTE
 
-
 ### -field ProvSpecificAccess
 
 A bitmask that specifies access rights specific to the provider type. The functions that use the <b>ACTRL_ACCESS_ENTRY</b> structure pass these bits on to the provider without interpreting them. In most cases, this member should be 0.
-
 
 ### -field Inheritance
 
@@ -308,28 +302,18 @@ Noncontainer objects contained by the primary object inherit the entry. This fla
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpInheritProperty
 
-A pointer to a null-terminated string that identifies the object types that can inherit the entry. If you are using this structure with the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this member must be <b>NULL</b>. 
-
-
+A pointer to a null-terminated string that identifies the object types that can inherit the entry. If you are using this structure with the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this member must be <b>NULL</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_access_entry_lista">ACTRL_ACCESS_ENTRY_LIST</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
- 
-
- 
 
 ## -remarks
 

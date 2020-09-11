@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: BF4E0A9F-CD78-4D29-AD0C-7DF14AE88447
 ms.date: 12/05/2018
 ms.keywords: PLACEHOLDER_STATES, PLACEHOLDER_STATES enumeration [Windows Properties], PS_ALL, PS_CREATE_FILE_ACCESSIBLE, PS_FULL_PRIMARY_STREAM_AVAILABLE, PS_MARKED_FOR_OFFLINE_AVAILABILITY, PS_NONE, properties.PLACEHOLDER_STATES, shobjidl_core/PLACEHOLDER_STATES, shobjidl_core/PS_ALL, shobjidl_core/PS_CREATE_FILE_ACCESSIBLE, shobjidl_core/PS_FULL_PRIMARY_STREAM_AVAILABLE, shobjidl_core/PS_MARKED_FOR_OFFLINE_AVAILABILITY, shobjidl_core/PS_NONE
-f1_keywords:
-- shobjidl_core/PLACEHOLDER_STATES
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shobjidl_core.h
-api_name:
-- PLACEHOLDER_STATES
 targetos: Windows
 req.typenames: PLACEHOLDER_STATES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PLACEHOLDER_STATES
+ - shobjidl_core/PLACEHOLDER_STATES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - PLACEHOLDER_STATES
 ---
 
 # PLACEHOLDER_STATES enumeration
@@ -49,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the states that a placeholder file can have. Retrieve this value through the System.FilePlaceholderStatus (PKEY_FilePlaceholderStatus) property.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PS_NONE
 
 None of the other states apply at this time.
 
-
 ### -field PS_MARKED_FOR_OFFLINE_AVAILABILITY
 
 May already be or eventually will be available offline.
-
 
 ### -field PS_FULL_PRIMARY_STREAM_AVAILABLE
 
 The primary stream has been made fully available.
 
-
 ### -field PS_CREATE_FILE_ACCESSIBLE
 
 The file is accessible through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, without requesting the opening of reparse points.
 
-
 ### -field PS_CLOUDFILE_PLACEHOLDER
 
-
 ### -field PS_DEFAULT
-
 
 ### -field PS_ALL
 

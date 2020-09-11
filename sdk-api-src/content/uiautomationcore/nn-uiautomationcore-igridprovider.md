@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 37e2cc95-d765-4c2c-ae8a-5a072a43ad5a
 ms.date: 12/05/2018
 ms.keywords: IGridProvider, IGridProvider interface [Windows Accessibility], IGridProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridProvider, uiauto_IGridProvider, uiautomationcore/IGridProvider, winauto.uiauto_IGridProvider
-f1_keywords:
-- uiautomationcore/IGridProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IGridProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGridProvider
+ - uiautomationcore/IGridProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IGridProvider
 ---
 
 # IGridProvider interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to 
         controls that act as containers for a collection of child elements organized in a two-dimensional 
         logical coordinate system that can be traversed (that is, a Microsoft UI Automation client can 
         move to adjacent controls) by using the keyboard. The children of this 
         element must implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igriditemprovider">IGridItemProvider</a>.
-
 
 ## -inheritance
 
@@ -122,12 +121,9 @@ Specifies the total number of rows in the grid.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IGridProvider</b> interface exposes methods and properties to support UI Automation client access to controls 
 		that act as containers for a collection of child elements. The children of this element must implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igriditemprovider">IGridItemProvider</a>and be organized in a two-dimensional logical coordinate system that can be traversed (that is, a UI Automation client can move to adjacent controls) by using the keyboard.
@@ -139,16 +135,7 @@ Implemented on a UI Automation provider that must support
 <b>IGridProvider</b> does not enable active manipulation of a grid; 
         <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider">ITransformProvider</a> must be implemented for this.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

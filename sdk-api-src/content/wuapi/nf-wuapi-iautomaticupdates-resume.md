@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 8aabfb89-89e2-450e-bfe6-62a48f93746f
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Resume method, IAutomaticUpdates.Resume, IAutomaticUpdates::Resume, Resume, Resume method [Windows Update Agent], Resume method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_resume, wuapi/IAutomaticUpdates::Resume
-f1_keywords:
-- wuapi/IAutomaticUpdates.Resume
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdates.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdates::Resume
+ - wuapi/IAutomaticUpdates::Resume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdates.Resume
 ---
 
 # IAutomaticUpdates::Resume
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IAutomaticUpdates::Resume</b> is no longer supported. Starting with 
     Windows 10 calls to <b>Resume</b> always return 
     <b>S_OK</b>, but do nothing.]
 
 Restarts automatic updating if automatic updating is paused.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -137,14 +129,8 @@ You cannot search for updates if the following conditions are true:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method requires administrator permissions.
 
@@ -154,16 +140,7 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implemen
 
  This method returns <b>WU_E_AU_NOSERVICE</b> if Automatic Updates is disabled, initializing, uninitializing, or not configured.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
- 
-
- 
 

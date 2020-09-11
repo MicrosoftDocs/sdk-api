@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisVal
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNames method, IDWriteFontResource.GetAxisValueNames, IDWriteFontResource::GetAxisValueNames, GetAxisValueNames, GetAxisValueNames method [Direct Write], GetAxisValueNames method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenames, dwrite_3/IDWriteFontResource::GetAxisValueNames
-f1_keywords:
-- dwrite_3/IDWriteFontResource.GetAxisValueNames
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::GetAxisValueNames
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::GetAxisValueNames
+ - dwrite_3/IDWriteFontResource::GetAxisValueNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::GetAxisValueNames
 ---
 
 ## -description
@@ -84,3 +85,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 The font author may not have supplied names for some font axis values. The localized strings will be empty in that case. The range may be a single point, where *minValue* == *maxValue*. All ranges are in ascending order by *axisValueIndex*.
 
 ## -see-also
+

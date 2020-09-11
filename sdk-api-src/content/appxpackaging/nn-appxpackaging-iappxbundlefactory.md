@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 33A320BD-7B68-4C42-A776-25CC744C6652
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], IAppxBundleFactory interface [App packaging and management],described, appxpackaging/IAppxBundleFactory, appxpkg.iappxbundlefactory
-f1_keywords:
-- appxpackaging/IAppxBundleFactory
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleFactory
+ - appxpackaging/IAppxBundleFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleFactory
 ---
 
 # IAppxBundleFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates objects for reading and writing bundle packages.
-
 
 ## -inheritance
 
@@ -95,16 +94,11 @@ Creates a write-only bundle object to which app packages can be added.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <b>IAppxBundleFactory</b> interface provides factory methods to create readers and writers of bundle packages as well as methods to create readers for manifests outside of a bundle. 
 
-The <b>IAppxBundleFactory</b> interface is the main entry point to the Appx Bundle APIs.  
-
-
+The <b>IAppxBundleFactory</b> interface is the main entry point to the Appx Bundle APIs.
 

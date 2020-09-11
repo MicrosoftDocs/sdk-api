@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1b65e34f-2c31-421b-9d27-ed263dfb372b
 ms.date: 12/05/2018
 ms.keywords: SHPPFW_ASKDIRCREATE, SHPPFW_DEFAULT, SHPPFW_DIRCREATE, SHPPFW_IGNOREFILENAME, SHPPFW_MEDIACHECKONLY, SHPPFW_NONE, SHPPFW_NOWRITECHECK, SHPathPrepareForWrite, SHPathPrepareForWrite function [Windows Shell], SHPathPrepareForWriteA, SHPathPrepareForWriteW, _shell_shpathprepareforwrite, shell.SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWriteA, shlobj_core/SHPathPrepareForWriteW
-f1_keywords:
-- shlobj_core/SHPathPrepareForWrite
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHPathPrepareForWrite
-- SHPathPrepareForWriteA
-- SHPathPrepareForWriteW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHPathPrepareForWriteA
+ - shlobj_core/SHPathPrepareForWriteA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHPathPrepareForWrite
+ - SHPathPrepareForWriteA
+ - SHPathPrepareForWriteW
 ---
 
 # SHPathPrepareForWriteA function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks to see if the path exists. This includes remounting mapped network drives, prompting for ejectable media to be reinserted, creating the paths, prompting for the media to be formatted, and providing the appropriate user interfaces, if necessary. Read/write permissions for the medium are not checked.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in, optional]
 
@@ -66,20 +62,17 @@ Type: <b>HWND</b>
 
 A handle to a window that specifies the parent window to be used for any user interface windows that must be created. If set to <b>NULL</b>, user interface windows are not created.
 
-
 ### -param punkEnableModless [in, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that specifies the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-enablemodeless">EnableModeless</a> method.
 
-
 ### -param pszPath [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that specifies the path to be verified as valid for writing. This can be a UNC or file drive path.
-
 
 ### -param dwFlags
 
@@ -129,21 +122,13 @@ Not currently implemented.
 
 <b>Windows XP or later.</b> Suppresses the "not accessible" error message box, which displays when a failure other than a user cancellation occurs, and <i>hwnd</i> is not <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if the path is available, or an error code otherwise. Note that a return value of S_OK does not mean that the medium is writable; it simply means that the path is available.
 
-
-
-
 ## -remarks
-
-
 
 The primary use of this function is for a program to check a path before using it and display the necessary user interface to prompt the user. For example, if the disk in drive A: were missing, a window that prompts the user to insert the disk would appear.
 

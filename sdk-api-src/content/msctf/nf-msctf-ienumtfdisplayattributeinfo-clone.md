@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 3cf57360-b07b-4a6c-850a-10c44895108d
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, IEnumTfDisplayAttributeInfo interface [Text Services Framework],Clone method, IEnumTfDisplayAttributeInfo.Clone, IEnumTfDisplayAttributeInfo::Clone, _tsf_ienumtfdisplayattributeinfo_clone_ref, msctf/IEnumTfDisplayAttributeInfo::Clone, tsf.ienumtfdisplayattributeinfo_clone
-f1_keywords:
-- msctf/IEnumTfDisplayAttributeInfo.Clone
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfDisplayAttributeInfo.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfDisplayAttributeInfo::Clone
+ - msctf/IEnumTfDisplayAttributeInfo::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfDisplayAttributeInfo.Clone
 ---
 
 # IEnumTfDisplayAttributeInfo::Clone
+
 
 ## -description
 
@@ -91,6 +93,3 @@ The method is not implemented.
 
 ## -see-also
 
-## -see-also
-
-[IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md), [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md)

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: f5257f78-b20f-4db5-b63e-3bb4e41a4b19
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThread, CreateRemoteThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createremotethread, base.createremotethread, processthreadsapi/CreateRemoteThread, winbase/CreateRemoteThread
-f1_keywords:
-- processthreadsapi/CreateRemoteThread
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- CreateRemoteThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateRemoteThread
+ - processthreadsapi/CreateRemoteThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - CreateRemoteThread
 ---
 
 # CreateRemoteThread function
@@ -56,22 +57,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a thread that runs in the virtual address space of another process.
 
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex">CreateRemoteThreadEx</a> function to create a thread that runs in the virtual address space of another process and optionally specify extended attributes.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process in which the thread is to be created. The handle must have the <b>PROCESS_CREATE_THREAD</b>, <b>PROCESS_QUERY_INFORMATION</b>, <b>PROCESS_VM_OPERATION</b>, <b>PROCESS_VM_WRITE</b>, and <b>PROCESS_VM_READ</b> access rights, and may fail without these rights on certain platforms. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
-
 
 ### -param lpThreadAttributes [in]
 
@@ -80,23 +75,19 @@ A pointer to a
 
 <b>Windows XP:  </b>The ACLs in the default security descriptor for a thread come from the primary or impersonation token of the creator. This behavior changed with Windows XP with SP2 and Windows Server 2003.
 
-
 ### -param dwStackSize [in]
 
 The initial size of the stack, in bytes. The system rounds this value to the nearest page. If this parameter is 0 (zero), the new thread uses the default size for the executable. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
-
 
 ### -param lpStartAddress [in]
 
 A pointer to the application-defined function of type <b>LPTHREAD_START_ROUTINE</b> to be executed by the thread and represents the starting address of the thread in the remote process. The function must exist in the remote process. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
 
-
 ### -param lpParameter [in]
 
 A pointer to a variable to be passed to the thread function.
-
 
 ### -param dwCreationFlags [in]
 
@@ -142,8 +133,6 @@ The <i>dwStackSize</i> parameter specifies the initial reserve size of the stack
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpThreadId [out]
 
@@ -154,10 +143,7 @@ A pointer to a variable that receives the thread identifier.
 
 If this parameter is <b>NULL</b>, the thread identifier is not returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the new thread.
 
@@ -168,12 +154,7 @@ Note that
 <b>CreateRemoteThread</b> may succeed even if <i>lpStartAddress</i> points to data, code, or is not accessible. If the start address is invalid when the thread runs, an exception occurs, and the thread terminates. Thread termination due to a invalid start address is handled as an error exit for the thread's process. This behavior is similar to the asynchronous nature of 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>, where the process is created even if it refers to invalid or missing dynamic-link libraries (DLL).
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>CreateRemoteThread</b> function causes a new thread of execution to begin in the address space of the specified process. The thread has access to all objects that the process opens.
@@ -216,13 +197,7 @@ A common use of this function is to inject a thread into a process that is being
 </ul>
 Another common use of this function is to inject a thread into a process to query heap or other process information. This can cause the same side effects mentioned in the previous paragraph. Also, the application can deadlock if the thread attempts to obtain ownership of locks that another thread is using.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -273,7 +248,4 @@ Another common use of this function is to inject a thread into a process to quer
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
- 
-
- 
 

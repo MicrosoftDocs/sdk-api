@@ -8,10 +8,6 @@ tech.root: bluetooth
 ms.assetid: 97fcbd72-99d5-4c5b-bf16-75eea97cbc77
 ms.date: 12/05/2018
 ms.keywords: BluetoothSelectDevices, BluetoothSelectDevices function [Bluetooth], _bth_bluetoothselectdevices, bluetooth.bluetoothselectdevices, bluetoothapis/BluetoothSelectDevices
-f1_keywords:
-- bluetoothapis/BluetoothSelectDevices
-dev_langs:
-- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bthprops.dll
-api_name:
-- BluetoothSelectDevices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothSelectDevices
+ - bluetoothapis/BluetoothSelectDevices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bthprops.dll
+api_name:
+ - BluetoothSelectDevices
 ---
 
 # BluetoothSelectDevices function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>BluetoothSelectDevices</b> function enables Bluetooth device selection.
 
-
 ## -parameters
-
-
-
 
 ### -param pbtsdp
 
 A pointer to a 
 <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies Bluetooth devices.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if a user selected a device.
 
@@ -112,14 +105,8 @@ The structure passed in <i>pbtsdp</i> is of unknown size.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>BluetoothSelectDevices</b> function opens a common dialog box for selecting Bluetooth devices. The list of devices displayed to the user is determined by the flags and settings the caller specifies in the <i>pbtsdp</i> parameter.
 
@@ -130,20 +117,11 @@ If
 <b>BluetoothSelectDevicesFree</b> function to free resources only if the 
 <b>BluetoothSelectDevices</b> function returns <b>TRUE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_device_callback">PFN_DEVICE_CALLBACK</a>
- 
-
- 
 

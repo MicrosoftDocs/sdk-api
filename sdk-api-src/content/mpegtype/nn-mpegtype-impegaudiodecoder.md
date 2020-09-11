@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 59fd96ef-2f9a-4a8e-bd08-2695de52b1c6
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], IMpegAudioDecoder interface [DirectShow],described, IMpegAudioDecoderInterface, dshow.impegaudiodecoder, mpegtype/IMpegAudioDecoder
-f1_keywords:
-- mpegtype/IMpegAudioDecoder
-dev_langs:
-- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMpegAudioDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMpegAudioDecoder
+ - mpegtype/IMpegAudioDecoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMpegAudioDecoder
 ---
 
 # IMpegAudioDecoder interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IMpegAudioDecoder</code> interface is exposed on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-audio-decoder-filter">MPEG-1 Audio Decoder</a> filter and it enables applications to control decoding parameters. Most of these methods are useful only when an application is running on an older system and needs to sacrifice quality to increase performance. The default values provide the optimal decoding quality.
 
 The two methods that are still useful in some scenarios are <a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_dualmode">get_DualMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_dualmode">put_DualMode</a>. These methods enable applications to access either the right or left channel in VCD-based karaoke discs.
-
-
-
 
 ## -inheritance
 
@@ -191,5 +187,5 @@ Specifies whether the decoder will decode the encoded stream into stereo or mono
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5962f5f6-a121-4234-8dcd-24c0e2b53990
 ms.date: 12/05/2018
 ms.keywords: CreateRefresher, CreateRefresher method [Windows Management Instrumentation], CreateRefresher method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefresher method, IWbemHiPerfProvider.CreateRefresher, IWbemHiPerfProvider::CreateRefresher, _hmm_iwbemhiperfprovider_createrefresher, wbemprov/IWbemHiPerfProvider::CreateRefresher, wmi.iwbemhiperfprovider_createrefresher
-f1_keywords:
-- wbemprov/IWbemHiPerfProvider.CreateRefresher
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiprvsd.dll
-api_name:
-- IWbemHiPerfProvider.CreateRefresher
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemHiPerfProvider::CreateRefresher
+ - wbemprov/IWbemHiPerfProvider::CreateRefresher
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiprvsd.dll
+api_name:
+ - IWbemHiPerfProvider.CreateRefresher
 ---
 
 # IWbemHiPerfProvider::CreateRefresher
 
 
 ## -description
-
 
 The 
 <b>IWbemHiPerfProvider::CreateRefresher</b> method creates a refresher. The returned refresher will be used in subsequent calls to 
@@ -59,38 +59,25 @@ The
 
 ## -parameters
 
-
-
-
 ### -param pNamespace [in]
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
 
-
 ### -param lFlags [in]
 
 Reserved. This parameter must be 0 (zero).
-
 
 ### -param ppRefresher [out]
 
 Pointer to hold the reference to the provider's implementation of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> interface.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 The provider must supply its own implementation of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> interface. It is valid for WMI to request multiple refreshers, each of which will be used for its own refresh operations.
@@ -128,14 +115,7 @@ HRESULT CHiPerfProvider::CreateRefresher(
 //delete[] pMyRefresher;
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
 
@@ -154,7 +134,4 @@ Making an Instance Provider into a High-Performance Provider
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
- 
-
- 
 

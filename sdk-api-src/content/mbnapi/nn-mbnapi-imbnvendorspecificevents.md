@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 28507e68-5eaa-4b9d-bbb4-e276f4c213d5
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificevents, mbnapi/IMbnVendorSpecificEvents
-f1_keywords:
-- mbnapi/IMbnVendorSpecificEvents
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnVendorSpecificEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnVendorSpecificEvents
+ - mbnapi/IMbnVendorSpecificEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnVendorSpecificEvents
 ---
 
 # IMbnVendorSpecificEvents interface
@@ -53,7 +54,6 @@ ms.custom: 19H1
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 This notification interface signals an application of the completion status of vendor-specific operations and other vendor-specific changes in the device state.
-
 
 ## -inheritance
 
@@ -88,12 +88,9 @@ A vendor-specific operation call has completed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The following procedure describes how to register for notifications.
 
@@ -105,6 +102,4 @@ The following procedure describes how to register for notifications.
 Notifications can be terminated by calling <a href="https://msdn.microsoft.com/library/ms686608(VS.85).aspx">Unadvise</a> on the connection point returned in step 2.
 
 To view some code that registers for COM notifications, see the Client section of the <a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points">COM Connection Points</a> article.
-
-
 

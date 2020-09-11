@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 2596E2DA-D9B6-4BBE-AC05-5CE253CE6DDC
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter3, IAppxBundleWriter3 interface [App packaging and management], IAppxBundleWriter3 interface [App packaging and management],described, appxpackaging/IAppxBundleWriter3, appxpkg.iappxbundlewriter3
-f1_keywords:
-- appxpackaging/IAppxBundleWriter3
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleWriter3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleWriter3
+ - appxpackaging/IAppxBundleWriter3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleWriter3
 ---
 
 # IAppxBundleWriter3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a write-only object model for bundle packages.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Finalizes the bundle package by writing footprint files at the end of the packag
 
 </td>
 </tr>
-</table> 
+</table>
 

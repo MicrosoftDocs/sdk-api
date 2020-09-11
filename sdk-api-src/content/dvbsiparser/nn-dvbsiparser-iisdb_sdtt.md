@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: f6ed35bc-4470-4000-8f0d-19d454453720
 ms.date: 12/05/2018
 ms.keywords: IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], IISDB_SDTT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDTT, mstv.iisdb_sdtt
-f1_keywords:
-- dvbsiparser/IISDB_SDTT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_SDTT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_SDTT
+ - dvbsiparser/IISDB_SDTT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_SDTT
 ---
 
 # IISDB_SDTT interface
 
 
 ## -description
-
 
 Implements methods that get data
   from an Integrated Services Digital Broadcasting (ISDB)  software download
@@ -63,8 +63,6 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
-
-
 
 ## -inheritance
 
@@ -279,5 +277,5 @@ Initializes an object by using captured table section data from
 
 </td>
 </tr>
-</table> 
+</table>
 

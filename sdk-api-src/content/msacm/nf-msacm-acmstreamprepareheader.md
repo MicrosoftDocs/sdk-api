@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: ab90ac5f-6f39-4d26-96fc-5258d4e353cd
 ms.date: 12/05/2018
 ms.keywords: _win32_acmStreamPrepareHeader, acmStreamPrepareHeader, acmStreamPrepareHeader function [Windows Multimedia], msacm/acmStreamPrepareHeader, multimedia.acmstreamprepareheader
-f1_keywords:
-- msacm/acmStreamPrepareHeader
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmStreamPrepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmStreamPrepareHeader
+ - msacm/acmStreamPrepareHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmStreamPrepareHeader
 ---
 
 # acmStreamPrepareHeader function
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure for an ACM stream conversion. This function must be called for every stream header before it can be used in a conversion stream. An application needs to prepare a stream header only once for the life of a given stream. The stream header can be reused as long as the sizes of the source and destination buffers do not exceed the sizes used when the stream header was originally prepared.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param has
 
 Handle to the conversion steam.
 
-
 ### -param pash
 
 Pointer to an [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure that identifies the source and destination buffers to be prepared.
-
 
 ### -param fdwPrepare
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -133,31 +121,16 @@ The system is unable to allocate resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Preparing a stream header that has already been prepared has no effect, and the function returns zero. Nevertheless, you should ensure your application does not prepare a stream header multiple times.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
 

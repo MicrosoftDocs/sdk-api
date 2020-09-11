@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f88e71ba-6099-4928-9d71-732a4ca809bc
 ms.date: 12/05/2018
 ms.keywords: '*PREAD_USN_JOURNAL_DATA, *PREAD_USN_JOURNAL_DATA_V1, PREAD_USN_JOURNAL_DATA, PREAD_USN_JOURNAL_DATA structure pointer [Files], PREAD_USN_JOURNAL_DATA_V0, PREAD_USN_JOURNAL_DATA_V0 structure pointer [Files], READ_USN_JOURNAL_DATA, READ_USN_JOURNAL_DATA structure [Files], READ_USN_JOURNAL_DATA_V0, READ_USN_JOURNAL_DATA_V0 structure [Files], READ_USN_JOURNAL_DATA_V1, USN_REASON_BASIC_INFO_CHANGE, USN_REASON_CLOSE, USN_REASON_COMPRESSION_CHANGE, USN_REASON_DATA_EXTEND, USN_REASON_DATA_OVERWRITE, USN_REASON_DATA_TRUNCATION, USN_REASON_EA_CHANGE, USN_REASON_ENCRYPTION_CHANGE, USN_REASON_FILE_CREATE, USN_REASON_FILE_DELETE, USN_REASON_HARD_LINK_CHANGE, USN_REASON_INDEXABLE_CHANGE, USN_REASON_NAMED_DATA_EXTEND, USN_REASON_NAMED_DATA_OVERWRITE, USN_REASON_NAMED_DATA_TRUNCATION, USN_REASON_OBJECT_ID_CHANGE, USN_REASON_RENAME_NEW_NAME, USN_REASON_RENAME_OLD_NAME, USN_REASON_REPARSE_POINT_CHANGE, USN_REASON_SECURITY_CHANGE, USN_REASON_STREAM_CHANGE, _win32_read_usn_journal_data_str, base.read_usn_journal_data_str, fs.read_usn_journal_data_str, winioctl/PREAD_USN_JOURNAL_DATA, winioctl/PREAD_USN_JOURNAL_DATA_V0, winioctl/READ_USN_JOURNAL_DATA, winioctl/READ_USN_JOURNAL_DATA_v0'
-f1_keywords:
-- winioctl/READ_USN_JOURNAL_DATA_V0
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- READ_USN_JOURNAL_DATA_V0
 targetos: Windows
 req.typenames: READ_USN_JOURNAL_DATA_V1, *PREAD_USN_JOURNAL_DATA_V1
 req.redist: 
+f1_keywords:
+ - PREAD_USN_JOURNAL_DATA_V1
+ - winioctl/PREAD_USN_JOURNAL_DATA_V1
+ - READ_USN_JOURNAL_DATA_V1
+ - winioctl/READ_USN_JOURNAL_DATA_V1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - READ_USN_JOURNAL_DATA_V0
 ---
 
 # READ_USN_JOURNAL_DATA_V1 structure
 
 
 ## -description
-
 
 Contains information defining a set of update sequence number (USN) change journal records to return 
     to the calling process. It is used by the 
@@ -59,11 +61,7 @@ Contains information defining a set of update sequence number (USN) change journ
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802706(v=vs.85)">READ_USN_JOURNAL_DATA_V1</a> to support 128-bit file 
     identifiers used by ReFS.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StartUsn
 
@@ -83,7 +81,6 @@ If a nonzero USN is specified that is less than the first USN in the change jour
 For more information on navigating the change journal buffer returned in 
        <b>READ_USN_JOURNAL_DATA_V0</b>, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/walking-a-buffer-of-change-journal-records">Walking a Buffer of Change Journal Records</a>.
-
 
 ### -field ReasonMask
 
@@ -344,8 +341,6 @@ A named stream is added to or removed from the file or directory, or a named str
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ReturnOnlyOnClose
 
@@ -375,7 +370,6 @@ Whether <b>ReturnOnlyOnClose</b> is zero or nonzero, the records generated at cl
 For a file or directory for which no user data exists (for example, a mounted folder), the final close 
        operation occurs when the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function is 
        called on the last user handle to the item.
-
 
 ### -field Timeout
 
@@ -408,7 +402,6 @@ In either case, after the time-out period any new data appended to the change jo
 If <b>BytesToWaitFor</b> is zero, then <b>Timeout</b> is ignored. 
        <b>Timeout</b> is also ignored for asynchronously opened handles.
 
-
 ### -field BytesToWaitFor
 
 The number of bytes of unfiltered data added to the change journal. Use this value with 
@@ -437,7 +430,6 @@ Alternatively, use the <i>lpBytesReturned</i> parameter of
        determine the amount of data available, reallocate the output buffer (with room to spare for new records), and 
        call <b>DeviceIoControl</b> again.
 
-
 ### -field UsnJournalID
 
 The identifier for the instance of the journal that is current for the volume.
@@ -451,23 +443,11 @@ The NTFS file system can miss putting events in the change journal if the change
        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> 
        operation.
 
-
 ### -field MinMajorVersion
-
- 
-
 
 ### -field MaxMajorVersion
 
- 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
 
@@ -478,7 +458,4 @@ The NTFS file system can miss putting events in the change journal if the change
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 03ce097e-c4e5-4dac-84c0-b569efc420bc
 ms.date: 12/05/2018
 ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMasterVolume method, IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume
-f1_keywords:
-- mfidl/IMFSimpleAudioVolume.GetMasterVolume
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSimpleAudioVolume.GetMasterVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSimpleAudioVolume::GetMasterVolume
+ - mfidl/IMFSimpleAudioVolume::GetMasterVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSimpleAudioVolume.GetMasterVolume
 ---
 
 # IMFSimpleAudioVolume::GetMasterVolume
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the master volume level.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfLevel [out]
 
 Receives the volume level. Volume is expressed as an attenuation level, where 0.0 indicates silence and 1.0 indicates full volume (no attenuation).
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,31 +102,16 @@ The audio renderer was removed from the pipeline.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If an external event changes the master volume, the audio renderer sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/meaudiosessionvolumechanged">MEAudioSessionVolumeChanged</a> event, which the Media Session forwards to the application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
- 
-
- 
 

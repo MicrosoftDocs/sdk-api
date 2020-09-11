@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR50_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS structure [RAS], PMPR_SERVICE_CHARACTERISTICS, PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _mpr_mpr_service_characteristics, routprot/MPR_SERVICE_CHARACTERISTICS, routprot/PMPR_SERVICE_CHARACTERISTICS, rras.mpr_service_characteristics, stm/MPR_SERVICE_CHARACTERISTICS, stm/PMPR_SERVICE_CHARACTERISTICS'
-f1_keywords:
-- stm/MPR_SERVICE_CHARACTERISTICS
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Routprot.h
-- Stm.h
-api_name:
-- MPR_SERVICE_CHARACTERISTICS
 targetos: Windows
 req.typenames: MPR50_SERVICE_CHARACTERISTICS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MPR50_SERVICE_CHARACTERISTICS
+ - stm/_MPR50_SERVICE_CHARACTERISTICS
+ - MPR50_SERVICE_CHARACTERISTICS
+ - stm/MPR50_SERVICE_CHARACTERISTICS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Routprot.h
+ - Stm.h
+api_name:
+ - MPR_SERVICE_CHARACTERISTICS
 ---
 
 # MPR50_SERVICE_CHARACTERISTICS structure
@@ -50,15 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MPR_SERVICE_CHARACTERISTICS</b> structure contains information used to register a routing protocol with the router manager.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mscMpr40ServiceChars
 
@@ -210,10 +208,7 @@ Pointer to an implementation of the
 Pointer to an implementation of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pis_service">IsService</a> function for this routing protocol.
 
-
 ## -remarks
-
-
 
 The members of this structure are pointers to Service Table Management functions implemented in the routing protocol DLL. The routing protocol fills in the address values for these pointers during a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a> function.
@@ -225,13 +220,7 @@ For a complete description of a particular function pointed to by one of the str
 
 To use this structure, the user should add -DMPR50=1 to the compiler flags.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
@@ -250,7 +239,4 @@ To use this structure, the user should add -DMPR50=1 to the compiler flags.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: be736eaf-8632-4e71-b1d8-c851a9d417e5
 ms.date: 12/05/2018
 ms.keywords: GetTabletFromTabletContextId, GetTabletFromTabletContextId method [Tablet PC], GetTabletFromTabletContextId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTabletFromTabletContextId method, IRealTimeStylus.GetTabletFromTabletContextId, IRealTimeStylus::GetTabletFromTabletContextId, be736eaf-8632-4e71-b1d8-c851a9d417e5, rtscom/IRealTimeStylus::GetTabletFromTabletContextId, tablet.irealtimestylus_gettabletfromtabletcontextid
-f1_keywords:
-- rtscom/IRealTimeStylus.GetTabletFromTabletContextId
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.GetTabletFromTabletContextId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::GetTabletFromTabletContextId
+ - rtscom/IRealTimeStylus::GetTabletFromTabletContextId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.GetTabletFromTabletContextId
 ---
 
 # IRealTimeStylus::GetTabletFromTabletContextId
@@ -49,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> for a specified tablet context.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param tcid [in]
 
 Specifies the unique identifier for the tablet context.
 
-
 ### -param ppiTablet [out, retval]
 
 A pointer to the digitizer object specified by the tablet context identifier.
 
-
 ## -returns
-
-
 
 For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
-
-
-
 ## -remarks
-
-
 
 A tablet context identifier is specific to a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object. Two <b>RealTimeStylus Class</b> objects can have different context identifiers for the same tablet object. A tablet context identifier is only valid while a <b>RealTimeStylus Class</b> object is enabled. If a <b>RealTimeStylus Class</b> object is disabled and then re-enabled, the tablet context identifier for each tablet object may have a different value than when the <b>RealTimeStylus Class</b> object was first enabled.
 
@@ -128,14 +112,7 @@ if (SUCCEEDED(g_pRealTimeStylus->GetAllTabletContextIds(&ulTcidCount, &pTcids)))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
@@ -146,7 +123,4 @@ if (SUCCEEDED(g_pRealTimeStylus->GetAllTabletContextIds(&ulTcidCount, &pTcids)))
 
 
 <b>RealTimeStylus Class</b>
- 
-
- 
 

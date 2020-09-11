@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 905d4453-96d4-4055-8a17-36714c547cdd
 ms.date: 12/05/2018
 ms.keywords: EnumDependentServices, EnumDependentServices function, EnumDependentServicesA, EnumDependentServicesW, SERVICE_ACTIVE, SERVICE_INACTIVE, SERVICE_STATE_ALL, _win32_enumdependentservices, base.enumdependentservices, winsvc/EnumDependentServices, winsvc/EnumDependentServicesA, winsvc/EnumDependentServicesW
-f1_keywords:
-- winsvc/EnumDependentServices
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-Core-l1-1-1.dll
-- API-Ms-Win-Service-Core-L1-1-2.dll
-- AdvApi32Legacy.dll
-- API-MS-Win-Service-Core-Ansi-L1-1-1.dll
-api_name:
-- EnumDependentServices
-- EnumDependentServicesA
-- EnumDependentServicesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumDependentServicesW
+ - winsvc/EnumDependentServicesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-Core-l1-1-1.dll
+ - API-Ms-Win-Service-Core-L1-1-2.dll
+ - AdvApi32Legacy.dll
+ - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
+api_name:
+ - EnumDependentServices
+ - EnumDependentServicesA
+ - EnumDependentServicesW
 ---
 
 # EnumDependentServicesW function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name and status of each service that depends on the specified service; that is, the specified service must be running before the dependent services can run.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -72,7 +68,6 @@ A handle to the service. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function, and it must have the <b>SERVICE_ENUMERATE_DEPENDENTS</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
-
 
 ### -param dwServiceState [in]
 
@@ -117,8 +112,6 @@ Combines the following states: <b>SERVICE_ACTIVE</b> and <b>SERVICE_INACTIVE</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpServices [out, optional]
 
@@ -129,25 +122,19 @@ The order of the services in this array is the reverse of the start order of the
 
 The maximum size of this array is 64,000 bytes. To determine the required size, specify <b>NULL</b> for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_MORE_DATA</b>. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
-
 ### -param cbBufSize [in]
 
 The size of the buffer pointed to by the <i>lpServices</i> parameter, in bytes.
-
 
 ### -param pcbBytesNeeded [out]
 
 A pointer to a variable that receives the number of bytes needed to store the array of service entries. The variable only receives this value if the buffer pointed to by <i>lpServices</i> is too small, indicated by function failure and the <b>ERROR_MORE_DATA</b> error; otherwise, the contents of <i>pcbBytesNeeded</i> are undefined.
 
-
 ### -param lpServicesReturned [out]
 
 A pointer to a variable that receives the number of service entries returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -206,14 +193,8 @@ The buffer pointed to by <i>lpServices</i> is not large enough. The function set
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The returned services entries are ordered in the reverse order of the start order, with group order taken into account. If you need to stop the dependent services, you can use the order of entries written to the <i>lpServices</i> buffer to stop the dependent services in the proper order.
 
@@ -232,9 +213,6 @@ For an example, see
 > The winsvc.h header defines EnumDependentServices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
@@ -257,7 +235,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
- 
-
- 
 

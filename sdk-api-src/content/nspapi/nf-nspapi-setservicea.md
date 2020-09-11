@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: cc5e35ef-5c64-41ba-a5f9-5961371c4d08
 ms.date: 12/05/2018
 ms.keywords: NS_DEFAULT, NS_DNS, NS_NDS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, SERVICE_ADD_TYPE, SERVICE_DELETE_TYPE, SERVICE_DEREGISTER, SERVICE_FLAG_DEFER, SERVICE_FLAG_HARD, SERVICE_FLUSH, SERVICE_REGISTER, SET_SERVICE_ PARTIAL_SUCCESS, SetService, SetService function [Winsock], SetServiceA, SetServiceW, _win32_setservice_2, nspapi/SetService, nspapi/SetServiceA, nspapi/SetServiceW, winsock.setservice_2
-f1_keywords:
-- nspapi/SetService
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- SetService
-- SetServiceA
-- SetServiceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetServiceA
+ - nspapi/SetServiceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - SetService
+ - SetServiceA
+ - SetServiceW
 ---
 
 # SetServiceA function
 
 
 ## -description
-
 
 The 
 <b>SetService</b> function registers or removes from the registry a network service within one or more namespaces. The function can also add or remove a network service type within one or more namespaces.
@@ -59,9 +59,6 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2. For the convenience of Windows Sockets 1.1 developers, the reference material is as follows.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param dwNameSpace [in]
 
@@ -148,8 +145,6 @@ Local TCP/IP name resolution mechanisms, including comparisons against the local
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOperation [in]
 
@@ -222,8 +217,6 @@ Remove a service type, added by a previous call specifying the SERVICE_ADD_TYPE 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -269,19 +262,15 @@ For example: If the operation involves deregistration in a namespace that uses a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpServiceInfo [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure that contains information about the network service or service type.
 
-
 ### -param lpServiceAsyncInfo [in, optional]
 
 Reserved for future use. Must be set to <b>NULL</b>.
-
 
 ### -param lpdwStatusFlags [out]
 
@@ -306,12 +295,8 @@ One or more namespace providers were unable to successfully perform the requeste
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function fails, the return value is SOCKET_ERROR. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> can return the following extended error value.
@@ -334,15 +319,8 @@ The function tried to register a service that was already registered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getservicea">GetService</a>
 
@@ -361,9 +339,6 @@ The function tried to register a service that was already registered.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 
 ## -remarks
 

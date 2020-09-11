@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 98c48e56-56b8-4800-b52b-ac08f2abf27e
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], IPortableDevice interface [Windows Portable Devices SDK],described, IPortableDeviceInterface, portabledeviceapi/IPortableDevice, wpdsdk.iportabledevice
-f1_keywords:
-- portabledeviceapi/IPortableDevice
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDevice
+ - portabledeviceapi/IPortableDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDevice
 ---
 
 # IPortableDevice interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPortableDevice</b> interface provides access to a portable device.
 
 To create and open this interface, first call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">Open</a> to open a connection to the device.
-
 
 ## -inheritance
 
@@ -152,12 +151,9 @@ Unregisters a client from receiving callback notifications.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The client interfaces are designed to be used for any WPD object; it is not necessary to create a new instance for each object referenced by the application. After an application opens an instance of the <b>IPortableDevice</b> interface, it should open and cache any other WPD client interfaces that it will require.
       
@@ -166,16 +162,7 @@ For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/portabled
 
 Applications that live in Single Threaded Apartments should use <b>CLSID_PortableDeviceFTM</b> as this eliminates the overhead of interface pointer marshaling.  <b>CLSID_PortableDevice</b> is still supported for legacy applications.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
- 
-
- 
 

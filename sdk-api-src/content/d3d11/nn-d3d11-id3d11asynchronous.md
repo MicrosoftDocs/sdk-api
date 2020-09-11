@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 37ff9dc0-5ec2-4cd5-b252-44e2dac45355
 ms.date: 12/05/2018
 ms.keywords: ID3D11Asynchronous, ID3D11Asynchronous interface [Direct3D 11], ID3D11Asynchronous interface [Direct3D 11],described, ba273b1e-153b-fd26-ff4e-e9755f4ea1f2, d3d11/ID3D11Asynchronous, direct3d11.id3d11asynchronous
-f1_keywords:
-- d3d11/ID3D11Asynchronous
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Asynchronous
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Asynchronous
+ - d3d11/ID3D11Asynchronous
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Asynchronous
 ---
 
 # ID3D11Asynchronous interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface encapsulates methods for retrieving data from the GPU asynchronously.
-
 
 ## -inheritance
 
@@ -78,12 +77,9 @@ Get the size of the data (in bytes) that is output when calling <a href="https:/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 There are three types of asynchronous interfaces, all of which inherit this interface:
 
@@ -96,19 +92,11 @@ There are three types of asynchronous interfaces, all of which inherit this inte
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11counter">ID3D11Counter</a> - Measures GPU performance.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
- 
-
- 
 

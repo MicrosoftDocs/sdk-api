@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 4cc3cdeb-ebc5-46e1-8cc4-84b40e91323b
 ms.date: 12/05/2018
 ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], IConfigAviMux interface [DirectShow],described, IConfigAviMuxInterface, dshow.iconfigavimux, strmif/IConfigAviMux
-f1_keywords:
-- strmif/IConfigAviMux
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IConfigAviMux
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConfigAviMux
+ - strmif/IConfigAviMux
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IConfigAviMux
 ---
 
 # IConfigAviMux interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IConfigAviMux</code> interface configures the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter. Applications can use this interface to set the master stream and to create an AVI 1.0 index.
 
 [IConfigAviMux::GetOutputCompatibilityIndex](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex) methods.
-
-
-
 
 ## -inheritance
 
@@ -110,5 +106,5 @@ Sets the AVI index format.
 
 </td>
 </tr>
-</table> 
+</table>
 

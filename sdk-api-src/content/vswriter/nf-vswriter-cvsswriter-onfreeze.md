@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2aff5e87-4053-46a0-a7fb-7411e76166ba
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnFreeze method, CVssWriter.OnFreeze, CVssWriter::OnFreeze, OnFreeze, OnFreeze method [VSS], OnFreeze method [VSS],CVssWriter interface, _win32_cvsswriter_onfreeze, base.cvsswriter_onfreeze, vswriter/CVssWriter::OnFreeze
-f1_keywords:
-- vswriter/CVssWriter.OnFreeze
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.OnFreeze
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::OnFreeze
+ - vswriter/CVssWriter::OnFreeze
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.OnFreeze
 ---
 
 # CVssWriter::OnFreeze
@@ -50,36 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>OnFreeze</b> method is called by a writer on receipt of a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">Freeze</a> event at the start of a shadow copy freeze. A writer uses this method to perform operations needed to participate in the freeze or to veto the freeze.
 
 <b>OnFreeze</b> is a pure virtual method. It is not implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class, and must be implemented by derived classes.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The implementation of this method must return <b>true</b> except in the case of a fatal error.
       If a fatal error occurs, the method must call the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a> method to provide a description of the failure before returning <b>false</b>. If a nonfatal error occurs, the method should still call  <b>SetWriterFailure</b> but return <b>true</b>. If the error is caused by a transient problem, the method should specify VSS_E_WRITERERROR_RETRYABLE in the call to <b>SetWriterFailure</b>.
 
   In all cases when a failure occurs, the method should write an event to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
-
-
 
 In this method, the writer application should put itself into a well-defined state that is compatible with the VSS operation.
    
@@ -113,13 +100,7 @@ Either
 If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -146,7 +127,4 @@ If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>
- 
-
- 
 

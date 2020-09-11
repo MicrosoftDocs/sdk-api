@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACCESS_SYSTEM_SECURITY, CreateNamedPipe, CreateNamedPipe function, CreateNamedPipeA, CreateNamedPipeW, FILE_FLAG_FIRST_PIPE_INSTANCE, FILE_FLAG_OVERLAPPED, FILE_FLAG_WRITE_THROUGH, PIPE_ACCEPT_REMOTE_CLIENTS, PIPE_ACCESS_DUPLEX, PIPE_ACCESS_INBOUND, PIPE_ACCESS_OUTBOUND, PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_REJECT_REMOTE_CLIENTS, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, PIPE_WAIT, WRITE_DAC, WRITE_OWNER, _win32_createnamedpipe, base.createnamedpipe, winbase/CreateNamedPipe, winbase/CreateNamedPipeA, winbase/CreateNamedPipeW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateNamedPipe"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - CreateNamedPipeA
+ - winbase/CreateNamedPipeA
 topic_type:
  - APIRef
  - kbSyntax
@@ -55,11 +61,6 @@ api_name:
  - CreateNamedPipe
  - CreateNamedPipeA
  - CreateNamedPipeW
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # CreateNamedPipeA function
@@ -67,14 +68,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of a named pipe and returns a handle for subsequent pipe operations. A named pipe server process uses this function either to create the first instance of a specific named pipe and establish its basic attributes or to create a new instance of an existing named pipe.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
@@ -83,7 +79,6 @@ The unique pipe name. This string must have the following form:
 \\.\pipe&#92;<i>pipename</i>
 
 The pipename part of the name can include any character other than a backslash, including numbers and special characters. The entire pipe name string can be up to 256 characters long. Pipe names are not case sensitive.
-
 
 ### -param dwOpenMode [in]
 
@@ -228,8 +223,6 @@ The caller will have write access to the named pipe's SACL. For more information
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwPipeMode [in]
 
@@ -371,8 +364,6 @@ Connections from remote clients are automatically rejected.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param nMaxInstances [in]
 
@@ -380,16 +371,13 @@ The maximum number of instances that can be created for this pipe. The first ins
 
 If this parameter is <b>PIPE_UNLIMITED_INSTANCES</b>, the number of pipe instances that can be created is limited only by the availability of system resources. If <i>nMaxInstances</i> is greater than <b>PIPE_UNLIMITED_INSTANCES</b>, the return value is <b>INVALID_HANDLE_VALUE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_PARAMETER</b>.
 
-
 ### -param nOutBufferSize [in]
 
 The number of bytes to reserve for the output buffer. For a discussion on sizing named pipe buffers, see the following Remarks section.
 
-
 ### -param nInBufferSize [in]
 
 The number of bytes to reserve for the input buffer. For a discussion on sizing named pipe buffers, see the following Remarks section.
-
 
 ### -param nDefaultTimeOut [in]
 
@@ -398,28 +386,19 @@ The default time-out value, in milliseconds, if the
 
 A value of zero will result in a default time-out of 50 milliseconds.
 
-
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new named pipe and determines whether child processes can inherit the returned handle. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the named pipe gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a named pipe grant full control to the LocalSystem account, administrators, and the creator owner. They also grant read access to members of the Everyone group and the anonymous account.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the server end of a named pipe instance.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To create an instance of a named pipe by using 
 <b>CreateNamedPipe</b>, the user must have <b>FILE_CREATE_PIPE_INSTANCE</b> access to the named pipe object. If a new named pipe is being created, the access control list (ACL) from the security attributes parameter defines the discretionary access control for the named pipe.
@@ -448,12 +427,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
@@ -496,7 +470,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

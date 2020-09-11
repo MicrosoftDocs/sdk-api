@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: cf0e59d9-2760-445e-aa7d-8c2b78457181
 ms.date: 12/05/2018
 ms.keywords: DisableCommit, DisableCommit method [COM+], DisableCommit method [COM+],ObjectContext interface, ObjectContext interface [COM+],DisableCommit method, ObjectContext.DisableCommit, ObjectContext::DisableCommit, _cos_ObjectContext_DisableCommit, comsvcs/ObjectContext::DisableCommit, cos.objectcontext_disablecommit
-f1_keywords:
-- comsvcs/ObjectContext.DisableCommit
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ObjectContext.DisableCommit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ObjectContext::DisableCommit
+ - comsvcs/ObjectContext::DisableCommit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ObjectContext.DisableCommit
 ---
 
 # ObjectContext::DisableCommit
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Declares that the object's transactional updates are inconsistent and cannot be committed in their present state.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_FAIL, as well as the following values.
 
@@ -105,27 +97,12 @@ The current object doesn't have a context associated with it. This is probably b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You can use the <b>DisableCommit</b> method to prevent a transaction from committing prematurely between method calls in a stateful object. When an object invokes <b>DisableCommit</b>, it indicates that its work is inconsistent and that it cannot complete its work until it receives further method invocations from the client. It also indicates that it needs to maintain its state to perform that work. This prevents COM+ from deactivating the object and reclaiming its resources on return from a method call. When an object has called <b>DisableCommit</b>, if a client attempts to commit the transaction before the object has called <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-enablecommit">EnableCommit</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-setcomplete">SetComplete</a>, the transaction aborts.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
- 
-
- 
 

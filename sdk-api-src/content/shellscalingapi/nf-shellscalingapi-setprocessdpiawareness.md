@@ -8,10 +8,6 @@ tech.root: hidpi
 ms.assetid: BFD64207-D35D-4258-982C-20D6FE2B46F9
 ms.date: 12/05/2018
 ms.keywords: SetProcessDpiAwareness, SetProcessDpiAwareness function [High DPI], hidpi.setprocessdpiawareness, shellscalingapi/SetProcessDpiAwareness, winmsg.SetProcessDpiAwareness
-f1_keywords:
-- shellscalingapi/SetProcessDpiAwareness
-dev_langs:
-- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- shcore.dll
-- api-ms-win-shcore-scaling-l1-1-1.dll
-- API-MS-Win-ShCore-Scaling-L1-1-2.dll
-api_name:
-- SetProcessDpiAwareness
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessDpiAwareness
+ - shellscalingapi/SetProcessDpiAwareness
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - shcore.dll
+ - api-ms-win-shcore-scaling-l1-1-1.dll
+ - API-MS-Win-ShCore-Scaling-L1-1-2.dll
+api_name:
+ - SetProcessDpiAwareness
 ---
 
 # SetProcessDpiAwareness function
@@ -51,25 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
 
 Sets the process-default DPI awareness level. This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiawarenesscontext">SetProcessDpiAwarenessContext</a> with the corresponding <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> value.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
 The DPI awareness value to set. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>enumeration.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -112,14 +105,8 @@ The DPI awareness is already set, either by calling this API previously or throu
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
 
@@ -133,13 +120,7 @@ You must call this API before you call any APIs that depend on the dpi awareness
 
 If the DPI awareness level is not set, the default value is <b>PROCESS_DPI_UNAWARE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
 
@@ -150,7 +131,4 @@ If the DPI awareness level is not set, the default value is <b>PROCESS_DPI_UNAWA
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a>
- 
-
- 
 

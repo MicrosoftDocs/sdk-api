@@ -24,11 +24,12 @@ topic_type:
 api_type:
  - COM
 api_location:
-- mfuuid.lib
-- mfuuid.dll
+ - mfuuid.lib
+ - mfuuid.dll
 api_name:
  - IMFVideoCaptureSampleAllocator
 f1_keywords:
+ - IMFVideoCaptureSampleAllocator
  - mfidl/IMFVideoCaptureSampleAllocator
 dev_langs:
  - c++

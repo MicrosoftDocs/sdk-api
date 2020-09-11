@@ -8,10 +8,6 @@ tech.root: winlocation
 ms.assetid: 50355f93-e609-44d5-925a-2de7af1e0564
 ms.date: 12/05/2018
 ms.keywords: IDefaultLocation interface [WinLocation],SetReport method, IDefaultLocation.SetReport, IDefaultLocation::SetReport, SetReport, SetReport method [WinLocation], SetReport method [WinLocation],IDefaultLocation interface, WinLocation_COM_Ref.idefaultlocation_setreport, locationapi/IDefaultLocation::SetReport
-f1_keywords:
-- locationapi/IDefaultLocation.SetReport
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- IDefaultLocation.SetReport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDefaultLocation::SetReport
+ - locationapi/IDefaultLocation::SetReport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - IDefaultLocation.SetReport
 ---
 
 # IDefaultLocation::SetReport
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Sets the default location.
 
-
 ## -parameters
-
-
-
 
 ### -param reportType [in]
 
 <b>REFIID</b> that represents the interface ID of the type of report that is passed using <i>pLocationReport</i>.
 
-
 ### -param pLocationReport [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> instance that contains the location report from the default location provider.
 
-
 ## -returns
-
-
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -116,15 +108,8 @@ The user does not have permission to set the default location.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface of specific location report types. The actual interface you use for <i>pLocationReport</i> must match the type you specify through <i>reportType</i>.
 
@@ -155,17 +140,7 @@ The following example shows how to set the default location using a civic addres
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-idefaultlocation">IDefaultLocation</a>
- 
-
- 
 

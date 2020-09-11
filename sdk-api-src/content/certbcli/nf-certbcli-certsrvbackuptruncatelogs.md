@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
-f1_keywords:
-- certbcli/CertSrvBackupTruncateLogs
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvBackupTruncateLogs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvBackupTruncateLogs
+ - certbcli/CertSrvBackupTruncateLogs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvBackupTruncateLogs
 ---
 
 # CertSrvBackupTruncateLogs function
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvBackupTruncateLogs</b> function eliminates redundant records and reduces the disk storage space used by log files. Before truncating the log files, ensure that a backup of all files returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupgetdatabasenamesw">CertSrvBackupGetDatabaseNames</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupgetbackuplogsw">CertSrvBackupGetBackupLogs</a> have been secured.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to a Certificate Services backup context.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
-
-
-
 ## -remarks
-
-
 
 After securing a backup of the database and log files, the log files can optionally be truncated. Log file volume increases with database activity, and truncating the log files will reduce the redundant records in the log files (thereby decreasing the disk space used to store the log files).
 
@@ -124,21 +112,11 @@ else
     printf("Logs truncated\n");
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupgetbackuplogsw">CertSrvBackupGetBackupLogs</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
 

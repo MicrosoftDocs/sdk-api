@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: c2ccf82a-2ca6-4358-96de-12efb77c2a68
 ms.date: 12/05/2018
 ms.keywords: Busy property [Tablet PC], Busy property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Busy property, IPenInputPanel.Busy, IPenInputPanel.get_Busy, IPenInputPanel::Busy, IPenInputPanel::get_Busy, PenInputPanel.get_Busy, c2ccf82a-2ca6-4358-96de-12efb77c2a68, get_Busy, peninputpanel/IPenInputPanel::Busy, peninputpanel/IPenInputPanel::get_Busy, tablet.peninputpanel_busy
-f1_keywords:
-- peninputpanel/IPenInputPanel.Busy
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,33 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IPenInputPanel.Busy
-- IPenInputPanel.get_Busy
-- PenInputPanel.get_Busy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPenInputPanel::get_Busy
+ - peninputpanel/IPenInputPanel::get_Busy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IPenInputPanel.Busy
+ - IPenInputPanel.get_Busy
+ - PenInputPanel.get_Busy
 ---
 
 # IPenInputPanel::get_Busy
 
 
 ## -description
-
-
 
 Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
@@ -62,21 +61,13 @@ Gets a a value that indicates whether the <a href="https://docs.microsoft.com/wi
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
- 
-
- 
 

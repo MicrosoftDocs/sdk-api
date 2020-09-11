@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 805CD02A-53BC-487C-83F8-FE804368C770
 ms.date: 12/05/2018
 ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyContext
-f1_keywords:
-- winbase/CopyContext
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-xstate-l2-1-0.dll
-- KernelBase.dll
-api_name:
-- CopyContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CopyContext
+ - winbase/CopyContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-xstate-l2-1-0.dll
+ - KernelBase.dll
+api_name:
+ - CopyContext
 ---
 
 # CopyContext function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies a source context structure (including any XState) onto an initialized destination context 
     structure.
 
-
 ## -parameters
-
-
-
 
 ### -param Destination [in, out]
 
@@ -69,7 +65,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a> before calling this 
       function.
 
-
 ### -param ContextFlags [in]
 
 Flags specifying the pieces of the <i>Source</i>
@@ -78,27 +73,18 @@ Flags specifying the pieces of the <i>Source</i>
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a> on the 
       <i>Destination</i> <b>CONTEXT</b>.
 
-
 ### -param Source [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure from which to copy 
       processor context data.
 
-
 ## -returns
-
-
 
 This function returns <b>TRUE</b> if the context was copied successfully, otherwise 
       <b>FALSE</b>. To get extended error information, call 
       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The function copies data from the <i>Source</i>
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> over the corresponding data in the 
@@ -123,15 +109,7 @@ The function copies data from the <i>Source</i>
        <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
@@ -146,7 +124,4 @@ The function copies data from the <i>Source</i>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
- 
-
- 
 

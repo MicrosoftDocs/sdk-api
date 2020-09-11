@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f1b04224-e535-4100-b026-3203eebc42c8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetdevconfig, lineSetDevConfig, lineSetDevConfig function [TAPI 2.2], lineSetDevConfigA, lineSetDevConfigW, tapi/lineSetDevConfig, tapi/lineSetDevConfigA, tapi/lineSetDevConfigW, tapi2.linesetdevconfig
-f1_keywords:
-- tapi/lineSetDevConfig
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineSetDevConfig
-- lineSetDevConfigA
-- lineSetDevConfigW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineSetDevConfigA
+ - tapi/lineSetDevConfigA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineSetDevConfig
+ - lineSetDevConfigA
+ - lineSetDevConfigW
 ---
 
 # lineSetDevConfigA function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineSetDevConfig</b> function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>. For example, the contents of this structure could specify data rate, character format, modulation schemes, and error control protocol settings for a "datamodem" media device associated with the line.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDeviceID
 
 Identifier of the line device to be configured.
-
 
 ### -param lpDeviceConfig
 
@@ -73,34 +68,24 @@ Pointer to the opaque configuration data structure that was returned by
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a> in the variable portion of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure.
 
-
 ### -param dwSize
 
 Number of bytes in the structure pointed to by <i>lpDeviceConfig</i>. This value is returned in the <b>dwStringSize</b> member in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>.
 
-
 ### -param lpszDeviceClass
 
 Pointer to a null-terminated string that specifies the device class of the device whose configuration is to be set. Valid device class strings are the same as those specified for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a> function.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_BADDEVICEID, LINEERR_NODRIVER, LINEERR_INVALDEVICECLASS, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALPOINTER, LINEERR_OPERATIONFAILED, LINEERR_INVALPARAM, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALLINESTATE, LINEERR_UNINITIALIZED, LINEERR_NOMEM, LINEERR_NODEVICE.
 
-
-
-
 ## -remarks
-
-
 
 Call states are device specific.
 
@@ -126,9 +111,6 @@ Some service providers may permit the configuration to be set while a call is ac
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
@@ -150,7 +132,4 @@ Some service providers may permit the configuration to be set while a call is ac
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
- 
-
- 
 

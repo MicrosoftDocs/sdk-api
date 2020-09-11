@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: b8b9a332-ce28-46d4-92e2-91f9f6c24da5
 ms.date: 12/05/2018
 ms.keywords: PdhAddCounter, PdhAddCounter function [Perf], PdhAddCounterA, PdhAddCounterW, _win32_pdhaddcounter, base.pdhaddcounter, pdh/PdhAddCounter, pdh/PdhAddCounterA, pdh/PdhAddCounterW, perf.pdhaddcounter
-f1_keywords:
-- pdh/PdhAddCounter
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhAddCounter
-- PdhAddCounterA
-- PdhAddCounterW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhAddCounterA
+ - pdh/PdhAddCounterA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhAddCounter
+ - PdhAddCounterA
+ - PdhAddCounterW
 ---
 
 # PdhAddCounterA function
@@ -51,41 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the specified counter to the query.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hQuery [in]
 
 Handle to the query to which you want to add the counter. This handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function.
 
-
 ### -param szFullCounterPath [in]
 
 Null-terminated string that contains the counter path. For details on the format of a counter path, see 
 <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/specifying-a-counter-path">Specifying a Counter Path</a>. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
 
-
 ### -param dwUserData [in]
 
 User-defined value. This value becomes part of the counter information. To retrieve this value later, call the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> function and access the <b>dwUserData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_info_a">PDH_COUNTER_INFO</a> structure.
-
 
 ### -param phCounter [out]
 
 Handle to the counter that was added to the query. You may need to reference this handle in subsequent calls.
 
-
 ## -returns
-
-
 
 Return ERROR_SUCCESS if the function succeeds.
 						
@@ -199,14 +188,8 @@ Unable to allocate memory required to complete the function.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the counter path contains a wildcard character, all counter names matching the wildcard character are added to the query.
 
@@ -233,9 +216,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddenglishcountera">PdhAddEnglishCounter</a>
 
 
@@ -253,7 +233,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhremovecounter">PdhRemoveCounter</a>
- 
-
- 
 

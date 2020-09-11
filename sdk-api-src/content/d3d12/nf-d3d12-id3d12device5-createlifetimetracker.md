@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12Device5::CreateLifetimeTracker"]
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12Device5::CreateLifetimeTracker
-f1_keywords:
-- d3d12/ID3D12Device5.CreateLifetimeTracker
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +23,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12Device5::CreateLifetimeTracker
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device5::CreateLifetimeTracker
+ - d3d12/ID3D12Device5::CreateLifetimeTracker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12Device5::CreateLifetimeTracker
 ---
 
 ## -description
@@ -70,3 +71,4 @@ A pointer to a memory block that receives the requested interface pointer to the
 ## -remarks
 
 ## -see-also
+

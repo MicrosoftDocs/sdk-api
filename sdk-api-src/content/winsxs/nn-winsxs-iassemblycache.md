@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 6c411ae7-5a8f-47ca-a9c1-e23000f64620
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], IAssemblyCache interface [Side-by-side Assemblies],described, setup.iassemblycache, winsxs/IAssemblyCache
-f1_keywords:
-- winsxs/IAssemblyCache
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sxs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sxs.dll
-api_name:
-- IAssemblyCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyCache
+ - winsxs/IAssemblyCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sxs.dll
+api_name:
+ - IAssemblyCache
 ---
 
 # IAssemblyCache interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAssemblyCache</b> interface can be used to install, uninstall, or query a side-by-side assembly. An instance of <b>IAssemblyCache</b> is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-createassemblycache">CreateAssemblyCache</a> function.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Removes an application reference to an assembly from the side-by-side store. Rem
 
 </td>
 </tr>
-</table> 
+</table>
 

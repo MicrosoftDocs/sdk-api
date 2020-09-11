@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c2e5e681-8fa5-4b02-b59d-ba796eb0dccf
 ms.date: 12/05/2018
 ms.keywords: CoSetProxyBlanket, CoSetProxyBlanket function [COM], _com_CoSetProxyBlanket, com.cosetproxyblanket, combaseapi/CoSetProxyBlanket
-f1_keywords:
-- combaseapi/CoSetProxyBlanket
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoSetProxyBlanket
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoSetProxyBlanket
+ - combaseapi/CoSetProxyBlanket
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoSetProxyBlanket
 ---
 
 # CoSetProxyBlanket function
@@ -54,30 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the authentication information that will be used to make calls on the specified proxy. This is a helper function for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a>.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pProxy [in]
 
 The proxy to be set.
 
-
 ### -param dwAuthnSvc [in]
 
 The authentication service to be used. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-service-constants">Authentication Service Constants</a>. Use RPC_C_AUTHN_NONE if no authentication is required. If RPC_C_AUTHN_DEFAULT is specified, DCOM will pick an authentication service following its normal security blanket negotiation algorithm.
 
-
 ### -param dwAuthzSvc [in]
 
 The authorization service to be used. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-authorization-constants">Authorization Constants</a>. If RPC_C_AUTHZ_DEFAULT is specified, DCOM will pick an authorization service following its normal security blanket negotiation algorithm. RPC_C_AUTHZ_NONE should be used as the authorization service if NTLMSSP, Kerberos, or Schannel is used as the authentication service.
-
 
 ### -param pServerPrincName [in, optional]
 
@@ -87,16 +79,13 @@ If Schannel is used as the authentication service, this value must be one of the
 
 Generally, specifying <b>NULL</b> will not reset the server principal name on the proxy; rather, the previous setting will be retained. You must be careful when using <b>NULL</b> as <i>pServerPrincName</i> when selecting a different authentication service for the proxy, because there is no guarantee that the previously set principal name would be valid for the newly selected authentication service.
 
-
 ### -param dwAuthnLevel [in]
 
-The authentication level to be used. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-level-constants">Authentication Level Constants</a>. If RPC_C_AUTHN_LEVEL_DEFAULT is specified, DCOM will pick an authentication level following its normal security blanket negotiation algorithm. If this value is none, the authentication service must also be none. 
-
+The authentication level to be used. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-level-constants">Authentication Level Constants</a>. If RPC_C_AUTHN_LEVEL_DEFAULT is specified, DCOM will pick an authentication level following its normal security blanket negotiation algorithm. If this value is none, the authentication service must also be none.
 
 ### -param dwImpLevel [in]
 
 The impersonation level to be used. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/com/com-impersonation-level-constants">Impersonation Level Constants</a>. If RPC_C_IMP_LEVEL_DEFAULT is specified, DCOM will pick an impersonation level following its normal security blanket negotiation algorithm. If NTLMSSP is the authentication service, this value must be RPC_C_IMP_LEVEL_IMPERSONATE or RPC_C_IMP_LEVEL_IDENTIFY. NTLMSSP also supports delegate-level impersonation (RPC_C_IMP_LEVEL_DELEGATE) on the same computer. If Schannel is the authentication service, this parameter must be RPC_C_IMP_LEVEL_IMPERSONATE.
-
 
 ### -param pAuthInfo [in, optional]
 
@@ -116,15 +105,11 @@ If COLE_DEFAULT_AUTHINFO is specified for this parameter, DCOM will pick the aut
 
 <b>CoSetProxyBlanket</b> will fail if <i>pAuthInfo</i> is set and one of the cloaking flags is set in the <i>dwCapabilities</i> parameter.
 
-
 ### -param dwCapabilities [in]
 
 The capabilities of this proxy. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-eole_authentication_capabilities">EOLE_AUTHENTICATION_CAPABILITIES</a> enumeration. The only flags that can be set through this function are EOAC_MUTUAL_AUTH, EOAC_STATIC_CLOAKING, EOAC_DYNAMIC_CLOAKING, EOAC_ANY_AUTHORITY (this flag is deprecated), EOAC_MAKE_FULLSIC, and EOAC_DEFAULT. Either EOAC_STATIC_CLOAKING or EOAC_DYNAMIC_CLOAKING can be set if <i>pAuthInfo</i> is not set and Schannel is not the authentication service. (See <a href="https://docs.microsoft.com/windows/desktop/com/cloaking">Cloaking</a> for more information.) If any capability flags other than those mentioned here are set, <b>CoSetProxyBlanket</b> will fail.
 
-
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -156,14 +141,8 @@ One or more arguments is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>CoSetProxyBlanket</b> sets the authentication information that will be used to make calls on the specified proxy. This function encapsulates the following sequence of common calls (error handling excluded).
 
@@ -174,13 +153,7 @@ One or more arguments is invalid.
 </code></pre>
 This sequence calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the proxy to get a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>, and with the resulting pointer, calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a> and then releases the pointer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryproxyblanket">CoQueryProxyBlanket</a>
 
@@ -195,7 +168,4 @@ This sequence calls <a href="https://docs.microsoft.com/windows/desktop/api/unkn
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/setting-security-at-the-interface-proxy-level">Setting Security at the Interface Proxy Level</a>
- 
-
- 
 

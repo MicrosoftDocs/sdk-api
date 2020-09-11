@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 0fb0c7be-015e-4081-8467-c382e0858195
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings2, IWMPSettings2 interface [Windows Media Player], IWMPSettings2 interface [Windows Media Player],described, IWMPSettings2Interface, wmp.iwmpsettings2, wmp/IWMPSettings2
-f1_keywords:
-- wmp/IWMPSettings2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPSettings2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings2
+ - wmp/IWMPSettings2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPSettings2
 ---
 
 # IWMPSettings2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPSettings2</b> interface provides methods that supplement the <b>IWMPSettings</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -102,20 +98,11 @@ Requests a specified level of access to the library.
 
 Retrieve a pointer to an <b>IWMPSettings2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings</a> interface.
 
-	
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

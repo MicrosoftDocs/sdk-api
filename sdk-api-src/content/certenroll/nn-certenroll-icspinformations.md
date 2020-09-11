@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8141023c-c162-46d6-9c37-e227ce1c8761
 ms.date: 12/05/2018
 ms.keywords: ICspInformations, ICspInformations interface [Security], ICspInformations interface [Security],described, certenroll/ICspInformations, security.icspinformations
-f1_keywords:
-- certenroll/ICspInformations
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformations
+ - certenroll/ICspInformations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformations
 ---
 
 # ICspInformations interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ICspInformations</b> interface defines the following methods and properties to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> objects.
-
 
 ## -inheritance
 
@@ -210,13 +209,9 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -227,7 +222,4 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

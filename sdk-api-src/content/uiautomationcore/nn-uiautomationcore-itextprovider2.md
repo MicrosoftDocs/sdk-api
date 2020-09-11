@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: CDA6E93D-6E82-4EC4-8408-09554D039F49
 ms.date: 12/05/2018
 ms.keywords: ITextProvider2, ITextProvider2 interface [Windows Accessibility], ITextProvider2 interface [Windows Accessibility],described, uiautomationcore/ITextProvider2, winauto.uiauto_itextprovider2
-f1_keywords:
-- uiautomationcore/ITextProvider2
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ITextProvider2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextProvider2
+ - uiautomationcore/ITextProvider2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ITextProvider2
 ---
 
 # ITextProvider2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the  <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a> interface to enable Microsoft UI Automation providers to expose textual content that is the target of an annotation, and information about a caret that belongs to the provider.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Exposes a text range that contains the text that is the target of the annotation
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-supportdocumentcontroltype">Document Control Type</a>
 
@@ -111,7 +106,4 @@ Exposes a text range that contains the text that is the target of the annotation
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
- 
-
- 
 

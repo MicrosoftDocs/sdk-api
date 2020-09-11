@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45
 ms.date: 12/05/2018
 ms.keywords: CSBFT_LOG, CSBFT_PATCH_FILE, CertSrvBackupGetBackupLogs, CertSrvBackupGetBackupLogs function [Security], CertSrvBackupGetBackupLogsW, _certsrv_certsrvbackupgetbackuplogs, certbcli/CertSrvBackupGetBackupLogs, certbcli/CertSrvBackupGetBackupLogsW, security.certsrvbackupgetbackuplogs
-f1_keywords:
-- certbcli/CertSrvBackupGetBackupLogs
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvBackupGetBackupLogs
-- CertSrvBackupGetBackupLogsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvBackupGetBackupLogsW
+ - certbcli/CertSrvBackupGetBackupLogsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvBackupGetBackupLogs
+ - CertSrvBackupGetBackupLogsW
 ---
 
 # CertSrvBackupGetBackupLogsW function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvBackupGetBackupLogs</b> function retrieves the list of Certificate Services log file names that need to be backed up for the given backup context.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to a Certificate Services backup context.
-
 
 ### -param ppwszzBackupLogFiles [out]
 
@@ -102,24 +97,15 @@ When you have finished using this allocated memory, free it by calling the <a hr
 
 Setting <i>ppwszzBackupLogFiles</i> to <b>NULL</b> before calling this function is optional.
 
-
 ### -param pcbSize [out]
 
 A pointer to the <b>DWORD</b> value that specifies the number of bytes in <i>ppwszzBackupLogFiles</i>.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
-
-
-
 ## -remarks
-
-
 
 The log files represent database activity (request submissions, certificate revocation, and so on) that has occurred since the last log file truncation. Log file volume increases as database activity occurs. The log files can be decreased in size by performing a backup and then calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackuptruncatelogs">CertSrvBackupTruncateLogs</a>.
@@ -182,14 +168,7 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>
 
@@ -204,7 +183,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
 

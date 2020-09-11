@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: f1f3c46f-4756-49b4-ad4f-a9097ff787f8
 ms.date: 12/05/2018
 ms.keywords: IWMPQuery, IWMPQuery interface [Windows Media Player], IWMPQuery interface [Windows Media Player],described, IWMPQueryInterface, wmp.iwmpquery, wmp/IWMPQuery
-f1_keywords:
-- wmp/IWMPQuery
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPQuery
+ - wmp/IWMPQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPQuery
 ---
 
 # IWMPQuery interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPQuery</b> interface represents a compound query.
-
-
-
 
 ## -inheritance
 
@@ -89,13 +85,9 @@ Begins a new condition group.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery">IWMPMediaCollection2::createQuery</a>
 
@@ -110,7 +102,4 @@ Begins a new condition group.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

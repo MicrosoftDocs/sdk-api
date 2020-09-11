@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: efa1ea12-5234-474b-a859-cd074290e375
 ms.date: 12/05/2018
 ms.keywords: '*PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST structure pointer [Windows Deployment Services], WDS_TRANSPORTCLIENT_AUTH, WDS_TRANSPORTCLIENT_NO_AUTH, WDS_TRANSPORTCLIENT_PROTOCOL_MULTICAST, WDS_TRANSPORTCLIENT_REQUEST, WDS_TRANSPORTCLIENT_REQUEST structure [Windows Deployment Services], WDS_TRANSPORT_CLIENT_CURRENT_API_VERSION, wds.wds_transportclient_request, wdstci/PWDS_TRANSPORTCLIENT_REQUEST, wdstci/WDS_TRANSPORTCLIENT_REQUEST'
-f1_keywords:
-- wdstci/WDS_TRANSPORTCLIENT_REQUEST
-dev_langs:
-- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdstci.h
-api_name:
-- WDS_TRANSPORTCLIENT_REQUEST
 targetos: Windows
 req.typenames: WDS_TRANSPORTCLIENT_REQUEST, *PWDS_TRANSPORTCLIENT_REQUEST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WDS_TRANSPORTCLIENT_REQUEST
+ - wdstci/_WDS_TRANSPORTCLIENT_REQUEST
+ - PWDS_TRANSPORTCLIENT_REQUEST
+ - wdstci/PWDS_TRANSPORTCLIENT_REQUEST
+ - WDS_TRANSPORTCLIENT_REQUEST
+ - wdstci/WDS_TRANSPORTCLIENT_REQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdstci.h
+api_name:
+ - WDS_TRANSPORTCLIENT_REQUEST
 ---
 
 # WDS_TRANSPORTCLIENT_REQUEST structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulLength
 
 The length of this structure in bytes.
-
 
 ### -field ulApiVersion
 
@@ -89,8 +88,6 @@ The current version.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ulAuthLevel
 
@@ -124,24 +121,19 @@ No authentication information will be sent to the server.  If the server is not 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwszServer
 
 Server name.
 
-
 ### -field pwszNamespace
 
 Namespace of the object to retrieve.
-
 
 ### -field pwszObjectName
 
 Specifies the name of the object to retrieve.  Object names are
      provider dependent.
-
 
 ### -field ulCacheSize
 
@@ -149,7 +141,6 @@ Specifies how much data in bytes the consumer can store in its queue.  Once
      this threshold is reached, the client will not send any more writes to
     the consumer until some memory is released with 
     WdsTransportClientCompleteWrite.
-
 
 ### -field ulProtocol
 
@@ -177,13 +168,10 @@ The file will be transferred using an efficient multicast protocol.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pvProtocolData
 
 Protocol data structure for the protocol. The structure is <b>NULL</b> for  <b>WDS_TRANSPORTCLIENT_PROTOCOL_MULTICAST</b> protocol.
-
 
 ### -field ulProtocolDataLength
 

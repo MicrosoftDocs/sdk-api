@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: d4a4ac59-56fb-4693-9007-f358105f82f0
 ms.date: 12/05/2018
 ms.keywords: MesHandleFree, MesHandleFree function [RPC], _rpc_meshandlefree, midles/MesHandleFree, rpc.meshandlefree
-f1_keywords:
-- midles/MesHandleFree
-dev_langs:
-- c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- MesHandleFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MesHandleFree
+ - midles/MesHandleFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - MesHandleFree
 ---
 
 # MesHandleFree function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MesHandleFree</b> function frees the memory allocated by the serialization handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle
 
 Handle to be freed.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -91,22 +84,12 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>MesHandleFree</b> routine is used by applications to free the resources of the handle after encoding or decoding data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesdecodebufferhandlecreate">MesDecodeBufferHandleCreate</a>
 
@@ -121,7 +104,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesencodeincrementalhandlecreate">MesEncodeIncrementalHandleCreate</a>
- 
-
- 
 

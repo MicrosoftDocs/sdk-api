@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: ef9efa03-feed-4f0d-b874-c646cce745c9
 ms.date: 12/05/2018
 ms.keywords: WSAJoinLeaf, WSAJoinLeaf function [Winsock], _win32_wsajoinleaf_2, winsock.wsajoinleaf_2, winsock2/WSAJoinLeaf
-f1_keywords:
-- winsock2/WSAJoinLeaf
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAJoinLeaf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAJoinLeaf
+ - winsock2/WSAJoinLeaf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAJoinLeaf
 ---
 
 # WSAJoinLeaf function
@@ -49,61 +50,46 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAJoinLeaf</b> function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the specified 
 <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 Descriptor identifying a multipoint socket.
 
-
 ### -param name [in]
 
 Name of the peer to which the socket is to be joined.
-
 
 ### -param namelen [in]
 
 Length of <i>name</i>, in bytes.
 
-
 ### -param lpCallerData [in]
 
 Pointer to the user data that is to be transferred to the peer during multipoint session establishment.
 
-
 ### -param lpCalleeData [out]
 
 Pointer to the user data that is to be transferred back from the peer during multipoint session establishment.
-
 
 ### -param lpSQOS [in]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i>, one for each direction.
 
-
 ### -param lpGQOS [in]
 
 Reserved for future use with socket groups. A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for the socket group (if applicable).
-
 
 ### -param dwFlags [in]
 
 Flags to indicate that the socket is acting as a sender (JL_SENDER_ONLY), receiver (JL_RECEIVER_ONLY), or both (JL_BOTH).
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSAJoinLeaf</b> returns a value of type SOCKET that is a descriptor for the newly created multipoint socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code can be retrieved by calling 
@@ -340,14 +326,8 @@ The attempt to join timed out without establishing a multipoint session.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAJoinLeaf</b> function is used to join a leaf node to a multipoint session, and to perform a number of other ancillary operations that occur at session join time as well. If the socket <i>s</i> is unbound, unique values are assigned to the local association by the system, and the socket is marked as bound.
@@ -412,13 +392,7 @@ When connected sockets break (that is, become closed for whatever reason), they 
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a>
 
@@ -457,7 +431,4 @@ When connected sockets break (that is, become closed for whatever reason), they 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
- 
-
- 
 

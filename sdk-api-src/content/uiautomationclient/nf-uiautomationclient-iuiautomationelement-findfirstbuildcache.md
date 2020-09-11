@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: ecb10fbf-ff1d-4bd0-b036-1050560d82fe
 ms.date: 12/05/2018
 ms.keywords: FindFirstBuildCache, FindFirstBuildCache method [Windows Accessibility], FindFirstBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindFirstBuildCache method, IUIAutomationElement.FindFirstBuildCache, IUIAutomationElement::FindFirstBuildCache, uiauto.uiauto_IUIAutomationElement_FindFirstBuildCache, uiauto_IUIAutomationElement_FindFirstBuildCache, uiautomationclient/IUIAutomationElement::FindFirstBuildCache, winauto.uiauto_IUIAutomationElement_FindFirstBuildCache
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.FindFirstBuildCache
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.FindFirstBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::FindFirstBuildCache
+ - uiautomationclient/IUIAutomationElement::FindFirstBuildCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.FindFirstBuildCache
 ---
 
 # IUIAutomationElement::FindFirstBuildCache
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the first child or descendant element that matches the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 A combination of values specifying the scope of the search.
 
-
 ### -param condition [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>*</b>
 
 A pointer to a condition that represents the criteria to match.
-
 
 ### -param cacheRequest [in]
 
@@ -78,28 +72,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 A pointer to a cache request that specifies the control patterns and properties to include in the cache.
 
-
 ### -param found [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>**</b>
 
 Receives a pointer to the matching element, or <b>NULL</b> if no matching element is found.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The scope of the search is relative to the element on which the method is called. Elements are returned in the order in which they were encountered in the tree.
 
@@ -111,13 +96,7 @@ If your client application might try to find elements in its own user interface,
 
 To search the raw tree, specify the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a> in the <i>cacheRequest</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cachingforclients">Caching UI Automation Properties and Control Patterns</a>
 
@@ -148,7 +127,4 @@ To search the raw tree, specify the appropriate <a href="https://docs.microsoft.
 
 
 <b>Reference</b>
- 
-
- 
 

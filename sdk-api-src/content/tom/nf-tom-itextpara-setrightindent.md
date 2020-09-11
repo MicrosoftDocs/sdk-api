@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrightindent.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetRightIndent method, ITextPara.SetRightIndent, ITextPara::SetRightIndent, SetRightIndent, SetRightIndent method [Windows Controls], SetRightIndent method [Windows Controls],ITextPara interface, _win32_ITextPara_SetRightIndent, _win32_ITextPara_SetRightIndent_cpp, controls.ITextPara_SetRightIndent, controls._win32_ITextPara_SetRightIndent, tom/ITextPara::SetRightIndent
-f1_keywords:
-- tom/ITextPara.SetRightIndent
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetRightIndent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetRightIndent
+ - tom/ITextPara::SetRightIndent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetRightIndent
 ---
 
 # ITextPara::SetRightIndent
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the right margin of paragraph.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>float</b>
 
-Right indent, in floating-point points. 
-
+Right indent, in floating-point points.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -134,15 +127,8 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -157,7 +143,4 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

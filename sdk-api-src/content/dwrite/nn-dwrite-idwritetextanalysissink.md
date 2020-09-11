@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 1fd2ca46-006c-4b01-8258-6c24f4be1641
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink, IDWriteTextAnalysisSink interface [Direct Write], IDWriteTextAnalysisSink interface [Direct Write],described, directwrite.idwritetextanalysissink, dwrite/IDWriteTextAnalysisSink
-f1_keywords:
-- dwrite/IDWriteTextAnalysisSink
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextAnalysisSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextAnalysisSink
+ - dwrite/IDWriteTextAnalysisSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextAnalysisSink
 ---
 
 # IDWriteTextAnalysisSink interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface is implemented by the text analyzer's client to receive the
- output of a given text analysis. 
-
+ output of a given text analysis.
 
 ## -inheritance
 
@@ -105,15 +104,10 @@ Reports script analysis for the specified text range.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The text analyzer disregards any current
  state of the analysis sink, therefore, a Set method call on a range overwrites the previously set analysis result of the same range.
-
-
 

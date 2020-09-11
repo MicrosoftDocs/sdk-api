@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 3a44725b-23a0-4338-b618-c0ce4ecde204
 ms.date: 12/05/2018
 ms.keywords: GetPart, GetPart method [Open Packaging Conventions], GetPart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetPart method, IOpcPartSet.GetPart, IOpcPartSet::GetPart, msopc/IOpcPartSet::GetPart, opc.iopcpartset_getpart
-f1_keywords:
-- msopc/IOpcPartSet.GetPart
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcPartSet.GetPart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcPartSet::GetPart
+ - msopc/IOpcPartSet::GetPart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcPartSet.GetPart
 ---
 
 # IOpcPartSet::GetPart
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a part object, which represents a specified part, in the set.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface of the part URI object that represents the part name of a part.
 
-
 ### -param part [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> of the part object that represents the part that has the specified part name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -136,14 +128,8 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To retrieve the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface pointer of the part object that represents a specific part, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartset-partexists">PartExists</a> method and pass in the part name to confirm that the part is represented in the set. If it is, call the <b>GetPart</b> method and pass in the part name to retrieve the <b>IOpcPart</b> interface pointer.
 
@@ -158,13 +144,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
@@ -195,7 +175,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

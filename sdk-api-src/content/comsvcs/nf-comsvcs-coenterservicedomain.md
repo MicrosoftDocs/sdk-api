@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 84640b3b-1f43-4bec-abf6-c295cfb3da8b
 ms.date: 12/05/2018
 ms.keywords: CoEnterServiceDomain, CoEnterServiceDomain function [COM+], _cos_CoEnterServiceDomain, comsvcs/CoEnterServiceDomain, cos.coenterservicedomain
-f1_keywords:
-- comsvcs/CoEnterServiceDomain
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComSvcs.dll
-api_name:
-- CoEnterServiceDomain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoEnterServiceDomain
+ - comsvcs/CoEnterServiceDomain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComSvcs.dll
+api_name:
+ - CoEnterServiceDomain
 ---
 
 # CoEnterServiceDomain function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to enter code that can then use COM+ services.
 
-
 ## -parameters
-
-
-
 
 ### -param pConfigObject [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object, created from the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> class, that contains the configuration information for the services to be used within the enclosed code.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_FAIL, as well as the following values.
 
@@ -130,14 +123,8 @@ The caller does not have access permissions for the COM+ partition.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Code that is enclosed between calls to <b>CoEnterServiceDomain</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a> runs in its own context and behaves as though it were a method that is called on an object created within the context. <b>CoEnterServiceDomain</b> cannot switch to a different apartment model, so the enclosed code runs in the caller's apartment and on the caller's thread. It is an error to try to change the apartment model through the <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object when calling <b>CoEnterServiceDomain</b>.
 
@@ -151,13 +138,7 @@ Because of their efficient design and because no thread marshaling is involved, 
 
 The <b>CoEnterServiceDomain</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a> pairs can be nested.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--services-without-components">COM+ Services Without Components</a>
 
@@ -172,7 +153,4 @@ The <b>CoEnterServiceDomain</b> and <a href="https://docs.microsoft.com/windows/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a>
- 
-
- 
 

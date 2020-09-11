@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: E624CBB4-F788-4FC9-B134-8C4562F21E44
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_STORAGE_CLASSES, FSCTL_QUERY_STORAGE_CLASSES control, FSCTL_QUERY_STORAGE_CLASSES control code [Files], fs.fsctl_query_storage_classes, winioctl/FSCTL_QUERY_STORAGE_CLASSES
-f1_keywords:
-- winioctl/FSCTL_QUERY_STORAGE_CLASSES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoctl.h
-api_name:
-- FSCTL_QUERY_STORAGE_CLASSES
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_QUERY_STORAGE_CLASSES
+ - winioctl/FSCTL_QUERY_STORAGE_CLASSES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoctl.h
+api_name:
+ - FSCTL_QUERY_STORAGE_CLASSES
 ---
 
 # FSCTL_QUERY_STORAGE_CLASSES IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -92,7 +88,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+

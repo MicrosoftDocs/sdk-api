@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: bb8279e1-a98b-4156-8b90-d9b69411bfa3
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequestCollection, IXpsSignatureRequestCollection interface [XPS Documents and Packaging], IXpsSignatureRequestCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturerequestcollection, xpsdigitalsignature/IXpsSignatureRequestCollection
-f1_keywords:
-- xpsdigitalsignature/IXpsSignatureRequestCollection
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignatureRequestCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignatureRequestCollection
+ - xpsdigitalsignature/IXpsSignatureRequestCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignatureRequestCollection
 ---
 
 # IXpsSignatureRequestCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A collection of <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturerequest">IXpsSignatureRequest</a> interfaces.
-
 
 ## -inheritance
 
@@ -98,22 +97,13 @@ Removes and releases an <a href="https://docs.microsoft.com/windows/desktop/api/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 For more information about the collection methods, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturerequest">IXpsSignatureRequest</a>
 
@@ -128,7 +118,4 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

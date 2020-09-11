@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 97a0e7da-e8bb-4bde-a8ba-35c90a1351d2
 ms.date: 12/05/2018
 ms.keywords: APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, CoGetDefaultContext, CoGetDefaultContext function [COM+], combaseapi/CoGetDefaultContext, cos.cogetdefaultcontext
-f1_keywords:
-- combaseapi/CoGetDefaultContext
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoGetDefaultContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoGetDefaultContext
+ - combaseapi/CoGetDefaultContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoGetDefaultContext
 ---
 
 # CoGetDefaultContext function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a reference to the default context of the specified apartment.
 
-
 ## -parameters
-
-
-
 
 ### -param aptType [in]
 
@@ -120,20 +116,15 @@ The main single-threaded apartment for the current process.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a> value APTTYPE_STA (0) is not supported. A process can contain multiple single-threaded apartments, each with its own context, so <b>CoGetDefaultContext</b> could not determine which STA is of interest. Therefore, this function returns E_INVALIDARG if APTTYPE_STA is specified.
 
-
 ### -param riid [in]
 
 The interface identifier (IID) of the interface that is being requested on the default context. Typically, the caller requests IID_IObjectContext. The default context does not support all of the normal object context interfaces.
-
 
 ### -param ppv [out]
 
 A reference to the interface specified by riid on the default context. If the object's component is non-configured, (that is, the object's component has not been imported into a COM+ application), or if the <b>CoGetDefaultContext</b> function is called from a constructor or an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> method, this parameter is set to a <b>NULL</b> pointer.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -187,14 +178,8 @@ The object context does not support the interface specified by <i>riid</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Every COM apartment has a special context called the default context. A default context is different from all the other, non-default contexts in an apartment because it does not provide runtime services. It does not support all of the normal object context interfaces.
 
@@ -204,16 +189,7 @@ An object should never pass an <a href="https://docs.microsoft.com/windows/deskt
 
 When an object obtains a reference to an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>, it must release the <b>IObjectContext</b> object when it is finished with it.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
- 
-
- 
 

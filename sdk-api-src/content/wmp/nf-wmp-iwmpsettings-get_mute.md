@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: b0bb1c84-d208-4d29-a797-bb18af039f03
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_mute method, IWMPSettings.get_mute, IWMPSettings::get_mute, IWMPSettingsget_mute, get_mute, get_mute method [Windows Media Player], get_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_mute, wmp/IWMPSettings::get_mute
-f1_keywords:
-- wmp/IWMPSettings.get_mute
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSettings.get_mute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings::get_mute
+ - wmp/IWMPSettings::get_mute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSettings.get_mute
 ---
 
 # IWMPSettings::get_mute
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_mute</b> method retrieves a value indicating whether audio is muted.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfMute [out]
 
 Pointer to a <b>VARIANT_BOOL</b> indicating whether audio is muted. The default is <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,15 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
@@ -108,7 +91,4 @@ The method succeeded.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">IWMPSettings::put_mute</a>
- 
-
- 
 

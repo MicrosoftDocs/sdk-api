@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 4ce2e967-7b4a-4065-844d-d8852dec8a8f
 ms.date: 12/05/2018
 ms.keywords: DdFlip, DdFlip callback function [Display Devices], PDD_SURFCB_FLIP, PDD_SURFCB_FLIP callback, ddfncs_c7f9b1ea-0c9e-47f3-8fd1-b814d6e6adbd.xml, ddrawint/DdFlip, display.ddflip
-f1_keywords:
-- ddrawint/DdFlip
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdFlip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_SURFCB_FLIP
+ - ddrawint/PDD_SURFCB_FLIP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdFlip
 ---
 
 # PDD_SURFCB_FLIP callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DdFlip</b> callback function causes the surface memory associated with the target surface to become the primary surface, and the current surface to become the nonprimary surface.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpFlip
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a> structure that contains the information required to perform the flip.
 
-
 ## -returns
-
-
 
 <b>DdFlip</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 <b>DdFlip</b> allows a display driver to perform multibuffering. DirectDraw drivers must implement this function.
 
@@ -91,16 +72,7 @@ The driver should update its surface pointers so that the next frame will be wri
 
 If the driver's hardware supports overlays or textures, <b>DdFlip</b> should make any necessary checks based on the surface type before performing the flip.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a>
- 
-
- 
 

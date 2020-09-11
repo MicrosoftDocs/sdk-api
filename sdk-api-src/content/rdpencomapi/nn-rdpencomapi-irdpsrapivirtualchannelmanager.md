@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 750e7d98-196f-4bf2-864b-50b3bef6f6ad
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager, IRDPSRAPIVirtualChannelManager interface [RDP], IRDPSRAPIVirtualChannelManager interface [RDP],described, rdp.irdpsrapivirtualchannelmanager, rdpencomapi/IRDPSRAPIVirtualChannelManager
-f1_keywords:
-- rdpencomapi/IRDPSRAPIVirtualChannelManager
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIVirtualChannelManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIVirtualChannelManager
+ - rdpencomapi/IRDPSRAPIVirtualChannelManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIVirtualChannelManager
 ---
 
 # IRDPSRAPIVirtualChannelManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages the list of virtual channels.
-
 
 ## -inheritance
 
@@ -118,20 +117,13 @@ An item in the virtual channel collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7fa5f76e-df07-41b3-8fb0-62b84a034aa5
 ms.date: 12/05/2018
 ms.keywords: IManagedObjectInfo, IManagedObjectInfo interface [COM+], IManagedObjectInfo interface [COM+],described, _cos_IManagedObjectInfo, comsvcs/IManagedObjectInfo, cos.imanagedobjectinfo
-f1_keywords:
-- comsvcs/IManagedObjectInfo
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IManagedObjectInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IManagedObjectInfo
+ - comsvcs/IManagedObjectInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IManagedObjectInfo
 ---
 
 # IManagedObjectInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the stub for a managed object.
-
 
 ## -inheritance
 
@@ -104,13 +103,9 @@ Sets whether the managed object holds a strong or a weak reference to the COM+ c
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-getmanagedextensions">GetManagedExtensions</a>
 
@@ -125,7 +120,4 @@ Sets whether the managed object holds a strong or a weak reference to the COM+ c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a>
- 
-
- 
 

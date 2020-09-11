@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 78FF30C5-7F23-489D-9E9D-916F6CE09C0E
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,described, d3d12shader/ID3D12ShaderReflectionType, direct3d12.id3d12shaderreflectiontype
-f1_keywords:
-- d3d12shader/ID3D12ShaderReflectionType
-dev_langs:
-- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12shader.h
-api_name:
-- ID3D12ShaderReflectionType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12ShaderReflectionType
+ - d3d12shader/ID3D12ShaderReflectionType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12shader.h
+api_name:
+ - ID3D12ShaderReflectionType
 ---
 
 # ID3D12ShaderReflectionType interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This shader-reflection interface provides access to variable type.
-        
-
 
 ## -inheritance
 
@@ -179,26 +177,13 @@ Indicates whether a variable is of the specified type.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The get a shader-reflection-type interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-gettype">ID3D12ShaderReflectionVariable::GetType</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
-          
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 80a9ccd8-f89a-40c4-8b99-38536409cf26
 ms.date: 12/05/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],EnumAdvise method, IOleAdviseHolder.EnumAdvise, IOleAdviseHolder::EnumAdvise, _ole_ioleadviseholder_enumadvise, com.ioleadviseholder_enumadvise, oleidl/IOleAdviseHolder::EnumAdvise
-f1_keywords:
-- oleidl/IOleAdviseHolder.EnumAdvise
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleAdviseHolder.EnumAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleAdviseHolder::EnumAdvise
+ - oleidl/IOleAdviseHolder::EnumAdvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleAdviseHolder.EnumAdvise
 ---
 
 # IOleAdviseHolder::EnumAdvise
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an enumerator that can be used to enumerate the advisory connections currently established for an object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppenumAdvise [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> pointer variable that receives the interface pointer to the new enumerator. If this parameter is <b>NULL</b>, there are presently no advisory connections on the object, or an error occurred. The advise holder is responsible for incrementing the reference count on the <b>IEnumSTATDATA</b> pointer this method supplies. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when it is finished with the pointer.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -98,26 +91,14 @@ The enumeration operation has failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IOleAdviseHolder::EnumAdvise</b> creates an enumerator that can be used to enumerate an object's established advisory connections. The method supplies a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> interface on this enumerator. Advisory connection information for each connection is stored in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a> structure, and the enumerator must be able to enumerate these structures.
 
 For this method, the only relevant structure members are <b>pAdvise</b> and <b>dwConnection</b>. Other members contain data advisory information. When you call the enumeration methods, and while an enumeration is in progress, the effect of registering or revoking advisory connections on what is to be enumerated is undefined.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">IDataAdviseHolder::EnumAdvise</a>
 
@@ -140,7 +121,4 @@ For this method, the only relevant structure members are <b>pAdvise</b> and <b>d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a>
- 
-
- 
 

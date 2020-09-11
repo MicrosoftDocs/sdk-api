@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: e1dcb5f8-c026-4a4e-8541-928a057bf0ae
 ms.date: 12/05/2018
 ms.keywords: RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB
-f1_keywords:
-- wingdi/RGB
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- RGB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RGB
+ - wingdi/RGB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - RGB
 ---
 
 # RGB macro
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>RGB</b> macro selects a red, green, blue (RGB) color based on the arguments supplied and the color capabilities of the output device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param r
 
 The intensity of the red color.
 
-
 ### -param g
 
 The intensity of the green color.
-
 
 ### -param b
 
 The intensity of the blue color.
 
-
 ## -remarks
-
-
 
 The intensity for each argument is in the range 0 through 255. If all three intensities are zero, the result is black. If all three intensities are 255, the result is white.
 
@@ -86,13 +74,7 @@ To extract the individual values for the red, green, and blue components of a <a
 
 When creating or examining a logical palette, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a> structure to define color values and examine individual component values. For more information about using color values in a color palette, see the descriptions of the <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-palettergb">PALETTERGB</a> macros.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
@@ -127,7 +109,4 @@ When creating or examining a logical palette, use the <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>
- 
-
- 
 

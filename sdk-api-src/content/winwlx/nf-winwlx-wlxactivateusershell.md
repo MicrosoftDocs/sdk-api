@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0db6653b-ec6f-4b2b-9371-b73d73be1f7b
 ms.date: 12/05/2018
 ms.keywords: WlxActivateUserShell, WlxActivateUserShell function [Security], _gina_wlxactivateusershell, security.wlxactivateusershell, winwlx/WlxActivateUserShell
-f1_keywords:
-- winwlx/WlxActivateUserShell
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winwlx.h
-api_name:
-- WlxActivateUserShell
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlxActivateUserShell
+ - winwlx/WlxActivateUserShell
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winwlx.h
+api_name:
+ - WlxActivateUserShell
 ---
 
 # WlxActivateUserShell function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxActivateUserShell function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -59,14 +59,10 @@ The <b>WlxActivateUserShell</b> function must be implemented by a replacement <a
 
 ## -parameters
 
-
-
-
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. This is the context value that the GINA returns when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
 
 ### -param pszDesktopName [in]
 
@@ -75,44 +71,28 @@ A pointer to a null-terminated wide character string that specifies the name of 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function through the <b>lpDesktop</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure.
 
-
 ### -param pszMprLogonScript [in]
 
 A pointer to a null-terminated wide character string that specifies any script names returned from the network provider DLLs. Network provider DLLs can return scripts to be executed during logon; however, the GINA may ignore them.
-
 
 ### -param pEnvironment [in]
 
 Specifies the initial environment variables for the process. Winlogon creates a copy of the environment and hands it off to the GINA. The GINA can modify this environment before using it to initialize the user's shell. The GINA should call the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> function to free the memory allocated for <i>pEnvironment</i>.
 
-
 ## -returns
-
-
 
 If the function successfully starts a shell process, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. When <b>FALSE</b> is returned, Winlogon cancels the logon in process.
 
-
-
-
 ## -remarks
-
-
 
 Before calling <b>WlxActivateUserShell</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
 Always activate the user shell program in <b>WlxActivateUserShell</b> rather than 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxloggedoutsas">WlxLoggedOutSAS</a>. This gives Winlogon a chance to update its state, including setting workstation and desktop protections, before any logged-on user processes are allowed to run.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
@@ -123,7 +103,4 @@ Always activate the user shell program in <b>WlxActivateUserShell</b> rather tha
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a>
- 
-
- 
 

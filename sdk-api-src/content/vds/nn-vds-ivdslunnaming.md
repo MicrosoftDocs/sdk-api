@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 1cc5fbb2-6a40-4b7c-9b5f-8f5fb53e6173
 ms.date: 12/05/2018
 ms.keywords: IVdsLunNaming, IVdsLunNaming interface [VDS], IVdsLunNaming interface [VDS],described, base.ivdslunnaming, vds/IVdsLunNaming, vdshwprv/IVdsLunNaming
-f1_keywords:
-- vds/IVdsLunNaming
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsLunNaming
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLunNaming
+ - vds/IVdsLunNaming
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsLunNaming
 ---
 
 # IVdsLunNaming interface
@@ -50,12 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to name 
    LUNs for a class implementing the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a> interface.
-
 
 ## -inheritance
 
@@ -79,16 +78,9 @@ The <b>IVdsLunNaming</b> interface has these methods.
 <td align="left" width="63%">
 Sets the friendly name of a LUN.</p> (Inherited from <b>IVdsLunNaming</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

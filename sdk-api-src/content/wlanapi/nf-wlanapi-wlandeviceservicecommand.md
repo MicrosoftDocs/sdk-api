@@ -28,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- wlanapi.dll
+ - wlanapi.dll
 api_name:
  - WlanDeviceServiceCommand
 f1_keywords:
+ - WlanDeviceServiceCommand
  - wlanapi/WlanDeviceServiceCommand
 dev_langs:
  - c++
@@ -103,8 +104,9 @@ The number of bytes returned.
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If the function succeeds, the return value is **ERROR_SUCCESS**. If the function fails with **ERROR_ACCESS_DENIED**, then the caller doesn't have sufficient permissions to perform this operation. The caller needs to either have admin privilege, or needs to be a UMDF driver. 
+If the function succeeds, the return value is **ERROR_SUCCESS**. If the function fails with **ERROR_ACCESS_DENIED**, then the caller doesn't have sufficient permissions to perform this operation. The caller needs to either have admin privilege, or needs to be a UMDF driver.
 
 ## -remarks
 
 ## -see-also
+

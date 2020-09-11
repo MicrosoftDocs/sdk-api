@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: c9f20dd2-4411-4069-8455-9095939581e8
 ms.date: 12/05/2018
 ms.keywords: ExtendedModes property [PLA], ExtendedModes property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ExtendedModes property, ITraceDataCollector.ExtendedModes, ITraceDataCollector.get_ExtendedModes, ITraceDataCollector::ExtendedModes, ITraceDataCollector::get_ExtendedModes, ITraceDataCollector::put_ExtendedModes, base.itracedatacollector_extendedmodes, get_ExtendedModes, pla.itracedatacollector_extendedmodes, pla/ITraceDataCollector::ExtendedModes, pla/ITraceDataCollector::get_ExtendedModes, pla/ITraceDataCollector::put_ExtendedModes
-f1_keywords:
-- pla/ITraceDataCollector.ExtendedModes
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- ITraceDataCollector.ExtendedModes
-- ITraceDataCollector.get_ExtendedModes
-- ITraceDataCollector.put_ExtendedModes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceDataCollector::get_ExtendedModes
+ - pla/ITraceDataCollector::get_ExtendedModes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - ITraceDataCollector.ExtendedModes
+ - ITraceDataCollector.get_ExtendedModes
+ - ITraceDataCollector.put_ExtendedModes
 ---
 
 # ITraceDataCollector::get_ExtendedModes
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the extended log file modes.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
  Use this property to set the following log file modes:
 
@@ -120,18 +116,8 @@ For a description of all log file modes and their values, see <a href="https://d
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_streammode">ITraceDataProvider::StreamMode</a> is set to <b>plaRealTime</b>.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
- 
-
- 
 

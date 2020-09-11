@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 21157b6b-3cbd-4fe5-8df0-470b2a2c87d7
 ms.date: 12/05/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],Error property, IWSManEnumerator.Error, IWSManEnumerator.get_Error, IWSManEnumerator::Error, IWSManEnumerator::get_Error, get_Error, winrm.iwsmanenumerator_error, wsmandisp/IWSManEnumerator::Error, wsmandisp/IWSManEnumerator::get_Error
-f1_keywords:
-- wsmandisp/IWSManEnumerator.Error
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManEnumerator.Error
-- IWSManEnumerator.get_Error
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManEnumerator::get_Error
+ - wsmandisp/IWSManEnumerator::get_Error
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManEnumerator.Error
+ - IWSManEnumerator.get_Error
 ---
 
 # IWSManEnumerator::get_Error
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an XML representation of additional error information.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumerator-error">Enumerator.Error</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper, IDragSourceHelper interface [Windows Shell], IDragSourceHelper interface [Windows Shell],described, _win32_IDragSourceHelper, shell.IDragSourceHelper, shobjidl_core/IDragSourceHelper
-f1_keywords:
-- shobjidl_core/IDragSourceHelper
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDragSourceHelper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDragSourceHelper
+ - shobjidl_core/IDragSourceHelper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDragSourceHelper
 ---
 
 # IDragSourceHelper interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposed by the Shell to allow an application to specify the image that will be displayed during a Shell drag-and-drop operation.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Initializes the drag-image manager for a control with a window.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is exposed by the Shell's drag-image manager. It is not implemented by applications.
 
@@ -111,5 +107,4 @@ For further discussion of Shell drag-and-drop operations, see <a href="https://d
 
 <div class="alert"><b>Note</b>   Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
-
 

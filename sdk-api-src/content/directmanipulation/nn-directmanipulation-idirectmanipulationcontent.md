@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 4d69a503-f998-4197-824f-4df48825c941
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationContent, IDirectManipulationContent interface [Direct Manipulation], IDirectManipulationContent interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcontent, directmanipulation/IDirectManipulationContent
-f1_keywords:
-- directmanipulation/IDirectManipulationContent
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationContent
+ - directmanipulation/IDirectManipulationContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationContent
 ---
 
 # IDirectManipulationContent interface
 
 
 ## -description
-
 
 Encapsulates content inside a viewport, where content represents a visual surface clipped inside the viewport.
 
@@ -143,25 +143,13 @@ Modifies the content transform while maintaining the output transform.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-The system provides an implementation of <b>IDirectManipulationContent</b>. 
-
-
-
+The system provides an implementation of <b>IDirectManipulationContent</b>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
- 
-
- 
 

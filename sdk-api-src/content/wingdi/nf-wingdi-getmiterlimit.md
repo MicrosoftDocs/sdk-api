@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 51b1fb95-dd44-47f8-9311-2c6dc9c57bbc
 ms.date: 12/05/2018
 ms.keywords: GetMiterLimit, GetMiterLimit function [Windows GDI], _win32_GetMiterLimit, gdi.getmiterlimit, wingdi/GetMiterLimit
-f1_keywords:
-- wingdi/GetMiterLimit
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetMiterLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetMiterLimit
+ - wingdi/GetMiterLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetMiterLimit
 ---
 
 # GetMiterLimit function
@@ -51,49 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetMiterLimit</b> function retrieves the miter limit for the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to the device context.
 
-
 ### -param plimit [out]
 
 Pointer to a floating-point value that receives the current miter limit.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The miter limit is used when drawing geometric lines that have miter joins.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
@@ -108,7 +89,4 @@ The miter limit is used when drawing geometric lines that have miter joins.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a>
- 
-
- 
 

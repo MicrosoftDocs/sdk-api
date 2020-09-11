@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: dc641de0-8e22-402e-be64-f3231ba9ed8c
 ms.date: 12/05/2018
 ms.keywords: SearchTreeForFile, SearchTreeForFile function, SearchTreeForFileW, _win32_searchtreeforfile, base.searchtreeforfile, dbghelp/SearchTreeForFile, dbghelp/SearchTreeForFileW
-f1_keywords:
-- dbghelp/SearchTreeForFile
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SearchTreeForFile
-- SearchTreeForFile
-- SearchTreeForFileW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SearchTreeForFileW
+ - dbghelp/SearchTreeForFileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SearchTreeForFile
+ - SearchTreeForFile
+ - SearchTreeForFileW
 ---
 
 # SearchTreeForFileW function
@@ -51,45 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Searches a directory tree for a specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPath [in]
 
 The path where the function should begin searching for the file.
 
-
 ### -param InputPathName [in]
 
 The file for which the function will search. You can use a partial path.
-
 
 ### -param OutputPathBuffer [out]
 
 A pointer to a buffer that receives the full path to the file that is found. This string is not modified if the return value is <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The function searches for the file specified by the <i>InputPathName</i> parameter beginning at the path specified in the <i>RootPath</i> parameter. The maximum path depth that is allowed in the <i>RootPath</i> is 32 directories. When the function finds the file in the directory tree, it places the full path to the file in the buffer specified by the <i>OutputPathBuffer</i> parameter. The underlying file system specifies the order of the subdirectory search.
 
@@ -113,11 +99,5 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
- 
-
- 
 

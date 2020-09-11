@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: d5393459-8bd6-4daf-830a-aa08d76c6347
 ms.date: 12/05/2018
 ms.keywords: ITfEditTransactionSink, ITfEditTransactionSink interface [Text Services Framework], ITfEditTransactionSink interface [Text Services Framework],described, _tsf_itfedittransactionsink_ref, msctf/ITfEditTransactionSink, tsf.itfedittransactionsink
-f1_keywords:
-- msctf/ITfEditTransactionSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Imekrcic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imekrcic.dll
-api_name:
-- ITfEditTransactionSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfEditTransactionSink
+ - msctf/ITfEditTransactionSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imekrcic.dll
+api_name:
+ - ITfEditTransactionSink
 ---
 
 # ITfEditTransactionSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfEditTransactionSink</b> interface is implemented by a text service and used by the TSF manager to support edit transactions. An edit transaction is a series of edits that use multiple document locks. A text service can optionally implement this interface. This advise sink is installed by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfEditTransactionSink.
-
 
 ## -inheritance
 
@@ -86,22 +85,13 @@ Indicates the start of an edit transaction.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An edit transaction involves multiple document locks, and usually includes multiple <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit</a> method callbacks.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
@@ -119,7 +109,4 @@ An edit transaction involves multiple document locks, and usually includes multi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

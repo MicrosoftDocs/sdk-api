@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 75e9327e-72d6-4247-a339-1ca494bc8408
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],SPCFileNameWStr property, IEnroll.SPCFileNameWStr, IEnroll.put_SPCFileNameWStr, IEnroll::SPCFileNameWStr, IEnroll::get_SPCFileNameWStr, IEnroll::put_SPCFileNameWStr, SPCFileNameWStr property [Security], SPCFileNameWStr property [Security],IEnroll interface, put_SPCFileNameWStr, security.ienroll4_spcfilenamewstr, xenroll/IEnroll::SPCFileNameWStr, xenroll/IEnroll::get_SPCFileNameWStr, xenroll/IEnroll::put_SPCFileNameWStr
-f1_keywords:
-- xenroll/IEnroll.SPCFileNameWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.SPCFileNameWStr
-- IEnroll.get_SPCFileNameWStr
-- IEnroll.put_SPCFileNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::put_SPCFileNameWStr
+ - xenroll/IEnroll::put_SPCFileNameWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.SPCFileNameWStr
+ - IEnroll.get_SPCFileNameWStr
+ - IEnroll.put_SPCFileNameWStr
 ---
 
 # IEnroll::put_SPCFileNameWStr
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -60,13 +60,9 @@ This property was first defined in the <a href="https://docs.microsoft.com/windo
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The file is written as a binary PKCS #7. Specifying this file does not affect the acceptance of the certificates into any of the user's stores.
 
@@ -84,17 +80,7 @@ If the file already exists, the user is notified and prompted for permission to 
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

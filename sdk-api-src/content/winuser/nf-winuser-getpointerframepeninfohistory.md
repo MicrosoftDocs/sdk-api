@@ -8,10 +8,6 @@ tech.root: InputMsg
 ms.assetid: a4f6a9f3-dfbd-4413-aae7-f58e1521ef1d
 ms.date: 12/05/2018
 ms.keywords: GetPointerFramePenInfoHistory, GetPointerFramePenInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframepeninfohistory, winuser/GetPointerFramePenInfoHistory
-f1_keywords:
-- winuser/GetPointerFramePenInfoHistory
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- GetPointerFramePenInfoHistory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPointerFramePenInfoHistory
+ - winuser/GetPointerFramePenInfoHistory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - GetPointerFramePenInfoHistory
 ---
 
 # GetPointerFramePenInfoHistory function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the entire frame of pen-based information (including coalesced input frames) for the specified pointers (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with the current message. 
-
+Gets the entire frame of pen-based information (including coalesced input frames) for the specified pointers (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with the current message.
 
 ## -parameters
-
-
-
 
 ### -param pointerId [in]
 
 The identifier of the pointer for which to retrieve frame information.
 
-
 ### -param entriesCount [in, out]
 
-A pointer to a variable that specifies the count of rows in the two-dimensional array to which penInfo points. If <b>GetPointerFramePenInfoHistory</b> succeeds,  <i>entriesCount</i> is updated with the total count of frames available in the history. 
-
+A pointer to a variable that specifies the count of rows in the two-dimensional array to which penInfo points. If <b>GetPointerFramePenInfoHistory</b> succeeds,  <i>entriesCount</i> is updated with the total count of frames available in the history.
 
 ### -param pointerCount [in, out]
 
-A pointer to a variaable that specifies the count of columns in the two-dimensional array to which penInfo points. If <b>GetPointerFramePenInfoHistory</b> succeeds, <i>pointerCount</i> is updated with  the total count of pointers in each frame. 
-
+A pointer to a variaable that specifies the count of columns in the two-dimensional array to which penInfo points. If <b>GetPointerFramePenInfoHistory</b> succeeds, <i>pointerCount</i> is updated with  the total count of pointers in each frame.
 
 ### -param penInfo [out, optional]
 
@@ -80,21 +73,13 @@ Address of a two-dimensional array of <a href="https://docs.microsoft.com/window
 
 This array is interpreted as POINTER_PEN_INFO[*entriesCount][*pointerCount].
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Parallel-mode devices may report pointer input in frames, that is, they may report the state and position of all pointers from that device in a single input report to the system. Ideally, applications should view the entire frame as a single input unless the application-specific requirements dictate otherwise. 
 
@@ -133,14 +118,7 @@ We recommend the following if you want to filter data from the input frame:
 <li>For each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UP</a>, use the tracking info to determine whether the input is client or non-client and then clear this pointer from the tracking data.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
@@ -155,7 +133,4 @@ We recommend the following if you want to filter data from the input frame:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfohistory">GetPointerPenInfoHistory</a>
- 
-
- 
 

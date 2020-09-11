@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: aed8b23e-71fd-49e6-aae9-006a59e0111b
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResourceCollection, IXpsOMImageResourceCollection interface [XPS Documents and Packaging], IXpsOMImageResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomimageresourcecollection, xpsobjectmodel/IXpsOMImageResourceCollection
-f1_keywords:
-- xpsobjectmodel/IXpsOMImageResourceCollection
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMImageResourceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMImageResourceCollection
+ - xpsobjectmodel/IXpsOMImageResourceCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMImageResourceCollection
 ---
 
 # IXpsOMImageResourceCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A collection  of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface pointers.
-
 
 ## -inheritance
 
@@ -137,22 +136,13 @@ Replaces an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmod
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 For more information about the collection methods, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a>
 
@@ -167,7 +157,4 @@ For more information about the collection methods, see <a href="https://docs.mic
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 0a265a0a-c109-4afc-a0ad-d3ee31757aa1
 ms.date: 12/05/2018
 ms.keywords: IOpcFactory, IOpcFactory interface [Open Packaging Conventions], IOpcFactory interface [Open Packaging Conventions],described, msopc/IOpcFactory, opc.iopcfactory
-f1_keywords:
-- msopc/IOpcFactory
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcFactory
+ - msopc/IOpcFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcFactory
 ---
 
 # IOpcFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates Packaging API objects and provides support for saving and loading packages.  Objects that are created by <b>IOpcFactory</b> interface methods provide support for creating, populating, modifying, and digitally signing packages.
-
 
 ## -inheritance
 
@@ -132,12 +131,9 @@ Serializes a package  that is represented by a package object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Do not use a stream to serialize package data when the same stream is being used to deserialize a package; attempting to do so may result in undefined behavior.
 
@@ -155,13 +151,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -220,7 +210,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

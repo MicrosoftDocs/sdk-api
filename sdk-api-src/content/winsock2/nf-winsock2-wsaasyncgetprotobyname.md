@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 747c40fd-5dc1-4533-896e-bc1c4368d7bd
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetProtoByName, WSAAsyncGetProtoByName function [Winsock], _win32_wsaasyncgetprotobyname_2, winsock.wsaasyncgetprotobyname_2, winsock/WSAAsyncGetProtoByName
-f1_keywords:
-- winsock2/WSAAsyncGetProtoByName
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAAsyncGetProtoByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAsyncGetProtoByName
+ - winsock2/WSAAsyncGetProtoByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAAsyncGetProtoByName
 ---
 
 # WSAAsyncGetProtoByName function
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAAsyncGetProtoByName</b> function asynchronously retrieves protocol information that corresponds to a protocol name.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Handle of the window that will receive a message when the asynchronous request completes.
 
-
 ### -param wMsg [in]
 
 Message to be received when the asynchronous request completes.
 
-
 ### -param name [in]
 
 Pointer to the null-terminated protocol name to be resolved.
-
 
 ### -param buf [out]
 
@@ -82,15 +75,11 @@ Pointer to the data area to receive the
 <b>protoent</b> structure and all of the data that is referenced by members of the 
 <b>protoent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
-
 ### -param buflen [out]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
 
-
 ## -returns
-
-
 
 The return value specifies whether or not the asynchronous operation was successfully initiated. It does not imply success or failure of the operation itself.
 
@@ -214,14 +203,8 @@ The following errors can occur at the time of the function call, and indicate th
 <td>The asynchronous operation cannot be scheduled at this time due to resource or other constraints within the Windows Sockets implementation.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAAsyncGetProtoByName</b> function is an asynchronous version of 
@@ -255,13 +238,7 @@ The error code and buffer length should be extracted from the <i>lParam</i> usin
 
 The use of these macros will maximize the portability of the source code for the application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest">WSACancelAsyncRequest</a>
 
@@ -276,7 +253,4 @@ The use of these macros will maximize the portability of the source code for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getprotobyname">getprotobyname</a>
- 
-
- 
 

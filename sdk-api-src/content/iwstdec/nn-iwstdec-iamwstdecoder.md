@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f2f5a459-14de-4be1-909c-3c23e4cfd737
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], IAMWstDecoder interface [DirectShow],described, IAMWstDecoderInterface, dshow.iamwstdecoder, iwstdec/IAMWstDecoder
-f1_keywords:
-- iwstdec/IAMWstDecoder
-dev_langs:
-- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMWstDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMWstDecoder
+ - iwstdec/IAMWstDecoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMWstDecoder
 ---
 
 # IAMWstDecoder interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMWstDecoder</code> interface sets and retrieves information about World Standard Teletext (WST). The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wst-decoder-filter">WST Decoder</a> filter implements this interface.
-
-
-
 
 ## -inheritance
 
@@ -234,5 +230,5 @@ Sets closed captioning on or off.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ca87cdc3-e233-4efc-81c0-918e5a698af5
 ms.date: 12/05/2018
 ms.keywords: GatherWriterStatus, GatherWriterStatus method [VSS], GatherWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterStatus method, IVssBackupComponents.GatherWriterStatus, IVssBackupComponents::GatherWriterStatus, _win32_ivssbackupcomponents_gatherwriterstatus, base.ivssbackupcomponents_gatherwriterstatus, vsbackup/IVssBackupComponents::GatherWriterStatus
-f1_keywords:
-- vsbackup/IVssBackupComponents.GatherWriterStatus
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.GatherWriterStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::GatherWriterStatus
+ - vsbackup/IVssBackupComponents::GatherWriterStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.GatherWriterStatus
 ---
 
 # IVssBackupComponents::GatherWriterStatus
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GatherWriterStatus</b> method prompts each writer to send a status message.
 
-
 ## -parameters
-
-
-
 
 ### -param pAsync [out]
 
 Doubly indirect pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing the writer status data.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -160,14 +153,8 @@ The writer infrastructure is not operating properly. Check that the Event Servic
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller of this method should also call 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">IVssBackupComponents::FreeWriterStatus</a> after receiving the status of each writer.
@@ -182,13 +169,7 @@ The
 The caller is responsible for releasing the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -207,7 +188,4 @@ The caller is responsible for releasing the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">IVssBackupComponents::FreeWriterStatus</a>
- 
-
- 
 

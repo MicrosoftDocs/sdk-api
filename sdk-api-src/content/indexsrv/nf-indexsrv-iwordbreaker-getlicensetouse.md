@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\getlicensetouse.htm
 ms.date: 12/05/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IWordBreaker interface, IWordBreaker interface [search],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _search_IWordBreaker_GetLicenseToUse, indexsrv/IWordBreaker::GetLicenseToUse, search._search_IWordBreaker_GetLicenseToUse
-f1_keywords:
-- indexsrv/IWordBreaker.GetLicenseToUse
-dev_langs:
-- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Indexsrv.h
-api_name:
-- IWordBreaker.GetLicenseToUse
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack
 ms.custom: 19H1
+f1_keywords:
+ - IWordBreaker::GetLicenseToUse
+ - indexsrv/IWordBreaker::GetLicenseToUse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Indexsrv.h
+api_name:
+ - IWordBreaker.GetLicenseToUse
 ---
 
 # IWordBreaker::GetLicenseToUse
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the license information for this implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param ppwcsLicense [out]
 
@@ -64,14 +60,9 @@ Type: <b>WCHAR const**</b>
 
 Pointer to a variable that receives a pointer to the license information for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementation.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

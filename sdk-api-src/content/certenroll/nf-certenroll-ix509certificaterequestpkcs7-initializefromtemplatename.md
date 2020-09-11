@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d6c15fcb-1883-4d87-af29-721102676535
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs7.InitializeFromTemplateName, IX509CertificateRequestPkcs7::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName, security.ix509certificaterequestpkcs7_initializefromtemplatename_method
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs7.InitializeFromTemplateName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs7.InitializeFromTemplateName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs7::InitializeFromTemplateName
+ - certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs7.InitializeFromTemplateName
 ---
 
 # IX509CertificateRequestPkcs7::InitializeFromTemplateName
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromTemplateName</b> method initializes the certificate request by using a template.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
 
-
 ### -param strTemplateName [in]
 
 A  <b>BSTR</b> variable that contains the Common Name (CN) of the template as it appears in Active Directory or the dotted decimal <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -94,14 +86,8 @@ The certificate request object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>InitializeFromTemplateName</b> method creates a PKCS #7 request object and sets the following properties to the values that existed before this method was called:
 
@@ -172,16 +158,7 @@ If the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-cer
 
 Finally, the method sets the initialized PKCS #10 request as the inner request object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
- 
-
- 
 

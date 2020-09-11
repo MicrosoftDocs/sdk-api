@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ip1.htm
 ms.date: 12/05/2018
 ms.keywords: FaxInitializeEventQueueA, FaxInitializeEventQueueW, PFAXINITIALIZEEVENTQUEUE, PFAXINITIALIZEEVENTQUEUE callback, PFAXINITIALIZEEVENTQUEUE callback function [Fax Service], _mfax_faxinitializeeventqueue, fax._mfax_faxinitializeeventqueue, winfax/FaxInitializeEventQueueA, winfax/FaxInitializeEventQueueW, winfax/PFAXINITIALIZEEVENTQUEUE
-f1_keywords:
-- winfax/PFAXINITIALIZEEVENTQUEUE
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winfax.h
-api_name:
-- PFAXINITIALIZEEVENTQUEUE
-- FaxInitializeEventQueueA
-- FaxInitializeEventQueueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFAXINITIALIZEEVENTQUEUE
+ - winfax/PFAXINITIALIZEEVENTQUEUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winfax.h
+api_name:
+ - PFAXINITIALIZEEVENTQUEUE
+ - FaxInitializeEventQueueA
+ - FaxInitializeEventQueueW
 ---
 
 # PFAXINITIALIZEEVENTQUEUE callback function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxInitializeEventQueue</b> function creates a fax event queue for the calling fax client application. The queue enables the application to receive notifications of asynchronous events from the fax server.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
 Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
-
 
 ### -param CompletionPort [in]
 
@@ -77,20 +72,17 @@ Specifies a valid handle to an I/O completion port returned by a call to the <a 
 
 For information about I/O completion ports, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>.
 
-
 ### -param CompletionKey [in]
 
 Type: <b>ULONG_PTR</b>
 
 Specifies a variable that contains a completion key value the fax server includes in each I/O completion packet. This parameter is required for notification using I/O completion packets. This parameter must be <b>NULL</b> if you specify notification messages. For more information, see the following Remarks section.
 
-
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
 Handle to a window of the fax client application to notify when an asynchronous event occurs. This parameter is required for notification messages. This parameter must be <b>NULL</b> if you specify notification using I/O completion packets.
-
 
 ### -param MessageStart [in]
 
@@ -102,10 +94,7 @@ Specifies an unsigned integer that identifies the application's base window mess
 
 This parameter is required for notification messages. This parameter must be equal to zero if you specify notification using I/O completion packets.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -163,14 +152,8 @@ An error occurred during memory allocation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application can specify how the fax server should inform the client application of events. The application can request that the fax server queue I/O completion packets to an I/O completion port, or it can specify notification messages.
 
@@ -182,13 +165,7 @@ After a fax client application receives the <b>FEI_FAXSVC_ENDED</b> message, it 
 
 For a list of the asynchronous events that can occur within the fax server, see the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_eventa">FAX_EVENT</a> topic.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
 
@@ -227,7 +204,4 @@ For a list of the asynchronous events that can occur within the fax server, see 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects">WaitForMultipleObjects</a>
- 
-
- 
 

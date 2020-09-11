@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 8F7ACE7E-4B44-448A-A3BB-4563DDC9C34E
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl, IHeaderCtrl interface [MMC], IHeaderCtrl interface [MMC],described, mmc.iheaderctrl, mmc/IHeaderCtrl
-f1_keywords:
-- mmc/IHeaderCtrl
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IHeaderCtrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHeaderCtrl
+ - mmc/IHeaderCtrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IHeaderCtrl
 ---
 
 # IHeaderCtrl interface
 
 
 ## -description
-
 
 <div class="alert"><b>Note</b>  This interface is obsolete, and only used in MMC 1.0.</div><div> </div>Enables the manipulation of columns and indicates the kind of information that is to be presented in the result view pane of the console.
 
@@ -58,7 +58,6 @@ The
 <b>IHeaderCtrl</b> interface can be queried from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a> interface passed into 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a> during the component's creation.
-
 
 ## -inheritance
 
@@ -129,16 +128,9 @@ Sets the width of a specified column.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
- 
-
- 
 

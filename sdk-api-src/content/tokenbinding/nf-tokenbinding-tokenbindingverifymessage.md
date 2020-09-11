@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: D6827DA3-75DC-4F31-B57A-4ED5B5F03112
 ms.date: 12/05/2018
 ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Security], security.tokenbindingverifymessage, tokenbinding/TokenBindingVerifyMessage
-f1_keywords:
-- tokenbinding/TokenBindingVerifyMessage
-dev_langs:
-- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll (user mode); Ksecdd.sys (kernel mode)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- tokenbinding.dll
-- Ksecdd.sys
-api_name:
-- TokenBindingVerifyMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TokenBindingVerifyMessage
+ - tokenbinding/TokenBindingVerifyMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - tokenbinding.dll
+ - Ksecdd.sys
+api_name:
+ - TokenBindingVerifyMessage
 ---
 
 # TokenBindingVerifyMessage function
@@ -50,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Validates the token binding message and verifies the token bindings that the message contains.
 
-
 ## -parameters
-
-
-
 
 ### -param tokenBindingMessage [in]
 
 A pointer to the buffer that contains the token binding message.
 
-
 ### -param tokenBindingMessageSize [in]
 
 The size of the buffer that the <i>tokenBindingMessage</i> parameter points to, in bytes.
-
 
 ### -param keyType [in]
 
 The negotiated key algorithm to use. Use a value from the list of key types that you retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesserver">TokenBindingGetKeyTypesServer</a> function.
 
-
 ### -param tlsEKM [in]
 
 A pointer to a buffer that contains unique data.
 
-
 ### -param tlsEKMSize [in]
 
 The size of the buffer that the <i>tlsUnique</i> parameter points to, in bytes.
-
 
 ### -param resultList [out]
 
@@ -90,29 +81,15 @@ A pointer that receives the address for the buffer that contains the results for
 
 In user mode, use <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> to allocate the memory for the buffer, and <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> to free that memory. In kernel mode, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>  to allocate the memory for the buffer, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a> to free that memory.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
-
-
-
 ## -remarks
-
-
 
 You can call <b>TokenBindingVerifyMessage</b> from both user mode and kernel mode. o call this function in kernel mode,  link to Ksecdd.sys, and use the functions mentioned in the description for the <i>resultList</i> parameter for allocating and freeing memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
@@ -131,7 +108,4 @@ You can call <b>TokenBindingVerifyMessage</b> from both user mode and kernel mod
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesserver">TokenBindingGetKeyTypesServer</a>
- 
-
- 
 

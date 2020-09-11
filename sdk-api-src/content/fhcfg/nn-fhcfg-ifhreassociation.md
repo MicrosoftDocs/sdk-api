@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: B1CBD7DD-5B4D-4B3E-BE7D-B6497ABFB588
 ms.date: 12/05/2018
 ms.keywords: IFhReassociation, IFhReassociation interface [Windows API], IFhReassociation interface [Windows API],described, fhcfg/IFhReassociation, winprog.ifhreassociation
-f1_keywords:
-- fhcfg/IFhReassociation
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhReassociation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhReassociation
+ - fhcfg/IFhReassociation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhReassociation
 ---
 
 # IFhReassociation interface
 
 
 ## -description
-
 
 This interface allows client applications to reassociate a File History configuration from a File History target with the current user. Reassociation serves two purposes:<ul>
 <li>It allows the user to access the data that was backed up to the target in the past, possibly from a different computer or under a different account.</li>
@@ -118,5 +118,5 @@ Selects one of the File History configurations discovered on a storage device or
 
 </td>
 </tr>
-</table> 
+</table>
 

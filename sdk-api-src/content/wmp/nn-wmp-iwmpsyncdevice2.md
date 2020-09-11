@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: b47fc5ea-741d-4e47-baad-afeb659f1079
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice2, IWMPSyncDevice2 interface [Windows Media Player], IWMPSyncDevice2 interface [Windows Media Player],described, IWMPSyncDevice2Interface, wmp.iwmpsyncdevice2, wmp/IWMPSyncDevice2
-f1_keywords:
-- wmp/IWMPSyncDevice2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPSyncDevice2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice2
+ - wmp/IWMPSyncDevice2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPSyncDevice2
 ---
 
 # IWMPSyncDevice2 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPSyncDevice2</b> interface provides a method that supplements the <b>IWMPSyncDevice</b> interface.
 
 To use this interface, you must create a remoted instance of the Windows Media Player 10 or later control.
-
-
-
 
 ## -inheritance
 
@@ -85,13 +81,8 @@ Specifies an attribute value for a device.
 </table> 
 
 Retrieve a pointer to <b>IWMPSyncDevice2</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice</a>.
-	
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice</a>
 
@@ -102,7 +93,4 @@ Retrieve a pointer to <b>IWMPSyncDevice2</b> by calling <b>QueryInterface</b> th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 50d8c1f2-11c3-41d8-b935-a8f296d2c18f
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzTask object, AddPropertyItem method [Security],IAzTask interface, AzTask object [Security],AddPropertyItem method, IAzTask interface [Security],AddPropertyItem method, IAzTask.AddPropertyItem, IAzTask::AddPropertyItem, azroles/IAzTask::AddPropertyItem, security.iaztask_addpropertyitem
-f1_keywords:
-- azroles/IAzTask.AddPropertyItem
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzTask.AddPropertyItem
-- AzTask.AddPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzTask::AddPropertyItem
+ - azroles/IAzTask::AddPropertyItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzTask.AddPropertyItem
+ - AzTask.AddPropertyItem
 ---
 
 # IAzTask::AddPropertyItem
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddPropertyItem</b> method adds the specified entity to the specified list.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -89,8 +85,6 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varProp [in]
 
@@ -98,26 +92,15 @@ Name of the entity to add to the list  specified by the <i>lPropId</i> parameter
 
 The variant must be a <b>BSTR</b> variant.
 
-
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
 
-
-
-
 ## -remarks
 
-
-
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
-
-
 

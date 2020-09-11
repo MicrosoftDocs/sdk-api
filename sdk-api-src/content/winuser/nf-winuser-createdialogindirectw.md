@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirect.htm
 ms.date: 12/05/2018
 ms.keywords: CreateDialogIndirect, CreateDialogIndirect function [Dialog Boxes], CreateDialogIndirectA, CreateDialogIndirectW, _win32_CreateDialogIndirect, _win32_createdialogindirect_cpp, dlgbox.createdialogindirect, winui._win32_createdialogindirect, winuser/CreateDialogIndirect, winuser/CreateDialogIndirectA, winuser/CreateDialogIndirectW
-f1_keywords:
-- winuser/CreateDialogIndirect
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- CreateDialogIndirect
-- CreateDialogIndirectA
-- CreateDialogIndirectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDialogIndirectW
+ - winuser/CreateDialogIndirectW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - CreateDialogIndirect
+ - CreateDialogIndirectA
+ - CreateDialogIndirectW
 ---
 
 # CreateDialogIndirectW macro
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a modeless dialog box from a dialog box template in memory. The <b>CreateDialogIndirect</b> macro uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirectparama">CreateDialogIndirectParam</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstance [in, optional]
 
 Type: <b>HINSTANCE</b>
 
 A handle to the module that creates the dialog box.
-
 
 ### -param lpTemplate [in]
 
@@ -78,8 +73,7 @@ In a standard template, the header is a <a href="https://docs.microsoft.com/wind
 
 In an extended dialog box template, the header uses the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex">DLGTEMPLATEEX</a> format and the control definitions use the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgitemtemplateex">DLGITEMTEMPLATEEX</a> format.
 
-After <b>CreateDialogIndirect</b> returns, you can free the template, which is only used to get the dialog box started. 
-
+After <b>CreateDialogIndirect</b> returns, you can free the template, which is only used to get the dialog box started.
 
 ### -param hWndParent [in, optional]
 
@@ -87,17 +81,13 @@ Type: <b>HWND</b>
 
 A handle to the window that owns the dialog box.
 
-
 ### -param lpDialogFunc [in, optional]
 
 Type: <b>DLGPROC</b>
 
-A pointer to the dialog box procedure. For more information about the dialog box procedure, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>. 
-
+A pointer to the dialog box procedure. For more information about the dialog box procedure, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>.
 
 ## -remarks
-
-
 
 The <b>CreateDialogIndirect</b> macro uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function to create the dialog box. <b>CreateDialogIndirect</b> then sends a <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message to the dialog box procedure. If the template specifies the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/about-dialog-boxes">DS_SETFONT</a> or DS_SHELLFONT style, the function also sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a> message to the dialog box procedure. The function displays the dialog box if the template specifies the WS_VISIBLE style. Finally, <b>CreateDialogIndirect</b> returns the window handle to the dialog box. 
 
@@ -117,9 +107,6 @@ All character strings in the dialog box template, such as titles for the dialog 
 > The winuser.h header defines CreateDialogIndirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -194,7 +181,4 @@ All character strings in the dialog box template, such as titles for the dialog 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
- 
-
- 
 

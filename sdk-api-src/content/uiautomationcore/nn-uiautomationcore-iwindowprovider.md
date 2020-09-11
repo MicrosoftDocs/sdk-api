@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: cf09ad4e-fd5b-4304-b5fb-165205bff1f3
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], IWindowProvider interface [Windows Accessibility],described, uiauto.uiauto_IWindowProvider, uiauto_IWindowProvider, uiautomationcore/IWindowProvider, winauto.uiauto_IWindowProvider
-f1_keywords:
-- uiautomationcore/IWindowProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IWindowProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowProvider
+ - uiautomationcore/IWindowProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IWindowProvider
 ---
 
 # IWindowProvider interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides 
         access to the fundamental window-based functionality of a control.
-
 
 ## -inheritance
 
@@ -203,26 +202,13 @@ Specifies the visual state of the window; that is, whether the window is normal 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingwindow">Window</a> control pattern.
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

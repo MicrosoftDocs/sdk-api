@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 7e7d618b-2e64-4b0b-aed3-f3221b0443ca
 ms.date: 12/05/2018
 ms.keywords: GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameExW, _win32_getusernameex, base.getusernameex, secext/GetUserNameEx, secext/GetUserNameExA, secext/GetUserNameExW
-f1_keywords:
-- secext/GetUserNameEx
-dev_langs:
-- c++
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-- sspicli.dll
-api_name:
-- GetUserNameEx
-- GetUserNameExA
-- GetUserNameExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUserNameExA
+ - secext/GetUserNameExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+ - sspicli.dll
+api_name:
+ - GetUserNameEx
+ - GetUserNameExA
+ - GetUserNameExW
 ---
 
 # GetUserNameExA function
@@ -52,28 +53,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name.
 
 If the thread is impersonating a client, 
 <b>GetUserNameEx</b> returns the name of the client.
 
-
 ## -parameters
-
-
-
 
 ### -param NameFormat [in]
 
 The format of the name. This parameter is a value from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be <b>NameUnknown</b>. If the user account is not in a domain, only <b>NameSamCompatible</b> is supported.
 
-
 ### -param lpNameBuffer [out]
 
 A pointer to a buffer that receives the name in the specified format. The buffer must include space for the terminating null character.
-
 
 ### -param nSize [in, out]
 
@@ -84,10 +78,7 @@ On input, this variable specifies the size of the <i>lpNameBuffer</i> buffer, in
 
 If <i>lpNameBuffer</i> is too small, the function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA. This parameter receives the required buffer size, in Unicode characters (whether or not Unicode is being used), including the terminating null character.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
@@ -133,15 +124,8 @@ The user name is not available in the specified format.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a>
 
@@ -152,9 +136,6 @@ The user name is not available in the specified format.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
- 
-
- 
 
 ## -remarks
 

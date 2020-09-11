@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mchittestinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PMCHITTESTINFO, MCHITTESTINFO, MCHITTESTINFO structure [Windows Controls], MCHT_CALENDARBK, MCHT_CALENDARCONTROL, MCHT_CALENDARDATE, MCHT_CALENDARDATEMAX, MCHT_CALENDARDATEMIN, MCHT_CALENDARDATENEXT, MCHT_CALENDARDATEPREV, MCHT_CALENDARDAY, MCHT_CALENDARWEEKNUM, MCHT_NOWHERE, MCHT_TITLEBK, MCHT_TITLEBTNNEXT, MCHT_TITLEBTNPREV, MCHT_TITLEMONTH, MCHT_TITLEYEAR, PMCHITTESTINFO, PMCHITTESTINFO structure pointer [Windows Controls], _win32_MCHITTESTINFO, _win32_MCHITTESTINFO_cpp, commctrl/MCHITTESTINFO, commctrl/PMCHITTESTINFO, controls.MCHITTESTINFO, controls._win32_MCHITTESTINFO'
-f1_keywords:
-- commctrl/MCHITTESTINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MCHITTESTINFO
 targetos: Windows
 req.typenames: MCHITTESTINFO, *PMCHITTESTINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PMCHITTESTINFO
+ - commctrl/PMCHITTESTINFO
+ - MCHITTESTINFO
+ - commctrl/MCHITTESTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MCHITTESTINFO
 ---
 
 # MCHITTESTINFO structure
@@ -49,28 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-hittest">MCM_HITTEST</a> message and the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-monthcal_hittest">MonthCal_HitTest</a> macro. 
-
+Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-hittest">MCM_HITTEST</a> message and the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-monthcal_hittest">MonthCal_HitTest</a> macro.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The size of this structure, in bytes. 
-
+The size of this structure, in bytes.
 
 ### -field pt
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-Point to be hit-tested. 
-
+Point to be hit-tested.
 
 ### -field uHit
 
@@ -236,15 +232,12 @@ The given point was in a month's title bar, over the year value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field st
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
-Receives date and time information specific to the location that was hit-tested. 
-
+Receives date and time information specific to the location that was hit-tested.
 
 ### -field rc
 
@@ -252,13 +245,11 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 Hit-tested location.
 
-
 ### -field iOffset
 
 Type: <b>int</b>
 
 When displaying more than one calendar, this is the offset of the calendar at the hit-tested point (zero-based).
-
 
 ### -field iRow
 
@@ -266,19 +257,13 @@ Type: <b>int</b>
 
 The row number for the calendar grid that the given hit point was over.  Example: If you hit-tested the 8th of a month, which is in the second week of the month, <b>iRow</b> will be one since the index of the row is zero-based row index.
 
-
 ### -field iCol
 
 Type: <b>int</b>
 
 The column number for the calendar grid that the given point was over. For example, if your week starts on Sunday and the 1st of the month is Friday, hit testing the 1st will return five (5) for <b>iCol</b>, since Friday is in the fifth column from the beginning of the row, using a zero-based column index.
 
-
 ## -remarks
 
-
-
 Columns and rows in this control use a zero-based index system, that is, the first column or row has an index of zero.
-
-
 

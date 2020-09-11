@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 562d2db6-ae14-47c9-8b8f-d4d90072b3dd
 ms.date: 12/05/2018
 ms.keywords: GetBufferSize, GetBufferSize method [Core Audio], GetBufferSize method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetBufferSize method, IAudioClient.GetBufferSize, IAudioClient::GetBufferSize, IAudioClientGetBufferSize, audioclient/IAudioClient::GetBufferSize, coreaudio.iaudioclient_getbuffersize
-f1_keywords:
-- audioclient/IAudioClient.GetBufferSize
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient.GetBufferSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient::GetBufferSize
+ - audioclient/IAudioClient::GetBufferSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient.GetBufferSize
 ---
 
 # IAudioClient::GetBufferSize
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetBufferSize</b> method retrieves the size (maximum capacity) of the endpoint buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pNumBufferFrames [out]
 
 Pointer to a <b>UINT32</b> variable into which the method writes the number of audio frames that the buffer can hold.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -122,14 +112,8 @@ Parameter <i>pNumBufferFrames</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method requires prior initialization of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
@@ -150,12 +134,7 @@ For code examples that call the <b>GetBufferSize</b> method, see the following t
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
@@ -166,7 +145,4 @@ For code examples that call the <b>GetBufferSize</b> method, see the following t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
- 
-
- 
 

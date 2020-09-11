@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 82817b72-fde5-492e-b197-87bf145d0be9
 ms.date: 12/05/2018
 ms.keywords: IWMProfile interface [windows Media Format],RemoveStream method, IWMProfile.RemoveStream, IWMProfile2 interface [windows Media Format],RemoveStream method, IWMProfile2::RemoveStream, IWMProfile3 interface [windows Media Format],RemoveStream method, IWMProfile3::RemoveStream, IWMProfile::RemoveStream, IWMProfileRemoveStream, RemoveStream, RemoveStream method [windows Media Format], RemoveStream method [windows Media Format],IWMProfile interface, RemoveStream method [windows Media Format],IWMProfile2 interface, RemoveStream method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_removestream, wmsdkidl/IWMProfile2::RemoveStream, wmsdkidl/IWMProfile3::RemoveStream, wmsdkidl/IWMProfile::RemoveStream
-f1_keywords:
-- wmsdkidl/IWMProfile.RemoveStream
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMProfile.RemoveStream
-- IWMProfile2.RemoveStream
-- IWMProfile3.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile::RemoveStream
+ - wmsdkidl/IWMProfile::RemoveStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMProfile.RemoveStream
+ - IWMProfile2.RemoveStream
+ - IWMProfile3.RemoveStream
 ---
 
 # IWMProfile::RemoveStream
@@ -55,26 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>RemoveStream</b> method removes a stream from the profile.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pConfig [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface of the stream configuration object that describes the stream you want to remove.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -117,15 +107,8 @@ The <i>pConfig</i> parameter is <b>NULL</b> or not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
@@ -144,7 +127,4 @@ The <i>pConfig</i> parameter is <b>NULL</b> or not valid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-removestreambynumber">IWMProfile::RemoveStreamByNumber</a>
- 
-
- 
 

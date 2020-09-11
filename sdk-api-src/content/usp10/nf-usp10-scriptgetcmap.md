@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 577c356d-a22d-422c-bec7-cfbc228f1066
 ms.date: 12/05/2018
 ms.keywords: SGCM_RTL, ScriptGetCMap, ScriptGetCMap function [Internationalization for Windows Applications], _win32_ScriptGetCMap, intl.scriptgetcmap, usp10/ScriptGetCMap
-f1_keywords:
-- usp10/ScriptGetCMap
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- usp10.dll
-- Ext-MS-Win-usp10-l1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptGetCMap
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - ScriptGetCMap
+ - usp10/ScriptGetCMap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - usp10.dll
+ - Ext-MS-Win-usp10-l1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptGetCMap
 ---
 
 # ScriptGetCMap function
@@ -52,34 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the glyph indexes of the Unicode characters in a string according to either the TrueType cmap table or the standard cmap table implemented for old-style fonts.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Optional. Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
 
-
 ### -param psc [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
-
 
 ### -param pwcInChars [in]
 
 Pointer to a string of Unicode characters.
 
-
 ### -param cChars [in]
 
 Number of Unicode characters in the string indicated by <i>pwcInChars</i>.
-
 
 ### -param dwFlags [in]
 
@@ -101,17 +93,12 @@ The glyph array indicated by <i>pwOutGlyphs</i> should contain mirrored glyphs f
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwOutGlyphs [out]
 
 Pointer to a buffer in which the function retrieves an array of glyph indexes. This buffer should be of the same length as the input buffer indicated by <i>pwcInChars</i>. Each code point maps to a single glyph.
 
-
 ## -returns
-
-
 
 Returns S_OK if all Unicode code points are present in the font. The function returns one of the nonzero HRESULT values listed below if it does not succeed.
             
@@ -130,14 +117,8 @@ Returns S_OK if all Unicode code points are present in the font. The function re
 <td>Some of the Unicode code points were mapped to the default glyph.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
@@ -152,12 +133,7 @@ Some code points can be rendered by a combination of glyphs, as well as by a sin
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
@@ -180,7 +156,4 @@ Some code points can be rendered by a combination of glyphs, as well as by a sin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

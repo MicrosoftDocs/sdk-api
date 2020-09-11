@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 542735C4-BFDE-4EA9-9595-BA30BD06422B
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],UpdateTileMappings method, ID3D11DeviceContext2.UpdateTileMappings, ID3D11DeviceContext2::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method [Direct3D 11], UpdateTileMappings method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::UpdateTileMappings, direct3d11.id3d11devicecontext2_updatetilemappings
-f1_keywords:
-- d3d11_2/ID3D11DeviceContext2.UpdateTileMappings
-dev_langs:
-- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext2.UpdateTileMappings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext2::UpdateTileMappings
+ - d3d11_2/ID3D11DeviceContext2::UpdateTileMappings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext2.UpdateTileMappings
 ---
 
 # ID3D11DeviceContext2::UpdateTileMappings
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates mappings of tile locations in tiled resources to memory locations in a tile pool.
 
-
 ## -parameters
-
-
-
 
 ### -param pTiledResource [in]
 
@@ -65,29 +61,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 A pointer to the tiled resource.
 
-
 ### -param NumTiledResourceRegions [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of tiled resource regions.
 
-
 ### -param pTiledResourceRegionStartCoordinates [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tiled_resource_coordinate">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tiled_resource_coordinate">D3D11_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILED_RESOURCE_COORDINATE</b> structures in the array.
-        
-
 
 ### -param pTiledResourceRegionSizes [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tile_region_size">D3D11_TILE_REGION_SIZE</a>*</b>
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tile_region_size">D3D11_TILE_REGION_SIZE</a> structures that describe the sizes of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILE_REGION_SIZE</b> structures in the array.
-        
-
 
 ### -param pTilePool [in, optional]
 
@@ -95,27 +85,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 A pointer to the tile pool.
 
-
 ### -param NumRanges [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of tile-pool ranges.
 
-
 ### -param pRangeFlags [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ne-d3d11_2-d3d11_tile_range_flag">D3D11_TILE_RANGE_FLAG</a> values that describe each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array. 
-
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ne-d3d11_2-d3d11_tile_range_flag">D3D11_TILE_RANGE_FLAG</a> values that describe each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array.
 
 ### -param pTilePoolStartOffsets [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 An array of offsets into the tile pool. These are 0-based tile offsets, counting in tiles (not bytes).
-
 
 ### -param pRangeTileCounts [in, optional]
 
@@ -124,20 +110,14 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windo
 An array of tiles. 
 
 An array of values that specify the number of tiles in each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array.
-        
-
 
 ### -param Flags [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ne-d3d11_2-d3d11_tile_mapping_flag">D3D11_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
-        
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -154,11 +134,7 @@ Returns S_OK if successful; otherwise, returns one of the following:
             </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 In a single call to <b>UpdateTileMappings</b>, you can map one or more ranges of resource tiles to one or more ranges of tile-pool tiles. 
 
@@ -408,17 +384,7 @@ CopyTileMappings
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
- 
-
- 
 

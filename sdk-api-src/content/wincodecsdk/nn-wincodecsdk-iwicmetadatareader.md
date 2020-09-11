@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 0495ecf1-128a-4576-8420-0e79f1454015
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], IWICMetadataReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatareader, wic._wic_codec_iwicmetadatareader, wincodecsdk/IWICMetadataReader
-f1_keywords:
-- wincodecsdk/IWICMetadataReader
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataReader
+ - wincodecsdk/IWICMetadataReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataReader
 ---
 
 # IWICMetadataReader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide access to underlining metadata content. This interface is implemented by independent software vendors (ISVs) to create new metadata readers.
-
 
 ## -inheritance
 
@@ -122,22 +121,13 @@ Gets the metadata item at the given index.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A metadata reader can be used to access metadata blocks and items within a metadata block instead of using a query reader. To directly access the metadata reader, query a decoder or its frames for the <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader">IWICMetadataBlockReader</a> interface to enumerate each metadata reader.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -156,7 +146,4 @@ A metadata reader can be used to access metadata blocks and items within a metad
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
- 
-
- 
 

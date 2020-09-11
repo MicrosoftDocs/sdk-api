@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: cmpapi
+f1_keywords:
+ - compressapi
+ - compressapi/compressapi
 ---
 
 # Compressapi.h header
 
 
 ## -description
-
 
 This header is used by Compression API. For more information, see:
 

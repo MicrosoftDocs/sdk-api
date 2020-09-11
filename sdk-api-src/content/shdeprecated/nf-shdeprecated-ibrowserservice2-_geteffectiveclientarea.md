@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c0c53cd4-4b85-42d5-98c3-22ef46644a3f
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetEffectiveClientArea method, IBrowserService2._GetEffectiveClientArea, IBrowserService2::_GetEffectiveClientArea, _GetEffectiveClientArea, _GetEffectiveClientArea method [Windows Shell], _GetEffectiveClientArea method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetEffectiveClientArea, shell.IBrowserService2__GetEffectiveClientArea, zone_IBrowserService2__GetEffectiveClientArea
-f1_keywords:
-- shdeprecated/IBrowserService2._GetEffectiveClientArea
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._GetEffectiveClientArea
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_GetEffectiveClientArea
+ - shdeprecated/IBrowserService2::_GetEffectiveClientArea
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._GetEffectiveClientArea
 ---
 
 # IBrowserService2::_GetEffectiveClientArea
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Used with <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getviewborderrect">IBrowserService2::_GetViewBorderRect</a> to negotiate the dimensions of the browser view.
 
-
 ## -parameters
-
-
-
 
 ### -param lprectBorder [in, out]
 
@@ -65,36 +61,23 @@ Type: <b>LPRECT</b>
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure indicating the dimensions of the available client area.
 
-
 ### -param hmon [in]
 
 Type: <b>HMONITOR</b>
 
 The handle of the monitor on which the view is displayed.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/hmonitor-and-the-device-context">HMONITOR and the Device Context</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>
- 
-
- 
 

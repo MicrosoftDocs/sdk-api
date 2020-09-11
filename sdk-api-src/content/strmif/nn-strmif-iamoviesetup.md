@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b200dbee-bab7-43d7-a204-751592fa2405
 ms.date: 12/05/2018
 ms.keywords: IAMovieSetup, IAMovieSetup interface [DirectShow], IAMovieSetup interface [DirectShow],described, IAMovieSetupInterface, dshow.iamoviesetup, strmif/IAMovieSetup
-f1_keywords:
-- strmif/IAMovieSetup
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmif.h
-api_name:
-- IAMovieSetup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMovieSetup
+ - strmif/IAMovieSetup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmif.h
+api_name:
+ - IAMovieSetup
 ---
 
 # IAMovieSetup interface
@@ -49,12 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface has been deprecated. It is used by two obsolete functions, <a href="https://docs.microsoft.com/windows/desktop/DirectShow/amoviedllregisterserver">AMovieDllRegisterServer</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/amoviedllunregisterserver">AMovieDllUnregisterServer</a>. These functions are now replaced by <a href="https://docs.microsoft.com/windows/desktop/DirectShow/amoviedllregisterserver2">AMovieDllRegisterServer2</a>, which does not require <b>IAMovieSetup</b>. However, <b>IAMovieSetup</b> will continue to be supported for backward compatibility with existing applications.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -89,16 +86,9 @@ Removes the filter from the registry.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 63ef282c-d1ab-4ce9-a56b-209407c7839b
 ms.date: 12/05/2018
 ms.keywords: IWMLanguageList, IWMLanguageList interface [windows Media Format], IWMLanguageList interface [windows Media Format],described, IWMLanguageListInterface, wmformat.iwmlanguagelist, wmsdkidl/IWMLanguageList
-f1_keywords:
-- wmsdkidl/IWMLanguageList
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMLanguageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMLanguageList
+ - wmsdkidl/IWMLanguageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMLanguageList
 ---
 
 # IWMLanguageList interface
@@ -49,16 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMLanguageList</b> interface manages a list of languages supported by an ASF file. This interface supports both content and metadata in multiple languages.
 
 The <b>IWMLanguageList</b> interface is supported in the profile, writer, metadata editor, reader, and synchronous reader objects. A pointer to an instance of <b>IWMLanguageList</b> can be obtained by calling the <b>QueryInterface</b> method of any interface in one of the listed objects.
 
 <div class="alert"><b>Important</b>  Do not use this interface before opening the reader object.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -106,11 +103,7 @@ Retrieves the locale identifier (LCID) and RFC 1766-compliant tag for an entry i
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
 
-
-
 ## -remarks
-
-
 
 This interface provides support for referencing languages by a string compliant with RFC 1766 – Tags for the Identification of Languages. Other interfaces in this SDK refer to the languages supported in an ASF file by language index. A language index is assigned to every language added to the language list.
 
@@ -120,13 +113,7 @@ When using this interface to add metadata in multiple languages to an MP3 file, 
 
 For a list of common RFC 1766-compliant language identifiers, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/language-strings">Language Strings</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
@@ -149,7 +136,4 @@ For a list of common RFC 1766-compliant language identifiers, see <a href="https
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
- 
-
- 
 

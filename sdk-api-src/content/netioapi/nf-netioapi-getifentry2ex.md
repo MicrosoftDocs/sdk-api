@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 98C25986-1B38-4878-B578-3D30394F49E4
 ms.date: 12/05/2018
 ms.keywords: GetIfEntry2Ex, GetIfEntry2Ex function [IP Helper], MibIfEntryNormal, MibIfEntryNormalWithoutStatistics, iphlp.getifentry2ex, netioapi/GetIfEntry2Ex
-f1_keywords:
-- netioapi/GetIfEntry2Ex
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIfEntry2Ex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIfEntry2Ex
+ - netioapi/GetIfEntry2Ex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIfEntry2Ex
 ---
 
 # GetIfEntry2Ex function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIfEntry2Ex</b> function  retrieves the specified level of information for the specified interface on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Level [in]
 
@@ -91,18 +87,13 @@ The values of state (without statistics) returned in members of the <a href="htt
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Row [in, out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure that, on successful return, receives information for an interface on the local computer. On input, the <b>InterfaceLuid</b> or the <b>InterfaceIndex</b> member of the <b>MIB_IF_ROW2</b> must be set to the interface for which to retrieve information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -148,14 +139,8 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  
 <b>GetIfEntry2Ex</b> function retrieves information for a specified interface on a local system and returns this information in a pointer to a  
@@ -170,14 +155,7 @@ On output, the remaining fields of the <a href="https://docs.microsoft.com/windo
 
 Note that the <i>Netioapi.h</i> header file is automatically included in <i>Iphlpapi.h</i> header file, and should never be used directly.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>GetIfEntry</b>
 
@@ -216,7 +194,4 @@ Note that the <i>Netioapi.h</i> header file is automatically included in <i>Iphl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
- 
-
- 
 

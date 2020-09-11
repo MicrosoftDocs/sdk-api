@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: e261ea45-d084-490e-94b4-129bd76f6a04
 ms.date: 12/05/2018
 ms.keywords: GetFileInformationByHandleEx, GetFileInformationByHandleEx function [Files], fileextd/GetFileInformationByHandleEx, fs.getfileinformationbyhandleex, winbase/GetFileInformationByHandleEx
-f1_keywords:
-- winbase/GetFileInformationByHandleEx
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-api_name:
-- GetFileInformationByHandleEx
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 ms.custom: 19H1
+f1_keywords:
+ - GetFileInformationByHandleEx
+ - winbase/GetFileInformationByHandleEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+api_name:
+ - GetFileInformationByHandleEx
 ---
 
 # GetFileInformationByHandleEx function
 
 
 ## -description
-
 
 Retrieves file information for the specified file.
 
@@ -63,18 +63,13 @@ For a more basic version of this function for desktop apps, see
 To set file information using a file handle, see 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file that contains the information to be retrieved.
 
 This handle should not be a pipe handle.
-
 
 ### -param FileInformationClass [in]
 
@@ -83,22 +78,17 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinba
 
 For a table of valid values, see the Remarks section.
 
-
 ### -param lpFileInformation [out]
 
 A pointer to the buffer that receives the requested file information. The structure that is returned 
       corresponds to the class that is specified by <i>FileInformationClass</i>. For a table of 
       valid structure types, see the Remarks section.
 
-
 ### -param dwBufferSize [in]
 
 The size of the <i>lpFileInformation</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero and file information data is contained in the buffer 
        pointed to by the <i>lpFileInformation</i> parameter.
@@ -106,12 +96,7 @@ If the function succeeds, the return value is nonzero and file information data 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If <i>FileInformationClass</i> is <b>FileStreamInfo</b> and the calls 
     succeed but no streams are returned, the error that is returned by 
@@ -292,15 +277,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
@@ -311,7 +289,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
- 
-
- 
 

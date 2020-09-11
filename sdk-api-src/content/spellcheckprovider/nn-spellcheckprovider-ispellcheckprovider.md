@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], ISpellCheckProvider interface [Internationalization for Windows Applications],described, intl.ispellcheckprovider, spellcheckprovider/ISpellCheckProvider
-f1_keywords:
-- spellcheckprovider/ISpellCheckProvider
-dev_langs:
-- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheckprovider.h
-api_name:
-- ISpellCheckProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellCheckProvider
+ - spellcheckprovider/ISpellCheckProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheckprovider.h
+api_name:
+ - ISpellCheckProvider
 ---
 
 # ISpellCheckProvider interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a particular spell checker provider for a particular language, to be used by the spell checking infrastructure.
-
 
 ## -inheritance
 
@@ -195,16 +194,9 @@ Gets all of the declared option identifiers recognized by the spell checker.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckproviderfactory">ISpellCheckProviderFactory</a>
- 
-
- 
 

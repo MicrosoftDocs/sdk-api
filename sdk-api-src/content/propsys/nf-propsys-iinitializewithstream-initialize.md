@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1e04c0a4-aa9b-4e2c-8307-525809ca903f
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithStream interface [Windows Shell],Initialize method, IInitializeWithStream.Initialize, IInitializeWithStream::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithStream interface, STGM_READ, STGM_READWRITE, propsys/IInitializeWithStream::Initialize, shell.IInitializeWithStream_Initialize, shell_IInitializeWithStream_Initialize
-f1_keywords:
-- propsys/IInitializeWithStream.Initialize
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IInitializeWithStream.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitializeWithStream::Initialize
+ - propsys/IInitializeWithStream::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IInitializeWithStream.Initialize
 ---
 
 # IInitializeWithStream::Initialize
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a handler with a stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pstream [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents the stream source.
-
 
 ### -param grfMode [in]
 
@@ -83,21 +78,13 @@ The stream indicated by <i>pstream</i> is read-only.
 
 The stream indicated by <i>pstream</i> is read/write accessible.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is preferred to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iinitializewithfile-initialize">Initialize</a> due to its ability to use streams that are not accessible through a Win32 path, such as the contents of a compressed file with a .zip file name extension.
 
@@ -106,6 +93,4 @@ The stream pointed to by <i>pstream</i> must remain open for the lifetime of the
 When first opened, the source stream reference points to the beginning of the stream. The handler can seek and read from the stream at any time. A handler can be implemented to read all properties from the stream during <b>Initialize</b> or it can wait until the calling process attempts to enumerate or read properties before fetching them from the stream.
 
 A handler instance should be initialized only once in its lifetime. Attempts by the caller to reinitialize the handler should result in the error <code>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</code>.
-
-
 

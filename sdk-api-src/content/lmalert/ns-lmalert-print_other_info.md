@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: f2fd87bc-abde-43c0-b29d-d43cc5f038b8
 ms.date: 12/05/2018
 ms.keywords: '*LPPRINT_OTHER_INFO, *PPRINT_OTHER_INFO, LPPRINT_OTHER_INFO, LPPRINT_OTHER_INFO structure pointer [Network Management], PPRINT_OTHER_INFO, PPRINT_OTHER_INFO structure pointer [Network Management], PRINT_OTHER_INFO, PRINT_OTHER_INFO structure [Network Management], PRJOB_COMPLETE, PRJOB_DELETED, PRJOB_DESTNOPAPER, PRJOB_DESTOFFLINE, PRJOB_DESTPAUSED, PRJOB_ERROR, PRJOB_INTERV, PRJOB_NOTIFY, PRJOB_QS_PAUSED, PRJOB_QS_PRINTING, PRJOB_QS_QUEUED, PRJOB_QS_SPOOLING, _win32_print_other_info_str, lmalert/LPPRINT_OTHER_INFO, lmalert/PPRINT_OTHER_INFO, lmalert/PRINT_OTHER_INFO, netmgmt.print_other_info_str'
-f1_keywords:
-- lmalert/PRINT_OTHER_INFO
-dev_langs:
-- c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmalert.h
-api_name:
-- PRINT_OTHER_INFO
 targetos: Windows
 req.typenames: PRINT_OTHER_INFO, *PPRINT_OTHER_INFO, *LPPRINT_OTHER_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PRINT_OTHER_INFO
+ - lmalert/_PRINT_OTHER_INFO
+ - PPRINT_OTHER_INFO
+ - lmalert/PPRINT_OTHER_INFO
+ - PRINT_OTHER_INFO
+ - lmalert/PRINT_OTHER_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmalert.h
+api_name:
+ - PRINT_OTHER_INFO
 ---
 
 # PRINT_OTHER_INFO structure
@@ -49,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>PRINT_OTHER_INFO</b> structure contains information about a print job. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> functions use the 
 <b>PRINT_OTHER_INFO</b> structure to specify information when a job has finished printing, or when a printer needs intervention.
 
-
 ## -struct-fields
-
-
-
 
 ### -field alrtpr_jobid
 
 Type: <b>DWORD</b>
 
 The identification number of the print job.
-
 
 ### -field alrtpr_status
 
@@ -234,8 +233,6 @@ The printing job is being deleted.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field alrtpr_submitted
 
@@ -243,17 +240,13 @@ Type: <b>DWORD</b>
 
 The time at which the print job was submitted. This value is stored as the number of seconds that have elapsed since 00:00:00, January 1, 1970, GMT.
 
-
 ### -field alrtpr_size
 
 Type: <b>DWORD</b>
 
 The size, in bytes, of the print job.
 
-
 ## -remarks
-
-
 
 Additional variable-length data follows the 
 <b>PRINT_OTHER_INFO</b> structure in the alert message buffer. The information is in the form of contiguous null-terminated character strings, as follows.
@@ -294,13 +287,7 @@ The calling application must allocate and free the memory for all structures and
 See 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> for a code sample that demonstrates how to raise a print alert.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
@@ -335,7 +322,4 @@ See
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CryptUIDlgViewContext, CryptUIDlgViewContext function [Security], _crypto2_cryptuidlgviewcontext, cryptuiapi/CryptUIDlgViewContext, security.cryptuidlgviewcontext
-f1_keywords:
-- cryptuiapi/CryptUIDlgViewContext
-dev_langs:
-- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Cryptui.lib
 req.dll: Cryptui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptui.dll
-api_name:
-- CryptUIDlgViewContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptUIDlgViewContext
+ - cryptuiapi/CryptUIDlgViewContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptui.dll
+api_name:
+ - CryptUIDlgViewContext
 ---
 
 # CryptUIDlgViewContext function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptUIDlgViewContext</b> function displays a certificate, CTL, or CRL context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwContextType [in]
 
@@ -103,50 +99,32 @@ PCCTL_CONTEXT
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvContext [in]
 
 A pointer to a certificate, CRL, or CTL context to be displayed.
 
-
 ### -param hwnd [in]
 
 Handle of the window for the display. If <b>NULL</b>, the display defaults to the desktop window.
-
 
 ### -param pwszTitle [in]
 
 Display title string. If <b>NULL</b>, the default context type is used as the title.
 
-
 ### -param dwFlags [in]
 
 Currently not used and should be set to 0.
-
 
 ### -param pvReserved [in]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgselectcertificatefromstore">CryptUIDlgSelectCertificateFromStore</a>
- 
-
- 
 

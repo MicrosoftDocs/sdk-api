@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 566d4a36-5623-4896-b23b-3824551850b0
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager3, IDirectManipulationManager3 interface [Direct Manipulation], IDirectManipulationManager3 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager3, directmanipulation/IDirectManipulationManager3
-f1_keywords:
-- directmanipulation/IDirectManipulationManager3
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationManager3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationManager3
+ - directmanipulation/IDirectManipulationManager3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationManager3
 ---
 
 # IDirectManipulationManager3 interface
 
 
 ## -description
-
 
 Extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager2">IDirectManipulationManager2</a> interface that provides access to all the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> features and APIs available to the client application. 
 
@@ -79,16 +79,9 @@ Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
- 
-
- 
 

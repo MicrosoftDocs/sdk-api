@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2ae84d47-2bda-4954-9165-902634d09da9
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], IX509AttributeOSVersion interface [Security],described, certenroll/IX509AttributeOSVersion, security.ix509attributeosversion
-f1_keywords:
-- certenroll/IX509AttributeOSVersion
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509AttributeOSVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509AttributeOSVersion
+ - certenroll/IX509AttributeOSVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509AttributeOSVersion
 ---
 
 # IX509AttributeOSVersion interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509AttributeOSVersion</b> interface represents an attribute that contains version information about the client operating system on which the certificate request was generated. The information includes the major and minor versions, the build number, and the platform identifier.
-
 
 ## -inheritance
 
@@ -106,13 +105,9 @@ Retrieves the client operating system version information.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -123,7 +118,4 @@ Retrieves the client operating system version information.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
 

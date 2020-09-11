@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0fb59627-a31f-4c23-955f-3032c5814a5a
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetProperties method, IShellImageData.GetProperties, IShellImageData::GetProperties, _shell_IShellImageData_GetProperties, shell.IShellImageData_GetProperties, shimgdata/IShellImageData::GetProperties
-f1_keywords:
-- shimgdata/IShellImageData.GetProperties
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.GetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::GetProperties
+ - shimgdata/IShellImageData::GetProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.GetProperties
 ---
 
 # IShellImageData::GetProperties
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> through which the properties of the image can be accessed.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMode [in]
 
@@ -64,18 +60,13 @@ Type: <b>DWORD</b>
 
 Not used, set to 0.
 
-
 ### -param ppPropSet [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>**</b>
 
 The address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -110,7 +101,4 @@ The <i>ppPropSet</i> pointer is not valid.
 </td>
 </tr>
 </table>
- 
-
-
 

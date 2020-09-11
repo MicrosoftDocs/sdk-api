@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: DAE92C50-CCEB-4E22-A37E-8E4AFC47646F
 ms.date: 12/05/2018
 ms.keywords: ID2D1BorderTransform interface [Direct2D],SetExtendModeX method, ID2D1BorderTransform.SetExtendModeX, ID2D1BorderTransform::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1BorderTransform interface, d2d1effectauthor/ID2D1BorderTransform::SetExtendModeX, direct2d.id2d1bordertransform_setextendmodex
-f1_keywords:
-- d2d1effectauthor/ID2D1BorderTransform.SetExtendModeX
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1BorderTransform.SetExtendModeX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1BorderTransform::SetExtendModeX
+ - d2d1effectauthor/ID2D1BorderTransform::SetExtendModeX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1BorderTransform.SetExtendModeX
 ---
 
 # ID2D1BorderTransform::SetExtendModeX
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the extend mode in the x direction.
 
-
 ## -parameters
-
-
-
 
 ### -param extendMode
 
@@ -65,23 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2
 
 The extend mode in the x direction.
 
-
 ## -remarks
-
-
 
 If the extend mode enumeration is invalid, this operation is ignored.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1bordertransform">ID2D1BorderTransform</a>
- 
-
- 
 

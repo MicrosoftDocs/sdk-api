@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 709bed59-c154-4103-9d38-398945657ec6
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAt method, CHStringArray.SetAt, CHStringArray::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setat, chstrarr/CHStringArray::SetAt, wmi.chstringarray_setat
-f1_keywords:
-- chstrarr/CHStringArray.SetAt
-dev_langs:
-- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHStringArray.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHStringArray::SetAt
+ - chstrarr/CHStringArray::SetAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHStringArray.SetAt
 ---
 
 # CHStringArray::SetAt
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,25 +59,17 @@ ms.custom: 19H1
 
 The <b>SetAt</b> method sets the array element at the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex
 
 An integer index that is greater than or equal to zero and less than or equal to the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getupperbound">GetUpperBound</a>.
 
-
 ### -param newElement
 
 The object pointer that is inserted in this array. A <b>NULL</b> value is allowed.
 
-
 ## -remarks
-
-
 
 The <b>SetAt</b> method does not cause the array to increase. Use <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setatgrow">SetAtGrow</a> if you want the array to increase automatically.
 
@@ -107,14 +99,7 @@ The following  example results in a <a href="https://docs.microsoft.com/windows/
     [1] = String 2
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
@@ -137,7 +122,4 @@ The following  example results in a <a href="https://docs.microsoft.com/windows/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstringarray--operator-brackets">CHStringArray::operator []</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__reset.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],Reset method, IDirect3DDevice9.Reset, IDirect3DDevice9::Reset, Reset, Reset method [Direct3D 9], Reset method [Direct3D 9],IDirect3DDevice9 interface, b7f53ca7-1a26-5bf8-890b-5a4f26b3c249, d3d9helper/IDirect3DDevice9::Reset, direct3d9.idirect3ddevice9__reset
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.Reset
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::Reset
+ - d3d9helper/IDirect3DDevice9::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.Reset
 ---
 
 # IDirect3DDevice9::Reset
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the type, size, and format of the swap chain.
 
-
 ## -parameters
-
-
-
 
 ### -param pPresentationParameters [in, out]
 
@@ -78,18 +74,11 @@ When this method returns:
 
 ## -returns
 
-
-
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEREMOVED, D3DERR_DRIVERINTERNALERROR, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3derr">D3DERR</a>).
 
-
-
-
 ## -remarks
-
-
 
 If a call to <b>IDirect3DDevice9::Reset</b> fails, the device will be placed in the "lost" state (as indicated by a return value of D3DERR_DEVICELOST from a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-testcooperativelevel">IDirect3DDevice9::TestCooperativeLevel</a>) unless it is already in the "not reset" state (as indicated by a return value of D3DERR_DEVICENOTRESET from a call to <b>IDirect3DDevice9::TestCooperativeLevel</b>). Refer to <b>IDirect3DDevice9::TestCooperativeLevel</b> and <a href="https://docs.microsoft.com/windows/desktop/direct3d9/lost-devices">Lost Devices (Direct3D 9)</a> for further information concerning the use of <b>IDirect3DDevice9::Reset</b> in the context of lost devices.
 
@@ -110,13 +99,7 @@ When trying to reset more than one display adapter in a group, set pPresentation
 
 If a multihead device was created with <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate">D3DCREATE_ADAPTERGROUP_DEVICE</a>, <b>IDirect3DDevice9::Reset</b> requires an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters">D3DPRESENT_PARAMETERS</a> structures wherein each structure must specify a full-screen display. To switch back to windowed mode, the application must destroy the device and re-create a non-multihead device in windowed mode.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters">D3DPRESENT_PARAMETERS</a>
 
@@ -135,7 +118,4 @@ If a multihead device was created with <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/multihead">Multihead (Direct3D 9)</a>
- 
-
- 
 

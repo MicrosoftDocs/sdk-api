@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: menurc
+f1_keywords:
+ - verrsrc
+ - verrsrc/verrsrc
 ---
 
 # Verrsrc.h header
 
 
 ## -description
-
 
 This header is used by Menus and Other Resources. For more information, see:
 

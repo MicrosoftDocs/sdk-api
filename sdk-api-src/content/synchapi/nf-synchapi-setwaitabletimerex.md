@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 2facde72-6e04-4a2f-9ee6-059f36932539
 ms.date: 12/05/2018
 ms.keywords: SetWaitableTimerEx, SetWaitableTimerEx function, base.setwaitabletimerex, synchapi/SetWaitableTimerEx, winbase/SetWaitableTimerEx
-f1_keywords:
-- synchapi/SetWaitableTimerEx
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetWaitableTimerEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetWaitableTimerEx
+ - synchapi/SetWaitableTimerEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetWaitableTimerEx
 ---
 
 # SetWaitableTimerEx function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Activates the specified waitable timer and provides context information for the timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
 
-
 ## -parameters
-
-
-
 
 ### -param hTimer [in]
 
@@ -71,13 +67,11 @@ A handle to the timer object. The [CreateWaitableTimer](/windows/win32/api/synch
 The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ### -param lpDueTime [in]
 
 The time after which the state of the timer is to be set to signaled, in 100 nanosecond intervals. Use the format described by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. Positive values indicate absolute time. Be sure to use a UTC-based absolute time, as the system uses UTC-based time internally. Negative values indicate relative time. The actual timer accuracy depends on the capability of your hardware. For more information about UTC-based time, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-time">System Time</a>.
-
 
 ### -param lPeriod [in]
 
@@ -85,43 +79,31 @@ The period of the timer, in milliseconds. If <i>lPeriod</i> is zero, the timer i
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-cancelwaitabletimer">CancelWaitableTimer</a> function or reset using 
 <b>SetWaitableTimerEx</b>. If <i>lPeriod</i> is less than zero, the function fails.
 
-
 ### -param pfnCompletionRoutine [in]
 
 A pointer to an optional completion routine. The completion routine is application-defined function of type <b>PTIMERAPCROUTINE</b> to be executed when the timer is signaled. For more information on the timer callback function, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nc-synchapi-ptimerapcroutine">TimerAPCProc</a>.  For more information about APCs and thread pool threads, see Remarks.
 
-
 ### -param lpArgToCompletionRoutine [in]
 
 A pointer to a structure that is passed to the completion routine.
 
-
 ### -param WakeContext [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure that contains context information for the timer. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure that contains context information for the timer.
 
 ### -param TolerableDelay [in]
 
 The tolerable delay for expiration time, in milliseconds.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The <b>SetWaitableTimerEx</b> function is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a> function, except <b>SetWaitableTimerEx</b> can be used to specify a context string and a tolerable delay for expiration of the timer. 
 
@@ -145,20 +127,11 @@ If the thread that called <b>SetWaitableTimerEx</b> exits, the timer is canceled
 
 To use a timer to schedule an event for a window, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>
- 
-
- 
 

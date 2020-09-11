@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 7bc74428-f8e3-4d3b-b35a-33e917b18a93
 ms.date: 12/05/2018
 ms.keywords: IDvbContentDescriptor, IDvbContentDescriptor interface [Microsoft TV Technologies], IDvbContentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentDescriptor, mstv.idvbcontentdescriptor
-f1_keywords:
-- dvbsiparser/IDvbContentDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbContentDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbContentDescriptor
+ - dvbsiparser/IDvbContentDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbContentDescriptor
 ---
 
 # IDvbContentDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get information from a Digital Video Broadcast (DVB) content descriptor.  Content descriptors appear in the DVB Service Information as part of the Event Information Table (EIT), which provides information about the events in each service.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Gets the tag that identifies the descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

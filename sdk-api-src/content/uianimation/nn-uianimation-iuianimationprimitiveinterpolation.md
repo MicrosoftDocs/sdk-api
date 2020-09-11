@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 6EAE7874-1103-4D2E-A325-37E5A95705F5
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationPrimitiveInterpolation, IUIAnimationPrimitiveInterpolation interface [Windows Animation], IUIAnimationPrimitiveInterpolation interface [Windows Animation],described, uianimation.iuianimationprimitiveinterpolation, uianimation/IUIAnimationPrimitiveInterpolation
-f1_keywords:
-- uianimation/IUIAnimationPrimitiveInterpolation
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationPrimitiveInterpolation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationPrimitiveInterpolation
+ - uianimation/IUIAnimationPrimitiveInterpolation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationPrimitiveInterpolation
 ---
 
 # IUIAnimationPrimitiveInterpolation interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a method that allows a custom interpolator to provide transition information, in the form of a cubic polynomial curve, to the animation manager.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Adds a cubic polynomial segment to the animation function.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a>
 
@@ -94,7 +89,4 @@ Adds a cubic polynomial segment to the animation function.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
- 
-
- 
 

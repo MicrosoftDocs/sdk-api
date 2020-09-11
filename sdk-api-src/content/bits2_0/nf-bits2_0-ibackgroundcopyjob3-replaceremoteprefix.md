@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IBackgroundCopyJob3.ReplaceRemotePrefix, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
-f1_keywords:
-- bits2_0/IBackgroundCopyJob3.ReplaceRemotePrefix
-dev_langs:
-- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx3.dll
-api_name:
-- IBackgroundCopyJob3.ReplaceRemotePrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob3::ReplaceRemotePrefix
+ - bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx3.dll
+api_name:
+ - IBackgroundCopyJob3.ReplaceRemotePrefix
 ---
 
 # IBackgroundCopyJob3::ReplaceRemotePrefix
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the beginning text of all  remote names in the download job with the specified string.
 
-
 ## -parameters
-
-
-
 
 ### -param OldPrefix [in]
 
 Null-terminated string that identifies the  text to  replace in the remote name. The text must start at the beginning of the remote name.
 
-
 ### -param NewPrefix [in]
 
 Null-terminated string that contains the replacement text.
 
-
 ## -returns
-
-
 
 This method returns the following return values, as well as others.
 
@@ -137,14 +129,8 @@ The state of the job cannot be <b>BG_JOB_STATE_CANCELLED</b> or <b>BG_JOB_STATE_
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Typically, you use this method to change the server portion of the remote name when the server is unavailable or to let  roaming users connect to the closest server. This method changes all matching remote names in the job. To change the remote name of a specific file, use the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a> method.
 
@@ -196,21 +182,11 @@ The following example shows how to call the <b>ReplaceRemotePrefix</b> method to
      }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
- 
-
- 
 

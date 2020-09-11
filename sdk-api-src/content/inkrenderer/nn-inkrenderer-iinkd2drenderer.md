@@ -8,10 +8,6 @@ tech.root: input_ink
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
 ms.date: 12/05/2018
 ms.keywords: IInkD2DRenderer, IInkD2DRenderer interface, IInkD2DRenderer interface,described, inkrenderer/IInkD2DRenderer, input_ink.iinkd2drenderer
-f1_keywords:
-- inkrenderer/IInkD2DRenderer
-dev_langs:
-- c++
 req.header: inkrenderer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- inkrenderer.h
-api_name:
-- IInkD2DRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkD2DRenderer
+ - inkrenderer/IInkD2DRenderer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - inkrenderer.h
+api_name:
+ - IInkD2DRenderer
 ---
 
 # IInkD2DRenderer interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 An <b>IInkD2DRenderer</b> object enables the rendering of ink strokes onto the designated  Direct2D device context of a Universal Windows app, instead of the default <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.inkcanvas">InkCanvas</a> control.
-
-
-
 
 ## -inheritance
 
@@ -80,13 +76,9 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
@@ -109,7 +101,4 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
- 
-
- 
 

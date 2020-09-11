@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: cda6b8e7-fadc-4e0b-8217-66b37bf7efbd
 ms.date: 12/05/2018
 ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADs interface, IADs interface [ADSI],GetEx method, IADs.GetEx, IADs::GetEx, _ds_iads_getex, adsi.iads__getex, adsi.iads_getex, iads/IADs::GetEx
-f1_keywords:
-- iads/IADs.GetEx
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADs.GetEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADs::GetEx
+ - iads/IADs::GetEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADs.GetEx
 ---
 
 # IADs::GetEx
@@ -49,40 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADs::GetEx</b> method retrieves, from the property cache, property values of a given attribute. The returned property values can be single-valued or multi-valued. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> method, the property values are returned as a variant array of <b>VARIANT</b>, or a variant array of bytes for binary data. A single-valued property is then represented as an array of a single element.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrName [in]
 
 Contains a <b>BSTR</b> that specifies the property name.
 
-
 ### -param pvProp [out]
 
 Pointer to a <b>VARIANT</b> that receives the value, or values, of the property.
 
-
 ## -returns
-
-
 
 This method supports the standard return values as well as the return values listed in the following list.
       
 
 For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a> and <b>IADs::GetEx</b> methods return a different variant structure for a single-valued property value. If the property is a string, <b>IADs::Get</b> returns a variant of string (VT_BSTR), whereas <b>IADs::GetEx</b> returns a variant array of a <b>VARIANT</b> type string with a single element. Thus, if you are not sure that a multi-valued attribute will return a single value or multiple values, use <b>IADs::GetEx</b>. As it does not require you to validate the result's data structures, you may want to use <b>IADs::GetEx</b> to retrieve a property when you are not sure whether it has single or multiple values. The following list compares the two methods.
 
@@ -238,14 +225,7 @@ if ( pADs )
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -268,7 +248,4 @@ if ( pADs )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property Cache Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: FD9EAF80-8449-4016-91A9-2299711C3D48
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter2, IAppxBundleWriter2 interface [App packaging and management], IAppxBundleWriter2 interface [App packaging and management],described, appxpackaging/IAppxBundleWriter2, appxpkg.iappxbundlewriter2
-f1_keywords:
-- appxpackaging/IAppxBundleWriter2
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleWriter2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleWriter2
+ - appxpackaging/IAppxBundleWriter2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleWriter2
 ---
 
 # IAppxBundleWriter2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a write-only object model for bundle packages.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Adds a reference to an external package to the package bundle.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>
- 
-
- 
 

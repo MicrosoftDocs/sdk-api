@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], IXpsSignature interface [XPS Documents and Packaging],described, xps.ixpssignature, xpsdigitalsignature/IXpsSignature
-f1_keywords:
-- xpsdigitalsignature/IXpsSignature
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignature
+ - xpsdigitalsignature/IXpsSignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignature
 ---
 
 # IXpsSignature interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a single digital signature.
-
 
 ## -inheritance
 
@@ -181,24 +180,15 @@ Verifies the signature against a specified X.509 certificate.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is linked to the signature manager from which it was instantiated and it cannot exist independently.
 
 An <b>IXpsSignature</b> interface may represent a signature that is not XPS compliant. For example, it could represent a signature that includes only custom parts, which is not allowed by the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator">IOpcCertificateEnumerator</a>
 
@@ -221,7 +211,4 @@ An <b>IXpsSignature</b> interface may represent a signature that is not XPS comp
 
 
 <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
- 
-
- 
 

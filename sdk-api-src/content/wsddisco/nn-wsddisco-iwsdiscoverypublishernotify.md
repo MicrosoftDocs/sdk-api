@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 6e7e0ab8-dffe-47c2-916c-a6734eb4ac44
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisherNotify, IWSDiscoveryPublisherNotify interface, IWSDiscoveryPublisherNotify interface,described, ncd.iwsdiscoverypublishernotify, wsddisco/IWSDiscoveryPublisherNotify
-f1_keywords:
-- wsddisco/IWSDiscoveryPublisherNotify
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryPublisherNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryPublisherNotify
+ - wsddisco/IWSDiscoveryPublisherNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryPublisherNotify
 ---
 
 # IWSDiscoveryPublisherNotify interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Is implemented by the client program to receive callback notifications from <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Called when a Resolve is received by the discovery publisher.
 
 </td>
 </tr>
-</table> 
+</table>
 

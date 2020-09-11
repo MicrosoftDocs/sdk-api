@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: d84a5e3f-d0f9-4345-b008-e15c277dcbd5
 ms.date: 12/05/2018
 ms.keywords: GetClusterNetInterfaceState, GetClusterNetInterfaceState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE function [Failover Cluster], _wolf_getclusternetinterfacestate, clusapi/GetClusterNetInterfaceState, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, mscs.getclusternetinterfacestate
-f1_keywords:
-- clusapi/GetClusterNetInterfaceState
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- GetClusterNetInterfaceState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClusterNetInterfaceState
+ - clusapi/GetClusterNetInterfaceState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - GetClusterNetInterfaceState
 ---
 
 # GetClusterNetInterfaceState function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the current state of a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>. The <b>PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hNetInterface [in]
 
 Handle to the network interface for which state information should be returned.
 
-
 ## -returns
-
-
 
 <b>GetClusterNetInterfaceState</b> returns 
        the current state of the network interface, which is represented by one of the following values enumerated by 
@@ -140,15 +133,8 @@ The operation was not successful. For more information about the error, call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_netinterface_state">CLUSTER_NETINTERFACE_STATE</a>
 
@@ -159,7 +145,4 @@ The operation was not successful. For more information about the error, call the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnetinterface-state">State Property of the ClusNetInterface Object</a>
- 
-
- 
 

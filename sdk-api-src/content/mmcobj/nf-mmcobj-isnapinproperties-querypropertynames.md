@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 41f949aa-4be5-4e60-aa1d-0605f489fec6
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties interface [MMC],QueryPropertyNames method, ISnapinProperties.QueryPropertyNames, ISnapinProperties::QueryPropertyNames, QueryPropertyNames, QueryPropertyNames method [MMC], QueryPropertyNames method [MMC],ISnapinProperties interface, _slate_isnapinproperties_querypropertynames, mmc.isnapinproperties_querypropertynames, mmcobj/ISnapinProperties::QueryPropertyNames
-f1_keywords:
-- mmcobj/ISnapinProperties.QueryPropertyNames
-dev_langs:
-- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcobj.h
-api_name:
-- ISnapinProperties.QueryPropertyNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISnapinProperties::QueryPropertyNames
+ - mmcobj/ISnapinProperties::QueryPropertyNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcobj.h
+api_name:
+ - ISnapinProperties.QueryPropertyNames
 ---
 
 # ISnapinProperties::QueryPropertyNames
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>QueryPropertyNames</b> method returns the names of the properties used for the snap-in's configuration.
 
-
 ## -parameters
-
-
-
 
 ### -param pCallback [in]
 
@@ -65,12 +61,7 @@ A pointer to the
 <a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nn-mmcobj-isnapinpropertiescallback">ISnapinPropertiesCallback</a> interface; the snap-in can call 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nf-mmcobj-isnapinpropertiescallback-addpropertyname">ISnapinPropertiesCallback::AddPropertyName</a> to add the properties.
 
-
 ## -returns
 
-
-
 If successful, the return value is S_OK; otherwise, the return value is an error code.
-
-
 

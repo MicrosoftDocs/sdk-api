@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
 ms.date: 12/05/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
-f1_keywords:
-- ole2/OleSaveToStream
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-COM-OLE32-l1-1-1.dll
-- Ext-MS-Win-COM-OLE32-l1-1-2.dll
-- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- OleSaveToStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleSaveToStream
+ - ole2/OleSaveToStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-1.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-2.dll
+ - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - OleSaveToStream
 ---
 
 # OleSaveToStream function
@@ -54,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves an object with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on it to the specified stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pPStm [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on the object to be saved to the stream. The <i>pPStm</i> parameter cannot be <b>NULL</b>.
 
-
 ### -param pStm [in]
 
  Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream in which the object is to be saved.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -111,12 +103,7 @@ The <i>pPStm</i> parameter is <b>NULL</b>.
 
 This function can also return any of the error values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstm">WriteClassStm</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method.
 
-
-
-
 ## -remarks
-
-
 
 This function simplifies saving an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface to a stream. In this stream, the object's CLSID precedes its data. When the stream is retrieved, the CLSID permits the proper code to be associated with the data. The <b>OleSaveToStream</b> function does the following:
 
@@ -127,13 +114,7 @@ This function simplifies saving an object that implements the <a href="https://d
 </ul>
 The companion helper, <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a>, loads objects saved in this way.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
 
@@ -144,7 +125,4 @@ The companion helper, <a href="https://docs.microsoft.com/windows/desktop/api/ol
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a>
- 
-
- 
 

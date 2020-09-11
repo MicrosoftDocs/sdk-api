@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3b21fbc7-cba1-49b1-bad6-232f717e3056
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeAltName object, GetNameChoice method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameChoice method, ICertEncodeAltName.GetNameChoice, ICertEncodeAltName::GetNameChoice, _certsrv_icertencodealtname_getnamechoice, certenc/ICertEncodeAltName::GetNameChoice, security.icertencodealtname_getnamechoice
-f1_keywords:
-- certenc/ICertEncodeAltName.GetNameChoice
-dev_langs:
-- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenc.dll
-api_name:
-- ICertEncodeAltName.GetNameChoice
-- CCertEncodeAltName.GetNameChoice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertEncodeAltName::GetNameChoice
+ - certenc/ICertEncodeAltName::GetNameChoice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenc.dll
+api_name:
+ - ICertEncodeAltName.GetNameChoice
+ - CCertEncodeAltName.GetNameChoice
 ---
 
 # ICertEncodeAltName::GetNameChoice
@@ -50,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNameChoice</b> method returns the name choice at a specified index of an alternate name array.
 
-
 ## -parameters
-
-
-
 
 ### -param NameIndex [in]
 
 Specifies the index of the alternate name entry. The first entry is at index zero.
 
-
 ### -param pNameChoice [out]
 
 A pointer to a <b>LONG</b> that receives the name choice specifier.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and the <i>pNameChoice</i> parameter points to a value that indicates the type of the alternate name. This is one of the following values.
@@ -164,15 +156,8 @@ The name consists of an OID and a binary <a href="https://docs.microsoft.com/win
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
 
@@ -183,7 +168,4 @@ The name consists of an OID and a binary <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodealtname-setnameentry">ICertEncodeAltName::SetNameEntry</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 0a61751e-10e5-4f91-a0b2-8c1baf477653
 ms.date: 12/05/2018
 ms.keywords: WSAGetServiceClassNameByClassId, WSAGetServiceClassNameByClassId function [Winsock], WSAGetServiceClassNameByClassIdA, WSAGetServiceClassNameByClassIdW, _win32_wsagetserviceclassnamebyclassid_2, winsock.wsagetserviceclassnamebyclassid_2, winsock2/WSAGetServiceClassNameByClassId, winsock2/WSAGetServiceClassNameByClassIdA, winsock2/WSAGetServiceClassNameByClassIdW
-f1_keywords:
-- winsock2/WSAGetServiceClassNameByClassId
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAGetServiceClassNameByClassId
-- WSAGetServiceClassNameByClassIdA
-- WSAGetServiceClassNameByClassIdW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAGetServiceClassNameByClassIdA
+ - winsock2/WSAGetServiceClassNameByClassIdA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAGetServiceClassNameByClassId
+ - WSAGetServiceClassNameByClassIdA
+ - WSAGetServiceClassNameByClassIdW
 ---
 
 # WSAGetServiceClassNameByClassIdA function
@@ -51,34 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAGetServiceClassNameByClassId</b> function retrieves the name of the service associated with the specified type. This name is the generic service name, like FTP or SNA, and not the name of a specific instance of that service.
 
-
 ## -parameters
-
-
-
 
 ### -param lpServiceClassId [in]
 
 A pointer to the GUID for the service class.
 
-
 ### -param lpszServiceClassName [out]
 
 A pointer to the service name.
-
 
 ### -param lpdwBufferLength [in, out]
 
 On input, the length of the buffer returned by <i>lpszServiceClassName</i>, in characters. On output, the length of the service name copied into <i>lpszServiceClassName</i>, in characters.
 
-
 ## -returns
-
-
 
 The 
 <b>WSAGetServiceClassNameByClassId</b> function returns a value of zero if successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
@@ -179,15 +170,8 @@ The WS2_32.DLL has not been initialized. The application must first call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
 
@@ -198,9 +182,6 @@ The WS2_32.DLL has not been initialized. The application must first call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: 36496cba-229c-45bb-9608-04fb4b1955ae
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method, GetCurrent method,IWPCProviderSupport interface, IWPCProviderSupport interface,GetCurrent method, IWPCProviderSupport.GetCurrent, IWPCProviderSupport::GetCurrent, parcon.iwpcprovidersupport_getcurrent, wpcapi/IWPCProviderSupport::GetCurrent
-f1_keywords:
-- wpcapi/IWPCProviderSupport.GetCurrent
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCProviderSupport.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCProviderSupport::GetCurrent
+ - wpcapi/IWPCProviderSupport::GetCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCProviderSupport.GetCurrent
 ---
 
 # IWPCProviderSupport::GetCurrent
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the GUID of the current provider.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidProvider [out]
 
 The GUID of the current provider.
 
-
 ## -returns
-
-
 
 If the method succeeds, the method returns <b>S_OK</b>.
 
@@ -88,27 +81,12 @@ The <i>pguidProvider</i> parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>pguidProvider</i> parameter will be a null GUID if there is no currently selected provider.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcprovidersupport">IWPCProviderSupport</a>
- 
-
- 
 

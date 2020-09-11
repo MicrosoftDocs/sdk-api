@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 1da81a49-d421-4643-9be6-b13d45d678f0
 ms.date: 12/05/2018
 ms.keywords: GetInputDataPointer, GetInputDataPointer method [Remote Desktop Services], GetInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, IAudioInputEndpointRT interface [Remote Desktop Services],GetInputDataPointer method, IAudioInputEndpointRT.GetInputDataPointer, IAudioInputEndpointRT::GetInputDataPointer, audioengineendpoint/IAudioInputEndpointRT::GetInputDataPointer, termserv.iaudioinputendpointrt_getinputdatapointer
-f1_keywords:
-- audioengineendpoint/IAudioInputEndpointRT.GetInputDataPointer
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioengineendpoint.h
-api_name:
-- IAudioInputEndpointRT.GetInputDataPointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioInputEndpointRT::GetInputDataPointer
+ - audioengineendpoint/IAudioInputEndpointRT::GetInputDataPointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioengineendpoint.h
+api_name:
+ - IAudioInputEndpointRT.GetInputDataPointer
 ---
 
 # IAudioInputEndpointRT::GetInputDataPointer
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetInputDataPointer</b> method gets a pointer to the buffer from which data will be read by the audio engine.
 
-
 ## -parameters
-
-
-
 
 ### -param pConnectionProperty [in, out]
 
@@ -88,10 +84,7 @@ If this call completes successfully, the endpoint must set the member values as 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure that contains the time stamp of the data that is captured in the buffer.
     This parameter is optional.
 
-
 ## -remarks
-
-
 
 This method returns a pointer from the endpoint to the buffer <i>pConnectionProperty</i>-&gt;<b>pBuffer</b>, which
     contains data that needs to be passed into the engine as input.
@@ -112,16 +105,7 @@ This method can be called from a real-time processing thread. The
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt">IAudioInputEndpointRT</a>
- 
-
- 
 

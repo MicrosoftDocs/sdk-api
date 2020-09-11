@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 32ef5dd8-c00d-44ee-a291-a18653beb1b9
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION structure pointer, RelationCache, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, SYSTEM_LOGICAL_PROCESSOR_INFORMATION, SYSTEM_LOGICAL_PROCESSOR_INFORMATION structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION, base.system_logical_processor_information, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION'
-f1_keywords:
-- winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- SYSTEM_LOGICAL_PROCESSOR_INFORMATION
 targetos: Windows
 req.typenames: SYSTEM_LOGICAL_PROCESSOR_INFORMATION, *PSYSTEM_LOGICAL_PROCESSOR_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SYSTEM_LOGICAL_PROCESSOR_INFORMATION
+ - winnt/_SYSTEM_LOGICAL_PROCESSOR_INFORMATION
+ - PSYSTEM_LOGICAL_PROCESSOR_INFORMATION
+ - winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION
+ - SYSTEM_LOGICAL_PROCESSOR_INFORMATION
+ - winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - SYSTEM_LOGICAL_PROCESSOR_INFORMATION
 ---
 
 # SYSTEM_LOGICAL_PROCESSOR_INFORMATION structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the relationship between the specified processor set. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ProcessorMask
 
 The processor mask  identifying the processors described by this structure. A processor mask is a bit vector in which each set bit represents an active processor in the relationship. At least one bit will be set.
 
 On a system with more than 64 processors, the processor mask identifies processors in a single <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a>.
-
 
 ### -field Relationship
 
@@ -127,16 +126,11 @@ The specified logical processors share a physical package. There is no additiona
 
 Future versions of Windows may support additional values for the <b>Relationship</b> member.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.ProcessorCore
 
 This structure contains valid data only if the <b>Relationship</b> member is RelationProcessorCore.
-
 
 ### -field DUMMYUNIONNAME.ProcessorCore.Flags
 
@@ -145,16 +139,13 @@ This structure contains valid data only if the <b>Relationship</b> member is Rel
 
 <b>Windows Server 2003 and Windows XP Professional x64 Edition:  </b>This member is also 1 for cores that share a physical package. Therefore, to determine whether the processor supports multiple cores or hyperthreading on systems prior to Windows Vista, use the CPUID instruction.
 
-
 ### -field DUMMYUNIONNAME.NumaNode
 
 This structure contains valid data only if the <b>Relationship</b> member is RelationNumaNode.
 
-
 ### -field DUMMYUNIONNAME.NumaNode.NodeNumber
 
 Identifies the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA</a> node. The valid values of this  parameter are 0 to the highest NUMA node number inclusive. A non-NUMA multiprocessor system will report that all processors belong to one NUMA node.
-
 
 ### -field DUMMYUNIONNAME.Cache
 
@@ -164,16 +155,11 @@ This structure contains valid data only if the <b>Relationship</b> member is Rel
 
 <b>Windows Server 2003:  </b>This member is not supported until Windows Server 2003 with SP1 and Windows XP Professional x64 Edition.
 
-
 ### -field DUMMYUNIONNAME.Reserved
 
 Reserved. Do not use.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a>
 
@@ -192,7 +178,4 @@ Reserved. Do not use.
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
- 
-
- 
 

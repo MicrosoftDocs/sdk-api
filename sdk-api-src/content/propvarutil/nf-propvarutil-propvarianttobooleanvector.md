@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 93ccd129-4fa4-40f3-96f3-b87b50414b0a
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBooleanVector, PropVariantToBooleanVector function [Windows Properties], _shell_PropVariantToBooleanVector, properties.PropVariantToBooleanVector, propvarutil/PropVariantToBooleanVector, shell.PropVariantToBooleanVector
-f1_keywords:
-- propvarutil/PropVariantToBooleanVector
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToBooleanVector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToBooleanVector
+ - propvarutil/PropVariantToBooleanVector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToBooleanVector
 ---
 
 # PropVariantToBooleanVector function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts a Boolean vector from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param propvar [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param prgf [out]
 
 Type: <b>BOOL*</b>
 
 Points to a buffer that contains <i>crgf</i> <b>BOOL</b> values. When this function returns, the buffer has been initialized with <i>pcElem</i> Boolean elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
 
 ### -param crgf [in]
 
@@ -78,17 +72,13 @@ Type: <b>ULONG</b>
 
 Number of elements in the buffer pointed to by <i>prgf</i>.
 
-
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
 When this function returns, contains the count of Boolean elements extracted from source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -133,14 +123,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-p
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a Boolean vector value with a fixed number of elements.
 
@@ -175,7 +159,4 @@ if (SUCCEEDED(hr))
      }
 }
 ```
-
-
-
 

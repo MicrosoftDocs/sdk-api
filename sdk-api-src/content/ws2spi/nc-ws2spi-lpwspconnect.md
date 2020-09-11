@@ -27,45 +27,58 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPCONNECT
+ - LPWSPCONNECT
+f1_keywords:
+ - LPWSPCONNECT
+ - ws2spi/LPWSPCONNECT
 ---
 
 ## -description
+
 The **LPWSPConnect** function establishes a connection to a peer, exchanges connect data, and specifies needed quality of service based on the supplied flow specification.
 
 ## -parameters
 
 ### -param s [in]
+
 Descriptor identifying an unconnected socket.
 
 ### -param name [in]
+
 Name of the peer to which the socket in the <b><a href="/windows/win32/winsock/sockaddr-2">sockaddr</a></b> is to be connected.
 
 ### -param namelen [in]
+
 Length of the <i>name</i>, in bytes.
 
 ### -param lpCallerData [in]
+
 Pointer to the user data that is to be transferred to the peer during connection establishment.
 
 ### -param lpCalleeData [out]
+
 Pointer to a buffer into which any user data received from the peer during connection establishment can be copied.
 
 ### -param lpSQOS [in]
+
 Pointer to the flow specifications for socket <i>s</i>, one for each direction.
 
 ### -param lpGQOS [in]
+
 Reserved.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPConnect** returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 On a blocking socket, the return value indicates success or failure of the connection attempt. If the return error code indicates the connection attempt failed (that is, <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAECONNREFUSED">WSAECONNREFUSED</a>, <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENETUNREACH">WSAENETUNREACH</a>, <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAETIMEDOUT">WSAETIMEDOUT</a>) the Winsock SPI client can call **LPWSPConnect** again for the same socket.
@@ -287,6 +300,7 @@ An attempt to connect datagram socket to broadcast address failed because <b><a 
 </table>
 
 ## -remarks
+
 This function is used to create a connection to the specified destination and to perform a number of other ancillary operations that occur at connect time as well. If the socket, <i>s</i>, is unbound, unique values are assigned to the local association by the system and the socket is marked as bound.
 
 For connection-oriented sockets (for example, type SOCK_STREAM), an active connection is initiated to the specified host using <i>name</i> (an address in the namespace of the socket. For a detailed description, see <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>. When this call completes successfully, the socket is ready to send and receive data. If the address member of the **name** structure is all zeroes, **LPWSPConnect** will return the error <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEADDRNOTAVAIL">WSAEADDRNOTAVAIL</a>. Any attempt to reconnect an active connection will fail with the error code <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEISCONN">WSAEISCONN</a>.
@@ -311,6 +325,7 @@ The <i>lpSQOS</i> specifies the flow specifications for socket <i>s</i>, one for
 > When connected sockets break (that is, become closed for whatever reason), they should be discarded and recreated. It is safest to assume that when things go awry for any reason on a connected socket, the Winsock SPI client must discard and recreate the needed sockets in order to return to a stable point.
 
 ## -see-also
+
 [LPWSPAccept](nc-ws2spi-lpwspaccept.md)
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a>
@@ -326,3 +341,4 @@ The <i>lpSQOS</i> specifies the flow specifications for socket <i>s</i>, one for
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspselect">LPWSPSelect</a>
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
+

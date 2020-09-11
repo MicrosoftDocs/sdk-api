@@ -8,10 +8,6 @@ tech.root: AMSI
 ms.assetid: 7D26C57B-014B-4506-A29D-33699808B111
 ms.date: 12/05/2018
 ms.keywords: AmsiScanString, AmsiScanString function [Antimalware Scan Interface], amsi.amsiscanstring, amsi/AmsiScanString
-f1_keywords:
-- amsi/AmsiScanString
-dev_langs:
-- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Amsi.lib
 req.dll: Amsi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- amsi.dll
-api_name:
-- AmsiScanString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AmsiScanString
+ - amsi/AmsiScanString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - amsi.dll
+api_name:
+ - AmsiScanString
 ---
 
 # AmsiScanString function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Scans a string for malware.
 
-
 ## -parameters
-
-
-
 
 ### -param amsiContext [in]
 
 The handle of type HAMSICONTEXT that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
-
 ### -param string [in]
 
 The string to be scanned.
-
 
 ### -param contentName [in]
 
 The filename, URL, unique script ID, or similar of the content being scanned.
 
-
 ### -param amsiSession [in, optional]
 
 If multiple scan requests are to be correlated within a session, set <i>session</i> to the handle of type HAMSISESSION that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>. Otherwise, set <i>session</i> to <b>nullptr</b>.
-
 
 ### -param result [out]
 
@@ -84,20 +76,11 @@ The result of the scan. See <a href="https://docs.microsoft.com/windows/desktop/
 
 An app should use <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiresultismalware">AmsiResultIsMalware</a> to determine whether the content should be blocked.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/amsi/ne-amsi-amsi_result">AMSI_RESULT</a>
 
@@ -112,7 +95,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiresultismalware">AmsiResultIsMalware</a>
- 
-
- 
 

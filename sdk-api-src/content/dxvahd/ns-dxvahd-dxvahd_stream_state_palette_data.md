@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 91f69451-72e6-4028-92d5-555dcf834cf7
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_PALETTE_DATA, DXVAHD_STREAM_STATE_PALETTE_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_PALETTE_DATA, mf.dxvahd_stream_state_palette_data
-f1_keywords:
-- dxvahd/DXVAHD_STREAM_STATE_PALETTE_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_STREAM_STATE_PALETTE_DATA
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_PALETTE_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_STREAM_STATE_PALETTE_DATA
+ - dxvahd/_DXVAHD_STREAM_STATE_PALETTE_DATA
+ - DXVAHD_STREAM_STATE_PALETTE_DATA
+ - dxvahd/DXVAHD_STREAM_STATE_PALETTE_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_STREAM_STATE_PALETTE_DATA
 ---
 
 # DXVAHD_STREAM_STATE_PALETTE_DATA structure
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the color palette entries for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Count
 
 The number of palette entries. The default state value is 0.
 
-
 ### -field pEntries
 
 A pointer to an array of <b>D3DCOLOR</b> values. For RGB streams, the palette entries use a D3DFMT_A8R8G8B8 (ARGB-32) representation. For YCbCr streams, the palette entries use an AYUV representation. The alpha channel is used for alpha blending; see <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_alpha_data">DXVAHD_STREAM_STATE_ALPHA_DATA</a>.
 
-
 ## -remarks
-
-
 
 This stream state is used for input streams that have a palettized color format. Palettized formats with 4 bits per pixel (bpp) use the first 16 entries in the list. Formats with 8 bpp use the first 256 entries.
 
@@ -82,13 +76,7 @@ If the DXVA-HD device does not have the <b>DXVAHD_FEATURE_CAPS_ALPHA_PALETTE</b>
 
 To get the device capabilities, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> and check the <b>FeatureCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -107,7 +95,4 @@ To get the device capabilities, call <a href="https://docs.microsoft.com/windows
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: ddcf7ecd-7ed2-4b57-82a7-c7e1608dbfa1
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], IUIAutomationTextPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextPattern, uiauto_IUIAutomationTextPattern, uiautomationclient/IUIAutomationTextPattern, winauto.uiauto_IUIAutomationTextPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationTextPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationTextPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTextPattern
+ - uiautomationclient/IUIAutomationTextPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationTextPattern
 ---
 
 # IUIAutomationTextPattern interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to a control that contains text.
-
 
 ## -inheritance
 
@@ -146,16 +145,9 @@ Retrieves a value that specifies the type of text selection that is supported by
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
 

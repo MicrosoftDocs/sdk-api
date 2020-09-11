@@ -5,10 +5,6 @@ description: Allocates heap that contains motion vectors for video motion estima
 tech.root: mf
 ms.date: 4/26/2019
 ms.keywords: ID3D12VideoDevice1::CreateVideoMotionVectorHeap
-f1_keywords:
-- ID3D12VideoDevice1::CreateVideoMotionVectorHeap
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,14 +25,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12VideoDevice1::CreateVideoMotionVectorHeap
+ - d3d12video/ID3D12VideoDevice1::CreateVideoMotionVectorHeap
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12.dll
+ - d3d12.dll
 api_name:
-- ID3D12VideoDevice1::CreateVideoMotionVectorHeap
+ - ID3D12VideoDevice1::CreateVideoMotionVectorHeap
 ---
 
 ## -description

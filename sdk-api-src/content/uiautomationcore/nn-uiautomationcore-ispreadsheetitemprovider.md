@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: E6428FED-2BCC-4AD5-B612-A22899624538
 ms.date: 12/05/2018
 ms.keywords: ISpreadsheetItemProvider, ISpreadsheetItemProvider interface [Windows Accessibility], ISpreadsheetItemProvider interface [Windows Accessibility],described, uiautomationcore/ISpreadsheetItemProvider, winauto.uiauto_ISpreadsheetItemProvider
-f1_keywords:
-- uiautomationcore/ISpreadsheetItemProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ISpreadsheetItemProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpreadsheetItemProvider
+ - uiautomationcore/ISpreadsheetItemProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ISpreadsheetItemProvider
 ---
 
 # ISpreadsheetItemProvider interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access 
-        to information about an item (cell) in a spreadsheet. 
-
+        to information about an item (cell) in a spreadsheet.
 
 ## -inheritance
 
@@ -112,16 +111,9 @@ Specifies the formula for this spreadsheet cell.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>
- 
-
- 
 

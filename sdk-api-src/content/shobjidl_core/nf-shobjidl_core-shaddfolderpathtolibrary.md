@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 308e7905-dfa1-438f-9e7e-f895517e7adb
 ms.date: 12/05/2018
 ms.keywords: SHAddFolderPathToLibrary, SHAddFolderPathToLibrary function [Windows Shell], _shell_SHAddFolderPathToLibrary, shell.SHAddFolderPathToLibrary, shobjidl_core/SHAddFolderPathToLibrary
-f1_keywords:
-- shobjidl_core/SHAddFolderPathToLibrary
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- SHAddFolderPathToLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHAddFolderPathToLibrary
+ - shobjidl_core/SHAddFolderPathToLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - SHAddFolderPathToLibrary
 ---
 
 # SHAddFolderPathToLibrary function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a folder to a library.
 
-
 ## -parameters
-
-
-
 
 ### -param plib [in]
 
@@ -64,38 +60,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a> object to which to add the folder.
 
-
 ### -param pszFolderPath [in]
 
 Type: <b>PCWSTR</b>
 
 The folder to add, specified by path.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This is an inline helper function that wraps the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-addfolder">IShellLibrary::AddFolder</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
@@ -130,7 +111,4 @@ This is an inline helper function that wraps the <a href="https://docs.microsoft
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shremovefolderpathfromlibrary">SHRemoveFolderPathFromLibrary</a>
- 
-
- 
 

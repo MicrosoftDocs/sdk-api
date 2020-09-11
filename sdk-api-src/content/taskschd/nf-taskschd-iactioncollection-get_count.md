@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: c9d11aa9-c182-4633-9fc6-d9cf53adc25a
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Count property, IActionCollection.Count, IActionCollection.get_Count, IActionCollection::Count, IActionCollection::get_Count, get_Count, taskschd.iactioncollection_count, taskschd/IActionCollection::Count, taskschd/IActionCollection::get_Count
-f1_keywords:
-- taskschd/IActionCollection.Count
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IActionCollection.Count
-- IActionCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActionCollection::get_Count
+ - taskschd/IActionCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IActionCollection.Count
+ - IActionCollection.get_Count
 ---
 
 # IActionCollection::get_Count
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of actions in the collection.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iactioncollection">IActionCollection</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

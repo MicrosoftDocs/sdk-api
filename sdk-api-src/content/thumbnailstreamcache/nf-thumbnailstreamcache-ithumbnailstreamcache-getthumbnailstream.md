@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 66A89AF9-DEBE-485C-B8E9-519F63386F7D
 ms.date: 12/05/2018
 ms.keywords: GetThumbnailStream, GetThumbnailStream method [Windows Shell], GetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, IThumbnailStreamCache interface [Windows Shell],GetThumbnailStream method, IThumbnailStreamCache.GetThumbnailStream, IThumbnailStreamCache::GetThumbnailStream, shell.ithumbnailstreamcache_getthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::GetThumbnailStream
-f1_keywords:
-- thumbnailstreamcache/IThumbnailStreamCache.GetThumbnailStream
-dev_langs:
-- c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- thumbnailstreamcache.h
-api_name:
-- IThumbnailStreamCache.GetThumbnailStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThumbnailStreamCache::GetThumbnailStream
+ - thumbnailstreamcache/IThumbnailStreamCache::GetThumbnailStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - thumbnailstreamcache.h
+api_name:
+ - IThumbnailStreamCache.GetThumbnailStream
 ---
 
 # IThumbnailStreamCache::GetThumbnailStream
@@ -49,61 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
 The path to the thumbnail.
 
-
 ### -param cacheId [in]
 
 The identifier of the thumbnail.
-
 
 ### -param options [in]
 
 The cache options for the thumbnail stream.
 
-
 ### -param requestedThumbnailSize [in]
 
 The requested size of the thumbnail.
-
 
 ### -param thumbnailSize [out]
 
 The actual size of the returned thumbnail.
 
-
 ### -param thumbnailStream [out]
 
 The requested thumbnail.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a>
- 
-
- 
 

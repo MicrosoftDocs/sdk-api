@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: d09ffe2d-33c3-4ca3-bc99-d7d78fd83620
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService function [Winsock], GetServiceA, GetServiceW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, PROP_ADDRESSES, PROP_ALL, PROP_COMMENT, PROP_DISPLAY_HINT, PROP_LOCALE, PROP_MACHINE, PROP_SD, PROP_START_TIME, PROP_VERSION, _win32_getservice_2, nspapi/GetService, nspapi/GetServiceA, nspapi/GetServiceW, winsock.getservice_2
-f1_keywords:
-- nspapi/GetService
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- GetService
-- GetServiceA
-- GetServiceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetServiceA
+ - nspapi/GetServiceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - GetService
+ - GetServiceA
+ - GetServiceW
 ---
 
 # GetServiceA function
 
 
 ## -description
-
 
 The 
 <b>GetService</b> function retrieves information about a network service in the context of a set of default namespaces or a specified namespace. The network service is specified by its type and name. The information about the service is obtained as a set of 
@@ -67,12 +67,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param dwNameSpace [in]
 
@@ -151,18 +146,15 @@ Local TCP/IP name resolution mechanisms, including comparisons against the local
 Most calls to 
 <b>GetService</b> should use the special value NS_DEFAULT. This lets a client get by without knowing available namespaces on an internetwork. The system administrator determines namespace access. Namespaces can come and go without the client having to be aware of the changes.
 
-
 ### -param lpGuid [in]
 
 A pointer to a globally unique identifier (GUID) that specifies the type of the network service. The <i>Svcguid.h</i> header file includes GUID service types from many well-known services within the DNS and SAP namespaces.
 
 The <i>Svcguid.h</i> header file is not automatically included by the <i>Winsock2.h</i> header file.
 
-
 ### -param lpServiceName [in]
 
 A pointer to a zero-terminated string that uniquely represents the service name. For example, "MY SNA SERVER."
-
 
 ### -param dwProperties [in]
 
@@ -265,8 +257,6 @@ If this flag is set, the function stores data in all of the members of the data 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
@@ -284,20 +274,15 @@ The function stores the
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structures point to information that is stored in the buffer between the end of the 
 <b>NS_SERVICE_INFO</b> structures and the end of the buffer.
 
-
 ### -param lpdwBufferSize [in, out]
 
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer pointed to by <i>lpBuffer</i>. On output, this variable contains the number of bytes required to store the requested information. If this output value is greater than the input value, the function has failed due to insufficient buffer size.
-
 
 ### -param lpServiceAsyncInfo [in, optional]
 
 Reserved for future use. Must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a> structures stored in *<i>lpBuffer</i>. Zero indicates that no structures were stored.
@@ -333,15 +318,8 @@ The specified service was not found, or the specified namespace is not in use. T
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a>
 
@@ -360,9 +338,6 @@ The specified service was not found, or the specified namespace is not in use. T
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 
 ## -remarks
 

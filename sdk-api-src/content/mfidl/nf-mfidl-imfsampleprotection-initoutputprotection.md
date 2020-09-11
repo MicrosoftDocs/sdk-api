@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 03bee13d-1c51-4b26-98bb-bac15264aa54
 ms.date: 12/05/2018
 ms.keywords: 03bee13d-1c51-4b26-98bb-bac15264aa54, IMFSampleProtection interface [Media Foundation],InitOutputProtection method, IMFSampleProtection.InitOutputProtection, IMFSampleProtection::InitOutputProtection, InitOutputProtection, InitOutputProtection method [Media Foundation], InitOutputProtection method [Media Foundation],IMFSampleProtection interface, mf.imfsampleprotection_initoutputprotection, mfidl/IMFSampleProtection::InitOutputProtection
-f1_keywords:
-- mfidl/IMFSampleProtection.InitOutputProtection
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSampleProtection.InitOutputProtection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSampleProtection::InitOutputProtection
+ - mfidl/IMFSampleProtection::InitOutputProtection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSampleProtection.InitOutputProtection
 ---
 
 # IMFSampleProtection::InitOutputProtection
@@ -50,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves initialization information for sample protection from the upstream component.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwVersion [in]
 
 Specifies the version number of the sample protection scheme. The version number is specified as a <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-sample_protection_version">SAMPLE_PROTECTION_VERSION</a> enumeration value.
 
-
 ### -param dwOutputId [in]
 
 Identifier of the output stream. The identifier corresponds to the output stream identifier returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
-
 
 ### -param pbCert [in]
 
 Pointer to a certificate provided by the downstream component.
 
-
 ### -param cbCert [in]
 
 Size of the certificate, in bytes.
-
 
 ### -param ppbSeed [out]
 
 Receives a pointer to a buffer that contains the initialization information for downstream component. The caller must free the memory for the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
-
 ### -param pcbSeed [out]
 
 Receives the size of the <i>ppbSeed</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -126,27 +111,12 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method must be implemented by the upstream component. The method fails if the component does not support the requested sample protection version. Downstream components do not implement this method and should return E_NOTIMPL.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\iqueryparser.htm
 ms.date: 12/05/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], IQueryParser interface [search],described, _search_IQueryParser, search._search_IQueryParser, structuredquery/IQueryParser
-f1_keywords:
-- structuredquery/IQueryParser
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- IQueryParser
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IQueryParser
+ - structuredquery/IQueryParser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - IQueryParser
 ---
 
 # IQueryParser interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods to parse an input string into an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a> object.
-        
-
 
 ## -inheritance
 
@@ -142,25 +140,13 @@ Sets a single option, such as a specified wordbreaker, for parsing an input stri
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/lwef/-search-2x-wds-aqsreference">Advanced Query Syntax</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 85f9b208-ddc2-4d9c-a30b-b666c81a49d2
 ms.date: 12/05/2018
 ms.keywords: IDvdCmd, IDvdCmd interface [DirectShow], IDvdCmd interface [DirectShow],described, IDvdCmdInterface, dshow.idvdcmd, strmif/IDvdCmd
-f1_keywords:
-- strmif/IDvdCmd
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdCmd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdCmd
+ - strmif/IDvdCmd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdCmd
 ---
 
 # IDvdCmd interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IDvdCmd</code> interface waits for DVD commands to start or end.
 
 The DVD Navigator creates synchronization objects that expose this interface. The application can use the object to block the DVD Navigator until the command starts or completes. For more information on using this interface, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>. (This topic also discusses other ways to synchronize commands without using synchronization objects.)
-
-
-
 
 ## -inheritance
 
@@ -92,20 +88,13 @@ Blocks the DVD Navigator until the command associated with this object begins.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
- 
-
- 
 

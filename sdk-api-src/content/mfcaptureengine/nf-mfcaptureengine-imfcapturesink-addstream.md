@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5D7A1FE0-92B9-4CC4-A268-17FA848055A9
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],AddStream method, IMFCaptureSink.AddStream, IMFCaptureSink::AddStream, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesink_addstream, mfcaptureengine/IMFCaptureSink::AddStream
-f1_keywords:
-- mfcaptureengine/IMFCaptureSink.AddStream
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSink.AddStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSink::AddStream
+ - mfcaptureengine/IMFCaptureSink::AddStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSink.AddStream
 ---
 
 # IMFCaptureSink::AddStream
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Connects a stream from the capture source to this capture sink.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSourceStreamIndex [in]
 
@@ -112,8 +108,6 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pMediaType [in]
 
@@ -131,15 +125,11 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjec
 
 For the preview sink, set this parameter to <b>NULL</b>.
 
-
 ### -param pdwSinkStreamIndex [out]
 
-Receives the index of the new stream on the capture sink. Note that this index will not necessarily match the value of <i>dwSourceStreamIndex</i>. 
-
+Receives the index of the new stream on the capture sink. Note that this index will not necessarily match the value of <i>dwSourceStreamIndex</i>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -182,18 +172,8 @@ The <i>dwSourceStreamIndex</i> parameter is invalid, or the specified source str
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
- 
-
- 
 

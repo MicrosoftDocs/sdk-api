@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 126ffefa-165b-4ca1-a905-1aebc8e790c7
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Files], base.ioctl_disk_reassign_blocks_ex, fs.ioctl_disk_reassign_blocks_ex, winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
-f1_keywords:
-- winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_REASSIGN_BLOCKS_EX
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_REASSIGN_BLOCKS_EX
+ - winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_REASSIGN_BLOCKS_EX
 ---
 
 # IOCTL_DISK_REASSIGN_BLOCKS_EX IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -93,11 +88,9 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 The [REASSIGN_BLOCKS_EX](ns-winioctl-reassign_blocks_ex.md) structure that the **IOCTL_DISK_REASSIGN_BLOCKS_EX** control code uses supports 8-byte Logical Block Addresses (LBA). For compatibility, the [IOCTL_DISK_REASSIGN_BLOCKS](ni-winioctl-ioctl_disk_reassign_blocks.md) control code and [REASSIGN_BLOCKS](ns-winioctl-reassign_blocks.md) structure should be used where the LBA fits in the 4-byte LBA that the **REASSIGN_BLOCKS** structure supports (typically drives up to 2 TB).
-
 
 ## -see-also
 
@@ -106,3 +99,4 @@ The [REASSIGN_BLOCKS_EX](ns-winioctl-reassign_blocks_ex.md) structure that the *
 * [IOCTL_DISK_REASSIGN_BLOCKS](ni-winioctl-ioctl_disk_reassign_blocks.md)
 * [REASSIGN_BLOCKS](ns-winioctl-reassign_blocks.md)
 * [REASSIGN_BLOCKS_EX](ns-winioctl-reassign_blocks_ex.md)
+

@@ -8,10 +8,6 @@ tech.root: input_ink
 ms.assetid: 17480bbd-7d4f-4ba9-9d54-80f440104055
 ms.date: 12/05/2018
 ms.keywords: CreateInkPresenter, CreateInkPresenter method, CreateInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateInkPresenter method, IInkDesktopHost.CreateInkPresenter, IInkDesktopHost::CreateInkPresenter, InkPresenterDesktop.iinkdesktophost_createinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter, input_ink.iinkdesktophost_createinkpresenter
-f1_keywords:
-- inkpresenterdesktop/IInkDesktopHost.CreateInkPresenter
-dev_langs:
-- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkPresenterDesktop.h
-api_name:
-- IInkDesktopHost.CreateInkPresenter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDesktopHost::CreateInkPresenter
+ - inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkPresenterDesktop.h
+api_name:
+ - IInkDesktopHost.CreateInkPresenter
 ---
 
 # IInkDesktopHost::CreateInkPresenter
 
 
 ## -description
-
 
 Creates an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object on an application thread.
 
@@ -59,32 +59,19 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/in
 
 ## -parameters
 
-
-
-
 ### -param riid [in]
 
 A reference to the interface identifier of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object.
-
 
 ### -param ppv [out]
 
 Address of a pointer variable that receives the interface pointer identified by <i>riid</i>.
 
-
 ## -returns
-
-
 
 If successful, returns the requested interface pointer. Otherwise, returns <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
 
@@ -107,7 +94,4 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: E85DA115-C705-44B8-B4D4-E862634CDC41
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetApplicationPoolCredentials method, ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials, ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, SetApplicationPoolCredentials, SetApplicationPoolCredentials method [Security], SetApplicationPoolCredentials method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, security.icertificateenrollmentserversetup_setapplicationpoolcredentials
-f1_keywords:
-- casetup/ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
+ - casetup/ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials
 ---
 
 # ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetApplicationPoolCredentials</b> method specifies user account information for the application pool in which the Certificate Enrollment Web Service (CES) runs.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrUsername [in]
 
 A <b>BSTR</b> that contains the username for the account.
 
-
 ### -param bstrPassword [in]
 
 A <b>BSTR</b> that contains the account password.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -102,14 +94,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetApplicationPoolCredentials</b> method determines whether the user credentials are valid and whether the account is a member of the IIS_IUSRS group. If an error is encountered, the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property can be set to any of the following:<ul>
 <li>"Setup is unable to obtain security information for the account."</li>
@@ -119,17 +105,7 @@ The <b>SetApplicationPoolCredentials</b> method determines whether the user cred
 <li>"The account should be a domain account.  Local account is not allowed."</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
- 
-
- 
 

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::CreateSession
 f1_keywords:
+ - IMFContentDecryptionModule::CreateSession
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::CreateSession
 dev_langs:
  - c++

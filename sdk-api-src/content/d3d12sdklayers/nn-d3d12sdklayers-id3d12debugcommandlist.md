@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: EDE527F0-4091-4B03-9030-6F693FE901BE
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandList, ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,described, d3d12sdklayers/ID3D12DebugCommandList, direct3d12.id3d12debugcommandlist
-f1_keywords:
-- d3d12sdklayers/ID3D12DebugCommandList
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12sdklayers.h
-api_name:
-- ID3D12DebugCommandList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12DebugCommandList
+ - d3d12sdklayers/ID3D12DebugCommandList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12sdklayers.h
+api_name:
+ - ID3D12DebugCommandList
 ---
 
 # ID3D12DebugCommandList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods to monitor and debug a command list.
-
 
 ## -inheritance
 
@@ -96,20 +95,13 @@ Turns the debug features for a command list on or off.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

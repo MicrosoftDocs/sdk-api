@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 08e7d450-0c75-4ef5-a9c5-ef0255601a9a
 ms.date: 12/05/2018
 ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snmp.snmpcountvbl, winsnmp/SnmpCountVbl
-f1_keywords:
-- winsnmp/SnmpCountVbl
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpCountVbl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpCountVbl
+ - winsnmp/SnmpCountVbl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpCountVbl
 ---
 
 # SnmpCountVbl function
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 A WinSNMP application calls the WinSNMP 
 <b>SnmpCountVbl</b> function to enumerate the variable binding entries in the specified variable bindings list.
 
-
 ## -parameters
-
-
-
 
 ### -param vbl [in]
 
 Handle to the variable bindings list to enumerate.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the count of variable binding entries in the variable bindings list.
 
@@ -138,14 +131,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SnmpCountVbl</b> function returns an unsigned integer value that is the maximum value the WinSNMP application can specify for the <i>index</i> parameter in the 
@@ -153,13 +140,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsetvb">SnmpSetVb</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpdeletevb">SnmpDeleteVb</a> functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpdeletevb">SnmpDeleteVb</a>
 
@@ -179,7 +160,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

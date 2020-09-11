@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 5532aab1-850e-4de8-a470-c55fb4c2f8c4
 ms.date: 12/05/2018
 ms.keywords: OPC_RELATIONSHIP_SELECTOR, OPC_RELATIONSHIP_SELECTOR enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SELECT_BY_ID, OPC_RELATIONSHIP_SELECT_BY_TYPE, msopc/OPC_RELATIONSHIP_SELECTOR, msopc/OPC_RELATIONSHIP_SELECT_BY_ID, msopc/OPC_RELATIONSHIP_SELECT_BY_TYPE, opc.opc_relationship_selector
-f1_keywords:
-- msopc/OPC_RELATIONSHIP_SELECTOR
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msopc.h
-api_name:
-- OPC_RELATIONSHIP_SELECTOR
 targetos: Windows
 req.typenames: OPC_RELATIONSHIP_SELECTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_msopc_0001_0076_0002
+ - msopc/__MIDL___MIDL_itf_msopc_0001_0076_0002
+ - OPC_RELATIONSHIP_SELECTOR
+ - msopc/OPC_RELATIONSHIP_SELECTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msopc.h
+api_name:
+ - OPC_RELATIONSHIP_SELECTOR
 ---
 
 # OPC_RELATIONSHIP_SELECTOR enumeration
@@ -49,29 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes how to interpret the  <i>selectionCriterion</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselector-getselectioncriterion">IOpcRelationshipSelector::GetSelectionCriterion</a> method.
 
-
 ## -enum-fields
-
-
-
 
 ### -field OPC_RELATIONSHIP_SELECT_BY_ID
 
 The <i>selectionCriterion</i> parameter is a relationship identifier.
 
-
 ### -field OPC_RELATIONSHIP_SELECT_BY_TYPE
 
 The <i>selectionCriterion</i> parameter is a relationship type.
 
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
@@ -114,7 +107,4 @@ The <i>selectionCriterion</i> parameter is a relationship type.
 
 
 <b>Reference</b>
- 
-
- 
 

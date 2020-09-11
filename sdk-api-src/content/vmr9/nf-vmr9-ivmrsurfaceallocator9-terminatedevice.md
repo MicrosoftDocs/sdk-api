@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 5006265d-6f2b-433b-b3ce-a7074d6eb159
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],TerminateDevice method, IVMRSurfaceAllocator9.TerminateDevice, IVMRSurfaceAllocator9::TerminateDevice, IVMRSurfaceAllocator9TerminateDevice, TerminateDevice, TerminateDevice method [DirectShow], TerminateDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_terminatedevice, vmr9/IVMRSurfaceAllocator9::TerminateDevice
-f1_keywords:
-- vmr9/IVMRSurfaceAllocator9.TerminateDevice
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRSurfaceAllocator9.TerminateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRSurfaceAllocator9::TerminateDevice
+ - vmr9/IVMRSurfaceAllocator9::TerminateDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRSurfaceAllocator9.TerminateDevice
 ---
 
 # IVMRSurfaceAllocator9::TerminateDevice
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TerminateDevice</b> method releases the Direct3D device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwID [in]
 
 Application-defined identifier. This value is the same value that the application passed to the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurfaceallocatornotify9-advisesurfaceallocator">IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator</a> method in the <i>dwUserID</i> parameter.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -90,25 +80,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Include DShow.h and D3d9.h before Vmr9.h.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -123,7 +100,4 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

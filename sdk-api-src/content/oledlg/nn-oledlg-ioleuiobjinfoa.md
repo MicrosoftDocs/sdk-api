@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 508dccb3-e98b-4f62-8bc3-98ca2b0d1349
 ms.date: 12/05/2018
 ms.keywords: IOleUIObjInfo, IOleUIObjInfo interface [COM], IOleUIObjInfo interface [COM],described, IOleUIObjInfoA, IOleUIObjInfoW, _ole_IOleUIObjInfo, com.ioleuiobjinfo, oledlg/IOleUIObjInfo
-f1_keywords:
-- oledlg/IOleUIObjInfo
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleDlg.h
-api_name:
-- IOleUIObjInfo
-- IOleUIObjInfoW
-- IOleUIObjInfoA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUIObjInfoA
+ - oledlg/IOleUIObjInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleDlg.h
+api_name:
+ - IOleUIObjInfo
+ - IOleUIObjInfoW
+ - IOleUIObjInfoA
 ---
 
 # IOleUIObjInfoA interface
@@ -51,9 +52,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implemented by containers and used by the container's <b>Object Properties</b> dialog box and by the <b>Convert</b> dialog box. It provides information used by the <b>General</b> and <b>View</b> pages of the <b>Object Properties</b> dialog box , which display information about the object's size, location, type, and name. It also allows the object to be converted using the <b>Convert</b> dialog box. The <b>View</b> page allows the object's icon to be modified from its original form, and its display aspect to be changed (iconic versus content). Optionally, you can have your implementation of this interface allow the scale of the object to be changed.
-
 
 ## -inheritance
 
@@ -115,22 +114,15 @@ Sets the view information associated with the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
- 
-
- 
 
 ## -remarks
 

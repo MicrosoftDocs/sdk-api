@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 7f6d0f20-5dfa-4d6c-8551-1dbc3cc54176
 ms.date: 12/05/2018
 ms.keywords: SymGetLinePrev, SymGetLinePrev function, SymGetLinePrev64, SymGetLinePrev64 function, SymGetLinePrevW64, _win32_symgetlineprev64, base.symgetlineprev64, dbghelp/SymGetLinePrev, dbghelp/SymGetLinePrev64, dbghelp/SymGetLinePrevW64
-f1_keywords:
-- dbghelp/SymGetLinePrev64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymGetLinePrev64
-- SymGetLinePrev64
-- SymGetLinePrevW64
-- SymGetLinePrev
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymGetLinePrev64
+ - dbghelp/SymGetLinePrev64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymGetLinePrev64
+ - SymGetLinePrev64
+ - SymGetLinePrevW64
+ - SymGetLinePrev
 ---
 
 # SymGetLinePrev64 function
@@ -52,42 +53,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the line information for the previous source line.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
-
 ### -param Line [in, out]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SymGetLinePrev64</b> function requires that the 
@@ -140,14 +127,7 @@ SymGetLinePrevW(
 #endif
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -170,7 +150,4 @@ SymGetLinePrevW(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
- 
-
- 
 

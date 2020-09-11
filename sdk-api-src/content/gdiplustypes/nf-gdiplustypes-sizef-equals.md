@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefmethods\equals_12sz.htm
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],SizeF class, SizeF class [GDI+],Equals method, SizeF.Equals, SizeF::Equals, _gdiplus_CLASS_SizeF_Equals_sz_, gdiplus._gdiplus_CLASS_SizeF_Equals_sz_
-f1_keywords:
-- gdiplustypes/SizeF.Equals
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- SizeF.Equals
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - SizeF::Equals
+ - gdiplustypes/SizeF::Equals
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - SizeF.Equals
 ---
 
 # SizeF::Equals
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SizeF::Equals</b> method determines whether two 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> objects are equal.
 
-
 ## -parameters
-
-
-
 
 ### -param sz [in, ref]
 
@@ -66,12 +62,9 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusty
 
 Reference to a 
 					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object that is compared to this 
-					<b>SizeF</b> object. 
-
+					<b>SizeF</b> object.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -80,12 +73,7 @@ If the
 						<b>Height</b> data members of the two 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Two 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> objects are defined as equal if the 
@@ -112,14 +100,7 @@ if(rectSizeF.Equals(desiredSizeF))
 } 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
@@ -130,7 +111,4 @@ if(rectSizeF.Equals(desiredSizeF))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
- 
-
- 
 

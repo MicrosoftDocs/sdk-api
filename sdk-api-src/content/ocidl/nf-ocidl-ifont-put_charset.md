@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: da48fefa-28d2-41aa-a324-dc259504c9ed
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Charset method, IFont.put_Charset, IFont::put_Charset, _ctrl_ifont_put_charset, com.ifont_put_charset, ocidl/IFont::put_Charset, put_Charset, put_Charset method [COM], put_Charset method [COM],IFont interface
-f1_keywords:
-- ocidl/IFont.put_Charset
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IFont.put_Charset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFont::put_Charset
+ - ocidl/IFont::put_Charset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IFont.put_Charset
 ---
 
 # IFont::put_Charset
@@ -49,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the font's character set.
 
-
 ## -parameters
-
-
-
 
 ### -param charset [in]
 
 The new character set for the font.
 
-
 ## -returns
-
-
 
 The method supports the standard return value <b>E_INVALIDARG</b> and S_OK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_charset">IFont::get_Charset</a>
- 
-
- 
 

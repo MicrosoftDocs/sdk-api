@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 0113b29d-23aa-4590-b8ac-33789a7a2ed4
 ms.date: 12/05/2018
 ms.keywords: StgCreatePropSetStg, StgCreatePropSetStg function [Structured Storage], _stg_stgcreatepropsetstg, coml2api/StgCreatePropSetStg, stg.stgcreatepropsetstg
-f1_keywords:
-- coml2api/StgCreatePropSetStg
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-api_name:
-- StgCreatePropSetStg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StgCreatePropSetStg
+ - coml2api/StgCreatePropSetStg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+api_name:
+ - StgCreatePropSetStg
 ---
 
 # StgCreatePropSetStg function
@@ -51,44 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>StgCreatePropSetStg</b> function creates a property set storage object from a specified storage object. The property set storage object supplies the system-provided, stand-alone implementation of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pStorage [in]
 
 A pointer to the storage object that contains or will contain one or more property sets.
 
-
 ### -param dwReserved
 
 Reserved for future use; must be zero.
-
 
 ### -param ppPropSetStg [out]
 
 A pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>* pointer variable that receives the interface pointer to the property-set storage object.
 
-
 ## -returns
-
-
 
 This function supports the standard return value <b>E_INVALIDARG</b> as well as the following:
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>StgCreatePropSetStg</b> function creates an 
@@ -141,14 +127,7 @@ CreatePropertySetInStorage( IStorage *pStg, const FMTID &fmtid )
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>
 
@@ -159,7 +138,4 @@ CreatePropertySetInStorage( IStorage *pStg, const FMTID &fmtid )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/stgcreatepropsetstg-sample">StgCreatePropSetStg Sample</a>
- 
-
- 
 

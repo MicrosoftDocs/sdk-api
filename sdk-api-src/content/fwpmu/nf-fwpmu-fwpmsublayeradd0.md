@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 85a6f4a9-297f-491d-b2f7-38de21dbe06c
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerAdd0, FwpmSubLayerAdd0 function [Filtering], fwp.fwpmsublayeradd0_func, fwpmu/FwpmSubLayerAdd0
-f1_keywords:
-- fwpmu/FwpmSubLayerAdd0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmSubLayerAdd0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmSubLayerAdd0
+ - fwpmu/FwpmSubLayerAdd0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmSubLayerAdd0
 ---
 
 # FwpmSubLayerAdd0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmSubLayerAdd0</b> function adds a new sublayer to the system.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param subLayer [in]
 
 Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)*</b>
 
 The sublayer to be added.
-
 
 ### -param sd [in, optional]
 
@@ -78,10 +72,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-
 
 Security information for the sublayer object.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -127,14 +118,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the caller supplies a null security descriptor, the system will assign a default security descriptor.
 
@@ -211,14 +196,7 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)
 
@@ -229,7 +207,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
- 
-
- 
 

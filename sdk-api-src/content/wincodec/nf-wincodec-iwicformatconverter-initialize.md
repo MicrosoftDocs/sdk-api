@@ -9,10 +9,6 @@ ms.assetid: ff046b2c-a863-48dd-9cbe-3c559c84b682
 ms.author: windowssdkdev
 ms.date: 3/9/2019
 ms.keywords: IWICFormatConverter interface [Windows Imaging Component],Initialize method, IWICFormatConverter.Initialize, IWICFormatConverter::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICFormatConverter interface, _wic_codec_iwicformatconverter_initialize, wic._wic_codec_iwicformatconverter_initialize, wincodec/IWICFormatConverter::Initialize
-f1_keywords:
-- wincodec/IWICFormatConverter.Initialize
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +26,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICFormatConverter.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICFormatConverter::Initialize
+ - wincodec/IWICFormatConverter::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICFormatConverter.Initialize
 ---
 
 # IWICFormatConverter::Initialize
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the format converter.
 
-
 ## -parameters
-
-
-
 
 ### -param pISource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 The input bitmap to convert
-
 
 ### -param dstFormat [in]
 
@@ -103,7 +98,6 @@ Type: <b>HRESULT</b>
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
-
 
 If you do not have a predefined palette, you must first create one. Use <a href="https://msdn.microsoft.com/f17d0f16-729e-466c-902f-61398daf2921">InitializeFromBitmap</a> to create the palette object, then pass it in along with your other parameters.
 
@@ -191,3 +185,4 @@ SafeRelease(&pIDecoderFrame);
 SafeRelease(&pIDecoder);
 
 ```
+

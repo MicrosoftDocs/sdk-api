@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSessionCallbacks::KeyMessage
 f1_keywords:
+ - IMFContentDecryptionModuleSessionCallbacks::KeyMessage
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSessionCallbacks::KeyMessage
 dev_langs:
  - c++
@@ -41,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Called when the Content Decryption Module (CDM) has generated a message for the session.  
+Called when the Content Decryption Module (CDM) has generated a message for the session.
 
 ## -parameters
 
@@ -60,7 +61,6 @@ The size of the array in the *message* parameter.
 ### -param destinationURL
 
 A optional parameter containing the destination URL.
-
 
 ## -returns
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: c0ef3fd6-aed7-40ec-96e6-7962e77bdd46
 ms.date: 12/05/2018
 ms.keywords: GetMaximumClients, GetMaximumClients method [windows Media Format], GetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetMaximumClients method, IWMWriterNetworkSink.GetMaximumClients, IWMWriterNetworkSink::GetMaximumClients, IWMWriterNetworkSinkGetMaximumClients, wmformat.iwmwriternetworksink_getmaximumclients, wmsdkidl/IWMWriterNetworkSink::GetMaximumClients
-f1_keywords:
-- wmsdkidl/IWMWriterNetworkSink.GetMaximumClients
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterNetworkSink.GetMaximumClients
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterNetworkSink::GetMaximumClients
+ - wmsdkidl/IWMWriterNetworkSink::GetMaximumClients
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterNetworkSink.GetMaximumClients
 ---
 
 # IWMWriterNetworkSink::GetMaximumClients
@@ -52,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetMaximumClients</b> method retrieves the maximum number of clients that can connect to this sink.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwMaxClients [out]
 
 Pointer to a variable that receives the maximum number of clients. The default value is 5.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, the values shown in the following table.
 
@@ -103,22 +93,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-setmaximumclients">IWMWriterNetworkSink::SetMaximumClients</a>
- 
-
- 
 

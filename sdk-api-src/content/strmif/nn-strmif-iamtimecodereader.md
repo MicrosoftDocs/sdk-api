@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 76c3f603-8abc-450a-adb2-f2a90cb1634d
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader, IAMTimecodeReader interface [DirectShow], IAMTimecodeReader interface [DirectShow],described, IAMTimecodeReaderInterface, dshow.iamtimecodereader, strmif/IAMTimecodeReader
-f1_keywords:
-- strmif/IAMTimecodeReader
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTimecodeReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTimecodeReader
+ - strmif/IAMTimecodeReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTimecodeReader
 ---
 
 # IAMTimecodeReader interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAMTimecodeReader</b> interface reads SMPTE or MIDI timecode from an external device. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> drivers support this interface for reading timecode from an external DV or MPEG-2 camcorder.
-
-
-
 
 ## -inheritance
 
@@ -117,12 +113,9 @@ Sets the timecode reader properties.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the PROPSETID_TIMECODE_READER property set. For more information, see the <a href="https://msdn.microsoft.com/library/ff554690(VS.85).aspx">Windows Driver Kit (WDK)</a> documentation.
 
@@ -151,16 +144,7 @@ Implement this interface on an external device filter when you want to specify h
 
 The external device must be able to read timecode and send it to the computer over its control interface. If this is not the case, you must either have a timecode reader card in your computer, or you can write a software decoder that converts VITC (Vertical Interval Timecode) in captured video frames or LTC (Linear Timecode) captured as an audio signal into DirectShow timecode samples.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 97FFD00F-6141-472c-A60C-A9A282190C9D
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetStringValue method, ICredentialProviderUser.GetStringValue, ICredentialProviderUser::GetStringValue, credentialprovider/ICredentialProviderUser::GetStringValue, shell.ICredentialProviderUser_GetStringValue
-f1_keywords:
-- credentialprovider/ICredentialProviderUser.GetStringValue
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Authui.dll
-api_name:
-- ICredentialProviderUser.GetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderUser::GetStringValue
+ - credentialprovider/ICredentialProviderUser::GetStringValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Authui.dll
+api_name:
+ - ICredentialProviderUser.GetStringValue
 ---
 
 # ICredentialProviderUser::GetStringValue
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves string properties from the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a> object based on the input value.
 
-
 ## -parameters
-
-
-
 
 ### -param key [in]
 
@@ -113,26 +109,16 @@ One of the following values that specify the property to retrieve.
 <td>Logon UI and Credential UI</td>
 </tr>
 </table>
- 
-
 
 ### -param stringValue [out]
 
 The address of a pointer to a buffer that, when this method returns successfully, receives the requested string.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Each of these values can also be retrieved as a <b>PROPVARIANT</b> through <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getvalue">ICredentialProviderUser::GetValue</a>.
 
@@ -215,22 +201,12 @@ In this scenario, the following table provides some sample data for each of the 
 <td>"lisa@contoso.com"</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getvalue">ICredentialProviderUser::GetValue</a>
- 
-
- 
 

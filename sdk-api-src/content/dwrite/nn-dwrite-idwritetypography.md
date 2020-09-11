@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 061f42db-e9df-4d8c-981f-68d440dfc4c2
 ms.date: 12/05/2018
 ms.keywords: IDWriteTypography, IDWriteTypography interface [Direct Write], IDWriteTypography interface [Direct Write],described, directwrite.IDWriteTypography, dwrite/IDWriteTypography
-f1_keywords:
-- dwrite/IDWriteTypography
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTypography
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTypography
+ - dwrite/IDWriteTypography
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTypography
 ---
 
 # IDWriteTypography interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Represents a font typography setting.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ The <b>IDWriteTypography</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
+</table>
 

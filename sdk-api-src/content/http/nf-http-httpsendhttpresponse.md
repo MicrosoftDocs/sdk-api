@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 0183584f-105e-4fa3-8991-d3f2dfca1d62
 ms.date: 12/05/2018
 ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCONNECT, HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING, HTTP_SEND_RESPONSE_FLAG_MORE_DATA, HTTP_SEND_RESPONSE_FLAG_OPAQUE, HTTP_SEND_RESPONSE_FLAG_PROCESS_RANGES, HttpSendHttpResponse, HttpSendHttpResponse function [HTTP], _http_httpsendhttpresponse, http.httpsendhttpresponse, http/HttpSendHttpResponse
-f1_keywords:
-- http/HttpSendHttpResponse
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpSendHttpResponse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpSendHttpResponse
+ - http/HttpSendHttpResponse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpSendHttpResponse
 ---
 
 # HttpSendHttpResponse function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpSendHttpResponse</b> function sends an HTTP response to the specified HTTP request.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
@@ -66,13 +62,11 @@ A handle to the request queue from which the specified request was retrieved. A 
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
-
 ### -param RequestId [in]
 
 An identifier of the HTTP request to which this response corresponds. This value is returned in the <b>RequestId</b> member of the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure by a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> function. This value cannot be <b>HTTP_NULL_ID</b>.
-
 
 ### -param Flags [in]
 
@@ -171,14 +165,11 @@ This flag is only allowed when the <b>StatusCode</b> member of <i>pHttpResponse<
 </td>
 </tr>
 </table>
- 
-
 
 ### -param HttpResponse [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a> structure that defines the HTTP response.
-
 
 ### -param CachePolicy [in, optional]
 
@@ -186,23 +177,19 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>This parameter is reserved and must be <b>NULL</b>.
 
-
 ### -param BytesSent [out]
 
 Optional. A pointer to a variable that receives the number, in bytes, sent if the function operates synchronously.
 
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesSent</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesSent</i> must contain a valid memory address and not be set to <b>NULL</b>.
 
-
 ### -param Reserved1 [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ### -param Reserved2 [in]
 
 This parameter is reserved and must be zero.
-
 
 ### -param Overlapped [in]
 
@@ -212,7 +199,6 @@ For asynchronous calls, set <i>pOverlapped</i> to point to an
 A synchronous call blocks until all response data specified in the <i>pHttpResponse</i> parameter is sent, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
-
 
 ### -param LogData [in, optional]
 
@@ -224,10 +210,7 @@ Be aware that even when logging is enabled on a URL Group, or server session, th
 
 <b>Windows Vista and Windows Server 2008:  </b>This parameter is new for Windows Vista, and Windows Server 2008
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>NO_ERROR</b>.
 
@@ -263,14 +246,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>HttpSendHttpResponse</b> function is used to create and send a response header, and the 
@@ -283,12 +260,7 @@ If neither a content-length header nor a transfer-encoding header is included wi
 <div class="alert"><b>Note</b>  The <b>HttpSendHttpResponse</b> and <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> function must not be called simultaneously from different threads on the same <i>RequestId</i>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
@@ -307,7 +279,4 @@ If neither a content-length header nor a transfer-encoding header is included wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
- 
-
- 
 

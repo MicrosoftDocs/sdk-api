@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: fe4e8d34-b0fc-4c93-bbde-83cd38625930
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderDeleteByKey0, FwpmProviderDeleteByKey0 function [Filtering], fwp.fwpmproviderdeletebykey0_func, fwpmu/FwpmProviderDeleteByKey0
-f1_keywords:
-- fwpmu/FwpmProviderDeleteByKey0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmProviderDeleteByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmProviderDeleteByKey0
+ - fwpmu/FwpmProviderDeleteByKey0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmProviderDeleteByKey0
 ---
 
 # FwpmProviderDeleteByKey0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmProviderDeleteByKey0</b> function removes a provider from the system.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,17 +60,13 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param key [in]
 
 Type: <b>const GUID*</b>
 
 Unique identifier of the object being removed from the system. This is the same GUID that was specified when the application called <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovideradd0">FwpmProviderAdd0</a>.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -120,14 +112,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function cannot be called from within a read-only transaction. It will fail with
 <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
@@ -138,16 +124,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/st
 
 <b>FwpmProviderDeleteByKey0</b> is a specific implementation of FwpmProviderDeleteByKey. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovideradd0">FwpmProviderAdd0</a>
- 
-
- 
 

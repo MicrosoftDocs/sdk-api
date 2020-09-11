@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c29d1972-b329-4e32-aead-a038130fb85e
 ms.date: 12/05/2018
 ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Security], security.certopenserverocspresponse, wincrypt/CertOpenServerOcspResponse
-f1_keywords:
-- wincrypt/CertOpenServerOcspResponse
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertOpenServerOcspResponse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertOpenServerOcspResponse
+ - wincrypt/CertOpenServerOcspResponse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertOpenServerOcspResponse
 ---
 
 # CertOpenServerOcspResponse function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertOpenServerOcspResponse</b> function opens a handle to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response associated with a server certificate chain.
 
-
 ## -parameters
-
-
-
 
 ### -param pChainContext [in]
 
 The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure that contains the certificate chain.
 
-
 ### -param dwFlags [in]
 
 This parameter is not used and must be zero.
-
 
 ### -param pOpenPara
 
 This parameter is not used and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns a handle to the OCSP response associated with a server certificate chain if successful; otherwise, <b>NULL</b>. This handle must be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a> function when it is no longer needed.
 
@@ -111,14 +102,8 @@ The end certificate does not contain an OCSP authority information access (AIA) 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CertOpenServerOcspResponse</b> function tries to retrieve an initial OCSP response before it returns.
 It blocks its process thread during the retrieval. The <b>CertOpenServerOcspResponse</b> function creates a background thread that prefetches time-valid OCSP responses.
@@ -237,15 +222,7 @@ prefetch retrieval after the NextUpdate date of an OCSP response. When the curre
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a>
- 
-
- 
 

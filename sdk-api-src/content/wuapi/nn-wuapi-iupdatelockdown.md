@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 918a46f5-a1da-4f47-84f1-b715fc97bb8f
 ms.date: 12/05/2018
 ms.keywords: IUpdateLockdown, IUpdateLockdown interface [Windows Update Agent], IUpdateLockdown interface [Windows Update Agent],described, wua.iupdatelockdown, wuapi/IUpdateLockdown
-f1_keywords:
-- wuapi/IUpdateLockdown
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateLockdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateLockdown
+ - wuapi/IUpdateLockdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateLockdown
 ---
 
 # IUpdateLockdown interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Restricts access to methods and properties of objects that implements the method of this interface.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Restricts access to the methods and properties of the object that implements thi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IUpdateLockdown</b> interface is derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, not <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
 
@@ -97,5 +93,4 @@ The following classes implement the <b>IUpdateLockdown</b> interface:
 <li>UpdateServiceManager</li>
 <li>WebProxy</li>
 </ul>
-
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0fcfe68b-5d36-4be1-a468-b5c2d7af0651
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Shell], GetThumbnail method [Windows Shell],IThumbnailCache interface, IThumbnailCache interface [Windows Shell],GetThumbnail method, IThumbnailCache.GetThumbnail, IThumbnailCache::GetThumbnail, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnail, shell.IThumbnailCache_GetThumbnail, thumbcache/IThumbnailCache::GetThumbnail
-f1_keywords:
-- thumbcache/IThumbnailCache.GetThumbnail
-dev_langs:
-- c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Thumbcache.h
-api_name:
-- IThumbnailCache.GetThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThumbnailCache::GetThumbnail
+ - thumbcache/IThumbnailCache::GetThumbnail
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Thumbcache.h
+api_name:
+ - IThumbnailCache.GetThumbnail
 ---
 
 # IThumbnailCache::GetThumbnail
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a cached thumbnail for a given Shell item.
 
-
 ## -parameters
-
-
-
 
 ### -param pShellItem [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to the Shell item for which to retrieve a thumbnail.
 
-
 ### -param cxyRequestedThumbSize [in]
 
 Type: <b>UINT</b>
 
 The requested thumbnail size in pixels. The maximum value is 1024.
-
 
 ### -param flags [in]
 
@@ -78,13 +72,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ne-t
 
 A combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ne-thumbcache-wts_flags">WTS_FLAGS</a> enumeration. See the Remarks section for rules and a list of possible combinations.
 
-
 ### -param ppvThumb [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a>**</b>
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> pointer that, when this method returns successfully, receives the object used to access the thumbnail. This parameter may be <b>NULL</b>.
-
 
 ### -param pOutFlags [out, optional]
 
@@ -110,17 +102,13 @@ A pointer to a value that, when this method returns successfully, receives a com
 
 0x00000002. Set when the returned image is in the cache.
 
-
 ### -param pThumbnailID [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ns-thumbcache-wts_thumbnailid">WTS_THUMBNAILID</a>*</b>
 
 A pointer to a value that, when this method returns successfully, receives a unique ID for the returned thumbnail. This parameter may be <b>NULL</b>, in which case the thumbnail ID is discarded.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -187,14 +175,8 @@ The WTS_FASTEXTRACT flag was set, but fast extraction is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a thumbnail is extracted, it will be cached unless WTS_EXTRACTDONOTCACHE is specified.
 
@@ -228,20 +210,11 @@ The following combinations are valid for the flags parameter.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemimagefactory-getimage">GetImage</a> also uses this cache and can provide an easier way to retrieve the thumbnail. However, <b>GetImage</b> is more general and will retrieve an icon as a fallback.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemimagefactory-getimage">IShellItemImageFactory::GetImage</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcache">IThumbnailCache</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: ca4a458d-e2e5-4f8c-aac1-35f5ff91a0d9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMGeometry.SetTransformLocal, IXpsOMGeometry::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_settransformlocal, xpsobjectmodel/IXpsOMGeometry::SetTransformLocal
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometry.SetTransformLocal
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometry.SetTransformLocal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometry::SetTransformLocal
+ - xpsobjectmodel/IXpsOMGeometry::SetTransformLocal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometry.SetTransformLocal
 ---
 
 # IXpsOMGeometry::SetTransformLocal
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the local, unshared matrix transform.
 
-
 ## -parameters
-
-
-
 
 ### -param transform [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a> interface to be set as the local, unshared matrix transform for the geometry.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,14 +90,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After you call <b>SetTransformLocal</b>, the transform lookup key is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometry-gettransformlookup">GetTransformLookup</a> returns a <b>NULL</b> pointer in the <i>lookup</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
@@ -175,15 +162,8 @@ Neither <b>SetTransformLocal</b> nor <a href="https://docs.microsoft.com/windows
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a>
 
@@ -194,7 +174,4 @@ Neither <b>SetTransformLocal</b> nor <a href="https://docs.microsoft.com/windows
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

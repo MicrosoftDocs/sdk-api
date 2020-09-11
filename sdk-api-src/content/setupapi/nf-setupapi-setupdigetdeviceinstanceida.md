@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 43ad298d-2ff4-445a-aa23-1319d5f990c8
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInstanceId, SetupDiGetDeviceInstanceId function [Device and Driver Installation], SetupDiGetDeviceInstanceIdA, SetupDiGetDeviceInstanceIdW, devinst.setupdigetdeviceinstanceid, di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml, setupapi/SetupDiGetDeviceInstanceId
-f1_keywords:
-- setupapi/SetupDiGetDeviceInstanceId
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiGetDeviceInstanceId - SetupDiGetDeviceInstanceIdA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetDeviceInstanceIdA
+ - setupapi/SetupDiGetDeviceInstanceIdA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiGetDeviceInstanceId - SetupDiGetDeviceInstanceIdA
 ---
 
 # SetupDiGetDeviceInstanceIdA function
@@ -50,53 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiGetDeviceInstanceId</b> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> that is associated with a device information element.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device information element that represents the device for which to retrieve a device instance ID. 
-
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device information element that represents the device for which to retrieve a device instance ID.
 
 ### -param DeviceInfoData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
-
 ### -param DeviceInstanceId [out, optional]
 
 A pointer to the character buffer that will receive the NULL-terminated device instance ID for the specified device information element. For information about device instance IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
-
 
 ### -param DeviceInstanceIdSize [in]
 
 The size, in characters, of the <i>DeviceInstanceId</i> buffer.
 
-
 ### -param RequiredSize [out, optional]
 
 A pointer to the variable that receives the number of characters required to store the device instance ID.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
 
@@ -115,9 +98,6 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinfoa">SetupDiOpenDeviceInfo</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 8b25b32b-f739-406a-96e8-dba687c7f055
 ms.date: 12/05/2018
 ms.keywords: CopyTo, CopyTo method [Structured Storage], CopyTo method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CopyTo method, IStorage.CopyTo, IStorage::CopyTo, _stg_istorage_copyto, objidl/IStorage::CopyTo, stg.istorage_copyto
-f1_keywords:
-- objidl/IStorage.CopyTo
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IStorage.CopyTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStorage::CopyTo
+ - objidl/IStorage::CopyTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IStorage.CopyTo
 ---
 
 # IStorage::CopyTo
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CopyTo</b> method copies the entire contents of an open storage object to another storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param ciidExclude [in]
 
 The number of elements in the array pointed to by <i>rgiidExclude</i>. If <i>rgiidExclude</i> is <b>NULL</b>, then <i>ciidExclude</i> is ignored.
-
 
 ### -param rgiidExclude [in]
 
@@ -70,12 +65,10 @@ An array of interface identifiers (IIDs) that either the caller knows about and 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, indicating that only storage objects are to be copied. An array length of zero indicates that only the state exposed by the 
 <b>IStorage</b> object is to be copied; all other interfaces on the object are to be ignored. Passing <b>NULL</b> indicates that all interfaces on the object are to be copied.
 
-
 ### -param snbExclude [in]
 
 A string name block (refer to 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/snb">SNB</a>) that specifies a block of storage or stream objects that are not to be copied to the destination. These elements are not created at the destination. If <b>IID_IStorage</b> is in the <i>rgiidExclude</i> array, this parameter is ignored. This parameter may be <b>NULL</b>.
-
 
 ### -param pstgDest [in]
 
@@ -83,19 +76,11 @@ A pointer to the open storage object into which this storage object is to be cop
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface from the source storage object. Thus, <b>IStorage::CopyTo</b> can use only publicly available methods of the destination storage object. If <i>pstgDest</i> is open in transacted mode, it can be reverted by calling its 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-revert">IStorage::Revert</a> method.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 This method merges elements contained in the source storage object with those already present in the destination. The layout of the destination storage object may differ from the source storage object.
 
@@ -127,12 +112,7 @@ pstg->CopyTo(0, Null, Null, pstgDest)
 <div class="alert"><b>Note</b>  To compact a document file, call <b>CopyTo</b> on the root storage object and copy to a new storage object.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
 
@@ -143,7 +123,4 @@ pstg->CopyTo(0, Null, Null, pstgDest)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-revert">IStorage::Revert</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite, IOleControlSite interface [COM], IOleControlSite interface [COM],described, _ctrl_iolecontrolsite, com.iolecontrolsite, ocidl/IOleControlSite
-f1_keywords:
-- ocidl/IOleControlSite
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleControlSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleControlSite
+ - ocidl/IOleControlSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleControlSite
 ---
 
 # IOleControlSite interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods that enable a site object to manage each embedded control within a container. A site object provides <b>IOleControlSite</b> as well as other site interfaces such as <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>. When a control requires the services expressed through this interface, it will query one of the other client site interfaces for <b>IOleControlSite</b>.
-
 
 ## -inheritance
 
@@ -131,13 +130,9 @@ Passes a keystroke to the control site for processing.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
@@ -148,7 +143,4 @@ Passes a keystroke to the control site for processing.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
- 
-
- 
 

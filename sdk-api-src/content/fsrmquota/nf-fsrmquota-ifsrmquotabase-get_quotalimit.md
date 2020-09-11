@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 2f2b5d8f-70b7-497e-9c51-171dca657c69
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaLimit property, IFsrmQuotaBase.QuotaLimit, IFsrmQuotaBase.get_QuotaLimit, IFsrmQuotaBase::QuotaLimit, IFsrmQuotaBase::get_QuotaLimit, IFsrmQuotaBase::put_QuotaLimit, QuotaLimit property [File Server Resource Manager], QuotaLimit property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotalimit, fsrm.ifsrmquotabase_quotalimit, fsrmquota/IFsrmQuotaBase::QuotaLimit, fsrmquota/IFsrmQuotaBase::get_QuotaLimit, fsrmquota/IFsrmQuotaBase::put_QuotaLimit, get_QuotaLimit
-f1_keywords:
-- fsrmquota/IFsrmQuotaBase.QuotaLimit
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaBase.QuotaLimit
-- IFsrmQuotaBase.get_QuotaLimit
-- IFsrmQuotaBase.put_QuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaBase::get_QuotaLimit
+ - fsrmquota/IFsrmQuotaBase::get_QuotaLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaBase.QuotaLimit
+ - IFsrmQuotaBase.get_QuotaLimit
+ - IFsrmQuotaBase.put_QuotaLimit
 ---
 
 # IFsrmQuotaBase::get_QuotaLimit
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -60,13 +60,9 @@ Retrieves or sets the quota limit for the object.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If the quota limit is enforced, an IO operation that exceeds the limit will fail.
 
@@ -78,19 +74,11 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotabase">IFsrmQuotaBase</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

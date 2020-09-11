@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 7cc1e57a-a18a-4ea4-9669-0be3fb140d40
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],Receive method, IMemInputPin.Receive, IMemInputPin::Receive, IMemInputPinReceive, Receive, Receive method [DirectShow], Receive method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receive, strmif/IMemInputPin::Receive
-f1_keywords:
-- strmif/IMemInputPin.Receive
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMemInputPin.Receive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMemInputPin::Receive
+ - strmif/IMemInputPin::Receive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMemInputPin.Receive
 ---
 
 # IMemInputPin::Receive
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Receive</code> method receives the next media sample in the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pSample [in]
 
 Pointer to the sample's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -145,14 +135,8 @@ The pin is stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is synchronous and possibly blocking. The pin does one of the following:
 
@@ -172,19 +156,11 @@ If this method returns S_FALSE or an error code, the upstream filter should stop
 <li>The downstream filter detected the end of the stream. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/end-of-stream-notifications">End-of-Stream Notifications</a>.)</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
- 
-
- 
 

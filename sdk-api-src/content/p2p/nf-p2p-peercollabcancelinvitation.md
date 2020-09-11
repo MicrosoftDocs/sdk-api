@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 733c4ece-283b-4d25-8dab-1351f6ca7d12
 ms.date: 12/05/2018
 ms.keywords: PeerCollabCancelInvitation, PeerCollabCancelInvitation function [Peer Networking], p2p.peercollabcancelinvitation, p2p/PeerCollabCancelInvitation
-f1_keywords:
-- p2p/PeerCollabCancelInvitation
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabCancelInvitation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabCancelInvitation
+ - p2p/PeerCollabCancelInvitation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabCancelInvitation
 ---
 
 # PeerCollabCancelInvitation function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabCancelInvitation</b> function cancels an invitation previously sent by the caller to a contact.
 
-
 ## -parameters
-
-
-
 
 ### -param hInvitation [in]
 
 Handle to a previously sent invitation.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -119,14 +112,8 @@ The handle specified is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  When <b>PeerCollabCancelInvitation</b> is called, depending on the state of the invitation, it will perform one or more of the following actions:
 
@@ -139,19 +126,11 @@ After canceling the invitation, you must call <a href="https://docs.microsoft.co
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabclosehandle">PeerCollabCloseHandle</a>
- 
-
- 
 

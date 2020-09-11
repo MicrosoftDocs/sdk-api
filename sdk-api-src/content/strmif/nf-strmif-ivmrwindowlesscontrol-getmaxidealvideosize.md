@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1cfd8c4e-70e0-4a7e-a47e-4ad0535e5cb2
 ms.date: 12/05/2018
 ms.keywords: GetMaxIdealVideoSize, GetMaxIdealVideoSize method [DirectShow], GetMaxIdealVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetMaxIdealVideoSize method, IVMRWindowlessControl.GetMaxIdealVideoSize, IVMRWindowlessControl::GetMaxIdealVideoSize, IVMRWindowlessControlGetMaxIdealVideoSize, dshow.ivmrwindowlesscontrol_getmaxidealvideosize, strmif/IVMRWindowlessControl::GetMaxIdealVideoSize
-f1_keywords:
-- strmif/IVMRWindowlessControl.GetMaxIdealVideoSize
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRWindowlessControl.GetMaxIdealVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRWindowlessControl::GetMaxIdealVideoSize
+ - strmif/IVMRWindowlessControl::GetMaxIdealVideoSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRWindowlessControl.GetMaxIdealVideoSize
 ---
 
 # IVMRWindowlessControl::GetMaxIdealVideoSize
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetMaxIdealVideoSize</code> method retrieves the maximum video size that the VMR can display without incurring significant performance or image quality degradation.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpWidth [out]
 
 Pointer that receives the maximum ideal width.
 
-
 ### -param lpHeight [out]
 
 Pointer that receives the maximum ideal height.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
@@ -95,15 +84,8 @@ The VMR is not in windowless mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -118,7 +100,4 @@ The VMR is not in windowless mode.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

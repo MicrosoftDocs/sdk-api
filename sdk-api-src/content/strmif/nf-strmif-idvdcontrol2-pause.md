@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 32ef572a-56f5-4aa4-b994-08f86a1f17ec
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],Pause method, IDvdControl2.Pause, IDvdControl2::Pause, IDvdControl2Pause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_pause, strmif/IDvdControl2::Pause
-f1_keywords:
-- strmif/IDvdControl2.Pause
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::Pause
+ - strmif/IDvdControl2::Pause
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.Pause
 ---
 
 # IDvdControl2::Pause
@@ -50,28 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This method is deprecated. Applications should call <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a> instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-dvd-navigator">Data Flow in the DVD Navigator</a>.</div>
 <div> </div>
 The <code>Pause</code> method pauses or resumes playback at the current location.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bState [in]
 
 Value of type Boolean that specifies whether to pause playback; <b>TRUE</b> means to pause.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -114,14 +104,8 @@ UOP control prohibits the DVD Navigator from entering a paused state.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Putting the DVD Navigator into a paused state freezes playback and any internal timers, similar to <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a>. If the filter graph is not running, this method does nothing.
 
@@ -145,15 +129,8 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -164,7 +141,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
 

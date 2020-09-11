@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 0d8a9414-5c5c-40e0-a34c-430ead01ef26
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer3, IWMPPlayer3 interface [Windows Media Player], IWMPPlayer3 interface [Windows Media Player],described, IWMPPlayer3Interface, wmp.iwmpplayer3, wmp/IWMPPlayer3
-f1_keywords:
-- wmp/IWMPPlayer3
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlayer3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer3
+ - wmp/IWMPPlayer3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlayer3
 ---
 
 # IWMPPlayer3 interface
 
 
 ## -description
-
-
 
 The <b>IWMPPlayer3</b> interface provides methods for modifying the basic behavior of the control user interface. These methods supplement the <b>IWMPCore2</b> interface.
 
@@ -59,11 +58,7 @@ The <b>IWMPPlayer3</b> interface duplicates the methods of <b>IWMPPlayer</b> and
 
 Retrieve a pointer to an <b>IWMPPlayer3</b> interface either by calling the <b>QueryInterface</b> method of the <b>IWMPPlayer</b> or <b>IWMPPlayer2</b> interface, or by calling the COM <b>CoCreateInstance</b> method.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
@@ -90,7 +85,4 @@ Retrieve a pointer to an <b>IWMPPlayer3</b> interface either by calling the <b>Q
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 902bb9cf-d847-43fc-8282-394d619b8f1b
 ms.date: 12/05/2018
 ms.keywords: MSG_DONTROUTE, MSG_OOB, _win32_send_2, send, send function [Winsock], winsock.send_2, winsock2/send
-f1_keywords:
-- winsock2/send
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- send
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - send
+ - winsock2/send
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - send
 ---
 
 # send function
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>send</b> function sends data on a connected socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a connected socket.
 
-
 ### -param buf [in]
 
 A pointer to a buffer containing the data to be transmitted.
 
-
 ### -param len [in]
 
 The length, in bytes, of the data in buffer pointed to by the <i>buf</i> parameter.
-
 
 ### -param flags [in]
 
@@ -104,12 +97,8 @@ Sends OOB data (stream-style socket such as SOCK_STREAM only.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If no error occurs, 
 <b>send</b> returns the total number of bytes sent, which can be less than the number requested to be sent in the <i>len</i> parameter. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -335,14 +324,8 @@ The connection has been dropped, because of a network failure or because the sys
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>send</b> function is used to write outgoing data on a connected socket. 
@@ -499,13 +482,7 @@ For a another example that uses the <b>send</b> function, see <a href="https://d
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/getting-started-with-winsock">Getting Started With Winsock</a>
 
@@ -544,7 +521,4 @@ For a another example that uses the <b>send</b> function, see <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

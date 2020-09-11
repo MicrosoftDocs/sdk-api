@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 20b82813-4c6e-4be8-969f-e6ed1fd5d008
 ms.date: 12/05/2018
 ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, security.slsetgenuineinformation, slpublic/SLSetGenuineInformation
-f1_keywords:
-- slpublic/SLSetGenuineInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLSetGenuineInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLSetGenuineInformation
+ - slpublic/SLSetGenuineInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLSetGenuineInformation
 ---
 
 # SLSetGenuineInformation function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies information about the genuine status of a Windows computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pQueryId [in]
 
 A pointer to an <b>SLID</b> structure that specifies the application for which to set information.
-
 
 ### -param pwszValueName [in]
 
@@ -93,18 +88,14 @@ If the <b>SL_BRT_DATA</b> value  is set, setting <b>SL_BRT_COMMIT</b> puts the c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param eDataType [in]
 
 A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>pbValue</i> buffer.
 
-
 ### -param cbValue [in, optional]
 
 A pointer to the size, in bytes, of the <i>pbValue</i> buffer.
-
 
 ### -param pbValue [in, optional]
 
@@ -114,10 +105,7 @@ Some name-value pairs allow this parameter to be <b>NULL</b>. In this case, the 
 
 When you have finished using this array, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-
 ## -returns
-
-
 
  If the method succeeds, it returns <b>S_OK</b>.
 
@@ -203,7 +191,4 @@ The name specified by the <i>pwszValueName</i> parameter is not supported.
 </td>
 </tr>
 </table>
- 
-
-
 

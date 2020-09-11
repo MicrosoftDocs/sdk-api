@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 800f4d40-252a-44fe-b10d-348c22d69355
 ms.date: 12/05/2018
 ms.keywords: OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_READ, OF_READWRITE, OF_REOPEN, OF_SHARE_COMPAT, OF_SHARE_DENY_NONE, OF_SHARE_DENY_READ, OF_SHARE_DENY_WRITE, OF_SHARE_EXCLUSIVE, OF_VERIFY, OF_WRITE, OpenFile, OpenFile function [Files], _win32_openfile, base.openfile, fs.openfile, winbase/OpenFile
-f1_keywords:
-- winbase/OpenFile
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- OpenFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenFile
+ - winbase/OpenFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - OpenFile
 ---
 
 # OpenFile function
@@ -57,15 +58,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates, opens, reopens, or deletes a file.
 <div class="alert"><b>Note</b>  This function has limited capabilities and is not recommended. For new application development, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -74,7 +71,6 @@ The name of the file.
 The string must consist of characters from the 8-bit Windows character set. The 
        <b>OpenFile</b> function does not support Unicode file names or 
        opening named pipes.
-
 
 ### -param lpReOpenBuff [out]
 
@@ -90,7 +86,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-o
        function to open a file with a path length that exceeds 128 characters. The 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function does not have this path 
        length limitation.
-
 
 ### -param uStyle [in]
 
@@ -319,24 +314,15 @@ Opens a file for write access only.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value specifies a file handle to use when performing file I/O. To close the file, call the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function using this handle.
 
 If the function fails, the return value is <b>HFILE_ERROR</b>. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>lpFileName</i> parameter specifies a file name and extension only, this function 
     searches for a matching file in the following directories and the order shown:
@@ -454,13 +440,7 @@ Yes
 
 CsvFs will do redirected IO for compressed files.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -483,7 +463,4 @@ CsvFs will do redirected IO for compressed files.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>
- 
-
- 
 

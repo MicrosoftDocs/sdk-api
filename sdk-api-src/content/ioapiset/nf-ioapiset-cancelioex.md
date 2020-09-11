@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a2ce13b8-7da6-4848-848d-901d9667c2e3
 ms.date: 12/05/2018
 ms.keywords: CancelIoEx, CancelIoEx function [Files], fs.cancelioex_func, ioapiset/CancelIoEx, winbase/CancelIoEx
-f1_keywords:
-- ioapiset/CancelIoEx
-dev_langs:
-- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-io-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-io-l1-1-1.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-api_name:
-- CancelIoEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CancelIoEx
+ - ioapiset/CancelIoEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+api_name:
+ - CancelIoEx
 ---
 
 # CancelIoEx function
@@ -54,20 +55,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O 
     operations in the current process, regardless of which thread created the I/O operation.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file.
-
 
 ### -param lpOverlapped [in, optional]
 
@@ -83,10 +78,7 @@ If this parameter is not <b>NULL</b>, only those specific I/O requests that were
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a> function cancels all outstanding requests on a file 
        handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. The cancel operation for all pending I/O operations 
        issued by the calling process for the specified file handle was successfully requested. The application must not 
@@ -102,12 +94,7 @@ If this function cannot find a request to cancel, the return value is 0 (zero), 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_NOT_FOUND</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CancelIoEx</b> function allows you to cancel 
     requests in threads other than the calling thread. The 
@@ -198,15 +185,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
@@ -225,7 +205,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>
- 
-
- 
 

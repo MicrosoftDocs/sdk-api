@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 492bb2bf-5b35-4eef-a039-3d3e1137220f
 ms.date: 12/05/2018
 ms.keywords: DEST_TYPE, NEXTHOP_TYPE, ROUTE_TYPE, RTM_BLOCK_METHODS, RTM_RESUME_METHODS, RtmBlockMethods, RtmBlockMethods function [RAS], _rtmv2ref_rtmblockmethods, rras.rtmblockmethods, rtmv2/RtmBlockMethods
-f1_keywords:
-- rtmv2/RtmBlockMethods
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmBlockMethods
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmBlockMethods
+ - rtmv2/RtmBlockMethods
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmBlockMethods
 ---
 
 # RtmBlockMethods function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmBlockMethods</b> function blocks or unblocks the execution of methods for a specified destination, route, or next hop, or for all destinations, routes, and next hops.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param TargetHandle [in]
 
 Handle to a destination, route, or next hop for which to block methods. This parameter is optional and can be set to <b>NULL</b> to block methods for all targets.
-
 
 ### -param TargetType [in]
 
@@ -112,8 +106,6 @@ Specifies the type of the handle in <i>TargetHandle</i>. This parameter is optio
 </td>
 </tr>
 </table>
- 
-
 
 ### -param BlockingFlag [in]
 
@@ -147,12 +139,8 @@ Unblock methods for the specified target.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -180,13 +168,7 @@ The handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 Currently, this function does not support blocking methods for a specific destination, route, or next hop.
 
@@ -196,20 +178,11 @@ Clients should only block methods for a short period of time. If a second client
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtminvokemethod">RtmInvokeMethod</a> and the first client's methods are blocked, 
 <b>RtmInvokeMethod</b> does not return until methods are unblocked and the function call is completed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetentitymethods">RtmGetEntityMethods</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtminvokemethod">RtmInvokeMethod</a>
- 
-
- 
 

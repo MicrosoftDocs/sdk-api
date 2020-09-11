@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 130dc14b-7488-48ab-a31d-310c0f4ee13f
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_HEADER_EXTENDED_DATA_ITEM, EVENT_HEADER_EXTENDED_DATA_ITEM, EVENT_HEADER_EXTENDED_DATA_ITEM structure [ETW], EVENT_HEADER_EXT_TYPE_EVENT_KEY, EVENT_HEADER_EXT_TYPE_EVENT_SCHEMA_TL, EVENT_HEADER_EXT_TYPE_INSTANCE_INFO, EVENT_HEADER_EXT_TYPE_PROCESS_START_KEY, EVENT_HEADER_EXT_TYPE_PROV_TRAITS, EVENT_HEADER_EXT_TYPE_RELATED_ACTIVITYID, EVENT_HEADER_EXT_TYPE_SID, EVENT_HEADER_EXT_TYPE_STACK_TRACE32, EVENT_HEADER_EXT_TYPE_STACK_TRACE64, EVENT_HEADER_EXT_TYPE_TS_ID, PEVENT_HEADER_EXTENDED_DATA_ITEM, PEVENT_HEADER_EXTENDED_DATA_ITEM structure pointer [ETW], _EVENT_HEADER_EXTENDED_DATA_ITEM, base.event_header_extended_data_item, etw.event_header_extended_data_item, relogger/EVENT_HEADER_EXTENDED_DATA_ITEM, relogger/PEVENT_HEADER_EXTENDED_DATA_ITEM'
-f1_keywords:
-- relogger/EVENT_HEADER_EXTENDED_DATA_ITEM
-dev_langs:
-- c++
 req.header: relogger.h
 req.include-header: Evntcons.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- relogger.h
-api_name:
-- EVENT_HEADER_EXTENDED_DATA_ITEM
 targetos: Windows
 req.typenames: EVENT_HEADER_EXTENDED_DATA_ITEM, *PEVENT_HEADER_EXTENDED_DATA_ITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EVENT_HEADER_EXTENDED_DATA_ITEM
+ - relogger/_EVENT_HEADER_EXTENDED_DATA_ITEM
+ - PEVENT_HEADER_EXTENDED_DATA_ITEM
+ - relogger/PEVENT_HEADER_EXTENDED_DATA_ITEM
+ - EVENT_HEADER_EXTENDED_DATA_ITEM
+ - relogger/EVENT_HEADER_EXTENDED_DATA_ITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - relogger.h
+api_name:
+ - EVENT_HEADER_EXTENDED_DATA_ITEM
 ---
 
 # EVENT_HEADER_EXTENDED_DATA_ITEM structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EVENT_HEADER_EXTENDED_DATA_ITEM</b> structure defines the extended data that ETW collects as part of the event data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Reserved1
 
 Reserved.
-
 
 ### -field ExtType
 
@@ -177,18 +176,14 @@ The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY needs to be pas
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Linkage
 
 Reserved.
 
-
 ### -field DataSize
 
 Size, in bytes, of the extended data that <b>DataPtr</b> points to.
-
 
 ### -field DataPtr
 
@@ -199,14 +194,7 @@ Pointer to the extended data. The <b>ExtType</b> member determines the type of e
 
 Reserved.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
- 
-
- 
 

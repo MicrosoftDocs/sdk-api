@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 733a5390-419d-414a-b50e-8400d179bfb6
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_Type method, IMsmError.get_Type, IMsmError::get_Type, _msi_get_type_function_error_object_, get_Type, get_Type method, get_Type method,IMsmError interface, mergemod/IMsmError::get_Type, setup.imsmerror_get_type
-f1_keywords:
-- mergemod/IMsmError.get_Type
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmError.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmError::get_Type
+ - mergemod/IMsmError::get_Type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmError.get_Type
 ---
 
 # IMsmError::get_Type
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Type</b> method retrieves the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/error-type">Type</a> property of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. This method returns a msmErrorType value indicating the type of error represented by this object.
 
-
 ## -parameters
-
-
-
 
 ### -param ErrorType [out]
 
@@ -226,12 +222,8 @@ This error causes the immediate failure of the merge and the
 <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-mergeex">MergeEx</a> function to return E_FAIL.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -263,18 +255,8 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
 

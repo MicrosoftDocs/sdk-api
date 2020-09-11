@@ -8,10 +8,6 @@ tech.root: lwef
 ms.assetid: d6775458-3b39-4ee8-90f9-d8a749bd1800
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCacheCallBack, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features], IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCacheCallBack, emptyvc/IEmptyVolumeCacheCallBack, lwef.iemptyvolumecachecallback, shell.iemptyvolumecachecallback
-f1_keywords:
-- emptyvc/IEmptyVolumeCacheCallBack
-dev_langs:
-- c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IEmptyVolumeCacheCallBack
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEmptyVolumeCacheCallBack
+ - emptyvc/IEmptyVolumeCacheCallBack
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IEmptyVolumeCacheCallBack
 ---
 
 # IEmptyVolumeCacheCallBack interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that are used by a disk cleanup handler to communicate with the disk cleanup manager.
-
 
 ## -inheritance
 
@@ -86,14 +85,9 @@ Called by a disk cleanup handler to update the disk cleanup manager on the progr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A disk cleanup handler uses this interface to report to the disk cleanup manager on the progress either of deleting files or of scanning for deletable files. It also provides a way to query the manager, to find out if the user has canceled the operation. The handler receives a pointer to this interface when the manager calls the <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">IEmptyVolumeCache::GetSpaceUsed</a> or <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-purge">IEmptyVolumeCache::Purge</a> methods.
-
-
 

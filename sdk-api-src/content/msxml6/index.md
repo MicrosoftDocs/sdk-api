@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: ixhr2
+f1_keywords:
+ - msxml6
+ - msxml6/msxml6
 ---
 
 # Msxml6.h header
 
 
 ## -description
-
 
 This header is used by XML HTTP Extended Request. For more information, see:
 

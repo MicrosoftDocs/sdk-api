@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 68bcfbb3-f0ba-412b-9ed2-e2139099fcf2
 ms.date: 12/05/2018
 ms.keywords: SetupGetFileCompressionInfo, SetupGetFileCompressionInfo function [Setup API], SetupGetFileCompressionInfoA, SetupGetFileCompressionInfoW, _setupapi_setupgetfilecompressioninfo, setup.setupgetfilecompressioninfo, setupapi/SetupGetFileCompressionInfo, setupapi/SetupGetFileCompressionInfoA, setupapi/SetupGetFileCompressionInfoW
-f1_keywords:
-- setupapi/SetupGetFileCompressionInfo
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupGetFileCompressionInfo
-- SetupGetFileCompressionInfoA
-- SetupGetFileCompressionInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupGetFileCompressionInfoW
+ - setupapi/SetupGetFileCompressionInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupGetFileCompressionInfo
+ - SetupGetFileCompressionInfoA
+ - SetupGetFileCompressionInfoW
 ---
 
 # SetupGetFileCompressionInfoW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
@@ -62,31 +62,23 @@ Note that this function is obsolete and has been replaced by
 <b>SetupGetFileCompressionInfo</b>, instead always use 
 <b>SetupGetFileCompressionInfoEx</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param SourceFileName [in]
 
 File name of the file about which information is required. If the file is not found on the source media exactly as named, the file is searched for with up to two alternate "compressed-form" names. For example, if the file is F:\x86\cmd.exe and it is not found, F:\mpis\cmd.ex_ is searched for and, if that is not found, a search is done for F:\x86\cmd.ex$. You should use a null-terminated string.
 
-
 ### -param ActualSourceFileName [in, out]
 
 Pointer to a variable that receives the full path of the file that it has been able to locate. The caller can free the pointer with a call to <b>LocalFree</b>. The path is valid only if the function returns NO_ERROR. Note that if the version of SetupAPI.dll is less than 5.0.2195, then the caller needs to use the exported function <b>MyFree</b> from SetupAPI to free the memory allocated by this function, rather then using <b>LocalFree</b>. See the Remarks section.
-
 
 ### -param SourceFileSize [in, out]
 
 Pointer to a variable in which this function returns the size of the file in its current form which is the current size of the file named by <i>ActualSourceFileName</i>. The size is determined by examining the source file; it is not retrieved from an INF file. The source file size is valid only if the function returns NO_ERROR.
 
-
 ### -param TargetFileSize [in, out]
 
 Pointer to a variable in which this function returns the size the file will occupy when it is uncompressed or copied. If the file is not compressed, this value will be the same as <i>SourceFileSize</i>. The size is determined by examining the file; it is not retrieved from an INF file. The target file size is valid only if the function returns NO_ERROR.
-
 
 ### -param CompressionType [in, out]
 
@@ -129,22 +121,14 @@ The source file is not compressed with a recognized compression algorithm.
 
 The source file is compressed with LZ compression.
 
-
 ## -returns
-
-
 
 The function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> that indicates the outcome of the file search. The error code can be one of the following values.
 
 To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Do not use 
 <b>SetupGetFileCompressionInfo</b>, instead always use 
@@ -181,9 +165,6 @@ The following is an example of how to obtain the <b>MyFree</b> function from the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
@@ -193,7 +174,4 @@ The following is an example of how to obtain the <b>MyFree</b> function from the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdecompressorcopyfilea">SetupDecompressOrCopyFile</a>
- 
-
- 
 

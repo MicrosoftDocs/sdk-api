@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 8b57bcc0-f8ca-412a-87d9-9afeb5ac8446
 ms.date: 12/05/2018
 ms.keywords: ?Empty@CHString@@QEAAXXZ, CThreadBase interface [Windows Management Instrumentation],EndWrite method, CThreadBase.EndWrite, CThreadBase::EndWrite, EndWrite, EndWrite method [Windows Management Instrumentation], EndWrite method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndWrite, wmi.cthreadbase_endwrite
-f1_keywords:
-- thrdbase/CThreadBase.EndWrite
-dev_langs:
-- c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CThreadBase.EndWrite
-- ?Empty@CHString@@QEAAXXZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CThreadBase::EndWrite
+ - thrdbase/CThreadBase::EndWrite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CThreadBase.EndWrite
+ - ?Empty@CHString@@QEAAXXZ
 ---
 
 # CThreadBase::EndWrite
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nl-thrdbase-cthreadbase">CThreadBase</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -60,11 +60,5 @@ ms.custom: 19H1
 
 The <b>EndWrite</b> method provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework. <a href="https://docs.microsoft.com/windows/desktop/api/thrdbase/nl-thrdbase-cthreadbase">CThreadBase</a> is called internally.
 
-
 ## -parameters
-
-
-
-
-
 

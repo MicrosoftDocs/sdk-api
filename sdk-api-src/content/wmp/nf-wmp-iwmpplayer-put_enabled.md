@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: c0e29724-1689-4b59-a9bd-b9cc3f391b68
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enabled method, IWMPPlayer.put_enabled, IWMPPlayer::put_enabled, IWMPPlayerput_enabled, put_enabled, put_enabled method [Windows Media Player], put_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enabled, wmp/IWMPPlayer::put_enabled
-f1_keywords:
-- wmp/IWMPPlayer.put_enabled
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlayer.put_enabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer::put_enabled
+ - wmp/IWMPPlayer::put_enabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlayer.put_enabled
 ---
 
 # IWMPPlayer::put_enabled
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_enabled</b> method specifies a value indicating whether the Windows Media Player control is enabled.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bEnabled [in]
 
 <b>VARIANT_BOOL</b> indicating whether the Windows Media Player control is enabled.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,24 +79,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the <b>VARIANT_BOOL</b> specified in <b>put_enabled</b> is set to <b>FALSE</b>, then Windows Media Player hides the user controls during full-screen playback.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
 
@@ -117,7 +95,4 @@ If the <b>VARIANT_BOOL</b> specified in <b>put_enabled</b> is set to <b>FALSE</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enablecontextmenu">IWMPPlayer::put_enableContextMenu</a>
- 
-
- 
 

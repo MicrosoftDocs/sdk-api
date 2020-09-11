@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
 ms.date: 12/05/2018
 ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW, _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace, evntrace/UpdateTraceA, evntrace/UpdateTraceW
-f1_keywords:
-- evntrace/UpdateTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-eventing-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- UpdateTrace
-- UpdateTraceA
-- UpdateTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UpdateTrace
+ - evntrace/UpdateTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-eventing-Legacy-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - UpdateTrace
+ - UpdateTraceA
+ - UpdateTraceW
 ---
 
 # UpdateTrace macro
 
 
 ## -description
-
 
 The 
 <b>UpdateTrace</b> function updates the property setting of the specified event tracing session. 
@@ -61,24 +61,18 @@ The
 The 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
 
-
 ## -parameters
-
-
-
 
 ### -param a [in]
 
 Handle to the event tracing session to update, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
-
 ### -param b [in]
 
 Pointer to a null-terminated string that specifies the name of the event tracing session to update, or <b>NULL</b>. You must specify <i>SessionName</i> if <i>SessionHandle</i> is <b>NULL</b>.
 
 To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOGGER_NAME</b>.
-
 
 ### -param c [in, out]
 
@@ -90,10 +84,7 @@ On input, the members must specify the new values for the properties to update. 
 
 On output, the structure members contains the updated settings and statistics for the event tracing session.
 
-
 ## -remarks
-
-
 
 Controllers call this function.
 
@@ -147,15 +138,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 50C1ACA1-714C-467A-A548-B5EE50DA3E3D
 ms.date: 12/05/2018
 ms.keywords: D3D11_RESOURCE_FLAGS, D3D11_RESOURCE_FLAGS structure, d3d11on12/D3D11_RESOURCE_FLAGS, direct3d12.d3d11_resource_flags
-f1_keywords:
-- d3d11on12/D3D11_RESOURCE_FLAGS
-dev_langs:
-- c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11on12.h
-api_name:
-- D3D11_RESOURCE_FLAGS
 targetos: Windows
 req.typenames: D3D11_RESOURCE_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_RESOURCE_FLAGS
+ - d3d11on12/D3D11_RESOURCE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11on12.h
+api_name:
+ - D3D11_RESOURCE_FLAGS
 ---
 
 # D3D11_RESOURCE_FLAGS structure
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource">ID3D11On12Device::CreateWrappedResource</a>to override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field BindFlags
 
@@ -97,8 +92,6 @@ The following bind flags will be assumed based on the presence of the correspond
 <li>D3D11_BIND_UNORDERED_ACCESS, if D3D12_RESOURCE_MISC_ALLOW_UNORDERED_ACCESS is present</li>
 </ul>
 A render target or UAV buffer can be wrapped without overriding flags; but a VB/IB/CB/SO buffer must have bind flags manually specified, since these are mutually exclusive in Direct3D 11.
-            
-
 
 ### -field MiscFlags
 
@@ -158,32 +151,16 @@ The <b>CPUAccessFlags</b> are not inferred from the D3D12 resource.
               Wrapped resources do not support <b>Map(DISCARD)</b>.
               Wrapped resources do not support <b>Map(NO_OVERWRITE)</b>, but that can be implemented by mapping the underlying D3D12 resource instead.
               Issuing a <b>Map</b> call on a wrapped resource will synchronize with all D3D11 work submitted against that resource, unless the DO_NOT_WAIT flag was used.
-            
-
 
 ### -field StructureByteStride
 
 The size of each element in the buffer structure (in bytes) when the buffer represents a structured buffer.
-          
-
 
 ## -remarks
 
-
-
 Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource">CreateWrappedResource</a>.
-        
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-11on12-structures">11on12 Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 8ffa5638-13ef-4cec-80f0-303611a52dac
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidAppend, SnmpUtilOidAppend function [SNMP], _snmp_snmputiloidappend, snmp.snmputiloidappend, snmp/SnmpUtilOidAppend
-f1_keywords:
-- snmp/SnmpUtilOidAppend
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Snmpapi.dll
-api_name:
-- SnmpUtilOidAppend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpUtilOidAppend
+ - snmp/SnmpUtilOidAppend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Snmpapi.dll
+api_name:
+ - SnmpUtilOidAppend
 ---
 
 # SnmpUtilOidAppend function
@@ -49,33 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilOidAppend</b> function appends the source object identifier to the destination object identifier. This function is an element of the SNMP Utility API.
 
-
 ## -parameters
-
-
-
 
 ### -param pOidDst [in, out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to receive the source structure.
 
-
 ### -param pOidSrc [in]
 
 Pointer to an 
 <b>AsnObjectIdentifier</b> structure to append.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -110,14 +102,8 @@ Indicates a memory allocation error
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SnmpUtilOidAppend</b> function calls the 
@@ -128,13 +114,7 @@ Call the
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidfree">SnmpUtilOidFree</a> function to free memory that the 
 <b>SnmpUtilOidAppend</b> function allocates for the destination.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
@@ -149,7 +129,4 @@ Call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidfree">SnmpUtilOidFree</a>
- 
-
- 
 

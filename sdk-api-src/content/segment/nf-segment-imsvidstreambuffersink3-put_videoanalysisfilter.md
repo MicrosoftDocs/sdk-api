@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: b1ac3517-2f83-409c-b393-5bcbfff685c3
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put_VideoAnalysisFilter method, IMSVidStreamBufferSink3.put_VideoAnalysisFilter, IMSVidStreamBufferSink3::put_VideoAnalysisFilter, IMSVidStreamBufferSink3put_VideoAnalysisFilter, mstv.imsvidstreambuffersink3_put_videoanalysisfilter, put_VideoAnalysisFilter, put_VideoAnalysisFilter method [Microsoft TV Technologies], put_VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put_VideoAnalysisFilter
-f1_keywords:
-- segment/IMSVidStreamBufferSink3.put_VideoAnalysisFilter
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSink3.put_VideoAnalysisFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSink3::put_VideoAnalysisFilter
+ - segment/IMSVidStreamBufferSink3::put_VideoAnalysisFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSink3.put_VideoAnalysisFilter
 ---
 
 # IMSVidStreamBufferSink3::put_VideoAnalysisFilter
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
@@ -58,33 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 Not implemented in this release.
 
-
 ## -parameters
-
-
-
 
 ### -param szCLSID
 
 Reserved.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink3">IMSVidStreamBufferSink3 Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: d655832c-68a1-42d1-ac91-964884bf2dac
 ms.date: 12/05/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetServerSessionProperty, HttpSetServerSessionProperty function [HTTP], http.httpsetserversessionproperty, http/HttpSetServerSessionProperty
-f1_keywords:
-- http/HttpSetServerSessionProperty
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpSetServerSessionProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpSetServerSessionProperty
+ - http/HttpSetServerSessionProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpSetServerSessionProperty
 ---
 
 # HttpSetServerSessionProperty function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpSetServerSessionProperty</b> function sets a new server session property or modifies an existing property on the specified server session.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerSessionId [in]
 
 The server session for which the property is set.
-
 
 ### -param Property [in]
 
@@ -145,8 +140,6 @@ Enables server side authentication that uses a channel binding token (CBT).
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyInformation [in]
 
@@ -200,19 +193,12 @@ A pointer to the buffer that contains the property data.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param PropertyInformationLength [in]
 
 The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>
 
@@ -243,26 +229,14 @@ The application does not have permission to set the server session properties. O
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Server sessions are top level configuration containers for configuration data that applies to all of the URL groups created under them. The server session is created with <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>.
 
 The <i>pPropertyInformation</i> parameter points to the configuration structure for the property type that is set. The <i>PropertyInformationLength</i> parameter specifies the size, in bytes, of the configuration structure. For example, when setting the <b>HttpServerTimeoutsProperty</b> the <i>pPropertyInformation</i> parameter must point to a buffer that is at least equal to the size of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
@@ -281,7 +255,4 @@ The <i>pPropertyInformation</i> parameter points to the configuration structure 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>
- 
-
- 
 

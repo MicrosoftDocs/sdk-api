@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2164bbe6-e030-4a64-85db-9ee1cd3c136d
 ms.date: 12/05/2018
 ms.keywords: GetDisplayNameOf, GetDisplayNameOf method [Windows Shell], GetDisplayNameOf method [Windows Shell],IShellFolder interface, GetDisplayNameOf method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],GetDisplayNameOf method, IShellFolder.GetDisplayNameOf, IShellFolder2 interface [Windows Shell],GetDisplayNameOf method, IShellFolder2::GetDisplayNameOf, IShellFolder::GetDisplayNameOf, _win32_IShellFolder_GetDisplayNameOf, shell.IShellFolder_GetDisplayNameOf, shobjidl_core/IShellFolder2::GetDisplayNameOf, shobjidl_core/IShellFolder::GetDisplayNameOf
-f1_keywords:
-- shobjidl_core/IShellFolder.GetDisplayNameOf
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellFolder.GetDisplayNameOf
-- IShellFolder2.GetDisplayNameOf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolder::GetDisplayNameOf
+ - shobjidl_core/IShellFolder::GetDisplayNameOf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellFolder.GetDisplayNameOf
+ - IShellFolder2.GetDisplayNameOf
 ---
 
 # IShellFolder::GetDisplayNameOf
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the display name for the specified file object or subfolder.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
@@ -65,13 +61,11 @@ Type: <b>PCUITEMID_CHILD</b>
 
 PIDL that uniquely identifies the file object or subfolder relative to the parent folder.
 
-
 ### -param uFlags [in]
 
 Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDNF</a></b>
 
 Flags used to request the type of display name to return. For a list of possible values, see the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDNF</a> enumerated type.
-
 
 ### -param pName [out]
 
@@ -79,21 +73,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shty
 
 When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure in which to return the display name. The type of name returned in this structure can be the requested type, but the Shell folder might return a different type.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 It is the caller's responsibility to free resources allocated by this function.
 
@@ -108,19 +94,11 @@ The flags specified in <i>uFlags</i> are hints about the intended use of the nam
 <div class="alert"><b>Note</b>  The parsing name that is returned when <i>uFlags</i> has the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> flag set is not necessarily a normal text string. Virtual folders such as My Computer might return a string containing the folder object's GUID in the form "::{GUID}". Developers who implement <b>IShellFolder::GetDisplayNameOf</b> are encouraged to return parse names that are as close to the display names as possible, because the end user often needs to type or edit these names.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
- 
-
- 
 

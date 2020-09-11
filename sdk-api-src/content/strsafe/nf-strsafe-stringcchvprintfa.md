@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchvprintf.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchVPrintf, StringCchVPrintf function [Menus and Other Resources], StringCchVPrintfA, StringCchVPrintfW, _shell_StringCchVPrintf, _shell_stringcchvprintf_cpp, menurc.stringcchvprintf, strsafe/StringCchVPrintf, strsafe/StringCchVPrintfA, strsafe/StringCchVPrintfW, winui._shell_stringcchvprintf
-f1_keywords:
-- strsafe/StringCchVPrintf
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCchVPrintf
-- StringCchVPrintfA
-- StringCchVPrintfW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCchVPrintfA
+ - strsafe/StringCchVPrintfA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCchVPrintf
+ - StringCchVPrintfA
+ - StringCchVPrintfW
 ---
 
 # StringCchVPrintfA function
 
 
 ## -description
-
 
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
@@ -68,15 +68,11 @@ Writes formatted data to the specified string using a pointer to a list of argum
 
 ## -parameters
 
-
-
-
 ### -param pszDest [out]
 
 Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the formatted, null-terminated string created from <i>pszFormat</i> and <i>argList</i>.
-
 
 ### -param cchDest [in]
 
@@ -84,13 +80,11 @@ Type: <b>size_t</b>
 
 The size of the destination buffer, in characters. This value must be sufficiently large to accommodate the final formatted string plus 1 to account for the terminating null character. The maximum number of characters allowed is <b>STRSAFE_MAX_CCH</b>.
 
-
 ### -param pszFormat [in]
 
 Type: <b>LPCTSTR</b>
 
 The format string. This string must be null-terminated. For more information, see <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
-
 
 ### -param argList [in]
 
@@ -98,10 +92,7 @@ Type: <b>va_list</b>
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -150,12 +141,7 @@ The copy operation failed due to insufficient buffer space. The destination buff
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 <b>StringCchVPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchVPrintf</b>always null-terminates a nonzero-length destination buffer.
 
@@ -200,9 +186,6 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 ## -see-also
 
-
-
-
 <b>Reference</b>
 
 
@@ -216,7 +199,4 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
- 
-
- 
 

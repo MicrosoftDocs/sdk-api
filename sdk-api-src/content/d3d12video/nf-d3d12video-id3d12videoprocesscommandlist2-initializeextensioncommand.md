@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoProcessCommandList2::InitializeExtensionCommand
 f1_keywords:
+ - ID3D12VideoProcessCommandList2::InitializeExtensionCommand
  - d3d12video/ID3D12VideoProcessCommandList2::InitializeExtensionCommand
 dev_langs:
  - c++

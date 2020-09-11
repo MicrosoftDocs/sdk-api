@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b54917c8-51cd-4891-9613-f37a4a46448b
 ms.date: 12/05/2018
 ms.keywords: LsaConnectUntrusted, LsaConnectUntrusted function [Security], _lsa_lsaconnectuntrusted, ntsecapi/LsaConnectUntrusted, security.lsaconnectuntrusted
-f1_keywords:
-- ntsecapi/LsaConnectUntrusted
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- LsaConnectUntrusted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaConnectUntrusted
+ - ntsecapi/LsaConnectUntrusted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - LsaConnectUntrusted
 ---
 
 # LsaConnectUntrusted function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaConnectUntrusted</b> function establishes an untrusted connection to the LSA server.
 
-
 ## -parameters
-
-
-
 
 ### -param LsaHandle [out]
 
 Pointer to a handle that receives the connection handle, which must be provided in future authentication services.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
@@ -75,12 +68,7 @@ If the function fails, the return value is an NTSTATUS code. For more informatio
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>LsaConnectUntrusted</b> returns a handle to an untrusted connection; it does not verify any information about the caller. The handle should be closed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaderegisterlogonprocess">LsaDeregisterLogonProcess</a> function.
@@ -92,13 +80,7 @@ If your application simply needs to query information from authentication packag
 Applications with the SeTcbPrivilege privilege may create a trusted connection by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterlogonprocess">LsaRegisterLogonProcess</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
 
@@ -113,7 +95,4 @@ Applications with the SeTcbPrivilege privilege may create a trusted connection b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterlogonprocess">LsaRegisterLogonProcess</a>
- 
-
- 
 

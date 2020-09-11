@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfintersectmethods.htm
 ms.date: 12/05/2018
 ms.keywords: Intersect, Intersect methods [GDI+], RectF.Intersect, RectF::Intersect, _gdiplus_CLASS_RectF_Intersect_Methods, gdiplus._gdiplus_CLASS_RectF_Intersect_Methods, gdiplustypes/Intersect
-f1_keywords:
-- gdiplustypes/RectF.Intersect
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplustypes.h
-api_name:
-- RectF.Intersect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RectF::Intersect
+ - gdiplustypes/RectF::Intersect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplustypes.h
+api_name:
+ - RectF.Intersect
 ---
 
 # RectF::Intersect
 
 
 ## -description
-
 
 <span>This topic lists the 
 			Intersect methods of the 

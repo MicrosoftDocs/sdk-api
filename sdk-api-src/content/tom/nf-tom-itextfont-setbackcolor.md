@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbackcolor.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetBackColor method, ITextFont.SetBackColor, ITextFont::SetBackColor, SetBackColor, SetBackColor method [Windows Controls], SetBackColor method [Windows Controls],ITextFont interface, _win32_ITextFont_SetBackColor, _win32_ITextFont_SetBackColor_cpp, controls.ITextFont_SetBackColor, controls._win32_ITextFont_SetBackColor, tom/ITextFont::SetBackColor
-f1_keywords:
-- tom/ITextFont.SetBackColor
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetBackColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetBackColor
+ - tom/ITextFont::SetBackColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetBackColor
 ---
 
 # ITextFont::SetBackColor
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the background color.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -92,10 +88,7 @@ The new background color. It can be one of the following.
 
 If <i>Value</i> contains an RGB color, generate the <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -151,15 +144,8 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
@@ -194,7 +180,4 @@ Insufficient memory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

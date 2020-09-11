@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 3a410bde-bcff-4a86-aadc-650862dbf38b
 ms.date: 12/05/2018
 ms.keywords: '*PONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB structure [NativeWIFI], PONEX_VARIABLE_BLOB, PONEX_VARIABLE_BLOB structure pointer [NativeWIFI], dot1x/ONEX_VARIABLE_BLOB, dot1x/PONEX_VARIABLE_BLOB, nwifi.onex_variable_blob'
-f1_keywords:
-- dot1x/ONEX_VARIABLE_BLOB
-dev_langs:
-- c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dot1x.h
-api_name:
-- ONEX_VARIABLE_BLOB
 targetos: Windows
 req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ONEX_VARIABLE_BLOB
+ - dot1x/_ONEX_VARIABLE_BLOB
+ - PONEX_VARIABLE_BLOB
+ - dot1x/PONEX_VARIABLE_BLOB
+ - ONEX_VARIABLE_BLOB
+ - dot1x/ONEX_VARIABLE_BLOB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dot1x.h
+api_name:
+ - ONEX_VARIABLE_BLOB
 ---
 
 # ONEX_VARIABLE_BLOB structure
@@ -49,28 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ONEX_VARIABLE_BLOB</b> structure is used as a member of other 802.1X authentication stuctures to contain variable-sized members..
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size, in bytes, of this <b>ONEX_VARIABLE_BLOB</b> structure.
 
-
 ### -field dwOffset
 
 The offset, in bytes, from the beginning of the containing outer structure (where the <b>ONEX_VARIABLE_BLOB</b> structure is a  member) to the data contained in the <b>ONEX_VARIABLE_BLOB</b> structure.
 
-
 ## -remarks
-
-
 
 The <b>ONEX_VARIABLE_BLOB</b> structure is used by the 802.1X module, a new wireless configuration component supported on Windows Vista and  later.  
 
@@ -78,13 +74,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_
 
 A number of the nested structure members in the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure contains members of the <b>ONEX_VARIABLE_BLOB</b> type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-acm-architecture">About the ACM Architecture</a>
 
@@ -111,7 +101,4 @@ A number of the nested structure members in the <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
- 
-
- 
 

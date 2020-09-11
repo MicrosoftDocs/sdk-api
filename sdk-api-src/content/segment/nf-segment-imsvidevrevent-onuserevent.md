@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 2eee9fd9-ed8d-482d-833a-c785d65cbf6a
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVREvent interface [Microsoft TV Technologies],OnUserEvent method, IMSVidEVREvent.OnUserEvent, IMSVidEVREvent::OnUserEvent, IMSVidEVREventOnUserEvent, OnUserEvent, OnUserEvent method [Microsoft TV Technologies], OnUserEvent method [Microsoft TV Technologies],IMSVidEVREvent interface, mstv.imsvidevrevent_onuserevent, segment/IMSVidEVREvent::OnUserEvent
-f1_keywords:
-- segment/IMSVidEVREvent.OnUserEvent
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidEVREvent.OnUserEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidEVREvent::OnUserEvent
+ - segment/IMSVidEVREvent::OnUserEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidEVREvent.OnUserEvent
 ---
 
 # IMSVidEVREvent::OnUserEvent
 
 
 ## -description
-
-
 
 This topic applies to Windows Vista or later.
         
@@ -58,29 +57,17 @@ This topic applies to Windows Vista or later.
 
 The <b>OnUserEvent</b> method forwards custom events from the enhanced video renderer (EVR) filter.
 
-
 ## -parameters
-
-
-
 
 ### -param lEventCode [in]
 
 Event code.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 The purpose of this method is to forward custom events from an EVR presenter to the application through the Video Control.
 
@@ -92,16 +79,7 @@ The purpose of this method is to forward custom events from an EVR presenter to 
 </ol>
 The dispatch identifier (dispid) of this method is <b>dispidUserEvent</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidevrevent">IMSVidEVREvent</a>
- 
-
- 
 

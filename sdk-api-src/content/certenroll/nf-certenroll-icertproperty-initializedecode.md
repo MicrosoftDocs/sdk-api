@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 38b51242-cd4a-402e-b7ff-286f7bf66953
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],InitializeDecode method, ICertProperty.InitializeDecode, ICertProperty::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeDecode, security.icertproperty_initializedecode_method
-f1_keywords:
-- certenroll/ICertProperty.InitializeDecode
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertProperty.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertProperty::InitializeDecode
+ - certenroll/ICertProperty::InitializeDecode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertProperty.InitializeDecode
 ---
 
 # ICertProperty::InitializeDecode
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeDecode</b> method initializes the object from a byte array that contains the property value. The byte array is represented by a Unicode-encoded string.
 
-
 ## -parameters
-
-
-
 
 ### -param Encoding [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to the input string.
 
-
 ### -param strEncodedData [in]
 
 A <b>BSTR</b> variable that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded property value.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -94,14 +86,8 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Specify the property to initialize by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_propertyid">PropertyId</a> property. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_rawdata">RawData</a> property to retrieve the encoded property value. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-setvalueoncertificate">SetValueOnCertificate</a> method to associate the property value with a certificate.
 
@@ -145,21 +131,11 @@ The following interfaces simplify creation of the most common properties:<ul>
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
- 
-
- 
 

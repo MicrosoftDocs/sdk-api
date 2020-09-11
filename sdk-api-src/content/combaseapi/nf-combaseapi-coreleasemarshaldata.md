@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: a642a20f-3a3c-46bc-b833-e424dab3a16d
 ms.date: 12/05/2018
 ms.keywords: CoReleaseMarshalData, CoReleaseMarshalData function [COM], _com_CoReleaseMarshalData, com.coreleasemarshaldata, combaseapi/CoReleaseMarshalData
-f1_keywords:
-- combaseapi/CoReleaseMarshalData
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoReleaseMarshalData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoReleaseMarshalData
+ - combaseapi/CoReleaseMarshalData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoReleaseMarshalData
 ---
 
 # CoReleaseMarshalData function
@@ -54,23 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Destroys a previously marshaled data packet.
 
-
 ## -parameters
-
-
-
 
 ### -param pStm [in]
 
 A  pointer to the stream that contains the data packet to be destroyed. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_FAIL, E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -114,14 +107,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
 
@@ -154,19 +141,7 @@ Note that you do not need to call <b>CoReleaseMarshalData</b> after a successful
 <div class="alert"><b>Important</b>  You must call  the <b>CoReleaseMarshalData</b> function in the same apartment that called <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a> to marshal the object into the stream. Failure to do this may cause the object reference held by the marshaled packet in the stream to be leaked.</div>
 <div> </div>
 
-
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-releasemarshaldata">IMarshal::ReleaseMarshalData</a>
- 
-
- 
 

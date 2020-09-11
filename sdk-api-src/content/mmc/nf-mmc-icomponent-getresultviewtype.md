@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: d2575f79-d646-41b5-84a5-768402cfb826
 ms.date: 12/05/2018
 ms.keywords: GetResultViewType, GetResultViewType method [MMC], GetResultViewType method [MMC],IComponent interface, IComponent interface [MMC],GetResultViewType method, IComponent.GetResultViewType, IComponent::GetResultViewType, MMC_VIEW_OPTIONS_CREATENEW, MMC_VIEW_OPTIONS_EXCLUDE_SCOPE_ITEMS_FROM_LIST, MMC_VIEW_OPTIONS_FILTERED, MMC_VIEW_OPTIONS_LEXICAL_SORT, MMC_VIEW_OPTIONS_MULTISELECT, MMC_VIEW_OPTIONS_NOLISTVIEWS, MMC_VIEW_OPTIONS_NONE, MMC_VIEW_OPTIONS_OWNERDATALIST, MMC_VIEW_OPTIONS_USEFONTLINKING, _slate_icomponent_getresultviewtype, mmc.icomponent_getresultviewtype, mmc/IComponent::GetResultViewType
-f1_keywords:
-- mmc/IComponent.GetResultViewType
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IComponent.GetResultViewType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponent::GetResultViewType
+ - mmc/IComponent::GetResultViewType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IComponent.GetResultViewType
 ---
 
 # IComponent::GetResultViewType
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IComponent::GetResultViewType</b> method 
     determines what the result pane view should be.
 
-
 ## -parameters
-
-
-
 
 ### -param cookie [in]
 
 A value that specifies the snapin-provided unique identifier for the scope item. For more details about 
       cookies in MMC, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cookies">Cookies</a>.
-
 
 ### -param ppViewType [out]
 
@@ -162,7 +157,6 @@ For a custom view provided by a webpage, <i>ppViewType</i> should point to the
          Microsoft website and could be returned in the <i>ppViewType</i> parameter to display the 
          website in the result pane: "www.microsoft.com".
 
-
 ### -param pViewOptions [out]
 
 A pointer to the value that provides the console with options specified by the owning snap-in. This value 
@@ -242,19 +236,11 @@ Use font linking on result items (for multilingual support). See Remarks for det
 If <i>ppViewType</i> is a custom view type, the view options that affect the standard 
        list views are applied by MMC when the view is switched from a custom view to a standard list view.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 The callee (snap-in) allocates the view type string using COM API function 
     <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
@@ -279,20 +265,11 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cook
     unique to a specific item. It is passed in through the <b>lParam</b> member of a 
     <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
- 
-
- 
 

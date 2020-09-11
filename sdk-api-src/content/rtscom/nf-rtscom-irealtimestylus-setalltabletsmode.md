@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: cb8b2a17-68b9-482b-b212-ad129522ff2e
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus interface [Tablet PC],SetAllTabletsMode method, IRealTimeStylus.SetAllTabletsMode, IRealTimeStylus::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IRealTimeStylus interface, cb8b2a17-68b9-482b-b212-ad129522ff2e, rtscom/IRealTimeStylus::SetAllTabletsMode, tablet.irealtimestylus_setalltabletsmode
-f1_keywords:
-- rtscom/IRealTimeStylus.SetAllTabletsMode
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.SetAllTabletsMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::SetAllTabletsMode
+ - rtscom/IRealTimeStylus::SetAllTabletsMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.SetAllTabletsMode
 ---
 
 # IRealTimeStylus::SetAllTabletsMode
@@ -49,35 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the mode for the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object to collect data from all digitizers.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fUseMouseForInput [in]
 
 <b>TRUE</b> for both the mouse and stylus to be used for input; <b>FALSE</b> for the mouse not to be used as input.
 
-
 ## -returns
-
-
 
 For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method enables the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object to collect stylus events from any tablet attached to the Tablet PC. The <i>fUseMouseForInput</i> parameter specifies whether the mouse device, as well as the stylus, can be used for input.
 
@@ -86,12 +71,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irea
 <div class="alert"><b>Note</b>  The <b>IRealTimeStylus::SetAllTabletsMode Method</b> method will fail if the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> is enabled. On Microsoft Windows XP, this method will return <b>S_OK</b> but will have no effect. On Windows Vista, this method will return <b>E_INVALID_MODE</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
@@ -106,7 +86,4 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irea
 
 
 <b>RealTimeStylus Class</b>
- 
-
- 
 

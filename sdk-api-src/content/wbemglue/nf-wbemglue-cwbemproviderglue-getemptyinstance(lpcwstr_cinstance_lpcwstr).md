@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 2873b466-3782-4d63-a777-5b25e3fb7615
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance methods [Windows Management Instrumentation], GetEmptyInstance, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance
-f1_keywords:
-- wbemglue/CWbemProviderGlue::GetEmptyInstance
-dev_langs:
-- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CWbemProviderGlue::GetEmptyInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CWbemProviderGlue::GetEmptyInstance
+ - wbemglue/CWbemProviderGlue::GetEmptyInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CWbemProviderGlue::GetEmptyInstance
 ---
 
 # CWbemProviderGlue::GetEmptyInstance
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 

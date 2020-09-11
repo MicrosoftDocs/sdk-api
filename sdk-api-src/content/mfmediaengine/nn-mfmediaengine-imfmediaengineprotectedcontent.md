@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 85B37711-DB46-4BC7-A051-79E9507791FA
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], IMFMediaEngineProtectedContent interface [Media Foundation],described, mf.imfmediaengineprotectedcontent, mfmediaengine/IMFMediaEngineProtectedContent
-f1_keywords:
-- mfmediaengine/IMFMediaEngineProtectedContent
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineProtectedContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineProtectedContent
+ - mfmediaengine/IMFMediaEngineProtectedContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineProtectedContent
 ---
 
 # IMFMediaEngineProtectedContent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the Media Engine to play protected video content.
-
 
 ## -inheritance
 
@@ -122,25 +121,13 @@ Copies a protected video frame to a DXGI surface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the Media Engine.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

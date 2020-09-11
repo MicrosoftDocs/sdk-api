@@ -8,10 +8,6 @@ tech.root: DirectShow
 ms.assetid: 50da3961-3913-4e7d-bbbc-b89450f99931
 ms.date: 12/05/2018
 ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [DirectShow], GetPreferredClsidByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetPreferredClsidByIndex method, IAMPluginControl.GetPreferredClsidByIndex, IAMPluginControl::GetPreferredClsidByIndex, dshow.iamplugincontrol_getpreferredclsidbyindex, strmif/IAMPluginControl::GetPreferredClsidByIndex
-f1_keywords:
-- strmif/IAMPluginControl.GetPreferredClsidByIndex
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IAMPluginControl.GetPreferredClsidByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMPluginControl::GetPreferredClsidByIndex
+ - strmif/IAMPluginControl::GetPreferredClsidByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IAMPluginControl.GetPreferredClsidByIndex
 ---
 
 # IAMPluginControl::GetPreferredClsidByIndex
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a class identifier (CLSID) from the preferred list, specified by index value.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The zero-based index of the CLSID to retrieve.
 
-
-
-
 ### -param subType [out]
 
 Receives the subtype GUID associated with the CLSID.
-
 
 ### -param clsid [out]
 
 Receives the CLSID at the specified index.
 
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,22 +99,12 @@ The <i>index</i> parameter is out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamplugincontrol">IAMPluginControl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
- 
-
- 
 

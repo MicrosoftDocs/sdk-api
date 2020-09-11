@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 3b1d2711-e5ad-4d4c-bc8f-e199bcd75799
 ms.date: 12/05/2018
 ms.keywords: IDvbDataBroadcastDescriptor, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies], IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDataBroadcastDescriptor, mstv.idvbdatabroadcastdescriptor
-f1_keywords:
-- dvbsiparser/IDvbDataBroadcastDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbDataBroadcastDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbDataBroadcastDescriptor
+ - dvbsiparser/IDvbDataBroadcastDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbDataBroadcastDescriptor
 ---
 
 # IDvbDataBroadcastDescriptor interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from a Digital Video Broadcast (DVB) data broadcast descriptor. 
  The data broadcast  descriptor  appears in the DVB service information as part of the  service description table (SDT) or event information table (EIT) and identifies the type of the data component.
-
 
 ## -inheritance
 
@@ -150,5 +149,5 @@ Gets the length of the text description from a DVB data broadcast descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
 ms.date: 12/05/2018
 ms.keywords: GetExcludeFromSnapshotCount, GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
+ - vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 ---
 
 # IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the number of <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
 
-
 ## -parameters
-
-
-
 
 ### -param pcExcludedFromSnapshot [out]
 
 A pointer to the number of <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> explicitly excluded from the shadow copy.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -123,15 +116,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot">IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot</a>
 
@@ -142,7 +128,4 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
- 
-
- 
 

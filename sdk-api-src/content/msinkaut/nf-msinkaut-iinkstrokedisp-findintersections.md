@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: a070fc87-608c-47be-b9b2-e2a41a31226f
 ms.date: 12/05/2018
 ms.keywords: FindIntersections, FindIntersections method [Tablet PC], FindIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],FindIntersections method, IInkStrokeDisp.FindIntersections, IInkStrokeDisp::FindIntersections, a070fc87-608c-47be-b9b2-e2a41a31226f, msinkaut/IInkStrokeDisp::FindIntersections, tablet.iinkstrokedisp_findintersections
-f1_keywords:
-- msinkaut/IInkStrokeDisp.FindIntersections
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokeDisp.FindIntersections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokeDisp::FindIntersections
+ - msinkaut/IInkStrokeDisp::FindIntersections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokeDisp.FindIntersections
 ---
 
 # IInkStrokeDisp::FindIntersections
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the points where this <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object intersects other <b>IInkStrokeDisp</b> objects within a known <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Strokes [in]
 
@@ -77,10 +70,7 @@ A floating point index is a float value that represents a location somewhere bet
 
 For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -167,24 +157,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">In
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method can determine only the points of intersection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections">GetRectangleIntersections Method</a>
 
@@ -195,7 +173,4 @@ This method can determine only the points of intersection.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

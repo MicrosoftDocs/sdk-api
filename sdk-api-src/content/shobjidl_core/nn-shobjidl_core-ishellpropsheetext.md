@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1671ad3e-c131-4de0-a213-b22c9966bae2
 ms.date: 12/05/2018
 ms.keywords: IShellPropSheetExt, IShellPropSheetExt interface [Windows Shell], IShellPropSheetExt interface [Windows Shell],described, _win32_IShellPropSheetExt, _win32_ishellpropsheetext_cpp, shell.IShellPropSheetExt, shobjidl_core/IShellPropSheetExt
-f1_keywords:
-- shobjidl_core/IShellPropSheetExt
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellPropSheetExt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellPropSheetExt
+ - shobjidl_core/IShellPropSheetExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellPropSheetExt
 ---
 
 # IShellPropSheetExt interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow a property sheet handler to add or replace pages in the property sheet displayed for a file object.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Replaces a page in a property sheet for a Control Panel object.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeunaccessdata.htm
 ms.date: 12/05/2018
 ms.keywords: DdeUnaccessData, DdeUnaccessData function [Data Exchange], _win32_DdeUnaccessData, _win32_ddeunaccessdata_cpp, dataxchg.ddeunaccessdata, ddeml/DdeUnaccessData, winui._win32_ddeunaccessdata
-f1_keywords:
-- ddeml/DdeUnaccessData
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DdeUnaccessData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdeUnaccessData
+ - ddeml/DdeUnaccessData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DdeUnaccessData
 ---
 
 # DdeUnaccessData function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Unaccesses a Dynamic Data Exchange (DDE) object. An application must call this function after it has finished accessing the object. 
-
+Unaccesses a Dynamic Data Exchange (DDE) object. An application must call this function after it has finished accessing the object.
 
 ## -parameters
-
-
-
 
 ### -param hData [in]
 
 Type: <b>HDDEDATA</b>
 
-A handle to the DDE object. 
-
+A handle to the DDE object.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -75,15 +68,9 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
-
-
-
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -110,7 +97,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddege
 
 
 <b>Reference</b>
- 
-
- 
 

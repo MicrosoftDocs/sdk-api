@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 2ffa323d-6793-49e2-98ea-b9349c946c7c
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies],ISBE2GlobalEvent interface, ISBE2GlobalEvent interface [Microsoft TV Technologies],GetEvent method, ISBE2GlobalEvent.GetEvent, ISBE2GlobalEvent::GetEvent, mstv.isbe2globalevent_getevent, sbe/ISBE2GlobalEvent::GetEvent
-f1_keywords:
-- sbe/ISBE2GlobalEvent.GetEvent
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.h
-api_name:
-- ISBE2GlobalEvent.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2GlobalEvent::GetEvent
+ - sbe/ISBE2GlobalEvent::GetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.h
+api_name:
+ - ISBE2GlobalEvent.GetEvent
 ---
 
 # ISBE2GlobalEvent::GetEvent
@@ -49,58 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets a global spanning event and its data from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter. 
-
+Gets a global spanning event and its data from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
 ## -parameters
-
-
-
 
 ### -param idEvt [in]
 
 GUID identifying the event.
 
-
 ### -param param1 [in]
 
 First event-specific parameter.
-
 
 ### -param param2 [in]
 
 Second event-specific parameter.
 
-
 ### -param param3 [in]
 
 Third  event-specific parameter.
-
 
 ### -param param4 [in]
 
 Fourth  event-specific parameter.
 
-
 ### -param pSpanning [out]
 
 Receives a flag indicating whether the event is a spanning event.
-
 
 ### -param pcb [in, out]
 
 Pointer to a value specifying the buffer size. If the <i>pb</i> parameter is <b>NULL</b>, this parameter returns the required buffer size.
 
-
 ### -param pb [out]
 
 Pointer to a buffer that receives the event data. If this parameter is <b>NULL</b>, the <i>pcb</i> parameter returns the required buffer size. The structure of the event data depends on the event type. For a list of event types, see the description of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2spanningevent-getevent">ISBE2SpanningEvent::GetEvent</a> method.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -143,15 +129,8 @@ Too much time elapsed between the broadcast event and the call to retrieve it.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2globalevent">ISBE2GlobalEvent</a>
 
@@ -162,7 +141,4 @@ Too much time elapsed between the broadcast event and the call to retrieve it.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
- 
-
- 
 

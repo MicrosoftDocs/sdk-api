@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 7c84cffe-dec8-4e24-b00a-e536984f2a10
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionServices, ITfContextOwnerCompositionServices interface [Text Services Framework], ITfContextOwnerCompositionServices interface [Text Services Framework],described, _tsf_itfcontextownercompositionservices_ref, msctf/ITfContextOwnerCompositionServices, tsf.itfcontextownercompositionservices
-f1_keywords:
-- msctf/ITfContextOwnerCompositionServices
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContextOwnerCompositionServices
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextOwnerCompositionServices
+ - msctf/ITfContextOwnerCompositionServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContextOwnerCompositionServices
 ---
 
 # ITfContextOwnerCompositionServices interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfContextOwnerCompositionServices</b> interface is implemented by the TSF manager and used by a context owner to manipulate compositions created by a text service.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Terminates a composition.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Normally, an application creates a context and is the context owner. On occasion a text service will create a context. In this case, the text service is the context owner. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TSF/edit-contexts">Edit Contexts</a>.
 
@@ -115,14 +111,7 @@ if(SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/edit-contexts">Edit Contexts</a>
 
@@ -134,7 +123,4 @@ if(SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

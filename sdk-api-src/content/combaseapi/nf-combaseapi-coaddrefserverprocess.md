@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 79887f9d-cad1-492a-b406-d1753ffaf82b
 ms.date: 12/05/2018
 ms.keywords: CoAddRefServerProcess, CoAddRefServerProcess function [COM], _com_CoAddRefServerProcess, com.coaddrefserverprocess, combaseapi/CoAddRefServerProcess
-f1_keywords:
-- combaseapi/CoAddRefServerProcess
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoAddRefServerProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoAddRefServerProcess
+ - combaseapi/CoAddRefServerProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoAddRefServerProcess
 ---
 
 # CoAddRefServerProcess function
@@ -53,29 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Increments a global per-process reference count.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The current reference count.
 
-
-
-
 ## -remarks
-
-
 
 Servers can call <b>CoAddRefServerProcess</b> to increment a global per-process reference count. This function is particularly helpful to servers that are implemented with multiple threads, either multi-apartmented or free-threaded. Servers of these types must coordinate the decision to shut down with activation requests across multiple threads. Calling <b>CoAddRefServerProcess</b> increments a global per-process reference count, and calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleaseserverprocess">CoReleaseServerProcess</a> decrements that count.
 
@@ -85,13 +72,7 @@ The simplest way for a local server application to make use of these functions i
 
 If these functions are used at all, they must be called in both the object instances and the <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nf-unknwnbase-iclassfactory-lockserver">LockServer</a> method, otherwise the server application may be shut down prematurely. In-process servers typically should not call <b>CoAddRefServerProcess</b> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleaseserverprocess">CoReleaseServerProcess</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleaseserverprocess">CoReleaseServerProcess</a>
 
@@ -102,7 +83,4 @@ If these functions are used at all, they must be called in both the object insta
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/out-of-process-server-implementation-helpers">Out-of-Process Server Implementation Helpers</a>
- 
-
- 
 

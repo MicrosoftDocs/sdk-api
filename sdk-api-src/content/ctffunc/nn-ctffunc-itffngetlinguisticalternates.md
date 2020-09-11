@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], ITfFnGetLinguisticAlternates interface [Text Services Framework],described, ctffunc/ITfFnGetLinguisticAlternates, tsf.itffngetlinguisticalternates
-f1_keywords:
-- ctffunc/ITfFnGetLinguisticAlternates
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctffunc.h
-api_name:
-- ITfFnGetLinguisticAlternates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnGetLinguisticAlternates
+ - ctffunc/ITfFnGetLinguisticAlternates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctffunc.h
+api_name:
+ - ITfFnGetLinguisticAlternates
 ---
 
 # ITfFnGetLinguisticAlternates interface
 
 
 ## -description
-
 
 The <b>ITfFnGetLinguisticAlternates</b> interface is implemented by a text service and/or by the TSF manager to provide linguistic alternates for the text within a given range passed as a parameter.
 
@@ -59,8 +59,6 @@ An app obtains a pointer to this interface by calling TSF manager <a href="https
 
 <div class="alert"><b>Note</b>  This interface may not be supported for all IMEs. There may be differences in support between IMEs on the Desktop and IMEs in the new Windows UI on Windows 8.1.  Some IMEs instead implement the related interface <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnsearchcandidateprovider">ITfFnSearchCandidateProvider</a> that can be used as a substitute for this API.  Suggested app usage is to check for this interface first, and if it's not available then check if <b>ITfFnSearchCandidateProvider</b> is supported instead.  IMEs that wish to maintain compatibility with Windows 8 should implement <b>ITfFnSearchCandidateProvider</b> instead.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -86,16 +84,9 @@ Returns a list of alternate strings for a given text range.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>
- 
-
- 
 

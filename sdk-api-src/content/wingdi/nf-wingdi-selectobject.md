@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: a89b875e-923d-4048-bc61-8dea132cc56d
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Brush, Font, Pen, Region, SelectObject, SelectObject function [Windows GDI], _win32_SelectObject, gdi.selectobject, wingdi/SelectObject
-f1_keywords:
-- wingdi/SelectObject
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-l1-2-0.dll
-- ext-ms-win-gdi-dc-l1-1-0.dll
-- ext-ms-win-gdi-dc-l1-2-1.dll
-- GDI32Full.dll
-api_name:
-- SelectObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SelectObject
+ - wingdi/SelectObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-l1-2-0.dll
+ - ext-ms-win-gdi-dc-l1-1-0.dll
+ - ext-ms-win-gdi-dc-l1-2-1.dll
+ - GDI32Full.dll
+api_name:
+ - SelectObject
 ---
 
 # SelectObject function
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SelectObject</b> function selects an object into the specified device context (DC). The new object replaces the previous object of the same type.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the DC.
-
 
 ### -param h [in]
 
@@ -139,12 +134,8 @@ Bitmaps can only be selected into memory DC's. A single bitmap cannot be selecte
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the selected object is not a region and the function succeeds, the return value is a handle to the object being replaced. If the selected object is a region and the function succeeds, the return value is one of the following values.
 
@@ -170,12 +161,7 @@ If the selected object is not a region and the function succeeds, the return val
 
 If an error occurs and the selected object is not a region, the return value is <b>NULL</b>. Otherwise, it is HGDI_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 This function returns the previously selected object of the specified type. An application should always replace a new object with the original, default object after it has finished drawing with the new object.
 
@@ -190,12 +176,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/sett
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-combinergn">CombineRgn</a>
 
@@ -286,7 +267,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/sett
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: ea735296-1bfd-4175-b8c9-cb5a61ab4203
 ms.date: 12/05/2018
 ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Imaging Component], _wic_codec_wicconvertbitmapsource, wic._wic_codec_wicconvertbitmapsource, wincodec/WICConvertBitmapSource
-f1_keywords:
-- wincodec/WICConvertBitmapSource
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Windowscodecs.dll
-- Windowscodecs.lib
-api_name:
-- WICConvertBitmapSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICConvertBitmapSource
+ - wincodec/WICConvertBitmapSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Windowscodecs.dll
+ - Windowscodecs.lib
+api_name:
+ - WICConvertBitmapSource
 ---
 
 ## -description
@@ -206,3 +207,4 @@ The following example converts an <a href="/windows/desktop/api/wincodec/nn-winc
 
    return hr;
 ```
+

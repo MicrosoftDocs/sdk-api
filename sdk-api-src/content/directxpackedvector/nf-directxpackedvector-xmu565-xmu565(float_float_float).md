@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor(float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(float,float,float), XMU565::XMU565, XMU565::XMU565(float,float,float), dxmath.xmu565_ctor_5
-f1_keywords:
-- directxpackedvector/XMU565.XMU565
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMU565.XMU565
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMU565::XMU565
+ - directxpackedvector/XMU565::XMU565
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMU565.XMU565
 ---
 
 # XMU565::XMU565(float,float,float)
 
 
 ## -description
-
 
 Initializes a new instance of <code>XMU565</code> from three <code>float</code> arguments.
     
@@ -59,9 +59,6 @@ This constructor initializes a new instance of <a href="https://docs.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param _x
 
 Value of the x-coordinate of the vector, the <b>x</b> member of the new
@@ -69,8 +66,6 @@ Value of the x-coordinate of the vector, the <b>x</b> member of the new
 		
 
 The magnitude of this argument will be clamped to a range of [0.0, 31.0].
-		
-
 
 ### -param _y
 
@@ -79,8 +74,6 @@ Value of the y-coordinate of the vector, the <b>y</b> member of the new
 		
 
 The magnitude of this argument will be clamped to a range of [0.0, 63.0].
-		
-
 
 ### -param _z
 
@@ -89,12 +82,8 @@ Value of the z-coordinate of the vector, the <b>z</b> member of the new
 		
 
 The magnitude of this argument will be clamped to a range of [0.0, 31.0].
-		
-
 
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of this constructor, which takes
 	    advantage of the <code>union</code> of the three components of the <code>XMU565</code> vector
@@ -115,14 +104,7 @@ The following pseudocode demonstrates the operation of this constructor, which t
       
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -133,7 +115,4 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>
- 
-
- 
 

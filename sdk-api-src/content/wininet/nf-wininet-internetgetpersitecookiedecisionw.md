@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 04fa4c33-077c-4b16-8170-c3770783c98a
 ms.date: 12/05/2018
 ms.keywords: InternetGetPerSiteCookieDecision, InternetGetPerSiteCookieDecision function [WinINet], InternetGetPerSiteCookieDecisionA, InternetGetPerSiteCookieDecisionW, wininet.internetgetpersitecookiedecision, wininet/InternetGetPerSiteCookieDecision, wininet/InternetGetPerSiteCookieDecisionA, wininet/InternetGetPerSiteCookieDecisionW
-f1_keywords:
-- wininet/InternetGetPerSiteCookieDecision
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetGetPerSiteCookieDecision
-- InternetGetPerSiteCookieDecisionA
-- InternetGetPerSiteCookieDecisionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetGetPerSiteCookieDecisionW
+ - wininet/InternetGetPerSiteCookieDecisionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetGetPerSiteCookieDecision
+ - InternetGetPerSiteCookieDecisionA
+ - InternetGetPerSiteCookieDecisionW
 ---
 
 # InternetGetPerSiteCookieDecisionW function
@@ -51,39 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a decision on cookies for a given domain.
 
-
 ## -parameters
-
-
-
 
 ### -param pchHostName [in]
 
 An <b>LPCTSTR</b> that points to a string containing a domain.
 
-
 ### -param pResult [out]
 
 A pointer to an <b>unsigned long</b> that contains one of the <a href="/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration values.
 
-
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the decision was retrieved and <b>FALSE</b> otherwise.
 
-
-
-
-
 ## -remarks
-
-
 
 A return value of <b>FALSE</b> may indicate that the domain <i>pchHostName</i> does not have any site-specific cookie regulations.
 
@@ -104,9 +89,6 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetclearallpersitecookiedecisions">InternetClearAllPerSiteCookieDecisions</a>
 
 
@@ -124,7 +106,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-privacysetzonepreferencew">PrivacySetZonePreferenceW</a>
- 
-
- 
 

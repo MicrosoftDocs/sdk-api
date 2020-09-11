@@ -8,10 +8,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetinterface.htm
 ms.date: 12/05/2018
 ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResultSet interface [HTML Help Workshop],described, htmlhelp.iitresultset, infotech/IITResultSet, refIITResultSetInterface
-f1_keywords:
-- infotech/IITResultSet
-dev_langs:
-- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Infotech.h
-api_name:
-- IITResultSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IITResultSet
+ - infotech/IITResultSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Infotech.h
+api_name:
+ - IITResultSet
 ---
 
 # IITResultSet interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface in run-time applications to initialize, build, and obtain information about result sets.
-
 
 ## -inheritance
 
@@ -132,5 +131,5 @@ Gets the number of rows in a result set.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupoutput.htm
 ms.date: 12/05/2018
 ms.keywords: GdiplusStartupOutput, GdiplusStartupOutput structure [GDI+], _gdiplus_STRUC_GdiplusStartupOutput, gdiplus._gdiplus_STRUC_GdiplusStartupOutput, gdiplusinit/GdiplusStartupOutput
-f1_keywords:
-- gdiplusinit/GdiplusStartupOutput
-dev_langs:
-- c++
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdiplusinit.h
-api_name:
-- GdiplusStartupOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GdiplusStartupOutput
+ - gdiplusinit/GdiplusStartupOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdiplusinit.h
+api_name:
+ - GdiplusStartupOutput
 ---
 
 ## -description
@@ -59,13 +60,13 @@ If you do not want to be responsible for calling the hook and unhook functions, 
 
 Type: <b>NotificationHookProc</b>
 
-Receives a pointer to a hook function. 
+Receives a pointer to a hook function.
 
 ### -field NotificationUnhook
 
 Type: <b>NotificationUnhookProc</b>
 
-Receives a pointer to an unhook function. 
+Receives a pointer to an unhook function.
 
 ## -see-also
 
@@ -76,3 +77,4 @@ Receives a pointer to an unhook function.
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput">GdiplusStartupInput</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting started</a>
+

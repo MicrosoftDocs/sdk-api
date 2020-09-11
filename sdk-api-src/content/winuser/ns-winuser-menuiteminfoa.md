@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuiteminfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPMENUITEMINFOA, HBMMENU_CALLBACK, HBMMENU_MBAR_CLOSE, HBMMENU_MBAR_CLOSE_D, HBMMENU_MBAR_MINIMIZE, HBMMENU_MBAR_MINIMIZE_D, HBMMENU_MBAR_RESTORE, HBMMENU_POPUP_CLOSE, HBMMENU_POPUP_MAXIMIZE, HBMMENU_POPUP_MINIMIZE, HBMMENU_POPUP_RESTORE, HBMMENU_SYSTEM, LPMENUITEMINFO, LPMENUITEMINFO structure pointer [Menus and Other Resources], MENUITEMINFO, MENUITEMINFO structure [Menus and Other Resources], MENUITEMINFOA, MENUITEMINFOW, MFS_CHECKED, MFS_DEFAULT, MFS_DISABLED, MFS_ENABLED, MFS_GRAYED, MFS_HILITE, MFS_UNCHECKED, MFS_UNHILITE, MFT_BITMAP, MFT_MENUBARBREAK, MFT_MENUBREAK, MFT_OWNERDRAW, MFT_RADIOCHECK, MFT_RIGHTJUSTIFY, MFT_RIGHTORDER, MFT_SEPARATOR, MFT_STRING, MIIM_BITMAP, MIIM_CHECKMARKS, MIIM_DATA, MIIM_FTYPE, MIIM_ID, MIIM_STATE, MIIM_STRING, MIIM_SUBMENU, MIIM_TYPE, _win32_MENUITEMINFO_str, _win32_menuiteminfo_str_cpp, menurc.menuiteminfo, winui._win32_menuiteminfo_str, winuser/LPMENUITEMINFO, winuser/MENUITEMINFO, winuser/MENUITEMINFOA, winuser/MENUITEMINFOW'
-f1_keywords:
-- winuser/MENUITEMINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MENUITEMINFO
-- MENUITEMINFOA
-- MENUITEMINFOW
 targetos: Windows
 req.typenames: MENUITEMINFOA, *LPMENUITEMINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMENUITEMINFOA
+ - winuser/tagMENUITEMINFOA
+ - LPMENUITEMINFOA
+ - winuser/LPMENUITEMINFOA
+ - MENUITEMINFOA
+ - winuser/MENUITEMINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MENUITEMINFO
+ - MENUITEMINFOA
+ - MENUITEMINFOW
 ---
 
 # MENUITEMINFOA structure
@@ -51,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a menu item.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>UINT</b>
 
-The size of the structure, in bytes. The caller must set this member to <code>sizeof(MENUITEMINFO)</code>. 
-
+The size of the structure, in bytes. The caller must set this member to <code>sizeof(MENUITEMINFO)</code>.
 
 ### -field fMask
 
@@ -190,8 +189,6 @@ Retrieves or sets the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fType
 
@@ -325,8 +322,6 @@ Displays the menu item using a text string. The
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fState
 
@@ -432,8 +427,6 @@ Removes the highlight from the menu item. This is the default state.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wID
 
@@ -443,7 +436,6 @@ An application-defined value that identifies the menu item. Set
 					<b>fMask</b>  to <b>MIIM_ID</b>  to use 
 					<b>wID</b>.
 
-
 ### -field hSubMenu
 
 Type: <b>HMENU</b>
@@ -451,7 +443,6 @@ Type: <b>HMENU</b>
 A handle to the drop-down menu or submenu associated with the menu item. If the menu item is not an item that opens a drop-down menu or submenu, this member is <b>NULL</b>. Set 
 					<b>fMask</b>  to <b>MIIM_SUBMENU</b>  to use 
 					<b>hSubMenu</b>.
-
 
 ### -field hbmpChecked
 
@@ -461,15 +452,13 @@ A handle to the bitmap to display next to the item if it is selected. If this me
 					<b>fMask</b> to <b>MIIM_CHECKMARKS</b> to use 
 					<b>hbmpChecked</b>.
 
-
 ### -field hbmpUnchecked
 
 Type: <b>HBITMAP</b>
 
 A handle to the bitmap to display next to the item if it is not selected. If this member is <b>NULL</b>, no bitmap is used. Set 
 					<b>fMask</b> to <b>MIIM_CHECKMARKS</b> to use 
-					<b>hbmpUnchecked</b>. 
-
+					<b>hbmpUnchecked</b>.
 
 ### -field dwItemData
 
@@ -478,7 +467,6 @@ Type: <b>ULONG_PTR</b>
 An application-defined value associated with the menu item. Set 
 					<b>fMask</b> to <b>MIIM_DATA</b> to use 
 					<b>dwItemData</b>.
-
 
 ### -field dwTypeData
 
@@ -499,8 +487,7 @@ When using with the <a href="https://docs.microsoft.com/windows/desktop/api/winu
 						<b>fType</b> member.
 
 <b>dwTypeData</b> is used only if the <b>MIIM_STRING</b> flag is set in the 
-						<b>fMask</b> member 
-
+						<b>fMask</b> member
 
 ### -field cch
 
@@ -518,8 +505,7 @@ Note that, before calling <a href="https://docs.microsoft.com/windows/desktop/ap
 
 The 
 						<b>cch</b> member is used when the <b>MIIM_STRING</b> flag is set in the 
-						<b>fMask</b> member. 
-
+						<b>fMask</b> member.
 
 ### -field hbmpItem
 
@@ -657,12 +643,8 @@ Windows icon or the icon of the window specified in
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The <b>MENUITEMINFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a> functions.
 
@@ -676,9 +658,6 @@ The menu can display items using text, bitmaps, or both.
 > The winuser.h header defines MENUITEMINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -709,7 +688,4 @@ The menu can display items using text, bitmaps, or both.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 34fc125d-0f0b-43d0-aa2b-91501bd6cd26
 ms.date: 12/05/2018
 ms.keywords: GetSystemDefaultUILanguage, GetSystemDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetSystemDefaultUILanguage, intl.getsystemdefaultuilanguage, winnls/GetSystemDefaultUILanguage
-f1_keywords:
-- winnls/GetSystemDefaultUILanguage
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
-api_name:
-- GetSystemDefaultUILanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSystemDefaultUILanguage
+ - winnls/GetSystemDefaultUILanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+api_name:
+ - GetSystemDefaultUILanguage
 ---
 
 # GetSystemDefaultUILanguage function
@@ -55,29 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the system default UI language of the operating system, also known as the "install language" on Windows Vista and later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns the language identifier for the system default UI language of the operating system. For more information, see the Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 This function never returns a language identifier for a Language Interface Pack (LIP). It also never returns a language identifier corresponding to the locale identifier <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a> or <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>.
 
@@ -91,14 +78,7 @@ Note that this function does not necessarily return the identifier for the first
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
 
@@ -117,7 +97,4 @@ Note that this function does not necessarily return the identifier for the first
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
- 
-
- 
 

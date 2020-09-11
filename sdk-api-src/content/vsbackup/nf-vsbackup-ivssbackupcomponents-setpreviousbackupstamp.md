@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: cc1c75bf-b281-4741-9273-f7264532860f
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetPreviousBackupStamp method, IVssBackupComponents.SetPreviousBackupStamp, IVssBackupComponents::SetPreviousBackupStamp, SetPreviousBackupStamp, SetPreviousBackupStamp method [VSS], SetPreviousBackupStamp method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setpreviousbackupstamp, base.ivssbackupcomponents_setpreviousbackupstamp, vsbackup/IVssBackupComponents::SetPreviousBackupStamp
-f1_keywords:
-- vsbackup/IVssBackupComponents.SetPreviousBackupStamp
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SetPreviousBackupStamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SetPreviousBackupStamp
+ - vsbackup/IVssBackupComponents::SetPreviousBackupStamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SetPreviousBackupStamp
 ---
 
 # IVssBackupComponents::SetPreviousBackupStamp
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetPreviousBackupStamp</b> method sets the backup stamp of an earlier backup operation, upon which a differential or incremental backup operation will be based.
 
 The method can be called only during a backup operation.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Writer identifier.
 
-
 ### -param ct [in]
 
 Type of the component. See 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -85,7 +79,6 @@ The value of the string containing the logical path used here should be the same
 
 The logical path can be <b>NULL</b>.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the name of the component. 
@@ -96,15 +89,11 @@ The logical path can be <b>NULL</b>.
 The string cannot be <b>NULL</b> and should contain the same component name as was used when the component was added to the backup set using 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
-
 ### -param wszPreviousBackupStamp [in]
 
 The backup stamp to be set.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -195,14 +184,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method should be called before 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>.
@@ -221,20 +204,11 @@ Therefore, the value set with
 A writer will then obtain this value (using 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpreviousbackupstamp">IVssComponent::GetPreviousBackupStamp</a>) and using it will be able to mark the appropriate files for participation in an incremental or differential backup.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
- 
-
- 
 

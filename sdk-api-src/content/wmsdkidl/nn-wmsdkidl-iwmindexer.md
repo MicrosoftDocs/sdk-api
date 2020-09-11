@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 00627b0c-4484-417a-8680-0fd97aac41fe
 ms.date: 12/05/2018
 ms.keywords: IWMIndexer, IWMIndexer interface [windows Media Format], IWMIndexer interface [windows Media Format],described, IWMIndexerInterface, wmformat.iwmindexer, wmsdkidl/IWMIndexer
-f1_keywords:
-- wmsdkidl/IWMIndexer
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMIndexer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMIndexer
+ - wmsdkidl/IWMIndexer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMIndexer
 ---
 
 # IWMIndexer interface
 
 
 ## -description
-
-
 
 The <b>IWMIndexer</b> interface is used to create an index for ASF files to enable seeking. An index is created only for a file that contains video, although the indexer can safely be used on files that do not contain any video.
 
@@ -58,9 +57,6 @@ An index is an object in the ASF file that equates video samples with presentati
 In addition to the standard temporal index, the indexer object can create indexes based on video frame number and SMPTE time code. For more information about creating these indexes, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer2-configure">IWMIndexer2::Configure</a>.
 
 This interface can be obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreateindexer">WMCreateIndexer</a> function.
-
-
-
 
 ## -inheritance
 
@@ -110,20 +106,13 @@ The following interface can be obtained by using the QueryInterface method of th
 </td>
 <td>IID_IWMIndexer2</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/indexer-object">Indexer Object</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

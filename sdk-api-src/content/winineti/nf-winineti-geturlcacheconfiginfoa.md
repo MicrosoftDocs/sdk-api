@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 93a29a4f-57bf-497c-a7b1-3960935590f9
 ms.date: 12/05/2018
 ms.keywords: CACHE_CONFIG_CONTENT_PATHS_FC, CACHE_CONFIG_CONTENT_USAGE_FC, CACHE_CONFIG_COOKIES_PATHS_FC, CACHE_CONFIG_DISK_CACHE_PATHS_FC, CACHE_CONFIG_FORCE_CLEANUP_FC, CACHE_CONFIG_HISTORY_PATHS_FC, CACHE_CONFIG_QUOTA_FC, CACHE_CONFIG_STICKY_CONTENT_USAGE_FC, CACHE_CONFIG_SYNC_MODE_FC, CACHE_CONFIG_USER_MODE_FC, GetUrlCacheConfigInfo, GetUrlCacheConfigInfo function [WinINet], GetUrlCacheConfigInfoA, GetUrlCacheConfigInfoW, wininet.geturlcacheconfiginfo, winineti/GetUrlCacheConfigInfo, winineti/GetUrlCacheConfigInfoA, winineti/GetUrlCacheConfigInfoW
-f1_keywords:
-- winineti/GetUrlCacheConfigInfo
-dev_langs:
-- c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- GetUrlCacheConfigInfo
-- GetUrlCacheConfigInfoA
-- GetUrlCacheConfigInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUrlCacheConfigInfoA
+ - winineti/GetUrlCacheConfigInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - GetUrlCacheConfigInfo
+ - GetUrlCacheConfigInfoA
+ - GetUrlCacheConfigInfoW
 ---
 
 # GetUrlCacheConfigInfoA function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about cache configuration.
 
-
 ## -parameters
-
-
-
 
 ### -param lpCacheConfigInfo [in, out]
 
@@ -68,11 +64,9 @@ A pointer to an
        the structure should be initialized to the size of 
        <b>INTERNET_CACHE_CONFIG_INFO</b>.
 
-
 ### -param lpcbCacheConfigInfo
 
 This parameter is reserved and must be <b>NULL</b>.
-
 
 ### -param dwFieldControl [in]
 
@@ -219,22 +213,13 @@ The <b>dwExemptUsage</b> field of the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get 
        extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
@@ -247,11 +232,5 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a>
- 
-
- 
 

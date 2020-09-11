@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 091a2b28-b4cf-46a9-845a-46b5aa86522d
 ms.date: 12/05/2018
 ms.keywords: AppendCategory, AppendCategory method [Windows Shell], AppendCategory method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AppendCategory method, ICustomDestinationList.AppendCategory, ICustomDestinationList::AppendCategory, _shell_ICustomDestinationList_AppendCategory, shell.ICustomDestinationList_AppendCategory, shobjidl_core/ICustomDestinationList::AppendCategory
-f1_keywords:
-- shobjidl_core/ICustomDestinationList.AppendCategory
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ICustomDestinationList.AppendCategory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICustomDestinationList::AppendCategory
+ - shobjidl_core/ICustomDestinationList::AppendCategory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ICustomDestinationList.AppendCategory
 ---
 
 # ICustomDestinationList::AppendCategory
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a custom category and the destinations that it contains, for inclusion in a custom Jump List.
 
-
 ## -parameters
-
-
-
 
 ### -param pszCategory [in]
 
@@ -82,8 +78,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objectar
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise.
@@ -102,12 +96,7 @@ In the case of a failure code in <b>AppendCategory</b> caused by privacy Group P
 
 If no file type registration was found for the associated application, <b>AppendCategory</b> returns HRESULT 0x80040F03. This can result from an application not registering the file type it is trying to add to the Jump List or from a problem in the registration, such as not providing the AppUserModelID when the application is using an explicit AppUserModelID.
 
-
-
-
 ## -remarks
-
-
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-beginlist">BeginList</a> before you call this method.
 
@@ -137,13 +126,7 @@ The display name must be set through the item's <a href="https://docs.microsoft.
 
 Optionally, the description field (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">SetDescription</a>) can be set to provide a custom tooltip for the item in the Jump List.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist">ICustomDestinationList</a>
 
@@ -158,7 +141,4 @@ Optionally, the description field (<a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

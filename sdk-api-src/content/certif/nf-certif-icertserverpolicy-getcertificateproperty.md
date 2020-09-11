@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e7ece535-31c7-4468-a9ef-84f4dbf16d76
 ms.date: 12/05/2018
 ms.keywords: CAType, CCertServerPolicy object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GeneralFlags, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerPolicy object, GetCertificateProperty method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateProperty method, ICertServerPolicy.GetCertificateProperty, ICertServerPolicy::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, RequesterNameFromOldCertificate, SanitizedCAName, SanitizedShortName, _certsrv_icertserverpolicy_getcertificateproperty, certif/ICertServerPolicy::GetCertificateProperty, fUseDS, security.icertserverpolicy_getcertificateproperty
-f1_keywords:
-- certif/ICertServerPolicy.GetCertificateProperty
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerPolicy.GetCertificateProperty
-- CCertServerPolicy.GetCertificateProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerPolicy::GetCertificateProperty
+ - certif/ICertServerPolicy::GetCertificateProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerPolicy.GetCertificateProperty
+ - CCertServerPolicy.GetCertificateProperty
 ---
 
 # ICertServerPolicy::GetCertificateProperty
@@ -50,17 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCertificateProperty</b> method returns a named property from a certificate.
 
 You must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> prior to using this method.
 
-
 ## -parameters
-
-
-
 
 ### -param strPropertyName [in]
 
@@ -404,8 +400,6 @@ The sanitized name for the CA, which is shortened and which contains a hash valu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyType [in]
 
@@ -457,29 +451,18 @@ Binary data
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [out]
 
 A pointer to <b>VARIANT</b> that will contain the property value.
 
-
 ## -returns
-
-
 
  If the method succeeds, the method returns S_OK, and *<i>pvarPropertyValue</i> is set to the <b>VARIANT</b> that contains the requested property value.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
@@ -490,7 +473,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
- 
-
- 
 

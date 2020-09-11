@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: c936d5a0-ca5e-487e-b304-bfd81403ab40
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedUdpTable, GetExtendedUdpTable function [IP Helper], iphlp.getextendedudptable, iphlpapi/GetExtendedUdpTable
-f1_keywords:
-- iphlpapi/GetExtendedUdpTable
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetExtendedUdpTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetExtendedUdpTable
+ - iphlpapi/GetExtendedUdpTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetExtendedUdpTable
 ---
 
 # GetExtendedUdpTable function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetExtendedUdpTable</b> function retrieves a table that contains a list of UDP endpoints available to the application.
 
-
 ## -parameters
-
-
-
 
 ### -param pUdpTable [out]
 
 A pointer to the table structure that contains the filtered UDP endpoints available to the application.   For information about how to determine the type of table returned based on specific input parameter combinations, see the Remarks section later in this document.
 
-
 ### -param pdwSize [in, out]
 
 The estimated size of the structure returned in <i>pUdpTable</i>, in bytes. If this value is set too small, <b>ERROR_INSUFFICIENT_BUFFER</b> is returned by this function, and this field will contain the correct size of the structure.
-
 
 ### -param bOrder [in]
 
@@ -77,8 +71,6 @@ The following values are compared as listed when ordering the UDP endpoints: <ol
 <li>Local scope ID (applicable when the <i>ulAf</i> parameter is set to AF_INET6)</li>
 <li>Local UDP port</li>
 </ol>
-
-
 
 ### -param ulAf [in]
 
@@ -110,8 +102,6 @@ IPv6 is used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param TableClass [in]
 
@@ -119,19 +109,13 @@ The type of the UDP table structure to retrieve.  This parameter can be one of t
 
 On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a> enumeration  is defined in the <i>Iprtrmib.h</i> header file, not in the <i>Iphlpapi.h</i> header file.
 
- The <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a> enumeration value is combined with the value of the <i>ulAf</i> parameter to determine the extended UDP information to retrieve. 
-
-
-
+ The <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a> enumeration value is combined with the value of the <i>ulAf</i> parameter to determine the extended UDP information to retrieve.
 
 ### -param Reserved [in]
 
 Reserved. This value must be zero.
 
-
 ## -returns
-
-
 
 If the call is successful, the value <b>NO_ERROR</b> is returned. 
 
@@ -167,14 +151,8 @@ An invalid parameter was passed to the function. This error is returned if the <
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The table type returned by this function depends on the specific combination of the <i>ulAf</i> parameter and the <i>TableClass</i> parameter. 
 
@@ -246,13 +224,7 @@ On Windows Server 2003 with Service Pack 1 (SP1) and Windows XP with Service 
 
 On the Windows SDK released for Windows Vistaand later, the organization of header files has changed. The various <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable">MIB_UDPTABLE</a>  structures are defined in the <i>Udpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Udpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Udpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table">MIB_UDP6TABLE</a>
 
@@ -279,7 +251,4 @@ On the Windows SDK released for Windows Vistaand later, the organization of hea
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a>
- 
-
- 
 

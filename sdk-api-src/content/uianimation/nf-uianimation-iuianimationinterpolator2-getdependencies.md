@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: DC6F046E-1A35-4FB9-9016-853AF2B598DE
 ms.date: 12/05/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator2.GetDependencies, IUIAnimationInterpolator2::GetDependencies, uianimation.iuianimationinterpolator2_getdependencies, uianimation/IUIAnimationInterpolator2::GetDependencies
-f1_keywords:
-- uianimation/IUIAnimationInterpolator2.GetDependencies
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationInterpolator2.GetDependencies
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationInterpolator2::GetDependencies
+ - uianimation/IUIAnimationInterpolator2::GetDependencies
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationInterpolator2.GetDependencies
 ---
 
 # IUIAnimationInterpolator2::GetDependencies
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 For the given dimension, <b>GetDependencies</b> retrieves the aspects of the interpolator that depend on the initial value or velocity that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setinitialvalueandvelocity">IUIAnimationInterpolator2::SetInitialValueAndVelocity</a> method or the duration that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setduration">IUIAnimationInterpolator2::SetDuration</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param initialValueDependencies [out]
 
 Aspects of the interpolator that depend on the  initial value passed to <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setinitialvalueandvelocity">SetInitialValueAndVelocity</a>.
 
-
 ### -param initialVelocityDependencies [out]
 
 Aspects of the interpolator that depend on the initial velocity passed to <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setinitialvalueandvelocity">SetInitialValueAndVelocity</a>.
-
 
 ### -param durationDependencies [out]
 
 Aspects of the interpolator that depend on the duration passed to <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setduration">SetDuration</a>.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 This method is called to identify which aspects of the custom interpolator are affected by certain inputs: value, velocity, and duration. For each of these inputs, the interpolator returns either of the following:
 
@@ -106,15 +92,7 @@ It is important that an interpolator return a correct set of flags. If a flag is
 <div class="alert"><b>Note</b>  If the flags returned for <i>durationDependencies</i> do not include <b>UI_ANIMATION_DEPENDENCY_DURATION</b>, <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setduration">SetDuration</a> will never be called on the interpolator.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a>
- 
-
- 
 

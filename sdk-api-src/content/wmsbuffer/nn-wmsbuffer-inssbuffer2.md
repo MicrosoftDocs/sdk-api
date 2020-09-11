@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 74d174a1-ede8-482c-ae42-19ca65c6cad4
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer2, INSSBuffer2 interface [windows Media Format], INSSBuffer2 interface [windows Media Format],described, INSSBuffer2Interface, wmformat.inssbuffer2, wmsbuffer/INSSBuffer2
-f1_keywords:
-- wmsbuffer/INSSBuffer2
-dev_langs:
-- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsbuffer.h
-api_name:
-- INSSBuffer2
-- INSSBuffer2.GetSampleProperties
-- INSSBuffer2.SetSampleProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INSSBuffer2
+ - wmsbuffer/INSSBuffer2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsbuffer.h
+api_name:
+ - INSSBuffer2
+ - INSSBuffer2.GetSampleProperties
+ - INSSBuffer2.SetSampleProperties
 ---
 
 # INSSBuffer2 interface
 
 
 ## -description
-
-
 
 The <b>INSSBuffer2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> and defines two additional methods. Currently, neither of these methods is implemented.
 
@@ -82,10 +81,6 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <td>IID_INSSBuffer4</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -inheritance
 
@@ -116,20 +111,13 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

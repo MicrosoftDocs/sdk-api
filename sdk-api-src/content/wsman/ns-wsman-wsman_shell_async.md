@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 9391e1a8-7048-49b8-9dc4-1da25b190238
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SHELL_ASYNC, WSMAN_SHELL_ASYNC structure [Windows Remote Management], winrm.wsman_shell_async, wsman/WSMAN_SHELL_ASYNC
-f1_keywords:
-- wsman/WSMAN_SHELL_ASYNC
-dev_langs:
-- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wsman.h
-api_name:
-- WSMAN_SHELL_ASYNC
 targetos: Windows
 req.typenames: WSMAN_SHELL_ASYNC
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WSMAN_SHELL_ASYNC
+ - wsman/_WSMAN_SHELL_ASYNC
+ - WSMAN_SHELL_ASYNC
+ - wsman/WSMAN_SHELL_ASYNC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wsman.h
+api_name:
+ - WSMAN_SHELL_ASYNC
 ---
 
 # WSMAN_SHELL_ASYNC structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines an asynchronous structure to be passed to all shell operations. It contains an optional user context and the callback function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field operationContext
 
 Specifies the optional user context associated with the operation.
-
 
 ### -field completionFunction
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 8984e253-ea78-4ca2-bf24-83100a0ac79d
 ms.date: 12/05/2018
 ms.keywords: RpcSsSetThreadHandle, RpcSsSetThreadHandle function [RPC], _rpc_rpcsssetthreadhandle, rpc.rpcsssetthreadhandle, rpcndr/RpcSsSetThreadHandle
-f1_keywords:
-- rpcndr/RpcSsSetThreadHandle
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcSsSetThreadHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcSsSetThreadHandle
+ - rpcndr/RpcSsSetThreadHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcSsSetThreadHandle
 ---
 
 # RpcSsSetThreadHandle function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcSsSetThreadHandle</b> function sets a thread handle for the stub memory–management environment.
 
-
 ## -parameters
-
-
-
 
 ### -param Id
 
 Thread handle returned by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a>.
 
-
 ## -remarks
-
-
 
 An application calls 
 <b>RpcSsSetThreadHandle</b> to set a thread handle for the stub memory–management environment. A thread used to manage memory for the stub memory–management environment calls 
@@ -94,12 +87,7 @@ A thread can also call
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> routine returns the error code.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>
 
@@ -114,7 +102,4 @@ A thread can also call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_addstring.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_AddString, ListBox_AddString macro [Windows Controls], _win32_ListBox_AddString, _win32_ListBox_AddString_cpp, controls.ListBox_AddString, controls._win32_ListBox_AddString, windowsx/ListBox_AddString
-f1_keywords:
-- windowsx/ListBox_AddString
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ListBox_AddString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListBox_AddString
+ - windowsx/ListBox_AddString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ListBox_AddString
 ---
 
 # ListBox_AddString macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a string to a list box. If the list box does not have the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndCtl
 
@@ -64,20 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the control.
 
-
 ### -param lpsz
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The string to add.
 
-
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>.
-	
-
-
 

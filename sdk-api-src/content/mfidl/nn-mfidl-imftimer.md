@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 152594df-de3d-4f6f-9277-dba95ab3533a
 ms.date: 12/05/2018
 ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface [Media Foundation], IMFTimer interface [Media Foundation],described, mf.imftimer, mfidl/IMFTimer
-f1_keywords:
-- mfidl/IMFTimer
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimer
+ - mfidl/IMFTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTimer
 ---
 
 # IMFTimer interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a timer that invokes a callback at a specified time.
-
 
 ## -inheritance
 
@@ -89,29 +88,17 @@ Sets a timer that invokes a callback.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The presentation clock exposes this interface. To get a pointer to the interface, call <b>QueryInterface</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
 

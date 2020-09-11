@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 823b79a1-1bf5-4aab-80dd-0e77ba950127
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IEncoderAPI interface [Microsoft TV Technologies],described, IEncoderAPIInterface, mstv.iencoderapi, strmif/IEncoderAPI
-f1_keywords:
-- strmif/IEncoderAPI
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEncoderAPI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEncoderAPI
+ - strmif/IEncoderAPI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEncoderAPI
 ---
 
 # IEncoderAPI interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IEncoderAPI</b> is no longer available for use. Instead, use <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
 
 The <b>IEncoderAPI</b> interface defines a standard way for applications and drivers to communicate with third-party hardware or software encoders that implement the interface. For more information on this interface, see <a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>.
 
 ## -inheritance
-
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEncoderAPI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEncoderAPI</b> also has these types of members:
 <ul>
@@ -134,12 +133,9 @@ Sets the current value of a parameter.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 In the various interface methods, the following GUIDs, defined in uuids.h, are used to indicate which parameter is being set or retrieved.
 
@@ -203,13 +199,7 @@ The following table describes the expected behavior of an encoder under extremel
 
 This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
-
-
 ## -see-also
 
-
-
-
-
 <a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
- 
+

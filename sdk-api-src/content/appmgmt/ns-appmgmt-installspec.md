@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: e9c1b943-9cb0-480f-8ab7-0f439087216a
 ms.date: 12/05/2018
 ms.keywords: INSTALLSPEC, INSTALLSPEC union [Group Policy], appmgmt/INSTALLSPEC, policy.installspec_union
-f1_keywords:
-- appmgmt/INSTALLSPEC
-dev_langs:
-- c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,46 +25,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Appmgmt.h
-api_name:
-- INSTALLSPEC
 targetos: Windows
 req.typenames: INSTALLSPEC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _INSTALLSPEC
+ - appmgmt/_INSTALLSPEC
+ - INSTALLSPEC
+ - appmgmt/INSTALLSPEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Appmgmt.h
+api_name:
+ - INSTALLSPEC
 ---
 
 ## -description
 
-
 The <b>INSTALLSPEC</b> structure specifies a group policy application by its user-friendly name and group policy GUID or by its file name extension. The <b>Spec</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>  structure provides this information to the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AppName
 
 Structure that contains the following members.
 
-
 ### -field AppName.Name
 
 The user-friendly name of the application as it appears in <b>Add or Remove Programs</b> and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-object-editor">Group Policy Object Editor</a>. You can obtain the name by calling <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-getmanagedapplications">GetManagedApplications</a>.
 
-
 ### -field AppName.GPOId
 
 The <b>GUID</b> for the group policy object in which the application exists. You can obtain the group policy object <b>GUID</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-getmanagedapplications">GetManagedApplications</a>.
-
 
 ### -field FileExt
 
@@ -116,7 +111,4 @@ This parameter is reserved and should not be used.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-uninstallapplication">UninstallApplication</a>
- 
-
- 
 

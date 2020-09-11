@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetFolderPath"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - SHGetFolderPathA
+ - shlobj_core/SHGetFolderPathA
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,18 +52,12 @@ api_name:
  - SHGetFolderPath
  - SHGetFolderPathA
  - SHGetFolderPathW
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # SHGetFolderPathA function
 
 
 ## -description
-
 
 Deprecated. Gets the path of a folder identified by a <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value.
             
@@ -66,22 +66,17 @@ Deprecated. Gets the path of a folder identified by a <a href="https://docs.micr
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
 Type: <b>HWND</b>
 
 Reserved.
 
-
 ### -param csidl [in]
 
 Type: <b>int</b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder whose path is to be retrieved. Only real folders are valid. If a virtual folder is specified, this function fails. You can force creation of a folder by combining the folder's <b>CSIDL</b> with <b>CSIDL_FLAG_CREATE</b>.
-
 
 ### -param hToken [in]
 
@@ -98,7 +93,6 @@ An <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">a
 The calling process is responsible for correct impersonation when <i>hToken</i> is non-<b>NULL</b>. The calling process must have appropriate security privileges for the particular user, including TOKEN_QUERY and TOKEN_IMPERSONATE, and the user's registry hive must be currently mounted. See <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> for further discussion of access control issues.
 
 Assigning the <i>hToken</i> parameter a value of -1 indicates the Default User. This enables clients of <b>SHGetFolderPath</b> to find folder locations (such as the Desktop folder) for the Default User. The Default User user profile is duplicated when any new user account is created, and includes special folders such as My Documents and Desktop. Any items added to the Default User folder also appear in any new user account.
-
 
 ### -param dwFlags [in]
 
@@ -126,28 +120,19 @@ Retrieve the folder's current path.
 
 Retrieve the folder's default path.
 
-
 ### -param pszPath [out]
 
 Type: <b>LPTSTR</b>
 
 A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\".
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function is a superset of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha">SHGetSpecialFolderPath</a>.
 
@@ -228,17 +213,7 @@ if(SUCCEEDED(SHGetFolderPath(NULL,
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>
- 
-
- 
 

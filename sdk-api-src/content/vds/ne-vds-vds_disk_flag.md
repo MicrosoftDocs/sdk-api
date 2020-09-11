@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a421a1c1-a82c-4e07-846c-10aa2082ab86
 ms.date: 12/05/2018
 ms.keywords: VDS_DF_AUDIO_CD, VDS_DF_BOOT_DISK, VDS_DF_BOOT_FROM_DISK, VDS_DF_CLUSTERED, VDS_DF_CRASHDUMP_DISK, VDS_DF_CURRENT_READ_ONLY, VDS_DF_DYNAMIC, VDS_DF_HAS_ARC_PATH, VDS_DF_HIBERNATIONFILE_DISK, VDS_DF_HOTSPARE, VDS_DF_MASKED, VDS_DF_PAGEFILE_DISK, VDS_DF_READ_ONLY, VDS_DF_RESERVE_CAPABLE, VDS_DF_STYLE_CONVERTIBLE, VDS_DF_SYSTEM_DISK, VDS_DISK_FLAG, VDS_DISK_FLAG enumeration [VDS], base.vds_disk_flag, vds/VDS_DF_AUDIO_CD, vds/VDS_DF_BOOT_DISK, vds/VDS_DF_BOOT_FROM_DISK, vds/VDS_DF_CLUSTERED, vds/VDS_DF_CRASHDUMP_DISK, vds/VDS_DF_CURRENT_READ_ONLY, vds/VDS_DF_DYNAMIC, vds/VDS_DF_HAS_ARC_PATH, vds/VDS_DF_HIBERNATIONFILE_DISK, vds/VDS_DF_HOTSPARE, vds/VDS_DF_MASKED, vds/VDS_DF_PAGEFILE_DISK, vds/VDS_DF_READ_ONLY, vds/VDS_DF_RESERVE_CAPABLE, vds/VDS_DF_STYLE_CONVERTIBLE, vds/VDS_DF_SYSTEM_DISK, vds/VDS_DISK_FLAG
-f1_keywords:
-- vds/VDS_DISK_FLAG
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-api_name:
-- VDS_DISK_FLAG
 targetos: Windows
 req.typenames: VDS_DISK_FLAG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_DISK_FLAG
+ - vds/_VDS_DISK_FLAG
+ - VDS_DISK_FLAG
+ - vds/VDS_DISK_FLAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+api_name:
+ - VDS_DISK_FLAG
 ---
 
 # VDS_DISK_FLAG enumeration
 
 
 ## -description
-
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
@@ -57,38 +59,29 @@ Defines the set of valid flags for a disk object.
 
 ## -enum-fields
 
-
-
-
 ### -field VDS_DF_AUDIO_CD
 
 The media in a CDROM or DVD drive is an audio CD.
-
 
 ### -field VDS_DF_HOTSPARE
 
 The disk is reserved for use only as hot spare.
 
-
 ### -field VDS_DF_RESERVE_CAPABLE
 
 This flag is reserved for future use. Do not use.
-
 
 ### -field VDS_DF_MASKED
 
 The disk is masked.
 
-
 ### -field VDS_DF_STYLE_CONVERTIBLE
 
 The partition style on disk can be converted between MBR and GPT.
 
-
 ### -field VDS_DF_CLUSTERED
 
 The disk is clustered.
-
 
 ### -field VDS_DF_READ_ONLY
 
@@ -96,13 +89,11 @@ This flag indicates that the disk's read-only attribute, which is maintained by 
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
 
-
 ### -field VDS_DF_SYSTEM_DISK
 
 The disk hosts the current system volume. If the disk is dynamic and the volume is a mirror, the flag is set on the disk that holds the plex that was used as the system volume at startup.
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
-
 
 ### -field VDS_DF_BOOT_DISK
 
@@ -110,13 +101,11 @@ The disk hosts the current boot volume.
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
 
-
 ### -field VDS_DF_PAGEFILE_DISK
 
 The disk contains a pagefile.
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
-
 
 ### -field VDS_DF_HIBERNATIONFILE_DISK
 
@@ -124,13 +113,11 @@ The disk contains the hibernation volume.
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
 
-
 ### -field VDS_DF_CRASHDUMP_DISK
 
 The disk contains the crashdump volume.
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
-
 
 ### -field VDS_DF_HAS_ARC_PATH
 
@@ -138,13 +125,11 @@ The disk is visible to the computer at startup. For GPT, this flag is set for al
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
 
-
 ### -field VDS_DF_DYNAMIC
 
 The disk is a dynamic disk.
 
 <b>Windows Vista and Windows Server 2003:  </b>Not supported before Windows Vista with SP1 and Windows Server 2008.
-
 
 ### -field VDS_DF_BOOT_FROM_DISK
 
@@ -154,26 +139,15 @@ On computers that use the BIOS firmware, this is the first hard disk that the fi
 
 On computers that use the Extended Firmware Interface (EFI), this flag is set on the disk that contains the EFI System Partition (ESP) that was used to start the computer. Note that if none of the disks contain an ESP, or if there are multiple ESPs, this flag is not set on any of the disks.<b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
-
-
-
 ### -field VDS_DF_CURRENT_READ_ONLY
 
 This flag indicates that the disk is in a read-only state. If it is not set, the disk is read/write. Unlike the <b>VDS_DF_READ_ONLY</b> flag, which is used to change the disk's read-only attribute maintained by the Windows operating system, this flag reflects the actual disk state.  This flag  cannot be set by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-setflags">IVdsDisk::SetFlags</a> method or cleared by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-clearflags">IVdsDisk::ClearFlags</a> method.
 
 The disk will be in a read-only state if its read-only attribute is set. However, a  disk can be in a read-only state even if its read-only attribute is not set, if the underlying hardware is read-only. For example, if the LUN is in read-only state, or if the disk is a virtual hard disk that resides on a volume that is read-only, the underlying hardware is read-only, and therefore the disk is in a read-only state.<b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
-
-
-
 ### -field VDS_DF_REFS_NOT_SUPPORTED
 
-
-
-
 ## -remarks
-
-
 
 This enumeration provides the values for the <b>ulFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a> structures. The <b>VDS_DISK_PROP</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a> method. The <b>VDS_DISK_PROP2</b> structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk3-getproperties2">IVdsDisk3::GetProperties2</a> method.
 
@@ -192,12 +166,7 @@ USB disks and CD-ROMs have the following restrictions and capabilities:
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_DISK_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_DISK_FLAG</b> enumeration constant.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk3-getproperties2">IVdsDisk3::GetProperties2</a>
 
@@ -220,7 +189,4 @@ USB disks and CD-ROMs have the following restrictions and capabilities:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
- 
-
- 
 

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wia
+f1_keywords:
+ - wiavideo
+ - wiavideo/wiavideo
 ---
 
 # Wiavideo.h header
 
 
 ## -description
-
 
 This header is used by WIA. For more information, see:
 

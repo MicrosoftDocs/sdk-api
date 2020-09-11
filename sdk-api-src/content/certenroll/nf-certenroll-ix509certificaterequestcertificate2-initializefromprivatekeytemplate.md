@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 334cc5f7-e74e-4f0b-b54b-6f1b121418da
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCertificate2 interface [Security],InitializeFromPrivateKeyTemplate method, IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate, IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate method [Security], InitializeFromPrivateKeyTemplate method [Security],IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate, security.ix509certificaterequestcertificate2_initializefromprivatekeytemplate
-f1_keywords:
-- certenroll/IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate
+ - certenroll/IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
 ---
 
 # IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromPrivateKeyTemplate</b> method initializes the certificate request by using an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object and a certificate template.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
@@ -101,27 +97,20 @@ The certificate is being requested by an administrator acting on the behalf of a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pPrivateKey [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface that represents the private key.
 
-
 ### -param pPolicyServer [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
-
 
 ### -param pTemplate [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object that represents the template to use during initialization.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -155,14 +144,8 @@ The certificate request object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>InitializeFromPrivateKeyTemplate</b> method performs the following actions:<ul>
 <li>Adds the extensions specified by the template to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection.</li>
@@ -180,16 +163,7 @@ If the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-cer
 
 No private key is created at this point. If the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object passed to the method does not represent an existing key, a key is created when the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method is called. The key will be created by using the default provider if no template was specified and the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providername">ProviderName</a> property on the <b>IX509PrivateKey</b> is not set. When a private key exists, it is set on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-get_privatekey">PrivateKey</a> property.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate2">IX509CertificateRequestCertificate2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\isearchprotocol.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocol, ISearchProtocol interface [search], ISearchProtocol interface [search],described, _search_ISearchProtocol, search._search_ISearchProtocol, searchapi/ISearchProtocol
-f1_keywords:
-- searchapi/ISearchProtocol
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchProtocol
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchProtocol
+ - searchapi/ISearchProtocol
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchProtocol
 ---
 
 # ISearchProtocol interface
@@ -49,13 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for invoking, initializing, and managing <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
         
 
-The protocol handler implements the protocol for accessing a content source in its native format. Use this interface to implement a custom protocol handler to expand the data sources that can be indexed. 
-        
-
+The protocol handler implements the protocol for accessing a content source in its native format. Use this interface to implement a custom protocol handler to expand the data sources that can be indexed.
 
 ## -inheritance
 
@@ -112,16 +110,9 @@ Shuts down the protocol handler.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
- 
-
- 
 

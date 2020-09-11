@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 5ea92551-f6af-431d-8bf8-5b6c576f3392
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOctetsCpy, SnmpUtilOctetsCpy function [SNMP], _snmp_snmputiloctetscpy, snmp.snmputiloctetscpy, snmp/SnmpUtilOctetsCpy
-f1_keywords:
-- snmp/SnmpUtilOctetsCpy
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Snmpapi.dll
-api_name:
-- SnmpUtilOctetsCpy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpUtilOctetsCpy
+ - snmp/SnmpUtilOctetsCpy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Snmpapi.dll
+api_name:
+ - SnmpUtilOctetsCpy
 ---
 
 # SnmpUtilOctetsCpy function
@@ -49,57 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilOctetsCpy</b> function copies the variable pointed to by the <i>pOctetsSrc</i> parameter to the variable pointed to by the <i>pOctetsDst</i> parameter. The function allocates any necessary memory for the destination's copy. The 
 <b>SnmpUtilOctetsCpy</b> function is an element of the SNMP Utility API.
 
-
 ## -parameters
-
-
-
 
 ### -param pOctetsDst [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a> structure to receive the copy.
 
-
 ### -param pOctetsSrc [in]
 
 Pointer to an 
 <b>AsnOctetString</b> structure to copy.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloctetsfree">SnmpUtilOctetsFree</a> function to free the memory that the 
 <b>SnmpUtilOctetsCpy</b> function allocates for the destination structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
 
@@ -114,7 +95,4 @@ Call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloctetsfree">SnmpUtilOctetsFree</a>
- 
-
- 
 

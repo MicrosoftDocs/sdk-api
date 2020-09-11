@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 8e0cb353-4670-4cf7-bcd8-81ebd0adfe32
 ms.date: 12/05/2018
 ms.keywords: DRMDecrypt, DRMDecrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDecrypt, rm.drmdecrypt
-f1_keywords:
-- msdrm/DRMDecrypt
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMDecrypt
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMDecrypt
+ - msdrm/DRMDecrypt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMDecrypt
 ---
 
 # DRMDecrypt function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,56 +61,39 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMDecrypt</b> function decrypts encrypted content.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptoProvider [in]
 
 A handle to an AD RMS decrypting object created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsdecryptor">DRMCreateEnablingBitsDecryptor</a>.
 
-
 ### -param iPosition [in]
 
 Position in the buffer at which to start decrypting. <b>0</b> corresponds to the first block in a buffer, <b>1</b> corresponds to the second block, and so on. See the example later in this topic.
-
 
 ### -param cNumInBytes [in]
 
 Number of bytes to decrypt.
 
-
 ### -param pbInData [in]
 
 Pointer to a buffer that contains the bytes to decrypt.
-
 
 ### -param pcNumOutBytes [in, out]
 
 Size, in bytes,  of the decrypted data.
 
-
 ### -param pbOutData [out]
 
 Decrypted data.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Memory allocation and release of the decrypted content is the responsibility of the calling function. The following code sample, from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decrypting-content">Decrypting Content</a>, shows how to decrypt content in blocks. This particular example already knows the size of the content to decrypt and allocates memory beforehand. If you must determine the number of bytes to allocate, however,  the required buffer size is returned in the <i>pcNumOutBytes</i> parameter after the first call. Allocate memory and call the function again with  <i>pbOutData</i> set to point to the new memory.
 
@@ -228,14 +211,7 @@ e_Exit:
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
@@ -262,7 +238,4 @@ e_Exit:
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decryption-decryptcontent-cpp">Decryption_DecryptContent.cpp</a>
- 
-
- 
 

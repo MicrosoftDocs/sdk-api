@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: a9f3b7e1-4f54-4802-af24-4b791ee646fc
 ms.date: 12/05/2018
 ms.keywords: CreateRecorder, CreateRecorder method [Microsoft TV Technologies], CreateRecorder method [Microsoft TV Technologies],IStreamBufferSink interface, IStreamBufferSink interface [Microsoft TV Technologies],CreateRecorder method, IStreamBufferSink.CreateRecorder, IStreamBufferSink::CreateRecorder, IStreamBufferSinkCreateRecorder, mstv.istreambuffersink_createrecorder, sbe/IStreamBufferSink::CreateRecorder
-f1_keywords:
-- sbe/IStreamBufferSink.CreateRecorder
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferSink.CreateRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferSink::CreateRecorder
+ - sbe/IStreamBufferSink::CreateRecorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferSink.CreateRecorder
 ---
 
 # IStreamBufferSink::CreateRecorder
 
 
 ## -description
-
-
 
 This topic applies only to Windows XP Service Pack 1 or later.
         
@@ -58,16 +57,11 @@ This topic applies only to Windows XP Service Pack 1 or later.
 
 The <b>CreateRecorder</b> method creates a new Recording object. Recording objects are used to create permanent files from the stream buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param pszFilename [in]
 
 Pointer to a null-terminated wide-character string that contains the file name for the recording.
-
 
 ### -param dwRecordType [in]
 
@@ -89,17 +83,12 @@ Indicates the type of recording to create, either a reference recording or a con
 <td>Content recording. A content recording saves content into a new file. Because the content must be new, the start time cannot be in the past.</td>
 </tr>
 </table>
- 
-
 
 ### -param pRecordingIUnknown [out]
 
 Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/recording-object">Recording</a> object's <b>IUnknown</b> interface.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -120,33 +109,18 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Stream Buffer Sink filter's profile must be locked, either explicitly or implicitly, before you call this method. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a>.
 
 The returned <b>IUnknown</b> interface has an outstanding reference count. The caller must release the interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/creating-stream-buffer-recordings">Creating Stream Buffer Recordings</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a>
- 
-
- 
 

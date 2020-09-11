@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 3ea88e52-34bb-47a6-b345-c789d1d8047d
 ms.date: 12/05/2018
 ms.keywords: WlanGetFilterList, WlanGetFilterList function [NativeWIFI], nwifi.wlangetfilterlist, wlanapi/WlanGetFilterList
-f1_keywords:
-- wlanapi/WlanGetFilterList
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanGetFilterList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanGetFilterList
+ - wlanapi/WlanGetFilterList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanGetFilterList
 ---
 
 # WlanGetFilterList function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanGetFilterList</b> function retrieves a group policy or user permission list.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
-
 ### -param wlanFilterListType [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_filter_list_type">WLAN_FILTER_LIST_TYPE</a> value that specifies the type of filter list.  All user defined and group policy filter lists can be queried.
-
 
 ### -param pReserved
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ### -param ppNetworkList [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network_list">DOT11_NETWORK_LIST</a> structure that contains the list of permitted or denied networks.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -149,24 +139,12 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 User permission lists can be set by calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network_list">DOT11_NETWORK_LIST</a>
 
@@ -177,7 +155,4 @@ User permission lists can be set by calling <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>
- 
-
- 
 

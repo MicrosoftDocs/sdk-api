@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
 ms.date: 12/05/2018
 ms.keywords: WBEMTime, WBEMTime.WBEMTime, WBEMTime::WBEMTime, WBEMTime::WBEMTime constructors [Windows Management Instrumentation], wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime
-f1_keywords:
-- wbemtime/WBEMTime::WBEMTime
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTime::WBEMTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTime::WBEMTime
+ - wbemtime/WBEMTime::WBEMTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTime::WBEMTime
 ---
 
 # WBEMTime::WBEMTime
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 

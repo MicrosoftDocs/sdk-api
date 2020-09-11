@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: shell
+f1_keywords:
+ - tlogstg
+ - tlogstg/tlogstg
 ---
 
 # Tlogstg.h header
 
 
 ## -description
-
 
 This header is used by The Windows Shell. For more information, see:
 

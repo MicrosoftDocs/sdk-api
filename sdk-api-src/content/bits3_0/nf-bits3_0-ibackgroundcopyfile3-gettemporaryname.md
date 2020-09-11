@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 3fa4cc3b-b134-4e11-8bb6-1c9855d8dd37
 ms.date: 12/05/2018
 ms.keywords: GetTemporaryName, GetTemporaryName method [BITS], GetTemporaryName method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetTemporaryName method, IBackgroundCopyFile3.GetTemporaryName, IBackgroundCopyFile3::GetTemporaryName, bits.ibackgroundcopyfile3_gettemporaryname, bits3_0/IBackgroundCopyFile3::GetTemporaryName
-f1_keywords:
-- bits3_0/IBackgroundCopyFile3.GetTemporaryName
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyFile3.GetTemporaryName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile3::GetTemporaryName
+ - bits3_0/IBackgroundCopyFile3::GetTemporaryName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyFile3.GetTemporaryName
 ---
 
 # IBackgroundCopyFile3::GetTemporaryName
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the full path of the temporary file that contains the content of the download.
 
-
 ## -parameters
-
-
-
 
 ### -param pFilename [out]
 
 Null-terminated string that contains the full path of the temporary file. Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppFileName</i> when done.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -88,14 +81,8 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Applications can use this method to gain access to the data before the job is complete. Open the file for shared write access (FILE_SHARE_WRITE). To determine how many bytes have been transferred and are available for reading, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getprogress">IBackgroundCopyFile::GetProgress</a> method. Note that the progress information will be set back to zero if the time stamp of the URL changes.
 
@@ -112,19 +99,11 @@ To determine if BITS finished transferring the file, you can:
 <li>Implement the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">IBackgroundCopyCallback2::FileTransferred</a> callback.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">IBackgroundCopyCallback2::FileTransferred</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyfile3">IBackgroundCopyFile3</a>
- 
-
- 
 

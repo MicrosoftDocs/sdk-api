@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 0d512d6a-95d5-4ca1-aee2-ca19319e1b83
 ms.date: 12/05/2018
 ms.keywords: WMT_COLORSPACEINFO_EXTENSION_DATA, WMT_COLORSPACEINFO_EXTENSION_DATA structure [windows Media Format], wmformat.wmt_colorspaceinfo_extension_data, wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
-f1_keywords:
-- wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WMT_COLORSPACEINFO_EXTENSION_DATA
 targetos: Windows
 req.typenames: WMT_COLORSPACEINFO_EXTENSION_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WMT_COLORSPACEINFO_EXTENSION_DATA
+ - wmsdkidl/_WMT_COLORSPACEINFO_EXTENSION_DATA
+ - WMT_COLORSPACEINFO_EXTENSION_DATA
+ - wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WMT_COLORSPACEINFO_EXTENSION_DATA
 ---
 
 # WMT_COLORSPACEINFO_EXTENSION_DATA structure
@@ -49,44 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMT_COLORSPACEINFO_EXTENSION_DATA</b> structure contains information about the color format of output video samples. It is used as the value for the WM_SampleExtensionGUID_ColorSpaceInfo data unit extension.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field ucColorPrimaries
 
 Specifies the chromaticity coordinates of the color primaries.
 
-
 ### -field ucColorTransferChar
 
 Specifies the opto-electronic transfer characteristics of the source picture.
-
 
 ### -field ucColorMatrixCoef
 
 Specifies the matrix coefficients used to derive Y, Cb, and Cr signals from the color primaries.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/sample-extension-types">Sample Extension Types</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
- 
-
- 
 

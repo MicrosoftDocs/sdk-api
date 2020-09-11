@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 233EFA95-289D-4D55-9D56-0630C015ABC7
 ms.date: 12/05/2018
 ms.keywords: DeriveAppContainerSidFromAppContainerName, DeriveAppContainerSidFromAppContainerName function [Windows Shell], shell.deriveappcontainersidfromappcontainername, userenv/DeriveAppContainerSidFromAppContainerName
-f1_keywords:
-- userenv/DeriveAppContainerSidFromAppContainerName
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- DeriveAppContainerSidFromAppContainerName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeriveAppContainerSidFromAppContainerName
+ - userenv/DeriveAppContainerSidFromAppContainerName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - DeriveAppContainerSidFromAppContainerName
 ---
 
 # DeriveAppContainerSidFromAppContainerName function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the SID of the specified profile.
 
-
 ## -parameters
-
-
-
 
 ### -param pszAppContainerName [in]
 
 The name of the profile.
 
-
 ### -param ppsidAppContainerSid [out]
 
 The SID for the profile. This buffer must be freed using the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid">FreeSid</a> function.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -102,7 +94,4 @@ The <i>pszAppContainerName</i> parameter, or the  <i>ppsidAppContainerSid</i> pa
 </td>
 </tr>
 </table>
- 
-
-
 

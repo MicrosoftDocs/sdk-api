@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ed5fc982-9d20-4ace-9d34-17cbef8ad8e2
 ms.date: 12/05/2018
 ms.keywords: IResolveShellLink, IResolveShellLink interface [Windows Shell], IResolveShellLink interface [Windows Shell],described, _win32_IResolveShellLink, shell.IResolveShellLink, shobjidl_core/IResolveShellLink
-f1_keywords:
-- shobjidl_core/IResolveShellLink
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IResolveShellLink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResolveShellLink
+ - shobjidl_core/IResolveShellLink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IResolveShellLink
 ---
 
 # IResolveShellLink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that enables an application to request that a Shell folder object resolve a link for one of its items.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Requests that a folder object resolve a Shell link.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Namespace extensions implement this object to support link resolution.
 
@@ -99,5 +95,4 @@ To retrieve a pointer to a link resolution object's <b>IResolveShellLink</b> int
 </ul>
 <div class="alert"><b>Note</b>  Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
-
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlong.htm
 ms.date: 12/05/2018
 ms.keywords: DWL_DLGPROC, DWL_MSGRESULT, DWL_USER, GWL_EXSTYLE, GWL_HINSTANCE, GWL_ID, GWL_STYLE, GWL_USERDATA, GWL_WNDPROC, SetWindowLong, SetWindowLong function [Windows and Messages], SetWindowLongA, SetWindowLongW, _win32_SetWindowLong, _win32_setwindowlong_cpp, winmsg.setwindowlong, winui._win32_setwindowlong, winuser/SetWindowLong, winuser/SetWindowLongA, winuser/SetWindowLongW
-f1_keywords:
-- winuser/SetWindowLong
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-windowclass-l1-1-2.dll
-api_name:
-- SetWindowLong
-- SetWindowLongA
-- SetWindowLongW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetWindowLongW
+ - winuser/SetWindowLongW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+api_name:
+ - SetWindowLong
+ - SetWindowLongA
+ - SetWindowLongW
 ---
 
 # SetWindowLongW function
@@ -59,21 +60,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.
 <div class="alert"><b>Note</b>  This function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlongptra">SetWindowLongPtr</a> function. To write code that is compatible with both 32-bit and 64-bit versions of Windows, use the <b>SetWindowLongPtr</b> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window and, indirectly, the class to which the window belongs.
-
 
 ### -param nIndex [in]
 
@@ -201,19 +197,14 @@ Sets new extra information that is private to the application, such as handles o
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwNewLong [in]
 
 Type: <b>LONG</b>
 
-The replacement value. 
-
+The replacement value.
 
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -223,12 +214,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the previous value of the specified 32-bit integer is zero, and the function succeeds, the return value is zero, but the function does not clear the last error information. This makes it difficult to determine success or failure. To deal with this, you should clear the last error information by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with 0 before calling <b>SetWindowLong</b>. Then, function failure will be indicated by a return value of zero and a <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> result that is nonzero.
 
-
-
-
 ## -remarks
-
-
 
 Certain window data is cached, so changes you make using <b>SetWindowLong</b> will not take effect until you call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function. Specifically, if you change any of the frame styles, you must call <b>SetWindowPos</b> with the <b>SWP_FRAMECHANGED</b> flag for the cache to be updated properly. 
 
@@ -261,9 +247,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 > The winuser.h header defines SetWindowLong as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
 
@@ -302,7 +285,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
- 
-
- 
 

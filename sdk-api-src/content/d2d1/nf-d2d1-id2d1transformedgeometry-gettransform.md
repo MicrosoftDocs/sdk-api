@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 9d448af2-49ad-4209-b3a6-b07b40bb3e9d
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [Direct2D], GetTransform method [Direct2D],ID2D1TransformedGeometry interface, ID2D1TransformedGeometry interface [Direct2D],GetTransform method, ID2D1TransformedGeometry.GetTransform, ID2D1TransformedGeometry::GetTransform, d2d1/ID2D1TransformedGeometry::GetTransform, direct2d.ID2D1TransformedGeometry_GetTransform
-f1_keywords:
-- d2d1/ID2D1TransformedGeometry.GetTransform
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1TransformedGeometry.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1TransformedGeometry::GetTransform
+ - d2d1/ID2D1TransformedGeometry::GetTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1TransformedGeometry.GetTransform
 ---
 
 # ID2D1TransformedGeometry::GetTransform
@@ -49,29 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the matrix used to transform the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object's source geometry.
 
-
 ## -parameters
-
-
-
 
 ### -param transform [out]
 
 Type: <b><a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
-A pointer that receives the matrix used to transform the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object's source geometry. You must allocate storage for this parameter.  
-
+A pointer that receives the matrix used to transform the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object's source geometry. You must allocate storage for this parameter.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>
- 
-
- 
 

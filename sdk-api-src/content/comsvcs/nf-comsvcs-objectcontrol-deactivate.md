@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 86ab7f50-6f2e-4c6c-ba4d-fd302cccf97d
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [COM+], Deactivate method [COM+],ObjectControl interface, ObjectControl interface [COM+],Deactivate method, ObjectControl.Deactivate, ObjectControl::Deactivate, _cos_ObjectControl_Deactivate, comsvcs/ObjectControl::Deactivate, cos.objectcontrol_deactivate
-f1_keywords:
-- comsvcs/ObjectControl.Deactivate
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ObjectControl.Deactivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ObjectControl::Deactivate
+ - comsvcs/ObjectControl::Deactivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ObjectControl.Deactivate
 ---
 
 # ObjectControl::Deactivate
@@ -49,31 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a COM+ object to perform cleanup required before it is recycled or destroyed.
 
 This method is called by the COM+ run-time environment whenever an object is deactivated. Do not make any method calls on objects in the same activity from this method.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 The COM+ run-time environment calls the <b>Deactivate</b> method whenever an object that supports the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a> interface is deactivated. An object is deactivated when it returns from a method in which the method called <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-setcomplete">SetComplete</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-setabort">SetAbort</a>, when the transaction in which it executed is committed or aborted, or when the last client to hold a reference on the object releases its reference.
 
@@ -81,16 +68,7 @@ If the component supports recycling (returns <b>TRUE</b> from the <a href="https
 
 COM+ expressly forbids calling into an object that exposes <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a> after the <b>Deactivate</b> method has returned (when it is in its destructor). Such a call would result in an RPC_E_DISCONNECTED error. For example, if an object has passed out a reference to itself and then calls back into the object after <b>Deactivate</b> has returned, a disconnected error results.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a>
- 
-
- 
 

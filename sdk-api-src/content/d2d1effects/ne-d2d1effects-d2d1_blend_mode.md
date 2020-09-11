@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 006EE339-5E67-434B-BB47-FCBBC2D3FB50
 ms.date: 12/05/2018
 ms.keywords: D2D1_BLEND_MODE, D2D1_BLEND_MODE enumeration [Direct2D], D2D1_BLEND_MODE_COLOR, D2D1_BLEND_MODE_COLOR_BURN, D2D1_BLEND_MODE_COLOR_DODGE, D2D1_BLEND_MODE_DARKEN, D2D1_BLEND_MODE_DARKER_COLOR, D2D1_BLEND_MODE_DIFFERENCE, D2D1_BLEND_MODE_DISSOLVE, D2D1_BLEND_MODE_DIVISION, D2D1_BLEND_MODE_EXCLUSION, D2D1_BLEND_MODE_HARD_LIGHT, D2D1_BLEND_MODE_HARD_MIX, D2D1_BLEND_MODE_HUE, D2D1_BLEND_MODE_LIGHTEN, D2D1_BLEND_MODE_LIGHTER_COLOR, D2D1_BLEND_MODE_LINEAR_BURN, D2D1_BLEND_MODE_LINEAR_DODGE, D2D1_BLEND_MODE_LINEAR_LIGHT, D2D1_BLEND_MODE_LUMINOSITY, D2D1_BLEND_MODE_MULTIPLY, D2D1_BLEND_MODE_OVERLAY, D2D1_BLEND_MODE_PIN_LIGHT, D2D1_BLEND_MODE_SATURATION, D2D1_BLEND_MODE_SCREEN, D2D1_BLEND_MODE_SOFT_LIGHT, D2D1_BLEND_MODE_SUBTRACT, D2D1_BLEND_MODE_VIVID_LIGHT, d2d1effects/D2D1_BLEND_MODE, d2d1effects/D2D1_BLEND_MODE_COLOR, d2d1effects/D2D1_BLEND_MODE_COLOR_BURN, d2d1effects/D2D1_BLEND_MODE_COLOR_DODGE, d2d1effects/D2D1_BLEND_MODE_DARKEN, d2d1effects/D2D1_BLEND_MODE_DARKER_COLOR, d2d1effects/D2D1_BLEND_MODE_DIFFERENCE, d2d1effects/D2D1_BLEND_MODE_DISSOLVE, d2d1effects/D2D1_BLEND_MODE_DIVISION, d2d1effects/D2D1_BLEND_MODE_EXCLUSION, d2d1effects/D2D1_BLEND_MODE_HARD_LIGHT, d2d1effects/D2D1_BLEND_MODE_HARD_MIX, d2d1effects/D2D1_BLEND_MODE_HUE, d2d1effects/D2D1_BLEND_MODE_LIGHTEN, d2d1effects/D2D1_BLEND_MODE_LIGHTER_COLOR, d2d1effects/D2D1_BLEND_MODE_LINEAR_BURN, d2d1effects/D2D1_BLEND_MODE_LINEAR_DODGE, d2d1effects/D2D1_BLEND_MODE_LINEAR_LIGHT, d2d1effects/D2D1_BLEND_MODE_LUMINOSITY, d2d1effects/D2D1_BLEND_MODE_MULTIPLY, d2d1effects/D2D1_BLEND_MODE_OVERLAY, d2d1effects/D2D1_BLEND_MODE_PIN_LIGHT, d2d1effects/D2D1_BLEND_MODE_SATURATION, d2d1effects/D2D1_BLEND_MODE_SCREEN, d2d1effects/D2D1_BLEND_MODE_SOFT_LIGHT, d2d1effects/D2D1_BLEND_MODE_SUBTRACT, d2d1effects/D2D1_BLEND_MODE_VIVID_LIGHT, direct2d.d2d1_blend_mode
-f1_keywords:
-- d2d1effects/D2D1_BLEND_MODE
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_BLEND_MODE
 targetos: Windows
 req.typenames: D2D1_BLEND_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_BLEND_MODE
+ - d2d1effects/D2D1_BLEND_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_BLEND_MODE
 ---
 
 # D2D1_BLEND_MODE enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The blend mode used for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend effect</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_BLEND_MODE_MULTIPLY
 
@@ -92,7 +88,6 @@ Given:
 <li>A deterministic pseudo-random number generator rand(XY) based on seed coordinate XY, with unbiased distribution of values from [0, 1]</li>
 </ul>
 <img alt="Mathematical formula for a dissolve blend effect." src="./images/blend_mode_dissolve_1.png"/>
-
 
 ### -field D2D1_BLEND_MODE_COLOR_BURN
 
@@ -176,11 +171,9 @@ Basic blend formulas with <i>f</i>(F<sub>RGB</sub>, B<sub>RGB</sub>) =
 
 Basic blend formulas with <i>f</i>(F<sub>RGB</sub>, B<sub>RGB</sub>) = abs(F<sub>RGB</sub> - B<sub>RGB</sub>)
 
-
 ### -field D2D1_BLEND_MODE_EXCLUSION
 
 Basic blend formulas with <i>f</i>(F<sub>RGB</sub>, B<sub>RGB</sub>) = F<sub>RGB</sub> + B<sub>RGB</sub> – 2 * F<sub>RGB</sub> * B<sub>RGB</sub>
-
 
 ### -field D2D1_BLEND_MODE_HUE
 
@@ -219,6 +212,4 @@ Basic blend formula for alpha only.
 <img alt="Mathematical formula for a division blend effect." src="./images/blend_mode_division_1.png"/>
 
 ### -field D2D1_BLEND_MODE_FORCE_DWORD
-
-
 

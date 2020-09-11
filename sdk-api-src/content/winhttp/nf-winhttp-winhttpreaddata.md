@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 06340601-9b2d-487a-a82a-aa2175a52dc5
 ms.date: 12/05/2018
 ms.keywords: WinHttpReadData, WinHttpReadData function [WinHTTP], http.winhttpreaddata, winhttp.winhttpreaddata_function, winhttp/WinHttpReadData
-f1_keywords:
-- winhttp/WinHttpReadData
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpReadData
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpReadData
+ - winhttp/WinHttpReadData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpReadData
 ---
 
 # WinHttpReadData function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpReadData</b> function reads data from a handle opened by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
@@ -65,26 +61,20 @@ Valid
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>. <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpquerydataavailable">WinHttpQueryDataAvailable</a> must have been called for this handle and must have completed before <b>WinHttpReadData</b> is called. Although calling <b>WinHttpReadData</b> immediately after completion of <b>WinHttpReceiveResponse</b> avoids the expense of a buffer copy, doing so requires that the application use a fixed-length buffer for reading.
 
-
 ### -param lpBuffer [out]
 
 Pointer to a buffer that receives the data read. Make sure that this buffer remains valid until <b>WinHttpReadData</b> has completed.
 
-
 ### -param dwNumberOfBytesToRead [in]
 
-Unsigned long integer value that contains the number of bytes to read. 
-
+Unsigned long integer value that contains the number of bytes to read.
 
 ### -param lpdwNumberOfBytesRead [out]
 
 Pointer to an unsigned long integer variable that receives the number of bytes read. 
 <b>WinHttpReadData</b> sets this value to zero before doing any work or error checking.  When using WinHTTP asynchronously, always set this parameter to <b>NULL</b> and retrieve the information in the callback function; not doing so can cause a memory fault.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following table identifies the error codes that are returned.
@@ -183,14 +173,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Starting in Windows Vista and Windows Server 2008, WinHttp enables applications to perform chunked transfer encoding on data sent to the server. When the Transfer-Encoding header is present on the WinHttp  response, <b>WinHttpReadData</b> strips the chunking information before giving the data to the application.
 
@@ -341,14 +325,7 @@ The following example shows how to use secure transaction semantics to download 
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -383,7 +360,4 @@ The following example shows how to use secure transaction semantics to download 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwritedata">WinHttpWriteData</a>
- 
-
- 
 

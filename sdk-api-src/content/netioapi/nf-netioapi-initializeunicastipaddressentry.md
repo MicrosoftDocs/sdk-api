@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 8cbdd972-060a-4e18-9490-450df21936ea
 ms.date: 12/05/2018
 ms.keywords: InitializeUnicastIpAddressEntry, InitializeUnicastIpAddressEntry function [IP Helper], iphlp.initializeunicastipaddressentry, netioapi/InitializeUnicastIpAddressEntry
-f1_keywords:
-- netioapi/InitializeUnicastIpAddressEntry
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- InitializeUnicastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeUnicastIpAddressEntry
+ - netioapi/InitializeUnicastIpAddressEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - InitializeUnicastIpAddressEntry
 ---
 
 # InitializeUnicastIpAddressEntry function
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>InitializeUnicastIpAddressEntry</b> function  initializes a <b>MIB_UNICASTIPADDRESS_ROW</b> structure with default values for a unicast IP address entry on the local computer.  
-
+<b>InitializeUnicastIpAddressEntry</b> function  initializes a <b>MIB_UNICASTIPADDRESS_ROW</b> structure with default values for a unicast IP address entry on the local computer.
 
 ## -parameters
-
-
-
 
 ### -param Row [out]
 
 On entry, a pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure entry for a unicast IP address entry. On return, the  <b>MIB_UNICASTIPADDRESS_ROW</b> structure pointed to by this parameter is initialized with default values for a unicast IP address.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The <b>InitializeUnicastIpAddressEntry</b> function is defined on Windows Vista and later. 
 
@@ -90,13 +78,7 @@ On output, the <b>PrefixOrigin</b> member of the <a href="https://docs.microsoft
 After calling <b>InitializeUnicastIpAddressEntry</b>, an application can then change the
     members in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> entry it wishes to modify, and then call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>  to add the new unicast IP address to the local computer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>
 
@@ -131,7 +113,4 @@ After calling <b>InitializeUnicastIpAddressEntry</b>, an application can then ch
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry">SetUnicastIpAddressEntry</a>
- 
-
- 
 

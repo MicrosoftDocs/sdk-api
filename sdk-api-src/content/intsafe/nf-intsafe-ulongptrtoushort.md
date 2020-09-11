@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0d565dc6-833c-49b4-b01c-13762c946111
 ms.date: 12/05/2018
 ms.keywords: ULongPtrToUShort, ULongPtrToUShort function [Windows Shell], intsafe/ULongPtrToUShort, shell.ULongPtrToUShort
-f1_keywords:
-- intsafe/ULongPtrToUShort
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- intsafe.h
-api_name:
-- ULongPtrToUShort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ULongPtrToUShort
+ - intsafe/ULongPtrToUShort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - intsafe.h
+api_name:
+ - ULongPtrToUShort
 ---
 
 # ULongPtrToUShort function
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a value of type <b>ULONG_PTR</b> to a value of type <b>USHORT</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param ulOperand [in]
 
 The value to convert.
 
-
 ### -param pusResult [out]
 
 The converted value.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

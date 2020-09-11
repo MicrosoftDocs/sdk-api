@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: DADDC12C-CF1E-48B4-B8C0-3029EC6B711B
 ms.date: 12/05/2018
 ms.keywords: CD3D11_TEXTURE2D_DESC1, D3D11_TEXTURE2D_DESC1, D3D11_TEXTURE2D_DESC1 structure [Direct3D 11], d3d11_3/D3D11_TEXTURE2D_DESC1, direct3d11.d3d11_texture2d_desc1
-f1_keywords:
-- d3d11_3/D3D11_TEXTURE2D_DESC1
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_3.h
-api_name:
-- D3D11_TEXTURE2D_DESC1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CD3D11_TEXTURE2D_DESC1
+ - d3d11_3/CD3D11_TEXTURE2D_DESC1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_3.h
+api_name:
+ - D3D11_TEXTURE2D_DESC1
 ---
 
 # CD3D11_TEXTURE2D_DESC1 structure
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a 2D texture.
-
 
 ## -struct-fields
 
-
-
-
 ### -field CD3D11_TEXTURE2D_DESC1
 
-TBD 
-
+TBD
 
 ### -field ~CD3D11_TEXTURE2D_DESC1
 
-TBD 
-
+TBD
 
 ### -field operator const D3D11_TEXTURE2D_DESC1&
 
-TBD 
-
+TBD
 
 ### -field D3D11_TEXTURE2D_DESC1
 
@@ -143,10 +136,7 @@ Value that identifies how the texture is to be read from and written to. The mos
 
 Texture width (in texels). The  range is from 1 to D3D11_REQ_TEXTURE2D_U_OR_V_DIMENSION (16384). For a texture cube-map, the  range is from 1 to D3D11_REQ_TEXTURECUBE_DIMENSION (16384). However, the range is actually constrained by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
 
-
 ## -remarks
-
-
 
 This structure is used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createtexture2d1">ID3D11Device3::CreateTexture2D1</a>.
 
@@ -156,16 +146,7 @@ The device places some size restrictions (must be multiples of a minimum size) f
 
 The texture size range is determined by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> at which you create the device and not the Microsoft Direct3D interface version. For example, if you use Microsoft Direct3D 10 hardware at feature level 10 (<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL_10_0</a>) and call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a> to create an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>, you must constrain the maximum texture size to D3D10_REQ_TEXTURE2D_U_OR_V_DIMENSION (8192) when you create your 2D texture.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
- 
-
- 
 

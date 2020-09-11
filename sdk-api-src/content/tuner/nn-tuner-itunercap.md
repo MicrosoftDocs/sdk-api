@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d7027ff4-4fb9-48c1-b527-92e65009b089
 ms.date: 12/05/2018
 ms.keywords: ITunerCap, ITunerCap interface [Microsoft TV Technologies], ITunerCap interface [Microsoft TV Technologies],described, ITunerCapInterface, mstv.itunercap, tuner/ITunerCap
-f1_keywords:
-- tuner/ITunerCap
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- ITunerCap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITunerCap
+ - tuner/ITunerCap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - ITunerCap
 ---
 
 # ITunerCap interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
 The <b>ITunerCap</b> interface provides information about the capabilities of a BDA device filter that represents a TV tuner.
-
-
-
 
 ## -inheritance
 
@@ -101,25 +97,13 @@ Retrieves the video formats that are supported by the TV tuner.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ITunerCap)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

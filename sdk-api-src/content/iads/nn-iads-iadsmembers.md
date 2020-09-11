@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 889e8fc1-61a6-4a3a-82ac-85d41f664149
 ms.date: 12/05/2018
 ms.keywords: IADsMembers, IADsMembers interface [ADSI], IADsMembers interface [ADSI],described, _ds_iadsmembers, adsi.iadsmembers, iads/IADsMembers
-f1_keywords:
-- iads/IADsMembers
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsMembers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsMembers
+ - iads/IADsMembers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsMembers
 ---
 
 # IADsMembers interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsMembers</b> interface is a dual interface. It is designed for managing a list of ADSI object references. It is implemented to support group membership for individual accounts. It can be used to manage a collection of ADSI objects belonging to a group. To access the collection of group members, use the  <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup::get_Members</a> property method implemented by the ADSI group object.
 
 The <b>IADsMembers</b> interface serves a slightly different purpose from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interfaces, which also works with a set of data or objects. <b>IADsCollection</b> manages sets of arbitrary data elements that are not object references, whereas <b>IADsContainer</b> manages objects that are part of the directory tree structure or the network topology.
-
 
 ## -inheritance
 
@@ -120,13 +119,9 @@ Gets and sets the filter for selection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
 
@@ -146,7 +141,4 @@ Gets and sets the filter for selection.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

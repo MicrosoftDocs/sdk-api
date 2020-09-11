@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 118c931e-29ca-4ffb-aa32-24c6f4289cc8
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseAllProtseqsIfEx, RpcServerUseAllProtseqsIfEx function [RPC], _rpc_rpcserveruseallprotseqsifex, rpc.rpcserveruseallprotseqsifex, rpcdce/RpcServerUseAllProtseqsIfEx
-f1_keywords:
-- rpcdce/RpcServerUseAllProtseqsIfEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerUseAllProtseqsIfEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerUseAllProtseqsIfEx
+ - rpcdce/RpcServerUseAllProtseqsIfEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerUseAllProtseqsIfEx
 ---
 
 # RpcServerUseAllProtseqsIfEx function
@@ -49,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerUseAllProtseqsIfEx</b> function tells the RPC run-time library to use all the specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.
 
-
 ## -parameters
-
-
-
 
 ### -param MaxCalls
 
 Backlog queue length for the <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a> protocol sequence. All other protocol sequences ignore this parameter. Use RPC_C_PROTSEQ_MAX_REQS_DEFAULT to specify the default value. See Remarks.
 
-
 ### -param IfSpec
 
 Interface containing the protocol sequences and corresponding endpoint information to use in creating binding handles.
 
-
 ### -param SecurityDescriptor
 
 Pointer to an optional parameter provided for the security subsystem. Used only for <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-np">ncacn_np</a> and <a href="https://docs.microsoft.com/windows/desktop/Midl/ncalrpc">ncalrpc</a> protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
-
 
 ### -param Policy
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -173,11 +163,7 @@ The RPC protocol sequence is invalid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Listening on all supported protocol sequences is not recommended, because it causes the server to listen on all protocol sequences, including non-mainstream protocol sequences.  It is recommended that servers listen on <a href="https://docs.microsoft.com/windows/desktop/Rpc/use-mainstream-protocol-sequences">mainstream</a> protocol sequences only.</div>
 <div> </div>
@@ -233,13 +219,7 @@ To register selected protocol sequences specified in the IDL file, a server call
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/server-side-binding">Server-Side Binding</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a>
 
@@ -254,7 +234,4 @@ To register selected protocol sequences specified in the IDL file, a server call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
- 
-
- 
 

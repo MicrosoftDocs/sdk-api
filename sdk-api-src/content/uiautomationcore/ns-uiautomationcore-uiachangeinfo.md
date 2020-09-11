@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 28C0C0DE-7ED2-4D01-B532-E56AD81AE8D0
 ms.date: 12/05/2018
 ms.keywords: PUiaChangeInfo, PUiaChangeInfo structure pointer [Windows Accessibility], UiaChangeInfo, UiaChangeInfo structure [Windows Accessibility], uiautomationcore/PUiaChangeInfo, uiautomationcore/UiaChangeInfo, winauto.uiachangeinfo
-f1_keywords:
-- uiautomationcore/UiaChangeInfo
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCore.h
-api_name:
-- UiaChangeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UiaChangeInfo
+ - uiautomationcore/UiaChangeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - UiaChangeInfo
 ---
 
 # UiaChangeInfo structure
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains data about a UI Automation change that occurred.
 
-
 ## -struct-fields
-
-
-
 
 ### -field uiaId
 
 Identifies the type of change info. Possible values are all the values of <b>Change Indentifiers</b>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a> and <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-style-identifiers">Style Identifiers</a>.
 
-
 ### -field payload
 
 Information about the type of change that occurred.
-
 
 ### -field extraInfo
 
 Detailed information about the change that occurred.
 
-
 ## -remarks
-
-
 
 The provider can call <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisechangesevent">UiaRaiseChangesEvent</a> and pass in an array of <b>UiaChangeInfo</b> structs to notify clients of a related group of changes.  The <b>payload</b> and <b>extraInfo</b> will vary depending on the <b>uiaId</b> populated in the <b>UiaChangeInfo</b> struct.
 
@@ -164,7 +155,4 @@ For text, the characters from the range to which the style applies.
 </td>
 </tr>
 </table>
- 
-
-
 

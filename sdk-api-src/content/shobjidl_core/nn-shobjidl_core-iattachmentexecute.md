@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2ebc3197-aa28-446e-8452-8ff71764fa9d
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute, IAttachmentExecute interface [Windows Shell], IAttachmentExecute interface [Windows Shell],described, _win32_IAttachmentExecute, shell.IAttachmentExecute, shobjidl_core/IAttachmentExecute
-f1_keywords:
-- shobjidl_core/IAttachmentExecute
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shdocvw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdocvw.dll
-api_name:
-- IAttachmentExecute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAttachmentExecute
+ - shobjidl_core/IAttachmentExecute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdocvw.dll
+api_name:
+ - IAttachmentExecute
 ---
 
 # IAttachmentExecute interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that work with client applications to present a user environment that provides safe download and exchange of files through email and messaging attachments.
-
 
 ## -inheritance
 
@@ -176,12 +175,9 @@ Sets an alternate path or URL for the source of a file transfer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface assumes the following:
                 
@@ -329,7 +325,4 @@ HRESULT OnSaveAttachment(HWND hwnd, CClientAttachmentInfo *pinfo)
     return hr;
 }
 ```
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: c83e104b-6cd7-4399-8232-7c2e7b408f1a
 ms.date: 12/05/2018
 ms.keywords: GetNotificationResourceManagerAsync, GetNotificationResourceManagerAsync function [Files], fs.getnotificationresourcemanagerasync, ktmw32/GetNotificationResourceManagerAsync
-f1_keywords:
-- ktmw32/GetNotificationResourceManagerAsync
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: KtmW32.lib
 req.dll: KtmW32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- KtmW32.dll
-api_name:
-- GetNotificationResourceManagerAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNotificationResourceManagerAsync
+ - ktmw32/GetNotificationResourceManagerAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - KtmW32.dll
+api_name:
+ - GetNotificationResourceManagerAsync
 ---
 
 # GetNotificationResourceManagerAsync function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests and receives asynchronous notification for a resource manager (RM). This function is used by 
     the RM register to receive notifications when a transaction changes state.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceManagerHandle [in]
 
 A handle  to the resource manager.
-
 
 ### -param TransactionNotification [out]
 
@@ -70,27 +65,21 @@ A pointer to a
       <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a> structure that 
       receives the first available notification.
 
-
 ### -param TransactionNotificationLength [in]
 
 The size of the <i>TransactionNotification</i> buffer, in bytes.
-
 
 ### -param ReturnLength [out]
 
 A pointer to a variable that receives the actual size of the notification received by the 
       <i>TransactionNotification</i> parameter.
 
-
 ### -param lpOverlapped [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is 
       required for asynchronous operation.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
       
@@ -100,12 +89,7 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 The following list identifies the possible error codes:
 
-
-
-
 ## -remarks
-
-
 
 All resource managers must register to receive <b>TRANSACTION_NOTIFY_PREPREPARE</b>, 
      <b>TRANSACTION_NOTIFY_PREPARE</b>, and <b>TRANSACTION_NOTIFY_COMMIT</b> 
@@ -124,13 +108,7 @@ This function must be called after the
     <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-setresourcemanagercompletionport">SetResourceManagerCompletionPort</a> 
      function is called.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createenlistment">CreateEnlistment</a>
 
@@ -153,7 +131,4 @@ This function must be called after the
 
 
 <a href="/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
- 
-
- 
 

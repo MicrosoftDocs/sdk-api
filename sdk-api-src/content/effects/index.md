@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: wmp
 archived: true
+f1_keywords:
+ - effects
+ - effects/effects
 ---
 
 # Effects.h header
 
 
 ## -description
-
 
 This header is used by Windows Media Player SDK. For more information, see:
 

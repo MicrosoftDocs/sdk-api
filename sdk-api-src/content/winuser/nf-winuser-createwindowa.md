@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindow.htm
 ms.date: 12/05/2018
 ms.keywords: CreateWindow, CreateWindow function [Windows and Messages], CreateWindowA, CreateWindowW, _win32_CreateWindow, _win32_createwindow_cpp, winmsg.createwindow, winui._win32_createwindow, winuser/CreateWindow, winuser/CreateWindowA, winuser/CreateWindowW
-f1_keywords:
-- winuser/CreateWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- CreateWindow
-- CreateWindowA
-- CreateWindowW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateWindowA
+ - winuser/CreateWindowA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - CreateWindow
+ - CreateWindowA
+ - CreateWindowW
 ---
 
 # CreateWindowA macro
@@ -51,44 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an overlapped, pop-up, or child window. It specifies the window class, window title, window style, and (optionally) the initial position and size of the window. The function also specifies the window's parent or owner, if any, and the window's menu.
 
 To use extended window styles in addition to the styles supported by <b>CreateWindow</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpClassName [in, optional]
 
 Type: <b>LPCTSTR</b>
 
-A <b>null</b>-terminated string or a class atom created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. If <i>lpClassName</i> is a string, it specifies the window class name. The class name can be any name registered with <b>RegisterClass</b> or <b>RegisterClassEx</b>, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined system class names. For a list of system class names, see the Remarks section. 
-
+A <b>null</b>-terminated string or a class atom created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. If <i>lpClassName</i> is a string, it specifies the window class name. The class name can be any name registered with <b>RegisterClass</b> or <b>RegisterClassEx</b>, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined system class names. For a list of system class names, see the Remarks section.
 
 ### -param lpWindowName [in, optional]
 
 Type: <b>LPCTSTR</b>
 
-The window name. If the window style specifies a title bar, the window title pointed to by <i>lpWindowName</i> is displayed in the title bar. When using <b>CreateWindow</b> to create controls, such as buttons, check boxes, and static controls, use <i>lpWindowName</i> to specify the text of the control. When creating a static control with the <b>SS_ICON</b> style, use <i>lpWindowName</i> to specify the icon name or identifier. To specify an identifier, use the syntax "#<i>num</i>". 
-
+The window name. If the window style specifies a title bar, the window title pointed to by <i>lpWindowName</i> is displayed in the title bar. When using <b>CreateWindow</b> to create controls, such as buttons, check boxes, and static controls, use <i>lpWindowName</i> to specify the text of the control. When creating a static control with the <b>SS_ICON</b> style, use <i>lpWindowName</i> to specify the icon name or identifier. To specify an identifier, use the syntax "#<i>num</i>".
 
 ### -param dwStyle [in]
 
 Type: <b>DWORD</b>
 
-The style of the window being created. This parameter can be a combination of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">window style values</a>, plus the control styles indicated in the Remarks section. 
-
+The style of the window being created. This parameter can be a combination of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">window style values</a>, plus the control styles indicated in the Remarks section.
 
 ### -param x [in]
 
 Type: <b>int</b>
 
-The initial horizontal position of the window. For an overlapped or pop-up window, the <i>x</i> parameter is the initial x-coordinate of the window's upper-left corner, in screen coordinates. For a child window, <i>x</i> is the x-coordinate of the upper-left corner of the window relative to the upper-left corner of the parent window's client area. If this parameter is set to <b>CW_USEDEFAULT</b>, the system selects the default position for the window's upper-left corner and ignores the <i>y</i> parameter. <b>CW_USEDEFAULT</b> is valid only for overlapped windows; if it is specified for a pop-up or child window, the <i>x</i> and <i>y</i> parameters are set to zero. 
-
+The initial horizontal position of the window. For an overlapped or pop-up window, the <i>x</i> parameter is the initial x-coordinate of the window's upper-left corner, in screen coordinates. For a child window, <i>x</i> is the x-coordinate of the upper-left corner of the window relative to the upper-left corner of the parent window's client area. If this parameter is set to <b>CW_USEDEFAULT</b>, the system selects the default position for the window's upper-left corner and ignores the <i>y</i> parameter. <b>CW_USEDEFAULT</b> is valid only for overlapped windows; if it is specified for a pop-up or child window, the <i>x</i> and <i>y</i> parameters are set to zero.
 
 ### -param y [in]
 
@@ -98,20 +90,17 @@ The initial vertical position of the window. For an overlapped or pop-up window,
 
 If an overlapped window is created with the <b>WS_VISIBLE</b> style bit set and the <i>x</i> parameter is set to <b>CW_USEDEFAULT</b>, then the <i>y</i> parameter determines how the window is shown. If the <i>y</i> parameter is <b>CW_USEDEFAULT</b>, then the window manager calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> with the <b>SW_SHOW</b> flag after the window has been created. If the <i>y</i> parameter is some other value, then the window manager calls <b>ShowWindow</b> with that value as the <i>nCmdShow</i> parameter.
 
-
 ### -param nWidth [in]
 
 Type: <b>int</b>
 
-The width, in device units, of the window. For overlapped windows, <i>nWidth</i> is either the window's width, in screen coordinates, or <b>CW_USEDEFAULT</b>. If <i>nWidth</i> is <b>CW_USEDEFAULT</b>, the system selects a default width and height for the window; the default width extends from the initial x-coordinate to the right edge of the screen, and the default height extends from the initial y-coordinate to the top of the icon area. <b>CW_USEDEFAULT</b> is valid only for overlapped windows; if <b>CW_USEDEFAULT</b> is specified for a pop-up or child window, <i>nWidth</i> and <i>nHeight</i> are set to zero. 
-
+The width, in device units, of the window. For overlapped windows, <i>nWidth</i> is either the window's width, in screen coordinates, or <b>CW_USEDEFAULT</b>. If <i>nWidth</i> is <b>CW_USEDEFAULT</b>, the system selects a default width and height for the window; the default width extends from the initial x-coordinate to the right edge of the screen, and the default height extends from the initial y-coordinate to the top of the icon area. <b>CW_USEDEFAULT</b> is valid only for overlapped windows; if <b>CW_USEDEFAULT</b> is specified for a pop-up or child window, <i>nWidth</i> and <i>nHeight</i> are set to zero.
 
 ### -param nHeight [in]
 
 Type: <b>int</b>
 
-The height, in device units, of the window. For overlapped windows, <i>nHeight</i> is the window's height, in screen coordinates. If <i>nWidth</i> is set to <b>CW_USEDEFAULT</b>, the system ignores <i>nHeight</i>. 
-
+The height, in device units, of the window. For overlapped windows, <i>nHeight</i> is the window's height, in screen coordinates. If <i>nWidth</i> is set to <b>CW_USEDEFAULT</b>, the system ignores <i>nHeight</i>.
 
 ### -param hWndParent [in, optional]
 
@@ -120,22 +109,19 @@ Type: <b>HWND</b>
 A handle to the parent or owner window of the window being created. To create a child window or an owned window, supply a valid window handle. This parameter is optional for pop-up windows.
 					
 
-To create a <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">message-only window</a>, supply <b>HWND_MESSAGE</b> or a handle to an existing message-only window. 
-
+To create a <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">message-only window</a>, supply <b>HWND_MESSAGE</b> or a handle to an existing message-only window.
 
 ### -param hMenu [in, optional]
 
 Type: <b>HMENU</b>
 
-A handle to a menu, or specifies a child-window identifier depending on the window style. For an overlapped or pop-up window, <i>hMenu</i> identifies the menu to be used with the window; it can be <b>NULL</b> if the class menu is to be used. For a child window, <i>hMenu</i> specifies the child-window identifier, an integer value used by a dialog box control to notify its parent about events. The application determines the child-window identifier; it must be unique for all child windows with the same parent window. 
-
+A handle to a menu, or specifies a child-window identifier depending on the window style. For an overlapped or pop-up window, <i>hMenu</i> identifies the menu to be used with the window; it can be <b>NULL</b> if the class menu is to be used. For a child window, <i>hMenu</i> specifies the child-window identifier, an integer value used by a dialog box control to notify its parent about events. The application determines the child-window identifier; it must be unique for all child windows with the same parent window.
 
 ### -param hInstance [in, optional]
 
 Type: <b>HINSTANCE</b>
 
 A handle to the instance of the module to be associated with the window.
-
 
 ### -param lpParam [in, optional]
 
@@ -145,10 +131,7 @@ A pointer to a value to be passed to the window through the <a href="https://doc
 
 If an application calls <b>CreateWindow</b> to create a MDI client window, <i>lpParam</i> should point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If an MDI client window calls <b>CreateWindow</b> to create an MDI child window, <i>lpParam</i> should point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure. <i>lpParam</i> may be <b>NULL</b> if no additional data is needed.
 
-
 ## -remarks
-
-
 
 Before returning, <b>CreateWindow</b> sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a> message to the window procedure. For overlapped, pop-up, and child windows, <b>CreateWindow</b> sends <b>WM_CREATE</b>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-getminmaxinfo">WM_GETMINMAXINFO</a>, and <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate">WM_NCCREATE</a> messages to the window. The
  <i>lParam</i> parameter of the <b>WM_CREATE</b> message contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a> structure. If the <b>WS_VISIBLE</b> style is specified, <b>CreateWindow</b> sends the window all the messages required to activate and show the window. 
@@ -281,9 +264,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-the-multiple-document-interface">About the Multiple Document Interface</a>
 
 
@@ -349,7 +329,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

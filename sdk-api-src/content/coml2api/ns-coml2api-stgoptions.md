@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810
 ms.date: 12/05/2018
 ms.keywords: STGOPTIONS, STGOPTIONS structure [Structured Storage], _stg_stgoptions, coml2api/STGOPTIONS, stg.stgoptions
-f1_keywords:
-- coml2api/STGOPTIONS
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- coml2api.h
-api_name:
-- STGOPTIONS
 targetos: Windows
 req.typenames: STGOPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagSTGOPTIONS
+ - coml2api/tagSTGOPTIONS
+ - STGOPTIONS
+ - coml2api/STGOPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - coml2api.h
+api_name:
+ - STGOPTIONS
 ---
 
 # STGOPTIONS structure
@@ -49,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>STGOPTIONS</b> structure specifies features of the storage object, such as sector size, in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a> functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field usVersion
 
@@ -75,16 +73,13 @@ However, when <b>usVersion</b> is set to 1, the <b>pwcsTemplateFile</b> member c
 
 <b>For operating systems prior to Windows 2000:  </b><b>STGOPTIONS_VERSION</b> will be set to 0 for version 0.
 
-
 ### -field reserved
 
 Reserved for future use; must be zero.
 
-
 ### -field ulSectorSize
 
 Specifies the sector size of the storage object. The default is 512 bytes.
-
 
 ### -field pwcsTemplateFile
 
@@ -92,20 +87,11 @@ Specifies the name of a file whose Encrypted File System (EFS) metadata will be 
 
 <b>In Windows XP and later:  </b>The <b>pwcsTemplateFile</b> member is only valid if version 2 or later is specified in the <b>usVersion</b> member.
 
-
 ## -remarks
-
-
 
 <b>STGOPTIONS</b> is only supported on Unicode APIs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/structured-storage-interfaces">Compound File Implementation Limits</a>
 
@@ -116,7 +102,4 @@ Specifies the name of a file whose Encrypted File System (EFS) metadata will be 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 0310b80d-5036-46c2-b60f-1a6661cb7f94
 ms.date: 12/05/2018
 ms.keywords: EnumProtocols, EnumProtocols function [Winsock], EnumProtocolsA, EnumProtocolsW, IPPROTO_TCP, IPPROTO_UDP, ISOPROTO_TP4, NSPROTO_IPX, NSPROTO_SPX, NSPROTO_SPXII, _win32_enumprotocols_2, nspapi/EnumProtocols, nspapi/EnumProtocolsA, nspapi/EnumProtocolsW, winsock.enumprotocols_2
-f1_keywords:
-- nspapi/EnumProtocols
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- EnumProtocols
-- EnumProtocolsA
-- EnumProtocolsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumProtocolsW
+ - nspapi/EnumProtocolsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - EnumProtocols
+ - EnumProtocolsA
+ - EnumProtocolsW
 ---
 
 # EnumProtocolsW function
 
 
 ## -description
-
 
 The 
 <b>EnumProtocols</b> function retrieves information about a specified set of network protocols that are active on a local host.
@@ -61,12 +61,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function provides equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpiProtocols [in, optional]
 
@@ -146,14 +141,11 @@ The Sequenced Packet Exchange (SPX) protocol version 2, a connection-oriented st
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpProtocolBuffer [out]
 
 A pointer to a buffer that the function fills with an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures.
-
 
 ### -param lpdwBufferLength [in, out]
 
@@ -164,10 +156,7 @@ A pointer to a variable that, on input, specifies the size, in bytes, of the buf
 
 On output, the function sets this variable to the minimum buffer size needed to retrieve all of the requested information. For the function to succeed, the buffer must be at least this size.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures written to the buffer pointed to by <i>lpProtocolBuffer</i>.
@@ -193,14 +182,8 @@ The buffer pointed to by <i>lpProtocolBuffer</i> was too small to receive all of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In the following sample code, the 
 <b>EnumProtocols</b> function retrieves information about all protocols that are available on a system. The code then examines each of the protocols in greater detail.
@@ -371,9 +354,6 @@ int FindProtocol (
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
 
 
@@ -387,7 +367,4 @@ int FindProtocol (
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

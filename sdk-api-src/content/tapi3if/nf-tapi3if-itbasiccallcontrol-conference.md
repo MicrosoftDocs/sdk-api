@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 73721921-c943-4adc-a2b1-e8c19ec809ac
 ms.date: 12/05/2018
 ms.keywords: Conference, Conference method [TAPI 2.2], Conference method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Conference method, ITBasicCallControl.Conference, ITBasicCallControl::Conference, _tapi3_itbasiccallcontrol_conference, tapi3.itbasiccallcontrol_conference, tapi3if/ITBasicCallControl::Conference
-f1_keywords:
-- tapi3if/ITBasicCallControl.Conference
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicCallControl.Conference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicCallControl::Conference
+ - tapi3if/ITBasicCallControl::Conference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicCallControl.Conference
 ---
 
 # ITBasicCallControl::Conference
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 Conference method adds a consultation call to the conference in which the current call is a participant. If an associated 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> object does not exist, it is created.
 
-
 ## -parameters
-
-
-
 
 ### -param pCall [in]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a> interface for the consultation call.
 
-
 ### -param fSync [in]
 
 Indicates whether the call should be conferenced synchronously (VARIANT_TRUE) or asynchronously (VARIANT_FALSE). See 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect">Connect</a> for additional explanation.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -139,14 +131,8 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some service providers do not support this operation while streaming is active. The application may need to call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
@@ -164,13 +150,7 @@ Conference is called, TAPI will use the destination address (as specified when t
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>) and try to connect at that time. If the original call had a <b>NULL</b> destination address, 
 Conference will fail with E_INVALIDARG.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
@@ -201,7 +181,4 @@ Conference will fail with E_INVALIDARG.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">Transfer</a>
- 
-
- 
 

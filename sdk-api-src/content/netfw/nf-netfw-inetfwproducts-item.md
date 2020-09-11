@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 091d53bc-3c5e-4960-9bc9-34343fd352ce
 ms.date: 12/05/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Item method, INetFwProducts.Item, INetFwProducts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_item, netfw/INetFwProducts::Item
-f1_keywords:
-- netfw/INetFwProducts.Item
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwProducts.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwProducts::Item
+ - netfw/INetFwProducts::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwProducts.Item
 ---
 
 # INetFwProducts::Item
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Item</b> method returns the product with the specified index if it is in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 Index of the product to retrieve.
 
-
 ### -param product [out, retval]
 
 Reference to the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a> object.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -137,22 +129,12 @@ The requested item does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>
- 
-
- 
 

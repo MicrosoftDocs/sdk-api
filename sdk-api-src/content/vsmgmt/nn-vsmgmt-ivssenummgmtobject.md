@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: c2067822-1824-4676-8376-7d83fcbbaea3
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumMgmtObject interface [Files],described, base.ivssenummgmtobject, vsmgmt/IVssEnumMgmtObject
-f1_keywords:
-- vsmgmt/IVssEnumMgmtObject
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssEnumMgmtObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssEnumMgmtObject
+ - vsmgmt/IVssEnumMgmtObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssEnumMgmtObject
 ---
 
 # IVssEnumMgmtObject interface
 
 
 ## -description
-
 
 The <b>IVssEnumMgmtObject</b> interface contains 
     methods to iterate over and perform other operations on a list of enumerated objects.
@@ -65,7 +65,6 @@ The
     <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume</a>, and 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas">IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas</a> 
     methods return an <b>IVssEnumMgmtObject</b> object.
-
 
 ## -inheritance
 
@@ -114,13 +113,9 @@ Resets the enumerator so that
 <td align="left" width="63%">
 Skips the specified number of objects.</p> (Inherited from <b>IVssEnumMgmtObject</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
@@ -143,7 +138,4 @@ Skips the specified number of objects.</p> (Inherited from <b>IVssEnumMgmtObject
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
- 
-
- 
 

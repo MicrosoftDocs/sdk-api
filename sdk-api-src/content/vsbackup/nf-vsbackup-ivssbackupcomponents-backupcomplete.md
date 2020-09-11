@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ee49d4b1-f3f4-4c85-a3a2-f4452d066f21
 ms.date: 12/05/2018
 ms.keywords: BackupComplete, BackupComplete method [VSS], BackupComplete method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BackupComplete method, IVssBackupComponents.BackupComplete, IVssBackupComponents::BackupComplete, _win32_ivssbackupcomponents_backupcomplete, base.ivssbackupcomponents_backupcomplete, vsbackup/IVssBackupComponents::BackupComplete
-f1_keywords:
-- vsbackup/IVssBackupComponents.BackupComplete
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.BackupComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::BackupComplete
+ - vsbackup/IVssBackupComponents::BackupComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.BackupComplete
 ---
 
 # IVssBackupComponents::BackupComplete
@@ -50,27 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
     <b>BackupComplete</b> method causes VSS to generate a 
     <b>BackupComplete</b> event, which signals writers 
     that the backup process has completed.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
 Doubly indirect pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> instance.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -151,14 +143,8 @@ An unexpected error occurred during communication with writers. The error code i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When working in component mode (<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a> was called with a select components argument of <b>TRUE</b>), writers can determine the success or failure of the backup of any component explicitly included in the Backup Components Document components by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupsucceeded">IVssComponent::GetBackupSucceeded</a>. Therefore, a well-behaved backup application (requester) must call 
@@ -181,13 +167,7 @@ The backup application can choose to abort the backup at any time after the shad
 The calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources held by the returned 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> when it is no longer needed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
@@ -210,7 +190,4 @@ The calling application is responsible for calling <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">IVssBackupComponents::SetBackupSucceeded</a>
- 
-
- 
 

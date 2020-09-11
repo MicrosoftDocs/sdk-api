@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 418cd7aa-c363-4ab7-9c7e-2d0388483a8f
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEventLog, IFsrmActionEventLog interface [File Server Resource Manager], IFsrmActionEventLog interface [File Server Resource Manager],described, fs.ifsrmactioneventlog, fsrm.ifsrmactioneventlog, fsrm/IFsrmActionEventLog
-f1_keywords:
-- fsrm/IFsrmActionEventLog
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmActionEventLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmActionEventLog
+ - fsrm/IFsrmActionEventLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmActionEventLog
 ---
 
 # IFsrmActionEventLog interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -76,10 +76,7 @@ To create an event log action, call one of the following methods and specify
     this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method 
     and specify <b>IID_IFsrmActionEventLog</b> as the interface identifier.
 
-
 ## -remarks
-
-
 
 For most events, the event identifier is 12325. However, for events that a file management job logs, the event 
     identifier is 8244.
@@ -95,12 +92,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -131,7 +123,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
- 
-
- 
 

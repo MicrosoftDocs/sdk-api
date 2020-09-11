@@ -8,10 +8,6 @@ tech.root: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
 ms.date: 04/30/2018
 ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, ntdef/InitializeObjectAttributes
-f1_keywords:
-- ntdef/- InitializeObjectAttributes
-dev_langs:
-- c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntdef.h
 req.target-type: Desktop
@@ -29,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdef.h
-api_name:
-- InitializeObjectAttributes
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - InitializeObjectAttributes
+ - ntdef/InitializeObjectAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdef.h
+api_name:
+ - InitializeObjectAttributes
 ---
 
 # InitializeObjectAttributes macro
@@ -47,36 +48,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure, which specifies the properties of an object handle to routines that open handles.
 
-## -syntax
-
-```cpp
-VOID InitializeObjectAttributes(
-  [out]          POBJECT_ATTRIBUTES   p,
-  [in]           PUNICODE_STRING      n,
-  [in]           ULONG                a,
-  [in]           HANDLE               r,
-  [in, optional] PSECURITY_DESCRIPTOR s
-);
-```
-
-
 ## -parameters
-
-
-
 
 ### -param p
 
 A pointer to the [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure to initialize.
 
-
 ### -param n
 
 A pointer to a Unicode string that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.
-
 
 ### -param a
 
@@ -92,7 +74,6 @@ Specifies one or more of the following flags:
 |OBJ_KERNEL_HANDLE|Specifies that the handle can only be accessed in kernel mode.|
 |OBJ_FORCE_ACCESS_CHECK | The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.|
 
-
 ### -param r
 
 A handle to the root object directory for the path name specified in the ObjectName parameter. If ObjectName is a fully qualified object name, RootDirectory is NULL. Use ZwCreateDirectoryObject [ZwCreateDirectoryObject](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject) to obtain a handle to an object directory.
@@ -100,6 +81,18 @@ A handle to the root object directory for the path name specified in the ObjectN
 ### -param s
 
 Specifies a security descriptor to apply to an object when it is created. This parameter is optional. Drivers can specify NULL to accept the default security for the object. For more information, see the following Remarks section.
+
+## -syntax
+
+```cpp
+VOID InitializeObjectAttributes(
+  [out]          POBJECT_ATTRIBUTES   p,
+  [in]           PUNICODE_STRING      n,
+  [in]           ULONG                a,
+  [in]           HANDLE               r,
+  [in, optional] PSECURITY_DESCRIPTOR s
+);
+```
 
 ## -remarks
 
@@ -138,3 +131,4 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopensection">ZwOpenSection</a>
 
 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopensymboliclinkobject">ZwOpenSymbolicLinkObject</a>
+

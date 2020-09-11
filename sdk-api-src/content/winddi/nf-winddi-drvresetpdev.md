@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 8e530874-7774-4f8f-852c-001b2ce4a707
 ms.date: 12/05/2018
 ms.keywords: DrvResetPDEV, DrvResetPDEV function [Display Devices], ddifncs_839f09e0-67dc-4c1f-a17b-dd0fd5316258.xml, display.drvresetpdev, winddi/DrvResetPDEV
-f1_keywords:
-- winddi/DrvResetPDEV
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvResetPDEV
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvResetPDEV
+ - winddi/DrvResetPDEV
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvResetPDEV
 ---
 
 # DrvResetPDEV function
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvResetPDEV</b> function allows a graphics driver to transfer the state of the driver from an old <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> structure to a new PDEV structure when a Win32 application calls <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca">ResetDC</a>.
 
 ## -parameters
-
-
-
 
 ### -param dhpdevOld
 
 Caller-supplied handle to the original device PDEV structure. This handle was previously provided by the driver as a return value for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
-
 ### -param dhpdevNew
 
 Caller-supplied handle to the new PDEV structure.
 
-
 ## -returns
-
-
 
 This return value is <b>TRUE</b> if the function is successful. Otherwise it is <b>FALSE</b>, and an error code is logged.
 
-
-
-
 ## -remarks
-
-
 
 A graphics driver's <b>DrvResetPDEV</b> function should be used for modifying the contents of a new PDEV structure, based on the contents of the old (currently in use) PDEV structure.
 
@@ -111,14 +99,7 @@ If  <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-res
     DrvDisablePDEV(dhpdevOld);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdisablepdev">DrvDisablePDEV</a>
 
@@ -141,7 +122,4 @@ If  <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-res
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstartpage">DrvStartPage</a>
- 
-
- 
 

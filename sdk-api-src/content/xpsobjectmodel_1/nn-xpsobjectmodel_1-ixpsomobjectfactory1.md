@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: f013e59d-83ae-453f-9cc5-9a8230729128
 ms.date: 12/05/2018
 ms.keywords: IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], IXpsOMObjectFactory1 interface [XPS Documents and Packaging],described, xps.ixpsomobjectfactory1, xpsobjectmodel_1/IXpsOMObjectFactory1
-f1_keywords:
-- xpsobjectmodel_1/IXpsOMObjectFactory1
-dev_langs:
-- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- none
-- none.dll
-api_name:
-- IXpsOMObjectFactory1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMObjectFactory1
+ - xpsobjectmodel_1/IXpsOMObjectFactory1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - none
+ - none.dll
+api_name:
+ - IXpsOMObjectFactory1
 ---
 
 # IXpsOMObjectFactory1 interface
 
 
 ## -description
-
 
 Inherits from IXpsOMObjectFactory. 
 
@@ -62,7 +62,6 @@ Loading of an OpenXPS packages into an XPS object model.
 Saving an in-memory XPS Object model to an OpenXPS package. 
 
 Converting HDPhoto resources into JpegXR resources.
-
 
 ## -inheritance
 
@@ -169,28 +168,16 @@ Detects the type of XPS document that is stored in the specified stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="Additional_References"></a><a id="additional_references"></a><a id="ADDITIONAL_REFERENCES"></a>Additional References</h3>
 The base interface is defined and documented in Windows 7 SDK.
 
 http://msdn.microsoft.com/en-us/library/dd372509(VS.85).aspx
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>
- 
-
- 
 

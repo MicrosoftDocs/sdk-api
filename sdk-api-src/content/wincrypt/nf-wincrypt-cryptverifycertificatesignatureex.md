@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8a84af66-b174-4a3e-b1d7-6f218a52d877
 ms.date: 12/05/2018
 ms.keywords: CRYPT_VERIFY_CERT_SIGN_DISABLE_MD2_MD4_FLAG, CRYPT_VERIFY_CERT_SIGN_ISSUER_CERT, CRYPT_VERIFY_CERT_SIGN_ISSUER_CHAIN, CRYPT_VERIFY_CERT_SIGN_ISSUER_NULL, CRYPT_VERIFY_CERT_SIGN_ISSUER_PUBKEY, CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SET_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SUBJECT_BLOB, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CERT, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CRL, CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE, CryptVerifyCertificateSignatureEx, CryptVerifyCertificateSignatureEx function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignatureex, security.cryptverifycertificatesignatureex, wincrypt/CryptVerifyCertificateSignatureEx
-f1_keywords:
-- wincrypt/CryptVerifyCertificateSignatureEx
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptVerifyCertificateSignatureEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifyCertificateSignatureEx
+ - wincrypt/CryptVerifyCertificateSignatureEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptVerifyCertificateSignatureEx
 ---
 
 # CryptVerifyCertificateSignatureEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptVerifyCertificateSignatureEx</b> function verifies the signature of a subject certificate, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>, or keygen request by using the issuer's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>. The function does not require access to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptProv [in]
 
@@ -65,9 +61,6 @@ This parameter is not used and should be set to <b>NULL</b>.
 <b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> used to verify the signature.This parameter's data type is <b>HCRYPTPROV</b>.
 
 <b>NULL</b> is passed unless there is a strong reason for passing in a specific cryptographic provider. Passing in <b>NULL</b> causes the default RSA or DSS provider to be acquired.
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -96,8 +89,6 @@ Specifies X.509 certificate encoding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwSubjectType [in]
 
@@ -155,13 +146,10 @@ The subject type. This parameter can be one of the following subject types.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvSubject [in]
 
 A pointer to a structure of the type indicated by <i>dwSubjectType</i> that contains the signature to be verified.
-
 
 ### -param dwIssuerType [in]
 
@@ -225,7 +213,6 @@ The issuer type. This parameter can be one of the following issuer types.
 ### -param pvIssuer [in]
 
 A pointer to a structure of the type indicated by the value of <i>dwIssuerType</i>. The structure contains access to the public key needed to verify the signature.
-
 
 ### -param dwFlags [in]
 
@@ -293,8 +280,6 @@ You must call <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvExtra [in, out, optional]
 
@@ -302,10 +287,7 @@ Pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> to free the structure.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise. 
 						
@@ -365,27 +347,13 @@ The signature was not valid.
  
 
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -remarks
 
-
-
 The subject buffer can contain an encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> or a context for a certificate or CRL. In the case of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, if the certificate's public key parameters are missing and if these parameters can be inherited from the certificate's issuer for example from the DSS public key parameter, the context's CERT_PUBKEY_ALG_PARA_PROP_ID property is updated with the issuer's public key algorithm parameters for a valid signature.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignature">CryptVerifyCertificateSignature</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: dd757856-f16e-46ad-b865-8203c3428372
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResource, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresource, xpsobjectmodel/IXpsOMRemoteDictionaryResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMRemoteDictionaryResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMRemoteDictionaryResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMRemoteDictionaryResource
+ - xpsobjectmodel/IXpsOMRemoteDictionaryResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMRemoteDictionaryResource
 ---
 
 # IXpsOMRemoteDictionaryResource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides an interface that enables pages in an XPS package to  share resources.
-
 
 ## -inheritance
 
@@ -88,13 +87,9 @@ Sets a   pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createremotedictionaryresource">IXpsOMObjectFactory::CreateRemoteDictionaryResource</a>
 
@@ -113,7 +108,4 @@ Sets a   pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

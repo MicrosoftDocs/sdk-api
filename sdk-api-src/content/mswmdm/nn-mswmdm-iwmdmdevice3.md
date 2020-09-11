@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 29e0ec95-c1ea-4157-b5aa-39d80fff407d
 ms.date: 12/05/2018
 ms.keywords: IWMDMDevice3, IWMDMDevice3 interface [windows Media Device Manager], IWMDMDevice3 interface [windows Media Device Manager],described, IWMDMDevice3Interface, mswmdm/IWMDMDevice3, wmdm.iwmdmdevice3
-f1_keywords:
-- mswmdm/IWMDMDevice3
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMDevice3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDevice3
+ - mswmdm/IWMDMDevice3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMDevice3
 ---
 
 # IWMDMDevice3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDMDevice3</b> interface extends <b>IWMDMDevice2</b> by providing methods to query a device for properties, send device I/O controle codes, and also providing upgraded methods to search for storages and retrieve device format capabilities.
-
-
-
 
 ## -inheritance
 
@@ -116,13 +112,9 @@ Sets a specific device property, if it is writable.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
 
@@ -133,7 +125,4 @@ Sets a specific device property, if it is writable.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

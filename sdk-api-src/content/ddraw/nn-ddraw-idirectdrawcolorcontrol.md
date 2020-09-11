@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: e9bd0dc6-2d8a-452b-894d-72a3d7a20100
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawColorControl, IDirectDrawColorControl interface [DirectDraw], IDirectDrawColorControl interface [DirectDraw],described, ddraw/IDirectDrawColorControl, directdraw.idirectdrawcolorcontrol
-f1_keywords:
-- ddraw/IDirectDrawColorControl
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawColorControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawColorControl
+ - ddraw/IDirectDrawColorControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawColorControl
 ---
 
 # IDirectDrawColorControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications use the methods of the <b>IDirectDrawColorControl</b> interface to get and set color controls.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Sets the color-control options for an overlay or a primary surface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You can use the LPDIRECTDRAWCOLORCONTROL data type to declare a variable that contains a pointer to an <b>IDirectDrawColorControl</b> interface. The Ddraw.h header file declares this data type with the following code:
 
@@ -103,7 +99,4 @@ You can use the LPDIRECTDRAWCOLORCONTROL data type to declare a variable that co
 typedef struct IDirectDrawColorControl    FAR *LPDIRECTDRAWCOLORCONTROL;
 
 ```
-
-
-
 

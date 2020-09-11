@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 873b4dbe-f808-4731-9314-a595ef7ef3c5
 ms.date: 12/05/2018
 ms.keywords: GetMailslotInfo, GetMailslotInfo function, MAILSLOT_NO_MESSAGE, _win32_getmailslotinfo, base.getmailslotinfo, winbase/GetMailslotInfo
-f1_keywords:
-- winbase/GetMailslotInfo
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- GetMailslotInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetMailslotInfo
+ - winbase/GetMailslotInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - GetMailslotInfo
 ---
 
 # GetMailslotInfo function
@@ -52,26 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the specified mailslot.
 
-
 ## -parameters
-
-
-
 
 ### -param hMailslot [in]
 
 A handle to a mailslot. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function must create this handle.
 
-
 ### -param lpMaxMessageSize [out, optional]
 
 The maximum message size, in bytes, allowed for this mailslot. This value can be greater than or equal to the value specified in the <i>cbMaxMsg</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a> function that created the mailslot. This parameter can be <b>NULL</b>.
-
 
 ### -param lpNextSize [out, optional]
 
@@ -98,33 +92,22 @@ There is no next message.
 
 This parameter can be <b>NULL</b>.
 
-
 ### -param lpMessageCount [out, optional]
 
 The total number of messages waiting to be read, when the function returns. This parameter can be <b>NULL</b>.
-
 
 ### -param lpReadTimeout [out, optional]
 
 The amount of time, in milliseconds, a read operation can wait for a message to be written to the mailslot before a time-out occurs. This parameter is filled in when the function returns. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailslot</a>
 
@@ -139,7 +122,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setmailslotinfo">SetMailslotInfo</a>
- 
-
- 
 

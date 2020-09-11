@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d28b2f52-3258-44ad-a3ab-0743d3afcd62
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_CREDENTIALS, CREDENTIAL_OID_PASSWORD_CREDENTIALS, CRYPT_CREDENTIALS, CRYPT_CREDENTIALS structure [Security], PCRYPT_CREDENTIALS, PCRYPT_CREDENTIALS structure pointer [Security], security.crypt_credentials, wincrypt/CRYPT_CREDENTIALS, wincrypt/PCRYPT_CREDENTIALS'
-f1_keywords:
-- wincrypt/CRYPT_CREDENTIALS
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_CREDENTIALS
 targetos: Windows
 req.typenames: CRYPT_CREDENTIALS, *PCRYPT_CREDENTIALS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_CREDENTIALS
+ - wincrypt/_CRYPT_CREDENTIALS
+ - PCRYPT_CREDENTIALS
+ - wincrypt/PCRYPT_CREDENTIALS
+ - CRYPT_CREDENTIALS
+ - wincrypt/CRYPT_CREDENTIALS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_CREDENTIALS
 ---
 
 # CRYPT_CREDENTIALS structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_CREDENTIALS</b> structure contains information about credentials that can be passed as optional input to a remote object retrieval function such as <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgettimevalidobject">CryptGetTimeValidObject</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size in bytes of this structure.
-
 
 ### -field pszCredentialsOid
 
@@ -88,8 +87,6 @@ The <b>pvCredentials</b> member contains a <a href="https://docs.microsoft.com/w
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pvCredentials
 

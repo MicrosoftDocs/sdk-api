@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 3b660e3a-fba6-4466-aa82-eb90c27ae004
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextCreateEnumHandle0, FwpmProviderContextCreateEnumHandle0 function [Filtering], fwp.fwpmprovidercontextcreateenumhandle0_func, fwpmu/FwpmProviderContextCreateEnumHandle0
-f1_keywords:
-- fwpmu/FwpmProviderContextCreateEnumHandle0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmProviderContextCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmProviderContextCreateEnumHandle0
+ - fwpmu/FwpmProviderContextCreateEnumHandle0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmProviderContextCreateEnumHandle0
 ---
 
 # FwpmProviderContextCreateEnumHandle0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmProviderContextCreateEnumHandle0</b> function creates a handle used to enumerate a set of provider contexts.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param enumTemplate [in, optional]
 
 Type: <b>const <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>*</b>
 
 Template to selectively restrict the enumeration.
-
 
 ### -param enumHandle [out]
 
@@ -78,10 +72,7 @@ Type: <b>HANDLE*</b>
 
 Handle for provider context enumeration.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -127,14 +118,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>enumTemplate</i> is <b>NULL</b>, all provider contexts are returned.
 
@@ -146,20 +131,11 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 <b>FwpmProviderContextCreateEnumHandle0</b> is a specific implementation of FwpmProviderContextCreateEnumHandle. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextdestroyenumhandle0">FwpmProviderContextDestroyEnumHandle0</a>
- 
-
- 
 

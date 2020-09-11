@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a8da62e5-bc49-4aff-afaa-e774393b7120
 ms.date: 12/05/2018
 ms.keywords: COPYFILE2_EXTENDED_PARAMETERS, COPYFILE2_EXTENDED_PARAMETERS structure [Files], COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_NO_OFFLOAD, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_REQUEST_SECURITY_PRIVILEGES, COPY_FILE_RESTARTABLE, COPY_FILE_RESUME_FROM_PAUSE, fs.copyfile2_extended_parameters, winbase/COPYFILE2_EXTENDED_PARAMETERS
-f1_keywords:
-- winbase/COPYFILE2_EXTENDED_PARAMETERS
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- COPYFILE2_EXTENDED_PARAMETERS
 targetos: Windows
 req.typenames: COPYFILE2_EXTENDED_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - COPYFILE2_EXTENDED_PARAMETERS
+ - winbase/COPYFILE2_EXTENDED_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - COPYFILE2_EXTENDED_PARAMETERS
 ---
 
 # COPYFILE2_EXTENDED_PARAMETERS structure
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains extended parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> 
     function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Contains the size of this structure, 
       <code>sizeof(COPYFILE2_EXTENDED_PARAMETERS)</code>.
-
 
 ### -field dwCopyFlags
 
@@ -191,14 +186,11 @@ The destination file is examined to see if it was copied using
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pfCancel
 
 If this flag is set to <b>TRUE</b> during the copy operation then the copy operation is 
       canceled.
-
 
 ### -field pProgressRoutine
 
@@ -207,28 +199,18 @@ The optional address of a callback function of type <b>PCOPYFILE2_PROGRESS_ROUTI
       <b>NULL</b>. For more information on the progress callback function, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback function.
 
-
 ### -field pvCallbackContext
 
 A pointer to application-specific context information to be passed to the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a>.
 
-
 ## -remarks
-
-
 
 To compile an application that uses this structure, define the <b>_WIN32_WINNT</b> 
     macro as <b>_WIN32_WINNT_WIN8</b> or later. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a>
 
@@ -239,7 +221,4 @@ To compile an application that uses this structure, define the <b>_WIN32_WINNT</
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
- 
-
- 
 

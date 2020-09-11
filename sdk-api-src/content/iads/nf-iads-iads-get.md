@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: fd6d79b6-46f8-42dd-8525-a72a6e0a7672
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADs interface, IADs interface [ADSI],Get method, IADs.Get, IADs::Get, _ds_iads_get, adsi.iads__get, adsi.iads_get, iads/IADs::Get
-f1_keywords:
-- iads/IADs.Get
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADs.Get
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADs::Get
+ - iads/IADs::Get
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADs.Get
 ---
 
 # IADs::Get
@@ -49,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADs::Get</b> method retrieves a property of a given name from the property cache. The property can be single-valued, or multi-valued. The property value is represented as either a variant for a single-valued property or a variant array (of <b>VARIANT</b> or bytes) for a property that allows multiple values.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrName [in]
 
 Contains a <b>BSTR</b> that specifies the property name.
 
-
 ### -param pvProp [out]
 
 Pointer to a <b>VARIANT</b> that receives the value of the property. For a multi-valued property, <i>pvProp</i> is a variant array of <b>VARIANT</b>, unless the property is a binary type. In this latter case, <i>pvProp</i> is a variant array of bytes (VT_U1 or VT_ARRAY). For the property that refers to an object, <i>pvProp</i> is a VT_DISPATCH pointer to the object referred to.
 
-
 ## -returns
-
-
 
 This method supports standard return values, as well as the following.
 
 For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IADs::Get</b> method requires the caller to handle the single- and multi-valued property values differently. Thus, if you know that the property of interest is either single- or multi-valued, use the <b>IADs::Get</b> method to retrieve the property value. The following code example shows how you, as a caller, can handle single- and multi-valued properties when calling this method.
 
@@ -280,14 +267,7 @@ if ( pSvc )
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -311,7 +291,4 @@ if ( pSvc )
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
- 
-
- 
 

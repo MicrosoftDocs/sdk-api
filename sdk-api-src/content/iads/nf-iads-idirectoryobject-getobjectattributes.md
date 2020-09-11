@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 6e3d046f-eac0-4955-925b-71ab15df9ed3
 ms.date: 12/05/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [ADSI], GetObjectAttributes method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectAttributes method, IDirectoryObject.GetObjectAttributes, IDirectoryObject::GetObjectAttributes, _ds_idirectoryobject_getobjectattributes, adsi.idirectoryobject__getobjectattributes, adsi.idirectoryobject_getobjectattributes, iads/IDirectoryObject::GetObjectAttributes
-f1_keywords:
-- iads/IDirectoryObject.GetObjectAttributes
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IDirectoryObject.GetObjectAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectoryObject::GetObjectAttributes
+ - iads/IDirectoryObject::GetObjectAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IDirectoryObject.GetObjectAttributes
 ---
 
 # IDirectoryObject::GetObjectAttributes
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectoryObject::GetObjectAttributes</b> method retrieves one or more specified attributes of the directory service object.
 
-
 ## -parameters
-
-
-
 
 ### -param pAttributeNames [in]
 
@@ -67,36 +63,25 @@ Specifies an array of names of the requested attributes.
 
 To request all of the object's attributes, set <i>pAttributeNames</i> to <b>NULL</b> and set the <i>dwNumberAttributes</i> parameter to (DWORD)-1.
 
-
 ### -param dwNumberAttributes [in]
 
 Specifies the size of the <i>pAttributeNames</i> array. If -1, all of the object's attributes are requested.
-
 
 ### -param ppAttributeEntries [out]
 
 Pointer to a variable that receives a pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures that contain the requested attribute values. If no attributes could be obtained from the directory service object, the returned pointer is <b>NULL</b>.
 
-
 ### -param pdwNumAttributesReturned [out]
 
 Pointer to a <b>DWORD</b> variable that receives the number of attributes retrieved in the <i>ppAttributeEntries</i> array.
 
-
 ## -returns
-
-
 
 This method returns the standard values, as well as the following:
 
 For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 ADSI allocates the memory for the array of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures returned in the <i>ppAttributeEntries</i> parameter. The caller must call  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> to free the array.
 
@@ -209,14 +194,7 @@ if ( SUCCEEDED(hr) )
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -231,7 +209,4 @@ if ( SUCCEEDED(hr) )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
- 
-
- 
 

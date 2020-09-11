@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 9ca58586-8cd6-4d74-9cef-f0ae41b24fe3
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioGetInfo, mmioGetInfo, mmioGetInfo function [Windows Multimedia], mmsystem/mmioGetInfo, multimedia.mmiogetinfo
-f1_keywords:
-- mmiscapi/mmioGetInfo
-dev_langs:
-- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-misc-l1-1-0.dll
-- winmmbase.dll
-- API-MS-Win-mm-misc-l1-1-1.dll
-api_name:
-- mmioGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mmioGetInfo
+ - mmiscapi/mmioGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-misc-l1-1-0.dll
+ - winmmbase.dll
+ - API-MS-Win-mm-misc-l1-1-1.dll
+api_name:
+ - mmioGetInfo
 ---
 
 # mmioGetInfo function
@@ -52,45 +53,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mmioGetInfo</b> function retrieves information about a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function. This information allows the application to directly access the I/O buffer, if the file is opened for buffered I/O.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmmio
 
 File handle of the file.
 
-
 ### -param pmmioinfo
 
 Pointer to a buffer that receives an <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure that <b>mmioGetInfo</b> fills with information about the file.
-
 
 ### -param fuInfo
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise.
 
-
-
-
 ## -remarks
-
-
 
 To directly access the I/O buffer of a file opened for buffered I/O, use the following members of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure filled by <b>mmioGetInfo</b>:
 
@@ -106,6 +89,4 @@ When you reach the end of the buffer specified by the <b>pchEndRead</b> or <b>pc
 Before calling <a href="https://docs.microsoft.com/previous-versions/dd757314(v=vs.85)">mmioAdvance</a> or <a href="https://docs.microsoft.com/previous-versions/dd757339(v=vs.85)">mmioSetInfo</a> to flush a buffer to disk, set the MMIO_DIRTY flag in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure for the file. Otherwise, the buffer will not be written to disk.
 
 Do not decrement <b>pchNext</b> or modify any members in the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure other than <b>pchNext</b> and <b>dwFlags</b>. Do not set any flags in <b>dwFlags</b> except MMIO_DIRTY.
-
-
 

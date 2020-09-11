@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: c7b3a301-9f94-40de-a3d2-5387fb4e0596
 ms.date: 12/05/2018
 ms.keywords: IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsSecurityEnabled method, ObjectContext.IsSecurityEnabled, ObjectContext::IsSecurityEnabled, _cos_ObjectContext_IsSecurityEnabled, comsvcs/ObjectContext::IsSecurityEnabled, cos.objectcontext_issecurityenabled
-f1_keywords:
-- comsvcs/ObjectContext.IsSecurityEnabled
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ObjectContext.IsSecurityEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ObjectContext::IsSecurityEnabled
+ - comsvcs/ObjectContext::IsSecurityEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ObjectContext.IsSecurityEnabled
 ---
 
 # ObjectContext::IsSecurityEnabled
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether security is enabled for the current object.
 
-
 ## -parameters
-
-
-
 
 ### -param pbIsEnabled [out]
 
 <b>TRUE</b> if security is enabled for this object; <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_FAIL, as well as the following values.
 
@@ -97,27 +90,12 @@ An unexpected error has occurred. This can happen if one object passes its <a hr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 In the COM+ environment, server and library applications can use role-based security. <b>IsSecurityEnabled</b> returns <b>TRUE</b> when an application uses role-based security, and role-based security is enabled both for the application and the specific component that called the method.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
- 
-
- 
 

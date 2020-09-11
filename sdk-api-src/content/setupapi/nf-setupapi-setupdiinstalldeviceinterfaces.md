@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: c47d83f6-9ae5-43a9-a6ed-b0441b490e8d
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallDeviceInterfaces, SetupDiInstallDeviceInterfaces function [Device and Driver Installation], devinst.setupdiinstalldeviceinterfaces, di-rtns_8bb9c70f-c1be-45f6-af6c-243a750babb9.xml, setupapi/SetupDiInstallDeviceInterfaces
-f1_keywords:
-- setupapi/SetupDiInstallDeviceInterfaces
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupDiInstallDeviceInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiInstallDeviceInterfaces
+ - setupapi/SetupDiInstallDeviceInterfaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupDiInstallDeviceInterfaces
 ---
 
 # SetupDiInstallDeviceInterfaces function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiInstallDeviceInterfaces</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installinterfaces">DIF_INSTALLINTERFACES</a> installation request. 
-
+The <b>SetupDiInstallDeviceInterfaces</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installinterfaces">DIF_INSTALLINTERFACES</a> installation request.
 
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to install interfaces. The device information set must contain only elements for the local system.
 
-
 ### -param DeviceInfoData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
-
 ## -returns
-
-
 
 <b>SetupDiInstallDeviceInterfaces</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, <b>FALSE</b> is returned and the error code for the failure can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetupDiInstallDeviceInterfaces</b> processes each <b>AddInterface</b> entry in the <i>DDInstall</i>.<b>Interfaces</b> section of a device INF file and creates each interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>.
 
@@ -89,20 +76,11 @@ The caller of <b>SetupDiInstallDeviceInterfaces</b> must be a member of the Admi
 <div> </div>
 For information about INF file format, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-file-sections-and-directives">INF File Sections and Directives</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installinterfaces">DIF_INSTALLINTERFACES</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>
- 
-
- 
 

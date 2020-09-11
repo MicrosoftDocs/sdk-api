@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 65d962bd-f4d7-4cf4-9b24-a7678e669e24
 ms.date: 12/05/2018
 ms.keywords: SnmpSetVb, SnmpSetVb function [SNMP], _snmp_snmpsetvb, snmp.snmpsetvb, winsnmp/SnmpSetVb
-f1_keywords:
-- winsnmp/SnmpSetVb
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpSetVb
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpSetVb
+ - winsnmp/SnmpSetVb
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpSetVb
 ---
 
 # SnmpSetVb function
@@ -49,43 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpSetVb</b> function changes variable binding entries in a variable bindings list. This function also appends new variable binding entries to an existing variable bindings list.
 
-
 ## -parameters
-
-
-
 
 ### -param vbl [in]
 
 Handle to the variable bindings list to update.
 
-
 ### -param index [in]
 
 Specifies an unsigned long integer variable that contains the position of the variable binding entry, within the variable bindings list, if this is an update operation. If this is an append operation, this parameter must be equal to zero. For more information, see the following Remarks section.
-
 
 ### -param name [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure that represents the name of the variable to append or change. For more information, see the following Remarks section.
 
-
 ### -param value [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structure. The structure contains the value associated with the variable specified by the <i>name</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the position of the updated or appended variable binding entry in the variable bindings list. For additional information, see the following Remarks section.
 
@@ -177,14 +167,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Valid values for the <i>index</i> parameter range from zero to n. The value zero indicates an append operation. The value n is the total number of variable binding entries in the variable bindings list. A WinSNMP application should call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcountvbl">SnmpCountVbl</a> function before it calls 
@@ -196,13 +180,7 @@ If the <i>name</i> parameter is not <b>NULL</b>, but the <i>value</i> parameter 
 
 If the <i>index</i> parameter is not equal to zero, and the <i>name</i> parameter is <b>NULL</b>, the Microsoft WinSNMP implementation updates only the value of the variable pointed to by the <i>index</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcountvbl">SnmpCountVbl</a>
 
@@ -222,7 +200,4 @@ If the <i>index</i> parameter is not equal to zero, and the <i>name</i> paramete
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>
- 
-
- 
 

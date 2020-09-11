@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 7d256937-b191-499f-9711-05a5ef3b8e18
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransitionLibrary, IUIAnimationTransitionLibrary interface [Windows Animation], IUIAnimationTransitionLibrary interface [Windows Animation],described, uianimation.iuianimationtransitionlibrary, uianimation/IUIAnimationTransitionLibrary
-f1_keywords:
-- uianimation/IUIAnimationTransitionLibrary
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationTransitionLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationTransitionLibrary
+ - uianimation/IUIAnimationTransitionLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationTransitionLibrary
 ---
 
 # IUIAnimationTransitionLibrary interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a library of standard transitions.
-   
-
 
 ## -inheritance
 
@@ -177,12 +175,9 @@ Creates a smooth-stop transition.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Windows Animation includes a library of common transitions that developers can apply to variables through a storyboard. The parameters for specifying a transition depend on the type of transition. For some transitions, the duration of the transition is an explicit parameter; for others, the duration is determined by other parameters, such as speed or acceleration when the transition begins. A transition's initial value or velocity can be overridden if a discontinuous jump is desired, and duration can be queried after the transition is added to a storyboard.
 
@@ -195,12 +190,7 @@ For an example that creates the transition library object, see <a href="https://
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-scheduletransition">IUIAnimationManager::ScheduleTransition</a>
 
@@ -231,7 +221,4 @@ For an example that creates the transition library object, see <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/storyboard-construction">Storyboard Overview</a>
- 
-
- 
 

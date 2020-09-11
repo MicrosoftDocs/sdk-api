@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: A5700ACD-3F4B-4AFF-8BA1-6AC59402E06C
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOCREATECOMPLETIONQUEUE
-f1_keywords:
-- mswsock/LPFN_RIOCREATECOMPLETIONQUEUE
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,27 +28,30 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIOCREATECOMPLETIONQUEUE
+ - mswsock/LPFN_RIOCREATECOMPLETIONQUEUE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIOCREATECOMPLETIONQUEUE
+ - LPFN_RIOCREATECOMPLETIONQUEUE
 ---
 
 ## -description
 
 The **RIOCreateCompletionQueue** function creates an I/O completion queue of a specific size for use with the Winsock registered I/O extensions.
 
-
 ## -parameters
 
 ### -param QueueSize
 
 The size, in number of entries, of the completion queue to create.
-
 
 ### -param NotificationCompletion
 
@@ -73,7 +72,6 @@ If no error occurs, the **RIOCreateCompletionQueue** function returns a descript
 | <dl> <dt>**[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**</dt> </dl>   | The system detected an invalid pointer address in attempting to use a pointer argument in a call.<br/>                                                                                                                 |
 | <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl>   | An invalid parameter was passed to the function. <br/> This error is returned if the *QueueSize* parameter is less than 1 or greater than **RIO\_MAX\_CQ\_SIZE** defined in the <i>Mswsockdef.h</i> header file.<br/> |
 | <dl> <dt>**[WSAENOBUFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**</dt> </dl> | Sufficient memory could not be allocated. This error is returned if there was insufficient memory to allocate the completion queue requested based on the *QueueSize* parameter. <br/>                                 |
-
 
 ## -remarks
 

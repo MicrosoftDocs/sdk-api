@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\iurlaccessor2.htm
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor2, IUrlAccessor2 interface [search], IUrlAccessor2 interface [search],described, _search_IUrlAccessor2, search._search_IUrlAccessor2, searchapi/IUrlAccessor2
-f1_keywords:
-- searchapi/IUrlAccessor2
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- IUrlAccessor2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IUrlAccessor2
+ - searchapi/IUrlAccessor2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - IUrlAccessor2
 ---
 
 # IUrlAccessor2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> interface.
-
 
 ## -inheritance
 
@@ -97,13 +96,9 @@ Ascertains whether an item URL is a document or directory.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -126,7 +121,4 @@ Ascertains whether an item URL is a document or directory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
- 
-
- 
 

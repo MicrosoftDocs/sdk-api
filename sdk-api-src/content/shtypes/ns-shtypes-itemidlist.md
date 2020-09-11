@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 60daf071-4e93-4e1c-bc38-894f706db04f
 ms.date: 12/05/2018
 ms.keywords: '*LPITEMIDLIST, *PIDLIST_ABSOLUTE, *PIDLIST_RELATIVE, *PITEMID_CHILD, *PUIDLIST_RELATIVE, *PUITEMID_CHILD, ITEMIDLIST, ITEMIDLIST structure [Windows Shell], ITEMIDLIST_ABSOLUTE, ITEMIDLIST_RELATIVE, ITEMID_CHILD, _win32_ITEMIDLIST, shell.ITEMIDLIST, shtypes/ITEMIDLIST'
-f1_keywords:
-- shtypes/ITEMIDLIST
-dev_langs:
-- c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shtypes.h
-api_name:
-- ITEMIDLIST
 targetos: Windows
 req.typenames: ITEMIDLIST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ITEMIDLIST
+ - shtypes/_ITEMIDLIST
+ - ITEMIDLIST
+ - shtypes/ITEMIDLIST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shtypes.h
+api_name:
+ - ITEMIDLIST
 ---
 
 # ITEMIDLIST structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains a list of item identifiers.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mkid
 
@@ -64,10 +62,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shty
 
 A list of item identifiers.
 
-
 ## -remarks
-
-
 
 A pointer to this structure, called a <i>PIDL</i>, is used to identify objects in the Shell namespace.  For more information about pointers to item identifier lists (PIDLs) and item identifiers, see <a href="https://docs.microsoft.com/windows/desktop/shell/namespace-intro">Introduction to the Shell Namespace</a>.
 
@@ -111,6 +106,4 @@ Some examples of these modified types are:
 <li>PUITEMID_CHILD: The child <b>ITEMIDLIST</b> is unaligned. This is rarely used because memory for this <b>ITEMIDLIST</b> is owned by the parent PIDL, which is absolute. This means that modifications can be made only to the parent PIDL, and so the child PIDL would need to be constant.</li>
 </ul>
 This list is not exhaustive. Other types can also exist.
-
-
 

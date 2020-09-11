@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: fd70bf7f-653c-47db-bf81-6a620f47e5bc
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineForward, TSPI_lineForward function [TAPI 2.2], _tspi_tspi_lineforward, tspi.tspi_lineforward, tspi/TSPI_lineForward
-f1_keywords:
-- tspi/TSPI_lineForward
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineForward
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineForward
+ - tspi/TSPI_lineForward
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineForward
 ---
 
 # TSPI_lineForward function
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineForward</b> function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions. When an originating address (<i>dwAddressID</i>) is forwarded, the specified incoming calls for that address are deflected to the other number by the switch. This function provides a combination of forward and do-not-disturb features. This function can also cancel specific forwarding currently in effect.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequestID
 
 The identifier of the asynchronous request.
 
-
 ### -param hdLine
 
 The service provider's handle to the line to be forwarded.
 
-
 ### -param bAllAddresses
 
 Specifies whether all originating addresses on the line or just the one specified is to be forwarded. If TRUE, all addresses on the line are forwarded and <i>dwAddressID</i> is ignored; if <b>FALSE</b>, only the address specified as <i>dwAddressID</i> is forwarded. This parameter is not validated by TAPI when this function is called.
-
 
 ### -param dwAddressID
 
@@ -83,29 +76,24 @@ The address on the specified line whose incoming calls are to be forwarded. This
 
 An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
 
-
 ### -param lpForwardList
 
 A pointer to a variably sized data structure of type 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a> that describes the specific forwarding instructions.
 
-
 ### -param dwNumRingsNoAnswer
 
 Specifies the number of rings before an incoming call is considered a "no answer." If <i>dwNumRingsNoAnswer</i> is out of range, the actual value is set to the nearest value in the allowable range. This parameter is not validated by TAPI when this function is called.
-
 
 ### -param htConsultCall
 
 The TAPI handle to a new call, if such a call must be created by the service provider. In some telephony environments, forwarding a call has the side effect of creating a consultation call used to consult the party that is being forwarded to. In such an environment, the service provider creates the new consultation call and must save this value and use it in all subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> procedure reporting events on the call. If no consultation call is created, this value can be ignored by the service provider.
 
-
 ### -param lphdConsultCall
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/hdrvline">HDRVCALL</a> representing the service provider's identifier for the call. In telephony environments where forwarding a call has the side effect of creating a consultation call used to consult the party that is being forwarded to, the service provider must fill this location with its handle for the call before this procedure returns. The service provider is permitted to do callbacks regarding the new call before it returns from this procedure. If no consultation call is created, the HDRVCALL must be left <b>NULL</b>.
-
 
 ### -param lpCallParams
 
@@ -113,22 +101,14 @@ A pointer to a structure of type
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>. This pointer is ignored by the service provider unless 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a> requires the establishment of a call to the forwarding destination (and <i>lphdConsultCall</i> is returned, in which case <i>lpCallParams</i> is optional). If <b>NULL</b>, default call parameters are used. Otherwise, the specified call parameters are used for establishing <i>htConsultCall</i>.
 
-
 ## -returns
-
-
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALLINEHANDLE, LINEERR_NOMEM, LINEERR_INVALADDRESS, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESSID, LINEERR_OPERATIONFAILED, LINEERR_INVALCOUNTRYCODE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPARAM, LINEERR_STRUCTURETOOSMALL.
 
-
-
-
 ## -remarks
-
-
 
 The service provider returns LINEERR_INVALPARAM if the specified forward list parameter contains invalid information.
 
@@ -155,13 +135,7 @@ Because the <b>NULL</b> value returned into <i>lphdConsultCall</i> is the only w
 This function differs from the corresponding TAPI function in that it follows the TSPI model for beginning the lifetime of a call. TAPI and the service provider exchange opaque handles representing the call with one another. In addition, the service provider is permitted to do callbacks for the new call before it returns from this procedure. In any case, the service provider must also treat the handle it returned as "not yet valid" until after the matching 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> reports success. In other words, it must not issue any messages for the new call or include it in call counts in messages or status data structures for the line.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
@@ -180,7 +154,4 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725215(v=vs.85)">LINE_ADDRESSSTATE</a>
- 
-
- 
 

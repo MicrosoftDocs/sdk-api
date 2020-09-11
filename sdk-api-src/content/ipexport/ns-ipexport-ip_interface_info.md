@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 287a4574-0a0f-4f20-932b-22bb6f40401d
 ms.date: 12/05/2018
 ms.keywords: '*PIP_INTERFACE_INFO, IP_INTERFACE_INFO, IP_INTERFACE_INFO structure [IP Helper], PIP_INTERFACE_INFO, PIP_INTERFACE_INFO structure pointer [IP Helper], _iphlp_ip_interface_info, ipexport/IP_INTERFACE_INFO, ipexport/PIP_INTERFACE_INFO, iphlp.ip_interface_info'
-f1_keywords:
-- ipexport/IP_INTERFACE_INFO
-dev_langs:
-- c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipexport.h
-api_name:
-- IP_INTERFACE_INFO
 targetos: Windows
 req.typenames: IP_INTERFACE_INFO, *PIP_INTERFACE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IP_INTERFACE_INFO
+ - ipexport/_IP_INTERFACE_INFO
+ - PIP_INTERFACE_INFO
+ - ipexport/PIP_INTERFACE_INFO
+ - IP_INTERFACE_INFO
+ - ipexport/IP_INTERFACE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipexport.h
+api_name:
+ - IP_INTERFACE_INFO
 ---
 
 # IP_INTERFACE_INFO structure
@@ -49,30 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IP_INTERFACE_INFO</b> structure contains a list of the network interface adapters with IPv4 enabled on the local system.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumAdapters
 
 The number of adapters listed in the array pointed to by the <b>Adapter</b> member.
-
 
 ### -field Adapter
 
 An array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structures. Each structure maps an adapter index to that adapter's name.  The adapter index  may change when an adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent.
 
-
 ## -remarks
-
-
 
 The 
 <b>IP_INTERFACE_INFO</b> structure is specific to network adapters with IPv4 enabled. The <b>IP_INTERFACE_INFO</b> structure contains the number of network adapters with IPv4 enabled on the local system and an array of <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structures with information on each network adapter with IPv4 enabled. The <b>IP_INTERFACE_INFO</b> structure contains at least one <b>IP_ADAPTER_INDEX_MAP</b> structure even if the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure indicates that no network adapters with IPv4 are enabled. When the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure is zero, the value of the members of the single  <b>IP_ADAPTER_INDEX_MAP</b> structure returned in the <b>IP_INTERFACE_INFO</b> structure is undefined. 
@@ -143,14 +139,7 @@ else {
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a>
 
@@ -165,7 +154,4 @@ else {
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a>
- 
-
- 
 

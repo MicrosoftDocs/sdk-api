@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: a0a8461c-8919-4620-83a2-bb8e5d03b0c4
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterGroup, DeleteClusterGroup function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_GROUP, PCLUSAPI_DELETE_CLUSTER_GROUP function [Failover Cluster], _wolf_deleteclustergroup, clusapi/DeleteClusterGroup, clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP, mscs.deleteclustergroup
-f1_keywords:
-- clusapi/DeleteClusterGroup
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- DeleteClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteClusterGroup
+ - clusapi/DeleteClusterGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - DeleteClusterGroup
 ---
 
 # DeleteClusterGroup function
@@ -49,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes an offline and empty 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> from a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 Handle to the group to be removed. You must close this handle separately.
 
-
 ## -returns
-
-
 
 This function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If the 
        operation completes successfully the function returns <b>ERROR_SUCCESS</b> (0). Any other 
        returned system error code would indicate that the 
        operation failed.
 
-
-
-
 ## -remarks
-
-
 
 The <b>PCLUSAPI_DELETE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
@@ -97,13 +85,7 @@ Do not call <b>DeleteClusterGroup</b> from a resource
      DLL. For more information, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a>
 
@@ -122,7 +104,4 @@ Do not call <b>DeleteClusterGroup</b> from a resource
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\callbackfunctions\lvgroupcompare.htm
 ms.date: 12/05/2018
 ms.keywords: LVGroupCompare, PFNLVGROUPCOMPARE, PFNLVGROUPCOMPARE callback, PFNLVGROUPCOMPARE callback function [Windows Controls], _win32_LVGroupCompare, _win32_LVGroupCompare_cpp, commctrl/PFNLVGROUPCOMPARE, controls.LVGroupCompare, controls._win32_LVGroupCompare
-f1_keywords:
-- commctrl/PFNLVGROUPCOMPARE
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Commctrl.h
-api_name:
-- PFNLVGROUPCOMPARE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNLVGROUPCOMPARE
+ - commctrl/PFNLVGROUPCOMPARE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Commctrl.h
+api_name:
+ - PFNLVGROUPCOMPARE
 ---
 
 ## -description
 
 The <b>LVGroupCompare</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a> messages. It defines the ordering of the groups, based on the ID. The 
-			<b>LVGROUPCOMPARE</b> type defines a pointer to this callback function. <b>LVGroupCompare</b> is a placeholder for the application-defined function name. 
+			<b>LVGROUPCOMPARE</b> type defines a pointer to this callback function. <b>LVGroupCompare</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -82,3 +83,4 @@ Returns a negative value if the data for <i>Group1_ID</i> is less than the data 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a>
+

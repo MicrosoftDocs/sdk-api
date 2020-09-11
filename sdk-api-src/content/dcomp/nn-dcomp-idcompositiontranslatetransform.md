@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 2215721e-a10d-4c9e-b5b7-1698afa547d8
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform, IDCompositionTranslateTransform interface [DirectComposition], IDCompositionTranslateTransform interface [DirectComposition],described, dcomp/IDCompositionTranslateTransform, directcomp.idcompositiontranslatetransform
-f1_keywords:
-- dcomp/IDCompositionTranslateTransform
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionTranslateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionTranslateTransform
+ - dcomp/IDCompositionTranslateTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionTranslateTransform
 ---
 
 # IDCompositionTranslateTransform interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a 2D transformation that affects only the offset of a visual along the x-axis and y-axis.
-
 
 ## -inheritance
 
@@ -84,12 +83,9 @@ The <b>IDCompositionTranslateTransform</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A translation transform represents the following 3-by-2 matrix:
 
@@ -97,20 +93,11 @@ A translation transform represents the following 3-by-2 matrix:
 
 The effect is simply to offset the coordinate system by <i>x</i> and <i>y</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
- 
-
- 
 

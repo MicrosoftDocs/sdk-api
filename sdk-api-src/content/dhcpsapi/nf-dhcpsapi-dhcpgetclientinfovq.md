@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: e8ed729b-12c2-4179-b7ef-6c71acf2672e
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClientInfoVQ, DhcpGetClientInfoVQ function [DHCP], dhcp.dhcpgetclientinfovq, dhcpsapi/DhcpGetClientInfoVQ
-f1_keywords:
-- dhcpsapi/DhcpGetClientInfoVQ
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetClientInfoVQ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetClientInfoVQ
+ - dhcpsapi/DhcpGetClientInfoVQ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetClientInfoVQ
 ---
 
 # DhcpGetClientInfoVQ function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpGetClientInfoVQ</b> function retrieves DHCP client lease record information from the DHCP server database.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param SearchInfo [in]
 
 Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search the client lease record database on the DHCP server for a particular client record.
-
 
 ### -param ClientInfo [out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structure returned by a successful search operation.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -107,31 +98,16 @@ An error occurred while accessing the DHCP server's database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller of this function must release the memory used by the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structure returned in <i>ClientInfo</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>
 
 
 
 <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f2948a6d-84a5-456b-b328-ba76dba46e9d
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellFolderView, SHCreateShellFolderView function [Windows Shell], _win32_SHCreateShellFolderView, shell.SHCreateShellFolderView, shlobj_core/SHCreateShellFolderView
-f1_keywords:
-- shlobj_core/SHCreateShellFolderView
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHCreateShellFolderView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHCreateShellFolderView
+ - shlobj_core/SHCreateShellFolderView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHCreateShellFolderView
 ---
 
 # SHCreateShellFolderView function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new instance of the default Shell folder view object (DefView).
 
-
 ## -parameters
-
-
-
 
 ### -param pcsfv [in]
 
@@ -64,28 +60,19 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_co
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a> structure that describes the particulars used in creating this instance of the Shell folder view object.
 
-
 ### -param ppsv [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>**</b>
 
 When this function returns successfully, contains an interface pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> object. On failure, this value is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>SHCreateShellFolderView</b> is recommended over <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a> because of the greater flexibility of its elements to participate in various scenarios, provide new functionality to the view, and interact with other objects.
 
@@ -111,20 +98,11 @@ Data sources that use the default Shell folder view object must implement these 
 </ul>
 Optionally, they can also implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3">IPersistFolder3</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a>
- 
-
- 
 

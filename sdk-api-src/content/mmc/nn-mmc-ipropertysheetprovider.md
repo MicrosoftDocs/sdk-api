@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: c63d5d5f-a334-4367-8a1e-252b4eb5b50d
 ms.date: 12/05/2018
 ms.keywords: IPropertySheetProvider, IPropertySheetProvider interface [MMC], IPropertySheetProvider interface [MMC],described, _slate_ipropertysheetprovider, mmc.ipropertysheetprovider, mmc/IPropertySheetProvider
-f1_keywords:
-- mmc/IPropertySheetProvider
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IPropertySheetProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySheetProvider
+ - mmc/IPropertySheetProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IPropertySheetProvider
 ---
 
 # IPropertySheetProvider interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IPropertySheetProvider</b> interface implements Windows property sheets as COM objects. A property sheet object contains the code required to handle modeless operation and determining which other snap-ins are extending the node type. The size of the property sheet is set by the primary snap-in and extensions are forced to accept that size.
-
 
 ## -inheritance
 
@@ -114,5 +113,5 @@ Displays a specific property sheet frame.
 
 </td>
 </tr>
-</table> 
+</table>
 

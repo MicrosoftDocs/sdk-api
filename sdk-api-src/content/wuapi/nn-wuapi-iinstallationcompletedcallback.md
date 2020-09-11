@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 930d33e1-e407-4306-acc6-1d64c385a41d
 ms.date: 12/05/2018
 ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], IInstallationCompletedCallback interface [Windows Update Agent],described, wua.iinstallationcompletedcallback, wuapi/IInstallationCompletedCallback
-f1_keywords:
-- wuapi/IInstallationCompletedCallback
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationCompletedCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationCompletedCallback
+ - wuapi/IInstallationCompletedCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationCompletedCallback
 ---
 
 # IInstallationCompletedCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles the notification that indicates that an asynchronous installation or uninstallation is complete.   This interface is implemented by programmers who call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> methods.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Handles the notification of the completion of an asynchronous installation or un
 
 </td>
 </tr>
-</table> 
+</table>
 

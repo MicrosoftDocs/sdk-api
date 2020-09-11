@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: fd19c3ce-ef84-4f15-9032-679115b8b21f
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ISO9660InterchangeLevelsSupported method, IFileSystemImage.get_ISO9660InterchangeLevelsSupported, IFileSystemImage::get_ISO9660InterchangeLevelsSupported, get_ISO9660InterchangeLevelsSupported, get_ISO9660InterchangeLevelsSupported method [IMAPI], get_ISO9660InterchangeLevelsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_iso9660interchangelevelssupported, imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevelsSupported
-f1_keywords:
-- imapi2fs/IFileSystemImage.get_ISO9660InterchangeLevelsSupported
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.get_ISO9660InterchangeLevelsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::get_ISO9660InterchangeLevelsSupported
+ - imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevelsSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.get_ISO9660InterchangeLevelsSupported
 ---
 
 # IFileSystemImage::get_ISO9660InterchangeLevelsSupported
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the supported ISO9660 compatibility levels.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 List of supported ISO9660 compatibility levels. Each item in the list is a VARIANT that identifies one supported interchange level. The variant type is <b>VT_UI4</b>. The <b>ulVal</b> member of the variant contains the compatibility level.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -88,15 +81,8 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
@@ -107,7 +93,4 @@ Value: 0x80004003
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_iso9660interchangelevel">IFileSystemImage::put_ISO9660InterchangeLevel</a>
- 
-
- 
 

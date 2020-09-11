@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: f7733b9d-ae32-44ff-b1ca-dd0292dd0ff6
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_SECURITY_QOS, PRPC_SECURITY_QOS, PRPC_SECURITY_QOS structure pointer [RPC], RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_CAPABILITIES_SCHANNEL_FULL_AUTH_IDENTITY, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS, RPC_SECURITY_QOS structure [RPC], _rpc_rpc_security_qos, rpc.rpc_security_qos, rpcdce/PRPC_SECURITY_QOS, rpcdce/RPC_SECURITY_QOS'
-f1_keywords:
-- rpcdce/RPC_SECURITY_QOS
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_SECURITY_QOS
 targetos: Windows
 req.typenames: RPC_SECURITY_QOS, *PRPC_SECURITY_QOS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RPC_SECURITY_QOS
+ - rpcdce/_RPC_SECURITY_QOS
+ - PRPC_SECURITY_QOS
+ - rpcdce/PRPC_SECURITY_QOS
+ - RPC_SECURITY_QOS
+ - rpcdce/RPC_SECURITY_QOS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_SECURITY_QOS
 ---
 
 # RPC_SECURITY_QOS structure
@@ -49,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RPC_SECURITY_QOS</b> structure defines security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Version of the <b>RPC_SECURITY_QOS</b> structure being used. This topic documents version 1 of the <b>RPC_SECURITY_QOS</b> structure. See <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v4_a">RPC_SECURITY_QOS_V4</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v5_a">RPC_SECURITY_QOS_V5</a> for other versions.
-
 
 ### -field Capabilities
 
@@ -161,8 +160,6 @@ If the <b>RPC_C_QOS_CAPABILITIES_SCHANNEL_FULL_AUTH_IDENTITY</b> flag is used fo
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IdentityTracking
 
@@ -198,8 +195,6 @@ Context is revised whenever the ModifiedId in the client's token is changed. All
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ImpersonationType
 
@@ -265,12 +260,8 @@ The server can impersonate the client's security context while acting on behalf 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following listing defines the availability of QOS versions on various Windows operating systems:
 
@@ -294,12 +285,7 @@ This flag is designed to prevent a Denial of Service Attack. Using this flag for
 <div class="alert"><b>Note</b>  Some security providers, such as Kerberos, support delegation-impersonation type. On Windows editions that support delegation-impersonation type, if the client has asked for delegation but the security provider is unable to provide it, the call fails with PRC_S_SEC_PKG_ERROR unless the RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE flag is specified.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
 
@@ -322,7 +308,4 @@ This flag is designed to prevent a Denial of Service Attack. Using this flag for
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
- 
-
- 
 

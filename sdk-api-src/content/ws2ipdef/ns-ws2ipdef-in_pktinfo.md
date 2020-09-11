@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: a20cb3ff-38fb-471d-b940-7265c114e209
 ms.date: 12/05/2018
 ms.keywords: '*PIN_PKTINFO, IN_PKTINFO, IN_PKTINFO structure [Winsock], PIN_PKTINFO, PIN_PKTINFO structure pointer [Winsock], _win32_in_pktinfo_2, in_pktinfo, in_pktinfo structure [Winsock], winsock.in_pktinfo_2, ws2ipdef/PIN_PKTINFO, ws2ipdef/in_pktinfo, ws2tcpip/PIN_PKTINFO, ws2tcpip/in_pktinfo'
-f1_keywords:
-- ws2ipdef/IN_PKTINFO
-dev_langs:
-- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2ipdef.h
-- Ws2tcpip.h
-api_name:
-- IN_PKTINFO
 targetos: Windows
 req.typenames: IN_PKTINFO, *PIN_PKTINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - in_pktinfo
+ - ws2ipdef/in_pktinfo
+ - PIN_PKTINFO
+ - ws2ipdef/PIN_PKTINFO
+ - IN_PKTINFO
+ - ws2ipdef/IN_PKTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2ipdef.h
+ - Ws2tcpip.h
+api_name:
+ - IN_PKTINFO
 ---
 
 # IN_PKTINFO structure
@@ -50,29 +55,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>in_pktinfo</b> structure is used to store received packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv4 address to use for sending packets.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ipi_addr
 
 The destination IPv4 address from the IP header of the received packet when used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>function. The local source IPv4 address to set in the IP header when used with the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function.
 
-
 ### -field ipi_ifindex
 
 The interface on which the packet was received when used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>function. The interface on which the packet should be sent  when used with the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function.
 
-
 ## -remarks
-
-
 
 If the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ip-pktinfo">IP_PKTINFO</a> socket option is set on a socket of type <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>, one of the control data objects returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>function will contain an 
 <b>in_pktinfo</b> structure used to store received packet address information.
@@ -82,13 +78,7 @@ On an IPv4  socket of type  <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>, an application
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>in_pktinfo</b> structure is defined in the <i>Ws2ipdef.h</i> header file which is automatically included in the <i>Ws2tcpip.h</i> header file. The  <i>Ws2ipdef.h</i>  header files should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets for IPv6 Winsock Applications</a>
 
@@ -119,7 +109,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-in6_pktinfo">in6_pktinfo</a>
- 
-
- 
 

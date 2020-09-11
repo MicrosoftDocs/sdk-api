@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 8860cee2-7e53-4a07-a379-fd00f3d01def
 ms.date: 12/05/2018
 ms.keywords: RpcRevertToSelfEx, RpcRevertToSelfEx function [RPC], _rpc_rpcreverttoselfex, rpc.rpcreverttoselfex, rpcdce/RpcRevertToSelfEx
-f1_keywords:
-- rpcdce/RpcRevertToSelfEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcRevertToSelfEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcRevertToSelfEx
+ - rpcdce/RpcRevertToSelfEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcRevertToSelfEx
 ---
 
 # RpcRevertToSelfEx function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcRevertToSelfEx</b> function allows a server to impersonate a client and then revert in a multithreaded operation where the call to impersonate a client can come from a thread other than the thread originally dispatched from the RPC.
 
-
 ## -parameters
-
-
-
 
 ### -param BindingHandle
 
@@ -65,10 +61,7 @@ Binding handle on the server that represents a binding to the client that the se
 <b>RpcRevertToSelfEx</b> is identical to that of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a> function.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -137,11 +130,7 @@ The call is not supported for this operating system, this transport, or this sec
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 After calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> and completing any tasks that require client impersonation, the server calls 
@@ -149,13 +138,7 @@ After calling
 <b>RpcImpersonateClient</b>(THREAD1_CALL_HANDLE), performs the required task, calls 
 <b>RpcRevertToSelfEx</b>(THREAD1_CALL_HANDLE) to end the impersonation, and then wakes up thread1.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/client-impersonation">Client
 		  Impersonation</a>
@@ -167,7 +150,4 @@ After calling
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a>
- 
-
- 
 

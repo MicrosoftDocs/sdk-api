@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17
 ms.date: 12/05/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
-f1_keywords:
-- winsock2/WSAConnectByList
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAConnectByList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAConnectByList
+ - winsock2/WSAConnectByList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAConnectByList
 ---
 
 # WSAConnectByList function
 
 
 ## -description
-
 
 The <b>WSAConnectByList</b> function 
    establishes a connection to one out of a collection of possible endpoints represented by a set of 
@@ -59,11 +59,7 @@ The <b>WSAConnectByList</b> function
 
 This function supports both IPv4 and IPv6 addresses.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
@@ -71,7 +67,6 @@ A descriptor that identifies an unbound and unconnected socket. Note that unlike
       establish a connection (for example, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>), 
       the <b>WSAConnectByList</b> function requires an 
       unbound socket.
-
 
 ### -param SocketAddress [in]
 
@@ -81,14 +76,12 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
       <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure in the 
       <b>SOCKET_ADDRESS_LIST</b>.
 
-
 ### -param LocalAddressLength [in, out]
 
 On input, a pointer to the size, in bytes, of the <i>LocalAddress</i> buffer provided by 
       the caller. On output, a pointer to the size, in bytes, of the <b>SOCKADDR</b> for the 
       local address stored in the <i>LocalAddress</i> buffer filled in by the system upon 
       successful completion of the call.
-
 
 ### -param LocalAddress [out]
 
@@ -99,7 +92,6 @@ A pointer to the <b>SOCKADDR</b> structure that receives the local address of th
       <b>NULL</b>, in which case, the <i>LocalAddressLength</i> parameter is 
       ignored.
 
-
 ### -param RemoteAddressLength [in, out]
 
 On input, a pointer to the size, in bytes, of the <i>RemoteAddress</i> buffer provided 
@@ -107,14 +99,12 @@ On input, a pointer to the size, in bytes, of the <i>RemoteAddress</i> buffer pr
       remote address stored in <i>RemoteAddress</i> buffer filled-in by the system upon successful 
       completion of the call.
 
-
 ### -param RemoteAddress [out]
 
 A pointer to the <b>SOCKADDR</b> structure that receives the remote address of the 
       connection. This is the same information that would be returned by the 
       <b>getpeername</b> function. This parameter can be <b>NULL</b>, in 
       which case, the <i>RemoteAddressLength</i> is ignored.
-
 
 ### -param timeout [in]
 
@@ -124,15 +114,11 @@ The time, in milliseconds, to wait for a response from the remote application be
       connection is successfully established or after a connection was attempted and failed on all possible 
       local-remote address pairs.
 
-
 ### -param Reserved [in]
 
 Reserved for future implementation. This parameter must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If a connection is established, 
        <b>WSAConnectByList</b> returns <b>TRUE</b> and 
@@ -207,14 +193,8 @@ A response from the  remote application was not received before the <i>timeout</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>WSAConnectByList</b> is similar to the 
      <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a> function.  Instead of taking a 
@@ -384,14 +364,7 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
 
@@ -434,7 +407,4 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
- 
-
- 
 

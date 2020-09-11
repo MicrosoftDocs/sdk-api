@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: fea7cd85-22ab-4f3b-8a0a-301496f0c788
 ms.date: 12/05/2018
 ms.keywords: IWMClientConnections, IWMClientConnections interface [windows Media Format], IWMClientConnections interface [windows Media Format],described, IWMClientConnectionsInterface, wmformat.iwmclientconnections, wmsdkidl/IWMClientConnections
-f1_keywords:
-- wmsdkidl/IWMClientConnections
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMClientConnections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMClientConnections
+ - wmsdkidl/IWMClientConnections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMClientConnections
 ---
 
 # IWMClientConnections interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMClientConnections</b> interface manages the collecting of information about clients connected to a writer network sink object.
 
 The writer network sink object exposes this interface. You can retrieve a pointer to this interface by calling the <b>QueryInterface</b> method of any other interface on a writer network sink object.
-
-
-
 
 ## -inheritance
 
@@ -124,15 +120,8 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <td>IID_IWMWriterSink</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2 Interface</a>
 
@@ -143,7 +132,4 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>
- 
-
- 
 

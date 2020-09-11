@@ -27,16 +27,20 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPASYNCSELECT
+ - LPWSPASYNCSELECT
+f1_keywords:
+ - LPWSPASYNCSELECT
+ - ws2spi/LPWSPASYNCSELECT
 ---
 
 ## -description
+
 The **LPWSPAsyncSelect** function requests Windows message-based event notification of network events for a socket.
 
 ## -parameters
@@ -623,3 +627,4 @@ Reserved for future use with socket groups:
 ## -see-also
 
 [LPWSPAsyncSelect callback function](/windows/win32/api/ws2spi/nc-ws2spi-lpwspselect)
+

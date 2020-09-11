@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 4f62bcc4-8c58-4663-9b1f-a5ed7d000a79
 ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],IsViewable method, IMSVidInputDevice.IsViewable, IMSVidInputDevice::IsViewable, IMSVidInputDeviceIsViewable, IsViewable, IsViewable method [Microsoft TV Technologies], IsViewable method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_isviewable, segment/IMSVidInputDevice::IsViewable
-f1_keywords:
-- segment/IMSVidInputDevice.IsViewable
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidInputDevice.IsViewable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidInputDevice::IsViewable
+ - segment/IMSVidInputDevice::IsViewable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidInputDevice.IsViewable
 ---
 
 # IMSVidInputDevice::IsViewable
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsViewable</b> method determines whether this device can view the specified tune request.
 
 Currently this method is not implemented by any of the supported input devices.
 
-
 ## -parameters
-
-
-
 
 ### -param v [in]
 
 Specifies the tune request as a <b>VARIANT</b> type.
-
 
 ### -param pfViewable [out]
 
@@ -85,12 +80,8 @@ Pointer to variable that receives one of the following values.
 <td>The device cannot view this tune request.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -133,18 +124,8 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice Interface</a>
- 
-
- 
 

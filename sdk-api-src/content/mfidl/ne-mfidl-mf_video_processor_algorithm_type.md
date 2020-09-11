@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3BB0836E-39E6-40FA-9BA0-C986EB587CF1
 ms.date: 12/05/2018
 ms.keywords: MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444, MF_VIDEO_PROCESSOR_ALGORITHM_TYPE, MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration [Media Foundation], mf.mf_video_processor_algorithm_type, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
-f1_keywords:
-- mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 targetos: Windows
 req.typenames: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
+ - mfidl/_MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
+ - MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
+ - mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 ---
 
 # MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration
@@ -49,32 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines algorithms for the video processor which is use by <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-video-processor-algorithm">MF_VIDEO_PROCESSOR_ALGORITHM</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT
 
 default mode favors a balance of quality and speed
 
-
 ### -field MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444
 
 The video processor will always internally process in AYUV and use high quality filters.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
 

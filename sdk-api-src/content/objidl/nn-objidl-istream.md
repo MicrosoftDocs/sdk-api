@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: c6f60e37-eadc-46a1-94f6-cacc23613531
 ms.date: 12/05/2018
 ms.keywords: IStream, IStream interface [Structured Storage], IStream interface [Structured Storage],described, _stg_istream, objidl/IStream, stg.istream
-f1_keywords:
-- objidl/IStream
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStream
+ - objidl/IStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IStream
 ---
 
 # IStream interface
 
 
 ## -description
-
 
 The 
 <b>IStream</b> interface lets you read and write data to stream objects. Stream objects contain the data in a structured storage object, where storages provide the structure. Simple data can be written directly to a stream but, most frequently, streams are elements nested within a storage object. They are similar to standard files.
@@ -98,7 +98,6 @@ For general information on this topic, see
 <a href="https://docs.microsoft.com/windows/desktop/com/asynchronous-monikers">Asynchronous Monikers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/com/data-pull-model-vs.-data-push-model">Data-Pull-Model versus Data Push-Model</a> for more specific information. Also, see 
 <a href="https://docs.microsoft.com/windows/desktop/com/managing-memory-allocation">Managing Memory Allocation</a> for details on COM's rules for managing memory.
-
 
 ## -inheritance
 
@@ -213,20 +212,13 @@ Removes the access restriction on a range of bytes previously restricted with
 <td align="left" width="63%">
 Writes a specified number of bytes into the stream object starting at the current seek pointer.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
- 
-
- 
 

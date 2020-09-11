@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 6e0d5363-f2c2-4334-86ca-71fac61073d3
 ms.date: 12/05/2018
 ms.keywords: 6e0d5363-f2c2-4334-86ca-71fac61073d3, IMFByteStream interface [Media Foundation],Read method, IMFByteStream.Read, IMFByteStream::Read, Read, Read method [Media Foundation], Read method [Media Foundation],IMFByteStream interface, mf.imfbytestream_read, mfobjects/IMFByteStream::Read
-f1_keywords:
-- mfobjects/IMFByteStream.Read
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFByteStream.Read
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStream::Read
+ - mfobjects/IMFByteStream::Read
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFByteStream.Read
 ---
 
 # IMFByteStream::Read
@@ -50,46 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads data from the stream.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pb [in]
 
 Pointer to a buffer that receives the data. The caller must allocate the buffer.
-          
-
 
 ### -param cb [in]
 
 Size of the buffer in bytes.
-          
-
 
 ### -param pcbRead [out]
 
 Receives the number of bytes that are copied into the buffer. This parameter cannot be <b>NULL</b>.
-          
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method reads at most <i>cb</i> bytes from the current position in the stream and copies them into the buffer provided by the caller. The number of bytes that were read is returned in the <i>pcbRead</i> parameter. The method does not return an error code on reaching the end of the file, so the application should check the value in <i>pcbRead</i> after the method returns.
       
@@ -227,17 +209,7 @@ HRESULT AllocReadFromByteStream(
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
- 
-
- 
 

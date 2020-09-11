@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: c2a0d46b-e8d4-4c51-9810-5580504c9731
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],IAudioRenderClient interface, IAudioRenderClient interface [Core Audio],GetBuffer method, IAudioRenderClient.GetBuffer, IAudioRenderClient::GetBuffer, IAudioRenderClientGetBuffer, audioclient/IAudioRenderClient::GetBuffer, coreaudio.iaudiorenderclient_getbuffer
-f1_keywords:
-- audioclient/IAudioRenderClient.GetBuffer
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioRenderClient.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioRenderClient::GetBuffer
+ - audioclient/IAudioRenderClient::GetBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioRenderClient.GetBuffer
 ---
 
 # IAudioRenderClient::GetBuffer
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to the next available space in the rendering endpoint buffer into which the caller can write a data packet.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param NumFramesRequested [in]
 
 The number of audio frames in the data packet that the caller plans to write to the requested space in the buffer. If the call succeeds, the size of the buffer area pointed to by <i>*ppData</i> matches the size specified in <i>NumFramesRequested</i>.
 
-
 ### -param ppData [out]
 
 Pointer to a pointer variable into which the method writes the starting address of the buffer area into which the caller will write the data packet.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -170,14 +161,8 @@ Parameter <i>ppData</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller can request a packet size that is less than or equal to the amount of available space in the buffer (except in the case of an exclusive-mode stream that uses event-driven buffering; for more information, see <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>). The available space is simply the buffer size minus the amount of data in the buffer that is already queued up to be played. If the caller specifies a <i>NumFramesRequested</i> value that exceeds the available space in the buffer, the call fails and returns error code AUDCLNT_E_BUFFER_TOO_LARGE.
 
@@ -216,12 +201,7 @@ For code examples that call the <b>GetBuffer</b> method, see the following topic
 </ul>
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">IAudioClient::GetBufferSize</a>
 
@@ -240,4 +220,4 @@ For code examples that call the <b>GetBuffer</b> method, see the following topic
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>
- 
+

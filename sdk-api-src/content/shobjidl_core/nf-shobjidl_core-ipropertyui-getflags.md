@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 8ADF50C1-CD6C-489c-9599-2AEB5C5FF00C
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Properties], GetFlags method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetFlags method, IPropertyUI.GetFlags, IPropertyUI::GetFlags, _shell_IPropertyUI_GetFlags, properties.IPropertyUI_GetFlags, shell.IPropertyUI_GetFlags, shobjidl_core/IPropertyUI::GetFlags
-f1_keywords:
-- shobjidl_core/IPropertyUI.GetFlags
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IPropertyUI.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyUI::GetFlags
+ - shobjidl_core/IPropertyUI::GetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IPropertyUI.GetFlags
 ---
 
 # IPropertyUI::GetFlags
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Developers should use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
 
-
 ## -parameters
-
-
-
 
 ### -param fmtid [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFFMTID</b>
 
 The FMTID of the property.
 
-
 ### -param pid [in]
 
 Type: <b>PROPID</b>
 
 The PROPID of the property.
-
 
 ### -param pflags [out]
 
@@ -78,14 +72,9 @@ Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_propertyui_
 
 The <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags">PROPERTYUI_FLAGS</a> for the property.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

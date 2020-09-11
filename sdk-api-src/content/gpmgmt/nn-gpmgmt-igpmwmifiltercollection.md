@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 8f65e6f6-fca3-46b7-aa0d-804470feb5bb
 ms.date: 12/05/2018
 ms.keywords: GPMWMIFilterCollection, IGPMWMIFilterCollection, IGPMWMIFilterCollection interface [GPMC], IGPMWMIFilterCollection interface [GPMC],described, _win32_igpmwmifiltercollection, gpmc.igpmwmifiltercollection, gpmgmt/IGPMWMIFilterCollection
-f1_keywords:
-- gpmgmt/IGPMWMIFilterCollection
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMWMIFilterCollection
-- IGPMWMIFilterCollection.Count
-- IGPMWMIFilterCollection.get_Count
-- IGPMWMIFilterCollection.Item
-- IGPMWMIFilterCollection.get_Item
-- GPMWMIFilterCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMWMIFilterCollection
+ - gpmgmt/IGPMWMIFilterCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMWMIFilterCollection
+ - IGPMWMIFilterCollection.Count
+ - IGPMWMIFilterCollection.get_Count
+ - IGPMWMIFilterCollection.Item
+ - IGPMWMIFilterCollection.get_Item
+ - GPMWMIFilterCollection
 ---
 
 # IGPMWMIFilterCollection interface
@@ -54,10 +55,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMWMIFilterCollection</b>  interface contains methods that enable applications to access a collection of WMI filters when using the Group Policy Management Console (GPMC) interfaces.
-
 
 ## -inheritance
 
@@ -111,13 +110,9 @@ A specific WMI filter from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -128,7 +123,4 @@ A specific WMI filter from the collection.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
- 
-
- 
 

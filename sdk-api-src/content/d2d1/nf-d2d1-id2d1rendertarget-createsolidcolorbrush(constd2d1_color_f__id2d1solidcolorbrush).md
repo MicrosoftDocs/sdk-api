@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 67974629-5c34-4c94-acad-586849cdb880
 ms.date: 12/05/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [Direct2D], CreateSolidColorBrush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateSolidColorBrush method, ID2D1RenderTarget.CreateSolidColorBrush, ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), ID2D1RenderTarget::CreateSolidColorBrush, ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush), d2d1/ID2D1RenderTarget::CreateSolidColorBrush, direct2d.ID2D1RenderTarget_CreateSolidColorBrush_ref_COLOR_F_ptr_ptr_ID2D1SolidColorBrush
-f1_keywords:
-- d2d1/ID2D1RenderTarget.CreateSolidColorBrush
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.CreateSolidColorBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::CreateSolidColorBrush
+ - d2d1/ID2D1RenderTarget::CreateSolidColorBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.CreateSolidColorBrush
 ---
 
 ## -description
 
-Creates a new <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that has the specified color and a base opacity of 1.0f. 
+Creates a new <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that has the specified color and a base opacity of 1.0f.
 
 ## -parameters
 
@@ -75,3 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <a href="/windows/win32/Direct2D/getting-started-with-direct2d">Direct2D QuickStart</a>
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+

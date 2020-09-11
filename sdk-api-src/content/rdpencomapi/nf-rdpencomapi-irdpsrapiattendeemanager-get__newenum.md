@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: f79bfd9c-b9f9-4da4-977c-cae8f11ba239
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],_NewEnum property, IRDPSRAPIAttendeeManager._NewEnum, IRDPSRAPIAttendeeManager.get__NewEnum, IRDPSRAPIAttendeeManager::_NewEnum, IRDPSRAPIAttendeeManager::get__NewEnum, RDPSRAPIAttendeeManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIAttendeeManager interface, _NewEnum property [RDP],RDPSRAPIAttendeeManager object, get__NewEnum, rdp.irdpsrapiattendeemanager__newenum, rdpencomapi/IRDPSRAPIAttendeeManager::_NewEnum, rdpencomapi/IRDPSRAPIAttendeeManager::get__NewEnum
-f1_keywords:
-- rdpencomapi/IRDPSRAPIAttendeeManager._NewEnum
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIAttendeeManager._NewEnum
-- IRDPSRAPIAttendeeManager.get__NewEnum
-- RDPSRAPIAttendeeManager._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIAttendeeManager::get__NewEnum
+ - rdpencomapi/IRDPSRAPIAttendeeManager::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIAttendeeManager._NewEnum
+ - IRDPSRAPIAttendeeManager.get__NewEnum
+ - RDPSRAPIAttendeeManager._NewEnum
 ---
 
 # IRDPSRAPIAttendeeManager::get__NewEnum
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 An enumerator interface for the attendee collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a>
- 
-
- 
 

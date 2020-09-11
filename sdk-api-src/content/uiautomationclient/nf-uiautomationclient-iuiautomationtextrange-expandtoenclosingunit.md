@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 09ec62c1-f738-43af-bd6c-b45fdfb32236
 ms.date: 01/30/2020
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],ExpandToEnclosingUnit method, IUIAutomationTextRange.ExpandToEnclosingUnit, IUIAutomationTextRange::ExpandToEnclosingUnit, uiauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiautomationclient/IUIAutomationTextRange::ExpandToEnclosingUnit, winauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit
-f1_keywords:
-- uiautomationclient/IUIAutomationTextRange.ExpandToEnclosingUnit
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,32 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationTextRange.ExpandToEnclosingUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTextRange::ExpandToEnclosingUnit
+ - uiautomationclient/IUIAutomationTextRange::ExpandToEnclosingUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationTextRange.ExpandToEnclosingUnit
 ---
 
 # IUIAutomationTextRange::ExpandToEnclosingUnit
 
+
 ## -description
 
 Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
-
-## -syntax
-
-```cpp
-HRESULT ExpandToEnclosingUnit (TextUnit unit);
-```
 
 ## -parameters
 
@@ -69,6 +65,12 @@ The text unit, such as line or paragraph.
 Type: **[HRESULT](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+
+## -syntax
+
+```cpp
+HRESULT ExpandToEnclosingUnit (TextUnit unit);
+```
 
 ## -remarks
 
@@ -109,3 +111,4 @@ ExpandToEnclosingUnit respects both visible and hidden text.
 ## -see-also
 
 [IUIAutomationTextRange interface](nn-uiautomationclient-iuiautomationtextrange.md), [UI Automation Support for Textual Content](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview)
+

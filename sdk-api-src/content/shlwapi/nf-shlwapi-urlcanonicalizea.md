@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 70802745-0611-4d37-800e-b50d5ea23426
 ms.date: 12/05/2018
 ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCanonicalize, UrlCanonicalize function [Windows Shell], UrlCanonicalizeA, UrlCanonicalizeW, _win32_UrlCanonicalize, shell.UrlCanonicalize, shlwapi/UrlCanonicalize, shlwapi/UrlCanonicalizeA, shlwapi/UrlCanonicalizeW
-f1_keywords:
-- shlwapi/UrlCanonicalize
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-url-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- UrlCanonicalize
-- UrlCanonicalizeA
-- UrlCanonicalizeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UrlCanonicalizeA
+ - shlwapi/UrlCanonicalizeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-url-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - UrlCanonicalize
+ - UrlCanonicalizeA
+ - UrlCanonicalizeW
 ---
 
 # UrlCanonicalizeA function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a URL string into canonical form.
 
-
 ## -parameters
-
-
-
 
 ### -param pszUrl [in]
 
@@ -70,20 +66,17 @@ Type: <b>PCTSTR</b>
 
 A pointer to a null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains a URL string. If the string does not refer to a file, it must include a valid scheme such as "http://".
 
-
 ### -param pszCanonicalized [out]
 
 Type: <b>PTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the converted URL as a null-terminated string.
 
-
 ### -param pcchCanonicalized [in, out]
 
 Type: <b>DWORD*</b>
 
 A pointer to a value that, on entry, is set to the number of characters in the <i>pszCanonicalized</i> buffer.
-
 
 ### -param dwFlags
 
@@ -139,21 +132,13 @@ Convert any occurrence of "%" to its escape sequence.
 
 <b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function performs such tasks as replacing unsafe characters with their escape sequences and collapsing sequences like "..\...".
 
@@ -174,11 +159,5 @@ If a URL string contains "/../" or "/./", <b>UrlCanonicalize</b> treats the char
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
- 
-
- 
 

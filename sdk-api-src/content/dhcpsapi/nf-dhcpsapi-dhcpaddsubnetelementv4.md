@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 97ffcafd-a74e-49ed-9e68-043b62a9017a
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElementV4, DhcpAddSubnetElementV4 function [DHCP], dhcp.dhcpaddsubnetelementv4, dhcpsapi/DhcpAddSubnetElementV4
-f1_keywords:
-- dhcpsapi/DhcpAddSubnetElementV4
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpAddSubnetElementV4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpAddSubnetElementV4
+ - dhcpsapi/DhcpAddSubnetElementV4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpAddSubnetElementV4
 ---
 
 # DhcpAddSubnetElementV4 function
@@ -49,35 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpAddSubnetElementV4</b> function adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. This function extends <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelement">DhcpAddSubnetElement</a> by incorporating subnet elements that consider client type.
 <div class="alert"><b>Note</b>  This function is not available in Windows previous to Windows NT 4.0 Service Pack 1.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param ServerIpAddress [in]
 
 Pointer to a Unicode string that contains the IP address of the subnet DHCP server.
 
-
 ### -param SubnetAddress [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IP address of the subnet.
 
-
 ### -param AddElementInfo [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v4">DHCP_SUBNET_ELEMENT_DATA_V4</a> structure that contains the element data to add to the subnet. The V4 structure adds support for differentiation between DHCP and BOOTP clients.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -197,15 +187,8 @@ The specified address is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v4">DHCP_SUBNET_ELEMENT_DATA_V4</a>
 
@@ -216,7 +199,4 @@ The specified address is not available.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelementv5">DhcpAddSubnetElementV5</a>
- 
-
- 
 

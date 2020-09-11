@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 27adba1d-6845-4d5e-8183-9c092775b473
 ms.date: 12/05/2018
 ms.keywords: '*PEMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW structure [Windows GDI], EMREXTCREATEFONTINDIRECTW, EMREXTCREATEFONTINDIRECTW structure [Windows GDI], _win32_EMREXTCREATEFONTINDIRECTW_str, gdi.emrextcreatefontindirectw, wingdi/*PEMREXTCREATEFONTINDIRECTW, wingdi/EMREXTCREATEFONTINDIRECTW'
-f1_keywords:
-- wingdi/EMREXTCREATEFONTINDIRECTW
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- EMREXTCREATEFONTINDIRECTW
 targetos: Windows
 req.typenames: EMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEMREXTCREATEFONTINDIRECTW
+ - wingdi/tagEMREXTCREATEFONTINDIRECTW
+ - PEMREXTCREATEFONTINDIRECTW
+ - wingdi/PEMREXTCREATEFONTINDIRECTW
+ - EMREXTCREATEFONTINDIRECTW
+ - wingdi/EMREXTCREATEFONTINDIRECTW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMREXTCREATEFONTINDIRECTW
 ---
 
 # EMREXTCREATEFONTINDIRECTW structure
@@ -49,37 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EMREXTCREATEFONTINDIRECTW</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a> enhanced metafile record.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field emr
 
 The base structure for all record types.
 
-
 ### -field ihFont
 
 Index to the font in handle table.
-
 
 ### -field elfw
 
 Logical font.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
 
@@ -90,7 +81,4 @@ Logical font.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
- 
-
- 
 

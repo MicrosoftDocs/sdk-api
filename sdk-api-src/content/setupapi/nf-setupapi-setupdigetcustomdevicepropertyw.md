@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 5b8f58ce-0f6f-4de3-82c8-6cfa7c842edc
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetCustomDeviceProperty, SetupDiGetCustomDeviceProperty function [Device and Driver Installation], SetupDiGetCustomDevicePropertyA, SetupDiGetCustomDevicePropertyW, devinst.setupdigetcustomdeviceproperty, di-rtns_ec69099c-ea3f-47f8-bc14-c10dbd7cba0e.xml, setupapi/SetupDiGetCustomDeviceProperty, setupapi/SetupDiGetCustomDevicePropertyA, setupapi/SetupDiGetCustomDevicePropertyW
-f1_keywords:
-- setupapi/SetupDiGetCustomDeviceProperty
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- setupapi.dll
-api_name:
-- SetupDiGetCustomDeviceProperty
-- SetupDiGetCustomDevicePropertyA
-- SetupDiGetCustomDevicePropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetCustomDevicePropertyW
+ - setupapi/SetupDiGetCustomDevicePropertyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - setupapi.dll
+api_name:
+ - SetupDiGetCustomDeviceProperty
+ - SetupDiGetCustomDevicePropertyA
+ - SetupDiGetCustomDevicePropertyW
 ---
 
 # SetupDiGetCustomDevicePropertyW function
@@ -51,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiGetCustomDeviceProperty</b> function retrieves a specified custom device property from the registry.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to retrieve a custom device property. 
-
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to retrieve a custom device property.
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. 
-
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 ### -param CustomPropertyName [in]
 
 A registry value name representing a custom property.
-
 
 ### -param Flags [in]
 
@@ -87,21 +80,17 @@ A flag value that indicates how the requested information should be returned. Th
 
 If set, the function retrieves both device instance-specific property values and hardware ID-specific property values, concatenated as a REG_MULTI_SZ-typed string. (For more information, see the <b>Remarks</b> section on this reference page.)
 
-
 ### -param PropertyRegDataType [out, optional]
 
 A pointer to a variable of type DWORD that receives the data type of the retrieved property. The data type is specified as one of the REG_-prefixed constants that represents registry data types. This parameter is optional and can be <b>NULL</b>.
-
 
 ### -param PropertyBuffer [out]
 
 A pointer to a buffer that receives requested property information.
 
-
 ### -param PropertyBufferSize [in]
 
 The size, in bytes, of the <i>PropertyBuffer </i>buffer.
-
 
 ### -param RequiredSize [out, optional]
 
@@ -112,19 +101,11 @@ A pointer to a variable of type DWORD that receives the buffer size, in bytes, t
 
 If set, the function retrieves both device instance-specific property values and hardware ID-specific property values, concatenated as a REG_MULTI_SZ-typed string. (For more information, see the <b>Remarks</b> section on this reference page.)
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>SetupDiGetCustomDeviceProperty</b> returns <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. If the <i>PropertyBuffer </i>buffer is not large enough to receive the requested information, <b>SetupDiGetCustomDeviceProperty</b> returns <b>FALSE</b> and a subsequent call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetupDiGetCustomDeviceProperty</b> retrieves device properties that are associated with a single device instance or with all devices matching a certain hardware ID. (For information about hardware IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>).
 
@@ -143,9 +124,6 @@ The function first checks to see if the specified property exists for the specif
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>
 
 
@@ -163,7 +141,4 @@ The function first checks to see if the specified property exists for the specif
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
- 
-
- 
 

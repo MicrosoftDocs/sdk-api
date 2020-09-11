@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 72b5511a-872d-4058-9f38-9b1bdf6784c3
 ms.date: 12/05/2018
 ms.keywords: ResumeSuspendedDownload, ResumeSuspendedDownload function [WinINet], wininet.resumesuspendeddownload, wininet/ResumeSuspendedDownload
-f1_keywords:
-- wininet/ResumeSuspendedDownload
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- ResumeSuspendedDownload
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResumeSuspendedDownload
+ - wininet/ResumeSuspendedDownload
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - ResumeSuspendedDownload
 ---
 
 # ResumeSuspendedDownload function
@@ -49,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ResumeSuspendedDownload</b> function resumes a request that is suspended by a user interface dialog box.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
 Handle of the request that is suspended by a user interface dialog box.
 
-
 ### -param dwResultCode [in]
 
 The error result returned from <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>, or zero if a different dialog  is  invoked.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful; otherwise  <b>FALSE</b>. Call
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
-
-
-
 ## -remarks
-
-
 
 Applications that use WinINet functions asynchronously can call <b>ResumeSuspendedDownload</b> to resume a request that is suspended by a user interface dialog box.
 
@@ -120,19 +107,11 @@ Like all other aspects of the WinINet API, this function cannot be safely called
   return;
 }</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nc-wininet-internet_status_callback">InternetStatusCallback</a>
- 
-
- 
 

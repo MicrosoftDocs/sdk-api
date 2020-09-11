@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: d504a40f-5dc5-4c1b-960f-d41cccef9154
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],QueryProperty method, IWRdsProtocolConnection.QueryProperty, IWRdsProtocolConnection::QueryProperty, PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION, QueryProperty, QueryProperty method [Remote Desktop Services], QueryProperty method [Remote Desktop Services],IWRdsProtocolConnection interface, WRDS_QUERY_ALLOWED_INITIAL_APP, WRDS_QUERY_AUDIOENUM_DLL, WRDS_QUERY_LOGON_SCREEN_SIZE, WRDS_QUERY_MF_FORMAT_SUPPORT, termserv.iwrdsprotocolconnection_queryproperty, wtsprotocol/IWRdsProtocolConnection::QueryProperty
-f1_keywords:
-- wtsprotocol/IWRdsProtocolConnection.QueryProperty
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: Wtsdefs.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWRdsProtocolConnection.QueryProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolConnection::QueryProperty
+ - wtsprotocol/IWRdsProtocolConnection::QueryProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWRdsProtocolConnection.QueryProperty
 ---
 
 # IWRdsProtocolConnection::QueryProperty
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a property value from the protocol. This method can be used by other Windows modules to request data from or send data to the protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param QueryType [in]
 
@@ -184,38 +180,23 @@ On output, pass the following <a href="https://docs.microsoft.com/windows/deskto
 
 The number of entries in the <i>pPropertyEntriesIn</i> array.
 
-
 ### -param ulNumEntriesOut [in]
 
 The number of entries in the <i>pPropertyEntriesOut</i> array.
-
 
 ### -param pPropertyEntriesIn [in, optional]
 
 An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structures that can be used to help find the requested property information.
 
-
 ### -param pPropertyEntriesOut [out, optional]
 
 An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structures that receive the requested property values.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
- 
-
- 
 

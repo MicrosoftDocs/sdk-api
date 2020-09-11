@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 00aeac66-398a-4c80-85e2-32bff0ae100f
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetRuntimeId method, IAccessibleEx.GetRuntimeId, IAccessibleEx::GetRuntimeId, uiauto.uiauto_IAccessibleEx_GetRuntimeId, uiauto_IAccessibleEx_GetRuntimeId, uiautomationcore/IAccessibleEx::GetRuntimeId, winauto.uiauto_IAccessibleEx_GetRuntimeId
-f1_keywords:
-- uiautomationcore/IAccessibleEx.GetRuntimeId
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IAccessibleEx.GetRuntimeId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibleEx::GetRuntimeId
+ - uiautomationcore/IAccessibleEx::GetRuntimeId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IAccessibleEx.GetRuntimeId
 ---
 
 # IAccessibleEx::GetRuntimeId
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the runtime identifier of this element.
 
-
 ## -parameters
-
-
-
 
 ### -param pRetVal [out]
 
@@ -64,34 +60,19 @@ Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</
 
 Receives a pointer to the runtime identifier.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The runtime identifier is a provider-defined array of integers, the first item of which must be <b>UiaAppendRuntimeId</b>. The runtime identifier must be unique within the parent window.
 
 The MSAA-to-UIA Proxy uses the runtime identifier (together with the window handle) to determine if two interface instances refer to the same underlying element. If <b>IAccessibleEx::GetRuntimeId</b> is not implemented, the proxy performs field-by-field comparisons on the two <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> objects to determine if they are equivalent, which is less efficient.
-            
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
 
@@ -106,7 +87,4 @@ The MSAA-to-UIA Proxy uses the runtime identifier (together with the window hand
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
 ms.date: 12/05/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
-f1_keywords:
-- combaseapi/RoGetAgileReference
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- ComBase.dll
-api_name:
-- RoGetAgileReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoGetAgileReference
+ - combaseapi/RoGetAgileReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - ComBase.dll
+api_name:
+ - RoGetAgileReference
 ---
 
 # RoGetAgileReference function
@@ -51,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an agile reference for an object specified by the given interface.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 The registration options.
 
-
 ### -param riid [in]
 
 The interface ID of the object for which an agile reference is being obtained.
 
-
 ### -param pUnk [in]
 
-Pointer to the interface to be encapsulated in an agile reference. It must be the same type as <i>riid</i>. It may be a pointer to an in-process object or a pointer to a proxy of an object. 
-
+Pointer to the interface to be encapsulated in an agile reference. It must be the same type as <i>riid</i>. It may be a pointer to an in-process object or a pointer to a proxy of an object.
 
 ### -param ppAgileReference [out]
 
 The agile reference for the object. Call the <a href="https://docs.microsoft.com/windows/desktop/WinRT/iagilereference-resolve">Resolve</a> method to localize the object into the apartment in which <b>Resolve</b> is called.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,14 +137,8 @@ The object implements the <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call the <b>RoGetAgileReference</b> function on an existing object to request an agile reference to the object. The object may or may not be agile, but the returned <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a> is agile. The agile reference can be passed to another apartment within the same process, where the original object is retrieved by using the <b>IAgileReference</b> interface.
 
@@ -164,20 +148,11 @@ The agile reference feature provides a performance improvement over the GIT. The
 
 For example, you have a non-agile object named CDemoExample, which implements the IDemo and IExample interfaces. Call the <b>RoGetAgileReference</b> function and pass the object, with IID_IDemo. You get back an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a> interface pointer, which is agile, so you can pass it to a different apartment. In the other apartment, call the <a href="https://docs.microsoft.com/windows/desktop/WinRT/iagilereference-resolve">Resolve</a> method, with IID_IExample. You get back an IExample pointer that you can use within this apartment. This IExample pointer is an IExample proxy that's connected to the original CDemoExample object. The agile reference handles the complexity of operations like manually marshaling to a stream and unmarshaling on the other side of the apartment boundary.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-agilereferenceoptions">AgileReferenceOptions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a>
- 
-
- 
 

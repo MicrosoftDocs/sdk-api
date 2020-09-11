@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4a872594-dcd8-463d-9f6b-6bc40c17df38
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreOptions method, IVssBackupComponents.SetRestoreOptions, IVssBackupComponents::SetRestoreOptions, SetRestoreOptions, SetRestoreOptions method [VSS], SetRestoreOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestoreoptions, base.ivssbackupcomponents_setrestoreoptions, vsbackup/IVssBackupComponents::SetRestoreOptions
-f1_keywords:
-- vsbackup/IVssBackupComponents.SetRestoreOptions
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SetRestoreOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SetRestoreOptions
+ - vsbackup/IVssBackupComponents::SetRestoreOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SetRestoreOptions
 ---
 
 # IVssBackupComponents::SetRestoreOptions
@@ -50,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetRestoreOptions</b> method 
     sets a string of private, or writer-dependent, restore parameters for a writer component.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Writer identifier.
 
-
 ### -param ct [in]
 
 Type of the component. See <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> 
       for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -84,7 +78,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-NULL logical path.
 
-
 ### -param wszComponentName [in]
 
 Null-terminated wide character string containing the name of the component. 
@@ -94,17 +87,13 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
       to the backup set using 
       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
-
 ### -param wszRestoreOptions [in]
 
 Null-terminated wide character string containing the private string of restore parameters. For more 
       information see <a href="https://docs.microsoft.com/windows/desktop/VSS/setting-vss-restore-options">Setting VSS Restore 
       Options</a>.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -197,14 +186,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method must be called before 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>.
@@ -214,13 +197,7 @@ The exact syntax and content of the restore options set by the <i>wszRestoreOpti
     <b>SetRestoreOptions</b> method will 
     depend on the specific writer being contacted.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -231,7 +208,4 @@ The exact syntax and content of the restore options set by the <i>wszRestoreOpti
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

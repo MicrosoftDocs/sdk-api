@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: bc409abd-8c76-4310-b9e3-05fc4e0d253e
 ms.date: 12/05/2018
 ms.keywords: '*LPMSG_INFO_0, *PMSG_INFO_0, LPMSG_INFO_0, LPMSG_INFO_0 structure pointer [Network Management], MSG_INFO_0, MSG_INFO_0 structure [Network Management], PMSG_INFO_0, PMSG_INFO_0 structure pointer [Network Management], _win32_msg_info_0_str, lmmsg/LPMSG_INFO_0, lmmsg/MSG_INFO_0, lmmsg/PMSG_INFO_0, netmgmt.msg_info_0_str'
-f1_keywords:
-- lmmsg/MSG_INFO_0
-dev_langs:
-- c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmmsg.h
-api_name:
-- MSG_INFO_0
 targetos: Windows
 req.typenames: MSG_INFO_0, *PMSG_INFO_0, *LPMSG_INFO_0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MSG_INFO_0
+ - lmmsg/_MSG_INFO_0
+ - PMSG_INFO_0
+ - lmmsg/PMSG_INFO_0
+ - MSG_INFO_0
+ - lmmsg/MSG_INFO_0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmmsg.h
+api_name:
+ - MSG_INFO_0
 ---
 
 # MSG_INFO_0 structure
@@ -49,25 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>MSG_INFO_0</b> structure specifies a message alias.
 
-
 ## -struct-fields
-
-
-
 
 ### -field msgi0_name
 
 Pointer to a Unicode string that specifies the alias to which the message is to be sent. The constant LEN specifies the maximum number of characters in the string.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/message-functions">Message Functions</a>
 
@@ -86,7 +82,4 @@ Pointer to a Unicode string that specifies the alias to which the message is to 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
 

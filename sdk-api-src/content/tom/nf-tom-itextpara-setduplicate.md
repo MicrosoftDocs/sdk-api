@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetduplicate.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetDuplicate method, ITextPara.SetDuplicate, ITextPara::SetDuplicate, SetDuplicate, SetDuplicate method [Windows Controls], SetDuplicate method [Windows Controls],ITextPara interface, _win32_ITextPara_SetDuplicate, _win32_ITextPara_SetDuplicate_cpp, controls.ITextPara_SetDuplicate, controls._win32_ITextPara_SetDuplicate, tom/ITextPara::SetDuplicate
-f1_keywords:
-- tom/ITextPara.SetDuplicate
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetDuplicate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetDuplicate
+ - tom/ITextPara::SetDuplicate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetDuplicate
 ---
 
 # ITextPara::SetDuplicate
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the formatting for an existing paragraph by copying a given format. 
-
+Sets the formatting for an existing paragraph by copying a given format.
 
 ## -parameters
-
-
-
 
 ### -param pPara [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> range that contains the new paragraph formatting. 
-
+The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> range that contains the new paragraph formatting.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -134,24 +127,12 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The tomUndefined values have no effect, that is, they will not change the target values.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -166,7 +147,4 @@ The tomUndefined values have no effect, that is, they will not change the target
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

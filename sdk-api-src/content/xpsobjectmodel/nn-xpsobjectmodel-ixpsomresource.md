@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: ed3d6ea0-efe5-4917-85fa-bd9ad1978b4e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMResource, IXpsOMResource interface [XPS Documents and Packaging], IXpsOMResource interface [XPS Documents and Packaging],described, xps.ixpsomresource, xpsobjectmodel/IXpsOMResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMResource
+ - xpsobjectmodel/IXpsOMResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMResource
 ---
 
 # IXpsOMResource interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used as the base interface  for the resource interfaces of the XPS object model.
 
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -99,7 +95,4 @@ Used as the base interface  for the resource interfaces of the XPS object model.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

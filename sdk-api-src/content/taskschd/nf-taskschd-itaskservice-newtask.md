@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc
 ms.date: 12/05/2018
 ms.keywords: ITaskService interface [Task Scheduler],NewTask method, ITaskService.NewTask, ITaskService::NewTask, NewTask, NewTask method [Task Scheduler], NewTask method [Task Scheduler],ITaskService interface, taskschd.itaskservice_newtask, taskschd/ITaskService::NewTask
-f1_keywords:
-- taskschd/ITaskService.NewTask
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskService.NewTask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskService::NewTask
+ - taskschd/ITaskService::NewTask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskService.NewTask
 ---
 
 # ITaskService::NewTask
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns an empty task definition object to be filled in with settings and properties and then registered using the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">ITaskFolder::RegisterTaskDefinition</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
 This parameter is reserved for future use and must be set to 0.
-
 
 ### -param ppDefinition [out]
 
@@ -71,10 +66,7 @@ Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows
 
 The returned <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> pointer must be released after it is used.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,18 +112,8 @@ A nonzero value was passed into the <i>flags</i> parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
- 
-
- 
 

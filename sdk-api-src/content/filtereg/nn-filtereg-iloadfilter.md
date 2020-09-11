@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: 7ac51909-fa0e-4f97-8da0-0ab4c5de7d60
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter, ILoadFilter interface [search], ILoadFilter interface [search],described, filtereg/ILoadFilter, search.iloadfilter
-f1_keywords:
-- filtereg/ILoadFilter
-dev_langs:
-- c++
 req.header: filtereg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: SearchSDK.lib (for CLSID_FilterRegistration)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filtereg.h
-api_name:
-- ILoadFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILoadFilter
+ - filtereg/ILoadFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filtereg.h
+api_name:
+ - ILoadFilter
 ---
 
 # ILoadFilter interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods and properties that are implemented by the FilterRegistration object, which provides methods for loading a filter.
-
-
 
 ## -inheritance
 
@@ -96,22 +94,13 @@ This method is not implemented.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A filter, also known as a filter handler, is an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -130,7 +119,4 @@ A filter, also known as a filter handler, is an implementation of the <a href="h
 
 
 <b>Reference</b>
- 
-
- 
 

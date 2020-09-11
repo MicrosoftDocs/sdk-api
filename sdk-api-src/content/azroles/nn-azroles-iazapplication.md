@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ea4a8a84-5003-44da-b75e-34da6bd898dd
 ms.date: 12/05/2018
 ms.keywords: IAzApplication, IAzApplication interface [Security], IAzApplication interface [Security],described, azroles/IAzApplication, security.iazapplication
-f1_keywords:
-- azroles/IAzApplication
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication
+ - azroles/IAzApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication
 ---
 
 # IAzApplication interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzApplication</b> interface defines an installed instance of an application. An <b>IAzApplication</b> object is created when an application is installed.
-
 
 ## -inheritance
 
@@ -696,29 +695,17 @@ Retrieves a value that indicates whether the application can be modified by the 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <b>IAzApplication</b> object is a container in which all authorization policies that apply to an instance of an application reside.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Allowing Anonymous Access</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

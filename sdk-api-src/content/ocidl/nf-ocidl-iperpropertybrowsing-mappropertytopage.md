@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: f8cf86eb-23d1-4aa6-859a-055df99b064c
 ms.date: 12/05/2018
 ms.keywords: IPerPropertyBrowsing interface [COM],MapPropertyToPage method, IPerPropertyBrowsing.MapPropertyToPage, IPerPropertyBrowsing::MapPropertyToPage, MapPropertyToPage, MapPropertyToPage method [COM], MapPropertyToPage method [COM],IPerPropertyBrowsing interface, _ctrl_iperpropertybrowsing_mappropertytopage, com.iperpropertybrowsing_mappropertytopage, ocidl/IPerPropertyBrowsing::MapPropertyToPage
-f1_keywords:
-- ocidl/IPerPropertyBrowsing.MapPropertyToPage
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPerPropertyBrowsing.MapPropertyToPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPerPropertyBrowsing::MapPropertyToPage
+ - ocidl/IPerPropertyBrowsing::MapPropertyToPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPerPropertyBrowsing.MapPropertyToPage
 ---
 
 # IPerPropertyBrowsing::MapPropertyToPage
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the CLSID of the property page associated with the specified property.
 
-
 ## -parameters
-
-
-
 
 ### -param dispID [in]
 
 The dispatch identifier of the property.
 
-
 ### -param pClsid [out]
 
 A pointer to the CLSID identifying the property page associated with the property specified by <i>dispID</i>. If this method fails, *<i>pClsid</i> is set to CLSID_NULL.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG and E_UNEXPECTED, as well as the following values.
 
@@ -113,27 +105,12 @@ The address in <i>pClsid</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The CLSID returned from this method can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a> to specify the initial page to display in the property sheet.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
- 
-
- 
 

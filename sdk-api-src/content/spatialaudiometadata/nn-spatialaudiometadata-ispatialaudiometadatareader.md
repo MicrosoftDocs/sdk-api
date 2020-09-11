@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: BD1AD4CE-6E88-4292-AA79-E71FE00C2078
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface [Core Audio], ISpatialAudioMetadataReader interface [Core Audio],described, coreaudio.ispatialaudiometadatareader, spatialaudiometadata/ISpatialAudioMetadataReader
-f1_keywords:
-- spatialaudiometadata/ISpatialAudioMetadataReader
-dev_langs:
-- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SpatialAudioMetadata.h
-api_name:
-- ISpatialAudioMetadataReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioMetadataReader
+ - spatialaudiometadata/ISpatialAudioMetadataReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SpatialAudioMetadata.h
+api_name:
+ - ISpatialAudioMetadataReader
 ---
 
 # ISpatialAudioMetadataReader interface
 
 
 ## -description
-
 
 Provides methods for extracting
 spatial audio metadata items and item command value pairs from an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object.
@@ -58,7 +58,6 @@ groups of items within a subrange of the total frame count.  The object
 maintains an internal read position, which is advanced by the number of frames specified when read operation is performed.
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
-
 
 ## -inheritance
 
@@ -120,5 +119,5 @@ Reads metadata commands and value data for the current item.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent
-f1_keywords:
-- tapi3if/ITPhoneEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPhoneEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPhoneEvent
+ - tapi3if/ITPhoneEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPhoneEvent
 ---
 
 # ITPhoneEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITPhoneEvent</b> interface contains methods that retrieve the description of phone events that have occurred. When the application's implementation of the 
@@ -162,5 +162,5 @@ Gets a long value specifying the ring mode to which the phone has transitioned.
 
 </td>
 </tr>
-</table> 
+</table>
 

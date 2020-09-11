@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d0eac0da-2f41-40c4-b756-31bc22752c17
 ms.date: 12/05/2018
 ms.keywords: CoUnmarshalInterface, CoUnmarshalInterface function [COM], _com_CoUnmarshalInterface, com.counmarshalinterface, combaseapi/CoUnmarshalInterface
-f1_keywords:
-- combaseapi/CoUnmarshalInterface
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoUnmarshalInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoUnmarshalInterface
+ - combaseapi/CoUnmarshalInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoUnmarshalInterface
 ---
 
 # CoUnmarshalInterface function
@@ -54,33 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a newly created proxy using data written into the stream by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a> function, and returns an interface pointer to that proxy.
 
-
 ## -parameters
-
-
-
 
 ### -param pStm [in]
 
 A pointer to the stream from which the interface is to be unmarshaled.
 
-
 ### -param riid [in]
 
 A reference to the identifier of the interface to be unmarshaled. For <b>IID_NULL</b>, the returned interface is the one defined by the stream, objref.iid.
-
 
 ### -param ppv [out]
 
 The address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppv</i> contains the requested interface pointer for the unmarshaled interface.
 
-
 ## -returns
-
-
 
 This function can return the standard return value E_FAIL, errors returned by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>, and the following values.
 
@@ -156,14 +147,8 @@ The final <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unkn
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
 
@@ -180,21 +165,11 @@ The <b>CoUnmarshalInterface</b> function performs the following tasks:
 </ol>
 The primary caller of this function is COM itself, from within interface proxies or stubs that unmarshal an interface pointer. There are, however, some situations in which you might call <b>CoUnmarshalInterface</b>. For example, if you are implementing a stub, your implementation would call <b>CoUnmarshalInterface</b> when the stub receives an interface pointer as a parameter in a method call.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface">IMarshal::UnmarshalInterface</a>
- 
-
- 
 

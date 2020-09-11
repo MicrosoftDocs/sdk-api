@@ -28,6 +28,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl
 f1_keywords:
+ - IMFExtendedCameraControl
  - mfidl/IMFExtendedCameraControl
 dev_langs:
  - c++
@@ -98,8 +99,6 @@ if (capabilities & KSCAMERA_EXTENDEDPROP_VIDEOTORCH_ON)
 }
 
 ```
-
-
 
 ## -see-also
 

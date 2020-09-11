@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 23ad21a1-a298-45ac-9867-463f0852f292
 ms.date: 12/05/2018
 ms.keywords: AddVectoredContinueHandler, AddVectoredContinueHandler function, base.addvectoredcontinuehandler, errhandlingapi/AddVectoredContinueHandler
-f1_keywords:
-- errhandlingapi/AddVectoredContinueHandler
-dev_langs:
-- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-errorhandling-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-Core-errorhandling-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
-api_name:
-- AddVectoredContinueHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddVectoredContinueHandler
+ - errhandlingapi/AddVectoredContinueHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-errorhandling-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-errorhandling-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+api_name:
+ - AddVectoredContinueHandler
 ---
 
 # AddVectoredContinueHandler function
@@ -55,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a vectored continue handler.
 
-
 ## -parameters
-
-
-
 
 ### -param First
 
 TBD
-
 
 ### -param Handler
 
@@ -86,21 +81,13 @@ The order in which the handler should be called. If the parameter is nonzero, th
 A pointer to the handler to be called. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pvectored_exception_handler">VectoredHandler</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the exception handler.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>FirstHandler</i> parameter is nonzero, the handler is the first handler to be called until a subsequent call to 
 <b>AddVectoredContinueHandler</b> is used to specify a different handler as the first handler.
@@ -113,13 +100,7 @@ To unregister the handler, use the
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler">AddVectoredExceptionHandler</a>
 
@@ -134,7 +115,4 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pvectored_exception_handler">VectoredHandler</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\changefilterstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT, CHANGEFILTERSTRUCT structure [Windows and Messages], MSGFLTINFO_ALLOWED_HIGHER, MSGFLTINFO_ALREADYALLOWED_FORWND, MSGFLTINFO_ALREADYDISALLOWED_FORWND, MSGFLTINFO_NONE, PCHANGEFILTERSTRUCT, PCHANGEFILTERSTRUCT structure pointer [Windows and Messages], _win32_CHANGEFILTERSTRUCT_str, _win32_changefilterstruct_str_cpp, winmsg.changefilterstruct, winui._win32_changefilterstruct_str, winuser/CHANGEFILTERSTRUCT, winuser/PCHANGEFILTERSTRUCT'
-f1_keywords:
-- winuser/CHANGEFILTERSTRUCT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- CHANGEFILTERSTRUCT
 targetos: Windows
 req.typenames: CHANGEFILTERSTRUCT, *PCHANGEFILTERSTRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCHANGEFILTERSTRUCT
+ - winuser/tagCHANGEFILTERSTRUCT
+ - PCHANGEFILTERSTRUCT
+ - winuser/PCHANGEFILTERSTRUCT
+ - CHANGEFILTERSTRUCT
+ - winuser/CHANGEFILTERSTRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - CHANGEFILTERSTRUCT
 ---
 
 # CHANGEFILTERSTRUCT structure
@@ -49,16 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains extended result information obtained by calling
 			the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex">ChangeWindowMessageFilterEx</a> function.
-		
-
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
@@ -66,7 +65,6 @@ Type: <b>DWORD</b>
 
 The size of the structure, in bytes. 
 				Must be set to <code>sizeof(CHANGEFILTERSTRUCT)</code>, otherwise the function fails with <b>ERROR_INVALID_PARAMETER</b>.
-
 
 ### -field ExtStatus
 
@@ -132,12 +130,8 @@ The message
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Certain messages whose value is smaller than <b>WM_USER</b> are required to pass through the filter, 
 		regardless of the filter setting. There will be no effect when you attempt to use this function to allow or 
@@ -232,18 +226,8 @@ The following table lists the possible values returned in <b>ExtStatus</b>.
 <td><b>MSGFLTINFO_NONE</b></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex">ChangeWindowMessageFilterEx</a>
- 
-
- 
 

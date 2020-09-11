@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6cb98b83-cf17-451c-ba29-700408f474c7
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetCapabilities method, ISyncMgrSyncItem.GetCapabilities, ISyncMgrSyncItem::GetCapabilities, _shell_ISyncMgrSyncItem_GetCapabilities, shell.ISyncMgrSyncItem_GetCapabilities, syncmgr/ISyncMgrSyncItem::GetCapabilities
-f1_keywords:
-- syncmgr/ISyncMgrSyncItem.GetCapabilities
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrSyncItem.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSyncItem::GetCapabilities
+ - syncmgr/ISyncMgrSyncItem::GetCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrSyncItem.GetCapabilities
 ---
 
 # ISyncMgrSyncItem::GetCapabilities
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a set of flags describing the item's defined capabilities.
 
-
 ## -parameters
-
-
-
 
 ### -param pmCapabilities [out]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-sync
 
 When this method returns, contains a pointer to a bitwise combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ITEM_CAPABILITIES</a> enumeration that defines the capabilities of the item.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is called by Sync Center in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a>.
 
@@ -102,7 +90,4 @@ STDMETHODIMP CMyDeviceSyncItem::GetCapabilities(
 }
 
 ```
-
-
-
 

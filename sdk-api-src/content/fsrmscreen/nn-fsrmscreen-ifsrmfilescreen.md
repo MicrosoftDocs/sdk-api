@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 69b831a1-c935-4de0-b222-009bafc45ec5
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen, IFsrmFileScreen interface [File Server Resource Manager], IFsrmFileScreen interface [File Server Resource Manager],described, fs.ifsrmfilescreen, fsrm.ifsrmfilescreen, fsrmscreen/IFsrmFileScreen
-f1_keywords:
-- fsrmscreen/IFsrmFileScreen
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreen
+ - fsrmscreen/IFsrmFileScreen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreen
 ---
 
 # IFsrmFileScreen interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -185,12 +185,9 @@ The SID of the user whose files will be screened
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A file screen limits the types of files that the system or any user can store in a directory. When a 
     restricted file is detected, the FSRM server performs the specified actions (see 
@@ -199,13 +196,7 @@ A file screen limits the types of files that the system or any user can store in
 The file screen applies to future files—the screen is not applied retroactively. To list 
     the files in the directory that violate the screen, create a report job that lists files by type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
 
@@ -216,7 +207,4 @@ The file screen applies to future files—the screen is not applied retroactivel
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 96770760-a9af-46be-8e63-be8a86ec81ab
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemImportTarget interface [VDS],SetImportTarget method, IVdsSubSystemImportTarget.SetImportTarget, IVdsSubSystemImportTarget::SetImportTarget, SetImportTarget, SetImportTarget method [VDS], SetImportTarget method [VDS],IVdsSubSystemImportTarget interface, base.ivdssubsystemimporttarget_setimporttarget, vds/IVdsSubSystemImportTarget::SetImportTarget
-f1_keywords:
-- vds/IVdsSubSystemImportTarget.SetImportTarget
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsSubSystemImportTarget.SetImportTarget
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsSubSystemImportTarget::SetImportTarget
+ - vds/IVdsSubSystemImportTarget::SetImportTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsSubSystemImportTarget.SetImportTarget
 ---
 
 # IVdsSubSystemImportTarget::SetImportTarget
@@ -50,28 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the Volume Shadow Copy service (VSS) import target for the computer for this subsystem. Whenever shadow copies 
    are created and a LUN from a shadow copy set from the subsystem is imported onto this computer, it will be associated 
    with the import target by the VSS hardware provider.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszIscsiName [in]
 
 The <b>VDS_OBJECT_ID</b> of the target to set as the import target. Use 
       <b>GUID_NULL</b> to clear the current import target for this subsystem.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -132,22 +125,12 @@ The operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdssubsystemimporttarget-getimporttarget">GetImportTarget</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdssubsystemimporttarget">IVdsSubSystemImportTarget</a>
- 
-
- 
 

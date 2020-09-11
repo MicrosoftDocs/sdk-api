@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 15dcc80d-ef58-453d-a57a-348ffc7ddc6b
 ms.date: 12/05/2018
 ms.keywords: IWICBitmap, IWICBitmap interface [Windows Imaging Component], IWICBitmap interface [Windows Imaging Component],described, _wic_codec_iwicbitmap, wic._wic_codec_iwicbitmap, wincodec/IWICBitmap
-f1_keywords:
-- wincodec/IWICBitmap
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmap
+ - wincodec/IWICBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmap
 ---
 
 # IWICBitmap interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines methods that add the concept of writeability and static in-memory representations of bitmaps to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. 
-
+Defines methods that add the concept of writeability and static in-memory representations of bitmaps to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>.
 
 ## -inheritance
 
@@ -95,20 +94,14 @@ Changes the physical resolution of the image.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IWICBitmap</b> inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> and therefore also inherits the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> method.
             When pixels need to be moved to a new memory location, <b>CopyPixels</b> is often the most efficient.
          
 
 Because of to the internal memory representation implied by the <b>IWICBitmap</b>, in-place modification and processing using the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> is more efficient than <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>, usually reducing to a simple pointer access directly into the memory owned by the bitmap rather than a as a copy. 
-            This is contrasted to procedural bitmaps which implement only <b>CopyPixels</b> because there is no internal memory representation and one would need to be created on demand to satisfy a call to <b>Lock</b>. 
-         
-
-
+            This is contrasted to procedural bitmaps which implement only <b>CopyPixels</b> because there is no internal memory representation and one would need to be created on demand to satisfy a call to <b>Lock</b>.
 

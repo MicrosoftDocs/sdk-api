@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: da6fa117-9152-4289-aa92-79903b84bd3e
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideComponent, MsiProvideComponent function, MsiProvideComponentA, MsiProvideComponentW, _msi_msiprovidecomponent, combination of the REINSTALLMODE flags, msi/MsiProvideComponent, msi/MsiProvideComponentA, msi/MsiProvideComponentW, setup.msiprovidecomponent
-f1_keywords:
-- msi/MsiProvideComponent
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiProvideComponent
-- MsiProvideComponentA
-- MsiProvideComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiProvideComponentW
+ - msi/MsiProvideComponentW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiProvideComponent
+ - MsiProvideComponentA
+ - MsiProvideComponentW
 ---
 
 # MsiProvideComponentW function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiProvideComponent</b> function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that contains the feature with the necessary component.
 
-
 ### -param szFeature [in]
 
 Specifies the feature ID of the feature with the necessary component.
 
-
 ### -param szComponent [in]
 
 Specifies the component code of the necessary component.
-
 
 ### -param dwInstallMode [in]
 
@@ -151,13 +144,10 @@ Provide the component only if the feature's installation state is INSTALLSTATE_L
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpPathBuf [out]
 
 Pointer to a variable that receives the path to the component. This parameter can be null.
-
 
 ### -param pcchPathBuf [in, out]
 
@@ -168,10 +158,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpPathBuf</i> is null, <i>pcchBuf</i> can be null.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -305,12 +292,7 @@ Unable to detect a source.
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
-
-
-
 ## -remarks
-
-
 
 Upon success of the 
 <b>MsiProvideComponent</b> function, the <i>pcchPathBuf</i> parameter contains the length of the string in <i>lpPathBuf</i>.
@@ -342,15 +324,9 @@ Features with components containing a corrupted file or the wrong version of a f
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
 

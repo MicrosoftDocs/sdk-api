@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: fae10e9e-0c2b-4817-bd28-a4a85ca180cc
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,described, ncd.iwsdhttpmessageparameters, wsdbase/IWSDHttpMessageParameters
-f1_keywords:
-- wsdbase/IWSDHttpMessageParameters
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpMessageParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpMessageParameters
+ - wsdbase/IWSDHttpMessageParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpMessageParameters
 ---
 
 # IWSDHttpMessageParameters interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the HTTP headers used when transmitting messages via SOAP-over-HTTP.
-
 
 ## -inheritance
 
@@ -149,16 +148,9 @@ Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
- 
-
- 
 

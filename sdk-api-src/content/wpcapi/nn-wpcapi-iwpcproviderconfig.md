@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: 008786aa-72ef-4591-8826-01176d3e3fba
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfig interface,described, parcon.iwpcproviderconfig, wpcapi/IWPCProviderConfig
-f1_keywords:
-- wpcapi/IWPCProviderConfig
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCProviderConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCProviderConfig
+ - wpcapi/IWPCProviderConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCProviderConfig
 ---
 
 # IWPCProviderConfig interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes configuration methods that are implemented by third parties. Parental Controls uses the CLSID from the provider's ConfigCLSID registry details to call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>. The <b>CLSCTX_LOCAL_SERVER</b> flag is used when creating an instance of the class.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Retrieves the information for each user by using the Parental Controls Control P
 
 </td>
 </tr>
-</table> 
+</table>
 

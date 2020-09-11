@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 074666a7-369c-43bc-97d9-3bcc9703976b
 ms.date: 12/05/2018
 ms.keywords: CryptContextAddRef, CryptContextAddRef function [Security], _crypto2_cryptcontextaddref, security.cryptcontextaddref, wincrypt/CryptContextAddRef
-f1_keywords:
-- wincrypt/CryptContextAddRef
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptContextAddRef
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptContextAddRef
+ - wincrypt/CryptContextAddRef
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptContextAddRef
 ---
 
 # CryptContextAddRef function
@@ -51,37 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptContextAddRef</b> function adds one to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> of an 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) handle. This function should be used if the CSP handle is included as a member of any structure passed to another function. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function should be called when the CSP handle is no longer needed.
 
-
 ## -parameters
-
-
-
 
 ### -param hProv [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented. This handle must have already been created using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
-
 
 ### -param pdwReserved [in]
 
 Reserved for future use and must be <b>NULL</b>.
 
-
 ### -param dwFlags [in]
 
 Reserved for future use and must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -105,14 +95,8 @@ One of the parameters contains a value that is not valid. This is most often a p
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function increases the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> on a 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle so that multiple calls to 
@@ -153,12 +137,7 @@ For another example that uses this function, see <a href="https://docs.microsoft
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
@@ -169,7 +148,4 @@ For another example that uses this function, see <a href="https://docs.microsoft
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
- 
-
- 
 

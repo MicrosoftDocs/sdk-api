@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1004353a-f907-4452-9c0f-85eba0ece813
 ms.date: 12/05/2018
 ms.keywords: AddAccessAllowedAce, AddAccessAllowedAce function [Security], _win32_addaccessallowedace, security.addaccessallowedace, securitybaseapi/AddAccessAllowedAce
-f1_keywords:
-- securitybaseapi/AddAccessAllowedAce
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- AddAccessAllowedAce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddAccessAllowedAce
+ - securitybaseapi/AddAccessAllowedAce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - AddAccessAllowedAce
 ---
 
 # AddAccessAllowedAce function
@@ -56,24 +57,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddAccessAllowedAce</b> function adds an access-allowed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). The access is granted to a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 To control whether the new ACE can be inherited by child objects, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex">AddAccessAllowedAceEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param pAcl [in, out]
 
 A pointer to an 
 ACL. This function adds an access-allowed ACE to the end of this ACL. The ACE is in the form of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
-
 
 ### -param dwAceRevision [in]
 
@@ -82,21 +77,16 @@ Specifies the revision level of the ACL being modified.
 
 This value can be ACL_REVISION or ACL_REVISION_DS. Use ACL_REVISION_DS if the ACL contains object-specific ACEs.
 
-
 ### -param AccessMask [in]
 
 Specifies the mask of access rights to be granted to the specified SID.
-
 
 ### -param pSid [in]
 
 A pointer to the 
 SID  representing a user, group, or logon account being granted access.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -164,14 +154,8 @@ The ACE was successfully added.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The addition of an access-allowed ACE to an ACL is the most common form of ACL modification.
 
@@ -187,12 +171,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
@@ -231,7 +210,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
- 
-
- 
 

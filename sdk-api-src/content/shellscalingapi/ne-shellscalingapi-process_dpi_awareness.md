@@ -8,10 +8,6 @@ tech.root: hidpi
 ms.assetid: 50130739-E8A8-4B92-9B80-3BBBE57EBE0C
 ms.date: 12/05/2018
 ms.keywords: PROCESS_DPI_AWARENESS, PROCESS_DPI_AWARENESS enumeration [High DPI], PROCESS_DPI_UNAWARE, PROCESS_PER_MONITOR_DPI_AWARE, PROCESS_SYSTEM_DPI_AWARE, hidpi.process_dpi_awareness, shellscalingapi/PROCESS_DPI_AWARENESS, shellscalingapi/PROCESS_DPI_UNAWARE, shellscalingapi/PROCESS_PER_MONITOR_DPI_AWARE, shellscalingapi/PROCESS_SYSTEM_DPI_AWARE
-f1_keywords:
-- shellscalingapi/PROCESS_DPI_AWARENESS
-dev_langs:
-- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ShellScalingApi.h
-api_name:
-- PROCESS_DPI_AWARENESS
 targetos: Windows
 req.typenames: PROCESS_DPI_AWARENESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PROCESS_DPI_AWARENESS
+ - shellscalingapi/PROCESS_DPI_AWARENESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ShellScalingApi.h
+api_name:
+ - PROCESS_DPI_AWARENESS
 ---
 
 # PROCESS_DPI_AWARENESS enumeration
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies dots per inch (dpi) awareness values. DPI awareness indicates how much scaling work an application performs for DPI versus how much is done by the system.
 
 Users have the ability to set the DPI scale factor on their displays independent of each other. Some legacy applications are not able to adjust their scaling for multiple DPI settings. In order for users to use these applications without content appearing too large or small on displays, Windows can apply DPI virtualization to an application, causing it to be automatically be scaled by the system to match the DPI of the current display. The <b>PROCESS_DPI_AWARENESS</b> value indicates what level of scaling your application handles on its own and how much is provided by Windows. Keep in mind that applications scaled by the system may appear blurry and will read virtualized data about the monitor to maintain compatibility.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PROCESS_DPI_UNAWARE
 
 DPI unaware. This app does not scale for DPI changes and is always assumed to have a scale factor of 100% (96 DPI). It will be automatically scaled by the system on any other DPI setting.
 
-
 ### -field PROCESS_SYSTEM_DPI_AWARE
 
 System DPI aware. This app does not scale for DPI changes. It will query for the DPI once and use that value for the lifetime of the app. If the DPI changes, the app will not adjust to the new DPI value. It will be automatically scaled up or down by the system when the DPI changes from the system value.
-
 
 ### -field PROCESS_PER_MONITOR_DPI_AWARE
 
 Per monitor DPI aware. This app checks for the DPI when it is created and adjusts the scale factor whenever the DPI changes. These applications are not automatically scaled by the system.
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Important</b>  <p class="note">Previous versions of Windows required you to set the DPI awareness for the entire application. Now the DPI awareness is tied to individual threads, processes, or windows. This means that the DPI awareness can change while the app is running and that multiple windows can have their own independent DPI awareness values. See <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> for more information about how DPI awareness currently works. The recommendations below about setting the DPI awareness in the application manifest are still supported, but the current recommendation is to use the <b>DPI_AWARENESS_CONTEXT</b>.
 
@@ -139,17 +130,7 @@ This snippet demonstrates how to set a value of <b>PROCESS_PER_MONITOR_DPI_AWARE
 <dpiAware>true/PM</dpiAware>
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>
- 
-
- 
 

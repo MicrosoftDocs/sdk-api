@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 002d85a7-8bc3-422e-8ced-1907ac121d7b
 ms.date: 12/05/2018
 ms.keywords: 002d85a7-8bc3-422e-8ced-1907ac121d7b, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], IMFSimpleAudioVolume interface [Media Foundation],described, mf.imfsimpleaudiovolume, mfidl/IMFSimpleAudioVolume
-f1_keywords:
-- mfidl/IMFSimpleAudioVolume
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSimpleAudioVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSimpleAudioVolume
+ - mfidl/IMFSimpleAudioVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSimpleAudioVolume
 ---
 
 # IMFSimpleAudioVolume interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the master volume level of the audio session associated with the streaming audio renderer (SAR) and the audio capture source.
 
 The SAR and the audio capture source expose this interface as a service. To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. For the SAR, use the service identifier MR_POLICY_VOLUME_SERVICE. For the audio capture source, use the service identifier MR_CAPTURE_POLICY_VOLUME_SERVICE.  You can call <b>GetService</b> directly on the SAR or the audio capture source, or call it on the Media Session.
-
 
 ## -inheritance
 
@@ -107,12 +106,9 @@ Mutes or unmutes the audio.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To control the volume levels of individual channels, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume">IMFAudioStreamVolume</a> interface. The <b>IMFAudioStreamVolume</b>   interface is supported by the SAR only.
 
@@ -137,20 +133,11 @@ Attenuation (dB) = 20 * log10(<i>Level</i>)
 
 For example, a volume level of 0.50 represents 6.02 dB of attenuation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
- 
-
- 
 

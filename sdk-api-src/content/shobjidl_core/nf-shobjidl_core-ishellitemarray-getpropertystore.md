@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 138a604f-e8dd-48ee-9678-a0530c1a16f2
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Shell], GetPropertyStore method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetPropertyStore method, IShellItemArray.GetPropertyStore, IShellItemArray::GetPropertyStore, _shell_IShellItemArray_GetPropertyStore, shell.IShellItemArray_GetPropertyStore, shobjidl_core/IShellItemArray::GetPropertyStore
-f1_keywords:
-- shobjidl_core/IShellItemArray.GetPropertyStore
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellItemArray.GetPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellItemArray::GetPropertyStore
+ - shobjidl_core/IShellItemArray::GetPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellItemArray.GetPropertyStore
 ---
 
 # IShellItemArray::GetPropertyStore
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a property store.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-prop
 
 One of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a> constants.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 The IID of the object type to retrieve.
-
 
 ### -param ppv [out]
 
@@ -78,21 +72,13 @@ Type: <b>void**</b>
 
 When this method returns, contains interface pointer requested in riid.  This is typically <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to obtain a read-only property store that aggregates properties gathered from all the items in the shell item array.
 
@@ -118,6 +104,4 @@ Calls to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-prop
 Calling applications may achieve other aggregation behaviors by accessing the individual shell items and their property stores directly.  See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)">IPropertyStore::GetCount</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)">IPropertyStore::GetAt</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">GetPropertyStore</a>.
 
 Writing to an array of shell items is supported via the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> API.
-
-
 

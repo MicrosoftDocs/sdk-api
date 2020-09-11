@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 83b56211-0483-4e22-90b4-83ac5eaaa2f4
 ms.date: 12/05/2018
 ms.keywords: '*LPDDOVERLAYFX, DDOVERFX_ARITHSTRETCHY, DDOVERFX_MIRRORLEFTRIGHT, DDOVERFX_MIRRORUPDOWN, DDOVERLAYFX, DDOVERLAYFX structure [DirectDraw], LPDDOVERLAYFX, LPDDOVERLAYFX structure pointer [DirectDraw], ddraw/DDOVERLAYFX, ddraw/LPDDOVERLAYFX, directdraw.ddoverlayfx'
-f1_keywords:
-- ddraw/DDOVERLAYFX
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ddraw.h
-api_name:
-- DDOVERLAYFX
 targetos: Windows
 req.typenames: DDOVERLAYFX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDOVERLAYFX
+ - ddraw/_DDOVERLAYFX
+ - DDOVERLAYFX
+ - ddraw/DDOVERLAYFX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ddraw.h
+api_name:
+ - DDOVERLAYFX
 ---
 
 # DDOVERLAYFX structure
@@ -49,81 +52,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DDOVERLAYFX</b> structure passes overlay information to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a> method.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
 
-
 ### -field dwAlphaEdgeBlendBitDepth
 
 Bit depth used to specify the constant for an alpha edge blend.
-
 
 ### -field dwAlphaEdgeBlend
 
 Constant to use as the alpha for an edge blend.
 
-
 ### -field dwReserved
 
 Reserved
-
 
 ### -field dwAlphaDestConstBitDepth
 
 Bit depth used to specify the alpha constant for a destination.
 
-
 ### -field DUMMYUNIONNAMEN.dwAlphaDestConst
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.lpDDSAlphaDest
-
- 
-
 
 ### -field dwAlphaSrcConstBitDepth
 
 Bit depth used to specify the alpha constant for a source.
 
-
 ### -field DUMMYUNIONNAMEN
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwAlphaSrcConst
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.lpDDSAlphaSrc
-
- 
-
 
 ### -field dckDestColorkey
 
 Destination color key for the overlay.
 
-
 ### -field dckSrcColorkey
 
 Source color key for the overlay.
-
 
 ### -field dwDDFX
 
@@ -147,15 +120,11 @@ Mirror the overlay around the vertical axis.
 
 Mirror the overlay around the horizontal axis.
 
-
 ### -field dwFlags
 
 Currently not used and must be set to 0.
 
-
 ### -field DUMMYUNIONNAMEN(1)
-
-
 
 #### dwAlphaDestConst
 
@@ -167,10 +136,7 @@ Constant to use as the alpha channel for a destination.
 
 Address of a surface to use as the alpha channel for a destination.
 
-
 ### -field DUMMYUNIONNAMEN(2)
-
-
 
 #### dwAlphaSrcConst
 
@@ -182,14 +148,7 @@ Constant to use as the alpha channel for a source.
 
 Address of a surface to use as the alpha channel for a source.
 
-
 ## -remarks
 
-
-
 The unions in this structure have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the Ddraw.h header file.
-
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 61110f24-aa3b-4c51-9205-acac92e03554
 ms.date: 12/05/2018
 ms.keywords: WinBioLocateSensor, WinBioLocateSensor function [Windows Biometric Framework API], secbiomet.winbiolocatesensor, winbio/WinBioLocateSensor
-f1_keywords:
-- winbio/WinBioLocateSensor
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioLocateSensor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioLocateSensor
+ - winbio/WinBioLocateSensor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioLocateSensor
 ---
 
 # WinBioLocateSensor function
@@ -52,28 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the ID number of a biometric unit selected interactively by a user.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>.
 
-
 ### -param UnitId [out, optional]
 
 A pointer to a <b>ULONG</b> value that specifies the biometric unit.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -116,14 +108,8 @@ The operation could not be completed because the biometric unit is currently bei
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use this function on systems with multiple sensors to determine which sensor is preferred for enrollment by the user. No identification information is returned by this function. It is provided only to indicate user sensor selection.
 
@@ -204,17 +190,7 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiolocatesensorwithcallback">WinBioLocateSensorWithCallback</a>
- 
-
- 
 

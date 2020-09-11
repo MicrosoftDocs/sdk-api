@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\submit2.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument2 interface [Fax Service],Submit2 method, IFaxDocument2.Submit2, IFaxDocument2::Submit2, Submit2, Submit2 method [Fax Service], Submit2 method [Fax Service],IFaxDocument2 interface, _mfax_faxdocument2.submit2, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_submit2_cpp, fax._mfax_faxdocument2_submit2, faxcomex/IFaxDocument2::Submit2
-f1_keywords:
-- faxcomex/IFaxDocument2.Submit2
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxDocument2.Submit2
-- IFaxDocument2.Submit2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDocument2::Submit2
+ - faxcomex/IFaxDocument2::Submit2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxDocument2.Submit2
+ - IFaxDocument2.Submit2
 ---
 
 # IFaxDocument2::Submit2
 
 
 ## -description
-
 
 Submits one or more documents to the fax service for processing.
 
@@ -58,15 +58,11 @@ Submits one or more documents to the fax service for processing.
 
 ## -parameters
 
-
-
-
 ### -param bstrFaxServerName [in]
 
 Type: <b>BSTR</b>
 
 <b>BSTR</b> that specifies a fax server. If this parameter is <b>NULL</b> or an empty string, the local fax server is specified.
-
 
 ### -param pvFaxOutgoingJobIDs [out]
 
@@ -74,28 +70,19 @@ Type: <b>VARIANT*</b>
 
 <b>VARIANT</b> that specifies a collection of outbound job IDs, one for each recipient of the fax.
 
-
 ### -param plErrorBodyFile [out, retval]
 
 Type: <b>LONG*</b>
 
 A <b>LONG</b> representing the zero-based position of the submitted file that caused the fax send operation to fail. See Remarks.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 You must set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument2-bodies-vb">IFaxDocument2::Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>IFaxDocument2::Submit2</b>. 
 
@@ -117,20 +104,11 @@ As an example of <i>plErrorBodyFile</i>, consider the following example: The fol
 
 Because the "*.pdf" extension is not supported, the send operation will fail and <i>plErrorBodyFile</i> will return as 2.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument2">IFaxDocument2</a>
- 
-
- 
 

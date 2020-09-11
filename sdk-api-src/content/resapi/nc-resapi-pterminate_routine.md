@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3
 ms.date: 12/05/2018
 ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover Cluster], Terminate, Terminate callback, Terminate callback function [Failover Cluster], _wolf_terminate, mscs.terminate, resapi/PTERMINATE_ROUTINE, resapi/Terminate
-f1_keywords:
-- resapi/Terminate
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- Terminate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PTERMINATE_ROUTINE
+ - resapi/PTERMINATE_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - Terminate
 ---
 
 # PTERMINATE_ROUTINE callback function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Immediately marks a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use 
     without waiting for cleanup processing to be completed. The 
     <b>PTERMINATE_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param Resource [in]
 
 Resource identifier for the resource to be made unavailable.
 
-
 ## -remarks
-
-
 
 The <i>Terminate</i> entry-point function instantly marks a 
      resource as unavailable for use. If there is a thread processing an 
@@ -86,15 +79,7 @@ See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Res
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
 

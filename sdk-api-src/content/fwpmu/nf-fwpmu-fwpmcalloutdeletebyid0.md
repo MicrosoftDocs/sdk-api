@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: fcd591c3-0d3d-48af-933f-ebf02a447b41
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Filtering], fwp.fwpmcalloutdeletebyid0_func, fwpmu/FwpmCalloutDeleteById0
-f1_keywords:
-- fwpmu/FwpmCalloutDeleteById0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmCalloutDeleteById0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmCalloutDeleteById0
+ - fwpmu/FwpmCalloutDeleteById0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmCalloutDeleteById0
 ---
 
 # FwpmCalloutDeleteById0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmCalloutDeleteById0</b> function removes a callout object from the system.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,17 +60,13 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param id [in]
 
 Type: <b>UINT32</b>
 
 The runtime identifier for the callout being removed from the system. This identifier was received from the system when the application called <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutadd0">FwpmCalloutAdd0</a> for this object.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -120,14 +112,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An applications's callouts cannot be removed from the system as long as there are filters in the system that specify the callouts for an action.
 
@@ -140,20 +126,11 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/st
 
 <b>FwpmCalloutDeleteById0</b> is a specific implementation of FwpmCalloutDeleteById. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutadd0">FwpmCalloutAdd0</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/ff550069.aspx">Kernel-Mode FwpmCalloutDeleteById0</a>
- 
-
- 
 

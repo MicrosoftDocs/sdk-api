@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: C637E67A-CED7-4235-AAF3-22730E9C7E91
 ms.date: 12/05/2018
 ms.keywords: IWscProduct, IWscProduct interface [Windows API], IWscProduct interface [Windows API],described, iwscapi/IWscProduct, winprog.iwscproduct
-f1_keywords:
-- iwscapi/IWscProduct
-dev_langs:
-- c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wsccapi.lib
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsccapi.lib
-api_name:
-- IWscProduct
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWscProduct
+ - iwscapi/IWscProduct
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsccapi.lib
+api_name:
+ - IWscProduct
 ---
 
 # IWscProduct interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for getting product information for an individual provider to interact with Windows Security Center.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Returns the current status of the signature data for the security product.
 
 </td>
 </tr>
-</table> 
+</table>
 

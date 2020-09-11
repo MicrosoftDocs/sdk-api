@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 6461fd21-1726-4d24-8a17-d687b807b8e3
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkDirect method, ITBasicCallControl.ParkDirect, ITBasicCallControl::ParkDirect, ParkDirect, ParkDirect method [TAPI 2.2], ParkDirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkdirect, tapi3.itbasiccallcontrol_parkdirect, tapi3if/ITBasicCallControl::ParkDirect
-f1_keywords:
-- tapi3if/ITBasicCallControl.ParkDirect
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicCallControl.ParkDirect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicCallControl::ParkDirect
+ - tapi3if/ITBasicCallControl::ParkDirect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicCallControl.ParkDirect
 ---
 
 # ITBasicCallControl::ParkDirect
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ParkDirect</b> method parks the call at a specified address.
 
-
 ## -parameters
-
-
-
 
 ### -param pParkAddress [in]
 
 Pointer to <b>BSTR</b> containing the address where the call is to be parked.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -142,14 +135,8 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some service providers do not support this operation while streaming is active. The application may need to call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
@@ -168,13 +155,7 @@ The application must use
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pParkAddress</i> parameter and use 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
@@ -189,7 +170,4 @@ The application must use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linepark">linePark</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c
 ms.date: 12/05/2018
 ms.keywords: EngCreateBitmap, EngCreateBitmap function [Display Devices], display.engcreatebitmap, gdifncs_fde5f304-b931-449c-bba5-3a9f3d814687.xml, winddi/EngCreateBitmap
-f1_keywords:
-- winddi/EngCreateBitmap
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngCreateBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngCreateBitmap
+ - winddi/EngCreateBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngCreateBitmap
 ---
 
 # EngCreateBitmap function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>EngCreateBitmap</b> function requests that GDI create and manage a bitmap. 
-
+The <b>EngCreateBitmap</b> function requests that GDI create and manage a bitmap.
 
 ## -parameters
-
-
-
 
 ### -param sizl
 
@@ -64,11 +60,9 @@ Specifies a SIZEL structure whose members contain the width and height, in pixel
 
 If <i>pvBits</i> is not <b>NULL</b>, this value should represent all pixels visible on the device, allowing the device to keep <a href="https://docs.microsoft.com/windows-hardware/drivers/">off-screen memory</a>.
 
-
 ### -param lWidth
 
 Specifies the allocation width of the bitmap, which is the number of bytes that must be added to a pointer to move down one scan line.
-
 
 ### -param iFormat [in]
 
@@ -160,8 +154,6 @@ BMF_8RLE
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fl [in]
 
@@ -203,26 +195,16 @@ GDI will allocate the memory for the bitmap from user memory. By default, the me
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvBits [in]
 
 Pointer to the first scan line of the bitmap that is to be created. If this parameter is <b>NULL</b>, GDI allocates the storage space for the pixels of the bitmap. If <i>pvBits</i> is not <b>NULL</b>, it is a pointer to the buffer for the bitmap.
 
-
 ## -returns
-
-
 
 If the function completes successfully, the return value is a handle that identifies the created bitmap. Otherwise, the return value is 0. <b>EngCreateBitmap</b> does not log an error code.
 
-
-
-
 ## -remarks
-
-
 
 Storage for the bitmap can optionally be provided by the driver.
 
@@ -232,20 +214,11 @@ The bitmap should be deleted by using <a href="https://docs.microsoft.com/window
 
 Frame buffer display drivers should use the <i>pvBits</i> parameter, allowing GDI to do most drawing directly to the display.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>
- 
-
- 
 

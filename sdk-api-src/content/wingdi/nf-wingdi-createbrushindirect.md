@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 75f94ad1-ca25-4ad1-9e8c-ad1a4b8475a7
 ms.date: 12/05/2018
 ms.keywords: CreateBrushIndirect, CreateBrushIndirect function [Windows GDI], _win32_CreateBrushIndirect, gdi.createbrushindirect, wingdi/CreateBrushIndirect
-f1_keywords:
-- wingdi/CreateBrushIndirect
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- CreateBrushIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateBrushIndirect
+ - wingdi/CreateBrushIndirect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - CreateBrushIndirect
 ---
 
 # CreateBrushIndirect function
@@ -51,34 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateBrushIndirect</b> function creates a logical brush that has the specified style, color, and pattern.
 
-
 ## -parameters
-
-
-
 
 ### -param plbrush [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure that contains information about the brush.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value identifies a logical brush.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 A brush is a bitmap that the system uses to paint the interiors of filled shapes.
 
@@ -90,13 +78,7 @@ When you no longer need the brush, call the <a href="https://docs.microsoft.com/
 
 <b>ICM:</b> No color is done at brush creation. However, color management is performed when the brush is selected into an ICM-enabled device context.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
@@ -123,7 +105,4 @@ When you no longer need the brush, call the <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
- 
-
- 
 
